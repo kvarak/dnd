@@ -1,0 +1,71 @@
+body {
+  background-image: url("../images/page-background.jpg");
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+a {
+  text-decoration:none;
+  color: white;
+}
+
+a:focus, a:hover {
+  color: white;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+.menuDivider {
+  background: #d42129;
+  border: 0;
+  color: white;
+  display: flex;
+  padding: 2px 5px 2px 5px;
+  cursor: pointer;
+}
+.menuHeader {
+  cursor: pointer;
+  padding: 5px;
+  background: #d42129;
+  border: 0;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.last {
+  border-bottom-left-radius: 10px;
+}
+
+.subMenu {
+  cursor: pointer;
+  display: flex;
+  padding: 2px 5px 2px 5px;
+  background: #ED1B24;
+  border: 0;
+  color: white;
+}
+
+.subMenu:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  width: 400px;
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#main {
+  height: 297mm;
+}
