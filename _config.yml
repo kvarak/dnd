@@ -1,2 +1,6 @@
 theme: null
 baseurl: https://kvarak.github.io/dnd
+
+markdown: kramdown
+#kramdown:
+#  parse_block_html: true

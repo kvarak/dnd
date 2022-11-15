@@ -1,411 +1,708 @@
 # Skills
-In addition to the ones a character gets at character creation, gain a skill point each level.  Each skill costs 1 skill point.
 
-* Feats are not used anymore.
+A skill represents a specific knowledge and an individual’s level of proficiency in a skill demonstrates a focus on that aspect.
 
-* Terms
-  * Cumulative. This can be taken several times. Cost increases by 1 each time.
-  * Expertise. Advantage on checks using this proficiency
-  * Expertise (Ability X, Ability Y). You have advantage, but one of the dice uses ability modifier X and the other ability modifier Y.
-  * Group. You cannot learn this as it is a group of skills. Select one of the skills in the description.
-  * Synergy (X). If you have proficiency with skill X, gain advantage when using that skill.
-  * Trait. A trait is like a binary skill; either you can do it or not. A roll is not required in most cases.
-  * Untrained. Unless a trait or a specialized activity, this skill can normally be attempted without having proficiency.
-  * → X. If you have proficiency with skill X, the cost of this skill is reduced by 1.
+### When do I get skills?
+You will get skill points to select skills during character creation, as well as when you level up.
+- During character creation, when rolling your background, you will get skills appropriate for the events in your life. If you get less than 3 skills (4 for humans), you can select additional skills so that you have 3. Additionally you always gain the appropriate Culture skill (unless living as a hermit or similar). Skills found in Background Skills are only available at this time.
+- Each class receives a number of skill points for which to buy skills from a list of class skills.
+- Each time you level up, you gain 1 skill point, which you can use to buy any skill.
+- In addition, classes may have class features that grant skills or skill points.
 
-* Ability score increase 2 p
-* Remove cumulative stat inc
-* Add cumulative +1 to skills after expertise is achieved
+### Spending skill points
+Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must know the skill right above it in the “skill tree”. You can save skill points, and are allowed to spend them at a later time, after finishing a long rest. Additionally you can spend skill points the following ways.
+- **Ability Score Increase**. You can spend 2 skill points to increase an ability score by 1.
+- **Improved Proficiency**. After you have Expertise with a skill, you can spend 2 skill points to gain +1 to all checks with that skill. You can improve it even further, increasing the cost by 1 point each time you buy this.
 
+### Terms
+- **Cost: X**. This skill costs a number of skill points equal to X.
+- **Expertise**. You have advantage on checks using this proficiency.
+- **Expertise (Ability X, Ability Y)**. You have advantage, but one of the dice uses ability modifier X and the other ability modifier Y.
+- **Group**. This is a group of skills, so you do not learn it completely. Select one of the skills in the description instead.
+- **Synergy (X)**. If you have proficiency with skill X, gain advantage when using that skill.
+- **Trait**. A trait is like a binary skill; either you can do it or not. A roll is not required in most cases.
+- **Untrained**. Unless a trait or a specialized activity, this skill can normally be attempted without having proficiency.
+- **→ X**. If you have proficiency with skill X, the cost of this skill is reduced by 1.
 
 ## Untrained Skills
-### Acrobatics (Untrained)
+<details>
+  <summary>Acrobatics (Untrained)</summary>
+  This skill mixes various physical performances with feats of extraordinary balance, agility and coordination. It incorporates numerous amusements and stunts which can be performed for an audience, as well as tricks that can serve the character well in other ventures, such as staying on your feet when trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ships’ deck. It is commonly mastered by jugglers, tumblers, aerialists and other circus performers — persons fascinating to watch but not of particularly high social standing.
+  <details>
+    <summary>Aerial Acrobatics</summary>
+    Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have Expertise (Dex, Cha). During adventuring you could use this skill with Expertise to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
+  </details>
+  <details>
+    <summary>Contortion (trait)</summary>
+    The skill of extreme physical flexibility. This skill allows you to squeeze through very tight spaces as long as your head fits. You have Expertise to escape grapples.
+    <details>
+      <summary>Body Packing (trait)</summary>
+      You can squeeze your body into a small, knee-high box or other contained space which appears as being too small to contain you.
+    </details>
+    <details>
+      <summary>Dislocation (trait)</summary>
+      You can easily dislocate your shoulders and with a bit more effort even your hip joints. This allows you to escape most bonds given time.
+    </details>
+  </details>
+  <details>
+    <summary>Fast Reflexes (trait)</summary>
+    The large amount of training you have put yourself through has made you able to react without a conscious thought. You can use reactions before you have had the chance to act in a combat. This applies even if you are surprised.
+  </details>
+  <details>
+    <summary>Give Exhibition</summary>
+    Enabling you to put on an acrobatic performance, incorporating elements of juggling, tumbling and so on. The character is assumed to perform tricks regularly and work at his or her craft to invent something new. When making a performance you have Expertise (Dex, Cha).
+  </details>
+  <details>
+    <summary>Improved Dexterity (cumulative, trait)</summary>
+    You have trained to improve your agility, reflexes and/or balance. Gain +1 Dexterity.
+  </details>
+  <details>
+    <summary>Parkour</summary>
+    The skill by which characters aim to move from one point to another in a complex, jumbled environment, without equipment and in the fastest and most efficient way possible. You have Expertise on checks made to avoid the effects of non-magical difficult terrain. As a bonus action, you can make a DC 12 Dexterity (Parkour) check. If you succeed, difficult terrain doesn’t cost you extra movement until the end of the current turn.
+    <details>
+      <summary>Parkour through magic (→ Arcana)</summary>
+      You also have Expertise on checks made to avoid the effects of magical difficult terrain.
+    </details>
+    <details>
+      <summary>Wall Runner (trait)</summary>
+      When you take the Dash action and move at least 10 ft, you may climb up to 10 ft of shear wall without using any additional movement. You cannot end your movement there without falling. When climbing you may also do a high or long jump.
+    </details>
+    <details>
+      <summary>Pole Vault (trait)</summary>
+      You are skilled at using a pole to overcome obstacles. If you have a pole or staff, you can use an item action to extend your jumping distance by the length of the pole.
+    </details>
+  </details>
+  <details>
+    <summary>Roll with the blow</summary>
+    When struck by an effect that moves you and you can see, you may choose to "roll with the blow". If you do, move an additional 5 ft, and gain Expertise on any checks to avoid falling prone. If it does not allow a check, you can still make an Dexterity (Roll with the blow) check against a DC equal to damage dealt, or if no damage, a DC of 15. This includes forced movement from critical hits and fumbles. Also, note that you can only do this if there is enough space behind you.
+    <details>
+      <summary>Roll with the blow II</summary>
+      You may roll with the blow against any attack that deals bludgeoning damage, as long as you have a 5 ft behind you and spend a reaction. On a successful Dexterity (Roll with the blow) check against a DC equal to the damage dealt, you gain resistance to the attack and move 5 ft back (without provoking an attack of opportunity). If you roll a 1, you fall prone, and are not allowed a check to avoid it.
+    </details>
+  </details>
+  <details>
+    <summary>Slip Trap</summary>
+    Your fast reflexes and acrobatic training allows you to forgo damage from traps by nimbly twisting your body to escape harm. When a trap allows for a Dexterity save, you can use this skill with Expertise instead.
+  </details>
+  <details>
+    <summary>Stability</summary>
+    You have exceptional balance. This skill grants Expertise on all checks to keep your balance, such as balancing on a ledge, to stay upright on a ship or even to keep you footing within a grease spell.
+    <details>
+      <summary>Beam walking (trait)</summary>
+      You are comfortable on narrow beams or ledges, as long as they are at least 4 in. wide. You are able to disregard any distance, even a thousand feet, that may threaten beneath your footing. Furthermore, you are able to sit comfortably, rest and eat on such a ledge.
+    </details>
+    <details>
+      <summary>Log Riding (trait)</summary>
+      Enables sure-footedness when clambering across loose logs moving upon a rivercourse; requires a peavey, a short hooked pike.
+    </details>
+    <details>
+      <summary>Tightrope walking (trait)</summary>
+      You are skilled at walking along a thin wire or rope, allowing you to walk at full speed.
+    </details>
+  </details>
+  <details>
+    <summary>Tumbling</summary>
+    The acrobatic skill of doing rolls, twists, somersaults and other rotational activities using the whole body. This skill grants Expertise on such checks, as well as the following benefits:
+      <ul><li>When prone, standing up uses only 5 ft of your movement.</li>
+      <li>If you spend 1 minute stretching and limbering up, you gain advantage on one Strength check.</li>
+      <li>You may safely fall a number of feet equal to your Dexterity modifier x5.</li>
+      </ul>
+  </details>
+</details>
+
+<details>
+  <summary>Animal Handling (Group, Untrained)</summary>
+  <div markdown="1">
+  Animal handling is a Group of similar skills that describe the practical handling of animals. The first time you select this skill group, choose a category of animals that you are familiar with. You also gain the Handle animal skill. After the first time, you select either an animal category or a skill. In most cases a skill applies to all categories you have selected.
+
+  **Category**: The animal categories are divided into general and specific types. The general types also include the specific as appropriate, but selecting a specific type of animal grants additional benefits.
+
+  **General**
+  * Amphibians. Some tribes in swampy areas use giant frogs/toads for transport, as well as regular sized amphibians that are used for different purposes.
+  * Birds. Birds are seldom domesticated. When they are, it is usually for companionship (parrots, falcons, etc).
+  * Bugs & Spiders. Neither are common, but can be found in some underground societies, most notable the riding spiders of Drow. Hardy giant beetles can be used as pack animals in desert environments.
+  * Farm Animals. This includes the animals used in human farms, such as dogs, horses, cows and sheep, but also fowl of different types.
+  * Mammals (land). Includes mammals that are sometimes domesticated, such as elephants and camels. This would also with more experience include the training of other mammals such as tiger and elk.
+  * Reptiles. Lizards are used as riding and pack animals in many underground societies.
+  * Sea Life. Folk living underwater use a wide variety of sea living creatures as mounts. For surface dwellers this could apply to seals or dolphins.
+
+  **Specific**
+  * Camels. Camels are used as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar camel is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
+    * Desert Navigation. Provides heightened knowledge through learning to trust the camel's survival instincts in order to better survive. Gain Expertise on Desert survival checks.
+
+  * Dogs. If you enter into the campaign with this skill, it is presumed that a trained and familiar dog is already in your possession, and that you have developed a companionship of at least one year. This can be a riding dog if you are small enough.
+
+  * Falconry. The gallant union between the character and bird, pursued for sport, for war — and for the companionship that results. In essence, the falcon (hawk, eagle or owl) exists in a state of semi-captivity, a wildness that is tempered by training. They are, naturally, commanded; but as the bird retains its capacity to act alone, and with ferociousness in attacking its prey, it is not correct to think of the animal as "tame."
+  Additionally, the falcon serves as a status symbol, for the mastery of these birds is viewed as a sign of quality lineage and personal worth, which is reflected in the skills below. If you enter into the campaign with this skill, it is presumed that a trained and familiar bird is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skills.
+    * Rouse Admiration. Capture the attention and impress persons with great power and status. You have Expertise on such checks.
+    * Send Home (→ Animal Training, trait). You have trained your bird so you send it with a message to a location and person it has been trained to recognize.
+
+  * Horses. The use of the horse (and donkeys, mules, etc) for transportation, combat and work. If you enter into the campaign with this skill, it is presumed that a trained and familiar horse is already in your possession, and that you have developed a companionship of at least one year.
+
+  * Riding Lizards. The use of a riding lizard as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar riding lizard is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
+    * Underdark Navigation. Provides heightened knowledge through learning to trust the lizards's survival instincts in order to better survive. Gain Expertise on Underdark survival checks.
+
+  **Skills**
+  Unless otherwise noted, the skills below apply to all categories of animals you are familiar with and only to “normal” domesticable animals.
+
+  <details>
+    <summary>Handle Animal</summary>
+    You have familiarity with some categories of animals. This skill is used when there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked or intuit an animal’s intentions. Characters without this training are still able to ride an appropriate animal, but would be unable to manage the animals by themselves.
+    <details>
+      <summary>Animal Husbandry</summary>
+      The skill to keep, raise, and properly use domestic animals for work and food. You know the minimum environment an animal must be kept in, the proper food to feed it and how to keep the animal from running off. This skill would normally not be rolled for.
+      <details>
+        <summary>Breed Animal</summary>
+        Proficiency with selective breeding of animals. This is a long term activity normally not possible to do during adventuring with the exception of long downtimes. However, you have Expertise on checks made to identify the general condition of animals and might for example allow you to select the best animal from a seller.
+      </details>
+      <details>
+        <summary>Teamster</summary>
+        Provides skill at the employment of common domestic farm animals as beasts of burden, plow teams or as animals to pull carts, wagons and carriages. You have Expertise on travel checks when handling animals this way, as well as on checks to control wagons or chariots.
+      </details>
+    </details>
+    <details>
+      <summary>Animal Training</summary>
+      The skill to train animals tricks, such as "Speak” or “Fetch" as well as teaching animals to do a specific job, such as pulling a wagon, or guarding an item on command. Unless an already domesticated animal, this process takes months. However if you start the game with this skill or any other skill in this category, it is presumed that a trained and familiar animal is already in your possession, and that you have developed a companionship of at least one year.
+      <div class="skill-frame">You can use a bonus action to command your trained animal, deciding now what action the beast will take and where it will move during its next turn. You can also issue a general command such as to guard a particular area. Depending on the animal this command might last for 10 minutes to an hour.</div>
+      <details>
+        <summary>Combat Training</summary>
+        You have proficiency with techniques needed to train an appropriate animal to attack and fight. If a creature who you’ve trained or considers you its master can see and hear you, and makes an attack, skill check or saving throw, you may use your reaction to give that creature advantage on its roll. In addition you can add the War-trained template to an animal after 5 months of training.
+        <div class="skill-frame">War-trained template<br/>
+        Add proficiency with all barding and with the Athletics skill.<br/>
+        The animal uses the highest of its own or its current master’s proficiency bonus, and its minimum number of hit dice is twice that proficiency bonus.<br/>
+        The training also conveys advantage on Intelligence, Wisdom and Charisma saves if the creature can see and hear its trainer/master when it makes the save.
+        </div>
+        <details>
+          <summary>Unconventional Combat Training</summary>
+          You have learnt techniques needed to train an inappropriate animal to attack and fight. You could for example, if you really wanted, combat train a chicken.
+        </details>
+        <details>
+          <summary>War Training (trait)</summary>
+          You have mastered techniques making it possible to train animals for combat during a short period of time. You may train an animal in 1/4 the usual time (adding the “war-trained” template to the animal in five weeks, rather than five months, for example).
+        </details>
+      </details>
+      <details>
+        <summary>Companionship Training</summary>
+        The way you train beasts is more focused on companionship. This is a simpler task that can usually be done in a week. When you take this skill it is assumed that you have practiced this for a while, allowing you to have a group of companion animals that follow you. Choose a number of beasts from your familiar animal categories with challenge rating 0 (such as rats, ravens, spiders, or tiny dogs) equal to your proficiency bonus. They do not all need to be the same type of beast. These are your companion animals. When your proficiency bonus increases you gain another companion animal.
+        Your companion animals are well trained. They follow your orders and can understand commands and tasks as complex as a trained rat might, but are not suitable for combat. In combat your companions only take the dash, disengage, and dodge actions and have the frightened condition of all enemies.
+      </details>
+      <details>
+        <summary>Hunt Training</summary>
+        You can train an animal to hunt independent of you, i.e. making Foraging checks by itself. An animal must be appropriate for the task. To hunt game, the animal must be one that typically does this in the wild. However, some animals may be able to train to search for alternative food sources, like a pig searching for mushrooms.
+      </details>
+      <details>
+        <summary>Mount Training</summary>
+        You can train an animal to accept a rider of appropriate size.
+      </details>
+    </details>
+    <details>
+      <summary>Animal Whisperer (trait)</summary>
+      Allows you to communicate simple ideas through sounds and gestures. You have Expertise on checks to calm an animal down or intuit its intentions.
+      <details>
+        <summary>Animal Whisperer II (trait)</summary>
+        Allows you to use the Animal Whisperer skill with non-domesticated animals.
+      </details>
+    </details>
+    <details>
+      <summary>Battle Animal (trait)</summary>
+      You recognize the attack patterns of the animals you are familiar with. Knowing how it attacks, when it is about to pounce and recognizing its intentions provides +2 AC against animals of the categories you are familiar with, including non-domesticated ones.
+    </details>
+    <details>
+      <summary>Find & Catch Animals</summary>
+      You have knowledge on how to locate the birthplaces of wild animals and how to catch them for training and breeding.
+    </details>
+    <details>
+      <summary>Nurse Animal</summary>
+      The skill of maintaining and restoring health in animals, along with treating diseases and parasites. Gain Expertise on checks to treat animals and on saving throws animals in your care make against disease. This includes non-domesticated animals. In addition you gain the following benefits.
+      <ul><li>If you spend an hour or more caring for a friendly beast, you can have it gain an amount of temporary HP equal to 5 times your Wisdom modifier. Once you use this feature on a creature, you cannot do so again until you finish a long rest.</li>
+      <li>Wild animals normally don’t grow aggressive if you approach them with the intent to help (free, heal etc).</li></ul>
+    </details>
+    <details>
+      <summary>Pack Animal</summary>
+      Enables you to properly load a pack animal so that its health is not threatened by travel conditions. Gain Expertise on travel checks and on saves made by your pack animals to avoid exhaustion.
+      <details>
+        <summary>Improve Encumbrance (trait)</summary>
+        Increases the capacity and endurance of your pack animals.
+      </details>
+    </details>
+    <details>
+      <summary>Ride Animal</summary>
+      The skill to direct and ride an animal of the appropriate size and physique. Gain Expertise on such checks.
+      <details>
+        <summary>Flying Mounts</summary>
+        You possess enough skill and knowledge to handle hippogriffs, pegasi and other flying mounts for transportation and combat.
+      </details>
+      <details>
+        <summary>Mounted Combat (trait)</summary>
+        You possess enough skill to fight from the back of a mount. While mounted you gain the following benefits.
+        <ul><li>You have advantage on melee attack rolls against any unmounted creature smaller than your mount.</li>
+        <li>You can force an attack targeted at your mount to target you instead.</li>
+        <li>If your mount is subject to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</li></ul>
+      </details>
+      <details>
+        <summary>Racing</summary>
+        Provides the skill for pushing a riding animal past its ordinary endurance in order to win races. Your mount has Expertise on checks and saves to maintain their speed and pass obstacles.
+      </details>
+    </details>
+    <details>
+      <summary>Savage Animal Handling</summary>
+      Enables you to handle "savage" animals, i.e. animals that are not normally domesticated. If you have other animal handling skills, you can also apply those to savage animals  from your familiar categories.
+      <details>
+        <summary>Train Monstrous Animal</summary>
+        Gain an understanding of unnatural animals in the categories you have familiarity with. This can include beasts such as the giant eagle (bird), griffon (bird or mammal), hippogriff (bird or mammal) and so on. Allows you to use other animal handling skills with such creatures.
+      </details>
+    </details>
+  </details>
+  </div>
+</details>
+
+<details>
+  <summary>Gaming (Group, Untrained)</summary>
+  <div markdown="1">
+  A Group of skills that include all types of games. Proficiency with one skill would not give you knowledge of other skills in the group. Each time you choose the Gaming skill, you must select a subskill. Each of these skills can be used untrained, as long as someone has explained the basic rules.
+
+  <details>
+    <summary>Dexterity-based Games</summary>
+    The skill of increasing your chance of winning on mostly Dexterity based games.
+    <details>
+      <summary>Improved Dexterity (trait)</summary>
+      Through your practice with these types of games you have improved your agility, reflexes and/or balance. Gain +1 Dexterity.
+    </details>
+  </details>
+
+  <details>
+    <summary>Games of Tactics</summary>
+    You can think tactically and understand how you win games that do not include Luck, such as Chess.
+    <details>
+      <summary>Game Master (group)</summary>
+      You master one type of game in this category, and have Expertise on such checks.
+    </details>
+    <details>
+      <summary>Logical Thinking (trait)</summary>
+      Years of this activity has improved your logical thinking. Gain +1 Intelligence.
+    </details>
+  </details>
+
+  <details>
+    <summary>Luck-based Games</summary>
+    The skill of increasing your chance of winning on mostly Luck based games. If you have the Mathematics skill, you additionally gain Expertise.
+  </details>
+
+  </div>
+</details>
+
+<details>
+  <summary>Investigation (Untrained)</summary>
+  <div markdown="1">
+  The skill to look around for clues and make deductions based on those clues. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, determine the weakest point in a tunnel that could cause it to collapse or to pore through ancient scrolls in search of a hidden fragment of knowledge. These are all Intelligence (Investigation) checks.
+
+  <details>
+    <summary>Ciphers</summary>
+    You are good at finding and solving ciphers. This grants Expertise on checks to realize that a text or map might contain a cipher or riddle.
+  </details>
+
+  <details>
+    <summary>Dungeon Delver</summary>
+    You are alert to the hidden traps and secret doors found in many dungeons and can search for them while traveling at a normal pace, instead of only at a slow pace. If you instead choose to move at a slow pace, you have Expertise in finding and detecting their presence.
+  </details>
+
+  <details>
+    <summary>Find Clues</summary>
+    You have an eye for detail and can pick out the smallest clues. When searching a room for clues that seem out of place you have Expertise. This does not help for finding traps or secret doors. In addition, it only applies when looking in a place within a familiar culture; otherwise you would not be able to tell if something is out of place.
+  </details>
+
+  <details>
+    <summary>Research</summary>
+    You are at home in libraries and other places of study and have Expertise when performing the systematic work required to find information in such a setting.
+  </details>
+
+  <details>
+    <summary>Training of the Mind (cost:2, trait)</summary>
+    Years of exercising your mind has improved your sense of deduction. Gain +1 Intelligence.
+  </details>
+
+  </div>
+</details>
+
+<details>
+  <summary>Leadership (Untrained)</summary>
+  <div markdown="1">
+  This includes the practical skills to act as a leader, organizing and overseeing other persons, teams and whole organizations. With this comes an understanding of power, ambitions towards a personal vision and the defense of social values.
+
+  <details>
+    <summary>Center of Attention (cost:2, trait)</summary>
+    As a leader you have learned how to make others pay attention to you. Gain +1 Charisma.
+  </details>
+
+  <details>
+    <summary>Heroism (trait)</summary>
+    More of a philosophy than a skill, that quests for reverence and glory through great risk, deeds and selflessness. A person with this skill perceives reality differently from others. For example, the object of taking an action — say, killing a monster — is less important than how it is done, or how the deed is perceived. How brave was the combatant? How remarkable was the deed itself? Glory comes not only from unequaled victory, but victory achieved with risk that is taken on behalf of others. Thus sacrifice, suffering and regard for others — which must take place in front of witnesses, that stories might be told — are also part of heroism's tradition. You gain the following ability.<br/>
+    <div class="skill-frame">Forfeit Self<br/> Rush at an enemy haphazardly, drawing attacks as a bonus action. Until the start of your next round you sacrifice 4 points of AC. During this time you can spend a reaction allowing an ally to attack with advantage.</div>
+    <details>
+      <summary>Presence (trait)</summary>
+      You are often recognized as an unusual presence in a room, providing respect or fear.
+      <details>
+        <summary>Gain Patron (trait)</summary>
+        You are approached by a member of court or something corresponding in the area where your deeds are known. This patron can offer to provide knowledge of errant beasts, capital and introductions to the powerful.
+        <details>
+          <summary>Gain Rank (trait)</summary>
+          You are invited to accept the responsibilities of rank, including parcels of land and a steady income.
+        </details>
+      </details>
+    </details>
+  </details>
+
+  <details>
+    <summary>Judgement</summary>
+    Enables you to make good sense in choosing those who serve under you, particularly when assigning duties and giving trust to both hirelings and followers. This would usually be a Wisdom (Judgement) check. Knowing how to recruit the right people will in general improve morale and allow you to find people with better skills. You have Expertise when making checks using this skill.
+  </details>
+
+  <details>
+    <summary>Logistics</summary>
+    Your leadership is more focused around the management of supply and people handling it, enabling the endurance of a long-term military campaign, caravan or expedition. Having this skill includes knowledge on how to handle the discipline of planning and carrying out the movement, supply and maintenance of people while engaged in practical work in a natural environment while traveling or making camp. Also, presuming no ordinary means exist for providing the necessities of food, clothing, equipment and shelter, logistics provides skills that allow for the self-sufficiency of persons who are separated from these things. You have Expertise when making checks using this skill, including checks made to buy proviant, finding the right people with the right competence for planned tasks and organizing defenses when making camp.
+  </details>
+
+  <details>
+    <summary>Motivation (trait)</summary>
+    The skill to inspire and improve the morale of hirelings, followers and allies, rallying them to engage in combat and giving their loyalty to actions the leader undertakes. Also provides great potential to inspire not only direct associates, but to any group of willing persons, on the scale of a settlement, a province or a whole kingdom.
+    <details>
+      <summary>Improve Morale (trait)</summary>
+      Increases morale for hireling and associate non-player characters. This morale boost will stay in effect for as long as they are in your employ, and you do not mistreat them. You gain the following abilities.
+      <ul><li>As long as your followers are within 30 ft, they have advantage on saving throws against fear effects.</li>
+      <li>When you reduce a creature to 0 hp, allies and followers that see you do it gain 1d4 temporary hit points.</li></ul>
+    </details>
+    <details>
+      <summary>Inspire Loyalty (trait)</summary>
+      Ensures that a cadre of subordinates, up to 10 persons, will never quit your employ, and would die before betraying you.
+      <details>
+        <summary>Inspire Sacrifice (trait)</summary>
+        Within certain parameters and from time to time, you are able to encourage up to 2-5 non-player characters to give their lives to achieve a goal.
+      </details>
+    </details>
+    <details>
+      <summary>Rousing Speech (trait)</summary>
+      Prior to a significant conflict, you can hold an inspiring speech. When you do so, your subordinates gain temporary hit points equal to your level + your Charisma modifier.
+    </details>
+  </details>
+
+  <details>
+    <summary>Raise Company (trait)</summary>
+    Empowers you to choose good leaders and effectively raise and lead a body of 100 soldiers who are capable of acting as a unit towards achieving goals. This will of course cost a great deal of money.
+    <details>
+      <summary>Command (trait)</summary>
+      Supported by company commanders, you are able to effectively lead a thousand or more persons into battle, inspiring them to embrace tactics which you order.
+      <details>
+        <summary>Marshal (trait)</summary>
+        You are able to lead a national army, even a combined army of several nationalities, determining a grand strategy for military actions.
+      </details>
+    </details>
+  </details>
+  </div>
+</details>
+
+<details>
+  <summary>Medicine (Untrained)</summary>
+  <div markdown="1">
+  Medicine is the study of maintaining and restoring the health of humanoids, as well as treating their illness and preventing the effects of poison. This skill gives enough knowledge to perform basic tasks like stabilize an ally or diagnose an illness. For anything more advanced you would have to seek help with someone more knowledgeable; this skill allows you to know where to turn and what might be possible.
+
+  This skill is only applicable for humanoids with a similar physiology as your own (or another type of folk). You always have disadvantage when attempting to treat a member of a different folk; for instance if you are a human who tries treating a dwarf, elf or dhampir.
+
+  In terms of the game, medicine should be treated as much more of an art than a science.
+
+  <details>
+    <summary>Battlefield Medicine</summary>
+    No stranger to the frontlines, you have experience with treating wounds immediately when they occur, allowing you to mend wounds quickly and get your allies back in the fight. You have Expertise on checks to stabilize, checks made to remove injury effects and checks made with a healer’s kit during a short rest. Additionally, during a short rest you can use a healer’s kit to heal a stabilized creature; that creature regains 1 hit point.
+  </details>
+
+  <details>
+    <summary>Detoxification</summary>
+    Grants Expertise to identify a poison affecting a patient's health, as well as treating it. During a short rest, which in this case would take at least 10 minutes, you can take care of people poisoned by an injury poison. By spending one use of leeches you restore hp equal to your proficiency bonus plus the creature’s maximum number of Hit Dice, but no higher than was inflicted by poison. In addition, you can manufacture Antitoxin, as if you had the Alchemy skill.
+    <div class="skill-frame">Leeches<br/>
+    A jar of leeches<br/>
+    Can be bought (use price, weight and usage die as healer’s kit). By spending a foraging travel action in wetlands, you can automatically increase the usage die one step (max d12).
+    </div>
+  </details>
+
+  <details>
+    <summary>Disease</summary>
+    You are specialized in diseases, with Expertise on checks to identify and treat them. The skill includes knowledge of magical diseases, and you would be able to deduce if it is of a magical origin (Int check). You could trace a disease to its origin by interviewing patients (Cha check). In addition you know how to properly protect yourself while in areas with sick people.
+  </details>
+
+  <details>
+    <summary>Folk (group)</summary>
+    You can take this skill multiple times. Select a different folk each time. You are trained in treating members of that folk as well.
+  </details>
+
+  <details>
+    <summary>Forensics</summary>
+    Some would describe the fascination with dead bodies as "morbid" or "creepy", but you don't understand all the fuss. Everyone dies someday and it's important to know what happened to them. You know how to figure out how the deceased came to be that way. By carefully studying the surrounding environment and reconstructing events, you have Expertise on answering questions such as, "What killed them?" "How long have they been dead?" "Were they killed here or elsewhere and then dumped here?" etc.
+  </details>
+
+  <details>
+    <summary>Humoral Theory</summary>
+    You are fully aware of how most conditions are caused by imbalance on the humors, i.e. body fluids. Each of the humors are governed by an element, and that is the reason why some conditions, injuries and illnesses need to be cleaned (adding water), others need to be cleaned and kept dry. You are skilled at diagnosing the imbalance and treating it, and have Expertise on checks regarding long term care. In addition, if you take care of wounded people during a long rest you can spend one use of leeches and restore hp equal to your proficiency bonus plus the creature’s maximum number of Hit Dice.
+  </details>
+
+  <details>
+    <summary>Phrenology</summary>
+    The character has studied the science of the mind, and can tell much by reading the topography of a being’s skull. You can ascertain levels of intelligence, aggression, compassion, magical predilection and much more just by examining the shape and texture of another person’s head.
+  </details>
+
+  <details>
+    <summary>Surgery</summary>
+    The skill to cut open the body and provide treatment with a meaningful probability the patient will survive. To learn this skill you have probably gone through a lot of dissection or even vivisections. You have Expertise on all checks regarding surgery and anatomy.
+  </details>
+
+  <details>
+    <summary>Trepanning</summary>
+    One of the ways to exorcise a possessed or mad person is to drill a hole in its skull and let the evil spirits out. A target treated by you may reroll a saving throw against a possession, domination or similar affliction.
+  </details>
+  </div>
+</details>
+
+<details>
+  <summary>Perception (Untrained)</summary>
+  <div markdown="1">
+  This skill lets you spot, hear or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest.
+
+  <details>
+    <summary>Insight</summary>
+    You possess keen insight into how other people think and feel, and have Expertise when trying to determine the true intentions of a creature. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.
+    <details>
+      <summary>Detect Mania</summary>
+      Allows recognition of situations where groups of people are acting without control, either due to mass hysteria, magical suggestion or control, madness or like condition. While an ordinary observer may see a crowd acting with high emotion and believe that the assemblage is an ordinary mob or rabble, persons with this knowledge will recognize there is much more going on than meets the eye. The mania might be driven by a natural hysterical contagion, the influence of a powerful magical individual or force, a physical or mental disease, brought about by a plague or even by parasitic infestation, or it might have an otherworldly connection.
+      <br/><br/>
+      To identify a cause, you will need to obtain full access to an individual suffering from the mania. A close examination of less than a minute is all that is needed to identify someone affected and someone that is not — as many within a crowd will move along due to confusion or curiosity. The affected person can be removed somewhere else and put under observation. Ten minutes of observation — which consists of asking questions, manipulating the victim or otherwise poking and prodding, much of which will require the victim to be restrained — allows you to make an Wisdom (Insight) check to reveal the cause — but not the source — of the mania.
+    </details>
+    <details>
+      <summary>Predict Behavior</summary>
+      You can observe a humanoid to try to get uncanny insight about it and how it will respond. Make a Wisdom (Predict Behavior) check contested by the target’s Deception check. If your check succeeds, you have advantage on ability checks against the target until the end of your next turn.
+    </details>
+    <details>
+      <summary>Student of Behavior (cost:2, trait)</summary>
+      Observing how humanoids behave has given you lots of insight in the mind of others. Gain +1 Wisdom.
+    </details>
+  </details>
+
+  <details>
+    <summary>Keen Awareness</summary>
+    You are always on your guard and can react to danger at a moment's notice. Gain Expertise on Initiative checks. In addition you can use a reaction before your first round.
+    <details>
+      <summary>Always Ready (trait)</summary>
+      You cannot be surprised unless you are incapacitated. In addition, when you roll initiative you can use a reaction to take either the Help, Ready, or Search action.
+    </details>
+    <details>
+      <summary>Fast Reflexes (trait)</summary>
+      You have improved your reflexes allowing you to react without a thought. Gain +1 Dexterity.
+    </details>
+    <details>
+      <summary>Quick Witted (trait)</summary>
+      Great ideas come to you naturally; this often saves your life. When you would make a saving throw, you may instead make an Intelligence saving throw. You may use this feature a number of times equal to your Intelligence modifier and regain all expended uses of this feature when you complete a long rest.
+    </details>
+  </details>
+
+  <details>
+    <summary>On Guard</summary>
+    You are trained to act as a sentinel, both the actual act of guarding as well as taking precautions against unknown intruders. During any stationary situation where you actively state as being on guard and not engaging your attention upon something other than watching for trouble, you have Expertise on checks to detect intruders.
+    <details>
+      <summary>Alert (→ Sense-Hearing, trait)</summary>
+      While on guard you can’t be surprised, nor do creatures gain advantage on attacks against you as a result of being hidden.
+    </details>
+  </details>
+
+  <details>
+    <summary>Recognise Disturbance</summary>
+    You can sense objects or creatures within 5 ft of you, even if they are invisible or make no sound. You can additionally make Wisdom (Recognise Disturbance) check to sense that someone has entered and lingered in a room over the last hour.
+    <details>
+      <summary>Blind Fighting (→ Sense-Hearing, trait)</summary>
+      You do not have disadvantage when attacking a target within 5 ft that you cannot see.
+    </details>
+  </details>
+
+  <details>
+    <summary>Sense - Hearing</summary>
+    You have exceptional hearing and have Expertise on checks to hear sounds.
+  </details>
+
+  <details>
+    <summary>Sense - Sight</summary>
+    You have exceptional sight and have Expertise when trying to spot things.
+    <details>
+      <summary>Keen Sight (trait)</summary>
+      You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 ft away from you. You also gain the following benefits.
+      <ul><li>Attacking at long range doesn’t impose disadvantage on your ranged weapon attack rolls.</li>
+      <li>If you can see a creature’s mouth while it is speaking a language you understand, you can interpret what it’s saying by reading its lips.</li></ul>
+    </details>
+    <details>
+      <summary>Focused Vision (trait)</summary>
+      You are good at focusing your vision on what is important and are able to shout out clutter. Being in a lightly obscured area doesn’t impose disadvantage on your Perception checks that rely on sight, and your ranged weapon attacks ignore half and three-quarters cover.
+    </details>
+    <details>
+      <summary>Nightvision (trait)</summary>
+      You are accustomed to the dark and can see in dim light as if it were bright light.
+    </details>
+  </details>
+
+  <details>
+    <summary>Sense - Smell</summary>
+    You have exceptional smell and have Expertise on checks to recognise the origin and source of that which is smelled. This would include detecting poison in food & drink and detecting any sort of odorous creature, such as a skunk, troglodyte or rotting undead.
+  </details>
+
+  <details>
+    <summary>Sense - Taste</summary>
+    You have an exceptional sense of taste and have Expertise on checks to recognise flavors. This would include detecting poison in food & drink and identifying potions
+  </details>
+
+  <details>
+    <summary>Sense - Touch</summary>
+    You have an exceptional sense of touch granting Synergy with Investigation when forced to investigate by touch. This could be the case if it is dark or if you are trying to detect secret doors or traps by touch.
+  </details>
+  </div>
+</details>
+
+<details>
+  <summary>Physique (Untrained)</summary>
+  <div markdown="1">
+  The skill of utilizing your strength and body weight in an efficient way. Having proficiency with this skill would indicate that a character has a good level of physical fitness. The physique skill would normally be used for difficult situations when climbing, jumping and other similar activities. Physique checks that use Strength and go on for more than a minute, should roll again using Constitution.
+
+  <details>
+    <summary>Balance Load (trait)</summary>
+    You are trained in balancing and carrying large loads, counting as if you were one size larger for the purpose of determining your carrying capacity.
+    <details>
+      <summary>Lift Weights</summary>
+      You can attempt to temporarily Push, Drag, or Lift a weight exceeding your calculated maximum. For each 5 above a DC 5 Strength (Physique) check, count your Strength as if it was 2 points higher when calculating carrying capacity.
+    </details>
+  </details>
+
+  <details>
+    <summary>Bodybuilding (cost:2, trait)</summary>
+    You have trained to improve your physical strength. Gain +1 Strength.
+  </details>
+
+  <details>
+    <summary>Carousing</summary>
+    You know how to hold your drink and withstand the effects of alcohol, while keeping a friendly demeanor. You have Expertise (Con, Cha) on checks to influence people in a setting where lots of alcohol is used.
+  </details>
+
+  <details>
+    <summary>Climb Trees</summary>
+    You have Expertise when climbing foliage.
+    <details>
+      <summary>Fast Climber (trait)</summary>
+      You gain a climbing speed equal to your movement speed.
+    </details>
+  </details>
+
+  <details>
+    <summary>Climb Wall</summary>
+    When climbing walls with equipment, you have Expertise. This proficiency also allows you to climb vertical surfaces without equipment, provided that surface retains cracks or mortared separations and you are not encumbered. The distance that may be climbed safely, without requiring a die roll of any kind, equals your Dexterity, +3 ft/character level. If at any point within this distance, you are able to rest upon a surface that is at least 4 in. wide (a window ledge or a tree branch), and do so for a period of not less than three rounds, you may reset the distance you can climb safely from that point.
+    <details>
+      <summary>Fast Climber (trait)</summary>
+      You gain a climbing speed equal to your movement speed.
+    </details>
+    <details>
+      <summary>Instructor (trait)</summary>
+      You can spend 5 minutes instructing, pointing out handholds, and guiding other creatures before making a climb. When you do so, choose up to six friendly creatures (which can include yourself) who pay attention to you. Each creature can add a 1d6 to one check or saving throw they make for that climb.
+    </details>
+  </details>
+
+  <details>
+    <summary>Endurance</summary>
+    Armies, merchants, refugees or convicts; many people push themselves farther than they could naturally go, and some who are regulars at this have adapted to this way of life. When you make a saving throw against exhaustion from extensive travel, you can use this skill with Expertise instead. You gain the following benefits.
+    <ul><li>You can comfortably travel 10 hours in a day, without making saving throws against exhaustion.</li>
+    <li>After you finish a long rest, you gain temporary hit points equal to your proficiency bonus.</li></ul>
+    <details>
+      <summary>Endurance Training (cost:2, trait)</summary>
+      You have trained to improve your stamina. Gain +1 Constitution.
+    </details>
+    <details>
+      <summary>Fast Recovery</summary>
+      You recover faster than most. When you roll regain hit points, be it from using a Hit Die or from healing, you regain 2 additional hit points per roll. Note that Hit Dice are always rolled one at a time.
+    </details>
+  </details>
+
+  <details>
+    <summary>Sprinter (trait)</summary>
+    You can run fast for short distances. During combat you can take a bonus action to Dash. When Dashing outside combat, you can add 4 times your speed. You can keep this up for 2 rounds. Instead you can add 3 times your speed for 10 rounds. If you want to continue, you can make a Constitution save against DC 10. On a success you can continue one more round, on a fail you get one level of Exhaustion. You can continue doing this with a cumulative +5 on the DC each round.
+  </details>
+
+  <details>
+    <summary>Intimidate</summary>
+    The skill of getting what you want by threatening people with your size. You have Expertise (Str, Cha) when trying to intimidate someone.
+    <details>
+      <summary>Menacing</summary>
+      You appear fearsome to others. During your turn, you can replace one attack with an attempt to demoralize one humanoid within 30 ft of you that can see and hear you. Make an Intimidation check contested by the target’s Wisdom (Insight) check. If you succeed, the target is frightened until the end of your next turn. If your check fails, the target can’t be frightened by you in this way for 1 hour.
+    </details>
+  </details>
+
+  <details>
+    <summary>Jumper</summary>
+    You are good at jumping both long and high, and have Expertise on such checks. You gain the following benefits.
+    <ul><li>You can attempt to jump even longer or higher. For each 5 above a DC 5 Strength (Physique) check, count your Strength as if it was 2 points higher when calculating jumping distance.</li>
+    <li>You can make a running long jump or a running high jump after moving only 5 ft on foot, rather than 10 ft.</li></ul>
+  </details>
+
+  <details>
+    <summary>Manual Labor</summary>
+    You are used to manual labor and perform it well, and have Expertise if you need to make a check for such an activity. Having this proficiency allows you to use it as if it were a profession for the purposes of Downtime. In addition, you can use this proficiency with Charisma on checks to communicate with manual laborers.
+  </details>
+
+  <details>
+    <summary>Stand Ground</summary>
+    This skill might come from several sources, such as certain types of wrestling or from military training where holding the line is of essence. You are good at standing your ground and avoid being moved against your will. If such an effect allows for a save, you can use this skill with Expertise instead.
+    <details>
+      <summary>Push</summary>
+      Additionally you can use this skill with Expertise when attempting to move another creature. If you have the Stand Ground II trait, you also count as one size higher when doing so.
+    </details>
+    <details>
+      <summary>Stand Ground II (trait)</summary>
+      For purposes of moving you, your size counts as one higher.
+    </details>
+  </details>
+
+  <details>
+    <summary>Strong Arm (trait)</summary>
+    Through training, you have significantly increased your forearm strength, granting a stronger grip. Wrist, hand and forearm have been coordinated so that you are able to hurl weapons a greater distance and precision than normal. You gain the following benefits.
+    <ul><li>You can treat any one-handed item as a thrown weapon with a range of 10/30 ft.</li>
+    <li>Your thrown weapon attacks ignore half cover and three-quarters cover.</li>
+    <li>Attacking at (normal) long range doesn’t impose disadvantage on your thrown weapon attack rolls, but you can additionally throw an additional 100% range with disadvantage.</li></ul>
+  </details>
+
+  <details>
+    <summary>Tolerance</summary>
+    You have trained, maybe unvoluntarily, to endure torture, harsh environment or other conditions that most people are lucky to avoid.  When making a check to resist such conditions, you have Expertise. If it requires a Constitution save, you can use this skill instead.
+    <details>
+      <summary>Tolerance II (trait)</summary>
+      You are in general more resistant to all kinds of hardship. Gain +1 Constitution.
+    </details>
+    <details>
+      <summary>Tough (trait)</summary>
+      You are tougher than most. Your hit point maximum increases by an amount equal to twice your level when you gain this trait. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.
+    </details>
+  </details>
+
+  <details>
+    <summary>Unarmed Combat</summary>
+    You are skilled at a discipline of unarmed combat, like boxing (wrestling and similar is its own subskill). You are proficient with unarmed strikes and use a 1d4 for damage. You can use Dexterity or Strength for attack and damage rolls of your unarmed strikes, your choice. Additionally, when you attack a creature with an unarmed strike, you can use a bonus action to make an additional unarmed strike.
+  </details>
+
+  <details>
+    <summary>Wrestling</summary>
+    You are familiar with competitive wrestling and have Expertise with such activities, which would include grappling or escaping a grapple This applies only to humanoid targets. You can use your action to try to pin a creature grappled by you. To do so, make another Strength (Wrestling) check. If you succeed, you and the creature are both restrained until the grapple ends.
+    <details>
+      <summary>Beast Wrestler (trait)</summary>
+      You can wrestle any creatures, not just humanoids. In addition creatures that are one size larger than you don’t automatically succeed on checks to escape your grapple.
+    </details>
+    <details>
+      <summary>Wrestling II (trait)</summary>
+      For purposes of grappling, your size counts as one higher.
+    </details>
+  </details>
+  </div>
+</details>
 
-This skill mixes various physical performances with feats of extraordinary balance, agility and coordination. It incorporates numerous amusements and stunts which can be performed for an audience, as well as tricks that can serve the character well in other ventures, such as staying on your feet when trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ships’ deck. It is commonly mastered by jugglers, tumblers, aerialists and other circus performers — persons fascinating to watch but not of particularly high social standing.
 
-#### Aerial Acrobatics
-Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have Expertise (Dex, Cha). During adventuring you could use this skill with Expertise to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
 
-#### Contortion (trait)
-The skill of extreme physical flexibility. This skill allows you to squeeze through very tight spaces as long as your head fits. You have Expertise to escape grapples.
-##### Body Packing (trait)
-You can squeeze your body into a small, knee-high box or other contained space which appears as being too small to contain you.
-
-##### Dislocation (trait)
-You can easily dislocate your shoulders and with a bit more effort even your hip joints. This allows you to escape most bonds given time.
-
-#### Fast Reflexes (trait)
-The large amount of training you have put yourself through has made you able to react without a conscious thought. You can use reactions before you have had the chance to act in a combat. This applies even if you are surprised.
-
-#### Give Exhibition
-Enabling you to put on an acrobatic performance, incorporating elements of juggling, tumbling and so on. The character is assumed to perform tricks regularly and work at his or her craft to invent something new. When making a performance you have Expertise (Dex, Cha).
-
-#### Improved Dexterity (cumulative, trait)
-You have trained to improve your agility, reflexes and/or balance. Gain +1 Dexterity.
-
-#### Parkour
-The skill by which characters aim to move from one point to another in a complex, jumbled environment, without equipment and in the fastest and most efficient way possible. You have Expertise on checks made to avoid the effects of non-magical difficult terrain. As a bonus action, you can make a DC 12 Dexterity (Parkour) check. If you succeed, difficult terrain doesn’t cost you extra movement until the end of the current turn.
-##### Parkour through magic (→ Arcana)
-You also have Expertise on checks made to avoid the effects of magical difficult terrain.
-##### Wall Runner (trait)
-When you take the Dash action and move at least 10 ft, you may climb up to 10 ft of shear wall without using any additional movement. You cannot end your movement there without falling. When climbing you may also do a high or long jump.
-
-#### Pole Vault (trait)
-You are skilled at using a pole to overcome obstacles. If you have a pole or staff, you can use an item action to extend your jumping distance by the length of the pole.
-
-#### Roll with the blow
-When struck by an effect that moves you and you can see, you may choose to "roll with the blow". If you do, move an additional 5 ft, and gain Expertise on any checks to avoid falling prone. If it does not allow a check, you can still make an Dexterity (Roll with the blow) check against a DC equal to damage dealt, or if no damage, a DC of 15. This includes forced movement from critical hits and fumbles. Also, note that you can only do this if there is enough space behind you.
-##### Roll with the blow II
-You may roll with the blow against any attack that deals bludgeoning damage, as long as you have a 5 ft behind you and spend a reaction. On a successful Dexterity (Roll with the blow) check against a DC equal to the damage dealt, you gain resistance to the attack and move 5 ft back (without provoking an attack of opportunity). If you roll a 1, you fall prone, and are not allowed a check to avoid it.
-
-#### Slip Trap
-Your fast reflexes and acrobatic training allows you to forgo damage from traps by nimbly twisting your body to escape harm. When a trap allows for a Dexterity save, you can use this skill with Expertise instead.
-
-#### Stability
-You have exceptional balance. This skill grants Expertise on all checks to keep your balance, such as balancing on a ledge, to stay upright on a ship or even to keep you footing within a grease spell.
-##### Beam walking (trait)
-You are comfortable on narrow beams or ledges, as long as they are at least 4 in. wide. You are able to disregard any distance, even a thousand feet, that may threaten beneath your footing. Furthermore, you are able to sit comfortably, rest and eat on such a ledge.
-##### Log Riding (trait)
-Enables sure-footedness when clambering across loose logs moving upon a rivercourse; requires a peavey, a short hooked pike.
-##### Tightrope walking (trait)
-You are skilled at walking along a thin wire or rope, allowing you to walk at full speed.
-
-#### Tumbling
-The acrobatic skill of doing rolls, twists, somersaults and other rotational activities using the whole body. This skill grants Expertise on such checks, as well as the following benefits.
-   * When prone, standing up uses only 5 ft of your movement.
-   * If you spend 1 minute stretching and limbering up, you gain advantage on one Strength check.
-   * You may safely fall a number of feet equal to your Dexterity modifier x5.
-
-
-## Animal Handling
-(Group, Untrained)
-Animal handling is a Group of similar skills that describe the practical handling of animals. The first time you select this skill group, choose a category of animals that you are familiar with. You also gain the Handle animal skill. After the first time, you select either an animal category or a skill. In most cases a skill applies to all categories you have selected.
-
-
-Category
-The animal categories are divided into general and specific types. The general types also include the specific as appropriate, but selecting a specific type of animal grants additional benefits.
-
-
-General
-* Amphibians. Some tribes in swampy areas use giant frogs/toads for transport, as well as regular sized amphibians that are used for different purposes.
-* Birds. Birds are seldom domesticated. When they are, it is usually for companionship (parrots, falcons, etc).
-* Bugs & Spiders. Neither are common, but can be found in some underground societies, most notable the riding spiders of Drow. Hardy giant beetles can be used as pack animals in desert environments.
-* Farm Animals. This includes the animals used in human farms, such as dogs, horses, cows and sheep, but also fowl of different types.
-* Mammals (land). Includes mammals that are sometimes domesticated, such as elephants and camels. This would also with more experience include the training of other mammals such as tiger and elk.
-* Reptiles. Lizards are used as riding and pack animals in many underground societies.
-* Sea Life. Folk living underwater use a wide variety of sea living creatures as mounts. For surface dwellers this could apply to seals or dolphins.
-
-
-Specific
-* Camels. Camels are used as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar camel is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
-   * Desert Navigation. Provides heightened knowledge through learning to trust the camel's survival instincts in order to better survive. Gain Expertise on Desert survival checks.
-
-
-* Dogs. If you enter into the campaign with this skill, it is presumed that a trained and familiar dog is already in your possession, and that you have developed a companionship of at least one year. This can be a riding dog if you are small enough.
-
-
-* Falconry. The gallant union between the character and bird, pursued for sport, for war — and for the companionship that results. In essence, the falcon (hawk, eagle or owl) exists in a state of semi-captivity, a wildness that is tempered by training. They are, naturally, commanded; but as the bird retains its capacity to act alone, and with ferociousness in attacking its prey, it is not correct to think of the animal as "tame."
-
-
-Additionally, the falcon serves as a status symbol, for the mastery of these birds is viewed as a sign of quality lineage and personal worth, which is reflected in the skills below. If you enter into the campaign with this skill, it is presumed that a trained and familiar bird is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skills.
-   * Rouse Admiration. Capture the attention and impress persons with great power and status. You have Expertise on such checks.
-   * Send Home (→ Animal Training, trait). You have trained your bird so you send it with a message to a location and person it has been trained to recognize.
-
-
-* Horses. The use of the horse (and donkeys, mules, etc) for transportation, combat and work. If you enter into the campaign with this skill, it is presumed that a trained and familiar horse is already in your possession, and that you have developed a companionship of at least one year.
-
-
-* Riding Lizards. The use of a riding lizard as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar riding lizard is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
-   * Underdark Navigation. Provides heightened knowledge through learning to trust the lizards's survival instincts in order to better survive. Gain Expertise on Underdark survival checks.
-
-
-Skills
-Unless otherwise noted, the skills below apply to all categories of animals you are familiar with and only to “normal” domesticable animals.
-
-
-Handle Animal. You have familiarity with some categories of animals. This skill is used when there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked or intuit an animal’s intentions. Characters without this training are still able to ride an appropriate animal, but would be unable to manage the animals by themselves.
-
-
-* Animal Husbandry. The skill to keep, raise, and properly use domestic animals for work and food. You know the minimum environment an animal must be kept in, the proper food to feed it and how to keep the animal from running off. This skill would normally not be rolled for.
-   * Breed Animal. Proficiency with selective breeding of animals. This is a long term activity normally not possible to do during adventuring with the exception of long downtimes. However, you have Expertise on checks made to identify the general condition of animals and might for example allow you to select the best animal from a seller.
-   * Teamster. Provides skill at the employment of common domestic farm animals as beasts of burden, plow teams or as animals to pull carts, wagons and carriages. You have Expertise on travel checks when handling animals this way, as well as on checks to control wagons or chariots..
-
-
-* Animal Training. The skill to train animals tricks, such as "Speak” or “Fetch" as well as teaching animals to do a specific job, such as pulling a wagon, or guarding an item on command. Unless an already domesticated animal, this process takes months. However if you start the game with this skill or any other skill in this category, it is presumed that a trained and familiar animal is already in your possession, and that you have developed a companionship of at least one year.
-
-
-IN FRAME. You can use a bonus action to command your trained animal, deciding now what action the beast will take and where it will move during its next turn. You can also issue a general command such as to guard a particular area. Depending on the animal this command might last for 10 minutes to an hour.
-
-
-   * Combat Training. You have proficiency with techniques needed to train an appropriate animal to attack and fight. If a creature who you’ve trained or considers you its master can see and hear you, and makes an attack, skill check or saving throw, you may use your reaction to give that creature advantage on its roll. In addition you can add the War-trained template to an animal after 5 months of training.
-IN FRAME.  War-trained template
-Add proficiency with all barding and with the Athletics skill.
-The animal uses the highest of its own or its current master’s proficiency bonus, and its minimum number of hit dice is twice that proficiency bonus.
-The training also conveys advantage on Intelligence, Wisdom and Charisma saves if the creature can see and hear its trainer/master when it makes the save.
-
-
-      * Unconventional Combat Training. You have learnt techniques needed to train an inappropriate animal to attack and fight. You could for example, if you really wanted, combat train a chicken.
-      * War Training (trait). You have mastered techniques making it possible to train animals for combat during a short period of time. You may train an animal in 1/4 the usual time (adding the “war-trained” template to the animal in five weeks, rather than five months, for example).
-
-
-   * Companionship Training. The way you train beasts is more focused on companionship. This is a simpler task that can usually be done in a week. When you take this skill it is assumed that you have practiced this for a while, allowing you to have a group of companion animals that follow you. Choose a number of beasts from your familiar animal categories with challenge rating 0 (such as rats, ravens, spiders, or tiny dogs) equal to your proficiency bonus. They do not all need to be the same type of beast. These are your companion animals. When your proficiency bonus increases you gain another companion animal.
-Your companion animals are well trained. They follow your orders and can understand commands and tasks as complex as a trained rat might, but are not suitable for combat. In combat your companions only take the dash, disengage, and dodge actions and have the frightened condition of all enemies.
-
-
-   * Hunt Training. You can train an animal to hunt independent of you, i.e. making Foraging checks by itself. An animal must be appropriate for the task. To hunt game, the animal must be one that typically does this in the wild. However, some animals may be able to train to search for alternative food sources, like a pig searching for mushrooms.
-
-
-   * Mount Training. You can train an animal to accept a rider of appropriate size.
-
-
-* Animal Whisperer (trait). Allows you to communicate simple ideas through sounds and gestures. You have Expertise on checks to calm an animal down or intuit its intentions.
-   * Animal Whisperer II (trait). Allows you to use the Animal Whisperer skill with non-domesticated animals.
-
-
-* Battle Animal (trait). You recognize the attack patterns of the animals you are familiar with. Knowing how it attacks, when it is about to pounce and recognizing its intentions provides +2 AC against animals of the categories you are familiar with, including non-domesticated ones.
-
-
-* Find & Catch Animals. You have knowledge on how to locate the birthplaces of wild animals and how to catch them for training and breeding.
-
-
-* Nurse Animal. The skill of maintaining and restoring health in animals, along with treating diseases and parasites. Gain Expertise on checks to treat animals and on saving throws animals in your care make against disease. This includes non-domesticated animals. In addition you gain the following benefits.
-   * If you spend an hour or more caring for a friendly beast, you can have it gain an amount of temporary HP equal to 5 times your Wisdom modifier. Once you use this feature on a creature, you cannot do so again until you finish a long rest.
-   * Wild animals normally don’t grow aggressive if you approach them with the intent to help (free, heal etc).
-
-
-* Pack Animal. Enables you to properly load a pack animal so that its health is not threatened by travel conditions. Gain Expertise on travel checks and on saves made by your pack animals to avoid exhaustion.
-   * Improve Encumbrance (trait). Increases the capacity and endurance of your pack animals.
-
-
-* Ride Animal. The skill to direct and ride an animal of the appropriate size and physique. Gain Expertise on such checks.
-   * Flying Mounts. You possess enough skill and knowledge to handle hippogriffs, pegasi and other flying mounts for transportation and combat.
-   * Mounted Combat (trait). You possess enough skill to fight from the back of a mount. While mounted you gain the following benefits.
-   * You have advantage on melee attack rolls against any unmounted creature smaller than your mount.
-   * You can force an attack targeted at your mount to target you instead.
-   * If your mount is subject to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
-   * Racing. Provides the skill for pushing a riding animal past its ordinary endurance in order to win races. Your mount has Expertise on checks and saves to maintain their speed and pass obstacles.
-
-* Savage Animal Handling. Enables you to handle "savage" animals, i.e. animals that are not normally domesticated. If you have other animal handling skills, you can also apply those to savage animals  from your familiar categories.
-   * Train Monstrous Animal. Gain an understanding of unnatural animals in the categories you have familiarity with. This can include beasts such as the giant eagle (bird), griffon (bird or mammal), hippogriff (bird or mammal) and so on. Allows you to use other animal handling skills with such creatures.
-
-
-Gaming
-(Group, Untrained)
-A Group of skills that include all types of games. Proficiency with one skill would not give you knowledge of other skills in the group. Each time you choose the Gaming skill, you must select a subskill. Each of these skills can be used untrained, as long as someone has explained the basic rules.
-
-
-* Dexterity-based Games. The skill of increasing your chance of winning on mostly Dexterity based games.
-   * Improved Dexterity (trait). Through your practice with these types of games you have improved your agility, reflexes and/or balance. Gain +1 Dexterity.
-
-
-* Games of Tactics. You can think tactically and understand how you win games that do not include Luck, such as Chess.
-   * Game Master (group). You master one type of game in this category, and have Expertise on such checks.
-   * Logical Thinking (trait). Years of this activity has improved your logical thinking. Gain +1 Intelligence.
-
-
-* Luck-based Games. The skill of increasing your chance of winning on mostly Luck based games. If you have the Mathematics skill, you additionally gain Expertise.
-
-
-Investigation
-(Untrained)
-The skill to look around for clues and make deductions based on those clues. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, determine the weakest point in a tunnel that could cause it to collapse or to pore through ancient scrolls in search of a hidden fragment of knowledge. These are all Intelligence (Investigation) checks.
-* Ciphers. You are good at finding and solving ciphers. This grants Expertise on checks to realize that a text or map might contain a cipher or riddle.
-
-
-* Dungeon Delver. You are alert to the hidden traps and secret doors found in many dungeons and can search for them while traveling at a normal pace, instead of only at a slow pace. If you instead choose to move at a slow pace, you have Expertise in finding and detecting their presence.
-
-
-* Find Clues. You have an eye for detail and can pick out the smallest clues. When searching a room for clues that seem out of place you have Expertise. This does not help for finding traps or secret doors. In addition, it only applies when looking in a place within a familiar culture; otherwise you would not be able to tell if something is out of place.
-
-
-* Research. You are at home in libraries and other places of study and have Expertise when performing the systematic work required to find information in such a setting.
-* Training of the Mind (cumulative, trait). Years of exercising your mind has improved your sense of deduction. Gain +1 Intelligence.
-Leadership
-(Untrained)
-This includes the practical skills to act as a leader, organizing and overseeing other persons, teams and whole organizations. With this comes an understanding of power, ambitions towards a personal vision and the defense of social values.
-
-
-* Center of Attention (cumulative, trait). As a leader you have learned how to make others pay attention to you. Gain +1 Charisma.
-
-
-* Heroism (trait). More of a philosophy than a skill, that quests for reverence and glory through great risk, deeds and selflessness. A person with this skill perceives reality differently from others. For example, the object of taking an action — say, killing a monster — is less important than how it is done, or how the deed is perceived. How brave was the combatant? How remarkable was the deed itself? Glory comes not only from unequaled victory, but victory achieved with risk that is taken on behalf of others. Thus sacrifice, suffering and regard for others — which must take place in front of witnesses, that stories might be told — are also part of heroism's tradition. You gain the following ability.
-   * Forfeit Self. Rush at an enemy haphazardly, drawing attacks as a bonus action. Until the start of your next round you sacrifice 4 points of AC. During this time you can spend a reaction allowing an ally to attack with advantage.
-
-
-   * Presence (trait). You are often recognized as an unusual presence in a room, providing respect or fear.
-      * Gain Patron (trait). You are approached by a member of court or something corresponding in the area where your deeds are known. This patron can offer to provide knowledge of errant beasts, capital and introductions to the powerful.
-         * Gain Rank (trait). You are invited to accept the responsibilities of rank, including parcels of land and a steady income.
-
-
-* Judgement. Enables you to make good sense in choosing those who serve under you, particularly when assigning duties and giving trust to both hirelings and followers. This would usually be a Wisdom (Judgement) check. Knowing how to recruit the right people will in general improve morale and allow you to find people with better skills. You have Expertise when making checks using this skill.
-
-
-* Logistics. Your leadership is more focused around the management of supply and people handling it, enabling the endurance of a long-term military campaign, caravan or expedition. Having this skill includes knowledge on how to handle the discipline of planning and carrying out the movement, supply and maintenance of people while engaged in practical work in a natural environment while traveling or making camp. Also, presuming no ordinary means exist for providing the necessities of food, clothing, equipment and shelter, logistics provides skills that allow for the self-sufficiency of persons who are separated from these things. You have Expertise when making checks using this skill, including checks made to buy proviant, finding the right people with the right competence for planned tasks and organizing defenses when making camp.
-
-
-* Motivation (trait). The skill to inspire and improve the morale of hirelings, followers and allies, rallying them to engage in combat and giving their loyalty to actions the leader undertakes. Also provides great potential to inspire not only direct associates, but to any group of willing persons, on the scale of a settlement, a province or a whole kingdom.
-   * Improve Morale (trait). Increases morale for hireling and associate non-player characters. This morale boost will stay in effect for as long as they are in your employ, and you do not mistreat them. You gain the following abilities.
-   * As long as your followers are within 30 ft, they have advantage on saving throws against fear effects.
-   * When you reduce a creature to 0 hp, allies and followers that see you do it gain 1d4 temporary hit points.
-   * Inspire Loyalty (trait). Ensures that a cadre of subordinates, up to 10 persons, will never quit your employ, and would die before betraying you.
-      * Inspire Sacrifice (trait). Within certain parameters and from time to time, you are able to encourage up to 2-5 non-player characters to give their lives to achieve a goal.
-   * Rousing Speech (trait). Prior to a significant conflict, you can hold an inspiring speech. When you do so, your subordinates gain temporary hit points equal to your level + your Charisma modifier.
-
-
-* Raise Company (trait). Empowers you to choose good leaders and effectively raise and lead a body of 100 soldiers who are capable of acting as a unit towards achieving goals. This will of course cost a great deal of money.
-   * Command (trait). Supported by company commanders, you are able to effectively lead a thousand or more persons into battle, inspiring them to embrace tactics which you order.
-      * Marshal (trait). You are able to lead a national army, even a combined army of several nationalities, determining a grand strategy for military actions.
-Medicine
-(Untrained)
-Medicine is the study of maintaining and restoring the health of humanoids, as well as treating their illness and preventing the effects of poison. This skill gives enough knowledge to perform basic tasks like stabilize an ally or diagnose an illness. For anything more advanced you would have to seek help with someone more knowledgeable; this skill allows you to know where to turn and what might be possible.
-
-
-This skill is only applicable for humanoids with a similar physiology as your own (or another type of folk). You always have disadvantage when attempting to treat a member of a different folk; for instance if you are a human who tries treating a dwarf, elf or dhampir.
-
-
-In terms of the game, medicine should be treated as much more of an art than a science.
-
-
-* Battlefield Medicine. No stranger to the frontlines, you have experience with treating wounds immediately when they occur, allowing you to mend wounds quickly and get your allies back in the fight. You have Expertise on checks to stabilize, checks made to remove injury effects and checks made with a healer’s kit during a short rest. Additionally, during a short rest you can use a healer’s kit to heal a stabilized creature; that creature regains 1 hit point.
-
-
-* Detoxification. Grants Expertise to identify a poison affecting a patient's health, as well as treating it. During a short rest, which in this case would take at least 10 minutes, you can take care of people poisoned by an injury poison. By spending one use of leeches you restore hp equal to your proficiency bonus plus the creature’s maximum number of Hit Dice, but no higher than was inflicted by poison. In addition, you can manufacture Antitoxin, as if you had the Alchemy skill.
-FRAME.         Leeches
-        A jar of leeches
-Can be bought (use price, weight and usage die as healer’s kit). By spending a foraging travel action in wetlands, you can automatically increase the usage die one step (max d12).
-
-
-* Disease. You are specialized in diseases, with Expertise on checks to identify and treat them. The skill includes knowledge of magical diseases, and you would be able to deduce if it is of a magical origin (Int check). You could trace a disease to its origin by interviewing patients (Cha check). In addition you know how to properly protect yourself while in areas with sick people.
-
-
-* Folk (group). You can take this skill multiple times. Select a different folk each time. You are trained in treating members of that folk as well.
-
-
-* Forensics. Some would describe the fascination with dead bodies as "morbid" or "creepy", but you don't understand all the fuss. Everyone dies someday and it's important to know what happened to them. You know how to figure out how the deceased came to be that way. By carefully studying the surrounding environment and reconstructing events, you have Expertise on answering questions such as, "What killed them?" "How long have they been dead?" "Were they killed here or elsewhere and then dumped here?" etc.
-
-
-* Humoral Theory. You are fully aware of how most conditions are caused by imbalance on the humors, i.e. body fluids. Each of the humors are governed by an element, and that is the reason why some conditions, injuries and illnesses need to be cleaned (adding water), others need to be cleaned and kept dry. You are skilled at diagnosing the imbalance and treating it, and have Expertise on checks regarding long term care. In addition, if you take care of wounded people during a long rest you can spend one use of leeches and restore hp equal to your proficiency bonus plus the creature’s maximum number of Hit Dice.
-
-
-* Phrenology. The character has studied the science of the mind, and can tell much by reading the topography of a being’s skull. You can ascertain levels of intelligence, aggression, compassion, magical predilection and much more just by examining the shape and texture of another person’s head.
-
-
-* Surgery. The skill to cut open the body and provide treatment with a meaningful probability the patient will survive. To learn this skill you have probably gone through a lot of dissection or even vivisections. You have Expertise on all checks regarding surgery and anatomy.
-
-
-* Trepanning. One of the ways to exorcise a possessed or mad person is to drill a hole in its skull and let the evil spirits out. A target treated by you may reroll a saving throw against a possession, domination or similar affliction.
-
-
-Perception
-(Untrained)
-This skill lets you spot, hear or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest.
-
-
-* Insight. You possess keen insight into how other people think and feel, and have Expertise when trying to determine the true intentions of a creature. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.
-   * Detect Mania. Allows recognition of situations where groups of people are acting without control, either due to mass hysteria, magical suggestion or control, madness or like condition. While an ordinary observer may see a crowd acting with high emotion and believe that the assemblage is an ordinary mob or rabble, persons with this knowledge will recognize there is much more going on than meets the eye. The mania might be driven by a natural hysterical contagion, the influence of a powerful magical individual or force, a physical or mental disease, brought about by a plague or even by parasitic infestation, or it might have an otherworldly connection.
-
-
-To identify a cause, you will need to obtain full access to an individual suffering from the mania. A close examination of less than a minute is all that is needed to identify someone affected and someone that is not — as many within a crowd will move along due to confusion or curiosity. The affected person can be removed somewhere else and put under observation. Ten minutes of observation — which consists of asking questions, manipulating the victim or otherwise poking and prodding, much of which will require the victim to be restrained — allows you to make an Wisdom (Insight) check to reveal the cause — but not the source — of the mania.
-
-
-   * Predict Behavior. You can observe a humanoid to try to get uncanny insight about it and how it will respond. Make a Wisdom (Predict Behavior) check contested by the target’s Deception check. If your check succeeds, you have advantage on ability checks against the target until the end of your next turn.
-
-
-   * Student of Behavior (cumulative, trait). Observing how humanoids behave has given you lots of insight in the mind of others. Gain +1 Wisdom.
-
-
-* Keen Awareness. You are always on your guard and can react to danger at a moment's notice. Gain Expertise on Initiative checks. In addition you can use a reaction before your first round.
-   * Always Ready (trait).  You cannot be surprised unless you are incapacitated. In addition, when you roll initiative you can use a reaction to take either the Help, Ready, or Search action.
-   * Fast Reflexes (trait). You have improved your reflexes allowing you to react without a thought. Gain +1 Dexterity.
-   * Quick Witted (trait). Great ideas come to you naturally; this often saves your life. When you would make a saving throw, you may instead make an Intelligence saving throw. You may use this feature a number of times equal to your Intelligence modifier and regain all expended uses of this feature when you complete a long rest.
-
-
-* On Guard. You are trained to act as a sentinel, both the actual act of guarding as well as taking precautions against unknown intruders. During any stationary situation where you actively state as being on guard and not engaging your attention upon something other than watching for trouble, you have Expertise on checks to detect intruders.
-   * Alert (trait,  → Sense-Hearing). While on guard you can’t be surprised, nor do creatures gain advantage on attacks against you as a result of being hidden.
-
-
-* Recognise Disturbance. You can sense objects or creatures within 5 ft of you, even if they are invisible or make no sound. You can additionally make Wisdom (Recognise Disturbance) check to sense that someone has entered and lingered in a room over the last hour.
-   * Blind Fighting (trait,  → Sense-Hearing). You do not have disadvantage when attacking a target within 5 ft that you cannot see.
-
-
-* Sense - Hearing. You have exceptional hearing and have Expertise on checks to hear sounds.
-* Sense - Sight. You have exceptional sight and have Expertise when trying to spot things.
-   * Keen Sight(trait). You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 ft away from you. You also gain the following benefits.
-   * Attacking at long range doesn’t impose disadvantage on your ranged weapon attack rolls.
-   * If you can see a creature’s mouth while it is speaking a language you understand, you can interpret what it’s saying by reading its lips.
-   * Focused Vision (trait). You are good at focusing your vision on what is important and are able to shout out clutter. Being in a lightly obscured area doesn’t impose disadvantage on your Perception checks that rely on sight, and your ranged weapon attacks ignore half and three-quarters cover.
-   * Nightvision (trait). You are accustomed to the dark and can see in dim light as if it were bright light.
-* Sense - Smell. You have exceptional smell and have Expertise on checks to recognise the origin and source of that which is smelled. This would include detecting poison in food & drink and detecting any sort of odorous creature, such as a skunk, troglodyte or rotting undead.
-* Sense - Taste. You have an exceptional sense of taste and have Expertise on checks to recognise flavors. This would include detecting poison in food & drink and identifying potions
-* Sense - Touch. You have an exceptional sense of touch granting Synergy with Investigation when forced to investigate by touch. This could be the case if it is dark or if you are trying to detect secret doors or traps by touch.
-Physique
-(Untrained)
-The skill of utilizing your strength and body weight in an efficient way. Having proficiency with this skill would indicate that a character has a good level of physical fitness. The physique skill would normally be used for difficult situations when climbing, jumping and other similar activities. Physique checks that use Strength and go on for more than a minute, should roll again using Constitution.
-* Balance Load (trait). You are trained in balancing and carrying large loads, counting as if you were one size larger for the purpose of determining your carrying capacity.
-   * Lift Weights. You can attempt to temporarily Push, Drag, or Lift a weight exceeding your calculated maximum. For each 5 above a DC 5 Strength (Physique) check, count your Strength as if it was 2 points higher when calculating carrying capacity.
-
-
-* Bodybuilding (cumulative, trait). You have trained to improve your physical strength. Gain +1 Strength.
-
-
-* Carousing. You know how to hold your drink and withstand the effects of alcohol, while keeping a friendly demeanor. You have Expertise (Con, Cha) on checks to influence people in a setting where lots of alcohol is used.
-
-
-* Climb Trees. You have Expertise when climbing foliage.
-   * Fast Climber (trait). You gain a climbing speed equal to your movement speed.
-
-
-* Climb Wall. When climbing walls with equipment, you have Expertise. This proficiency also allows you to climb vertical surfaces without equipment, provided that surface retains cracks or mortared separations and you are not encumbered. The distance that may be climbed safely, without requiring a die roll of any kind, equals your Dexterity, +3 ft/character level. If at any point within this distance, you are able to rest upon a surface that is at least 4 in. wide (a window ledge or a tree branch), and do so for a period of not less than three rounds, you may reset the distance you can climb safely from that point.
-   * Fast Climber (trait). You gain a climbing speed equal to your movement speed.
-   * Instructor (trait). You can spend 5 minutes instructing, pointing out handholds, and guiding other creatures before making a climb. When you do so, choose up to six friendly creatures (which can include yourself) who pay attention to you. Each creature can add a 1d6 to one check or saving throw they make for that climb.
-
-
-* Endurance. Armies, merchants, refugees or convicts; many people push themselves farther than they could naturally go, and some who are regulars at this have adapted to this way of life. When you make a saving throw against exhaustion from extensive travel, you can use this skill with Expertise instead. You gain the following benefits.
-   * You can comfortably travel 10 hours in a day, without making saving throws against exhaustion.
-   * After you finish a long rest, you gain temporary hit points equal to your proficiency bonus.
-
-
-   * Endurance Training (cumulative, trait). You have trained to improve your stamina. Gain +1 Constitution.
-   * Fast Recovery. You recover faster than most. When you roll regain hit points, be it from using a Hit Die or from healing, you regain 2 additional hit points per roll. Note that Hit Dice are always rolled one at a time.
-
-
-* Sprinter (trait). You can run fast for short distances. During combat you can take a bonus action to Dash. When Dashing outside combat, you can add 4 times your speed. You can keep this up for 2 rounds. Instead you can add 3 times your speed for 10 rounds. If you want to continue, you can make a Constitution save against DC 10. On a success you can continue one more round, on a fail you get one level of Exhaustion. You can continue doing this with a cumulative +5 on the DC each round.
-
-
-* Intimidate. The skill of getting what you want by threatening people with your size. You have Expertise (Str, Cha) when trying to intimidate someone.
-   * Menacing. You appear fearsome to others. During your turn, you can replace one attack with an attempt to demoralize one humanoid within 30 ft of you that can see and hear you. Make an Intimidation check contested by the target’s Wisdom (Insight) check. If you succeed, the target is frightened until the end of your next turn. If your check fails, the target can’t be frightened by you in this way for 1 hour.
-
-
-* Jumper. You are good at jumping both long and high, and have Expertise on such checks. You gain the following benefits.
-   * You can attempt to jump even longer or higher. For each 5 above a DC 5 Strength (Physique) check, count your Strength as if it was 2 points higher when calculating jumping distance.
-   * You can make a running long jump or a running high jump after moving only 5 ft on foot, rather than 10 ft.
-
-
-* Manual Labor. You are used to manual labor and perform it well, and have Expertise if you need to make a check for such an activity. Having this proficiency allows you to use it as if it were a profession for the purposes of Downtime. In addition, you can use this proficiency with Charisma on checks to communicate with manual laborers.
-
-
-* Stand Ground. This skill might come from several sources, such as certain types of wrestling or from military training where holding the line is of essence. You are good at standing your ground and avoid being moved against your will. If such an effect allows for a save, you can use this skill with Expertise instead.
-   * Push. Additionally you can use this skill with Expertise when attempting to move another creature. If you have the Stand Ground II trait, you also count as one size higher when doing so.
-   * Stand Ground II (trait). For purposes of moving you, your size counts as one higher.
-
-
-* Strong Arm (trait). Through training, you have significantly increased your forearm strength, granting a stronger grip. Wrist, hand and forearm have been coordinated so that you are able to hurl weapons a greater distance and precision than normal. You gain the following benefits.
-   * You can treat any one-handed item as a thrown weapon with a range of 10/30 ft.
-   * Your thrown weapon attacks ignore half cover and three-quarters cover.
-   * Attacking at (normal) long range doesn’t impose disadvantage on your thrown weapon attack rolls, but you can additionally throw an additional 100% range with disadvantage.
-
-
-* Tolerance. You have trained, maybe unvoluntarily, to endure torture, harsh environment or other conditions that most people are lucky to avoid.  When making a check to resist such conditions, you have Expertise. If it requires a Constitution save, you can use this skill instead.
-   * Tolerance II (trait). You are in general more resistant to all kinds of hardship. Gain +1 Constitution.
-   * Tough (trait). You are tougher than most. Your hit point maximum increases by an amount equal to twice your level when you gain this trait. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.
-
-
-* Unarmed Combat. You are skilled at a discipline of unarmed combat, like boxing (wrestling and similar is its own subskill). You are proficient with unarmed strikes and use a 1d4 for damage. You can use Dexterity or Strength for attack and damage rolls of your unarmed strikes, your choice. Additionally, when you attack a creature with an unarmed strike, you can use a bonus action to make an additional unarmed strike.
-
-
-* Wrestling. You are familiar with competitive wrestling and have Expertise with such activities, which would include grappling or escaping a grapple This applies only to humanoid targets. You can use your action to try to pin a creature grappled by you. To do so, make another Strength (Wrestling) check. If you succeed, you and the creature are both restrained until the grapple ends.
-   * Beast Wrestler (trait). You can wrestle any creatures, not just humanoids. In addition creatures that are one size larger than you don’t automatically succeed on checks to escape your grapple.
-   * Wrestling II (trait). For purposes of grappling, your size counts as one higher.
 Religion
 (Untrained)
 The Religion skill covers your ability to recall lore about deities, rites and prayers, religious hierarchies, divine agents and holy symbols regarding the main pantheon within your culture, as well as the cultures for which you have the appropriate Culture skill.
