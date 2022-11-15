@@ -9,11 +9,11 @@ body {
 
 a {
   text-decoration:none;
-  color: white;
+  color: rgb(91, 86, 86);
 }
 
 a:focus, a:hover {
-  color: white;
+  color: rgb(212, 131, 131);
 }
 
 iframe {

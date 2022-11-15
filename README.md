@@ -1,3 +1,9 @@
 # The dnd page
 
-[skills](docs/skills.md)
+
+## Campaigns
+[into the dark continent](docs/campaign/into-the-dark-continent.md)
+
+## Rules
+[skills](docs/rules/skills.md)
+[tools](docs/rules/tools.md)
