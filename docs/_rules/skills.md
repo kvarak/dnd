@@ -1,5 +1,6 @@
 ---
 title: Skills
+layout: default
 ---
 
 # Skills

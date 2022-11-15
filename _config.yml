@@ -4,8 +4,14 @@ markdown: kramdown
 #kramdown:
 #  parse_block_html: true
 
+website: https://kvarak.github.io
+basewebsite: /dnd
+permalink: date
+
 collections_dir: docs
 
 collections:
-  - campaigns
-  - rules
+  campaigns:
+    output: true
+  rules:
+    output: true

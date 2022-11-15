@@ -1,6 +1,7 @@
 ---
 #layout: default
-title: Campaign - Into the Dark Continent
+title: Into the Dark Continent
+layout: default
 #tags: []
 #systems: []
 #renderer: legacy

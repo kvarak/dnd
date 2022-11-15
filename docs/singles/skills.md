@@ -1,3 +1,8 @@
+---
+title: Skills
+layout: singles
+---
+
 # Skills
 
 A skill represents a specific knowledge and an individual’s level of proficiency in a skill demonstrates a focus on that aspect.

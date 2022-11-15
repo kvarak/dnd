@@ -1,9 +1,8 @@
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-header">
 
-    <a href="/dnd/" class="navbar-left">
-      <img id="logo" src="/dnd/assets/images/transparent.png">
+    <a href="{{ site.baseurl }}" class="navbar-left">
+      <img id="logo" src="{{ site.baseurl }}/assets/images/transparent.png">
     </a>
 
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -18,17 +17,19 @@
     <ul class="nav navbar-nav">
 
       {% for collection in site.collections %}
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="category">{{ collection.label }}</span><span class="caret"></span></a>
-          <ul class="dropdown-menu">
+        {% if collection.label != 'posts' %}
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="category">{{ collection.label }}</span><span class="caret"></span></a>
+            <ul class="dropdown-menu">
 
-          {% for doc in collection.docs %}
-            <li><a href="/dnd/{{ doc.url }}">{{ doc.title }}</a></li>
-          {% endfor %}
+            {% for doc in collection.docs %}
+              <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
+            {% endfor %}
 
-          </ul>
-        </li>
+            </ul>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
-  </div></div>
+  </div>
 </nav>
