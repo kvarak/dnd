@@ -12,6 +12,15 @@ body {
   margin-top: 50px;
 }
 
+table {
+  margin-left: 50px;
+  margin-bottom: 5px;
+  /* background-image: url("../images/table.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  padding: 20px;
+}
+
 summary {
   color: #6b4fbb;
   cursor: pointer;
