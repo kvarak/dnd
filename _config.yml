@@ -3,3 +3,9 @@ theme: null
 markdown: kramdown
 #kramdown:
 #  parse_block_html: true
+
+collections_dir: docs
+
+collections:
+  - campaigns
+  - rules
