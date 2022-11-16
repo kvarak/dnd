@@ -35,13 +35,13 @@ As a alchemist, you gain the following class features.
 **Hit Dice:** 1d8
 
 #### Proficiencies
-**Armor:**::Light armor
+**Armor:** Light armor
 
-**Weapons:**::Simple weapons, thrown alchemical items
+**Weapons:** Simple weapons, thrown alchemical items
 
-**Saving Throws:**::Constitution, Intelligence
+**Saving Throws:** Constitution, Intelligence
 
-**Skills:**::Check your background for skills. In addition you have proficiency with *Alchemist's supplies* and your choice of *Herbalism* and *Hoisons*.
+**Skills:** Check your background for skills. In addition you have proficiency with *Alchemist's supplies* and your choice of *Herbalism* and *Hoisons*.
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -63,9 +63,9 @@ When your concoctions call for a saving throw, its save DC is calculated as foll
 
 **Alchemy save DC** = 8 + your proficiency bonus + your Intelligence modifier
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 ##### The Alchemist
@@ -127,9 +127,9 @@ If you damage a living creature with the weapon, this poison deals additional po
 #### Potion
 You can mix together herbs to create potions that cure ailments and injuries. If such a potion is ingested as an ***item action***, it heals damage equal to your alchemy die.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 ### Studious Expertise
@@ -183,9 +183,9 @@ Beginning at 13th level, your experience with avoiding your own bombs' explosion
 
 When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 ### Philosopher’s Stone
@@ -215,9 +215,9 @@ The following class specific additions are made to the general rest rules.
 | | * Regain all **Alchemy points**.
 | | * Create 2 additional **Concoctions**.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 # <a name="apothecary">Apothecary</a>
@@ -266,9 +266,9 @@ At 17th level, during a long rest, using 5 ***alchemy points*** and materials wo
 
 The panacea must be consumed within 24 hours, after which it becomes inert. You can reactivate it during a long rest, with the same ***alchemy point*** cost, but no additional gp cost.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 # <a name="corpsecrafter">Corpsecrafter</a>
@@ -297,22 +297,27 @@ If you spend a short rest with your leatherworker's tools on your cadaver, it re
 Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
 
 
-
+<table><tr><td>
 ## Cadaver
 *Medium undead*
 
-**Armor Class** :: 10
-**Hit Points**  :: 22 (3d8 + 9)
-**Speed** 			:: 25 ft.
+**Armor Class**   10
+
+**Hit Points**    22 (3d8 + 9)
+
+**Speed** 			  25 ft.
 
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |14 (+2)|10 (+0)|16 (+3)|3 (-4) |8 (-1) |5 (-3) |
 
-**Damage Immunities** 		::poison
-**Condition Immunities** 	::poisoned
-**Senses** 								::darkvision 60 ft.
-**Languages** 						::understands all languages creator knows, but can't speak
+**Damage Immunities** 		 poison
+
+**Condition Immunities** 	 poisoned
+
+**Senses** 								 darkvision 60 ft.
+
+**Languages** 						 understands all languages creator knows, but can't speak
 
 ***Arcane Embalming.*** The cadaver your cadaver gains advantage on turning saving throws.
 
@@ -321,7 +326,7 @@ Your cadaver is created by science, but unfortunately people often associate und
 ***Undead Fortitude.*** If damage reduces the cadaver to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage dealt, unless the damage is radiant or from a critical hit. On a success, the cadaver drops to 1 hit point instead.
 ### Actions
 ***Slam.*** *Melee Attack:* 1d6 + 2 bludgeoning damage.
-
+</td></tr></table>
 
 ### Revival Concoction
 Also from 2nd level, you learn how to prepare an additional concoction, the revival concoction, which can be used as an ***action*** to repair your cadaver.
@@ -333,9 +338,9 @@ Using the concoction on a “living” cadaver grants it temporary hit points eq
 ### Corpsecrafting Infusions
 At 7th level when you create your cadaver, you can choose to add a variety of boons and features to it by using corpsecrafting infusions. When creating a cadaver you can apply one effect form the infusions list. You can apply one additional infusion at 10th level. Some infusions can be applied twice, with additional effects.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 
@@ -381,9 +386,9 @@ The following class specific additions are made to the general rest rules.
 | During a Short rest: ||
 | | * Repair your **Cadaver**.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 # <a name="madBomber">Mad Bomber</a>
@@ -414,9 +419,9 @@ At 10th level, you have figured out how to make larger casings for your bombs. T
 ### Big bombs
 Beginning at 17th level, you can combine two non makeshift bombs into one. Combine damage and effect from both bombs. Any saves against the bombs are made at disadvantage.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 # <a name="poisoner">Poisoner</a>
@@ -450,9 +455,9 @@ At 17th level, you learn how to create more versatile versions of your poison co
 * You can use it more concentrated, for a more lethal effect when ingested. The poison's damage is doubled, and any saves a target would need to make has disadvantage.
 * You can use a small cone to blow the poison out as a fine mist in a 15-foot-cone. Any target in the area must make a Constitution saving throw against your alchemy save DC. Any creature that fails the save is affected by any poison as normal, except its duration is only 1 round. A creature that succeeds is unaffected by the poison.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 # <a name="psychedelic">Psychedelic</a>
@@ -503,9 +508,9 @@ In addition, when a creature is made compliant or charmed by you, you may use an
 ### Dazing Vertigo
 By 17th level, your abilities to injure minds and manipulate brains allows you to punish those who would resist your charms. The damage of your Vertigo increases to 6d8 + your Intelligence modifier, and the target must succeed on an Intelligence saving throw against your spell save DC or be stunned until the end of your next turn.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 # <a name="transmuter">Transmuter</a>
@@ -548,7 +553,6 @@ Intelligence is your spellcasting ability for your spells, since you learn your 
 #### Spellcasting components
 All your spells gain material components and lose verbal components. The material components are stored in pre-measured doses for quick access in small vials, packets, and other containers within easy reach on your person. Where incantations or prayer cause magic to work for other spellcasters, it is the materials and science that do that for an alchemist.
 
-<div class='classTable'>
 ##### Transmuter Spellcasting
 
 | Transmuter Level | Cantrips Known | 1st | 2nd | 3rd | 4th
@@ -572,11 +576,10 @@ All your spells gain material components and lose verbal components. The materia
 | 18th | 3 | 4 | 3 | 3 | - |
 | 19th | 3 | 4 | 3 | 3 | 1 |
 | 20th | 3 | 4 | 3 | 3 | 1 |
-</div>
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 ### Transmuter’s Stone
@@ -606,9 +609,9 @@ Starting at 17th level, you can use your ***action*** to consume the reserve of 
 
 <div class='pageNumber auto'></div>
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 # <a name="discovery">Discoveries</a>
@@ -674,9 +677,9 @@ You can additionally brew the following potions with your Brew potions feature:
 
 **Blindsight**. Target gains blindsight for the duration. The target can perceive its surroundings without relying on sight, within a 30-foot radius. (*3 alchemy points*)
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 ### Arcane Study
@@ -730,9 +733,9 @@ You can include bright flashing powder in your bombs. This allows you to make yo
 ### Glassfoot Bomb
 When you create a bomb, he can choose to have it cover the ground in volatile jagged crystals in addition to its normal effects. These crystals act like caltrops, evaporating into a smelly but harmless gas in 2d6 rounds.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 ### Hallucinogenic Toxin
@@ -782,9 +785,9 @@ When you light a torch and have your alchemist’s supplies available, you can c
 - Once per torch, you can create a brilliant flash of light that blinds everyone within 10 feet for 1 round. Creatures with darkvision are blinded for 1d4 additional rounds.
 - When you attack with the torch, it deals 1d6 additional fire damage instead of 1.
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
 
 
 ### Withering Bomb
@@ -827,6 +830,6 @@ You learn to create a clone, just like the spell. After using this ability you n
 You can set your bombs to explode in different patterns. As part of your attack when you throw a bomb, you can change that bomb's blast radius to a 15 foot cone or a 20 foot line, originating from the target's space in a direction of your choice.
 
 
-![skull_divider](https://robertrigo.github.io/pics/skull_divider.png) {position:absolute,bottom:60px,left:120px,width:70%}
 
-![top_image](https://robertrigo.github.io/pics/KsIZkRy.png) {position:absolute,top:0px,right:0px,width:100%}
+
+
