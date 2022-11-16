@@ -49,3 +49,156 @@ details {
   border-color: #58180D;
   border-radius: 5px;
 }
+
+/* ------------------------------------------------------------------------------------------------ */
+/* From Alchemist */
+
+/* A4 Page Size */
+.page {
+	width  : 210mm;
+	height : 296.8mm;
+}
+.page table thead { display: table-row-group;}
+.page { background-image: url('https://robertrigo.github.io/page-background.jpg') }
+
+.page { font-family: "Buenard"; font-size: 13px; }
+
+/* monster table stat color fix  */
+.monster table tbody tr td { background-color: rgba(255, 0, 0, 0); }
+
+/* Spell heading */
+.spell {	text-align:center;
+					margin-top: 5px;
+					margin-bottom: 5px;
+					background:#b5e2f1;	}
+
+/* Info areas */
+.descriptive{ background-color: #b5e2f1 !important; }
+
+.phb hr+blockquote {
+  background-color: #b5e2f1 !important;;
+  background-position: center center;
+  border-width: 6px;
+  border-image: url(https://i.imgur.com/gtHyLi6.png);
+  border-image-slice: 20 }
+
+.phb blockquote {background-color: #b5e2f1 !important;}
+.phb hr+blockquote hr+ul {color: #000;}
+.phb hr+blockquote table {color: #000;}
+
+.phb hr+blockquote hr {
+  filter: hue-rotate(180deg);
+background-image: url(https://i.imgur.com/gtHyLi6.png)}
+
+/* Rest block */
+.rest {	background-color: white;
+          color: black;
+          border-radius: 8px;
+          margin-bottom: 15px;	}
+
+.restHeading { 	padding: 5px;
+                background-color: #1E5C05;
+                color: white;
+                font-size: large;
+                font-weight: bold;	}
+
+.restPad {	padding-top: 2px;
+            padding-left: 4px; }
+
+.restTable { padding-right: 4px;	}
+
+.restTable th {	background-color: #E5E8E8;
+                color: black;
+                font-size: 110%; }
+
+.restTable td {	font-size: 0.95em;
+                background-color: #E5E8E8 !important;
+                color: black; }
+
+/* Tables */
+table tr:nth-child(odd) td {background-color: #b5e2f1;}
+
+/* styled Tables */
+.sTable {
+  background-color: #b5e2f1;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border-bottom: solid;
+}
+
+.sTable h4 { padding: 8px 0px 6px 10px ; }
+
+.sTable th {
+  background-color: #E5E8E8;
+  color: black;
+}
+
+.sTable td {
+  font-size: 0.95em;
+}
+
+.sTable tr:nth-child(odd) td {
+  background-color: #E5E8E8;
+  color: black;
+}
+
+.sTable tr:nth-child(even) td {
+  background-color: white;
+  color: black;
+}
+
+/* Footer */
+.page:nth-child(odd):after {
+  content          : '';
+  position         : absolute;
+  bottom           : 0px;
+  left             : 10px;
+  z-index          : -5;
+  height           : 336px;
+  width            : 100%;
+  background-image : url('https://i.imgur.com/KsIZkRy.png');
+  background-size  : cover;
+}
+
+.page:nth-child(even):after {
+  content          : '';
+  position         : absolute;
+  bottom           : 0px;
+  left             : 0px;
+  z-index          : -5;
+  height           : 336px;
+  width            : 100%;
+  background-image : url('https://i.imgur.com/KsIZkRy.png');
+  background-size  : cover;
+}
+
+/* Page Number */
+.page .pageNumber.auto:nth-child(odd):after {
+  color      : #374360;
+  position   : absolute;
+  bottom     : 30px;
+  z-index    : -5;
+  width      : 50px;
+  left       : -5px;
+  text-align : center;
+  font-size  : 15pt;
+}
+
+.page .pageNumber.auto:nth-child(even):after {
+  color      : #374360;
+  position   : absolute;
+  bottom     : 30px;
+  z-index    : -5;
+  width      : 50px;
+  left       : 10px;
+  text-align : center;
+  font-size  : 15pt;
+}
+
+top_image {
+  position:absolute;
+  top:0px;
+  right:0px;
+  width:100%
+}

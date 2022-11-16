@@ -13,6 +13,8 @@ collections_dir: docs
 collections:
   campaigns:
     output: true
+  classes:
+    output: true
   links:
     output: true
   rules:
