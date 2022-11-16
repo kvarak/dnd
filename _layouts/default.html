@@ -22,10 +22,9 @@
 
   </head>
   <body>
-    <div class="row">
-      <div class="col-sm-2">{% include navigation.html %}</div>
-    </div>
-    <div class="col-sm-10">{{ content }}</div>
+    {% include navigation.html %}
+    <div class="container">
+      {{ content }}
     </div>
   </body>
 </html>
