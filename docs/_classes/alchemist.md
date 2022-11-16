@@ -297,8 +297,11 @@ If you spend a short rest with your leatherworker's tools on your cadaver, it re
 Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
 
 
-<table><tr><td>
-## Cadaver
+<table class="monster">
+<thead><tr><th>
+Cadaver
+</th></tr></thead>
+<tbody class="monster"><tr class="monster"><td class="monster">
 *Medium undead*
 
 **Armor Class**   10
@@ -326,7 +329,8 @@ Your cadaver is created by science, but unfortunately people often associate und
 ***Undead Fortitude.*** If damage reduces the cadaver to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage dealt, unless the damage is radiant or from a critical hit. On a success, the cadaver drops to 1 hit point instead.
 ### Actions
 ***Slam.*** *Melee Attack:* 1d6 + 2 bludgeoning damage.
-</td></tr></table>
+
+</td></tr></tbody></table>
 
 ### Revival Concoction
 Also from 2nd level, you learn how to prepare an additional concoction, the revival concoction, which can be used as an ***action*** to repair your cadaver.
