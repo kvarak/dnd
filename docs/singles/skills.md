@@ -2310,7 +2310,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </details>
   <details>
     <summary>Journeyman Crafter (trait)</summary>
-    If you start play with this skill, you have an official trade certificate allowing you to charge for your work with the craft, but not yet work as a self-employed master craftsman. This will in most human urban and rural areas allow you to live a modest lifestyle without paying the cost. Becoming a Journeyman crafter during play is a lot harder, as it requires a 7 year apprenticeship. This doesn’t have to be cost: 2, so you might almost be done during your background, and finish up the last periods during downtime.
+    If you start play with this skill, you have an official trade certificate allowing you to charge for your work with the craft, but not yet work as a self-employed master craftsman. This will in most human urban and rural areas allow you to live a modest lifestyle without paying the cost. Becoming a Journeyman crafter during play is a lot harder, as it requires a 7 year apprenticeship. This doesn’t have to be cumulative, so you might almost be done during your background, and finish up the last periods during downtime.
     <br/><br/>
     As a journeyman one is expected to accomplish a three-year working trip, to train with multiple masters, which are called the journeyman years. After this trip a journeyman has to submit a masterpiece of work to a guild for evaluation. If the masterpiece is not accepted by the masters, he is not allowed to join the guild, possibly remaining a journeyman for the rest of his life.
   </details>
