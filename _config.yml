@@ -13,5 +13,7 @@ collections_dir: docs
 collections:
   campaigns:
     output: true
+  links:
+    output: true
   rules:
     output: true
