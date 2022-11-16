@@ -302,6 +302,7 @@ Your cadaver is created by science, but unfortunately people often associate und
 Cadaver
 </th></tr></thead>
 <tbody class="monster"><tr class="monster"><td class="monster">
+<div markdown="1">
 *Medium undead*
 
 **Armor Class**   10
@@ -329,7 +330,7 @@ Cadaver
 ***Undead Fortitude.*** If damage reduces the cadaver to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage dealt, unless the damage is radiant or from a critical hit. On a success, the cadaver drops to 1 hit point instead.
 ### Actions
 ***Slam.*** *Melee Attack:* 1d6 + 2 bludgeoning damage.
-
+</div>
 </td></tr></tbody></table>
 
 ### Revival Concoction
