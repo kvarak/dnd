@@ -1,12 +1,6 @@
 ---
-#layout: default
 title: Tools Proficiences
 layout: default
-#description: undefined
-#tags: ''
-#systems:
-#  - 5e
-#renderer: V3
 ---
 
 
