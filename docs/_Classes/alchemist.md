@@ -226,7 +226,7 @@ The philosopher’s stone also has devastating destructive potential. As a ***bo
 
 <hr class="classdivider">
 
-<h1 class="internal-link"><a name="apothecary">Apothecary</a></h1>
+<h1><a class="internal-link" name="apothecary">Apothecary</a></h1>
 
 Many practically-minded alchemists decide to assume the role of the apothecary. An adventuring party always needs a healer, and clerics might be in short supply. On their downtime, such alchemists have a marketable skill to depend upon for income. Apothecaries are constantly at work studying potions and herbology. In order to learn how to heal the body, an apothecary must learn how the body works. This often requires carving boldly upon the corpses of the dead to further understand how they behave while living.
 
@@ -277,7 +277,7 @@ The panacea must be consumed within 24 hours, after which it becomes inert. You 
 
 <hr class="classdivider">
 
-<h1 class="internal-link"><a name="corpsecrafter">Corpsecrafter</a></h1>
+<h1><a class="internal-link" name="corpsecrafter">Corpsecrafter</a></h1>
 
 The art of corpsecrafting specializes in using alchemy to reanimate and reshape the bodies of the fallen. Corpsecrafters, unlike necromancers they're often compared to, prefer to focus their efforts on their macabre creations; a cadaver, to perform a variety of tasks for them by use of a combination of magical and alchemical augmentations.
 
@@ -428,7 +428,7 @@ During the transformation, the cadaver can't create another cadaver using its 'A
 
 <hr class="classdivider">
 
-<h1 class="internal-link"><a name="madBomber">Mad Bomber</a></h1>
+<h1><a class="internal-link" name="madBomber">Mad Bomber</a></h1>
 
 While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.
 
@@ -461,7 +461,7 @@ Beginning at 17th level, you can combine two non makeshift bombs into one. Combi
 
 <hr class="classdivider">
 
-<h1 class="internal-link"><a name="poisoner">Poisoner</a></h1>
+<h1><a class="internal-link" name="poisoner">Poisoner</a></h1>
 
 Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.
 
@@ -497,7 +497,7 @@ At 17th level, you learn how to create more versatile versions of your poison co
 
 <hr class="classdivider">
 
-<h1 class="internal-link"><a name="psychedelic">Psychedelic</a></h1>
+<h1><a class="internal-link" name="psychedelic">Psychedelic</a></h1>
 
 Psychedelics specialize in manipulating the minds of creatures using hormones, narcotics and other baneful elixirs to make them compliant. Whether it is to gather information, convince a target of a truth or to assassinate a suspect, the psychedelics move silently and deadly.
 
@@ -549,7 +549,7 @@ By 17th level, your abilities to injure minds and manipulate brains allows you t
 
 <hr class="classdivider">
 
-<h1 class="internal-link"><a name="transmuter">Transmuter</a></h1>
+<h1><a class="internal-link" name="transmuter">Transmuter</a></h1>
 
 Not satisfied with mere mundane alchemy, the transmuter blends science with arcane knowledge to create something more. A transmuter is usually more experimental, but often seen as a failure by both wizards and “pure” alchemists.
 
@@ -646,7 +646,7 @@ Starting at 17th level, you can use your ***action*** to consume the reserve of 
 
 <hr class="classdivider">
 
-<h1 class="internal-link"><a name="discovery">Discoveries</a></h1>
+<h1><a class="internal-link" name="discovery">Discoveries</a></h1>
 
 If a discovery has prerequisites, you must meet them to learn it. You can learn the discovery at the same time that you reach its prerequisites. You can only learn a discovery once, unless otherwise specified.
 
