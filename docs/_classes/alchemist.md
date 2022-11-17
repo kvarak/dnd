@@ -4,7 +4,8 @@ layout: default
 ---
 
 
-# Alchemist
+<h1 class="archetype" id="apothecary"><a name="apothecary">Apothecary</a></h1>
+
 A grinning gnome cackles with glee as he hurls a bomb into a group of charging goblins, blasting them into scorched chunks. He produces another, throws it at his feet, and disappears, still laughing, in the ensuing cloud of smoke.
 
 A slender elf quickly mixes liquids and herbs in a small bowl. She applies the mixture to an arrow wound on an injured dwarf's side, which immediately stops bleeding.
@@ -129,6 +130,28 @@ You can mix together herbs to create potions that cure ailments and injuries. If
 
 
 
+<div markdown="1" class="card rest">
+<div markdown="1" class="card-title restHeading">Rest Additions</div>
+<div markdown="1" class="card-subtitle restPad">The following class specific additions are made to the general rest rules.
+<div markdown="1" class="card-text restTable">
+<table><thead><th>Long rest</th></thead>
+  <tbody><tr>
+    <td colspan=2> During a Long rest:</td>
+    <td></td><td>Create 2 **Concoctions**.</td>
+    <td></td><td>Create any number of potions with **Brew Potions**.</td>
+    <td></td><td>&nbsp;</td>
+    <td colspan=2> After a Long rest:</td>
+    <td></td><td>Regain 1 **Alchemy point**.</td>
+    <td></td><td>&nbsp;</td>
+    <td colspan=2> Add the following class specific benefits to choose from:</td>
+    <td></td><td>Regain all **Alchemy points**.</td>
+    <td></td><td>Create 2 additional **Concoctions**.</td>
+    <td></td><td>&nbsp;</td>
+  </tr></tbody>
+</table>
+</div>
+</div>
+</div>
 
 
 
@@ -196,33 +219,6 @@ At 20th level, you unlock the secrets of alchemy. Using your alchemist's supplie
 - As an ***action***, you can transmute a vial of water into any potion you can brew, which becomes inert after 24 hours. You must complete a long rest before you can do this again.
 
 The philosopher’s stone also has devastating destructive potential. As a ***bonus action*** when you throw a bomb, you can replace its reagent with the philosopher's stone, creating a massive bomb. This bomb has a blast radius of 500 ft, dealing 10d10 + 50 fire damage to all creatures in the area.
-
-<div markdown="1" class="card rest">
-
-<div markdown="1" class="card-title restHeading">
-Rest Additions
-</div>
-
-<div markdown="1" class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-<div markdown="1" class="card-text restTable">
-
-| Long rest ||
-|:-|:------- |
-<td colspan=2> During a Long rest:</td>
-| | * Create 2 **Concoctions**.
-| | * Create any number of potions with **Brew Potions**.
-| | &nbsp;
-<td colspan=2> After a Long rest:</td>
-| | * Regain 1 **Alchemy point**.
-| | &nbsp;
-<td colspan=2> Add the following class specific benefits to choose from:</td>
-| | * Regain all **Alchemy points**.
-| | * Create 2 additional **Concoctions**.
-
-</div>
-</div>
-</div>
 
 # <a name="apothecary">Apothecary</a>
 Many practically-minded alchemists decide to assume the role of the apothecary. An adventuring party always needs a healer, and clerics might be in short supply. On their downtime, such alchemists have a marketable skill to depend upon for income. Apothecaries are constantly at work studying potions and herbology. In order to learn how to heal the body, an apothecary must learn how the body works. This often requires carving boldly upon the corpses of the dead to further understand how they behave while living.
