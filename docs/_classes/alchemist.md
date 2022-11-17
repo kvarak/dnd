@@ -197,10 +197,13 @@ At 20th level, you unlock the secrets of alchemy. Using your alchemist's supplie
 
 The philosopher’s stone also has devastating destructive potential. As a ***bonus action*** when you throw a bomb, you can replace its reagent with the philosopher's stone, creating a massive bomb. This bomb has a blast radius of 500 ft, dealing 10d10 + 50 fire damage to all creatures in the area.
 
-
+<div markdown="1" class="card rest">
+<div markdown="1" class="card-title restHeading">
 Rest Additions
-
+</div>
+<div markdown="1" class="card-subtitle restPad">
 The following class specific additions are made to the general rest rules.
+<div markdown="1" class="card-text restTable">
 
 | Long rest ||
 |:-|:------- |
@@ -215,10 +218,9 @@ The following class specific additions are made to the general rest rules.
 | | * Regain all **Alchemy points**.
 | | * Create 2 additional **Concoctions**.
 
-
-
-
-
+</div>
+</div>
+</div>
 
 # <a name="apothecary">Apothecary</a>
 Many practically-minded alchemists decide to assume the role of the apothecary. An adventuring party always needs a healer, and clerics might be in short supply. On their downtime, such alchemists have a marketable skill to depend upon for income. Apothecaries are constantly at work studying potions and herbology. In order to learn how to heal the body, an apothecary must learn how the body works. This often requires carving boldly upon the corpses of the dead to further understand how they behave while living.
