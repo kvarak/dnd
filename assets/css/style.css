@@ -1,11 +1,14 @@
 
 h1, h2, h3, h4, h5 {
-  margin-top: .2em;
-  margin-bottom: .2em;
+  margin-bottom: 0;
   font-family: MrJeeves;
   font-weight: 900;
   color: #58180D;
   font-variant: small-caps
+}
+
+p {
+  margin-bottom: 1em;
 }
 
 table {
@@ -41,6 +44,7 @@ details {
 
 .container {
   margin-top: 80px;
+  font-size: small;
 }
 
 .skill-frame {
