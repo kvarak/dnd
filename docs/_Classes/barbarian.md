@@ -273,6 +273,8 @@ At 1st level, you choose a path that shapes the nature of your rage. Your choice
 <hr class="classdivider">
 <h1><a class="internal-link" name="aquaticHunter">Aquatic Hunter</a></h1>
 
+<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png' style='float: left' />
+
 The Path of the Aquatic Hunter is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.
 
 Barbarians from coastal and island cultures often draw on the spirit of the ocean's greatest hunters to inspire them in battle. Aquatic totems include killer whales (orca) and sharks.
@@ -312,12 +314,6 @@ Also at 3rd level, you gain a greater connection to your totem spirit. You gain 
 **Shark.** The spirit of the shark makes you ferocious at the smell of blood. The spirit of the shark makes you ferocious at the smell of blood. You gain temporary hit points equal to your Constitution modifier whenever you damage a creature with a melee attack.
 
 **Whale.** The spirit of the whale protects you from the elements. When you start your rage, you gain a number of temporary hit points equal to your Constitution score, which last until your rage ends. While you have those temporary hit points, you have resistance to cold and fire damage.
-
-<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png' style='position:absolute;width:100%;bottom:-50px;left:0px;' />
-
-
-
-
 
 
 
