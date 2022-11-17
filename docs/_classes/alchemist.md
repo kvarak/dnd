@@ -68,6 +68,7 @@ When your concoctions call for a saving throw, its save DC is calculated as foll
 
 
 
+<div class="block classTable">
 
 ##### The Alchemist
 
@@ -93,6 +94,8 @@ When your concoctions call for a saving throw, its save DC is calculated as foll
 | 18th | +6 | 4d8 | - | 9 |
 | 19th | +6 | 4d8 | Ability Score Improvement | 10 |
 | 20th | +6 | 4d8 | Philosopher’s Stone | 10 |
+
+</div>
 
 #### Bomb
 These volatile alchemical bombs are ranged weapons with the finesse and thrown (range 20/60) properties. On a hit, the target takes your alchemy die + your Intelligence modifier fire damage. All creatures within a 5 ft radius of the original target must make a Dexterity saving throw, taking half damage on a failed save and none on a successful one.
