@@ -74,7 +74,6 @@ details {
 /* monster table stat color fix  */
 .monster table tbody tr td {
   background-color: rgba(255, 0, 0, 0);
-  margin-left: 0px;
 }
 
 .monster.frame {
@@ -98,6 +97,7 @@ details {
   position: relative;
   padding: 0px;
   margin-bottom: 0.325cm;
+  margin-left: 0px;
 }
 
 .monster hr {
