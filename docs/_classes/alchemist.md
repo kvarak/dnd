@@ -136,7 +136,7 @@ You can mix together herbs to create potions that cure ailments and injuries. If
   <div class="card-subtitle restPad">
     The following class specific additions are made to the general rest rules.
     <div class="card-text restTable">
-      <table><thead><th>Long rest</th></thead>
+      <table><thead><th colspan=2>Long rest</th></thead>
         <tbody>
           <tr><td colspan=2> During a Long rest:</td></tr>
           <tr><td></td><td>Create 2 <b>Concoctions</b>.</td></tr>
