@@ -91,14 +91,14 @@ details {
 background-image: url(https://i.imgur.com/gtHyLi6.png)}
 
 /* Rest block */
-.rest > table {
+.rest table {
   background-color: white;
   color: black;
   border-radius: 8px;
   margin-bottom: 15px;
 }
 
-.rest > table > th {
+.rest thead {
   padding: 5px;
   background-color: #1E5C05;
   color: white;
@@ -106,18 +106,24 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
   font-weight: bold;
 }
 
-.restPad {	padding-top: 2px;
-            padding-left: 4px; }
+.rest table  {
+  padding-top: 2px;
+  padding-left: 4px;
+}
 
 .restTable { padding-right: 4px;	}
 
-.restTable th {	background-color: #E5E8E8;
-                color: black;
-                font-size: 110%; }
+.rest th {
+  background-color: #E5E8E8;
+  color: black;
+  font-size: 110%;
+}
 
-.restTable td {	font-size: 0.95em;
-                background-color: #E5E8E8 !important;
-                color: black; }
+.rest td {
+  font-size: 0.95em;
+  background-color: #E5E8E8 !important;
+  color: black;
+}
 
 /* Tables */
 table tr:nth-child(odd) td {background-color: #b5e2f1;}
