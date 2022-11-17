@@ -91,14 +91,14 @@ details {
 background-image: url(https://i.imgur.com/gtHyLi6.png)}
 
 /* Rest block */
-.rest table {
+.rest {
   background-color: white;
   color: black;
   border-radius: 8px;
   margin-bottom: 15px;
 }
 
-.rest thead {
+.restHeading {
   padding: 5px;
   background-color: #1E5C05;
   color: white;
@@ -106,20 +106,22 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
   font-weight: bold;
 }
 
-.rest table  {
+.restPad {
   padding-top: 2px;
   padding-left: 4px;
 }
 
-.restTable { padding-right: 4px;	}
+.restTable {
+  padding-right: 4px;
+}
 
-.rest th {
+.restTable th {
   background-color: #E5E8E8;
   color: black;
   font-size: 110%;
 }
 
-.rest td {
+.restTable td {
   font-size: 0.95em;
   background-color: #E5E8E8 !important;
   color: black;
