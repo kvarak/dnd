@@ -165,7 +165,7 @@ From 1st level you have advantage on any ability check you make with your alchem
 ### Field of Study
 While all alchemists share a common knowledge base, most alchemists specialize into a particular field of study. When you reach 2nd level, you select your field of study from apothecary, mad bomber, poisoner and transmuter. Your field choice grants you features at 2nd level and then again at 7th, 10th, and 17th level.
 
-### Discovery
+### Discoveries
 In the course of your research, you have made a number of <a href="#discovery">discoveries</a> regarding the nature of alchemy. At 3rd level, you gain two discoveries of your choice. When you gain certain alchemist levels, you gain additional discoveries of your choice, as shown in the Discoveries Known column of the Alchemist table.
 
 Additionally, when you learn a new discovery, you can choose one of the discoveries you know and replace it with another discovery that you could learn at that level.
@@ -643,6 +643,8 @@ Starting at 17th level, you can use your ***action*** to consume the reserve of 
 **Restore Life**. You cast the *raise dead* spell on a creature you touch with the transmuter’s stone, without expending a spell slot or needing to have the spell in your spellbook.
 
 **Restore Youth**. You touch the transmuter’s stone to a willing creature, and that creature’s apparent age is reduced by 3d10 years, to a minimum of 13 years. This effect doesn’t extend the creature’s lifespan.
+
+
 
 <hr class="classdivider">
 

@@ -106,6 +106,7 @@ You have advantage on Dexterity saving throws against effects that you can see, 
 <div class="block classTable frame" markdown="1">
 
 ##### The Barbarian
+
 | Level | Proficiency Bonus | Features | Fury | Rage Damage |
 |:---:|:---:|:---|:---:|:---:|
 | 1st | +2 | Primal Path, Rage, Unarmored Defense | 20 | +2 |
@@ -270,7 +271,7 @@ At 1st level, you choose a path that shapes the nature of your rage. Your choice
 
 
 <hr class="classdivider">
-<h1 class="internal-link"><a name="aquaticHunter">Aquatic Hunter</a></h1>
+<h1><a class="internal-link" name="aquaticHunter">Aquatic Hunter</a></h1>
 
 The Path of the Aquatic Hunter is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.
 
@@ -358,7 +359,7 @@ At 14th level, you gain a magical benefit based on the totem animal of your choi
 
 
 <hr class="classdivider">
-<h1 class="internal-link"><a name="berserker">Path of the Berserker</a></h1>
+<h1><a class="internal-link" name="berserker">Path of the Berserker</a></h1>
 
 For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
@@ -399,7 +400,7 @@ Starting at 14th level, when you take damage from a creature, you can use your *
 
 
 <hr class="classdivider">
-<h1 class="internal-link"><a name="courageousHeart">Path of the Courageous Heart</a></h1>
+<h1><a class="internal-link" name="courageousHeart">Path of the Courageous Heart</a></h1>
 
 For some adventurers, their internal reservoir of fearlessness and gallantry might border closer to foolhardiness. An intrepid do-gooder might take the first step down this path by complete accident, meddling in affairs they ought not and finding themselves unable to turn back. Their impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer. These brawlers might not be as graceful as trained fighters, but they're guardians of the weak, and what they lack in polish they make up for in valor.
 
@@ -446,7 +447,7 @@ At 14th level, whenever you succeed at a Constitution saving throw to remain con
 
 
 <hr class="classdivider">
-<h1 class="internal-link"><a name="defender">Path of the Defender</a></h1>
+<h1><a class="internal-link" name="defender">Path of the Defender</a></h1>
 
 Barbarians that follow the Path of the Defender have assumed the responsibility of keeping a bondmate alive. They are often charged with the safekeeping of people of importance, like a traveling priest, a tribe's shaman or elder, and so on, but just as often they simply form a bond with someone they either care for or share a common goal with, like a sibling or fellow adventurer.
 
@@ -493,7 +494,7 @@ Starting at 14th level, you and your bondmate function even more like a team whe
 
 
 <hr class="classdivider">
-<h1 class="internal-link"><a name="hurler">Path of the Hurler</a></h1>
+<h1><a class="internal-link" name="hurler">Path of the Hurler</a></h1>
 
 You began with throwing sticks, then stones. Eventually the sticks and stones changed, becoming darts, shotput, or other sports. But you were destined for more. Heavier and heavier stones, larger and larger sticks - boulders and cabers, ever increasing in heft. Anything you can lift, you can throw. And anything you can throw, you can triumph with.
 
@@ -555,7 +556,7 @@ Creatures that are Tiny or smaller cannot be used for this feature. Small creatu
 
 
 <hr class="classdivider">
-<h1 class="internal-link"><a name="juggernaut">Path of the Juggernaut</a></h1>
+<h1><a class="internal-link" name="juggernaut">Path of the Juggernaut</a></h1>
 
 Juggernaut barbarians are siege engines in their own right, able to stand their ground and move their foes into positions of weakness. While raging, they make any battlefield their domain, shoving enemies over mountain sides and destroying any battle formation trying to stand in their way.
 
@@ -623,7 +624,7 @@ You may do this a number of times equal to your Constitution modifier. See *Rest
 
 
 <hr class="classdivider">
-<h1 class="internal-link"><a name="marauder">Path of the Marauder</a></h1>
+<h1><a class="internal-link" name="marauder">Path of the Marauder</a></h1>
 
 Every group intending to go into battle needs a good leader. One who leads from the front, who has a plan, who knows the strengths of his allies and deploys them where they will be the most effective. What they need is a barbarian of the Path of the Marauder.
 
