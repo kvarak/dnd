@@ -129,7 +129,6 @@ If you damage a living creature with the weapon, this poison deals additional po
 You can mix together herbs to create potions that cure ailments and injuries. If such a potion is ingested as an ***item action***, it heals damage equal to your alchemy die.
 
 
-
 <div class="card rest">
   <div class="card-title restHeading">
     Rest Additions
