@@ -307,7 +307,6 @@ Your cadaver is created by science, but unfortunately people often associate und
 <tbody>
 <tr><td><i>Medium undead</i></td></tr>
 <tr><td><hr></td></tr>
-<tr><td><hr></td></tr>
 <tr><td markdown="1">
 
 **Armor Class**   10
@@ -335,6 +334,10 @@ Your cadaver is created by science, but unfortunately people often associate und
 **Senses** 								 darkvision 60 ft.
 
 **Languages** 						 understands all languages creator knows, but can't speak
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 ***Arcane Embalming.*** The cadaver your cadaver gains advantage on turning saving throws.
 

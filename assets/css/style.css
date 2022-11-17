@@ -84,12 +84,10 @@ details {
   border-image: url(../images/monsterBorderFancy.png) 14 round;
   border-image-outset: 0px 2px;
   background-blend-mode: overlay;
-  background-attachment: fixed;
   filter: drop-shadow(1px 4px 6px #888);
   padding: 4px 2px;
-  margin-left: -0.16cm;
-  margin-right: -0.16cm;
-  max-width: 200px;
+  margin-left: 50px;
+  max-width: 220px;
 }
 
 .monster {
