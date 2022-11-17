@@ -300,7 +300,7 @@ Your cadaver is created by science, but unfortunately people often associate und
 
 
 <div class="monster frame">
-<table>
+<table class="monster">
 <thead><tr><th>
   Cadaver
 </th></tr></thead>
