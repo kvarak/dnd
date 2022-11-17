@@ -303,7 +303,7 @@ Your cadaver is created by science, but unfortunately people often associate und
 <table class="monster">
 <thead><tr><th markdown="1">
 
-##### Cadaver
+#### Cadaver
 </th></tr></thead>
 <tbody>
 <tr><td><i>Medium undead</i></td></tr>
