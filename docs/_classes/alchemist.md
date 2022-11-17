@@ -68,7 +68,7 @@ When your concoctions call for a saving throw, its save DC is calculated as foll
 
 
 
-<div class="block classTable" markdown="1">
+<div class="block classTable frame wide" markdown="1">
 
 ##### The Alchemist
 
