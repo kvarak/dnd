@@ -289,14 +289,6 @@ The art of corpsecrafting specializes in using alchemy to reanimate and reshape 
 When you choose this specialization at 2nd level, you gain proficiency with Leatherworker’s tools. If you already have this proficiency, you gain proficiency with one other type of artisan’s tools of your choice.
 
 ### Animated Cadaver
-By 2nd level, you have perfected the ability to reanimate corpses and modify them. During a long rest, you can alchemically reanimate a fresh cadaver if you have your alchemist’s supplies, leatherworker's tools and a humanoid corpse. When you do so, it has the base statistics listed below. You can only have one cadaver at a time as they need constant upkeep.
-
-In combat, the cadaver shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action unless you take a ***bonus action*** on your turn to command it to take one of the actions in its stat block or the Attack, Dash, Disengage, Help, Hide, or Search action.
-
-If you spend a short rest with your leatherworker's tools on your cadaver, it regains 2d6 hit points.
-
-##### Hiding the undead
-Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
 
 
 <div class="monster frame">
@@ -355,6 +347,15 @@ Cadaver
 </td></tr></tbody></table>
 
 </div>
+
+By 2nd level, you have perfected the ability to reanimate corpses and modify them. During a long rest, you can alchemically reanimate a fresh cadaver if you have your alchemist’s supplies, leatherworker's tools and a humanoid corpse. When you do so, it has the base statistics listed below. You can only have one cadaver at a time as they need constant upkeep.
+
+In combat, the cadaver shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action unless you take a ***bonus action*** on your turn to command it to take one of the actions in its stat block or the Attack, Dash, Disengage, Help, Hide, or Search action.
+
+If you spend a short rest with your leatherworker's tools on your cadaver, it regains 2d6 hit points.
+
+##### Hiding the undead
+Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
 
 <div class="card rest">
   <div class="card-title restHeading">
