@@ -209,16 +209,16 @@ The following class specific additions are made to the general rest rules.
 
 | Long rest ||
 |:-|:------- |
-| During a Long rest: ||
-| | * Create 2 **Concoctions**. |
-| | * Create any number of potions with **Brew Potions**. |
-| | &nbsp; |
-| After a Long rest: ||
-| | * Regain 1 **Alchemy point**. |
-| | &nbsp; |
-| Add the following class specific benefits to choose from: ||
-| | * Regain all **Alchemy points**. |
-| | * Create 2 additional **Concoctions**. |
+| <td colspan=2> During a Long rest:
+| | * Create 2 **Concoctions**.
+| | * Create any number of potions with **Brew Potions**.
+| | &nbsp;
+| <td colspan=2> After a Long rest:
+| | * Regain 1 **Alchemy point**.
+| | &nbsp;
+| <td colspan=2> Add the following class specific benefits to choose from:
+| | * Regain all **Alchemy points**.
+| | * Create 2 additional **Concoctions**.
 
 </div>
 </div>
