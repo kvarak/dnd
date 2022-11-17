@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-<h1 class="archetype" id="apothecary"><a name="apothecary">Apothecary</a></h1>
+<h1 class="internal-link"><a name="apothecary">Apothecary</a></h1>
 
 A grinning gnome cackles with glee as he hurls a bomb into a group of charging goblins, blasting them into scorched chunks. He produces another, throws it at his feet, and disappears, still laughing, in the ensuing cloud of smoke.
 
@@ -138,16 +138,16 @@ You can mix together herbs to create potions that cure ailments and injuries. If
     <div class="card-text restTable">
       <table><thead><th colspan=2>Long rest</th></thead>
         <tbody>
-          <tr><td colspan=2> During a Long rest:</td></tr>
-          <tr><td></td><td>Create 2 <b>Concoctions</b>.</td></tr>
-          <tr><td></td><td>Create any number of potions with <b>Brew Potions</b>.</td></tr>
+          <tr><td colspan=2>During a Long rest:</td></tr>
+          <tr><td></td><td>- Create 2 <b>Concoctions</b>.</td></tr>
+          <tr><td></td><td>- Create any number of potions with <b>Brew Potions</b>.</td></tr>
           <tr><td></td><td>&nbsp;</td></tr>
-          <tr><td colspan=2> After a Long rest:</td></tr>
-          <tr><td></td><td>Regain 1 <b>Alchemy point</b>.</td></tr>
+          <tr><td colspan=2>After a Long rest:</td></tr>
+          <tr><td></td><td>- Regain 1 <b>Alchemy point</b>.</td></tr>
           <tr><td></td><td>&nbsp;</td></tr>
-          <tr><td colspan=2> Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>Regain all <b>Alchemy points</b>.</td></tr>
-          <tr><td></td><td>Create 2 additional <b>Concoctions</b>.</td></tr>
+          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
+          <tr><td></td><td>- Regain all <b>Alchemy points</b>.</td></tr>
+          <tr><td></td><td>- Create 2 additional <b>Concoctions</b>.</td></tr>
           <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
@@ -299,13 +299,15 @@ If you spend a short rest with your leatherworker's tools on your cadaver, it re
 Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
 
 
-<table class="monster">
+<div class="monster frame">
+<table>
 <thead><tr><th>
-Cadaver
+  Cadaver
 </th></tr></thead>
-<tbody class="monster"><tr class="monster"><td class="monster">
-<div markdown="1">
-*Medium undead*
+<tbody>
+<tr><td><i>Medium undead</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 **Armor Class**   10
 
@@ -313,9 +315,17 @@ Cadaver
 
 **Speed** 			  25 ft.
 
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |14 (+2)|10 (+0)|16 (+3)|3 (-4) |8 (-1) |5 (-3) |
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 **Damage Immunities** 		 poison
 
@@ -325,31 +335,43 @@ Cadaver
 
 **Languages** 						 understands all languages creator knows, but can't speak
 
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
 ***Arcane Embalming.*** The cadaver your cadaver gains advantage on turning saving throws.
 
 ***Proficiencies.*** The cadaver uses the same proficiency bonus as its creator. It is proficient with all armor, shields and simple weapons.
 
 ***Undead Fortitude.*** If damage reduces the cadaver to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage dealt, unless the damage is radiant or from a critical hit. On a success, the cadaver drops to 1 hit point instead.
-### Actions
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
+##### Actions
 ***Slam.*** *Melee Attack:* 1d6 + 2 bludgeoning damage.
-</div>
+
 </td></tr></tbody></table>
 
-<div markdown="1" class="card rest">
-<div markdown="1" class="card-title restHeading">
-Rest Additions
 </div>
-<div markdown="1" class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-<div markdown="1" class="card-text restTable">
 
-| Short rest ||
-|:-|:------- |
-| During a Short rest: ||
-| | * Repair your **Cadaver**.
-
-</div>
-</div>
+<div class="card rest">
+  <div class="card-title restHeading">
+    Rest Additions
+  </div>
+  <div class="card-subtitle restPad">
+    The following class specific additions are made to the general rest rules.
+    <div class="card-text restTable">
+      <table><thead><th colspan=2>Short rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>During a Short rest:</td></tr>
+          <tr><td></td><td>- Repair your <b>Cadaver</b>.</td></tr>
+          <tr><td></td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
 
 

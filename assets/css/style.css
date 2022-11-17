@@ -72,7 +72,42 @@ details {
 .page { font-family: "Buenard"; font-size: 13px; }
 
 /* monster table stat color fix  */
-.monster table tbody tr td { background-color: rgba(255, 0, 0, 0); }
+.monster table tbody tr td {
+  background-color: rgba(255, 0, 0, 0);
+  margin-left: 0px;
+}
+
+.monster.frame {
+  border-style: solid;
+  border-width: 7px 6px;
+  background-color: var(--HB_Color_MonsterStatBackground);
+  background-image: url(../images/parchmentBackgroundGrayscale.jpg);
+  border-image: url(../images/monsterBorderFancy.png) 14 round;
+  border-image-outset: 0px 2px;
+  background-blend-mode: overlay;
+  filter: drop-shadow(1px 4px 6px #888);
+  padding: 4px 2px;
+  margin-left: 50px;
+  max-width: 220px;
+}
+
+.monster {
+  font-family: ScalySansRemake;
+  font-size: .318cm;
+  line-height: 1.2em;
+  position: relative;
+  padding: 0px;
+  margin-bottom: 0.325cm;
+}
+
+.monster hr {
+  visibility: visible;
+  height: 6px;
+  margin: 0.12cm 0;
+  background-image: url(../images/redTriangle.png);
+  background-size: 100% 100%;
+  border: none;
+}
 
 /* Spell heading */
 .spell {	text-align:center;
