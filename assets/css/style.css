@@ -98,11 +98,13 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
   margin-bottom: 15px;
 }
 
-.restHeading { 	padding: 5px;
-                background-color: #1E5C05;
-                color: white;
-                font-size: large;
-                font-weight: bold;	}
+.rest > table > th {
+  padding: 5px;
+  background-color: #1E5C05;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
 
 .restPad {	padding-top: 2px;
             padding-left: 4px; }
