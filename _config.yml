@@ -11,11 +11,11 @@ permalink: date
 collections_dir: docs
 
 collections:
-  campaigns:
+  Campaigns:
     output: true
-  classes:
+  Classes:
     output: true
-  links:
+  Links:
     output: true
-  rules:
+  Rules:
     output: true
