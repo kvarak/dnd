@@ -1,35 +1,25 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="navbar-header">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-    <a href="{{ site.baseurl }}" class="navbar-left">
-      <img id="logo" src="{{ site.baseurl }}/assets/images/transparent.png">
-    </a>
+  <a href="{{ site.baseurl }}" class="navbar-left">
+    <img id="logo" src="{{ site.baseurl }}/assets/images/transparent.png">
+  </a>
 
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav">
-
-      {% for collection in site.collections %}
-        {% if collection.label != 'posts' %}
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="category">{{ collection.label }}</span><span class="caret"></span></a>
-            <ul class="dropdown-menu">
-
-            {% for doc in collection.docs %}
-              <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
-            {% endfor %}
-
-            </ul>
-          </li>
-        {% endif %}
-      {% endfor %}
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{ collection.label }}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          {% for doc in collection.docs %}
+          <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a>
+          {% endfor %}
+        </div>
+      </li>
     </ul>
   </div>
 </nav>
