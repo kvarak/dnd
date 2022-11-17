@@ -358,7 +358,7 @@ At 14th level, you gain a magical benefit based on the totem animal of your choi
 <hr class="classdivider">
 <h1><a class="internal-link" name="berserker">Path of the Berserker</a></h1>
 
-<img src='https://www.gmbinder.com/images/vTRGceu.png' style="float:right;width:150px;padding:10px"/>
+<img src='https://www.gmbinder.com/images/vTRGceu.png' style="float:right;max-width:300px;padding:10px"/>
 
 For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
