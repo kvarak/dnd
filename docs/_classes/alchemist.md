@@ -317,7 +317,7 @@ Your cadaver is created by science, but unfortunately people often associate und
 
 </td></tr>
 <tr><td><hr></td></tr>
-<tr><td markdown="1">
+<tr><td markdown="1" class="monster">
 
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
