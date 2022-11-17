@@ -210,15 +210,15 @@ The following class specific additions are made to the general rest rules.
 | Long rest ||
 |:-|:------- |
 | During a Long rest: ||
-| | * Create 2 **Concoctions**.
-| | * Create any number of potions with **Brew Potions**.
-| | &nbsp;
+| | * Create 2 **Concoctions**. |
+| | * Create any number of potions with **Brew Potions**. |
+| | &nbsp; |
 | After a Long rest: ||
-| | * Regain 1 **Alchemy point**.
-| | &nbsp;
+| | * Regain 1 **Alchemy point**. |
+| | &nbsp; |
 | Add the following class specific benefits to choose from: ||
-| | * Regain all **Alchemy points**.
-| | * Create 2 additional **Concoctions**.
+| | * Regain all **Alchemy points**. |
+| | * Create 2 additional **Concoctions**. |
 
 </div>
 </div>
@@ -337,6 +337,24 @@ Cadaver
 </div>
 </td></tr></tbody></table>
 
+<div markdown="1" class="card rest">
+<div markdown="1" class="card-title restHeading">
+Rest Additions
+</div>
+<div markdown="1" class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div markdown="1" class="card-text restTable">
+
+| Short rest ||
+|:-|:------- |
+| During a Short rest: ||
+| | * Repair your **Cadaver**.
+
+</div>
+</div>
+</div>
+
+
 ### Revival Concoction
 Also from 2nd level, you learn how to prepare an additional concoction, the revival concoction, which can be used as an ***action*** to repair your cadaver.
 
@@ -385,23 +403,6 @@ If you manage to be resurrected before the cadaver finishes changing, the cadave
 
 During the transformation, the cadaver can't create another cadaver using its 'Animate cadaver' feature.
 
-
-<div markdown="1" class="card rest">
-<div markdown="1" class="card-title restHeading">
-Rest Additions
-</div>
-<div markdown="1" class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-<div markdown="1" class="card-text restTable">
-
-| Short rest ||
-|:-|:------- |
-| During a Short rest: ||
-| | * Repair your **Cadaver**.
-
-</div>
-</div>
-</div>
 
 
 
