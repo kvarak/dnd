@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-<h1 class="archetype" id="apothecary"><a name="apothecary">Apothecary</a></h1>
+<h1 class="internal-link"><a name="apothecary">Apothecary</a></h1>
 
 A grinning gnome cackles with glee as he hurls a bomb into a group of charging goblins, blasting them into scorched chunks. He produces another, throws it at his feet, and disappears, still laughing, in the ensuing cloud of smoke.
 
@@ -138,16 +138,16 @@ You can mix together herbs to create potions that cure ailments and injuries. If
     <div class="card-text restTable">
       <table><thead><th colspan=2>Long rest</th></thead>
         <tbody>
-          <tr><td colspan=2> During a Long rest:</td></tr>
-          <tr><td></td><td>Create 2 <b>Concoctions</b>.</td></tr>
-          <tr><td></td><td>Create any number of potions with <b>Brew Potions</b>.</td></tr>
+          <tr><td colspan=2>During a Long rest:</td></tr>
+          <tr><td></td><td>- Create 2 <b>Concoctions</b>.</td></tr>
+          <tr><td></td><td>- Create any number of potions with <b>Brew Potions</b>.</td></tr>
           <tr><td></td><td>&nbsp;</td></tr>
-          <tr><td colspan=2> After a Long rest:</td></tr>
-          <tr><td></td><td>Regain 1 <b>Alchemy point</b>.</td></tr>
+          <tr><td colspan=2>After a Long rest:</td></tr>
+          <tr><td></td><td>- Regain 1 <b>Alchemy point</b>.</td></tr>
           <tr><td></td><td>&nbsp;</td></tr>
-          <tr><td colspan=2> Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>Regain all <b>Alchemy points</b>.</td></tr>
-          <tr><td></td><td>Create 2 additional <b>Concoctions</b>.</td></tr>
+          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
+          <tr><td></td><td>- Regain all <b>Alchemy points</b>.</td></tr>
+          <tr><td></td><td>- Create 2 additional <b>Concoctions</b>.</td></tr>
           <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
@@ -335,21 +335,22 @@ Cadaver
 </div>
 </td></tr></tbody></table>
 
-<div markdown="1" class="card rest">
-<div markdown="1" class="card-title restHeading">
-Rest Additions
-</div>
-<div markdown="1" class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-<div markdown="1" class="card-text restTable">
-
-| Short rest ||
-|:-|:------- |
-| During a Short rest: ||
-| | * Repair your **Cadaver**.
-
-</div>
-</div>
+<div class="card rest">
+  <div class="card-title restHeading">
+    Rest Additions
+  </div>
+  <div class="card-subtitle restPad">
+    The following class specific additions are made to the general rest rules.
+    <div class="card-text restTable">
+      <table><thead><th colspan=2>Short rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>During a Short rest:</td></tr>
+          <tr><td></td><td>- Repair your <b>Cadaver</b>.</td></tr>
+          <tr><td></td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
 
 
