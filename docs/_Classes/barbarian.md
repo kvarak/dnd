@@ -666,7 +666,7 @@ You can use this feature once and regain its use when you finish a short rest. I
 | 2 | One of your relatives leads an infamous company of bandits, and you aim to replace them.
 | 3 | You don't care for fame, but the stakes and secrecy of being part of an elite military unit are all you've ever wanted.
 | 4 | Hunting terrible monsters and otherworldly foes beside your friends seems like the ideal way to go out.
-
+}}
 
 ### Assured Assignment
 *6th-level Path of the Marauder feature*
