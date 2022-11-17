@@ -82,6 +82,10 @@ details {
   border-image-width: 47px;
 }
 
+.classTable thead {
+  width: 100%;
+}
+
 /* ------------------------------------------------------------------------------------------------ */
 
 /* monster table stat color fix  */
