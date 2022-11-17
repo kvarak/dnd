@@ -38,11 +38,11 @@ details {
   border-radius: 5px;
 }
 
-.archetype {
+.internal-link {
   scroll-margin-top: 80px;
 }
 
-.container {
+.container-main {
   margin-top: 80px;
   font-size: small;
 }
