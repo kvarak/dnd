@@ -386,13 +386,14 @@ Rest Additions
 
 The following class specific additions are made to the general rest rules.
 
+<div markdown="1" class="rest">
+
 | Short rest ||
 |:-|:------- |
 | During a Short rest: ||
 | | * Repair your **Cadaver**.
 
-
-
+</div>
 
 
 
@@ -401,16 +402,12 @@ While many "mad bombers" aren't actually mad, it takes a special kind of crazy t
 
 #### Features
 
-<div markdown="1" class="rest">
-
 | Alchemist level | Feature |
 |:------------:|:--------|
 | 2nd | Bonus Proficiencies, Makeshift Bombs
 | 7th | Demolition
 | 10th | Expanding blast
 | 17th | Big bombs
-
-</div>
 
 ### Bonus Proficiencies
 When you select this field of study at 2nd level, you gain proficiency with one martial ranged weapon.
