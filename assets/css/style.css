@@ -35,8 +35,12 @@ details {
   border-radius: 5px;
 }
 
+.archetype {
+  scroll-margin-top: 80px;
+}
+
 .container {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .skill-frame {
