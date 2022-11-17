@@ -273,13 +273,14 @@ At 1st level, you choose a path that shapes the nature of your rage. Your choice
 <hr class="classdivider">
 <h1><a class="internal-link" name="aquaticHunter">Aquatic Hunter</a></h1>
 
-<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png' style='float: left' />
+<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png'/>
 
 The Path of the Aquatic Hunter is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.
 
 Barbarians from coastal and island cultures often draw on the spirit of the ocean's greatest hunters to inspire them in battle. Aquatic totems include killer whales (orca) and sharks.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Swimmer, Totem Spirit |
@@ -357,9 +358,12 @@ At 14th level, you gain a magical benefit based on the totem animal of your choi
 <hr class="classdivider">
 <h1><a class="internal-link" name="berserker">Path of the Berserker</a></h1>
 
+![berserker](https://www.gmbinder.com/images/vTRGceu.png)
+
 For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Intimidating Presence |
@@ -388,9 +392,6 @@ If the creature succeeds on its saving throw, you can't use this feature on that
 
 ### Retaliation
 Starting at 14th level, when you take damage from a creature, you can use your **reaction** to make a melee weapon attack against that creature
-
-![berserker](https://www.gmbinder.com/images/vTRGceu.png) {position:absolute,top:0px,right:0px,width:53%,height:100%}
-
 
 
 
