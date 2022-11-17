@@ -346,7 +346,7 @@ Your cadaver is created by science, but unfortunately people often associate und
 <tr><td><hr></td></tr>
 <tr><td markdown="1">
 
-### Actions
+##### Actions
 ***Slam.*** *Melee Attack:* 1d6 + 2 bludgeoning damage.
 
 </td></tr></tbody></table>
