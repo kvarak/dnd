@@ -299,8 +299,8 @@ If you spend a short rest with your leatherworker's tools on your cadaver, it re
 Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
 
 
-
-<table class="monster">
+<div class="monster frame">
+<table>
 <thead><tr><th>
   Cadaver
 </th></tr></thead>
@@ -350,6 +350,8 @@ Your cadaver is created by science, but unfortunately people often associate und
 ***Slam.*** *Melee Attack:* 1d6 + 2 bludgeoning damage.
 
 </td></tr></tbody></table>
+
+</div>
 
 <div class="card rest">
   <div class="card-title restHeading">
