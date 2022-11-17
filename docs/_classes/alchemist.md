@@ -299,13 +299,16 @@ If you spend a short rest with your leatherworker's tools on your cadaver, it re
 Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
 
 
+
 <table class="monster">
 <thead><tr><th>
-Cadaver
+  Cadaver
 </th></tr></thead>
-<tbody class="monster"><tr class="monster"><td class="monster">
-<div markdown="1">
-*Medium undead*
+<tbody>
+<tr><td><i>Medium undead</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 **Armor Class**   10
 
@@ -313,9 +316,17 @@ Cadaver
 
 **Speed** 			  25 ft.
 
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |14 (+2)|10 (+0)|16 (+3)|3 (-4) |8 (-1) |5 (-3) |
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 **Damage Immunities** 		 poison
 
@@ -330,9 +341,14 @@ Cadaver
 ***Proficiencies.*** The cadaver uses the same proficiency bonus as its creator. It is proficient with all armor, shields and simple weapons.
 
 ***Undead Fortitude.*** If damage reduces the cadaver to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage dealt, unless the damage is radiant or from a critical hit. On a success, the cadaver drops to 1 hit point instead.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
 ### Actions
 ***Slam.*** *Melee Attack:* 1d6 + 2 bludgeoning damage.
-</div>
+
 </td></tr></tbody></table>
 
 <div class="card rest">
