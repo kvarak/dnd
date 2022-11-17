@@ -382,13 +382,13 @@ If you manage to be resurrected before the cadaver finishes changing, the cadave
 During the transformation, the cadaver can't create another cadaver using its 'Animate cadaver' feature.
 
 
-<div markdown="1" class="rest">
-<div markdown="1" class="restHeading">
+<div markdown="1" class="block rest">
+<div markdown="1" class="block restHeading">
 Rest Additions
 </div>
-<div markdown="1" class="restPad">
+<div markdown="1" class="block restPad">
 The following class specific additions are made to the general rest rules.
-<div markdown="1" class="restTable">
+<div markdown="1" class="block restTable">
 
 | Short rest ||
 |:-|:------- |
