@@ -90,6 +90,7 @@ details {
 
 hr.classdivider {
   visibility: visible;
+  height: 25px;
   margin: 0.12cm 0;
   background-image: url(../images/skull_divider.png);
   background-size: 100% 100%;
