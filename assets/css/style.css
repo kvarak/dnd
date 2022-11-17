@@ -88,6 +88,7 @@ details {
   padding: 4px 2px;
   margin-left: 50px;
   max-width: 300px;
+  float: left;
 }
 
 .monster {
