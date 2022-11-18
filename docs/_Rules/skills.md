@@ -29,7 +29,21 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 - **Untrained**. Unless a trait or a specialized activity, this skill can normally be attempted without having proficiency.
 - **→ X**. If you have proficiency with skill X, the cost of this skill is reduced by 1.
 
-## Untrained Skills
+
+### Skill list
+<ul class="nav nav-tabs" id="skill-tabs" role="tablist">
+  <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#untrained"><h5>Untrained skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#knowledge"><h5>Knowledge skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#practical"><h5>Practical skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#craft"><h5>Craft skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#traits"><h5>Traits</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#class"><h5>Class specific skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#background"><h5>Background traits</h5></a></li>                    
+</ul>
+        
+
+<div class="tab-content">
+<div id="untrained" class="container tab-pane active">
 <details>
   <summary>Acrobatics (Untrained)</summary>
   This skill mixes various physical performances with feats of extraordinary balance, agility and coordination. It incorporates numerous amusements and stunts which can be performed for an audience, as well as tricks that can serve the character well in other ventures, such as staying on your feet when trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ships’ deck. It is commonly mastered by jugglers, tumblers, aerialists and other circus performers — persons fascinating to watch but not of particularly high social standing.
@@ -934,7 +948,11 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </div>
 </details>
 
-## Knowledge Skills
+
+<!-- ----------------------------Knowledge skills-------------------------  -->
+
+</div>
+<div id="knowledge" class="container tab-pane fade">
 
 <details>
   <summary>Arcana</summary>
@@ -1718,8 +1736,11 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </div>
 </details>
 
-## Practical Skills
 
+<!-- ----------------------------Practical skills-------------------------  -->
+
+</div>
+<div id="practical" class="container tab-pane fade">
 <details>
   <summary>Agriculture</summary>
   <div markdown="1">
@@ -2261,7 +2282,10 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </div>
 </details>
 
-## Craft Skills
+<!-- ----------------------------Craft skills-------------------------  -->
+
+</div>
+<div id="craft" class="container tab-pane fade">
 
 <details>
   <summary>Generic rules for crafting</summary>
@@ -2714,7 +2738,13 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </div>
 </details>
 
-## Traits
+
+
+<!-- ----------------------------Traits-------------------------  -->
+
+</div>
+<div id="traits" class="container tab-pane fade">
+
 This group collects additional traits that are not part of a skill.
 
 <details>
@@ -2780,7 +2810,11 @@ This group collects additional traits that are not part of a skill.
   </div>
 </details>
 
-## Class Specific Skills
+
+<!-- ----------------------------Class Specific skills-------------------------  -->
+
+</div>
+<div id="class" class="container tab-pane fade">
 
 <details>
   <summary>Evasive Flow</summary>
@@ -2798,7 +2832,12 @@ This group collects additional traits that are not part of a skill.
   </div>
 </details>
 
-## Background Skills
+
+
+<!-- ----------------------------Background skills-------------------------  -->
+
+</div>
+<div id="background" class="container tab-pane fade">
 Only available at character creation.
 
 <details>
@@ -2839,5 +2878,6 @@ Only available at character creation.
   </div>
 </details>
 
-## Feats that are not skills (yet)
-Class and folk specific feats!!
+</div>
+</div>
+

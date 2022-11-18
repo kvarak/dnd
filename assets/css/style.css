@@ -60,14 +60,27 @@ details {
   border-radius: 5px;
 }
 
-.internal-link {
-  scroll-margin-top: 80px;
-}
-
 .container-main {
   margin-top: 80px;
   margin-bottom: 80px;
   font-size: small;
+}
+
+.internal-link {
+  scroll-margin-top: 80px;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: 5px;
+}
+
+.nav-tabs .nav-link:hover {
+  border-bottom: 1px solid grey;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 2px solid #6b4fbb;
+  background-color: lightgrey;
 }
 
 .skill-frame {
