@@ -65,7 +65,7 @@ In battle, you fight with primal ferocity. On your turn, you can enter a rage as
 * When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.
 * You have resistance to bludgeoning, piercing, and slashing damage.
 
-<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='position:absolute;height:37%;right:80px;bottom:-20px;' />
+<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='position:float;height:37%;padding:20px' />
 
 
 
