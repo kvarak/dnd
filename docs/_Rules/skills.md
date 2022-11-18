@@ -9,7 +9,7 @@ A skill represents a specific knowledge and an individual’s level of proficien
 
 ### When do I get skills?
 You will get skill points to select skills during character creation, as well as when you level up.
-- During character creation, when rolling your background, you will get skills appropriate for the events in your life. If you get less than 3 skills (4 for humans), you can select additional skills so that you have 3. Additionally you always gain the appropriate Culture skill (unless living as a hermit or similar). Skills found in Background Skills are only available at this time.
+- During character creation, while generating your background, you will get skills appropriate for the events in your life. If you get less than 3 skills (4 for humans), you can select additional skills so that you have 3. Additionally you always gain the appropriate Culture skill (unless living as a hermit or similar). Skills found in Background Skills are only available at this time.
 - Each class receives a number of skill points for which to buy skills from a list of class skills.
 - Each time you level up, you gain 1 skill point, which you can use to buy any skill.
 - In addition, classes may have class features that grant skills or skill points.
@@ -17,15 +17,15 @@ You will get skill points to select skills during character creation, as well as
 ### Spending skill points
 Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must know the skill right above it in the “skill tree”. You can save skill points, and are allowed to spend them at a later time, after finishing a long rest. Additionally you can spend skill points the following ways.
 - **Ability Score Increase**. You can spend 2 skill points to increase an ability score by 1.
-- **Improved Proficiency**. After you have Expertise with a skill, you can spend 2 skill points to gain +1 to all checks with that skill. You can improve it even further, increasing the cost by 1 point each time you buy this.
+- **Improved Proficiency**. If you have Expertise with a skill, you can spend 2 skill points to gain +1 to all checks with that skill. You can improve it even further, increasing the cost by 1 point each time you buy this.
 
 ### Terms
 - **Cost: X**. This skill costs a number of skill points equal to X.
 - **Expertise**. You have advantage on checks using this proficiency.
 - **Expertise (Ability X, Ability Y)**. You have advantage, but one of the dice uses ability modifier X and the other ability modifier Y.
-- **Group**. This is a group of skills, so you do not learn it completely. Select one of the skills in the description instead.
+- **Group**. This is a group of skills. When learning this, select one of the skills in the description instead. You can learn this multiple times, each time selecting a different subskill.
 - **Synergy (X)**. If you have proficiency with skill X, gain advantage when using that skill.
-- **Trait**. A trait is like a binary skill; either you can do it or not. A roll is not required in most cases.
+- **Trait**. A trait is a binary skill; either you can do it or not. A roll is not required in most cases.
 - **Untrained**. Unless a trait or a specialized activity, this skill can normally be attempted without having proficiency.
 - **→ X**. If you have proficiency with skill X, the cost of this skill is reduced by 1.
 
@@ -142,7 +142,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   ***Birds***. Birds are seldom domesticated. When they are, it is usually for companionship (parrots, falcons, etc).
   * Bugs & Spiders. Neither are common, but can be found in some underground societies, most notable the riding spiders of Drow. Hardy giant beetles can be used as pack animals in desert environments.
   * Farm Animals. This includes the animals used in human farms, such as dogs, horses, cows and sheep, but also fowl of different types.
-  * Mammals (land). Includes mammals that are sometimes domesticated, such as elephants and camels. This would also with more experience include the training of other mammals such as tiger and elk.
+  * Mammals (land). Includes other mammals that are sometimes domesticated, such as elephants and camels.
   * Reptiles. Lizards are used as riding and pack animals in many underground societies.
   * Sea Life. Folk living underwater use a wide variety of sea living creatures as mounts. For surface dwellers this could apply to seals or dolphins.
 
