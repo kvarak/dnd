@@ -633,17 +633,14 @@ Every group intending to go into battle needs a good leader. One who leads from 
 Barbarians on this course find their rage brings great clarity of mind, allowing them to see all the ways the battle can be won. Through sly tactics and synergy, they make sure every member of their company is utilized to the fullest. These barbarians often aspire to a position where their gifts will be the most useful. You can choose this ambition or determine it by rolling on the Marauder's Ambition table.
 
 
-<div class="descriptive" markdown="1">
-
 ### Marauder's Ambition
+
 | d4 | Ambition |
 | :-: | :--- |
 | 1 | You dream at night of the high seas and the open sky, and know you could be a privateer captain without equal.
 | 2 | One of your relatives leads an infamous company of bandits, and you aim to replace them.
 | 3 | You don't care for fame, but the stakes and secrecy of being part of an elite military unit are all you've ever wanted.
 | 4 | Hunting terrible monsters and otherworldly foes beside your friends seems like the ideal way to go out.
-
-</div>
 
 
 ### Features
