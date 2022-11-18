@@ -48,6 +48,9 @@ As a barbarian, you gain the following class features.
 
 **Saving Throws:** Strength, Constitution
 
+<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float=right;height:37%;padding:20px' />
+
+
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 
@@ -64,9 +67,6 @@ In battle, you fight with primal ferocity. On your turn, you can enter a rage as
 * You have advantage on Strength checks and Strength saving throws.
 * When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.
 * You have resistance to bludgeoning, piercing, and slashing damage.
-
-<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='position:float;height:37%;padding:20px' />
-
 
 
 
@@ -1328,7 +1328,7 @@ Starting at 6th level, the divine power that fuels your rage can protect you. If
 ### Zealous Presence
 At 10th level, you learn to channel divine power to inspire zealotry in others. As a ***bonus action***, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you that can hear you gain advantage on attack rolls and saving throws until the start of your next turn.
 
-You can use this feature once. See *Rest Additions* below.
+You can use this feature once. See *Rest Additions*.
 
 ### Rage beyond Death
 Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows.
