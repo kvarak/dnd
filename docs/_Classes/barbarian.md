@@ -6,12 +6,12 @@ layout: default
 
 # Barbarian
 
-<div style="float:right" markdown="1">
-
+<div style="float:right">
+<span markdown="1">
 > *"The rage that lies within the soul of a barbarian can take many forms. It can be summoned equally with a sense of purpose, a fire of passion, or a cold vengeance. Regardless of its source, a dreaded fate awaits any who stands in its path"*
 >
 > — Garin Tristane, general
-
+</span>
 </div>
 
 - #### [Primal Paths](#p11)
