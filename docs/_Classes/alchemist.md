@@ -3,8 +3,7 @@ title: Alchemist
 layout: default
 ---
 
-
-<h1 class="internal-link"><a name="apothecary">Apothecary</a></h1>
+# Alchemist
 
 A grinning gnome cackles with glee as he hurls a bomb into a group of charging goblins, blasting them into scorched chunks. He produces another, throws it at his feet, and disappears, still laughing, in the ensuing cloud of smoke.
 
@@ -68,6 +67,7 @@ When your concoctions call for a saving throw, its save DC is calculated as foll
 
 
 
+<div class="block classTable frame" markdown="1">
 
 ##### The Alchemist
 
@@ -93,6 +93,8 @@ When your concoctions call for a saving throw, its save DC is calculated as foll
 | 18th | +6 | 4d8 | - | 9 |
 | 19th | +6 | 4d8 | Ability Score Improvement | 10 |
 | 20th | +6 | 4d8 | Philosopher’s Stone | 10 |
+
+</div>
 
 #### Bomb
 These volatile alchemical bombs are ranged weapons with the finesse and thrown (range 20/60) properties. On a hit, the target takes your alchemy die + your Intelligence modifier fire damage. All creatures within a 5 ft radius of the original target must make a Dexterity saving throw, taking half damage on a failed save and none on a successful one.
@@ -163,7 +165,7 @@ From 1st level you have advantage on any ability check you make with your alchem
 ### Field of Study
 While all alchemists share a common knowledge base, most alchemists specialize into a particular field of study. When you reach 2nd level, you select your field of study from apothecary, mad bomber, poisoner and transmuter. Your field choice grants you features at 2nd level and then again at 7th, 10th, and 17th level.
 
-### Discovery
+### Discoveries
 In the course of your research, you have made a number of <a href="#discovery">discoveries</a> regarding the nature of alchemy. At 3rd level, you gain two discoveries of your choice. When you gain certain alchemist levels, you gain additional discoveries of your choice, as shown in the Discoveries Known column of the Alchemist table.
 
 Additionally, when you learn a new discovery, you can choose one of the discoveries you know and replace it with another discovery that you could learn at that level.
@@ -222,7 +224,10 @@ At 20th level, you unlock the secrets of alchemy. Using your alchemist's supplie
 
 The philosopher’s stone also has devastating destructive potential. As a ***bonus action*** when you throw a bomb, you can replace its reagent with the philosopher's stone, creating a massive bomb. This bomb has a blast radius of 500 ft, dealing 10d10 + 50 fire damage to all creatures in the area.
 
-# <a name="apothecary">Apothecary</a>
+<hr class="classdivider">
+
+<h1><a class="internal-link" name="apothecary">Apothecary</a></h1>
+
 Many practically-minded alchemists decide to assume the role of the apothecary. An adventuring party always needs a healer, and clerics might be in short supply. On their downtime, such alchemists have a marketable skill to depend upon for income. Apothecaries are constantly at work studying potions and herbology. In order to learn how to heal the body, an apothecary must learn how the body works. This often requires carving boldly upon the corpses of the dead to further understand how they behave while living.
 
 #### Class Features
@@ -270,10 +275,10 @@ The panacea must be consumed within 24 hours, after which it becomes inert. You 
 
 
 
+<hr class="classdivider">
 
+<h1><a class="internal-link" name="corpsecrafter">Corpsecrafter</a></h1>
 
-
-# <a name="corpsecrafter">Corpsecrafter</a>
 The art of corpsecrafting specializes in using alchemy to reanimate and reshape the bodies of the fallen. Corpsecrafters, unlike necromancers they're often compared to, prefer to focus their efforts on their macabre creations; a cadaver, to perform a variety of tasks for them by use of a combination of magical and alchemical augmentations.
 
 #### Features
@@ -288,21 +293,10 @@ The art of corpsecrafting specializes in using alchemy to reanimate and reshape 
 ### Tool Proficiency
 When you choose this specialization at 2nd level, you gain proficiency with Leatherworker’s tools. If you already have this proficiency, you gain proficiency with one other type of artisan’s tools of your choice.
 
-### Animated Cadaver
-By 2nd level, you have perfected the ability to reanimate corpses and modify them. During a long rest, you can alchemically reanimate a fresh cadaver if you have your alchemist’s supplies, leatherworker's tools and a humanoid corpse. When you do so, it has the base statistics listed below. You can only have one cadaver at a time as they need constant upkeep.
-
-In combat, the cadaver shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action unless you take a ***bonus action*** on your turn to command it to take one of the actions in its stat block or the Attack, Dash, Disengage, Help, Hide, or Search action.
-
-If you spend a short rest with your leatherworker's tools on your cadaver, it regains 2d6 hit points.
-
-##### Hiding the undead
-Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
-
-
 <div class="monster frame">
-<table>
+<table class="monster">
 <thead><tr><th>
-  Cadaver
+Cadaver
 </th></tr></thead>
 <tbody>
 <tr><td><i>Medium undead</i></td></tr>
@@ -317,7 +311,7 @@ Your cadaver is created by science, but unfortunately people often associate und
 
 </td></tr>
 <tr><td><hr></td></tr>
-<tr><td markdown="1">
+<tr><td markdown="1" class="monster">
 
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -353,8 +347,15 @@ Your cadaver is created by science, but unfortunately people often associate und
 ***Slam.*** *Melee Attack:* 1d6 + 2 bludgeoning damage.
 
 </td></tr></tbody></table>
-
 </div>
+
+### Animated Cadaver
+
+By 2nd level, you have perfected the ability to reanimate corpses and modify them. During a long rest, you can alchemically reanimate a fresh cadaver if you have your alchemist’s supplies, leatherworker's tools and a humanoid corpse. When you do so, it has the base statistics listed below. You can only have one cadaver at a time as they need constant upkeep.
+
+In combat, the cadaver shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action unless you take a ***bonus action*** on your turn to command it to take one of the actions in its stat block or the Attack, Dash, Disengage, Help, Hide, or Search action.
+
+If you spend a short rest with your leatherworker's tools on your cadaver, it regains 2d6 hit points.
 
 <div class="card rest">
   <div class="card-title restHeading">
@@ -374,6 +375,8 @@ Your cadaver is created by science, but unfortunately people often associate und
   </div>
 </div>
 
+##### Hiding the undead
+Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
 
 ### Revival Concoction
 Also from 2nd level, you learn how to prepare an additional concoction, the revival concoction, which can be used as an ***action*** to repair your cadaver.
@@ -423,10 +426,10 @@ If you manage to be resurrected before the cadaver finishes changing, the cadave
 
 During the transformation, the cadaver can't create another cadaver using its 'Animate cadaver' feature.
 
+<hr class="classdivider">
 
+<h1><a class="internal-link" name="madBomber">Mad Bomber</a></h1>
 
-
-# <a name="madBomber">Mad Bomber</a>
 While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.
 
 #### Features
@@ -456,10 +459,10 @@ Beginning at 17th level, you can combine two non makeshift bombs into one. Combi
 
 
 
+<hr class="classdivider">
 
+<h1><a class="internal-link" name="poisoner">Poisoner</a></h1>
 
-
-# <a name="poisoner">Poisoner</a>
 Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.
 
 #### Features
@@ -492,10 +495,10 @@ At 17th level, you learn how to create more versatile versions of your poison co
 
 
 
+<hr class="classdivider">
 
+<h1><a class="internal-link" name="psychedelic">Psychedelic</a></h1>
 
-
-# <a name="psychedelic">Psychedelic</a>
 Psychedelics specialize in manipulating the minds of creatures using hormones, narcotics and other baneful elixirs to make them compliant. Whether it is to gather information, convince a target of a truth or to assassinate a suspect, the psychedelics move silently and deadly.
 
 #### Features
@@ -544,11 +547,10 @@ In addition, when a creature is made compliant or charmed by you, you may use an
 By 17th level, your abilities to injure minds and manipulate brains allows you to punish those who would resist your charms. The damage of your Vertigo increases to 6d8 + your Intelligence modifier, and the target must succeed on an Intelligence saving throw against your spell save DC or be stunned until the end of your next turn.
 
 
+<hr class="classdivider">
 
+<h1><a class="internal-link" name="transmuter">Transmuter</a></h1>
 
-
-
-# <a name="transmuter">Transmuter</a>
 Not satisfied with mere mundane alchemy, the transmuter blends science with arcane knowledge to create something more. A transmuter is usually more experimental, but often seen as a failure by both wizards and “pure” alchemists.
 
 #### Features
@@ -642,14 +644,12 @@ Starting at 17th level, you can use your ***action*** to consume the reserve of 
 
 **Restore Youth**. You touch the transmuter’s stone to a willing creature, and that creature’s apparent age is reduced by 3d10 years, to a minimum of 13 years. This effect doesn’t extend the creature’s lifespan.
 
-<div class='pageNumber auto'></div>
 
 
+<hr class="classdivider">
 
+<h1><a class="internal-link" name="discovery">Discoveries</a></h1>
 
-
-
-# <a name="discovery">Discoveries</a>
 If a discovery has prerequisites, you must meet them to learn it. You can learn the discovery at the same time that you reach its prerequisites. You can only learn a discovery once, unless otherwise specified.
 
 ### Acid Bomb
