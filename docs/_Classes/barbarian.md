@@ -36,6 +36,9 @@ The anger felt by a normal person resembles the rage of a barbarian in the same 
 
 
 ## Class Features
+
+<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float:right;height:37%;padding:20px' />
+
 As a barbarian, you gain the following class features.
 
 #### Hit Points
@@ -47,6 +50,8 @@ As a barbarian, you gain the following class features.
 **Weapons:** Simple weapons, Martial weapons
 
 **Saving Throws:** Strength, Constitution
+
+
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -64,9 +69,6 @@ In battle, you fight with primal ferocity. On your turn, you can enter a rage as
 * You have advantage on Strength checks and Strength saving throws.
 * When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.
 * You have resistance to bludgeoning, piercing, and slashing damage.
-
-<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='position:float;height:37%;padding:20px' />
-
 
 
 
@@ -139,6 +141,37 @@ You have learnt how to survive in the wilds and gain two of the following skills
 
 Additionally you always have advantage with those skill.
 
+
+<div class="card rest">
+  <div class="card-title restHeading">
+    Rest Additions
+  </div>
+  <div class="card-subtitle restPad">
+    The following class specific additions are made to the general rest rules.
+    <div class="card-text restTable">
+      <table><thead><th colspan=2>Short rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>After a short rest:</td></tr>
+          <tr><td></td><td>- Regain 1 <b>Fury</b>.</td></tr>
+          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> by 1.</td></tr>
+          <tr><td></td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+      <table><thead><th colspan=2>Long rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>During a Long rest:</td></tr>
+          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
+          <tr><td></td><td>- Regain 10 <b>Fury</b>.</td></tr>
+          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> to 10.</td></tr>
+          <tr><td></td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 
@@ -199,43 +232,12 @@ While in your rage, you have advantage on all Strength, Dexterity, and Constitut
 ### Primal Champion
 At 20th level, you embody the power of the wilds. Your Strength and Constitution scores, and maximums increase by 4.
 
-<div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following class specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Short rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>After a short rest:</td></tr>
-          <tr><td></td><td>- Regain 1 <b>Fury</b>.</td></tr>
-          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> by 1.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
-        </tbody>
-      </table>
-      <table><thead><th colspan=2>Long rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>During a Long rest:</td></tr>
-          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>- Regain 10 <b>Fury</b>.</td></tr>
-          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> to 10.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
 
 
 
 
 
-
-
-
-
-# Primal Paths
+## Primal Paths
 
 Rage burns in every barbarian's heart, a furnace that drives him or her toward greatness. Different barbarians attribute their rage to different sources, however. For some, it is an internal reservoir where pain, grief, and anger are forged into a fury hard as steel. Others see it as a spiritual blessing, or a gift of a totem animal.
 
@@ -404,6 +406,7 @@ Starting at 14th level, when you take damage from a creature, you can use your *
 For some adventurers, their internal reservoir of fearlessness and gallantry might border closer to foolhardiness. An intrepid do-gooder might take the first step down this path by complete accident, meddling in affairs they ought not and finding themselves unable to turn back. Their impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer. These brawlers might not be as graceful as trained fighters, but they're guardians of the weak, and what they lack in polish they make up for in valor.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Lucky |
@@ -1328,7 +1331,7 @@ Starting at 6th level, the divine power that fuels your rage can protect you. If
 ### Zealous Presence
 At 10th level, you learn to channel divine power to inspire zealotry in others. As a ***bonus action***, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you that can hear you gain advantage on attack rolls and saving throws until the start of your next turn.
 
-You can use this feature once. See *Rest Additions* below.
+You can use this feature once. See *Rest Additions*.
 
 ### Rage beyond Death
 Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows.
