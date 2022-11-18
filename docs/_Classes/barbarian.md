@@ -6,11 +6,13 @@ layout: default
 
 # Barbarian
 
+<div style="float:right">
 
 > *"The rage that lies within the soul of a barbarian can take many forms. It can be summoned equally with a sense of purpose, a fire of passion, or a cold vengeance. Regardless of its source, a dreaded fate awaits any who stands in its path"*
 >
 > — Garin Tristane, general
 
+</div>
 
 - #### [Primal Paths](#p11)
   - <a href="#aquaticHunter">Path of the Aquatic Hunter</a>
