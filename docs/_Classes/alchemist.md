@@ -5,9 +5,20 @@ layout: default
 
 # Alchemist
 
-A grinning gnome cackles with glee as he hurls a bomb into a group of charging goblins, blasting them into scorched chunks. He produces another, throws it at his feet, and disappears, still laughing, in the ensuing cloud of smoke.
+*A grinning gnome cackles with glee as he hurls a bomb into a group of charging goblins, blasting them into scorched chunks. He produces another, throws it at his feet, and disappears, still laughing, in the ensuing cloud of smoke.*
 
-A slender elf quickly mixes liquids and herbs in a small bowl. She applies the mixture to an arrow wound on an injured dwarf's side, which immediately stops bleeding.
+*A slender elf quickly mixes liquids and herbs in a small bowl. She applies the mixture to an arrow wound on an injured dwarf's side, which immediately stops bleeding.*
+
+<div class="toc" markdown="1">
+##### <a href="#discovery">Discoveries</a>
+##### <a>Fields of Study</a>
+<a href="#apothecary">Apothecary</a><br>
+<a href="#corpsecrafter">Corpsecrafter</a><br>
+<a href="#madBomber">Mad bomber</a><br>
+<a href="#poisoner">Poisoner</a><br>
+<a href="#psychedelic">Psychedelic</a><br>
+<a href="#transmuter">Transmuter</a><br>
+</div>
 
 Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected school of magic, the alchemist is often regarded as being just as unstable, unpredictable, and dangerous as the concoctions he brews. While some creators of alchemical items content themselves with sedentary lives as merchants, providing tindertwigs and smokesticks, the true alchemist answers a deeper calling. Rather than cast magic like a spellcaster, the alchemist captures his own magic potential within liquids and extracts he creates, infusing his chemicals with virulent power to grant him impressive skill with poisons, explosives, and all manner of self-transformative magic.
 
@@ -17,16 +28,6 @@ One of the first things an alchemist learns is how to mix chemicals that react e
 An alchemical bomb is a 1-pound, apple-sized, spherical glass or clay flask filled with a reactive chemical. A smaller vial of thin glass containing a reagent is suspended in the liquid right before use, and the whole thing is sealed with a cork or wax seal. The chemicals violently explode when mixed. This occurs when the inner vial breaks, usually after the bomb impacts a solid surface or a fuse sets off a small explosive detonator within the vial. Bombs are primarily used to fend off enemies, but creative alchemists may find more practical uses for explosives, such as demolishing obstacles.
 
 More experienced alchemists learn to mix less volatile substances, some of which can replicate magical effects. Many become apothecaries, healing and creating potions for others. Apothecaries can use herbs and chemicals to heal wounds, cure diseases, and neutralize poison.
-
-
-- #### <a href="#discovery">Discoveries</a>
-- #### <a>Fields of Study</a>
-  - <a href="#apothecary">Apothecary</a>
-  - <a href="#corpsecrafter">Corpsecrafter</a>
-  - <a href="#madBomber">Mad bomber</a>
-  - <a href="#poisoner">Poisoner</a>
-  - <a href="#psychedelic">Psychedelic</a>
-  - <a href="#transmuter">Transmuter</a>
 
 ## Class Features
 As a alchemist, you gain the following class features.
