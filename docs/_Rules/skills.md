@@ -134,18 +134,19 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   <div markdown="1">
   Animal handling is a Group of similar skills that describe the practical handling of animals. The first time you select this skill group, choose a category of animals that you are familiar with. You also gain the Handle animal skill. After the first time, you select either an animal category or a skill. In most cases a skill applies to all categories you have selected.
 
-  **Category**: The animal categories are divided into general and specific types. The general types also include the specific as appropriate, but selecting a specific type of animal grants additional benefits.
+  #### Category
+  Animal categories are divided into general and specific types. The general types also include the specific as appropriate, but selecting a specific type of animal grants additional benefits.
 
-  **General**
-  * Amphibians. Some tribes in swampy areas use giant frogs/toads for transport, as well as regular sized amphibians that are used for different purposes.
-  * Birds. Birds are seldom domesticated. When they are, it is usually for companionship (parrots, falcons, etc).
+  ##### General
+  ***Amphibians***. Some tribes in swampy areas use giant frogs/toads for transport, as well as regular sized amphibians that are used for different purposes.
+  ***Birds***. Birds are seldom domesticated. When they are, it is usually for companionship (parrots, falcons, etc).
   * Bugs & Spiders. Neither are common, but can be found in some underground societies, most notable the riding spiders of Drow. Hardy giant beetles can be used as pack animals in desert environments.
   * Farm Animals. This includes the animals used in human farms, such as dogs, horses, cows and sheep, but also fowl of different types.
   * Mammals (land). Includes mammals that are sometimes domesticated, such as elephants and camels. This would also with more experience include the training of other mammals such as tiger and elk.
   * Reptiles. Lizards are used as riding and pack animals in many underground societies.
   * Sea Life. Folk living underwater use a wide variety of sea living creatures as mounts. For surface dwellers this could apply to seals or dolphins.
 
-  **Specific**
+  ##### Specific
   * Camels. Camels are used as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar camel is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
     * Desert Navigation. Provides heightened knowledge through learning to trust the camel's survival instincts in order to better survive. Gain Expertise on Desert survival checks.
 
@@ -161,7 +162,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   * Riding Lizards. The use of a riding lizard as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar riding lizard is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
     * Underdark Navigation. Provides heightened knowledge through learning to trust the lizards's survival instincts in order to better survive. Gain Expertise on Underdark survival checks.
 
-  **Skills**
+  #### Skills
   Unless otherwise noted, the skills below apply to all categories of animals you are familiar with and only to “normal” domesticable animals.
 
   <details>
