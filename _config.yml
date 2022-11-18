@@ -2,6 +2,10 @@ theme: null
 
 markdown: CommonMarkGhPages
 
+commonmark:
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+
 # kramdown:
 #   auto_ids: false
 
