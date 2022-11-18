@@ -726,6 +726,7 @@ Barbarians in this path follow an ancient tradition rooted in powerful druidic m
 These barbarians are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. They dwell in the most remote places of the world; the rare misty mountains and elder forests untouched by exploration. They venture out only rarely, as most of them consider it their sacred duty to protect the places that have stood unchanged since the world's earliest days.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Druidic |
@@ -823,6 +824,7 @@ Starting at 14th level, your guardian form emanates a magical aura that fortifie
 Though most tribes of the world may lack parchment to draw and write on, all have bodies. Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world. While most tattoos they create have a powerful connection to the natural world, many barbarians also choose to create tattoos without this connection, simply for display.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Bonus Proficiency |
@@ -889,6 +891,7 @@ Everyone dies, but your death was written in the stars themselves, ordained with
 In the end, you’ll be dead – sacrificed as an offering to fate and slain by a prophecy that cannot be changed by wishes alone. You embrace your fury in defiance of that prophecy, or to ensure that it arrives as was written. You scream with rage because your life means more than just an ending. When the time comes, you will be waiting, bloodstained weapon in hand.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Not My Time |
@@ -930,6 +933,7 @@ All barbarians harbor a fury within. Their rage grants them superior strength, d
 Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. Other storm heralds hone their craft in lodges in regions wracked by storms, in the frozen reaches at the world’s end, or deep in the hottest deserts.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :----- |
 | 1st | Thunder Sense |
@@ -993,6 +997,7 @@ At 14th level, the power of the storm you channel grows mightier, lashing out at
 The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage. Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Totem Spirit |
@@ -1191,6 +1196,7 @@ The vulture is a majestic beast with strong beak and large wings that feed on th
 While some barbarians prefer a life of savage solitude, others long for a tribe. Barbarians on the Path of the War Chief are leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Bonus Proficiency |
@@ -1198,6 +1204,26 @@ While some barbarians prefer a life of savage solitude, others long for a tribe.
 | 6th | War Song, Battlecry (3)  |
 | 10th | Commanding Presence, Battlecry (4) |
 | 14th | Chieftain’s Voice, Battlecry (5) |
+
+
+<div class="card rest">
+  <div class="card-title restHeading">
+    Rest Additions
+  </div>
+  <div class="card-subtitle restPad">
+    The following path specific additions are made to the general rest rules.
+    <div class="card-text restTable">
+      <table><thead><th colspan=2>Long rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
+          <tr><td></td><td>- Regain one of the spells from your <b>Commanding Presence</b> feature.</td></tr>
+          <tr><td></td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 
 ### Bonus Proficiency
 When you adopt this path at 1st level, you gain proficiency in one of the following skills of your choice: History (of your tribe and the area you live in), Intimidation or Diplomacy.
@@ -1257,25 +1283,6 @@ Additionally, the range of your War Song increases to 30 feet, and when you issu
 **Maddening Ululation**. The target has advantage on the first melee weapon attack it makes before the start of your next turn, and the first attack made against it before then by a creature other than you is made with advantage. This battle cry has no effect on a creature immune to being charmed.
 
 **Terrifying Shriek**. The target can’t willingly move closer to you during its next turn. This battle cry has no effect on a creature immune to being frightened.
-
-
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following path specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class specific benefits to choose from: ||
-| | * Regain one of the spells from your **Commanding Presence** feature.
-
-
-
-
 
 
 
