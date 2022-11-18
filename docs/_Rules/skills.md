@@ -159,10 +159,10 @@ You are skilled at walking along a thin wire or rope, allowing you to walk at fu
 <details><summary>Tumbling</summary>
 
 The acrobatic skill of doing rolls, twists, somersaults and other rotational activities using the whole body. This skill grants Expertise on such checks, as well as the following benefits:
-<ul><li>When prone, standing up uses only 5 ft of your movement.</li>
-<li>If you spend 1 minute stretching and limbering up, you gain advantage on one Strength check.</li>
-<li>You may safely fall a number of feet equal to your Dexterity modifier x5.</li>
-</ul>
+
+- When prone, standing up uses only 5 ft of your movement.
+- If you spend 1 minute stretching and limbering up, you gain advantage on one Strength check.
+- You may safely fall a number of feet equal to your Dexterity modifier x5.
 
 </details>
 
