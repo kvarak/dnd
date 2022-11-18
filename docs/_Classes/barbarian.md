@@ -48,7 +48,7 @@ As a barbarian, you gain the following class features.
 
 **Saving Throws:** Strength, Constitution
 
-<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float=right;height:37%;padding:20px' />
+<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float:right;height:37%;padding:20px' />
 
 
 #### Equipment
