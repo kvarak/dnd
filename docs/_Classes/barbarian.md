@@ -237,7 +237,7 @@ At 20th level, you embody the power of the wilds. Your Strength and Constitution
 
 
 
-# Primal Paths
+## Primal Paths
 
 Rage burns in every barbarian's heart, a furnace that drives him or her toward greatness. Different barbarians attribute their rage to different sources, however. For some, it is an internal reservoir where pain, grief, and anger are forged into a fury hard as steel. Others see it as a spiritual blessing, or a gift of a totem animal.
 
@@ -406,6 +406,7 @@ Starting at 14th level, when you take damage from a creature, you can use your *
 For some adventurers, their internal reservoir of fearlessness and gallantry might border closer to foolhardiness. An intrepid do-gooder might take the first step down this path by complete accident, meddling in affairs they ought not and finding themselves unable to turn back. Their impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer. These brawlers might not be as graceful as trained fighters, but they're guardians of the weak, and what they lack in polish they make up for in valor.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Lucky |
