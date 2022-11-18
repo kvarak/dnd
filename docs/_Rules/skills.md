@@ -43,96 +43,105 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
 <div class="tab-content">
 <div id="untrained" class="container tab-pane active">
+
 <details>
-  <summary>Acrobatics (Untrained)</summary>
-  This skill mixes various physical performances with feats of extraordinary balance, agility and coordination. It incorporates numerous amusements and stunts which can be performed for an audience, as well as tricks that can serve the character well in other ventures, such as staying on your feet when trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ships’ deck. It is commonly mastered by jugglers, tumblers, aerialists and other circus performers — persons fascinating to watch but not of particularly high social standing.
-  <details>
-    <summary>Aerial Acrobatics</summary>
 
-    Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have ***Expertise (Dex, Cha)***. During adventuring you could use this skill with Expertise to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
+<summary>
+Acrobatics (Untrained)
+</summary>
 
-  </details>
-  <details>
-    <summary>Contortion (trait)</summary>
-    The skill of extreme physical flexibility. This skill allows you to squeeze through very tight spaces as long as your head fits. You have Expertise to escape grapples.
-    <details>
-      <summary>Body Packing (trait)</summary>
-      You can squeeze your body into a small, knee-high box or other contained space which appears as being too small to contain you.
-    </details>
-    <details>
-      <summary>Dislocation (trait)</summary>
-      You can easily dislocate your shoulders and with a bit more effort even your hip joints. This allows you to escape most bonds given time.
-    </details>
-  </details>
-  <details>
-    <summary>Fast Reflexes (trait)</summary>
-    The large amount of training you have put yourself through has made you able to react without a conscious thought. You can use reactions before you have had the chance to act in a combat. This applies even if you are surprised.
-  </details>
-  <details>
-    <summary>Give Exhibition</summary>
-    Enabling you to put on an acrobatic performance, incorporating elements of juggling, tumbling and so on. The character is assumed to perform tricks regularly and work at his or her craft to invent something new. When making a performance you have Expertise (Dex, Cha).
-  </details>
-  <details>
-    <summary>Improved Dexterity (cost: 2, trait)</summary>
-    You have trained to improve your agility, reflexes and/or balance. Gain +1 Dexterity.
-  </details>
-  <details>
-    <summary>Parkour</summary>
-    The skill by which characters aim to move from one point to another in a complex, jumbled environment, without equipment and in the fastest and most efficient way possible. You have Expertise on checks made to avoid the effects of non-magical difficult terrain. As a bonus action, you can make a DC 12 Dexterity (Parkour) check. If you succeed, difficult terrain doesn’t cost you extra movement until the end of the current turn.
-    <details>
-      <summary>Parkour through magic (→ Arcana)</summary>
-      You also have Expertise on checks made to avoid the effects of magical difficult terrain.
-    </details>
-    <details>
-      <summary>Wall Runner (trait)</summary>
-      When you take the Dash action and move at least 10 ft, you may climb up to 10 ft of shear wall without using any additional movement. You cannot end your movement there without falling. When climbing you may also do a high or long jump.
-    </details>
-    <details>
-      <summary>Pole Vault (trait)</summary>
-      You are skilled at using a pole to overcome obstacles. If you have a pole or staff, you can use an item action to extend your jumping distance by the length of the pole.
-    </details>
-  </details>
-  <details>
-    <summary>Roll with the blow</summary>
-    When struck by an effect that moves you and you can see, you may choose to "roll with the blow". If you do, move an additional 5 ft, and gain Expertise on any checks to avoid falling prone. If it does not allow a check, you can still make an Dexterity (Roll with the blow) check against a DC equal to damage dealt, or if no damage, a DC of 15. This includes forced movement from critical hits and fumbles. Also, note that you can only do this if there is enough space behind you.
-    <details>
-      <summary>Roll with the blow II</summary>
-      You may roll with the blow against any attack that deals bludgeoning damage, as long as you have a 5 ft behind you and spend a reaction. On a successful Dexterity (Roll with the blow) check against a DC equal to the damage dealt, you gain resistance to the attack and move 5 ft back (without provoking an attack of opportunity). If you roll a 1, you fall prone, and are not allowed a check to avoid it.
-    </details>
-  </details>
-  <details>
-    <summary>Slip Trap</summary>
-    Your fast reflexes and acrobatic training allows you to forgo damage from traps by nimbly twisting your body to escape harm. When a trap allows for a Dexterity save, you can use this skill with Expertise instead.
-  </details>
-  <details>
-    <summary>Stability</summary>
-    You have exceptional balance. This skill grants Expertise on all checks to keep your balance, such as balancing on a ledge, to stay upright on a ship or even to keep you footing within a grease spell.
-    <details>
-      <summary>Beam walking (trait)</summary>
-      You are comfortable on narrow beams or ledges, as long as they are at least 4 in. wide. You are able to disregard any distance, even a thousand feet, that may threaten beneath your footing. Furthermore, you are able to sit comfortably, rest and eat on such a ledge.
-    </details>
-    <details>
-      <summary>Log Riding (trait)</summary>
-      Enables sure-footedness when clambering across loose logs moving upon a rivercourse; requires a peavey, a short hooked pike.
-    </details>
-    <details>
-      <summary>Tightrope walking (trait)</summary>
-      You are skilled at walking along a thin wire or rope, allowing you to walk at full speed.
-    </details>
-  </details>
-  <details>
-    <summary>Tumbling</summary>
-    The acrobatic skill of doing rolls, twists, somersaults and other rotational activities using the whole body. This skill grants Expertise on such checks, as well as the following benefits:
-      <ul><li>When prone, standing up uses only 5 ft of your movement.</li>
-      <li>If you spend 1 minute stretching and limbering up, you gain advantage on one Strength check.</li>
-      <li>You may safely fall a number of feet equal to your Dexterity modifier x5.</li>
-      </ul>
-  </details>
+This skill mixes various physical performances with feats of extraordinary balance, agility and coordination. It incorporates numerous amusements and stunts which can be performed for an audience, as well as tricks that can serve the character well in other ventures, such as staying on your feet when trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ships’ deck. It is commonly mastered by jugglers, tumblers, aerialists and other circus performers — persons fascinating to watch but not of particularly high social standing.
+
+<details>
+<summary>
+Aerial Acrobatics
+</summary>
+
+Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have ***Expertise (Dex, Cha)***. During adventuring you could use this skill with Expertise to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
+
+</details>
+<details>
+<summary>Contortion (trait)</summary>
+The skill of extreme physical flexibility. This skill allows you to squeeze through very tight spaces as long as your head fits. You have Expertise to escape grapples.
+<details>
+<summary>Body Packing (trait)</summary>
+You can squeeze your body into a small, knee-high box or other contained space which appears as being too small to contain you.
+</details>
+<details>
+<summary>Dislocation (trait)</summary>
+You can easily dislocate your shoulders and with a bit more effort even your hip joints. This allows you to escape most bonds given time.
+</details>
+</details>
+<details>
+<summary>Fast Reflexes (trait)</summary>
+The large amount of training you have put yourself through has made you able to react without a conscious thought. You can use reactions before you have had the chance to act in a combat. This applies even if you are surprised.
+</details>
+<details>
+<summary>Give Exhibition</summary>
+Enabling you to put on an acrobatic performance, incorporating elements of juggling, tumbling and so on. The character is assumed to perform tricks regularly and work at his or her craft to invent something new. When making a performance you have Expertise (Dex, Cha).
+</details>
+<details>
+<summary>Improved Dexterity (cost: 2, trait)</summary>
+You have trained to improve your agility, reflexes and/or balance. Gain +1 Dexterity.
+</details>
+<details>
+<summary>Parkour</summary>
+The skill by which characters aim to move from one point to another in a complex, jumbled environment, without equipment and in the fastest and most efficient way possible. You have Expertise on checks made to avoid the effects of non-magical difficult terrain. As a bonus action, you can make a DC 12 Dexterity (Parkour) check. If you succeed, difficult terrain doesn’t cost you extra movement until the end of the current turn.
+<details>
+<summary>Parkour through magic (→ Arcana)</summary>
+You also have Expertise on checks made to avoid the effects of magical difficult terrain.
+</details>
+<details>
+<summary>Wall Runner (trait)</summary>
+When you take the Dash action and move at least 10 ft, you may climb up to 10 ft of shear wall without using any additional movement. You cannot end your movement there without falling. When climbing you may also do a high or long jump.
+</details>
+<details>
+<summary>Pole Vault (trait)</summary>
+You are skilled at using a pole to overcome obstacles. If you have a pole or staff, you can use an item action to extend your jumping distance by the length of the pole.
+</details>
+</details>
+<details>
+<summary>Roll with the blow</summary>
+When struck by an effect that moves you and you can see, you may choose to "roll with the blow". If you do, move an additional 5 ft, and gain Expertise on any checks to avoid falling prone. If it does not allow a check, you can still make an Dexterity (Roll with the blow) check against a DC equal to damage dealt, or if no damage, a DC of 15. This includes forced movement from critical hits and fumbles. Also, note that you can only do this if there is enough space behind you.
+<details>
+<summary>Roll with the blow II</summary>
+You may roll with the blow against any attack that deals bludgeoning damage, as long as you have a 5 ft behind you and spend a reaction. On a successful Dexterity (Roll with the blow) check against a DC equal to the damage dealt, you gain resistance to the attack and move 5 ft back (without provoking an attack of opportunity). If you roll a 1, you fall prone, and are not allowed a check to avoid it.
+</details>
+</details>
+<details>
+<summary>Slip Trap</summary>
+Your fast reflexes and acrobatic training allows you to forgo damage from traps by nimbly twisting your body to escape harm. When a trap allows for a Dexterity save, you can use this skill with Expertise instead.
+</details>
+<details>
+<summary>Stability</summary>
+You have exceptional balance. This skill grants Expertise on all checks to keep your balance, such as balancing on a ledge, to stay upright on a ship or even to keep you footing within a grease spell.
+<details>
+<summary>Beam walking (trait)</summary>
+You are comfortable on narrow beams or ledges, as long as they are at least 4 in. wide. You are able to disregard any distance, even a thousand feet, that may threaten beneath your footing. Furthermore, you are able to sit comfortably, rest and eat on such a ledge.
+</details>
+<details>
+<summary>Log Riding (trait)</summary>
+Enables sure-footedness when clambering across loose logs moving upon a rivercourse; requires a peavey, a short hooked pike.
+</details>
+<details>
+<summary>Tightrope walking (trait)</summary>
+You are skilled at walking along a thin wire or rope, allowing you to walk at full speed.
+</details>
+</details>
+<details>
+<summary>Tumbling</summary>
+The acrobatic skill of doing rolls, twists, somersaults and other rotational activities using the whole body. This skill grants Expertise on such checks, as well as the following benefits:
+<ul><li>When prone, standing up uses only 5 ft of your movement.</li>
+<li>If you spend 1 minute stretching and limbering up, you gain advantage on one Strength check.</li>
+<li>You may safely fall a number of feet equal to your Dexterity modifier x5.</li>
+</ul>
+</details>
 </details>
 
 <details>
   <summary>Animal Handling (Group, Untrained)</summary>
   <div markdown="1">
+
   Animal handling is a Group of similar skills that describe the practical handling of animals. The first time you select this skill group, choose a category of animals that you are familiar with. You also gain the Handle animal skill. After the first time, you select either an animal category or a skill. In most cases a skill applies to all categories you have selected.
 
   #### Category
