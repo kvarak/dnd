@@ -718,9 +718,9 @@ As the foremost expert in the field of surprise surgery, your allies look to you
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="earthWarden">Path of the Nature’s Warden</a></h1>
 
-
-# <a name="earthWarden">Path of the Nature’s Warden</a>
 Barbarians in this path follow an ancient tradition rooted in powerful druidic magic. When these barbarians rage, they transform that rage into a mantle of primal magic; becoming one with the land, feeling the fury of the strip-mined earth and the desolated forest. The primal magic that inspires them to rage allows them to become one with nature, overcoming their foes with the indomitable strength of the primeval world.
 
 These barbarians are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. They dwell in the most remote places of the world; the rare misty mountains and elder forests untouched by exploration. They venture out only rarely, as most of them consider it their sacred duty to protect the places that have stood unchanged since the world's earliest days.
@@ -815,12 +815,9 @@ Starting at 14th level, your guardian form emanates a magical aura that fortifie
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="paintedWarrior">Path of the Painted Warrior</a></h1>
 
-
-
-
-
-# <a name="paintedWarrior">Path of the Painted Warrior</a>
 Though most tribes of the world may lack parchment to draw and write on, all have bodies. Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world. While most tattoos they create have a powerful connection to the natural world, many barbarians also choose to create tattoos without this connection, simply for display.
 
 ### Features
@@ -881,11 +878,9 @@ You only gain the benefits of a tattoo for the duration of your rage. If a tatto
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="sacrifice">Path of the Sacrifice</a></h1>
 
-
-
-
-# <a name="sacrifice">Path of the Sacrifice</a>
 Everyone dies, but your death was written in the stars themselves, ordained within the blood and entrails of a dying beast, and whispered of by the falling bones and shuffling cards of the diviners. You are going to die, and your death is going to mean something. The rise of a great evil, or the end of an era. The destruction of all you hold dear, or the redemption of your blackened soul. The arrival of the legions of light, or the end of fear itself.
 
 In the end, you’ll be dead – sacrificed as an offering to fate and slain by a prophecy that cannot be changed by wishes alone. You embrace your fury in defiance of that prophecy, or to ensure that it arrives as was written. You scream with rage because your life means more than just an ending. When the time comes, you will be waiting, bloodstained weapon in hand.
@@ -923,11 +918,9 @@ At 14th level, your destined death awaits your arrival, and you refuse to surren
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="stormHerald">Path of the Storm Herald</a></h1>
 
-
-
-
-# <a name="stormHerald">Path of the Storm Herald</a>
 All barbarians harbor a fury within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn to transform that rage into a mantle of primal magic, which swirls around them. When in a fury, a barbarian of this path taps into the forces of nature to create powerful magical effects.
 
 Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. Other storm heralds hone their craft in lodges in regions wracked by storms, in the frozen reaches at the world’s end, or deep in the hottest deserts.
@@ -991,9 +984,9 @@ At 14th level, the power of the storm you channel grows mightier, lashing out at
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="totemWarrior">Path of the Totem Warrior</a></h1>
 
-
-# <a name="totemWarrior">Path of the Totem Warrior</a>
 The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage. Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.
 
 ### Features
@@ -1189,10 +1182,9 @@ The vulture is a majestic beast with strong beak and large wings that feed on th
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="warChief">Path of the War Chief</a></h1>
 
-
-
-# <a name="warChief">Path of the War Chief</a>
 While some barbarians prefer a life of savage solitude, others long for a tribe. Barbarians on the Path of the War Chief are leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
 
 ### Features
