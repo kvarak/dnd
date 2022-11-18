@@ -1279,13 +1279,13 @@ Additionally, the range of your War Song increases to 30 feet, and when you issu
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="zealot">Path of the Zealot</a></h1>
 
-
-
-# <a name="zealot">Path of the Zealot</a>
 Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots—warriors who channel their rage into powerful displays of divine power. A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Warrior of the Gods |
@@ -1293,6 +1293,26 @@ Some deities inspire their followers to pitch themselves into a ferocious battle
 | 6th | Fanatical Focus |
 | 10th | Zealous Presence |
 | 14th | Rage beyond Death |
+
+
+<div class="card rest">
+  <div class="card-title restHeading">
+    Rest Additions
+  </div>
+  <div class="card-subtitle restPad">
+    The following path specific additions are made to the general rest rules.
+    <div class="card-text restTable">
+      <table><thead><th colspan=2>Long rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
+          <tr><td></td><td>- Reset your <b>Zealous Presence</b> feature.</td></tr>
+          <tr><td></td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 
 ### Warrior of the Gods
 Starting when you choose this path at 1st level, your soul is marked for endless battle. If a spell, such as raise dead, has the sole effect of restoring you to life (but not undeath), the caster doesn’t need material components to cast the spell on you.
@@ -1315,18 +1335,6 @@ Beginning at 14th level, the divine power that fuels your rage allows you to shr
 
 While you’re raging, having 0 hit points doesn’t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don’t die until your rage ends, and you die then only if you still have 0 hit points.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following path specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class specific benefits to choose from: ||
-| | * Reset your **Zealous Presence** feature.
 
 
 
