@@ -10,6 +10,7 @@ layout: default
 *A slender elf quickly mixes liquids and herbs in a small bowl. She applies the mixture to an arrow wound on an injured dwarf's side, which immediately stops bleeding.*
 
 <div class="toc" markdown="1">
+## Contents
 ##### <a href="#discovery">Discoveries</a>
 ##### <a>Fields of Study</a>
 <a href="#apothecary">Apothecary</a><br>
