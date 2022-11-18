@@ -571,6 +571,25 @@ Juggernaut barbarians are siege engines in their own right, able to stand their 
 | 10th | Relentless Will |
 | 14th | Wrought Endurance |
 
+
+<div class="card rest">
+  <div class="card-title restHeading">
+    Rest Additions
+  </div>
+  <div class="card-subtitle restPad">
+    The following path specific additions are made to the general rest rules.
+    <div class="card-text restTable">
+      <table><thead><th colspan=2>Long rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>After a Long rest:</td></tr>
+          <tr><td></td><td>- Reset all uses of <b>Wrought Endurance</b>.</td></tr>
+          <tr><td></td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 ### Stance of the Mountain
 You harness your fury to anchor your feet to the earth, shrugging off the blows of those who wish to topple you. Upon choosing this path at 1st level, you cannot be knocked prone while raging unless you become unconscious.
 
@@ -603,25 +622,6 @@ When you take damage while raging, you can use your reaction to roll a d12. Add 
 
 You may do this a number of times equal to your Constitution modifier. See *Rest Additions* below.
 
-<div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following path specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Long rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>After a Long rest:</td></tr>
-          <tr><td></td><td>- Reset all uses of <b>Wrought Endurance</b>.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
-
-
 
 
 
@@ -652,6 +652,28 @@ Barbarians on this course find their rage brings great clarity of mind, allowing
 | 6th | Assured Assignment
 | 10th | Improvised Assault
 | 14th | Leading by Example
+
+
+
+<div class="card rest">
+  <div class="card-title restHeading">
+    Rest Additions
+  </div>
+  <div class="card-subtitle restPad">
+    The following path specific additions are made to the general rest rules.
+    <div class="card-text restTable">
+      <table><thead><th colspan=2>Short rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>After a short rest:</td></tr>
+          <tr><td></td><td>- Reset use of <b>Fighting Dirty</b>.</td></tr>
+          <tr><td></td><td>- Reset use of <b>Improvised Assault</b>.</td></tr>
+          <tr><td></td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 
 ### Coarse Negotiator
 *1st-level Path of the Marauder feature*
@@ -691,32 +713,6 @@ You can use this feature once and regain its use when you finish a short rest.
 *14th-level Path of the Marauder feature*
 
 As the foremost expert in the field of surprise surgery, your allies look to your demonstrations. Whenever you score a critical hit while raging, you can choose one ally within 30 feet. That ally may use their reaction to move up to half their speed and make one weapon attack. This ability cannot trigger off the same enemy more than once per round.
-
-
-
-
-
-
-
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following path specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Reset use of **Fighting Dirty**.
-| | * Reset use of **Improvised Assault**.
-
-
-
-
-
 
 
 
