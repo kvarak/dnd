@@ -41,13 +41,14 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#background"><h5>Background traits</h5></a></li>
 </ul>
 
+<span markdown="1">
 
 <div class="tab-content">
 <div id="untrained" class="container tab-pane active">
 <details>
   <summary>Acrobatics (Untrained)</summary>
   This skill mixes various physical performances with feats of extraordinary balance, agility and coordination. It incorporates numerous amusements and stunts which can be performed for an audience, as well as tricks that can serve the character well in other ventures, such as staying on your feet when trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ships’ deck. It is commonly mastered by jugglers, tumblers, aerialists and other circus performers — persons fascinating to watch but not of particularly high social standing.
-  <details markdown="1">
+  <details>
     <summary>Aerial Acrobatics</summary>
 
     Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have ***Expertise (Dex, Cha)***. During adventuring you could use this skill with Expertise to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
@@ -130,6 +131,8 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
       </ul>
   </details>
 </details>
+
+</span>
 
 <details>
   <summary>Animal Handling (Group, Untrained)</summary>
