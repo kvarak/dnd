@@ -449,6 +449,7 @@ At 14th level, whenever you succeed at a Constitution saving throw to remain con
 Barbarians that follow the Path of the Defender have assumed the responsibility of keeping a bondmate alive. They are often charged with the safekeeping of people of importance, like a traveling priest, a tribe's shaman or elder, and so on, but just as often they simply form a bond with someone they either care for or share a common goal with, like a sibling or fellow adventurer.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Chosen Charge, Alert |
@@ -500,6 +501,7 @@ Great skill is required to lob hefty weapons accurately, but there are some who 
 Many barbarian hunters choose to follow this path, eschewing the complexity of aiming a bow for the simplistic and primal joy of seeing a thrown axe or hammer smash the skull of their quarry. Other young barbarians who walk this path employ their skills in tavern games as often as true combat, impaling walls through knife targets and splintering dart boards with their great strength.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Hurler's Aim |
@@ -558,6 +560,7 @@ Creatures that are Tiny or smaller cannot be used for this feature. Small creatu
 Juggernaut barbarians are siege engines in their own right, able to stand their ground and move their foes into positions of weakness. While raging, they make any battlefield their domain, shoving enemies over mountain sides and destroying any battle formation trying to stand in their way.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Stance of the Mountain |
@@ -628,6 +631,7 @@ Every group intending to go into battle needs a good leader. One who leads from 
 Barbarians on this course find their rage brings great clarity of mind, allowing them to see all the ways the battle can be won. Through sly tactics and synergy, they make sure every member of their company is utilized to the fullest. These barbarians often aspire to a position where their gifts will be the most useful. You can choose this ambition or determine it by rolling on the Marauder's Ambition table.
 
 ### Features
+
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Coarse Negotiator
@@ -648,15 +652,16 @@ In addition, you gain one of the following skills of your choice: cartography, n
 
 Tricks and teamwork ensure your victory. You can use this feature in the following two ways while raging:
 
- **Smokescreen**. You menace your foes, throwing them off from the real threat. As a ***bonus action***, you can distract an enemy within 5 feet of you that can see or hear you until the start of your next turn. Your allies have advantage on attack rolls against the distracted target.
+* **Smokescreen**. You menace your foes, throwing them off from the real threat. As a ***bonus action***, you can distract an enemy within 5 feet of you that can see or hear you until the start of your next turn. Your allies have advantage on attack rolls against the distracted target.
 
- **Backscratch**. Your allies come to your aid, knowing you'll do the same for them. When you take damage from a creature you can see, you can use your ***reaction*** to choose one ally within 30 feet. That ally can make one weapon attack against the creature that damaged you, provided the target is within range of one of their weapon attacks.
+* **Backscratch**. Your allies come to your aid, knowing you'll do the same for them. When you take damage from a creature you can see, you can use your ***reaction*** to choose one ally within 30 feet. That ally can make one weapon attack against the creature that damaged you, provided the target is within range of one of their weapon attacks.
 
 You can use this feature once and regain its use when you finish a short rest. In addition  you can spend 2 **fury** as a ***bonus action*** to reset its use.
 
 
 
-{{descriptive
+<div class="descriptive">
+
 ### Marauder's Ambition
 | d4 | Ambition |
 | :-: | :--- |
@@ -664,7 +669,8 @@ You can use this feature once and regain its use when you finish a short rest. I
 | 2 | One of your relatives leads an infamous company of bandits, and you aim to replace them.
 | 3 | You don't care for fame, but the stakes and secrecy of being part of an elite military unit are all you've ever wanted.
 | 4 | Hunting terrible monsters and otherworldly foes beside your friends seems like the ideal way to go out.
-}}
+
+</div>
 
 ### Assured Assignment
 *6th-level Path of the Marauder feature*
