@@ -248,12 +248,13 @@ blockquote {
   background-color: #faebbc;
   border-top: 1px solid #e1cc89;
   border-bottom: 1px solid #e1cc89;
-  margin: 5px;
   background-image: url(../images/openquote1.gif);
   background-position: top left;
   background-repeat: no-repeat;
   text-indent: 23px;
-  max-width: 250px;
+  max-width: 500px;
+  margin: 5px;
+  margin-left: 50px;
 }
 
 blockquote span {
