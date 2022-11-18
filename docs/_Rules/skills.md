@@ -133,6 +133,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 <details>
   <summary>Animal Handling (<b>Group</b>, Untrained)</summary>
   <div markdown="1">
+
   Animal handling is a <b>Group</b> of similar skills that describe the practical handling of animals. The first time you select this skill <b>group</b>, choose a category of animals that you are familiar with. You also gain the Handle animal skill. After the first time, you select either an animal category or a skill. In most cases a skill applies to all categories you have selected.
 
   #### Category
