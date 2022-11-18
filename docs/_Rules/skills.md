@@ -17,16 +17,16 @@ You will get skill points to select skills during character creation, as well as
 ### Spending skill points
 Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must know the skill right above it in the “skill tree”. You can save skill points, and are allowed to spend them at a later time, after finishing a long rest. Additionally you can spend skill points the following ways.
 - **Ability Score Increase**. You can spend 2 skill points to increase an ability score by 1.
-- **Improved Proficiency**. If you have Expertise with a skill, you can spend 2 skill points to gain +1 to all checks with that skill. You can improve it even further, increasing the cost by 1 point each time you buy this.
+- **Improved Proficiency**. If you have <b>Expertise</b> with a skill, you can spend 2 skill points to gain +1 to all checks with that skill. You can improve it even further, increasing the cost by 1 point each time you buy this.
 
 ### Terms
 - **Cost: X**. This skill costs a number of skill points equal to X.
-- **Expertise**. You have advantage on checks using this proficiency.
-- **Expertise (Ability X, Ability Y)**. You have advantage, but one of the dice uses ability modifier X and the other ability modifier Y.
-- **Group**. This is a group of skills. When learning this, select one of the skills in the description instead. You can learn this multiple times, each time selecting a different subskill.
+- <b>Expertise</b>. You have advantage on checks using this proficiency.
+- <b>Expertise</b> (Ability X, Ability Y)**. You have advantage, but one of the dice uses ability modifier X and the other ability modifier Y.
+- <b>Group</b>. This is a <b>group</b> of skills. When learning this, select one of the skills in the description instead. You can learn this multiple times, each time selecting a different subskill.
 - **Synergy (X)**. If you have proficiency with skill X, gain advantage when using that skill.
-- **Trait**. A trait is a binary skill; either you can do it or not. A roll is not required in most cases.
-- **Untrained**. Unless a trait or a specialized activity, this skill can normally be attempted without having proficiency.
+- <b>Trait</b>. A <b>trait</b> is a binary skill; either you can do it or not. A roll is not required in most cases.
+- **Untrained**. Unless a <b>trait</b> or a specialized activity, this skill can normally be attempted without having proficiency.
 - **→ X**. If you have proficiency with skill X, the cost of this skill is reduced by 1.
 
 
@@ -36,9 +36,9 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#knowledge"><h5>Knowledge skills</h5></a></li>
   <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#practical"><h5>Practical skills</h5></a></li>
   <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#craft"><h5>Craft skills</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#traits"><h5>Traits</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#<b>trait</b>s"><h5><b>Trait</b>s</h5></a></li>
   <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#class"><h5>Class specific skills</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#background"><h5>Background traits</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#background"><h5>Background <b>trait</b>s</h5></a></li>
 </ul>
 
 <div class="tab-content">
@@ -49,52 +49,52 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   <details>
     <summary>Aerial Acrobatics</summary>
 
-    Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have ***Expertise (Dex, Cha)***. During adventuring you could use this skill with Expertise to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
+    Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have <b>Expertise</b> (Dex, Cha)***. During adventuring you could use this skill with <b>Expertise</b> to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
 
   </details>
   <details>
-    <summary>Contortion (trait)</summary>
-    The skill of extreme physical flexibility. This skill allows you to squeeze through very tight spaces as long as your head fits. You have Expertise to escape grapples.
+    <summary>Contortion (<b>trait</b>)</summary>
+    The skill of extreme physical flexibility. This skill allows you to squeeze through very tight spaces as long as your head fits. You have <b>Expertise</b> to escape grapples.
     <details>
-      <summary>Body Packing (trait)</summary>
+      <summary>Body Packing (<b>trait</b>)</summary>
       You can squeeze your body into a small, knee-high box or other contained space which appears as being too small to contain you.
     </details>
     <details>
-      <summary>Dislocation (trait)</summary>
+      <summary>Dislocation (<b>trait</b>)</summary>
       You can easily dislocate your shoulders and with a bit more effort even your hip joints. This allows you to escape most bonds given time.
     </details>
   </details>
   <details>
-    <summary>Fast Reflexes (trait)</summary>
+    <summary>Fast Reflexes (<b>trait</b>)</summary>
     The large amount of training you have put yourself through has made you able to react without a conscious thought. You can use reactions before you have had the chance to act in a combat. This applies even if you are surprised.
   </details>
   <details>
     <summary>Give Exhibition</summary>
-    Enabling you to put on an acrobatic performance, incorporating elements of juggling, tumbling and so on. The character is assumed to perform tricks regularly and work at his or her craft to invent something new. When making a performance you have Expertise (Dex, Cha).
+    Enabling you to put on an acrobatic performance, incorporating elements of juggling, tumbling and so on. The character is assumed to perform tricks regularly and work at his or her craft to invent something new. When making a performance you have <b>Expertise</b> (Dex, Cha).
   </details>
   <details>
-    <summary>Improved Dexterity (cost: 2, trait)</summary>
+    <summary>Improved Dexterity (cost: 2, <b>trait</b>)</summary>
     You have trained to improve your agility, reflexes and/or balance. Gain +1 Dexterity.
   </details>
   <details>
     <summary>Parkour</summary>
-    The skill by which characters aim to move from one point to another in a complex, jumbled environment, without equipment and in the fastest and most efficient way possible. You have Expertise on checks made to avoid the effects of non-magical difficult terrain. As a bonus action, you can make a DC 12 Dexterity (Parkour) check. If you succeed, difficult terrain doesn’t cost you extra movement until the end of the current turn.
+    The skill by which characters aim to move from one point to another in a complex, jumbled environment, without equipment and in the fastest and most efficient way possible. You have <b>Expertise</b> on checks made to avoid the effects of non-magical difficult terrain. As a bonus action, you can make a DC 12 Dexterity (Parkour) check. If you succeed, difficult terrain doesn’t cost you extra movement until the end of the current turn.
     <details>
       <summary>Parkour through magic (→ Arcana)</summary>
-      You also have Expertise on checks made to avoid the effects of magical difficult terrain.
+      You also have <b>Expertise</b> on checks made to avoid the effects of magical difficult terrain.
     </details>
     <details>
-      <summary>Wall Runner (trait)</summary>
+      <summary>Wall Runner (<b>trait</b>)</summary>
       When you take the Dash action and move at least 10 ft, you may climb up to 10 ft of shear wall without using any additional movement. You cannot end your movement there without falling. When climbing you may also do a high or long jump.
     </details>
     <details>
-      <summary>Pole Vault (trait)</summary>
+      <summary>Pole Vault (<b>trait</b>)</summary>
       You are skilled at using a pole to overcome obstacles. If you have a pole or staff, you can use an item action to extend your jumping distance by the length of the pole.
     </details>
   </details>
   <details>
     <summary>Roll with the blow</summary>
-    When struck by an effect that moves you and you can see, you may choose to "roll with the blow". If you do, move an additional 5 ft, and gain Expertise on any checks to avoid falling prone. If it does not allow a check, you can still make an Dexterity (Roll with the blow) check against a DC equal to damage dealt, or if no damage, a DC of 15. This includes forced movement from critical hits and fumbles. Also, note that you can only do this if there is enough space behind you.
+    When struck by an effect that moves you and you can see, you may choose to "roll with the blow". If you do, move an additional 5 ft, and gain <b>Expertise</b> on any checks to avoid falling prone. If it does not allow a check, you can still make an Dexterity (Roll with the blow) check against a DC equal to damage dealt, or if no damage, a DC of 15. This includes forced movement from critical hits and fumbles. Also, note that you can only do this if there is enough space behind you.
     <details>
       <summary>Roll with the blow II</summary>
       You may roll with the blow against any attack that deals bludgeoning damage, as long as you have a 5 ft behind you and spend a reaction. On a successful Dexterity (Roll with the blow) check against a DC equal to the damage dealt, you gain resistance to the attack and move 5 ft back (without provoking an attack of opportunity). If you roll a 1, you fall prone, and are not allowed a check to avoid it.
@@ -102,27 +102,27 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </details>
   <details>
     <summary>Slip Trap</summary>
-    Your fast reflexes and acrobatic training allows you to forgo damage from traps by nimbly twisting your body to escape harm. When a trap allows for a Dexterity save, you can use this skill with Expertise instead.
+    Your fast reflexes and acrobatic training allows you to forgo damage from traps by nimbly twisting your body to escape harm. When a trap allows for a Dexterity save, you can use this skill with <b>Expertise</b> instead.
   </details>
   <details>
     <summary>Stability</summary>
-    You have exceptional balance. This skill grants Expertise on all checks to keep your balance, such as balancing on a ledge, to stay upright on a ship or even to keep you footing within a grease spell.
+    You have exceptional balance. This skill grants <b>Expertise</b> on all checks to keep your balance, such as balancing on a ledge, to stay upright on a ship or even to keep you footing within a grease spell.
     <details>
-      <summary>Beam walking (trait)</summary>
+      <summary>Beam walking (<b>trait</b>)</summary>
       You are comfortable on narrow beams or ledges, as long as they are at least 4 in. wide. You are able to disregard any distance, even a thousand feet, that may threaten beneath your footing. Furthermore, you are able to sit comfortably, rest and eat on such a ledge.
     </details>
     <details>
-      <summary>Log Riding (trait)</summary>
+      <summary>Log Riding (<b>trait</b>)</summary>
       Enables sure-footedness when clambering across loose logs moving upon a rivercourse; requires a peavey, a short hooked pike.
     </details>
     <details>
-      <summary>Tightrope walking (trait)</summary>
+      <summary>Tightrope walking (<b>trait</b>)</summary>
       You are skilled at walking along a thin wire or rope, allowing you to walk at full speed.
     </details>
   </details>
   <details>
     <summary>Tumbling</summary>
-    The acrobatic skill of doing rolls, twists, somersaults and other rotational activities using the whole body. This skill grants Expertise on such checks, as well as the following benefits:
+    The acrobatic skill of doing rolls, twists, somersaults and other rotational activities using the whole body. This skill grants <b>Expertise</b> on such checks, as well as the following benefits:
       <ul><li>When prone, standing up uses only 5 ft of your movement.</li>
       <li>If you spend 1 minute stretching and limbering up, you gain advantage on one Strength check.</li>
       <li>You may safely fall a number of feet equal to your Dexterity modifier x5.</li>
@@ -131,9 +131,9 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 </details>
 
 <details>
-  <summary>Animal Handling (Group, Untrained)</summary>
+  <summary>Animal Handling (<b>Group</b>, Untrained)</summary>
   <div markdown="1">
-  Animal handling is a Group of similar skills that describe the practical handling of animals. The first time you select this skill group, choose a category of animals that you are familiar with. You also gain the Handle animal skill. After the first time, you select either an animal category or a skill. In most cases a skill applies to all categories you have selected.
+  Animal handling is a <b>Group</b> of similar skills that describe the practical handling of animals. The first time you select this skill <b>group</b>, choose a category of animals that you are familiar with. You also gain the Handle animal skill. After the first time, you select either an animal category or a skill. In most cases a skill applies to all categories you have selected.
 
   #### Category
   Animal categories are divided into general and specific types. The general types also include the specific as appropriate, but selecting a specific type of animal grants additional benefits.
@@ -149,19 +149,19 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   ##### Specific
   * Camels. Camels are used as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar camel is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
-    * Desert Navigation. Provides heightened knowledge through learning to trust the camel's survival instincts in order to better survive. Gain Expertise on Desert survival checks.
+    * Desert Navigation. Provides heightened knowledge through learning to trust the camel's survival instincts in order to better survive. Gain <b>Expertise</b> on Desert survival checks.
 
   * Dogs. If you enter into the campaign with this skill, it is presumed that a trained and familiar dog is already in your possession, and that you have developed a companionship of at least one year. This can be a riding dog if you are small enough.
 
   * Falconry. The gallant union between the character and bird, pursued for sport, for war — and for the companionship that results. In essence, the falcon (hawk, eagle or owl) exists in a state of semi-captivity, a wildness that is tempered by training. They are, naturally, commanded; but as the bird retains its capacity to act alone, and with ferociousness in attacking its prey, it is not correct to think of the animal as "tame."
   Additionally, the falcon serves as a status symbol, for the mastery of these birds is viewed as a sign of quality lineage and personal worth, which is reflected in the skills below. If you enter into the campaign with this skill, it is presumed that a trained and familiar bird is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skills.
-    * Rouse Admiration. Capture the attention and impress persons with great power and status. You have Expertise on such checks.
-    * Send Home (→ Animal Training, trait). You have trained your bird so you send it with a message to a location and person it has been trained to recognize.
+    * Rouse Admiration. Capture the attention and impress persons with great power and status. You have <b>Expertise</b> on such checks.
+    * Send Home (→ Animal Training, <b>trait</b>). You have trained your bird so you send it with a message to a location and person it has been trained to recognize.
 
   * Horses. The use of the horse (and donkeys, mules, etc) for transportation, combat and work. If you enter into the campaign with this skill, it is presumed that a trained and familiar horse is already in your possession, and that you have developed a companionship of at least one year.
 
   * Riding Lizards. The use of a riding lizard as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar riding lizard is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
-    * Underdark Navigation. Provides heightened knowledge through learning to trust the lizards's survival instincts in order to better survive. Gain Expertise on Underdark survival checks.
+    * Underdark Navigation. Provides heightened knowledge through learning to trust the lizards's survival instincts in order to better survive. Gain <b>Expertise</b> on Underdark survival checks.
 
   #### Skills
   Unless otherwise noted, the skills below apply to all categories of animals you are familiar with and only to “normal” domesticable animals.
@@ -174,11 +174,11 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
       The skill to keep, raise, and properly use domestic animals for work and food. You know the minimum environment an animal must be kept in, the proper food to feed it and how to keep the animal from running off. This skill would normally not be rolled for.
       <details>
         <summary>Breed Animal</summary>
-        Proficiency with selective breeding of animals. This is a long term activity normally not possible to do during adventuring with the exception of long downtimes. However, you have Expertise on checks made to identify the general condition of animals and might for example allow you to select the best animal from a seller.
+        Proficiency with selective breeding of animals. This is a long term activity normally not possible to do during adventuring with the exception of long downtimes. However, you have <b>Expertise</b> on checks made to identify the general condition of animals and might for example allow you to select the best animal from a seller.
       </details>
       <details>
         <summary>Teamster</summary>
-        Provides skill at the employment of common domestic farm animals as beasts of burden, plow teams or as animals to pull carts, wagons and carriages. You have Expertise on travel checks when handling animals this way, as well as on checks to control wagons or chariots.
+        Provides skill at the employment of common domestic farm animals as beasts of burden, plow teams or as animals to pull carts, wagons and carriages. You have <b>Expertise</b> on travel checks when handling animals this way, as well as on checks to control wagons or chariots.
       </details>
     </details>
     <details>
@@ -198,13 +198,13 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
           You have learnt techniques needed to train an inappropriate animal to attack and fight. You could for example, if you really wanted, combat train a chicken.
         </details>
         <details>
-          <summary>War Training (trait)</summary>
+          <summary>War Training (<b>trait</b>)</summary>
           You have mastered techniques making it possible to train animals for combat during a short period of time. You may train an animal in 1/4 the usual time (adding the “war-trained” template to the animal in five weeks, rather than five months, for example).
         </details>
       </details>
       <details>
         <summary>Companionship Training</summary>
-        The way you train beasts is more focused on companionship. This is a simpler task that can usually be done in a week. When you take this skill it is assumed that you have practiced this for a while, allowing you to have a group of companion animals that follow you. Choose a number of beasts from your familiar animal categories with challenge rating 0 (such as rats, ravens, spiders, or tiny dogs) equal to your proficiency bonus. They do not all need to be the same type of beast. These are your companion animals. When your proficiency bonus increases you gain another companion animal.
+        The way you train beasts is more focused on companionship. This is a simpler task that can usually be done in a week. When you take this skill it is assumed that you have practiced this for a while, allowing you to have a <b>group</b> of companion animals that follow you. Choose a number of beasts from your familiar animal categories with challenge rating 0 (such as rats, ravens, spiders, or tiny dogs) equal to your proficiency bonus. They do not all need to be the same type of beast. These are your companion animals. When your proficiency bonus increases you gain another companion animal.
         Your companion animals are well trained. They follow your orders and can understand commands and tasks as complex as a trained rat might, but are not suitable for combat. In combat your companions only take the dash, disengage, and dodge actions and have the frightened condition of all enemies.
       </details>
       <details>
@@ -217,15 +217,15 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
       </details>
     </details>
     <details>
-      <summary>Animal Whisperer (trait)</summary>
-      Allows you to communicate simple ideas through sounds and gestures. You have Expertise on checks to calm an animal down or intuit its intentions.
+      <summary>Animal Whisperer (<b>trait</b>)</summary>
+      Allows you to communicate simple ideas through sounds and gestures. You have <b>Expertise</b> on checks to calm an animal down or intuit its intentions.
       <details>
-        <summary>Animal Whisperer II (trait)</summary>
+        <summary>Animal Whisperer II (<b>trait</b>)</summary>
         Allows you to use the Animal Whisperer skill with non-domesticated animals.
       </details>
     </details>
     <details>
-      <summary>Battle Animal (trait)</summary>
+      <summary>Battle Animal (<b>trait</b>)</summary>
       You recognize the attack patterns of the animals you are familiar with. Knowing how it attacks, when it is about to pounce and recognizing its intentions provides +2 AC against animals of the categories you are familiar with, including non-domesticated ones.
     </details>
     <details>
@@ -234,27 +234,27 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     </details>
     <details>
       <summary>Nurse Animal</summary>
-      The skill of maintaining and restoring health in animals, along with treating diseases and parasites. Gain Expertise on checks to treat animals and on saving throws animals in your care make against disease. This includes non-domesticated animals. In addition you gain the following benefits.
+      The skill of maintaining and restoring health in animals, along with treating diseases and parasites. Gain <b>Expertise</b> on checks to treat animals and on saving throws animals in your care make against disease. This includes non-domesticated animals. In addition you gain the following benefits.
       <ul><li>If you spend an hour or more caring for a friendly beast, you can have it gain an amount of temporary HP equal to 5 times your Wisdom modifier. Once you use this feature on a creature, you cannot do so again until you finish a long rest.</li>
       <li>Wild animals normally don’t grow aggressive if you approach them with the intent to help (free, heal etc).</li></ul>
     </details>
     <details>
       <summary>Pack Animal</summary>
-      Enables you to properly load a pack animal so that its health is not threatened by travel conditions. Gain Expertise on travel checks and on saves made by your pack animals to avoid exhaustion.
+      Enables you to properly load a pack animal so that its health is not threatened by travel conditions. Gain <b>Expertise</b> on travel checks and on saves made by your pack animals to avoid exhaustion.
       <details>
-        <summary>Improve Encumbrance (trait)</summary>
+        <summary>Improve Encumbrance (<b>trait</b>)</summary>
         Increases the capacity and endurance of your pack animals.
       </details>
     </details>
     <details>
       <summary>Ride Animal</summary>
-      The skill to direct and ride an animal of the appropriate size and physique. Gain Expertise on such checks.
+      The skill to direct and ride an animal of the appropriate size and physique. Gain <b>Expertise</b> on such checks.
       <details>
         <summary>Flying Mounts</summary>
         You possess enough skill and knowledge to handle hippogriffs, pegasi and other flying mounts for transportation and combat.
       </details>
       <details>
-        <summary>Mounted Combat (trait)</summary>
+        <summary>Mounted Combat (<b>trait</b>)</summary>
         You possess enough skill to fight from the back of a mount. While mounted you gain the following benefits.
         <ul><li>You have advantage on melee attack rolls against any unmounted creature smaller than your mount.</li>
         <li>You can force an attack targeted at your mount to target you instead.</li>
@@ -262,7 +262,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
       </details>
       <details>
         <summary>Racing</summary>
-        Provides the skill for pushing a riding animal past its ordinary endurance in order to win races. Your mount has Expertise on checks and saves to maintain their speed and pass obstacles.
+        Provides the skill for pushing a riding animal past its ordinary endurance in order to win races. Your mount has <b>Expertise</b> on checks and saves to maintain their speed and pass obstacles.
       </details>
     </details>
     <details>
@@ -278,15 +278,15 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 </details>
 
 <details>
-  <summary>Gaming (Group, Untrained)</summary>
+  <summary>Gaming (<b>Group</b>, Untrained)</summary>
   <div markdown="1">
-  A Group of skills that include all types of games. Proficiency with one skill would not give you knowledge of other skills in the group. Each time you choose the Gaming skill, you must select a subskill. Each of these skills can be used untrained, as long as someone has explained the basic rules.
+  A <b>Group</b> of skills that include all types of games. Proficiency with one skill would not give you knowledge of other skills in the <b>group</b>. Each time you choose the Gaming skill, you must select a subskill. Each of these skills can be used untrained, as long as someone has explained the basic rules.
 
   <details>
     <summary>Dexterity-based Games</summary>
     The skill of increasing your chance of winning on mostly Dexterity based games.
     <details>
-      <summary>Improved Dexterity (trait)</summary>
+      <summary>Improved Dexterity (<b>trait</b>)</summary>
       Through your practice with these types of games you have improved your agility, reflexes and/or balance. Gain +1 Dexterity.
     </details>
   </details>
@@ -295,18 +295,18 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     <summary>Games of Tactics</summary>
     You can think tactically and understand how you win games that do not include Luck, such as Chess.
     <details>
-      <summary>Game Master (group)</summary>
-      You master one type of game in this category, and have Expertise on such checks.
+      <summary>Game Master (<b>group</b>)</summary>
+      You master one type of game in this category, and have <b>Expertise</b> on such checks.
     </details>
     <details>
-      <summary>Logical Thinking (trait)</summary>
+      <summary>Logical Thinking (<b>trait</b>)</summary>
       Years of this activity has improved your logical thinking. Gain +1 Intelligence.
     </details>
   </details>
 
   <details>
     <summary>Luck-based Games</summary>
-    The skill of increasing your chance of winning on mostly Luck based games. If you have the Mathematics skill, you additionally gain Expertise.
+    The skill of increasing your chance of winning on mostly Luck based games. If you have the Mathematics skill, you additionally gain <b>Expertise</b>.
   </details>
 
   </div>
@@ -319,26 +319,26 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Ciphers</summary>
-    You are good at finding and solving ciphers. This grants Expertise on checks to realize that a text or map might contain a cipher or riddle.
+    You are good at finding and solving ciphers. This grants <b>Expertise</b> on checks to realize that a text or map might contain a cipher or riddle.
   </details>
 
   <details>
     <summary>Dungeon Delver</summary>
-    You are alert to the hidden traps and secret doors found in many dungeons and can search for them while traveling at a normal pace, instead of only at a slow pace. If you instead choose to move at a slow pace, you have Expertise in finding and detecting their presence.
+    You are alert to the hidden traps and secret doors found in many dungeons and can search for them while traveling at a normal pace, instead of only at a slow pace. If you instead choose to move at a slow pace, you have <b>Expertise</b> in finding and detecting their presence.
   </details>
 
   <details>
     <summary>Find Clues</summary>
-    You have an eye for detail and can pick out the smallest clues. When searching a room for clues that seem out of place you have Expertise. This does not help for finding traps or secret doors. In addition, it only applies when looking in a place within a familiar culture; otherwise you would not be able to tell if something is out of place.
+    You have an eye for detail and can pick out the smallest clues. When searching a room for clues that seem out of place you have <b>Expertise</b>. This does not help for finding traps or secret doors. In addition, it only applies when looking in a place within a familiar culture; otherwise you would not be able to tell if something is out of place.
   </details>
 
   <details>
     <summary>Research</summary>
-    You are at home in libraries and other places of study and have Expertise when performing the systematic work required to find information in such a setting.
+    You are at home in libraries and other places of study and have <b>Expertise</b> when performing the systematic work required to find information in such a setting.
   </details>
 
   <details>
-    <summary>Training of the Mind (cost:2, trait)</summary>
+    <summary>Training of the Mind (cost:2, <b>trait</b>)</summary>
     Years of exercising your mind has improved your sense of deduction. Gain +1 Intelligence.
   </details>
 
@@ -351,22 +351,22 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   This includes the practical skills to act as a leader, organizing and overseeing other persons, teams and whole organizations. With this comes an understanding of power, ambitions towards a personal vision and the defense of social values.
 
   <details>
-    <summary>Center of Attention (cost:2, trait)</summary>
+    <summary>Center of Attention (cost:2, <b>trait</b>)</summary>
     As a leader you have learned how to make others pay attention to you. Gain +1 Charisma.
   </details>
 
   <details>
-    <summary>Heroism (trait)</summary>
+    <summary>Heroism (<b>trait</b>)</summary>
     More of a philosophy than a skill, that quests for reverence and glory through great risk, deeds and selflessness. A person with this skill perceives reality differently from others. For example, the object of taking an action — say, killing a monster — is less important than how it is done, or how the deed is perceived. How brave was the combatant? How remarkable was the deed itself? Glory comes not only from unequaled victory, but victory achieved with risk that is taken on behalf of others. Thus sacrifice, suffering and regard for others — which must take place in front of witnesses, that stories might be told — are also part of heroism's tradition. You gain the following ability.<br/>
     <div class="skill-frame">Forfeit Self<br/> Rush at an enemy haphazardly, drawing attacks as a bonus action. Until the start of your next round you sacrifice 4 points of AC. During this time you can spend a reaction allowing an ally to attack with advantage.</div>
     <details>
-      <summary>Presence (trait)</summary>
+      <summary>Presence (<b>trait</b>)</summary>
       You are often recognized as an unusual presence in a room, providing respect or fear.
       <details>
-        <summary>Gain Patron (trait)</summary>
+        <summary>Gain Patron (<b>trait</b>)</summary>
         You are approached by a member of court or something corresponding in the area where your deeds are known. This patron can offer to provide knowledge of errant beasts, capital and introductions to the powerful.
         <details>
-          <summary>Gain Rank (trait)</summary>
+          <summary>Gain Rank (<b>trait</b>)</summary>
           You are invited to accept the responsibilities of rank, including parcels of land and a steady income.
         </details>
       </details>
@@ -375,45 +375,45 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Judgement</summary>
-    Enables you to make good sense in choosing those who serve under you, particularly when assigning duties and giving trust to both hirelings and followers. This would usually be a Wisdom (Judgement) check. Knowing how to recruit the right people will in general improve morale and allow you to find people with better skills. You have Expertise when making checks using this skill.
+    Enables you to make good sense in choosing those who serve under you, particularly when assigning duties and giving trust to both hirelings and followers. This would usually be a Wisdom (Judgement) check. Knowing how to recruit the right people will in general improve morale and allow you to find people with better skills. You have <b>Expertise</b> when making checks using this skill.
   </details>
 
   <details>
     <summary>Logistics</summary>
-    Your leadership is more focused around the management of supply and people handling it, enabling the endurance of a long-term military campaign, caravan or expedition. Having this skill includes knowledge on how to handle the discipline of planning and carrying out the movement, supply and maintenance of people while engaged in practical work in a natural environment while traveling or making camp. Also, presuming no ordinary means exist for providing the necessities of food, clothing, equipment and shelter, logistics provides skills that allow for the self-sufficiency of persons who are separated from these things. You have Expertise when making checks using this skill, including checks made to buy proviant, finding the right people with the right competence for planned tasks and organizing defenses when making camp.
+    Your leadership is more focused around the management of supply and people handling it, enabling the endurance of a long-term military campaign, caravan or expedition. Having this skill includes knowledge on how to handle the discipline of planning and carrying out the movement, supply and maintenance of people while engaged in practical work in a natural environment while traveling or making camp. Also, presuming no ordinary means exist for providing the necessities of food, clothing, equipment and shelter, logistics provides skills that allow for the self-sufficiency of persons who are separated from these things. You have <b>Expertise</b> when making checks using this skill, including checks made to buy proviant, finding the right people with the right competence for planned tasks and organizing defenses when making camp.
   </details>
 
   <details>
-    <summary>Motivation (trait)</summary>
-    The skill to inspire and improve the morale of hirelings, followers and allies, rallying them to engage in combat and giving their loyalty to actions the leader undertakes. Also provides great potential to inspire not only direct associates, but to any group of willing persons, on the scale of a settlement, a province or a whole kingdom.
+    <summary>Motivation (<b>trait</b>)</summary>
+    The skill to inspire and improve the morale of hirelings, followers and allies, rallying them to engage in combat and giving their loyalty to actions the leader undertakes. Also provides great potential to inspire not only direct associates, but to any <b>group</b> of willing persons, on the scale of a settlement, a province or a whole kingdom.
     <details>
-      <summary>Improve Morale (trait)</summary>
+      <summary>Improve Morale (<b>trait</b>)</summary>
       Increases morale for hireling and associate non-player characters. This morale boost will stay in effect for as long as they are in your employ, and you do not mistreat them. You gain the following abilities.
       <ul><li>As long as your followers are within 30 ft, they have advantage on saving throws against fear effects.</li>
       <li>When you reduce a creature to 0 hp, allies and followers that see you do it gain 1d4 temporary hit points.</li></ul>
     </details>
     <details>
-      <summary>Inspire Loyalty (trait)</summary>
+      <summary>Inspire Loyalty (<b>trait</b>)</summary>
       Ensures that a cadre of subordinates, up to 10 persons, will never quit your employ, and would die before betraying you.
       <details>
-        <summary>Inspire Sacrifice (trait)</summary>
+        <summary>Inspire Sacrifice (<b>trait</b>)</summary>
         Within certain parameters and from time to time, you are able to encourage up to 2-5 non-player characters to give their lives to achieve a goal.
       </details>
     </details>
     <details>
-      <summary>Rousing Speech (trait)</summary>
+      <summary>Rousing Speech (<b>trait</b>)</summary>
       Prior to a significant conflict, you can hold an inspiring speech. When you do so, your subordinates gain temporary hit points equal to your level + your Charisma modifier.
     </details>
   </details>
 
   <details>
-    <summary>Raise Company (trait)</summary>
+    <summary>Raise Company (<b>trait</b>)</summary>
     Empowers you to choose good leaders and effectively raise and lead a body of 100 soldiers who are capable of acting as a unit towards achieving goals. This will of course cost a great deal of money.
     <details>
-      <summary>Command (trait)</summary>
+      <summary>Command (<b>trait</b>)</summary>
       Supported by company commanders, you are able to effectively lead a thousand or more persons into battle, inspiring them to embrace tactics which you order.
       <details>
-        <summary>Marshal (trait)</summary>
+        <summary>Marshal (<b>trait</b>)</summary>
         You are able to lead a national army, even a combined army of several nationalities, determining a grand strategy for military actions.
       </details>
     </details>
@@ -432,12 +432,12 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Battlefield Medicine</summary>
-    No stranger to the frontlines, you have experience with treating wounds immediately when they occur, allowing you to mend wounds quickly and get your allies back in the fight. You have Expertise on checks to stabilize, checks made to remove injury effects and checks made with a healer’s kit during a short rest. Additionally, during a short rest you can use a healer’s kit to heal a stabilized creature; that creature regains 1 hit point.
+    No stranger to the frontlines, you have experience with treating wounds immediately when they occur, allowing you to mend wounds quickly and get your allies back in the fight. You have <b>Expertise</b> on checks to stabilize, checks made to remove injury effects and checks made with a healer’s kit during a short rest. Additionally, during a short rest you can use a healer’s kit to heal a stabilized creature; that creature regains 1 hit point.
   </details>
 
   <details>
     <summary>Detoxification</summary>
-    Grants Expertise to identify a poison affecting a patient's health, as well as treating it. During a short rest, which in this case would take at least 10 minutes, you can take care of people poisoned by an injury poison. By spending one use of leeches you restore hp equal to your proficiency bonus plus the creature’s maximum number of Hit Dice, but no higher than was inflicted by poison. In addition, you can manufacture Antitoxin, as if you had the Alchemy skill.
+    Grants <b>Expertise</b> to identify a poison affecting a patient's health, as well as treating it. During a short rest, which in this case would take at least 10 minutes, you can take care of people poisoned by an injury poison. By spending one use of leeches you restore hp equal to your proficiency bonus plus the creature’s maximum number of Hit Dice, but no higher than was inflicted by poison. In addition, you can manufacture Antitoxin, as if you had the Alchemy skill.
     <div class="skill-frame">Leeches<br/>
     A jar of leeches<br/>
     Can be bought (use price, weight and usage die as healer’s kit). By spending a foraging travel action in wetlands, you can automatically increase the usage die one step (max d12).
@@ -446,22 +446,22 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Disease</summary>
-    You are specialized in diseases, with Expertise on checks to identify and treat them. The skill includes knowledge of magical diseases, and you would be able to deduce if it is of a magical origin (Int check). You could trace a disease to its origin by interviewing patients (Cha check). In addition you know how to properly protect yourself while in areas with sick people.
+    You are specialized in diseases, with <b>Expertise</b> on checks to identify and treat them. The skill includes knowledge of magical diseases, and you would be able to deduce if it is of a magical origin (Int check). You could trace a disease to its origin by interviewing patients (Cha check). In addition you know how to properly protect yourself while in areas with sick people.
   </details>
 
   <details>
-    <summary>Folk (group)</summary>
+    <summary>Folk (<b>group</b>)</summary>
     You can take this skill multiple times. Select a different folk each time. You are trained in treating members of that folk as well.
   </details>
 
   <details>
     <summary>Forensics</summary>
-    Some would describe the fascination with dead bodies as "morbid" or "creepy", but you don't understand all the fuss. Everyone dies someday and it's important to know what happened to them. You know how to figure out how the deceased came to be that way. By carefully studying the surrounding environment and reconstructing events, you have Expertise on answering questions such as, "What killed them?" "How long have they been dead?" "Were they killed here or elsewhere and then dumped here?" etc.
+    Some would describe the fascination with dead bodies as "morbid" or "creepy", but you don't understand all the fuss. Everyone dies someday and it's important to know what happened to them. You know how to figure out how the deceased came to be that way. By carefully studying the surrounding environment and reconstructing events, you have <b>Expertise</b> on answering questions such as, "What killed them?" "How long have they been dead?" "Were they killed here or elsewhere and then dumped here?" etc.
   </details>
 
   <details>
     <summary>Humoral Theory</summary>
-    You are fully aware of how most conditions are caused by imbalance on the humors, i.e. body fluids. Each of the humors are governed by an element, and that is the reason why some conditions, injuries and illnesses need to be cleaned (adding water), others need to be cleaned and kept dry. You are skilled at diagnosing the imbalance and treating it, and have Expertise on checks regarding long term care. In addition, if you take care of wounded people during a long rest you can spend one use of leeches and restore hp equal to your proficiency bonus plus the creature’s maximum number of Hit Dice.
+    You are fully aware of how most conditions are caused by imbalance on the humors, i.e. body fluids. Each of the humors are governed by an element, and that is the reason why some conditions, injuries and illnesses need to be cleaned (adding water), others need to be cleaned and kept dry. You are skilled at diagnosing the imbalance and treating it, and have <b>Expertise</b> on checks regarding long term care. In addition, if you take care of wounded people during a long rest you can spend one use of leeches and restore hp equal to your proficiency bonus plus the creature’s maximum number of Hit Dice.
   </details>
 
   <details>
@@ -471,7 +471,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Surgery</summary>
-    The skill to cut open the body and provide treatment with a meaningful probability the patient will survive. To learn this skill you have probably gone through a lot of dissection or even vivisections. You have Expertise on all checks regarding surgery and anatomy.
+    The skill to cut open the body and provide treatment with a meaningful probability the patient will survive. To learn this skill you have probably gone through a lot of dissection or even vivisections. You have <b>Expertise</b> on all checks regarding surgery and anatomy.
   </details>
 
   <details>
@@ -488,10 +488,10 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Insight</summary>
-    You possess keen insight into how other people think and feel, and have Expertise when trying to determine the true intentions of a creature. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.
+    You possess keen insight into how other people think and feel, and have <b>Expertise</b> when trying to determine the true intentions of a creature. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.
     <details>
       <summary>Detect Mania</summary>
-      Allows recognition of situations where groups of people are acting without control, either due to mass hysteria, magical suggestion or control, madness or like condition. While an ordinary observer may see a crowd acting with high emotion and believe that the assemblage is an ordinary mob or rabble, persons with this knowledge will recognize there is much more going on than meets the eye. The mania might be driven by a natural hysterical contagion, the influence of a powerful magical individual or force, a physical or mental disease, brought about by a plague or even by parasitic infestation, or it might have an otherworldly connection.
+      Allows recognition of situations where <b>group</b>s of people are acting without control, either due to mass hysteria, magical suggestion or control, madness or like condition. While an ordinary observer may see a crowd acting with high emotion and believe that the assemblage is an ordinary mob or rabble, persons with this knowledge will recognize there is much more going on than meets the eye. The mania might be driven by a natural hysterical contagion, the influence of a powerful magical individual or force, a physical or mental disease, brought about by a plague or even by parasitic infestation, or it might have an otherworldly connection.
       <br/><br/>
       To identify a cause, you will need to obtain full access to an individual suffering from the mania. A close examination of less than a minute is all that is needed to identify someone affected and someone that is not — as many within a crowd will move along due to confusion or curiosity. The affected person can be removed somewhere else and put under observation. Ten minutes of observation — which consists of asking questions, manipulating the victim or otherwise poking and prodding, much of which will require the victim to be restrained — allows you to make an Wisdom (Insight) check to reveal the cause — but not the source — of the mania.
     </details>
@@ -500,33 +500,33 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
       You can observe a humanoid to try to get uncanny insight about it and how it will respond. Make a Wisdom (Predict Behavior) check contested by the target’s Deception check. If your check succeeds, you have advantage on ability checks against the target until the end of your next turn.
     </details>
     <details>
-      <summary>Student of Behavior (cost:2, trait)</summary>
+      <summary>Student of Behavior (cost:2, <b>trait</b>)</summary>
       Observing how humanoids behave has given you lots of insight in the mind of others. Gain +1 Wisdom.
     </details>
   </details>
 
   <details>
     <summary>Keen Awareness</summary>
-    You are always on your guard and can react to danger at a moment's notice. Gain Expertise on Initiative checks. In addition you can use a reaction before your first round.
+    You are always on your guard and can react to danger at a moment's notice. Gain <b>Expertise</b> on Initiative checks. In addition you can use a reaction before your first round.
     <details>
-      <summary>Always Ready (trait)</summary>
+      <summary>Always Ready (<b>trait</b>)</summary>
       You cannot be surprised unless you are incapacitated. In addition, when you roll initiative you can use a reaction to take either the Help, Ready, or Search action.
     </details>
     <details>
-      <summary>Fast Reflexes (trait)</summary>
+      <summary>Fast Reflexes (<b>trait</b>)</summary>
       You have improved your reflexes allowing you to react without a thought. Gain +1 Dexterity.
     </details>
     <details>
-      <summary>Quick Witted (trait)</summary>
+      <summary>Quick Witted (<b>trait</b>)</summary>
       Great ideas come to you naturally; this often saves your life. When you would make a saving throw, you may instead make an Intelligence saving throw. You may use this feature a number of times equal to your Intelligence modifier and regain all expended uses of this feature when you complete a long rest.
     </details>
   </details>
 
   <details>
     <summary>On Guard</summary>
-    You are trained to act as a sentinel, both the actual act of guarding as well as taking precautions against unknown intruders. During any stationary situation where you actively state as being on guard and not engaging your attention upon something other than watching for trouble, you have Expertise on checks to detect intruders.
+    You are trained to act as a sentinel, both the actual act of guarding as well as taking precautions against unknown intruders. During any stationary situation where you actively state as being on guard and not engaging your attention upon something other than watching for trouble, you have <b>Expertise</b> on checks to detect intruders.
     <details>
-      <summary>Alert (→ Sense-Hearing, trait)</summary>
+      <summary>Alert (→ Sense-Hearing, <b>trait</b>)</summary>
       While on guard you can’t be surprised, nor do creatures gain advantage on attacks against you as a result of being hidden.
     </details>
   </details>
@@ -535,43 +535,43 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     <summary>Recognise Disturbance</summary>
     You can sense objects or creatures within 5 ft of you, even if they are invisible or make no sound. You can additionally make Wisdom (Recognise Disturbance) check to sense that someone has entered and lingered in a room over the last hour.
     <details>
-      <summary>Blind Fighting (→ Sense-Hearing, trait)</summary>
+      <summary>Blind Fighting (→ Sense-Hearing, <b>trait</b>)</summary>
       You do not have disadvantage when attacking a target within 5 ft that you cannot see.
     </details>
   </details>
 
   <details>
     <summary>Sense - Hearing</summary>
-    You have exceptional hearing and have Expertise on checks to hear sounds.
+    You have exceptional hearing and have <b>Expertise</b> on checks to hear sounds.
   </details>
 
   <details>
     <summary>Sense - Sight</summary>
-    You have exceptional sight and have Expertise when trying to spot things.
+    You have exceptional sight and have <b>Expertise</b> when trying to spot things.
     <details>
-      <summary>Keen Sight (trait)</summary>
+      <summary>Keen Sight (<b>trait</b>)</summary>
       You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 ft away from you. You also gain the following benefits.
       <ul><li>Attacking at long range doesn’t impose disadvantage on your ranged weapon attack rolls.</li>
       <li>If you can see a creature’s mouth while it is speaking a language you understand, you can interpret what it’s saying by reading its lips.</li></ul>
     </details>
     <details>
-      <summary>Focused Vision (trait)</summary>
+      <summary>Focused Vision (<b>trait</b>)</summary>
       You are good at focusing your vision on what is important and are able to shout out clutter. Being in a lightly obscured area doesn’t impose disadvantage on your Perception checks that rely on sight, and your ranged weapon attacks ignore half and three-quarters cover.
     </details>
     <details>
-      <summary>Nightvision (trait)</summary>
+      <summary>Nightvision (<b>trait</b>)</summary>
       You are accustomed to the dark and can see in dim light as if it were bright light.
     </details>
   </details>
 
   <details>
     <summary>Sense - Smell</summary>
-    You have exceptional smell and have Expertise on checks to recognise the origin and source of that which is smelled. This would include detecting poison in food & drink and detecting any sort of odorous creature, such as a skunk, troglodyte or rotting undead.
+    You have exceptional smell and have <b>Expertise</b> on checks to recognise the origin and source of that which is smelled. This would include detecting poison in food & drink and detecting any sort of odorous creature, such as a skunk, troglodyte or rotting undead.
   </details>
 
   <details>
     <summary>Sense - Taste</summary>
-    You have an exceptional sense of taste and have Expertise on checks to recognise flavors. This would include detecting poison in food & drink and identifying potions
+    You have an exceptional sense of taste and have <b>Expertise</b> on checks to recognise flavors. This would include detecting poison in food & drink and identifying potions
   </details>
 
   <details>
@@ -587,7 +587,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   The skill of utilizing your strength and body weight in an efficient way. Having proficiency with this skill would indicate that a character has a good level of physical fitness. The physique skill would normally be used for difficult situations when climbing, jumping and other similar activities. Physique checks that use Strength and go on for more than a minute, should roll again using Constitution.
 
   <details>
-    <summary>Balance Load (trait)</summary>
+    <summary>Balance Load (<b>trait</b>)</summary>
     You are trained in balancing and carrying large loads, counting as if you were one size larger for the purpose of determining your carrying capacity.
     <details>
       <summary>Lift Weights</summary>
@@ -596,44 +596,44 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </details>
 
   <details>
-    <summary>Bodybuilding (cost:2, trait)</summary>
+    <summary>Bodybuilding (cost:2, <b>trait</b>)</summary>
     You have trained to improve your physical strength. Gain +1 Strength.
   </details>
 
   <details>
     <summary>Carousing</summary>
-    You know how to hold your drink and withstand the effects of alcohol, while keeping a friendly demeanor. You have Expertise (Con, Cha) on checks to influence people in a setting where lots of alcohol is used.
+    You know how to hold your drink and withstand the effects of alcohol, while keeping a friendly demeanor. You have <b>Expertise</b> (Con, Cha) on checks to influence people in a setting where lots of alcohol is used.
   </details>
 
   <details>
     <summary>Climb Trees</summary>
-    You have Expertise when climbing foliage.
+    You have <b>Expertise</b> when climbing foliage.
     <details>
-      <summary>Fast Climber (trait)</summary>
+      <summary>Fast Climber (<b>trait</b>)</summary>
       You gain a climbing speed equal to your movement speed.
     </details>
   </details>
 
   <details>
     <summary>Climb Wall</summary>
-    When climbing walls with equipment, you have Expertise. This proficiency also allows you to climb vertical surfaces without equipment, provided that surface retains cracks or mortared separations and you are not encumbered. The distance that may be climbed safely, without requiring a die roll of any kind, equals your Dexterity, +3 ft/character level. If at any point within this distance, you are able to rest upon a surface that is at least 4 in. wide (a window ledge or a tree branch), and do so for a period of not less than three rounds, you may reset the distance you can climb safely from that point.
+    When climbing walls with equipment, you have <b>Expertise</b>. This proficiency also allows you to climb vertical surfaces without equipment, provided that surface retains cracks or mortared separations and you are not encumbered. The distance that may be climbed safely, without requiring a die roll of any kind, equals your Dexterity, +3 ft/character level. If at any point within this distance, you are able to rest upon a surface that is at least 4 in. wide (a window ledge or a tree branch), and do so for a period of not less than three rounds, you may reset the distance you can climb safely from that point.
     <details>
-      <summary>Fast Climber (trait)</summary>
+      <summary>Fast Climber (<b>trait</b>)</summary>
       You gain a climbing speed equal to your movement speed.
     </details>
     <details>
-      <summary>Instructor (trait)</summary>
+      <summary>Instructor (<b>trait</b>)</summary>
       You can spend 5 minutes instructing, pointing out handholds, and guiding other creatures before making a climb. When you do so, choose up to six friendly creatures (which can include yourself) who pay attention to you. Each creature can add a 1d6 to one check or saving throw they make for that climb.
     </details>
   </details>
 
   <details>
     <summary>Endurance</summary>
-    Armies, merchants, refugees or convicts; many people push themselves farther than they could naturally go, and some who are regulars at this have adapted to this way of life. When you make a saving throw against exhaustion from extensive travel, you can use this skill with Expertise instead. You gain the following benefits.
+    Armies, merchants, refugees or convicts; many people push themselves farther than they could naturally go, and some who are regulars at this have adapted to this way of life. When you make a saving throw against exhaustion from extensive travel, you can use this skill with <b>Expertise</b> instead. You gain the following benefits.
     <ul><li>You can comfortably travel 10 hours in a day, without making saving throws against exhaustion.</li>
     <li>After you finish a long rest, you gain temporary hit points equal to your proficiency bonus.</li></ul>
     <details>
-      <summary>Endurance Training (cost:2, trait)</summary>
+      <summary>Endurance Training (cost:2, <b>trait</b>)</summary>
       You have trained to improve your stamina. Gain +1 Constitution.
     </details>
     <details>
@@ -643,13 +643,13 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </details>
 
   <details>
-    <summary>Sprinter (trait)</summary>
+    <summary>Sprinter (<b>trait</b>)</summary>
     You can run fast for short distances. During combat you can take a bonus action to Dash. When Dashing outside combat, you can add 4 times your speed. You can keep this up for 2 rounds. Instead you can add 3 times your speed for 10 rounds. If you want to continue, you can make a Constitution save against DC 10. On a success you can continue one more round, on a fail you get one level of Exhaustion. You can continue doing this with a cumulative +5 on the DC each round.
   </details>
 
   <details>
     <summary>Intimidate</summary>
-    The skill of getting what you want by threatening people with your size. You have Expertise (Str, Cha) when trying to intimidate someone.
+    The skill of getting what you want by threatening people with your size. You have <b>Expertise</b> (Str, Cha) when trying to intimidate someone.
     <details>
       <summary>Menacing</summary>
       You appear fearsome to others. During your turn, you can replace one attack with an attempt to demoralize one humanoid within 30 ft of you that can see and hear you. Make an Intimidation check contested by the target’s Wisdom (Insight) check. If you succeed, the target is frightened until the end of your next turn. If your check fails, the target can’t be frightened by you in this way for 1 hour.
@@ -658,31 +658,31 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Jumper</summary>
-    You are good at jumping both long and high, and have Expertise on such checks. You gain the following benefits.
+    You are good at jumping both long and high, and have <b>Expertise</b> on such checks. You gain the following benefits.
     <ul><li>You can attempt to jump even longer or higher. For each 5 above a DC 5 Strength (Physique) check, count your Strength as if it was 2 points higher when calculating jumping distance.</li>
     <li>You can make a running long jump or a running high jump after moving only 5 ft on foot, rather than 10 ft.</li></ul>
   </details>
 
   <details>
     <summary>Manual Labor</summary>
-    You are used to manual labor and perform it well, and have Expertise if you need to make a check for such an activity. Having this proficiency allows you to use it as if it were a profession for the purposes of Downtime. In addition, you can use this proficiency with Charisma on checks to communicate with manual laborers.
+    You are used to manual labor and perform it well, and have <b>Expertise</b> if you need to make a check for such an activity. Having this proficiency allows you to use it as if it were a profession for the purposes of Downtime. In addition, you can use this proficiency with Charisma on checks to communicate with manual laborers.
   </details>
 
   <details>
     <summary>Stand Ground</summary>
-    This skill might come from several sources, such as certain types of wrestling or from military training where holding the line is of essence. You are good at standing your ground and avoid being moved against your will. If such an effect allows for a save, you can use this skill with Expertise instead.
+    This skill might come from several sources, such as certain types of wrestling or from military training where holding the line is of essence. You are good at standing your ground and avoid being moved against your will. If such an effect allows for a save, you can use this skill with <b>Expertise</b> instead.
     <details>
       <summary>Push</summary>
-      Additionally you can use this skill with Expertise when attempting to move another creature. If you have the Stand Ground II trait, you also count as one size higher when doing so.
+      Additionally you can use this skill with <b>Expertise</b> when attempting to move another creature. If you have the Stand Ground II <b>trait</b>, you also count as one size higher when doing so.
     </details>
     <details>
-      <summary>Stand Ground II (trait)</summary>
+      <summary>Stand Ground II (<b>trait</b>)</summary>
       For purposes of moving you, your size counts as one higher.
     </details>
   </details>
 
   <details>
-    <summary>Strong Arm (trait)</summary>
+    <summary>Strong Arm (<b>trait</b>)</summary>
     Through training, you have significantly increased your forearm strength, granting a stronger grip. Wrist, hand and forearm have been coordinated so that you are able to hurl weapons a greater distance and precision than normal. You gain the following benefits.
     <ul><li>You can treat any one-handed item as a thrown weapon with a range of 10/30 ft.</li>
     <li>Your thrown weapon attacks ignore half cover and three-quarters cover.</li>
@@ -691,14 +691,14 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Tolerance</summary>
-    You have trained, maybe unvoluntarily, to endure torture, harsh environment or other conditions that most people are lucky to avoid.  When making a check to resist such conditions, you have Expertise. If it requires a Constitution save, you can use this skill instead.
+    You have trained, maybe unvoluntarily, to endure torture, harsh environment or other conditions that most people are lucky to avoid.  When making a check to resist such conditions, you have <b>Expertise</b>. If it requires a Constitution save, you can use this skill instead.
     <details>
-      <summary>Tolerance II (trait)</summary>
+      <summary>Tolerance II (<b>trait</b>)</summary>
       You are in general more resistant to all kinds of hardship. Gain +1 Constitution.
     </details>
     <details>
-      <summary>Tough (trait)</summary>
-      You are tougher than most. Your hit point maximum increases by an amount equal to twice your level when you gain this trait. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.
+      <summary>Tough (<b>trait</b>)</summary>
+      You are tougher than most. Your hit point maximum increases by an amount equal to twice your level when you gain this <b>trait</b>. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.
     </details>
   </details>
 
@@ -709,13 +709,13 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Wrestling</summary>
-    You are familiar with competitive wrestling and have Expertise with such activities, which would include grappling or escaping a grapple This applies only to humanoid targets. You can use your action to try to pin a creature grappled by you. To do so, make another Strength (Wrestling) check. If you succeed, you and the creature are both restrained until the grapple ends.
+    You are familiar with competitive wrestling and have <b>Expertise</b> with such activities, which would include grappling or escaping a grapple This applies only to humanoid targets. You can use your action to try to pin a creature grappled by you. To do so, make another Strength (Wrestling) check. If you succeed, you and the creature are both restrained until the grapple ends.
     <details>
-      <summary>Beast Wrestler (trait)</summary>
+      <summary>Beast Wrestler (<b>trait</b>)</summary>
       You can wrestle any creatures, not just humanoids. In addition creatures that are one size larger than you don’t automatically succeed on checks to escape your grapple.
     </details>
     <details>
-      <summary>Wrestling II (trait)</summary>
+      <summary>Wrestling II (<b>trait</b>)</summary>
       For purposes of grappling, your size counts as one higher.
     </details>
   </details>
@@ -728,10 +728,10 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   The Religion skill covers your ability to recall lore about deities, rites and prayers, religious hierarchies, divine agents and holy symbols regarding the main pantheon within your culture, as well as the cultures for which you have the appropriate Culture skill.
 
   <details>
-    <summary>Acolyte (group)</summary>
-    You have formal in-depth training on one particular deity and the patheon it belongs to. Select a deity. You are always assumed to have rolled a 20 on any checks regarding the chosen deity, unless it is regarding the finer points of theology, obscure myths or secret knowledge. If a check is required you have Expertise, both for questions regarding the deity, as well as its pantheon.
+    <summary>Acolyte (<b>group</b>)</summary>
+    You have formal in-depth training on one particular deity and the patheon it belongs to. Select a deity. You are always assumed to have rolled a 20 on any checks regarding the chosen deity, unless it is regarding the finer points of theology, obscure myths or secret knowledge. If a check is required you have <b>Expertise</b>, both for questions regarding the deity, as well as its pantheon.
     <details>
-      <summary>Student of the Holy (cost: 2, trait)</summary>
+      <summary>Student of the Holy (cost: 2, <b>trait</b>)</summary>
       Studying holy books and listening to sermons has exposed you to many generations of wisdom. Gain +1 Wisdom.
     </details>
   </details>
@@ -746,7 +746,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     If the character perceives the casting, the spell's effect, or both, the character can make an Wisdom (Divine magic) check with the reaction or action. The DC equals 15 + the spell's level.
     <details>
       <summary>Divine Defense</summary>
-      You have seen enough divine magic to understand the limitations and flaws that deities impose on most spells they grant. You have Expertise when using a reaction to identify a divine spell being cast. If you recognize it, you gain advantage on any saves against that spell.
+      You have seen enough divine magic to understand the limitations and flaws that deities impose on most spells they grant. You have <b>Expertise</b> when using a reaction to identify a divine spell being cast. If you recognize it, you gain advantage on any saves against that spell.
     </details>
     <details>
       <summary>Divine Symbolism</summary>
@@ -754,20 +754,20 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
       <br/><br/>
       This also includes symbols used in the creation of magical barriers and protections used to contain summoned entities, allowing you to deduce what or who a ward is designed to keep out or in, as well as its integrity and how it can be maintained.
       <br/><br/>
-      You have Expertise on checks to deduce the purpose of such symbols, regardless of faith of the creators of the symbols.
+      You have <b>Expertise</b> on checks to deduce the purpose of such symbols, regardless of faith of the creators of the symbols.
     </details>
     <details>
       <summary>Incarneum</summary>
-      The returning of souls from beyond death. Such magic is viewed as heretical when not performed by clerics that channel the powers of their god, which is seen as having the blessing of both the keeper of the soul, and the soul itself. Doing so without divine guidance, i.e. using arcane magic, inevitably darkens the soul and gives rise to undead creatures that are trapped in an unlife of torment. You possess theoretical knowledge on the workings of resurrection, souls and the nature of sentient undead, and have Expertise on checks to recall lore regarding those matters.
+      The returning of souls from beyond death. Such magic is viewed as heretical when not performed by clerics that channel the powers of their god, which is seen as having the blessing of both the keeper of the soul, and the soul itself. Doing so without divine guidance, i.e. using arcane magic, inevitably darkens the soul and gives rise to undead creatures that are trapped in an unlife of torment. You possess theoretical knowledge on the workings of resurrection, souls and the nature of sentient undead, and have <b>Expertise</b> on checks to recall lore regarding those matters.
       <details>
         <summary>Spiritualism</summary>
-        The contacting of souls from beyond death, often involving consulting the spirits of the dead about information they knew in life. This skill grants Expertise on checks to communicate to spirits.
+        The contacting of souls from beyond death, often involving consulting the spirits of the dead about information they knew in life. This skill grants <b>Expertise</b> on checks to communicate to spirits.
       </details>
       <details>
         <summary>Undead</summary>
         This skill lets you identify sentient undead and may grant insight on how to combat creatures and how to put them to rest.
         <details>
-          <summary>Battle Undead (trait)</summary>
+          <summary>Battle Undead (<b>trait</b>)</summary>
           Provides +2 AC against sentient undead.
         </details>
         <details>
@@ -778,14 +778,14 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     </details>
     <details>
       <summary>Outer Planes</summary>
-      Many creatures of religious significance (like celestials and fiends) reside in the Outer planes, and as such, are of interest to a scholar of religion. This skill grants knowledge on the features of the Outer planes and the beings that reside within. You also know how to properly address such supernatural entities in a proper way, gaining Expertise on checks made when conversing with them.
+      Many creatures of religious significance (like celestials and fiends) reside in the Outer planes, and as such, are of interest to a scholar of religion. This skill grants knowledge on the features of the Outer planes and the beings that reside within. You also know how to properly address such supernatural entities in a proper way, gaining <b>Expertise</b> on checks made when conversing with them.
     </details>
     <details>
       <summary>Prophecy</summary>
-      Deities have the power to send prophetic visions to their worshipers, granting insight on secrets long forgotten, to predict the future and to find things hidden. You have Expertise on checks to recall lore about divinations and prophecies, as well as on checks to interpret them.
+      Deities have the power to send prophetic visions to their worshipers, granting insight on secrets long forgotten, to predict the future and to find things hidden. You have <b>Expertise</b> on checks to recall lore about divinations and prophecies, as well as on checks to interpret them.
     </details>
     <details>
-      <summary>Residual Divinity (trait)</summary>
+      <summary>Residual Divinity (<b>trait</b>)</summary>
       If you are a divine spellcaster, you have gained the favor of your deity, who has granted you the strength to continue caring for your flock. When you cast a spell that restores hit points to an ally, you gain temporary hit points equal to the highest die value that you roll. These temporary hit points last for up to 1 hour.
     </details>
     <details>
@@ -798,12 +798,12 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Preach</summary>
-    The skill to leverage your religion to deliver a sermon and influencing an audience to adopt moral truth, right conduct and worthy leadership. You have Expertise on such checks.
+    The skill to leverage your religion to deliver a sermon and influencing an audience to adopt moral truth, right conduct and worthy leadership. You have <b>Expertise</b> on such checks.
   </details>
 
   <details>
     <summary>Religious Bureaucracy</summary>
-    The hierarchies and bureaucracy of the religious organizations can sometimes be very complicated to get around. Many old customs and people strictly adhering to outdated rules can make it next to impossible to find the help you need. However, you are well acquainted with the way church bureaucracy works, and can greatly reduce the time needed to navigate such institutions. Gain Expertise on such checks.
+    The hierarchies and bureaucracy of the religious organizations can sometimes be very complicated to get around. Many old customs and people strictly adhering to outdated rules can make it next to impossible to find the help you need. However, you are well acquainted with the way church bureaucracy works, and can greatly reduce the time needed to navigate such institutions. Gain <b>Expertise</b> on such checks.
   </details>
   </div>
 </details>
@@ -815,77 +815,77 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Actor</summary>
-    You are skilled at acting and dramatics and have Expertise on such checks, including checks when trying to pass yourself off as a different person.
+    You are skilled at acting and dramatics and have <b>Expertise</b> on such checks, including checks when trying to pass yourself off as a different person.
   </details>
 
   <details>
     <summary>Deception</summary>
-    You are good at convincingly hiding the truth, either verbally or through your actions. You have Expertise when attempting to mislead one or very few persons with ambiguity or even telling outright lies in a short-term situation. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, dull someone’s suspicions with false assurances or maintain a straight face while telling a blatant lie. This check would normally be resolved as an opposed check against the victim’s Wisdom (Insight).
+    You are good at convincingly hiding the truth, either verbally or through your actions. You have <b>Expertise</b> when attempting to mislead one or very few persons with ambiguity or even telling outright lies in a short-term situation. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, dull someone’s suspicions with false assurances or maintain a straight face while telling a blatant lie. This check would normally be resolved as an opposed check against the victim’s Wisdom (Insight).
     <details>
       <summary>Acceptance</summary>
-      The skill to "fit in" among persons of different cultures and social class, and thus be "accepted" as one of them. While Deception might be used to talk a guard into letting you enter a masquerade ball, this skill would be used to convincingly keep up the charade during a whole evening, making sure that everyone at the event has the same image of you and there are no inconsistencies in your story. The same skill set is used no matter if the character needs to fit in during a high socialite gala or a rowdy night of drinking in a seedy bar. You have Expertise when using this skill.
+      The skill to "fit in" among persons of different cultures and social class, and thus be "accepted" as one of them. While Deception might be used to talk a guard into letting you enter a masquerade ball, this skill would be used to convincingly keep up the charade during a whole evening, making sure that everyone at the event has the same image of you and there are no inconsistencies in your story. The same skill set is used no matter if the character needs to fit in during a high socialite gala or a rowdy night of drinking in a seedy bar. You have <b>Expertise</b> when using this skill.
     </details>
     <details>
       <summary>Deception II</summary>
-      You have the confidence to convincingly lie or hide the truth to a large group of people. Paradoxically this is often easier than lying to one person. You have Expertise when using this skill.
+      You have the confidence to convincingly lie or hide the truth to a large <b>group</b> of people. Paradoxically this is often easier than lying to one person. You have <b>Expertise</b> when using this skill.
       <details>
         <summary>Sheeple</summary>
-        The skill to motivate a large group of people towards a panicked action upon a pre-existing fear or prejudice by direct suggestion. You have Expertise when attempting this action.
+        The skill to motivate a large <b>group</b> of people towards a panicked action upon a pre-existing fear or prejudice by direct suggestion. You have <b>Expertise</b> when attempting this action.
       </details>
     </details>
     <details>
       <summary>Fraud</summary>
-      The art of swindling by first gaining the confidence of others, then using it to part them from their wealth. This can also include co-opting the positions of the target. Fraud is a long-term version of deception, taking weeks of work to set into motion. You have Expertise when using this skill.
+      The art of swindling by first gaining the confidence of others, then using it to part them from their wealth. This can also include co-opting the positions of the target. Fraud is a long-term version of deception, taking weeks of work to set into motion. You have <b>Expertise</b> when using this skill.
     </details>
     <details>
       <summary>Gaslight</summary>
-      The skill to sow seeds of doubt in a targeted individual's own memory, perception or judgement, leading the victim towards an intended action. This process takes days or weeks. You have Expertise when using this skill.
+      The skill to sow seeds of doubt in a targeted individual's own memory, perception or judgement, leading the victim towards an intended action. This process takes days or weeks. You have <b>Expertise</b> when using this skill.
     </details>
     <details>
       <summary>Guile</summary>
-      The skill to deceive others about your intent, integrity, appearance and reason for being for a long period of time. It enables a character to adopt a disguise or level of confidence, enabling them to spy where they do not belong and even rise within the hierarchy of organizations to which they do not legitimately belong. You have Expertise when using this skill.
+      The skill to deceive others about your intent, integrity, appearance and reason for being for a long period of time. It enables a character to adopt a disguise or level of confidence, enabling them to spy where they do not belong and even rise within the hierarchy of organizations to which they do not legitimately belong. You have <b>Expertise</b> when using this skill.
     </details>
     <details>
       <summary>Insert Memory</summary>
-      You know how to plant a plausible, minor memory in a person’s thoughts regarding an event that took place at least a year ago, such as having met once before at some event. This is something that can be done during the first minutes of a conversation, and unless the target has no reason to question the event, this effect is permanent. You have Expertise when using this skill, which would normally be resolved as an opposed check against the target’s Wisdom (Insight).
+      You know how to plant a plausible, minor memory in a person’s thoughts regarding an event that took place at least a year ago, such as having met once before at some event. This is something that can be done during the first minutes of a conversation, and unless the target has no reason to question the event, this effect is permanent. You have <b>Expertise</b> when using this skill, which would normally be resolved as an opposed check against the target’s Wisdom (Insight).
     </details>
   </details>
 
   <details>
-    <summary>Improved Charisma (cost: 2, trait)</summary>
+    <summary>Improved Charisma (cost: 2, <b>trait</b>)</summary>
     You know how to keep the interest of people. Gain +1 Charisma.
   </details>
 
   <details>
     <summary>Intimidation</summary>
-    You are skilled at making a person believe that you will follow through on your actions when trying to influence through overt threats, hostile actions and physical violence, granting you Expertise (Str, Cha). Examples include trying to pry information out of a prisoner, convincing a street thug to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.
+    You are skilled at making a person believe that you will follow through on your actions when trying to influence through overt threats, hostile actions and physical violence, granting you <b>Expertise</b> (Str, Cha). Examples include trying to pry information out of a prisoner, convincing a street thug to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.
     <details>
       <summary>Intimidation II</summary>
-      You also have Expertise (Str, Cha) when attempting to intimidate a group of people.
+      You also have <b>Expertise</b> (Str, Cha) when attempting to intimidate a <b>group</b> of people.
     </details>
   </details>
 
   <details>
     <summary>Mercantilism</summary>
-    This includes the skill and ability to raise capital, organize and manage loans, control wages, maximize profit on resources, encourage manufacturing, avoid tariffs, fees and other taxes and in general create a successful and complex business through a combination of innovation and guile. A common way to use the skill would be when negotiating prices with a buyer or seller of goods, in order to obtain a better deal on a transaction. You have Expertise when using this skill.
+    This includes the skill and ability to raise capital, organize and manage loans, control wages, maximize profit on resources, encourage manufacturing, avoid tariffs, fees and other taxes and in general create a successful and complex business through a combination of innovation and guile. A common way to use the skill would be when negotiating prices with a buyer or seller of goods, in order to obtain a better deal on a transaction. You have <b>Expertise</b> when using this skill.
   </details>
 
   <details>
     <summary>Orator</summary>
-    Mastery of storytelling for the purpose of captivating an audience, granting Expertise on suck checks.
+    Mastery of storytelling for the purpose of captivating an audience, granting <b>Expertise</b> on suck checks.
   </details>
 
   <details>
     <summary>Seduction</summary>
-    You are skilled at seduction and get Expertise on all such checks.
+    You are skilled at seduction and get <b>Expertise</b> on all such checks.
   </details>
 
   <details>
     <summary>Tact</summary>
-    This skill is used when you attempt to influence someone with tact, social graces, or good nature. Typically it is used when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. You have Expertise when using this skill.
+    This skill is used when you attempt to influence someone with tact, social graces, or good nature. Typically it is used when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. You have <b>Expertise</b> when using this skill.
     <details>
       <summary>Diplomacy</summary>
-      Similar to Tact, but you also have Expertise when attempting to influence a group of people. Examples include negotiating peace between warring tribes or inspiring a crowd of townsfolk.
+      Similar to Tact, but you also have <b>Expertise</b> when attempting to influence a <b>group</b> of people. Examples include negotiating peace between warring tribes or inspiring a crowd of townsfolk.
     </details>
   </details>
   </div>
@@ -897,9 +897,9 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   The art of not being seen, through actions and the application of camouflage and disguise. A Stealth check is made when you attempt to stalk a target, wait within a short distance of an enemy without drawing attention, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard. A stealth check is usually resolved as an opposed check against one or several targets’ Perception or Insight.
 
   <details>
-    <summary>Terrain (group)</summary>
-    You are skilled at seduction and get Expertise on all such checks.
-    You are skilled at camouflage and concealment within a specific terrain. Select one of the terrains below. You have Expertise when attempting to hide yourself or sneak alone within that terrain. Stealth in an urban environment is its own skill (Urban Stealth).
+    <summary>Terrain (<b>group</b>)</summary>
+    You are skilled at seduction and get <b>Expertise</b> on all such checks.
+    You are skilled at camouflage and concealment within a specific terrain. Select one of the terrains below. You have <b>Expertise</b> when attempting to hide yourself or sneak alone within that terrain. Stealth in an urban environment is its own skill (Urban Stealth).
     <ul><li>Arctic</li>
     <li>Coastal</li>
     <li>Desert</li>
@@ -919,27 +919,27 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     </details>
     <details>
       <summary>Covert professional</summary>
-      Your skill extends to camouflaging buildings, vehicles and larger groups of people. You have Expertise within all selected terrains, on checks when attempting to hide or sneak with groups of people or objects.
+      Your skill extends to camouflaging buildings, vehicles and larger <b>group</b>s of people. You have <b>Expertise</b> within all selected terrains, on checks when attempting to hide or sneak with <b>group</b>s of people or objects.
     </details>
     <details>
-      <summary>Passing Through (trait)</summary>
+      <summary>Passing Through (<b>trait</b>)</summary>
       You are patient and know how to wait for the right moment. If you are hidden, you can move up to 10 ft in the open without revealing yourself if you end the move in a position where you’re not clearly visible. This applies to all selected terrains.
     </details>
   </details>
 
   <details>
     <summary>Urban Stealth</summary>
-    You know your way around a city and have Expertise when attempting to hide yourself or sneak alone in an urban environment.
+    You know your way around a city and have <b>Expertise</b> when attempting to hide yourself or sneak alone in an urban environment.
     <details>
       <summary>Evaporate</summary>
-      You can apparently disappear into a crowd, even while under direct observation. You have Expertise on such checks.
+      You can apparently disappear into a crowd, even while under direct observation. You have <b>Expertise</b> on such checks.
     </details>
     <details>
       <summary>Indiscernible</summary>
-      You are skilled at escaping attention and seem unassuming. Even people you might have spoken to during an event or similar have a hard time remembering you. You have Expertise on checks to evade notice.
+      You are skilled at escaping attention and seem unassuming. Even people you might have spoken to during an event or similar have a hard time remembering you. You have <b>Expertise</b> on checks to evade notice.
     </details>
     <details>
-      <summary>Passing Through (trait)</summary>
+      <summary>Passing Through (<b>trait</b>)</summary>
       Enables you to "slip past" others without being seen. This is possible even in broad daylight, even if there are guards present — the trick requires waiting for the right moment. To determine when the moment occurs, a d100 is rolled, giving a time of 1 to 100 minutes. This indicates how long a character must wait; this number is withheld from the player. One attempt can be made to pass a given site per day. Up to four guards may be circumvented; more offer too many chances for a passing character to be seen. Access must be unblocked. The passing character cannot be visibly armored or seen to be carrying weapons.
       <br/><br/>
       Example of Movement: Natasha wishes to enter a citadel inside a town, where there are two guards posted. She can see the large double door is slightly ajar, giving her enough room to slip insider. Because it may take a lot of time before her chance occurs (1 to 100 minutes), Natasha dresses in a way that doesn't attract attention. She posits a reasonable cover. selling flowers, busking or having two companions along that engage her in conversation.
@@ -969,23 +969,23 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Arcane Defense</summary>
-    You have studied enough magic to understand the limitations and flaws of most spells. You have Expertise when using a reaction to identify an arcane spell being cast. If you recognize it, you gain advantage on any saves against that spell.
+    You have studied enough magic to understand the limitations and flaws of most spells. You have <b>Expertise</b> when using a reaction to identify an arcane spell being cast. If you recognize it, you gain advantage on any saves against that spell.
     <details>
       <summary>Mage Slayer</summary>
       You have practiced techniques useful to combat spellcasters and gain the following benefits.
-      <ul><li>When an adjacent arcane spellcaster casts a spell, you can use a reaction to make a melee attack against that creature. In addition, if you are the target, you have Expertise on saves against the effect.</li>
+      <ul><li>When an adjacent arcane spellcaster casts a spell, you can use a reaction to make a melee attack against that creature. In addition, if you are the target, you have <b>Expertise</b> on saves against the effect.</li>
       <li>When you damage a creature concentrating on a spell, it has disadvantage on saves to maintain concentration.</li></ul>
     </details>
   </details>
 
   <details>
     <summary>Arcane Symbols</summary>
-    You recognize many of the symbols used during the practise of arcane magic and have Expertise on checks to deduce the purpose of such symbols.
+    You recognize many of the symbols used during the practise of arcane magic and have <b>Expertise</b> on checks to deduce the purpose of such symbols.
   </details>
 
   <details>
     <summary>Artifice</summary>
-    The understanding of how magic is infused and bound in objects. This skill allows you to better analyze and understand the secrets of magic items and artifacts, granting Expertise on checks concerning magical items, including researching its history, identifying its existence or deducing its use. If you examine an item or area for 10 minutes, treat it as if you had cast detect magic.
+    The understanding of how magic is infused and bound in objects. This skill allows you to better analyze and understand the secrets of magic items and artifacts, granting <b>Expertise</b> on checks concerning magical items, including researching its history, identifying its existence or deducing its use. If you examine an item or area for 10 minutes, treat it as if you had cast detect magic.
     <details>
       <summary>Master Attuner</summary>
       Your superior understanding of magic items allows you to master their use, allowing you to attune to one additional magic item.
@@ -1007,7 +1007,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Abjuration</summary>
-    Abjuration is a school of magic which specializes in protective magic. In general this type of magic is used to keep things out,  preventing things from appearing and getting rid of those that already have. You have Expertise on checks to recall lore about phenomena associated with Abjuration magic.
+    Abjuration is a school of magic which specializes in protective magic. In general this type of magic is used to keep things out,  preventing things from appearing and getting rid of those that already have. You have <b>Expertise</b> on checks to recall lore about phenomena associated with Abjuration magic.
     <details>
       <summary>Apotropaic Magic</summary>
       The creation of protective symbols, objects and even gestures intended to turn away harm or evil influences, as in deflecting misfortune or averting the evil eye. As an expert in this field, you would recognize such practices and would be able to make an educated guess whether they actually ward against something, or just made out of vague superstition or out of tradition. In addition you can make a limited number of such symbols. Not yet available.
@@ -1024,12 +1024,12 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
       <summary>Protective Wards</summary>
       The skill of applying protective designs painted onto a person’s body. Such designs need to be exposed for them to work and are used as protective "war paint" in many traditions. They are prone to being short lived - especially if the user insists on washing (or even just sweating) and may come off on clothing, terrain and such.
       <details>
-        <summary>Tattoo Ward (→ Tattooing, trait)</summary>
+        <summary>Tattoo Ward (→ Tattooing, <b>trait</b>)</summary>
         You can use tattooing tools to make protective wards more permanent. This may have other side effects and/or need to be recharged regularly. Not yet available.
       </details>
     </details>
     <details>
-      <summary>Ward Mage (trait)</summary>
+      <summary>Ward Mage (<b>trait</b>)</summary>
       You have learned how to bolster your shields, barriers, and walls of magic beyond their normal capabilities in order to better control a battlefield and protect yourself and your allies. You gain the following benefits..
       <ul><li>When a spell or class feature grants a protective ward with hit points, you grant that ward extra hit points equal to your proficiency bonus.</li>
       <li>When you create a wall or barrier with no creature as a target (ex. wall of stone), you increase the hit points of that object by an amount equal to twice your proficiency bonus and its AC by 2.</li>
@@ -1040,38 +1040,38 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Conjuration</summary>
-    Magic that gathers tendrils of arcane power and forces a form upon it, creating matter, creatures and even bridges to other realms. Conjurations bring manifestations of objects or creatures to you (the summoning subschool), actually transport creatures from another plane of existence to your plane (calling), transport creatures or objects over great distances (apportation), or create objects or effects on the spot (creation). You have Expertise on checks to recall lore about phenomena associated with Conjuration magic.
+    Magic that gathers tendrils of arcane power and forces a form upon it, creating matter, creatures and even bridges to other realms. Conjurations bring manifestations of objects or creatures to you (the summoning subschool), actually transport creatures from another plane of existence to your plane (calling), transport creatures or objects over great distances (apportation), or create objects or effects on the spot (creation). You have <b>Expertise</b> on checks to recall lore about phenomena associated with Conjuration magic.
     <details>
       <summary>Apportation</summary>
-      The branch of magic that deals with the transport of things and creatures, calling them from somewhere else or teleporting them away or from one place to another. This movement is instantaneous travel through the Astral Plane, meaning that anything that blocks astral travel also blocks teleportation. Apportation is also involved in the opening of dimensional gateways. This skill grants Expertise on checks like identifying where a portal might lead, or to deduce the origin of a transported object.
+      The branch of magic that deals with the transport of things and creatures, calling them from somewhere else or teleporting them away or from one place to another. This movement is instantaneous travel through the Astral Plane, meaning that anything that blocks astral travel also blocks teleportation. Apportation is also involved in the opening of dimensional gateways. This skill grants <b>Expertise</b> on checks like identifying where a portal might lead, or to deduce the origin of a transported object.
       <details>
         <summary>Calling (→ Dweomercraft)</summary>
         Refers to the practice of calling a supernatural entity into your workspace, usually under controlled conditions, for the purposes of bargaining with it for power, information or practical aid. Anyone who knows the right ritual (or something approximately right…) can get the target entity (or something similar) to pay them a visit. Doing so safely on the other hand usually requires extensive preparation and knowledge. This skill provides the knowledge to assess such rituals and make sure that they are complete, as well as knowing the right protective measures that would need to be in place before attempting a calling.
         <details>
           <summary>Bargain a Deal</summary>
-          You know how to leverage in making a deal with a creature from another plane and gain  Expertise on all such checks.
+          You know how to leverage in making a deal with a creature from another plane and gain  <b>Expertise</b> on all such checks.
         </details>
       </details>
       <details>
-        <summary>Planar Travel (trait)</summary>
+        <summary>Planar Travel (<b>trait</b>)</summary>
         Knowledge of how to safely transition yourself and others from one existence to another, granting a higher degree of assurance to end up in the right place when crossing into the ethereal or across the astral planes.
         <details>
           <summary>Astral Travel</summary>
-          You know a lot about traversing the Astral Plane and have Expertise on all movement checks made there, as well as on check on knowledge on how to protect yourself in this place.
+          You know a lot about traversing the Astral Plane and have <b>Expertise</b> on all movement checks made there, as well as on check on knowledge on how to protect yourself in this place.
         </details>
       </details>
     </details>
     <details>
-      <summary>Creation (trait)</summary>
+      <summary>Creation (<b>trait</b>)</summary>
       The magic of creating objects from thin air. Temporary objects can be created from ectoplasm and given enough form to be useful, or an item can be pulled together from its component atoms and made literally from nothing. An item created this way is normally indistinguishable from an object created using mundane means. This skill allows you to deduce an item's origins.
       <details>
-        <summary>Magic Crafter (→ Any craft, trait)</summary>
+        <summary>Magic Crafter (→ Any craft, <b>trait</b>)</summary>
         Select a craft. You are both a skilled crafter as well as a skilled arcanist. Objects created by you are impossible to distinguish from a “normal” object to an investigator without the Creation skill, and even with it, they have disadvantage to detect any magic influences.
       </details>
     </details>
     <details>
-      <summary>Familiarus (trait)</summary>
-      Magic used to bind the life force of two creatures together as a master and familiar. You know the Call Familiar ritual, and if you start the game with this trait, you have one bound to you already.
+      <summary>Familiarus (<b>trait</b>)</summary>
+      Magic used to bind the life force of two creatures together as a master and familiar. You know the Call Familiar ritual, and if you start the game with this <b>trait</b>, you have one bound to you already.
     </details>
     <details>
       <summary>Summoning</summary>
@@ -1081,7 +1081,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Divination</summary>
-    Magic which specializes in information gathering. Common applications include learning secrets long forgotten, to predict the future, to find hidden things and to foil deceptive magic. You have Expertise on checks to recall lore about phenomena associated with Divination magic, as well as lore on how to protect against it.
+    Magic which specializes in information gathering. Common applications include learning secrets long forgotten, to predict the future, to find hidden things and to foil deceptive magic. You have <b>Expertise</b> on checks to recall lore about phenomena associated with Divination magic, as well as lore on how to protect against it.
     <details>
       <summary>Method of Divination</summary>
       There are many divinatory techniques to specialize in (almost anything with "-mancy" on the end) based on everything from watching the sky for omens, staring into a fire, casting stones or seeing which pieces of grain a chicken eats. Some are described below. Unless otherwise noted for a form of divination, you can select one of the following types of readings that you can make for this method. You can select this skill again, choosing a different method to learn a new kind of reading.
@@ -1092,22 +1092,22 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
         <li>Weal and woe, for both good and bad results</li>
         <li>Nothing, for results that aren’t especially good or bad</li></ul>
       The omen doesn’t take into account any possible circumstances that might change the outcome, such as the casting of spells or the loss or gain of a companion.</li></ul>
-      <p><b>Arithmancy (→ Mathematics, trait).</b> Utilizing mathematics and complex formulas, an arithmancer can see patterns in the future, using these portents to prepare for upcoming events and even ensure they happen.</p>
+      <p><b>Arithmancy (→ Mathematics, <b>trait</b>).</b> Utilizing mathematics and complex formulas, an arithmancer can see patterns in the future, using these portents to prepare for upcoming events and even ensure they happen.</p>
       <p><b>Astrology.</b> See the Astrology skill.</p>
       <p><b>Other.</b> See https.//en.wikipedia.org/wiki/Methods_of_divination for more examples.</p>
     </details>
     <details>
-      <summary>Scrying (trait)</summary>
+      <summary>Scrying (<b>trait</b>)</summary>
       Scrying magic uses an invisible magical sensor to send you information. Having this skill allows you to steer a scrying sensor with more skill. In addition to the basic movements and sensory acuity of the sensor, you can use your Stealth and Investigation skills through it.
     </details>
   </details>
 
   <details>
     <summary>Enchantment</summary>
-    A term for those types of magic which control and manipulate the target's mind and/or take over control of their body. You have Expertise on checks to recall lore about phenomena associated with Enchantment magic.
+    A term for those types of magic which control and manipulate the target's mind and/or take over control of their body. You have <b>Expertise</b> on checks to recall lore about phenomena associated with Enchantment magic.
     <details>
       <summary>Charm</summary>
-      Your expertise is in charms and enthrallment, allowing you to recognize whether a person is acting under its own control or being influenced by someone. You would only be able to detect this for folk of your culture, as other folk and/or cultures may behave very differently from what you are used to, unless you have an appropriate skill in evaluating their behavior. To be able to assess a non-humanoid creature, you need an appropriate Nature or Animal handling skill.
+      Your <b>expertise</b> is in charms and enthrallment, allowing you to recognize whether a person is acting under its own control or being influenced by someone. You would only be able to detect this for folk of your culture, as other folk and/or cultures may behave very differently from what you are used to, unless you have an appropriate skill in evaluating their behavior. To be able to assess a non-humanoid creature, you need an appropriate Nature or Animal handling skill.
     </details>
     <details>
       <summary>Compulsion</summary>
@@ -1117,48 +1117,48 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Evocation</summary>
-    Tapping into rawer elements of magic, evocation magic creates spontaneous and spectacular effects often without tangible form such as light or fire. You have Expertise on checks to recall lore about phenomena associated with Evocation magic.
+    Tapping into rawer elements of magic, evocation magic creates spontaneous and spectacular effects often without tangible form such as light or fire. You have <b>Expertise</b> on checks to recall lore about phenomena associated with Evocation magic.
   </details>
 
   <details>
     <summary>Illusion</summary>
-    Focusing on deceiving and bending perceptions, illusion magics allow the user to present their version of reality to the viewer. They cause people to see things that are not there, not see things that are there, hear phantom noises or even manipulate light and shadow. The fae are famously fond of this sort of magic and are well known both for wrapping their true selves in it and for creating whole illusory environments (up to and including virtual food and drink). You have Expertise on checks to recall lore about phenomena associated with Illusion magic.
+    Focusing on deceiving and bending perceptions, illusion magics allow the user to present their version of reality to the viewer. They cause people to see things that are not there, not see things that are there, hear phantom noises or even manipulate light and shadow. The fae are famously fond of this sort of magic and are well known both for wrapping their true selves in it and for creating whole illusory environments (up to and including virtual food and drink). You have <b>Expertise</b> on checks to recall lore about phenomena associated with Illusion magic.
     <details>
-      <summary>Figments (trait)</summary>
-      Figment magic is the simplest interpretation of illusion magic, projected images lacking in any real substance that either move according to pre-programmed instructions or in accordance with the will of their controller. Anyone can see them, they look the same to everyone and they look as real as the creator can make them. If you have an appropriate knowledge on details of a creation, figments you create will look more real, giving disadvantage to disbelief; ex. Proficiency with Nature (beasts) to make a snarling tiger, Architecture to make a believable marble wall or Demonology for a horde of demonic creatures. In addition, having this skill and the connected skill grant Expertise on saves to see through a figment.
+      <summary>Figments (<b>trait</b>)</summary>
+      Figment magic is the simplest interpretation of illusion magic, projected images lacking in any real substance that either move according to pre-programmed instructions or in accordance with the will of their controller. Anyone can see them, they look the same to everyone and they look as real as the creator can make them. If you have an appropriate knowledge on details of a creation, figments you create will look more real, giving disadvantage to disbelief; ex. Proficiency with Nature (beasts) to make a snarling tiger, Architecture to make a believable marble wall or Demonology for a horde of demonic creatures. In addition, having this skill and the connected skill grant <b>Expertise</b> on saves to see through a figment.
       <br/><br/>
       Figments cannot make something seem to be something else. Nor can a figment that includes audible effects duplicate intelligible speech.
     </details>
     <details>
-      <summary>Glamer (trait)</summary>
+      <summary>Glamer (<b>trait</b>)</summary>
       This type of illusion magic changes a target's sensory qualities, making it look, feel, taste, smell, or sound like something else, or even seem to disappear. With this skill you have the same benefits as described in the Figment section.
     </details>
     <details>
-      <summary>Pattern (trait)</summary>
-      Like a figment, pattern magic creates an image that others can see, but its main purpose is to overwhelm the senses. With this skill you have Expertise on saves against pattern magic.
+      <summary>Pattern (<b>trait</b>)</summary>
+      Like a figment, pattern magic creates an image that others can see, but its main purpose is to overwhelm the senses. With this skill you have <b>Expertise</b> on saves against pattern magic.
     </details>
     <details>
-      <summary>Phantasm (trait)</summary>
+      <summary>Phantasm (<b>trait</b>)</summary>
       These types of illusions exist only in the mind of the viewer, effectively tell the viewer's senses "there's a dragon here" and let them provide the balance of the information themselves. As it is all in a target’s head, a skilled illusionist can make the victim more susceptible to a phantasm by convincing them that something is happening. If you have proficiency with Deception, you can spend an action the round before casting the spell to force the target to roll its save with disadvantage.
       <details>
-        <summary>Deadly Illusionist (trait)</summary>
+        <summary>Deadly Illusionist (<b>trait</b>)</summary>
         Your illusions invade the deepest crevice of your enemies’ minds and leave them scarred. If you are a spellcaster you learn one illusion spell from your class spell list. This spell does not count against the number of spells you can prepare each day. Creatures who fail their initial saving throw against one of your illusion spells of 1st level or higher take psychic damage equal to the spell’s level + your spellcasting ability modifier.
       </details>
     </details>
     <details>
       <summary>Shadow</summary>
-      Shadow magic creates something that is partially real from extradimensional energy. Such illusions can have real effects. You have Expertise on all checks to recall lore on the Plane of Shadows and the magic emanating from it.
+      Shadow magic creates something that is partially real from extradimensional energy. Such illusions can have real effects. You have <b>Expertise</b> on all checks to recall lore on the Plane of Shadows and the magic emanating from it.
     </details>
   </details>
 
   <details>
     <summary>Necromancy</summary>
-    The magic of life and death, the forces that stem from the innate magic of souls as well as the mending and manipulation of flesh, necromancy is seen as dark and dirty magic by most common folk. You have Expertise on checks to recall lore about phenomena associated with necromantic magic.
+    The magic of life and death, the forces that stem from the innate magic of souls as well as the mending and manipulation of flesh, necromancy is seen as dark and dirty magic by most common folk. You have <b>Expertise</b> on checks to recall lore about phenomena associated with necromantic magic.
     <details>
       <summary>Osteomancy</summary>
       Known as "bone magic", this focuses on the manipulation of the skeleton and the calcified remains of the living as well as the dead. Some uses of this skill would be to provide insight from skeletal remains, such as the type of creature, its condition in life or even what killed it. It can, if you are so inclined, allow you to select the strongest and most durable bones when creating skeletal creatures, granting them a +1 AC bonus.
       <details>
-        <summary>Fight Skeletons (trait)</summary>
+        <summary>Fight Skeletons (<b>trait</b>)</summary>
         You know where to strike a skeletal creature to hurt its integrity the most, granting you advantage on your damage rolls against them. In addition you can tell when such a creature has reached half its hp.
       </details>
     </details>
@@ -1169,7 +1169,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
         <summary>Undead</summary>
         This skill lets you identify sentient undead and may grant insight on how to combat creatures and how to put them to rest.
         <details>
-          <summary>Battle Undead (trait)</summary>
+          <summary>Battle Undead (<b>trait</b>)</summary>
           Provides +2 AC against sentient undead.
         </details>
         <details>
@@ -1178,32 +1178,32 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
         </details>
         <details>
           <summary>Vampire Knowledge</summary>
-          You are skilled in vampire lore. This grants Expertise on checks when speaking to them, as well a +2 bonus on saves against their innate abilities.
+          You are skilled in vampire lore. This grants <b>Expertise</b> on checks when speaking to them, as well a +2 bonus on saves against their innate abilities.
         </details>
       </details>
     </details>
     <details>
       <summary>Pathogens</summary>
-      Some necromantic magic focuses on the manipulation of life in the form of diseases. You have  Expertise on checks to identify diseases and on checks concerning how to spread or cure disease.
+      Some necromantic magic focuses on the manipulation of life in the form of diseases. You have  <b>Expertise</b> on checks to identify diseases and on checks concerning how to spread or cure disease.
     </details>
     <details>
       <summary>Spiritualism</summary>
-      The contacting of souls from beyond death, often involving consulting the spirits of the dead about information they knew in life. This is sometimes seen as heretical, but in most cultures acceptable. In some cultures that practices ancestor worship or shamanism this could even be seen as something holy. This skill grants Expertise on checks to communicate to spirits.
+      The contacting of souls from beyond death, often involving consulting the spirits of the dead about information they knew in life. This is sometimes seen as heretical, but in most cultures acceptable. In some cultures that practices ancestor worship or shamanism this could even be seen as something holy. This skill grants <b>Expertise</b> on checks to communicate to spirits.
     </details>
   </details>
 
   <details>
     <summary>Transmutation</summary>
-    Transmutation magic changes the properties of creatures, objects or conditions. You have Expertise on checks to recall lore about phenomena associated with Transmutation magic.
+    Transmutation magic changes the properties of creatures, objects or conditions. You have <b>Expertise</b> on checks to recall lore about phenomena associated with Transmutation magic.
     <details>
       <summary>Detect Transmutation</summary>
-      The fact that an object or creature has been transmuted is normally impossible to detect with mundane means. In some cases even magic detection is not possible. This skill allows you to deduce that an item or creature does not have its original form. If you have an appropriate proficiency, such as Craft (blacksmith) when investigating a sword or Nature (beasts) when observing a squirrel, you have Expertise.
+      The fact that an object or creature has been transmuted is normally impossible to detect with mundane means. In some cases even magic detection is not possible. This skill allows you to deduce that an item or creature does not have its original form. If you have an appropriate proficiency, such as Craft (blacksmith) when investigating a sword or Nature (beasts) when observing a squirrel, you have <b>Expertise</b>.
     </details>
     <details>
       <summary>Constructs</summary>
       This skill lets you identify constructs and may grant insight on how they were created, what their orders might be and how  to combat them.
       <details>
-        <summary>Battle Golem (trait)</summary>
+        <summary>Battle Golem (<b>trait</b>)</summary>
         Provides +2 to AC against golems and on saves against their innate abilities.
       </details>
     </details>
@@ -1211,7 +1211,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Wild Magic</summary>
-    This type of magic is a field left alone by most serious arcanists, unless needing to handle problems caused by irresponsible casters. You have Expertise on checks to recall lore about phenomena associated with Wild magic. In addition, when rolling a wild surge on the wild surge table, you can use your reaction to reroll. You can do so before the results of the roll are revealed. (However, you can use subtle hints from the DM.) When you reroll this way, temporarily reduce your Luck ability score by 1.
+    This type of magic is a field left alone by most serious arcanists, unless needing to handle problems caused by irresponsible casters. You have <b>Expertise</b> on checks to recall lore about phenomena associated with Wild magic. In addition, when rolling a wild surge on the wild surge table, you can use your reaction to reroll. You can do so before the results of the roll are revealed. (However, you can use subtle hints from the DM.) When you reroll this way, temporarily reduce your Luck ability score by 1.
     <details>
       <summary>Twist Luck</summary>
       You have the ability to twist fate, avoiding the havoc you cause. Gain +2 Luck. In addition you can choose to have complete immunity to the effects of a wild surge after you know the effects by describing the improbable chain of effects leading to this. You can use this feature freely once between each long rest. Each additional time you use it, you permanently lose 2 Luck.
@@ -1243,7 +1243,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Investigate Structure</summary>
-    You are well familiar with the way architects add secret areas in a structure. This grants you Expertise when attempting to find secret doors and areas in a built structure, such as a building or dungeon.
+    You are well familiar with the way architects add secret areas in a structure. This grants you <b>Expertise</b> when attempting to find secret doors and areas in a built structure, such as a building or dungeon.
   </details>
   </div>
 </details>
@@ -1276,7 +1276,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Dweomercraft</summary>
-    This is the field of detection, understanding and manipulation of unnatural manifestations on the Prime Material plane originating from other planes of existence, such as demons, devils, elementals, celestials and the ancient creatures associated with the Cthulhu mythos. With this skill you have Expertise to recognize when a manifestation occurs and what's being witnessed.
+    This is the field of detection, understanding and manipulation of unnatural manifestations on the Prime Material plane originating from other planes of existence, such as demons, devils, elementals, celestials and the ancient creatures associated with the Cthulhu mythos. With this skill you have <b>Expertise</b> to recognize when a manifestation occurs and what's being witnessed.
     <details>
       <summary>Advanced Dweomercraft</summary>
       You have considerable knowledge in this field. After identifying an unnatural manifestation you can attempt an Intelligence (Advanced Dweomercraft) check to gain some insight in how such a manifestation could be closed or sent back.
@@ -1292,8 +1292,8 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </details>
 
   <details>
-    <summary>Knowledge - Plane (group)</summary>
-    Each outer plane is its own skill granting more in-depth knowledge on this specific plane. You can take it multiple times, each time applied to a different outer plane. With this skill you have Expertise on Cosmology regarding the selected plane.
+    <summary>Knowledge - Plane (<b>group</b>)</summary>
+    Each outer plane is its own skill granting more in-depth knowledge on this specific plane. You can take it multiple times, each time applied to a different outer plane. With this skill you have <b>Expertise</b> on Cosmology regarding the selected plane.
   </details>
   </div>
 </details>
@@ -1305,11 +1305,11 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Courtier II</summary>
-    You excel in the world of the courts and have Expertise on checks regarding lines of nobility or etiquette. In addition you have Synergy (Speechcraft) when interacting with nobility, common folk, or knights, provided that you have not shown yourself to be a danger to them.
+    You excel in the world of the courts and have <b>Expertise</b> on checks regarding lines of nobility or etiquette. In addition you have Synergy (Speechcraft) when interacting with nobility, common folk, or knights, provided that you have not shown yourself to be a danger to them.
   </details>
 
   <details>
-    <summary>Courteous (cost: 2, trait)</summary>
+    <summary>Courteous (cost: 2, <b>trait</b>)</summary>
     Behaving in an appropriate way is the key in each situation. Gain +1 Charisma.
   </details>
 
@@ -1324,7 +1324,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     <br/><br/>
     Each major culture is its own skill. This initially allows you to recognize and identify heraldic signs from your local area, as well as the motifs relating to monarchs, emperors or regional authorities of very high level (kingdoms within empires) within your chosen culture. This same ability extends to great religious leaders, patriarchs and archbishops and those who have established themselves as heroes through their deeds.
     <br/><br/>
-    You have Expertise on checks to recall information about heraldry, lines of nobility or etiquette. You would be able to locate any such person's entourage or location moving with a host of soldiers or camped on the field from flags and other signifiers on display, or from the colors chosen for the individual's tent. The mark of any such individual on a document could be distinguished, as well as a seal or the stamp on a coin would be known.
+    You have <b>Expertise</b> on checks to recall information about heraldry, lines of nobility or etiquette. You would be able to locate any such person's entourage or location moving with a host of soldiers or camped on the field from flags and other signifiers on display, or from the colors chosen for the individual's tent. The mark of any such individual on a document could be distinguished, as well as a seal or the stamp on a coin would be known.
     <details>
       <summary>Recognition of Signs</summary>
       Expands your knowledge to include the nobility of every kingdom or empire within the chosen culture, as well as signs relating to cities larger than 10,000 persons. You are also able to recognize the extensive collection of guild marks and signs created and displayed for public use. Finally, you are able to decipher all markers and signs that are intended to inform the public regarding access to the best routes (particularly those across frontiers), the best gates by which a city can be entered, as well as means to find superior eating houses, drinking houses, even brothels.
@@ -1337,15 +1337,15 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Politics</summary>
-    Continental politics are just so thrilling, with the upheaval and the betrayals and the drama of it all. Much better than any play you've seen or book you've read. You love keeping up with the political current events in a kingdom and always know what is going on with the ruler or officials of any country in the present day. Ancient history is a snoozefest and you don't care about a bunch of dead people, but for anything that is happening right now, you obsessively look for news and updates. You have Expertise on any check regarding information on current events, including how to gain the information you seek.
+    Continental politics are just so thrilling, with the upheaval and the betrayals and the drama of it all. Much better than any play you've seen or book you've read. You love keeping up with the political current events in a kingdom and always know what is going on with the ruler or officials of any country in the present day. Ancient history is a snoozefest and you don't care about a bunch of dead people, but for anything that is happening right now, you obsessively look for news and updates. You have <b>Expertise</b> on any check regarding information on current events, including how to gain the information you seek.
   </details>
   </div>
 </details>
 
 <details>
-  <summary>Culture (Group)</summary>
+  <summary>Culture (<b>Group</b>)</summary>
   <div markdown="1">
-  Culture is a group of skills that involves the knowledge of other cultures (also known as anthropology), each skill being a different culture. You are always assumed to be proficient with your own culture. Skill with one Culture would not give you knowledge of any other culture. Each time you choose this skill, you must select a specific culture.
+  Culture is a <b>group</b> of skills that involves the knowledge of other cultures (also known as anthropology), each skill being a different culture. You are always assumed to be proficient with your own culture. Skill with one Culture would not give you knowledge of any other culture. Each time you choose this skill, you must select a specific culture.
   <br/><br/>
   You know the basics about the customs, philosophies, laws, rituals, religious beliefs, languages, and art of a culture, allowing you to know what behaviors are acceptable. This can help you to get beyond any ethnic or racial divide, and to be treated warmly by other types of folk, provided you treat them in a similar manner. Proficiency with this skill allows you to treat other skills, like Courtier, History, Law and Religion, as if you belonged to that culture. The main known cultures in Golarion are.
   <br/><br/>Human cultures:
@@ -1375,22 +1375,22 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Demolition</summary>
-    You know how to destroy constructions. This is mainly by identifying bearing walls and pillars, or by sapping. Sapping is the digging and shoring of underground tunnels designed to collapse enemy fortifications. You have Expertise on such checks.
+    You know how to destroy constructions. This is mainly by identifying bearing walls and pillars, or by sapping. Sapping is the digging and shoring of underground tunnels designed to collapse enemy fortifications. You have <b>Expertise</b> on such checks.
   </details>
 
   <details>
     <summary>Model Making</summary>
-    You are proficient with making realistic minia­tures of things. This grants Expertise on checks regarding models, as an example being able to draw conclusions regarding hidden areas when observing a miniature building.
+    You are proficient with making realistic minia­tures of things. This grants <b>Expertise</b> on checks regarding models, as an example being able to draw conclusions regarding hidden areas when observing a miniature building.
   </details>
 
   <details>
     <summary>Siege Weapon-making</summary>
-    Allows the creation of devices intended to break or circumvent castle doors or walls, such as battering rams, trebuchets, catapults, ballista and mangonels. You have Expertise on checks to create such machines.
+    Allows the creation of devices intended to break or circumvent castle doors or walls, such as battering rams, trebuchets, catapults, ballista and mangonels. You have <b>Expertise</b> on checks to create such machines.
   </details>
 
   <details>
     <summary>Tinkering</summary>
-    You are familiar with a lot of different types of machines and tools, and have Expertise on checks to identify, use and repair them.
+    You are familiar with a lot of different types of machines and tools, and have <b>Expertise</b> on checks to identify, use and repair them.
     <details>
       <summary>Gnomish Tinkering</summary>
       Allows you to create and operate gnomish machinery. This is very unsafe, even with the skill. Even the safest gnomish constructions often include steam-powered engines that can explode at any time.
@@ -1411,26 +1411,26 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Gemology (→ Gemcutting)</summary>
-    You can easily identify different types of gems and estimate their worth and use, gaining Expertise on such checks.
+    You can easily identify different types of gems and estimate their worth and use, gaining <b>Expertise</b> on such checks.
   </details>
 
   <details>
     <summary>Hazards</summary>
-    You have studied natural geological hazards like earthquakes, volcanoes, avalanches and sinkholes. This knowledge is mostly theoretical, but grants Expertise on checks to identify areas that might be prone to such hazards, to know how to prepare for such an event to increase survival and other such checks concerning these types of hazards.
+    You have studied natural geological hazards like earthquakes, volcanoes, avalanches and sinkholes. This knowledge is mostly theoretical, but grants <b>Expertise</b> on checks to identify areas that might be prone to such hazards, to know how to prepare for such an event to increase survival and other such checks concerning these types of hazards.
     <details>
       <summary>Practical Hazard knowledge</summary>
-      Intense (and close) studies of geological hazards have given you the experience to survive close encounters with them. You have Expertise on all saves and check to avoid or lessen the effects from these types of hazards.
+      Intense (and close) studies of geological hazards have given you the experience to survive close encounters with them. You have <b>Expertise</b> on all saves and check to avoid or lessen the effects from these types of hazards.
     </details>
   </details>
 
   <details>
     <summary>Rocks</summary>
-    Your main knowledge is with geological formations and different types of rocks. You have Expertise on checks regarding this subject, as well as Synergy (Survival-Mountains). Example checks for this skill would be to locate precious mineral deposits or identifying the type of natural rock in a cave.
+    Your main knowledge is with geological formations and different types of rocks. You have <b>Expertise</b> on checks regarding this subject, as well as Synergy (Survival-Mountains). Example checks for this skill would be to locate precious mineral deposits or identifying the type of natural rock in a cave.
   </details>
 
   <details>
     <summary>Underground Mining</summary>
-    The knowledge of mining techniques and skills associated with the excavation of hard and soft materials below the surface. You have Expertise on such checks, including assessing the safety of natural underground areas.
+    The knowledge of mining techniques and skills associated with the excavation of hard and soft materials below the surface. You have <b>Expertise</b> on such checks, including assessing the safety of natural underground areas.
   </details>
   </div>
 </details>
@@ -1441,11 +1441,11 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   The understanding of past events, conflicts and consequences arising from actions and chance occurrences. An Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars and lost civilizations. Because history is an enormous subject, it is necessary for characters to specialize in geographic spheres or in the history of a non-human folk. When you select this skill it includes the history as related to your culture as well as the cultures for which you have the appropriate Culture skill.
 
   <details>
-    <summary>Ancient Culture (group)</summary>
+    <summary>Ancient Culture (<b>group</b>)</summary>
     The knowledge of specific ancient cultures. When selecting this skill, choose a specific culture that you have studied, like Azlant, Thassilonia or Ghol-Gan.
     <details>
       <summary>Deeper Knowledge</summary>
-      You have learnt most of the things available in your specific culture, making you an authority on the subject, and have Expertise on all checks regarding the culture.
+      You have learnt most of the things available in your specific culture, making you an authority on the subject, and have <b>Expertise</b> on all checks regarding the culture.
     </details>
   </details>
 
@@ -1481,7 +1481,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Historical Accuracy</summary>
-    You are trained in authentication of historical documents and objects. When investigating a historical document or other matter of historical interest such as a map or work of art, for example examining a document to determine if it is a forgery, you have Expertise. You also have Expertise when authenticating an object from an Ancient culture with which you have proficiency, with Weapons & armor if you have that proficiency, and finally with other objects from your known cultures if you have Archaeology.
+    You are trained in authentication of historical documents and objects. When investigating a historical document or other matter of historical interest such as a map or work of art, for example examining a document to determine if it is a forgery, you have <b>Expertise</b>. You also have <b>Expertise</b> when authenticating an object from an Ancient culture with which you have proficiency, with Weapons & armor if you have that proficiency, and finally with other objects from your known cultures if you have Archaeology.
   </details>
 
   <details>
@@ -1490,13 +1490,13 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </details>
 
   <details>
-    <summary>Learning from the Past (trait)</summary>
+    <summary>Learning from the Past (<b>trait</b>)</summary>
     Learning history allows you to learn from the failures and successes of the past. Gain +1 Wisdom.
   </details>
 
   <details>
     <summary>Military Study</summary>
-    Provides a clear grasp of the events surrounding the pursuit of war, including battles and general strategies employed by commanders and armies in the past. You are well-steeped in historical diplomacy and wars, having studied the gains and losses by the victors and the defeated. This grants Expertise on all checks regarding lore of wars and conflict. Additionally, you are able to communicate comfortably with military persons and soldiers.
+    Provides a clear grasp of the events surrounding the pursuit of war, including battles and general strategies employed by commanders and armies in the past. You are well-steeped in historical diplomacy and wars, having studied the gains and losses by the victors and the defeated. This grants <b>Expertise</b> on all checks regarding lore of wars and conflict. Additionally, you are able to communicate comfortably with military persons and soldiers.
   </details>
   </div>
 </details>
@@ -1508,22 +1508,22 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Bureaucracy</summary>
-    You know how to cut through the red tape of bureaucracy and reduce the time needed to navigate such institutions. Gain Expertise on such checks.
+    You know how to cut through the red tape of bureaucracy and reduce the time needed to navigate such institutions. Gain <b>Expertise</b> on such checks.
   </details>
 
   <details>
     <summary>Business Dealing</summary>
-    The ability to make sound business contracts that will safely benefit both parties. You have Expertise on all such checks.
+    The ability to make sound business contracts that will safely benefit both parties. You have <b>Expertise</b> on all such checks.
   </details>
 
   <details>
-    <summary>Infernal Law (trait)</summary>
+    <summary>Infernal Law (<b>trait</b>)</summary>
     You have enough knowledge to be able to decipher the convoluted language of an infernal contract. In order to fully comprehend such a contract, you would need to understand Infernal.
   </details>
 
   <details>
     <summary>Solicitor</summary>
-    You have sufficient understanding of the legal system to be able to defend yourself or someone else during a court trial, and have Expertise on such checks.
+    You have sufficient understanding of the legal system to be able to defend yourself or someone else during a court trial, and have <b>Expertise</b> on such checks.
   </details>
   </div>
 </details>
@@ -1544,7 +1544,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Cryptology</summary>
-    You can invent ciphers, and are able to teach a cipher to others. Anyone who knows a cipher can encode and read hidden messages made with it. Additionally, you have Expertise on checks made to detect and decode ciphers and codes.
+    You can invent ciphers, and are able to teach a cipher to others. Anyone who knows a cipher can encode and read hidden messages made with it. Additionally, you have <b>Expertise</b> on checks made to detect and decode ciphers and codes.
   </details>
   </div>
 </details>
@@ -1556,7 +1556,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Accounting</summary>
-    The skill to keep detailed (and verifiable) records of wealth, expenditures, losses and potential income, as well as provide analysis of the records of others’ financial transactions. You have Expertise on any such checks.
+    The skill to keep detailed (and verifiable) records of wealth, expenditures, losses and potential income, as well as provide analysis of the records of others’ financial transactions. You have <b>Expertise</b> on any such checks.
   </details>
 
   <details>
@@ -1564,9 +1564,9 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     Your knowledge reaches beyond simple addition, subtraction, multiplications and division. You can calculate volumes and trajectories, understand calculus and can make statistical analysis. Gain +1 Intelligence.
     <details>
       <summary>Physics</summary>
-      The theoretical study of the physical laws associated with the movement of bodies and objects, vibration, sound, optics and light, the movement of water, air and earth, pressure, magnetism and many similar branches and topics that give the character insight into the way that energy (including magic) ebbs and flows through the environment. Gain Expertise on such checks.
+      The theoretical study of the physical laws associated with the movement of bodies and objects, vibration, sound, optics and light, the movement of water, air and earth, pressure, magnetism and many similar branches and topics that give the character insight into the way that energy (including magic) ebbs and flows through the environment. Gain <b>Expertise</b> on such checks.
       <details>
-        <summary>Aerodynamics (trait)</summary>
+        <summary>Aerodynamics (<b>trait</b>)</summary>
         You can Dash while in flight (or freefall).
       </details>
     </details>
@@ -1574,7 +1574,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Siege Weapons</summary>
-    You have Expertise on attacks using siege weapons.
+    You have <b>Expertise</b> on attacks using siege weapons.
   </details>
   </div>
 </details>
@@ -1585,11 +1585,11 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   The theoretical knowledge of terrain, plants and animals, the weather and natural cycles.
 
   <details>
-    <summary>Animals (group)</summary>
-    Select a type of animal from Amphibians, Birds, Bugs & Spiders, Mammals (land), Reptiles or Sea life. You can take this skill multiple times, each type applied to a different type of animal. Gain Expertise on checks to recall lore on the type of animal selected.
+    <summary>Animals (<b>group</b>)</summary>
+    Select a type of animal from Amphibians, Birds, Bugs & Spiders, Mammals (land), Reptiles or Sea life. You can take this skill multiple times, each type applied to a different type of animal. Gain <b>Expertise</b> on checks to recall lore on the type of animal selected.
     <details>
       <summary>Confound Animal</summary>
-      You know about the behavior of the type of animals you are familiar with, enabling you to know how to mislead or confuse them, so as to "disappear" from their attention. Gain Expertise on such checks, even allowing you to sometimes avoid a check completely.
+      You know about the behavior of the type of animals you are familiar with, enabling you to know how to mislead or confuse them, so as to "disappear" from their attention. Gain <b>Expertise</b> on such checks, even allowing you to sometimes avoid a check completely.
     </details>
   </details>
 
@@ -1598,14 +1598,14 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     Enables you to recognize and identify beasts — creatures that have unnatural animal forms that are often magical in nature. This identification includes the name of the beast, the threats it imposes and its general behavior and motives.
     <details>
       <summary>Beast Forms</summary>
-      Provides full knowledge of the moral and symbolic qualities that beasts possess, including stories of their origins, their place and reason for being, the manner in which they fit into the religious milieu and construction of the universe and ultimately how they "think". This skill provides Expertise on all checks to recall lore on Beasts.
+      Provides full knowledge of the moral and symbolic qualities that beasts possess, including stories of their origins, their place and reason for being, the manner in which they fit into the religious milieu and construction of the universe and ultimately how they "think". This skill provides <b>Expertise</b> on all checks to recall lore on Beasts.
     </details>
     <details>
       <summary>Confound Beasts</summary>
-      You know how to mislead or confuse Beasts, so as to "disappear" from their attention. Gain Expertise on such checks, even allowing you to sometimes avoid a check completely.
+      You know how to mislead or confuse Beasts, so as to "disappear" from their attention. Gain <b>Expertise</b> on such checks, even allowing you to sometimes avoid a check completely.
     </details>
     <details>
-      <summary>Fight Beasts (trait)</summary>
+      <summary>Fight Beasts (<b>trait</b>)</summary>
       You recognize the attack patterns of many Beasts. Knowing how they attack and recognizing their intentions provides +2 AC against Beasts.
     </details>
   </details>
@@ -1615,11 +1615,11 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     You are familiar with the fleshy and edible fruit bodies of several species of mushroom, including those that grow above and below ground. Mushrooms are eaten for their food value and for other qualities, some of them magical, as well as being a poison source. The study includes yeasts, lichen and mushrooms, shriekers and violet fungi, as well as sentient forms of fungus such as yellow musk creepers.
     <details>
       <summary>Cultivate Mushroom</summary>
-      You know how to grow fungi of any variety. Gain Expertise on any such checks, including recognizing that fungi may have been grown on purpose in a location (shrikers as guards for instance).
+      You know how to grow fungi of any variety. Gain <b>Expertise</b> on any such checks, including recognizing that fungi may have been grown on purpose in a location (shrikers as guards for instance).
     </details>
     <details>
       <summary>Detect Fungus</summary>
-      Recognises the odor given off by dangerous fungus-based creatures, forewarning the character when approaching within 120 ft. Grants at least Expertise on checks to notice or detect such creatures.
+      Recognises the odor given off by dangerous fungus-based creatures, forewarning the character when approaching within 120 ft. Grants at least <b>Expertise</b> on checks to notice or detect such creatures.
     </details>
     <details>
       <summary>Fermentation</summary>
@@ -1627,12 +1627,12 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     </details>
     <details>
       <summary>Know Fungi</summary>
-      You can identify the name of genera and species of fungi on sight, and know when and where to search for edible or poisonous mushrooms in a wild environment. This grants Expertise on Foraging checks during appropriate seasons and terrains.
+      You can identify the name of genera and species of fungi on sight, and know when and where to search for edible or poisonous mushrooms in a wild environment. This grants <b>Expertise</b> on Foraging checks during appropriate seasons and terrains.
     </details>
   </details>
 
   <details>
-    <summary>One with Nature (trait)</summary>
+    <summary>One with Nature (<b>trait</b>)</summary>
     Listening to what nature has to say allows you to draw upon its wisdom. Gain +1 Wisdom.
   </details>
 
@@ -1640,15 +1640,15 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     <summary>Oozes</summary>
     Includes puddings, molds, oozes and jellies. You are familiar with these kinds of creatures and can identify most of them on sight. This skill can be used instead of Perception when dealing with such creatures and hazards.
     <details>
-      <summary>Fight Ooze (trait)</summary>
+      <summary>Fight Ooze (<b>trait</b>)</summary>
       Oozes are not the brightest creatures and you know how to trick their perceptions, granting a +2 AC against Oozes.
     </details>
     <details>
       <summary>Ooze Master</summary>
-      You have more knowledge than most regarding Oozes, granting Expertise on checks to recall lore about them. In addition, a successful check can grant you insight in their defenses and immunities.
+      You have more knowledge than most regarding Oozes, granting <b>Expertise</b> on checks to recall lore about them. In addition, a successful check can grant you insight in their defenses and immunities.
     </details>
     <details>
-      <summary>Protect against Ooze (trait)</summary>
+      <summary>Protect against Ooze (<b>trait</b>)</summary>
       Most Oozes are corrosive, but they might have other nasty abilities. You know how to protect yourself against some of their natural powers, gaining +2 on saves against abilities of Oozes.
     </details>
     <details>
@@ -1659,7 +1659,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Plants</summary>
-    You have a lot of theoretical knowledge on plants, allowing you to identify most types of plants, both wild and cultivated, and have Expertise on checks to recall lore about plants.
+    You have a lot of theoretical knowledge on plants, allowing you to identify most types of plants, both wild and cultivated, and have <b>Expertise</b> on checks to recall lore about plants.
     <details>
       <summary>Florist</summary>
       There's something about the beautiful colors of flowers that captures your attention like nothing else. Your fascination has given you a huge base of knowledge on flowers. You can identify them by color and shape and you know which flowers are associated with which plants. You also have knowledge of the symbolic qualities of flowers, including stories of their origins, their use and reason for being.
@@ -1680,15 +1680,15 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     </div>
     <details>
       <summary>Fey Magic</summary>
-      The magic of fey is well known to you, and you have Expertise on all checks to recall lore about such magic, including recognizing a spell being cast.
+      The magic of fey is well known to you, and you have <b>Expertise</b> on all checks to recall lore about such magic, including recognizing a spell being cast.
     </details>
     <details>
       <summary>Primal Defense</summary>
-      You have seen enough primal magic to understand the limitations and flaws of most such spells. You have Expertise when using a reaction to identify a primal spell being cast. If you recognize it, you gain advantage on any saves against that spell.
+      You have seen enough primal magic to understand the limitations and flaws of most such spells. You have <b>Expertise</b> when using a reaction to identify a primal spell being cast. If you recognize it, you gain advantage on any saves against that spell.
     </details>
     <details>
       <summary>Primal Symbols</summary>
-      You recognize many of the symbols used during the practise of primal magic and have Expertise on checks to deduce the purpose of such symbols.
+      You recognize many of the symbols used during the practise of primal magic and have <b>Expertise</b> on checks to deduce the purpose of such symbols.
     </details>
     <details>
       <summary>Ritual Magic</summary>
@@ -1696,12 +1696,12 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     </details>
     <details>
       <summary>Spiritualism</summary>
-      The contacting of ancestral souls from beyond death, often involving consulting the spirits of the dead about information they knew in life. This skill grants Expertise on checks to communicate to such spirits.
+      The contacting of ancestral souls from beyond death, often involving consulting the spirits of the dead about information they knew in life. This skill grants <b>Expertise</b> on checks to communicate to such spirits.
     </details>
   </details>
 
   <details>
-    <summary>Terrain (group)</summary>
+    <summary>Terrain (<b>group</b>)</summary>
     You have theoretical knowledge on the natural phenomena from a specific type of terrain. When you select this skill, always choose a terrain type from below. You can select it multiple times, each time choosing a different type of terrain. In addition to being familiar with the selected type of terrain, you have Synergy with weather, animal, plant and Survival checks in the same terrain.
     <ul><li>Arctic</li>
     <li>Coastal</li>
@@ -1709,7 +1709,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     <li>Forest<br/>
     <details>
       <summary>Woodcutting</summary>
-      The skill at selecting and cutting timber to sustain a forest while drawing its resources. This skill might also give you Expertise on checks to communicate with both sides of a foresting dispute.
+      The skill at selecting and cutting timber to sustain a forest while drawing its resources. This skill might also give you <b>Expertise</b> on checks to communicate with both sides of a foresting dispute.
       </details>
     </li>
     <li>Grassland</li>
@@ -1726,13 +1726,13 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Weather</summary>
-    The knowledge of weather phenomena, including magical ones, and the skill to determine future weather events with marked accuracy, allowing for instance when and where a storm will occur, as well as its severity and length. You have Expertise on checks to recall lore about weather phenomena.
+    The knowledge of weather phenomena, including magical ones, and the skill to determine future weather events with marked accuracy, allowing for instance when and where a storm will occur, as well as its severity and length. You have <b>Expertise</b> on checks to recall lore about weather phenomena.
   </details>
   </div>
 </details>
 
 <details>
-  <summary>Knowledge (other) (Group)</summary>
+  <summary>Knowledge (other) (<b>Group</b>)</summary>
   <div markdown="1">
   You are educated in a field of study not covered by other Knowledge skills. In addition you have Synergy (Speechcraft) when interacting with other sages in your field.
   </div>
@@ -1749,31 +1749,31 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   The art of cultivating plants, from growing simple plants in a flower pot, to full scale farming. A character with this skill would know how it is done, when it can be done and what is required to successfully grow crops and other plants.
 
   <details>
-    <summary>Common Sense (trait)</summary>
+    <summary>Common Sense (<b>trait</b>)</summary>
     The accumulated knowledge of simple farmers is ripe with common sense. Gain +1 Wisdom.
   </details>
 
   <details>
     <summary>Farming</summary>
-    Knowledge on how to grow crops, from the amount required to sustain a single household to areas feeding entire towns. You have Expertise on any checks regarding this.
+    Knowledge on how to grow crops, from the amount required to sustain a single household to areas feeding entire towns. You have <b>Expertise</b> on any checks regarding this.
   </details>
 
   <details>
     <summary>Gardening</summary>
-    Knowledge on how to grow plants on a small scale, in particular for ornamental, but also for medicinal purposes. You have Expertise on any checks regarding this.
+    Knowledge on how to grow plants on a small scale, in particular for ornamental, but also for medicinal purposes. You have <b>Expertise</b> on any checks regarding this.
   </details>
 
   <details>
     <summary>Mushroom Farming</summary>
-    Societies living in the Underdark use mushroom farming to sustain their inhabitants, as they are able to grow underground with no access to light. You have Expertise on any checks regarding this.
+    Societies living in the Underdark use mushroom farming to sustain their inhabitants, as they are able to grow underground with no access to light. You have <b>Expertise</b> on any checks regarding this.
   </details>
   </div>
 </details>
 
 <details>
-  <summary>Art (Group)</summary>
+  <summary>Art (<b>Group</b>)</summary>
   <div markdown="1">
-  Art is a group of skills that involves creative or imaginative talent expressive of technical proficiency, beauty, emotional power or conceptual ideas. Skill with one Art in this group would not give you knowledge of other skills in the group. Each time you choose the Art skill, you must select a subskill.
+  Art is a <b>group</b> of skills that involves creative or imaginative talent expressive of technical proficiency, beauty, emotional power or conceptual ideas. Skill with one Art in this <b>group</b> would not give you knowledge of other skills in the <b>group</b>. Each time you choose the Art skill, you must select a subskill.
 
   <details>
     <summary>Acting</summary>
@@ -1797,7 +1797,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     The art of writing in an expressive, harmonious and skillful manner. You must know how to read and write before taking this skill. Your skill in writing allows you to detect if written text is a forgery with a successful Intelligence (Calligraphy) check.
     <details>
       <summary>Forgery</summary>
-      The art of creating false documentation in order to encourage others to believe in the legitimacy of a characters' fraudulent practices. You have Expertise on checks made to create a convincing forgery.
+      The art of creating false documentation in order to encourage others to believe in the legitimacy of a characters' fraudulent practices. You have <b>Expertise</b> on checks made to create a convincing forgery.
     </details>
   </details>
 
@@ -1826,9 +1826,9 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     The art of applying make-up, commonly used to enhance one’s appearance, but can also be used for theatrical make-up or even to imitate the resemblance of another person or creature.
     <details>
       <summary>Disguise</summary>
-      You have training in concealing your appearance, trying to pass yourself off as a different person so that you will not be recognized. This grants Expertise on such checks.
+      You have training in concealing your appearance, trying to pass yourself off as a different person so that you will not be recognized. This grants <b>Expertise</b> on such checks.
       <details>
-        <summary>Disguise II (trait)</summary>
+        <summary>Disguise II (<b>trait</b>)</summary>
         Your skill with disguises has reached where you can impersonate others. This will usually only work for shorter encounters with people who don’t know the person you’re impersonating so well.
       </details>
     </details>
@@ -1849,7 +1849,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
       <summary>Martial Music</summary>
       A form of music intended for military settings, with bugle calls, fanfares, drum cadences and composed so that it may be taught by ear, for the inspiration of pomp and warfare.
       <details>
-        <summary>Lift Spirits (trait)</summary>
+        <summary>Lift Spirits (<b>trait</b>)</summary>
         Extend the endurance of an army marching together during a forced march.
       </details>
     </details>
@@ -1858,8 +1858,8 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
       A form of musical theater, in which the story is told entirely through music, with aspects supported by political, religious and moral themes.
     </details>
     <details>
-      <summary>Play Instrument (group)</summary>
-      Enables the character to proficiently make musical sounds with a group of instruments of choice.
+      <summary>Play Instrument (<b>group</b>)</summary>
+      Enables the character to proficiently make musical sounds with a <b>group</b> of instruments of choice.
       <details>
         <summary>Master Music</summary>
         This knowledge is beyond playing, a comprehension of reading notes, improvisation, genre, intonation, dynamics, melodic phrasing, composing and more.
@@ -1878,7 +1878,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Patronage</summary>
-    The act of appealing to and receiving financial support and ongoing commissions from members of the elite, be they merchants, nobles, religious leaders or persons of questionable motives. You know how this is done, how to find the appropriate venues and persons, and how to properly address such people. If you have the Speechcraft skill, you have Expertise on such checks.
+    The act of appealing to and receiving financial support and ongoing commissions from members of the elite, be they merchants, nobles, religious leaders or persons of questionable motives. You know how this is done, how to find the appropriate venues and persons, and how to properly address such people. If you have the Speechcraft skill, you have <b>Expertise</b> on such checks.
   </details>
 
   <details>
@@ -1919,13 +1919,13 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Break & Enter</summary>
-    Provides a character with some skill regarding the destruction of doors and windows so that they might be passed through as quickly as possible without creating excessive noise and attention. Glass may be cut, bolts in doors removed, stones and bits of plaster excavated, frames separated from the building itself and even boards and rivets removed from the doors themselves. The difficulty is not to succeed, but the time it will take, and how much noise is made. You have Expertise on all such checks.
+    Provides a character with some skill regarding the destruction of doors and windows so that they might be passed through as quickly as possible without creating excessive noise and attention. Glass may be cut, bolts in doors removed, stones and bits of plaster excavated, frames separated from the building itself and even boards and rivets removed from the doors themselves. The difficulty is not to succeed, but the time it will take, and how much noise is made. You have <b>Expertise</b> on all such checks.
     <br/><br/>
     A window may be cleared out enough to be safe to crawl through in 5 to 8 rounds, However, most windows, especially on the ground floor, are no more than 8 inches square and normally not large enough to squeeze through. Doors take longer. The bolts of a standard door can be dragged out in about 5-20 rounds, the die determining how “stuck” they are. A strong reinforced door may take anywhere from 60 to 90 rounds (10d4+50), to remove the rivets and bands of iron so that its bolts can then be dragged out. A “normal” dungeon door with bolts that are effectively cemented in place, will take three times as long (10d12+150 rounds) to loosen enough rivets so that wooden boards making the door can be wedged and the door taken apart piece by piece. Tools required include two sizes of chisel, three wedges, a small hammer and a pair of iron tongs.
   </details>
 
   <details>
-    <summary>Case Building (trait)</summary>
+    <summary>Case Building (<b>trait</b>)</summary>
     Provides a character with a unique eye regarding the design and layout not only of singular buildings, but of town and city blocks, street fronts and layout. Thus, a would-be thief may feel a particular property calls out to be entered, with conveniently placed balconies, ledges or rooftops easily accessible by rope and ladder.
     <br/><br/>
     Even though the probable location of kitchen, workshop, bedroom and internal stairwells often will be obvious regardless of the size of the building, a character should want to spend a week observing every detail of the building’s daily schedule. It is possible therefore to learn who lives there, who visits, who delivers, the usual time of departure and arrival, even what room persons are likely to be in at a given time of the day. Likewise, the passing of the sun will reveal the street itself, who is present, the lines of sight, hiding places, how shadows are cast at different times of day, and routes in and out of the neighborhood.
@@ -1935,14 +1935,14 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Detect Concealed Door</summary>
-    Enables a character to notice the telltale signs of a concealed door, then pinpoint its precise location. Concealed doors may be screened by trees, the shape of the terrain; they may be small and difficult to see; or located down a hole that passes unnoticed. Inside a house, they may be hidden by a curtain or covered by a rug. It is harder, however, to conceal evidence of traffic in and out of a concealed door. Footprints, a set of branches bent back in a particular way, loose rocks at the edge of a well, even the manner in which the corner of a curtain or rug may appear frayed or not quite straight. Additionally, there may be very slight tracks, or places where the floor or ground has been worn smooth, that will give the presence of a concealed door away. To detect such signs, make a Wisdom (Burglary) check, with Expertise.
+    Enables a character to notice the telltale signs of a concealed door, then pinpoint its precise location. Concealed doors may be screened by trees, the shape of the terrain; they may be small and difficult to see; or located down a hole that passes unnoticed. Inside a house, they may be hidden by a curtain or covered by a rug. It is harder, however, to conceal evidence of traffic in and out of a concealed door. Footprints, a set of branches bent back in a particular way, loose rocks at the edge of a well, even the manner in which the corner of a curtain or rug may appear frayed or not quite straight. Additionally, there may be very slight tracks, or places where the floor or ground has been worn smooth, that will give the presence of a concealed door away. To detect such signs, make a Wisdom (Burglary) check, with <b>Expertise</b>.
     <br/><br/>
     If there is a concealed door and the character has seen signs, or has another reason to believe there is one, it will be found given enough time. Indoors, this will require merely 2-5 rounds. Outdoors, this will take longer — a total of 5-20 rounds.
   </details>
 
   <details>
     <summary>Lockpicking</summary>
-    You master the art of opening locks or circumventing security precautions of various designs using a set of lockpicks. You can additionally pick locks with improvised tools, but have Expertise on checks using proper lockpicking tools.
+    You master the art of opening locks or circumventing security precautions of various designs using a set of lockpicks. You can additionally pick locks with improvised tools, but have <b>Expertise</b> on checks using proper lockpicking tools.
   </details>
 
   <details>
@@ -1961,22 +1961,22 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Baking</summary>
-    You are skilled at the creation of flour-based food readied in an oven, including bread, cookies, cakes, pastries and pies, and have Expertise on such checks.
+    You are skilled at the creation of flour-based food readied in an oven, including bread, cookies, cakes, pastries and pies, and have <b>Expertise</b> on such checks.
   </details>
 
   <details>
     <summary>Butchering</summary>
-    Skill at slaughtering, dressing and preserving meat from livestock, game and fish. A slaughter improperly performed can spoil or even poison the meat, so having skill at removing the animal's entrails is necessary in the production of large amounts of available meat. When preparing rations from animals, you can prepare 50% extra, and the rations will not spoil. You have Expertise on all such checks. However, normally you do not make checks for this skill, only required for instance if you need to extract a specific rare organ, such as a blowfish’s poison bladder or a dragon’s flame sac.
+    Skill at slaughtering, dressing and preserving meat from livestock, game and fish. A slaughter improperly performed can spoil or even poison the meat, so having skill at removing the animal's entrails is necessary in the production of large amounts of available meat. When preparing rations from animals, you can prepare 50% extra, and the rations will not spoil. You have <b>Expertise</b> on all such checks. However, normally you do not make checks for this skill, only required for instance if you need to extract a specific rare organ, such as a blowfish’s poison bladder or a dragon’s flame sac.
   </details>
 
   <details>
     <summary>Cuisine</summary>
-    The mastery of supervising and working in a professional kitchen, ordering and purchasing of inventory and the preparation, practice and preservation of food. It grants Expertise on Charisma checks when communicating with other kitchen staff, as well as patrons that have been impressed with your food. Note that these kinds of kitchens are only found in the courts of nobles and very rarely, also as restaurants.
+    The mastery of supervising and working in a professional kitchen, ordering and purchasing of inventory and the preparation, practice and preservation of food. It grants <b>Expertise</b> on Charisma checks when communicating with other kitchen staff, as well as patrons that have been impressed with your food. Note that these kinds of kitchens are only found in the courts of nobles and very rarely, also as restaurants.
   </details>
 
   <details>
     <summary>Foraging</summary>
-    The skill to find safe naturally occurring ingredients that you can prepare in a wilderness environment. Even though you might not be able to identify the exact nature of the ingredients, you will be able to ensure that they are safe to eat, and figure out how to prepare them. You have Expertise on all foraging checks and checks made to identify whether something is safe to eat or drink.
+    The skill to find safe naturally occurring ingredients that you can prepare in a wilderness environment. Even though you might not be able to identify the exact nature of the ingredients, you will be able to ensure that they are safe to eat, and figure out how to prepare them. You have <b>Expertise</b> on all foraging checks and checks made to identify whether something is safe to eat or drink.
   </details>
   </div>
 </details>
@@ -1998,24 +1998,24 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Crafter</summary>
-    You are good at producing herbal items and have Expertise on all such checks.
+    You are good at producing herbal items and have <b>Expertise</b> on all such checks.
   </details>
 
   <details>
     <summary>Identify Herbal Item (→ Sense-Taste)</summary>
-    You can identify potions and other herbal substances by taste, granting Expertise on all such checks.
+    You can identify potions and other herbal substances by taste, granting <b>Expertise</b> on all such checks.
   </details>
 
   <details>
     <summary>Locate Herbs</summary>
-    You have knowledge on how to locate, identify and harvest raw materials for your herbal infusions, granting Expertise on all such checks.
+    You have knowledge on how to locate, identify and harvest raw materials for your herbal infusions, granting <b>Expertise</b> on all such checks.
   </details>
 
   <details>
-    <summary>Prepare Poisons (trait)</summary>
+    <summary>Prepare Poisons (<b>trait</b>)</summary>
     You can additionally create natural poisons that must be imbibed to be effective.
     <details>
-      <summary>Prepare Poisons II (trait)</summary>
+      <summary>Prepare Poisons II (<b>trait</b>)</summary>
       Adds the option to safely manufacture other types of herbal poisons, being contact, inhaled and injury poisons.
     </details>
   </details>
@@ -2023,7 +2023,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 </details>
 
 <details>
-  <summary>Profession (Group)</summary>
+  <summary>Profession (<b>Group</b>)</summary>
   <div markdown="1">
   You are skilled at a specific job that is not covered by other skills. Like Art, Craft and Knowledge, this is a number of separate skills, and each Profession skill represents an aptitude in a vocation requiring a broader range of less specific knowledge. Some common Profession skills are baker, brewer, butcher, clerk, courtesan, driver, farmer, fisherman, gardener, innkeeper, librarian, merchant, midwife, miller, miner, porter, shepherd, stable master, soldier, trapper and woodcutter. In many cases there is an overlap between a Profession skill and other skills. The Profession skill is normally less specific and only includes the basic knowledge to perform the profession, as well as how to get in touch with potential employers or other similar professionals of your type, how to get hold of materials and tools or appraising the price and quality of services. In addition you have Synergy (Speechcraft) when interacting with other professionals or your type.
 
@@ -2043,7 +2043,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Boathandler</summary>
-    The skill to function as a river pilot, with skill derived from a familiarity with such environments, allowing the management of a boat through the safest and most efficient river waters. You have Expertise on all checks made for this purpose.
+    The skill to function as a river pilot, with skill derived from a familiarity with such environments, allowing the management of a boat through the safest and most efficient river waters. You have <b>Expertise</b> on all checks made for this purpose.
   </details>
 
   <details>
@@ -2053,7 +2053,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Sea Dog</summary>
-    You are more at home on a boat than anywhere else. Having solid ground beneath your feet will never feel as natural to you as the rolling deck of a ship. You have Expertise on all Sailor checks as well as on Acrobatics checks made to keep your balance and on checks made to climb onboard a ship.
+    You are more at home on a boat than anywhere else. Having solid ground beneath your feet will never feel as natural to you as the rolling deck of a ship. You have <b>Expertise</b> on all Sailor checks as well as on Acrobatics checks made to keep your balance and on checks made to climb onboard a ship.
   </details>
   </div>
 </details>
@@ -2065,17 +2065,17 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Hide Object</summary>
-    The skill of making sure hidden objects on your person stay hidden. You have Expertise on all such checks, usually handled by moving the objects being searched for while the search is being performed.
+    The skill of making sure hidden objects on your person stay hidden. You have <b>Expertise</b> on all such checks, usually handled by moving the objects being searched for while the search is being performed.
   </details>
 
   <details>
-    <summary>Fine Motor Skills (cost: 2, trait)</summary>
+    <summary>Fine Motor Skills (cost: 2, <b>trait</b>)</summary>
     Requires 2 other Sleight of hands subskills. You have excellent fine motor skills after years of training. Gain +1 Dexterity.
   </details>
 
   <details>
     <summary>Juggling</summary>
-    You are skilled at juggling objects and have Expertise on checks to perform in such a manner, but also for checks made to not drop something during combat.
+    You are skilled at juggling objects and have <b>Expertise</b> on checks to perform in such a manner, but also for checks made to not drop something during combat.
   </details>
 
   <details>
@@ -2085,12 +2085,12 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Legerdemain</summary>
-    The art of performing magic tricks. You have Expertise on checks such as performing stage magic to impress a crowd. This skill can also be used as an opposed skill check to trick someone trying to identify a spell that you cast into thinking it is a different spell.
+    The art of performing magic tricks. You have <b>Expertise</b> on checks such as performing stage magic to impress a crowd. This skill can also be used as an opposed skill check to trick someone trying to identify a spell that you cast into thinking it is a different spell.
   </details>
 
   <details>
     <summary>Pickpocketing</summary>
-    Skill at stealing money or other items from a creature without any notice of the theft having occurred. You have Expertise on such checks.
+    Skill at stealing money or other items from a creature without any notice of the theft having occurred. You have <b>Expertise</b> on such checks.
   </details>
   </div>
 </details>
@@ -2098,26 +2098,26 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 <details>
   <summary>Survival</summary>
   <div markdown="1">
-  The Survival skill allows you to navigate, hunt, track, read the landscape, etc. It is your ability to manage living or traveling in the wild and being aware of the dangers therein. The DM might ask you to make a Wisdom (Survival) check to follow tracks through a forest, forage for wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby or avoid quicksand and other natural hazards.
+  The Survival skill allows you to navigate, hunt, track, read the landscape, etc. It is your ability to manage living or traveling in the wild and being aware of the dangers therein. The DM might ask you to make a Wisdom (Survival) check to follow tracks through a forest, forage for wild game, guide your <b>group</b> through frozen wastelands, identify signs that owlbears live nearby or avoid quicksand and other natural hazards.
 
   <b>Terrain specific Skills</b>
 
   <details>
     <summary>Arctic Survival</summary>
-    You are at home in the cold arctic and have Expertise on Survival checks in that type of environment.
+    You are at home in the cold arctic and have <b>Expertise</b> on Survival checks in that type of environment.
     <details>
       <summary>Skiing</summary>
-      You know how to fashion, maintain and employ wooden skis as a means of travel and transport, and have Expertise on all checks and saves in regards to that. The skill provides some ability to shush down hills, but it must be noted that the nature of skis that can be constructed are not capable of other than cross-country skiing.
+      You know how to fashion, maintain and employ wooden skis as a means of travel and transport, and have <b>Expertise</b> on all checks and saves in regards to that. The skill provides some ability to shush down hills, but it must be noted that the nature of skis that can be constructed are not capable of other than cross-country skiing.
     </details>
     <details>
       <summary>Glacier Crossing</summary>
-      Improves agility and success when crossing glaciers. You know what equipment is necessary and safe methods of crossing. With preparation you can grant your entire group Expertise on checks and saves against such natural hazards.
+      Improves agility and success when crossing glaciers. You know what equipment is necessary and safe methods of crossing. With preparation you can grant your entire <b>group</b> <b>Expertise</b> on checks and saves against such natural hazards.
     </details>
   </details>
 
   <details>
     <summary>Coastal Survival</summary>
-    You are an expert at reading coastal terrain, including areas around lakes and rivers, and can easily determine where the shallow sections are, as well as where the big lagoons or large ship anchorages might be. Additionally you have Expertise on Survival checks in that type of environment.
+    You are an expert at reading coastal terrain, including areas around lakes and rivers, and can easily determine where the shallow sections are, as well as where the big lagoons or large ship anchorages might be. Additionally you have <b>Expertise</b> on Survival checks in that type of environment.
     <details>
       <summary>Fishing</summary>
       You know the coastlines, but more importantly you are familiar with the fish that inhabit these areas and how to catch them. You can provide enough fish to feed yourself and five other people as long as the area has not been fished out. You can easily tell if something is disturbing the natural balance with the fish in a given area, but cannot necessarily identify the cause.
@@ -2126,40 +2126,40 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Desert Survival</summary>
-    You are at home in the unforgiving deserts and have Expertise on Survival checks in that type of environment.
+    You are at home in the unforgiving deserts and have <b>Expertise</b> on Survival checks in that type of environment.
   </details>
 
   <details>
     <summary>Forest Survival</summary>
-    You are at home in most types of temperate forests and have Expertise on Survival checks in that type of environment.
+    You are at home in most types of temperate forests and have <b>Expertise</b> on Survival checks in that type of environment.
   </details>
 
   <details>
     <summary>Grassland Survival</summary>
-    You are at home on plains and savannahs of the world and have Expertise on Survival checks in that type of environment.
+    You are at home on plains and savannahs of the world and have <b>Expertise</b> on Survival checks in that type of environment.
   </details>
 
   <details>
     <summary>Jungle Survival</summary>
-    You are at home in the jungle and have Expertise on Survival checks in that type of environment.
+    You are at home in the jungle and have <b>Expertise</b> on Survival checks in that type of environment.
   </details>
 
   <details>
     <summary>Mountain Survival</summary>
-    You are at home in mountainous regions, including alpine mountains, and have Expertise on Survival checks in that type of environment.
+    You are at home in mountainous regions, including alpine mountains, and have <b>Expertise</b> on Survival checks in that type of environment.
     <details>
       <summary>Glacier Crossing</summary>
-      Improves agility and success when crossing glaciers. You know what equipment is necessary and safe methods of crossing. With preparation you can grant your entire group Expertise on checks and saves against such natural hazards.
+      Improves agility and success when crossing glaciers. You know what equipment is necessary and safe methods of crossing. With preparation you can grant your entire <b>group</b> <b>Expertise</b> on checks and saves against such natural hazards.
     </details>
     <details>
       <summary>Mountain Routefinding</summary>
-      This ability, associated with scrambling and mountain climbing, allows the character to make the best possible guesses for locating a good route through mountains. The skill can be used in finding the most likely means for crossing a mountain range, or it may be used specifically for how to climb a particular slope. With preparation and equipment you can grant your entire group Expertise on checks to climb mountains.
+      This ability, associated with scrambling and mountain climbing, allows the character to make the best possible guesses for locating a good route through mountains. The skill can be used in finding the most likely means for crossing a mountain range, or it may be used specifically for how to climb a particular slope. With preparation and equipment you can grant your entire <b>group</b> <b>Expertise</b> on checks to climb mountains.
     </details>
   </details>
 
   <details>
     <summary>Ocean Survival</summary>
-    You know how to survive at sea, both on boats on the surface as well as underwater, and have Expertise on Survival checks in that type of environment.
+    You know how to survive at sea, both on boats on the surface as well as underwater, and have <b>Expertise</b> on Survival checks in that type of environment.
     <details>
       <summary>Boatbuilding</summary>
       You have the skill necessary to fashion a seaworthy craft that's capable of a long journey, as long as you have access to wood and rope.
@@ -2167,13 +2167,13 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </details>
 
   <details>
-    <summary>Planar Survival (Group)</summary>
-    When taking this skill, specify a plane, like the Abyss, Acheron, Astral plane, Hell, etc. You know how to survive on this particular plane and have Expertise on Survival checks while there.
+    <summary>Planar Survival (<b>Group</b>)</summary>
+    When taking this skill, specify a plane, like the Abyss, Acheron, Astral plane, Hell, etc. You know how to survive on this particular plane and have <b>Expertise</b> on Survival checks while there.
   </details>
 
   <details>
     <summary>Subterranean Survival</summary>
-    You are at home in the Underdark and other subterranean areas, and have Expertise on Survival checks in that type of environment.
+    You are at home in the Underdark and other subterranean areas, and have <b>Expertise</b> on Survival checks in that type of environment.
     <details>
       <summary>Caving</summary>
       Enables the discovery of cave entrances by virtue of the experience gained from systematically searching rock formations, pushing through passages that are overlooked as "too tight," digging through dirt and rock fill, or enlarging narrow fissures in the rock — even recognizing air movement, the patterns of water seeping from rock or the tone of an echo. If a hidden entrance exists, characters with this skill are certain to find it; however, this does require half an hour of diligent searching over an area up to 30 ft diameter. Once that search is completed, the character will be able to say for certain that no hidden passage exists within a natural cave.
@@ -2182,7 +2182,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Wetland Survival</summary>
-    You are at home in swamps and other types of wetlands, and have Expertise on Survival checks in that type of environment.
+    You are at home in swamps and other types of wetlands, and have <b>Expertise</b> on Survival checks in that type of environment.
   </details>
 
   <b>General Survival Skills</b><br/>
@@ -2190,9 +2190,9 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Foraging</summary>
-    The skill to find naturally occurring food in a wilderness environment, which may be edible animal or vegetable matter. The exact nature of the food is not important, though it will typically consist of products such as fish, bird's eggs, roots, fruits and berries, nuts, honey, fungus, shellfish and more. The amount that is found will be far more than an ordinary person would find and will certainly be safe to eat. In addition you have Expertise on all foraging checks.
+    The skill to find naturally occurring food in a wilderness environment, which may be edible animal or vegetable matter. The exact nature of the food is not important, though it will typically consist of products such as fish, bird's eggs, roots, fruits and berries, nuts, honey, fungus, shellfish and more. The amount that is found will be far more than an ordinary person would find and will certainly be safe to eat. In addition you have <b>Expertise</b> on all foraging checks.
     <details>
-      <summary>Identify Clean Water (trait)</summary>
+      <summary>Identify Clean Water (<b>trait</b>)</summary>
       You can always ascertain if naturally occurring water is safe to drink, largely through observation, odor, testing a bit of the water against one's tongue and the appearance of the surrounding vista (no checks required).
     </details>
   </details>
@@ -2203,8 +2203,8 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     <br/><br/>
     An additional skill associated with pathfinding is the ability to identify a place — presuming it exists — where rest can be obtained in the wilderness. This will be a place with soft, dry ground, a minimum of dangerous wildlife, reasonably fresh water and retreat from harsh winds or exposure.
     <details>
-      <summary>Pathfinding II (trait)</summary>
-      Enables a character to help protect others from the environment, giving Expertise on checks against getting caught in or taking damage from natural features, such as sinkholes, slippery places, quicksand, natural pits, natural spikes and potential falls. In effect, character with this skill indicates the best possible route for others of less skill to follow, reducing the chance they will get themselves into trouble. A character with this ability is able to 'look after' one person per level — but note that the character himself must also be counted against the number to be protected if he wishes the benefit of the modifier. Otherwise, he will suffer from having paid too much attention to others.
+      <summary>Pathfinding II (<b>trait</b>)</summary>
+      Enables a character to help protect others from the environment, giving <b>Expertise</b> on checks against getting caught in or taking damage from natural features, such as sinkholes, slippery places, quicksand, natural pits, natural spikes and potential falls. In effect, character with this skill indicates the best possible route for others of less skill to follow, reducing the chance they will get themselves into trouble. A character with this ability is able to 'look after' one person per level — but note that the character himself must also be counted against the number to be protected if he wishes the benefit of the modifier. Otherwise, he will suffer from having paid too much attention to others.
     </details>
   </details>
 
@@ -2217,7 +2217,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Tracking</summary>
-    The practice of observing, stalking and following a trail left by a creature or animal in the wild, in order to ultimately locate them or their lair. You have Expertise on such checks.
+    The practice of observing, stalking and following a trail left by a creature or animal in the wild, in order to ultimately locate them or their lair. You have <b>Expertise</b> on such checks.
   </details>
   </div>
 </details>
@@ -2228,31 +2228,31 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   You have the basic ability to swim.
 
   <details>
-    <summary>Armored Swimmer (trait)</summary>
+    <summary>Armored Swimmer (<b>trait</b>)</summary>
     While wearing armor in water, you may treat it as a category lighter.
   </details>
 
   <details>
-    <summary>At Home in Water (trait)</summary>
-    You are at home in water, being able to both swim and dive with ease. You have Expertise on Swimming checks. In addition whenever you land in water, you may decide if you make no splash, an average splash, or a large distracting splash.
+    <summary>At Home in Water (<b>trait</b>)</summary>
+    You are at home in water, being able to both swim and dive with ease. You have <b>Expertise</b> on Swimming checks. In addition whenever you land in water, you may decide if you make no splash, an average splash, or a large distracting splash.
   </details>
 
   <details>
-    <summary>Freediving (trait)</summary>
+    <summary>Freediving (<b>trait</b>)</summary>
     Empowers you with the ability to hold his or her breath for longer periods, enabling deep dives. You can hold your breath for four times as long as normal, granting advantage on constitution saving throws against airborne dangers such as gas clouds.
     <details>
-      <summary>Deep Breathing (trait)</summary>
+      <summary>Deep Breathing (<b>trait</b>)</summary>
       Provides unnatural lung capacity that allows periods of 8 to 15 minutes underwater.
     </details>
   </details>
 
   <details>
-    <summary>Long Distance Swimming (trait)</summary>
+    <summary>Long Distance Swimming (<b>trait</b>)</summary>
     You are able to swim long distances without rest. Gain +1 Constitution.
   </details>
 
   <details>
-    <summary>Speed Swimmer (trait)</summary>
+    <summary>Speed Swimmer (<b>trait</b>)</summary>
     You gain a swimming speed equal to your walking speed, and can Dash while swimming.
   </details>
   </div>
@@ -2264,20 +2264,20 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   The familiarity with the criminal element and how to best handle oneself in rough quarters and among rough people, and knowledge of the unethical trade of other's property.
 
   <details>
-    <summary>Appraisal (trait)</summary>
+    <summary>Appraisal (<b>trait</b>)</summary>
     The skill to correctly identify the approximate value of items according to their workmanship and innate value. This would allow you to identify the most valuable objects in a room or treasure trove automatically, or to estimate the value of an object after examining for a few minutes.
   </details>
 
   <details>
     <summary>Black Market</summary>
-    The underground movement, illegal sale and fencing of stolen items, acting as a shadow house of sale for objects that cannot be sold to vendors or at auction due to their illegality. In the cities where you normally operate, no checks are required. You have one or more contacts that can handle these things for you. Finding contacts (safely) in new places requires a successful Charisma (Thievery) check. You have Expertise if it is within a Culture you are familiar with.
+    The underground movement, illegal sale and fencing of stolen items, acting as a shadow house of sale for objects that cannot be sold to vendors or at auction due to their illegality. In the cities where you normally operate, no checks are required. You have one or more contacts that can handle these things for you. Finding contacts (safely) in new places requires a successful Charisma (Thievery) check. You have <b>Expertise</b> if it is within a Culture you are familiar with.
   </details>
 
   <details>
     <summary>Streetwise</summary>
-    You are aware of the subtle signs used in the criminal underworld, and can understand them enough to recognize who you can talk to, who you shouldn’t approach and how to ask for information with a minimal amount of trouble. You have Expertise on such checks if within a Culture you are familiar with. In addition you know Thieves’ cant.
+    You are aware of the subtle signs used in the criminal underworld, and can understand them enough to recognize who you can talk to, who you shouldn’t approach and how to ask for information with a minimal amount of trouble. You have <b>Expertise</b> on such checks if within a Culture you are familiar with. In addition you know Thieves’ cant.
     <details>
-      <summary>Fast Talk (trait)</summary>
+      <summary>Fast Talk (<b>trait</b>)</summary>
       The criminal underworld is a dangerous place where a wrong word can get you killed. You know what to say and more importantly, what not to say. Gain +1 Charisma.
     </details>
   </details>
@@ -2331,27 +2331,27 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   <div markdown="1">
   For each craft, you can select the skills described below. Also note, that dwarves gain both the Journeyman crafter and Master crafter skills, as the craftsmanship of dwarves is well known. For other folk, during play, you do not have to spend points to gain the Journeyman crafter and Master crafter skills, instead you gain them as soon as you are applicable for them.
   <details>
-    <summary>Appraiser (trait)</summary>
+    <summary>Appraiser (<b>trait</b>)</summary>
     The skill to correctly identify the approximate value of items according to their workmanship and innate value. Your experience allows you to always know an approximate value after examining an object for a few minutes.
   </details>
   <details>
-    <summary>Journeyman Crafter (trait)</summary>
+    <summary>Journeyman Crafter (<b>trait</b>)</summary>
     If you start play with this skill, you have an official trade certificate allowing you to charge for your work with the craft, but not yet work as a self-employed master craftsman. This will in most human urban and rural areas allow you to live a modest lifestyle without paying the cost. Becoming a Journeyman crafter during play is a lot harder, as it requires a 7 year apprenticeship. This doesn’t have to be cumulative, so you might almost be done during your background, and finish up the last periods during downtime.
     <br/><br/>
     As a journeyman one is expected to accomplish a three-year working trip, to train with multiple masters, which are called the journeyman years. After this trip a journeyman has to submit a masterpiece of work to a guild for evaluation. If the masterpiece is not accepted by the masters, he is not allowed to join the guild, possibly remaining a journeyman for the rest of his life.
   </details>
   <details>
-    <summary>Master Crafter (trait)</summary>
+    <summary>Master Crafter (<b>trait</b>)</summary>
     If you start play with this skill, you are a member of a guild and have an official master certificate. This means you have a network of contacts within the craft, as well as suppliers, buyers and in some cases, with other related crafts. In most human urban and rural areas having this skill allows you to live a comfortable lifestyle without paying the cost.
   </details>
   <details>
     <summary>Trader</summary>
-    You know how and where to sell and buy the type of items you can craft in order to earn the most. This applies on transactions from single items to wholesale bulk. You have Expertise on all such checks, including checks made to find information about sellers and buyers.
+    You know how and where to sell and buy the type of items you can craft in order to earn the most. This applies on transactions from single items to wholesale bulk. You have <b>Expertise</b> on all such checks, including checks made to find information about sellers and buyers.
   </details>
   The following skills are not bound to a craft, instead consider them as a single skill reachable from all types of crafts.
   <details>
     <summary>Guild Politics</summary>
-    Knowledge of the etiquette among guilds and their associates. You have Expertise on Charisma checks when interacting with crafting professionals. This applies even to guilds where you are not a member.
+    Knowledge of the etiquette among guilds and their associates. You have <b>Expertise</b> on Charisma checks when interacting with crafting professionals. This applies even to guilds where you are not a member.
   </details>
   </div>
 </details>
@@ -2376,18 +2376,18 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   You can attempt to make items above your level of skill. For each level below, you have a -10 on your check.
 
   <details>
-    <summary>Combat Alchemy (trait)</summary>
+    <summary>Combat Alchemy (<b>trait</b>)</summary>
     You know how to maximize the effectiveness of alchemical items under stress, for instance when in combat. You are proficient with throwing flasks and vials and do not have disadvantage when attacking an adjacent creature with them. In addition the damage of your acid, alchemist’s fire and other similar items increases by one damage die at levels 5, 11, and 17.
   </details>
 
   <details>
-    <summary>Craft Alchemical Substance (trait)</summary>
+    <summary>Craft Alchemical Substance (<b>trait</b>)</summary>
     You know how to apply your theoretical knowledge into practice, allowing you to safely craft alchemical items up to a value of 10 gp.
     <details>
-      <summary>Craft Alchemical Substance II (trait)</summary>
+      <summary>Craft Alchemical Substance II (<b>trait</b>)</summary>
       You know how to safely craft alchemical items up to a value of 25 gp.
       <details>
-        <summary>Craft Alchemical Substance III (trait)</summary>
+        <summary>Craft Alchemical Substance III (<b>trait</b>)</summary>
         You know how to safely craft any alchemical item.
       </details>
     </details>
@@ -2395,12 +2395,12 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Distilling</summary>
-    You have great knowledge on how to purify or concentrate a variety of non-magical liquids, including the making of beverages, and have Expertise on such checks.
+    You have great knowledge on how to purify or concentrate a variety of non-magical liquids, including the making of beverages, and have <b>Expertise</b> on such checks.
   </details>
 
   <details>
     <summary>Identify Alchemical Substance (→ Sense-Taste)</summary>
-    You can identify potions and other alchemical substances by taste, granting Expertise on all such checks.
+    You can identify potions and other alchemical substances by taste, granting <b>Expertise</b> on all such checks.
   </details>
 
   <details>
@@ -2409,10 +2409,10 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   </details>
 
   <details>
-    <summary>Prepare Poisons (trait)</summary>
+    <summary>Prepare Poisons (<b>trait</b>)</summary>
     Adds the option to safely manufacture alchemical poisons that must be imbibed to be effective.
     <details>
-      <summary>Prepare Poisons II (trait)</summary>
+      <summary>Prepare Poisons II (<b>trait</b>)</summary>
       Adds the option to safely manufacture other types of alchemical poisons, being contact, inhaled and injury poisons.
     </details>
     <details>
@@ -2432,17 +2432,17 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Clay Masonry</summary>
-    The making and design of structural construction, including bricks, pipes, floor and roof tiles. This skill also allows you to make your own kilns and metal or glass-making crucibles. You have Expertise on all such checks.
+    The making and design of structural construction, including bricks, pipes, floor and roof tiles. This skill also allows you to make your own kilns and metal or glass-making crucibles. You have <b>Expertise</b> on all such checks.
   </details>
 
   <details>
     <summary>Clay Materials</summary>
     Provides a complex understanding of plastic materials, allowing knowledge of clay deposits and their location and the preparation and addition of minerals. Lack of this knowledge requires you to purchase prepared materials for making earthenware, stoneware or porcelain.
     <details>
-      <summary>Hardened Materials (trait)</summary>
+      <summary>Hardened Materials (<b>trait</b>)</summary>
       You know the secrets of increasing the density of clay materials, with knowledge of how to shape and prepare ceramics as weapons and sling missiles.
       <details>
-        <summary>Animated Pottery (trait)</summary>
+        <summary>Animated Pottery (<b>trait</b>)</summary>
         You are able to make ceramic and clay figures in a way that makes them suitable to imbue with magical properties, or even life, such as a golems and other animated constructs.
       </details>
     </details>
@@ -2459,7 +2459,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Glaze</summary>
-    Decoration and artistic expression produced before and after the firing process, to create objects of fine distinction with a legitimate tradable value. A ceramic object of art can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give Expertise on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a ceramic art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+    Decoration and artistic expression produced before and after the firing process, to create objects of fine distinction with a legitimate tradable value. A ceramic object of art can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give <b>Expertise</b> on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a ceramic art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain <b>Expertise</b> on checks to create the item.
   </details>
   </div>
 </details>
@@ -2467,7 +2467,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 <details>
   <summary>Cordage</summary>
   <div markdown="1">
-  You are trained in crafting nets, cords, ropes or cables of varying thicknesses and strengths from fibrous threads of both natural and artificial origin. This also grants Expertise on checks made to assess strength and wear for such items.
+  You are trained in crafting nets, cords, ropes or cables of varying thicknesses and strengths from fibrous threads of both natural and artificial origin. This also grants <b>Expertise</b> on checks made to assess strength and wear for such items.
 
   <details>
     <summary>Knot Tying</summary>
@@ -2479,7 +2479,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 <details>
   <summary>Gemcutting</summary>
   <div markdown="1">
-  The skill to shape stone, minerals or gemstones into decorative designs. This does not include the setting of stones into jewelry, which is done by a finesmith. A skilled gemcutter can improve the value of raw gemstones. When performing your craft and determining the final value of your crafted gem, select one of the following benefits. reduce the cost of raw materials by 90%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+  The skill to shape stone, minerals or gemstones into decorative designs. This does not include the setting of stones into jewelry, which is done by a finesmith. A skilled gemcutter can improve the value of raw gemstones. When performing your craft and determining the final value of your crafted gem, select one of the following benefits. reduce the cost of raw materials by 90%, your daily progress is x5 for this item or gain <b>Expertise</b> on checks to create the item.
   </div>
 </details>
 
@@ -2496,7 +2496,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 </details>
 
 <details>
-  <summary>Leatherworking (Group)</summary>
+  <summary>Leatherworking (<b>Group</b>)</summary>
   <div markdown="1">
   The making of products from animals, primarily including the tanning and processing of leather. Leatherworking consists of two very different steps. When you learn this skill, select one of the two subskills below. Even if you are not skilled in the other subskill, you still are aware of what is required to perform it, how to find someone who knows and theoretical knowledge of it, allowing you to make unskilled checks.
 
@@ -2505,15 +2505,15 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     The treatment and process underlying the transformation of skins and hides into leather, including skinning, tanning, tawing and parchment making.
     <details>
       <summary>Manufacture</summary>
-      You are skilled at the tanning and tawing steps of leatherworking, gaining Expertise on checks to craft leather from animal hides. This can be used to increase the value of the raw hides before becoming leather.
+      You are skilled at the tanning and tawing steps of leatherworking, gaining <b>Expertise</b> on checks to craft leather from animal hides. This can be used to increase the value of the raw hides before becoming leather.
     </details>
     <details>
       <summary>Parchment Making</summary>
-      Parchments can be made from animal hides, in a process that takes at least two week with optimal conditions. You can make parchments while traveling. This uses your camp activities, as well as some preparation before starting travel each day in order to allow different steps to be done on the road. If not traveling, you have Expertise on associated checks.
+      Parchments can be made from animal hides, in a process that takes at least two week with optimal conditions. You can make parchments while traveling. This uses your camp activities, as well as some preparation before starting travel each day in order to allow different steps to be done on the road. If not traveling, you have <b>Expertise</b> on associated checks.
     </details>
     <details>
       <summary>Skinning</summary>
-      You are exceptionally good at removing the hide from dead animals and other beasts, getting a 10 % usable material. Normally this does not require a check, unless it is a mythical beast, such as a dragon or couatl. However this would for instance allow you to recognize which beast a hide came from or to speak to trappers in their own way. You have Expertise on checks made with this skill.
+      You are exceptionally good at removing the hide from dead animals and other beasts, getting a 10 % usable material. Normally this does not require a check, unless it is a mythical beast, such as a dragon or couatl. However this would for instance allow you to recognize which beast a hide came from or to speak to trappers in their own way. You have <b>Expertise</b> on checks made with this skill.
     </details>
   </details>
 
@@ -2522,26 +2522,26 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     The practice of making animal skins and hides into objects of many forms, including the use of leather for protection and the use of leather as an adornment for aesthetic appeal, such as dyeing, painting, carving, stamping and molding.
     <details>
       <summary>Leather Armor</summary>
-      The fashioning of leather as a protective covering used to prevent damage during combat, for both humanoids and animal mounts. You have Expertise on checks to craft leather armor.
+      The fashioning of leather as a protective covering used to prevent damage during combat, for both humanoids and animal mounts. You have <b>Expertise</b> on checks to craft leather armor.
     </details>
     <details>
       <summary>Leather Art</summary>
-      Decoration and artistic expression when producing leather items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful clothes and armor can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give Expertise on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a leather art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+      Decoration and artistic expression when producing leather items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful clothes and armor can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give <b>Expertise</b> on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a leather art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain <b>Expertise</b> on checks to create the item.
     </details>
     <details>
       <summary>Leather Clothing</summary>
-      The making of leather garments and gear for both practicality and high fashion, as well as protection against the elements. You have Expertise on checks to craft leather clothing.
+      The making of leather garments and gear for both practicality and high fashion, as well as protection against the elements. You have <b>Expertise</b> on checks to craft leather clothing.
     </details>
     <details>
       <summary>Leather Containers</summary>
-      The making of bags and containers made from leather. You have Expertise on checks to craft such items.
+      The making of bags and containers made from leather. You have <b>Expertise</b> on checks to craft such items.
     </details>
   </details>
   </div>
 </details>
 
 <details>
-  <summary>Metalwork (Group)</summary>
+  <summary>Metalwork (<b>Group</b>)</summary>
   <div markdown="1">
   The skill of working with metals to create individual objects, assemblies or large-scale structures. Metalworking consists of very different disciplines. When you choose this skill, select one of the subskills below. Even if you do not know a subskill, you still are aware of what is required to perform it, how to find someone who knows and theoretical knowledge of it, allowing you to make unskilled checks.
 
@@ -2550,11 +2550,11 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     Skill at making and repairing jewelry, engraving, stonesetting, precision tools and other metal forms requiring a fine and meticulous mastery.
     <details>
       <summary>Jewelcrafter</summary>
-      You are skilled with the creation and repair of jewelry, and have Expertise on such checks.
+      You are skilled with the creation and repair of jewelry, and have <b>Expertise</b> on such checks.
     </details>
     <details>
       <summary>Metal Art</summary>
-      Decoration and artistic expression when producing metal items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful jewelry, armor or weapons can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give Expertise on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a metal art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+      Decoration and artistic expression when producing metal items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful jewelry, armor or weapons can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give <b>Expertise</b> on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a metal art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain <b>Expertise</b> on checks to create the item.
     </details>
   </details>
 
@@ -2563,31 +2563,31 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     The process of working metal through the manipulation of heat and blacksmithing, making common everyday objects and tools in various metals. As a metalsmith you can work with all common metals.
     <details>
       <summary>Armorsmith</summary>
-      The mastery at making metal armor for humanoids and animals, using a forge, hammer and anvil. You have Expertise on checks to craft metal armors. If you have skill in woodworking you also gain Expertise when making shields.
+      The mastery at making metal armor for humanoids and animals, using a forge, hammer and anvil. You have <b>Expertise</b> on checks to craft metal armors. If you have skill in woodworking you also gain <b>Expertise</b> when making shields.
     </details>
     <details>
       <summary>Arrowsmith</summary>
-      A metalsmith who specializes in forging arrowheads. You have Expertise on all such checks.
+      A metalsmith who specializes in forging arrowheads. You have <b>Expertise</b> on all such checks.
       <details>
-        <summary>Advanced Arrowsmith (trait)</summary>
+        <summary>Advanced Arrowsmith (<b>trait</b>)</summary>
         You have complemented your smithing skills with some alchemical knowledge, allowing you to additionally make all types of speciality arrows.
       </details>
     </details>
     <details>
       <summary>Blacksmith</summary>
-      The skill to create objects primarily from wrought iron or steel. You have Expertise on checks to craft objects such as  gates, tools, agricultural implements and cooking utensils, provided they are not covered by another metalsmith skill.
+      The skill to create objects primarily from wrought iron or steel. You have <b>Expertise</b> on checks to craft objects such as  gates, tools, agricultural implements and cooking utensils, provided they are not covered by another metalsmith skill.
       <details>
-        <summary>Heavy Lifting (trait)</summary>
+        <summary>Heavy Lifting (<b>trait</b>)</summary>
         Years of hard work has improved your physical strength. Gain +1 Strength.
       </details>
     </details>
     <details>
       <summary>Bladesmith</summary>
-      Forging of knives, swords and other blades. You have Expertise on such checks.
+      Forging of knives, swords and other blades. You have <b>Expertise</b> on such checks.
     </details>
     <details>
       <summary>Brownsmith</summary>
-      Metalsmith that works with brass and copper. You have Expertise on checks to craft objects from these metals.
+      Metalsmith that works with brass and copper. You have <b>Expertise</b> on checks to craft objects from these metals.
     </details>
     <details>
       <summary>Coinsmith</summary>
@@ -2595,23 +2595,23 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     </details>
     <details>
       <summary>Goldsmith</summary>
-      Metalsmith that works with gold. You have Expertise on checks to craft such objects.
+      Metalsmith that works with gold. You have <b>Expertise</b> on checks to craft such objects.
     </details>
     <details>
       <summary>Locksmith</summary>
-      The skill to craft locks, safes and keys. You have Expertise on checks to craft such objects, as well as on checks to open locks and safes.
+      The skill to craft locks, safes and keys. You have <b>Expertise</b> on checks to craft such objects, as well as on checks to open locks and safes.
     </details>
     <details>
       <summary>Silversmith</summary>
-      Metalsmith that works with silver. You have Expertise on checks to craft such objects, including changing weapons into silvered weapons.
+      Metalsmith that works with silver. You have <b>Expertise</b> on checks to craft such objects, including changing weapons into silvered weapons.
     </details>
     <details>
       <summary>Weaponsmith</summary>
-      The skill to forge forges weapons other than blades, including axes, spears, flails and other such weapons. You have Expertise on checks to craft weapons.
+      The skill to forge forges weapons other than blades, including axes, spears, flails and other such weapons. You have <b>Expertise</b> on checks to craft weapons.
     </details>
     <details>
       <summary>Whitesmith</summary>
-      Metalsmith that works with white metal (tin and pewter). You have Expertise on checks to craft objects from these metals.
+      Metalsmith that works with white metal (tin and pewter). You have <b>Expertise</b> on checks to craft objects from these metals.
     </details>
   </details>
 
@@ -2623,7 +2623,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 </details>
 
 <details>
-  <summary>Textiles (Group)</summary>
+  <summary>Textiles (<b>Group</b>)</summary>
   <div markdown="1">
   The skill of using plant or animal fibers to construct everyday and ornamental clothing or arts. Includes multiple techniques used to embellish or decorate textiles, including dyeing, printing, knitting, tailoring, hooking and more. When you choose this skill, select one of the subskills below. Even if you do not know a subskill, you still are aware of what is required to perform it, how to find someone who knows and theoretical knowledge of it, allowing you to make unskilled checks.
 
@@ -2634,7 +2634,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Textile Art</summary>
-    Decoration and artistic expression when producing textile items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful clothing or adorning your home with expensive textiles can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give Expertise on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a textile art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+    Decoration and artistic expression when producing textile items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful clothing or adorning your home with expensive textiles can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give <b>Expertise</b> on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a textile art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain <b>Expertise</b> on checks to create the item.
   </details>
 
   <details>
@@ -2642,19 +2642,19 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     The making of cloth garments and gear for both practicality and high fashion, as well as for protection against the elements and other dangers (including combat).
     <details>
       <summary>Clothes</summary>
-      You have Expertise on checks to craft clothes.
+      You have <b>Expertise</b> on checks to craft clothes.
     </details>
     <details>
       <summary>Cloth Armor</summary>
-      You have Expertise on checks to craft cloth armor.
+      You have <b>Expertise</b> on checks to craft cloth armor.
     </details>
     <details>
       <summary>Embroidery & Print</summary>
-      Skills at making tapestries, carpets, tablecloths and drapery, coverlets and more, to provide comfort, grace and magnificence to living spaces and surfaces. You have Expertise on checks to craft such items.
+      Skills at making tapestries, carpets, tablecloths and drapery, coverlets and more, to provide comfort, grace and magnificence to living spaces and surfaces. You have <b>Expertise</b> on checks to craft such items.
     </details>
     <details>
       <summary>Sacks & Bags</summary>
-      The making of bags and containers made from cloth. You have Expertise on checks to craft such items.
+      The making of bags and containers made from cloth. You have <b>Expertise</b> on checks to craft such items.
     </details>
   </details>
   </div>
@@ -2667,36 +2667,36 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
   <details>
     <summary>Animal Trapping</summary>
-    You are skilled at using snares and traps to catch animals for their furs and meat, or as a means of pest control. You have Expertise on checks to create or remove such traps, as well as on all foraging checks.
+    You are skilled at using snares and traps to catch animals for their furs and meat, or as a means of pest control. You have <b>Expertise</b> on checks to create or remove such traps, as well as on all foraging checks.
   </details>
 
   <details>
     <summary>Booby Traps</summary>
-    The creation of larger traps using materials commonly found in nature and targeting intelligent prey. This includes traps such as deadfall traps, pit traps and snare traps. You have Expertise on checks to create, spot and remove such traps.
+    The creation of larger traps using materials commonly found in nature and targeting intelligent prey. This includes traps such as deadfall traps, pit traps and snare traps. You have <b>Expertise</b> on checks to create, spot and remove such traps.
   </details>
 
   <details>
     <summary>Pressure Traps</summary>
-    The creation of traps that implement balance and hydraulic forces in the making. These types of traps are usually part of the architecture, and need to be built in when building a structure. You have Expertise on checks to create, spot and remove such traps.
+    The creation of traps that implement balance and hydraulic forces in the making. These types of traps are usually part of the architecture, and need to be built in when building a structure. You have <b>Expertise</b> on checks to create, spot and remove such traps.
     <details>
-      <summary>Safe Trap (trait)</summary>
+      <summary>Safe Trap (<b>trait</b>)</summary>
       Improves traps so that they can be reset or reloaded by unskilled persons with a minimum of training.
     </details>
     <details>
-      <summary>Self-resetting Traps (trait)</summary>
+      <summary>Self-resetting Traps (<b>trait</b>)</summary>
       The knowledge to use magical application or ingenuity to enable traps to reset themselves after firing.
     </details>
   </details>
 
   <details>
     <summary>Recognise Dweomer</summary>
-    The skill to recognize the presence of magical traps, glyphs, runes, sigils and similar devices. You have Expertise on checks to spot, avoid and deduce the triggers of such traps.
+    The skill to recognize the presence of magical traps, glyphs, runes, sigils and similar devices. You have <b>Expertise</b> on checks to spot, avoid and deduce the triggers of such traps.
   </details>
   </div>
 </details>
 
 <details>
-  <summary>Woodworking (Group)</summary>
+  <summary>Woodworking (<b>Group</b>)</summary>
   <div markdown="1">
   The skill of making objects, furniture and large-scale structures out of wood, including the dyeing, staining and polishing of veneer and the use of resins as glues and ornamentation. Woodworking consists of some very different disciplines. When you choose this skill, select one of the subskills below. Even if you do not know a subskill, you still are aware of what is required to perform it, how to find someone who knows and theoretical knowledge of it, allowing you to make unskilled checks.
 
@@ -2705,7 +2705,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     The skill of making reliable bows and arrows.
     <details>
       <summary>Advanced Bowyer</summary>
-      Your skill with this trade grants Expertise on all checks when crafting bows or arrows.
+      Your skill with this trade grants <b>Expertise</b> on all checks when crafting bows or arrows.
     </details>
   </details>
 
@@ -2727,14 +2727,14 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
     The art of carving shapes out of raw wood using a knife or mallet and chisel. The wood can be fashioned into a variety of imaginative or useful objects, for both practical and aesthetic merit.
     <details>
       <summary>Wood carving</summary>
-      An artistic expression of whittling, for the sole purpose of sculptural ornamentation of a wooden object. Aesthetically pleasing objects can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give Expertise on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When beautifying an existing wooden object or creating a wooden art object from scratch, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+      An artistic expression of whittling, for the sole purpose of sculptural ornamentation of a wooden object. Aesthetically pleasing objects can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give <b>Expertise</b> on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When beautifying an existing wooden object or creating a wooden art object from scratch, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain <b>Expertise</b> on checks to create the item.
     </details>
   </details>
   </div>
 </details>
 
 <details>
-  <summary>Craft (other) (Group)</summary>
+  <summary>Craft (other) (<b>Group</b>)</summary>
   <div markdown="1">
   You are skilled in a craft not covered by other Craft skills, such as barrel making, basket weaving, book binding or cobbling. A Craft skill is specifically focused on creating something. If nothing is created by the endeavor, it probably falls under the heading of a Profession skill.
   </div>
@@ -2742,12 +2742,12 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
 
 
-<!-- ----------------------------Traits-------------------------  -->
+<!-- ----------------------------<b>Trait</b>s-------------------------  -->
 
 </div>
-<div id="traits" class="container tab-pane fade">
+<div id="<b>trait</b>s" class="container tab-pane fade">
 
-This group collects additional traits that are not part of a skill.
+This <b>group</b> collects additional <b>trait</b>s that are not part of a skill.
 
 <details>
   <summary>Death’s Suitor</summary>
@@ -2770,7 +2770,7 @@ This group collects additional traits that are not part of a skill.
     You can draw upon your faith to unleash the magnetic fiery soul within you with the effect of the spell enthrall, which you can cast once between each long rest without expending a spell slot. When you cast it in this way, the spell does not require a somatic component. Charisma is your spellcasting ability for this spell.
     <details>
       <summary>Fiery Personality</summary>
-      When you cast enthrall using this trait, you additionally gain the effects of the sanctuary spell and advantage on all Speechcraft and Performance checks against creatures that failed their saving throw. All effects end when the enthrall spell ends, or if you break the effects of sanctuary by making an attack or casting a spell.
+      When you cast enthrall using this <b>trait</b>, you additionally gain the effects of the sanctuary spell and advantage on all Speechcraft and Performance checks against creatures that failed their saving throw. All effects end when the enthrall spell ends, or if you break the effects of sanctuary by making an attack or casting a spell.
     </details>
   </details>
   </div>
@@ -2795,7 +2795,7 @@ This group collects additional traits that are not part of a skill.
   <div markdown="1">
   <i>Prerequisite: Devoted follower of Arawn or Torag</i>
 
-  Your faith helps you persevere through anything, taking the suffering of others onto yourself and offering relief to those that need it most. As an action, you can touch a creature that is Blinded, Charmed, Deafened, Frightened , Paralyzed, Petrified, Poisoned or Stunned, and immediately end that condition on the target creature, but suffer that condition yourself. If that condition has a save against its ongoing effect, you can immediately make a save against the effect to end it as part of taking the condition onto yourself. Each time you take on the suffering of another creature with this trait, you gain temporary hit points equal to your proficiency bonus. You can do this a number of times equal to your proficiency bonus, and regain all uses when you complete a long rest.
+  Your faith helps you persevere through anything, taking the suffering of others onto yourself and offering relief to those that need it most. As an action, you can touch a creature that is Blinded, Charmed, Deafened, Frightened , Paralyzed, Petrified, Poisoned or Stunned, and immediately end that condition on the target creature, but suffer that condition yourself. If that condition has a save against its ongoing effect, you can immediately make a save against the effect to end it as part of taking the condition onto yourself. Each time you take on the suffering of another creature with this <b>trait</b>, you gain temporary hit points equal to your proficiency bonus. You can do this a number of times equal to your proficiency bonus, and regain all uses when you complete a long rest.
   </div>
 </details>
 
@@ -2864,7 +2864,7 @@ Only available at character creation.
   Some people wonder whether you’re really physically tough, or if you’re just too oblivious to notice you’ve been wounded. Who needs mental fortitude when you’ve got a skull thick enough to stop evil magic! You gain the following benefits:
   <ul><li>You may make an unarmed strike with your head for 1d4 bludgeoning damage as a bonus action. You are proficient with this attack.</li>
   <li>Whenever you take damage, you can use your reaction to reduce the damage you take by 1d4, to a minimum of 1 damage.</li>
-  <li>You have Expertise  on saving throws to avoid being socially manipulated or magically mind-controlled. This does not extend to illusions, where you instead have disadvantage</li></ul>
+  <li>You have <b>Expertise</b>  on saving throws to avoid being socially manipulated or magically mind-controlled. This does not extend to illusions, where you instead have disadvantage</li></ul>
   </div>
 </details>
 
@@ -2876,7 +2876,7 @@ Only available at character creation.
   Though your clumsiness often interferes with routine tasks and you spend as much time on the ground as you do standing up, you always stay positive! It’s important to do your best every day. ! You gain the following benefits:
   <ul><li>A creature that makes a melee attack against you while you are prone does not gain advantage.</li>
   <li>Whenever you roll 1 on an ability check or attack roll, you can use your reaction to gain some forgiveness. The next attack roll made against you before the beginning of your next turn has disadvantage.</li>
-  <li>People forgive you quickly for your mistakes. You have Expertise on any Charisma check that you make to gain favor with a creature you’ve accidentally wronged.</li></ul>
+  <li>People forgive you quickly for your mistakes. You have <b>Expertise</b> on any Charisma check that you make to gain favor with a creature you’ve accidentally wronged.</li></ul>
   </div>
 </details>
 
