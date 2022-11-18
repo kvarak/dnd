@@ -38,9 +38,9 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#craft"><h5>Craft skills</h5></a></li>
   <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#traits"><h5>Traits</h5></a></li>
   <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#class"><h5>Class specific skills</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#background"><h5>Background traits</h5></a></li>                    
+  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#background"><h5>Background traits</h5></a></li>
 </ul>
-        
+
 
 <div class="tab-content">
 <div id="untrained" class="container tab-pane active">
@@ -49,7 +49,9 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   This skill mixes various physical performances with feats of extraordinary balance, agility and coordination. It incorporates numerous amusements and stunts which can be performed for an audience, as well as tricks that can serve the character well in other ventures, such as staying on your feet when trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ships’ deck. It is commonly mastered by jugglers, tumblers, aerialists and other circus performers — persons fascinating to watch but not of particularly high social standing.
   <details>
     <summary>Aerial Acrobatics</summary>
+
     Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have ***Expertise (Dex, Cha)***. During adventuring you could use this skill with Expertise to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
+
   </details>
   <details>
     <summary>Contortion (trait)</summary>

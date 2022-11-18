@@ -1,8 +1,10 @@
 theme: null
 
 markdown: kramdown
-#kramdown:
-#  parse_block_html: true
+
+kramdown:
+  auto_ids: false
+  parse_span_html: true
 
 website: https://kvarak.github.io
 basewebsite: /dnd
