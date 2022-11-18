@@ -1,9 +1,9 @@
 theme: null
 
-markdown: kramdown
+markdown: CommonMarkGhPages
 
-kramdown:
-  auto_ids: false
+# kramdown:
+#   auto_ids: false
 
 website: https://kvarak.github.io
 basewebsite: /dnd
