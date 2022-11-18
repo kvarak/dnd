@@ -141,6 +141,37 @@ You have learnt how to survive in the wilds and gain two of the following skills
 
 Additionally you always have advantage with those skill.
 
+
+<div class="card rest">
+  <div class="card-title restHeading">
+    Rest Additions
+  </div>
+  <div class="card-subtitle restPad">
+    The following class specific additions are made to the general rest rules.
+    <div class="card-text restTable">
+      <table><thead><th colspan=2>Short rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>After a short rest:</td></tr>
+          <tr><td></td><td>- Regain 1 <b>Fury</b>.</td></tr>
+          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> by 1.</td></tr>
+          <tr><td></td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+      <table><thead><th colspan=2>Long rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>During a Long rest:</td></tr>
+          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
+          <tr><td></td><td>- Regain 10 <b>Fury</b>.</td></tr>
+          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> to 10.</td></tr>
+          <tr><td></td><td>&nbsp;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 
@@ -200,37 +231,6 @@ While in your rage, you have advantage on all Strength, Dexterity, and Constitut
 
 ### Primal Champion
 At 20th level, you embody the power of the wilds. Your Strength and Constitution scores, and maximums increase by 4.
-
-<div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following class specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Short rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>After a short rest:</td></tr>
-          <tr><td></td><td>- Regain 1 <b>Fury</b>.</td></tr>
-          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> by 1.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
-        </tbody>
-      </table>
-      <table><thead><th colspan=2>Long rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>During a Long rest:</td></tr>
-          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>- Regain 10 <b>Fury</b>.</td></tr>
-          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> to 10.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
-
-
-
 
 
 
