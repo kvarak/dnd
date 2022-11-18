@@ -16,18 +16,18 @@ You will get skill points to select skills during character creation, as well as
 
 ### Spending skill points
 Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must know the skill right above it in the “skill tree”. You can save skill points, and are allowed to spend them at a later time, after finishing a long rest. Additionally you can spend skill points the following ways.
-- **Ability Score Increase**. You can spend 2 skill points to increase an ability score by 1.
-- **Improved Proficiency**. If you have Expertise with a skill, you can spend 2 skill points to gain +1 to all checks with that skill. You can improve it even further, increasing the cost by 1 point each time you buy this.
+- <b>Ability Score Increase</b>. You can spend 2 skill points to increase an ability score by 1.
+- <b>Improved Proficiency</b>. If you have Expertise with a skill, you can spend 2 skill points to gain +1 to all checks with that skill. You can improve it even further, increasing the cost by 1 point each time you buy this.
 
 ### Terms
-- **Cost: X**. This skill costs a number of skill points equal to X.
-- **Expertise**. You have advantage on checks using this proficiency.
-- **Expertise (Ability X, Ability Y)**. You have advantage, but one of the dice uses ability modifier X and the other ability modifier Y.
-- **Group**. This is a group of skills. When learning this, select one of the skills in the description instead. You can learn this multiple times, each time selecting a different subskill.
-- **Synergy (X)**. If you have proficiency with skill X, gain advantage when using that skill.
-- **Trait**. A trait is a binary skill; either you can do it or not. A roll is not required in most cases.
-- **Untrained**. Unless a trait or a specialized activity, this skill can normally be attempted without having proficiency.
-- **→ X**. If you have proficiency with skill X, the cost of this skill is reduced by 1.
+- <b>Cost: X</b>. This skill costs a number of skill points equal to X.
+- <b>Expertise</b>. You have advantage on checks using this proficiency.
+- <b>Expertise (Ability X, Ability Y)</b>. You have advantage, but one of the dice uses ability modifier X and the other ability modifier Y.
+- <b>Group</b>. This is a group of skills. When learning this, select one of the skills in the description instead. You can learn this multiple times, each time selecting a different subskill.
+- <b>Synergy (X)</b>. If you have proficiency with skill X, gain advantage when using that skill.
+- <b>Trait</b>. A trait is a binary skill; either you can do it or not. A roll is not required in most cases.
+- <b>Untrained</b>. Unless a trait or a specialized activity, this skill can normally be attempted without having proficiency.
+- <b>→ X</b>. If you have proficiency with skill X, the cost of this skill is reduced by 1.
 
 
 ### Skill list
@@ -51,7 +51,7 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   <details>
     <summary>Aerial Acrobatics</summary>
 
-    Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have ***Expertise (Dex, Cha)***. During adventuring you could use this skill with Expertise to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
+    Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have <i><b>Expertise (Dex, Cha)</b></i>. During adventuring you could use this skill with Expertise to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
 
   </details>
   <details>
@@ -143,8 +143,8 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
   Animal categories are divided into general and specific types. The general types also include the specific as appropriate, but selecting a specific type of animal grants additional benefits.
 
   ##### General
-  ***Amphibians***. Some tribes in swampy areas use giant frogs/toads for transport, as well as regular sized amphibians that are used for different purposes.
-  ***Birds***. Birds are seldom domesticated. When they are, it is usually for companionship (parrots, falcons, etc).
+  <i><b>Amphibians</b></i>. Some tribes in swampy areas use giant frogs/toads for transport, as well as regular sized amphibians that are used for different purposes.
+  <i><b>Birds</b></i>. Birds are seldom domesticated. When they are, it is usually for companionship (parrots, falcons, etc).
   * Bugs & Spiders. Neither are common, but can be found in some underground societies, most notable the riding spiders of Drow. Hardy giant beetles can be used as pack animals in desert environments.
   * Farm Animals. This includes the animals used in human farms, such as dogs, horses, cows and sheep, but also fowl of different types.
   * Mammals (land). Includes other mammals that are sometimes domesticated, such as elephants and camels.
