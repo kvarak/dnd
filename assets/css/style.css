@@ -226,6 +226,7 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
   border-radius: 8px;
   margin-bottom: 15px;
   float: right;
+  border-radius: 5px;
 }
 
 .restHeading {
@@ -234,6 +235,8 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
   color: white;
   font-size: large;
   font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .restPad {
@@ -243,6 +246,11 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
 
 .restTable {
   padding-right: 4px;
+}
+
+.restTable tr {
+  width: 100%;
+  padding-right: 20px;
 }
 
 .restTable th {
