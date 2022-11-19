@@ -187,11 +187,12 @@ You can use this feature a number of times equal to your Charisma modifier, and 
 Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
 
 
+<!-- | Level \| | Proficiency Bonus | Features | Cantrips Known | Spells Known |  --- Spell Slots Per Spell Level --- |||||||| -->
+
+
 <div class="classTable frame" markdown="1">
 
 ##### The Bard
-
-| Level \| | Proficiency Bonus | Features | Cantrips Known | Spells Known |  --- Spell Slots Per Spell Level --- ||||||||
 
 | Level \| | Proficiency Bonus \| | Features | Cantrips Known \| | Spells Known \| | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
 | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
