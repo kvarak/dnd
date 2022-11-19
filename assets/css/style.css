@@ -142,7 +142,7 @@ details {
 
 hr.classdivider {
   visibility: visible;
-  height: 25px;
+  height: 40px;
   margin: 0.12cm 0;
   background-image: url(../images/skull_divider.png);
   background-size: 100% 100%;
@@ -200,7 +200,13 @@ hr.classdivider {
 					background:#b5e2f1;	}
 
 /* Info areas */
-.descriptive{ background-color: #b5e2f1 !important; }
+.descriptive{
+  background-color: #b5e2f1 !important;
+  border-top: 1px solid #06afe7;
+  border-bottom: 1px solid #06afe7;
+  padding: 8px;
+  margin: 5px;
+}
 
 .phb hr+blockquote {
   background-color: #b5e2f1 !important;;
