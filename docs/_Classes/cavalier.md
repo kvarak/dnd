@@ -4,24 +4,28 @@ layout: default
 ---
 
 # Cavalier
+
+<div class="toc" markdown="1">
+
+#### <a href="#maneuvers">Maneuvers</a>
+#### <a href="#orders">Cavalier Orders</a>
+<a href="#knightErrant">Knight Errant</a><br/>
+<a href="#blueRose">Order of the Blue Rose</a><br/>
+<a href="#dragon">Order of the Dragon</a><br/>
+<a href="#flame">Order of the Flame</a><br/>
+<a href="#lion">Order of the Lion</a><br/>
+<a href="#scales">Order of the Scales</a><br/>
+<a href="#shield">Order of the Shield</a><br/>
+<a href="#star">Order of the Star</a><br/>
+
+</div>
+
 While many warriors strive to perfect their art, spending all of their time honing their skill at martial arms, others spend as much effort dedicating themselves to a cause.
 
 A cavalier is more than just a mere warrior, but a vessel of courage surrounded by armor of chivalry and honor. Whether they are selling their services to lords in a mercenary knighthood roaming the realm or dedicated servants of a castle, cavaliers all share a sense of honor and dignity. Most are nobles, raised to follow in the footsteps of their fathers or mothers who were cavaliers before them.
 
 Others are fortunate souls who were taken on as squires to service in the cavalier’s order at a young age. Bonds of kinship with adventurers or other cavaliers are a common motivating factor for a cavalier. The cavalier stands strong in the face of threats to allies
 and the cavalier’s order.
-
-
-- #### <a href="#maneuvers">Maneuvers</a>
-- #### <a href="#orders">Cavalier Orders</a>
-  - <a href="#knightErrant">Knight Errant</a>
-  - <a href="#blueRose">Order of the Blue Rose</a>
-  - <a href="#dragon">Order of the Dragon</a>
-  - <a href="#flame">Order of the Flame</a>
-  - <a href="#lion">Order of the Lion</a>
-  - <a href="#scales">Order of the Scales</a>
-  - <a href="#shield">Order of the Shield</a>
-  - <a href="#star">Order of the Star</a>
 
 
 ### Honorable Combat
@@ -77,13 +81,8 @@ Members of these orders are not necessarily bound together, but some organizatio
 
 
 
-
-
-
-
-{{}}">classTable,frame,wide,decoration
 ##### The Cavalier
-| Level | Proficiency Bonus | Features | Maneuvers Known | Superiority | Superiority Dice |
+| Level \| | Proficiency Bonus \| | Features | Maneuvers Known \| | Superiority \| | Superiority Dice |
 |:-----:|:-----------------:|:---------|:---------------:|:-----------:|:----------------:|
  1st | +2 | Cavalier order, Challenge, Mounted Expert | - | - | - |
 | 2nd | +2 | Combat Superiority, Second Wind | 3 | 7 | d4 |
@@ -121,6 +120,32 @@ In addition, while challenging a foe, you and all allies within 3o ft have advan
 The challenge lasts for one minute, unless a challenge ability states otherwise. The effect also ends if you attack any other creature besides the target or if you are rendered unconscious.
 
 Once you use this feature, you can't use it again until you finish a short or long rest.
+
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain 1 **Superiority**.
+| * Regain use of **Second Wind**.
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain **Superiority** equal to your proficiency bonus.
+| |
+| Add the following class specific benefits to choose from: |
+| * Reset all uses of **Indomitable**.
+| * Regain all **Superiority**.
+
+</div>
+</div>
+</div>
 
 
 
@@ -165,6 +190,10 @@ To use a maneuver, you have to spend ***Superiority***. Most maneuvers require y
 #### Superiority Dice
 Some maneuvers have effects based on your superiority die. You start with a d6, and it increases as you level, as shown in the Cavalier table.
 
+
+<img src='https://robertrigo.github.io/assets/images/cavalier.png' style='float:right;width:37%;padding:20px' />
+
+
 #### Saving Throws
 Some of your maneuvers require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:
 
@@ -178,9 +207,6 @@ From 1st level, you have a limited well of stamina that you can draw on to prote
 
 Once you use this feature, you must finish a short rest before you can use it again.
 
-
-
-![cavalier](https://robertrigo.github.io/assets/images/cavalier.png) {width:100%,margin-top:0px}
 
 ### Ability Score Improvement
 When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -208,43 +234,12 @@ Your courageous words inspire valor and ferocity in your allies, allowing you to
 
 **Proficiencies**. When you multiclass into the cavalier class, you gain the following proficiencies: Light armor, medium armor, shields, simple weapons, martial weapons
 
+</div>
 
 
+<h2><a class="internal-link" name="orders">Cavalier Order</a></h2>
 
 
-
-
-
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain 1 **Superiority**.
-| | * Regain use of **Second Wind**.
-
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain **Superiority** equal to your proficiency bonus.
-| | |
-| Add the following class specific benefits to choose from: ||
-| | * Reset all uses of **Indomitable**.
-| | * Regain all **Superiority**.
-
-
-
-
-
-
-## <a name="orders">Cavalier Order</a>
 When you select this class, you must pledge yourself to a specific order. The order grants a number of bonuses, class skills and traits. In addition, each order includes a number of edicts that you must follow. If you violate any of these edicts, you loses the benefits from the order's challenge ability for 24 hours. The violation of an edict is subject to GM interpretation.
 
 Members of these orders are not necessarily bound together, but some organizations do exist that are comprised of cavaliers that all belong to one specific order.
@@ -271,8 +266,9 @@ Members of these orders are not necessarily bound together, but some organizatio
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="knightErrant">Knight Errant</a></h1>
 
-# Knight Errant
 Knights errant are brave mercenary warriors who wander the land, following no particular order but still upholding a code of chivalry wherever they go. Knights errant travel the land in search of adventure, to show off their combat prowess and help those in need wherever they travel. A knight errant pays no kingdom fealty, holding only to the service of those who need them, or those who pay them. These knights are often nomadic but provide their services to those in need. If a kingdom is in need, the knight will likely expect payment for services rendered.
 
 <div class="descriptive" markdown="1">
@@ -281,12 +277,12 @@ Knights errant are brave mercenary warriors who wander the land, following no pa
 #### Edicts
 A knight errant helps people in distress and provides their skills for a fee to those who can afford it.
 * You may not ignore the pleas of those of lesser station than you. As a knight, you must help those in need when you find them.
-
 * You must be a beacon of hope and strength for all who see you, you are not allowed to be rude to the common folk.
 
-
+</div>
 
 #### Order Features
+
 | Cavalier Level | Feature |
 |:--------------:|:--------|
 | 1st | Bonus Proficiency
@@ -333,9 +329,10 @@ At 18th level, whenever you use Challenge, Battlefield Inspiration or Bolstering
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="blueRose">Order of the Blue Rose</a></h1>
 
 
-# Order of the Blue Rose
 The cavaliers of the order of the blue rose dedicate themselves to promoting peace in the lands they roam. Skilled warriors and adept diplomats, these cavaliers counsel wisdom, patience, and understanding, but are ever mindful of the need to take up arms to strike down aggressors, tyrants, or evil usurpers. Although they believe wholeheartedly in peace as an aim and a final goal, cavaliers of the blue rose are warriors first, and embrace their role as guardians of those who cannot or will not take up arms to defend themselves.
 
 <div class="descriptive" markdown="1">
@@ -343,14 +340,13 @@ The cavaliers of the order of the blue rose dedicate themselves to promoting pea
 #### Edicts
 Cavaliers of the Blue Rose share the following edicts.
 * The cavalier must guard against needless violence, protecting both the land and its people from wars they neither started nor wish to fight.
-
 * He must seek to stop conflict with a minimum of bloodshed, to encourage peaceful resolutions to disagreements between intelligent creatures, and to mend the wounds opened by battle.
-
 * He must also honor quarter when he gives it, protecting captives who have surrendered from his own allies if need be.
 
-
+</div>
 
 #### Order Features
+
 | Cavalier Level | Feature |
 |:--------------:|:--------|
 | 1st | Bonus Proficiency
@@ -398,9 +394,10 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="dragon">Order of the Dragon</a></h1>
 
 
-# Order of the Dragon
 Cavaliers belonging to the order of the dragon dedicate themselves to a group of like-minded individuals, be it a mercenary company or a small band of adventurers. These cavaliers believe in loyalty and friendship, and are willing to lay down their lives to protect their allies.
 
 <div class="descriptive" markdown="1">
@@ -408,12 +405,12 @@ Cavaliers belonging to the order of the dragon dedicate themselves to a group of
 #### Edicts
 Cavaliers of the Dragon share the following edicts.
 * The cavalier must remain loyal to his allies and must always work to further the aims of the group.
-
 * He must protect his allies from harm and defend their honor when called into doubt.
 
-
+</div>
 
 #### Order Features
+
 | Cavalier Level | Feature |
 |:--------------:|:--------|
 | 1st | Bonus Proficiency
@@ -454,10 +451,9 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="flame">Order of the Flame</a></h1>
 
-
-
-# Order of the Flame
 A cavalier of the order of the flame devotes his life to the pursuit of personal glory. Even if such pursuit puts his own life on the line, the cavalier pursues legendary status and the fame and glory associated with such renown.
 
 <div class="descriptive" markdown="1">
@@ -465,14 +461,13 @@ A cavalier of the order of the flame devotes his life to the pursuit of personal
 #### Edicts
 Cavaliers of the Flame share the following edicts.
 * The cavalier must pursue glory for himself and those with whom he associates.
-
 * He must strive to heap glory upon his name, no matter the costs.
-
 * He must challenge and defeat an ever-increasing host of rivals to further cement his illustrious reputation.
 
-
+</div>
 
 #### Order Features
+
 | Cavalier Level | Feature |
 |:--------------:|:--------|
 | 1st | Bonus Proficiency
@@ -511,10 +506,9 @@ At 18th level, you can, as a ***bonus action***, declare a moment of triumph. Un
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="lion">Order of the Lion</a></h1>
 
-
-
-# Order of the Lion
 A cavalier who belongs to this order has pledged himself to a sovereign; be it a king, queen, or even the local warlord. Cavaliers of this order are stalwart and dedicated to their cause, willing to go any length to ensure the safety of their lord and his domain.
 
 <div class="descriptive" markdown="1">
@@ -522,14 +516,13 @@ A cavalier who belongs to this order has pledged himself to a sovereign; be it a
 #### Edicts
 Cavaliers of the Lion share the following edicts.
 * The cavalier must protect the life and lands of his sovereign at all costs.
-
 * He must obey the commands of his sovereign without question.
-
 * He must strive to expand the power and prestige of his realm.
 
-
+</div>
 
 #### Order Features
+
 | Cavalier Level | Feature |
 |:--------------:|:--------|
 | 1st | Bonus Proficiency
@@ -568,10 +561,9 @@ In addition, as a ***reaction***, you can redirect an attack made at a creature 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="scales">Order of the Scales</a></h1>
 
-
-
-# Order of the Scales
 Truth is the most sacred of all ideals. The order of the scales cavalier safeguards the truth in all its forms, punishing liars, cheaters, and traitors, and never lying or bending the truth himself. The order of the scale cavalier is steadfast and just. He does not bend to lies nor trickery. His devotion to truth is more unshakable than many clergymen's devotion to their gods. His presence fills good men with awe and inspiration, and it brings fear to charlatans.
 
 Members of this cavalier order serve the cause of legal integrity. Many order of the scales cavaliers track down and apprehend fleeing lawbreakers so that these vagrants may answer for their crimes and make good on their debts. They often serve as judges or stakeholders, and work to ensure that wherever a bargain is made—whether it is monetary, a life debt, or an oath to be upheld—both ends make good on their promises.
@@ -580,17 +572,17 @@ Members of this cavalier order serve the cause of legal integrity. Many order of
 
 #### Edicts
 Cavaliers of the Scales share the following edicts.
-
 * The cavalier is not allowed to deliberately speak any lies, including bluffing, stating half-truths with the intent to deceive, exaggerating, telling white lies, and so on.
-
 * The cavalier must fulfill all binding agreements he makes.
 * If a bargain becomes impossible to fulfill, he must satisfactorily compensate all aggrieved or adversely affected parties involved in the bargain.
 * When serving as a judge or arbiter, the cavalier must make fair, impartial judgments, and if unable to do so, must recuse himself at the earliest possibility.
 * If authorized to enforce an agreement, the cavalier must wholeheartedly strive to accomplish this, remaining unswayed by threats, bribery, and other deterrents.
 
+</div>
 
 
 #### Order Features
+
 | Cavalier Level | Feature |
 |:--------------:|:--------|
 | 1st | Bonus Proficiency
@@ -628,24 +620,22 @@ At 18th level, you can tell if people are lying around you. As an ***action*** y
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="shield">Order of the Shield</a></h1>
 
-
-
-# Order of the Shield
 Cavaliers who join the order of the shield devote their lives to protecting the common folk, from the simple farmer to the honest craftsman. These cavaliers stand before the tide, protecting the innocent from roving marauders and hungry monsters.
 
 <div class="descriptive" markdown="1">
 
 Cavaliers of the Shield share the following edicts.
 * The cavalier must protect the lives and prosperity of the common folk, shielding them from the deprivations of those who would seek to cause them harm or exploit them.
-
 * He must give charity when it is warranted and aid when needed.
-
 * He must take no action that would cause harm or hardship to those who cannot defend themselves.
 
-
+</div>
 
 #### Order Features
+
 | Cavalier Level | Feature |
 |:--------------:|:--------|
 | 1st | Bonus Proficiency
@@ -688,24 +678,22 @@ At 18th level, you can move to intercept foes. When a foe makes an action, as a 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="star">Order of the Star</a></h1>
 
-
-
-
-# Order of the Star
 Cavaliers who join the order of the star dedicate themselves to the protection and service of a faith and its members. Cavaliers belonging to this order tend to follow many of the tenets and guides of the religion that they serve. When a cavalier joins this order, he should select a single religion to serve.
 
 <div class="descriptive" markdown="1">
 
 #### Edicts
 Cavaliers of the Star share the following edicts.
-* Te cavalier must strive to protect the faith and all those who follow its teachings, from priest to common man.
-
+* The cavalier must strive to protect the faith and all those who follow its teachings, from priest to common man.
 * He must adhere to the strictures of the faith, promote its cause whenever possible, and serve the agents of the divine.
 
-
+</div>
 
 #### Order Features
+
 | Cavalier Level | Feature |
 |:--------------:|:--------|
 | 1st | Bonus Proficiency
@@ -742,10 +730,9 @@ At 18th level, you can take retribution on those who dare to strike an agent of 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="maneuvers">Maneuvers</a></h1>
 
-
-
-# <a name="maneuvers">Maneuvers</a>
 If a maneuver has prerequisites, you must meet them to learn it. You can learn the maneuver at the same time you meet its prerequisites. A level prerequisite refers to your class level.
 
 Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
@@ -820,18 +807,15 @@ When you make an attack roll against a creature, you can add your one superiorit
 #### Rally
 You can use a ***bonus action*** to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see and hear you to gain temporary hit points.
 
-You grant more temporary hit points as you gain fighter class levels and become a more inspiring battle master.
+You grant more temporary hit points as you gain cavalier class levels and become a more inspiring battle master.
 
-{{}}">column-count:2
-| Level | Temporary HP |
-|:-----:|:-----------|
-| 2nd | 1d6 + fighter level
-| 7th | 2d8 + fighter level
 
 | Level | Temporary HP |
 |:-----:|:-----------|
-| 12th | 3d10 + fighter level
-| 17th | 4d12 + fighter level
+|  2nd | 1d6 + cavalier level
+|  7th | 2d8 + cavalier level
+| 12th | 3d10 + cavalier level
+| 17th | 4d12 + cavalier level
 
 
 
