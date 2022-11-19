@@ -137,30 +137,27 @@ You can mix together herbs to create potions that cure ailments and injuries. If
 
 
 <div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following class specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Long rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>During a Long rest:</td></tr>
-          <tr><td></td><td>- Create 2 <b>Concoctions</b>.</td></tr>
-          <tr><td></td><td>- Create any number of potions with <b>Brew Potions</b>.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
-          <tr><td colspan=2>After a Long rest:</td></tr>
-          <tr><td></td><td>- Regain 1 <b>Alchemy point</b>.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
-          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>- Regain all <b>Alchemy points</b>.</td></tr>
-          <tr><td></td><td>- Create 2 additional <b>Concoctions</b>.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
+| Long rest |
+|:-|
+| During a Long rest: |
+| * Create 2 ***Concoctions***.
+| * Create any number of potions with ***Brew Potions***.
+| &nbsp;
+| After a Long rest: |
+| * Regain 1 ***Alchemy point***.
+| &nbsp;
+| Add the following class specific benefits to choose from: |
+| * Regain all ***Alchemy points***.
+| * Create 2 additional ***Concoctions***.
+
+</div>
+</div>
+</div>
 
 
 ### Studious Expertise
@@ -285,6 +282,21 @@ The panacea must be consumed within 24 hours, after which it becomes inert. You 
 
 The art of corpsecrafting specializes in using alchemy to reanimate and reshape the bodies of the fallen. Corpsecrafters, unlike necromancers they're often compared to, prefer to focus their efforts on their macabre creations; a cadaver, to perform a variety of tasks for them by use of a combination of magical and alchemical augmentations.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| During a Short rest: |
+| * Repair your ***Cadaver***.
+
+</div>
+</div>
+</div>
+
 #### Features
 
 | Alchemist level | Feature |
@@ -361,22 +373,7 @@ In combat, the cadaver shares your initiative count, but it takes its turn immed
 
 If you spend a short rest with your leatherworker's tools on your cadaver, it regains 2d6 hit points.
 
-<div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following class specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Short rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>During a Short rest:</td></tr>
-          <tr><td></td><td>- Repair your <b>Cadaver</b>.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
+
 
 ##### Hiding the undead
 Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
