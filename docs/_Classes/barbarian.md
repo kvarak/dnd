@@ -143,29 +143,26 @@ Additionally you always have advantage with those skill.
 
 
 <div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following class specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Short rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>After a short rest:</td></tr>
-          <tr><td></td><td>- Regain 1 <b>Fury</b>.</td></tr>
-          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> by 1.</td></tr>
-        </tbody>
-      </table>
-      <table><thead><th colspan=2>Long rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>During a Long rest:</td></tr>
-          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>- Regain 10 <b>Fury</b>.</td></tr>
-          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> to 10.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain 1 ***Fury***.
+| * Reset DC of ***Relentless Rage*** by 1.
+
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain 10 ***Fury***.
+| * Reset DC of ***Relentless Rage*** to 10.
+
+</div>
+</div>
 </div>
 
 
@@ -562,6 +559,21 @@ Creatures that are Tiny or smaller cannot be used for this feature. Small creatu
 
 Juggernaut barbarians are siege engines in their own right, able to stand their ground and move their foes into positions of weakness. While raging, they make any battlefield their domain, shoving enemies over mountain sides and destroying any battle formation trying to stand in their way.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a Long rest: |
+| * Reset all uses of ***Wrought Endurance***.
+
+</div>
+</div>
+</div>
+
 ### Features
 
 | Barbarian Level | Feature |
@@ -573,22 +585,6 @@ Juggernaut barbarians are siege engines in their own right, able to stand their 
 | 14th | Wrought Endurance |
 
 
-<div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following path specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Long rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>After a Long rest:</td></tr>
-          <tr><td></td><td>- Reset all uses of <b>Wrought Endurance</b>.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
 
 ### Stance of the Mountain
 You harness your fury to anchor your feet to the earth, shrugging off the blows of those who wish to topple you. Upon choosing this path at 1st level, you cannot be knocked prone while raging unless you become unconscious.
@@ -642,6 +638,22 @@ Barbarians on this course find their rage brings great clarity of mind, allowing
 | 3 | You don't care for fame, but the stakes and secrecy of being part of an elite military unit are all you've ever wanted.
 | 4 | Hunting terrible monsters and otherworldly foes beside your friends seems like the ideal way to go out.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Reset use of ***Fighting Dirty***.
+| * Reset use of ***Improvised Assault***.
+
+
+</div>
+</div>
+</div>
 
 ### Features
 
@@ -652,26 +664,6 @@ Barbarians on this course find their rage brings great clarity of mind, allowing
 | 6th | Assured Assignment
 | 10th | Improvised Assault
 | 14th | Leading by Example
-
-
-
-<div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following path specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Short rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>After a short rest:</td></tr>
-          <tr><td></td><td>- Reset use of <b>Fighting Dirty</b>.</td></tr>
-          <tr><td></td><td>- Reset use of <b>Improvised Assault</b>.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
 
 
 ### Coarse Negotiator
@@ -1186,6 +1178,21 @@ The vulture is a majestic beast with strong beak and large wings that feed on th
 
 While some barbarians prefer a life of savage solitude, others long for a tribe. Barbarians on the Path of the War Chief are leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain one of the spells from your ***Commanding Presence*** feature.
+
+</div>
+</div>
+</div>
+
 ### Features
 
 | Barbarian Level | Feature |
@@ -1197,22 +1204,6 @@ While some barbarians prefer a life of savage solitude, others long for a tribe.
 | 14th | Chieftain’s Voice, Battlecry (5) |
 
 
-<div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following path specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Long rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>- Regain one of the spells from your <b>Commanding Presence</b> feature.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
 
 
 ### Bonus Proficiency
@@ -1282,6 +1273,21 @@ Additionally, the range of your War Song increases to 30 feet, and when you issu
 
 Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots—warriors who channel their rage into powerful displays of divine power. A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Reset your ***Zealous Presence*** feature.
+
+</div>
+</div>
+</div>
+
 ### Features
 
 | Barbarian Level | Feature |
@@ -1292,23 +1298,6 @@ Some deities inspire their followers to pitch themselves into a ferocious battle
 | 10th | Zealous Presence |
 | 14th | Rage beyond Death |
 
-
-<div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following path specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Long rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>- Reset your <b>Zealous Presence</b> feature.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
 
 
 ### Warrior of the Gods
