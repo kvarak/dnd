@@ -57,8 +57,9 @@ It is also the bard’s role to chronicle smaller and more contemporary events �
 
 Of course, the world has many people who can carry a tune or tell a good story, and there’s much more to any adventuring bard than a glib tongue and a melodious voice. Yet what truly sets bards apart from others — and from one another — are the style and substance of their performances.
 
-#### Not just musicians
 > *"There is nothing I would like to do more than explain to you why I'm standing here with stolen goods and my rapier sticking out of this still-warm corpse, officer. I assure you, l have a completely reasonable and plausible explanation."*
+
+#### Not just musicians
 
 Singing songs and strumming lutes might be fine for most bards. Who doesn't like a rousing shanty now and then? But standing in a crowded tavern playing for copper pieces tossed by commoners isn't for everyone. As a bard you can do anything, and even if you can not do something, you can make it appear as you do. The perception of you is a finely tuned instrument in its own right - and you're just the one to pluck it.
 
@@ -220,31 +221,24 @@ Your Bardic Inspiration die changes when you reach certain levels in this class.
 
 
 <div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following class specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Short rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>After a short rest:</td></tr>
-          <tr><td></td><td>- If you have the <b>Font of Inspiration</b> feature, regain one <b>Bardic Inspiration</b>.</td></tr>
-        </tbody>
-      </table>
-      <table><thead><th colspan=2>Long rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>During a Long rest:</td></tr>
-          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>- Regain all uses of <b>Bardic Inspiration</b>.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * If you have the ***Font of Inspiration*** feature, regain one ***Bardic Inspiration***.
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Bardic Inspiration***.
+
 </div>
-
-
-
+</div>
+</div>
 
 
 
@@ -397,11 +391,7 @@ Monsters that aren't already hostile make Wisdom saves against the bard's spell 
 
 
 
-
-
-
-
-# Bard Colleges
+## Bard Colleges
 The way of a bard is gregarious. Bards seek each other out to swap songs and stories, boast of their accomplishments, and share their knowledge. Bards form loose associations, which they call colleges, to facilitate their gatherings and preserve their traditions.
 
 ### Art of Acting
@@ -551,38 +541,32 @@ Song is not the only art form that can tell a story. After all, an image is wort
 | 6th | Still Life, When Art Comes to Life |
 | 14th | Summoning Maestro |
 
-#### Spellcasting Focus
-You can use a pen and paper, or basically anything you can draw a quick sketch with, as a spellcasting focus for your spells and class features instead of an instrument.
 
 
 <div class="card rest">
-  <div class="card-title restHeading">
-    Rest Additions
-  </div>
-  <div class="card-subtitle restPad">
-    The following class specific additions are made to the general rest rules.
-    <div class="card-text restTable">
-      <table><thead><th colspan=2>Short rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>After a short rest:</td></tr>
-          <tr><td></td><td>- Regain 1 <b>Fury</b>.</td></tr>
-          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> by 1.</td></tr>
-        </tbody>
-      </table>
-      <table><thead><th colspan=2>Long rest</th></thead>
-        <tbody>
-          <tr><td colspan=2>During a Long rest:</td></tr>
-          <tr><td></td><td>- Prepare or change sketches for <b>Sketchbook of Summons</b>.</td></tr>
-          <tr><td colspan=2>&nbsp;</td></tr>
-          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>- Regain spent summons from your <b>Sketchbook of Summons</b>.</td></tr>
-          <tr><td></td><td>- Regain uses of <b>Still Life</b>.</td></tr>
-          <tr><td></td><td>- Reset free uses of spells from <b>When Art Comes to Life</b>.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| During a Long rest: |
+| * Prepare or change sketches for ***Sketchbook of Summons***.
+| &nbsp; |
+| Add the following class specific benefits to choose from: |
+| * Regain spent summons from your ***Sketchbook of Summons***.
+| * Regain uses of ***Still Life***.
+| * Reset free uses of spells from ***When Art Comes to Life***.
+
 </div>
+</div>
+</div>
+
+
+
+#### Spellcasting Focus
+You can use a pen and paper, or basically anything you can draw a quick sketch with, as a spellcasting focus for your spells and class features instead of an instrument.
 
 ### Bonus Proficiencies
 When you join the College of Awakened Art at 1st level, you gain proficiency with painting, drawing and the Perception skill. You also have advantage on checks made to identify art or its origins.
@@ -625,10 +609,13 @@ Starting at 14th level, you now use your sketchbook twice. Additionally, they no
 
 
 
-# <a name="beasts">College of Beasts</a>
+<hr class="classdivider">
+<h1><a class="internal-link" name="beasts">College of Beasts</a></h1>
+
 Bards of the College of Beasts have a fascination with other creatures, making bonds with them and learning far more about them than others even realize there is to know. These bards can often be seen in circuses, training the animals, or wandering the world, with their animals as their only traveling and performing companions. They often gather at festivals in order to show off their companions and exchange tips on how to raise them.
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Animal Companion, Bonus Proficiencies |
@@ -674,18 +661,43 @@ Beginning at 14th level, when you cast a spell targeting yourself, you can also 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="colors">College of Colors</a></h1>
 
-
-# <a name="colors">College of Colors</a>
 The College of Colors is a school for Bards who excel in visual arts, and who delight in the color of the world. Color is just light, after all, and light is a gift. Likewise, your art is a gift that people should delight to enjoy. Manipulation of light is an art that can be brilliantly beautiful and dangerous. An artistic masterpiece is just one brush stroke away from burning radiance ripping into your enemies. When using spell or bardic songs, a coloration bard may paint their spell effects into thin air or decorate a canvas with elaborate runes.
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
 | 3rd | Prismatic Inspiration |
 | 6th | Visual Saturation |
 | 14th | Bending Light |
+
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***color spray***.
+| * Regain use of both ***Visual Saturation*** effects.
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain spent summons from your ***Sketchbook of Summons***.
+| * Regain use of ***Bending Light***.
+
+</div>
+</div>
+</div>
+
 
 
 #### Spellcasting Focus
@@ -716,9 +728,9 @@ At level 3, your inspiration is a work of art that can't be contained by just on
 ### Visual Saturation
 At level 6, you have done significant research into how magic and light interplay, and the reason that some magic is visible to the naked eye, while some is not. You are able to tamper with this, to dampen or expose the light of magic at will.
 
- **Dampening**. As a ***reaction***, you can muffle the visible effects of any spell which originates from within 30 feet of you, rendering the spell invisible. The caster and the spell components performed are not invisible, only the spell's effect. If you use this effect on a spell that requires a spell attack roll, the caster has advantage on that roll to hit their target. You could also, for example, turn a Cloud of Daggers or a Web spell invisible, making it a perfect trap for a narrow corridor.
+**Dampening**. As a ***reaction***, you can muffle the visible effects of any spell which originates from within 30 feet of you, rendering the spell invisible. The caster and the spell components performed are not invisible, only the spell's effect. If you use this effect on a spell that requires a spell attack roll, the caster has advantage on that roll to hit their target. You could also, for example, turn a Cloud of Daggers or a Web spell invisible, making it a perfect trap for a narrow corridor.
 
- **Exposing**. You can choose to overwhelm an opponent's senses. The Weave of Magic is all around us, and using your skill to make it temporarily visible to a creature would be like moving the sun to be inches away. As an ***action***, you can force a creature within 5 feet of you to make a Wisdom saving throw using your Bardic spell DC. On a failure, they are incapacitated until the beginning of your next turn, and blinded for 10 minutes. On a success, nothing happens. The creature may attempt a new Constitution saving throw at the end of each of its turns to become see again.
+**Exposing**. You can choose to overwhelm an opponent's senses. The Weave of Magic is all around us, and using your skill to make it temporarily visible to a creature would be like moving the sun to be inches away. As an ***action***, you can force a creature within 5 feet of you to make a Wisdom saving throw using your Bardic spell DC. On a failure, they are incapacitated until the beginning of your next turn, and blinded for 10 minutes. On a success, nothing happens. The creature may attempt a new Constitution saving throw at the end of each of its turns to become see again.
 
 You can use each of these abilities once, and reagin their use after a short rest.
 
@@ -732,38 +744,9 @@ These illusions look perfect, but act very crudely as it is difficult to maintai
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="crossroads">College of Crossroads</a></h1>
 
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of ***color spray***.
-| | * Regain use of both ***Visual Saturation*** effects.
-
-| Long rest ||
-|:-|:------- |
-| Add the following college specific benefits to choose from: ||
-| | * Regain use of **Bending Light**.
-
-
-
-
-
-
-
-
-
-
-
-# <a name="crossroads">College of Crossroads</a>
 Most bards practice endlessly to perfect their craft, taking every opportunity to perform and hone their musical skills. Becoming a musician is a long, arduous road that requires passion, talent, and a great deal of fortune, but not all bards are so diligent. Some seek out a shortcut, no matter what the cost―even if it means their souls.
 
 These bards are named for the traditional location where such mortal bargains are made. An agreement with a devil, demon, or other denizen of the lower planes is but the start of such a bard's quest for personal power and fame.
@@ -771,12 +754,30 @@ These bards are named for the traditional location where such mortal bargains ar
 Striking a deal with a powerful devil (or another sinister power) can confer upon a bard unbelievable musical skills, but usually comes a mortal cost to be extracted at a later date. Few bards walk this infernal path, but those that do invariably gain legendary skill and a meteoric rise to stardom. Other bards label this group of pact-makers the College of Baator: a designation laced with seething jealousy, begrudging respect, and a pious moral judgement that devils should never be trusted.
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Infernal Musician |
 | 3rd | Infernal Duelist |
 | 6th | Eldritch Invocation |
 | 14th | Eldritch Invocation (additional invocation), Hellish Recovery |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***color spray***.
+| * Either gain or spend ***spell points*** using ***Hellish Recovery***.
+
+</div>
+</div>
+</div>
+
 
 
 #### Spellcasting Focus
@@ -807,30 +808,12 @@ You can use your action to recover an expended spell slot of 5th level or lower.
 
 In addition, you learn the *infernal calling* spell, which counts as a bard spell for you and doesn’t count against the number of bard spells you know.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Either gain or spend ***spell points*** using **Hellish Recovery**.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="dance">College of Dance</a></h1>
 
-
-
-
-
-
-
-
-# <a name="dance">College of Dance</a>
 The college of dance teaches bards who are exceptionally in tune with their bodies, weaving movement, combat with or without a weapon and spellcasting into a singular art of self-expression. Dancers prefer small, light instruments, commonly a tambourine, a set of finger cymbals, or percussion instruments worn around the ankles, but a few manage to play other instruments while dancing.
 
 While most dancers do not cut an imposing figure, they are highly effective fighters with or without a weapon: their graceful leaping movements can provide them with a burst of speed or the ability to make wild unpredictable movements that make them almost impossible to pin down, especially in single combat.
@@ -839,6 +822,7 @@ When paired with an ally, a dancer makes for a frenetic, distracting presence, m
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies, Combat Dancing |
@@ -846,6 +830,21 @@ When paired with an ally, a dancer makes for a frenetic, distracting presence, m
 | 6th | Choose a Partner |
 | 14th | Dance Party |
 
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Choose a Partner***.
+
+</div>
+</div>
+</div>
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your bard spells.
@@ -896,41 +895,35 @@ From 14th level, after you have used a Dance Flourish, you can grant up to three
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="desire">College of Desire</a></h1>
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of ***Choose a Partner***.
-
-
-
-
-
-
-
-
-
-
-
-# <a name="desire">College of Desire</a>
 Bards of the College of Desire are peerless in a particular art, and that art is infatuation. With a pluck of a string, they can cause the heart to stir and bubble with complex emotion, whether through music or with their enchanted arrows. While a benevolent member of the College of Desire would seek to lighten the load of a heavy heart if only for a moment, many of them take advantage of their ability to cause chaos. Nothing is easier to control than the heart, or so they say.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
 | 3rd | Cherubic Arrow |
 | 6th | Cherubic Charm |
 | 14th | Amorous Atmosphere |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following college specific benefits to choose from: |
+| * Regain use of ***Amorous Atmosphere***.
+
+</div>
+</div>
+</div>
 
 
 #### Spellcasting Focus
@@ -962,18 +955,6 @@ At 14th level, each and every heart flutters at your presence. As an ***action**
 
 Once you use this feature, you can't use it again until you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following college specific benefits to choose from: ||
-| | * Regain use of ***Amorous Atmosphere***.
 
 
 
@@ -981,17 +962,16 @@ The following college specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="doors">College of Doors</a></h1>
 
-
-
-
-# <a name="doors">College of Doors</a>
 Bards of the College of Doors are roamers of the planes who tell tales of their travels and the fantastical places they've seen. The College of Doors believes that the infinite vastness of the planes, outer, inner, upper, and lower, is where the truest sense of wonder originates. From the plains of the Beastlands, to the great gears of Mechanus, to the chaotic islands of Limbo there are new things to experience and see, and those things are worth writing poems and songs and performances about.
 
 Not many people ever leave their home plane, but it is the purpose of the College of Doors to spread the distant wonders of the planes to those who cannot see it for themselves.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
@@ -1031,19 +1011,36 @@ From 14th level you can travel between any two Magic Doors regardless of their d
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="entropy">College of Entropy</a></h1>
 
-
-# <a name="entropy">College of Entropy</a>
 Bards of the College of Entropy are itinerate gamblers and daring thrill seekers whose actions are supremely unpredictable. Rather than relying on ancient lore or skill with arms, these bards throw themselves into new challenges just to see what happens, trusting in luck to see them through. They’re called luck stealers (with a mixture of derision and respect) because no matter how bad things get for everyone around them, these bards always seem to come out unscathed.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
 | 3rd | Luck Stealer |
 | 6th | Infusion of Fortune |
 | 14th | Belief is a tool |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Infusion of Fortune***.
+| * Regain use of ***Belief is a tool***.
+
+</div>
+</div>
+</div>
 
 
 #### Spellcasting Focus
@@ -1087,79 +1084,16 @@ The following spells are considered chaos spells.
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of ***Infusion of Fortune***.
-| | * Regain use of ***Belief is a tool***.
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="eulogies">College of Eulogies</a></h1>
 
-
-
-
-
-
-
-# <a name="eulogies">College of Eulogies</a>
 Bards are masters of eliciting all types of emotion. They use their musical magic to make audiences feel longing for places they have never been and love for people long dead. Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and horror. They take their name from the speeches typically delivered in memory of the deceased, for they see themselves as bringers of death.
 
 Combined with a talent for necromancy magic, Eulogy bards wield the power of fear and despair to fill their foe's hearts with horror and bind restless spirits to their will.
-
-
-#### College Features
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Deep Despair, Lament for the Dead |
-| 3rd | Bardic Dirge |
-| 6th | Restless Spirit |
-| 14th | Infectious Despair |
-
-
-#### Spellcasting Focus
-You can use a musical instrument as a spellcasting focus for your bard spells.
-
-### Deep Despair
-You are not the bard that spreads cheer and joy throughout your adventures. Instead of inspiring the ones you care for with courage and care, your Bardic Inspiration now inspires deep despair in your enemies.
-
-Starting when you join the College of Eulogies at 1st level, you use your inspiration to harm your enemies instead of support your allies. Other creatures can no longer expend your bardic inspiration, and you can stack as many dice equal to your proficiency bonus on any single creature. Your Bardic Inspiration now can do the following:
-
-#### Torment
-As a ***reaction*** when a creature with a Bardic Inspiration rolls for an ability check, attack roll, or saving throw, you can expend the Bardic Inspiration the creature holds to try and alter the result. You roll a Bardic Inspiration and subtract the number from the roll.
-
-#### Misery
-As an ***action*** you may expend as many Bardic Inspiration that a creature has in order to hasten their death. Roll the amount of die that you have used and the creature takes necrotic damage equal to the amount rolled.
-
-
-
-#### Reap
-As a ***reaction*** when a creature’s hit points are reduced to 0 within 30 feet of you, you can regain the Bardic Inspirations they had on them and give an equal amount of bardic inspirations to another creature within 30 feet of you.
-
-### Lament for the Dead
-Also at 1st level, you gain proficiency in the lore magic associated with death. Additionally whenever you make an ability check to recall knowledge about rituals related to death, undead, or the magic of necromancy, you have advantage.
-
-### Bardic Dirge
-You wield the melancholic magic of negative emotions, and can use it to inflict minor curses. From 3rd level, when a creature within 60 feet who can hear you, makes an attack roll, ability check, or saving throw, you can give any number of bardic inspiration to the creature  as a ***reaction*** and if you wish, you can use Torment from the Deep Despair feature as part of the same reaction.
-
-### Restless Spirit
-At 6th level, you can summon and bind the Restless Spirits of those who died with unfinished business. At the end of a long rest, you can perform a short ritual that summons such a spirit. A Spirit bound in this way is friendly to you, obeys your commands, and uses the Restless Spirit stat block. The stat block uses your proficiency bonus (PB) in several places.
-
-In combat, the Spirit acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you used a ***bonus action*** on your turn to command it to take an action from its stat block, or another action. If you are incapacitated, it takes any action it chooses.
-
-If your Spirit was destroyed within the last hour, you can expend a spell slot of 1st-level or higher. After 1 minute, it returns from beyond the veil with all its hit points restored.
-
-### Infectious Despair
-The sadness and despair that you inflict upon your enemies cloys to them until it exacts its toll. Beginning at 14th level, when you use Misery from the Deep Despair feature, the inspiration is not lost if the target dies and you use Reap as a reaction immediately direct after.
 
 
 
@@ -1211,6 +1145,7 @@ Restless Spirit
 <tr><td><hr></td></tr>
 <tr><td markdown="1">
 
+
 ##### Actions
 
 ***Spectral Weapon.*** *Melee Attack:* your spell attack modifier to hit. *On hit*: 1d8+2+PB necrotic damage.
@@ -1223,18 +1158,66 @@ Restless Spirit
 
 
 
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Deep Despair, Lament for the Dead |
+| 3rd | Bardic Dirge |
+| 6th | Restless Spirit |
+| 14th | Infectious Despair |
+
+
+
+#### Spellcasting Focus
+You can use a musical instrument as a spellcasting focus for your bard spells.
+
+### Deep Despair
+You are not the bard that spreads cheer and joy throughout your adventures. Instead of inspiring the ones you care for with courage and care, your Bardic Inspiration now inspires deep despair in your enemies.
+
+Starting when you join the College of Eulogies at 1st level, you use your inspiration to harm your enemies instead of support your allies. Other creatures can no longer expend your bardic inspiration, and you can stack as many dice equal to your proficiency bonus on any single creature. Your Bardic Inspiration now can do the following:
+
+#### Torment
+As a ***reaction*** when a creature with a Bardic Inspiration rolls for an ability check, attack roll, or saving throw, you can expend the Bardic Inspiration the creature holds to try and alter the result. You roll a Bardic Inspiration and subtract the number from the roll.
+
+#### Misery
+As an ***action*** you may expend as many Bardic Inspiration that a creature has in order to hasten their death. Roll the amount of die that you have used and the creature takes necrotic damage equal to the amount rolled.
+
+
+
+#### Reap
+As a ***reaction*** when a creature’s hit points are reduced to 0 within 30 feet of you, you can regain the Bardic Inspirations they had on them and give an equal amount of bardic inspirations to another creature within 30 feet of you.
+
+### Lament for the Dead
+Also at 1st level, you gain proficiency in the lore magic associated with death. Additionally whenever you make an ability check to recall knowledge about rituals related to death, undead, or the magic of necromancy, you have advantage.
+
+### Bardic Dirge
+You wield the melancholic magic of negative emotions, and can use it to inflict minor curses. From 3rd level, when a creature within 60 feet who can hear you, makes an attack roll, ability check, or saving throw, you can give any number of bardic inspiration to the creature  as a ***reaction*** and if you wish, you can use Torment from the Deep Despair feature as part of the same reaction.
+
+### Restless Spirit
+At 6th level, you can summon and bind the Restless Spirits of those who died with unfinished business. At the end of a long rest, you can perform a short ritual that summons such a spirit. A Spirit bound in this way is friendly to you, obeys your commands, and uses the Restless Spirit stat block. The stat block uses your proficiency bonus (PB) in several places.
+
+In combat, the Spirit acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you used a ***bonus action*** on your turn to command it to take an action from its stat block, or another action. If you are incapacitated, it takes any action it chooses.
+
+If your Spirit was destroyed within the last hour, you can expend a spell slot of 1st-level or higher. After 1 minute, it returns from beyond the veil with all its hit points restored.
+
+### Infectious Despair
+The sadness and despair that you inflict upon your enemies cloys to them until it exacts its toll. Beginning at 14th level, when you use Misery from the Deep Despair feature, the inspiration is not lost if the target dies and you use Reap as a reaction immediately direct after.
 
 
 
 
 
-# <a name="faith">College of Faith</a>
+<hr class="classdivider">
+<h1><a class="internal-link" name="faith">College of Faith</a></h1>
+
 Bards of the College of Faith (also called cantors) believe their music is a gift from above and that it should be used to praise the gods. They follow the tenets of a deity or religion and they are as unshakable in their conviction as the most devout cleric or the bravest paladin.
 
 These bards learn ways of inspiring others through their faith. Often taught in temples by clerics and priests, these bards specialize in spreading their faiths and in telling stories of the gods. Cantors are often welcomed in taverns and temples alike as they sing songs and evangelize to the masses.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies, Divine Inspiration |
@@ -1276,9 +1259,9 @@ Beginning at 14th level, if your chosen divine domain grants a Channel Divinity 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="fools">College of Fools</a></h1>
 
-
-# <a name="fools">College of Fools</a>
 Bards of the College of Fools are also called jesters. They use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court. Where other bards seek forgotten lore or tales of epic bravery, jesters ferret out embarrassing and hilarious stories of all kinds. Whether telling the ribald tale of a brawny stable hand’s affair with an aged duchess or a mocking satire of a paladin of Helm’s cloying innocence, a jester never lets taste, social decorum, or shame get in the way of a good laugh.
 
 While jesters are masters of puns, jokes, and verbal barbs, they are much more than just comic relief. They are expected to mock and provoke, taking advantage of how even the most powerful folk are expected by tradition to endure a jester’s barbs with good humor. This expectation allows a jester to serve as a critic or a voice of reason when others are too intimidated to speak the truth.
@@ -1291,6 +1274,7 @@ Jesters adventure to safeguard the common folk and to undermine the plans of the
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Satirical Theatrics |
@@ -1298,6 +1282,20 @@ Jesters adventure to safeguard the common folk and to undermine the plans of the
 | 6th | Comedic Inspiration, The Best Medicine |
 | 14th | Twist of Fate, Wait for the Punchline |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain use of ***Twist of Fate***.
+
+</div>
+</div>
+</div>
 
 
 
@@ -1340,42 +1338,40 @@ Even if a joke falls flat at first, you know how to get your audience laughing; 
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain use of ***Twist of Fate***.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="glamour">College of Glamour</a></h1>
 
-
-
-
-
-
-
-
-# <a name="glamour">College of Glamour</a>
 The College of Glamour is the home of bards who mastered their craft in the vibrant realm of the Feywild or under the tutelage of someone who dwelled there. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others.
 
 The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies, Mantle of Inspiration |
 | 3rd | Enthralling Performance |
 | 6th | Mantle of Majesty |
 | 14th | Unbreakable Majesty |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Unbreakable Majesty***.
+
+</div>
+</div>
+</div>
 
 
 #### Spellcasting Focus
@@ -1412,42 +1408,42 @@ At 14th level, your appearance permanently gains an otherworldly aspect that mak
 
 In addition, as a ***bonus action***, you can assume a magically majestic presence for 1 minute or until you are incapacitated. For the duration, whenever any creature tries to attack you for the first time on a turn, the attacker must make a Charisma saving throw against your spell save DC. On a failed save, it can’t attack you on this turn, and it must choose a new target for its attack or the attack is wasted.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of ***Unbreakable Majesty***.
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="grandeur">College of Grandeur</a></h1>
 
-
-
-
-
-
-# <a name="grandeur">College of Grandeur</a>
 You have a deep understanding of the forces—both mundane and mystical—that draw forth greatness in otherwise ordinary mortals. Your study of history and politics has made you an expert in how certain individuals shape the destinies of multitudes, and you understand the path that leads to this kind of legendary influence. Whether ruling themselves or seeking to inspire others to rule well, bards of the College of Grandeur wield abilities fueled by the presence of true leadership.
 
 The sagas of those bards make it clear that more direct opportunities for greatness often come with a weapon in your hand rather than a crown on your head. Many epic histories begin with a small band of seemingly insignificant heroes who chose glory over safety. While confronting danger and mystery directly as an adventurer often leads to death, you also know it can also be a path to glory beyond what any throne or title can confer.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
 | 3rd | Majestic Word |
 | 6th | Inspire Defenders |
 | 14th | Inspirational Recovery |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following college specific benefits to choose from: |
+| * Regain all uses of ***Inspirational Recovery***.
+
+</div>
+</div>
+</div>
 
 
 #### Spellcasting Focus
@@ -1473,30 +1469,15 @@ Starting at 14th level, you may use a ***bonus action*** to encourage an ally wi
 
 You can use this feature a number of times equal to your Charisma modifier and can regain uses when you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following college specific benefits to choose from: ||
-| | * Regain all uses of ***Inspirational Recovery***.
 
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="lore">College of Lore</a></h1>
 
-
-
-
-
-# <a name="lore">College of Lore</a>
 Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.
 
 The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic.
@@ -1505,6 +1486,7 @@ The college's members gather in libraries and sometimes in actual colleges, comp
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
@@ -1537,21 +1519,37 @@ Starting at 14th level, when you make an ability check, you can expend one use o
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="madGod">College of the Mad God</a></h1>
 
-
-# <a name="madGod">College of the Mad God</a>
 In the middle of the night, you hear the music. Every time, it begins the same way, rising from a low drone into a deafening cacophony. The noise is maddening. In your waking hours, your fingers learn to imitate this melody and bring others to your level of psychosis.
 
 Some attribute the dreadful nightmares to a curse or stress, but you know better. You and others like you are called nightly by the beating of vile drums and the thin monotonous whine of accursed flutes, the sounds of a Mad God who echoes the pandemonium of the universe, and summons you to do something. You know not what.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
 | 3rd | Frenzied Strings |
 | 6th | Mad Melody |
 | 14th | Cacophony |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Cacophony***.
+
+</div>
+</div>
+</div>
 
 
 #### Spellcasting Focus
@@ -1577,36 +1575,21 @@ Additionally, if a creature within 30 feet is concentrating, it must make a succ
 
 After you use this ability, you must complete a short rest before using it again.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of ***Cacophony***.
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="masks">College of Masks</a></h1>
 
-
-
-
-
-
-# <a name="masks">College of Masks</a>
 Bards in the College of Masks (or Masters of Masks, as they have come to be called) are virtuoso performers who practice becoming the figure they portray, rather than merely imitating them. Bards who practice in this college come to believe that all life is performed, rather than lived, and that to become an actor in this Great Play requires that one merely put on the metaphorical mask of another.
 
 Just as every person wears a mask each day, a Master of Masks carries with him a number of masks, each with potent magic of a specific archetypical character or creature, to allow them to better enter those roles.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
@@ -1713,19 +1696,35 @@ Your alignment appears to be neutral good while you wear a High Priest mask.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="mirrors">College of Mirrors</a></h1>
 
-
-# <a name="mirrors">College of Mirrors</a>
 Bards of the College of Mirrors specialize in the art of redirection. What starts off as simple sleight of hand card tricks or minor magical illusions can lead a bard to this elusive path. A common value shared throughout this college is that appearances can be and often are deceiving. These bards often find themselves employed in thieves guilds as a master of distraction, helping cover up assassinations or secret plots, and many other jobs that require artful illusory work.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
 | 3rd | Illusory Distraction |
 | 6th | Illusive Step |
 | 14th | Hall of Mirrors |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following college specific benefits to choose from: |
+| * Regain use of ***Hall of Mirrors***.
+
+</div>
+</div>
+</div>
 
 
 #### Spellcasting Focus
@@ -1755,34 +1754,20 @@ This feature can not be used when the casting of the spell takes you by surprise
 
 You can use this feature a number of times equal to your Charisma modifier and can regain expended uses when you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following college specific benefits to choose from: ||
-| | * Regain use of ***Hall of Mirrors***.
 
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="portraiture">College of Portraiture</a></h1>
 
-
-
-
-
-# <a name="portraiture">College of Portraiture</a>
 Bards of the College of Portraiture are artisans first and foremost. Through your intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations. True artistic mastery lies in the ability to imbue each masterpiece with a fragment of one’s soul, binding each creation to the artist in an elegant and harmonious union. Your skill and talent in the manipulation of your life essence allows you to create and animate works of art in your own image. Narcissism is common among the practitioners of this College, though it can hardly be faulted. If everyone could portray themselves so beautifully, surely they would.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Master Artisan |
@@ -1830,88 +1815,12 @@ Whenever you would take damage, you can use your ***reaction*** to sacrifice the
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="purity">College of Purity</a></h1>
 
-# <a name="purity">College of Purity</a>
 Despite living through many of the cruellest dangers the world has to offer, there are those who maintain that all conflicts can be resolved with the power of friendship. The bards of the College of Purity are united by their belief in this ideal, and use their performances to spread peace and harmony wherever they go.
 
 It is said that this College was once founded by a talented princess, whose clarity of voice was matched only by her purity of heart. Variously imagined as a mermaid who longed for legs, a leader of a troupe of dwarves, and even a woman who could paint with the colors of the wind, her adventures are often told by these bards to set a positive example for children, bring hope to the hopeless, and quell the hostilities of others.
-
-
-#### College Features
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Woodland Warbler |
-| 3rd | Comforting Melody |
-| 6th | Heart to Heart |
-| 14th | Beacon of Harmony |
-
-
-#### Spellcasting Focus
-You can use a musical instrument as a spellcasting focus for your spells.
-
-### Woodland Warbler
-When you join the College of Purity at 1st level, you develop a natural rapport with woodland animals and other good-hearted critters. You learn the *find familiar*
-
-Small and smaller beasts can understand your language, while you in turn can decipher their noises and motions. By whistling, singing, or playing a harmonious tune for 1 minute, you can assemble a group of friendly critters that will try to complete simple tasks for you. These critters can be any Tiny beasts of challenge rating 0 of your choosing (such as cats, badgers, or owls), but they must be suited to the environment in which they are assembled.
-
-The critters will attend to your requests for 1 hour, until they are 1 mile away from you, or until they enter combat, before they disperse. If some of the critters are harmed or killed, new critters will arrive to replace them.
-
-Once you use this feature, you can't use it again until you finish a short rest.
-
-
-
-### Comforting Melody
-At 3rd level, you learn a mellifluous song that soothes friend and foe alike. As an ***action***, you can expend a use of your Bardic Inspiration to sing to a number of creatures of your choice within 60 feet, that can hear you. The number of creatures you can sing to equals the number rolled on the Bardic Inspiration die.
-
-If a creature you select is an ally, it can gains advantage on one attack roll or ability check of its choice in the next 10 minutes.
-
-If a creature you select is not an ally, it must succeed on a Charisma saving throw against your spell save DC or suffer disadvantage on its first attack roll or ability check against you in the next 10 minutes.
-
-### Heart to Heart
-Starting at 6th level, your open sincerity can cleanse others of ill-will. As long as you are speaking truthfully and in good faith, you have advantage on your Charisma checks when interacting with creatures that aren't hostile to you.
-
-In addition, as an ***action***, you can force a creature within 60 feet that can see and hear you to make a Charisma saving throw against your spell save DC. Creatures immune to being charmed automatically succeed on this saving throw, and creatures you are fighting make this save with advantage.
-
-On a failed save, the target becomes indifferent to you and your allies if it was hostile to you, or friendly to you and your allies if it was indifferent to you. This effect ends if the target is harmed or if it sees its allies being harmed. Otherwise, it lasts until the end of your next turn if you were fighting the target, or for 1 minute if you weren't fighting the target.
-
-You can use this feature a number of times equal to your Charisma modifier, and can regain expended uses when you finish a long rest.
-
-
-
-
-
-
-
-
-
-### Beacon of Harmony
-At 14th level, your virtue begins to attract spirits of true goodness. As an ***action***, you can summon a gentle unicorn to your side (At your option, you can have it take the appearance of a different mythical creature). It is friendly to you and your allies, and has its own turn and initiative. Only you, your familiar, and the critters you assemble can mount the gentle unicorn. While it is within 120 feet of you, you can telepathically communicate with it.
-
-Although the gentle unicorn will follow your commands, it only does so if they don't go against its alignment. Uncommanded, it focuses on protecting you. The gentle unicorn will leave you after 1 hour or after it drops to O hit points. It will also leave your side 1 minute after it enters combat, regardless of when it was summoned. When it leaves, it disappears in a shower of buttercups and daisies, and anything it was carrying floats harmlessly to the ground.
-
-Once you use this feature, you can't use it again until you finish a long rest.
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of ***Woodland Warbler***.
-
-| Long rest ||
-|:-|:------- |
-| Add the following college specific benefits to choose from: ||
-| | * Regain all uses of ***Heart to Heart***.
-| | * Regain use of ***Beacon of Harmony***.
-
-
-
 
 
 
@@ -1971,14 +1880,87 @@ Gentle Unicorn
 </td></tr></tbody></table>
 </div>
 
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Woodland Warbler |
+| 3rd | Comforting Melody |
+| 6th | Heart to Heart |
+| 14th | Beacon of Harmony |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Woodland Warbler***.
+
+| Long rest |
+|:-|
+| Add the following college specific benefits to choose from: |
+| * Regain all uses of ***Heart to Heart***.
+| * Regain use of ***Beacon of Harmony***.
+
+</div>
+</div>
+</div>
+
+
+#### Spellcasting Focus
+You can use a musical instrument as a spellcasting focus for your spells.
+
+### Woodland Warbler
+When you join the College of Purity at 1st level, you develop a natural rapport with woodland animals and other good-hearted critters. You learn the *find familiar*
+
+Small and smaller beasts can understand your language, while you in turn can decipher their noises and motions. By whistling, singing, or playing a harmonious tune for 1 minute, you can assemble a group of friendly critters that will try to complete simple tasks for you. These critters can be any Tiny beasts of challenge rating 0 of your choosing (such as cats, badgers, or owls), but they must be suited to the environment in which they are assembled.
+
+The critters will attend to your requests for 1 hour, until they are 1 mile away from you, or until they enter combat, before they disperse. If some of the critters are harmed or killed, new critters will arrive to replace them.
+
+Once you use this feature, you can't use it again until you finish a short rest.
 
 
 
-# <a name="revelry">College of Revelry</a>
+### Comforting Melody
+At 3rd level, you learn a mellifluous song that soothes friend and foe alike. As an ***action***, you can expend a use of your Bardic Inspiration to sing to a number of creatures of your choice within 60 feet, that can hear you. The number of creatures you can sing to equals the number rolled on the Bardic Inspiration die.
+
+If a creature you select is an ally, it can gains advantage on one attack roll or ability check of its choice in the next 10 minutes.
+
+If a creature you select is not an ally, it must succeed on a Charisma saving throw against your spell save DC or suffer disadvantage on its first attack roll or ability check against you in the next 10 minutes.
+
+### Heart to Heart
+Starting at 6th level, your open sincerity can cleanse others of ill-will. As long as you are speaking truthfully and in good faith, you have advantage on your Charisma checks when interacting with creatures that aren't hostile to you.
+
+In addition, as an ***action***, you can force a creature within 60 feet that can see and hear you to make a Charisma saving throw against your spell save DC. Creatures immune to being charmed automatically succeed on this saving throw, and creatures you are fighting make this save with advantage.
+
+On a failed save, the target becomes indifferent to you and your allies if it was hostile to you, or friendly to you and your allies if it was indifferent to you. This effect ends if the target is harmed or if it sees its allies being harmed. Otherwise, it lasts until the end of your next turn if you were fighting the target, or for 1 minute if you weren't fighting the target.
+
+You can use this feature a number of times equal to your Charisma modifier, and can regain expended uses when you finish a long rest.
+
+
+### Beacon of Harmony
+At 14th level, your virtue begins to attract spirits of true goodness. As an ***action***, you can summon a gentle unicorn to your side (At your option, you can have it take the appearance of a different mythical creature). It is friendly to you and your allies, and has its own turn and initiative. Only you, your familiar, and the critters you assemble can mount the gentle unicorn. While it is within 120 feet of you, you can telepathically communicate with it.
+
+Although the gentle unicorn will follow your commands, it only does so if they don't go against its alignment. Uncommanded, it focuses on protecting you. The gentle unicorn will leave you after 1 hour or after it drops to O hit points. It will also leave your side 1 minute after it enters combat, regardless of when it was summoned. When it leaves, it disappears in a shower of buttercups and daisies, and anything it was carrying floats harmlessly to the ground.
+
+Once you use this feature, you can't use it again until you finish a long rest.
+
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="revelry">College of Revelry</a></h1>
+
 Some bards have a way of becoming the center of attention wherever they go. They enjoy the after parties more than their performances, and it is rare that they turn down an invitation for a good time. From formal banquets of royalty to the harvest celebrations of small farming towns, Revelry bards live for parties and hedonistic gatherings of all kinds.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Charming Presence |
@@ -2019,9 +2001,9 @@ When you use this feature, you can choose to expend an additional use of bardic 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="secrets">College of Secrets</a></h1>
 
-
-# <a name="secrets">College of Secrets</a>
 There have been many secret societies in history, and they have always needed those like you, those who truly understand the nature of loyalty and respect. And fear, of course. There must always be fear, your insurance against those unfortunate days when loyalty and respect do not carry their proper weight. You prefer to be respected, even loved, and you work hard to earn loyalty. But fear will do in a pinch.
 
 Your branch of your college is no loose association, but a close-knit society of sworn comrades, bound together in a mutually dependent code of discretion, honor, and blood. It could be one or more of many things—a thieves’ guild, an outlawed cult, a spy ring, a hidden faction of nobles devoted to restoring the true heir to the throne—but the key to your survival is clear: an expert understanding of the psychology and culture of those around you.
@@ -2030,6 +2012,7 @@ You are different things to different people. Some may call you a protector of t
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Blood Initiation |
@@ -2101,9 +2084,9 @@ At 14th level, you have carefully built up a network of informants who you can c
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="shanties">College of Shanties</a></h1>
 
-
-# <a name="shanties">College of Shanties</a>
 A seaman, a singer, a trusty mate with quick reflexes and a big heart: this is the ideal bard from the College of Shanties, a hero whose
 words lead and inspire their companions to always act at their best. Shanties are simple sea songs with a mechanism of call and response: the main singer, the shantyman, directs their companions both in the chorus and in the chores required to sail a ship. The voice and wits of a proper shantyman support sailors during their exhausting manual labor, and many a seaman found that a good shanty could inspire them to complete nearly impossible tasks.
 
@@ -2111,6 +2094,7 @@ For a bard in this college, it is clear that the same principles could be used t
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Seaman |
@@ -2141,36 +2125,37 @@ Also from 6th level, when you run out of breath or are choking, you can survive 
 ### Ballad of Shame Unending
 When you are 14th level, the very act of striking you down is enough to invoke a supernatural curse on whoever dared attack a shantyman. If you are reduced to 0 hit points or incapacitated against your will, you can immediately cast a 9th level bestow curse spell against a target within 60 feet, without expending a spell slot nor using an action.
 
+
 <div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
+<div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following college specific benefits to choose from: ||
-| | * Regain all uses of ***Look Out Mate***.
+| Long rest |
+|:-|
+| Add the following college specific benefits to choose from: |
+| * Regain all uses of ***Look Out Mate***.
 
-
-
-
-
-
+</div>
+</div>
+</div>
 
 
 
 
 
-# <a name="tales">College of Tales</a>
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="tales">College of Tales</a></h1>
+
 Wanderers and storytellers, bards of the College of Tales can be found in every corner of the world, tirelessly seeking out ancient legends and new tales alike. Using their gift of magic, these bards bring their stories to life, conjuring monsters of legend and fantastical landscapes to augment their narration.
 
 To simply hear a story is one thing; to witness the performance of one of these bards is almost as good as being there yourself. While many such bards begin their careers as collectors of tales or historians, they are seldom content to merely reproduce the words of others. By taking up the mantle of adventurer, they are able to acquire a repertoire of stories which are entirely their own, and which they can be confident in the retelling of.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Collector of Tales |
@@ -2190,6 +2175,7 @@ Your training as a bard of the College of Tales enables you to make stories and 
 
 
 #### College of Tales Spells
+
 | Bard Level | Spells |
 |:----------:|:--------|
 | 3rd | _find steed, healing spirit_
@@ -2209,6 +2195,7 @@ Your steed is not any horse, but rather the white stallion Faenrill, ridden by K
 
 As you grow in experience, consider summoning replicas of creatures and individuals that you have met in your own travels.
 
+</div>
 
 ### Song of Triumph
 Starting at 3rd level, your tales of victory in the face of overwhelming odds inspire your allies and egg them on to ever greater heroics. Whenever a creature you can see within 60 feet of you scores a critical hit, you can use your ***reaction*** to celebrate their accomplishment, granting them one Bardic Inspiration die which lasts until the end of the creature's next turn. This ability does not require you to expend a use of your Bardic Inspiration.
@@ -2226,14 +2213,16 @@ Starting at 14th level, any creature that you summon or create with a spell is a
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="valor">College of Valor</a></h1>
 
-# <a name="valor">College of Valor</a>
 Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.
 
 While most are satisfied with this role, others strive to be the hero of legend themselves. Valuing bravery and decisive action above all, such bards cultivate larger than life persona and hone their physical abilities to match, augmented by their magic.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Glorious Purpose |
@@ -2269,14 +2258,16 @@ In addition, you have mastered the art of weaving spellcasting and weapon use in
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="whispers">College of Whispers</a></h1>
 
-# <a name="whispers">College of Whispers</a>
 Most folk are happy to welcome a bard into their midst. Bards of the College of Whispers use this to their advantage. They appear to be like other bards, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the College of Whispers teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.
 
 Many other bards hate the College of Whispers, viewing it as a parasite that uses a bard’s reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Words of Terror |
@@ -2334,34 +2325,35 @@ Once you use this feature, you can’t use it again until you finish a long rest
 
 
 <div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
+<div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following college specific benefits to choose from: ||
-| | * Regain use of ***Shadow Lore***.
+| Long rest |
+|:-|
+| Add the following college specific benefits to choose from: |
+| * Regain use of ***Shadow Lore***.
 
-
-
-
-
-
+</div>
+</div>
+</div>
 
 
 
 
-# <a name="marionettist">Marionettist</a>
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="marionettist">Marionettist</a></h1>
+
 Marionettists, or bards of the College of Puppeteers, are one person troupes who stage epic tales of heroism, tragedy and comedy with their merry bands of magically animated puppets. Ornately crafted, these puppets can adopt any role and play any character, and a puppeteer makes great use of this versatility to rapt audiences, entertain the masses and captivate nobles with performances that are bold, intricate and sometimes shocking; many a puppeteer has used their creations to portray exaggerated parodies of events and people in much the same way a jester does, for good or ill.
 
 To other bards, and those who know the extent of their powers, a puppeteer is a figure to be treated with caution. In learning to pull the strings of their puppets without lifting a finger, these bards also learn to pull the strings of living beings, twisting and pulling them to their whims. A heroic puppeteer can use these powers to expose corruption, bring light to hidden secrets and incite the downtrodden to action, but a villanious puppeteer can enthrall entire communities, binding them with fear and paranoia.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Merry Band |
@@ -2384,7 +2376,7 @@ You can have a number of puppets active equal to your Charisma modifier.
 As part of a long rest, you can create a puppet out of wood or similar material. This puppet can be used as a material component for your Merry Band feature. You must have enough material on hand, equivalent to a small block or log, to produce it.
 
 
-
+</div>
 
 ### Strings of Fate
 At 3rd level, you learn how to manipulate the movements of your foes and inspire fear in their hearts. As a ***bonus action***, you can expend a use of your Bardic Inspiration to target a creature within 60 feet.
@@ -2407,12 +2399,14 @@ The duration of this spell is a number of rounds equal to the number rolled on t
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="pathfinderChronicler">Pathfinder Chronicler</a></h1>
 
-# <a name="pathfinderChronicler">Pathfinder Chronicler</a>
 The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers and story-spinners who form and shape the views of history and public opinion across the face of Golarion. Commonly known by their wayfinders, the Pathfinder chroniclers are recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance. Commoners delight when a Pathfinder chronicler comes to town, bearing news, gossip, or favorite tales of yore.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies, Deep Pockets |
@@ -2458,14 +2452,16 @@ At 14th level, you may have two Echoes active at once – either two Warriors, o
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="piedPiper">Pied Piper</a></h1>
 
-# <a name="piedPiper">Pied Piper</a>
 The College of Pied Pipers have a strong affinity for animals, particularly for vermin. The college has no official name, and its lore is spread between those few who dare to teach its secrets. They all can be rooted to a legendary bard whose peerless skill with wind instruments (some say flute, some say panpipes) entranced vermin. The tale speaks of how this bard traveled between cities, offering its trade to the citizens; those who paid had their vermin troubles swept away, but those who couldn't pay its exorbitant price suddenly found themselves robbed of what they loved the most. Legends cannot tell if the story is true, if the piper did this as a service or for wicked ways, but the secrets of controlling vermin were spread between enterprising bards who wished to sway creatures to their service.
 
 Bards of this college are mentored by experienced pipers, who teach them the secrets of the trade. They are not just skilled at entrancing music, but are experts at enchantments; the most experienced pipers can easily bend the minds of powerful beings, but they always find beasts and vermin the easiest to control. The power this bard holds can be terrifying when crossed; the tales say that pipers could take away children as punishment, a cautionary tale of how the lure of beauty, power or simple enchantment can turn into a dangerous weapon.
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Animal Magnetism |
