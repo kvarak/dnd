@@ -316,6 +316,10 @@ blockquote {
   margin-left: 50px;
 }
 
+blockquote p {
+  margin: 0px;
+}
+
 /* Footer */
 .page:nth-child(odd):after {
   content          : '';
