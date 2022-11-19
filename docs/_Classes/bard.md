@@ -532,16 +532,6 @@ Additionally, when the spell expires, you can try to make the creature forget so
 
 Song is not the only art form that can tell a story. After all, an image is worth a thousand words, and bards from the College of Awakened Art know this better than anyone. Their extraordinary talent as visual artists is second to none, as is their power to bring to life their creations as helpful allies. In addition to their arsenal of spells, their equally impressive repertoire of sketched magical summons is their key to thrive as dependable adventurers.
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Sketchbook of Summons |
-| 6th | Still Life, When Art Comes to Life |
-| 14th | Summoning Maestro |
-
-
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -562,6 +552,16 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Sketchbook of Summons |
+| 6th | Still Life, When Art Comes to Life |
+| 14th | Summoning Maestro |
+
 
 
 
@@ -666,14 +666,6 @@ Beginning at 14th level, when you cast a spell targeting yourself, you can also 
 
 The College of Colors is a school for Bards who excel in visual arts, and who delight in the color of the world. Color is just light, after all, and light is a gift. Likewise, your art is a gift that people should delight to enjoy. Manipulation of light is an art that can be brilliantly beautiful and dangerous. An artistic masterpiece is just one brush stroke away from burning radiance ripping into your enemies. When using spell or bardic songs, a coloration bard may paint their spell effects into thin air or decorate a canvas with elaborate runes.
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Prismatic Inspiration |
-| 6th | Visual Saturation |
-| 14th | Bending Light |
 
 
 <div class="card rest">
@@ -699,6 +691,14 @@ The following class specific additions are made to the general rest rules.
 </div>
 
 
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Prismatic Inspiration |
+| 6th | Visual Saturation |
+| 14th | Bending Light |
 
 #### Spellcasting Focus
 In addition you can use your painter’s supplies, or basically anything you can draw a quick sketch with, as a spellcasting focus for your spells and class features instead of an instrument.
@@ -753,14 +753,6 @@ These bards are named for the traditional location where such mortal bargains ar
 
 Striking a deal with a powerful devil (or another sinister power) can confer upon a bard unbelievable musical skills, but usually comes a mortal cost to be extracted at a later date. Few bards walk this infernal path, but those that do invariably gain legendary skill and a meteoric rise to stardom. Other bards label this group of pact-makers the College of Baator: a designation laced with seething jealousy, begrudging respect, and a pious moral judgement that devils should never be trusted.
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Infernal Musician |
-| 3rd | Infernal Duelist |
-| 6th | Eldritch Invocation |
-| 14th | Eldritch Invocation (additional invocation), Hellish Recovery |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -778,6 +770,14 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Infernal Musician |
+| 3rd | Infernal Duelist |
+| 6th | Eldritch Invocation |
+| 14th | Eldritch Invocation (additional invocation), Hellish Recovery |
 
 
 #### Spellcasting Focus
@@ -821,16 +821,6 @@ While most dancers do not cut an imposing figure, they are highly effective figh
 When paired with an ally, a dancer makes for a frenetic, distracting presence, moving with and opposite their allies in equal measure, turning the tide of a battle as if they were spinning on their own heel. A dancer’s music and kinetic energy can be infectious, and others bound up in their spells find themselves dancing along with them.
 
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies, Combat Dancing |
-| 3rd | Dance Flourish |
-| 6th | Choose a Partner |
-| 14th | Dance Party |
-
-
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -845,6 +835,15 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies, Combat Dancing |
+| 3rd | Dance Flourish |
+| 6th | Choose a Partner |
+| 14th | Dance Party |
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your bard spells.
@@ -901,15 +900,6 @@ From 14th level, after you have used a Dance Flourish, you can grant up to three
 Bards of the College of Desire are peerless in a particular art, and that art is infatuation. With a pluck of a string, they can cause the heart to stir and bubble with complex emotion, whether through music or with their enchanted arrows. While a benevolent member of the College of Desire would seek to lighten the load of a heavy heart if only for a moment, many of them take advantage of their ability to cause chaos. Nothing is easier to control than the heart, or so they say.
 
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Cherubic Arrow |
-| 6th | Cherubic Charm |
-| 14th | Amorous Atmosphere |
-
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -924,6 +914,15 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Cherubic Arrow |
+| 6th | Cherubic Charm |
+| 14th | Amorous Atmosphere |
 
 
 #### Spellcasting Focus
@@ -1017,15 +1016,6 @@ From 14th level you can travel between any two Magic Doors regardless of their d
 Bards of the College of Entropy are itinerate gamblers and daring thrill seekers whose actions are supremely unpredictable. Rather than relying on ancient lore or skill with arms, these bards throw themselves into new challenges just to see what happens, trusting in luck to see them through. They’re called luck stealers (with a mixture of derision and respect) because no matter how bad things get for everyone around them, these bards always seem to come out unscathed.
 
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Luck Stealer |
-| 6th | Infusion of Fortune |
-| 14th | Belief is a tool |
-
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -1041,6 +1031,15 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Luck Stealer |
+| 6th | Infusion of Fortune |
+| 14th | Belief is a tool |
 
 
 #### Spellcasting Focus
@@ -1273,15 +1272,6 @@ Jesters are loyal to only one cause: the pursuit and propagation of the truth. T
 Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies’ spirits while casting doubt into foes’ minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.
 
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Satirical Theatrics |
-| 3rd | Antagonize, Tumbling Fool |
-| 6th | Comedic Inspiration, The Best Medicine |
-| 14th | Twist of Fate, Wait for the Punchline |
-
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -1297,6 +1287,15 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Satirical Theatrics |
+| 3rd | Antagonize, Tumbling Fool |
+| 6th | Comedic Inspiration, The Best Medicine |
+| 14th | Twist of Fate, Wait for the Punchline |
 
 
 ### Satirical Theatrics
@@ -1349,15 +1348,6 @@ The College of Glamour is the home of bards who mastered their craft in the vibr
 The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.
 
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies, Mantle of Inspiration |
-| 3rd | Enthralling Performance |
-| 6th | Mantle of Majesty |
-| 14th | Unbreakable Majesty |
-
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -1372,6 +1362,15 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies, Mantle of Inspiration |
+| 3rd | Enthralling Performance |
+| 6th | Mantle of Majesty |
+| 14th | Unbreakable Majesty |
 
 
 #### Spellcasting Focus
@@ -1421,15 +1420,6 @@ You have a deep understanding of the forces—both mundane and mystical—that d
 The sagas of those bards make it clear that more direct opportunities for greatness often come with a weapon in your hand rather than a crown on your head. Many epic histories begin with a small band of seemingly insignificant heroes who chose glory over safety. While confronting danger and mystery directly as an adventurer often leads to death, you also know it can also be a path to glory beyond what any throne or title can confer.
 
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Majestic Word |
-| 6th | Inspire Defenders |
-| 14th | Inspirational Recovery |
-
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -1444,6 +1434,15 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Majestic Word |
+| 6th | Inspire Defenders |
+| 14th | Inspirational Recovery |
 
 
 #### Spellcasting Focus
@@ -1527,15 +1526,6 @@ In the middle of the night, you hear the music. Every time, it begins the same w
 Some attribute the dreadful nightmares to a curse or stress, but you know better. You and others like you are called nightly by the beating of vile drums and the thin monotonous whine of accursed flutes, the sounds of a Mad God who echoes the pandemonium of the universe, and summons you to do something. You know not what.
 
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Frenzied Strings |
-| 6th | Mad Melody |
-| 14th | Cacophony |
-
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -1550,6 +1540,15 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Frenzied Strings |
+| 6th | Mad Melody |
+| 14th | Cacophony |
 
 
 #### Spellcasting Focus
@@ -1702,15 +1701,6 @@ Your alignment appears to be neutral good while you wear a High Priest mask.
 Bards of the College of Mirrors specialize in the art of redirection. What starts off as simple sleight of hand card tricks or minor magical illusions can lead a bard to this elusive path. A common value shared throughout this college is that appearances can be and often are deceiving. These bards often find themselves employed in thieves guilds as a master of distraction, helping cover up assassinations or secret plots, and many other jobs that require artful illusory work.
 
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Illusory Distraction |
-| 6th | Illusive Step |
-| 14th | Hall of Mirrors |
-
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -1725,6 +1715,15 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Illusory Distraction |
+| 6th | Illusive Step |
+| 14th | Hall of Mirrors |
 
 
 #### Spellcasting Focus
@@ -1880,15 +1879,6 @@ Gentle Unicorn
 </td></tr></tbody></table>
 </div>
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Woodland Warbler |
-| 3rd | Comforting Melody |
-| 6th | Heart to Heart |
-| 14th | Beacon of Harmony |
-
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -1909,6 +1899,15 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Woodland Warbler |
+| 3rd | Comforting Melody |
+| 6th | Heart to Heart |
+| 14th | Beacon of Harmony |
 
 
 #### Spellcasting Focus
@@ -2092,6 +2091,21 @@ words lead and inspire their companions to always act at their best. Shanties ar
 
 For a bard in this college, it is clear that the same principles could be used to lead adventurer parties.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following college specific benefits to choose from: |
+| * Regain all uses of ***Look Out Mate***.
+
+</div>
+</div>
+</div>
+
 
 #### College Features
 
@@ -2125,21 +2139,6 @@ Also from 6th level, when you run out of breath or are choking, you can survive 
 ### Ballad of Shame Unending
 When you are 14th level, the very act of striking you down is enough to invoke a supernatural curse on whoever dared attack a shantyman. If you are reduced to 0 hit points or incapacitated against your will, you can immediately cast a 9th level bestow curse spell against a target within 60 feet, without expending a spell slot nor using an action.
 
-
-<div class="card rest">
-<div class="card-title restHeading">Rest Additions</div>
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-<div class="card-text restTable" markdown="1">
-
-| Long rest |
-|:-|
-| Add the following college specific benefits to choose from: |
-| * Regain all uses of ***Look Out Mate***.
-
-</div>
-</div>
-</div>
 
 
 
@@ -2266,6 +2265,21 @@ Most folk are happy to welcome a bard into their midst. Bards of the College of 
 Many other bards hate the College of Whispers, viewing it as a parasite that uses a bard’s reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.
 
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following college specific benefits to choose from: |
+| * Regain use of ***Shadow Lore***.
+
+</div>
+</div>
+</div>
+
 #### College Features
 
 | Bard Level | Feature |
@@ -2323,21 +2337,6 @@ The charmed creature obeys your commands for fear that you will reveal its secre
 Once you use this feature, you can’t use it again until you finish a long rest.
 
 
-
-<div class="card rest">
-<div class="card-title restHeading">Rest Additions</div>
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-<div class="card-text restTable" markdown="1">
-
-| Long rest |
-|:-|
-| Add the following college specific benefits to choose from: |
-| * Regain use of ***Shadow Lore***.
-
-</div>
-</div>
-</div>
 
 
 
