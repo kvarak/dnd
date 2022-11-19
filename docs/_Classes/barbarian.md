@@ -14,7 +14,9 @@ layout: default
 
 </div>
 
-- #### [Primal Paths](#p11)
+<div class="toc" markdown="1">
+
+- #### [Primal Paths](#primal-paths)
   - <a href="#aquaticHunter">Path of the Aquatic Hunter</a>
   - <a href="#berserker">Path of the Berserker</a>
   - <a href="#courageousHeart">Path of the Courageous Heart</a>
@@ -28,6 +30,8 @@ layout: default
   - <a href="#totemWarrior">Path of the Totem Warrior</a>
   - <a href="#warChief">Path of the War Chief</a>
   - <a href="#zealot">Path of the Zealot</a>
+
+</div>
 
 
 Barbarians are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea. For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.
