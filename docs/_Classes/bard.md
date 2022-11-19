@@ -230,7 +230,6 @@ Your Bardic Inspiration die changes when you reach certain levels in this class.
         <tbody>
           <tr><td colspan=2>After a short rest:</td></tr>
           <tr><td></td><td>- If you have the <b>Font of Inspiration</b> feature, regain one <b>Bardic Inspiration</b>.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
       <table><thead><th colspan=2>Long rest</th></thead>
@@ -238,7 +237,6 @@ Your Bardic Inspiration die changes when you reach certain levels in this class.
           <tr><td colspan=2>During a Long rest:</td></tr>
           <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
           <tr><td></td><td>- Regain all uses of <b>Bardic Inspiration</b>.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
     </div>

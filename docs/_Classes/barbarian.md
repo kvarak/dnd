@@ -154,7 +154,6 @@ Additionally you always have advantage with those skill.
           <tr><td colspan=2>After a short rest:</td></tr>
           <tr><td></td><td>- Regain 1 <b>Fury</b>.</td></tr>
           <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> by 1.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
       <table><thead><th colspan=2>Long rest</th></thead>
@@ -163,7 +162,6 @@ Additionally you always have advantage with those skill.
           <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
           <tr><td></td><td>- Regain 10 <b>Fury</b>.</td></tr>
           <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> to 10.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
     </div>
@@ -586,7 +584,6 @@ Juggernaut barbarians are siege engines in their own right, able to stand their 
         <tbody>
           <tr><td colspan=2>After a Long rest:</td></tr>
           <tr><td></td><td>- Reset all uses of <b>Wrought Endurance</b>.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
     </div>
@@ -670,7 +667,6 @@ Barbarians on this course find their rage brings great clarity of mind, allowing
           <tr><td colspan=2>After a short rest:</td></tr>
           <tr><td></td><td>- Reset use of <b>Fighting Dirty</b>.</td></tr>
           <tr><td></td><td>- Reset use of <b>Improvised Assault</b>.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
     </div>
@@ -1212,7 +1208,6 @@ While some barbarians prefer a life of savage solitude, others long for a tribe.
         <tbody>
           <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
           <tr><td></td><td>- Regain one of the spells from your <b>Commanding Presence</b> feature.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
     </div>
@@ -1309,7 +1304,6 @@ Some deities inspire their followers to pitch themselves into a ferocious battle
         <tbody>
           <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
           <tr><td></td><td>- Reset your <b>Zealous Presence</b> feature.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
     </div>

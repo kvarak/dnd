@@ -155,7 +155,6 @@ You can mix together herbs to create potions that cure ailments and injuries. If
           <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
           <tr><td></td><td>- Regain all <b>Alchemy points</b>.</td></tr>
           <tr><td></td><td>- Create 2 additional <b>Concoctions</b>.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
     </div>
@@ -373,7 +372,6 @@ If you spend a short rest with your leatherworker's tools on your cadaver, it re
         <tbody>
           <tr><td colspan=2>During a Short rest:</td></tr>
           <tr><td></td><td>- Repair your <b>Cadaver</b>.</td></tr>
-          <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
     </div>
