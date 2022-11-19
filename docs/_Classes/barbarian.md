@@ -6,10 +6,6 @@ layout: default
 
 # Barbarian
 
-> *"The rage that lies within the soul of a barbarian can take many forms. It can be summoned equally with a sense of purpose, a fire of passion, or a cold vengeance. Regardless of its source, a dreaded fate awaits any who stands in its path"*
->
-> — Garin Tristane, general
-
 <div class="toc" markdown="1">
 
 ## Contents
@@ -30,6 +26,9 @@ layout: default
 
 </div>
 
+> *"The rage that lies within the soul of a barbarian can take many forms. It can be summoned equally with a sense of purpose, a fire of passion, or a cold vengeance. Regardless of its source, a dreaded fate awaits any who stands in its path"*
+>
+> — Garin Tristane, general
 
 Barbarians are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea. For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.
 
