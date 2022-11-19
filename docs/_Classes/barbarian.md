@@ -16,20 +16,21 @@ layout: default
 
 <div class="toc" markdown="1">
 
-- #### [Primal Paths](#primal-paths)
-  - <a href="#aquaticHunter">Path of the Aquatic Hunter</a>
-  - <a href="#berserker">Path of the Berserker</a>
-  - <a href="#courageousHeart">Path of the Courageous Heart</a>
-  - <a href="#defender">Path of the Defender</a>
-  - <a href="#hurler">Path of the Hurler</a>
-  - <a href="#juggernaut">Path of the Juggernaut</a>
-  - <a href="#marauder">Path of the Marauder</a>
-  - <a href="#earthWarden">Path of Nature's Warden</a>
-  - <a href="#paintedWarrior">Path of the Painted Warrior</a>
-  - <a href="#sacrifice">Path of Sacrifice</a>
-  - <a href="#totemWarrior">Path of the Totem Warrior</a>
-  - <a href="#warChief">Path of the War Chief</a>
-  - <a href="#zealot">Path of the Zealot</a>
+## Contents
+##### [Primal Paths](#primal-paths)
+<a href="#aquaticHunter">Path of the Aquatic Hunter</a><br>
+<a href="#berserker">Path of the Berserker</a><br>
+<a href="#courageousHeart">Path of the Courageous Heart</a><br>
+<a href="#defender">Path of the Defender</a><br>
+<a href="#hurler">Path of the Hurler</a><br>
+<a href="#juggernaut">Path of the Juggernaut</a><br>
+<a href="#marauder">Path of the Marauder</a><br>
+<a href="#earthWarden">Path of Nature's Warden</a><br>
+<a href="#paintedWarrior">Path of the Painted Warrior</a><br>
+<a href="#sacrifice">Path of Sacrifice</a><br>
+<a href="#totemWarrior">Path of the Totem Warrior</a><br>
+<a href="#warChief">Path of the War Chief</a><br>
+<a href="#zealot">Path of the Zealot</a><br>
 
 </div>
 
