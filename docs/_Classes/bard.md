@@ -12,6 +12,7 @@ layout: default
 <a href="#loreseeker">Loreseeker</a>
 
 ##### <a href="#bardicSongs">Bardic Songs</a>
+
 ##### Bard Colleges
 <a href="#beguiler">Beguiler</a><br/>
 <a href="#awakenedArt">College of Awakened Art</a><br/>
@@ -185,13 +186,14 @@ You can use this feature a number of times equal to your Charisma modifier, and 
 Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
 
 
-<div class="block classTable frame" markdown="1">
+<div class="classTable frame" markdown="1">
 
 ##### The Bard
 
-| Level | Proficiency | Features | Cantrips | Spells |  --- Spell Slots Per Spell Level ---|||||||||
-|      ^| Bonus      ^|         ^| Known   ^| Known ^| 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
-|:-----:|:-----------:|:---------|:--------:|:------:|:---:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| Level \| | Proficiency Bonus | Features | Cantrips Known | Spells Known |  --- Spell Slots Per Spell Level --- ||||||||
+
+| Level \| | Proficiency Bonus \| | Features | Cantrips Known \| | Spells Known \| | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |1st| +2| Bard College, Bardic Inspiration (d6), Spellcasting |2|4|2|—|—|—|—|—|—|—|—|
 |2nd| +2| Bardic Song, Jack of All Trades | 2 |5 |3 |— |— |— |—|—| —| —| —|
 |3rd| +2| Bard College feature, Expertise | 2| 6| 4| 2| —| —| —|— |— |— |—|
@@ -227,7 +229,7 @@ Your Bardic Inspiration die changes when you reach certain levels in this class.
       <table><thead><th colspan=2>Short rest</th></thead>
         <tbody>
           <tr><td colspan=2>After a short rest:</td></tr>
-          <tr><td></td><td>- If you have the **Font of Inspiration** feature, regain one **Bardic Inspiration**.</td></tr>
+          <tr><td></td><td>- If you have the <b>Font of Inspiration</b> feature, regain one <b>Bardic Inspiration</b>.</td></tr>
           <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
@@ -235,8 +237,7 @@ Your Bardic Inspiration die changes when you reach certain levels in this class.
         <tbody>
           <tr><td colspan=2>During a Long rest:</td></tr>
           <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
-          <tr><td></td><td>- Regain 10 <b>Fury</b>.</td></tr>
-          <tr><td></td><td>- * Regain all uses of **Bardic Inspiration**.</td></tr>
+          <tr><td></td><td>- Regain all uses of <b>Bardic Inspiration</b>.</td></tr>
           <tr><td></td><td>&nbsp;</td></tr>
         </tbody>
       </table>
@@ -341,7 +342,7 @@ You can use your music to bolster your allies against evil influence. While usin
 
 
 ![bard](https://zjcasas.github.io/dungeons_and_dragons_tools/images/bard.png){position:absolute,width:45%,height:50%,top:0px,right:0px;}
- ::::::::::::::::::::::::::::::::::::::
+  ::::::::::::::::::::::::::::::::::::
 
 ### Life’s Flame
 You grant strong vigor, or prevent life's flame from being extinguished with this looming cant. Each creature of your choice within 30 ft makes a Constitution saving throw when damage would reduce them to 0 hit points. The DC for the saving throw is 10 + the damage taken. On a success, the creature is instead reduced to 1 hit point.
@@ -507,7 +508,7 @@ Some hold truth to be the greatest virtue, but it can do more damage than fictio
 
 Beguilers see lying and manipulation as tools. Just as a hammer can be used to build a house or crack a skull, deceit and the ability to control others can be used for good or ill. A lie whispered in the right ear can ruin lives, but a dishonest smile and honeyed words can open doors, turn foes into friends, and even end wars. Beguilers have reputations as rakes, thieves, spies, and puppet masters, but they can also be diplomats, peacemakers, or heroic leaders who give hope in desperate situations.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -545,7 +546,7 @@ Additionally, when the spell expires, you can try to make the creature forget so
 # <a name="awakenedArt">College of Awakened Arts</a>
 Song is not the only art form that can tell a story. After all, an image is worth a thousand words, and bards from the College of Awakened Art know this better than anyone. Their extraordinary talent as visual artists is second to none, as is their power to bring to life their creations as helpful allies. In addition to their arsenal of spells, their equally impressive repertoire of sketched magical summons is their key to thrive as dependable adventurers.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -581,7 +582,6 @@ You can use this feature a number of times equal to your Charisma modifier, and 
 ### When Art Comes to Life
 Also at 6th level, you've learned to magically inscribe drawings into the air, bringing your artistic creations to life. You learn additional spells when you reach certain levels in this class, as shown on the table, and they don’t count against the number of bard spells you know. You can cast these without the original material components, and instead use your painter’s supplies. Whenever you cast one of the spells on the table, it takes on a more painterly appearance.
 
-{{sTable
 #### College Spells
 | Bard Level | Spells |
 |:----------:|:--------|
@@ -633,7 +633,6 @@ The following college specific additions are made to the general rest rules.
 # <a name="beasts">College of Beasts</a>
 Bards of the College of Beasts have a fascination with other creatures, making bonds with them and learning far more about them than others even realize there is to know. These bards can often be seen in circuses, training the animals, or wandering the world, with their animals as their only traveling and performing companions. They often gather at festivals in order to show off their companions and exchange tips on how to raise them.
 
-{{sTable
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -685,7 +684,6 @@ Beginning at 14th level, when you cast a spell targeting yourself, you can also 
 # <a name="colors">College of Colors</a>
 The College of Colors is a school for Bards who excel in visual arts, and who delight in the color of the world. Color is just light, after all, and light is a gift. Likewise, your art is a gift that people should delight to enjoy. Manipulation of light is an art that can be brilliantly beautiful and dangerous. An artistic masterpiece is just one brush stroke away from burning radiance ripping into your enemies. When using spell or bardic songs, a coloration bard may paint their spell effects into thin air or decorate a canvas with elaborate runes.
 
-{{sTable
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -706,7 +704,6 @@ In addition, you know the spell *color spray* and it does not count against the 
 ### Prismatic Inspiration
 At level 3, your inspiration is a work of art that can't be contained by just one genre. When you expend a use of Bardic inspiration, you specify a color, whether to yourself or out loud. When the inspired creature uses your inspiration, its next attack deals the type of damage that corresponds to your specified color. This new damage type replaces all damage that would have been dealt as another type, even if it would have been multiple damage types.
 
-{{sTable
 | Color  | Damage type |
 | :----- | :---------- |
 | Red    | Fire
@@ -778,7 +775,6 @@ These bards are named for the traditional location where such mortal bargains ar
 
 Striking a deal with a powerful devil (or another sinister power) can confer upon a bard unbelievable musical skills, but usually comes a mortal cost to be extracted at a later date. Few bards walk this infernal path, but those that do invariably gain legendary skill and a meteoric rise to stardom. Other bards label this group of pact-makers the College of Baator: a designation laced with seething jealousy, begrudging respect, and a pious moral judgement that devils should never be trusted.
 
-{{sTable
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -846,7 +842,7 @@ While most dancers do not cut an imposing figure, they are highly effective figh
 
 When paired with an ally, a dancer makes for a frenetic, distracting presence, moving with and opposite their allies in equal measure, turning the tide of a battle as if they were spinning on their own heel. A dancer’s music and kinetic energy can be infectious, and others bound up in their spells find themselves dancing along with them.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -890,7 +886,7 @@ Once you use this feature, you can't use it again until you finish a short rest.
 ### Dance Party
 From 14th level, after you have used a Dance Flourish, you can grant up to three friendly creatures within 30 feet, who can see or hear you, a bonus to their Armor Class until the start of your next turn. The bonus depends on the type of armor they are wearing.
 
-{{sTable
+
 | Armor type | AC bonus |
 | :--------- | :------: |
 | No armor   |    +4    |
@@ -932,7 +928,7 @@ The following college specific additions are made to the general rest rules.
 # <a name="desire">College of Desire</a>
 Bards of the College of Desire are peerless in a particular art, and that art is infatuation. With a pluck of a string, they can cause the heart to stir and bubble with complex emotion, whether through music or with their enchanted arrows. While a benevolent member of the College of Desire would seek to lighten the load of a heavy heart if only for a moment, many of them take advantage of their ability to cause chaos. Nothing is easier to control than the heart, or so they say.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -999,7 +995,7 @@ Bards of the College of Doors are roamers of the planes who tell tales of their 
 
 Not many people ever leave their home plane, but it is the purpose of the College of Doors to spread the distant wonders of the planes to those who cannot see it for themselves.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1045,7 +1041,7 @@ From 14th level you can travel between any two Magic Doors regardless of their d
 # <a name="entropy">College of Entropy</a>
 Bards of the College of Entropy are itinerate gamblers and daring thrill seekers whose actions are supremely unpredictable. Rather than relying on ancient lore or skill with arms, these bards throw themselves into new challenges just to see what happens, trusting in luck to see them through. They’re called luck stealers (with a mixture of derision and respect) because no matter how bad things get for everyone around them, these bards always seem to come out unscathed.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1082,7 +1078,7 @@ You regain the use of this feature after a short rest.
 
 ## Chaos spells
 The following spells are considered chaos spells.
-{{sTable
+
 | Spell level | Spells |
 |:-----------:|:-------|
 | 1st | *Chaos bolt, entropic shield, lucky shot, Nahal's reckless dweomer* |
@@ -1125,7 +1121,7 @@ Bards are masters of eliciting all types of emotion. They use their musical magi
 
 Combined with a talent for necromancy magic, Eulogy bards wield the power of fear and despair to fill their foe's hearts with horror and bind restless spirits to their will.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1172,36 +1168,62 @@ The sadness and despair that you inflict upon your enemies cloys to them until i
 
 
 
-
-
-
-
-
-
-{{monster,frame
-## Restless Spirit
-*medium undead, unaligned*
+<div class="monster frame">
+<table class="monster">
+<thead><tr><th>
+Restless Spirit
+</th></tr></thead>
+<tbody>
+<tr><td><i>medium undead, unaligned</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 **Armor Class**   13 + PB (natural armor)
+
 **Hit Points**    5 + five times your bard level
+
 **Speed**         30 ft.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
 
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |14 (+2)|14 (+2)|15 (+2)|10 (+0)|14 (+2)|11 (+0)|
 
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
 **Damage Resistance**      necrotic
+
 **Condition Immunities**   frightened, grappled
+
 **Senses**                 blindsense 30 ft.
+
 **Languages**              understands the languages you speak, but it cannot speak itself
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 ***Misery's Company.*** The spirit has advantage on any attack rolls against creatures frightened of it.
 
 ***Spirit Bond.*** You can add your PB to any ability check or saving throw that the spirit makes.
-### Actions
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
+##### Actions
+
 ***Spectral Weapon.*** *Melee Attack:* your spell attack modifier to hit. *On hit*: 1d8+2+PB necrotic damage.
 
 ***Mournful Wail.*** The Spirit sings a sorrowful song. A creature of your choice within 30 feet that can hear it must succeed on a Wisdom saving throw against your spell save DC or be frightened of the Spirit for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+</td></tr></tbody></table>
+</div>
 
 
 
@@ -1216,7 +1238,7 @@ Bards of the College of Faith (also called cantors) believe their music is a gif
 
 These bards learn ways of inspiring others through their faith. Often taught in temples by clerics and priests, these bards specialize in spreading their faiths and in telling stories of the gods. Cantors are often welcomed in taverns and temples alike as they sing songs and evangelize to the masses.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1272,7 +1294,7 @@ Jesters are loyal to only one cause: the pursuit and propagation of the truth. T
 
 Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies’ spirits while casting doubt into foes’ minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1351,7 +1373,7 @@ The College of Glamour is the home of bards who mastered their craft in the vibr
 
 The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1423,7 +1445,7 @@ You have a deep understanding of the forces—both mundane and mystical—that d
 
 The sagas of those bards make it clear that more direct opportunities for greatness often come with a weapon in your hand rather than a crown on your head. Many epic histories begin with a small band of seemingly insignificant heroes who chose glory over safety. While confronting danger and mystery directly as an adventurer often leads to death, you also know it can also be a path to glory beyond what any throne or title can confer.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1486,7 +1508,7 @@ The loyalty of these bards lies in the pursuit of beauty and truth, not in fealt
 
 The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at selfimportant figures of authority.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1527,7 +1549,7 @@ In the middle of the night, you hear the music. Every time, it begins the same w
 
 Some attribute the dreadful nightmares to a curse or stress, but you know better. You and others like you are called nightly by the beating of vile drums and the thin monotonous whine of accursed flutes, the sounds of a Mad God who echoes the pandemonium of the universe, and summons you to do something. You know not what.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1588,7 +1610,7 @@ Bards in the College of Masks (or Masters of Masks, as they have come to be call
 
 Just as every person wears a mask each day, a Master of Masks carries with him a number of masks, each with potent magic of a specific archetypical character or creature, to allow them to better enter those roles.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1701,7 +1723,7 @@ Your alignment appears to be neutral good while you wear a High Priest mask.
 # <a name="mirrors">College of Mirrors</a>
 Bards of the College of Mirrors specialize in the art of redirection. What starts off as simple sleight of hand card tricks or minor magical illusions can lead a bard to this elusive path. A common value shared throughout this college is that appearances can be and often are deceiving. These bards often find themselves employed in thieves guilds as a master of distraction, helping cover up assassinations or secret plots, and many other jobs that require artful illusory work.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1764,7 +1786,7 @@ The following college specific additions are made to the general rest rules.
 # <a name="portraiture">College of Portraiture</a>
 Bards of the College of Portraiture are artisans first and foremost. Through your intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations. True artistic mastery lies in the ability to imbue each masterpiece with a fragment of one’s soul, binding each creation to the artist in an elegant and harmonious union. Your skill and talent in the manipulation of your life essence allows you to create and animate works of art in your own image. Narcissism is common among the practitioners of this College, though it can hardly be faulted. If everyone could portray themselves so beautifully, surely they would.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1819,7 +1841,7 @@ Despite living through many of the cruellest dangers the world has to offer, the
 
 It is said that this College was once founded by a talented princess, whose clarity of voice was matched only by her purity of heart. Variously imagined as a mermaid who longed for legs, a leader of a troupe of dwarves, and even a woman who could paint with the colors of the wind, her adventures are often told by these bards to set a positive example for children, bring hope to the hopeless, and quell the hostilities of others.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1898,17 +1920,33 @@ The following college specific additions are made to the general rest rules.
 
 
 
-{{monster,frame
-## Gentle Unicorn
-*Large celestial, neutral good*
+<div class="monster frame">
+<table class="monster">
+<thead><tr><th>
+Gentle Unicorn
+</th></tr></thead>
+<tbody>
+<tr><td><i>Large celestial, neutral good</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 **Armor Class** 12
+
 **Hit Points** 45(6d10 + 12)
+
 **Speed** 40ft, fly 80 ft
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
 
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |16 (+3)|14 (+2)|14 (+2)|10 (+0)|16 (+3)|17 (+3)|
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
 
 **Condition Immunities**	  charmed, poisoned
 
@@ -1925,15 +1963,18 @@ The following college specific additions are made to the general rest rules.
 ***Magic Weapons.*** The gentle unicorn's weapon attacks are magical.
 
 ***Purifying Presence.*** Any non-magical food or drink brought within 10 feet of the gentle unicorn is automatically rendered free of poison and disease.
-### Actions
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
+##### Actions
 ***Horn.*** *Melee Weapon Attack:* +5 to hit, *Hit* 1d8 + 3 piercing damage
 
 ***Healing Touch (1/Day).*** The gentle unicorn touches another creature with its horn. The target regains 4d8 + 3 hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target.
 
-
-
-
-
+</td></tr></tbody></table>
+</div>
 
 
 
@@ -1941,7 +1982,7 @@ The following college specific additions are made to the general rest rules.
 # <a name="revelry">College of Revelry</a>
 Some bards have a way of becoming the center of attention wherever they go. They enjoy the after parties more than their performances, and it is rare that they turn down an invitation for a good time. From formal banquets of royalty to the harvest celebrations of small farming towns, Revelry bards live for parties and hedonistic gatherings of all kinds.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -1992,7 +2033,7 @@ Your branch of your college is no loose association, but a close-knit society of
 
 You are different things to different people. Some may call you a protector of the common folk, others may think of you as an extortionist or a threat. In some places, you and your fellows may be relied upon as an unofficial police force. You may even be tolerated or condoned by local authorities, but they never know the whole truth of what you are.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -2073,7 +2114,7 @@ words lead and inspire their companions to always act at their best. Shanties ar
 
 For a bard in this college, it is clear that the same principles could be used to lead adventurer parties.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -2133,7 +2174,7 @@ Wanderers and storytellers, bards of the College of Tales can be found in every 
 
 To simply hear a story is one thing; to witness the performance of one of these bards is almost as good as being there yourself. While many such bards begin their careers as collectors of tales or historians, they are seldom content to merely reproduce the words of others. By taking up the mantle of adventurer, they are able to acquire a repertoire of stories which are entirely their own, and which they can be confident in the retelling of.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -2152,7 +2193,7 @@ By the time you join the College of Tales at 1st level, your knowledge of legend
 ### Legend Made Real
 Your training as a bard of the College of Tales enables you to make stories and myths manifest through your magic. At 3rd, 5th, 7th and 9th level you gain access to certain spells, reflecting the creatures and tales you have encountered in your travels. These spells count as bard spells for you but don't count against the number of bard spells you know.
 
-{{sTable
+
 #### College of Tales Spells
 | Bard Level | Spells |
 |:----------:|:--------|
@@ -2196,7 +2237,7 @@ Bards of the College of Valor are daring skalds whose tales keep alive the memor
 
 While most are satisfied with this role, others strive to be the hero of legend themselves. Valuing bravery and decisive action above all, such bards cultivate larger than life persona and hone their physical abilities to match, augmented by their magic.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -2239,7 +2280,7 @@ Most folk are happy to welcome a bard into their midst. Bards of the College of 
 
 Many other bards hate the College of Whispers, viewing it as a parasite that uses a bard’s reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -2324,7 +2365,7 @@ Marionettists, or bards of the College of Puppeteers, are one person troupes who
 
 To other bards, and those who know the extent of their powers, a puppeteer is a figure to be treated with caution. In learning to pull the strings of their puppets without lifting a finger, these bards also learn to pull the strings of living beings, twisting and pulling them to their whims. A heroic puppeteer can use these powers to expose corruption, bring light to hidden secrets and incite the downtrodden to action, but a villanious puppeteer can enthrall entire communities, binding them with fear and paranoia.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -2375,7 +2416,7 @@ The duration of this spell is a number of rounds equal to the number rolled on t
 # <a name="pathfinderChronicler">Pathfinder Chronicler</a>
 The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers and story-spinners who form and shape the views of history and public opinion across the face of Golarion. Commonly known by their wayfinders, the Pathfinder chroniclers are recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance. Commoners delight when a Pathfinder chronicler comes to town, bearing news, gossip, or favorite tales of yore.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
@@ -2428,7 +2469,7 @@ The College of Pied Pipers have a strong affinity for animals, particularly for 
 
 Bards of this college are mentored by experienced pipers, who teach them the secrets of the trade. They are not just skilled at entrancing music, but are experts at enchantments; the most experienced pipers can easily bend the minds of powerful beings, but they always find beasts and vermin the easiest to control. The power this bard holds can be terrifying when crossed; the tales say that pipers could take away children as punishment, a cautionary tale of how the lure of beauty, power or simple enchantment can turn into a dangerous weapon.
 
-{{sTable
+
 #### College Features
 | Bard Level | Feature |
 |:----------:|:--------|
