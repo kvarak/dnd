@@ -313,6 +313,11 @@ At 20th level, when you roll initiative, you regain all uses of Bardic Inspirati
 
 <h2><a class="internal-link" name="bardicSongs">Bardic songs</a></h2>
 
+
+<img src='https://zjcasas.github.io/dungeons_and_dragons_tools/images/bard.png' style='float:right;height:50%;padding:20px' />
+
+
+
 When you reach 2nd level, and again at 6th, 9th, 13th, and 17th level, you learn a bardic song.
 
 You may start a song as an ***action***. After starting a song you can continue it as an ***action*** indefinitely, as long as you keep concentration. If you loose concentration while playing a bardic song, you cannot gain the benefits of the same song again until after a long rest.
@@ -337,10 +342,6 @@ The extra damage die increase when you reach certain levels in this class: to 1d
 ### Countercurse
 You can use your music to bolster your allies against evil influence. While using the song, you and friendly creatures within 30 feet have advantage on saving throws against being cursed. Apart from the bestow curse spell and abilities that explicitly state they are curses, it also helps on saves against being paralyzed and petrified.
 
-
-
-![bard](https://zjcasas.github.io/dungeons_and_dragons_tools/images/bard.png){position:absolute,width:45%,height:50%,top:0px,right:0px;}
-  ::::::::::::::::::::::::::::::::::::
 
 ### Life’s Flame
 You grant strong vigor, or prevent life's flame from being extinguished with this looming cant. Each creature of your choice within 30 ft makes a Constitution saving throw when damage would reduce them to 0 hit points. The DC for the saving throw is 10 + the damage taken. On a success, the creature is instead reduced to 1 hit point.
@@ -491,16 +492,13 @@ Painters, sculptors or other similar artists.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="beguiler">Beguiler</a></h1>
 
-
-
-# <a name="beguiler">Beguiler</a>
-
-*"You know me. I'm as good as my word*,
-
-*and my life is an open book."*
-
-— said with a straight face by Anastria Nailo, beguiler.
+> *"You know me. I'm as good as my word*,
+> *and my life is an open book."*
+>
+> — said with a straight face by Anastria Nailo, beguiler.
 
 Some hold truth to be the greatest virtue, but it can do more damage than fiction. Everyone lives in a constant state of deception. White lies, false smiles, and secret thoughts keep society running smoothly. Honesty is a virtue only up to a certain point. Beguilers understand these ideas better than anyone, and they use deception, misunderstanding, and secrets as skillfully as a soldier employs weapons of war.
 
@@ -508,6 +506,7 @@ Beguilers see lying and manipulation as tools. Just as a hammer can be used to b
 
 
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
@@ -538,14 +537,13 @@ Additionally, when the spell expires, you can try to make the creature forget so
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="awakenedArt">College of Awakened Arts</a></h1>
 
-
-
-# <a name="awakenedArt">College of Awakened Arts</a>
 Song is not the only art form that can tell a story. After all, an image is worth a thousand words, and bards from the College of Awakened Art know this better than anyone. Their extraordinary talent as visual artists is second to none, as is their power to bring to life their creations as helpful allies. In addition to their arsenal of spells, their equally impressive repertoire of sketched magical summons is their key to thrive as dependable adventurers.
 
-
 #### College Features
+
 | Bard Level | Feature |
 |:----------:|:--------|
 | 1st | Bonus Proficiencies |
@@ -555,6 +553,36 @@ Song is not the only art form that can tell a story. After all, an image is wort
 
 #### Spellcasting Focus
 You can use a pen and paper, or basically anything you can draw a quick sketch with, as a spellcasting focus for your spells and class features instead of an instrument.
+
+
+<div class="card rest">
+  <div class="card-title restHeading">
+    Rest Additions
+  </div>
+  <div class="card-subtitle restPad">
+    The following class specific additions are made to the general rest rules.
+    <div class="card-text restTable">
+      <table><thead><th colspan=2>Short rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>After a short rest:</td></tr>
+          <tr><td></td><td>- Regain 1 <b>Fury</b>.</td></tr>
+          <tr><td></td><td>- Reset DC of <b>Relentless Rage</b> by 1.</td></tr>
+        </tbody>
+      </table>
+      <table><thead><th colspan=2>Long rest</th></thead>
+        <tbody>
+          <tr><td colspan=2>During a Long rest:</td></tr>
+          <tr><td></td><td>- Prepare or change sketches for <b>Sketchbook of Summons</b>.</td></tr>
+          <tr><td colspan=2>&nbsp;</td></tr>
+          <tr><td colspan=2>Add the following class specific benefits to choose from:</td></tr>
+          <tr><td></td><td>- Regain spent summons from your <b>Sketchbook of Summons</b>.</td></tr>
+          <tr><td></td><td>- Regain uses of <b>Still Life</b>.</td></tr>
+          <tr><td></td><td>- Reset free uses of spells from <b>When Art Comes to Life</b>.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
 
 ### Bonus Proficiencies
 When you join the College of Awakened Art at 1st level, you gain proficiency with painting, drawing and the Perception skill. You also have advantage on checks made to identify art or its origins.
@@ -581,6 +609,7 @@ You can use this feature a number of times equal to your Charisma modifier, and 
 Also at 6th level, you've learned to magically inscribe drawings into the air, bringing your artistic creations to life. You learn additional spells when you reach certain levels in this class, as shown on the table, and they don’t count against the number of bard spells you know. You can cast these without the original material components, and instead use your painter’s supplies. Whenever you cast one of the spells on the table, it takes on a more painterly appearance.
 
 #### College Spells
+
 | Bard Level | Spells |
 |:----------:|:--------|
 | 6th	| *Conjure Animals*
@@ -592,38 +621,6 @@ You may also cast each of these spells once without expending a spell slot. If y
 
 ### Summoning Maestro
 Starting at 14th level, you now use your sketchbook twice. Additionally, they now last a number of rounds equal to three times your Charisma modifier.
-
-
-
-
-
-
-
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following college specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| During a long rest: ||
-| | * Prepare or change sketches for **Sketchbook of Summons**.
-| | &nbsp;
-| Add the following college specific benefits to choose from: ||
-| | * Regain spent summons from your **Sketchbook of Summons**.
-| | * Regain uses of **Still Life**.
-| | * Reset free uses of spells from **When Art Comes to Life**.
-
-
-
-
-
-
-
 
 
 
