@@ -9,8 +9,8 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a name="Deities">Pantheons</a>
-<a name="Deities">Golarion Deities</a><br/>
+#### <a href="Deities">Pantheons</a>
+<a href="Deities">Golarion Deities</a><br/>
 Dwarven Deities - *See the Dwarven race*<br/>
 <a href="#Elf">Elf Deities</a><br/>
 <a href="#Gnome">Gnome Deities</a><br/>
@@ -132,11 +132,12 @@ The Cleric table shows how many spell slots you have to cast your spells of 1st 
 
 You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells up to your Wisdom modifier + your cleric level. The spells must be of a level for which you have spell slots. Casting the spell doesn’t remove it from your list of prepared spells.
 
-{{}}">classTable,frame,decoration,wide,position:absolute;top:580px;width:90%;right:40px;
+<div class="classTable frame" markdown="1">
+
 ##### The Cleric
-| Level | Proficiency | Features | Piety | Cantrips |  --- Spell Slots Per Spell Level ---|||||||||
-|      ^| Bonus      ^|         ^|      ^| Known   ^| 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
-|:-----:|:-----------:|:---------|:-----:|:--------:|:------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+
+| Level \| | Proficiency Bonus \| | Features | Piety \| | Cantrips Known \| | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |1st| +2| Divine Domain, Path of Faith, Spellcasting | - | 2 | 2 |— |— |— |—|— |— |— |—|
 |2nd| +2| Channel Divinity, Divine Domain feature | 4 | 2 |3 |— |— |— |—|—| —| —| —|
 |3rd| +2| - | 4 | 2| 4| 2| —| —| —|— |— |— |—|
@@ -159,7 +160,7 @@ You prepare the list of cleric spells that are available for you to cast, choosi
 |20th| +6| Divine Intervention | 12 | 4| 4| 3| 3| 3| 3| 2| 2| 1|1|
 
 
-
+</div>
 
 
 

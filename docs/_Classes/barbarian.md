@@ -231,8 +231,7 @@ At 20th level, you embody the power of the wilds. Your Strength and Constitution
 
 
 
-
-## Primal Paths
+<h2><a class="internal-link" name="primal-paths">Primal Paths</a></h2>
 
 Rage burns in every barbarian's heart, a furnace that drives him or her toward greatness. Different barbarians attribute their rage to different sources, however. For some, it is an internal reservoir where pain, grief, and anger are forged into a fury hard as steel. Others see it as a spiritual blessing, or a gift of a totem animal.
 
