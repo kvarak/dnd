@@ -17,6 +17,8 @@ collections:
     output: true
   Classes:
     output: true
+  Folk:
+    output: true
   Links:
     output: true
   Rules:

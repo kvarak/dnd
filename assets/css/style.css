@@ -260,10 +260,33 @@ hr.classdivider {
 /* ------------------------------------------------------------------------------------------------ */
 
 /* Spell heading */
-.spell {	text-align:center;
-					margin-top: 5px;
-					margin-bottom: 5px;
-					background:#b5e2f1;	}
+.spell {
+  text-align:center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background:#b5e2f1;
+}
+
+/* Feat block */
+.feat {
+  background-color: #E5E8E8;
+  color: black;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 0.95em;
+  padding: 2px;
+}
+
+.feat h2 {
+  padding: 5px;
+  background-color: #d42129;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
 
 /* Info areas */
 .descriptive {
