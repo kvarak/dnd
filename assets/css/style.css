@@ -54,7 +54,7 @@ p {
   margin-bottom: 1em;
 }
 
-h1+p::first-letter, h2+p::first-letter {
+h1+p::first-letter {
   float:left;
   font-family:SolberaImitationRemake;
   line-height:1em;
