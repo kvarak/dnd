@@ -30,14 +30,16 @@ layout: default
 >
 > — Garin Tristane, general
 
+
+<img src='https://tabletopjoab.com/wp-content/uploads/2022/07/half-orc-barbarian-5e.png' style='float:left;width:35%;padding:20px' />
+
+
 Barbarians are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea. For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.
 
 The anger felt by a normal person resembles the rage of a barbarian in the same way that a gentle breeze is akin to a furious thunderstorm. The barbarian’s driving force comes from a place that transcends mere emotion, making its manifestation all the more terrible. Whether the impetus for the fury comes entirely from within or from forging a link with a spirit animal, a raging barbarian becomes able to perform supernatural feats of strength and endurance. The outburst is temporary, but while it lasts, it takes over body and mind, driving the barbarian on despite peril and injury, until the last enemy falls.
 
 
 ## Class Features
-
-<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float:right;height:37%;padding:20px' />
 
 As a barbarian, you gain the following class features.
 
@@ -192,6 +194,8 @@ When a creature ends its turn within 15 feet of you, you can use your **reaction
 
 #### Unstoppable
 Your foes have no chance to escape you. You always add your proficiency bonus to ability checks made when moving (climbing, swimming etc.) or moving past physical obstacles.
+
+<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float:right;height:37%;padding:20px' />
 
 ### Feral Instinct
 By 7th level, your instincts are so honed that you have advantage on initiative rolls.
