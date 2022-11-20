@@ -504,11 +504,8 @@ The Norse pantheon includes two main families, the Aesir (deities of war and des
 | Tyr | LN | God of courage and strategy | Knowledge, War
 | Uller | CN | God of hunting and winter | Hunting, Nature, Survival, Winter
 
-
-
 </div>
 
-<div class="classTable frame" markdown="1">
 <h2><a class="internal-link" name="internal-Domains">Divine Domains</a></h2>
 
 In a pantheon, every deity has influence over different aspects of mortal life and civilization, called a deity's domain. All the domains over which a deity has influence are called the deity's portfolio. For example, the portfolio of the Greek god Apollo includes the domains of Knowledge, Life, and Light. As a cleric, you choose one aspect of your deity's portfolio to emphasize, and you are granted powers related to that domain.
