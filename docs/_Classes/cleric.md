@@ -471,7 +471,6 @@ The Egyptian pantheon is unusual in having three gods with the Death domain of d
 
 </div>
 
-<div class="classTable frame" markdown="1">
 <h3><a class="internal-link" name="internal-Norse">Norse Deities</a></h3>
 
 Where the land plummets from the snowy hills into the icy fjords below, where the longboats draw up on to the beach, where the glaciers flow forward and retreat with every fall and spring - this is the land of the Vikings, the home of the Norse pantheon. It's a brutal clime, and one that calls for brutal living. The warriors of the land have had to adapt to the harsh conditions in order to survive, but they haven't been too twisted by the needs of their environment. Given the necessity of raiding for food and wealth, it's surprising the mortals turned out as well as they did.

@@ -6,6 +6,20 @@
   font-style:normal
 }
 
+@font-face {
+  font-family:ScalySansRemake;
+  src:url('../fonts/Scaly Sans.woff2');
+  font-weight:normal;
+  font-style:normal
+}
+
+@font-face {
+  font-family:ScalySansSmallCapsRemake;
+  src:url('../fonts/Scaly Sans Caps.woff2');
+  font-weight:normal;
+  font-style:normal
+}
+
 h1, h2, h3, h4, h5 {
   margin-bottom: 0;
   font-family: MrJeeves;
@@ -54,10 +68,6 @@ h1+p::first-letter {
   background-clip:text;
   -webkit-background-clip:text;
   color:rgba(0,0,0,0)
-}
-
-h1+p::first-line {
-  font-variant:small-caps
 }
 
 table {
@@ -229,19 +239,20 @@ hr.classdivider {
 
 /* Info areas */
 .descriptive {
+  -webkit-box-align: center;
   font-family: ScalySansRemake;
   font-size: .318cm;
   line-height: 1.2em;
-  /* background-color: #faf7ea; */
   border-style: solid;
   border-width: 7px;
   background-color: #b5e2f1 !important;
   border-image: url(../images/descriptiveBorder.png) 12 stretch;
   border-image-outset: 4px;
-  padding: 8px;
-  margin: 5px;
+  padding: 2px;
   max-width: 750px;
   filter: drop-shadow(0 0 3px #faf7ea);
+  margin: auto;
+  margin-bottom: 5px;
 }
 
 .descriptive h5 {
@@ -369,59 +380,4 @@ blockquote {
 
 blockquote p {
   margin: 0px;
-}
-
-/* Footer */
-.page:nth-child(odd):after {
-  content          : '';
-  position         : absolute;
-  bottom           : 0px;
-  left             : 10px;
-  z-index          : -5;
-  height           : 336px;
-  width            : 100%;
-  background-image : url('https://i.imgur.com/KsIZkRy.png');
-  background-size  : cover;
-}
-
-.page:nth-child(even):after {
-  content          : '';
-  position         : absolute;
-  bottom           : 0px;
-  left             : 0px;
-  z-index          : -5;
-  height           : 336px;
-  width            : 100%;
-  background-image : url('https://i.imgur.com/KsIZkRy.png');
-  background-size  : cover;
-}
-
-/* Page Number */
-.page .pageNumber.auto:nth-child(odd):after {
-  color      : #374360;
-  position   : absolute;
-  bottom     : 30px;
-  z-index    : -5;
-  width      : 50px;
-  left       : -5px;
-  text-align : center;
-  font-size  : 15pt;
-}
-
-.page .pageNumber.auto:nth-child(even):after {
-  color      : #374360;
-  position   : absolute;
-  bottom     : 30px;
-  z-index    : -5;
-  width      : 50px;
-  left       : 10px;
-  text-align : center;
-  font-size  : 15pt;
-}
-
-top_image {
-  position:absolute;
-  top:0px;
-  right:0px;
-  width:100%
 }
