@@ -85,6 +85,34 @@ summary {
   display: list-item;
 }
 
+@media only screen and (min-width: 1025px) {
+  .columns ul {
+      -moz-column-count: 4;
+      -moz-column-gap: 48px;
+      -webkit-column-count: 4;
+      -webkit-column-gap: 48px;
+      column-count: 4;
+      column-gap: 48px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .columns ul {
+      -moz-column-count: 2;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 20px;
+      column-count: 2;
+      column-gap: 20px;
+  }
+}
+.columns ul {
+    list-style: none;
+    margin: 0 0 1.5em 0;
+}
+.sitecolumns li {
+    margin-bottom: 40px;
+    break-inside: avoid !important;
+}
 
 details {
   margin-top: 1px;

@@ -526,6 +526,8 @@ If you have chosen the path of the Crusader, your divine domain decides what typ
 
 #### Domain list
 
+<div class="columns">
+
 * <a href="#internal-Agriculture">Agriculture Domain</a>
 * <a href="#internal-Arcana">Arcana Domain</a>
 * <a href="#internal-Balance">Balance Domain</a>
@@ -554,6 +556,8 @@ If you have chosen the path of the Crusader, your divine domain decides what typ
 * <a href="#internal-Vengeance">Vengeance Domain</a>
 * <a href="#internal-War">War Domain</a>
 * <a href="#internal-Winter">Winter Domain</a>
+
+</div>
 
 #### Deity exclusive paths
 * <a href="#internal-balancedScale">Balanced Scale of Abadar</a>. This is a path exclusive to clerics of Abadar.
