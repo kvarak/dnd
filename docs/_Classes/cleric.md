@@ -197,7 +197,7 @@ When you gain this feature, choose two creature types from the following: Aberra
 
 As an ***action***, you present your holy symbol and speak a prayer against your chosen creature type. Each creature of that type that can see or hear you within 30 feet must make a Wisdom saving throw. If the creature fails, it is turned for 1 minute or until it takes any damage.
 
-
+</div>
 
 
 <div class="descriptive" markdown="1">
