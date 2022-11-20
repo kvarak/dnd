@@ -19,9 +19,9 @@ layout: default
 
 </div>
 
-> *A grinning gnome cackles with glee as he hurls a bomb into a group of charging goblins, blasting them into scorched chunks. He produces another, throws it at his feet, and disappears, still laughing, in the ensuing cloud of smoke.*
->
-> *A slender elf quickly mixes liquids and herbs in a small bowl. She applies the mixture to an arrow wound on an injured dwarf's side, which immediately stops bleeding.*
+*A grinning gnome cackles with glee as he hurls a bomb into a group of charging goblins, blasting them into scorched chunks. He produces another, throws it at his feet, and disappears, still laughing, in the ensuing cloud of smoke.*
+
+*A slender elf quickly mixes liquids and herbs in a small bowl. She applies the mixture to an arrow wound on an injured dwarf's side, which immediately stops bleeding.*
 
 
 Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected school of magic, the alchemist is often regarded as being just as unstable, unpredictable, and dangerous as the concoctions he brews. While some creators of alchemical items content themselves with sedentary lives as merchants, providing tindertwigs and smokesticks, the true alchemist answers a deeper calling. Rather than cast magic like a spellcaster, the alchemist captures his own magic potential within liquids and extracts he creates, infusing his chemicals with virulent power to grant him impressive skill with poisons, explosives, and all manner of self-transformative magic.

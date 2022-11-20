@@ -178,13 +178,20 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
   Animal categories are divided into general and specific types. The general types also include the specific as appropriate, but selecting a specific type of animal grants additional benefits.
 
   ##### General
-  ***Amphibians***. Some tribes in swampy areas use giant frogs/toads for transport, as well as regular sized amphibians that are used for different purposes.
+  ***Amphibians*** Some tribes in swampy areas use giant frogs/toads for transport, as well as regular sized amphibians that are used for different purposes.
+
   ***Birds***. Birds are seldom domesticated. When they are, it is usually for companionship (parrots, falcons, etc).
-  * Bugs & Spiders. Neither are common, but can be found in some underground societies, most notable the riding spiders of Drow. Hardy giant beetles can be used as pack animals in desert environments.
-  * Farm Animals. This includes the animals used in human farms, such as dogs, horses, cows and sheep, but also fowl of different types.
-  * Mammals (land). Includes other mammals that are sometimes domesticated, such as elephants and camels.
-  * Reptiles. Lizards are used as riding and pack animals in many underground societies.
-  * Sea Life. Folk living underwater use a wide variety of sea living creatures as mounts. For surface dwellers this could apply to seals or dolphins.
+
+  ***Bugs & Spiders***. Neither are common, but can be found in some underground societies, most notable the riding spiders of Drow. Hardy giant
+  beetles can be used as pack animals in desert environments.
+
+  ***Farm Animals***. This includes the animals used in human farms, such as dogs, horses, cows and sheep, but also fowl of different types.
+
+  ***Mammals (land)***. Includes other mammals that are sometimes domesticated, such as elephants and camels.
+
+  ***Reptiles***. Lizards are used as riding and pack animals in many underground societies.
+
+  ***Sea Life***. Folk living underwater use a wide variety of sea living creatures as mounts. For surface dwellers this could apply to seals or dolphins.
 
   ##### Specific
   * Camels. Camels are used as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar camel is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
