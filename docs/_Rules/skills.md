@@ -1006,7 +1006,7 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
   <summary>Arcana</summary>
   <div markdown="1">
   You have studied the basics of the arcane arts and the processes of Arcane magic. Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes. It does not infer any knowledge on Divine or Primal magic, with the exception of possibly knowing which category a phenomena might belong to.
-  <div class="skill-frame">
+  <div class="descriptive">
   Identifying A Spell<br/>
   Sometimes a character wants to identify a spell that someone else is casting or that was already cast. To do so, a character can use their reaction to identify a spell as it's being cast, or they can use an action on their turn to identify a spell by its effect after it is cast.
   <br/>
