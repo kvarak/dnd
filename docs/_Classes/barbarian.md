@@ -37,12 +37,12 @@ The anger felt by a normal person resembles the rage of a barbarian in the same 
 
 ## Class Features
 
-<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float:right;height:37%;padding:20px' />
-
 As a barbarian, you gain the following class features.
 
 #### Hit Points
 **Hit Dice:** 1d12
+
+<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float:right;height:37%;padding:20px' />
 
 #### Proficiencies
 **Armor:** Light armor, Medium armor, Shields

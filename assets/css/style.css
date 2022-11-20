@@ -101,6 +101,7 @@ details {
   float: right;
   margin: 10px 10px 0px 10px;
   padding: 5px;
+  background-image: url(../images/page-background.jpg);
 }
 
 .toc p {
