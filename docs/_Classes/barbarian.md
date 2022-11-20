@@ -9,20 +9,20 @@ layout: default
 <div class="toc" markdown="1">
 
 ## Contents
-##### [Primal Paths](#primal-paths)
-<a href="#aquaticHunter">Path of the Aquatic Hunter</a><br>
-<a href="#berserker">Path of the Berserker</a><br>
-<a href="#courageousHeart">Path of the Courageous Heart</a><br>
-<a href="#defender">Path of the Defender</a><br>
-<a href="#hurler">Path of the Hurler</a><br>
-<a href="#juggernaut">Path of the Juggernaut</a><br>
-<a href="#marauder">Path of the Marauder</a><br>
-<a href="#earthWarden">Path of Nature's Warden</a><br>
-<a href="#paintedWarrior">Path of the Painted Warrior</a><br>
-<a href="#sacrifice">Path of Sacrifice</a><br>
-<a href="#totemWarrior">Path of the Totem Warrior</a><br>
-<a href="#warChief">Path of the War Chief</a><br>
-<a href="#zealot">Path of the Zealot</a><br>
+##### [Primal Paths](#internal-primal-paths)
+<a href="#internal-aquaticHunter">Path of the Aquatic Hunter</a><br>
+<a href="#internal-berserker">Path of the Berserker</a><br>
+<a href="#internal-courageousHeart">Path of the Courageous Heart</a><br>
+<a href="#internal-defender">Path of the Defender</a><br>
+<a href="#internal-hurler">Path of the Hurler</a><br>
+<a href="#internal-juggernaut">Path of the Juggernaut</a><br>
+<a href="#internal-marauder">Path of the Marauder</a><br>
+<a href="#internal-earthWarden">Path of Nature's Warden</a><br>
+<a href="#internal-paintedWarrior">Path of the Painted Warrior</a><br>
+<a href="#internal-sacrifice">Path of Sacrifice</a><br>
+<a href="#internal-totemWarrior">Path of the Totem Warrior</a><br>
+<a href="#internal-warChief">Path of the War Chief</a><br>
+<a href="#internal-zealot">Path of the Zealot</a><br>
 
 </div>
 
@@ -231,45 +231,45 @@ At 20th level, you embody the power of the wilds. Your Strength and Constitution
 
 
 
-<h2><a class="internal-link" name="primal-paths">Primal Paths</a></h2>
+<h2><a class="internal-link" name="internal-primal-paths">Primal Paths</a></h2>
 
 Rage burns in every barbarian's heart, a furnace that drives him or her toward greatness. Different barbarians attribute their rage to different sources, however. For some, it is an internal reservoir where pain, grief, and anger are forged into a fury hard as steel. Others see it as a spiritual blessing, or a gift of a totem animal.
 
 At 1st level, you choose a path that shapes the nature of your rage. Your choice grants you features again at 3rd, 6th, 10th, and 14th levels.
 
-**<a href="#aquaticHunter">Path of the Aquatic Hunter</a>** - This path is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. Barbarians from coastal and island cultures often draw on the spirit of the ocean's creatures to inspire them in battle.
+**<a href="#internal-aquaticHunter">Path of the Aquatic Hunter</a>** - This path is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. Barbarians from coastal and island cultures often draw on the spirit of the ocean's creatures to inspire them in battle.
 
-**<a href="#berserker">Path of the Berserker</a>** - The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
+**<a href="#internal-berserker">Path of the Berserker</a>** - The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
-**<a href="#courageousHeart">Path of the Courageous Heart</a>** - An intrepid do-gooder, whose impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer.
+**<a href="#internal-courageousHeart">Path of the Courageous Heart</a>** - An intrepid do-gooder, whose impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer.
 
-**<a href="#defender">Path of the Defender</a>** - Barbarian that has assumed the responsibility of safekeeping a bondmate. This can be people of importance, like a traveling priest, a tribe's shaman or elder, and so on, but just as often they simply form a bond with someone they either care for or share a common goal with, like a sibling or fellow adventurer.
+**<a href="#internal-defender">Path of the Defender</a>** - Barbarian that has assumed the responsibility of safekeeping a bondmate. This can be people of importance, like a traveling priest, a tribe's shaman or elder, and so on, but just as often they simply form a bond with someone they either care for or share a common goal with, like a sibling or fellow adventurer.
 
-**<a href="#hurler">Path of the Hurler</a>** - Some barbarians follow this path for the simplistic and primal joy of seeing a thrown axe or hammer smash the skull of their quarry. But why stop there when you can throw logs, rocks or even enemies.
-
-
+**<a href="#internal-hurler">Path of the Hurler</a>** - Some barbarians follow this path for the simplistic and primal joy of seeing a thrown axe or hammer smash the skull of their quarry. But why stop there when you can throw logs, rocks or even enemies.
 
 
-**<a href="#juggernaut">Path of the Juggernaut</a>** - These barbarians are an unstoppable force on the battlefield.
 
-**<a href="#marauder">Path of the Marauder</a>** -  A leader who leads from the front, who knows the strengths of his allies and deploys them where they will be the most effective.
 
-**<a href="#earthWarden">Path of Nature's Warden</a>** - Barbarians who follow an ancient tradition rooted in powerful druidic magic.
+**<a href="#internal-juggernaut">Path of the Juggernaut</a>** - These barbarians are an unstoppable force on the battlefield.
 
-**<a href="#paintedWarrior">Path of the Painted Warrior</a>** - Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world.
+**<a href="#internal-marauder">Path of the Marauder</a>** -  A leader who leads from the front, who knows the strengths of his allies and deploys them where they will be the most effective.
 
-**<a href="#sacrifice">Path of the Sacrifice</a>** - Everyone dies, but your death was written in the stars themselves. You are going to die, and your death is going to mean something. You scream with rage because your life means more than just an ending. When the time comes, you will be waiting, bloodstained weapon in hand.
+**<a href="#internal-earthWarden">Path of Nature's Warden</a>** - Barbarians who follow an ancient tradition rooted in powerful druidic magic.
 
-**<a href="#totemWarrior">Path of the Totem Warrior</a>** - The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration.
+**<a href="#internal-paintedWarrior">Path of the Painted Warrior</a>** - Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world.
 
-**<a href="#warChief">Path of the War Chief</a>** - Leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
+**<a href="#internal-sacrifice">Path of the Sacrifice</a>** - Everyone dies, but your death was written in the stars themselves. You are going to die, and your death is going to mean something. You scream with rage because your life means more than just an ending. When the time comes, you will be waiting, bloodstained weapon in hand.
 
-**<a href="#zealot">Path of the Zealot</a>** - Religious warriors who channel their rage into powerful displays of divine power.
+**<a href="#internal-totemWarrior">Path of the Totem Warrior</a>** - The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration.
+
+**<a href="#internal-warChief">Path of the War Chief</a>** - Leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
+
+**<a href="#internal-zealot">Path of the Zealot</a>** - Religious warriors who channel their rage into powerful displays of divine power.
 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="aquaticHunter">Aquatic Hunter</a></h1>
+<h1><a class="internal-link" name="internal-aquaticHunter">Aquatic Hunter</a></h1>
 
 <img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png'/>
 
@@ -354,7 +354,7 @@ At 14th level, you gain a magical benefit based on the totem animal of your choi
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="berserker">Path of the Berserker</a></h1>
+<h1><a class="internal-link" name="internal-berserker">Path of the Berserker</a></h1>
 
 <img src='https://www.gmbinder.com/images/vTRGceu.png' style="float:right;max-width:300px;padding:10px"/>
 
@@ -395,7 +395,7 @@ Starting at 14th level, when you take damage from a creature, you can use your *
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="courageousHeart">Path of the Courageous Heart</a></h1>
+<h1><a class="internal-link" name="internal-courageousHeart">Path of the Courageous Heart</a></h1>
 
 For some adventurers, their internal reservoir of fearlessness and gallantry might border closer to foolhardiness. An intrepid do-gooder might take the first step down this path by complete accident, meddling in affairs they ought not and finding themselves unable to turn back. Their impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer. These brawlers might not be as graceful as trained fighters, but they're guardians of the weak, and what they lack in polish they make up for in valor.
 
@@ -443,7 +443,7 @@ At 14th level, whenever you succeed at a Constitution saving throw to remain con
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="defender">Path of the Defender</a></h1>
+<h1><a class="internal-link" name="internal-defender">Path of the Defender</a></h1>
 
 Barbarians that follow the Path of the Defender have assumed the responsibility of keeping a bondmate alive. They are often charged with the safekeeping of people of importance, like a traveling priest, a tribe's shaman or elder, and so on, but just as often they simply form a bond with someone they either care for or share a common goal with, like a sibling or fellow adventurer.
 
@@ -491,7 +491,7 @@ Starting at 14th level, you and your bondmate function even more like a team whe
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="hurler">Path of the Hurler</a></h1>
+<h1><a class="internal-link" name="internal-hurler">Path of the Hurler</a></h1>
 
 You began with throwing sticks, then stones. Eventually the sticks and stones changed, becoming darts, shotput, or other sports. But you were destined for more. Heavier and heavier stones, larger and larger sticks - boulders and cabers, ever increasing in heft. Anything you can lift, you can throw. And anything you can throw, you can triumph with.
 
@@ -554,7 +554,7 @@ Creatures that are Tiny or smaller cannot be used for this feature. Small creatu
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="juggernaut">Path of the Juggernaut</a></h1>
+<h1><a class="internal-link" name="internal-juggernaut">Path of the Juggernaut</a></h1>
 
 Juggernaut barbarians are siege engines in their own right, able to stand their ground and move their foes into positions of weakness. While raging, they make any battlefield their domain, shoving enemies over mountain sides and destroying any battle formation trying to stand in their way.
 
@@ -621,7 +621,7 @@ You may do this a number of times equal to your Constitution modifier. See *Rest
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="marauder">Path of the Marauder</a></h1>
+<h1><a class="internal-link" name="internal-marauder">Path of the Marauder</a></h1>
 
 Every group intending to go into battle needs a good leader. One who leads from the front, who has a plan, who knows the strengths of his allies and deploys them where they will be the most effective. What they need is a barbarian of the Path of the Marauder.
 
@@ -709,7 +709,7 @@ As the foremost expert in the field of surprise surgery, your allies look to you
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="earthWarden">Path of the Nature’s Warden</a></h1>
+<h1><a class="internal-link" name="internal-earthWarden">Path of the Nature’s Warden</a></h1>
 
 Barbarians in this path follow an ancient tradition rooted in powerful druidic magic. When these barbarians rage, they transform that rage into a mantle of primal magic; becoming one with the land, feeling the fury of the strip-mined earth and the desolated forest. The primal magic that inspires them to rage allows them to become one with nature, overcoming their foes with the indomitable strength of the primeval world.
 
@@ -806,7 +806,7 @@ Starting at 14th level, your guardian form emanates a magical aura that fortifie
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="paintedWarrior">Path of the Painted Warrior</a></h1>
+<h1><a class="internal-link" name="internal-paintedWarrior">Path of the Painted Warrior</a></h1>
 
 Though most tribes of the world may lack parchment to draw and write on, all have bodies. Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world. While most tattoos they create have a powerful connection to the natural world, many barbarians also choose to create tattoos without this connection, simply for display.
 
@@ -869,7 +869,7 @@ You only gain the benefits of a tattoo for the duration of your rage. If a tatto
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="sacrifice">Path of the Sacrifice</a></h1>
+<h1><a class="internal-link" name="internal-sacrifice">Path of the Sacrifice</a></h1>
 
 Everyone dies, but your death was written in the stars themselves, ordained within the blood and entrails of a dying beast, and whispered of by the falling bones and shuffling cards of the diviners. You are going to die, and your death is going to mean something. The rise of a great evil, or the end of an era. The destruction of all you hold dear, or the redemption of your blackened soul. The arrival of the legions of light, or the end of fear itself.
 
@@ -909,7 +909,7 @@ At 14th level, your destined death awaits your arrival, and you refuse to surren
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="stormHerald">Path of the Storm Herald</a></h1>
+<h1><a class="internal-link" name="internal-stormHerald">Path of the Storm Herald</a></h1>
 
 All barbarians harbor a fury within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn to transform that rage into a mantle of primal magic, which swirls around them. When in a fury, a barbarian of this path taps into the forces of nature to create powerful magical effects.
 
@@ -975,7 +975,7 @@ At 14th level, the power of the storm you channel grows mightier, lashing out at
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="totemWarrior">Path of the Totem Warrior</a></h1>
+<h1><a class="internal-link" name="internal-totemWarrior">Path of the Totem Warrior</a></h1>
 
 The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage. Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.
 
@@ -1173,7 +1173,7 @@ The vulture is a majestic beast with strong beak and large wings that feed on th
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="warChief">Path of the War Chief</a></h1>
+<h1><a class="internal-link" name="internal-warChief">Path of the War Chief</a></h1>
 
 While some barbarians prefer a life of savage solitude, others long for a tribe. Barbarians on the Path of the War Chief are leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
 
@@ -1268,7 +1268,7 @@ Additionally, the range of your War Song increases to 30 feet, and when you issu
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="zealot">Path of the Zealot</a></h1>
+<h1><a class="internal-link" name="internal-zealot">Path of the Zealot</a></h1>
 
 Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots—warriors who channel their rage into powerful displays of divine power. A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.
 

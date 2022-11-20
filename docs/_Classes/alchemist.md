@@ -8,14 +8,14 @@ layout: default
 <div class="toc" markdown="1">
 
 ## Contents
-##### <a href="#discovery">Discoveries</a>
+##### <a href="#internal-discovery">Discoveries</a>
 ##### <a>Fields of Study</a>
-<a href="#apothecary">Apothecary</a><br>
-<a href="#corpsecrafter">Corpsecrafter</a><br>
-<a href="#madBomber">Mad bomber</a><br>
-<a href="#poisoner">Poisoner</a><br>
-<a href="#psychedelic">Psychedelic</a><br>
-<a href="#transmuter">Transmuter</a><br>
+<a href="#internal-apothecary">Apothecary</a><br>
+<a href="#internal-corpsecrafter">Corpsecrafter</a><br>
+<a href="#internal-madBomber">Mad bomber</a><br>
+<a href="#internal-poisoner">Poisoner</a><br>
+<a href="#internal-psychedelic">Psychedelic</a><br>
+<a href="#internal-transmuter">Transmuter</a><br>
 
 </div>
 
@@ -167,7 +167,7 @@ From 1st level you have advantage on any ability check you make with your alchem
 While all alchemists share a common knowledge base, most alchemists specialize into a particular field of study. When you reach 2nd level, you select your field of study from apothecary, mad bomber, poisoner and transmuter. Your field choice grants you features at 2nd level and then again at 7th, 10th, and 17th level.
 
 ### Discoveries
-In the course of your research, you have made a number of <a href="#discovery">discoveries</a> regarding the nature of alchemy. At 3rd level, you gain two discoveries of your choice. When you gain certain alchemist levels, you gain additional discoveries of your choice, as shown in the Discoveries Known column of the Alchemist table.
+In the course of your research, you have made a number of <a href="#internal-discovery">discoveries</a> regarding the nature of alchemy. At 3rd level, you gain two discoveries of your choice. When you gain certain alchemist levels, you gain additional discoveries of your choice, as shown in the Discoveries Known column of the Alchemist table.
 
 Additionally, when you learn a new discovery, you can choose one of the discoveries you know and replace it with another discovery that you could learn at that level.
 
@@ -227,7 +227,7 @@ The philosopher’s stone also has devastating destructive potential. As a ***bo
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="apothecary">Apothecary</a></h1>
+<h1><a class="internal-link" name="internal-apothecary">Apothecary</a></h1>
 
 Many practically-minded alchemists decide to assume the role of the apothecary. An adventuring party always needs a healer, and clerics might be in short supply. On their downtime, such alchemists have a marketable skill to depend upon for income. Apothecaries are constantly at work studying potions and herbology. In order to learn how to heal the body, an apothecary must learn how the body works. This often requires carving boldly upon the corpses of the dead to further understand how they behave while living.
 
@@ -278,7 +278,7 @@ The panacea must be consumed within 24 hours, after which it becomes inert. You 
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="corpsecrafter">Corpsecrafter</a></h1>
+<h1><a class="internal-link" name="internal-corpsecrafter">Corpsecrafter</a></h1>
 
 The art of corpsecrafting specializes in using alchemy to reanimate and reshape the bodies of the fallen. Corpsecrafters, unlike necromancers they're often compared to, prefer to focus their efforts on their macabre creations; a cadaver, to perform a variety of tasks for them by use of a combination of magical and alchemical augmentations.
 
@@ -428,7 +428,7 @@ During the transformation, the cadaver can't create another cadaver using its 'A
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="madBomber">Mad Bomber</a></h1>
+<h1><a class="internal-link" name="internal-madBomber">Mad Bomber</a></h1>
 
 While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.
 
@@ -461,7 +461,7 @@ Beginning at 17th level, you can combine two non makeshift bombs into one. Combi
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="poisoner">Poisoner</a></h1>
+<h1><a class="internal-link" name="internal-poisoner">Poisoner</a></h1>
 
 Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.
 
@@ -497,7 +497,7 @@ At 17th level, you learn how to create more versatile versions of your poison co
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="psychedelic">Psychedelic</a></h1>
+<h1><a class="internal-link" name="internal-psychedelic">Psychedelic</a></h1>
 
 Psychedelics specialize in manipulating the minds of creatures using hormones, narcotics and other baneful elixirs to make them compliant. Whether it is to gather information, convince a target of a truth or to assassinate a suspect, the psychedelics move silently and deadly.
 
@@ -549,7 +549,7 @@ By 17th level, your abilities to injure minds and manipulate brains allows you t
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="transmuter">Transmuter</a></h1>
+<h1><a class="internal-link" name="internal-transmuter">Transmuter</a></h1>
 
 Not satisfied with mere mundane alchemy, the transmuter blends science with arcane knowledge to create something more. A transmuter is usually more experimental, but often seen as a failure by both wizards and “pure” alchemists.
 
@@ -648,7 +648,7 @@ Starting at 17th level, you can use your ***action*** to consume the reserve of 
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="discovery">Discoveries</a></h1>
+<h1><a class="internal-link" name="internal-discovery">Discoveries</a></h1>
 
 If a discovery has prerequisites, you must meet them to learn it. You can learn the discovery at the same time that you reach its prerequisites. You can only learn a discovery once, unless otherwise specified.
 

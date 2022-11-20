@@ -7,16 +7,16 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#maneuvers">Maneuvers</a>
-#### <a href="#orders">Cavalier Orders</a>
-<a href="#knightErrant">Knight Errant</a><br/>
-<a href="#blueRose">Order of the Blue Rose</a><br/>
-<a href="#dragon">Order of the Dragon</a><br/>
-<a href="#flame">Order of the Flame</a><br/>
-<a href="#lion">Order of the Lion</a><br/>
-<a href="#scales">Order of the Scales</a><br/>
-<a href="#shield">Order of the Shield</a><br/>
-<a href="#star">Order of the Star</a><br/>
+#### <a href="#internal-maneuvers">Maneuvers</a>
+#### <a href="#internal-orders">Cavalier Orders</a>
+<a href="#internal-knightErrant">Knight Errant</a><br/>
+<a href="#internal-blueRose">Order of the Blue Rose</a><br/>
+<a href="#internal-dragon">Order of the Dragon</a><br/>
+<a href="#internal-flame">Order of the Flame</a><br/>
+<a href="#internal-lion">Order of the Lion</a><br/>
+<a href="#internal-scales">Order of the Scales</a><br/>
+<a href="#internal-shield">Order of the Shield</a><br/>
+<a href="#internal-star">Order of the Star</a><br/>
 
 </div>
 
@@ -178,7 +178,7 @@ Starting at 2nd level, your tactical expertise makes you a deadly force on the b
 #### Maneuvers
 You learn three maneuvers of your choice. At least half (rounded down) of you maneuvers must be from the mounted category.
 
-You learn additional maneuvers at certain levels as shown in the Maneuvers Known section of the Cavalier table. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one. All maneuvers are listed *<a href="#maneuvers">here</a>*.
+You learn additional maneuvers at certain levels as shown in the Maneuvers Known section of the Cavalier table. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one. All maneuvers are listed *<a href="#internal-maneuvers">here</a>*.
 
 In addition you always have access to the ***Action Surge*** maneuver (see below)
 
@@ -237,28 +237,28 @@ Your courageous words inspire valor and ferocity in your allies, allowing you to
 </div>
 
 
-<h2><a class="internal-link" name="orders">Cavalier Order</a></h2>
+<h2><a class="internal-link" name="internal-orders">Cavalier Order</a></h2>
 
 
 When you select this class, you must pledge yourself to a specific order. The order grants a number of bonuses, class skills and traits. In addition, each order includes a number of edicts that you must follow. If you violate any of these edicts, you loses the benefits from the order's challenge ability for 24 hours. The violation of an edict is subject to GM interpretation.
 
 Members of these orders are not necessarily bound together, but some organizations do exist that are comprised of cavaliers that all belong to one specific order.
 
- **<a href="#knightErrant">Knight Errant</a>**. Brave mercenary warriors who wander the land to show off their combat prowess and help those in need.
+ **<a href="#internal-knightErrant">Knight Errant</a>**. Brave mercenary warriors who wander the land to show off their combat prowess and help those in need.
 
- **<a href="#blueRose">Order of the Blue Rose</a>**. Diplomatic knights that dedicate themselves to promoting peace.
+ **<a href="#internal-blueRose">Order of the Blue Rose</a>**. Diplomatic knights that dedicate themselves to promoting peace.
 
- **<a href="#dragon">Order of the Dragon</a>**. These cavaliers value loyalty and friendship, often in a group of like-minded individuals.
+ **<a href="#internal-dragon">Order of the Dragon</a>**. These cavaliers value loyalty and friendship, often in a group of like-minded individuals.
 
- **<a href="#flame">Order of the Flame</a>**. Knights that devote their lives to the pursuit of personal glory.
+ **<a href="#internal-flame">Order of the Flame</a>**. Knights that devote their lives to the pursuit of personal glory.
 
- **<a href="#lion">Order of the Lion</a>**. An order that pledges themselves to a sovereign; be it a king, queen, or even the local warlord.
+ **<a href="#internal-lion">Order of the Lion</a>**. An order that pledges themselves to a sovereign; be it a king, queen, or even the local warlord.
 
- **<a href="#scales">Order of the Scales</a>**. The order of the scales safeguards the truth in all its forms, punishing liars, cheaters, and traitors.
+ **<a href="#internal-scales">Order of the Scales</a>**. The order of the scales safeguards the truth in all its forms, punishing liars, cheaters, and traitors.
 
- **<a href="#shield">Order of the Shield</a>**. Cavaliers that devote their lives to protecting the common folk.
+ **<a href="#internal-shield">Order of the Shield</a>**. Cavaliers that devote their lives to protecting the common folk.
 
- **<a href="#star">Order of the Star</a>**. The order of the star dedicate themselves to the protection and service of a faith and its members.
+ **<a href="#internal-star">Order of the Star</a>**. The order of the star dedicate themselves to the protection and service of a faith and its members.
 
 
 
@@ -267,7 +267,7 @@ Members of these orders are not necessarily bound together, but some organizatio
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="knightErrant">Knight Errant</a></h1>
+<h1><a class="internal-link" name="internal-knightErrant">Knight Errant</a></h1>
 
 Knights errant are brave mercenary warriors who wander the land, following no particular order but still upholding a code of chivalry wherever they go. Knights errant travel the land in search of adventure, to show off their combat prowess and help those in need wherever they travel. A knight errant pays no kingdom fealty, holding only to the service of those who need them, or those who pay them. These knights are often nomadic but provide their services to those in need. If a kingdom is in need, the knight will likely expect payment for services rendered.
 
@@ -330,7 +330,7 @@ At 18th level, whenever you use Challenge, Battlefield Inspiration or Bolstering
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="blueRose">Order of the Blue Rose</a></h1>
+<h1><a class="internal-link" name="internal-blueRose">Order of the Blue Rose</a></h1>
 
 
 The cavaliers of the order of the blue rose dedicate themselves to promoting peace in the lands they roam. Skilled warriors and adept diplomats, these cavaliers counsel wisdom, patience, and understanding, but are ever mindful of the need to take up arms to strike down aggressors, tyrants, or evil usurpers. Although they believe wholeheartedly in peace as an aim and a final goal, cavaliers of the blue rose are warriors first, and embrace their role as guardians of those who cannot or will not take up arms to defend themselves.
@@ -395,7 +395,7 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="dragon">Order of the Dragon</a></h1>
+<h1><a class="internal-link" name="internal-dragon">Order of the Dragon</a></h1>
 
 
 Cavaliers belonging to the order of the dragon dedicate themselves to a group of like-minded individuals, be it a mercenary company or a small band of adventurers. These cavaliers believe in loyalty and friendship, and are willing to lay down their lives to protect their allies.
@@ -452,7 +452,7 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="flame">Order of the Flame</a></h1>
+<h1><a class="internal-link" name="internal-flame">Order of the Flame</a></h1>
 
 A cavalier of the order of the flame devotes his life to the pursuit of personal glory. Even if such pursuit puts his own life on the line, the cavalier pursues legendary status and the fame and glory associated with such renown.
 
@@ -507,7 +507,7 @@ At 18th level, you can, as a ***bonus action***, declare a moment of triumph. Un
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="lion">Order of the Lion</a></h1>
+<h1><a class="internal-link" name="internal-lion">Order of the Lion</a></h1>
 
 A cavalier who belongs to this order has pledged himself to a sovereign; be it a king, queen, or even the local warlord. Cavaliers of this order are stalwart and dedicated to their cause, willing to go any length to ensure the safety of their lord and his domain.
 
@@ -562,7 +562,7 @@ In addition, as a ***reaction***, you can redirect an attack made at a creature 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="scales">Order of the Scales</a></h1>
+<h1><a class="internal-link" name="internal-scales">Order of the Scales</a></h1>
 
 Truth is the most sacred of all ideals. The order of the scales cavalier safeguards the truth in all its forms, punishing liars, cheaters, and traitors, and never lying or bending the truth himself. The order of the scale cavalier is steadfast and just. He does not bend to lies nor trickery. His devotion to truth is more unshakable than many clergymen's devotion to their gods. His presence fills good men with awe and inspiration, and it brings fear to charlatans.
 
@@ -621,7 +621,7 @@ At 18th level, you can tell if people are lying around you. As an ***action*** y
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="shield">Order of the Shield</a></h1>
+<h1><a class="internal-link" name="internal-shield">Order of the Shield</a></h1>
 
 Cavaliers who join the order of the shield devote their lives to protecting the common folk, from the simple farmer to the honest craftsman. These cavaliers stand before the tide, protecting the innocent from roving marauders and hungry monsters.
 
@@ -679,7 +679,7 @@ At 18th level, you can move to intercept foes. When a foe makes an action, as a 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="star">Order of the Star</a></h1>
+<h1><a class="internal-link" name="internal-star">Order of the Star</a></h1>
 
 Cavaliers who join the order of the star dedicate themselves to the protection and service of a faith and its members. Cavaliers belonging to this order tend to follow many of the tenets and guides of the religion that they serve. When a cavalier joins this order, he should select a single religion to serve.
 
@@ -731,7 +731,7 @@ At 18th level, you can take retribution on those who dare to strike an agent of 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="maneuvers">Maneuvers</a></h1>
+<h1><a class="internal-link" name="internal-maneuvers">Maneuvers</a></h1>
 
 If a maneuver has prerequisites, you must meet them to learn it. You can learn the maneuver at the same time you meet its prerequisites. A level prerequisite refers to your class level.
 

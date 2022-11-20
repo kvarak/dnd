@@ -9,40 +9,40 @@ layout: default
 
 ## Contents
 ##### Variant Bard
-<a href="#loreseeker">Loreseeker</a>
+<a href="#internal-loreseeker">Loreseeker</a>
 
-##### <a href="#bardicSongs">Bardic Songs</a>
+##### <a href="#internal-bardicSongs">Bardic Songs</a>
 
 ##### Bard Colleges
-<a href="#beguiler">Beguiler</a><br/>
-<a href="#awakenedArt">College of Awakened Art</a><br/>
-<a href="#crossroads">College of Crossroads</a><br/>
-<a href="#beasts">College of Beasts</a><br/>
-<a href="#colors">College of Colors</a><br/>
-<a href="#dance">College of Dance</a><br/>
-<a href="#desire">College of Desire</a><br/>
-<a href="#doors">College of Doors</a><br/>
-<a href="#entropy">College of Entropy</a><br/>
-<a href="#eulogies">College of Eulogies</a><br/>
-<a href="#faith">College of Faith</a><br/>
-<a href="#fools">College of Fools</a><br/>
-<a href="#glamour">College of Glamour</a><br/>
-<a href="#grandeur">College of Grandeur</a><br/>
-<a href="#lore">College of Lore</a><br/>
-<a href="#madGod">College of the Mad God</a><br/>
-<a href="#masks">College of Masks</a><br/>
-<a href="#mirrors">College of Mirrors</a><br/>
-<a href="#portraiture">College of Portraiture</a><br/>
-<a href="#purity">College of Purity</a><br/>
-<a href="#revelry">College of Revelry</a><br/>
-<a href="#secrets">College of Secrets</a><br/>
-<a href="#shanties">College of Shanties</a><br/>
-<a href="#tales">College of Tales</a><br/>
-<a href="#valor">College of Valor</a><br/>
-<a href="#whispers">College of Whispers</a><br/>
-<a href="#marionettist">Marionettist</a><br/>
-<a href="#pathfinderChronicler">Pathfinder Chronicler</a><br/>
-<a href="#piedPiper">Pied Piper</a><br/>
+<a href="#internal-beguiler">Beguiler</a><br/>
+<a href="#internal-awakenedArt">College of Awakened Art</a><br/>
+<a href="#internal-crossroads">College of Crossroads</a><br/>
+<a href="#internal-beasts">College of Beasts</a><br/>
+<a href="#internal-colors">College of Colors</a><br/>
+<a href="#internal-dance">College of Dance</a><br/>
+<a href="#internal-desire">College of Desire</a><br/>
+<a href="#internal-doors">College of Doors</a><br/>
+<a href="#internal-entropy">College of Entropy</a><br/>
+<a href="#internal-eulogies">College of Eulogies</a><br/>
+<a href="#internal-faith">College of Faith</a><br/>
+<a href="#internal-fools">College of Fools</a><br/>
+<a href="#internal-glamour">College of Glamour</a><br/>
+<a href="#internal-grandeur">College of Grandeur</a><br/>
+<a href="#internal-lore">College of Lore</a><br/>
+<a href="#internal-madGod">College of the Mad God</a><br/>
+<a href="#internal-masks">College of Masks</a><br/>
+<a href="#internal-mirrors">College of Mirrors</a><br/>
+<a href="#internal-portraiture">College of Portraiture</a><br/>
+<a href="#internal-purity">College of Purity</a><br/>
+<a href="#internal-revelry">College of Revelry</a><br/>
+<a href="#internal-secrets">College of Secrets</a><br/>
+<a href="#internal-shanties">College of Shanties</a><br/>
+<a href="#internal-tales">College of Tales</a><br/>
+<a href="#internal-valor">College of Valor</a><br/>
+<a href="#internal-whispers">College of Whispers</a><br/>
+<a href="#internal-marionettist">Marionettist</a><br/>
+<a href="#internal-pathfinderChronicler">Pathfinder Chronicler</a><br/>
+<a href="#internal-piedPiper">Pied Piper</a><br/>
 
 </div>
 
@@ -113,7 +113,7 @@ When others pick on you about being a bard, you need only remind them that you a
 | 20 | I've seen better-looking faces on a gibbering mouther
 
 
-<h2><a class="internal-link" name="loreseeker">Variant Bard: Loreseeker</a></h2>
+<h2><a class="internal-link" name="internal-loreseeker">Variant Bard: Loreseeker</a></h2>
 
 A loreseeker is an archaeologist, a scholar of ancient and forgotten knowledge, an adventurer more interested in the story behind a treasure than in its value in gold pieces. Loreseekers know a bit about everything, but they display peerless skills in their own fields. They learned to harness magic from ancient texts and forgotten rhymes. Scholars at core, they can offer the right advice for nearly every situation.
 
@@ -273,7 +273,7 @@ The college you belong to will specify if you can use a spellcasting focus, and 
 <!--- Base: You can use a musical instrument as a spellcasting focus for your bard spells. --->
 
 ### Bardic Song
-When you reach 2nd level, and again at 6th, 9th, 13th, and 17th level, you learn a bardic song. Choose from <a href="#bardicSongs">Bardic songs</a> below.
+When you reach 2nd level, and again at 6th, 9th, 13th, and 17th level, you learn a bardic song. Choose from <a href="#internal-bardicSongs">Bardic songs</a> below.
 
 ### Jack of All Trades
 Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.
@@ -306,7 +306,7 @@ At 20th level, when you roll initiative, you regain all uses of Bardic Inspirati
 
 
 
-<h2><a class="internal-link" name="bardicSongs">Bardic songs</a></h2>
+<h2><a class="internal-link" name="internal-bardicSongs">Bardic songs</a></h2>
 
 
 <img src='https://zjcasas.github.io/dungeons_and_dragons_tools/images/bard.png' style='float:right;height:50%;padding:20px' />
@@ -396,49 +396,49 @@ Monsters that aren't already hostile make Wisdom saves against the bard's spell 
 The way of a bard is gregarious. Bards seek each other out to swap songs and stories, boast of their accomplishments, and share their knowledge. Bards form loose associations, which they call colleges, to facilitate their gatherings and preserve their traditions.
 
 ### Art of Acting
-**<a href="#masks">College of Masks</a>** - Bards in the College of Masks (or Masters of Masks, as they have come to be called) are virtuoso performers who practice becoming the figure they portray, rather than merely imitating them.
+**<a href="#internal-masks">College of Masks</a>** - Bards in the College of Masks (or Masters of Masks, as they have come to be called) are virtuoso performers who practice becoming the figure they portray, rather than merely imitating them.
 
 ### Art of Dance
-**<a href="#dance">College of Dance</a>** - Bards who are exceptionally in tune with their bodies, weaving movement, combat and spellcasting into a singular art of self-expression.
+**<a href="#internal-dance">College of Dance</a>** - Bards who are exceptionally in tune with their bodies, weaving movement, combat and spellcasting into a singular art of self-expression.
 
 ### Art of History and Legends
-**<a href="#grandeur">College of Grandeur</a>** - Your study of history and politics has made you an expert in how certain individuals shape the destinies of multitudes, and you understand the path that leads to this kind of legendary influence. Many epic sagas begin with a small band of seemingly insignificant heroes who chose glory over safety. Whether doing it yourself or seeking to inspire others, you are set to guide someone to greatness.
+**<a href="#internal-grandeur">College of Grandeur</a>** - Your study of history and politics has made you an expert in how certain individuals shape the destinies of multitudes, and you understand the path that leads to this kind of legendary influence. Many epic sagas begin with a small band of seemingly insignificant heroes who chose glory over safety. Whether doing it yourself or seeking to inspire others, you are set to guide someone to greatness.
 
-**<a href="#lore">College of Lore</a>** - Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales.
+**<a href="#internal-lore">College of Lore</a>** - Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales.
 
-**<a href="#tales">College of Tales</a>** - Wanderers and storytellers who tirelessly seek out ancient legends and new tales alike.
+**<a href="#internal-tales">College of Tales</a>** - Wanderers and storytellers who tirelessly seek out ancient legends and new tales alike.
 
-**<a href="#valor">College of Valor</a>** - Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes.
+**<a href="#internal-valor">College of Valor</a>** - Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes.
 
-**<a href="#pathfinderChronicler">Pathfinder Chronicler</a>** - The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers, story-spinners, and recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance.
+**<a href="#internal-pathfinderChronicler">Pathfinder Chronicler</a>** - The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers, story-spinners, and recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance.
 
 
 
 ### Art of Manipulation
 Bards who master lying and manipulation.
 
-**<a href="#beguiler">Beguiler</a>** - Bards that see lying and manipulation as their tools of choice.
+**<a href="#internal-beguiler">Beguiler</a>** - Bards that see lying and manipulation as their tools of choice.
 
-**<a href="#secrets">College of Secrets</a>** - Your college is no loose association, but a close-knit society of sworn comrades. It could be one or more of many things — a thieves’ guild, an outlawed cult, a spy ring, a hidden faction of nobles devoted to restoring the true heir to the throne — but the key to your survival is clear: an expert understanding of the psychology and culture of those around you.
+**<a href="#internal-secrets">College of Secrets</a>** - Your college is no loose association, but a close-knit society of sworn comrades. It could be one or more of many things — a thieves’ guild, an outlawed cult, a spy ring, a hidden faction of nobles devoted to restoring the true heir to the throne — but the key to your survival is clear: an expert understanding of the psychology and culture of those around you.
 
-**<a href="#whispers">College of Whispers</a>** - Bards that use their knowledge and magic to uncover secrets, and turn them against others through extortion and threats.
+**<a href="#internal-whispers">College of Whispers</a>** - Bards that use their knowledge and magic to uncover secrets, and turn them against others through extortion and threats.
 
 ### Art of Song
-**<a href="#shanties">College of Shanties</a>** - A seaman, a singer, a trusty mate with quick reflexes and a big heart; this is the ideal bard from the College of Shanties, a hero whose words lead and inspire their companions to always act at their best.
+**<a href="#internal-shanties">College of Shanties</a>** - A seaman, a singer, a trusty mate with quick reflexes and a big heart; this is the ideal bard from the College of Shanties, a hero whose words lead and inspire their companions to always act at their best.
 
 ### Art of Visual Art
 Painters, sculptors or other similar artists.
 
-**<a href="#awakenedArt">College of Awakened Art</a>** - Bard who use a repertoire of sketched magical summons.
+**<a href="#internal-awakenedArt">College of Awakened Art</a>** - Bard who use a repertoire of sketched magical summons.
 
-**<a href="#colors">College of Colors</a>** - Bards with talent in the visual arts and the manipulation of light.
+**<a href="#internal-colors">College of Colors</a>** - Bards with talent in the visual arts and the manipulation of light.
 
-**<a href="#portraiture">College of Portraiture</a>** - Bards of the College of Portraiture are artisans first and foremost. Through intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations.
+**<a href="#internal-portraiture">College of Portraiture</a>** - Bards of the College of Portraiture are artisans first and foremost. Through intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations.
 
 ### Bards Working with Animals
-**<a href="#beasts">College of Beasts</a>** - These bards can often be seen in circuses, training the animals, or wandering the world, with their animals as their only traveling and performing companions.
+**<a href="#internal-beasts">College of Beasts</a>** - These bards can often be seen in circuses, training the animals, or wandering the world, with their animals as their only traveling and performing companions.
 
-**<a href="#piedPiper">Pied Piper</a>** - Specialist in entrancing people, animals and vermin.
+**<a href="#internal-piedPiper">Pied Piper</a>** - Specialist in entrancing people, animals and vermin.
 
 
 
@@ -448,43 +448,43 @@ Painters, sculptors or other similar artists.
 
 
 ### Comedy and Simple Entertainment
-**<a href="#fools">College of Fools</a>** - These bards use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court.
+**<a href="#internal-fools">College of Fools</a>** - These bards use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court.
 
-**<a href="#mirrors">College of Mirrors</a>** - Bards who specialize in the art of misdirection.
+**<a href="#internal-mirrors">College of Mirrors</a>** - Bards who specialize in the art of misdirection.
 
-**<a href="#marionettist">Marionettist</a>** - Puppeteers that turn the movement of wooden dolls into a masterpiece of animation. Using their nimble fingers and magic string, they can even control the bodies of the living and animate the dead to follow their precise instructions.
+**<a href="#internal-marionettist">Marionettist</a>** - Puppeteers that turn the movement of wooden dolls into a masterpiece of animation. Using their nimble fingers and magic string, they can even control the bodies of the living and animate the dead to follow their precise instructions.
 
 ### Love and Friendship
-**<a href="#desire">College of Desire</a>** - Bards peerless in a particular art, and that art is infatuation.
+**<a href="#internal-desire">College of Desire</a>** - Bards peerless in a particular art, and that art is infatuation.
 
-**<a href="#purity">College of Purity</a>** - Despite living through many of the cruellest dangers the world has to offer, there are those who maintain that all conflicts can be resolved with the power of friendship. The bards of the College of Purity are united by their belief in this ideal, and use their performances to spread peace and harmony wherever they go.
+**<a href="#internal-purity">College of Purity</a>** - Despite living through many of the cruellest dangers the world has to offer, there are those who maintain that all conflicts can be resolved with the power of friendship. The bards of the College of Purity are united by their belief in this ideal, and use their performances to spread peace and harmony wherever they go.
 
 
 
 ### Touched by Otherworldly Forces
-**<a href="#crossroads">College of Crossroads</a>** - A bard who seek out a shortcut to musical greatness, no matter what the cost―even if it means their souls.
+**<a href="#internal-crossroads">College of Crossroads</a>** - A bard who seek out a shortcut to musical greatness, no matter what the cost―even if it means their souls.
 
-**<a href="#doors">College of Doors</a>** - These bards are roamers of the planes who tell tales of their travels and the fantastical places they've seen.
+**<a href="#internal-doors">College of Doors</a>** - These bards are roamers of the planes who tell tales of their travels and the fantastical places they've seen.
 
-**<a href="#faith">College of Faith</a>** - Bards of the College of Faith *(also called cantors)* believe their music is a gift from above and that it should be used to praise the gods.
+**<a href="#internal-faith">College of Faith</a>** - Bards of the College of Faith *(also called cantors)* believe their music is a gift from above and that it should be used to praise the gods.
 
-**<a href="#glamour">College of Glamour</a>** - This college is open to those bards who mastered their craft in the vibrant, deadly realm of the Feywild.
+**<a href="#internal-glamour">College of Glamour</a>** - This college is open to those bards who mastered their craft in the vibrant, deadly realm of the Feywild.
 
-**<a href="#madGod">College of the Mad God</a>** - A haunting tune from beyond beckons you, slowly driving you insane...
+**<a href="#internal-madGod">College of the Mad God</a>** - A haunting tune from beyond beckons you, slowly driving you insane...
 
 ### Other
-**<a href="#entropy">College of Entropy</a>** - Bards of the College of Entropy, called Luck stealers, are itinerate gamblers and daring thrill seekers whose actions are supremely unpredictable.
+**<a href="#internal-entropy">College of Entropy</a>** - Bards of the College of Entropy, called Luck stealers, are itinerate gamblers and daring thrill seekers whose actions are supremely unpredictable.
 
-**<a href="#eulogies">College of Eulogies</a>** - Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and horro
+**<a href="#internal-eulogies">College of Eulogies</a>** - Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and horro
 
-**<a href="#revelry">College of Revelry</a>** - Bards that completely commit to a hedonistic lifestyle.
+**<a href="#internal-revelry">College of Revelry</a>** - Bards that completely commit to a hedonistic lifestyle.
 
 
 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="beguiler">Beguiler</a></h1>
+<h1><a class="internal-link" name="internal-beguiler">Beguiler</a></h1>
 
 > *"You know me. I'm as good as my word*,
 > *and my life is an open book."*
@@ -529,7 +529,7 @@ Additionally, when the spell expires, you can try to make the creature forget so
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="awakenedArt">College of Awakened Arts</a></h1>
+<h1><a class="internal-link" name="internal-awakenedArt">College of Awakened Arts</a></h1>
 
 Song is not the only art form that can tell a story. After all, an image is worth a thousand words, and bards from the College of Awakened Art know this better than anyone. Their extraordinary talent as visual artists is second to none, as is their power to bring to life their creations as helpful allies. In addition to their arsenal of spells, their equally impressive repertoire of sketched magical summons is their key to thrive as dependable adventurers.
 
@@ -611,7 +611,7 @@ Starting at 14th level, you now use your sketchbook twice. Additionally, they no
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="beasts">College of Beasts</a></h1>
+<h1><a class="internal-link" name="internal-beasts">College of Beasts</a></h1>
 
 Bards of the College of Beasts have a fascination with other creatures, making bonds with them and learning far more about them than others even realize there is to know. These bards can often be seen in circuses, training the animals, or wandering the world, with their animals as their only traveling and performing companions. They often gather at festivals in order to show off their companions and exchange tips on how to raise them.
 
@@ -663,7 +663,7 @@ Beginning at 14th level, when you cast a spell targeting yourself, you can also 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="colors">College of Colors</a></h1>
+<h1><a class="internal-link" name="internal-colors">College of Colors</a></h1>
 
 The College of Colors is a school for Bards who excel in visual arts, and who delight in the color of the world. Color is just light, after all, and light is a gift. Likewise, your art is a gift that people should delight to enjoy. Manipulation of light is an art that can be brilliantly beautiful and dangerous. An artistic masterpiece is just one brush stroke away from burning radiance ripping into your enemies. When using spell or bardic songs, a coloration bard may paint their spell effects into thin air or decorate a canvas with elaborate runes.
 
@@ -746,7 +746,7 @@ These illusions look perfect, but act very crudely as it is difficult to maintai
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="crossroads">College of Crossroads</a></h1>
+<h1><a class="internal-link" name="internal-crossroads">College of Crossroads</a></h1>
 
 Most bards practice endlessly to perfect their craft, taking every opportunity to perform and hone their musical skills. Becoming a musician is a long, arduous road that requires passion, talent, and a great deal of fortune, but not all bards are so diligent. Some seek out a shortcut, no matter what the cost―even if it means their souls.
 
@@ -813,7 +813,7 @@ In addition, you learn the *infernal calling* spell, which counts as a bard spel
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="dance">College of Dance</a></h1>
+<h1><a class="internal-link" name="internal-dance">College of Dance</a></h1>
 
 The college of dance teaches bards who are exceptionally in tune with their bodies, weaving movement, combat with or without a weapon and spellcasting into a singular art of self-expression. Dancers prefer small, light instruments, commonly a tambourine, a set of finger cymbals, or percussion instruments worn around the ankles, but a few manage to play other instruments while dancing.
 
@@ -896,7 +896,7 @@ From 14th level, after you have used a Dance Flourish, you can grant up to three
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="desire">College of Desire</a></h1>
+<h1><a class="internal-link" name="internal-desire">College of Desire</a></h1>
 
 Bards of the College of Desire are peerless in a particular art, and that art is infatuation. With a pluck of a string, they can cause the heart to stir and bubble with complex emotion, whether through music or with their enchanted arrows. While a benevolent member of the College of Desire would seek to lighten the load of a heavy heart if only for a moment, many of them take advantage of their ability to cause chaos. Nothing is easier to control than the heart, or so they say.
 
@@ -963,7 +963,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="doors">College of Doors</a></h1>
+<h1><a class="internal-link" name="internal-doors">College of Doors</a></h1>
 
 Bards of the College of Doors are roamers of the planes who tell tales of their travels and the fantastical places they've seen. The College of Doors believes that the infinite vastness of the planes, outer, inner, upper, and lower, is where the truest sense of wonder originates. From the plains of the Beastlands, to the great gears of Mechanus, to the chaotic islands of Limbo there are new things to experience and see, and those things are worth writing poems and songs and performances about.
 
@@ -1012,7 +1012,7 @@ From 14th level you can travel between any two Magic Doors regardless of their d
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="entropy">College of Entropy</a></h1>
+<h1><a class="internal-link" name="internal-entropy">College of Entropy</a></h1>
 
 Bards of the College of Entropy are itinerate gamblers and daring thrill seekers whose actions are supremely unpredictable. Rather than relying on ancient lore or skill with arms, these bards throw themselves into new challenges just to see what happens, trusting in luck to see them through. They’re called luck stealers (with a mixture of derision and respect) because no matter how bad things get for everyone around them, these bards always seem to come out unscathed.
 
@@ -1089,7 +1089,7 @@ The following spells are considered chaos spells.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="eulogies">College of Eulogies</a></h1>
+<h1><a class="internal-link" name="internal-eulogies">College of Eulogies</a></h1>
 
 Bards are masters of eliciting all types of emotion. They use their musical magic to make audiences feel longing for places they have never been and love for people long dead. Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and horror. They take their name from the speeches typically delivered in memory of the deceased, for they see themselves as bringers of death.
 
@@ -1209,7 +1209,7 @@ The sadness and despair that you inflict upon your enemies cloys to them until i
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="faith">College of Faith</a></h1>
+<h1><a class="internal-link" name="internal-faith">College of Faith</a></h1>
 
 Bards of the College of Faith (also called cantors) believe their music is a gift from above and that it should be used to praise the gods. They follow the tenets of a deity or religion and they are as unshakable in their conviction as the most devout cleric or the bravest paladin.
 
@@ -1260,7 +1260,7 @@ Beginning at 14th level, if your chosen divine domain grants a Channel Divinity 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="fools">College of Fools</a></h1>
+<h1><a class="internal-link" name="internal-fools">College of Fools</a></h1>
 
 Bards of the College of Fools are also called jesters. They use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court. Where other bards seek forgotten lore or tales of epic bravery, jesters ferret out embarrassing and hilarious stories of all kinds. Whether telling the ribald tale of a brawny stable hand’s affair with an aged duchess or a mocking satire of a paladin of Helm’s cloying innocence, a jester never lets taste, social decorum, or shame get in the way of a good laugh.
 
@@ -1342,7 +1342,7 @@ Even if a joke falls flat at first, you know how to get your audience laughing; 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="glamour">College of Glamour</a></h1>
+<h1><a class="internal-link" name="internal-glamour">College of Glamour</a></h1>
 
 The College of Glamour is the home of bards who mastered their craft in the vibrant realm of the Feywild or under the tutelage of someone who dwelled there. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others.
 
@@ -1414,7 +1414,7 @@ In addition, as a ***bonus action***, you can assume a magically majestic presen
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="grandeur">College of Grandeur</a></h1>
+<h1><a class="internal-link" name="internal-grandeur">College of Grandeur</a></h1>
 
 You have a deep understanding of the forces—both mundane and mystical—that draw forth greatness in otherwise ordinary mortals. Your study of history and politics has made you an expert in how certain individuals shape the destinies of multitudes, and you understand the path that leads to this kind of legendary influence. Whether ruling themselves or seeking to inspire others to rule well, bards of the College of Grandeur wield abilities fueled by the presence of true leadership.
 
@@ -1476,7 +1476,7 @@ You can use this feature a number of times equal to your Charisma modifier and c
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="lore">College of Lore</a></h1>
+<h1><a class="internal-link" name="internal-lore">College of Lore</a></h1>
 
 Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.
 
@@ -1520,7 +1520,7 @@ Starting at 14th level, when you make an ability check, you can expend one use o
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="madGod">College of the Mad God</a></h1>
+<h1><a class="internal-link" name="internal-madGod">College of the Mad God</a></h1>
 
 In the middle of the night, you hear the music. Every time, it begins the same way, rising from a low drone into a deafening cacophony. The noise is maddening. In your waking hours, your fingers learn to imitate this melody and bring others to your level of psychosis.
 
@@ -1581,7 +1581,7 @@ After you use this ability, you must complete a short rest before using it again
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="masks">College of Masks</a></h1>
+<h1><a class="internal-link" name="internal-masks">College of Masks</a></h1>
 
 Bards in the College of Masks (or Masters of Masks, as they have come to be called) are virtuoso performers who practice becoming the figure they portray, rather than merely imitating them. Bards who practice in this college come to believe that all life is performed, rather than lived, and that to become an actor in this Great Play requires that one merely put on the metaphorical mask of another.
 
@@ -1697,7 +1697,7 @@ Your alignment appears to be neutral good while you wear a High Priest mask.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="mirrors">College of Mirrors</a></h1>
+<h1><a class="internal-link" name="internal-mirrors">College of Mirrors</a></h1>
 
 Bards of the College of Mirrors specialize in the art of redirection. What starts off as simple sleight of hand card tricks or minor magical illusions can lead a bard to this elusive path. A common value shared throughout this college is that appearances can be and often are deceiving. These bards often find themselves employed in thieves guilds as a master of distraction, helping cover up assassinations or secret plots, and many other jobs that require artful illusory work.
 
@@ -1761,7 +1761,7 @@ You can use this feature a number of times equal to your Charisma modifier and c
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="portraiture">College of Portraiture</a></h1>
+<h1><a class="internal-link" name="internal-portraiture">College of Portraiture</a></h1>
 
 Bards of the College of Portraiture are artisans first and foremost. Through your intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations. True artistic mastery lies in the ability to imbue each masterpiece with a fragment of one’s soul, binding each creation to the artist in an elegant and harmonious union. Your skill and talent in the manipulation of your life essence allows you to create and animate works of art in your own image. Narcissism is common among the practitioners of this College, though it can hardly be faulted. If everyone could portray themselves so beautifully, surely they would.
 
@@ -1816,7 +1816,7 @@ Whenever you would take damage, you can use your ***reaction*** to sacrifice the
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="purity">College of Purity</a></h1>
+<h1><a class="internal-link" name="internal-purity">College of Purity</a></h1>
 
 Despite living through many of the cruellest dangers the world has to offer, there are those who maintain that all conflicts can be resolved with the power of friendship. The bards of the College of Purity are united by their belief in this ideal, and use their performances to spread peace and harmony wherever they go.
 
@@ -1954,7 +1954,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="revelry">College of Revelry</a></h1>
+<h1><a class="internal-link" name="internal-revelry">College of Revelry</a></h1>
 
 Some bards have a way of becoming the center of attention wherever they go. They enjoy the after parties more than their performances, and it is rare that they turn down an invitation for a good time. From formal banquets of royalty to the harvest celebrations of small farming towns, Revelry bards live for parties and hedonistic gatherings of all kinds.
 
@@ -2002,7 +2002,7 @@ When you use this feature, you can choose to expend an additional use of bardic 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="secrets">College of Secrets</a></h1>
+<h1><a class="internal-link" name="internal-secrets">College of Secrets</a></h1>
 
 There have been many secret societies in history, and they have always needed those like you, those who truly understand the nature of loyalty and respect. And fear, of course. There must always be fear, your insurance against those unfortunate days when loyalty and respect do not carry their proper weight. You prefer to be respected, even loved, and you work hard to earn loyalty. But fear will do in a pinch.
 
@@ -2085,7 +2085,7 @@ At 14th level, you have carefully built up a network of informants who you can c
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="shanties">College of Shanties</a></h1>
+<h1><a class="internal-link" name="internal-shanties">College of Shanties</a></h1>
 
 A seaman, a singer, a trusty mate with quick reflexes and a big heart: this is the ideal bard from the College of Shanties, a hero whose
 words lead and inspire their companions to always act at their best. Shanties are simple sea songs with a mechanism of call and response: the main singer, the shantyman, directs their companions both in the chorus and in the chores required to sail a ship. The voice and wits of a proper shantyman support sailors during their exhausting manual labor, and many a seaman found that a good shanty could inspire them to complete nearly impossible tasks.
@@ -2147,7 +2147,7 @@ When you are 14th level, the very act of striking you down is enough to invoke a
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="tales">College of Tales</a></h1>
+<h1><a class="internal-link" name="internal-tales">College of Tales</a></h1>
 
 Wanderers and storytellers, bards of the College of Tales can be found in every corner of the world, tirelessly seeking out ancient legends and new tales alike. Using their gift of magic, these bards bring their stories to life, conjuring monsters of legend and fantastical landscapes to augment their narration.
 
@@ -2214,7 +2214,7 @@ Starting at 14th level, any creature that you summon or create with a spell is a
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="valor">College of Valor</a></h1>
+<h1><a class="internal-link" name="internal-valor">College of Valor</a></h1>
 
 Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.
 
@@ -2259,7 +2259,7 @@ In addition, you have mastered the art of weaving spellcasting and weapon use in
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="whispers">College of Whispers</a></h1>
+<h1><a class="internal-link" name="internal-whispers">College of Whispers</a></h1>
 
 Most folk are happy to welcome a bard into their midst. Bards of the College of Whispers use this to their advantage. They appear to be like other bards, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the College of Whispers teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.
 
@@ -2345,7 +2345,7 @@ Once you use this feature, you can’t use it again until you finish a long rest
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="marionettist">Marionettist</a></h1>
+<h1><a class="internal-link" name="internal-marionettist">Marionettist</a></h1>
 
 Marionettists, or bards of the College of Puppeteers, are one person troupes who stage epic tales of heroism, tragedy and comedy with their merry bands of magically animated puppets. Ornately crafted, these puppets can adopt any role and play any character, and a puppeteer makes great use of this versatility to rapt audiences, entertain the masses and captivate nobles with performances that are bold, intricate and sometimes shocking; many a puppeteer has used their creations to portray exaggerated parodies of events and people in much the same way a jester does, for good or ill.
 
@@ -2400,7 +2400,7 @@ The duration of this spell is a number of rounds equal to the number rolled on t
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="pathfinderChronicler">Pathfinder Chronicler</a></h1>
+<h1><a class="internal-link" name="internal-pathfinderChronicler">Pathfinder Chronicler</a></h1>
 
 The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers and story-spinners who form and shape the views of history and public opinion across the face of Golarion. Commonly known by their wayfinders, the Pathfinder chroniclers are recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance. Commoners delight when a Pathfinder chronicler comes to town, bearing news, gossip, or favorite tales of yore.
 
@@ -2453,7 +2453,7 @@ At 14th level, you may have two Echoes active at once – either two Warriors, o
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="piedPiper">Pied Piper</a></h1>
+<h1><a class="internal-link" name="internal-piedPiper">Pied Piper</a></h1>
 
 The College of Pied Pipers have a strong affinity for animals, particularly for vermin. The college has no official name, and its lore is spread between those few who dare to teach its secrets. They all can be rooted to a legendary bard whose peerless skill with wind instruments (some say flute, some say panpipes) entranced vermin. The tale speaks of how this bard traveled between cities, offering its trade to the citizens; those who paid had their vermin troubles swept away, but those who couldn't pay its exorbitant price suddenly found themselves robbed of what they loved the most. Legends cannot tell if the story is true, if the piper did this as a service or for wicked ways, but the secrets of controlling vermin were spread between enterprising bards who wished to sway creatures to their service.
 
