@@ -9,8 +9,8 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-Deities">Pantheons</a>
-<a href="#internal-Deities">Golarion Deities</a><br/>
+#### <a href="#internal-Pantheons">Pantheons</a>
+<a href="#internal-Golarion">Golarion Deities</a><br/>
 Dwarven Deities - *See the Dwarven race*<br/>
 <a href="#internal-Elf">Elf Deities</a><br/>
 <a href="#internal-Gnome">Gnome Deities</a><br/>
@@ -303,24 +303,21 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 
 
 
+<h2><a class="internal-link" name="internal-Pantheons">Pantheons</a></h2>
 
-
-
-# <a name="internal-Deities">Pantheons</a>
 * Dwarven Deities - See the Dwarven race
 * <a href="#internal-Elf">Elf Deities</a>
 * <a href="#internal-Gnome">Gnome Deities</a>
 * <a href="#internal-Halfling">Halfling Deities</a>
 * <a href="#internal-Nonhuman">Other Nonhuman Deities</a>
-
-
-
 * <a href="#internal-Celtic">Celtic Deities</a>. Worshiped by nature folk and druids.
 * <a href="#internal-Egyptian">Egyptian Deities</a>. Worshiped by desert folk and in the Osirian region.
 * <a href="#internal-Norse">Norse Deities</a>. Worshiped by northern barbarians.
 
-{{}}">classTable,frame,decoration,wide,position:absolute;top:200px;width:90%;right:40px;
-##### Golarion Deities
+<div class="classTable frame" markdown="1">
+
+<h5><a class="internal-link" name="internal-Golarion">Golarion Deities</a></h2>
+
 | Deity | Alignment | Portfolio | Domains |
 |:----|:--:|:-----|:----|
 | Erastil | LG | God of farming, hunting, trade, family | Agriculture, Forge, Hunting, Life, Nature, Protection |
@@ -344,10 +341,11 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 | Lamashtu  | CE | Goddess of madness, monsters, nightmares | Chaos, Death, Hunting, Survival, Trickery |
 | Rovagug  | CE | God of wrath, disaster, destruction | Death, Desert, Strength, Tempest, War |
 
+</div>
 
-<a name="internal-Elf"></a>
-{{}}">classTable,frame,decoration,wide,position:absolute;top:650px;width:90%;right:40px;
-##### Elf Deities
+<div class="classTable frame" markdown="1">
+<h5><a class="internal-link" name="internal-Elf">Elf Deities</a></h2>
+
 | Deity | Alignment | Portfolio | Domains |
 |:----|:--:|:-----|:----|
 | Aerdrie Faenya | CG | Goddess of air, weather, avians | Nature, Tempest, Winter
@@ -364,17 +362,11 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 | Solonor Thelandira | CG | God of archery and hunting | Hunting, Nature
 | Vandria Gilmadrith | LN | Goddess of war, justice and grief | Order, Strength, War
 
+</div>
 
+<div class="classTable frame" markdown="1">
+<h5><a class="internal-link" name="internal-Gnome">Gnome Deities</a></h2>
 
-
-
-
-
-
-
-<a name="internal-Gnome"></a>
-{{}}">classTable,frame,decoration,wide,position:absolute;top:70px;width:90%;right:40px;
-##### Gnome Deities
 | Deity | Alignment | Province | Domains | Common Symbol
 |:----|:--:|:-----|:----|:----|
 | Baervan Wildwanderer | NG | Woodlands | Nature | Face of a raccoon
@@ -392,9 +384,11 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 | Urdlen | CE | Greed, murder | Death, War | White-clawed mole emerging from ground
 
 
-<a name="internal-Halfling"></a>
-{{}}">classTable,frame,decoration,wide,position:absolute;top:490px;width:90%;right:40px;
-##### Halfling Deities
+</div>
+
+<div class="classTable frame" markdown="1">
+<h5><a class="internal-link" name="internal-Halfling">Halfling Deities</a></h2>
+
 | Deity | Alignment | Province | Domains | Common Symbol
 |:----|:--:|:-----|:----|:----|
 | Arvoreen | LG | Vigilance, war | Protection, War | Crossed short swords
@@ -406,11 +400,11 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 | Yondalla | LG | Primary goddess of halflings | Fortune, Life, Protection | Cornucopia
 
 
+</div>
 
-<a name="internal-Nonhuman"></a>
-{{}}">classTable,frame,decoration,wide,position:absolute;top:780px;width:90%;right:40px;
+<div class="classTable frame" markdown="1">
+<h5><a class="internal-link" name="internal-Nonhuman">Other Nonhuman Deities</a></h2>
 
-##### Other Nonhuman Deities
 | Deity | Alignment | Portfolio | Domains |
 |:----|:--:|:-----|:----|
 | Bahamut | LG | Dragon god of good | Arcana, Life, Order, War
@@ -419,29 +413,18 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 | Skoraeus Stonebones | N | Stone giant god of knowledge and  art | Fate, Forge, Knowledge
 
 
+</div>
 
+<h3><a class="internal-link" name="internal-Celtic">Celtic Deities</a></h3>
 
-
-
-
-
-
-### <a name="internal-Celtic">Celtic Deities</a>
 It's said that something wild lurks in the heart of every soul, a space that thrills to the sound of geese calling at night, to the whispering wind through the pines, to the unexpected red of mistletoe on an oak - and it is in this space that the Celtic gods dwell.
 
 They sprang from the brook and stream, their might heightened by the strength of the oak and the beauty of the woodlands and open moor. When the first forester dared put a name to the face seen in the bole of a tree or the voice babbling in a brook, these gods forced themselves into  being.
 
 The Celtic gods are as often served by druids as by clerics, for they are closely aligned with the forces of nature that druids revere.
 
+<div class="classTable frame" markdown="1">
 
-
-### <a name="internal-Egyptian">Egyptian Deities</a>
-These gods are a young dynasty of an ancient divine family, heirs to the rulership of the cosmos and the maintenance of the divine principle of Ma'at - the fundamental order of truth, justice, law, and order that puts gods, mortal pharaohs, and ordinary men and women in their logical and rightful place in the universe.
-
-The Egyptian pantheon is unusual in having three gods with the Death domain of different alignments. Anubis is the lawful neutral god of the afterlife, who judges the souls of the dead. Set is a chaotic evil god of murder, perhaps best known for killing his brother Osiris. And Nephthys is a chaotic good goddess of mourning. Thus, although most clerics of the Death domain are villainous characters, clerics who serve Anubis or Nephthys need not be.
-
-{{}}">classTable,frame,decoration,wide,position:absolute;top:350px;width:90%;right:40px;
-##### Celtic Deities
 | Deity | Alignment | Portfolio | Domains |
 |:----|:--:|:-----|:----|
 | The Daghdha | CG | God of weather and crops | Agriculture, Nature, Tempest, Trickery, Winter
@@ -459,9 +442,16 @@ The Egyptian pantheon is unusual in having three gods with the Death domain of d
 | Oghma | NG | God of speech and writing | Arcana, Knowledge
 | Silvanus | N | God of nature and forests | Nature, Survival
 
+</div>
 
-{{}}">classTable,frame,decoration,wide,position:absolute;top:700px;width:90%;right:40px;
-##### Egyptian Deities
+<h3><a class="internal-link" name="internal-Egyptian">Egyptian Deities</a></h3>
+
+These gods are a young dynasty of an ancient divine family, heirs to the rulership of the cosmos and the maintenance of the divine principle of Ma'at - the fundamental order of truth, justice, law, and order that puts gods, mortal pharaohs, and ordinary men and women in their logical and rightful place in the universe.
+
+The Egyptian pantheon is unusual in having three gods with the Death domain of different alignments. Anubis is the lawful neutral god of the afterlife, who judges the souls of the dead. Set is a chaotic evil god of murder, perhaps best known for killing his brother Osiris. And Nephthys is a chaotic good goddess of mourning. Thus, although most clerics of the Death domain are villainous characters, clerics who serve Anubis or Nephthys need not be.
+
+<div class="classTable frame" markdown="1">
+
 | Deity | Alignment | Portfolio | Domains |
 |:----|:--:|:-----|:----|
 | Re-Horakhty | LG | God of the sun, ruler of the gods | Balance, Desert, Life, Light, Order
@@ -479,25 +469,19 @@ The Egyptian pantheon is unusual in having three gods with the Death domain of d
 | Sobek | LE | God of water and crocodiles | Nature, Ocean, Survival,Tempest
 | Thoth | N | God of knowledge and wisdom | Arcana, Knowledge
 
+</div>
 
+<div class="classTable frame" markdown="1">
+<h3><a class="internal-link" name="internal-Norse">Norse Deities</a></h3>
 
-
-
-
-
-
-
-### <a name="internal-Norse">Norse Deities</a>
 Where the land plummets from the snowy hills into the icy fjords below, where the longboats draw up on to the beach, where the glaciers flow forward and retreat with every fall and spring - this is the land of the Vikings, the home of the Norse pantheon. It's a brutal clime, and one that calls for brutal living. The warriors of the land have had to adapt to the harsh conditions in order to survive, but they haven't been too twisted by the needs of their environment. Given the necessity of raiding for food and wealth, it's surprising the mortals turned out as well as they did.
-
-
 
 Their powers reflect the need these warriors had for strong leadership and decisive action. Thus, they see their deities in every bend of a river, hear them in the crash of the thunder and the booming of the glaciers, and smell them in the smoke of a burning longhouse.
 
 The Norse pantheon includes two main families, the Aesir (deities of war and destiny) and the Vanir (gods of fertility and prosperity). Once enemies, these two families are now closely allied against their common enemies, the giants (including the gods Surtur and Thrym). Like the gods of Greyhawk, gods in different families sometimes have overlap in their spheres of influence: Frey (of the Vanir) and Odur (of the Aesir) are both associated with the sun, for example.
 
-{{}}">classTable,frame,decoration,wide,position:absolute;top:300px;width:90%;right:40px;
-##### Norse Deities
+<div class="classTable frame" markdown="1">
+
 | Deity | Alignment | Portfolio | Domains |
 |:----|:--:|:-----|:----|
 | Odin | NG | God of knowledge and war | Fate, Knowledge, Order, Strength, War
@@ -523,13 +507,11 @@ The Norse pantheon includes two main families, the Aesir (deities of war and des
 
 
 
+</div>
 
+<div class="classTable frame" markdown="1">
+<h2><a class="internal-link" name="internal-Domains">Divine Domains</a></h2>
 
-
-
-
-
-# <a name="internal-Domains">Divine Domains</a>
 In a pantheon, every deity has influence over different aspects of mortal life and civilization, called a deity's domain. All the domains over which a deity has influence are called the deity's portfolio. For example, the portfolio of the Greek god Apollo includes the domains of Knowledge, Life, and Light. As a cleric, you choose one aspect of your deity's portfolio to emphasize, and you are granted powers related to that domain.
 
 Your choice might correspond to a particular sect dedicated to your deity. Apollo, for example, could be worshiped in one region as Phoebus ("radiant") Apollo, emphasizing his influence over the Light domain, and in a different place as Apollo Acesius ("healing"), emphasizing his association with the Life domain.
@@ -547,6 +529,7 @@ If you have chosen the path of the Crusader, your divine domain decides what typ
 
 
 #### Domain list
+
 * <a href="#internal-Agriculture">Agriculture Domain</a>
 * <a href="#internal-Arcana">Arcana Domain</a>
 * <a href="#internal-Balance">Balance Domain</a>
@@ -578,10 +561,6 @@ If you have chosen the path of the Crusader, your divine domain decides what typ
 
 #### Deity exclusive paths
 * <a href="#internal-balancedScale">Balanced Scale of Abadar</a>. This is a path exclusive to clerics of Abadar.
-
-
-
-
 
 
 
