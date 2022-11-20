@@ -164,6 +164,29 @@ You prepare the list of cleric spells that are available for you to cast, choosi
 
 
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain 1 **Piety**.
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain 1 **Piety**.
+| |
+| Add the following class specific benefits to choose from: |
+| * Regain 4 **Piety**.
+
+</div>
+</div>
+</div>
+
 
 You can change your list of prepared spells when you finish a long rest. However, if you do not have your maximum number of spells prepared, you can add a new spell to your list of prepared spells at any time. Both these activities requires time spent in prayer and meditation: at least 1 minute per spell level for each new spell.
 
@@ -197,20 +220,18 @@ When you gain this feature, choose two creature types from the following: Aberra
 
 As an ***action***, you present your holy symbol and speak a prayer against your chosen creature type. Each creature of that type that can see or hear you within 30 feet must make a Wisdom saving throw. If the creature fails, it is turned for 1 minute or until it takes any damage.
 
-</div>
-
-
-<div class="descriptive" markdown="1">
-
 A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
+</div>
 
 #### Crusader
+
 <div class="descriptive" markdown="1">
 
 ##### Channel Divinity: Devastating Strike
 When you hit a target with a melee weapon attack, you can expend a use of your channel divinity to fuel your strike. You deal additional damage equal to 5 + twice your Cleric level. The type of extra damage is dependent on your domain, and is the same as the type of damage your 8th level feature does.
 
+</div>
 
 #### Missionary
 <div class="descriptive" markdown="1">
@@ -218,6 +239,7 @@ When you hit a target with a melee weapon attack, you can expend a use of your c
 ##### Channel Divinity: Words of Honey
 When you make an ability check or saving throw using Wisdom or Charisma, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the roll succeeds or fails.
 
+</div>
 
 #### Priest
 <div class="descriptive" markdown="1">
@@ -227,14 +249,12 @@ As an ***action*** you present your holy symbol to project an aura emanating fro
 * You grant it temporary hit points equal to 1d6 plus your cleric level.
 * You end one effect on it causing it to be charmed or frightened.
 
+</div>
 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score by 2, or two ability scores by 1.
 
 You can’t increase an ability score above 20 using this feature.
-
-
-
 
 
 
@@ -273,26 +293,7 @@ Finally at 20th level, you can call on your deity to intervene on your behalf wh
 
 Once you gain aid from your deity, you can not do so again until 7 days have passed.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
 
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain 1 **Piety**.
-
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain 1 **Piety**.
-| | |
-| Add the following class benefits to choose from: ||
-| | * Regain 4 **Piety**.
 
 
 
