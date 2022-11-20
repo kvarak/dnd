@@ -9,6 +9,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
+## Contents
 #### <a href="#internal-Pantheons">Pantheons</a>
 <a href="#internal-Golarion">Golarion Deities</a><br/>
 Dwarven Deities - *See the Dwarven race*<br/>
@@ -305,6 +306,8 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 
 <h2><a class="internal-link" name="internal-Pantheons">Pantheons</a></h2>
 
+<div class="columns">
+
 * Dwarven Deities - See the Dwarven race
 * <a href="#internal-Elf">Elf Deities</a>
 * <a href="#internal-Gnome">Gnome Deities</a>
@@ -313,6 +316,8 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 * <a href="#internal-Celtic">Celtic Deities</a>. Worshiped by nature folk and druids.
 * <a href="#internal-Egyptian">Egyptian Deities</a>. Worshiped by desert folk and in the Osirian region.
 * <a href="#internal-Norse">Norse Deities</a>. Worshiped by northern barbarians.
+
+</div>
 
 <div class="classTable frame" markdown="1">
 
@@ -560,16 +565,32 @@ If you have chosen the path of the Crusader, your divine domain decides what typ
 </div>
 
 #### Deity exclusive paths
-* <a href="#internal-balancedScale">Balanced Scale of Abadar</a>. This is a path exclusive to clerics of Abadar.
+<a href="#internal-balancedScale">Balanced Scale of Abadar</a>. This is a path exclusive to clerics of Abadar.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Agriculture">Agriculture Domain</a></h1>
 
-# <a name="internal-Agriculture">Agriculture Domain</a>
 Gods of the field and farm share much with the gods of nature. They are nurturing forces, lifebringers and survivors. Unlike their more wild cousins, however, gods of agriculture cultivate nature, sculpting it to their needs.
 
 They teach the art of farming and animal husbandry to mortals, giving them stability, peace, and the opportunity to grow. Simultaneously, they train their followers in the ways of cooperation and hardiness - perfect traits for the reluctant warrior, and ideal traits for a shepard who protects villages and towns that would be otherwise defenseless.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Hand of Solidarity***.
+| * Regain all uses of ***Gestalt Anchor***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
 | Cleric Level | Feature |
@@ -615,35 +636,16 @@ Starting at 18th level, your spells bolster your target even when already at the
 
 These hit points last for 1 minute, and give the creature advantage on all saves as long as they remain. Healing a creature who is missing no hit points and already has temporary hit points from this feature wastes the spell slot with no effect.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Hand of Solidarity**.
-|  | * Regain all uses of **Gestalt Anchor**.
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Arcana">Arcana Domain</a></h1>
 
-
-
-
-
-
-
-
-
-# <a name="internal-Arcana">Arcana Domain</a>
 Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit. The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand.
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Arcane Initiate |
@@ -677,19 +679,32 @@ At 17th level, you choose four spells from the wizard spell list, one from each 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Balance">Balance Domain</a></h1>
 
-
-
-
-# <a name="internal-Balance">Balance Domain</a>
 For every light, there is a shadow equally dark. It is in this balance between the forces of chaos, law, good, and evil that the mortal races can live and thrive. Such is the order of things, and thus, that balance must be protected.
 
 Among the gods, there is often the tie-breaker, the traitor, the peace-bringer and the judge. Pharasma, Calistria, Anubis, Bast and Forseti, as well as other gods of justice, balance, equilibrium, vengeance, and peace may hold sway over the domain of balance.
 
 Your task, as an arbiter of these ancient gods, is to maintain the balance of the cosmic order by quelling what threats are within your power. Bring ruin where it is needed, and salvation where there is none to be found.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of **Perfect Order**.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Mystic Inversion |
@@ -735,30 +750,13 @@ At 18th level, your god controls the events around you, acting with inscrutable 
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Perfect Order**.
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Celebration">Celebration Domain</a></h1>
 
-
-
-
-
-
-
-# <a name="internal-Celebration">Celebration Domain</a>
 Your god is an awesome god, and one who loves to throw excellent parties. Cayden Cailean, Bacchus, Dionysus, Hanseath, and any god known for alcohol or other intoxicants, wild behavior, and good cheer could have celebration as one of their domains.
 
 Your primary task is to raise the spirits and embolden the hearts of those around you, but your deity may task you with pursuing other ends - bringing peace to a war-torn land, freeing those brought low by the yoke of oppression, standing firm against the tides of war, and performing noble deeds that are always met with a good celebration!
@@ -767,6 +765,7 @@ Not all deities of this domain are so benevolent, however. Praise for gods of wa
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Bonus Cantrip, Life of the Party |
@@ -811,18 +810,38 @@ Starting at 18th level, when you make a ranged attack or cast a cantrip that tar
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Chaos">Chaos Domain</a></h1>
 
-
-
-# <a name="internal-Chaos">Chaos Domain</a>
 The Chaos Domain is the concern of gods that shuns the idea of laws and order, embracing chaos, change, progress, and entropy. Although they are often perceived as a threat or dangerous by those in power, many of these gods act as the voices of the people who cannot be heard, as well as the catalysts for revolutions against corrupt empires and others who would enslave and oppress.
 
 Some chaotic gods act as forces of unchecked chaos, destroying everything in their path and sowing madness and decay wherever they go. Others are the embodiment of the power within the Elemental Chaos, manifesting in endless turbulence and perpetual change, who bring both ruin and creation in equal measure.
 
 Followers of these gods can be many things, such as heroic revolutionaries, amoral renegades, or powerful wielders of elemental chaos.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Friend of Fickle Forces***.
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+|  | * Regain all uses of ***Chaotic Manifestation***.
+|  | * Regain all uses of ***Winds of Madness***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Chaotic Manifestation |
@@ -858,6 +877,7 @@ As an action, an explosion of chaotic energy targets each hostile creature withi
 
 
 #### Maelstrom Damage Table
+
 | d8 | Damage type | d8 | Damage type |
 |:--:|:------------|:--:|:------------|
 | 1	| Acid 	| 5	| Lightning
@@ -877,13 +897,6 @@ From 10th level, when you are forced to make a saving throw, you can choose to  
 
 Once you have used this feature you cannot use it again until you complete a short rest.
 
-
-
-
-
-
-
-
 ### Winds of Madness
 At 18th level, your god manifests their power in full through your actions. As an ***action***, you can unleash a massive burst of chaotic energy. All creatures within a 30-foot radius must make a Charisma saving throw. If they fail, their ties to causality are disrupted.
 
@@ -893,24 +906,6 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-|  | * Regain use of **Friend of Fickle Forces**.
-
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Chaotic Manifestation**.
-|  | * Regain all uses of **Winds of Madness**.
 
 
 
@@ -918,15 +913,28 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Charm">Charm Domain</a></h1>
 
-
-
-
-# <a name="internal-Charm">Charm Domain</a>
 Deities whose portfolios include the Charm domain govern over the ability to control others either through charismatic presence or through enchantment magic. They include deities of beauty, art, pleasure, courtship, love and fertility as well as lust, control, deceit and enchantment magic.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of **Protective Charm**.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Charmer |
@@ -964,6 +972,7 @@ If you have chosen the **Path of the Missionary** or **Path of the Missionary**,
 #### Split Enchantment
 Starting at 8th level, when you cast an enchantment spell of 1st level or higher that targets only one creature, you can have it target a second creature.
 
+</div>
 
 ### Protective Charm
 From 10th level, when a creature is forced to roll a saving throw against one of your enchantment spells or abilities, you can make it roll with disadvantage.
@@ -973,34 +982,19 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 ### Master of Enchantment
 At 18th level, you gain immunity to charm and sleep effects. Additionally you gain advantage on saving throws against other enchantment spells or effects.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Protective Charm**.
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Death">Death Domain</a></h1>
 
-
-
-
-
-
-# <a name="internal-Death">Death Domain</a>
 The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Gods of the Death domain also embody murder, pain, disease, poison and the underworld.
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Reaper |
@@ -1036,13 +1030,29 @@ Starting at 18th level, when you cast a necromancy spell of 1st through 5th leve
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Desert">Desert Domain</a></h1>
 
-
-# <a name="internal-Desert">Desert Domain</a>
 Gods of the sands and burning sun, deities of cloudless nights and storms of cutting wind, masters of the scorching heat and lords of the desert all call this domain their own. Often as merciless as the lands they claim, many are jealous and generous in equal measure. Clerics of these deities often escort travelers, seek forgotten relics, hunt criminals, and war for peace.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Dune Walker***.
+| * Regain use of ***Endless Expanse***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Bonus Proficiencies, Nomadic Endurance |
@@ -1088,37 +1098,36 @@ You can also cast *hallucinatory terrain*. When you do so, the area appears to b
 
 Once you have used this feature you cannot use it again until you complete a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Dune Walker**.
-|  | * Regain use of **Endless Expanse**.
 
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Fate">Fate Domain</a></h1>
 
-
-
-
-
-# <a name="internal-Fate">Fate Domain</a>
 Diviners and wizards often attempt to peer at the threads that bind the lives of mortals, but gods are the ones who weave those threads with every new birth and death. The deities of death, glory, time, judgement, luck, and prophecy call upon their clerics to act as oracles and seers of fate and future - and to intervene when the time is right.
 
 Those who follow benevolent gods often guide heroes to their destinies, while evil oracles may lead them astray or attempt to meddle with the future to bring prophecies of ruin, destruction and chaos to fruition.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Prophetic Glimpse***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Eye of the Oracle |
@@ -1161,18 +1170,6 @@ If you are not satisfied at that time, you can choose to defy the vision, revert
 
 Once you have used this feature you cannot use it again until you complete a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain use of **Prophetic Glimpse**.
 
 
 
@@ -1182,15 +1179,16 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Forge">Forge Domain</a></h1>
 
-
-# <a name="internal-Forge">Forge Domain</a>
 The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamondtipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can be transformed from a lump of ore to a beautifully wrought object.
 
 Clerics of these deities search for objects lost to the forces of darkness, liberate mines overrun by orcs, and uncover rare and wondrous materials necessary to create potent magic items. Followers of these gods take great pride in their work, and they are willing to craft and use heavy armor and powerful weapons to protect them.
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Bonus Proficiencies, Blessing of the Forge |
@@ -1242,16 +1240,33 @@ At 18th level, your blessed affinity with fire and metal becomes more powerful:
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Fortune">Fortune Domain</a></h1>
 
-# <a name="internal-Fortune">Fortune Domain</a>
 Gods of luck, fortune, and chance are venerated by those individuals that rely on cosmic intervention to make their way through the world, often using the symbol of a coin. Most of these gods embody good luck or random chance, though there are some deities that revel in misfortune. All of them seem attracted at some level to the daring and bold, but they also seem drawn to unknown or undiscovered things, because such things often lead to greater destinies or adventure.
 
 Luck is every adventurer's best friend, so it is no wonder that gods of fortune and chance are popular among those that regularly risk their lives for fame and fortune.
 
 Although at first glance this domain seems to overlap with Trickery, it is actually quite distinct. A luck god throws the dice; a trickster god tries to weight them.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Fortune’s Friend***.
+| * Regain all uses of ***Bend Luck***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Fortune's Friend  |
@@ -1286,19 +1301,6 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 ### Impossible Luck
 Starting at 18th level, you can use your ***action*** to surround yourself with an aura of perfect chance. For 1 minute or until you dismiss the aura using another action, you have advantage on all saving throws against effects that deal damage, and all attack rolls against you are made at disadvantage.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Fortune’s Friend**.
-|  | * Regain all uses of **Bend Luck**.
 
 
 
@@ -1306,15 +1308,13 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Hunting">Hunting Domain</a></h1>
 
 
-
-
-# <a name="internal-Hunting">Hunting Domain</a>
-
-*Run all you like. For you cannot hide.*
-
--- Garmos Saernclaws, Prophet of Malar
+> *Run all you like. For you cannot hide.*
+>
+> -- Garmos Saernclaws, Prophet of Malar
 
 The Hunting domain focuses on the sacred link between hunter and prey, a relationship that ties mortals to nature. The gods of hunting represent far more than the mere pursuit of animals or the skills and equipment involved. They signify both the hunt for justice, such as tracking down an enemy who was wronged you or your community, and the sacred spiritual quest that reveals wisdom.
 
@@ -1322,6 +1322,7 @@ A god of the hunt who is evil emphasizes the power of the hunter, who uses super
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Bonus Proficiencies |
@@ -1361,13 +1362,28 @@ You can choose to have your Slayer's Arrow turn up to three times during its fli
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Knowledge">Knowledge Domain</a></h1>
 
-
-# <a name="internal-Knowledge">Knowledge Domain</a>
 The gods of knowledge value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Visions of the Past***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Blessings of Knowledge |
@@ -1408,18 +1424,6 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 
  **Area Reading**. As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Visions of the Past**.
 
 
 
@@ -1430,12 +1434,14 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Life">Life Domain</a></h1>
 
-# <a name="internal-Life">Life Domain</a>
 The life domain focuses on the vibrant positive energy - one of the fundamental forces of the universe - that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities, sun gods, gods of healing or endurance, and gods of home and community.
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Bonus Proficiencies, Disciple of Life |
@@ -1470,7 +1476,8 @@ From 10th level, the energies of life fill your body. You have advantage on save
 
 
 #### Magical Immunity
-| Paladin Level | Immunity |
+
+| Cleric Level | Immunity |
 |:-------------:|:---------|
 | 10-12 | Diseases up to DC 15
 | 13-15 | Diseases up to DC 20
@@ -1487,12 +1494,28 @@ Starting at 18th level, when you would normally roll one or more dice to restore
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Light">Light Domain</a></h1>
 
-# <a name="internal-Light">Light Domain</a>
 Gods of light promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Warding Flare***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Warding Flare |
@@ -1527,18 +1550,6 @@ Once you reach 10th level, the lights guidance no longer makes you wince. You ga
 ### Corona of Light
 Starting at 18th level, you can use your ***action*** to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Warding Flare**.
 
 
 
@@ -1548,13 +1559,14 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Nature">Nature Domain</a></h1>
 
-
-# <a name="internal-Nature">Nature Domain</a>
 Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests to friendly deities associated with particular springs and groves. Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Acolyte of Nature |
@@ -1577,11 +1589,8 @@ At 2nd level, you gain two additional ways to use your Channel Divinity.
 
 
  **Nature's Bounty**. You can use your Channel Divinity to bestow blessings of the wild upon your allies. As an ***action***, you present your holy symbol and invoke the name of your deity, selecting up to five friendly creatures you can see within 30 feet of you. You and the chosen creatures all gain one of the following benefits of your choice for 1 hour:
-
  * The creature gains a swimming speed of 30 feet, and it can breathe underwater.
-
  * The creature gains a climbing speed of 30 feet, and it can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
  * The creature gains resistance to poison damage, and has advantage on saving throws against poison.
 
 ### Dampen Elements
@@ -1601,13 +1610,14 @@ At 18th level, you gain the ability to command animals and plant creatures. Whil
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Ocean">Ocean Domain</a></h1>
 
-
-# <a name="internal-Ocean">Ocean Domain</a>
 Standing upon the shore and staring into an endless expanse of water for the first time can be a religious experience for some, and certainly is for those who are called to service by a god of the sea. These clerics pursue a wide variety of goals; from calming the waves so that fishermen may survive to summoning terrible monsters from the deep.
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Navigator's Eye, Waves on the Shore |
@@ -1631,6 +1641,7 @@ While under water, you can choose to have your base AC equal 13 + your Constitut
 #### Octopus Face
 Your appearance doesn't have to be chitinous. The hide of a shark or stingray can be just as durable and provide a different style of armor for Waves on the Shore.
 
+</div>
 
 ### Channel: Anchor of Faith
 Starting at 2nd level, you can invoke your deity to hinder the unfaithful. As an ***action***, you present your holy symbol and invoke a spiritual anchor chained to a target you can see within 30 feet. The target must make a Strength saving throw.
@@ -1659,16 +1670,30 @@ In addition, you gain resistance to cold damage and immunity to exhaustion from 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Order">Order Domain</a></h1>
 
-
-
-# <a name="internal-Order">Order Domain</a>
 The Order domain represents discipline, as well  as service to a society or an institution, whether that service is rendered in obedience to or  enforcement of the law—civil, religious, or both. Gods on many worlds grant access to this  domain, including Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.
 
 The ideal of order is obedience to the law  above all else, rather than to a specific individual or the passing influence of emotion or popular  rule. Clerics of order are typically concerned with how things are done, rather than whether an action’s results are just. Following the law  and obeying its edicts is critical, especially when it benefits these clerics and their deities. More importantly, law establishes hierarchies. Those selected by the law to lead must be obeyed. Those who obey must do so to the best of their ability. In this manner, law creates an intricate web of obligations that allows society to forge order and security in a chaotic multiverse.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Embodiment of the Law***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Voice of Authority |
@@ -1701,18 +1726,6 @@ Starting at 10th level, as an ***action*** you can speak to a creature within 30
 ### Order’s Wrath
 Starting at 18th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. When you hit a creature with a weapon attack on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 1d8 psychic damage and the curse ends.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Embodiment of the Law**.
 
 
 
@@ -1721,16 +1734,30 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Protection">Protection Domain</a></h1>
 
-
-
-# <a name="internal-Protection">Protection Domain</a>
 The protection domain is the purview of deities who charge their followers to shield the weak from the strong. The gods’ faithful dwell in villages and towns on the borderlands, where they help bolster defenses and seek out evils to defeat. These gods believe that a strong shield and a suit of armor is the best defense against evil, second only to a stout mace on hand to respond to any attacks in kind.
 
 Deities whose portfolios include the protection domain are often deities that also have Life and War in their spheres of control, but also deities that have a penchant for feeling protective of certain followers or of certain aspects of life such as agricultural deities or deities that consider themselves patrons of a society or race.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Protective Bond***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Shield of the Faithful |
@@ -1765,18 +1792,6 @@ At 18th level, you gain resistance to two damage types of your choice, choosing 
 
 As an ***action***, you can temporarily give up this resistance and transfer it to one creature you touch. The creature keeps the resistance until your next short rest or until you transfer it back to yourself as a ***bonus action***.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Protective Bond**.
 
 
 
@@ -1787,16 +1802,34 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Repose">Repose Domain</a></h1>
 
-# <a name="internal-Repose">Repose Domain</a>
 Many gods of the dead watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse’s workings. To resist death, or to desecrate the dead’s rest, is an abomination.
 
 The Repose domain is one of righteous protection against the most unholy of forces: undeath. It channels the power of Good- and Neutral-aligned deities to guide wayward souls and ghosts into the next plane of existence, helping them leave the material plane. When those spirits are uncooperative, or worse, are evil and malign, adherents of this domain are given the power to punish them and banish them to the depths of the hells or abyss.
 
 Followers of these deities also seek to put wandering spirits to rest, destroy the undead, but also ease the suffering of the dying. Their magic also allows them to stave off death for a time, particularly for a person who still has some great work to accomplish in the world. This is a delay of death, not a denial of it, for death will eventually get its due.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Ferryman’s Mercy***.
+| * Regain all uses of ***Sentinel at Death’s Door***.
+| * Regain use of ***Not Your Time***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Eyes of the Grave, Ferryman's Mercy |
@@ -1838,20 +1871,6 @@ Once you reach 18th level, you are able to declare when it is not someones time 
 
 Upon using this feature, you can not use it again until you complete a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Ferryman’s Mercy**.
-|  | * Regain all uses of **Sentinel at Death’s Door**.
-|  | * Regain use of **Not Your Time**.
 
 
 
@@ -1860,14 +1879,14 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Strength">Strength Domain</a></h1>
 
-
-
-# <a name="internal-Strength">Strength Domain</a>
 As a worshipper of a god of physical might, you are dedicated to performing feats of strength and despise weakness. You are granted various magical abilities related to using, bestowing, or depleting athletic ability. For you, their somatic components tend to involve flexing, shadow boxing, or pounding the floor until it shakes.
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Bonus Proficiencies, Mighty Voice |
@@ -1887,11 +1906,11 @@ From 1st level, you may use the voice-amplifying effect of the cantrip *thaumatu
 ### Channel Divinity
 At 2nd level, you gain two additional ways to use your Channel Divinity.
 
- **Beast of Burden**. As a ***bonus action***, you may use Channel Divinity and touch a creature; for one minute, their carrying capacity increases tenfold and they can lift, push and drag objects up to ten times more than the usual weight, so long as those objects are free to move and are not part of any larger object.
+**Beast of Burden**. As a ***bonus action***, you may use Channel Divinity and touch a creature; for one minute, their carrying capacity increases tenfold and they can lift, push and drag objects up to ten times more than the usual weight, so long as those objects are free to move and are not part of any larger object.
 
 
 
- **Strength to go on**. You can use Channel Divinity to ameliorate fatigue and reinvigorate your allies. As an ***action***, you present your holy symbol, and choose any number of willing creatures you can see within 30 feet. Each chosen recipient regains a number of spent Hit Dice equal to your proficiency bonus.
+**Strength to go on**. You can use Channel Divinity to ameliorate fatigue and reinvigorate your allies. As an ***action***, you present your holy symbol, and choose any number of willing creatures you can see within 30 feet. Each chosen recipient regains a number of spent Hit Dice equal to your proficiency bonus.
 
 ### Channel: Burst of Strength
 Starting at 6th level, whenever you start your turn grappled or restrained, you may use your ***reaction*** and your Channel Divinity to end the effect. If you were restrained by a physical device, you break it.
@@ -1912,15 +1931,31 @@ Starting at 18th level, when you hit a creature with a melee attack, you may use
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Survival">Survival Domain</a></h1>
 
-
-# <a name="internal-Survival">Survival Domain</a>
 Clerics and shamans of primitive tribes living in harsh environments have no greater mission than ensuring the survival of their tribes. The gods of survival often have other domains in similar realms, such as life or nature. The worshippers who work within the Survival domain, however, are much more primal and brutal than their counterparts.
 
 The gods of primitive and uncivilized races are most likely to hold this domain: lizardfolk god Semuanya and orc goddess Luthic are prime examples of deities whose clerics embrace the Survival domain. They are more likely to remain in their territories, nurturing and protecting their flocks, but fighting fiercely when a threat invades their lairs.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Stand the Fallen***.
+| * Regain all uses of ***Protection of the Tribe***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Bonus Proficiencies, Stand the Fallen |
@@ -1956,19 +1991,6 @@ At 7th level, due to repeated exposure to nature, your body’s resistance has i
 ### Protection of the Tribe
 Starting at 18th level, you can use an ***action*** to make one allied creature who you can see immune to damage for a short time. The chosen creature is immune to all damage until the start of your next turn. You can regain the use of this ability when you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Stand the Fallen**.
-|  | * Regain all uses of **Protection of the Tribe**.
 
 
 
@@ -1978,13 +2000,28 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Tempest">Tempest Domain</a></h1>
 
-
-# <a name="internal-Tempest">Tempest Domain</a>
 Gods whose portfolios include the Tempest domain govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices to ward off divine wrath.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Wrath of the Storm***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Wrath of the Storm |
@@ -2017,18 +2054,6 @@ Once you reach 6th level, you become more in tune with the raging tempest. You g
 ### Unyielding Storm
 At 18th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Wrath of the Storm**.
 
 
 
@@ -2038,13 +2063,34 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Time">Time Domain</a></h1>
 
-
-# <a name="internal-Time">Time Domain</a>
 The Time domain deals with the flow of time. Few deities offer access to this domain, as it is quite esoteric and dangerous to tamper with. In some games, there may be powerful rituals usable by clerics with this domain that allow creatures or objects to travel into the past or future, or to move sideways through time into parallel worlds with different histories, while in other campaigns, any sort of time travel might be forbidden or even impossible.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Moment of Pause***.
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Delay Damage***.
+| * Regain all uses of ***Relentless Touch of Time***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Moment of Pause, Time is at your side |
@@ -2084,40 +2130,20 @@ At 18th level, as an ***action***, you can call upon the power of entropy to cas
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-|  | * Regain use of **Moment of Pause**.
-
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain use of **Delay Damage**.
-|  | * Regain all uses of **Relentless Touch of Time**.
 
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Trickery">Trickery Domain</a></h1>
 
-
-
-
-
-# <a name="internal-Trickery">Trickery Domain</a>
 Gods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Blessing of the Trickster,<br> Improved Minor Illusion |
@@ -2165,15 +2191,31 @@ Additionally, no matter what you say, magic that would determine if you are tell
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Vengeance">Vengeance Domain</a></h1>
 
-
-# <a name="internal-Vengeance">Vengeance Domain</a>
 The domain of vengeance, revenge, avengers, retribution and retributive justice - a fiery force that fuels many. Vengeance is worthwhile when server with great passion and swift justice. Deities whose portfolios include the Vengeance domain govern over all forms of revenge and vengeful justice whether of good intent or out of hatred. They include deities of hatred, strife, jealousy, murder, poetic justice, revenge, ethical balance and justice, defense of personal honor, as well as deities that don't shy from the undead in the form of revenants.
 
 Clerics such as you act as warriors and killers, harbingers of the doom and destruction of those who have killed and destroyed in turn. Call upon the fury of righteous revenge, and bring low those who have trespassed against you.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Vengeful Counter***.
+| * Regain use of ***Vengeful Visions***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Bonus Proficiencies, Vengeful Counter |
@@ -2215,19 +2257,6 @@ At the end of your next turn, the target returns to the space it previously occu
 
 Once you use this feature, you can't use it again until you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Vengeful Counter**.
-|  | * Regain use of **Vengeful Visions**.
 
 
 
@@ -2235,15 +2264,14 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-War">War Domain</a></h1>
 
-
-
-
-# <a name="internal-War">War Domain</a>
 War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry as well as gods of destruction and pillage, and gods of conquest and domination. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.
 
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Bonus Proficiency, Faith and Steel |
@@ -2287,16 +2315,38 @@ At 18th level, you gain resistance to all bludgeoning, piercing, and slashing da
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Winter">Winter Domain</a></h1>
 
-# <a name="internal-Winter">Winter Domain</a>
 Winter is a time of both cold brutality and togetherness, and Winter clerics often epitomize one or both of these principles, leaving the dead to lie buried in snowdrifts, or saving a village of people beset by dark tidings. People may turn to these clerics for warm comfort in troubled times, or to be instruments or dark, remorseless wrath against those that are affronts to their gods.
 
 Gods and goddesses of Winter usually have radically different ideas of what their domain means, and pass their specific dogma onto their followers. Some see the winter’s colds as a cleansing or a dying-off time, while others champion the brutal, survivalistic focus that winter brings, focusing on the struggle for life that exists within the snows. Of course, clerics of Winter readily adopt these philosophies, and ensure they are put to practice as the clerics wander the wider world.
 
 Deities whose portfolios include the Cold domain govern over all aspects of the physical cold and ice, winter, frost, elemental ice and creatures associated with ice and those who dwell in cold and icy environments such as the northern reaches and high mountains.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Glacial Wreath***.
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Rime***.
+| * Regain use of ***Blizzard***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Frost’s Fortitude |
@@ -2346,42 +2396,34 @@ You can dismiss this blizzard as a part of any other action. You can use this on
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-|  | * Regain use of **Glacial Wreath**.
-
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Rime**.
-|  | * Regain use of **Blizzard**.
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-balancedScale">Balanced Scale of Abadar</a></h1>
 
-
-
-
-
-
-
-# <a name="internal-balancedScale">Balanced Scale of Abadar</a>
 Balanced scales of Abadar fulfill a specialized role, especially in Katapesh. In addition to utilizing their powers of mercantilism, balanced scales seek out lost, unclaimed, or wrongly seized wealth among the many tombs and ruins of the Katapesh desert. Balanced scales of Abadar develop unique powers that afford them the ability to enter dangerous areas where lost treasure can be restored to the light or hidden goods can be returned to their rightful owners.
 
 A balanced scale finds the most satisfaction in discovering long-lost treasures hidden in unmarked strongholds, owned by now nameless individuals of the past. A balanced scale can claim such wealth for her own and use it to further the strength of her church.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Vault Jump***.
+
+</div>
+</div>
+</div>
 
 #### Domain Features
+
 | Cleric Level | Feature |
 |:----------------:|:--------|
 | 1st | Bonus Proficiencies, Bypass Ward |
@@ -2437,26 +2479,4 @@ Those who drive hard bargains and search for lost treasures sometimes bite off m
 At 18th level, you can create a one-way portal through the First Vault, which has one of two effects. First, you may use the portal as if it were a *teleport* spell. Second, you may use the portal as if you were casting *word of recall*, but instead of returning to a sanctuary, you always returns to the closest active temple of Abadar.
 
 You can do this once, and this use recovers when you finish a long rest.
-
-
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain use of **Vault Jump**.
-
-
-
-
-
-
-
 
