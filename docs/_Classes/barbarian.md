@@ -271,9 +271,9 @@ At 1st level, you choose a path that shapes the nature of your rage. Your choice
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-aquaticHunter">Aquatic Hunter</a></h1>
 
-<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png'/>
-
 The Path of the Aquatic Hunter is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.
+
+<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png'/>
 
 Barbarians from coastal and island cultures often draw on the spirit of the ocean's greatest hunters to inspire them in battle. Aquatic totems include killer whales (orca) and sharks.
 
@@ -356,9 +356,9 @@ At 14th level, you gain a magical benefit based on the totem animal of your choi
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-berserker">Path of the Berserker</a></h1>
 
-<img src='https://www.gmbinder.com/images/vTRGceu.png' style="float:right;max-width:300px;padding:10px"/>
-
 For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
+
+<img src='https://www.gmbinder.com/images/vTRGceu.png' style="float:right;max-width:300px;padding:10px"/>
 
 ### Features
 
