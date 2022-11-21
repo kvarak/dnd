@@ -354,9 +354,7 @@ At 14th level, you gain a magical benefit based on the totem animal of your choi
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-berserker">Path of the Berserker</a></h1>
 
-For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
-
-<img src='https://www.gmbinder.com/images/vTRGceu.png' style="float:right;max-width:300px;padding:10px"/>
+<div class="featuresTable">
 
 ### Features
 
@@ -368,6 +366,10 @@ For some barbarians, rage is a means to an end -- that end being violence. The P
 | 10th | Terrifying Rampage |
 | 14th | Retaliation |
 
+</div>
+
+For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
+
 ### Intimidating Presence
 When you choose this path at 1st level, you are proficient with Intimidation, and you have advantage any time you use your physical presence when intimidating. This is a Strength ability check.
 
@@ -375,6 +377,8 @@ When you choose this path at 1st level, you are proficient with Intimidation, an
 From 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a **bonus action** on each of your turns after this one.
 
 When your frenzied rage ends, you lose one unspent hit die. If you don't have any hit die remaining, you instead suffer one level of exhaustion.
+
+<img src='https://i.pinimg.com/564x/79/f6/01/79f601f45459eacba48b6e42e460221c.jpg' style="float:right;width:30%;padding:10px"/>
 
 ### Mindless Rage
 Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.
@@ -395,7 +399,7 @@ Starting at 14th level, when you take damage from a creature, you can use your *
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-courageousHeart">Path of the Courageous Heart</a></h1>
 
-For some adventurers, their internal reservoir of fearlessness and gallantry might border closer to foolhardiness. An intrepid do-gooder might take the first step down this path by complete accident, meddling in affairs they ought not and finding themselves unable to turn back. Their impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer. These brawlers might not be as graceful as trained fighters, but they're guardians of the weak, and what they lack in polish they make up for in valor.
+<div class="featuresTable">
 
 ### Features
 
@@ -406,6 +410,11 @@ For some adventurers, their internal reservoir of fearlessness and gallantry mig
 | 6th | Combat Focus |
 | 10th | Stroke of Inspiration |
 | 14th | Heroic Tenacity |
+
+</div>
+
+For some adventurers, their internal reservoir of fearlessness and gallantry might border closer to foolhardiness. An intrepid do-gooder might take the first step down this path by complete accident, meddling in affairs they ought not and finding themselves unable to turn back. Their impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer. These brawlers might not be as graceful as trained fighters, but they're guardians of the weak, and what they lack in polish they make up for in valor.
+
 
 ### Lucky
 Luck seems to be with you. When you choose this path at 1st level, when you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.
@@ -443,7 +452,7 @@ At 14th level, whenever you succeed at a Constitution saving throw to remain con
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-defender">Path of the Defender</a></h1>
 
-Barbarians that follow the Path of the Defender have assumed the responsibility of keeping a bondmate alive. They are often charged with the safekeeping of people of importance, like a traveling priest, a tribe's shaman or elder, and so on, but just as often they simply form a bond with someone they either care for or share a common goal with, like a sibling or fellow adventurer.
+<div class="featuresTable">
 
 ### Features
 
@@ -454,6 +463,11 @@ Barbarians that follow the Path of the Defender have assumed the responsibility 
 | 6th | Dexterous Cover |
 | 10th | Shared Alertness |
 | 14th | Passive Aggressiveness |
+
+</div>
+
+Barbarians that follow the Path of the Defender have assumed the responsibility of keeping a bondmate alive. They are often charged with the safekeeping of people of importance, like a traveling priest, a tribe's shaman or elder, and so on, but just as often they simply form a bond with someone they either care for or share a common goal with, like a sibling or fellow adventurer.
+
 
 ### Chosen Charge
 Starting when you choose this path at 1st level, you can perform a 1-hour ritual to bond with one creature of your choosing. This bond is suppressed if one of you is charmed, but otherwise lasts until your bondmate dies or you perform this ritual again.
@@ -491,11 +505,7 @@ Starting at 14th level, you and your bondmate function even more like a team whe
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-hurler">Path of the Hurler</a></h1>
 
-You began with throwing sticks, then stones. Eventually the sticks and stones changed, becoming darts, shotput, or other sports. But you were destined for more. Heavier and heavier stones, larger and larger sticks - boulders and cabers, ever increasing in heft. Anything you can lift, you can throw. And anything you can throw, you can triumph with.
-
-Great skill is required to lob hefty weapons accurately, but there are some who prefer brutish strength over nimbleness and agility. The Path of the Hurler is one that few barbarians tread, but those who aim their sights on their quarry can learn to exert their rage from afar.
-
-Many barbarian hunters choose to follow this path, eschewing the complexity of aiming a bow for the simplistic and primal joy of seeing a thrown axe or hammer smash the skull of their quarry. Other young barbarians who walk this path employ their skills in tavern games as often as true combat, impaling walls through knife targets and splintering dart boards with their great strength.
+<div class="featuresTable">
 
 ### Features
 
@@ -506,6 +516,15 @@ Many barbarian hunters choose to follow this path, eschewing the complexity of a
 | 6th | Hurl Creature |
 | 10th | Increasing Might |
 | 14th | Wield Creature |
+
+</div>
+
+You began with throwing sticks, then stones. Eventually the sticks and stones changed, becoming darts, shotput, or other sports. But you were destined for more. Heavier and heavier stones, larger and larger sticks - boulders and cabers, ever increasing in heft. Anything you can lift, you can throw. And anything you can throw, you can triumph with.
+
+Great skill is required to lob hefty weapons accurately, but there are some who prefer brutish strength over nimbleness and agility. The Path of the Hurler is one that few barbarians tread, but those who aim their sights on their quarry can learn to exert their rage from afar.
+
+Many barbarian hunters choose to follow this path, eschewing the complexity of aiming a bow for the simplistic and primal joy of seeing a thrown axe or hammer smash the skull of their quarry. Other young barbarians who walk this path employ their skills in tavern games as often as true combat, impaling walls through knife targets and splintering dart boards with their great strength.
+
 
 ### Hurler's Aim
 When you take this archetype at 1st level, you gain proficiency with throwing weapons not usually meant to be thrown. You can treat clubs, greatclubs, morning stars, battleaxes, greataxes, mauls, war picks, and warhammers as throwing weapons, which gain the Thrown property with a range of 20/40. Attacks with these weapons benefit from your bonus Rage damage and can be used with your Reckless Attack and Brutal Critical features.
@@ -554,7 +573,17 @@ Creatures that are Tiny or smaller cannot be used for this feature. Small creatu
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-juggernaut">Path of the Juggernaut</a></h1>
 
-Juggernaut barbarians are siege engines in their own right, able to stand their ground and move their foes into positions of weakness. While raging, they make any battlefield their domain, shoving enemies over mountain sides and destroying any battle formation trying to stand in their way.
+<div class="featuresTable">
+
+### Features
+
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Stance of the Mountain |
+| 3rd | Thunderous Blows |
+| 6th | Unstoppable |
+| 10th | Relentless Will |
+| 14th | Wrought Endurance |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -571,17 +600,9 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-### Features
+</div>
 
-| Barbarian Level | Feature |
-| :-: | :--- |
-| 1st | Stance of the Mountain |
-| 3rd | Thunderous Blows |
-| 6th | Unstoppable |
-| 10th | Relentless Will |
-| 14th | Wrought Endurance |
-
-
+Juggernaut barbarians are siege engines in their own right, able to stand their ground and move their foes into positions of weakness. While raging, they make any battlefield their domain, shoving enemies over mountain sides and destroying any battle formation trying to stand in their way.
 
 ### Stance of the Mountain
 You harness your fury to anchor your feet to the earth, shrugging off the blows of those who wish to topple you. Upon choosing this path at 1st level, you cannot be knocked prone while raging unless you become unconscious.
@@ -621,19 +642,17 @@ You may do this a number of times equal to your Constitution modifier. See *Rest
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-marauder">Path of the Marauder</a></h1>
 
-Every group intending to go into battle needs a good leader. One who leads from the front, who has a plan, who knows the strengths of his allies and deploys them where they will be the most effective. What they need is a barbarian of the Path of the Marauder.
+<div class="featuresTable">
 
-Barbarians on this course find their rage brings great clarity of mind, allowing them to see all the ways the battle can be won. Through sly tactics and synergy, they make sure every member of their company is utilized to the fullest. These barbarians often aspire to a position where their gifts will be the most useful. You can choose this ambition or determine it by rolling on the Marauder's Ambition table.
+### Features
 
-
-### Marauder's Ambition
-
-| d4 | Ambition |
+| Barbarian Level | Feature |
 | :-: | :--- |
-| 1 | You dream at night of the high seas and the open sky, and know you could be a privateer captain without equal.
-| 2 | One of your relatives leads an infamous company of bandits, and you aim to replace them.
-| 3 | You don't care for fame, but the stakes and secrecy of being part of an elite military unit are all you've ever wanted.
-| 4 | Hunting terrible monsters and otherworldly foes beside your friends seems like the ideal way to go out.
+| 1st | Coarse Negotiator
+| 3rd | Fighting Dirty
+| 6th | Assured Assignment
+| 10th | Improvised Assault
+| 14th | Leading by Example
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -652,15 +671,20 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-### Features
+</div>
 
-| Barbarian Level | Feature |
+Every group intending to go into battle needs a good leader. One who leads from the front, who has a plan, who knows the strengths of his allies and deploys them where they will be the most effective. What they need is a barbarian of the Path of the Marauder.
+
+Barbarians on this course find their rage brings great clarity of mind, allowing them to see all the ways the battle can be won. Through sly tactics and synergy, they make sure every member of their company is utilized to the fullest. These barbarians often aspire to a position where their gifts will be the most useful. You can choose this ambition or determine it by rolling on the Marauder's Ambition table.
+
+### Marauder's Ambition
+
+| d4 | Ambition |
 | :-: | :--- |
-| 1st | Coarse Negotiator
-| 3rd | Fighting Dirty
-| 6th | Assured Assignment
-| 10th | Improvised Assault
-| 14th | Leading by Example
+| 1 | You dream at night of the high seas and the open sky, and know you could be a privateer captain without equal.
+| 2 | One of your relatives leads an infamous company of bandits, and you aim to replace them.
+| 3 | You don't care for fame, but the stakes and secrecy of being part of an elite military unit are all you've ever wanted.
+| 4 | Hunting terrible monsters and otherworldly foes beside your friends seems like the ideal way to go out.
 
 
 ### Coarse Negotiator
@@ -709,9 +733,7 @@ As the foremost expert in the field of surprise surgery, your allies look to you
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-earthWarden">Path of the Nature’s Warden</a></h1>
 
-Barbarians in this path follow an ancient tradition rooted in powerful druidic magic. When these barbarians rage, they transform that rage into a mantle of primal magic; becoming one with the land, feeling the fury of the strip-mined earth and the desolated forest. The primal magic that inspires them to rage allows them to become one with nature, overcoming their foes with the indomitable strength of the primeval world.
-
-These barbarians are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. They dwell in the most remote places of the world; the rare misty mountains and elder forests untouched by exploration. They venture out only rarely, as most of them consider it their sacred duty to protect the places that have stood unchanged since the world's earliest days.
+<div class="featuresTable">
 
 ### Features
 
@@ -722,6 +744,13 @@ These barbarians are typically elite champions who train alongside druids, range
 | 6th | Ancient Fortitude, Elemental Attunement |
 | 10th | Elemental Focus |
 | 14th | Warden's Aura |
+
+</div>
+
+Barbarians in this path follow an ancient tradition rooted in powerful druidic magic. When these barbarians rage, they transform that rage into a mantle of primal magic; becoming one with the land, feeling the fury of the strip-mined earth and the desolated forest. The primal magic that inspires them to rage allows them to become one with nature, overcoming their foes with the indomitable strength of the primeval world.
+
+These barbarians are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. They dwell in the most remote places of the world; the rare misty mountains and elder forests untouched by exploration. They venture out only rarely, as most of them consider it their sacred duty to protect the places that have stood unchanged since the world's earliest days.
+
 
 ### Druidic
 You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message.
@@ -806,7 +835,7 @@ Starting at 14th level, your guardian form emanates a magical aura that fortifie
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-paintedWarrior">Path of the Painted Warrior</a></h1>
 
-Though most tribes of the world may lack parchment to draw and write on, all have bodies. Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world. While most tattoos they create have a powerful connection to the natural world, many barbarians also choose to create tattoos without this connection, simply for display.
+<div class="featuresTable">
 
 ### Features
 
@@ -817,6 +846,10 @@ Though most tribes of the world may lack parchment to draw and write on, all hav
 | 6th | Learned Artist |
 | 10th | Unclean Immunity |
 | 14th | Masterwork Tattoos |
+
+</div>
+
+Though most tribes of the world may lack parchment to draw and write on, all have bodies. Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world. While most tattoos they create have a powerful connection to the natural world, many barbarians also choose to create tattoos without this connection, simply for display.
 
 ### Bonus Proficiency
 When you choose this primal path at 1st level, you gain proficiency with tattooer’s tools.
@@ -860,9 +893,7 @@ You only gain the benefits of a tattoo for the duration of your rage. If a tatto
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-sacrifice">Path of the Sacrifice</a></h1>
 
-Everyone dies, but your death was written in the stars themselves, ordained within the blood and entrails of a dying beast, and whispered of by the falling bones and shuffling cards of the diviners. You are going to die, and your death is going to mean something. The rise of a great evil, or the end of an era. The destruction of all you hold dear, or the redemption of your blackened soul. The arrival of the legions of light, or the end of fear itself.
-
-In the end, you’ll be dead – sacrificed as an offering to fate and slain by a prophecy that cannot be changed by wishes alone. You embrace your fury in defiance of that prophecy, or to ensure that it arrives as was written. You scream with rage because your life means more than just an ending. When the time comes, you will be waiting, bloodstained weapon in hand.
+<div class="featuresTable">
 
 ### Features
 
@@ -873,6 +904,12 @@ In the end, you’ll be dead – sacrificed as an offering to fate and slain by 
 | 6th | Cruel Fate |
 | 10th | Rise and Fall |
 | 14th | Blood for Blood |
+
+</div>
+
+Everyone dies, but your death was written in the stars themselves, ordained within the blood and entrails of a dying beast, and whispered of by the falling bones and shuffling cards of the diviners. You are going to die, and your death is going to mean something. The rise of a great evil, or the end of an era. The destruction of all you hold dear, or the redemption of your blackened soul. The arrival of the legions of light, or the end of fear itself.
+
+In the end, you’ll be dead – sacrificed as an offering to fate and slain by a prophecy that cannot be changed by wishes alone. You embrace your fury in defiance of that prophecy, or to ensure that it arrives as was written. You scream with rage because your life means more than just an ending. When the time comes, you will be waiting, bloodstained weapon in hand.
 
 ### Not My Time
 At 1st level, you discover or accept that your death is fated. If it is not your time to die yet, fate will be on your side. When you roll a 1 on a death saving throw, treat it as a 20.
@@ -900,9 +937,7 @@ At 14th level, your destined death awaits your arrival, and you refuse to surren
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-stormHerald">Path of the Storm Herald</a></h1>
 
-All barbarians harbor a fury within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn to transform that rage into a mantle of primal magic, which swirls around them. When in a fury, a barbarian of this path taps into the forces of nature to create powerful magical effects.
-
-Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. Other storm heralds hone their craft in lodges in regions wracked by storms, in the frozen reaches at the world’s end, or deep in the hottest deserts.
+<div class="featuresTable">
 
 ### Features
 
@@ -913,6 +948,13 @@ Storm heralds are typically elite champions who train alongside druids, rangers,
 | 6th | Storm Soul |
 | 10th | Shielding Storm |
 | 14th | Raging Storm  |
+
+</div>
+
+All barbarians harbor a fury within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn to transform that rage into a mantle of primal magic, which swirls around them. When in a fury, a barbarian of this path taps into the forces of nature to create powerful magical effects.
+
+Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. Other storm heralds hone their craft in lodges in regions wracked by storms, in the frozen reaches at the world’s end, or deep in the hottest deserts.
+
 
 ### Thunder Sense
 When you choose this path at 1st level, you can use your action to predict the weather for the next 24 hours. You can sense where within a 5 mile radius a storm will happen, what kind of storm it will be, and how intense the storm will be.
@@ -966,7 +1008,7 @@ At 14th level, the power of the storm you channel grows mightier, lashing out at
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-totemWarrior">Path of the Totem Warrior</a></h1>
 
-The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage. Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.
+<div class="featuresTable">
 
 ### Features
 
@@ -977,6 +1019,10 @@ The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a
 | 6th | Aspect of the Beast |
 | 10th | Spirit Walker |
 | 14th | Totemic Attunement |
+
+</div>
+
+The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage. Most barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.
 
 ### Totem Spirit
 At 1st level when you adopt this path, you choose a totem animal. You must make or acquire a physical totem object - an amulet or similar adornment - that incorporates fur or feathers, claws, teeth, or bones of the animal. For example, if you have a bear totem spirit, you might be unusually hairy and thick skinned, or if your totem is the eagle, your eyes turn bright yellow. Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.
@@ -1164,7 +1210,17 @@ The vulture is a majestic beast with strong beak and large wings that feed on th
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-warChief">Path of the War Chief</a></h1>
 
-While some barbarians prefer a life of savage solitude, others long for a tribe. Barbarians on the Path of the War Chief are leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
+<div class="featuresTable">
+
+### Features
+
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Bonus Proficiency |
+| 3rd | Tribal Leader |
+| 6th | War Song, Battlecry (3)  |
+| 10th | Commanding Presence, Battlecry (4) |
+| 14th | Chieftain’s Voice, Battlecry (5) |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -1181,18 +1237,9 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-### Features
+</div>
 
-| Barbarian Level | Feature |
-| :-: | :--- |
-| 1st | Bonus Proficiency |
-| 3rd | Tribal Leader |
-| 6th | War Song, Battlecry (3)  |
-| 10th | Commanding Presence, Battlecry (4) |
-| 14th | Chieftain’s Voice, Battlecry (5) |
-
-
-
+While some barbarians prefer a life of savage solitude, others long for a tribe. Barbarians on the Path of the War Chief are leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
 
 ### Bonus Proficiency
 When you adopt this path at 1st level, you gain proficiency in one of the following skills of your choice: History (of your tribe and the area you live in), Intimidation or Diplomacy.
@@ -1255,7 +1302,17 @@ Additionally, the range of your War Song increases to 30 feet, and when you issu
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-zealot">Path of the Zealot</a></h1>
 
-Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots—warriors who channel their rage into powerful displays of divine power. A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.
+<div class="featuresTable">
+
+### Features
+
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Warrior of the Gods |
+| 3rd | Divine Fury |
+| 6th | Fanatical Focus |
+| 10th | Zealous Presence |
+| 14th | Rage beyond Death |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -1272,17 +1329,9 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-### Features
+</div>
 
-| Barbarian Level | Feature |
-| :-: | :--- |
-| 1st | Warrior of the Gods |
-| 3rd | Divine Fury |
-| 6th | Fanatical Focus |
-| 10th | Zealous Presence |
-| 14th | Rage beyond Death |
-
-
+Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots—warriors who channel their rage into powerful displays of divine power. A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.
 
 ### Warrior of the Gods
 Starting when you choose this path at 1st level, your soul is marked for endless battle. If a spell, such as raise dead, has the sole effect of restoring you to life (but not undeath), the caster doesn’t need material components to cast the spell on you.
@@ -1304,14 +1353,3 @@ You can use this feature once. See *Rest Additions*.
 Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows.
 
 While you’re raging, having 0 hit points doesn’t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don’t die until your rage ends, and you die then only if you still have 0 hit points.
-
-
-
-
-
-
-
-
-
-
-

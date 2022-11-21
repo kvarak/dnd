@@ -269,7 +269,7 @@ summary {
   margin-left: 10px;
   margin-bottom: 0px;
   margin-right: 0px;
-  margin-top: 5px;
+  margin-top: 0px;
   float:right;
 }
 
@@ -278,7 +278,9 @@ summary {
 }
 
 .featuresTable h4 {
+  margin-left: 10px;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 
