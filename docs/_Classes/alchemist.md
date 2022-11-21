@@ -224,7 +224,7 @@ The philosopher’s stone also has devastating destructive potential. As a ***bo
 
 <div class="featuresTable">
 
-#### Class Features
+#### Archetype Features
 
 | Alchemist level | Feature |
 |:---------------:|:--------|
