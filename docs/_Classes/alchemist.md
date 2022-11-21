@@ -277,7 +277,16 @@ The panacea must be consumed within 24 hours, after which it becomes inert. You 
 
 <h1><a class="internal-link" name="internal-corpsecrafter">Corpsecrafter</a></h1>
 
-The art of corpsecrafting specializes in using alchemy to reanimate and reshape the bodies of the fallen. Corpsecrafters, unlike necromancers they're often compared to, prefer to focus their efforts on their macabre creations; a cadaver, to perform a variety of tasks for them by use of a combination of magical and alchemical augmentations.
+<div class="featuresTable">
+
+#### Features
+
+| Alchemist level | Feature |
+|:---------------:|:--------|
+| 2nd | Tool Proficiency, Animated Cadaver, Revival Concoction
+| 7th | Corpsecrafting Infusions
+| 10th | Corpsecrafting Infusions (2 infusions), Unnatural Intellect
+| 17th | Magnum Opus
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -294,14 +303,10 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### Features
+</div>
 
-| Alchemist level | Feature |
-|:---------------:|:--------|
-| 2nd | Tool Proficiency, Animated Cadaver, Revival Concoction
-| 7th | Corpsecrafting Infusions
-| 10th | Corpsecrafting Infusions (2 infusions), Unnatural Intellect
-| 17th | Magnum Opus
+The art of corpsecrafting specializes in using alchemy to reanimate and reshape the bodies of the fallen. Corpsecrafters, unlike necromancers they're often compared to, prefer to focus their efforts on their macabre creations; a cadaver, to perform a variety of tasks for them by use of a combination of magical and alchemical augmentations.
+
 
 ### Tool Proficiency
 When you choose this specialization at 2nd level, you gain proficiency with Leatherworker’s tools. If you already have this proficiency, you gain proficiency with one other type of artisan’s tools of your choice.
@@ -427,7 +432,7 @@ During the transformation, the cadaver can't create another cadaver using its 'A
 
 <h1><a class="internal-link" name="internal-madBomber">Mad Bomber</a></h1>
 
-While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.
+<div class="featuresTable">
 
 #### Features
 
@@ -437,6 +442,11 @@ While many "mad bombers" aren't actually mad, it takes a special kind of crazy t
 | 7th | Demolition
 | 10th | Expanding blast
 | 17th | Big bombs
+
+</div>
+
+While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.
+
 
 ### Bonus Proficiencies
 When you select this field of study at 2nd level, you gain proficiency with one martial ranged weapon.
@@ -460,7 +470,7 @@ Beginning at 17th level, you can combine two non makeshift bombs into one. Combi
 
 <h1><a class="internal-link" name="internal-poisoner">Poisoner</a></h1>
 
-Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.
+<div class="featuresTable">
 
 #### Features
 
@@ -470,6 +480,11 @@ Some consider poisoning an evil act. The poisoner knows poison is just a tool to
 | 7th | Ethereal Poison
 | 10th | Poison Immunity
 | 17th | Powder Poison
+
+</div>
+
+Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.
+
 
 ### Poisonous Residue
 When you select this field of study at 2nd level, whenever you apply poison to a weapon, it will retain it potency for the full duration, even if you use the weapon. This only applies to regular poisons and your basic Concoction poison.
@@ -496,7 +511,7 @@ At 17th level, you learn how to create more versatile versions of your poison co
 
 <h1><a class="internal-link" name="internal-psychedelic">Psychedelic</a></h1>
 
-Psychedelics specialize in manipulating the minds of creatures using hormones, narcotics and other baneful elixirs to make them compliant. Whether it is to gather information, convince a target of a truth or to assassinate a suspect, the psychedelics move silently and deadly.
+<div class="featuresTable">
 
 #### Features
 
@@ -506,6 +521,11 @@ Psychedelics specialize in manipulating the minds of creatures using hormones, n
 | 7th | Vertigo
 | 10th | Advanced Sway
 | 17th | Dazing Vertigo
+
+</div>
+
+Psychedelics specialize in manipulating the minds of creatures using hormones, narcotics and other baneful elixirs to make them compliant. Whether it is to gather information, convince a target of a truth or to assassinate a suspect, the psychedelics move silently and deadly.
+
 
 ### Psychedelic Concoctions
 From 2nd level, when you choose this field of study, you learn how to prepare an additional concoction, the hallucinogen.
@@ -548,7 +568,7 @@ By 17th level, your abilities to injure minds and manipulate brains allows you t
 
 <h1><a class="internal-link" name="internal-transmuter">Transmuter</a></h1>
 
-Not satisfied with mere mundane alchemy, the transmuter blends science with arcane knowledge to create something more. A transmuter is usually more experimental, but often seen as a failure by both wizards and “pure” alchemists.
+<div class="featuresTable">
 
 #### Features
 
@@ -558,6 +578,11 @@ Not satisfied with mere mundane alchemy, the transmuter blends science with arca
 | 7th | Transmuter’s Stone
 | 10th | Shapechanger
 | 17th | Master Transmuter
+
+</div>
+
+Not satisfied with mere mundane alchemy, the transmuter blends science with arcane knowledge to create something more. A transmuter is usually more experimental, but often seen as a failure by both wizards and “pure” alchemists.
+
 
 ### Bonus proficiency
 When you select this field of study at 2nd level, you gain proficiency with Arcana.
