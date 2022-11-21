@@ -269,7 +269,7 @@ At 1st level, you choose a path that shapes the nature of your rage. Your choice
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -356,7 +356,7 @@ At 14th level, you gain a magical benefit based on the totem animal of your choi
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -401,7 +401,7 @@ Starting at 14th level, when you take damage from a creature, you can use your *
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -454,7 +454,7 @@ At 14th level, whenever you succeed at a Constitution saving throw to remain con
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -507,7 +507,7 @@ Starting at 14th level, you and your bondmate function even more like a team whe
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -575,7 +575,7 @@ Creatures that are Tiny or smaller cannot be used for this feature. Small creatu
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -644,7 +644,7 @@ You may do this a number of times equal to your Constitution modifier. See *Rest
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -735,7 +735,8 @@ As the foremost expert in the field of surprise surgery, your allies look to you
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
+
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -837,7 +838,8 @@ Starting at 14th level, your guardian form emanates a magical aura that fortifie
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
+
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -895,7 +897,7 @@ You only gain the benefits of a tattoo for the duration of your rage. If a tatto
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -939,7 +941,7 @@ At 14th level, your destined death awaits your arrival, and you refuse to surren
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :----- |
@@ -1010,7 +1012,7 @@ At 14th level, the power of the storm you channel grows mightier, lashing out at
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -1212,7 +1214,7 @@ The vulture is a majestic beast with strong beak and large wings that feed on th
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |
@@ -1304,7 +1306,7 @@ Additionally, the range of your War Song increases to 30 feet, and when you issu
 
 <div class="featuresTable">
 
-### Features
+#### Archetype Features
 
 | Barbarian Level | Feature |
 | :-: | :--- |

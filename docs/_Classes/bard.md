@@ -486,15 +486,7 @@ Painters, sculptors or other similar artists.
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-beguiler">Beguiler</a></h1>
 
-> *"You know me. I'm as good as my word*,
-> *and my life is an open book."*
->
-> — said with a straight face by Anastria Nailo, beguiler.
-
-Some hold truth to be the greatest virtue, but it can do more damage than fiction. Everyone lives in a constant state of deception. White lies, false smiles, and secret thoughts keep society running smoothly. Honesty is a virtue only up to a certain point. Beguilers understand these ideas better than anyone, and they use deception, misunderstanding, and secrets as skillfully as a soldier employs weapons of war.
-
-Beguilers see lying and manipulation as tools. Just as a hammer can be used to build a house or crack a skull, deceit and the ability to control others can be used for good or ill. A lie whispered in the right ear can ruin lives, but a dishonest smile and honeyed words can open doors, turn foes into friends, and even end wars. Beguilers have reputations as rakes, thieves, spies, and puppet masters, but they can also be diplomats, peacemakers, or heroic leaders who give hope in desperate situations.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -504,6 +496,18 @@ Beguilers see lying and manipulation as tools. Just as a hammer can be used to b
 | 3rd | Cloaked Casting |
 | 6th | Additional Magical Secrets |
 | 14th | Surprise Casting |
+
+</div>
+
+Some hold truth to be the greatest virtue, but it can do more damage than fiction. Everyone lives in a constant state of deception. White lies, false smiles, and secret thoughts keep society running smoothly. Honesty is a virtue only up to a certain point. Beguilers understand these ideas better than anyone, and they use deception, misunderstanding, and secrets as skillfully as a soldier employs weapons of war.
+
+Beguilers see lying and manipulation as tools. Just as a hammer can be used to build a house or crack a skull, deceit and the ability to control others can be used for good or ill. A lie whispered in the right ear can ruin lives, but a dishonest smile and honeyed words can open doors, turn foes into friends, and even end wars. Beguilers have reputations as rakes, thieves, spies, and puppet masters, but they can also be diplomats, peacemakers, or heroic leaders who give hope in desperate situations.
+
+> *"You know me. I'm as good as my word*,
+> *and my life is an open book."*
+>
+> — said with a straight face by Anastria Nailo, beguiler.
+
 
 #### Spellcasting Focus
 You can use a musical instrument or an arcane focus as a spellcasting focus for your spells.
@@ -531,8 +535,16 @@ Additionally, when the spell expires, you can try to make the creature forget so
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-awakenedArt">College of Awakened Arts</a></h1>
 
-Song is not the only art form that can tell a story. After all, an image is worth a thousand words, and bards from the College of Awakened Art know this better than anyone. Their extraordinary talent as visual artists is second to none, as is their power to bring to life their creations as helpful allies. In addition to their arsenal of spells, their equally impressive repertoire of sketched magical summons is their key to thrive as dependable adventurers.
+<div class="featuresTable">
 
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Sketchbook of Summons |
+| 6th | Still Life, When Art Comes to Life |
+| 14th | Summoning Maestro |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -554,17 +566,9 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### College Features
+</div>
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Sketchbook of Summons |
-| 6th | Still Life, When Art Comes to Life |
-| 14th | Summoning Maestro |
-
-
-
+Song is not the only art form that can tell a story. After all, an image is worth a thousand words, and bards from the College of Awakened Art know this better than anyone. Their extraordinary talent as visual artists is second to none, as is their power to bring to life their creations as helpful allies. In addition to their arsenal of spells, their equally impressive repertoire of sketched magical summons is their key to thrive as dependable adventurers.
 
 #### Spellcasting Focus
 You can use a pen and paper, or basically anything you can draw a quick sketch with, as a spellcasting focus for your spells and class features instead of an instrument.
@@ -613,7 +617,7 @@ Starting at 14th level, you now use your sketchbook twice. Additionally, they no
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-beasts">College of Beasts</a></h1>
 
-Bards of the College of Beasts have a fascination with other creatures, making bonds with them and learning far more about them than others even realize there is to know. These bards can often be seen in circuses, training the animals, or wandering the world, with their animals as their only traveling and performing companions. They often gather at festivals in order to show off their companions and exchange tips on how to raise them.
+<div class="featuresTable">
 
 #### College Features
 
@@ -624,6 +628,9 @@ Bards of the College of Beasts have a fascination with other creatures, making b
 | 6th | Beast Trainer |
 | 14th | Share Spells |
 
+</div>
+
+Bards of the College of Beasts have a fascination with other creatures, making bonds with them and learning far more about them than others even realize there is to know. These bards can often be seen in circuses, training the animals, or wandering the world, with their animals as their only traveling and performing companions. They often gather at festivals in order to show off their companions and exchange tips on how to raise them.
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your bard spells.
@@ -665,9 +672,16 @@ Beginning at 14th level, when you cast a spell targeting yourself, you can also 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-colors">College of Colors</a></h1>
 
-The College of Colors is a school for Bards who excel in visual arts, and who delight in the color of the world. Color is just light, after all, and light is a gift. Likewise, your art is a gift that people should delight to enjoy. Manipulation of light is an art that can be brilliantly beautiful and dangerous. An artistic masterpiece is just one brush stroke away from burning radiance ripping into your enemies. When using spell or bardic songs, a coloration bard may paint their spell effects into thin air or decorate a canvas with elaborate runes.
+<div class="featuresTable">
 
+#### College Features
 
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Prismatic Inspiration |
+| 6th | Visual Saturation |
+| 14th | Bending Light |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -691,15 +705,9 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
+</div>
 
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Prismatic Inspiration |
-| 6th | Visual Saturation |
-| 14th | Bending Light |
+The College of Colors is a school for Bards who excel in visual arts, and who delight in the color of the world. Color is just light, after all, and light is a gift. Likewise, your art is a gift that people should delight to enjoy. Manipulation of light is an art that can be brilliantly beautiful and dangerous. An artistic masterpiece is just one brush stroke away from burning radiance ripping into your enemies. When using spell or bardic songs, a coloration bard may paint their spell effects into thin air or decorate a canvas with elaborate runes.
 
 #### Spellcasting Focus
 In addition you can use your painter’s supplies, or basically anything you can draw a quick sketch with, as a spellcasting focus for your spells and class features instead of an instrument.
@@ -723,9 +731,6 @@ At level 3, your inspiration is a work of art that can't be contained by just on
 | Black  | Acid
 | Yellow | Thunder
 
-
-
-
 ### Visual Saturation
 At level 6, you have done significant research into how magic and light interplay, and the reason that some magic is visible to the naked eye, while some is not. You are able to tamper with this, to dampen or expose the light of magic at will.
 
@@ -748,12 +753,16 @@ These illusions look perfect, but act very crudely as it is difficult to maintai
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-crossroads">College of Crossroads</a></h1>
 
-Most bards practice endlessly to perfect their craft, taking every opportunity to perform and hone their musical skills. Becoming a musician is a long, arduous road that requires passion, talent, and a great deal of fortune, but not all bards are so diligent. Some seek out a shortcut, no matter what the cost―even if it means their souls.
+<div class="featuresTable">
 
-These bards are named for the traditional location where such mortal bargains are made. An agreement with a devil, demon, or other denizen of the lower planes is but the start of such a bard's quest for personal power and fame.
+#### College Features
 
-Striking a deal with a powerful devil (or another sinister power) can confer upon a bard unbelievable musical skills, but usually comes a mortal cost to be extracted at a later date. Few bards walk this infernal path, but those that do invariably gain legendary skill and a meteoric rise to stardom. Other bards label this group of pact-makers the College of Baator: a designation laced with seething jealousy, begrudging respect, and a pious moral judgement that devils should never be trusted.
-
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Infernal Musician |
+| 3rd | Infernal Duelist |
+| 6th | Eldritch Invocation |
+| 14th | Eldritch Invocation (additional invocation), Hellish Recovery |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -771,15 +780,13 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### College Features
+</div>
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Infernal Musician |
-| 3rd | Infernal Duelist |
-| 6th | Eldritch Invocation |
-| 14th | Eldritch Invocation (additional invocation), Hellish Recovery |
+Most bards practice endlessly to perfect their craft, taking every opportunity to perform and hone their musical skills. Becoming a musician is a long, arduous road that requires passion, talent, and a great deal of fortune, but not all bards are so diligent. Some seek out a shortcut, no matter what the cost―even if it means their souls.
 
+These bards are named for the traditional location where such mortal bargains are made. An agreement with a devil, demon, or other denizen of the lower planes is but the start of such a bard's quest for personal power and fame.
+
+Striking a deal with a powerful devil (or another sinister power) can confer upon a bard unbelievable musical skills, but usually comes a mortal cost to be extracted at a later date. Few bards walk this infernal path, but those that do invariably gain legendary skill and a meteoric rise to stardom. Other bards label this group of pact-makers the College of Baator: a designation laced with seething jealousy, begrudging respect, and a pious moral judgement that devils should never be trusted.
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your bard spells.
@@ -815,12 +822,16 @@ In addition, you learn the *infernal calling* spell, which counts as a bard spel
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-dance">College of Dance</a></h1>
 
-The college of dance teaches bards who are exceptionally in tune with their bodies, weaving movement, combat with or without a weapon and spellcasting into a singular art of self-expression. Dancers prefer small, light instruments, commonly a tambourine, a set of finger cymbals, or percussion instruments worn around the ankles, but a few manage to play other instruments while dancing.
+<div class="featuresTable">
 
-While most dancers do not cut an imposing figure, they are highly effective fighters with or without a weapon: their graceful leaping movements can provide them with a burst of speed or the ability to make wild unpredictable movements that make them almost impossible to pin down, especially in single combat.
+#### College Features
 
-When paired with an ally, a dancer makes for a frenetic, distracting presence, moving with and opposite their allies in equal measure, turning the tide of a battle as if they were spinning on their own heel. A dancer’s music and kinetic energy can be infectious, and others bound up in their spells find themselves dancing along with them.
-
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies, Combat Dancing |
+| 3rd | Dance Flourish |
+| 6th | Choose a Partner |
+| 14th | Dance Party |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -837,14 +848,13 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### College Features
+</div>
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies, Combat Dancing |
-| 3rd | Dance Flourish |
-| 6th | Choose a Partner |
-| 14th | Dance Party |
+The college of dance teaches bards who are exceptionally in tune with their bodies, weaving movement, combat with or without a weapon and spellcasting into a singular art of self-expression. Dancers prefer small, light instruments, commonly a tambourine, a set of finger cymbals, or percussion instruments worn around the ankles, but a few manage to play other instruments while dancing.
+
+While most dancers do not cut an imposing figure, they are highly effective fighters with or without a weapon: their graceful leaping movements can provide them with a burst of speed or the ability to make wild unpredictable movements that make them almost impossible to pin down, especially in single combat.
+
+When paired with an ally, a dancer makes for a frenetic, distracting presence, moving with and opposite their allies in equal measure, turning the tide of a battle as if they were spinning on their own heel. A dancer’s music and kinetic energy can be infectious, and others bound up in their spells find themselves dancing along with them.
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your bard spells.
@@ -898,8 +908,16 @@ From 14th level, after you have used a Dance Flourish, you can grant up to three
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-desire">College of Desire</a></h1>
 
-Bards of the College of Desire are peerless in a particular art, and that art is infatuation. With a pluck of a string, they can cause the heart to stir and bubble with complex emotion, whether through music or with their enchanted arrows. While a benevolent member of the College of Desire would seek to lighten the load of a heavy heart if only for a moment, many of them take advantage of their ability to cause chaos. Nothing is easier to control than the heart, or so they say.
+<div class="featuresTable">
 
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Cherubic Arrow |
+| 6th | Cherubic Charm |
+| 14th | Amorous Atmosphere |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -916,15 +934,9 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### College Features
+</div>
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Cherubic Arrow |
-| 6th | Cherubic Charm |
-| 14th | Amorous Atmosphere |
-
+Bards of the College of Desire are peerless in a particular art, and that art is infatuation. With a pluck of a string, they can cause the heart to stir and bubble with complex emotion, whether through music or with their enchanted arrows. While a benevolent member of the College of Desire would seek to lighten the load of a heavy heart if only for a moment, many of them take advantage of their ability to cause chaos. Nothing is easier to control than the heart, or so they say.
 
 #### Spellcasting Focus
 You can use a musical instrument, a shortbow or a longbow as a spellcasting focus for your spells.
@@ -965,10 +977,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-doors">College of Doors</a></h1>
 
-Bards of the College of Doors are roamers of the planes who tell tales of their travels and the fantastical places they've seen. The College of Doors believes that the infinite vastness of the planes, outer, inner, upper, and lower, is where the truest sense of wonder originates. From the plains of the Beastlands, to the great gears of Mechanus, to the chaotic islands of Limbo there are new things to experience and see, and those things are worth writing poems and songs and performances about.
-
-Not many people ever leave their home plane, but it is the purpose of the College of Doors to spread the distant wonders of the planes to those who cannot see it for themselves.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -979,6 +988,11 @@ Not many people ever leave their home plane, but it is the purpose of the Colleg
 | 6th | Portal Strike |
 | 14th | Planar Door |
 
+</div>
+
+Bards of the College of Doors are roamers of the planes who tell tales of their travels and the fantastical places they've seen. The College of Doors believes that the infinite vastness of the planes, outer, inner, upper, and lower, is where the truest sense of wonder originates. From the plains of the Beastlands, to the great gears of Mechanus, to the chaotic islands of Limbo there are new things to experience and see, and those things are worth writing poems and songs and performances about.
+
+Not many people ever leave their home plane, but it is the purpose of the College of Doors to spread the distant wonders of the planes to those who cannot see it for themselves.
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your spells.
@@ -1014,8 +1028,16 @@ From 14th level you can travel between any two Magic Doors regardless of their d
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-entropy">College of Entropy</a></h1>
 
-Bards of the College of Entropy are itinerate gamblers and daring thrill seekers whose actions are supremely unpredictable. Rather than relying on ancient lore or skill with arms, these bards throw themselves into new challenges just to see what happens, trusting in luck to see them through. They’re called luck stealers (with a mixture of derision and respect) because no matter how bad things get for everyone around them, these bards always seem to come out unscathed.
+<div class="featuresTable">
 
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Luck Stealer |
+| 6th | Infusion of Fortune |
+| 14th | Belief is a tool |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -1033,15 +1055,9 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### College Features
+</div>
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Luck Stealer |
-| 6th | Infusion of Fortune |
-| 14th | Belief is a tool |
-
+Bards of the College of Entropy are itinerate gamblers and daring thrill seekers whose actions are supremely unpredictable. Rather than relying on ancient lore or skill with arms, these bards throw themselves into new challenges just to see what happens, trusting in luck to see them through. They’re called luck stealers (with a mixture of derision and respect) because no matter how bad things get for everyone around them, these bards always seem to come out unscathed.
 
 #### Spellcasting Focus
 You can use an arcane focus or a musical instrument as a spellcasting focus for your spells.
@@ -1056,17 +1072,7 @@ This grants you an Inspiration (i.e. for adding advantage to a roll or reroll a 
 
 Stealing luck, regardless of whether you use the Inspiration, causes a wild surge if you fail a DC 5 Luck roll.
 
-
-
-### Infusion of Fortune
-At 6th level, when you cast a chaos spell, you may cause a wild surge and regain one use of your Bardic Inspiration.
-
-You regain the use of this feature after a short rest.
-
-### Belief is a tool
-Everything desires to be something else. Starting at 14th level, as an ***action***, you can change one known spell to another spell of the same or lower level on your spell list. At the end of your next turn, the known spells returns to normal. Casting a spell that you learn from this ability causes a wild surge.
-
-You regain the use of this feature after a short rest.
+<div class="infoarea" markdown="1">
 
 ## Chaos spells
 The following spells are considered chaos spells.
@@ -1082,14 +1088,37 @@ The following spells are considered chaos spells.
 | 7th | *Prismatic spray* |
 | 8th | *Fatal trip, paragon of chaos* |
 
+</div>
 
 
+### Infusion of Fortune
+At 6th level, when you cast a chaos spell, you may cause a wild surge and regain one use of your Bardic Inspiration.
+
+You regain the use of this feature after a short rest.
+
+### Belief is a tool
+Everything desires to be something else. Starting at 14th level, as an ***action***, you can change one known spell to another spell of the same or lower level on your spell list. At the end of your next turn, the known spells returns to normal. Casting a spell that you learn from this ability causes a wild surge.
+
+You regain the use of this feature after a short rest.
 
 
 
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-eulogies">College of Eulogies</a></h1>
+
+<div class="featuresTable">
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Deep Despair, Lament for the Dead |
+| 3rd | Bardic Dirge |
+| 6th | Restless Spirit |
+| 14th | Infectious Despair |
+
+</div>
 
 Bards are masters of eliciting all types of emotion. They use their musical magic to make audiences feel longing for places they have never been and love for people long dead. Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and horror. They take their name from the speeches typically delivered in memory of the deceased, for they see themselves as bringers of death.
 
@@ -1155,20 +1184,6 @@ Restless Spirit
 </td></tr></tbody></table>
 </div>
 
-
-
-
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Deep Despair, Lament for the Dead |
-| 3rd | Bardic Dirge |
-| 6th | Restless Spirit |
-| 14th | Infectious Despair |
-
-
-
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your bard spells.
 
@@ -1211,10 +1226,7 @@ The sadness and despair that you inflict upon your enemies cloys to them until i
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-faith">College of Faith</a></h1>
 
-Bards of the College of Faith (also called cantors) believe their music is a gift from above and that it should be used to praise the gods. They follow the tenets of a deity or religion and they are as unshakable in their conviction as the most devout cleric or the bravest paladin.
-
-These bards learn ways of inspiring others through their faith. Often taught in temples by clerics and priests, these bards specialize in spreading their faiths and in telling stories of the gods. Cantors are often welcomed in taverns and temples alike as they sing songs and evangelize to the masses.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -1225,6 +1237,11 @@ These bards learn ways of inspiring others through their faith. Often taught in 
 | 6th | Divine Magic |
 | 14th | Godly Voice |
 
+</div>
+
+Bards of the College of Faith (also called cantors) believe their music is a gift from above and that it should be used to praise the gods. They follow the tenets of a deity or religion and they are as unshakable in their conviction as the most devout cleric or the bravest paladin.
+
+These bards learn ways of inspiring others through their faith. Often taught in temples by clerics and priests, these bards specialize in spreading their faiths and in telling stories of the gods. Cantors are often welcomed in taverns and temples alike as they sing songs and evangelize to the masses.
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your bard spells.
@@ -1262,16 +1279,16 @@ Beginning at 14th level, if your chosen divine domain grants a Channel Divinity 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-fools">College of Fools</a></h1>
 
-Bards of the College of Fools are also called jesters. They use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court. Where other bards seek forgotten lore or tales of epic bravery, jesters ferret out embarrassing and hilarious stories of all kinds. Whether telling the ribald tale of a brawny stable hand’s affair with an aged duchess or a mocking satire of a paladin of Helm’s cloying innocence, a jester never lets taste, social decorum, or shame get in the way of a good laugh.
+<div class="featuresTable">
 
-While jesters are masters of puns, jokes, and verbal barbs, they are much more than just comic relief. They are expected to mock and provoke, taking advantage of how even the most powerful folk are expected by tradition to endure a jester’s barbs with good humor. This expectation allows a jester to serve as a critic or a voice of reason when others are too intimidated to speak the truth.
+#### College Features
 
-For the duchess with a taste for strapping young laborers, such tales might serve to warn the targets of her affections and force her to change her ways for lack of willing partners. Striking back at the jester only ruins her already damaged reputation, and might provide the best evidence that the jester’s satires have hit their mark. But if she is kind and generous to her conquests, the jokes and stories cast her as a kind of folk hero, while drawing even more potential partners to her.
-
-Jesters are loyal to only one cause: the pursuit and propagation of the truth. They use their comedy and innocuous appearance to break down social barriers and expose corruption, incompetence, and stupidity among the rich and powerful. Whether revealing a con artist’s treachery or exposing a baron’s plans for war as driven by greed and bloodlust, a jester serves as the conscience of a realm.
-
-Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies’ spirits while casting doubt into foes’ minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.
-
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Satirical Theatrics |
+| 3rd | Antagonize, Tumbling Fool |
+| 6th | Comedic Inspiration, The Best Medicine |
+| 14th | Twist of Fate, Wait for the Punchline |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -1288,16 +1305,17 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
+</div>
 
-#### College Features
+Bards of the College of Fools are also called jesters. They use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court. Where other bards seek forgotten lore or tales of epic bravery, jesters ferret out embarrassing and hilarious stories of all kinds. Whether telling the ribald tale of a brawny stable hand’s affair with an aged duchess or a mocking satire of a paladin of Helm’s cloying innocence, a jester never lets taste, social decorum, or shame get in the way of a good laugh.
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Satirical Theatrics |
-| 3rd | Antagonize, Tumbling Fool |
-| 6th | Comedic Inspiration, The Best Medicine |
-| 14th | Twist of Fate, Wait for the Punchline |
+While jesters are masters of puns, jokes, and verbal barbs, they are much more than just comic relief. They are expected to mock and provoke, taking advantage of how even the most powerful folk are expected by tradition to endure a jester’s barbs with good humor. This expectation allows a jester to serve as a critic or a voice of reason when others are too intimidated to speak the truth.
 
+For the duchess with a taste for strapping young laborers, such tales might serve to warn the targets of her affections and force her to change her ways for lack of willing partners. Striking back at the jester only ruins her already damaged reputation, and might provide the best evidence that the jester’s satires have hit their mark. But if she is kind and generous to her conquests, the jokes and stories cast her as a kind of folk hero, while drawing even more potential partners to her.
+
+Jesters are loyal to only one cause: the pursuit and propagation of the truth. They use their comedy and innocuous appearance to break down social barriers and expose corruption, incompetence, and stupidity among the rich and powerful. Whether revealing a con artist’s treachery or exposing a baron’s plans for war as driven by greed and bloodlust, a jester serves as the conscience of a realm.
+
+Jesters adventure to safeguard the common folk and to undermine the plans of the rich, powerful, and arrogant. Their magic bolsters allies’ spirits while casting doubt into foes’ minds. Among bards, jesters are unmatched acrobats, and their ability to tumble, dodge, leap, and climb makes them slippery opponents in battle.
 
 ### Satirical Theatrics
 When you join the College of Fools at 1st level, you learn the skills necessary to pass as a bumbling nincompoop. You gain proficiency with Acrobatics and Sleight of Hand.
@@ -1344,10 +1362,16 @@ Even if a joke falls flat at first, you know how to get your audience laughing; 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-glamour">College of Glamour</a></h1>
 
-The College of Glamour is the home of bards who mastered their craft in the vibrant realm of the Feywild or under the tutelage of someone who dwelled there. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others.
+<div class="featuresTable">
 
-The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.
+#### College Features
 
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies, Mantle of Inspiration |
+| 3rd | Enthralling Performance |
+| 6th | Mantle of Majesty |
+| 14th | Unbreakable Majesty |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -1364,15 +1388,11 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### College Features
+</div>
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies, Mantle of Inspiration |
-| 3rd | Enthralling Performance |
-| 6th | Mantle of Majesty |
-| 14th | Unbreakable Majesty |
+The College of Glamour is the home of bards who mastered their craft in the vibrant realm of the Feywild or under the tutelage of someone who dwelled there. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others.
 
+The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your spells.
@@ -1416,10 +1436,16 @@ In addition, as a ***bonus action***, you can assume a magically majestic presen
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-grandeur">College of Grandeur</a></h1>
 
-You have a deep understanding of the forces—both mundane and mystical—that draw forth greatness in otherwise ordinary mortals. Your study of history and politics has made you an expert in how certain individuals shape the destinies of multitudes, and you understand the path that leads to this kind of legendary influence. Whether ruling themselves or seeking to inspire others to rule well, bards of the College of Grandeur wield abilities fueled by the presence of true leadership.
+<div class="featuresTable">
 
-The sagas of those bards make it clear that more direct opportunities for greatness often come with a weapon in your hand rather than a crown on your head. Many epic histories begin with a small band of seemingly insignificant heroes who chose glory over safety. While confronting danger and mystery directly as an adventurer often leads to death, you also know it can also be a path to glory beyond what any throne or title can confer.
+#### College Features
 
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Majestic Word |
+| 6th | Inspire Defenders |
+| 14th | Inspirational Recovery |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -1436,15 +1462,11 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### College Features
+</div>
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Majestic Word |
-| 6th | Inspire Defenders |
-| 14th | Inspirational Recovery |
+You have a deep understanding of the forces—both mundane and mystical—that draw forth greatness in otherwise ordinary mortals. Your study of history and politics has made you an expert in how certain individuals shape the destinies of multitudes, and you understand the path that leads to this kind of legendary influence. Whether ruling themselves or seeking to inspire others to rule well, bards of the College of Grandeur wield abilities fueled by the presence of true leadership.
 
+The sagas of those bards make it clear that more direct opportunities for greatness often come with a weapon in your hand rather than a crown on your head. Many epic histories begin with a small band of seemingly insignificant heroes who chose glory over safety. While confronting danger and mystery directly as an adventurer often leads to death, you also know it can also be a path to glory beyond what any throne or title can confer.
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your spells. You can also use an emblem on your shield as a spellcasting focus. The emblem must be a crest, symbol, or sigil of personal significance to you.
@@ -1478,12 +1500,7 @@ You can use this feature a number of times equal to your Charisma modifier and c
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-lore">College of Lore</a></h1>
 
-Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.
-
-The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic.
-
-The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at selfimportant figures of authority.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -1494,6 +1511,13 @@ The college's members gather in libraries and sometimes in actual colleges, comp
 | 6th | Additional Magical Secrets |
 | 14th | Peerless Skill |
 
+</div>
+
+Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king.
+
+The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic.
+
+The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at selfimportant figures of authority.
 
 #### Spellcasting Focus
 You can use an arcane focus or a musical instrument as a spellcasting focus for your spells.
@@ -1522,10 +1546,16 @@ Starting at 14th level, when you make an ability check, you can expend one use o
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-madGod">College of the Mad God</a></h1>
 
-In the middle of the night, you hear the music. Every time, it begins the same way, rising from a low drone into a deafening cacophony. The noise is maddening. In your waking hours, your fingers learn to imitate this melody and bring others to your level of psychosis.
+<div class="featuresTable">
 
-Some attribute the dreadful nightmares to a curse or stress, but you know better. You and others like you are called nightly by the beating of vile drums and the thin monotonous whine of accursed flutes, the sounds of a Mad God who echoes the pandemonium of the universe, and summons you to do something. You know not what.
+#### College Features
 
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Frenzied Strings |
+| 6th | Mad Melody |
+| 14th | Cacophony |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -1542,15 +1572,11 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### College Features
+</div>
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Frenzied Strings |
-| 6th | Mad Melody |
-| 14th | Cacophony |
+In the middle of the night, you hear the music. Every time, it begins the same way, rising from a low drone into a deafening cacophony. The noise is maddening. In your waking hours, your fingers learn to imitate this melody and bring others to your level of psychosis.
 
+Some attribute the dreadful nightmares to a curse or stress, but you know better. You and others like you are called nightly by the beating of vile drums and the thin monotonous whine of accursed flutes, the sounds of a Mad God who echoes the pandemonium of the universe, and summons you to do something. You know not what.
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your spells.
@@ -1583,10 +1609,7 @@ After you use this ability, you must complete a short rest before using it again
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-masks">College of Masks</a></h1>
 
-Bards in the College of Masks (or Masters of Masks, as they have come to be called) are virtuoso performers who practice becoming the figure they portray, rather than merely imitating them. Bards who practice in this college come to believe that all life is performed, rather than lived, and that to become an actor in this Great Play requires that one merely put on the metaphorical mask of another.
-
-Just as every person wears a mask each day, a Master of Masks carries with him a number of masks, each with potent magic of a specific archetypical character or creature, to allow them to better enter those roles.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -1597,6 +1620,11 @@ Just as every person wears a mask each day, a Master of Masks carries with him a
 | 6th | Hidden Mask |
 | 14th | Master of Many Masks |
 
+</div>
+
+Bards in the College of Masks (or Masters of Masks, as they have come to be called) are virtuoso performers who practice becoming the figure they portray, rather than merely imitating them. Bards who practice in this college come to believe that all life is performed, rather than lived, and that to become an actor in this Great Play requires that one merely put on the metaphorical mask of another.
+
+Just as every person wears a mask each day, a Master of Masks carries with him a number of masks, each with potent magic of a specific archetypical character or creature, to allow them to better enter those roles.
 
 #### Spellcasting Focus
 You can use an arcane focus as a spellcasting focus for your spells.
@@ -1699,8 +1727,16 @@ Your alignment appears to be neutral good while you wear a High Priest mask.
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-mirrors">College of Mirrors</a></h1>
 
-Bards of the College of Mirrors specialize in the art of redirection. What starts off as simple sleight of hand card tricks or minor magical illusions can lead a bard to this elusive path. A common value shared throughout this college is that appearances can be and often are deceiving. These bards often find themselves employed in thieves guilds as a master of distraction, helping cover up assassinations or secret plots, and many other jobs that require artful illusory work.
+<div class="featuresTable">
 
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Bonus Proficiencies |
+| 3rd | Illusory Distraction |
+| 6th | Illusive Step |
+| 14th | Hall of Mirrors |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -1717,15 +1753,9 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### College Features
+</div>
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Bonus Proficiencies |
-| 3rd | Illusory Distraction |
-| 6th | Illusive Step |
-| 14th | Hall of Mirrors |
-
+Bards of the College of Mirrors specialize in the art of redirection. What starts off as simple sleight of hand card tricks or minor magical illusions can lead a bard to this elusive path. A common value shared throughout this college is that appearances can be and often are deceiving. These bards often find themselves employed in thieves guilds as a master of distraction, helping cover up assassinations or secret plots, and many other jobs that require artful illusory work.
 
 #### Spellcasting Focus
 You can use any mirror as a spellcasting focus for your spells.
@@ -1763,8 +1793,7 @@ You can use this feature a number of times equal to your Charisma modifier and c
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-portraiture">College of Portraiture</a></h1>
 
-Bards of the College of Portraiture are artisans first and foremost. Through your intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations. True artistic mastery lies in the ability to imbue each masterpiece with a fragment of one’s soul, binding each creation to the artist in an elegant and harmonious union. Your skill and talent in the manipulation of your life essence allows you to create and animate works of art in your own image. Narcissism is common among the practitioners of this College, though it can hardly be faulted. If everyone could portray themselves so beautifully, surely they would.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -1775,6 +1804,9 @@ Bards of the College of Portraiture are artisans first and foremost. Through you
 | 6th | Legion’s Defense |
 | 14th | Personal Unity |
 
+</div>
+
+Bards of the College of Portraiture are artisans first and foremost. Through your intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations. True artistic mastery lies in the ability to imbue each masterpiece with a fragment of one’s soul, binding each creation to the artist in an elegant and harmonious union. Your skill and talent in the manipulation of your life essence allows you to create and animate works of art in your own image. Narcissism is common among the practitioners of this College, though it can hardly be faulted. If everyone could portray themselves so beautifully, surely they would.
 
 #### Spellcasting Focus
 You can use a pen and paper, or basically anything you can draw a quick sketch with, as a spellcasting focus for your spells and class features instead of an instrument.
@@ -1817,6 +1849,40 @@ Whenever you would take damage, you can use your ***reaction*** to sacrifice the
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-purity">College of Purity</a></h1>
+
+<div class="featuresTable">
+
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Woodland Warbler |
+| 3rd | Comforting Melody |
+| 6th | Heart to Heart |
+| 14th | Beacon of Harmony |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Woodland Warbler***.
+
+| Long rest |
+|:-|
+| Add the following college specific benefits to choose from: |
+| * Regain all uses of ***Heart to Heart***.
+| * Regain use of ***Beacon of Harmony***.
+
+</div>
+</div>
+</div>
+
+</div>
 
 Despite living through many of the cruellest dangers the world has to offer, there are those who maintain that all conflicts can be resolved with the power of friendship. The bards of the College of Purity are united by their belief in this ideal, and use their performances to spread peace and harmony wherever they go.
 
@@ -1880,37 +1946,6 @@ Gentle Unicorn
 </td></tr></tbody></table>
 </div>
 
-<div class="card rest">
-<div class="card-title restHeading">Rest Additions</div>
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-<div class="card-text restTable" markdown="1">
-
-| Short rest |
-|:-|
-| After a short rest: |
-| * Regain use of ***Woodland Warbler***.
-
-| Long rest |
-|:-|
-| Add the following college specific benefits to choose from: |
-| * Regain all uses of ***Heart to Heart***.
-| * Regain use of ***Beacon of Harmony***.
-
-</div>
-</div>
-</div>
-
-#### College Features
-
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Woodland Warbler |
-| 3rd | Comforting Melody |
-| 6th | Heart to Heart |
-| 14th | Beacon of Harmony |
-
-
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your spells.
 
@@ -1956,8 +1991,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-revelry">College of Revelry</a></h1>
 
-Some bards have a way of becoming the center of attention wherever they go. They enjoy the after parties more than their performances, and it is rare that they turn down an invitation for a good time. From formal banquets of royalty to the harvest celebrations of small farming towns, Revelry bards live for parties and hedonistic gatherings of all kinds.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -1967,6 +2001,10 @@ Some bards have a way of becoming the center of attention wherever they go. They
 | 3rd | Depraved Enchantments |
 | 6th | Stirring Performance |
 | 14th | Hedonistic Trance |
+
+</div>
+
+Some bards have a way of becoming the center of attention wherever they go. They enjoy the after parties more than their performances, and it is rare that they turn down an invitation for a good time. From formal banquets of royalty to the harvest celebrations of small farming towns, Revelry bards live for parties and hedonistic gatherings of all kinds.
 
 
 #### Spellcasting Focus
@@ -2004,12 +2042,7 @@ When you use this feature, you can choose to expend an additional use of bardic 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-secrets">College of Secrets</a></h1>
 
-There have been many secret societies in history, and they have always needed those like you, those who truly understand the nature of loyalty and respect. And fear, of course. There must always be fear, your insurance against those unfortunate days when loyalty and respect do not carry their proper weight. You prefer to be respected, even loved, and you work hard to earn loyalty. But fear will do in a pinch.
-
-Your branch of your college is no loose association, but a close-knit society of sworn comrades, bound together in a mutually dependent code of discretion, honor, and blood. It could be one or more of many things—a thieves’ guild, an outlawed cult, a spy ring, a hidden faction of nobles devoted to restoring the true heir to the throne—but the key to your survival is clear: an expert understanding of the psychology and culture of those around you.
-
-You are different things to different people. Some may call you a protector of the common folk, others may think of you as an extortionist or a threat. In some places, you and your fellows may be relied upon as an unofficial police force. You may even be tolerated or condoned by local authorities, but they never know the whole truth of what you are.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -2020,6 +2053,13 @@ You are different things to different people. Some may call you a protector of t
 | 6th | Secret Insights |
 | 14th | Deflect Interrogation, Informant Network |
 
+</div>
+
+There have been many secret societies in history, and they have always needed those like you, those who truly understand the nature of loyalty and respect. And fear, of course. There must always be fear, your insurance against those unfortunate days when loyalty and respect do not carry their proper weight. You prefer to be respected, even loved, and you work hard to earn loyalty. But fear will do in a pinch.
+
+Your branch of your college is no loose association, but a close-knit society of sworn comrades, bound together in a mutually dependent code of discretion, honor, and blood. It could be one or more of many things—a thieves’ guild, an outlawed cult, a spy ring, a hidden faction of nobles devoted to restoring the true heir to the throne—but the key to your survival is clear: an expert understanding of the psychology and culture of those around you.
+
+You are different things to different people. Some may call you a protector of the common folk, others may think of you as an extortionist or a threat. In some places, you and your fellows may be relied upon as an unofficial police force. You may even be tolerated or condoned by local authorities, but they never know the whole truth of what you are.
 
 #### Spellcasting Focus
 You can use an arcane focus as a spellcasting focus for your spells.
@@ -2053,12 +2093,6 @@ Starting 14th level, when you take the Attack action on your turn and hit at lea
 In addition, when rolling a saving throw to resist any attempt to discern information about you, your plans, your location, or your thoughts, you have advantage on the roll. This includes effects that would read your thoughts or compel you to speak the truth. If you succeed on your roll, you can cast *vicious mockery* as a ***reaction***.
 
 
-
-
-
-
-
-
 ### Informant Network
 At 14th level, you have carefully built up a network of informants who you can contact from almost anywhere (via a messenger bird, magic, or other means). These informants are mix of guards, beggars, vagabonds, merchants, and allied government officials who have enough personal loyalty to you to perform routine favors, but not to risk their safety. As long as you are within 100 miles of a settlement that includes at least 100 intelligent creatures with whom you share a language, you can use the following abilities:
 
@@ -2087,10 +2121,16 @@ At 14th level, you have carefully built up a network of informants who you can c
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-shanties">College of Shanties</a></h1>
 
-A seaman, a singer, a trusty mate with quick reflexes and a big heart: this is the ideal bard from the College of Shanties, a hero whose
-words lead and inspire their companions to always act at their best. Shanties are simple sea songs with a mechanism of call and response: the main singer, the shantyman, directs their companions both in the chorus and in the chores required to sail a ship. The voice and wits of a proper shantyman support sailors during their exhausting manual labor, and many a seaman found that a good shanty could inspire them to complete nearly impossible tasks.
+<div class="featuresTable">
 
-For a bard in this college, it is clear that the same principles could be used to lead adventurer parties.
+#### College Features
+
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Seaman |
+| 3rd | Call and Response |
+| 6th | Look Out Mate, Strong Lungs |
+| 14th | Ballad of Shame Unending |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -2107,16 +2147,12 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
+</div>
 
-#### College Features
+A seaman, a singer, a trusty mate with quick reflexes and a big heart: this is the ideal bard from the College of Shanties, a hero whose
+words lead and inspire their companions to always act at their best. Shanties are simple sea songs with a mechanism of call and response: the main singer, the shantyman, directs their companions both in the chorus and in the chores required to sail a ship. The voice and wits of a proper shantyman support sailors during their exhausting manual labor, and many a seaman found that a good shanty could inspire them to complete nearly impossible tasks.
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Seaman |
-| 3rd | Call and Response |
-| 6th | Look Out Mate, Strong Lungs |
-| 14th | Ballad of Shame Unending |
-
+For a bard in this college, it is clear that the same principles could be used to lead adventurer parties.
 
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your spells.
@@ -2149,10 +2185,7 @@ When you are 14th level, the very act of striking you down is enough to invoke a
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-tales">College of Tales</a></h1>
 
-Wanderers and storytellers, bards of the College of Tales can be found in every corner of the world, tirelessly seeking out ancient legends and new tales alike. Using their gift of magic, these bards bring their stories to life, conjuring monsters of legend and fantastical landscapes to augment their narration.
-
-To simply hear a story is one thing; to witness the performance of one of these bards is almost as good as being there yourself. While many such bards begin their careers as collectors of tales or historians, they are seldom content to merely reproduce the words of others. By taking up the mantle of adventurer, they are able to acquire a repertoire of stories which are entirely their own, and which they can be confident in the retelling of.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -2163,6 +2196,11 @@ To simply hear a story is one thing; to witness the performance of one of these 
 | 6th | Mantle of Heroes |
 | 14th | Makers of Truths |
 
+</div>
+
+Wanderers and storytellers, bards of the College of Tales can be found in every corner of the world, tirelessly seeking out ancient legends and new tales alike. Using their gift of magic, these bards bring their stories to life, conjuring monsters of legend and fantastical landscapes to augment their narration.
+
+To simply hear a story is one thing; to witness the performance of one of these bards is almost as good as being there yourself. While many such bards begin their careers as collectors of tales or historians, they are seldom content to merely reproduce the words of others. By taking up the mantle of adventurer, they are able to acquire a repertoire of stories which are entirely their own, and which they can be confident in the retelling of.
 
 #### Spellcasting Focus
 You can use an arcane focus or a musical instrument as a spellcasting focus for your spells.
@@ -2170,23 +2208,7 @@ You can use an arcane focus or a musical instrument as a spellcasting focus for 
 ### Collector of Tales
 By the time you join the College of Tales at 1st level, your knowledge of legends and lore is as deep as it is broad. You gain proficiency with History.
 
-### Legend Made Real
-Your training as a bard of the College of Tales enables you to make stories and myths manifest through your magic. At 3rd, 5th, 7th and 9th level you gain access to certain spells, reflecting the creatures and tales you have encountered in your travels. These spells count as bard spells for you but don't count against the number of bard spells you know.
-
-
-#### College of Tales Spells
-
-| Bard Level | Spells |
-|:----------:|:--------|
-| 3rd | _find steed, healing spirit_
-| 5th | _conjure animals, fallen soul_
-| 7th | _conjure woodland beings, find greater steed_
-| 9th | _conjure elemental, insect plague_
-
-
-
-
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 ##### Flavoring Conjuration Spells
 Bards of this subclass are highly encouraged to create the myths and tales behind the creatures they summon.
@@ -2196,6 +2218,18 @@ Your steed is not any horse, but rather the white stallion Faenrill, ridden by K
 As you grow in experience, consider summoning replicas of creatures and individuals that you have met in your own travels.
 
 </div>
+
+### Legend Made Real
+Your training as a bard of the College of Tales enables you to make stories and myths manifest through your magic. At 3rd, 5th, 7th and 9th level you gain access to certain spells, reflecting the creatures and tales you have encountered in your travels. These spells count as bard spells for you but don't count against the number of bard spells you know.
+
+#### College of Tales Spells
+
+| Bard Level | Spells |
+|:----------:|:--------|
+| 3rd | _find steed, healing spirit_
+| 5th | _conjure animals, fallen soul_
+| 7th | _conjure woodland beings, find greater steed_
+| 9th | _conjure elemental, insect plague_
 
 ### Song of Triumph
 Starting at 3rd level, your tales of victory in the face of overwhelming odds inspire your allies and egg them on to ever greater heroics. Whenever a creature you can see within 60 feet of you scores a critical hit, you can use your ***reaction*** to celebrate their accomplishment, granting them one Bardic Inspiration die which lasts until the end of the creature's next turn. This ability does not require you to expend a use of your Bardic Inspiration.
@@ -2216,10 +2250,7 @@ Starting at 14th level, any creature that you summon or create with a spell is a
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-valor">College of Valor</a></h1>
 
-Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.
-
-While most are satisfied with this role, others strive to be the hero of legend themselves. Valuing bravery and decisive action above all, such bards cultivate larger than life persona and hone their physical abilities to match, augmented by their magic.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -2230,6 +2261,11 @@ While most are satisfied with this role, others strive to be the hero of legend 
 | 6th | Extra Attack |
 | 14th | Paragon of Glory |
 
+</div>
+
+Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.
+
+While most are satisfied with this role, others strive to be the hero of legend themselves. Valuing bravery and decisive action above all, such bards cultivate larger than life persona and hone their physical abilities to match, augmented by their magic.
 
 #### Spellcasting Focus
 You can use an arcane focus, your meele weapon or a musical instrument as a spellcasting focus for your spells.
@@ -2261,10 +2297,16 @@ In addition, you have mastered the art of weaving spellcasting and weapon use in
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-whispers">College of Whispers</a></h1>
 
-Most folk are happy to welcome a bard into their midst. Bards of the College of Whispers use this to their advantage. They appear to be like other bards, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the College of Whispers teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.
+<div class="featuresTable">
 
-Many other bards hate the College of Whispers, viewing it as a parasite that uses a bard’s reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.
+#### College Features
 
+| Bard Level | Feature |
+|:----------:|:--------|
+| 1st | Words of Terror |
+| 3rd | Psychic Blades |
+| 6th | Mantle of Whispers |
+| 14th | Shadow Lore |
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -2281,15 +2323,11 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-#### College Features
+</div>
 
-| Bard Level | Feature |
-|:----------:|:--------|
-| 1st | Words of Terror |
-| 3rd | Psychic Blades |
-| 6th | Mantle of Whispers |
-| 14th | Shadow Lore |
+Most folk are happy to welcome a bard into their midst. Bards of the College of Whispers use this to their advantage. They appear to be like other bards, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the College of Whispers teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.
 
+Many other bards hate the College of Whispers, viewing it as a parasite that uses a bard’s reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.
 
 #### Spellcasting Focus
 You can use an arcane focus or a musical instrument as a spellcasting focus for your spells.
@@ -2347,10 +2385,7 @@ Once you use this feature, you can’t use it again until you finish a long rest
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-marionettist">Marionettist</a></h1>
 
-Marionettists, or bards of the College of Puppeteers, are one person troupes who stage epic tales of heroism, tragedy and comedy with their merry bands of magically animated puppets. Ornately crafted, these puppets can adopt any role and play any character, and a puppeteer makes great use of this versatility to rapt audiences, entertain the masses and captivate nobles with performances that are bold, intricate and sometimes shocking; many a puppeteer has used their creations to portray exaggerated parodies of events and people in much the same way a jester does, for good or ill.
-
-To other bards, and those who know the extent of their powers, a puppeteer is a figure to be treated with caution. In learning to pull the strings of their puppets without lifting a finger, these bards also learn to pull the strings of living beings, twisting and pulling them to their whims. A heroic puppeteer can use these powers to expose corruption, bring light to hidden secrets and incite the downtrodden to action, but a villanious puppeteer can enthrall entire communities, binding them with fear and paranoia.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -2361,22 +2396,27 @@ To other bards, and those who know the extent of their powers, a puppeteer is a 
 | 6th | No Strings Attached |
 | 14th | Master of Puppets |
 
+</div>
+
+Marionettists, or bards of the College of Puppeteers, are one person troupes who stage epic tales of heroism, tragedy and comedy with their merry bands of magically animated puppets. Ornately crafted, these puppets can adopt any role and play any character, and a puppeteer makes great use of this versatility to rapt audiences, entertain the masses and captivate nobles with performances that are bold, intricate and sometimes shocking; many a puppeteer has used their creations to portray exaggerated parodies of events and people in much the same way a jester does, for good or ill.
+
+To other bards, and those who know the extent of their powers, a puppeteer is a figure to be treated with caution. In learning to pull the strings of their puppets without lifting a finger, these bards also learn to pull the strings of living beings, twisting and pulling them to their whims. A heroic puppeteer can use these powers to expose corruption, bring light to hidden secrets and incite the downtrodden to action, but a villanious puppeteer can enthrall entire communities, binding them with fear and paranoia.
 
 #### Spellcasting Focus
 You can use one of your puppets as a spellcasting focus for your spells.
 
-### Merry Band
-When you join the College of Puppets at 1st level, you gain proficiency with woodcarver's tools and can cast the *unseen servant* spell as a ritual, using one or more puppet as the material component. When cast this way, the spell lasts until the start of your next long rest, and instead of creating a servant, the puppets used for the ritual becomes your servants. If you control multiple servants, you can command any or all of them at the same time.
-
-You can have a number of puppets active equal to your Charisma modifier.
-
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 ##### Creating Puppets
 As part of a long rest, you can create a puppet out of wood or similar material. This puppet can be used as a material component for your Merry Band feature. You must have enough material on hand, equivalent to a small block or log, to produce it.
 
 
 </div>
+
+### Merry Band
+When you join the College of Puppets at 1st level, you gain proficiency with woodcarver's tools and can cast the *unseen servant* spell as a ritual, using one or more puppet as the material component. When cast this way, the spell lasts until the start of your next long rest, and instead of creating a servant, the puppets used for the ritual becomes your servants. If you control multiple servants, you can command any or all of them at the same time.
+
+You can have a number of puppets active equal to your Charisma modifier.
 
 ### Strings of Fate
 At 3rd level, you learn how to manipulate the movements of your foes and inspire fear in their hearts. As a ***bonus action***, you can expend a use of your Bardic Inspiration to target a creature within 60 feet.
@@ -2402,8 +2442,7 @@ The duration of this spell is a number of rounds equal to the number rolled on t
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-pathfinderChronicler">Pathfinder Chronicler</a></h1>
 
-The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers and story-spinners who form and shape the views of history and public opinion across the face of Golarion. Commonly known by their wayfinders, the Pathfinder chroniclers are recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance. Commoners delight when a Pathfinder chronicler comes to town, bearing news, gossip, or favorite tales of yore.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -2413,6 +2452,11 @@ The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers
 | 3rd | Epic Tales |
 | 6th | Live to tell the Tale, Pathfinding |
 | 14th | Greater Epic Tales |
+
+</div>
+
+The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers and story-spinners who form and shape the views of history and public opinion across the face of Golarion. Commonly known by their wayfinders, the Pathfinder chroniclers are recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance. Commoners delight when a Pathfinder chronicler comes to town, bearing news, gossip, or favorite tales of yore.
+
 
 
 #### Spellcasting Focus
@@ -2455,10 +2499,7 @@ At 14th level, you may have two Echoes active at once – either two Warriors, o
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-piedPiper">Pied Piper</a></h1>
 
-The College of Pied Pipers have a strong affinity for animals, particularly for vermin. The college has no official name, and its lore is spread between those few who dare to teach its secrets. They all can be rooted to a legendary bard whose peerless skill with wind instruments (some say flute, some say panpipes) entranced vermin. The tale speaks of how this bard traveled between cities, offering its trade to the citizens; those who paid had their vermin troubles swept away, but those who couldn't pay its exorbitant price suddenly found themselves robbed of what they loved the most. Legends cannot tell if the story is true, if the piper did this as a service or for wicked ways, but the secrets of controlling vermin were spread between enterprising bards who wished to sway creatures to their service.
-
-Bards of this college are mentored by experienced pipers, who teach them the secrets of the trade. They are not just skilled at entrancing music, but are experts at enchantments; the most experienced pipers can easily bend the minds of powerful beings, but they always find beasts and vermin the easiest to control. The power this bard holds can be terrifying when crossed; the tales say that pipers could take away children as punishment, a cautionary tale of how the lure of beauty, power or simple enchantment can turn into a dangerous weapon.
-
+<div class="featuresTable">
 
 #### College Features
 
@@ -2468,6 +2509,12 @@ Bards of this college are mentored by experienced pipers, who teach them the sec
 | 3rd | Fascinating Performance |
 | 6th | Beast Magic |
 | 14th | Improved Beast Magic |
+
+</div>
+
+The College of Pied Pipers have a strong affinity for animals, particularly for vermin. The college has no official name, and its lore is spread between those few who dare to teach its secrets. They all can be rooted to a legendary bard whose peerless skill with wind instruments (some say flute, some say panpipes) entranced vermin. The tale speaks of how this bard traveled between cities, offering its trade to the citizens; those who paid had their vermin troubles swept away, but those who couldn't pay its exorbitant price suddenly found themselves robbed of what they loved the most. Legends cannot tell if the story is true, if the piper did this as a service or for wicked ways, but the secrets of controlling vermin were spread between enterprising bards who wished to sway creatures to their service.
+
+Bards of this college are mentored by experienced pipers, who teach them the secrets of the trade. They are not just skilled at entrancing music, but are experts at enchantments; the most experienced pipers can easily bend the minds of powerful beings, but they always find beasts and vermin the easiest to control. The power this bard holds can be terrifying when crossed; the tales say that pipers could take away children as punishment, a cautionary tale of how the lure of beauty, power or simple enchantment can turn into a dangerous weapon.
 
 
 #### Spellcasting Focus

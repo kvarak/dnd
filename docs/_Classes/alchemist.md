@@ -279,7 +279,7 @@ The panacea must be consumed within 24 hours, after which it becomes inert. You 
 
 <div class="featuresTable">
 
-#### Features
+#### Archetype Features
 
 | Alchemist level | Feature |
 |:---------------:|:--------|
@@ -434,7 +434,7 @@ During the transformation, the cadaver can't create another cadaver using its 'A
 
 <div class="featuresTable">
 
-#### Features
+#### Archetype Features
 
 | Alchemist level | Feature |
 |:------------:|:--------|
@@ -472,7 +472,7 @@ Beginning at 17th level, you can combine two non makeshift bombs into one. Combi
 
 <div class="featuresTable">
 
-#### Features
+#### Archetype Features
 
 | Alchemist level | Feature |
 |:------------:|:--------|
@@ -514,7 +514,7 @@ At 17th level, you learn how to create more versatile versions of your poison co
 
 <div class="featuresTable">
 
-#### Features
+#### Archetype Features
 
 | Alchemist level | Feature |
 |:------------:|:--------|
@@ -571,7 +571,7 @@ By 17th level, your abilities to injure minds and manipulate brains allows you t
 
 <div class="featuresTable">
 
-#### Features
+#### Archetype Features
 
 | Alchemist level | Feature |
 |:------------:|:--------|
