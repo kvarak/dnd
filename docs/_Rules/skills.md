@@ -56,7 +56,7 @@ Acrobatics performed in the air on a suspended apparatus such as a trapeze, a ve
 
 <details><summary>Contortion (trait)</summary>
 
-The skill of extreme physical flexibility. This skill allows you to squeeze through very tight spaces as long as your head fits. You have Expertise to escape grapples.
+The skill of extreme physical flexibility. This skill allows you to squeeze through very tight spaces as long as your head fits. You have ***Expertise*** to escape grapples.
 
 <details><summary>Body Packing (trait)</summary>
 
@@ -80,7 +80,7 @@ The large amount of training you have put yourself through has made you able to 
 
 <details><summary>Give Exhibition</summary>
 
-Enabling you to put on an acrobatic performance, incorporating elements of juggling, tumbling and so on. The character is assumed to perform tricks regularly and work at his or her craft to invent something new. When making a performance you have Expertise (Dex, Cha).
+Enabling you to put on an acrobatic performance, incorporating elements of juggling, tumbling and so on. The character is assumed to perform tricks regularly and work at his or her craft to invent something new. When making a performance you have ***Expertise (Dex, Cha)***.
 
 </details>
 
@@ -92,11 +92,11 @@ You have trained to improve your agility, reflexes and/or balance. Gain +1 Dexte
 
 <details><summary>Parkour</summary>
 
-The skill by which characters aim to move from one point to another in a complex, jumbled environment, without equipment and in the fastest and most efficient way possible. You have Expertise on checks made to avoid the effects of non-magical difficult terrain. As a bonus action, you can make a DC 12 Dexterity (Parkour) check. If you succeed, difficult terrain doesn’t cost you extra movement until the end of the current turn.
+The skill by which characters aim to move from one point to another in a complex, jumbled environment, without equipment and in the fastest and most efficient way possible. You have ***Expertise*** on checks made to avoid the effects of non-magical difficult terrain. As a ***bonus action***, you can make a DC 12 Dexterity (Parkour) check. If you succeed, difficult terrain doesn’t cost you extra movement until the end of the current turn.
 
 <details><summary>Parkour through magic (→ Arcana)</summary>
 
-You also have Expertise on checks made to avoid the effects of magical difficult terrain.
+You also have ***Expertise*** on checks made to avoid the effects of magical difficult terrain.
 
 </details>
 
@@ -108,7 +108,7 @@ When you take the Dash action and move at least 10 ft, you may climb up to 10 ft
 
 <details><summary>Pole Vault (trait)</summary>
 
-You are skilled at using a pole to overcome obstacles. If you have a pole or staff, you can use an item action to extend your jumping distance by the length of the pole.
+You are skilled at using a pole to overcome obstacles. If you have a pole or staff, you can use an ***item action*** to extend your jumping distance by the length of the pole.
 
 </details>
 
@@ -116,11 +116,11 @@ You are skilled at using a pole to overcome obstacles. If you have a pole or sta
 
 <details><summary>Roll with the blow</summary>
 
-When struck by an effect that moves you and you can see, you may choose to "roll with the blow". If you do, move an additional 5 ft, and gain Expertise on any checks to avoid falling prone. If it does not allow a check, you can still make an Dexterity (Roll with the blow) check against a DC equal to damage dealt, or if no damage, a DC of 15. This includes forced movement from critical hits and fumbles. Also, note that you can only do this if there is enough space behind you.
+When struck by an effect that moves you and you can see, you may choose to "roll with the blow". If you do, move an additional 5 ft, and gain ***Expertise*** on any checks to avoid falling prone. If it does not allow a check, you can still make an Dexterity (Roll with the blow) check against a DC equal to damage dealt, or if no damage, a DC of 15. This includes forced movement from critical hits and fumbles. Also, note that you can only do this if there is enough space behind you.
 
 <details><summary>Roll with the blow II</summary>
 
-You may roll with the blow against any attack that deals bludgeoning damage, as long as you have a 5 ft behind you and spend a reaction. On a successful Dexterity (Roll with the blow) check against a DC equal to the damage dealt, you gain resistance to the attack and move 5 ft back (without provoking an attack of opportunity). If you roll a 1, you fall prone, and are not allowed a check to avoid it.
+You may roll with the blow against any attack that deals bludgeoning damage, as long as you have a 5 ft behind you and spend a ***reaction***. On a successful Dexterity (Roll with the blow) check against a DC equal to the damage dealt, you gain resistance to the attack and move 5 ft back (without provoking an attack of opportunity). If you roll a 1, you fall prone, and are not allowed a check to avoid it.
 
 </details>
 
@@ -128,13 +128,13 @@ You may roll with the blow against any attack that deals bludgeoning damage, as 
 
 <details><summary>Slip Trap</summary>
 
-Your fast reflexes and acrobatic training allows you to forgo damage from traps by nimbly twisting your body to escape harm. When a trap allows for a Dexterity save, you can use this skill with Expertise instead.
+Your fast reflexes and acrobatic training allows you to forgo damage from traps by nimbly twisting your body to escape harm. When a trap allows for a Dexterity save, you can use this skill with ***Expertise*** instead.
 
 </details>
 
 <details><summary>Stability</summary>
 
-You have exceptional balance. This skill grants Expertise on all checks to keep your balance, such as balancing on a ledge, to stay upright on a ship or even to keep you footing within a grease spell.
+You have exceptional balance. This skill grants ***Expertise*** on all checks to keep your balance, such as balancing on a ledge, to stay upright on a ship or even to keep you footing within a grease spell.
 
 <details><summary>Beam walking (trait)</summary>
 
@@ -158,7 +158,7 @@ You are skilled at walking along a thin wire or rope, allowing you to walk at fu
 
 <details><summary>Tumbling</summary>
 
-The acrobatic skill of doing rolls, twists, somersaults and other rotational activities using the whole body. This skill grants Expertise on such checks, as well as the following benefits:
+The acrobatic skill of doing rolls, twists, somersaults and other rotational activities using the whole body. This skill grants ***Expertise*** on such checks, as well as the following benefits:
 
 - When prone, standing up uses only 5 ft of your movement.
 - If you spend 1 minute stretching and limbering up, you gain advantage on one Strength check.
