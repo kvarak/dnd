@@ -495,6 +495,7 @@ Also from 2nd level, you gain resistance to poison and advantage on saving throw
 ### Ethereal Poison
 At 7th level, you can make your poison concoctions so potent that they can effect any creature no matter what. Creatures immune to poison damage still take half damage from your poisons.
 
+<img src='https://i.pinimg.com/originals/02/7b/59/027b59d7698bdde88f663e830cea74e9.jpg' style='float:right;width:20%;padding:20px' />
 
 ### Poison Immunity
 At 10th level, you gain immunity to poison damage and the poison condition.
@@ -600,17 +601,7 @@ You have a spellbook containing three 1st-level wizard spells from the ***transm
 
 You prepare the list of spells that are available for you to cast. To do so, choose a number of spells from your spellbook equal to your Intelligence modifier + half your alchemist level. The spells must be of a level for which you have spell slots. You can change your list of prepared spells when you finish a long rest. Preparing a new list of spells requires time spent studying your spellbook: at least 1 minute per spell level for each spell on your list.
 
-#### Learning Spells
-Each time you gain an alchemist level, you can add one new transmutation or abjuration spell from the wizard spell list to your spellbook. It must be of a level for which you have spell slots. Like a wizard, you might find other spells that you can add to your spellbook. However, gold and time you must spend to copy a spell into your spellbook is halved.
-
-
-#### Spellcasting Ability
-Intelligence is your spellcasting ability for your spells, since you learn your spells through dedicated study and memorization.
-- **Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
-- **Spell attack modifier** = your proficiency bonus + your Intelligence modifier
-
-#### Spellcasting components
-All your spells gain material components and lose verbal components. The material components are stored in pre-measured doses for quick access in small vials, packets, and other containers within easy reach on your person. Where incantations or prayer cause magic to work for other spellcasters, it is the materials and science that do that for an alchemist.
+<div class="block classTable halfClassTable frame" markdown="1">
 
 ##### Transmuter Spellcasting
 
@@ -636,10 +627,20 @@ All your spells gain material components and lose verbal components. The materia
 | 19th | 3 | 4 | 3 | 3 | 1 |
 | 20th | 3 | 4 | 3 | 3 | 1 |
 
+</div>
 
 
+#### Learning Spells
+Each time you gain an alchemist level, you can add one new transmutation or abjuration spell from the wizard spell list to your spellbook. It must be of a level for which you have spell slots. Like a wizard, you might find other spells that you can add to your spellbook. However, gold and time you must spend to copy a spell into your spellbook is halved.
 
 
+#### Spellcasting Ability
+Intelligence is your spellcasting ability for your spells, since you learn your spells through dedicated study and memorization.
+- **Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
+- **Spell attack modifier** = your proficiency bonus + your Intelligence modifier
+
+#### Spellcasting components
+All your spells gain material components and lose verbal components. The material components are stored in pre-measured doses for quick access in small vials, packets, and other containers within easy reach on your person. Where incantations or prayer cause magic to work for other spellcasters, it is the materials and science that do that for an alchemist.
 
 ### Transmuter’s Stone
 Starting at 7th level, you can spend 8 hours creating a transmuter’s stone that stores transmutation magic. You can benefit from the stone yourself or give it to another creature. A creature gains a benefit of your choice as long as the stone is in the creature’s possession.
@@ -673,6 +674,9 @@ Starting at 17th level, you can use your ***action*** to consume the reserve of 
 <h1><a class="internal-link" name="internal-discovery">Discoveries</a></h1>
 
 If a discovery has prerequisites, you must meet them to learn it. You can learn the discovery at the same time that you reach its prerequisites. You can only learn a discovery once, unless otherwise specified.
+
+<img src='https://i.pinimg.com/originals/78/1a/dc/781adc9d6f97e084c7f075950f8a0775.jpg' style='float:right;width:40%;padding:20px' />
+
 
 ### Acid Bomb
 You can make bombs which spray a corrosive acid. As a ***bonus action*** when you throw a bomb, you can replace the bomb's explosive reagent with an acidic one, changing it to an acid bomb. An acid bomb deals acid damage instead of fire damage. Additionally, the target, as well as all creatures within the blast radius that fail their saving throws, take an additional 1d8 acid damage at the start of your next turn.

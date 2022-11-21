@@ -267,11 +267,7 @@ At 1st level, you choose a path that shapes the nature of your rage. Your choice
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-aquaticHunter">Aquatic Hunter</a></h1>
 
-The Path of the Aquatic Hunter is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.
-
-Barbarians from coastal and island cultures often draw on the spirit of the ocean's greatest hunters to inspire them in battle. Aquatic totems include killer whales (orca) and sharks.
-
-<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png' style="float:right;width:50%;padding:10px"/>
+<div class="featuresTable">
 
 ### Features
 
@@ -283,6 +279,13 @@ Barbarians from coastal and island cultures often draw on the spirit of the ocea
 | 10th | Oceanic Blessing |
 | 14th | Totemic Attunement |
 
+</div>
+
+The Path of the Aquatic Hunter is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.
+
+Barbarians from coastal and island cultures often draw on the spirit of the ocean's greatest hunters to inspire them in battle. Aquatic totems include killer whales (orca) and sharks.
+
+
 ### Swimmer
 When you choose this path at 1st level, you are proficient with Swimming, and always have advantage on such checks.
 
@@ -291,8 +294,7 @@ When you adopt this path at 1st level, choose a totem spirit. You must make or a
 
 You are proficient on Charisma checks against beasts. Additionally you have advantage on Charisma checks  when interacting with normal animals related to your totem spirit.
 
-
-
+<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png' style="float:right;width:50%;padding:10px"/>
 
 ### Creature of the Sea
 At 3rd level, you gain the ability to cast the *water breathing* and *speak with animals* spells, but only as rituals, and only targeting yourself.
