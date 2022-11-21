@@ -53,6 +53,27 @@
                 <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a>
               </div>
             </li>
+
+                  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Classes
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+          <a class="dropdown-item" href="/dnd/Classes/alchemist.html">Alchemist</a>
+          
+          <a class="dropdown-item" href="/dnd/Classes/barbarian.html">Barbarian</a>
+          
+          <a class="dropdown-item" href="/dnd/Classes/bard.html">Bard</a>
+          
+          <a class="dropdown-item" href="/dnd/Classes/cavalier.html">Cavalier</a>
+          
+          <a class="dropdown-item" href="/dnd/Classes/cleric.html">Cleric</a>
+          
+        </div>
+      </li>
+      
           </ul>
         </div>
       </nav>
@@ -90,52 +111,18 @@
   <h2 id="class-features">Class Features</h2>
   <p>As a alchemist, you gain the following class features.</p>
   
-  <h4 id="hit-points">Hit Points</h4>
-  <p><strong>Hit Dice:</strong> 1d8</p>
-  
-  <h4 id="proficiencies">Proficiencies</h4>
-  <p><strong>Armor:</strong> Light armor</p>
-  
-  <p><strong>Weapons:</strong> Simple weapons, thrown alchemical items</p>
-  
-  <p><strong>Saving Throws:</strong> Constitution, Intelligence</p>
-  
-  <p><strong>Skills:</strong> Check your background for skills. In addition you have proficiency with <em>Alchemist’s supplies</em> and your choice of <em>Herbalism</em> and <em>Hoisons</em>.</p>
-  
-  <h4 id="equipment">Equipment</h4>
-  <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
-  
-  <ul>
-    <li><em>(a)</em> a light crossbow and 20 bolts or <em>(b)</em> any simple weapon</li>
-    <li><em>(a)</em> an explorer’s pack or <em>(b)</em> a scholar’s pack</li>
-    <li><em>(a)</em> poisoner’s kit or <em>(b)</em> herbalism kit</li>
-    <li>alchemist’s supplies and a component pouch</li>
-    <li>leather armor and a dagger</li>
-  </ul>
-  
-  <h3 id="concoctions">Concoctions</h3>
-  <p>You learn how to create a variety of concoctions using your alchemist’s supplies. During a long rest you can prepare 2 concoctions. See <em>Rest Additions</em> for more info.</p>
-  
-  <p>You can never have more currently active concoctions than your Intelligence modifier + class level.</p>
-  
-  <p>At 1st level you can make bombs, elementary reagents, potions and poisons. At higher levels you learn to augment your concoctions and create new ones.</p>
-  
-  <p>When your concoctions call for a saving throw, its save DC is calculated as follows:</p>
-  
-  <p><strong>Alchemy save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
-  
-  <div class="block classTable frame">
+  <div class="block classTable halfClassTable frame">
   
     <h5 id="the-alchemist">The Alchemist</h5>
   
     <table>
       <thead>
         <tr>
-          <th style="text-align: center">Level</th>
-          <th style="text-align: center">Proficiency Bonus</th>
-          <th style="text-align: center">Alchemy Die</th>
-          <th style="text-align: left">Features</th>
-          <th style="text-align: center">Discoveries Known</th>
+          <th style="text-align: center">- Level -</th>
+          <th style="text-align: center">- Proficiency Bonus -</th>
+          <th style="text-align: center">- Alchemy Die -</th>
+          <th style="text-align: left">- Features -</th>
+          <th style="text-align: center">- Discoveries Known -</th>
         </tr>
       </thead>
       <tbody>
@@ -284,6 +271,42 @@
   
   </div>
   
+  <h4 id="hit-points">Hit Points</h4>
+  <p><strong>Hit Dice:</strong> 1d8</p>
+  
+  <h4 id="proficiencies">Proficiencies</h4>
+  <p><strong>Armor:</strong> Light armor</p>
+  
+  <p><strong>Weapons:</strong> Simple weapons, thrown alchemical items</p>
+  
+  <p><strong>Saving Throws:</strong> Constitution, Intelligence</p>
+  
+  <p><strong>Skills:</strong> Check your background for skills. In addition you have proficiency with <em>Alchemist’s supplies</em> and your choice of <em>Herbalism</em> and <em>Hoisons</em>.</p>
+  
+  <h4 id="equipment">Equipment</h4>
+  <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+  
+  <ul>
+    <li><em>(a)</em> a light crossbow and 20 bolts or <em>(b)</em> any simple weapon</li>
+    <li><em>(a)</em> an explorer’s pack or <em>(b)</em> a scholar’s pack</li>
+    <li><em>(a)</em> poisoner’s kit or <em>(b)</em> herbalism kit</li>
+    <li>alchemist’s supplies and a component pouch</li>
+    <li>leather armor and a dagger</li>
+  </ul>
+  
+  <h3 id="concoctions">Concoctions</h3>
+  <p>You learn how to create a variety of concoctions using your alchemist’s supplies. During a long rest you can prepare 2 concoctions. See <em>Rest Additions</em> for more info.</p>
+  
+  <p>You can never have more currently active concoctions than your Intelligence modifier + class level.</p>
+  
+  <p>At 1st level you can make bombs, elementary reagents, potions and poisons. At higher levels you learn to augment your concoctions and create new ones.</p>
+  
+  <p>When your concoctions call for a saving throw, its save DC is calculated as follows:</p>
+  
+  <p><strong>Alchemy save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier</p>
+  
+  
+
   <h4 id="bomb">Bomb</h4>
   <p>These volatile alchemical bombs are ranged weapons with the finesse and thrown (range 20/60) properties. On a hit, the target takes your alchemy die + your Intelligence modifier fire damage. All creatures within a 5 ft radius of the original target must make a Dexterity saving throw, taking half damage on a failed save and none on a successful one.</p>
   

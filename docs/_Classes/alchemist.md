@@ -7,7 +7,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-## Contents
+## Content
 ##### <a href="#internal-discovery">Discoveries</a>
 ##### <a>Fields of Study</a>
 <a href="#internal-apothecary">Apothecary</a><br>
@@ -35,6 +35,37 @@ More experienced alchemists learn to mix less volatile substances, some of which
 
 ## Class Features
 As a alchemist, you gain the following class features.
+
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Alchemist
+
+| - Level - | - Proficiency Bonus - | - Alchemy Die - | - Features - | - Discoveries Known - |
+|:-----:|:---:|:---:|:---|:---:|
+| 1st | +2 | 1d8 | Concoctions, Studious Expertise | - |
+| 2nd | +2 | 1d8 | Field of Study | - |
+| 3rd | +2 | 1d8 | Discoveries | 2 |
+| 4th | +2 | 1d8 | Ability Score Improvement | 2 |
+| 5th | +3 | 2d8 | Chemical Distillation | 3 |
+| 6th | +3 | 2d8 | Brew Potions | 3 |
+| 7th | +3 | 2d8 | Field of Study Feature | 4 |
+| 8th | +3 | 2d8 | Ability Score Improvement | 4 |
+| 9th | +4 | 2d8 | Brew Potions (improved) | 5 |
+| 10th | +4 | 2d8 | Field of Study Feature | 5 |
+| 11th | +4 | 3d8 | - | 6 |
+| 12th | +4 | 3d8 | Ability Score Improvement | 6 |
+| 13th | +5 | 3d8 | Evasion | 7 |
+| 14th | +5 | 3d8 | Brew Potions (improved) | 7 |
+| 15th | +5 | 3d8 | - | 8 |
+| 16th | +5 | 4d8 | Ability Score Improvement | 8 |
+| 17th | +6 | 4d8 | Field of Study Feature | 9 |
+| 18th | +6 | 4d8 | - | 9 |
+| 19th | +6 | 4d8 | Ability Score Improvement | 10 |
+| 20th | +6 | 4d8 | Philosopher’s Stone | 10 |
+
+</div>
+
 
 #### Hit Points
 **Hit Dice:** 1d8
@@ -68,38 +99,6 @@ When your concoctions call for a saving throw, its save DC is calculated as foll
 
 **Alchemy save DC** = 8 + your proficiency bonus + your Intelligence modifier
 
-
-
-
-
-<div class="block classTable frame" markdown="1">
-
-##### The Alchemist
-
-| Level | Proficiency Bonus | Alchemy Die | Features | Discoveries Known |
-|:-----:|:---:|:---:|:---|:---:|
-| 1st | +2 | 1d8 | Concoctions, Studious Expertise | - |
-| 2nd | +2 | 1d8 | Field of Study | - |
-| 3rd | +2 | 1d8 | Discoveries | 2 |
-| 4th | +2 | 1d8 | Ability Score Improvement | 2 |
-| 5th | +3 | 2d8 | Chemical Distillation | 3 |
-| 6th | +3 | 2d8 | Brew Potions | 3 |
-| 7th | +3 | 2d8 | Field of Study Feature | 4 |
-| 8th | +3 | 2d8 | Ability Score Improvement | 4 |
-| 9th | +4 | 2d8 | Brew Potions (improved) | 5 |
-| 10th | +4 | 2d8 | Field of Study Feature | 5 |
-| 11th | +4 | 3d8 | - | 6 |
-| 12th | +4 | 3d8 | Ability Score Improvement | 6 |
-| 13th | +5 | 3d8 | Evasion | 7 |
-| 14th | +5 | 3d8 | Brew Potions (improved) | 7 |
-| 15th | +5 | 3d8 | - | 8 |
-| 16th | +5 | 4d8 | Ability Score Improvement | 8 |
-| 17th | +6 | 4d8 | Field of Study Feature | 9 |
-| 18th | +6 | 4d8 | - | 9 |
-| 19th | +6 | 4d8 | Ability Score Improvement | 10 |
-| 20th | +6 | 4d8 | Philosopher’s Stone | 10 |
-
-</div>
 
 #### Bomb
 These volatile alchemical bombs are ranged weapons with the finesse and thrown (range 20/60) properties. On a hit, the target takes your alchemy die + your Intelligence modifier fire damage. All creatures within a 5 ft radius of the original target must make a Dexterity saving throw, taking half damage on a failed save and none on a successful one.
