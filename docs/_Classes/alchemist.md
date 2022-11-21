@@ -222,9 +222,6 @@ The philosopher’s stone also has devastating destructive potential. As a ***bo
 
 <h1><a class="internal-link" name="internal-apothecary">Apothecary</a></h1>
 
-Many practically-minded alchemists decide to assume the role of the apothecary. An adventuring party always needs a healer, and clerics might be in short supply. On their downtime, such alchemists have a marketable skill to depend upon for income. Apothecaries are constantly at work studying potions and herbology. In order to learn how to heal the body, an apothecary must learn how the body works. This often requires carving boldly upon the corpses of the dead to further understand how they behave while living.
-
-
 <div class="featuresTable">
 
 #### Class Features
@@ -238,6 +235,7 @@ Many practically-minded alchemists decide to assume the role of the apothecary. 
 
 </div>
 
+Many practically-minded alchemists decide to assume the role of the apothecary. An adventuring party always needs a healer, and clerics might be in short supply. On their downtime, such alchemists have a marketable skill to depend upon for income. Apothecaries are constantly at work studying potions and herbology. In order to learn how to heal the body, an apothecary must learn how the body works. This often requires carving boldly upon the corpses of the dead to further understand how they behave while living.
 
 ### Bonus Proficiencies
 When you select this field of study at 2nd level, you gain proficiency with Medicine. If you have access to your alchemist's supplies when making an ability check to diagnose or treat a creature, you gain advantage to the check.
