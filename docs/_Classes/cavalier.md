@@ -80,6 +80,7 @@ Members of these orders are not necessarily bound together, but some organizatio
 
 
 
+<div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Cavalier
 | Level \| | Proficiency Bonus \| | Features | Maneuvers Known \| | Superiority \| | Superiority Dice |
@@ -105,6 +106,7 @@ Members of these orders are not necessarily bound together, but some organizatio
 | 19th | +6 | Ability Score Improvement | 8 | 20 | d12 |
 | 20th | +6 | Extra Attack (3) | 8 | 20 | d12 |
 
+</div>
 
 ### Challenge
 Your dauntless fighting spirit and force of personality invokes awe in your allies and fear in the hearts of enemies.

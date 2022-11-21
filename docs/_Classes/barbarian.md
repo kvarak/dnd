@@ -42,72 +42,8 @@ As a barbarian, you gain the following class features.
 #### Hit Points
 **Hit Dice:** 1d12
 
-<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float:right;height:37%;padding:20px' />
 
-#### Proficiencies
-**Armor:** Light armor, Medium armor, Shields
-
-**Weapons:** Simple weapons, Martial weapons
-
-**Saving Throws:** Strength, Constitution
-
-
-
-#### Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
-
-- *(a)* greataxe or *(b)* any martial weapon
-- *(a)* two handaxes or *(b)* any simple weapon
-- An explorer’s pack and four javelins
-
-### Primal Path
-At 1st level, you choose a path that shapes the nature of your rage. All paths are detailed at the end of the class description. Your choice grants you features again at 3rd, 6th, 10th, and 14th levels.
-
-### Rage
-In battle, you fight with primal ferocity. On your turn, you can enter a rage as a **bonus action**. While raging, you gain the following benefits if you aren’t wearing heavy armor:
-
-* You have advantage on Strength checks and Strength saving throws.
-* When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.
-* You have resistance to bludgeoning, piercing, and slashing damage.
-
-
-
-
-
-If you are able to cast spells, you can’t cast them or concentrate on them while raging.
-
-You can rage for a maximum number of rounds as your remaining **Fury**. The rage ends if you are knocked unconscious or if your turn ends and you haven’t made any aggressive actions since your last turn. You can also end your rage as a **bonus action**.
-
-When the rage ends, reduce your current **Fury** with the number of rounds you raged for. The maximum fury for your barbarian level is shown in the **Fury** column of the Barbarian table.
-
-*See the Barbarian Rest Additions for more details.*
-
-### Unarmored Defense
-While not wearing armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.
-
-### Combat Style
-At 2nd level you can choose one of the following options: *Cleaving Blow*, *Heightened Reflexes* or *Reckless Attack*.
-
-#### Cleaving Blow
-When you reduce a creature to 0 hit points with a melee weapon attack, you can target another creature adjacent of the original target and also within your weapon's reach; if your original attack roll would also hit the second creature, any excess damage from the attack is applied to that creature.
-
-#### Heightened Reflexes
-While raging, you gain an additional reaction, but you can't use both of your reactions on the same trigger.
-
-#### Reckless Attack
-You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.
-
-### Survivor
-At 2nd level you can choose one of the following two options: *Danger Sense* or *Survival Instincts*.
-
-#### Danger Sense
-You gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger.
-
-You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated.
-
-
-
-<div class="block classTable frame" markdown="1">
+<div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Barbarian
 
@@ -136,10 +72,40 @@ You have advantage on Dexterity saving throws against effects that you can see, 
 
 </div>
 
-#### Survival Instincts
-You have learnt how to survive in the wilds and gain two of the following skills: Breaking things (doors, bars, etc.), Feats of strength (lifting things, toppling wagons, etc.), Perception, Surviving in the wilds or Tracking.
+#### Proficiencies
+**Armor:** Light armor, Medium armor, Shields
 
-Additionally you always have advantage with those skill.
+**Weapons:** Simple weapons, Martial weapons
+
+**Saving Throws:** Strength, Constitution
+
+
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+
+- *(a)* greataxe or *(b)* any martial weapon
+- *(a)* two handaxes or *(b)* any simple weapon
+- An explorer’s pack and four javelins
+
+### Primal Path
+At 1st level, you choose a path that shapes the nature of your rage. All paths are detailed at the end of the class description. Your choice grants you features again at 3rd, 6th, 10th, and 14th levels.
+
+### Rage
+In battle, you fight with primal ferocity. On your turn, you can enter a rage as a **bonus action**. While raging, you gain the following benefits if you aren’t wearing heavy armor:
+
+* You have advantage on Strength checks and Strength saving throws.
+* When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.
+* You have resistance to bludgeoning, piercing, and slashing damage.
+
+If you are able to cast spells, you can’t cast them or concentrate on them while raging.
+
+You can rage for a maximum number of rounds as your remaining **Fury**. The rage ends if you are knocked unconscious or if your turn ends and you haven’t made any aggressive actions since your last turn. You can also end your rage as a **bonus action**.
+
+When the rage ends, reduce your current **Fury** with the number of rounds you raged for. The maximum fury for your barbarian level is shown in the **Fury** column of the Barbarian table.
+
+*See the Barbarian Rest Additions for more details.*
+
 
 
 <div class="card rest">
@@ -167,6 +133,35 @@ The following class specific additions are made to the general rest rules.
 
 
 
+### Unarmored Defense
+While not wearing armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.
+
+### Combat Style
+At 2nd level you can choose one of the following options: *Cleaving Blow*, *Heightened Reflexes* or *Reckless Attack*.
+
+#### Cleaving Blow
+When you reduce a creature to 0 hit points with a melee weapon attack, you can target another creature adjacent of the original target and also within your weapon's reach; if your original attack roll would also hit the second creature, any excess damage from the attack is applied to that creature.
+
+#### Heightened Reflexes
+While raging, you gain an additional reaction, but you can't use both of your reactions on the same trigger.
+
+#### Reckless Attack
+You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.
+
+### Survivor
+At 2nd level you can choose one of the following two options: *Danger Sense* or *Survival Instincts*.
+
+#### Danger Sense
+You gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger.
+
+You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated.
+
+
+#### Survival Instincts
+You have learnt how to survive in the wilds and gain two of the following skills: Breaking things (doors, bars, etc.), Feats of strength (lifting things, toppling wagons, etc.), Perception, Surviving in the wilds or Tracking.
+
+Additionally you always have advantage with those skill.
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 
@@ -174,6 +169,8 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 
+
+<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float:left;width:25%;padding:20px' />
 
 
 
@@ -237,11 +234,7 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 
 At 1st level, you choose a path that shapes the nature of your rage. Your choice grants you features again at 3rd, 6th, 10th, and 14th levels.
 
-<<<<<<< HEAD
-<div class="columnstwo">
-=======
 <div class="columnsthree">
->>>>>>> 5214b2e998d7611f9b6b77d7a8ed8477e35f8db5
 
 - **<a href="#internal-aquaticHunter">Path of the Aquatic Hunter</a>** - This path is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. Barbarians from coastal and island cultures often draw on the spirit of the ocean's creatures to inspire them in battle.
 
@@ -276,9 +269,9 @@ At 1st level, you choose a path that shapes the nature of your rage. Your choice
 
 The Path of the Aquatic Hunter is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.
 
-<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png'/>
-
 Barbarians from coastal and island cultures often draw on the spirit of the ocean's greatest hunters to inspire them in battle. Aquatic totems include killer whales (orca) and sharks.
+
+<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png'/>
 
 ### Features
 
