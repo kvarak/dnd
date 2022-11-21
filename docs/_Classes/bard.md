@@ -194,7 +194,7 @@ Your Bardic Inspiration die changes when you reach certain levels in this class.
 
 ##### The Bard
 
-| Level \| | Proficiency Bonus \| | Features | Cantrips Known \| | Spells Known \| | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| - Level - | - Proficiency Bonus - | - Features - | - Cantrips Known - | - Spells Known - | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
 | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |1st| +2| Bard College, Bardic Inspiration (d6), Spellcasting |2|4|2|—|—|—|—|—|—|—|—|
 |2nd| +2| Bardic Song, Jack of All Trades | 2 |5 |3 |— |— |— |—|—| —| —| —|
