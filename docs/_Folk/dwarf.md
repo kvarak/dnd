@@ -347,15 +347,15 @@ If you have the *Iron* material trait, you cannot become a feyblood.
 
 <hr>
 
-
 ### Fighter
 All types of dwarves may can add the dwarven fighting style to their selection of fighting styles.
 
-{{}}">feat
+<div class="feat">
+
 ## Dwarven fighting
 You know how to use your low center of gravity to best effect in combat. You gain advantage on all rolls to avoid being moved or knocked prone, as well as your attempts to do so to an enemy. In addition, you are not penalized for moving in difficult terrain due to rocky terrain.
 
-
+</div>
 
 
 
