@@ -455,6 +455,18 @@ A dwarf swashbuckler may use the handaxe and light hammer as if they were light 
 
 <hr>
 
+<div class="infoarea" markdown="1">
+
+### On the topic of magic
+Dwarves are of two minds on the topic of magic.
+
+They view ***divine magic*** as a gift from their gods, a direct helping hand meant to aid them in their effort to follow their gods' examples. Indeed, many forms of divine magic are essential for the smooth operation of any stronghold and the continued survival of the clan. For that reason, clerics are more common among the dwarves than in other races. Dwarves who are especially devoted to the clan are believed to have a special connection to the deities, and often learn how to use that conduit to bring forth divine magic.
+
+***Arcane magic*** in all its forms is a different matter. Dwarves have no innate fear or hatred of such things, but arcane magic has no true patron among the dwarven deities. As such, the dwarves ignore it in their daily lives, and clan members who take up the practice are exceedingly rare. Using arcane magic to assist in the creation of one's works is anathema to almost all dwarves, because the act amounts to nothing more than cheating.
+
+</div>
+
+
 
 ### Warlock
 #### Dwarf-raised
@@ -479,17 +491,6 @@ A lost dwarf can not be a wizard.
 
 #### Stolen Dwarf
 No restrictions or bonuses.
-
-<div class="infoarea" markdown="1">
-
-### On the topic of magic
-Dwarves are of two minds on the topic of magic.
-
-They view ***divine magic*** as a gift from their gods, a direct helping hand meant to aid them in their effort to follow their gods' examples. Indeed, many forms of divine magic are essential for the smooth operation of any stronghold and the continued survival of the clan. For that reason, clerics are more common among the dwarves than in other races. Dwarves who are especially devoted to the clan are believed to have a special connection to the deities, and often learn how to use that conduit to bring forth divine magic.
-
-***Arcane magic*** in all its forms is a different matter. Dwarves have no innate fear or hatred of such things, but arcane magic has no true patron among the dwarven deities. As such, the dwarves ignore it in their daily lives, and clan members who take up the practice are exceedingly rare. Using arcane magic to assist in the creation of one's works is anathema to almost all dwarves, because the act amounts to nothing more than cheating.
-
-</div>
 
 
 ## <a class="internal-link" name="internal-feat">Dwarven feats</a>
@@ -555,10 +556,6 @@ The battlerager fills a particular niche in dwarf society and culture. He is a f
 Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.
 
 
-
-### Battlerager Armor
-When you choose this path, you gain the ability to use spiked armor as a weapon. While wearing spiked armor and raging, you can use a ***bonus action*** to make a melee attack with your armor spikes, dealing 1d6 piercing damage. You use your Strength modifier for the attack and damage rolls.
-
 <div class="infoarea" markdown="1">
 
 #### Spiked Armor
@@ -570,6 +567,9 @@ Spiked armor is a type of medium armor made by dwarves. It consists of a leather
  **Weight**: 45 lb.
 
 </div>
+
+### Battlerager Armor
+When you choose this path, you gain the ability to use spiked armor as a weapon. While wearing spiked armor and raging, you can use a ***bonus action*** to make a melee attack with your armor spikes, dealing 1d6 piercing damage. You use your Strength modifier for the attack and damage rolls.
 
 ### Spiky
 If you become grappled, or successfully grapple a creature, the target takes 3 piercing damage. In both cases you continue dealing this damage at the start of your turn if you are still grappled or grappling.
@@ -693,6 +693,20 @@ The elves' chaotic nature and love of the wilderness baffle the dwarves, who thi
 In particular situations, of course, the benefits of cooperating with humans or elves can override the  dwarves' concern about the shortcomings of those races. When dwarves, humans, and elves have a common enemy, they all find a way to work together for the common good.
 
 ### <a class="internal-link" name="internal-life">The Birth of a Dwarf</a>
+
+<div class="infoarea" markdown="1">
+
+#### Dwarves without guidance
+A dwarf is very vulnerable during his first days. Dwarves consider one of the worst things that could happen is if a newborn dwarf animates and there is no one there to guide him.
+
+Luckily this is extremely rare as a clan's birthing chambers are always in the most well-protected area of a stronghold. However it can still happen due to trickery or other circumstances outside the clan's control.
+
+If it happens due to natural causes, such as an earthquake separating the newborn from the rest of the clan, the dwarf, if he survives, will slowly learn how to take care of himself. However, he might never learn to speak, or know that he is a dwarf. In many cases a lost dwarf is mistaken for a living statue or a just a monster of some kind. It is said that gargoyles are originally lost dwarves.
+
+A dwarf snatched by trickery or force would be imprinted on whoever is around him the first couple of days, and could be taught whatever that person wants. The dwarves natural loyalty makes them ideal followers. However, if such a deed would happen, dwarf clans throughout the world would unite, drop whatever they are doing and make it their main priority to punish the perpetrator and reclaim the dwarf.
+
+</div>
+
 The creation of a dwarf is a long and arduous task. It is also expensive, requiring lots of precious gems, rare metal alloys and minerals. This is the main reason dwarves spend their lives mining raw materials from the earth, as well as why most other races see the dwarves as greedy, unbeknownst to them that dwarves only do this to create their progeny.
 
 The new dwarf is built from the inside out, with layers of treated stone that is delicately joined together. The actual appearance is not that important, though tradition usually makes the dwarves quite similar in build. However, there are crafters who test their limits and make nonstandard shapes, such as female-looking builds. Dwarves are usually made more or less the same size, as making them larger would be much more expensive and the common size is the minimum required to be able to breathe life in them. The most important part of the new dwarf is the soulstone, a gem that is placed inside a dwarf's head. This stone will be the seed of the dwarf's mind and soul.
@@ -710,20 +724,6 @@ When the ritual is complete, the dwarf is born. In the dwarven language the word
 A newborn dwarf looks the same as he will do for the rest of his life. They don't grow in size, with the exeption that they may gain a bit longer and more abundant hair growth. But even though he may look like a grown dwarf, he is a blank slate with no knowledge of anything, except a rudimentary understanding of the dwarven language.
 
 Guides, who are usually clerics of Berronar Truesilver, starts each dwarf's training and education as soon as the newborn opens his eyes. They guide them in their first steps, in recognizing their own body and to speak. After these very basic steps, a dwarf spends between around 6 months learning everything they need, to be a functioning member of dwarven society. This includes how to craft new dwarfs, how to use basic tools and weapons, the history and importance of the clan and about the gods.
-
-
-<div class="infoarea" markdown="1">
-
-#### Dwarves without guidance
-A dwarf is very vulnerable during his first days. Dwarves consider one of the worst things that could happen is if a newborn dwarf animates and there is no one there to guide him.
-
-Luckily this is extremely rare as a clan's birthing chambers are always in the most well-protected area of a stronghold. However it can still happen due to trickery or other circumstances outside the clan's control.
-
-If it happens due to natural causes, such as an earthquake separating the newborn from the rest of the clan, the dwarf, if he survives, will slowly learn how to take care of himself. However, he might never learn to speak, or know that he is a dwarf. In many cases a lost dwarf is mistaken for a living statue or a just a monster of some kind. It is said that gargoyles are originally lost dwarves.
-
-A dwarf snatched by trickery or force would be imprinted on whoever is around him the first couple of days, and could be taught whatever that person wants. The dwarves natural loyalty makes them ideal followers. However, if such a deed would happen, dwarf clans throughout the world would unite, drop whatever they are doing and make it their main priority to punish the perpetrator and reclaim the dwarf.
-
-</div>
 
 ### <a class="internal-link" name="internal-clan">All for One: The Clan</a>
 > *"So the barman isn't a relative, and you don't even know the names of any of the folk here? How can you possibly sleep peacefully in this inn, surrounded by strangers? We'll be lucky to see the morning."*
@@ -748,11 +748,6 @@ The third function is performed by those who navigate the space between the clan
 A dwarf assigned to a role takes years to master it. A weaponsmith starts work in the forge, providing manual labor to haul ore from the mines and learning how to repair tools. The dwarf might then work in the mines, pushing carts and learning to pick out the best ore samples from a lode. Slowly but surely, a dwarf masters every aspect of a task or an occupation from start to finish.
 
 #### Leadership and government
-A clan is led by a king who is assigned this role just like any other role in the clan. To the dwarves, leadership is a craft like any other activity, calling for careful practice and constant  attention to detail in order to yield the best, most satisfying results. While there is normally only one king, there are several princes ready to step up if needed.
-
-First, the apprenticeships expose a young prince to each part of the clan's operation and create personal ties between the apprentice and every group in the clan's society. By the time a prince takes on a leadership role, he has a clear overview of all the clan's interrelationships and has formed friendships with people from every spot on the spectrum of roles within the clan.
-
-More important, a young prince's conduct while pursuing a variety of tasks gives the elder princes a chance to assess the youth's character. Ideally, a prince who ascends to the leadership of a clan demonstrates an even temperament and an affinity for the clan's key functions. A prince who particularly enjoys fighting might become a minister of war or a general, while one who loves smithing might become an overseer of the crafters' work.
 
 <div class="infoarea" markdown="1">
 
@@ -763,14 +758,26 @@ Anthropologists have compared the dwarves to ants, where every individual does h
 
 </div>
 
+A clan is led by a king who is assigned this role just like any other role in the clan. To the dwarves, leadership is a craft like any other activity, calling for careful practice and constant  attention to detail in order to yield the best, most satisfying results. While there is normally only one king, there are several princes ready to step up if needed.
 
+First, the apprenticeships expose a young prince to each part of the clan's operation and create personal ties between the apprentice and every group in the clan's society. By the time a prince takes on a leadership role, he has a clear overview of all the clan's interrelationships and has formed friendships with people from every spot on the spectrum of roles within the clan.
+
+More important, a young prince's conduct while pursuing a variety of tasks gives the elder princes a chance to assess the youth's character. Ideally, a prince who ascends to the leadership of a clan demonstrates an even temperament and an affinity for the clan's key functions. A prince who particularly enjoys fighting might become a minister of war or a general, while one who loves smithing might become an overseer of the crafters' work.
+
+
+
+<img src='https://i.pinimg.com/originals/83/da/74/83da742dc8f707121a1e138f9fc05305.jpg' style='float:right;width:30%;padding:20px' />
 
 ### <a class="internal-link" name="internal-stronghold">One for all: The Stronghold</a>
+
 > *"I live here among my folk, and I swear that if need be I will die here atop a mountain of my enemies' corpses."*
 >
 > --King Ulaar Strongheart
 
+<!--
 <img src='https://i1.wp.com/nerdarchy.com/wp-content/uploads/2018/06/dwarf-keep-MToF.png' style='float:right;width:50%;padding:20px' />
+-->
+
 
 Every dwarf clan maintains a stronghold, typically a series of chambers dug out beneath a mountain or inside a hill. The stronghold is a haven from the chaos of the outside world , allowing the dwarves to toil in peace. The first concern of any stronghold is defense, but older and prosperous strongholds can grow to become wondrous underground cities filled with generations of exquisite dwarven artisanship.
 
@@ -799,13 +806,6 @@ The greatest treasures crafted by a clan are sequestered in the innermost chambe
 These inner precincts hold the stuff of a thief's wildest dreams. In one chamber, gold foil lines the ceiling of an immense hall, carefully worked with diamonds that mimic the stars at night. In another, jewels are used to form wondrous murals that tell of the clan's greatest deeds. A clan's feasting hall might be stocked with utensils and place settings made of silver and gold.
 
 #### Defense comes first
-Every dwarf knows instinctively that clan and stronghold are inextricably tied together - if one comes undone, the other fails as well. As such, defending the stronghold is a concern that the dwarves address even in the earliest stages of construction. They plan and then build with the goals of safety and security uppermost in mind. And the only way that a home can be truly safe and secure is if it is protected against intruders.
-
-Dwarves use a variety of approaches and devices in setting their defenses. The strongholds of many clans are honeycombed with secret passages designed to enable the dwarves to ambush and flank enemies. Dwarves also make liberal use of secret doors fashioned by dwarf artisans, slabs of stone that fit so precisely in their openings that no one but a dwarf knows how to locate and open one.
-
-Unlike some other races that guard their territory by creating features that actively deter invaders, dwarves rarely use arrow traps, pit traps, and other such measures that could cause harm to clan members. They see little sense in risking injury if a trap of that sort malfunctioned or was accidentally triggered by a dwarf. A defensive measure isn't doing its job if it ends up hurting those it was meant to protect.
-
-
 
 <div class="infoarea" markdown="1">
 
@@ -817,6 +817,14 @@ Relations between neighboring clans are cordial, if not warm. They might exchang
 Circumstances cease to be normal when a clan faces an external threat. When word gets out that one of their own is in danger, dwarves of other clans rally against the threat without question. The standoffish diplomacy that marks their normal relations gives way to an unshakable alliance. An attack on one dwarf clan is an attack against them all.
 
 </div>
+
+Every dwarf knows instinctively that clan and stronghold are inextricably tied together - if one comes undone, the other fails as well. As such, defending the stronghold is a concern that the dwarves address even in the earliest stages of construction. They plan and then build with the goals of safety and security uppermost in mind. And the only way that a home can be truly safe and secure is if it is protected against intruders.
+
+Dwarves use a variety of approaches and devices in setting their defenses. The strongholds of many clans are honeycombed with secret passages designed to enable the dwarves to ambush and flank enemies. Dwarves also make liberal use of secret doors fashioned by dwarf artisans, slabs of stone that fit so precisely in their openings that no one but a dwarf knows how to locate and open one.
+
+Unlike some other races that guard their territory by creating features that actively deter invaders, dwarves rarely use arrow traps, pit traps, and other such measures that could cause harm to clan members. They see little sense in risking injury if a trap of that sort malfunctioned or was accidentally triggered by a dwarf. A defensive measure isn't doing its job if it ends up hurting those it was meant to protect.
+
+
 
 ### <a class="internal-link" name="internal-religion">Dwarven Religion</a>
 
@@ -964,11 +972,6 @@ A dwarf's biology is very different from most other living creatures, mostly due
 
 
 #### The Brain
-The body of a dwarf has no other organs than the "*brain*" that originated from the soulstone. It is located in the head, with a root-like system of fibers that span the whole body. In many places these fibers peek out from the body. What most humanoids think is hair and beard is actually a visible, but tougher part of the "*brain system*".
-
-These outside fibers are necessary, as they allow a dwarf to absorb oxygen. This means that the dwarf "breathes" through many parts of the body, although mainly the head. A side effect is that a dwarf cannot be strangled, but an air tight bag over its head would still choke it.
-
-The color of the whole system is dependent on the minerals used in creating the dwarf. There is no blood in a dwarf body, but the fibers contain a viscious fluid, the same color as the fibers, which might get spilt if the dwarf is wounded.
 
 <div class="infoarea" markdown="1">
 
@@ -978,6 +981,12 @@ Some anthropologists argue that the brain inside a dwarf is actually the dwarf. 
 Others counter that the relationship is the same for humans; a human brain cannot live by its own outside a human body.
 
 </div>
+
+The body of a dwarf has no other organs than the "*brain*" that originated from the soulstone. It is located in the head, with a root-like system of fibers that span the whole body. In many places these fibers peek out from the body. What most humanoids think is hair and beard is actually a visible, but tougher part of the "*brain system*".
+
+These outside fibers are necessary, as they allow a dwarf to absorb oxygen. This means that the dwarf "breathes" through many parts of the body, although mainly the head. A side effect is that a dwarf cannot be strangled, but an air tight bag over its head would still choke it.
+
+The color of the whole system is dependent on the minerals used in creating the dwarf. There is no blood in a dwarf body, but the fibers contain a viscious fluid, the same color as the fibers, which might get spilt if the dwarf is wounded.
 
 #### The Body
 Even though the body of a dwarf was originally stone, it softens up during the birth ritual, to allow for the body to animate and move properly. The flesh is dense and resembles tightly packed flesh. The color is similar to the span of humankind skin colors, with the original stone composition deciding the actual color.
