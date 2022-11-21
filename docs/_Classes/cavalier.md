@@ -353,15 +353,11 @@ At 18th level, whenever you use Challenge, Battlefield Inspiration or Bolstering
 
 The cavaliers of the order of the blue rose dedicate themselves to promoting peace in the lands they roam. Skilled warriors and adept diplomats, these cavaliers counsel wisdom, patience, and understanding, but are ever mindful of the need to take up arms to strike down aggressors, tyrants, or evil usurpers. Although they believe wholeheartedly in peace as an aim and a final goal, cavaliers of the blue rose are warriors first, and embrace their role as guardians of those who cannot or will not take up arms to defend themselves.
 
-<div class="descriptive" markdown="1">
-
-#### Edicts
+### Edicts
 Cavaliers of the Blue Rose share the following edicts.
 * The cavalier must guard against needless violence, protecting both the land and its people from wars they neither started nor wish to fight.
 * He must seek to stop conflict with a minimum of bloodshed, to encourage peaceful resolutions to disagreements between intelligent creatures, and to mend the wounds opened by battle.
 * He must also honor quarter when he gives it, protecting captives who have surrendered from his own allies if need be.
-
-</div>
 
 ### Bonus Proficiency
 You gain proficiency with the History and Diplomacy skills.
@@ -420,14 +416,10 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 Cavaliers belonging to the order of the dragon dedicate themselves to a group of like-minded individuals, be it a mercenary company or a small band of adventurers. These cavaliers believe in loyalty and friendship, and are willing to lay down their lives to protect their allies.
 
-<div class="descriptive" markdown="1">
-
-#### Edicts
+### Edicts
 Cavaliers of the Dragon share the following edicts.
 * The cavalier must remain loyal to his allies and must always work to further the aims of the group.
 * He must protect his allies from harm and defend their honor when called into doubt.
-
-</div>
 
 ### Bonus Proficiency
 You gain proficiency with the Survival skill.
@@ -479,15 +471,11 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 A cavalier of the order of the flame devotes his life to the pursuit of personal glory. Even if such pursuit puts his own life on the line, the cavalier pursues legendary status and the fame and glory associated with such renown.
 
-<div class="descriptive" markdown="1">
-
-#### Edicts
+### Edicts
 Cavaliers of the Flame share the following edicts.
 * The cavalier must pursue glory for himself and those with whom he associates.
 * He must strive to heap glory upon his name, no matter the costs.
 * He must challenge and defeat an ever-increasing host of rivals to further cement his illustrious reputation.
-
-</div>
 
 ### Bonus Proficiency
 You gain proficiency with the Survival skill and on checks made to spread the glory of your deeds.
@@ -537,15 +525,11 @@ At 18th level, you can, as a ***bonus action***, declare a moment of triumph. Un
 
 A cavalier who belongs to this order has pledged himself to a sovereign; be it a king, queen, or even the local warlord. Cavaliers of this order are stalwart and dedicated to their cause, willing to go any length to ensure the safety of their lord and his domain.
 
-<div class="descriptive" markdown="1">
-
-#### Edicts
+### Edicts
 Cavaliers of the Lion share the following edicts.
 * The cavalier must protect the life and lands of his sovereign at all costs.
 * He must obey the commands of his sovereign without question.
 * He must strive to expand the power and prestige of his realm.
-
-</div>
 
 ### Bonus Proficiency
 You may add your proficiency bonus on all checks regarding how to act among nobility.
@@ -597,17 +581,13 @@ Truth is the most sacred of all ideals. The order of the scales cavalier safegua
 
 Members of this cavalier order serve the cause of legal integrity. Many order of the scales cavaliers track down and apprehend fleeing lawbreakers so that these vagrants may answer for their crimes and make good on their debts. They often serve as judges or stakeholders, and work to ensure that wherever a bargain is made—whether it is monetary, a life debt, or an oath to be upheld—both ends make good on their promises.
 
-<div class="descriptive" markdown="1">
-
-#### Edicts
+### Edicts
 Cavaliers of the Scales share the following edicts.
 * The cavalier is not allowed to deliberately speak any lies, including bluffing, stating half-truths with the intent to deceive, exaggerating, telling white lies, and so on.
 * The cavalier must fulfill all binding agreements he makes.
 * If a bargain becomes impossible to fulfill, he must satisfactorily compensate all aggrieved or adversely affected parties involved in the bargain.
 * When serving as a judge or arbiter, the cavalier must make fair, impartial judgments, and if unable to do so, must recuse himself at the earliest possibility.
 * If authorized to enforce an agreement, the cavalier must wholeheartedly strive to accomplish this, remaining unswayed by threats, bribery, and other deterrents.
-
-</div>
 
 ### Bonus Proficiency
 You gain proficiency with the Insight skill and on all checks concerning the law and contracts.
@@ -657,14 +637,12 @@ At 18th level, you can tell if people are lying around you. As an ***action*** y
 
 Cavaliers who join the order of the shield devote their lives to protecting the common folk, from the simple farmer to the honest craftsman. These cavaliers stand before the tide, protecting the innocent from roving marauders and hungry monsters.
 
-<div class="descriptive" markdown="1">
+### Edicts
 
 Cavaliers of the Shield share the following edicts.
 * The cavalier must protect the lives and prosperity of the common folk, shielding them from the deprivations of those who would seek to cause them harm or exploit them.
 * He must give charity when it is warranted and aid when needed.
 * He must take no action that would cause harm or hardship to those who cannot defend themselves.
-
-</div>
 
 ### Bonus Proficiency
 You may add your proficiency bonus on all Charisma checks when interacting with common people.
@@ -718,14 +696,10 @@ At 18th level, you can move to intercept foes. When a foe makes an action, as a 
 
 Cavaliers who join the order of the star dedicate themselves to the protection and service of a faith and its members. Cavaliers belonging to this order tend to follow many of the tenets and guides of the religion that they serve. When a cavalier joins this order, he should select a single religion to serve.
 
-<div class="descriptive" markdown="1">
-
-#### Edicts
+### Edicts
 Cavaliers of the Star share the following edicts.
 * The cavalier must strive to protect the faith and all those who follow its teachings, from priest to common man.
 * He must adhere to the strictures of the faith, promote its cause whenever possible, and serve the agents of the divine.
-
-</div>
 
 ### Bonus Proficiency
 You gain proficiency with the Religion skill.
