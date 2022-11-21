@@ -216,8 +216,8 @@ details {
 .classTable.frame {
   margin-left: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 0px;
+  margin-bottom: 25px;
+  margin-right: 25px;
   border-collapse: separate;
   background-color: white;
   border: initial;
