@@ -237,7 +237,11 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 
 At 1st level, you choose a path that shapes the nature of your rage. Your choice grants you features again at 3rd, 6th, 10th, and 14th levels.
 
+<<<<<<< HEAD
 <div class="columnstwo">
+=======
+<div class="columnsthree">
+>>>>>>> 5214b2e998d7611f9b6b77d7a8ed8477e35f8db5
 
 - **<a href="#internal-aquaticHunter">Path of the Aquatic Hunter</a>** - This path is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. Barbarians from coastal and island cultures often draw on the spirit of the ocean's creatures to inspire them in battle.
 
@@ -841,30 +845,21 @@ At 14th level, your tattoos are strong enough that they protect you from the out
 ### Tattoos
 You only gain the benefits of a tattoo for the duration of your rage. If a tattoo mimics the effects of a spell, the effect cannot be dispelled.
 
+<div class="columns">
 
-**Bat**. You can glide on the wind like a graceful bat. You are under the effects of the *feather fall* spell for the duration of your rage.
+- **Bat**. You can glide on the wind like a graceful bat. You are under the effects of the *feather fall* spell for the duration of your rage.
+- **Bull**. You take on the powerful shoving capabilities of the bull. You can replace one of your attacks during your attack action with a shove and instead of forcing them back 5 feet, you force them back 10 feet.
+- **Monkey**. Your grip is as tight as that of a monkey. You can use the larger die of a versatile weapon while wielding it in one hand.
+- **Panther**. Your leaps are as powerful of a pouncing panther. You add half of your barbarian level to the distance of your long jumps, and you add your rage damage bonus to the height of your high jumps.
+- **Lion**. Your bravery matches that of a lion. You cannot be frightened for the duration of your rage. If you are frightened before you are raging, raging only suppresses the effects until the end of your rage.
+- **Porcupine**. Sharp spines from a porcupine form on your body. As a reaction to a creature within 5 feet of yourself making a melee attack on yourself, you can deal piercing damage to the creature equal to 1d4 + half of your barbarian level.
+- **Snake**. You can identify critical weaknesses in a creature’s defenses. You have advantage on opportunity attacks.
+- **Shark**. Your teeth sharpen like the teeth of a shark. Your unarmed strikes deal 1d6 piercing damage, and count as magical for the purpose of overcoming immunity and resistance.
+- **Spider**. You can cling to walls as easily as a spider as if under the effects of  *spider climb*.
+- **Turtle**. You are as defensive as a turtle. If not wielding a shield, your armor class increases by 2.
+- **Wolf**. When you use your Reckless Attack feature, you can choose one willing creature with 5 feet of yourself. That creature gains the benefits and downsides of your Reckless Attack feature until the start of your next turn.
 
-**Bull**. You take on the powerful shoving capabilities of the bull. You can replace one of your attacks during your attack action with a shove and instead of forcing them back 5 feet, you force them back 10 feet.
-
-**Monkey**. Your grip is as tight as that of a monkey. You can use the larger die of a versatile weapon while wielding it in one hand.
-
-**Panther**. Your leaps are as powerful of a pouncing panther. You add half of your barbarian level to the distance of your long jumps, and you add your rage damage bonus to the height of your high jumps.
-
-**Lion**. Your bravery matches that of a lion. You cannot be frightened for the duration of your rage. If you are frightened before you are raging, raging only suppresses the effects until the end of your rage.
-
-**Porcupine**. Sharp spines from a porcupine form on your body. As a reaction to a creature within 5 feet of yourself making a melee attack on yourself, you can deal piercing damage to the creature equal to 1d4 + half of your barbarian level.
-
-**Snake**. You can identify critical weaknesses in a creature’s defenses. You have advantage on opportunity attacks.
-
-**Shark**. Your teeth sharpen like the teeth of a shark. Your unarmed strikes deal 1d6 piercing damage, and count as magical for the purpose of overcoming immunity and resistance.
-
-**Spider**. You can cling to walls as easily as a spider as if under the effects of  *spider climb*.
-
-**Turtle**. You are as defensive as a turtle. If not wielding a shield, your armor class increases by 2.
-
-**Wolf**. When you use your Reckless Attack feature, you can choose one willing creature with 5 feet of yourself. That creature gains the benefits and downsides of your Reckless Attack feature until the start of your next turn.
-
-
+</div>
 
 
 <hr class="classdivider">
@@ -1233,36 +1228,32 @@ Starting at 14th level, your voice booms with such incredible authority that eve
 Additionally, the range of your War Song increases to 30 feet, and when you issue a battle cry, you can choose a creature within 60 feet that can hear you as the target for the battle cry’s effects.
 
 ## Battle Cries
-**Bolstering Yip**. Until the start of your next turn, the target has advantage on saving throws against being charmed or frightened.
 
-**Cautionary Bellow**. The target has advantage on the first Strength, Dexterity, or Constitution saving throw it makes before the start of your next turn.
+<div class="columnsthree">
 
-**Challenging Call**. The target can use its movement only to move closer to you during its next turn. The creature can choose not to move. This battle cry has no effect on a creature immune to being charmed.
+- **Bolstering Yip**. Until the start of your next turn, the target has advantage on saving throws against being charmed or frightened.
 
-**Defensive Holler**. The first attack made against the target before the start of your next turn is made with disadvantage.
+- **Cautionary Bellow**. The target has advantage on the first Strength, Dexterity, or Constitution saving throw it makes before the start of your next turn.
 
-**Empowering Howl**. The first time the target hits with a weapon attack before the start of your next turn, it gains a bonus to the damage roll equal to your Charisma modifier (minimum 1).
+- **Challenging Call**. The target can use its movement only to move closer to you during its next turn. The creature can choose not to move. This battle cry has no effect on a creature immune to being charmed.
 
-**Hastening Whoop**. The target can use its reaction to move up to half its speed. If this movement provokes an opportunity attack, the attack roll is made with disadvantage.
+- **Defensive Holler**. The first attack made against the target before the start of your next turn is made with disadvantage.
 
-**Infuriating Bark**. The target has disadvantage on attack rolls against targets other than you until the start of your next turn. This battle cry has no effect on a creature immune to being charmed.
+- **Empowering Howl**. The first time the target hits with a weapon attack before the start of your next turn, it gains a bonus to the damage roll equal to your Charisma modifier (minimum 1).
 
+- **Hastening Whoop**. The target can use its reaction to move up to half its speed. If this movement provokes an opportunity attack, the attack roll is made with disadvantage.
 
+- **Infuriating Bark**. The target has disadvantage on attack rolls against targets other than you until the start of your next turn. This battle cry has no effect on a creature immune to being charmed.
 
+- **Inspiring Roar**. The first time the target makes an attack roll or ability check before the start of your next turn, it can roll a d4 and add the number rolled to the attack roll or ability check.
 
+- **Invigorating Shout**. The target gains temporary hit points equal 1d6 + your Charisma modifier (minimum 1). It loses any of these remaining temporary hit points at the start of your next turn.
 
+- **Maddening Ululation**. The target has advantage on the first melee weapon attack it makes before the start of your next turn, and the first attack made against it before then by a creature other than you is made with advantage. This battle cry has no effect on a creature immune to being charmed.
 
+- **Terrifying Shriek**. The target can’t willingly move closer to you during its next turn. This battle cry has no effect on a creature immune to being frightened.
 
-
-
-**Inspiring Roar**. The first time the target makes an attack roll or ability check before the start of your next turn, it can roll a d4 and add the number rolled to the attack roll or ability check.
-
-**Invigorating Shout**. The target gains temporary hit points equal 1d6 + your Charisma modifier (minimum 1). It loses any of these remaining temporary hit points at the start of your next turn.
-
-**Maddening Ululation**. The target has advantage on the first melee weapon attack it makes before the start of your next turn, and the first attack made against it before then by a creature other than you is made with advantage. This battle cry has no effect on a creature immune to being charmed.
-
-**Terrifying Shriek**. The target can’t willingly move closer to you during its next turn. This battle cry has no effect on a creature immune to being frightened.
-
+</div>
 
 
 

@@ -244,27 +244,25 @@ When you select this class, you must pledge yourself to a specific order. The or
 
 Members of these orders are not necessarily bound together, but some organizations do exist that are comprised of cavaliers that all belong to one specific order.
 
- **<a href="#internal-knightErrant">Knight Errant</a>**. Brave mercenary warriors who wander the land to show off their combat prowess and help those in need.
+<div class="columnsthree">
 
- **<a href="#internal-blueRose">Order of the Blue Rose</a>**. Diplomatic knights that dedicate themselves to promoting peace.
+- **<a href="#internal-knightErrant">Knight Errant</a>**. Brave mercenary warriors who wander the land to show off their combat prowess and help those in need.
 
- **<a href="#internal-dragon">Order of the Dragon</a>**. These cavaliers value loyalty and friendship, often in a group of like-minded individuals.
+- **<a href="#internal-blueRose">Order of the Blue Rose</a>**. Diplomatic knights that dedicate themselves to promoting peace.
 
- **<a href="#internal-flame">Order of the Flame</a>**. Knights that devote their lives to the pursuit of personal glory.
+- **<a href="#internal-dragon">Order of the Dragon</a>**. These cavaliers value loyalty and friendship, often in a group of like-minded individuals.
 
- **<a href="#internal-lion">Order of the Lion</a>**. An order that pledges themselves to a sovereign; be it a king, queen, or even the local warlord.
+- **<a href="#internal-flame">Order of the Flame</a>**. Knights that devote their lives to the pursuit of personal glory.
 
- **<a href="#internal-scales">Order of the Scales</a>**. The order of the scales safeguards the truth in all its forms, punishing liars, cheaters, and traitors.
+- **<a href="#internal-lion">Order of the Lion</a>**. An order that pledges themselves to a sovereign; be it a king, queen, or even the local warlord.
 
- **<a href="#internal-shield">Order of the Shield</a>**. Cavaliers that devote their lives to protecting the common folk.
+- **<a href="#internal-scales">Order of the Scales</a>**. The order of the scales safeguards the truth in all its forms, punishing liars, cheaters, and traitors.
 
- **<a href="#internal-star">Order of the Star</a>**. The order of the star dedicate themselves to the protection and service of a faith and its members.
+- **<a href="#internal-shield">Order of the Shield</a>**. Cavaliers that devote their lives to protecting the common folk.
 
+- **<a href="#internal-star">Order of the Star</a>**. The order of the star dedicate themselves to the protection and service of a faith and its members.
 
-
-
-
-
+</div>
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-knightErrant">Knight Errant</a></h1>
