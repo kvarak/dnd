@@ -237,36 +237,35 @@ Rage burns in every barbarian's heart, a furnace that drives him or her toward g
 
 At 1st level, you choose a path that shapes the nature of your rage. Your choice grants you features again at 3rd, 6th, 10th, and 14th levels.
 
-**<a href="#internal-aquaticHunter">Path of the Aquatic Hunter</a>** - This path is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. Barbarians from coastal and island cultures often draw on the spirit of the ocean's creatures to inspire them in battle.
+<div class="columnstwo">
 
-**<a href="#internal-berserker">Path of the Berserker</a>** - The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
+- **<a href="#internal-aquaticHunter">Path of the Aquatic Hunter</a>** - This path is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. Barbarians from coastal and island cultures often draw on the spirit of the ocean's creatures to inspire them in battle.
 
-**<a href="#internal-courageousHeart">Path of the Courageous Heart</a>** - An intrepid do-gooder, whose impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer.
+- **<a href="#internal-berserker">Path of the Berserker</a>** - The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
-**<a href="#internal-defender">Path of the Defender</a>** - Barbarian that has assumed the responsibility of safekeeping a bondmate. This can be people of importance, like a traveling priest, a tribe's shaman or elder, and so on, but just as often they simply form a bond with someone they either care for or share a common goal with, like a sibling or fellow adventurer.
+- **<a href="#internal-courageousHeart">Path of the Courageous Heart</a>** - An intrepid do-gooder, whose impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer.
 
-**<a href="#internal-hurler">Path of the Hurler</a>** - Some barbarians follow this path for the simplistic and primal joy of seeing a thrown axe or hammer smash the skull of their quarry. But why stop there when you can throw logs, rocks or even enemies.
+- **<a href="#internal-defender">Path of the Defender</a>** - Barbarian that has assumed the responsibility of safekeeping a bondmate. This can be people of importance, like a traveling priest, a tribe's shaman or elder, and so on, but just as often they simply form a bond with someone they either care for or share a common goal with, like a sibling or fellow adventurer.
 
+- **<a href="#internal-hurler">Path of the Hurler</a>** - Some barbarians follow this path for the simplistic and primal joy of seeing a thrown axe or hammer smash the skull of their quarry. But why stop there when you can throw logs, rocks or even enemies.
 
+- **<a href="#internal-juggernaut">Path of the Juggernaut</a>** - These barbarians are an unstoppable force on the battlefield.
 
+- **<a href="#internal-marauder">Path of the Marauder</a>** -  A leader who leads from the front, who knows the strengths of his allies and deploys them where they will be the most effective.
 
-**<a href="#internal-juggernaut">Path of the Juggernaut</a>** - These barbarians are an unstoppable force on the battlefield.
+- **<a href="#internal-earthWarden">Path of Nature's Warden</a>** - Barbarians who follow an ancient tradition rooted in powerful druidic magic.
 
-**<a href="#internal-marauder">Path of the Marauder</a>** -  A leader who leads from the front, who knows the strengths of his allies and deploys them where they will be the most effective.
+- **<a href="#internal-paintedWarrior">Path of the Painted Warrior</a>** - Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world.
 
-**<a href="#internal-earthWarden">Path of Nature's Warden</a>** - Barbarians who follow an ancient tradition rooted in powerful druidic magic.
+- **<a href="#internal-sacrifice">Path of the Sacrifice</a>** - Everyone dies, but your death was written in the stars themselves. You are going to die, and your death is going to mean something. You scream with rage because your life means more than just an ending. When the time comes, you will be waiting, bloodstained weapon in hand.
 
-**<a href="#internal-paintedWarrior">Path of the Painted Warrior</a>** - Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world.
+- **<a href="#internal-totemWarrior">Path of the Totem Warrior</a>** - The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration.
 
-**<a href="#internal-sacrifice">Path of the Sacrifice</a>** - Everyone dies, but your death was written in the stars themselves. You are going to die, and your death is going to mean something. You scream with rage because your life means more than just an ending. When the time comes, you will be waiting, bloodstained weapon in hand.
+- **<a href="#internal-warChief">Path of the War Chief</a>** - Leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
 
-**<a href="#internal-totemWarrior">Path of the Totem Warrior</a>** - The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration.
+- **<a href="#internal-zealot">Path of the Zealot</a>** - Religious warriors who channel their rage into powerful displays of divine power.
 
-**<a href="#internal-warChief">Path of the War Chief</a>** - Leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
-
-**<a href="#internal-zealot">Path of the Zealot</a>** - Religious warriors who channel their rage into powerful displays of divine power.
-
-
+</div>
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-aquaticHunter">Aquatic Hunter</a></h1>

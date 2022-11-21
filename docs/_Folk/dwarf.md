@@ -78,33 +78,19 @@ Your dwarf character has an assortment of inborn abilities.
 <div class="columns">
 
 - **Ability Score Increase**. Your Constitution score, both current and maximum, increases by 2, while your Dexterity score, both current and maximum, is reduced by 2.
-
 - **Age**. Dwarves are created fully mature, although it takes a few months to reach mental maturity. On average, they live about 500 years, during which they do not suffer any negative effects from aging.
-
 - **Speed**. Your base speed is 25 feet. Your speed is not reduced by wearing heavy armor.
-
 - **Dense**. Your dense body does not really help when swimming. You have disadvantage on all swimming check
-
 - **Dwarven Toughness**. Your hit point maximum increases by 1, and it increases by 1 every time you gain a level. In addition you have advantage on saving throws against disease and poison, and you have resistance against poison damage.
-
 - **Low-light Vision**. Created for life underground, you have superior vision. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
-
 - **Powerful Build**. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
-
 - **Reduced Nutritional Needs**. You only require half the amount of food.
-
 - **Stonecunning**. The dwarves wwer born from stone, and can hear its whispers echo through their mind, speaking of ancient mysteries. Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient with the History skill and have advantage on the check.
-
 - **Stoneform**. Even though you are not really made of stone, your physiology is completely different from humans, with almost no organs, and a thick, viscous "blood" of the same color as your hair. You have resistance to piercing damage and you can use a ***reaction*** to negate a critical hit against you, making it a regular hit.
-
   In addition, it is easier to stop your bleeding. All checks made to stabilize you, or stop bleeding have advantage.
-
 - **Stubborn as Stone**. Even though dwarves can be charmed and controlled, their stubborn and alien nature makes it hard to make them go against their traditions. A charmed, dominated, possessed or otherwise controlled dwarf who is given a command that goes against his normal behavior, gains a new save with advantage to end the effect.
-
 - **Culture Traits**. In addition to the racial traits, a dwarf has some traits depending on where it spent the first months of its life, see sidebar at "<a href="#internal-life">*The Birth of a Dwarf*</a>" for more information. You can choose from the following background: dwarf-raised, lost and stolen.
-
 - **Mineral Abundance**. Each dwarf is different in their exact composition of minerals and metal. In some cases there is an excess of one type, which may cause a dwarf to exhibit some extraordinary traits.
-
   #####
   | d20 | Material |
   |:---:|:---------|
