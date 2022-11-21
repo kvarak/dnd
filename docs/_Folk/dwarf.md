@@ -11,8 +11,10 @@ layout: default
 <a href="#internal-traits">Traits</a><br/>
 <a href="#internal-class">Class options</a><br/>
 <a href="#internal-feat">Feats</a><br/>
+<br/>
 **Dwarf class archetypes**<br/>
 <a href="#internal-battleRager">Barbarian Path of the Battlerager</a><br/>
+<br/>
 **<a href="#internal-race">About the Dwarven Race</a>**<br/>
 <a href="#internal-path">The Path to Perfection</a><br/>
 <a href="#internal-life">The Birth of a Dwarf</a><br/>
@@ -357,16 +359,12 @@ You know how to use your low center of gravity to best effect in combat. You gai
 
 </div>
 
-
-
-
-
-
-
 #### Dwarf-raised
 All Dwarf-raised learn how to fight, but a dwarf fighter has specifically been assigned to continue this role, and improve their martial skills even more.
 
 If you have the Dwarven fighting style, and wield an axe, pick or hammer, then whenever the class description mentions your Strength modifier, you may instead use your proficiency bonus. This also applies to attack and damage rolls.
+
+<hr>
 
 ### Inquisitor
 
@@ -382,7 +380,6 @@ A dwarf can not become this class, mostly due to the monster hunter's reliance o
 -->
 
 <hr>
-
 
 ### Paladin
 All dwarven paladins can add the Dwarven fighting style to their selection of fighting styles (see the fighter entry above).
@@ -492,21 +489,23 @@ They view ***divine magic*** as a gift from their gods, a direct helping hand me
 
 ***Arcane magic*** in all its forms is a different matter. Dwarves have no innate fear or hatred of such things, but arcane magic has no true patron among the dwarven deities. As such, the dwarves ignore it in their daily lives, and clan members who take up the practice are exceedingly rare. Using arcane magic to assist in the creation of one's works is anathema to almost all dwarves, because the act amounts to nothing more than cheating.
 
-
+</div>
 
 
 ## <a class="internal-link" name="internal-feat">Dwarven feats</a>
 The following feats are exclusive to dwarves.
 
-{{}}">feat
+<div class="feat">
+
 ## Dwarven Piety
 Dwarves revere Moradin as the Dwarf-father. He smiles on dwarves who do good work in the world, and grants them his favor.
 
 - Increase your Wisdom by 1, to a maximum of 20.
 - You learn the *divine favor*, *sanctuary*, and *prayer of healing* spells, and can cast each once without expending a spell slot, regaining the ability to cast them in this way after a long rest. Wisdom is your spellcasting modifier for these spells.
 
+</div>
+<div class="feat">
 
-{{}}">feat
 ## Dwarven Resilience
 You have the soul of dwarf heroes flowing through you.
 - Increase your **Constitution** by 1.
@@ -514,7 +513,9 @@ You have the soul of dwarf heroes flowing through you.
 - You can use your ***reaction*** upon being hit by a weapon attack to give yourself resistance towards bludgeoning, piercing, or slashing damage until the start of your next turn. You must then finish a long rest to use this feature again.
 
 
-{{}}">feat
+</div>
+<div class="feat">
+
 ## Dwarven Stubbornness
 Dwarves are renowned for their stubbornness, but you are even more stubborn than most.
 - Increase your **Wisdom** by 1.
@@ -523,13 +524,25 @@ Dwarves are renowned for their stubbornness, but you are even more stubborn than
 
 
 
+</div>
 
-
-
-
-
+<hr class="classdivider">
 
 # <a class="internal-link" name="internal-battleRager">Path of the Battle Rager</a>
+
+<div class="featuresTable">
+
+#### Path Features
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Battlerager Armor |
+| 3rd | Spiky |
+| 6th | Reckless Abandon |
+| 10th | Battlerager Charge |
+| 14th | Spiked Retribution |
+
+</div>
+
 Dwarven battleragers, or *Kuldjargh* (“axe idiots”), are legendary berserker warriors who can enter a battle frenzy through ritualistic singing. They are believed to have been touched by the dwarven gods of battle, who taught them that if they die in battle, they will be reincarnated stronger than before as a just reward. Therefore, they have no fear of death. Most live short, glorious lives.
 
 Battleragers command grudging, if fearful, respect within dwarven society, where they are known to have coined such philosophically complex dwarven maxims like “head first” and “if it moves, kill it.”
@@ -542,17 +555,6 @@ The battlerager fills a particular niche in dwarf society and culture. He is a f
 Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.
 
 
-#### Path Features
-| Barbarian Level | Feature |
-| :-: | :--- |
-| 1st | Battlerager Armor |
-| 3rd | Spiky |
-| 6th | Reckless Abandon |
-| 10th | Battlerager Charge |
-| 14th | Spiked Retribution |
-
-
-
 
 ### Battlerager Armor
 When you choose this path, you gain the ability to use spiked armor as a weapon. While wearing spiked armor and raging, you can use a ***bonus action*** to make a melee attack with your armor spikes, dealing 1d6 piercing damage. You use your Strength modifier for the attack and damage rolls.
@@ -561,11 +563,13 @@ When you choose this path, you gain the ability to use spiked armor as a weapon.
 
 #### Spiked Armor
 Spiked armor is a type of medium armor made by dwarves. It consists of a leather coat and leggings covered with metal spikes.
- **Cost**: 75 gp
- **AC**: 14 + Dexterity modifier (max 2)
- **Stealth**: Disadvantage
+
+ **Cost**: 75 gp<br/>
+ **AC**: 14 + Dexterity modifier (max 2)<br/>
+ **Stealth**: Disadvantage<br/>
  **Weight**: 45 lb.
 
+</div>
 
 ### Spiky
 If you become grappled, or successfully grapple a creature, the target takes 3 piercing damage. In both cases you continue dealing this damage at the start of your turn if you are still grappled or grappling.
@@ -583,14 +587,13 @@ When an adjacent creature hits you with a melee attack, the attacker takes 3 pie
 
 
 
+<hr class="classdivider">
 
 
 
 # <a class="internal-link" name="internal-quakeBringer">Path of the Quake Bringer</a>
-To match the grand fury and power of an earthquake or avalanche, barbarians of the Path of the Quake Bringer channel primal power, drawing on the element of earth when they rage to turn their body to stone. These warriors test their strength by smashing boulders and leaping chasms. In battle, they embody the earthquake itself, leaving craters, rubble, and terror in their rumbling wake.
 
-Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of dwarves, goliath, or firbolgs. Earth genasi can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.
-
+<div class="featuresTable">
 
 #### Path Features
 | Barbarian Level | Feature |
@@ -601,6 +604,11 @@ Quake bringers often come from cultures connected to the earth (especially if th
 | 10th | Cliff Running
 | 14th | Seismic Smash
 
+</div>
+
+To match the grand fury and power of an earthquake or avalanche, barbarians of the Path of the Quake Bringer channel primal power, drawing on the element of earth when they rage to turn their body to stone. These warriors test their strength by smashing boulders and leaping chasms. In battle, they embody the earthquake itself, leaving craters, rubble, and terror in their rumbling wake.
+
+Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of dwarves, goliath, or firbolgs. Earth genasi can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.
 
 ### Earthen
 You cannot be petrified, and when you are pushed or pulled, you can reduce the distance you are moved by up to 5 feet.
@@ -635,6 +643,7 @@ Once you use this feature, you can't use it again until you finish a short rest.
 
 
 
+<hr class="classdivider">
 
 
 
@@ -646,15 +655,19 @@ To the dwarves, Moradin is the Creator. With his impeccable skills, he crafted t
 Moradin is also worshiped as the All-Father, in acknowledgment of his role as the progenitor of the dwarven race. In this aspect as well, he is credited not only for the birth of the dwarves but for fostering in them a deep appreciation for their clan. He demonstrates how dwarfs should be raised, instilling in them the urge to further not only themselves but to contribute to the success of the larger group. Just as Moradin looks out for all dwarves, all dwarves in a clan look out for one another.
 
 ### <a class="internal-link" name="internal-path">The Path to Perfection</a>
-*"Every fall of the hammer on the anvil, every fire stoked in the forge. is a step on a journey set before me by Moradin himself. It isn"t work. It is a challenge to achieve greatness."*
-
--- Balifra Eversharp
+> *"Every fall of the hammer on the anvil, every fire stoked in the forge. is a step on a journey set before me by Moradin himself. It isn"t work. It is a challenge to achieve greatness."*
+>
+> -- Balifra Eversharp
 
 Dwarves have a strong sense of their progress, and each day that goes by must bring them closer to the standard set by Moradin. Acutely aware of their mortality, they see the many centuries afforded to them as too short a time to risk wasting even a single day in indolence.
 
 Moradin crafted the dwarves' sturdy bodies, giving them the strength to work for long periods of time. Rather than imparting his skills to them, he fueled their spirits with a burning desire to follow his example. His gifts of durability and purpose gave the dwarves all they needed to devote their lives to steady work, refining their skills and improving their inner selves while they transform rock and ore into wondrous creations.
 
 #### Lifetimes of glorious labor
+
+<img src='https://i.pinimg.com/originals/6a/03/85/6a0385d9b2c6e7d71512a315a3f44d89.png' style='float:right;width:25%;padding:20px' />
+
+
 Dwarf artisans regard the fruits of their labors with the same love that members of other races reserve for their children. A dwarf's works are built to last for centuries, to carry a legacy into the world long after the dwarf is gone. Each item a dwarf crafts is a milepost on he path to perfection, a step taken toward mastering a technique.
 
 
@@ -673,12 +686,6 @@ This rigidity in outlook, though a fundamental part of the dwarven psyche, can s
 A clan might continue to depend on the same plan for defending its stronghold that has been used for centuries, without considering the possibility that its enemies have discovered how to overcome those defenses.
 
 
-
-
-
-
-
-
 The dwarves' way of thinking leads to difficulties in their relationships with humans and elves. From their long-lived perspective, dwarves can't understand the speed with which human communities and civilizations rise and fall. If a trade delegation from a dwarven stronghold were to visit a human town once every twenty or thirty years - not a long time to a dwarf - the community's leaders would likely be different every time, and for the dwarves the experience would be akin to making first contact all over again. Establishing trade with this "new" human outpost would require forming new relationships, a process that could take weeks or months.
 
 The elves' chaotic nature and love of the wilderness baffle the dwarves, who think of them as somewhat mad. Dwarves typically find elves too flighty to ever fully trust them, believing that creatures that thrive on change and chaos can't possibly be reliable allies.
@@ -695,10 +702,6 @@ It takes many years to finish crafting a dwarf, as everything needs to be perfec
 
 
 
-![dwarf](https://i.pinimg.com/originals/6a/03/85/6a0385d9b2c6e7d71512a315a3f44d89.png) {position:absolute,top:0px,right:50px,width:45%}
-
- :::::::::::::::::::::::::::::::::::
-
 During the ritual the divinly infused soulstone will transmute itself and the stone around it to something else, something soft and almost fungal, and grow roots that find their way around small passages that has been created by the crafter. While this happens, the stony body slowly transforms into a grey, compact, flesh-like substance. Lastly, the roots find their way out, to resemble beard and hair all over the body, just as the way the crafter prepared.
 
 #### The First Steps
@@ -707,12 +710,6 @@ When the ritual is complete, the dwarf is born. In the dwarven language the word
 A newborn dwarf looks the same as he will do for the rest of his life. They don't grow in size, with the exeption that they may gain a bit longer and more abundant hair growth. But even though he may look like a grown dwarf, he is a blank slate with no knowledge of anything, except a rudimentary understanding of the dwarven language.
 
 Guides, who are usually clerics of Berronar Truesilver, starts each dwarf's training and education as soon as the newborn opens his eyes. They guide them in their first steps, in recognizing their own body and to speak. After these very basic steps, a dwarf spends between around 6 months learning everything they need, to be a functioning member of dwarven society. This includes how to craft new dwarfs, how to use basic tools and weapons, the history and importance of the clan and about the gods.
-
-
-
-
-
-
 
 
 <div class="descriptive" markdown="1">
@@ -726,11 +723,12 @@ If it happens due to natural causes, such as an earthquake separating the newbor
 
 A dwarf snatched by trickery or force would be imprinted on whoever is around him the first couple of days, and could be taught whatever that person wants. The dwarves natural loyalty makes them ideal followers. However, if such a deed would happen, dwarf clans throughout the world would unite, drop whatever they are doing and make it their main priority to punish the perpetrator and reclaim the dwarf.
 
+</div>
 
 ### <a class="internal-link" name="internal-clan">All for One: The Clan</a>
-*"So the barman isn't a relative, and you don't even know the names of any of the folk here? How can you possibly sleep peacefully in this inn, surrounded by strangers? We'll be lucky to see the morning."*
-
--- Tordek
+> *"So the barman isn't a relative, and you don't even know the names of any of the folk here? How can you possibly sleep peacefully in this inn, surrounded by strangers? We'll be lucky to see the morning."*
+>
+> -- Tordek
 
 The clan is the basic unit of dwarven society, an extended family that dwells together. Everything a dwarf does in life is devoted to improving or helping the clan, bringing security and stability to its members and greater glory to the group.
 
@@ -756,16 +754,6 @@ First, the apprenticeships expose a young prince to each part of the clan's oper
 
 More important, a young prince's conduct while pursuing a variety of tasks gives the elder princes a chance to assess the youth's character. Ideally, a prince who ascends to the leadership of a clan demonstrates an even temperament and an affinity for the clan's key functions. A prince who particularly enjoys fighting might become a minister of war or a general, while one who loves smithing might become an overseer of the crafters' work.
 
-
-
-
-
-
-
-
-![dwarf](https://i1.wp.com/nerdarchy.com/wp-content/uploads/2018/06/dwarf-keep-MToF.png) {position:absolute,top:0px,left:0px,width:100%,height:35%}
-
- :::::::::::::::::
 <div class="descriptive" markdown="1">
 
 #### Prestigeless society
@@ -773,11 +761,16 @@ For a dwarf, the roles in the clan are equal in prestige. A king or cleric is no
 
 Anthropologists have compared the dwarves to ants, where every individual does his part to further their community. A dwarf would never complain about the role he was assigned, instead embracing it fully and with pride.
 
+</div>
+
+
 
 ### <a class="internal-link" name="internal-stronghold">One for all: The Stronghold</a>
-*"I live here among my folk, and I swear that if need be I will die here atop a mountain of my enemies' corpses."*
+> *"I live here among my folk, and I swear that if need be I will die here atop a mountain of my enemies' corpses."*
+>
+> --King Ulaar Strongheart
 
---King Ulaar Strongheart
+<img src='https://i1.wp.com/nerdarchy.com/wp-content/uploads/2018/06/dwarf-keep-MToF.png' style='float:right;width:50%;padding:20px' />
 
 Every dwarf clan maintains a stronghold, typically a series of chambers dug out beneath a mountain or inside a hill. The stronghold is a haven from the chaos of the outside world , allowing the dwarves to toil in peace. The first concern of any stronghold is defense, but older and prosperous strongholds can grow to become wondrous underground cities filled with generations of exquisite dwarven artisanship.
 
@@ -786,9 +779,6 @@ Regardless of a clan's size and status, its stronghold is a stony personificatio
 #### A living monument
 The masons and stone carvers in a clan consider the stronghold to be their greatest work. In a typical stronghold, stone bridges arc over chasms, their surfaces embellished with fine carvings and intricate patterns. The great stone doors leading outside can withstand a battering ram when secured, but glide open at the touch of a child when they are unlocked. While some other races erect statues or build special structures to honor their heroes or commemorate momentous events, the dwarves live and work with in their greatest memorial.
 
-
-
- ::::::::::::::::::::::::::::
 A clan's stronghold holds the record of its history and accomplishments. A work that an outsider regards as "merely" intricate stone carving might actually be a carefully composed recounting of deeds, events, and important persons. Dwarves combine their runes into patterns, present pictorial histories in seemingly unconnected murals and images, and otherwise leave their clan's legacy of accomplishments hiding in plain sight. The story of the clan is meant to be appreciated by clan members and fellow dwarves, not the few outsiders who might be allowed inside the stronghold.
 
 #### Island of Stability
@@ -797,10 +787,6 @@ A well-built stronghold is an easily managed, tranquil environment where dwarves
 The stronghold's remoteness isolates the dwarves from the vagaries of politics and other forms of turmoil in the surface world. Underground, they don't have to contend with the changing of the seasons, or even daily variations in the weather, so that one day inside a stronghold is much like any other day.
 
 The activities of the clan are governed by a firm schedule that provides every member with daily time for work and personal enrichment. The forges are never allowed to go cold, and the mines around the stronghold are worked every hour of every day.
-
-
-
-
 
 
 
@@ -830,11 +816,13 @@ Relations between neighboring clans are cordial, if not warm. They might exchang
 
 Circumstances cease to be normal when a clan faces an external threat. When word gets out that one of their own is in danger, dwarves of other clans rally against the threat without question. The standoffish diplomacy that marks their normal relations gives way to an unshakable alliance. An attack on one dwarf clan is an attack against them all.
 
+</div>
 
 ### <a class="internal-link" name="internal-religion">Dwarven Religion</a>
-*"Our forebearers instill within us the potential for everything that made them great. It is our responsibility to refine that gift into something wonderful."*
 
---Vistra Frostbeard
+> *"Our forebearers instill within us the potential for everything that made them great. It is our responsibility to refine that gift into something wonderful."*
+>
+> --Vistra Frostbeard
 
 The religion of the dwarves is at the root of the societal roles that dwarves follow. Where most other creatures view their deities as ultrapowerful beings who stand forever apart from their worshipers, the dwarves see their gods as exemplars who blaze a path for their lives to follow. Dwarven deities exist in a wide variety, with a few common across many worlds. They are collectively known as the Mordinsamman.
 
@@ -854,7 +842,8 @@ Moradin is the master of every craft practiced by the dwarves and the patron of 
 
 
 
-{{}}">sTable,wide
+<div class="classTable frame" markdown="1">
+
 #### Dwarf Deities (The Mordinsamman)
 
 | Deity | Alignment | Province | Domains | Common Symbol
@@ -879,6 +868,7 @@ Moradin is the master of every craft practiced by the dwarves and the patron of 
 | Valkauna | LN | Oaths, birth, aging, death | Death, Life, Repose | A silver ewer
 | Vergadain | N | Luck, wealth  | Fortune, Trickery | Gold coin bearing a dwarf's face
 
+</div>
 
 Priests of Moradin are responsible for judging and assessing the work of a stronghold's artisans. They keep great volumes that describe various crafting techniques in detail, and use the guidelines in them to judge the quality of individual works.
 
@@ -905,22 +895,15 @@ Clangeddin encourages dwarf warriors to venture out of the stronghold in search 
 
 His faithful are mainly full-time warriors assigned to weapon training from an early age and expected to take the fight to the enemy. The two axes he wields embody his attitude, since he forsakes the added protection of a shield for the chance to deal more damage to his enemies.
 
-
-
-
-
-
-
-
 Clangeddin's priests are warriors who lead from the front. When defending a stronghold, they guard the walls and lead sorties against enemy positions. When an external threat is near, the priests plan guerrilla raids to disrupt invaders before they can besiege the stronghold.
 
 #### Other Deities
 The dwarven pantheon is quite large. The four deities discussed above are acknowledged by occupants of almost every stronghold, while the following gods are worshiped by some clans and ignored by others. These deities include Dugmaren Brightmantle, the Gleam in the Eye; Dumathoin, the Keeper of Secrets under the Mountain; Gorm Gulthyn, the Golden Guardian; Haela Brightaxe, the Lady of the Fray; Marthammor Duin, Watcher over Wanderers; Sharindlar, Lady of Mercy; and Vergadain, the Merchant King.
 
 ### <a class="internal-link" name="internal-abbathor">The dual role of Abbathor</a>
-*"A little selfishness now and then is to be expected even from the wisest of folk."*
-
---Tenelar, Outcast of Five Peaks
+> *"A little selfishness now and then is to be expected even from the wisest of folk."*
+>
+> --Tenelar, Outcast of Five Peaks
 
 Dwarves have rigid principles and lofty ambitions. They devote their lives to the pursuit of perfection, and the best come close to realizing that goal. But for all their dedication, dwarves are mortal, which means they are fallible. And that's where Abbathor comes in.
 
@@ -937,13 +920,15 @@ In that vein, dwarf emissaries and merchants are expected to use Abbathor's tric
 Fortunately for the other party in the arrangement, the dwarves' idea of "inferior" means that a product they consider substandard is still far superior to any such item that outsiders might create. The dwarves might laugh among themselves at a human farmer who bought a shovel from them that will last only a few decades. To the dwarves, that's a shoddy tool; to the farmer, it's a purchase that lasts a lifetime.
 
 ### <a class="internal-link" name="internal-collapse">When clans collapse</a>
-*"We have but one desire, revenge against those who drove us out of our home."*
-
---Queen Helgret Deephammer, of the Deephammer clan in exile
+> *"We have but one desire, revenge against those who drove us out of our home."*
+>
+> --Queen Helgret Deephammer, of the Deephammer clan in exile
 
 For all the attention dwarves pay to their defenses and the security of their homes, no clan is immortal and no stronghold unassailable. Threats to a clan can come from the outside or the inside, and it's often the latter variety that proves more difficult to defeat.
 
 Every clan is aware that there are plenty of unprincipled creatures in the world that would love to steal its cherished works or even obliterate the dwarves and take over their home.
+
+<img src='https://i.pinimg.com/originals/f1/25/62/f125626108bfa0f3bed4d47dbbb7a7b2.png' style='float:right;width:40%;padding:20px' />
 
 #### A life in exile
 If the worst comes to pass and the loss of a clan's stronghold to invaders is inevitable, most of the dwarves would be willing to die while making a last stand for their home. But the clan must survive, even if only as a shell of its former self, and so every clan has a contingency plan to secure a safe escape for a selected few in the stronghold.
@@ -951,21 +936,14 @@ If the worst comes to pass and the loss of a clan's stronghold to invaders is in
 If the survivors are able to get away, they tend to seek shelter in a human city or kingdom. Their skill as artisans ensures that almost any community would welcome their contribution to the workforce, and they can eke out a comfortable existence for themselves.
 
 
-![dwarf](https://i.pinimg.com/originals/f1/25/62/f125626108bfa0f3bed4d47dbbb7a7b2.png) {position:absolute,bottom:0px,right:-20px,width:60%}
-
-
-
-
-
-
 
 
 A group of refugee dwarves seeking residence in a community will do whatever they can to live together, keeping the clan intact. They recreate what they can of their former lifestyle and remaining isolated from their neighbors.
 
 ### <a class="internal-link" name="internal-adventurers">Dwarf adventurers</a>
-*"The mountains were home once, but never again"*
-
---Tenelar, Outcast of Five Peaks
+> *"The mountains were home once, but never again"*
+>
+> --Tenelar, Outcast of Five Peaks
 
 A dwarf who leaves the stronghold to pursue a life of adventuring does so for one reason, which is to set out with the blessing of the clan to undertake an important mission.
 
@@ -999,6 +977,7 @@ Some anthropologists argue that the brain inside a dwarf is actually the dwarf. 
 
 Others counter that the relationship is the same for humans; a human brain cannot live by its own outside a human body.
 
+</div>
 
 #### The Body
 Even though the body of a dwarf was originally stone, it softens up during the birth ritual, to allow for the body to animate and move properly. The flesh is dense and resembles tightly packed flesh. The color is similar to the span of humankind skin colors, with the original stone composition deciding the actual color.

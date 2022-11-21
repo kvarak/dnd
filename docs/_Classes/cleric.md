@@ -12,7 +12,7 @@ layout: default
 ## Contents
 #### <a href="#internal-Pantheons">Pantheons</a>
 <a href="#internal-Golarion">Golarion Deities</a><br/>
-Dwarven Deities - *See the Dwarven race*<br/>
+Dwarven Deities - <a href="{{ site.baseurl }}/Folk/dwarf.html#internal-religion"><i>See the Dwarven race</i></a><br/>
 <a href="#internal-Elf">Elf Deities</a><br/>
 <a href="#internal-Gnome">Gnome Deities</a><br/>
 <a href="#internal-Halfling">Halfling Deities</a><br/>
@@ -308,7 +308,7 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 
 <div class="columns">
 
-* Dwarven Deities - See the Dwarven race
+* Dwarven Deities - <a href="{{ site.baseurl }}/Folk/dwarf.html#internal-religion"><i>See the Dwarven race</i></a>
 * <a href="#internal-Elf">Elf Deities</a>
 * <a href="#internal-Gnome">Gnome Deities</a>
 * <a href="#internal-Halfling">Halfling Deities</a>
