@@ -208,6 +208,10 @@ details {
   padding-left:10px;
 }
 
+.toc a {
+  color: inherit;
+}
+
 
 
 /* ------------------------------------------------------------------------------------------------ */
@@ -373,41 +377,41 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
 /* Rest block */
 .rest {
   background-color: white;
-  color: black;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  float: right;
   border-radius: 5px;
+  color: black;
+  float: right;
+  margin-bottom: 15px;
+  margin-left: 5px;
 }
 
 .restHeading {
-  padding: 5px;
   background-color: #1E5C05;
-  color: white;
-  font-size: large;
-  font-weight: bold;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  color: white;
+  font-family: MrJeeves;
+  font-size: 1.75em;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding-left: 20px;
 }
 
 .restPad {
-  padding-top: 2px;
-  padding-left: 4px;
+  padding: 0px 5px 0px 5px;
 }
 
-.restTable {
-  padding-right: 4px;
-}
-
-.restTable tr {
+.restTable table{
+  margin-left: 0px;
   width: 100%;
-  padding-right: 20px;
 }
 
 .restTable th {
   background-color: #E5E8E8;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   color: black;
-  font-size: 110%;
+  font-size: 1.1em;
+
 }
 
 .restTable td {
