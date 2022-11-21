@@ -367,7 +367,7 @@ hr.classdivider {
 /* ------------------------------------------------------------------------------------------------ */
 
 /* Info areas */
-.descriptive {
+.descriptive, .infoarea {
   -webkit-box-align: center;
   font-family: ScalySansRemake;
   font-size: .318cm;
@@ -384,11 +384,16 @@ hr.classdivider {
   margin-bottom: 5px;
 }
 
-.descriptive h5 {
+.descriptive h5, .infoarea h5 {
   font-family: ScalySansSmallCapsRemake;
   font-size: .423cm;
   font-weight: 900;
   line-height: .951em;
+}
+
+.infoarea {
+  float: right;
+  max-width: 50%;
 }
 
 /* ------------------------------------------------------------------------------------------------ */

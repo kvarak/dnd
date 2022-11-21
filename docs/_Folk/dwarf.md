@@ -480,7 +480,7 @@ A lost dwarf can not be a wizard.
 #### Stolen Dwarf
 No restrictions or bonuses.
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 ### On the topic of magic
 Dwarves are of two minds on the topic of magic.
@@ -559,7 +559,7 @@ Only dwarves can follow the Path of the Battlerager. The battlerager fills a par
 ### Battlerager Armor
 When you choose this path, you gain the ability to use spiked armor as a weapon. While wearing spiked armor and raging, you can use a ***bonus action*** to make a melee attack with your armor spikes, dealing 1d6 piercing damage. You use your Strength modifier for the attack and damage rolls.
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 #### Spiked Armor
 Spiked armor is a type of medium armor made by dwarves. It consists of a leather coat and leggings covered with metal spikes.
@@ -712,7 +712,7 @@ A newborn dwarf looks the same as he will do for the rest of his life. They don'
 Guides, who are usually clerics of Berronar Truesilver, starts each dwarf's training and education as soon as the newborn opens his eyes. They guide them in their first steps, in recognizing their own body and to speak. After these very basic steps, a dwarf spends between around 6 months learning everything they need, to be a functioning member of dwarven society. This includes how to craft new dwarfs, how to use basic tools and weapons, the history and importance of the clan and about the gods.
 
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 #### Dwarves without guidance
 A dwarf is very vulnerable during his first days. Dwarves consider one of the worst things that could happen is if a newborn dwarf animates and there is no one there to guide him.
@@ -754,7 +754,7 @@ First, the apprenticeships expose a young prince to each part of the clan's oper
 
 More important, a young prince's conduct while pursuing a variety of tasks gives the elder princes a chance to assess the youth's character. Ideally, a prince who ascends to the leadership of a clan demonstrates an even temperament and an affinity for the clan's key functions. A prince who particularly enjoys fighting might become a minister of war or a general, while one who loves smithing might become an overseer of the crafters' work.
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 #### Prestigeless society
 For a dwarf, the roles in the clan are equal in prestige. A king or cleric is not more important that a gardener or launderer. The difference is just in when the role is needed. Each role is necessary and a dwarf takes their asssignment seriously, trying to master it fully.
@@ -807,7 +807,7 @@ Unlike some other races that guard their territory by creating features that act
 
 
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 #### Friendly from a distance
 Even though dwarves have a natural affinity for one another, different clans keep a comfortable distance between their strongholds. Anyone not of the clan, even another dwarf, is considered an outsider.
@@ -970,7 +970,7 @@ These outside fibers are necessary, as they allow a dwarf to absorb oxygen. This
 
 The color of the whole system is dependent on the minerals used in creating the dwarf. There is no blood in a dwarf body, but the fibers contain a viscious fluid, the same color as the fibers, which might get spilt if the dwarf is wounded.
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 #### Is the Brain the Dwarf?
 Some anthropologists argue that the brain inside a dwarf is actually the dwarf. That the dwarf is actually a fungal creature that animates stone with its root system bacause it cannot survive outside the protective shell.
