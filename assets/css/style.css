@@ -233,29 +233,25 @@ summary {
 /* Class tables */
 
 .classTable.frame {
-  margin-left: 10px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-right: 10px;
-  border-collapse: separate;
   background-color: white;
   border: initial;
-  border-style: solid;
+  border-collapse: separate;
   border-image-outset: 0.4cm 0.3cm;
   border-image-repeat: stretch;
   border-image-slice: 200;
   border-image-source: url(../images/frameBorder.png);
   border-image-width: 47px;
-}
-
-.classTable thead {
-  width: 100%;
+  border-style: solid;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 10px;
 }
 
 .classTable thead tr th {
-  padding-left: 5px;;
+  padding-left: 5px;
 }
-
 
 .halfClassTable {
   float:right;
@@ -380,10 +376,12 @@ hr.classdivider {
   border-image: url(../images/descriptiveBorder.png) 12 stretch;
   border-image-outset: 4px;
   padding: 2px;
-  max-width: 750px;
   filter: drop-shadow(0 0 3px #faf7ea);
-  margin: auto;
   margin-bottom: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 0px;
+  padding-bottom: -10px;
 }
 
 .descriptive h5, .infoarea h5 {
@@ -391,6 +389,11 @@ hr.classdivider {
   font-size: .423cm;
   font-weight: 900;
   line-height: .951em;
+}
+
+.descriptive p, .infoarea p {
+  padding: 0px;
+  margin: 0px
 }
 
 .infoarea {

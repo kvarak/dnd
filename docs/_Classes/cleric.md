@@ -1629,10 +1629,9 @@ Standing upon the shore and staring into an endless expanse of water for the fir
 ### Navigator's Eye
 When you take this domain at 1st level, you gain proficiency with navigation and as a sailor . You also gain proficiency with rapiers, scimitars, and short swords.
 
+
 ### Waves on the Shore
 At 1st level, your god's power comes to you from the tidal pools and shallows, and from the chitinous creatures that dwell there. You gain a swim speed equal to your walking speed.
-
-While under water, you can choose to have your base AC equal 13 + your Constitution modifier, as transparent chitin plates form over your skin to protect you. While these plates are present, you can cast spells, act, and breathe normally while underwater.
 
 <div class="descriptive" markdown="1">
 
@@ -1640,6 +1639,9 @@ While under water, you can choose to have your base AC equal 13 + your Constitut
 Your appearance doesn't have to be chitinous. The hide of a shark or stingray can be just as durable and provide a different style of armor for Waves on the Shore.
 
 </div>
+
+While under water, you can choose to have your base AC equal 13 + your Constitution modifier, as transparent chitin plates form over your skin to protect you. While these plates are present, you can cast spells, act, and breathe normally while underwater.
+
 
 ### Channel: Anchor of Faith
 Starting at 2nd level, you can invoke your deity to hinder the unfaithful. As an ***action***, you present your holy symbol and invoke a spiritual anchor chained to a target you can see within 30 feet. The target must make a Strength saving throw.
