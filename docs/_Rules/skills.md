@@ -196,29 +196,30 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
   ##### Specific
   ***Camels***. Camels are used as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar camel is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
     
-    <details><summary>Desert Navigation</summary>
-    Provides heightened knowledge through learning to trust the camel's survival instincts in order to better survive. Gain Expertise on Desert survival checks.
-    </details>
+  <details><summary>Desert Navigation</summary>
+  Provides heightened knowledge through learning to trust the camel's survival instincts in order to better survive. Gain ***Expertise*** on Desert survival checks.
+  </details>
 
   ***Dogs***. If you enter into the campaign with this skill, it is presumed that a trained and familiar dog is already in your possession, and that you have developed a companionship of at least one year. This can be a riding dog if you are small enough.
 
   ***Falconry***. The gallant union between the character and bird, pursued for sport, for war — and for the companionship that results. In essence, the falcon (hawk, eagle or owl) exists in a state of semi-captivity, a wildness that is tempered by training. They are, naturally, commanded; but as the bird retains its capacity to act alone, and with ferociousness in attacking its prey, it is not correct to think of the animal as "tame."
   Additionally, the falcon serves as a status symbol, for the mastery of these birds is viewed as a sign of quality lineage and personal worth, which is reflected in the skills below. If you enter into the campaign with this skill, it is presumed that a trained and familiar bird is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skills.
     
-    <details><summary>Rouse Admiration</summary>
-    Capture the attention and impress persons with great power and status. You have Expertise on such checks.
-    </details>
+  <details><summary>Rouse Admiration</summary>
+  Capture the attention and impress persons with great power and status. You have ***Expertise*** on such checks.
+  </details>
     
-    <details><summary>Send Home (→ Animal Training, trait)</summary> You have trained your bird so you send it with a message to a location and person it has been trained to recognize.
-    </details>
+  <details><summary>Send Home (→ Animal Training, trait)</summary>
+  You have trained your bird so you send it with a message to a location and person it has been trained to recognize.
+  </details>
 
   ***Horses***. The use of the horse (and donkeys, mules, etc) for transportation, combat and work. If you enter into the campaign with this skill, it is presumed that a trained and familiar horse is already in your possession, and that you have developed a companionship of at least one year.
 
   ***Riding Lizards***. The use of a riding lizard as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar riding lizard is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
     
-    <details><summary>Underdark Navigation</summary>
-    Provides heightened knowledge through learning to trust the lizards's survival instincts in order to better survive. Gain Expertise on Underdark survival checks.
-    </details>
+  <details><summary>Underdark Navigation</summary>
+  Provides heightened knowledge through learning to trust the lizards's survival instincts in order to better survive. Gain ***Expertise*** on Underdark survival checks.
+  </details>
 
   #### Skills
   Unless otherwise noted, the skills below apply to all categories of animals you are familiar with and only to “normal” domesticable animals.
