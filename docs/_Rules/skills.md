@@ -197,7 +197,9 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
   ***Camels***. Camels are used as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar camel is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
     
   <details><summary>Desert Navigation</summary>
+
   Provides heightened knowledge through learning to trust the camel's survival instincts in order to better survive. Gain ***Expertise*** on Desert survival checks.
+  
   </details>
 
   ***Dogs***. If you enter into the campaign with this skill, it is presumed that a trained and familiar dog is already in your possession, and that you have developed a companionship of at least one year. This can be a riding dog if you are small enough.
@@ -206,7 +208,9 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
   Additionally, the falcon serves as a status symbol, for the mastery of these birds is viewed as a sign of quality lineage and personal worth, which is reflected in the skills below. If you enter into the campaign with this skill, it is presumed that a trained and familiar bird is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skills.
     
   <details><summary>Rouse Admiration</summary>
+
   Capture the attention and impress persons with great power and status. You have ***Expertise*** on such checks.
+  
   </details>
     
   <details><summary>Send Home (→ Animal Training, trait)</summary>
@@ -218,93 +222,124 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
   ***Riding Lizards***. The use of a riding lizard as transportation and for the purpose of combat. If you enter into the campaign with this skill, it is presumed that a trained and familiar riding lizard is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skill.
     
   <details><summary>Underdark Navigation</summary>
+
   Provides heightened knowledge through learning to trust the lizards's survival instincts in order to better survive. Gain ***Expertise*** on Underdark survival checks.
+
   </details>
 
   #### Skills
   Unless otherwise noted, the skills below apply to all categories of animals you are familiar with and only to “normal” domesticable animals.
 
   <details>
-    <summary>Handle Animal</summary>
-    You have familiarity with some categories of animals. This skill is used when there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked or intuit an animal’s intentions. Characters without this training are still able to ride an appropriate animal, but would be unable to manage the animals by themselves.
-    <details>
-      <summary>Animal Husbandry</summary>
-      The skill to keep, raise, and properly use domestic animals for work and food. You know the minimum environment an animal must be kept in, the proper food to feed it and how to keep the animal from running off. This skill would normally not be rolled for.
-      <details>
-        <summary>Breed Animal</summary>
-        Proficiency with selective breeding of animals. This is a long term activity normally not possible to do during adventuring with the exception of long downtimes. However, you have Expertise on checks made to identify the general condition of animals and might for example allow you to select the best animal from a seller.
-      </details>
-      <details>
-        <summary>Teamster</summary>
-        Provides skill at the employment of common domestic farm animals as beasts of burden, plow teams or as animals to pull carts, wagons and carriages. You have Expertise on travel checks when handling animals this way, as well as on checks to control wagons or chariots.
-      </details>
-    </details>
-    <details>
-      <summary>Animal Training</summary>
-      The skill to train animals tricks, such as "Speak” or “Fetch" as well as teaching animals to do a specific job, such as pulling a wagon, or guarding an item on command. Unless an already domesticated animal, this process takes months. However if you start the game with this skill or any other skill in this category, it is presumed that a trained and familiar animal is already in your possession, and that you have developed a companionship of at least one year.
-      <div class="skill-frame">You can use a bonus action to command your trained animal, deciding now what action the beast will take and where it will move during its next turn. You can also issue a general command such as to guard a particular area. Depending on the animal this command might last for 10 minutes to an hour.</div>
-      <details>
-        <summary>Combat Training</summary>
-        You have proficiency with techniques needed to train an appropriate animal to attack and fight. If a creature who you’ve trained or considers you its master can see and hear you, and makes an attack, skill check or saving throw, you may use your reaction to give that creature advantage on its roll. In addition you can add the War-trained template to an animal after 5 months of training.
-        <div class="skill-frame">War-trained template<br/>
-        Add proficiency with all barding and with the Athletics skill.<br/>
-        The animal uses the highest of its own or its current master’s proficiency bonus, and its minimum number of hit dice is twice that proficiency bonus.<br/>
-        The training also conveys advantage on Intelligence, Wisdom and Charisma saves if the creature can see and hear its trainer/master when it makes the save.
-        </div>
-        <details>
-          <summary>Unconventional Combat Training</summary>
-          You have learnt techniques needed to train an inappropriate animal to attack and fight. You could for example, if you really wanted, combat train a chicken.
-        </details>
-        <details>
-          <summary>War Training (trait)</summary>
-          You have mastered techniques making it possible to train animals for combat during a short period of time. You may train an animal in 1/4 the usual time (adding the “war-trained” template to the animal in five weeks, rather than five months, for example).
-        </details>
-      </details>
-      <details>
-        <summary>Companionship Training</summary>
-        The way you train beasts is more focused on companionship. This is a simpler task that can usually be done in a week. When you take this skill it is assumed that you have practiced this for a while, allowing you to have a group of companion animals that follow you. Choose a number of beasts from your familiar animal categories with challenge rating 0 (such as rats, ravens, spiders, or tiny dogs) equal to your proficiency bonus. They do not all need to be the same type of beast. These are your companion animals. When your proficiency bonus increases you gain another companion animal.
-        Your companion animals are well trained. They follow your orders and can understand commands and tasks as complex as a trained rat might, but are not suitable for combat. In combat your companions only take the dash, disengage, and dodge actions and have the frightened condition of all enemies.
-      </details>
-      <details>
-        <summary>Hunt Training</summary>
-        You can train an animal to hunt independent of you, i.e. making Foraging checks by itself. An animal must be appropriate for the task. To hunt game, the animal must be one that typically does this in the wild. However, some animals may be able to train to search for alternative food sources, like a pig searching for mushrooms.
-      </details>
-      <details>
-        <summary>Mount Training</summary>
-        You can train an animal to accept a rider of appropriate size.
-      </details>
-    </details>
-    <details>
-      <summary>Animal Whisperer (trait)</summary>
-      Allows you to communicate simple ideas through sounds and gestures. You have Expertise on checks to calm an animal down or intuit its intentions.
-      <details>
-        <summary>Animal Whisperer II (trait)</summary>
-        Allows you to use the Animal Whisperer skill with non-domesticated animals.
-      </details>
-    </details>
-    <details>
-      <summary>Battle Animal (trait)</summary>
-      You recognize the attack patterns of the animals you are familiar with. Knowing how it attacks, when it is about to pounce and recognizing its intentions provides +2 AC against animals of the categories you are familiar with, including non-domesticated ones.
-    </details>
-    <details>
-      <summary>Find & Catch Animals</summary>
-      You have knowledge on how to locate the birthplaces of wild animals and how to catch them for training and breeding.
-    </details>
-    <details>
-      <summary>Nurse Animal</summary>
-      The skill of maintaining and restoring health in animals, along with treating diseases and parasites. Gain Expertise on checks to treat animals and on saving throws animals in your care make against disease. This includes non-domesticated animals. In addition you gain the following benefits.
-      <ul><li>If you spend an hour or more caring for a friendly beast, you can have it gain an amount of temporary HP equal to 5 times your Wisdom modifier. Once you use this feature on a creature, you cannot do so again until you finish a long rest.</li>
-      <li>Wild animals normally don’t grow aggressive if you approach them with the intent to help (free, heal etc).</li></ul>
-    </details>
-    <details>
-      <summary>Pack Animal</summary>
-      Enables you to properly load a pack animal so that its health is not threatened by travel conditions. Gain Expertise on travel checks and on saves made by your pack animals to avoid exhaustion.
-      <details>
-        <summary>Improve Encumbrance (trait)</summary>
-        Increases the capacity and endurance of your pack animals.
-      </details>
-    </details>
-    <details>
+  <summary>Handle Animal</summary>
+  You have familiarity with some categories of animals. This skill is used when there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked or intuit an animal’s intentions. Characters without this training are still able to ride an appropriate animal, but would be unable to manage the animals by themselves.
+  <details>
+
+  <summary>Animal Husbandry</summary>
+  The skill to keep, raise, and properly use domestic animals for work and food. You know the minimum environment an animal must be kept in, the proper food to feed it and how to keep the animal from running off. This skill would normally not be rolled for.
+  <details>
+
+  <summary>Breed Animal</summary>
+
+  Proficiency with selective breeding of animals. This is a long term activity normally not possible to do during adventuring with the exception of long downtimes. However, you have ***Expertise*** on checks made to identify the general condition of animals and might for example allow you to select the best animal from a seller.
+  </details>
+
+  <details>
+  <summary>Teamster</summary>
+
+  Provides skill at the employment of common domestic farm animals as beasts of burden, plow teams or as animals to pull carts, wagons and carriages. You have ***Expertise*** on travel checks when handling animals this way, as well as on checks to control wagons or chariots.
+  </details>
+  </details>
+
+  <details>
+  <summary>Animal Training</summary>
+  The skill to train animals tricks, such as "Speak” or “Fetch" as well as teaching animals to do a specific job, such as pulling a wagon, or guarding an item on command. Unless an already domesticated animal, this process takes months. However if you start the game with this skill or any other skill in this category, it is presumed that a trained and familiar animal is already in your possession, and that you have developed a companionship of at least one year.
+
+  <div class="descriptive">
+  
+  You can use a ***bonus action*** to command your trained animal, deciding now what action the beast will take and where it will move during its next turn. You can also issue a general command such as to guard a particular area. Depending on the animal this command might last for 10 minutes to an hour.</div>
+  
+  <details>
+  <summary>Combat Training</summary>
+
+  You have proficiency with techniques needed to train an appropriate animal to attack and fight. If a creature who you’ve trained or considers you its master can see and hear you, and makes an attack, skill check or saving throw, you may use your ***reaction*** to give that creature advantage on its roll. In addition you can add the War-trained template to an animal after 5 months of training.
+    
+  <div class="descriptive">
+  
+  ##### War-trained template
+  * Add proficiency with all barding and with the Athletics skill.
+  * The animal uses the highest of its own or its current master’s proficiency bonus, and its minimum number of hit dice is twice that proficiency bonus.
+  * The training also conveys advantage on Intelligence, Wisdom and Charisma saves if the creature can see and hear its trainer/master when it makes the save.
+  
+  </div>
+
+  <details>
+  <summary>Unconventional Combat Training</summary>
+  You have learnt techniques needed to train an inappropriate animal to attack and fight. You could for example, if you really wanted, combat train a chicken.
+  </details>
+  
+  <details>
+  <summary>War Training (trait)</summary>
+  You have mastered techniques making it possible to train animals for combat during a short period of time. You may train an animal in 1/4 the usual time (adding the “war-trained” template to the animal in five weeks, rather than five months, for example).
+  </details>
+  </details>
+
+  <details>
+  <summary>Companionship Training</summary>
+  The way you train beasts is more focused on companionship. This is a simpler task that can usually be done in a week. When you take this skill it is assumed that you have practiced this for a while, allowing you to have a group of companion animals that follow you. Choose a number of beasts from your familiar animal categories with challenge rating 0 (such as rats, ravens, spiders, or tiny dogs) equal to your proficiency bonus. They do not all need to be the same type of beast. These are your companion animals. When your proficiency bonus increases you gain another companion animal.
+  Your companion animals are well trained. They follow your orders and can understand commands and tasks as complex as a trained rat might, but are not suitable for combat. In combat your companions only take the dash, disengage, and dodge actions and have the frightened condition of all enemies.
+  </details>
+  
+  <details>
+  <summary>Hunt Training</summary>
+  You can train an animal to hunt independent of you, i.e. making Foraging checks by itself. An animal must be appropriate for the task. To hunt game, the animal must be one that typically does this in the wild. However, some animals may be able to train to search for alternative food sources, like a pig searching for mushrooms.
+  </details>
+  
+  <details>
+  <summary>Mount Training</summary>
+  You can train an animal to accept a rider of appropriate size.
+  </details>
+  </details>
+  
+  <details>
+  <summary>Animal Whisperer (trait)</summary>
+  Allows you to communicate simple ideas through sounds and gestures. You have ***Expertise*** on checks to calm an animal down or intuit its intentions.
+  <details>
+
+  <summary>Animal Whisperer II (trait)</summary>
+  Allows you to use the Animal Whisperer skill with non-domesticated animals.
+  </details>
+  </details>
+
+  <details>
+  <summary>Battle Animal (trait)</summary>
+  You recognize the attack patterns of the animals you are familiar with. Knowing how it attacks, when it is about to pounce and recognizing its intentions provides +2 AC against animals of the categories you are familiar with, including non-domesticated ones.
+  </details>
+  
+  <details>
+  <summary>Find & Catch Animals</summary>
+  You have knowledge on how to locate the birthplaces of wild animals and how to catch them for training and breeding.
+  </details>
+  
+  <details>
+  <summary>Nurse Animal</summary>
+  The skill of maintaining and restoring health in animals, along with treating diseases and parasites. Gain ***Expertise*** on checks to treat animals and on saving throws animals in your care make against disease. This includes non-domesticated animals. In addition you gain the following benefits.
+  
+  * If you spend an hour or more caring for a friendly beast, you can have it gain an amount of temporary HP equal to 5 times your Wisdom modifier. Once you use this feature on a creature, you cannot do so again until you finish a long rest.
+  * Wild animals normally don’t grow aggressive if you approach them with the intent to help (free, heal etc).
+  </details>
+  
+  <details>
+  <summary>Pack Animal</summary>
+  
+  Enables you to properly load a pack animal so that its health is not threatened by travel conditions. Gain ***Expertise*** on travel checks and on saves made by your pack animals to avoid exhaustion.
+  <details>
+  <summary>Improve Encumbrance (trait)</summary>
+  Increases the capacity and endurance of your pack animals.
+  </details>
+  </details>
+  
+  <details>
       <summary>Ride Animal</summary>
       The skill to direct and ride an animal of the appropriate size and physique. Gain Expertise on such checks.
       <details>
