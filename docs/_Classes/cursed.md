@@ -338,7 +338,7 @@ As a side effect of the origin of your Cursed form, spells affect you as if you 
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="descriptive" markdown="1">
+<div class="description columnstwo">
 
 *  You can see in complete darkness up to 60 ft, and can communicate telepathically with any creature that has a language that you can see, up to 120 ft away.
 
@@ -350,8 +350,7 @@ While transformed, the following applies in addition to the benefits of your Cur
 
 *  The wings grant a flying speed of twice your walking speed. To use this flight, you cannot be encumbered. For the wings to be able to function, you must have a number of feet equal to your height free on both sides of you.
 
-
-
+</div>
 
 ### Innate Spellcasting
 From 3rd level, while in your Cursed form, you can cast the following spells at will, requiring only verbal components: *detect evil and good*, *protection from evil and good*, and *shield of faith*.
@@ -365,15 +364,9 @@ From at 10th level you can unleash judgement on all creatures with 60 ft radius 
 ### Magic Resistance
 Beginning at 14th level you have advantage on saving throws against spells and other magical effects in both your forms.
 
-
-
-
-
-
-
-
-# <a name="internal-beyond">Curse from Beyond</a>
-They say that when gazing into the abyss, the abyss gazes into you. Your interest into the Far Realm, the space beyond reality, was what caused this. Your experimentation with the arcane, with summoning circles, astronomy and mind expanding drugs made your mind an easy target. Something came through; something mysterious whose nature is utterly foreign to the fabric of reality, maybe even a sliver of an Elder god. Whatever it was, its motives are incomprehensible to mortals.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-beyond">Curse from Beyond</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Cursed Level | Feature |
@@ -384,6 +377,10 @@ They say that when gazing into the abyss, the abyss gazes into you. Your interes
 | 10th | Aberration Telepathy |
 | 14th | Portal to the Beyond |
 
+</div>
+
+They say that when gazing into the abyss, the abyss gazes into you. Your interest into the Far Realm, the space beyond reality, was what caused this. Your experimentation with the arcane, with summoning circles, astronomy and mind expanding drugs made your mind an easy target. Something came through; something mysterious whose nature is utterly foreign to the fabric of reality, maybe even a sliver of an Elder god. Whatever it was, its motives are incomprehensible to mortals.
+
 ### Abomination
 Your cursed form is a frightening abomination, maybe with many eyes and/or mouths, and certainly tentacles, lots of tentacles. The actual process of transformation is a very disturbing sight. It could be a tentacled being forcing its way out from your mouth, leaving a shriveled husk behind, or something expanding from within, shredding your skin while slicing its way to freedom.
 
@@ -393,7 +390,7 @@ When you select this Cursed form at 1st level, select two Mutations listed at th
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="descriptive" markdown="1">
+<div class="description columnstwo">
 
 *  You have resistance to acid and poison damage.
 
@@ -401,8 +398,7 @@ While transformed, the following applies in addition to the benefits of your Cur
 
 *  Additionally you have access to all Mutations that you have selected.
 
-
-
+</div>
 
 ### Immutable form
 From 3rd level, your constant body changes makes you have more control of your body. You become immune to any spell or effect that would change your form, unless you specifically allow it. If you fail a save against such an effect, you can choose to ignore it, or change into your other form. This is in addition to your normal daily transformations.
@@ -423,13 +419,6 @@ You may also select a new Mutation, and change one that you already have.
 At 14th level, other creatures from the Far realm has found you malleable body, and try to use it to crawl their way into your world. The creatures try to shape you into their image and inhabit your shell. As an ***action*** you can change into an random abomination with CR equal to half your level or lower (GM has the creature statistics). The shape will be theirs, but this is your world, and your will is stronger...it has to be.
 
 When you change, and at the end of each of your turns, make a Wisdom saving throw against DC 5 + the CR of the aberration. If you succeed you are in control of your body and mind, and do not have to roll for control any more. If you fail, the creature has full control, and will act however it sees fit. Otherwise treat is as the *polymorph* spell.
-
-
-
-
-
-
-
 
 ## Mutations
 Unless otherwise noted, the following features apply in Cursed form only. Whenever an ability requires a target to make a saving throw, the DC is 8 + your proficiency bonus + your Constitution modifier.
@@ -452,8 +441,6 @@ Once per round, when you hit a creature with a tentacle slap, you can also devou
 #### Engulf
 As an ***action*** you can try to engulf a creature of your size or smaller. The target makes a Dexterity save. On a successful save, the creature can choose to be pushed 5 feet back or to the side of you. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. On a failed save, you enter the creature's space, it takes 1d8 acid damage and is engulfed. The engulfed creature is restrained, and takes 1d8 acid damage at the start of each of your turns.
 
-
-
 When you move, the engulfed creature moves with you. At the end of each of its rounds, the engulfed creature can try to escape by making a Strength (Athletics) or Dexterity (Acrobatics) check against the DC. On a success, the creature escapes.
 
 #### Gibbering
@@ -475,20 +462,11 @@ Once per transformation you can emit psychic energy in a cone. Each creature in 
 #### Oozing flesh
 Pulsating cavities all over your body constantly ooze acid. At the beginning of your turn, any creature grappling or being grappled by you takes 1d8 acid damage.
 
-
-
-
-
-
-
-
 #### Reactive body chemistry
 Your cursed form is immune to the poisoned condition, acid and poison damage. Your normal form is also somewhat affected by this, gaining resistance against acid and poison damage.
 
 #### Stench
 Your putrid presence forces creatures that start their turn within 5 feet of you to succeed on a Constitution saving throw or be poisoned until the start of their next turn. On a successful saving throw, the creature is immune to the stench of for 1 hour. You are immune to all similar effects from other creatures in both your forms.
-
-
 
 #### Toxic Blood
 When a creature deals piercing, or slashing damage to you, each creature within 5 feet of you must make a Dexterity save or take acid damage equal to your Constitution modifier. Additionally, you gain immunity to the poison condition and poison damage in both forms.
@@ -496,17 +474,9 @@ When a creature deals piercing, or slashing damage to you, each creature within 
 #### Venom
 Your Cursed form has a stinger, bite attack, a hooked tentacle or some other way to inject venom. Whenever you take the Attack action, you can make an attack with this weapon as a bonus action, dealing 1d8 + Constitution modifier poison damage. This counts as a magical venom.
 
-
-
-
-
-
-
-
-# <a name="internal-demonic">Demonic Possession</a>
-Not all beings in our world are benevolent. All planes are inhabited by malicious fiends, undead, evil deities, and aberrations of forgotten gods. These beings seek footholds in the material to expand their reach. They inhabit mortal forms to perform their deeds, whether those people do so willingly or not.
-
-Maybe this was a summoning gone wrong, maybe cursed item was inhabited by the demonic creature, or maybe you even did this voluntarily to try wrest the powers from the fiend. Now you share your body with a demon, a creature bent on mayhem and destruction.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-demonic">Demonic Possession</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Cursed Level | Feature |
@@ -517,6 +487,12 @@ Maybe this was a summoning gone wrong, maybe cursed item was inhabited by the de
 | 10th | Teleport |
 | 14th | Magic Resistance |
 
+</div>
+
+Not all beings in our world are benevolent. All planes are inhabited by malicious fiends, undead, evil deities, and aberrations of forgotten gods. These beings seek footholds in the material to expand their reach. They inhabit mortal forms to perform their deeds, whether those people do so willingly or not.
+
+Maybe this was a summoning gone wrong, maybe cursed item was inhabited by the demonic creature, or maybe you even did this voluntarily to try wrest the powers from the fiend. Now you share your body with a demon, a creature bent on mayhem and destruction.
+
 ### Demonic Form
 Your cursed form is a twisted demonic creature that is alway inside youS. pells affect you as if you were a fiend in both your forms.
 
@@ -524,7 +500,7 @@ When you gain your Demonic form at 1st level, select one of the demonic aspects 
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="descriptive" markdown="1">
+<div class="description columnstwo">
 
 *  You have resistance to cold, fire and lightning damage.
 
@@ -536,11 +512,10 @@ While transformed, the following applies in addition to the benefits of your Cur
 
 *  The chosen demonic aspect grants additional features.
 
+</div>
 
 ### Demonic Might
 From 3rd level, while in your Cursed form, when you use your action to cast a cantrip, you can make one melee attack as a bonus action.
-
-
 
 ### Already possessed
 You are already possessed, and there is no more room in your mind. From 6th level you are immune to possession and charm effects. You may still trigger the Split personality feature if you are targeted with a charm spell or similar.
@@ -565,13 +540,6 @@ The aspect describes the powers of the demon inhabiting your mind. Aspects have 
 
 **Icy claws**. You can imbue your claws with chilling cold as a bonus action, making them deal magic cold damage instead of slashing damage. This lasts until you turn it off by using a bonus action.
 
-
-
-
-
-
-
-
 **Frostbite**. Once per transformation you can dramatically lower the temperature in an area up to 60 ft radius. Everything in that area will be covered with ice and frost, making it difficult terrain for 1 minute. Hostile creatures within the area must make a Constitution save. A creature that fails its saving throw takes a number of d10s cold damage equal to half your Cursed level (rounded up) and becomes frozen in place for 1 minute; restrained and unable to take reactions. Affected creatures can repeat this saving throw at the end of each of their turns. A creature killed by this spell becomes a frozen statue until it thaws.
 
 ### Aspect of Fire
@@ -587,7 +555,6 @@ The aspect describes the powers of the demon inhabiting your mind. Aspects have 
 **Mind assault**.  Whenever you take the Attack action, you may simultaneously assault the targets’ mind with basal emotions. As a ***bonus action***, force a creature you physically attacked during your turn to make a Wisdom save. If target fails, it takes 1d8 + your Constitution modifier psychic damage, and you may select one of the following effects, that last until the end of its next turn:
 
 
-
 <div class="descriptive" markdown="1">
 
  **Fear**: Target is frightened of you.
@@ -600,8 +567,9 @@ The aspect describes the powers of the demon inhabiting your mind. Aspects have 
 
  **Insanity**: Target is affected by confusion.
 
+ <br/>A target affected by one of the conditions cannot be affected by that particular effect again during this transformation, but can still take the psychic damage.
 
- A target affected by one of the conditions cannot be affected by that particular effect again during this transformation, but can still take the psychic damage.
+</div>
 
 **Mind blast**.  One per transformation you can emit a psionic blast in a 30 foot radius around yourself. Hostile creatures within that area must succeed at an Intelligence saving throw or take a number of d8s psychic damage equal to half your Cursed level (rounded up) and be stunned until the end of your next turn. A successful saving throw halves the damage and does not not stun.
 
@@ -614,15 +582,9 @@ The aspect describes the powers of the demon inhabiting your mind. Aspects have 
 
  If one or more beasts or humanoids that are Small or Medium dies from the spores, you can use your reaction to animate them, causing them to stand up immediately with 1 hit point. The creatures use the zombie statistics and remains animate for as long you have your Demonic form, after which time they collapse and die. The maximum number of creatures you can animate is equal to your Cursed level.
 
-
-
-
-
-
-
-
-# <a name="internal-entropicRift">Entropic Rift</a>
-Your cursed form is not a creature at all. By some cosmic happenstance, an improbable space-time collision or maybe because of a simple wild surge, a piece on entropy now resides in you. It periodically opens a rift between here and the wild entropy of Limbo, with you as its anchor point. When this happens, you are shunted to a pocket dimension within Limbo, while in your place remains a multicolored shimmering light.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-entropicRift">Entropic Rift</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Cursed Level | Feature |
@@ -633,6 +595,10 @@ Your cursed form is not a creature at all. By some cosmic happenstance, an impro
 | 10th | Spellmeister, Surgeproof |
 | 14th | Share your Curse |
 
+</div>
+
+Your cursed form is not a creature at all. By some cosmic happenstance, an improbable space-time collision or maybe because of a simple wild surge, a piece on entropy now resides in you. It periodically opens a rift between here and the wild entropy of Limbo, with you as its anchor point. When this happens, you are shunted to a pocket dimension within Limbo, while in your place remains a multicolored shimmering light.
+
 ### Chaos Rift
 Your cursed form is not a creature, but a stationary, translucent rift in space. The rift is mindless, and thus immune to psychic damage and conditions that require a mind. Even though mindless, it has a few remnants of your identity left, enough to recognize allies and foes.
 
@@ -641,7 +607,7 @@ While in your Cursed form, your original form (i.e. you) is safe somewhere else,
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="descriptive" markdown="1">
+<div class="descriptive columnstwo" markdown="1">
 
 *  The rift's attack is something random ejected from the rift. Choose a target and roll on the table below for damage type. The damage equals 1d8 + your Constitution modifier. This is a ranged spell attack, with 30 feet range, using your Constitution modifier to hit. The attach does not have disadvantage when there is an adjacent enemy.
 
@@ -658,13 +624,9 @@ While transformed, the following applies in addition to the benefits of your Cur
 | 9	| Necrotic
 | 10 | Radiant
 
-
-
-
-<div class="descriptive" markdown="1">
-
 *  The rift cannot move. It sheds bright multicolored light in a radius equal to what would have been your walking speed. However, as an ***action*** the rift can blink and open up at another point within the light. When it does, it results in a wild surge with itself as the caster and all adjacent creatures as targets.
 
+</div>
 
 ### Entropic Shield
 From 3rd level the Chaos rift can protect itself with a chaotic shield. As a ***reaction*** when targeted by a single target attack in your Cursed form, you can manifest a protective shield between you and the attacker. Roll on the following table:
