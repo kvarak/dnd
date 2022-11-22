@@ -3,16 +3,7 @@ title: Cursed
 layout: default
 ---
 
-# Cursed
-
-*Highway robbers await in the cliffside of a canyon pass. One of them spots a figure in the distance. As he draws near, he seems to be some sort of scholar, or perhaps a priest. It is no matter; he is clearly not experienced in combat. And he’s travelling alone.*
-
-*The band of thieves rush into the pass. Their misfortunate victim tries to run, but he is quickly cornered. As one bandit swings his mace, the man raises his open hand and halts it with a force much more powerful than would befit his frail frame.*
-
-*His eyes flash with a green glare, and his skin begins to bubble. The now wary bandits slowly shuffle backwards. The man shoots to well over 8 feet tall and his flesh ripples as it adjusts to a new muscular form. As the bandits turn tail, the monster hurls a nearby boulder and bellows a thunderous roar.*
-
-You are cursed. The body that you inhabit is shared with something else. It might be an incorporeal, fiendish presence that takes control when your mental defenses are down, an unearthly entity from beyond that warps your body to better suit it, a curse that transform you into a furious wolfman, or even a manifestation of your own inner rage.
-
+<div class="toc" markdown="1">
 
 #### [Class Features](#internal-class-features)
 #### [Cursed Forms](#internal-cursed-forms)
@@ -25,6 +16,18 @@ You are cursed. The body that you inhabit is shared with something else. It migh
 <a href="#internal-molded">Molded</a><br/>
 <a href="#internal-sealedDragon">Sealed Dragon</a><br/>
 <a href="#internal-shadowcursed">Shadowcursed</a><br/>
+
+</div>
+
+# Cursed
+
+*Highway robbers await in the cliffside of a canyon pass. One of them spots a figure in the distance. As he draws near, he seems to be some sort of scholar, or perhaps a priest. It is no matter; he is clearly not experienced in combat. And he’s travelling alone.*
+
+*The band of thieves rush into the pass. Their misfortunate victim tries to run, but he is quickly cornered. As one bandit swings his mace, the man raises his open hand and halts it with a force much more powerful than would befit his frail frame.*
+
+*His eyes flash with a green glare, and his skin begins to bubble. The now wary bandits slowly shuffle backwards. The man shoots to well over 8 feet tall and his flesh ripples as it adjusts to a new muscular form. As the bandits turn tail, the monster hurls a nearby boulder and bellows a thunderous roar.*
+
+You are cursed. The body that you inhabit is shared with something else. It might be an incorporeal, fiendish presence that takes control when your mental defenses are down, an unearthly entity from beyond that warps your body to better suit it, a curse that transform you into a furious wolfman, or even a manifestation of your own inner rage.
 
 
 ![wolf](https://cdn.escapistmagazine.com/media/global/images/library/deriv/913/913051.png) {position:absolute;height:40%;left:-60px;bottom:-30px;}
