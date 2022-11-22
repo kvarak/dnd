@@ -5,7 +5,6 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Class Features](#internal-class-features)
 #### [Cursed Forms](#internal-cursed-forms)
 <a href="#internal-alchemical">Alchemical Curse</a><br/>
 <a href="#internal-chosen">Chosen</a><br/>
@@ -27,12 +26,9 @@ layout: default
 
 *His eyes flash with a green glare, and his skin begins to bubble. The now wary bandits slowly shuffle backwards. The man shoots to well over 8 feet tall and his flesh ripples as it adjusts to a new muscular form. As the bandits turn tail, the monster hurls a nearby boulder and bellows a thunderous roar.*
 
+<img src='https://cdn.escapistmagazine.com/media/global/images/library/deriv/913/913051.png' style='float:left;width:50%;padding:20px' />
+
 You are cursed. The body that you inhabit is shared with something else. It might be an incorporeal, fiendish presence that takes control when your mental defenses are down, an unearthly entity from beyond that warps your body to better suit it, a curse that transform you into a furious wolfman, or even a manifestation of your own inner rage.
-
-
-![wolf](https://cdn.escapistmagazine.com/media/global/images/library/deriv/913/913051.png) {position:absolute;height:40%;left:-60px;bottom:-30px;}
-
-
 
 ### Life of Solitude
 A curse has many facets, and few are particularly pleasant. Yet, worst of all, the body has a mind of its own, infected by the curse. It acts as according to instinct, and the only way to truly accept your power is to let it take control of you. To be the creature that others fear, to fight like a savage animal, tearing down friend and foe alike. To live with this knowledge should be unbearable, and yet the cursed carries on down their dark path, hoping against hope for relief from their fate. Or that the burden may become easier to bear one day.
@@ -40,7 +36,6 @@ A curse has many facets, and few are particularly pleasant. Yet, worst of all, t
 Those few unlucky ones to be afflicted by a dark, twisted transmutation magic tend to lead isolated lives. Their unpredictable and dangerous alter ego makes them a pariah, so they avoid cities whenever possible. Although they do tend to frequent libraries, as their lonely lifestyle has led them to confide in books. These tortured souls are often well learned and otfen turn to magic as it might lead to apossible cure.
 
 Some seek this power out for themselves, empowered by mystical rituals, unnatural science, or otherworldly forces. but not all of these individuals are beholden to their base desires and many turn their frightful power into a force of good.
-
 
 ## <a class="internal-link" name="internal-class-features">Class Features</a>
 As Cursed, you gain the following class features
@@ -52,6 +47,7 @@ As Cursed, you gain the following class features
 **Weapons:**   Simple weapons
 
 **Saving Throws:**   Intelligence, Wisdom
+
 **Skills:**          Arcana
 
 #### Equipment
@@ -59,11 +55,6 @@ You start with the following equipment, in addition to the equipment granted by 
 - a dagger and any one simple weapon
 - *(a)* a explorer's pack or *(b)* a scholar’s pack
 - one set of tools you are proficient with
-
-
-
-
-
 
 ### Cantrips
 Through meditation and the use of arcane formulas, you draw power from your curse, and can use some of its power in your normal form. You learn two cantrips of your choice from your spell list. Intelligence is the spellcasting ability for those cantrips.
