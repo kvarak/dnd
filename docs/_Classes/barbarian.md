@@ -4,8 +4,6 @@ layout: default
 ---
 
 
-# Barbarian
-
 <div class="toc" markdown="1">
 
 ## Contents
@@ -25,6 +23,8 @@ layout: default
 <a href="#internal-zealot">Path of the Zealot</a><br>
 
 </div>
+
+# Barbarian
 
 > *"The rage that lies within the soul of a barbarian can take many forms. It can be summoned equally with a sense of purpose, a fire of passion, or a cold vengeance. Regardless of its source, a dreaded fate awaits any who stands in its path"*
 >

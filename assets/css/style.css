@@ -57,6 +57,7 @@ p {
 h1+p::first-letter {
   float:left;
   font-family:SolberaImitationRemake;
+  font-style: unset;
   line-height:1em;
   font-size:3.5cm;
   padding-left:40px;

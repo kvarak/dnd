@@ -3,10 +3,6 @@ title: Cleric
 layout: default
 ---
 
-
-# Cleric
-
-
 <div class="toc" markdown="1">
 
 ## Contents
@@ -55,6 +51,8 @@ Dwarven Deities - <a href="{{ site.baseurl }}/Folk/dwarf.html#internal-religion"
 <a href="#internal-balancedScale">Balanced Scale of Abadar</a><br/>
 
 </div>
+
+# Cleric
 
 > *"I have been fortunate enough to have experienced more in these few years than most have in their entire lifetime. Even so, nothing can ever replace the feeling of warmth, grace, purity, and power, all of which come to me each time I call upon Sarenrae to guide my hand."*
 >

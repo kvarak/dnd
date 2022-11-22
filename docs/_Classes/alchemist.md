@@ -3,8 +3,6 @@ title: Alchemist
 layout: default
 ---
 
-# Alchemist
-
 <div class="toc" markdown="1">
 
 ## Content
@@ -18,6 +16,8 @@ layout: default
 <a href="#internal-transmuter">Transmuter</a><br>
 
 </div>
+
+# Alchemist
 
 *A grinning gnome cackles with glee as he hurls a bomb into a group of charging goblins, blasting them into scorched chunks. He produces another, throws it at his feet, and disappears, still laughing, in the ensuing cloud of smoke.*
 

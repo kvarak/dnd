@@ -3,8 +3,6 @@ title: Bard
 layout: default
 ---
 
-# Bard
-
 <div class="toc" markdown="1">
 
 ## Contents
@@ -46,10 +44,9 @@ layout: default
 
 </div>
 
+# Bard
+
 Untold wonders and secrets exist for those skillful enough to discover them. Through cleverness, talent, and magic, these cunning few unravel the wiles of the world, becoming adept in the arts of persuasion, manipulation, and inspiration. Typically masters of one or many forms of artistry, bards possess an uncanny ability to know more than they should and use what they learn to keep themselves and their allies ever one step ahead of danger. Bards are quick-witted and captivating, and their skills might lead them down many paths, be they scholars or performers, leaders or scoundrels, or even all of the above.
-
-
-
 
 Bards bring levity during grave times; they impart wisdom to offset ignorance; and they make the ridiculous seem sublime. Bards are preservers of ancient history, their songs and tales perpetuating the memory of great events down through time — knowledge so important that it is memorized and passed along as oral history, to survive even when no written record remains.
 

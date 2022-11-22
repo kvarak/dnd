@@ -5,7 +5,6 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Class Features](#internal-class-features)
 #### [Cursed Forms](#internal-cursed-forms)
 <a href="#internal-alchemical">Alchemical Curse</a><br/>
 <a href="#internal-chosen">Chosen</a><br/>
@@ -27,12 +26,9 @@ layout: default
 
 *His eyes flash with a green glare, and his skin begins to bubble. The now wary bandits slowly shuffle backwards. The man shoots to well over 8 feet tall and his flesh ripples as it adjusts to a new muscular form. As the bandits turn tail, the monster hurls a nearby boulder and bellows a thunderous roar.*
 
+<img src='https://cdn.escapistmagazine.com/media/global/images/library/deriv/913/913051.png' style='float:left;width:30%;padding:20px' />
+
 You are cursed. The body that you inhabit is shared with something else. It might be an incorporeal, fiendish presence that takes control when your mental defenses are down, an unearthly entity from beyond that warps your body to better suit it, a curse that transform you into a furious wolfman, or even a manifestation of your own inner rage.
-
-
-![wolf](https://cdn.escapistmagazine.com/media/global/images/library/deriv/913/913051.png) {position:absolute;height:40%;left:-60px;bottom:-30px;}
-
-
 
 ### Life of Solitude
 A curse has many facets, and few are particularly pleasant. Yet, worst of all, the body has a mind of its own, infected by the curse. It acts as according to instinct, and the only way to truly accept your power is to let it take control of you. To be the creature that others fear, to fight like a savage animal, tearing down friend and foe alike. To live with this knowledge should be unbearable, and yet the cursed carries on down their dark path, hoping against hope for relief from their fate. Or that the burden may become easier to bear one day.
@@ -40,7 +36,6 @@ A curse has many facets, and few are particularly pleasant. Yet, worst of all, t
 Those few unlucky ones to be afflicted by a dark, twisted transmutation magic tend to lead isolated lives. Their unpredictable and dangerous alter ego makes them a pariah, so they avoid cities whenever possible. Although they do tend to frequent libraries, as their lonely lifestyle has led them to confide in books. These tortured souls are often well learned and otfen turn to magic as it might lead to apossible cure.
 
 Some seek this power out for themselves, empowered by mystical rituals, unnatural science, or otherworldly forces. but not all of these individuals are beholden to their base desires and many turn their frightful power into a force of good.
-
 
 ## <a class="internal-link" name="internal-class-features">Class Features</a>
 As Cursed, you gain the following class features
@@ -52,6 +47,7 @@ As Cursed, you gain the following class features
 **Weapons:**   Simple weapons
 
 **Saving Throws:**   Intelligence, Wisdom
+
 **Skills:**          Arcana
 
 #### Equipment
@@ -59,11 +55,6 @@ You start with the following equipment, in addition to the equipment granted by 
 - a dagger and any one simple weapon
 - *(a)* a explorer's pack or *(b)* a scholar’s pack
 - one set of tools you are proficient with
-
-
-
-
-
 
 ### Cantrips
 Through meditation and the use of arcane formulas, you draw power from your curse, and can use some of its power in your normal form. You learn two cantrips of your choice from your spell list. Intelligence is the spellcasting ability for those cantrips.
@@ -77,36 +68,33 @@ One thing that all curses have in common is the ability to let your monstrous pa
 
 As an ***action*** you can transform into the Cursed form. Your size is now medium if it was not before, and your weight doubles. When this happens, any nonmagical equipment that does not fit your new form is possibly destroyed. Magic equipment that does not fit, will be merged into the new form, but will be unusable. If you are affected by the grappled or restrained conditions when you transform, they immediately end.
 
-
-
 Unless otherwise noted in the specific curse descriptions, the following applies when you are in your Cursed Form:
 
-<div class="descriptive" markdown="1">
+<div class="description columnstwo">
 
-*  In addition to wardrobe malfunctions, your stats change. When changing form each physical ability score and its associated saving throw (Strength, Dexterity, Constitution) is exchanged with a mental (Intelligence, Wisdom, Charisma).
-
+* In addition to wardrobe malfunctions, your stats change. When changing form each physical ability score and its associated saving throw (Strength, Dexterity, Constitution) is exchanged with a mental (Intelligence, Wisdom, Charisma).
   You may change which physical ability is changed to which mental ability when changing form. You make this choice at level 1 and cannot change this later.
 
-*  Your **base armor class** is now equal to 10 + your new Constitution modifier + your new Dexterity modifier.
+* Your **base armor class** is now equal to 10 + your new Constitution modifier + your new Dexterity modifier.
 
-*  Your current and maximum **hit points** are both set to your original maximum hit points, but modified by your new Constitution modifier. If your hit points reach 0, you instead return your current and maximum hit points to what you had before you transformed, and then you revert back to your normal form at the start of your next turn.
+* Your current and maximum **hit points** are both set to your original maximum hit points, but modified by your new Constitution modifier. If your hit points reach 0, you instead return your current and maximum hit points to what you had before you transformed, and then you revert back to your normal form at the start of your next turn.
 
-*  You have **resistance** to nonmagical bludgeoning, piercing, and slashing damage and ignore the effects of exhaustion.
+* You have **resistance** to nonmagical bludgeoning, piercing, and slashing damage and ignore the effects of exhaustion.
 
-*  You have advantage on **Strength** checks and saving throws.
+* You have advantage on **Strength** checks and saving throws.
 
-*  You have **disadvantage** on checks and saving throws for the ability that you have selected to exchange Strength for.
+* You have **disadvantage** on checks and saving throws for the ability that you have selected to exchange Strength for.
 
-*  You cannot cast spells or concentrate on them.
+* You cannot cast spells or concentrate on them.
 
-*  You **lose any proficiencies** you have in your normal form (including weapons), but gain proficiency with Athletics, Intimidation and all melee weapons, including improvised and natural weapons.
+* You **lose any proficiencies** you have in your normal form (including weapons), but gain proficiency with Athletics, Intimidation and all melee weapons, including improvised and natural weapons.
 
+</div>
 
+<div class="block classTable frame" markdown="1">
 
-{{}}">classTable,frame,decoration,wide
 ##### The Cursed
-| Level | Proficiency | Features | Cantrips | Spells |  --- Spell Slots Per Spell Level ---|||||
-|      ^| Bonus      ^|         ^|  Known   ^| Known ^| 1st |2nd |3rd |4th |5th |
+| - Level - | - Proficiency Bonus - | - Features - | - Cantrips Known - | - Spells Known - | 1st |2nd |3rd |4th |5th |
 |:---:|:---:|:---|:---:|:---:|:-----:|:---:|:---:|:---:|:---:|
 | 1st | +2 | Cantrips, Cursed Form, Ritual Casting | 3 | - | - | - | - | - | - |
 | 2nd | +2 | Spellcasting, Split Personality | 3 | 2 | 2 | - | - | - | - |
@@ -129,15 +117,27 @@ Unless otherwise noted in the specific curse descriptions, the following applies
 | 19th | +6 | Ability Score Improvement | 5 | 11 | 4 | 3 | 3 | 3 | 2 |
 | 20th | +6 | Primal Champion  | 5 | 11 | 4 | 3 | 3 | 3 | 2 |
 
-
-
-
-
-
+</div>
 
 While entering your Cursed Form requires an ***action***, ending it early requires only a ***bonus action***. Left to its own course, the Cursed Form will last for a number of minutes equal to your level.
 
 Once you have changed form a number of times equal to your proficieny bonus, you must finish a long rest before you can change again.
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a Long rest: |
+| * Regain all uses of your ***Cursed Form***.
+| * Regain use of ***Hard to Kill***.
+
+</div>
+</div>
+</div>
 
 ### Ritual Casting
 You can inscribe magical rituals in a Ritual book. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells are written in the book and don't count against the number of spells you know. With your Ritual book in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means.
@@ -163,8 +163,6 @@ You know two 1st-level spells of your choice from the Cursed spell list. The Spe
 #### Spellcasting Focus
 You can use an arcane focus as a spellcasting focus for your spells.
 
-
-
 ### Split Personality
 The Cursed form has a will of its own. As you are two minds in one body, it helps you to resist mind altering effects. From 2nd level, you may add your Cursed form’s ability modifier (minimum of 1) to all saving throws against being charmed, frightened, stunned and knocked unconscious.
 
@@ -189,13 +187,6 @@ Additionally, if you are surprised at the beginning of combat and aren’t incap
 ### Quick Transformation
 From 9th level, you have begun to embrace the power granted by your inner monster. You can use a ***bonus action*** instead of an action to use unleash your Cursed form.
 
-
-
-
-
-
-
-
 ### Hard to Kill
 From 11th level, your involuntary companion can take over when you’re on the brink of death. If you drop to 0 hit points while in normal form and don’t die outright, you automatically change into your Cursed Form. You are unable to end the transformation early by your own will, and when it ends, you are stable at 0 hp, but gain one level of exhaustion. When you have lost control like this once, it will not happen until after you completed a long rest.
 
@@ -212,24 +203,6 @@ Beginning at 18th level, and while in your Cursed Form, if your total for a Stre
 
 ### Primal Champion
 At 20th level, begin to embrace your dark side, rather than fight it. While in your Cursed Form, your Strength and Constitution scores and maximums increase by 4.
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain all uses of your **Cursed Form**.
-| | * Regain use of **Hard to Kill**.
-
-
-
-
 
 ## <a class="internal-link" name="internal-cursed-forms">Cursed Forms</a>
 
@@ -255,19 +228,9 @@ At 1st level, chooses the curse that shapes your other form. Your choice grants 
 
 **<a href="#internal-shadowcursed">Shadowcursed</a>** - You have a constant shadowy presence following you; a spirit, a ghost or a shadow. It could be a vengeful relative’s spirit, the remaining vestige of forgotten deity, a tainted totem spirit, or the remnant of a ghostly sentience that once dwelt in a cursed house but has instead moved onto you.
 
-
-
-
-
-
-
-
-# <a name="alchemical">Alchemical Curse</a>
-You may have been an alchemist, studying the possibility to make a person stronger and more resilient through mutagenic potions. But your mutagen had to be tested, and you chose to test on yourself. That was the first time you transformed into a hulking abomination.
-
-Maybe you have been subjected to a cruel ordeal that changed you forever. A necromancer, dark cultist, or other practitioner of foul blasphemies subjected you to wicked experiments that changed your fundamental nature. Though you escaped the tormentor who sought to transform you into a mindless henchman, lasting effects remain.
-
-In either case, you have a part of yourself that wants to escape. Your repressed rage, your primal urges, or the darkness that you try to hide. It takes on a personality of its own, and sometimes it breaks free.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-alchemical">Alchemical Curse</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Cursed Level | Feature |
@@ -278,6 +241,14 @@ In either case, you have a part of yourself that wants to escape. Your repressed
 | 10th | Increasing Might |
 | 14th | Preternatural Vigor |
 
+</div>
+
+You may have been an alchemist, studying the possibility to make a person stronger and more resilient through mutagenic potions. But your mutagen had to be tested, and you chose to test on yourself. That was the first time you transformed into a hulking abomination.
+
+Maybe you have been subjected to a cruel ordeal that changed you forever. A necromancer, dark cultist, or other practitioner of foul blasphemies subjected you to wicked experiments that changed your fundamental nature. Though you escaped the tormentor who sought to transform you into a mindless henchman, lasting effects remain.
+
+In either case, you have a part of yourself that wants to escape. Your repressed rage, your primal urges, or the darkness that you try to hide. It takes on a personality of its own, and sometimes it breaks free.
+
 ### Alchemist
 You have proficiency with Alchemy. This might even be the reason why you are cursed.
 
@@ -286,26 +257,24 @@ Your cursed form is a monstrous, larger and powerful form of you, totally consum
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="descriptive" markdown="1">
+<div class="description columnstwo">
 
-*  Your mind is filled with pure emotion, granting you **advantage on all Wisdom saving throws**.
+* Your mind is filled with pure emotion, granting you **advantage on all Wisdom saving throws**.
 
-*  When **striking** with your fists in your Cursed form, you deal 1d6 + Strength modifier bludgeoning damage. Any one-handed improvised weapon deals d8 damage if wood, or d10 if stone or metal. If the object is so large it has to be lifted in two hands, increase the damage die one step. When within 5 feet of an unattended item that can be used as a weapon, you can pick it up as a part of an Attack, as long as you have a free hand.
+* When **striking** with your fists in your Cursed form, you deal 1d6 + Strength modifier bludgeoning damage. Any one-handed improvised weapon deals d8 damage if wood, or d10 if stone or metal. If the object is so large it has to be lifted in two hands, increase the damage die one step. When within 5 feet of an unattended item that can be used as a weapon, you can pick it up as a part of an Attack, as long as you have a free hand.
 
+* During a move, you can shove a creature as a ***bonus action***.
 
+* You are proficient with **throwing things** not usually meant to be thrown. You can treat any item that you can hold in one hand as if they had the Thrown property with a range of 15/30, and attack with using a ***bonus action***.
 
+* Being adjacent to a hostile creature doesn’t impose disadvantage on your attack rolls with thrown weapons.
 
-<div class="descriptive" markdown="1">
-
-*  During a move, you can shove a creature as a ***bonus action***.
-
-*  You are proficient with **throwing things** not usually meant to be thrown. You can treat any item that you can hold in one hand as if they had the Thrown property with a range of 15/30, and attack with using a ***bonus action***.
-
-*  Being adjacent to a hostile creature doesn’t impose disadvantage on your attack rolls with thrown weapons.
-
+</div>
 
 ### Alchemical Serum
 You might hate your alter ego, but the urge to transform is like an addiction. Sometimes you need the release of your other self, and sometimes there are obstacles that only your cursed form can handle.
+
+<img src='https://i.pinimg.com/originals/85/0d/13/850d133d01f17895ac50104180f2fcf2.png' style='float:right;width:30%;padding:20px' />
 
 From 3rd level, using alchemists's supplies you can brew a serum that allows you to initiate the transformation yourself. Preparing this serum takes 8 hours, and you can brew and carry at most such 6 vials.
 
@@ -321,15 +290,6 @@ At 3rd level, you master throwing other creatures. While grappling a creature yo
 **Medium**. The thrown creature takes damage equal to 1d10 plus your Strength modifier. A targeted creature takes damage equal to 1d10 plus twice your Strength modifier, or half as much on a success.
 
 **Large**. Exactly as above, save that all creatures within 5 feet of the target location or creature must also make a saving throw. Larger creatures function identically, and only improve the size of the impact area by 5 feet per size category above Large.
-
-
-
-
-
-
-
-
-
 
 All damage dealt is bludgeoning damage. If you throw a willing creature, it must make a DC 10 Acrobatics check or fall prone when they land. If the willing creature is not thrown at a target, a successful save also negates the damage.
 
@@ -351,23 +311,12 @@ Starting at 10th level, you can throw a creature one size larger than you with t
 
 You can shove a creature up to one size larger than you, but only directly forward. A creature that is two or more sizes smaller than you can be shoved in any direction.
 
-
-
-
-<img src='https://i.pinimg.com/originals/85/0d/13/850d133d01f17895ac50104180f2fcf2.png' style='width:100%' />
- :
 ### Preternatural Vigor
 At 14th level, your raging Cursed form can shrug off effects that would stop normal mortals in their tracks. You have expertise with Constitution and Strength saving throws in that form.
 
-
-
-
-
-
-
-
-# <a name="chosen">Chosen</a>
-Your mortal body has been inhabited by a celestial creature, like an angel. Most people say that it’s a blessing, that you are chosen and that you should feel honored. But no one asked you. Your body was just taken into possession without your consent. To you this is a curse.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-chosen">Chosen</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Cursed Level | Feature |
@@ -377,6 +326,10 @@ Your mortal body has been inhabited by a celestial creature, like an angel. Most
 | 6th | All Seeing |
 | 10th | Judgement |
 | 14th | Magic Resistance |
+
+</div>
+
+Your mortal body has been inhabited by a celestial creature, like an angel. Most people say that it’s a blessing, that you are chosen and that you should feel honored. But no one asked you. Your body was just taken into possession without your consent. To you this is a curse.
 
 ### Angelic Being
 Your cursed form is a shining angel. It is a beautiful androgynous humanoid, with feathered wings, a golden breastplate and a two-handed sword of radiance.
@@ -419,7 +372,7 @@ Beginning at 14th level you have advantage on saving throws against spells and o
 
 
 
-# <a name="beyond">Curse from Beyond</a>
+# <a name="internal-beyond">Curse from Beyond</a>
 They say that when gazing into the abyss, the abyss gazes into you. Your interest into the Far Realm, the space beyond reality, was what caused this. Your experimentation with the arcane, with summoning circles, astronomy and mind expanding drugs made your mind an easy target. Something came through; something mysterious whose nature is utterly foreign to the fabric of reality, maybe even a sliver of an Elder god. Whatever it was, its motives are incomprehensible to mortals.
 
 #### Features
@@ -550,7 +503,7 @@ Your Cursed form has a stinger, bite attack, a hooked tentacle or some other way
 
 
 
-# <a name="demonic">Demonic Possession</a>
+# <a name="internal-demonic">Demonic Possession</a>
 Not all beings in our world are benevolent. All planes are inhabited by malicious fiends, undead, evil deities, and aberrations of forgotten gods. These beings seek footholds in the material to expand their reach. They inhabit mortal forms to perform their deeds, whether those people do so willingly or not.
 
 Maybe this was a summoning gone wrong, maybe cursed item was inhabited by the demonic creature, or maybe you even did this voluntarily to try wrest the powers from the fiend. Now you share your body with a demon, a creature bent on mayhem and destruction.
@@ -668,7 +621,7 @@ The aspect describes the powers of the demon inhabiting your mind. Aspects have 
 
 
 
-# <a name="entropicRift">Entropic Rift</a>
+# <a name="internal-entropicRift">Entropic Rift</a>
 Your cursed form is not a creature at all. By some cosmic happenstance, an improbable space-time collision or maybe because of a simple wild surge, a piece on entropy now resides in you. It periodically opens a rift between here and the wild entropy of Limbo, with you as its anchor point. When this happens, you are shunted to a pocket dimension within Limbo, while in your place remains a multicolored shimmering light.
 
 #### Features
@@ -790,7 +743,7 @@ The following additions are made to the general rest rules.
 
 
 
-# <a name="lycanthropic">Lycanthropic Curse</a>
+# <a name="internal-lycanthropic">Lycanthropic Curse</a>
 You are filled with animalistic fury and cursed with lycanthropy that changes you into a beast when the full moon hangs high in the sky.
 
 One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire, features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.
@@ -969,7 +922,7 @@ In addition, whenever you attack a creature frightened by you (in any form), you
 
 
 
-# <a name="molded">Molded</a>
+# <a name="internal-molded">Molded</a>
 You have been infected with an intelligent ooze. At first it just lived inside your body, among your organs, but slowly it started to replace your inner anatomy. You are not sure how you can still function, as your insides were slowly replaced. It came as a shock, the first time your entire body collapsed into a pile of ooze, totally outside your control. You realized that maybe you were not you anymore, and your whole body had been replaced by a slimy body snatcher. With sheer willpower you pulled yourself together.
 
 Now the lines have blurred, and you do not know who or what you really are, man or ooze. You feel like yourself most of the time, solid as you should, but at times you lose cohesion and you are not so certain anymore.
@@ -1131,7 +1084,7 @@ At 15th level, when you gain the Large size class feature, your base armor class
 
 
 
-# <a name="sealedDragon">Sealed Dragon</a>
+# <a name="internal-sealedDragon">Sealed Dragon</a>
 The sealed dragon curse is not like the others. The cursed form is your original form, and you have been sealed away inside an inferior human body. At times you can release a fraction of your previous might, but mostly you are trapped.
 
 Born to be the most powerful race in the multiverse, sealed dragons are wyrms that are trapped in mortal forms that may or may not forever hold them hostage. These sealed dragons are one of many but the most common are the ones that were kidnapped during their wyrmling period, where a dragon is not yet of great power. It is uncommon and rare for an older dragon to be sealed but Bahamut, the Platinum Dragon has been known to mete out punishments similar to this.
@@ -1218,7 +1171,7 @@ Even closer to your release final release, your abilities strengthen.
 
 
 
-# <a name="shadowcursed">Shadowcursed</a>
+# <a name="internal-shadowcursed">Shadowcursed</a>
 You have a constant shadowy presence following you; a spirit, a ghost or a shadow. It could be a vengeful relative’s spirit, the remaining vestige of forgotten deity, a tainted totem spirit, or the remnant of a ghostly sentience that once dwelt in a cursed house but has instead moved onto you. Whatever it is, it is now a part of you, and you know you will never be free of it.  It cannot be heard, with the exception of the whispers only heard by you, slowly pushing you to more heinous deeds.
 
 Your companion is a ghostly being that exists in the ethereal plane, following your everywhere, mirroring your every move. It keeps itself interposed on your body, A creature that is able to see into the ethereal plane will see it, but barely, since it inhabits the same place as you. The reason it chose you might be as simple as you two being the exact same dimensions, making you an ideal hiding place.

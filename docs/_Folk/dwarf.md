@@ -3,8 +3,6 @@ title: Dwarf
 layout: default
 ---
 
-# Dwarf
-
 <div class="toc" markdown="1">
 
 ## Contents
@@ -28,6 +26,7 @@ layout: default
 
 </div>
 
+# Dwarf
 
 Kingdoms rich in ancient grandeur, halls carved into the hearts of mountains, the echoing of picks and hammers in deep mines and blazing forges and a commitment to clan and tradition—these common threads unite all dwarves. They are a stoic but stern race, with a reputation as dour and humorless craftsmen of the earth. Dwarves throughout the world are characterized by their love of stonework and their passion for craftsmanship and architecture.
 

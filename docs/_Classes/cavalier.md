@@ -3,8 +3,6 @@ title: Cavalier
 layout: default
 ---
 
-# Cavalier
-
 <div class="toc" markdown="1">
 
 #### <a href="#internal-maneuvers">Maneuvers</a>
@@ -19,6 +17,8 @@ layout: default
 <a href="#internal-star">Order of the Star</a><br/>
 
 </div>
+
+# Cavalier
 
 While many warriors strive to perfect their art, spending all of their time honing their skill at martial arms, others spend as much effort dedicating themselves to a cause.
 
