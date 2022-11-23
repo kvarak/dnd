@@ -630,18 +630,13 @@ While transformed, the following applies in addition to the benefits of your Cur
 
 *  The rift's attack is something random ejected from the rift. Choose a target and roll on the table below for damage type. The damage equals 1d8 + your Constitution modifier. This is a ranged spell attack, with 30 feet range, using your Constitution modifier to hit. The attack does not have disadvantage when there is an adjacent enemy.
 
-    | d10 | Damage Type |
-    | :-: | :---------- |
-    | 1	| Thunder
-    | 2	| Acid
-    | 3	| Cold
-    | 4	| Fire
-    | 5	| Lightning
-    | 6	| Bludgeoning
-    | 7	| Piercing
-    | 8	| Slashing
-    | 9	| Necrotic
-    | 10 | Radiant
+    | d10 | Damage Type | d10 | Damage Type |
+    | :-: | :---------- | :-: | :---------- |
+    | 1	| Thunder       | 6	| Bludgeoning
+    | 2	| Acid          | 7	| Piercing
+    | 3	| Cold          | 8	| Slashing
+    | 4	| Fire          | 9	| Necrotic
+    | 5	| Lightning     | 10 | Radiant
 
 *  The rift cannot move. It sheds bright multicolored light in a radius equal to what would have been your walking speed. However, as an ***action*** the rift can blink and open up at another point within the light. When it does, it results in a wild surge with itself as the caster and all adjacent creatures as targets.
 

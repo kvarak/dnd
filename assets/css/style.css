@@ -176,13 +176,14 @@ summary {
     margin: 0 0 1.5em 0;
 }
 
-.columns li {
+.columns li, .columnsthree li {
   margin-bottom: 5px;
   break-inside: avoid !important;
 }
 
 .cursedcols li {
   margin-bottom: 5px;
+  break-inside: avoid !important;
 }
 
 /* ------------------------------------------------------------------------------------------------ */
