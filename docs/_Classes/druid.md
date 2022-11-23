@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Druid Circles](#p5)
+#### [Druid Circles](#internal-druid-circles)
 <a href="#internal-blood">Circle of Blood</a><br/>
 <a href="#internal-dreams">Circle of Dreams</a><br/>
 <a href="#internal-dust">Circle of Dust</a><br/>
@@ -204,13 +204,11 @@ Beginning at 18th level, you can cast many of your druid spells in any shape you
 ### Archdruid
 At 20th level, you can use your Wild Shape an unlimited number of times.
 
+## <a class="internal-link" name="internal-druid-circles">Druid Circles</a>
 
-{{}}">wide
-<img src='https://robertrigo.github.io/pics/skull_divider.png' style='width:100%;' />
-
-
-# Druid Circles
 Though their organization is invisible to most outsiders, druids are part of a society that spans the land, ignoring political borders. All druids are nominally members of this druidic society, though some individuals are so isolated that they have never seen any high-ranking members of the society or participated in druidic gatherings. Druids recognize each other as brothers and sisters. Like creatures of the wilderness, however, druids sometimes compete with or even prey on each other. At a local scale, druids are organized into circles that share certain perspectives on nature, balance, and the way of the druid.
+
+<div class="columnsthree">
 
 **<a href="#internal-blood">Circle of Blood</a>** Druids that can wildshape parts of their body, even to several animals at once.
 
