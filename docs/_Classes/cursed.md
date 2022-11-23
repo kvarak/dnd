@@ -210,23 +210,27 @@ Your curse is defined by the being that has taken hold of you and shares your mi
 
 At 1st level, chooses the curse that shapes your other form. Your choice grants you features when you choose it at 1st level and again at 3rd, 6th, 10th, and 14th level.
 
-**<a href="#internal-alchemical">Alchemical Curse</a>** - Your repressed rage, your primal urges, or the darkness that you try to hide has taken on a personality of its own through dark alchemical experiments.
+<div class="columnsthree">
 
-**<a href="#internal-chosen">Chosen</a>** - Your mortal body has been inhabited by a celestial creature, like an angel. Most people say that it’s a blessing, that you are chosen and that you should feel honored. But no one asked you. Your body was just taken into possession without your consent. To you this is a curse.
+- **<a href="#internal-alchemical">Alchemical Curse</a>** - Your repressed rage, your primal urges, or the darkness that you try to hide has taken on a personality of its own through dark alchemical experiments.
 
-**<a href="#internal-beyond">Curse from Beyond</a>** - They say that when gazing into the abyss, the abyss gazes into you. Your interest into the Far Realm, the space beyond reality, was what caused this. Your experimentation with the arcane, with summoning circles, astronomy and mind expanding drugs made your mind an easy target. Something came through; something mysterious whose nature is utterly foreign to the fabric of reality, maybe even a sliver of an Elder god. Whatever it was, its motives are incomprehensible to mortals.
+- **<a href="#internal-chosen">Chosen</a>** - Your mortal body has been inhabited by a celestial creature, like an angel. Most people say that it’s a blessing, that you are chosen and that you should feel honored. But no one asked you. Your body was just taken into possession without your consent. To you this is a curse.
 
-**<a href="#internal-demonic">Demonic Possession</a>** - Maybe a summoning went wrong, maybe a cursed item was inhabited by the demonic creature, or maybe you even did this voluntarily to try wrest the powers from a fiend. Now you share your body with a demon, a creature bent on mayhem and destruction
+- **<a href="#internal-beyond">Curse from Beyond</a>** - They say that when gazing into the abyss, the abyss gazes into you. Your interest into the Far Realm, the space beyond reality, was what caused this. Your experimentation with the arcane, with summoning circles, astronomy and mind expanding drugs made your mind an easy target. Something came through; something mysterious whose nature is utterly foreign to the fabric of reality, maybe even a sliver of an Elder god. Whatever it was, its motives are incomprehensible to mortals.
 
-**<a href="#internal-entropicRift">Entropic Rift</a>** - Your cursed form is not a creature at all. By some cosmic happenstance, an improbable space-time collision or maybe because of a simple wild surge, a piece on entropy now resides in you.
+- **<a href="#internal-demonic">Demonic Possession</a>** - Maybe a summoning went wrong, maybe a cursed item was inhabited by the demonic creature, or maybe you even did this voluntarily to try wrest the powers from a fiend. Now you share your body with a demon, a creature bent on mayhem and destruction
 
-**<a href="#internal-lycanthropic">Lycanthropic Curse</a>** - You are filled with animalistic fury and cursed with lycanthropy that changes you into a beast when the full moon hangs high in the sky.
+- **<a href="#internal-entropicRift">Entropic Rift</a>** - Your cursed form is not a creature at all. By some cosmic happenstance, an improbable space-time collision or maybe because of a simple wild surge, a piece on entropy now resides in you.
 
-**<a href="#internal-molded">Molded</a>** - You have been infected with an intelligent ooze, which has slowly made you loose your cohesion.
+- **<a href="#internal-lycanthropic">Lycanthropic Curse</a>** - You are filled with animalistic fury and cursed with lycanthropy that changes you into a beast when the full moon hangs high in the sky.
 
-**<a href="#internal-sealedDragon">Sealed Dragon</a>** - The sealed dragon curse is not like the others. The cursed form is your original form, and you have been sealed away inside an inferior human body. At times you can release a fraction of your previous might, but mostly you are trapped.
+- **<a href="#internal-molded">Molded</a>** - You have been infected with an intelligent ooze, which has slowly made you loose your cohesion.
 
-**<a href="#internal-shadowcursed">Shadowcursed</a>** - You have a constant shadowy presence following you; a spirit, a ghost or a shadow. It could be a vengeful relative’s spirit, the remaining vestige of forgotten deity, a tainted totem spirit, or the remnant of a ghostly sentience that once dwelt in a cursed house but has instead moved onto you.
+- **<a href="#internal-sealedDragon">Sealed Dragon</a>** - The sealed dragon curse is not like the others. The cursed form is your original form, and you have been sealed away inside an inferior human body. At times you can release a fraction of your previous might, but mostly you are trapped.
+
+- **<a href="#internal-shadowcursed">Shadowcursed</a>** - You have a constant shadowy presence following you; a spirit, a ghost or a shadow. It could be a vengeful relative’s spirit, the remaining vestige of forgotten deity, a tainted totem spirit, or the remnant of a ghostly sentience that once dwelt in a cursed house but has instead moved onto you.
+
+</div>
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-alchemical">Alchemical Curse</a></h1>
@@ -630,7 +634,7 @@ While transformed, the following applies in addition to the benefits of your Cur
 
 *  The rift's attack is something random ejected from the rift. Choose a target and roll on the table below for damage type. The damage equals 1d8 + your Constitution modifier. This is a ranged spell attack, with 30 feet range, using your Constitution modifier to hit. The attack does not have disadvantage when there is an adjacent enemy.
 
-    | d10 | Damage Type | d10 | Damage Type |
+    | d10 | Damage Type | &nbsp; | &nbsp; |
     | :-: | :---------- | :-: | :---------- |
     | 1	| Thunder       | 6	| Bludgeoning
     | 2	| Acid          | 7	| Piercing
@@ -946,102 +950,188 @@ At 15th level, when you gain the Large size class feature, your base armor class
 
 ## Ooze companions
 
-{{}}">monster,frame
-## Black Pudding, Lesser
-*Small ooze*
+<br/>
+
+<div class="columnsthree noliststyle">
+<ul>
+<li>
+
+<div class="monster multimonster frame">
+<table class="monster">
+<thead><tr><th>
+Gelatinous Cube, Lesser
+</th></tr></thead>
+<tbody>
+<tr><td><i>Medium ooze</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
+**Armor Class**   6
+
+**Hit Points**   30 (4d8 + 12)
+
+**Speed**   15 ft.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|12 (+1)|2 (-4) |16 (+3)|1 (-5) |6 (-2) |1 (-5) |
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
+**Condition Immunities**   blinded, charmed, deafened, exhaustion, frightened, prone
+
+**Senses**   blindsight 60 ft. (blind beyond this radius)
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
+***Ooze Cube***. The cube takes up its entire space. Other creatures can enter the space, but a creature that does so is subjected to the cube’s Engulf and has disadvantage on the saving throw. Creatures inside the cube can be seen but have total cover. A creature within 5 feet of the cube can take an action to pull a creature or object out of the cube. Doing so requires a successful DC 11 Strength check, and the creature making the attempt takes 10 (3d6) acid damage. The cube can hold only one Medium or Small creature or up to four tiny creatures inside it at a time.
+
+***Transparent***. Even when the cube is in plain sight, it takes a successful DC 15 Wisdom (Perception) check to spot a cube that has neither moved nor attacked. A creature that tries to enter the cube’s space while unaware of the cube is surprised by the cube.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
+### Actions
+***Pseudopod***. *Melee Attack*: +3 to hit. *Hit*: 7 (2d6) acid damage.
+
+***Engulf***. The cube moves up to its speed. While doing so, it can enter Large or smaller creatures’ spaces. Whenever the cube enters a creature’s space, the creature must make a DC 11 Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of the cube. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. On a failed save, the cube enters the creature’s space and the creature takes 7 (2d6) acid damage and is engulfed. The engulfed creature can’t breathe, is restrained, and takes 14 (4d6) acid damage at the start of each of the cube’s turns. When the cube moves, the engulfed creature moves with it. An engulfed creature can try to escape by taking an action to make a DC 11 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube.
+</td></tr></tbody></table>
+</div>
+
+</li>
+<li>
+
+<div class="monster multimonster frame">
+<table class="monster">
+<thead><tr><th>
+Black Pudding, Lesser
+</th></tr></thead>
+<tbody>
+<tr><td><i>Small ooze</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 **Armor Class**  7
+
 **Hit Points**   13 (3d6 + 3)
+
 **Speed**   30 ft., climb 30 ft.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
 
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |12 (+1)|5 (-3) |12 (+1)|1 (-5) |6 (-2) |1 (-5) |
 
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
 **Damage Immunities**   acid, cold, lightning, slashing
+
 **Condition Immunities**   blinded, charmed, deafened, exhaustion, frightened, prone
+
 **Senses**   blindsight 30 ft. (blind beyond this radius)
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
 
 ***Amorphous***. The ooze can move through a space as narrow as 1 inch wide without squeezing.
 
 ***Corrosive Form***. A creature that touches the pudding or hits it with a melee attack within 5 feet of it takes 2 (1d4) acid damage. Any nonmagical weapon made of metal or wood that hits the pudding corrodes, taking a permanent and cumulative -1 penalty to damage rolls. If penalty drops to -5, weapon is destroyed. Nonmagical ammunition made of metal or wood that hits is destroyed after dealing damage. The pudding can eat through 1-inch-thick, nonmagical wood or metal in 1 round.
 
 ***Spider Climb***. The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
 ### Actions
 ***Pseudopod***. *Melee Attack*: +3 to hit. *Hit*: 3 (1d4 + 1) bludgeoning damage plus 2 (1d4) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC. The armor is destroyed if the penalty reduces its AC to 10.
+</td></tr></tbody></table>
+</div>
 
+</li>
+<li>
 
-
-
-{{}}">monster,frame
-## Gelatinous Cube, Lesser
-*Medium ooze*
-
-**Armor Class**   6
-**Hit Points**   30 (4d8 + 12)
-**Speed**   15 ft.
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|12 (+1)|2 (-4) |16 (+3)|1 (-5) |6 (-2) |1 (-5) |
-
-**Condition Immunities**   blinded, charmed, deafened, exhaustion, frightened, prone
-**Senses**   blindsight 60 ft. (blind beyond this radius)
-
-***Ooze Cube***. The cube takes up its entire space. Other creatures can enter the space, but a creature that does so is subjected to the cube’s Engulf and has disadvantage on the saving throw. Creatures inside the cube can be seen but have total cover. A creature within 5 feet of the cube can take an action to pull a creature or object out of the cube. Doing so requires a successful DC 11 Strength check, and the creature making the attempt takes 10 (3d6) acid damage. The cube can hold only one Medium or Small creature or up to four tiny creatures inside it at a time.
-
-***Transparent***. Even when the cube is in plain sight, it takes a successful DC 15 Wisdom (Perception) check to spot a cube that has neither moved nor attacked. A creature that tries to enter the cube’s space while unaware of the cube is surprised by the cube.
-### Actions
-***Pseudopod***. *Melee Attack*: +3 to hit. *Hit*: 7 (2d6) acid damage.
-***Engulf***. The cube moves up to its speed. While doing so, it can enter Large or smaller creatures’ spaces. Whenever the cube enters a creature’s space, the creature must make a DC 11 Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet back or to the side of the cube. A creature that chooses not to be pushed suffers the consequences of a failed saving throw. On a failed save, the cube enters the creature’s space and the creature takes 7 (2d6) acid damage and is engulfed. The engulfed creature can’t breathe, is restrained, and takes 14 (4d6) acid damage at the start of each of the cube’s turns. When the cube moves, the engulfed creature moves with it. An engulfed creature can try to escape by taking an action to make a DC 11 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube.
-
-
-
-
-
-
-
-
-
-{{}}">monster,frame
-## Gray Ooze, Lesser
-*Small ooze*
+<div class="monster multimonster frame">
+<table class="monster">
+<thead><tr><th>
+Gray Ooze, Lesser
+</th></tr></thead>
+<tbody>
+<tr><td><i>Small ooze</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 **Armor Class**   8
+
 **Hit Points**   9 (2d6 + 2)
+
 **Speed**   20 ft.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |10 (+0)|6 (-2) |12 (+1)|1 (-5) |6 (-2) |2 (-4) |
 
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
 **Skills**   Stealth +2
+
 **Damage Resistances**   acid, cold, fire
+
 **Condition Immunities**   blinded, charmed, deafened, exhaustion, frightened, prone
+
 **Senses**   blindsight 60 ft. (blind beyond this radius), passive Perception 8
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 ***Amorphous***. The ooze can move through a space as narrow as 1 inch wide without squeezing.
 
 ***Corrode Metal***. Any nonmagical weapon made of metal that hits the ooze corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed, Nonmagical ammunition made of metal that hits the ooze is destroyed after dealing damage. The ooze can eat through 1-inch-thick, nonmagical metal in 1 round.
 
 ***False Appearance***. While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
 ### Actions
 ***Pseudopod***. *Melee Attack*: +3 to hit. *Hit*: 3 (1d4 + 1) bludgeoning damage plus 3 (1d6) acid damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.
 
+</td></tr></tbody></table>
+</div>
+
+</li>
+</ul>
+
+</div>
 
 
 
 
-
-
-
-
-# <a name="internal-sealedDragon">Sealed Dragon</a>
-The sealed dragon curse is not like the others. The cursed form is your original form, and you have been sealed away inside an inferior human body. At times you can release a fraction of your previous might, but mostly you are trapped.
-
-Born to be the most powerful race in the multiverse, sealed dragons are wyrms that are trapped in mortal forms that may or may not forever hold them hostage. These sealed dragons are one of many but the most common are the ones that were kidnapped during their wyrmling period, where a dragon is not yet of great power. It is uncommon and rare for an older dragon to be sealed but Bahamut, the Platinum Dragon has been known to mete out punishments similar to this.
-
-With an infinitely strong body and constantly growing power, dragons are revered as mortal gods capable of shaking the very foundations of a world once they grow powerful enough. Sealed dragons follow the same pattern but in quick bursts. While sealed, their power grows far more quicker than a normal dragon but this has a limit and most dragons that are cursed with being sealed die quick. This is due to lack of adapting. After all, dragons never once adapted to anything, everything else adapts to them.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-sealedDragon">Sealed Dragon</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Cursed Level | Feature |
@@ -1051,6 +1141,15 @@ With an infinitely strong body and constantly growing power, dragons are revered
 | 6th | Indomitable Will |
 | 10th | Wings of Flight |
 | 14th | Superior Species |
+
+</div>
+
+The sealed dragon curse is not like the others. The cursed form is your original form, and you have been sealed away inside an inferior human body. At times you can release a fraction of your previous might, but mostly you are trapped.
+
+Born to be the most powerful race in the multiverse, sealed dragons are wyrms that are trapped in mortal forms that may or may not forever hold them hostage. These sealed dragons are one of many but the most common are the ones that were kidnapped during their wyrmling period, where a dragon is not yet of great power. It is uncommon and rare for an older dragon to be sealed but Bahamut, the Platinum Dragon has been known to mete out punishments similar to this.
+
+With an infinitely strong body and constantly growing power, dragons are revered as mortal gods capable of shaking the very foundations of a world once they grow powerful enough. Sealed dragons follow the same pattern but in quick bursts. While sealed, their power grows far more quicker than a normal dragon but this has a limit and most dragons that are cursed with being sealed die quick. This is due to lack of adapting. After all, dragons never once adapted to anything, everything else adapts to them.
+
 
 ### Dragon Type
 Before you were cursed with a weaker and frail mortal frame, you were once a part of the mightiest race to walk the multiverse and this power still resonates with you even in your most weakest state. Beginning at 1st level when you take this class, you choose one of the true dragons as your true form. This choice will determine many things as you level.
@@ -1079,7 +1178,7 @@ For the purposes of spells and magical effects, you count as dragon and humanoid
 
 While transformed, the following applies in addition to the benefits of your Cursed Form:
 
-<div class="descriptive" markdown="1">
+<div class="cursedcols">
 
 *  You gain a claw attack that deals 1d6 + Strength modifier slashing damage.
 
@@ -1087,6 +1186,7 @@ While transformed, the following applies in addition to the benefits of your Cur
 
 *  You can use a breath weapon based as an ***action*** once per transformation. This breath weapon targets all creatures as listed in the Dragon type table. Targets must make a Dexterity saving throw against DC 8 + your proficiency bonus + your Constitution modifier, or a Constitution saving throw if your damage type is cold or poison. If a creature fails this saving throw, it takes damage equal to 2d10 + your Cursed level, or half this amount if it succeeds on the saving throw. At level 6, your line breath weapons increase its length by 15 feet and cone breath weapons become a 20 feet cone. At level 10, your line breath weapons increase its length by 30 feet and cone breath weapons become a 30 feet cone.
 
+</div>
 
 ### Frightful Presence
 From 3rd level, while in your Draconic form, as an ***action*** you may level your draconic gaze at a creature within 60 feet of you. This creature must make a Wisdom saving throw against your spell save DC or become frightened of you for one minute. A creature affected by this repeats this save at the end of each of its turns, and a creature that saves against this effect is immune to it for 24 hours.
@@ -1120,13 +1220,9 @@ Even closer to your release final release, your abilities strengthen.
 
 
 
-
-
-
-# <a name="internal-shadowcursed">Shadowcursed</a>
-You have a constant shadowy presence following you; a spirit, a ghost or a shadow. It could be a vengeful relative’s spirit, the remaining vestige of forgotten deity, a tainted totem spirit, or the remnant of a ghostly sentience that once dwelt in a cursed house but has instead moved onto you. Whatever it is, it is now a part of you, and you know you will never be free of it.  It cannot be heard, with the exception of the whispers only heard by you, slowly pushing you to more heinous deeds.
-
-Your companion is a ghostly being that exists in the ethereal plane, following your everywhere, mirroring your every move. It keeps itself interposed on your body, A creature that is able to see into the ethereal plane will see it, but barely, since it inhabits the same place as you. The reason it chose you might be as simple as you two being the exact same dimensions, making you an ideal hiding place.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-shadowcursed">Shadowcursed</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Cursed Level | Feature |
@@ -1137,6 +1233,33 @@ Your companion is a ghostly being that exists in the ethereal plane, following y
 | 10th | Terrifying Visage |
 | 14th | Against the Shadow |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Ghost Step*** in your normal form.
+
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Terrifying Visage*** in your normal form.
+
+</div>
+</div>
+</div>
+
+</div>
+
+You have a constant shadowy presence following you; a spirit, a ghost or a shadow. It could be a vengeful relative’s spirit, the remaining vestige of forgotten deity, a tainted totem spirit, or the remnant of a ghostly sentience that once dwelt in a cursed house but has instead moved onto you. Whatever it is, it is now a part of you, and you know you will never be free of it.  It cannot be heard, with the exception of the whispers only heard by you, slowly pushing you to more heinous deeds.
+
+Your companion is a ghostly being that exists in the ethereal plane, following your everywhere, mirroring your every move. It keeps itself interposed on your body, A creature that is able to see into the ethereal plane will see it, but barely, since it inhabits the same place as you. The reason it chose you might be as simple as you two being the exact same dimensions, making you an ideal hiding place.
+
 ### The Shadow Within
 Your Cursed form is a ghostly being, with the same size as you, but with a terrible, twisted visage. When you “transform”, you are shunted into the ethereal plane, while your presence takes your place in the material plane. You see everything that happens, but you are powerless, unable to affect events unfolding. Now you are the whispers in the mind of your constant companion.
 
@@ -1144,7 +1267,7 @@ This means all your equipment follows you to the ethereal plane with your body, 
 
 While transformed, the following applies in addition to the benefits of your Cursed Form:
 
-<div class="descriptive" markdown="1">
+<div class="cursedcols">
 
 *  The Cursed form has a physical body that weighs 1/10 of your original weight, but has an unearthly strength, making it more than capable of destroying its (and your) enemies.
 
@@ -1152,13 +1275,9 @@ While transformed, the following applies in addition to the benefits of your Cur
 
 *  It has resistance to all nonmagical damage, except psychic and radiant.
 
-
-
-
-<div class="descriptive" markdown="1">
-
 *  The Cursed form can attack unarmed, dealing 1 + Strength modifier bludgeoning damage and 1d6 necrotic damage, or with an icy stare at a target within 30 ft, dealing 1d8 cold damage if the target fails a Constitution save against DC 8 + your proficiency bonus + your Constitution modifier. The necrotic and cold damage both increase by one die size when you reach 5th level, 11th level, and 17th level.
 
+</div>
 
 ### Suspicious Thoughts
 Beginning at 3rd level, you can better harness the hateful vigilance of the shadow that accompanies you, as it warns of possible threats and casts its suspicions on the motives of those you meet. You add your Constitution modifier to all Initiative, Insight and Perception checks. This applies to both forms.
@@ -1173,42 +1292,6 @@ From 10th level, as an ***action***, the Cursed form can terrify others with its
 
 Additionally, when in your normal form, you can take on the terrifying visage of your patron as an ***action***, with the same effects. Once you use this feature, you can't use it again until you take a long rest.
 
-
-
-
-
-
-
-
 ### Against the Shadow
 Starting at 14th level, your long fight against the shadow blackening your thoughts grants you a powerful defense against attempts to influence your mind. You gain proficiency with Charisma saves, you are immune to the charmed and frightened conditions, and you have advantage on all saving throws against enchantment spells.
-
-
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Ghost Step** in your normal form.
-
-| Long rest ||
-|:-|:------- |
-| Add the following form specific benefits to choose from: ||
-| | * Regain use of **Terrifying Visage** in your normal form.
-
-
-
-
-
-
-
-
-
 

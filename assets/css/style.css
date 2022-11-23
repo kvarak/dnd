@@ -172,8 +172,8 @@ summary {
   }
 }
 .columns ul, .columnsthree ul {
-    list-style: none;
-    margin: 0 0 1.5em 0;
+  list-style: none;
+  margin: 0 0 1.5em 0;
 }
 
 .columns li, .columnsthree li {
@@ -185,6 +185,12 @@ summary {
   margin-bottom: 5px;
   break-inside: avoid !important;
 }
+
+.noliststyle ul {
+  list-style: none;
+  margin: 0 0 1.5em 0;
+}
+
 
 /* ------------------------------------------------------------------------------------------------ */
 
@@ -344,6 +350,11 @@ hr.classdivider {
   background-image: url(../images/redTriangle.png);
   background-size: 100% 100%;
   border: none;
+}
+
+.multimonster.frame {
+  margin: 0px;
+  float: none;
 }
 
 /* ------------------------------------------------------------------------------------------------ */
