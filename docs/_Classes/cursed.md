@@ -70,7 +70,7 @@ As an ***action*** you can transform into the Cursed form. Your size is now medi
 
 Unless otherwise noted in the specific curse descriptions, the following applies when you are in your Cursed Form:
 
-<div class="columnstwo">
+<div class="cursedcols">
 
 * In addition to wardrobe malfunctions, your stats change. When changing form each physical ability score and its associated saving throw (Strength, Dexterity, Constitution) is exchanged with a mental (Intelligence, Wisdom, Charisma).
   You may change which physical ability is changed to which mental ability when changing form. You make this choice at level 1 and cannot change this later.
@@ -257,7 +257,7 @@ Your cursed form is a monstrous, larger and powerful form of you, totally consum
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="columnstwo">
+<div class="cursedcols">
 
 * Your mind is filled with pure emotion, granting you **advantage on all Wisdom saving throws**.
 
@@ -338,7 +338,7 @@ As a side effect of the origin of your Cursed form, spells affect you as if you 
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="columnstwo">
+<div class="cursedcols">
 
 *  You can see in complete darkness up to 60 ft, and can communicate telepathically with any creature that has a language that you can see, up to 120 ft away.
 
@@ -390,7 +390,7 @@ When you select this Cursed form at 1st level, select two Mutations listed at th
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="columnstwo">
+<div class="cursedcols">
 
 *  You have resistance to acid and poison damage.
 
@@ -500,7 +500,7 @@ When you gain your Demonic form at 1st level, select one of the demonic aspects 
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="columnstwo">
+<div class="cursedcols">
 
 *  You have resistance to cold, fire and lightning damage.
 
@@ -626,17 +626,22 @@ While in your Cursed form, your original form (i.e. you) is safe somewhere else,
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="columnstwo">
+<div class="cursedcols">
 
-*  The rift's attack is something random ejected from the rift. Choose a target and roll on the table below for damage type. The damage equals 1d8 + your Constitution modifier. This is a ranged spell attack, with 30 feet range, using your Constitution modifier to hit. The attach does not have disadvantage when there is an adjacent enemy.
+*  The rift's attack is something random ejected from the rift. Choose a target and roll on the table below for damage type. The damage equals 1d8 + your Constitution modifier. This is a ranged spell attack, with 30 feet range, using your Constitution modifier to hit. The attack does not have disadvantage when there is an adjacent enemy.
 
-  | d10 | Damage Type | d10 | Damage Type |
-  | :-: | :---------- | :-: | :---------- |
-  | 1	| Thunder       |  6	| Bludgeoning
-  | 2	| Acid          |  7	| Piercing
-  | 3	| Cold          |  8	| Slashing
-  | 4	| Fire          |  9	| Necrotic
-  | 5	| Lightning     | 10 | Radiant
+    | d10 | Damage Type |
+    | :-: | :---------- |
+    | 1	| Thunder
+    | 2	| Acid
+    | 3	| Cold
+    | 4	| Fire
+    | 5	| Lightning
+    | 6	| Bludgeoning
+    | 7	| Piercing
+    | 8	| Slashing
+    | 9	| Necrotic
+    | 10 | Radiant
 
 *  The rift cannot move. It sheds bright multicolored light in a radius equal to what would have been your walking speed. However, as an ***action*** the rift can blink and open up at another point within the light. When it does, it results in a wild surge with itself as the caster and all adjacent creatures as targets.
 
@@ -709,7 +714,7 @@ Your Cursed form is an animal-humanoid hybrid. Select one of the lycanthropic fo
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="columnstwo">
+<div class="cursedcols">
 
 *  You have gain the shapechanger creature type.
 
@@ -870,14 +875,8 @@ In addition, whenever you attack a creature frightened by you (in any form), you
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-lycanthropic">Lycanthropic Curse</a></h1>
+<h1><a class="internal-link" name="internal-molded">Molded</a></h1>
 <div class="featuresTable">
-
-
-# <a name="internal-molded">Molded</a>
-You have been infected with an intelligent ooze. At first it just lived inside your body, among your organs, but slowly it started to replace your inner anatomy. You are not sure how you can still function, as your insides were slowly replaced. It came as a shock, the first time your entire body collapsed into a pile of ooze, totally outside your control. You realized that maybe you were not you anymore, and your whole body had been replaced by a slimy body snatcher. With sheer willpower you pulled yourself together.
-
-Now the lines have blurred, and you do not know who or what you really are, man or ooze. You feel like yourself most of the time, solid as you should, but at times you lose cohesion and you are not so certain anymore.
 
 #### Features
 | Cursed Level | Feature |
@@ -889,12 +888,18 @@ Now the lines have blurred, and you do not know who or what you really are, man 
 | 14th | Slime Sight |
 | 14th | Growing Ooze |
 
+</div>
+
+You have been infected with an intelligent ooze. At first it just lived inside your body, among your organs, but slowly it started to replace your inner anatomy. You are not sure how you can still function, as your insides were slowly replaced. It came as a shock, the first time your entire body collapsed into a pile of ooze, totally outside your control. You realized that maybe you were not you anymore, and your whole body had been replaced by a slimy body snatcher. With sheer willpower you pulled yourself together.
+
+Now the lines have blurred, and you do not know who or what you really are, man or ooze. You feel like yourself most of the time, solid as you should, but at times you lose cohesion and you are not so certain anymore.
+
 ### Ooze form
 When you transform into your Cursed form your body melts into a brightly colored ooze. In both forms you count as both humanoid and ooze.
 
 While transformed, the following applies in addition to the benefits of your Cursed Form:
 
-<div class="descriptive" markdown="1">
+<div class="cursedcols">
 
 *  Being amorphous, you are able to move through a space as narrow as 1 inch wide without squeezing.
 
@@ -904,7 +909,7 @@ While transformed, the following applies in addition to the benefits of your Cur
 
 *  You gain 30 feet blindsight and are immune to the blinded condition.
 
-
+</div>
 
 
 ### Ooze Companion

@@ -151,7 +151,7 @@ summary {
     column-count: 3;
     column-gap: 30px;
   }
-  .columnstwo ul {
+  .cursedcols ul {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
     -webkit-column-count: 2;
@@ -176,9 +176,13 @@ summary {
     margin: 0 0 1.5em 0;
 }
 
-.columns li, .columnstwo li {
-    margin-bottom: 5px;
-    break-inside: avoid !important;
+.columns li {
+  margin-bottom: 5px;
+  break-inside: avoid !important;
+}
+
+.cursedcols li {
+  margin-bottom: 5px;
 }
 
 /* ------------------------------------------------------------------------------------------------ */
