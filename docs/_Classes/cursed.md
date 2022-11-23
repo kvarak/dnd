@@ -70,7 +70,7 @@ As an ***action*** you can transform into the Cursed form. Your size is now medi
 
 Unless otherwise noted in the specific curse descriptions, the following applies when you are in your Cursed Form:
 
-<div class="description columnstwo">
+<div class="columnstwo">
 
 * In addition to wardrobe malfunctions, your stats change. When changing form each physical ability score and its associated saving throw (Strength, Dexterity, Constitution) is exchanged with a mental (Intelligence, Wisdom, Charisma).
   You may change which physical ability is changed to which mental ability when changing form. You make this choice at level 1 and cannot change this later.
@@ -257,7 +257,7 @@ Your cursed form is a monstrous, larger and powerful form of you, totally consum
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="description columnstwo">
+<div class="columnstwo">
 
 * Your mind is filled with pure emotion, granting you **advantage on all Wisdom saving throws**.
 
@@ -338,7 +338,7 @@ As a side effect of the origin of your Cursed form, spells affect you as if you 
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="description columnstwo">
+<div class="columnstwo">
 
 *  You can see in complete darkness up to 60 ft, and can communicate telepathically with any creature that has a language that you can see, up to 120 ft away.
 
@@ -390,7 +390,7 @@ When you select this Cursed form at 1st level, select two Mutations listed at th
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="description columnstwo">
+<div class="columnstwo">
 
 *  You have resistance to acid and poison damage.
 
@@ -500,7 +500,7 @@ When you gain your Demonic form at 1st level, select one of the demonic aspects 
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="description columnstwo">
+<div class="columnstwo">
 
 *  You have resistance to cold, fire and lightning damage.
 
@@ -595,6 +595,25 @@ The aspect describes the powers of the demon inhabiting your mind. Aspects have 
 | 10th | Spellmeister, Surgeproof |
 | 14th | Share your Curse |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a Long rest: |
+| * Regain use of ***Surgeproof***.
+| &nbsp;
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Spellmeister***.
+| * Regain use of ***Share your Curse***.
+
+</div>
+</div>
+</div>
+
 </div>
 
 Your cursed form is not a creature at all. By some cosmic happenstance, an improbable space-time collision or maybe because of a simple wild surge, a piece on entropy now resides in you. It periodically opens a rift between here and the wild entropy of Limbo, with you as its anchor point. When this happens, you are shunted to a pocket dimension within Limbo, while in your place remains a multicolored shimmering light.
@@ -607,22 +626,17 @@ While in your Cursed form, your original form (i.e. you) is safe somewhere else,
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="descriptive columnstwo" markdown="1">
+<div class="columnstwo">
 
 *  The rift's attack is something random ejected from the rift. Choose a target and roll on the table below for damage type. The damage equals 1d8 + your Constitution modifier. This is a ranged spell attack, with 30 feet range, using your Constitution modifier to hit. The attach does not have disadvantage when there is an adjacent enemy.
 
-| d10 | Damage Type |
-| :-: | :---------- |
-| 1	| Thunder
-| 2	| Acid
-| 3	| Cold
-| 4	| Fire
-| 5	| Lightning
-| 6	| Bludgeoning
-| 7	| Piercing
-| 8	| Slashing
-| 9	| Necrotic
-| 10 | Radiant
+  | d10 | Damage Type | d10 | Damage Type |
+  | :-: | :---------- | :-: | :---------- |
+  | 1	| Thunder       |  6	| Bludgeoning
+  | 2	| Acid          |  7	| Piercing
+  | 3	| Cold          |  8	| Slashing
+  | 4	| Fire          |  9	| Necrotic
+  | 5	| Lightning     | 10 | Radiant
 
 *  The rift cannot move. It sheds bright multicolored light in a radius equal to what would have been your walking speed. However, as an ***action*** the rift can blink and open up at another point within the light. When it does, it results in a wild surge with itself as the caster and all adjacent creatures as targets.
 
@@ -651,13 +665,6 @@ Beginning at 10th level you can cast every known spell in the multiverse. Unfort
 
 If you use this feature in your normal form and target an enemy, you roll two random spells, and the GM will choose the most appropriate one. As a rule of thumb, an offensive spell will be chosen before a neutral one, and a beneficial chosen last.
 
-
-
-
-
-
-
-
 If you use this feature in your Cursed form and target an ally, you also roll two random spells, and the GM will choose the most appropriate one. The rule of thumb is the opposite (beneficial, neutral, and offensive last).
 
 In both cases a lower level spell will be chosen over a higher level. You can use this feature once in each form, and this use recovers when you finish a long rest.
@@ -669,8 +676,6 @@ You can choose this after you know the effect of the wild surge, but before any 
 
 When you have lost control like this once, it can not be triggered until after you completed a long rest.
 
-
-
 ### Share your Curse
 From 14th level you can unleash a massive burst of chaotic energy as an ***action*** in your normal form, letting others feel just a tiny fraction of the curse you constantly bear within you.
 
@@ -678,39 +683,9 @@ All creatures within a 30 feet radius must make a Charisma saving throw. If they
 
 You can use this feature once and you can recover the use when you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a Long rest: ||
-| | * Regain use of **Surgeproof**.
-| | &nbsp;
-| Add the following form specific benefits to choose from: ||
-| | * Regain use of **Spellmeister**.
-| | * Regain use of **Share your Curse**.
-
-
-
-
-
-
-
-
-
-
-
-# <a name="internal-lycanthropic">Lycanthropic Curse</a>
-You are filled with animalistic fury and cursed with lycanthropy that changes you into a beast when the full moon hangs high in the sky.
-
-One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire, features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.
-
-Evil lycanthropes hide among normal folk, emerging in beast form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-lycanthropic">Lycanthropic Curse</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Cursed Level | Feature |
@@ -721,12 +696,20 @@ Evil lycanthropes hide among normal folk, emerging in beast form at night to spr
 | 10th | Lycanthropic Form feature |
 | 14th | Survivor |
 
+</div>
+
+You are filled with animalistic fury and cursed with lycanthropy that changes you into a beast when the full moon hangs high in the sky.
+
+One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire, features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.
+
+Evil lycanthropes hide among normal folk, emerging in beast form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.
+
 ### Lycanthropic Form
 Your Cursed form is an animal-humanoid hybrid. Select one of the lycanthropic form listed at the end of this Curse description.
 
 While transformed, the following applies in addition to the benefits of your Cursed form:
 
-<div class="descriptive" markdown="1">
+<div class="columnstwo">
 
 *  You have gain the shapechanger creature type.
 
@@ -734,14 +717,13 @@ While transformed, the following applies in addition to the benefits of your Cur
 
 *  Your natural weapons count as magical weapons
 
+</div>
 
 ### Beast Empathy
 Even when not in your Cursed form, beasts of the same type as your lycanthropic form recognize you as one of them. Through sound and gestures, you can communicate simple ideas with such beasts. You also have advantage on checks to intimidate beasts.
 
 ### Improved Critical
 Starting at 3rd level, your natural attacks score a critical hit on a roll of 19-20.
-
-
 
 ### Keen Senses
 Also from 3rd level, you gain proficiency with the Survival skill, and advantage on Perception checks that rely on hearing or smell, in both your forms.
@@ -768,6 +750,7 @@ While transformed, the following applies in addition to the benefits of your Lyc
 
 *  Whenever you take the Attack action, you can also make a bite attack as a ***bonus action***, for 3d4 + Strength modifier piercing damage.
 
+</div>
 
 #### Formidable Strength
 At 6th level you gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects. This benefit applies in both your forms.
@@ -797,6 +780,7 @@ While transformed, the following applies in addition to the benefits of your Lyc
 
 *  When you successfully hit a creature with your tusks on your turn you may use your ***bonus action*** to attempt to push the creature back. The creature must succeed with a Strength saving throw with a DC equal to 8 + your proficiency + your Strength modifier or be pushed 10 feet away from you.
 
+</div>
 
 #### Charge
 Starting at 6th level, while in your hybrid form, if move at least 15 feet straight toward a target and then hit it with your tusks on the same turn, the target takes an extra 2d6 piercing damage. If the target is a creature, it must succeed on a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Strength modifier or be knocked prone.
@@ -821,6 +805,7 @@ While transformed, the following applies in addition to the benefits of your Lyc
 
 *  A creature damaged by your bite must succeed with a Constitution saving throw against a DC equal to 8 + your proficiency bonus + your Constitution modifier or take an additional 2d4 poison damage and become poisoned until the end of its next turn.
 
+</div>
 
 #### Scurry
 Starting at 6th level if you take the disengage action on your turn you can dash as a bonus action. Additionally if you take the attack action on your turn, you can disengage as a bonus action.
@@ -843,6 +828,7 @@ While transformed, the following applies in addition to the benefits of your Lyc
 
 *  Whenever you take the attack action, you can also make a bite attack as a ***bonus action***, for 1d8 + Strength modifier piercing damage.
 
+</div>
 
 #### Feline Agility
 Starting at 6th level, you have advantage on Acrobatics checks. Additionally if you take the Dodge action on your turn you may use your ***bonus action*** to make a single attack with your claws.
@@ -866,6 +852,7 @@ While transformed, the following applies in addition to the benefits of your Lyc
 
 *  Whenever you take the attack action, you can also make a bite attack as a ***bonus action***, for 1d8 + Strength modifier piercing damage.
 
+</div>
 
 
 
@@ -882,6 +869,9 @@ In addition, whenever you attack a creature frightened by you (in any form), you
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-lycanthropic">Lycanthropic Curse</a></h1>
+<div class="featuresTable">
 
 
 # <a name="internal-molded">Molded</a>
