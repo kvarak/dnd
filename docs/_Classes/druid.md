@@ -1,23 +1,23 @@
 ---
-title: Cursed
+title: Druid
 layout: default
 ---
 
 <div class="toc" markdown="1">
 
-- #### [Druid Circles](#p5)
-  - <a href="#internal-blood">Circle of Blood</a>
-  - <a href="#internal-dreams">Circle of Dreams</a>
-  - <a href="#internal-dust">Circle of Dust</a>
-  - <a href="#internal-forest">Circle of the Forest</a>
-  - <a href="#internal-garden">Circle of the Garden</a>
-  - <a href="#internal-land">Circle of the Land</a>
-  - <a href="#internal-moon">Circle of the Moon</a>
-  - <a href="#internal-sands">Circle of Sands</a>
-  - <a href="#internal-shepherd">Circle of the Shepherd</a>
-  - <a href="#internal-spores">Circle of Spores</a>
-  - <a href="#internal-storms">Circle of Storms</a>
-  - <a href="#internal-swarm">Circle of the Swarm</a>
+#### [Druid Circles](#p5)
+<a href="#internal-blood">Circle of Blood</a><br/>
+<a href="#internal-dreams">Circle of Dreams</a><br/>
+<a href="#internal-dust">Circle of Dust</a><br/>
+<a href="#internal-forest">Circle of the Forest</a><br/>
+<a href="#internal-garden">Circle of the Garden</a><br/>
+<a href="#internal-land">Circle of the Land</a><br/>
+<a href="#internal-moon">Circle of the Moon</a><br/>
+<a href="#internal-sands">Circle of Sands</a><br/>
+<a href="#internal-shepherd">Circle of the Shepherd</a><br/>
+<a href="#internal-spores">Circle of Spores</a><br/>
+<a href="#internal-storms">Circle of Storms</a><br/>
+<a href="#internal-swarm">Circle of the Swarm</a><br/>
 
 </div>
 
@@ -27,8 +27,6 @@ Within the purity of the elements and the order of the wilds lingers a power bey
 Druids are the caretakers of the natural world, and it is said that in time a druid becomes the voice of nature, speaking the truth that is too subtle for the general populace to hear. Many who become druids find that they naturally gravitate toward nature; its forces, cycles, and movements fill their minds and spirits with wonder and insight. Many sages and wise folk have studied nature, writing volumes about its mystery and power, but druids are a special kind of being: at some point, they begin to embody these natural forces, producing magical phenomena that link them to the spirit of nature and the flow of life. Because of their strange and mysterious power, druids are often revered, shunned, or considered dangerous by the people around them.
 
 Your druid character might be a true worshiper of nature, one who has always scorned civilization and found solace in the wild. Or your character could be a child of the city who now strives to bring the civilized world into harmony with the wilderness. You can use the sections that follow to flesh out your druid, regardless of how your character came to the profession.
-
-
 
 ## Druid Class Features
 As a druid, you gain the following class features.
@@ -51,7 +49,7 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* a scimitar, *(b)* any simple melee weapon
 - Leather armor, an explorer’s pack, and a druidic focus
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 ##### Sacred Plats and Knowledge
 A druid holds certain plants to be sacred, particularly alder, ash, birch, elder, hazel, holly, juniper, mistletoe, oak, rowan, willow, and yew. Druids often use such plants as part of a spellcasting focus, incorporating lengths of oak or yew or sprigs of mistletoe.
@@ -61,30 +59,20 @@ weapons, such as darts or javelins.
 
 Druids from regions that lack the plants described here have chosen other plants to take on similar uses. For instance, a druid of a desert region might value the yucca tree and cactus plants.
 
-
-
-
-
-
-
-
+</div>
 
 ### Communicate with Nature
 Select one of the following:
 
-#### Druidic
-You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.
+***Druidic***: You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.
 
-#### Raised by Beasts
-Choose one beast that you have seen before. You can comprehend and verbally communicate with others of its kind. Your DM may decide that your ability to speak with the species of beast allows you to speak with a similar species of beast. For example, if you can speak with brown bears, your DM may decide that you can also speak with polar bears.
+***Raised by Beasts***: Choose one beast that you have seen before. You can comprehend and verbally communicate with others of its kind. Your DM may decide that your ability to speak with the species of beast allows you to speak with a similar species of beast. For example, if you can speak with brown bears, your DM may decide that you can also speak with polar bears.
 
 ### Druid Circle
 When becoming a druid, you choose to identify with a circle, detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
 
 ### Spellcasting
 Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will.
-
-
 
 #### Cantrips
 At 1st level, you know two cantrips of your choice from the druid spell list.
@@ -98,10 +86,11 @@ You prepare the list of druid spells that are available for you to cast, choosin
 
 You can change your list of prepared spells when you finish every morning. However, if you do not have your maximum number of spells prepared, you can add a new spell to your list of prepared spells at any time. Both these activities requires time spent in prayer and meditation: at least 1 minute per spell level for each new spell.
 
-{{}}">classTable,frame,decoration,wide,position:absolute;top:570px;width:90%;right:40px;
+<div class="block classTable frame" markdown="1">
+
 ##### The Druid
-| Level | Proficiency | Features     | Cantrips |  --- Spell Slots Per Spell Level ---|||||||||
-|      ^| Bonus      ^|             ^| Known   ^| 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+
+| - Level - | - Proficiency Bonus - | - Features -     | - Cantrips Known - | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
 |:-----:|:-----------:|:-------------|:--------:|:------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |1st| +2| Communicate with Nature, Druid Circle, Spellcasting |2|2|—|—|—|—|—|—|—|—|
 |2nd| +2| Borrowing, Wild Shape, Wild Companion |2|3|—|—|—|—|—|—|—|—|
@@ -124,19 +113,28 @@ You can change your list of prepared spells when you finish every morning. Howev
 |19th| +6| Ability Score Improvement |4|4|3|3|3|3|2|1|1|1|
 |20th| +6| Archdruid |4|4|3|3|3|3|2|2|1|1|
 
-
-
-
-
-
-
-
+</div>
 
 #### Spellcasting Ability
 Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
 
 * **Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
 * **Spell attack modifier** = your proficiency bonus + your Wisdom modifier
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Wild Shape***.
+
+</div>
+</div>
+</div>
 
 #### Ritual Casting
 You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
@@ -156,6 +154,7 @@ Your druid level determines the beasts you can transform into, as shown in the B
 
 
 #### Beast Shapes
+
 | Level | Max CR | Limitations | Example |
 |:-----:|:------:|:------------|:--------|
 | 2nd | 1/4 | No flying or swimming speed | Wolf |
@@ -165,9 +164,10 @@ Your druid level determines the beasts you can transform into, as shown in the B
 
 You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a ***bonus action*** on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.
 
-
-
 While you are transformed, the following rules apply:
+
+<div class="cursedcols">
+
 * Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies and the languages you know, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours.
 
 * When you transform, you assume the beast's average hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form and lose one unspent hit die or suffer a level of exhaustion if you have no hit dice remaining.
@@ -177,6 +177,8 @@ While you are transformed, the following rules apply:
 * You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you cannot use multiattack in your new form until you are a 5th-level druid (or higher).
 
 * You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature’s shape and size. Your equipment doesn’t change size or shape to match the new form. Equipment that merges with the form has no effect until you leave the form.
+
+</div>
 
 ### Wild Companion
 You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the *Find familiar* spell, without material components.
@@ -198,28 +200,9 @@ Starting at 18th level, the primal magic that you wield causes you to age more s
 ### Beast Spells
 Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren’t able to provide material components.
 
- ::
-
-
 
 ### Archdruid
 At 20th level, you can use your Wild Shape an unlimited number of times.
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class specific benefits to choose from: ||
-| | * Regain all uses of **Wild Shape**.
-
-
-
 
 
 {{}}">wide
