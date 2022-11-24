@@ -19,7 +19,7 @@ collections:
     output: true
   Folk:
     output: true
-  Links:
-    output: true
+  # Links:
+  #   output: true
   Rules:
     output: true
