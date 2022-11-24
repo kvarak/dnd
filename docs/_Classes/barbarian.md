@@ -139,25 +139,25 @@ While not wearing armor, your Armor Class equals 10 + your Dexterity modifier + 
 ### Combat Style
 At 2nd level you can choose one of the following options: *Cleaving Blow*, *Heightened Reflexes* or *Reckless Attack*.
 
-#### Cleaving Blow
+***Cleaving Blow***:
 When you reduce a creature to 0 hit points with a melee weapon attack, you can target another creature adjacent of the original target and also within your weapon's reach; if your original attack roll would also hit the second creature, any excess damage from the attack is applied to that creature.
 
-#### Heightened Reflexes
+***Heightened Reflexes***:
 While raging, you gain an additional reaction, but you can't use both of your reactions on the same trigger.
 
-#### Reckless Attack
+***Reckless Attack***:
 You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.
 
 ### Survivor
 At 2nd level you can choose one of the following two options: *Danger Sense* or *Survival Instincts*.
 
-#### Danger Sense
+***Danger Sense***:
 You gain an uncanny sense of when things nearby aren’t as they should be, giving you an edge when you dodge away from danger.
 
 You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated.
 
 
-#### Survival Instincts
+***Survival Instincts***:
 You have learnt how to survive in the wilds and gain two of the following skills: Breaking things (doors, bars, etc.), Feats of strength (lifting things, toppling wagons, etc.), Perception, Surviving in the wilds or Tracking.
 
 Additionally you always have advantage with those skill.
@@ -178,16 +178,16 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 ### Mobile
 At 5th level you can choose one of the following options: *Fast Movement*, *Hunter's grace*, *Instinctive Pounce* and *Unstoppable*.
 
-#### Fast Movement
+***Fast Movement***:
 Your speed increases by 5 feet while you aren’t wearing heavy armor.
 
-#### Hunter's Grace
+***Hunter's Grace***:
 Physical obstacles can’t hold you back. You gain climb and swimming speed equal to your walking speed while you aren't wearing heavy armor.
 
-#### Instinctive Pounce
+***Instinctive Pounce***:
 When a creature ends its turn within 15 feet of you, you can use your **reaction** to move up to half your speed to a space closer to the creature and make a single melee weapon attack with advantage. The enemy you attack using this feature has advantage on attack rolls against you until the start of your next turn.
 
-#### Unstoppable
+***Unstoppable***:
 Your foes have no chance to escape you. You always add your proficiency bonus to ability checks made when moving (climbing, swimming etc.) or moving past physical obstacles.
 
 ### Feral Instinct
@@ -212,13 +212,13 @@ Each time you use this feature after the first, the DC increases by 5.
 ### Rage Power
 At 15th and 18th level you can choose one of the following options: *Clarity of Mind*, *Indomitable Might* or *Unstoppable Power*.
 
-#### Clarity of Mind
+***Clarity of Mind***:
 When you fail a Intelligence, Wisdom or Charisma saving throw while raging, you can use your **reaction** to automatically succeed.
 
-#### Indomitable Might
+***Indomitable Might***:
 During rage, if your total for a Strength check or Strength save is less than your Strength score, you can use that score in place of the total.
 
-#### Unstoppable Power
+***Unstoppable Power***:
 While in your rage, you have advantage on all Strength, Dexterity, and Constitution saving throws.
 
 ### Primal Champion
