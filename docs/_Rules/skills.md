@@ -228,6 +228,8 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
 
   </details>
 
+  <hr>
+
   #### Skills
   Unless otherwise noted, the skills below apply to all categories of animals you are familiar with and only to “normal” domesticable animals.
 
@@ -267,10 +269,10 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
     
   <div class="skill-frame">
   
-    ##### War-trained template
-    - Add proficiency with all barding and with the Athletics skill.
-    - The animal uses the highest of its own or its current master’s proficiency bonus, and its minimum number of hit dice is twice that proficiency bonus.
-    - The training also conveys advantage on Intelligence, Wisdom and Charisma saves if the creature can see and hear its trainer/master when it makes the save.
+  ##### War-trained template
+  - Add proficiency with all barding and with the Athletics skill.
+  - The animal uses the highest of its own or its current master’s proficiency bonus, and its minimum number of hit dice is twice that proficiency bonus.
+  - The training also conveys advantage on Intelligence, Wisdom and Charisma saves if the creature can see and hear its trainer/master when it makes the save.
   
   </div>
 
