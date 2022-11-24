@@ -249,6 +249,14 @@ summary {
   margin-top: 5px;
 }
 
+.skill-frame h5 {
+  margin-top: 0px;
+}
+
+.skill-frame ul {
+  margin-bottom: 0px;
+}
+
 .toc {
   border: 1px solid black;
   border-radius: 8px;
