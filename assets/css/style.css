@@ -123,6 +123,23 @@ summary {
   display: list-item;
 }
 
+/* -------------------------------------------------------------------- */
+
+.iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 /* -------------------------------------------------------------------- */
 /* nav bar dropdowns */
@@ -151,7 +168,7 @@ summary {
     column-count: 3;
     column-gap: 30px;
   }
-  .columnstwo ul {
+  .cursedcols ul {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
     -webkit-column-count: 2;
@@ -172,14 +189,25 @@ summary {
   }
 }
 .columns ul, .columnsthree ul {
-    list-style: none;
-    margin: 0 0 1.5em 0;
+  list-style: none;
+  margin: 0 0 1.5em 0;
 }
 
-.columns li, .columnstwo li {
-    margin-bottom: 5px;
-    break-inside: avoid !important;
+.columns li, .columnsthree li {
+  margin-bottom: 5px;
+  break-inside: avoid !important;
 }
+
+.cursedcols li {
+  margin-bottom: 5px;
+  break-inside: avoid !important;
+}
+
+.noliststyle ul {
+  list-style: none;
+  margin: 0 0 1.5em 0;
+}
+
 
 /* ------------------------------------------------------------------------------------------------ */
 
@@ -343,6 +371,11 @@ hr.classdivider {
   background-image: url(../images/redTriangle.png);
   background-size: 100% 100%;
   border: none;
+}
+
+.multimonster.frame {
+  margin: 0px;
+  float: none;
 }
 
 /* ------------------------------------------------------------------------------------------------ */
