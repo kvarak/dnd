@@ -210,44 +210,35 @@ Though their organization is invisible to most outsiders, druids are part of a s
 
 <div class="columnsthree">
 
-**<a href="#internal-blood">Circle of Blood</a>** Druids that can wildshape parts of their body, even to several animals at once.
+- **<a href="#internal-blood">Circle of Blood</a>** Druids that can wildshape parts of their body, even to several animals at once.
 
-**<a href="#internal-dreams">Circle of Dreams</a>** Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms.
+- **<a href="#internal-dreams">Circle of Dreams</a>** Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms.
 
-**<a href="#internal-dust">Circle of Dust</a>** A druid safeguarding nature in an area where widespread, catastrophic or near-catastrophic ruin is pervasive.
+- **<a href="#internal-dust">Circle of Dust</a>** A druid safeguarding nature in an area where widespread, catastrophic or near-catastrophic ruin is pervasive.
 
-**<a href="#internal-forest">Circle of the Forest</a>** Druids that delve deeper into the ancient rituals and hidden knowledge of plant magic.
+- **<a href="#internal-forest">Circle of the Forest</a>** Druids that delve deeper into the ancient rituals and hidden knowledge of plant magic.
 
+- **<a href="#internal-garden">Circle of the Garden</a>** These druids have a deep respect for plants and the gifts they provide.
 
+- **<a href="#internal-land">Circle of the Land</a>** A druid whose magic has been affected by the land he protects.
 
+- **<a href="#internal-moon">Circle of the Moon</a>** Druids who masters wild shape.
 
-**<a href="#internal-garden">Circle of the Garden</a>** These druids have a deep respect for plants and the gifts they provide.
+- **<a href="#internal-sands">Circle of Sands</a>** Druids of the Circle of the Sands finds the toughest life in one of the harshest place of the world — the deserts.
 
-**<a href="#internal-land">Circle of the Land</a>** A druid whose magic has been affected by the land he protects.
+- **<a href="#internal-shepherd">Circle of the Shepherd</a>** Druids of the Circle of the Shepherd recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves.
 
-**<a href="#internal-moon">Circle of the Moon</a>** Druids who masters wild shape.
+- **<a href="#internal-spores">Circle of Spores</a>** Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the  ability to transform lifeless material into abundant life.
 
-**<a href="#internal-sands">Circle of Sands</a>** Druids of the Circle of the Sands finds the toughest life in one of the harshest place of the world — the deserts.
+- **<a href="#internal-storms">Circle of Storms</a>** Guardians and warriors who wield the power of lightning and thunder to destroy their enemies from above.
 
-**<a href="#internal-shepherd">Circle of the Shepherd</a>** Druids of the Circle of the Shepherd recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves.
+- **<a href="#internal-swarm">Circle of the Swarm</a>** Druids of the Circle of the Swarm have found strength in numbers above all else.
 
-**<a href="#internal-spores">Circle of Spores</a>** Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the  ability to transform lifeless material into abundant life.
+</div>
 
-**<a href="#internal-storms">Circle of Storms</a>** Guardians and warriors who wield the power of lightning and thunder to destroy their enemies from above.
-
-**<a href="#internal-swarm">Circle of the Swarm</a>** Druids of the Circle of the Swarm have found strength in numbers above all else.
-
-
-
-
-
-
-
-# <a name="internal-blood">Circle of Blood</a>
-The Circle of Blood is composed of druids who take a more active role in the safeguarding nature against fel beasts and aberrations that seek not only to exploit the wilds, but render them completely violate. Druids of the circle of Blood often find themselves allying with rivals and former enemies and so grow accustomed to living in civilized lands.
-
-In an effort to strike a balance between ferocity and utility, druids of this circle focus on adopting partial forms of beasts while retaining they're humanoid base. The result is a warrior fights with steel and shield, but who can manifest wings, claws, fangs, and toughened skin as challenges present themselves. True masters of this circle have even developed the ability to adopt features of truly supernatural beasts, such as dragons, unicorns, or trolls. Often known as Wardens or Geomancers, these warriors walk the line between man and monster, and use their prowess for the greater good.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-blood">Circle of Blood</a></h1>
+<div class="featuresTable">
 
 #### Circle of Blood Features
 | Druid Level | Feature |
@@ -257,6 +248,11 @@ In an effort to strike a balance between ferocity and utility, druids of this ci
 | 10th | Supernatural Aspect |
 | 14th | Primal Magic |
 
+</div>
+
+The Circle of Blood is composed of druids who take a more active role in the safeguarding nature against fel beasts and aberrations that seek not only to exploit the wilds, but render them completely violate. Druids of the circle of Blood often find themselves allying with rivals and former enemies and so grow accustomed to living in civilized lands.
+
+In an effort to strike a balance between ferocity and utility, druids of this circle focus on adopting partial forms of beasts while retaining they're humanoid base. The result is a warrior fights with steel and shield, but who can manifest wings, claws, fangs, and toughened skin as challenges present themselves. True masters of this circle have even developed the ability to adopt features of truly supernatural beasts, such as dragons, unicorns, or trolls. Often known as Wardens or Geomancers, these warriors walk the line between man and monster, and use their prowess for the greater good.
 
 ### Aspects of the beast
 At 2nd level, you learn how to shape your body to improve your base abilities without sacrificing your humanoid form. When you use your Wild shape ability, you may choose to gain up to two beast aspects instead of assuming a beast shape. Different aspects change different parts of the body, and you can only have one aspect per body part at simultaneously at any time. Using Wild shape this way only requires a ***bonus action***.
@@ -265,56 +261,65 @@ You can still fight, speak, and casts spells while you have a beast aspect. If y
 
 At higher levels, you can adopt both more aspects simultaneously and more powerful aspects. At 6th level, you can have three beast aspects at a time. At 10th level, you can have four. And at 14th level, you can have up to 5 beast aspects.
 
-#### Arms
-**Bear Claws**.  You deal 1d8 + Strength modifier slashing damage with your unarmed attack. In addition, whenever you make an unarmed melee attack, you can attempt to grapple the target as a ***bonus action***.
+<div class="columnsthree">
 
+- #### Arms
+    **Bear Claws**.  You deal 1d8 + Strength modifier slashing damage with your unarmed attack. In addition, whenever you make an unarmed melee attack, you can attempt to grapple the target as a ***bonus action***.
 
+    **Bird Wings**.  Your arms turn into wings. You gain a fly speed equal to your speed. However, it prevents you from casting spells with somatic or material components.
 
-**Bird Wings**.  Your arms turn into wings. You gain a fly speed equal to your speed. However, it prevents you from casting spells with somatic or material components.
-**Gorilla Arms**. Your carrying capacity is doubled, your reach increases to 10 ft, and you have advantage on strength checks to break objects.
+    **Gorilla Arms**. Your carrying capacity is doubled, your reach increases to 10 ft, and you have advantage on strength checks to break objects.
 
-#### Eyes
-**Compound Eyes**. You have advantage on any Intelligence (Investigation) checks made to notice fine details or changes.
-**Eagle Eyes**. You have advantage on Wisdom (Perception) checks to see, and you don't have disadvantage when making ranged attacks at long range.
-**Tiger Eyes**. You can see in dim light within 120 feet as if it were bright light.
+- #### Eyes
+    **Compound Eyes**. You have advantage on any Intelligence (Investigation) checks made to notice fine details or changes.
 
-#### Horns
-**Bull's Horns**. You gain a set of horns. When you take the Dash action, you can use your ***bonus action*** to make an unarmed melee attack. On a hit, you deal 1d12 + Strength modifier bludgeoning damage and push the target 10 ft, if it is no more than one size larger than you.
+    **Eagle Eyes**. You have advantage on Wisdom (Perception) checks to see, and you don't have disadvantage when making ranged attacks at long range.
 
-#### Legs
-**Cat Paws**. You ignore the effects of difficult terrain when moving.
-**Horse Hooves**. Your speed increases by 20 ft.
-**Raptor Talons**. Your legs turn into those of a raptor, allowing you to deal 1d6 + Dexterity slashing damage with your unarmed attack. In addition, you may use your ***bonus action*** to make an unarmed attack.
-**Spider Legs**. You gain a climb speed equal to your speed.
+    **Tiger Eyes**. You can see in dim light within 120 feet as if it were bright light.
 
-#### Mouth
-**Snake's Fang**.  You can use a ***bonus action*** to make a bite attack. On a hit, you deal 1d8 + Strength modifier piercing damage, and the target must make a Constitution save or become poisoned until the end of your next turn. The DC is equal to your spell save DC.
+- #### Horns
+    **Bull's Horns**. You gain a set of horns. When you take the Dash action, you can use your ***bonus action*** to make an unarmed melee attack. On a hit, you deal 1d12 + Strength modifier bludgeoning damage and push the target 10 ft, if it is no more than one size larger than you.
 
-#### Nose
-**Keen Nose**. You have advantage on checks made to find or track creatures.
-**Shark's Frenzy**. You have advantage on melee attack rolls against any creature that doesn't have all its hit points. However, after your attack, all attacks against you also have advantage.
+- #### Legs
+  **Cat Paws**. You ignore the effects of difficult terrain when moving.
 
-#### Skin
-**Beetle Carapace**. You gain resistance to bludgeoning, piercing, and slashing damage.
-**Chameleon Skin**. You have advantage on Dexterity (Stealth) checks, and become invisible as long as you are completely still.
+  **Horse Hooves**. Your speed increases by 20 ft.
 
+  **Raptor Talons**. Your legs turn into those of a raptor, allowing you to deal 1d6 + Dexterity slashing damage with your unarmed attack. In addition, you may use your ***bonus action*** to make an unarmed attack.
 
+  **Spider Legs**. You gain a climb speed equal to your speed.
 
+- #### Mouth
+    **Snake's Fang**.  You can use a ***bonus action*** to make a bite attack. On a hit, you deal 1d8 + Strength modifier piercing damage, and the target must make a Constitution save or become poisoned until the end of your next turn. The DC is equal to your spell save DC.
 
+- #### Nose
+    **Keen Nose**. You have advantage on checks made to find or track creatures.
 
+    **Shark's Frenzy**. You have advantage on melee attack rolls against any creature that doesn't have all its hit points. However, after your attack, all attacks against you also have advantage.
 
+- #### Skin
+    **Beetle Carapace**. You gain resistance to bludgeoning, piercing, and slashing damage.
 
-#### Any
-The following do not conflict with any other aspects, including the ones in the same group.
-**Bat Ears**. You have blindsight out to 30 feet as long as you aren't deafened.
-**Boar's Heart**. The first time you would be reduced to 0 hit points, you instead are reduced to 1 hit point instead. This ability only works once per Wild shape.
-**Elephant Bones**. You gain temporary hit points equal to your Wisdom modifier + your druid level (minimum +1).
-**Gills**. You can breathe both air and water.
-**Lizard Tail**. You gain a quick and powerful tail. As a ***reaction***, when a creature moves within 10 feet of you, you can make an unarmed attack against that creature using your tail. On a hit, you deal 1d10 bludgeoning damage and you knock the target prone if it is no more than on size larger than you and fails a Strength save against you spell save DC.
+    **Chameleon Skin**. You have advantage on Dexterity (Stealth) checks, and become invisible as long as you are completely still.
+- #### Any
+    The following do not conflict with any other aspects, including the ones in the same group.
 
-#### Special
-These have special requirements, such as being counted as several aspect groups.
-**Fish Fins**. You gain a swim speed equal to your speed. Counts as both arms and legs aspect.
+    **Bat Ears**. You have blindsight out to 30 feet as long as you aren't deafened.
+
+    **Boar's Heart**. The first time you would be reduced to 0 hit points, you instead are reduced to 1 hit point instead. This ability only works once per Wild shape.
+
+    **Elephant Bones**. You gain temporary hit points equal to your Wisdom modifier + your druid level (minimum +1).
+
+    **Gills**. You can breathe both air and water.
+
+    **Lizard Tail**. You gain a quick and powerful tail. As a ***reaction***, when a creature moves within 10 feet of you, you can make an unarmed attack against that creature using your tail. On a hit, you deal 1d10 bludgeoning damage and you knock the target prone if it is no more than on size larger than you and fails a Strength save against you spell save DC.
+
+- #### Special
+    These have special requirements, such as being counted as several aspect groups.
+
+    **Fish Fins**. You gain a swim speed equal to your speed. Counts as both arms and legs aspect.
+
+</div>
 
 ### Extra Attack
 At 6th level, you can attack twice whenever you take the Attack action on your turn.
@@ -322,35 +327,31 @@ At 6th level, you can attack twice whenever you take the Attack action on your t
 ### Supernatural Aspect
 At 11th level, you have mastered the ability to adopt a aspects beyond normal beasts and animals of nature. Whenever you use your Wild shape ability to select a beast aspect, you may use one Supernatural aspect instead. All other restrictions apply as for beast aspects.
 
-#### Eyes
-**Umber Hulk Eyes**. While you manifest this supernatural aspect, you have advantage on Strength saving throws and ability checks. In addition, you may use casts the *confusion* spell at will.
+<div class="columnsthree">
 
+- #### Eyes
+    **Umber Hulk Eyes**. While you manifest this supernatural aspect, you have advantage on Strength saving throws and ability checks. In addition, you may use casts the *confusion* spell at will.
 
+- #### Horns
+    **Unicorn Horn**. While you manifest this supernatural aspect, you have advantage on Intelligence saving throws and ability checks. In addition, whenever you cast a spell that restores hit points, you may restore an additional 1d8 hit points.
 
-#### Horns
-**Unicorn Horn**. While you manifest this supernatural aspect, you have advantage on Intelligence saving throws and ability checks. In addition, whenever you cast a spell that restores hit points, you may restore an additional 1d8 hit points.
+- #### Mouth
+    **Dragon Breath**. As an ***action***, you may expend a spell slot of 1st level or higher to make a breath weapon attack. When you first gain this feature, select a Draconic Ancestry from the Dragonborn Traits (Player's Handbook, page 34). The save is equal to your spell save DC, and you deal damage equal to 1d6 plus an additional 1d6 per spell level sacrificed. The damage type and dimensions of the breath is determined by the ancestry chosen.
 
-#### Mouth
-**Dragon Breath**. As an ***action***, you may expend a spell slot of 1st level or higher to make a breath weapon attack. When you first gain this feature, select a Draconic Ancestry from the Dragonborn Traits (Player's Handbook, page 34). The save is equal to your spell save DC, and you deal damage equal to 1d6 plus an additional 1d6 per spell level sacrificed. The damage type and dimensions of the breath is determined by the ancestry chosen.
+- #### Skin
+    **Displacer Beast Hide**. While you manifest this supernatural aspect, you have advantage on Dexterity saving throws and ability checks. In addition, when you take the Dodge Action on your turn, you can make one melee attack as a ***bonus action***.
 
-#### Skin
-**Displacer Beast Hide**. While you manifest this supernatural aspect, you have advantage on Dexterity saving throws and ability checks. In addition, when you take the Dodge Action on your turn, you can make one melee attack as a ***bonus action***.
+- #### Any
+    **Troll Blood**. While you manifest this supernatural aspect, you have advantage on Constitution saving throws and ability checks. In addition, at the start of each of your turns, you regain hit points equal to 2 + your Constitution modifier if you have no more than half your hit points left. You don't gain this benefit if you have 0 hit points, or if you've taken fire or acid damage since the start of your last turn.
 
-#### Any
-**Troll Blood**. While you manifest this supernatural aspect, you have advantage on Constitution saving throws and ability checks. In addition, at the start of each of your turns, you regain hit points equal to 2 + your Constitution modifier if you have no more than half your hit points left. You don't gain this benefit if you have 0 hit points, or if you've taken fire or acid damage since the start of your last turn.
+</div>
 
 ### Primal Magic
 At 14th level, when you use your action to cast a druid spell, you can make one unarmed or weapon attack as a ***bonus action***.
 
-
-
-
-
-
-
-# <a name="internal-dreams">The Circle of Dreams</a>
-Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms. The druids’ guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with dreamy wonder. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places, where dream and reality blur together and where the weary can find rest.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-dreams">The Circle of Dreams</a></h1>
+<div class="featuresTable">
 
 #### Circle of Dreams Features
 | Druid Level | Feature |
@@ -360,6 +361,31 @@ Druids who are members of the Circle of Dreams hail from regions that have stron
 | 10th | Hidden Paths |
 | 14th | Walker in Dreams |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Hidden Paths***.
+
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all charges of ***Balm of the Summer Court***.
+| * Regain use of ***Walker in Dreams***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms. The druids’ guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with dreamy wonder. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places, where dream and reality blur together and where the weary can find rest.
 
 ### Balm of the Summer Court
 At 2nd level, you become imbued with the blessings of the Summer Court. You are a font of energy that offers respite from injuries. You have a pool of fey energy represented by a number of d6s equal to your druid level.
@@ -389,38 +415,9 @@ When you cast *teleportation circle* from this feature or from casting it with a
 
 Once you use this feature, you may regain its use after you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following circle specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a Short rest: ||
-| | * Regain use of **Hidden Paths**.
-
-| Long rest ||
-|:-|:------- |
-| Add the following class specific benefits to choose from: ||
-| | * Regain all charges of **Balm of the Summer Court**.
-| | * Regain use of **Walker in Dreams**.
-
-
-
-
-
-
-
-
-
-
-
-# <a name="internal-dust">The Circle of Dust</a>
-The Circle of Dust is an order of druids seen as something of an aberration by more traditional druids of the Circles of Land and the Moon. Some are sad, wandering prophets offering succor through sometimes frightening powers coaxed from a ravaged world. The worst of the lot are misbegotten, insane harbingers of apocalypse that preach doom and bring further ruin.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-dust">The Circle of Dust</a></h1>
+<div class="featuresTable">
 
 #### Circle of Dust Features
 | Druid Level | Feature |
@@ -431,6 +428,24 @@ The Circle of Dust is an order of druids seen as something of an aberration by m
 | 10th | Resist Decay |
 | 14th | Wrack or Repeal |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain all uses of ***Wrack or Repeal***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+The Circle of Dust is an order of druids seen as something of an aberration by more traditional druids of the Circles of Land and the Moon. Some are sad, wandering prophets offering succor through sometimes frightening powers coaxed from a ravaged world. The worst of the lot are misbegotten, insane harbingers of apocalypse that preach doom and bring further ruin.
 
 ### Theft of Life
 Even if you do not choose to cast healing magic, your unique abilities allow you to "steal" life energy provided by such spells and use it for your own purposes.
@@ -446,8 +461,6 @@ A source that does not possess spendable hit dice (such as a monstrous ally) or 
 
 ### Ash and Wind
 When you reach 6th level, you can expend a use of your Wild shape ability to transform into a cloud of dust and cooled embers. The ash and wind form fonctions as the *gaseous form* spell, with the following exceptions:
-
-
 
 * You cannot make physical attacks, cast spells, or speak, but you gain resistance to bludgeoning, piercing, and slashing damage from non-magical attacks. You do not lose concentration on spells already cast. Upon reaching 18th level, you can cast spells while in this form (as per the beast spells druid ability).
 * When you transform, you assume a hit point total equal to your Wisdom modifier times your level. If these hit points are lost before you return to your druid form, you drop out of the ash and wind form just as you would with a normal use of wild shape to become an animal.
@@ -466,34 +479,25 @@ If you elect to repeal, half of the damage is converted to healing and can be di
 
 You may use wrack or repeal once upon reaching 14th level, gaining an additional use at 18th level.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following circle specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a Short rest: ||
-| | * Regain all uses of **Wrack or Repeal**.
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-forest">Circle of the Forest</a></h1>
+<div class="featuresTable">
 
+#### Circle Features
+| Druid Level | Feature |
+|:-----------:|:--------|
+| 2nd | Plant Shape, One with the Forest |
+| 6th | Plant Shape (improved), Power of the Forest |
+| 10th | Power of the Forest |
+| 14th | Old Growth |
 
+</div>
 
-
-
-
-
-
-
-# <a name="internal-forest">Circle of the Forest</a>
 While most druids have a kinship with the woods and forests, druids who belong to the Circle of the Forest have such an affinity that many wonder where the forest ends and the druid starts. They delve deeper into the ancient rituals and hidden knowledge of plant magic, which helps them to safeguard sacred groves and forests to preserve the natural balance of plants. They serve as the first line of defense against any force that seeks to desecrate these lands, animating the forest itself to fight against their foes.
 
 These druids feel most comfortable deep in the green wilderness, and place great value in its unspoiled form, sharing a world view more in common with dryads and treants than other mortals. At your option, you can pick from or roll on the Circle of the Forest Quirks table to create a quirk for your character.
-
 
 #### Circle of the Forest Quirks
 | d6 | Quirk |
@@ -504,17 +508,6 @@ These druids feel most comfortable deep in the green wilderness, and place great
 | 4 | You can taste 14 flavors of sunlight. Most of them are delicious.
 | 5 | Your hair is a deep, forest green. On a bad hair day, you can't get the leaves out of your hair.
 | 6 | You tend to simply say your own name as means of communication.
-
-
-
-#### Circle Features
-| Druid Level | Feature |
-|:-----------:|:--------|
-| 2nd | Plant Shape, One with the Forest |
-| 6th | Plant Shape (improved), Power of the Forest |
-| 10th | Power of the Forest |
-| 14th | Old Growth |
-
 
 ### Plant Shape
 When you gain the ability to use Wild Shape at 2nd level, you learn how to assume the shape of a plant creature. When you transform into a plant creature, the max CR that you can transform into is increased to 1. Starting at 6th level, you can transform into a plant with a challenge rating as high as your druid level divided by 3, rounded down.
@@ -540,38 +533,43 @@ While this feature is active, you gain the following benefits for 1 minute:
 
   * Your unarmed strikes deal 1d8 + Wisdom bludgeoning damage on hit. When you hit a creature with an unarmed strike on your turn, you can use a ***bonus action*** to attempt to grapple the target.
 
-#### Plant Summoner
-At 2nd level, You can cause a Medium or smaller plant within 30 feet to come to life. As an action, you can expend one use of your Wild Shape feature or a 3rd level spell slot or higher to awaken the plant.
-
-The plant is friendly to you and your companions and obeys your commands. See this creature's game statistics in your choice of the Blight or Fungal stat block, which uses your proficiency bonus (PB) in several places. You determine the plant's appearance but the form should at least resemble the specific stat block that represents it.
-
-In combat, the plant shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a ***bonus action*** to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the plant can take any action of its choice, not just Dodge.
-
-
-
-
-
-
-
-
-
-The plant manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to awaken another plant, or until you die.
-
-{{}}">monster,frame
-## Awakened Plant
-*Medium or smaller plant*
+<div class="monster frame">
+<table class="monster">
+<thead><tr><th>
+Awakened Plant
+</th></tr></thead>
+<tbody>
+<tr><td><i>Medium or smaller plant</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
 **Armor Class**   10 + your proficiency bonus
+
 **Hit Points**    5 + 5 times your Druid Level
+
 **Speed**         30 ft.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
 
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | 14 (+2)	| 14 (+2)	| 16 (+3)	| 2 (-4)	| 10 (+0)	| 11 (+0)
 
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
 **Senses**  blindsight 60ft.
+
 **Languages**  Understands languages you know, but can not speak
+
 **Proficiency Bonus**  Equals your own
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
 
 ***False Appearance.*** While motionless, the awakened plant is indistinguishable from a normal plant.
 
@@ -581,10 +579,26 @@ The plant manifests for 1 hour, until it is reduced to 0 hit points, until you u
 
 ***Stench (Fungal Only).*** The first time a creatures moves adjacent to the plant, it must succeed a Constitution saving throw equal to your spell save DC or become poisoned. They gain a new save at the end of each of their turns. After a creature has succeeded with a save, it is immune to the stench from this plant for 24 hours.
 
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
 ### Actions
 ***Vine Lash (Blight Only).*** *Melee Attack:* your spell attack modifier to hit, reach 10ft. *On hit* 1d8 + PB piercing damage.
 
 ***Spore Bomb (Fungi Only).*** *Ranged Attack:* your spell attack modifier to hit, reach 60ft. *On hit* 1d6 + PB poison damage.
+
+</td></tr></tbody></table>
+</div>
+
+#### Plant Summoner
+At 2nd level, You can cause a Medium or smaller plant within 30 feet to come to life. As an action, you can expend one use of your Wild Shape feature or a 3rd level spell slot or higher to awaken the plant.
+
+The plant is friendly to you and your companions and obeys your commands. See this creature's game statistics in your choice of the Blight or Fungal stat block, which uses your proficiency bonus (PB) in several places. You determine the plant's appearance but the form should at least resemble the specific stat block that represents it.
+
+In combat, the plant shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a ***bonus action*** to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the plant can take any action of its choice, not just Dodge.
+
+The plant manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to awaken another plant, or until you die.
 
 
 ### Power of the Forest
@@ -627,12 +641,9 @@ Any creature grappled or restrained by you or an awakened plant (by a grapple or
 
 
 
-
-
-
-# <a name="internal-garden">Circle of the Garden</a>
-The Circle of the Garden is one of peace, nurturing, and a deep respect for plant life. These druids learn to grow the tallest trees, the sweetest flowers, and the most potent herbs. It's through this love of flora that they channel their powers, able to coax their green allies into forms to help and hinder. Bringing their gardens with them, a druid of this circle is always on the lookout for new additions and amazing herbal discoveries.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-garden">Circle of the Garden</a></h1>
+<div class="featuresTable">
 
 #### Circle Features
 | Druid Level | Feature |
@@ -643,6 +654,35 @@ The Circle of the Garden is one of peace, nurturing, and a deep respect for plan
 | 10th | Verdant Expanse  |
 | 14th | Green Guardian |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain 1 ***Fury***.
+| * Reset DC of ***Relentless Rage*** by 1.
+
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Shape Flora***.
+| * Regain use of ***Green Guardian***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+The Circle of the Garden is one of peace, nurturing, and a deep respect for plant life. These druids learn to grow the tallest trees, the sweetest flowers, and the most potent herbs. It's through this love of flora that they channel their powers, able to coax their green allies into forms to help and hinder. Bringing their gardens with them, a druid of this circle is always on the lookout for new additions and amazing herbal discoveries.
+
+
+
 
 ### Green Thumb
 Starting when you join this circle at 1st level, you have proficiency with gardening, herbalism and with plants. You have advantage on any ability check you make with a herbalism kit and to identify plants.
@@ -651,11 +691,10 @@ Starting when you join this circle at 1st level, you have proficiency with garde
 Beginning at 2nd level, you can bring forth new life into the world. As an ***action***, you can expend a use of your Wild Shape to spread lush vegetation from a point on the ground you can see within 30 feet. The radius of the vegetation is a number of feet equal to or less than 5 × your Druid level, and it withers after a number of hours equal to half your Druid level, or when you use this feature again.
 
 When you use this feature, you can select a unique botanical property to instill within the vegetation. If you do so, the vegetation withers after 1 minute. Choose one of the following options:
+
  **Invigorating Pollen**. As a ***bonus action*** on each of your turns, you can choose one friendly creature on the ground within the vegetation. That creature gains a number of temporary hit points equal to 1d8 + your Wisdom modifier.
 
  **Snare Root**. As a ***reaction***, when a creature enters the vegetation or attempts to leave its radius, you can force it to make a Dexterity saving throw. On a failure, the creature is pulled up to 10 feet towards the center of the vegetation and restrained until the start of its next turn. A creature can use its action to attempt to free itself or a restrained creature by making a Strength check against your spell save DC. On a success, it frees itself or a restrained creature.
-
-
 
  **Viper Vines**. When you spread your vegetation, and as an ***action*** on each of your turns, you can have poisonous vines rear up and lash out. Each hostile creature of your choice on the ground within the vegetation must succeed on a Dexterity saving throw against your spell save DC or take an amount of poison damage equal to 1d6 + your Wisdom modifier.
 
@@ -666,6 +705,7 @@ You can use this feature a number of times equal to your Wisdom modifier, and ca
 
 ### Verdant Expanse
 At 10th level, you gain the following additional benefits when you instill the vegetation created by your Grow the Garden feature.
+
  **Invigorating Pollen**. If the creature you choose is below half its hit point maximum, it regains a number of hit points equal to 1d8 + your Wisdom modifier.
 
  **Snare Root**. The creature is pulled up to 30 feet instead of 10, and it is restrained until the end of its next turn.
@@ -678,25 +718,6 @@ Starting at 14th level, you can call upon the ire of nature in times of peril. A
 The protector appears in an unoccupied space within 10 feet. Roll initiative for the protector. On its turn, it attempts to protect you from any creatures that would seek to harm you as best it can.
 
 Once you use this feature, you can't use it again until you finish a long rest.
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following circle specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class specific benefits to choose from: ||
-| | * Regain all uses of **Shape Flora**.
-| | * Regain use of **Green Guardian**.
-
-
-
-
-
 
 
 
