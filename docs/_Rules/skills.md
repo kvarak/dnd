@@ -205,6 +205,7 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
   ***Dogs***. If you enter into the campaign with this skill, it is presumed that a trained and familiar dog is already in your possession, and that you have developed a companionship of at least one year. This can be a riding dog if you are small enough.
 
   ***Falconry***. The gallant union between the character and bird, pursued for sport, for war — and for the companionship that results. In essence, the falcon (hawk, eagle or owl) exists in a state of semi-captivity, a wildness that is tempered by training. They are, naturally, commanded; but as the bird retains its capacity to act alone, and with ferociousness in attacking its prey, it is not correct to think of the animal as "tame."
+  
   Additionally, the falcon serves as a status symbol, for the mastery of these birds is viewed as a sign of quality lineage and personal worth, which is reflected in the skills below. If you enter into the campaign with this skill, it is presumed that a trained and familiar bird is already in your possession, and that you have developed a companionship of at least one year. In addition you are eligible to take the following skills.
     
   <details><summary>Rouse Admiration</summary>
@@ -253,9 +254,9 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
 
   <details>
   <summary>Animal Training</summary>
-  The skill to train animals tricks, such as "Speak” or “Fetch" as well as teaching animals to do a specific job, such as pulling a wagon, or guarding an item on command. Unless an already domesticated animal, this process takes months. However if you start the game with this skill or any other skill in this category, it is presumed that a trained and familiar animal is already in your possession, and that you have developed a companionship of at least one year.
+  The skill to train animals tricks, such as "Speak” or “Fetch" as well as teaching animals to do a specific job, such as pulling a wagon, or guarding an item on command. Unless an already domesticated animal, this process takes months. However, if you start the game with this skill or any other skill in this category, it is presumed that a trained and familiar animal is already in your possession, and that you have developed a companionship of at least one year.
 
-  <div class="descriptive">
+  <div class="skill-frame">
   
   You can use a ***bonus action*** to command your trained animal, deciding now what action the beast will take and where it will move during its next turn. You can also issue a general command such as to guard a particular area. Depending on the animal this command might last for 10 minutes to an hour.</div>
   
@@ -264,12 +265,12 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
 
   You have proficiency with techniques needed to train an appropriate animal to attack and fight. If a creature who you’ve trained or considers you its master can see and hear you, and makes an attack, skill check or saving throw, you may use your ***reaction*** to give that creature advantage on its roll. In addition you can add the War-trained template to an animal after 5 months of training.
     
-  <div class="descriptive">
+  <div class="skill-frame">
   
-  ##### War-trained template
-  * Add proficiency with all barding and with the Athletics skill.
-  * The animal uses the highest of its own or its current master’s proficiency bonus, and its minimum number of hit dice is twice that proficiency bonus.
-  * The training also conveys advantage on Intelligence, Wisdom and Charisma saves if the creature can see and hear its trainer/master when it makes the save.
+    ##### War-trained template
+    - Add proficiency with all barding and with the Athletics skill.
+    - The animal uses the highest of its own or its current master’s proficiency bonus, and its minimum number of hit dice is twice that proficiency bonus.
+    - The training also conveys advantage on Intelligence, Wisdom and Charisma saves if the creature can see and hear its trainer/master when it makes the save.
   
   </div>
 
