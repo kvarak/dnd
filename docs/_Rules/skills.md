@@ -2776,6 +2776,7 @@ The following skill are not bound to a craft, instead consider it as a single sk
 <summary>Guild Politics</summary>
 
 Knowledge of the etiquette among guilds and their associates. You have ***Expertise*** on Charisma checks when interacting with crafting professionals. This applies even to guilds where you are not a member.
+</details>
 
 
 <!-- ---------------------------- ALCHEMY ----------------------------------  -->
@@ -3300,11 +3301,10 @@ Little can stop you. As a bonus action you can gain temporary hit points equal t
 </details>
 </div>
 </details>
-
+</div>
 
 <!-- ---------------------------- CLASS SPECIFIC -------------------------------  -->
 
-</div>
 <div id="class" class="container tab-pane fade">
 
 <details>
@@ -3322,12 +3322,11 @@ If you succeed with a Roll with the Blow II check, you can as a part of the same
 </details>
 </div>
 </details>
-
+</div>
 
 
 <!-- ---------------------------- BACKGROUND ----------------------------------  -->
 
-</div>
 <div id="background" class="container tab-pane fade">
 Only available at character creation.
 
