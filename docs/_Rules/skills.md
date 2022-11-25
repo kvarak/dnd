@@ -2367,14 +2367,15 @@ The skill to find safe naturally occurring ingredients that you can prepare in a
 <div markdown="1">
 This skill is used to search for herbs in the wild, to identify herbs and to create herbal infusions.
 
-**Crafting Herbal Items**. To craft a herbal item you need a herbalism kit and raw materials, either harvested by yourself or bought at half the value of the created item. When attempting to make an item, spend the raw materials and a long rest, then make an Intelligence (Herbalism) check and see the first applicable result below.
+##### Crafting Herbal Items
+To craft a herbal item you need a herbalism kit and raw materials, either harvested by yourself or bought at half the value of the created item. When attempting to make an item, spend the raw materials and a long rest, then make an Intelligence (Herbalism) check and see the first applicable result below.
 
 If the result of your check is 0 or lower. The item is not created, the raw materials are wasted and if using a herbalism kit, it is ruined.
 
-- On a result below 5 or if you roll a natural 1. The item is not created and the raw materials are wasted.
-- 6-10. The raw materials were not as potent or fresh as you would have expected. You need to spend additional raw materials equal to 25% of the value of the created item, as well as 8 additional hours. If you choose not to, the original raw materials are wasted and the item is not created.
-- 11-25. The item is created as expected.
-- Over 25. Exceptional potency. You can split the result into a double amount of doses.
+- **On a result below 5 or if you roll a natural 1**. The item is not created and the raw materials are wasted.
+- **6-10**. The raw materials were not as potent or fresh as you would have expected. You need to spend additional raw materials equal to 25% of the value of the created item, as well as 8 additional hours. If you choose not to, the original raw materials are wasted and the item is not created.
+- **11-25**. The item is created as expected.
+- **Over 25**. Exceptional potency. You can split the result into a double amount of doses.
 
 You can make any number of doses of the same item at the same time. You can also make multiple different items simultaneously, but with a penalty of -2 per type of item. Make only one check which applies to all items. If you do not have a herbalism kit, you can improvise with other items, but have -4 on your check.
 
@@ -2708,7 +2709,7 @@ The criminal underworld is a dangerous place where a wrong word can get you kill
 </div>
 </details>
 
-<!-- ----------------------------Craft skills-------------------------  -->
+<!-- ---------------------------- CRAFT SKILLS -------------------------  -->
 
 </div>
 <div id="craft" class="container tab-pane fade">
@@ -2721,17 +2722,17 @@ With a skill in this category you have enough knowledge to manufacture and repai
 
 No matter your actual skill, in most cultures you would be considered an apprentice. During downtime in human urban and rural areas, this allows you to practice your profession in exchange for food, lodging and formal training in the craft, essentially allowing you to live a poor lifestyle without paying the cost.
 
-<b>Guilds.</b> One thing to keep in mind is that crafting items and selling them in an area where there is a guild, is only allowed for master crafters. As an apprentice or journeyman you can be employed by a master or maybe help fixing minor stuff for people. Doing more than that could involve legal repercussions and other kinds of problems if found out. Note that this would only apply in areas where there are guilds, which is exclusively human urban and rural areas.
+**Guilds**. One thing to keep in mind is that crafting items and selling them in an area where there is a guild, is only allowed for master crafters. As an apprentice or journeyman you can be employed by a master or maybe help fixing minor stuff for people. Doing more than that could involve legal repercussions and other kinds of problems if found out. Note that this would only apply in areas where there are guilds, which is exclusively human urban and rural areas.
 
 The following rules apply to all craft skills unless otherwise noted.
 
-<b>Crafting.</b> In general, to craft an item you need the proper tools and raw materials worth half the listed value of the created item.  When attempting to craft an item, follow these steps.
+**Crafting**. In general, to craft an item you need the proper tools and raw materials worth half the listed value of the created item.  When attempting to craft an item, follow these steps.
 
 Determine the final value of the item. This would normally be the listed market price, but a skilled crafter might want to display his craftsmanship and increase the final market value with any amount. During a full work day you make up to 10 gp of progress towards the final cost of the item, or 5 gp of progress if you work as a camp activity, i.e. spending half that in raw materials. Items do not have to be worked on during consecutive days.
 
 At the end of a day’s work make a Wisdom (Craft) check and see the first applicable result below.
 
-<ul><li><b>If the result of your check is 0 or lower.</b> You messed up really bad. Today’s raw materials are wasted, as well as any progress you have made so far. You will have to start over.</li>
+- **If the result of your check is 0 or lower.** You messed up really bad. Today’s raw materials are wasted, as well as any progress you have made so far. You will have to start over.
 <li><b>On a natural 1.</b> You find a flaw in the design. Today’s raw materials are wasted, and you have to readjust your plans. Choose one of the following:
 <ul><li>Continue working, but with -5 on all checks to craft this item until completed.</li>
 <li>Take some time to think about the problem. Instead of making progress and spending raw materials after each work day, make an Intelligence (Craft) check against DC 12. After a success you can continue your progress as before.</li>
