@@ -2722,8 +2722,10 @@ With a skill in this category you have enough knowledge to manufacture and repai
 
 No matter your actual skill, in most cultures you would be considered an apprentice. During downtime in human urban and rural areas, this allows you to practice your profession in exchange for food, lodging and formal training in the craft, essentially allowing you to live a poor lifestyle without paying the cost.
 
-**Guilds**. One thing to keep in mind is that crafting items and selling them in an area where there is a guild, is only allowed for master crafters. As an apprentice or journeyman you can be employed by a master or maybe help fixing minor stuff for people. Doing more than that could involve legal repercussions and other kinds of problems if found out. Note that this would only apply in areas where there are guilds, which is exclusively human urban and rural areas.
+#### Guilds
+One thing to keep in mind is that crafting items and selling them in an area where there is a guild, is only allowed for master crafters. As an apprentice or journeyman you can be employed by a master or maybe help fixing minor stuff for people. Doing more than that could involve legal repercussions and other kinds of problems if found out. Note that this would only apply in areas where there are guilds, which is exclusively human urban and rural areas.
 
+<hr>
 The following rules apply to all craft skills unless otherwise noted.
 
 **Crafting**. In general, to craft an item you need the proper tools and raw materials worth half the listed value of the created item.  When attempting to craft an item, follow these steps.
@@ -2733,18 +2735,19 @@ Determine the final value of the item. This would normally be the listed market 
 At the end of a day’s work make a Wisdom (Craft) check and see the first applicable result below.
 
 - **If the result of your check is 0 or lower.** You messed up really bad. Today’s raw materials are wasted, as well as any progress you have made so far. You will have to start over.
-<li><b>On a natural 1.</b> You find a flaw in the design. Today’s raw materials are wasted, and you have to readjust your plans. Choose one of the following:
-<ul><li>Continue working, but with -5 on all checks to craft this item until completed.</li>
-<li>Take some time to think about the problem. Instead of making progress and spending raw materials after each work day, make an Intelligence (Craft) check against DC 12. After a success you can continue your progress as before.</li>
-<li>Restart the project. Any progress made this far is wasted.</li></ul></li>
-<li><b>On a result below 5.</b> Not a good day. Today’s raw materials are wasted and no progress is made.</li>
-<li><b>6-10.</b> Something goes wrong but you can still save today’s progress if you spend 20% extra materials. If you choose not to, today’s raw materials are wasted and no progress is made</li>
-<li><b>11-24.</b> Crafting is progressing as expected.</li>
-<li><b>25 or more.</b> A good day’s work. Choose one of the following.
-<ul><li>Spend only 50% of the raw materials for the same progress.</li>
-<li>You can spend raw materials and gain progress for two day’s work.</li>
-<li>Gain +5 on the next Craft check you make during the next week.</li>
-<li>If this is the final check during the crafting of an item, you can increase the final value by 10%.</li></ul></li></ul>
+- **A natural 1.** You find a flaw in the design. Today’s raw materials are wasted, and you have to readjust your plans. Choose one of the following:
+  - Continue working, but with -5 on all checks to craft this item until completed.
+  - Take some time to think about the problem. Instead of making progress and spending raw materials after each work day, make an Intelligence (Craft) check against DC 12. After a success you can continue your progress as before.
+  - Restart the project. Any progress made this far is wasted.
+
+- **On a result below 5.** Not a good day. Today’s raw materials are wasted and no progress is made.
+- **6-10.** Something goes wrong but you can still save today’s progress if you spend 20% extra materials. If you choose not to, today’s raw materials are wasted and no progress is made.
+- **11-24.** Crafting is progressing as expected.
+- **25 or more.** A good day’s work. Choose one of the following.
+  - Spend only 50% of the raw materials for the same progress.
+  - You can spend raw materials and gain progress for two day’s work.
+  - Gain +5 on the next Craft check you make during the next week.
+  - If this is the final check during the crafting of an item, you can increase the final value by 10%.
 
 Multiple characters can help cut the time down, with each person making a check and adding to the daily progress. This is contingent on those helping having an appropriate tool proficiency and that the item can allow for others to work on it (a crafting a ring won't have more than one person, while a whole suit of armor could use up to three).
 
@@ -2754,7 +2757,7 @@ Multiple characters can help cut the time down, with each person making a check 
 <details>
 <summary>Generic crafting skills</summary>
 <div markdown="1">
-For each craft, you can select the skills described below. Also note, that dwarves gain both the Journeyman crafter and Master crafter skills, as the craftsmanship of dwarves is well known. For other folk, during play, you do not have to spend points to gain the Journeyman crafter and Master crafter skills, instead you gain them as soon as you are applicable for them.
+For each single craft, you can select the skills described below. Also note, that dwarves gain both the Journeyman crafter and Master crafter skills, as the craftsmanship of dwarves is well known. For other folk, during play, you do not have to spend points to gain the Journeyman crafter and Master crafter skills, instead you gain them as soon as you are applicable for them.
 <details>
 <summary>Appraiser (trait)</summary>
 The skill to correctly identify the approximate value of items according to their workmanship and innate value. Your experience allows you to always know an approximate value after examining an object for a few minutes.
@@ -2762,7 +2765,7 @@ The skill to correctly identify the approximate value of items according to thei
 <details>
 <summary>Journeyman Crafter (trait)</summary>
 If you start play with this skill, you have an official trade certificate allowing you to charge for your work with the craft, but not yet work as a self-employed master craftsman. This will in most human urban and rural areas allow you to live a modest lifestyle without paying the cost. Becoming a Journeyman crafter during play is a lot harder, as it requires a 7 year apprenticeship. This doesn’t have to be cumulative, so you might almost be done during your background, and finish up the last periods during downtime.
-<br/><br/>
+
 As a journeyman one is expected to accomplish a three-year working trip, to train with multiple masters, which are called the journeyman years. After this trip a journeyman has to submit a masterpiece of work to a guild for evaluation. If the masterpiece is not accepted by the masters, he is not allowed to join the guild, possibly remaining a journeyman for the rest of his life.
 </details>
 <details>
@@ -2771,30 +2774,34 @@ If you start play with this skill, you are a member of a guild and have an offic
 </details>
 <details>
 <summary>Trader</summary>
-You know how and where to sell and buy the type of items you can craft in order to earn the most. This applies on transactions from single items to wholesale bulk. You have Expertise on all such checks, including checks made to find information about sellers and buyers.
+
+You know how and where to sell and buy the type of items you can craft in order to earn the most. This applies on transactions from single items to wholesale bulk. You have ***Expertise*** on all such checks, including checks made to find information about sellers and buyers.
 </details>
-The following skills are not bound to a craft, instead consider them as a single skill reachable from all types of crafts.
+
+The following skill are not bound to a craft, instead consider it as a single skill reachable from all types of crafts.
 <details>
 <summary>Guild Politics</summary>
-Knowledge of the etiquette among guilds and their associates. You have Expertise on Charisma checks when interacting with crafting professionals. This applies even to guilds where you are not a member.
+
+Knowledge of the etiquette among guilds and their associates. You have ***Expertise*** on Charisma checks when interacting with crafting professionals. This applies even to guilds where you are not a member.
 </details>
 </div>
 </details>
 
-<!-- ---------------------------- AGRICULTURE ----------------------------------  -->
+<!-- ---------------------------- ALCHEMY ----------------------------------  -->
 
 <details>
 <summary>Alchemy</summary>
 <div markdown="1">
 The scientific study of the properties and behavior of the elements that make up matter; their composition, structure, properties, behavior and the changes they undergo during a reaction with other substances. The Alchemy skill covers theoretical knowledge of basic chemistry and can additionally be used to identify, appraise and safely use alchemical substances. You can safely craft basic alchemical items up to a value of 1 gp.
 
-<b>Crafting Alchemical Items.</b> To craft an alchemical item you need at least an alchemist’s kit and raw materials worth half the value of the created item. Your skill determines what kind of alchemical items you can safely create. If you attempt to make such an item, spend the raw materials and a long rest, then make an Intelligence (Alchemy) check and see the first applicable result below.
+##### Crafting Alchemical Items.
+To craft an alchemical item you need at least an alchemist’s kit and raw materials worth half the value of the created item. Your skill determines what kind of alchemical items you can safely create. If you attempt to make such an item, spend the raw materials and a long rest, then make an Intelligence (Alchemy) check and see the first applicable result below.
 
-If the result of your check is 0 or lower. The item is not created, the raw materials are wasted and you suffer an alchemical mishap.
-<ul><li><b>On a result below 5 or if you roll a natural 1.</b> The item is not created and the raw materials are wasted.</li>
-<li><b>6-10.</b> The reaction is not as efficient as you would have expected. You need to spend additional raw materials equal to 25% of the value of the created item, as well as 8 additional hours. If you choose not to, the original raw materials are wasted and the item is not created.</li>
-<li><b>11-25.</b> The item is created as expected.</li>
-<li><b>Over 25.</b> Exceptional potency. You can split the result into a double amount of doses.</li></ul>
+- **On a resule of 0 or lower.** The item is not created, the raw materials are wasted and you suffer an alchemical mishap.
+- **On a result below 5 or if you roll a natural 1.** The item is not created and the raw materials are wasted.
+- **6-10.** The reaction is not as efficient as you would have expected. You need to spend additional raw materials equal to 25% of the value of the created item, as well as 8 additional hours. If you choose not to, the original raw materials are wasted and the item is not created.
+- **11-25.** The item is created as expected.
+- **Over 25.** Exceptional potency. You create the double amount of doses.
 
 You can make any number of doses of the same item at the same time. You can also make multiple different items simultaneously, but with a penalty of -2 per type of item. Make only one check which applies to all items.
 
@@ -2822,12 +2829,14 @@ You know how to safely craft any alchemical item.
 
 <details>
 <summary>Distilling</summary>
-You have great knowledge on how to purify or concentrate a variety of non-magical liquids, including the making of beverages, and have Expertise on such checks.
+
+You have great knowledge on how to purify or concentrate a variety of non-magical liquids, including the making of beverages, and have ***Expertise*** on such checks.
 </details>
 
 <details>
 <summary>Identify Alchemical Substance (→ Sense-Taste)</summary>
-You can identify potions and other alchemical substances by taste, granting Expertise on all such checks.
+
+You can identify potions and other alchemical substances by taste, granting ***Expertise*** on all such checks.
 </details>
 
 <details>
@@ -2850,6 +2859,8 @@ The subtle art of introducing poisons effectively into common food and drink, an
 </div>
 </details>
 
+<!-- ---------------------------- CERAMICS ----------------------------------  -->
+
 <details>
 <summary>Ceramics</summary>
 <div markdown="1">
@@ -2859,7 +2870,8 @@ Many objects are formed on the potter's wheel, with a considerable amount of nat
 
 <details>
 <summary>Clay Masonry</summary>
-The making and design of structural construction, including bricks, pipes, floor and roof tiles. This skill also allows you to make your own kilns and metal or glass-making crucibles. You have Expertise on all such checks.
+
+The making and design of structural construction, including bricks, pipes, floor and roof tiles. This skill also allows you to make your own kilns and metal or glass-making crucibles. You have ***Expertise*** on all such checks.
 </details>
 
 <details>
@@ -2886,15 +2898,19 @@ You are familiar with the process of inflating molten glass with the aid of a bl
 
 <details>
 <summary>Glaze</summary>
-Decoration and artistic expression produced before and after the firing process, to create objects of fine distinction with a legitimate tradable value. A ceramic object of art can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give Expertise on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a ceramic art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+
+Decoration and artistic expression produced before and after the firing process, to create objects of fine distinction with a legitimate tradable value. A ceramic object of art can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give ***Expertise*** on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a ceramic art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain ***Expertise*** on checks to create the item.
 </details>
 </div>
 </details>
 
+<!-- ---------------------------- CORDAGE ----------------------------------  -->
+
 <details>
 <summary>Cordage</summary>
 <div markdown="1">
-You are trained in crafting nets, cords, ropes or cables of varying thicknesses and strengths from fibrous threads of both natural and artificial origin. This also grants Expertise on checks made to assess strength and wear for such items.
+
+You are trained in crafting nets, cords, ropes or cables of varying thicknesses and strengths from fibrous threads of both natural and artificial origin. This also grants ***Expertise*** on checks made to assess strength and wear for such items.
 
 <details>
 <summary>Knot Tying</summary>
@@ -2903,12 +2919,17 @@ After years of practice, your nimble fingers can tie any type of knot imaginable
 </div>
 </details>
 
+<!-- ---------------------------- GEMCUTTING ----------------------------------  -->
+
 <details>
 <summary>Gemcutting</summary>
 <div markdown="1">
-The skill to shape stone, minerals or gemstones into decorative designs. This does not include the setting of stones into jewelry, which is done by a finesmith. A skilled gemcutter can improve the value of raw gemstones. When performing your craft and determining the final value of your crafted gem, select one of the following benefits. reduce the cost of raw materials by 90%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+
+The skill to shape stone, minerals or gemstones into decorative designs. This does not include the setting of stones into jewelry, which is done by a finesmith. A skilled gemcutter can improve the value of raw gemstones. When performing your craft and determining the final value of your crafted gem, select one of the following benefits. reduce the cost of raw materials by 90%, your daily progress is x5 for this item or gain ***Expertise*** on checks to create the item.
 </div>
 </details>
+
+<!-- ---------------------------- KITE MAKING ----------------------------------  -->
 
 <details>
 <summary>Kite Making</summary>
@@ -2922,6 +2943,8 @@ A craft perfected by gnomes, where kites can be built large and strong enough to
 </div>
 </details>
 
+<!-- ---------------------------- LEATHERWORKING -------------------------------  -->
+
 <details>
 <summary>Leatherworking (Group)</summary>
 <div markdown="1">
@@ -2932,15 +2955,18 @@ The making of products from animals, primarily including the tanning and process
 The treatment and process underlying the transformation of skins and hides into leather, including skinning, tanning, tawing and parchment making.
 <details>
 <summary>Manufacture</summary>
-You are skilled at the tanning and tawing steps of leatherworking, gaining Expertise on checks to craft leather from animal hides. This can be used to increase the value of the raw hides before becoming leather.
+
+You are skilled at the tanning and tawing steps of leatherworking, gaining ***Expertise*** on checks to craft leather from animal hides. This can be used to increase the value of the raw hides before becoming leather.
 </details>
 <details>
 <summary>Parchment Making</summary>
-Parchments can be made from animal hides, in a process that takes at least two week with optimal conditions. You can make parchments while traveling. This uses your camp activities, as well as some preparation before starting travel each day in order to allow different steps to be done on the road. If not traveling, you have Expertise on associated checks.
+
+Parchments can be made from animal hides, in a process that takes at least two week with optimal conditions. You can make parchments while traveling. This uses your camp activities, as well as some preparation before starting travel each day in order to allow different steps to be done on the road. If not traveling, you have ***Expertise*** on associated checks.
 </details>
 <details>
 <summary>Skinning</summary>
-You are exceptionally good at removing the hide from dead animals and other beasts, getting a 10 % usable material. Normally this does not require a check, unless it is a mythical beast, such as a dragon or couatl. However this would for instance allow you to recognize which beast a hide came from or to speak to trappers in their own way. You have Expertise on checks made with this skill.
+
+You are exceptionally good at removing the hide from dead animals and other beasts, getting a 10 % usable material. Normally this does not require a check, unless it is a mythical beast, such as a dragon or couatl. However this would for instance allow you to recognize which beast a hide came from or to speak to trappers in their own way. You have ***Expertise*** on checks made with this skill.
 </details>
 </details>
 
@@ -2949,23 +2975,29 @@ You are exceptionally good at removing the hide from dead animals and other beas
 The practice of making animal skins and hides into objects of many forms, including the use of leather for protection and the use of leather as an adornment for aesthetic appeal, such as dyeing, painting, carving, stamping and molding.
 <details>
 <summary>Leather Armor</summary>
-The fashioning of leather as a protective covering used to prevent damage during combat, for both humanoids and animal mounts. You have Expertise on checks to craft leather armor.
+
+The fashioning of leather as a protective covering used to prevent damage during combat, for both humanoids and animal mounts. You have ***Expertise*** on checks to craft leather armor.
 </details>
 <details>
 <summary>Leather Art</summary>
-Decoration and artistic expression when producing leather items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful clothes and armor can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give Expertise on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a leather art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+
+Decoration and artistic expression when producing leather items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful clothes and armor can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give ***Expertise*** on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a leather art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain ***Expertise*** on checks to create the item.
 </details>
 <details>
 <summary>Leather Clothing</summary>
-The making of leather garments and gear for both practicality and high fashion, as well as protection against the elements. You have Expertise on checks to craft leather clothing.
+
+The making of leather garments and gear for both practicality and high fashion, as well as protection against the elements. You have ***Expertise*** on checks to craft leather clothing.
 </details>
 <details>
 <summary>Leather Containers</summary>
-The making of bags and containers made from leather. You have Expertise on checks to craft such items.
+
+The making of bags and containers made from leather. You have ***Expertise*** on checks to craft such items.
 </details>
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- METALWORK ----------------------------------  -->
 
 <details>
 <summary>Metalwork (Group)</summary>
@@ -2977,11 +3009,13 @@ The skill of working with metals to create individual objects, assemblies or lar
 Skill at making and repairing jewelry, engraving, stonesetting, precision tools and other metal forms requiring a fine and meticulous mastery.
 <details>
 <summary>Jewelcrafter</summary>
-You are skilled with the creation and repair of jewelry, and have Expertise on such checks.
+
+You are skilled with the creation and repair of jewelry, and have ***Expertise*** on such checks.
 </details>
 <details>
 <summary>Metal Art</summary>
-Decoration and artistic expression when producing metal items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful jewelry, armor or weapons can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give Expertise on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a metal art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+
+Decoration and artistic expression when producing metal items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful jewelry, armor or weapons can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give ***Expertise*** on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a metal art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain ***Expertise*** on checks to create the item.
 </details>
 </details>
 
@@ -2990,11 +3024,13 @@ Decoration and artistic expression when producing metal items, to create objects
 The process of working metal through the manipulation of heat and blacksmithing, making common everyday objects and tools in various metals. As a metalsmith you can work with all common metals.
 <details>
 <summary>Armorsmith</summary>
-The mastery at making metal armor for humanoids and animals, using a forge, hammer and anvil. You have Expertise on checks to craft metal armors. If you have skill in woodworking you also gain Expertise when making shields.
+
+The mastery at making metal armor for humanoids and animals, using a forge, hammer and anvil. You have ***Expertise*** on checks to craft metal armors. If you have skill in woodworking you also gain ***Expertise*** when making shields.
 </details>
 <details>
 <summary>Arrowsmith</summary>
-A metalsmith who specializes in forging arrowheads. You have Expertise on all such checks.
+
+A metalsmith who specializes in forging arrowheads. You have ***Expertise*** on all such checks.
 <details>
 <summary>Advanced Arrowsmith (trait)</summary>
 You have complemented your smithing skills with some alchemical knowledge, allowing you to additionally make all types of speciality arrows.
@@ -3002,7 +3038,8 @@ You have complemented your smithing skills with some alchemical knowledge, allow
 </details>
 <details>
 <summary>Blacksmith</summary>
-The skill to create objects primarily from wrought iron or steel. You have Expertise on checks to craft objects such as  gates, tools, agricultural implements and cooking utensils, provided they are not covered by another metalsmith skill.
+
+The skill to create objects primarily from wrought iron or steel. You have ***Expertise*** on checks to craft objects such as gates, tools, agricultural implements and cooking utensils, provided they are not covered by another metalsmith skill.
 <details>
 <summary>Heavy Lifting (trait)</summary>
 Years of hard work has improved your physical strength. Gain +1 Strength.
@@ -3010,11 +3047,13 @@ Years of hard work has improved your physical strength. Gain +1 Strength.
 </details>
 <details>
 <summary>Bladesmith</summary>
-Forging of knives, swords and other blades. You have Expertise on such checks.
+
+Forging of knives, swords and other blades. You have ***Expertise*** on such checks.
 </details>
 <details>
 <summary>Brownsmith</summary>
-Metalsmith that works with brass and copper. You have Expertise on checks to craft objects from these metals.
+
+Metalsmith that works with brass and copper. You have ***Expertise*** on checks to craft objects from these metals.
 </details>
 <details>
 <summary>Coinsmith</summary>
@@ -3022,23 +3061,28 @@ A coinsmith works strictly with minting of coins and other currency. Having this
 </details>
 <details>
 <summary>Goldsmith</summary>
-Metalsmith that works with gold. You have Expertise on checks to craft such objects.
+
+Metalsmith that works with gold. You have ***Expertise*** on checks to craft such objects.
 </details>
 <details>
 <summary>Locksmith</summary>
-The skill to craft locks, safes and keys. You have Expertise on checks to craft such objects, as well as on checks to open locks and safes.
+
+The skill to craft locks, safes and keys. You have ***Expertise*** on checks to craft such objects, as well as on checks to open locks and safes.
 </details>
 <details>
 <summary>Silversmith</summary>
-Metalsmith that works with silver. You have Expertise on checks to craft such objects, including changing weapons into silvered weapons.
+
+Metalsmith that works with silver. You have ***Expertise*** on checks to craft such objects, including changing weapons into silvered weapons.
 </details>
 <details>
 <summary>Weaponsmith</summary>
-The skill to forge forges weapons other than blades, including axes, spears, flails and other such weapons. You have Expertise on checks to craft weapons.
+
+The skill to forge forges weapons other than blades, including axes, spears, flails and other such weapons. You have ***Expertise*** on checks to craft weapons.
 </details>
 <details>
 <summary>Whitesmith</summary>
-Metalsmith that works with white metal (tin and pewter). You have Expertise on checks to craft objects from these metals.
+
+Metalsmith that works with white metal (tin and pewter). You have ***Expertise*** on checks to craft objects from these metals.
 </details>
 </details>
 
@@ -3048,6 +3092,8 @@ The skill of smelting and purifying metals that can be derived from ordinary ore
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- TEXTILES ----------------------------------  -->
 
 <details>
 <summary>Textiles (Group)</summary>
@@ -3061,7 +3107,8 @@ Knowledge of the cloth making process, from cultivation and care of plants and a
 
 <details>
 <summary>Textile Art</summary>
-Decoration and artistic expression when producing textile items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful clothing or adorning your home with expensive textiles can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give Expertise on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a textile art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+
+Decoration and artistic expression when producing textile items, to create objects of fine distinction with a legitimate tradable value. Wearing beautiful clothing or adorning your home with expensive textiles can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give ***Expertise*** on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When creating a textile art object, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain ***Expertise*** on checks to create the item.
 </details>
 
 <details>
@@ -3069,23 +3116,29 @@ Decoration and artistic expression when producing textile items, to create objec
 The making of cloth garments and gear for both practicality and high fashion, as well as for protection against the elements and other dangers (including combat).
 <details>
 <summary>Clothes</summary>
-You have Expertise on checks to craft clothes.
+
+You have ***Expertise*** on checks to craft clothes.
 </details>
 <details>
 <summary>Cloth Armor</summary>
-You have Expertise on checks to craft cloth armor.
+
+You have ***Expertise*** on checks to craft cloth armor.
 </details>
 <details>
 <summary>Embroidery & Print</summary>
-Skills at making tapestries, carpets, tablecloths and drapery, coverlets and more, to provide comfort, grace and magnificence to living spaces and surfaces. You have Expertise on checks to craft such items.
+
+Skills at making tapestries, carpets, tablecloths and drapery, coverlets and more, to provide comfort, grace and magnificence to living spaces and surfaces. You have ***Expertise*** on checks to craft such items.
 </details>
 <details>
 <summary>Sacks & Bags</summary>
-The making of bags and containers made from cloth. You have Expertise on checks to craft such items.
+
+The making of bags and containers made from cloth. You have ***Expertise*** on checks to craft such items.
 </details>
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- TRAPMAKING ----------------------------------  -->
 
 <details>
 <summary>Trapmaking</summary>
@@ -3094,17 +3147,20 @@ The skill of creating, setting and concealing traps for the purpose of detaining
 
 <details>
 <summary>Animal Trapping</summary>
-You are skilled at using snares and traps to catch animals for their furs and meat, or as a means of pest control. You have Expertise on checks to create or remove such traps, as well as on all foraging checks.
+
+You are skilled at using snares and traps to catch animals for their furs and meat, or as a means of pest control. You have ***Expertise*** on checks to create or remove such traps, as well as on all foraging checks.
 </details>
 
 <details>
 <summary>Booby Traps</summary>
-The creation of larger traps using materials commonly found in nature and targeting intelligent prey. This includes traps such as deadfall traps, pit traps and snare traps. You have Expertise on checks to create, spot and remove such traps.
+
+The creation of larger traps using materials commonly found in nature and targeting intelligent prey. This includes traps such as deadfall traps, pit traps and snare traps. You have ***Expertise*** on checks to create, spot and remove such traps.
 </details>
 
 <details>
 <summary>Pressure Traps</summary>
-The creation of traps that implement balance and hydraulic forces in the making. These types of traps are usually part of the architecture, and need to be built in when building a structure. You have Expertise on checks to create, spot and remove such traps.
+
+The creation of traps that implement balance and hydraulic forces in the making. These types of traps are usually part of the architecture, and need to be built in when building a structure. You have ***Expertise*** on checks to create, spot and remove such traps.
 <details>
 <summary>Safe Trap (trait)</summary>
 Improves traps so that they can be reset or reloaded by unskilled persons with a minimum of training.
@@ -3117,10 +3173,13 @@ The knowledge to use magical application or ingenuity to enable traps to reset t
 
 <details>
 <summary>Recognise Dweomer</summary>
-The skill to recognize the presence of magical traps, glyphs, runes, sigils and similar devices. You have Expertise on checks to spot, avoid and deduce the triggers of such traps.
+
+The skill to recognize the presence of magical traps, glyphs, runes, sigils and similar devices. You have ***Expertise*** on checks to spot, avoid and deduce the triggers of such traps.
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- WOODWORKING ----------------------------------  -->
 
 <details>
 <summary>Woodworking (Group)</summary>
@@ -3132,7 +3191,8 @@ The skill of making objects, furniture and large-scale structures out of wood, i
 The skill of making reliable bows and arrows.
 <details>
 <summary>Advanced Bowyer</summary>
-Your skill with this trade grants Expertise on all checks when crafting bows or arrows.
+
+Your skill with this trade grants ***Expertise*** on all checks when crafting bows or arrows.
 </details>
 </details>
 
@@ -3154,11 +3214,14 @@ Construction of ships and other floating vessels, often viewed as works of magni
 The art of carving shapes out of raw wood using a knife or mallet and chisel. The wood can be fashioned into a variety of imaginative or useful objects, for both practical and aesthetic merit.
 <details>
 <summary>Wood carving</summary>
-An artistic expression of whittling, for the sole purpose of sculptural ornamentation of a wooden object. Aesthetically pleasing objects can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give Expertise on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When beautifying an existing wooden object or creating a wooden art object from scratch, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain Expertise on checks to create the item.
+
+An artistic expression of whittling, for the sole purpose of sculptural ornamentation of a wooden object. Aesthetically pleasing objects can offer a sense of respect and appreciation, even from those unaware of its value. Gifting such an item might give ***Expertise*** on Charisma checks, provided the recipient cares about such things and the item value is appropriate. When beautifying an existing wooden object or creating a wooden art object from scratch, i.e. one that has a market value of at least 5 times the listed price, you can select one of the following benefits. reduce the cost of raw materials by 50%, your daily progress is x5 for this item or gain ***Expertise*** on checks to create the item.
 </details>
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- CRAFT ----------------------------------  -->
 
 <details>
 <summary>Craft (other) (Group)</summary>
@@ -3169,7 +3232,7 @@ You are skilled in a craft not covered by other Craft skills, such as barrel mak
 
 
 
-<!-- ----------------------------Traits-------------------------  -->
+<!-- ---------------------------- TRAITS ----------------------------------  -->
 
 </div>
 <div id="traits" class="container tab-pane fade">
@@ -3179,7 +3242,8 @@ This group collects additional traits that are not part of a skill.
 <details>
 <summary>Death’s Suitor</summary>
 <div markdown="1">
-<i>Requirement: Must have died at least once</i>
+
+*Requirement: Must have died at least once*
 
 You have cheated death so often that even Pharasma now deems it part of your fate. This allows you to reroll any roll where failure has a chance of killing you or reducing you to 0 hp. This might be an attack roll against you when you are low on hp, an unexpectedly high damage roll, a failed save against an ability damage or spell effect that instantly kills. When using it, the reroll is made with advantage or disadvantage, your choice. You can use this a number of times equal to the number of times you have died, and regain all uses when you finish a short rest.
 </div>
@@ -3188,16 +3252,17 @@ You have cheated death so often that even Pharasma now deems it part of your fat
 <details>
 <summary>Fiery Spirit of Passion</summary>
 <div markdown="1">
-<i>Prerequisite: Devoted follower of Balder, Calistria, Hanali Celanil, Hathor, Sheyanna Flaxenstrand or Shelyn</i>
+
+*Prerequisite: Devoted follower of Balder, Calistria, Hanali Celanil, Hathor, Sheyanna Flaxenstrand or Shelyn*
 
 Your faith blooms, giving you a fierce devotion, beauty and free spirited passion. The deity you are devoted to grants you a fiery and irrepressible strength of soul and a breath catching grace of form. Gain +1 to your Charisma. In addition You share a deep bond with your companions, driving them forward with your fiery passion and spirit. When you and at least one allied creature within 20 ft make a saving throw against the Frightened condition at the same time, they can use your saving throw instead of theirs if yours is higher. A creature can only replace their roll with yours once and must complete a long rest before they can do so again.
 
 <details>
 <summary>Fiery Soul</summary>
-You can draw upon your faith to unleash the magnetic fiery soul within you with the effect of the spell enthrall, which you can cast once between each long rest without expending a spell slot. When you cast it in this way, the spell does not require a somatic component. Charisma is your spellcasting ability for this spell.
+You can draw upon your faith to unleash the magnetic fiery soul within you with the effect of the spell *enthrall*, which you can cast once between each long rest without expending a spell slot. When you cast it in this way, the spell does not require a somatic component. Charisma is your spellcasting ability for this spell.
 <details>
 <summary>Fiery Personality</summary>
-When you cast enthrall using this trait, you additionally gain the effects of the sanctuary spell and advantage on all Speechcraft and Performance checks against creatures that failed their saving throw. All effects end when the enthrall spell ends, or if you break the effects of sanctuary by making an attack or casting a spell.
+When you cast *enthrall* using this trait, you additionally gain the effects of the sanctuary spell and advantage on all Speechcraft and Performance checks against creatures that failed their saving throw. All effects end when the enthrall spell ends, or if you break the effects of sanctuary by making an attack or casting a spell.
 </details>
 </details>
 </div>
@@ -3206,9 +3271,13 @@ When you cast enthrall using this trait, you additionally gain the effects of th
 <details>
 <summary>Graceful Dancer</summary>
 <div markdown="1">
-<i>Prerequisite: Art - Dance and Devoted follower of Bes, Calistria, Corellon Larethian or Shelyn</i>
 
-Each step is an expression of your faith, graceful and flowing, as if about to burst into dance at any moment, your movements take on a bewildering elegance that makes others seem plodding in comparison. You gain the ability to take a Dancer’s Step as a bonus action. You can move up to 5 ft, and select one additional effect: (a) Your Dancer’s Step movement does not provoke opportunity attacks, (b) The next attack from one creature within 5 ft of where you end the Dancer’s Step against you before the start of your next turn has disadvantage, or (c) You can make an attack with a light melee weapon after your Dancer’s Step movement as part of the same action.
+*Prerequisite: Art - Dance and Devoted follower of Bes, Calistria, Corellon Larethian or Shelyn*
+
+Each step is an expression of your faith, graceful and flowing, as if about to burst into dance at any moment, your movements take on a bewildering elegance that makes others seem plodding in comparison. You gain the ability to take a Dancer’s Step as a bonus action. You can move up to 5 ft, and select one additional effect: 
+- Your Dancer’s Step movement does not provoke opportunity attacks.
+- The next attack from one creature within 5 ft of where you end the Dancer’s Step against you before the start of your next turn has disadvantage.
+- You can make an attack with a light melee weapon after your Dancer’s Step movement as part of the same action.
 
 <details>
 <summary>Masterful Dancer</summary>
@@ -3220,7 +3289,8 @@ You can select two effects whenever you make a Dancer’ Step.
 <details>
 <summary>Selfless Martyr</summary>
 <div markdown="1">
-<i>Prerequisite: Devoted follower of Arawn or Torag</i>
+
+*Prerequisite: Devoted follower of Arawn or Torag*
 
 Your faith helps you persevere through anything, taking the suffering of others onto yourself and offering relief to those that need it most. As an action, you can touch a creature that is Blinded, Charmed, Deafened, Frightened , Paralyzed, Petrified, Poisoned or Stunned, and immediately end that condition on the target creature, but suffer that condition yourself. If that condition has a save against its ongoing effect, you can immediately make a save against the effect to end it as part of taking the condition onto yourself. Each time you take on the suffering of another creature with this trait, you gain temporary hit points equal to your proficiency bonus. You can do this a number of times equal to your proficiency bonus, and regain all uses when you complete a long rest.
 </div>
@@ -3229,7 +3299,8 @@ Your faith helps you persevere through anything, taking the suffering of others 
 <details>
 <summary>Steadfast Traveler</summary>
 <div markdown="1">
-<i>Prerequisite: Physique - Endurance and Devoted follower of Desna, Lugh or Marthammor Duin</i>
+
+*Prerequisite: Physique - Endurance and Devoted follower of Desna, Lugh or Marthammor Duin*
 
 Your faith gives a drive and curiosity that drives you to go beyond and press further. This has been noticed by your deity who has granted you the ability to cast augury without expending a spell slot as long as the question asked relates to a path, trail, or route, and only the consequences of taking it. The normal restrictions of using augury multiple times a day still applies.
 <details>
@@ -3240,7 +3311,7 @@ Little can stop you. As a bonus action you can gain temporary hit points equal t
 </details>
 
 
-<!-- ----------------------------Class Specific skills-------------------------  -->
+<!-- ---------------------------- CLASS SPECIFIC -------------------------------  -->
 
 </div>
 <div id="class" class="container tab-pane fade">
@@ -3263,7 +3334,7 @@ If you succeed with a Roll with the Blow II check, you can as a part of the same
 
 
 
-<!-- ----------------------------Background skills-------------------------  -->
+<!-- ---------------------------- BACKGROUND ----------------------------------  -->
 
 </div>
 <div id="background" class="container tab-pane fade">
@@ -3286,24 +3357,26 @@ You’re always quick to shy away from danger, and desperate to keep your blood 
 <details>
 <summary>Feel No Pain</summary>
 <div markdown="1">
-<i>Requires: Constitution 13 or higher, Wisdom 8 or lower</i>
+
+*Requires: Constitution 13 or higher, Wisdom 8 or lower*
 
 Some people wonder whether you’re really physically tough, or if you’re just too oblivious to notice you’ve been wounded. Who needs mental fortitude when you’ve got a skull thick enough to stop evil magic! You gain the following benefits:
-<ul><li>You may make an unarmed strike with your head for 1d4 bludgeoning damage as a bonus action. You are proficient with this attack.</li>
-<li>Whenever you take damage, you can use your reaction to reduce the damage you take by 1d4, to a minimum of 1 damage.</li>
-<li>You have Expertise  on saving throws to avoid being socially manipulated or magically mind-controlled. This does not extend to illusions, where you instead have disadvantage</li></ul>
+- You may make an unarmed strike with your head for 1d4 bludgeoning damage as a ***bonus action***. You are proficient with this attack.
+- Whenever you take damage, you can use your ***reaction*** to reduce the damage you take by 1d4, to a minimum of 1 damage.
+- You have ***Expertise*** on saving throws to avoid being socially manipulated or magically mind-controlled. This does not extend to illusions, where you instead have disadvantage.
 </div>
 </details>
 
 <details>
 <summary>Lovable Klutz</summary>
 <div markdown="1">
-<i>Requires: Dexterity 8 or lower, Charisma 13 or higher</i>
 
-Though your clumsiness often interferes with routine tasks and you spend as much time on the ground as you do standing up, you always stay positive! It’s important to do your best every day. ! You gain the following benefits:
-<ul><li>A creature that makes a melee attack against you while you are prone does not gain advantage.</li>
-<li>Whenever you roll 1 on an ability check or attack roll, you can use your reaction to gain some forgiveness. The next attack roll made against you before the beginning of your next turn has disadvantage.</li>
-<li>People forgive you quickly for your mistakes. You have Expertise on any Charisma check that you make to gain favor with a creature you’ve accidentally wronged.</li></ul>
+*Requires: Dexterity 8 or lower, Charisma 13 or higher*
+
+Though your clumsiness often interferes with routine tasks and you spend as much time on the ground as you do standing up, you always stay positive! It’s important to do your best every day! You gain the following benefits:
+- A creature that makes a melee attack against you while you are prone does not gain advantage.
+- Whenever you roll 1 on an ability check or attack roll, you can use your ***reaction*** to gain some forgiveness. The next attack roll made against you before the beginning of your next turn has disadvantage.
+- People forgive you quickly for your mistakes. You have ***Expertise*** on any Charisma check that you make to gain favor with a creature you’ve accidentally wronged.
 </div>
 </details>
 
