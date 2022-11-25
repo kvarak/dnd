@@ -1333,7 +1333,7 @@ The omen doesn’t take into account any possible circumstances that might chang
 
 **Astrology**. See the Astrology skill.
 
-**Other**.See https.//en.wikipedia.org/wiki/Methods_of_divination for more examples.
+**Other**. See https.//en.wikipedia.org/wiki/Methods_of_divination for more examples.
 </details>
 <details>
 <summary>Scrying (trait)</summary>
@@ -1564,7 +1564,7 @@ Each outer plane is its own skill granting more in-depth knowledge on this speci
 </div>
 </details>
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- COURTIER ----------------------------------  -->
 
 <details>
 <summary>Courtier</summary>
@@ -1573,7 +1573,8 @@ The knowledge on how to properly behave in a court, from the minor court of a no
 
 <details>
 <summary>Courtier II</summary>
-You excel in the world of the courts and have Expertise on checks regarding lines of nobility or etiquette. In addition you have Synergy (Speechcraft) when interacting with nobility, common folk, or knights, provided that you have not shown yourself to be a danger to them.
+
+You excel in the world of the courts and have ***Expertise*** on checks regarding lines of nobility or etiquette. In addition you have ***Synergy (Speechcraft)*** when interacting with nobility, common folk, or knights, provided that you have not shown yourself to be a danger to them.
 </details>
 
 <details>
@@ -1589,10 +1590,11 @@ The courts of the archfey that rule the feywild have very specific rules. A slig
 <details>
 <summary>Heraldry</summary>
 Relates to the implementation, creation, acquisition and origin of emblazoned signs and sigils upon tabards, shields, flags and so on. Signs are images that are blazoned onto armor and elsewhere according to complex rules in the formal language of heraldry. Identifying sigils includes seals, runes, glyphs or other emblems that can be recognized in relation to their state of origin, thaumaturgical school or magic form.
-<br/><br/>
+
 Each major culture is its own skill. This initially allows you to recognize and identify heraldic signs from your local area, as well as the motifs relating to monarchs, emperors or regional authorities of very high level (kingdoms within empires) within your chosen culture. This same ability extends to great religious leaders, patriarchs and archbishops and those who have established themselves as heroes through their deeds.
-<br/><br/>
-You have Expertise on checks to recall information about heraldry, lines of nobility or etiquette. You would be able to locate any such person's entourage or location moving with a host of soldiers or camped on the field from flags and other signifiers on display, or from the colors chosen for the individual's tent. The mark of any such individual on a document could be distinguished, as well as a seal or the stamp on a coin would be known.
+
+You have ***Expertise*** on checks to recall information about heraldry, lines of nobility or etiquette. You would be able to locate any such person's entourage or location moving with a host of soldiers or camped on the field from flags and other signifiers on display, or from the colors chosen for the individual's tent. The mark of any such individual on a document could be distinguished, as well as a seal or the stamp on a coin would be known.
+
 <details>
 <summary>Recognition of Signs</summary>
 Expands your knowledge to include the nobility of every kingdom or empire within the chosen culture, as well as signs relating to cities larger than 10,000 persons. You are also able to recognize the extensive collection of guild marks and signs created and displayed for public use. Finally, you are able to decipher all markers and signs that are intended to inform the public regarding access to the best routes (particularly those across frontiers), the best gates by which a city can be entered, as well as means to find superior eating houses, drinking houses, even brothels.
@@ -1605,40 +1607,45 @@ Permits recognition of heraldry, signs & sigils relating to secret societies, in
 
 <details>
 <summary>Politics</summary>
-Continental politics are just so thrilling, with the upheaval and the betrayals and the drama of it all. Much better than any play you've seen or book you've read. You love keeping up with the political current events in a kingdom and always know what is going on with the ruler or officials of any country in the present day. Ancient history is a snoozefest and you don't care about a bunch of dead people, but for anything that is happening right now, you obsessively look for news and updates. You have Expertise on any check regarding information on current events, including how to gain the information you seek.
+
+Continental politics are just so thrilling, with the upheaval and the betrayals and the drama of it all. Much better than any play you've seen or book you've read. You love keeping up with the political current events in a kingdom and always know what is going on with the ruler or officials of any country in the present day. Ancient history is a snoozefest and you don't care about a bunch of dead people, but for anything that is happening right now, you obsessively look for news and updates. You have ***Expertise*** on any check regarding information on current events, including how to gain the information you seek.
 </details>
 </div>
 </details>
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- CURLTURE ----------------------------------  -->
 
 <details>
 <summary>Culture (Group)</summary>
 <div markdown="1">
 Culture is a group of skills that involves the knowledge of other cultures (also known as anthropology), each skill being a different culture. You are always assumed to be proficient with your own culture. Skill with one Culture would not give you knowledge of any other culture. Each time you choose this skill, you must select a specific culture.
-<br/><br/>
+
 You know the basics about the customs, philosophies, laws, rituals, religious beliefs, languages, and art of a culture, allowing you to know what behaviors are acceptable. This can help you to get beyond any ethnic or racial divide, and to be treated warmly by other types of folk, provided you treat them in a similar manner. Proficiency with this skill allows you to treat other skills, like Courtier, History, Law and Religion, as if you belonged to that culture. The main known cultures in Golarion are.
-<br/><br/>Human cultures:
-<ul><li>Avistan - Inner Sea. Includes the cultures around the Inner Sea, like Cheliax and Taldor, including their current colonies and cultures that have grown out of settlers from the inner sea, such as Varisia.</li>
-<li>Avistan - Irrisen. The land of eternal winter located at the northernmost limits of Avistan.</li>
-<li>Avistan - Kellid. A primitive tribal culture living in nomadic clans in the harshest areas of Avistan. Generally referred to as barbarians.</li>
-<li>Avistan - Shoanti. A spiritual nomadic people living in the plateaus of northern Avistan.</li>
-<li>Avistan - Ulfen. Generally referred to as vikings.</li>
-<li>Casmaron - Keleshite. The Keleshite are most prominent around the deserts of Casmaron.</li>
-<li>Casmaron - Vudrani.</li>
-<li>Crown of the World. The northernmost landmass on the planet.</li>
-<li>Garund - Garundi. A human ethnicity most commonly found in northern Garund.</li>
-<li>Garund - Mwangi. The humans inhabiting most of Garund</li>
-<li>Tian Xia - Tian. Even though the Tian are composed of many different ethnicities and countries, they have much in common, including knowledge of their neighbors culture.</li></ul>
-<br/><br/>Non-human cultures<br/>
+
+
+##### Human cultures
+- Avistan - Inner Sea. Includes the cultures around the Inner Sea, like Cheliax and Taldor, including their current colonies and cultures that have grown out of settlers from the inner sea, such as Varisia.
+- Avistan - Irrisen. The land of eternal winter located at the northernmost limits of Avistan.
+- Avistan - Kellid. A primitive tribal culture living in nomadic clans in the harshest areas of Avistan. Generally referred to as barbarians.
+- Avistan - Shoanti. A spiritual nomadic people living in the plateaus of northern Avistan.
+- Avistan - Ulfen. Generally referred to as vikings.
+- Casmaron - Keleshite. The Keleshite are most prominent around the deserts of Casmaron.
+- Casmaron - Vudrani.
+- Crown of the World. The northernmost landmass on the planet.
+- Garund - Garundi. A human ethnicity most commonly found in northern Garund.
+- Garund - Mwangi. The humans inhabiting most of Garund.
+- Tian Xia - Tian. Even though the Tian are composed of many different ethnicities and countries, they have much in common, including knowledge of their neighbors culture.
+
+##### Non-human cultures
 Most non-human cultures are similar all over the globe, and different enough from other folk to merit their own skill, with some exceptions.
-<ul><li>Orc. Includes both the original orcs as well their variant, like half-orcs, goblins, bugbears and other goblinoids.</li>
-<li>Gnomes. The three subtypes of gnomes are very different, each being its own skill.</li></ul>
+- Orc. Includes both the original orcs as well their variant, like half-orcs, goblins, bugbears and other goblinoids.
+- Gnomes. The three subtypes of gnomes are very different, each being its own skill.
+
 Additionally there are cultures now seen as dead cultures. Those are covered under the History skill.
 </div>
 </details>
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- ENGINEERING ----------------------------------  -->
 
 <details>
 <summary>Engineering</summary>
@@ -1647,22 +1654,26 @@ Engineering is the practical knowledge of invention, innovation, design, buildin
 
 <details>
 <summary>Demolition</summary>
-You know how to destroy constructions. This is mainly by identifying bearing walls and pillars, or by sapping. Sapping is the digging and shoring of underground tunnels designed to collapse enemy fortifications. You have Expertise on such checks.
+
+You know how to destroy constructions. This is mainly by identifying bearing walls and pillars, or by sapping. Sapping is the digging and shoring of underground tunnels designed to collapse enemy fortifications. You have ***Expertise*** on such checks.
 </details>
 
 <details>
 <summary>Model Making</summary>
-You are proficient with making realistic minia­tures of things. This grants Expertise on checks regarding models, as an example being able to draw conclusions regarding hidden areas when observing a miniature building.
+
+You are proficient with making realistic minia­tures of things. This grants ***Expertise*** on checks regarding models, as an example being able to draw conclusions regarding hidden areas when observing a miniature building.
 </details>
 
 <details>
 <summary>Siege Weapon-making</summary>
-Allows the creation of devices intended to break or circumvent castle doors or walls, such as battering rams, trebuchets, catapults, ballista and mangonels. You have Expertise on checks to create such machines.
+
+Allows the creation of devices intended to break or circumvent castle doors or walls, such as battering rams, trebuchets, catapults, ballista and mangonels. You have ***Expertise*** on checks to create such machines.
 </details>
 
 <details>
 <summary>Tinkering</summary>
-You are familiar with a lot of different types of machines and tools, and have Expertise on checks to identify, use and repair them.
+
+You are familiar with a lot of different types of machines and tools, and have ***Expertise*** on checks to identify, use and repair them.
 <details>
 <summary>Gnomish Tinkering</summary>
 Allows you to create and operate gnomish machinery. This is very unsafe, even with the skill. Even the safest gnomish constructions often include steam-powered engines that can explode at any time.
@@ -1671,7 +1682,7 @@ Allows you to create and operate gnomish machinery. This is very unsafe, even wi
 </div>
 </details>
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- GEOLOGY ----------------------------------  -->
 
 <details>
 <summary>Geology</summary>
@@ -1685,31 +1696,36 @@ Knowledge on materials and creatures that originate from the elemental plane of 
 
 <details>
 <summary>Gemology (→ Gemcutting)</summary>
-You can easily identify different types of gems and estimate their worth and use, gaining Expertise on such checks.
+
+You can easily identify different types of gems and estimate their worth and use, gaining ***Expertise*** on such checks.
 </details>
 
 <details>
 <summary>Hazards</summary>
-You have studied natural geological hazards like earthquakes, volcanoes, avalanches and sinkholes. This knowledge is mostly theoretical, but grants Expertise on checks to identify areas that might be prone to such hazards, to know how to prepare for such an event to increase survival and other such checks concerning these types of hazards.
+
+You have studied natural geological hazards like earthquakes, volcanoes, avalanches and sinkholes. This knowledge is mostly theoretical, but grants ***Expertise*** on checks to identify areas that might be prone to such hazards, to know how to prepare for such an event to increase survival and other such checks concerning these types of hazards.
 <details>
 <summary>Practical Hazard knowledge</summary>
-Intense (and close) studies of geological hazards have given you the experience to survive close encounters with them. You have Expertise on all saves and check to avoid or lessen the effects from these types of hazards.
+
+Intense (and close) studies of geological hazards have given you the experience to survive close encounters with them. You have ***Expertise*** on all saves and check to avoid or lessen the effects from these types of hazards.
 </details>
 </details>
 
 <details>
 <summary>Rocks</summary>
-Your main knowledge is with geological formations and different types of rocks. You have Expertise on checks regarding this subject, as well as Synergy (Survival-Mountains). Example checks for this skill would be to locate precious mineral deposits or identifying the type of natural rock in a cave.
+
+Your main knowledge is with geological formations and different types of rocks. You have ***Expertise*** on checks regarding this subject, as well as ***Synergy (Survival-Mountains)***. Example checks for this skill would be to locate precious mineral deposits or identifying the type of natural rock in a cave.
 </details>
 
 <details>
 <summary>Underground Mining</summary>
-The knowledge of mining techniques and skills associated with the excavation of hard and soft materials below the surface. You have Expertise on such checks, including assessing the safety of natural underground areas.
+
+The knowledge of mining techniques and skills associated with the excavation of hard and soft materials below the surface. You have ***Expertise*** on such checks, including assessing the safety of natural underground areas.
 </details>
 </div>
 </details>
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- HISTORY ----------------------------------  -->
 
 
 <details>
@@ -1722,7 +1738,8 @@ The understanding of past events, conflicts and consequences arising from action
 The knowledge of specific ancient cultures. When selecting this skill, choose a specific culture that you have studied, like Azlant, Thassilonia or Ghol-Gan.
 <details>
 <summary>Deeper Knowledge</summary>
-You have learnt most of the things available in your specific culture, making you an authority on the subject, and have Expertise on all checks regarding the culture.
+
+You have learnt most of the things available in your specific culture, making you an authority on the subject, and have ***Expertise*** on all checks regarding the culture.
 </details>
 </details>
 
@@ -1737,7 +1754,9 @@ Integrates knowledge of surveying, excavation, financial considerations, contrac
 
 <details>
 <summary>Artifacts</summary>
-Provides knowledge of magical items that possess a unique existence, with accumulated knowledge offering the various details of each item. Knowledge of one item does not necessarily extend to any other item — but through research and inquiry the character may begin to amass the sufficient tools necessary to employ an artifact safely. Possessing this skill would give you enough knowledge to be able to  determine if a given object is or is not a magical artifact.
+Provides knowledge of magical items that possess a unique existence, with accumulated knowledge offering the various details of each item. Knowledge of one item does not necessarily extend to any other item — but through research and inquiry the character may begin to amass the sufficient tools necessary to employ an artifact safely. 
+
+Possessing this skill would give you enough knowledge to be able to determine if a given object is or is not a magical artifact.
 <details>
 <summary>Interpret Artifact</summary>
 Artifacts often have a will of their own. This skill enables a safe investigation of an artifact to learn its powers and malevolent effects.
@@ -1758,7 +1777,8 @@ Powerful artifacts affect the area and creatures in their vicinity. This skill i
 
 <details>
 <summary>Historical Accuracy</summary>
-You are trained in authentication of historical documents and objects. When investigating a historical document or other matter of historical interest such as a map or work of art, for example examining a document to determine if it is a forgery, you have Expertise. You also have Expertise when authenticating an object from an Ancient culture with which you have proficiency, with Weapons & armor if you have that proficiency, and finally with other objects from your known cultures if you have Archaeology.
+
+You are trained in authentication of historical documents and objects. When investigating a historical document or other matter of historical interest such as a map or work of art, for example examining a document to determine if it is a forgery, you have ***Expertise***. You also have ***Expertise*** when authenticating an object from an Ancient culture with which you have proficiency, with Weapons & armor if you have that proficiency, and finally with other objects from your known cultures if you have Archaeology.
 </details>
 
 <details>
@@ -1773,12 +1793,13 @@ Learning history allows you to learn from the failures and successes of the past
 
 <details>
 <summary>Military Study</summary>
-Provides a clear grasp of the events surrounding the pursuit of war, including battles and general strategies employed by commanders and armies in the past. You are well-steeped in historical diplomacy and wars, having studied the gains and losses by the victors and the defeated. This grants Expertise on all checks regarding lore of wars and conflict. Additionally, you are able to communicate comfortably with military persons and soldiers.
+
+Provides a clear grasp of the events surrounding the pursuit of war, including battles and general strategies employed by commanders and armies in the past. You are well-steeped in historical diplomacy and wars, having studied the gains and losses by the victors and the defeated. This grants ***Expertise*** on all checks regarding lore of wars and conflict. Additionally, you are able to communicate comfortably with military persons and soldiers.
 </details>
 </div>
 </details>
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- LAW ----------------------------------  -->
 
 <details>
 <summary>Law</summary>
@@ -1787,12 +1808,14 @@ The Law skill covers the system of laws enforced by the political entities withi
 
 <details>
 <summary>Bureaucracy</summary>
-You know how to cut through the red tape of bureaucracy and reduce the time needed to navigate such institutions. Gain Expertise on such checks.
+
+You know how to cut through the red tape of bureaucracy and reduce the time needed to navigate such institutions. Gain ***Expertise*** on such checks.
 </details>
 
 <details>
 <summary>Business Dealing</summary>
-The ability to make sound business contracts that will safely benefit both parties. You have Expertise on all such checks.
+
+The ability to make sound business contracts that will safely benefit both parties. You have ***Expertise*** on all such checks.
 </details>
 
 <details>
@@ -1802,12 +1825,13 @@ You have enough knowledge to be able to decipher the convoluted language of an i
 
 <details>
 <summary>Solicitor</summary>
-You have sufficient understanding of the legal system to be able to defend yourself or someone else during a court trial, and have Expertise on such checks.
+
+You have sufficient understanding of the legal system to be able to defend yourself or someone else during a court trial, and have ***Expertise*** on such checks.
 </details>
 </div>
 </details>
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- LANGUAGE ----------------------------------  -->
 
 
 <details>
@@ -1818,25 +1842,30 @@ The knowledge of different languages (see rules for languages). Gain language st
 </details>
 
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- LINGUISTICS ----------------------------------  -->
 
 
 <details>
 <summary>Linguistics</summary>
 <div markdown="1">
 Your Intelligence (Linguistics) check measures your ability and understanding of languages, both its spoken and written forms. This includes deciphering writing in an unfamiliar language which is similar to one you know or a message written in an incomplete or archaic form. You can also do the following.
-<div class="skill-frame"><b>Identify language</b><br/>
-When examining written text, you can determine the language in which it is written. When you hear a humanoid speak, you can tell what language it is speaking. If you know the language, you can tell what dialect it uses and ascertain roughly where the creature is from.</div>
+
+<div class="skill-frame">
+
+##### Identify language
+When examining written text, you can determine the language in which it is written. When you hear a humanoid speak, you can tell what language it is speaking. If you know the language, you can tell what dialect it uses and ascertain roughly where the creature is from.
+</div>
 
 <details>
 <summary>Cryptology</summary>
-You can invent ciphers, and are able to teach a cipher to others. Anyone who knows a cipher can encode and read hidden messages made with it. Additionally, you have Expertise on checks made to detect and decode ciphers and codes.
+
+You can invent ciphers, and are able to teach a cipher to others. Anyone who knows a cipher can encode and read hidden messages made with it. Additionally, you have ***Expertise*** on checks made to detect and decode ciphers and codes.
 </details>
 </div>
 </details>
 
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- MATHEMATICS ----------------------------------  -->
 
 
 <details>
@@ -1846,7 +1875,8 @@ While most adventurers struggle to count their remaining fingers and toes after 
 
 <details>
 <summary>Accounting</summary>
-The skill to keep detailed (and verifiable) records of wealth, expenditures, losses and potential income, as well as provide analysis of the records of others’ financial transactions. You have Expertise on any such checks.
+
+The skill to keep detailed (and verifiable) records of wealth, expenditures, losses and potential income, as well as provide analysis of the records of others’ financial transactions. You have ***Expertise*** on any such checks.
 </details>
 
 <details>
@@ -1854,7 +1884,8 @@ The skill to keep detailed (and verifiable) records of wealth, expenditures, los
 Your knowledge reaches beyond simple addition, subtraction, multiplications and division. You can calculate volumes and trajectories, understand calculus and can make statistical analysis. Gain +1 Intelligence.
 <details>
 <summary>Physics</summary>
-The theoretical study of the physical laws associated with the movement of bodies and objects, vibration, sound, optics and light, the movement of water, air and earth, pressure, magnetism and many similar branches and topics that give the character insight into the way that energy (including magic) ebbs and flows through the environment. Gain Expertise on such checks.
+
+The theoretical study of the physical laws associated with the movement of bodies and objects, vibration, sound, optics and light, the movement of water, air and earth, pressure, magnetism and many similar branches and topics that give the character insight into the way that energy (including magic) ebbs and flows through the environment. Gain ***Expertise*** on such checks.
 <details>
 <summary>Aerodynamics (trait)</summary>
 You can Dash while in flight (or freefall).
@@ -1864,13 +1895,14 @@ You can Dash while in flight (or freefall).
 
 <details>
 <summary>Siege Weapons</summary>
-You have Expertise on attacks using siege weapons.
+
+You have ***Expertise*** on attacks using siege weapons.
 </details>
 </div>
 </details>
 
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- NATURE ----------------------------------  -->
 
 
 <details>
@@ -1880,10 +1912,12 @@ The theoretical knowledge of terrain, plants and animals, the weather and natura
 
 <details>
 <summary>Animals (group)</summary>
-Select a type of animal from Amphibians, Birds, Bugs & Spiders, Mammals (land), Reptiles or Sea life. You can take this skill multiple times, each type applied to a different type of animal. Gain Expertise on checks to recall lore on the type of animal selected.
+
+Select a type of animal from Amphibians, Birds, Bugs & Spiders, Mammals (land), Reptiles or Sea life. You can take this skill multiple times, each type applied to a different type of animal. Gain ***Expertise*** on checks to recall lore on the type of animal selected.
 <details>
 <summary>Confound Animal</summary>
-You know about the behavior of the type of animals you are familiar with, enabling you to know how to mislead or confuse them, so as to "disappear" from their attention. Gain Expertise on such checks, even allowing you to sometimes avoid a check completely.
+
+You know about the behavior of the type of animals you are familiar with, enabling you to know how to mislead or confuse them, so as to "disappear" from their attention. Gain ***Expertise*** on such checks, even allowing you to sometimes avoid a check completely.
 </details>
 </details>
 
@@ -1892,11 +1926,13 @@ You know about the behavior of the type of animals you are familiar with, enabli
 Enables you to recognize and identify beasts — creatures that have unnatural animal forms that are often magical in nature. This identification includes the name of the beast, the threats it imposes and its general behavior and motives.
 <details>
 <summary>Beast Forms</summary>
-Provides full knowledge of the moral and symbolic qualities that beasts possess, including stories of their origins, their place and reason for being, the manner in which they fit into the religious milieu and construction of the universe and ultimately how they "think". This skill provides Expertise on all checks to recall lore on Beasts.
+
+Provides full knowledge of the moral and symbolic qualities that beasts possess, including stories of their origins, their place and reason for being, the manner in which they fit into the religious milieu and construction of the universe and ultimately how they "think". This skill provides ***Expertise*** on all checks to recall lore on Beasts.
 </details>
 <details>
 <summary>Confound Beasts</summary>
-You know how to mislead or confuse Beasts, so as to "disappear" from their attention. Gain Expertise on such checks, even allowing you to sometimes avoid a check completely.
+
+You know how to mislead or confuse Beasts, so as to "disappear" from their attention. Gain ***Expertise*** on such checks, even allowing you to sometimes avoid a check completely.
 </details>
 <details>
 <summary>Fight Beasts (trait)</summary>
@@ -1909,11 +1945,13 @@ You recognize the attack patterns of many Beasts. Knowing how they attack and re
 You are familiar with the fleshy and edible fruit bodies of several species of mushroom, including those that grow above and below ground. Mushrooms are eaten for their food value and for other qualities, some of them magical, as well as being a poison source. The study includes yeasts, lichen and mushrooms, shriekers and violet fungi, as well as sentient forms of fungus such as yellow musk creepers.
 <details>
 <summary>Cultivate Mushroom</summary>
-You know how to grow fungi of any variety. Gain Expertise on any such checks, including recognizing that fungi may have been grown on purpose in a location (shrikers as guards for instance).
+
+You know how to grow fungi of any variety. Gain ***Expertise*** on any such checks, including recognizing that fungi may have been grown on purpose in a location (shrikers as guards for instance).
 </details>
 <details>
 <summary>Detect Fungus</summary>
-Recognises the odor given off by dangerous fungus-based creatures, forewarning the character when approaching within 120 ft. Grants at least Expertise on checks to notice or detect such creatures.
+
+Recognises the odor given off by dangerous fungus-based creatures, forewarning the character when approaching within 120 ft. Grants at least ***Expertise*** on checks to notice or detect such creatures.
 </details>
 <details>
 <summary>Fermentation</summary>
@@ -1921,7 +1959,8 @@ Provides knowledge of yeast and fungus in creating safe-to-consume fermented alc
 </details>
 <details>
 <summary>Know Fungi</summary>
-You can identify the name of genera and species of fungi on sight, and know when and where to search for edible or poisonous mushrooms in a wild environment. This grants Expertise on Foraging checks during appropriate seasons and terrains.
+
+You can identify the name of genera and species of fungi on sight, and know when and where to search for edible or poisonous mushrooms in a wild environment. This grants ***Expertise*** on Foraging checks during appropriate seasons and terrains.
 </details>
 </details>
 
@@ -1939,7 +1978,8 @@ Oozes are not the brightest creatures and you know how to trick their perception
 </details>
 <details>
 <summary>Ooze Master</summary>
-You have more knowledge than most regarding Oozes, granting Expertise on checks to recall lore about them. In addition, a successful check can grant you insight in their defenses and immunities.
+
+You have more knowledge than most regarding Oozes, granting ***Expertise*** on checks to recall lore about them. In addition, a successful check can grant you insight in their defenses and immunities.
 </details>
 <details>
 <summary>Protect against Ooze (trait)</summary>
@@ -1953,7 +1993,8 @@ When within 20 ft of one of these creatures, even if the creature cannot be seen
 
 <details>
 <summary>Plants</summary>
-You have a lot of theoretical knowledge on plants, allowing you to identify most types of plants, both wild and cultivated, and have Expertise on checks to recall lore about plants.
+
+You have a lot of theoretical knowledge on plants, allowing you to identify most types of plants, both wild and cultivated, and have ***Expertise*** on checks to recall lore about plants.
 <details>
 <summary>Florist</summary>
 There's something about the beautiful colors of flowers that captures your attention like nothing else. Your fascination has given you a huge base of knowledge on flowers. You can identify them by color and shape and you know which flowers are associated with which plants. You also have knowledge of the symbolic qualities of flowers, including stories of their origins, their use and reason for being.
@@ -1967,22 +2008,28 @@ You are familiar with different types of plant creatures, and the way they might
 <details>
 <summary>Primal Magic</summary>
 A type of magic provided by nature itself or provided by ancestor spirits and filtered through nature. This magic is mostly used by druids, rangers and creatures close to nature, such as fey. A Wisdom (Primal Magic) check measures your ability to recall lore about primal spells, symbols and magical traditions. It does not infer any knowledge on Arcane or Divine magic, with the exception of possibly knowing which category a phenomena might belong to.
+
 <div class="skill-frame">
-<b>Identifying A Spell</b><br/>
-Sometimes a character wants to identify a spell that someone else is casting or that was already cast. To do so, a character can use their reaction to identify a spell as it's being cast, or they can use an action on their turn to identify a spell by its effect after it is cast.<br/>
+
+##### Identifying A Spell
+Sometimes a character wants to identify a spell that someone else is casting or that was already cast. To do so, a character can use their ***reaction*** to identify a spell as it's being cast, or they can use an ***action*** on their turn to identify a spell by its effect after it is cast.
+
 If the character perceives the casting, the spell's effect, or both, the character can make an Wisdom (Primal Magic) check with the reaction or action. The DC equals 15 + the spell's level.
 </div>
 <details>
 <summary>Fey Magic</summary>
-The magic of fey is well known to you, and you have Expertise on all checks to recall lore about such magic, including recognizing a spell being cast.
+
+The magic of fey is well known to you, and you have ***Expertise*** on all checks to recall lore about such magic, including recognizing a spell being cast.
 </details>
 <details>
 <summary>Primal Defense</summary>
-You have seen enough primal magic to understand the limitations and flaws of most such spells. You have Expertise when using a reaction to identify a primal spell being cast. If you recognize it, you gain advantage on any saves against that spell.
+
+You have seen enough primal magic to understand the limitations and flaws of most such spells. You have ***Expertise*** when using a ***reaction*** to identify a primal spell being cast. If you recognize it, you gain advantage on any saves against that spell.
 </details>
 <details>
 <summary>Primal Symbols</summary>
-You recognize many of the symbols used during the practise of primal magic and have Expertise on checks to deduce the purpose of such symbols.
+
+You recognize many of the symbols used during the practise of primal magic and have ***Expertise*** on checks to deduce the purpose of such symbols.
 </details>
 <details>
 <summary>Ritual Magic</summary>
@@ -1990,54 +2037,61 @@ Your knowledge in the primal arts specializes in the ritual casting of spells, c
 </details>
 <details>
 <summary>Spiritualism</summary>
-The contacting of ancestral souls from beyond death, often involving consulting the spirits of the dead about information they knew in life. This skill grants Expertise on checks to communicate to such spirits.
+
+The contacting of ancestral souls from beyond death, often involving consulting the spirits of the dead about information they knew in life. This skill grants ***Expertise*** on checks to communicate to such spirits.
 </details>
 </details>
 
 <details>
 <summary>Terrain (group)</summary>
-You have theoretical knowledge on the natural phenomena from a specific type of terrain. When you select this skill, always choose a terrain type from below. You can select it multiple times, each time choosing a different type of terrain. In addition to being familiar with the selected type of terrain, you have Synergy with weather, animal, plant and Survival checks in the same terrain.
-<ul><li>Arctic</li>
-<li>Coastal</li>
-<li>Desert</li>
-<li>Forest<br/>
+
+You have theoretical knowledge on the natural phenomena from a specific type of terrain. When you select this skill, always choose a terrain type from below. You can select it multiple times, each time choosing a different type of terrain. In addition to being familiar with the selected type of terrain, you have ***Synergy*** with weather, animal, plant and Survival checks in the same terrain.
+
+- Arctic
+- Coastal
+- Desert
+- Forest
+
 <details>
 <summary>Woodcutting</summary>
-The skill at selecting and cutting timber to sustain a forest while drawing its resources. This skill might also give you Expertise on checks to communicate with both sides of a foresting dispute.
+
+The skill at selecting and cutting timber to sustain a forest while drawing its resources. This skill might also give you ***Expertise*** on checks to communicate with both sides of a foresting dispute.
 </details>
-</li>
-<li>Grassland</li>
-<li>Jungle</li>
-<li>Mountains - includes Alpine mountains</li>
-<li>Ocean</li>
-<li>Planar - specify plane. Examples include Abyss, Acheron, Astral plane, Hell</li>
-<li>Ruins (in D&D worlds ruins often have a unique ecology)</li>
-<li>Rural</li>
-<li>Subterranean (a.k.a. Underdark)</li>
-<li>Urban</li>
-<li>Wetland - includes Swamp</li></ul>
+
+- Grassland
+- Jungle
+- Mountains - includes Alpine mountains
+- Ocean
+- Planar - specify plane. Examples include Abyss, Acheron, Astral plane, Hell
+- Ruins (in D&D worlds ruins often have a unique ecology)
+- Rural
+- Subterranean (a.k.a. Underdark)
+- Urban
+- Wetland - includes Swamp
 </details>
 
 <details>
 <summary>Weather</summary>
-The knowledge of weather phenomena, including magical ones, and the skill to determine future weather events with marked accuracy, allowing for instance when and where a storm will occur, as well as its severity and length. You have Expertise on checks to recall lore about weather phenomena.
+
+The knowledge of weather phenomena, including magical ones, and the skill to determine future weather events with marked accuracy, allowing for instance when and where a storm will occur, as well as its severity and length. You have ***Expertise*** on checks to recall lore about weather phenomena.
 </details>
 </div>
 </details>
 
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
+<!-- ---------------------------- KNOWLEDGE ----------------------------------  -->
 
 
 <details>
 <summary>Knowledge (other) (Group)</summary>
 <div markdown="1">
-You are educated in a field of study not covered by other Knowledge skills. In addition you have Synergy (Speechcraft) when interacting with other sages in your field.
+
+You are educated in a field of study not covered by other Knowledge skills. In addition you have ***Synergy (Speechcraft)*** when interacting with other sages in your field.
 </div>
 </details>
 
 
-<!-- ----------------------------Practical skills-------------------------  -->
+<!-- ----------------------------PRACTICAL SKILLS -------------------------  -->
 
 <!-- ---------------------------- ARCANA ----------------------------------  -->
 
