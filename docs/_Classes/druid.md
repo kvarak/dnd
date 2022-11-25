@@ -722,14 +722,9 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 
-
-
-
-# <a name="internal-land">Circle of the Land</a>
-The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk.
-
-As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-land">Circle of the Land</a></h1>
+<div class="featuresTable">
 
 #### Circle of Land Features
 | Druid Level | Feature |
@@ -740,6 +735,26 @@ As a member of this circle, your magic is influenced by the land where you were 
 | 10th | Nature's Ward |
 | 14th | Nature's Sanctuary |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Natural Recovery***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk.
+
+As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.
 
 ### Circle Spells
 Your mystical connection to the land infuses you with the ability to cast certain spells. When you choose this circle at 1st level, you learn one additional druid cantrip of your choice.
@@ -766,18 +781,6 @@ When you reach 14th level, creatures of the natural world sense your connection 
 
 The creature is aware of this effect before it makes its attack against you.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following circle specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class specific benefits to choose from: ||
-| | * Regain use of **Natural Recovery**.
 
 
 
@@ -787,13 +790,9 @@ The following circle specific additions are made to the general rest rules.
 
 
 
-
-
-# <a name="internal-moon">Circle of the Moon</a>
-Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.
-
-Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-moon">Circle of the Moon</a></h1>
+<div class="featuresTable">
 
 #### Circle of the Moon Features
 | Druid Level | Feature |
@@ -802,6 +801,14 @@ Changeable as the moon, a druid of this circle might prowl as a great cat one ni
 | 6th | Circle Forms (improved), Primal Strike |
 | 10th | Elemental Wild Shape |
 | 14th | Thousand Forms |
+
+</div>
+
+Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.
+
+Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.
+
+
 
 
 ### Circle Forms
@@ -829,11 +836,9 @@ By 14th level, you have learned to use magic to alter your physical form in more
 
 
 
-
-
-# <a name="internal-sands">Circle of the Sands</a>
-Druids of the Circle of the Sands finds the toughest life in one of the harshest place of the world — the deserts. Fascinated at how life finds a way to survive and thrive in the barren lands, the druid contemplates the tenacity of life, bathing in the scorching sun and roaring sandstorms. Like the shifting sands and winds of the desert, most druids of Circle of Sands prefer nomadic lifestyle over settling into a fixed location. However, some druids of Circle of the Sands stay within a settlement as caretakers and protectors.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-sands">Circle of the Sands</a></h1>
+<div class="featuresTable">
 
 #### Circle of the Sands Features
 | Druid Level | Feature |
@@ -843,6 +848,12 @@ Druids of the Circle of the Sands finds the toughest life in one of the harshest
 | 6th | Sprinting Sands |
 | 10th | Howling Sands |
 | 14th | Raging Sands |
+
+</div>
+
+Druids of the Circle of the Sands finds the toughest life in one of the harshest place of the world — the deserts. Fascinated at how life finds a way to survive and thrive in the barren lands, the druid contemplates the tenacity of life, bathing in the scorching sun and roaring sandstorms. Like the shifting sands and winds of the desert, most druids of Circle of Sands prefer nomadic lifestyle over settling into a fixed location. However, some druids of Circle of the Sands stay within a settlement as caretakers and protectors.
+
+
 
 
 ### Circle Spells
@@ -882,13 +893,9 @@ Additionally, while you are surrounded by the wind from your Shifting Sands, you
 
 
 
-
-
-# <a name="internal-shepherd">Circle of the Shepherd</a>
-Druids of the Circle of the Shepherd commune with the spirits of nature, especially the spirits of beasts and the fey, and call to those spirits for aid. These druids recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves. Shepherds, as they are known, see such creatures as their charges. They ward off monsters that threaten them, rebuke hunters who kill more prey than necessary, and prevent civilization from encroaching on rare animal habitats and on sites sacred to the fey. Many of these druids are happiest far from cities and towns, content to spend their days in the company of animals and the fey creatures of the wilds.
-
-Members of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-shepherd">Circle of the Shepherd</a></h1>
+<div class="featuresTable">
 
 #### Circle of the Shepherd Features
 | Druid Level | Feature |
@@ -898,6 +905,35 @@ Members of this circle become adventurers to oppose forces that threaten their c
 | 6th | Mighty Summoner |
 | 10th | Guardian Spirit |
 | 14th | Faithful Summons |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Spirit Totem***.
+
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Faithful Summons***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Druids of the Circle of the Shepherd commune with the spirits of nature, especially the spirits of beasts and the fey, and call to those spirits for aid. These druids recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves. Shepherds, as they are known, see such creatures as their charges. They ward off monsters that threaten them, rebuke hunters who kill more prey than necessary, and prevent civilization from encroaching on rare animal habitats and on sites sacred to the fey. Many of these druids are happiest far from cities and towns, content to spend their days in the company of animals and the fey creatures of the wilds.
+
+Members of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.
+
+
 
 
 ### Speech of the Woods
@@ -944,21 +980,6 @@ The spell lasts for 1 hour, requiring no concentration, or until you dismiss it.
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following circle specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a Short rest: ||
-| | * Regain use of **Spirit Totem**.
-| | &nbsp;
-| Add the following class specific benefits to choose from: ||
-| | * Regain use of **Faithful Summons**.
 
 
 
@@ -967,14 +988,9 @@ The following circle specific additions are made to the general rest rules.
 
 
 
-
-
-
-# <a name="internal-spores">Circle of Spores</a>
-Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the  ability to transform lifeless material into  abundant, albeit somewhat strange, life. These druids believe that life and death are portions of a grand cycle, with one leading to the other and then back again. Death is not the end of life, but instead a change of state that sees life shift into a new form.
-
-Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. However, these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or avoid passing to a final rest, violate the cycle and must be thwarted.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-spores">Circle of Spores</a></h1>
+<div class="featuresTable">
 
 #### Circle of Spores Features
 | Druid Level | Feature |
@@ -984,6 +1000,14 @@ Druids of this circle have a complex relationship with the undead. Unlike most o
 | 6th | Fungal Infestation |
 | 10th | Spreading Spores |
 | 14th | Fungal Body |
+
+</div>
+
+Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the  ability to transform lifeless material into  abundant, albeit somewhat strange, life. These druids believe that life and death are portions of a grand cycle, with one leading to the other and then back again. Death is not the end of life, but instead a change of state that sees life shift into a new form.
+
+Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. However, these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or avoid passing to a final rest, violate the cycle and must be thwarted.
+
+
 
 
 ### Circle Spells
@@ -1036,11 +1060,64 @@ If the process is disturbed or interrupted, such as by excavation or a spell tha
 
 
 
+<hr class="classdivider">
 
+<div class="monster frame">
+<table class="monster">
+<thead><tr><th>
+Storm Elemental
+</th></tr></thead>
+<tbody>
+<tr><td><i>Large elemental</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
-# <a name="internal-storms">Circle of Storms</a>
-Druids of the Circle of Storms do not form a bond with the earth or its beasts, but with the fury of nature: the raging thunderstorm, the writhing cyclone, and the hammering blizzard. Members of this circle seldom remain in one place, instead roaming like a cloud in the breeze. The sacred sites of these druids are not glades encircled by stones but places where the heavens strike the land, such as storm-wracked beaches and lightning-smote peaks. As a member of this circle, you are keenly aware of the unpredictability and heartlessness of the weather. You might embody this fickle and chaotic rage or act to temper the cruelty of the weather.
+**Armor Class**   14
 
+**Hit Points**    90 (12d10 + 24)
+
+**Speed**         0 ft., fly 60 ft. (hover)
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|13 (+1)|18 (+4)|14 (+2)|6 (-1) |10 (+0)|7 (-2) |
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
+**Damage Resistances**  lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks
+
+**Damage Immunities**  poison
+
+**Condition Immunities**  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
+***Storm Form.*** The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack with a metal weapon takes 1d6 lightning damage. In addition, the elemental can enter a hostile creature’s space and stop there. The first time it enters a creature’s space on a turn, that creature takes 1d8 lightning damage.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
+### Actions
+***Multiattack.*** The elemental makes two slam attacks.
+
+***Slam.*** *Melee Attack:* +7 to hit for 1d8+4 bludgeoning damage and 1d8 lightning damage.
+
+***Bolt (Recharge 5–6).*** The elemental instantly streaks forward 40 feet in a straight line as a lightning bolt. This movement doesn't provoke opportunity attacks and ignores terrain. Each creature in the line must make a DC 13 Dexterity saving throw, taking 3d6 lightning damage on a failed saving throw, or half as much damage on a success.
+
+</td></tr></tbody></table>
+</div>
+
+<h1><a class="internal-link" name="internal-storms">Circle of Storms</a></h1>
+<div class="featuresTable">
 
 #### Circle of the Storms Features
 | Druid Level | Feature |
@@ -1050,6 +1127,11 @@ Druids of the Circle of Storms do not form a bond with the earth or its beasts, 
 | 6th | Thundering Bolts |
 | 10th | Stormbound |
 | 14th | Shape of the Storm |
+
+</div>
+
+Druids of the Circle of Storms do not form a bond with the earth or its beasts, but with the fury of nature: the raging thunderstorm, the writhing cyclone, and the hammering blizzard. Members of this circle seldom remain in one place, instead roaming like a cloud in the breeze. The sacred sites of these druids are not glades encircled by stones but places where the heavens strike the land, such as storm-wracked beaches and lightning-smote peaks. As a member of this circle, you are keenly aware of the unpredictability and heartlessness of the weather. You might embody this fickle and chaotic rage or act to temper the cruelty of the weather.
+
 
 
 ### Circle Spells
@@ -1071,41 +1153,40 @@ When you reach 10th level, your connection to storms grants you resistance to th
 ### Shape of the Storm
 At 14th level, you can expend two uses of Wild Shape to become a storm elemental.
 
-{{}}">monster,frame
-## Storm Elemental
-*Large elemental*
-
-**Armor Class**   14
-**Hit Points**    90 (12d10 + 24)
-**Speed**         0 ft., fly 60 ft. (hover)
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|13 (+1)|18 (+4)|14 (+2)|6 (-1) |10 (+0)|7 (-2) |
-
-**Damage Resistances**  lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks
-**Damage Immunities**  poison
-**Condition Immunities**  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
-
-***Storm Form.*** The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack with a metal weapon takes 1d6 lightning damage. In addition, the elemental can enter a hostile creature’s space and stop there. The first time it enters a creature’s space on a turn, that creature takes 1d8 lightning damage.
-
-
-### Actions
-***Multiattack.*** The elemental makes two slam attacks.
-
-***Slam.*** *Melee Attack:* +7 to hit for 1d8+4 bludgeoning damage and 1d8 lightning damage.
-
-***Bolt (Recharge 5–6).*** The elemental instantly streaks forward 40 feet in a straight line as a lightning bolt. This movement doesn't provoke opportunity attacks and ignores terrain. Each creature in the line must make a DC 13 Dexterity saving throw, taking 3d6 lightning damage on a failed saving throw, or half as much damage on a success.
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-swarm">Circle of the Swarm</a></h1>
+<div class="featuresTable">
 
+#### Circle of the Swarm Features
+| Druid Level | Feature |
+|:-----------:|:--------|
+| 1st | Speech of the Many |
+| 2nd | Swarm Shape |
+| 6th | Greater Swarm, Primal Strike |
+| 10th | Consuming Swarm, Form of the Many |
+| 14th | Plague Swarm |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Form of the Many***.
 
+</div>
+</div>
+</div>
 
-# <a name="internal-swarm">Circle of the Swarm</a>
+</div>
+
 Druids of the Circle of the Swarm have found strength in numbers above all else. They tend to see the world as a collective, and will often often choose the wellbeing of the majority over that of the individual. While not inherently evil, followers of the Swarm may come off as alien or cruel, unable to or unwilling to understand individual concern and feelings, especially those that run contrary to the will of the group.
 
 Druids of the Swarm often develop strange tendencies. At your option, you can pick from or roll on the Quirks table.
@@ -1120,17 +1201,6 @@ Druids of the Swarm often develop strange tendencies. At your option, you can pi
 | 5 |	You always refer to yourself as ‘we’.
 | 6 | A small colony of insects, spiders or vermin lives in your hair or on your body.
 
-
-
-
-#### Circle of the Swarm Features
-| Druid Level | Feature |
-|:-----------:|:--------|
-| 1st | Speech of the Many |
-| 2nd | Swarm Shape |
-| 6th | Greater Swarm, Primal Strike |
-| 10th | Consuming Swarm, Form of the Many |
-| 14th | Plague Swarm |
 
 
 ### Speech of the Many
@@ -1182,27 +1252,6 @@ Starting at 14th level, you have learned how to call upon the power of a plague 
 * As a ***bonus action*** you can move the sphere up to 40 ft.
 * Only creatures of your choice have to make a save.
 * For each spell level above 5th, radius increases by 5ft.
-
-
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Form of the Many**.
-
-
-
-
-
-
 
 
 
