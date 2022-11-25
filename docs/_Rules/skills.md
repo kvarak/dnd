@@ -2714,10 +2714,7 @@ The criminal underworld is a dangerous place where a wrong word can get you kill
 </div>
 <div id="craft" class="container tab-pane fade">
 
-<details>
-<summary>Generic rules for crafting</summary>
-<div markdown="1">
-
+##### Generic rules for crafting
 With a skill in this category you have enough knowledge to manufacture and repair objects of a certain type, provided you have the materials and tools required. However, this skill also cover other things related to your type of crafting skill, such as knowing how to get in touch with other crafters or a crafter’s guild, how to get hold of raw materials, appraising the price and quality of an objects and deducing where and how items of your type would be best sold or bought.
 
 No matter your actual skill, in most cultures you would be considered an apprentice. During downtime in human urban and rural areas, this allows you to practice your profession in exchange for food, lodging and formal training in the craft, essentially allowing you to live a poor lifestyle without paying the cost.
@@ -2751,12 +2748,8 @@ At the end of a day’s work make a Wisdom (Craft) check and see the first appli
 
 Multiple characters can help cut the time down, with each person making a check and adding to the daily progress. This is contingent on those helping having an appropriate tool proficiency and that the item can allow for others to work on it (a crafting a ring won't have more than one person, while a whole suit of armor could use up to three).
 
-</div>
-</details>
 
-<details>
-<summary>Generic crafting skills</summary>
-<div markdown="1">
+##### Generic crafting skills
 For each single craft, you can select the skills described below. Also note, that dwarves gain both the Journeyman crafter and Master crafter skills, as the craftsmanship of dwarves is well known. For other folk, during play, you do not have to spend points to gain the Journeyman crafter and Master crafter skills, instead you gain them as soon as you are applicable for them.
 <details>
 <summary>Appraiser (trait)</summary>
@@ -2783,9 +2776,7 @@ The following skill are not bound to a craft, instead consider it as a single sk
 <summary>Guild Politics</summary>
 
 Knowledge of the etiquette among guilds and their associates. You have ***Expertise*** on Charisma checks when interacting with crafting professionals. This applies even to guilds where you are not a member.
-</details>
-</div>
-</details>
+
 
 <!-- ---------------------------- ALCHEMY ----------------------------------  -->
 
