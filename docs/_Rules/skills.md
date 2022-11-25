@@ -2722,10 +2722,8 @@ No matter your actual skill, in most cultures you would be considered an apprent
 #### Guilds
 One thing to keep in mind is that crafting items and selling them in an area where there is a guild, is only allowed for master crafters. As an apprentice or journeyman you can be employed by a master or maybe help fixing minor stuff for people. Doing more than that could involve legal repercussions and other kinds of problems if found out. Note that this would only apply in areas where there are guilds, which is exclusively human urban and rural areas.
 
-<hr>
-The following rules apply to all craft skills unless otherwise noted.
-
-**Crafting**. In general, to craft an item you need the proper tools and raw materials worth half the listed value of the created item.  When attempting to craft an item, follow these steps.
+##### Crafting
+In general, to craft an item you need the proper tools and raw materials worth half the listed value of the created item.  When attempting to craft an item, follow these steps.
 
 Determine the final value of the item. This would normally be the listed market price, but a skilled crafter might want to display his craftsmanship and increase the final market value with any amount. During a full work day you make up to 10 gp of progress towards the final cost of the item, or 5 gp of progress if you work as a camp activity, i.e. spending half that in raw materials. Items do not have to be worked on during consecutive days.
 
@@ -2750,6 +2748,14 @@ Multiple characters can help cut the time down, with each person making a check 
 
 
 ##### Generic crafting skills
+The following skill is not bound to a craft, instead it applies to all crafts in which you have skill.
+<details>
+<summary>Guild Politics</summary>
+
+##### Craft specific skills
+Knowledge of the etiquette among guilds and their associates. You have ***Expertise*** on Charisma checks when interacting with crafting professionals. This applies even to guilds where you are not a member.
+</details>
+
 For each single craft, you can select the skills described below. Also note, that dwarves gain both the Journeyman crafter and Master crafter skills, as the craftsmanship of dwarves is well known. For other folk, during play, you do not have to spend points to gain the Journeyman crafter and Master crafter skills, instead you gain them as soon as you are applicable for them.
 <details>
 <summary>Appraiser (trait)</summary>
@@ -2771,13 +2777,8 @@ If you start play with this skill, you are a member of a guild and have an offic
 You know how and where to sell and buy the type of items you can craft in order to earn the most. This applies on transactions from single items to wholesale bulk. You have ***Expertise*** on all such checks, including checks made to find information about sellers and buyers.
 </details>
 
-The following skill are not bound to a craft, instead consider it as a single skill reachable from all types of crafts.
-<details>
-<summary>Guild Politics</summary>
-
-Knowledge of the etiquette among guilds and their associates. You have ***Expertise*** on Charisma checks when interacting with crafting professionals. This applies even to guilds where you are not a member.
-</details>
-
+##### Crafts
+The following list describes all crafting skills.
 
 <!-- ---------------------------- ALCHEMY ----------------------------------  -->
 
@@ -3232,10 +3233,11 @@ You are skilled in a craft not covered by other Craft skills, such as barrel mak
 This group collects additional traits that are not part of a skill.
 
 <details>
-<summary>Death’s Suitor</summary>
-<div markdown="1">
+<summary>Death’s Suitor
 
 *Requirement: Must have died at least once*
+</summary>
+<div markdown="1">
 
 You have cheated death so often that even Pharasma now deems it part of your fate. This allows you to reroll any roll where failure has a chance of killing you or reducing you to 0 hp. This might be an attack roll against you when you are low on hp, an unexpectedly high damage roll, a failed save against an ability damage or spell effect that instantly kills. When using it, the reroll is made with advantage or disadvantage, your choice. You can use this a number of times equal to the number of times you have died, and regain all uses when you finish a short rest.
 </div>
