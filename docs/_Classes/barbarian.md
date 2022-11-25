@@ -47,7 +47,7 @@ As a barbarian, you gain the following class features.
 
 ##### The Barbarian
 
-| - Level - | - Proficiency Bonus - | - Features - | - Fury - | - Rage Damage - |
+| - Level - | - PB - | - Features - | - Fury - | - Rage Damage - |
 |:---:|:---:|:---|:---:|:---:|
 | 1st | +2 | Primal Path, Rage, Unarmored Defense | 20 | +2 |
 | 2nd | +2 | Combat Style, Survivor | 20 | +2 |
