@@ -763,51 +763,64 @@ When you enter your rage, you assume the form of a primeval guardian, taking on 
 
 If an effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.
 
-#### Flame
-Your skin takes on the appearance of cracks with magma.
-* When you enter this form, all creatures within 10 ft are dealt 2 fire damage. The damage increases when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level.
-* When you hit a creature with a melee weapon attack, you can deal an additional 1d8 fire damage as a **bonus action**.
+<div class="columnsthree">
+
+- #### Flame
+    Your skin takes on the appearance of cracks with magma.
+
+    When you enter this form, all creatures within 10 ft are dealt 2 fire damage. The damage increases when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level.
+
+    When you hit a creature with a melee weapon attack, you can deal an additional 1d8 fire damage as a **bonus action**.
+
+- #### Ice
+    Your body becomes covered in a thin layer of ice.
+
+    When you enter this form, each creature of your choice within 10 ft gains 2 temporary hit points, as icy spirits inure it to suffering. The temporary hit points increase when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level.
+
+    You gain resistance to cold.
+
+    When you hit a creature with a melee weapon attack, its movement speed is reduced by 10 ft, and it can not make any opportunity attacks. These effects last until the start of your next turn.
+
+- #### Stone
+    Your skin hardens and sprouts outgrowths of stone
+
+    When you enter this form, you gain 1d6 temporary hit points. The temporary hit points increase when you reach certain levels in this class, increasing to 2d6 at 10th level, 3d6 at 15th level, and 4d6 at 20th level.
+
+    Reduce all nonmagical bludgeoning, piercing, and slashing damage you take by 1d4.
+
+    This form makes you slow and heavy. Your walking speed is reduced by 20 feet. Additionally, if you normally have a climbing, swimming, or flying speed, you can't use it while in this form.
+
+    At the **end of your turn** you can choose to become unmovable. Until the beginning of your next turn, you cannot move or be moved.
+
+- #### Storm
+    You surround yourself with the elemental wind from the plains and mountains, allowing you to buffet your foes as you strike.
+
+    When you enter this form, you can choose one other creature 10 ft. The target must make a Dexterity saving throw. The target takes 1d6 lightning damage on a failed save, or half as much damage on a successful one. The damage increases when you reach certain levels in this class, increasing to 2d6 at 10th level, 3d6 at 15th level, and 4d6 at 20th level.
+
+    Once per round when you hit an enemy with a melee weapon attack, that creature must succeed at a Strength saving throw or be pushed 5 feet in any direction. If the save is failed by 10 or more, the target is also knocked prone.
+
+    Additionally, ranged weapon attacks have disadvantage against you.
 
 
+- #### Water
+    Your body takes on the fluidity of elemental water.
 
-#### Ice
-Your body becomes covered in a thin layer of ice.
-* When you enter this form, each creature of your choice within 10 ft gains 2 temporary hit points, as icy spirits inure it to suffering. The temporary hit points increase when you reach certain levels in this class, increasing to 3 at 5th level, 4 at 10th level, 5 at 15th level, and 6 at 20th level.
-* You gain resistance to cold.
-* When you hit a creature with a melee weapon attack, its movement speed is reduced by 10 ft, and it can not make any opportunity attacks. These effects last until the start of your next turn.
+    When you enter this form, you heal 1d6 hit points. The healing increases when you reach certain levels in this class, increasing to 2d6 at 10th level, 3d6 at 15th level, and 4d6 at 20th level.
 
-#### Stone
-Your skin hardens and sprouts outgrowths of stone
-* When you enter this form, you gain 1d6 temporary hit points. The temporary hit points increase when you reach certain levels in this class, increasing to 2d6 at 10th level, 3d6 at 15th level, and 4d6 at 20th level.
-* Reduce all nonmagical bludgeoning, piercing, and slashing damage you take by 1d4.
-* This form makes you slow and heavy. Your walking speed is reduced by 20 feet. Additionally, if you normally have a climbing, swimming, or flying speed, you can't use it while in this form.
-* At the **end of your turn** you can choose to become unmovable. Until the beginning of your next turn, you cannot move or be moved.
+    You gain resistance to fire.
 
-#### Storm
-You surround yourself with the elemental wind from the plains and mountains, allowing you to buffet your foes as you strike.
-* When you enter this form, you can choose one other creature 10 ft. The target must make a Dexterity saving throw. The target takes 1d6 lightning damage on a failed save, or half as much damage on a successful one. The damage increases when you reach certain levels in this class, increasing to 2d6 at 10th level, 3d6 at 15th level, and 4d6 at 20th level.
-* Once per round when you hit an enemy with a melee weapon attack, that creature must succeed at a Strength saving throw or be pushed 5 feet in any direction. If the save is failed by 10 or more, the target is also knocked prone.
-* Additionally, ranged weapon attacks have disadvantage against you.
+    You can use your **reaction** to move without provoking opportunity attacks.
 
+- #### Wood
+    Your skin turns bark-like and becomes covered in ivy and moss.
 
+    When you enter this form, roots shoot up from the ground, making a 20-foot-radius area centered on you difficult terrain for your enemies, for as long as you have this form.
 
+    Your AC increases by 2.
 
+    When you make a melee weapon attack, your reach is 5 feet greater than normal.
 
-
-
-
-
-#### Water
-Your body takes on the fluidity of elemental water.
-* When you enter this form, you heal 1d6 hit points. The healing increases when you reach certain levels in this class, increasing to 2d6 at 10th level, 3d6 at 15th level, and 4d6 at 20th level.
-* You gain resistance to fire.
-* You can use your **reaction** to move without provoking opportunity attacks.
-
-#### Wood
-Your skin turns bark-like and becomes covered in ivy and moss.
-* When you enter this form, roots shoot up from the ground, making a 20-foot-radius area centered on you difficult terrain for your enemies, for as long as you have this form.
-* Your AC increases by 2.
-* When you make a melee weapon attack, your reach is 5 feet greater than normal.
+</div>
 
 ### Ancient Fortitude
 Starting at 6th level, your rage imbues you with primeval life force.
@@ -1050,161 +1063,138 @@ At 14th level, you gain a magical benefit based on the totem animal of your choi
 
 ## Totem animals
 
-### Bear
-**Totemic Blessing.** The spirit of the bear makes you tough enough to stand up to any punishment. While raging, you have resistance to all damage except psychic damage.
+<div class="columnsthree">
 
-**Aspect of the Beast.** You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.
+- ### Bear
+    **Totemic Blessing.** The spirit of the bear makes you tough enough to stand up to any punishment. While raging, you have resistance to all damage except psychic damage.
 
-**Totemic Attunement.** While raging, any hostile creature within 5 feet of you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.
+    **Aspect of the Beast.** You gain the might of a bear. Your carrying capacity (including maximum load and maximum lift) is doubled, and you have advantage on Strength checks made to push, pull, lift, or break objects.
 
-### Boar
-**Totemic Blessing.** The spirit of the boar makes you ferocious and fearless. While raging, if you move at least at least 20 feet straight toward a creature and then hit it with a strength-based melee weapon attack, the target must make a Strength saving throw or be knocked prone. The DC is equal to 8 + your proficiency bonus + your strength modifier.
+    **Totemic Attunement.** While raging, any hostile creature within 5 feet of you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.
 
-**Aspect of the Beast.** You gain the fury of the boar. You gain advantage on any Charisma (Intimidation) check made with a threat of direct physical violence. Additionally, you have advantage on Strength checks to avoid being moved against your will or being knocked prone.
+- ### Boar
+    **Totemic Blessing.** The spirit of the boar makes you ferocious and fearless. While raging, if you move at least at least 20 feet straight toward a creature and then hit it with a strength-based melee weapon attack, the target must make a Strength saving throw or be knocked prone. The DC is equal to 8 + your proficiency bonus + your strength modifier.
 
-**Totemic Attunement.** While raging, you gain temporary hit points equal to your Constitution modifier at the start of each of your turns.
+    **Aspect of the Beast.** You gain the fury of the boar. You gain advantage on any Charisma (Intimidation) check made with a threat of direct physical violence. Additionally, you have advantage on Strength checks to avoid being moved against your will or being knocked prone.
 
+    **Totemic Attunement.** While raging, you gain temporary hit points equal to your Constitution modifier at the start of each of your turns.
 
+- ### Cat
+    **Totemic Blessing.** The spirit of the cat makes you into a stealthy predator that kills its prey in one sudden blow. While raging, you have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.
 
+    **Aspect of the Beast.** You gain the grace of the cat. You gain advantage on any Dexterity (Stealth) check if you move no more than half your speed on the same turn. Additionally, you don't take damage from falling 20 feet or less if you're not incapacitated.
 
+    **Totemic Attunement.** While raging, when you score a critical hit or reduce a creature to 0 hit points, you can let out a mighty roar as a bonus action. A number of allies equal to 1 + your Charisma modifier (minimum of 2 allies) that can hear you gain advantage on the first attack roll or saving throw they make before the start of your next turn.
 
+- ### Crocodile
+    **Totemic Blessing.** The spirit of the crocodile ensures that your hide shrugs off harm like the scaly hide of a crocodile. While raging, you have resistance to all damage except psychic damage.
 
+    **Aspect of the Beast.** You gain the patience of a crocodile. You can remain stock-still for hours on end, gaining advantage on any Dexterity (Stealth) checks while so doing, and gaining advantage on your initiative check when attacking a surprised foe after being so concealed.
 
+    **Totemic Attunement.** While you’re raging, you automatically have advantage on all grappling attacks. You may also grapple a creature up to two sizes larger than you, and may move a grappled creature at normal speed.
 
-### Cat
-**Totemic Blessing.** The spirit of the cat makes you into a stealthy predator that kills its prey in one sudden blow. While raging, you have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.
+- ### Eagle
+    **Totemic Blessing.** The spirit of the eagle makes you into a predator who can weave through the fray with ease. While raging and not wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn.
 
-**Aspect of the Beast.** You gain the grace of the cat. You gain advantage on any Dexterity (Stealth) check if you move no more than half your speed on the same turn. Additionally, you don't take damage from falling 20 feet or less if you're not incapacitated.
+    **Aspect of the Beast.** You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.
 
-**Totemic Attunement.** While raging, when you score a critical hit or reduce a creature to 0 hit points, you can let out a mighty roar as a bonus action. A number of allies equal to 1 + your Charisma modifier (minimum of 2 allies) that can hear you gain advantage on the first attack roll or saving throw they make before the start of your next turn.
+    **Totemic Attunement.** While raging, you have a flying speed equal to your base walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.
 
-### Crocodile
-**Totemic Blessing.** The spirit of the crocodile ensures that your hide shrugs off harm like the scaly hide of a crocodile. While raging, you have resistance to all damage except psychic damage.
+- ### Elephant
+    **Totemic Blessing.** The spirit of the elephant tears through snarls of vegetation and rubble. While you're raging, any 5-foot space of difficult terrain ceases to become difficult terrain for any creature that passes through it after that point. This effect occurs even if the difficult terrain is created by magic.
 
-**Aspect of the Beast.** You gain the patience of a crocodile. You can remain stock-still for hours on end, gaining advantage on any Dexterity (Stealth) checks while so doing, and gaining advantage on your initiative check when attacking a surprised foe after being so concealed.
+    **Aspect of the Beast.** You have tremorsense in a 10-foot radius around yourself. You can sense the general location of thunder damage dealt, earthquakes, storms, and burrowing creatures within a number of miles equal to your Constitution modifier (minimum 1).
 
-**Totemic Attunement.** While you’re raging, you automatically have advantage on all grappling attacks. You may also grapple a creature up to two sizes larger than you, and may move a grappled creature at normal speed.
+    **Totemic Attunement.** When a creature falls prone within 5 feet of you while you're raging, you can use your reaction to make a special unarmed strike by stomping on that creature. You are proficient in this attack, which deals damage equal to 2d8 + your Strength modifier in bludgeoning damage.
 
-### Eagle
-**Totemic Blessing.** The spirit of the eagle makes you into a predator who can weave through the fray with ease. While raging and not wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn.
+- ### Elk
+    **Totemic Blessing.** The spirit of the elk makes you extraordinarily swift. While raging, your base speed is increased by 10.
 
-**Aspect of the Beast.** You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks.
+    **Aspect of the Beast.** This spirit helps you roam far and fast. Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated (see chapter 8 in the Player's Handbook for more information about travel pace).
 
-**Totemic Attunement.** While raging, you have a flying speed equal to your base walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.
+    **Totemic Attunement.** While raging you may make a Charge against opponents. If you have moved 20 feet in a straight line and struck them with a melee weapon the opponent takes 2d6 points of extra damage and must succeed on a Strength save (8 + your proficiency bonus + Strength modifier) or be shoved 10 feet.
 
+- ### Fox
+    **Totemic Blessing.** The spirit of the fox makes you swift and evasive. While raging, you can move 5 feet in any direction when a creature with advantage on attacks against you misses. This movement does not provoke attacks of opportunity.
 
+    **Aspect of the Beast.** The tricky fox knows when it is being fooled. You have advantage on checks made to inspect or investigate illusions, and gain proficiency in Insight.
 
-### Elephant
-**Totemic Blessing.** The spirit of the elephant tears through snarls of vegetation and rubble. While you're raging, any 5-foot space of difficult terrain ceases to become difficult terrain for any creature that passes through it after that point. This effect occurs even if the difficult terrain is created by magic.
+    **Totemic Attunement.** While raging, when you make a Charisma check or Charisma saving throw, you can replace the number you roll with your barbarian level.
 
-**Aspect of the Beast.** You have tremorsense in a 10-foot radius around yourself. You can sense the general location of thunder damage dealt, earthquakes, storms, and burrowing creatures within a number of miles equal to your Constitution modifier (minimum 1).
+- ### Gorilla
+    **Totemic Blessing.** The spirit of the gorilla makes you into a competent leader that never fails its troop. When you fail an ability check or saving throw while raging, you can use your reaction to gain a bonus to the roll equal to the number of allied creatures within 10 feet of you (max bonus of +5). This bonus cannot exceed your Constitution modifier (min 1).
 
-**Totemic Attunement.** When a creature falls prone within 5 feet of you while you're raging, you can use your reaction to make a special unarmed strike by stomping on that creature. You are proficient in this attack, which deals damage equal to 2d8 + your Strength modifier in bludgeoning damage.
+    **Aspect of the Beast.** You gain the threatening bulk of a gorilla. You have a climbing speed equal to your walking speed, and gain proficiency in Intimidation.
 
-### Elk
-**Totemic Blessing.** The spirit of the elk makes you extraordinarily swift. While raging, your base speed is increased by 10.
+    **Totemic Attunement.** While raging, your reach for making melee weapon attacks is 10 feet, rather than 5. A weapon with the reach property does not increase this reach further.
 
-**Aspect of the Beast.** This spirit helps you roam far and fast. Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated (see chapter 8 in the Player's Handbook for more information about travel pace).
+- ### Monkey
+    **Totemic Blessing.** The spirit of the monkey makes you into a versatile adversary that can take advantage of any situation. While raging, you treat all one-handed melee weapons as if they have the light property, and two-handed melee weapons as if they were one-handed.
 
-**Totemic Attunement.** While raging you may make a Charge against opponents. If you have moved 20 feet in a straight line and struck them with a melee weapon the opponent takes 2d6 points of extra damage and must succeed on a Strength save (8 + your proficiency bonus + Strength modifier) or be shoved 10 feet.
+    **Aspect of the Beast.** You gain the dexterity of the monkey. You gain advantage on Dexterity (Acrobatics) checks as long as you have a free hand. Additionally, your climb speed is equal to your base movement speed.
 
-### Fox
-**Totemic Blessing.** The spirit of the fox makes you swift and evasive. While raging, you can move 5 feet in any direction when a creature with advantage on attacks against you misses. This movement does not provoke attacks of opportunity.
+    **Totemic Attunement.** While raging, whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.
 
-**Aspect of the Beast.** The tricky fox knows when it is being fooled. You have advantage on checks made to inspect or investigate illusions, and gain proficiency in Insight.
+- ### Mule
+    **Totemic Blessing.** The spirit of the mule makes you obstinate and enduring. While raging, you can't be moved or knocked prone against your will and you have advantage on Constitution checks and saving throws.
 
-**Totemic Attunement.** While raging, when you make a Charisma check or Charisma saving throw, you can replace the number you roll with your barbarian level.
+    **Aspect of the Beast.** You gain the stamina of a mule. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift, and you have advantage on saving throws inflicted by a forced march.
 
+    **Totemic Attunement.** While raging, you ignore difficult terrain and any effect, both magical and nonmagical, that reduces your movement, as long as the effect does not reduce your movement to 0.
 
+- ### Peacock
+    **Totemic Blessing.** The spirit of the peacock shines with dizzying elegance. While raging, you can use your reaction to impose disadvantage on a melee attack made against you. If it misses, you can cause that attack to hit one creature of your choice other than the attacker that is within 5 feet of you.
 
+    **Aspect of the Beast.** You gain the splendor of a peacock. You add an amount equal to your rage bonus damage to your Charisma checks.
 
+    **Totemic Attunement.** The beauty of your rage dazzles your enemies. The first creature you damage on each of your turns gains the charmed condition by you until the start of its next turn.
 
+- ### Ram
+    **Totemic Blessing.** The spirit of the ram fills you with its sure-footed resilience. While raging, you have advantage on saving throws against effects that would knock you prone, move you against your will, or stun you.
 
+    **Aspect of the Beast.** You gain the balance of a mountain sheep. You have a climbing speed equal to your walking speed, and have advantage on checks to maintain your grip and footing while climbing.
 
+    **Totemic Attunement.** When you hit a creature with a melee weapon attack while raging, you can choose to knock that creature 5 feet away from you and occupy the vacated space. This shift does not expend movement or provoke opportunity attacks.
 
-### Gorilla
-**Totemic Blessing.** The spirit of the gorilla makes you into a competent leader that never fails its troop. When you fail an ability check or saving throw while raging, you can use your reaction to gain a bonus to the roll equal to the number of allied creatures within 10 feet of you (max bonus of +5). This bonus cannot exceed your Constitution modifier (min 1).
+- ### Sabretooth cat / Tiger
+    **Totemic Blessing.** The spirit of the animal empowers your leaps. While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance.
 
-**Aspect of the Beast.** You gain the threatening bulk of a gorilla. You have a climbing speed equal to your walking speed, and gain proficiency in Intimidation.
+    **Aspect of the Beast.** The tiger spirit hones your survival instincts. You gain proficiency in two skills from the following list: Athletics, Acrobatics, Perception, Stealth, and Survival.
 
-**Totemic Attunement.** While raging, your reach for making melee weapon attacks is 10 feet, rather than 5. A weapon with the reach property does not increase this reach further.
+    **Totemic Attunement.** While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it.
 
-### Monkey
-**Totemic Blessing.** The spirit of the monkey makes you into a versatile adversary that can take advantage of any situation. While raging, you treat all one-handed melee weapons as if they have the light property, and two-handed melee weapons as if they were one-handed.
+- ### Serpent
+    **Totemic Blessing.** The spirit of the snake accelerates your strikes made to capture prey. While you're raging and have at least one free hand, you can attempt to grapple a creature as a bonus action.
 
-**Aspect of the Beast.** You gain the dexterity of the monkey. You gain advantage on Dexterity (Acrobatics) checks as long as you have a free hand. Additionally, your climb speed is equal to your base movement speed.
+    **Aspect of the Beast.** While prone you may move at your normal land speed and you do not suffer disadvantage on attack rolls made with one-handed melee weapons. Additionally you may treat yourself as being half your size when moving through constrained spaces or for cover and obscurity.
 
-**Totemic Attunement.** While raging, whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.
+    **Totemic Attunement.** The constricting power of the snake crushes your enemies. While raging, any creature grappled by you takes 1d6+ your Strength modifier + your rage bonus in bludgeoning damage when it starts its turn.
 
-### Mule
-**Totemic Blessing.** The spirit of the mule makes you obstinate and enduring. While raging, you can't be moved or knocked prone against your will and you have advantage on Constitution checks and saving throws.
+- ### Tortoise
+    **Totemic Blessing.** The spirit of the tortoise grants you its incredible resilience. While you are raging and not wearing armor, bludgeoning, piercing, and slashing damage done to you from both magical and nonmagical weapons is reduced by 3.
 
-**Aspect of the Beast.** You gain the stamina of a mule. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift, and you have advantage on saving throws inflicted by a forced march.
+    **Aspect of the Beast.** You suffer none of the drawbacks of old age, and you can't be aged magically.
 
-**Totemic Attunement.** While raging, you ignore difficult terrain and any effect, both magical and nonmagical, that reduces your movement, as long as the effect does not reduce your movement to 0.
+    **Totemic Attunement.** The spirit of the tortoise carries the world on its back, and so must you. The amount of weight that you can push, drag, lift, and carry quintuples while you are raging. Your AC when not wearing armor also becomes 18, unless it is already higher. You can still use a shield and gain this benefit.
 
+- ### Vulture
+    The vulture is a majestic beast with strong beak and large wings that feed on the dead and the weak. These traits, together with its amazing sense of smell, make it a natural idol of worship for many tribes who admire its capabilities.
 
+    **Totemic Blessing.** The spirit of the vulture grants you endurance when you prey on the weak. While raging, if you score a critical hit or a creature drops to 0 hit points after you hit it with a melee attack, you gain a number of temporary hit points equal to your Constitution modifier.
 
-### Peacock
-**Totemic Blessing.** The spirit of the peacock shines with dizzying elegance. While raging, you can use your reaction to impose disadvantage on a melee attack made against you. If it misses, you can cause that attack to hit one creature of your choice other than the attacker that is within 5 feet of you.
+    **Aspect of the Beast.** You gain the amazing olfactory sense of the vulture. You gain advantage on Perception (Wisdom) checks to sense and discern smells, and you can smell and track the presence of carrions up to 1 mile away.
 
-**Aspect of the Beast.** You gain the splendor of a peacock. You add an amount equal to your rage bonus damage to your Charisma checks.
+    **Totemic Attunement.** While raging, if you score a critical hit or a creature drops to 0 hit points after you hit it with a melee attack, you can use a bonus action to make an additional melee weapon attack against an enemy in range.
 
-**Totemic Attunement.** The beauty of your rage dazzles your enemies. The first creature you damage on each of your turns gains the charmed condition by you until the start of its next turn.
+- ### Wolf
+    **Totemic Blessing.** The spirit of the wolf makes you a leader of hunters. While you're raging, your friends have advantage on melee attack rolls against any creature within 5 ft of you.
 
-### Ram
-**Totemic Blessing.** The spirit of the ram fills you with its sure-footed resilience. While raging, you have advantage on saving throws against effects that would knock you prone, move you against your will, or stun you.
+    **Aspect of the Beast.** You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace).
 
-**Aspect of the Beast.** You gain the balance of a mountain sheep. You have a climbing speed equal to your walking speed, and have advantage on checks to maintain your grip and footing while climbing.
+    **Totemic Attunement.** You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace). While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.
 
-**Totemic Attunement.** When you hit a creature with a melee weapon attack while raging, you can choose to knock that creature 5 feet away from you and occupy the vacated space. This shift does not expend movement or provoke opportunity attacks.
 
-### Sabretooth cat / Tiger
-**Totemic Blessing.** The spirit of the animal empowers your leaps. While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance.
-
-**Aspect of the Beast.** The tiger spirit hones your survival instincts. You gain proficiency in two skills from the following list: Athletics, Acrobatics, Perception, Stealth, and Survival.
-
-**Totemic Attunement.** While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it.
-
-
-
-
-
-
-
-
-### Serpent
-**Totemic Blessing.** The spirit of the snake accelerates your strikes made to capture prey. While you're raging and have at least one free hand, you can attempt to grapple a creature as a bonus action.
-
-**Aspect of the Beast.** While prone you may move at your normal land speed and you do not suffer disadvantage on attack rolls made with one-handed melee weapons. Additionally you may treat yourself as being half your size when moving through constrained spaces or for cover and obscurity.
-
-**Totemic Attunement.** The constricting power of the snake crushes your enemies. While raging, any creature grappled by you takes 1d6+ your Strength modifier + your rage bonus in bludgeoning damage when it starts its turn.
-
-### Tortoise
-**Totemic Blessing.** The spirit of the tortoise grants you its incredible resilience. While you are raging and not wearing armor, bludgeoning, piercing, and slashing damage done to you from both magical and nonmagical weapons is reduced by 3.
-
-**Aspect of the Beast.** You suffer none of the drawbacks of old age, and you can't be aged magically.
-
-**Totemic Attunement.** The spirit of the tortoise carries the world on its back, and so must you. The amount of weight that you can push, drag, lift, and carry quintuples while you are raging. Your AC when not wearing armor also becomes 18, unless it is already higher. You can still use a shield and gain this benefit.
-
-### Vulture
-The vulture is a majestic beast with strong beak and large wings that feed on the dead and the weak. These traits, together with its amazing sense of smell, make it a natural idol of worship for many tribes who admire its capabilities.
-
-**Totemic Blessing.** The spirit of the vulture grants you endurance when you prey on the weak. While raging, if you score a critical hit or a creature drops to 0 hit points after you hit it with a melee attack, you gain a number of temporary hit points equal to your Constitution modifier.
-
-**Aspect of the Beast.** You gain the amazing olfactory sense of the vulture. You gain advantage on Perception (Wisdom) checks to sense and discern smells, and you can smell and track the presence of carrions up to 1 mile away.
-
-**Totemic Attunement.** While raging, if you score a critical hit or a creature drops to 0 hit points after you hit it with a melee attack, you can use a bonus action to make an additional melee weapon attack against an enemy in range.
-
-
-
-### Wolf
-**Totemic Blessing.** The spirit of the wolf makes you a leader of hunters. While you're raging, your friends have advantage on melee attack rolls against any creature within 5 ft of you.
-
-**Aspect of the Beast.** You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace).
-
-**Totemic Attunement.** You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace). While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack.
-
+</div>
 
 
 
