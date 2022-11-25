@@ -2093,11 +2093,12 @@ You are educated in a field of study not covered by other Knowledge skills. In a
 
 <!-- ----------------------------PRACTICAL SKILLS -------------------------  -->
 
-<!-- ---------------------------- ARCANA ----------------------------------  -->
-
 
 </div>
 <div id="practical" class="container tab-pane fade">
+
+<!-- ---------------------------- AGRICULTURE ----------------------------------  -->
+
 <details>
 <summary>Agriculture</summary>
 <div markdown="1">
@@ -2110,20 +2111,25 @@ The accumulated knowledge of simple farmers is ripe with common sense. Gain +1 W
 
 <details>
 <summary>Farming</summary>
-Knowledge on how to grow crops, from the amount required to sustain a single household to areas feeding entire towns. You have Expertise on any checks regarding this.
+
+Knowledge on how to grow crops, from the amount required to sustain a single household to areas feeding entire towns. You have ***Expertise*** on any checks regarding this.
 </details>
 
 <details>
 <summary>Gardening</summary>
-Knowledge on how to grow plants on a small scale, in particular for ornamental, but also for medicinal purposes. You have Expertise on any checks regarding this.
+
+Knowledge on how to grow plants on a small scale, in particular for ornamental, but also for medicinal purposes. You have ***Expertise*** on any checks regarding this.
 </details>
 
 <details>
 <summary>Mushroom Farming</summary>
-Societies living in the Underdark use mushroom farming to sustain their inhabitants, as they are able to grow underground with no access to light. You have Expertise on any checks regarding this.
+
+Societies living in the Underdark use mushroom farming to sustain their inhabitants, as they are able to grow underground with no access to light. You have ***Expertise*** on any checks regarding this.
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- ART ----------------------------------  -->
 
 <details>
 <summary>Art (Group)</summary>
@@ -2152,7 +2158,8 @@ Your speaking voice can be heard at a 50% greater distance than a normal person.
 The art of writing in an expressive, harmonious and skillful manner. You must know how to read and write before taking this skill. Your skill in writing allows you to detect if written text is a forgery with a successful Intelligence (Calligraphy) check.
 <details>
 <summary>Forgery</summary>
-The art of creating false documentation in order to encourage others to believe in the legitimacy of a characters' fraudulent practices. You have Expertise on checks made to create a convincing forgery.
+
+The art of creating false documentation in order to encourage others to believe in the legitimacy of a characters' fraudulent practices. You have ***Expertise*** on checks made to create a convincing forgery.
 </details>
 </details>
 
@@ -2181,7 +2188,8 @@ Mastery of storytelling for the purpose of providing intellectual or artistic me
 The art of applying make-up, commonly used to enhance one’s appearance, but can also be used for theatrical make-up or even to imitate the resemblance of another person or creature.
 <details>
 <summary>Disguise</summary>
-You have training in concealing your appearance, trying to pass yourself off as a different person so that you will not be recognized. This grants Expertise on such checks.
+
+You have training in concealing your appearance, trying to pass yourself off as a different person so that you will not be recognized. This grants ***Expertise*** on such checks.
 <details>
 <summary>Disguise II (trait)</summary>
 Your skill with disguises has reached where you can impersonate others. This will usually only work for shorter encounters with people who don’t know the person you’re impersonating so well.
@@ -2233,7 +2241,8 @@ The art of folding paper into different shapes.
 
 <details>
 <summary>Patronage</summary>
-The act of appealing to and receiving financial support and ongoing commissions from members of the elite, be they merchants, nobles, religious leaders or persons of questionable motives. You know how this is done, how to find the appropriate venues and persons, and how to properly address such people. If you have the Speechcraft skill, you have Expertise on such checks.
+
+The act of appealing to and receiving financial support and ongoing commissions from members of the elite, be they merchants, nobles, religious leaders or persons of questionable motives. You know how this is done, how to find the appropriate venues and persons, and how to properly address such people. If you have the Speechcraft skill, you have ***Expertise*** on such checks.
 </details>
 
 <details>
@@ -2267,6 +2276,9 @@ The art of writing a captivating story. This skill would also let you identify h
 </div>
 </details>
 
+
+<!-- ---------------------------- BURGLARY ----------------------------------  -->
+
 <details>
 <summary>Burglary</summary>
 <div markdown="1">
@@ -2274,40 +2286,48 @@ The art of planning, executing and resolving a burglary of a house or other prop
 
 <details>
 <summary>Break & Enter</summary>
-Provides a character with some skill regarding the destruction of doors and windows so that they might be passed through as quickly as possible without creating excessive noise and attention. Glass may be cut, bolts in doors removed, stones and bits of plaster excavated, frames separated from the building itself and even boards and rivets removed from the doors themselves. The difficulty is not to succeed, but the time it will take, and how much noise is made. You have Expertise on all such checks.
-<br/><br/>
+
+Provides a character with some skill regarding the destruction of doors and windows so that they might be passed through as quickly as possible without creating excessive noise and attention. Glass may be cut, bolts in doors removed, stones and bits of plaster excavated, frames separated from the building itself and even boards and rivets removed from the doors themselves. The difficulty is not to succeed, but the time it will take, and how much noise is made. You have ***Expertise*** on all such checks.
+
+<div class="skill-frame">
 A window may be cleared out enough to be safe to crawl through in 5 to 8 rounds, However, most windows, especially on the ground floor, are no more than 8 inches square and normally not large enough to squeeze through. Doors take longer. The bolts of a standard door can be dragged out in about 5-20 rounds, the die determining how “stuck” they are. A strong reinforced door may take anywhere from 60 to 90 rounds (10d4+50), to remove the rivets and bands of iron so that its bolts can then be dragged out. A “normal” dungeon door with bolts that are effectively cemented in place, will take three times as long (10d12+150 rounds) to loosen enough rivets so that wooden boards making the door can be wedged and the door taken apart piece by piece. Tools required include two sizes of chisel, three wedges, a small hammer and a pair of iron tongs.
+</div>
+
 </details>
 
 <details>
 <summary>Case Building (trait)</summary>
 Provides a character with a unique eye regarding the design and layout not only of singular buildings, but of town and city blocks, street fronts and layout. Thus, a would-be thief may feel a particular property calls out to be entered, with conveniently placed balconies, ledges or rooftops easily accessible by rope and ladder.
-<br/><br/>
+
 Even though the probable location of kitchen, workshop, bedroom and internal stairwells often will be obvious regardless of the size of the building, a character should want to spend a week observing every detail of the building’s daily schedule. It is possible therefore to learn who lives there, who visits, who delivers, the usual time of departure and arrival, even what room persons are likely to be in at a given time of the day. Likewise, the passing of the sun will reveal the street itself, who is present, the lines of sight, hiding places, how shadows are cast at different times of day, and routes in and out of the neighborhood.
-<br/><br/>
+
 After such a thorough examination, the details can be planned; when and where to enter, if any temporary personas need to be created, escape plans etc. As long as the plan and routes are followed, each participant in the heist has advantage on Stealth checks, Charisma checks and checks required to escape.
 </details>
 
 <details>
 <summary>Detect Concealed Door</summary>
-Enables a character to notice the telltale signs of a concealed door, then pinpoint its precise location. Concealed doors may be screened by trees, the shape of the terrain; they may be small and difficult to see; or located down a hole that passes unnoticed. Inside a house, they may be hidden by a curtain or covered by a rug. It is harder, however, to conceal evidence of traffic in and out of a concealed door. Footprints, a set of branches bent back in a particular way, loose rocks at the edge of a well, even the manner in which the corner of a curtain or rug may appear frayed or not quite straight. Additionally, there may be very slight tracks, or places where the floor or ground has been worn smooth, that will give the presence of a concealed door away. To detect such signs, make a Wisdom (Burglary) check, with Expertise.
-<br/><br/>
+
+Enables a character to notice the telltale signs of a concealed door, then pinpoint its precise location. Concealed doors may be screened by trees, the shape of the terrain; they may be small and difficult to see; or located down a hole that passes unnoticed. Inside a house, they may be hidden by a curtain or covered by a rug. It is harder, however, to conceal evidence of traffic in and out of a concealed door. Footprints, a set of branches bent back in a particular way, loose rocks at the edge of a well, even the manner in which the corner of a curtain or rug may appear frayed or not quite straight. Additionally, there may be very slight tracks, or places where the floor or ground has been worn smooth, that will give the presence of a concealed door away. To detect such signs, make a Wisdom (Burglary) check, with ***Expertise***.
+
 If there is a concealed door and the character has seen signs, or has another reason to believe there is one, it will be found given enough time. Indoors, this will require merely 2-5 rounds. Outdoors, this will take longer — a total of 5-20 rounds.
 </details>
 
 <details>
 <summary>Lockpicking</summary>
-You master the art of opening locks or circumventing security precautions of various designs using a set of lockpicks. You can additionally pick locks with improvised tools, but have Expertise on checks using proper lockpicking tools.
+
+You master the art of opening locks or circumventing security precautions of various designs using a set of lockpicks. You can additionally pick locks with improvised tools, but have ***Expertise*** on checks using proper lockpicking tools.
 </details>
 
 <details>
 <summary>Lookout</summary>
 Enables a character to distract outsiders while another character commits burglary or other criminal activity, while also giving subtle warning to the perpetrator of the crime. This includes skill to ensure that they are not themselves noticed loitering around on a street, such as dressing up as a watchman, a beggar or a woman in distress (who will then ask for help from any passers-by, ensuring they are distracted). A skilled lookout will be very convincing, like an actor in a theatrical troupe. A lookout should also be ready to do whatever it takes to protect the burglar and help him or her get away — even to knock on the door of a residence that’s being robbed, if the inhabitants should awaken while the burglar is inside.
-<br/><br/>
+
 Signals of varying kinds are usually set up as warnings. a bird call, a bright flag or flash of light, calling out a fictional person’s name, as though the lookout were trying to find someone or the releasing of a trained animal. The lookout will absolutely be able to buy 2-8 rounds of attention from up to four persons with some contrived story or distraction. After those rounds of attention expire, successive Charisma (Burglary) checks will each buy another 2-8 rounds.
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- COOKING ----------------------------------  -->
 
 <details>
 <summary>Cooking</summary>
@@ -2316,54 +2336,64 @@ The skill to prepare raw ingredients into tasty and safe meals. Normally no chec
 
 <details>
 <summary>Baking</summary>
-You are skilled at the creation of flour-based food readied in an oven, including bread, cookies, cakes, pastries and pies, and have Expertise on such checks.
+
+You are skilled at the creation of flour-based food readied in an oven, including bread, cookies, cakes, pastries and pies, and have ***Expertise*** on such checks.
 </details>
 
 <details>
 <summary>Butchering</summary>
-Skill at slaughtering, dressing and preserving meat from livestock, game and fish. A slaughter improperly performed can spoil or even poison the meat, so having skill at removing the animal's entrails is necessary in the production of large amounts of available meat. When preparing rations from animals, you can prepare 50% extra, and the rations will not spoil. You have Expertise on all such checks. However, normally you do not make checks for this skill, only required for instance if you need to extract a specific rare organ, such as a blowfish’s poison bladder or a dragon’s flame sac.
+
+Skill at slaughtering, dressing and preserving meat from livestock, game and fish. A slaughter improperly performed can spoil or even poison the meat, so having skill at removing the animal's entrails is necessary in the production of large amounts of available meat. When preparing rations from animals, you can prepare 50% extra, and the rations will not spoil. You have ***Expertise*** on all such checks. However, normally you do not make checks for this skill, only required for instance if you need to extract a specific rare organ, such as a blowfish’s poison bladder or a dragon’s flame sac.
 </details>
 
 <details>
 <summary>Cuisine</summary>
-The mastery of supervising and working in a professional kitchen, ordering and purchasing of inventory and the preparation, practice and preservation of food. It grants Expertise on Charisma checks when communicating with other kitchen staff, as well as patrons that have been impressed with your food. Note that these kinds of kitchens are only found in the courts of nobles and very rarely, also as restaurants.
+
+The mastery of supervising and working in a professional kitchen, ordering and purchasing of inventory and the preparation, practice and preservation of food. It grants ***Expertise*** on Charisma checks when communicating with other kitchen staff, as well as patrons that have been impressed with your food. Note that these kinds of kitchens are only found in the courts of nobles and very rarely, also as restaurants.
 </details>
 
 <details>
 <summary>Foraging</summary>
-The skill to find safe naturally occurring ingredients that you can prepare in a wilderness environment. Even though you might not be able to identify the exact nature of the ingredients, you will be able to ensure that they are safe to eat, and figure out how to prepare them. You have Expertise on all foraging checks and checks made to identify whether something is safe to eat or drink.
+
+The skill to find safe naturally occurring ingredients that you can prepare in a wilderness environment. Even though you might not be able to identify the exact nature of the ingredients, you will be able to ensure that they are safe to eat, and figure out how to prepare them. You have ***Expertise*** on all foraging checks and checks made to identify whether something is safe to eat or drink.
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- HERBALISM ----------------------------------  -->
 
 <details>
 <summary>Herbalism</summary>
 <div markdown="1">
 This skill is used to search for herbs in the wild, to identify herbs and to create herbal infusions.
 
-<b>Crafting Herbal Items.</b> To craft a herbal item you need a herbalism kit and raw materials, either harvested by yourself or bought at half the value of the created item. When attempting to make an item, spend the raw materials and a long rest, then make an Intelligence (Herbalism) check and see the first applicable result below.
+**Crafting Herbal Items**. To craft a herbal item you need a herbalism kit and raw materials, either harvested by yourself or bought at half the value of the created item. When attempting to make an item, spend the raw materials and a long rest, then make an Intelligence (Herbalism) check and see the first applicable result below.
 
 If the result of your check is 0 or lower. The item is not created, the raw materials are wasted and if using a herbalism kit, it is ruined.
-<ul><li>On a result below 5 or if you roll a natural 1. The item is not created and the raw materials are wasted.</li>
-<li>6-10. The raw materials were not as potent or fresh as you would have expected. You need to spend additional raw materials equal to 25% of the value of the created item, as well as 8 additional hours. If you choose not to, the original raw materials are wasted and the item is not created.</li>
-<li>11-25. The item is created as expected.</li>
-<li>Over 25. Exceptional potency. You can split the result into a double amount of doses.</li></ul>
+
+- On a result below 5 or if you roll a natural 1. The item is not created and the raw materials are wasted.
+- 6-10. The raw materials were not as potent or fresh as you would have expected. You need to spend additional raw materials equal to 25% of the value of the created item, as well as 8 additional hours. If you choose not to, the original raw materials are wasted and the item is not created.
+- 11-25. The item is created as expected.
+- Over 25. Exceptional potency. You can split the result into a double amount of doses.
 
 You can make any number of doses of the same item at the same time. You can also make multiple different items simultaneously, but with a penalty of -2 per type of item. Make only one check which applies to all items. If you do not have a herbalism kit, you can improvise with other items, but have -4 on your check.
 
 <details>
 <summary>Crafter</summary>
-You are good at producing herbal items and have Expertise on all such checks.
+
+You are good at producing herbal items and have ***Expertise*** on all such checks.
 </details>
 
 <details>
 <summary>Identify Herbal Item (→ Sense-Taste)</summary>
-You can identify potions and other herbal substances by taste, granting Expertise on all such checks.
+
+You can identify potions and other herbal substances by taste, granting ***Expertise*** on all such checks.
 </details>
 
 <details>
 <summary>Locate Herbs</summary>
-You have knowledge on how to locate, identify and harvest raw materials for your herbal infusions, granting Expertise on all such checks.
+
+You have knowledge on how to locate, identify and harvest raw materials for your herbal infusions, granting ***Expertise*** on all such checks.
 </details>
 
 <details>
@@ -2377,6 +2407,8 @@ Adds the option to safely manufacture other types of herbal poisons, being conta
 </div>
 </details>
 
+<!-- ---------------------------- PROFESSION ----------------------------------  -->
+
 <details>
 <summary>Profession (Group)</summary>
 <div markdown="1">
@@ -2385,6 +2417,8 @@ You are skilled at a specific job that is not covered by other skills. Like Art,
 During downtime you can practice your profession, allowing you to live a modest lifestyle without paying the cost.
 </div>
 </details>
+
+<!-- ---------------------------- SAILOR ----------------------------------  -->
 
 <details>
 <summary>Sailor</summary>
@@ -2398,7 +2432,8 @@ Extremely rare, some magical ships have the ability to soar through the air, or 
 
 <details>
 <summary>Boathandler</summary>
-The skill to function as a river pilot, with skill derived from a familiarity with such environments, allowing the management of a boat through the safest and most efficient river waters. You have Expertise on all checks made for this purpose.
+
+The skill to function as a river pilot, with skill derived from a familiarity with such environments, allowing the management of a boat through the safest and most efficient river waters. You have ***Expertise*** on all checks made for this purpose.
 </details>
 
 <details>
@@ -2408,10 +2443,13 @@ Permits the proper use of a sextant in order to navigate at sea.
 
 <details>
 <summary>Sea Dog</summary>
-You are more at home on a boat than anywhere else. Having solid ground beneath your feet will never feel as natural to you as the rolling deck of a ship. You have Expertise on all Sailor checks as well as on Acrobatics checks made to keep your balance and on checks made to climb onboard a ship.
+
+You are more at home on a boat than anywhere else. Having solid ground beneath your feet will never feel as natural to you as the rolling deck of a ship. You have ***Expertise*** on all Sailor checks as well as on Acrobatics checks made to keep your balance and on checks made to climb onboard a ship.
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- SLEIGHT OF HAND -------------------------------  -->
 
 <details>
 <summary>Sleight of Hand</summary>
@@ -2420,7 +2458,8 @@ Fine hand motor skill used for entertainment or deception. Used whenever you att
 
 <details>
 <summary>Hide Object</summary>
-The skill of making sure hidden objects on your person stay hidden. You have Expertise on all such checks, usually handled by moving the objects being searched for while the search is being performed.
+
+The skill of making sure hidden objects on your person stay hidden. You have ***Expertise*** on all such checks, usually handled by moving the objects being searched for while the search is being performed.
 </details>
 
 <details>
@@ -2430,7 +2469,8 @@ Requires 2 other Sleight of hands subskills. You have excellent fine motor skill
 
 <details>
 <summary>Juggling</summary>
-You are skilled at juggling objects and have Expertise on checks to perform in such a manner, but also for checks made to not drop something during combat.
+
+You are skilled at juggling objects and have ***Expertise*** on checks to perform in such a manner, but also for checks made to not drop something during combat.
 </details>
 
 <details>
@@ -2440,39 +2480,47 @@ After years of practice, your nimble fingers can tie any type of knot imaginable
 
 <details>
 <summary>Legerdemain</summary>
-The art of performing magic tricks. You have Expertise on checks such as performing stage magic to impress a crowd. This skill can also be used as an opposed skill check to trick someone trying to identify a spell that you cast into thinking it is a different spell.
+
+The art of performing magic tricks. You have ***Expertise*** on checks such as performing stage magic to impress a crowd. This skill can also be used as an opposed skill check to trick someone trying to identify a spell that you cast into thinking it is a different spell.
 </details>
 
 <details>
 <summary>Pickpocketing</summary>
-Skill at stealing money or other items from a creature without any notice of the theft having occurred. You have Expertise on such checks.
+
+Skill at stealing money or other items from a creature without any notice of the theft having occurred. You have ***Expertise*** on such checks.
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- SURVIVAL ----------------------------------  -->
 
 <details>
 <summary>Survival</summary>
 <div markdown="1">
 The Survival skill allows you to navigate, hunt, track, read the landscape, etc. It is your ability to manage living or traveling in the wild and being aware of the dangers therein. The DM might ask you to make a Wisdom (Survival) check to follow tracks through a forest, forage for wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby or avoid quicksand and other natural hazards.
 
-<b>Terrain specific Skills</b>
+##### Terrain specific Skills
 
 <details>
 <summary>Arctic Survival</summary>
-You are at home in the cold arctic and have Expertise on Survival checks in that type of environment.
+
+You are at home in the cold arctic and have ***Expertise*** on Survival checks in that type of environment.
 <details>
 <summary>Skiing</summary>
-You know how to fashion, maintain and employ wooden skis as a means of travel and transport, and have Expertise on all checks and saves in regards to that. The skill provides some ability to shush down hills, but it must be noted that the nature of skis that can be constructed are not capable of other than cross-country skiing.
+
+You know how to fashion, maintain and employ wooden skis as a means of travel and transport, and have ***Expertise*** on all checks and saves in regards to that. The skill provides some ability to shush down hills, but it must be noted that the nature of skis that can be constructed are not capable of other than cross-country skiing.
 </details>
 <details>
 <summary>Glacier Crossing</summary>
-Improves agility and success when crossing glaciers. You know what equipment is necessary and safe methods of crossing. With preparation you can grant your entire group Expertise on checks and saves against such natural hazards.
+
+Improves agility and success when crossing glaciers. You know what equipment is necessary and safe methods of crossing. With preparation you can grant your entire group ***Expertise*** on checks and saves against such natural hazards.
 </details>
 </details>
 
 <details>
 <summary>Coastal Survival</summary>
-You are an expert at reading coastal terrain, including areas around lakes and rivers, and can easily determine where the shallow sections are, as well as where the big lagoons or large ship anchorages might be. Additionally you have Expertise on Survival checks in that type of environment.
+
+You are an expert at reading coastal terrain, including areas around lakes and rivers, and can easily determine where the shallow sections are, as well as where the big lagoons or large ship anchorages might be. Additionally you have ***Expertise*** on Survival checks in that type of environment.
 <details>
 <summary>Fishing</summary>
 You know the coastlines, but more importantly you are familiar with the fish that inhabit these areas and how to catch them. You can provide enough fish to feed yourself and five other people as long as the area has not been fished out. You can easily tell if something is disturbing the natural balance with the fish in a given area, but cannot necessarily identify the cause.
@@ -2481,40 +2529,48 @@ You know the coastlines, but more importantly you are familiar with the fish tha
 
 <details>
 <summary>Desert Survival</summary>
-You are at home in the unforgiving deserts and have Expertise on Survival checks in that type of environment.
+
+You are at home in the unforgiving deserts and have ***Expertise*** on Survival checks in that type of environment.
 </details>
 
 <details>
 <summary>Forest Survival</summary>
-You are at home in most types of temperate forests and have Expertise on Survival checks in that type of environment.
+
+You are at home in most types of temperate forests and have ***Expertise*** on Survival checks in that type of environment.
 </details>
 
 <details>
 <summary>Grassland Survival</summary>
-You are at home on plains and savannahs of the world and have Expertise on Survival checks in that type of environment.
+
+You are at home on plains and savannahs of the world and have ***Expertise*** on Survival checks in that type of environment.
 </details>
 
 <details>
 <summary>Jungle Survival</summary>
-You are at home in the jungle and have Expertise on Survival checks in that type of environment.
+
+You are at home in the jungle and have ***Expertise*** on Survival checks in that type of environment.
 </details>
 
 <details>
 <summary>Mountain Survival</summary>
-You are at home in mountainous regions, including alpine mountains, and have Expertise on Survival checks in that type of environment.
+
+You are at home in mountainous regions, including alpine mountains, and have ***Expertise*** on Survival checks in that type of environment.
 <details>
 <summary>Glacier Crossing</summary>
-Improves agility and success when crossing glaciers. You know what equipment is necessary and safe methods of crossing. With preparation you can grant your entire group Expertise on checks and saves against such natural hazards.
+
+Improves agility and success when crossing glaciers. You know what equipment is necessary and safe methods of crossing. With preparation you can grant your entire group ***Expertise*** on checks and saves against such natural hazards.
 </details>
 <details>
 <summary>Mountain Routefinding</summary>
-This ability, associated with scrambling and mountain climbing, allows the character to make the best possible guesses for locating a good route through mountains. The skill can be used in finding the most likely means for crossing a mountain range, or it may be used specifically for how to climb a particular slope. With preparation and equipment you can grant your entire group Expertise on checks to climb mountains.
+
+This ability, associated with scrambling and mountain climbing, allows the character to make the best possible guesses for locating a good route through mountains. The skill can be used in finding the most likely means for crossing a mountain range, or it may be used specifically for how to climb a particular slope. With preparation and equipment you can grant your entire group ***Expertise*** on checks to climb mountains.
 </details>
 </details>
 
 <details>
 <summary>Ocean Survival</summary>
-You know how to survive at sea, both on boats on the surface as well as underwater, and have Expertise on Survival checks in that type of environment.
+
+You know how to survive at sea, both on boats on the surface as well as underwater, and have ***Expertise*** on Survival checks in that type of environment.
 <details>
 <summary>Boatbuilding</summary>
 You have the skill necessary to fashion a seaworthy craft that's capable of a long journey, as long as you have access to wood and rope.
@@ -2523,12 +2579,14 @@ You have the skill necessary to fashion a seaworthy craft that's capable of a lo
 
 <details>
 <summary>Planar Survival (Group)</summary>
-When taking this skill, specify a plane, like the Abyss, Acheron, Astral plane, Hell, etc. You know how to survive on this particular plane and have Expertise on Survival checks while there.
+
+When taking this skill, specify a plane, like the Abyss, Acheron, Astral plane, Hell, etc. You know how to survive on this particular plane and have ***Expertise*** on Survival checks while there.
 </details>
 
 <details>
 <summary>Subterranean Survival</summary>
-You are at home in the Underdark and other subterranean areas, and have Expertise on Survival checks in that type of environment.
+
+You are at home in the Underdark and other subterranean areas, and have ***Expertise*** on Survival checks in that type of environment.
 <details>
 <summary>Caving</summary>
 Enables the discovery of cave entrances by virtue of the experience gained from systematically searching rock formations, pushing through passages that are overlooked as "too tight," digging through dirt and rock fill, or enlarging narrow fissures in the rock — even recognizing air movement, the patterns of water seeping from rock or the tone of an echo. If a hidden entrance exists, characters with this skill are certain to find it; however, this does require half an hour of diligent searching over an area up to 30 ft diameter. Once that search is completed, the character will be able to say for certain that no hidden passage exists within a natural cave.
@@ -2537,15 +2595,17 @@ Enables the discovery of cave entrances by virtue of the experience gained from 
 
 <details>
 <summary>Wetland Survival</summary>
-You are at home in swamps and other types of wetlands, and have Expertise on Survival checks in that type of environment.
+
+You are at home in swamps and other types of wetlands, and have ***Expertise*** on Survival checks in that type of environment.
 </details>
 
-<b>General Survival Skills</b><br/>
+##### General Survival Skills
 The following skills are applicable whatever the landscape or climate.
 
 <details>
 <summary>Foraging</summary>
-The skill to find naturally occurring food in a wilderness environment, which may be edible animal or vegetable matter. The exact nature of the food is not important, though it will typically consist of products such as fish, bird's eggs, roots, fruits and berries, nuts, honey, fungus, shellfish and more. The amount that is found will be far more than an ordinary person would find and will certainly be safe to eat. In addition you have Expertise on all foraging checks.
+
+The skill to find naturally occurring food in a wilderness environment, which may be edible animal or vegetable matter. The exact nature of the food is not important, though it will typically consist of products such as fish, bird's eggs, roots, fruits and berries, nuts, honey, fungus, shellfish and more. The amount that is found will be far more than an ordinary person would find and will certainly be safe to eat. In addition you have ***Expertise*** on all foraging checks.
 <details>
 <summary>Identify Clean Water (trait)</summary>
 You can always ascertain if naturally occurring water is safe to drink, largely through observation, odor, testing a bit of the water against one's tongue and the appearance of the surrounding vista (no checks required).
@@ -2555,27 +2615,31 @@ You can always ascertain if naturally occurring water is safe to drink, largely 
 <details>
 <summary>Pathfinding</summary>
 Improves distance covered when crossing untracked wilderness. A proficient character can deduce the best way to go when attempting to cross a valley, desert or river, climb towards a mountain pass or to a high point, circumnavigate a large feature or otherwise avoid treacherous ground. This reduces the necessity for backtracking in order to find the best route through an untracked wilderness, saving travel time. A character with this skill improves the amount of distance traveled by 1/3.
-<br/><br/>
+
 An additional skill associated with pathfinding is the ability to identify a place — presuming it exists — where rest can be obtained in the wilderness. This will be a place with soft, dry ground, a minimum of dangerous wildlife, reasonably fresh water and retreat from harsh winds or exposure.
 <details>
 <summary>Pathfinding II (trait)</summary>
-Enables a character to help protect others from the environment, giving Expertise on checks against getting caught in or taking damage from natural features, such as sinkholes, slippery places, quicksand, natural pits, natural spikes and potential falls. In effect, character with this skill indicates the best possible route for others of less skill to follow, reducing the chance they will get themselves into trouble. A character with this ability is able to 'look after' one person per level — but note that the character himself must also be counted against the number to be protected if he wishes the benefit of the modifier. Otherwise, he will suffer from having paid too much attention to others.
+
+Enables a character to help protect others from the environment, giving ***Expertise*** on checks against getting caught in or taking damage from natural features, such as sinkholes, slippery places, quicksand, natural pits, natural spikes and potential falls. In effect, character with this skill indicates the best possible route for others of less skill to follow, reducing the chance they will get themselves into trouble. A character with this ability is able to 'look after' one person per level — but note that the character himself must also be counted against the number to be protected if he wishes the benefit of the modifier. Otherwise, he will suffer from having paid too much attention to others.
 </details>
 </details>
 
 <details>
 <summary>Scouting</summary>
 A set of survival and orientation skills that focus on avoiding detection in the wild, providing a character with the skill to consciously avoid detection by others who may be actively hunting the character or in a position to witness traces left by the character. This includes actively choosing routes that won't reveal footprints, bending back grass and vegetation, selecting hard surface entry and exits onto trails, roads and river banks, to listen automatically for movement of others who may be moving in the area, a heightened awareness of wet environments, how to maintain one's equipment to leave the least scent, the presence of scent with regards to air movement and wind direction, etc. All of these things provide a negligible chance that the character, acting alone in the wilderness, will leave any track that will be noticed or remotely followed by a creature other than those gifted in tracking.
-<br/><br/>
+
 In addition, when you are moving at travel pace, you contribute your Perception to noticing threats even when you are engaged in another activity (such as foraging, navigating, or tracking).
 </details>
 
 <details>
 <summary>Tracking</summary>
-The practice of observing, stalking and following a trail left by a creature or animal in the wild, in order to ultimately locate them or their lair. You have Expertise on such checks.
+
+The practice of observing, stalking and following a trail left by a creature or animal in the wild, in order to ultimately locate them or their lair. You have ***Expertise*** on such checks.
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- SWIMMING ----------------------------------  -->
 
 <details>
 <summary>Swimming</summary>
@@ -2589,7 +2653,8 @@ While wearing armor in water, you may treat it as a category lighter.
 
 <details>
 <summary>At Home in Water (trait)</summary>
-You are at home in water, being able to both swim and dive with ease. You have Expertise on Swimming checks. In addition whenever you land in water, you may decide if you make no splash, an average splash, or a large distracting splash.
+
+You are at home in water, being able to both swim and dive with ease. You have ***Expertise*** on Swimming checks. In addition whenever you land in water, you may decide if you make no splash, an average splash, or a large distracting splash.
 </details>
 
 <details>
@@ -2613,6 +2678,8 @@ You gain a swimming speed equal to your walking speed, and can Dash while swimmi
 </div>
 </details>
 
+<!-- ---------------------------- UNDERWORLD ----------------------------------  -->
+
 <details>
 <summary>Underworld</summary>
 <div markdown="1">
@@ -2625,12 +2692,14 @@ The skill to correctly identify the approximate value of items according to thei
 
 <details>
 <summary>Black Market</summary>
-The underground movement, illegal sale and fencing of stolen items, acting as a shadow house of sale for objects that cannot be sold to vendors or at auction due to their illegality. In the cities where you normally operate, no checks are required. You have one or more contacts that can handle these things for you. Finding contacts (safely) in new places requires a successful Charisma (Thievery) check. You have Expertise if it is within a Culture you are familiar with.
+
+The underground movement, illegal sale and fencing of stolen items, acting as a shadow house of sale for objects that cannot be sold to vendors or at auction due to their illegality. In the cities where you normally operate, no checks are required. You have one or more contacts that can handle these things for you. Finding contacts (safely) in new places requires a successful Charisma (Thievery) check. You have ***Expertise*** if it is within a Culture you are familiar with.
 </details>
 
 <details>
 <summary>Streetwise</summary>
-You are aware of the subtle signs used in the criminal underworld, and can understand them enough to recognize who you can talk to, who you shouldn’t approach and how to ask for information with a minimal amount of trouble. You have Expertise on such checks if within a Culture you are familiar with. In addition you know Thieves’ cant.
+
+You are aware of the subtle signs used in the criminal underworld, and can understand them enough to recognize who you can talk to, who you shouldn’t approach and how to ask for information with a minimal amount of trouble. You have ***Expertise*** on such checks if within a Culture you are familiar with. In addition you know Thieves’ cant.
 <details>
 <summary>Fast Talk (trait)</summary>
 The criminal underworld is a dangerous place where a wrong word can get you killed. You know what to say and more importantly, what not to say. Gain +1 Charisma.
@@ -2710,6 +2779,8 @@ Knowledge of the etiquette among guilds and their associates. You have Expertise
 </details>
 </div>
 </details>
+
+<!-- ---------------------------- AGRICULTURE ----------------------------------  -->
 
 <details>
 <summary>Alchemy</summary>
