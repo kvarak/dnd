@@ -503,7 +503,7 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: white;
-  font-family: MrJeeves;
+  /* font-family: MrJeeves;  */
   font-size: 1.75em;
   font-variant: small-caps;
   font-weight: bold;
