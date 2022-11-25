@@ -480,6 +480,7 @@ More of a philosophy than a skill, that quests for reverence and glory through g
 
 ##### Forfeit Self
 Rush at an enemy haphazardly, drawing attacks as a ***bonus action***. Until the start of your next round you sacrifice 4 points of AC. During this time you can spend a ***reaction*** allowing an ally to attack with advantage.
+</div>
 
 <details>
 <summary>Presence (trait)</summary>
@@ -560,6 +561,7 @@ In terms of the game, medicine should be treated as much more of an art than a s
 
 <details>
 <summary>Battlefield Medicine</summary>
+
 No stranger to the frontlines, you have experience with treating wounds immediately when they occur, allowing you to mend wounds quickly and get your allies back in the fight. You have ***Expertise*** on checks to stabilize, checks made to remove injury effects and checks made with a healer’s kit during a short rest. Additionally, during a short rest you can use a healer’s kit to heal a stabilized creature; that creature regains 1 hit point.
 </details>
 
