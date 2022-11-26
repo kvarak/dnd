@@ -5,8 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-FightingStyles">Fighting Styles</a>
-#### <a href="#internal-combatManeuvers">Maneuvers</a>
+#### <a href="#internal-origins">Fighter Origins</a>
 #### <a href="#internal-archetypes">Martial Archetypes</a>
 <a href="#internal-arbalestion">Arbalestion</a><br/>
 <a href="#internal-ArcaneArcher">Arcane Archer</a><br/>
@@ -24,7 +23,10 @@ layout: default
 <a href="#internal-Skirmisher">Skirmisher / Mariner</a><br/>
 <a href="#internal-Templar">Templar</a><br/>
 <a href="#internal-thingSlinger">Thing Slinger</a><br/>
-<a href="#internal-underdog">Underdog</a><br/>
+<a href="#internal-underdog">Underdog</a>
+
+#### <a href="#internal-FightingStyles">Fighting Styles</a>
+#### <a href="#internal-combatManeuvers">Maneuvers</a>
 
 </div>
 
@@ -76,13 +78,15 @@ When the battle is done, enemies and allies alike stare in awe at the sight of y
 
 
 
+## Class Features
+As a fighter, you gain the following class features.
 
 
 
+<div class="block classTable halfClassTable frame" markdown="1">
 
-{{}}">classTable,frame,wide,decoration
 ##### The Fighter
-| Level | Proficiency Bonus | Features | Maneuvers Known | Superiority | Superiority Dice |
+| - Level - | - PB - | - Features - | - Maneuvers Known - | - Superiority - | - Superiority Dice - |
 |:-----:|:-----------------:|:---------|:---------------:|:-----------:|:----------------:|
  1st | +2 | Fighter Origin, Fighting Style, Second Wind | - | - | - |
 | 2nd | +2 | Combat Superiority, Origin Maneuver | 3 | 7 | d4 |
@@ -105,9 +109,7 @@ When the battle is done, enemies and allies alike stare in awe at the sight of y
 | 19th | +6 | Ability Score Improvement | 8 | 20 | d12 |
 | 20th | +6 | Extra Attack (3) | 8 | 20 | d12 |
 
-
-## Class Features
-As a fighter, you gain the following class features.
+</div>
 
 #### Hit Points
 **Hit Dice:** 1d10
@@ -126,13 +128,35 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* a light crossbow and 20 bolts or *(b)* two handaxes
 - *(a)* a dungeoneer’s pack or *(b)* an explorer’s pack
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain 1 ***Superiority***.
+| * Regain use of ***Second Wind***.
+
+| Long rest |
+|:-|
+| After a short rest: |
+| * Regain ***Superiority*** equal to your proficiency bonus.
+| |
+| Add the following class specific benefits to choose from: |
+| * Reset all uses of ***Indomitable***.
+| * Regain all ***Superiority***.
+
+</div>
+</div>
+</div>
+
 ### Fighter Origin
 The type of martial training you received sets the groundwork for your career as a fighter. Your origin can range from a disciplined training in the army, to being a self-taught farmer.
 
 All origins are describes at the end of the class description. Select the origin most suitable for your character.
-
-
-
 
 ### Fighting Styles
 At 1st level, a fighter adopts a particular style of fighting as his specialty. All styles are listed *<a href="#internal-FightingStyles">here</a>*.
@@ -149,10 +173,6 @@ Starting at 2nd level, your tactical expertise makes you a deadly force on the b
 
 #### Maneuvers
 You learn two maneuvers of your choice, and one decided by your fighter background. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack. You learn additional maneuvers at certain levels as shown in the Maneuvers Known section of the Fighter table.
-
-
-
-
 
 
 
@@ -198,139 +218,108 @@ As a ***reaction***, you can reroll a saving throw that you fail.
 #### Indomitable Ally
 Your courageous words inspire valor and ferocity in your allies, allowing you to use your ***reaction*** to allow an ally within 30 feet who can see or hear you to reroll a failed saving throw.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain 1 **Superiority**.
-| | * Regain use of **Second Wind**.
-
-| Long rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain **Superiority** equal to your proficiency bonus.
-| | |
-| Add the following class specific benefits to choose from: ||
-| | * Reset all uses of **Indomitable**.
-| | * Regain all **Superiority**.
 
 
+## <a name="internal-origins">Fighter Origins</a>
 
-
-## Fighter Origins
 The type of martial training you received sets the groundwork for your career as a fighter. Select the origin most suitable for your character.
 
-### Guard
-Your martial training comes from being a guard of some kind. You might not have had so much practical combat experience, relying more on your attentive skills. You could for example have been a city guard, someone's personal bodyguard or a member of the royal guard.
+<div class="columnsthree">
 
-#### Bonus proficiencies
-You have proficiency with two of Insight, Investigation and Perception.
+- ### Guard
+    Your martial training comes from being a guard of some kind. You might not have had so much practical combat experience, relying more on your attentive skills. You could for example have been a city guard, someone's personal bodyguard or a member of the royal guard.
 
-#### Bonus maneuver
-At 2nd level you learn the Studious Eye maneuver.
+    **Bonus proficiencies**:
+    You have proficiency with two of Insight, Investigation and Perception.
 
-### Instructor
-For some reason you have been trained by a single instructor. You might be from a wealthy family that could afford a private tutor, or you might have an experienced family member who trained you in between your hard work at the farm.
+    **Bonus maneuver**:
+    At 2nd level you learn the Studious Eye maneuver.
 
+- ### Instructor
+    For some reason you have been trained by a single instructor. You might be from a wealthy family that could afford a private tutor, or you might have an experienced family member who trained you in between your hard work at the farm.
 
+    **Bonus proficiencies**:
+    If you are noble or from a wealthy background, you have proficiency with two theoretical skills of your choice. Otherwise you have proficiency with Athletics, and an appropriate tool proficiency for your work background.
 
+    **Bonus maneuver**:
+    At 2nd level you learn the Combat Focus maneuver.
 
+- ### Leader
+    Your training has been as a leader of fighters. Most commonly as an officer in an army, but could also be the child of an important tribe member who is groomed to lead the warriors, or the common man forced to lead his fellow farmers in the defense against encroaching humanoids.
 
+    **Bonus proficiencies**:
+    You have proficiency with Leadership and Tactics, and your choice of Diplomacy, Intimidation or Deception.
 
+    **Bonus maneuver**:
+    At 2nd level you learn the Commanding Presence maneuver.
 
+- ### Military
+    You have learnt your martial skills as a member of the army. It could be the standing army of the king, or a mercenary unit selling their skills to the highest bidder.
 
-#### Bonus proficiencies
-If you are noble or from a wealthy background, you have proficiency with two theoretical skills of your choice. Otherwise you have proficiency with Athletics, and an appropriate tool proficiency for your work background.
+    **Bonus proficiencies**:
+    You have proficiency with Athletics and Military life. This includes recognizing the chain of command, knowing who to speak to and how to correctly communicate with soldiers of various ranks, as well as the know-how on taking care of your weapons and gear. Also, depending on your assignment you have the following proficiency:<br>
+    &nbsp;&nbsp;**Archer unit**: Fletcher’s tools.<br>
+    &nbsp;&nbsp;**Cavalry**: Animal handling.<br>
+    &nbsp;&nbsp;**Chariot**: Land vehicles.<br>
+    &nbsp;&nbsp;**Infantry**: Marching (gain advantage on all saves and checks during forced march).<br>
+    &nbsp;&nbsp;**Navy**: Sailor.<br>
+    &nbsp;&nbsp;**Scout**: Survival
 
-#### Bonus maneuver
-At 2nd level you learn the Combat Focus maneuver.
+    **Bonus maneuver**:
+    At 2nd level you learn the Athletic Prowess maneuver.
 
-### Leader
-Your training has been as a leader of fighters. Most commonly as an officer in an army, but could also be the child of an important tribe member who is groomed to lead the warriors, or the common man forced to lead his fellow farmers in the defense against encroaching humanoids.
+- ### Raider
+    Your training comes from a less structured type of fighting force. You might be a warrior in a barbarian tribe, a member of an outlaw raiding party or part of a peasant militia.
 
-#### Bonus proficiencies
-You have proficiency with Leadership and Tactics, and your choice of Diplomacy, Intimidation or Deception.
+    **Bonus proficiencies**:
+    You have proficiency with Athletics and Survival.
 
-#### Bonus maneuver
-At 2nd level you learn the Commanding Presence maneuver.
+    **Bonus maneuver**:
+    At 2nd level you learn the Rally maneuver.
 
-### Military
-You have learnt your martial skills as a member of the army. It could be the standing army of the king, or a mercenary unit selling their skills to the highest bidder.
+- ### Self-taught
+    You have not received any training at all. Everything you know about fighting you had to learn by yourself. You might have grown up on the streets fending for yourself, or learnt to fend for yourself when being lost in the wilderness.
 
-#### Bonus proficiencies
-You have proficiency with Athletics and Military life. This includes recognizing the chain of command, knowing who to speak to and how to correctly communicate with soldiers of various ranks, as well as the know-how on taking care of your weapons and gear. Also, depending on your assignment you have the following proficiency:
- **Archer unit**. Fletcher’s tools.
- **Cavalry**. Animal handling.
- **Chariot**. Land vehicles.
- **Infantry**. Marching (gain advantage on all saves and checks during forced march).
- **Navy**. Sailor.
- **Scout**. Survival
+    **Bonus proficiencies**:
+    You have proficiency with Stealth and Survival.
 
-#### Bonus maneuver
-At 2nd level you learn the Athletic Prowess maneuver.
+    **Bonus maneuver**.
+    At 2nd level you learn the Heroic Might maneuver.
 
-### Raider
-Your training comes from a less structured type of fighting force. You might be a warrior in a barbarian tribe, a member of an outlaw raiding party or part of a peasant militia.
+</div>
 
-#### Bonus proficiencies
-You have proficiency with Athletics and Survival.
+<h2><a class="internal-link" name="internal-archetypes">Martial Archetypes</a></h2>
 
-#### Bonus maneuver
-At 2nd level you learn the Rally maneuver.
-
-
-
-### Self-taught
-You have not received any training at all. Everything you know about fighting you had to learn by yourself. You might have grown up on the streets fending for yourself, or learnt to fend for yourself when being lost in the wilderness.
-
-#### Bonus proficiencies
-You have proficiency with Stealth and Survival.
-
-#### Bonus maneuver
-At 2nd level you learn the Heroic Might maneuver.
-
-## <a name="archetypes">Martial Archetypes</a>
 Different fighters choose different approaches to perfecting their fighting prowess. The martial archetype you choose to emulate reflects your approach.
 
 
-| ||
-|:-|:-|
-| <a href="#internal-arbalestion">Arbalestion</a> | Crossbows expert. |
-| <a href="#internal-ArcaneArcher">Arcane Archer</a> | A fighter combining archery with magic.
-| <a href="#internal-Brute">Brute</a> | The Brute's way of fighting is simple: Pick up the biggest, heaviest thing you can find, and squash your enemies with it.
-| <a href="#internal-bulwark">Bulwark</a> | Bulwarks shine as defensive warriors.
-| <a href="#internal-Champion">Champion</a> | The Champion focuses on the development of raw physical power honed to deadly perfection.
-| <a href="#internal-daredevil">Daredevil</a> | Your fighting style is memorable and displays the full range of your training. |
-| <a href="#internal-EldritchKnight">Eldritch Knight</a> | The Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic.
-| <a href="#internal-ghostOperative">Ghost&nbsp;Operative</a> | Ghost Operatives are the elite scouts and strike force of a well-trained military unit.
-| <a href="#internal-guerilla">Guerilla</a> | Experts in adapting to any environment and situation.  |
-| <a href="#internal-kindler">Kindler</a> | Kindlers are fighters who choose to bear a torch for others, both a symbolic flame which signifies guidance, protection, and life, as well as a literal one.
-| <a href="#internal-juggernaut">Juggernaut</a> | An unstoppable, overwhelming force whose charging advance cannot be stopped. |
-| <a href="#internal-runeguard">Runeguard</a> | The runeguard seeks the magical power within ancient languages to hasten the speed of their blade and strengthen their armor.
-| <a href="#internal-sellsword">Sellsword</a> | A Sellsword will employ whatever underhanded tactics they have to in order to claw their way to victory. |
-| <a href="#internal-Skirmisher">Skirmisher or Mariner</a> | The skirmisher is a warrior trained for speed and the mariner its aquatic variant.
-| <a href="#internal-Templar">Templar</a> | A religious fighter.
-| <a href="#internal-thingSlinger">Thing Slinger</a> | To these fighters, just about any piece of solid mass they can find will be used to full advantage better than even the most extravagant sword. |
-| <a href="#internal-underdog">Underdog</a> | A fighter who prefers fighting against impossible odds. |
+<div class="columnsthree">
+
+- **<a href="#internal-arbalestion">Arbalestion</a>** - Crossbows expert.
+- **<a href="#internal-ArcaneArcher">Arcane Archer</a>** - A fighter combining archery with magic.
+- **<a href="#internal-Brute">Brute</a>** - The Brute's way of fighting is simple: Pick up the biggest, heaviest thing you can find, and squash your enemies with it.
+- **<a href="#internal-bulwark">Bulwark</a>** - Bulwarks shine as defensive warriors.
+- **<a href="#internal-Champion">Champion</a>** - The Champion focuses on the development of raw physical power honed to deadly perfection.
+- **<a href="#internal-daredevil">Daredevil</a>** - Your fighting style is memorable and displays the full range of your training.
+- **<a href="#internal-EldritchKnight">Eldritch Knight</a>** - The Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic.
+- **<a href="#internal-ghostOperative">Ghost&nbsp;Operative</a>** - Ghost Operatives are the elite scouts and strike force of a well-trained military unit.
+- **<a href="#internal-guerilla">Guerilla</a>** - Experts in adapting to any environment and situation.
+- **<a href="#internal-kindler">Kindler</a>** - Kindlers are fighters who choose to bear a torch for others, both a symbolic flame which signifies guidance, protection, and life, as well as a literal one.
+- **<a href="#internal-juggernaut">Juggernaut</a>** - An unstoppable, overwhelming force whose charging advance cannot be stopped.
+- **<a href="#internal-runeguard">Runeguard</a>** - The runeguard seeks the magical power within ancient languages to hasten the speed of their blade and strengthen their armor.
+- **<a href="#internal-sellsword">Sellsword</a>** - A Sellsword will employ whatever underhanded tactics they have to in order to claw their way to victory.
+- **<a href="#internal-Skirmisher">Skirmisher or Mariner</a>** - The skirmisher is a warrior trained for speed and the mariner its aquatic variant.
+- **<a href="#internal-Templar">Templar</a>** - A religious fighter.
+- **<a href="#internal-thingSlinger">Thing Slinger</a>** - To these fighters, just about any piece of solid mass they can find will be used to full advantage better than even the most extravagant sword.
+- **<a href="#internal-underdog">Underdog</a>** - A fighter who prefers fighting against impossible odds.
 
 
+</div>
 
 
-
-
-
-
-
-# <a name="arbalestion">Arbalestion</a>
-As an arbalestion, you often believe that melee combat is a thing of the past. A modern thinker; you apply your knowledge of enginering to master the use of the more sophisticated crossbows to a deadly effect.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-arbalestion">Arbalestion</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Fighter Level | Feature |
@@ -340,6 +329,10 @@ As an arbalestion, you often believe that melee combat is a thing of the past. A
 | 10th | Bull's Eye
 | 15th | Critical Bolt
 | 18th | Ordnance
+
+</div>
+
+As an arbalestion, you often believe that melee combat is a thing of the past. A modern thinker; you apply your knowledge of enginering to master the use of the more sophisticated crossbows to a deadly effect.
 
 
 ### Boltslinger
@@ -375,13 +368,9 @@ As an ***action***, you can choose one creature or object with range and within 
 
 
 
-
-
-
-
-# <a name="ArcaneArcher">Arcane Archer</a>
-An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-ArcaneArcher">Arcane Archer</a></h1>
+<div class="featuresTable">
 
 #### Arcane Archer Features
 | Fighter Level | Feature |
@@ -391,6 +380,25 @@ An Arcane Archer studies a unique elven method of archery that weaves magic into
 | 10th | Arcane Shot (4 options) |
 | 15th | Ever-Ready Shot, Arcane Shot (5 options) |
 | 18th | Arcane Shot (6 options, improved shots) |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Arcane Shot***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.
 
 
 ### Arcane Archer Lore
@@ -414,94 +422,62 @@ At 7th level, you learn how to direct an errant arrow toward a new target. When 
 ### Ever-Ready Shot
 Starting at 15th level, you are always ready with an Arcane Shot. When you roll initiative, you can use a one of your Arcane Shot maneuvers as part of the first ranged weapon attack you make, without expending a use of Arcane shot.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Arcane Shot**.
-
-
-
-
 ## Arcane Shot Options
 The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.
 
 If an option requires a saving throw, your Arcane Shot save DC equals 8 + your proficiency bonus + your Intelligence modifier.
 
-#### Banishing Arrow
-You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must succeed on a Charisma saving throw or be banished. While banished in this way, the target’s speed is 0, and it is incapacitated. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.
+<div class="columnsthree">
 
-After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it.
+- #### Banishing Arrow
+    You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must succeed on a Charisma saving throw or be banished. While banished in this way, the target’s speed is 0, and it is incapacitated. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.
 
-#### Beguiling Arrow
-Your enchantment magic causes this arrow to temporarily beguile its target. The creature hit by the arrow takes an extra 2d6 psychic damage. The target must succeed on a Wisdom saving throw, or gain the charmed condition until the start of your next turn.
+    After you reach 18th level in this class, a target also takes 2d6 force damage when the arrow hits it.
 
-The psychic damage increases to 4d6 when you reach 18th level in this class.
+- #### Beguiling Arrow
+    Your enchantment magic causes this arrow to temporarily beguile its target. The creature hit by the arrow takes an extra 2d6 psychic damage. The target must succeed on a Wisdom saving throw, or gain the charmed condition until the start of your next turn.
 
+    The psychic damage increases to 4d6 when you reach 18th level in this class.
 
+- #### Bursting Arrow
+    You imbue your arrow with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take 2d6 force damage each.
 
+    The force damage increases to 4d6 when you reach 18th level in this class.
 
+- #### Enfeebling Arrow
+    You weave necromantic magic into your arrow. The creature hit by the arrow takes an extra 2d6 necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.
 
+    The necrotic damage increases to 4d6 when you reach 18th level in this class.
 
+- #### Grasping Arrow
+    When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The target takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.
 
+    The poison damage and slashing damage both increase to 4d6 when you reach 18th level in this class.
 
-#### Bursting Arrow
-You imbue your arrow with force energy drawn from the school of evocation. The energy detonates after your attack. Immediately after the arrow hits the creature, the target and all other creatures within 10 feet of it take 2d6 force damage each.
+- #### Piercing Arrow
+    You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow shoots forward in a 30 feet line before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.
 
-The force damage increases to 4d6 when you reach 18th level in this class.
+    The piercing damage increases to 2d6 when you reach 18th level in this class.
 
-#### Enfeebling Arrow
-You weave necromantic magic into your arrow. The creature hit by the arrow takes an extra 2d6 necrotic damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.
+- #### Seeking Arrow
+    Using divination magic, you grant your arrow the ability to seek out a target. When you use this option, you don’t make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover.
 
-The necrotic damage increases to 4d6 when you reach 18th level in this class.
+    If the target is within the weapon’s range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. Otherwise, the arrow disappears after traveling as far as it can.
 
-#### Grasping Arrow
-When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The target takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.
+    On a failed save, the target takes damage as if it were hit by the arrow, plus an extra 1d6 force damage, and you learn the target’s current location. On a successful save, the target takes half as much damage, and you don’t learn its location.
 
-The poison damage and slashing damage both increase to 4d6 when you reach 18th level in this class.
+    The force damage increases to 2d6 when you reach 18th level in this class.
 
-#### Piercing Arrow
-You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow shoots forward in a 30 feet line before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.
+- #### Shadow Arrow
+    You weave illusion magic into your arrow, causing it to occlude your foe’s vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.
 
-The piercing damage increases to 2d6 when you reach 18th level in this class.
+    The psychic damage increases to 4d6 when you reach 18th level in this class.
 
+</div>
 
-
-#### Seeking Arrow
-Using divination magic, you grant your arrow the ability to seek out a target. When you use this option, you don’t make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The arrow flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover.
-
-If the target is within the weapon’s range and there is a path large enough for the arrow to travel to the target, the target must make a Dexterity saving throw. Otherwise, the arrow disappears after traveling as far as it can.
-
-On a failed save, the target takes damage as if it were hit by the arrow, plus an extra 1d6 force damage, and you learn the target’s current location. On a successful save, the target takes half as much damage, and you don’t learn its location.
-
-The force damage increases to 2d6 when you reach 18th level in this class.
-
-#### Shadow Arrow
-You weave illusion magic into your arrow, causing it to occlude your foe’s vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.
-
-The psychic damage increases to 4d6 when you reach 18th level in this class.
-
-
-
-
-
-
-
-
-# <a name="Brute">Brute</a>
-The battlefield attracts fighters of all types and creeds. Inevitably, each fighter will do his damnedest to prove to the others that his way is the "right" way of fighting: the Champion sculpts his body into a figure made of marble, the Battle Master uses tricks and tactics to control the flow of combat, and the Eldritch Knights straight-up cheat by bringing magic into the whole mess. Kensai, Duelists and Weapon masters of all types, they all think they know how to win.
-
-The real answer is much, much more simple: Pick up the biggest, heaviest thing you can find, and squash the rest of them with it.
-
-That's the Brute Way.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Brute">Brute</a></h1>
+<div class="featuresTable">
 
 #### Brute Features
 | Fighter Level | Feature |
@@ -511,6 +487,16 @@ That's the Brute Way.
 | 10th | Hulking Hurler
 | 15th | Musclebound Enforcer
 | 18th | Combat Brute
+
+</div>
+
+The battlefield attracts fighters of all types and creeds. Inevitably, each fighter will do his damnedest to prove to the others that his way is the "right" way of fighting: the Champion sculpts his body into a figure made of marble, the Battle Master uses tricks and tactics to control the flow of combat, and the Eldritch Knights straight-up cheat by bringing magic into the whole mess. Kensai, Duelists and Weapon masters of all types, they all think they know how to win.
+
+The real answer is much, much more simple: Pick up the biggest, heaviest thing you can find, and squash the rest of them with it.
+
+That's the Brute Way.
+
+
 
 
 ### Fearsome Brute
@@ -541,12 +527,9 @@ From 18th level, after shoving a target, you gain advantage on your next attack 
 
 
 
-
-
-
-# <a name="bulwark">Bulwark</a>
-Bulwarks are elite defensive warriors whose strengths shine while fighting side by side with their allies. Though trained to use weapons of all types, they are especially effective when using a protective style of fighting with a weapon and shield. Alone, a Bulwark is a small threat, but when fighting alongside their allies they are impenetrable walls of steel.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-bulwark">Bulwark</a></h1>
+<div class="featuresTable">
 
 #### Bulwark Features
 | Fighter Level | Feature |
@@ -557,6 +540,9 @@ Bulwarks are elite defensive warriors whose strengths shine while fighting side 
 | 15th | Immovable Object
 | 18th | Unshakable Bastion
 
+</div>
+
+Bulwarks are elite defensive warriors whose strengths shine while fighting side by side with their allies. Though trained to use weapons of all types, they are especially effective when using a protective style of fighting with a weapon and shield. Alone, a Bulwark is a small threat, but when fighting alongside their allies they are impenetrable walls of steel.
 
 ### Guardian Stance
 Beginning at 3rd level, so long as you are wielding a shield, you can use a ***bonus action*** to enter a Guardian Stance. This Stance lasts indefinitely and ends early if you are incapacitated or end it as a free action. While in this Stance, you gain the following features:
@@ -585,12 +571,9 @@ You are a master amongst Stalwarts. Starting at 18th level, your Guardian Stance
 
 
 
-
-
-# <a name="Champion">Champion</a>
-The champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.
-
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Champion">Champion</a></h1>
+<div class="featuresTable">
 
 #### Champion Features
 | Fighter Level | Feature |
@@ -600,6 +583,10 @@ The champion focuses on the development of raw physical power honed to deadly pe
 | 10th | Additional Fighting Style
 | 15th | Superior Critical
 | 18th | Survivor
+
+</div>
+
+The champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.
 
 
 ### Improved Critical
@@ -627,13 +614,9 @@ At 18th level, you attain the pinnacle of resilience in battle. At the start of 
 
 
 
-
-
-# <a name="daredevil">Daredevil</a>
-Endless training and countless techniques define the greatest warriors of any age. However, there’s greatness in action and then there’s greatness in memory. The daredevil aims to paint a full story on the battlefield of their prowess, leaving foes in an absolute daze.
-
-Displaying the full range of their training and taking advantage of terrain, the daredevil aims to dominate their foe regardless of the field.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-daredevil">Daredevil</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Fighter Level | Feature |
@@ -644,16 +627,23 @@ Displaying the full range of their training and taking advantage of terrain, the
 | 15th | Going All-In
 | 18th | Grim Cyclone
 
+</div>
+
+Endless training and countless techniques define the greatest warriors of any age. However, there’s greatness in action and then there’s greatness in memory. The daredevil aims to paint a full story on the battlefield of their prowess, leaving foes in an absolute daze.
+
+Displaying the full range of their training and taking advantage of terrain, the daredevil aims to dominate their foe regardless of the field.
+
+
+
 
 ### Dynamic Dervish
 You’ve learned to mix up your fighting style for maximum effect, or at least maximum aesthetics.
- When you hit a target with a ranged weapon or thrown weapon attack, you gain a +2 bonus to melee attack rolls until the end of your turn.
 
- When you hit a creature with a melee attack roll, you may opt to knock that creature back. If you do, it must succeed on a Strength saving throw with a difficulty equal to 8 + your proficiency bonus + your Strength or Dexterity modifier or be pushed 10 feet away from you in a direction of your choice. In addition you gain a +2 bonus to ranged attack rolls until the end of your turn.
+- When you hit a target with a ranged weapon or thrown weapon attack, you gain a +2 bonus to melee attack rolls until the end of your turn.
 
-As your ***Item action*** you may put away any weapons in your hands and ready as many new weapons as you can hold.
+- When you hit a creature with a melee attack roll, you may opt to knock that creature back. If you do, it must succeed on a Strength saving throw with a difficulty equal to 8 + your proficiency bonus + your Strength or Dexterity modifier or be pushed 10 feet away from you in a direction of your choice. In addition you gain a +2 bonus to ranged attack rolls until the end of your turn.
 
-
+- As your ***Item action*** you may put away any weapons in your hands and ready as many new weapons as you can hold.
 
 ### Untarnished Grace
 You have come to understand the power of presenting an image. You gain proficiency in your choice of one skill from Intimidate, Performance, or Persuasion.
@@ -676,11 +666,9 @@ Each time you reduce a creature to 0 hit points, you may move up to your speed a
 
 
 
-
-
-# <a name="EldritchKnight">Eldritch Knight</a>
-The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic: abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-EldritchKnight">Eldritch Knight</a></h1>
+<div class="featuresTable">
 
 #### Eldritch Knight Features
 | Fighter Level | Feature |
@@ -690,6 +678,28 @@ The archetypal Eldritch Knight combines the martial mastery common to all fighte
 | 10th | Eldritch Strike
 | 15th | Arcane Charge
 | 18th | Improved War Magic
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain 1 spell slot.
+| &nbsp;
+| Add the following archetype benefits to choose from: |
+| * Regain 2 spell slots.
+
+</div>
+</div>
+</div>
+
+</div>
+
+The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic: abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.
 
 
 ### Spellcasting
@@ -709,9 +719,8 @@ The spells you learn at 8th, 14th, and 20th level can come from any school of ma
 Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
 
 
-
-
 #### Eldritch Knight Spellcasting
+
 | Level | Cantrips | Spells Known | 1st | 2nd | 3rd | 4th |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 3rd | 2 | 3 | 2 | - | - | - |
@@ -737,9 +746,9 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 #### Spellcasting Ability
 Intelligence is your spellcasting ability for your spells, since you learn your spells through study and memorization.
 
- **Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
+**Spell save DC** = 8 + your proficiency bonus + your Intelligence modifier
 
- **Spell attack modifier** = your proficiency bonus + your Intelligence modifier
+**Spell attack modifier** = your proficiency bonus + your Intelligence modifier
 
 ### Weapon Bond
 At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.
@@ -750,13 +759,6 @@ You can have up to two bonded weapons, but can summon only one at a time. If you
 
 ### War Magic
 Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a ***bonus action***.
-
-
-
-
-
-
-
 
 ### Eldritch Strike
 At 10th level, you learn how to make your weapon strikes undercut a creature's resistance to your spells. When you hit  a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.
@@ -769,21 +771,6 @@ Starting at 18th level, when you use your action to cast a spell, you can make o
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain 1 spell slot.
-| | &nbsp;
-| Add the following archetype benefits to choose from: ||
-| | * Regain 2 spell slots.
 
 
 
@@ -791,18 +778,9 @@ The following archetype specific additions are made to the general rest rules.
 
 
 
-
-
-
-
-# <a name="ghostOperative">Ghost Operative</a>
-
-*"Get in, do the job, get out. If they're lucky, they won't know I'm there. If not, they'll wish I wasn't."*
-
--- Gregor Antus, of the 1st Scouting Regiment
-
-Ghost Operatives are the elite scouts and strike force of a well-trained military unit. They combine the skills of a spy with combat prowess, quickly moving through the battlefield even while heavily armored, and they are deadly when they catch an opponent unawares. These fighters excel at stealth, undercover operations, and infiltration of enemy installations. If a Ghost Operative does their job right, their adversaries won't know they were there at all.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-ghostOperative">Ghost Operative</a></h1>
+<div class="featuresTable">
 
 #### Ghost Operative Features
 | Fighter Level | Feature |
@@ -812,6 +790,16 @@ Ghost Operatives are the elite scouts and strike force of a well-trained militar
 | 10th | Extraction
 | 15th | Infiltration
 | 18th | Sudden Strike
+
+
+</div>
+
+Ghost Operatives are the elite scouts and strike force of a well-trained military unit. They combine the skills of a spy with combat prowess, quickly moving through the battlefield even while heavily armored, and they are deadly when they catch an opponent unawares. These fighters excel at stealth, undercover operations, and infiltration of enemy installations. If a Ghost Operative does their job right, their adversaries won't know they were there at all.
+
+
+> *"Get in, do the job, get out. If they're lucky, they won't know I'm there. If not, they'll wish I wasn't."*
+>
+> -- Gregor Antus, of the 1st Scouting Regiment
 
 
 ### Bonus Proficiency
@@ -845,12 +833,9 @@ At 18th level, you can quickly neutralize a target if you can get the drop on th
 
 
 
-
-
-
-# <a name="guerilla">Guerilla</a>
-No matter the mission, a Guerrilla will execute it with utmost perfection. Sometimes known as commandos, these warriors are marked by their determination and adaptability. Whether harsh terrain, vicious monsters, enemy soldiers, or powerful spellcasters, nothing short of death will cause the willpower of a Guerrilla warrior to waver in the pursuit of their goals.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-guerilla">Guerilla</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Fighter Level | Feature |
@@ -860,6 +845,28 @@ No matter the mission, a Guerrilla will execute it with utmost perfection. Somet
 | 10th	| Combat Versatility
 | 15th	| Unwavering
 | 18th	| Elite Versatility
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Replace a maneuver with ***Adaptable Superiority***.
+| * Replace a fighting style with ***Combat Versatility***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+No matter the mission, a Guerrilla will execute it with utmost perfection. Sometimes known as commandos, these warriors are marked by their determination and adaptability. Whether harsh terrain, vicious monsters, enemy soldiers, or powerful spellcasters, nothing short of death will cause the willpower of a Guerrilla warrior to waver in the pursuit of their goals.
+
+
 
 
 ### Adaptable Superiority
@@ -872,13 +879,12 @@ You can instead choose one of these skills that you know. If you do, you gain ad
 
 ### By Land or Sea
 You have trained to succeed in any environment. Gain one of the following features of your choice. You gain a second feature at 10th level, and a third at 15th level.
- **Alpine Combatant**. You steel yourself for battle at great heights. You gain a climbing speed equal to your movement speed, and as a ***reaction***, you can reduce any falling damage you take by an amount equal to your fighter level.
 
- **Mobile Combatant**. You have trained to move about the battlefield unscathed. In combat, your movement speed increases by 10 feet, and when you are targeted by an opportunity attack, you can impose disadvantage on the attack roll as a ***reaction***.
+**Alpine Combatant**. You steel yourself for battle at great heights. You gain a climbing speed equal to your movement speed, and as a ***reaction***, you can reduce any falling damage you take by an amount equal to your fighter level.
 
- **Marine Combatant**. You prepare for amphibious combat. You gain a swimming speed equal to your movement speed, and while underwater, you can hold your breath for up to 1 hour and your attacks are not made at disadvantage.
+**Mobile Combatant**. You have trained to move about the battlefield unscathed. In combat, your movement speed increases by 10 feet, and when you are targeted by an opportunity attack, you can impose disadvantage on the attack roll as a ***reaction***.
 
-
+**Marine Combatant**. You prepare for amphibious combat. You gain a swimming speed equal to your movement speed, and while underwater, you can hold your breath for up to 1 hour and your attacks are not made at disadvantage.
 
 ### Combat Versatility
 When you finish a long rest, you can choose to replace your Fighting Style with another style of your choice.
@@ -889,45 +895,28 @@ Beginning at 15th level, when you use your Second Wind feature you regain one of
 ### Elite Versatility
 Upon reaching 18th level, you can use your Adaptable Superiority Versatility feature to replace one of your maneuvers, and your Combat Versatility feature to replace your Fighting Style at the end of each short rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following archetype benefits to choose from: ||
-| | * Replace a maneuver with **Adaptable Superiority**.
-| | * Replace a fighting style with **Combat Versatility**.
-
-
-
-
 ## Guerrilla Maneuvers
 The following maneuvers are available only to the Guerrilla archetype. Guerrillas focus on adapting to their surroundings and overcoming any obstacles between them and their goal.
 
-#### Adapt
-When you make a Strength, Dexterity or Constitution check or saving throw to resist the negative effects of a hostile environment, you can expend one superiority die and add the superiority die to the result of the ability check or saving throw.
+<div class="columnsthree">
 
-#### Improvise
-When you make an ability check that doesn't include your proficiency bonus, you can expend one superiority die and add the superiority die to the ability check.
+- #### Adapt
+    When you make a Strength, Dexterity or Constitution check or saving throw to resist the negative effects of a hostile environment, you can expend one superiority die and add the superiority die to the result of the ability check or saving throw.
 
-#### Overcome
-When you are reduced to 0 hit points but not killed outright, you can use your ***reaction*** to expend 2 superiority die and make a Constitution saving throw. The save DC equals 10 or half the damage you take, whichever number is higher. On a successful save, you drop to 1 hit point instead.
+- #### Improvise
+    When you make an ability check that doesn't include your proficiency bonus, you can expend one superiority die and add the superiority die to the ability check.
 
+- #### Overcome
+    When you are reduced to 0 hit points but not killed outright, you can use your ***reaction*** to expend 2 superiority die and make a Constitution saving throw. The save DC equals 10 or half the damage you take, whichever number is higher. On a successful save, you drop to 1 hit point instead.
 
-
-
-
-
+</div>
 
 
-# <a name="juggernaut">Juggernaut</a>
-A Juggernaut is an unstoppable, overwhelming force whose advance cannot be halted nor resisted. They relentlessly charge into melee, shaking off enemy attacks before showing their martial superiority in a deadly display of force. And, as many veterans would say, few things are more fearsome than a charging juggernaut about to cleave you in two.
 
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-juggernaut">Juggernaut</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Fighter Level | Feature |
@@ -938,6 +927,9 @@ A Juggernaut is an unstoppable, overwhelming force whose advance cannot be halte
 | 15th | Reckless Charge
 | 18th | Dynamic Entry
 
+</div>
+
+A Juggernaut is an unstoppable, overwhelming force whose advance cannot be halted nor resisted. They relentlessly charge into melee, shaking off enemy attacks before showing their martial superiority in a deadly display of force. And, as many veterans would say, few things are more fearsome than a charging juggernaut about to cleave you in two.
 
 ### Knock 'em Down
 You gain proficiency with all Strength checks made to break or force your way through doors, walls, chests, locks and other objects.
@@ -973,12 +965,9 @@ Additionally, any creature within 15 ft of the opposite opening takes 4d8 bludge
 
 
 
-
-
-
-# <a name="kindler">Kindler</a>
-Kindlers are fighters who choose to bear a torch for others, a symbolic flame which signifies guidance, protection, and life. While to many, fire might be seen as something with no more purpose than to kill and destroy, a kindler wields its heat similarly to how another might hold a shield, though they are no stranger to using fire for offensive purposes as well.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-kindler">Kindler</a></h1>
+<div class="featuresTable">
 
 #### Kindler Features
 | Fighter Level | Feature |
@@ -989,6 +978,12 @@ Kindlers are fighters who choose to bear a torch for others, a symbolic flame wh
 | 15th	| Brilliant Flare
 | 18th	| Eternal Ember
 
+</div>
+
+Kindlers are fighters who choose to bear a torch for others, a symbolic flame which signifies guidance, protection, and life. While to many, fire might be seen as something with no more purpose than to kill and destroy, a kindler wields its heat similarly to how another might hold a shield, though they are no stranger to using fire for offensive purposes as well.
+
+
+
 
 ### Torchbearer
 When you choose this archetype at 3rd level, you learn to wield torches as weapons. A lit torch becomes a melee weapon dealing 2d4 fire damage with the light property for you.
@@ -996,11 +991,11 @@ When you choose this archetype at 3rd level, you learn to wield torches as weapo
 ### Living Flame
 Also, at 3rd level, you can temper your inner flame, and release it as a ***bonus action*** if you are wielding a torch. When you do so, for the next minute, whenever you hit a creature with a lit torch, you can use your ***bonus action*** to inflict one of the following conditions on the creature.
 
- **Branding Flame**. The creature must succeed on a Dexterity saving throw, or be branded by you for the duration of your Living Flame. While the creature is branded, it takes 2d4 fire damage at the start of each of its turns. It can repeat its saving throw at the end of each of its turns, ending the effect on a success.
+**Branding Flame**. The creature must succeed on a Dexterity saving throw, or be branded by you for the duration of your Living Flame. While the creature is branded, it takes 2d4 fire damage at the start of each of its turns. It can repeat its saving throw at the end of each of its turns, ending the effect on a success.
 
- **Cauterizing Flame**. The creature must succeed on a Constitution saving throw, or be unable to regain hit points until the start of your next turn.
+**Cauterizing Flame**. The creature must succeed on a Constitution saving throw, or be unable to regain hit points until the start of your next turn.
 
- **Sinister Flame**. The creature must succeed on a Wisdom saving throw, or be frightened of you until the start of your next turn.
+**Sinister Flame**. The creature must succeed on a Wisdom saving throw, or be frightened of you until the start of your next turn.
 
 Effect ends early if you either choose to end it (no action required), if you let go of your torch, or if your torch is extinguished. The DC for these saving throws is equal to 8 + your proficiency bonus + your Charisma modifier.
 
@@ -1025,11 +1020,9 @@ By 18th level, there are no longer any limits on how often you can use your Livi
 
 
 
-
-
-# <a name="runeguard">Runeguard</a>
-The runeguard seeks the magical power within ancient languages, and to hasten the speed of their blade and strengthen of their armor by imbuing them with the power of these runes.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-runeguard">Runeguard</a></h1>
+<div class="featuresTable">
 
 #### Runeguard Features
 | Fighter Level | Feature |
@@ -1039,6 +1032,12 @@ The runeguard seeks the magical power within ancient languages, and to hasten th
 | 10th | Sentinel’s Reckoning
 | 15th | Improved Sentinel’s Reckoning
 | 18th | Runic Mastery
+
+</div>
+
+The runeguard seeks the magical power within ancient languages, and to hasten the speed of their blade and strengthen of their armor by imbuing them with the power of these runes.
+
+
 
 
 ### Runecraft
@@ -1066,7 +1065,7 @@ Once you activate one of your runic augmentations, you must finish a short rest 
 #### Saving Throws
 Some of your runic augmentations require your target to make a saving throw to resist the effects. The saving throw DC is calculated as follows:
 
- **Runic save DC** = 8 + your proficiency bonus + your Constitution modifier
+**Runic save DC** = 8 + your proficiency bonus + your Constitution modifier
 
 ### Runescript
 At 3rd level, you gain proficiency with the Arcana and Religion skills. Additionally, you double your proficiency bonus when making Intelligence checks that involve identifying magical writing, such as arcane sigils or divine text.
@@ -1097,76 +1096,71 @@ At 18th level, you can have three runes activate and you no longer need to conce
 ## Runic Augmentations
 Below are the runic augmentations for each of the five master runes. In the ancient tongues, the augmentation can be said before or after the rune.
 
-### Sokn
-*Attack Augmentation*
+<div class="columnstwo">
 
-You can activate a rune with the Sokn augmentation as a ***bonus action***. A rune’s power only affects the weapon it is inscribed on.
- **Ild**. Once per turn, when you hit a creature with a weapon attack, you ignite the target. At the start of each of the target's turns, it takes 1d4 fire damage for each time you've burned it, and it can then make a Constitution saving throw, ending the effect of all such burns on itself on a success. Alternatively, the ignited creature, or a creature adjacent to it, can use an action to end the effect of all burns.
+- ### Sokn
+    *Attack Augmentation*
 
- **Kalt**. When you hit a creature with a weapon attack, it can't take reactions until the start of its next turn.
+    You can activate a rune with the Sokn augmentation as a ***bonus action***. A rune’s power only affects the weapon it is inscribed on.
+    **Ild**. Once per turn, when you hit a creature with a weapon attack, you ignite the target. At the start of each of the target's turns, it takes 1d4 fire damage for each time you've burned it, and it can then make a Constitution saving throw, ending the effect of all such burns on itself on a success. Alternatively, the ignited creature, or a creature adjacent to it, can use an action to end the effect of all burns.
 
- **Ond**. Once per turn, when you hit a creature with a weapon attack, you deal an additional 1d4 necrotic damage and recover hit points equal to the necrotic damage dealt.
+    **Kalt**. When you hit a creature with a weapon attack, it can't take reactions until the start of its next turn.
 
- **Stein**. When you hit a Large or smaller creature with a weapon attack, it must make a Strength saving throw, falling prone on a failed save.
+    **Ond**. Once per turn, when you hit a creature with a weapon attack, you deal an additional 1d4 necrotic damage and recover hit points equal to the necrotic damage dealt.
 
- **Vind**. When a creature hits you with a melee attack, you can use your ***reaction*** to make a melee weapon attack against that creature.
+    **Stein**. When you hit a Large or smaller creature with a weapon attack, it must make a Strength saving throw, falling prone on a failed save.
 
-### Vard
-*Defense Augmentation*
+    **Vind**. When a creature hits you with a melee attack, you can use your ***reaction*** to make a melee weapon attack against that creature.
 
-You can activate a rune with the Vard augmentation as a ***reaction***. A rune’s power can only be used while wearing the armor or holding the shield it is inscribed on.
- **Ild**. When you are hit by a melee attack, the attacker takes fire damage equal to your proficiency bonus.
+- ### Vard
+    *Defense Augmentation*
 
- **Kalt**. When you are hit by a melee attack, the damage you take from the attack is reduced an amount equal to your proficiency bonus.
+    You can activate a rune with the Vard augmentation as a ***reaction***. A rune’s power can only be used while wearing the armor or holding the shield it is inscribed on.
+    **Ild**. When you are hit by a melee attack, the attacker takes fire damage equal to your proficiency bonus.
 
- **Ond**. You gain a bonus to saving throws made to resist being frightened equal to your Constitution modifier.
+    **Kalt**. When you are hit by a melee attack, the damage you take from the attack is reduced an amount equal to your proficiency bonus.
 
- **Stein**. You have advantage on saving throws made to resist being moved against your will.
+    **Ond**. You gain a bonus to saving throws made to resist being frightened equal to your Constitution modifier.
 
+    **Stein**. You have advantage on saving throws made to resist being moved against your will.
 
+    **Vind**. Ranged attacks made against you have disadvantage as wind whips around you.
 
- **Vind**. Ranged attacks made against you have disadvantage as wind whips around you.
+- ### Hagr
+    *Ability Augmentation*
 
-### Hagr
-*Ability Augmentation*
+    You can activate a rune with the Hagr augmentation as an ***action***. This rune must be inscribed on your body.
+    **Ild**. You can add your Constitution modifier to your Strength (Athletics) and Dexterity (Acrobatics) checks.
 
-You can activate a rune with the Hagr augmentation as an ***action***. This rune must be inscribed on your body.
- **Ild**. You can add your Constitution modifier to your Strength (Athletics) and Dexterity (Acrobatics) checks.
+    **Kalt**. You ignore difficult terrain and can walk safely across still or gently moving water.
 
- **Kalt**. You ignore difficult terrain and can walk safely across still or gently moving water.
+    **Ond**. When you receive healing from any source, you also gain temporary hit points equal to 5 + your proficiency bonus.
 
- **Ond**. When you receive healing from any source, you also gain temporary hit points equal to 5 + your proficiency bonus.
+    **Stein**. You have advantage on death saving throws and Constitution saving throws made to maintain concentration.
 
- **Stein**. You have advantage on death saving throws and Constitution saving throws made to maintain concentration.
+    **Vind**. Your movement speed increases by a number of feet equal to 5 times your Constitution modifier (minimum 5 feet).
 
- **Vind**. Your movement speed increases by a number of feet equal to 5 times your Constitution modifier (minimum 5 feet).
+- ### Tal
+    *Reckoning*
 
-### Tal
-*Reckoning*
+    Once you gain the Sentinel’s Reckoning feature at 10th level, you can activate a rune with the Tal command word as an ***action***. This rune manifests in the air around you when activated.
+    **Ild**. Each adjacent creature must make a Dexterity saving throw, taking fire damage equal to 2d10 × the number of runes you have active on a failed save, or half as much damage on a successful one.
 
-Once you gain the Sentinel’s Reckoning feature at 10th level, you can activate a rune with the Tal command word as an ***action***. This rune manifests in the air around you when activated.
- **Ild**. Each adjacent creature must make a Dexterity saving throw, taking fire damage equal to 2d10 × the number of runes you have active on a failed save, or half as much damage on a successful one.
+    **Kalt**. An eruption of magical frost blasts from you in a radius equal to 10 feet × the number of runes you have active. All creatures of your choice within the area must succeed on a Strength saving throw or be restrained for a number of rounds equal to the number of active runes. At the end of each of their turns, they can repeat the saving throw to break free.
 
- **Kalt**. An eruption of magical frost blasts from you in a radius equal to 10 feet × the number of runes you have active. All creatures of your choice within the area must succeed on a Strength saving throw or be restrained for a number of rounds equal to the number of active runes. At the end of each of their turns, they can repeat the saving throw to break free.
+    **Ond**. Life spirits swirl about you in a 5-foot-radius. All creatures of your choice within that radius regain hit points equal to 2d10 × the number of runes you have active.
 
- **Ond**. Life spirits swirl about you in a 5-foot-radius. All creatures of your choice within that radius regain hit points equal to 2d10 × the number of runes you have active.
+    **Stein**. You release your runic power in an arc before you, creating a cone of difficult terrain as jagged earth erupts equal to 5 feet × the number of runes you have active. When a creature enters this area for the first time on a turn or starts its turn there, it takes 2d4 slashing damage.
 
- **Stein**. You release your runic power in an arc before you, creating a cone of difficult terrain as jagged earth erupts equal to 5 feet × the number of runes you have active. When a creature enters this area for the first time on a turn or starts its turn there, it takes 2d4 slashing damage.
+    **Vind**. A furious cyclone whips up a strong wind around you. All creatures within 10 feet must succeed a Strength saving throw or take 1d10 bludgeoning damage, be pushed a number of feet equal to 5 × the number of runes you have active, and fall prone. On a success, a creature takes half as much damage and isn’t knocked prone.
 
- **Vind**. A furious cyclone whips up a strong wind around you. All creatures within 10 feet must succeed a Strength saving throw or take 1d10 bludgeoning damage, be pushed a number of feet equal to 5 × the number of runes you have active, and fall prone. On a success, a creature takes half as much damage and isn’t knocked prone.
-
-
-
-
+</div>
 
 
 
-
-# <a name="sellsword">Sellsword</a>
-Some warriors fight with honor, with grace, and with virtue...and some fight for themselves. Sellswords are the embodiment of these kinds of fighters that rise from the humblest origins and earn prestige through luck, wit and strength of arms.
-
-Whether they're a fallen knight or a lowborn cutthroat out to make a name for themselves, a Sellsword will employ whatever tactics they have to in order to claw their way to riches, fame, and victory. A sellsword seizes the advantage at the moment it presents itself, knowing that to falter or gloat before the enemy is finished is to risk death oneself.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-sellsword">Sellsword</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Fighter Level | Feature |
@@ -1176,6 +1170,14 @@ Whether they're a fallen knight or a lowborn cutthroat out to make a name for th
 | 10th | Cheap Shot Artist
 | 15th | Cutthroat's Withdrawal
 | 18th | Steal the Kill
+
+</div>
+
+Some warriors fight with honor, with grace, and with virtue...and some fight for themselves. Sellswords are the embodiment of these kinds of fighters that rise from the humblest origins and earn prestige through luck, wit and strength of arms.
+
+Whether they're a fallen knight or a lowborn cutthroat out to make a name for themselves, a Sellsword will employ whatever tactics they have to in order to claw their way to riches, fame, and victory. A sellsword seizes the advantage at the moment it presents itself, knowing that to falter or gloat before the enemy is finished is to risk death oneself.
+
+
 
 
 ### Combat Pragmatics
@@ -1213,12 +1215,9 @@ If this attack reduces the creature to 0 hit points, you can gloat about it as p
 
 
 
-
-
-
-# <a name="Skirmisher">Skirmisher / Mariner</a>
-The skirmisher is a warrior trained for speed. They use their superior mobility to take the fight to their opponents and keep them off balance. A fighter built for maneuverability from an aquatic setting is called a mariner and follows the same rules (but choosing the swimming option for No Escape at 3rd level).
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Skirmisher">Skirmisher / Mariner</a></h1>
+<div class="featuresTable">
 
 #### Skirmisher Features
 | Fighter Level | Feature |
@@ -1228,6 +1227,13 @@ The skirmisher is a warrior trained for speed. They use their superior mobility 
 | 10th | Evasion
 | 15th | Flow like Water
 | 18th | Whirlwind attack
+
+</div>
+
+The skirmisher is a warrior trained for speed. They use their superior mobility to take the fight to their opponents and keep them off balance. A fighter built for maneuverability from an aquatic setting is called a mariner and follows the same rules (but choosing the swimming option for No Escape at 3rd level).
+
+
+
 
 
 ### No Escape
@@ -1253,10 +1259,9 @@ Starting at 18th level, as an **action**, you may make an attack against every e
 
 
 
-
-# <a name="Templar">Templar</a>
-Throughout history, myth, and fiction, warriors have often had a religious focus. The cult of Ares, the Norse úlfheðnar, the cult of Mithras and of course the Templars are all examples of this. The Templar is a fighter archetype that parallels the Eldritch Knight - using magic similar to clerics rather than wizards. Their focus remains firmly martial - their magical powers are much more limited than clerics, or even paladins. This version of the religious warrior is one of a cult member initiated into secrets. The Templars gain their powers as much from the study of ritual and cult secrets as from a divine power.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Templar">Templar</a></h1>
+<div class="featuresTable">
 
 #### Templar Features
 | Fighter Level | Feature |
@@ -1266,6 +1271,31 @@ Throughout history, myth, and fiction, warriors have often had a religious focus
 | 10th | Ritual magic
 | 15th | Additional domain lore
 | 18th | Ritual master
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: ||
+| * Regain 1 spell slot.
+| * Regain use of ***Ritual master***.
+| &nbsp;
+| Add the following archetype benefits to choose from: |
+| * Regain 2 spell slots.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Throughout history, myth, and fiction, warriors have often had a religious focus. The cult of Ares, the Norse úlfheðnar, the cult of Mithras and of course the Templars are all examples of this. The Templar is a fighter archetype that parallels the Eldritch Knight - using magic similar to clerics rather than wizards. Their focus remains firmly martial - their magical powers are much more limited than clerics, or even paladins. This version of the religious warrior is one of a cult member initiated into secrets. The Templars gain their powers as much from the study of ritual and cult secrets as from a divine power.
+
+
 
 
 ### Learned
@@ -1343,44 +1373,17 @@ Once you use this feature, you must finish a long rest before you can use it aga
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain 1 spell slot.
-| | * Regain use of **Ritual master**.
-| | &nbsp;
-| Add the following archetype benefits to choose from: ||
-| | * Regain 2 spell slots.
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-thingSlinger">Thing Slinger</a></h1>
+<div class="featuresTable">
 
-
-
-
-
-
-# <a name="thingSlinger">Thing Slinger</a>
-They say that when all you have is a hammer, everything looks like a nail. Sometimes, when all you have is a group of enemies, not just everything, but everybody, begins to look like both a hammer and a nail.
-
-To the hard-pressed combatant, the broken leg of a table might serve their purpose just as well as a club. To the archetypical Thing Slinger, just about any piece of solid mass they can find will be used to full advantage better than even the most extravagant sword.
-
-A table? Just throw it. A cannon? Throw it. The enemy’s whole carriage? Yup, throw it. The huge owlbear currently blocking your path? Why, throw it as well!
-
-With no regards to practicality or physics, these unrelenting brutes bulldoze through the battlefield by transforming their surroundings into their own personal arsenal.
-
-***Prerequisite***: Strength score of 16 or higher
-
+#### Prerequisite
+- Strength score of 16 or higher
 
 #### Archetype Features
 | Fighter Level | Feature |
@@ -1390,6 +1393,16 @@ With no regards to practicality or physics, these unrelenting brutes bulldoze th
 | 10th | Y.E.E.T - Your Existence Ends Today
 | 15th | I’ll Beat a Rapscallion…
 | 18th | …with ANOTHER Rapscallion!
+
+</div>
+
+They say that when all you have is a hammer, everything looks like a nail. Sometimes, when all you have is a group of enemies, not just everything, but everybody, begins to look like both a hammer and a nail.
+
+To the hard-pressed combatant, the broken leg of a table might serve their purpose just as well as a club. To the archetypical Thing Slinger, just about any piece of solid mass they can find will be used to full advantage better than even the most extravagant sword.
+
+A table? Just throw it. A cannon? Throw it. The enemy’s whole carriage? Yup, throw it. The huge owlbear currently blocking your path? Why, throw it as well!
+
+With no regards to practicality or physics, these unrelenting brutes bulldoze through the battlefield by transforming their surroundings into their own personal arsenal.
 
 
 ### Built Different
@@ -1434,13 +1447,6 @@ You can creatures one step larger than you as part of the Your Existence Ends To
 
 Additionally, you can now use grappled creatures of yor size or smaller as improvised melee weapons, but you must succeed on a Strength check (DC 10 + the target’s Strength modifier + their Dexterity modifier) before being able to swing them. On a failed check, the grappled creature is not swung and can immediately make an ability check to escape.
 
-
-
-
-
-
-
-
 You must repeat this check whenever you attempt to use a creature in this way for the first time on your turn.
 
 This deals type deal an additional 2d4 damage on a hit per size tier of the creature being used (Small = 2d4, Medium = 4d4), and the total amount of damage dealt is also dealt to them. The additional damage is not applied if the creature is dead.
@@ -1449,14 +1455,9 @@ This deals type deal an additional 2d4 damage on a hit per size tier of the crea
 
 
 
-
-
-
-# <a name="underdog">Underdog</a>
-In a world of undead hordes and magical demigods, a mere mortal with just their wit and weaponry might feel a little outclassed. Nonetheless, there are plenty of seemingly mundane individuals who succeed time and time again in overcoming the odds through a combination of skill, luck, and sheer grit. A fighter who embodies this archetype might be anything from a plate-wearing knight who faces down dragons, to an urchin alley brawler run afoul of the local gangs.
-
-Through trial, error, loss and hardship, you have honed your ability to take on entire mobs, or towering monsters. You know how to take a hit, how to survive, and how to pick yourself back up off the ground.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-underdog">Underdog</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Fighter Level | Feature |
@@ -1466,6 +1467,14 @@ Through trial, error, loss and hardship, you have honed your ability to take on 
 | 10th | Adrenaline Rush
 | 15th | Still Standing
 | 18th | Tooth and Nail
+
+</div>
+
+In a world of undead hordes and magical demigods, a mere mortal with just their wit and weaponry might feel a little outclassed. Nonetheless, there are plenty of seemingly mundane individuals who succeed time and time again in overcoming the odds through a combination of skill, luck, and sheer grit. A fighter who embodies this archetype might be anything from a plate-wearing knight who faces down dragons, to an urchin alley brawler run afoul of the local gangs.
+
+Through trial, error, loss and hardship, you have honed your ability to take on entire mobs, or towering monsters. You know how to take a hit, how to survive, and how to pick yourself back up off the ground.
+
+
 
 
 ### Hackles Up
@@ -1502,108 +1511,97 @@ At the end of your turn after using this feature, you gain 2 levels of exhaustio
 
 
 
+<h2><a class="internal-link" name="internal-FightingStyles">Fighting Styles</a></h2>
 
-
-
-# <a name="FightingStyles">Fighting Styles</a>
 You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
 Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
 
-#### Archery
-You gain a +2 bonus to attack rolls you make with ranged weapons.
+<div class="columnsthree">
 
-#### Battle Vigor
-At the start of combat when initiative is rolled you gain temporary hit points equal to your fighter level.
+- #### Archery
+    You gain a +2 bonus to attack rolls you make with ranged weapons.
 
-#### Blind Fighting
-Being unable to see a creature doesn’t impose disadvantage on your melee attack rolls against it.
+- #### Battle Vigor
+    At the start of combat when initiative is rolled you gain temporary hit points equal to your fighter level.
 
-#### Brawler
-Your unarmed strikes gain a +1 to hit, and deal bludgeoning damage equal to 1d4 + your Strength modifier instead of the normal damage for an unarmed strike. This increases to 1d6 at level 8 and 1d8 at level 16. You may treat your fists as two weapons for all appropriate actions, benefits, and feats.
+- #### Blind Fighting
+    Being unable to see a creature doesn’t impose disadvantage on your melee attack rolls against it.
 
-If you have the Brawler feat, you also gain the following option:
+- #### Brawler
+    Your unarmed strikes gain a +1 to hit, and deal bludgeoning damage equal to 1d4 + your Strength modifier instead of the normal damage for an unarmed strike. This increases to 1d6 at level 8 and 1d8 at level 16. You may treat your fists as two weapons for all appropriate actions, benefits, and feats.
 
- **Counterpunch**. If you take the dodge action, and a creature misses a melee attack against you, you may use your ***reaction*** to make a single unarmed or improvised weapon strike against that creature. You must not be wielding any other weapons, and not be wearing a shield to perform a counterpunch.
+    If you have the Brawler feat, you also gain the following option:
 
-#### Cavalry
-Whenever you are mounted, you may add your proficiency bonus to the saving throws and AC of your steed. In addition you have advantage on any Wisdom (Animal Handling) checks made to control your mount when you attempt a risky maneuver.
+    **Counterpunch**. If you take the dodge action, and a creature misses a melee attack against you, you may use your ***reaction*** to make a single unarmed or improvised weapon strike against that creature. You must not be wielding any other weapons, and not be wearing a shield to perform a counterpunch.
 
-When  mounted, if you move at least 20 feet straight toward a large or smaller creature you may use your action to make a charging attack. If the attack hits, the creature must make a Dexterity saving throw. On a failed save, the creature is pushed up to 10 feet away from you. The DC for the save is equal to 8 + your Strength modifier + your proficiency + bonus.
+- #### Cavalry
+    Whenever you are mounted, you may add your proficiency bonus to the saving throws and AC of your steed. In addition you have advantage on any Wisdom (Animal Handling) checks made to control your mount when you attempt a risky maneuver.
+
+    When  mounted, if you move at least 20 feet straight toward a large or smaller creature you may use your action to make a charging attack. If the attack hits, the creature must make a Dexterity saving throw. On a failed save, the creature is pushed up to 10 feet away from you. The DC for the save is equal to 8 + your Strength modifier + your proficiency + bonus.
+
+- #### Charge Leader
+    When you roll initiative, all allies who can see or hear you gain advantage on their initiative roll so long as you are not surprised.
+
+- #### Defense
+    While you are wearing armor, you gain a +1 bonus to AC.
+
+- #### Dueling
+    When you are fighting with a melee weapon in one hand and not using a weapon or shield in the other, you gain a +2 bonus to damage rolls with that weapon.
+
+- #### Fortification
+    You are adept at protecting your vital areas with your shield. You can use you ***reaction*** to turn a critical hit you are aware of into a regular hit.
+
+- #### Great Weapon Fighting
+    When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+
+- #### Guerilla Fighter
+    When you wield a light or finesse weapon, you have advantage on attack rolls against a creature you are grappling and creatures that are grappling you.
+
+- #### Inspiring Leader
+    You inspire vigor, drive and toughness in your allies. Once per turn when you hit a hostile creature with a melee attack, a creature you choose within 30 ft gains temporary hit points equal to your Charisma modifier.
+
+- #### Interception
+    When a creature you can see hits a target other than you that is within 5 feet of you with an attack, you can use your ***reaction*** to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield.
+
+- #### Lunging Stance
+    While you are wielding a reach weapon, any creature that is not wielding a reach weapon (or a natural weapon with at least 10 feet of reach) provokes an opportunity attack from you when they enter your reach.
+
+- #### Opportunist
+    While wielding a melee weapon in one hand and not using a weapon or shield in the other, you gain advantage on attack rolls made using a ***reaction***.
+
+- #### Mariner
+    As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.
+
+- #### Master Thrower
+    You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.
+
+- #### Protection
+    When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your ***reaction*** to impose disadvantage on the attack roll. You must be wielding a shield.
+
+- #### Sharp Eye
+    Your skill at eliminating your foes from range is unmatched. When you roll a 1 or 2 on a damage die for an attack you make with a ranged weapon, you can reroll the die and must use the new roll.
+
+- #### Spinning Ward
+    You can shield yourself from ranged attacks. When wielding a reach weapon, you can use your ***reaction*** to deflect the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your class level.
+
+- #### Two-Weapon Fighting
+    When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+
+- #### Versatile Style
+    If you are wielding a versatile weapon in one hand, you gain +1 to attack rolls. While you are wielding a versatile weapon in two hands, you gain +1 to AC.
+
+- #### Wall of Spears
+    While you wield a weapon with reach, creatures must spend twice the normal movement within 10 feet of you.
 
 
-
-#### Charge Leader
-When you roll initiative, all allies who can see or hear you gain advantage on their initiative roll so long as you are not surprised.
-
-#### Defense
-While you are wearing armor, you gain a +1 bonus to AC.
-
-#### Dueling
-When you are fighting with a melee weapon in one hand and not using a weapon or shield in the other, you gain a +2 bonus to damage rolls with that weapon.
-
-#### Fortification
-You are adept at protecting your vital areas with your shield. You can use you ***reaction*** to turn a critical hit you are aware of into a regular hit.
-
-#### Great Weapon Fighting
-When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
-
-#### Guerilla Fighter
-When you wield a light or finesse weapon, you have advantage on attack rolls against a creature you are grappling and creatures that are grappling you.
-
-#### Inspiring Leader
-You inspire vigor, drive and toughness in your allies. Once per turn when you hit a hostile creature with a melee attack, a creature you choose within 30 ft gains temporary hit points equal to your Charisma modifier.
-
-#### Interception
-When a creature you can see hits a target other than you that is within 5 feet of you with an attack, you can use your ***reaction*** to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield.
-
-#### Lunging Stance
-While you are wielding a reach weapon, any creature that is not wielding a reach weapon (or a natural weapon with at least 10 feet of reach) provokes an opportunity attack from you when they enter your reach.
-
-#### Opportunist
-While wielding a melee weapon in one hand and not using a weapon or shield in the other, you gain advantage on attack rolls made using a ***reaction***.
-
-#### Mariner
-As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.
-
-
-
-
-
-
-
-
-#### Master Thrower
-You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.
-
-#### Protection
-When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your ***reaction*** to impose disadvantage on the attack roll. You must be wielding a shield.
-
-#### Sharp Eye
-Your skill at eliminating your foes from range is unmatched. When you roll a 1 or 2 on a damage die for an attack you make with a ranged weapon, you can reroll the die and must use the new roll.
-
-
-
-#### Spinning Ward
-You can shield yourself from ranged attacks. When wielding a reach weapon, you can use your ***reaction*** to deflect the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your class level.
-
-#### Two-Weapon Fighting
-When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
-
-#### Versatile Style
-If you are wielding a versatile weapon in one hand, you gain +1 to attack rolls. While you are wielding a versatile weapon in two hands, you gain +1 to AC.
-
-#### Wall of Spears
-While you wield a weapon with reach, creatures must spend twice the normal movement within 10 feet of you.
+</div>
 
 
 
 
+<h2><a class="internal-link" name="internal-combatManeuvers">Maneuvers</a></h2>
 
-
-
-
-# <a name="combatManeuvers">Maneuvers</a>
 If a maneuver has prerequisites, you must meet them to learn it. You can learn the maneuver at the same time you meet its prerequisites. A level prerequisite refers to your class level.
 
 Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
@@ -1611,153 +1609,134 @@ Many maneuvers enhance an attack in some way. You can use only one maneuver per 
 ### Basic maneuvers
 The following maneuvers cost 1 superiority to use.
 
-#### Ambush
-When you make an initiative roll, or any type of stealth check, you can add a superiority die to the roll.  You can do this after the roll, but before you know the result.
+<div class="columnsthree">
 
-#### Athletic Prowess
-When you move, you can roll a superiority die, adding it to any Strength, Constitution, or Dexterity ability checks you make until you stop moving.
+- #### Ambush
+    When you make an initiative roll, or any type of stealth check, you can add a superiority die to the roll.  You can do this after the roll, but before you know the result.
 
-#### Bait and Switch
-If adjacent to an ally, you can switch places with that ally, provided you spend at least 5 feet of movement. This movement doesn’t provoke opportunity attacks. Roll a superiority die. Until the start of your next turn, the ally gains a bonus to AC equal to the number rolled.
+- #### Athletic Prowess
+    When you move, you can roll a superiority die, adding it to any Strength, Constitution, or Dexterity ability checks you make until you stop moving.
 
-#### Commander's Strike
-When you take the Attack action, you can forgo one of your attacks and use a ***bonus action*** to direct one of your companions to strike. When you do so, choose a friendly creature who can see and hear you. That creature can immediately use its ***reaction*** to make one weapon attack, adding your superiority die to the attack's damage roll.
+- #### Bait and Switch
+    If adjacent to an ally, you can switch places with that ally, provided you spend at least 5 feet of movement. This movement doesn’t provoke opportunity attacks. Roll a superiority die. Until the start of your next turn, the ally gains a bonus to AC equal to the number rolled.
 
-#### Commanding Presence
-When you make a Charisma check to influence other creatures that you share a language with, add your superiority die to the ability check. You can do this after the roll, but before you know the result.
+- #### Commander's Strike
+    When you take the Attack action, you can forgo one of your attacks and use a ***bonus action*** to direct one of your companions to strike. When you do so, choose a friendly creature who can see and hear you. That creature can immediately use its ***reaction*** to make one weapon attack, adding your superiority die to the attack's damage roll.
 
-#### Combat Focus
-As a ***reaction***, you can roll a Superiority Die and add that number to a save. You can do this after the roll, but before you know the result.
+- #### Commanding Presence
+    When you make a Charisma check to influence other creatures that you share a language with, add your superiority die to the ability check. You can do this after the roll, but before you know the result.
 
-#### Defensive Shove
-As a ***bonus action***, you can shove an adjacent friendly creature out of harm's way. It moves 10 feet in the direction of your choice, and until the start of your next turn, it can add your superiority die to either its AC or a save the next time it is targeted by an attack or spell.
+- #### Combat Focus
+    As a ***reaction***, you can roll a Superiority Die and add that number to a save. You can do this after the roll, but before you know the result.
 
-#### Expert Deflection
-*Prerequisite: 10th level*
+- #### Defensive Shove
+    As a ***bonus action***, you can shove an adjacent friendly creature out of harm's way. It moves 10 feet in the direction of your choice, and until the start of your next turn, it can add your superiority die to either its AC or a save the next time it is targeted by an attack or spell.
 
-As a ***reaction*** reduce the damage from an attack that hits you or an adjacent ally by two superiority dice worth.
+- #### Expert Deflection
+    *Prerequisite: 10th level*
 
+    As a ***reaction*** reduce the damage from an attack that hits you or an adjacent ally by two superiority dice worth.
 
+- #### Feinting Attack
+    You can use a ***bonus action*** to feint, choosing one adjacent creature as your target. You have advantage on your next attack roll against that creature. If that attack hits, add your superiority die to the attack's damage roll.
 
-#### Feinting Attack
-You can use a ***bonus action*** to feint, choosing one adjacent creature as your target. You have advantage on your next attack roll against that creature. If that attack hits, add your superiority die to the attack's damage roll.
+- #### Goading Attack
+    When you hit a creature with a melee attack, you can attempt to goad the target into attacking you. Add your superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.
 
-#### Goading Attack
-When you hit a creature with a melee attack, you can attempt to goad the target into attacking you. Add your superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.
+- #### Heroic Might
+    You can expend a superiority die to perform a momentary feat of strength beyond that of ordinary men. Add your superiority die to your Strength for the purposes of determining how far or high you can jump, or how much weight you can lift, carry, push, or throw.
 
-#### Heroic Might
-You can expend a superiority die to perform a momentary feat of strength beyond that of ordinary men. Add your superiority die to your Strength for the purposes of determining how far or high you can jump, or how much weight you can lift, carry, push, or throw.
-This temporary Strength lasts until you finish the feat (such as leaping a crevasse), or one minute, whichever is shorter.
+    This temporary Strength lasts until you finish the feat (such as leaping a crevasse), or one minute, whichever is shorter.
 
-#### Living Shield
-When an adjacent friendly creature you can see takes damage, you can roll your superiority die as a ***reaction***. The damage the friendly creature takes is reduced by twice the die result, and you take half that damage.
+- #### Living Shield
+    When an adjacent friendly creature you can see takes damage, you can roll your superiority die as a ***reaction***. The damage the friendly creature takes is reduced by twice the die result, and you take half that damage.
 
-#### Lunging Attack
-When you take the Attack action, you can increase your reach with melee weapon attacks by 5 ft until the end of your turn.
+- #### Lunging Attack
+    When you take the Attack action, you can increase your reach with melee weapon attacks by 5 ft until the end of your turn.
 
-Once during your turn, if you hit a creature with a lunging attack, you may add your superiority die to the attack's damage roll.
+    Once during your turn, if you hit a creature with a lunging attack, you may add your superiority die to the attack's damage roll.
 
-#### Maneuvering Attack
-When you hit a creature with a weapon attack, you can maneuver one of your comrades into a more advantageous position. Add your superiority die to the damage roll, and you choose a friendly creature who can see or hear you. That creature can use its ***reaction*** to move up to half its speed without provoking opportunity attacks from the target of your attack.
+- #### Maneuvering Attack
+    When you hit a creature with a weapon attack, you can maneuver one of your comrades into a more advantageous position. Add your superiority die to the damage roll, and you choose a friendly creature who can see or hear you. That creature can use its ***reaction*** to move up to half its speed without provoking opportunity attacks from the target of your attack.
 
-#### Menacing Attack
-When you hit a creature with a melee attack, you can attempt to frighten the target. Add your superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.
+- #### Menacing Attack
+    When you hit a creature with a melee attack, you can attempt to frighten the target. Add your superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.
 
-#### Parry
-When you are damaged by a melee attack, you can use your ***reaction*** and reduce the damage by your superiority die + your Dexterity modifier.
+- #### Parry
+    When you are damaged by a melee attack, you can use your ***reaction*** and reduce the damage by your superiority die + your Dexterity modifier.
 
+- #### Precision Attack
+    When you make an attack roll against a creature, you can add your one superiority die to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.
 
+- #### Pushing Attack
+    When you hit a creature with a melee attack, you can attempt to drive the target back. Add your superiority die to the attack's damage roll, and if the target is your size or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.
 
+- #### Rally
+    You can use a ***bonus action*** to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see and hear you to gain temporary hit points.
 
+    You grant more temporary hit points as you gain fighter class levels and become a more inspiring battle master.
 
+    | Level | Temporary HP |
+    |:-----:|:-----------|
+    | 2nd | 1d6 + fighter level
+    | 7th | 2d8 + fighter level
+    | 12th | 3d10 + fighter level
+    | 17th | 4d12 + fighter level
 
+- #### Riposte
+    When a creature misses you with a melee attack, you can use your ***reaction*** to make a melee weapon attack against the creature. If you hit, add your superiority die to the damage roll.
 
+- #### Shrug It Off
+    At the start of your turn, if affected by any effect that places one of these conditions on you: blinded, deafened, frightened, charmed, paralyzed, petrified, stunned or unconscious, you can make an additional saving throw against it with advantage.
 
-#### Precision Attack
-When you make an attack roll against a creature, you can add your one superiority die to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.
+- #### Studious Eye
+    When making an insight or investigation check while observing something, add your superiority die to the ability check. You can do this after the roll, but before you know the result.
 
-#### Pushing Attack
-When you hit a creature with a melee attack, you can attempt to drive the target back. Add your superiority die to the attack's damage roll, and if the target is your size or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.
+- #### Sweeping Attack
+    When you hit a creature with a melee weapon attack, you can attempt to damage another creature with the same attack. Choose another creature adjacent to the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your superiority die. The damage is of the same type dealt by the original attack.
 
-#### Rally
-You can use a ***bonus action*** to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see and hear you to gain temporary hit points.
+- #### Wolf Pack Tactics
+    *Prerequisite: 10th level*
 
-You grant more temporary hit points as you gain fighter class levels and become a more inspiring battle master.
+    When an ally that you can see hits with a weapon attack on their turn, you can use your ***reaction*** to move up to half your speed and make a weapon attack against the same target. Add your superiority die to the damage roll.
 
-{{}}">column-count:2
-| Level | Temporary HP |
-|:-----:|:-----------|
-| 2nd | 1d6 + fighter level
-| 7th | 2d8 + fighter level
-
-| Level | Temporary HP |
-|:-----:|:-----------|
-| 12th | 3d10 + fighter level
-| 17th | 4d12 + fighter level
-
-
-#### Riposte
-When a creature misses you with a melee attack, you can use your ***reaction*** to make a melee weapon attack against the creature. If you hit, add your superiority die to the damage roll.
-
-#### Shrug It Off
-At the start of your turn, if affected by any effect that places one of these conditions on you: blinded, deafened, frightened, charmed, paralyzed, petrified, stunned or unconscious, you can make an additional saving throw against it with advantage.
-
-#### Studious Eye
-When making an insight or investigation check while observing something, add your superiority die to the ability check. You can do this after the roll, but before you know the result.
-
-#### Sweeping Attack
-When you hit a creature with a melee weapon attack, you can attempt to damage another creature with the same attack. Choose another creature adjacent to the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your superiority die. The damage is of the same type dealt by the original attack.
-
-#### Wolf Pack Tactics
-*Prerequisite: 10th level*
-
-When an ally that you can see hits with a weapon attack on their turn, you can use your ***reaction*** to move up to half your speed and make a weapon attack against the same target. Add your superiority die to the damage roll.
-
-
+</div>
+<hr>
 
 ### Advanced maneuvers
 The following maneuvers require you to spend 2 superiority.
 
-#### Disarming Attack
-When you hit a creature with a weapon attack, you can attempt to disarm the target, forcing it to drop one item of your choice that it's holding. Add your superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet. If you are adjacent to the target and have a free hand, you may catch the disarmed item.
+<div class="columnsthree">
 
-#### Distracting Strike
-When you hit a creature with a weapon attack, you can distract the creature, giving your allies an opening. Add your superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.
+- #### Disarming Attack
+    When you hit a creature with a weapon attack, you can attempt to disarm the target, forcing it to drop one item of your choice that it's holding. Add your superiority die to the attack's damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet. If you are adjacent to the target and have a free hand, you may catch the disarmed item.
 
-#### Evasive Footwork
-When you move, you can roll your superiority die and adding the number rolled to your AC until you stop moving.
+- #### Distracting Strike
+    When you hit a creature with a weapon attack, you can distract the creature, giving your allies an opening. Add your superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.
 
-This maneuver also allows you to dodge an attack with some evasive, reactive footwork. When another creature attacks you with a melee attack, you can use your ***reaction*** to roll your one superiority die and add the number to your AC for that attack, potentially causing the attack to miss.
+- #### Evasive Footwork
+    When you move, you can roll your superiority die and adding the number rolled to your AC until you stop moving.
 
-#### Immortal Fortitude
-If you would be reduced to 0 or less Hit Points after receiving damage, you can, as a ***reaction***, make a Constitution Save against a DC of half the damage dealt against you or DC 15, whichever is higher, to survive the attack and remain at 1 Hit Point.
+    This maneuver also allows you to dodge an attack with some evasive, reactive footwork. When another creature attacks you with a melee attack, you can use your ***reaction*** to roll your one superiority die and add the number to your AC for that attack, potentially causing the attack to miss.
 
-#### Juggernaut Charge
-When you take the Dash action, you can expend a superiority die and charge in a straight line through any number of creatures your size or smaller. Each time you do so, the creature can choose to either take your superiority die plus your Strength modifier bludgeoning damage or move 5 feet into an empty space as a reaction. If you would end your turn in another creature's space, you are instead shunted to the nearest empty space, provoking opportunity attacks from any hostile creature that can reach you.
+- #### Immortal Fortitude
+    If you would be reduced to 0 or less Hit Points after receiving damage, you can, as a ***reaction***, make a Constitution Save against a DC of half the damage dealt against you or DC 15, whichever is higher, to survive the attack and remain at 1 Hit Point.
 
+- #### Juggernaut Charge
+    When you take the Dash action, you can expend a superiority die and charge in a straight line through any number of creatures your size or smaller. Each time you do so, the creature can choose to either take your superiority die plus your Strength modifier bludgeoning damage or move 5 feet into an empty space as a reaction. If you would end your turn in another creature's space, you are instead shunted to the nearest empty space, provoking opportunity attacks from any hostile creature that can reach you.
 
+- #### Overwhelming Mountain Strikes
+    When you hit a creature with a melee weapon attack, you can add your superiority die to the damage roll. In addition, the creature struck must make a Strength save or halve their movement until the end of their next turn. If a second strike is made on the same target during the same turn by you after failing the Strength Save, the creature also loses their bonus action, and if a third strike is successful, they lose their reaction as well.
 
+- #### Snipe
+    As a ***bonus action***, you can make a ranged weapon attack. If you hit, add your superiority die to the damage roll. You can draw a thrown weapon as part of making this attack.
 
+- #### Spinning Swing
+    *Prerequisite: 10th level*
 
+    Instead of a single attack, all creatures in your reach must make a Dexterity save or take two superiority dice worth of damage of the same type as a weapon you are holding.
 
+- #### Trip Attack
+    When you hit a creature with a melee weapon attack, as a ***bonus action*** you can attempt to knock the target down. Add the superiority die to the attack's damage roll, and if the target is your size or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.
 
-
-#### Overwhelming Mountain Strikes
-When you hit a creature with a melee weapon attack, you can add your superiority die to the damage roll. In addition, the creature struck must make a Strength save or halve their movement until the end of their next turn. If a second strike is made on the same target during the same turn by you after failing the Strength Save, the creature also loses their bonus action, and if a third strike is successful, they lose their reaction as well.
-
-#### Snipe
-As a ***bonus action***, you can make a ranged weapon attack. If you hit, add your superiority die to the damage roll. You can draw a thrown weapon as part of making this attack.
-
-
-
-#### Spinning Swing
-*Prerequisite: 10th level*
-
-Instead of a single attack, all creatures in your reach must make a Dexterity save or take two superiority dice worth of damage of the same type as a weapon you are holding.
-
-#### Trip Attack
-When you hit a creature with a melee weapon attack, as a ***bonus action*** you can attempt to knock the target down. Add the superiority die to the attack's damage roll, and if the target is your size or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.
-
-
-
-
+</div>
