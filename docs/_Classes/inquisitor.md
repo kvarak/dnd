@@ -236,7 +236,7 @@ A creature so judged cannot be affected by this ability again for 1 year after t
 
 
 
-### Class exclusive feat
+## Class exclusive feat
 As an Inquisitor you have access to the following feat:
 
 <div class="feat">
