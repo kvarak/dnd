@@ -495,34 +495,46 @@ No restrictions or bonuses.
 ## <a class="internal-link" name="internal-feat">Dwarven feats</a>
 The following feats are exclusive to dwarves.
 
-<div class="feat">
 
-## Dwarven Piety
-Dwarves revere Moradin as the Dwarf-father. He smiles on dwarves who do good work in the world, and grants them his favor.
+<div class="columnsthree">
 
-- Increase your Wisdom by 1, to a maximum of 20.
-- You learn the *divine favor*, *sanctuary*, and *prayer of healing* spells, and can cast each once without expending a spell slot, regaining the ability to cast them in this way after a long rest. Wisdom is your spellcasting modifier for these spells.
+- <div class="feat">
 
-</div>
-<div class="feat">
+    ## Dwarven Piety
+    Dwarves revere Moradin as the Dwarf-father. He smiles on dwarves who do good work in the world, and grants them his favor.
 
-## Dwarven Resilience
-You have the soul of dwarf heroes flowing through you.
-- Increase your **Constitution** by 1.
-- Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself.
-- You can use your ***reaction*** upon being hit by a weapon attack to give yourself resistance towards bludgeoning, piercing, or slashing damage until the start of your next turn. You must then finish a long rest to use this feature again.
+    Increase your Wisdom by 1, to a maximum of 20.
 
+    You learn the *divine favor*, *sanctuary*, and *prayer of healing* spells, and can cast each once without expending a spell slot, regaining the ability to cast them in this way after a long rest. Wisdom is your spellcasting modifier for these spells.
 
-</div>
-<div class="feat">
+    </div>
 
-## Dwarven Stubbornness
-Dwarves are renowned for their stubbornness, but you are even more stubborn than most.
-- Increase your **Wisdom** by 1.
-- You have advantage on saving throws against being charmed.
-- You have resistance against psychic damage and advantage on saving throws against spells and effects that deal psychic damage.
+- <div class="feat">
+
+    ## Dwarven Resilience
+    You have the soul of dwarf heroes flowing through you.
+
+    Increase your **Constitution** by 1.
+
+    Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself.
+
+    You can use your ***reaction*** upon being hit by a weapon attack to give yourself resistance towards bludgeoning, piercing, or slashing damage until the start of your next turn. You must then finish a long rest to use this feature again.
 
 
+    </div>
+
+- <div class="feat">
+
+    ## Dwarven Stubbornness
+    Dwarves are renowned for their stubbornness, but you are even more stubborn than most.
+
+    Increase your **Wisdom** by 1.
+
+    You have advantage on saving throws against being charmed.
+
+    You have resistance against psychic damage and advantage on saving throws against spells and effects that deal psychic damage.
+
+    </div>
 
 </div>
 
