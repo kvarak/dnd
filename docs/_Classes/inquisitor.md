@@ -3,8 +3,22 @@ title: Inquisitor
 layout: default
 ---
 
-<!-- <div class="toc">
-</toc> -->
+<div class="toc">
+
+#### <a href="#internal-feats">Class exclusive feat</a>
+
+#### <a href="#internal-missions">Divine Missions</a>
+
+<a href="#internal-coldIronWarder">Mission of the Cold Iron Warder</a><br/>
+<a href="#internal-crusader">Mission of the Crusader</a><br/>
+<a href="#internal-hierophant">Mission of the Hierophant</a><br/>
+<a href="#internal-hunter">Mission of the Hunter</a><br/>
+<a href="#internal-infiltration">Mission of Infiltration</a><br/>
+<a href="#internal-witchhunter">Mission of Witchhunter</a><br/>
+
+#### <a href="#internal-judgements">Judgements</a>
+
+</div>
 
 # Inquisitor
 Most people of the world are familiar with clerics; the healers and preachers who spread the word of the Gods. Most also are familiar with paladins, who uphold virtuous principles and protect the meek. Inquisitors, while undoubtedly devoted to their god, is neither of these. Inquisitors are holy hunters; they seek to strike out into the world and unleash the wrath of their god upon those who defy them.
@@ -167,28 +181,6 @@ You can use a holy symbol as a spellcasting focus for your inquisitor spells.
 
 
 
-
-
-
-### Divine Mission
-At 3rd level, you commit yourself to a Divine Mission. Your misson shapes the path your inquisition takes, and reflects your study and obsession with your faith.
-
-<div class="columnsthree">
-
-- **Mission of the Cold Iron Warder**. Dedicated to eradicating demonkind and cultists of fiendish forces.
-
-- **Mission of the Crusader**. Rally the common people to take up the fight.
-
-- **Mission of the Hierophant**. Makes sure that allies in the crusade remain fit for the holy fight.
-
-- **Mission of the Hunter**. Stalks their prey in the wild.
-
-- **Mission of Infiltration**. Destroys heretical cults and vile organizations from the inside.
-
-- **Mission of the Witchhunter**. Becomes the scourge of those who use magical powers against your faith.
-
-</div>
-
 Your choice grants you features at 3rd level, and again at 7th, 11th, and 18th level.
 
 ### Ability Score Improvement
@@ -231,12 +223,8 @@ At 20th level, you can act as a conduit for the full power of your faith. As an 
 A creature so judged cannot be affected by this ability again for 1 year after the time of casting. You can use this feature once and can recover the use when you finish a long rest.
 
 
+<h2><a class="internal-link" name="internal-feats">Class exclusive feat</a></h2>
 
-
-
-
-
-### Class exclusive feat
 As an Inquisitor you have access to the following feat:
 
 <div class="feat">
@@ -245,6 +233,27 @@ As an Inquisitor you have access to the following feat:
 You have mastered the art of returning the magic of your judgements.
 - Increase any one ability score by 1.
 - When you reduce a creature with an active judgement to 0 hit points with a weapon attack, you can use a ***reaction*** to regain 4 piety.
+
+</div>
+
+
+<h2><a class="internal-link" name="internal-missions">Divine Missions</a></h2>
+
+At 3rd level, you commit yourself to a Divine Mission. Your misson shapes the path your inquisition takes, and reflects your study and obsession with your faith.
+
+<div class="columnsthree">
+
+- **Mission of the Cold Iron Warder**. Dedicated to eradicating demonkind and cultists of fiendish forces.
+
+- **Mission of the Crusader**. Rally the common people to take up the fight.
+
+- **Mission of the Hierophant**. Makes sure that allies in the crusade remain fit for the holy fight.
+
+- **Mission of the Hunter**. Stalks their prey in the wild.
+
+- **Mission of Infiltration**. Destroys heretical cults and vile organizations from the inside.
+
+- **Mission of the Witchhunter**. Becomes the scourge of those who use magical powers against your faith.
 
 </div>
 
@@ -305,11 +314,9 @@ From 18th level, you have resistance to all damage from fiends.
 
 
 
-
-
-# Mission of the Crusader
-Those who take this divine mission are typically those whose zealous devotion is so abundant that it spills unto those around them. They channel their god's might in undeniable ways and rally commoners to assist them in a singular, divine task.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-crusader">Mission of the Crusader</a></h1>
+<div class="featuresTable">
 
 #### Mission Features
 | Inquisitor Level | Feature |
@@ -318,6 +325,10 @@ Those who take this divine mission are typically those whose zealous devotion is
 | 7th | Crusader's Cause |
 | 11h | Bolster the Faithful |
 | 18th | Zealous Inspiration |
+
+</div>
+
+Those who take this divine mission are typically those whose zealous devotion is so abundant that it spills unto those around them. They channel their god's might in undeniable ways and rally commoners to assist them in a singular, divine task.
 
 
 #### Mission Spells
@@ -366,11 +377,9 @@ Once you reach 18th level, you can spend 4 **Piety** to simultaneously grant all
 
 
 
-
-
-# Mission of the Hierophant
-Sometimes the best way to combat evil is to bolster your allies, and make sure that they can continue dealing out justice against the enemies of your faith. They are but tools of your lord, and your holy mission is to make sure these tools stay sharp.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-hierophant">Mission of the Hierophant</a></h1>
+<div class="featuresTable">
 
 #### Mission Features
 | Inquisitor Level | Feature |
@@ -379,6 +388,12 @@ Sometimes the best way to combat evil is to bolster your allies, and make sure t
 | 7th | Jumping Blessing |
 | 11h | Armor of Enchantment |
 | 18th | Hierophant's Grace |
+
+</div>
+
+Sometimes the best way to combat evil is to bolster your allies, and make sure that they can continue dealing out justice against the enemies of your faith. They are but tools of your lord, and your holy mission is to make sure these tools stay sharp.
+
+
 
 
 #### Mission Spells
@@ -403,12 +418,14 @@ When you join this mission, you gain proficiency with Medicine.
 ### Hierophant's Blessing
 Your training allows you to not only judge your enemies, but your allies as well, and you gain the following judgement.
 
-{{}}">feat
+<div class="feat">
+
 ## Hierophant's Blessing
 You judge an ally worthy of your cause. At the beginning of that creature's turn, if they have no temporary hit points, they gain temporary hit points equal to your level + your proficiency bonus. These temporary hit points last for 1 minute.
 
  **Greater Judgement**. While the judgement is active, you can can use your ***bonus action*** and spend up to 4 **Piety** to heal the target 1d6 hp per **Piety** spent.
 
+</div>
 
 ### Jumping Blessing
 When a friendly creature drops below half its hit point maximum, you can use your ***reaction***, or a ***bonus action*** on a subsequent turn, to move your Hierophant's Blessing from its current target to the specified creature. The new target heals an amount of hp equal to your level + your proficiency bonus.
@@ -425,11 +442,9 @@ You can use your blessing's restorative power to stave off death. Whenever a cre
 
 
 
-
-
-# Mission of the Hunter
-Inquisitors following the mission of the hunter focus on dealing with more uncivilized threats to their faith, such found in the wilds. Those few Inquisitors who take this mission tend to be lone wolves, preferring to stalk their prey away from the people of the cities and towns. They move seamlessly in the wild, remaining hidden while they study their target, only attacking when the time is right.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-hunter">Mission of the Hunter</a></h1>
+<div class="featuresTable">
 
 #### Mission Features
 | Inquisitor Level | Feature |
@@ -438,6 +453,12 @@ Inquisitors following the mission of the hunter focus on dealing with more unciv
 | 7th | Hunter's Judgement |
 | 11h | Cloak of the Wild |
 | 18th | Divine Senses |
+
+</div>
+
+Inquisitors following the mission of the hunter focus on dealing with more uncivilized threats to their faith, such found in the wilds. Those few Inquisitors who take this mission tend to be lone wolves, preferring to stalk their prey away from the people of the cities and towns. They move seamlessly in the wild, remaining hidden while they study their target, only attacking when the time is right.
+
+
 
 
 #### Mission Spells
@@ -481,11 +502,9 @@ When you attack a creature you can't see, your inability to see it doesn't impos
 
 
 
-
-
-# Mission of Infiltration
-You have dedicated yourself to destroying heretical cults and vile organizations from the inside. By gaining their trust, you can destroy them before they have a chance to escape.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-infiltration">Mission of Infiltration</a></h1>
+<div class="featuresTable">
 
 #### Mission Features
 | Inquisitor Level | Feature |
@@ -494,6 +513,12 @@ You have dedicated yourself to destroying heretical cults and vile organizations
 | 7th | Deceive the Heretic |
 | 11h | Convert the Nonbelievers |
 | 18th | Trial of the Faith |
+
+</div>
+
+You have dedicated yourself to destroying heretical cults and vile organizations from the inside. By gaining their trust, you can destroy them before they have a chance to escape.
+
+
 
 
 #### Mission Spells
@@ -528,10 +553,9 @@ At 18th level, when you successfully down an enemy you can choose to not kill hi
 
 
 
-
-
-# Mission of the Witchhunter
-The Witchhunter has chosen as his divine mission to destroy all heretical wizards, clerics and witches. You become the scourge of those who use magical powers against your lord.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-witchhunter">Mission of Witchhunter</a></h1>
+<div class="featuresTable">
 
 
 #### Mission Features
@@ -542,6 +566,9 @@ The Witchhunter has chosen as his divine mission to destroy all heretical wizard
 | 11h | Spell Aegis |
 | 18th | Devourer of Magic |
 
+</div>
+
+The Witchhunter has chosen as his divine mission to destroy all heretical wizards, clerics and witches. You become the scourge of those who use magical powers against your lord.
 
 #### Mission Spells
 Your divine mission lets you choose from an expanded list when you learn an Inquisitor spell. The following spells are added to your spell list.
@@ -584,9 +611,8 @@ Also, you learn that spell as if it was an Inquisitor spell of the same level. T
 
 
 
+<h2><a class="internal-link" name="internal-judgements">Judgements</a></h2>
 
-
-# Judgements
 As an instrument of your deity’s will, you are empowered to pass judgment on those around you. You learn two judgement of your choice as a 1st level Inquisitor.
 
 As a ***bonus action***, you may spend Piety to direct your righteous fury at any creature within 60 feet by pointing your finger at them and judge them verbally. The target must be able to hear you, but does not have to understand you.
@@ -597,101 +623,67 @@ Unless otherwise stated, a Judgement last for 1 minute. If the target of your ju
 
 You learn one additional Judgement of your choice at 7th, 11th, and 18th level. Each time you learn a new Judgement, you can also replace a Judgement.
 
-{{}}">feat
-## Brand the Faithless
-You can sear a message in the flesh of the judged creature with a touch. On a successful melee spell attack, the creature takes fire damage equal to 1d4 + your Wisdom modifier and is branded with a small symbol or short word. This marks it and professes its sin outwardly to the world. The creature may take 1d6 damage to scrape the outward sign of the brand off, but it returns if they regain any hit points. The brand persists for 48 hours and can only be removed early by a *remove curse* spell or if you use this feature on another creature.
+<div class="columnsthree">
 
-You may spend 10 minutes in meditation to determine the approximate direction of the creature as long as the brand persists and you are within 5 miles of it. If you detect the creature in this manner after 24 hours have elapsed, you may attempt to renew the brand. The creature becomes acutely aware of your intent to rebrand it, and makes a Wisdom saving throw against your spellcasting DC. On a success, the brand remains until its time has elapsed, but you cannot make another attempt to brand it remotely. On a failure, the creature takes 1 fire damage and is branded for an additional 48 hours, and may be branded in this manner again after 24 hours.
+- #### Brand the Faithless
+    You can sear a message in the flesh of the judged creature with a touch. On a successful melee spell attack, the creature takes fire damage equal to 1d4 + your Wisdom modifier and is branded with a small symbol or short word. This marks it and professes its sin outwardly to the world. The creature may take 1d6 damage to scrape the outward sign of the brand off, but it returns if they regain any hit points. The brand persists for 48 hours and can only be removed early by a *remove curse* spell or if you use this feature on another creature.
 
- **Greater Judgement**. You can apply the brand in an painless manner, allowing you to brand your target without it knowing.
+    You may spend 10 minutes in meditation to determine the approximate direction of the creature as long as the brand persists and you are within 5 miles of it. If you detect the creature in this manner after 24 hours have elapsed, you may attempt to renew the brand. The creature becomes acutely aware of your intent to rebrand it, and makes a Wisdom saving throw against your spellcasting DC. On a success, the brand remains until its time has elapsed, but you cannot make another attempt to brand it remotely. On a failure, the creature takes 1 fire damage and is branded for an additional 48 hours, and may be branded in this manner again after 24 hours.
 
-
-{{}}">feat
-## Destruction
-You are filled with divine wrath against this creature. On a successful weapon attack, you deal additional 1d6 radiant damage to that creature.
-
- **Greater Judgement**. Damage increases to 2d6.
+    **Greater Judgement**. You can apply the brand in an painless manner, allowing you to brand your target without it knowing.
 
 
+- #### Destruction
+    You are filled with divine wrath against this creature. On a successful weapon attack, you deal additional 1d6 radiant damage to that creature.
+
+    **Greater Judgement**. Damage increases to 2d6.
 
 
-{{}}">feat
-## Fear of God
-If the judged creature fails a Wisdom save against your Inquisitor spell save DC, it is frightened for the duration of the judgement. The target may attempt a new save at the end of each of its turns to end the effect.
+- #### Fear of God
+    If the judged creature fails a Wisdom save against your Inquisitor spell save DC, it is frightened for the duration of the judgement. The target may attempt a new save at the end of each of its turns to end the effect.
 
- **Greater Judgement**. All creatures within 30 ft that can see and hear you are affected by this judgement.
-
-
-{{}}">feat
-## Healing
-Whenever the judged creature deals damage to you, you gain temporary hit points equal to the amount of damage you received. These hit points remain until the end of the creature's next turn.
-
-  **Greater Judgement**. You can use your ***action*** to heal an amount of hit points equal to half the temporary hit points you currently have from this judgement. This expends all temporary hit points.
+    **Greater Judgement**. All creatures within 30 ft that can see and hear you are affected by this judgement.
 
 
-{{}}">feat
-## No one expects the inquisition
-Gain advantage on Stealth and Deception checks against the target. If you act in the surprise round, you have an advantage on attack rolls against the target until it has acted. In addition, if you score a hit against the target during the surprise round, it is a considered a critical hit.
+- #### Healing
+    Whenever the judged creature deals damage to you, you gain temporary hit points equal to the amount of damage you received. These hit points remain until the end of the creature's next turn.
 
- **Greater Judgement**. You gain the bonuses from this judgement against all allies of the target.
+      **Greater Judgement**. You can use your ***action*** to heal an amount of hit points equal to half the temporary hit points you currently have from this judgement. This expends all temporary hit points.
 
+- #### No one expects the inquisition
+    Gain advantage on Stealth and Deception checks against the target. If you act in the surprise round, you have an advantage on attack rolls against the target until it has acted. In addition, if you score a hit against the target during the surprise round, it is a considered a critical hit.
 
-{{}}">feat
-## Piercing
-This judgment gives you great focus and makes your spells more potent. Whenever you target the judged creature with a spell, or the creature is affected by an area spell effect by a spell cast by you, it has disadvantage on saves against those spells.
+    **Greater Judgement**. You gain the bonuses from this judgement against all allies of the target.
 
- **Greater Judgement**. When you deal spell damage to the judged creature, add your Wisdom modifier to the damage.
+- #### Piercing
+    This judgment gives you great focus and makes your spells more potent. Whenever you target the judged creature with a spell, or the creature is affected by an area spell effect by a spell cast by you, it has disadvantage on saves against those spells.
 
+    **Greater Judgement**. When you deal spell damage to the judged creature, add your Wisdom modifier to the damage.
 
-{{}}">feat
-## Pride
-The judged creatures pride shines through and it boastfully opens its guard to you. You may add 1d4 to your attack rolls made against this creature.
+- #### Pride
+    The judged creatures pride shines through and it boastfully opens its guard to you. You may add 1d4 to your attack rolls made against this creature.
 
- **Greater Judgement**.The judged creature's nonchalance against you causes it to have disadvantage on all attacks against you.
+    **Greater Judgement**.The judged creature's nonchalance against you causes it to have disadvantage on all attacks against you.
 
+- #### Protection
+    You are surrounded by a protective aura, granting a +2 bonus to AC against the judged creature. In addition, any critical hit made by that creature is considered a normal hit.
 
+    **Greater Judgement**. You have advantage on saves against spells cast by the judged creature.
 
+- #### Retribution
+    This mission calls Inquisitors to stamp out any creature who has threatened the Church.
+    Whenever the judged creature hits you with an attack, that creature takes radiant damage equal to your Wisdom modifier.
 
+    **Greater Judgement**. You can can use your ***reaction*** to make an attack against the judged creature when it attacks you.
 
+- #### Sloth
+    Weighed down by their sin, the judged creature's movement speed is reduced by half.
 
+    **Greater Judgement**. If the target fails a Wisdom save against your spellcasting DC, it has disadvantage on all melee attacks.
 
+- #### Smiting
+    This judgment bathes your weapons in a divine light. When you hit the judged creature, you can expend one inquisitor spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 1d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st, to a maximum of 5d6.
 
+    **Greater Judgement**. You can smite any target, not just the judged creature.
 
-
-{{}}">feat
-## Protection
-You are surrounded by a protective aura, granting a +2 bonus to AC against the judged creature. In addition, any critical hit made by that creature is considered a normal hit.
-
- **Greater Judgement**. You have advantage on saves against spells cast by the judged creature.
-
-
-{{}}">feat
-## Retribution
-This mission calls Inquisitors to stamp out any creature who has threatened the Church.
-Whenever the judged creature hits you with an attack, that creature takes radiant damage equal to your Wisdom modifier.
-
- **Greater Judgement**. You can can use your ***reaction*** to make an attack against the judged creature when it attacks you.
-
-
-
-
-
-{{}}">feat
-## Sloth
-Weighed down by their sin, the judged creature's movement speed is reduced by half.
-
- **Greater Judgement**. If the target fails a Wisdom save against your spellcasting DC, it has disadvantage on all melee attacks.
-
-
-{{}}">feat
-## Smiting
-This judgment bathes your weapons in a divine light. When you hit the judged creature, you can expend one inquisitor spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 1d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st, to a maximum of 5d6.
-
- **Greater Judgement**. You can smite any target, not just the judged creature.
-
-
-
-
-
-
-
+</div>
