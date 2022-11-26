@@ -3,8 +3,8 @@ title: Inquisitor
 layout: default
 ---
 
-<div class="toc">
-</toc>
+<!-- <div class="toc">
+</toc> -->
 
 # Inquisitor
 Most people of the world are familiar with clerics; the healers and preachers who spread the word of the Gods. Most also are familiar with paladins, who uphold virtuous principles and protect the meek. Inquisitors, while undoubtedly devoted to their god, is neither of these. Inquisitors are holy hunters; they seek to strike out into the world and unleash the wrath of their god upon those who defy them.
@@ -15,8 +15,8 @@ The inquisitor is in many ways similar to the paladin, but where the paladin ser
 Each inquisitor has different goals, largely based on their god and their god's desires. An inquisitor of Pelor, for example, may seek out and destroy undead, while and inquisitor of Silvanus may hunt those who would harm or destroy nature. All inquisitors have a divine mission.
 
 
-
 ## Class Features
+
 
 As an inquisitor, you gain the following class features
 
@@ -33,19 +33,10 @@ As an inquisitor, you gain the following class features
 **Skills:**          Insight, Religion, Stealth and interrogation
 
 <!-- - **Skills:** from Arcana, Deception, Insight, Intimidation, Investigation, Perception, Religion and Stealth -->
+<div class="block classTable halfClassTable frame" markdown="1">
 
-#### Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
-- *(a)* any martial weapon or *(b)* two simple weapons
-- *(a)* a shield or *(b)* a hand crossbow and 20 bolts
-- *(a)* interrogator's tools or *(b)* thieves' tools
-- *(a)* a explorer's pack or *(b)* a priest's pack
-- a leather armor and a holy symbol
-
-{{}}">classTable,frame,decoration,wide
 ##### The Inquisitor
-| Level | Proficiency | Features | Piety | Spells | --- Spell Slots Per Spell Level ---|||||
-|      ^| Bonus      ^|         ^|      ^| Known ^| 1st |2nd |3rd |4th |5th |
+| - Level - | - PB - | - Features - | - Piety - | - Spells Known - | 1st |2nd |3rd |4th |5th |
 |:-----:|:-----------:|:---------|:-----:|:------:|:---:|:--:|:--:|:--:|:--:|
 | 1st | +2 | Fighting Style, Judgement | 4 | - | - | - | - | - | - |
 | 2nd | +2 | Divine Sense, Spellcasting | 4 | 2 | 2 | - | - | - | - |
@@ -68,6 +59,15 @@ You start with the following equipment, in addition to the equipment granted by 
 | 19th | +6 | Ability Score Improvement | 18 | 11 | 4 | 3 | 3 | 3 | 2 |
 | 20th | +6 | True Judgement | 18 | 11 | 4 | 3 | 3 | 3 | 2 |
 
+</div>
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- *(a)* any martial weapon or *(b)* two simple weapons
+- *(a)* a shield or *(b)* a hand crossbow and 20 bolts
+- *(a)* interrogator's tools or *(b)* thieves' tools
+- *(a)* a explorer's pack or *(b)* a priest's pack
+- a leather armor and a holy symbol
 
 
 
@@ -77,12 +77,14 @@ You start with the following equipment, in addition to the equipment granted by 
 
 
 ### Fighting Style
-At 1st level, you adopt a style of fighting as your specialty. Choose one of the fighting style options from the Fighter class description. In addition, the *Blessed Warrior* style is also added to your options.
+At 1st level, you adopt a style of fighting as your specialty. Choose one of the fighting style options from the <a href="fighter.html#internal-FightingStyles">Fighter class description</a>. In addition, the *Blessed Warrior* style is also added to your options.
 
-{{}}">feat
+<div class="feat">
+
 ## Blessed Warrior
 You learn two cantrips of your choice from a cleric spell list appropriate to your deity. They count as Inquisitor spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the same spell list.
 
+</div>
 
 Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
 
@@ -113,6 +115,32 @@ The presence of strong evil registers on your senses like a noxious odor, and po
 Beginning at 2nd level, you can use your ***action*** to open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.
 
 After you have used this feature, you have to complete a short rest to use it again.
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain 1 ***Piety***.
+| * Regain use of ***Divine Sense***.
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain 2 ***Piety***.
+| |
+| Add the following form specific benefits to choose from: |
+| * Regain 4 ***Piety***.
+| * Regain use of ***Beacon of Truth***.
+| * Regain use of ***True Judgement***.
+
+</div>
+</div>
+</div>
 
 ### Spellcasting
 Your years of study and communion with your deity has imbued you with a measure of divine power, allowing you to cast spells starting at 2nd level.
@@ -145,17 +173,21 @@ You can use a holy symbol as a spellcasting focus for your inquisitor spells.
 ### Divine Mission
 At 3rd level, you commit yourself to a Divine Mission. Your misson shapes the path your inquisition takes, and reflects your study and obsession with your faith.
 
- **Mission of the Cold Iron Warder**. Dedicated to eradicating demonkind and cultists of fiendish forces.
+<div class="columnsthree">
 
- **Mission of the Crusader**. Rally the common people to take up the fight.
+- **Mission of the Cold Iron Warder**. Dedicated to eradicating demonkind and cultists of fiendish forces.
 
- **Mission of the Hierophant**. Makes sure that allies in the crusade remain fit for the holy fight.
+- **Mission of the Crusader**. Rally the common people to take up the fight.
 
- **Mission of the Hunter**. Stalks their prey in the wild.
+- **Mission of the Hierophant**. Makes sure that allies in the crusade remain fit for the holy fight.
 
- **Mission of Infiltration**. Destroys heretical cults and vile organizations from the inside.
+- **Mission of the Hunter**. Stalks their prey in the wild.
 
- **Mission of the Witchhunter**. Becomes the scourge of those who use magical powers against your faith.
+- **Mission of Infiltration**. Destroys heretical cults and vile organizations from the inside.
+
+- **Mission of the Witchhunter**. Becomes the scourge of those who use magical powers against your faith.
+
+</div>
 
 Your choice grants you features at 3rd level, and again at 7th, 11th, and 18th level.
 
@@ -190,61 +222,39 @@ You can use your judgements one additional time between each rest. In addition, 
 ### True Judgement
 At 20th level, you can act as a conduit for the full power of your faith. As an ***action***, you may pass a final judgment on any creature within 30 feet. At the time of casting, choose one of the following final judgments:
 
- **Life**. The creature is forgiven, and is affected by the spell *Power Word Heal*.
+- **Life**. The creature is forgiven, and is affected by the spell *Power Word Heal*.
 
- **Death**. The creature is found irredeemable, and is affected by the spell *Power Word Kill*.
+- **Death**. The creature is found irredeemable, and is affected by the spell *Power Word Kill*.
 
- **Imprisonment**. The creature is left with only a faint glimmer of hope, and is affected by the spell *Imprisonment*.
+- **Imprisonment**. The creature is left with only a faint glimmer of hope, and is affected by the spell *Imprisonment*.
 
 A creature so judged cannot be affected by this ability again for 1 year after the time of casting. You can use this feature once and can recover the use when you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain 1 **Piety**.
-| | * Regain use of **Divine Sense**.
-
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain 2 **Piety**.
-| | |
-| Add the following form specific benefits to choose from: ||
-| | * Regain 4 **Piety**.
-| | * Regain use of **Beacon of Truth**.
-| | * Regain use of **True Judgement**.
 
 
 
 
-## Class exclusive feat
+
+
+### Class exclusive feat
 As an Inquisitor you have access to the following feat:
 
-{{}}">feat
+<div class="feat">
+
 ## Harvest Judgement
 You have mastered the art of returning the magic of your judgements.
 - Increase any one ability score by 1.
 - When you reduce a creature with an active judgement to 0 hit points with a weapon attack, you can use a ***reaction*** to regain 4 piety.
 
+</div>
 
 
 
 
 
-
-
-
-# Mission of the Cold Iron Warder
-Your devotion to your deity is matched only by your hatred for fiends. Cold iron wardens are inquisitors who dedicate their lives to eradicating demonkind and cultists of fiendish forces.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-coldIronWarder">Mission of the Cold Iron Warder</a></h1>
+<div class="featuresTable">
 
 #### Mission Features
 | Inquisitor Level | Feature |
@@ -253,6 +263,12 @@ Your devotion to your deity is matched only by your hatred for fiends. Cold iron
 | 7th | Translate Telepathy |
 | 11h | Track Teleportation |
 | 18th | Divine Protection |
+
+</div>
+
+Your devotion to your deity is matched only by your hatred for fiends. Cold iron wardens are inquisitors who dedicate their lives to eradicating demonkind and cultists of fiendish forces.
+
+
 
 
 #### Mission Spells

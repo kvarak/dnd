@@ -269,7 +269,6 @@ Members of these orders are not necessarily bound together, but some organizatio
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-knightErrant">Knight Errant</a></h1>
-
 <div class="featuresTable">
 
 #### Order Features
