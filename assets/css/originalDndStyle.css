@@ -7,14 +7,14 @@ body {
     background: transparent;  /* optional: just make scrollbar invisible */
 }
 
-a {
+/* a {
   text-decoration:none;
   color: rgb(91, 86, 86);
 }
 
 a:focus, a:hover {
   color: rgb(212, 131, 131);
-}
+} */
 
 iframe {
   border: 0;
