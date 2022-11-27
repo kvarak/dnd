@@ -5,7 +5,6 @@ layout: default
 
 <div class="toc" markdown="1">
 
-## Content
 ##### <a href="#internal-discovery">Discoveries</a>
 ##### <a>Fields of Study</a>
 <a href="#internal-apothecary">Apothecary</a><br>

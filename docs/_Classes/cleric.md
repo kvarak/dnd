@@ -5,7 +5,6 @@ layout: default
 
 <div class="toc" markdown="1">
 
-## Contents
 #### <a href="#internal-Pantheons">Pantheons</a>
 <a href="#internal-Golarion">Golarion Deities</a><br/>
 Dwarven Deities - <a href="{{ site.baseurl }}/Folk/dwarf.html#internal-religion"><i>See the Dwarven race</i></a><br/>

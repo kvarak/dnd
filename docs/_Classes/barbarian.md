@@ -6,7 +6,6 @@ layout: default
 
 <div class="toc" markdown="1">
 
-## Contents
 ##### [Primal Paths](#internal-primal-paths)
 <a href="#internal-aquaticHunter">Path of the Aquatic Hunter</a><br>
 <a href="#internal-berserker">Path of the Berserker</a><br>

@@ -5,7 +5,6 @@ layout: default
 
 <div class="toc" markdown="1">
 
-## Contents
 ##### Variant Bard
 <a href="#internal-loreseeker">Loreseeker</a>
 
