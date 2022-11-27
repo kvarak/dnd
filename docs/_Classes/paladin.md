@@ -3,7 +3,59 @@ title: Paladin
 layout: default
 ---
 
+<div class="toc">
 
+#### [The Dark Paladin](#internal-darkpaladin)
+#### [Class Features](#internal-featured)
+#### <a href="#internal-channel">Channel Divinity</a>
+#### <a href="#internal-prayer">Prayers</a>
+#### [Sacred Oaths](#internal-oaths)
+<a href="#internal-anarchy">Oath of Anarchy</a><br/>
+<a href="#internal-ancients">Oath of the Ancients</a><br/>
+<a href="#internal-balance">Oath of Balance</a><br/>
+<a href="#internal-bastion">Oath of the Bastion</a><br/>
+<a href="#internal-benevolence">Oath of Benevolence</a><br/>
+<a href="#internal-conquest">Oath of Conquest</a><br/>
+<a href="#internal-courage">Oath of Courage</a><br/>
+<a href="#internal-crown">Oath of the Crown</a><br/>
+<a href="#internal-devotion">Oath of Devotion</a><br/>
+<a href="#internal-elderSign">Oath of the Elder Sign</a><br/>
+<a href="#internal-freshness">Oath of Freshness</a><br/>
+<a href="#internal-grave">Oath of the Grave</a><br/>
+<a href="#internal-guardian">Oath of the Guardian</a><br/>
+<a href="#internal-leadership">Oath of Leadership</a><br/>
+<a href="#internal-lyan">Oath of the Lyan</a><br/>
+<a href="#internal-martyrdom">Oath of Martyrdom</a><br/>
+<a href="#internal-purge">Oath of the Purge</a><br/>
+<a href="#internal-radiance">Oath of Radiance</a><br/>
+<a href="#internal-redemption">Oath of Redemption</a><br/>
+<a href="#internal-supremacy">Oath of Supremacy</a><br/>
+<a href="#internal-tomorrow">Oath of Tomorrow</a><br/>
+<a href="#internal-tradition">Oath of Tradition</a><br/>
+<a href="#internal-vengeance">Oath of Vengeance</a><br/>
+<a href="#internal-waves">Oath of the Waves</a><br/>
+
+#### Restricted Oaths
+**Awakened**<br/>
+<a href="#internal-revenant">Oath of the Revenant</a>
+
+**Dhampir**<br/>
+<a href="#internal-blood">Oath of Blood</a>
+
+**Dwarf**<br/>
+<a href="#internal-stonelord">Stonelord</a>
+
+**Eladrin**<br/>
+<a href="#internal-festivity">Oath of Festivity</a>
+
+**Halfling**<br/>
+<a href="#internal-festivity">Oath of Festivity</a>
+
+**Kenku**<br/>
+<a href="#internal-wingSeeker">Oath of the Wing seeker</a><br/>
+
+
+</div>
 
 # Paladin
 Through a select, worthy few shines the power of the divine. Called paladins, these noble souls dedicate their swords and lives to the battle against evil. Knights, crusaders, and law-bringers, paladins seek not just to spread divine justice but to embody the teachings of the virtuous deities they serve. In pursuit of their lofty goals, they adhere to ironclad laws of morality and discipline.
@@ -19,49 +71,6 @@ It’s important to keep in mind that most paladins aren’t robots. They have d
 
 
 
-- #### [The Dark Paladin](#p3)
-- #### [Class Features](#p4)
-- #### <a href="#channel">Channel Divinity</a>
-- #### <a href="#prayer">Prayers</a>
-- #### Sacred Oaths
- - <a href="#anarchy">Oath of Anarchy</a>
- - <a href="#ancients">Oath of the Ancients</a>
- - <a href="#balance">Oath of Balance</a>
- - <a href="#bastion">Oath of the Bastion</a>
- - <a href="#benevolence">Oath of Benevolence</a>
- - <a href="#conquest">Oath of Conquest</a>
- - <a href="#courage">Oath of Courage</a>
- - <a href="#crown">Oath of the Crown</a>
- - <a href="#devotion">Oath of Devotion</a>
- - <a href="#elderSign">Oath of the Elder Sign</a>
- - <a href="#freshness">Oath of Freshness</a>
- - <a href="#grave">Oath of the Grave</a>
- - <a href="#guardian">Oath of the Guardian</a>
- - <a href="#leadership">Oath of Leadership</a>
- - <a href="#lyan">Oath of the Lyan</a>
- - <a href="#martyrdom">Oath of Martyrdom</a>
- - <a href="#purge">Oath of the Purge</a>
- - <a href="#radiance">Oath of Radiance</a>
- - <a href="#redemption">Oath of Redemption</a>
- - <a href="#supremacy">Oath of Supremacy</a>
- - <a href="#tomorrow">Oath of Tomorrow</a>
- - <a href="#tradition">Oath of Tradition</a>
- - <a href="#vengeance">Oath of Vengeance</a>
- - <a href="#waves">Oath of the Waves</a>
-
-- #### Restricted Oaths
-	-  **Awakened**
-	- - <a href="#revenant">Oath of the Revenant</a>
-	-  **Dhampir**
-	- - <a href="#blood">Oath of Blood</a>
-	-  **Dwarf**
-	- - <a href="#stonelord">Stonelord</a>
-	-  **Eladrin**
-	- - <a href="#festivity">Oath of Festivity</a>
-	-  **Halfling**
-	- - <a href="#festivity">Oath of Festivity</a>
-	-  **Kenku**
-	- - <a href="#wingSeeker">Oath of the Wing seeker</a>
 
 
 
@@ -70,9 +79,7 @@ It’s important to keep in mind that most paladins aren’t robots. They have d
 
 
 
-
-{{}}">wide
-## The Dark Paladin
+<h2><a class="internal-link" name="internal-darkpaladin">The Dark Paladin</a></h2>
 
 
 Paladins are undisputed heroes and champions of noble causes. These brave knights walk a lonely road, maligned for being “too uptight,” or “Lawful Stupid” by their less scrupulous companions. Yet despite their renowned moral code, paladins can still succumb to the darkness that tempts all living creatures.
@@ -121,7 +128,36 @@ Naive paladins are unfamiliar with the ways of the world. Their actions are well
 
 
 
-## Class Features
+<h2><a class="internal-link" name="internal-featured">Class Features</a></h2>
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Paladin
+| Level | PB | Features |
+|:-----:|:-----------------:|:---------|
+| 1st | +2 | Divine Sense, Sacred Oath,<br></brSacred>Sacred Touch
+| 2nd | +2 | Bless Ally, Fighting Style, Prayer
+| 3rd | +2 | Channel Divinity
+| 4th | +2 | Divine Health
+| 5th | +3 | Cleansing Touch, Extra Attack
+| 6th | +3 | Aura of Protection
+| 7th | +3 | Sacred Oath feature
+| 8th | +3 | Cleansing Touch Improvement
+| 9th | +4 |  Strengthening the Divine
+| 10th | +4 | Aura of Courage
+| 11th | +4 | Divine Strikes
+| 12th | +4 | Cleansing Touch Improvement
+| 13th | +5 | Strengthening the Divine
+| 14th | +5 | Aura of Conviction
+| 15th | +5 | Sacred Oath feature
+| 16th | +5 | -
+| 17th | +6 | Strengthening the Divine
+| 18th | +6 | Aura improvements
+| 19th | +6 | -
+| 20th | +6 | Sacred Oath feature
+
+</div>
+
 As a paladin, you gain the following class features.
 
 #### Hit Points
@@ -148,40 +184,32 @@ You start with the following equipment, in addition to the equipment granted by 
 - Chain mail and a holy symbol
 
 
-<div class="block classTable frame" markdown="1">
-
-##### The Paladin
-| Level | Proficiency Bonus | Features |
-|:-----:|:-----------------:|:---------|
-| 1st | +2 | Divine Sense, Sacred Oath,<br></brSacred>Sacred Touch
-| 2nd | +2 | Bless Ally, Fighting Style, Prayer
-| 3rd | +2 | Channel Divinity
-| 4th | +2 | Divine Health
-| 5th | +3 | Cleansing Touch, Extra Attack
-| 6th | +3 | Aura of Protection
-| 7th | +3 | Sacred Oath feature
-| 8th | +3 | Cleansing Touch Improvement
-| 9th | +4 |  Strengthening the Divine
-| 10th | +4 | Aura of Courage
-| 11th | +4 | Divine Strikes
-| 12th | +4 | Cleansing Touch Improvement
-| 13th | +5 | Strengthening the Divine
-| 14th | +5 | Aura of Conviction
-| 15th | +5 | Sacred Oath feature
-| 16th | +5 | -
-| 17th | +6 | Strengthening the Divine
-| 18th | +6 | Aura improvements
-| 19th | +6 | -
-| 20th | +6 | Sacred Oath feature
-
-
-
 
 
 ### Divine Sense
 The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an ***action***, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 ft, not behind total cover. You know the type (celestial, fiend, or undead) of being, but not its identity.
 
 Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the *hallow* spell.
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain ***Devotion*** equal to your proficiency bonus.
+| &nbsp; |
+| Add the following class specific benefits to choose from: |
+| * Regain ***Devotion*** equal your level.
+| * Regain all uses of ***Channel Divinity***.
+| * Regain all uses of ***Cleansing Touch***.
+
+</div>
+</div>
+</div>
 
 ### Sacred Oath
 Your oath is a sacred vow which separates you from any common knight — it is what makes you a paladin. At 1st level, choose your oath and begin living by its tenets.
@@ -207,22 +235,19 @@ Using your weapon as a focus, you raise it towards the sky as an ***action***, w
 
 A divine blessing can initially only be used on yourself, and require you to spend one or more Devotion from your pool. A blessing counts as divine magic and lasts for 1 hour unless otherwise stated, or until you lose concentration.
 
+<div class="columns">
 
+- ***Blessing of Certainty***. For ***1 minute***, when you make an attack roll or saving throw, roll a d4 and add the number rolled.
+- ***Blessing of Courage***. You are immune to being frightened.
+- ***Blessing of Defiance***. Gain advantage on a saving throw type of your choice.
+- ***Blessing of Heroism***. For ***1 minute***, at the start of each of your turns, roll a d4 for each Devotion spent and gain a number of temporary hit points equal to the total.
+- ***Blessing of Vigor***. As long as you are conscious and below half your hit point maximum, you regain a number of hit points at the start of your turn equal to the number of Devotion spent.
+- ***Divine Favor***. For ***1 minute*** your weapon attacks deal an extra d4 radiant damage on a hit.
+- ***Magic Weapon***. Your weapon becomes a +1 weapon.
+. ***Protection from Evil***. Aberrations, elementals, fey, fiends, and undead have disadvantage on attack rolls against you. In addition you can’t be charmed, frightened, or possessed by them.
+- ***Shield of Faith***. A shimmering field surrounds you, granting a +2 bonus to AC.
 
-
-
-
-
-
- ***Blessing of Certainty***. For ***1 minute***, when you make an attack roll or saving throw, roll a d4 and add the number rolled.
- ***Blessing of Courage***. You are immune to being frightened.
- ***Blessing of Defiance***. Gain advantage on a saving throw type of your choice.
- ***Blessing of Heroism***. For ***1 minute***, at the start of each of your turns, roll a d4 for each Devotion spent and gain a number of temporary hit points equal to the total.
- ***Blessing of Vigor***. As long as you are conscious and below half your hit point maximum, you regain a number of hit points at the start of your turn equal to the number of Devotion spent.
- ***Divine Favor***. For ***1 minute*** your weapon attacks deal an extra d4 radiant damage on a hit.
- ***Magic Weapon***. Your weapon becomes a +1 weapon.
- ***Protection from Evil***. Aberrations, elementals, fey, fiends, and undead have disadvantage on attack rolls against you. In addition you can’t be charmed, frightened, or possessed by them.
- ***Shield of Faith***. A shimmering field surrounds you, granting a +2 bonus to AC.
+</div>
 
 #### Lay on Hands
 As an ***action***, you can touch a creature and spend Devotion in order to heal its injuries. Roll a d8 for each Devotion you spend and restore a number of hit points to the creature equal to the total + your Charisma modifier. This ability has no effect on undead and constructs.
@@ -236,9 +261,8 @@ When you attack a creature with a melee weapon, you can spend Devotion to furthe
 
 Alternatively, when you spend Devotion to use this ability, you can forgo rolling 4 of those dice to instead attempt to **Banish** the target.
 
+<div class="feat">
 
-
-{{}}">feature
 ## Banish
 You attempt to send the target to another plane of existence. The target must succeed on a Charisma saving throw or be banished.
 
@@ -246,6 +270,7 @@ If the target is native to the plane of existence you’re on, you banish the ta
 
 If the target is native to a different plane of existence than the one you’re on, the target is banished with a faint popping noise, returning to its home plane. If you can keep concentration for 1 minute, the target doesn't return. Otherwise, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.
 
+</div>
 
 ### Bless ally
 Your divine blessings can be used to bless others. By placing your palm on a creature and uttering a short prayer as an ***action***, you can spend one or more Devotion and grant one of your blessings to it.
@@ -255,31 +280,27 @@ When doing so, you can additionally expend an equal amount of Devotion to bless 
 You are still restricted to using a maximum number of Devotion equal to your proficiency bonus at the same time.
 
 ### Fighting Style
-At 2nd level, you adopt a style of fighting as your specialty. Choose one of the fighting style options from the Fighter class description. In addition, the *Blessed Warrior* style is also added to your options.
+At 2nd level, you adopt a style of fighting as your specialty. Choose one of the <a href="fighter.html#internal-FightingStyles">fighting style options from the Fighter class description</a>. In addition, the *Blessed Warrior* style is also added to your options.
 
 Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
 
-{{}}">feature
+<div class="feat">
+
 ## Blessed Warrior
 You learn two cantrips of your choice from a cleric spell list appropriate to your oath. They count as paladin spells for you. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the same spell list.
 
-
-
-
-
-
-
+</div>
 
 
 ### Prayer
 A prayer is a way to prepare your mind against the struggles ahead. It can be a prayer to a deity that is guiding you, or a mantra you use to focus, or some other kind of ritual you perform. It takes at least 10 minutes to perform a prayer. If you want to affect another creature with your prayer, it needs to attend, but not necessarily as an active participant.
 
-The number of prayers you know are equal to your proficiency modifier, and whenever you gain a new Paladin level you can replace a prayer with a new one. All prayers are listed at the <a href="#prayer">end of the class description</a>.
+The number of prayers you know are equal to your proficiency modifier, and whenever you gain a new Paladin level you can replace a prayer with a new one. All prayers are listed at the <a href="#internal-prayer">end of the class description</a>.
 
 If a prayer requires a saving throw, use your Devotion DC.
 
 ### Channel Divinity
-Your sacred vows allow you to channel divine energy to fuel magical effects. You know **two** Channel Divinity options from the <a href="#channel">list</a> at the end of the class description, and additionally one or more determined by your oath. When you gain a new Paladin level you can replace one of your Channel Divinity options with a new one, but you cannot replace one provided by your oath.
+Your sacred vows allow you to channel divine energy to fuel magical effects. You know **two** Channel Divinity options from the <a href="#internal-channel">list</a> at the end of the class description, and additionally one or more determined by your oath. When you gain a new Paladin level you can replace one of your Channel Divinity options with a new one, but you cannot replace one provided by your oath.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all uses after a long rest.
 
@@ -290,8 +311,6 @@ If your Channel Divinity requires a saving throw, use your Devotion DC.
 ### Divine Health
 By 4th level, the divine magic flowing through you makes you immune to most mundane diseases. However, your immunity is not absolute. Your capability to withstand a disease depends on its strength.
 
-{{}}">sTable,feature
-## Magical Immunity
 | Paladin Level | Immunity |
 |:-------------:|:---------|
 | 01-05 | Diseases up to DC 15
@@ -327,15 +346,18 @@ From 9th level you gain access to additional blessings. In addition some oaths g
 
 To use one of the following blessings, you must spend at least 3 Devotion.
 
- ***Aura of Vitality***. This blessing can only be used on yourself. For ***1 minute***, healing energy radiates from you in an aura with a 30 ft radius. The aura moves with you, and you can use a ***bonus action*** to cause one creature in the aura (including you) to regain 2d6 hit points
-
- ***Crusader's Mantle***. This blessing can only be used on yourself. For ***1 minute***, holy power radiates from you in an aura with a 30 ft radius, awakening boldness in friendly creatures. The aura moves with you, and each ally in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack.
-
- ***Magic shield***. For ***1 minute***, while wielding your shield, you have some protection against spells with a spell level equal to the number of Devotion spent and lower. Against such spells you have advantage on saving throws and ranged spells that require an attack roll are made at disadvantage.
-
- ***Warrior's Blessing***. You have resistance to bludgeoning, piercing or slashing damage.
+<div class="columns">
 
 
+- ***Aura of Vitality***. This blessing can only be used on yourself. For ***1 minute***, healing energy radiates from you in an aura with a 30 ft radius. The aura moves with you, and you can use a ***bonus action*** to cause one creature in the aura (including you) to regain 2d6 hit points
+
+- ***Crusader's Mantle***. This blessing can only be used on yourself. For ***1 minute***, holy power radiates from you in an aura with a 30 ft radius, awakening boldness in friendly creatures. The aura moves with you, and each ally in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack.
+
+- ***Magic shield***. For ***1 minute***, while wielding your shield, you have some protection against spells with a spell level equal to the number of Devotion spent and lower. Against such spells you have advantage on saving throws and ranged spells that require an attack roll are made at disadvantage.
+
+- ***Warrior's Blessing***. You have resistance to bludgeoning, piercing or slashing damage.
+
+</div>
 
 
 
@@ -356,11 +378,16 @@ From 13th level you gain access to additional blessings. In addition some oaths 
 
 The following blessings can only be used on yourself, and to use them you must spend at least 4 Devotion.
 
- ***Aura of Divine Censure***. For ***1 minute*** you radiate a 30 ft radius holy aura that is anathema to undead and fiends. Any undead or fiend that enters the aura or begins its turn in the aura takes 2d6 radiant damage and must make a Charisma saving throw; if the saving throw fails, the creature must move out of the aura as soon as it can.
+<div class="columnsthree">
 
- ***Aura of Life***. Life-preserving energy radiates from you in a 30 ft radius aura. Each ally in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, an allied creature regains 1 hit point when it starts its turn in the aura with 0 hit points.
 
- ***Aura of Purity***. Purifying energy radiates from you in a 30 ft radius aura. Each ally in the aura (including you) can’t become diseased, has resistance to poison damage, and advantage on saving throws against effects that cause any of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned.
+- ***Aura of Divine Censure***. For ***1 minute*** you radiate a 30 ft radius holy aura that is anathema to undead and fiends. Any undead or fiend that enters the aura or begins its turn in the aura takes 2d6 radiant damage and must make a Charisma saving throw; if the saving throw fails, the creature must move out of the aura as soon as it can.
+
+- ***Aura of Life***. Life-preserving energy radiates from you in a 30 ft radius aura. Each ally in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, an allied creature regains 1 hit point when it starts its turn in the aura with 0 hit points.
+
+- ***Aura of Purity***. Purifying energy radiates from you in a 30 ft radius aura. Each ally in the aura (including you) can’t become diseased, has resistance to poison damage, and advantage on saving throws against effects that cause any of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned.
+
+</div>
 
 ### Aura of Conviction
 Starting at 14th level, you and friendly creatures within 10 ft can't be charmed while you are conscious. If a friendly creature is charmed when it enters your aura, the effect is suspended while it remains within the aura.
@@ -375,192 +402,175 @@ From 17th level you gain access to additional blessings. In addition some oaths 
 
 The following blessings can only be used on yourself, and to use them you must spend at least 5 Devotion.
 
- ***Circle of Power***. Divine energy radiates from you, distorting and diffusing magical energy within 30 ft. Each friendly creature in the area (including you) has advantage on saving throws against magical effects. Additionally, when an affected creature succeeds on a saving throw made against a magical effect that allows a saving throw to take only half damage, it instead takes no damage if it succeeds.
+<div class="columnstwo">
 
- ***Holy Weapon***. You imbue your weapon with holy power. It emits bright light in a 30 ft radius and dim light for an additional 30 ft. In addition, it deals an extra 2d8 radiant damage.
+- ***Circle of Power***. Divine energy radiates from you, distorting and diffusing magical energy within 30 ft. Each friendly creature in the area (including you) has advantage on saving throws against magical effects. Additionally, when an affected creature succeeds on a saving throw made against a magical effect that allows a saving throw to take only half damage, it instead takes no damage if it succeeds.
 
- As a ***bonus action***, you can dismiss the Holy weapon blessing and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 ft must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn’t blinded. At the end of each of its turns, a blinded creature can make a new saving throw, ending the effect on itself on a success.
+- ***Holy Weapon***. You imbue your weapon with holy power. It emits bright light in a 30 ft radius and dim light for an additional 30 ft. In addition, it deals an extra 2d8 radiant damage.
 
- :::::::
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
+    As a ***bonus action***, you can dismiss the Holy weapon blessing and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 ft must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn’t blinded. At the end of each of its turns, a blinded creature can make a new saving throw, ending the effect on itself on a success.
 
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain ***Devotion*** equal to your proficiency bonus.
-| | &nbsp; |
-| Add the following class specific benefits to choose from: ||
-| | * Regain ***Devotion*** equal your level.
-| | * Regain all uses of **Channel Divinity**.
-| | * Regain all uses of **Cleansing Touch**.
+</div>
 
 
 
 
 
 
+<h2><a class="internal-link" name="internal-channel">Channel Divinity options</a></h2>
 
-
-
-
-
-{{}}">wide
-## <a name="channel">Channel Divinity options</a>
-
-Your sacred vows allow you to channel divine energy to fuel magical effects. You know **two** Channel Divinity options from below, and additionally one or more determined by your oath. When you gain a new Paladin level you can replace one of your Channel Divinity options with a new one, but you cannot replace one provided by your oath.
+Your sacred vows allow you to channel divine energy to fuel magical effects. You know **two** Channel Divinity options from below, and additionally one or more determined by your oath. When you gain a new Paladin level you can replace one of your Channel Divinity options with a new one, but you cannot replace the one provided by your oath.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all uses after a long rest.
 
 **To Channel**. Unless otherwise mentioned, channeling divinity takes an ***action***, and you can affect yourself and/or creatures of your choice within 30 ft that you can see. You can always target yourself, and the maximum number of additional creatures you can target equals your proficiency bonus.
 
-#### By the Light of the Watchful Moon
-Regardless of the time of day, you command the watchful gaze of the moon to illuminate threats. Within 90 ft from you, shafts of bright moonlight shine down from the sky (or from the ceiling if you are indoors), illuminating all threats for 1 minute, whether they’re enemies seen or unseen, traps or hidden hazards.
+<div class="columnstwo">
 
-An enemy creature that makes a successful Charisma saving throw resists the effect and is not picked out by the moon’s soft glow. The glow does not make invisible creatures visible, but it does mark the invisible creature’s location. The light moves with targets while the effect lasts, but targets that move out of the original radius are no longer illuminated.
+- #### By the Light of the Watchful Moon
+    Regardless of the time of day, you command the watchful gaze of the moon to illuminate threats. Within 90 ft from you, shafts of bright moonlight shine down from the sky (or from the ceiling if you are indoors), illuminating all threats for 1 minute, whether they’re enemies seen or unseen, traps or hidden hazards.
 
-#### Compelled Duel
-As a ***bonus action***, you compel creatures into a duel. Targeted creatures must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. While affected they have disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move more than 30 feet away from you; if it succeeds on this saving throw, this prayer doesn’t restrict the target’s movement for that turn.
+    An enemy creature that makes a successful Charisma saving throw resists the effect and is not picked out by the moon’s soft glow. The glow does not make invisible creatures visible, but it does mark the invisible creature’s location. The light moves with targets while the effect lasts, but targets that move out of the original radius are no longer illuminated.
 
-The effect ends after 1 minute, if you lose concentration, if you attack a creature not affected by this prayer or if a creature friendly to you damages the target or casts a harmful spell on it.
+- #### Rally
+    You rally your allies. Each target may spend a number of Hit Dice up to your proficiency bonus, if any are available, and make one saving throw against an ongoing effect that it is suffering from.
 
-#### Rally
-You rally your allies. Each target may spend a number of Hit Dice up to your proficiency bonus, if any are available, and make one saving throw against an ongoing effect that it is suffering from.
+- #### Compelled Duel
+    As a ***bonus action***, you compel creatures into a duel. Targeted creatures must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. While affected they have disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move more than 30 feet away from you; if it succeeds on this saving throw, this prayer doesn’t restrict the target’s movement for that turn.
+
+    The effect ends after 1 minute, if you lose concentration, if you attack a creature not affected by this prayer or if a creature friendly to you damages the target or casts a harmful spell on it.
 
 
+- #### Suppress Pain
+    You dull the pain of your and your allies’ wounds and help them tolerate further punishment. Roll a number of d6s equal to your proficiency bonus. Each target creature that is not undead or construct heals that amount of hp and also gains temporary hit points equal to the roll.
 
-#### Suppress Pain
-You dull the pain of your and your allies’ wounds and help them tolerate further punishment. Roll a number of d6s equal to your proficiency bonus. Each target creature that is not undead or construct heals that amount of hp and also gains temporary hit points equal to the roll.
+</div>
 
 ### Available from level 9
 The following channel divinity options can be selected when you reach 9th level of the Paladin class.
 
-#### Dispel Magic
-For the purposes of this effect you can additionally target objects or magical effects. You end any spell of 3rd level or lower on the targets. For each spell of 4th level or higher on the target, make a Charisma ability check against a DC of 10 + the spell’s level. On a successful check, the spell ends.
+<div class="columnstwo">
 
-#### Magic Circle
-You create a 10 ft radius, 20 ft tall cylinder of magical energy centered on a target point on the ground within 30 ft, and lasts for an hour. Glowing runes appear wherever the cylinder intersects with the floor or other surface. Choose one of the following types of creatures: celestials, elementals, fey, fiends, or undead. The circle affects a creature of the chosen type in the following ways:
-- It can’t willingly enter the cylinder by nonmagical means. If it tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.
-- It has disadvantage on attack rolls against targets within the cylinder.
-- Targets within the cylinder can’t be charmed, frightened, or possessed by the creature.
+- #### Magic Circle
+    You create a 10 ft radius, 20 ft tall cylinder of magical energy centered on a target point on the ground within 30 ft, and lasts for an hour. Glowing runes appear wherever the cylinder intersects with the floor or other surface. Choose one of the following types of creatures: celestials, elementals, fey, fiends, or undead. The circle affects a creature of the chosen type in the following ways:
 
-You can elect to cause this divine circle to operate in the reverse direction, preventing a creature of the specified type from leaving the cylinder and protecting targets outside it.
+    -- It can’t willingly enter the cylinder by nonmagical means. If it tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw. <br/>
+    -- It has disadvantage on attack rolls against targets within the cylinder.<br/>
+    -- Targets within the cylinder can’t be charmed, frightened, or possessed by the creature.
 
-#### Return to Earth
-Corporeal undead targets take 5d10 force damage on a failed saving throw, or half as much on a successful one. An undead reduced to 0 hit points crumbles to dust.
+    You can elect to cause this divine circle to operate in the reverse direction, preventing a creature of the specified type from leaving the cylinder and protecting targets outside it.
+
+- #### Dispel Magic
+    For the purposes of this effect you can additionally target objects or magical effects. You end any spell of 3rd level or lower on the targets. For each spell of 4th level or higher on the target, make a Charisma ability check against a DC of 10 + the spell’s level. On a successful check, the spell ends.
+
+- #### Return to Earth
+    Corporeal undead targets take 5d10 force damage on a failed saving throw, or half as much on a successful one. An undead reduced to 0 hit points crumbles to dust.
+
+</div>
 
 ### Available from level 17
 The following channel divinity options can be selected when you reach 17th level of the Paladin class.
 
-#### Destructive Wave
-Striking the ground you create a burst of divine energy that ripples outward from you. Each creature you choose within 30 ft must succeed on a Constitution saving throw or take 5d6 thunder damage, as well as 5d6 radiant or necrotic damage (your choice), and be knocked prone. A creature that succeeds on its saving throw takes half as much damage and isn’t knocked prone.
+<div class="columnstwo">
+
+- #### Destructive Wave
+    Striking the ground you create a burst of divine energy that ripples outward from you. Each creature you choose within 30 ft must succeed on a Constitution saving throw or take 5d6 thunder damage, as well as 5d6 radiant or necrotic damage (your choice), and be knocked prone. A creature that succeeds on its saving throw takes half as much damage and isn’t knocked prone.
+
+</div>
 
 
-
-
-
-
-
-
-{{}}">wide
-## <a name="prayer">Prayers</a>
+<h2><a class="internal-link" name="internal-prayer">Prayers</a></h2>
 
 
 A prayer is a way to prepare your mind against the struggles ahead. It can be a prayer to a deity that is guiding you, or a mantra you use to focus, or some other kind of ritual you perform. It takes at least 10 minutes to perform a prayer. If you want to affect another creature with your prayer, it needs to attend, but not necessarily as an active participant.
 
 The number of prayers you know are equal to your proficiency modifier, and whenever you gain a new Paladin level you can replace a prayer with a new one.
 
-#### Blessed Watchfulness
-You or one willing creature is kept wide awake and alert for 8 hrs, allowing them to stand guard without fear of falling asleep. The creature will not suffer any exhaustion due to missed sleep. In addition, the target has advantage on Perception checks made while on guard. A creature may not be affected by this prayer another time until it has had a full night’s sleep.
+<div class="columnstwo">
 
-#### Find Steed
-You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose, such as a warhorse, a pony, a camel, an elk, or a mastiff. (Your DM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.  While your steed is within 1 mile of you, you can communicate with it telepathically.
+- #### Blessed Watchfulness
+    You or one willing creature is kept wide awake and alert for 8 hrs, allowing them to stand guard without fear of falling asleep. The creature will not suffer any exhaustion due to missed sleep. In addition, the target has advantage on Perception checks made while on guard. A creature may not be affected by this prayer another time until it has had a full night’s sleep.
 
-Your steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, any blessing that targets only you also target your steed.
+- #### Find Steed
+    You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose, such as a warhorse, a pony, a camel, an elk, or a mastiff. (Your DM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.  While your steed is within 1 mile of you, you can communicate with it telepathically.
 
-When the steed drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss your steed at any time as an action, causing it to disappear. In either case, performing this prayer again summons the same steed, restored to its hit point maximum.  You can’t have more than one steed bonded at a time.
+    Your steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, any blessing that targets only you also target your steed.
 
-#### Gentle Repose
-You pray over a corpse or other remains. For 30 days the target is protected from decay and can’t become undead. This also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this prayer do not count against the time limit of spells such as raise dead.
+    When the steed drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss your steed at any time as an action, causing it to disappear. In either case, performing this prayer again summons the same steed, restored to its hit point maximum.  You can’t have more than one steed bonded at a time.
 
+- #### Gentle Repose
+    You pray over a corpse or other remains. For 30 days the target is protected from decay and can’t become undead. This also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this prayer do not count against the time limit of spells such as raise dead.
 
+- #### Locate Object
+    During your prayer you focus on an object that is familiar to you. You sense the direction to the object’s location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement. With this prayer you can locate a specific object known to you, as long as you have seen it up close at least once, or locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.
 
-#### Locate Object
-During your prayer you focus on an object that is familiar to you. You sense the direction to the object’s location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement. With this prayer you can locate a specific object known to you, as long as you have seen it up close at least once, or locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.
+- #### Prayer of Resolve
+    Your allies are bolstered with toughness and resolve. Choose a number of creatures up to your level. Each target’s hit point maximum and current hit points increase by 5 until their next long rest.
 
-#### Prayer of Resolve
-Your allies are bolstered with toughness and resolve. Choose a number of creatures up to your level. Each target’s hit point maximum and current hit points increase by 5 until their next long rest.
+- #### Recall Death
+    You pray over a corpse that has been dead for 24 hours or less and receive a vision of the final moments of its life. During the time of your prayer, you are incapacitated because you are in a trance, seeing a vision of the last ten minutes of the corpse's life as seen by the subject itself. The vision ends with the last thing the subject saw before it died, at which time you awaken.
 
-#### Recall Death
-You pray over a corpse that has been dead for 24 hours or less and receive a vision of the final moments of its life. During the time of your prayer, you are incapacitated because you are in a trance, seeing a vision of the last ten minutes of the corpse's life as seen by the subject itself. The vision ends with the last thing the subject saw before it died, at which time you awaken.
+</div>
 
 ### Prayers available from level 9
 The following prayers can be chosen when you reach 9th level of the Paladin class.
 
-#### Daylight
-A 60 ft radius sphere of light spreads out from your position or an object you have focused on during your prayer. The sphere is bright light and sheds dim light for an additional 60 ft. The light remains until the start of your next long rest, or until you dismiss it. If any of this light’s area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled.
+<div class="columnstwo">
 
-#### Death Ward
-Your prayer grants a measure of protection from death until the start of your next long rest. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the effect ends. If the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the effect ends. A creature may not be affected by this prayer again until it has had a full night’s sleep.
+- #### Daylight
+    A 60 ft radius sphere of light spreads out from your position or an object you have focused on during your prayer. The sphere is bright light and sheds dim light for an additional 60 ft. The light remains until the start of your next long rest, or until you dismiss it. If any of this light’s area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled.
 
-#### Revivify
-You pray over a creature that has died within the last couple of minutes, anointing it with 200 gp worth of rare oils. That creature returns to life with 1 hit point. All mortal wounds are closed, but missing body parts are not restored. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the prayer automatically fails.
+- #### Death Ward
+    Your prayer grants a measure of protection from death until the start of your next long rest. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the effect ends. If the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the effect ends. A creature may not be affected by this prayer again until it has had a full night’s sleep.
 
+- #### Revivify
+    You pray over a creature that has died within the last couple of minutes, anointing it with 200 gp worth of rare oils. That creature returns to life with 1 hit point. All mortal wounds are closed, but missing body parts are not restored. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the prayer automatically fails.
 
+    The prayer does not remove magical diseases, curses, or similar effects; if these aren’t first removed, they take effect when the creature returns to life. An undead creature can not be restored to life, nor a creature that has died of old age.
 
+- #### Zone of Truth
+    Your prayer creates a magical zone that guards against deception in an immobile 15 ft radius. For 1 hour, a creature that enters the area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw.
 
+    An affected creature is aware of the effect and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.
 
-
-
-
-The prayer does not remove magical diseases, curses, or similar effects; if these aren’t first removed, they take effect when the creature returns to life. An undead creature can not be restored to life, nor a creature that has died of old age.
-
-#### Zone of Truth
-Your prayer creates a magical zone that guards against deception in an immobile 15 ft radius. For 1 hour, a creature that enters the area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw.
-
-An affected creature is aware of the effect and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.
+</div>
 
 ### Prayers available from level 13
 The following prayers can be chosen when you reach 13th level of the Paladin class.
 
-#### Find Greater Steed
-As Find Steed, but the spirit can take on additional forms: griffon, pegasus, peryton, dire wolf, rhinoceros or saber-toothed tiger.
+<div class="columnstwo">
 
-#### Locate Creature
-As Locate Object, but you can sense a creature, specific or of a certain type.
+- #### Find Greater Steed
+    As Find Steed, but the spirit can take on additional forms: griffon, pegasus, peryton, dire wolf, rhinoceros or saber-toothed tiger.
 
+- #### Locate Creature
+    As Locate Object, but you can sense a creature, specific or of a certain type.
 
+</div>
 
 ### Prayers available from level 17
 The following prayers can be chosen when you reach 17th level of the Paladin class.
 
-#### Geas
-You place a divine command on a target creature present during the prayer, forcing it to carry out some service or refrain from some action or course of activity as you decide for a period of 30 days.
+<div class="columnstwo">
 
-If the creature can understand you, it must succeed on a Wisdom saving throw or take 5d10 psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day.
+- #### Geas
+    You place a divine command on a target creature present during the prayer, forcing it to carry out some service or refrain from some action or course of activity as you decide for a period of 30 days.
 
-A creature that can't understand you is unaffected by the spell. You can issue any command you choose, short of an activity that would result in certain death.
+    If the creature can understand you, it must succeed on a Wisdom saving throw or take 5d10 psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day.
 
-#### Raise Dead
-As Revivify, but works on a creature that has been dead for up to 10 days, and the sacred oil must be made with even more expensive components, worth 500 gp. If the creature’s soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.
+    A creature that can't understand you is unaffected by the spell. You can issue any command you choose, short of an activity that would result in certain death.
 
-Coming back from the dead this way is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
+- #### Raise Dead
+    As Revivify, but works on a creature that has been dead for up to 10 days, and the sacred oil must be made with even more expensive components, worth 500 gp. If the creature’s soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.
 
+    Coming back from the dead this way is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
 
-
-
-
-
+</div>
 
 
 
-{{}}">wide
-## Sacred Oaths
+<h2><a class="internal-link" name="internal-oaths">Sacred Oaths</a></h2>
+
 
 Becoming a paladin involves taking vows that commit the paladin to a cause. The sacred oath is the culmination of all the paladin's training. For others, the actual swearing of the oath is a formality, an official stamp on what has always been true in the paladin's heart.
 
@@ -569,123 +579,149 @@ The most common oaths are for a cause of righteousness, an active path of fighti
 
 The oaths in this group all strive to become an ideal; a clarion call in the darkness and the voice of a leader in the darkest of times.
 
-**<a href="#courage">Oath of Courage</a>**.  You see it as your duty to give people around you the hope, the confidence, and the tools to fight alongside you. A beacon in the darkness capable of bolstering those who are frightened, and the voice of a leader.
+<div class="columns">
 
-**<a href="#benevolence">Oath of Benevolence</a>**.  Find comfort in hope and purpose in love, acting as friends to all living things: outcast, royal, beast, and mortal alike.
+- **<a href="#internal-courage">Oath of Courage</a>**.  You see it as your duty to give people around you the hope, the confidence, and the tools to fight alongside you. A beacon in the darkness capable of bolstering those who are frightened, and the voice of a leader.
 
-**<a href="#devotion">Oath of Devotion</a>.**  This oath binds a paladin to the highest standards of conduct, following the loftiest ideals of justice, virtue, and order. Some, for better or worse, also hold the rest of the world to the same standards.
+- **<a href="#internal-benevolence">Oath of Benevolence</a>**.  Find comfort in hope and purpose in love, acting as friends to all living things: outcast, royal, beast, and mortal alike.
 
-**<a href="#guardian">Oath of the Guardian</a>.**  You have sworn to defend of those who cannot defend themselves.
+- **<a href="#internal-devotion">Oath of Devotion</a>.**  This oath binds a paladin to the highest standards of conduct, following the loftiest ideals of justice, virtue, and order. Some, for better or worse, also hold the rest of the world to the same standards.
 
-**<a href="#leadership">Oath of Leadership</a>.**  This oath calls to paladins who seek to be the first one to raise their weapon in the face of danger and destruction.
+- **<a href="#internal-guardian">Oath of the Guardian</a>.**  You have sworn to defend of those who cannot defend themselves.
 
-**<a href="#martyrdom">Oath of Martyrdom</a>.**  The most selfless of oaths. A paladin who dedicates his life in taking the suffering from others.
+- **<a href="#internal-leadership">Oath of Leadership</a>.**  This oath calls to paladins who seek to be the first one to raise their weapon in the face of danger and destruction.
 
-**<a href="#redemption">Oath of Redemption</a>.**  These paladins believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk.
+- **<a href="#internal-martyrdom">Oath of Martyrdom</a>.**  The most selfless of oaths. A paladin who dedicates his life in taking the suffering from others.
+
+- **<a href="#internal-redemption">Oath of Redemption</a>.**  These paladins believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk.
+
+</div>
 
 ### Paladins of the Natural World
 Paladins who swear these oaths cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the natural world, not necessarily because they believe in principles of honor, courage, and justice.
 
 They focus on promoting the freedom of individuals, and encourage the chaos of the natural world.
 
-**<a href="#anarchy">Oath of Anarchy</a>.** These paladins believe in the liberty of chaos; rules and authority are dangerous things. They dislike conquest of the wilderness, preferring that people live with nature, not against it.
+<div class="columnsthree">
 
+- **<a href="#internal-anarchy">Oath of Anarchy</a>.** These paladins believe in the liberty of chaos; rules and authority are dangerous things. They dislike conquest of the wilderness, preferring that people live with nature, not against it.
 
+- **<a href="#internal-ancients">Oath of the Ancients</a>.** Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath have a close connection to the fey and nature.
 
-**<a href="#ancients">Oath of the Ancients</a>.** Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath have a close connection to the fey and nature.
+- **<a href="#internal-waves">Oath of the Waves</a>.**  Paladins who follow gods of the ocean or who are born among marine races often follow this oath.
 
-**<a href="#waves">Oath of the Waves</a>.**  Paladins who follow gods of the ocean or who are born among marine races often follow this oath.
+</div>
 
 ### Paladins of other Ideals
 Just as the more common paladins, followers of these oaths are sworn to an ideal. However, the ideals are not necessarily the pursuit of justice or the greater good.
 
-**<a href="#balance">Oath of Balance</a>.**  These paladins choose to step back from the conflict between good, evil, law, and chaos, believing alliance with any extreme only blinds one to the truths of the universe.
+<div class="columnsthree">
 
-**<a href="#freshness">Oath of Freshness</a>**.  These paladins have sworn their oaths to deities of music and beauty, emphasizing that people should be happy and not take life too seriously.
+- **<a href="#internal-balance">Oath of Balance</a>.**  These paladins choose to step back from the conflict between good, evil, law, and chaos, believing alliance with any extreme only blinds one to the truths of the universe.
 
-**<a href="#lyan">Oath of the Lyan</a>.**  Sworn to uphold lawfulness in all senses and believe in the value of deference, honor, and trustworthiness, with little interest in matters of good and evil.
+- **<a href="#internal-freshness">Oath of Freshness</a>**.  These paladins have sworn their oaths to deities of music and beauty, emphasizing that people should be happy and not take life too seriously.
 
-**<a href="#radiance">Oath of Radiance</a>.**  Paladins who focus on the concept of truth.
+- **<a href="#internal-lyan">Oath of the Lyan</a>.**  Sworn to uphold lawfulness in all senses and believe in the value of deference, honor, and trustworthiness, with little interest in matters of good and evil.
 
-**<a href="#tomorrow">Oath of Tomorrow</a>.**  Those who swear the oath of tomorrow believe in the virtue of progress and strive to push the world forward, opposing reactionaries who would stand against such.
+- **<a href="#internal-radiance">Oath of Radiance</a>.**  Paladins who focus on the concept of truth.
 
-**<a href="#tradition">Oath of Tradition</a>.**  Those who swear this oath recognize the value of history, of lore, of the past, and are protectors of traditional institutions as well as keepers of those stories that would otherwise be forgotten.
+- **<a href="#internal-tomorrow">Oath of Tomorrow</a>.**  Those who swear the oath of tomorrow believe in the virtue of progress and strive to push the world forward, opposing reactionaries who would stand against such.
+
+- **<a href="#internal-tradition">Oath of Tradition</a>.**  Those who swear this oath recognize the value of history, of lore, of the past, and are protectors of traditional institutions as well as keepers of those stories that would otherwise be forgotten.
+
+</div>
 
 ### Paladins in Service
 Most paladins serve some kind of ideal or idea, but the following serve a specific deity, organization or group.
 
-**<a href="#bastion">Oath of the Bastion</a>.**  Swearing to defend their charge at any cost, these paladins make it their duty to protect a sacred location, a holy relic, or a group of people.
+<div class="columnstwo">
 
-**<a href="#crown">Oath of the Crown</a>.**  Sworn to the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership.
+- **<a href="#internal-bastion">Oath of the Bastion</a>.**  Swearing to defend their charge at any cost, these paladins make it their duty to protect a sacred location, a holy relic, or a group of people.
+
+- **<a href="#internal-crown">Oath of the Crown</a>.**  Sworn to the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership.
+
+</div>
 
 ### Defenders Against Threat
 Some oaths have been sworn in the defense of the world against a specific threat. Such a paladin is just as much devoted to the paths of justice and the greater good, but they often see the monsters they are fighting to be the greatest threat.
 
-**<a href="#elderSign">Oath of the Elder Sign</a>.**  Sworn to defend this reality from the horrors of the Far realm.
+<div class="columnstwo">
 
-**<a href="#grave">Oath of the Grave</a>.**  A guardian of the dead, sworn to defend their right to eternal rest and to return the undead to their graves.
+- **<a href="#internal-elderSign">Oath of the Elder Sign</a>.**  Sworn to defend this reality from the horrors of the Far realm.
 
+- **<a href="#internal-grave">Oath of the Grave</a>.**  A guardian of the dead, sworn to defend their right to eternal rest and to return the undead to their graves.
 
-
-
-
-
-
+</div>
 
 ### Darker Paladins
 The paladins in this group often do not not notice when they have crossed the line, when they come to a point that common folk are more afraid of them, than the evil they are fighting. In their minds, they are still doing the right thing.
 
-**<a href="#conquest">Oath of Conquest</a>.**  These paladins who seek glory in battle and the subjugation of their enemies, seeing that as more important that why they are doing it.
+<div class="columns">
 
-**<a href="#purge">Oath of the Purge</a>.**  Dictates that impurity must be cleansed by fire and annihilated completely.
+- **<a href="#internal-conquest">Oath of Conquest</a>.**  These paladins who seek glory in battle and the subjugation of their enemies, seeing that as more important that why they are doing it.
 
-**<a href="#supremacy">Oath of Supremacy</a>.**  Paladins who proclaim the moral supremacy of any single cause, such as their faith, ideal, leader, movement, order, race, or sect.
+- **<a href="#internal-purge">Oath of the Purge</a>.**  Dictates that impurity must be cleansed by fire and annihilated completely.
 
-**<a href="#vengeance">Oath of Vengeance</a>.**  A solemn commitment to punish those who have committed a grievous sin.
+- **<a href="#internal-supremacy">Oath of Supremacy</a>.**  Paladins who proclaim the moral supremacy of any single cause, such as their faith, ideal, leader, movement, order, race, or sect.
+
+- **<a href="#internal-vengeance">Oath of Vengeance</a>.**  A solemn commitment to punish those who have committed a grievous sin.
+
+</div>
 
 ### Restricted Oaths
 Some oaths are restricted, and only available to specific folk. This can be due to physical attributes only existing in those kinds of folk, or a due to cultural differences.
 
 In the second case, the oath wold not be available if you grew up completely outside the folks'  typical culture, while a member of a completely different folk would have access to it if growing up within the culture.
 
-#### Awakened
-**<a href="#revenant">Oath of the Revenant</a>** *(Awakened only)*. This oath is one that is  not necessarily chosen voluntarily. Paladins sworn to this oath live only to complete a definite goal given to them by their creators, and once it is complete their soul can finally return to the afterlife.
+<div class="columnsthree">
+
+- #### Awakened
+    **<a href="#internal-revenant">Oath of the Revenant</a>** *(Awakened only)*. This oath is one that is  not necessarily chosen voluntarily. Paladins sworn to this oath live only to complete a definite goal given to them by their creators, and once it is complete their soul can finally return to the afterlife.
+
+- #### Dhampir
+    **<a href="#internal-blood">Oath of Blood</a>** *(Dhampir only)*. You are more Vampire than Dhampir. Rather than falling to it, you called upon the divine nature of a paladin’s oath to keep your curse at bay, and swore to use your dark nature in the service of a cause.
+
+- #### Dwarf
+    **<a href="#internal-stonelord">Stonelord</a>** *(Dwarf only)*. A stonelord is a devoted sentinel of dwarven enclaves, who has strengthened their connection to the ground, drawing power from the earth and ancient stone to protect their people.
+
+- #### Eladrin
+    **<a href="#internal-festivity">Oath of Festivity</a>**. This oath appeals to eladrin paladins with an unquenchable zest for life and the need to spread it to others. When times are darkest and gloom casts a shadow over the people, these paladins are there to bring joy back into the lives of their comrades and allies.
+
+- #### Halfling
+    **<a href="#internal-festivity">Oath of Festivity</a>**. This oath appeals to halfling paladins with an unquenchable zest for life and the need to spread it to others. When times are darkest and gloom casts a shadow over the people, these paladins are there to bring joy back into the lives of their comrades and allies.
+
+- #### Kenku
+    **<a href="#internal-wingSeeker">Oath of the Wing seeker</a>** *(Kenku only)*. This oath focuses on the quest to end the plight that has plagued their race, and these paladins will follow any god or mission if it gets them closer to unravel the mysteries of their own past and to break the curse that looms over them.
+
+</div>
 
 
 
-#### Dhampir
-**<a href="#blood">Oath of Blood</a>** *(Dhampir only)*. You are more Vampire than Dhampir. Rather than falling to it, you called upon the divine nature of a paladin’s oath to keep your curse at bay, and swore to use your dark nature in the service of a cause.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-anarchy">Oath of Anarchy</a></h1>
+<div class="featuresTable">
 
-#### Dwarf
-**<a href="#stonelord">Stonelord</a>** *(Dwarf only)*. A stonelord is a devoted sentinel of dwarven enclaves, who has strengthened their connection to the ground, drawing power from the earth and ancient stone to protect their people.
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Chaos Strike, Sacred Touch |
+| 3rd | Channel Divinity, Prayer: Primeval Speech |
+| 7th | Aura of Impunity |
+| 9th | Strengthening the Divine |
+| 15th | Strengthening the Divine |
+| 20th | Limitless Power
 
-#### Eladrin
-**<a href="#festivity">Oath of Festivity</a>**. This oath appeals to eladrin paladins with an unquenchable zest for life and the need to spread it to others. When times are darkest and gloom casts a shadow over the people, these paladins are there to bring joy back into the lives of their comrades and allies.
+</div>
 
-#### Halfling
-**<a href="#festivity">Oath of Festivity</a>**. This oath appeals to halfling paladins with an unquenchable zest for life and the need to spread it to others. When times are darkest and gloom casts a shadow over the people, these paladins are there to bring joy back into the lives of their comrades and allies.
-
-#### Kenku
-**<a href="#wingSeeker">Oath of the Wing seeker</a>** *(Kenku only)*. This oath focuses on the quest to end the plight that has plagued their race, and these paladins will follow any god or mission if it gets them closer to unravel the mysteries of their own past and to break the curse that looms over them.
-
-
-
-
-
-
-
-
-{{}}">wide
-## <a name="anarchy">Oath of Anarchy</a>
-
-
-*We need the tonic of wildness... at the same time that we are earnest to explore and learn all things, we require that all things be mysterious... that land and sea be indefinitely wild, unsurveyed and unfathomed by us because unfathomable. We can never have enough of nature.*
-
-—Henry David Thoreau, Walden
 
 Traditionally sworn to oneself, a comrade, or the wilderness itself, the Oath of Anarchy binds a paladin to protect freedom and nature against tyranny and control. These paladins believe in the liberty of chaos; rules and authority are dangerous things, nothing more than the chains that separate people from each other and bind them down against their own desires. People are best off trusted to make their own decisions and learn to peacefully coexist in freedom.
 
 In addition to promoting the freedom of individuals, bearers of this oath also encourage the chaos of the natural world. They dislike conquest of the wilderness, preferring that people live with nature, not against it. In the eyes of many of these paladins, the world was as it was meant to be when it was first made, without the changes wrought by mortal hands. Called fantra, after the Sylvan word for guardian, these paladins are keepers of chaos and defenders of disorder, sworn to uphold their values even to bloodshed.
+
+> *We need the tonic of wildness... at the same time that we are earnest to explore and learn all things, we require that all things be mysterious... that land and sea be indefinitely wild, unsurveyed and unfathomed by us because unfathomable. We can never have enough of nature.*
+>
+> —— Henry David Thoreau, Walden
+
 
 #### Tenets of Anarchy
 As advocates against formal rules, there are no uniform tenets for the paladins of Anarchy. Nevertheless, their commitment to chaos can be summarized roughly as follows.
@@ -746,15 +782,6 @@ You can not use Divine Smite. This feature is replaced by Chaos Strike.
 
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Chaos Strike, Sacred Touch |
-| 3rd | Channel Divinity, Prayer: Primeval Speech |
-| 7th | Aura of Impunity |
-| 9th | Strengthening the Divine |
-| 15th | Strengthening the Divine |
-| 20th | Limitless Power
 
 
 ### Chaos Strike
@@ -873,7 +900,7 @@ You can also move through other creatures and objects, but take 1d10 force damag
 
 
 {{}}">wide
-## <a name="ancients">Oath of the Ancients</a>
+## <a name="internal-ancients">Oath of the Ancients</a>
 
 
 The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things  - leaves, antlers or flowers - to reflect their commitment to preserving life and light in the world.
@@ -998,7 +1025,7 @@ By using your ***action*** and spending 5 Devotion, you undergo a transformation
 
 
 {{}}">wide
-## <a name="balance">Oath of Balance</a>
+## <a name="internal-balance">Oath of Balance</a>
 
 *"What is true for you, is true for you, and what is true for me, is true for me."*
 
@@ -1119,7 +1146,7 @@ You can use an ***action*** and spend 5 Devotion to enforce your will for dispas
 
 
 {{}}">wide
-## <a name="bastion">Oath of the Bastion</a>
+## <a name="internal-bastion">Oath of the Bastion</a>
 
 Swearing to defend their charge at any cost, paladins who take the Oath of the Bastion make it their duty to protect a sacred location, a holy relic, or a group of people. Some paladins spend the entirety of their lifetime defending a single charge until they grow too old to maintain their watch and must pass their position off to a squire or apprentice. Others change protectorates, and after ensuring the safety of one charge they find another. These latter paladins are sometimes known as servitor knights, continually striving to aid others in a quest and going where they are needed at that moment.
 
@@ -1221,7 +1248,7 @@ You can use an ***action*** and spend 5 Devotion to suffuse your form with divin
 
 
 {{}}">wide
-## <a name="Benevolence">Oath of Benevolence</a>
+## <a name="internal-Benevolence">Oath of Benevolence</a>
 
 
 A true Oath of Benevolence is rare in the world, for it is both the humblest and noblest of sacred vows. Sworn only by those at their lowest — whether from birth or through reversal of fortune — it is a determination by the paladin to give to others that goodness which has been refused to them. These paladins may starve nigh to death, yet give their last piece of bread to the beggar; may weep from vulgar treatment, yet give polite word and kind remark; may long for all that is lost from their life, yet give everything to soothe another in pain.
@@ -1329,7 +1356,7 @@ Alternatively, you can cast the *heroes' feast* spell once without requiring a s
 
 
 {{}}">wide
-## <a name="conquest">Oath of Conquest</a>
+## <a name="internal-conquest">Oath of Conquest</a>
 
 The Oath of Conquest calls to paladins who seek glory in battle and the subjugation of their enemies. It isn’t enough for these paladins to establish order. They must crush the forces of chaos. Sometimes called knight tyrants or iron mongers, those who swear this oath gather into grim orders that serve gods or philosophies of war and well-ordered might.
 
@@ -1439,7 +1466,7 @@ You can use an ***action*** and spend 5 Devotion to harness your extraordinary m
 
 
 {{}}">wide
-## <a name="courage">Oath of Courage</a>
+## <a name="internal-courage">Oath of Courage</a>
 
 The Oath of Courage is an oath seldom taken, for it elevates a devoted woman or man above just the station of being a paladin. They become an ideal; a clarion call in the darkness capable of bolstering those who are frightened. To swear this oath is to make yourself an enemy of all who would use terror to manipulate and harm the frightened. Just as you can sense evil and undeath, undeath and evil can sense you.
 
@@ -1527,7 +1554,7 @@ You can use an ***action*** and spend 5 Devotion to assume the form of a holy av
 
 
 {{}}">wide
-## <a name="crown">Oath of the Crown</a>
+## <a name="internal-crown">Oath of the Crown</a>
 
 The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the just laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or a sovereign, and undergo their oath as part of their admission to the order's ranks.
 
@@ -1612,7 +1639,7 @@ You can use an ***action*** and spend 5 Devotion to make your presence on the fi
 
 
 {{}}">wide
-## <a name="devotion">Oath of Devotion</a>
+## <a name="internal-devotion">Oath of Devotion</a>
 
 The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels - the perfect servants of good - as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.
 
@@ -1706,7 +1733,7 @@ You can use an ***action*** and spend 5 Devotion to emanate an aura of sunlight.
 
 
 {{}}">wide
-## <a name="elderSign">Oath of the Elder Sign</a>
+## <a name="internal-elderSign">Oath of the Elder Sign</a>
 
 Keepers encounter the Elder Sign in a multitude of ways. Some find it in the derelict pages of an antediluvian tome, yet others see its shape in their very dreams. All who gaze upon it know its authority, as instinctively as animals know to fear fire; it is an icon of power originating from beyond the veil of reality, one that no men were meant to know.
 
@@ -1832,7 +1859,7 @@ The following oath specific additions are made to the general rest rules.
 
 
 {{}}">wide
-## <a name="freshness">Oath of Freshness</a>
+## <a name="internal-freshness">Oath of Freshness</a>
 
 Being in style isn't just a fashion statement—it's a way of life! By taking on the Oath of Freshness, you have vowed to not only look your best, but to moreover always be your best. By so doing, you become a paragon of fun and laughter, the star of every show. With color and music as your primary tools and a good weapon to keep your rhythm, you're sure to light up the world around you and make it look as good as you feel inside. Smile for the crowd, superstar! The spotlight's on you!
 
@@ -1952,7 +1979,7 @@ You can use an ***action*** and spend 5 Devotion to begin singing a truly heaven
 
 
 {{}}">wide
-## <a name="grave">Oath of the Grave</a>
+## <a name="internal-grave">Oath of the Grave</a>
 
 
 Sometimes called black knights, or grave knights, these paladins serve as protectors of the sacred passings into the afterlife. They constantly struggle against the forces of undeath, as they see them as the most unholy abominations that blight this land. They adorn themselves with images of death and winter - skulls, ravens, or similar symbols of their patron gods.
@@ -2058,7 +2085,7 @@ You can use an ***action*** and spend 5 Devotion to surround yourself with a dea
 
 
 {{}}">wide
-## <a name="guardian">Oath of the Guardian</a>
+## <a name="internal-guardian">Oath of the Guardian</a>
 
 The Oath of the Guardian binds a paladin to the defense of those who cannot defend themselves. Sometimes called knight protectors, pious templar's, or divine crusaders, these paladins know that there will always be a place for them at the front lines of the battle with evil. Whether it is a small village, a singular maiden or an entire city that is threatened with destruction, they hold themselves to the expectation of protecting all who do not have the means to protect themselves.
 
@@ -2154,7 +2181,7 @@ You can use an ***action*** and spend 5 Devotion to become impenetrable bulwark 
 
 
 {{}}">wide
-## <a name="leadership">Oath of Leadership</a>
+## <a name="internal-leadership">Oath of Leadership</a>
 
 The Oath of Leadership calls to paladins who seek to be the first one to raise their weapon in the face of danger and destruction. These paladins fearlessly lead the charge into battle, even if death seems unavoidable. Those sworn to this oath aim to be a guiding beacon to those without light, and apply a strong hand to those more reluctant to follow their path.
 
@@ -2244,7 +2271,7 @@ You can use an ***action*** and spend 5 Devotion to turn into a divine symbol of
 
 
 {{}}">wide
-## <a name="lyan">Oath of the Lyan</a>
+## <a name="internal-lyan">Oath of the Lyan</a>
 
 *Rules and responsibilities: These are the ties that bind us. We do what we do, because of who we are. If we did otherwise, we would not be ourselves. I will do what I have to do. And I will do what I must.*
 
@@ -2384,7 +2411,7 @@ You can use an ***action*** and spend 5 Devotion to become an inspiring avatar o
 
 
 {{}}">wide
-## <a name="martyrdom">Oath of Martyrdom</a>
+## <a name="internal-martyrdom">Oath of Martyrdom</a>
 
 The Oath of Martyrdom is perhaps the most selfless of all oaths: to protect and serve, to the death if necessary. They are almost universally known as martyrs, though some also call them sacred defenders, hospitalers or comforters. A paladin swearing an Oath of Martyrdom is not a death-seeker; quite the contrary, it holds life at the highest value, to the extent of being willing to sacrifice something so priceless for something of even greater worth. Their adornments reflect their choice in life: red and purple colors representing blood and penitence (respectively), and sometimes the relic of another holy martyr to remind the paladin of its Oath.
 
@@ -2498,7 +2525,7 @@ The following oath specific additions are made to the general rest rules.
 
 
 {{}}">wide
-## <a name="purge">Oath of the Purge</a>
+## <a name="internal-purge">Oath of the Purge</a>
 
 The Oath of the Purge dictates that impurity be cleansed by fire. This impurity may take many forms, such as a cult to an Evil god, a plague of undeath, the invasion of a monstrous war band, or perhaps less overt threats, like a duke who refuses to bow to your glorious cause.
 
@@ -2599,7 +2626,7 @@ You can use an ***action*** and spend 5 Devotion to wreath yourself in flames. F
 
 
 {{}}">wide
-## <a name="radiance">Oath of Radiance</a>
+## <a name="internal-radiance">Oath of Radiance</a>
 
 The Oath of Radiance is as old as the sun that it follows. Often called sun warriors or shining knights, paladins that swear to this oath seek to bring light and knowledge to even the darkest areas of the world. They adorn their armor with images of the sun and the stars, holy lights that bring life and knowledge to this world, revealing all that is hidden by shadow and darkness.
 
@@ -2693,7 +2720,7 @@ You can use an ***action*** and spend 5 Devotion to assume the form of a dazzlin
 
 
 {{}}">wide
-## <a name="redemption">Oath of Redemption</a>
+## <a name="internal-redemption">Oath of Redemption</a>
 
 Paladins who dedicate themselves to this oath believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk.
 
@@ -2789,7 +2816,7 @@ If you attack a creature, target it with a spell or effect, or deal damage to it
 
 
 {{}}">wide
-## <a name="supremacy">Oath of Supremacy</a>
+## <a name="internal-supremacy">Oath of Supremacy</a>
 
 Taking the Oath of Supremacy is a declaration that your cause is the one, the true, and the only; to use the word “best” would imply a sense of competition. Paladins may proclaim the moral supremacy of any single cause, such as their faith, ideal, leader, movement, order, race, or sect. Such paladins indicate their elite status by donning the telltale emblems of their cause, be it their national colors, their order’s sigil, or their leader’s dress code. Outsiders refer to them as supremacists or gold knights, but these paladins would prefer to be greeted as brothers and sisters of the faith.
 
@@ -2880,7 +2907,7 @@ For 1 minute, you gain the following benefits:
 
 
 {{}}">wide
-## <a name="tomorrow">Oath of Tomorrow</a>
+## <a name="internal-tomorrow">Oath of Tomorrow</a>
 
 *The present is theirs. The future, for which I really worked, is mine.*
 
@@ -3016,7 +3043,7 @@ You can use an ***action*** and spend 5 Devotion to manifest your advocacy for p
 
 
 {{}}">wide
-## <a name="tradition">Oath of Tradition</a>
+## <a name="internal-tradition">Oath of Tradition</a>
 
 *"History is a people's memory, and without a memory, man is demoted to the lower animals."*
 
@@ -3163,7 +3190,7 @@ You can use an ***action*** and spend 5 Devotion to channel the legacy of histor
 
 
 {{}}">wide
-## <a name="vengeance">Oath of Vengeance</a>
+## <a name="internal-vengeance">Oath of Vengeance</a>
 
 *"I don't care what it does to me, I only care what I can do to them."*
 
@@ -3268,7 +3295,7 @@ You can use an ***action*** and spend 5 Devotion to assume the form of an angeli
 
 
 {{}}">wide
-## <a name="waves">Oath of the Waves</a>
+## <a name="internal-waves">Oath of the Waves</a>
 
 The fight against corruption and evil doesn't stop at the shoreline. Paladins who follow gods of the ocean, such as Poseidon, or who are born among marine races, often follow the Oath of the Waves.
 
@@ -3379,7 +3406,7 @@ For 1 minute, you gain the following benefits:
 
 
 {{}}">wide
-## <a name="blood">Oath of Blood</a>
+## <a name="internal-blood">Oath of Blood</a>
 
 {{}}">feature
 ## Restricted to Dhampir characters
@@ -3515,7 +3542,7 @@ You can use an ***action*** and spend 5 Devotion to undergo a transformation. Fo
 
 
 {{}}">wide
-## <a name="festivity">Oath of Festivity</a>
+## <a name="internal-festivity">Oath of Festivity</a>
 
 {{}}">feature
 ## Restricted to Eladrin or Halfling culture
@@ -3624,7 +3651,7 @@ You can use an ***action*** and spend 5 Devotion to transform into a brilliant s
 
 
 {{}}">wide
-## <a name="revenant">Oath of the Revenant</a>
+## <a name="internal-revenant">Oath of the Revenant</a>
 
 {{}}">feature
 ## Restricted to Awakened characters
@@ -3716,7 +3743,7 @@ You can use an ***action*** and spend 5 Devotion to channel the aspect of the un
 
 
 {{}}">wide
-## <a name="stonelord">Oath of the Stonelord</a>
+## <a name="internal-stonelord">Oath of the Stonelord</a>
 
 {{}}">feature
 ## Restricted to Dwarven characters
@@ -3823,7 +3850,7 @@ You can use an ***action*** and spend 5 Devotion to turn into living stone. For 
 
 
 {{}}">wide
-## <a name="wingSeeker">Oath of the Wing Seeker</a>
+## <a name="internal-wingSeeker">Oath of the Wing Seeker</a>
 
 {{}}">feature
 ## Restricted to Kenku characters

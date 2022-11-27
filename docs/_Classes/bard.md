@@ -481,7 +481,6 @@ Painters, sculptors or other similar artists.
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-beguiler">Beguiler</a></h1>
-
 <div class="featuresTable">
 
 #### College Features
