@@ -119,7 +119,6 @@ The following class specific additions are made to the general rest rules.
 | * Regain 1 ***Fury***.
 | * Reset DC of ***Relentless Rage*** by 1.
 
-
 | Long rest |
 |:-|
 | Add the following class specific benefits to choose from: |

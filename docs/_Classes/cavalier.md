@@ -5,7 +5,6 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-maneuvers">Maneuvers</a>
 #### <a href="#internal-orders">Cavalier Orders</a>
 <a href="#internal-knightErrant">Knight Errant</a><br/>
 <a href="#internal-blueRose">Order of the Blue Rose</a><br/>
@@ -15,6 +14,8 @@ layout: default
 <a href="#internal-scales">Order of the Scales</a><br/>
 <a href="#internal-shield">Order of the Shield</a><br/>
 <a href="#internal-star">Order of the Star</a><br/>
+
+#### <a href="#internal-maneuvers">Maneuvers</a>
 
 </div>
 
@@ -232,7 +233,8 @@ Your courageous words inspire valor and ferocity in your allies, allowing you to
 
 <div class="descriptive" markdown="1">
 
-##### Multiclassing
+<h4><a class="internal-link" name="#internal-multiclassing">Multiclassing</a></h4>
+
 **Prerequisites**. To qualify for multiclassing into the cavalier class, you must meet these prerequisites: Strength 13
 
 **Proficiencies**. When you multiclass into the cavalier class, you gain the following proficiencies: Light armor, medium armor, shields, simple weapons, martial weapons
