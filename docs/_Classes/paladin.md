@@ -723,6 +723,31 @@ In addition to promoting the freedom of individuals, bearers of this oath also e
 > -- Henry David Thoreau, Walden
 
 
+<div class="block classTable halfClassTable frame" markdown="1">
+
+## Paladin Feature Change
+The Oath of Anarchy is sworn by paladins dedicated to struggling in behalf of chaos against law. Such paladins may thus be disinterested with the conflicts of good and evil and even disregard them. The following features are changed when you take this oath:
+
+#### Channel Divinity
+If you select the Magic Circle Channel Option, it instead functions against constructs, devils and other lawfully aligned extraplanar creatures.
+
+#### Detect Law
+When you use your Divine Sense, you detect the presence of constructs, devils and other lawfully aligned extraplanar creatures instead of celestials, fiends and undead.
+
+#### Divine Blessings
+You do not have access to the ***Protection from Evil*** divine blessing. You can instead use:
+
+ ***Protection from Law***. Constructs, devils and other lawfully aligned extraplanar creatures have disadvantage on attack rolls against you. In addition you can’t be charmed, frightened, or possessed by them.
+
+#### Forceful Strikes
+All base paladin class features that deal radiant damage, instead deal force damage.
+
+#### Divine Smite
+You can not use Divine Smite. This feature is replaced by Chaos Strike.
+
+
+</div>
+
 #### Tenets of Anarchy
 As advocates against formal rules, there are no uniform tenets for the paladins of Anarchy. Nevertheless, their commitment to chaos can be summarized roughly as follows.
 
@@ -752,38 +777,6 @@ As part of its espousal of natural chaos, the Oath of Anarchy has no formal orde
 | 6 | A tyrant was your only witness as you swore to someday end his rule and liberate the domain.
 
 
-{{}}">feature
-## Paladin Feature Change
-The Oath of Anarchy is sworn by paladins dedicated to struggling in behalf of chaos against law. Such paladins may thus be disinterested with the conflicts of good and evil and even disregard them. The following features are changed when you take this oath:
-
-#### Channel Divinity
-If you select the Magic Circle Channel Option, it instead functions against constructs, devils and other lawfully aligned extraplanar creatures.
-
-#### Detect Law
-When you use your Divine Sense, you detect the presence of constructs, devils and other lawfully aligned extraplanar creatures instead of celestials, fiends and undead.
-
-#### Divine Blessings
-You do not have access to the ***Protection from Evil*** divine blessing. You can instead use:
-
- ***Protection from Law***. Constructs, devils and other lawfully aligned extraplanar creatures have disadvantage on attack rolls against you. In addition you can’t be charmed, frightened, or possessed by them.
-
-#### Forceful Strikes
-All base paladin class features that deal radiant damage, instead deal force damage.
-
-#### Divine Smite
-You can not use Divine Smite. This feature is replaced by Chaos Strike.
-
-
-
-
-
-
-
-
-
-
-
-
 ### Chaos Strike
 When you attack a creature with a melee weapon, you can spend Devotion to bless your strike with the powers of primordial chaos. If you miss, the Devotion is not spent. Otherwise, you deal 1d6 extra damage per Devotion spent in addition to the weapon’s damage. Constructs, devils and other lawfully aligned extraplanar creatures take an additional d6 damage.
 
@@ -802,12 +795,14 @@ Roll a d6 to determine the type of extra damage. A target that takes the damage 
 
 When you use the Divine Smite feature, you can spend one additional die from your pool to make it a Deconstructing Smite. You can spend a single die for no extra damage.
 
-{{}}">feature
+<div class="feat">
+
 ## Deconstructing Smite
 If the target is a construct, and is reduced to 50 hit points or fewer with this attack, it stops functioning, i.e. becomes stunned. If it has more than 50 hp, it avoids the effect on a successful Constitution save.
 
 It remains like this for as long as you concentrate, up to 1 minute, or until it receives damage, at which point it starts functioning again.
 
+</div>
 
 ### Naturalist
 You are well-versed with the wilds and their natural balms and remedies. You gain 3 skill points to spend on the Nature, Survival and Herbalism skills.
@@ -839,52 +834,47 @@ You and friendly creatures within 10 ft are unaffected by nonmagical difficult t
 At 18th level, the range of this aura increases to 30 ft.
 
 
-
-
-
-
-
-
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Divine Blessings
-To use this blessing, you must spend at least 3 Devotion.
+<div class="columns">
 
- ***Protection from Energy***. You have resistance to acid, cold, fire, lightning or thunder damage.
+- #### Divine Blessings
+    To use this blessing, you must spend at least 3 Devotion.
 
-#### Prayer: Commune with Nature
-Add this to your selectable prayers.
+    ***Protection from Energy***. You have resistance to acid, cold, fire, lightning or thunder damage.
 
-During your prayer, you become one with nature and gain knowledge of the surrounding territory. It does not work where nature has been replaced by construction, such as in dungeons and towns.
+- #### Prayer: Commune with Nature
+    Add this to your selectable prayers.
 
-In the outdoors, the spell gives you knowledge of the land within 3 miles. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function
-You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:
+    During your prayer, you become one with nature and gain knowledge of the surrounding territory. It does not work where nature has been replaced by construction, such as in dungeons and towns.
 
- - terrain and bodies of water.
- - prevalent plants, minerals, animals, or people.
- - powerful celestials, fey, fiends, elementals, or undead.
- - influence from other planes of existence.
- - buildings.
+    In the outdoors, the spell gives you knowledge of the land within 3 miles. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function
+    You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:<br/>
+    -- terrain and bodies of water.<br/>
+    -- prevalent plants, minerals, animals, or people.<br/>
+    -- powerful celestials, fey, fiends, elementals, or undead.<br/>
+    -- influence from other planes of existence.<br/>
+    -- buildings.
 
-For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.
+    For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.
 
-### Strengthening the Divine
-You gain access to the following.
+- ### Strengthening the Divine
+    You gain access to the following.
 
-#### Divine Blessings
-To use this blessing, you must spend at least 1 Devotion.
+- #### Divine Blessings
+    To use this blessing, you must spend at least 1 Devotion.
 
- ***Quick Footed***. This blessing can only be used on yourself. When you use your action to Dash or Disengage, you can make a single weapon attack as a ***bonus action***.
+    ***Quick Footed***. This blessing can only be used on yourself. When you use your action to Dash or Disengage, you can make a single weapon attack as a ***bonus action***.
 
+- #### Channel Divinity: Tree Strike
+    You know the following Channel Divinity option.
 
+    You ask the trees within 60 ft to aid you in battle. Each targeted tree grasp at enemy creatures within 10 ft of it with its branches, pulling and constricting that creature. The foes must succeed on a Dexterity saving throw or take 6d8 bludgeoning damage, be pulled to the tree, and become restrained.
 
-#### Channel Divinity: Tree Strike
-You know the following Channel Divinity option.
+    At the start of each of its turns, the restrained creature takes 2d8 bludgeoning damage. A restrained creature can use an action to make a Strength or Dexterity check against your Strength of Devotion DC. On a success, the creature is no longer restrained.
 
-You ask the trees within 60 ft to aid you in battle. Each targeted tree grasp at enemy creatures within 10 ft of it with its branches, pulling and constricting that creature. The foes must succeed on a Dexterity saving throw or take 6d8 bludgeoning damage, be pulled to the tree, and become restrained.
-
-At the start of each of its turns, the restrained creature takes 2d8 bludgeoning damage. A restrained creature can use an action to make a Strength or Dexterity check against your Strength of Devotion DC. On a success, the creature is no longer restrained.
+</div>
 
 ### Limitless Power
 By using your ***action*** and spending 5 Devotion, you break free of all bonds and restrictions, adopting a mantle of sovereignity. For 1 minute, you gain a flying speed of 90 ft, experience the effects of the *freedom of movement* spell, and are immune to enchantment spells you do not choose to be affected by.
