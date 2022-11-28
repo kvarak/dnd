@@ -324,9 +324,100 @@ The accumulated knowledge of simple farmers is ripe with common sense. Gain +1 W
 </details>
 
 <details>
-<summary>Mushroom Farming</summary>
+<summary>Brawler</summary>
 
-Societies living in the Underdark use mushroom farming to sustain their inhabitants, as they are able to grow underground with no access to light. You have ***Expertise*** on any checks regarding this.
+You are accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand. You are proficient with improvised weapons and can use either Dexterity or Strength for attack and damage rolls of your unarmed strikes and improvised weapons. Additionally you gain the following benefits: 
+- Your unarmed strike deals 1d4 damage and improvised weapons deal 1d6 if one-handed/thrown or 1d10 if two-handed.
+- When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a ***bonus action*** to make an additional unarmed strike.
+- Attack rolls of unarmed strikes and improvised weapons have advantage for 1 round, if the targeted creature has not been attacked by you since it last completed a long rest.
+</details>
+
+<details>
+<summary>Dual Wield</summary>
+You are a master at fighting with two weapons. Gain a +1 bonus to AC while wielding a separate melee weapon in each hand. Additionally you can draw or stow two weapons as a single item interaction.
+<details>
+<summary>Dual Wield II</summary>
+You can use two-weapon fighting even when the weapons you are wielding aren’t light.
+</details>
+</details>
+
+<details>
+<summary>Feint</summary>
+You can replace one attack with an attempt to deceive one humanoid that can see and hear you. Make a Charisma (Feint) check contested by the target’s Insight check. If you succeed, your movement doesn’t provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your next turn or until you use this ability on a different target. If your check fails, the target can’t be deceived by you in this way for 1 hour.
+</details>
+
+<details>
+<summary>Great Weapon Master</summary>
+
+You’ve learned to put the weight of a Heavy weapon to your advantage, letting its momentum empower your strikes. On your turn, when you score a critical hit or reduce a creature to 0 hit points with one, you can make one melee weapon attack with it as a ***bonus action***.
+</details>
+
+<details>
+<summary>Interceptor</summary>
+
+Interceptor is a generic term for any article of clothing which is used to deflect or intercept attacks, such as a thick wool cloak, silk scarf, war fan or umbrella. These are not weapons in the traditional sense, just durable personal effects, but can be just as effective in a duel as steel. For you, an interceptor grants +1 AC and has the Trip weapon property. In addition you can use an interceptor to catch missile weapons in flight before they strike, even against an ally. When a creature you can see attacks you or a target adjacent to you, you can use your ***reaction** to impose disadvantage on the attack roll.
+</details>
+
+<details>
+<summary>Opportunist</summary>
+
+You take advantage of every drop in any enemy’s guard. When an adjacent creature makes an attack against a target other than you (and that target doesn’t have this feat), you can use your ***reaction*** to make a melee weapon attack against the attacking creature.
+
+<details>
+<summary>Phalanx</summary>
+The training to fight and defend in a formation, in which the presence of friendly combatants on the left and right offer greater stability and defense during combat. The formation is a straight line, offering a front of defense against an enemy while advancing or fighting. This front ensures that each combatant in the line (with the exception of those upon the ends unless next to a wall) can be attacked by only one enemy per round. In a front created from the use of shields and one-handed weapons, shields provide an extra +1 AC. A formation requires that all the participants have this skill.
+
+Your training includes watching your flanks and making it harder to pass. Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach.
+</details>
+
+<details>
+<summary>Press</summary>
+
+The art of causing an adjacent enemy (of your size or smaller) to move towards an area where the combatant does not wish to be. On a successful opposed Strength (Press) check you push an enemy 5 ft backwards. You can either do this as a ***bonus action***, or instead of an attack, in which case you have ***expertise***.
+
+<details>
+<summary>Improved Press</summary>
+You can press creatures of one size larger than you.
+</details>
+</details>
+
+<details>
+<summary>Sharpshooter</summary>
+You have mastered ranged weapons and can make shots that others find impossible. Attacking at long range doesn’t impose disadvantage on your ranged weapon attack rolls. In addition they ignore half cover and three-quarters cover.
+
+<details>
+<summary>Crippling Hit</summary>
+Aiming for the legs, you can slow down your target. When you hit a creature with a ranged weapon attack, you can forgo the normal weapon damage. If you do, you deal damage equal to your ability modifier and the target must succeed with a Constitution saving throw, or their movement is reduced by half until the end of its next turn.
+</details>
+
+<details>
+<summary>Trick Shot</summary>
+
+Aiming for more vulnerable points can cause a great deal of damage. As an ***action***, make a single stylish shot with disadvantage using a ranged weapon. If the lower roll would also hit the target, you automatically score a critical hit.
+</details>
+</details>
+
+
+<details>
+<summary>War magic</summary>
+
+*Requires Arcana, Divine magic or Primal magic, and only applies to the type of magic for which you have prerequisites.*
+
+You have practiced casting spells in the midst of combat. Through rigorous discipline you have learnt techniques that grant ***expertise*** on saving throws made to maintain concentration on spell effect. If you fail such a saving throw, you may choose to gain a level of exhaustion and treat the saving throw as a success instead.
+
+<details>
+<summary>Residual Power</summary>
+You have learned to harness your offensive magics and recycle its energy for use on your weapons. When you cast a spell of 1st level or higher that does damage, the next time you hit a creature with a weapon attack within 1 minute you deal 1d6 additional damage, the type of which is the same as the spell’s.
+</details>
+
+<details>
+<summary>Spell Sniper</summary>
+You have learned techniques to enhance the precision and reach with combat spells. When you cast a spell that requires an attack roll, the spell’s range is doubled and the attacks ignore half cover and three-quarters cover.
+</details>
+
+<details>
+<summary>War Caster</summary>
+You can perform the somatic components of spells even when you have weapons or a shield in one or both hands. In addition you can cast a spell when making an opportunity attack. The spell must have a casting time of 1 action and target only that creature.
 </details>
 </details>
 
