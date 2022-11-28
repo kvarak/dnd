@@ -16,9 +16,8 @@ You will get skill points to spend on combat skills mostly from you character ch
 Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must know the skill right above it in the “skill tree”. You can save skill points, and are allowed to spend them at a later time, after finishing a long rest.
 
 ### Terms
-- **Expertise**. You have advantage on checks using this proficiency.
+- **Expertise**. You have advantage on checks using this skill.
 - **Melee**. Melee weapons are used to attack targets within 5 ft.
-- **Trait**. A trait is a binary skill; either you can do it or not. A roll is not required in most cases.
 
 ### Skill list
 <ul class="nav nav-tabs" id="skill-tabs" role="tablist">

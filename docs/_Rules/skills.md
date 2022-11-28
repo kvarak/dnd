@@ -2767,11 +2767,13 @@ The skill to correctly identify the approximate value of items according to thei
 If you start play with this skill, you have an official trade certificate allowing you to charge for your work with the craft, but not yet work as a self-employed master craftsman. This will in most human urban and rural areas allow you to live a modest lifestyle without paying the cost. Becoming a Journeyman crafter during play is a lot harder, as it requires a 7 year apprenticeship. This doesn’t have to be cumulative, so you might almost be done during your background, and finish up the last periods during downtime.
 
 As a journeyman one is expected to accomplish a three-year working trip, to train with multiple masters, which are called the journeyman years. After this trip a journeyman has to submit a masterpiece of work to a guild for evaluation. If the masterpiece is not accepted by the masters, he is not allowed to join the guild, possibly remaining a journeyman for the rest of his life.
-</details>
+
 <details>
 <summary>Master Crafter (trait)</summary>
 If you start play with this skill, you are a member of a guild and have an official master certificate. This means you have a network of contacts within the craft, as well as suppliers, buyers and in some cases, with other related crafts. In most human urban and rural areas having this skill allows you to live a comfortable lifestyle without paying the cost.
 </details>
+</details>
+
 <details>
 <summary>Trader</summary>
 

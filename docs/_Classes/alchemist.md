@@ -76,15 +76,17 @@ As a alchemist, you gain the following class features.
 
 **Saving Throws:** Constitution, Intelligence
 
-**Skills:** Check your background for skills. In addition you have proficiency with *Alchemist's supplies* and your choice of *Herbalism* and *Poisons*.
+#### Skills
+**Class Skills:** Alchemy, Ceramics, Medicine and Herbalism
+
+**Skill Points:** You gain 2 skill points at 1st level and 1 additional skill point per level
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 
 - *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
 - *(a)* an explorer's pack or *(b)* a scholar's pack
-- *(a)* poisoner's kit or *(b)* herbalism kit
-- alchemist's supplies and a component pouch
+- an alchemist's kit
 - leather armor and a dagger
 
 ### Concoctions
