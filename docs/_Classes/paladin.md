@@ -602,7 +602,7 @@ Paladins who swear these oaths cast their lot with the side of the light in the 
 
 They focus on promoting the freedom of individuals, and encourage the chaos of the natural world.
 
-<div class="columnsthree">
+<div class="columns">
 
 - **<a href="#internal-anarchy">Oath of Anarchy</a>.** These paladins believe in the liberty of chaos; rules and authority are dangerous things. They dislike conquest of the wilderness, preferring that people live with nature, not against it.
 
@@ -615,7 +615,7 @@ They focus on promoting the freedom of individuals, and encourage the chaos of t
 ### Paladins of other Ideals
 Just as the more common paladins, followers of these oaths are sworn to an ideal. However, the ideals are not necessarily the pursuit of justice or the greater good.
 
-<div class="columnsthree">
+<div class="columns">
 
 - **<a href="#internal-balance">Oath of Balance</a>.**  These paladins choose to step back from the conflict between good, evil, law, and chaos, believing alliance with any extreme only blinds one to the truths of the universe.
 
@@ -634,7 +634,7 @@ Just as the more common paladins, followers of these oaths are sworn to an ideal
 ### Paladins in Service
 Most paladins serve some kind of ideal or idea, but the following serve a specific deity, organization or group.
 
-<div class="columnstwo">
+<div class="columns">
 
 - **<a href="#internal-bastion">Oath of the Bastion</a>.**  Swearing to defend their charge at any cost, these paladins make it their duty to protect a sacred location, a holy relic, or a group of people.
 
@@ -645,7 +645,7 @@ Most paladins serve some kind of ideal or idea, but the following serve a specif
 ### Defenders Against Threat
 Some oaths have been sworn in the defense of the world against a specific threat. Such a paladin is just as much devoted to the paths of justice and the greater good, but they often see the monsters they are fighting to be the greatest threat.
 
-<div class="columnstwo">
+<div class="columns">
 
 - **<a href="#internal-elderSign">Oath of the Elder Sign</a>.**  Sworn to defend this reality from the horrors of the Far realm.
 
@@ -673,7 +673,7 @@ Some oaths are restricted, and only available to specific folk. This can be due 
 
 In the second case, the oath wold not be available if you grew up completely outside the folks'  typical culture, while a member of a completely different folk would have access to it if growing up within the culture.
 
-<div class="columnsthree">
+<div class="columns">
 
 - #### Awakened
     **<a href="#internal-revenant">Oath of the Revenant</a>** *(Awakened only)*. This oath is one that is  not necessarily chosen voluntarily. Paladins sworn to this oath live only to complete a definite goal given to them by their creators, and once it is complete their soul can finally return to the afterlife.
@@ -720,7 +720,7 @@ In addition to promoting the freedom of individuals, bearers of this oath also e
 
 > *We need the tonic of wildness... at the same time that we are earnest to explore and learn all things, we require that all things be mysterious... that land and sea be indefinitely wild, unsurveyed and unfathomed by us because unfathomable. We can never have enough of nature.*
 >
-> —— Henry David Thoreau, Walden
+> -- Henry David Thoreau, Walden
 
 
 #### Tenets of Anarchy
