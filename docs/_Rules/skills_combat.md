@@ -33,10 +33,10 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 Weapons are divided into groups with common properties. For each group you have a rank which decides what traits you have access to. You need to have at least one trait in a rank to be able to choose a trait of a higher rank. If a trait has the same name as one in the previous rank, that trait is a prerequisite.
 
 The following traits are included in all weapon groups.
-Rank 1  ***Simple Weapon Proficiency***. Includes all Simple weapons in group
-Rank 2  ***Martial Weapon Proficiency***. Includes all Martial weapons in group
-Rank 3 	***[Weapon Master***. You may reroll an attack with a weapon in this group. Use resets after a long rest.
-Rank 4 	***Weapon Master II***. The use of weapon master is reset every time you crit.
+- Rank 1  ***Simple Weapon Proficiency***. Includes all Simple weapons in group
+- Rank 2  ***Martial Weapon Proficiency***. Includes all Martial weapons in group
+- Rank 3 	***[Weapon Master***. You may reroll an attack with a weapon in this group. Use resets after a long rest.
+- Rank 4 	***Weapon Master II***. The use of weapon master is reset every time you crit.
 
 <details><summary>Axe</summary>
 
@@ -44,12 +44,12 @@ Rank 4 	***Weapon Master II***. The use of weapon master is reset every time you
 Axes are weapons that have bladed, heavy heads and deal vicious cuts. The weight of an axe makes it fine for delivering crushing blows.
 
 ##### Rank 3
-***Arcing slash***. When attacking with a two-handed axe, you may choose to target two creatures with a single attack. The targets must be within 5 ft of each other and within your reach. This attack uses the same attack roll for both targets, but using only half your proficiency bonus. On a hit you deal slashing damage equal to 1d6 plus your Strength modifier to each target.
-***Savage Critical***. When you score a critical hit, you may roll one extra damage die.
+- ***Arcing slash***. When attacking with a two-handed axe, you may choose to target two creatures with a single attack. The targets must be within 5 ft of each other and within your reach. This attack uses the same attack roll for both targets, but using only half your proficiency bonus. On a hit you deal slashing damage equal to 1d6 plus your Strength modifier to each target.
+- ***Savage Critical***. When you score a critical hit, you may roll one extra damage die.
 
 ##### Rank 4
-***Intimidating Slash***. On your turn, when you score a critical hit or reduce a creature to 0 hit points, you can use a ***reaction*** to make a Strength (Intimidation) check, contested by the Wisdom of creatures that can see and hear you within 30 ft. If you succeed, the creatures are frightened of you until the end of your next turn.
-***Momentum***. You can leverage the momentum and sweeping arc of an axe. When you miss an enemy, you may attack an adjacent enemy with the same weapon as a ***bonus action***.
+- ***Intimidating Slash***. On your turn, when you score a critical hit or reduce a creature to 0 hit points, you can use a ***reaction*** to make a Strength (Intimidation) check, contested by the Wisdom of creatures that can see and hear you within 30 ft. If you succeed, the creatures are frightened of you until the end of your next turn.
+- ***Momentum***. You can leverage the momentum and sweeping arc of an axe. When you miss an enemy, you may attack an adjacent enemy with the same weapon as a ***bonus action***.
 
 </details>
 
