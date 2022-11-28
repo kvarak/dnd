@@ -718,7 +718,7 @@ Traditionally sworn to oneself, a comrade, or the wilderness itself, the Oath of
 
 In addition to promoting the freedom of individuals, bearers of this oath also encourage the chaos of the natural world. They dislike conquest of the wilderness, preferring that people live with nature, not against it. In the eyes of many of these paladins, the world was as it was meant to be when it was first made, without the changes wrought by mortal hands. Called fantra, after the Sylvan word for guardian, these paladins are keepers of chaos and defenders of disorder, sworn to uphold their values even to bloodshed.
 
-> *We need the tonic of wildness... at the same time that we are earnest to explore and learn all things, we require that all things be mysterious... that land and sea be indefinitely wild, unsurveyed and unfathomed by us because unfathomable. We can never have enough of nature.*
+> *"We need the tonic of wildness... at the same time that we are earnest to explore and learn all things, we require that all things be mysterious... that land and sea be indefinitely wild, unsurveyed and unfathomed by us because unfathomable. We can never have enough of nature."*
 >
 > -- Henry David Thoreau, Walden
 
@@ -892,11 +892,21 @@ You can also move through other creatures and objects, but take 1d10 force damag
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-ancients">Oath of the Ancients</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Naturalist, Sacred Touch |
+| 3rd | Channel Divinity, Speak with Animals |
+| 7th | Aura of Warding |
+| 9th | Strengthening the Divine |
+| 15th | Undying Sentinel |
+| 20th | Elder Champion |
 
-{{}}">wide
-## <a name="internal-ancients">Oath of the Ancients</a>
-
+</div>
 
 The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things  - leaves, antlers or flowers - to reflect their commitment to preserving life and light in the world.
 
@@ -911,17 +921,6 @@ The tenets of the Oath of the Ancients have been preserved for uncounted centuri
 
  **Be the Light**. Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds.
 
-{{}}">sTable,
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Naturalist, Sacred Touch |
-| 3rd | Channel Divinity, Speak with Animals |
-| 7th | Aura of Warding |
-| 9th | Strengthening the Divine |
-| 15th | Undying Sentinel |
-| 20th | Elder Champion |
-
 
 ### Naturalist
 You are well-versed with the wilds and their natural balms and remedies. You gain 3 skill points to spend on the Nature, Survival and Herbalism skills.
@@ -931,7 +930,8 @@ When you spend Devotion to use Divine Smite, you can forgo rolling 1 or more of 
 
 
 
-{{}}">feature
+<div class="feat">
+
 ## Ensnaring Smite
 A writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be restrained by the magical vines for 1 minute, or until you lose concentration. A Large or larger creature has advantage on this saving throw.
 
@@ -939,25 +939,24 @@ If the target succeeds on the save, the vines deal 1d4 piercing damage for each 
 
 While restrained by the vines, the target takes 1d6 piercing damage per Devotion spent, at the start of each of its turns. A creature restrained by the vines or an adjacent creature can use its action to make a Strength check against your devotion DC. On a success, the target is freed.
 
+</div>
 
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### Nature's Wrath
-You can use your Channel Divinity to invoke primeval forces to ensnare a foe. Spectral vines spring up and reach for ***all*** creatures of your choice within range. Each creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.
+<div class="columnstwo">
 
-#### Turn the Faithless
-You can use your Channel Divinity to utter ancient words, painful for fey and fiends to hear. ***Each fey or fiend within range*** that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.
+- #### Nature's Wrath
+    You can use your Channel Divinity to invoke primeval forces to ensnare a foe. Spectral vines spring up and reach for ***all*** creatures of your choice within range. Each creature must succeed on a Strength or Dexterity saving throw (its choice) or be restrained. While restrained by the vines, the creature repeats the saving throw at the end of each of its turns. On a success, it frees itself and the vines vanish.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 ft of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+- #### Turn the Faithless
+    You can use your Channel Divinity to utter ancient words, painful for fey and fiends to hear. ***Each fey or fiend within range*** that can hear you must make a Wisdom saving throw. On a failed save, the creature is turned for 1 minute or until it takes damage.
 
-If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 ft of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
+    If the creature's true form is concealed by an illusion, shapeshifting, or other effect, that form is revealed while it is turned.
 
-
-
-
-
+</div>
 
 
 ### Speak with Animals
@@ -971,30 +970,31 @@ At 18th level, the range of this aura increases to 30 feet.
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Divine Blessings
-To use one of these blessings, you must spend at least 3 Devotion.
+<div class="columnstwo">
 
- ***Protection from Energy***. You have resistance to acid, cold, fire, lightning or thunder damage.
+- #### Divine Blessings
+    To use one of these blessings, you must spend at least 3 Devotion.
 
- ***Sentinel of Nature***. This blessing can only be used on yourself. You have resistance to bludgeoning, piercing ***and*** slashing damage.
+    ***Protection from Energy***. You have resistance to acid, cold, fire, lightning or thunder damage.
 
-#### Prayer: Commune with Nature
-You know this prayer in addition to your other prayers.
+    ***Sentinel of Nature***. This blessing can only be used on yourself. You have resistance to bludgeoning, piercing ***and*** slashing damage.
 
-During your prayer, you become one with nature and gain knowledge of the surrounding territory. It does not work where nature has been replaced by construction, such as in dungeons and towns.
+- #### Prayer: Commune with Nature
+    You know this prayer in addition to your other prayers.
 
-In the outdoors, the spell gives you knowledge of the land within 3 miles. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function
-You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:
+    During your prayer, you become one with nature and gain knowledge of the surrounding territory. It does not work where nature has been replaced by construction, such as in dungeons and towns.
 
- - terrain and bodies of water.
- - prevalent plants, minerals, animals, or people.
- - powerful celestials, fey, fiends, elementals, or undead.
- - influence from other planes of existence.
- - buildings.
+    In the outdoors, the spell gives you knowledge of the land within 3 miles. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function
+    You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:<br/>
+    -- terrain and bodies of water.<br/>
+    -- prevalent plants, minerals, animals, or people.<br/>
+    -- powerful celestials, fey, fiends, elementals, or undead.<br/>
+    -- influence from other planes of existence.<br/>
+    -- buildings.
 
-For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.
+    For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.
 
-
+</div>
 
 ### Undying Sentinel
 When you are reduced to 0 hit points and are not killed outright, you can choose to drop to 1 hit point instead. Once you use this ability, you can't use it again until you finish a long rest.
@@ -1007,30 +1007,38 @@ You can assume the form of an ancient force of nature, taking on an appearance y
 By using your ***action*** and spending 5 Devotion, you undergo a transformation. For 1 minute, you gain the following benefits:
 
  - At the start of each of your turns, you regain 10 hit points.
-
  - Your divine blessings only require a ***bonus action*** to use and cost 1 Devotion less.
-
  - Creatures have disadvantage on saving throws against your Paladin features.
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-balance">Oath of Balance</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Bonus Proficiencies, Sacred Touch|
+| 3rd | Channel Divinity |
+| 7th | Aura of Censure |
+| 9th | Strengthening the Divine
+| 15th | Without Opinion |
+| 20th | Elder Champion |
 
-
-
-{{}}">wide
-## <a name="internal-balance">Oath of Balance</a>
-
-*"What is true for you, is true for you, and what is true for me, is true for me."*
-
-—Protagoras, Ideas of the Great Philosophers
+</div>
 
 The grand struggles of cosmic forces representing good, evil, law, and chaos engulf many worlds in the multiverse. Those who take on the Oath of Balance are paladins who choose to step back from this conflict, believing alliance with any extreme only blinds one to the truths of the universe.
 
 Instead, these warriors pursue the objectivity of what they deem "ultimate truth," believing it to lie within a perfect balance of all possible beliefs, factions, and practices. Bearers of the oath are further distinguished by the way they blend divine mysticism with arcane technique, as the Oath of Balance reverences arcana as a neutral power with no regard for passion or belief.
 
 These paladins are most often called impartialists, knight-arcanists, or paramanders. Being merely mortal, such warriors cannot do literal battle with the very forces of cosmic ethics. However, it is common for such to target monsters they see as the physical incarnations of extremity. Dragons and giants especially earn their ire for how their disproportionate strength and violent tendencies can unduly impact the surrounding world.
+
+> *"What is true for you, is true for you, and what is true for me, is true for me."*
+>
+> -- Protagoras, Ideas of the Great Philosophers
+
 
 #### Tenets of balance
 The Oath of Balance is sworn by servants of arcane gods, pantheons of knowledge, or secret worldly fellowships, and often hold the following four ideals above all others:
@@ -1044,15 +1052,6 @@ The Oath of Balance is sworn by servants of arcane gods, pantheons of knowledge,
  **Guide the Lost**. Though you conquer imbalance, you sow only sectarianism if you forget to aid to those without your insight. Respect those who do not understand the virtues of balance. Your companionship will turn them to your cause.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Bonus Proficiencies, Sacred Touch|
-| 3rd | Channel Divinity |
-| 7th | Aura of Censure |
-| 9th | Strengthening the Divine
-| 15th | Without Opinion |
-| 20th | Elder Champion |
 
 
 
