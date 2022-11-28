@@ -723,30 +723,6 @@ In addition to promoting the freedom of individuals, bearers of this oath also e
 > -- Henry David Thoreau, Walden
 
 
-<div class="block classTable halfClassTable frame" markdown="1">
-
-## Paladin Feature Change
-The Oath of Anarchy is sworn by paladins dedicated to struggling in behalf of chaos against law. Such paladins may thus be disinterested with the conflicts of good and evil and even disregard them. The following features are changed when you take this oath:
-
-#### Channel Divinity
-If you select the Magic Circle Channel Option, it instead functions against constructs, devils and other lawfully aligned extraplanar creatures.
-
-#### Detect Law
-When you use your Divine Sense, you detect the presence of constructs, devils and other lawfully aligned extraplanar creatures instead of celestials, fiends and undead.
-
-#### Divine Blessings
-You do not have access to the ***Protection from Evil*** divine blessing. You can instead use:
-
- ***Protection from Law***. Constructs, devils and other lawfully aligned extraplanar creatures have disadvantage on attack rolls against you. In addition you can’t be charmed, frightened, or possessed by them.
-
-#### Forceful Strikes
-All base paladin class features that deal radiant damage, instead deal force damage.
-
-#### Divine Smite
-You can not use Divine Smite. This feature is replaced by Chaos Strike.
-
-
-</div>
 
 #### Tenets of Anarchy
 As advocates against formal rules, there are no uniform tenets for the paladins of Anarchy. Nevertheless, their commitment to chaos can be summarized roughly as follows.
@@ -776,6 +752,31 @@ As part of its espousal of natural chaos, the Oath of Anarchy has no formal orde
 | 5 | You decided that the only witness you need is yourself. Your commitment is yours alone.
 | 6 | A tyrant was your only witness as you swore to someday end his rule and liberate the domain.
 
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+### Paladin Feature Change
+The Oath of Anarchy is sworn by paladins dedicated to struggling in behalf of chaos against law. Such paladins may thus be disinterested with the conflicts of good and evil and even disregard them. The following features are changed when you take this oath:
+
+#### Channel Divinity
+If you select the Magic Circle Channel Option, it instead functions against constructs, devils and other lawfully aligned extraplanar creatures.
+
+#### Detect Law
+When you use your Divine Sense, you detect the presence of constructs, devils and other lawfully aligned extraplanar creatures instead of celestials, fiends and undead.
+
+#### Divine Blessings
+You do not have access to the ***Protection from Evil*** divine blessing. You can instead use:
+
+ ***Protection from Law***. Constructs, devils and other lawfully aligned extraplanar creatures have disadvantage on attack rolls against you. In addition you can’t be charmed, frightened, or possessed by them.
+
+#### Forceful Strikes
+All base paladin class features that deal radiant damage, instead deal force damage.
+
+#### Divine Smite
+You can not use Divine Smite. This feature is replaced by Chaos Strike.
+
+
+</div>
 
 ### Chaos Strike
 When you attack a creature with a melee weapon, you can spend Devotion to bless your strike with the powers of primordial chaos. If you miss, the Devotion is not spent. Otherwise, you deal 1d6 extra damage per Devotion spent in addition to the weapon’s damage. Constructs, devils and other lawfully aligned extraplanar creatures take an additional d6 damage.
@@ -834,10 +835,10 @@ You and friendly creatures within 10 ft are unaffected by nonmagical difficult t
 At 18th level, the range of this aura increases to 30 ft.
 
 
-### Strengthening the Divine
+### Strengthening the Divine at 9th level
 You gain access to the following.
 
-<div class="columns">
+<div class="columnstwo">
 
 - #### Divine Blessings
     To use this blessing, you must spend at least 3 Devotion.
@@ -859,8 +860,12 @@ You gain access to the following.
 
     For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.
 
-- ### Strengthening the Divine
-    You gain access to the following.
+</div>
+
+### Strengthening the Divine at 15th level
+You gain access to the following.
+
+<div class="columnstwo">
 
 - #### Divine Blessings
     To use this blessing, you must spend at least 1 Devotion.
