@@ -2749,13 +2749,14 @@ Multiple characters can help cut the time down, with each person making a check 
 
 ##### Generic crafting skills
 The following skill is not bound to a craft, instead it applies to all crafts in which you have skill.
+
 <details>
 <summary>Guild Politics</summary>
 
-##### Craft specific skills
 Knowledge of the etiquette among guilds and their associates. You have ***Expertise*** on Charisma checks when interacting with crafting professionals. This applies even to guilds where you are not a member.
 </details>
 
+##### Craft specific skills
 For each single craft, you can select the skills described below. Also note, that dwarves gain both the Journeyman crafter and Master crafter skills, as the craftsmanship of dwarves is well known. For other folk, during play, you do not have to spend points to gain the Journeyman crafter and Master crafter skills, instead you gain them as soon as you are applicable for them.
 <details>
 <summary>Appraiser (trait)</summary>
@@ -3244,18 +3245,20 @@ You have cheated death so often that even Pharasma now deems it part of your fat
 </details>
 
 <details>
-<summary>Fiery Spirit of Passion</summary>
-<div markdown="1">
+<summary>Fiery Spirit of Passion
 
 *Prerequisite: Devoted follower of Balder, Calistria, Hanali Celanil, Hathor, Sheyanna Flaxenstrand or Shelyn*
-
-Your faith blooms, giving you a fierce devotion, beauty and free spirited passion. The deity you are devoted to grants you a fiery and irrepressible strength of soul and a breath catching grace of form. Gain +1 to your Charisma. In addition You share a deep bond with your companions, driving them forward with your fiery passion and spirit. When you and at least one allied creature within 20 ft make a saving throw against the Frightened condition at the same time, they can use your saving throw instead of theirs if yours is higher. A creature can only replace their roll with yours once and must complete a long rest before they can do so again.
+</summary>
+<div markdown="1">
+Your faith blooms, giving you a fierce devotion, beauty and free spirited passion. The deity you are devoted to grants you a fiery and irrepressible strength of soul and a breath catching grace of form. Gain +1 to your Charisma. In addition you share a deep bond with your companions, driving them forward with your fiery passion and spirit. When you and at least one allied creature within 20 ft make a saving throw against the Frightened condition at the same time, they can use your saving throw instead of theirs if yours is higher. A creature can only replace their roll with yours once and must complete a long rest before they can do so again.
 
 <details>
 <summary>Fiery Soul</summary>
+
 You can draw upon your faith to unleash the magnetic fiery soul within you with the effect of the spell *enthrall*, which you can cast once between each long rest without expending a spell slot. When you cast it in this way, the spell does not require a somatic component. Charisma is your spellcasting ability for this spell.
 <details>
 <summary>Fiery Personality</summary>
+
 When you cast *enthrall* using this trait, you additionally gain the effects of the sanctuary spell and advantage on all Speechcraft and Performance checks against creatures that failed their saving throw. All effects end when the enthrall spell ends, or if you break the effects of sanctuary by making an attack or casting a spell.
 </details>
 </details>
@@ -3263,12 +3266,14 @@ When you cast *enthrall* using this trait, you additionally gain the effects of 
 </details>
 
 <details>
-<summary>Graceful Dancer</summary>
-<div markdown="1">
+<summary>Graceful Dancer
 
 *Prerequisite: Art - Dance and Devoted follower of Bes, Calistria, Corellon Larethian or Shelyn*
+</summary>
+<div markdown="1">
 
-Each step is an expression of your faith, graceful and flowing, as if about to burst into dance at any moment, your movements take on a bewildering elegance that makes others seem plodding in comparison. You gain the ability to take a Dancer’s Step as a bonus action. You can move up to 5 ft, and select one additional effect: 
+
+Each step is an expression of your faith, graceful and flowing, as if about to burst into dance at any moment, your movements take on a bewildering elegance that makes others seem plodding in comparison. You gain the ability to take a Dancer’s Step as a *bonus action*. You can move up to 5 ft, and select one additional effect: 
 - Your Dancer’s Step movement does not provoke opportunity attacks.
 - The next attack from one creature within 5 ft of where you end the Dancer’s Step against you before the start of your next turn has disadvantage.
 - You can make an attack with a light melee weapon after your Dancer’s Step movement as part of the same action.
@@ -3281,25 +3286,28 @@ You can select two effects whenever you make a Dancer’ Step.
 </details>
 
 <details>
-<summary>Selfless Martyr</summary>
-<div markdown="1">
+<summary>Selfless Martyr
 
 *Prerequisite: Devoted follower of Arawn or Torag*
+</summary>
+<div markdown="1">
 
-Your faith helps you persevere through anything, taking the suffering of others onto yourself and offering relief to those that need it most. As an action, you can touch a creature that is Blinded, Charmed, Deafened, Frightened , Paralyzed, Petrified, Poisoned or Stunned, and immediately end that condition on the target creature, but suffer that condition yourself. If that condition has a save against its ongoing effect, you can immediately make a save against the effect to end it as part of taking the condition onto yourself. Each time you take on the suffering of another creature with this trait, you gain temporary hit points equal to your proficiency bonus. You can do this a number of times equal to your proficiency bonus, and regain all uses when you complete a long rest.
+Your faith helps you persevere through anything, taking the suffering of others onto yourself and offering relief to those that need it most. As an *action*, you can touch a creature that is Blinded, Charmed, Deafened, Frightened , Paralyzed, Petrified, Poisoned or Stunned, and immediately end that condition on the target creature, but suffer that condition yourself. If that condition has a save against its ongoing effect, you can immediately make a save against the effect to end it as part of taking the condition onto yourself. Each time you take on the suffering of another creature with this trait, you gain temporary hit points equal to your proficiency bonus. You can do this a number of times equal to your proficiency bonus, and regain all uses when you complete a long rest.
 </div>
 </details>
 
 <details>
-<summary>Steadfast Traveler</summary>
-<div markdown="1">
+<summary>Steadfast Traveler
 
 *Prerequisite: Physique - Endurance and Devoted follower of Desna, Lugh or Marthammor Duin*
+</summary>
+<div markdown="1">
 
-Your faith gives a drive and curiosity that drives you to go beyond and press further. This has been noticed by your deity who has granted you the ability to cast augury without expending a spell slot as long as the question asked relates to a path, trail, or route, and only the consequences of taking it. The normal restrictions of using augury multiple times a day still applies.
+Your faith gives a drive and curiosity that drives you to go beyond and press further. This has been noticed by your deity who has granted you the ability to cast *augury* without expending a spell slot as long as the question asked relates to a path, trail, or route, and only the consequences of taking it. The normal restrictions of using augury multiple times a day still applies.
 <details>
 <summary>Freedom of Movement</summary>
-Little can stop you. As a bonus action you can gain temporary hit points equal to your proficiency bonus and be under the effect of freedom of movement until the end of your turn. Once you do this, you must complete a long rest before you use this feature again.
+
+Little can stop you. As a *bonus action* you can gain temporary hit points equal to your proficiency bonus and be under the effect of *freedom of movement* until the end of your turn. Once you do this, you must complete a long rest before you use this feature again.
 </details>
 </div>
 </details>
@@ -3310,15 +3318,21 @@ Little can stop you. As a bonus action you can gain temporary hit points equal t
 <div id="class" class="container tab-pane fade">
 
 <details>
-<summary>Evasive Flow</summary>
-<div markdown="1">
-<i>Prerequisite: Acrobatics - Tumbling and Thrown weapon</i>
+<summary>Evasive Flow
 
-When a creature uses an ability that triggers your Evasion, you can use your reaction to make an immediate ranged attack, at advantage, toward the same enemy.
+*Prerequisite: Acrobatics - Tumbling and Thrown weapon*
+</summary>
+<div markdown="1">
+
+
+When a creature uses an ability that triggers your Evasion, you can use your *reaction* to make an immediate ranged attack, at advantage, toward the same enemy.
 
 <details>
-<summary>Evasive Flow II</summary>
-<i>Prerequisite: Acrobatics - Roll with the blow II.</i>
+<summary>Evasive Flow II
+
+*Prerequisite: Acrobatics - Roll with the blow II.*
+</summary>
+
 
 If you succeed with a Roll with the Blow II check, you can as a part of the same reaction make an immediate ranged attack with advantage against the enemy that attacked you and triggered the reaction.
 </details>
@@ -3335,7 +3349,8 @@ Only available at character creation.
 <details>
 <summary>Avenger</summary>
 <div markdown="1">
-If you can’t protect your friends, you can be damn well sure you’ll avenge them. Whenever an enemy causes an ally to become blinded, frightened, incapacitated, paralyzed, restrained or to suffer a critical hit, you gain advantage on your next attack roll. In addition, whenever a creature causes an ally to drop to 0 hit points, you can use your reaction to make a melee weapon attack against that creature.
+
+If you can’t protect your friends, you can be damn well sure you’ll avenge them. Whenever an enemy causes an ally to become blinded, frightened, incapacitated, paralyzed, restrained or to suffer a critical hit, you gain advantage on your next attack roll. In addition, whenever a creature causes an ally to drop to 0 hit points, you can use your *reaction* to make a melee weapon attack against that creature.
 </div>
 </details>
 
@@ -3347,10 +3362,11 @@ You’re always quick to shy away from danger, and desperate to keep your blood 
 </details>
 
 <details>
-<summary>Feel No Pain</summary>
-<div markdown="1">
+<summary>Feel No Pain
 
 *Requires: Constitution 13 or higher, Wisdom 8 or lower*
+</summary>
+<div markdown="1">
 
 Some people wonder whether you’re really physically tough, or if you’re just too oblivious to notice you’ve been wounded. Who needs mental fortitude when you’ve got a skull thick enough to stop evil magic! You gain the following benefits:
 - You may make an unarmed strike with your head for 1d4 bludgeoning damage as a ***bonus action***. You are proficient with this attack.
@@ -3360,10 +3376,11 @@ Some people wonder whether you’re really physically tough, or if you’re just
 </details>
 
 <details>
-<summary>Lovable Klutz</summary>
-<div markdown="1">
+<summary>Lovable Klutz
 
 *Requires: Dexterity 8 or lower, Charisma 13 or higher*
+</summary>
+<div markdown="1">
 
 Though your clumsiness often interferes with routine tasks and you spend as much time on the ground as you do standing up, you always stay positive! It’s important to do your best every day! You gain the following benefits:
 - A creature that makes a melee attack against you while you are prone does not gain advantage.
