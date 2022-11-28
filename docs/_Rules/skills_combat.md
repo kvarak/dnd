@@ -314,16 +314,6 @@ You use shields not just for protection but also for offense. You gain the follo
 <div id="other" class="container tab-pane fade">
 
 <details>
-<summary>Agriculture</summary>
-<div markdown="1">
-The art of cultivating plants, from growing simple plants in a flower pot, to full scale farming. A character with this skill would know how it is done, when it can be done and what is required to successfully grow crops and other plants.
-
-<details>
-<summary>Common Sense (trait)</summary>
-The accumulated knowledge of simple farmers is ripe with common sense. Gain +1 Wisdom.
-</details>
-
-<details>
 <summary>Brawler</summary>
 
 You are accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand. You are proficient with improvised weapons and can use either Dexterity or Strength for attack and damage rolls of your unarmed strikes and improvised weapons. Additionally you gain the following benefits: 
@@ -355,13 +345,14 @@ You’ve learned to put the weight of a Heavy weapon to your advantage, letting 
 <details>
 <summary>Interceptor</summary>
 
-Interceptor is a generic term for any article of clothing which is used to deflect or intercept attacks, such as a thick wool cloak, silk scarf, war fan or umbrella. These are not weapons in the traditional sense, just durable personal effects, but can be just as effective in a duel as steel. For you, an interceptor grants +1 AC and has the Trip weapon property. In addition you can use an interceptor to catch missile weapons in flight before they strike, even against an ally. When a creature you can see attacks you or a target adjacent to you, you can use your ***reaction** to impose disadvantage on the attack roll.
+Interceptor is a generic term for any article of clothing which is used to deflect or intercept attacks, such as a thick wool cloak, silk scarf, war fan or umbrella. These are not weapons in the traditional sense, just durable personal effects, but can be just as effective in a duel as steel. For you, an interceptor grants +1 AC and has the Trip weapon property. In addition you can use an interceptor to catch missile weapons in flight before they strike, even against an ally. When a creature you can see attacks you or a target adjacent to you, you can use your ***reaction*** to impose disadvantage on the attack roll.
 </details>
 
 <details>
 <summary>Opportunist</summary>
 
 You take advantage of every drop in any enemy’s guard. When an adjacent creature makes an attack against a target other than you (and that target doesn’t have this feat), you can use your ***reaction*** to make a melee weapon attack against the attacking creature.
+</details>
 
 <details>
 <summary>Phalanx</summary>
