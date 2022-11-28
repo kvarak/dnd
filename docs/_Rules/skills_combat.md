@@ -35,12 +35,13 @@ Weapons are divided into groups with common properties. For each group you have 
 The following traits are included in all weapon groups.
 - Rank 1  ***Simple Weapon Proficiency***. Includes all Simple weapons in group
 - Rank 2  ***Martial Weapon Proficiency***. Includes all Martial weapons in group
-- Rank 3 	***[Weapon Master***. You may reroll an attack with a weapon in this group. Use resets after a long rest.
+- Rank 3 	***Weapon Master***. You may reroll an attack with a weapon in this group. Use resets after a long rest.
 - Rank 4 	***Weapon Master II***. The use of weapon master is reset every time you crit.
 
 <details><summary>Axe</summary>
 
 *Melee*
+
 Axes are weapons that have bladed, heavy heads and deal vicious cuts. The weight of an axe makes it fine for delivering crushing blows.
 
 ##### Rank 3
