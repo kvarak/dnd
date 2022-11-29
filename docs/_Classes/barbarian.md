@@ -25,13 +25,13 @@ layout: default
 
 # Barbarian
 
-> *"The rage that lies within the soul of a barbarian can take many forms. It can be summoned equally with a sense of purpose, a fire of passion, or a cold vengeance. Regardless of its source, a dreaded fate awaits any who stands in its path"*
->
-> — Garin Tristane, general
-
 Barbarians are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea. For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.
 
 The anger felt by a normal person resembles the rage of a barbarian in the same way that a gentle breeze is akin to a furious thunderstorm. The barbarian’s driving force comes from a place that transcends mere emotion, making its manifestation all the more terrible. Whether the impetus for the fury comes entirely from within or from forging a link with a spirit animal, a raging barbarian becomes able to perform supernatural feats of strength and endurance. The outburst is temporary, but while it lasts, it takes over body and mind, driving the barbarian on despite peril and injury, until the last enemy falls.
+
+> *"The rage that lies within the soul of a barbarian can take many forms. It can be summoned equally with a sense of purpose, a fire of passion, or a cold vengeance. Regardless of its source, a dreaded fate awaits any who stands in its path"*
+>
+> -- Garin Tristane, general
 
 
 ## Class Features
@@ -46,9 +46,9 @@ As a barbarian, you gain the following class features.
 
 ##### The Barbarian
 
-| - Level - | - PB - | - Features - | - Fury - | - Rage Damage - |
+| -Level- | -PB- | -Features- | -Fury- | -Rage Damage- |
 |:---:|:---:|:---|:---:|:---:|
-| 1st | +2 | Primal Path, Rage, Unarmored Defense | 20 | +2 |
+| 1st | +2 | Primal Path, Rage,<br/>Unarmored Defense | 20 | +2 |
 | 2nd | +2 | Combat Style, Survivor | 20 | +2 |
 | 3rd | +2 | Path feature | 30 | +2 |
 | 4th | +2 | Ability Score Improvement | 30 | +2 |

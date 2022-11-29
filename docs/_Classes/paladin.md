@@ -36,24 +36,20 @@ layout: default
 <a href="#internal-waves">Oath of the Waves</a><br/>
 
 #### Restricted Oaths
-**Awakened**<br/>
-<a href="#internal-revenant">Oath of the Revenant</a>
-
 **Dhampir**<br/>
 <a href="#internal-blood">Oath of Blood</a>
 
-**Dwarf**<br/>
-<a href="#internal-stonelord">Stonelord</a>
-
-**Eladrin**<br/>
+**Eladrin and Halfling**<br/>
 <a href="#internal-festivity">Oath of Festivity</a>
 
-**Halfling**<br/>
-<a href="#internal-festivity">Oath of Festivity</a>
+**Awakened**<br/>
+<a href="#internal-revenant">Oath of the Revenant</a>
 
 **Kenku**<br/>
 <a href="#internal-wingSeeker">Oath of the Wing seeker</a><br/>
 
+**Dwarf**<br/>
+<a href="#internal-stonelord">Stonelord</a>
 
 </div>
 
@@ -133,7 +129,7 @@ Naive paladins are unfamiliar with the ways of the world. Their actions are well
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Paladin
-| Level | PB | Features |
+| -Level- | -PB- | -Features- |
 |:-----:|:-----------------:|:---------|
 | 1st | +2 | Divine Sense, Sacred Oath,<br></brSacred>Sacred Touch
 | 2nd | +2 | Bless Ally, Fighting Style, Prayer
@@ -753,7 +749,7 @@ As part of its espousal of natural chaos, the Oath of Anarchy has no formal orde
 | 6 | A tyrant was your only witness as you swore to someday end his rule and liberate the domain.
 
 
-<div class="block classTable halfClassTable frame" markdown="1">
+<div class="block classTable frame" markdown="1">
 
 ### Paladin Feature Change
 The Oath of Anarchy is sworn by paladins dedicated to struggling in behalf of chaos against law. Such paladins may thus be disinterested with the conflicts of good and evil and even disregard them. The following features are changed when you take this oath:
@@ -794,6 +790,7 @@ Roll a d6 to determine the type of extra damage. A target that takes the damage 
 | 6 | Thunder | The target is knocked prone and 15 feet directly away from you.
 
 
+### Sacred Touch
 When you use the Divine Smite feature, you can spend one additional die from your pool to make it a Deconstructing Smite. You can spend a single die for no extra damage.
 
 <div class="feat">
@@ -805,16 +802,16 @@ It remains like this for as long as you concentrate, up to 1 minute, or until it
 
 </div>
 
-### Naturalist
-You are well-versed with the wilds and their natural balms and remedies. You gain 3 skill points to spend on the Nature, Survival and Herbalism skills.
-
-
 
 ### Channel Divinity
 You know the following Channel Divinity option.
 
-#### Endure Elements
-For 8 hours your targets are less affected by extreme cold or heat. The desert sun would seem merely warm to a creature protected from this spell, while freezing temperatures would seem as merely cool.
+<div class="columnstwo">
+
+- #### Endure Elements
+    For 8 hours your targets are less affected by extreme cold or heat. The desert sun would seem merely warm to a creature protected from this spell, while freezing temperatures would seem as merely cool.
+
+</div>
 
 ### Prayer: Primeval Speech
 Add this to your selectable prayers.
@@ -1054,10 +1051,9 @@ The Oath of Balance is sworn by servants of arcane gods, pantheons of knowledge,
 
 
 
+<div class="block classTable frame" markdown="1">
 
-
-{{}}">feature
-## Paladin Feature Change
+### Paladin Feature Change
 Paladins of Balance are often opposed to both sides in the conflict of good and evil. The following features are changed when you take this oath:
 
 #### Detect Intrusion
@@ -1072,6 +1068,7 @@ All base paladin class features that deal radiant damage, instead deal force dam
 #### Strike Inbalance
 When you use your Divine Smite, you inflict an extra 1d8 damage against celestials in addition to fiends and undead.
 
+</div>
 
 ### Bonus Proficiencies
 When you take this oath, you gain the Cosmology skill, as well 2 additional skill points to spend on the Arcana and Cosmology skills.
@@ -1082,22 +1079,20 @@ You can use Banish with Divine Smite by spending only 1 Devotion. Used this way 
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### As Above
-As a ***bonus action***, you can use your Channel Divinity feature to call down cosmic fire from the higher planes to burn your enemies. Target creatures must make a Charisma saving throw or take radiant damage equal to 10 + your paladin level, and become immersed in an ethereal light preventing them from taking the Hide action or being invisible for 1 minute.
+<div class="columnstwo">
 
-#### So Below
-You can use your Channel Divinity feature to summon the corrupted vigor of the lower planes to lend power to your voice. ***Each fey, celestial, and aberration*** within 30 ft must make a Wisdom saving throw or be turned for 1 minute.
+- #### As Above
+    As a ***bonus action***, you can use your Channel Divinity feature to call down cosmic fire from the higher planes to burn your enemies. Target creatures must make a Charisma saving throw or take radiant damage equal to 10 + your paladin level, and become immersed in an ethereal light preventing them from taking the Hide action or being invisible for 1 minute.
 
+- #### So Below
+    You can use your Channel Divinity feature to summon the corrupted vigor of the lower planes to lend power to your voice. ***Each fey, celestial, and aberration*** within 30 ft must make a Wisdom saving throw or be turned for 1 minute.
 
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 ft of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
+    If the creature’s true form is concealed by an illusion, shapeshift or similar, that form is revealed while turned.
 
+</div>
 
-
-
-
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 ft of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
-
-If the creature’s true form is concealed by an illusion, shapeshift or similar, that form is revealed while turned.
 
 ### Aura of Censure
 The powers of the servants of otherworldly entities wither before your impartial gaze. Spell attacks targeting allied creatures within 10 ft of you are made with disadvantage.
@@ -1107,16 +1102,17 @@ At 18th level, the range of this aura increases to 30 ft.
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Divine Blessing
-To use this blessing, you must spend at least 3 Devotion.
+<div class="columnstwo">
 
- ***Protection from the Extreme***. This blessing can only be used on yourself. Shimmering energy surrounds and protects you from fey and other creatures originating from beyond the Material Plane. For ***1 minute*** they have disadvantage on attack rolls against you.
+- #### Divine Blessing
+    To use this blessing, you must spend at least 3 Devotion.
 
-#### Channel Divinity: Magic Circle
-You learn Magic Circle in addition to your other Channel Divinity options. You can use it once per day without spending a daily use of Channel Divinity.
+    ***Protection from the Extreme***. This blessing can only be used on yourself. Shimmering energy surrounds and protects you from fey and other creatures originating from beyond the Material Plane. For ***1 minute*** they have disadvantage on attack rolls against you.
 
+- #### Channel Divinity: Magic Circle
+    You learn Magic Circle in addition to your other Channel Divinity options. You can use it once per day without spending a daily use of Channel Divinity.
 
-
+</div>
 
 ### Without Opinion
 Your mind becomes further removed from the world and its quarrels, and your ambivalence is inscrutable. You are immune to any effect that would sense your emotions or read your thoughts, as well as any divination spell that you refuse. Checks to ascertain your intentions or sincerity are made at disadvantage.
@@ -1126,21 +1122,27 @@ You also gain proficiency with Intelligence saving throws, and your alignment ca
 ### Impose Compromise
 You can use an ***action*** and spend 5 Devotion to enforce your will for dispassionate balance upon the rest of the world. For 1 minute, you gain the following benefits:
 
- - If a creature would make an ability check, attack roll, or saving throw against you at advantage, it instead makes the roll normally.
-
- - If you would make an ability check, attack roll, or saving throw disadvantage, you instead make the roll normally.
-
- - You gain the benefits of the *true seeing* spell.
+- If a creature would make an ability check, attack roll, or saving throw against you at advantage, it instead makes the roll normally.
+- If you would make an ability check, attack roll, or saving throw disadvantage, you instead make the roll normally.
+- You gain the benefits of the *true seeing* spell.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-bastion">Oath of the Bastion</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Perceptive, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Beacon of Hope |
+| 15th | Everlasting Sentinel |
+| 17th | Strengthening the Divine |
+| 20th | Bulwark of Faith |
 
-
-
-
-{{}}">wide
-## <a name="internal-bastion">Oath of the Bastion</a>
+</div>
 
 Swearing to defend their charge at any cost, paladins who take the Oath of the Bastion make it their duty to protect a sacred location, a holy relic, or a group of people. Some paladins spend the entirety of their lifetime defending a single charge until they grow too old to maintain their watch and must pass their position off to a squire or apprentice. Others change protectorates, and after ensuring the safety of one charge they find another. These latter paladins are sometimes known as servitor knights, continually striving to aid others in a quest and going where they are needed at that moment.
 
@@ -1158,16 +1160,6 @@ Each paladin has their own tenets of the Oath of the Bastion, usually passed dow
  **Be the Wall**. Help others and protect them from harm, especially those unable to protect themselves.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Perceptive, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Beacon of Hope |
-| 15th | Everlasting Sentinel |
-| 17th | Strengthening the Divine |
-| 20th | Bulwark of Faith |
-
 
 ### Perceptive
 When you take this oath at 1st level, you are always alert and on the lookout for danger in your surroundings as well as sinister motives in people you meet. You gain proficiency with Perception and Insight.
@@ -1179,22 +1171,30 @@ You can spend 1 Devotion as a ***reaction*** when taking damage, to reduce damag
 
 In addition you gain access to the following divine blessing, which you can only use on yourself:
 
- ***Sacred Armor***. You focus divine power into your shield or your armor. For ***1 minute*** you add half your Charisma modifier (round up) to your AC and are immune to critical hits. Your armor or shield also emits bright light in a 20 ft radius and dim light for 20 ft beyond that. You can end this effect on your turn as part of any other action. If you fall unconscious, or are no longer wearing this armor or holding the shield this effect ends.
+<div class="columnstwo">
+
+- ***Sacred Armor***. You focus divine power into your shield or your armor. For ***1 minute*** you add half your Charisma modifier (round up) to your AC and are immune to critical hits. Your armor or shield also emits bright light in a 20 ft radius and dim light for 20 ft beyond that. You can end this effect on your turn as part of any other action. If you fall unconscious, or are no longer wearing this armor or holding the shield this effect ends.
+
+</div>
 
 ### Channel Divinity
 If you know Compelled Duel, then whenever you use it, you can simultaneously use a blessing on yourself as if you had spent 1 Devotion.
 
 In addition you learn the following Channel Divinity options.
 
-#### Divine Might
-With a quick prayer, you augment the skills and strength of your targets. Each target gains a Divine Might die. This die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
+<div class="columnstwo">
 
-This can be made after making the roll but before the results are revealed. If the bonus is not used before 1 minute has passed, a target instead heals 1d8 hp.
+- #### Divine Might
+    With a quick prayer, you augment the skills and strength of your targets. Each target gains a Divine Might die. This die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
 
-#### Sacred Ward
-Targets are warded against attack. For 1 minute, any creature who targets a warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from area effects, such as the explosion of a fireball.
+    This can be made after making the roll but before the results are revealed. If the bonus is not used before 1 minute has passed, a target instead heals 1d8 hp.
 
-If the warded creature makes an attack or casts a spell that affects an enemy creature, this effect ends.
+- #### Sacred Ward
+    Targets are warded against attack. For 1 minute, any creature who targets a warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from area effects, such as the explosion of a fireball.
+
+    If the warded creature makes an attack or casts a spell that affects an enemy creature, this effect ends.
+
+</div>
 
 ### Beacon of Hope
 Creatures within your Aura of Protection have advantage on death saving throws and on rolls made to regain hit points.
@@ -1214,35 +1214,45 @@ In addition, you age at a slower rate. Your body ages only a single year for eve
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Cleansing Touch
-Your Cleansing Touch feature can now be used to reduce a target’s exhaustion level by one, or end one of the following effects on the target:
-- One effect that charmed or petrified the target.
-- Any reduction to one of the target’s ability scores.
-- One effect reducing the target’s hit point maximum.
+<div class="columnstwo">
 
-#### Wall of Force
-You can use 5 Devotion to cast the *wall of force* spell.
+- #### Cleansing Touch
+    Your Cleansing Touch feature can now be used to reduce a target’s exhaustion level by one, or end one of the following effects on the target:<br/>
+    -- One effect that charmed or petrified the target.<br/>
+    -- Any reduction to one of the target’s ability scores.<br/>
+    -- One effect reducing the target’s hit point maximum.
 
+- #### Wall of Force
+    You can use 5 Devotion to cast the *wall of force* spell.
 
+</div>
 
 ### Bulwark of Faith
 You can use an ***action*** and spend 5 Devotion to suffuse your form with divine energy, making your flesh as hardy as stone and your bones are unyielding as iron. For 10 minutes, you gain the following benefits:
 
- - You have resistance to all damage except psychic damage
-
- - You cannot be moved by other creatures unless you choose to be moved.
-
- - You automatically succeed on saving throws to maintain your concentration on paladin effects provided the DC is 19 or less.
+- You have resistance to all damage except psychic damage
+- You cannot be moved by other creatures unless you choose to be moved.
+- You automatically succeed on saving throws to maintain your concentration on paladin effects provided the DC is 19 or less.
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-Benevolence">Oath of Benevolence</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Kind Demeanor, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Aura of Benevolence |
+| 9th | Strengthening the Divine |
+| 15th | Tireless Spirit |
+| 20th | Inner Majesty
 
-
-{{}}">wide
-## <a name="internal-Benevolence">Oath of Benevolence</a>
+</div>
 
 
 A true Oath of Benevolence is rare in the world, for it is both the humblest and noblest of sacred vows. Sworn only by those at their lowest — whether from birth or through reversal of fortune — it is a determination by the paladin to give to others that goodness which has been refused to them. These paladins may starve nigh to death, yet give their last piece of bread to the beggar; may weep from vulgar treatment, yet give polite word and kind remark; may long for all that is lost from their life, yet give everything to soothe another in pain.
@@ -1261,18 +1271,6 @@ To swear the Oath of Benevolence, a paladin consciously chooses to follow its te
  **Hope**. The worst never really comes. Even if it does, believe and persevere. This shall pass, and you shall live.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Kind Demeanor, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Aura of Benevolence |
-| 9th | Strengthening the Divine |
-| 15th | Tireless Spirit |
-| 20th | Inner Majesty
-
-
-
 
 ### Kind Demeanor
 You are a beacon of inspiration to those around you. You have proficiency on Charisma checks made while talking to non-evil humanoids, as long as you follow your tenets.
@@ -1280,23 +1278,29 @@ You are a beacon of inspiration to those around you. You have proficiency on Cha
 ### Sacred Touch
 Whenever you use you Lay on Hands to heal another creature that is below half its maximum hit points (before the healing), it is also protected by a Sacred Ward.
 
-{{}}">feature
+<div class="feat">
+
 ## Sacred Ward
 Target is warded against attacks. For 1 minute, any creature who targets a warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from area effects, such as the explosion of a fireball.
 
 If the warded creature makes an attack or casts a spell that affects an enemy creature, this effect ends.
 
+</div>
 
 ### Channel Divinity
 You know the following Channel Divinity options.
 
-#### A Moment’s Rest
-You can use your Channel Divinity over the course of ***1 minute*** to provide comfort and respite to those around you through kind ministration and uplifting words or stories. Each conscious creature of your choice within 30 ft can regain hit points by spending one hit die, and a creature that does so gains temporary hit points equal to the number of hit points it regains.
+<div class="columnstwo">
 
-#### Courageous Words
-You can call out to your allies and give them the courage to succeed. Each target gains a Courage die. A Courage die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
+- #### A Moment’s Rest
+    You can use your Channel Divinity over the course of ***1 minute*** to provide comfort and respite to those around you through kind ministration and uplifting words or stories. Each conscious creature of your choice within 30 ft can regain hit points by spending one hit die, and a creature that does so gains temporary hit points equal to the number of hit points it regains.
 
-This can be made after making the roll but before the results are revealed. If the bonus is not used before 10 minutes have passed, a target instead heals 1d8 hp.
+- #### Courageous Words
+    You can call out to your allies and give them the courage to succeed. Each target gains a Courage die. A Courage die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
+
+    This can be made after making the roll but before the results are revealed. If the bonus is not used before 10 minutes have passed, a target instead heals 1d8 hp.
+
+</div>
 
 ### Aura of Benevolence
 You and your companions are able to find hope in solidarity to overcome even the darkest trials. While you or at least one friendly creature within 10 ft of you is conscious, you and friendly creatures within 10 ft of you automatically succeed on their death saving throws.
@@ -1304,26 +1308,23 @@ You and your companions are able to find hope in solidarity to overcome even the
 At 18th level, the range of this aura increases to 30 ft.
 
 
-
-
-
-
-
-
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Divine Blessings
-To use this blessing, you must spend at least 3 Devotion.
+<div class="columnstwo">
 
- ***Sentinel of Hope***. This blessing can only be used on yourself. You have resistance to bludgeoning, piercing ***and*** slashing damage.
+- #### Divine Blessings
+    To use this blessing, you must spend at least 3 Devotion.
 
-#### Cleansing Touch
-Your Cleansing Touch feature can now be used to reduce a target’s exhaustion level by one, or one of the following effects on the target:
+    ***Sentinel of Hope***. This blessing can only be used on yourself. You have resistance to bludgeoning, piercing ***and*** slashing damage.
 
- - End one effect that charms or petrifies a target.
- - Increase a reduction to one of the target’s ability scores with 1.
- - End one effect reducing the target’s hit point maximum.
+- #### Cleansing Touch
+    Your Cleansing Touch feature can now be used to reduce a target’s exhaustion level by one, or one of the following effects on the target:<br/>
+    -- End one effect that charms or petrifies a target.<br/>
+    -- Increase a reduction to one of the target’s ability scores with 1.<br/>
+    -- End one effect reducing the target’s hit point maximum.
+
+</div>
 
 ### Tireless Spirit
 You can persevere beyond mortal limits. You're immune to the effects of exhaustion, except death. Magic can't force you to sleep or reduce your movement speed.
@@ -1334,9 +1335,7 @@ You can persevere beyond mortal limits. You're immune to the effects of exhausti
 You can use an ***action*** and spend 5 Devotion to manifest visibly the regal spirit you've always borne within, adopting a mantle of benevolence and brilliant radiance. For 1 minute, you gain the following benefits:
 
  - You shed bright light for 15 ft and dim light 15 ft beyond that. This light is sunlight.
-
  - When you use your Divine Smite feature, you deal an extra 1d8 radiant damage to the target.
-
  - You emanate an aura of majesty in a 30 ft radius. When a hostile creature starts its turn in the aura or enters it for the first time on a turn, it must succeed on a Wisdom saving throw against your Strength of Devotion DC or gain the charmed condition until the start of its next turn or until you do anything harmful to it.
 
 Alternatively, you can cast the *heroes' feast* spell once without requiring a spell slot or any material components.
@@ -1347,10 +1346,21 @@ Alternatively, you can cast the *heroes' feast* spell once without requiring a s
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-conquest">Oath of Conquest</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Overlord, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Aura of Conquest |
+| 9th | Strengthening the Divine, Terror
+| 15th | Domination |
+| 20th | Invincible Conqueror |
 
-{{}}">wide
-## <a name="internal-conquest">Oath of Conquest</a>
+</div>
 
 The Oath of Conquest calls to paladins who seek glory in battle and the subjugation of their enemies. It isn’t enough for these paladins to establish order. They must crush the forces of chaos. Sometimes called knight tyrants or iron mongers, those who swear this oath gather into grim orders that serve gods or philosophies of war and well-ordered might.
 
@@ -1366,16 +1376,6 @@ A paladin who takes this oath has the tenets of conquest seared on the upper arm
   **Strength Above All.** You shall rule until a stronger one arises. Then you must grow mightier and meet the challenge, or fall to your own ruin.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Overlord, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Aura of Conquest |
-| 9th | Strengthening the Divine, Terror
-| 15th | Domination |
-| 20th | Invincible Conqueror |
-
 
 ### Overlord
 When you take this oath at 1st level, your commanding presence brings others to heel. You gain proficiency with the Intimidation and Leadership skills.
@@ -1385,25 +1385,35 @@ When you take this oath at 1st level, your commanding presence brings others to 
 ### Sacred Touch
 When you spend Devotion to use Divine Smite, you can forgo rolling 1 or more of your dice to instead use Vengeful Smite.
 
-{{}}">feature
+<div class="feat">
+
 ## Vengeful Smite
 The target must make a Wisdom saving throw or be frightened of you. At the end of each of its turns, the target can make another Wisdom saving throw to end the effect.
 
 If the target succeeds on a save against this blessing, it takes 1d4 necrotic damage for each Devotion you spent.
 
+</div>
 
 In addition, you gain access to the following blessing:
 
- ***Subjugate the Cowards***. This blessing can only be used on yourself. Whenever an intimidated or frightened creature hits you with a melee attack, it takes 5 necrotic damage.
+<div class="columnstwo">
+
+- ***Subjugate the Cowards***. This blessing can only be used on yourself. Whenever an intimidated or frightened creature hits you with a melee attack, it takes 5 necrotic damage.
+
+</div>
 
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### Commanding Presence
-You can use your Channel Divinity to forcefully speak a one-word command. Targets that fail a Wisdom saving throw must follow the command on their next turn. This has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it.
+<div class="columnstwo">
 
-#### Conquering Presence
-You can use your Channel Divinity to exude a terrifying presence. Each target that fails a Wisdom saving throw becomes frightened of you for 1 minute. A frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.
+- #### Commanding Presence
+    You can use your Channel Divinity to forcefully speak a one-word command. Targets that fail a Wisdom saving throw must follow the command on their next turn. This has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it.
+
+- #### Conquering Presence
+  You can use your Channel Divinity to exude a terrifying presence. Each target that fails a Wisdom saving throw becomes frightened of you for 1 minute. A frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+</div>
 
 ### Aura of Conquest
 You constantly emanate a menacing aura while you’re not incapacitated. The aura extends 10 ft from you in every direction, but not through total cover. If a creature is frightened of you, it takes psychic damage equal to half your paladin level if it starts its turn there.
@@ -1412,32 +1422,32 @@ At 18th level, the range of this aura increases to 30 ft.
 
 
 
-
-
-
-
-
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Channel Divinity: Hold Person
-Add this to your Channel Divinity options.
+<div class="columnstwo">
 
-Target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the effect ends on the target.
+- #### Channel Divinity: Hold Person
+    Add this to your Channel Divinity options.
 
-#### Domination
-You can spend 4 Devotion to cast the spell *dominate beast* at its lowest level.
+    Target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the effect ends on the target.
+
+- #### Domination
+    You can spend 4 Devotion to cast the spell *dominate beast* at its lowest level.
+
+</div>
 
 ### Terror
 Whenever a creature is frightened by one of your Paladin features, you can choose it to additionally experience terror.
 
-{{}}">feature
+<div class="feat">
+
 ## Terror
 While frightened, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move.
 
 If the effect causing the creature to be frightened allows a new save at the end of its turns, it only gets to roll the save if it ends its turn in a location where it does not see you.
 
-
+</div>
 
 
 ### Domination
@@ -1447,20 +1457,28 @@ You can spend 5 Devotion to cast the spell *dominate person* at its lowest level
 You can use an ***action*** and spend 5 Devotion to harness your extraordinary martial prowess, becoming an avatar of conquest. For 1 minute, you gain the following benefits:
 
  - You have resistance to all damage.
-
  - When you take the Attack action on your turn, you can make one additional attack as part of that action.
-
  - Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-courage">Oath of Courage</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Leader, Sacred Touch |
+| 3rd | Channel Divinity, Prayer |
+| 7th | Aura of Courage |
+| 13th | Channel Divinity: Magic Circle
+| 15th | Protecting Touch |
+| 20th | Fearless Champion |
 
-
-{{}}">wide
-## <a name="internal-courage">Oath of Courage</a>
+</div>
 
 The Oath of Courage is an oath seldom taken, for it elevates a devoted woman or man above just the station of being a paladin. They become an ideal; a clarion call in the darkness capable of bolstering those who are frightened. To swear this oath is to make yourself an enemy of all who would use terror to manipulate and harm the frightened. Just as you can sense evil and undeath, undeath and evil can sense you.
 
@@ -1476,15 +1494,6 @@ The Oath of Courage has few tenets, but they serve as constant reminders about a
  **Inspire the Meek**. You have taken this oath, but the common person hasn’t. They will be afraid when monsters come to their door. It is your duty to give them the hope, the confidence, and the tools to fight alongside you.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Leader, Sacred Touch |
-| 3rd | Channel Divinity, Prayer |
-| 7th | Aura of Courage |
-| 13th | Channel Divinity: Magic Circle
-| 15th | Protecting Touch |
-| 20th | Fearless Champion |
 
 
 ### Leader
@@ -1497,20 +1506,28 @@ When you use the Lay on Hands feature, you remove any fear effect on the target,
 
 In addition, you gain access to the following blessing:
 
- ***Bolster Mental Fortitude***. You gain advantage on Intelligence, Wisdom, and Charisma saving throws.
+<div class="columnstwo">
+
+- ***Bolster Mental Fortitude***. You gain advantage on Intelligence, Wisdom, and Charisma saving throws.
+
+</div>
 
 ### Channel Divinity
 You learn the following Channel Divinity option.
 
-#### Courageous Words
-You can call out to your allies and give them the courage to succeed. Each target gains a Courage die. A Courage die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
+<div class="columnstwo">
 
-This can be made after making the roll but before the results are revealed. If the bonus is not used before 10 minutes have passed, a target instead heals 1d8 hp.
+- #### Courageous Words
+    You can call out to your allies and give them the courage to succeed. Each target gains a Courage die. A Courage die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
 
-### Prayer: A Moment's Rest
-You know this prayer in addition to your other prayers.
+    This can be made after making the roll but before the results are revealed. If the bonus is not used before 10 minutes have passed, a target instead heals 1d8 hp.
 
-During a short rest you provide comfort and respite to those around you through kind prayer and uplifting words. Each conscious creature of your choice can spend one additional hit die, and a creature that does so gains temporary hit points equal to twice your Charisma modifier.
+- ### Prayer: A Moment's Rest
+    You know this prayer in addition to your other prayers.
+
+    During a short rest you provide comfort and respite to those around you through kind prayer and uplifting words. Each conscious creature of your choice can spend one additional hit die, and a creature that does so gains temporary hit points equal to twice your Charisma modifier.
+
+</div>
 
 ### Aura of Courage
 You emanate an Aura of Courage earlier than other paladins. At 10th level its range is improved to 30 ft, and further improves to 60 ft at 18th level.
@@ -1524,31 +1541,32 @@ Your Lay on Hands feature is improved in order to not only heal, but also protec
 Any attempt to move away from, flee from, or hide from an enemy in combat negates bonus. A creature cannot receive this bonus to AC more than once within the hour.
 
 
-
-
-
-
-
-
-
 ### Fearless Champion
 You can use an ***action*** and spend 5 Devotion to assume the form of a holy avatar of courage. You have the ability to wrest the fear from those around you and inspire them towards greatness. For 1 minute, you gain the following benefits:
 
  - Your features become like that of a lion. You gain a Roar attack that, as an ***action***, deals 3d6 thunder damage to all Evil creatures within 30 ft that can hear you.
-
  - All allies that can see or hear you are immune to being frightened or charmed.
-
  - All allies within 15 ft have advantage on attack rolls against undead and fiends, and advantage on saving throws to resist effects and spells by undead and fiends.
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-crown">Oath of the Crown</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Bond of Service, Guardsman |
+| 3rd | Channel Divinity |
+| 7th | Aura of Allegiance |
+| 13th | Guardians of the Crown |
+| 15th | Unyielding Spirit |
+| 20th | Exalted Champion |
 
-
-{{}}">wide
-## <a name="internal-crown">Oath of the Crown</a>
+</div>
 
 The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the just laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or a sovereign, and undergo their oath as part of their admission to the order's ranks.
 
@@ -1563,15 +1581,6 @@ The tenets of the Oath of the Crown are often set by the sovereign to which thei
  **Resposibility**. You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Bond of Service, Guardsman |
-| 3rd | Channel Divinity |
-| 7th | Aura of Allegiance |
-| 13th | Guardians of the Crown |
-| 15th | Unyielding Spirit |
-| 20th | Exalted Champion |
 
 
 ### Bond of Service
@@ -1591,11 +1600,15 @@ If you know Compelled Duel you can use it once per day without spending a daily 
 
 In addition you learn the following two Channel Divinity options.
 
-#### Commanding Presence
-You can use your Channel Divinity to forcefully speak a one-word command. Targets that fail a Wisdom saving throw must follow the command on their next turn. This has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it.
+<div class="columnstwo">
 
-#### Turn the Tide
-As a ***bonus action***, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 ft of you regains hit points equal to 2d6 + your Charisma modifier if it has less than half of its hit points.
+- #### Commanding Presence
+    You can use your Channel Divinity to forcefully speak a one-word command. Targets that fail a Wisdom saving throw must follow the command on their next turn. This has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it.
+
+- #### Turn the Tide
+    As a ***bonus action***, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 ft of you regains hit points equal to 2d6 + your Charisma modifier if it has less than half of its hit points.
+
+</div>
 
 ### Aura of Allegiance
 You can shield others from harm at the cost of your own health. When a creature within 10 ft takes damage, you can use your ***reaction*** to halve the damage against that target. You then take the same amount of damage, which can't be reduced or prevented in any way.
@@ -1619,21 +1632,28 @@ You have advantage on saving throws to avoid becoming paralyzed or stunned.
 You can use an ***action*** and spend 5 Devotion to make your presence on the field of battle an inspiration to those dedicated to your cause. You gain the following benefits for 1 hour:
 
  - You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.
-
  - Your allies have advantage on death saving throws while within 30 ft of you.
-
  - You have advantage on Wisdom saving throws, as do your allies within 30 ft of you.
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-devotion">Oath of Devotion</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Disciple, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Beacon of Hope |
+| 15th | Purity of Spirit |
+| 17th | Prayer: Commune |
+| 20th | Holy Nimbus |
 
-
-
-{{}}">wide
-## <a name="internal-devotion">Oath of Devotion</a>
+</div>
 
 The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels - the perfect servants of good - as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.
 
@@ -1650,15 +1670,6 @@ Though the exact words and strictures of the Oath of Devotion vary, paladins of 
  **Duty**. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Disciple, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Beacon of Hope |
-| 15th | Purity of Spirit |
-| 17th | Prayer: Commune |
-| 20th | Holy Nimbus |
 
 
 ### Disciple
@@ -1667,35 +1678,36 @@ When you take this oath, you have advanced well in your spiritual training. You 
 ### Sacred Touch
 Whenever you use a divine blessing on only yourself, you can choose to make your weapon emit bright light in a 20-ft radius and dim light 20 ft beyond that. You can end this effect as part of any other action. If you are no longer holding this weapon, lose concentration or if you fall unconscious, this effect ends.
 
-
-
 In addition you gain access to the following divine blessing, which you can only use on yourself:
 
- ***Sacred Armor***. You focus divine power into your shield or your armor. For ***1 minute*** you add half your Charisma modifier (round up) to your AC and are immune to critical hits. Your armor or shield also emits bright light in a 20 ft radius and dim light for 20 ft beyond that. You can end this effect on your turn as part of any other action. If you fall unconscious, or are no longer wearing this armor or holding the shield this effect ends.
+<div class="columnstwo">
+
+- ***Sacred Armor***. You focus divine power into your shield or your armor. For ***1 minute*** you add half your Charisma modifier (round up) to your AC and are immune to critical hits. Your armor or shield also emits bright light in a 20 ft radius and dim light for 20 ft beyond that. You can end this effect on your turn as part of any other action. If you fall unconscious, or are no longer wearing this armor or holding the shield this effect ends.
+
+</div>
 
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### Sacred Ward
-Targets are warded against attack. For 1 minute, any creature who targets a warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from area effects, such as the explosion of a fireball.
+<div class="columnstwo">
 
-If the warded creature makes an attack or casts a spell that affects an enemy creature, this effect ends.
+- #### Sacred Ward
+    Targets are warded against attack. For 1 minute, any creature who targets a warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from area effects, such as the explosion of a fireball.
 
-#### Turn the Unholy
-As an ***action***, you speak a prayer censuring fiends and undead, using your Channel Divinity. **Each fiend or undead** that can see or hear you within 30 ft must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+    If the warded creature makes an attack or casts a spell that affects an enemy creature, this effect ends.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 ft of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+- #### Turn the Unholy
+    As an ***action***, you speak a prayer censuring fiends and undead, using your Channel Divinity. **Each fiend or undead** that can see or hear you within 30 ft must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 ft of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+
+</div>
 
 ### Beacon of Hope
 Creatures within your Aura of Protection have advantage on death saving throws and on rolls made to regain hit points.
 
 ### Purity of Spirit
 You are always under the effects of your *protection from evil* divine blessing.
-
-
-
-
-
 
 
 
@@ -1714,9 +1726,7 @@ If you use this prayer two or more times before finishing your next long rest, t
 You can use an ***action*** and spend 5 Devotion to emanate an aura of sunlight. For 1 minute, bright light shines from you in a 30-ft radius, and dim light shines 30 ft beyond that. While the aura lasts, you gain the following benefits:
 
  - You have resistance to radiant and necrotic damage.
-
  - You have advantage on saving throws against the spells and magical effects of fiends and undead.
-
  - Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.
 
 
@@ -1725,9 +1735,36 @@ You can use an ***action*** and spend 5 Devotion to emanate an aura of sunlight.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-elderSign">Oath of the Elder Sign</a></h1>
+<div class="featuresTable">
 
-{{}}">wide
-## <a name="internal-elderSign">Oath of the Elder Sign</a>
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Arcanist, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Aura of Mental Fortitude |
+| 9th | Strengthen the Divine |
+| 15th | Word of Revelation |
+| 20th | Sunder Reality |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Word of Revelation***.
+
+</div>
+</div>
+</div>
+
+</div>
 
 Keepers encounter the Elder Sign in a multitude of ways. Some find it in the derelict pages of an antediluvian tome, yet others see its shape in their very dreams. All who gaze upon it know its authority, as instinctively as animals know to fear fire; it is an icon of power originating from beyond the veil of reality, one that no men were meant to know.
 
@@ -1745,24 +1782,10 @@ The principles held by the Keepers of the Elder sign are as esoteric as their an
  **Defend the Gates**. It is your job to stand vanguard at the gates that form where our world intersects the Far Realm. You may be protecting it from those who would seek to close it, or you may wish to stem the tide of creatures coming through.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Arcanist, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Aura of Mental Fortitude |
-| 9th | Strengthen the Divine |
-| 15th | Word of Revelation |
-| 20th | Sunder Reality |
 
+<div class="block classTable frame" markdown="1">
 
-### Arcanist
-When you take this oath, you gain proficiency with Arcana, Religion and on any checks regarding the multiverse and Elder Gods.
-
-
-
-{{}}">feature
-## Paladin Feature Change
+### Paladin Feature Change
 Paladins of the Elder Sign are more focuse on fighting Elder Evils. The following features are changed when you take this oath:
 
 #### Detect Intrusion
@@ -1771,6 +1794,11 @@ When you use your Divine Sense, you instead detects the presence of magic, which
 #### Forceful Strikes
 All base paladin class features that deal radiant damage, instead deal force damage.
 
+</div>
+
+
+### Arcanist
+When you take this oath, you gain proficiency with Arcana, Religion and on any checks regarding the multiverse and Elder Gods.
 
 ### Sacred Touch
 You can use Banish with Divine Smite by spending only 1 Devotion. Used this way it only has effect if the target has 50 hit points or fewer and is a native to a different plane of existence. If not, the Devotion is lost.
@@ -1778,13 +1806,17 @@ You can use Banish with Divine Smite by spending only 1 Devotion. Used this way 
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### Call For Battle
-Select one of your Divine blessings. Each target is affected as if you had used that blessing and spent 1 Devotion. In addition to other end conditions, this blessing also ends if there are no aberrations or extraplanar creatures present.
+<div class="columnstwo">
 
-#### Invoke the Elder Sign
-As an ***action***, you can fleetingly create the form of the Elder Sign, a powerful symbol which can strengthen or wear thin the walls of reality. Choose an adjacent space, which is where the sign burns brightly for 1 minute in a 20-ft radius sphere. No darkness, magical or otherwise, can obscure this area. Each creature friendly to you in this area gains a +1 bonus on attack and damage rolls and gains a +1 bonus to AC.
+- #### Call For Battle
+    Select one of your Divine blessings. Each target is affected as if you had used that blessing and spent 1 Devotion. In addition to other end conditions, this blessing also ends if there are no aberrations or extraplanar creatures present.
 
-No aberration or extraplanar creature can enter or teleport within this area or use portals, such as those created by the gate spell, to enter the area. As such, Elder Signs are often placed in front of gates to the Far Realm, to close leaks into that reality.
+- #### Invoke the Elder Sign
+    As an ***action***, you can fleetingly create the form of the Elder Sign, a powerful symbol which can strengthen or wear thin the walls of reality. Choose an adjacent space, which is where the sign burns brightly for 1 minute in a 20-ft radius sphere. No darkness, magical or otherwise, can obscure this area. Each creature friendly to you in this area gains a +1 bonus on attack and damage rolls and gains a +1 bonus to AC.
+
+    No aberration or extraplanar creature can enter or teleport within this area or use portals, such as those created by the gate spell, to enter the area. As such, Elder Signs are often placed in front of gates to the Far Realm, to close leaks into that reality.
+
+</div>
 
 ### Aura of Mental Fortitude
 You and allies within 10 ft of you have resistance to psychic damage.
@@ -1801,17 +1833,21 @@ At 18th level, the range of this aura increases to 30 ft.
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Channel Divinity: Detect Thoughts
-You know this Channel Divinity option in addition to your other options.
+<div class="columnstwo">
 
-You can detect the presence, and read the surface thoughts of thinking creatures. When you channel as an ***action***, you sense the presence of all creatures within 30 ft with an Intelligence of 4 or higher, that speak a language. The effect can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you.
+- #### Channel Divinity: Detect Thoughts
+    You know this Channel Divinity option in addition to your other options.
 
-You can select to focus your mind on a number of creatures you detect equal to you proficiency bonus, to attempt to learn their surface thoughts, i.e. what is most on its mind in that moment. This is usually enough to determine if the creatures are alien or under the control of an aberration. The targets can make a Wisdom saving throw to prevent it. Either way, the targets knows that you are probing into their mind.
+    You can detect the presence, and read the surface thoughts of thinking creatures. When you channel as an ***action***, you sense the presence of all creatures within 30 ft with an Intelligence of 4 or higher, that speak a language. The effect can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you.
 
-#### Prayer: Locate Aberration
-You learn this Prayer in addition to your other prayers.
+    You can select to focus your mind on a number of creatures you detect equal to you proficiency bonus, to attempt to learn their surface thoughts, i.e. what is most on its mind in that moment. This is usually enough to determine if the creatures are alien or under the control of an aberration. The targets can make a Wisdom saving throw to prevent it. Either way, the targets knows that you are probing into their mind.
 
-During your prayer you focus on an specific aberration, or type of aberrations that you know is in the area. You sense the direction to its location, as long as it is within 1,000 ft of you. If the target is in motion, you know the direction of its movement.
+- #### Prayer: Locate Aberration
+    You learn this Prayer in addition to your other prayers.
+
+    During your prayer you focus on an specific aberration, or type of aberrations that you know is in the area. You sense the direction to its location, as long as it is within 1,000 ft of you. If the target is in motion, you know the direction of its movement.
+
+</div>
 
 ### Word of Revelation
 BYour research in musty, forbidden tomes has proven fruitful. As an ***action***, you can utter a word used in the creation of the universe. All magic effects within 15 ft of you are targeted by *dispel magic*. After using this ability, you cannot use it again until you complete a long rest.
@@ -1827,33 +1863,25 @@ If the portal leads to the Far Realm, creatures that enter it are flung to the f
 If the portal leads from the Far Realm, creatures adjacent to it are restrained by tentacles, claws, or other monstrous appendages that reach through it. Creatures so restrained can break free as an action by making a Strength saving throw.
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| Add the following oath specific benefits to choose from: ||
-|  | * Regain use of **Word of Revelation**.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-freshness">Oath of Freshness</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Charming Demeanor,<br/>Sacred Touch,<br/>Shield of Stardom |
+| 3rd | Channel Divinity |
+| 5th | High Note |
+| 7th | Aura of Freshness |
+| 15th | Sick Beats |
+| 17th | Prayer: Beseech Muse |
+| 20th | Calamari Inkantation |
 
-
-
-
-
-
-
-
-{{}}">wide
-## <a name="internal-freshness">Oath of Freshness</a>
+</div>
 
 Being in style isn't just a fashion statement—it's a way of life! By taking on the Oath of Freshness, you have vowed to not only look your best, but to moreover always be your best. By so doing, you become a paragon of fun and laughter, the star of every show. With color and music as your primary tools and a good weapon to keep your rhythm, you're sure to light up the world around you and make it look as good as you feel inside. Smile for the crowd, superstar! The spotlight's on you!
 
@@ -1861,11 +1889,13 @@ Being in style isn't just a fashion statement—it's a way of life! By taking on
 These paladins have sworn their oaths to deities of music and beauty, emphasizing that people should be happy and not take life too seriously.
 
  **Stay Fresh**. A good look is a good feeling, so always stay on top of what's new, what's cool, and make sure you are too.
+
  **Be Fresh**. But a good look is nothing without a good heart, so live to the fullest! Be happy and make others happy too.
+
  **No Worries**. There's more to life than troubles and cares. Remember to take time to relax and focus on what's fun.
+
  **No Regrets**. Sometimes people mess up. Sometimes that's you! But mistakes are of the past, and you live for the future. Leave flaws and fights behind to make the most of now.
 
-{{}}">feature
 #### Fresh Looks
 Being fresh inside and out takes a lot of effort! As a paladin bearing the Oath of Freshness, you've likely put in considerable time to cultivate a maximally fresh look that will keep you in style all season long. The following table includes some suggestions for what clothing or tylings that look might entail, and you can also use it as inspiration to create your own fresh look.
 
@@ -1882,20 +1912,6 @@ Being fresh inside and out takes a lot of effort! As a paladin bearing the Oath 
 
 
 
-
-
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Charming Demeanor, Sacred Touch,<br>Shield of Stardom |
-| 3rd | Channel Divinity |
-| 5th | High Note |
-| 7th | Aura of Freshness |
-| 15th | Sick Beats |
-| 17th | Prayer: Beseech Muse |
-| 20th | Calamari Inkantation |
-
-
 ### Charming Demeanor
 You are born to be in the center. When you take this oath, you gain proficiency with Perform and on all Charisma made against humanoids that are not hostile to you.
 
@@ -1904,10 +1920,12 @@ Utilizing the power of music, you can sing a short song, allowing you to use you
 
 In addition, when you spend Devotion to use Divine Smite, you can forgo rolling 1 or more of your dice to instead use Splat!.
 
-{{}}">feature
+<div class="feat">
+
 ## Splat!
 Your strike creates an explosion of color. Each creature within 5 ft of the target must succeed on a Dexterity saving throw or be blinded until the end of its next turn.
 
+</div>
 
 ### Shield of Stardom
 Paladins that swear the Oath of Freshness often decide to eschew traditional armor, instead relying on pure charm and agile performance for protection. While wearing no armor, your AC equals 12 + your Charisma modifier. You can use a shield and still gain this benefit.
@@ -1915,23 +1933,20 @@ Paladins that swear the Oath of Freshness often decide to eschew traditional arm
 ### Channel Divinity
 You know the following Channel Divinity option.
 
-#### Courageous Words
-You can call out to your allies and give them the courage to succeed. Each target gains a Courage die. A Courage die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
+<div class="columnstwo">
 
-This can be made after making the roll but before the results are revealed. If the bonus is not used before 10 minutes have passed, a target instead heals 1d8 hp.
+- #### Courageous Words
+    You can call out to your allies and give them the courage to succeed. Each target gains a Courage die. A Courage die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
 
+    This can be made after making the roll but before the results are revealed. If the bonus is not used before 10 minutes have passed, a target instead heals 1d8 hp.
 
+- #### Showstopper
+    If you perform for at least 1 minute, you can use your Channel Divinity to attempt to inspire wonder in your audience by dance, recitation, or song. At the end of the performance, you can target humanoids or beasts within 60 ft of you who watched and listened to all of it. Each target must succeed on a Wisdom saving throw or be charmed by you. While charmed in this way, the target idolizes you, and it speaks glowingly of you to anyone who talks to it.
 
+    This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies. A target has no hint that you tried to
+    charm it.
 
-
-
-
-
-#### Showstopper
-If you perform for at least 1 minute, you can use your Channel Divinity to attempt to inspire wonder in your audience by dance, recitation, or song. At the end of the performance, you can target humanoids or beasts within 60 ft of you who watched and listened to all of it. Each target must succeed on a Wisdom saving throw or be charmed by you. While charmed in this way, the target idolizes you, and it speaks glowingly of you to anyone who talks to it.
-
-This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies. A target has no hint that you tried to
-charm it.
+</div>
 
 ### High Note
 You can use 2 or more Devotion when singinging to reach a high shattering note. Each creature within 10-30 ft from you (your choice) must make a Constitution saving throw. A creature takes 1d8 thunder damage plus an additional d8 per Devotion spent, or half that on a successful save.
@@ -1959,11 +1974,9 @@ On a successful save, you can ask the being up to three questions. You must ask 
 ### Calamari Inkantation
 You can use an ***action*** and spend 5 Devotion to begin singing a truly heavenly song, reaching the hearts of all who hear. You gain the following benefits for 1 minute:
 
- - A hostile creature that can hear you and starts its turn within 30 ft of you or moves to a point within 30 ft of you for the first time on a turn must immediately expend all of its remaining movement to dance without leaving its space. An affected creature can make a Wisdom saving throw against your Strength of Devotion DC at the end of each of its turns. If it fails the saving throw by five or more, it also has disadvantage on attack rolls until the end of its next turn. On a success, it becomes immune to this effect for 24 hours.
-
- - No effect can make you inaudible to any creature you can see unless you allow it.
-
-  - You and friendly creatures within 30 ft of you are immune to the charmed condition.
+- A hostile creature that can hear you and starts its turn within 30 ft of you or moves to a point within 30 ft of you for the first time on a turn must immediately expend all of its remaining movement to dance without leaving its space. An affected creature can make a Wisdom saving throw against your Strength of Devotion DC at the end of each of its turns. If it fails the saving throw by five or more, it also has disadvantage on attack rolls until the end of its next turn. On a success, it becomes immune to this effect for 24 hours.
+- No effect can make you inaudible to any creature you can see unless you allow it.
+- You and friendly creatures within 30 ft of you are immune to the charmed condition.
 
 
 
@@ -1971,10 +1984,22 @@ You can use an ***action*** and spend 5 Devotion to begin singing a truly heaven
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-grave">Oath of the Grave</a></h1>
+<div class="featuresTable">
 
-{{}}">wide
-## <a name="internal-grave">Oath of the Grave</a>
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Lore of the Dead, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Aura of Preservation |
+| 9th | Strengthen the Divine |
+| 15th | Soul of Demise |
+| 17th | Prayer: Hallow |
+| 20th | Reaper of Winter |
 
+</div>
 
 Sometimes called black knights, or grave knights, these paladins serve as protectors of the sacred passings into the afterlife. They constantly struggle against the forces of undeath, as they see them as the most unholy abominations that blight this land. They adorn themselves with images of death and winter - skulls, ravens, or similar symbols of their patron gods.
 
@@ -1990,16 +2015,6 @@ The tenets of the Oath of the grave have been passed down for generations. This 
  **Accept Death**. Death comes to all eventually. Accept it, and you will find a place in the afterlife.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Lore of the Dead, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Aura of Preservation |
-| 9th | Strengthen the Divine |
-| 15th | Soul of Demise |
-| 17th | Prayer: Hallow |
-| 20th | Reaper of Winter |
 
 
 ### Lore of the Dead
@@ -2010,29 +2025,34 @@ If your target has reduced maximum hit points when you use the Lay on Hands feat
 
 In addition you gain access to the following divine blessing, which you can only use on yourself:
 
- ***Armor of Life***. You focus divine power into your armor. For **1 minute**, whenever an undead creature hits you with an melee attack, it takes 5 radiant damage.
+<div class="columnstwo">
 
+- ***Armor of Life***. You focus divine power into your armor. For **1 minute**, whenever an undead creature hits you with an melee attack, it takes 5 radiant damage.
 
+</div>
 
 ### Channel Divinity
 You learn the following Channel Divinity option.
 
-#### Turn Undead
-As an ***action***, you present your holy symbol and speak a prayer censuring the undead. Each undead within 30 ft that can see and hear you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+<div class="columnstwo">
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 ft of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.
+- #### Turn Undead
+    As an ***action***, you present your holy symbol and speak a prayer censuring the undead. Each undead within 30 ft that can see and hear you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
 
-Starting at 5th level, if an undead fails its saving throw against this feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold:
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 ft of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.
+
+    Starting at 5th level, if an undead fails its saving throw against this feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold:
 
 
-|Paladin Level|	Destroys Undead of CR… |
-|:-----------:|:---------------------- |
-| 5th |  1/2 or lower |
-| 8th |  1 or lower |
-| 11th | 2 or lower |
-| 14th | 3 or lower |
-| 17th | 4 or lower |
+    |Paladin Level|	Destroys Undead of CR… |
+    |:-----------:|:---------------------- |
+    | 5th |  1/2 or lower |
+    | 8th |  1 or lower |
+    | 11th | 2 or lower |
+    | 14th | 3 or lower |
+    | 17th | 4 or lower |
 
+</div>
 
 ### Aura of Preservation
 You and friendly creatures within 10 ft of you have resistance to necrotic damage, and cannot be charmed, frightened, or possessed by undead creatures.
@@ -2042,21 +2062,19 @@ At 18th level, the range of this aura increases to 30 ft.
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Channel Divinity
-You learn the Return to Earth Channel Divinity option and you can use it once per day without spending a daily use of Channel Divinity.
+<div class="columnstwo">
 
-#### Prayer: Speak with Dead
-You grant the semblance of life and Intelligence to a corpse you pray over, allowing it to answer the questions you pose. The corpse must still have a mouth, can't be Undead and can not have been dead for more than 10 days.
+- #### Channel Divinity
+    You learn the Return to Earth Channel Divinity option and you can use it once per day without spending a daily use of Channel Divinity.
 
+- #### Prayer: Speak with Dead
+    You grant the semblance of life and Intelligence to a corpse you pray over, allowing it to answer the questions you pose. The corpse must still have a mouth, can't be Undead and can not have been dead for more than 10 days.
 
+    During the time of the prayer, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the Languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy.
 
+    This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.
 
-
-
-
-'During the time of the prayer, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the Languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy.
-
-This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.
+</div>
 
 ### Soul of Demise
 Your vow of death has become far more persistent. When a creature is killed by you, it cannot be raised from the dead for the next 30 days, outside of using a wish spell.
@@ -2076,10 +2094,21 @@ You can use an ***action*** and spend 5 Devotion to surround yourself with a dea
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-guardian">Oath of the Guardian</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Sacred Shield, Vanquisher of Evil |
+| 3rd | Channel Divinity, Prayer: A Moment's Rest |
+| 7th | Aura of Protection |
+| 9th | Strengthening the Divine |
+| 15th | Soul of the Defender |
+| 20th | Angelic Protector |
 
-{{}}">wide
-## <a name="internal-guardian">Oath of the Guardian</a>
+</div>
 
 The Oath of the Guardian binds a paladin to the defense of those who cannot defend themselves. Sometimes called knight protectors, pious templar's, or divine crusaders, these paladins know that there will always be a place for them at the front lines of the battle with evil. Whether it is a small village, a singular maiden or an entire city that is threatened with destruction, they hold themselves to the expectation of protecting all who do not have the means to protect themselves.
 
@@ -2097,15 +2126,6 @@ The tenets of the Oath of the Guardian vary by paladin, but all the tenets revol
  **Character**. Your words and your deeds should engender trust, dependability and hope to all those you encounter. You do not know who will be the next to need your protection and your name should be beyond reproach, so as to be the first called upon when destruction is foreshadowed.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Sacred Shield, Vanquisher of Evil |
-| 3rd | Channel Divinity, Prayer: A Moment's Rest |
-| 7th | Aura of Protection |
-| 9th | Strengthening the Divine |
-| 15th | Soul of the Defender |
-| 20th | Angelic Protector |
 
 
 
@@ -2123,8 +2143,12 @@ If you know Compelled Duel, then whenever you use it, you can simultaneously use
 
 In addition you learn the following Channel Divinity option.
 
-#### Divine Ward
-As a ***bonus action*** you can protect your allies from harm. As long as you concentrate, and the target allies are within 10 ft of you, they have resistance to all damage. However, each time they take damage, you take the same amount of damage, and whatever conditions would have affected the allies affect you instead. You make any saving throws as normal.
+<div class="columnstwo">
+
+- #### Divine Ward
+    As a ***bonus action*** you can protect your allies from harm. As long as you concentrate, and the target allies are within 10 ft of you, they have resistance to all damage. However, each time they take damage, you take the same amount of damage, and whatever conditions would have affected the allies affect you instead. You make any saving throws as normal.
+
+</div>
 
 ### Prayer: A Moment's Rest
 You know this prayer in addition to your other prayers.
@@ -2137,23 +2161,18 @@ Your divine power protects you and friendly creatures from harm. As a ***reactio
 At 18th level, the range of this aura increases to 30 ft.
 
 
-
-
-
-
-
-
 ### Strengthening the Divine
-You gain access to the following.
+You gain access to the following **Divine Blessings**, which you can use only on yourself. The cost for them is 2 Devotion.
 
-#### Divine Blessing
-You can use the following blessings on yourself only, and its cost is 2 Devotion.
+<div class="columnstwo">
 
- ***Aura of Safety***. For 1 minute you radiate a 10 ft radius aura that protects friendly creatures. Any creature that targets one of your allies within the aura with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. If an ally in the aura makes an attack or casts a spell that affects an enemy creature, this effect ends for that ally.
+- ***Aura of Safety***. For 1 minute you radiate a 10 ft radius aura that protects friendly creatures. Any creature that targets one of your allies within the aura with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. If an ally in the aura makes an attack or casts a spell that affects an enemy creature, this effect ends for that ally.
 
- ***Protection from Energy***. You have resistance to acid, cold, fire, lightning ***or*** thunder damage.
+- ***Protection from Energy***. You have resistance to acid, cold, fire, lightning ***or*** thunder damage.
 
- ***Sentinel***. You have resistance to bludgeoning, piercing ***and*** slashing damage.
+- ***Sentinel***. You have resistance to bludgeoning, piercing ***and*** slashing damage.
+
+</div>
 
 ### Soul of the Defender
 When you are reduced to below half your hit points, you can choose to begin healing yourself of damage. Using a ***bonus action***, you begin healing hit points equal to your Charisma modifier + your Constitution modifier every round for 1 minute. Once you use this ability, you can't use it again until you finish a long rest.
@@ -2164,7 +2183,6 @@ When you are reduced to below half your hit points, you can choose to begin heal
 You can use an ***action*** and spend 5 Devotion to become impenetrable bulwark of divine energy. For one minute, you gain the following benefits:
 
  - Your skin hardens and changes into a platinum sheen, your eyes turn gold, and all damage you take from any source is reduced by 5 + your Charisma modifier. This ability does not stack with your Aura of Protection.
-
  - You emanate an aura of compulsion in a 30 ft radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or direct all of its attacks against you.
 
 
@@ -2172,10 +2190,21 @@ You can use an ***action*** and spend 5 Devotion to become impenetrable bulwark 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-leadership">Oath of Leadership</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Leader, Sacred Touch |
+| 3rd | Channel Divinity, Prayer: A Moment's Rest |
+| 7th | Aura of Valor |
+| 13th | Defiance |
+| 15th | Lead the Charge |
+| 20th | Paragon of Perfection |
 
-{{}}">wide
-## <a name="internal-leadership">Oath of Leadership</a>
+</div>
 
 The Oath of Leadership calls to paladins who seek to be the first one to raise their weapon in the face of danger and destruction. These paladins fearlessly lead the charge into battle, even if death seems unavoidable. Those sworn to this oath aim to be a guiding beacon to those without light, and apply a strong hand to those more reluctant to follow their path.
 
@@ -2193,15 +2222,6 @@ The tenets of the Oath of Leadership are meant to guide a paladin in their role 
  **Stand Against the Darkness**. Be the first to raise your weapon in times no one else will.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Leader, Sacred Touch |
-| 3rd | Channel Divinity, Prayer: A Moment's Rest |
-| 7th | Aura of Valor |
-| 13th | Defiance |
-| 15th | Lead the Charge |
-| 20th | Paragon of Perfection |
 
 
 ### Leader
@@ -2215,15 +2235,17 @@ If you know Compelled Duel, then whenever you use it, you can simultaneously use
 
 In addition you learn the following Channel Divinity options.
 
+<div class="columnstwo">
 
+- #### Divine Might
+    With a quick prayer, you augment the skills and strength of your targets. Each target gains a Divine Might die. This die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
 
-#### Divine Might
-With a quick prayer, you augment the skills and strength of your targets. Each target gains a Divine Might die. This die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
+    This can be made after making the roll but before the results are revealed. If the bonus is not used before 1 minute has passed, a target instead heals 1d8 hp.
 
-This can be made after making the roll but before the results are revealed. If the bonus is not used before 1 minute has passed, a target instead heals 1d8 hp.
+- #### Regroup
+    Each allied creature within 60 ft that can see and hear you, may immediately make a move as a reaction.
 
-#### Regroup
-Each allied creature within 60 ft that can see and hear you, may immediately make a move as a reaction.
+</div>
 
 ### Prayer: A Moment's Rest
 You know this prayer in addition to your other prayers.
@@ -2254,7 +2276,6 @@ You are proficient with initiative. On your first turn each combat, your walking
 You can use an ***action*** and spend 5 Devotion to turn into a divine symbol of leadership. For 10 minutes, you gain the follow benefits:
 
  - You gain proficiency with every skill, and your proficiency bonus is doubled for any ability check you make using a skill you’re proficient with.
-
  - Once per turn, when you make an attack roll, an ability check, or a saving throw, you can give yourself advantage on that roll.
 
 
@@ -2262,20 +2283,31 @@ You can use an ***action*** and spend 5 Devotion to turn into a divine symbol of
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-lyan">Oath of the Lyan</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Lawful, Sacred Touch |
+| 3rd | Channel Divinity, Prayer: Blessed Settlement |
+| 7th | Aura of Clarity |
+| 9th | Strengthening the Divine |
+| 15th | Lawman's Vigor |
+| 20th | Pillar of Society |
 
-{{}}">wide
-## <a name="internal-lyan">Oath of the Lyan</a>
-
-*Rules and responsibilities: These are the ties that bind us. We do what we do, because of who we are. If we did otherwise, we would not be ourselves. I will do what I have to do. And I will do what I must.*
-
-—Neil Gaiman, The Sandman: Book of Dreams
+</div>
 
 Deriving its name from the ascending floors of the infinite planar tower known as Arbiter's Edifice, the Lyan is a holy paladin pledged to serve the gods of law and order. Lyans are sworn to uphold lawfulness in all senses and believe in the value of deference, honor, and trustworthiness, with little interest in matters of good and evil. Such paladins are champions of both civil and religious laws in their jurisdictions and will defend legitimate rule and governance. However, Lyans also preserve law in the abstract, being proponents of social traditions and defending such praxis as symbols of law.
 
 For the Lyan, order is the correct state of all things. The Lyan argues that without rules, society crumbles and all life becomes nasty, brutish, and short; without the city or town, existence is uncomfortable and stagnates. Thus, chaos is more than distasteful - it is an existential threat.
 
 Lyan paladins are loyal and duteous, with an unyielding focus on their obligations to their organizations and to smiting chaos. As such, they tend to be severe, even taciturn, in their disposition, but they are no less unfailing in their dedication to hunting and striking down the forces of chaos wherever they stand. Being unconcerned with good and evil, a Lyan is often brutal in their conduct, working within what is lawful to destroy what is not.
+
+> *"Rules and responsibilities: These are the ties that bind us. We do what we do, because of who we are. If we did otherwise, we would not be ourselves. I will do what I have to do. And I will do what I must."*
+>
+> -- Neil Gaiman, The Sandman: Book of Dreams
 
 #### Tenets of the Lyan
 The creed of a Lyan varies between each organization, but all must be harmonious with the principles of the gods in upholding law and order. In practice, a Lyan can be roughly said to live according to the following tenets.
@@ -2292,8 +2324,9 @@ The creed of a Lyan varies between each organization, but all must be harmonious
 
  **Allegiance**. Your first pledge is to Law. Your second is to the gods, your third to your organizatin. You should have no other allegiances. Consider the whole before the self.
 
-{{}}">feature
-## Paladin Feature Change
+<div class="block classTable frame" markdown="1">
+
+### Paladin Feature Change
 The Lyan's struggle is in behalf of law against chaos, and thus may often be unconcerned, even flippant, with the conflicts of good and evil. The following features are changed when you take this oath:
 
 #### Detect Chaos
@@ -2307,18 +2340,7 @@ You do not have access to the ***Protection from Evil*** divine blessing. You ca
 #### Smite the Chaotic
 The bite of your blows is focused not on the unholy, but on the lawless. When you use your Divine Smite, you inflict an extra 1d8 radiant damage against  instead of fiends, and undead.
 
-
-
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Lawful, Sacred Touch |
-| 3rd | Channel Divinity, Prayer: Blessed Settlement |
-| 7th | Aura of Clarity |
-| 9th | Strengthening the Divine |
-| 15th | Lawman's Vigor |
-| 20th | Pillar of Society |
-
+</div>
 
 ### Lawful
 When you take this oath, you gain proficiency with the Law; not only with the mundane laws of the area you start in, but also the divine Law of Order. You also have proficiency on checks regarding the enemies of Law, namely aberrations, demons and fey.
@@ -2326,25 +2348,22 @@ When you take this oath, you gain proficiency with the Law; not only with the mu
 ### Sacred Touch
 You can use the Banish option by spending only 1 Devotion. Used this way it only has effect if the target has 50 hit points or fewer and is a native to a different plane of existence. If not, the Devotion is lost.
 
-
-
-
-
-
-
-
 ### Channel Divinity
 You learn the following Channel Divinity options.
 
-#### Halting Presence
-You can use your Channel Divinity to forcefully shout a command for enemies to halt. Targets that fail a Wisdom saving throw cannot make any actions, except reactions. This lasts until you do not use an action to hold the spell or lose concentration. In addition, targets can make another Wisdom saving throw at the end of each of their turns, to end the effect on themself only.
+<div class="columnstwo">
 
-This has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it.
+- #### Halting Presence
+    You can use your Channel Divinity to forcefully shout a command for enemies to halt. Targets that fail a Wisdom saving throw cannot make any actions, except reactions. This lasts until you do not use an action to hold the spell or lose concentration. In addition, targets can make another Wisdom saving throw at the end of each of their turns, to end the effect on themself only.
 
-#### Turn the Unlawful
-As an ***action***, you can utter a prayer that is painful to creatures of chaos. You display your holy weapon and speak your condemnatory prayer, using Channel Divinity. Each aberration, demon, or fey that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+    This has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.
+- #### Turn the Unlawful
+    As an ***action***, you can utter a prayer that is painful to creatures of chaos. You display your holy weapon and speak your condemnatory prayer, using Channel Divinity. Each aberration, demon, or fey that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.
+
+</div>
 
 ### Prayer: Blessed Settlement
 You know this prayer in addition to your other prayers.
@@ -2361,27 +2380,25 @@ At 18th level, the range of this aura increases to 30 ft.
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Divine Blessing
-To use this blessing, you must spend at least 3 Devotion.
+<div class="columnstwo">
 
- ***Protection from Energy***. You have resistance to acid, cold, fire, lightning or thunder damage.
+- #### Divine Blessing
+    To use this blessing, you must spend at least 3 Devotion.
 
-#### Prayer: Commune with Civilization
-You know this prayer in addition to your other prayers.
+    ***Protection from Energy***. You have resistance to acid, cold, fire, lightning or thunder damage.
 
-You briefly become one with the order of civilization and gain knowledge of surrounding settlements within 3 miles. You instantly gain knowledge of the following facts about each settlement:
+- #### Prayer: Commune with Civilization
+    You know this prayer in addition to your other prayers.
 
- - Road layouts and landmarks between you and the settlement.
+    You briefly become one with the order of civilization and gain knowledge of surrounding settlements within 3 miles. You instantly gain knowledge of the following facts about each settlement:<br/>
+    -- Road layouts and landmarks between you and the settlement.<br/>
+    -- If powerful extraplanar creatures, fey or undead exist within the settlement.<br/>
+    -- Influence from other planes of existence.<br/>
+    -- Building types of your choice. For example, you could determine the fastest route to a city center, the popular local foods, and the location of any blacksmiths in the area.<br/>
+    -- Prevalent goods, services or factions.<br/>
+    -- An intuitive knowledge of the customs, laws, mores and social etiquette followed within. This only grants knowledge that would be known by most inhabitans of the settlement.
 
- - If powerful extraplanar creatures, fey or undead exist within the settlement.
-
- - Influence from other planes of existence.
-
- - Building types of your choice. For example, you could determine the fastest route to a city center, the popular local foods, and the location of any blacksmiths in the area.
-
- - Prevalent goods, services or factions.
-
- - An intuitive knowledge of the customs, laws, mores and social etiquette followed within. This only grants knowledge that would be known by most inhabitans of the settlement.
+</div>
 
 ### Lawman's Vigor
 The divine essence of your magics can shore up your own frame. Whenever you use Devotion, you gain temporary hit points equal to your paladin level.
@@ -2391,11 +2408,9 @@ Additionally, you have advantage on Charisma checks made to interact with people
 ### Pillar of Society
 You can use an ***action*** and spend 5 Devotion to become an inspiring avatar of cosmic law, whose steps claim the earth for civilization. For 1 minute, your body looks as if it burns with a holy fire, and you gain the following benefits:
 
- - Whenever you or a friendly creature within 30 ft hits with an attack, the attack inflicts an extra 1d6 radiant damage.
-
- - Each hostile creature within 30 ft must subtract 1d6 from any ability check, attack roll, or saving throw it makes.
-
- - You have advantage on saving throws against spells and magical effects from aberrations, demons and fey.
+- Whenever you or a friendly creature within 30 ft hits with an attack, the attack inflicts an extra 1d6 radiant damage.
+- Each hostile creature within 30 ft must subtract 1d6 from any ability check, attack roll, or saving throw it makes.
+- You have advantage on saving throws against spells and magical effects from aberrations, demons and fey.
 
 
 
@@ -2403,9 +2418,36 @@ You can use an ***action*** and spend 5 Devotion to become an inspiring avatar o
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-martyrdom">Oath of Martyrdom</a></h1>
+<div class="featuresTable">
 
-{{}}">wide
-## <a name="internal-martyrdom">Oath of Martyrdom</a>
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Spare the Dying, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Aura of Martyrdom
+| 9th | Strengthening the Divine |
+| 15th | Bear thy Brothers Burden |
+| 20th | Ultimate Sacrifice |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Soul of the Defender***.
+
+</div>
+</div>
+</div>
+
+</div>
 
 The Oath of Martyrdom is perhaps the most selfless of all oaths: to protect and serve, to the death if necessary. They are almost universally known as martyrs, though some also call them sacred defenders, hospitalers or comforters. A paladin swearing an Oath of Martyrdom is not a death-seeker; quite the contrary, it holds life at the highest value, to the extent of being willing to sacrifice something so priceless for something of even greater worth. Their adornments reflect their choice in life: red and purple colors representing blood and penitence (respectively), and sometimes the relic of another holy martyr to remind the paladin of its Oath.
 
@@ -2420,15 +2462,6 @@ The tenets of this Oath involve, at their core, understanding and being a witnes
 
  **Death is the Ultimate Sacrifice**. If I must give my sacred, priceless life, it shall be for something greater. I will not give my life for any less.
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Spare the Dying, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Aura of Martyrdom
-| 9th | Strengthening the Divine |
-| 15th | Bear thy Brothers Burden |
-| 20th | Ultimate Sacrifice |
 
 
 ### Spare the Dying
@@ -2446,11 +2479,15 @@ If you know Compelled Duel, then whenever you use it, you can simultaneously use
 
 In addition you learn the following Channel Divinity option.
 
-#### Divine Ward
-As a ***bonus action*** you can protect your allies from harm. As long as you concentrate, and the target allies are within 10 ft of you, they have resistance to all damage. However, each time they take damage, you take the same amount of damage, and whatever conditions would have affected the allies affect you instead. You make any saving throws as normal.
+<div class="columnstwo">
 
-#### Stigmata
-You can heal the wounds of allies by partaking of their pain and suffering in their stead. Each target, except yourself, heals a number of hit points equal to twice the amount of damage you choose to take. For example, you can heal each target 10 points of damage by taking 5 damage.
+- #### Divine Ward
+    As a ***bonus action*** you can protect your allies from harm. As long as you concentrate, and the target allies are within 10 ft of you, they have resistance to all damage. However, each time they take damage, you take the same amount of damage, and whatever conditions would have affected the allies affect you instead. You make any saving throws as normal.
+
+- #### Stigmata
+    You can heal the wounds of allies by partaking of their pain and suffering in their stead. Each target, except yourself, heals a number of hit points equal to twice the amount of damage you choose to take. For example, you can heal each target 10 points of damage by taking 5 damage.
+
+</div>
 
 ### Aura of Martyrdom
 You can ease the pain of others around you by partaking of their wounds. Allies within 10 ft ignore an amount of hit point damage equal your Charisma modifier, but all damage ignored is taken by you.
@@ -2460,23 +2497,20 @@ At 18th level, the range of this aura increases to 30 ft.
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Divine Blessings
-To use one of these blessings, you must spend at least 3 Devotion.
+<div class="columnstwo">
 
- ***Blessed Martyr***. This blessing can only be used on yourself. You have resistance to bludgeoning, piercing ***and*** slashing damage, as well as any damage you take as result of preventing damage to allies.
+- #### Divine Blessings
+    To use one of these blessings, you must spend at least 3 Devotion.
 
-#### Prayer
-You learn the prayer Revivify in addition to your other prayers known.
+    ***Blessed Martyr***. This blessing can only be used on yourself. You have resistance to bludgeoning, piercing ***and*** slashing damage, as well as any damage you take as result of preventing damage to allies.
 
+- #### Prayer
+    You learn the prayer Revivify in addition to your other prayers known.
 
+- #### Soul of the Defender
+    When you are reduced to below half your hit points, you can choose to begin healing yourself of damage. Using a ***bonus action***, you begin healing hit points equal to your Charisma modifier + your Constitution modifier at the start of each round for 1 minute. Once you use this ability, you can't use it again until you finish a long rest.
 
-
-
-
-
-
-#### Soul of the Defender
-When you are reduced to below half your hit points, you can choose to begin healing yourself of damage. Using a ***bonus action***, you begin healing hit points equal to your Charisma modifier + your Constitution modifier at the start of each round for 1 minute. Once you use this ability, you can't use it again until you finish a long rest.
+</div>
 
 ### Bear thy Brothers Burden
 As a ***reaction*** you can choose to take a spell or effect used by an enemy against an ally within 30 ft. The spell or effect must impose some kind of affliction: a spell like *poison* or the gaze of a Medusa are valid choices, but a *fireball* spell or a dragon's breath won't. If the spell or effect targets multiple creatures, only those within 30 ft of you are not affected, whether you'd be affected or not.
@@ -2489,24 +2523,9 @@ If the effect allows a saving throw, you make it using your own saving throw bon
 ### Ultimate Sacrifice
 You can use an ***action*** and spend 5 Devotion to enter a state where pain and wounds are pointless, as you accept death willingly. While on this state, light emerges from your eyes, as well as any wound you take. For 1 minute or until the end of the battle, you gain the following benefits:
 
- - You remain alive and conscious even if you are at 0 hit points. Track all damage you would take after reaching 0 hp; once the effect is over, you take all this damage instantly, making death saves as usual (or die instantly from massive damage, if applicable).
-
- - Your Aura of Martyrdom instead absorbs an amount of damage equal to five times your Charisma modifier.
-
- - You and all allies within 30 ft gain immunity to ability damage and death effects. You also gain immunity to all spells that restore hit point damage.
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following oath specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-|  | * Regain use of **Soul of the Defender**.
+- You remain alive and conscious even if you are at 0 hit points. Track all damage you would take after reaching 0 hp; once the effect is over, you take all this damage instantly, making death saves as usual (or die instantly from massive damage, if applicable).
+- Your Aura of Martyrdom instead absorbs an amount of damage equal to five times your Charisma modifier.
+- You and all allies within 30 ft gain immunity to ability damage and death effects. You also gain immunity to all spells that restore hit point damage.
 
 
 
@@ -2516,10 +2535,21 @@ The following oath specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-purge">Oath of the Purge</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Razing Flames |
+| 9th | Strengthening the Divine |
+| 15th | Divine Flames |
+| 20th | Burning Path |
 
-{{}}">wide
-## <a name="internal-purge">Oath of the Purge</a>
+</div>
 
 The Oath of the Purge dictates that impurity be cleansed by fire. This impurity may take many forms, such as a cult to an Evil god, a plague of undeath, the invasion of a monstrous war band, or perhaps less overt threats, like a duke who refuses to bow to your glorious cause.
 
@@ -2535,15 +2565,6 @@ Though the nature of any particular Purge varies by incident, the tenets serve a
  **Foster Purity**. I am as the doctor who cauterizes the wound. When I am not on the front lines, it is my duty to serve the pure, the brave, and the healing.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Razing Flames |
-| 9th | Strengthening the Divine |
-| 15th | Divine Flames |
-| 20th | Burning Path |
 
 
 ### Sacred Touch
@@ -2551,27 +2572,31 @@ Each class feature or effect that deals radiant damage instead deals fire damage
 
 In addition, you can spend one additional die from your pool to make it a Searing Smite. You can spend a single die for no extra damage.
 
-{{}}">feature
+<div class="feat">
+
 ## Searing Smite
 Your weapon flares with white-hot intensity and deals fire damage. If the attack deals damage, the target must succeed with a Constitution saving throw or ignite in flames. At the start of each of its turns for as long as you concentrate, up to 1 minute, it takes 1d6 fire damage.
 
 A creature, including the target, can use an action to put out the flames. The target also gains a new save at the end of each of its turns.
 
-
-
+</div>
 
 ### Channel Divinity
 You learn the following two Channel Divinity options:
 
-#### Searing Weapon
-You raise your weapon to shoot forth flames towards your targets. Each target must make a Dexterity saving throw, taking 3d6 fire damage on a failed save, or half as much damage on a successful one. You can spend Devotion to increase the damage dealt by 1d6 per point spent, before targets roll their saves.
+<div class="columnstwo">
 
-#### Wildfire
-You let out a mighty roar which causes fires to jump and spread wildly, causing each burning object within 25 ft to flare with increased energy.
+- #### Searing Weapon
+    You raise your weapon to shoot forth flames towards your targets. Each target must make a Dexterity saving throw, taking 3d6 fire damage on a failed save, or half as much damage on a successful one. You can spend Devotion to increase the damage dealt by 1d6 per point spent, before targets roll their saves.
 
-Creatures adjacent to or sharing a space with a burning object or creature must make a Dexterity saving throw. If a creature fails its saving throw, it takes fire damage equal to 1d6 + your paladin level and catches fire, taking 1d6 fire damage at the start of each of its turns.
+- #### Wildfire
+    You let out a mighty roar which causes fires to jump and spread wildly, causing each burning object within 25 ft to flare with increased energy.
 
-If the target or an adjacent creatures uses an action to put out the flames, or the fire is otherwise doused, the ongoing damage ends. The target also gains a new save at the end of each of its turns. On a successful save, the creature takes half damage and doesn’t catch fire.
+    Creatures adjacent to or sharing a space with a burning object or creature must make a Dexterity saving throw. If a creature fails its saving throw, it takes fire damage equal to 1d6 + your paladin level and catches fire, taking 1d6 fire damage at the start of each of its turns.
+
+    If the target or an adjacent creatures uses an action to put out the flames, or the fire is otherwise doused, the ongoing damage ends. The target also gains a new save at the end of each of its turns. On a successful save, the creature takes half damage and doesn’t catch fire.
+
+</div>
 
 ### Razing Flames
 Your spells and features that deal fire damage also burn objects caught in the conflagration. Unattended, non-magical objects caught in such areas of effect are destroyed if the object’s break DC is less than your Strength of devotion save DC.
@@ -2579,48 +2604,55 @@ Your spells and features that deal fire damage also burn objects caught in the c
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Divine Blessings
-To use this blessing, you must spend at least 3 Devotion.
+<div class="columnstwo">
 
- ***Protection from Energy***. You have resistance to cold and fire damage.
-
-#### Channel Divinity: Conflagration
-You know this Channel Divinity option in addition to your other options.
-
-Raising your sword causes it to blossoms with a low roar into an explosion of flame. Each creature in a 20 ft radius around you must make a Dexterity saving throw, taking 8d6 fire damage on a failed save, or half as much damage on a successful one. Each of your targets is completely shielded from the flames.
-
-The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
+- #### Divine Blessings
+    To use this blessing, you must spend at least 3 Devotion.
 
 
+    ***Protection from Energy***. You have resistance to cold and fire damage.
 
+- #### Channel Divinity: Conflagration
+    You know this Channel Divinity option in addition to your other options.
 
+    Raising your sword causes it to blossoms with a low roar into an explosion of flame. Each creature in a 20 ft radius around you must make a Dexterity saving throw, taking 8d6 fire damage on a failed save, or half as much damage on a successful one. Each of your targets is completely shielded from the flames.
 
+    The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.
 
+</div>
 
 
 ### Divine Flames
 As a ***bonus action*** you can spend 1 Devotion to make your fires burn with divine fury. While you keep your concentration, half of the fire damage you deal becomes radiant damage.
 
 
-
 ### Burning Path
 You can use an ***action*** and spend 5 Devotion to wreath yourself in flames. For 1 minute you gain the following benefits:
 
- - The flames extends in a 10 ft radius, emanates bright light in a 30 ft radius, and dim light 60 ft beyond that.
-
- - Whenever a hostile creature enters the wreath of flame for the first time on its turn or starts its turn there, the creature takes 40 fire damage.
-
- - You have immunity to fire damage and resistance to cold damage.
+- The flames extends in a 10 ft radius, emanates bright light in a 30 ft radius, and dim light 60 ft beyond that.
+- Whenever a hostile creature enters the wreath of flame for the first time on its turn or starts its turn there, the creature takes 40 fire damage.
+- You have immunity to fire damage and resistance to cold damage.
 
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-radiance">Oath of Radiance</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Revealing the Hidden, Sacred Touch |
+| 3rd | Channel Divinity, Oath Spells |
+| 7th | Aura of Light |
+| 13th | Strengthening the Divine |
+| 15th | All-Seeing |
+| 20th | Divine Champion |
 
-{{}}">wide
-## <a name="internal-radiance">Oath of Radiance</a>
+</div>
 
 The Oath of Radiance is as old as the sun that it follows. Often called sun warriors or shining knights, paladins that swear to this oath seek to bring light and knowledge to even the darkest areas of the world. They adorn their armor with images of the sun and the stars, holy lights that bring life and knowledge to this world, revealing all that is hidden by shadow and darkness.
 
@@ -2636,15 +2668,6 @@ Most paladins of the Oath of Radiance share these tenets:
  **Hope**. Nothing is inevitable. When light is being consumed by darkness, continue fighting until your final breath. There is always a better outcome be had.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Revealing the Hidden, Sacred Touch |
-| 3rd | Channel Divinity, Oath Spells |
-| 7th | Aura of Light |
-| 13th | Strengthening the Divine |
-| 15th | All-Seeing |
-| 20th | Divine Champion |
 
 
 ### Revealing the Hidden
@@ -2655,24 +2678,31 @@ When you use the Divine Smite feature, your weapon gleams with astral radiance a
 
 In addition you gain access to the following divine blessing:
 
- ***Banish Dazzle***. You become immune to being blinded by light, can see through nonmagical mirages and optical illusions, and have advantage on saving throws against spells that create visual illusions or cause blindness through light, color, or flame, such as blinding smite, color spray, or holy aura.
+<div class="columnstwo">
 
+- ***Banish Dazzle***. You become immune to being blinded by light, can see through nonmagical mirages and optical illusions, and have advantage on saving throws against spells that create visual illusions or cause blindness through light, color, or flame, such as blinding smite, color spray, or holy aura.
+
+</div>
 
 
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### Divine Revelation
-A bright light shines down in a 40 ft high cylinder with a 10 ft radius centered on a point within range. The light dispels illusions and magical darkness, and remains for 1 minute, or until you lose concentration.
+<div class="columnstwo">
 
-When an invisible creature, shapechanger or creature transformed through magic enters the area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half that on a successful one.
+- #### Divine Revelation
+    A bright light shines down in a 40 ft high cylinder with a 10 ft radius centered on a point within range. The light dispels illusions and magical darkness, and remains for 1 minute, or until you lose concentration.
 
-If the creature fails, it also instantly becomes visible, or reverts to its original form and can’t assume a different form until it leaves the light.
+    When an invisible creature, shapechanger or creature transformed through magic enters the area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half that on a successful one.
 
-On each of your turns, you can use an ***action*** to move the beam 60 feet in any direction.
+    If the creature fails, it also instantly becomes visible, or reverts to its original form and can’t assume a different form until it leaves the light.
 
-#### Blinding intervention
-As a ***bonus action***, you can raise your weapon to make it flash of blinding light. Each target must make at a Constitution saving throw, becoming blinded on a failed save. A creature blinded by this spell makes a new saving throw at the end of each of its turns, ending the effect on a success.
+    On each of your turns, you can use an ***action*** to move the beam 60 feet in any direction.
+
+- #### Blinding intervention
+    As a ***bonus action***, you can raise your weapon to make it flash of blinding light. Each target must make at a Constitution saving throw, becoming blinded on a failed save. A creature blinded by this spell makes a new saving throw at the end of each of its turns, ending the effect on a success.
+
+</div>
 
 ### Aura of Light
 You may choose to be surrounded by an aura of light. While this aura is active, you shed bright light in a 10 ft radius, and dim light for 50 ft beyond that. Friendly creatures within the bright light have advantage on death saves.
@@ -2682,30 +2712,25 @@ At 18th level, the range of the bright light increases to 30 ft, and the dim lig
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Channel Divinity: Zone of Truth
-You know the Zone of Truth Channel Divininty option in addition to your other options.
+<div class="columnstwo">
 
-#### Light
-You can cast the *light* spell at will.
+- #### Channel Divinity: Zone of Truth
+    You know the Zone of Truth Channel Divininty option in addition to your other options.
+
+- #### Light
+    You can cast the *light* spell at will.
+
+</div>
 
 ### All-Seeing
 You are able to see invisible creatures and objects, out to a range of 30 ft.
 
 
-
-
-
-
-
-
-
 ### Divine Champion
 You can use an ***action*** and spend 5 Devotion to assume the form of a dazzlingly radiant warrior. For 1 minute you gain the following benefits:
 
- - You have advantage on all saves against magic effects and resistance to all damage.
-
- - When a creature hits you with an attack, you may use your ***reaction*** to release a flare of light. Each creature within 5 ft of you must then succeed on a Constitution saving throw or take 2d8 radiant damage and become blinded until the end of their next turn.
-
+- You have advantage on all saves against magic effects and resistance to all damage.
+- When a creature hits you with an attack, you may use your ***reaction*** to release a flare of light. Each creature within 5 ft of you must then succeed on a Constitution saving throw or take 2d8 radiant damage and become blinded until the end of their next turn.
 
 
 
@@ -2713,8 +2738,21 @@ You can use an ***action*** and spend 5 Devotion to assume the form of a dazzlin
 
 
 
-{{}}">wide
-## <a name="internal-redemption">Oath of Redemption</a>
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-redemption">Oath of Redemption</a></h1>
+<div class="featuresTable">
+
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Negotiator, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Aura of Absolution |
+| 9th | Strengthening the Divine |
+| 15th | Protective Spirit |
+| 20th | Emissary of Redemption |
+
+</div>
 
 Paladins who dedicate themselves to this oath believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk.
 
@@ -2736,19 +2774,6 @@ The tenets of the Oath of Redemption hold a paladin to a high standard of peace 
  **Wisdom**. Your heart and mind must stay clear, for eventually you will be forced to admit defeat. While every creature can be redeemed, some are so far along the path of evil that you have no choice but to end their lives for the greater good. Any such action must be carefully weighed and the consequences fully understood, but once you have made the decision, follow through with it knowing your path is just.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Negotiator, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Aura of Absolution |
-| 9th | Strengthening the Divine |
-| 15th | Protective Spirit |
-| 20th | Emissary of Redemption |
-
-
-
-
 ### Negotiator
 Divine power guides your efforts for peace and settlement. When you take this oath, you gain proficiency with Diplomacy and Negotiation.
 
@@ -2760,13 +2785,17 @@ If you deal only 1 extra psychic damage, the target must make a Wisdom saving th
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### Halting Presence
-You can use your Channel Divinity to forcefully shout a command for enemies to halt. Targets that fail a Wisdom saving throw cannot make any actions, except reactions. This lasts until you do not use an action to hold the spell or lose concentration. In addition, targets can make another Wisdom saving throw at the end of each of their turns, to end the effect on themself only.
+<div class="columnstwo">
 
-This has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it.
+- #### Halting Presence
+    You can use your Channel Divinity to forcefully shout a command for enemies to halt. Targets that fail a Wisdom saving throw cannot make any actions, except reactions. This lasts until you do not use an action to hold the spell or lose concentration. In addition, targets can make another Wisdom saving throw at the end of each of their turns, to end the effect on themself only.
 
-#### Rebuke the Violent
-You can rebuke those who use violence. As a ***reaction***  after an attacker within 30 ft deals damage against a creature other than you, force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage.
+    This has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it.
+
+- #### Rebuke the Violent
+    You can rebuke those who use violence. As a ***reaction***  after an attacker within 30 ft deals damage against a creature other than you, force the attacker to make a Wisdom saving throw. On a failed save, the attacker takes radiant damage equal to the damage it just dealt. On a successful save, it takes half as much damage.
+
+</div>
 
 ### Aura of Absolution
 You and any friendly creatures within 10 ft have advantage on saves against mental effects while you are conscious.
@@ -2776,16 +2805,13 @@ At 18th level, the range of this effect increases to 30 ft.
 ### Strengthening the Divine
 You gain access to the following Divine Blessings, each costing at least 3 Devotion.
 
- ***Protection from Energy***. You have resistance to acid, cold, fire, lightning or thunder damage.
+<div class="columnstwo">
 
- ***Sentinel of Nature***. This blessing can only be used on yourself. You have resistance to bludgeoning, piercing ***and*** slashing damage.
+- ***Protection from Energy***. You have resistance to acid, cold, fire, lightning or thunder damage.
 
+- ***Sentinel of Nature***. This blessing can only be used on yourself. You have resistance to bludgeoning, piercing ***and*** slashing damage.
 
-
-
-
-
-
+</div>
 
 ### Protective Spirit
 A holy presence mends your wounds after battle. You regain hit points equal to half your paladin level if you begin a short rest with fewer than half of your hit points remaining and you aren’t incapacitated.
@@ -2795,9 +2821,8 @@ A holy presence mends your wounds after battle. You regain hit points equal to h
 ### Emissary of Redemption
 You become an avatar of peace.
 
- - You have resistance to all damage dealt by other creatures.
-
- - Whenever a creature hits you with an attack, it takes radiant damage equal to half the damage you take from the attack.
+- You have resistance to all damage dealt by other creatures.
+- Whenever a creature hits you with an attack, it takes radiant damage equal to half the damage you take from the attack.
 
 If you attack a creature, target it with a spell or effect, or deal damage to it by any means but this feature, neither benefit works against that creature until you finish a long rest.
 
@@ -2807,10 +2832,21 @@ If you attack a creature, target it with a spell or effect, or deal damage to it
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-redemption">Oath of Redemption</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Voice of Certainty, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Aura of Certitude |
+| 13th | Strengthening the Divine |
+| 15th | Soul of Disdain |
+| 20th | Aspect of Perfection |
 
-{{}}">wide
-## <a name="internal-supremacy">Oath of Supremacy</a>
+</div>
 
 Taking the Oath of Supremacy is a declaration that your cause is the one, the true, and the only; to use the word “best” would imply a sense of competition. Paladins may proclaim the moral supremacy of any single cause, such as their faith, ideal, leader, movement, order, race, or sect. Such paladins indicate their elite status by donning the telltale emblems of their cause, be it their national colors, their order’s sigil, or their leader’s dress code. Outsiders refer to them as supremacists or gold knights, but these paladins would prefer to be greeted as brothers and sisters of the faith.
 
@@ -2824,15 +2860,6 @@ The tenets of the Oath of Supremacy vary by paladin and cause, but all guide the
  **All for the Cause**. For the community of your cause, you must serve, sacrifice, and obey.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Voice of Certainty, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Aura of Certitude |
-| 13th | Strengthening the Divine |
-| 15th | Soul of Disdain |
-| 20th | Aspect of Perfection |
 
 
 ### Voice of Certainty
@@ -2841,23 +2868,28 @@ When you take this oath, you act with unwavering confidence. You gain proficienc
 ### Sacred Touch
 When you use the Divine Smite feature, you can spend one additional die from your pool to make it a Wrathful Smite. You can spend a single die for no extra damage.
 
-{{}}">feature
+<div class="feat">
+
 ## Wrathful Smite
 The target must make a Wisdom saving throw or be frightened of you for as long as you concentrate, up to 1 minute. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.
 
-
+</div>
 
 
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### Invoke Fealty
-You can use your Channel Divinity to compel a foe to kneel before you. Pointing to a creature within 10 ft, you fill it with fear and awe. The creature must succeed on a Charisma saving throw or fall prone, groveling.
+<div class="columnstwo">
 
-While groveling, the creature’s speed is reduced to 0 and it cannot take actions or reactions as long as you keep concentration. The target has advantage on its saving throw if it has more hit points than you. The creature repeats the saving throw at the end of each of its turns. On a success, the effect ends.
+- #### Invoke Fealty
+    You can use your Channel Divinity to compel a foe to kneel before you. Pointing to a creature within 10 ft, you fill it with fear and awe. The creature must succeed on a Charisma saving throw or fall prone, groveling.
 
-#### Vow of Disdain
-As a ***bonus action***, you can utter a vow of disdain against a creature you can see within 10 ft. The vow shrouds you in warding energy for one minute, or until you or the target drop to 0 hit points or fall unconscious. While affected by your vow of disdain, the creature has disadvantage on attack rolls and ability checks against you.
+    While groveling, the creature’s speed is reduced to 0 and it cannot take actions or reactions as long as you keep concentration. The target has advantage on its saving throw if it has more hit points than you. The creature repeats the saving throw at the end of each of its turns. On a success, the effect ends.
+
+- #### Vow of Disdain
+    As a ***bonus action***, you can utter a vow of disdain against a creature you can see within 10 ft. The vow shrouds you in warding energy for one minute, or until you or the target drop to 0 hit points or fall unconscious. While affected by your vow of disdain, the creature has disadvantage on attack rolls and ability checks against you.
+
+</div>
 
 ### Aura of Certitude
 You and all friendly creatures within 10 ft gain a bonus to Charisma checks and Charisma saving throws equal to your Strength modifier.
@@ -2865,53 +2897,58 @@ You and all friendly creatures within 10 ft gain a bonus to Charisma checks and 
 At 18th level, the range of this aura increases to 30 ft.
 
 ### Strengthening the Divine
-You gain access to the following.
-
-#### Divine Blessings
+You gain access to the following Divine Blessings.
 To use one of these blessings, you must spend at least 3 Devotion. They can only be used on yourself.
 
- ***Sacred Armor***. You focus divine power into your shield or your armor. For ***1 minute*** you add half your Charisma modifier (round up) to your AC and are immune to critical hits. Your armor or shield also emits bright light in a 20 ft radius and dim light for 20 ft beyond that. You can end this effect on your turn as part of any other action. If you fall unconscious, or are no longer wearing this armor or holding the shield this effect ends.
+<div class="columnstwo">
 
- ***Sentinel of Superiority***. You have resistance to bludgeoning, piercing ***and*** slashing damage.
+- ***Sacred Armor***. You focus divine power into your shield or your armor. For ***1 minute*** you add half your Charisma modifier (round up) to your AC and are immune to critical hits. Your armor or shield also emits bright light in a 20 ft radius and dim light for 20 ft beyond that. You can end this effect on your turn as part of any other action. If you fall unconscious, or are no longer wearing this armor or holding the shield this effect ends.
+
+- ***Sentinel of Superiority***. You have resistance to bludgeoning, piercing ***and*** slashing damage.
+
+</div>
 
 ### Soul of Disdain
 You need not waste your time to deal with the foe denounced by your Vow of Disdain. When a creature affected by your Vow of Disdain makes an attack, they instantly take radiant damage equal to 1d10 + your Charisma modifier.
-
-
-
-
-
-
-
 
 ### Aspect of Perfection
 You can use an ***action*** and spend 5 Devotion to ascend to a more perfect form. As you approach perfection, you emanate a holy glow, and gusts of ethereal wind follow your movements. Your body itself may also change by adding muscle mass, healing from old scars, aging to become more proud and intimidating, or returning to the beauty and power of youth.
 
 For 1 minute, you gain the following benefits:
 
- - You gain resistance to all damage, except psychic damage.
-
- - You gain the benefits of the *haste* spell, and do not have to maintain concentration on it.
-
+- You gain resistance to all damage, except psychic damage.
+- You gain the benefits of the *haste* spell, and do not have to maintain concentration on it.
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-tomorrow">Oath of Tomorrow</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Mechanist, Sacred Touch |
+| 3rd | Channel Divinity, Strengthening the Divine |
+| 7th | Aura of Progress |
+| 9th | Strengthening the Divine |
+| 13th | Prayer: Fabricate |
+| 15th | Electric Feedback |
+| 20th | Avant Guardian |
 
-{{}}">wide
-## <a name="internal-tomorrow">Oath of Tomorrow</a>
-
-*The present is theirs. The future, for which I really worked, is mine.*
-
-—Nikola Tesla
+</div>
 
 To some, the age of a world is marked by its changes, the advancements and progress made in thought, machinery, and life. The club gives way to the spear, then the sword; crude sorceries and pacts give way to wizardly arcana; and the wandering tribe becomes a village, then a city, then an empire. Society itself grows, shaking off yesterday's technology and tinkering with new mechanics, new magics, new lives.
 
 Those who swear the oath of tomorrow believe in the virtue of this progress and strive to push the world forward, opposing reactionaries who would stand against such. They are guardians of universities, inquisitive natural philosophers, and advocates for the power of machinery and other forms of artificial locomotion.
 
 In many circles of thinkers, these paladins are called philosopher-knights and morrowbringers, and they may follow gods of technology, such as Gond or Brigh, or swear fealty to deities of logic and progress, like Draxis. Others yet may worship none, instead espousing pure reason as greater than faith. Be they pure machinists or fiery advocates for social rearrangement, these paladins wield powers from their personal vision of the future as they quest to put an end to the most recent chapter of history.
+
+> *"The present is theirs. The future, for which I really worked, is mine."*
+>
+> -- Nikola Tesla
 
 #### Tenets of Tomorrow
 The tenets of tomorrow are a newly crafted vow, often mutating to better fit the rapidly progressing world philosopher-knights and morrowbringers seek after.
@@ -2927,16 +2964,6 @@ The tenets of tomorrow are a newly crafted vow, often mutating to better fit the
 
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Mechanist, Sacred Touch |
-| 3rd | Channel Divinity, Strengthening the Divine |
-| 7th | Aura of Progress |
-| 9th | Strengthening the Divine |
-| 13th | Prayer: Fabricate |
-| 15th | Electric Feedback |
-| 20th | Avant Guardian |
 
 
 ### Mechanist
@@ -2945,49 +2972,52 @@ You have envisioned a mechanical future and labor to bring it to pass. When you 
 ### Sacred Touch
 When you use the Divine Smite feature, you can spend one additional die from your pool to make it a Deconstructing Smite. You can spend a single die for no extra damage.
 
-{{}}">feature
+<div class="feat">
+
 ## Deconstructing Smite
 If the target is a construct, and is reduced to 50 hit points or fewer with this attack, it stops functioning, i.e. becomes stunned. If it has more than 50 hp, it avoids the effect on a successful Constitution save.
 
 It remains like this for as long as you concentrate, up to 1 minute, or until it receives damage, at which point it starts functioning again.
 
+</div>
 
 ### Channel Divinity
 You learn the following Channel Divinity options.
 
-#### Implements of Progress
-A 10 ft radius around you is covered by tools of progress, either grease or steam, for 1 minute. In both cases the effect spreads around corners.
+<div class="columnstwo">
 
-If you select ***grease***, the ground becomes very slippery, turning it into difficult terrain. Each creature except you that enters the area or ends its turn there must succeed on a Dexterity saving throw or fall prone.
+- #### Implements of Progress
+    A 10 ft radius around you is covered by tools of progress, either grease or steam, for 1 minute. In both cases the effect spreads around corners.
 
-If you select ***steam***, the area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
+    If you select ***grease***, the ground becomes very slippery, turning it into difficult terrain. Each creature except you that enters the area or ends its turn there must succeed on a Dexterity saving throw or fall prone.
 
-#### Turn the Antiquated
-You offer an indictment of that which would hold back progress. Each aberration or dragon that can see or hear you within 30 ft must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+    If you select ***steam***, the area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
 
+- #### Turn the Antiquated
+    You offer an indictment of that which would hold back progress. Each aberration or dragon that can see or hear you within 30 ft must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
 
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move within 30 ft of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.
 
-
-
-
-
-
-A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move within 30 ft of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.
+</div>
 
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Divine Blessings
-To use one of these blessings, you must spend at least 1 Devotion.
+<div class="columnstwo">
 
- ***Empower Invention***. You imbue your weapon with electricity. For ***1 minute***, attacks made with that weapon become magical, inflict extra lightning damage equal to your Charisma modifier, and emits bright light in a 10 ft radius and dim light 10 ft beyond that.
+- #### Divine Blessings
+    To use one of these blessings, you must spend at least 1 Devotion.
 
- Alternatively, you can use this on a friendly construct. For ***1 minute***, its damage is magical, it inflict extra lightning damage equal to your Charisma modifier and emits bright light in a 10 ft radius and dim light 10 ft beyond that.
+    ***Empower Invention***. You imbue your weapon with electricity. For ***1 minute***, attacks made with that weapon become magical, inflict extra lightning damage equal to your Charisma modifier, and emits bright light in a 10 ft radius and dim light 10 ft beyond that.
 
-#### Prayer: Embrace Destiny
-Your prayer reveals a murky vision of things to come. Roll a d20 and record the number rolled. Before the start of your next long rest you can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with the foretold roll. You must choose to do this before the affected roll is made. Once the foretold roll is used it is lost.
+    Alternatively, you can use this on a friendly construct. For ***1 minute***, its damage is magical, it inflict extra lightning damage equal to your Charisma modifier and emits bright light in a 10 ft radius and dim light 10 ft beyond that.
 
-This prayer can only be made once between each long rest.
+- #### Prayer: Embrace Destiny
+    Your prayer reveals a murky vision of things to come. Roll a d20 and record the number rolled. Before the start of your next long rest you can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with the foretold roll. You must choose to do this before the affected roll is made. Once the foretold roll is used it is lost.
+
+    This prayer can only be made once between each long rest.
+
+</div>
 
 ### Aura of Progress
 You radiate divine advancement, shielding creatures against stupor and stagnation. You and friendly creatures within 10 ft of you are immune to being paralyzed or stunned while you are conscious.
@@ -3019,35 +3049,43 @@ Whenever a creature hits you with a melee attack, it takes lightning damage equa
 ### Avant Guardian
 You can use an ***action*** and spend 5 Devotion to manifest your advocacy for progress in your own visage, fusing flesh, magic, and steel. Using your ***action***, you undergo the transformation. For 1 minute, you gain the following benefits:
 
- - Your grow to large size, and your equipment grows with you, doubling your reach.
-
- - You are immune to poison, psychic, and lightning damage.
-
- - You are immune to being charmed, exhausted, frightened, petrified, or poisoned, and magic cannot put you to sleep.
-
- - You are resistant to nonmagical bludgeoning, piercing, and slashing damage inflicted by weapons that are not made of adamantine.
-
- - Your melee weapon attacks inflict an additional die of damage and count as magical if they do not already.
+- Your grow to large size, and your equipment grows with you, doubling your reach.
+- You are immune to poison, psychic, and lightning damage.
+- You are immune to being charmed, exhausted, frightened, petrified, or poisoned, and magic cannot put you to sleep.
+- You are resistant to nonmagical bludgeoning, piercing, and slashing damage inflicted by weapons that are not made of adamantine.
+- Your melee weapon attacks inflict an additional die of damage and count as magical if they do not already.
 
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-tradition">Oath of Tradition</a></h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Divine Sense, Historian, Sacred Touch |
+| 3rd | Channel Divinity, Prayer: Funeral Rite |
+| 7th | Aura of Reverence |
+| 9th | Prayers |
+| 13th | Guardian Spirits |
+| 15th | Prayer: Commune with Spirits |
+| 20th | Bridge to the Past |
 
-{{}}">wide
-## <a name="internal-tradition">Oath of Tradition</a>
-
-*"History is a people's memory, and without a memory, man is demoted to the lower animals."*
-
-—Malcolm X
+</div>
 
 The world survives on the foundation of what has gone before: Today's peace was hewn won by forebears' blood, and today's world was hewn by yesterday's kings. Every mortal springs forth from this foundation of history, born to parents, growing through society, and learning from the mistakes and successes of yore. Despite this, the past is an ephemeral thing, surviving on the merits of fragile archives and errant memory. And when a mortal dies, they are removed from this plane, doomed to be forgotten if care is not taken.
 
 Those who swear the Oath of Tradition recognize the value of history, of lore, of the past. Called knight-chroniclers or yore-guards by some, these paladins are protectors of traditional institutions as well as keepers of those stories that would otherwise be forgotten, be it the grand epic of a dead empire, recorded on but one surviving manuscript, or the joyful memories of an elder recollecting the first harvest festival of a village no longer so young.
 
 These paladins can be found in service to gods of home and civilization, such as Estanna or Erathis, under the authority of grand archives and keepers of history, or in temples and shrines dedicated to the remembrance and veneration of deceased ancestry. Many can be found questing through the world in search for stories that would otherwise be forgotten. Others travel in order to stand in opposition to forces that threaten to destroy what came before.
+
+> *"History is a people's memory, and without a memory, man is demoted to the lower animals."*
+>
+> -- Malcolm X
 
 #### Tenets of Tradition
 Different cultures vary slightly in how each articulates the oath of tradition. Nevertheless, it is universally handed down from effectively antiquity, no matter the place or time of its bearer.
@@ -3063,16 +3101,6 @@ Different cultures vary slightly in how each articulates the oath of tradition. 
 
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Divine Sense, Historian, Sacred Touch |
-| 3rd | Channel Divinity, Prayer: Funeral Rite |
-| 7th | Aura of Reverence |
-| 9th | Prayers |
-| 13th | Guardian Spirits |
-| 15th | Prayer: Commune with Spirits |
-| 20th | Bridge to the Past |
 
 
 ### Divine Sense
@@ -3084,32 +3112,31 @@ When you take this oath, you are keenly familiar with the world of the past and 
 ### Sacred Touch
 When you use the Divine Smite feature, you can spend one additional die from your pool to make it a Deconstructing Smite. You can spend a single die for no extra damage.
 
-{{}}">feature
+<div class="feat">
+
 ## Deconstructing Smite
 If the target is a construct, and is reduced to 50 hit points or fewer with this attack, it stops functioning, i.e. becomes stunned. If it has more than 50 hp, it avoids the effect on a successful Constitution save.
 
 It remains like this for as long as you concentrate, up to 1 minute, or until it receives damage, at which point it starts functioning again.
 
+</div>
 
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### Invoke Legacy
-You call upon the spirits of those who have passed, granting your targets inspiration. Each target gains a Spirit die. A Spirit die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
+<div class="columnstwo">
 
-This can be made after making the roll but before the results are revealed. If the bonus is not used before 10 minutes have passed, a target instead gains 1d8 temprary hp.
+- #### Invoke Legacy
+    You call upon the spirits of those who have passed, granting your targets inspiration. Each target gains a Spirit die. A Spirit die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
 
+    This can be made after making the roll but before the results are revealed. If the bonus is not used before 10 minutes have passed, a target instead gains 1d8 temprary hp.
 
+- #### Turn Machination
+    You can use your Channel Divinity to abjure fabricated locomotion. Each construct or undead that can see or hear you within 30 ft of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
 
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 ft of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.
 
-
-
-
-
-#### Turn Machination
-You can use your Channel Divinity to abjure fabricated locomotion. Each construct or undead that can see or hear you within 30 ft of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
-
-A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 ft of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.
+</div>
 
 ### Funeral Rite
 You know this Prayer in addition to your other prayers.
@@ -3124,19 +3151,21 @@ At 18th level, the range of this aura increases to 30 ft.
 ### Prayers
 You learn one additional Prayer or your choice, and also gain access to the following oath specific prayers.
 
-#### Know Customs
-The spirits that have long lives in the area grants you knowledge of the customs, laws, mores and social etiquette of the tribes, village or other settlement in the area. The spirits reveal only such knowledge that would be commonly known by most people in the area.
+<div class="columnstwo">
 
-Typical information revealed includes common courtesies (outsiders must avert their eyes when addressing local officials), restrictions (no dogs are allowed inside the city limits), important festivals and so forth.
+- #### Know Customs
+    The spirits that have long lives in the area grants you knowledge of the customs, laws, mores and social etiquette of the tribes, village or other settlement in the area. The spirits reveal only such knowledge that would be commonly known by most people in the area.
 
-#### Speak with Dead
-Your prayer grants the semblance of life and intelligence to a corpse, allowing it to answer the questions you pose. The corpse must still have a mouth and can’t be undead. The spell fails if the corpse was the target of this prayer within the last 10 days.
+    Typical information revealed includes common courtesies (outsiders must avert their eyes when addressing local officials), restrictions (no dogs are allowed inside the city limits), important festivals and so forth.
 
+- #### Speak with Dead
+    Your prayer grants the semblance of life and intelligence to a corpse, allowing it to answer the questions you pose. The corpse must still have a mouth and can’t be undead. The spell fails if the corpse was the target of this prayer within the last 10 days.
 
+    While you are performing the prayer, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This doesn’t return the creature’s soul to its body, only its animating spirit.
 
-While you are performing the prayer, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This doesn’t return the creature’s soul to its body, only its animating spirit.
+    Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events.
 
-Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events.
+</div>
 
 ### Guardian Spirits
 You can spend 4 Devotion to summon spirits of your ancestors. Their spectral forms flit around you to a distance of 15 ft. The first time each round a creature in the area makes an attack against you or your allies, it must make a Dexterity saving throw. On a failed save, the creature takes 3d8 necrotic damage, or half as much damage on a successful one.
@@ -3157,23 +3186,13 @@ You commune with the spirits of the past to gain answers to your questions, eith
 If you use this prayer two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each use after the first that you get no answer.
 
 
-
-
-
-
-
-
-
 ### Bridge to the Past
 You can use an ***action*** and spend 5 Devotion to channel the legacy of history. For 1 minute, you are surrounded by spirit beings who confer the following benefits:
 
- - You can touch and make melee attacks against creatures within 30 ft of you.
-
- - When you take the attack action, you can make one additional attack as part of that action.
-
- - You gain the benefit of three-quarters cover against all ranged attacks targeting you and of half-cover against all melee attacks targeting you.
-
- - Space within 30 ft is considered difficult terrain for hostile creatures.
+- You can touch and make melee attacks against creatures within 30 ft of you.
+- When you take the attack action, you can make one additional attack as part of that action.
+- You gain the benefit of three-quarters cover against all ranged attacks targeting you and of half-cover against all melee attacks targeting you.
+- Space within 30 ft is considered difficult terrain for hostile creatures.
 
 
 
@@ -3182,17 +3201,30 @@ You can use an ***action*** and spend 5 Devotion to channel the legacy of histor
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-vengeance">Oath of Vengeance</a></h1>
+<div class="featuresTable">
 
-{{}}">wide
-## <a name="internal-vengeance">Oath of Vengeance</a>
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Hunter, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Relentless Avenger |
+| 15th | Soul of Vengeance |
+| 17th | Strengthening the Divine |
+| 20th | Avenging Angel |
 
-*"I don't care what it does to me, I only care what I can do to them."*
-
--Shovan the Marked, avenger of justice
+</div>
 
 The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside - at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins, sometimes called avengers or dark knights - their own purity is not as important as delivering justice.
 
 Born to the sword, the avenger has experienced first-hand the devastation that violence can cause. He accepts any cost to have his vengeance, even to the forfeit of his very soul. What does not kill him makes him stronger. His anger is personal and unfettered; a hatred that is as like to consume his own soul as it is the foes they have sworn to destroy.
+
+> *"I don't care what it does to me, I only care what I can do to them."*
+>
+> -- Shovan the Marked, avenger of justice
+
 
 #### Tenets of Vengeance
 The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.
@@ -3206,15 +3238,6 @@ The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve 
  **Vengeance at all Costs**. The marring of your own soul, even a fall to evil, is an acceptable compromise in order to do what must be done. There is no price too high or feat too great when revenge is at hand. My qualms can't get in the way of exterminating my foes.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Hunter, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Relentless Avenger |
-| 15th | Soul of Vengeance |
-| 17th | Strengthening the Divine |
-| 20th | Avenging Angel |
 
 
 
@@ -3225,35 +3248,34 @@ You are keen to identify danger, injustice, and your quarry's trail. When you ta
 ### Sacred Touch
 When you spend Devotion to use Divine Smite, you can forgo rolling 1 or more of your dice to instead use Vengeful Smite.
 
-{{}}">feature
+<div class="feat">
+
 ## Vengeful Smite
 The target must make a Wisdom saving throw or be frightened of you. At the end of each of its turns, the target can make another Wisdom saving throw to end the effect.
 
 If the target succeeds on a save against this blessing, it takes 1d4 necrotic damage for each Devotion you spent.
 
+</div>
 
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### Abjure Enemy
-By speaking a prayer of denunciation, your targets are forced to make a Wisdom saving throw, unless immune to being frightened. Fiends and undead have disadvantage on this saving throw.
+<div class="columnstwo">
 
-On a failed save, the targets are frightened for 1 minute or until they takes any damage. While frightened this way, a creature's speed is 0, and it can't benefit from any bonus to its speed. On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.
+- #### Abjure Enemy
+    By speaking a prayer of denunciation, your targets are forced to make a Wisdom saving throw, unless immune to being frightened. Fiends and undead have disadvantage on this saving throw.
 
-#### Vow of Enmity
-You utter a vow of enmity against a single creature you can see within 10 ft and mark it as your target of vengeance. You gain advantage on attack rolls against the target for 1 minute, until you lose concentration or until it drops to 0 hit points. While marked, you also have advantage on any Perception or Tracking checks you make to find it.
+    On a failed save, the targets are frightened for 1 minute or until they takes any damage. While frightened this way, a creature's speed is 0, and it can't benefit from any bonus to its speed. On a successful save, the creature's speed is halved for 1 minute or until the creature takes any damage.
 
-If you spend 3 Devotion when Channeling, the duration is extended to the end of your next long rest (which allows you to renew it).
+- #### Vow of Enmity
+    You utter a vow of enmity against a single creature you can see within 10 ft and mark it as your target of vengeance. You gain advantage on attack rolls against the target for 1 minute, until you lose concentration or until it drops to 0 hit points. While marked, you also have advantage on any Perception or Tracking checks you make to find it.
+
+    If you spend 3 Devotion when Channeling, the duration is extended to the end of your next long rest (which allows you to renew it).
+
+</div>
 
 ### Relentless Avenger
 Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an opportunity attack, you can move up to half your speed immediately after the attack and as part of the same reaction. This movement doesn't provoke opportunity attacks.
-
-
-
-
-
-
-
 
 ### Soul of Vengeance
 Starting at 15th level, the authority with which you speak your Vow of Enmity gives you greater power over your foe. When a creature under the effect of your Vow of Enmity makes an attack, you can use your ***reaction*** to make a melee weapon attack against that creature if it is within range.
@@ -3261,24 +3283,25 @@ Starting at 15th level, the authority with which you speak your Vow of Enmity gi
 ### Strengthening the Divine
 You know the following two options in addition to your other known Channel Divinity options and Prayers.
 
-#### Channel Divinity: Relentless
-As a ***reaction*** when a creature within 30 ft teleports, plane shifts or uses any other means of extradimensional transport, your willing targets are transported within 10 ft of the creature
+<div class="columnstwo">
 
-#### Prayer: Scrying
-As long as the target of your Vow of Enmity is on the same plane of existence, you can attempt to observe it. If the target succeeds with a Wisdom saving throw, it isn’t affected, and you can’t use this prayer against it again for until after a long rest.
+- #### Channel Divinity: Relentless
+    As a ***reaction*** when a creature within 30 ft teleports, plane shifts or uses any other means of extradimensional transport, your willing targets are transported within 10 ft of the creature
 
-On a failed save, an invisible sensor appears within 10 ft of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 ft of it for the duration. A creature that can see invisible objects sees the sensor as a luminous orb about the size of your fist.
+- #### Prayer: Scrying
+    As long as the target of your Vow of Enmity is on the same plane of existence, you can attempt to observe it. If the target succeeds with a Wisdom saving throw, it isn’t affected, and you can’t use this prayer against it again for until after a long rest.
 
+    On a failed save, an invisible sensor appears within 10 ft of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 ft of it for the duration. A creature that can see invisible objects sees the sensor as a luminous orb about the size of your fist.
+
+</div>
 
 
 ### Avenging Angel
 You can use an ***action*** and spend 5 Devotion to assume the form of an angelic avenger. For 1 hour, you gain the following benefits:
 
- - Wings sprout from your back and grant you a flying speed of 60 ft.
-
- - You emanate an aura of menace in a 30 ft radius. The first time any enemy creature enters the aura or starts its turn there during a battle, it must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage.
-
- - You have advantage on attack rolls against creatures frightened of you.
+- Wings sprout from your back and grant you a flying speed of 60 ft.
+- You emanate an aura of menace in a 30 ft radius. The first time any enemy creature enters the aura or starts its turn there during a battle, it must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage.
+- You have advantage on attack rolls against creatures frightened of you.
 
 
 
@@ -3287,9 +3310,21 @@ You can use an ***action*** and spend 5 Devotion to assume the form of an angeli
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-waves">Oath of the Waves</a></h1>
+<div class="featuresTable">
 
-{{}}">wide
-## <a name="internal-waves">Oath of the Waves</a>
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Oceanic, Sacred Touch |
+| 3rd | Channel Divinity, Speak with Animals |
+| 7th | Echolocation, Water Breathing |
+| 13th | Control Water |
+| 15th | Stunning Strike |
+| 20th | Form of the Leviathan |
+
+</div>
 
 The fight against corruption and evil doesn't stop at the shoreline. Paladins who follow gods of the ocean, such as Poseidon, or who are born among marine races, often follow the Oath of the Waves.
 
@@ -3307,15 +3342,6 @@ Paladins following the Oath of the Waves usually adhere to the following tenets:
  **The Unnatural Shall Not Fester**. Aberrations and undead must be destroyed beyond all resurrection lest their evil infect the world.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Oceanic, Sacred Touch |
-| 3rd | Channel Divinity, Speak with Animals |
-| 7th | Echolocation, Water Breathing |
-| 13th | Control Water |
-| 15th | Stunning Strike |
-| 20th | Form of the Leviathan |
 
 
 ### Oceanic
@@ -3324,24 +3350,30 @@ The sea is like a home to you. When you take this oath at 1st level, you gain pr
 ### Sacred Touch
 You gain access to the following divine blessing, which does not require you to keep concentration.
 
- ***Aquatic Adaption***. You can hold your breath 10 times the normal, gain a swimming speed equal to your walking speed, and can see underwater as if you had 30 ft darkvision.
+<div class="columnstwo">
 
- If you become unconscious while underwater and under the effects of Aquatic Adaption, you do not start to drown. Instead you are kept in stasis and gently float up toward the surface at a speed of 20 ft.
+-  ***Aquatic Adaption***. You can hold your breath 10 times the normal, gain a swimming speed equal to your walking speed, and can see underwater as if you had 30 ft darkvision.
 
+    If you become unconscious while underwater and under the effects of Aquatic Adaption, you do not start to drown. Instead you are kept in stasis and gently float up toward the surface at a speed of 20 ft.
 
+</div>
 
 ### Channel Divinity
 You learn the following two Channel Divinity options.
 
-#### Censure the Deep
-You speak a prayer censuring aberrations, undead and aquatic creatures. Each such creture within 30 ft that see or hear you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
+<div class="columnstwo">
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 ft of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+- #### Censure the Deep
+    You speak a prayer censuring aberrations, undead and aquatic creatures. Each such creture within 30 ft that see or hear you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
 
-#### Shockwave
-A shockwave pushes out from you, forcing each creature in a 15 ft radius to make a Strength saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 ft away from you. On a successful save, the creature takes half as much damage and isn’t pushed.
+    A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 ft of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
-In addition, unsecured objects within the area of effect are automatically pushed 10 ft away from you.
+- #### Shockwave
+    A shockwave pushes out from you, forcing each creature in a 15 ft radius to make a Strength saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 ft away from you. On a successful save, the creature takes half as much damage and isn’t pushed.
+
+    In addition, unsecured objects within the area of effect are automatically pushed 10 ft away from you.
+
+</div>
 
 ### Speak with Animals
 You can spend 1 Devotion to gain the ability to communicate with aquatic beasts for 10 minutes. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM’s discretion.
@@ -3353,22 +3385,14 @@ You can use a ***bonus action*** to grant yourself blindsight to a range of 15 f
 Whenever you use a Divine blessing, the target additionally can breathe underwater while the blessing is active.
 
 
-
-
-
-
-
-
 ### Control Water
 You can spend 4 Devotion to control water inside is a cube up to 100 ft on a side. For 10 minutes you can create the following effects by spending an ***action***.
 
-  ***Part Water***. You cause water in the area to move apart and create a trench. The trench extends across the area, and the separated water forms a wall to either side. The trench remains for the full duration or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored.
+-  ***Part Water***. You cause water in the area to move apart and create a trench. The trench extends across the area, and the separated water forms a wall to either side. The trench remains for the full duration or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored.
+-  ***Redirect Flow***. You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the area, it resumes its flow based on the terrain conditions. The water continues to move in the direction you chose for the full duration or you choose a different effect.
+-  ***Whirlpool***. This effect requires a body of water at least 50 ft square and 25 ft deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 ft wide at the base, up to 50 ft wide at the top, and 25 ft tall. Any creature or object in the water and within 25 ft of the vortex is pulled 10 ft toward it. A creature can swim away from the vortex by making a Swim check against your strength of devotion save DC.
 
-  ***Redirect Flow***. You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the area, it resumes its flow based on the terrain conditions. The water continues to move in the direction you chose for the full duration or you choose a different effect.
-
-  ***Whirlpool***. This effect requires a body of water at least 50 ft square and 25 ft deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 ft wide at the base, up to 50 ft wide at the top, and 25 ft tall. Any creature or object in the water and within 25 ft of the vortex is pulled 10 ft toward it. A creature can swim away from the vortex by making a Swim check against your strength of devotion save DC.
-
- When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn’t caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the check to do so.
+  When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn’t caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the check to do so.
 
 
 
@@ -3382,15 +3406,11 @@ You can use an ***action*** and spend 5 Devotion to assume the form of an ancien
 
 For 1 minute, you gain the following benefits:
 
- - Your size increases by one step.
-
- - Your Strength and Constitution both become 20 if they aren't already.
-
- - You have advantage on Strength and Constitution checks and you gain 4d10 temporary hit points.
-
- - You gain the ability to breath water and gain a swim speed of 60 ft.
-
- - Your Shockwave counts as a critical hit if a target fails its saving throw.
+- Your size increases by one step.
+- Your Strength and Constitution both become 20 if they aren't already.
+- You have advantage on Strength and Constitution checks and you gain 4d10 temporary hit points.
+- You gain the ability to breath water and gain a swim speed of 60 ft.
+- Your Shockwave counts as a critical hit if a target fails its saving throw.
 
 
 
@@ -3399,12 +3419,22 @@ For 1 minute, you gain the following benefits:
 
 
 
-{{}}">wide
-## <a name="internal-blood">Oath of Blood</a>
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-blood">Restricted to Dhampir characters</a></h2>
+<h1>Oath of Blood</h1>
+<div class="featuresTable">
 
-{{}}">feature
-## Restricted to Dhampir characters
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Draining Bite, Sacred Touch, Vampiric Nature |
+| 3rd | Channel Divinity, Protean Form |
+| 7th | Blood Thirst, Dark Aura
+| 15th | Undead Regeneration
+| 17th | Domination
+| 20th | Vampiric Form
 
+</div>
 
 
 Unlike a regular Dhampir, you are a real vampire; a monster, fated and infected by a vile curse that transformed you into a creature of nightmare. By some means — whether by the lifedraining attack of an elder vampire, an ancient doom laid upon your family, the foul magic of a hateful enemy, or even by seeking immortal power yourself through ancient rites and alchemical formulas — the curse of vampirism fell upon you.
@@ -3423,15 +3453,6 @@ You struggle unrelentingly to control the monstrous urges of your vampiric natur
  **Loyalty**. Those who accept you for what you are take a grave chance, and transcend their natural instincts of fear and revulsion to maintain your company. They are a treasure greater than gold, and must be protected accordingly.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Draining Bite, Sacred Touch, Vampiric Nature |
-| 3rd | Channel Divinity, Protean Form |
-| 7th | Blood Thirst, Dark Aura
-| 15th | Undead Regeneration
-| 17th | Domination
-| 20th | Vampiric Form
 
 
 
@@ -3446,59 +3467,53 @@ When you inflict damage on a creature this way, your inhuman nature manifests it
 ### Sacred Touch
 You gain access to the following.
 
-#### Divine Blessing
-This blessing can only be used on yourself, and requires you to spend at 1 Devotion.
+<div class="columnstwo">
 
- ***Spider Climb***. You gain a climbing speed equal to your walking speed, and the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.
+- #### Divine Blessing
+    This blessing can only be used on yourself, and requires you to spend at 1 Devotion.
 
-#### Hypnotizing Gaze
-By meeting the gaze of a humanoid within 30 ft, you can attempt to charm it. This takes a few rounds, which makes it impossible to do in combat, but works fine while in a conversation. If the target fails a Wisdom saving throw, it regards you as a friendly acquaintance for 1 hour or until you or your companions do anything harmful to it. After the duration, or if you lose concentration, the creature knows it was charmed by you.
+    ***Spider Climb***. You gain a climbing speed equal to your walking speed, and the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.
+
+- #### Hypnotizing Gaze
+    By meeting the gaze of a humanoid within 30 ft, you can attempt to charm it. This takes a few rounds, which makes it impossible to do in combat, but works fine while in a conversation. If the target fails a Wisdom saving throw, it regards you as a friendly acquaintance for 1 hour or until you or your companions do anything harmful to it. After the duration, or if you lose concentration, the creature knows it was charmed by you.
+
+</div>
 
 ### Vampiric Nature
 When you take this oath, you gain the following benefits:
- - You gain darkvision at a range of 60 ft.
-
- - You gain resistance to nonmagical bludgeoning, piercing, and slashing damage unless it is inflicted by silver.
-
- - Any creature charmed by you is a willing target for your Draining Bite Channel Divinity ability. For purposes of spells and other charming effects, your Draining Bite does not count as harming it.
-
- - You can take the Dash action as a ***bonus action*** on your turn.
-
-
-
-
-
-
-
+- You gain darkvision at a range of 60 ft.
+- You gain resistance to nonmagical bludgeoning, piercing, and slashing damage unless it is inflicted by silver.
+- Any creature charmed by you is a willing target for your Draining Bite Channel Divinity ability. For purposes of spells and other charming effects, your Draining Bite does not count as harming it.
+- You can take the Dash action as a ***bonus action*** on your turn.
 
 However, you also gain the following weaknesses:
- - You have vulnerability to radiant damage.
-
- - You take psychic damage equal to twice your paladin level if you enter a residence without an invitation from one of the occupants, end your turn in running water, or begin your turn in direct sunlight. This damage cannot be reduced or redirected by any means.
-
- - When you would normally regain all of your Hit Dice, if you have not inflicted damage on a creature with your Draining Bite Channel Divinity ability in the past 24 hours, you immediately expend two Hit Dice without gaining any hit points.
+- You have vulnerability to radiant damage.
+- You take psychic damage equal to twice your paladin level if you enter a residence without an invitation from one of the occupants, end your turn in running water, or begin your turn in direct sunlight. This damage cannot be reduced or redirected by any means.
+- When you would normally regain all of your Hit Dice, if you have not inflicted damage on a creature with your Draining Bite Channel Divinity ability in the past 24 hours, you immediately expend two Hit Dice without gaining any hit points.
 
 ### Channel Divinity
 You know the following Channel Divinity option.
 
-#### Divine Might
-With a quick prayer, you augment the skills and strength of your targets. Each target gains a Divine Might die. This die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
+<div class="columnstwo">
 
-This can be made after making the roll but before the results are revealed. If the bonus is not used before 1 minute has passed, a target instead heals 1d8 hp.
+- #### Divine Might
+    With a quick prayer, you augment the skills and strength of your targets. Each target gains a Divine Might die. This die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
 
-### Protean Form
-As a ***bonus action***, you can spend 1 Devotion to transform yourself into a bat, rat, raven or wolf. You can stay in this beast shape up to a number of hours equal to half your paladin level (rounded down). You then revert to your normal form. You automatically revert if you fall unconscious, drop to 0 hit points, or die. While transformed, all the rules that apply to a druid transformed by their wild shape feature apply to you.
+    This can be made after making the roll but before the results are revealed. If the bonus is not used before 1 minute has passed, a target instead heals 1d8 hp.
 
-You gain more options as you gain paladin levels. At 5th level, you can spend 2 Devotion to become a giant bat, giant rat, swarm of bats, swarm of rats, or swarm of ravens.
+- ### Protean Form
+    As a ***bonus action***, you can spend 1 Devotion to transform yourself into a bat, rat, raven or wolf. You can stay in this beast shape up to a number of hours equal to half your paladin level (rounded down). You then revert to your normal form. You automatically revert if you fall unconscious, drop to 0 hit points, or die. While transformed, all the rules that apply to a druid transformed by their wild shape feature apply to you.
 
-When you reach 9th level, you can spend 3 Devotion to turm into a mist, functioning similar to the *gaseous form* spell.
+    You gain more options as you gain paladin levels. At 5th level, you can spend 2 Devotion to become a giant bat, giant rat, swarm of bats, swarm of rats, or swarm of ravens.
+
+    When you reach 9th level, you can spend 3 Devotion to turm into a mist, functioning similar to the *gaseous form* spell.
+
+</div>
 
 ### Blood Thirst
 If a creature within 30 ft is reduced to 0 hit points but is not killed, you must roll a Wisdom saving throw if you have not inflicted damage on a creature with your Draining Bite in the past 24 hours. The base DC is 15, but it is increased by 1 for every 24 hours that have passed since the last time you inflicted damage on a creature with Draining Bite. If you succeed, you are immune to this effect until the next time you finish a short rest.
 
 If you fail, on your next action you must move as fast as you can towards the fallen creature and make an attack action against them, using your Draining Bite if possible. Otherwise use the most damaging attack you have.
-
-
 
 ### Dark Aura
 You no longer age, and you cannot be aged magically. In addition, creatures of your choice within 10 ft have advantage on saving throws against being charmed or frightened.
@@ -3518,15 +3533,11 @@ Each time the target takes damage, it makes a new Wisdom saving throw against th
 ### Vampiric Form
 You can use an ***action*** and spend 5 Devotion to undergo a transformation. For 1 minute, you gain the following benefits:
 
- - You gain a fly speed of 30 ft.
-
- - The first time you are reduced to 0 hit points during the duration, you are instead reduced to 1 hit point, you teleport 30 ft and immediately turn into mist as if you had used you Protean Form.
-
- - You become undead, and are no longer affected by effects that target humanoids (though you are affected by effects that target undead).
-
- - You are immune to necrotic damage and features that turn undead.
-
- - When you use your Draining Bite without restrictions.
+- You gain a fly speed of 30 ft.
+- The first time you are reduced to 0 hit points during the duration, you are instead reduced to 1 hit point, you teleport 30 ft and immediately turn into mist as if you had used you Protean Form.
+- You become undead, and are no longer affected by effects that target humanoids (though you are affected by effects that target undead).
+- You are immune to necrotic damage and features that turn undead.
+- When you use your Draining Bite without restrictions.
 
 
 
@@ -3535,26 +3546,10 @@ You can use an ***action*** and spend 5 Devotion to undergo a transformation. Fo
 
 
 
-{{}}">wide
-## <a name="internal-festivity">Oath of Festivity</a>
-
-{{}}">feature
-## Restricted to Eladrin or Halfling culture
-
-
-
-
-The Oath of Festivity appeals to paladins with an unquenchable zest for life and the need to spread it to others. When times are darkest and gloom casts a shadow over the people, these paladins are there to bring joy back into the lives of their comrades and allies. Also called Motley knights, these paladins fight in armor adorned with vibrant cloth, bright paints, and glittering stones, and act as shining beacons of genuine excitement that stand against evils that douse the world in darkness, gore, and misery.
-
-However, they do not take disturbing or saccharine pleasure in the destruction of their foes. Nor are they tactlessly excitable in grim circumstances. Somber encouragement or a stiff drink offered without a word can restore the spirit as much as a feast, though occasions for feasts and revels are to be taken at every opportunity.
-
-#### Tenets of Festivity
-The tenets of this oath call its adherents to care for the well-being of others as well as themselves.
- **Fun**. Life is a gift and every day a celebration to be relished. Create opportunities to enjoy it and alleviate boredom and misery wherever it exists.
- **Joy**. Act as a persistent comfort to the hurting, and a source of happiness for those without it. Create experiences that will never be forgotten.
- **Plenty**. No celebration is complete without abundant food and drink, and no life can be happy if it wants for basic necessities. Ensure there is comfortable excess in all things.
- **Hospitality**. There is always room for another chair at the bar, another seat at the table, and another friend in your heart. Bring others into the fold and share with them.
-
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-festivity">Restricted to Eladrin or Halfling culture</a></h2>
+<h1>Oath of Festivity</h1>
+<div class="featuresTable">
 
 #### Oath Features
 | Paladin Level | Feature |
@@ -3565,6 +3560,23 @@ The tenets of this oath call its adherents to care for the well-being of others 
 | 9th | Strengthening the Divine
 | 15th | Dramatic Entrance
 | 20th | Life of the Party
+
+</div>
+
+The Oath of Festivity appeals to paladins with an unquenchable zest for life and the need to spread it to others. When times are darkest and gloom casts a shadow over the people, these paladins are there to bring joy back into the lives of their comrades and allies. Also called Motley knights, these paladins fight in armor adorned with vibrant cloth, bright paints, and glittering stones, and act as shining beacons of genuine excitement that stand against evils that douse the world in darkness, gore, and misery.
+
+However, they do not take disturbing or saccharine pleasure in the destruction of their foes. Nor are they tactlessly excitable in grim circumstances. Somber encouragement or a stiff drink offered without a word can restore the spirit as much as a feast, though occasions for feasts and revels are to be taken at every opportunity.
+
+#### Tenets of Festivity
+The tenets of this oath call its adherents to care for the well-being of others as well as themselves.
+
+ **Fun**. Life is a gift and every day a celebration to be relished. Create opportunities to enjoy it and alleviate boredom and misery wherever it exists.
+
+ **Joy**. Act as a persistent comfort to the hurting, and a source of happiness for those without it. Create experiences that will never be forgotten.
+
+ **Plenty**. No celebration is complete without abundant food and drink, and no life can be happy if it wants for basic necessities. Ensure there is comfortable excess in all things.
+
+ **Hospitality**. There is always room for another chair at the bar, another seat at the table, and another friend in your heart. Bring others into the fold and share with them.
 
 
 ### Good Host
@@ -3578,17 +3590,21 @@ When you use the Lay on Hands feature, you always remove any poison effects on t
 ### Channel Divinity
 You know the following two Channel Divinity options.
 
-#### Merriment
-By raising a glass in a toast, all creatures joining in will feel a bit drunk and merrier already after the first sip. A creature failing a Constitution saving throw will gain the Charmed condition against you and poisoned for 1 hour, until you lose concentration, or until any hostilities ensue between an ally and any of the targets.
+<div class="columnstwo">
 
-This can obviously not be done in combat.
+- #### Merriment
+    By raising a glass in a toast, all creatures joining in will feel a bit drunk and merrier already after the first sip. A creature failing a Constitution saving throw will gain the Charmed condition against you and poisoned for 1 hour, until you lose concentration, or until any hostilities ensue between an ally and any of the targets.
 
-#### Rebuke the Sober
-You can use your Channel Divinity to bring revelry to others, whether they want it or not. Each target that fails a Wisdom saving throw becomes really drunk. It falls prone, becomes incapacitated and unable to stand up for 1 minut or until you lose concentration.
+    This can obviously not be done in combat.
 
-At the end of each of its turns, and each time it takes damage, a target can make another Wisdom saving throw to end the effect. The target has advantage on the saving throw if it’s triggered by damage. On a success, the spell ends.
+- #### Rebuke the Sober
+    You can use your Channel Divinity to bring revelry to others, whether they want it or not. Each target that fails a Wisdom saving throw becomes really drunk. It falls prone, becomes incapacitated and unable to stand up for 1 minut or until you lose concentration.
 
-A creature with an Intelligence score of 4 or less isn’t affected.
+    At the end of each of its turns, and each time it takes damage, a target can make another Wisdom saving throw to end the effect. The target has advantage on the saving throw if it’s triggered by damage. On a success, the spell ends.
+
+    A creature with an Intelligence score of 4 or less isn’t affected.
+
+</div>
 
 ### Rejuvenation
 In quiet moments before startin a long rest, you can prepare a source of relief for others, such as comfort food, a stiff drink, or kind words. Any creature that can see or hear you regains hit points equal to your Charisma modifier and reduces fatigue one step.
@@ -3599,29 +3615,24 @@ Your incorrigible excitement suppresses fatigue. While you are conscious, you an
 
 At 18th level, the range of this aura increases to 30 ft.
 
-
-
-
-
-
-
-
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Hypnotic Pattern
-As an ***action*** you can spend 3 Devotion to create a twisting pattern of colors that weaves through the air up to 120 ft away, which remains for a minute or until you lose concentration. Each creature within 30 ft of the pattern when it appears must make a Wisdom saving throw. On a failed save, the creature gains the charmed condition, is incapacitated and has a speed of 0.
+<div class="columnstwo">
 
-The effect ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.
+- #### Hypnotic Pattern
+    As an ***action*** you can spend 3 Devotion to create a twisting pattern of colors that weaves through the air up to 120 ft away, which remains for a minute or until you lose concentration. Each creature within 30 ft of the pattern when it appears must make a Wisdom saving throw. On a failed save, the creature gains the charmed condition, is incapacitated and has a speed of 0.
 
-#### Prayer: Commune with Civilization
-You know this prayer in addition to your other prayers.
+    The effect ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.
 
-You briefly become one with the soul of festivity and gain limited knowledge of surrounding settlements within 3 miles. You instantly gain know of places of merriment and festivity, such as taverns, festival places or praces of worship in the area.
+- #### Prayer: Commune with Civilization
+    You know this prayer in addition to your other prayers.
 
-In addition you get an intuitive knowledge of the customs, laws, mores and social etiquette followed within. This only grants knowledge that would be known by most inhabitans of the settlement. Typical information revealed includes common courtesies (outsiders must avert their eyes when addressing local officials), restrictions (no dogs are allowed inside the city limits), important festivals and so forth.
+    You briefly become one with the soul of festivity and gain limited knowledge of surrounding settlements within 3 miles. You instantly gain know of places of merriment and festivity, such as taverns, festival places or praces of worship in the area.
 
+    In addition you get an intuitive knowledge of the customs, laws, mores and social etiquette followed within. This only grants knowledge that would be known by most inhabitans of the settlement. Typical information revealed includes common courtesies (outsiders must avert their eyes when addressing local officials), restrictions (no dogs are allowed inside the city limits), important festivals and so forth.
 
+</div>
 
 ### Dramatic Entrance
 You gain an impeccable sense of dramatic timing that allows you to enter the fray with a thrilling buildup and explosive introduction. From the beginning of any combat until the start of your first turn, you have advantage on checks and saving throws, and during your first turn you can take an additional action, which cannot be used for as an attack action.
@@ -3631,25 +3642,31 @@ In addition, you cannot be surprised.
 ### Life of the Party
 You can use an ***action*** and spend 5 Devotion to transform into a brilliant source of reinvigorating joy for 10 minutes. In this state you gain the following benefits:
 
- - You radiate rays of multicolored bright light in a 300 ft radius, which dispel magical darkness and reveal illusions, which appear as ghostly, monochrome apparitions. The light also reveals creatures that are hidden or in the ethereal plane. You can choose to exclude a creature or illusion from this effect.
-
- - You and creatures of your choice within 60 ft cannot be blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, or stunned, and any levels of exhaustion a creature is suffering are removed when it starts its turn within 60 ft of you.
-
- - The first time a creature enters this aura or starts its turn there, you can grant it the the benefits of the Death Ward prayer, which last until your transformation ends. Once a creature gains this benefit, it cannot do so again until your next transformation.
+- You radiate rays of multicolored bright light in a 300 ft radius, which dispel magical darkness and reveal illusions, which appear as ghostly, monochrome apparitions. The light also reveals creatures that are hidden or in the ethereal plane. You can choose to exclude a creature or illusion from this effect.
+- You and creatures of your choice within 60 ft cannot be blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, or stunned, and any levels of exhaustion a creature is suffering are removed when it starts its turn within 60 ft of you.
+- The first time a creature enters this aura or starts its turn there, you can grant it the the benefits of the Death Ward prayer, which last until your transformation ends. Once a creature gains this benefit, it cannot do so again until your next transformation.
 
 
 
 
 
 
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-revenant">Restricted to Awakened characters</a></h2>
+<h1>Oath of the Revenant</h1>
+<div class="featuresTable">
 
+#### Oath Features
+| Paladin Level | Feature |
+|:-------------:|:--------|
+| 1st | Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Insatiable |
+| 9th | Phantom Steed |
+| 15th | Ghastly Constitution |
+| 20th | Dead One’s Own |
 
-{{}}">wide
-## <a name="internal-revenant">Oath of the Revenant</a>
-
-{{}}">feature
-## Restricted to Awakened characters
-
+</div>
 
 
 The Oath of the Revenant is a oath that a paladin does not necessarily take, but is fulfilled by one whose soul aligns with the goals of the creature creating the specific oath. Paladins who swear this oath come from the dead of centuries long past, brought back to the land of the living to fulfill the ideals they share with their resurrector. Paladins sworn to this oath live only to complete a definite goal given to them, and once it is complete their soul returns to the afterlife.
@@ -3666,25 +3683,17 @@ The tenets of the Oath of the Revenant vary from revenant to revenant, based pri
  **Complete the Mission**. Personal goals no longer have meaning, as they died with your true body long ago. The sole purpose of your revived existence is to see to completion the goals you were given, nothing else.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:-------------:|:--------|
-| 1st | Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Insatiable |
-| 9th | Phantom Steed |
-| 15th | Ghastly Constitution |
-| 20th | Dead One’s Own |
 
 
 ### Sacred Touch
 When you spend Devotion to use Divine Smite, you can forgo rolling 1 or more of your dice to instead use Frightful Smite.
 
-{{}}">feature
+<div class="feat">
+
 ## Frightful Smite
 The target must make a Wisdom saving throw or be frightened of you. At the end of each of its turns, the target can make another Wisdom saving throw to end the effect. If the target succeeds on a save against this blessing, it takes 1d4 necrotic damage for each Devotion you spent.
 
-
+</div>
 
 
 In addition, you gain access to the following blessing:
@@ -3694,13 +3703,17 @@ In addition, you gain access to the following blessing:
 ### Channel Divinity
 You know the following Channel Divinity options.
 
-#### Grave Defense
-As a ***bonus action***, you can bolster your targets' defenses. Each target gains temporary hit points equal to your paladin level.
+<div class="columnstwo">
 
-#### Spirits of the Dead
-You raise your weapon, requesting aid of the spirits from your past life. The intangible spirits lash out and claw at your targets, dealing 2d8 necrotic damage and 2d8 psychic damage, and making the target frightened until the end of your next turn.
+- #### Grave Defense
+    As a ***bonus action***, you can bolster your targets' defenses. Each target gains temporary hit points equal to your paladin level.
 
-Each target that succeeds at a Wisdom saving throw takes half damage and is not frightened. You can spend 3 Devotion to double the damage dealt, but you have to decide before targets roll their saves.
+- #### Spirits of the Dead
+    You raise your weapon, requesting aid of the spirits from your past life. The intangible spirits lash out and claw at your targets, dealing 2d8 necrotic damage and 2d8 psychic damage, and making the target frightened until the end of your next turn.
+
+    Each target that succeeds at a Wisdom saving throw takes half damage and is not frightened. You can spend 3 Devotion to double the damage dealt, but you have to decide before targets roll their saves.
+
+</div>
 
 ### Insatiable
 Your ability to strike down foes while they suffer from their wounds grows greater. When a hostile creature is reduced below half of their maximum hit points, you can use your ***reaction*** to make a melee weapon attack against that creature if it is within range.
@@ -3713,21 +3726,12 @@ The creature uses the statistics for a riding horse, except it has a speed of 10
 ### Ghastly Constitution
 You are immune to being charmed, exhausted, and poisoned. Further, whenever you take a long rest, you can instead stand vigilant as still and cold as death itself. In this state you appear standing dead, but you remain conscious and you can see and hear as normal.
 
-
-
-
-
-
-
-
 ### Dead One's Own
 You can use an ***action*** and spend 5 Devotion to channel the aspect of the undead nature and carry a mantle of dark power. For 1 minute, you gain the following benefits:
 
- - You have resistance to all damage.
-
- - You regain 10 hit points at the start of each of your turns.
-
- - After you have taken the Attack action on your turn, you can use your ***bonus action*** to deal 20 necrotic or poison damage (your choice) to a creature within 30 ft that you can see and have not dealt damage to that turn.
+- You have resistance to all damage.
+- You regain 10 hit points at the start of each of your turns.
+- After you have taken the Attack action on your turn, you can use your ***bonus action*** to deal 20 necrotic or poison damage (your choice) to a creature within 30 ft that you can see and have not dealt damage to that turn.
 
 
 
@@ -3736,13 +3740,22 @@ You can use an ***action*** and spend 5 Devotion to channel the aspect of the un
 
 
 
-{{}}">wide
-## <a name="internal-stonelord">Oath of the Stonelord</a>
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-stonelord">Restricted to Dwarven characters</a></h2>
+<h1>Oath of the Stonelord</h1>
+<div class="featuresTable">
 
-{{}}">feature
-## Restricted to Dwarven characters
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Defender of Dwarves, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Hammer Throw
+| 9th | Strengthening the Divine
+| 15th | Stoneblood
+| 20th | Champion of Stone
 
-
+</div>
 
 Dwarves know more secrets about stone than anyone. They live and die among the stones, and the earth whispers to them - or at least to select individuals. These special dwarves are known as stonelords. They use their connection with the earth to draw from the infinite reserves of power within it to help them perform amazing feats.
 
@@ -3760,15 +3773,6 @@ A stonelord's duty is first to protect her people, but defending the works and t
  **Defeat my enemies, but with honor**. Against my people's enemies I will show no mercy. I will defeat them, and I will scatter their families. Yet even in the struggle against our enemies, I will act in a way that brings honor to Moradin.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Defender of Dwarves, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Hammer Throw
-| 9th | Strengthening the Divine
-| 15th | Stoneblood
-| 20th | Champion of Stone
 
 
 ### Defender of Dwarves
@@ -3785,44 +3789,43 @@ In addition you gain access to the following divine blessing, which you can only
 ### Channel Divinity
 You know the following Channel Divinity options.
 
-#### Quake
-As an ***action*** you can strike the ground, if it is earth or stone, with a bludgeoning weapon, creating a seismic disturbance in a 10 ft radius. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone  or has lot of object in it (DMs discretion), it becomes difficult terrain until cleared.
+<div class="columnstwo">
 
-When doing so, you can additionally spend Devotion to increase the effect. For each Devotion spent, you may increase the damage by 1d6 or double the radius (max 80 ft radius).
+- #### Quake
+    As an ***action*** you can strike the ground, if it is earth or stone, with a bludgeoning weapon, creating a seismic disturbance in a 10 ft radius. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone  or has lot of object in it (DMs discretion), it becomes difficult terrain until cleared.
 
-#### Moradin's Might
-With a quick prayer, you augment the skills and strength of your targets. Each target gains a Divine Might die. This die can be used to add a d6 to one ability check, attack roll, or saving throw that they make, or a d10 if target is a dwarf.
+    When doing so, you can additionally spend Devotion to increase the effect. For each Devotion spent, you may increase the damage by 1d6 or double the radius (max 80 ft radius).
 
-This can be made after making the roll but before results are revealed. If the bonus is not used before 1 minute has passed, a target instead heals hp equal to the die.
+- #### Moradin's Might
+    With a quick prayer, you augment the skills and strength of your targets. Each target gains a Divine Might die. This die can be used to add a d6 to one ability check, attack roll, or saving throw that they make, or a d10 if target is a dwarf.
+
+    This can be made after making the roll but before results are revealed. If the bonus is not used before 1 minute has passed, a target instead heals hp equal to the die.
+
+</div>
 
 ### Hammer Throw
 All hammers you wield, including light hammers, mauls, and warhammers, are considered magical and have the Thrown property, with a range of 30/60 ft. Hammers you throw return to your hand at the end of your turn.
 
 At 18th level, you can throw a hammer in a 60 ft line as an ***action***. Make a single attack roll and compare it against the AC of each creature in this line, dealing damage normally on a hit.
 
-
-
-
-
-
-
-
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Channel Divinity: Earthen Grasp
-If the ground is earth or stone, you call forth hands made from the ground to reach for your targets. On a failed Strength save, a target takes 2d6 bludgeoning damage and is restrained for one minute or until you lose concentration.
+<div class="columnstwo">
 
-As an ***action***, you can cause the hand to crush each restrained target, who takes 2d6 bludgeoning damage on a failed Strength save, or half as much damage on a successful one. To break out, a restrained target can make a Strength check against your Strength of devotion  save DC. On a success, the target escapes and the hand pulls back unto the ground.
+- #### Channel Divinity: Earthen Grasp
+    If the ground is earth or stone, you call forth hands made from the ground to reach for your targets. On a failed Strength save, a target takes 2d6 bludgeoning damage and is restrained for one minute or until you lose concentration.
 
-#### Prayer: Stone Meld
-A prayer to Moradin allows you to step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for up to 8 hours. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.
+    As an ***action***, you can cause the hand to crush each restrained target, who takes 2d6 bludgeoning damage on a failed Strength save, or half as much damage on a successful one. To break out, a restrained target can make a Strength check against your Strength of devotion  save DC. On a success, the target escapes and the hand pulls back unto the ground.
 
-While merged with the stone, you can’t see what occurs outside it, and checks made to hear sounds outside it are made with disadvantage. You can use your movement to leave the stone where you entered it, which ends the effect, but can’t otherwise move.
+- #### Prayer: Stone Meld
+    A prayer to Moradin allows you to step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for up to 8 hours. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.
 
-Minor physical damage to the stone doesn’t harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone’s complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered.
+    While merged with the stone, you can’t see what occurs outside it, and checks made to hear sounds outside it are made with disadvantage. You can use your movement to leave the stone where you entered it, which ends the effect, but can’t otherwise move.
 
+    Minor physical damage to the stone doesn’t harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone’s complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered.
 
+</div>
 
 ### Stoneblood
 You gain immunity to critical hits.
@@ -3830,11 +3833,9 @@ You gain immunity to critical hits.
 ### Champion of Stone
 You can use an ***action*** and spend 5 Devotion to turn into living stone. For 1 minute, you gain the following benefits:
 
- - You are immune to poison and any transmutation effect that change your body.
-
- - You have advantage on saves against magic effects and resistance to all damage, except psychic.
-
- - If you choose you can be completely immovable. You succeed on saves and checks against effects that tries to move you.
+- You are immune to poison and any transmutation effect that change your body.
+- You have advantage on saves against magic effects and resistance to all damage, except psychic.
+- If you choose you can be completely immovable. You succeed on saves and checks against effects that tries to move you.
 
 
 
@@ -3843,13 +3844,22 @@ You can use an ***action*** and spend 5 Devotion to turn into living stone. For 
 
 
 
-{{}}">wide
-## <a name="internal-wingSeeker">Oath of the Wing Seeker</a>
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-wingSeeker">Restricted to Kenku characters</a></h2>
+<h1>Oath of the Wing Seeker</h1>
+<div class="featuresTable">
 
-{{}}">feature
-## Restricted to Kenku characters
+#### Oath Features
+| Paladin Level | Feature |
+|:----------------:|:--------|
+| 1st | Gliding, Sacred Touch |
+| 3rd | Channel Divinity |
+| 7th | Aura of Aviation
+| 9th | Strengthening the Divine
+| 15th | Noisy Feathers
+| 20th | True To Your Heart
 
-
+</div>
 
 While some kenku seek magical knowledge in order to achieve their dream of flight, paladins of the oath of the Wing Seeker wander from their flock, determined to seek the means to end their kin's unjust fate for all. In their quest to end the plight that has plagued their race for some long-forgotten reason for so long, these paladins will follow any and all gods if it gets them closer to unravel the mysteries of their own past and to break the curse that looms over them.
 
@@ -3865,15 +3875,6 @@ The tenets for this oath does not vary, neither in words nor pitch, though the m
   **Be the Flight**. Be a glorious beacon for all who live in despair. Let the *[swoosh]* of your joy and courage shine forth in all your deeds.
 
 
-#### Oath Features
-| Paladin Level | Feature |
-|:----------------:|:--------|
-| 1st | Gliding, Sacred Touch |
-| 3rd | Channel Divinity |
-| 7th | Aura of Aviation
-| 9th | Strengthening the Divine
-| 15th | Noisy Feathers
-| 20th | True To Your Heart
 
 
 ### Gliding
@@ -3890,21 +3891,27 @@ Using any of these effects requires you to be able to flap your wings.
 ### Sacred Touch
 When you spend Devotion to use Divine Smite, you can forgo rolling 1 or more of your dice to instead use Earthbind Smite. This application of Divine Smite can be used with ranged weapons.
 
-{{}}">feature
+<div class="feat">
+
 ## Earthbind Smite
 You share your curse with your target. If it fails a Strength saving throw, its flying speed is reduced to 0 ft for 1 minute. If the creature is airborne, it descends at 60 ft per round until it reaches the ground or the effect ends.
 
 If the target succeeds on a save against this blessing, it takes 1d4 force damage for each Devotion you spent.
 
+</div>
 
 ### Channel Divinity
 You know the following Channel Divinity options.
 
-#### Earthbind
-Each target is affected as if you had used the Earthbind Smite on it. You can spend additional Devotion when channeling.
+<div class="columnstwo">
 
-#### Live to See the Skies Again
-As a ***bonus action*** you let out a warning cry to alert your allies to pending doom and ensure that your flock can escape danger. Each creature of your choice within 30 ft that can hear you can immediately move up to their movement speed without provoking opportunity attacks.
+- #### Earthbind
+    Each target is affected as if you had used the Earthbind Smite on it. You can spend additional Devotion when channeling.
+
+- #### Live to See the Skies Again
+    As a ***bonus action*** you let out a warning cry to alert your allies to pending doom and ensure that your flock can escape danger. Each creature of your choice within 30 ft that can hear you can immediately move up to their movement speed without provoking opportunity attacks.
+
+</div>
 
 ### Aura of Aviation
 Creatures of your choice within 10 ft have the benefits of your Gliding feature.
@@ -3914,22 +3921,19 @@ At 18th level, the range of this aura increases to 30 ft.
 ### Strengthening the Divine
 You gain access to the following.
 
-#### Divine Blessings
-This blessing can only be used on yourself, and requires you to spend at least 3 Devotion.
+<div class="columnstwo">
 
- ***Bird Form***. You transform into a raven, but keep your mental ability scores. You are limited in the actions you can perform by the nature of the new form, so you can’t speak, cast spells, or take any other action that requires hands or speech. Your gear melds into the new form, meaning you can’t activate, use, wield, or otherwise benefit from any of your equipment.
+- #### Divine Blessings
+    This blessing can only be used on yourself, and requires you to spend at least 3 Devotion.
 
+    ***Bird Form***. You transform into a raven, but keep your mental ability scores. You are limited in the actions you can perform by the nature of the new form, so you can’t speak, cast spells, or take any other action that requires hands or speech. Your gear melds into the new form, meaning you can’t activate, use, wield, or otherwise benefit from any of your equipment.
 
+    When you revert to your normal form, you return to the number of hit points you had before the transformation. If you revert as a result of dropping to 0 hit points, any excess damage carries over to the normal form.
 
+- #### Kenku Can Too
+    You can elevate your talent for mimicking to new heights. As a ***reaction*** to a creature casting a spell with verbal components, you can temporarily imprint it to your short-term memory. Until the end of your next turn, you can spend Devotion equal to the spell level, to cast that spell without material components, but otherwise using the regular spellcasting rules.
 
-
-
-
-
-When you revert to your normal form, you return to the number of hit points you had before the transformation. If you revert as a result of dropping to 0 hit points, any excess damage carries over to the normal form.
-
-#### Kenku Can Too
-You can elevate your talent for mimicking to new heights. As a ***reaction*** to a creature casting a spell with verbal components, you can temporarily imprint it to your short-term memory. Until the end of your next turn, you can spend Devotion equal to the spell level, to cast that spell without material components, but otherwise using the regular spellcasting rules.
+</div>
 
 ### Noisy Feathers
 Beginning at 15th level, you are always under the effect of a ***feather fall*** spell.
@@ -3941,15 +3945,7 @@ Additionally, you can make sounds even if you are silenced.
 ### True To Your Heart
 You can use an ***action*** and spend 5 Devotion to assume the form of what your heart is telling you that your race once was. For 10 minutes, you gain the following benefits:
 
- - Your size becomes Large.
-
- - You gain a flying speed equal to double your normal movement speed.
-
- - Your talons are natural weapons, which you can use to make unarmed strikes. If you hit, you deal slashing damage equal to 3d6 + your Strength or Dexterity modifier, and you can choose to grapple the target. A creature grappled in this way can use its action to make a Strength check against your Strength of devotion save DC. If it succeeds, it is no longer grappled. Until this grapple ends, the target is restrained, and you can't use your talons on another target.
-
-
-
-
-
-
+- Your size becomes Large.
+- You gain a flying speed equal to double your normal movement speed.
+- Your talons are natural weapons, which you can use to make unarmed strikes. If you hit, you deal slashing damage equal to 3d6 + your Strength or Dexterity modifier, and you can choose to grapple the target. A creature grappled in this way can use its action to make a Strength check against your Strength of devotion save DC. If it succeeds, it is no longer grappled. Until this grapple ends, the target is restrained, and you can't use your talons on another target.
 

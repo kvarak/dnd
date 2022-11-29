@@ -90,7 +90,7 @@ You can change your list of prepared spells when you finish every morning. Howev
 
 ##### The Druid
 
-| - Level - | - PB - | - Features -     | - Cantrips Known - |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| -Level- | -PB- | -Features- | -Cantrips Known- |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
 |:-----:|:-----------:|:-------------|:--------:|:------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |1st| +2| Communicate with Nature, Druid Circle, Spellcasting |2|2|—|—|—|—|—|—|—|—|
 |2nd| +2| Borrowing, Wild Shape, Wild Companion |2|3|—|—|—|—|—|—|—|—|

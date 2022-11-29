@@ -2,10 +2,10 @@ body {
   background-image: url("../images/page-background.jpg");
 }
 
-::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-}
+/* ::-webkit-scrollbar { */
+/*    width: 0px;  /* remove scrollbar space */
+/*    background: transparent;  /* optional: just make scrollbar invisible */
+/* } */
 
 /* a {
   text-decoration:none;

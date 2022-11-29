@@ -98,7 +98,7 @@ You start with the following equipment, in addition to the equipment granted by 
 <div class="block classTable frame" markdown="1">
 
 ##### The Feyblood
-| - Level -  | - PB - | - Features - | - Spark - | - Spells Known - | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| -Level-  | -PB- | -Features- | -Spark- | -Spells Known- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
 |:-----:|:-----------:|:---------|:-----:|:------:|----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |1st| +2| Spark, Spellcasting, Glamorous Defense, Fey Affinity, Fey Vulnerabilities |2|4|2|—|—|—|—|—|—|—|—|
 |2nd| +2| Faerie Dust, Fey Affinity Feature |2|5|3|—|—|—|—|—|—|—|—|

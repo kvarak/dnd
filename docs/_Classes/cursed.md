@@ -94,7 +94,7 @@ Unless otherwise noted in the specific curse descriptions, the following applies
 <div class="block classTable frame" markdown="1">
 
 ##### The Cursed
-| - Level - | - PB - | - Features - | - Cantrips Known - | - Spells Known - | 1st |2nd |3rd |4th |5th |
+| -Level- | -PB- | -Features- | -Cantrips Known- | -Spells Known- | 1st |2nd |3rd |4th |5th |
 |:---:|:---:|:---|:---:|:---:|:-----:|:---:|:---:|:---:|:---:|
 | 1st | +2 | Cantrips, Cursed Form, Ritual Casting | 3 | - | - | - | - | - | - |
 | 2nd | +2 | Spellcasting, Split Personality | 3 | 2 | 2 | - | - | - | - |

@@ -53,15 +53,15 @@ Dwarven Deities - <a href="{{ site.baseurl }}/Folk/dwarf.html#internal-religion"
 
 # Cleric
 
-> *"I have been fortunate enough to have experienced more in these few years than most have in their entire lifetime. Even so, nothing can ever replace the feeling of warmth, grace, purity, and power, all of which come to me each time I call upon Sarenrae to guide my hand."*
->
-> — Alisa Tristane, priestess
-
 Divine magic, as the name suggests, is the power of the gods, flowing from them into the world. Clerics are conduits for that power, manifesting it as miraculous effects. The gods don't grant this power to everyone who seeks it, but only to those chosen to fulfill a high calling.
 
 Almost all the folk in the world who revere a deity live their lives without ever being directly touched by a divine being. As such, they can never know what it feels like to be a cleric — someone who is not only a devout worshiper, but who has also been invested with a measure of a deity’s power.
 
 The question has long been debated: Does a mortal become a cleric as a consequence of deep devotion to one’s deity, thereby attracting the god’s favor? Or is it the deity who sees the potential in a person and calls that individual into service? Ultimately, perhaps, the answer doesn’t matter. However clerics come into being, the world needs clerics as much as clerics and deities need each other.
+
+> *"I have been fortunate enough to have experienced more in these few years than most have in their entire lifetime. Even so, nothing can ever replace the feeling of warmth, grace, purity, and power, all of which come to me each time I call upon Sarenrae to guide my hand."*
+>
+> -- Alisa Tristane, priestess
 
 #### Deity
 One of the most important things to decide is the deity you serve. The Golarion setting hosts a large pantheon of deities, ranging from the all-powerful greater deities to the minor gods and demigods, who are mostly powerful extraplanar creatures. While most deities' followers span cultures and races, some races and intelligent creatures have their own pantheons worshiped primarily within their own ranks.
@@ -134,7 +134,7 @@ You prepare the list of cleric spells that are available for you to cast, choosi
 
 ##### The Cleric
 
-| - Level - | - PB - | - Features - | - Piety - | - Cantrips Known - | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| -Level- | -PB- | -Features- | -Piety- | -Cantrips Known- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
 | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |1st| +2| Divine Domain, Path of Faith, Spellcasting | - | 2 | 2 |— |— |— |—|— |— |— |—|
 |2nd| +2| Channel Divinity, Divine Domain feature | 4 | 2 |3 |— |— |— |—|—| —| —| —|
