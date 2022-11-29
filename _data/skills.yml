@@ -1,8 +1,11 @@
 Alchemist:
+  name: Alchemist
   skills: Cooking, Alchemy, History, Looking
 
 Bard:
+  name: Bard
   skills: Playing, Cards, Eating
 
 Barbarian:
+  name: Barbarian
   skills: Athletics, Brawling, Sneaking, Cleaning
