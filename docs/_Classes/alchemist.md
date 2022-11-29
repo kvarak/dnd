@@ -65,6 +65,8 @@ As a alchemist, you gain the following class features.
 
 </div>
 
+<details>
+<summary>At 1st level</summary>
 
 #### Hit Points
 **Hit Dice:** 1d8
@@ -75,14 +77,14 @@ You are proficient with ***Constitution*** and ***Intelligence*** saving throws.
 #### Skills
 **Class Skills:** Alchemy, Ceramics, Medicine and Herbalism
 
-**Skill Points:** You gain 2 skill points at 1st level and 1 additional skill point per level.
+**Skill Points:** You gain 2 skill points at 1st level
 
 **Additional Skills:** You gain 4 additional skill points to spend on Alchemy. *Note that **Journeyman crafter** and **Master crafter** are much more difficult to gain during play.*
 
 #### Skills - Combat
 **Weapon Groups:** You have rank 1 in each weapon group.
 
-**Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level and 1 additional skill point every even level.
+**Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level.
 
 **Recommended:** Light armor and Combat alchemy
 
@@ -93,6 +95,22 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* an explorer's pack or *(b)* a scholar's pack
 - an alchemist's kit and a dagger
 - leather armor *(if proficient)*
+</details>
+
+
+<details>
+<summary>Each level after 1st</summary>
+
+#### Hit Points
+**Hit Dice:** 1d8
+
+#### Skills
+**Skill Points:** You gain 1 skill point per level.
+
+#### Skills - Combat
+**Combat Skill Points:** You gain 1 skill point to spend on combat skills every even level.
+</details>
+
 
 <hr>
 

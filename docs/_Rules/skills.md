@@ -2793,7 +2793,7 @@ The scientific study of the properties and behavior of the elements that make up
 ##### Crafting Alchemical Items.
 To craft an alchemical item you need at least an alchemist’s kit and raw materials worth half the value of the created item. Your skill determines what kind of alchemical items you can safely create. If you attempt to make such an item, spend the raw materials and a long rest, then make an Intelligence (Alchemy) check and see the first applicable result below.
 
-- **On a resule of 0 or lower.** The item is not created, the raw materials are wasted and you suffer an alchemical mishap.
+- **On a result of 0 or lower.** The item is not created, the raw materials are wasted and you suffer an alchemical mishap.
 - **On a result below 5 or if you roll a natural 1.** The item is not created and the raw materials are wasted.
 - **6-10.** The reaction is not as efficient as you would have expected. You need to spend additional raw materials equal to 25% of the value of the created item, as well as 8 additional hours. If you choose not to, the original raw materials are wasted and the item is not created.
 - **11-25.** The item is created as expected.
