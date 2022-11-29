@@ -31,7 +31,25 @@ Typically, a professional will make his or her biggest contributions to an adven
 
 ## Class Features
 
-<div class="block classTable halfClassTable frame" markdown="1">
+As a professional, you gain the following class features.
+
+#### Hit Points
+**Hit Dice:** 1d8
+
+#### Proficiencies
+**Armor:** Light armor
+
+**Weapons:** Simple weapons
+
+**Saving Throws:** Wisdom
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- *(a)* A leather armor and any simple weapon, *(b)* a leather armor and a hand crossbow or *(c)* a heavy crossbow
+- *(a)* A diplomat’s pack or *(b)* an explorer's pack
+- Any two tools or tool kits
+
+<div class="block classTable frame" markdown="1">
 
 ##### The Professional
 | -Level- | -PB- | -Features-     | -Cantrips Known- | -Spells Known- |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
@@ -58,25 +76,6 @@ Typically, a professional will make his or her biggest contributions to an adven
 |20th| +6| Pinnacle of Achievement | 2 |22| 4| 3| 3| 3| 3| 2| 2| 1|1|
 
 </div>
-
-As a professional, you gain the following class features.
-
-#### Hit Points
-**Hit Dice:** 1d8
-
-#### Proficiencies
-**Armor:** Light armor
-
-**Weapons:** Simple weapons
-
-**Saving Throws:** Wisdom
-
-#### Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
-- *(a)* A leather armor and any simple weapon, *(b)* a leather armor and a hand crossbow or *(c)* a heavy crossbow
-- *(a)* A diplomat’s pack or *(b)* an explorer's pack
-- Any two tools or tool kits
-
 
 ### Adaption
 By necessity you have a nimble mind and take to anything new quickly. If you have seen a creature make any type of ability check, attack roll, or Dexterity saving throw within the last 10 minutes, you can spend a Talent die, a d6, and add the number rolled to your own roll of the same type.

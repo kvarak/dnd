@@ -50,7 +50,7 @@ As an inquisitor, you gain the following class features
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Inquisitor
-| - Level - | - PB - | - Features - | - Piety - | - Spells Known - | 1st |2nd |3rd |4th |5th |
+| -Level- | -PB- | -Features- | -Piety- | -Spells Known- | 1st |2nd |3rd |4th |5th |
 |:-----:|:-----------:|:---------|:-----:|:------:|:---:|:--:|:--:|:--:|:--:|
 | 1st | +2 | Fighting Style, Judgement | 4 | - | - | - | - | - | - |
 | 2nd | +2 | Divine Sense, Spellcasting | 4 | 2 | 2 | - | - | - | - |

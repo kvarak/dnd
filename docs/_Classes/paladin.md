@@ -129,7 +129,7 @@ Naive paladins are unfamiliar with the ways of the world. Their actions are well
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Paladin
-| Level | PB | Features |
+| -Level- | -PB- | -Features- |
 |:-----:|:-----------------:|:---------|
 | 1st | +2 | Divine Sense, Sacred Oath,<br></brSacred>Sacred Touch
 | 2nd | +2 | Bless Ally, Fighting Style, Prayer

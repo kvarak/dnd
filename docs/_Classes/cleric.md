@@ -134,7 +134,7 @@ You prepare the list of cleric spells that are available for you to cast, choosi
 
 ##### The Cleric
 
-| - Level - | - PB - | - Features - | - Piety - | - Cantrips Known - | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| -Level- | -PB- | -Features- | -Piety- | -Cantrips Known- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
 | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |1st| +2| Divine Domain, Path of Faith, Spellcasting | - | 2 | 2 |— |— |— |—|— |— |— |—|
 |2nd| +2| Channel Divinity, Divine Domain feature | 4 | 2 |3 |— |— |— |—|—| —| —| —|

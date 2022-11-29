@@ -84,9 +84,9 @@ Members of these orders are not necessarily bound together, but some organizatio
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Cavalier
-| - Level - | - PB - | - Features - | - Maneuvers Known - | - Superiority - | - Superiority Dice - |
+| -Level- | -PB- | -Features- | -Maneuvers Known- | -Superiority- | -Superiority Dice- |
 |:-----:|:-----------------:|:---------|:---------------:|:-----------:|:----------------:|
- 1st | +2 | Cavalier order, Challenge, Mounted Expert | - | - | - |
+ 1st | +2 | Cavalier order, Challenge,<br/>Mounted Expert | - | - | - |
 | 2nd | +2 | Combat Superiority, Second Wind | 3 | 7 | d4 |
 | 3rd | +2 | Order feature | 3 | 7 | d4 |
 | 4th | +2 | Ability Score Improvement | 3 | 7 | d4 |

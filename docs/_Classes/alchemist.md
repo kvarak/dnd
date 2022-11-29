@@ -40,7 +40,7 @@ As a alchemist, you gain the following class features.
 
 ##### The Alchemist
 
-| - Level - | - PB - | - Alchemy Die - | - Features - | - Discoveries Known - |
+| -Level- | -PB- | -Alchemy Die- | -Features- | -Discoveries Known- |
 |:-----:|:---:|:---:|:---|:---:|
 | 1st | +2 | 1d8 | Concoctions, Studious Expertise | - |
 | 2nd | +2 | 1d8 | Field of Study | - |

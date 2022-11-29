@@ -53,7 +53,7 @@ While a monster hunter begins their journey alone, they also acknowledge the str
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Monster Hunter
-| - Level - | - PB - | - Features - | - Crimson Rite Die - |
+| -Level- | -PB- | -Features- | -Crimson Rite Die- |
 |:---:|:---:|:---|:---:|
 | 1st | +2 | Monster Hunter Tradition,<br>Crimson Rite,<br>Sworn Enemy | 1d4 |
 | 2nd | +2 | Blood Curse,<br>Fighting Style | 1d4 |
