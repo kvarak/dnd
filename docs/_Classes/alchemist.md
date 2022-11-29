@@ -42,7 +42,7 @@ As a alchemist, you gain the following class features.
 
 | - Level - | - PB - | - Alchemy Die - | - Features - | - Discoveries Known - |
 |:-----:|:---:|:---:|:---|:---:|
-| 1st | +2 | 1d8 | Concoctions, Studious Expertise | - |
+| 1st | +2 | 1d8 | Concoctions | - |
 | 2nd | +2 | 1d8 | Field of Study | - |
 | 3rd | +2 | 1d8 | Discoveries | 2 |
 | 4th | +2 | 1d8 | Ability Score Improvement | 2 |
@@ -80,6 +80,8 @@ As a alchemist, you gain the following class features.
 **Class Skills:** Alchemy, Ceramics, Medicine and Herbalism
 
 **Skill Points:** You gain 2 skill points at 1st level and 1 additional skill point per level
+
+**Additional Skills:** You gain 4 additional skill points to spend on Alchemy. *Note that **Journeyman crafter** and **Master crafter** are much more difficult to gain during play.*
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -159,9 +161,10 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-
+<!-- 
 ### Studious Expertise
 From 1st level you have advantage on any ability check you make with your alchemist’s supplies, as well as any ability check to identify herbs, poisons or other alchemical substances.
+-->
 
 ### Field of Study
 While all alchemists share a common knowledge base, most alchemists specialize into a particular field of study. When you reach 2nd level, you select your field of study from apothecary, mad bomber, poisoner and transmuter. Your field choice grants you features at 2nd level and then again at 7th, 10th, and 17th level.
