@@ -35,7 +35,6 @@ More experienced alchemists learn to mix less volatile substances, some of which
 ## Class Features
 As a alchemist, you gain the following class features.
 
-
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Alchemist
@@ -64,6 +63,9 @@ As a alchemist, you gain the following class features.
 | 20th | +6 | 4d8 | Philosopher’s Stone | 10 |
 
 </div>
+
+
+<!-- ---------------------------- Level 1 ----------------------------------  -->
 
 <details>
 <summary>At 1st level</summary>
@@ -98,6 +100,8 @@ You start with the following equipment, in addition to the equipment granted by 
 </details>
 
 
+<!-- ---------------------------- After level 1 ----------------------------------  -->
+
 <details>
 <summary>Each level after 1st</summary>
 
@@ -110,6 +114,10 @@ You start with the following equipment, in addition to the equipment granted by 
 #### Skills - Combat
 **Combat Skill Points:** You gain 1 skill point to spend on combat skills every even level.
 </details>
+
+
+
+<!-- -------------------- Class Specific Combat Skills ---------------------  -->
 
 <details>
 <summary>Class Specific Combat Skills</summary>
@@ -125,7 +133,9 @@ You do not have disadvantage when throwing an alchemical item while adjacent to 
 Attacking at long range doesn’t impose disadvantage on your combat alchemy attack rolls. In addition they ignore half cover and three-quarters cover.
 </details>
 </details>
+</details>
 
+<!-- ---------------------------- Class Features ------------------------------  -->
 
 ### Concoctions
 You learn how to create a variety of concoctions using your alchemist's supplies. During a long rest you can prepare 2 concoctions. See *Rest Additions* for more info.
