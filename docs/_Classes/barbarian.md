@@ -78,7 +78,9 @@ As a barbarian, you gain the following class features.
 
 **Saving Throws:** Strength, Constitution
 
+#### Skills
 
+{% include skills.html %}
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
