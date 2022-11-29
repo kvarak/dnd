@@ -44,22 +44,22 @@ As a alchemist, you gain the following class features.
 | 1st | +2 | 1d8 | Concoctions | - |
 | 2nd | +2 | 1d8 | Field of Study | - |
 | 3rd | +2 | 1d8 | Discoveries | 2 |
-| 4th | +2 | 1d8 | Ability Score Improvement | 2 |
-| 5th | +3 | 2d8 | Chemical Distillation | 3 |
+| 4th | +2 | 1d8 | Chemical Distillation | 2 |
+| 5th | +3 | 2d8 | - | 3 |
 | 6th | +3 | 2d8 | Brew Potions | 3 |
 | 7th | +3 | 2d8 | Field of Study Feature | 4 |
-| 8th | +3 | 2d8 | Ability Score Improvement | 4 |
-| 9th | +4 | 2d8 | Brew Potions (improved) | 5 |
+| 8th | +3 | 2d8 | Brew Potions (improved) | 4 |
+| 9th | +4 | 2d8 | - | 5 |
 | 10th | +4 | 2d8 | Field of Study Feature | 5 |
 | 11th | +4 | 3d8 | - | 6 |
-| 12th | +4 | 3d8 | Ability Score Improvement | 6 |
-| 13th | +5 | 3d8 | Evasion | 7 |
+| 12th | +4 | 3d8 | Evasion | 6 |
+| 13th | +5 | 3d8 | - | 7 |
 | 14th | +5 | 3d8 | Brew Potions (improved) | 7 |
 | 15th | +5 | 3d8 | - | 8 |
-| 16th | +5 | 4d8 | Ability Score Improvement | 8 |
-| 17th | +6 | 4d8 | Field of Study Feature | 9 |
+| 16th | +5 | 3d8 | Field of Study Feature | 8 |
+| 17th | +6 | 4d8 | - | 9 |
 | 18th | +6 | 4d8 | - | 9 |
-| 19th | +6 | 4d8 | Ability Score Improvement | 10 |
+| 19th | +6 | 4d8 | - | 10 |
 | 20th | +6 | 4d8 | Philosopher’s Stone | 10 |
 
 </div>
@@ -120,7 +120,8 @@ You start with the following equipment, in addition to the equipment granted by 
 <!-- -------------------- Class Specific Combat Skills ---------------------  -->
 
 <details>
-<summary>Class Specific Combat Skills</summary>
+<summary>Class specific combat skills</summary>
+The following combat skills are exclusive to alchemists.
 
 <details>
 <summary>Combat Alchemy</summary>
@@ -134,6 +135,7 @@ Attacking at long range doesn’t impose disadvantage on your combat alchemy att
 </details>
 </details>
 </details>
+
 
 <!-- ---------------------------- Class Features ------------------------------  -->
 
@@ -213,18 +215,15 @@ From 1st level you have advantage on any ability check you make with your alchem
 -->
 
 ### Field of Study
-While all alchemists share a common knowledge base, most alchemists specialize into a particular field of study. When you reach 2nd level, you select your field of study from apothecary, mad bomber, poisoner and transmuter. Your field choice grants you features at 2nd level and then again at 7th, 10th, and 17th level.
+While all alchemists share a common knowledge base, most alchemists specialize into a particular field of study. When you reach 2nd level, you select your field of study from apothecary, mad bomber, poisoner and transmuter. Your field choice grants you features at 2nd level and then again at 7th, 10th, and 16th level.
 
 ### Discoveries
 In the course of your research, you have made a number of <a href="#internal-discovery">discoveries</a> regarding the nature of alchemy. At 3rd level, you gain two discoveries of your choice. When you gain certain alchemist levels, you gain additional discoveries of your choice, as shown in the Discoveries Known column of the Alchemist table.
 
 Additionally, when you learn a new discovery, you can choose one of the discoveries you know and replace it with another discovery that you could learn at that level.
 
-### Ability Score Improvement
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
-
 ### Chemical Distillation
-Beginning at 5th level, you can use your alchemist's supplies to purify water, rendering it drinkable if a little bland in taste.
+Beginning at 4th level, you can use your alchemist's supplies to purify water, rendering it drinkable if a little bland in taste.
 
 ### Brew Potions
 During times of downtime you can prepare alchemical reagents needed to brew potions of different types. The currently availabe reagents are represented by ***Alchemy points***. The maximum number of ***Alchemy points*** you can have at any time is equal to half your class level.
@@ -240,7 +239,7 @@ You regain ***Alchemy points*** after a long rest. See *Rest Additions* for more
 - **Curative**. A creature that drinks this elixir heals 2 [hit die] + 4 hit points.
 - **Diver**. The target gains the ability to hold its breath twice as long as normal, i.e. for a number of minutes equal to 2 + twice its Constitution bomns.
 
-*From level 9, you can brew the following potions, for 2 alchemy points each.*
+*From level 8, you can brew the following potions, for 2 alchemy points each.*
 - **Neutralizer**. A creature that drinks this elixir gains advantage on saving throws against poison. If you are poisoned when you drink this potion, you may immediately make a new saving throw.
 - **Preventative**. A creature that drinks this elixir gains advantage on saving throws against disease. If you are diseased when you drink this remedy, you may immediately make a new saving throw.
 
@@ -250,14 +249,9 @@ You regain ***Alchemy points*** after a long rest. See *Rest Additions* for more
 
 
 ### Evasion
-Beginning at 13th level, your experience with avoiding your own bombs' explosions has granted you the ability to nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an *ice storm* spell.
+Beginning at 12th level, your experience with avoiding your own bombs' explosions has granted you the ability to nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an *ice storm* spell.
 
 When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
-
-
-
-
-
 
 ### Philosopher’s Stone
 At 20th level, you unlock the secrets of alchemy. Using your alchemist's supplies and 1000 gp worth of materials, you can spend 1 week of work creating a philosopher's stone, a dynamo of elemental energy encased in a fist-sized, glowing jewel. Your philosopher's stone only works in your possession, and you can only have one at a time. To any other creature, it is just an ordinary (if beautiful) gemstone. As long as you possess your philosopher's stone, you gain the following benefits.
@@ -278,17 +272,17 @@ The philosopher’s stone also has devastating destructive potential. As a ***bo
 
 | Alchemist level | Feature |
 |:---------------:|:--------|
-| 2nd | Bonus Proficiencies, Painkiller Bomb, Potion Focus
+| 2nd | Bonus Skills, Painkiller Bomb, Potion Focus
 | 7th | Quick Hands, Surgical Precision
 | 10th | Bonus Potions
-| 17th | Panacea
+| 16th | Panacea
 
 </div>
 
 Many practically-minded alchemists decide to assume the role of the apothecary. An adventuring party always needs a healer, and clerics might be in short supply. On their downtime, such alchemists have a marketable skill to depend upon for income. Apothecaries are constantly at work studying potions and herbology. In order to learn how to heal the body, an apothecary must learn how the body works. This often requires carving boldly upon the corpses of the dead to further understand how they behave while living.
 
-### Bonus Proficiencies
-When you select this field of study at 2nd level, you gain proficiency with Medicine. If you have access to your alchemist's supplies when making an ability check to diagnose or treat a creature, you gain advantage to the check.
+### Bonus Skills
+When you select this field of study at 2nd level, you gain 2 skill points to spend on Medicine. In addition, you can use your alchemist's supplies instead of a healer's kit.
 
 ### Painkiller Bomb
 At 2nd level, you can create bombs which spray an analgesic oil. When creating a bomb, you can replace its contents with this oil, changing it to a painkiller bomb. The bomb can then be thrown as normal or splashed on an adjacent creature.
@@ -307,12 +301,13 @@ Your skill with small and precise tools is so refined that it shows even in batt
 
 ### Bonus Potions
 At 10th level, you can additionally brew the following potions with your Brew potions feature:
+
 **Improved Curative**. A creature that drinks this elixir heals 4[hit die] + 4 hit points. (1 alchemy point)
 
 **Greater Curative**. A creature that drinks this elixir heals 8[hit die] + 10 hit points. (3 alchemy points)
 
 ### Panacea
-At 17th level, during a long rest, using 5 ***alchemy points*** and materials worth at least 500 gp (which are consumed upon use), you can distill the essence of universal healing, the panacea. When a creature drinks this potion, they instantly gain the following benefits:
+At 16th level, during a long rest, using ***5 alchemy points*** and materials worth at least 500 gp (which are consumed upon use), you can distill the essence of universal healing, the panacea. When a creature drinks this potion, they instantly gain the following benefits:
 
 - Any reduction to the creature's ability scores or hit points is ended.
 - The creature's hit points are restored to maximum.
@@ -333,10 +328,10 @@ The panacea must be consumed within 24 hours, after which it becomes inert. You 
 
 | Alchemist level | Feature |
 |:---------------:|:--------|
-| 2nd | Tool Proficiency, Animated Cadaver, Revival Concoction
+| 2nd | Bonus Skills, Animated Cadaver, Revival Concoction
 | 7th | Corpsecrafting Infusions
 | 10th | Corpsecrafting Infusions (2 infusions), Unnatural Intellect
-| 17th | Magnum Opus
+| 16th | Magnum Opus
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -352,14 +347,15 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
-
 </div>
 
 The art of corpsecrafting specializes in using alchemy to reanimate and reshape the bodies of the fallen. Corpsecrafters, unlike necromancers they're often compared to, prefer to focus their efforts on their macabre creations; a cadaver, to perform a variety of tasks for them by use of a combination of magical and alchemical augmentations.
 
+### Bonus Skills
+When you select this field of study at 2nd level, you gain 2 skill points to spend on Leatherworking.
 
-### Tool Proficiency
-When you choose this specialization at 2nd level, you gain proficiency with Leatherworker’s tools. If you already have this proficiency, you gain proficiency with one other type of artisan’s tools of your choice.
+### Animated Cadaver
+Also at 2nd level, you have perfected the ability to reanimate corpses and modify them. During a long rest, you can alchemically reanimate a fresh cadaver if you have your alchemist’s supplies, leatherworker's tools and a humanoid corpse. When you do so, it has the base statistics listed below. You can only have one cadaver at a time as they need constant upkeep.
 
 <div class="monster frame">
 <table class="monster">
@@ -389,21 +385,21 @@ Cadaver
 <tr><td><hr></td></tr>
 <tr><td markdown="1">
 
-**Damage Immunities** 		 poison
+**Damage Immunities.** poison
 
-**Condition Immunities** 	 poisoned
+**Condition Immunities.** poisoned
 
-**Senses** 								 darkvision 60 ft.
+**Senses.** darkvision 60 ft.
 
-**Languages** 						 understands all languages creator knows, but can't speak
+**Languages.** understands all languages creator knows, but can't speak
 
 </td></tr>
 <tr><td><hr></td></tr>
 <tr><td markdown="1">
 
-***Arcane Embalming.*** The cadaver your cadaver gains advantage on turning saving throws.
+***Arcane Embalming.*** The cadaver gains advantage on turning saving throws.
 
-***Proficiencies.*** The cadaver uses the same proficiency bonus as its creator. It is proficient with all armor, shields and simple weapons.
+***Proficiency.*** The cadaver uses the same proficiency bonus as its creator.
 
 ***Undead Fortitude.*** If damage reduces the cadaver to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage dealt, unless the damage is radiant or from a critical hit. On a success, the cadaver drops to 1 hit point instead.
 
@@ -417,60 +413,47 @@ Cadaver
 </td></tr></tbody></table>
 </div>
 
-### Animated Cadaver
-
-By 2nd level, you have perfected the ability to reanimate corpses and modify them. During a long rest, you can alchemically reanimate a fresh cadaver if you have your alchemist’s supplies, leatherworker's tools and a humanoid corpse. When you do so, it has the base statistics listed below. You can only have one cadaver at a time as they need constant upkeep.
-
-In combat, the cadaver shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action unless you take a ***bonus action*** on your turn to command it to take one of the actions in its stat block or the Attack, Dash, Disengage, Help, Hide, or Search action.
+In combat, the cadaver shares your initiative count and takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action unless you take a ***bonus action*** on your turn to command it to take the Attack, Dash, Disengage, Help, Hide, or Search action.
 
 If you spend a short rest with your leatherworker's tools on your cadaver, it regains 2d6 hit points.
-
-
 
 ##### Hiding the undead
 Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
 
+
 ### Revival Concoction
 Also from 2nd level, you learn how to prepare an additional concoction, the revival concoction, which can be used as an ***action*** to repair your cadaver.
 
-If your cadaver has died within the last hour the concoction can be used to restore it to unlife. After 1 minute it is revived with all its hit points restored.
+If your cadaver has died within the last hour the concoction can be used to restore it to unlife. After 1 minute it is revived with 1 hit point.
 
 Using the concoction on a “living” cadaver grants it temporary hit points equal to 3 times your class level. The temporary hit points are not gained until after 1 minute, and they last indefinitely.
 
 ### Corpsecrafting Infusions
 At 7th level when you create your cadaver, you can choose to add a variety of boons and features to it by using corpsecrafting infusions. When creating a cadaver you can apply one effect form the infusions list. You can apply one additional infusion at 10th level. Some infusions can be applied twice, with additional effects.
 
-
-
-
-
-
-
-**Draining Touch**. When you apply this infusion to your cadaver, its unarmed attacks instead do 3d6 necrotic damage. If applied twice, the cadaver gains health equal to half the damage dealt with this attack.
+**Draining Touch**. When you apply this infusion to your cadaver, its unarmed attacks instead do 3d6 necrotic damage. If applied twice, the cadaver regains health equal to half the damage dealt with this attack.
 
 **Enhanced Vitality**. When you apply this infusion to your cadaver, double its hit points. If applied twice, double it again.
 
-**Extraordinary Activation**. When you apply this infusion to your cadaver, it gains the 'Ability Score Improvement' feature. You can only apply this infusion once.
+**Extraordinary Activation**. Each time you apply this infusion to your cadaver, it gains a skill point to spend on a combat skill.
 
 **Galvanism**. Whenever the cadaver is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt. If applied twice, it also gains resistance to acid damage.
 
 **Martial Memories**. The cadaver gains an additional attack every time it takes the attack action.
 
-**Necrotic Regeneration**. When you apply this infusion to your cadaver, if it has more than 0 hit points it regains hit points equal to your Intelligence modifier back at the start of your turn. The amount regenerated increases to twice your Intelligence modifier if applied twice.
+**Necrotic Regeneration**. When you apply this infusion to your cadaver, if it has more than 0 hit points it regains hit points equal to your Intelligence modifier at the start of your turn. The amount regenerated increases to twice your Intelligence modifier if applied twice.
 
 **Undead Constitution**. When you apply this infusion to your cadaver, it gains immunity to the charmed, exhaustion, paralyzed and petrified condition as well as resistance to necrotic damage. If applied twice, it also gains resistance to bludgeoning, piercing, and slashing from nonmagical attacks.
 
 ### Unnatural Intellect
 Starting at 10th level, your cadaver gains some semblance of thought. Your cadaver can now act on its own, not needing to be commanded with your bonus action to use its own actions.
 
-
-
 ### Magnum Opus
-At 17th level, you have developed some extraordinary infusions for your cadaver. Choose one of the Magnum Opus infusions to give to a cadaver you create.
+At 16th level, you have developed some extraordinary infusions for your cadaver. Choose one of the Magnum Opus infusions to give to a cadaver you create.
 
 **Magnum Opus: Incorporeal**. When you apply this infusion to your cadaver, it gains a flying speed of 30ft and becomes immune to the grappled, prone and restrained condition. It also can move through other creatures and objects as if they were difficult terrain, taking 1d10 force damage if it ends its turn inside an object.
 
-**Magnum Opus: Harbinger**. When you apply this infusion to your cadaver, anytime it kills another humanoid, the creature will rise as a zombie with one hit point at the start of your next turn. It is under your command and uses your initiative count.
+**Magnum Opus: Harbinger**. When you apply this infusion to your cadaver, whwnever it kills another humanoid, the creature will rise as a zombie with one hit point at the start of your next turn. It is under your command and uses your initiative count.
 
 **Magnum Opus: Macabre Doppelganger**. When you apply this infusion to your cadaver, your cadaver gains a new strange ability. When you die, your cadaver can turn itself into an unnatural imitation of you by consuming your fresh (within the hour) corpse. When it does this, it gains all your statistics as well as your behaviours and memories but not your appearance. Over the course of the next week, the cadaver slowly changes to look identical to your original body.
 
@@ -488,31 +471,29 @@ During the transformation, the cadaver can't create another cadaver using its 'A
 
 | Alchemist level | Feature |
 |:------------:|:--------|
-| 2nd | Bonus Proficiencies, Makeshift Bombs
+| 2nd | Bonus Skills, Makeshift Bombs
 | 7th | Demolition
 | 10th | Expanding blast
-| 17th | Big bombs
+| 16th | Big bombs
 
 </div>
 
 While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.
 
-
-### Bonus Proficiencies
-When you select this field of study at 2nd level, you gain proficiency with one martial ranged weapon.
+### Bonus Skills
+When you select this field of study at 2nd level, you gain 1 skill point to spend on Combat skills.
 
 ### Makeshift Bombs
-At 2nd level, the creation of bombs is so ingrained in your memory that you can do it in an instant. As long as you have alchemist’s supplies and a component pouch, you can create a makeshift bomb as an ***item action***. The bomb does not count against you daily limit of concoctions, only damages a single target on a hit and cannot be modified by any of your discoveries.
-
+At 2nd level, the creation of bombs is so ingrained in your memory that you can do it in an instant. As long as you have alchemist’s supplies and a component pouch, you can create a makeshift bomb as an ***item action***. The bomb does not count against your daily limit of concoctions, only damages a single target on a hit and cannot be modified by any of your discoveries.
 
 ### Demolition
 At 7th level, you learn to use your bombs to damage and destroy structures. You now make your bombs to accept fuses of various lengths. As an ***action***, you can set a bomb and light its fuse, which has a duration of your choice between 1 round and 5 minutes. Upon detonation, this bomb deals its damage as normal, but also deals double damage to any nonmagical object within 5 feet of it that isn't being worn or carried and also ignores its damage immunities. For rules on objects and their hit points, see pages 246 and 247 of the Dungeon Master's Guide.
 
 ### Expanding blast
-At 10th level, you have figured out how to make larger casings for your bombs. The blast radius is now 10 feet. Creatures within a 5 foot radius take full damage on a failed save and half on a successful one. Even though you create the bombs with larger casing, you can remove it at the time of throwing to get a regular radius bomb.
+At 10th level, you have figured out how to make larger casings for your bombs. The blast radius is now 10 ft. Creatures within a 5 foot radius take full damage on a failed save and half on a successful one. Even though you create the bombs with larger casing, you can remove it at the time of throwing to get a regular radius bomb.
 
 ### Big bombs
-Beginning at 17th level, you can combine two non makeshift bombs into one. Combine damage and effect from both bombs. Any saves against the bombs are made at disadvantage.
+Beginning at 16th level, you can combine two non makeshift bombs into one. Combine damage and effect from both bombs. Any saves against the bombs are made at disadvantage.
 
 
 
@@ -529,12 +510,11 @@ Beginning at 17th level, you can combine two non makeshift bombs into one. Combi
 | 2nd | Poisonous Residue, Poison Resistance
 | 7th | Ethereal Poison
 | 10th | Poison Immunity
-| 17th | Powder Poison
+| 16th | Powder Poison
 
 </div>
 
 Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.
-
 
 ### Poisonous Residue
 When you select this field of study at 2nd level, whenever you apply poison to a weapon, it will retain it potency for the full duration, even if you use the weapon. This only applies to regular poisons and your basic Concoction poison.
@@ -551,11 +531,10 @@ At 7th level, you can make your poison concoctions so potent that they can effec
 At 10th level, you gain immunity to poison damage and the poison condition.
 
 ### Powder Poison
-At 17th level, you learn how to create more versatile versions of your poison concoctions. Whenever you use a poison, you can choose to use it in three different ways:
+At 16th level, you learn how to create more versatile versions of your poison concoctions. Whenever you use a poison, you can choose to use it in three different ways:
 * You can apply it on your weapon as usual.
 * You can use it more concentrated, for a more lethal effect when ingested. The poison's damage is doubled, and any saves a target would need to make has disadvantage.
 * You can use a small cone to blow the poison out as a fine mist in a 15-foot-cone. Any target in the area must make a Constitution saving throw against your alchemy save DC. Any creature that fails the save is affected by any poison as normal, except its duration is only 1 round. A creature that succeeds is unaffected by the poison.
-
 
 
 <hr class="classdivider">
@@ -571,40 +550,36 @@ At 17th level, you learn how to create more versatile versions of your poison co
 | 2nd | Psychedelic Concoctions, Invade Mind
 | 7th | Vertigo
 | 10th | Advanced Sway
-| 17th | Dazing Vertigo
+| 16th | Dazing Vertigo
 
 </div>
 
 Psychedelics specialize in manipulating the minds of creatures using hormones, narcotics and other baneful elixirs to make them compliant. Whether it is to gather information, convince a target of a truth or to assassinate a suspect, the psychedelics move silently and deadly.
-
 
 ### Psychedelic Concoctions
 From 2nd level, when you choose this field of study, you learn how to prepare an additional concoction, the hallucinogen.
 
 A hallucinogen is made in a powder form that you can blow onto an adjacent creature. If the creature fails a Wisdom saving throw against your Alchemy save DC, it gains the new ***Compliant*** condition for 1 minute. This is a charm effect.
 
+<div class="infoarea" markdown="1">
+
 ##### Compliant
-
 - A compliant creature can’t attack you or target you with harmful abilities or effects.
-
 - You have advantage on any ability check to interact socially with the compliant creature.
-
 - The compliant creature has disadvantage on any wisdom saving throws.
+</div>
 
 ### Invade Mind
-Also from 2nd level, your ability to alter a creature's mind allows you to control compliant creatures. As an ***action***, you may target one creature within 30 feet who is compliant or charmed by you, and cause one of the following effects to occur:
+Also from 2nd level, your ability to alter a creature's mind allows you to control compliant creatures. As an ***action***, you may target one creature within 30 ft who is compliant or charmed by you, and cause one of the following effects to occur:
 
-* The target gets advantage or disadvantage on their next saving throw, ability check or attack roll. Your choice on whether it is made with advantage or disadvantage.
-
-
-* You can speak telepathically with the creature while it is within 30 feet for the next minute or until it is no longer compliant or charmed. When you activate this ability, you learn the target's surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about), and can do so again as an ***action*** while this ability is active.
-
-* You can see through the creature's eyes and hear what it hears for the next minute or until you end this ability as a ***bonus action*** on your turn. While this is active, you are blind and deafened.
+- The target gets advantage or disadvantage on their next saving throw, ability check or attack roll. Your choice on whether it is made with advantage or disadvantage.
+- You can speak telepathically with the creature while within 30 ft for the next minute or until it is no longer compliant or charmed. When you activate this ability, you learn the target's surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about), and can do so again as an ***action*** while this ability is active.
+- You can see through the creature's eyes and hear what it hears for the next minute or until you end this ability as a ***bonus action*** on your turn. While this is active, you are blind and deafened.
 
 Once you use this ability, you cannot do so again with the same compliant/charmed effect active.
 
 ### Vertigo
-At 7th level, you can tap into a mind you have subdued at the moment of clarity and wrack them with pain. As a ***reaction*** when a creature within 30 feet, who is compliant or charmed by you ends that effect, you can use your reaction to deal 3d8 psychic damage to the target. You can choose to instead use this feature as a ***bonus action*** while the creature is compliant/charmed by you, ending the effect.
+At 7th level, you can tap into a mind you have subdued at the moment of clarity and wrack them with pain. As a ***reaction*** when a creature compliant or charmed by you ends that effect and is within 30 ft, you can deal 3d8 psychic damage to the target. You can choose to instead use this feature as a ***bonus action*** while the creature is compliant or charmed by you, ending the effect.
 
 ### Advanced Sway
 Starting at 10th level, you have perfected pheromones that can pierce through even the strongest minds. A creature who is normally immune to the charmed condition is not immune to effects of your abilities.
@@ -612,7 +587,7 @@ Starting at 10th level, you have perfected pheromones that can pierce through ev
 In addition, when a creature is made compliant or charmed by you, you may use an ***action*** and expend a hallucinogen concoction to automatically reset the duration of the spell or effect as if just cast.
 
 ### Dazing Vertigo
-By 17th level, your abilities to injure minds and manipulate brains allows you to punish those who would resist your charms. The damage of your Vertigo increases to 6d8 + your Intelligence modifier, and the target must succeed on an Intelligence saving throw against your spell save DC or be stunned until the end of your next turn.
+By 16th level, your abilities to injure minds and manipulate brains allows you to punish those who would resist your charms. The damage of your Vertigo increases to 6d8 + your Intelligence modifier, and the target must succeed on an Intelligence saving throw against your spell save DC or be stunned until the end of your next turn.
 
 
 <hr class="classdivider">
@@ -625,18 +600,17 @@ By 17th level, your abilities to injure minds and manipulate brains allows you t
 
 | Alchemist level | Feature |
 |:------------:|:--------|
-| 2nd | Bonus Proficiency, Spellcasting
+| 2nd | Bonus Skills, Spellcasting
 | 7th | Transmuter’s Stone
 | 10th | Shapechanger
-| 17th | Master Transmuter
+| 16th | Master Transmuter
 
 </div>
 
 Not satisfied with mere mundane alchemy, the transmuter blends science with arcane knowledge to create something more. A transmuter is usually more experimental, but often seen as a failure by both wizards and “pure” alchemists.
 
-
-### Bonus proficiency
-When you select this field of study at 2nd level, you gain proficiency with Arcana.
+### Bonus Skills
+When you select this field of study at 2nd level, you gain 2 skill points to spend on Arcana.
 
 ### Spellcasting
 Also at 2nd level, you gain the ability to cast spells.
@@ -679,10 +653,8 @@ You prepare the list of spells that are available for you to cast. To do so, cho
 
 </div>
 
-
 #### Learning Spells
 Each time you gain an alchemist level, you can add one new transmutation or abjuration spell from the wizard spell list to your spellbook. It must be of a level for which you have spell slots. Like a wizard, you might find other spells that you can add to your spellbook. However, gold and time you must spend to copy a spell into your spellbook is halved.
-
 
 #### Spellcasting Ability
 Intelligence is your spellcasting ability for your spells, since you learn your spells through dedicated study and memorization.
@@ -697,8 +669,8 @@ Starting at 7th level, you can spend 8 hours creating a transmuter’s stone tha
 
 When you create the stone, choose the benefit from the following options:
 
-- Darkvision out to a range of 30 feet.
-- An increase to speed of 10 feet while the creature is unencumbered.
+- Darkvision out to a range of 30 ft.
+- An increase to speed of 10 ft while the creature is unencumbered.
 - Proficiency with Constitution saving throws.
 - Resistance to acid, cold, fire, lightning, or thunder damage (your choice whenever you choose this benefit).
 
@@ -707,11 +679,10 @@ Each time you cast a transmutation spell of 1st level or higher, you can change 
 ### Shapechanger
 At 10th level, you can brew a mutagenic elixir in addition to your other concoctions. This elixir affects you as a *polymorph* spell, with the exception that you can only transform into a creature with CR 1 or lower and you retain your intelligence.
 
-
 ### Master Transmuter
-Starting at 17th level, you can use your ***action*** to consume the reserve of transmutation magic stored within your transmuter’s stone in a single burst. When you do so, choose one of the following effects. Your transmuter’s stone is destroyed and can’t be remade until you finish a long rest.
+Starting at 16th level, you can use your ***action*** to consume the reserve of transmutation magic stored within your transmuter’s stone in a single burst. When you do so, choose one of the following effects. Your transmuter’s stone is destroyed and can’t be remade until you finish a long rest.
 
-**Major Transformation**. You can transmute one nonmagical object—no larger than a 5-foot cube—into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it.
+**Major Transformation**. You can transmute one nonmagical object no larger than a 5 ft cube into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it.
 
 **Restore Life**. You cast the *raise dead* spell on a creature you touch with the transmuter’s stone, without expending a spell slot or needing to have the spell in your spellbook.
 
@@ -740,7 +711,7 @@ You can additionally brew the following potions with your Brew potions feature:
 
 **Health Tonic**. A creature that drinks this elixir ends one effect reducing its hit point maximum. (*2 alchemy points*)
 
-**Rejuvenating Tonic**. A creature that drinks this elixir ends one effect reducing an ability score. (*2 alchemy points*)
+**Rejuvenating Tonic**. A creature that drinks this elixir ends regains 2 points from a reduced ability score. (*2 alchemy points*)
 
 **Cure**. End either one disease or one condition afflicting the target creature. The condition can be blinded, deafened, paralyzed, poisoned, or unconscious. If the target was at 0 hit points when you removed the unconscious condition, it is restored to 1 hit point. (*3 alchemy points*)
 
@@ -758,7 +729,7 @@ You can additionally brew the following potions with your Brew potions feature:
 
 **Enlarge**. The target creature grows larger for the duration, as the enlarge spell. (*2 alchemy points*)
 
-**Reduce**. As the spell. (*2 alchemy points*)
+**Reduce**. The target creature grows smaller for the duration, as the spell. (*2 alchemy points*)
 
 **Stoneskin**. The target’s flesh becomes as hard as stone. Until the effect ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage. (*3 alchemy points*)
 
@@ -784,14 +755,9 @@ You can additionally brew the following potions with your Brew potions feature:
 
 **Heightened Senses**. Target gains advantage on all Perception and Investigation checks. (*1 alchemy point*)
 
-**Darkvision**. The target gains the ability to see in the dark to a range of 30 feet. (*2 alchemy points*)
+**Darkvision**. The target gains the ability to see in the dark to a range of 30 ft. (*2 alchemy points*)
 
-**Blindsight**. Target gains blindsight for the duration. The target can perceive its surroundings without relying on sight, within a 30-foot radius. (*3 alchemy points*)
-
-
-
-
-
+**Blindsight**. Target gains blindsight for the duration. The target can perceive its surroundings without relying on sight, within a 30 ft radius. (*3 alchemy points*)
 
 ### Arcane Study
 You learn two cantrips of your choice from the wizard’s spell list. Your spellcasting ability for these cantrips is Intelligence.
@@ -802,7 +768,8 @@ Using your alchemist's supplies and 20 gp worth of materials, you can spend 1 ho
 If a vial of aqua fortis is splashed on a nonmagical object that isn't being worn or carried, it will will dissolve a 1-foot cube of it. If splashed on a suit of armor armor or a shield, the object takes a permanent and cumulative -1 penalty to the AC it offers. If splashed on a weapon, it takes a permanent and cumulative -1 penalty to damage rolls. It has no effect on gold, glass, stone, and adamantine objects or magical items.
 
 ### Argentum sanguine
-#### “Silver blood”
+***“Silver blood”***
+
 You have imbued your very essence with alchemical silver and cannot be infected with lycanthropy or vampirism. Any such creature that bites you takes damage equal to your Constitution modifier (min 1). Damage from your weapon or spell attacks is not reduced by the natural damage resistance of a lycanthrope or vampire.
 
 In addition, this interferes with magic that attempt to control your mind. You have advantage on saves against all such attempts.
@@ -813,8 +780,7 @@ You have developed a coating for your coat, specially treated to protect you fro
 ### Bomb trap
 You can set up a bomb to explode when someone moves past or over it. This is done with a tripwire, a buried mine or any other trap construction appropriate for the location.
 
-
-You set it up in 1 minute, and you can have a number of traps up to your intelligence modifier at one time. When a creature of Small size or larger moves at the spot where your trap is set, it must make a Dexterity saving throw. On a failed save the creature takes full damage from the bomb, or half as much on a successful save. A creature can detect the presence of a trapped bomb with a Perception check opposed by your Stealth check.
+You set it up in 1 minute, and you can have a number of traps up to your intelligence modifier at one time. When a creature of Small size or larger moves at the spot where your trap is set, it must make a Dexterity saving throw. On a failed save the creature takes full damage from the bomb, or half as much on a successful save. A creature can detect the presence of a trapped bomb with a Perception check opposed by your Intelligence (Sleight of hand) check.
 
 ### Clotting Agent
 You have developed a serum that protects you from harm. Your maximum hp increases by half your Alchemist level (rounded up.)

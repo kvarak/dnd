@@ -2806,11 +2806,6 @@ If you have access to a fully stocked alchemical laboratory, you have advantage 
 You can attempt to make items above your level of skill. For each level below, you have a -10 on your check.
 
 <details>
-<summary>Combat Alchemy (trait)</summary>
-You know how to maximize the effectiveness of alchemical items under stress, for instance when in combat. You are proficient with throwing flasks and vials and do not have disadvantage when attacking an adjacent creature with them. In addition the damage of your acid, alchemist’s fire and other similar items increases by one damage die at levels 5, 11, and 17.
-</details>
-
-<details>
 <summary>Craft Alchemical Substance (trait)</summary>
 You know how to apply your theoretical knowledge into practice, allowing you to safely craft alchemical items up to a value of 10 gp.
 <details>
