@@ -111,8 +111,21 @@ You start with the following equipment, in addition to the equipment granted by 
 **Combat Skill Points:** You gain 1 skill point to spend on combat skills every even level.
 </details>
 
+<details>
+<summary>Class Specific Combat Skills</summary>
 
-<hr>
+<details>
+<summary>Combat Alchemy</summary>
+You are proficient with throwing alchemical items, such as flasks and vials, as well as alchemist's bombs. Such items are ranged weapons with the finesse and thrown (range 20/60) properties.
+
+You do not have disadvantage when throwing an alchemical item while adjacent to a hostile creature.
+
+<details>
+<summary>Precise Thrower</summary>
+Attacking at long range doesn’t impose disadvantage on your combat alchemy attack rolls. In addition they ignore half cover and three-quarters cover.
+</details>
+</details>
+
 
 ### Concoctions
 You learn how to create a variety of concoctions using your alchemist's supplies. During a long rest you can prepare 2 concoctions. See *Rest Additions* for more info.
@@ -127,11 +140,11 @@ When your concoctions call for a saving throw, its save DC is calculated as foll
 
 
 #### Bomb
-These volatile alchemical bombs are ranged weapons with the finesse and thrown (range 20/60) properties. On a hit, the target takes your alchemy die + your Intelligence modifier fire damage. All creatures within a 5 ft radius of the original target must make a Dexterity saving throw, taking half damage on a failed save and none on a successful one.
+These volatile alchemical items explode on contact, dealing fire damage equal to your alchemy die + your Intelligence modifier fire damage on a direct hit. All creatures adjacent to the target must make a Dexterity saving throw, taking half damage on a failed save and no damage on a successful one.
 
 If you miss your attack roll with a bomb, there is a 50% chance the throw was not hard enough to cause the bomb to explode. Otherwise it continues up to your maximum throwing distance before exploding. Roll an attack roll for each possible target in the path to see if it explodes before.
 
-You cannot throw more than one bomb per round. You do not have disadvantage when throwing a bomb while within 5 feet of a hostile creature. Creatures not proficient with alchemical bombs have disadvantage on attack rolls made with them.
+You cannot throw more than one bomb per round. Creatures not proficient with combat alchemy have disadvantage on attack rolls made with your bombs.
 
 #### Elementary Reagent
 An elementary reagent is a versatile concoction which can be finalized into one of several different items depending on the final ingredient added when used. Preparing the final product is an ***item action*** that requires both hands (or an assistant).
