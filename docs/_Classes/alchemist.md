@@ -69,27 +69,32 @@ As a alchemist, you gain the following class features.
 #### Hit Points
 **Hit Dice:** 1d8
 
-#### Proficiencies
-**Armor:** Light armor
-
-**Weapons:** Simple weapons, thrown alchemical items
-
-**Saving Throws:** Constitution, Intelligence
+#### Saving Throws
+You are proficient with ***Constitution*** and ***Intelligence*** saving throws.
 
 #### Skills
 **Class Skills:** Alchemy, Ceramics, Medicine and Herbalism
 
-**Skill Points:** You gain 2 skill points at 1st level and 1 additional skill point per level
+**Skill Points:** You gain 2 skill points at 1st level and 1 additional skill point per level.
 
 **Additional Skills:** You gain 4 additional skill points to spend on Alchemy. *Note that **Journeyman crafter** and **Master crafter** are much more difficult to gain during play.*
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 1 in each weapon group.
+
+**Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level and 1 additional skill point every even level.
+
+**Recommended:** Light armor and Combat alchemy
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 
 - *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
 - *(a)* an explorer's pack or *(b)* a scholar's pack
-- an alchemist's kit
-- leather armor and a dagger
+- an alchemist's kit and a dagger
+- leather armor *(if proficient)*
+
+<hr>
 
 ### Concoctions
 You learn how to create a variety of concoctions using your alchemist's supplies. During a long rest you can prepare 2 concoctions. See *Rest Additions* for more info.
