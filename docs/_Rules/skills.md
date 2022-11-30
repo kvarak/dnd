@@ -12,7 +12,8 @@ You will get skill points to select skills during character creation, as well as
 - During character creation, while generating your background, you will get skills appropriate for the events in your life. If you get less than 3 skills (4 for humans), you can select additional skills so that you have 3. Additionally you always gain the appropriate Culture skill (unless living as a hermit or similar). Skills found in Background Skills are only available at this time.
 - Each class receives a number of skill points for which to buy skills from a list of class skills.
 - Each time you level up, you gain 1 skill point, which you can use to buy any skill.
-- In addition, classes may have class features that grant skills or skill points.
+- In addition, classes may have class features that grant skills or skill points. If a class grant a skill with a prerequisite skill, you also gain that skill.
+
 
 ### Spending skill points
 Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must know the skill right above it in the “skill tree”. You can save skill points, and are allowed to spend them at a later time, after finishing a long rest. Additionally you can spend skill points the following ways.
@@ -655,7 +656,7 @@ Observing how humanoids behave has given you lots of insight in the mind of othe
 </details>
 
 <details>
-<summary>Keen Awareness</summary>
+<summary>Keen Awareness (trait)</summary>
 
 You are always on your guard and can react to danger at a moment's notice. Gain ***Expertise*** on Initiative checks. In addition you can use your ***reaction*** before your first round.
 <details>

@@ -46,22 +46,22 @@ As a barbarian, you gain the following class features.
 | 1st | +2 | Primal Path, Rage,<br/>Unarmored Defense | 20 | +2 |
 | 2nd | +2 | Combat Style, Survivor | 20 | +2 |
 | 3rd | +2 | Path feature | 30 | +2 |
-| 4th | +2 | Ability Score Improvement | 30 | +2 |
-| 5th | +3 | Extra Attack, Mobile | 30 | +2 |
+| 4th | +2 | Mobile | 30 | +2 |
+| 5th | +3 | Extra Attack | 30 | +2 |
 | 6th | +3 | Path feature | 40 | +2 |
 | 7th | +3 | Feral Instinct | 40 | +2 |
-| 8th | +3 | Ability Score Improvement | 40 | +2 |
+| 8th | +3 | - | 40 | +2 |
 | 9th | +4 | Brutal Critical (1 die) | 40 | +3 |
 | 10th | +4 | Path feature | 40 | +3 |
 | 11th | +4 | Relentless Rage | 40 | +3 |
-| 12th | +4 | Ability Score Improvement | 50 | +3 |
+| 12th | +4 | - | 50 | +3 |
 | 13th | +5 | Brutal Critical (2 dice) | 50 | +3 |
 | 14th | +5 | Path feature | 50 | +3 |
 | 15th | +5 | Rage power | 50 | +3 |
-| 16th | +5 | Ability Score Improvement | 50 | +4 |
+| 16th | +5 | - | 50 | +4 |
 | 17th | +6 | Brutal Critical (3 dice) | 60 | +4 |
 | 18th | +6 | Rage power | 60 | +4 |
-| 19th | +6 | Ability Score Improvement | 60 | +4 |
+| 19th | +6 | - | 60 | +4 |
 | 20th | +6 | Primal Champion | Unlimited | +4 |
 
 </div>
@@ -73,32 +73,30 @@ As a barbarian, you gain the following class features.
 <summary>At 1st level</summary>
 
 #### Hit Points
-**Hit Dice:** 1d8
+**Hit Dice:** 1d12
 
 #### Saving Throws
-You are proficient with ***Constitution*** and ***Intelligence*** saving throws.
+You are proficient with ***Strength*** and ***Constitution*** saving throws.
 
 #### Skills
-**Class Skills:** Alchemy, Ceramics, Medicine and Herbalism
+**Class Skills:** Animal handling, Herbalism, Nature, Physique, Survival and Swimming
 
-**Skill Points:** You gain 2 skill points at 1st level
+**Skill Points:** You gain 2 skill points at 1st level.
 
-**Additional Skills:** You gain 4 additional skill points to spend on Alchemy. *Note that **Journeyman crafter** and **Master crafter** are much more difficult to gain during play.*
 
 #### Skills - Combat
-**Weapon Groups:** You have rank 1 in each weapon group.
+**Weapon Groups:** You have rank 2 with Axe, Club, Knife, Staff, Sword and Thrown Weapon. Additionally you have rank 1 with Flail, Polearm, Spear and Bow.
 
 **Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level.
 
-**Recommended:** Light armor and Combat alchemy
+**Recommended:** Light armor and Medium armor
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 
-- *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
-- *(a)* an explorer's pack or *(b)* a scholar's pack
-- an alchemist's kit and a dagger
-- leather armor *(if proficient)*
+- *(a)* greataxe or *(b)* any martial weapon
+- *(a)* two handaxes or *(b)* any simple weapon
+- An explorer’s pack and four javelins
 </details>
 
 
@@ -108,58 +106,45 @@ You start with the following equipment, in addition to the equipment granted by 
 <summary>Each level after 1st</summary>
 
 #### Hit Points
-**Hit Dice:** 1d8
+**Hit Dice:** 1d12
 
 #### Skills
 **Skill Points:** You gain 1 skill point per level.
 
 #### Skills - Combat
-**Combat Skill Points:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
+**Combat Skill Points:** You gain 1 skill point to spend on combat skills every level.
 </details>
 
 
 
-<!-- -------------------- Class Specific Combat Skills ---------------------  -->
+<!-- -------------------- Class Specific Skills ---------------------  -->
 
 <details>
-<summary>Class specific combat skills</summary>
-The following combat skills are exclusive to alchemists.
+<summary>Class specific skills</summary>
 
-<details>
-<summary>Combat Alchemy</summary>
-You are proficient with throwing alchemical items, such as flasks and vials, as well as alchemist's bombs. Such items are ranged weapons with the finesse and thrown (range 20/60) properties.
-
-You do not have disadvantage when throwing an alchemical item while adjacent to a hostile creature.
-
-<details>
-<summary>Precise Thrower</summary>
-Attacking at long range doesn’t impose disadvantage on your combat alchemy attack rolls. In addition they ignore half cover and three-quarters cover.
-</details>
-</details>
-</details>
-
-
-#### Hit Points
-**Hit Dice:** 1d12
-
-
-#### Proficiencies
-**Armor:** Light armor, Medium armor, Shields
-
-**Weapons:** Simple weapons, Martial weapons
-
-**Saving Throws:** Strength, Constitution
-
-#### Skills
-
+##### Testing Included
 {% include skills.html %}
 
-#### Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
+The following combat skills are exclusive to barbarians.
 
-- *(a)* greataxe or *(b)* any martial weapon
-- *(a)* two handaxes or *(b)* any simple weapon
-- An explorer’s pack and four javelins
+<details><summary>Danger Sense
+
+***Requirements:** Perception - Keen Awareness*
+</summary>
+
+Your fast reflexes gives you an edge when you dodge away from danger. When a trap or spell effect that you can see allows for a Dexterity save, you can make a Dexterity (Danger sense) check with ***Expertise*** instead.
+</details>
+
+<details><summary>Fast Movement
+
+***Requirements:** Physique, level 5*
+</summary>
+
+Your speed increases by 5 feet while you aren’t wearing heavy armor.
+</details>
+</details>
+
+
 
 ### Primal Path
 At 1st level, you choose a path that shapes the nature of your rage. All paths are detailed at the end of the class description. Your choice grants you features again at 3rd, 6th, 10th, and 14th levels.
@@ -221,6 +206,9 @@ While raging, you gain an additional reaction, but you can't use both of your re
 You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.
 
 ### Survivor
+At 2nd level you gain 3 additional skill points to spend on Perception and Survival.
+
+<!-- 
 At 2nd level you can choose one of the following two options: *Danger Sense* or *Survival Instincts*.
 
 ***Danger Sense***:
@@ -236,19 +224,18 @@ Additionally you always have advantage with those skill.
 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
-
-### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
-
+-->
 
 
 <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float:left;width:25%;padding:20px' />
 
 
 
-
 ### Mobile
-At 5th level you can choose one of the following options: *Fast Movement*, *Hunter's grace*, *Instinctive Pounce* and *Unstoppable*.
+At 4th level you gain 2 additional skill points to spend on Acrobatics *(only Parkour)*, Physique *(only Climb X, Fast movement, Jumper, Sprinter)* and Swimming
+
+<!-- 
+At 4th level you can choose one of the following options: *Fast Movement*, *Hunter's grace*, *Instinctive Pounce* and *Unstoppable*.
 
 ***Fast Movement***:
 Your speed increases by 5 feet while you aren’t wearing heavy armor.
@@ -261,9 +248,14 @@ When a creature ends its turn within 15 feet of you, you can use your **reaction
 
 ***Unstoppable***:
 Your foes have no chance to escape you. You always add your proficiency bonus to ability checks made when moving (climbing, swimming etc.) or moving past physical obstacles.
+-->
+
+### Extra Attack
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+
 
 ### Feral Instinct
-By 7th level, your instincts are so honed that you have advantage on initiative rolls.
+By 7th level, your instincts are so honed that you are almost impossible to surprise. You gain the *Perception - Keen awareness* skill. If you have that skill already, you may spend a skill point on any other skill.
 
 Additionally, if you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
 
@@ -278,8 +270,6 @@ Starting at 11th level, your rage can keep you fighting despite grievous wounds.
 Each time you use this feature after the first, the DC increases by 5.
 
 *See the Barbarian Rest Additions for more details.*
-
-
 
 ### Rage Power
 At 15th and 18th level you can choose one of the following options: *Clarity of Mind*, *Indomitable Might* or *Unstoppable Power*.
@@ -359,12 +349,12 @@ Barbarians from coastal and island cultures often draw on the spirit of the ocea
 
 
 ### Swimmer
-When you choose this path at 1st level, you are proficient with Swimming, and always have advantage on such checks.
+When you choose this path at 1st level, you gain 2 skill points to spend on Swimming.
 
 ### Totem Spirit
 When you adopt this path at 1st level, choose a totem spirit. You must make or acquire a physical totem object - an amulet or similar adornment - that incorporates the teeth, skin or bones of the animal. At your option, you may also gain minor physical attributes that are reminiscent of your totem spirit. For example, you may have dark eyes, a vicious smile, lack of hair or sharpened teeth.
 
-You are proficient on Charisma checks against beasts. Additionally you have advantage on Charisma checks  when interacting with normal animals related to your totem spirit.
+You gain the Animal handling skill. Additionally you have advantage on Charisma checks when interacting with normal animals related to your totem spirit.
 
 <img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png' style="float:right;width:50%;padding:10px"/>
 
@@ -414,11 +404,11 @@ At 14th level, you gain a magical benefit based on the totem animal of your choi
 
 **Crab.** While raging, any creature grappled by you takes 1d6 + your Strength modifier + your rage bonus in bludgeoning damage when it starts its turn.
 
-**Orca.** You learn to use your size and speed to your advantage in combat. While you are raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with a melee weapon attack.
+**Orca.** You learn to use your size and speed to your advantage in combat. While you are raging, you can use a ***bonus action*** on your turn to knock a Large or smaller creature prone when you hit it with a melee attack.
 
-**Shark.** Your emotionless ferocity is more terrifying than any wild rage. While raging, enemies you damage with a melee weapon attack have disadvantage on attack rolls against you until the end of its next turn. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.
+**Shark.** Your emotionless ferocity is more terrifying than any wild rage. While raging, enemies you damage with a melee weapon attack have disadvantage on attack rolls against you until the end of its next turn. An enemy is immune to this effect if it can't see or hear you, or if it can't be frightened.
 
-**Whale.** While raging, you are under the enlarge effect of the _enlarge/reduce_ spell. You also count as one size larger than your enraged size for the purposes of determining which creatures you can grapple and shove.
+**Whale.** While raging, you are under the enlarge effect of the *enlarge/reduce* spell. You also count as one size larger than your enraged size for the purposes of determining which creatures you can grapple and shove.
 
 
 
@@ -443,7 +433,7 @@ At 14th level, you gain a magical benefit based on the totem animal of your choi
 For some barbarians, rage is a means to an end -- that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being.
 
 ### Intimidating Presence
-When you choose this path at 1st level, you are proficient with Intimidation, and you have advantage any time you use your physical presence when intimidating. This is a Strength ability check.
+When you choose this path at 1st level, you gain the *Physique - Intimidate* skill. If you have that skill already, you may spend a skill point on any other skill.
 
 ### Frenzy
 From 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a **bonus action** on each of your turns after this one.
@@ -477,8 +467,8 @@ Starting at 14th level, when you take damage from a creature, you can use your *
 
 | Barbarian Level | Feature |
 | :-: | :--- |
-| 1st | Lucky |
-| 3rd | Matter at Hand, Favor the Bold |
+| 1st | Lucky, Matter at Hand |
+| 3rd | Favor the Bold,  |
 | 6th | Combat Focus |
 | 10th | Stroke of Inspiration |
 | 14th | Heroic Tenacity |
@@ -487,16 +477,15 @@ Starting at 14th level, when you take damage from a creature, you can use your *
 
 For some adventurers, their internal reservoir of fearlessness and gallantry might border closer to foolhardiness. An intrepid do-gooder might take the first step down this path by complete accident, meddling in affairs they ought not and finding themselves unable to turn back. Their impromptu effectiveness in battle isn’t due to anger but rather matching pluck, tenacity, or stubbornness to shrug off the worst the enemy has to offer. These brawlers might not be as graceful as trained fighters, but they're guardians of the weak, and what they lack in polish they make up for in valor.
 
+### Matter at Hand
+When you choose this path at 1st level, you gain the Brawler and Thrown weapon - Improvised Throwing combat skills.
+
+Additionally, you can use any item, as long as you can pick it up, as a thrown weapon. Attacks with these items benefit from your bonus Rage damage and can be used with your Reckless Attack and Brutal Critical features.
 
 ### Lucky
-Luck seems to be with you. When you choose this path at 1st level, when you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.
+Luck seems to be with you. From 1st level, when you roll a 1 on an check, you can reroll the die and must use the new roll.
 
-### Matter at Hand
-At 3rd level, you gain proficiency with improvised weapons and unarmed strikes. Damage for these attacks is 1d4 for unarmed attacks, 1d6 for one-handed improvised weapons and 1d10 for two-handed improvised weapons. if you’re within 5 feet of an unattended improvised weapon, you can pick it up without using an action as long as you have a free hand.
-
-Additionally, you can use any item of a similar size as a club or larger, as a thrown weapon. It gains the thrown property (range 20/30), and attacks with these weapons benefit from your bonus Rage damage and can be used with your Reckless Attack and Brutal Critical features.
-
-
+In addition you gain +2 to your Luck score.
 
 ### Favor the Bold
 Also from 3rd level, when the adrenaline kicks in, primal instinct propels certain heroes to awe-inspiring feats, seeming to add just a smidge of luck at the right moment. While raging, whenever you make a saving throw, or an attack roll with an unarmed strike or improvised weapon, you can roll a d4 and add the number rolled to the total.
@@ -512,7 +501,7 @@ At 10th level, you seem to stumble upon the right clue, connection, or words, ev
 ### Tenacious Heart
 At 14th level, whenever you succeed at a Constitution saving throw to remain conscious with your Relentless Rage feature, you can use one of the following Tenacious Heart options of your choice. You can use each Tenacious Heart option only once per round.
 
-**Inspiring.** You inspiring last stand fills your allies with renewed vigor. Allies within 30 feet of you that can see or hear you gain 10 temporary hit points.
+**Inspiring.** You inspiring last stand fills your allies with renewed vigor. Allies within 30 ft that can see or hear you gain 10 temporary hit points.
 
 **Persistent.** You won’t quit without a fight. The DC of your next Relentless Rage check is reduced by 5 until the end of your turn.
 
