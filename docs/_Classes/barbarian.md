@@ -35,12 +35,7 @@ The anger felt by a normal person resembles the rage of a barbarian in the same 
 
 
 ## Class Features
-
 As a barbarian, you gain the following class features.
-
-#### Hit Points
-**Hit Dice:** 1d12
-
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
@@ -70,6 +65,83 @@ As a barbarian, you gain the following class features.
 | 20th | +6 | Primal Champion | Unlimited | +4 |
 
 </div>
+
+
+<!-- ---------------------------- Level 1 ----------------------------------  -->
+
+<details>
+<summary>At 1st level</summary>
+
+#### Hit Points
+**Hit Dice:** 1d8
+
+#### Saving Throws
+You are proficient with ***Constitution*** and ***Intelligence*** saving throws.
+
+#### Skills
+**Class Skills:** Alchemy, Ceramics, Medicine and Herbalism
+
+**Skill Points:** You gain 2 skill points at 1st level
+
+**Additional Skills:** You gain 4 additional skill points to spend on Alchemy. *Note that **Journeyman crafter** and **Master crafter** are much more difficult to gain during play.*
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 1 in each weapon group.
+
+**Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level.
+
+**Recommended:** Light armor and Combat alchemy
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+
+- *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
+- *(a)* an explorer's pack or *(b)* a scholar's pack
+- an alchemist's kit and a dagger
+- leather armor *(if proficient)*
+</details>
+
+
+<!-- ---------------------------- After level 1 ----------------------------------  -->
+
+<details>
+<summary>Each level after 1st</summary>
+
+#### Hit Points
+**Hit Dice:** 1d8
+
+#### Skills
+**Skill Points:** You gain 1 skill point per level.
+
+#### Skills - Combat
+**Combat Skill Points:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
+</details>
+
+
+
+<!-- -------------------- Class Specific Combat Skills ---------------------  -->
+
+<details>
+<summary>Class specific combat skills</summary>
+The following combat skills are exclusive to alchemists.
+
+<details>
+<summary>Combat Alchemy</summary>
+You are proficient with throwing alchemical items, such as flasks and vials, as well as alchemist's bombs. Such items are ranged weapons with the finesse and thrown (range 20/60) properties.
+
+You do not have disadvantage when throwing an alchemical item while adjacent to a hostile creature.
+
+<details>
+<summary>Precise Thrower</summary>
+Attacking at long range doesn’t impose disadvantage on your combat alchemy attack rolls. In addition they ignore half cover and three-quarters cover.
+</details>
+</details>
+</details>
+
+
+#### Hit Points
+**Hit Dice:** 1d12
+
 
 #### Proficiencies
 **Armor:** Light armor, Medium armor, Shields
