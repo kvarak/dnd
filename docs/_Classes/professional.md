@@ -88,19 +88,47 @@ Your Talent die changes when you reach certain levels in this class. The die bec
 
 You can use this feature a number of times equal to your Wisdom modifier, and may regain expended uses after you finish a long rest.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Keen Mind***.
+
+| Long rest |
+|:-|
+| After a short rest: |
+| * Regain one use of ***Adaption***.
+| |
+| Add the following class benefits to choose from: |
+| * Regain all uses of ***Adaption***.
+| * Regain all uses of ***Tool Belt***.
+
+</div>
+</div>
+</div>
+
 ### Field of Expertise
 At 1st level, you choose your expertise, which is the studies or craft you have mastered. Your expertise grants you features at 1st level and again at 3rd, 6th, 9th, 13th and 17th level.
 
 In addition, select one of the following:
 
-#### Theoretical field
-You learn three cantrips of your choice from your spell list.
+<div class="columsthree">
 
-#### Practical field
-You gain +2 maximum hit point. Whenever you gain a new level in the professional class your maximum hit points increases by 2.
+- #### Theoretical field
+    You learn three cantrips of your choice from your spell list.
 
-### Spellcasting
-Your studies and experience has granted you the ability to reshape reality, allowing you to cast spells. Your spells are discoveries that you can innately exploit.
+- #### Practical field
+    You gain +2 maximum hit point. Whenever you gain a new level in the professional class your maximum hit points increases by 2.
+
+- ### Spellcasting
+    Your studies and experience has granted you the ability to reshape reality, allowing you to cast spells. Your spells are discoveries that you can innately exploit.
+
+</div>
 
 #### Cantrips
 You learn cantrips of your choice at higher levels, as shown in the Cantrips Known column. Whenever you gain a level in this class, you can replace one cantrip you learned with another cantrip from your spell list.
@@ -121,6 +149,7 @@ Additionally, when you gain a level in this class, you can choose one of the spe
 Wisdom is your spellcasting ability for your spells.
 
  **Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
+
  **Spell attack modifier** = your proficiency bonus + your Wisdom modifier
 
 #### Ritual Casting
@@ -164,28 +193,6 @@ At 18th level, when you roll initiative and have no Talent dice left, you regain
 
 ### Pinnacle of Achievement
 At 20th level, your Wisdom increases by 2 and your maximum becomes 22.
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Keen Mind**.
-
-| Long rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain one use of **Adaption**.
-| | |
-| Add the following class benefits to choose from: ||
-| | * Regain all uses of **Adaption**.
-| | * Regain all uses of **Tool Belt**.
 
 
 
