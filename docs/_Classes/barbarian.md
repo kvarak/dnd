@@ -43,7 +43,7 @@ As a barbarian, you gain the following class features.
 
 | -Level- | -PB- | -Features- | -Fury- | -Rage Damage- |
 |:---:|:---:|:---|:---:|:---:|
-| 1st | +2 | Primal Path, Rage,<br/>Unarmored Defense | 20 | +2 |
+| 1st | +2 | Primal Path, Rage,<br>Unarmored Defense | 20 | +2 |
 | 2nd | +2 | Combat Style, Survivor | 20 | +2 |
 | 3rd | +2 | Path feature | 30 | +2 |
 | 4th | +2 | Mobile | 30 | +2 |
@@ -336,7 +336,7 @@ At 1st level, you choose a path that shapes the nature of your rage. Your choice
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Swimmer, Totem Spirit |
-| 3rd | Creature of the Sea, Totemic Blessing |
+| 3rd | Creature of the Sea,<br>Totemic Blessing |
 | 6th | Aspect of the Beast |
 | 10th | Oceanic Blessing |
 | 14th | Totemic Attunement |
@@ -480,7 +480,7 @@ For some adventurers, their internal reservoir of fearlessness and gallantry mig
 ### Matter at Hand
 When you choose this path at 1st level, you gain the Brawler and Thrown weapon - Improvised Throwing combat skills.
 
-Additionally, you can use any item, as long as you can pick it up, as a thrown weapon. Attacks with these items benefit from your bonus Rage damage and can be used with your Reckless Attack and Brutal Critical features.
+Additionally, you can use any item, as long as you can pick it up, as a thrown weapon, dealing d6 damage if one-handed, or d10 if two-handed. Attacks with these items benefit from your bonus Rage damage and can be used with your Reckless Attack and Brutal Critical features.
 
 ### Lucky
 Luck seems to be with you. From 1st level, when you roll a 1 on an check, you can reroll the die and must use the new roll.
@@ -529,16 +529,13 @@ At 14th level, whenever you succeed at a Constitution saving throw to remain con
 
 Barbarians that follow the Path of the Defender have assumed the responsibility of keeping a bondmate alive. They are often charged with the safekeeping of people of importance, like a traveling priest, a tribe's shaman or elder, and so on, but just as often they simply form a bond with someone they either care for or share a common goal with, like a sibling or fellow adventurer.
 
-
 ### Chosen Charge
 Starting when you choose this path at 1st level, you can perform a 1-hour ritual to bond with one creature of your choosing. This bond is suppressed if one of you is charmed, but otherwise lasts until your bondmate dies or you perform this ritual again.
 
 In order to reap the benefits from the bond, you must be within a certain range of your bondmate. This range is referred to as soul range, and for the Defender, who must almost be like a shadow to its bondmate, the range is 10 feet.
 
 ### Alert
-You are always alert for dangers that might threaten your bondmate. You are proficient on checks made to detect danger, and when making such checks within soul range of your bondmate, you have advantage.
-
-
+You are always alert for dangers that might threaten your bondmate. Gain 2 skill points to spend on Perception.
 
 ### Avert and Avenge
 At 3rd level, you've mastered guarding your bondmate from bodily harm. While raging and within soul range, if a creature you can see hits your bondmate with an attack, you can use a **reaction** to throw yourself in harm's way, forcing the damage to be dealt to yourself instead.
@@ -553,12 +550,10 @@ Beginning at 6th level, your reflexes allow you to shield your bondmate in even 
 If your bond mate takes damage from this, the first attack you make on your next turn against the creature that caused the save (if any) has advantage and deals 1d6 additional damage if you hit.
 
 ### Shared Alertness
-Starting at 10th level, instincts flow through the bond. While within soul range, both you and your bondmate have advantage on Perception and Insight checks, and neither of you can be surprised unless you both are.
+Starting at 10th level, instincts flow through the bond. While within soul range, both you and your bondmate are treated as if having the same Perception skills as the other, and neither of you can be surprised unless you both are.
 
 ### Passive Aggressiveness
-Starting at 14th level, you and your bondmate function even more like a team when faced with foes. While raging, if a hostile creature deals damage to you with an attack aimed at your bondmate, your bondmate can use a reaction to make an weapon or cantrip attack against it.
-
-
+Starting at 14th level, you and your bondmate function even more like a team when faced with foes. While raging, if a hostile creature deals damage to you with an attack aimed at your bondmate, your bondmate can use a ***reaction*** to make an weapon or cantrip attack against it.
 
 
 
@@ -588,11 +583,9 @@ Many barbarian hunters choose to follow this path, eschewing the complexity of a
 
 
 ### Hurler's Aim
-When you take this archetype at 1st level, you gain proficiency with throwing weapons not usually meant to be thrown. You can treat clubs, greatclubs, morning stars, battleaxes, greataxes, mauls, war picks, and warhammers as throwing weapons, which gain the Thrown property with a range of 20/40. Attacks with these weapons benefit from your bonus Rage damage and can be used with your Reckless Attack and Brutal Critical features.
+When you choose this path at 1st level, you gain 2 skill points to spend on Thrown weapon combat skills.
 
-Additionally, you can use any log, stone, or other object of a similar size as a club as a thrown weapon, treating it as a club if wood, or a greatclub if stone or metal.
-
-
+Additionally, you can use any item, as long as you can pick it up, as a thrown weapon, dealing d6 damage if one-handed, or d10 if two-handed. Attacks with these items benefit from your bonus Rage damage and can be used with your Reckless Attack and Brutal Critical features.
 
 ### Tossing Shove
 From 3rd level, your skill with lifting and tossing objects extends to throwing allies and sending enemies flying. To do so, you must be raging and the affected creature must be your size or smaller.
@@ -602,7 +595,7 @@ You can throw willing creatures a distance equal to five times your Strength mod
 Once per turn you can double the distance you shove a creature. You can also turn the creature and shove it in any horizontal direction that isn't directly behind you
 
 ### Hurl Creature
-Beginning at 6th level, you truly master throwing other creatures. While raging and grappling a creature your size or smaller, you can use an action to throw them at a targeted location or creature. When thrown, the creature has a range of 10/20. The effects of the throw depend on the size of the thrown creature.
+Beginning at 6th level, you truly master throwing other creatures. While raging and grappling a creature your size or smaller, you can use an ***action*** to throw them at a targeted location or creature. When thrown, the creature has a range of 10/20. The effects of the throw depend on the size of the thrown creature.
 
 When targeting a creature, it must make a Dexterity saving throw. Your save DC is equal to 8 + your Strength modifier + your proficiency bonus. A thrown creature falls prone after landing. All damage dealt is bludgeoning damage, and you add your Strength modifier and Rage damage bonus to each damage.
 
@@ -614,19 +607,10 @@ When targeting a creature, it must make a Dexterity saving throw. Your save DC i
 ### Increasing Might
 Starting at 10th level, you may now use Tossing Shove and Hurl Creature while not raging. You can shove a creature one size larger than you with Tossing Shove, but only directly forwards. You can also throw a creature one size larger than you with Hurl Creature, but the range is decreased by half.
 
-
-
-
-
-
-
-
 ### Wield Creature
 Starting at 14th level, your enemies become just another weapon in your arsenal. While raging, you can grapple a creature your size or smaller and choose to wield them as a weapon. You can make only one attack per turn in this way, and cannot wield any other items. On a hit, roll damage both for the creature you struck as well as the creature being wielded as a weapon.
 
 Creatures that are Tiny or smaller cannot be used for this feature. Small creatures deal 1d8 damage, while Medium creatures deal 1d12 damage but have to be wielded in two hands. Large creatures deal 2d8 damage with the Reach property. Creatures of larger sizes continue to deal damage as a large creature, but add +5 bonus damage for each size category above Large.
-
-
 
 
 
@@ -679,9 +663,6 @@ In addition, you can replace one of your attacks during your attack action with 
 Starting at 6th level, you can choose to become unstoppable when you enter a rage. If you do so, for the duration of the rage your speed cannot be reduced, and you are immune to the frightened, paralyzed, and stunned conditions.
 
 If you are paralyzed or stunned, you can still take your bonus action to enter your rage and suspend the effects for the duration of the rage. When your rage ends, you suffer one level of exhaustion.
-
-
-
 
 ### Relentless Will
 At 10th level, your mind is armored, as you are single-minded in the pursuit of your foes.
@@ -751,41 +732,39 @@ Barbarians on this course find their rage brings great clarity of mind, allowing
 ### Coarse Negotiator
 *1st-level Path of the Marauder feature*
 
-You've learned a thing or two about how to make people see things from your perspective. As a result, whenever you make a Charisma check to convince people, you gain a bonus to the check equal to your Strength modifier.
+You've learned a thing or two about how to make people see things from your perspective. You gain 2 skill points to spend on Leadership and 1 to spend on Speechcraft.
 
-In addition, you gain one of the following skills of your choice: cartography, navigate, or vehicles (land or water).
+In addition, whenever you make a Leadership check, you gain a bonus to the check equal to your Strength modifier.
 
 ### Fighting Dirty
 *3rd-level Path of the Marauder feature*
 
 Tricks and teamwork ensure your victory. You can use this feature in the following two ways while raging:
 
-* **Smokescreen**. You menace your foes, throwing them off from the real threat. As a ***bonus action***, you can distract an enemy within 5 feet of you that can see or hear you until the start of your next turn. Your allies have advantage on attack rolls against the distracted target.
+* **Smokescreen**. You menace your foes, throwing them off from the real threat. As a ***bonus action***, you can distract an adjacent enemy that can see or hear you until the start of your next turn. Your allies have advantage on attack rolls against the distracted target.
 
-* **Backscratch**. Your allies come to your aid, knowing you'll do the same for them. When you take damage from a creature you can see, you can use your ***reaction*** to choose one ally within 30 feet. That ally can make one weapon attack against the creature that damaged you, provided the target is within range of one of their weapon attacks.
+* **Backscratch**. Your allies come to your aid, knowing you'll do the same for them. When you take damage from a creature you can see, you can use your ***reaction*** to choose one ally within 30 ft. That ally can make one weapon attack against the creature that damaged you, provided the target is within range of one of their weapon attacks.
 
 You can use this feature once and regain its use when you finish a short rest. In addition  you can spend 2 **fury** as a ***bonus action*** to reset its use.
-
-
 
 ### Assured Assignment
 *6th-level Path of the Marauder feature*
 
-You never have any trouble trusting your faithful crew to get things done. While you are raging, your allies gain a bonus to damage rolls against creatures within 5 feet of you. The bonus equals your rage damage bonus.
+You never have any trouble trusting your faithful crew to get things done. While you are raging, your allies gain a bonus to damage rolls against creatures adjacent to you. The bonus equals your rage damage bonus.
 
-In addition, as part of the bonus action you take to enter your rage, you may choose a number of allied creatures equal to your proficiency bonus that you can see within 30 feet. Those creatures may immediately move up to half their speed.
+In addition, as part of the action you take to enter your rage, you may choose a number of allied creatures equal to your proficiency bonus that you can see within 30 ft. Those creatures may immediately move up to half their speed.
 
 ### Improvised Assault
 *10th-level Path of the Marauder feature*
 
-Knowing a good opportunity is the secret to a glorious career. When you take the Dash action while raging, you can choose to conduct an improvised assault, allowing you to make a number of melee weapon attacks equal to your proficiency bonus as part of this action, and each of these attacks must target a different creature.
+Knowing a good opportunity is the secret to a glorious career. When you take the Dash action while raging, you can choose to conduct an improvised assault, allowing you to make a number of melee weapon attacks equal to your proficiency bonus as part of this action, with each of these attacks must target a different creature.
 
 You can use this feature once and regain its use when you finish a short rest.
 
 ### Leading by Example
 *14th-level Path of the Marauder feature*
 
-As the foremost expert in the field of surprise surgery, your allies look to your demonstrations. Whenever you score a critical hit while raging, you can choose one ally within 30 feet. That ally may use their reaction to move up to half their speed and make one weapon attack. This ability cannot trigger off the same enemy more than once per round.
+As the foremost expert in the field of surprise surgery, your allies look to your demonstrations. Whenever you score a critical hit while raging, you can choose one ally within 30 ft. That ally may use their reaction to move up to half their speed and make one melee weapon attack. This ability cannot trigger off the same enemy more than once per round.
 
 
 
@@ -803,7 +782,7 @@ As the foremost expert in the field of surprise surgery, your allies look to you
 | :-: | :--- |
 | 1st | Druidic |
 | 3rd | Form of the Warden |
-| 6th | Ancient Fortitude, Elemental Attunement |
+| 6th | Ancient Fortitude,<br>Elemental Attunement |
 | 10th | Elemental Focus |
 | 14th | Warden's Aura |
 
@@ -815,7 +794,9 @@ These barbarians are typically elite champions who train alongside druids, range
 
 
 ### Druidic
-You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message.
+You know Druidic, the secret language of druids. Gain it as if you had spent 2 skill points on the Language skill.
+
+In addition you gain 3 skill points to spend on Nature.
 
 ### Form of the Warden
 Starting when you choose this path at 3rd level, your rage draws primal power through your spiritual link to the land, allowing you to become an aspect of nature.
@@ -886,9 +867,7 @@ If an effect requires a saving throw, the DC equals 8 + your proficiency bonus +
 ### Ancient Fortitude
 Starting at 6th level, your rage imbues you with primeval life force.
 
-If you start your turn raging, and have no temporary hit points, you gain temporary hit points equal to half your barbarian level. You lose all temporary hit points you gain from this feature when your rage ends.
-
-
+If you start your turn raging you gain temporary hit points equal to half your barbarian level. You lose all temporary hit points you gain from this feature when your rage ends.
 
 ### Elemental Attunement
 Also from 6th level, you can use your action to briefly control elemental forces nearby, causing one of the following effects of your choice:
@@ -917,7 +896,7 @@ Starting at 14th level, your guardian form emanates a magical aura that fortifie
 
 | Barbarian Level | Feature |
 | :-: | :--- |
-| 1st | Bonus Proficiency |
+| 1st | Bonus Skills |
 | 3rd | Primal Tattoos |
 | 6th | Learned Artist |
 | 10th | Unclean Immunity |
@@ -927,8 +906,8 @@ Starting at 14th level, your guardian form emanates a magical aura that fortifie
 
 Though most tribes of the world may lack parchment to draw and write on, all have bodies. Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world. While most tattoos they create have a powerful connection to the natural world, many barbarians also choose to create tattoos without this connection, simply for display.
 
-### Bonus Proficiency
-When you choose this primal path at 1st level, you gain proficiency with tattooer’s tools.
+### Bonus Skills
+When you choose this primal path at 1st level, you gain the Art - Drawing, Craft - Tattooing skills and 2 additional skill points to spend on your class skills.
 
 ### Primal Tattoos
 Starting at 3rd level, you can invoke tattoos on you body with your savage anger. You have a number of tattoos equal to your Constitution modifier (minimum 1), chosen from the options at the end of this class description. When you enter a rage, you can activate the effects of tattoos you have on your body, to a maximum amount of tattoos activated at once equal to your rage damage bonus. You choose which tattoos you wish to activate every time you enter a rage.
@@ -936,12 +915,10 @@ Starting at 3rd level, you can invoke tattoos on you body with your savage anger
 Additionally, when you gain a level in this class, you can replace the magic of one tattoo on your body with a new one of your choice.
 
 ### Learned Artist
-Beginning at 6th level, your deep knowledge of tattoos and the arts let you understand the arts more. Whenever you make an History check relating to art or tattoos, you are treated as being proficient in the History skill, and your proficiency bonus is doubled for that check.
+Beginning at 6th level, your deep knowledge of tattoos and the arts also let you understand other things more. You gain 2 additional skill points to spend on Knowledge skills.
 
 ### Unclean Immunity
 By 10th level, your constant application of ink needles to your flesh has rendered you immune to the negative effects caused by unclean needles. You are immune to disease, gain resistance to poison damage, and have advantage on saving throws against being poisoned.
-
-
 
 ### Masterwork Tattoos
 At 14th level, your tattoos are strong enough that they protect you from the outside world. As a reaction to you failing a Strength, Dexterity, or Constitution saving throw while raging, you can choose to gain a bonus to the saving throw equal to your rage damage bonus.
@@ -951,17 +928,17 @@ You only gain the benefits of a tattoo for the duration of your rage. If a tatto
 
 <div class="columns">
 
-- **Bat**. You can glide on the wind like a graceful bat. You are under the effects of the *feather fall* spell for the duration of your rage.
-- **Bull**. You take on the powerful shoving capabilities of the bull. You can replace one of your attacks during your attack action with a shove and instead of forcing them back 5 feet, you force them back 10 feet.
-- **Monkey**. Your grip is as tight as that of a monkey. You can use the larger die of a versatile weapon while wielding it in one hand.
-- **Panther**. Your leaps are as powerful of a pouncing panther. You add half of your barbarian level to the distance of your long jumps, and you add your rage damage bonus to the height of your high jumps.
-- **Lion**. Your bravery matches that of a lion. You cannot be frightened for the duration of your rage. If you are frightened before you are raging, raging only suppresses the effects until the end of your rage.
-- **Porcupine**. Sharp spines from a porcupine form on your body. As a reaction to a creature within 5 feet of yourself making a melee attack on yourself, you can deal piercing damage to the creature equal to 1d4 + half of your barbarian level.
-- **Snake**. You can identify critical weaknesses in a creature’s defenses. You have advantage on opportunity attacks.
-- **Shark**. Your teeth sharpen like the teeth of a shark. Your unarmed strikes deal 1d6 piercing damage, and count as magical for the purpose of overcoming immunity and resistance.
+- **Bat**. You can glide on the wind like a graceful bat and are under the effects of the *feather fall* spell for the duration of your rage.
+- **Bull**. You take on the powerful shoving capabilities of the bull. You can replace one of your attacks during your attack action with a shove and instead of forcing them back 5 ft, you force them back 10 ft.
+- **Monkey**. Your grip is as tight as that of a monkey and can use the larger die of a versatile weapon while wielding it in one hand.
+- **Panther**. Your leaps are as powerful of a pouncing panther. You add half your barbarian level to the distance of your long jumps, and your rage damage bonus to the height of your high jumps.
+- **Lion**. Your bravery matches that of a lion and cannot be frightened for the duration of your rage. If you are frightened when entering rage, it only suppresses the effects until the end of your rage.
+- **Porcupine**. Sharp spines from a porcupine form on your body. As a **reaction*** to an adjacent creature making a melee attack against you, deal piercing damage to the creature equal to 1d4 + half of your barbarian level.
+- **Snake**. You can identify critical weaknesses in a creature’s defenses and have advantage on opportunity attacks.
+- **Shark**. Your teeth sharpen like the teeth of a shark. Your unarmed strikes deal 1d6 piercing damage and count as magical for the purpose of overcoming immunity and resistance.
 - **Spider**. You can cling to walls as easily as a spider as if under the effects of  *spider climb*.
 - **Turtle**. You are as defensive as a turtle. If not wielding a shield, your armor class increases by 2.
-- **Wolf**. When you use your Reckless Attack feature, you can choose one willing creature with 5 feet of yourself. That creature gains the benefits and downsides of your Reckless Attack feature until the start of your next turn.
+- **Wolf**. When you use your Reckless Attack feature, you can choose one adjacent willing creature. That creature gains the benefits and downsides of your Reckless Attack feature until the start of your next turn.
 
 </div>
 
@@ -976,7 +953,7 @@ You only gain the benefits of a tattoo for the duration of your rage. If a tatto
 | Barbarian Level | Feature |
 | :-: | :--- |
 | 1st | Not My Time |
-| 3rd | Grim Prophecy, Lamb to the Slaughter |
+| 3rd | Grim Prophecy,<br>Lamb to the Slaughter |
 | 6th | Cruel Fate |
 | 10th | Rise and Fall |
 | 14th | Blood for Blood |
@@ -991,21 +968,20 @@ In the end, you’ll be dead – sacrificed as an offering to fate and slain by 
 At 1st level, you discover or accept that your death is fated. If it is not your time to die yet, fate will be on your side. When you roll a 1 on a death saving throw, treat it as a 20.
 
 ### Grim Prophecy
-From 3rd level, the knowledge of your fate gives you a certain insight. You can cast *augury* at will as an action without using a material component, relying on your prophetic destiny to guide you. Wisdom is your spellcasting ability for this spell. You can’t cast this spell in this way more than once per minute.
-
+From 3rd level, the knowledge of your fate gives you a certain insight. You can cast *augury* at will as an ***action*** without using a material component, relying on your prophetic destiny to guide you. Wisdom is your spellcasting ability for this spell. You can’t cast this spell in this way more than once per minute.
 
 
 ### Lamb to the Slaughter
-Also at 3rd level, your fate affords those that surround you a measure of protection. Once per turn when you take damage while raging, you can choose to grant a friendly creature that you can see within 30 feet of you other than yourself temporary hit points equal to half the damage you took. These temporary hit points last for one minute.
+Also at 3rd level, your fate affords those that surround you a measure of protection. Once per turn when you take damage while raging, you can choose to grant a friendly creature that you can see within 30 ft of you other than yourself temporary hit points equal to half the damage you took. These temporary hit points last for one minute.
 
 ### Cruel Fate
-At 6th level, your death draws ever closer, but your skill grows in turn. If the *augury* spell would give you a random result, the result is Woe. Each time you cast *augury*, critically hit with an attack, or fail a death saving throw, you gain a defiance die, which is a d6. You can have up to two defiance dice at a time. Once per turn when you take damage from an attack, you can expend and roll one of your defiance dice, adding the roll to the damage result. When you do, you also add the same result to your next attack roll and damage roll.
+At 6th level, your death draws ever closer, but your skill grows in turn. If the *augury* spell would give you a random result, the result is Woe. Each time you cast *augury*, are critically hit with an attack or fail a death saving throw, you gain a Defiance die, which is a d6. You can have up to two Defiance dice at a time. Once per turn when you take damage from an attack, you can expend and roll one of your Defiance dice, adding the roll to the damage result. When you do, you also add the same result to your next attack roll and damage roll.
 
 ### Rise and Fall
-At 10th level, your destiny overpowers the lesser lives of others. When you have 0 hit points and a creature within 30 feet of you is dealt damage, you can choose to expend and roll your defiance die to increase the damage by the result, and recover an equal amount of hit points.
+At 10th level, your destiny overpowers the lesser lives of others. When you have 0 hit points and an ally within 30 ft of you is dealt damage, you can choose to expend and roll your defiance die to increase the damage by the result, and recover an equal amount of hit points.
 
 ### Blood for Blood
-At 14th level, your destined death awaits your arrival, and you refuse to surrender before the end of your journey. Whenever you lose hit points while raging, you gain temporary hit points equal to half the amount of hit points you lost. These temporary hit points last until the start of your next turn. Whenever you are reduced to 0 hit points while you are raging, you can use your reaction to make a single melee weapon attack against a target within your reach. If this attack hits, it is a critical hit.
+At 14th level, your destined death awaits your arrival, and you refuse to surrender before the end of your journey. The first time each round that you lose hit points while raging, you gain temporary hit points equal to half the amount of hit points lost. These temporary hit points last until the start of your next turn. Whenever you are reduced to 0 hit points while you are raging, you can use your ***reaction*** to make a single melee weapon attack against a target within reach. If this attack hits, it is a critical hit.
 
 
 
@@ -1036,9 +1012,9 @@ Storm heralds are typically elite champions who train alongside druids, rangers,
 When you choose this path at 1st level, you can use your action to predict the weather for the next 24 hours. You can sense where within a 5 mile radius a storm will happen, what kind of storm it will be, and how intense the storm will be.
 
 ### Storm of Fury
-Starting at 3rd level, you emanate a stormy, magical aura while you rage. The aura extends 10 feet from you in every direction, but not through total cover.
+Starting at 3rd level, you emanate a stormy, magical aura while you rage. The aura extends 10 ft in every direction, but not through total cover.
 
-Your aura has an effect that activates when you enter your rage, and you can activate the effect again on each of your turns as a bonus action. Choose desert, sea, or tundra. Your aura’s effect depends on that chosen environment, as detailed below. You can change your environment choice whenever you gain a level in this class.
+Your aura has an effect that activates when you enter your rage, and you can activate the effect again on each of your turns as a ***bonus action***. Choose desert, sea, or tundra. Your aura’s effect depends on that chosen environment, as detailed below. You can change your environment choice whenever you gain a level in this class.
 
 If your aura’s effects require a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier.
 
@@ -1051,33 +1027,24 @@ If your aura’s effects require a saving throw, the DC equals 8 + your proficie
 ### Storm Soul
 At 6th level, the storm grants you benefits even when your aura isn’t active. The benefits are based on the environment you chose for your Storm Aura.
 
-- **Desert**. You gain resistance to fire damage, and you don’t suffer the effects of extreme heat, as described in the Dungeon Master’s Guide. Moreover, as an action, you can touch a flammable object that isn’t being worn or carried by anyone else and set it on fire.
+- **Desert**. You gain resistance to fire damage and don’t suffer the effects of extreme heat, as described in the Dungeon Master’s Guide. Moreover, as an ***action***, you can touch a flammable object that isn’t being worn or carried by anyone else and set it on fire.
 
-- **Sea**. You gain resistance to lightning damage, and you can breathe underwater. You also gain a swimming speed of 30 feet.
+- **Sea**. You gain resistance to lightning damage and can breathe underwater. You also gain a swimming speed of 30 ft.
 
-- **Tundra**. You gain resistance to cold damage, and you don’t suffer the effects of extreme cold, as described in the Dungeon Master’s Guide. Moreover, as an action, you can touch water and turn a 5-foot cube of it into ice, which melts after 1 minute. This action fails if a creature is in the cube
+- **Tundra**. You gain resistance to cold damage and you don’t suffer the effects of extreme cold, as described in the Dungeon Master’s Guide. Moreover, as an ***action***, you can touch water and turn a 5 ft cube of it into ice, which melts after 1 minute. This action fails if a creature is in the cube
 
 ### Shield of the Storm
 At 10th level, you learn to use your mastery of the storm to protect others. Each creature of your choice has the damage resistance you gained from the Storm Soul feature while the creature is in your Storm Aura.
 
 
-
-
-
-
-
-
 ### Raging Storm
 At 14th level, the power of the storm you channel grows mightier, lashing out at your foes. The effect is based on the environment you chose for your Storm Aura.
 
-- **Desert**. Immediately after a creature in your aura hits you with an attack, you can use your reaction to force that creature to make a Dexterity saving throw. On a failed save, the creature takes fire damage equal to half your barbarian level.
+- **Desert**. Immediately after a creature in your aura hits you with an attack, you can use your ***reaction*** to force that creature to make a Dexterity saving throw. On a failed save, the creature takes fire damage equal to half your barbarian level.
 
-- **Sea**. When you hit a creature in your aura with an attack, you can use your reaction to force that creature to make a Strength saving throw. On a failed save, the creature is knocked prone, as if struck by a wave.
+- **Sea**. When you hit a creature in your aura with an attack, you can use your ***reaction*** to force that creature to make a Strength saving throw. On a failed save, the creature is knocked prone, as if struck by a wave.
 
 - **Tundra**. Whenever the effect of your Storm Aura is activated, you can choose one creature you can see in the aura. That creature must succeed on a Strength saving throw, or its speed is reduced to 0 until the start of your next turn, as magical frost covers it.
-
-
-
 
 
 
@@ -1103,7 +1070,7 @@ The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a
 ### Totem Spirit
 At 1st level when you adopt this path, you choose a totem animal. You must make or acquire a physical totem object - an amulet or similar adornment - that incorporates fur or feathers, claws, teeth, or bones of the animal. For example, if you have a bear totem spirit, you might be unusually hairy and thick skinned, or if your totem is the eagle, your eyes turn bright yellow. Your totem animal might be an animal related to those listed here but more appropriate to your homeland. For example, you could choose a hawk or vulture in place of an eagle.
 
-You are proficient on Charisma checks against beasts. Additionally you have advantage on Charisma checks  when interacting with normal animals related to your totem spirit.
+You gain the Animal handling skill. Additionally you have advantage on Charisma checks when interacting with normal animals related to your totem spirit.
 
 ### Spirit Seeker
 Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level you gain the ability to cast the *beast sense* and *speak with animals* spells, but only as rituals.
@@ -1113,8 +1080,6 @@ Also at 3rd level, you gain a greater connection to your totem spirit. You gain 
 
 ### Aspect of the Beast
 At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected previously or a different one.
-
-
 
 ### Spirit Walker
 At 10th level, you can cast the *commune with nature* spell, but only as a ritual. When you do so, a spiritual version of your totem animal appears to you to convey the information you seek.
