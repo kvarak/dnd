@@ -35,36 +35,6 @@ More experienced alchemists learn to mix less volatile substances, some of which
 ## Class Features
 As a alchemist, you gain the following class features.
 
-<div class="block classTable halfClassTable frame" markdown="1">
-
-##### The Alchemist
-
-| -Level- | -PB- | -Alchemy Die- | -Features- | -Discoveries Known- |
-|:-----:|:---:|:---:|:---|:---:|
-| 1st | +2 | 1d8 | Concoctions | - |
-| 2nd | +2 | 1d8 | Field of Study | - |
-| 3rd | +2 | 1d8 | Discoveries | 2 |
-| 4th | +2 | 1d8 | Chemical Distillation | 2 |
-| 5th | +3 | 2d8 | - | 3 |
-| 6th | +3 | 2d8 | Brew Potions | 3 |
-| 7th | +3 | 2d8 | Field of Study Feature | 4 |
-| 8th | +3 | 2d8 | Brew Potions (improved) | 4 |
-| 9th | +4 | 2d8 | - | 5 |
-| 10th | +4 | 2d8 | Field of Study Feature | 5 |
-| 11th | +4 | 3d8 | - | 6 |
-| 12th | +4 | 3d8 | Evasion | 6 |
-| 13th | +5 | 3d8 | - | 7 |
-| 14th | +5 | 3d8 | Brew Potions (improved) | 7 |
-| 15th | +5 | 3d8 | - | 8 |
-| 16th | +5 | 3d8 | Field of Study Feature | 8 |
-| 17th | +6 | 4d8 | - | 9 |
-| 18th | +6 | 4d8 | - | 9 |
-| 19th | +6 | 4d8 | - | 10 |
-| 20th | +6 | 4d8 | Philosopher’s Stone | 10 |
-
-</div>
-
-
 <!-- ---------------------------- Level 1 ----------------------------------  -->
 
 <details>
@@ -112,7 +82,7 @@ You start with the following equipment, in addition to the equipment granted by 
 **Skill Points:** You gain 1 skill point per level.
 
 #### Skills - Combat
-**Combat Skill Points:** You gain 1 skill point to spend on combat skills every even level.
+**Combat Skill Points:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
 </details>
 
 
@@ -138,6 +108,36 @@ Attacking at long range doesn’t impose disadvantage on your combat alchemy att
 
 
 <!-- ---------------------------- Class Features ------------------------------  -->
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Alchemist
+
+| -Level- | -PB- | -Alchemy Die- | -Features- | -Discoveries Known- |
+|:-----:|:---:|:---:|:---|:---:|
+| 1st | +2 | 1d8 | Concoctions | - |
+| 2nd | +2 | 1d8 | Field of Study | - |
+| 3rd | +2 | 1d8 | Discoveries | 2 |
+| 4th | +2 | 1d8 | Chemical Distillation | 2 |
+| 5th | +3 | 2d8 | - | 3 |
+| 6th | +3 | 2d8 | Brew Potions | 3 |
+| 7th | +3 | 2d8 | Field of Study Feature | 4 |
+| 8th | +3 | 2d8 | Brew Potions (improved) | 4 |
+| 9th | +4 | 2d8 | - | 5 |
+| 10th | +4 | 2d8 | Field of Study Feature | 5 |
+| 11th | +4 | 3d8 | - | 6 |
+| 12th | +4 | 3d8 | Evasion | 6 |
+| 13th | +5 | 3d8 | - | 7 |
+| 14th | +5 | 3d8 | Brew Potions (improved) | 7 |
+| 15th | +5 | 3d8 | - | 8 |
+| 16th | +5 | 3d8 | Field of Study Feature | 8 |
+| 17th | +6 | 4d8 | - | 9 |
+| 18th | +6 | 4d8 | - | 9 |
+| 19th | +6 | 4d8 | - | 10 |
+| 20th | +6 | 4d8 | Philosopher’s Stone | 10 |
+
+</div>
+
 
 ### Concoctions
 You learn how to create a variety of concoctions using your alchemist's supplies. During a long rest you can prepare 2 concoctions. See *Rest Additions* for more info.
@@ -481,7 +481,7 @@ During the transformation, the cadaver can't create another cadaver using its 'A
 While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.
 
 ### Bonus Skills
-When you select this field of study at 2nd level, you gain 1 skill point to spend on Combat skills.
+When you select this field of study at 2nd level, you gain 1 additional skill point.
 
 ### Makeshift Bombs
 At 2nd level, the creation of bombs is so ingrained in your memory that you can do it in an instant. As long as you have alchemist’s supplies and a component pouch, you can create a makeshift bomb as an ***item action***. The bomb does not count against your daily limit of concoctions, only damages a single target on a hit and cannot be modified by any of your discoveries.
@@ -507,7 +507,7 @@ Beginning at 16th level, you can combine two non makeshift bombs into one. Combi
 
 | Alchemist level | Feature |
 |:------------:|:--------|
-| 2nd | Poisonous Residue, Poison Resistance
+| 2nd | Bonus Skills, Poisonous Residue, Poison Resistance
 | 7th | Ethereal Poison
 | 10th | Poison Immunity
 | 16th | Powder Poison
@@ -515,6 +515,9 @@ Beginning at 16th level, you can combine two non makeshift bombs into one. Combi
 </div>
 
 Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.
+
+### Bonus Skills
+When you select this field of study at 2nd level, you gain 2 skill points to spend on Combat skills.
 
 ### Poisonous Residue
 When you select this field of study at 2nd level, whenever you apply poison to a weapon, it will retain it potency for the full duration, even if you use the weapon. This only applies to regular poisons and your basic Concoction poison.
