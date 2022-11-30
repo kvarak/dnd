@@ -117,18 +117,13 @@ At 1st level, you choose your expertise, which is the studies or craft you have 
 
 In addition, select one of the following:
 
-<div class="columsthree">
+***Theoretical field***: You learn three cantrips of your choice from your spell list.
 
-- #### Theoretical field
-    You learn three cantrips of your choice from your spell list.
+***Practical field***: You gain +2 maximum hit point. Whenever you gain a new level in the professional class your maximum hit points increases by 2.
 
-- #### Practical field
-    You gain +2 maximum hit point. Whenever you gain a new level in the professional class your maximum hit points increases by 2.
 
-- ### Spellcasting
-    Your studies and experience has granted you the ability to reshape reality, allowing you to cast spells. Your spells are discoveries that you can innately exploit.
-
-</div>
+### Spellcasting
+Your studies and experience has granted you the ability to reshape reality, allowing you to cast spells. Your spells are discoveries that you can innately exploit.
 
 #### Cantrips
 You learn cantrips of your choice at higher levels, as shown in the Cantrips Known column. Whenever you gain a level in this class, you can replace one cantrip you learned with another cantrip from your spell list.
