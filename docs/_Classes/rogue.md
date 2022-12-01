@@ -942,6 +942,30 @@ When you reach 17th level, you have become adept at laying and avoiding ambushes
 | 13th | Jesting Magician |
 | 17th | Last Trick |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain all spells from ***Arcane Buffoonery***.
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Reset ***Last Trick***.
+| &nbsp;
+| Add the following archetype specific benefits to choose from: |
+| * Regain all spells from ***Jesting Magician***.
+
+</div>
+</div>
+</div>
+
+
 </div>
 
 Comedy is an art form that some few study with an almost religious zeal, honing their words and their blades with endless practice and performance. Some that style themselves as jesters are simple entertainers with an adventurous bent, while others are genuine devotees of trickster deities such as Garl Glittergold, Avandra, or the Laughing God Who Has No Temples, and consider their jesting a holy calling of sorts.
@@ -1003,26 +1027,6 @@ Once you use this ability, you can’t use it again until you finish a long rest
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain all spells from **Arcane Buffoonery**.
-
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Reset **Last Trick**.
-| | &nbsp;
-| Add the following archetype specific benefits to choose from: ||
-| | * Regain all spells from **Jesting Magician**.
 
 
 
@@ -1033,9 +1037,9 @@ The following archetype specific additions are made to the general rest rules.
 
 
 
-
-# <a name="internal-keenBlade">Keen Blade</a>
-In a quick flurry of steel, you deceive and tear your opponents down in the blink of an eye. You weave and dodge until you see the perfect opening, and if there is not an opening, you make one. Daggers are your weapon of choice, only they offer the surgical precision guided by your true weapon. Off the battlefield your daggers may be sheathed but your true weapon is still drawn; your true power is your intelligence and your ability to read the environment and those around you. Your mind is the true unseen weapon, your tactics cut deeper than any blade, sharper than any edge. You are a Keen Blade.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-keenBlade">Keen Blade</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -1045,6 +1049,31 @@ In a quick flurry of steel, you deceive and tear your opponents down in the blin
 | 9th | Brilliant Awareness, Know Your Enemy |
 | 13th | Cunning Combat |
 | 17th | Flow of Combat |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain one ***Superiority Die***.
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all ***Superiority Dice***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+In a quick flurry of steel, you deceive and tear your opponents down in the blink of an eye. You weave and dodge until you see the perfect opening, and if there is not an opening, you make one. Daggers are your weapon of choice, only they offer the surgical precision guided by your true weapon. Off the battlefield your daggers may be sheathed but your true weapon is still drawn; your true power is your intelligence and your ability to read the environment and those around you. Your mind is the true unseen weapon, your tactics cut deeper than any blade, sharper than any edge. You are a Keen Blade.
+
 
 ### Unfettered Defense
 Beginning when you select this archetype at 1st level, your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier when wearing no armor.
@@ -1061,7 +1090,6 @@ You can expend superiority dice to gain a number of different benefits:
  **Feinting Attack**. You can expend a superiority die and use a ***bonus action*** choosing an adjacent creature as your target. You have advantage on your next attack roll. If the attack hits, add the superiority die to the attack's damage.
 
  **Inveigle**. When you make any Charisma check or Insight check, you may expend a superiority die to add it to the check. You apply this bonus after making the check but before learning if it was successful.
-
 
 
  **Bleeding Attack**. When you damage a creature with a dagger, you may expend a superiority die. Your target must make a Constitution saving throw (DC 8 + your proficiency bonus + your Dexterity modifier). If it fails, at the start of each of it turns it takes 1d4 damage for a number of rounds equal to your roll on the superiority die. If you use this ability again before the duration is over, the duration is extended by that many rounds.
@@ -1094,36 +1122,15 @@ Your ferocity and cunning have reached their peak on the battlefield. Each victo
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain one **Superiority Die**.
-
-| Long rest ||
-|:-|:------- |
-| Add the following archetype specific benefits to choose from: ||
-| | * Regain all **Superiority Dice**.
 
 
 
 
 
 
-
-
-
-
-
-# <a name="internal-ruffian">Ruffian</a>
-Some rogues, especially those that are larger and  bulkier, favor a more direct approach than their lithe, graceful counterparts in the trade. Ruffians make a living as criminal enforcers, extorting the proprietors of their honest earnings in exchange for “protection”. If met with resistance, they usually begin by breaking a few objects, and failing that, breaking a few kneecaps - using the first available piece of merchandise at hand to do so.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-ruffian">Ruffian</a></h1>
+<div class="featuresTable">
 
 ##### Ruffian Features
 | Rogue Level | Feature |
@@ -1133,6 +1140,11 @@ Some rogues, especially those that are larger and  bulkier, favor a more direct 
 | 9th | Shakedown
 | 13th | Send ‘Em to the Hospital
 | 17th | Send ‘Em to the Morgue
+
+</div>
+
+Some rogues, especially those that are larger and  bulkier, favor a more direct approach than their lithe, graceful counterparts in the trade. Ruffians make a living as criminal enforcers, extorting the proprietors of their honest earnings in exchange for “protection”. If met with resistance, they usually begin by breaking a few objects, and failing that, breaking a few kneecaps - using the first available piece of merchandise at hand to do so.
+
 
 ### Crush ‘Em
 Beginning when you select this archetype at 1st level, you gain proficiency with one-handed clubs, flails, hammers and maces, as well as improvised weapons similar to these weapons. Additionally, your unarmed strikes deal 1d3 damage.
@@ -1179,11 +1191,9 @@ At 17th level, you can make the most of a nearby opponent’s failures. When a c
 
 
 
-
-# <a name="internal-serpentineInfiltrator">Serpentine Infiltrator</a>
-In dark jungles forgotten by mankind dwell the yuan-ti. Insidious snake folk with the ambition to control civilizations like a puppeteer their mannequin, they are masters of deception and infiltration. A serpentine infiltrator is a rogue who has obtained a small taste of the power of a yuan-ti. Perhaps you were educated by a yuan-ti to operate as a spy in other lands. Perhaps you were bitten by one and the venom did not kill you, instead passing on the mysterious powers of the serpent. Perhaps you trained to learn the art of the reptile in order to hunt down those that use it. Whatever the case, you are a master manipulator and talented shape shifter.
-
-Some of the Serpentine Infiltrators abilities require the enemy to make a saving throw. If they do, the DC of this check is 8 + your proficiency bonus + your Charisma modifier.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-serpentineInfiltrator">Serpentine Infiltrator</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -1193,6 +1203,28 @@ Some of the Serpentine Infiltrators abilities require the enemy to make a saving
 | 9th | Venomous Fangs |
 | 13th | Finish the Feeble, Poison Mist |
 | 17th | Gaze of the Medusa |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of  ***Gaze of the Medusa***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+In dark jungles forgotten by mankind dwell the yuan-ti. Insidious snake folk with the ambition to control civilizations like a puppeteer their mannequin, they are masters of deception and infiltration. A serpentine infiltrator is a rogue who has obtained a small taste of the power of a yuan-ti. Perhaps you were educated by a yuan-ti to operate as a spy in other lands. Perhaps you were bitten by one and the venom did not kill you, instead passing on the mysterious powers of the serpent. Perhaps you trained to learn the art of the reptile in order to hunt down those that use it. Whatever the case, you are a master manipulator and talented shape shifter.
+
+Some of the Serpentine Infiltrators abilities require the enemy to make a saving throw. If they do, the DC of this check is 8 + your proficiency bonus + your Charisma modifier.
+
 
 ### Bonus Proficiencies
 Beginning when you select this archetype at 1st level, you gain proficiency with deception, disguise, poisons and staying undetected, as well as on checks for handling snakes.
@@ -1230,18 +1262,6 @@ At 17th level you learn the ultimate serpentine skill - the petrification of ene
 
 Once you have used this ability you cannot do so again until you have completed a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following archetype specific benefits to choose from: ||
-| | * Regain use of  **Gaze of the Medusa**.
 
 
 
@@ -1251,11 +1271,9 @@ The following archetype specific additions are made to the general rest rules.
 
 
 
-
-
-
-# <a name="internal-spellwarpSniper">Spellwarp Sniper</a>
-You are more accurate with rays of flame than an archer is with his arrows, and twice as deadly. Not content to splash around messy evocation magic to slay your foes, you have learned to alter the form of your spells into exact rays of lethal potential. Deadly and precise, you favor the methods of a surgeon, meticulously eradicating your foes, rather than the disorganized violence of a butcher.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-spellwarpSniper">Spellwarp Sniper</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -1265,6 +1283,11 @@ You are more accurate with rays of flame than an archer is with his arrows, and 
 | 9th | Spellwarp |
 | 13th | Silent Spell |
 | 17th | Ray Mastery |
+
+</div>
+
+You are more accurate with rays of flame than an archer is with his arrows, and twice as deadly. Not content to splash around messy evocation magic to slay your foes, you have learned to alter the form of your spells into exact rays of lethal potential. Deadly and precise, you favor the methods of a surgeon, meticulously eradicating your foes, rather than the disorganized violence of a butcher.
+
 
 ### Bonus Proficiencies
 Beginning when you select this archetype at 1st level, you gain proficiency with the Arcana skill.
@@ -1287,11 +1310,8 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 
 
 
-<div class="block classTable frame" markdown="1">
-
 #### Spellwarp Sniper Spellcasting Table
-| Level | Cantrips | Spells | --- Spell Slots Per Spell Level --- ||||
-|      ^|         ^| Known ^| 1st |2nd |3rd |4th |
+| Level | Cantrips | Spells | 1st |2nd |3rd |4th |
 |:-----:|:--------:|:------:|:---:|:--:|:--:|:--:|
 | 3rd | 2 | 3 | 2 | - | - | - |
 | 4th | 2 | 4 | 3 | - | - | - |
@@ -1344,35 +1364,37 @@ After using this ability, you must complete a long rest before using it again.
 
 
 <div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
+<div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Silent Spell**.
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Silent Spell***.
 
-| Long rest ||
-|:-|:------- |
-| Add the following archetype specific benefits to choose from: ||
-| | * Regain use of **Ray Mastery**.
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Ray Mastery***.
 
-
-
-
-
-
+</div>
+</div>
+</div>
 
 
 
 
 
-# <a name="internal-thief">Thief</a>
-You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.
+
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-thief">Thief</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -1382,6 +1404,11 @@ You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and ot
 | 9th | Supreme Sneak |
 | 13th | Use Magic Device |
 | 17th | Thief's Reflexes |
+
+</div>
+
+You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.
+
 
 ### Bonus Proficiencies
 Beginning when you select this archetype at 1st level, you gain proficiency with athletics, burglary, sleight of hand and staying undetected.
