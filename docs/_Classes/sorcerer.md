@@ -150,6 +150,30 @@ At 1st level, you know four cantrips of your choice from the sorcerer spell list
 #### Spell Slots
 The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell’s level or higher. You regain your 2 lowest expended spell slots after a night’s rest.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * At level 20: Regain 1 ***Sorcery Point***.
+
+| Long rest |
+|:-|
+| After a Long rest: |
+| * Regain 1 ***Sorcery Point***.
+| &nbsp;
+| Add the following class specific benefits to choose from: |
+| * Regain all ***Sorcery Points***.
+
+</div>
+</div>
+</div>
+
+
 #### Spells Known
 You know two 1st-level spells of your choice from your spell list. The Spells Known column of the Sorcerer table shows when you learn more spells of your choice. Each of these spells must be of a level for which you have spell slots.
 
@@ -180,6 +204,18 @@ You can use your sorcery points to regain spell slots, or sacrifice spell slots 
 
  **Creating Spell Slots**. You can twist your sorcery into spellpower as a ***bonus action***. You cannot create new spell slots, but you can recover expended spell slots. You may recover multiple spell slots at the same time with a single bonus action, as long as you have enough sorcery points.
 
+<div class="infoarea">
+
+Clanda cursed aloud as the hobgoblin deflected her witch bolt. She felt a chill sweep through her body—the last of her spellpower was now gone.
+
+The hobgoblin sneered in victory, pointing his hooked blade at her. "Out of spells already? Pathetic elf. What are you going to do now, witch?"
+
+"Oh I'm no witch, you poor fool," laughed Clanda, raising a hand to the sky. "I'm a sorceress." She felt alive again as raw, sorcerous power suddenly blazed through her body, restoring her precious spellpower.
+
+The hobgoblin ran. He did not get far.
+
+</div>
+
 | Spell Level | Sorcery Point Cost |
 |:---:|:-:|
 | 1st | 2 |
@@ -188,26 +224,9 @@ You can use your sorcery points to regain spell slots, or sacrifice spell slots 
 | 4th | 6 |
 | 5th | 7 |
 
-<div class='descriptive'>
-Clanda cursed aloud as the hobgoblin deflected her witch bolt. She felt a chill sweep through her body—the last of her spellpower was now gone.
-
-The hobgoblin sneered in victory, pointing his hooked blade at her. "Out of spells already? Pathetic elf. What are you going to do now, witch?"
-
-"Oh I'm no witch, you poor fool," laughed Clanda, raising a hand to the sky. "I'm a sorceress." She felt alive again as raw, sorcerous power suddenly blazed through her body, restoring her precious spellpower.
-
-The hobgoblin ran. He did not get far.
-</div>
-
  **Converting a Spell Slot to Sorcery Points**. As a ***bonus action*** on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot’s level.
 
  **Empowering Reserves**. When you make an ability check on your turn, you can spend 2 sorcery points to gain advantage on the check.
-
-
-
-
-
-
-
 
  **Imbuing Touch**. As an ***action***, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.
 
@@ -225,110 +244,69 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 At 20th level, you regain an expended sorcery points whenever you finish a short rest.
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * At level 20: Regain 1 **Sorcery Point**.
-
-| Long rest ||
-|:-|:------- |
-| After a Long rest: ||
-| | * Regain 1 **Sorcery Point**.
-| | &nbsp;
-| Add the following class specific benefits to choose from: ||
-| | * Regain all **Sorcery Points**.
 
 
-
-
-{{}}">wide
-<img src='https://robertrigo.github.io/pics/skull_divider.png' style='width:100%;' />
-
-
-# Sorcerous Origins
+<h2><a class="internal-link" name="internal-SorcerousOrigins">Sorcerous Origins</a></h2>
 
 Different sorcerers claim different origins for their innate magic. Choose a sorcerous origin, which describes your source of magical power.
 
-**<a href="#internal-aberrant">Aberrant Bloodline</a>**. Somewhere in your bloodline, your ancestors were tainted by an aberration.
+<div class="columnstwo">
 
-**<a href="#internal-arachnid">Arachnid Magic</a>**. You are a sorcerer who has mastered the might and abilities of spiders, manipulating other creatures and web alike. Perhaps you were bitten by a magical spider, or your birth
-was affected by magical abilites from Lolth.
+-**<a href="#internal-aberrant">Aberrant Bloodline</a>**. Somewhere in your bloodline, your ancestors were tainted by an aberration.
 
-**<a href="#internal-ashen">Ashen Lineage</a>**. Somewhere in your bloodline, one of your ancestors made a pact with a powerful spirit of flame and predation known as the Ashen Wolf. With smoke and cinders pouring from your hands with each spell you cast and a layer of ash gradually creeping over your body, you are the incarnation of a smoldering ember thrown upon a dry forest. Let your power burn forth like wildfire
+-**<a href="#internal-arachnid">Arachnid Magic</a>**. You are a sorcerer who has mastered the might and abilities of spiders, manipulating other creatures and web alike. Perhaps you were bitten by a magical spider, or your birth was affected by magical abilites from Lolth.
 
+- **<a href="#internal-ashen">Ashen Lineage</a>**. Somewhere in your bloodline, one of your ancestors made a pact with a powerful spirit of flame and predation known as the Ashen Wolf. With smoke and cinders pouring from your hands with each spell you cast and a layer of ash gradually creeping over your body, you are the incarnation of a smoldering ember thrown upon a dry forest. Let your power burn forth like wildfire
 
+- **<a href="#internal-autumnal">Autumnal Spirit</a>**. You are a sorcerer who wields the power of cold, decay, and bountiful harvests. Your powers could have originated from an entity of death and decay, or from a powerful god of harvest. Or, perhaps your bloodline stems from a culture that relishes in the season of autumn, and are keepers of crops. Whatever the case may be, you are a wielder of the magics that surround the season of autumn.
 
-**<a href="#internal-autumnal">Autumnal Spirit</a>**. You are a sorcerer who wields the power of cold, decay, and bountiful harvests. Your powers could have originated from an entity of death and decay, or from a powerful god of harvest. Or, perhaps your bloodline stems from a culture that relishes in the season of autumn, and are keepers of crops. Whatever the case may be, you are a wielder of the magics that surround the season of autumn.
+- **<a href="#internal-blighted">Blighted Bloodline</a>**. Your innate magic stems from the corrupting power of a Gulthias tree, a powerful, but evil living tree.
 
-**<a href="#internal-blighted">Blighted Bloodline</a>**. Your innate magic stems from the corrupting power of a Gulthias tree, a powerful, but evil living tree.
+- **<a href="#internal-duneChild">Dune Child</a>**. You have a unique and immense power over sand, and are a perfect being for surviving the trials and mirages of the desert. Perhaps you were born amongst the dunes of an ancient desert, the magic of the sands having spoken to you.
 
-**<a href="#internal-duneChild">Dune Child</a>**. You have a unique and immense power over sand, and are a perfect being for surviving the trials and mirages of the desert. Perhaps you were born amongst the dunes of an ancient desert, the magic of the sands having spoken to you.
+- **<a href="#internal-divineSoul">Divine Soul</a>**. Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention.
 
-**<a href="#internal-divineSoul">Divine Soul</a>**. Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention.
+- **<a href="#internal-draconic">Draconic Bloodline</a>**. Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors.
 
-**<a href="#internal-draconic">Draconic Bloodline</a>**. Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors.
+- **<a href="#internal-dread">Dread Sorcery</a>**. The essence of undeath, the antithesis of life, permeates your soul.
 
-**<a href="#internal-dread">Dread Sorcery</a>**. The essence of undeath, the antithesis of life, permeates your soul.
+- **<a href="#internal-ethereal">Ethereal Spirit</a>**. In some places in the world, the spectral forms of spirits, ghosts, and banshees reside, subject to the torment of an afterlife undeserved, or having been cursed to never truly rest. Your innate magic is tied to one of these ethereal creatures, and it is through some circumstance that it awakened within you.
 
+- **<a href="#internal-fiendish">Fiendish Bloodline</a>**. Your innate magic comes from infernal power that can be traced back to the Abyss or the Nine Hells of Baator.
 
+- **<a href="#internal-frozenHeart">Frozen Heart</a>**. A sorcerer whose powers resides in the manipulation and control over the winter breeze and frozen ice.
 
+- **<a href="#internal-incantatrix">Incantatrix</a>**. You study and shape spells in their raw effects and can modify the spells of allies, magic items and even active spells cast by another.
 
+- **<a href="#internal-oceanic">Oceanic Bloodline</a>**. Sorcerers who manifest powers from an oceanic origin may have had their bloodline affected by a powerful creature such as an aboleth, bronze dragon, elemental, hag or kraken, or may have learned to tap into the primal energy inherent to the most fundamental element of life.
 
+- **<a href="#internal-oozemaster">Oozemaster</a>**. Your innate magic stems from a long family line of Ooze blood. For generations, the taint of Ooze blood has run in your family, infecting some at birth and sparing others, stemming from a well-documented but shadowy ancestor. It's unclear what horrific experiment infused a monstrous ooze or slime into his body so long ago, but some of his scattered descendants are born to this day with a personal, innate magic and bizarre physical characteristics.
 
-**<a href="#internal-ethereal">Ethereal Spirit</a>**. In some places in the world, the spectral forms of spirits, ghosts, and banshees reside, subject to the torment of an afterlife undeserved, or having been cursed to never truly rest. Your innate magic is tied to one of these ethereal creatures, and it is through some circumstance that it awakened within you.
+- **<a href="#internal-pandemonic">Pandemonic Sorcery</a>**. Your innate powers come from the insane, chaotic energies of Pandemonium, its magic giving you dominion over mind and madness.
 
-**<a href="#internal-fiendish">Fiendish Bloodline</a>**. Your innate magic comes from infernal power that can be traced back to the Abyss or the Nine Hells of Baator.
+- **<a href="#internal-phoenix">Phoenix Sorcerer</a>**. Your power draws from the immortal flame that fuels the legendary phoenix.
 
-**<a href="#internal-frozenHeart">Frozen Heart</a>**. A sorcerer whose powers resides in the manipulation and control over the winter breeze and frozen ice.
+- **<a href="#internal-plaguebringer">Plaguebringer</a>**. Sometimes the magic that empowers a sorcerer comes from a source that would normally harm both nature and civilizations, though not necessarily be evil in and of itself. Plagues are one such thing as this, and you are a sorcerer who draws their power from the diseases and illnesses that fly on the winds of plagues.
 
-**<a href="#internal-incantatrix">Incantatrix</a>**. You study and shape spells in their raw effects and can modify the spells of allies, magic items and even active spells cast by another.
+- **<a href="#internal-relicker">Relicker</a>**. The wellspring of your arcane might lies not with an eldritch bloodline or the interference of wild magic, but with a deep cache of arcane power, stored within an ancient magic item.
 
-**<a href="#internal-oceanic">Oceanic Bloodline</a>**. Sorcerers who manifest powers from an oceanic origin may have had their bloodline affected by a powerful creature such as an aboleth, bronze dragon, elemental, hag or kraken, or may have learned to tap into the primal energy inherent to the most fundamental element of life.
+- **<a href="#internal-starTouched">Star Touched</a>**. By either an ancient ritual, or a birthright passed down through generations, you are able to use magic that reflects the power of stars.
 
-**<a href="#internal-oozemaster">Oozemaster</a>**. Your innate magic stems from a long family line of Ooze blood. For generations, the taint of Ooze blood has run in your family, infecting some at birth and sparing others, stemming from a well-documented but shadowy ancestor. It's unclear what horrific experiment infused a monstrous ooze or slime into his body so long ago, but some of his scattered descendants are born to this day with a personal, innate magic and bizarre physical characteristics.
+- **<a href="#internal-stone">Stone Sorcerer</a>**. Your magic springs from a mystical link between your soul and the magic of elemental earth.
 
-**<a href="#internal-pandemonic">Pandemonic Sorcery</a>**. Your innate powers come from the insane, chaotic energies of Pandemonium, its magic giving you dominion over mind and madness.
+- **<a href="#internal-storm">Storm Sorcerer</a>**. Sorcerer whose magic comes from elemental air.
 
+- **<a href="#internal-timeThief">Time Thief</a>**. Sorcerer that manipulates time.
 
+- **<a href="#internal-wild">Wild Magic Bloodline</a>**. Your innate magic comes from the wild forces of chaos.
 
+- **<a href="#internal-wishcrafter">Wishcrafter</a>**. Imbued with magic from a powerful, reality-altering wish, your destiny is to bring hope to others and grant their desires, while simultaneously realizing your own.
 
-**<a href="#internal-phoenix">Phoenix Sorcerer</a>**. Your power draws from the immortal flame that fuels the legendary phoenix.
+</div>
 
-**<a href="#internal-plaguebringer">Plaguebringer</a>**. Sometimes the magic that empowers a sorcerer comes from a source that would normally harm both nature and civilizations, though not necessarily be evil in and of itself. Plagues are one such thing as this, and you are a sorcerer who draws their power from the diseases and illnesses that fly on the winds of plagues.
-
-**<a href="#internal-relicker">Relicker</a>**. The wellspring of your arcane might lies not with an eldritch bloodline or the interference of wild magic, but with a deep cache of arcane power, stored within an ancient magic item.
-
-**<a href="#internal-starTouched">Star Touched</a>**. By either an ancient ritual, or a birthright passed down through generations, you are able to use magic that reflects the power of stars.
-
-**<a href="#internal-stone">Stone Sorcerer</a>**. Your magic springs from a mystical link between your soul and the magic of elemental earth.
-
-**<a href="#internal-storm">Storm Sorcerer</a>**. Sorcerer whose magic comes from elemental air.
-
-**<a href="#internal-timeThief">Time Thief</a>**. Sorcerer that manipulates time.
-
-**<a href="#internal-wild">Wild Magic Bloodline</a>**. Your innate magic comes from the wild forces of chaos.
-
-**<a href="#internal-wishcrafter">Wishcrafter</a>**. Imbued with magic from a powerful, reality-altering wish, your destiny is to bring hope to others and grant their desires, while simultaneously realizing your own.
-
-
-
-
-
-
-
-
-# <a name="aberrant">Aberrant bloodline</a>
-Somewhere in your bloodline, your ancestors were tainted by an aberration. Whether as subjects to experiments from mind flayers, slaves to dreadful aboleths or beholders, or misshapen slaadi who failed to completely transform.
-
-This taint in your blood is alien and bizarre. You tend to think in odd ways, approaching problems from an angle that most would not expect. Over time, this taint manifests itself in your physical form, like claws, webbed feet, an extra eye, or slimy skin.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-aberrant">Aberrant bloodline</a></h1>
+<div class="featuresTable">
 
 #### Aberrant bloodline features
 | Sorcerer Level | Feature |
@@ -337,6 +315,12 @@ This taint in your blood is alien and bizarre. You tend to think in odd ways, ap
 | 6th | Mindfire
 | 14th | Aberrant Form
 | 18th | Xenomorphic Apotheosis
+
+</div>
+
+Somewhere in your bloodline, your ancestors were tainted by an aberration. Whether as subjects to experiments from mind flayers, slaves to dreadful aboleths or beholders, or misshapen slaadi who failed to completely transform.
+
+This taint in your blood is alien and bizarre. You tend to think in odd ways, approaching problems from an angle that most would not expect. Over time, this taint manifests itself in your physical form, like claws, webbed feet, an extra eye, or slimy skin.
 
 ### Dark Whisperer
 Many creatures of your heritage seldom communicate orally, relying on greater mental powers to touch the minds of similar or lesser beings. From 1st level, you can communicate telepathically with a creature you can see within 30 feet. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. Additionally, you learn the *vicious mockery* cantrip.
@@ -370,7 +354,7 @@ Additionally, whenever you cast a spell at 1st-level or higher that deals psychi
 
 
 
-# <a name="arachnid">Arachnid Magic</a>
+# <a name="internal-arachnid">Arachnid Magic</a>
 To many, even the sight of spiders can instill fear into the hearts of others. However, you have learned to not only to instill this fear, but also to use the power of spiders as well. You are a sorcerer who has mastered the might and abilities of spiders, manipulating other creatures and web alike.
 
 Perhaps you were bitten by a magical spider, or your birth was affected by magical abilites from Lolth. Whatever the case may be, you are a frightening and powerfully skilled sorcerer.
@@ -428,7 +412,7 @@ By 18th level, your spider-like constitution has granted you immunity to the poi
 
 
 
-# <a name="ashen">Ashen lineage</a>
+# <a name="internal-ashen">Ashen lineage</a>
 Somewhere in your bloodline, one of your ancestors made a pact with a powerful spirit of flame and predation known as the Ashen Wolf. This elemental creature is neither fiend nor fey, but something primal and otherworldly. It is honored with ritualistic immolation and sacrifices of meat and metal.
 
 While the Wolf may have no hold over you, it may be interested in your affairs nevertheless, and your very existence could draw the ire of the Wolf’s eternal foe: the frost-bound Wild Huntsman. With smoke and cinders pouring from your hands with each spell you cast and a layer of ash gradually creeping over your body, you are the incarnation of a smoldering ember thrown upon a dry forest. Let your power burn forth like wildfire
@@ -491,7 +475,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="autumnal">Autumnal Spirit</a>
+# <a name="internal-autumnal">Autumnal Spirit</a>
 The season of autumn is a curious one; the season brings people together, to celebrate successful harvests and rejoice in festivals, but it also is a reminder that all things will slowly meet their end and wither away to bring life to something new. Yet even with this process, there is beauty and joy to be found in the passing of life into death, as the cold snaps away at once were warm, summer days.
 
 You are a sorcerer who wields the power of cold, decay, and bountiful harvests, and as such are both a welcome ally and a powerful foe. Your powers could have originated from an entity of death and decay, or from a powerful god of harvest. Or, perhaps your bloodline stems from a culture that relishes in the season of autumn, and are keepers of crops. Whatever the case may be, you are a wielder of the magics that surround the season of autumn.
@@ -552,7 +536,7 @@ While active, this storm has the following effects on creatures other than you:
 
 
 
-# <a name="blighted">Blighted</a>
+# <a name="internal-blighted">Blighted</a>
 Your innate magic stems from the corrupting power of a Gulthias tree. Most with this origin can trace their magic back to a near-death experience caused by a blighted creature, or through extended exposure to blighted land and plant life. Attempting to consume blighted plants over a period of a few weeks or months can often lead to this magic becoming imbued into a creature’s system, assuming it doesn’t kill them first. Whatever the cause, blight magic allows you to animate blighted creatures to do your bidding, as if you were a living Gulthias tree.
 
 #### Blighted features
@@ -613,7 +597,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="duneChild">Dune Child</a>
+# <a name="internal-duneChild">Dune Child</a>
 To many, sands of the earth or deserts are viewed as a nuisance; it is coarse, rough, and irritating, and it gets everywhere. However you have a unique and immense power over sand, and are a perfect being for surviving the trials and mirages of the desert. Perhaps you were born amongst the dunes of an ancient desert, the magic of the sands having spoken to you. Or, you came into contact with a mirage, peculiar plant, or ancient ruin within a desert, and your magic awoke from the interaction you had with it. However your powers emerged for you, you are a valuable traveling companion and a spirit of the very desert itself.
 
 #### Dune Child Quirks
@@ -690,7 +674,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="divineSoul">Divine Soul</a>
+# <a name="internal-divineSoul">Divine Soul</a>
 Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god’s name. Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.
 
 A Divine Soul, with a natural magnetism, is seen as a threat by some religious hierarchies. As an outsider who commands sacred power, a Divine Soul can undermine an existing order by claiming a direct tie to the divine.
@@ -769,7 +753,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="draconic">Draconic Bloodline</a>
+# <a name="internal-draconic">Draconic Bloodline</a>
 Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.
 
 #### Draconic Bloodline features
@@ -827,7 +811,7 @@ A creature that succeeds on this saving throw is immune to your aura for 24 hour
 
 
 
-# <a name="dread">Dread Sorcery</a>
+# <a name="internal-dread">Dread Sorcery</a>
 You are a creature of death, a being whose magical powers hold sway over the undead and other necromantic abilities. Your lineage might be intertwined with some vile curse, shaping the living slowly over towards the dead. Perhaps you were the servant to a powerful lich, whose power shaped you forever. Or, you may have had an experience with death, whether it was your own or that of another, and the experience changed your very being.unleashed.
 
 Whatever the case may be, you are a sorcerer who maintains magical skills over death, the undead, and the necromantic energies that empower them.
@@ -917,7 +901,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="ethereal">Ethereal Spirit</a>
+# <a name="internal-ethereal">Ethereal Spirit</a>
 In some places in the world, the spectral forms of spirits, ghosts, and banshees reside, subject to the torment of an afterlife undeserved, or having been cursed to never truly rest. Your innate magic is tied to one of these ethereal creatures, and it is through some circumstance that it awakened within you.
 
 Perhaps you almost died, but something in your mind or body held you back from the near brink of death. Another cause could have been the exposure to a place with angry, vengeful, or mournful spirits, whose magic rubbed off on you by choice or by proxy. Slowly, over time, you become more and more like a spirit yourself, and your sorcerous power grows from this transformation.
@@ -1015,7 +999,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="fiendish">Fiendish Bloodline</a>
+# <a name="internal-fiendish">Fiendish Bloodline</a>
 Your innate magic comes from fiendish power that can be traced back to the Abyss or the Nine Hells of Baator, power infused into your blood or that of your ancestors. Such power most often manifests itself as the result of a pact or bargain made with a powerful fiend, such as a Pit Fiend or a Balor. You may have endured a near death experience at the hands of a fiend and been forever tainted by the encounter, or perhaps your bloodline includes a powerful Tiefling whose ancestry has manifested in an unusual way. Regardless of circumstance, fell power now surges through you, both a blessing and a curse. While your fate is still your own, you can’t help but wonder if your ultimate reward is bound to the Abyss.
 
 #### Fiendish Bloodline Features
@@ -1116,7 +1100,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="frozenHeart">Frozen Heart</a>
+# <a name="internal-frozenHeart">Frozen Heart</a>
 
 *"Let it go."*
 
@@ -1230,7 +1214,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="incantatrix">The Incantatrix</a>
+# <a name="internal-incantatrix">The Incantatrix</a>
 
 *"But how could a mere wizard defeat the Archmage with a spell so beyond her powers?" asked the sage skeptically.*
 
@@ -1325,7 +1309,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="oceanic">Oceanic Bloodline</a>
+# <a name="internal-oceanic">Oceanic Bloodline</a>
 The powers of the sea, much like the sea itself, are vast, mysterious, and powerful. You are a sorcerer of the oceans and seas, having power over their waters and the creatures who live inside of them. Your family could have been filled with powerful sailors or beings of the depths, or maybe you almost drowned, and this awakened great magics that had lied dormant within you. Or, it could be that your bloodline somehow originated in the Elemental Plane of Water.  Whatever the case may be, the magic that exists at your command is a powerful force, and can easily be one of the strongest forms of magic that exists.
 
 #### Oceanic Bloodline Quirks
@@ -1426,7 +1410,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="oozemaster">Oozemaster</a>
+# <a name="internal-oozemaster">Oozemaster</a>
 Your innate magic stems from a long family line of Ooze blood. For generations, the taint of Ooze blood has run in your family, infecting some at birth and sparing others, stemming from a well-documented but shadowy ancestor. It's unclear what horrific experiment infused a monstrous ooze or slime into his body so long ago, but some of his scattered descendants are born to this day with a personal, innate magic and bizarre physical characteristics.
 
 #### Oozemaster Features
@@ -1483,7 +1467,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="pandemonic">Pandemonic Sorcery</a>
+# <a name="internal-pandemonic">Pandemonic Sorcery</a>
 Your innate powers come from the insane, chaotic energies of Pandemonium, its magic giving you dominion over mind and madness. You may trace your lineage back to one of the few people who escaped its clutches, possibly someone who went mad from the constant, screaming winds. Perhaps you yourself endured the winds for a brief time, blowing in from a planar portal or somewhere planar boundaries are thin. Whatever the reason, the magic of Pandemonium is yours to command - though its energies can still affect your mind, making you question your reality and sanity.
 
 At your option, you can pick from or roll on the Pandemonic Influence table to create an effect for your character.
@@ -1557,7 +1541,7 @@ A creature that gains 6 levels of exhaustion while under this effect, or is redu
 
 
 
-# <a name="phoenix">Phoenix sorcerer</a>
+# <a name="internal-phoenix">Phoenix sorcerer</a>
 Your power draws from the immortal flame that fuels the legendary phoenix. You or your ancestors perhaps rendered a phoenix a great service, or you were born in its presence. Whatever the cause, a shard of the phoenix’s power dwells within you.
 
 That power is a mixed blessing. Like the mythical creature, you can invoke fiery energy and gain the ability to cheat death itself. This power comes at a cost. The fire within you seethes, demanding to be unleashed. You sometimes find yourself absentmindedly feeding fires. You can’t bear to allow a fire to sputter out.  You feel most comfortable while holding a lit torch or sitting in front of a campfire.
@@ -1646,7 +1630,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="plaguebringer">Plaguebringer</a>
+# <a name="internal-plaguebringer">Plaguebringer</a>
 Sometimes the magic that empowers a sorcerer comes from a source that would normally harm both nature and civilizations, though not necessarily be evil in and of itself. Plagues are one such thing as this, and you are a sorcerer who draws their power from the diseases and illnesses that fly on the winds of plagues. Perhaps you were changed by the effects of a plague, or were one of the only survivors of a deady disease that devastated your homeland. However you came to these powers, you are a harbinger of the plague.
 
 #### Plaguebringer Quirks
@@ -1717,7 +1701,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="relicker">Relicker</a>
+# <a name="internal-relicker">Relicker</a>
 The wellspring of your arcane might lies not with an eldritch bloodline or the interference of wild magic, but with a deep cache of arcane power, stored within an ancient magic item. By fate, or perhaps by the item's wishes, your soul has become entwined with this magic item, which remains always at your side, empowering your abilities and motivating your quest.
 
 #### Relicker Features
@@ -1825,7 +1809,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="starTouched">Star Touched</a>
+# <a name="internal-starTouched">Star Touched</a>
 By either an ancient ritual, or a birthright passed down through generations, you are able to use magic that reflects the power of stars. This magic, both old and powerful, can shape worlds or destroy them, and lets you shine the light from above down onto those who would face you.
 
 #### Star Touched Quirks
@@ -1880,7 +1864,7 @@ The creature must make a Dexterity saving throw  against your spell save DC, tak
 
 
 
-# <a name="stone">Stone Sorcerer</a>
+# <a name="internal-stone">Stone Sorcerer</a>
 Beneath the surface of the ground, there exist those who have command over stone and rock, moving within the very earth itself. These beings have incredible powers, and are often revered for their constructive abilities as they are equally feared for their potential for utter destruction.
 
 Perhaps you were born underground or at the base of a mountain, or came in contact with an immense being that lurks in the darkness of the deep earth. You might trace a distant ancestor to the Plane of Earth, or your family might have earned a mighty boon in return for a service to the dao lords. However you came into your power, you are an entity of the raw power of earth and stone, and as such are one of incredible earthen strength.
@@ -1966,7 +1950,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="storm">Storm sorcerer</a>
+# <a name="internal-storm">Storm sorcerer</a>
 Your innate magic comes from the power of elemental air. Many with this power can trace their magic back to a near-death experience caused by the Great Rain, but perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as djinn. Whatever the case, the magic of the storm permeates your being.
 
 Storm sorcerers are invaluable members of a ship’s crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.
@@ -2028,7 +2012,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="timeThief">Time Thief</a>
+# <a name="internal-timeThief">Time Thief</a>
 A time thief's legacy originally comes from a time traveler, a master of chronomancy or just some creature heavily affected by time magic. He learns instinctively to manipulate time, in particular steal time. Mostly he steals boring, unneeded time from his own future, saving tiny split-seconds he can use to make his life easier in the present. As his powers grow, the time thief can learn to manipulate bigger slices of time, giving more options to enhance his actions or even alter the timeline of enemies and allies alike. Most of the time thief's effects are subtle to outside observers, seeming to be more good fortune and preternatural speed than control over time.
 
 #### Time Thief Features
@@ -2182,7 +2166,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="wild">Wild Magic Bloodline</a>
+# <a name="internal-wild">Wild Magic Bloodline</a>
 Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.
 
 #### Wild Sorcerer Features
@@ -2235,7 +2219,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="wishcrafter">Wishcrafter</a>
+# <a name="internal-wishcrafter">Wishcrafter</a>
 Imbued with magic from a powerful, reality-altering wish, your destiny is to bring hope to others and grant their desires, while simultaneously realizing your own. Perhaps an ancestor impressed a being of great power with their selflessness, or maybe instead a selfish wish for power has been twisted into a lesson in humility. In either case, the power of wishes flows in your veins, empowering both you and your allies.
 
 #### Wishcrafter Features
@@ -2302,7 +2286,7 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="metaMagic">Metamagic</a>
+# <a name="internal-metaMagic">Metamagic</a>
 
 At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the Metamagic options of your choice. You gain another one at 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
 
