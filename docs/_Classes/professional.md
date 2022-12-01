@@ -49,16 +49,16 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* A diplomat’s pack or *(b)* an explorer's pack
 - Any two tools or tool kits
 
-<div class="block classTable frame" markdown="1">
+<div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Professional
-| -Level- | -PB- | -Features-     | -Cantrips Known- | -Spells Known- |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| -Level- | -PB- | -Features-     | -Cantrips- | -Spells- |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
 |:-----:|:-----------:|:-------------|:--------:|:------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|1st| +2| Adaption (d6), Field of Expertise, Spellcasting | 0 |4 |2 |— |— |— |—|— |— |— |—|
+|1st| +2| Adaption (d6),<br/>Field of Expertise,<br/>Spellcasting | 0 |4 |2 |— |— |— |—|— |— |— |—|
 |2nd| +2| Quick study, Tool Belt | 0 |5 |3 |— |— |— |—|—| —| —| —|
 |3rd| +2| Field of Expertise | 0| 6| 4| 2| —| —| —|— |— |— |—|
 |4th| +2| Ability Score Improvement | 1 |7 |4 |3 |— |— |—|— |— |— |—|
-|5th| +3| Adaption (d8), Trial and Error | 1 | 8| 4| 3| 2| —| —|— |— |—| —|
+|5th| +3| Adaption (d8),<br/>Trial and Error | 1 | 8| 4| 3| 2| —| —|— |— |—| —|
 |6th| +3| Field of Expertise | 1 | 9| 4| 3| 3| —| —|— |— |— |—|
 |7th| +3| Keen Mind | 1 |10| 4| 3| 3| 1| —|— |— |— |—|
 |8th| +3| Ability Score Improvement | 1 |11| 4| 3| 3| 2| —|— |— |— |—|
