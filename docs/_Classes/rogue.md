@@ -239,9 +239,6 @@ You know three 1st-level wizard spells of your choice, two of which you must cho
 
 The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
 
-Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
-
-
 <div class="block classTable halfClassTable frame" markdown="1">
 
 #### Arcane Trickster Spellcasting Table
@@ -267,6 +264,10 @@ Whenever you gain a level in this class, you can replace one of the spells you k
 | 20th | 3 | 13 | 4 | 3 | 3 | 1 |
 
 </div>
+
+Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
+
+
 
 #### Spellcasting Ability
 Intelligence is your spellcasting ability for your spells, since you learn your spells through study and memorization.
@@ -452,7 +453,6 @@ You know three 1st-level wizard spells of your choice, two of which you must cho
 
 The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
 
-Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation and transmutation spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
 
 
 
@@ -481,6 +481,9 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 | 20th | 3 | 13 | 4 | 3 | 3 | 1 |
 
 </div>
+
+Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation and transmutation spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
+
 
 #### Spellcasting Ability
 Intelligence is your spellcasting ability for your spells, since you learn your spells through study and memorization.
@@ -584,7 +587,6 @@ The Divine Herald Spellcasting table shows how many spell slots you have to cast
 #### Spells Known
 You know three 1st-level cleric spells of your choice. The Spells Known column of the Divine Herald Spellcasting table shows when you learn more cleric spells of 1st level or higher. The spells must be of a level for which you have spell slots.
 
-Whenever you gain a level in this class, you can replace one of the cleric spells you know with another spell of your choice from the cleric spell list. The new spell must be of a level for which you have spell slots.
 
 
 <div class="block classTable halfClassTable frame" markdown="1">
@@ -612,6 +614,8 @@ Whenever you gain a level in this class, you can replace one of the cleric spell
 | 20th | 4 | 13 | 4 | 3 | 3 | 1 |
 
 </div>
+
+Whenever you gain a level in this class, you can replace one of the cleric spells you know with another spell of your choice from the cleric spell list. The new spell must be of a level for which you have spell slots.
 
 #### Spellcasting Ability
 Wisdom is your spellcasting ability for your cleric spells, since you learn your spells through dedicated study and memorization.
@@ -1334,7 +1338,6 @@ You know three 1st-level wizard spells of your choice, two of which you must cho
 
 The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
 
-Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation and illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
 
 
 <div class="block classTable halfClassTable frame" markdown="1">
@@ -1362,6 +1365,9 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 | 20th | 3 | 13 | 4 | 3 | 3 | 1 |
 
 </div>
+
+Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation and illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
+
 
 #### Spellcasting Ability
 Intelligence is your spellcasting ability for your spells, since you learn your spells through study and memorization.
