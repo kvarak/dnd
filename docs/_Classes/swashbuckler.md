@@ -26,6 +26,9 @@ Heavy warriors are your classic plate-bound tank warriors who are most at home o
 Swashbucklers on the other hand prefer to rely on their quickness, agility, finesse, daring and wit. They are most often found in campaigns that focus on urban adventuring, where heavily armored knights are often banned on the streets. They also dominate in campaigns with a more renaissance focus to the fantasy genre, as well of course as in any campaign based on the high seas, where a heavy fighter becomes a high liability.
 
 
+<img src="https://i.ytimg.com/vi/yxsin-55d7A/maxresdefault.jpg" style="width:40%;padding:20px" />
+
+
 ## Class Features
 
 <div class="block classTable halfClassTable frame" markdown="1">
@@ -88,6 +91,30 @@ Starting at 1st level, you laugh in the face of any threat. You can add your Cha
 ### Canny Defense
 While unarmed, or wielding a light or finesse weapon, your Armor Class equals 10 + your Dexterity modifier + your Intelligence modifier bonus. This applies if you are wearing no armor. You can use a buckler shield and still gain this benefit.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Reactive***.
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain half your maximum ***Panache*** (rounded up).
+| * Regain use of ***Charmed Life***.
+| &nbsp;|
+| Add the following class specific benefits to choose from: |
+| * Regain all ***Panache***.
+
+</div>
+</div>
+</div>
+
 ### Panache
 More than just a lightly armored warrior, a swashbuckler is a daring combatant. He fights with panache: a fluctuating measure of a swashbuckler's ability to perform amazing actions.
 
@@ -120,7 +147,7 @@ Starting at 6th level, when an attacker that you can see hits you with an attack
 
 
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 #### New Equipment
 These two new types of shields are available to anyone, though they are more commonly used by swashbucklers (hence their name).
@@ -134,6 +161,7 @@ These two new types of shields are available to anyone, though they are more com
 
  **Buckler, strapped**. A buckler strapped to the forearm, allowing the hand to hold an item. As it must be strapped, it takes 2 round to don and doff. You gain the buckler's AC bonus only if you choose to have disadvantage on attack rolls made with weapons held in that hand.
 
+</div>
 
 ### Charmed Life
 At 9th level, the swashbuckler gains a knack for getting out of trouble.
@@ -148,46 +176,16 @@ At 14th level, if you hit and only wield one weapon, you do an additional die of
 ### Elusive
 At 20th level, you are so elusive that attackers rarely get the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Reactive**.
-
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain half your maximum **Panache** (rounded up).
-| | * Regain use of **Charmed Life**.
-| &nbsp;||
-| Add the following class specific benefits to choose from: ||
-| | * Regain all **Panache**.
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="descriptive" markdown="1">
 
 #### Multiclassing
 Should you wish to multiclass into a swashbuckler, the prerequisites and proficiencies gained are listed below.
 
- ***Ability Score Minimum***: Dexterity 13 and Charisma or Intelligence 13
- ***Proficiencies Gained***: Light armor, buckler shield, rapier, shortsword
+- ***Ability Score Minimum***: Dexterity 13 and Charisma or Intelligence 13
+- ***Proficiencies Gained***: Light armor, buckler shield, rapier, shortsword
+
+</div>
 
 
 
@@ -195,17 +193,9 @@ Should you wish to multiclass into a swashbuckler, the prerequisites and profici
 
 
 
-
-
-
-# <a name="blacksnake">Blacksnake</a>
-Blacksnakes are masters of the whip, focusing on the possibilities inherent in using a length of leather or cord to accomplish things less flexible weapons can't.
-
-Blacksnakes are most common among the lower castes and are usually found working as enforcers, assassins, thief-takers or thieves. In many cases, they operate in regions where carrying a greatsword or pike would draw attention, but little thought is given to someone with a rope belt or loop of tanned hide hanging from her belt.
-
-Of course, it takes more than a need for stealth to drive someone to train in the ways of the whip - daggers and saps can be concealed and mastered far more easily than going through the training required to become a blacksnake. Only a natural talent for the knacks required, and a fascination with the movement of a whip, can drive someone to put in the months of training it takes to go from mere proficiency with a whip to having the blacksnake's ability to make her lash dance so precisely.
-
-Blacksnakes are often perceived as thugs and bullies, and the archetype package is often taken by characters that are slavers and enforcers. But some adventurers and tomb delvers also favor the flexibility and reach of the whip, and have more interest in it as a tool than an instrument of cruelty. Of course, the difference between these two types of blacksnakes is solely in their attitudes, and so can be difficult to determine at a glance. Many good-hearted adventurers who become blacksnakes will find locals are mistrustful of anyone carrying a long braid of steel-tipped leather.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-blacksnake">Blacksnake</a></h1>
+<div class="featuresTable">
 
 #### Blacksnake features
 | Swashbuckler level | Feature |
@@ -217,15 +207,24 @@ Blacksnakes are often perceived as thugs and bullies, and the archetype package 
 | 15th | Flay |
 | 18th | Demoralizing Lash |
 
+</div>
+
+Blacksnakes are masters of the whip, focusing on the possibilities inherent in using a length of leather or cord to accomplish things less flexible weapons can't.
+
+Blacksnakes are most common among the lower castes and are usually found working as enforcers, assassins, thief-takers or thieves. In many cases, they operate in regions where carrying a greatsword or pike would draw attention, but little thought is given to someone with a rope belt or loop of tanned hide hanging from her belt.
+
+Of course, it takes more than a need for stealth to drive someone to train in the ways of the whip - daggers and saps can be concealed and mastered far more easily than going through the training required to become a blacksnake. Only a natural talent for the knacks required, and a fascination with the movement of a whip, can drive someone to put in the months of training it takes to go from mere proficiency with a whip to having the blacksnake's ability to make her lash dance so precisely.
+
+Blacksnakes are often perceived as thugs and bullies, and the archetype package is often taken by characters that are slavers and enforcers. But some adventurers and tomb delvers also favor the flexibility and reach of the whip, and have more interest in it as a tool than an instrument of cruelty. Of course, the difference between these two types of blacksnakes is solely in their attitudes, and so can be difficult to determine at a glance. Many good-hearted adventurers who become blacksnakes will find locals are mistrustful of anyone carrying a long braid of steel-tipped leather.
+
+
+<img src='http://cdn.obsidianportal.com/assets/218754/Master_Scourge.png' style='float:left;width:50%;padding:20px' />
+
 ### Prehensile whip
 In your hand a whip has a life of its own, wrapping around pillars and items with ease. When becoming a blacksnake, you can perform the following:
 
 * You can use a whip as if it were a rope with a grappling hook at the end.
-
 * As a an ***item action***, you can use your whip to manipulate an unattended object up to 15 feet away as if you were adjacent to it. For example, you can pick the object up, bringing it to you.
-
-
-
 * You can use your whip as a swing line, allowing you to cross chasms and rapidly climb the length of the whip. As an ***action***, you can lash the end of your whip to any appropriate anchor point within range. As part of a ***move action***, you can then move up to 25 feet across or 15 feet up from your starting point without requiring Acrobatics or Athletics checks that might normally be needed, moving at full speed even up a wall, over a chasm, or across difficult terrain.
 
 ### Whip Specialization
@@ -237,13 +236,6 @@ When you are wielding a whip, other creatures provoke an opportunity attack from
 
 ### Lifeline
 From level 7, when you or a nearby creature is falling, you can use the whip as a ***reaction***. If you are the one falling, make an attack roll against a AC of 10, but there must be some sort of solid anchor available for your rope to loop around.
-
-<img src='http://cdn.obsidianportal.com/assets/218754/Master_Scourge.png' style='position:absolute;bottom:-30px;right:-30px;height:48%;' />
-
-
-
-
-
 
 When attempting this check on another creature, make an attack roll against that target to catch it. If the weight of the creature exceeds your carrying capacity, you are pulled after it.
 
@@ -269,8 +261,10 @@ You cow your enemies with the lash of a whip. At 18th level, when you hit a targ
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-brawler">Brawler</a></h1>
+<div class="featuresTable">
 
-# <a name="brawler">Brawler</a>
 Brawlers are an up-close, in-your-face, grim-and-gritty combatant. A master of unarmed hand-to-hand combat, ready to throw down at any time, they are the typical street thug. They are not monks with their codes and mysticism. They don't learn their prowess through discipline and intense teaching but through survival of the fittest.
 
 <img src='https://i.imgur.com/zsJPmQk.png' style='position:absolute;bottom:10px;left:20px;height:44%;' />
@@ -328,7 +322,7 @@ At 18th level, you can take an impressive amount of beating. You gain resistance
 
 
 
-## <a name="corsair">Corsair</a>
+## <a name="internal-corsair">Corsair</a>
 While it doesn't take much more than a ship and a crew to become a pirate, corsairs are a finer breed of freebooter. A corsair's debonair charm and style make her a paradoxical celebrity even among the nations whose ships she plunders.
 
 Corsairs can be evil or good depending on their motivations and methods. Behind these motivations, most corsairs have a formative moment that led them to a life at sea. Consider with your DM what this moment could be, or roll on the Life at Sea table, below:
@@ -417,7 +411,7 @@ When you reach 18th level, you have become adept at detecting ambushes and quick
 
 
 
-# <a name="daredevil">Daredevil</a>
+# <a name="internal-daredevil">Daredevil</a>
 The daredevil relies on speed, agility and panache. They are considered brave by some and foolish by others, as they often throw themselves into battle where it is as thickest.
 
 Daredevils dart in and out of the fray,  wearing  down opponent after opponent with lunges and feints, all while foiling the powerful attacks against them with a flick of the wrist and a flash of the blade. Their deft parries and fatal ripostes are carnage elevated to an art form. Some may be arrogant and devil-may-care, but behind this veneer lie people deeply dedicated to their craft.
@@ -480,7 +474,7 @@ The following archetype specific additions are made to the general rest rules.
 
 
 
-# <a name="duelist">Duelist</a>
+# <a name="internal-duelist">Duelist</a>
 Duelists represent the pinnacle of elegant swordplay. They move with a grace unmatched by most foes, parrying  blows and countering attacks  with swift thrusts of their blades. They may wear armor, but generally eschew such bulky protection as their grace allows them to dodge their opponents with ease. While others flounder on treacherous terrain, duelists charge nimbly across the battlefield, leaping and tumbling into the fray. They thrive in melee, where their skill with the blade allows them to make sudden attacks against clumsy foes and to cripple opponents with particularly well-placed thrusts of the blade.
 
 Many duelists travel from place to place seeking fortune, fame, and new opponents to test their skills against. Most live on the open road fighting for a share of prize purses, or even championing a cause, while others fight as pure mercenaries or even fight duels to humiliate or even slay foes in a "legal" death matches. Some duelists who relish in the idea of working with companions instead of a solo artist, are drawn to the life of the adventurer as an ever ongoing source of entertainment to keep them honed in their skills,  not to mention for the wealth and notoriety.
@@ -529,7 +523,7 @@ At 18th level, when you are in single combat with an enemy, as a ***reaction*** 
 
 
 
-# <a name="fatebender">Fatebender</a>
+# <a name="internal-fatebender">Fatebender</a>
 Fatebenders find themselves on the edges of fate, dancing along the far extremes of probability and causality. They cannot do the impossible, but often the extremely improbable happens around them, always to their benefit. Fatebender aren’t necessarily particularly good at anything. It's just that the universe likes to help them out. Many people blessed or cursed in this way fail to understand the meaning of it all, believing themselves to just be unnaturally lucky or that those around them are horribly misfortunate.
 
 Life is often easy for fatebenders, as good fortune naturally falls into their laps. Casually confident and self-sure, they are flamboyant and reckless champions of destiny—in hopeless battles the good fortune radiating from a fatebender can inadvertently turn the tide in their favor.
@@ -623,7 +617,7 @@ The following archetype specific additions are made to the general rest rules.
 
 
 
-# <a name="highwayman">Highwayman</a>
+# <a name="internal-highwayman">Highwayman</a>
 The thieves and brigands who prey on travelers are known as highwaymen - whether or not they're actually men. Many merchants and nobles may fear highwaymen, recounting stories of them and taking precautions against falling victim to the outlaw's blade. The poor on the other hand speak of highwaymen with reverence, occasionally calling them "the knights of the road".
 
 #### Highwayman features
@@ -670,7 +664,7 @@ From 18th level, you are adept at escaping the cold grasp of death. When you are
 
 
 
-# <a name="musketeer">Musketeer</a>
+# <a name="internal-musketeer">Musketeer</a>
 While many Swashbucklers strive to perfect their art, spending all of their time honing their skill at martial arms, others spend as much effort dedicating themselves to a cause. Many of these dedicated swashbucklers are known as musketeers. These musketeers swear themselves to a purpose or a monarch, serving it above all else. They are skilled at fighting from horseback, and are often found charging across a battlefield, with the symbol of their purpose trailing on a long, fluttering banner. Their true power comes from the conviction of their ideals, the oaths that they swear, and the challenges they make.
 
 #### Musketeer features
@@ -727,7 +721,7 @@ At 18th level, you attain the pinnacle of resilience in battle. At the start of 
 
 
 
-# <a name="deeds">Deeds</a>
+# <a name="internal-deeds">Deeds</a>
 The deeds are presented in alphabetical order.
 
 #### Alleycat
@@ -795,7 +789,7 @@ If you do not have any remaining panache, and you have the highest initiative, y
 <img src='https://robertrigo.github.io/pics/skull_divider.png' style='width:100%;' />
 
 
-# <a name="tricks">Tricks</a>
+# <a name="internal-tricks">Tricks</a>
 The tricks are presented in alphabetical order.
 
 #### Arm's Length
