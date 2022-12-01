@@ -242,8 +242,10 @@ The spells you learn at 8th, 14th, and 20th level can come from any school of ma
 Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
 
 
+<div class="block classTable halfClassTable frame" markdown="1">
+
 #### Arcane Trickster Spellcasting Table
-| -Level- | -Cantrips- | -Spells- | 1st |2nd |3rd |4th |
+| Level | Cantrips | Spells | 1st |2nd |3rd |4th |
 |:-----:|:--------:|:------:|:---:|:--:|:--:|:--:|
 | 3rd | 2 | 3 | 2 | - | - | - |
 | 4th | 2 | 4 | 3 | - | - | - |
@@ -264,6 +266,7 @@ Whenever you gain a level in this class, you can replace one of the spells you k
 | 19th | 3 | 12 | 4 | 3 | 3 | 1 |
 | 20th | 3 | 13 | 4 | 3 | 3 | 1 |
 
+</div>
 
 #### Spellcasting Ability
 Intelligence is your spellcasting ability for your spells, since you learn your spells through study and memorization.
@@ -453,8 +456,10 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 
 
 
+<div class="block classTable halfClassTable frame" markdown="1">
+
 #### Daggerspell mage Spellcasting Table
-| -Level- | -Cantrips- | -Spells- | 1st |2nd |3rd |4th |
+| Level | Cantrips | Spells | 1st |2nd |3rd |4th |
 |:-----:|:--------:|:------:|:---:|:--:|:--:|:--:|
 | 3rd | 2 | 3 | 2 | - | - | - |
 | 4th | 2 | 4 | 3 | - | - | - |
@@ -475,6 +480,7 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 | 19th | 3 | 12 | 4 | 3 | 3 | 1 |
 | 20th | 3 | 13 | 4 | 3 | 3 | 1 |
 
+</div>
 
 #### Spellcasting Ability
 Intelligence is your spellcasting ability for your spells, since you learn your spells through study and memorization.
@@ -581,9 +587,10 @@ You know three 1st-level cleric spells of your choice. The Spells Known column o
 Whenever you gain a level in this class, you can replace one of the cleric spells you know with another spell of your choice from the cleric spell list. The new spell must be of a level for which you have spell slots.
 
 
+<div class="block classTable halfClassTable frame" markdown="1">
 
 #### Divine Herald Spellcasting Table
-| -Level- | -Cantrips- | -Spells- | 1st |2nd |3rd |4th |
+| Level | Cantrips | Spells | 1st |2nd |3rd |4th |
 |:-----:|:--------:|:------:|:---:|:--:|:--:|:--:|
 | 3rd | 3 | 3 | 2 | - | - | - |
 | 4th | 3 | 4 | 3 | - | - | - |
@@ -604,6 +611,7 @@ Whenever you gain a level in this class, you can replace one of the cleric spell
 | 19th | 4 | 12 | 4 | 3 | 3 | 1 |
 | 20th | 4 | 13 | 4 | 3 | 3 | 1 |
 
+</div>
 
 #### Spellcasting Ability
 Wisdom is your spellcasting ability for your cleric spells, since you learn your spells through dedicated study and memorization.
@@ -1284,6 +1292,26 @@ Once you have used this ability you cannot do so again until you have completed 
 | 13th | Silent Spell |
 | 17th | Ray Mastery |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Silent Spell***.
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Ray Mastery***.
+
+</div>
+</div>
+</div>
+
 </div>
 
 You are more accurate with rays of flame than an archer is with his arrows, and twice as deadly. Not content to splash around messy evocation magic to slay your foes, you have learned to alter the form of your spells into exact rays of lethal potential. Deadly and precise, you favor the methods of a surgeon, meticulously eradicating your foes, rather than the disorganized violence of a butcher.
@@ -1309,6 +1337,7 @@ The spells you learn at 8th, 14th, and 20th level can come from any school of ma
 Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an evocation and illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
 
 
+<div class="block classTable halfClassTable frame" markdown="1">
 
 #### Spellwarp Sniper Spellcasting Table
 | Level | Cantrips | Spells | 1st |2nd |3rd |4th |
@@ -1332,6 +1361,7 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 | 19th | 3 | 12 | 4 | 3 | 3 | 1 |
 | 20th | 3 | 13 | 4 | 3 | 3 | 1 |
 
+</div>
 
 #### Spellcasting Ability
 Intelligence is your spellcasting ability for your spells, since you learn your spells through study and memorization.
@@ -1363,25 +1393,6 @@ After using this ability, you must complete a long rest before using it again.
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">Rest Additions</div>
-<div class="card-subtitle restPad">
-The following additions are made to the general rest rules.
-<div class="card-text restTable" markdown="1">
-
-| Short rest |
-|:-|
-| After a short rest: |
-| * Regain use of ***Silent Spell***.
-
-| Long rest |
-|:-|
-| Add the following class specific benefits to choose from: |
-| * Regain use of ***Ray Mastery***.
-
-</div>
-</div>
-</div>
 
 
 
