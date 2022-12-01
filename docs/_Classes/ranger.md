@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-- #### [Ranger Conclaves](#p5)
+- #### [Ranger Conclaves](#internal-conclaves)
   - <a href="#internal-beastMaster">Beast Conclave</a>
   - <a href="#internal-burghalExplorer">Burghal Explorer</a>
   - <a href="#internal-diabolist">Diabolist</a>
@@ -100,7 +100,7 @@ You start with the following equipment, in addition to the equipment granted by 
 
 
 ### Natural Explorer
-You are particularly familiar with the natural world, adept at traveling and surviving out in the wilds. At 2nd level, choose three of the following traits. You may choose two additional traits at 6th and 10th level.
+You are particularly familiar with the natural world, adept at traveling and surviving out in the wilds. At 1st level, choose three of the following traits. You may choose two additional traits at 6th and 10th level.
 
 <div class="columnstwo">
 
@@ -193,6 +193,26 @@ At 1st level, you swear an oath to protect the world against a particular type o
 
 </div>
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain one use of ***Primeval Awareness***.
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Favored Foe***.
+| * Regain all uses of ***Primeval Awareness***.
+| * Regain all uses of ***Fade Away***.
+
+</div>
+</div>
+</div>
+
+
 ### Fighting Style
 At 2nd level, you adopt a style of fighting as your specialty. Choose one of the options from the <a href="fighter.html#internal-FightingStyles">fighter list of fighting styles</a>. You can’t take a fighting style option more than once, even if you later get to choose again.
 
@@ -237,52 +257,51 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 ### Greater Sworn Enemy
 At 6th level, you are ready to hunt even deadlier game. Depending on which Sworn Enemy you selected at 1st level, you gain the following feature:
 
+<div class="columnstwo">
 
+- #### Favored Archetype
+    You can choose either to specialise in an additional enemy archetype or to upgrade an archetype you already specialise in.
 
-#### Favored Archetype
-You can choose either to specialise in an additional enemy archetype or to upgrade an archetype you already specialise in.
+    **Brute**. Brutes suffer a -2 penalty to attack rolls against you.
 
- **Brute**. Brutes suffer a -2 penalty to attack rolls against you.
+    **Fiend**. You have advantage on Wisdom (Insight) checks to detect if a creature serves, worships, or draws power from a fiend.
 
- **Fiend**. You have advantage on Wisdom (Insight) checks to detect if a creature serves, worships, or draws power from a fiend.
+    **Flyer**. When you hit a flyer with an attack, it looses flight until the start of your next turn.
 
- **Flyer**. When you hit a flyer with an attack, it looses flight until the start of your next turn.
+    **Legend**. You deal 3 extra damage per hit against legends, instead of 1.
 
- **Legend**. You deal 3 extra damage per hit against legends, instead of 1.
+    **Mage**. You have advantage on Strength, Dexterity, and Constitution saving throws against spells.
 
- **Mage**. You have advantage on Strength, Dexterity, and Constitution saving throws against spells.
+    **Mindless**. Mindless creatures avoid attacking you unless you have damaged them or they have been given an explicit order to attack you.
 
- **Mindless**. Mindless creatures avoid attacking you unless you have damaged them or they have been given an explicit order to attack you.
+    **Minion**. Once per turn, when you kill a minion, you can transfer any excess damage from your attack to another minion within 5 feet of the first minion. The second minion has resistance to this damage.
 
- **Minion**. Once per turn, when you kill a minion, you can transfer any excess damage from your attack to another minion within 5 feet of the first minion. The second minion has resistance to this damage.
+    **Stalker**. Your Perception is considered to be 5 higher for the purpose of detecting stalkers, and you have advantage on Wisdom (Perception) checks to search for them if you know they are nearby (suspicion or paranoia is insufficient).
 
- **Stalker**. Your Perception is considered to be 5 higher for the purpose of detecting stalkers, and you have advantage on Wisdom (Perception) checks to search for them if you know they are nearby (suspicion or paranoia is insufficient).
+    **Warrior**. You have resistance to damage from nonmagical weapons.
 
- **Warrior**. You have resistance to damage from nonmagical weapons.
+- #### Favored Enemy
+    You may choose a greater favored enemy: aberrations, celestials, constructs, dragons, elementals, fiends, or giants. You gain all the benefits against this chosen enemy that you normally gain against your favored enemy, including an additional language. Your bonus to damage rolls against all your favored enemies increases to +4.
 
-#### Favored Enemy
-You may choose a greater favored enemy: aberrations, celestials, constructs, dragons, elementals, fiends, or giants. You gain all the benefits against this chosen enemy that you normally gain against your favored enemy, including an additional language. Your bonus to damage rolls against all your favored enemies increases to +4.
+    Additionally, you have advantage on saving throws against the spells and abilities used by a greater favored enemy.
 
-Additionally, you have advantage on saving throws against the spells and abilities used by a greater favored enemy.
+- #### Favored Foe or Honed Instinct
+    You may select a Favored Enemy from any creature type in the 1st level Favored enemy feature. However, you will only gain the benefits described in the 1st level feature.
 
-#### Favored Foe or Honed Instinct
-You may select a Favored Enemy from any creature type in the 1st level Favored enemy feature. However, you will only gain the benefits described in the 1st level feature.
+</div>
 
 ### Relentless
 At 8th level you can choose one of the following options:
 
-#### Relentless Pursuit
-You can use the Dash action as a ***bonus action*** on your turn. Also, you have advantage on Constitution checks and saving throws to avoid exhaustion during chases and forced marches.
+<div class="columnstwo">
 
+- #### Relentless Pursuit
+    You can use the Dash action as a ***bonus action*** on your turn. Also, you have advantage on Constitution checks and saving throws to avoid exhaustion during chases and forced marches.
 
+- #### Relentless Wanderer
+    You have advantage on any saving throw made to avoid non magical traps or natural hazards, as well as resistance to any damage from non magical traps or natural hazards. You don’t gain this benefit if you are incapacitated, grappled, or restrained.
 
-
-
-
-
-
-#### Relentless Wanderer
-You have advantage on any saving throw made to avoid non magical traps or natural hazards, as well as resistance to any damage from non magical traps or natural hazards. You don’t gain this benefit if you are incapacitated, grappled, or restrained.
+</div>
 
 ### Hide in Plain Sight
 Starting at 10th level, you can remain perfectly still for long periods of time to set up ambushes. If you remain motionless while hiding, creatures that attempt to detect you take a −10 penalty to their Perception checks.
@@ -290,116 +309,100 @@ Starting at 10th level, you can remain perfectly still for long periods of time 
 ### Low Profile
 Starting at 14th level, you are no more remarkable in your element than a small animal or an insect, able to slip by almost anyone unnoticed. Choose one of the following features:
 
-#### Fade Away
-You can use a ***bonus action*** to magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.
+<div class="columnstwo">
 
-You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest
+- #### Fade Away
+    You can use a ***bonus action*** to magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.
 
-#### Vanish
-You can use the Hide action as a ***bonus action*** on each of your turns in combat. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail.
+    You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest
+
+- #### Vanish
+    You can use the Hide action as a ***bonus action*** on each of your turns in combat. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail.
+
+</div>
 
 ### Evolutionary Balance
 At 18th level, you gain a special ability to detect your prey. Choose one of the following options.
 
-#### Eagle's Eyes
-You can see objects and creatures up to 1 mile away as though they were directly in front of you. When you are at least 120 feet above the ground, this range increases to 10 miles.
+<div class="columnstwo">
 
-You become proficient with Perception if you weren't already, and you add double your proficiency bonus, instead of your normal bonus, when you make Perception checks.
+- #### Eagle's Eyes
+    You can see objects and creatures up to 1 mile away as though they were directly in front of you. When you are at least 120 feet above the ground, this range increases to 10 miles.
 
-#### Feral Senses
-You gain supernatural senses that help you fight creatures you can't see. You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness.
+    You become proficient with Perception if you weren't already, and you add double your proficiency bonus, instead of your normal bonus, when you make Perception checks.
 
+- #### Feral Senses
+    You gain supernatural senses that help you fight creatures you can't see. You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness.
 
+- #### Hound's Snout
+    You can detect the scent of all creatures that passed through an area unless the area has been subject to light winds for 1 hour, moderate winds for 1 minute, or strong winds for 1 round. By following the scent trail, you can detect the exact path your quarry took.
 
+    In addition, you can expend a spell slot to improve your sense of smell even further and work out events that transpired in a specific location within 60 feet of you. You can identify specific people (as long as you are familiar with their scent), their movements, and how they interacted with the environment, up to the DM's discretion.
 
-#### Hound's Snout
-You can detect the scent of all creatures that passed through an area unless the area has been subject to light winds for 1 hour, moderate winds for 1 minute, or strong winds for 1 round. By following the scent trail, you can detect the exact path your quarry took.
-
-In addition, you can expend a spell slot to improve your sense of smell even further and work out events that transpired in a specific location within 60 feet of you. You can identify specific people (as long as you are familiar with their scent), their movements, and how they interacted with the environment, up to the DM's discretion.
+</div>
 
 ### Apex Predator
 At 20th level, you become an unparalleled hunter. Choose an option.
 
-#### Foe Slayer
-Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make. You can choose to use this feature after the roll, but before any effects of the roll are applied.
+<div class="columnstwo">
 
-#### Roots of the Arcane
-Once per turn, when you spend a 1st level spell slot on your turn, you regain a 1st level spell slot.
+- #### Foe Slayer
+    Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make. You can choose to use this feature after the roll, but before any effects of the roll are applied.
 
-#### Swift Hunter
-On your first turn during combat, any of your attacks that hits a creature who has not yet acted is a critical hit.
+- #### Roots of the Arcane
+    Once per turn, when you spend a 1st level spell slot on your turn, you regain a 1st level spell slot.
 
-#### Whirlwind
-Once per turn, you can trade one of your attacks to do a whirlwind. When doing a whirlwind, you make one melee weapon attack against each creature within 5 feet of you.
+- #### Swift Hunter
+    On your first turn during combat, any of your attacks that hits a creature who has not yet acted is a critical hit.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
+- #### Whirlwind
+    Once per turn, you can trade one of your attacks to do a whirlwind. When doing a whirlwind, you make one melee weapon attack against each creature within 5 feet of you.
 
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-|  | * Regain one use of **Primeval Awareness**.
-| | |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Favored Foe**.
-|  | * Regain all uses of **Primeval Awareness**.
-|  | * Regain all uses of **Fade Away**.
+</div>
 
 
 
 
 
+<h2><a class="internal-link" name="internal-conclaves">Ranger Conclaves</a></h2>
 
-
-
-
-
-
-# Ranger Conclaves
 Across the wilds, rangers come together to form conclaves - loose associations whose members share a similar outlook on how best to protect  nature from those who would despoil it.
 
- **<a href="#internal-beastMaster">Beast Conclave</a>** - The Beast Master  has committed himself to working in partnership with an animal as his companion and friend.
+<div class="columnstwo">
 
- **<a href="#internal-burghalExplorer">Burghal Explorer</a>** - Burghal Explorers are at home in tight places, like dangerous ruins, dark slums and ruined cities.
+- **<a href="#internal-beastMaster">Beast Conclave</a>** - The Beast Master  has committed himself to working in partnership with an animal as his companion and friend.
 
- **<a href="#internal-diabolist">Diabolist</a>** - Diabolist rangers roam the land, searching for tales of shades that hunt for the living, banshees that haunt the woods, or even helping ghosts that are not aware that they have passed in the first place.
+- **<a href="#internal-burghalExplorer">Burghal Explorer</a>** - Burghal Explorers are at home in tight places, like dangerous ruins, dark slums and ruined cities.
 
- **<a href="#internal-feyHunter">Fey Hunter</a>** - A fey hunter specializes in eliminating menaces from the Fey Realms and resisting the many charms and deceptions of the fey.
+- **<a href="#internal-diabolist">Diabolist</a>** - Diabolist rangers roam the land, searching for tales of shades that hunt for the living, banshees that haunt the woods, or even helping ghosts that are not aware that they have passed in the first place.
 
- **<a href="#internal-freerunner">Freerunner</a>** - A freerunner is supremely nimble and capable of crossing terrain as quickly as possible through a skilled combination of dashing, leaping, and nimbly climbing.
+- **<a href="#internal-feyHunter">Fey Hunter</a>** - A fey hunter specializes in eliminating menaces from the Fey Realms and resisting the many charms and deceptions of the fey.
 
- **<a href="#internal-gloomStalker">Gloomstalker</a>** - Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims.
+- **<a href="#internal-freerunner">Freerunner</a>** - A freerunner is supremely nimble and capable of crossing terrain as quickly as possible through a skilled combination of dashing, leaping, and nimbly climbing.
 
+- **<a href="#internal-gloomStalker">Gloomstalker</a>** - Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims.
 
+- **<a href="#internal-herbalist">Herbalist Conclave</a>** - Herbalists have learned to extract the magical properties of plants and nature in order to create potent mixtures that can aid allies and hinder foes.
 
+- **<a href="#internal-horizonWalker">Horizon Walker</a>** - Rangers of the Horizon Conclave guard the world against threats that originate from other planes.
 
- **<a href="#internal-herbalist">Herbalist Conclave</a>** - Herbalists have learned to extract the magical properties of plants and nature in order to create potent mixtures that can aid allies and hinder foes.
+- **<a href="#internal-hunter">Hunter Conclave</a>** - A Hunter has accepted his place as a bulwark between civilization and the terrors of the wilderness.
 
- **<a href="#internal-horizonWalker">Horizon Walker</a>** - Rangers of the Horizon Conclave guard the world against threats that originate from other planes.
+- **<a href="#internal-monsterSlayer">Monster Slayer</a>** - You have dedicated yourself to hunting down creatures of the night and wielders of grim magic.
 
- **<a href="#internal-hunter">Hunter Conclave</a>** - A Hunter has accepted his place as a bulwark between civilization and the terrors of the wilderness.
+- **<a href="#internal-nightstalker">Nightstalker</a>** - The Nightstalker emulates a unique form of shadow magic, used to create shadowy familiars to accompany him in battle.
 
- **<a href="#internal-monsterSlayer">Monster Slayer</a>** - You have dedicated yourself to hunting down creatures of the night and wielders of grim magic.
+- **<a href="#internal-stalker">Stalker</a>** - Stalkers serve as investigators, spies, informants, interrogators, and vigilantes. Unlike other rangers, they are just as at home in a crowded metropolis as in a wilderness setting.
 
- **<a href="#internal-nightstalker">Nightstalker</a>** - The Nightstalker emulates a unique form of shadow magic, used to create shadowy familiars to accompany him in battle.
-
- **<a href="#internal-stalker">Stalker</a>** - Stalkers serve as investigators, spies, informants, interrogators, and vigilantes. Unlike other rangers, they are just as at home in a crowded metropolis as in a wilderness setting.
-
-
-
+</div>
 
 
 
 
 
-# <a name="internal-beastMaster">Beast Conclave</a>
-Many rangers are more at home in the wilds than in civilization, to the point where animals consider them kin. Rangers of the Beast Conclave develop a close bond with a beast, then further strengthen that bond through the use of magic.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-beastMaster">Beast Conclave</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -409,6 +412,11 @@ Many rangers are more at home in the wilds than in civilization, to the point wh
 | 7th | Beast’s Defense |
 | 11th | Storm of Claws and Fangs |
 | 15th | Superior Beast’s Defense |
+
+</div>
+
+Many rangers are more at home in the wilds than in civilization, to the point where animals consider them kin. Rangers of the Beast Conclave develop a close bond with a beast, then further strengthen that bond through the use of magic.
+
 
 
 ### Animal Companion
@@ -422,30 +430,23 @@ If your animal companion is ever slain, the magical bond you share allows you to
 
 If you use this ability to call upon a new companion, your current companion leaves you.
 
-<div class="descriptive" markdown="1">
+<div class="infoarea">
 
 ##### Expanding Companion Options
 Depending on the nature of your campaign, the DM might choose to expand the options for your animal companion. As a rule of thumb, a beast can serve as an animal companion if it is Medium or smaller, has 15 or fewer hit points, and cannot deal more than 8 damage with a single attack. In general, that applies to creatures with a challenge rating of 1/4 or less, but there are exceptions.
 
 
-
+</div>
 
 #### Companion’s Bond
 Your animal companion gains a variety of benefits while it is linked to you.
  * The companion loses its Multiattack action, if it has one.
-
  * It obeys your commands as best it can. The companion rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your companion acts on its own.
-
  * Your companion uses your proficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, it also adds its proficiency bonus to AC and damage rolls.
-
  * Your animal companion gains becomes proficient with all saving throws.
-
  * For each level you gain after 3rd, your animal companion gains an additional hit die and increases its hit points accordingly.
-
  * Your companion shares your alignment, and has a personality trait and a flaw that you can  roll for or select from the tables below. Your companion shares your ideal, and its bond is always, “The ranger who travels with me is a beloved companion for whom I would gladly give my life.”
-
  * If you have the Favored Archetype or Favored Enemy feature, your animal companion gains those benefits, as well as the improved features when you gain that feature at 6th level. It uses the favored enemies you selected for those features.
-
  * When your beast companion falls to 0 hit points, it gains the Dying condition as if it were a player character. Roll death saving throws for the companion when appropriate.
 
 
@@ -496,18 +497,9 @@ At 15th level, whenever an attacker that your companion can see hits it with an 
 
 
 
-
-
-# <a name="internal-burghalExplorer">Burghal Explorer</a>
-
-*"Ranging doesn’t just happen in the wilderness. It happens in ancient ruins, dank caves, and crowded cities. The towers are my mountains, the allies are my forest, and the criminal scum is my quarry."*
-
-— Landon Fleetcloak, Burghal explorer
-
-Burghal Explorers are at home in tight places, making their living as urban bounty hunters or guiding magical search crews through dangerous ruins. Dark slums and ruined cities, choked with thirsty weeds and decorated with crumbling remnants of once-thriving communities, become gathering points for desperate innocents—and for sneak-thieves and bandits who prey on the helpless.
-
-Burghal Explorers toe the line between the natural forest and cityscapes, moonlighting as vigilantes, or fending off unnatural horrors that reach covetously toward the darkest, deepest, plots of land.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-burghalExplorer">Burghal Explorer</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -517,6 +509,18 @@ Burghal Explorers toe the line between the natural forest and cityscapes, moonli
 | 7th | Above and Below |
 | 11th | Streetwise |
 | 15th | Close Quarters |
+
+</div>
+
+Burghal Explorers are at home in tight places, making their living as urban bounty hunters or guiding magical search crews through dangerous ruins. Dark slums and ruined cities, choked with thirsty weeds and decorated with crumbling remnants of once-thriving communities, become gathering points for desperate innocents—and for sneak-thieves and bandits who prey on the helpless.
+
+Burghal Explorers toe the line between the natural forest and cityscapes, moonlighting as vigilantes, or fending off unnatural horrors that reach covetously toward the darkest, deepest, plots of land.
+
+> *"Ranging doesn’t just happen in the wilderness. It happens in ancient ruins, dank caves, and crowded cities. The towers are my mountains, the allies are my forest, and the criminal scum is my quarry."*
+>
+> -- Landon Fleetcloak, Burghal explorer
+
+
 
 
 ### Burghal Explorer Magic
@@ -561,11 +565,9 @@ At 15th level, you always gain the benefits of half cover whenever two or more c
 
 
 
-
-
-# <a name="internal-diabolist">Diabolist</a>
-Diabolist rangers roam the land, searching for tales of shades that hunt for the living, banshees that haunt the woods, or even helping ghosts that are not aware that they have passed in the first place. They believe that the ethereal creatures that we may become should be helped to pass on to a proper plane of existence, or at the very least stopped from harming others.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-diabolist">Diabolist</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -575,6 +577,27 @@ Diabolist rangers roam the land, searching for tales of shades that hunt for the
 | 7th | Spiritual Sheath |
 | 11th | Planar Blockade, Mind Impression (2d6) |
 | 15th | Material Slip |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Material Slip***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Diabolist rangers roam the land, searching for tales of shades that hunt for the living, banshees that haunt the woods, or even helping ghosts that are not aware that they have passed in the first place. They believe that the ethereal creatures that we may become should be helped to pass on to a proper plane of existence, or at the very least stopped from harming others.
+
+
 
 ### Diabolist Magic
 Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Diabolist Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
@@ -616,18 +639,6 @@ While in this form, you can move in any direction, including up and down, or thr
 
 Once you use this feature, you cannot do so again until you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following conclave specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain use of **Material Slip**.
 
 
 
@@ -636,12 +647,9 @@ The following conclave specific additions are made to the general rest rules.
 
 
 
-
-
-
-# <a name="internal-feyHunter">Fey Hunter</a>
-A fey hunter specializes in eliminating menaces from the Fey Realms and resisting the many charms and deceptions of the fey. Though fey hunters need not slay every fey they meet, alliances between the fair folk and their hunters are fleeting and uneasy.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-feyHunter">Fey Hunter</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -651,6 +659,10 @@ A fey hunter specializes in eliminating menaces from the Fey Realms and resistin
 | 7th | Rally Against Fey |
 | 11th | Lift the Veil |
 | 15th | Master Fey Hunter |
+
+</div>
+
+A fey hunter specializes in eliminating menaces from the Fey Realms and resisting the many charms and deceptions of the fey. Though fey hunters need not slay every fey they meet, alliances between the fair folk and their hunters are fleeting and uneasy.
 
 
 ### Fey Hunter Magic
@@ -691,13 +703,9 @@ At 15th level, your attacks and spells against fey creatures ignore any resistan
 
 
 
-
-
-# <a name="internal-freerunner">Freerunner</a>
-Agile, evasive, and unmoored from the constraints that slow down other rangers, the archetypal freerunner is supremely nimble and capable of crossing terrain as quickly as possible. They accomplish this through a skilled combination of dashing, leaping, and nimbly climbing, that guides them down clever paths through their environments. Moreover, an adept freerunner can convert the momentum from their gymnastics into deadly force, crushing their enemies with exceptional impact from unexpected directions.
-
-A freerunner is most at home in a city or in the treetops of a great forest, for their unique movement requires a place that is steeped with complex geometry which reaches high into the sky. Of course, even on flat terrain, a freerunner's agility is not to be underestimated, for they can dive through a giants legs or scurry up its back with ease.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-freerunner">Freerunner</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -707,6 +715,14 @@ A freerunner is most at home in a city or in the treetops of a great forest, for
 | 7th | Evasive Fighter |
 | 11th | Hit Hard, Hit Fast |
 | 15th | Nimble Dodge |
+
+</div>
+
+Agile, evasive, and unmoored from the constraints that slow down other rangers, the archetypal freerunner is supremely nimble and capable of crossing terrain as quickly as possible. They accomplish this through a skilled combination of dashing, leaping, and nimbly climbing, that guides them down clever paths through their environments. Moreover, an adept freerunner can convert the momentum from their gymnastics into deadly force, crushing their enemies with exceptional impact from unexpected directions.
+
+A freerunner is most at home in a city or in the treetops of a great forest, for their unique movement requires a place that is steeped with complex geometry which reaches high into the sky. Of course, even on flat terrain, a freerunner's agility is not to be underestimated, for they can dive through a giants legs or scurry up its back with ease.
+
+
 
 
 ### Freerunner Magic
@@ -726,14 +742,10 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 ### Freerunning
 Starting at 3rd level, you have trained extensively to move freely over and through any terrain using only the abilities of the body. You gain proficiency with Acrobatics, and can use Dexterity (Acrobatics) when making a check to climb, jump, or swing on a rope.
 
-
-
-Additionally, you have mastered a number of techniques.
- **Slide**. As a ***bonus action***, you can move up to 10 feet without spending movement through another creature’s space or squeeze up to 10 feet through a smaller space.
-
- **Tumble**. As a ***bonus action***, you can nimbly jump, dive, or roll up to 10 feet in a straight line without spending movement. During this movement, any attacks of opportunity made against you have disadvantage.
-
- **Wall Run**. As a ***bonus action***, you can choose to run along a vertical surface as part of your movement. Until the end of your turn, you gain a climb speed equal to your walking speed. If you jump while running along a wall, you can complete the distance of your jump, even if doing so would exceed your movement speed.
+Additionally, you have mastered a number of techniques:
+- **Slide**. As a ***bonus action***, you can move up to 10 feet without spending movement through another creature’s space or squeeze up to 10 feet through a smaller space.
+- **Tumble**. As a ***bonus action***, you can nimbly jump, dive, or roll up to 10 feet in a straight line without spending movement. During this movement, any attacks of opportunity made against you have disadvantage.
+- **Wall Run**. As a ***bonus action***, you can choose to run along a vertical surface as part of your movement. Until the end of your turn, you gain a climb speed equal to your walking speed. If you jump while running along a wall, you can complete the distance of your jump, even if doing so would exceed your movement speed.
 
 ### Momentum
 At 3rd level, if you move through a hostile creature’s space, leave a creature’s reach, or move at least 15 feet vertically, you deal an additional 1d6 damage on the next weapon attack you make on your turn.
@@ -755,11 +767,9 @@ At 15th level, when a spell or other effect would have you make a saving throw d
 
 
 
-
-
-# <a name="internal-gloomStalker">Gloomstalker</a>
-Gloomstalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloomstalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-gloomStalker">Gloomstalker</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -769,6 +779,12 @@ Gloomstalkers are at home in the darkest places: deep under the earth, in gloomy
 | 7th | Iron Mind |
 | 11th | Stalker’s Flurry |
 | 15th | Shadowy Dodge |
+
+</div>
+
+Gloomstalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloomstalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.
+
+
 
 
 ### Gloomstalker Magic
@@ -814,11 +830,9 @@ Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernat
 
 
 
-
-
-# <a name="internal-herbalist">Herbalist Conclave</a>
-Herbalist rangers have learned to extract the magical properties of plants and nature in order to create potent mixtures that can aid allies and hinder foes.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-herbalist">Herbalist Conclave</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -828,6 +842,12 @@ Herbalist rangers have learned to extract the magical properties of plants and n
 | 7th | Natural Resistance |
 | 11th | Quick Mixing |
 | 15th | Master Alchemist |
+
+</div>
+
+Herbalist rangers have learned to extract the magical properties of plants and nature in order to create potent mixtures that can aid allies and hinder foes.
+
+
 
 
 ### Herbalist Magic
@@ -852,22 +872,23 @@ At 3rd level, as long as you have an herbalism kit, at the end of a long rest, y
 
 It is assumed that your mixtures are created from ingredients foraged or gathered while traveling. Your mixtures lose their potency after 24 hours. Some mixtures require a target to make a saving throw to resist the mixture's effects. The saving throw DC is your ranger spell save DC.
 
+***List of Mixtures***
 
+<div class="columnstwo">
 
-#### List of Mixtures
-The options for your Volatile Mixtures feature are presented here.
+- **Healing Draught**. This draught takes an ***action*** to drink or administer to another creature. Creatures that drink this draught regains 1d6 hit points. This draught has no effect on undead or constructs. The healing increases by 1d6 when you reach 11th level (2d6).
 
- **Healing Draught**. This draught takes an ***action*** to drink or administer to another creature. Creatures that drink this draught regains 1d6 hit points. This draught has no effect on undead or constructs. The healing increases by 1d6 when you reach 11th level (2d6).
+- **Restorative Draught**. This draught takes an ***action*** to drink or administer to another creature. Creatures that drink this draught is cured of either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned. This draught has no effect on undead or constructs.
 
- **Restorative Draught**. This draught takes an ***action*** to drink or administer to another creature. Creatures that drink this draught is cured of either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned. This draught has no effect on undead or constructs.
+- **Quick Coating**. As a ***bonus action*** on your turn, you can coat one melee weapon or up to five pieces of ammunition with a reactive alchemical mixture. Once applied, the coating loses its potency at the start of your next turn. A coated weapon or piece of ammunition deals an additional 1d6 damage. The damage type is acid, cold, fire, or poison (your choice). The additional damage increases by 1d6 when you reach 11th level (2d6).
 
- **Quick Coating**. As a ***bonus action*** on your turn, you can coat one melee weapon or up to five pieces of ammunition with a reactive alchemical mixture. Once applied, the coating loses its potency at the start of your next turn. A coated weapon or piece of ammunition deals an additional 1d6 damage. The damage type is acid, cold, fire, or poison (your choice). The additional damage increases by 1d6 when you reach 11th level (2d6).
+- **Poison Bomb**. As an ***action***, you can throw this flask to a point up to 20 feet from you, shattering it on impact, releasing a small cloud of poison that disperses quickly. Each creature in a 5-foot-radius sphere centered on the point of impact must make a Constitution saving throw or take 1d4 poison damage and become poisoned for one minute. The creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success. Holding one's breath is ineffective against the poison, as it affects the nasal membranes, tear ducts, and other parts of the body. The damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
 
- **Poison Bomb**. As an ***action***, you can throw this flask to a point up to 20 feet from you, shattering it on impact, releasing a small cloud of poison that disperses quickly. Each creature in a 5-foot-radius sphere centered on the point of impact must make a Constitution saving throw or take 1d4 poison damage and become poisoned for one minute. The creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success. Holding one's breath is ineffective against the poison, as it affects the nasal membranes, tear ducts, and other parts of the body. The damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+- **Smoke Bomb**. As an ***action***, you can throw this flask to a point up to 20 feet from you, shattering it on impact. It creates a 10-foot-radius sphere of smoke centered on the point of impact. The sphere spreads around corners, and its area is heavily obscured. It lasts for one minute or until winds (at least 5 miles per hour) disperses it.
 
- **Smoke Bomb**. As an ***action***, you can throw this flask to a point up to 20 feet from you, shattering it on impact. It creates a 10-foot-radius sphere of smoke centered on the point of impact. The sphere spreads around corners, and its area is heavily obscured. It lasts for one minute or until winds (at least 5 miles per hour) disperses it.
+- **Sludge Bomb**. As an action, you can throw this flask to a point up to 20 feet from you, shattering it on impact. The ground in a 5-foot-radius centered on that point becomes difficult terrain for one minute.
 
- **Sludge Bomb**. As an action, you can throw this flask to a point up to 20 feet from you, shattering it on impact. The ground in a 5-foot-radius centered on that point becomes difficult terrain for one minute.
+</div>
 
 ### Extra Attack
 Beginning at 5th level, you can attack twice, instead of once whenever you take the Attack action on your turn.
@@ -890,30 +911,29 @@ At 11th level, at the end of a long rest, you prepare an additional number of mi
 ### Master Alchemist
 At 15th level, you have mastered your mixtures’ recipes, and have learned to combine your ingredients to deadly effectiveness. Your mixtures gain additional effects:
 
- **Healing Draught**. You add your Wisdom modifier to the amount of hit points the draught restores.
+<div class="columnstwo">
 
- **Restorative Draught**. In addition to curing one disease or condition, the mixture also reduces the target's exhaustion level by one.
+- **Healing Draught**. You add your Wisdom modifier to the amount of hit points the draught restores.
 
- **Quick Coating**. When you roll damage for the quick coating, you can treat any 1 on a damage die as a 2.
+- **Restorative Draught**. In addition to curing one disease or condition, the mixture also reduces the target's exhaustion level by one.
 
- **Poison Bomb**. A creature who succeeds on the saving throw takes half the damage instead of no damage.
+- **Quick Coating**. When you roll damage for the quick coating, you can treat any 1 on a damage die as a 2.
 
- **Smoke Bomb**. The smoke's radius increases to 15 feet, and it lasts for up to 10 minutes. Winds can no longer disperse the smoke.
+- **Poison Bomb**. A creature who succeeds on the saving throw takes half the damage instead of no damage.
 
- **Sludge Bomb**. When a Large or smaller creature enters the sludge’s area for the first time on a turn or starts its turn there, that creature must make a Strength saving throw. On a failed save, the creature is grappled by the sludge until the start of its next turn.
+- **Smoke Bomb**. The smoke's radius increases to 15 feet, and it lasts for up to 10 minutes. Winds can no longer disperse the smoke.
 
+- **Sludge Bomb**. When a Large or smaller creature enters the sludge’s area for the first time on a turn or starts its turn there, that creature must make a Strength saving throw. On a failed save, the creature is grappled by the sludge until the start of its next turn.
 
-
-
-
-
+</div>
 
 
-# <a name="internal-horizonWalker">Horizon Walker</a>
-Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes.
 
-These rangers are also friends to any forces in the multiverse — especially benevolent dragons, fey, and elementals — that work to preserve life and the order of the planes.
 
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-horizonWalker">Horizon Walker</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -923,6 +943,13 @@ These rangers are also friends to any forces in the multiverse — especially be
 | 7th | Ethereal Step |
 | 11th | Distant Strike, Planar Warrior (2d8) |
 | 15th | Spectral Defense |
+
+</div>
+
+Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes.
+
+These rangers are also friends to any forces in the multiverse — especially benevolent dragons, fey, and elementals — that work to preserve life and the order of the planes.
+
 
 
 ### Horizon Walker Magic
