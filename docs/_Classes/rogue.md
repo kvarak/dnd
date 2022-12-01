@@ -664,6 +664,21 @@ At 17th level, when you hit a creature that has less than half its hit point, yo
 | 13th | Gambler’s Tricks (4) |
 | 17th | Gambler’s Tricks (5) |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: ||
+| * Reset ***Fate’s Fortune***.
+
+</div>
+</div>
+</div>
+
 </div>
 
 While any fool can place a bet, Gamblers draw on luck and chance in all aspects of their adventures. Walking testaments to the phrase 'nothing ventured nothing gained,' these daring rogues are willing to risk more than most for the ultimate payoff.
@@ -696,130 +711,98 @@ Second, fate can choose only the most rewarding course of action relative to the
 
 You regain the use of this feature after finishing a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">Rest Additions</div>
-<div class="card-subtitle restPad">
-The following additions are made to the general rest rules.
-<div class="card-text restTable" markdown="1">
-
-| Long rest |
-|:-|
-| After a long rest: ||
-| * Reset ***Fate’s Fortune***.
-
-</div>
-</div>
-</div>
-
-
 
 
 ## Tricks
 
-#### Beginner’s Luck
-When you roll an ability check for a skill you are not proficient with, you can gain advantage on that roll. However, you have disadvantage on all future ability checks made using that skill until you finish a long rest.
+<div class="columnstwo">
 
-#### Borrowed Luck
-When you roll a 1 on an attack roll, you can reroll the die. Alternatively, when a critical hit is scored against you, you can choose to reroll that die and must use the new roll. After doing so, the next critical hit you make before a long rest instead counts as a normal hit. You regain use of this feature after a short rest.
+- #### Beginner’s Luck
+    When you roll an ability check for a skill you are not proficient with, you can gain advantage on that roll. However, you have disadvantage on all future ability checks made using that skill until you finish a long rest.
 
+- #### Borrowed Luck
+    When you roll a 1 on an attack roll, you can reroll the die. Alternatively, when a critical hit is scored against you, you can choose to reroll that die and must use the new roll. After doing so, the next critical hit you make before a long rest instead counts as a normal hit. You regain use of this feature after a short rest.
 
+- #### Breaking Even
+    *Prerequisite: 9th level*
 
+    As a ***bonus action*** on your turn, choose one creature you can see. For the next minute, whenever you hit the target with an attack you regain hit points equal to your Charisma modifier (minimum of 1). However, whenever you miss the target you take damage equal to the same amount. You regain the use of this feature after finishing a short rest.
 
+- #### Card Streak
+    *Prerequisite: 17th level*
 
+    As an action, you can hurl conjured, razorsharp cards in a 30 foot cone. Each target must make a Dexterity saving throw with a saving throw equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, a creature takes 8d10 slashing damage, or half as much on a successful one. Cards created by this ability are solid and convincing, but vanish after 1 hour. You regain the use of this feature after finishing a long rest.
 
+- #### Chance Dice
+    You have three chance dice, which are d6s. A chance die is expended when you use it. Before making an attack roll, saving throw, or ability check, you can expend any number of these dice to grant either a bonus or penalty to your roll. If the total number on the chance dice rolled is odd, you must subtract that amount from your d20 roll. If it's even, you must add that amount. You regain all of your expended chance dice when you finish a short rest.
 
+- #### Cheaters Sometimes Prosper
+    When you are adjacent to a creature that has no other creatures next to it, you can use a ***reaction*** to make a Charisma (Deception) check contested by the target's Insight. If successful, you gain advantage on all weapon attacks you make against the target before the start of your next turn. If you fail, you have disadvantage instead.
 
-#### Breaking Even
-*Prerequisite: 9th level*
+- #### Double or Nothing
+    After you hit with a weapon attack, choose odds or evens. If the total number on your damage dice matches your choice you can apply double the damage rolled. However, on an incorrect result your damage is halved (rounded down). You regain the use of this feature after finishing short rest.
 
-As a ***bonus action*** on your turn, choose one creature you can see. For the next minute, whenever you hit the target with an attack you regain hit points equal to your Charisma modifier (minimum of 1). However, whenever you miss the target you take damage equal to the same amount. You regain the use of this feature after finishing a short rest.
+- #### Even the Odds
+    When you or a creature you can see within 60 feet makes an attack roll, ability check, or saving throw you can use your ***reaction*** to influence the outcome. Roll 1d6, and either add or subtract the result from the triggering roll. After doing so, the next time the target makes the same roll before a long rest, it instead does the opposite. You regain the use of this feature after finishing a short rest.
 
-#### Card Streak
-*Prerequisite: 17th level*
+- #### High Roller
+    *Prerequisite: 13th level*
 
-As an action, you can hurl conjured, razorsharp cards in a 30 foot cone. Each target must make a Dexterity saving throw with a saving throw equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, a creature takes 8d10 slashing damage, or half as much on a successful one. Cards created by this ability are solid and convincing, but vanish after 1 hour. You regain the use of this feature after finishing a long rest.
+    When you hit a creature with a weapon attack, but do not score a critical hit, you can try to attempt to turn it into one. Starting with the number shown on the triggering attack roll, choose higher or lower and roll the dice again. If you successfully guess the outcome twice in a row, the original attack becomes a critical hit. You regain the use of this feature after finishing a short rest.
 
-#### Chance Dice
-You have three chance dice, which are d6s. A chance die is expended when you use it. Before making an attack roll, saving throw, or ability check, you can expend any number of these dice to grant either a bonus or penalty to your roll. If the total number on the chance dice rolled is odd, you must subtract that amount from your d20 roll. If it's even, you must add that amount. You regain all of your expended chance dice when you finish a short rest.
+- #### Jinx
+    You learn and can cast the spell *hex* without expending a spell slot or spell components. Once you cast it, you must finish a long rest before you can cast it again.
 
-#### Cheaters Sometimes Prosper
-When you are adjacent to a creature that has no other creatures next to it, you can use a ***reaction*** to make a Charisma (Deception) check contested by the target's Insight. If successful, you gain advantage on all weapon attacks you make against the target before the start of your next turn. If you fail, you have disadvantage instead.
+- #### Lucky Seven
+    *Prerequisite: 17th level*
 
-#### Double or Nothing
-After you hit with a weapon attack, choose odds or evens. If the total number on your damage dice matches your choice you can apply double the damage rolled. However, on an incorrect result your damage is halved (rounded down). You regain the use of this feature after finishing short rest.
+    Your weapon attacks can score a critical hit on a roll of 7 or 20.
 
-#### Even the Odds
-When you or a creature you can see within 60 feet makes an attack roll, ability check, or saving throw you can use your ***reaction*** to influence the outcome. Roll 1d6, and either add or subtract the result from the triggering roll. After doing so, the next time the target makes the same roll before a long rest, it instead does the opposite. You regain the use of this feature after finishing a short rest.
+- #### Risky Roulette
+    *Prerequisite: 13th level*
 
+    When you make an attack roll, you can choose odds or evens. If the attack hits and you guessed the result of the attack roll correctly, the target is stunned until the beginning of your next turn. If you missed and you guessed the result of the attack roll incorrectly, you are incapacitated until the beginning of your next turn. You regain the use of this feature after finishing a short rest.
 
+- #### Shared Luck
+    Whenever you score a critical hit, one friendly creature you can see within 60 feet of you can gain advantage on their next attack roll, skill check or saving throw.
 
-#### High Roller
-*Prerequisite: 13th level*
+- #### Slots
+    *Prerequisite: 9th level*
 
-When you hit a creature with a weapon attack, but do not score a critical hit, you can try to attempt to turn it into one. Starting with the number shown on the triggering attack roll, choose higher or lower and roll the dice again. If you successfully guess the outcome twice in a row, the original attack becomes a critical hit. You regain the use of this feature after finishing a short rest.
+    Whenever you roll sneak attack damage, if 3 or more of the sneak attack dice have the same result, you can deal additional damage equal to that amount. You can only apply this to 1 trio of results per sneak attack.
 
-#### Jinx
-You learn and can cast the spell *hex* without expending a spell slot or spell components. Once you cast it, you must finish a long rest before you can cast it again.
+- #### Spin the Wheel
+    *Prerequisite: 9th level*
 
-#### Lucky Seven
-*Prerequisite: 17th level*
+    After you hit a creature with a weapon attack, as well as rolling damage normally you can choose to roll a d8 and apply the corresponding effect. You regain the use of this feature after finishing a short rest.
 
-Your weapon attacks can score a critical hit on a roll of 7 or 20.
-
-#### Risky Roulette
-*Prerequisite: 13th level*
-
-When you make an attack roll, you can choose odds or evens. If the attack hits and you guessed the result of the attack roll correctly, the target is stunned until the beginning of your next turn. If you missed and you guessed the result of the attack roll incorrectly, you are incapacitated until the beginning of your next turn. You regain the use of this feature after finishing a short rest.
-
-#### Shared Luck
-Whenever you score a critical hit, one friendly creature you can see within 60 feet of you can gain advantage on their next attack roll, skill check or saving throw.
-
-#### Slots
-*Prerequisite: 9th level*
-
-Whenever you roll sneak attack damage, if 3 or more of the sneak attack dice have the same result, you can deal additional damage equal to that amount. You can only apply this to 1 trio of results per sneak attack.
-
-
-
-
-
-
-
-
-#### Spin the Wheel
-*Prerequisite: 9th level*
-
-After you hit a creature with a weapon attack, as well as rolling damage normally you can choose to roll a d8 and apply the corresponding effect. You regain the use of this feature after finishing a short rest.
-
-| d8 | Effect |
-|:-:|:-------------|
-| 1 | You take damage equal to half the damage you dealt to the creature. |
-| 2 | You are slowed until the end of your next turn and cannot take reactions. |
-| 3 | You fall prone. |
-| 4 | No additional effect. |
-| 5 | You gain advantage on your next attack roll against the target.|
-| 6 | You deal extra damage to the target equal to your Charisma modifier. |
-| 7 | You can immediately make another attack against the target with advantage. |
-| 8 | The target is paralyzed until the beginning of your next turn. |
+    | d8 | Effect |
+    |:-:|:-------------|
+    | 1 | You take damage equal to half the damage you dealt to the creature. |
+    | 2 | You are slowed until the end of your next turn and cannot take reactions. |
+    | 3 | You fall prone. |
+    | 4 | No additional effect. |
+    | 5 | You gain advantage on your next attack roll against the target.|
+    | 6 | You deal extra damage to the target equal to your Charisma modifier. |
+    | 7 | You can immediately make another attack against the target with advantage. |
+    | 8 | The target is paralyzed until the beginning of your next turn. |
 
 
+- #### When the Chips Are Down
+    *Prerequisite: 17th level*
 
-#### When the Chips Are Down
-*Prerequisite: 17th level*
+    When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You may also, as a ***reaction***, move up to twice your speed without provoking opportunity attacks. You can’t use this feature again until you finish a long rest.
 
-When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You may also, as a ***reaction***, move up to twice your speed without provoking opportunity attacks. You can’t use this feature again until you finish a long rest.
+
+</div>
 
 
 
 
 
-
-
-
-# <a name="internal-investigator">Investigator</a>
-Whether on the trail of a fugitive, a long-lost treasure trove, or a criminal mastermind, investigators are motivated by an intense curiosity about the world and use knowledge of it as a weapon. Observing the world around them, they gain valuable knowledge about the situation they're in, process that information using inspiration and deduction, and cut to the quick of the matter in unexpected ways. Investigators are always evaluating situations they encounter, sizing up potential foes, and looking out for secret dangers, all while using their vast knowledge and powers of perception to find solutions to the most perplexing problems.
-
-Investigators live to solve mysteries and find inventive ways to get out of jams. They serve as spies, advisors and support for their adventuring parties, but can take center stage when knowledge and cunning are needed.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-investigator">Investigator</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -829,6 +812,13 @@ Investigators live to solve mysteries and find inventive ways to get out of jams
 | 9th | Knowledge is power (3), Steady Eye |
 | 13th | Impregnable Mind, Knowledge is power (4) |
 | 17th | Knowledge is power (5), Sixth Sense |
+
+</div>
+
+Whether on the trail of a fugitive, a long-lost treasure trove, or a criminal mastermind, investigators are motivated by an intense curiosity about the world and use knowledge of it as a weapon. Observing the world around them, they gain valuable knowledge about the situation they're in, process that information using inspiration and deduction, and cut to the quick of the matter in unexpected ways. Investigators are always evaluating situations they encounter, sizing up potential foes, and looking out for secret dangers, all while using their vast knowledge and powers of perception to find solutions to the most perplexing problems.
+
+Investigators live to solve mysteries and find inventive ways to get out of jams. They serve as spies, advisors and support for their adventuring parties, but can take center stage when knowledge and cunning are needed.
+
 
 ### Bonus Proficiencies
 Beginning when you select this archetype at 1st level, you gain proficiency with Insight and Investigation.
@@ -859,96 +849,89 @@ Additionally, no matter what you say, magic that would determine if you are tell
 When you reach 17th level, you have become adept at laying and avoiding ambushes. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.
 
 ## Masteries
-#### A Quiet Word
-You become proficient at knowing how to spread a rumor, and create a reputation. Within a 24-hour period you can prepare for a single Charisma skill check by spreading the word and creating a reputation.
 
-#### Applied Engineering
-You become proficient with engineering, and can leverage this knowledge to solve tasks that normally require brute strength or keen eyes. You can study an object or area for a minute and then use the result of an Investigation (Strength) check in place of a normal Strength check. you can also add twice your proficiency bonus when attempting to locate hidden doors or compartments in that area.
+<div class="columnstwo">
 
-#### Arcanist
-*Prerequisite: 9th level*
+- #### A Quiet Word
+    You become proficient at knowing how to spread a rumor, and create a reputation. Within a 24-hour period you can prepare for a single Charisma skill check by spreading the word and creating a reputation.
 
-You can cast spells from scrolls, even if you do not have them on a known spell list, or even if you cannot cast spells at all. To cast the spell, you must succeed at an Intelligence (Arcana) check. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect.
+- #### Applied Engineering
+    You become proficient with engineering, and can leverage this knowledge to solve tasks that normally require brute strength or keen eyes. You can study an object or area for a minute and then use the result of an Investigation (Strength) check in place of a normal Strength check. you can also add twice your proficiency bonus when attempting to locate hidden doors or compartments in that area.
 
+- #### Arcanist
+    *Prerequisite: 9th level*
 
+    You can cast spells from scrolls, even if you do not have them on a known spell list, or even if you cannot cast spells at all. To cast the spell, you must succeed at an Intelligence (Arcana) check. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect.
 
+- #### Broad knowledge
+    You gain proficiency in one artisan's tool of your choice. You also can choose to gain proficiency in one of the following skills: Arcana, History, Nature, Medicine orReligion.
 
+- #### Ceaseless Observation
+    Your ability to notice the minutiae of almost everything that happens around you allows you to make shrewd and insightful calculations about people. You can use your Intelligence modifier instead of the skill's typical ability for all Insight, Medicine and Persuasion checks.
 
+- #### Deduction
+    By spending an ***action*** in thoughtful examination, you can deduce a frightening amount of information about your opponents. With a successful Intelligence check you expose the failings of your enemies with terrifying clarity. For each creature in sight, for which its CR is below the result of your Intelligence check, you learn their immunities, weaknesses and resistances.
 
+- #### Dismantle
+    *Prerequisite: Applied engineering ability*
 
+    Your engineering skills have grown to the point that you are able to determine even how constructs were likely assembled, how they function and will behave in combat. You may add your Intelligence modifier to any damage dealt to constructs.
 
-#### Broad knowledge
-You gain proficiency in one artisan's tool of your choice. You also can choose to gain proficiency in one of the following skills: Arcana, History, Nature, Medicine orReligion.
+- #### Ear for Deceit
+    You develop a talent for picking out lies. Whenever you make a Insight check to determine whether a creature is lying, treat a roll of 7 or lower on the d20 as an 8.
 
-#### Ceaseless Observation
-Your ability to notice the minutiae of almost everything that happens around you allows you to make shrewd and insightful calculations about people. You can use your Intelligence modifier instead of the skill's typical ability for all Insight, Medicine and Persuasion checks.
+- #### Eye for Detail
+    You can use a ***bonus action*** to make a Perception check to spot a hidden creature or object or to make an Investigation check to uncover or decipher clues.
 
-#### Deduction
-By spending an ***action*** in thoughtful examination, you can deduce a frightening amount of information about your opponents. With a successful Intelligence check you expose the failings of your enemies with terrifying clarity. For each creature in sight, for which its CR is below the result of your Intelligence check, you learn their immunities, weaknesses and resistances.
+- #### Improvised combat
+    You can always figure out the best way to hurt someone with any object. You gain proficiency with improvised weapons and you can choose to add your Intelligence modifier instead of Strength or Dexterity when dealing damage with such a weapon.
 
-#### Dismantle
-*Prerequisite: Applied engineering ability*
+- #### Insightful Manipulator
+    If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. You learn if the creature is your equal, superior, or inferior in regard to the following:
 
-Your engineering skills have grown to the point that you are able to determine even how constructs were likely assembled, how they function and will behave in combat. You may add your Intelligence modifier to any damage dealt to constructs.
+    Intelligence score <b>or</b>
+    Wisdom score <b>or</b>
+    Charisma score <b>or</b>
+    Class levels (if any).
 
-#### Ear for Deceit
-You develop a talent for picking out lies. Whenever you make a Insight check to determine whether a creature is lying, treat a roll of 7 or lower on the d20 as an 8.
+    At the DM’s option, you might also realize you know a piece of the creature’s history or one of its personality traits, if it has any.
 
-#### Eye for Detail
-You can use a ***bonus action*** to make a Perception check to spot a hidden creature or object or to make an Investigation check to uncover or decipher clues.
+- #### Item Lore
+    You gain proficiency in Arcana. You can use the Arcana skill to identify the properties and command words of magic items by investigating it for 1 minute.
 
-#### Improvised combat
-You can always figure out the best way to hurt someone with any object. You gain proficiency with improvised weapons and you can choose to add your Intelligence modifier instead of Strength or Dexterity when dealing damage with such a weapon.
+- #### Master Disguiser
+    You gain proficiency with disguise. Unless completely stripped bare, you always have enough materials available to make a credible disguise.
 
-#### Insightful Manipulator
-If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. You learn if the creature is your equal, superior, or inferior in regard to the following:
+- #### Perceptive Tracking
+    You can use the Investigate skill when tracking someone. If you are proficient in both Investigation and tracking, your proficiency bonus is doubled for such checks.
 
-- Intelligence score
-- Wisdom score
-- Charisma score
-- Class levels (if any)
+- #### Savvy Mystic
+    *Prerequisite: Arcana skill*
 
-At the DM’s option, you might also realize you know a piece of the creature’s history or one of its personality traits, if it has any.
+    While you may never be a powerful spellcaster in your own right, you have studied it in theory and your understanding of the processes that go into magic is of a level even some wizards will never obtain. You understand precisely the amount of effort and concentration that goes into casting or maintaining spells. Whenever you cause a target to make a concentration check, it has disadvantage on that check.
 
+- #### Tactful Senses
+    If you spend more than a minute with anyone, you can tell if they are under the influence of an Enchantment effect. A successful Insight check will tell you the exact effect. The DC is equal to 10 + spell level.
 
+- #### Unerring Eye
+    Your senses are almost impossible to foil. By investigating a creature or area for 1 minute, you can deduce the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet of you, provided you aren’t blinded or deafened. You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.
 
-#### Item Lore
-You gain proficiency in Arcana. You can use the Arcana skill to identify the properties and command words of magic items by investigating it for 1 minute.
+- #### Unfailing Logic
+    Your grasp of facts and data teaches you to anchor yourself in reality, granting resistance to even the most potent illusions. You gain advantage on saving throws against illusion spells and effects.
 
-#### Master Disguiser
-You gain proficiency with disguise. Unless completely stripped bare, you always have enough materials available to make a credible disguise.
+- #### Without a Trace
+    You are able to study a location to efficiently conceal, remove or change evidence from that location. Studying a location takes 1 minute for each 10-foot square. Once you have studied an area, you can attempt a Dexterity (Investigation) check to alter or conceal evidence (by doing things such as cleaning up bloodstains, obscuring footprints, moving a dead body, and so on). Altering an area takes 1d3 x 10 minutes of work per 10-foot square. Anyone attempting to determine what actually happened in that area must succeed at an opposed check against the result of your Investigation check or accept the altered scene as truth.
 
-#### Perceptive Tracking
-You can use the Investigate skill when tracking someone. If you are proficient in both Investigation and tracking, your proficiency bonus is doubled for such checks.
-
-#### Savvy Mystic
-*Prerequisite: Arcana skill*
-
-While you may never be a powerful spellcaster in your own right, you have studied it in theory and your understanding of the processes that go into magic is of a level even some wizards will never obtain. You understand precisely the amount of effort and concentration that goes into casting or maintaining spells. Whenever you cause a target to make a concentration check, it has disadvantage on that check.
-
-#### Tactful Senses
-If you spend more than a minute with anyone, you can tell if they are under the influence of an Enchantment effect. A successful Insight check will tell you the exact effect. The DC is equal to 10 + spell level.
-
-#### Unerring Eye
-Your senses are almost impossible to foil. By investigating a creature or area for 1 minute, you can deduce the presence of illusions, shapechangers not in their original form, and other magic designed to deceive the senses within 30 feet of you, provided you aren’t blinded or deafened. You sense that an effect is attempting to trick you, but you gain no insight into what is hidden or into its true nature.
-
-#### Unfailing Logic
-Your grasp of facts and data teaches you to anchor yourself in reality, granting resistance to even the most potent illusions. You gain advantage on saving throws against illusion spells and effects.
-
-#### Without a Trace
-You are able to study a location to efficiently conceal, remove or change evidence from that location. Studying a location takes 1 minute for each 10-foot square. Once you have studied an area, you can attempt a Dexterity (Investigation) check to alter or conceal evidence (by doing things such as cleaning up bloodstains, obscuring footprints, moving a dead body, and so on). Altering an area takes 1d3 x 10 minutes of work per 10-foot square. Anyone attempting to determine what actually happened in that area must succeed at an opposed check against the result of your Investigation check or accept the altered scene as truth.
+</div>
 
 
 
 
 
 
-
-
-# <a name="internal-jester">Jester</a>
-Comedy is an art form that some few study with an almost religious zeal, honing their words and their blades with endless practice and performance. Some that style themselves as jesters are simple entertainers with an adventurous bent, while others are genuine devotees of trickster deities such as Garl Glittergold, Avandra, or the Laughing God Who Has No Temples, and consider their jesting a holy calling of sorts.
-
-Regardless, a jester is a student of life, emotion, and culture, and appreciates both the highs and lows afforded to mortals by the conditions in which they live. A jester observes and comments, always knowing the right word or phrase to get a laugh, a tear, a bellow of murderous rage, or to simply swing the opinions of others their way.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-jester">Jester</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -958,6 +941,13 @@ Regardless, a jester is a student of life, emotion, and culture, and appreciates
 | 9th | Cruel Comedy |
 | 13th | Jesting Magician |
 | 17th | Last Trick |
+
+</div>
+
+Comedy is an art form that some few study with an almost religious zeal, honing their words and their blades with endless practice and performance. Some that style themselves as jesters are simple entertainers with an adventurous bent, while others are genuine devotees of trickster deities such as Garl Glittergold, Avandra, or the Laughing God Who Has No Temples, and consider their jesting a holy calling of sorts.
+
+Regardless, a jester is a student of life, emotion, and culture, and appreciates both the highs and lows afforded to mortals by the conditions in which they live. A jester observes and comments, always knowing the right word or phrase to get a laugh, a tear, a bellow of murderous rage, or to simply swing the opinions of others their way.
+
 
 ### Bonus Proficiencies
 Beginning when you select this archetype at 1st level, you gain proficiency with acrobatics, disguise and performance.
