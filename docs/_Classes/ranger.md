@@ -5,19 +5,19 @@ layout: default
 
 <div class="toc" markdown="1">
 
-- #### [Ranger Conclaves](#internal-conclaves)
-  - <a href="#internal-beastMaster">Beast Conclave</a>
-  - <a href="#internal-burghalExplorer">Burghal Explorer</a>
-  - <a href="#internal-diabolist">Diabolist</a>
-  - <a href="#internal-feyHunter">Fey Hunter</a>
-  - <a href="#internal-freerunner">Freerunner</a>
-  - <a href="#internal-gloomStalker">Gloomstalker</a>
-  - <a href="#internal-herbalist">Herbalist Conclave</a>
-  - <a href="#internal-horizonWalker">Horizon Walker</a>
-  - <a href="#internal-hunter">Hunter Conclave</a>
-  - <a href="#internal-monsterSlayer">Monster Slayer</a>
-  - <a href="#internal-nightstalker">Nightstalker</a>
-  - <a href="#internal-stalker">Stalker</a>
+#### [Ranger Conclaves](#internal-conclaves)
+<a href="#internal-beastMaster">Beast Conclave</a><br/>
+<a href="#internal-burghalExplorer">Burghal Explorer</a><br/>
+<a href="#internal-diabolist">Diabolist</a><br/>
+<a href="#internal-feyHunter">Fey Hunter</a><br/>
+<a href="#internal-freerunner">Freerunner</a><br/>
+<a href="#internal-gloomStalker">Gloomstalker</a><br/>
+<a href="#internal-herbalist">Herbalist Conclave</a><br/>
+<a href="#internal-horizonWalker">Horizon Walker</a><br/>
+<a href="#internal-hunter">Hunter Conclave</a><br/>
+<a href="#internal-monsterSlayer">Monster Slayer</a><br/>
+<a href="#internal-nightstalker">Nightstalker</a><br/>
+<a href="#internal-stalker">Stalker</a>
 
 </div>
 
