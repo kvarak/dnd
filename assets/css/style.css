@@ -398,14 +398,6 @@ hr.classdivider {
 
 /* --------------------------------------------------------------------------- */
 
-/* Spell heading */
-.spell {
-  text-align:center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background:#b5e2f1;
-}
-
 /* Feat block */
 .feat {
   background-color: #E5E8E8;
@@ -474,10 +466,24 @@ hr.classdivider {
   border-image: url(../images/descriptiveBorder.png) 12 stretch;
   border-image-outset: 4px;
   padding: 2px;
-  max-width: 33%;
   margin-left: 75px;
   margin-bottom: 5px;
 }
+
+/* Spell heading */
+.spell {
+  border-style: solid;
+  border-width: 7px;
+  background-color: #b5e2f1 !important;
+  border-image: url(../images/descriptiveBorder.png) 12 stretch;
+  border-image-outset: 4px;
+  max-width: 33%;
+  padding: 2px;
+  margin-left: 75px;
+  margin-bottom: 5px;
+}
+
+
 
 /* -------------------------------------------------------------------------- */
 

@@ -633,7 +633,7 @@ Whenever a saving throw is required, the DC is 8 + the user's Constitution modif
 
 When the Snack die is mentioned, it is equal to 1d6 + your Wisdom modifier. This increases to 2d6 at 6th level and increases again to 3d6 at 13th level.
 
-<div class="columns">
+<div class="columnstwo">
 
 - **Arcane Delights**. You can fold a spell into any form of baked goods, from pies, to cakes, to biscuits. When creating this sweet snack, you can expend a spell slot to fold a spell into one item of pastry. When the pastry is consumed, the spell is released, targeting the creature that activated it. If the spell requires concentration, the target can maintain concentration. If it doesn't, the spell ends at the start of the creature's next turn.
 
