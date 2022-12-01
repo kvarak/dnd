@@ -1008,7 +1008,7 @@ For the most part, the wee folk caution their young against interactions with mo
 
 Prestige is everything to a pixie: their short seasons and long years are an endless game of acquisitions and losses played among their tribe, or troop. They are taught to defend territory with ferocity, when a tactical retreat will serve them best, and how to exact revenge upon those who wronged them. Throughout this education, a strong sense of fair play is stressed, and cunning and creativity are considered virtues.
 
-<div class="infotext" markdown="1">
+<div class="infoarea" markdown="1">
 
 #### Roleplaying a Sidhe
 * A clever alliance can overcome any obstacle.
