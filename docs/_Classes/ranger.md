@@ -6,18 +6,18 @@ layout: default
 <div class="toc" markdown="1">
 
 - #### [Ranger Conclaves](#p5)
-  - <a href="#beastMaster">Beast Conclave</a>
-  - <a href="#burghalExplorer">Burghal Explorer</a>
-  - <a href="#diabolist">Diabolist</a>
-  - <a href="#feyHunter">Fey Hunter</a>
-  - <a href="#freerunner">Freerunner</a>
-  - <a href="#gloomStalker">Gloomstalker</a>
-  - <a href="#herbalist">Herbalist Conclave</a>
-  - <a href="#horizonWalker">Horizon Walker</a>
-  - <a href="#hunter">Hunter Conclave</a>
-  - <a href="#monsterSlayer">Monster Slayer</a>
-  - <a href="#nightstalker">Nightstalker</a>
-  - <a href="#stalker">Stalker</a>
+  - <a href="#internal-beastMaster">Beast Conclave</a>
+  - <a href="#internal-burghalExplorer">Burghal Explorer</a>
+  - <a href="#internal-diabolist">Diabolist</a>
+  - <a href="#internal-feyHunter">Fey Hunter</a>
+  - <a href="#internal-freerunner">Freerunner</a>
+  - <a href="#internal-gloomStalker">Gloomstalker</a>
+  - <a href="#internal-herbalist">Herbalist Conclave</a>
+  - <a href="#internal-horizonWalker">Horizon Walker</a>
+  - <a href="#internal-hunter">Hunter Conclave</a>
+  - <a href="#internal-monsterSlayer">Monster Slayer</a>
+  - <a href="#internal-nightstalker">Nightstalker</a>
+  - <a href="#internal-stalker">Stalker</a>
 
 </div>
 
@@ -47,6 +47,36 @@ Why did you choose the path of a ranger. In the following table are some suggest
 
 
 ## Ranger Class Features
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Ranger
+
+| -Level- | -PB- | -Features- | -Spells- | 1st |2nd |3rd |4th |5th |
+|:-----:|:-----------:|:---------|:------:|:---:|:--:|:--:|:--:|:--:|
+| 1st | +2 | Natural Explorer,<br/>Sworn Enemy | — | — | — | — | — | — |
+| 2nd | +2 | Fighting Style, Spellcasting | 2 | 2 | — | — | — | — |
+| 3rd | +2 | Primeval Awareness,<br/>Ranger Conclave | 3 | 3 | — | — | — | — |
+| 4th | +2 | Ability Score Improvement | 3 | 3 | — | — | — | — |
+| 5th | +3 | Ranger Conclave feature | 4 | 4 | 2 | — | — | — |
+| 6th | +3 | Greater Sworn Enemy | 4 | 4 | 2 | — | — | — |
+| 7th | +3 | Ranger Conclave feature | 5 | 4 | 3 | — | — | — |
+| 8th | +3 | Ability Score Improvement,<br/>Relentless | 5 | 4 | 3 | — | — | — |
+| 9th | +4 | ─ | 6 | 4 | 3 | 2 | — | — |
+| 10th | +4 | Hide in Plain Sight | 6 | 4 | 3 | 2 | — | — |
+| 11th | +4 | Ranger Conclave feature | 7 | 4 | 3 | 3 | — | — |
+| 12th | +4 | Ability Score Improvement | 7 | 4 | 3 | 3 | — | — |
+| 13th | +5 | ─ | 8 | 4 | 3 | 3 | 1 | — |
+| 14th | +5 | Low Profile | 8 | 4 | 3 | 3 | 1 | — |
+| 15th | +5 | Ranger Conclave feature | 9 | 4 | 3 | 3 | 2 | — |
+| 16th | +5 | Ability Score Improvement | 9 | 4 | 3 | 3 | 2 | — |
+| 17th | +6 | ─ | 10 | 4 | 3 | 3 | 3 | 1 |
+| 18th | +6 | Evolutionary Balance | 10 | 4 | 3 | 3 | 3 | 1 |
+| 19th | +6 | Ability Score Improvement | 11 | 4 | 3 | 3 | 3 | 2 |
+| 20th | +6 | Apex Predator | 11 | 4 | 3 | 3 | 3 | 2 |
+
+</div>
+
 As a ranger, you gain the following class features.
 
 #### Hit Points
@@ -69,136 +99,102 @@ You start with the following equipment, in addition to the equipment granted by 
 * A longbow and a quiver of 20 arrows
 
 
-
-
-
-
-
-
 ### Natural Explorer
 You are particularly familiar with the natural world, adept at traveling and surviving out in the wilds. At 2nd level, choose three of the following traits. You may choose two additional traits at 6th and 10th level.
 
-#### Expert Tracker
-While tracking other creatures, you also learn their exact number, their sizes, and roughly how long ago it was that they passed through the area.
+<div class="columnstwo">
 
-#### Forest Friend
-You gain the trust of a tiny animal friend. You both share a basic understanding, though the animal is still subject to its natural instincts. Your animal must be a tiny CR 0 beast, and (when relevant) it shares your pool of actions.
+- #### Expert Tracker
+    While tracking other creatures, you also learn their exact number, their sizes, and roughly how long ago it was that they passed through the area.
 
-If your animal friend is reduced to 0 hit points, you can spend one hit die or suffer a level of exhaustion to reduce it to 1 hit point instead. If your animal friend leaves or dies, you can spend time during a long rest to try bonding with another creature from the surrounding environment.
+- #### Forest Friend
+    You gain the trust of a tiny animal friend. You both share a basic understanding, though the animal is still subject to its natural instincts. Your animal must be a tiny CR 0 beast, and (when relevant) it shares your pool of actions.
 
-Unless abused, this friend will have some degree of DM protection.
+    If your animal friend is reduced to 0 hit points, you can spend one hit die or suffer a level of exhaustion to reduce it to 1 hit point instead. If your animal friend leaves or dies, you can spend time during a long rest to try bonding with another creature from the surrounding environment.
 
- **Many Friends**: You may take this trait multiple times, gaining an additional animal friend each time.
+    Unless abused, this friend will have some degree of DM protection.
 
-#### In the Corner of My Eye
-Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
+    **Many Friends**: You may take this trait multiple times, gaining an additional animal friend each time.
 
-
-
-#### Light in the Dark
-You know how to make your lighting supplies last a little longer in the dark. You may roll with advantage when crafting (or enhancing) simple candles or torches, and these crafted lights burn for twice as long as normal.
-
-#### Light Sleeper
-While asleep, you are still half-aware of what's happening around you. You may still roll Perception checks while sleeping, but with disadvantage.
-
-#### Make a Meal out of Everything
-You may roll with advantage when attempting to cook a simple meal with basic or improvised ingredients.
-
-#### Natural Sense of Direction
-When travelling outside, you may make navigation checks as if you had a map and compass.
-
-#### Shortcut to Mushrooms
-When you forage, you find twice as much food or water as you normally would.
-
-#### There is Always Another Path
-Difficult terrain doesn’t slow your group's travel during long journeys.
-
-#### Walk Softly and Carry a Big Bow
-If you are traveling alone, you can move stealthily at a normal pace.
-
-{{}}">classTable,frame,decoration,wide,position:absolute;top:590px;width:90%;right:40px;
-##### The Ranger
-| Level | Proficiency | Features | Spells | --- Spell Slots Per Spell Level ---|||||
-|      ^| Bonus      ^|         ^| Known ^| 1st |2nd |3rd |4th |5th |
-|:-----:|:-----------:|:---------|:------:|:---:|:--:|:--:|:--:|:--:|
-| 1st | +2 | Natural Explorer, Sworn Enemy | — | — | — | — | — | — |
-| 2nd | +2 | Fighting Style, Spellcasting | 2 | 2 | — | — | — | — |
-| 3rd | +2 | Primeval Awareness, Ranger Conclave | 3 | 3 | — | — | — | — |
-| 4th | +2 | Ability Score Improvement | 3 | 3 | — | — | — | — |
-| 5th | +3 | Ranger Conclave feature | 4 | 4 | 2 | — | — | — |
-| 6th | +3 | Greater Sworn Enemy | 4 | 4 | 2 | — | — | — |
-| 7th | +3 | Ranger Conclave feature | 5 | 4 | 3 | — | — | — |
-| 8th | +3 | Ability Score Improvement, Relentless | 5 | 4 | 3 | — | — | — |
-| 9th | +4 | ─ | 6 | 4 | 3 | 2 | — | — |
-| 10th | +4 | Hide in Plain Sight | 6 | 4 | 3 | 2 | — | — |
-| 11th | +4 | Ranger Conclave feature | 7 | 4 | 3 | 3 | — | — |
-| 12th | +4 | Ability Score Improvement | 7 | 4 | 3 | 3 | — | — |
-| 13th | +5 | ─ | 8 | 4 | 3 | 3 | 1 | — |
-| 14th | +5 | Low Profile | 8 | 4 | 3 | 3 | 1 | — |
-| 15th | +5 | Ranger Conclave feature | 9 | 4 | 3 | 3 | 2 | — |
-| 16th | +5 | Ability Score Improvement | 9 | 4 | 3 | 3 | 2 | — |
-| 17th | +6 | ─ | 10 | 4 | 3 | 3 | 3 | 1 |
-| 18th | +6 | Evolutionary Balance | 10 | 4 | 3 | 3 | 3 | 1 |
-| 19th | +6 | Ability Score Improvement | 11 | 4 | 3 | 3 | 3 | 2 |
-| 20th | +6 | Apex Predator | 11 | 4 | 3 | 3 | 3 | 2 |
+- #### In the Corner of My Eye
+    Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
 
 
+- #### Light in the Dark
+    You know how to make your lighting supplies last a little longer in the dark. You may roll with advantage when crafting (or enhancing) simple candles or torches, and these crafted lights burn for twice as long as normal.
 
+- #### Light Sleeper
+    While asleep, you are still half-aware of what's happening around you. You may still roll Perception checks while sleeping, but with disadvantage.
 
+- #### Make a Meal out of Everything
+    You may roll with advantage when attempting to cook a simple meal with basic or improvised ingredients.
 
+- #### Natural Sense of Direction
+    When travelling outside, you may make navigation checks as if you had a map and compass.
 
+- #### Shortcut to Mushrooms
+    When you forage, you find twice as much food or water as you normally would.
 
+- #### There is Always Another Path
+    Difficult terrain doesn’t slow your group's travel during long journeys.
+
+- #### Walk Softly and Carry a Big Bow
+    If you are traveling alone, you can move stealthily at a normal pace.
+
+</div>
 
 
 ### Sworn Enemy
 At 1st level, you swear an oath to protect the world against a particular type of enemy. Choose one of the following options.
 
-#### Favored Archetype
-Choose one of the following enemy archetypes: warrior, mage, mindless, minion, brute, primordial, trickster, flyer, stalker, fiend, or legend. You have advantage on Wisdom (Perception or Survival) checks to track enemies of that archetype, and you deal an additional 1 damage when you hit them with a weapon attack.
+<div class="columnstwo">
 
- **Brute**. The enemy has a Strength score of 17 or higher or is of size Large or larger.
+- #### Favored Archetype
+    Choose one of the following enemy archetypes: warrior, mage, mindless, minion, brute, primordial, trickster, flyer, stalker, fiend, or legend. You have advantage on Wisdom (Perception or Survival) checks to track enemies of that archetype, and you deal an additional 1 damage when you hit them with a weapon attack.
 
- **Fiend**. The enemy is a fiend, or it serves, worships, or draws power from a fiend.
+    **Brute**. The enemy has a Strength score of 17 or higher or is of size Large or larger.
 
- **Flyer**. The enemy has a flying speed.
+    **Fiend**. The enemy is a fiend, or it serves, worships, or draws power from a fiend.
 
- **Legend**. The enemy is CR 15 or higher, has the Legendary Resistance feature, or has legendary actions.
+    **Flyer**. The enemy has a flying speed.
 
- **Mage**. The enemy has the Spellcasting feature or wields a magic item that isn't armour or a weapon.
+    **Legend**. The enemy is CR 15 or higher, has the Legendary Resistance feature, or has legendary actions.
 
- **Mindless**. The enemy has an Intelligence score of 2 or lower, or it is enchanted to act against its will.
+    **Mage**. The enemy has the Spellcasting feature or wields a magic item that isn't armour or a weapon.
 
- **Minion**. The enemy is of CR 1/2 or lower, or it has less than 20 hit points maximum.
+    **Mindless**. The enemy has an Intelligence score of 2 or lower, or it is enchanted to act against its will.
 
- **Stalker**. The enemy has proficiency in Stealth or has the False Appearance trait.
+    **Minion**. The enemy is of CR 1/2 or lower, or it has less than 20 hit points maximum.
 
- **Warrior**. The enemy wields a martial weapon or uses a shield.
+    **Stalker**. The enemy has proficiency in Stealth or has the False Appearance trait.
 
-This option improves at 6th level.
+    **Warrior**. The enemy wields a martial weapon or uses a shield.
 
-#### Favored Enemy
-You have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.
+    This option improves at 6th level.
 
-Choose a type of favored enemy: beasts, fey, humanoids, monstrosities or undead. You gain a +2 bonus to damage with weapon attacks against creatures of the chosen type.
+- #### Favored Enemy
+    You have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.
 
-Additionally, you have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
+    Choose a type of favored enemy: beasts, fey, humanoids, monstrosities or undead. You gain a +2 bonus to damage with weapon attacks against creatures of the chosen type.
 
-When you gain this feature, you also learn one language of your choice, typically one spoken by your favored enemy or creatures associated with it. However, you are free to pick any language you wish to learn.
+    Additionally, you have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
 
-This option improves at 3rd and 6th level.
+    When you gain this feature, you also learn one language of your choice, typically one spoken by your favored enemy or creatures associated with it. However, you are free to pick any language you wish to learn.
 
+    This option improves at 3rd and 6th level.
 
+- #### Favored Foe
+    You can mark one creature as your favored enemy for a time: you can cast the *hunter’s mark* spell without expending a spell slot and without requiring concentration a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
-#### Favored Foe
-You can mark one creature as your favored enemy for a time: you can cast the *hunter’s mark* spell without expending a spell slot and without requiring concentration a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
+    When you gain the Spellcasting feature at 2nd level, *hunter’s mark* doesn’t count against the number of ranger spells you know.
 
-When you gain the Spellcasting feature at 2nd level, *hunter’s mark* doesn’t count against the number of ranger spells you know.
+- #### Honed Instinct
+    Your keen senses allow you to take advantage of the chaos that ensues when a fight breaks out. You are proficient with initiative and have advantage on initiative checks. On your first round during combat, you have advantage on attack and damage rolls against creatures that have not yet acted.
 
-#### Honed Instinct
-Your keen senses allow you to take advantage of the chaos that ensues when a fight breaks out. You are proficient with initiative and have advantage on initiative checks. On your first round during combat, you have advantage on attack and damage rolls against creatures that have not yet acted.
+</div>
 
 ### Fighting Style
-At 2nd level, you adopt a style of fighting as your specialty. Choose one of the options from the fighter list of fighting styles. You can’t take a fighting style option more than once, even if you later get to choose again.
+At 2nd level, you adopt a style of fighting as your specialty. Choose one of the options from the <a href="fighter.html#internal-FightingStyles">fighter list of fighting styles</a>. You can’t take a fighting style option more than once, even if you later get to choose again.
 
 Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
 
@@ -212,12 +208,6 @@ The Ranger table shows how many spell slots you have to cast your spells of 1st 
 You know two 1st-level spells of your choice from the ranger spell list. The Spells Known column of the Ranger table shows when you learn more ranger spells. Each of these spells must be of a level for which you have spell slots.
 
 Additionally, when you gain a level in this class, you can choose one of the spells you know and replace it with another spell from your spell list, which also must be of a level for which you have spell slots.
-
-
-
-
-
-
 
 
 #### Spellcasting Ability
@@ -373,41 +363,41 @@ The following class specific additions are made to the general rest rules.
 # Ranger Conclaves
 Across the wilds, rangers come together to form conclaves - loose associations whose members share a similar outlook on how best to protect  nature from those who would despoil it.
 
- **<a href="#beastMaster">Beast Conclave</a>** - The Beast Master  has committed himself to working in partnership with an animal as his companion and friend.
+ **<a href="#internal-beastMaster">Beast Conclave</a>** - The Beast Master  has committed himself to working in partnership with an animal as his companion and friend.
 
- **<a href="#burghalExplorer">Burghal Explorer</a>** - Burghal Explorers are at home in tight places, like dangerous ruins, dark slums and ruined cities.
+ **<a href="#internal-burghalExplorer">Burghal Explorer</a>** - Burghal Explorers are at home in tight places, like dangerous ruins, dark slums and ruined cities.
 
- **<a href="#diabolist">Diabolist</a>** - Diabolist rangers roam the land, searching for tales of shades that hunt for the living, banshees that haunt the woods, or even helping ghosts that are not aware that they have passed in the first place.
+ **<a href="#internal-diabolist">Diabolist</a>** - Diabolist rangers roam the land, searching for tales of shades that hunt for the living, banshees that haunt the woods, or even helping ghosts that are not aware that they have passed in the first place.
 
- **<a href="#feyHunter">Fey Hunter</a>** - A fey hunter specializes in eliminating menaces from the Fey Realms and resisting the many charms and deceptions of the fey.
+ **<a href="#internal-feyHunter">Fey Hunter</a>** - A fey hunter specializes in eliminating menaces from the Fey Realms and resisting the many charms and deceptions of the fey.
 
- **<a href="#freerunner">Freerunner</a>** - A freerunner is supremely nimble and capable of crossing terrain as quickly as possible through a skilled combination of dashing, leaping, and nimbly climbing.
+ **<a href="#internal-freerunner">Freerunner</a>** - A freerunner is supremely nimble and capable of crossing terrain as quickly as possible through a skilled combination of dashing, leaping, and nimbly climbing.
 
- **<a href="#gloomStalker">Gloomstalker</a>** - Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims.
-
-
+ **<a href="#internal-gloomStalker">Gloomstalker</a>** - Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims.
 
 
- **<a href="#herbalist">Herbalist Conclave</a>** - Herbalists have learned to extract the magical properties of plants and nature in order to create potent mixtures that can aid allies and hinder foes.
-
- **<a href="#horizonWalker">Horizon Walker</a>** - Rangers of the Horizon Conclave guard the world against threats that originate from other planes.
-
- **<a href="#hunter">Hunter Conclave</a>** - A Hunter has accepted his place as a bulwark between civilization and the terrors of the wilderness.
-
- **<a href="#monsterSlayer">Monster Slayer</a>** - You have dedicated yourself to hunting down creatures of the night and wielders of grim magic.
-
- **<a href="#nightstalker">Nightstalker</a>** - The Nightstalker emulates a unique form of shadow magic, used to create shadowy familiars to accompany him in battle.
-
- **<a href="#stalker">Stalker</a>** - Stalkers serve as investigators, spies, informants, interrogators, and vigilantes. Unlike other rangers, they are just as at home in a crowded metropolis as in a wilderness setting.
 
 
+ **<a href="#internal-herbalist">Herbalist Conclave</a>** - Herbalists have learned to extract the magical properties of plants and nature in order to create potent mixtures that can aid allies and hinder foes.
+
+ **<a href="#internal-horizonWalker">Horizon Walker</a>** - Rangers of the Horizon Conclave guard the world against threats that originate from other planes.
+
+ **<a href="#internal-hunter">Hunter Conclave</a>** - A Hunter has accepted his place as a bulwark between civilization and the terrors of the wilderness.
+
+ **<a href="#internal-monsterSlayer">Monster Slayer</a>** - You have dedicated yourself to hunting down creatures of the night and wielders of grim magic.
+
+ **<a href="#internal-nightstalker">Nightstalker</a>** - The Nightstalker emulates a unique form of shadow magic, used to create shadowy familiars to accompany him in battle.
+
+ **<a href="#internal-stalker">Stalker</a>** - Stalkers serve as investigators, spies, informants, interrogators, and vigilantes. Unlike other rangers, they are just as at home in a crowded metropolis as in a wilderness setting.
 
 
 
 
 
 
-# <a name="beastMaster">Beast Conclave</a>
+
+
+# <a name="internal-beastMaster">Beast Conclave</a>
 Many rangers are more at home in the wilds than in civilization, to the point where animals consider them kin. Rangers of the Beast Conclave develop a close bond with a beast, then further strengthen that bond through the use of magic.
 
 
@@ -508,7 +498,7 @@ At 15th level, whenever an attacker that your companion can see hits it with an 
 
 
 
-# <a name="burghalExplorer">Burghal Explorer</a>
+# <a name="internal-burghalExplorer">Burghal Explorer</a>
 
 *"Ranging doesn’t just happen in the wilderness. It happens in ancient ruins, dank caves, and crowded cities. The towers are my mountains, the allies are my forest, and the criminal scum is my quarry."*
 
@@ -573,7 +563,7 @@ At 15th level, you always gain the benefits of half cover whenever two or more c
 
 
 
-# <a name="diabolist">Diabolist</a>
+# <a name="internal-diabolist">Diabolist</a>
 Diabolist rangers roam the land, searching for tales of shades that hunt for the living, banshees that haunt the woods, or even helping ghosts that are not aware that they have passed in the first place. They believe that the ethereal creatures that we may become should be helped to pass on to a proper plane of existence, or at the very least stopped from harming others.
 
 
@@ -649,7 +639,7 @@ The following conclave specific additions are made to the general rest rules.
 
 
 
-# <a name="feyHunter">Fey Hunter</a>
+# <a name="internal-feyHunter">Fey Hunter</a>
 A fey hunter specializes in eliminating menaces from the Fey Realms and resisting the many charms and deceptions of the fey. Though fey hunters need not slay every fey they meet, alliances between the fair folk and their hunters are fleeting and uneasy.
 
 
@@ -703,7 +693,7 @@ At 15th level, your attacks and spells against fey creatures ignore any resistan
 
 
 
-# <a name="freerunner">Freerunner</a>
+# <a name="internal-freerunner">Freerunner</a>
 Agile, evasive, and unmoored from the constraints that slow down other rangers, the archetypal freerunner is supremely nimble and capable of crossing terrain as quickly as possible. They accomplish this through a skilled combination of dashing, leaping, and nimbly climbing, that guides them down clever paths through their environments. Moreover, an adept freerunner can convert the momentum from their gymnastics into deadly force, crushing their enemies with exceptional impact from unexpected directions.
 
 A freerunner is most at home in a city or in the treetops of a great forest, for their unique movement requires a place that is steeped with complex geometry which reaches high into the sky. Of course, even on flat terrain, a freerunner's agility is not to be underestimated, for they can dive through a giants legs or scurry up its back with ease.
@@ -767,7 +757,7 @@ At 15th level, when a spell or other effect would have you make a saving throw d
 
 
 
-# <a name="gloomStalker">Gloomstalker</a>
+# <a name="internal-gloomStalker">Gloomstalker</a>
 Gloomstalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloomstalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.
 
 
@@ -826,7 +816,7 @@ Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernat
 
 
 
-# <a name="herbalist">Herbalist Conclave</a>
+# <a name="internal-herbalist">Herbalist Conclave</a>
 Herbalist rangers have learned to extract the magical properties of plants and nature in order to create potent mixtures that can aid allies and hinder foes.
 
 
@@ -919,7 +909,7 @@ At 15th level, you have mastered your mixtures’ recipes, and have learned to c
 
 
 
-# <a name="horizonWalker">Horizon Walker</a>
+# <a name="internal-horizonWalker">Horizon Walker</a>
 Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes.
 
 These rangers are also friends to any forces in the multiverse — especially benevolent dragons, fey, and elementals — that work to preserve life and the order of the planes.
@@ -1002,7 +992,7 @@ The following conclave specific additions are made to the general rest rules.
 
 
 
-# <a name="hunter">Hunter Conclave</a>
+# <a name="internal-hunter">Hunter Conclave</a>
 The Hunter serves as a protector of both the wilderness and civilization. They attempt to keep the peace, ensuring hostilities don't arise between the two different settlements. A Hunter is equipped to handle threats from both sides, from poachers and polluters to rampaging ogres and hordes of orcs to towering giants and terrifying dragons.
 
 
@@ -1062,7 +1052,7 @@ Your experience has proven invaluable in keeping you safe from harm. At 15th lev
 
 
 
-# <a name="monsterSlayer">Monster Slayer</a>
+# <a name="internal-monsterSlayer">Monster Slayer</a>
 You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.
 
 
@@ -1141,7 +1131,7 @@ The following conclave specific additions are made to the general rest rules.
 
 
 
-# <a name="nightstalker">Nightstalker</a>
+# <a name="internal-nightstalker">Nightstalker</a>
 The Nightstalker conclave emulates a unique form of shadow magic, used to create shadowy familiars to accompany you in battle. By walking this path, you learn to use your shadow familiar like an extension of yourself, using them like a weapon as you stalk through the dim forests and vast plains of the world, searching for your prey. Your choice of familiar defines your style of fighting, with each familiar playing a different role on the hunt and on the battlefield.
 
 
@@ -1203,7 +1193,7 @@ Additionally, whenever you command your familiar to make an attack using your re
 
 
 
-# <a name="stalker">Stalker</a>
+# <a name="internal-stalker">Stalker</a>
 At first glance, you seem hopelessly out of place in an adventuring party, looking instead like a drab town dweller who has wandered into danger by mistake. You maintain a soft-spoken, rather nondescript demeanor, but this is only a facade, concealing keen senses, a shrewd mind, and remarkable insight. Only your closest friends realize the extent of your expertise in intelligence gathering. And that's just the way you like it. Stalkers serve as investigators, spies, informants, interrogators, and vigilantes.
 
 Unlike other rangers, you are just as at home in a crowded metropolis as you are in a wilderness setting. Like all rangers, you are a master of the hunt, but when your prey can be as intelligent, sophisticated, or devious as yourself, hunting them is a far more complex task. You are experienced in solving intricate mysteries and bringing justice to the masterminds behind ambitious crimes. As comfortable stalking your quarry in a bustling city as a savage wilderness, you are no mere urban ranger, but a master of observation, deduction, and interrogation.
