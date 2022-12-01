@@ -664,8 +664,6 @@ Beginning when you reach 3rd level, your experience with traveling has made you 
 ### Kitchen Tricks
 Also at 3rd level, you learn a handful of techniques that help you overcome enemies outside the kitchen. You gain a number of points equal to your Wisdom modifier + 1, each of which may be expended to use one of the abilities listed here. You regain all expended points with a long rest.
 
-<div class="columns">
-
  **Flour Smokescreen.** As an ***action***, you can create a 20 foot radius flour smokescreen centered on a point within 30 feet. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
 
  **Grease Slick.** As an ***action***, you can toss a grease slick onto the ground in a 10 foot radius centered on a point within 30 feet and turn it into difficult terrain for one minute. When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.
@@ -673,8 +671,6 @@ Also at 3rd level, you learn a handful of techniques that help you overcome enem
  **Smelling Salts.** You discover the perfect mix of spices to create such a visceral and powerful assault on the nose as to break a creature from its stupor. As a ***bonus action*** you may wave these spices under the nose of a stunned or frightened creature. The creature makes a saving throw against the condition on your turn. At 13th level, these spices have effect on the paralyzed condition as well.
 
  **Spice of Life.** You keep ready a sachet of spices up your sleeves to throw when times get desperate. When a creature makes a melee attack against you, you can give them disadvantage as a ***reaction***. Once you use this, you can't use it again until you finish a short rest.
-
-</div>
 
 ### Extra Attack
 From 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
@@ -703,9 +699,6 @@ Also, if you cook a meal during a long rest, you and anyone who eats your food c
 <h1><a class="internal-link" name="internal-diplomat">Diplomat</a></h1>
 <div class="featuresTable">
 
-Diplomats are usually professional negotiators, emissaries and ambassadors. They might also be agents of governments, or freelance members of an independent "Guild of Mediators" hired by those wishing to resolve disputes. They may also serve as spies, or investigators of politically-sensitive scandals or crimes
-
-
 #### Diplomat Features
 | Professional Level | Feature |
 | :----------------: | :------ |
@@ -715,6 +708,10 @@ Diplomats are usually professional negotiators, emissaries and ambassadors. They
 | 9th | Universal Linguistics |
 | 13th | Master Ambassador |
 | 17th | Diplomatic Immunity |
+
+</div>
+
+Diplomats are usually professional negotiators, emissaries and ambassadors. They might also be agents of governments, or freelance members of an independent "Guild of Mediators" hired by those wishing to resolve disputes. They may also serve as spies, or investigators of politically-sensitive scandals or crimes
 
 
 ### Bonus Proficiencies
@@ -748,32 +745,9 @@ Starting at 17th level, your heart cannot be swayed to extremes. You are immune 
 
 
 
-
-
-# <a name="internal-forester">Forester</a>
-The forester is a wilderness expert, her abilities derived from long and intimate relationship with the outdoors. For some, this acquaintanceship comes as the natural consequence of a frontier or tribal upbringing. Others acquire their skills while pursuing their livelihood; these include but are certainly not limited to hunters, trappers, herders, woodcutters, herbalists, prospectors, and game wardens. Among humans, few foresters receive formal training. The exceptions are those trained to serve as elite military scouts or border wardens.
-
-Foresters are hardened by wilderness life far from the comforts of civilization. They are toughened by the challenges posed by a sometimes-dangerous natural world, and while they lack formal combat training, they are no strangers to weapons.
-
-While the archetypical outdoorsman who lends the class her name is a woodsman, the abilities of the class are adaptable to all terrain types and climates. The class can equally represent a character at home in the mountains, plains, jungle, swamp, or desert, in equatorial heat or frigid arctic climes.
-
-<div class="descriptive" markdown="1">
-
-#### Lumberjack
-***Real-life lumberjack**: Boy howdy I hope that tree don't fall on me.*
-
-***Fantasy lumberjack**: Boy howdy I hope that tree don't rip my limbs apart. And I don't accidentally anger the elves, or the dryads, or the druids, and the forest gods, and the…*
-
-
-Cutting down trees may just be the most dangerous job you can get. Away from civilization, surrounded by hundreds of powerful, murderous things, and doing the exact thing that they hate. Being a lumberjack means you had to fight for your life countless times, from raging beasts to poisonous arrows, curses, treants, you name it.
-
-The seasoned lumberjack is, by necessity, a seasoned fighter that has fought many enemies, but unlike other jobs, they weren't just monsters, they were intelligent creatures. Many woodcutters try to make deals with the forest creatures to avoid fights, cut and hunt only in some areas, respect quotas. As a result, this fighter is also a diplomat and knows the importance of a solid deal and the dangers of breaking it.
-
-Isn't this just a ranger? No. You don't like nature, you just have to deal with it because it's your job. You kill animals or, at best, learn how to not anger them. Or maybe you did learn to like nature, in the years dealing with it. Doesn't mean it likes you back.
-
-
-
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-forester">Forester</a></h1>
+<div class="featuresTable">
 
 #### Forester Features
 | Professional Level | Feature |
@@ -784,6 +758,29 @@ Isn't this just a ranger? No. You don't like nature, you just have to deal with 
 | 9th | Solid Like An Oak |
 | 13th | Natural Cartography |
 | 17th | Unstoppable |
+
+</div>
+
+The forester is a wilderness expert, her abilities derived from long and intimate relationship with the outdoors. For some, this acquaintanceship comes as the natural consequence of a frontier or tribal upbringing. Others acquire their skills while pursuing their livelihood; these include but are certainly not limited to hunters, trappers, herders, woodcutters, herbalists, prospectors, and game wardens. Among humans, few foresters receive formal training. The exceptions are those trained to serve as elite military scouts or border wardens.
+
+Foresters are hardened by wilderness life far from the comforts of civilization. They are toughened by the challenges posed by a sometimes-dangerous natural world, and while they lack formal combat training, they are no strangers to weapons.
+
+While the archetypical outdoorsman who lends the class her name is a woodsman, the abilities of the class are adaptable to all terrain types and climates. The class can equally represent a character at home in the mountains, plains, jungle, swamp, or desert, in equatorial heat or frigid arctic climes.
+
+<div class="infoarea">
+
+#### Lumberjack
+***Real-life lumberjack**: Boy howdy I hope that tree don't fall on me.*
+
+***Fantasy lumberjack**: Boy howdy I hope that tree don't rip my limbs apart. And I don't accidentally anger the elves, or the dryads, or the druids, and the forest gods, and the…*
+
+</div>
+
+Cutting down trees may just be the most dangerous job you can get. Away from civilization, surrounded by hundreds of powerful, murderous things, and doing the exact thing that they hate. Being a lumberjack means you had to fight for your life countless times, from raging beasts to poisonous arrows, curses, treants, you name it.
+
+The seasoned lumberjack is, by necessity, a seasoned fighter that has fought many enemies, but unlike other jobs, they weren't just monsters, they were intelligent creatures. Many woodcutters try to make deals with the forest creatures to avoid fights, cut and hunt only in some areas, respect quotas. As a result, this fighter is also a diplomat and knows the importance of a solid deal and the dangers of breaking it.
+
+Isn't this just a ranger? No. You don't like nature, you just have to deal with it because it's your job. You kill animals or, at best, learn how to not anger them. Or maybe you did learn to like nature, in the years dealing with it. Doesn't mean it likes you back.
 
 
 ### Bonus Proficiencies
@@ -846,12 +843,9 @@ Starting at 17th level, instead of rolling a saving throw, you can choose to cou
 
 
 
-
-
-
-# <a name="internal-psychologist">Psychologist</a>
-A psychologist is a scientist of the mind. He might be a doctor specialized in the illnesses of the mind, working to cure those unfortunate souls committed to the sanatorium. Or he might be a university professor trying to unlock the secrets of why certain behaviours seem to appear in some types of races or creatures.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-psychologist">Psychologist</a></h1>
+<div class="featuresTable">
 
 #### Psychologist Features
 | Professional Level | Feature |
@@ -862,6 +856,12 @@ A psychologist is a scientist of the mind. He might be a doctor specialized in t
 | 9th | Forceful Presence, Ironclad Insight |
 | 13th | Psychological Profile |
 | 17th | Hardened Mind |
+
+</div>
+
+A psychologist is a scientist of the mind. He might be a doctor specialized in the illnesses of the mind, working to cure those unfortunate souls committed to the sanatorium. Or he might be a university professor trying to unlock the secrets of why certain behaviours seem to appear in some types of races or creatures.
+
+
 
 
 ### Bonus Proficiencies
@@ -900,10 +900,9 @@ From 17th level you have resistance to psychic damage and advantage on all saves
 
 
 
-
-# <a name="internal-smith">Smith</a>
-Every village, town, and city has its own blacksmith. Some, however, become restless of simply working at their profession and put their skills to use as adventurers. Years of forging have already hardened them against the elements, and their blades are often a mark of great care and dedication.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-smith">Smith</a></h1>
+<div class="featuresTable">
 
 #### Smith Features
 | Professional Level | Feature |
@@ -914,6 +913,12 @@ Every village, town, and city has its own blacksmith. Some, however, become rest
 | 9th | Craftsman's Strike |
 | 13th | Master Artisan |
 | 17th | Might of the Anvil |
+
+</div>
+
+Every village, town, and city has its own blacksmith. Some, however, become restless of simply working at their profession and put their skills to use as adventurers. Years of forging have already hardened them against the elements, and their blades are often a mark of great care and dedication.
+
+
 
 
 ### Bonus Proficiencies
@@ -932,13 +937,9 @@ Whenever you gain a level in a class that has the Fighting Style feature, you ca
 ### Well-Built Equipment
 At 3rd level, you can convert a weapon you are proficient in into a Well-balanced weapon or a suit of armor into a Well-fitted suit of armor. These particular items are fitted to your exact specifications, and can only be used proficiently by you.
 
-
-
-A Well-balanced weapon gains a +1 bonus to attack and damage rolls (or increases it's bonus by +1 to a maximum of +3).
-
-A Well-fitted suit gains a +1 bonus to AC (or increases it's bonus by +1 to a maximum of +3), the armor's Strength requirement is reduced by 1, and donning and doffing the suit requires 1/10 of the normal amount of time.
-
-This item requires constant maintenance to keep its benefits, so you cannot have more than one such item.
+- A Well-balanced weapon gains a +1 bonus to attack and damage rolls (or increases it's bonus by +1 to a maximum of +3).
+- A Well-fitted suit gains a +1 bonus to AC (or increases it's bonus by +1 to a maximum of +3), the armor's Strength requirement is reduced by 1, and donning and doffing the suit requires 1/10 of the normal amount of time.
+- This item requires constant maintenance to keep its benefits, so you cannot have more than one such item.
 
 ### Artisan's Touch
 At 6th level, as your blacksmithing skills increase, you become able to upgrade your Well-built equipment. You learn two techniques when you obtain this feature, and two additional techniques at 9th, 13th and 17th level. You need one day of work to apply or change a technique to an equipment. All techniques are listed at the end of the smith description.
@@ -958,99 +959,98 @@ At 17th level, your Strength score increases by 2 and your maximum for Strength 
 
 
 
-
-
-
-
 ## Artisan Techniques
 You learn two techniques at level 6, and two additional techniques at 9th, 13th and 17th level.
-{{}}">spell
-#### Generic Techniques
 
- **Improved maintenance.** You have learn to maintain one set of equipment more efficiently, allowing you to have one additional well-built equipment. You may take this technique multiple times, increasing the amount of well-built equipment by one each time.
+**Generic Techniques**
 
-{{}}">spell
-#### Armor Techniques
+<div class="columnstwo">
 
- **Bladed Armor**. You install a pair of retractable blades on the bracers of your Well-fitted suit. Your blades are light, finesse weapons that deal 1d4 slashing or piercing damage that cannot be disarmed. You can hold or otherwise manipulate a weapon, shield, or other object on the same arm as your arm blade, though you cannot attack with your arm blade and use an object or weapon held in that hand on the same turn. You can also apply weapon technique to these arm blades as if they were your Well-balanced weapon.
+- **Improved maintenance.** You have learn to maintain one set of equipment more efficiently, allowing you to have one additional well-built equipment. You may take this technique multiple times, increasing the amount of well-built equipment by one each time.
 
- **Braced**. You smooth out and interlock the plates of your armor, and add a number of weights all around the suit, allowing you to lock your limbs and brace yourself for a coming impact. While wearing your this suit, as a ***reaction***, you can ignore a source of involuntary movement or avoid being knocked prone. Your suit must be heavy armor to accept this upgrade.
+</div>
 
- **Cleats**. You install a set of spikes onto the front and rear of your armor's boots, giving you remarkable traction on even the roughest ground. While wearing your Well-fitted suit, you can move through difficult terrain as if it were normal terrain.
+**Armor Techniques**
 
- **Hooked**. You add a series of discrete, retractable hooks to the gauntlets and boots of your armor. While wearing your Well-fitted suit, you gain a climb speed equal to your movement speed. Your suit must be light or medium armor to accept this upgrade.
+<div class="columnstwo">
 
- **Juggernaut Plating**. You install a set of heavy shoulder plates and a reinforced helmet on your armor, turning you into a veritable battering ram. While wearing your Well-fitted suit, you may, as an ***action***, move up to your speed towards an inanimate object. At the end of this movement, you hit the object, dealing 4d6 + twice your Strength modifier bludgeoning damage, which ignores the object's damage threshold. Your suit must be heavy armor to accept Juggernaut Plating.
+- **Bladed Armor**. You install a pair of retractable blades on the bracers of your Well-fitted suit. Your blades are light, finesse weapons that deal 1d4 slashing or piercing damage that cannot be disarmed. You can hold or otherwise manipulate a weapon, shield, or other object on the same arm as your arm blade, though you cannot attack with your arm blade and use an object or weapon held in that hand on the same turn. You can also apply weapon technique to these arm blades as if they were your Well-balanced weapon.
 
- **Reinforced**. You learn how to increase the toughness of your steel. While wearing your Well-fitted suit, you reduce all non-magical slashing, piercing, or bludgeoning damage by 2 points. This reduction does not stack with other forms of damage reduction. Your suit must be medium or Heavy armor to accept this upgrade.
+- **Braced**. You smooth out and interlock the plates of your armor, and add a number of weights all around the suit, allowing you to lock your limbs and brace yourself for a coming impact. While wearing your this suit, as a ***reaction***, you can ignore a source of involuntary movement or avoid being knocked prone. Your suit must be heavy armor to accept this upgrade.
 
+- **Cleats**. You install a set of spikes onto the front and rear of your armor's boots, giving you remarkable traction on even the roughest ground. While wearing your Well-fitted suit, you can move through difficult terrain as if it were normal terrain.
 
+- **Hooked**. You add a series of discrete, retractable hooks to the gauntlets and boots of your armor. While wearing your Well-fitted suit, you gain a climb speed equal to your movement speed. Your suit must be light or medium armor to accept this upgrade.
 
- **Second Skin**. You learn how to craft your armor to be breathable, light, and flexible, without compromising its protective ability. Your Well-fitted suit's maximum Dexterity bonus increases by 1, it no longer applies disadvantage on skill checks, and no longer imposes any penalty for sleeping in it.
+- **Juggernaut Plating**. You install a set of heavy shoulder plates and a reinforced helmet on your armor, turning you into a veritable battering ram. While wearing your Well-fitted suit, you may, as an ***action***, move up to your speed towards an inanimate object. At the end of this movement, you hit the object, dealing 4d6 + twice your Strength modifier bludgeoning damage, which ignores the object's damage threshold. Your suit must be heavy armor to accept Juggernaut Plating.
 
- **Shining Armor**. When you roll initiative, the first hostile creature that sees you wearing your Well-fitted suit (or the nearest hostile creature, if multiple creatures can see you) must make a Wisdom saving throw. On a failure, the creature has disadvantage attacking any target other than you for up to 1 minute. At the end of each of its turns, an affected target can repeat this saving throw, ending the effect on a success. The effect also ends if you are knocked unconscious or the target loses sight of you. Any creature that succeeds this saving throw cannot be affected by this ability again for 24 hours.
+- **Reinforced**. You learn how to increase the toughness of your steel. While wearing your Well-fitted suit, you reduce all non-magical slashing, piercing, or bludgeoning damage by 2 points. This reduction does not stack with other forms of damage reduction. Your suit must be medium or Heavy armor to accept this upgrade.
 
- **Spiked**. You add a layer of retractable spikes onto the knees, shoulders, gauntlets, helmet, and boots of your armor. While wearing your Well-fitted suit, your unarmed strikes deal 1d4 piercing damage, and you may attack with them as if they were an off-hand weapon. Your suit must be medium or heavy armor to accept this upgrade.
+- **Second Skin**. You learn how to craft your armor to be breathable, light, and flexible, without compromising its protective ability. Your Well-fitted suit's maximum Dexterity bonus increases by 1, it no longer applies disadvantage on skill checks, and no longer imposes any penalty for sleeping in it.
 
- **Tempered**. Your Well-fitted suit has a number of fortification charges equal to your Wisdom modifier. When you are struck by a critical hit, your armor loses a fortification charge, and the critical hit becomes a regular hit. When there are no more fortification charges, this feature of your armor ceases to function. You regain all expended fortification charges when you finish a long rest.
+- **Shining Armor**. When you roll initiative, the first hostile creature that sees you wearing your Well-fitted suit (or the nearest hostile creature, if multiple creatures can see you) must make a Wisdom saving throw. On a failure, the creature has disadvantage attacking any target other than you for up to 1 minute. At the end of each of its turns, an affected target can repeat this saving throw, ending the effect on a success. The effect also ends if you are knocked unconscious or the target loses sight of you. Any creature that succeeds this saving throw cannot be affected by this ability again for 24 hours.
 
-{{}}">spell
-#### Weapon Techniques
+- **Spiked**. You add a layer of retractable spikes onto the knees, shoulders, gauntlets, helmet, and boots of your armor. While wearing your Well-fitted suit, your unarmed strikes deal 1d4 piercing damage, and you may attack with them as if they were an off-hand weapon. Your suit must be medium or heavy armor to accept this upgrade.
 
- **Chained**. You attach long, light, flexible chain links from pommel of your weapon to a special bracer, allowing you to swing your weapon in a long, wide arc. This weapon becomes a reach weapon. If you are disarmed of your chained weapon, you can use a ***bonus action*** to pull it back to your hand.
+- **Tempered**. Your Well-fitted suit has a number of fortification charges equal to your Wisdom modifier. When you are struck by a critical hit, your armor loses a fortification charge, and the critical hit becomes a regular hit. When there are no more fortification charges, this feature of your armor ceases to function. You regain all expended fortification charges when you finish a long rest.
 
- **Hooked**. Your weapon either ends with a long, curved hook, or has such a hook jutting out from one end. When you hit a creature with a hooked weapon, in lieu of dealing damage you can use your ***bonus action*** to attempt to shove the creature prone. When you do so, you make the check with advantage.
+</div>
 
- **Serrated**. You cut out or forge in wickedly sharp teeth into the blade of our weapon, which cut deeply into unprotected flesh. A serrated weapon deals an additional 1d4 damage to any creature that is not wearing manufactured armor and has a natural Armor Class of 20 or less. You can only apply this technique to a weapon which deals slashing or piercing damage.
+**Weapon Techniques**
 
+<div class="columnstwo">
 
+- **Chained**. You attach long, light, flexible chain links from pommel of your weapon to a special bracer, allowing you to swing your weapon in a long, wide arc. This weapon becomes a reach weapon. If you are disarmed of your chained weapon, you can use a ***bonus action*** to pull it back to your hand.
 
+- **Hooked**. Your weapon either ends with a long, curved hook, or has such a hook jutting out from one end. When you hit a creature with a hooked weapon, in lieu of dealing damage you can use your ***bonus action*** to attempt to shove the creature prone. When you do so, you make the check with advantage.
 
+- **Serrated**. You cut out or forge in wickedly sharp teeth into the blade of our weapon, which cut deeply into unprotected flesh. A serrated weapon deals an additional 1d4 damage to any creature that is not wearing manufactured armor and has a natural Armor Class of 20 or less. You can only apply this technique to a weapon which deals slashing or piercing damage.
 
+- **Spiked**. You fashion large, heavy spikes onto the business end of your weapon, allowing it to punch through armor. A spiked weapon deals an additional 1d4 damage to any creature that is wearing manufactured armor or has a natural Armor Class of greater than 20. You can only apply this technique to a weapon which deals bludgeoning or piercing damage.
 
+- **Weighted**. You alloy a measure of lead into the steel of your weapon or inlay a core of steel into its haft. A weighted weapon weighs twice as much as it did before, becomes a heavy weapon, and loses the Light or Finesse properties if it had them. All of a weighted weapon's damage dice increase by 1 step (d4 -> d6 -> d8 -> d10 -> d12), to a max of 1d12. You can only apply this technique to a melee weapon which is not heavy.
 
+</div>
 
- **Spiked**. You fashion large, heavy spikes onto the business end of your weapon, allowing it to punch through armor. A spiked weapon deals an additional 1d4 damage to any creature that is wearing manufactured armor or has a natural Armor Class of greater than 20. You can only apply this technique to a weapon which deals bludgeoning or piercing damage.
+**Master Armor Techniques**
 
- **Weighted**. You alloy a measure of lead into the steel of your weapon or inlay a core of steel into its haft. A weighted weapon weighs twice as much as it did before, becomes a heavy weapon, and loses the Light or Finesse properties if it had them. All of a weighted weapon's damage dice increase by 1 step (d4 -> d6 -> d8 -> d10 -> d12), to a max of 1d12. You can only apply this technique to a melee weapon which is not heavy.
+<div class="columnstwo">
 
-{{}}">spell
-#### Master Armor Techniques
+- **Aquatic Plating**. You learn how to blend water elemental essence into your armor, allowing your armor to move effortlessly in the water. While wearing your Well-fitted suit, you gain a swim speed equal to your movement speed, you gain resistance to cold damage, and you can breathe underwater for 20 minutes.
 
- **Aquatic Plating**. You learn how to blend water elemental essence into your armor, allowing your armor to move effortlessly in the water. While wearing your Well-fitted suit, you gain a swim speed equal to your movement speed, you gain resistance to cold damage, and you can breathe underwater for 20 minutes.
+- **Behemoth**. Your Well-fitted suit adds additional hit points equal to your level, to your health pool.
 
- **Behemoth**. Your Well-fitted suit adds additional hit points equal to your level, to your health pool.
+- **Darksteel Plating**. You learn how to blend darkstone, stone infused with necrotic energy, into your steel. You gain resistance to necrotic and radiant damage while wearing your Well-fitted suit. Your suit must be heavy armor to accept Darksteel Plating.
 
- **Darksteel Plating**. You learn how to blend darkstone, stone infused with necrotic energy, into your steel. You gain resistance to necrotic and radiant damage while wearing your Well-fitted suit. Your suit must be heavy armor to accept Darksteel Plating.
+- **Deep Crystal Studding**. You learn how to stud your underlying leather with deep crystal, crystal infused with latent psychic energy. You gain resistance to force and psychic damage while wearing your Well-fitted suit. Your suit must be light or medium armor to accept Deep Crystal studding.
 
- **Deep Crystal Studding**. You learn how to stud your underlying leather with deep crystal, crystal infused with latent psychic energy. You gain resistance to force and psychic damage while wearing your Well-fitted suit. Your suit must be light or medium armor to accept Deep Crystal studding.
+- **Dragon Scale Underlay**. You learn how to best utilize dragon scale in the production of heavier armors. Select two damage types from among acid, fire, lightning, poison, and thunder. While wearing your Well-fitted suit, you gain resistance to both of those damage types.
 
- **Dragon Scale Underlay**. You learn how to best utilize dragon scale in the production of heavier armors. Select two damage types from among acid, fire, lightning, poison, and thunder. While wearing your Well-fitted suit, you gain resistance to both of those damage types.
+- **Invincible Plating**. You learn how to blend in Earth Elemental essence into your steel, making your armor nigh indestructible to certain forms of strikes. While wearing your Well-fitted suit, you have resistance to bludgeoning, piercing, or slashing damage. You suit must be heavy armor to accept Invincible Plating.
 
- **Invincible Plating**. You learn how to blend in Earth Elemental essence into your steel, making your armor nigh indestructible to certain forms of strikes. While wearing your Well-fitted suit, you have resistance to bludgeoning, piercing, or slashing damage. You suit must be heavy armor to accept Invincible Plating.
+- **Living Wood Underlay**. You apply a thin layer of living wood to the underside of your armor's plating. This wood seeps a restorative sap into your skin. As long as you are wearing your Well-fitted suit, while you are below half your HP maximum and you are conscious, you gain 1 HP at the start of each of your turns.
 
- **Living Wood Underlay**. You apply a thin layer of living wood to the underside of your armor's plating. This wood seeps a restorative sap into your skin. As long as you are wearing your Well-fitted suit, while you are below half your HP maximum and you are conscious, you gain 1 HP at the start of each of your turns.
+- **Windswept Plating**. You learn to blend air elemental essence into your steel, allowing your armor to nearly float in the air and move swifter than the wind. While wearing your Well-fitted suit, and you gain the ability to fly at your normal movement speed. You must start and end your flight on solid ground; otherwise, you immediately fall. You suit must be light or medium armor to accept Windswept Plating.
 
+</div>
 
+**Master Weapon Techniques**
 
- **Windswept Plating**. You learn to blend air elemental essence into your steel, allowing your armor to nearly float in the air and move swifter than the wind. While wearing your Well-fitted suit, and you gain the ability to fly at your normal movement speed. You must start and end your flight on solid ground; otherwise, you immediately fall. You suit must be light or medium armor to accept Windswept Plating.
+<div class="columnstwo">
 
-{{}}">spell
-#### Master Weapon Techniques
+- **Abyssal Greenstone Blade**. You learn how to blend Abyssal Greenstone, stone from the Abyss infused with sickly necrotic energy, into your steel. Your weapon deals an additional 2d4 poison damage on a hit, and a creature struck by your weapon must make a Constitution saving throw or become poisoned until the start of your next turn.
 
- **Abyssal Greenstone Blade**. You learn how to blend Abyssal Greenstone, stone from the Abyss infused with sickly necrotic energy, into your steel. Your weapon deals an additional 2d4 poison damage on a hit, and a creature struck by your weapon must make a Constitution saving throw or become poisoned until the start of your next turn.
+- **Darksteel Blade**. You learn how to blend darkstone, stone infused with necrotic energy, into your steel. Your Weapon deals an additional 1d8 necrotic damage on a hit.
 
- **Darksteel Blade**. You learn how to blend darkstone, stone infused with necrotic energy, into your steel. Your Weapon deals an additional 1d8 necrotic damage on a hit.
+- **Deep Crystal Blade**. You learn how craft blades and weapon heads out of deep crystal, crystal infused with latent psychic energy. Your weapon deals an additional 1d6 force damage on a hit.
 
- **Deep Crystal Blade**. You learn how craft blades and weapon heads out of deep crystal, crystal infused with latent psychic energy. Your weapon deals an additional 1d6 force damage on a hit.
+- **Infernal Bloodstone Blade**. You learn how to infuse Infernal Bloodstone, iron wrought from the Nine Hells, into your steel. Your weapon deals an additional 1d4 fire damage on a hit, and the target must make a Constitution saving throw or take 1d6 necrotic at the start of your next turn.
 
- **Infernal Bloodstone Blade**. You learn how to infuse Infernal Bloodstone, iron wrought from the Nine Hells, into your steel. Your weapon deals an additional 1d4 fire damage on a hit, and the target must make a Constitution saving throw or take 1d6 necrotic at the start of your next turn.
+- **Primordium Steel Blade**. You learn to work with Primordium, an element mined in regions border the 4 elemental planes. As such, you can impart the powers of the elements into your weapon. When you deal damage with your weapon, you deal an additional 1d6 acid, cold, fire, or lightning damage, your choice.
 
- **Primordium Steel Blade**. You learn to work with Primordium, an element mined in regions border the 4 elemental planes. As such, you can impart the powers of the elements into your weapon. When you deal damage with your weapon, you deal an additional 1d6 acid, cold, fire, or lightning damage, your choice.
+- **Solanium Truesteel Blade**. You learn how to blend Solanium Iron, stone infused with radiant energy, into your steel. Your weapon deals an additional 1d6 radiant damage on a hit, or 2d6 against fiends and undead. Additionally, your weapon glows, shedding light as a torch.
 
- **Solanium Truesteel Blade**. You learn how to blend Solanium Iron, stone infused with radiant energy, into your steel. Your weapon deals an additional 1d6 radiant damage on a hit, or 2d6 against fiends and undead. Additionally, your weapon glows, shedding light as a torch.
-
-
+</div>
 
 
 
