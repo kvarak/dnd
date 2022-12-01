@@ -767,6 +767,8 @@ Foresters are hardened by wilderness life far from the comforts of civilization.
 
 While the archetypical outdoorsman who lends the class her name is a woodsman, the abilities of the class are adaptable to all terrain types and climates. The class can equally represent a character at home in the mountains, plains, jungle, swamp, or desert, in equatorial heat or frigid arctic climes.
 
+Cutting down trees may just be the most dangerous job you can get. Away from civilization, surrounded by hundreds of powerful, murderous things, and doing the exact thing that they hate. Being a lumberjack means you had to fight for your life countless times, from raging beasts to poisonous arrows, curses, treants, you name it.
+
 <div class="infoarea">
 
 #### Lumberjack
@@ -775,8 +777,6 @@ While the archetypical outdoorsman who lends the class her name is a woodsman, t
 ***Fantasy lumberjack**: Boy howdy I hope that tree don't rip my limbs apart. And I don't accidentally anger the elves, or the dryads, or the druids, and the forest gods, and the…*
 
 </div>
-
-Cutting down trees may just be the most dangerous job you can get. Away from civilization, surrounded by hundreds of powerful, murderous things, and doing the exact thing that they hate. Being a lumberjack means you had to fight for your life countless times, from raging beasts to poisonous arrows, curses, treants, you name it.
 
 The seasoned lumberjack is, by necessity, a seasoned fighter that has fought many enemies, but unlike other jobs, they weren't just monsters, they were intelligent creatures. Many woodcutters try to make deals with the forest creatures to avoid fights, cut and hunt only in some areas, respect quotas. As a result, this fighter is also a diplomat and knows the importance of a solid deal and the dangers of breaking it.
 
@@ -955,8 +955,6 @@ You are a true master of the craft and can apply master techniques to your Well-
 
 ### Might of the Anvil
 At 17th level, your Strength score increases by 2 and your maximum for Strength becomes 22.
-
-
 
 
 ## Artisan Techniques
