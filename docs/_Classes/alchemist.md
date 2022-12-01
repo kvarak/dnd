@@ -113,8 +113,8 @@ You start with the following equipment, in addition to the equipment granted by 
 
 - *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
 - *(a)* an explorer's pack or *(b)* a scholar's pack
-- an alchemist's kit and a dagger
-- leather armor *(if proficient)*
+- an alchemist's kit
+- leather armor *(if proficient)* and a dagger
 
 
 ### Concoctions

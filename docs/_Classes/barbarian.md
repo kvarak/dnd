@@ -102,6 +102,7 @@ Your speed increases by 5 feet while you aren’t wearing heavy armor.
 </details>
 </details>
 
+
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with Axe, Club, Knife, Staff, Sword and Thrown Weapon. Additionally you have rank 1 with Flail, Polearm, Spear and Bow.
 

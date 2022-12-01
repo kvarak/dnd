@@ -59,7 +59,7 @@ Of course, the world has many people who can carry a tune or tell a good story, 
 
 Singing songs and strumming lutes might be fine for most bards. Who doesn't like a rousing shanty now and then? But standing in a crowded tavern playing for copper pieces tossed by commoners isn't for everyone. As a bard you can do anything, and even if you can not do something, you can make it appear as you do. The perception of you is a finely tuned instrument in its own right - and you're just the one to pluck it.
 
-#### Master of one trade: Awesomness
+#### Master of one trade: Awesomeness
 As a bard, you're known as the go-to figure when things need to get done. Your tremendous array of skills and abilities mean that you're often the first one called upon to do the hard jobs. And if you're going to do something, you might as well do it with panache. Since most of your compatriots likely think ''panache" is some kind of elven delicacy, it's all the more impressive.
 
 Jumping a small pit? Land with the flourish of a world class gymnast! Slaying a kobold? Take it down with a legendary oath, and no one will realize that an asthmatic farmhand could have done the same thing with a rusty sickle. Running across a room? Use prestidigitation to blow your hair back, making it look like you have the speed and grace of Corellon themself.
@@ -68,7 +68,7 @@ Jumping a small pit? Land with the flourish of a world class gymnast! Slaying a 
 #### Not liking instruments?
 As a bard you do not have to carry around an instrument as the stereotypical bard. There are many art forms that a bard may choose to follow instead. In the table below are some examples. Work with your DM to adjust your spellcasting focus feature and other college or class features that seem to be dependent on an instrument.
 
-#### Unusual bard art forms
+##### Unusual bard art forms
 
 |  |  |  |
 |:-|:-|:-|
@@ -116,7 +116,9 @@ A loreseeker is an archaeologist, a scholar of ancient and forgotten knowledge, 
 A loreseeker has all the usual class features of the bard, with the following exceptions.
 
 #### Proficiencies
-**Languages:** Three of your choice
+**Class Skills:** Add all knowledge skills
+
+**Additional Skills:** Gain 2 additional skill points to spend on Knowledge skills.
 
 **Saving Throws:** Dexterity, Intelligence
 
@@ -134,7 +136,7 @@ Intelligence is your spellcasting ability for your bard spells.
 **Spell attack modifier** = your proficiency bonus + your Intelligence modifier
 
 #### Spellcasting Focus
-You can use an arcane focus as a spellcasting focus for your  spells.
+You can use an arcane focus as a spellcasting focus for your spells.
 
 #### Further features
 Whenever a College or class feature refers to your Charisma modifier or Charisma score, use your Intelligence modifier or Intelligence score instead. When a similar feature refers to your bardic inspiration feature, instead use your advice from the sage feature.
@@ -157,23 +159,23 @@ You start with the following equipment, in addition to the equipment granted by 
 | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |1st| +2| Bard College,<br/>Bardic Inspiration (d6),<br/>Spellcasting |2|4|2|—|—|—|—|—|—|—|—|
 |2nd| +2| Bardic Song,<br/>Jack of All Trades | 2 |5 |3 |— |— |— |—|—| —| —| —|
-|3rd| +2| Bard College feature,<br/>Expertise | 2| 6| 4| 2| —| —| —|— |— |— |—|
-|4th| +2| Ability Score Improvement | 3 |7 |4 |3 |— |— |—|— |— |— |—|
+|3rd| +2| Bard College feature | 2| 6| 4| 2| —| —| —|— |— |— |—|
+|4th| +2| Expertise | 3 |7 |4 |3 |— |— |—|— |— |— |—|
 |5th| +3| Bardic Inspiration (d8),<br/>Font of Inspiration | 3| 8| 4| 3| 2| —| —|— |— |—| —|
 |6th| +3| Bard College feature,<br/>Bardic Song | 3| 9| 4| 3| 3| —| —|— |— |— |—|
 |7th| +3| - | 3 |10| 4| 3| 3| 1| —|— |— |— |—|
-|8th| +3| Ability Score Improvement | 3 |11| 4| 3| 3| 2| —|— |— |— |—|
+|8th| +3| Expertise | 3 |11| 4| 3| 3| 2| —|— |— |— |—|
 |9th| +4| Bardic Song | 3 |12| 4| 3|3|3| 1| —| —| —| —|
-|10th| +4| Bardic Inspiration (d10),<br/>Expertise,<br/>Magical Secrets |4|14|4|3|3|3|2|—|—|—|—|
+|10th| +4| Bardic Inspiration (d10),<br/>Magical Secrets |4|14|4|3|3|3|2|—|—|—|—|
 |11th| +4| - | 4 |15| 4| 3| 3| 3| 2| 1| —| —| —|
-|12th| +4| Ability Score Improvement | 4 |15| 4| 3|3|3|2| 1| —| —| —|
+|12th| +4| Expertise | 4 |15| 4| 3|3|3|2| 1| —| —| —|
 |13th| +5| Bardic Song | 4| 16| 4| 3| 3| 3| 2| 1| 1| —| —|
-|14th| +5| Magical Secrets,<br/>Bard College feature | 4 |18| 4| 3| 3| 3| 2| 1| 1| —| —|
-|15th| +5| Bardic Inspiration (d12) | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
-|16th| +5| Ability Score Improvement | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
+|14th| +5| Bard College feature | 4 |18| 4| 3| 3| 3| 2| 1| 1| —| —|
+|15th| +5| Magical Secrets | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
+|16th| +5| Bardic Inspiration (d12) | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
 |17th| +6| Bardic Song | 4 |20| 4| 3| 3| 3|2|1| 1| 1| 1|
 |18th| +6| Magical Secrets | 4 |22| 4| 3| 3| 3| 3| 1| 1|1|1|
-|19th| +6| Ability Score Improvement | 4 |22| 4| 3|3|3|3| 2| 1| 1| 1|
+|19th| +6| - | 4 |22| 4| 3|3|3|3| 2| 1| 1| 1|
 |20th| +6| Superior Inspiration | 4 |22| 4| 3| 3| 3| 3| 2| 2| 1|1|
 
 </div>
@@ -183,26 +185,37 @@ As a bard, you gain the following class features.
 #### Hit Points
 **Hit Dice:** 1d8
 
-#### Proficiencies
-**Armor:** Light armor
 
-**Weapons:** Simple weapons, hand crossbow, longsword, rapier, shortsword
+#### Saving Throws
+You are proficient with ***Dexterity*** and ***Charisma*** saving throws.
 
-**Saving Throws:** Dexterity, Charisma
 
-**Skills:** Performance
+#### Skills
+**Class Skills:** Acrobatics, Art, Courtier, Gaming, History, Sleight of Hand and Speechcraft
+
+**Skill Points:** You gain 4 skill points at 1st level.
+
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 2 with Fencing sword, Knife, Staff, Sword, Whip, Sling and Thrown Weapon. Additionally you have rank 1 with Club, Bow and Crossbow.
+
+**Combat Skill Points:** You gain 1 skill point to spend on combat skills at 1st level.
+
+**Recommended:** Light armor
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every ***even*** level.
+
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 - *(a)* rapier, *(b)* a longsword or *(c)* any simple weapon
 - *(a)* a diplomat’s pack or *(b)* an entertainer's pack
-- *(a)* a lute or *(b)* any other musical instrument
-- Leather armor and a dagger
+- *(a)* any musical instrument or *(b)* any book
+- Leather armor *(if proficient)* and a dagger
+
 
 ### Bard College
 At 1st level, you delve into the advanced techniques of a bard college of your choice, detailed at the end of the class description. Your choice grants you features again at 3rd, 6th and 14th level.
-
-
 
 ### Bardic Inspiration
 You can inspire others through stirring words or music. To do so, you use a ***bonus action*** on your turn to choose one creature other than yourself within 60 ft who can hear you. That creature gains one Bardic Inspiration die, a d6.
@@ -211,7 +224,7 @@ Once within the next 10 minutes, the creature can roll the die and add the numbe
 
 You can use this feature a number of times equal to your Charisma modifier, and can regain expended uses when you finish a long rest.
 
-Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
+Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 16th level.
 
 
 
@@ -273,17 +286,13 @@ When you reach 2nd level, and again at 6th, 9th, 13th, and 17th level, you learn
 ### Jack of All Trades
 Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.
 
-
-
 ### Expertise
-At 3rd level, either gain 3 skill proficiencies, or choose two of your skill proficiencies. You have advantage on any ability check you make that uses either of the chosen proficiencies.
+At 4th, 8th and 12th level, you gain 3 additional skill points.
 
-At 10th level, you can make the same choice again.
-
-<!--- Base: Gain expertise for two skills. --->
-
+<!-- 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+-->
 
 ### Font of Inspiration
 Beginning when you reach 5th level, you regain one expended use of Bardic Inspiration when you finish a short rest.
@@ -293,11 +302,10 @@ Beginning when you reach 5th level, you regain one expended use of Bardic Inspir
 ### Magical Secrets
 By 10th level, you have plundered magical knowledge from a wide spectrum of disciplines. Choose two spells from any class. A spell you choose must be of a level you can cast, or a cantrip. The chosen spells count as bard spells for you and are included in the number in the Spells Known column of the Bard table.
 
-You learn two additional spells from any class at 14th level and again at 18th level.
+You learn two additional spells from any class at 15th level and again at 18th level.
 
 ### Superior Inspiration
 At 20th level, when you roll initiative, you regain all uses of Bardic Inspiration.
-
 
 
 
@@ -305,8 +313,6 @@ At 20th level, when you roll initiative, you regain all uses of Bardic Inspirati
 
 
 <img src='https://zjcasas.github.io/dungeons_and_dragons_tools/images/bard.png' style='float:right;height:50%;padding:20px' />
-
-
 
 When you reach 2nd level, and again at 6th, 9th, 13th, and 17th level, you learn a bardic song.
 
@@ -486,7 +492,7 @@ Painters, sculptors or other similar artists.
 
 | Bard Level | Feature |
 |:----------:|:--------|
-| 1st | Bonus Proficiencies |
+| 1st | Bonus Skills |
 | 3rd | Cloaked Casting |
 | 6th | Additional Magical Secrets |
 | 14th | Surprise Casting |
@@ -506,19 +512,17 @@ Beguilers see lying and manipulation as tools. Just as a hammer can be used to b
 #### Spellcasting Focus
 You can use a musical instrument or an arcane focus as a spellcasting focus for your spells.
 
-
-
-### Bonus Proficiencies
-When you join the College of the Beguiler at 1st level, you gain proficiency with Deception and Persuasion.
+### Bonus Skills
+When you join the College of the Beguiler at 1st level, you gain 2 additional skill points to spend on Speechcraft.
 
 ### Cloaked Casting
-At 3rd level, you learn how to use your cunning to cast your spells with deadly effect. When you cast an Enchantment or Illusion spell on a target, you may spend 1 use of your Bardic Inspiration dice to ignore either its verbal or somatic component, and give the creature disadvantage on its saving throw against your spell.
+You have learnt how to use your cunning to cast your spells with deadly effect. When you cast an Enchantment or Illusion spell on a target, you may spend 1 use of your Bardic Inspiration dice to ignore either its verbal or somatic component, and give the creature disadvantage on its saving throw against your spell.
 
 ### Additional Magical Secrets
-At 6th level, you learn two Illusion or Enchantment spells of your choice from any class. A spell you choose must be of a level you can cast, or a cantrip. The chosen spells count as bard spells for you but don't count against the number of bard spells you know, and you can cast each once per day without wpending a spell slot.
+Learn two Illusion or Enchantment spells of your choice from any class. A spell you choose must be of a level you can cast or a cantrip. The chosen spells count as bard spells for you but don't count against the number of bard spells you know, and you can cast each once per day without spending a spell slot.
 
 ### Surprise Casting
-At 14th level, you gain the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm one or more creatures, you can alter one creature's understanding so that it remains unaware of being charmed.
+You are able to make a creature unaware of your magical influence on it. When you cast an Enchantment spell to charm one or more creatures, you can alter one creature's understanding so that it remains unaware of being charmed or that a spell has been cast.
 
 Additionally, when the spell expires, you can try to make the creature forget some of the time it spent charmed. The creature must succeed on an Intelligence saving throw against your bard spell save DC or lose a number of hours of memories up to 1 + your Charisma modifier. The amount of time can't exceed the duration of your spell, but you can choose the exact stretch of time lost.
 
@@ -553,7 +557,7 @@ The following additions are made to the general rest rules.
 | &nbsp; |
 | Add the following class specific benefits to choose from: |
 | * Regain spent summons from your ***Sketchbook of Summons***.
-| * Regain uses of ***Still Life***.
+| * Regain all uses of ***Still Life***.
 | * Reset free uses of spells from ***When Art Comes to Life***.
 
 </div>
@@ -565,31 +569,31 @@ The following additions are made to the general rest rules.
 Song is not the only art form that can tell a story. After all, an image is worth a thousand words, and bards from the College of Awakened Art know this better than anyone. Their extraordinary talent as visual artists is second to none, as is their power to bring to life their creations as helpful allies. In addition to their arsenal of spells, their equally impressive repertoire of sketched magical summons is their key to thrive as dependable adventurers.
 
 #### Spellcasting Focus
-You can use a pen and paper, or basically anything you can draw a quick sketch with, as a spellcasting focus for your spells and class features instead of an instrument.
+You can use a pen and paper, or basically anything you can draw a quick sketch with, as a spellcasting focus for your spells and class features.
 
 ### Bonus Proficiencies
-When you join the College of Awakened Art at 1st level, you gain proficiency with painting, drawing and the Perception skill. You also have advantage on checks made to identify art or its origins.
+When you join the College of Awakened Art at 1st level, you gain the *Art - Drawing* skill. If you have that skill already, you may spend a skill point on any other class skill.
+
+In addition you gain 2 skill points to spend on Nature.
 
 ### Sketchbook of Summons
-At 3rd level, you have prepared a book filled with enchanted blank pages known as a Sketchbook of Summons. Your talent as an artist allows you to sketch from life, and bring forth your creations as magical summons.
+You have prepared a book filled with enchanted blank pages known as a Sketchbook of Summons. Your talent as an artist allows you to sketch from life, and bring forth your creations as magical summons.
 
 As part of a long rest, you can sketch a number of creatures that you've seen in the past week, with an accumulated Challenge Rating equal to half your level in this class, unto your Sketchbook. The number of creatures you can sketch is limited only by their accumulated Challenge Rating. For example, at 3rd level, you could have one CR 1 creature and one CR 1/2 creature, or three CR 1/2 creatures, on your Sketchbook. Copies of the same creature count against the CR limit. The GM has the creatures' statistics.
 
 As an ***action*** you can choose one of your sketched creatures and channel your magic to summon it within 5 feet of you. The summoned creature has a painterly appearance. It is friendly to you and your companions, and it has its turn on initiative immediately after yours. It obeys any verbal commands that you issue to it (no action required by you). If you don’t issue any commands to it, it stays where it is and uses the dodge action.
-
-
 
 Your summon lasts a number of rounds equal to twice your Charisma modifier, after which it disappears, and its summon is expended. You can summon each of your sketches once per day, and can only have one summon up at a time.
 
 If you wish to change your stored sketches, you can do that as part of a long rest.
 
 ### Still Life
-Starting at 6th level, as an ***action***, you can use your painter’s supplies to paint objects into the world. The object must be medium size or smaller and simple in design, such as rocks, bushes, or a chair. Objects painted this way are visibly magical and made of paint. The object lasts for 1 hour or until you dismiss it as a ***bonus action***.
+As an ***action***, you can use your painter’s supplies to paint objects into the world. The object must be medium size or smaller and simple in design, such as rocks, bushes, or a chair. Objects painted this way are visibly magical and made of paint. The object lasts for 1 hour or until you dismiss it as a ***bonus action***.
 
-You can use this feature a number of times equal to your Charisma modifier, and can regain all expended uses when you finish a rest.
+You can use this feature a number of times equal to your Charisma modifier, and can regain expended uses when you finish a rest.
 
 ### When Art Comes to Life
-Also at 6th level, you've learned to magically inscribe drawings into the air, bringing your artistic creations to life. You learn additional spells when you reach certain levels in this class, as shown on the table, and they don’t count against the number of bard spells you know. You can cast these without the original material components, and instead use your painter’s supplies. Whenever you cast one of the spells on the table, it takes on a more painterly appearance.
+You have learned to magically inscribe drawings into the air, bringing your artistic creations to life. You learn additional spells when you reach certain levels in this class, as shown on the table, and they don’t count against the number of bard spells you know. You can cast these without the original material components, and instead use your painter’s supplies. Whenever you cast one of the spells on the table, it takes on a more painterly appearance.
 
 #### College Spells
 
@@ -603,7 +607,7 @@ Also at 6th level, you've learned to magically inscribe drawings into the air, b
 You may also cast each of these spells once without expending a spell slot. If you do, it doesn’t require concentration and the spell's duration becomes 1 minute for that casting. You may only have one summon cast this way active at a time. Once you cast a spell in this way, you can't do so again until you finish a long rest.
 
 ### Summoning Maestro
-Starting at 14th level, you now use your sketchbook twice. Additionally, they now last a number of rounds equal to three times your Charisma modifier.
+You now use your sketchbook twice per day. Additionally, they now last a number of rounds equal to three times your Charisma modifier.
 
 
 
@@ -617,7 +621,7 @@ Starting at 14th level, you now use your sketchbook twice. Additionally, they no
 
 | Bard Level | Feature |
 |:----------:|:--------|
-| 1st | Animal Companion, Bonus Proficiencies |
+| 1st | Animal Companion, Bonus Skills |
 | 3rd | Animal Friendship |
 | 6th | Beast Trainer |
 | 14th | Share Spells |
@@ -638,25 +642,23 @@ The beast obeys your commands as best as it can. It takes its turn after your tu
 
 If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn't hostile to you, either the same type of beast as before or a different one.
 
+### Bonus Skills
+Animal Handling and Nature are added to your class skills, and you gain 2 additional skill points to spent on those skill.
 
-
-### Bonus Proficiencies
-Also at 1st level, you gain proficiency with handling beasts, as well as on checks to recall information about beasts, and to track beasts.
-
-Additionally, you and your animal companion gain proficiency with Perform.
+Additionally, you and your animal companion gain the *Acrobatics* and *Acrobatics - Give performance* skills.
 
 ### Animal Friendship
-At 3rd level, you learn the *animal friendship* spell. If you already know this spell, you lean a different bard spell of your choice. This spell doesn’t count against your number of spells known.
+You learn the *animal friendship* spell. If you already know this spell, you learn a different bard spell of your choice. This spell doesn’t count against your number of spells known.
 
 You can cast the spell as a ritual, provided you use the appropriate food for the animal as material component.
 
 ### Beast Trainer
-At 6th level you learn the *find familiar* and *find steed* spells, if you do not already know them.
+You learn the *find familiar* and *find steed* spells, if you do not already know them.
 
-Additionally, you can teach your animal companion, your familiar, and your steed certain tricks. If you have proficiency with Athletics, Acrobatics, Sleight of Hand, Stealth, or Performance (or similar), your beasts are also proficient in these skills and use your proficiency bonus for them.
+Additionally, you can teach your animal companion, your familiar, and your steed certain tricks. If you have the skills Acrobatics, Art, Physique or Stealth, your beasts are also proficient in these skills (if appropriate) and use your proficiency bonus for them.
 
 ### Share Spells
-Beginning at 14th level, when you cast a spell targeting yourself, you can also affect your animal companion, your familiar, and your steed with the spell if they are within 30 feet of you.
+When you cast a spell targeting yourself, you can also affect your animal companion, your familiar and your steed with the spell if they are within 30 ft.
 
 
 
@@ -672,7 +674,7 @@ Beginning at 14th level, when you cast a spell targeting yourself, you can also 
 
 | Bard Level | Feature |
 |:----------:|:--------|
-| 1st | Bonus Proficiencies |
+| 1st | Bonus Skills |
 | 3rd | Prismatic Inspiration |
 | 6th | Visual Saturation |
 | 14th | Bending Light |
@@ -704,15 +706,15 @@ The following additions are made to the general rest rules.
 The College of Colors is a school for Bards who excel in visual arts, and who delight in the color of the world. Color is just light, after all, and light is a gift. Likewise, your art is a gift that people should delight to enjoy. Manipulation of light is an art that can be brilliantly beautiful and dangerous. An artistic masterpiece is just one brush stroke away from burning radiance ripping into your enemies. When using spell or bardic songs, a coloration bard may paint their spell effects into thin air or decorate a canvas with elaborate runes.
 
 #### Spellcasting Focus
-In addition you can use your painter’s supplies, or basically anything you can draw a quick sketch with, as a spellcasting focus for your spells and class features instead of an instrument.
+In addition you can use your painter’s supplies or basically anything you can draw a quick sketch with as a spellcasting focus for your spells and class features.
 
-### Bonus Proficiencies
-When you join the College of Colors at 1st level,you gain proficiency with visual arts (ex. painting).
+### Bonus Skills
+When you join the College of Colors at 1st level, add Arcana to your class skills. You gain 1 additional skill point each to spent on Arcana and *Art - Drawing*.
 
 In addition, you know the spell *color spray* and it does not count against the number of spells that you know. You may cast this spell once per short rest without expending a spell slot.
 
 ### Prismatic Inspiration
-At level 3, your inspiration is a work of art that can't be contained by just one genre. When you expend a use of Bardic inspiration, you specify a color, whether to yourself or out loud. When the inspired creature uses your inspiration, its next attack deals the type of damage that corresponds to your specified color. This new damage type replaces all damage that would have been dealt as another type, even if it would have been multiple damage types.
+Your inspiration is a work of art that can't be contained by just one genre. When you expend a use of Bardic inspiration, you specify a color, whether to yourself or out loud. When the inspired creature uses your inspiration, its next attack deals the type of damage that corresponds to your specified color. This new damage type replaces all damage that would have been dealt as another type, even if it would have been multiple damage types.
 
 | Color  | Damage type |
 | :----- | :---------- |
@@ -726,16 +728,16 @@ At level 3, your inspiration is a work of art that can't be contained by just on
 | Yellow | Thunder
 
 ### Visual Saturation
-At level 6, you have done significant research into how magic and light interplay, and the reason that some magic is visible to the naked eye, while some is not. You are able to tamper with this, to dampen or expose the light of magic at will.
+You have done significant research into how magic and light interplay, and the reason that some magic is visible to the naked eye, while some is not. You are able to tamper with this, to dampen or expose the light of magic at will.
 
-**Dampening**. As a ***reaction***, you can muffle the visible effects of any spell which originates from within 30 feet of you, rendering the spell invisible. The caster and the spell components performed are not invisible, only the spell's effect. If you use this effect on a spell that requires a spell attack roll, the caster has advantage on that roll to hit their target. You could also, for example, turn a Cloud of Daggers or a Web spell invisible, making it a perfect trap for a narrow corridor.
+**Dampening**. As a ***reaction***, you can muffle the visible effects of any spell which originates from within 30 ft, rendering the spell invisible. The caster and the spell components performed are not invisible, only the spell's effect. If you use this effect on a spell that requires a spell attack roll, the caster has advantage on that roll to hit their target. You could also, for example, turn a Cloud of Daggers or a Web spell invisible, making it a perfect trap for a narrow corridor.
 
-**Exposing**. You can choose to overwhelm an opponent's senses. The Weave of Magic is all around us, and using your skill to make it temporarily visible to a creature would be like moving the sun to be inches away. As an ***action***, you can force a creature within 5 feet of you to make a Wisdom saving throw using your Bardic spell DC. On a failure, they are incapacitated until the beginning of your next turn, and blinded for 10 minutes. On a success, nothing happens. The creature may attempt a new Constitution saving throw at the end of each of its turns to become see again.
+**Exposing**. You can choose to overwhelm an opponent's senses. The Weave of Magic is all around us, and using your skill to make it temporarily visible to a creature would be like moving the sun to be inches away. As an ***action***, you can force an adjacent creature to make a Wisdom saving throw against your Bardic spell DC. On a failure, they are incapacitated until the beginning of your next turn and blinded for 10 minutes. On a success nothing happens. The creature may attempt a new Constitution saving throw at the end of each of its turns to become see again.
 
-You can use each of these abilities once, and reagin their use after a short rest.
+You can use each of these abilities once, and regain their use after a short rest.
 
 ### Bending Light
-At level 14, your mastery of light allows you to render yourself and others invisible, while simultaneously creating illusionary images. Once per long rest, you may use an ***action*** to cast a Mass Mislead, turning yourself and up to 5 other creatures invisible at the exact moment you create illusions of those creatures in their places. All of these creatures targeted by this ability must be within 30 foot from you when you activate it.
+Your mastery of light allows you to render yourself and others invisible, while simultaneously creating illusionary images. Once you may use an ***action*** to cast a Mass Mislead, turning yourself and up to 5 other creatures invisible at the exact moment you create illusions of those creatures in their places. All of these creatures targeted by this ability must be within 30 ft from you when you activate it.
 
 These illusions look perfect, but act very crudely as it is difficult to maintain concentration of the mannerisms of so many creatures. You may use an ***action*** to control any one of the illusions more specifically, but without your guidance they can do nothing more extravagant than stand and appear to repeat mindless tasks. After 10 minutes, the illusions disappear, but the invisibility lasts for one hour or until an invisible creature casts a spell or makes an attack.
 
@@ -786,24 +788,23 @@ Striking a deal with a powerful devil (or another sinister power) can confer upo
 You can use a musical instrument as a spellcasting focus for your bard spells.
 
 ### Infernal Musician
-You have gained strange and sinister skills at the Crossroads. When you join this College at 1st level, you gain proficiency with performing on all musical instruments. When you make an ability check relating to musical instruments, you always have advantage.
+You have gained strange and sinister skills at the Crossroads. When you join this College at 1st level, you gain the skill to play any musical instrument.
 
-You learn to speak Infernal, the language of Devils, and whenever you make a Charisma check that incorporates Infernal speech or lyrics you gain a bonus to your roll equal to your bardic inspiration die.
-
+You learn to speak Infernal, the language of Devils, as if you had spent 2 skill points on the Language skill.
 
 
 ### Infernal Duelist
-At 3rd level, whenever you make a contested ability check against another creature, you can really get into your opponent’s head to psych them and goad them into mistakes. You can roll a Bardic Inspiration die and reduce the result from your opponent’s roll, without expending any uses of that feature.
+Whenever you make a contested ability check against another creature, you can really get into your opponent’s head to psych them and goad them into mistakes. You can roll a Bardic Inspiration die and reduce the result from your opponent’s roll, without expending any uses of that feature.
 
 In addition, you can use this ability even when not in a contest, but used this way, the die is spent.
 
 ### Eldritch Invocation
-At 6th level, your fiendish patron grants you a magical boon. You can choose one Eldritch Invocation from the warlock class that does not have prerequisites.
+Your fiendish patron grants you a magical boon. You can choose one Eldritch Invocation from the warlock class that does not have prerequisites.
 
 At 14th level, you gain an additional invocation, provided you qualify for its prerequisites (you can treat bard levels as if they were warlock levels in this instance).
 
 ### Hellish Recovery
-At 14th level, you can draw additional power from your fiendish ally. After a short rest when you have spent spent spell slots, you can either gain one ***spell point***, or regain one spell slot by spending a number of ***spell points*** equal to twice the spell slot level.
+You can draw additional power from your fiendish ally. After a short rest when you have spent spent spell slots, you can either gain one ***spell point***, or regain one spell slot by spending a number of ***spell points*** equal to twice the spell slot level.
 
 <!--
 You can use your action to recover an expended spell slot of 5th level or lower. Once you use this ability, you can’t use it again until you finish a short or long rest.-->
@@ -822,7 +823,7 @@ In addition, you learn the *infernal calling* spell, which counts as a bard spel
 
 | Bard Level | Feature |
 |:----------:|:--------|
-| 1st | Bonus Proficiencies, Combat Dancing |
+| 1st | Bonus Skills, Combat Dancing |
 | 3rd | Dance Flourish |
 | 6th | Choose a Partner |
 | 14th | Dance Party |
@@ -853,8 +854,9 @@ When paired with an ally, a dancer makes for a frenetic, distracting presence, m
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your bard spells.
 
-### Bonus Proficiencies
-When you join the College of Dance at 1st level,you gain proficiency with dancing, both socially and as a way of performing, and Acrobatics.
+### Bonus Skills
+When you join the College of Dance at 1st level, you gain 1 additional skill point each to spent on *Acrobatics - Give exhibition* and *Art - Dance*.
+
 
 ### Combat Dancing
 As a dancer, you abandon wearing armor and learn to use your body’s movement as a fluid defense. From 1st level, when not wearing armor, you gain the following benefits:
@@ -864,9 +866,8 @@ As a dancer, you abandon wearing armor and learn to use your body’s movement a
 * Your Armor Class is equal to 10 + your Dexterity modifier + your Charisma modifier.
 
 
-
 ### Dance Flourish
-From 3rd level, you can combine the arts of combat and dance. Whenever you take the Attack action on your turn, unarmed or with a weapon with the finesse or light properties, you can perform a Dancing Flourish by expending a use of Bardic Inspiration. You can use only one option per turn, choosing from the following options:
+From 3rd level, you can combine the arts of combat and dance. Whenever you take the ***Attack action***, unarmed or with a weapon with the finesse or light properties, you can perform a Dancing Flourish by expending a use of Bardic Inspiration. You can use only one option per turn, choosing from the following options:
 
  **Confounding Twirl**. Your dance creates a ribbon of energy, dealing additional force damage to the target equal to the number you roll on the Bardic Inspiration die. You also add the number rolled to your AC until the start of your next turn.
 
@@ -877,13 +878,12 @@ From 3rd level, you can combine the arts of combat and dance. Whenever you take 
  **Synchronized Strikes**. You can take the help action as a ***bonus action***. If the ally you are helping hits with their next attack, it deals additional force damage equal to the number you roll on the Bardic Inspiration die.
 
 ### Choose a Partner
-At 6th level, you can as a ***bonus action*** select a target and enter a state of supernatural grace for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you can attack your target twice, instead of once, whenever you take the Attack action.
+As a ***bonus action*** you can select a target and enter a state of supernatural grace for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you can attack your target twice, instead of once, whenever you take the Attack action.
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
 ### Dance Party
-From 14th level, after you have used a Dance Flourish, you can grant up to three friendly creatures within 30 feet, who can see or hear you, a bonus to their Armor Class until the start of your next turn. The bonus depends on the type of armor they are wearing.
-
+From 14th level, after you have used a Dance Flourish, you can grant up to three friendly creatures who can see you and are within 30 ft, a bonus to their Armor Class until the start of your next turn. The bonus depends on the type of armor they are wearing.
 
 | Armor type | AC bonus |
 | :--------- | :------: |
@@ -891,9 +891,6 @@ From 14th level, after you have used a Dance Flourish, you can grant up to three
 | Light      |    +3    |
 | Medium     |    +2    |
 | Heavy      |    +1    |
-
-
-
 
 
 
@@ -936,19 +933,17 @@ Bards of the College of Desire are peerless in a particular art, and that art is
 You can use a musical instrument, a shortbow or a longbow as a spellcasting focus for your spells.
 
 ### Bonus Proficiencies
-Starting at 1st level when you join this college, you gain proficiency with shortbows, longbows, the lyre and the Persuasion skill.
+Starting at 1st level when you join this college, you gain 1 skill point each to spend on the Bow weapon group and Speechcraft.
 
 ### Cherubic Arrow
-At 3rd level, you can bolster a heart from a distance. While wielding a shortbow or longbow, you can use a ***bonus action*** and expend one use of your Bardic Inspiration to choose a creature you can see within range of your weapon.
+You can bolster a heart from a distance. While wielding a shortbow or longbow, you can use a ***bonus action*** and expend one use of your Bardic Inspiration to choose a creature you can see within range of your weapon.
 
 You shoot a harmless magical arrow of energy at the creature, and it gains temporary hit points equal to the number you roll on the Bardic Inspiration die + your Charisma modifier.
 
 The next spell you cast before the end of your turn can ignore range if it isn't a harmful spell, doesn't have a range of self, and targets only that creature.
 
-
-
 ### Cherubic Charm
-At 6th level, your enemies often forget they are your enemies. Once per turn, when you hit a creature with a ranged weapon attack using a shortbow or longbow, you can attempt to charm it. It must succeed on a Wisdom saving throw against your spell save DC or gain the charmed condition until the end of your next turn.
+Your enemies often forget they are your enemies. Once per turn, when you hit a creature with a ranged weapon attack using a shortbow or longbow, you can attempt to charm it. It must succeed on a Wisdom saving throw against your spell save DC or gain the charmed condition until the end of your next turn.
 
 You can instead target a creature not hostile to you. In that case the attack deals no damage as the arrow dissipates on contact. The creature must make a Wisdom saving throw with disadvantage against your spell save DC. On a failed save, the creature forgets that it was shot, is charmed by you for 1 hour or until you or your companions do anything harmful to it.
 
@@ -957,11 +952,9 @@ In both cases, a creature that fails its save, can not be charmed in this way ag
 While a creature is charmed by this feature, it is also counts as charmed by any creature that has temporary hit points from your Cherubic Arrow.
 
 ### Amorous Atmosphere
-At 14th level, each and every heart flutters at your presence. As an ***action***, you can exude an aura of adoration within a 30 feet radius. For 1 minute, when a creature enters the aura for the first time on a turn or starts its turn there, it must succeed with a Wisdom saving throw or gain the charmed condition until the start of its next turn. While a creature is charmed by this feature, it is also charmed by any creature that has temporary hit points from your Cherubic Arrow.
+Each and every heart flutters at your presence. As an ***action***, you can exude an aura of adoration in a 30 ft radius. For 1 minute, when a creature enters the aura for the first time on a turn or starts its turn there, it must succeed with a Wisdom saving throw or gain the charmed condition until the start of its next turn. While a creature is charmed by this feature, it is also charmed by any creature that has temporary hit points from your Cherubic Arrow.
 
 Once you use this feature, you can't use it again until you finish a long rest.
-
-
 
 
 
