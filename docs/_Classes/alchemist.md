@@ -35,11 +35,6 @@ More experienced alchemists learn to mix less volatile substances, some of which
 ## Class Features
 As a alchemist, you gain the following class features.
 
-<!-- ---------------------------- Level 1 ----------------------------------  -->
-
-<details>
-<summary>At 1st level</summary>
-
 #### Hit Points
 **Hit Dice:** 1d8
 
@@ -49,7 +44,7 @@ You are proficient with ***Constitution*** and ***Intelligence*** saving throws.
 #### Skills
 **Class Skills:** Alchemy, Ceramics, Medicine and Herbalism
 
-**Skill Points:** You gain 2 skill points at 1st level
+**Skill Points:** You gain 2 skill points at 1st level.
 
 **Additional Skills:** You gain 4 additional skill points to spend on Alchemy. *Note that **Journeyman crafter** and **Master crafter** are much more difficult to gain during play.*
 
@@ -60,6 +55,8 @@ You are proficient with ***Constitution*** and ***Intelligence*** saving throws.
 
 **Recommended:** Light armor and Combat alchemy
 
+**After 1st level:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
+
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 
@@ -67,23 +64,6 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* an explorer's pack or *(b)* a scholar's pack
 - an alchemist's kit and a dagger
 - leather armor *(if proficient)*
-</details>
-
-
-<!-- ---------------------------- After level 1 ----------------------------------  -->
-
-<details>
-<summary>Each level after 1st</summary>
-
-#### Hit Points
-**Hit Dice:** 1d8
-
-#### Skills
-**Skill Points:** You gain 1 skill point per level.
-
-#### Skills - Combat
-**Combat Skill Points:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
-</details>
 
 
 
@@ -282,7 +262,7 @@ The philosopher’s stone also has devastating destructive potential. As a ***bo
 Many practically-minded alchemists decide to assume the role of the apothecary. An adventuring party always needs a healer, and clerics might be in short supply. On their downtime, such alchemists have a marketable skill to depend upon for income. Apothecaries are constantly at work studying potions and herbology. In order to learn how to heal the body, an apothecary must learn how the body works. This often requires carving boldly upon the corpses of the dead to further understand how they behave while living.
 
 ### Bonus Skills
-When you select this field of study at 2nd level, you gain 2 skill points to spend on Medicine. In addition, you can use your alchemist's supplies instead of a healer's kit.
+When you select this field of study at 2nd level, you gain 1 skill point to spend on Medicine. In addition, you can use your alchemist's supplies instead of a healer's kit.
 
 ### Painkiller Bomb
 At 2nd level, you can create bombs which spray an analgesic oil. When creating a bomb, you can replace its contents with this oil, changing it to a painkiller bomb. The bomb can then be thrown as normal or splashed on an adjacent creature.
@@ -471,7 +451,7 @@ During the transformation, the cadaver can't create another cadaver using its 'A
 
 | Alchemist level | Feature |
 |:------------:|:--------|
-| 2nd | Bonus Skills, Makeshift Bombs
+| 2nd | Makeshift Bombs
 | 7th | Demolition
 | 10th | Expanding blast
 | 16th | Big bombs
@@ -479,9 +459,6 @@ During the transformation, the cadaver can't create another cadaver using its 'A
 </div>
 
 While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.
-
-### Bonus Skills
-When you select this field of study at 2nd level, you gain 1 additional skill point.
 
 ### Makeshift Bombs
 At 2nd level, the creation of bombs is so ingrained in your memory that you can do it in an instant. As long as you have alchemist’s supplies and a component pouch, you can create a makeshift bomb as an ***item action***. The bomb does not count against your daily limit of concoctions, only damages a single target on a hit and cannot be modified by any of your discoveries.
