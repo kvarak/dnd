@@ -565,7 +565,7 @@ A cook gains proficiency with Intelligence saving throws and the cooking skill. 
 
 In addition you learn the *Chef’s Boon* cantrip.
 
-<div class="feat">
+<div class="spell">
 
 #### Chef’s Boon
 *Evocation cantrip*
@@ -586,7 +586,7 @@ When you can cast the chef’s boon, select one of the following effects:
 ### Chef Fighting Style
 Choose one of the following fighting styles.
 
-<div class="columns">
+<div class="columnstwo">
 
 - **Skewer.** You master the javelin, spear, lance, pike and trident, gaining proficiency with these weapons. While wielding any of these weapons, if you move at least 15 feet in a straight line towards a creature and successfully hit it, that target must succeed at a Strength saving throw against a DC of 8 + your proficiency bonus + your Strength modifier or be pushed back up to 10 feet. If the target is pushed into or adjacent to another creature, you may deal the same amount of damage to that creature equal to the damage dealt to the initial target.
 
