@@ -252,9 +252,9 @@ Different sorcerers claim different origins for their innate magic. Choose a sor
 
 <div class="columnstwo">
 
--**<a href="#internal-aberrant">Aberrant Bloodline</a>**. Somewhere in your bloodline, your ancestors were tainted by an aberration.
+- **<a href="#internal-aberrant">Aberrant Bloodline</a>**. Somewhere in your bloodline, your ancestors were tainted by an aberration.
 
--**<a href="#internal-arachnid">Arachnid Magic</a>**. You are a sorcerer who has mastered the might and abilities of spiders, manipulating other creatures and web alike. Perhaps you were bitten by a magical spider, or your birth was affected by magical abilites from Lolth.
+- **<a href="#internal-arachnid">Arachnid Magic</a>**. You are a sorcerer who has mastered the might and abilities of spiders, manipulating other creatures and web alike. Perhaps you were bitten by a magical spider, or your birth was affected by magical abilites from Lolth.
 
 - **<a href="#internal-ashen">Ashen Lineage</a>**. Somewhere in your bloodline, one of your ancestors made a pact with a powerful spirit of flame and predation known as the Ashen Wolf. With smoke and cinders pouring from your hands with each spell you cast and a layer of ash gradually creeping over your body, you are the incarnation of a smoldering ember thrown upon a dry forest. Let your power burn forth like wildfire
 
