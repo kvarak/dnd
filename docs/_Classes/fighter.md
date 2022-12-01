@@ -220,7 +220,7 @@ Your courageous words inspire valor and ferocity in your allies, allowing you to
 
 
 
-## <a name="internal-origins">Fighter Origins</a>
+<h2><a class="internal-link" name="internal-origins">Fighter Origins</a></h2>
 
 The type of martial training you received sets the groundwork for your career as a fighter. Select the origin most suitable for your character.
 

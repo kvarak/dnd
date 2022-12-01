@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc">
 
-#### [Fields of Expertise](#p5)
+#### [Fields of Expertise](#internal-fields)
 <a href="#internal-arcanist">Arcanist</a><br/>
 <a href="#internal-archaeologist">Archaeologist</a><br/>
 <a href="#internal-astronomer">Astronomer</a><br/>
@@ -30,24 +30,6 @@ Typically, a professional will make his or her biggest contributions to an adven
 
 
 ## Class Features
-
-As a professional, you gain the following class features.
-
-#### Hit Points
-**Hit Dice:** 1d8
-
-#### Proficiencies
-**Armor:** Light armor
-
-**Weapons:** Simple weapons
-
-**Saving Throws:** Wisdom
-
-#### Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
-- *(a)* A leather armor and any simple weapon, *(b)* a leather armor and a hand crossbow or *(c)* a heavy crossbow
-- *(a)* A diplomat’s pack or *(b)* an explorer's pack
-- Any two tools or tool kits
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
@@ -76,6 +58,24 @@ You start with the following equipment, in addition to the equipment granted by 
 |20th| +6| Pinnacle of Achievement | 2 |22| 4| 3| 3| 3| 3| 2| 2| 1|1|
 
 </div>
+
+As a professional, you gain the following class features.
+
+#### Hit Points
+**Hit Dice:** 1d8
+
+#### Proficiencies
+**Armor:** Light armor
+
+**Weapons:** Simple weapons
+
+**Saving Throws:** Wisdom
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- *(a)* A leather armor and any simple weapon, *(b)* a leather armor and a hand crossbow or *(c)* a heavy crossbow
+- *(a)* A diplomat’s pack or *(b)* an explorer's pack
+- Any two tools or tool kits
 
 ### Adaption
 By necessity you have a nimble mind and take to anything new quickly. If you have seen a creature make any type of ability check, attack roll, or Dexterity saving throw within the last 10 minutes, you can spend a Talent die, a d6, and add the number rolled to your own roll of the same type.
@@ -191,55 +191,57 @@ At 20th level, your Wisdom increases by 2 and your maximum becomes 22.
 
 
 
+<h2><a class="internal-link" name="internal-fields">Fields of Expertise</a></h2>
 
-
-
-## Fields of Expertise
 Each professional has a field of expertise. It might be the craft he has practised his entire life, or the theoretical subject he has learnt as much as possible about.
 
 At 1st level, you choose your expertise. Your expertise grants you features at 1st level and again at 3rd, 6th, 9th, 13th and 17th level.
 
- **<a href="#internal-arcanist">Arcanist</a>** - A scholar dedicated to the study of magic.
+<div class="columnsthree">
 
- **<a href="#internal-archaeologist">Archaeologist</a>** - The archaeologist is an explorer of the past.
+- **<a href="#internal-arcanist">Arcanist</a>** - A scholar dedicated to the study of magic.
 
- **<a href="#internal-astronomer">Astronomer</a>** - The astronomer is interested in mysteries of the universe and the forces that rule it.
+- **<a href="#internal-archaeologist">Archaeologist</a>** - The archaeologist is an explorer of the past.
 
- **<a href="#internal-candlemaker">Candlemaker</a>** - The making of candles is a simple craft. However, the real masters of candlemaking fashion candles with stores of arcane energy in the wax.
+- **<a href="#internal-astronomer">Astronomer</a>** - The astronomer is interested in mysteries of the universe and the forces that rule it.
 
- **<a href="#internal-cook">Cook</a>** - Chefs are the much forgotten caretakers of every band of heroes, for a dragon-slaying barbarian, no matter how invincible in battle, can always die of hunger.
+- **<a href="#internal-candlemaker">Candlemaker</a>** - The making of candles is a simple craft. However, the real masters of candlemaking fashion candles with stores of arcane energy in the wax.
 
- **<a href="#internal-diplomat">Diplomat</a>** - Diplomats are usually professional negotiators, emissaries and ambassadors.
+- **<a href="#internal-cook">Cook</a>** - Chefs are the much forgotten caretakers of every band of heroes, for a dragon-slaying barbarian, no matter how invincible in battle, can always die of hunger.
 
- **<a href="#internal-forester">Forester</a>** - The forester knows the wilderness like the back of hands. While the archetypical outdoorsman who lends the class her name is a forester, the abilities of the class are adaptable to all terrain types and climates. The class can equally represent a character at home in the mountains, plains, jungle, swamp, or desert, in equatorial heat or frigid arctic climes.
+- **<a href="#internal-diplomat">Diplomat</a>** - Diplomats are usually professional negotiators, emissaries and ambassadors.
 
- **<a href="#internal-psychologist">Psychologist</a>** - A student of the mind.
+- **<a href="#internal-forester">Forester</a>** - The forester knows the wilderness like the back of hands. While the archetypical outdoorsman who lends the class her name is a forester, the abilities of the class are adaptable to all terrain types and climates. The class can equally represent a character at home in the mountains, plains, jungle, swamp, or desert, in equatorial heat or frigid arctic climes.
 
- **<a href="#internal-smith">Smith</a>** - A metal crafter, usually specialized in crafting a certain type of items or metals.
+- **<a href="#internal-psychologist">Psychologist</a>** - A student of the mind.
 
-
-
-
+- **<a href="#internal-smith">Smith</a>** - A metal crafter, usually specialized in crafting a certain type of items or metals.
 
 
+</div>
 
 
-# <a name="arcanist">Arcanist</a>
-You have spent your life studying and understanding the underlying mechanics of magic. It is the most academic of all arcane traditions. The promise of uncovering new knowledge or proving (or discrediting) a theory of magic is usually required to rouse an arcanist from his  academies, and archives to pursue a life of adventure.
 
-Arcanist are usually a bookish lot who see beauty and mystery in the application of magic. The result of a spell are less interesting to them than the process that creates the effect.
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-arcanist">Arcanist</a></h1>
+<div class="featuresTable">
 
 #### Arcanist Features
 | Professional Level | Feature |
 | :----------------: | :------ |
-| 1st | Arcane Spellcasting, Bonus Proficiencies, Magic Item Analysis |
+| 1st | Arcane Spellcasting,<br/>Bonus Proficiencies,<br/>Magic Item Analysis |
 | 3rd | Savvy Arcanist |
 | 6th | Superior Attunement |
 | 9th | Master of Arcane Theory |
 | 13th | Use Magic Device |
 | 17th | Superior Attunement |
 
+</div>
+
+You have spent your life studying and understanding the underlying mechanics of magic. It is the most academic of all arcane traditions. The promise of uncovering new knowledge or proving (or discrediting) a theory of magic is usually required to rouse an arcanist from his  academies, and archives to pursue a life of adventure.
+
+Arcanist are usually a bookish lot who see beauty and mystery in the application of magic. The result of a spell are less interesting to them than the process that creates the effect.
 
 ### Arcane Spellcasting
 Select an arcane tradition from the Wizard class. When selecting cantrips and other spells, use the spell list of that tradition.
@@ -274,23 +276,27 @@ At 17th level, you can attune to up to five magic items.
 
 
 
-
-
-# <a name="archaeologist">Archaeologist</a>
-Archaeologists explore the isolated reaches of the world lost to history and time. Such places are almost always dangerous, however, and many secrets held within these hidden locations are guarded by beings who would fight and die to keep them.
-
-An archaeologist must be prepared for traps, danger, and deadly combat when delving into the world's most perilous places, but this risk is often much of what makes their discoveries worthwhile. An eccentric lot, archaeologists often believe heavily in luck, intelligence, and skill, trusting to their tools as easily as trusting a roll of the dice.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-archaeologist">Archaeologist</a></h1>
+<div class="featuresTable">
 
 #### Archaeologist Features
 | Professional Level | Feature |
 | :----------------: | :------ |
-| 1st | Bonus Proficiencies, Whip Master |
+| 1st | Bonus Proficiencies,<br/>Whip Master |
 | 3rd | Explorer’s Tricks |
 | 6th | Extra Attack |
 | 9th | Ruin Researcher |
 | 13th | Fortune’s Favor |
 | 17th | Paragon of Adventure |
+
+</div>
+
+Archaeologists explore the isolated reaches of the world lost to history and time. Such places are almost always dangerous, however, and many secrets held within these hidden locations are guarded by beings who would fight and die to keep them.
+
+An archaeologist must be prepared for traps, danger, and deadly combat when delving into the world's most perilous places, but this risk is often much of what makes their discoveries worthwhile. An eccentric lot, archaeologists often believe heavily in luck, intelligence, and skill, trusting to their tools as easily as trusting a roll of the dice.
+
+
 
 
 ### Bonus Proficiencies
@@ -355,20 +361,25 @@ At 17th level, your reputation and glory as an explorer are unrivaled. You regai
 
 
 
-
-# <a name="astronomer">Astronomer</a>
-You spent a significant portion of your life studying the stars, planets, and other wonders of the universe. You can use the clues observed in the sky to help you discern realities about the world around you. You are interested in mysteries of the universe and the forces that rule it.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-astronomer">Astronomer</a></h1>
+<div class="featuresTable">
 
 #### Astronomer Features
 | Professional Level | Feature |
 | :----------------: | :------ |
-| 1st | Arcane Spellcasting, Bonus Proficiencies, Foretold Foe |
+| 1st | Arcane Spellcasting,<br/>Bonus Proficiencies,<br/>Foretold Foe |
 | 3rd | Read the Sky |
 | 6th | Heaven's Will |
 | 9th | Divine Insight |
 | 13th | Signs and Portents |
 | 17th | Portentous Omen |
+
+</div>
+
+You spent a significant portion of your life studying the stars, planets, and other wonders of the universe. You can use the clues observed in the sky to help you discern realities about the world around you. You are interested in mysteries of the universe and the forces that rule it.
+
+
 
 
 ### Arcane Spellcasting
@@ -410,12 +421,9 @@ Once you use this ability, you cannot use it again in the same turn.
 
 
 
-
-# <a name="candlemaker">Candlemaker</a>
-Candlemaking is a simple craft, but also an old and oft forgotten discipline of magic, whose practice is among the most mysterious in all spellcasting. It is based in wax, which is both the base and fuel for flame; a moldable thing, melted and poured in layers to be fed to the fire. Secrets can be held within wax -- secrets, or spells.
-
-Candle casters, as arcane masters of this craft are often known, fashion candles with stores of arcane energy in the wax, and a single spell hidden in the wick, which are revealed as the flame ignites. They are apt to carry many candles with many types of magic, for whatever need might arise, and even a few mundane ones, for when it is merely dark.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-candlemaker">Candlemaker</a></h1>
+<div class="featuresTable">
 
 #### Candlemaker Features
 | Professional Level | Feature |
@@ -427,9 +435,64 @@ Candle casters, as arcane masters of this craft are often known, fashion candles
 | 13th | Invocation |
 | 17th | Pure Beacon |
 
+</div>
+
+Candlemaking is a simple craft, but also an old and oft forgotten discipline of magic, whose practice is among the most mysterious in all spellcasting. It is based in wax, which is both the base and fuel for flame; a moldable thing, melted and poured in layers to be fed to the fire. Secrets can be held within wax -- secrets, or spells.
+
+Candle casters, as arcane masters of this craft are often known, fashion candles with stores of arcane energy in the wax, and a single spell hidden in the wick, which are revealed as the flame ignites. They are apt to carry many candles with many types of magic, for whatever need might arise, and even a few mundane ones, for when it is merely dark.
 
 ### Bonus Proficiencies
 A candlemaker gains proficiency with Intelligence saving throws and the candlemaker's tools.  You have advantage on all ability checks using those tools.
+
+<div class="monster frame">
+<table class="monster">
+<thead><tr><th>
+Torchling
+</th></tr></thead>
+<tbody>
+<tr><td><i>small elemental</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
+
+**Armor Class**   12
+
+**Hit Points**    4 (1d6 + 1)
+
+**Speed**         30 ft.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
+|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|3 (-4)|14 (+2)|13 (+1)|5 (-3)|5 (-3)|7 (-2)|
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
+**Damage Immunities** 		  fire, poison
+
+**Condition Immunities** 	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
+
+**Languages** 						  none, but understands caster
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
+### Features
+***Death Burst***. When the torchling dies, it explodes in a burst of fire and wax. Creatures within 10 ft must make a DC 11 Dex saving throw, taking 2d6 fire damage on a failed save, or half as much damage on a successful one. Flammable objects not worn or carried in that area are ignited.
+
+***Fire Form***. The torchling can move through a space as narrow as 1-inch wide. In addition, it can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 2d6 fire damage.
+
+***Illumination***. The torchling sheds bright light in a 15-foot radius and dim light in an additional 15 ft.
+
+***Water Susceptibility***. For every 5 ft. the torchling moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.
+
+</td></tr></tbody></table>
+</div>
 
 ### Candle Casting
 Starting at 1st level when you select this Field of expertise, you can cast your spells through the lighting of an arcane candle. You can convert any number of nonmagical candles into arcane candles for no cost over a long rest by providing a mix of material components from a material component pouch when you create them.
@@ -447,38 +510,6 @@ Starting at 6th level, when you light an everburning candle, you can choose for 
 Starting at 6th level, whenever you cast a spell which deals fire damage or radiant damage, or creates light in an area, you can use your ***bonus action*** to conjure a torchling to your side. The torchling is friendly to you and your companions, and acts on your turn. It obeys any verbal commands that you issue (no action required).
 
 The torchling lasts until it is reduced to 0 hit points, until the spell ends or after a number of rounds equal to the level of the spell cast, whichever is longer. At the end of this duration, the torchling explodes, as per its Death Burst trait. You can only have one torchling at a time.
-
-{{}}">monster,frame
-## Torchling
-*Small elemental*
-
-**Armor Class**   12
-**Hit Points**    4 (1d6 + 1)
-**Speed**         30 ft.
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4)|14 (+2)|13 (+1)|5 (-3)|5 (-3)|7 (-2)|
-
-**Damage Immunities** 		  fire, poison
-**Condition Immunities** 	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
-**Languages** 						  none, but understands caster
-
-### Features
-***Death Burst***. When the torchling dies, it explodes in a burst of fire and wax. Creatures within 10 ft must make a DC 11 Dex saving throw, taking 2d6 fire damage on a failed save, or half as much damage on a successful one. Flammable objects not worn or carried in that area are ignited.
-
-***Fire Form***. The torchling can move through a space as narrow as 1-inch wide. In addition, it can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 2d6 fire damage.
-
-***Illumination***. The torchling sheds bright light in a 15-foot radius and dim light in an additional 15 ft.
-
-***Water Susceptibility***. For every 5 ft. the torchling moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.
-
-
-
-
-
-
-
 
 
 ### Unfettered Candle
@@ -509,38 +540,39 @@ When you reach 17th level, the light of your candles reveals even treacherous ma
 
 
 
-
-
-# <a name="cook">Cook</a>
-Chefs are the much forgotten caretakers of every band of heroes, for a dragon-slaying barbarian, no matter how invincible in battle, can always die of hunger. Through tasty food, chef strengthen their allies.
-
-A true chef does her duty regardless of where she is: to feed the hungry, and to do it with panache. A chef can create works of art through her fine courses, or whip up delicious stews out of scraps from the wilds. While many chefs prefer to their culinary arts from the comforts of the kitchen, some chefs fear not the unknown and instead see it as a source of exotic and exciting ingredients. Chefs are masters of improvisation and take care of their kin with the most wonderful of dishes.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-cook">Cook</a></h1>
+<div class="featuresTable">
 
 #### Cook Features
 | Professional Level | Feature |
 | :----------------: | :------ |
-| 1st | Bonus Proficiencies, Chef Fighting Style, Snacks |
+| 1st | Bonus Proficiencies,<br/>Chef Fighting Style,<br/>Snacks |
 | 3rd | Clever Cook, Kitchen Tricks |
 | 6th | Extra Attack |
 | 9th | Cast Iron Stomach |
 | 13th | Magnificent Meal |
 | 17th | Master Chef |
 
+</div>
+
+Chefs are the much forgotten caretakers of every band of heroes, for a dragon-slaying barbarian, no matter how invincible in battle, can always die of hunger. Through tasty food, chef strengthen their allies.
+
+A true chef does her duty regardless of where she is: to feed the hungry, and to do it with panache. A chef can create works of art through her fine courses, or whip up delicious stews out of scraps from the wilds. While many chefs prefer to their culinary arts from the comforts of the kitchen, some chefs fear not the unknown and instead see it as a source of exotic and exciting ingredients. Chefs are masters of improvisation and take care of their kin with the most wonderful of dishes.
 
 ### Bonus Proficiencies
 A cook gains proficiency with Intelligence saving throws and the cooking skill. You have advantage on all ability checks when cooking.
 
 In addition you learn the *Chef’s Boon* cantrip.
 
-<div class="descriptive" markdown="1">
+<div class="feat">
 
 #### Chef’s Boon
 *Evocation cantrip*
 
-**Range:**          30 feet
-**Components:**     V, S
-**Duration:**       Instantaneous, or concentration up to 10 minutes
+**Range:**          30 feet<br/>
+**Components:**     V, S<br/>
+**Duration:**       Instantaneous, or concentration up to 10 minutes<br/>
 
 When you can cast the chef’s boon, select one of the following effects:
 * Instantly clean your cook's utensils or chef's outfit.
@@ -548,19 +580,23 @@ When you can cast the chef’s boon, select one of the following effects:
 * Cause a pot or similar container full of liquid to stir itself magically.
 * Heat the bottom of a metal container, cooking the inside contents evenly and fully.
 
-
+</div>
 
 
 ### Chef Fighting Style
 Choose one of the following fighting styles.
 
- **Skewer.** You master the javelin, spear, lance, pike and trident, gaining proficiency with these weapons. While wielding any of these weapons, if you move at least 15 feet in a straight line towards a creature and successfully hit it, that target must succeed at a Strength saving throw against a DC of 8 + your proficiency bonus + your Strength modifier or be pushed back up to 10 feet. If the target is pushed into or adjacent to another creature, you may deal the same amount of damage to that creature equal to the damage dealt to the initial target.
+<div class="columns">
 
- **Tenderize.** You master the great club, quarterstaff, flail, maul, morningstar and warhammer, gaining proficiency with these weapons. While wielding any of these weapons, whenever you have advantage against a target and successfully hit it, the target must succeed on Strength saving throw with a DC of 8 + your proficiency bonus + your Strength modifier or be knocked prone.
+- **Skewer.** You master the javelin, spear, lance, pike and trident, gaining proficiency with these weapons. While wielding any of these weapons, if you move at least 15 feet in a straight line towards a creature and successfully hit it, that target must succeed at a Strength saving throw against a DC of 8 + your proficiency bonus + your Strength modifier or be pushed back up to 10 feet. If the target is pushed into or adjacent to another creature, you may deal the same amount of damage to that creature equal to the damage dealt to the initial target.
 
- **Score.** You have proficiency with all slashing weapons. If you successfully hit a target with a slashing weapon two turns in a row or hit them twice in one turn, you may apply bleeding to that target (if the target has blood). A Bleeding target takes damage equal to your Wisdom modifier at the start of their next turn.
+- **Tenderize.** You master the great club, quarterstaff, flail, maul, morningstar and warhammer, gaining proficiency with these weapons. While wielding any of these weapons, whenever you have advantage against a target and successfully hit it, the target must succeed on Strength saving throw with a DC of 8 + your proficiency bonus + your Strength modifier or be knocked prone.
 
- **Simmer and Stir.** You gain proficiency with shields and a +1 bonus to AC while holding a shield. If an enemy successfully hits you while you are holding a shield, you may use your ***reaction*** to slam that enemy with the shield, dealing damage equal to your Strength modifier.
+- **Score.** You have proficiency with all slashing weapons. If you successfully hit a target with a slashing weapon two turns in a row or hit them twice in one turn, you may apply bleeding to that target (if the target has blood). A Bleeding target takes damage equal to your Wisdom modifier at the start of their next turn.
+
+- **Simmer and Stir.** You gain proficiency with shields and a +1 bonus to AC while holding a shield. If an enemy successfully hits you while you are holding a shield, you may use your ***reaction*** to slam that enemy with the shield, dealing damage equal to your Strength modifier.
+
+</div>
 
 In addition you are able to use your chef's utensils as an arsenal of weaponry, as shown in the Culinary Weaponry table. If a culinary weapon is lost or destroyed, you can replace them after by shopping in an urban area. Your culinary weapons can be enchanted like regular weapons and you have proficiency with them.
 
@@ -597,36 +633,38 @@ Whenever a saving throw is required, the DC is 8 + the user's Constitution modif
 
 When the Snack die is mentioned, it is equal to 1d6 + your Wisdom modifier. This increases to 2d6 at 6th level and increases again to 3d6 at 13th level.
 
- **Arcane Delights**. You can fold a spell into any form of baked goods, from pies, to cakes, to biscuits. When creating this sweet snack, you can expend a spell slot to fold a spell into one item of pastry. When the pastry is consumed, the spell is released, targeting the creature that activated it. If the spell requires concentration, the target can maintain concentration. If it doesn't, the spell ends at the start of the creature's next turn.
+<div class="columns">
 
- **Draconic Spice**. Once while under the effects of this snack, the target may use an ***action*** to spit a 15 ft cone of fire. Each creature caught inside the cone of fire must succeed at a Dexterity saving throw or take damage equal to the Snack die.
+- **Arcane Delights**. You can fold a spell into any form of baked goods, from pies, to cakes, to biscuits. When creating this sweet snack, you can expend a spell slot to fold a spell into one item of pastry. When the pastry is consumed, the spell is released, targeting the creature that activated it. If the spell requires concentration, the target can maintain concentration. If it doesn't, the spell ends at the start of the creature's next turn.
 
- **Magic Morsel**. Target recovers hit points equal to your Snack die.
+- **Draconic Spice**. Once while under the effects of this snack, the target may use an ***action*** to spit a 15 ft cone of fire. Each creature caught inside the cone of fire must succeed at a Dexterity saving throw or take damage equal to the Snack die.
 
- **Raucous Belch**. The creature gains the ability to release a loud and odorous burp. Once while under the effects of this snack, as an ***action*** it may have each creature in a 10 foot cone originating from it make a Constitution saving throw. On a failed save, targets are poisoned until the start of burpers next turn.
+- **Magic Morsel**. Target recovers hit points equal to your Snack die.
 
-  **Spicy, roasted pepper**. When ingested, this snack reacts with the stomach’s juices to create a fiery sensation that warms the body and manifests a fever. The target gains resistance to cold.
+- **Raucous Belch**. The creature gains the ability to release a loud and odorous burp. Once while under the effects of this snack, as an ***action*** it may have each creature in a 10 foot cone originating from it make a Constitution saving throw. On a failed save, targets are poisoned until the start of burpers next turn.
 
+-  **Spicy, roasted pepper**. When ingested, this snack reacts with the stomach’s juices to create a fiery sensation that warms the body and manifests a fever. The target gains resistance to cold.
 
+- **Hot Wings**. When ingested, it causes intense sweating that greases the body. The target gains fire resistance.
 
- **Hot Wings**. When ingested, it causes intense sweating that greases the body. The target gains fire resistance.
+- **Deep Fried Candybar**. The target has advantage on Strength checks, and its carrying capacity doubles.
 
- **Deep Fried Candybar**. The target has advantage on Strength checks, and its carrying capacity doubles.
+- **Milky Delight**. The target has advantage on one type of saving throws.
 
- **Milky Delight**. The target has advantage on one type of saving throws.
+- **Bean Bites**. The target gains temporary hit points equal to your Snack die + your professional level.
 
- **Bean Bites**. The target gains temporary hit points equal to your Snack die + your professional level.
+</div>
 
 ### Clever Cook
 Beginning when you reach 3rd level, your experience with traveling has made you acutely aware of edible materials in the wild. You gain the following benefits:
 * When you forage, you find twice as much food than you normally would.
-
 * You can cleanse poison and disease from the flesh of any creature that you or your group kills, making it edible.
-
 * Any creature who eats your food during a short rest, regain extra hit points equal to your Wisdom modifier.
 
 ### Kitchen Tricks
 Also at 3rd level, you learn a handful of techniques that help you overcome enemies outside the kitchen. You gain a number of points equal to your Wisdom modifier + 1, each of which may be expended to use one of the abilities listed here. You regain all expended points with a long rest.
+
+<div class="columns">
 
  **Flour Smokescreen.** As an ***action***, you can create a 20 foot radius flour smokescreen centered on a point within 30 feet. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
 
@@ -636,12 +674,7 @@ Also at 3rd level, you learn a handful of techniques that help you overcome enem
 
  **Spice of Life.** You keep ready a sachet of spices up your sleeves to throw when times get desperate. When a creature makes a melee attack against you, you can give them disadvantage as a ***reaction***. Once you use this, you can't use it again until you finish a short rest.
 
-
-
-
-
-
-
+</div>
 
 ### Extra Attack
 From 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
@@ -666,9 +699,10 @@ Also, if you cook a meal during a long rest, you and anyone who eats your food c
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-diplomat">Diplomat</a></h1>
+<div class="featuresTable">
 
-
-# <a name="diplomat">Diplomat</a>
 Diplomats are usually professional negotiators, emissaries and ambassadors. They might also be agents of governments, or freelance members of an independent "Guild of Mediators" hired by those wishing to resolve disputes. They may also serve as spies, or investigators of politically-sensitive scandals or crimes
 
 
@@ -716,7 +750,7 @@ Starting at 17th level, your heart cannot be swayed to extremes. You are immune 
 
 
 
-# <a name="forester">Forester</a>
+# <a name="internal-forester">Forester</a>
 The forester is a wilderness expert, her abilities derived from long and intimate relationship with the outdoors. For some, this acquaintanceship comes as the natural consequence of a frontier or tribal upbringing. Others acquire their skills while pursuing their livelihood; these include but are certainly not limited to hunters, trappers, herders, woodcutters, herbalists, prospectors, and game wardens. Among humans, few foresters receive formal training. The exceptions are those trained to serve as elite military scouts or border wardens.
 
 Foresters are hardened by wilderness life far from the comforts of civilization. They are toughened by the challenges posed by a sometimes-dangerous natural world, and while they lack formal combat training, they are no strangers to weapons.
@@ -815,7 +849,7 @@ Starting at 17th level, instead of rolling a saving throw, you can choose to cou
 
 
 
-# <a name="psychologist">Psychologist</a>
+# <a name="internal-psychologist">Psychologist</a>
 A psychologist is a scientist of the mind. He might be a doctor specialized in the illnesses of the mind, working to cure those unfortunate souls committed to the sanatorium. Or he might be a university professor trying to unlock the secrets of why certain behaviours seem to appear in some types of races or creatures.
 
 
@@ -867,7 +901,7 @@ From 17th level you have resistance to psychic damage and advantage on all saves
 
 
 
-# <a name="smith">Smith</a>
+# <a name="internal-smith">Smith</a>
 Every village, town, and city has its own blacksmith. Some, however, become restless of simply working at their profession and put their skills to use as adventurers. Years of forging have already hardened them against the elements, and their blades are often a mark of great care and dedication.
 
 
