@@ -1196,9 +1196,9 @@ You gain a magical benefit based on the totem animal of your choice. You can cho
 
 #### Archetype Features
 
-| Barbarian Level | Feature |
+| Class Level | Feature |
 | :-: | :--- |
-| 1st | Bonus Proficiency |
+| 1st | Bonus Skills |
 | 3rd | Tribal Leader |
 | 6th | War Song, Battlecry (3)  |
 | 10th | Commanding Presence, Battlecry (4) |
@@ -1223,33 +1223,29 @@ The following additions are made to the general rest rules.
 
 While some barbarians prefer a life of savage solitude, others long for a tribe. Barbarians on the Path of the War Chief are leaders and warrior kings who can turn any scrappy group of companions into a tight-knit tribe. Inspiring their allies to victory with battle cries and war songs, war chiefs lead every battle from the frontline.
 
-### Bonus Proficiency
-When you adopt this path at 1st level, you gain proficiency in one of the following skills of your choice: History (of your tribe and the area you live in), Intimidation or Diplomacy.
-
-Alternatively, you learn one language of your choice.
+### Bonus Skills
+When you adopt this path at 1st level, you gain 1 skill point each in History, Language and Speechcraft.
 
 ### Tribal Leader
-At 3rd level, you learn to bolster the resolve of your allies, and crush that of your enemies, with battle cries. You learn two battle cries of your choice, which are detailed under “Battle Cries” below. You learn an additional battle cry of your choice at 6th, 10th, and 14th level. Each time you learn a new battle cry, you can also replace one battle cry you know with a different one.
+You learn to bolster the resolve of your allies, and crush that of your enemies, with battle cries. You learn two battle cries of your choice, which are detailed under “Battle Cries” below. You learn an additional battle cry of your choice at 6th, 10th, and 14th level. Each time you learn a new battle cry, you can also replace one battle cry you know with a different one.
 
-You can issue one of your battle cries as an ***action*** on your turn. When you do, you choose a creature other than yourself within 30 feet of you that can hear you as the target for the battle cry. That target gains the effect of the chosen battle cry.
+You can issue one of your battle cries as an ***action*** on your turn. When you do, you choose a creature other than yourself within 30 ft of you that can hear you as the target for the battle cry. That target gains the effect of the chosen battle cry.
 
 While raging, you can issue a battle cry as a ***bonus action*** on your turn.
 
 ### War Song
-At 6th level, you augment your rage with a tribal song or chant that inspires greater power in your allies’ attacks. While raging, when a friendly creature, other than yourself, within 15 feet of you hits with an attack, the attack gains a bonus to its damage equal to half your rage damage bonus. A creature must be able to hear you to gain the benefits of this feature.
-
-
+You augment your rage with a tribal song or chant that inspires greater power in your allies’ attacks. While raging, when a friendly creature other than yourself within 15 ft of you hits with an attack, the attack gains a bonus to its damage equal to half your rage damage bonus. A creature must be able to hear you to gain the benefits of this feature.
 
 
 ### Commanding Presence
-At 10th level, you gain a supernatural ability to influence and inspire obedience in others. You can cast the *command* and *suggestion* spells once each without using a spell slot or material components. Charisma is your spellcasting ability for the spells.
+You gain a supernatural ability to influence and inspire obedience in others. You can cast the *command* and *suggestion* spells once each without using a spell slot or material components. Charisma is your spellcasting ability for the spells.
 
-You can cast each spell once. See *Rest Additions* below.
+See *Rest Additions*.
 
 ### Chieftain’s Voice
-Starting at 14th level, your voice booms with such incredible authority that even those who cannot hear it are compelled to listen. If a creature is deafened, it can still hear you when you speak, as well as when you make any noise, for the purpose of your War Chief features.
+Your voice booms with such incredible authority that even those who cannot hear it are compelled to listen. If a creature is deafened, it still counts as hearing you when you speak for the purpose of your War Chief features.
 
-Additionally, the range of your War Song increases to 30 feet, and when you issue a battle cry, you can choose a creature within 60 feet that can hear you as the target for the battle cry’s effects.
+Additionally, the range of your War Song increases to 30 ft, and when you issue a battle cry, you can choose a creature within 60 ft as the target for its effects.
 
 ## Battle Cries
 
@@ -1263,15 +1259,15 @@ Additionally, the range of your War Song increases to 30 feet, and when you issu
 
 - **Defensive Holler**. The first attack made against the target before the start of your next turn is made with disadvantage.
 
-- **Empowering Howl**. The first time the target hits with a weapon attack before the start of your next turn, it gains a bonus to the damage roll equal to your Charisma modifier (minimum 1).
+- **Empowering Howl**. The first time the target hits with a weapon attack before the start of your next turn, it gains a bonus to the damage roll equal to your Charisma modifier.
 
-- **Hastening Whoop**. The target can use its reaction to move up to half its speed. If this movement provokes an opportunity attack, the attack roll is made with disadvantage.
+- **Hastening Whoop**. The target can use its ***reaction*** to move up to half its speed. If this movement provokes an opportunity attack, the attack roll is made with disadvantage.
 
 - **Infuriating Bark**. The target has disadvantage on attack rolls against targets other than you until the start of your next turn. This battle cry has no effect on a creature immune to being charmed.
 
 - **Inspiring Roar**. The first time the target makes an attack roll or ability check before the start of your next turn, it can roll a d4 and add the number rolled to the attack roll or ability check.
 
-- **Invigorating Shout**. The target gains temporary hit points equal 1d6 + your Charisma modifier (minimum 1). It loses any of these remaining temporary hit points at the start of your next turn.
+- **Invigorating Shout**. The target gains temporary hit points equal 1d6 + your Charisma modifier. It loses any of these remaining temporary hit points at the start of your next turn.
 
 - **Maddening Ululation**. The target has advantage on the first melee weapon attack it makes before the start of your next turn, and the first attack made against it before then by a creature other than you is made with advantage. This battle cry has no effect on a creature immune to being charmed.
 
@@ -1288,7 +1284,7 @@ Additionally, the range of your War Song increases to 30 feet, and when you issu
 
 #### Archetype Features
 
-| Barbarian Level | Feature |
+| Class Level | Feature |
 | :-: | :--- |
 | 1st | Warrior of the Gods |
 | 3rd | Divine Fury |
@@ -1316,22 +1312,20 @@ The following additions are made to the general rest rules.
 Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots—warriors who channel their rage into powerful displays of divine power. A variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.
 
 ### Warrior of the Gods
-Starting when you choose this path at 1st level, your soul is marked for endless battle. If a spell, such as raise dead, has the sole effect of restoring you to life (but not undeath), the caster doesn’t need material components to cast the spell on you.
+Starting when you choose this path at 1st level, your soul is marked for endless battle. If a spell, such as *raise dead*, has the sole effect of restoring you to life (but not undeath), the caster doesn’t need material components to cast the spell on you.
 
 ### Divine Fury
-From 3rd level, you can channel divine fury into your weapon strikes. While you’re raging, the first creature you hit on each of your turns with a weapon attack takes 1d6 extra damage. The extra damage is necrotic or radiant; you choose the type of damage when you gain this feature.
-
-
+You can channel divine fury into your weapon strikes. While you’re raging, the first creature you hit on each of your turns with a weapon attack takes 1d6 extra damage. The extra damage is necrotic or radiant; you choose the type of damage when you gain this feature.
 
 ### Fanatical Focus
-Starting at 6th level, the divine power that fuels your rage can protect you. If you fail a saving throw while you’re raging, you can reroll it, and you must use the new roll. You can use this ability only once per rage.
+The divine power that fuels your rage can protect you. If you fail a saving throw while raging, you can reroll it and you must use the new roll. You can use this ability only once per rage.
 
 ### Zealous Presence
-At 10th level, you learn to channel divine power to inspire zealotry in others. As a ***bonus action***, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you that can hear you gain advantage on attack rolls and saving throws until the start of your next turn.
+You learn to channel divine power to inspire zealotry in others. As a ***bonus action***, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 ft of you that can hear you gain advantage on attack rolls and saving throws until the start of your next turn.
 
 You can use this feature once. See *Rest Additions*.
 
 ### Rage beyond Death
-Beginning at 14th level, the divine power that fuels your rage allows you to shrug off fatal blows.
+The divine power that fuels your rage allows you to shrug off fatal blows.
 
-While you’re raging, having 0 hit points doesn’t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don’t die until your rage ends, and you die then only if you still have 0 hit points.
+While raging, having 0 hit points doesn’t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don’t die until your rage ends, and you die then only if you still have 0 hit points.
