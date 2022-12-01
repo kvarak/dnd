@@ -1614,7 +1614,7 @@ Continental politics are just so thrilling, with the upheaval and the betrayals 
 </div>
 </details>
 
-<!-- ---------------------------- CURLTURE ----------------------------------  -->
+<!-- ---------------------------- CULTURE ----------------------------------  -->
 
 <details>
 <summary>Culture (Group)</summary>
@@ -2263,6 +2263,11 @@ The creation of an object, typically resembling something humanoid or alive, of 
 <details>
 <summary>Sculpture</summary>
 The carving and shaping of three-dimensional figures in stone, metals, ceramics, wood and other materials, central to the devotion of religion, beauty and the agony and passion of humanoid emotion.
+</details>
+
+<details>
+<summary>Tattoo</summary>
+The skill to design and create tattoos.
 </details>
 
 <details>
