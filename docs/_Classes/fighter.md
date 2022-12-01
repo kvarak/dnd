@@ -129,6 +129,21 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* a light crossbow and 20 bolts or *(b)* two handaxes
 - *(a)* a dungeoneer’s pack or *(b)* an explorer’s pack
 
+### Fighter Origin
+The type of martial training you received sets the groundwork for your career as a fighter. Your origin can range from a disciplined training in the army, to being a self-taught farmer.
+
+All origins are describes at the end of the class description. Select the origin most suitable for your character.
+
+### Fighting Styles
+At 1st level, a fighter adopts a particular style of fighting as his specialty. All styles are listed *<a href="#internal-FightingStyles">here</a>*.
+
+Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
+
+### Second Wind
+From 1st level, you have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, if you have less than half your hp left, you can use a ***bonus action*** to regain a number of hit points equal to 1d10 + your Constitution bonus.
+
+Once you use this feature, you must finish a short rest before you can use it again.
+
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -153,21 +168,6 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 </div>
-
-### Fighter Origin
-The type of martial training you received sets the groundwork for your career as a fighter. Your origin can range from a disciplined training in the army, to being a self-taught farmer.
-
-All origins are describes at the end of the class description. Select the origin most suitable for your character.
-
-### Fighting Styles
-At 1st level, a fighter adopts a particular style of fighting as his specialty. All styles are listed *<a href="#internal-FightingStyles">here</a>*.
-
-Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
-
-### Second Wind
-From 1st level, you have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, if you have less than half your hp left, you can use a ***bonus action*** to regain a number of hit points equal to 1d10 + your Constitution bonus.
-
-Once you use this feature, you must finish a short rest before you can use it again.
 
 ### Combat Superiority
 Starting at 2nd level, your tactical expertise makes you a deadly force on the battlefield. You learn maneuvers which are fueled by a special resource called superiority.

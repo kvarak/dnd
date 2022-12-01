@@ -62,7 +62,7 @@ The following are some optional quirks for a player of this Class.
 | -Level- | -PB- | -Features- | -Maneuvers- | -Superiority- | -Superiority Dice- |
 |:-----:|:-----------------:|:---------|:---------------:|:-----------:|:----------------:|
  1st | +2 | Cavalier order, Challenge,<br/>Mounted Expert | - | - | - |
-| 2nd | +2 | Combat Superiority, Second Wind | 3 | 7 | d4 |
+| 2nd | +2 | Combat Superiority,<br/>Second Wind | 3 | 7 | d4 |
 | 3rd | +2 | Order feature | 3 | 7 | d4 |
 | 4th | +2 | Ability Score Improvement | 3 | 7 | d4 |
 | 5th | +3 | Extra Attack | 4 | 7 | d4 |

@@ -90,9 +90,9 @@ How did your sorcerous powers first manifest? Was there signs already at birth, 
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Sorcerer
-| -Level- | -PB- | -Sorcery Points- | -Features-     | -Cantrips- | -Spells- |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
-|:-----:|:-----------:|:--------|:-------------|:--------:|:------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|1st|+2|—| Spellcasting,Sorcerous Origin |4|2|2|—|—|—|—|—|—|—|—|
+| -Level- | -PB- | -Sorcery- | -Features-     | -Cantrips- | -Spells- |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+|:-------:|:----:|:---------:|:---------------|:----------:|:--------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|1st|+2|—| Spellcasting,<br/>Sorcerous Origin |4|2|2|—|—|—|—|—|—|—|—|
 |2nd|+2|2| Font of Magic |4|3|3|—|—|—|—|—|—|—|—|
 |3rd|+2|3| Metamagic |4|4|4|2|—|—|—|—|—|—|—|
 |4th|+2|4| Ability Score Improvement |5|5|4|3|—|—|—|—|—|—|—|
