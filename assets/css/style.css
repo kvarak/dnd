@@ -477,7 +477,7 @@ hr.classdivider {
   background-color: #b5e2f1 !important;
   border-image: url(../images/descriptiveBorder.png) 12 stretch;
   border-image-outset: 4px;
-  max-width: 33%;
+  max-width: 50%;
   padding: 2px;
   margin-left: 75px;
   margin-bottom: 5px;
