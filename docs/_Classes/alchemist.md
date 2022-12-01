@@ -87,15 +87,6 @@ You are proficient with ***Constitution*** and ***Intelligence*** saving throws.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
 
-#### Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
-
-- *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
-- *(a)* an explorer's pack or *(b)* a scholar's pack
-- an alchemist's kit and a dagger
-- leather armor *(if proficient)*
-
-
 
 <!-- -------------------- Class Specific Combat Skills ---------------------  -->
 
@@ -117,7 +108,13 @@ Attacking at long range doesn’t impose disadvantage on your combat alchemy att
 </details>
 
 
-<!-- ---------------------------- Class Features ------------------------------  -->
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+
+- *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
+- *(a)* an explorer's pack or *(b)* a scholar's pack
+- an alchemist's kit and a dagger
+- leather armor *(if proficient)*
 
 
 ### Concoctions

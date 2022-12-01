@@ -67,8 +67,6 @@ As a barbarian, you gain the following class features.
 </div>
 
 
-<summary>At 1st level</summary>
-
 #### Hit Points
 **Hit Dice:** 1d12
 
@@ -81,32 +79,10 @@ You are proficient with ***Strength*** and ***Constitution*** saving throws.
 **Skill Points:** You gain 2 skill points at 1st level.
 
 
-#### Skills - Combat
-**Weapon Groups:** You have rank 2 with Axe, Club, Knife, Staff, Sword and Thrown Weapon. Additionally you have rank 1 with Flail, Polearm, Spear and Bow.
-
-**Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level.
-
-**Recommended:** Light armor and Medium armor
-
-**After 1st level:** You gain 1 skill point to spend on combat skills every level.
-
-#### Equipment
-You start with the following equipment, in addition to the equipment granted by your background:
-
-- *(a)* greataxe or *(b)* any martial weapon
-- *(a)* two handaxes or *(b)* any simple weapon
-- An explorer’s pack and four javelins
-
-
-
 <!-- -------------------- Class Specific Skills ---------------------  -->
 
 <details>
 <summary>Class specific skills</summary>
-
-##### Testing Included
-{% include skills.html %}
-
 The following combat skills are exclusive to barbarians.
 
 <details><summary>Danger Sense
@@ -125,6 +101,24 @@ Your fast reflexes gives you an edge when you dodge away from danger. When a tra
 Your speed increases by 5 feet while you aren’t wearing heavy armor.
 </details>
 </details>
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 2 with Axe, Club, Knife, Staff, Sword and Thrown Weapon. Additionally you have rank 1 with Flail, Polearm, Spear and Bow.
+
+**Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level.
+
+**Recommended:** Light armor and Medium armor
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every level.
+
+
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+
+- *(a)* greataxe or *(b)* any martial weapon
+- *(a)* two handaxes or *(b)* any simple weapon
+- An explorer’s pack and four javelins
 
 
 
