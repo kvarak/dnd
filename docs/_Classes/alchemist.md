@@ -33,8 +33,6 @@ An alchemical bomb is a 1-pound, apple-sized, spherical glass or clay flask fill
 More experienced alchemists learn to mix less volatile substances, some of which can replicate magical effects. Many become apothecaries, healing and creating potions for others. Apothecaries can use herbs and chemicals to heal wounds, cure diseases, and neutralize poison.
 
 ## Class Features
-As a alchemist, you gain the following class features.
-
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Alchemist
@@ -63,6 +61,8 @@ As a alchemist, you gain the following class features.
 | 20th | +6 | 4d8 | Philosopher’s Stone | 10 |
 
 </div>
+
+As a alchemist, you gain the following class features.
 
 
 #### Hit Points

@@ -55,6 +55,35 @@ The following are some optional quirks for a player of this Class.
 
 
 ## Class Features
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Cavalier
+| -Level- | -PB- | -Features- | -Maneuvers- | -Superiority- | -Superiority Dice- |
+|:-----:|:-----------------:|:---------|:---------------:|:-----------:|:----------------:|
+ 1st | +2 | Cavalier order, Challenge,<br/>Mounted Expert | - | - | - |
+| 2nd | +2 | Combat Superiority, Second Wind | 3 | 7 | d4 |
+| 3rd | +2 | Order feature | 3 | 7 | d4 |
+| 4th | +2 | Ability Score Improvement | 3 | 7 | d4 |
+| 5th | +3 | Extra Attack | 4 | 7 | d4 |
+| 6th | +3 | Ability Score Improvement | 4 | 9 | d6 |
+| 7th | +3 | Order feature | 4 | 9 | d6 |
+| 8th | +3 | Ability Score Improvement | 5 | 9 | d6 |
+| 9th | +4 | Indomitable | 5 | 9 | d6 |
+| 10th | +4 | Order feature | 5 | 10 | d8 |
+| 11th | +4 | Extra Attack (2) | 6 | 10 | d8 |
+| 12th | +4 | Ability Score Improvement | 6 | 10 | d8 |
+| 13th | +5 | Indomitable (2) | 6 | 10 | d8 |
+| 14th | +5 | Ability Score Improvement | 7 | 12 | d10 |
+| 15th | +5 | Order feature | 7 | 12 | d10 |
+| 16th | +5 | Ability Score Improvement | 7 | 12 | d10 |
+| 17th | +6 | Indomitable (3) | 8 | 16 | d10 |
+| 18th | +6 | Order feature | 8 | 16 | d12 |
+| 19th | +6 | Ability Score Improvement | 8 | 20 | d12 |
+| 20th | +6 | Extra Attack (3) | 8 | 20 | d12 |
+
+</div>
+
 As an cavalier, you gain the following class features
 
 #### Hit Points
@@ -81,33 +110,6 @@ Members of these orders are not necessarily bound together, but some organizatio
 
 
 
-<div class="block classTable halfClassTable frame" markdown="1">
-
-##### The Cavalier
-| -Level- | -PB- | -Features- | -Maneuvers Known- | -Superiority- | -Superiority Dice- |
-|:-----:|:-----------------:|:---------|:---------------:|:-----------:|:----------------:|
- 1st | +2 | Cavalier order, Challenge,<br/>Mounted Expert | - | - | - |
-| 2nd | +2 | Combat Superiority, Second Wind | 3 | 7 | d4 |
-| 3rd | +2 | Order feature | 3 | 7 | d4 |
-| 4th | +2 | Ability Score Improvement | 3 | 7 | d4 |
-| 5th | +3 | Extra Attack | 4 | 7 | d4 |
-| 6th | +3 | Ability Score Improvement | 4 | 9 | d6 |
-| 7th | +3 | Order feature | 4 | 9 | d6 |
-| 8th | +3 | Ability Score Improvement | 5 | 9 | d6 |
-| 9th | +4 | Indomitable | 5 | 9 | d6 |
-| 10th | +4 | Order feature | 5 | 10 | d8 |
-| 11th | +4 | Extra Attack (2) | 6 | 10 | d8 |
-| 12th | +4 | Ability Score Improvement | 6 | 10 | d8 |
-| 13th | +5 | Indomitable (2) | 6 | 10 | d8 |
-| 14th | +5 | Ability Score Improvement | 7 | 12 | d10 |
-| 15th | +5 | Order feature | 7 | 12 | d10 |
-| 16th | +5 | Ability Score Improvement | 7 | 12 | d10 |
-| 17th | +6 | Indomitable (3) | 8 | 16 | d10 |
-| 18th | +6 | Order feature | 8 | 16 | d12 |
-| 19th | +6 | Ability Score Improvement | 8 | 20 | d12 |
-| 20th | +6 | Extra Attack (3) | 8 | 20 | d12 |
-
-</div>
 
 ### Challenge
 Your dauntless fighting spirit and force of personality invokes awe in your allies and fear in the hearts of enemies.

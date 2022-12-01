@@ -71,7 +71,38 @@ A description of the most common deities in Golarion, as well in a more generic 
 
 
 ## Cleric Class Features
+
 As a cleric, you gain the following class features.
+
+<div class="classTable frame" markdown="1">
+
+##### The Cleric
+
+| -Level- | -PB- | -Features- | -Piety- | -Cantrips- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|1st| +2| Divine Domain, Path of Faith, Spellcasting | - | 2 | 2 |— |— |— |—|— |— |— |—|
+|2nd| +2| Channel Divinity, Divine Domain feature | 4 | 2 |3 |— |— |— |—|—| —| —| —|
+|3rd| +2| - | 4 | 2| 4| 2| —| —| —|— |— |— |—|
+|4th| +2| Ability Score Improvement | 4 | 3 |4 |3 |— |— |—|— |— |— |—|
+|5th| +3| - | 5 | 3| 4| 3| 2| —| —|— |— |—| —|
+|6th| +3| Divine Domain feature | 5 | 3 | 4| 3| 3| —| —|— |— |— |—|
+|7th| +3| - | 5 | 3 | 4| 3| 3| 1| —|— |— |— |—|
+|8th| +3| Ability Score Improvement, Faithful Path | 6 | 3 | 4| 3| 3| 2| —|— |— |— |—|
+|9th| +4| - | 6 | 2 | 3 | 4| 3|3|3| 1| —| —| —| —|
+|10th| +4| Divine Domain feature | 6 | 4 | 4| 3| 3| 3| 2| —| —| —| —|
+|11th| +4| - | 7 | 4| 4| 3| 3| 3| 2| 1| —| —| —|
+|12th| +4| Ability Score Improvement | 7 | 4 | 4| 3|3|3|2| 1| —| —| —|
+|13th| +5| - | 8 | 4| 4| 3| 3| 3| 2| 1| 1| —| —|
+|14th| +5| Faithful Path | 8 | 4 | 4| 3| 3| 3| 2| 1| 1| —| —
+|15th| +5| - | 9 | 4 |4|3|3| 3| 2| 1| 1| 1| —|
+|16th| +5| Ability Score Improvement | 9 | 4 | 4|3|3| 3| 2| 1| 1| 1| —|
+|17th| +6| - | 10 | 4 |4| 3| 3| 3|2|1| 1| 1| 1|
+|18th| +6| Divine Domain feature | 10 | 4| 4| 3| 3| 3| 3| 1| 1|1|1|
+|19th| +6| Ability Score Improvement | 12 | 4 | 4| 3|3|3|3| 2| 1| 1| 1|
+|20th| +6| Divine Intervention | 12 | 4| 4| 3| 3| 3| 3| 2| 2| 1|1|
+
+
+</div>
 
 #### Hit Points
 **Hit Dice:** 1d8
@@ -129,36 +160,6 @@ Whenever you gain a level in this class, you can replace one cantrip you learned
 The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain expended spell slots when you finish a long rest.
 
 You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells up to your Wisdom modifier + your cleric level. The spells must be of a level for which you have spell slots. Casting the spell doesn’t remove it from your list of prepared spells.
-
-<div class="classTable frame" markdown="1">
-
-##### The Cleric
-
-| -Level- | -PB- | -Features- | -Piety- | -Cantrips Known- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
-| :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|1st| +2| Divine Domain, Path of Faith, Spellcasting | - | 2 | 2 |— |— |— |—|— |— |— |—|
-|2nd| +2| Channel Divinity, Divine Domain feature | 4 | 2 |3 |— |— |— |—|—| —| —| —|
-|3rd| +2| - | 4 | 2| 4| 2| —| —| —|— |— |— |—|
-|4th| +2| Ability Score Improvement | 4 | 3 |4 |3 |— |— |—|— |— |— |—|
-|5th| +3| - | 5 | 3| 4| 3| 2| —| —|— |— |—| —|
-|6th| +3| Divine Domain feature | 5 | 3 | 4| 3| 3| —| —|— |— |— |—|
-|7th| +3| - | 5 | 3 | 4| 3| 3| 1| —|— |— |— |—|
-|8th| +3| Ability Score Improvement, Faithful Path | 6 | 3 | 4| 3| 3| 2| —|— |— |— |—|
-|9th| +4| - | 6 | 2 | 3 | 4| 3|3|3| 1| —| —| —| —|
-|10th| +4| Divine Domain feature | 6 | 4 | 4| 3| 3| 3| 2| —| —| —| —|
-|11th| +4| - | 7 | 4| 4| 3| 3| 3| 2| 1| —| —| —|
-|12th| +4| Ability Score Improvement | 7 | 4 | 4| 3|3|3|2| 1| —| —| —|
-|13th| +5| - | 8 | 4| 4| 3| 3| 3| 2| 1| 1| —| —|
-|14th| +5| Faithful Path | 8 | 4 | 4| 3| 3| 3| 2| 1| 1| —| —
-|15th| +5| - | 9 | 4 |4|3|3| 3| 2| 1| 1| 1| —|
-|16th| +5| Ability Score Improvement | 9 | 4 | 4|3|3| 3| 2| 1| 1| 1| —|
-|17th| +6| - | 10 | 4 |4| 3| 3| 3|2|1| 1| 1| 1|
-|18th| +6| Divine Domain feature | 10 | 4| 4| 3| 3| 3| 3| 1| 1|1|1|
-|19th| +6| Ability Score Improvement | 12 | 4 | 4| 3|3|3|3| 2| 1| 1| 1|
-|20th| +6| Divine Intervention | 12 | 4| 4| 3| 3| 3| 3| 2| 2| 1|1|
-
-
-</div>
 
 
 

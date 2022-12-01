@@ -72,6 +72,34 @@ Perhaps the most important thing when creating a feyblood is to consider whether
 
 <h2><a class="internal-link" name="internal-class">Class Features</a></h2>
 
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Feyblood
+| -Level-  | -PB- | -Features- | -Spark- | -Spells- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+|:-----:|:-----------:|:---------|:-----:|:------:|----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|1st| +2| Spark, Spellcasting,<br/>Glamorous Defense,<br/>Fey Affinity, Fey Vulnerabilities |2|4|2|—|—|—|—|—|—|—|—|
+|2nd| +2| Faerie Dust, Fey Affinity Feature |2|5|3|—|—|—|—|—|—|—|—|
+|3rd| +2|	Misty Escape |2|6|4|2|—|—|—|—|—|—|—|
+|4th| +2| Ability Score Improvement |2|7|4|3|—|—|—|—|—|—|—|
+|5th| +3| — |3|8|4|3|2|—|—|—|—|—|—|
+|6th| +3| Fey Affinity Feature |3|9|4|3|3|—|—|—|—|—|—|
+|7th| +3| — |3|10|4|3|3|1|—|—|—|—|—|
+|8th| +3| Ability Score Improvement |3|11|4|3|3|2|—|—|—|—|—|
+|9th| +4| — |4|12|4|3|3|3|1|—|—|—|—|
+|10th| +4| Fey Affinity Feature |4|13|4|3|3|3|2|—|—|—|—|
+|11th| +4| — |4|14|4|3|3|3|2|1|—|—|—|
+|12th| +4| Ability Score Improvement |4|15|4|3|3|3|2|1|—|—|—|
+|13th| +5| — |5|16|4|3|3|3|2|1|1|—|—|
+|14th| +5| Fey Affinity Feature |5|17|4|3|3|3|2|1|1|—| —|
+|15th| +5| — |5|18|4|3|3|3|2|1|1|1|—|
+|16th| +5| Ability Score Improvement |5|19|4|3|3|3|2|1|1|1|—|
+|17th| +6| — |6|20|4|3|3|3|2|1|1|1|1|
+|18th| +6| Dreamchaser |6|21|4|3|3|3|3|1|1|1|1|
+|19th| +6| Ability Score Improvement |6|22|4|3|3|3|3|2|1|1|1|
+|20th| +6| Planar Glamour |6|23|4|3|3|3|3|2|2|1|1|
+
+</div>
+
 As a feyblood, you gain the following class features.
 
 #### Hit Points
@@ -95,33 +123,6 @@ You start with the following equipment, in addition to the equipment granted by 
 
 
 
-<div class="block classTable frame" markdown="1">
-
-##### The Feyblood
-| -Level-  | -PB- | -Features- | -Spark- | -Spells Known- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
-|:-----:|:-----------:|:---------|:-----:|:------:|----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|1st| +2| Spark, Spellcasting, Glamorous Defense, Fey Affinity, Fey Vulnerabilities |2|4|2|—|—|—|—|—|—|—|—|
-|2nd| +2| Faerie Dust, Fey Affinity Feature |2|5|3|—|—|—|—|—|—|—|—|
-|3rd| +2|	Misty Escape |2|6|4|2|—|—|—|—|—|—|—|
-|4th| +2| Ability Score Improvement |2|7|4|3|—|—|—|—|—|—|—|
-|5th| +3| — |3|8|4|3|2|—|—|—|—|—|—|
-|6th| +3| Fey Affinity Feature |3|9|4|3|3|—|—|—|—|—|—|
-|7th| +3| — |3|10|4|3|3|1|—|—|—|—|—|
-|8th| +3| Ability Score Improvement |3|11|4|3|3|2|—|—|—|—|—|
-|9th| +4| — |4|12|4|3|3|3|1|—|—|—|—|
-|10th| +4| Fey Affinity Feature |4|13|4|3|3|3|2|—|—|—|—|
-|11th| +4| — |4|14|4|3|3|3|2|1|—|—|—|
-|12th| +4| Ability Score Improvement |4|15|4|3|3|3|2|1|—|—|—|
-|13th| +5| — |5|16|4|3|3|3|2|1|1|—|—|
-|14th| +5| Fey Affinity Feature |5|17|4|3|3|3|2|1|1|—| —|
-|15th| +5| — |5|18|4|3|3|3|2|1|1|1|—|
-|16th| +5| Ability Score Improvement |5|19|4|3|3|3|2|1|1|1|—|
-|17th| +6| — |6|20|4|3|3|3|2|1|1|1|1|
-|18th| +6| Dreamchaser |6|21|4|3|3|3|3|1|1|1|1|
-|19th| +6| Ability Score Improvement |6|22|4|3|3|3|3|2|1|1|1|
-|20th| +6| Planar Glamour |6|23|4|3|3|3|3|2|2|1|1|
-
-</div>
 
 ### Spark
 Your Spark symbolizes your connection to the feywild, from where your mystical powers are drawn. Spark is used to fuel your magic and the abilities you can use. On the material plane, your Spark is normally as shown in the Spark columne of the Feyblood class table.

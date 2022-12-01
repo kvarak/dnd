@@ -35,7 +35,6 @@ The anger felt by a normal person resembles the rage of a barbarian in the same 
 
 
 ## Class Features
-As a barbarian, you gain the following class features.
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
@@ -66,6 +65,7 @@ As a barbarian, you gain the following class features.
 
 </div>
 
+As a barbarian, you gain the following class features.
 
 <summary>At 1st level</summary>
 

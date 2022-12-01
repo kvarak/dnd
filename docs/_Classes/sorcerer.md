@@ -87,11 +87,12 @@ How did your sorcerous powers first manifest? Was there signs already at birth, 
 
 ## Sorcerer Class Features
 
+<div class="block classTable halfClassTable frame" markdown="1">
+
 ##### The Sorcerer
-| Level | Proficiency | Sorcery | Features     | Cantrips | Spells | --- Spell Slots Per Spell Level ---|||||||||
-|      ^| Bonus      ^| Points ^|             ^| Known   ^| Known ^|1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| -Level- | -PB- | -Sorcery Points- | -Features-     | -Cantrips- | -Spells- |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
 |:-----:|:-----------:|:--------|:-------------|:--------:|:------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|1st|+2|—| Spellcasting, Sorcerous Origin |4|2|2|—|—|—|—|—|—|—|—|
+|1st|+2|—| Spellcasting,Sorcerous Origin |4|2|2|—|—|—|—|—|—|—|—|
 |2nd|+2|2| Font of Magic |4|3|3|—|—|—|—|—|—|—|—|
 |3rd|+2|3| Metamagic |4|4|4|2|—|—|—|—|—|—|—|
 |4th|+2|4| Ability Score Improvement |5|5|4|3|—|—|—|—|—|—|—|
@@ -112,6 +113,7 @@ How did your sorcerous powers first manifest? Was there signs already at birth, 
 |19th|+6|19| Ability Score Improvement |6|15|4|3|3|3|3|2|1|1|1|
 |20th|+6|20| Sorcerous Restoration |6|15|4|3|3|3|3|2|2|1|1|
 
+</div>
 
 As a sorcerer, you gain the following class features.
 

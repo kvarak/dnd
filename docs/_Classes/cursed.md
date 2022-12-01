@@ -38,6 +38,35 @@ Those few unlucky ones to be afflicted by a dark, twisted transmutation magic te
 Some seek this power out for themselves, empowered by mystical rituals, unnatural science, or otherworldly forces. but not all of these individuals are beholden to their base desires and many turn their frightful power into a force of good.
 
 ## <a class="internal-link" name="internal-class-features">Class Features</a>
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Cursed
+| -Level- | -PB- | -Features- | -Cantrips- | -Spells- | 1st |2nd |3rd |4th |5th |
+|:---:|:---:|:---|:---:|:---:|:-----:|:---:|:---:|:---:|:---:|
+| 1st | +2 | Cantrips, Cursed Form,<br/>Ritual Casting | 3 | - | - | - | - | - | - |
+| 2nd | +2 | Spellcasting, Split Personality | 3 | 2 | 2 | - | - | - | - |
+| 3rd | +2 | Curse Feature | 3 | 3 | 3 | - | - | - | - |
+| 4th | +2 | Ability Score Improvement | 4 | 3 | 3 | - | - | - | - |
+| 5th | +3 | Extra Attack, Two Minds | 4 | 4 | 4 | 2 | - | - | - |
+| 6th | +3 | Curse Feature | 4 | 4 | 4 | 2 | - | - | - |
+| 7th | +3 | Feral Instinct | 4 | 5 | 4 | 3 | - | - | - |
+| 8th | +3 | Ability Score Improvement | 4 | 5 | 4 | 3 | - | - | - |
+| 9th | +4 | Quick Transformation | 4 | 6 | 4 | 3 | 2 | - | - |
+| 10th | +4 | Curse Feature | 5 | 6 | 4 | 3 | 2 | - | - |
+| 11th | +4 | Hard to Kill | 5 | 7 | 4 | 3 | 3 | - | - |
+| 12th | +4 | Ability Score Improvement | 5 | 7 | 4 | 3 | 3 | - | - |
+| 13th | +5 | Brutal Critical (1 dice) | 5 | 8 | 4 | 3 | 3 | 1 | - |
+| 14th | +5 | Curse Feature | 5 | 8 | 4 | 3 | 3 | 1 | - |
+| 15th | +5 | Large Size | 5 | 9 | 4 | 3 | 3 | 2 | - |
+| 16th | +5 | Ability Score Improvement | 5 | 9 | 4 | 3 | 3 | 2 | - |
+| 17th | +6 | Brutal Critical (2 dice) | 5 | 10 | 4 | 3 | 3 | 3 | 1 |
+| 18th | +6 | Indomitable Might | 5 | 10 | 4 | 3 | 3 | 3 | 1 |
+| 19th | +6 | Ability Score Improvement | 5 | 11 | 4 | 3 | 3 | 3 | 2 |
+| 20th | +6 | Primal Champion  | 5 | 11 | 4 | 3 | 3 | 3 | 2 |
+
+</div>
+
 As Cursed, you gain the following class features
 
 #### Hit Points
@@ -91,33 +120,6 @@ Unless otherwise noted in the specific curse descriptions, the following applies
 
 </div>
 
-<div class="block classTable frame" markdown="1">
-
-##### The Cursed
-| -Level- | -PB- | -Features- | -Cantrips Known- | -Spells Known- | 1st |2nd |3rd |4th |5th |
-|:---:|:---:|:---|:---:|:---:|:-----:|:---:|:---:|:---:|:---:|
-| 1st | +2 | Cantrips, Cursed Form, Ritual Casting | 3 | - | - | - | - | - | - |
-| 2nd | +2 | Spellcasting, Split Personality | 3 | 2 | 2 | - | - | - | - |
-| 3rd | +2 | Curse Feature | 3 | 3 | 3 | - | - | - | - |
-| 4th | +2 | Ability Score Improvement | 4 | 3 | 3 | - | - | - | - |
-| 5th | +3 | Extra Attack, Two Minds | 4 | 4 | 4 | 2 | - | - | - |
-| 6th | +3 | Curse Feature | 4 | 4 | 4 | 2 | - | - | - |
-| 7th | +3 | Feral Instinct | 4 | 5 | 4 | 3 | - | - | - |
-| 8th | +3 | Ability Score Improvement | 4 | 5 | 4 | 3 | - | - | - |
-| 9th | +4 | Quick Transformation | 4 | 6 | 4 | 3 | 2 | - | - |
-| 10th | +4 | Curse Feature | 5 | 6 | 4 | 3 | 2 | - | - |
-| 11th | +4 | Hard to Kill | 5 | 7 | 4 | 3 | 3 | - | - |
-| 12th | +4 | Ability Score Improvement | 5 | 7 | 4 | 3 | 3 | - | - |
-| 13th | +5 | Brutal Critical (1 dice) | 5 | 8 | 4 | 3 | 3 | 1 | - |
-| 14th | +5 | Curse Feature | 5 | 8 | 4 | 3 | 3 | 1 | - |
-| 15th | +5 | Large Size | 5 | 9 | 4 | 3 | 3 | 2 | - |
-| 16th | +5 | Ability Score Improvement | 5 | 9 | 4 | 3 | 3 | 2 | - |
-| 17th | +6 | Brutal Critical (2 dice) | 5 | 10 | 4 | 3 | 3 | 3 | 1 |
-| 18th | +6 | Indomitable Might | 5 | 10 | 4 | 3 | 3 | 3 | 1 |
-| 19th | +6 | Ability Score Improvement | 5 | 11 | 4 | 3 | 3 | 3 | 2 |
-| 20th | +6 | Primal Champion  | 5 | 11 | 4 | 3 | 3 | 3 | 2 |
-
-</div>
 
 While entering your Cursed Form requires an ***action***, ending it early requires only a ***bonus action***. Left to its own course, the Cursed Form will last for a number of minutes equal to your level.
 

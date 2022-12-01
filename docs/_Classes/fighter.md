@@ -79,14 +79,13 @@ When the battle is done, enemies and allies alike stare in awe at the sight of y
 
 
 ## Class Features
-As a fighter, you gain the following class features.
 
 
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Fighter
-| -Level- | -PB- | -Features- | -Maneuvers Known- | -Superiority- | -Superiority Dice- |
+| -Level- | -PB- | -Features- | -Maneuvers- | -Superiority- | -Superiority Dice- |
 |:-----:|:-----------------:|:---------|:---------------:|:-----------:|:----------------:|
  1st | +2 | Fighter Origin, Fighting Style,<br/>Second Wind | - | - | - |
 | 2nd | +2 | Combat Superiority, Origin Maneuver | 3 | 7 | d4 |
@@ -110,6 +109,8 @@ As a fighter, you gain the following class features.
 | 20th | +6 | Extra Attack (3) | 8 | 20 | d12 |
 
 </div>
+
+As a fighter, you gain the following class features.
 
 #### Hit Points
 **Hit Dice:** 1d10

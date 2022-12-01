@@ -147,7 +147,38 @@ You start with the following equipment, in addition to the equipment granted by 
 
 
 ## Bard Class Features
+
 As a bard, you gain the following class features.
+
+<div class="classTable frame" markdown="1">
+
+##### The Bard
+
+| -Level- | -PB- | -Features- | -Cantrips- | -Spells- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|1st| +2| Bard College, Bardic Inspiration (d6), Spellcasting |2|4|2|—|—|—|—|—|—|—|—|
+|2nd| +2| Bardic Song, Jack of All Trades | 2 |5 |3 |— |— |— |—|—| —| —| —|
+|3rd| +2| Bard College feature, Expertise | 2| 6| 4| 2| —| —| —|— |— |— |—|
+|4th| +2| Ability Score Improvement | 3 |7 |4 |3 |— |— |—|— |— |— |—|
+|5th| +3| Bardic Inspiration (d8), Font of Inspiration | 3| 8| 4| 3| 2| —| —|— |— |—| —|
+|6th| +3| Bard College feature, Bardic Song | 3| 9| 4| 3| 3| —| —|— |— |— |—|
+|7th| +3| - | 3 |10| 4| 3| 3| 1| —|— |— |— |—|
+|8th| +3| Ability Score Improvement | 3 |11| 4| 3| 3| 2| —|— |— |— |—|
+|9th| +4| Bardic Song | 3 |12| 4| 3|3|3| 1| —| —| —| —|
+|10th| +4| Bardic Inspiration (d10), Expertise, Magical Secrets |4|14|4|3|3|3|2|—|—|—|—|
+|11th| +4| - | 4 |15| 4| 3| 3| 3| 2| 1| —| —| —|
+|12th| +4| Ability Score Improvement | 4 |15| 4| 3|3|3|2| 1| —| —| —|
+|13th| +5| Bardic Song | 4| 16| 4| 3| 3| 3| 2| 1| 1| —| —|
+|14th| +5| Magical Secrets, Bard College feature | 4 |18| 4| 3| 3| 3| 2| 1| 1| —| —|
+|15th| +5| Bardic Inspiration (d12) | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
+|16th| +5| Ability Score Improvement | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
+|17th| +6| Bardic Song | 4 |20| 4| 3| 3| 3|2|1| 1| 1| 1|
+|18th| +6| Magical Secrets | 4 |22| 4| 3| 3| 3| 3| 1| 1|1|1|
+|19th| +6| Ability Score Improvement | 4 |22| 4| 3|3|3|3| 2| 1| 1| 1|
+|20th| +6| Superior Inspiration | 4 |22| 4| 3| 3| 3| 3| 2| 2| 1|1|
+
+</div>
+
 
 #### Hit Points
 **Hit Dice:** 1d8
@@ -182,38 +213,6 @@ You can use this feature a number of times equal to your Charisma modifier, and 
 
 Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
 
-
-<!-- | Level \| | Proficiency Bonus | Features | Cantrips Known | Spells Known |  --- Spell Slots Per Spell Level --- |||||||| -->
-
-
-<div class="classTable frame" markdown="1">
-
-##### The Bard
-
-| -Level- | -PB- | -Features- | -Cantrips Known- | -Spells Known- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
-| :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|1st| +2| Bard College, Bardic Inspiration (d6), Spellcasting |2|4|2|—|—|—|—|—|—|—|—|
-|2nd| +2| Bardic Song, Jack of All Trades | 2 |5 |3 |— |— |— |—|—| —| —| —|
-|3rd| +2| Bard College feature, Expertise | 2| 6| 4| 2| —| —| —|— |— |— |—|
-|4th| +2| Ability Score Improvement | 3 |7 |4 |3 |— |— |—|— |— |— |—|
-|5th| +3| Bardic Inspiration (d8), Font of Inspiration | 3| 8| 4| 3| 2| —| —|— |— |—| —|
-|6th| +3| Bard College feature, Bardic Song | 3| 9| 4| 3| 3| —| —|— |— |— |—|
-|7th| +3| - | 3 |10| 4| 3| 3| 1| —|— |— |— |—|
-|8th| +3| Ability Score Improvement | 3 |11| 4| 3| 3| 2| —|— |— |— |—|
-|9th| +4| Bardic Song | 3 |12| 4| 3|3|3| 1| —| —| —| —|
-|10th| +4| Bardic Inspiration (d10), Expertise, Magical Secrets |4|14|4|3|3|3|2|—|—|—|—|
-|11th| +4| - | 4 |15| 4| 3| 3| 3| 2| 1| —| —| —|
-|12th| +4| Ability Score Improvement | 4 |15| 4| 3|3|3|2| 1| —| —| —|
-|13th| +5| Bardic Song | 4| 16| 4| 3| 3| 3| 2| 1| 1| —| —|
-|14th| +5| Magical Secrets, Bard College feature | 4 |18| 4| 3| 3| 3| 2| 1| 1| —| —|
-|15th| +5| Bardic Inspiration (d12) | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
-|16th| +5| Ability Score Improvement | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
-|17th| +6| Bardic Song | 4 |20| 4| 3| 3| 3|2|1| 1| 1| 1|
-|18th| +6| Magical Secrets | 4 |22| 4| 3| 3| 3| 3| 1| 1|1|1|
-|19th| +6| Ability Score Improvement | 4 |22| 4| 3|3|3|3| 2| 1| 1| 1|
-|20th| +6| Superior Inspiration | 4 |22| 4| 3| 3| 3| 3| 2| 2| 1|1|
-
-</div>
 
 
 
