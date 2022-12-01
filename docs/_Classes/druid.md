@@ -29,6 +29,36 @@ Druids are the caretakers of the natural world, and it is said that in time a dr
 Your druid character might be a true worshiper of nature, one who has always scorned civilization and found solace in the wild. Or your character could be a child of the city who now strives to bring the civilized world into harmony with the wilderness. You can use the sections that follow to flesh out your druid, regardless of how your character came to the profession.
 
 ## Druid Class Features
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Druid
+
+| -Level- | -PB- | -Features- | -Cantrips- |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+|:-----:|:-----------:|:-------------|:--------:|:------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|1st| +2| Communicate with Nature,<br/>Druid Circle,<br/>Spellcasting |2|2|—|—|—|—|—|—|—|—|
+|2nd| +2| Borrowing, Wild Shape,<br/>Wild Companion |2|3|—|—|—|—|—|—|—|—|
+|3rd| +2| - |2|4|2|—|—|—|—|—|—|—|
+|4th| +2| Wild Shape improvement,<br/>Ability Score Improvement |3|4|3|—|—|—|—|—|—|—|
+|5th| +3| - |3|4|3|2|—|—|—|—|—|—|
+|6th| +3| Druid Circle feature |3|4|3|3|—|—|—|—|—|—|
+|7th| +3| - |3|4|3|3|1|—|—|—|—|—|
+|8th| +3| Wild Shape improvement,<br/>Ability Score Improvement |3|4|3|3|2|—|—|—|—|—|
+|9th| +4| - |3|4|3|3|3|1|—|—|—|—|
+|10th| +4| Druid Circle feature |4|4|3|3|3|2|—|—|—|—|
+|11th| +4| - |4|4|3|3|3|2|1|—|—|—|
+|12th| +4| Ability Score Improvement |4|4|3|3|3|2|1|—|—|—|
+|13th| +5| - |4|4|3|3|3|2|1|1|—|—|
+|14th| +5| Druid Circle feature |4|4|3|3|3|2|1|1|—|—|
+|15th| +5| - |4|4|3|3|3|2|1|1|1|—|
+|16th| +5| Ability Score Improvement |4|4|3|3|3|2|1|1|1| —|
+|17th| +6| - |4|4|3|3|3|2|1|1|1|1|
+|18th| +6| Timeless Body, Beast Spells |4|4|3|3|3|3|1|1|1|1|
+|19th| +6| Ability Score Improvement |4|4|3|3|3|3|2|1|1|1|
+|20th| +6| Archdruid |4|4|3|3|3|3|2|2|1|1|
+
+</div>
+
 As a druid, you gain the following class features.
 
 #### Hit Points
@@ -86,34 +116,6 @@ You prepare the list of druid spells that are available for you to cast, choosin
 
 You can change your list of prepared spells when you finish every morning. However, if you do not have your maximum number of spells prepared, you can add a new spell to your list of prepared spells at any time. Both these activities requires time spent in prayer and meditation: at least 1 minute per spell level for each new spell.
 
-<div class="block classTable frame" markdown="1">
-
-##### The Druid
-
-| -Level- | -PB- | -Features- | -Cantrips Known- |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
-|:-----:|:-----------:|:-------------|:--------:|:------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|1st| +2| Communicate with Nature, Druid Circle, Spellcasting |2|2|—|—|—|—|—|—|—|—|
-|2nd| +2| Borrowing, Wild Shape, Wild Companion |2|3|—|—|—|—|—|—|—|—|
-|3rd| +2| - |2|4|2|—|—|—|—|—|—|—|
-|4th| +2| Wild Shape improvement, Ability Score Improvement |3|4|3|—|—|—|—|—|—|—|
-|5th| +3| - |3|4|3|2|—|—|—|—|—|—|
-|6th| +3| Druid Circle feature |3|4|3|3|—|—|—|—|—|—|
-|7th| +3| - |3|4|3|3|1|—|—|—|—|—|
-|8th| +3| Wild Shape improvement, Ability Score Improvement |3|4|3|3|2|—|—|—|—|—|
-|9th| +4| - |3|4|3|3|3|1|—|—|—|—|
-|10th| +4| Druid Circle feature |4|4|3|3|3|2|—|—|—|—|
-|11th| +4| - |4|4|3|3|3|2|1|—|—|—|
-|12th| +4| Ability Score Improvement |4|4|3|3|3|2|1|—|—|—|
-|13th| +5| - |4|4|3|3|3|2|1|1|—|—|
-|14th| +5| Druid Circle feature |4|4|3|3|3|2|1|1|—|—|
-|15th| +5| - |4|4|3|3|3|2|1|1|1|—|
-|16th| +5| Ability Score Improvement |4|4|3|3|3|2|1|1|1| —|
-|17th| +6| - |4|4|3|3|3|2|1|1|1|1|
-|18th| +6| Timeless Body, Beast Spells |4|4|3|3|3|3|1|1|1|1|
-|19th| +6| Ability Score Improvement |4|4|3|3|3|3|2|1|1|1|
-|20th| +6| Archdruid |4|4|3|3|3|3|2|2|1|1|
-
-</div>
 
 #### Spellcasting Ability
 Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.
@@ -124,7 +126,7 @@ Wisdom is your spellcasting ability for your druid spells, since your magic draw
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -364,7 +366,7 @@ At 14th level, when you use your action to cast a druid spell, you can make one 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -431,7 +433,7 @@ Once you use this feature, you may regain its use after you finish a long rest.
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -657,7 +659,7 @@ Any creature grappled or restrained by you or an awakened plant (by a grapple or
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -738,7 +740,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -909,7 +911,7 @@ Additionally, while you are surrounded by the wind from your Shifting Sands, you
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -1173,7 +1175,7 @@ At 14th level, you can expend two uses of Wild Shape to become a storm elemental
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |

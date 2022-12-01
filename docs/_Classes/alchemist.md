@@ -33,8 +33,6 @@ An alchemical bomb is a 1-pound, apple-sized, spherical glass or clay flask fill
 More experienced alchemists learn to mix less volatile substances, some of which can replicate magical effects. Many become apothecaries, healing and creating potions for others. Apothecaries can use herbs and chemicals to heal wounds, cure diseases, and neutralize poison.
 
 ## Class Features
-As a alchemist, you gain the following class features.
-
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Alchemist
@@ -63,6 +61,8 @@ As a alchemist, you gain the following class features.
 | 20th | +6 | 4d8 | Philosopher’s Stone | 10 |
 
 </div>
+
+As a alchemist, you gain the following class features.
 
 
 #### Hit Points
@@ -167,7 +167,7 @@ You can mix together herbs to create potions that cure ailments and injuries. If
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -187,7 +187,7 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-<!-- 
+<!--
 ### Studious Expertise
 From 1st level you have advantage on any ability check you make with your alchemist’s supplies, as well as any ability check to identify herbs, poisons or other alchemical substances.
 -->
@@ -314,7 +314,7 @@ The panacea must be consumed within 24 hours, after which it becomes inert. You 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |

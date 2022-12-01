@@ -32,25 +32,11 @@ Each inquisitor has different goals, largely based on their god and their god's 
 ## Class Features
 
 
-As an inquisitor, you gain the following class features
-
-#### Hit Points
-**Hit Dice:**   1d8
-
-#### Proficiencies
-**Armor:**  Light and medium armors, shields
-
-**Weapons:**  Simple weapons, martial weapons
-
-**Saving Throws:**   Wisdom, Charisma
-
-**Skills:**          Insight, Religion, Stealth and interrogation
-
 <!-- - **Skills:** from Arcana, Deception, Insight, Intimidation, Investigation, Perception, Religion and Stealth -->
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Inquisitor
-| -Level- | -PB- | -Features- | -Piety- | -Spells Known- | 1st |2nd |3rd |4th |5th |
+| -Level- | -PB- | -Features- | -Piety- | -Spells- | 1st |2nd |3rd |4th |5th |
 |:-----:|:-----------:|:---------|:-----:|:------:|:---:|:--:|:--:|:--:|:--:|
 | 1st | +2 | Fighting Style, Judgement | 4 | - | - | - | - | - | - |
 | 2nd | +2 | Divine Sense, Spellcasting | 4 | 2 | 2 | - | - | - | - |
@@ -74,6 +60,21 @@ As an inquisitor, you gain the following class features
 | 20th | +6 | True Judgement | 18 | 11 | 4 | 3 | 3 | 3 | 2 |
 
 </div>
+
+As an inquisitor, you gain the following class features
+
+#### Hit Points
+**Hit Dice:**   1d8
+
+#### Proficiencies
+**Armor:**  Light and medium armors, shields
+
+**Weapons:**  Simple weapons, martial weapons
+
+**Saving Throws:**   Wisdom, Charisma
+
+**Skills:**          Insight, Religion, Stealth and interrogation
+
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -133,7 +134,7 @@ After you have used this feature, you have to complete a short rest to use it ag
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |

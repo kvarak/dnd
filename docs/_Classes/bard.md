@@ -147,6 +147,37 @@ You start with the following equipment, in addition to the equipment granted by 
 
 
 ## Bard Class Features
+
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Bard
+
+| -Level- | -PB- | -Features- | -Cantrips- | -Spells- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+| :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|1st| +2| Bard College,<br/>Bardic Inspiration (d6),<br/>Spellcasting |2|4|2|—|—|—|—|—|—|—|—|
+|2nd| +2| Bardic Song,<br/>Jack of All Trades | 2 |5 |3 |— |— |— |—|—| —| —| —|
+|3rd| +2| Bard College feature,<br/>Expertise | 2| 6| 4| 2| —| —| —|— |— |— |—|
+|4th| +2| Ability Score Improvement | 3 |7 |4 |3 |— |— |—|— |— |— |—|
+|5th| +3| Bardic Inspiration (d8),<br/>Font of Inspiration | 3| 8| 4| 3| 2| —| —|— |— |—| —|
+|6th| +3| Bard College feature,<br/>Bardic Song | 3| 9| 4| 3| 3| —| —|— |— |— |—|
+|7th| +3| - | 3 |10| 4| 3| 3| 1| —|— |— |— |—|
+|8th| +3| Ability Score Improvement | 3 |11| 4| 3| 3| 2| —|— |— |— |—|
+|9th| +4| Bardic Song | 3 |12| 4| 3|3|3| 1| —| —| —| —|
+|10th| +4| Bardic Inspiration (d10),<br/>Expertise,<br/>Magical Secrets |4|14|4|3|3|3|2|—|—|—|—|
+|11th| +4| - | 4 |15| 4| 3| 3| 3| 2| 1| —| —| —|
+|12th| +4| Ability Score Improvement | 4 |15| 4| 3|3|3|2| 1| —| —| —|
+|13th| +5| Bardic Song | 4| 16| 4| 3| 3| 3| 2| 1| 1| —| —|
+|14th| +5| Magical Secrets,<br/>Bard College feature | 4 |18| 4| 3| 3| 3| 2| 1| 1| —| —|
+|15th| +5| Bardic Inspiration (d12) | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
+|16th| +5| Ability Score Improvement | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
+|17th| +6| Bardic Song | 4 |20| 4| 3| 3| 3|2|1| 1| 1| 1|
+|18th| +6| Magical Secrets | 4 |22| 4| 3| 3| 3| 3| 1| 1|1|1|
+|19th| +6| Ability Score Improvement | 4 |22| 4| 3|3|3|3| 2| 1| 1| 1|
+|20th| +6| Superior Inspiration | 4 |22| 4| 3| 3| 3| 3| 2| 2| 1|1|
+
+</div>
+
 As a bard, you gain the following class features.
 
 #### Hit Points
@@ -183,44 +214,12 @@ You can use this feature a number of times equal to your Charisma modifier, and 
 Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
 
 
-<!-- | Level \| | Proficiency Bonus | Features | Cantrips Known | Spells Known |  --- Spell Slots Per Spell Level --- |||||||| -->
-
-
-<div class="classTable frame" markdown="1">
-
-##### The Bard
-
-| -Level- | -PB- | -Features- | -Cantrips Known- | -Spells Known- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
-| :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|1st| +2| Bard College, Bardic Inspiration (d6), Spellcasting |2|4|2|—|—|—|—|—|—|—|—|
-|2nd| +2| Bardic Song, Jack of All Trades | 2 |5 |3 |— |— |— |—|—| —| —| —|
-|3rd| +2| Bard College feature, Expertise | 2| 6| 4| 2| —| —| —|— |— |— |—|
-|4th| +2| Ability Score Improvement | 3 |7 |4 |3 |— |— |—|— |— |— |—|
-|5th| +3| Bardic Inspiration (d8), Font of Inspiration | 3| 8| 4| 3| 2| —| —|— |— |—| —|
-|6th| +3| Bard College feature, Bardic Song | 3| 9| 4| 3| 3| —| —|— |— |— |—|
-|7th| +3| - | 3 |10| 4| 3| 3| 1| —|— |— |— |—|
-|8th| +3| Ability Score Improvement | 3 |11| 4| 3| 3| 2| —|— |— |— |—|
-|9th| +4| Bardic Song | 3 |12| 4| 3|3|3| 1| —| —| —| —|
-|10th| +4| Bardic Inspiration (d10), Expertise, Magical Secrets |4|14|4|3|3|3|2|—|—|—|—|
-|11th| +4| - | 4 |15| 4| 3| 3| 3| 2| 1| —| —| —|
-|12th| +4| Ability Score Improvement | 4 |15| 4| 3|3|3|2| 1| —| —| —|
-|13th| +5| Bardic Song | 4| 16| 4| 3| 3| 3| 2| 1| 1| —| —|
-|14th| +5| Magical Secrets, Bard College feature | 4 |18| 4| 3| 3| 3| 2| 1| 1| —| —|
-|15th| +5| Bardic Inspiration (d12) | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
-|16th| +5| Ability Score Improvement | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
-|17th| +6| Bardic Song | 4 |20| 4| 3| 3| 3|2|1| 1| 1| 1|
-|18th| +6| Magical Secrets | 4 |22| 4| 3| 3| 3| 3| 1| 1|1|1|
-|19th| +6| Ability Score Improvement | 4 |22| 4| 3|3|3|3| 2| 1| 1| 1|
-|20th| +6| Superior Inspiration | 4 |22| 4| 3| 3| 3| 3| 2| 2| 1|1|
-
-</div>
-
 
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -544,7 +543,7 @@ Additionally, when the spell expires, you can try to make the creature forget so
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -681,7 +680,7 @@ Beginning at 14th level, when you cast a spell targeting yourself, you can also 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -762,7 +761,7 @@ These illusions look perfect, but act very crudely as it is difficult to maintai
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -831,7 +830,7 @@ In addition, you learn the *infernal calling* spell, which counts as a bard spel
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -917,7 +916,7 @@ From 14th level, after you have used a Dance Flourish, you can grant up to three
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1037,7 +1036,7 @@ From 14th level you can travel between any two Magic Doors regardless of their d
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -1288,7 +1287,7 @@ Beginning at 14th level, if your chosen divine domain grants a Channel Divinity 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1371,7 +1370,7 @@ Even if a joke falls flat at first, you know how to get your audience laughing; 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -1445,7 +1444,7 @@ In addition, as a ***bonus action***, you can assume a magically majestic presen
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1555,7 +1554,7 @@ Starting at 14th level, when you make an ability check, you can expend one use o
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -1736,7 +1735,7 @@ Your alignment appears to be neutral good while you wear a High Priest mask.
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1859,7 +1858,7 @@ Whenever you would take damage, you can use your ***reaction*** to sacrifice the
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -2130,7 +2129,7 @@ At 14th level, you have carefully built up a network of informants who you can c
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -2306,7 +2305,7 @@ In addition, you have mastered the art of weaving spellcasting and weapon use in
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |

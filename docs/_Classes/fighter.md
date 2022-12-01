@@ -79,14 +79,13 @@ When the battle is done, enemies and allies alike stare in awe at the sight of y
 
 
 ## Class Features
-As a fighter, you gain the following class features.
 
 
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Fighter
-| -Level- | -PB- | -Features- | -Maneuvers Known- | -Superiority- | -Superiority Dice- |
+| -Level- | -PB- | -Features- | -Maneuvers- | -Superiority- | -Superiority Dice- |
 |:-----:|:-----------------:|:---------|:---------------:|:-----------:|:----------------:|
  1st | +2 | Fighter Origin, Fighting Style,<br/>Second Wind | - | - | - |
 | 2nd | +2 | Combat Superiority, Origin Maneuver | 3 | 7 | d4 |
@@ -111,6 +110,8 @@ As a fighter, you gain the following class features.
 
 </div>
 
+As a fighter, you gain the following class features.
+
 #### Hit Points
 **Hit Dice:** 1d10
 
@@ -128,10 +129,25 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* a light crossbow and 20 bolts or *(b)* two handaxes
 - *(a)* a dungeoneer’s pack or *(b)* an explorer’s pack
 
+### Fighter Origin
+The type of martial training you received sets the groundwork for your career as a fighter. Your origin can range from a disciplined training in the army, to being a self-taught farmer.
+
+All origins are describes at the end of the class description. Select the origin most suitable for your character.
+
+### Fighting Styles
+At 1st level, a fighter adopts a particular style of fighting as his specialty. All styles are listed *<a href="#internal-FightingStyles">here</a>*.
+
+Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
+
+### Second Wind
+From 1st level, you have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, if you have less than half your hp left, you can use a ***bonus action*** to regain a number of hit points equal to 1d10 + your Constitution bonus.
+
+Once you use this feature, you must finish a short rest before you can use it again.
+
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -152,21 +168,6 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 </div>
-
-### Fighter Origin
-The type of martial training you received sets the groundwork for your career as a fighter. Your origin can range from a disciplined training in the army, to being a self-taught farmer.
-
-All origins are describes at the end of the class description. Select the origin most suitable for your character.
-
-### Fighting Styles
-At 1st level, a fighter adopts a particular style of fighting as his specialty. All styles are listed *<a href="#internal-FightingStyles">here</a>*.
-
-Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
-
-### Second Wind
-From 1st level, you have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, if you have less than half your hp left, you can use a ***bonus action*** to regain a number of hit points equal to 1d10 + your Constitution bonus.
-
-Once you use this feature, you must finish a short rest before you can use it again.
 
 ### Combat Superiority
 Starting at 2nd level, your tactical expertise makes you a deadly force on the battlefield. You learn maneuvers which are fueled by a special resource called superiority.
@@ -220,7 +221,7 @@ Your courageous words inspire valor and ferocity in your allies, allowing you to
 
 
 
-## <a name="internal-origins">Fighter Origins</a>
+<h2><a class="internal-link" name="internal-origins">Fighter Origins</a></h2>
 
 The type of martial training you received sets the groundwork for your career as a fighter. Select the origin most suitable for your character.
 
@@ -384,7 +385,7 @@ As an ***action***, you can choose one creature or object with range and within 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -682,7 +683,7 @@ Each time you reduce a creature to 0 hit points, you may move up to your speed a
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -849,7 +850,7 @@ At 18th level, you can quickly neutralize a target if you can get the drop on th
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1275,7 +1276,7 @@ Starting at 18th level, as an **action**, you may make an attack against every e
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |

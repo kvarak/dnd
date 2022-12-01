@@ -131,8 +131,8 @@ Naive paladins are unfamiliar with the ways of the world. Their actions are well
 ##### The Paladin
 | -Level- | -PB- | -Features- |
 |:-----:|:-----------------:|:---------|
-| 1st | +2 | Divine Sense, Sacred Oath,<br></brSacred>Sacred Touch
-| 2nd | +2 | Bless Ally, Fighting Style, Prayer
+| 1st | +2 | Divine Sense, Sacred Oath,<br/>Sacred Touch
+| 2nd | +2 | Bless Ally, Fighting Style,<br/>Prayer
 | 3rd | +2 | Channel Divinity
 | 4th | +2 | Divine Health
 | 5th | +3 | Cleansing Touch, Extra Attack
@@ -190,7 +190,7 @@ Within the same radius, you also detect the presence of any place or object that
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1752,7 +1752,7 @@ You can use an ***action*** and spend 5 Devotion to emanate an aura of sunlight.
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -2435,7 +2435,7 @@ You can use an ***action*** and spend 5 Devotion to become an inspiring avatar o
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |

@@ -35,7 +35,6 @@ The anger felt by a normal person resembles the rage of a barbarian in the same 
 
 
 ## Class Features
-As a barbarian, you gain the following class features.
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
@@ -66,6 +65,7 @@ As a barbarian, you gain the following class features.
 
 </div>
 
+As a barbarian, you gain the following class features.
 
 #### Hit Points
 **Hit Dice:** 1d12
@@ -145,7 +145,7 @@ When the rage ends, reduce your current **Fury** with the number of rounds you r
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -184,7 +184,7 @@ You can throw aside all concern for defense to attack with fierce desperation. W
 ### Survivor
 Also at 2nd level you gain 3 additional skill points to spend on Perception and Survival.
 
-<!-- 
+<!--
 At 2nd level you can choose one of the following two options: *Danger Sense* or *Survival Instincts*.
 
 ***Danger Sense***:
@@ -210,7 +210,7 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 ### Mobile
 At 4th level you gain 2 additional skill points to spend on Acrobatics *(only Parkour)*, Physique *(only Climb X, Fast movement, Jumper, Sprinter)* and Swimming
 
-<!-- 
+<!--
 At 4th level you can choose one of the following options: *Fast Movement*, *Hunter's grace*, *Instinctive Pounce* and *Unstoppable*.
 
 ***Fast Movement***:
@@ -609,7 +609,7 @@ Creatures that are Tiny or smaller cannot be used for this feature. Small creatu
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -673,7 +673,7 @@ You may do this a number of times equal to your Constitution modifier. See *Rest
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -1207,7 +1207,7 @@ You gain a magical benefit based on the totem animal of your choice. You can cho
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1299,7 +1299,7 @@ Additionally, the range of your War Song increases to 30 feet, and when you issu
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
