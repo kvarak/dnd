@@ -572,7 +572,7 @@ At 15th level, you always gain the benefits of half cover whenever two or more c
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Diabolist Magic, Phantom Sense,<br>Mind Impression (1d6) |
+| 3rd | Diabolist Magic,<br/>Phantom Sense,<br>Mind Impression (1d6) |
 | 5th | Extra Attack |
 | 7th | Spiritual Sheath |
 | 11th | Planar Blockade, Mind Impression (2d6) |
@@ -654,7 +654,7 @@ Once you use this feature, you cannot do so again until you finish a long rest.
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Fey Hunter Magic, Sealed Mind |
+| 3rd | Fey Hunter Magic,<br/>Sealed Mind |
 | 5th | Extra Attack |
 | 7th | Rally Against Fey |
 | 11th | Lift the Veil |
@@ -710,7 +710,7 @@ At 15th level, your attacks and spells against fey creatures ignore any resistan
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Freerunner Magic, Freerunning, Momentum |
+| 3rd | Freerunner Magic,<br/>Freerunning,<br/>Momentum |
 | 5th | Extra Attack |
 | 7th | Evasive Fighter |
 | 11th | Hit Hard, Hit Fast |
@@ -774,7 +774,7 @@ At 15th level, when a spell or other effect would have you make a saving throw d
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Gloomstalker Magic, Dread Ambusher,<br>Low-light Vision |
+| 3rd | Gloomstalker Magic,<br/>Dread Ambusher,<br>Low-light Vision |
 | 5th | Extra Attack |
 | 7th | Iron Mind |
 | 11th | Stalker’s Flurry |
@@ -837,7 +837,7 @@ Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernat
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Herbalist Magic, Alchemist, Volatile Mixtures |
+| 3rd | Herbalist Magic,<br/>Alchemist,<br/>Volatile Mixtures |
 | 5th | Extra Attack |
 | 7th | Natural Resistance |
 | 11th | Quick Mixing |
@@ -871,8 +871,6 @@ At 3rd level, you gain proficiency with the herbalist kits and you add double yo
 At 3rd level, as long as you have an herbalism kit, at the end of a long rest, you prepare five mixtures, chosen from the list below, in any combination. For example, you can prepare three healing draughts and two quick coatings at the end of a long rest.
 
 It is assumed that your mixtures are created from ingredients foraged or gathered while traveling. Your mixtures lose their potency after 24 hours. Some mixtures require a target to make a saving throw to resist the mixture's effects. The saving throw DC is your ranger spell save DC.
-
-***List of Mixtures***
 
 <div class="columnstwo">
 
@@ -938,11 +936,26 @@ At 15th level, you have mastered your mixtures’ recipes, and have learned to c
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Horizon Walker Magic, Detect Portal,<br>Planar Warrior (1d8) |
+| 3rd | Horizon Walker Magic,<br/>Detect Portal,<br>Planar Warrior (1d8) |
 | 5th | Extra Attack |
 | 7th | Ethereal Step |
-| 11th | Distant Strike, Planar Warrior (2d8) |
+| 11th | Distant Strike,<br/>Planar Warrior (2d8) |
 | 15th | Spectral Defense |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Ethereal Step***.
+
+</div>
+</div>
+</div>
 
 </div>
 
@@ -996,18 +1009,6 @@ If you attack at least two different creatures with the action, you can make one
 ### Spectral Defense
 At 15th level, your ability to move between planes enables you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage from an attack, you can use your ***reaction*** to give yourself resistance to that attack’s damage on this turn.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following conclave specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-|  | * Regain all uses of **Ethereal Step**.
 
 
 
@@ -1016,12 +1017,9 @@ The following conclave specific additions are made to the general rest rules.
 
 
 
-
-
-
-# <a name="internal-hunter">Hunter Conclave</a>
-The Hunter serves as a protector of both the wilderness and civilization. They attempt to keep the peace, ensuring hostilities don't arise between the two different settlements. A Hunter is equipped to handle threats from both sides, from poachers and polluters to rampaging ogres and hordes of orcs to towering giants and terrifying dragons.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-hunter">Hunter Conclave</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -1029,16 +1027,26 @@ The Hunter serves as a protector of both the wilderness and civilization. They a
 | 3rd | Hunter's Prey |
 | 5th | Extra Attack |
 | 7th | Ethereal Step |
-| 11th | Distant Strike, Planar Warrior (2d8) |
+| 11th | Distant Strike,<br/>Planar Warrior (2d8) |
 | 15th | Spectral Defense |
+
+</div>
+
+The Hunter serves as a protector of both the wilderness and civilization. They attempt to keep the peace, ensuring hostilities don't arise between the two different settlements. A Hunter is equipped to handle threats from both sides, from poachers and polluters to rampaging ogres and hordes of orcs to towering giants and terrifying dragons.
+
+
 
 
 ### Hunter's Prey
 At 3rd level, you gain one of the following features of your choice.
 
- **Giant Killer**. When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your ***reaction*** to attack that creature immediately after its attack, provided that you can see the creature.
+<div class="columnstwo">
 
- **Horde Breaker**. Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.
+- **Giant Killer**. When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your ***reaction*** to attack that creature immediately after its attack, provided that you can see the creature.
+
+- **Horde Breaker**. Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.
+
+</div>
 
 ### Extra Attack
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
@@ -1046,42 +1054,51 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 ### Defensive Tactics
 Your training has made you resilient in the face of overwhelming odds. At 7th level, you gain one of the following features of your choice.
 
- **Escape the Horde**. Opportunity attacks against you are made with disadvantage.
+<div class="columnsthree">
 
- **Multiattack Defense**. When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.
+- **Escape the Horde**. Opportunity attacks against you are made with disadvantage.
 
- **Steel Will**. You have advantage on saving throws against being frightened.
+- **Multiattack Defense**. When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.
 
+- **Steel Will**. You have advantage on saving throws against being frightened.
 
+</div>
 
 ### Multiattack
 At 11th level, you gain one of the following features of your choice.
- **Volley**. You can use your ***action*** to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, and you make a separate attack roll for each target.
 
- **Whirlwind Attack**. You can use your ***action*** to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.
+<div class="columnstwo">
+
+- **Volley**. You can use your ***action*** to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, and you make a separate attack roll for each target.
+
+- **Whirlwind Attack**. You can use your ***action*** to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.
+
+</div>
 
 ### Superior Hunter's Defense
 Your experience has proven invaluable in keeping you safe from harm. At 15th level, you gain one of the following features of your choice.
 
- **Evasion**. You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+<div class="columnstwo">
 
- **Stand Against the Tide**. When a hostile creature misses you with a melee attack, you can use your ***reaction*** to force that creature to repeat the same attack against another creature (other than itself) of your choice.
+- **Evasion**. You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
 
- **Uncanny Dodge**. When an attacker that you can see hits you with an attack, you can use your ***reaction*** to halve the attack's damage against you.
+- **Stand Against the Tide**. When a hostile creature misses you with a melee attack, you can use your ***reaction*** to force that creature to repeat the same attack against another creature (other than itself) of your choice.
 
- **Wisdom of Experience**. You gain a bonus to all your saving throws and contested ability checks equal to your Wisdom modifier.
+- **Uncanny Dodge**. When an attacker that you can see hits you with an attack, you can use your ***reaction*** to halve the attack's damage against you.
 
+- **Wisdom of Experience**. You gain a bonus to all your saving throws and contested ability checks equal to your Wisdom modifier.
 
-
-
-
-
+</div>
 
 
 
-# <a name="internal-monsterSlayer">Monster Slayer</a>
-You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.
 
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-monsterSlayer">Monster Slayer</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -1091,6 +1108,26 @@ You have dedicated yourself to hunting down creatures of the night and wielders 
 | 7th | Supernatural Defense |
 | 11th | Magic-User’s Nemesis |
 | 15th | Slayer’s Counter |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following class specific additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Magic-User’s Nemesis***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.
+
 
 
 ### Monster Slayer Magic
@@ -1135,18 +1172,6 @@ Once you use this feature, you can’t use it again until you finish a short res
 ### Slayer’s Counter
 At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Prey forces you to make a saving throw, you can use your ***reaction*** to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack’s normal effects.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following conclave specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-|  | * Regain use of **Magic-User’s Nemesis**.
 
 
 
@@ -1155,12 +1180,9 @@ The following conclave specific additions are made to the general rest rules.
 
 
 
-
-
-
-# <a name="internal-nightstalker">Nightstalker</a>
-The Nightstalker conclave emulates a unique form of shadow magic, used to create shadowy familiars to accompany you in battle. By walking this path, you learn to use your shadow familiar like an extension of yourself, using them like a weapon as you stalk through the dim forests and vast plains of the world, searching for your prey. Your choice of familiar defines your style of fighting, with each familiar playing a different role on the hunt and on the battlefield.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-nightstalker">Nightstalker</a></h1>
+<div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
@@ -1171,6 +1193,9 @@ The Nightstalker conclave emulates a unique form of shadow magic, used to create
 | 11th | Dark Sentinel |
 | 15th | Midnight Bulwark |
 
+</div>
+
+The Nightstalker conclave emulates a unique form of shadow magic, used to create shadowy familiars to accompany you in battle. By walking this path, you learn to use your shadow familiar like an extension of yourself, using them like a weapon as you stalk through the dim forests and vast plains of the world, searching for your prey. Your choice of familiar defines your style of fighting, with each familiar playing a different role on the hunt and on the battlefield.
 
 ### Nightstalker Magic
 Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Nightstalker Spells table. The spell counts as a ranger spell for you, and it doesn’t count against the number of ranger spells you know.
@@ -1190,8 +1215,6 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 At 3rd level, you gain the ability to summon a creature of shadow to serve you. As a ***bonus action*** on your turn, you can conjure or dismiss your shadow familiar, which takes the form of a spectral creature that cannot be targeted or damaged. You choose the form you can create when you select this subclass.
 
 When you conjure your shadow familiar, it appears in an unoccupied space within 30 feet. As long as it is conjured, you can forgo one or more of your attacks when you use the Attack action to have your shadow familiar make attacks of its own. The attacks use your spell attack modifier for their attacks, and the familiar makes one melee attack for each attack you forgo. While within 120 ft of your familiar, you can command it to move (no action required). The speeds and attacks of the three forms are listed below.
-
-
 
  **Bear**. This form has a speed of 30 feet. On a hit, its attack deals 1d10 + your Wisdom modifier slashing damage, and trigger any spells or features that would trigger from your own  attacks (such as Hunter’s Mark).
 
@@ -1219,27 +1242,31 @@ Additionally, whenever you command your familiar to make an attack using your re
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-stalker">Stalker</a></h1>
+<div class="featuresTable">
 
-# <a name="internal-stalker">Stalker</a>
+#### Conclave Features
+| Ranger Level | Feature |
+| :----------: | :------ |
+| 3rd | Investigator’s Intellect,<br/>Penetrating Insight |
+| 5th | Extra Attack |
+| 7th | Iron Mind |
+| 11th | Informant Network,<br/>Twenty Moves Ahead |
+| 15th | Reliable Insight |
+
+</div>
+
 At first glance, you seem hopelessly out of place in an adventuring party, looking instead like a drab town dweller who has wandered into danger by mistake. You maintain a soft-spoken, rather nondescript demeanor, but this is only a facade, concealing keen senses, a shrewd mind, and remarkable insight. Only your closest friends realize the extent of your expertise in intelligence gathering. And that's just the way you like it. Stalkers serve as investigators, spies, informants, interrogators, and vigilantes.
 
 Unlike other rangers, you are just as at home in a crowded metropolis as you are in a wilderness setting. Like all rangers, you are a master of the hunt, but when your prey can be as intelligent, sophisticated, or devious as yourself, hunting them is a far more complex task. You are experienced in solving intricate mysteries and bringing justice to the masterminds behind ambitious crimes. As comfortable stalking your quarry in a bustling city as a savage wilderness, you are no mere urban ranger, but a master of observation, deduction, and interrogation.
 
 
-#### Conclave Features
-| Ranger Level | Feature |
-| :----------: | :------ |
-| 3rd | Investigator’s Intellect, Penetrating Insight |
-| 5th | Extra Attack |
-| 7th | Iron Mind |
-| 11th | Informant Network, Twenty Moves Ahead |
-| 15th | Reliable Insight |
 
 
 ### Investigator’s Intellect
 When you choose this archetype at 3rd level, you gain a superior mastery of skills related to obtaining information, allowing you to find clues others might miss. This gives you a number of benefits:
 * You gain proficiency with Insight, Investigation, Perception and thieves’ tools.
-
 * After you have attempted an check with one of those skill, you can choose to spend a spell slot to reroll, gaining a bonus on the second roll equal to 1d4 + the level of the spell slot spent.
 
 
@@ -1266,13 +1293,6 @@ At 7th level, you have trained your mind to an extraordinary level of insight, m
 At 11th level, you have carefully built up a network of informants who you can contact from almost anywhere (via a messenger bird, magic, or other). These informants are mix of guards, beggars, vagabonds, merchants, and allied government officials who have enough personal loyalty to you to perform routine favors, but not to risk their safety. As long as you are within 100 miles of a settlement that includes at least 100 intelligent creatures with whom you share a language, you can use the following abilities:
 
 * You can cast the *commune* and *legend lore* spells as rituals with a 1 hour casting time. These are not magical effects, being information from your network rather than divinations, and can be used even if magic is unavailable. Any references deities in those spells instead reference your network. You can gain any information that is known by more than 1 person within 200 miles, within the limitations of the spells. The casting time is the time it takes to contact your network and get back your answer.
-
-
-
-
-
-
-
 
 * You choose a location that you have seen before, or a public location which has been described to you in some detail, and ask members of your network to watch it for one hour. At the end of that hour, you are informed of everything that could've been seen in that location within the last hour, as if you had been watching it yourself with a *scrying* spell.
 
