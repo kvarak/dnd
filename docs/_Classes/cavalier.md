@@ -128,7 +128,7 @@ Once you use this feature, you can't use it again until you finish a short or lo
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |

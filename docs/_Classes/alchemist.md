@@ -170,7 +170,7 @@ You can mix together herbs to create potions that cure ailments and injuries. If
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -190,7 +190,7 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-<!-- 
+<!--
 ### Studious Expertise
 From 1st level you have advantage on any ability check you make with your alchemist’s supplies, as well as any ability check to identify herbs, poisons or other alchemical substances.
 -->
@@ -317,7 +317,7 @@ The panacea must be consumed within 24 hours, after which it becomes inert. You 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |

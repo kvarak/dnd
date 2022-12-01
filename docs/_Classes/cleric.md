@@ -165,7 +165,7 @@ You prepare the list of cleric spells that are available for you to cast, choosi
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -576,7 +576,7 @@ They teach the art of farming and animal husbandry to mortals, giving them stabi
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -688,7 +688,7 @@ Your task, as an arbiter of these ancient gods, is to maintain the balance of th
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -819,7 +819,7 @@ Followers of these gods can be many things, such as heroic revolutionaries, amor
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -918,7 +918,7 @@ Deities whose portfolios include the Charm domain govern over the ability to con
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1035,7 +1035,7 @@ Gods of the sands and burning sun, deities of cloudless nights and storms of cut
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1111,7 +1111,7 @@ Those who follow benevolent gods often guide heroes to their destinies, while ev
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1249,7 +1249,7 @@ Although at first glance this domain seems to overlap with Trickery, it is actua
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1367,7 +1367,7 @@ The gods of knowledge value learning and understanding above all. Some teach tha
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1499,7 +1499,7 @@ Gods of light promote the ideals of rebirth and renewal, truth, vigilance, and b
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1679,7 +1679,7 @@ The ideal of order is obedience to the law  above all else, rather than to a spe
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1743,7 +1743,7 @@ Deities whose portfolios include the protection domain are often deities that al
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1813,7 +1813,7 @@ Followers of these deities also seek to put wandering spirits to rest, destroy t
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1940,7 +1940,7 @@ The gods of primitive and uncivilized races are most likely to hold this domain:
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -2007,7 +2007,7 @@ Gods whose portfolios include the Tempest domain govern storms, sea, and sky. Th
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -2070,7 +2070,7 @@ The Time domain deals with the flow of time. Few deities offer access to this do
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -2200,7 +2200,7 @@ Clerics such as you act as warriors and killers, harbingers of the doom and dest
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -2326,7 +2326,7 @@ Deities whose portfolios include the Cold domain govern over all aspects of the 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -2409,7 +2409,7 @@ A balanced scale finds the most satisfaction in discovering long-lost treasures 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |

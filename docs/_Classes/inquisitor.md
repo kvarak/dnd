@@ -133,7 +133,7 @@ After you have used this feature, you have to complete a short rest to use it ag
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |

@@ -220,7 +220,7 @@ Your Bardic Inspiration die changes when you reach certain levels in this class.
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -544,7 +544,7 @@ Additionally, when the spell expires, you can try to make the creature forget so
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -681,7 +681,7 @@ Beginning at 14th level, when you cast a spell targeting yourself, you can also 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -762,7 +762,7 @@ These illusions look perfect, but act very crudely as it is difficult to maintai
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -831,7 +831,7 @@ In addition, you learn the *infernal calling* spell, which counts as a bard spel
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -917,7 +917,7 @@ From 14th level, after you have used a Dance Flourish, you can grant up to three
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1037,7 +1037,7 @@ From 14th level you can travel between any two Magic Doors regardless of their d
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -1288,7 +1288,7 @@ Beginning at 14th level, if your chosen divine domain grants a Channel Divinity 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1371,7 +1371,7 @@ Even if a joke falls flat at first, you know how to get your audience laughing; 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -1445,7 +1445,7 @@ In addition, as a ***bonus action***, you can assume a magically majestic presen
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1555,7 +1555,7 @@ Starting at 14th level, when you make an ability check, you can expend one use o
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -1736,7 +1736,7 @@ Your alignment appears to be neutral good while you wear a High Priest mask.
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1859,7 +1859,7 @@ Whenever you would take damage, you can use your ***reaction*** to sacrifice the
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -2130,7 +2130,7 @@ At 14th level, you have carefully built up a network of informants who you can c
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -2306,7 +2306,7 @@ In addition, you have mastered the art of weaving spellcasting and weapon use in
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |

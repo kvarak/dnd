@@ -44,8 +44,8 @@ On adventures, a rogue is likely to mix an outwardly cautious approach — few r
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Rogue
-| -Level- | -PB- | -Sneak Attack-   | -Features-  |
-|:-----:|:-----------:|:--------|:----------|
+| -Level- | -PB- | -Sneak Attack- | -Features-  |
+|:-----:|:-----------:|:--------:|:----------|
 | 1st | +2 | 1d6 | Roguish Archetype, Sneak Attack,<br/>Thieves’ Cant |
 | 2nd | +2 | 1d6 | Cunning Action |
 | 3rd | +2 | 2d6 | Expertise |
@@ -189,9 +189,9 @@ Rogues have many features in common, including their emphasis on perfecting thei
 
 
 
-
-# <a name="internal-arcaneTrickster">Arcane Trickster</a>
-Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-arcaneTrickster">Arcane Trickster</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -201,6 +201,26 @@ Some rogues enhance their fine-honed skills of stealth and agility with magic, l
 | 9th | Magical Ambush |
 | 13th | Versatile Trickster |
 | 17th | Spell Thief |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain use of ***Spell Thief***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.
+
 
 ### Bonus Proficiencies
 At 1st level, you gain proficiency with arcana, burglary, sleight of hand and staying undetected.
@@ -222,13 +242,8 @@ The spells you learn at 8th, 14th, and 20th level can come from any school of ma
 Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
 
 
-
-
-<div class="block classTable frame" markdown="1">
-
 #### Arcane Trickster Spellcasting Table
-| Level | Cantrips | Spells | --- Spell Slots Per Spell Level --- ||||
-|      ^|         ^| Known ^| 1st |2nd |3rd |4th |
+| -Level- | -Cantrips- | -Spells- | 1st |2nd |3rd |4th |
 |:-----:|:--------:|:------:|:---:|:--:|:--:|:--:|
 | 3rd | 2 | 3 | 2 | - | - | - |
 | 4th | 2 | 4 | 3 | - | - | - |
@@ -290,18 +305,6 @@ On a failed save, you negate the spell's effect against you, and you steal the k
 
 Once you use this feature, you can't use it again until you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain use of **Spell Thief**.
 
 
 
@@ -311,10 +314,9 @@ The following archetype specific additions are made to the general rest rules.
 
 
 
-
-
-# <a name="internal-assassin">Assassin</a>
-You focus your training on the grim art of death. Those who adhere to this archetype are diverse: hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-assassin">Assassin</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -324,6 +326,11 @@ You focus your training on the grim art of death. Those who adhere to this arche
 | 9th | Infiltration Expertise |
 | 13th | Impostor |
 | 17th | Death Strike |
+
+</div>
+
+You focus your training on the grim art of death. Those who adhere to this archetype are diverse: hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.
+
 
 ### Bonus Proficiencies
 At 1st level, you gain proficiency with burglary, disguise, poisons, sleight of hand and staying undetected.
@@ -349,10 +356,9 @@ Starting at 17th level, you become a master of instant death. When you attack an
 
 
 
-
-
-# <a name="internal-flyingBlade">Blade Juggler</a>
-Never ones to grow attached to weapons, Blade Jugglers are those who choose to fling handaxes, daggers, and the like from afar rather than partake in melee. Blade Jugglers have no qualms when it comes to parting with their weapons, for it is usually when another parts with his life. Notorious for their deadly precision, Blade Jugglers depend upon a keen eye and lightning reflexes to slay their foes from the shadows, preferring a deft throw over a flurry of blows.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-flyingBlade">Blade Juggler</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -362,6 +368,11 @@ Never ones to grow attached to weapons, Blade Jugglers are those who choose to f
 | 9th | Doubletoss, Eyeball It |
 | 13th | Throw Anything, Weak Spot |
 | 17th | Pinpoint Focus |
+
+</div>
+
+Never ones to grow attached to weapons, Blade Jugglers are those who choose to fling handaxes, daggers, and the like from afar rather than partake in melee. Blade Jugglers have no qualms when it comes to parting with their weapons, for it is usually when another parts with his life. Notorious for their deadly precision, Blade Jugglers depend upon a keen eye and lightning reflexes to slay their foes from the shadows, preferring a deft throw over a flurry of blows.
+
 
 ### Bonus Proficiencies
 Beginning when you select this archetype at 1st level, you gain proficiency with all thrown weapons and perception checks.
@@ -391,15 +402,11 @@ By level 13 you have developed a knack for targeting the weak spots in your oppo
 ### Pinpoint Focus
 When you reach level 17, you have become so precise that you are able to target the weakest and most sensitive parts of a creature. Using an ***action*** , you may make a ranged attack with a light thrown weapon. A creature who has succeeded on a save against an effect, is immune to that effect until aftrer your next long rest.
 
- **Pinpoint Focus DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier
-
- **Eyes.** On a hit, the target takes normal damage and must make a Constitution saving throw or become blinded. The creature is blinded until it is affected by a lesser restoration spell or a spell of similar effect.
-
- **Nerve Cluster**. On a hit, the target takes normal damage and must make a Constitution saving throw or become stunned. The creature remains stunned a number of rounds equal to your Strength or Dexterity modifier. At the end of each of the target's subsequent turns, the creature makes another Constitution saving throw, ending the condition on a success.
-
- **Legs/Wings**. On a hit, the target takes normal damage and must make a Dexterity saving throw. On a success, the creature's movement speed is reduced by your proficiency bonus + your Dexerity or Strength modifier. On a failure, the creature falls prone and its movement speed is halved. This movement speed penalty lasts for a number of rounds equal to your Strength or Dexterity modifier.
-
- **Throat.** On a hit, the target takes normal and and must make a Constitutions saving throw. On a success, the creature takes an additional damage die of damage. On a failure, the creature takes an additional damage equal to your sneak attack damage.
+- **Pinpoint Focus DC** = 8 + your proficiency bonus + your Strength or Dexterity modifier
+- **Eyes.** On a hit, the target takes normal damage and must make a Constitution saving throw or become blinded. The creature is blinded until it is affected by a lesser restoration spell or a spell of similar effect.
+- **Nerve Cluster**. On a hit, the target takes normal damage and must make a Constitution saving throw or become stunned. The creature remains stunned a number of rounds equal to your Strength or Dexterity modifier. At the end of each of the target's subsequent turns, the creature makes another Constitution saving throw, ending the condition on a success.
+- **Legs/Wings**. On a hit, the target takes normal damage and must make a Dexterity saving throw. On a success, the creature's movement speed is reduced by your proficiency bonus + your Dexerity or Strength modifier. On a failure, the creature falls prone and its movement speed is halved. This movement speed penalty lasts for a number of rounds equal to your Strength or Dexterity modifier.
+- **Throat.** On a hit, the target takes normal and and must make a Constitutions saving throw. On a success, the creature takes an additional damage die of damage. On a failure, the creature takes an additional damage equal to your sneak attack damage.
 
 
 
@@ -407,9 +414,9 @@ When you reach level 17, you have become so precise that you are able to target 
 
 
 
-
-# <a name="internal-daggerspellMage">Daggerspell Mage</a>
-A master of blending the carnage of twin daggers with arcane spellcasting, daggerspell mages make devastating foes. To learn and perfect the art of balancing a spell on the edge of a blade takes years and must be practiced meticulously, but rewards it’s students with exceptional power.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-daggerspellMage">Daggerspell Mage</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -419,6 +426,11 @@ A master of blending the carnage of twin daggers with arcane spellcasting, dagge
 | 9th | Dagger Climbing |
 | 13th | Absorb Dagger |
 | 17th | Greater Imbue Dagger |
+
+</div>
+
+A master of blending the carnage of twin daggers with arcane spellcasting, daggerspell mages make devastating foes. To learn and perfect the art of balancing a spell on the edge of a blade takes years and must be practiced meticulously, but rewards it’s students with exceptional power.
+
 
 ### Bonus Proficiencies
 Beginning when you select this archetype at 1st level, you gain proficiency with all thrown weapons and arcana checks.
@@ -441,12 +453,8 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 
 
 
-
-<div class="block classTable frame" markdown="1">
-
 #### Daggerspell mage Spellcasting Table
-| Level | Cantrips | Spells | --- Spell Slots Per Spell Level --- ||||
-|      ^|         ^| Known ^| 1st |2nd |3rd |4th |
+| -Level- | -Cantrips- | -Spells- | 1st |2nd |3rd |4th |
 |:-----:|:--------:|:------:|:---:|:--:|:--:|:--:|
 | 3rd | 2 | 3 | 2 | - | - | - |
 | 4th | 2 | 4 | 3 | - | - | - |
@@ -506,14 +514,9 @@ At 17th level, you may now imbue two held daggers instead of one as a ***bonus a
 
 
 
-
-# <a name="internal-divineHerald">Divine Herald</a>
-
-*"Just because I’m good at picking locks doesn’t mean I don’t have religion. There are gods that enjoy a good time, ya know. And they have enemies."*
-
-— Dala Halfpint, divine herald of Tymora
-
-Your strict upbringing has made you an unwavering and swift agent of divine retribution. You don’t simply exist to serve the priests of your order, you have a higher purpose and calling, to alleviate the world of false prophets and heretics.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-divineHerald">Divine Herald</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -523,6 +526,40 @@ Your strict upbringing has made you an unwavering and swift agent of divine retr
 | 9th | Guise of the Believer |
 | 13th | Crosier of Penance |
 | 17th | Last Rites |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Guise of the Believer***.
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Reset ***Crosier of Penance***.
+| &nbsp;
+| Add the following archetype specific benefits to choose from: |
+| * Regain all uses of ***Harbinger of Faith***.
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+Your strict upbringing has made you an unwavering and swift agent of divine retribution. You don’t simply exist to serve the priests of your order, you have a higher purpose and calling, to alleviate the world of false prophets and heretics.
+
+> *"Just because I’m good at picking locks doesn’t mean I don’t have religion. There are gods that enjoy a good time, ya know. And they have enemies."*
+>
+> -- Dala Halfpint, divine herald of Tymora
+
+
 
 ### Bonus Proficiencies
 At 1st level, your studies have given you a wide knowledge of religion and its impact on life. Whenever you make an check to recall information about the gods or their worshipers, you are considered proficient in these skills and have advantage.
@@ -545,11 +582,8 @@ Whenever you gain a level in this class, you can replace one of the cleric spell
 
 
 
-<div class="block classTable frame" markdown="1">
-
 #### Divine Herald Spellcasting Table
-| Level | Cantrips | Spells | --- Spell Slots Per Spell Level --- ||||
-|      ^|         ^| Known ^| 1st |2nd |3rd |4th |
+| -Level- | -Cantrips- | -Spells- | 1st |2nd |3rd |4th |
 |:-----:|:--------:|:------:|:---:|:--:|:--:|:--:|
 | 3rd | 3 | 3 | 2 | - | - | - |
 | 4th | 3 | 4 | 3 | - | - | - |
@@ -607,26 +641,6 @@ After the saving throw succeeds, you can’t cast a spell or use this feature ag
 ### Last Rites
 At 17th level, when you hit a creature that has less than half its hit point, you can use your Sneak Attack feature on that creature, even without advantage.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Guise of the Believer**.
-
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Reset **Crosier of Penance**.
-| | &nbsp;
-| Add the following archetype specific benefits to choose from: ||
-| | * Regain all uses of **Harbinger of Faith**.
 
 
 
@@ -637,11 +651,9 @@ The following archetype specific additions are made to the general rest rules.
 
 
 
-
-# <a name="internal-gambler">Gambler</a>
-While any fool can place a bet, Gamblers draw on luck and chance in all aspects of their adventures. Walking testaments to the phrase 'nothing ventured nothing gained,' these daring rogues are willing to risk more than most for the ultimate payoff.
-
-Despite this ability to seize opportunities that most wouldn't be aware of, Gamblers know that for every roll of the die that lands in their favor, the next could just as easily leave them with nothing. Their abilities consist of random effects that are extremely powerful when successful, but detrimental if unsuccessful.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-gambler">Gambler</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Rogue Level | Feature |
@@ -651,6 +663,12 @@ Despite this ability to seize opportunities that most wouldn't be aware of, Gamb
 | 9th | Gambler’s Tricks (3), Fate’s Fortune |
 | 13th | Gambler’s Tricks (4) |
 | 17th | Gambler’s Tricks (5) |
+
+</div>
+
+While any fool can place a bet, Gamblers draw on luck and chance in all aspects of their adventures. Walking testaments to the phrase 'nothing ventured nothing gained,' these daring rogues are willing to risk more than most for the ultimate payoff.
+
+Despite this ability to seize opportunities that most wouldn't be aware of, Gamblers know that for every roll of the die that lands in their favor, the next could just as easily leave them with nothing. Their abilities consist of random effects that are extremely powerful when successful, but detrimental if unsuccessful.
 
 ### Bonus Proficiencies
 Beginning when you select this archetype at 1st level, you gain proficiency with gambling, sleight of hand and checks made to decieve others.
@@ -679,17 +697,19 @@ Second, fate can choose only the most rewarding course of action relative to the
 You regain the use of this feature after finishing a long rest.
 
 <div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
+<div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules. Your tricks might have additional features to reset.
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
+| Long rest |
+|:-|
 | After a long rest: ||
-| | * Reset **Fate’s Fortune**.
+| * Reset ***Fate’s Fortune***.
+
+</div>
+</div>
+</div>
 
 
 
