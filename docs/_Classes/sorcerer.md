@@ -5,7 +5,6 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-metaMagic">Metamagic</a>
 #### [Sorcerous Origins](#internal-SorcerousOrigins)
 <a href="#internal-aberrant">Aberrant Bloodline</a><br/>
 <a href="#internal-arachnid">Arachnid Magic</a><br/>
@@ -32,6 +31,8 @@ layout: default
 <a href="#internal-timeThief">Time Thief</a><br/>
 <a href="#internal-wild">Wild Magic Bloodline</a><br/>
 <a href="#internal-wishcrafter">Wishcrafter</a>
+
+#### <a href="#internal-metaMagic">Metamagic</a>
 
 </div>
 
@@ -353,8 +354,21 @@ Additionally, whenever you cast a spell at 1st-level or higher that deals psychi
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-arachnid">Arachnid Magic</a></h1>
+<div class="featuresTable">
 
-# <a name="internal-arachnid">Arachnid Magic</a>
+#### Arachnid magic Features
+| Sorcerer Level | Feature |
+|:--:|:---|
+| 1st | Spider Movement, Vicious Constitution |
+| 6th | Web Familiarity |
+| 14th | Heightened Webbing |
+| 18th | Den of the Widow |
+
+
+</div>
+
 To many, even the sight of spiders can instill fear into the hearts of others. However, you have learned to not only to instill this fear, but also to use the power of spiders as well. You are a sorcerer who has mastered the might and abilities of spiders, manipulating other creatures and web alike.
 
 Perhaps you were bitten by a magical spider, or your birth was affected by magical abilites from Lolth. Whatever the case may be, you are a frightening and powerfully skilled sorcerer.
@@ -368,14 +382,6 @@ Perhaps you were bitten by a magical spider, or your birth was affected by magic
 | 4 | People often look upon you with fear in your appearance, but many still respect your abilities and wisdom.
 | 5 | Small fangs protrude from your mouth, and your teeth are sharp.
 | 6 | You care very deeply for young children, and often try to help in protecting them.
-
-#### Arachnid magic Features
-| Sorcerer Level | Feature |
-|:--:|:---|
-| 1st | Spider Movement, Vicious Constitution |
-| 6th | Web Familiarity |
-| 14th | Heightened Webbing |
-| 18th | Den of the Widow |
 
 ### Spider Movement
 At 1st level, your familiarity with spiders has allowed you to communicate with them. You ignore movement restrictions caused by webbing. You also are able to speak to spiders as if under the *speak with animals* spell.
@@ -411,11 +417,9 @@ By 18th level, your spider-like constitution has granted you immunity to the poi
 
 
 
-
-# <a name="internal-ashen">Ashen lineage</a>
-Somewhere in your bloodline, one of your ancestors made a pact with a powerful spirit of flame and predation known as the Ashen Wolf. This elemental creature is neither fiend nor fey, but something primal and otherworldly. It is honored with ritualistic immolation and sacrifices of meat and metal.
-
-While the Wolf may have no hold over you, it may be interested in your affairs nevertheless, and your very existence could draw the ire of the Wolf’s eternal foe: the frost-bound Wild Huntsman. With smoke and cinders pouring from your hands with each spell you cast and a layer of ash gradually creeping over your body, you are the incarnation of a smoldering ember thrown upon a dry forest. Let your power burn forth like wildfire
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-ashen">Ashen lineage</a></h1>
+<div class="featuresTable">
 
 #### Ashen lineage features
 | Sorcerer Level | Feature |
@@ -424,6 +428,28 @@ While the Wolf may have no hold over you, it may be interested in your affairs n
 | 6th | Burning Fury
 | 14th | Cinderwraith
 | 18th | The Wolf’s Bargain
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Reset ***Born of Ember***.
+| * Regain use of ***The Wolf’s Bargain***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Somewhere in your bloodline, one of your ancestors made a pact with a powerful spirit of flame and predation known as the Ashen Wolf. This elemental creature is neither fiend nor fey, but something primal and otherworldly. It is honored with ritualistic immolation and sacrifices of meat and metal.
+
+While the Wolf may have no hold over you, it may be interested in your affairs nevertheless, and your very existence could draw the ire of the Wolf’s eternal foe: the frost-bound Wild Huntsman. With smoke and cinders pouring from your hands with each spell you cast and a layer of ash gradually creeping over your body, you are the incarnation of a smoldering ember thrown upon a dry forest. Let your power burn forth like wildfire
 
 ### Born of Ember
 At 1st level, a thin layer of ash and charred wood begins to coat your skin as you fight, engulfing you, yet allowing you to blaze back to life with a vengeance. Whenever you are below your hit point maximum, charred claws and fangs erupt from your hands and mouth. While you have these claws, you can use your ***bonus action*** to make a melee spell attack that deals fire damage equal to 1d8 + your Charisma modifier. At 11th level, the damage increases to 2d8 + your Charisma modifier.
@@ -451,19 +477,6 @@ If any targets are slain by this attack, they are consumed instantly by flame, a
 
 Once you use this feature, you can’t do so again until you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Reset **Born of Ember**.
-| | * Regain use of **The Wolf’s Bargain**.
 
 
 
@@ -474,8 +487,20 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-autumnal">Autumnal Spirit</a></h1>
+<div class="featuresTable">
 
-# <a name="internal-autumnal">Autumnal Spirit</a>
+#### Autumnal Spirit features
+| Sorcerer Level | Feature |
+|:--:|:---|
+| 1st | One With the Fall, Knowledge of Harvests
+| 6th | Guardians of the Fields
+| 14th | Cloak of Fallen Leaves
+| 18th | Wrathful Storm of Autumn
+
+</div>
+
 The season of autumn is a curious one; the season brings people together, to celebrate successful harvests and rejoice in festivals, but it also is a reminder that all things will slowly meet their end and wither away to bring life to something new. Yet even with this process, there is beauty and joy to be found in the passing of life into death, as the cold snaps away at once were warm, summer days.
 
 You are a sorcerer who wields the power of cold, decay, and bountiful harvests, and as such are both a welcome ally and a powerful foe. Your powers could have originated from an entity of death and decay, or from a powerful god of harvest. Or, perhaps your bloodline stems from a culture that relishes in the season of autumn, and are keepers of crops. Whatever the case may be, you are a wielder of the magics that surround the season of autumn.
@@ -489,14 +514,6 @@ You are a sorcerer who wields the power of cold, decay, and bountiful harvests, 
 | 4 | You are a rather melancholy individual.
 | 5 | When you are near trees, they will shed a few of their leaves, as if in autumn.
 | 6 | You are always ready to plan or attend a festival.
-
-#### Autumnal Spirit features
-| Sorcerer Level | Feature |
-|:--:|:---|
-| 1st | One With the Fall, Knowledge of Harvests
-| 6th | Guardians of the Fields
-| 14th | Cloak of Fallen Leaves
-| 18th | Wrathful Storm of Autumn
 
 ### One With the Fall
 By 1st level, you are attuned to nature. You gain proficiency with the Nature skill, and you learn the *druidcraft* cantrip.
@@ -535,9 +552,9 @@ While active, this storm has the following effects on creatures other than you:
 
 
 
-
-# <a name="internal-blighted">Blighted</a>
-Your innate magic stems from the corrupting power of a Gulthias tree. Most with this origin can trace their magic back to a near-death experience caused by a blighted creature, or through extended exposure to blighted land and plant life. Attempting to consume blighted plants over a period of a few weeks or months can often lead to this magic becoming imbued into a creature’s system, assuming it doesn’t kill them first. Whatever the cause, blight magic allows you to animate blighted creatures to do your bidding, as if you were a living Gulthias tree.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-blighted">Blighted</a></h1>
+<div class="featuresTable">
 
 #### Blighted features
 | Sorcerer Level | Feature |
@@ -546,6 +563,25 @@ Your innate magic stems from the corrupting power of a Gulthias tree. Most with 
 | 6th | Awakening
 | 14th | Blighted Command
 | 18th | Unrelenting Army
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Creatures created by ***Awakening*** or ***Blighted Command*** fall apart.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Your innate magic stems from the corrupting power of a Gulthias tree. Most with this origin can trace their magic back to a near-death experience caused by a blighted creature, or through extended exposure to blighted land and plant life. Attempting to consume blighted plants over a period of a few weeks or months can often lead to this magic becoming imbued into a creature’s system, assuming it doesn’t kill them first. Whatever the cause, blight magic allows you to animate blighted creatures to do your bidding, as if you were a living Gulthias tree.
 
 ### Blighted Construct
 Starting when you choose this origin at 1st level, you gain the ability to animate a plant to do your bidding. As an ***action***, you can touch a pile of twigs and infuse it with blighted magic, awakening it as a twig blight. This blight cannot attack, but it can take other actions as normal.
@@ -574,30 +610,50 @@ Vine blights can be commanded in the same way as needle blights, except you can 
 ### Unrelenting Army
 Beginning at 18th level, you can imbue life into back into your blights after they have fallen. As an ***action***, you can touch a blight that was reduced to 0 hit points within the last minute and spend 1 sorcery point to revive it with half of its hit point maximum in current hit points.
 
+
+
+
+
+
+
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-duneChild">Dune Child</a></h1>
+<div class="featuresTable">
+
+#### Dune Child Features
+| Sorcerer Level | Feature |
+|:--:|:---|
+| 1st | One of the Desert, Magic of the Dunes
+| 6th | Shield of the Sands
+| 14th | Illusions of the Waste
+| 18th | Master of the Desolation
+
 <div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
+<div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Creatures created by **Awakening** or **Blighted Command** fall apart.
+| Long rest |
+|:-|
+| At the start of a long rest: |
+| * Shield created by ***Shield of the Sands*** is lost.
+| &nbsp;
+| Add the following class specific benefits to choose from  |
+| * Reset ***Shield of the Sands***.
+| * Reset spells cast by ***Illusions of the Waste***.
+| * Reset ***Master of the Desolation***
 
+</div>
+</div>
+</div>
 
+</div>
 
-
-
-
-
-
-
-
-
-# <a name="internal-duneChild">Dune Child</a>
 To many, sands of the earth or deserts are viewed as a nuisance; it is coarse, rough, and irritating, and it gets everywhere. However you have a unique and immense power over sand, and are a perfect being for surviving the trials and mirages of the desert. Perhaps you were born amongst the dunes of an ancient desert, the magic of the sands having spoken to you. Or, you came into contact with a mirage, peculiar plant, or ancient ruin within a desert, and your magic awoke from the interaction you had with it. However your powers emerged for you, you are a valuable traveling companion and a spirit of the very desert itself.
 
 #### Dune Child Quirks
@@ -610,14 +666,6 @@ To many, sands of the earth or deserts are viewed as a nuisance; it is coarse, r
 | 5 | Sweat is something you have never had to deal with.
 | 6 | You always carry some container filled with sand or dirt.
 
-#### Dune Child Features
-| Sorcerer Level | Feature |
-|:--:|:---|
-| 1st | One of the Desert, Magic of the Dunes
-| 6th | Shield of the Sands
-| 14th | Illusions of the Waste
-| 18th | Master of the Desolation
-
 ### One of the Desert
 Beginning at 1st level, you have become accustomed to the extreme conditions and landscapes of the deserts. You are proficient with surviving in the wild. You're also naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide, and you ignore difficult terrain caused by deserts or pits of sand.
 
@@ -626,9 +674,6 @@ At 1st level, your familiarity with the desert sands has allowed you to learn wh
 
 ### Shield of the Sands
 By 6th level, you have acclimated to the heats of the desert, as well as the venomous animals and poisonous plants that reside within it. You gain resistance to fire and poison damage.
-
-
-
 
 Additionally, you may call upon the sands of the desert to shield you from incoming blows. As an ***action***, you can spend 3 sorcery points to create a magical shield of swirling sand on yourself that lasts until you start a long rest. The sand shield has hit points equal to twice your sorcerer level. Whenever you take damage, the sand shield takes the damage instead. If this damage reduces the ward to 0 hit points, you take any remaining damage.
 
@@ -646,23 +691,6 @@ By 18th level, you have garnered mastery over the desert, allowing you to call u
 
 Once you have used this feature, you cannot do so again until you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| At the start of a long rest: ||
-| | * Shield created by **Shield of the Sands** is lost.
-| | &nbsp;
-| Add the following class specific benefits to choose from  ||
-| | * Reset **Shield of the Sands**.
-| | * Reset spells cast by **Illusions of the Waste**.
-| | * Reset **Master of the Desolation**
 
 
 
@@ -674,12 +702,10 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="internal-divineSoul">Divine Soul</a>
-Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god’s name. Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.
 
-A Divine Soul, with a natural magnetism, is seen as a threat by some religious hierarchies. As an outsider who commands sacred power, a Divine Soul can undermine an existing order by claiming a direct tie to the divine.
-
-In some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-divineSoul">Divine Soul</a></h1>
+<div class="featuresTable">
 
 #### Divine Soul Features
 | Sorcerer Level | Feature |
@@ -688,6 +714,35 @@ In some cultures, only those who can claim the power of a Divine Soul may comman
 | 6th | Empowered Healing |
 | 14th | Otherworldly Wings |
 | 18th | Unearthly Recovery |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| | * Reset ***Favored by the Gods***.
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Reset ***Unearthly Recovery***
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god’s name. Or your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.
+
+A Divine Soul, with a natural magnetism, is seen as a threat by some religious hierarchies. As an outsider who commands sacred power, a Divine Soul can undermine an existing order by claiming a direct tie to the divine.
+
+In some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.
 
 ### Divine Magic
 Choose an affinity for the source of your divine power: good, evil, law, chaos, or neutrality. You learn an additional spell based on that affinity, as shown below. It is a sorcerer spell for you, but it doesn’t count against your number of sorcerer spells known.
@@ -725,23 +780,6 @@ At 18th level, you gain the ability to overcome grievous injuries. As a ***bonus
 
 Once you use this feature, you can’t use it again until you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Reset **Favored by the Gods**.
-
-| Long rest ||
-|:-|:------- |
-| Add the following bloodline specific benefits to choose from: ||
-| | * Reset **Unearthly Recovery**
 
 
 
@@ -753,8 +791,11 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="internal-draconic">Draconic Bloodline</a>
-Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-draconic">Draconic Bloodline</a></h1>
+<div class="featuresTable">
 
 #### Draconic Bloodline features
 | Sorcerer Level | Feature |
@@ -763,6 +804,10 @@ Your innate magic comes from draconic magic that was mingled with your blood or 
 | 6th | Elemental Affinity
 | 14th | Dragon Wings
 | 18th | Draconic Presence
+
+</div>
+
+Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.
 
 ### Dragon Ancestor
 At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.
@@ -809,9 +854,39 @@ A creature that succeeds on this saving throw is immune to your aura for 24 hour
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-dread">Dread Sorcery</a></h1>
+<div class="featuresTable">
+
+#### Dread features
+| Sorcerer Level | Feature |
+|:--:|:---|
+| 1st | Grave Return, Undead Sympathy
+| 6th | Undead Strength
+| 14th | One of the Dead
+| 18th | Death’s Master
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Reset ***Grave Return***.
+| &nbsp;
+| Add the following bloodline specific benefits to choose from: |
+| * Reset spells gained by ***Death’s Master***
+
+</div>
+</div>
+</div>
 
 
-# <a name="internal-dread">Dread Sorcery</a>
+</div>
+
 You are a creature of death, a being whose magical powers hold sway over the undead and other necromantic abilities. Your lineage might be intertwined with some vile curse, shaping the living slowly over towards the dead. Perhaps you were the servant to a powerful lich, whose power shaped you forever. Or, you may have had an experience with death, whether it was your own or that of another, and the experience changed your very being.unleashed.
 
 Whatever the case may be, you are a sorcerer who maintains magical skills over death, the undead, and the necromantic energies that empower them.
@@ -830,13 +905,6 @@ The power of necromantic magic casts a strange pall over your physical presence.
 | 8 | Your eyes are a dull, lifeless color, and may not appear to move.
 | 9 | Your scars never fully heal, and sometimes appear to stay exposed.
 
-#### Dread features
-| Sorcerer Level | Feature |
-|:--:|:---|
-| 1st | Grave Return, Undead Sympathy
-| 6th | Undead Strength
-| 14th | One of the Dead
-| 18th | Death’s Master
 
 ### Grave Return
 Starting at 1st level, your existence in a twilight state between life and death makes you difficult to kill. When damage reduces you to 0 hit points, you can make a Charisma saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You can’t use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.
@@ -875,33 +943,48 @@ Additionally, you have learned how to command the magic of death. Choose two nec
 
 
 
+
+
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-ethereal">Ethereal Spirit</a></h1>
+<div class="featuresTable">
+
+#### Ethereal Spirit Features
+| Sorcerer Level | Feature |
+|:--:|:---|
+| 1st | Ghost Sight, Frightening Visage
+| 6th | Spectral Movement
+| 14th | Cry of the Banshee
+| 18th | Den of the Widow |
+
 <div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
+<div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Reset **Grave Return**.
-| | &nbsp;
-| Add the following bloodline specific benefits to choose from: ||
-| | * Reset spells gained by **Death’s Master**
+| Short rest |
+|:------- |
+| After a short rest: |
+| * Reset ***Frightening Visage***.
 
+| Long rest |
+|:------- |
+| Add the following bloodline specific benefits to choose from: |
+| * Reset ***Spectral Movement***.
+| * Reset ***Cry of the Banshee***.
 
-
-
-
-
-
-
-
+</div>
+</div>
+</div>
 
 
-# <a name="internal-ethereal">Ethereal Spirit</a>
+</div>
+
 In some places in the world, the spectral forms of spirits, ghosts, and banshees reside, subject to the torment of an afterlife undeserved, or having been cursed to never truly rest. Your innate magic is tied to one of these ethereal creatures, and it is through some circumstance that it awakened within you.
 
 Perhaps you almost died, but something in your mind or body held you back from the near brink of death. Another cause could have been the exposure to a place with angry, vengeful, or mournful spirits, whose magic rubbed off on you by choice or by proxy. Slowly, over time, you become more and more like a spirit yourself, and your sorcerous power grows from this transformation.
@@ -915,14 +998,6 @@ Perhaps you almost died, but something in your mind or body held you back from t
 | 4 | You are drawn to those places that are haunted, hoping to help cleanse it or help the spirits there.
 | 5 | The death of even those you only met once hits you hard.
 | 6 | You have a voice in your head of another spirit that you had met, who, while not controlling you, uses your body as a host, whether you like it or not.
-
-#### Ethereal Spirit Features
-| Sorcerer Level | Feature |
-|:--:|:---|
-| 1st | Ghost Sight, Frightening Visage
-| 6th | Spectral Movement
-| 14th | Cry of the Banshee
-| 18th | Den of the Widow |
 
 ### Ghost Sight
 Beginning at 1st level, your familiarity with ghosts, spirits, and spectres has allowed you to see into their world. You are able to see invisible undead creatures up to 15 feet from you.
@@ -970,24 +1045,6 @@ This possession lasts until the target’s body drops to 0 hit points, you end t
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Reset **Frightening Visage**.
-
-| Long rest ||
-|:-|:------- |
-| Add the following bloodline specific benefits to choose from: ||
-| | * Reset **Spectral Movement**.
-| | * Reset **Cry of the Banshee**.
 
 
 
@@ -997,10 +1054,9 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-
-
-# <a name="internal-fiendish">Fiendish Bloodline</a>
-Your innate magic comes from fiendish power that can be traced back to the Abyss or the Nine Hells of Baator, power infused into your blood or that of your ancestors. Such power most often manifests itself as the result of a pact or bargain made with a powerful fiend, such as a Pit Fiend or a Balor. You may have endured a near death experience at the hands of a fiend and been forever tainted by the encounter, or perhaps your bloodline includes a powerful Tiefling whose ancestry has manifested in an unusual way. Regardless of circumstance, fell power now surges through you, both a blessing and a curse. While your fate is still your own, you can’t help but wonder if your ultimate reward is bound to the Abyss.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-fiendish">Fiendish Bloodline</a></h1>
+<div class="featuresTable">
 
 #### Fiendish Bloodline Features
 | Sorcerer Level | Features |
@@ -1009,6 +1065,29 @@ Your innate magic comes from fiendish power that can be traced back to the Abyss
 | 6th | Fiendish Resilience
 | 14th | Vile Wings
 | 18th | Hellfire OR Will of Asmodeus
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Reset ***Darkened Sight***.
+| * Reset ***Hellfire***.
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+Your innate magic comes from fiendish power that can be traced back to the Abyss or the Nine Hells of Baator, power infused into your blood or that of your ancestors. Such power most often manifests itself as the result of a pact or bargain made with a powerful fiend, such as a Pit Fiend or a Balor. You may have endured a near death experience at the hands of a fiend and been forever tainted by the encounter, or perhaps your bloodline includes a powerful Tiefling whose ancestry has manifested in an unusual way. Regardless of circumstance, fell power now surges through you, both a blessing and a curse. While your fate is still your own, you can’t help but wonder if your ultimate reward is bound to the Abyss.
+
 
 ### Fiendish Bloodline
 When you choose this origin at 1st level, you choose either the Abyssal or Infernal bloodline. Your choice determines aspects of features as you level up, as well as which quirks table to roll on (should you choose to use any).
@@ -1060,13 +1139,6 @@ At 18th level, you can call down a column of hellfire. The area of effect for th
 
 You may use this ability twice per long rest.
 
-
-
-
-
-
-
-
 #### Will of Asmodeus (Infernal Bloodline)
 At 18th level, you take on the inscrutable nature of the Lord of the Ninth himself. Any magic or ability that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic.
 
@@ -1076,41 +1148,56 @@ On a failed save, the creature is charmed by you until the end of your next turn
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-frozenHeart">Frozen Heart</a></h1>
+<div class="featuresTable">
+
+#### Frozen Heart Features
+| Sorcerer Level | Features |
+|:----:|:-------------|
+| 1st | Frigid Soul, Wintertouched
+| 6th | Flashfreeze, Frostbite
+| 14th | Frozen Mobility, Glacial Wreath
+| 18th | Call of Winter
+
 <div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
+<div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following bloodline specific benefits to choose from: ||
-| | * Reset **Darkened Sight**.
-| | * Reset **Hellfire**.
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Reset ***Glacial Wreath***.
 
+</div>
+</div>
+</div>
 
-
-
-
-
-
-
-
-
-
-# <a name="internal-frozenHeart">Frozen Heart</a>
-
-*"Let it go."*
-
--Ice queen Elsa
+</div>
 
 The season of winter brings forth a time of cold winds, hibernation, and grey skies. Most of the land lies under blankets of white snow, and as the days shorten only the strongest and fiercest animals and people even dare to thrive amidst the cold.
 
 Legends tell of an ancient queen whose cruelty was so great that the gods turned her heart into ice. Her power, terrible and beautiful, has manifested within you. Perhaps you are a descendant of the Ice Queen, perhaps you came in contact with a magical relic from the deep north, or maybe you had been raised by a clan living in the frozen north, cursed by a magician who learn ice magic.
 
 Whatever the case, you are a sorcerer who controls the might of winter, with the power of ice and howling winds at your fingertips.
+
+> *"Let it go."*
+>
+> -- Ice queen Elsa
+
 
 #### Frozen Heart Quirks
 | d6 | Quirk
@@ -1122,13 +1209,6 @@ Whatever the case, you are a sorcerer who controls the might of winter, with the
 | 5 | You have very thick, shaggy hair or fur.
 | 6 | When you walk on natural terrain such as grass or plants, the ground and plants ice over in your footsteps.
 
-#### Frozen Heart Features
-| Sorcerer Level | Features |
-|:----:|:-------------|
-| 1st | Frigid Soul, Wintertouched
-| 6th | Flashfreeze, Frostbite
-| 14th | Frozen Mobility, Glacial Wreath
-| 18th | Call of Winter
 
 ### Frigid Soul
 Propelled by a heart of ice, the blood in your veins runs cold. At 1st level, you’re naturally adapted to cold climates and and can move across difficult terrain made of ice or snow without expending extra movement.
@@ -1154,6 +1234,7 @@ The ice that you create is abnormally cold and dense, but it isn't magical. At r
 
 Each 5 ft square section of ice has AC 10, 20 hp, and vulnerability to fire damage. Reducing a frozen section to 0 hp destroys it.
 
+</div>
 
 ### Frostbite
 Your frost cuts deep into muscle, making your foes sluggish and occasionally freezing them in their tracks.
@@ -1191,18 +1272,6 @@ You are able to call upon winter itself to aid you in battle. As an ***action***
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following bloodline specific benefits to choose from: ||
-| | * Reset **Glacial Wreath**.
 
 
 
@@ -1213,20 +1282,9 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-
-# <a name="internal-incantatrix">The Incantatrix</a>
-
-*"But how could a mere wizard defeat the Archmage with a spell so beyond her powers?" asked the sage skeptically.*
-
-*"It is said," replied the teller-of-tales in a low, guarded voice, "that she stole the spell from his own mind!"*
-
-*"Impossible!" sputtered the sage.*
-
-*The other shook his head slowly. "No, my friend," he corrected the learned one. "Not for an incantatrix."*
-
-These rare and mysterious individuals have unique spells and a dweomercraft all their own.  They are especially adept at countering and negating the magics of other spellcasting creatures and individuals, and at dealing with creatures who exist simultaneously on more than one plane (such as certain undead).
-
-Incantatrix, whose male equivalent is the Incantatar, study and shape spells in their raw effects and can modify the spells of allies, magic items and even active spells cast by another. They dislike extraplanar intrusions, having a particular fondness for magic that thwarts extraplanar beings while seeking out and destroying planar portals and gates.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-incantatrix">The Incantatrix</a></h1>
+<div class="featuresTable">
 
 #### Incantatrix features
 | Sorcerer Level | Feature |
@@ -1236,6 +1294,38 @@ Incantatrix, whose male equivalent is the Incantatar, study and shape spells in 
 | 6th | Cooperative Metamagic: Persistent Spells, Seize Concentration
 | 14th | Cooperative Metamagic: Items, Drain Magic
 | 18th | Stealspell
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Reset **Spellsteal**.
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+These rare and mysterious individuals have unique spells and a dweomercraft all their own.  They are especially adept at countering and negating the magics of other spellcasting creatures and individuals, and at dealing with creatures who exist simultaneously on more than one plane (such as certain undead).
+
+Incantatrix, whose male equivalent is the Incantatar, study and shape spells in their raw effects and can modify the spells of allies, magic items and even active spells cast by another. They dislike extraplanar intrusions, having a particular fondness for magic that thwarts extraplanar beings while seeking out and destroying planar portals and gates.
+
+> *"But how could a mere wizard defeat the Archmage with a spell so beyond her powers?" asked the sage skeptically.*
+>
+> *"It is said," replied the teller-of-tales in a low, guarded voice, "that she stole the spell from his own mind!"*
+>
+> *"Impossible!" sputtered the sage.*
+>
+> *The other shook his head slowly. "No, my friend," he corrected the learned one. "Not for an incantatrix."*
+
+
 
 ### Ectoplasmic Spells
 At 1st level, your spells breach the gulf between dimensions, sending ghostly emanations into the ether. Your spells have full effect against incorporeal or ethereal creatures.
@@ -1285,31 +1375,45 @@ Once you use this feature, you can't use it again until you complete a long rest
 
 
 
+
+
+
+
+
+
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-oceanic">Oceanic Bloodline</a></h1>
+<div class="featuresTable">
+
+#### Oceanic Bloodline Features
+| Sorcerer Level | Features |
+|:----:|:-------------|
+| 1st | Command Water, Creature of the Seas
+| 6th | Strength of the Tides
+| 14th | Shifting Form
+| 18th | Elemental Form
+
 <div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
+<div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following bloodline specific benefits to choose from: ||
-| | * Reset **Spellsteal**.
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain all uses of ***Strength of the Tides***.
 
+</div>
+</div>
+</div>
 
+</div>
 
-
-
-
-
-
-
-
-
-
-# <a name="internal-oceanic">Oceanic Bloodline</a>
 The powers of the sea, much like the sea itself, are vast, mysterious, and powerful. You are a sorcerer of the oceans and seas, having power over their waters and the creatures who live inside of them. Your family could have been filled with powerful sailors or beings of the depths, or maybe you almost drowned, and this awakened great magics that had lied dormant within you. Or, it could be that your bloodline somehow originated in the Elemental Plane of Water.  Whatever the case may be, the magic that exists at your command is a powerful force, and can easily be one of the strongest forms of magic that exists.
 
 #### Oceanic Bloodline Quirks
@@ -1322,13 +1426,6 @@ The powers of the sea, much like the sea itself, are vast, mysterious, and power
 | 5 | You prefer to carry some containers of fresh and salt water with you at all time.
 | 6 | Like the oceans of the world, the way you are deep inside might not be how you appear on the surface.
 
-#### Oceanic Bloodline Features
-| Sorcerer Level | Features |
-|:----:|:-------------|
-| 1st | Command Water, Creature of the Seas
-| 6th | Strength of the Tides
-| 14th | Shifting Form
-| 18th | Elemental Form
 
 ### Command Water
 Starting at 1st level, you learn the *water whip* cantrip and the *shape water* cantrip. The cantrips don't count against your number of cantrips known.
@@ -1339,26 +1436,25 @@ When you cast *shape water*, you can choose two effects to activate with a singl
 ### Creature of the Seas
 Also from 1st level, you are accustomed to living in or near the water. You gain a swim speed equal to your base speed, and you can spend 1 sorcery point to breathe water for 1 hour.
 
-
-
-<div class="descriptive" markdown="1">
-
 #### Special Effects
 The special effects of numerous spells can be altered to appear watery in origin. For example, *burning hands* can instead be superheated steam. *Shield* may be a solidified disk of water. With the DM's permission, you could also alter the damage type of a spell to reflect this origin.
 
 For example, the *water whip* cantrip below is simply the *thornwhip* druid cantrip with the piercing damage changed to bludgeoning. Bludgeoning and cold are appropriate damage exchanges, but oceanic sorcerers also control weather, so wind-like effects, lightning and thunder are also appropriate.
 
+<div class="spell">
+
 ##### Water Whip
-*Transmutation cantrip*
- **Casting Time:** 1 action
- **Range:** 30 feet
- **Components:** V, S, M (a splash of water)
- **Duration:** Instantaneous
+*Transmutation cantrip*<br/>
+ **Casting Time:** 1 action<br/>
+ **Range:** 30 feet<br/>
+ **Components:** V, S, M (a splash of water)<br/>
+ **Duration:** Instantaneous<br/>
 
 You create a long, whip-like tendril of water that lashes out  at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes 1d6 bludgeoning damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.
 
 This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
 
+</div>
 
 ### Strength of the Tides
 At 6th level, your watery nature has granted you increased protection. You gain resistance to fire and acid damage.
@@ -1368,13 +1464,6 @@ In addition, you have learned how to summon water to hinder your foes. When you 
 At 14th level, the range increases to 60 feet.
 
 Once you have used this feature, you cannot do so again until you finish a long rest.
-
-
-
-
-
-
-
 
 
 ### Shifting Form
@@ -1387,18 +1476,6 @@ On your turn, you can move through any space that is at least 3 inches in diamet
 ### Elemental Form
 Starting at 18th level, you may spend 10 sorcery points to transform into an air elemental or water elemental for up to 8 hours. This ability otherwise works as the *shapechange* spell.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain all uses of **Strength of the Tides**.
 
 
 
@@ -1410,8 +1487,10 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="internal-oozemaster">Oozemaster</a>
-Your innate magic stems from a long family line of Ooze blood. For generations, the taint of Ooze blood has run in your family, infecting some at birth and sparing others, stemming from a well-documented but shadowy ancestor. It's unclear what horrific experiment infused a monstrous ooze or slime into his body so long ago, but some of his scattered descendants are born to this day with a personal, innate magic and bizarre physical characteristics.
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-oozemaster">Oozemaster</a></h1>
+<div class="featuresTable">
 
 #### Oozemaster Features
 | Sorcerer Level | Features |
@@ -1420,6 +1499,26 @@ Your innate magic stems from a long family line of Ooze blood. For generations, 
 | 6th | Malleability
 | 14th | Goopy Blood
 | 18th | One with the Ooze
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain use of ***One with the Ooze***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Your innate magic stems from a long family line of Ooze blood. For generations, the taint of Ooze blood has run in your family, infecting some at birth and sparing others, stemming from a well-documented but shadowy ancestor. It's unclear what horrific experiment infused a monstrous ooze or slime into his body so long ago, but some of his scattered descendants are born to this day with a personal, innate magic and bizarre physical characteristics.
+
 
 ### Indiscernible Anatomy
 At 1st level, your placement and composition of your internal organs is bizarre. You take no additional damage from critical hits.
@@ -1444,18 +1543,6 @@ At 18th level, your transformation into an ooze is complete. You can *polymorph*
 
 After you use this ability, you cannot use it again until you complete a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain use of **One with the Ooze**.
 
 
 
@@ -1466,8 +1553,20 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-pandemonic">Pandemonic Sorcery</a></h1>
+<div class="featuresTable">
 
-# <a name="internal-pandemonic">Pandemonic Sorcery</a>
+#### Pandemonic Sorcery Features
+| Sorcerer Level | Features |
+|:----:|:-------------|
+| 1st | Afflicted Affinity, Gale of Madness
+| 6th | Twisted Perspective
+| 14th | Shadow of Doubt
+| 18th | Crushing Hopelessness
+
+</div>
+
 Your innate powers come from the insane, chaotic energies of Pandemonium, its magic giving you dominion over mind and madness. You may trace your lineage back to one of the few people who escaped its clutches, possibly someone who went mad from the constant, screaming winds. Perhaps you yourself endured the winds for a brief time, blowing in from a planar portal or somewhere planar boundaries are thin. Whatever the reason, the magic of Pandemonium is yours to command - though its energies can still affect your mind, making you question your reality and sanity.
 
 At your option, you can pick from or roll on the Pandemonic Influence table to create an effect for your character.
@@ -1483,24 +1582,18 @@ At your option, you can pick from or roll on the Pandemonic Influence table to c
 | 6 | In enclosed spaces, you sometimes hear cries for help close by. If you ignore them, they become more and more disturbing.
 
 
-#### Pandemonic Sorcery Features
-| Sorcerer Level | Features |
-|:----:|:-------------|
-| 1st | Afflicted Affinity, Gale of Madness
-| 6th | Twisted Perspective
-| 14th | Shadow of Doubt
-| 18th | Crushing Hopelessness
 
 ### Afflicted Affinity
 Starting when you choose this origin at 1st level, your connection to Pandemonium can allow you to identify the insane and the influenced. You can use an ***action*** to examine a creature you can see and determine if it is charmed, possessed, or under any other effect that would alter its personality or actions, and whether the effect is planar in nature. You don't identify the exact type of effect - for example, if a creature was under the effect of a geas spell, you would only know the creature was charmed.
 
 
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 #### Pandemonium: Inescapable Insanity
 No other plane in existence - not the Nine Hells, nor the Abyss or Hades - embodies madness and futility more than the Windswept Depths of Pandemonium. Roaring winds scream through endless dark tunnels like the wail of tormented souls, grinding even the most stalwart down into insane, listless wrecks. Those resilient or resourceful enough to survive find no solace in this victory; one can wander the tunnels for weeks to find no other living soul, and portals are even rarer. For most travelers, the only escape is death.
 
+</div>
 
 ### Gale of Madness
 Also at 1st level, you can make a creature hear and feel Pandemonium's howling winds in its mind when you use your magic. Once on each of your turns when you cast a sorcerer spell of 1st-level or higher, you can choose a creature you can see within 30 feet of you. That creature must make a Wisdom saving throw. On a failed save, it becomes deafened and frightened of you until the start of your next turn, panic stricken by the overwhelming assault on its senses.
@@ -1516,13 +1609,6 @@ Creatures that can't be charmed are immune to the effect.
 
 ### Shadow of Doubt
 At 14th level, you can become a blurred figment in the eyes of others only to reappear elsewhere, making them question if you're even present at all. You can use your ***bonus action*** and spend 1 sorcery point to teleport up to your speed to an unoccupied space you have a clear path to (for example, around a corner or up a steep cliff, but not through a keyhole), flickering between your current plane and Pandemonium for a few brief moments.
-
-
-
-
-
-
-
 
 Additionally, your ability to identify the maladies of afflicted creatures improves. When you use your Afflicted Affinity feature, you can determine the exact types of effects a creature is influenced by, if any are present.
 
@@ -1540,8 +1626,36 @@ A creature that gains 6 levels of exhaustion while under this effect, or is redu
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-phoenix">Phoenix sorcerer</a></h1>
+<div class="featuresTable">
 
-# <a name="internal-phoenix">Phoenix sorcerer</a>
+#### Phoenix sorcerer Features
+| Sorcerer Level | Features |
+|:----:|:-------------|
+| 1st | Ignite, Mantle of Flame
+| 6th | Phoenix Spark
+| 14th | Nourishing Fire
+| 18th | Form of the Phoenix
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Reset all uses of **Mantle of Flame**.
+| * Reset ***Phoenix Spark***.
+
+</div>
+</div>
+</div>
+
+</div>
+
 Your power draws from the immortal flame that fuels the legendary phoenix. You or your ancestors perhaps rendered a phoenix a great service, or you were born in its presence. Whatever the cause, a shard of the phoenix’s power dwells within you.
 
 That power is a mixed blessing. Like the mythical creature, you can invoke fiery energy and gain the ability to cheat death itself. This power comes at a cost. The fire within you seethes, demanding to be unleashed. You sometimes find yourself absentmindedly feeding fires. You can’t bear to allow a fire to sputter out.  You feel most comfortable while holding a lit torch or sitting in front of a campfire.
@@ -1560,13 +1674,6 @@ Phoenix sorcerers often have fire-related personality quirks.
 | 5 | You like your food charred. |
 | 6 | You are brave to the point of recklessness. |
 
-#### Phoenix sorcerer Features
-| Sorcerer Level | Features |
-|:----:|:-------------|
-| 1st | Ignite, Mantle of Flame
-| 6th | Phoenix Spark
-| 14th | Nourishing Fire
-| 18th | Form of the Phoenix
 
 
 
@@ -1591,13 +1698,6 @@ Once you use this feature, you can’t use it again until you finish a long rest
 ### Nourishing Fire
 Starting at 14th level, your fire spells soothe and restore you. When you expend a spell slot to cast a spell that deals fire damage, you regain hit points equal to the slot’s level + your Charisma modifier.
 
-
-
-
-
-
-
-
 ### Form of the Phoenix
 At 18th level, you finally master the spark of fire that dances within you. While under the effect of your Mantle of Flame feature, you gain additional benefits:
 - You have a flying speed of 40 feet and can hover.
@@ -1606,31 +1706,47 @@ At 18th level, you finally master the spark of fire that dances within you. Whil
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-plaguebringer">Plaguebringer</a></h1>
+<div class="featuresTable">
+
+#### Plaguebringer Features
+| Sorcerer Level | Feature |
+|:--:|:---|
+| 1st | Knowledge of the Infected, Life of the Sickened
+| 6th | Fear of the Contagious
+| 14th | Aura of the Afflicted
+| 18th | Form of the Rotten
+
 <div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
+<div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following bloodline specific benefits to choose from: ||
-| | * Reset all uses of **Mantle of Flame**.
-| | * Reset **Phoenix Spark**.
+| Long rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Fear of the Contagious***.
 
+</div>
+</div>
+</div>
 
+</div>
 
-
-
-
-
-
-
-
-
-# <a name="internal-plaguebringer">Plaguebringer</a>
 Sometimes the magic that empowers a sorcerer comes from a source that would normally harm both nature and civilizations, though not necessarily be evil in and of itself. Plagues are one such thing as this, and you are a sorcerer who draws their power from the diseases and illnesses that fly on the winds of plagues. Perhaps you were changed by the effects of a plague, or were one of the only survivors of a deady disease that devastated your homeland. However you came to these powers, you are a harbinger of the plague.
 
 #### Plaguebringer Quirks
@@ -1642,14 +1758,6 @@ Sometimes the magic that empowers a sorcerer comes from a source that would norm
 | 4 | Your eyes are a sickly color of green, red, black, or yellow.
 | 5 | Your footprints on grass, plants, and other living natural terrain cause the plant life to wither and turn black.
 | 6 | You have a raspy voice, as though you are always sick.
-
-#### Plaguebringer Features
-| Sorcerer Level | Feature |
-|:--:|:---|
-| 1st | Knowledge of the Infected, Life of the Sickened
-| 6th | Fear of the Contagious
-| 14th | Aura of the Afflicted
-| 18th | Form of the Rotten
 
 ### Knowledge of the Infected
 Starting at 1st level, your connection to plagues grants you unnatural powers. You gain immunity to disease, and learn the *poison spray* cantrip.
@@ -1678,18 +1786,6 @@ At 18th level, you have become a harbinger of plagues. Any spell that you cast t
 
 In addition, you can spend 5 sorcery points to change the range of the spell *contagion* from touch to a 30 foot sphere centered on yourself. This spell moves with you and lasts up to 1 minute. Additionally, you can choose up to two diseases instead of one. When you choose two diseases, they both work at the same time, and each targeted creature must roll twice, once for each disease. You can choose a number of creatures within range of this spell up to your Charisma modifier to be immune to its effects.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Fear of the Contagious**.
 
 
 
@@ -1701,8 +1797,10 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="internal-relicker">Relicker</a>
-The wellspring of your arcane might lies not with an eldritch bloodline or the interference of wild magic, but with a deep cache of arcane power, stored within an ancient magic item. By fate, or perhaps by the item's wishes, your soul has become entwined with this magic item, which remains always at your side, empowering your abilities and motivating your quest.
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-relicker">Relicker</a></h1>
+<div class="featuresTable">
 
 #### Relicker Features
 | Sorcerer Level | Features |
@@ -1712,32 +1810,62 @@ The wellspring of your arcane might lies not with an eldritch bloodline or the i
 | 14th | Greater Relic
 | 18th | Artifact
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Reset a ***Relic weapon of the Many***.
+| &nbsp;
+| Add the following bloodline specific benefits to choose from: |
+| * Regain all charges from a ***Glyph stone***.
+| * Regain all charges from an ***Umbral cloak***.
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+The wellspring of your arcane might lies not with an eldritch bloodline or the interference of wild magic, but with a deep cache of arcane power, stored within an ancient magic item. By fate, or perhaps by the item's wishes, your soul has become entwined with this magic item, which remains always at your side, empowering your abilities and motivating your quest.
+
+
 ### Relic Bond
 Starting at 1st level, your very soul is bonded to a unique magic item, called a relic, from which you manifest your arcane might. If your relic is ever lost or destroyed, it manifests at your side when you next take a long rest. Choose one of the following options:
 
-#### Glyph Stone
-Perpetually floating in an orbit about your person, this smooth stone is marked with a single ancient glyph along its side. You can use your glyph stone as an arcane focus, even though you do not need to hold it.
+<div class="columnstwo">
 
-The stone knows two cantrips of your choice. You can cast these cantrips as if you knew them, and they count as sorcerer spells for you.
+- #### Glyph Stone
+    Perpetually floating in an orbit about your person, this smooth stone is marked with a single ancient glyph along its side. You can use your glyph stone as an arcane focus, even though you do not need to hold it.
 
-
-Additionally, the stone contains one spell of your choice from any class’s spell list. It has 3 charges that can be used to cast that spell by expending a number of charges equal to the spell’s cost in sorcery points, as shown on the Creating Spell Slots table.
-
-The stone gains an additional spell at 3rd, 6th and 14th levels.
-
-#### Relic Weapon
-Though the iron of this weapon is rusted and its wood is stained with blood, an unseen power weights its swing. Your relic weapon is your choice of any melee weapon. Once chosen, this decision cannot be changed.
-
-You can use your ***action*** to summon your relic weapon to your open hand. You are proficient with it while you wield it. While holding your relic weapon and no other weapons, and not wearing armor or shield, you gain a +3 bonus to your armor class.
-
-When you use the Attack action to make an attack with your relic weapon, you can make an additional attack using a ***bonus action***.
+    The stone knows two cantrips of your choice. You can cast these cantrips as if you knew them, and they count as sorcerer spells for you.
 
 
+    Additionally, the stone contains one spell of your choice from any class’s spell list. It has 3 charges that can be used to cast that spell by expending a number of charges equal to the spell’s cost in sorcery points, as shown on the Creating Spell Slots table.
 
-#### Umbral Cloak
-This hooded cloak confounds the eye, seeming indistinct and difficult to focus upon. While you wear your umbral cloak, you are proficient on all stealth checks, and you can Hide as a ***bonus action***.
+    The stone gains an additional spell at 3rd, 6th and 14th levels.
 
-Your umbral cloak has 3 charges, which can be used with a ***bonus action*** to become invisible, as the spell *invisibility*. If you begin your turn invisible, you can maintain this effect by spending a sorcery point. Otherwise, the spell ends.
+- #### Relic Weapon
+    Though the iron of this weapon is rusted and its wood is stained with blood, an unseen power weights its swing. Your relic weapon is your choice of any melee weapon. Once chosen, this decision cannot be changed.
+
+    You can use your ***action*** to summon your relic weapon to your open hand. You are proficient with it while you wield it. While holding your relic weapon and no other weapons, and not wearing armor or shield, you gain a +3 bonus to your armor class.
+
+    When you use the Attack action to make an attack with your relic weapon, you can make an additional attack using a ***bonus action***.
+
+</div>
+<div class="columnstwo">
+
+- #### Umbral Cloak
+    This hooded cloak confounds the eye, seeming indistinct and difficult to focus upon. While you wear your umbral cloak, you are proficient on all stealth checks, and you can Hide as a ***bonus action***.
+
+    Your umbral cloak has 3 charges, which can be used with a ***bonus action*** to become invisible, as the spell *invisibility*. If you begin your turn invisible, you can maintain this effect by spending a sorcery point. Otherwise, the spell ends.
+
+</div>
 
 ### Sorcerous Recharge
 By 6th level, your connection to your relic has strengthened. Your relic increases to having 6 charges. Additionally, you can use your ***action*** and expend any number of sorcery points to regain the same number of your relic's expended charges.
@@ -1747,57 +1875,38 @@ If you have a relic weapon, you may add your Charisma modifier to its damage.
 ### Greater Relic
 At 14th level, your relic takes on an aspect of greater power. Choose one of the following features, as appropriate to your relic:
 
-#### Glyph Stone
- **of Dawn.** Your glyph stone learns the following spells: *bless, faerie fire, lesser restoration, prayer of healing, zone of truth, daylight, fireball* and *divination*.
+<div class="columnstwo">
 
- **of Warding.** Your AC increases by 1. Additionally, your glyph stone learns the following spells: *mage armor, shield, blur, hold person, counterspell, dispel magic* and *death ward*.
+- #### Glyph Stone
+    **of Dawn.** Your glyph stone learns the following spells: *bless, faerie fire, lesser restoration, prayer of healing, zone of truth, daylight, fireball* and *divination*.
 
-#### Umbral Cloak
- **of Flight.** While you wear your umbral cloak, you can spend 2 sorcery points to cast the *fly* spell as a ***bonus action*** without using a spell slot (no concentration required).
+    **of Warding.** Your AC increases by 1. Additionally, your glyph stone learns the following spells: *mage armor, shield, blur, hold person, counterspell, dispel magic* and *death ward*.
 
- **of Spaces Beyond.** You can use your ***action*** to reverse your umbral cloak, disappearing with your belongings into a 30-foot cube extradimensional space accessible only to you. Attacks and spells can't target you inside the space, but you can see and hear outside the space from the point you entered. Objects brought within the space remain there and can be retrieved by you later. You can exit the space as an ***action***, reappearing within 5 feet of where you entered.
+- #### Umbral Cloak
+    **of Flight.** While you wear your umbral cloak, you can spend 2 sorcery points to cast the *fly* spell as a ***bonus action*** without using a spell slot (no concentration required).
 
- **of Swiftness.** While you are wearing your umbral cloak, opportunity attacks made against you have disadvantage and you can take the Dash action as a ***bonus action***.
+    **of Spaces Beyond.** You can use your ***action*** to reverse your umbral cloak, disappearing with your belongings into a 30-foot cube extradimensional space accessible only to you. Attacks and spells can't target you inside the space, but you can see and hear outside the space from the point you entered. Objects brought within the space remain there and can be retrieved by you later. You can exit the space as an ***action***, reappearing within 5 feet of where you entered.
+
+    **of Swiftness.** While you are wearing your umbral cloak, opportunity attacks made against you have disadvantage and you can take the Dash action as a ***bonus action***.
+
+- #### Relic Weapon
+    **of the Many.** You can use your action to transform your relic weapon into any other weapon of your choice (though this transformation does not include ammunition). You are proficient with any form the weapon becomes while you wield it.
+
+    When you finish a long rest, choose one of the following monster types: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. The weapon counts as a +3 weapon creatures of the chosen type until you next finish a long rest.
+
+    **of Retribution.** When you take damage from an adjacent creature, you can use your ***reaction*** to make an attack against that creature using your relic weapon.
+
+    **of Wounding**. Once per turn, when you hit a creature with your relic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes 1d8 necrotic damage for each time you've wounded it, and can then make a Constitution saving throw against your spell savd DC, ending the effect of all such wounds on itself on a success.
+
+    Alternatively, a DC 15 Wisdom (Medicine) check, ends the effect of such wounds on a success.
 
 
-
-
-
-
-
-
-### Relic Weapon
- **of the Many.** You can use your action to transform your relic weapon into any other weapon of your choice (though this transformation does not include ammunition). You are proficient with any form the weapon becomes while you wield it.
-
- When you finish a long rest, choose one of the following monster types: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. The weapon counts as a +3 weapon creatures of the chosen type until you next finish a long rest.
-
- **of Retribution.** When you take damage from an adjacent creature, you can use your ***reaction*** to make an attack against that creature using your relic weapon.
-
- **of Wounding**. Once per turn, when you hit a creature with your relic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes 1d8 necrotic damage for each time you've wounded it, and can then make a Constitution saving throw against your spell savd DC, ending the effect of all such wounds on itself on a success.
-
- Alternatively, a DC 15 Wisdom (Medicine) check, ends the effect of such wounds on a success.
-
+</div>
 
 
 ### Artifact
 At 18th level, your relic becomes an artifact. It gains two minor and one major beneficial property, either selected at random or chosen by the DM. When you gain this feature, you can also choose to gain an additional minor beneficial property as well as one minor detrimental property, selected at random.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Reset a **Relic weapon of the Many**.
-| | &nbsp;
-| Add the following bloodline specific benefits to choose from: ||
-| | * Regain all charges from a **Glyph stone**.
-| | * Regain all charges from an **Umbral cloak**.
 
 
 
@@ -1809,7 +1918,20 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="internal-starTouched">Star Touched</a>
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-starTouched">Star Touched</a></h1>
+<div class="featuresTable">
+
+#### Star Touched Features
+| Sorcerer Level | Features |
+|:----:|:-------------|
+| 1st | Stardust, Guiding Lights
+| 6th | Strength of the Flame
+| 14th | Shifting Cosmos
+| 18th | Shooting Stars
+
+</div>
+
 By either an ancient ritual, or a birthright passed down through generations, you are able to use magic that reflects the power of stars. This magic, both old and powerful, can shape worlds or destroy them, and lets you shine the light from above down onto those who would face you.
 
 #### Star Touched Quirks
@@ -1819,14 +1941,6 @@ By either an ancient ritual, or a birthright passed down through generations, yo
 | 2 | The footsteps you leave seem to singe, as if slightly burned.
 | 3 | Your eyes seem to shine or twinkle brightly, and your skin is always warm to the touch.
 | 4 | You envy the power of the sun, as you wish that you could be so grossly incandescent.
-
-#### Star Touched Features
-| Sorcerer Level | Features |
-|:----:|:-------------|
-| 1st | Stardust, Guiding Lights
-| 6th | Strength of the Flame
-| 14th | Shifting Cosmos
-| 18th | Shooting Stars
 
 ### Stardust
 When you choose this origin at 1st level, the power of starlight is ingrained into your magic. Whenever you cast a spell of 1st level or higher, you can summon a mote of starlight that orbits around you in your space. A mote sheds bright light in a 10 ft radius.
@@ -1863,11 +1977,44 @@ The creature must make a Dexterity saving throw  against your spell save DC, tak
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-stone">Stone Sorcerer</a></h1>
+<div class="featuresTable">
 
-# <a name="internal-stone">Stone Sorcerer</a>
+#### Stone Sorcerer Features
+| Sorcerer Level | Features |
+|:----:|:-------------|
+| 1st | Bonus Proficiencies,<br/>Mountain’s Durability,<br/>One with the ground |
+| 6th | Stoneflesh |
+| 14th | Earth Glide |
+| 18th | Strength of Stone |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Reset ***One with the Ground***.
+| &nbsp;
+| Add the following bloodline specific benefits to choose from: |
+| * Reset all uses of ***Mountain’s Durability***.
+
+</div>
+</div>
+</div>
+
+</div>
+
 Beneath the surface of the ground, there exist those who have command over stone and rock, moving within the very earth itself. These beings have incredible powers, and are often revered for their constructive abilities as they are equally feared for their potential for utter destruction.
 
 Perhaps you were born underground or at the base of a mountain, or came in contact with an immense being that lurks in the darkness of the deep earth. You might trace a distant ancestor to the Plane of Earth, or your family might have earned a mighty boon in return for a service to the dao lords. However you came into your power, you are an entity of the raw power of earth and stone, and as such are one of incredible earthen strength.
+
+<img src="https://i.pinimg.com/originals/69/88/f7/6988f77589e95308979fe0aab7d704bf.jpg" style="width:36%;padding:20px" />
+
 
 #### Stone Sorcerer Quirks
 | d6 | Quirk
@@ -1878,14 +2025,6 @@ Perhaps you were born underground or at the base of a mountain, or came in conta
 | 4 | The study of rocks and precious stones is not taken seriously enough, in your opinion.
 | 5 | To you, having a ceiling of any kind over your head is better than an open sky.
 | 6 | Your voice is unusually deep and rough.
-
-#### Stone Sorcerer Features
-| Sorcerer Level | Features |
-|:----:|:-------------|
-| 1st | Bonus Proficiencies, Mountain’s Durability, One with the ground
-| 6th | Stoneflesh
-| 14th | Earth Glide
-| 18th | Strength of Stone
 
 ### Bonus Proficiencies
 At 1st level, you gain proficiency with shields, simple weapons, and martial weapons. Additionally, you learn the *mold earth* cantrip, and also have advantage on checks that involve stones or gems, such as identifying their worth, uses, and where they can be found.
@@ -1924,21 +2063,6 @@ You also have learned how to turn the power of the earth against your enemies. A
 
 
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Reset **One with the Ground**.
-| | &nbsp;
-| Add the following bloodline specific benefits to choose from: ||
-| | * Reset all uses of **Mountain’s Durability**.
 
 
 
@@ -1950,10 +2074,10 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-# <a name="internal-storm">Storm sorcerer</a>
-Your innate magic comes from the power of elemental air. Many with this power can trace their magic back to a near-death experience caused by the Great Rain, but perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as djinn. Whatever the case, the magic of the storm permeates your being.
 
-Storm sorcerers are invaluable members of a ship’s crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-storm">Storm sorcerer</a></h1>
+<div class="featuresTable">
 
 #### Storm sorcerer Features
 | Sorcerer Level | Feature |
@@ -1962,6 +2086,28 @@ Storm sorcerers are invaluable members of a ship’s crew. Their magic allows th
 | 6th | Heart of the Storm, Storm Guide |
 | 14th | Storm’s Fury |
 | 18th | Wind Soul |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain use of ***Wind Soul***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Your innate magic comes from the power of elemental air. Many with this power can trace their magic back to a near-death experience caused by the Great Rain, but perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as djinn. Whatever the case, the magic of the storm permeates your being.
+
+Storm sorcerers are invaluable members of a ship’s crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.
+
 
 ### Wind Speaker
 The arcane magic you command is infused with elemental air. You can understand, but not speak, Primordial (to level 4), and to a lesser extent its dialects: Aquan, Auran, Ignan, and Terran (to level 3).
@@ -1989,18 +2135,6 @@ Starting at 14th level, when you are hit by a melee attack, you can use your ***
 ### Wind Soul
 At 18th level, you gain a flying speed of 60 feet. As an ***action***, you can reduce your flying speed to 30 feet for 1 hour and choose a number of creatures within 30 feet of you equal to 3 + your Charisma modifier. The chosen creatures gain flying speed of 30 feet for 1 hour. Once you reduce your flying speed in this way, you can’t do so again until you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following bloodline specific benefits to choose from: ||
-| | * Regain use of **Wind Soul**.
 
 
 
@@ -2010,10 +2144,9 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-
-
-# <a name="internal-timeThief">Time Thief</a>
-A time thief's legacy originally comes from a time traveler, a master of chronomancy or just some creature heavily affected by time magic. He learns instinctively to manipulate time, in particular steal time. Mostly he steals boring, unneeded time from his own future, saving tiny split-seconds he can use to make his life easier in the present. As his powers grow, the time thief can learn to manipulate bigger slices of time, giving more options to enhance his actions or even alter the timeline of enemies and allies alike. Most of the time thief's effects are subtle to outside observers, seeming to be more good fortune and preternatural speed than control over time.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-timeThief">Time Thief</a></h1>
+<div class="featuresTable">
 
 #### Time Thief Features
 | Sorcerer Level | Feature |
@@ -2022,6 +2155,27 @@ A time thief's legacy originally comes from a time traveler, a master of chronom
 | 6th | Temporal Talents
 | 14th | Aevum
 | 18th | Elusive
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all ***Motes of Time***.
+| * Regain all ***Aevum***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+A time thief's legacy originally comes from a time traveler, a master of chronomancy or just some creature heavily affected by time magic. He learns instinctively to manipulate time, in particular steal time. Mostly he steals boring, unneeded time from his own future, saving tiny split-seconds he can use to make his life easier in the present. As his powers grow, the time thief can learn to manipulate bigger slices of time, giving more options to enhance his actions or even alter the timeline of enemies and allies alike. Most of the time thief's effects are subtle to outside observers, seeming to be more good fortune and preternatural speed than control over time.
+
 
 ### Bonus Proficiencies
 When you choose this bloodline at 3rd level, you gain proficiency with light armor and martial weapons.
@@ -2050,111 +2204,87 @@ At 18th level, you may spend a mote to take an additional move action.
 ### Temporal Talents
 As you gain experience, you learn a number of talents that aid you and confound your foes. Starting at 6th level, you gain two temporal talents. You gain two additional temporal talents at 14th and 18th level. You cannot select an individual talent more than once unless otherwise noted.
 
-#### Back to the Future
-You can spend two motes to fling yourself briefly into the future to observe the results of proposed acts or decisions in your present. The DM chooses from the following possible omens:
+<div class="columnstwo">
 
-* Weal, if the action will probably bring good results.
-* Woe, for bad results.
-* Weal and woe, for both good and bad results
-* Nothing, for results that aren't especially good or bad.
+- #### Back to the Future
+    You can spend two motes to fling yourself briefly into the future to observe the results of proposed acts or decisions in your present. The DM chooses from the following possible omens:<br/>
+    -- Weal, if the action will probably bring good results.<br/>
+    -- Woe, for bad results.<br/>
+    -- Weal and woe, for both good and bad results<br/>
+    -- Nothing, for results that aren't especially good or bad.
 
-The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. If you use this two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret
+    The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. If you use this two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret
 
-#### Deja Vu
-By spending one mote, you can draw information from your future or past, allowing you to instantly gain the benefits of considerable study and reflection. You can even peer briefly into the future to see how others react to your various attempts at negotiation or subterfuge. This allows you to make a single Intelligence, Wisdom or Charisma ability check with advantage.
+- #### Deja Vu
+    By spending one mote, you can draw information from your future or past, allowing you to instantly gain the benefits of considerable study and reflection. You can even peer briefly into the future to see how others react to your various attempts at negotiation or subterfuge. This allows you to make a single Intelligence, Wisdom or Charisma ability check with advantage.
 
-#### Evasion
-You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can spend a mote to instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+- #### Evasion
+    You can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can spend a mote to instead take no damage if you succeed on the saving throw, and only half damage if you fail.
 
+- #### Old Wounds
+    As an ***action***, you can channel time into a wound, causing it to experience rapid healing, as if many days had passed. You may spend a mote to heal your own wounds, or the wounds of an ally touched. The wounds heal for 1d8 damage + your Charisma modifier.
 
+- #### Steady Hand
+    You can rewind time by small amounts to erase any minor mistakes you make as a result of distraction around you. By spending a mote, you may use skills reliably even under adverse conditions. Once you spend the mote, you have advantage on any single Dexterity check.
 
+- #### Steal Fate
+    As an ***action***, you can attempt to steal a crucial moment from a target's future, reducing the chance the target will enjoy a happy and prosperous future. You spend a mote to force the target to make a Charisma save or suffer a -1d4 penalty to all ability checks, saving throws, attack rolls, and damage rolls. The DC is your spellcasting DC, and the effect lasts for 1 minute.
 
+- #### Steal Time
+    With this talent, you can steal time from a target by spending a mote after damaging a target with a melee attack. The target must make a Charisma save, using your spellcasting DC, or have disadvantage to all ability checks, saving throws, attack rolls, and damage rolls until the end of its next turn.
 
+- #### Time After Time
+    You gain advanced ability to manipulate time and may now spend motes on two effects per round.
 
+- #### Time Bandit
+    Your access to motes increases and you gain an additional number of motes per day equal to your Charisma modifier. This talent may be taken more than once, adding the same number of additional motes each time it is selected.
 
+- #### Time to Kill
+    As a ***bonus action***, you can spend two motes to set up a perfect weapon blow. The next melee attack you make before the end of your turn has advantage and and deals a number of d6 additional damage equal to your Charisma modifier.
 
-#### Old Wounds
-As an ***action***, you can channel time into a wound, causing it to experience rapid healing, as if many days had passed. You may spend a mote to heal your own wounds, or the wounds of an ally touched. The wounds heal for 1d8 damage + your Charisma modifier.
+- #### Time Runner
+    You can move briefly through time, taking an ***action*** that does not exist in the normal sequence of reality. By spending two motes, you gain an additional move action. You do not set off traps, do not provoke attacks of opportunity, nor do other creatures notice you during this move action. After the move action time catches up to you, triggered traps go off and other creatures notice you where you now stands.
 
-#### Steady Hand
-You can rewind time by small amounts to erase any minor mistakes you make as a result of distraction around you. By spending a mote, you may use skills reliably even under adverse conditions. Once you spend the mote, you have advantage on any single Dexterity check.
+- #### Uncanny Dodge
+    When an attacker that you can see hits you with an attack, you can spend a mote to use your reaction to halve the attack's damage against you.
 
-#### Steal Fate
-As an ***action***, you can attempt to steal a crucial moment from a target's future, reducing the chance the target will enjoy a happy and prosperous future. You spend a mote to force the target to make a Charisma save or suffer a -1d4 penalty to all ability checks, saving throws, attack rolls, and damage rolls. The DC is your spellcasting DC, and the effect lasts for 1 minute.
-
-#### Steal Time
-With this talent, you can steal time from a target by spending a mote after damaging a target with a melee attack. The target must make a Charisma save, using your spellcasting DC, or have disadvantage to all ability checks, saving throws, attack rolls, and damage rolls until the end of its next turn.
-
-#### Time After Time
-You gain advanced ability to manipulate time and may now spend motes on two effects per round.
-
-#### Time Bandit
-Your access to motes increases and you gain an additional number of motes per day equal to your Charisma modifier. This talent may be taken more than once, adding the same number of additional motes each time it is selected.
-
-#### Time to Kill
-As a ***bonus action***, you can spend two motes to set up a perfect weapon blow. The next melee attack you make before the end of your turn has advantage and and deals a number of d6 additional damage equal to your Charisma modifier.
-
-#### Time Runner
-You can move briefly through time, taking an ***action*** that does not exist in the normal sequence of reality. By spending two motes, you gain an additional move action. You do not set off traps, do not provoke attacks of opportunity, nor do other creatures notice you during this move action. After the move action time catches up to you, triggered traps go off and other creatures notice you where you now stands.
-
-
-
-#### Uncanny Dodge
-When an attacker that you can see hits you with an attack, you can spend a mote to use your reaction to halve the attack's damage against you.
+</div>
 
 ### Aevum
 At 14th level, you gain the ability to control aevum - distinct moments of important time, stolen from the future and used to power your abilities. Unlike a mote, which is a very minor split second of time, an aevum is a more noteworthy moment, a crucial instance when something important happened. While you have a ready supply of motes to spend on minor effects, aevum represent more major manipulations of time and are thereby a rarer commodity.
 
 When first gained, you must select a single power from the list below and you have a single aevum to spend. You gain an additional aevum power and an additional aevum to spend at 18th level. Spending an aevum is an ***action*** unless the ability description says otherwise. You regain all your aevum after a long rest.
 
-#### Bolt Time
-By spending an aevum, you can accelerate your movements to a speed that allows you to easily see and react to the movement of a crossbow bolt or other projectile as it flies toward a target. You remain in bolt time for as long as you keep your concentration, up to 1 minute. While in bolt time, you gain the following benefits:
+<div class="columnstwo">
 
-* You can attack twice, instead of once, whenever you take the Attack action on your turn.
-* You may add your Charisma modifier to melee attacks, melee damage, AC and Dexterity saves.
-* All of your modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice your normal speed using that form of movement.
-* Each round, you may automatically dodge the first ranged attack you are aware of that would otherwise strike you.
+- #### Bolt Time
+    By spending an aevum, you can accelerate your movements to a speed that allows you to easily see and react to the movement of a crossbow bolt or other projectile as it flies toward a target. You remain in bolt time for as long as you keep your concentration, up to 1 minute. While in bolt time, you gain the following benefits:
 
-#### Entropy
-You can force a target to suddenly feel the effects of aging, which damages and weakens it. As an ***action***, you can spend an aevum to make a spell attack against any target you can see within 100 ft. If you hit the target, it takes 12d8 necrotic damage.
+    -- You can attack twice, instead of once, whenever you take the Attack action on your turn.<br/>
+    -- You may add your Charisma modifier to melee attacks, melee damage, AC and Dexterity saves.<br/>
+    -- All of your modes of movement (including land movement, burrow, climb, fly, and swim) increase by 30 feet, to a maximum of twice your normal speed using that form of movement.<br/>
+    -- Each round, you may automatically dodge the first ranged attack you are aware of that would otherwise strike you.
 
+- #### Entropy
+    You can force a target to suddenly feel the effects of aging, which damages and weakens it. As an ***action***, you can spend an aevum to make a spell attack against any target you can see within 100 ft. If you hit the target, it takes 12d8 necrotic damage.
 
+- #### Personal Time
+    You can take risky actions and, if things go badly, simply reverse your personal timeline to before you made the effort. At the beginning of your turn, spend an aevum and take one normal round of actions, with all results noted temporarily. After your round of activity, before the next creature's turn begins, you must decide if you are going to keep the round of activity you just took, or rewind herself.
 
+    If you keep the round of activity, any changes made to any character during her turn become permanent. If you decide to reverse the timeline, you go back to the moment you spent the aevum, and all changes that occurred during your round are erased from all creatures and items. No one but you remembers actions that took place during a round of time you reverse, and only divination spells of 8th level or higher can reveal such events. If you are killed or knocked unconscious during a round of personal time, you automatically revert back to the beginning of your turn.
 
+- #### Time Cross
+    You can focus your timeline-stealing powers on a target, and steal from it a moment of success. Spend an aevum as a ***reaction*** to force a target to reroll a single attack roll, damage roll, ability check, or saving throw you are aware of. The reroll is made with disadvantage.
 
+- #### Time Stop
+    You can spend an aevum to cast the *time stop* spell on yourself. You must be at least 18th level to select this aevum ability.
 
-
-
-#### Personal Time
-You can take risky actions and, if things go badly, simply reverse your personal timeline to before you made the effort. At the beginning of your turn, spend an aevum and take one normal round of actions, with all results noted temporarily. After your round of activity, before the next creature's turn begins, you must decide if you are going to keep the round of activity you just took, or rewind herself.
-
-If you keep the round of activity, any changes made to any character during her turn become permanent. If you decide to reverse the timeline, you go back to the moment you spent the aevum, and all changes that occurred during your round are erased from all creatures and items. No one but you remembers actions that took place during a round of time you reverse, and only divination spells of 8th level or higher can reveal such events. If you are killed or knocked unconscious during a round of personal time, you automatically revert back to the beginning of your turn.
-
-#### Time Cross
-You can focus your timeline-stealing powers on a target, and steal from it a moment of success. Spend an aevum as a ***reaction*** to force a target to reroll a single attack roll, damage roll, ability check, or saving throw you are aware of. The reroll is made with disadvantage.
-
-#### Time Stop
-You can spend an aevum to cast the *time stop* spell on yourself. You must be at least 18th level to select this aevum ability.
-
-
+</div>
 
 
 ### Elusive
 Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following bloodline specific benefits to choose from: ||
-| | * Regain all **Motes of Time**.
-| | * Regain all **Aevum**.
 
 
 
@@ -2165,9 +2295,9 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-
-# <a name="internal-wild">Wild Magic Bloodline</a>
-Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-wild">Wild Magic Bloodline</a></h1>
+<div class="featuresTable">
 
 #### Wild Sorcerer Features
 | Sorcerer Level | Feature |
@@ -2176,6 +2306,25 @@ Your innate magic comes from the wild forces of chaos that underlie the order of
 | 6th | Bend Luck
 | 14th | Controlled Chaos
 | 18th | Spell Bombardment
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Reset ***Tides of Chaos***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.
 
 ### Wild Magic Surge
 Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, roll a d20. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect.
@@ -2196,18 +2345,6 @@ At 14th level, you gain a modicum of control over the surges of your wild magic.
 ### Spell Bombardment
 Beginning at 18th level, the harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Reset **Tides of Chaos**.
 
 
 
@@ -2217,10 +2354,9 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
-
-
-# <a name="internal-wishcrafter">Wishcrafter</a>
-Imbued with magic from a powerful, reality-altering wish, your destiny is to bring hope to others and grant their desires, while simultaneously realizing your own. Perhaps an ancestor impressed a being of great power with their selflessness, or maybe instead a selfish wish for power has been twisted into a lesson in humility. In either case, the power of wishes flows in your veins, empowering both you and your allies.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-wishcrafter">Wishcrafter</a></h1>
+<div class="featuresTable">
 
 #### Wishcrafter Features
 | Sorcerer Level | Feature |
@@ -2229,6 +2365,29 @@ Imbued with magic from a powerful, reality-altering wish, your destiny is to bri
 | 6th | Bestow Power (2 uses), Well of the Heart |
 | 14th | Bestow Power (3 uses), Holder of Fate |
 | 18th | Heart’s Desire |
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Reset ***Wishbound Arcana***.
+| &nbsp;
+| Add the following bloodline specific benefits to choose from: |
+| * Regain all uses of ***Bestow Power***.
+| * Regain use of ***Holder of Fate***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Imbued with magic from a powerful, reality-altering wish, your destiny is to bring hope to others and grant their desires, while simultaneously realizing your own. Perhaps an ancestor impressed a being of great power with their selflessness, or maybe instead a selfish wish for power has been twisted into a lesson in humility. In either case, the power of wishes flows in your veins, empowering both you and your allies.
 
 ### Bestow Power
 At 1st level, you gain an uncanny sense of the wants and desires of others, and the ability to aid in obtaining them. You gain proficiency with Insight, and learn the *guidance* cantrip.
@@ -2259,22 +2418,6 @@ Once you have used this feature, you may not do so again until after a long rest
 ### Heart’s Desire
 By 18th level, your dedication to aiding others has allowed you to more easily imbue yourself with power. When you cast a beneficial spell on a friendly target, you may also cast the same effect on yourself. If the spell normally targets more than one creature, you do not count towards the spell's normal targets.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following bloodline specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Reset **Wishbound Arcana**.
-| | &nbsp;
-| Add the following bloodline specific benefits to choose from: ||
-| | * Regain all uses of **Bestow Power**.
-| | * Regain use of **Holder of Fate**.
 
 
 
@@ -2284,107 +2427,92 @@ The following bloodline specific additions are made to the general rest rules.
 
 
 
+<h2><a class="internal-link" name="internal-metaMagic">Metamagic</a></h2>
 
-
-# <a name="internal-metaMagic">Metamagic</a>
 
 At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the Metamagic options of your choice. You gain another one at 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
 
-### Burning Spell
-When you cast a spell that deals acid, fire or poison damage, you can spend a number of sorcery points equal to the spell's level (1 sorcery point if the spell is a cantrip) to make the spell adhere to the creature, causing more damage on the start of your the next round. If the spell targets only one creature, the damage dealt is equal to half the original (roll half the number of dice and apply half of the bonuses, round down). If the spell targets several creatures or is an area spell, the extra damage is equal to twice the sorcery points spent.
+<div class="columnsthree">
 
-### Careful Spell
-When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.
+- ### Burning Spell
+    When you cast a spell that deals acid, fire or poison damage, you can spend a number of sorcery points equal to the spell's level (1 sorcery point if the spell is a cantrip) to make the spell adhere to the creature, causing more damage on the start of your the next round. If the spell targets only one creature, the damage dealt is equal to half the original (roll half the number of dice and apply half of the bonuses, round down). If the spell targets several creatures or is an area spell, the extra damage is equal to twice the sorcery points spent.
 
-### Chaotic Spell
-When you cast a spell of 1st level or higher, you may spend up to 1 sorcery point to make the spell immediately roll on the Wild Magic Surge table.
+- ### Careful Spell
+    When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.
 
-### Concussive Spell
-When you cast a spell that deals thunder damage, you can spend 2 sorcery point to add a concussive sonic wave that rattles creatures affected by the spell. If the target/s fail a Constitution saving throw, they are incapacitated until the end of your next round.
+- ### Chaotic Spell
+    When you cast a spell of 1st level or higher, you may spend up to 1 sorcery point to make the spell immediately roll on the Wild Magic Surge table.
 
-### Distant Spell
-When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.
+- ### Concussive Spell
+    When you cast a spell that deals thunder damage, you can spend 2 sorcery point to add a concussive sonic wave that rattles creatures affected by the spell. If the target/s fail a Constitution saving throw, they are incapacitated until the end of your next round.
 
-When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.
+- ### Distant Spell
+    When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.
 
-### Empowered Spell
-When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.
+    When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.
 
+- ### Empowered Spell
+    When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.
 
+    You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.
 
+- ### Extended Spell
+    When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.
 
-You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.
+- ### Flaring Spell
+    When you cast a spell that deals fire, radiant of electricity damage, you can spend 1 sorcery point to add a flaring effect. If the target/s fail a Constitution saving throw, they are blinded until the end of your next round.
 
-### Extended Spell
-When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.
+- ### Frightful Spell
+    When you cast a spell that forces a creature to make a saving throw, you can spend 2 sorcery points. The target must succeed on a Wisdom saving throw against your spell save DC or be frightened of you until the start of your next turn.
 
-### Flaring Spell
-When you cast a spell that deals fire, radiant of electricity damage, you can spend 1 sorcery point to add a flaring effect. If the target/s fail a Constitution saving throw, they are blinded until the end of your next round.
+- ### Heightened Spell
+    When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.
 
-### Frightful Spell
-When you cast a spell that forces a creature to make a saving throw, you can spend 2 sorcery points. The target must succeed on a Wisdom saving throw against your spell save DC or be frightened of you until the start of your next turn.
+- ### Lingering Spell
+    When you lose concentration on a spell, voluntarily or not, you may spend 1 sorcery point to force the spell to linger for one additional round. You may continue to do this for several rounds, but the cost increases with 1 point each round. This does not let you keep two concentration spells simultaneously.
 
-### Heightened Spell
-When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.
+- ### Precise Spell
+    When you cast a spell that requires one or more spell attack rolls, you can expend 2 sorcery points to gain advantage on one roll.
 
-### Lingering Spell
-When you lose concentration on a spell, voluntarily or not, you may spend 1 sorcery point to force the spell to linger for one additional round. You may continue to do this for several rounds, but the cost increases with 1 point each round. This does not let you keep two concentration spells simultaneously.
+- ### Quickened Spell
+    When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.
 
-### Precise Spell
-When you cast a spell that requires one or more spell attack rolls, you can expend 2 sorcery points to gain advantage on one roll.
+- ### Restorative Spell
+    When you cast a spell, you may spend 1 sorcery point to gain a number of temporary hit points equal to twice the spell's level (a cantrip gives 1 temporary hit point).
 
-### Quickened Spell
-When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.
+    You may use this metamagic option even if you have used another on the same spell.
 
-### Restorative Spell
-When you cast a spell, you may spend 1 sorcery point to gain a number of temporary hit points equal to twice the spell's level (a cantrip gives 1 temporary hit point).
+- ### Rime Spell
+    When you cast a spell that deals cold damage, you can spend 1 sorcery point to let frost from your spell cling to the target, impeding it for a short time. If the target/s fail a Constitution saving throw, they are restrained until the end of your next round.
 
-You may use this metamagic option even if you have used another on the same spell.
+- ### Sculpt Spell
+  When you cast a spell with a range that affects an area, you can expend 1 sorcery point to change the area's shape in one of the following ways:<br/>
+    -- If the spell's range is a line, you can change it to a cone of half range.<br/>
+    -- If the spell's range is a cone, you can change it to a 5 foot wide line with double range.<br/>
+    -- If the spell's range is a sphere, you can change its area to a cylinder of half radius and double height.<br/>
+    -- If the spell's range is a cylinder, you can change its area to a sphere of the same radius.
 
+- ### Seeking Spell
+    When you cast a spell that requires a spell attack roll, you can expend 1 sorcery point to target a creature that has left your line of sight since your last turn but is still within the range of the spell. Additionally, this spell ignores half cover and three-quarters cover.
 
+- ### Stable Spell
+    When a spell you cast would get countered by counterspell or dispelled by dispel magic, you may spend 2 sorcery points as a reaction to impose disadvantage on the check made by those spells. If your spell would be countered or dispelled without a roll, you instead force the roll to occur.
 
+    You may use this metamagic option even if you have used another on the same spell, and can use this option multiple times per spell.
 
+- ### Subtle Spell
+    When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.
 
+- ### Twinned Spell
+    When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery  points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
 
+- ### Uncanny Concentration
+    You have learned to enter a deeper state when casting spells, allowing you to shrug off distractions, damage, and even the effects of other spells. By spending 3 sorcery points you gain advantage on concentration checks, while concentrating on this spell.
 
+- ### Unerring Spell
+    If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the attack roll. You must use the result of the second roll. You can use Unerring Spell even if you have already used a different Metamagic option during the casting of the spell.
 
-### Rime Spell
-When you cast a spell that deals cold damage, you can spend 1 sorcery point to let frost from your spell cling to the target, impeding it for a short time. If the target/s fail a Constitution saving throw, they are restrained until the end of your next round.
+- ### Zombifying Spell
+    When you kill at least one creature with a spell you may expend 3 sorcery points to cause one creature slain by the spell to rise as zombies under your control (as *animate dead*) for the next minute. You may expend additional sorcery points to animate additional slain creatures.
 
-### Sculpt Spell
-When you cast a spell with a range that affects an area, you can expend 1 sorcery point to change the area's shape in one of the following ways:
-* If the spell's range is a line, you can change it to a cone of half range.
-* If the spell's range is a cone, you can change it to a 5 foot wide line with double range.
-* If the spell's range is a sphere, you can change its area to a cylinder of half radius and double height.
-* If the spell's range is a cylinder, you can change its area to a sphere of the same radius.
-
-### Seeking Spell
-When you cast a spell that requires a spell attack roll, you can expend 1 sorcery point to target a creature that has left your line of sight since your last turn but is still within the range of the spell. Additionally, this spell ignores half cover and three-quarters cover.
-
-### Stable Spell
-When a spell you cast would get countered by counterspell or dispelled by dispel magic, you may spend 2 sorcery points as a reaction to impose disadvantage on the check made by those spells. If your spell would be countered or dispelled without a roll, you instead force the roll to occur.
-
-You may use this metamagic option even if you have used another on the same spell, and can use this option multiple times per spell.
-
-
-
-### Subtle Spell
-When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.
-
-### Twinned Spell
-When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery  points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
-
-### Uncanny Concentration
-You have learned to enter a deeper state when casting spells, allowing you to shrug off distractions, damage, and even the effects of other spells. By spending 3 sorcery points you gain advantage on concentration checks, while concentrating on this spell.
-
-### Unerring Spell
-If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the attack roll. You must use the result of the second roll. You can use Unerring Spell even if you have already used a different Metamagic option during the casting of the spell.
-
-### Zombifying Spell
-When you kill at least one creature with a spell you may expend 3 sorcery points to cause one creature slain by the spell to rise as zombies under your control (as *animate dead*) for the next minute. You may expend additional sorcery points to animate additional slain creatures.
-
-
-
-
-
-
+</div>
