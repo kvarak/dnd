@@ -5,7 +5,8 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Archetypes](#internal-Archetypes)
+<!-- #### [Archetypes](#internal-Archetypes) -->
+#### Archetypes
 <a href="#internal-blacksnake">Blacksnake</a><br/>
 <a href="#internal-brawler">Brawler</a><br/>
 <a href="#internal-corsair">Corsair</a><br/>
@@ -356,7 +357,7 @@ Corsairs can be evil or good depending on their motivations and methods. Behind 
 | 9 | The bastard of a wealthy family, my only choice was to make my own name at sea. |
 | 0 | Roll again twice, both are true. |
 
-<img src='http://pfseconddarkness.wdfiles.com/local--files/mister-plugg/Mister%20Plugg.png' style='float:left;width:35%;padding:20px' />
+<img src='http://pfseconddarkness.wdfiles.com/local--files/mister-plugg/Mister%20Plugg.png' style='float:left;width:30%;padding:20px' />
 
 ### Scallywag tricks
 As a corsair, you have a better understanding of how to move about and survive at sea, from climbing through riggings to swimming through waves. While you are either wearing light armor or no armor and not holding a shield, you gain both a swimming and a climbing speed equal to your normal movement speed. You can also hold your breath for twice as long.
@@ -501,7 +502,7 @@ Many duelists travel from place to place seeking fortune, fame, and new opponent
 
 
 
-<img src='https://i.pinimg.com/originals/ed/3e/b3/ed3eb3f6c3f82fdfdc0e346468b241b5.png' style='float:left;width:35%;padding:20px' />
+<img src='https://i.pinimg.com/originals/ed/3e/b3/ed3eb3f6c3f82fdfdc0e346468b241b5.png' style='float:left;width:25%;padding:20px' />
 
 ### Practice Makes Perfect
 A duelist's skills comes from years of practice. When choosing this archetype, you adopt a style of fighting as your specialty. Choose any one of the options presented in the fighter description. You cannot take a Fighting Style option more than once, even if you later get to choose again.
@@ -643,9 +644,12 @@ The thieves and brigands who prey on travelers are known as highwaymen - whether
 
 
 ### Distant Traveler
+
 When you select this archetype, you gain proficiency with medium armor, land vehicles, and with handle animals. In addition, while traveling on a mount or using a land vehicle that you control, you and that mount or vehicle can travel twice the distance in the same amount of time with no penalty for exhaustion.
 
 
+
+<img src='https://i.pinimg.com/originals/c0/2d/aa/c02daacd30c02d1cd434be41c0537cfa.png' style='float:left;width:20%;padding:20px' />
 
 ### Roadster's Maneuvers
 At 3rd level you learn the maneuvers of the traveling bandits and highway brigands. You gain a bonus deed. The following deeds are added to the list of deeds that you are able to choose.
@@ -659,8 +663,6 @@ At 3rd level you learn the maneuvers of the traveling bandits and highway brigan
 - **Point Blank Shot**. When you make a ranged attack while adjacent to a hostile creature, you may expend a panache to negate the disadvantage for attacking at close range.
 
 </div>
-
-<img src='https://i.pinimg.com/originals/c0/2d/aa/c02daacd30c02d1cd434be41c0537cfa.png' style='float:left;width:35%;padding:20px' />
 
 
 ### Highway Mount
@@ -700,7 +702,7 @@ While many Swashbucklers strive to perfect their art, spending all of their time
 ### Courtly Graces
 A musketeer is usually well aware of how to address people at all levels within an organisation, be it the court, a military camp or a merchant guild. When you choose this archetype, you can spend one panache to reroll a failed Charisma check when in such a situation.
 
-<img src='https://i.pinimg.com/originals/b7/af/e2/b7afe2829566dc7e809f61ce86f1c3f2.png' style='float:left;width:35%;padding:20px' />
+<img src='https://i.pinimg.com/originals/b7/af/e2/b7afe2829566dc7e809f61ce86f1c3f2.png' style='float:right;width:35%;padding:20px' />
 
 
 ### Musketeers, United We Stand
@@ -748,154 +750,138 @@ At 18th level, you attain the pinnacle of resilience in battle. At the start of 
 
 The deeds are presented in alphabetical order.
 
-#### Alleycat
-You gain proficiency with Stealth. As long as you have at least one panache remaining, you can use stealth at your normal speed.
+<div class="columnstwo">
 
-If you are proficient with Acrobatics, you can add twice your proficiency bonus on Acrobatics check to keep your footing, such as balancing on a tightrope or staying upright on a rocking ship's deck. If you are not proficient, you may still add your proficiency bonus.
+- #### Alleycat
+    You gain proficiency with Stealth. As long as you have at least one panache remaining, you can use stealth at your normal speed.
 
-#### Athletic Prowess
-You have advantage on checks made against being knocked prone, grappled, shoved or moved in another way. In addition, When you move, you can spend one panache, gaining advantage on all ability checks made to move, until you stop moving.
+    If you are proficient with Acrobatics, you can add twice your proficiency bonus on Acrobatics check to keep your footing, such as balancing on a tightrope or staying upright on a rocking ship's deck. If you are not proficient, you may still add your proficiency bonus.
 
-#### Cheat Death
-Whenever you are reduced to 0 hit points, you can spend all of your remaining panache to roll a Constitution Save against a DC of half the damage dealt against you or DC 15, whichever is higher, to survive the attack and remain at 1 Hit Point. You must have at least one panache point to spend. Damage and effects that kill you outright are not affected by this ability. You must finish a long rest to use this ability again.
+- #### Athletic Prowess
+    You have advantage on checks made against being knocked prone, grappled, shoved or moved in another way. In addition, When you move, you can spend one panache, gaining advantage on all ability checks made to move, until you stop moving.
 
-#### Cloak and Dagger
-You are proficient with cloak usage in combat. For you a cloak is considered a shield and grants +2 AC bonus. The cloak can be thrown as a net, but has only 1 HP. The cloak usually needs replacing after a few combats. A new cloak has a d6 as usage dice.
+- #### Cheat Death
+    Whenever you are reduced to 0 hit points, you can spend all of your remaining panache to roll a Constitution Save against a DC of half the damage dealt against you or DC 15, whichever is higher, to survive the attack and remain at 1 Hit Point. You must have at least one panache point to spend. Damage and effects that kill you outright are not affected by this ability. You must finish a long rest to use this ability again.
 
-As a ***reaction***, you can spend one panache point to use the cloak to disarm an opponent that has just attacked you.
+- #### Cloak and Dagger
+    You are proficient with cloak usage in combat. For you a cloak is considered a shield and grants +2 AC bonus. The cloak can be thrown as a net, but has only 1 HP. The cloak usually needs replacing after a few combats. A new cloak has a d6 as usage dice.
 
-#### Constant Cover
-You are well aware of your surrounding and can always find some kind of cover to protect you. By spending one panache and using a ***reaction***, you can improve your degree of cover one step. This may allow you to avoid detection during stealth or improve AC and saves against ranged attacks.
+    As a ***reaction***, you can spend one panache point to use the cloak to disarm an opponent that has just attacked you.
 
-#### Death from Above
-When you fall and there is some object nearby on which you could conceivably slow your fall, you can spend one panache and use your ***reaction*** to reduce your falling damage by an amount equal to five times your character level.
+- #### Constant Cover
+    You are well aware of your surrounding and can always find some kind of cover to protect you. By spending one panache and using a ***reaction***, you can improve your degree of cover one step. This may allow you to avoid detection during stealth or improve AC and saves against ranged attacks.
 
-If you take the Attack action at the end of a fall, you have advantage on your attack rolls and deal an additional 1d6 damage for every 10 feet you fell, up to a maximum of 5d6.
+- #### Death from Above
+    When you fall and there is some object nearby on which you could conceivably slow your fall, you can spend one panache and use your ***reaction*** to reduce your falling damage by an amount equal to five times your character level.
 
+    If you take the Attack action at the end of a fall, you have advantage on your attack rolls and deal an additional 1d6 damage for every 10 feet you fell, up to a maximum of 5d6.
 
+- <img src='http://40.media.tumblr.com/8165ab7746ca59625e85be8014109983/tumblr_mkveo3uMxT1rq8jqio1_500.png' style='float:right;width:35%;padding:20px' />
 
-#### Dramatic Entrance
-You can expend one panache to make a dramatic entrance as a ***bonus action***. Any creature that was not aware of you being there until now must make a Wisdom saving throw or get the charmed condition towards you until the end of their next turn.
+- #### Dramatic Entrance
+    You can expend one panache to make a dramatic entrance as a ***bonus action***. Any creature that was not aware of you being there until now must make a Wisdom saving throw or get the charmed condition towards you until the end of their next turn.
 
-In a combat situation you may expend additional panache to extend the duration by 1 round per panache spent. In a non-combat situation this will usually affect all coming interactions favorably unless you do something to change that.
+    In a combat situation you may expend additional panache to extend the duration by 1 round per panache spent. In a non-combat situation this will usually affect all coming interactions favorably unless you do something to change that.
 
-#### Fast Climber
-You become proficient with climbing. If already proficient, you can add twice your proficiency bonus on checks made to climb.
+- #### Fast Climber
+    You become proficient with climbing. If already proficient, you can add twice your proficiency bonus on checks made to climb.
 
-As long as you have at least one panache, you climb faster than normal; climbing costs no extra movement, and you don't grant advantage to attackers while climbing.
+    As long as you have at least one panache, you climb faster than normal; climbing costs no extra movement, and you don't grant advantage to attackers while climbing.
 
-You may spend one panache to get advantage on a climb roll.
+    You may spend one panache to get advantage on a climb roll.
 
-#### Favored City
-Select a city. When at that city, you gain three benefits. First, you can traverse the city using secret alleys and passages that allow you to avoid detection, and you have some kind of secret safe house. Second, you have advantage on any Charisma checks to gather information in the city, thanks to a network of contacts there. Third, you can secure free passage aboard any land vehicle departing from or to that city for yourself and your companions, though you must be flexible about being hidden among refuse or the like.
+- #### Favored City
+    Select a city. When at that city, you gain three benefits. First, you can traverse the city using secret alleys and passages that allow you to avoid detection, and you have some kind of secret safe house. Second, you have advantage on any Charisma checks to gather information in the city, thanks to a network of contacts there. Third, you can secure free passage aboard any land vehicle departing from or to that city for yourself and your companions, though you must be flexible about being hidden among refuse or the like.
 
-<img src='http://40.media.tumblr.com/8165ab7746ca59625e85be8014109983/tumblr_mkveo3uMxT1rq8jqio1_500.png' style='float:left;width:35%;padding:20px' />
+- #### Improvisational Specialist
+    You have proficiency with improvised weapons. You also have proficiency with utilizing the environment to cause problems for your foes, such as cutting down a curtain to restrain you enemy, pulling the carpet from your target's feet or slashing open a flour bag to blind target.
 
+- #### Lucky Break
+    It's become clear to you that luck is just as important as skill - and you're one lucky devil. Gain +2 to your Luck ability. When you fail an attack roll, saving throw, or ability check, you may spend a panache to reroll the result as a reaction, taking the new result.
 
+- #### Swashbuckler Initiative
+    While you have at least one panache, you gain advantage on initiative checks. In addition, if your hands are free and unrestrained, and you have any weapons that aren't hidden, you can draw one of them as part of the initiative check.
 
-
-
-
-
-
-#### Improvisational Specialist
-You have proficiency with improvised weapons. You also have proficiency with utilizing the environment to cause problems for your foes, such as cutting down a curtain to restrain you enemy, pulling the carpet from your target's feet or slashing open a flour bag to blind target.
-
-#### Lucky Break
-It's become clear to you that luck is just as important as skill - and you're one lucky devil. Gain +2 to your Luck ability. When you fail an attack roll, saving throw, or ability check, you may spend a panache to reroll the result as a reaction, taking the new result.
-
-#### Swashbuckler Initiative
-While you have at least one panache, you gain advantage on initiative checks. In addition, if your hands are free and unrestrained, and you have any weapons that aren't hidden, you can draw one of them as part of the initiative check.
-
-If you do not have any remaining panache, and you have the highest initiative, you regain one panache.
-
-{{}}">wide
-<img src='https://robertrigo.github.io/pics/skull_divider.png' style='width:100%;' />
+    If you do not have any remaining panache, and you have the highest initiative, you regain one panache.
 
 
-# <a name="internal-tricks">Tricks</a>
+</div>
+
+<h2><a class="internal-link" name="internal-tricks">Tricks</a></h2>
+
 The tricks are presented in alphabetical order.
 
-#### Arm's Length
-You are good at holding people at sword point. When an enemy comes within reach, you can spend one panache to make an opportunity attack against that target as a ***reaction***. If you hit, that target has disadvantage on attacks against you until the end of its next round.
+<div class="columnstwo">
 
-#### Blinding Sand
-When adjacent to a creature you may expend a panache as a ***bonus action*** to attempt to blind your opponent with sand, dirt, or a similar grainy substance you have on hand. The target must make a Constitution saving throw against 8 + your Dexterity modifier + your proficiency modifier or be blinded until the end of their next turn. You may expend additional panache to extend the duration by 1 round for each panache spent.
+- #### Arm's Length
+    You are good at holding people at sword point. When an enemy comes within reach, you can spend one panache to make an opportunity attack against that target as a ***reaction***. If you hit, that target has disadvantage on attacks against you until the end of its next round.
 
-#### Canny Strike
-You have the ability to strike precisely with a finesse piercing melee weapon and can spend one panache to add your Intelligence modifier to the damage dealt. You may choose to do so after you have rolled damage. If target goes down, you regain 1 panache.
+- #### Blinding Sand
+    When adjacent to a creature you may expend a panache as a ***bonus action*** to attempt to blind your opponent with sand, dirt, or a similar grainy substance you have on hand. The target must make a Constitution saving throw against 8 + your Dexterity modifier + your proficiency modifier or be blinded until the end of their next turn. You may expend additional panache to extend the duration by 1 round for each panache spent.
 
-#### Confounding Tumble
-You can befuddle a foe when tumbling away from it. When you move away from an enemy, you can spend one panache. If you do, you do not provoke opportunity attacks this round. In addition, any creature that could normally make such an attack against you must make a Wisdom saving throw against 8 + your Charisma modifier + your proficiency modifier. If failed, the foe is incapacitated until the start of their next turn.
+- #### Canny Strike
+    You have the ability to strike precisely with a finesse piercing melee weapon and can spend one panache to add your Intelligence modifier to the damage dealt. You may choose to do so after you have rolled damage. If target goes down, you regain 1 panache.
 
+- #### Confounding Tumble
+    You can befuddle a foe when tumbling away from it. When you move away from an enemy, you can spend one panache. If you do, you do not provoke opportunity attacks this round. In addition, any creature that could normally make such an attack against you must make a Wisdom saving throw against 8 + your Charisma modifier + your proficiency modifier. If failed, the foe is incapacitated until the start of their next turn.
 
+- #### Dirty Fighter
+    You may spend one panache to gain advantage in any attempts to blind, grapple, stun or knock prone any creature.
 
-#### Dirty Fighter
-You may spend one panache to gain advantage in any attempts to blind, grapple, stun or knock prone any creature.
+- #### Disarm
+    Whenever you hit a creature with a weapon attack, you may spend one panache to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. The target must make a Strength saving throw against 8 + your Intelligence modifier + your proficiency modifier. On a failed save it drops the object you choose.
 
-#### Disarm
-Whenever you hit a creature with a weapon attack, you may spend one panache to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. The target must make a Strength saving throw against 8 + your Intelligence modifier + your proficiency modifier. On a failed save it drops the object you choose.
+- #### Distracting Yarn
+    As a ***bonus action***, you can spin a quick tale intended to distract one intelligent creature who can hear and understand you. If the target fails a Charisma save against 8 + your Charisma modifier + your proficiency modifier, it cannot use bonus actions or reactions until the end of its next turn.
 
-#### Distracting Yarn
-As a ***bonus action***, you can spin a quick tale intended to distract one intelligent creature who can hear and understand you. If the target fails a Charisma save against 8 + your Charisma modifier + your proficiency modifier, it cannot use bonus actions or reactions until the end of its next turn.
+- #### Feint
+    You may spend one panache to use a ***bonus action*** during your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature.
 
-#### Feint
-You may spend one panache to use a ***bonus action*** during your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature.
+- #### Humiliate
+    Make an attack with disadvantage against an intelligent opponent. If you hit, you humiliate your opponent, such as slicing of his belt or carving your initials in his chest. You regain one panache and the opponent has disadvantage on all actions during his next round.
 
-#### Humiliate
-Make an attack with disadvantage against an intelligent opponent. If you hit, you humiliate your opponent, such as slicing of his belt or carving your initials in his chest. You regain one panache and the opponent has disadvantage on all actions during his next round.
+- #### It's Just a Flesh Wound
+    As a reaction when you are damaged by a bludgeoning, piercing or slashing attack, you may spend one panache to gain temporary hit points equal to the damage dealt, max twice your swashbuckler level.
 
-#### It's Just a Flesh Wound
-As a reaction when you are damaged by a bludgeoning, piercing or slashing attack, you may spend one panache to gain temporary hit points equal to the damage dealt, max twice your swashbuckler level.
+- #### Inspiring Stance
+    When you successfully hit a creature with a melee attack, you may expend a panache to strike a pose as a ***bonus action***. If you do, one ally within 30 ft of you who can see you, may add your Charisma modifier to their next attack roll, saving throw, or ability check made before the end of your next turn.
 
+    You may expend additional panache to further inspire your allies. For every additional panache spent you may choose one additional ally to be affected. If an ally succeeds at its roll, you may use your ***reaction*** to acknowledge how good you are at inspiring your allies and regain a panache.
 
+- #### Lunge
+    When you make a melee weapon attack, you can spend one panache to increase your reach for that attack by 5 feet. If the attack is made as a ***reaction***, you may move the 5 feet as well.
 
+- #### Parry
+    When a creature makes an attack roll, you can use a ***reaction*** to spend one panache and subtract your Intelligence modifier from the number rolled. You can use this after the roll.
 
+- #### Pommel Strike
+    If wielding a sword, you can strike with your pommel, dealing bludgeoning damage equal to the damage you would have dealt normally. If you spend a panache, the target has to succeed at a Constitution save against a DC of 8 + your Intelligence modifier + your proficiency modifier. If it fails, it cannot take reactions until the end of your next turn.
 
+- #### Positioning attack
+    You may clash swords with your foes, positioning them where you like.
 
+    When you hit a creature with an attack, you can expend one panache to attempt to drive the target back. If the target is your size or smaller, it must make a Strength saving throw against 8 + your Intelligence modifier + your proficiency modifier. On a failed save, you push the target up to 15 feet away from you.
 
+- #### Quick Draw
+    When a creature that you can see at least 10 ft away from you, targets you or an ally with a ranged weapon attack, as a ***reaction***, you may expend a panache to stop that attack with a ranged weapon of your own. Make a contested attack roll, negating the attack on a success. You may expend an additional panache point to deal damage on a success.
 
-#### Inspiring Stance
-When you successfully hit a creature with a melee attack, you may expend a panache to strike a pose as a ***bonus action***. If you do, one ally within 30 ft of you who can see you, may add your Charisma modifier to their next attack roll, saving throw, or ability check made before the end of your next turn.
+- #### Surefooted
+    You know that the foundation for a good fight is knowing where your feet are. You ignore difficult terrain and you may expend a panache to take the Disengage action as a ***bonus action***.
 
-You may expend additional panache to further inspire your allies. For every additional panache spent you may choose one additional ally to be affected. If an ally succeeds at its roll, you may use your ***reaction*** to acknowledge how good you are at inspiring your allies and regain a panache.
+- #### Sweeping Attack
+    When you hit a creature with a melee weapon attack, you can use a ***bonus action*** and spend one panache to attempt to damage another creature with the same attack. Choose another creature adjacent to the original target and within your reach, If the original attack roll would hit the second creature, it takes damage equal to the damage die rolled. The damage is of the same type dealt by the original attack.
 
-#### Lunge
-When you make a melee weapon attack, you can spend one panache to increase your reach for that attack by 5 feet. If the attack is made as a ***reaction***, you may move the 5 feet as well.
+- #### Taunt
+    As an ***action***, you can taunt a creature that can see, hear and understand you. The creature must make a Charisma saving throw equal to 8 + your Charisma modifier + your proficiency modifier. On a failed save the target has disadvantage when attacking any other target than you for a number of rounds equal to your Charisma bonus. If the creature receives damage from a source other than you, it may repeat the saving throw to end the effect.
 
-#### Parry
-When a creature makes an attack roll, you can use a ***reaction*** to spend one panache and subtract your Intelligence modifier from the number rolled. You can use this after the roll.
+    You may expend one panache point to taunt even more effective. This allows you to taunt as a ***bonus action***. On a failed save, the target will have disadvantage against you as well, and will act as if affected by a magical suggestion to attack you.
 
-#### Pommel Strike
-If wielding a sword, you can strike with your pommel, dealing bludgeoning damage equal to the damage you would have dealt normally. If you spend a panache, the target has to succeed at a Constitution save against a DC of 8 + your Intelligence modifier + your proficiency modifier. If it fails, it cannot take reactions until the end of your next turn.
+- #### Unnerving Flourish
+    Your deadly display of combat prowess unnerves your opponents, leaving them cowering in fear and at your mercy. Whenever you reduce a creature to 0 hit points with a melee attack, you can use a ***bonus action*** to spend one panache, and instead leave the creature at 1 hit point.
 
-#### Positioning attack
-You may clash swords with your foes, positioning them where you like.
+    The creature is frightened of you for a number of minutes equal to your Charisma modifier. It must also make a Charisma saving throw with a DC 8 + your Charisma modifier + your proficiency modifier. If the creature fails this saving throw, it answers truthfully any questions you ask it and obeys your direct orders while it is frightened by this effect.
 
-When you hit a creature with an attack, you can expend one panache to attempt to drive the target back. If the target is your size or smaller, it must make a Strength saving throw against 8 + your Intelligence modifier + your proficiency modifier. On a failed save, you push the target up to 15 feet away from you.
-
-#### Quick Draw
-When a creature that you can see at least 10 ft away from you, targets you or an ally with a ranged weapon attack, as a ***reaction***, you may expend a panache to stop that attack with a ranged weapon of your own. Make a contested attack roll, negating the attack on a success. You may expend an additional panache point to deal damage on a success.
-
-
-
-#### Surefooted
-You know that the foundation for a good fight is knowing where your feet are. You ignore difficult terrain and you may expend a panache to take the Disengage action as a ***bonus action***.
-
-#### Sweeping Attack
-When you hit a creature with a melee weapon attack, you can use a ***bonus action*** and spend one panache to attempt to damage another creature with the same attack. Choose another creature adjacent to the original target and within your reach, If the original attack roll would hit the second creature, it takes damage equal to the damage die rolled. The damage is of the same type dealt by the original attack.
-
-#### Taunt
-As an ***action***, you can taunt a creature that can see, hear and understand you. The creature must make a Charisma saving throw equal to 8 + your Charisma modifier + your proficiency modifier. On a failed save the target has disadvantage when attacking any other target than you for a number of rounds equal to your Charisma bonus. If the creature receives damage from a source other than you, it may repeat the saving throw to end the effect.
-
-You may expend one panache point to taunt even more effective. This allows you to taunt as a ***bonus action***. On a failed save, the target will have disadvantage against you as well, and will act as if affected by a magical suggestion to attack you.
-
-#### Unnerving Flourish
-Your deadly display of combat prowess unnerves your opponents, leaving them cowering in fear and at your mercy. Whenever you reduce a creature to 0 hit points with a melee attack, you can use a ***bonus action*** to spend one panache, and instead leave the creature at 1 hit point.
-
-The creature is frightened of you for a number of minutes equal to your Charisma modifier. It must also make a Charisma saving throw with a DC 8 + your Charisma modifier + your proficiency modifier. If the creature fails this saving throw, it answers truthfully any questions you ask it and obeys your direct orders while it is frightened by this effect.
-
-
+</div>
 
 
 
