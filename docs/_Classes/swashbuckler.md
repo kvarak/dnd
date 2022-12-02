@@ -26,7 +26,7 @@ Heavy warriors are your classic plate-bound tank warriors who are most at home o
 Swashbucklers on the other hand prefer to rely on their quickness, agility, finesse, daring and wit. They are most often found in campaigns that focus on urban adventuring, where heavily armored knights are often banned on the streets. They also dominate in campaigns with a more renaissance focus to the fantasy genre, as well of course as in any campaign based on the high seas, where a heavy fighter becomes a high liability.
 
 
-<img src="https://i.ytimg.com/vi/yxsin-55d7A/maxresdefault.jpg" style="width:40%;padding:20px" />
+<img src="https://i.ytimg.com/vi/yxsin-55d7A/maxresdefault.jpg" style='width:40%;padding:20px;align:center' />
 
 
 ## Class Features
@@ -218,7 +218,7 @@ Of course, it takes more than a need for stealth to drive someone to train in th
 Blacksnakes are often perceived as thugs and bullies, and the archetype package is often taken by characters that are slavers and enforcers. But some adventurers and tomb delvers also favor the flexibility and reach of the whip, and have more interest in it as a tool than an instrument of cruelty. Of course, the difference between these two types of blacksnakes is solely in their attitudes, and so can be difficult to determine at a glance. Many good-hearted adventurers who become blacksnakes will find locals are mistrustful of anyone carrying a long braid of steel-tipped leather.
 
 
-<img src='http://cdn.obsidianportal.com/assets/218754/Master_Scourge.png' style='float:left;width:50%;padding:20px' />
+<img src='http://cdn.obsidianportal.com/assets/218754/Master_Scourge.png' style='float:left;width:30%;padding:20px' />
 
 ### Prehensile whip
 In your hand a whip has a life of its own, wrapping around pillars and items with ease. When becoming a blacksnake, you can perform the following:
@@ -265,10 +265,6 @@ You cow your enemies with the lash of a whip. At 18th level, when you hit a targ
 <h1><a class="internal-link" name="internal-brawler">Brawler</a></h1>
 <div class="featuresTable">
 
-Brawlers are an up-close, in-your-face, grim-and-gritty combatant. A master of unarmed hand-to-hand combat, ready to throw down at any time, they are the typical street thug. They are not monks with their codes and mysticism. They don't learn their prowess through discipline and intense teaching but through survival of the fittest.
-
-<img src='https://i.imgur.com/zsJPmQk.png' style='position:absolute;bottom:10px;left:20px;height:44%;' />
-
 #### Brawler features
 | Swashbuckler level | Feature |
 |:------------------:|:--------|
@@ -278,6 +274,10 @@ Brawlers are an up-close, in-your-face, grim-and-gritty combatant. A master of u
 | 10th | Dirty Fighting |
 | 15th | Sucker Punch |
 | 18th | Taking a Beating |
+
+</div>
+
+Brawlers are an up-close, in-your-face, grim-and-gritty combatant. A master of unarmed hand-to-hand combat, ready to throw down at any time, they are the typical street thug. They are not monks with their codes and mysticism. They don't learn their prowess through discipline and intense teaching but through survival of the fittest.
 
 ### Pugilist
 When you choose this archetype, your experience with brawling has given you a mastery of combat styles that use unarmed strikes and fist weapons, giving you the following benefits.
@@ -293,6 +293,8 @@ When you choose this archetype, your experience with brawling has given you a ma
 From 3rd level, improvised weapons are considered one size level less. For example, heavy improvised weapons are considered as normal for you. Large items like tables are just heavy, etc.
 
 You can spend one panache to increase the damage die of an improvised weapon for one round. Whenever you use two different improvised weapons in two consecutive rounds, you regain one panache.
+
+<img src='https://i.imgur.com/zsJPmQk.png' style='float:right;width:25%;padding:20px' />
 
 ### Counterstrike
 At 7th level, when you take damage from a creature within reach, you can use your ***reaction*** to make an unarmed attack against that creature. If you are wielding an improvised weapon, you can use that instead, striking so hard that it breaks. It deals twice the damage dice, but cannot be used any longer.
@@ -320,9 +322,22 @@ At 18th level, you can take an impressive amount of beating. You gain resistance
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-corsair">Corsair</a></h1>
+<div class="featuresTable">
 
+#### Corsair features
+| Swashbuckler level | Feature |
+|:------------------:|:--------|
+| 1st  | Scallywag tricks |
+| 3rd  | Fearsome Presence |
+| 7th  | Bonus Deed |
+| 10th | Fearsome reputation |
+| 15th | Ruthless Command |
+| 18th | Anything Might Be a Trap |
 
-## <a name="internal-corsair">Corsair</a>
+</div>
+
 While it doesn't take much more than a ship and a crew to become a pirate, corsairs are a finer breed of freebooter. A corsair's debonair charm and style make her a paradoxical celebrity even among the nations whose ships she plunders.
 
 Corsairs can be evil or good depending on their motivations and methods. Behind these motivations, most corsairs have a formative moment that led them to a life at sea. Consider with your DM what this moment could be, or roll on the Life at Sea table, below:
@@ -341,15 +356,7 @@ Corsairs can be evil or good depending on their motivations and methods. Behind 
 | 9 | The bastard of a wealthy family, my only choice was to make my own name at sea. |
 | 0 | Roll again twice, both are true. |
 
-#### Corsair features
-| Swashbuckler level | Feature |
-|:------------------:|:--------|
-| 1st  | Scallywag tricks |
-| 3rd  | Fearsome Presence |
-| 7th  | Bonus Deed |
-| 10th | Fearsome reputation |
-| 15th | Ruthless Command |
-| 18th | Anything Might Be a Trap |
+<img src='http://pfseconddarkness.wdfiles.com/local--files/mister-plugg/Mister%20Plugg.png' style='float:left;width:35%;padding:20px' />
 
 ### Scallywag tricks
 As a corsair, you have a better understanding of how to move about and survive at sea, from climbing through riggings to swimming through waves. While you are either wearing light armor or no armor and not holding a shield, you gain both a swimming and a climbing speed equal to your normal movement speed. You can also hold your breath for twice as long.
@@ -369,23 +376,18 @@ If you cause an opponent to flee due to your presence, you regain one panache.
 
 At 10th level, your swagger gives an additional benefit when using **Charmed Life**. If you succeed at a saving throw against an opponent's attack or ability while using **Charmed Life** on that save, you can use fearsome presence to demoralize that opponent without using an action.
 
-<img src='http://pfseconddarkness.wdfiles.com/local--files/mister-plugg/Mister%20Plugg.png' style='position:absolute;bottom:-10px;height:50%;' />
-
-
-
-
-
-
-
-
 ### Bonus Deed
 At 7th level you gain a bonus deed. The following deeds are added to the list of deeds that you are able to choose:
 
- **Eyes of the Storm**. Whenever you have at least one panache, you can see three times as far as normal in both magical and non-magical fog, also granting advantage when using stealth in these conditions. In addition you have advantage on checks that are penalized due to weather conditions (basically removing the disadvantage).
+<div class="columnsthree">
 
- **Parrot Familiar**. You gain a parrot as an animal companion. It functions as the *find familiar* spell, although it can't be stored in a pocket dimension. If it dies, another takes its place the next day. It has Improved Evasion when sharing your space.
+- **Eyes of the Storm**. Whenever you have at least one panache, you can see three times as far as normal in both magical and non-magical fog, also granting advantage when using stealth in these conditions. In addition you have advantage on checks that are penalized due to weather conditions (basically removing the disadvantage).
 
- **Stylish Hat**. Some pirates wear stylish hats. While you have at least one panache, you gain a +1 bonus to all Charisma skill checks. You may spend one panache to throw the hat as ***bonus action***. Each creature within 30 ft paying attention to you (and your hat) must make a Wisdom save against DC 8 + your proficiency bonus + your Charisma modifier or become distracted for a moment. Until the start of their next turn, they are incapacitated.
+- **Parrot Familiar**. You gain a parrot as an animal companion. It functions as the *find familiar* spell, although it can't be stored in a pocket dimension. If it dies, another takes its place the next day. It has Improved Evasion when sharing your space.
+
+- **Stylish Hat**. Some pirates wear stylish hats. While you have at least one panache, you gain a +1 bonus to all Charisma skill checks. You may spend one panache to throw the hat as ***bonus action***. Each creature within 30 ft paying attention to you (and your hat) must make a Wisdom save against DC 8 + your proficiency bonus + your Charisma modifier or become distracted for a moment. Until the start of their next turn, they are incapacitated.
+
+</div>
 
 ### Fearsome reputation
 Starting at 10th level, you have crafted a fierce reputation that precedes you and smoothes your way. When you make it known who you are, you may immediately make an intimidation check against everyone within 60 ft who can hear, see and understand you. A person can only be targeted once per day by this.
@@ -409,12 +411,9 @@ When you reach 18th level, you have become adept at detecting ambushes and quick
 
 
 
-
-
-# <a name="internal-daredevil">Daredevil</a>
-The daredevil relies on speed, agility and panache. They are considered brave by some and foolish by others, as they often throw themselves into battle where it is as thickest.
-
-Daredevils dart in and out of the fray,  wearing  down opponent after opponent with lunges and feints, all while foiling the powerful attacks against them with a flick of the wrist and a flash of the blade. Their deft parries and fatal ripostes are carnage elevated to an art form. Some may be arrogant and devil-may-care, but behind this veneer lie people deeply dedicated to their craft.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-daredevil">Daredevil</a></h1>
+<div class="featuresTable">
 
 ##### Daredevil features
 | Swashbuckler level | Feature |
@@ -426,6 +425,28 @@ Daredevils dart in and out of the fray,  wearing  down opponent after opponent w
 | 15th | Whirlwind Strike |
 | 18th | With Daring and Panache |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a Long rest: |
+| * Regain all uses of ***Insulting Banter***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+The daredevil relies on speed, agility and panache. They are considered brave by some and foolish by others, as they often throw themselves into battle where it is as thickest.
+
+Daredevils dart in and out of the fray,  wearing  down opponent after opponent with lunges and feints, all while foiling the powerful attacks against them with a flick of the wrist and a flash of the blade. Their deft parries and fatal ripostes are carnage elevated to an art form. Some may be arrogant and devil-may-care, but behind this veneer lie people deeply dedicated to their craft.
+
+
 ### Never trapped
 You proficient with more unconventional ways of movement, such as jumping off chandeliers, sliding across tables and throwing yourself from 3rd story windows, just to land on a store marquee.
 
@@ -434,9 +455,6 @@ When you are in melee combat with more than one creature, you know how to move s
 
 ### One Against Many
 At 7th level, when 2 or more enemies are adjacent to you, you may adopt a fighting strategy which uses your opponents against each other. When an enemy misses you with an attack (melee or ranged), you may use your reaction to redirect their attack against one of the enemies adjacent to you. They must re-roll their attack against the enemy you choose.
-
-
-
 
 ### Insulting Banter
 At 10th level, you can use your wit and skill to toss a constant stream of irritating witty banter to distract, confuse and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your ***reaction*** to roll a 1d8 and subtracting the number rolled from the creature's roll. You can choose to use this ability after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage.
@@ -451,18 +469,6 @@ At 15th level, you can use your ***action*** to make a melee attack against any 
 ### With Daring and Panache
 A daredevil really enjoys being in the center of a battle and this really shows at 18th level. When you start your turn surrounded by 3 or more opponents, you regain hit points equal to 5 + number of opponents. You don't gain this benefit if you have more than half your hit points left or at 0 hit points.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| After a Long rest: ||
-| | * Regain all uses of **Insulting Banter**.
 
 
 
@@ -473,11 +479,9 @@ The following archetype specific additions are made to the general rest rules.
 
 
 
-
-# <a name="internal-duelist">Duelist</a>
-Duelists represent the pinnacle of elegant swordplay. They move with a grace unmatched by most foes, parrying  blows and countering attacks  with swift thrusts of their blades. They may wear armor, but generally eschew such bulky protection as their grace allows them to dodge their opponents with ease. While others flounder on treacherous terrain, duelists charge nimbly across the battlefield, leaping and tumbling into the fray. They thrive in melee, where their skill with the blade allows them to make sudden attacks against clumsy foes and to cripple opponents with particularly well-placed thrusts of the blade.
-
-Many duelists travel from place to place seeking fortune, fame, and new opponents to test their skills against. Most live on the open road fighting for a share of prize purses, or even championing a cause, while others fight as pure mercenaries or even fight duels to humiliate or even slay foes in a "legal" death matches. Some duelists who relish in the idea of working with companions instead of a solo artist, are drawn to the life of the adventurer as an ever ongoing source of entertainment to keep them honed in their skills,  not to mention for the wealth and notoriety.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-duelist">Duelist</a></h1>
+<div class="featuresTable">
 
 #### Duelist features
 | Swashbuckler level | Feature |
@@ -489,8 +493,15 @@ Many duelists travel from place to place seeking fortune, fame, and new opponent
 | 15th | Critical precision |
 | 18th | No Cheating |
 
+</div>
 
-<img src='https://i.pinimg.com/originals/ed/3e/b3/ed3eb3f6c3f82fdfdc0e346468b241b5.png' style='height:410px;padding-left:60px' />
+Duelists represent the pinnacle of elegant swordplay. They move with a grace unmatched by most foes, parrying  blows and countering attacks  with swift thrusts of their blades. They may wear armor, but generally eschew such bulky protection as their grace allows them to dodge their opponents with ease. While others flounder on treacherous terrain, duelists charge nimbly across the battlefield, leaping and tumbling into the fray. They thrive in melee, where their skill with the blade allows them to make sudden attacks against clumsy foes and to cripple opponents with particularly well-placed thrusts of the blade.
+
+Many duelists travel from place to place seeking fortune, fame, and new opponents to test their skills against. Most live on the open road fighting for a share of prize purses, or even championing a cause, while others fight as pure mercenaries or even fight duels to humiliate or even slay foes in a "legal" death matches. Some duelists who relish in the idea of working with companions instead of a solo artist, are drawn to the life of the adventurer as an ever ongoing source of entertainment to keep them honed in their skills,  not to mention for the wealth and notoriety.
+
+
+
+<img src='https://i.pinimg.com/originals/ed/3e/b3/ed3eb3f6c3f82fdfdc0e346468b241b5.png' style='float:left;width:35%;padding:20px' />
 
 ### Practice Makes Perfect
 A duelist's skills comes from years of practice. When choosing this archetype, you adopt a style of fighting as your specialty. Choose any one of the options presented in the fighter description. You cannot take a Fighting Style option more than once, even if you later get to choose again.
@@ -522,12 +533,9 @@ At 18th level, when you are in single combat with an enemy, as a ***reaction*** 
 
 
 
-
-# <a name="internal-fatebender">Fatebender</a>
-Fatebenders find themselves on the edges of fate, dancing along the far extremes of probability and causality. They cannot do the impossible, but often the extremely improbable happens around them, always to their benefit. Fatebender aren’t necessarily particularly good at anything. It's just that the universe likes to help them out. Many people blessed or cursed in this way fail to understand the meaning of it all, believing themselves to just be unnaturally lucky or that those around them are horribly misfortunate.
-
-Life is often easy for fatebenders, as good fortune naturally falls into their laps. Casually confident and self-sure, they are flamboyant and reckless champions of destiny—in hopeless battles the good fortune radiating from a fatebender can inadvertently turn the tide in their favor.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-fatebender">Fatebender</a></h1>
+<div class="featuresTable">
 
 #### Fatebender features
 | Swashbuckler level | Feature |
@@ -539,6 +547,29 @@ Life is often easy for fatebenders, as good fortune naturally falls into their l
 | 15th | Deus Ex Machina |
 | 18th | Oblivious and Unscathed |
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain the use of ***Deus Ex Machina***.
+| * Regain the use of ***Oblivious and Unscathed***.
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+Fatebenders find themselves on the edges of fate, dancing along the far extremes of probability and causality. They cannot do the impossible, but often the extremely improbable happens around them, always to their benefit. Fatebender aren’t necessarily particularly good at anything. It's just that the universe likes to help them out. Many people blessed or cursed in this way fail to understand the meaning of it all, believing themselves to just be unnaturally lucky or that those around them are horribly misfortunate.
+
+Life is often easy for fatebenders, as good fortune naturally falls into their laps. Casually confident and self-sure, they are flamboyant and reckless champions of destiny—in hopeless battles the good fortune radiating from a fatebender can inadvertently turn the tide in their favor.
+
 ### Luck Beats Skill
 hen you choose this archetype, you’ve learned to trust in fate more than your own fighting prowess. You gain proficiency with improvised weapons. You may add your Luck modifier to attack and damage rolls with improvised weapons, simple weapons, and unarmed strikes instead of any other ability modifier.
 
@@ -547,12 +578,9 @@ In addition, your seemingly critical injuries often result merely with weapons i
 ### Panache
 You may select one of the following ways to regain panache:
 
- **Nourishing Misfortune**. You discover that you feel uplifted and more connected to the tapestry of fate when others around you suffer from terrible luck. Whenever a creature within 30 feet of you rolls a d20 for an attack roll, ability check, or saving throw that results in a natural 1, you regain 1 panache.
+- **Nourishing Misfortune**. You discover that you feel uplifted and more connected to the tapestry of fate when others around you suffer from terrible luck. Whenever a creature within 30 feet of you rolls a d20 for an attack roll, ability check, or saving throw that results in a natural 1, you regain 1 panache.
 
-
-
-
- **Favored Fortunes**. You feel uplifted by the tapestry of fate whenever good fortunes are found around you. Whenever a creature within 30 feet of you rolls a d20 for an attack roll, ability check, or saving throw that results in a natural 20, you regain 1 panache.
+- **Favored Fortunes**. You feel uplifted by the tapestry of fate whenever good fortunes are found around you. Whenever a creature within 30 feet of you rolls a d20 for an attack roll, ability check, or saving throw that results in a natural 20, you regain 1 panache.
 
 ### Bend Fate
 From 3rd level, you can tactfully tug upon a strand of fate to shift the circumstances in your favor. Whenever a creature makes an attack roll, ability check, or saving throw within 30 feet of you (including yourself), you can use your ***reaction*** and spend 1 panache to force that creature to reroll the d20 after the result of the roll is known but before the outcome is determined. You may not reroll an attack roll, ability check, or saving throw that has already been rerolled.
@@ -560,23 +588,17 @@ From 3rd level, you can tactfully tug upon a strand of fate to shift the circums
 ### Chaos Theory
 Also at 3rd level, your presence distorts the tapestry of fate, causing the highly unlikely but not technically impossible to happen. You can spend 2 panache to choose one highly unlikely event to occur within 50 feet of you. The exact nature of this event is left up to the GM’s discretion but is otherwise limited to any event that could conceivably happen, however unlikely, but nothing that requires supernatural actions to occur. Examples include a cat conveniently distracting the guards, the barman’s cask of ale suddenly breaking, or drawing a hand of winning cards.
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 ##### I Admit It’s Kinda Eerie
 The Chaos Theory feature can be powerful but how it functions is largely left up to the GM’s discretion and allows players direct access to the fickle hand of fate. Don’t feel beholden to it—this feature is meant to represent chaos after all. Allow this feature to be used creatively, but remind fatebenders that chaos can just as easily backfire as work in the party’s favor. Remember that nothing supernatural is meant to occur, just highly unlikely but otherwise mundane events, and nothing should occur that has more impact than a cantrip.
 
+</div>
 
 ### Chance Encounter
 At 7th level, fate rarely lets you miss a destined encounter or clue, causing you to figuratively and often literally trip over what you are seeking.
 
 Whenever you or an ally within 60 feet makes any type of check to locate a creature or object, you may add your Luck modifier to the check.
-
-
-
-
-
-
-
 
 ### Dumb Luck
 Fate tries to buffer you from harmful circumstances.
@@ -588,24 +610,9 @@ In addition, when you attack a creature you can't see, your inability to see it 
 ### Deus Ex Machina
 At 15th level, you and your friends have lived through impossibly dangerous experiences and come out the other side smiling, surviving deathly circumstances in the unlikeliest of ways. Once, as a ***reaction*** when an effect forces you or any creatures within 30 feet of you to make saving throws, you may choose a number of creatures up to your Luck modifier. You and the creatures you chose automatically succeed on the saving throw.
 
-
-
 ### Oblivious and Unscathed
 At 18th level, through a nearly impossible comedy of errors, you can stride through a battlefield of carnage and danger to emerge intact. You can use this feature as an ***action*** and when you do so, until the beginning of your next turn, any attacks that target you automatically miss and you cannot be the target of spells or abilities.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following specific benefits to choose from: ||
-| | * Regain the use of **Deus Ex Machina**.
-| | * Regain the use of **Oblivious and Unscathed**.
 
 
 
@@ -616,9 +623,9 @@ The following archetype specific additions are made to the general rest rules.
 
 
 
-
-# <a name="internal-highwayman">Highwayman</a>
-The thieves and brigands who prey on travelers are known as highwaymen - whether or not they're actually men. Many merchants and nobles may fear highwaymen, recounting stories of them and taking precautions against falling victim to the outlaw's blade. The poor on the other hand speak of highwaymen with reverence, occasionally calling them "the knights of the road".
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-highwayman">Highwayman</a></h1>
+<div class="featuresTable">
 
 #### Highwayman features
 | Swashbuckler level | Feature |
@@ -630,6 +637,11 @@ The thieves and brigands who prey on travelers are known as highwaymen - whether
 | 15th | Honor Among Allies |
 | 18th | Cheat Death |
 
+</div>
+
+The thieves and brigands who prey on travelers are known as highwaymen - whether or not they're actually men. Many merchants and nobles may fear highwaymen, recounting stories of them and taking precautions against falling victim to the outlaw's blade. The poor on the other hand speak of highwaymen with reverence, occasionally calling them "the knights of the road".
+
+
 ### Distant Traveler
 When you select this archetype, you gain proficiency with medium armor, land vehicles, and with handle animals. In addition, while traveling on a mount or using a land vehicle that you control, you and that mount or vehicle can travel twice the distance in the same amount of time with no penalty for exhaustion.
 
@@ -638,11 +650,18 @@ When you select this archetype, you gain proficiency with medium armor, land veh
 ### Roadster's Maneuvers
 At 3rd level you learn the maneuvers of the traveling bandits and highway brigands. You gain a bonus deed. The following deeds are added to the list of deeds that you are able to choose.
 
- **Gallows Humor**. During a short rest you may spend a panache to perk up your allies. If you do, you and any friendly creatures that can hear and understand you, also heals hp equal to your Charisma modifier for each hit die used.
+<div class="columnsthree">
 
- **Facade**. You have crafted a facade, an alternate persona. This facade can look however you like, but it is suggested they have a memorable and ostentatious name and appearance, or an otherwise eccentric feature (such as a mask or cape). You can adopt or discard your facade as an action. While adopted, you have advantage on any checks made to hide your true identity, and other creatures have disadvantage on any checks made to identify you and your facade as the same person.
+- **Gallows Humor**. During a short rest you may spend a panache to perk up your allies. If you do, you and any friendly creatures that can hear and understand you, also heals hp equal to your Charisma modifier for each hit die used.
 
- **Point Blank Shot**. When you make a ranged attack while adjacent to a hostile creature, you may expend a panache to negate the disadvantage for attacking at close range.
+- **Facade**. You have crafted a facade, an alternate persona. This facade can look however you like, but it is suggested they have a memorable and ostentatious name and appearance, or an otherwise eccentric feature (such as a mask or cape). You can adopt or discard your facade as an action. While adopted, you have advantage on any checks made to hide your true identity, and other creatures have disadvantage on any checks made to identify you and your facade as the same person.
+
+- **Point Blank Shot**. When you make a ranged attack while adjacent to a hostile creature, you may expend a panache to negate the disadvantage for attacking at close range.
+
+</div>
+
+<img src='https://i.pinimg.com/originals/c0/2d/aa/c02daacd30c02d1cd434be41c0537cfa.png' style='float:left;width:35%;padding:20px' />
+
 
 ### Highway Mount
 At 7th level, you have become a great threat while riding a mount. While mounted you have advantage on all melee weapon attack rolls against unmounted creatures smaller than your mount. In addition, through random happenstance, from a commoner you aided, by stealing it, or some other method, you have obtained a reasonable, quality mount for the area your party is traveling in. Consult with your DM on the best way for you to have obtained your mount, and what kind of mount you have been able to obtain.
@@ -656,16 +675,12 @@ At 15th level you have attuned your senses not only to danger at your heels, but
 ### Cheat Death
 From 18th level, you are adept at escaping the cold grasp of death. When you are reduced to 0 hit points, you can expend 2 panache to have 1 hit point instead, even if the attack would otherwise kill you.
 
-<img src='https://i.pinimg.com/originals/c0/2d/aa/c02daacd30c02d1cd434be41c0537cfa.png' style='position:absolute;bottom:10px;left:50px;height:53%;' />
 
 
 
-
-
-
-
-# <a name="internal-musketeer">Musketeer</a>
-While many Swashbucklers strive to perfect their art, spending all of their time honing their skill at martial arms, others spend as much effort dedicating themselves to a cause. Many of these dedicated swashbucklers are known as musketeers. These musketeers swear themselves to a purpose or a monarch, serving it above all else. They are skilled at fighting from horseback, and are often found charging across a battlefield, with the symbol of their purpose trailing on a long, fluttering banner. Their true power comes from the conviction of their ideals, the oaths that they swear, and the challenges they make.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-musketeer">Musketeer</a></h1>
+<div class="featuresTable">
 
 #### Musketeer features
 | Swashbuckler level | Feature |
@@ -677,8 +692,16 @@ While many Swashbucklers strive to perfect their art, spending all of their time
 | 15th | One for All |
 | 18th | And All For One |
 
+</div>
+
+While many Swashbucklers strive to perfect their art, spending all of their time honing their skill at martial arms, others spend as much effort dedicating themselves to a cause. Many of these dedicated swashbucklers are known as musketeers. These musketeers swear themselves to a purpose or a monarch, serving it above all else. They are skilled at fighting from horseback, and are often found charging across a battlefield, with the symbol of their purpose trailing on a long, fluttering banner. Their true power comes from the conviction of their ideals, the oaths that they swear, and the challenges they make.
+
+
 ### Courtly Graces
 A musketeer is usually well aware of how to address people at all levels within an organisation, be it the court, a military camp or a merchant guild. When you choose this archetype, you can spend one panache to reroll a failed Charisma check when in such a situation.
+
+<img src='https://i.pinimg.com/originals/b7/af/e2/b7afe2829566dc7e809f61ce86f1c3f2.png' style='float:left;width:35%;padding:20px' />
+
 
 ### Musketeers, United We Stand
 Also from 1st level, when you first encounter a military encampment, fortification, or military unit, you can take a few minutes to answer the following questions:
@@ -698,7 +721,11 @@ Additionally, whether or not you still serve in the military, at one time you di
 ### Musketeer tricks
 At 3rd level you gain a bonus trick. The following exclusive trick is added to the list of tricks that you are able to choose.
 
- **Commanding Gesture**. As a ***bonus action*** you may expend 1 panache to give a silent command to an ally within 30 ft who can see you. The chosen ally may immediately use a reaction to take one action, adding your Intelligence modifier to any attack roll or ability check they make.
+<div class="columnstwo">
+
+- **Commanding Gesture**. As a ***bonus action*** you may expend 1 panache to give a silent command to an ally within 30 ft who can see you. The chosen ally may immediately use a reaction to take one action, adding your Intelligence modifier to any attack roll or ability check they make.
+
+</div>
 
 ### Combat Superiority
 At 7th level you gain superiority as a fighter 5 levels lower.
@@ -712,16 +739,13 @@ When you reach 15th level you have learned how best to benefit from those who fi
 ### And All For One
 At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.
 
-<img src='https://i.pinimg.com/originals/b7/af/e2/b7afe2829566dc7e809f61ce86f1c3f2.png' style='position:absolute;bottom:-40px;right:50px;height:42%;' />
 
 
 
 
 
+<h2><a class="internal-link" name="internal-deeds">Deeds</a></h2>
 
-
-
-# <a name="internal-deeds">Deeds</a>
 The deeds are presented in alphabetical order.
 
 #### Alleycat
@@ -765,7 +789,7 @@ You may spend one panache to get advantage on a climb roll.
 #### Favored City
 Select a city. When at that city, you gain three benefits. First, you can traverse the city using secret alleys and passages that allow you to avoid detection, and you have some kind of secret safe house. Second, you have advantage on any Charisma checks to gather information in the city, thanks to a network of contacts there. Third, you can secure free passage aboard any land vehicle departing from or to that city for yourself and your companions, though you must be flexible about being hidden among refuse or the like.
 
-<img src='http://40.media.tumblr.com/8165ab7746ca59625e85be8014109983/tumblr_mkveo3uMxT1rq8jqio1_500.png' style='position:absolute;bottom:0px;right:-0px;height:43%' />
+<img src='http://40.media.tumblr.com/8165ab7746ca59625e85be8014109983/tumblr_mkveo3uMxT1rq8jqio1_500.png' style='float:left;width:35%;padding:20px' />
 
 
 
