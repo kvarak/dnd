@@ -970,7 +970,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 | Bard Level | Feature |
 |:----------:|:--------|
-| 1st | Bonus Proficiencies |
+| 1st | Bonus Skills |
 | 3rd | Magic Door |
 | 6th | Portal Strike |
 | 14th | Planar Door |
@@ -984,8 +984,10 @@ Not many people ever leave their home plane, but it is the purpose of the Colleg
 #### Spellcasting Focus
 You can use a musical instrument as a spellcasting focus for your spells.
 
-### Bonus Proficiencies
-When you join the College of Doors at 1st level, you gain proficiency with the Arcana skill and in the use of cartographer's tools, a set of important skills for plotting distances between Magic Doors.
+### Bonus Skills
+When you join the College of Doors at 1st level, add Arcana and Astronomy to your class skills. You gain the skills *Arcana - Conjuration - Apportation* and *Astronomy - Navigation* and all their .
+
+you gain proficiency with the Arcana skill and in the use of cartographer's tools, a set of important skills for plotting distances between Magic Doors.
 
 You have gained a substantial knowledge of portals and portal lore, and have advantage on checks made to detect, investigate, or understand portals.
 
