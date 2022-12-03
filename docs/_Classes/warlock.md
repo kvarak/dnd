@@ -277,96 +277,124 @@ The beings that serve as patrons for warlocks are mighty inhabitants of other pl
 
 Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.
 
-Some of the patrons are described very generally, but that only means that the powers granted are very similar between the being of that type. You have still set up your contract with one  specific being. If you need inspiration for a patron, or roll one randomly, there is a list <a href="http://homebrewery.naturalcrit.com/print/1Z8yUzQdgtAkHXz6exZReCweV9nQQiPQ6QmIIOvQ3VTw5">HERE</a>.
+Some of the patrons are described very generally, but that only means that the powers granted are very similar between the being of that type. You have still set up your contract with one  specific being. If you need inspiration for a patron, or roll one randomly, there is a list <a href="../Resources/warlockpatrons.html">HERE</a>.
 
-#### Demons
- **<a href="#internal-abraxas">Abraxas, Master of the Final Incantation</a>**. As the demon lord of magic and forbidden lore, Abraxas knows countless destructive secrets and eldritch magical formulas, particularly those that cause great devastation and pain.
+<div class="columnstwo">
 
- **<a href="#internal-dagon">Dagon, Prince of Depths</a>**. The demon lord of the sea, and sea monsters that dwell in its darkest depths.
+- #### Demons
+    **<a href="#internal-abraxas">Abraxas, Master of the Final Incantation</a>**. As the demon lord of magic and forbidden lore, Abraxas knows countless destructive secrets and eldritch magical formulas, particularly those that cause great devastation and pain.
 
- **<a href="#internal-jubilex">Jubilex, The Formless One</a>**. You have formed a symbiotic relationship with this demon lord by integrating a portion of your his slimy body within you, which grants you the supernatural power you now wield.
+    **<a href="#internal-dagon">Dagon, Prince of Depths</a>**. The demon lord of the sea, and sea monsters that dwell in its darkest depths.
 
-#### Devils
-Devil princes, each ruling a layer of Hell.
+    **<a href="#internal-jubilex">Jubilex, The Formless One</a>**. You have formed a symbiotic relationship with this demon lord by integrating a portion of your his slimy body within you, which grants you the supernatural power you now wield.
 
- **<a href="#internal-dispater">Dispater</a>**. An archdevil and the Lord of the Iron City. He is Hell's greatest jailer and politician and rules its second layer, Dis. Also known as the Iron Lord, Father of Dis and First King, Dispater is one of the more active rulers of Hell.
+- #### Devils
+    Devil princes, each ruling a layer of Hell.
 
- **<a href="#internal-serpentEmpress">Hesperia, The Serpent Empress</a>**. The Empress personifies greed and avarice in the hearts of man. Jealousy, spite, and simple pride have driven her servants to her side.
+    **<a href="#internal-dispater">Dispater</a>**. An archdevil and the Lord of the Iron City. He is Hell's greatest jailer and politician and rules its second layer, Dis. Also known as the Iron Lord, Father of Dis and First King, Dispater is one of the more active rulers of Hell.
 
- **<a href="#internal-levistus">Levistus</a>**. Lord of the Fifth, is the imprisoned devil prince who rules Stygia, the fifth layer of the Nine Hells.
+    **<a href="#internal-serpentEmpress">Hesperia, The Serpent Empress</a>**. The Empress personifies greed and avarice in the hearts of man. Jealousy, spite, and simple pride have driven her servants to her side.
 
-#### Other Fiends
- **<a href="#internal-fiend">The Fiend</a>**. You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.
+    **<a href="#internal-levistus">Levistus</a>**. Lord of the Fifth, is the imprisoned devil prince who rules Stygia, the fifth layer of the Nine Hells.
 
-
-
-#### The Natural World
- **<a href="#internal-ancientDragon">The Ancient Dragon</a>**. For reasons unknown to you, an ancient dragon has granted you power.
-
- **<a href="#internal-ancientToad">The Ancient Toad</a>**. You’ve made a pact with a being of immense size and strength. Sitting in a large, palatial temple within a network of mystical swamps, woods, and rivers lies the Ancient Toad, a creature of knowledge, magic, and power.
-
- **<a href="#internal-archfey">The Archfey</a>**. Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.
-
- **<a href="#internal-blackthornGrove">The Blackthorn Grove</a>**. You’ve torn out your heart as an offering to the Blackthorn Grove after braving the Maze of Blood and resisting the temptations of the Fields of Acedia. The lifeblood of the world itself runs through your veins, granting you power and passion alike to fulfill your purpose, whatever that may be.
-
- **<a href="#internal-crone">The Crone</a>**. Your patron is a elder evil force in the world that veers capriciously between its maternal and destructive instincts. Beings of this sort include; Aradia, mother of witchcraft, Baba Yaga, the evil woman, and Hecate, queen of witches.
-
- **<a href="#internal-hive">The Hive</a>**. Through circumstances desperate or sinister, you have found yourself sworn into the service of the swarms of a hivemind or perhaps an alien entity that presides over them
-
- **<a href="#internal-keeperDepths">The Keeper of the Depths</a>**. You’ve made a pact with an ancient oceanic entity thet watches over the secrets of the forgotten ages – sunken cities, ships lost at sea, and treasures unimaginable gone to the darkest currents that churn with horrible tentacles and creatures from nightmare.
-
- **<a href="#internal-monstrosity">The Monstrosity</a>**. You have obtained power from a colossal entity such as the tarrasque, a neothelid, a ha-naga, a behemoth or gargantuan creature (such as a gorilla, reptile, moth or similar), or Dendar the Night Serpent.
-
- **<a href="#internal-wildHuntsman">Oberon, the Wild Huntsman</a>**. This powerfully-built horned hunter leads the Wyld Hunt, a collection of  fey lords and beasts that rove through the Realms of Faerie and the Mortal Plane seeking bigger and more dangerous game. It is said that he invites the most powerful of his followers to join him on the Wyld Hunt. This same rumor says that he contracts Warlocks primarily to see who is worthy of this honor.
+- #### Other Fiends
+    **<a href="#internal-fiend">The Fiend</a>**. You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.
 
 
+- #### The Natural World
+    **<a href="#internal-ancientDragon">The Ancient Dragon</a>**. For reasons unknown to you, an ancient dragon has granted you power.
 
+    **<a href="#internal-ancientToad">The Ancient Toad</a>**. You’ve made a pact with a being of immense size and strength. Sitting in a large, palatial temple within a network of mystical swamps, woods, and rivers lies the Ancient Toad, a creature of knowledge, magic, and power.
 
+    **<a href="#internal-archfey">The Archfey</a>**. Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.
 
+    **<a href="#internal-blackthornGrove">The Blackthorn Grove</a>**. You’ve torn out your heart as an offering to the Blackthorn Grove after braving the Maze of Blood and resisting the temptations of the Fields of Acedia. The lifeblood of the world itself runs through your veins, granting you power and passion alike to fulfill your purpose, whatever that may be.
 
+    **<a href="#internal-crone">The Crone</a>**. Your patron is a elder evil force in the world that veers capriciously between its maternal and destructive instincts. Beings of this sort include; Aradia, mother of witchcraft, Baba Yaga, the evil woman, and Hecate, queen of witches.
 
+    **<a href="#internal-hive">The Hive</a>**. Through circumstances desperate or sinister, you have found yourself sworn into the service of the swarms of a hivemind or perhaps an alien entity that presides over them
 
-#### Outer Realms
- **<a href="#internal-ashenWolf">The Ashen Wolf</a>**. A primal spirit of fire and the hunt – a scourge of the forests and fields, and a harbinger of ill fate. This creature is wise and cunning, making deals with those who have the potential to bring ruin and change. Some consider the beast to be native to the Plane of Elemental Fire; others call it a fiend from the darkest hells
+    **<a href="#internal-keeperDepths">The Keeper of the Depths</a>**. You’ve made a pact with an ancient oceanic entity thet watches over the secrets of the forgotten ages – sunken cities, ships lost at sea, and treasures unimaginable gone to the darkest currents that churn with horrible tentacles and creatures from nightmare.
 
- **<a href="#internal-cosmicMachine">The Cosmic Machine</a>**. Your patron is Primus, The One and the Prime, supreme ruler of the Clockwork Nirvana of Mechanus and overarching will, mind and soul of the Modron race. Primus, its plane and its creations all represent the fundamental concept of universal law: that all is right happens because it must inescapably be, and all that which is wrong must not be.
+    **<a href="#internal-monstrosity">The Monstrosity</a>**. You have obtained power from a colossal entity such as the tarrasque, a neothelid, a ha-naga, a behemoth or gargantuan creature (such as a gorilla, reptile, moth or similar), or Dendar the Night Serpent.
 
- **<a href="#internal-eternalCitadel">The Eternal Citadel</a>**. You've made a pact with the Eternal Citadel, a massive yet empty bastion that seems to wander between worlds, collecting travelers to fight for the preservation against the forces that seek destruction.
+    **<a href="#internal-wildHuntsman">Oberon, the Wild Huntsman</a>**. This powerfully-built horned hunter leads the Wyld Hunt, a collection of  fey lords and beasts that rove through the Realms of Faerie and the Mortal Plane seeking bigger and more dangerous game. It is said that he invites the most powerful of his followers to join him on the Wyld Hunt. This same rumor says that he contracts Warlocks primarily to see who is worthy of this honor.
 
- **<a href="#internal-fallenExile">The Fallen Exile</a>**. A fallen star, betrayed by its brethren, now seeks to exact revenge against the stars themselves.
+- #### Outer Realms
+    **<a href="#internal-ashenWolf">The Ashen Wolf</a>**. A primal spirit of fire and the hunt – a scourge of the forests and fields, and a harbinger of ill fate. This creature is wise and cunning, making deals with those who have the potential to bring ruin and change. Some consider the beast to be native to the Plane of Elemental Fire; others call it a fiend from the darkest hells
 
- **<a href="#internal-greatOldOne">The Great Old One</a>**. Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings
+    **<a href="#internal-cosmicMachine">The Cosmic Machine</a>**. Your patron is Primus, The One and the Prime, supreme ruler of the Clockwork Nirvana of Mechanus and overarching will, mind and soul of the Modron race. Primus, its plane and its creations all represent the fundamental concept of universal law: that all is right happens because it must inescapably be, and all that which is wrong must not be.
 
- **<a href="#internal-shadowCat">The Shadowcat</a>**. Your patron is an otherworldly incarnation of fate that strides between planes; a living omen of ill luck and good fortune alike.
+    **<a href="#internal-eternalCitadel">The Eternal Citadel</a>**. You've made a pact with the Eternal Citadel, a massive yet empty bastion that seems to wander between worlds, collecting travelers to fight for the preservation against the forces that seek destruction.
 
- **<a href="#internal-stormLord">The Storm Lord</a>**. You’ve made a pact with an ancient power known as the Storm Lord. Massive and timeless, this godlike entity sails the winds of the void, finding silent amusement at seeing mortals in peril.
+    **<a href="#internal-fallenExile">The Fallen Exile</a>**. A fallen star, betrayed by its brethren, now seeks to exact revenge against the stars themselves.
 
+    **<a href="#internal-greatOldOne">The Great Old One</a>**. Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings
 
+    **<a href="#internal-shadowCat">The Shadowcat</a>**. Your patron is an otherworldly incarnation of fate that strides between planes; a living omen of ill luck and good fortune alike.
 
-#### Undead
- **<a href="#internal-emergentMind">The Emergent Mind</a>**. You have noticed — and been noticed by — an unfathomable intelligence that permeates a particular locality. Born from sites of strong emotions, these entities whisper subtly of times forgotten.
+    **<a href="#internal-stormLord">The Storm Lord</a>**. You’ve made a pact with an ancient power known as the Storm Lord. Massive and timeless, this godlike entity sails the winds of the void, finding silent amusement at seeing mortals in peril.
 
- **<a href="#internal-undying">The Undying</a>**. Death holds no sway over your patron, who has unlocked the secrets of life and undeath.
+- #### Undead
+    **<a href="#internal-emergentMind">The Emergent Mind</a>**. You have noticed — and been noticed by — an unfathomable intelligence that permeates a particular locality. Born from sites of strong emotions, these entities whisper subtly of times forgotten.
 
- **<a href="#internal-vampire">Vampire Lord</a>**. Warlocks who take the Blood Pact, often seek to gain a measure of a master vampire's incredible strength, intimidating presence, and immortal stamina. They desire to become true masters of the night, and eventually, vampires in their own right.
+    **<a href="#internal-undying">The Undying</a>**. Death holds no sway over your patron, who has unlocked the secrets of life and undeath.
 
-#### Other Patrons
- **<a href="#internal-death">Death</a>**. Your patron is death itself.
+    **<a href="#internal-vampire">Vampire Lord</a>**. Warlocks who take the Blood Pact, often seek to gain a measure of a master vampire's incredible strength, intimidating presence, and immortal stamina. They desire to become true masters of the night, and eventually, vampires in their own right.
 
- **<a href="#internal-pharaoh">The Pharaoh</a>**. Your pact is with an ancient king of the desert, more god than mortal.
+- #### Other Patrons
+    **<a href="#internal-death">Death</a>**. Your patron is death itself.
 
- **<a href="#internal-seducer">The Seducer</a>**. Your patron is an entity that rules over lust, temptation, and the night. Fey, fiends, and enchanters each have their own angle for toying with mortal desires.
+    **<a href="#internal-pharaoh">The Pharaoh</a>**. Your pact is with an ancient king of the desert, more god than mortal.
 
- **<a href="#internal-weaverLies">The Weaver of Lies</a>**. The speech of a god is the act of creation itself, but what happens when the gods lie? The small accumulated deceptions come together, forming a creature of webs and treachery, lies and deceit. It is called the Weaver, but it is a being woven from the lies of the gods themselves. Its influence is felt each day in the small comforts one tells oneself to the greatest of blasphemies against the divine concordant. You have joined its servants in your lust for power or desire to forget.
+    **<a href="#internal-seducer">The Seducer</a>**. Your patron is an entity that rules over lust, temptation, and the night. Fey, fiends, and enchanters each have their own angle for toying with mortal desires.
+
+    **<a href="#internal-weaverLies">The Weaver of Lies</a>**. The speech of a god is the act of creation itself, but what happens when the gods lie? The small accumulated deceptions come together, forming a creature of webs and treachery, lies and deceit. It is called the Weaver, but it is a being woven from the lies of the gods themselves. Its influence is felt each day in the small comforts one tells oneself to the greatest of blasphemies against the divine concordant. You have joined its servants in your lust for power or desire to forget.
+
+</div>
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-abraxas">Abraxas, Master of the Final Incantation</a></h1>
+<div class="featuresTable">
 
+#### Patron Features
+| Warlock Level | Feature |
+|:-------------:|:--------|
+| 1st | Tainted Knowledge
+| 6th | Heretical Revelation
+| 10th | Vile Heresies
+| 14th | Penultimate Incantation
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
-# <a name="internal-abraxas">Abraxas, Master of the Final Incantation</a>
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Heretical Revelation***.
+| * Regain use of ***Penultimate Incantation***.
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain use of ***Tainted Knowledge***.
+| &nbsp;
+| Add the following class benefits to choose from: |
+| * Regain use of ***Vile Heresies***.
+
+</div>
+</div>
+</div>
+
+</div>
+
 As the demon lord of magic and forbidden lore, Abraxas knows countless destructive secrets and eldritch magical formulas, particularly those that cause great devastation and pain. His greatest weapon is the dreaded "Final Incantation", a single potent word that can unmake magic.
 
 Abraxas dwells in the realm of Pleroma, a deceptive world of false paradise maintained by complex illusions and clever construction. A visitor to Pleroma may not even realize she wanders an Abyssal realm, as the nefarious region reshapes itself between blinks and around every corner into places the traveler might view as serene and beautiful. Abraxas himself rules Pleroma from the spiral city of Diovengia. Hypnotic in its beauty, Diovengia consists of thousands of library towers and fortified repositories of hidden knowledge. Populated by serpents, enslaved souls, and plenty of demons, Diovengia’s libraries are sometimes visited by brave and curious seekers of knowledge; although one must be wary when bargaining with the custodians therein.
@@ -387,13 +415,6 @@ Each warlock who delves into the secrets of Abraxas' archives is touched in a di
 | 5 | You keep a record of the events of each day and store it within a tome you allow no others to see. |
 | 6 | Your skin becomes pale like parchment. |
 | 7 | You always hold books as far away from you as possible.
-
-
-
-
-
-| d12 | Quirk (cont.) |
-|:-:|:-------------|
 | 8 | Your tears are black like ink, and stain heavily. |
 | 9 | Thick black veins run through your arms and legs. Occasionally, they twitch. |
 | 10 | Your hands are always stained with ink, even after being washed.
@@ -401,14 +422,6 @@ Each warlock who delves into the secrets of Abraxas' archives is touched in a di
 | 12 | Blood placed on your skin appears to form runic sigils. You're not certain what they mean. |
 
 
-
-#### Patron Features
-| Warlock Level | Feature |
-|:-------------:|:--------|
-| 1st | Tainted Knowledge
-| 6th | Heretical Revelation
-| 10th | Vile Heresies
-| 14th | Penultimate Incantation
 
 
 ### Tainted Knowledge
@@ -440,60 +453,38 @@ When you reach 14th level, you can affect a any number of creatures within 30 fe
 
 Once you have used this ability, you may not use it again until you have completed a short rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following patron specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Heretical Revelation**.
-| | * Regain use of **Penultimate Incantation**.
-
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain use of **Tainted Knowledge**.
-| | &nbsp;
-| Add the following class benefits to choose from: ||
-| | * Regain use of **Vile Heresies**.
 
 
-
-
-
-
-## Patron Invocations
+### Patron Invocations
 The following invocations are granted by Abraxas to its warlocks.
 
-#### Agonizing Incantation
-*"The terrible secrets of the accursed archive are always gnawing at your mind. You temporarily get some respite when sharing the words. It's not your fault that people can not handle it."*
+<div class="columnstwo">
 
-When you cast the *ruin* cantrip, add your Intelligence modifier to the damage it deals.
+- #### Agonizing Incantation
+    *"The terrible secrets of the accursed archive are always gnawing at your mind. You temporarily get some respite when sharing the words. It's not your fault that people can not handle it."*
 
-#### Butcher’s Quill
-*Using your Pact of the Blade feature, you can create a weapon wrapped in raven feathers and the hide of abominations that drips and bleeds black ink.*
+    When you cast the *ruin* cantrip, add your Intelligence modifier to the damage it deals.
 
-*Prerequisite: Pact of the Blade feature*
+- #### Butcher’s Quill
+    *Using your Pact of the Blade feature, you can create a weapon wrapped in raven feathers and the hide of abominations that drips and bleeds black ink.*
 
-Whenever you hit a creature with this weapon, you can cast a single spell you know of 1st level with a casting time of one ***bonus action*** without expending a spell slot. Once you do, you cannot do so again until you finish a short rest.
+    *Prerequisite: Pact of the Blade feature*
 
-#### Curse of Carasphyx
-*Your flesh grows corrupt in appearance, being more dried parchment than mortal skin, but is imbued with terrible might.*
+    Whenever you hit a creature with this weapon, you can cast a single spell you know of 1st level with a casting time of one ***bonus action*** without expending a spell slot. Once you do, you cannot do so again until you finish a short rest.
 
-While you are not wearing armor or using a shield, you can choose to have your AC equal 10 + your Dexterity modifier + your Intelligence modifier. In addition, as an ***action*** you can gain 1d4+4 temporary hit points.
+- #### Curse of Carasphyx
+    *Your flesh grows corrupt in appearance, being more dried parchment than mortal skin, but is imbued with terrible might.*
 
-#### Dreadful Word
-*You always enunciate very carefully, so as to avoid accidentally speaking the dreadful word that silently struggles to your lips.*
+    While you are not wearing armor or using a shield, you can choose to have your AC equal 10 + your Dexterity modifier + your Intelligence modifier. In addition, as an ***action*** you can gain 1d4+4 temporary hit points.
 
-*Prerequisite: 7th level*
+- #### Dreadful Word
+    *You always enunciate very carefully, so as to avoid accidentally speaking the dreadful word that silently struggles to your lips.*
 
-You can cast *confusion* once without using a warlock spell slot. When you do, each affected creature is also frightened of you. You can't do so again until you finish a long rest.
+    *Prerequisite: 7th level*
 
+    You can cast *confusion* once without using a warlock spell slot. When you do, each affected creature is also frightened of you. You can't do so again until you finish a long rest.
+
+</div>
 
 
 
@@ -529,13 +520,9 @@ The party can depart from the Archive by returning to the central hall and strik
 
 
 
-
-
-# <a name="internal-ancientDragon">The Ancient Dragon</a>
-Creatures of innate magic and eons-old intelligence, dragons are beings of legend, fate, destruction, and destiny incarnate. Though it is a secret known to few, the truly ancient of their kind are able to share their inner magic with mortals by taking part in an eldritch ritual involving a contract and an elixir of the ancient dragon's own blood suffused with the dragon's potent magical will. This ritual binds the mortal to their ancient draconic patron, sharing in the power of the dragon's blood and gaining a ortion of the dragon's own magic.
-
-Dragons are fickle, however, and notorious hoarders of both treasure and power, neither of which they give up without an abundantly good reason. What could have influenced your draconic patron to give up a (even quite small) portion of their power, and what does the dragon hope to gain by it? How involved is your patron in your affairs, and why did they choose you to bear some of their power? Often, these are questions that even the warlock has to ponder, as the true intent of a dragon is hidden to all but the most calculating, or truly insane, minds.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-ancientDragon">The Ancient Dragon</a></h1>
+<div class="featuresTable">
 
 #### Patron Features
 | Warlock Level | Feature |
@@ -544,6 +531,35 @@ Dragons are fickle, however, and notorious hoarders of both treasure and power, 
 | 6th | Dragonscales
 | 10th | Blood of Dragons
 | 14th | Draconic Apotheosis
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Breath of the Ancients***.
+| * Regain use of ***Dragonscales***.
+
+| Long rest |
+|:-|
+| After a long rest: ||
+| * Regain use of ***Draconic Apotheosis***.
+
+</div>
+</div>
+</div>
+
+</div>
+
+Creatures of innate magic and eons-old intelligence, dragons are beings of legend, fate, destruction, and destiny incarnate. Though it is a secret known to few, the truly ancient of their kind are able to share their inner magic with mortals by taking part in an eldritch ritual involving a contract and an elixir of the ancient dragon's own blood suffused with the dragon's potent magical will. This ritual binds the mortal to their ancient draconic patron, sharing in the power of the dragon's blood and gaining a ortion of the dragon's own magic.
+
+Dragons are fickle, however, and notorious hoarders of both treasure and power, neither of which they give up without an abundantly good reason. What could have influenced your draconic patron to give up a (even quite small) portion of their power, and what does the dragon hope to gain by it? How involved is your patron in your affairs, and why did they choose you to bear some of their power? Often, these are questions that even the warlock has to ponder, as the true intent of a dragon is hidden to all but the most calculating, or truly insane, minds.
+
+
 
 
 ### Breath of the Ancients
@@ -594,96 +610,100 @@ You can transform on your turn using a ***bonus action***, which grants the the 
 Once you have used this ability, you may not use it again until you complete a long rest.
 
 
-
-
-
-
-
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following patron specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Breath of the Ancients**.
-| | * Regain use of **Dragonscales**.
-
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain use of **Draconic Apotheosis**.
-
-
-
-
-## Patron Invocations
+### Patron Invocations
 The following invocations are granted by the Ancient Dragon to its warlocks.
 
-#### Ancient's Hoard
-*Prerequisites: 7th level*
+<div class="columnstwo">
 
-As an action, you may cast *Leomunds secret chest* without expending a spell slot or material components. This summons an (initially) empty chest from your patron's hoard. When you dismiss this chest, it returns to your patron's hoard, rather than the Ethereal plane.
+- #### Ancient's Hoard
+    *Prerequisites: 7th level*
 
-Cast in this way, the spell does not end after 60 days. Rather, every 60 days your patron will expect you to include a fitting tribute in your chest, and will remove it from the chest accordingly. What an individual patron considers to be a fitting tribute differs from patron to patron.
+    As an action, you may cast *Leomunds secret chest* without expending a spell slot or material components. This summons an (initially) empty chest from your patron's hoard. When you dismiss this chest, it returns to your patron's hoard, rather than the Ethereal plane.
 
-If no tribute is paid, your patron will take what they see fit. A warlock that empties their chest specifically to prevent their patron taking tribute will incur their patron's wrath, and everything that entails.
+    Cast in this way, the spell does not end after 60 days. Rather, every 60 days your patron will expect you to include a fitting tribute in your chest, and will remove it from the chest accordingly. What an individual patron considers to be a fitting tribute differs from patron to patron.
 
-#### Draconic Vigor
-*Your skin visibly and physically toughens, being more scales than mortal skin.*
+    If no tribute is paid, your patron will take what they see fit. A warlock that empties their chest specifically to prevent their patron taking tribute will incur their patron's wrath, and everything that entails.
 
-You can toughen your skin as an ***action***,, gaining a base AC equal to 10 + your Dexterity modifier + your Intelligence modifier. Your skin returns to normal after a short rest unless you dismiss this ability early. In addition, while active you can gain 1d4+4 temporary hit points at will, as an ***action***.
+- #### Draconic Vigor
+    *Your skin visibly and physically toughens, being more scales than mortal skin.*
 
-#### Drain Mana
-*You have learned to draw the power of your spells into your own body.*
+    You can toughen your skin as an ***action***,, gaining a base AC equal to 10 + your Dexterity modifier + your Intelligence modifier. Your skin returns to normal after a short rest unless you dismiss this ability early. In addition, while active you can gain 1d4+4 temporary hit points at will, as an ***action***.
 
-As a ***bonus action*** you can spend one of your spell slots to recharge your Breath of the Ancients, Dragonscales and Draconic Apotheosis features.
+- #### Drain Mana
+    *You have learned to draw the power of your spells into your own body.*
 
+    As a ***bonus action*** you can spend one of your spell slots to recharge your Breath of the Ancients, Dragonscales and Draconic Apotheosis features.
 
+- #### Dragonling
+    *Prerequisites: Pact of the Chain*
 
-#### Dragonling
-*Prerequisites: Pact of the Chain*
+    When you have a pseudodragon as your familiar, you may use your spell save DC for its Sting ability. Further, you may use your pseudodragon as the origin point of your Breath of the Ancients ability, and you may use your Dragonscales ability as a ***reaction*** to increase your pseudodragon's AC when it is attacked, instead of increasing your own.
 
-When you have a pseudodragon as your familiar, you may use your spell save DC for its Sting ability. Further, you may use your pseudodragon as the origin point of your Breath of the Ancients ability, and you may use your Dragonscales ability as a ***reaction*** to increase your pseudodragon's AC when it is attacked, instead of increasing your own.
+- #### Dragon Lore
+    *Prerequisites: Pact of the Tome, 9th level*
 
-#### Dragon Lore
-*Prerequisites: Pact of the Tome, 9th level*
+    While holding your Tome, you can cast *identify* or *legend lore* without expending a spell slot or material components. After casting *legend lore*, you must complete a long rest before casting it with this feature again.
 
-While holding your Tome, you can cast *identify* or *legend lore* without expending a spell slot or material components. After casting *legend lore*, you must complete a long rest before casting it with this feature again.
+- #### Dragontooth Glaive
+    *Prerequisites: Pact of the Blade*
 
-#### Dragontooth Glaive
-*Prerequisites: Pact of the Blade*
+    You can create a long spear-like glaive topped with a serrated dragon's tooth using your Pact feature. When you hit a creature with your glaive, you can expend a spell slot to deal an additional 1d8 + 1d8 per spell level damage of your patrons damage type. When you deal this damage, the target becomes frightened of you until the beginning of your next turn.
 
-You can create a long spear-like glaive topped with a serrated dragon's tooth using your Pact feature. When you hit a creature with your glaive, you can expend a spell slot to deal an additional 1d8 + 1d8 per spell level damage of your patrons damage type. When you deal this damage, the target becomes frightened of you until the beginning of your next turn.
+- #### Elemental Blade
+    *Prerequisite: Pact of the Blade*
 
-#### Elemental Blade
-*Prerequisite: Pact of the Blade*
+    Whenever you summon your pact blade, you may choose for it to deal damage of the type associated with your patron instead of its normal damage type.
 
-Whenever you summon your pact blade, you may choose for it to deal damage of the type associated with your patron instead of its normal damage type.
+- #### Elemental Force
+    *You share your patron's affinity for the elemental forces, reveling in the destruction it causes.*
 
-#### Elemental Force
-*You share your patron's affinity for the elemental forces, reveling in the destruction it causes.*
+    When you cast a cantrip that deals the same type of damage associated with your patron, add your Intelligence modifier to the damage it deals.
 
-When you cast a cantrip that deals the same type of damage associated with your patron, add your Intelligence modifier to the damage it deals.
+- #### Elemental Retaliation
+    *Prerequisite: Pact of the Bastion*
 
-#### Elemental Retaliation
-*Prerequisite: Pact of the Bastion*
+    When a creature misses you with a melee attack, you may use your ***reaction*** to emit a wave of energy of from your pact shield, dealing the e type of damage  associated with your patron equal to your charisma modifier, and granting temporary hit points equal to the damage dealt.
 
-When a creature misses you with a melee attack, you may use your ***reaction*** to emit a wave of energy of from your pact shield, dealing the e type of damage  associated with your patron equal to your charisma modifier, and granting temporary hit points equal to the damage dealt.
-
-
-
-
+</div>
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-ancientToad">The Ancient Toad</a></h1>
+<div class="featuresTable">
 
+#### Patron Features
+| Warlock Level | Feature |
+|:-------------:|:--------|
+| 1st | Speech of the Amphibious
+| 6th | Call of the Swamp
+| 10th | Traits of the Toad
+| 14th |Friend of the Toad
 
-# <a name="internal-ancientToad">The Ancient Toad</a>
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Traits of the Toad***.
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain use of ***Call of the Swamp***.
+| &nbsp;
+| Add the following class benefits to choose from: |
+| * Regain use of ***Friend of the Toad***.
+
+</div>
+</div>
+</div>
+
+</div>
+
 You’ve made a pact with a being of immense size and strength. Sitting in a large, palatial temple within a network of mystical swamps, woods, and rivers lies the Ancient Toad, a creature of knowledge, magic, and power. Generally concerned with only its own realm and its preservation, the Ancient Toad rules over the various denizens that reside within it, from the smallest frogs and tadpole servants to the largest toad brutes and sages.
 
 Though it rarely leaves its own home, the Ancient Toad often sends its minions out into the world to observe the comings and goings of other realms, or to gather items and resources that can benefit its homeland. The Ancient Toad admires mortals who adhere to laws, seek to better their people through whatever means necessary, or desire strength and power to accomplish goals that would not harm the Ancient Toad or its minions.
@@ -710,19 +730,6 @@ The life of living amongst toads, frogs, and other amphibians has changed aspect
 | 13 | You often enjoy the company of others, in both leisure and work.
 | 14 | You tend to be highly loyal to your friends and family.
 
-
-
-#### Patron Features
-| Warlock Level | Feature |
-|:-------------:|:--------|
-| 1st | Speech of the Amphibious
-| 6th | Call of the Swamp
-| 10th | Traits of the Toad
-| 14th |Friend of the Toad
-
-
-
-
 ### Speech of the Amphibious
 Beginning at 1st level, your familiarity with toads and frogs has given you insight into how they live. You can breathe underwater and gain a swimming speed equal to your walking speed. If you already have a swimming speed, you now double it. You also learn the *acid splash* and *acicid discharge* cantrips.
 
@@ -740,45 +747,64 @@ Additionally, when you are subject to an effect that requires you to make a Dext
 
 You cannot use this feature again until you finish a short rest.
 
+<div class="infoarea">
+
+**Note**: The toad's name is up to the player, and this elite toad is always the one that is summoned, unless stated otherwise by the DM. It can speak and communicate in ways dictated by its simple personality, such as being cautious, hot headed, calm, or timid.
+
+</div>
+
 ### Friend of the Toad
 One of the strongest of toads has become your ally. From 14th level, by speaking its name, you can summon a monstrous humanoid toad to aid you in combat, appearing as either a green, red, brown, or black toad, and armed with a large club and a simple vest. This creature acts under your command during its turn, and can speak, and possesses a simple personality. The toad remains until it dies, you dismiss it, or one minute has passed.
 
 You can summon the monstrous toad once and can regain the use of this feature after you finish a long rest.
 
-> **Note**: The toad's name is up to the player, and this elite toad is always the one that is summoned, unless stated otherwise by the DM. It can speak and communicate in ways dictated by its simple personality, such as being cautious, hot headed, calm, or timid.
+<div class="monster frame">
+<table class="monster">
+<thead><tr><th>
+Monstrous Toad
+</th></tr></thead>
+<tbody>
+<tr><td><i>Large beast, lawful neutral</i></td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1">
 
-
-
-
-
-
-
-
-{{}}">monster,frame
-## Monstrous Toad
-*Large beast, lawful neutral*
-
-**Armor Class**   15 (natural armour)
-**Hit Points**    80 (10d10 + 10)
+**Armor Class**   15 (natural armour)<br/>
+**Hit Points**    80 (10d10 + 10)<br/>
 **Speed**         20 ft., swim 40 ft.
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
 
 |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |18 (+4)|14 (+2)|18 (+4)|10 (+0)|12 (+1)|4 (-3)|
 
-**Saving Throws**            Con +6, Wis +3
-**Damage Immunities**        acid
-**Damage Resistances**       fire, poison
-**Damage Vulnerabilities**   lightning
-**Condition Immunities**     poisoned
-**Senses** 	                 low-light vision 60 ft, Perception +6
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
+**Saving Throws**            Con +6, Wis +3<br/>
+**Damage Immunities**        acid<br/>
+**Damage Resistances**       fire, poison<br/>
+**Damage Vulnerabilities**   lightning<br/>
+**Condition Immunities**     poisoned<br/>
+**Senses** 	                 low-light vision 60 ft, Perception +6<br/>
 **Languages**                Amphibian, Common
+
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
 
 ***Amphibious.*** The elite toad can breathe air and water.
 
 ***Shock Susceptibility.*** If the elite toad takes lightning damage, it suffers several effects until the end of its next turn: its speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, it can't use reactions or Multiattack, and on its turn, it can use either an action or a bonus action, not both.
 
 ***Standing Leap.*** The elite toad's long jump is 20 ft., and its high jump is up to 10 ft., with or without a running start.
+</td></tr>
+<tr><td><hr></td></tr>
+<tr><td markdown="1" class="monster">
+
 ### Actions
 ***Multiattack***. The elite toad makes two attacks with its club. It can also use its tongue or bite.
 
@@ -790,190 +816,204 @@ You can summon the monstrous toad once and can regain the use of this feature af
 
 ***Tongue.*** The elite toad targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a DC 14 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the elite toad, and the elite toad can make a bite attack against it as a bonus action.
 
+</td></tr></tbody></table>
+</div>
 
 
-
-
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following patron specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Traits of the Toad**.
-
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain use of **Call of the Swamp**.
-| | &nbsp;
-| Add the following class benefits to choose from: ||
-| | * Regain use of **Friend of the Toad**.
-
-
-
-
-## Patron Invocations
+### Patron Invocations
 The following invocations are granted by the Ancient Toad to its warlocks.
 
-#### Breath of the Toad
-*Prerequisites: 7th level*
+<div class="columnstwo">
 
-You gain the use of one of the toad's greatest assets: a breath weapon that takes the form of an oily expulsion, coating in a slimy oil any enemies that would stand in your way.
+- #### Breath of the Toad
+    *Prerequisites: 7th level*
 
-As an ***action*** each creature in a 15 foot cone must make a saving throw against your spell save DC. A creature takes 6d6 acid damage on a failed save, and half as much damage on a successful one.
+    You gain the use of one of the toad's greatest assets: a breath weapon that takes the form of an oily expulsion, coating in a slimy oil any enemies that would stand in your way.
 
-You regain use of this feature after a long rest.
+    As an ***action*** each creature in a 15 foot cone must make a saving throw against your spell save DC. A creature takes 6d6 acid damage on a failed save, and half as much damage on a successful one.
 
-#### Dissolving Acid
-When you cast a cantrip that deals acid damage, add your Intelligence modifier to the damage it deals, to one of the main targets of the spell. That creature's AC is reduced by 1 until the end of your next turn.
+    You regain use of this feature after a long rest.
 
-#### Hive Keeper
-*Prerequisites: Conjure insects cantrip*
+- #### Dissolving Acid
+    When you cast a cantrip that deals acid damage, add your Intelligence modifier to the damage it deals, to one of the main targets of the spell. That creature's AC is reduced by 1 until the end of your next turn.
 
-For one minute after casting the *conjure insects* cantrip, you are covered in a living armour of insects. You gain +1 to your AC for the duration. When a creature within 30 feet attacks you, you can use a ***reaction*** to cause the insect armour to jump to the attacker, ending the effect and dealing 1d10 piercing damage.
+- #### Hive Keeper
+    *Prerequisites: Conjure insects cantrip*
 
+    For one minute after casting the *conjure insects* cantrip, you are covered in a living armour of insects. You gain +1 to your AC for the duration. When a creature within 30 feet attacks you, you can use a ***reaction*** to cause the insect armour to jump to the attacker, ending the effect and dealing 1d10 piercing damage.
 
+- #### Flesh of the Toad
+    *You have learned to imitate the appearances of the toad to provide you with benefits.*
 
+    *Prerequisite: 10th level*
 
+    You can cast the spell *guardian of nature* without expending a warlock spell slot. However, the forms are changed to the **Great Toad** form.
 
+    Your eyes become like a toads, your body slimy, your hands and feet webbed, and your tongue elongated. You gain the following benefits:<br/>
+    -- You gain 10 temporary hit points.<br/>
+    -- Your walking speed increases by 10 feet.<br/>
+    -- You gain low-light vision with a range of 120 feet.<br/>
+    -- You make Constitution saving throws with advantage.<br/>
+    -- You make melee attack rolls with advantage. Your melee weapon attacks deal an extra 1d6 acid or poison damage on a hit.<br/>
+    -- While you are on the ground or in water, the ground or water within 15 feet of you is difficult terrain for your enemies.
 
+    You regain use of this feature after a long rest.
 
+- #### Home of the Toad
+    *Prerequisite: Pact of the Tome*
 
-#### Flesh of the Toad
-*You have learned to imitate the appearances of the toad to provide you with benefits.*
+    You can perform a ritual involving mud, oil, and verbal components over the course of 10 minutes. During the ritual, you can touch a number of creatures equal to your Intelligence modifier. Theses creatures ignore difficult terrain caused by swamps or mud and their jump height is doubled. In addition, each creature is also able to breathe underwater. This lasts for 1 hour.
 
-*Prerequisite: 10th level*
+- #### Land of the Toad
+    *Prerequisite: 14th level*
 
-You can cast the spell *guardian of nature* without expending a warlock spell slot. However, the forms are changed to the **Great Toad** form.
+    You can cast *transmute rock* once per day without expending a spell slot or material components.
 
-Your eyes become like a toads, your body slimy, your hands and feet webbed, and your tongue elongated. You gain the following benefits:
- * You gain 10 temporary hit points.
- * Your walking speed increases by 10 feet.
- * You gain low-light vision with a range of 120 feet.
- * You make Constitution saving throws with advantage.
- * You make melee attack rolls with advantage. Your melee weapon attacks deal an extra 1d6 acid or poison damage on a hit.
- * While you are on the ground or in water, the ground or water within 15 feet of you is difficult terrain for your enemies.
+- #### Leap of the Toad
+    *Prerequisite: Pact of the Blade*
 
-You regain use of this feature after a long rest.
+    You can create a whip that appears like a long, frog tongue and is coated in a slimy liquid. This weapon deals acid or slashing damage, your choice. If a ranged attack misses you while wielding this weapon, you can use your ***reaction*** to jump up to 15 feet to an unoccupied space. If the attacker is within reach after your move, you can make a single melee attack against them with this weapon as part of the same reaction.
 
-#### Home of the Toad
-*Prerequisite: Pact of the Tome*
+- #### Nature's Voice
+    *Prerequisite: 14th level*
 
-You can perform a ritual involving mud, oil, and verbal components over the course of 10 minutes. During the ritual, you can touch a number of creatures equal to your Intelligence modifier. Theses creatures ignore difficult terrain caused by swamps or mud and their jump height is doubled. In addition, each creature is also able to breathe underwater. This lasts for 1 hour.
+    You can cast *Commune with nature* at will, without expending a spell slot or material components.
 
-#### Land of the Toad
-*Prerequisite: 14th level*
+- #### Pull of the Toad
+    *Prerequisite: 5th level, Pact of the Blade*
 
-You can cast *transmute rock* once per day without expending a spell slot or material components.
+    When you strike a target with your pact weapon, you can force the target to make Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of you, allowing you to make one melee attack against the target as a ***bonus action***.
 
+- #### Tongue of the Toad
+    *Prerequisite: 5th level*
 
+    Your tongue can now be used to seize your enemies. You can select a target that is of Medium size or smaller within 20 ft of you. The target must make a Strength saving throw against your Warlock spell DC. On a failed save, the target is restrained. The target can attempt to break free from the tongue at the beginning of each of their turns.
 
-#### Leap of the Toad
-*Prerequisite: Pact of the Blade*
+- #### Walk of the Toad
+    *Prerequisite: Pact of the Chain*
 
-You can create a whip that appears like a long, frog tongue and is coated in a slimy liquid. This weapon deals acid or slashing damage, your choice. If a ranged attack misses you while wielding this weapon, you can use your ***reaction*** to jump up to 15 feet to an unoccupied space. If the attacker is within reach after your move, you can make a single melee attack against them with this weapon as part of the same reaction.
+    When you have either a river frog or horned toad as your familiar, it gains additional maximum hit points equal to your warlock level, and whenever a creature fails a save against your familiar's breath, it becomes poisoned until the end of its turn.
 
-#### Nature's Voice
-*Prerequisite: 14th level*
-
-You can cast *Commune with nature* at will, without expending a spell slot or material components.
-
-#### Pull of the Toad
-*Prerequisite: 5th level, Pact of the Blade*
-
-When you strike a target with your pact weapon, you can force the target to make Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of you, allowing you to make one melee attack against the target as a ***bonus action***.
-
-#### Tongue of the Toad
-*Prerequisite: 5th level*
-
-Your tongue can now be used to seize your enemies. You can select a target that is of Medium size or smaller within 20 ft of you. The target must make a Strength saving throw against your Warlock spell DC. On a failed save, the target is restrained. The target can attempt to break free from the tongue at the beginning of each of their turns.
-
-#### Walk of the Toad
-*Prerequisite: Pact of the Chain*
-
-When you have either a river frog or horned toad as your familiar, it gains additional maximum hit points equal to your warlock level, and whenever a creature fails a save against your familiar's breath, it becomes poisoned until the end of its turn.
-
-
-
-
-
-
-
-
+</div>
 
 ### Pact of the Chain Familiars
 Warlocks who have been given the Pact of the Chain can choose to have either of the two following familiars: The Horned Toad or The River Frog.
 
-#### The Horned Toad
-The horned toad is a tiny creature that is infused with poisonous glands, horns, and have earth toned dry skin. Used often for communication and, horned toads are known for their dedication to work and friends. Horned toads often attack with their poison breath, emitting low croaks, and rest on their master's shoulders or smooth stones.
+<div class="columnstwo">
 
-{{}}">monster,frame
-## The Horned Toad
-*Tiny beast, lawful neutral*
+- #### The Horned Toad
+    The horned toad is a tiny creature that is infused with poisonous glands, horns, and have earth toned dry skin. Used often for communication and, horned toads are known for their dedication to work and friends. Horned toads often attack with their poison breath, emitting low croaks, and rest on their master's shoulders or smooth stones.
 
-**Armor Class**   14
-**Hit Points**    20 (3d6 + 6)
-**Speed**         20 ft., swim 20 ft.
+    <div class="monster multimonster frame">
+    <table class="monster">
+    <thead><tr><th>
+    The Horned Toad
+    </th></tr></thead>
+    <tbody>
+    <tr><td><i>Tiny beast, lawful neutral</i></td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1">
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|16 (+3)|14 (+2)|16 (+3)|8 (-1)|14 (+2)|6 (-2)|
+    **Armor Class**   14<br/>
+    **Hit Points**    20 (3d6 + 6)<br/>
+    **Speed**         20 ft., swim 20 ft.
 
-**Skills**: 	  Acrobatics +4, Nature +4, Stealth +4
-**Senses** 		  Low-light vision 60 ft
-**Languages**   Amphibian, Common
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
 
-***Amphibious.*** The horned toad can breathe air and water.
+    |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+    |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+    |16 (+3)|14 (+2)|16 (+3)|8 (-1)|14 (+2)|6 (-2)|
 
-***Natural Knowledge.*** Whenever the horned toad is touching another creature, both gain advantage on Nature and Stealth checks.
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
 
-***Standing Leap.*** The horned toad's long jump is 20 ft., and its high jump is up to 10 ft., with or without a running start.
-### Actions
-***Poison Breath***.The horned toad exhales acid in a 20-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 1d6+2 poison damage on a failed save, or half as much damage on a successful one.
+    **Skills**: 	  Acrobatics +4, Nature +4, Stealth +4<br/>
+    **Senses** 		  Low-light vision 60 ft<br/>
+    **Languages**   Amphibian, Common
 
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
 
+    ***Amphibious.*** The horned toad can breathe air and water.
 
+    ***Natural Knowledge.*** Whenever the horned toad is touching another creature, both gain advantage on Nature and Stealth checks.
 
-#### The River Frog
-River frogs of the Ancient Toad's dominion are quick thinkers and fast movers, often used for scouting the rivers and swampy waters of their home. They are tiny beasts, usually  reen, red, blue, black in color. They prefer the water and will often try to locate sources of food near riverbanks or ponds for their masters. River frogs are very loyal, and will fight with quick attacks from their acid breath. River frogs generally perch themselves in small pools of water or on their master's shoulders.
+    ***Standing Leap.*** The horned toad's long jump is 20 ft., and its high jump is up to 10 ft., with or without a running start.
 
-{{}}">monster,frame
-## The River Frog
-*Tiny beast, lawful neutral*
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
 
-**Armor Class**   12
-**Hit Points**    12 (2d6 + 2)
-**Speed**         20 ft., swim 20 ft.
+    ### Actions
+    ***Poison Breath***.The horned toad exhales acid in a 20-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 1d6+2 poison damage on a failed save, or half as much damage on a successful one.
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|8 (-1)|18 (+4)|12 (+1)|10 (+0)|18 (+4)|10 (+0)|
-
-**Skills**: 	  Acrobatics +7, Perception +4
-**Senses** 		  Low-light vision 60 ft
-**Languages**   Amphibian, Common
-
-***Amphibious.*** The river frog can breathe air and water.
-
-***Outdoor Cuisine.*** Once per long rest, the river frog can locate enough food in the wilderness to feed both itself and its master for one day.
-
-***Standing Leap.*** The river frog's long jump is 20 ft., and its high jump is up to 10 ft., with or without a running start.
-### Actions
-***Acid Breath***. The river frog exhales acid in a 20-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 1d6+2 acid damage on a failed save, or half as much damage on a successful one.
+    </td></tr></tbody></table>
+    </div>
 
 
+- #### The River Frog
+    River frogs of the Ancient Toad's dominion are quick thinkers and fast movers, often used for scouting the rivers and swampy waters of their home. They are tiny beasts, usually  reen, red, blue, black in color. They prefer the water and will often try to locate sources of food near riverbanks or ponds for their masters. River frogs are very loyal, and will fight with quick attacks from their acid breath. River frogs generally perch themselves in small pools of water or on their master's shoulders.
+
+    <div class="monster multimonster frame">
+    <table class="monster">
+    <thead><tr><th>
+    The River Frog
+    </th></tr></thead>
+    <tbody>
+    <tr><td><i>Tiny beast, lawful neutral</i></td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1">
+
+    **Armor Class**   12<br/>
+    **Hit Points**    12 (2d6 + 2)<br/>
+    **Speed**         20 ft., swim 20 ft.
+
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
+
+    |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+    |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+    |8 (-1)|18 (+4)|12 (+1)|10 (+0)|18 (+4)|10 (+0)|
+
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
+
+    **Skills**: 	  Acrobatics +7, Perception +4<br/>
+    **Senses** 		  Low-light vision 60 ft<br/>
+    **Languages**   Amphibian, Common
+
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
+
+    ***Amphibious.*** The river frog can breathe air and water.
+
+    ***Outdoor Cuisine.*** Once per long rest, the river frog can locate enough food in the wilderness to feed both itself and its master for one day.
+
+    ***Standing Leap.*** The river frog's long jump is 20 ft., and its high jump is up to 10 ft., with or without a running start.
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
+
+    ### Actions
+    ***Acid Breath***. The river frog exhales acid in a 20-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 1d6+2 acid damage on a failed save, or half as much damage on a successful one.
+
+    </td></tr></tbody></table>
+    </div>
 
 
+</div>
 
-# <a name="internal-archfey">The Archfey</a>
-Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-archfey">The Archfey</a></h1>
+<div class="featuresTable">
 
 #### Patron Features
 | Warlock Level | Feature |
@@ -983,6 +1023,9 @@ Your patron is a lord or lady of the fey, a creature of legend who holds secrets
 | 10th | Beguiling Defenses
 | 14th |Dark Delirium
 
+</div>
+
+Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.
 
 #### Fey Presence
 Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an ***action***, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws all gain the charmed condition or are frightened by you (your choice) until the end of your next turn.
