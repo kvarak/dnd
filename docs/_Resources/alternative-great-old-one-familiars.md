@@ -1,5 +1,5 @@
 ---
-title: Alternative Great Old One Familiars
+title: Familiars, Alternative Great Old One
 layout: default
 ---
 # Alternative Great Old One Familiars
@@ -17,7 +17,9 @@ Sane minds shirk from attempting to comprehend the shear number of creatures tha
     While full-grown flumphs can sustain themselves on psychic energy alone, young flumphlings require protein to increase their body size. They will capture and consume lizards, frogs, and snakes, but will always prefer mice and rats, and will chase any they find relentlessly. Some flumphlings even consider the hunting of rodents to be a sacred duty - though none can fathom why.
 
 
--   <div class="monster multimonster frame">
+-   <img src='http://www.acrosstheboardgames.net/wp-content/uploads/flumph-360x600.jpg' style='float:right;width:40%' />
+
+    <div class="monster multimonster frame">
     <table class="monster">
     <thead><tr><th>
     Flumphling
@@ -77,7 +79,11 @@ Sane minds shirk from attempting to comprehend the shear number of creatures tha
 
     Gibbering orblets eventually grow into mouthers, but require a steady stream of nourishment in the form of assorted organic matter for their size to grow big enough. Typically, an orblet is able to grow to full size after a century of regular feeding. Strictly speaking, orblets do not require food to survive, only to grow and gain more mass. An unfed orblet is an unhappy orblet, though, and wise warlocks looking to keep possession of their fingers and appendages don't let an orblet remain unfed for long.
 
--   <div class="monster multimonster frame">
+
+
+-   <img src='https://i.pinimg.com/originals/94/e4/4b/94e44bae9bae936f212350b9b1fdaba1.jpg' style='float:right;width:40%' />
+
+    <div class="monster multimonster frame">
     <table class="monster">
     <thead><tr><th>
     Gibbering Orblet

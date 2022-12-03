@@ -1,5 +1,5 @@
 ---
-title: Animated Objects as Familiars
+title: Familiars, Animated Objects
 layout: default
 ---
 
