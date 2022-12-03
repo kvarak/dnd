@@ -58,7 +58,6 @@ Every relationship is a two-way street, but in the case of warlocks and their pa
 
 When you determine the attitude your warlock character holds toward your patron, also consider how things look from the patron’s perspective. Is your patron an ally, or an enemy that grants you power only because you forced a pact upon it?
 
-
 #### Patron Attitudes
 | d6 | Attitude |
 |:--:|:-------|
@@ -69,17 +68,8 @@ When you determine the attitude your warlock character holds toward your patron,
 | 5 | Your patron tricked you into a pact and treats you as a slave.
 | 6 | You are mostly left to your own devices with no interference from your patron. Sometimes you dread the demands it will make when it does appear. |
 
-
-
-
-
-
-
-
-
 #### Class Training
 Why did you choose the path of a warlock. In the following table are some suggestions, but keep in mind your background and all the other details you have established so far.
-
 
 #### Warlock Background
 | d12 | I became a warlock because … |
@@ -97,18 +87,45 @@ Why did you choose the path of a warlock. In the following table are some sugges
 | 11 | **Invocation**. When I reached adolescence, I wanted power and I wanted it immediately. I didn't have the patience or tolerance to endure endless years of boring theory and formal magical training, so I offered up my body and soul in an invocation to an entity that would grant my desire. |
 | 12 | **Possessed**. For reasons I may never understand, an otherworldly entity took possession of me in my formative years. Since then, my mortal body has been the vessel for this mysterious power. |
 
-
-
-
 ## Warlock Class Features
-Seekers of ancient—and often forbidden—knowledge, warlocks make a pact with an otherworldly being for the promise of power and reward. As a warlock, you gain the following features:
 
 <div class="descriptive" markdown="1">
 
-Edgar opened the thick, black tome with trembling hands, cursing his own frailty—the sickness had come on suddenly, and his days were fast running out.
+Edgar opened the thick, black tome with trembling hands, cursing his own frailty - the sickness had come on suddenly, and his days were fast running out.
 
-But after months of sacrifice and careful study—of people telling him he was mad—he finally understood. Edgar looked at the eldritch runes, written in blood. He knew the translations. Shaking, he spoke the words...
+But after months of sacrifice and careful study - of people telling him he was mad - he finally understood. Edgar looked at the eldritch runes, written in blood. He knew the translations. Shaking, he spoke the words...
 
+</div>
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Warlock
+| -Level- | -PB- | -Features- | -Cantrips- | Spells<br/>Known | Spell<br/>Slots  | &nbsp;Slot<br/>Level   | -Invocations- |
+|:-------:|:----:|:-----------|:----------:|:--------:|:--------------:|:--------------:|:-------------:|
+| 1st  | +2 | Otherworldly Patron,<br/>Pact Boon, Pact Magic | 2 | 2 | 1 | 1st | — |
+| 2nd  | +2 | Eldritch Invocations,<br/>Sacrificial Bargain  | 2 | 3 | 2 | 1st | 2 |
+| 3rd  | +2 | Pact Boon feature                          | 2 | 4 | 2 | 2nd | 2 |
+| 4th  | +2 | Ability Score Improvement                  | 3 | 5 | 2 | 2nd | 2 |
+| 5th  | +3 | Pact Boon feature                          | 3 | 6 | 2 | 3rd | 3 |
+| 6th  | +3 | Otherworldly Patron feature                | 3 | 7 | 3 | 3rd | 3 |
+| 7th  | +3 | Pact Boon feature                          | 3 | 8 | 3 | 4th | 4 |
+| 8th  | +3 | Ability Score Improvement                  | 3 | 9 | 3 | 4th | 4 |
+| 9th  | +4 | Pact Boon feature                          | 3 | 10 | 3 | 5th | 5 |
+| 10th | +4 | Otherworldly Patron feature                | 4 | 10 | 4 | 5th | 5 |
+| 11th | +4 | Mystic Arcanum (6th level)                 | 4 | 11 | 4 | 5th | 5 |
+| 12th | +4 | Ability Score Improvement                  | 4 | 11 | 4 | 5th | 6 |
+| 13th | +5 | Mystic Arcanum (7th level)                 | 4 | 12 | 4 | 5th | 6 |
+| 14th | +5 | Otherworldly Patron feature                | 4 | 12 | 5 | 5th | 6 |
+| 15th | +5 | Mystic Arcanum (8th level)                 | 4 | 13 | 5 | 5th | 7 |
+| 16th | +5 | Ability Score Improvement                  | 4 | 13 | 5 | 5th | 7 |
+| 17th | +6 | Mystic Arcanum (9th level)                 | 4 | 14 | 5 | 5th | 7 |
+| 18th | +6 | —                                          | 4 | 14 | 6 | 5th | 8 |
+| 19th | +6 | Ability Score Improvement                  | 4 | 15 | 6 | 5th | 8 |
+| 20th | +6 | Eldritch Master                            | 4 | 15 | 6 | 5th | 8 |
+
+</div>
+
+Seekers of ancient—and often forbidden—knowledge, warlocks make a pact with an otherworldly being for the promise of power and reward. As a warlock, you gain the following features:
 
 #### Hit Points
 **Hit Dice:** 1d8
@@ -141,6 +158,27 @@ For as long as you are holding or wearing it, your pact boon acts as a spellcast
 
 
 
+
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Sacrificial Bargain***.
+
+| Long rest |
+|:-|
+| Add the following class specific benefits to choose from: |
+| * Regain all your ***Mystic Arcanum***.
+| * Regain use of ***Eldritch Master***.
+
+</div>
+</div>
+</div>
 
 
 
@@ -176,32 +214,6 @@ You use an arcane focus or your pact boon item as a spellcasting focus for your 
 When you finish a long rest, you may replace one of your known warlock spells with another spell from your spell list. The new spell must be of the same spell level as the spell you replace.
 
 
-{{}}">classTable,frame,decoration,wide,position:absolute;top:550px;width:90%;right:40px;
-##### The Warlock
-| Level | Proficiency | Features | Cantrips | Spells | Spell  | Slot   | Invocations |
-|      ^| Bonus      ^|         ^| Known   ^| Known ^| Slots ^| Level ^| Known     ^|
-|:-----:|:-----------:|:---------|:--------:|:------:|:------:|:------:|:-----------:|
-| 1st  | +2 | Otherworldly Patron, Pact Boon, Pact Magic | 2 | 2 | 1 | 1st | — |
-| 2nd  | +2 | Eldritch Invocations, Sacrificial Bargain  | 2 | 3 | 2 | 1st | 2 |
-| 3rd  | +2 | Pact Boon feature                          | 2 | 4 | 2 | 2nd | 2 |
-| 4th  | +2 | Ability Score Improvement                  | 3 | 5 | 2 | 2nd | 2 |
-| 5th  | +3 | Pact Boon feature                          | 3 | 6 | 2 | 3rd | 3 |
-| 6th  | +3 | Otherworldly Patron feature                | 3 | 7 | 3 | 3rd | 3 |
-| 7th  | +3 | Pact Boon feature                          | 3 | 8 | 3 | 4th | 4 |
-| 8th  | +3 | Ability Score Improvement                  | 3 | 9 | 3 | 4th | 4 |
-| 9th  | +4 | Pact Boon feature                          | 3 | 10 | 3 | 5th | 5 |
-| 10th | +4 | Otherworldly Patron feature                | 4 | 10 | 4 | 5th | 5 |
-| 11th | +4 | Mystic Arcanum (6th level)                 | 4 | 11 | 4 | 5th | 5 |
-| 12th | +4 | Ability Score Improvement                  | 4 | 11 | 4 | 5th | 6 |
-| 13th | +5 | Mystic Arcanum (7th level)                 | 4 | 12 | 4 | 5th | 6 |
-| 14th | +5 | Otherworldly Patron feature                | 4 | 12 | 5 | 5th | 6 |
-| 15th | +5 | Mystic Arcanum (8th level)                 | 4 | 13 | 5 | 5th | 7 |
-| 16th | +5 | Ability Score Improvement                  | 4 | 13 | 5 | 5th | 7 |
-| 17th | +6 | Mystic Arcanum (9th level)                 | 4 | 14 | 5 | 5th | 7 |
-| 18th | +6 | —                                          | 4 | 14 | 6 | 5th | 8 |
-| 19th | +6 | Ability Score Improvement                  | 4 | 15 | 6 | 5th | 8 |
-| 20th | +6 | Eldritch Master                            | 4 | 15 | 6 | 5th | 8 |
-
 
 
 
@@ -232,6 +244,7 @@ Once you have used this feature, you can not use it until you have completed a s
 
 Edgar cut his palm with the black knife, feeding his blood to the ever-hungry pact blade. His patron was pleased with the sacrifice—there would be a reward...
 
+</div>
 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can't increase an ability score above 20 using this feature.
@@ -249,24 +262,7 @@ At 20th level, you can draw on your inner reserve of mystical power while entrea
 
 Once you regain spell slots with this feature, you must finish a long rest before you can do so again.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
 
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Sacrificial Bargain**.
-
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-| | * Regain all your **Mystic Arcanum**.
-| | * Regain use of **Eldritch Master**.
 
 
 
@@ -372,7 +368,7 @@ Devil princes, each ruling a layer of Hell.
 
 
 
-# <a name="abraxas">Abraxas, Master of the Final Incantation</a>
+# <a name="internal-abraxas">Abraxas, Master of the Final Incantation</a>
 As the demon lord of magic and forbidden lore, Abraxas knows countless destructive secrets and eldritch magical formulas, particularly those that cause great devastation and pain. His greatest weapon is the dreaded "Final Incantation", a single potent word that can unmake magic.
 
 Abraxas dwells in the realm of Pleroma, a deceptive world of false paradise maintained by complex illusions and clever construction. A visitor to Pleroma may not even realize she wanders an Abyssal realm, as the nefarious region reshapes itself between blinks and around every corner into places the traveler might view as serene and beautiful. Abraxas himself rules Pleroma from the spiral city of Diovengia. Hypnotic in its beauty, Diovengia consists of thousands of library towers and fortified repositories of hidden knowledge. Populated by serpents, enslaved souls, and plenty of demons, Diovengia’s libraries are sometimes visited by brave and curious seekers of knowledge; although one must be wary when bargaining with the custodians therein.
@@ -537,7 +533,7 @@ The party can depart from the Archive by returning to the central hall and strik
 
 
 
-# <a name="ancientDragon">The Ancient Dragon</a>
+# <a name="internal-ancientDragon">The Ancient Dragon</a>
 Creatures of innate magic and eons-old intelligence, dragons are beings of legend, fate, destruction, and destiny incarnate. Though it is a secret known to few, the truly ancient of their kind are able to share their inner magic with mortals by taking part in an eldritch ritual involving a contract and an elixir of the ancient dragon's own blood suffused with the dragon's potent magical will. This ritual binds the mortal to their ancient draconic patron, sharing in the power of the dragon's blood and gaining a ortion of the dragon's own magic.
 
 Dragons are fickle, however, and notorious hoarders of both treasure and power, neither of which they give up without an abundantly good reason. What could have influenced your draconic patron to give up a (even quite small) portion of their power, and what does the dragon hope to gain by it? How involved is your patron in your affairs, and why did they choose you to bear some of their power? Often, these are questions that even the warlock has to ponder, as the true intent of a dragon is hidden to all but the most calculating, or truly insane, minds.
@@ -689,7 +685,7 @@ When a creature misses you with a melee attack, you may use your ***reaction*** 
 
 
 
-# <a name="ancientToad">The Ancient Toad</a>
+# <a name="internal-ancientToad">The Ancient Toad</a>
 You’ve made a pact with a being of immense size and strength. Sitting in a large, palatial temple within a network of mystical swamps, woods, and rivers lies the Ancient Toad, a creature of knowledge, magic, and power. Generally concerned with only its own realm and its preservation, the Ancient Toad rules over the various denizens that reside within it, from the smallest frogs and tadpole servants to the largest toad brutes and sages.
 
 Though it rarely leaves its own home, the Ancient Toad often sends its minions out into the world to observe the comings and goings of other realms, or to gather items and resources that can benefit its homeland. The Ancient Toad admires mortals who adhere to laws, seek to better their people through whatever means necessary, or desire strength and power to accomplish goals that would not harm the Ancient Toad or its minions.
@@ -977,7 +973,7 @@ River frogs of the Ancient Toad's dominion are quick thinkers and fast movers, o
 
 
 
-# <a name="archfey">The Archfey</a>
+# <a name="internal-archfey">The Archfey</a>
 Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.
 
 
@@ -1084,7 +1080,7 @@ If a creature carrying your talisman is charmed by a spell cast through it, the 
 
  ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-# <a name="ashenWolf">The Ashen Wolf</a>
+# <a name="internal-ashenWolf">The Ashen Wolf</a>
 Within every fire, there is an insatiable and gluttonous greed. A simple and pure predatory urge to consume, feast, and burn until nothing is left. Wood, flesh, and metal alike bow before the furious supremacy of the flame. The Ashen Wolf is a physical manifestation of this terrible hunger. Some call it a fiend from the blackest pit, others call it an elemental creature. Nevertheless, it is living, it is hungry, and it burns for the thrill of the hunt.
 
 #### The Voice of the Fire
@@ -1300,7 +1296,7 @@ When summoning an emberborn deliberately, a brazier filled with wood and rare me
 
 
 
-# <a name="blackthornGrove">The Blackthorn Grove</a>
+# <a name="internal-blackthornGrove">The Blackthorn Grove</a>
 Nature possesses a beauty that is only rivaled by the works of the finest minds of mortals, yet it is not a beauty born from will and determination, but from single-minded apathy to everything but oneself. Those who wander, departing from society due to misery or tragedy, who enter the untouched wildlands to find themselves will end up somewhere dark and perilous. The Blackthorn Grove is their destination, whether they know it or not.
 
 #### The Maze of Blood
@@ -1450,7 +1446,7 @@ They are often referred to as spirits of the dead, though this is not technicall
 
 
 
-# <a name="cosmicMachine">The Cosmic Machine</a>
+# <a name="internal-cosmicMachine">The Cosmic Machine</a>
 Your patron is Primus, The One and the Prime, supreme ruler of the Clockwork Nirvana of Mechanus and overarching will, mind and soul of the Modron race. Primus, its plane and its creations all represent the fundamental concept of universal law: that all is right happens because it must inescapably be, and all that which is wrong must not be. Thus, though Primus's primary concern always lies with the Modrons, it also takes the role of extraplanar arbiter, ensuring that certain events - from upholding sworn oaths, to assuring the punishment of any devil that breaches a contract - do or do not come to pass. Even the vast resources of Mechanus cannot cover the breadth of the planes, and hence, Primus turns to mortal warlocks to enact its will.
 
 The One and the Prime insists its operatives follow their directives to the letter. Its warlocks can expect to be sent on tasks of tremendous variety - one day, ensuring the marriage of two peasant lovers in an isolated village, the next, delivering buried treasure to its owners next of kin against impossible odds.
@@ -1618,7 +1614,7 @@ The following familiar is available to Machine patron warlocks who have selected
 
 
 
-# <a name="crone">The Crone</a>
+# <a name="internal-crone">The Crone</a>
 Your patron is a elder evil force in the world that veers capriciously between its maternal and destructive instincts. Such creatures smother those they hold dear with doting attention and reject those set against her with ruthless cruelty, often times vacillating between these extremes seemingly without prompt. You have chosen a spiteful and suffocating patron, one whose nature you find yourself more and more mimicking. Beings of this sort include; Aradia, mother of witchcraft, Baba Yaga, the evil woman, and Hecate, queen of witches.
 
 
@@ -1724,7 +1720,7 @@ You can cast *Commune with nature* at will, without expending a spell slot or ma
 
 
 
-# <a name="dagon">Dagon, Prince of Depths</a>
+# <a name="internal-dagon">Dagon, Prince of Depths</a>
 Dagon, also called Prince of the Depths, is the demon lord of the sea, and the sea monsters that dwell in its darkest depths. His symbol is an octopus eye surrounded by a gold disk inscribed with ancient looking runes. His realm is the 89th layer of the Abyss, and it is known as Shadowsea. He dwells in the depths of this Abyssal sea, in an gigantic sunken city known as Ugothanok, a city with architecture so ancient as to be almost alien. Dagon is one of the oldest beings in the Abyss being one of the ancient Qlippoth, the creatures that dwelt in the abyss before demons.
 
 The Prince of Depths is believed to be the largest of all the known demon lords. His appearance is hideously monstrous and somewhat alien, being neither fully fish, eel, or octopus; he is some foul amalgamation of all three.
@@ -1781,7 +1777,7 @@ Your swimming speed increases by 10 feet. While in water, friendly creatures wit
 
 
 
-# <a name="death">Death</a>
+# <a name="internal-death">Death</a>
 You have touched the boundary between life and death, nearly  slipped away into the cold clutches of death. Somehow you were kept from passing that boundary and returned to life. Whether it was a god or another being, it chose you to be in its service. Now your patron requires repayment for this mercy, and only the souls of others will do. Choose wisely, for all who cross your path are marked for collection. It is up to you to safeguard them from that dark plane or to send them there to take your place in the cold embrace of death.
 
 #### Traits of the Gravebound
@@ -1933,7 +1929,7 @@ Carrion birds feeding on the dead sometimes wander to close to the realms of thi
 
 
 
-# <a name="dispater">Dispater, Lord of Dis</a>
+# <a name="internal-dispater">Dispater, Lord of Dis</a>
 Dispater is an archdevil and the Lord of the Iron City. He is Hell's greatest jailer and politician and rules its second layer, Dis. Also known as the Iron Lord, Father of Dis and First King, Dispater is one of the more active rulers of Hell and one of Asmodeus's closest and long standing allies. His unholy symbol is an iron spike driven into a golden ring with a red and purple crown.
 
 Paranoid and reclusive, he no longer leaves his inner sanctum. He is always stoic, emotionless, and expressionless. He remains this way constantly even in the heat of battle. Dispater is the very definition of caution. He is vigilant beyond compare, weaving a web of impenetrable defenses around himself and his holdings. His plans are far-reaching, taking generations to come to fruition. Yet he is not a craven, frightened fiend who grasps at power out of fear of losing it. He is calm, composed, and charming. He is the perfect gentleman, not given to emotional outbursts or acts of passion. He knows the political games of the Nine Hells, and he's one of the best players. Dispater has a finger in everything. He has agents scattered throughout the layers, all working toward some convoluted scheme.
@@ -1969,7 +1965,7 @@ Starting at level 14, you gain resistance one of the following damage types: pie
 
 
 
-# <a name="emergentMind">The Emergent Mind</a>
+# <a name="internal-emergentMind">The Emergent Mind</a>
 You have noticed — and been noticed by — an unfathomable intelligence that permeates a particular locality. Born from sites of strong emotions, tragedies, or even the complex interactions of unwitting participants, these entities whisper subtly of times forgotten through the creak of the floorboard, the din of the city market, the cavernous echo of dripping water, or the shining death of a distant star.
 
 A typical example of these beings may be a sinister haunting, however these entities may also exhibit subtly protective behaviour over the domain they preside, or an innate desire for knowledge of the outside world they cannot walk.
@@ -2146,7 +2142,7 @@ While in control of an object, the mindspark can manipulate any moving parts as 
 
 
 
-# <a name="eternalCitadel">The Eternal Citadel</a>
+# <a name="internal-eternalCitadel">The Eternal Citadel</a>
 You've made a pact with the Eternal Citadel, a massive yet empty bastion that seems to wander between worlds, collecting travelers and then releasing them again once they agree to serve. The Eternal Citadel communicates through the silent transferal of emotions and feelings - an instinctual sense to follow a course of action, no matter how enigmatic it may seem. An unknown number of people have sworn their allegiance to the Citadel, and few ever meet, but they all serve the same end, known or otherwise: preservation against the forces that seek destruction.
 
 #### Preservation Without Regard
@@ -2312,7 +2308,7 @@ They also seem to have a cutting sense of humor, mocking opponents and striking 
 
 
 
-# <a name="fallenExile">The Fallen Exile</a>
+# <a name="internal-fallenExile">The Fallen Exile</a>
 Stars beyond measure populate the void beyond the world while celestial spheres circle above. You have met with one of their number, cast down by the many cold and unfeeling suns above for the sin of falling in love with a mortal. As punishment, the spiteful and envious stars shined their pale fury upon the paramour, destroying them utterly. The Exile now wanders the world it has been cast upon, appearing as a shimmer of light. Its goal is known only to those whom it trusts, and it grants power to them as it is powerless itself, stripped of interaction with the mortal world for its hubris.
 
 It endlessly searches, seeking either a soul of great kindness to help it find the knowledge and power to resurrect its fallen paramour or one unscrupulous enough to wage war upon the very stars themselves. The light shines, but that fire can be cold and merciless, like the wrath of a love destroyed.
@@ -2504,7 +2500,7 @@ They glow with radiant power in the darkness of the night, and drive back the sh
 
 
 
-# <a name="fiend">The Fiend</a>
+# <a name="internal-fiend">The Fiend</a>
 You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.
 
 
@@ -2573,7 +2569,7 @@ Within the next 7 days, you can cast a single spell that targets or is centered 
 
 
 
-# <a name="greatOldOne">The Great Old One</a>
+# <a name="internal-greatOldOne">The Great Old One</a>
 Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it. Entities of this type include Ghaunadar, That Which Lurks, Tharizdun the Chained God, Dendar the Night Serpent, Zargon the Returner, Great Cthulhu and other unfathomable beings.
 
 
@@ -2681,7 +2677,7 @@ Once you cast *augury* this way, you can't do so again until you finish a short 
 
 
 
-# <a name="serpentEmpress">Hesperia, The Serpent Empress </a>
+# <a name="internal-serpentEmpress">Hesperia, The Serpent Empress </a>
 Situated within her palace of gold and turquoise, the Serpent Empress sleeps in serene silence, guiding her slaves about their secret business. Envious and vain, the Empress personifies greed and avarice in the hearts of man. Jealousy, spite, and simple pride have driven her servants to her side. She whispers in a sibilant voice, speaking of wealth and power promised but so rarely delivered. The sins she offers are subtle at first, but grow in style and salaciousness with every slow cycle of the hourglass. You've assigned yourself to her service, and sworn fealty to the Serpent Empress in exchange for a sliver of her supreme strength.
 
 #### Traits of the Imperial Courtier
@@ -2821,7 +2817,7 @@ Most servants of the Empress will offer the imperial cobra some form of identify
 
 
 
-# <a name="hive">The Hive</a>
+# <a name="internal-hive">The Hive</a>
 Through circumstances desperate or sinister, you have found yourself sworn into the service of the swarms of a hivemind or perhaps an alien entity that presides over them. Through your benefactor's guidance, you have learned to weave the discordant voices of thousands into the will of one mind, and use this power to sow chaos in your wake on the battlefield.
 
 The intentions of these cunning and enigmatic yet bestial beings are incredibly difficult to glean, even for one with such a unique bond as yourself. Their directives may range from instinctual to frighteningly intelligent; their motives unfathomably deep or horrifyingly base.
@@ -2912,7 +2908,7 @@ You can perform a 10 minute ritual while holding your Book of Shadows to commune
 
 
 
-# <a name="jubilex">Jubilex, the Formless One </a>
+# <a name="internal-jubilex">Jubilex, the Formless One </a>
 The demon lord of poison and ooze. Of all the demon lords, Jubilex is perhaps the one least concerned with maintaining a cult, it's debatable whether Jubilex even realizes he has worshipers. Certainly, those who worship him tend not to think of him as an entity to be venerated as much as a source of power. Yet despite the Faceless Lord's passing disinterest in his faithful, he certainly knows of the Material Plane and enjoys absorbing the bodies of unwilling mortals into his protoplasmic bulk.
 
 You have formed a symbiotic relationship with your patron, by integrating a portion of your patron's slimy body within you, which in turn grants you supernatural power that you now wield. Slowly but surely, you are becoming one with your patron, but not before you channel its power for your great ambitions.
@@ -3063,7 +3059,7 @@ Creatures inside the puddle can be seen but have total cover. A creature within 
 
 
 
-# <a name="keeperDepths">The Keeper of the Depths</a>
+# <a name="internal-keeperDepths">The Keeper of the Depths</a>
 There are ancient things that dwell within the darkness of the ocean, watching those who live upon the surface of the world with curiosity and envy. Among them, there is a creature known as the Keeper of the Depths – a hulking tentacled crustacean of great wisdom and greater madness that stares into the night sky with greed, for the light of the sun is painful to its sensitive eyes. Thus, it waits for a time when thunderstorms and squalls drench the shores and cloud the skies to emerge, ever hungry for the secrets once thought lost.
 
 #### An Accumulation of Ages
@@ -3220,7 +3216,7 @@ The following familiar is available to warlocks of the Keeer, who have selected 
 
 
 
-# <a name="levistus">Levistus, Lord of Stygia</a>
+# <a name="internal-levistus">Levistus, Lord of Stygia</a>
 Levistus, Lord of the Fifth, is the imprisoned devil prince who rules Stygia, the fifth layer of the Nine Hells. Mountains of dark ice tower over the frozen sea of Stygia. At its center, a quarter-mile deep, rests Prince Levistus. He works through influence and avatars, unable to move in his possibly-eternal ice prison.
 
 Charming, bold, and ruthlessly ambitious, Levistus remains confident and courageous, despite his imprisonment in ice. He is a rake and a bounder, espousing the eternal truth of betrayal, of how it is inevitable that all creatures violate whatever trust is put in them.
@@ -3285,7 +3281,7 @@ Once you use this invocation, you can’t use it again until you finish a short 
 
 
 
-# <a name="monstrosity">The Monstrosity</a>
+# <a name="internal-monstrosity">The Monstrosity</a>
 Far away from the domains of mortals, out past the borders where civilization gives way to the great unknown, there dwell monsters titanic and unimaginable. Each of these mighty creatures, whatever they might be, have the power within them to end an empire and leave only rubble and ashes in their wake. Forgotten by most, these colossal beasts live on in fables and legends of the dark times when they ruled all the land, and mortals were as insects before them.
 
 But some still remember their apocalyptic might. Few mortals, though others would think them mad or foolish, seek to master the cataclysmic potential of these creatures. Often this takes the form of drinking a specially enchanted tincture of the creature’s blood, infusing oneself with the creature’s magical energy, or consuming one of its eggs or offspring. The rush of power these mortals wield can be immense and overwhelming, both to themselves and others, and many lose themselves in their quest to take on the mantle of monstrosities that would give even the gods pause.
@@ -3449,7 +3445,7 @@ You may return your familiar to its original size by using another action to do 
 
 
 
-# <a name="wildHuntsman">Oberon, the Wild Huntsman</a>
+# <a name="internal-wildHuntsman">Oberon, the Wild Huntsman</a>
 Oberon, an unrivaled hunter and woodland warrior, is Titania's lover and frequently her foe. Oberon is attuned to every bough of each tree and each branch of every stream in the forests of the Feywild. If Oberon has a weakness, it is the wild nature of his heart. His mood swings like a weathervane in a storm. This powerfully-built horned hunter leads the Wyld Hunt, a collection of powerful fey lords and beasts cursed with a bitter chill that can only be shaken by the blood of the prey.
 
 It journeys between the Realms of Faerie and the Mortal Plane seeking the greatest of challenges and the weakest of souls to harvest. You've encountered the Wyld Hunt and survived where others have fallen, and in return your life has been spared and your bargain made. You've been granted a place at Oberon’s table and the services of his tireless steeds and hunting hounds.
@@ -3635,7 +3631,7 @@ When in the service to a warlock aligned to the Huntsman, they serve as scouts a
 
 
 
-# <a name="pharaoh">The Pharaoh</a>
+# <a name="internal-pharaoh">The Pharaoh</a>
 In cavernous tombs and unknown temples, or upon gilded thrones backed by arcane might, are those who would choose the moniker of God-King. These mighty beings hold at their beck and call the forgotten magics of the wastes, the untold power of curses, souls, and dark sacrifices, and are willing to share with those who would enforce their will.
 
 Beings such as truly ancient mummy lords, djinn, the Sorcerer-Kings of Athas, or gods such as Set, Anubis, Zann, Al-Ishtus, Apep, Nyarlathotep, Sobek, or Zoser may all make a God-King pact with mortals who seek them out. You, though either luck, determination, or great misfortune, have come under the sway of one of these old masters, and they grant you a portion of their immense power.
@@ -3749,7 +3745,7 @@ You can cast *speak with dead* at will, without expending a spell slot.
 
 
 
-# <a name="seducer">The Seducer</a>
+# <a name="internal-seducer">The Seducer</a>
 Your patron is an entity that rules over lust, temptation, and the night. Fey, fiends, and enchanters each have their own angle for toying with mortal desires. The Seducer selfishly revels in its power and employs mortals to bring others under its spell. The mortals it dominates sacrifice their wealth, secrets, and morals to partake in their newfound vices. Seducer patrons include legendary vampires such as Dracula or Carmilla, Grendel's mother, Lilith, Pan, Shamhat, and unusually powerful succubi or incubi.
 
 
@@ -3809,7 +3805,7 @@ You can cast *disguise* on yourself at will, without expending a spell slot.
 
 
 
-# <a name="shadowCat">The Shadowcat</a>
+# <a name="internal-shadowCat">The Shadowcat</a>
 Your patron is an otherworldly incarnation of fate that strides between planes; a living omen of ill luck and good fortune alike. Drawn to the dreams of mortals, its lesser reflections perch upon the chests of the unwary in their sleep, stealing breath and fragments of life from their victims as they feed upon the nightmares this brings. When they’ve had their fill, they return to their master, who sends them back again to hunt down the creatures that have escaped from the nightmares of those tormented by darker fates. You’ve drawn the attention of this creature, for good or ill, and have made your pact in the deepest shadows of the dark.
 
 #### Traits of the Shadestrider
@@ -3972,7 +3968,7 @@ Dimcats speak in a wide variety of voices and have many strange and enigmatic pe
 
 
 
-# <a name="stormLord">The Storm Lord</a>
+# <a name="internal-stormLord">The Storm Lord</a>
 You’ve made a pact with an ancient power known as the Storm Lord. Massive and timeless, this godlike entity sails the winds of the void through the darkest places between the skies of countless worlds. It is the spirit that consumes the purified souls of heroes as it welcomes them into its kingdom. Its long tendrils of lightning cover the sky, heralding the violent tempest that follows.
 
 This entity finds silent amusement at seeing mortals in peril, and it tends to draw cults of shadowy beings to worship at its altars, performing dark rituals in the name of the Lord of Winds. You have stood before the Storm Lord, unbowed and unbroken, to make a pact that will shake the very fabric of reality. Sparks will leap from your fingertips and fog will rise from your breath as you strike down your enemies with the devastating and majestic power of the Master of the Unfallen Kingdom.
@@ -4134,7 +4130,7 @@ When at rest, they scuttle along at a slow pace, finding a nook in some stone to
 
 
 
-# <a name="undying">The Undying</a>
+# <a name="internal-undying">The Undying</a>
 Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize – like all power – comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Larloch the Shadow King.
 
 
@@ -4226,7 +4222,7 @@ You can cast *animate dead* once without using a spell slot. When you do so, you
 
 
 
-# <a name="vampire">Vampire</a>
+# <a name="internal-vampire">Vampire</a>
 Vampires are known as the absolute masters of the night. They are powerful, violent, and terrifying beyond measure. Despite that, one of the defining traits of the master vampire is his unfailing ability to draw others to him, to bind them to his service, and to subjugate them with his awe.
 
 Warlocks who take this pact seek to gain a measure of a master vampire's incredible strength, intimidating presence, and immortal stamina. They desire to become true masters of the night, and, eventually, vampires in their own right.
@@ -4296,7 +4292,7 @@ As an ***action***, you may target one undead creature you can see within 30 fee
 
 
 
-# <a name="weaverLies">The Weaver of Lies</a>
+# <a name="internal-weaverLies">The Weaver of Lies</a>
 In the beginning, the world was created. Many argue about how this was done, but most accept that it was the actions of the gods themselves that led to the creation of life upon the Material Plane. However, there is one being that was not created deliberately by any deity and was not spawned upon some far and god-forsaken plane. Instead, it is a creature born when the forces responsible for the creation of the world acted with deceit for the first time. Those who delve deep into the ancient texts call this creature the Weaver of Lies.
 
 #### The Great Deceiver
@@ -4456,7 +4452,7 @@ The shade widow is an eerily silent spider-shaped construct made entirely of ani
 
 
 
-# <a name="invocations">Eldritch Invocations</a>
+# <a name="internal-invocations">Eldritch Invocations</a>
 In your study of occult lore, you unearth eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability. At 2nd level, you gain two eldritch invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Warlock table.
 
 When you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.
@@ -4937,7 +4933,7 @@ Each time one of your mirror image duplicates is destroyed, its attacker takes p
 
 
 
-# <a name="boon">Pact Boons</a>
+# <a name="internal-boon">Pact Boons</a>
 In the long, storied history of outsiders meddling with and granting power to mortals, no two pacts struck have ever been exactly the same. Mortals are creatures of many needs, some being far more important than others. Most patrons by their nature are providing sorts, and tend to give the mortals at least a semblance of what they desire if only to more fully ensure that the mortals are willing and alive long enough to fulfill their patron's dread will.
 
 When you make a pact with your patron, you are rewarded with a boon—a special artifact that symbolizes the eldritch bargain that has been struck.
