@@ -19,7 +19,9 @@ collections:
     output: true
   Folk:
     output: true
-  Links:
+  # Links:
+  #   output: true
+  Resources:
     output: true
   Rules:
     output: true
