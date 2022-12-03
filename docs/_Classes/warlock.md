@@ -43,6 +43,10 @@ layout: default
 <a href="#internal-PactoftheBastion">Pact of the Bastion</a><br/>
 <a href="#internal-PactoftheBlade">Pact of the Blade</a><br/>
 <a href="#internal-PactoftheChain">Pact of the Chain</a><br/>
+<a href="#internal-PactoftheCowl">Pact of the Cowl</a><br/>
+<a href="#internal-PactoftheEvilEye">Pact of the Evil Eye</a><br/>
+<a href="#internal-PactoftheTalisman">Pact of the Talisman</a><br/>
+<a href="#internal-PactoftheTome">Pact of the Tome</a>
 
 </div>
 
@@ -5617,23 +5621,27 @@ While you are wearing this trinket, you can summon the familiar with a 10 minute
 ### Mutation
 Whenever you summon your familiar, you may choose one of the following mutations:
 
-#### Air is for the Living
-Your familiar does not need to breathe.
+<div class="columns">
 
-#### Bound by Blood
-Whenever your familiar is reduced to 0 hit points, you can spend one hit die to reduce your familiar to 1 hit point instead.
+- #### Air is for the Living
+    Your familiar does not need to breathe.
 
-#### Friend against Fear
-When a spell or effect would cause both you and your familiar to become frightened if you fail a saving throw, neither of you are affected if either of you succeeds the saving throw.
+- #### Bound by Blood
+    Whenever your familiar is reduced to 0 hit points, you can spend one hit die to reduce your familiar to 1 hit point instead.
 
-#### Shared Power
-If your familiar forces a creature to make a saving throw, it uses your spell save DC.
+- #### Friend against Fear
+    When a spell or effect would cause both you and your familiar to become frightened if you fail a saving throw, neither of you are affected if either of you succeeds the saving throw.
 
-#### Silver Claws
-Your familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.
+- #### Shared Power
+    If your familiar forces a creature to make a saving throw, it uses your spell save DC.
 
-#### Under the Sea
-Your familiar gains a swimming speed of 40 feet.
+- #### Silver Claws
+    Your familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.
+
+- #### Under the Sea
+    Your familiar gains a swimming speed of 40 feet.
+
+</div>
 
 ### Familiar Telepath
 You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence.
@@ -5646,52 +5654,42 @@ Whenever you summon your familiar, you can choose two mutations to apply to it.
 ### Chain Tyrant
 You can spend your ***bonus action*** to command your familiar to make one attack.
 
-
-
-
-
-
-
-
-## Pact Invocations
+### Pact Invocations
 The following invocations are unique to warlocks with the Pact of the Chain.
 
-#### Chains of Carceri
-*You have a fascination with ropes, chains, and anything used to bind. You often find yourself unconsciously manipulating these objects if they are in the room with you.*
+<div class="columnstwo">
 
-*Prerequisite: 15th level*
+- #### Chains of Carceri
+    *You have a fascination with ropes, chains, and anything used to bind. You often find yourself unconsciously manipulating these objects if they are in the room with you.*
 
-You can cast *hold monster* at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.
+    *Prerequisite: 15th level*
 
-#### Cognizance Duality
-*Prerequisite: 15th level*
+    You can cast *hold monster* at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.
 
-You can have your familiar concentrate on a spell you have cast on your behalf. While your familiar is concentrating on a spell, it can't take actions or reactions. Your familiar must be within 60 feet of you to gain this benefit.
+- #### Cognizance Duality
+    *Prerequisite: 15th level*
 
+    You can have your familiar concentrate on a spell you have cast on your behalf. While your familiar is concentrating on a spell, it can't take actions or reactions. Your familiar must be within 60 feet of you to gain this benefit.
 
+- #### Sacrificial Demise
+    *Prerequisites: 6th level*
 
-#### Sacrificial Demise
-*Prerequisites: 6th level*
+    As an ***action***, you can cause your familiar to sacrifice itself in an explosion of eldritch power. Choose any damage type that the familiar can inflict with an attack. Creatures within 20 feet of your familiar must make a Dexterity saving throw against your warlock spell save DC. If they fail, they take 1d6 damage of the chosen type per two warlock levels you possess or half as much if they succeed.
 
-As an ***action***, you can cause your familiar to sacrifice itself in an explosion of eldritch power. Choose any damage type that the familiar can inflict with an attack. Creatures within 20 feet of your familiar must make a Dexterity saving throw against your warlock spell save DC. If they fail, they take 1d6 damage of the chosen type per two warlock levels you possess or half as much if they succeed.
+- #### Servant to the Master
+    *Prerequisite: 5th level*
 
-#### Servant to the Master
-*Prerequisite: 5th level*
+    Your familiar gains additional hit points equal to your warlock level. It gains a bonus to attack and damage rolls equal to half your proficiency bonus, and the DC for any saving throws it provokes increases by an equal amount. The hit points gained from this invocation stack with those gained through other invocations.
 
-Your familiar gains additional hit points equal to your warlock level. It gains a bonus to attack and damage rolls equal to half your proficiency bonus, and the DC for any saving throws it provokes increases by an equal amount. The hit points gained from this invocation stack with those gained through other invocations.
-
-
-
-
+</div>
 
 
 
 
-# Pact of the Cowl
-You want to escape notice of those who threaten you, and are rewarded with a mystical cowl made of otherworldly material from your warlock patron.
 
-If your patron is the Archfey, this could be a cape of pastel silks and gossamers. If you serve the Fiend, your cloak might be made from bat wings and demon hide, while a the Cosmic machine could grant a robe made from fabric with a metallic sheen. If your patron is Death, your cloak could be one from worn grey cloth, almost deathly thin.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-PactoftheCowl">Pact of the Cowl</a></h1>
+<div class="featuresTable">
 
 #### Pact Features
 | Warlock Level | Feature |
@@ -5701,6 +5699,12 @@ If your patron is the Archfey, this could be a cape of pastel silks and gossamer
 | 5th | Cape of Concealment
 | 7th | Parachute
 | 9th | Misdirecting Mantle
+
+</div>
+
+You want to escape notice of those who threaten you, and are rewarded with a mystical cowl made of otherworldly material from your warlock patron.
+
+If your patron is the Archfey, this could be a cape of pastel silks and gossamers. If you serve the Fiend, your cloak might be made from bat wings and demon hide, while a the Cosmic machine could grant a robe made from fabric with a metallic sheen. If your patron is Death, your cloak could be one from worn grey cloth, almost deathly thin.
 
 
 ### Pact Cowl
@@ -5734,11 +5738,15 @@ If an enemy combatant misses you with a melee attack roll while you are wearing 
 
 You can use this ability a number of times equal to your Intelligence modifier, and you regain all uses after a short rest.
 
-## Pact Invocations
+### Pact Invocations
 The following invocations are unique to warlocks with the Pact of the Cowl.
 
-#### Frozen Fur Lining
-Your Cowl provides unnatural warmth, functioning as cold weather gear and making you comfortable in frigid environments. You gain resistance to cold damage while wearing the Cowl.
+<div class="columnstwo">
+
+- #### Frozen Fur Lining
+  Your Cowl provides unnatural warmth, functioning as cold weather gear and making you comfortable in frigid environments. You gain resistance to cold damage while wearing the Cowl.
+
+</div>
 
 
 
@@ -5746,10 +5754,9 @@ Your Cowl provides unnatural warmth, functioning as cold weather gear and making
 
 
 
-
-# Pact of the Evil Eye
-You want to make your enemies suffer, and are gifted with the ability to curse others. Your patron bestows upon you an otherworldly mark somewhere on your body, usually on the palm of one of your hands or on your forehead. This mark is enchanted with ancient and dreaded secrets of curses, known as the Evil eye.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-PactoftheEvilEye">Pact of the Evil Eye</a></h1>
+<div class="featuresTable">
 
 #### Pact Features
 | Warlock Level | Feature |
@@ -5760,6 +5767,9 @@ You want to make your enemies suffer, and are gifted with the ability to curse o
 | 7th | Maddening Hex
 | 9th | Relentless Hex
 
+</div>
+
+You want to make your enemies suffer, and are gifted with the ability to curse others. Your patron bestows upon you an otherworldly mark somewhere on your body, usually on the palm of one of your hands or on your forehead. This mark is enchanted with ancient and dreaded secrets of curses, known as the Evil eye.
 
 ### Hex
 You learn the *hex* spell, which does not count against your spells known.
@@ -5788,35 +5798,30 @@ You must be able to see the cursed target, and it must be within 30 feet.
 ### Relentless Hex
 Your curse creates a temporary bond between you and your target. As a ***bonus action***, you can teleport up to 30 feet to an unoccupied space adjacent to the target cursed by your *hex*. To teleport in this way, you must be able to see the target.
 
-## Pact Invocations
+### Pact Invocations
 The following invocations are unique to warlocks with the Pact of the Evil Eye.
 
-#### Curse of the Marionette
-*Prerequisite: 15th level*
+<div class="columnstwo">
 
-Once per casting of *hex*, you may spend an ***action*** to cast *dominate beast* or *dominate person* on the target of the hex, without spending a spell slot. Transferring the *hex* to a new target does not constitute a new casting.
+- #### Curse of the Marionette
+    *Prerequisite: 15th level*
 
-#### Wretched Mark
-*Prerequisite: 15th level*
+    Once per casting of *hex*, you may spend an ***action*** to cast *dominate beast* or *dominate person* on the target of the hex, without spending a spell slot. Transferring the *hex* to a new target does not constitute a new casting.
 
-When you see a creature cursed by you making an attack, you can use your ***reaction*** to impose disadvantage on the roll. If the attack hits, the cursed creature takes 2d10 psychic damage.
+- #### Wretched Mark
+    *Prerequisite: 15th level*
 
+    When you see a creature cursed by you making an attack, you can use your ***reaction*** to impose disadvantage on the roll. If the attack hits, the cursed creature takes 2d10 psychic damage.
 
-
-
-
-
+</div>
 
 
-# Pact of the Talisman
-You want to destroy your enemies, and you are rewarded with a talisman of power. Your talisman may take many different forms depending on your chosen patron; here are some inspirations for your talisman's appearance:
 
-**The Archfey**. Your talisman may appear as an inscribed wand, a petrified leaf worn around the neck, or a ring with the insignia of your patron's court.
 
-**The Fiend**. A talisman from a Fiend may be an unholy symbol, a large fang or blood painted stone.
 
-**The Great Old One**. Your talisman could take many different forms: perhaps a scrap of paper torn from a tome of secrets; a twitching eyeball pendant; or a small flickering lantern.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-PactoftheTalisman">Pact of the Talisman</a></h1>
+<div class="featuresTable">
 
 #### Pact Features
 | Warlock Level | Feature |
@@ -5827,6 +5832,15 @@ You want to destroy your enemies, and you are rewarded with a talisman of power.
 | 7th | Reality Tear
 | 9th | Destruction
 
+</div>
+
+You want to destroy your enemies, and you are rewarded with a talisman of power. Your talisman may take many different forms depending on your chosen patron; here are some inspirations for your talisman's appearance:
+
+**The Archfey**. Your talisman may appear as an inscribed wand, a petrified leaf worn around the neck, or a ring with the insignia of your patron's court.
+
+**The Fiend**. A talisman from a Fiend may be an unholy symbol, a large fang or blood painted stone.
+
+**The Great Old One**. Your talisman could take many different forms: perhaps a scrap of paper torn from a tome of secrets; a twitching eyeball pendant; or a small flickering lantern.
 
 ### Pact Talisman
 The talisman acts as a conduit for your eldritch power. As an arcane focus, you can cast your spells through it, but your taliman allows you to do it even if you are not holding it. A spell's range is determined from the location of the talisman instead of your own.
@@ -5857,29 +5871,31 @@ While you are holding the talisman, you can spend an action to cast *disintegrat
 
 Once you use this feature, you can't use it again until you finish a long rest.
 
-## Pact Invocations
+### Pact Invocations
 The following invocations are unique to warlocks with the Pact of the Talisman.
 
-#### Flesh Puppet
-*Prerequisites: 5th level*
+<div class="columnstwo">
 
-You can place your talisman on the remains of a medium or smaller humanoid, and cause it to rise again as if under the effect of the *animate dead* spell. If the talisman is separated from the undead creature's possession or used to cast another spell, the effect ends and the creature will immediately drop dead. Once you use this feature, you can't use it again until you finish a short rest.
+- #### Flesh Puppet
+    *Prerequisites: 5th level*
 
-#### Trickster's Step
-*Prerequisites: 5th level*
+    You can place your talisman on the remains of a medium or smaller humanoid, and cause it to rise again as if under the effect of the *animate dead* spell. If the talisman is separated from the undead creature's possession or used to cast another spell, the effect ends and the creature will immediately drop dead. Once you use this feature, you can't use it again until you finish a short rest.
 
-You can use your ***bonus action*** to swap places with your talisman, as long as it is within 60 feet of you. Alternatively, you can use this feature to swap places with a willing creature holding your talisman within this range. Once you use this feature, you can't do so again until you finish a short rest.
+- #### Trickster's Step
+    *Prerequisites: 5th level*
 
+    You can use your ***bonus action*** to swap places with your talisman, as long as it is within 60 feet of you. Alternatively, you can use this feature to swap places with a willing creature holding your talisman within this range. Once you use this feature, you can't do so again until you finish a short rest.
 
-
-
-
-
+</div>
 
 
-# Pact of the Tome
-You ask your patron for forbidden knowledge, and are rewarded with a tome of eldritch secrets called a Book of Shadows. Your Book of Shadows might be a fine, gilt-edged tome with spells of enchantment and illusion, gifted to you by the lordly Archfey. It could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend. Or it could be the tattered diary of a lunatic driven mad by contact with the Great Old One, holding scraps of spells that only your own burgeoning insanity allows you to understand and cast.
 
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-PactoftheTome">Pact of the Tome</a></h1>
+<div class="featuresTable">
 
 #### Pact Features
 | Warlock Level | Feature |
@@ -5890,6 +5906,9 @@ You ask your patron for forbidden knowledge, and are rewarded with a tome of eld
 | 7th | Focused Mind
 | 9th | Archivist, Fractured Soul
 
+</div>
+
+You ask your patron for forbidden knowledge, and are rewarded with a tome of eldritch secrets called a Book of Shadows. Your Book of Shadows might be a fine, gilt-edged tome with spells of enchantment and illusion, gifted to you by the lordly Archfey. It could be a weighty tome bound in demon hide studded with iron, holding spells of conjuration and a wealth of forbidden lore about the sinister regions of the cosmos, a gift of the Fiend. Or it could be the tattered diary of a lunatic driven mad by contact with the Great Old One, holding scraps of spells that only your own burgeoning insanity allows you to understand and cast.
 
 ### Book of Shadows
 You gain a book of forbidden knowledge from your patron, granting you more power over the arcane. While you are holding your Book of Shadows, you can cast your warlock spells as a ritual if they have the ritual tag.
@@ -5910,7 +5929,7 @@ Add two additional cantrips and one additional 1st-level spell that has the ritu
 
 
 ### Page of Eldritch Power
-A new page appears in your Book of Shadows; a page of eldritch power. Choose a power from the options below.
+A new page appears in your Book of Shadows; a page of eldritch power.
 
  **Adding Names**. A creature may spend an ***action*** to write its true name on the page. The page can contain a number of names equal to your Intelligence modifier. Additional names (or false names) written on the page will fade after one minute.
 
@@ -5918,17 +5937,23 @@ A new page appears in your Book of Shadows; a page of eldritch power. Choose a p
 
  **Destroying the Page**. The page naturally heals any damage to it. If the page is torn out of the book, that page turns to ash and a new one appears in the book—exactly as it was.
 
-#### Mind Palace
-You can cast the *sending* spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page rather than in your mind. The writing disappears after 1 minute.
+Choose a power from the options below.
 
- ***The Patron Knows All***. Your patron is fully aware of any message sent or received by your Book of Shadows.
+<div class="columnstwo">
 
-#### Deathly Note
-When any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead.
+- #### Mind Palace
+    You can cast the *sending* spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page rather than in your mind. The writing disappears after 1 minute.
 
-Once this magic is triggered, no creature can benefit from it until you finish a long rest.
+    ***The Patron Knows All***. Your patron is fully aware of any message sent or received by your Book of Shadows.
 
- ***The Patron's Price***. If a creature dies while their name is written on the page, their soul is claimed by your patron and you regain one expended spell slot.
+- #### Deathly Note
+    When any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead.
+
+    Once this magic is triggered, no creature can benefit from it until you finish a long rest.
+
+    ***The Patron's Price***. If a creature dies while their name is written on the page, their soul is claimed by your patron and you regain one expended spell slot.
+
+</div>
 
 ### Focused Mind
 While you are holding your Book of Shadows, you have advantage on Constitution saving throws made to maintain concentration on a spell.
@@ -5939,35 +5964,23 @@ Your Book of Shadows gains another page of eldritch power. Choose a power. You m
 ### Fractured Soul
 Your Book of Shadows is no longer destroyed when you die, and it can be used in place of your corpse to restore you to life.
 
-
-
-
-
-
-
-
-
-## Pact Invocations
+### Pact Invocations
 The following invocations are unique to warlocks with the Pact of the Tome.
 
-#### Aspect of the Moon
-You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.
+<div class="columnstwo">
 
-#### Dark Knowledge
-You become proficient in one of Arcana, History, Nature, Religion or Medicine, and have advantage making an Intelligence check for these skills, if you spend a full round consulting the book before the check.
+- #### Aspect of the Moon
+    You no longer need to sleep and can’t be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.
 
-#### Scroll of Imperial Authority
-Whenever you can see a creature charmed by you, you can use your ***bonus action*** to cause it to speak any phrase you wish. The creature thinks that it chose to say those words of its own volition, though they may not believe them to be true.
+- #### Dark Knowledge
+    You become proficient in one of Arcana, History, Nature, Religion or Medicine, and have advantage making an Intelligence check for these skills, if you spend a full round consulting the book before the check.
 
+- #### Scroll of Imperial Authority
+    Whenever you can see a creature charmed by you, you can use your ***bonus action*** to cause it to speak any phrase you wish. The creature thinks that it chose to say those words of its own volition, though they may not believe them to be true.
 
+- #### Shadows Between Pages
+    *Prerequisite: 9th level*
 
-#### Shadows Between Pages
-*Prerequisite: 9th level*
+    During a long rest, you can perform a ritual to store a spell you know of 5th level or lower into your Book of Shadows. While the book is in your person, as an ***action***, you can cast the stored spell at the lowest possible level it can be cast without expending a spell slot or needing material components. When the spell is cast, when you store a new spell, or when you lose the book, the previous stored spell is lost.
 
-During a long rest, you can perform a ritual to store a spell you know of 5th level or lower into your Book of Shadows. While the book is in your person, as an ***action***, you can cast the stored spell at the lowest possible level it can be cast without expending a spell slot or needing material components. When the spell is cast, when you store a new spell, or when you lose the book, the previous stored spell is lost.
-
-
-
-
-
-
+</div>
