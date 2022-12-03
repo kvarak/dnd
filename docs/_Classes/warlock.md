@@ -41,6 +41,8 @@ layout: default
 #### <a href="#internal-boon">Pact Boons</a>
 <a href="#internal-PactoftheArc">Pact of the Arc</a><br/>
 <a href="#internal-PactoftheBastion">Pact of the Bastion</a><br/>
+<a href="#internal-PactoftheBlade">Pact of the Blade</a><br/>
+<a href="#internal-PactoftheChain">Pact of the Chain</a><br/>
 
 </div>
 
@@ -5477,27 +5479,24 @@ When a creature hits you with a melee attack, you may use your ***reaction*** to
 ### Ethereal Shell
 As an action, you may form a hemispherical dome with a radius of up to 10 feet. This dome is utterly impenetrable, confers total cover and blocks line of sight - you cannot hear or see anything outside the dome while inside it, and vice versa. This dome lasts until the beginning of your next turn. You can't use this ability again until you finish a short rest.
 
-## Pact Invocations
+### Pact Invocations
 The following invocations are unique to warlocks with the Pact of the Bastion.
 
-#### Chimeric aegis
-*Holding your pact shield fills you with a surprising and occasionally potent feeling of invulnerability.*
+<div class="columnstwo">
 
-When holding your pact shield, you can cast *protection from energy* and *shield* spell on yourself without expending a spell slot. You can cast each spell once, and regain their use when you finish a short rest.
+- #### Chimeric aegis
+    *Holding your pact shield fills you with a surprising and occasionally potent feeling of invulnerability.*
 
+    When holding your pact shield, you can cast *protection from energy* and *shield* spell on yourself without expending a spell slot. You can cast each spell once, and regain their use when you finish a short rest.
 
-
-
-
-
+</div>
 
 
 
-# Pact of the Blade
-You have asked your patron for physical power, and you are rewarded with an eldritch weapon to arm yourself for battle.
 
-If your patron is the Archfey, your weapon might be a slender blade wrapped in leafy vines. If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames. If your patron is the Great Old One, your weapon might be an ancient-looking spear, with a gemstone embedded in its head, carved to look like a terrible unblinking eye. If your patron is Death, your weapon might be skeletal in nature, or be made from stone that sends chills down the spine of whoever touches it.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-PactoftheBlade">Pact of the Blade</a></h1>
+<div class="featuresTable">
 
 #### Pact Features
 | Warlock Level | Feature |
@@ -5507,6 +5506,12 @@ If your patron is the Archfey, your weapon might be a slender blade wrapped in l
 | 5th | Extra Attack
 | 7th | Eldritch Brand
 | 9th | Banish
+
+</div>
+
+You have asked your patron for physical power, and you are rewarded with an eldritch weapon to arm yourself for battle.
+
+If your patron is the Archfey, your weapon might be a slender blade wrapped in leafy vines. If you serve the Fiend, your weapon could be an axe made of black metal and adorned with decorative flames. If your patron is the Great Old One, your weapon might be an ancient-looking spear, with a gemstone embedded in its head, carved to look like a terrible unblinking eye. If your patron is Death, your weapon might be skeletal in nature, or be made from stone that sends chills down the spine of whoever touches it.
 
 
 ### Pact weapon
@@ -5546,51 +5551,34 @@ If the creature is reduced to 0 hit points while banished, it does not return an
 
 Once you use this feature, you can't use it again until you finish a long rest.
 
-## Pact Invocations
+### Pact Invocations
 The following invocations are unique to warlocks with the Pact of the Blade.
 
-#### Eldritch Claw
-*Prerequisites: 7th level*
+<div class="columnstwo">
 
-You can manifest a ranged cantrip as a melee spell attack, be it an oversized claw, a blade of roiling chaotic energy, or a lashing tentacle. When you cast a cantrip, you may reduce the range of the spell to 5 feet If you do, you do not get disadvantage for casting while in melee. This requires at least one free hand.
+- #### Eldritch Claw
+    *Prerequisites: 7th level*
 
-Additionally, if you are wielding a one-handed pact weapon in your other hand, you may use a ***bonus action*** to make an attack with that weapon.
+    You can manifest a ranged cantrip as a melee spell attack, be it an oversized claw, a blade of roiling chaotic energy, or a lashing tentacle. When you cast a cantrip, you may reduce the range of the spell to 5 feet If you do, you do not get disadvantage for casting while in melee. This requires at least one free hand.
 
+    Additionally, if you are wielding a one-handed pact weapon in your other hand, you may use a ***bonus action*** to make an attack with that weapon.
 
+- #### Twinned Blades
+    You gain access to a second pact weapon, and you can summon both whenever you would summon one of them.
 
+- #### Vampiric Blades
+    *Prerequisite: 9th level*
 
+    Whenever you hit a hostile creature with your pact blade, you can use a ***bonus action*** to gain a number of temporary hit points equal to half the damage dealt.
 
-
-
-
-#### Twinned Blades
-You gain access to a second pact weapon, and you can summon both whenever you would summon one of them.
-
-#### Vampiric Blades
-*Prerequisite: 9th level*
-
-Whenever you hit a hostile creature with your pact blade, you can use a ***bonus action*** to gain a number of temporary hit points equal to half the damage dealt.
+</div>
 
 
 
 
-
-
-
-
-# Pact of the Chain
-You ask your patron for the ability to control others, and are rewarded with a bound familiar. Your familiar is more cunning than a typical familiar. Its form can be a reflection of your patron, with Sprites, Pseudodragons and Tressym (winged cat from *Storm King's Thunder*) tied to the patrons of the natural world, and Imps and Quasits tied to fiends.
-
-A warlock of Death or Undeath may have a Crawling Claw or a Raven as a familiar, or a skeletal or spectral versions of other familiars.
-
-Tressym also commonly follow warlocks of the Pharaoh and the Seducer.
-
-Warlocks of the Cosmic Machine sometimes have Clockwork beetles or Library automatons (*Tome of Beasts*) as familiars.
-
-Warlocks following the Great Old One have access to more otherworldly familiars, such as the Gibbering Orblet and Flumphling described <a href="http://homebrewery.naturalcrit.com/print/14v55k4t2D6oY3Y8vFpJVUmk8eW_fNHBhSYgSvX36deX7">HERE</a>, or the Gazer (*Volo's Guide to Monsters)*.
-
-A warlock ot the Ghost might have an possesses item, such as the ones found <a href="https://docs.google.com/viewer?srcid=0B5IKrrt72VbbOUZaTkd5cU5FQVk&pid=explorer&efh=false&a=v&chrome=false&embedded=true">HERE</a>.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-PactoftheChain">Pact of the Chain</a></h1>
+<div class="featuresTable">
 
 #### Pact Features
 | Warlock Level | Feature |
@@ -5601,6 +5589,19 @@ A warlock ot the Ghost might have an possesses item, such as the ones found <a h
 | 7th | Mutation Master
 | 9th | Chain Tyrant
 
+</div>
+
+You ask your patron for the ability to control others, and are rewarded with a bound familiar. Your familiar is more cunning than a typical familiar. Its form can be a reflection of your patron, with Sprites, Pseudodragons and Tressym (winged cat from *Storm King's Thunder*) tied to the patrons of the natural world, and Imps and Quasits tied to fiends.
+
+A warlock of Death or Undeath may have a Crawling Claw or a Raven as a familiar, or a skeletal or spectral versions of other familiars.
+
+Tressym also commonly follow warlocks of the Pharaoh and the Seducer.
+
+Warlocks of the Cosmic Machine sometimes have Clockwork beetles or Library automatons (*Tome of Beasts*) as familiars.
+
+Warlocks following the Great Old One have access to more otherworldly familiars, such as <a href="../Resources/alternative-great-old-one-familiars.html">the Gibbering Orblet and Flumphling</a>, or the Gazer (*Volo's Guide to Monsters)*.
+
+A warlock ot the Ghost might have an <a href="../Resources/animated-familiars.html">possessed item</a>.
 
 ### Chained Familiar
 An eldritch trinket, such as a ring, bracelet, earring, or a diadem. Your trinket bears the unmistakable mark of your patron—fiendish red veins, fey vines and flowers, aberrant runes and etchings, etc.
