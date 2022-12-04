@@ -205,7 +205,7 @@ A dwarven alchemists is usually adept at brewing or drinking brews, often both. 
 
 In addition, whenever the alchemist class description mentions your Intelligence modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
-#### Lost Dwarf
+##### Lost Dwarf
 You have not had the possibility to learn alchemy.
 
 <hr>
@@ -213,14 +213,14 @@ You have not had the possibility to learn alchemy.
 ### Barbarian
 A dwarf-raised barbarian has access to the Barbarian paths of the <a href="#internal-battleRager"> Battlerager</a> and <a href="#internal-quakeBringer">Quake bringer</a>.
 
-#### Lost Dwarf
+##### Lost Dwarf
 A lost dwarf does not have any formal combat training, and often resort to a ferocious and wild fighting style.
 
 
 
 If starting play as a Barbarian, whenever the class description mentions your Strength modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
 
-#### Stolen Dwarf
+##### Stolen Dwarf
 No restrictions or bonuses.
 
 <hr>
@@ -288,10 +288,10 @@ Giant Goat
 ### Cavalier
 The dwarven cavalier's mount of choice is usually the giant goat. Mounted on one of these, a dwarf cavalier can use the giant goat's Charge action as if he had it himself.
 
-#### Lost Dwarf
+##### Lost Dwarf
 A lost dwarf can not become a cavalier.
 
-#### Stolen Dwarf
+##### Stolen Dwarf
 A stolen dwarf cavalier will have a type of mount suitable for the area he lives.
 
 <hr>
@@ -302,17 +302,17 @@ Dwarves have a very strong connection to their gods and religion infuses every a
 
 Whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-#### Lost Dwarf
+##### Lost Dwarf
 The deity Marthammor Duin is the god of lost dwarfs. He tries to guide them and make sure they have the tools to survive. When a lost dwarf listens and heeds the words in his head, he may (sometimes unknowingly) become a cleric).
 
 If you are a cleric of Marthammor Duin, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-#### Stolen Dwarf
+##### Stolen Dwarf
 A stolen dwarf cleric follows the gods taught to him by his master/caretaker.
 
 
 
-#### Special
+##### Special
 If you have the *Silvered* material trait, you can replace some of the silver required as material component for your divine magic with your spit. Reduce the cost of any silver materials by half. If this takes the cost to 1 gp or lower, your spit is enough.
 
 <hr>
@@ -327,7 +327,7 @@ Dwarves are notoriously hard to possess, but you are an exception. You loose the
 ### Druid
 Lost and stolen dwarves can become druids, just as most other races.
 
-#### Dwarf-raised
+##### Dwarf-raised
 The dwarven society does not have any use for druids, as they have gods that aid them in all matters regarding nature. Because of this there are no dwarf-raised druids.
 
 Also, why would a dwarf ever want to change form when they have been crafted to perfection?
@@ -338,12 +338,12 @@ Also, why would a dwarf ever want to change form when they have been crafted to 
 ### Feyblood
 Feyblood dwarves are known to exist. This might happen if some of the materials used when crafting the dwarf was tainted by fey magic. When this happens, the feyblood affinity can only be Boggart, Oread or Pooka.
 
-#### Dwarf-raised
+##### Dwarf-raised
 Such a thing happening is usually a nightmare for the dwarves, as they are not used to adapting to these kind of chaotic events. A dwarf should be a dwarf, and not something else.
 
 They try to handle the feyblood dwarf just as any other dwarf, but they are always assigned to roles that take them far away from the dwarven stronghold.
 
-#### Special
+##### Special
 If you have the *Iron* material trait, you cannot become a feyblood.
 
 <hr>
@@ -358,7 +358,7 @@ You know how to use your low center of gravity to best effect in combat. You gai
 
 </div>
 
-#### Dwarf-raised
+##### Dwarf-raised
 All Dwarf-raised learn how to fight, but a dwarf fighter has specifically been assigned to continue this role, and improve their martial skills even more.
 
 If you have the Dwarven fighting style, and wield an axe, pick or hammer, then whenever the class description mentions your Strength modifier, you may instead use your proficiency bonus. This also applies to attack and damage rolls.
@@ -367,10 +367,10 @@ If you have the Dwarven fighting style, and wield an axe, pick or hammer, then w
 
 ### Inquisitor
 
-#### Dwarf-raised
+##### Dwarf-raised
 The inquisitor does not have a place in dwarven society.
 
-#### Lost Dwarf
+##### Lost Dwarf
 A lost dwarf can not become a inquisitor.
 
 <!--
@@ -385,7 +385,7 @@ All dwarven paladins can add the Dwarven fighting style to their selection of fi
 
 Dwarves make excellent paladins. Whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
 
-#### Dwarf-raised
+##### Dwarf-raised
 Dwarf-raised paladins have access to an exclusive oath, the **Oath of the Stonelord**.
 
 <hr>
@@ -396,10 +396,10 @@ Professionals make up the bulk of dwarven society. They are however more focused
 
 If you belong to one of the more practical professions, then whenever the class description mentions your Wisdom modifier, you may instead use your proficiency bonus. In addition all spells count as being divine magic.
 
-#### Lost Dwarf
+##### Lost Dwarf
 A lost dwarf would not had the possibility to learn a craft and become a professional.
 
-#### Stolen Dwarf
+##### Stolen Dwarf
 A stolen dwarf can select any field of study, and whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
 <hr>
@@ -410,29 +410,29 @@ All dwarven rangers can add the Dwarven fighting style to their selection of fig
 
 
 
-#### Dwarf-raised
+##### Dwarf-raised
 In the dwarven societies, rangers guard the borders toward the wilderness, as well as guiding travelling dwarfs.
 
 Due to their closeness with their deities, whenever the class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
-#### Lost Dwarf
+##### Lost Dwarf
 For a lost dwarf to survive, he has to learn skills that are also essential to the ranger class.
 
 You may use your Strength or Dexterity modifier +3 or your proficiency bonus when attacking. Make this choice at level 1 and it cannot be changed later.
 
 In addition, whenever the Ranger class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-#### Stolen Dwarf
+##### Stolen Dwarf
 No restrictions or bonuses.
 
-#### Special
+##### Special
 If you have the *Iron* or *Silvered* material trait, you deal damage to fey (iron) or shapechangers (silvered) as if they were your favored enemy, as well as treating them as your greater favored enemy at level 6.
 
 <hr>
 
 
 ### Rogue
-#### Dwarf-raised
+##### Dwarf-raised
 Dwarf rogues might seem odd, as the dwarves are so honorable and orderly, but there is sometimes a need for infiltrating enemy strongholds, or take point in trap-filled areas.
 
 You may use handaxe or light hammer as if they were light finesse weapons.
@@ -468,10 +468,10 @@ They view ***divine magic*** as a gift from their gods, a direct helping hand me
 
 
 ### Warlock
-#### Dwarf-raised
+##### Dwarf-raised
 Under normal circumstances a dwarf already has allegiance with his clan and his gods, so making a pact with a patron is out of the question. However there might be situations where making a pact with an otherwordly being is the only way to save your clan or returning to it.
 
-#### Lost or Stolen Dwarf
+##### Lost or Stolen Dwarf
 An otherwordly being might very well be the reason why the dwarf became lost or stolen, in order to lure it into its grasp.
 
 If this is the case, then, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
@@ -482,13 +482,13 @@ If this is the case, then, whenever the Warlock class description mentions your 
 ### Wizard
 It is hard to break the concentration of a fully focused dwarf. A dwarf wizard has advantage on all concentration checks caused by blunt, piercing and slashing damage.
 
-#### Dwarf-raised
+##### Dwarf-raised
 As mentioned in the sidebar, dwarven mostly ignore arcane magic, as it is not "natural" according to them. There is not even a god governing arcane magic in their pantheon.
 
-#### Lost Dwarf
+##### Lost Dwarf
 A lost dwarf can not be a wizard.
 
-#### Stolen Dwarf
+##### Stolen Dwarf
 No restrictions or bonuses.
 
 
