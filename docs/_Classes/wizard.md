@@ -5,43 +5,42 @@ layout: default
 
 <div class="toc" markdown="1">
 
-
-
-- #### <a href="#spellbook">Spellbooks</a>
-- #### <a href="#traditions">Arcane traditions</a>
-  - <a href="#unseenHand">Master of the Unseen Hand</a>
-  - <a href="#astromancy">School of Astromancy</a>
-  - <a href="#chronomancer">School of Chronomancy</a>
-  - <a href="#abjuration">School of Abjuration</a>
-  - <a href="#conjuration">School of Conjuration</a>
-  - <a href="#divination">School of Divination</a>
-  - <a href="#enchantment">School of Enchantment</a>
-  - <a href="#evocation">School of Evocation</a>
-  - <a href="#familiar">School of the Familiar</a>
-  - <a href="#illusion">School of Illusion</a>
-  - <a href="#necromancy">School of Necromancy</a>
-  - <a href="#gravebinder">School of Necromancy (Gravebinder)</a>
-  - <a href="#reawakening">School of Reawakening</a>
-  - <a href="#transmutation">School of Transmutation</a>
-  - <a href="#masterTransmogrifist">School of Transmogrification</a>
-  - <a href="#scientific">Scientific Tradition</a>
-  - <a href="#windbringer">Windbringer</a>
+#### <a href="#internal-spellbook">Spellbooks</a>
+#### <a href="#internal-traditions">Arcane traditions</a>
+<a href="#internal-unseenHand">Master of the Unseen Hand</a><br/>
+<a href="#internal-astromancy">School of Astromancy</a><br/>
+<a href="#internal-chronomancer">School of Chronomancy</a><br/>
+<a href="#internal-abjuration">School of Abjuration</a><br/>
+<a href="#internal-conjuration">School of Conjuration</a><br/>
+<a href="#internal-divination">School of Divination</a><br/>
+<a href="#internal-enchantment">School of Enchantment</a><br/>
+<a href="#internal-evocation">School of Evocation</a><br/>
+<a href="#internal-familiar">School of the Familiar</a><br/>
+<a href="#internal-illusion">School of Illusion</a><br/>
+<a href="#internal-necromancy">School of Necromancy</a><br/>
+<a href="#internal-gravebinder">School of Necromancy (Gravebinder)</a><br/>
+<a href="#internal-reawakening">School of Reawakening</a><br/>
+<a href="#internal-transmutation">School of Transmutation</a><br/>
+<a href="#internal-masterTransmogrifist">School of Transmogrification</a><br/>
+<a href="#internal-scientific">Scientific Tradition</a><br/>
+<a href="#internal-windbringer">Windbringer</a><br/>
 
 </div>
 
 # Wizard
 
-_"No wizard will ever take offense to a polite round of applause from the rest of the party after a particularly well-crafted spell."_
-
-Jim Darkmagic
-
 Beyond the veil of the mundane hide the secrets of absolute power. The works of beings beyond mortals, the legends of realms where gods and spirits tread, the lore of creations both wondrous and terrible—such mysteries call to those with the ambition and the intellect to rise above the common folk to grasp true might. Such is the path of the wizard. These shrewd magic-users seek, collect, and covet esoteric knowledge, drawing on cultic arts to work wonders beyond the abilities of mere mortals.
 
 While some might choose a particular field of magical study and become masters of such powers, others embrace versatility, reveling in the unbounded wonders of all magic. In either case, wizards prove a cunning and potent lot, capable of smiting their foes, empowering their allies, and shaping the world to their every desire.
 
+> *"No wizard will ever take offense to a polite round of applause from the rest of the party after a particularly well-crafted spell."*
+>
+> -- Jim Darkmagic
+
 
 
 ## Class Features
+
 As a wizard, you gain the following class features.
 
 #### Hit Points
@@ -53,6 +52,34 @@ As a wizard, you gain the following class features.
 **Saving Throws:** Intelligence, Wisdom
 
 **Skills:** Arcana, History and Investigation
+
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Wizard
+| -Level- | -PB- | -Features-     | -Cantrips- |1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+|:-------:|:----:|:---------------|:----------:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|1st| +2| Arcane Tradition,<br/>Spellcasting,<br/>Arcane Recovery | 3 |2 |— |— |— |—|— |— |— |—|
+|2nd| +2| Arcane Tradition feature  | 3 |3 |— |— |— |—|—| —| —| —|
+|3rd| +2| — | 3| 4| 2| —| —| —|— |— |— |—|
+|4th| +2| Ability Score Improvement | 4 |4 |3 |— |— |—|— |— |— |—|
+|5th| +3| — | 4| 4| 3| 2| —| —|— |— |—| —|
+|6th| +3| Arcane Tradition feature |4| 4| 3| 3| —| —|— |— |— |—|
+|7th| +3| — | 4 | 4| 3| 3| 1| —|— |— |— |—|
+|8th| +3| Ability Score Improvement | 4 | 4| 3| 3| 2| —|— |— |— |—|
+|9th| +4| — | 4 | 4| 3|3|3| 1| —| —| —| —|
+|10th| +4| Arcane Tradition feature | 5 | 4| 3| 3| 3| 2| —| —| —| —|
+|11th| +4| — | 5| 4| 3| 3| 3| 2| 1| —| —| —|
+|12th| +4| Ability Score Improvement | 5 | 4| 3|3|3|2| 1| —| —| —|
+|13th| +5| — | 5| 4| 3| 3| 3| 2| 1| 1| —| —|
+|14th| +5| Arcane Tradition feature | 5 | 4| 3| 3| 3| 2| 1| 1| —| —
+|15th| +5| — | 5 |4|3|3| 3| 2| 1| 1| 1| —|
+|16th| +5| Ability Score Improvement | 5 | 4|3|3| 3| 2| 1| 1| 1| —|
+|17th| +6| — | 5 |4| 3| 3| 3|2|1| 1| 1| 1|
+|18th| +6| Spell Mastery | 5| 4| 3| 3| 3| 3| 1| 1|1|1|
+|19th| +6| Ability Score Improvement | 5 | 4| 3|3|3|3| 2| 1| 1| 1|
+|20th| +6| Signature Spell | 5| 4| 3| 3| 3| 3| 2| 2| 1|1|
+
+</div>
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -81,38 +108,25 @@ At 1st level, you know three random cantrips from the wizard spell list. You lea
 
  **Replacing Cantrips**: Whenever you gain a level in this class, you can replace one cantrip you learned with another cantrip from your spell list.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
 
+| Short rest |
+|:-|
+| After a short rest: |
+| * Regain use of ***Signature Spells***.
 
+| Long rest |
+|:-|
+| After a long rest: ||
+| * Regain use of ***Arcane Recovery***.
 
-
-
-
-
-{{}}">classTable,frame,decoration,wide
-##### The Wizard
-| Level | Proficiency | Features     | Cantrips | --- Spell Slots Per Spell Level ---|||||||||
-|      ^| Bonus      ^|             ^| Known   ^|1st|2nd|3rd|4th |5th |6th |7th |8th |9th |
-|:-----:|:-----------:|:-------------|:--------:|:-:|:-:|:-:|:--:|:--:|:--:|:--:|:--:|:--:|
-|1st| +2| Arcane Tradition, Spellcasting, Arcane Recovery | 3 |2 |— |— |— |—|— |— |— |—|
-|2nd| +2| Arcane Tradition feature  | 3 |3 |— |— |— |—|—| —| —| —|
-|3rd| +2| — | 3| 4| 2| —| —| —|— |— |— |—|
-|4th| +2| Ability Score Improvement | 4 |4 |3 |— |— |—|— |— |— |—|
-|5th| +3| — | 4| 4| 3| 2| —| —|— |— |—| —|
-|6th| +3| Arcane Tradition feature |4| 4| 3| 3| —| —|— |— |— |—|
-|7th| +3| — | 4 | 4| 3| 3| 1| —|— |— |— |—|
-|8th| +3| Ability Score Improvement | 4 | 4| 3| 3| 2| —|— |— |— |—|
-|9th| +4| — | 4 | 4| 3|3|3| 1| —| —| —| —|
-|10th| +4| Arcane Tradition feature | 5 | 4| 3| 3| 3| 2| —| —| —| —|
-|11th| +4| — | 5| 4| 3| 3| 3| 2| 1| —| —| —|
-|12th| +4| Ability Score Improvement | 5 | 4| 3|3|3|2| 1| —| —| —|
-|13th| +5| — | 5| 4| 3| 3| 3| 2| 1| 1| —| —|
-|14th| +5| Arcane Tradition feature | 5 | 4| 3| 3| 3| 2| 1| 1| —| —
-|15th| +5| — | 5 |4|3|3| 3| 2| 1| 1| 1| —|
-|16th| +5| Ability Score Improvement | 5 | 4|3|3| 3| 2| 1| 1| 1| —|
-|17th| +6| — | 5 |4| 3| 3| 3|2|1| 1| 1| 1|
-|18th| +6| Spell Mastery | 5| 4| 3| 3| 3| 3| 1| 1|1|1|
-|19th| +6| Ability Score Improvement | 5 | 4| 3|3|3|3| 2| 1| 1| 1|
-|20th| +6| Signature Spell | 5| 4| 3| 3| 3| 3| 2| 2| 1|1|
+</div>
+</div>
+</div>
 
 
 #### Spells Known
@@ -178,35 +192,10 @@ When you reach 20th level, you gain mastery over two powerful spells and can cas
 
 When you do so, you can’t do so again until you finish a short rest. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
-
-<div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
-
-<div class="card-text restTable">
-| Short rest ||
-|:-|:------- |
-| After a short rest: ||
-| | * Regain use of **Signature Spells**.
-
-| Long rest ||
-|:-|:------- |
-| After a long rest: ||
-| | * Regain use of **Arcane Recovery**.
 
 
+<h2><a class="internal-link" name="internal-spellbook">Spellbooks</a></h2>
 
-
-
-
-
-
-
-
-
-# <a name="spellbook">Spellbooks</a>
 No self-respecting wizard is a wizard for long without a spellbook of their very own -  a  priceless tome in which to record spells and arcane knowledge. The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might also find other spells during your adventures.
 
 ### Your Spellbook
@@ -237,7 +226,7 @@ As a wizard, you may be required to make a new spellbook for yourself—to repla
 #### Crafting a Spellbook
 If you are trained in arcana and calligraphy tools, you can create a new spellbook by infusing a normal book with 25 gp worth of arcane materials. This requires 1 day of dedicated effort and attention, and the process turns 50 pages of the book into pages that can handle the arcane power of spells.
 
-Note that this does not actually require a book, so you could do the same to a loose pile of pages, to prepare lether to recive spells or even prepare sticks or rock to be used as spells receptacles.
+Note that this does not actually require a book, so you could do the same to a loose pile of pages, to prepare leather to recive spells or even prepare sticks or rock to be used as spells receptacles.
 
 ### Unusual spellbooks
 While every wizard has a spellbook, the spellbooks themselves can range in design, shape, and quality of material.
@@ -264,64 +253,74 @@ While every wizard has a spellbook, the spellbooks themselves can range in desig
 
 
 
+<h2><a class="internal-link" name="internal-traditions">Arcane traditions</a></h2>
 
-# <a name="traditions">Arcane traditions</a>
 The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. It is firmly established in the worlds of D&D, with various traditions dedicated to its complex study.
 
 The most common arcane traditions in the multiverse revolve around the schools of magic. Wizards through the ages have cataloged thousands of spells, grouping them into categories called schools. In some places, these traditions are literally schools; a wizard might study at the School of Illusion while another studies across town at the School of Enchantment. In other institutions, the schools are more like academic departments, with rival faculties competing for students and funding. Even wizards who train apprentices in the solitude of their own towers use the division of magic into schools as a learning device, since the spells of each school require mastery of different techniques.
 
 ### Common Schools
 
- **<a href="#abjuration">School of Abjuration</a>** - The School of Abjuration emphasizes magic that blocks, banishes, or protects.
+<div class="columns">
 
- **<a href="#conjuration">School of Conjuration</a>** - As a conjurer, you favor spells that produce objects and creatures out of thin air.
+- **<a href="#internal-abjuration">School of Abjuration</a>** - The School of Abjuration emphasizes magic that blocks, banishes, or protects.
 
- **<a href="#divination">School of Divination</a>** - As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly.
+- **<a href="#internal-conjuration">School of Conjuration</a>** - As a conjurer, you favor spells that produce objects and creatures out of thin air.
 
- **<a href="#enchantment">School of Enchantment</a>** - As a me ber of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters.
+- **<a href="#internal-divination">School of Divination</a>** - As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly.
 
- **<a href="#evocation">School of Evocation</a>** - You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid.
+- **<a href="#internal-enchantment">School of Enchantment</a>** - As a me ber of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters.
 
- **<a href="#illusion">School of Illusion</a>** - You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk.
+- **<a href="#internal-evocation">School of Evocation</a>** - You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid.
 
- **<a href="#necromancy">School of Necromancy</a>** - This school explores the cosmic forces of life, death, and undeath.
+- **<a href="#internal-illusion">School of Illusion</a>** - You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk.
 
- **<a href="#gravebinder">School of Necromancy (Gravebinder)</a>** - A necromancer who uses his knowledge for a different purpose. Sometimes called a white necromancer, they stand as guardians between the living and the dead.
+- **<a href="#internal-necromancy">School of Necromancy</a>** - This school explores the cosmic forces of life, death, and undeath.
 
- **<a href="#transmutation">School of Transmutation</a>** - You are a student of spells that modify energy and matter.
+- **<a href="#internal-gravebinder">School of Necromancy (Gravebinder)</a>** - A necromancer who uses his knowledge for a different purpose. Sometimes called a white necromancer, they stand as guardians between the living and the dead.
 
+- **<a href="#internal-transmutation">School of Transmutation</a>** - You are a student of spells that modify energy and matter.
+
+</div>
 
 
 ### Minor Schools
 
- **<a href="#chronomancer">School of Chronomancy</a>** - The Chronomancer achieve their end through subtle manipulation of the past to steer the future towards accomplishing their goals.
+<div class="columns">
 
- **<a href="#reawakening">School of Reawakening</a>** - Member of the school of reawakening combine the forces of necromancy with the power of conjuration.
+- **<a href="#internal-chronomancer">School of Chronomancy</a>** - The Chronomancer achieve their end through subtle manipulation of the past to steer the future towards accomplishing their goals.
 
- **<a href="#scientific">Scientific Tradition</a>** - These academics see magic as a tool to understand the world around them.
+- **<a href="#internal-reawakening">School of Reawakening</a>** - Member of the school of reawakening combine the forces of necromancy with the power of conjuration.
 
- **<a href="#windbringer">Windbringer</a>** - Your studies focus on the primordial might of the winds, harnessing the strength of the sky to aid you.
+- **<a href="#internal-scientific">Scientific Tradition</a>** - These academics see magic as a tool to understand the world around them.
+
+- **<a href="#internal-windbringer">Windbringer</a>** - Your studies focus on the primordial might of the winds, harnessing the strength of the sky to aid you.
+
+</div>
 
 ### Single Spell Traditions
 
- **<a href="#unseenHand">Master of the Unseen Hand</a>** - While some wizards simply use the *mage hand* cantrip, these wizards pride themselves in being experts with it.
+<div class="columns">
 
- **<a href="#astromancy">School of Astromancy</a>** - Astromancy is the magical science of deriving meaning and power from the relationships and movements of celestial bodies such as planets, comets, stars and the sun.
+- **<a href="#internal-unseenHand">Master of the Unseen Hand</a>** - While some wizards simply use the *mage hand* cantrip, these wizards pride themselves in being experts with it.
 
- **<a href="#familiar">School of the Familiar</a>** - Wizards specializing in in this school have learned to channel the mystical nature of their familiars.
+- **<a href="#internal-astromancy">School of Astromancy</a>** - Astromancy is the magical science of deriving meaning and power from the relationships and movements of celestial bodies such as planets, comets, stars and the sun.
 
- **<a href="#masterTransmogrifist">School of Transmogrification</a>** - The Master Transmogrifist specializes in altering one's own body as needed with polymorph, and other shapechanging transmutations.
+- **<a href="#internal-familiar">School of the Familiar</a>** - Wizards specializing in in this school have learned to channel the mystical nature of their familiars.
 
+- **<a href="#internal-masterTransmogrifist">School of Transmogrification</a>** - The Master Transmogrifist specializes in altering one's own body as needed with polymorph, and other shapechanging transmutations.
 
-
-
-
-
+</div>
 
 
-# <a name="unseenHand">Master of the Unseen Hand</a>
-While some wizards simply use the *mage hand* cantrip, others pride themselves in being experts with it. By specializing in this simple cantrip, these wizards turn themselves into forces of telekinetic power. They become able to lift heavier objects, wield weapons telekinetically, and fling their enemies into the air.
 
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-unseenHand">Master of the Unseen Hand</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Wizard Level | Feature |
@@ -332,6 +331,9 @@ While some wizards simply use the *mage hand* cantrip, others pride themselves i
 | 10th | Mind over Matter
 | 14th | Telekinetic Maelstrom
 
+</div>
+
+While some wizards simply use the *mage hand* cantrip, others pride themselves in being experts with it. By specializing in this simple cantrip, these wizards turn themselves into forces of telekinetic power. They become able to lift heavier objects, wield weapons telekinetically, and fling their enemies into the air.
 
 ### Improved Mage Hand
 When you adopt this tradition, you gain the *mage hand* cantrip. Its range improves to 60 ft and its strength improves to 20 pounds. If you already have the *mage hand* cantrip, you gain one other cantrip of your choice from your spell list.
@@ -340,16 +342,10 @@ When you adopt this tradition, you gain the *mage hand* cantrip. Its range impro
 At 2nd level, you can use your mage hand as an offensive force, by directing it to pick up any melee weapon and fight as you command it. This action requires concentration. By using your attack action, you can direct your mage hand to make an attack with the weapon it is holding. Resolve this as a spell attack, with the weapon's base damage + your Intelligence modifier as damage.
 
 #### Mage Hand Combat Notes
- * You no longer threaten the squares around you, but the armed mage hand threatens the squares around it.
-
- * Your armed mage hand cannot be attacked, except to be disarmed. Resolve disarm checks with your Intelligence modfier.
-
- * If you are proficient with the weapon, you may add your proficiency bonus to the attack.
-
- * Your mage hand must hold a weapon to attack. It cannot attack unarmed.
-
-
-
+* You no longer threaten the squares around you, but the armed mage hand threatens the squares around it.
+* Your armed mage hand cannot be attacked, except to be disarmed. Resolve disarm checks with your Intelligence modfier.
+* If you are proficient with the weapon, you may add your proficiency bonus to the attack.
+* Your mage hand must hold a weapon to attack. It cannot attack unarmed.
 
 ### Practiced Mage Hand
 At 6th level, your mage hand becomes an extension of your own. Its range increases to 90 feet and its strength to 30 pounds. Directing your mage hand or using the Telekinetic Wielder class feature becomes a ***bonus action***. You may use your Telekinetic Wielder class feature as both as an attack action and a bonus action, allowing you to attack twice with your mage hand.
@@ -362,12 +358,9 @@ Add the spells *Bigbys hand* and *Telekinesis* to your spellbook if you don't ha
 ### Telekinetic Maelstrom
 From 14th level you can use your prowess of telekinesis to do one of the following things as an action:
 
- * Levitate a creature up into the air and drop it. The target cannot weigh more than 500 pound and may resist the effect with a successful Strength save. Otherwise you can lift it up to 50 ft straight up into the air and let it drop for 1d6 falling damage for every 5 ft it fell.
-
+* Levitate a creature up into the air and drop it. The target cannot weigh more than 500 pound and may resist the effect with a successful Strength save. Otherwise you can lift it up to 50 ft straight up into the air and let it drop for 1d6 falling damage for every 5 ft it fell.
 * Cast the spell *Bigby's hand* without using a spell slot.
-
 * Cast the spell *Telekinesis* without ѵsing a spell slot.
-
 * Violently hurl objects within 30 ft from you in a 30 cone in any direction. This deals 1d6 bludgeoning damage + 5d6 force damage to all creatures within the cone.
 
 After you use this feature, you cannot use it again until you finish a short rest.
@@ -378,10 +371,9 @@ After you use this feature, you cannot use it again until you finish a short res
 
 
 
-
-# <a name="astromancy">School of Astromancy</a>
-Astromancy is the magical science of deriving meaning and power from the relationships and movements of celestial bodies such as planets, comets, stars and the sun. Wizards who practice this tradition are known as astromancers, astronomers or astrologers, the terms being interchangeable in most circles. They study the different properties of the celestial bodies, and learn to create their own miniature replicas, infused with the power of the constellations.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-astromancy">School of Astromancy</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Wizard Level | Feature |
@@ -392,6 +384,9 @@ Astromancy is the magical science of deriving meaning and power from the relatio
 | 10th | Greater Star
 | 14th | Constellate
 
+</div>
+
+Astromancy is the magical science of deriving meaning and power from the relationships and movements of celestial bodies such as planets, comets, stars and the sun. Wizards who practice this tradition are known as astromancers, astronomers or astrologers, the terms being interchangeable in most circles. They study the different properties of the celestial bodies, and learn to create their own miniature replicas, infused with the power of the constellations.
 
 ### Astrological Augury
 During a night when you can see the stars, you can perform an hour-long ritual with your astrologer's tools to study the omens you see in the stars and learn how to avoid a coming disaster.
@@ -400,7 +395,7 @@ You gain an Augury die, a d6. When you or a creature you can see rolls a saving 
 
 In addition, as long as you can see the night sky, you know exactly where you are relative to the closest landmark with which you are familiar and your group can't become lost except by magical means.
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 ##### Astrologer's Tools
 40 gp, 2 lbs
@@ -411,7 +406,7 @@ Astrologer's tools enable a character to chart the progress of the stars and oth
 
  **Arcana**. Your knowledge of the cosmos helps you answer questions about other planes.
 
-
+</div>
 
 
 ### Spell Stars
@@ -428,158 +423,139 @@ Starting at 10th level, you can use a ***bonus action*** to empower one active s
 ### Constellate
 At 14th level, you can channel your arcane energy to create a constellation in an instant. As an action, you can expend a spell slot of 1st level or higher to create a number of spell stars equal to the slot level, placing each star at a point you can see within 60 feet of you.
 
-## Constellations
+### Constellations
 You can channel the powers of the constellations through your spell stars. The school of astromancy uses the Zodiac called The Cosmic Caravan as an aid for their focus. The Cosmic Caravan is a zodiac containing thirteen constellations and it is strongly associated with Varisia, but has its roots in Azlanti astrology.
 
 Each constellation has a Channel power that affects creatures of your choice within its bright light (i.e. 10 ft radius), as well as a Release power which you can choose to activate when you dismiss a spell star. Unless otherwise noted, effects only last as long as targets are within the light.
 
+<div class="columnstwo">
 
+- ### The Thrush
+    As the first constellation of the year, the Thrush is seen as a herald of the other signs, welcoming them with open wings.
 
+    **Channel**. You can copy the *Channel* effect of any other spell star currently in sight. The effects are not cumulative.
 
+    **Greater channel**. You can copy the *Greater Channel* effect of any other spell star currently in sight. The effects are not cumulative.
 
+    **Release**. The duration of all spell stars in sight is reset.
 
+- ### The Lantern Bearer
+    The serpentine angel known as the Lantern Bearer guides the other signs, protecting them from danger and monotony.
 
+    **Channel**. When a creature makes a saving throw against becoming blinded, deafened, frightened, paralyzed, petrified, poisoned, or stunned, you can use a ***reaction*** to allow a reroll the save.
 
-### The Thrush
-As the first constellation of the year, the Thrush is seen as a herald of the other signs, welcoming them with open wings.
+    **Greater channel**. Aberrations, fey, fiends, and undead cannot physically cross over the boundary of bright light, cast spells across it, or project their abilities across it unless they make a successful Charisma saving throw against your spell save DC. A creature that fails the saving throw can try again on its next turn. A creature that succeeds and moves across the boundary into the protected area isn’t affected by the boundary while it remains inside.
 
- **Channel**. You can copy the *Channel* effect of any other spell star currently in sight. The effects are not cumulative.
+    **Release**. Creatures of your choice within 30 feet of the star gain temporary hit points equal to your wizard level, lasting up to 10 minutes. While a creature still has any of these temporary hit points remaining, aberrations, fey, fiends, and undead have disadvantage on attacks against them.
 
- **Greater channel**. You can copy the *Greater Channel* effect of any other spell star currently in sight. The effects are not cumulative.
+- ### The Newlyweds
+    The Newlyweds are represented as an intertwined couple or scarves that slip away for privacy. They are symbols of devotion and new life.
 
- **Release**. The duration of all spell stars in sight is reset.
+    **Channel**. Reduce damage dealt to chosen targets by 1.
 
-### The Lantern Bearer
-The serpentine angel known as the Lantern Bearer guides the other signs, protecting them from danger and monotony.
+    **Greater channel**. Targets gain temporary hit points equal to your Intelligence modifier at the beginning of each of their rounds.
 
- **Channel**. When a creature makes a saving throw against becoming blinded, deafened, frightened, paralyzed, petrified, poisoned, or stunned, you can use a ***reaction*** to allow a reroll the save.
+    **Release**. You can stabilize any one creature of your choice with 0 hit points that you can see within 60 ft of the star. If you reach 0 hp while within range, the star is automatically released, stabilizing you.
 
- **Greater channel**. Aberrations, fey, fiends, and undead cannot physically cross over the boundary of bright light, cast spells across it, or project their abilities across it unless they make a successful Charisma saving throw against your spell save DC. A creature that fails the saving throw can try again on its next turn. A creature that succeeds and moves across the boundary into the protected area isn’t affected by the boundary while it remains inside.
+- ### The Bridge
+    The constellation of the Bridge carries the travelers of the Cosmic Caravan over danger and toward new adventure, and symbolizes the separation between the dark of winter and the light of spring.
 
- **Release**. Creatures of your choice within 30 feet of the star gain temporary hit points equal to your wizard level, lasting up to 10 minutes. While a creature still has any of these temporary hit points remaining, aberrations, fey, fiends, and undead have disadvantage on attacks against them.
+    **Channel**. When a chosen target hits with a melee attack, the attack deals 1 additional point of radiant damage.
 
-### The Newlyweds
-The Newlyweds are represented as an intertwined couple or scarves that slip away for privacy. They are symbols of devotion and new life.
+    **Greater channel**. Targets have resistance to necrotic damage
 
- **Channel**. Reduce damage dealt to chosen targets by 1.
+    **Release**. The star is released with a bright light, forcing creatures within 30 ft who can see the star to succeed at a Dexterity saving throw or be blinded for 1 minute. Affected creatures can attempt another saving throw at the end of each of their rounds
 
- **Greater channel**. Targets gain temporary hit points equal to your Intelligence modifier at the beginning of each of their rounds.
+- ### The Daughter
+    The Daughter is a light-hearted dancer and the first to cross the Bridge into the warmth and sunshine of spring.
 
- **Release**. You can stabilize any one creature of your choice with 0 hit points that you can see within 60 ft of the star. If you reach 0 hp while within range, the star is automatically released, stabilizing you.
+    **Channel**. Chosen targets add your Intelligence modifier to their initiative.
 
+    **Greater channel**. Targets have either advantage or disadvantage on Dexterity saving throws (your choice).
 
+    **Release**. The spell star explodes. Each creature of your choice within 30 feet of the star must make a Dexterity saving throw or take 3d6 radiant damage.
 
-### The Bridge
-The constellation of the Bridge carries the travelers of the Cosmic Caravan over danger and toward new adventure, and symbolizes the separation between the dark of winter and the light of spring.
+- ### The Rider
+    The Rider is the guardian of the Cosmic Caravan who watches over his companions mounted on his painted steed. He is seen as either a stern barbarian or a boisterous reveler.
 
- **Channel**. When a chosen target hits with a melee attack, the attack deals 1 additional point of radiant damage.
+    **Channel**. Chosen targets gain +1 to AC.
 
- **Greater channel**. Targets have resistance to necrotic damage
+    **Greater channel**. When an attacker that you can see hits a target within the star’s light with an attack, you can use your ***reaction*** to halve the attack's damage.
 
- **Release**. The star is released with a bright light, forcing creatures within 30 ft who can see the star to succeed at a Dexterity saving throw or be blinded for 1 minute. Affected creatures can attempt another saving throw at the end of each of their rounds
+    **Release**. Creatures of your choice within 30 feet of the star must succeed at a Strength saving throw or be pushed away from the star in a straight line, up to 5 x your Intelligence  modifier feet, at which point they are knocked prone. If they succeed, they are knocked back 5 feet, and do not become prone.
 
-### The Daughter
-The Daughter is a light-hearted dancer and the first to cross the Bridge into the warmth and sunshine of spring.
+- ### The Patriarch
+    Seen as the father of the Cosmic Caravan, the Patriarch guides the Wagon through danger.
 
- **Channel**. Chosen targets add your Intelligence modifier to their initiative.
+    **Channel**. Chosen targets can't be frightened and have advantage on saving throws to avoid becoming charmed.
 
- **Greater channel**. Targets have either advantage or disadvantage on Dexterity saving throws (your choice).
+    **Greater channel**. Targets have advantage on concentration checks.
 
- **Release**. The spell star explodes. Each creature of your choice within 30 feet of the star must make a Dexterity saving throw or take 3d6 radiant damage.
+    **Release**. Creatures of your choice within 30 feet of the star must succeed at a Wisdom saving throw or be frightened of the star for 1 minute. Affected creatures can attempt another saving throw at the end of each of their rounds.
 
-### The Rider
-The Rider is the guardian of the Cosmic Caravan who watches over his companions mounted on his painted steed. He is seen as either a stern barbarian or a boisterous reveler.
+- ### The Wagon
+    The Wagon carries the other signs across the sky, and is seen as either a wheel with seven spokes or a seven-pointed star.
 
- **Channel**. Chosen targets gain +1 to AC.
+    **Channel**. Chosen targets that start their turn within the light increase all movement speeds by 10 ft.
 
- **Greater channel**. When an attacker that you can see hits a target within the star’s light with an attack, you can use your ***reaction*** to halve the attack's damage.
+    **Greater channel**. Targets can ignore difficult terrain.
 
- **Release**. Creatures of your choice within 30 feet of the star must succeed at a Strength saving throw or be pushed away from the star in a straight line, up to 5 x your Intelligence  modifier feet, at which point they are knocked prone. If they succeed, they are knocked back 5 feet, and do not become prone.
+    **Release**. You can magically trade places with a willing target within 30 ft of the star.
 
-### The Patriarch
-Seen as the father of the Cosmic Caravan, the Patriarch guides the Wagon through danger.
+- ### The Pack
+    The beasts of the Pack follow the Wagon and are seen as either loyal hounds or scavenging wolves.
 
- **Channel**. Chosen targets can't be frightened and have advantage on saving throws to avoid becoming charmed.
+    **Channel**. When a creature makes a saving throw, you can use your ***reaction*** to impose disadvantage on the roll.
 
- **Greater channel**. Targets have advantage on concentration checks.
+    **Greater channel**. The targets’ attacks are magical, and once per turn when it hits with a melee attack, the attack deals an additional amount of radiant damage equal to half your wizard level.
 
- **Release**. Creatures of your choice within 30 feet of the star must succeed at a Wisdom saving throw or be frightened of the star for 1 minute. Affected creatures can attempt another saving throw at the end of each of their rounds.
+    **Release**. Creatures of your choice within 30 ft of the spell star may use their ***reaction*** to make a melee attack.
 
+- ### The Mother
+    Seen as a cauldron over a warm fire, the Mother provides comfort and sustenance against the coming chill of winter and is the spiritual heart of the Cosmic Caravan.
 
+    **Channel**. Select a skill or saving throw in which you are proficient. Targets may add your Intelligence modifier when making a check with that proficiency.
 
+    **Greater channel**. If a target hasn’t taken a hostile action since the end of its last turn, it can use its action to present an aura of humility. An enemy that wishes to attack the target must succeed on a Wisdom saving throw against your spell save DC or choose another enemy for its attack. If there are no other enemies it wishes to attack, it wastes its action doing nothing.
 
+    **Release**. Creatures of your choice within 30 ft from the star are healed an amount equal to your Intelligence modifier.
 
+- ### The Stargazer
+    The Stargazer, is thought of as either a fool or a prophet who watches the heavens, searching for lost treasures or new wonders.
 
+    **Channel**. Targets adds your Intelligence modifier to its Insight, Investigation and Perception checks.
 
+    **Greater channel**. Targets have either advantage or disadvantage on Wisdom saving throws (your choice).
 
-### The Wagon
-The Wagon carries the other signs across the sky, and is seen as either a wheel with seven spokes or a seven-pointed star.
+    **Release**. Creatures of your choice within 30 ft from the star have truesight until the end of their next turn.
 
- **Channel**. Chosen targets that start their turn within the light increase all movement speeds by 10 ft.
+- ### The Stranger
+    The Stranger travels his own path that occasionally intersects with that of the Cosmic Caravan, and is depicted as a single staring eye.
 
- **Greater channel**. Targets can ignore difficult terrain.
+    **Channel**.  When a creature makes a saving throw, you can use your ***reaction*** to add your Intelligence modifier to the roll. You can make the choice to add the bonus after the die is rolled but before the GM reveals whether the saving throw succeeds or fails.
 
- **Release**. You can magically trade places with a willing target within 30 ft of the star.
+    **Greater channel**. As a ***reaction*** when it is hit with an attack, a target can cause the attacker to take radiant damage equal to your Intelligence modifier, if the attacker is also within the star’s light.
 
-### The Pack
-The beasts of the Pack follow the Wagon and are seen as either loyal hounds or scavenging wolves.
+    **Release**. The spell star explodes. Each creature of your choice within 30 feet of the star must make a Wisdom saving throw or take 3d6 psychic damage.
 
- **Channel**. When a creature makes a saving throw, you can use your ***reaction*** to impose disadvantage on the roll.
+- ### The Follower
+    The Follower travels behind the Caravan and can only be seen on the darkest nights. He is a veiled figure that represents what awaits all at the end of our journeys: Death.
 
- **Greater channel**. The targets’ attacks are magical, and once per turn when it hits with a melee attack, the attack deals an additional amount of radiant damage equal to half your wizard level.
+    **Channel**. When a chosen target reduces an enemy to 0 hit points, it gains temporary hit points equal to the enemy’s hit dice.
 
- **Release**. Creatures of your choice within 30 ft of the spell star may use their ***reaction*** to make a melee attack.
+    **Greater channel**. Targets have advantage on the first death save the make while in the light.
 
-### The Mother
-Seen as a cauldron over a warm fire, the Mother provides comfort and sustenance against the coming chill of winter and is the spiritual heart of the Cosmic Caravan.
+    **Release**. The spell star explodes. Each creature of your choice within 30 feet of the star must make a Constitution saving throw or take 2d6 necrotic damage. You heal 1 hp for each creature harmed this way (max your wizard level).
 
- **Channel**. Select a skill or saving throw in which you are proficient. Targets may add your Intelligence modifier when making a check with that proficiency.
+</div>
 
- **Greater channel**. If a target hasn’t taken a hostile action since the end of its last turn, it can use its action to present an aura of humility. An enemy that wishes to attack the target must succeed on a Wisdom saving throw against your spell save DC or choose another enemy for its attack. If there are no other enemies it wishes to attack, it wastes its action doing nothing.
 
- **Release**. Creatures of your choice within 30 ft from the star are healed an amount equal to your Intelligence modifier.
 
 
 
-### The Stargazer
-The Stargazer, is thought of as either a fool or a prophet who watches the heavens, searching for lost treasures or new wonders.
-
- **Channel**. Targets adds your Intelligence modifier to its Insight, Investigation and Perception checks.
-
- **Greater channel**. Targets have either advantage or disadvantage on Wisdom saving throws (your choice).
-
- **Release**. Creatures of your choice within 30 ft from the star have truesight until the end of their next turn.
-
-### The Stranger
-The Stranger travels his own path that occasionally intersects with that of the Cosmic Caravan, and is depicted as a single staring eye.
-
- **Channel**.  When a creature makes a saving throw, you can use your ***reaction*** to add your Intelligence modifier to the roll. You can make the choice to add the bonus after the die is rolled but before the GM reveals whether the saving throw succeeds or fails.
-
- **Greater channel**. As a ***reaction*** when it is hit with an attack, a target can cause the attacker to take radiant damage equal to your Intelligence modifier, if the attacker is also within the star’s light.
-
- **Release**. The spell star explodes. Each creature of your choice within 30 feet of the star must make a Wisdom saving throw or take 3d6 psychic damage.
-
-### The Follower
-The Follower travels behind the Caravan and can only be seen on the darkest nights. He is a veiled figure that represents what awaits all at the end of our journeys: Death.
-
- **Channel**. When a chosen target reduces an enemy to 0 hit points, it gains temporary hit points equal to the enemy’s hit dice.
-
- **Greater channel**. Targets have advantage on the first death save the make while in the light.
-
- **Release**. The spell star explodes. Each creature of your choice within 30 feet of the star must make a Constitution saving throw or take 2d6 necrotic damage. You heal 1 hp for each creature harmed this way (max your wizard level).
-
-
-
-
-
-
-
-
-# <a name="abjuration">School of Abjuration</a>
-The School of Abjuration emphasizes magic that blocks, banishes, or protects. Detractors of this school say that its tradition is about denial, negation rather than positive assertion. You understand, however, that ending harmful effects, protecting the weak, and banishing evil influences is anything but a philosophical void. It is a proud and respected vocation.
-
-Called abjurers, members of this school are sought when baleful spirits require exorcism , when important locations must be guarded against magical spying, and when portals to other planes of existence must be closed.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-abjuration">School of Abjuration</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Wizard Level | Feature |
@@ -589,6 +565,12 @@ Called abjurers, members of this school are sought when baleful spirits require 
 | 6th | Projected Ward
 | 10th | Improved Abjuration
 | 14th | Spell Resistance
+
+</div>
+
+The School of Abjuration emphasizes magic that blocks, banishes, or protects. Detractors of this school say that its tradition is about denial, negation rather than positive assertion. You understand, however, that ending harmful effects, protecting the weak, and banishing evil influences is anything but a philosophical void. It is a proud and respected vocation.
+
+Called abjurers, members of this school are sought when baleful spirits require exorcism , when important locations must be guarded against magical spying, and when portals to other planes of existence must be closed.
 
 
 ### Abjuration Savant
@@ -618,10 +600,9 @@ Starting at 14th level, you have advantage on saving throws against spells. Furt
 
 
 
-
-# <a name="chronomancer">School of Chronomancy</a>
-Not all Wizards study the standard schools of magic, some aspire to control another form of power, time itself. Wizards who study such a power are called Chronomancers. Instead of specializing in any particular school to meet their desired goals, Chronomancers achieve their end through subtle manipulation of the past to steer the future towards accomplishing their goals.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-chronomancer">School of Chronomancy</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Wizard Level | Feature |
@@ -632,6 +613,9 @@ Not all Wizards study the standard schools of magic, some aspire to control anot
 | 10th | Chronostasis
 | 14th | Major Paradox
 
+</div>
+
+Not all Wizards study the standard schools of magic, some aspire to control another form of power, time itself. Wizards who study such a power are called Chronomancers. Instead of specializing in any particular school to meet their desired goals, Chronomancers achieve their end through subtle manipulation of the past to steer the future towards accomplishing their goals.
 
 ### Spare Seconds
 You gain the ability to cram a few more seconds into your day. You have a pool of spare seconds equal to your wizard level + your Intelligence modifier. You can expend a number of spare seconds to give yourself extra time:
@@ -676,10 +660,9 @@ There is always some sort of exchange to compensate. When making this change, th
 
 
 
-
-# <a name="conjuration">School of Conjuration</a>
-As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-conjuration">School of Conjuration</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Wizard Level | Feature |
@@ -690,6 +673,9 @@ As a conjurer, you favor spells that produce objects and creatures out of thin a
 | 10th | Focused Conjuration
 | 14th | Durable Summons
 
+</div>
+
+As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant.
 
 ### Conjuration Savant
 Beginning when you select this school at 1st level, the gold and time you must spend to copy a conjuration spell into your spellbook is halved.
@@ -718,10 +704,9 @@ Starting at 14th level, any creature that you summon or create with a conjuratio
 
 
 
-
-# <a name="divination">School of Divination</a>
-The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-divination">School of Divination</a></h1>
+<div class="featuresTable">
 
 ### Features
 | Wizard Level | Feature |
@@ -731,6 +716,12 @@ The counsel of a diviner is sought by royalty and commoners alike, for all seek 
 | 6th | Expert Divination
 | 10th | The Third Eye
 | 14th | Greater Portent
+
+</div>
+
+The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.
+
+
 
 
 ### Divination Savant
@@ -766,10 +757,9 @@ Starting at 14th level, the visions in your dreams intensify and paint a more ac
 
 
 
-
-# <a name="enchantment">School of Enchantment</a>
-As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall som ewhere in between.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-enchantment">School of Enchantment</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Wizard Level | Feature |
@@ -779,6 +769,12 @@ As a member of the School of Enchantment, you have honed your ability to magical
 | 6th | Instinctive Charm
 | 10th | Split Enchantment
 | 14th | Alter Memories
+
+</div>
+
+As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall som ewhere in between.
+
+
 
 
 ### Enchantment Savant
@@ -812,10 +808,9 @@ Additionally, once before the spell expires, you can use your ***action*** to tr
 
 
 
-
-# <a name="evocation">School of Evocation</a>
-You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-evocation">School of Evocation</a></h1>
+<div class="featuresTable">
 
 ### Features
 | Wizard Level | Feature |
@@ -826,6 +821,9 @@ You focus your study on magic that creates powerful elemental effects such as bi
 | 10th | Empowered Evocation
 | 14th | Overchannel
 
+</div>
+
+You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.
 
 ### Favored Magic
 Beginning when you select this school at 1st level, the gold and time you must spend to write an evocation spell into your spellbook is halved.
@@ -833,23 +831,25 @@ Beginning when you select this school at 1st level, the gold and time you must s
 ### Evocation Savant
 At 2nd level, choose one of the following options.
 
-#### Elemental Spark
-When you cast an evocation spell of 1st-level or higher that deals fire, cold, thunder, lightning, or acid damage, you can simultaneously create an elemental spark using a strand of the spell's power.
+<div class="columnstwo">
 
-Your spark closely orbits your body and its appearance match the spell that it was created from. When you take damage from a creature that you can see, you may spend your ***reaction*** to do one of the following:
+- #### Elemental Spark
+    When you cast an evocation spell of 1st-level or higher that deals fire, cold, thunder, lightning, or acid damage, you can simultaneously create an elemental spark using a strand of the spell's power.
 
- **Feedback**: Deal 1d10 damage to the creature. The damage type equals that of your spark.
+    Your spark closely orbits your body and its appearance match the spell that it was created from. When you take damage from a creature that you can see, you may spend your ***reaction*** to do one of the following:
 
- **Deflect**: Reduce the damage you take by 1d6.
+    **Feedback**: Deal 1d10 damage to the creature. The damage type equals that of your spark.
 
-When you take one of these actions, your elemental spark is expended and vanishes. You can only have one active elemental spark at a time, and any active spark expires automatically when you finish a short rest.
+    **Deflect**: Reduce the damage you take by 1d6.
 
-**Greater elemental spark**. Starting at 6th level, your Feedback damage increases from 1d10 to 2d10. In addition, your Deflect reduction increases from 1d6 to 2d6.
+    When you take one of these actions, your elemental spark is expended and vanishes. You can only have one active elemental spark at a time, and any active spark expires automatically when you finish a short rest.
 
+    **Greater elemental spark**. Starting at 6th level, your Feedback damage increases from 1d10 to 2d10. In addition, your Deflect reduction increases from 1d6 to 2d6.
 
+- #### Sculpt Spells
+    You can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell’s level. The chosen creatures automatically succeed on their saving throws against the spell, and take no damage if they would normally take half damage on a successful save.
 
-#### Sculpt Spells
-You can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell’s level. The chosen creatures automatically succeed on their saving throws against the spell, and take no damage if they would normally take half damage on a successful save.
+</div>
 
 ### Potent Cantrip
 Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip’s damage (if any) but suffers no additional effect from the cantrip.
@@ -868,10 +868,9 @@ The first time you do so, you suffer no adverse effect. If you use this feature 
 
 
 
-
-# <a name="familiar">School of the Familiar</a>
-Wizards specializing in in the school of the familiar have learned to channel the mystical nature of their familiars. Leveraging their strong bond with their creature companions these zoomancers gain access to spells that they cannot normally learn. Technically these wizards never do learn these spells they just gain the ability to channel their arcane energy into their familiars to unlock the creature’s mystical abilities.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-familiar">School of the Familiar</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Wizard Level | Feature |
@@ -882,6 +881,9 @@ Wizards specializing in in the school of the familiar have learned to channel th
 | 10th | Otherworldly Expression
 | 14th | Three of a Kind
 
+</div>
+
+Wizards specializing in in the school of the familiar have learned to channel the mystical nature of their familiars. Leveraging their strong bond with their creature companions these zoomancers gain access to spells that they cannot normally learn. Technically these wizards never do learn these spells they just gain the ability to channel their arcane energy into their familiars to unlock the creature’s mystical abilities.
 
 ### True Familiar
 Starting at 1st level, you learn the *find familiar* spell. You do not expend a spell slot to cast find familiar, its casting time is reduced to 1 minute and you do not need to use spell components.
@@ -891,33 +893,30 @@ From 2nd level, your familiars have their own arcane reserves they can call out 
 
 Which spells your familiar can cast depends on its type:
 
-#### Celestial
-| Spell level | Spells |
-|:---:|:-------------|
-| 1st | *bless, cure wounds* |
-| 2nd | *enhance ability, magic weapon* |
-| 3rd | *aura of vitality, counterspell* |
+<div class="columnsthree">
 
+- #### Celestial
+    | Spell level | Spells |
+    |:---:|:-------------|
+    | 1st | *bless, cure wounds* |
+    | 2nd | *enhance ability, magic weapon* |
+    | 3rd | *aura of vitality, counterspell* |
 
+- #### Fey
+    | Spell level | Spells |
+    |:---:|:-------------|
+    | 1st | *dissonant whispers, faerie fire* |
+    | 2nd | *invisibility, moonbeam* |
+    | 3rd | *conjure animals, fly* |
 
-#### Fey
-| Spell level | Spells |
-|:---:|:-------------|
-| 1st | *dissonant whispers, faerie fire* |
-| 2nd | *invisibility, moonbeam* |
-| 3rd | *conjure animals, fly* |
+- #### Fiend
+    | Spell level | Spells |
+    |:---:|:-------------|
+    | 1st | *bane, inflict wounds* |
+    | 2nd | *darkness, enthrall* |
+    | 3rd | *fear, hunger of hadar* |
 
-
-
-
-
-#### Fiend
-| Spell level | Spells |
-|:---:|:-------------|
-| 1st | *bane, inflict wounds* |
-| 2nd | *darkness, enthrall* |
-| 3rd | *fear, hunger of hadar* |
-
+</div>
 
 Each familiar gains one of its own spell slots that you can use to cast its spells. This spell slot is at your highest spell level, but no higher than 5th level. It regains the use of this spell slot when you take a long rest.
 
@@ -927,11 +926,15 @@ Starting at 6th level, you can take the same form as one of your familiars as if
 ### Otherworldly Expression
 Starting at 10th level, as an ***action*** on your familiar’s turn you can invoke the ultimate expression of its mystical nature. The exact power varies based on the type of familiar you use this ability on. You can use this feature again after a long rest.
 
- **Celestial**. Until the end of your next turn all allies within 10 feet of your familiar gain advantage on saving throws and resistance to all damage.
+<div class="columnsthree">
 
- **Fey**. You can teleport each creature within 30 feet of your familiar to any unoccupied space within 30 feet of your familiar. This familiar regains its spell slot if it was expended.
+- **Celestial**. Until the end of your next turn all allies within 10 feet of your familiar gain advantage on saving throws and resistance to all damage.
 
- **Fiend**. All enemy creatures within 10 feet of your familiar must make an Intelligence saving throw. If they fail, they gain vulnerability to all damage types they are not immune to and have disadvantage on attack rolls and saving throws until the end of your familiar’s next turn.
+- **Fey**. You can teleport each creature within 30 feet of your familiar to any unoccupied space within 30 feet of your familiar. This familiar regains its spell slot if it was expended.
+
+- **Fiend**. All enemy creatures within 10 feet of your familiar must make an Intelligence saving throw. If they fail, they gain vulnerability to all damage types they are not immune to and have disadvantage on attack rolls and saving throws until the end of your familiar’s next turn.
+
+</div>
 
 ### Three of a Kind
 Starting at 14th level, you can have two familiars at any given time changing the normal rules of the *find familiar* spell. Both familiars gain their own spell slot with the Creature Mystique feature.
@@ -942,10 +945,9 @@ Starting at 14th level, you can have two familiars at any given time changing th
 
 
 
-
-# <a name="illusion">School of Illusion</a>
-You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real. Some illusionists, including many gnome wizards, are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-illusion">School of Illusion</a></h1>
+<div class="featuresTable">
 
 ### Features
 | Wizard Level | Feature |
@@ -956,6 +958,9 @@ You focus your studies on magic that dazzles the senses, befuddles the mind, and
 | 10th | Illusory Self
 | 14th | Illusory Reality
 
+</div>
+
+You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real. Some illusionists, including many gnome wizards, are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.
 
 ### Illusion Savant
 Beginning when you select this school at 1st level, the gold and time you must spend to copy an illusion spell into your spellbook is halved.
@@ -986,12 +991,9 @@ The object can’t deal damage or otherwise directly harm anyone.
 
 
 
-
-# <a name="necromancy">School of Necromancy</a>
-The School of Necromancy explores the cosmic forces of life, death, and undeath. As you focus your studies in this tradition, you learn to manipulate the energy that animates all living things. As you progress, you learn to sap the life force from a creature as your magic destroys its body, transforming that vital energy into magical power you can manipulate.
-
-Most people see necromancers as menacing, or even villainous, due to the close association with death. Not all necromancers are evil, but the forces they manipulate are considered taboo by many societies.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-necromancy">School of Necromancy</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Wizard Level | Feature |
@@ -1002,26 +1004,34 @@ Most people see necromancers as menacing, or even villainous, due to the close a
 | 10th | Inured to Undeath
 | 14th | Life and Death
 
+</div>
+
+The School of Necromancy explores the cosmic forces of life, death, and undeath. As you focus your studies in this tradition, you learn to manipulate the energy that animates all living things. As you progress, you learn to sap the life force from a creature as your magic destroys its body, transforming that vital energy into magical power you can manipulate.
+
+Most people see necromancers as menacing, or even villainous, due to the close association with death. Not all necromancers are evil, but the forces they manipulate are considered taboo by many societies.
+
 ### Favored Magic
 Beginning when you select this school at 1st level, the gold and time you must spend to copy a necromancy spell into your spellbook is halved.
 
 ### Necromancy Savant
 At 2nd level, choose one of the options *Grim harvest*, *Horrify* or *Knowledge of life and death*.
 
-#### Grim Harvest
-You gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell’s level, or three times its level if the spell belongs to the school of necromancy. You don’t gain this benefit for killing constructs or undead.
+<div class="columnsthree">
 
-#### Horrify
-Once per turn when creatures are damaged by a spell of 1st level or higher that you have cast, or when a creature is a target or within the area of effect of a necromancy spell of 1st level or higher you have cast, you may impose the **frightened** condition upon that single creature. They may make a Wisdom saving throw against your spell save DC to avoid this affect, and again at the end of each of their turns if affected.
+- #### Grim Harvest
+    You gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell’s level, or three times its level if the spell belongs to the school of necromancy. You don’t gain this benefit for killing constructs or undead.
 
-You may use this feature a number of times equal to your Intelligence modifier; additionally, you may expend a spell slot of any level to apply this feature to a valid target. You regain all uses of this feature when you complete a long rest.
+- #### Horrify
+    Once per turn when creatures are damaged by a spell of 1st level or higher that you have cast, or when a creature is a target or within the area of effect of a necromancy spell of 1st level or higher you have cast, you may impose the **frightened** condition upon that single creature. They may make a Wisdom saving throw against your spell save DC to avoid this affect, and again at the end of each of their turns if affected.
 
+    You may use this feature a number of times equal to your Intelligence modifier; additionally, you may expend a spell slot of any level to apply this feature to a valid target. You regain all uses of this feature when you complete a long rest.
 
+- #### Knowledge of Life and Death
+    Your study of ancient tomes and cadavers has granted you insight of the mystical forces surrounding life and death. As an ***action***, you touch a creature other than yourself and invigorate its life energy. This creature cannot be a construct. The creature gains a number of temporary hit points equal to 1d4 + your Intelligence modifier. If the creature is undead, it gains an additional 2d4 temporary hit points.
 
-#### Knowledge of Life and Death
-Your study of ancient tomes and cadavers has granted you insight of the mystical forces surrounding life and death. As an ***action***, you touch a creature other than yourself and invigorate its life energy. This creature cannot be a construct. The creature gains a number of temporary hit points equal to 1d4 + your Intelligence modifier. If the creature is undead, it gains an additional 2d4 temporary hit points.
+    Once you use this feature, you can’t use it again until you finish a long rest or you expend a spell slot to cast a necromancy spell of 1st level or higher.
 
-Once you use this feature, you can’t use it again until you finish a long rest or you expend a spell slot to cast a necromancy spell of 1st level or higher.
+</div>
 
 ### Undead Thralls
 At 6th level, choose one of the spells *animate dead* or *summon undead*. Add the chosen spell to your spellbook. When preparing spells, the chosen spell does not count to your total number of chosen spells.
@@ -1039,38 +1049,30 @@ If you chose *summon undead*, you do not require a material component for that s
 ### Inured to Undeath
 Beginning at 10th level, you have resistance to necrotic damage, and your hit point maximum can't be reduced. You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects.
 
-
-
-
-
-
-
-
 ### Life and Death
 At 14th level, choose one of the options *command undead* or *siphon spirit*.
 
-#### Command Undead
-You can use magic to bring undead under your control, even those created by other wizards. As an ***action***, choose one undead that you can see within 60 feet. That target must make a Charisma saving throw against your wizard spell save DC. If it succeeds, you can’t use this feature on it again. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.
+<div class="columnstwo">
 
-Intelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.
+- #### Command Undead
+    You can use magic to bring undead under your control, even those created by other wizards. As an ***action***, choose one undead that you can see within 60 feet. That target must make a Charisma saving throw against your wizard spell save DC. If it succeeds, you can’t use this feature on it again. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.
 
+    Intelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free.
 
+- #### Siphon spirit
+    You can use your magic to consume life from creatures in your presence. As an ***action***, you can target one creature within 60 feet. That creature must make a Charisma saving throw against your spell save DC. If it fails, it takes 4d8 necrotic damage and you regain up to that number of hit points, or the creature's maximum hit points - whichever is lower.
 
-#### Siphon spirit
-You can use your magic to consume life from creatures in your presence. As an ***action***, you can target one creature within 60 feet. That creature must make a Charisma saving throw against your spell save DC. If it fails, it takes 4d8 necrotic damage and you regain up to that number of hit points, or the creature's maximum hit points - whichever is lower.
+    Undead you control automatically fail this save, living creatures make this save at advantage, and constructs are immune to this feature. A creature targeted by this ability is immune to it for the next 24 hours.
 
-Undead you control automatically fail this save, living creatures make this save at advantage, and constructs are immune to this feature. A creature targeted by this ability is immune to it for the next 24 hours.
-
-
-
-
+</div>
 
 
 
 
-# <a name="gravebinder">Gravebinder (School of Necromancy)</a>
-You are a necromancer who has used your knowledge for a far different purpose. Sometimes called a white necromancer, you stand as a guardian between the living and the dead. Often acting as guardians for tombs and burial grounds, your order makes sure the dead stay where they are put. Should they fail to do so, you are ready and willing to deal with them.
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-gravebinder">Gravebinder (School of Necromancy)</a></h1>
+<div class="featuresTable">
 
 #### Features
 | Wizard Level | Feature |
@@ -1081,6 +1083,9 @@ You are a necromancer who has used your knowledge for a far different purpose. S
 | 10th | Inured to Undeath
 | 14th | Undead Purge
 
+</div>
+
+You are a necromancer who has used your knowledge for a far different purpose. Sometimes called a white necromancer, you stand as a guardian between the living and the dead. Often acting as guardians for tombs and burial grounds, your order makes sure the dead stay where they are put. Should they fail to do so, you are ready and willing to deal with them.
 
 ### Favored Magic
 Beginning when you select this school at 1st level, the gold and time you must spend to copy a necromancy spell into your spellbook is halved.
@@ -1112,11 +1117,10 @@ As an ***action***, you can choose one undead within the aree. That creature mus
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-reawakening">School of Reawakening</a></h1>
+<div class="featuresTable">
 
-# <a name="reawakening">School of Reawakening</a>
-As a member of the school of reawakening, you combine the forces of necromancy with the power of conjuration. By transforming the necromantic energies of the creatures you kill into completely new conjurations, you bridge the gap between these two school of magic, creating a hybrid school that combines elements of both Conjuration and Necromancy. As you progress, you learn to shape together ever more powerful conjurations.
-
-{{}}">sTable
 #### Features
 | Wizard Level | Feature |
 |:------------:|:--------|
@@ -1126,6 +1130,9 @@ As a member of the school of reawakening, you combine the forces of necromancy w
 | 10th | Consume
 | 14th | Lasting Creation
 
+</div>
+
+As a member of the school of reawakening, you combine the forces of necromancy with the power of conjuration. By transforming the necromantic energies of the creatures you kill into completely new conjurations, you bridge the gap between these two school of magic, creating a hybrid school that combines elements of both Conjuration and Necromancy. As you progress, you learn to shape together ever more powerful conjurations.
 
 ### Conjuration/Necromancy Savant
 Beginning when you select this school at 1st level, the time you must spend to copy a necromancy or conjuration spell into your spellbook is halved.
@@ -1154,12 +1161,9 @@ Starting at 14th level, the creature created through your Soul Reawaken feature 
 
 
 
-
-# <a name="transmutation">School of Transmutation</a>
-You are a student of spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities. Your magic gives you the tools to become a smith on reality’s forge.
-
-Some transmuters are tinkerers and pranksters, turning people into toads and transforming copper into silver for fun and occasional profit. Others pursue their magical studies with deadly seriousness, seeking the power of the gods to make and destroy worlds.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-transmutation">School of Transmutation</a></h1>
+<div class="featuresTable">
 
 ### Features
 | Wizard Level | Feature |
@@ -1170,6 +1174,11 @@ Some transmuters are tinkerers and pranksters, turning people into toads and tra
 | 10th | Shapechanger
 | 14th | Master Transmuter
 
+</div>
+
+You are a student of spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities. Your magic gives you the tools to become a smith on reality’s forge.
+
+Some transmuters are tinkerers and pranksters, turning people into toads and transforming copper into silver for fun and occasional profit. Others pursue their magical studies with deadly seriousness, seeking the power of the gods to make and destroy worlds.
 
 ### Transmutation Savant
 Beginning when you select this school at 1st level, the gold and time you must spend to copy a transmutation spell into your spellbook is halved.
@@ -1214,10 +1223,9 @@ Starting at 14th level, you can use your ***action*** to consume the reserve of 
 
 
 
-
-# <a name="masterTransmogrifist">Master Transmogrifist</a>
-Perhaps none of the arcane spellcasters mighty powers is as versatile, useful, or spectacular as the ability to change into something else entirely. The School of Transmogrification specializes in just that – altering one’s own body as needed with *polymorph* and other shapechanging transmutations.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-masterTransmogrifist">Master Transmogrifist</a></h1>
+<div class="featuresTable">
 
 ### Features
 | Wizard Level | Feature |
@@ -1228,6 +1236,9 @@ Perhaps none of the arcane spellcasters mighty powers is as versatile, useful, o
 | 10th | Reflexive Change
 | 14th | Infinite Variety
 
+</div>
+
+Perhaps none of the arcane spellcasters mighty powers is as versatile, useful, or spectacular as the ability to change into something else entirely. The School of Transmogrification specializes in just that – altering one’s own body as needed with *polymorph* and other shapechanging transmutations.
 
 ### Transmutation Savant
 Beginning when you select this school at 1st level, the gold and time you must spend to copy a transmutation spell into your spellbook is halved.
@@ -1254,15 +1265,10 @@ After using this feature, you must finish a long rest before using it again.
 At 14th level, you gain the ability to create imaginary forms when casting *polymorph, true polymorph*, and *shapechange* on yourself. To create an imaginary form, choose one of your favored shapes as a base form. You then choose a single aspect of a second monster whose form you can assume with the spell being cast and add it to the first creature. Available options include the following.
 
  * Replace the base form’s Armor Class with that of the second form.
-
  * Add the second form’s movement modes (i.e. swim speed, climb speed, burrow speed, fly speed).
-
  * Add one of the second form’s natural attacks if the base form doesn’t already have that attack.
-
  * Add one of the second form’s damage resistances, damage immunities, or senses.
-
  * Add one of the second form’s special qualities, besides Spellcasting or Shapechanger.
-
  * Replace one of the base form’s physical ability scores, if both forms are of the same size category.
 
 For example, if the base form was a Tyrannosaurus Rex, and the second form was a Giant Owl, you could add the fly speed of 60 feet to the Tyrannosaurus Rex, making it a winged T-Rex. If the first form was a Giant Scorpion, and the second a Giant Octopus, you could add the Octopus’s tentacle attack to the Giant Scorpion, grappling enemies from afar, then clawing and stinging them.
@@ -1272,11 +1278,9 @@ For example, if the base form was a Tyrannosaurus Rex, and the second form was a
 
 
 
-
-
-# <a name="science">Scientific Tradition</a>
-While some wizards focus on the powers of spellcasting, some see them as tools for understanding the world around them. These academics care more about what the wizard spells can help them understand than the mechanics of the spells themselves.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-science">Scientific Tradition</a></h1>
+<div class="featuresTable">
 
 ### Features
 | Wizard Level | Feature |
@@ -1286,6 +1290,10 @@ While some wizards focus on the powers of spellcasting, some see them as tools f
 | 6th | Language Expert
 | 10th | Uncanny Perception
 | 14th | Logical Leap
+
+</div>
+
+While some wizards focus on the powers of spellcasting, some see them as tools for understanding the world around them. These academics care more about what the wizard spells can help them understand than the mechanics of the spells themselves.
 
 
 ### Expertise
@@ -1318,9 +1326,9 @@ After using this feature, you must finish a long rest before using it again.
 
 
 
-# <a name="windbringer">Windbringer</a>
-Your studies focus on the primordial might of the winds, harnessing the strength of the sky to aid you. Known as Windbringers, wizards who follow this tradition of sky magic feel most at home near or in the open air, and often study weather patterns, creatures of the air, or the Elemental Plane of Air. Windbringers prefer spells that aid their maneuverability and bring the winds down upon their foes.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-windbringer">Windbringer</a></h1>
+<div class="featuresTable">
 
 ### Features
 | Wizard Level | Feature |
@@ -1331,6 +1339,9 @@ Your studies focus on the primordial might of the winds, harnessing the strength
 | 10th | Airborne Prodigy
 | 14th | Wind Mastery
 
+</div>
+
+Your studies focus on the primordial might of the winds, harnessing the strength of the sky to aid you. Known as Windbringers, wizards who follow this tradition of sky magic feel most at home near or in the open air, and often study weather patterns, creatures of the air, or the Elemental Plane of Air. Windbringers prefer spells that aid their maneuverability and bring the winds down upon their foes.
 
 ### Sky Speaker
 When you select this school at 1st level, you have begun your studies of the sky and air. You learn how to read, write, and speak Auran, and you learn the *gust* cantrip. When you cast *gust*, you can cast it as a ***bonus action***, and can affect creatures of size Large or smaller.
@@ -1342,11 +1353,9 @@ From 2nd level, you can use mighty winds to protect you. Whenever you cast a spe
 
 ### Gale Mage
 At 6th level, you have learned how to infuse your spells with mighty air. Whenever you cast a spell of 1st level or higher, you can use a ***bonus action*** to channel wind through the spell, choosing one of the following effects:
- * If the spell targets one or more hostile creatures, each creature must make a Strength saving throw or be pushed back 15 feet by a mighty gust.
-
- * If the spell targets you or an ally, you or your ally’s movement speed increases by 10 feet until the end of their next turn. This increases to 20 feet at 14th level.
-
- * The spell’s range increases by 20 feet.
+* If the spell targets one or more hostile creatures, each creature must make a Strength saving throw or be pushed back 15 feet by a mighty gust.
+* If the spell targets you or an ally, you or your ally’s movement speed increases by 10 feet until the end of their next turn. This increases to 20 feet at 14th level.
+* The spell’s range increases by 20 feet.
 
 ### Airborne Prodigy
 By 10th level, you have become attuned to the strength of the winds. You can cast the *levitate* spell on yourself or a willing creature at will, without expending a spell slot. When you cast *levitate* in this way, you can move the target in any direction of your choice when you use an action to move it.
@@ -1355,8 +1364,5 @@ By 10th level, you have become attuned to the strength of the winds. You can cas
 At 14th level, you have gained mastery over wind. As an ***action***, you can cast the *investiture of wind* spell on yourself without expending a spell slot. When you cast the spell this way, while the spell is active, you can choose a number of creatures up to your Intelligence modifier, to also gain a flying speed of 60 feet. This lasts as long as you maintain concentration and the targets keep within 20 foot from you.
 
 Once you cast *investiture of wind* in this way, you can’t do so again until you finish a long rest, though you can still cast it normally using an available spell slot.
-
-
-
 
 
