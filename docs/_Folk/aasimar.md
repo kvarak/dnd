@@ -21,12 +21,12 @@ Aasimar bear within their souls the light of the heavens. They are humans descen
 ### Celestial Champions
 Aasimar have a place in the world to serve as guardians of law and good. Their celestial ancestors expect them to strike at evil, lead by example, and further the cause of justice. From an early age, an aasimar receives visions and guidance from celestial entities via dreams. These dreams help shape an aasimar, granting a sense of destiny and a desire for righteousness.
 
-<img src='http://duralans-workbench.wdfiles.com/local--files/the-prelude/Alhrand.png' style='float:left;width:25%;padding:20px' />
-
 Each aasimar can count a specific celestial agent of the gods as a guide. This entity is typically a deva, an angel who acts as a messenger to the mortal world.
 
 ### Hidden Wanderers
 While aasimar are strident foes of evil, they typically prefer to keep a low profile. An aasimar inevitably draws the attention of evil cultists, fiends, and other enemies of good, all of whom would be eager to strike down a celestial champion if they had the chance.
+
+<img src='http://duralans-workbench.wdfiles.com/local--files/the-prelude/Alhrand.png' style='float:left;width:25%;padding:20px' />
 
 When traveling, aasimar prefer hoods, closed helms, and other gear that allows them to conceal their identities. They nevertheless have no compunction about striking openly at evil. The secrecy they desire is never worth endangering the innocent.
 
@@ -262,173 +262,211 @@ In addition to the common Protector Aasimar, some Aasimar become touched by dark
   | 29 | Any string instrument you play is instantly tuned to perfection.
   | 30 | If you ask a direct and honest question, people are made visibly uncomfortable by telling you a lie or hearing one being told.
 
+</div>
 
 
 
 
 
+## <a class="internal-link" name="internal-feat">Exclusive feats</a>
 
-
-## <a name="internal-feat">Exclusive feats</a>
 The following feats are exclusive to aasimar.
 
-{{}}">feat
-## Aasimar's Blessing
-Your divine lineage runs true within you, and you've grown to be able to draw upon it more frequently.
-- You can use your Necrotic Shroud or Radiant Soul feature a number of times equal to your proficiency bonus, and you regain all uses after a long rest.
+<div class="columnstwo">
+
+- <div class="feat">
+
+    ## Aasimar's Blessing
+    Your divine lineage runs true within you, and you've grown to be able to draw upon it more frequently.
+
+    You can use your Necrotic Shroud or Radiant Soul feature a number of times equal to your proficiency bonus, and you regain all uses after a long rest.
+
+  </div>
+
+- <div class="feat">
+
+    ## Celestial Resilience
+    You become more resistant to injury when you unleash your full celestial might.
+
+    Increase your **Constitution** or **Charisma** score by 1.
+
+    You gain temporary hit points equal to your level when you activate your Radiant Soul or Necrotic Shroud trait. These temporary hit points last until your transformation ends.
+
+    During your transformation, if you fail a saving throw, you can use your ***reaction*** to reroll the saving throw with advantage. Once you use this ability, you can't do so again until your next transformation.
+
+    While transformed you may use a ***reaction*** to give an attack disadvantage within 10ft of you, as you attempt to block the attack with your wings.
+
+  </div>
+
+- <div class="feat">
+
+  ## Heavenly Emissary
+    Your natural charm makes you trustworthy and earnest.
+
+    Increase your **Charisma** or **Wisdom** by 1.
+
+    You gain proficiency with Persuasion. If already proficient, you gain advantage on all checks you make with it.
+
+    You have advantage on all Insight and Charisma checks when dealing with celestials.
+
+    **Eyes of the Upper Planes**. You can spend 1 minute opening up your divine bloodline up to the creases of reality. For 10 minutes you can see into the ethereal plane and see through invisibility and illusions. Once you use this feature you must complete a long rest before using it again.
+
+  </div>
+
+- <div class="feat">
+
+    ## Searing Radiance
+    Your celestial nature burns with holy fire, shining forth from your form.
+
+    Increase your **Charisma** or **Wisdom** by 1.
+
+    You learn either the *sacred flame* or *hand of radiance* cantrip.
+
+    You learn either the *searing smite* or the *guiding bolt* spell. You may cast this spell once per long rest without expending a spell slot.
+
+  </div>
+
+</div>
 
 
-{{}}">feat
-## Celestial Resilience
-You become more resistant to injury when you unleash your full celestial might.
-- Increase your **Constitution** or **Charisma** score by 1.
-- You gain temporary hit points equal to your level when you activate your Radiant Soul or Necrotic Shroud trait. These temporary hit points last until your transformation ends.
-- During your transformation, if you fail a saving throw, you can use your ***reaction*** to reroll the saving throw with advantage. Once you use this ability, you can't do so again until your next transformation.
-- While transformed you may use a ***reaction*** to give an attack disadvantage within 10ft of you, as you attempt to block the attack with your wings.
+## <a class="internal-link" name="internal-classOptions">Class Options</a>
 
-
-{{}}">feat
-## Heavenly Emissary
-Your natural charm makes you trustworthy and earnest.
-- Increase your **Charisma** or **Wisdom** by 1.
-- You gain proficiency with Persuasion. If already proficient, you gain advantage on all checks you make with it.
-- You have advantage on all Insight and Charisma checks when dealing with celestials.
-- **Eyes of the Upper Planes**. You can spend 1 minute opening up your divine bloodline up to the creases of reality. For 10 minutes you can see into the ethereal plane and see through invisibility and illusions. Once you use this feature you must complete a long rest before using it again.
-
-
-{{}}">feat
-## Searing Radiance
-Your celestial nature burns with holy fire, shining forth from your form.
-- Increase your **Charisma** or **Wisdom** by 1.
-- You learn either the *sacred flame* or *hand of radiance* cantrip.
-- You learn either the *searing smite* or the *guiding bolt* spell. You may cast this spell once per long rest without expending a spell slot.
-
-
-
-
-## <a name="internal-classOptions">Class Options</a>
 Aasimar approach some classes is a bit different than other races. When you select one of these classes, it is modified as follows:
 
-### Alchemist
-When creating bombs you can add some of your essence in the form of your bodily fluids, such as saliva, to the concoctions. If you do, half the damage dealt with the bombs is radiant damage if are a protector Aasimar, and necrotic if you are a fallen Aasimar.
+<div class="columnstwo">
 
-### Barbarian
-If you are a Aasimar barbarian, you may add your rage damage whenever Radiant soul or Necrotic shroud deals damage to a celestial, fiend or undead.
+- ### Alchemist
+    When creating bombs you can add some of your essence in the form of your bodily fluids, such as saliva, to the concoctions. If you do, half the damage dealt with the bombs is radiant damage if are a protector Aasimar, and necrotic if you are a fallen Aasimar.
 
-### Bard
-You can sing for 10 minutes to put any number of willing creatures to sleep. Any creature that falls asleep to the sound of your song is protected from spells and effects affecting dreams, such as *nightmare*, for the duration of a long rest.
+    <hr class="dividerinfolk">
 
-In addition you get the ***Language of the gods*** trait.
+- ### Barbarian
+    If you are a Aasimar barbarian, you may add your rage damage whenever Radiant soul or Necrotic shroud deals damage to a celestial, fiend or undead.
 
-{{}}">feat
-## Language of the Gods
-As a ***bonus action***, you can issue inspiring chants or terrible challenges in the Celestial tongue.
+    <hr class="dividerinfolk">
 
-Choose a number of creatures equal to your Charisma modifier within 60 feet that can hear you. Each target has advantage or disadvantage (your choice) on the first attack roll or ability check it makes before the start of your next turn.
+- ### Bard
+    You can sing for 10 minutes to put any number of willing creatures to sleep. Any creature that falls asleep to the sound of your song is protected from spells and effects affecting dreams, such as *nightmare*, for the duration of a long rest.
 
-You can give this oration a number of times equal to your Charisma modifier. You regain all expended uses when you finish a long rest.
+    In addition you get the ***Language of the gods*** trait.
+
+    <div class="feat">
+
+    ## Language of the Gods
+    As a ***bonus action***, you can issue inspiring chants or terrible challenges in the Celestial tongue.
+
+    Choose a number of creatures equal to your Charisma modifier within 60 feet that can hear you. Each target has advantage or disadvantage (your choice) on the first attack roll or ability check it makes before the start of your next turn.
+
+    You can give this oration a number of times equal to your Charisma modifier. You regain all expended uses when you finish a long rest.
+
+    </div>
+
+    <hr class="dividerinfolk">
+
+- ### Cavalier
+    Your mount shares your Celestial resistance trait.
+
+    <hr class="dividerinfolk">
+
+- ### Cleric
+    If you have the *light* cantrip, you can manifest it as a halo centered above your head. Once while manifesting this halo, you can choose to have advantage on a Charisma ability check. You regain the use of this ability after a long rest.
+
+    <hr class="dividerinfolk">
+
+- ### Cursed
+    A cursed Aasimar is in a constant struggle between his heritage and curse. While transformed, you can spend a transformation to gain an additional use of Radiant soul or Necrotic shroud.
+
+    If cursed with the chosen archetype, this will aways come in the form of the Radiant soul trait. If you have another archetype, this will instead be the Necrotic shroud form.
+
+    <hr class="dividerinfolk">
+
+- ### Druid
+    Non magical insects never bite or sting you unless magically compelled to do so, or if you attack them first.
+
+    <hr class="dividerinfolk">
+
+- ### Feyblood
+    An Aasimar can not become a Feyblood. If your Fey heritage is stronger, you will be born a regular human instead.
+
+    <hr class="dividerinfolk">
+
+- ### Fighter
+    A skilled fighter can easily defeat a ten times stronger, but unskilled brute. It is not how hard you hit, but the precision of your strikes.
+
+    Select Strength or Dexterity. Whenever the Fighter class description mentions your ability modifier for this ability, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls using this ability.
+
+    You make this choice at level 1 and it cannot be changed later.
+
+    In addition you have access to the <a href="#internal-celestialKnight">Celestial Knight</a> archetype.
+
+    <hr class="dividerinfolk">
+
+- ### Inquisitor
+    You have the might of Mount Celestia behind you as an Inquisitor. While working for a common cause, you receive the power you deserve.
+
+    Whenever the Inquisitor class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking.
+
+    You make this choice at level 1 and it cannot be changed later.
+
+    <hr class="dividerinfolk">
+
+- ### Paladin
+    Fighting evil is in your blood and you will not easily be stopped. You must fail four death saves before dying.
+
+    <hr class="dividerinfolk">
+
+- ### Professional
+    An Aasimar is still also a human, and as such, good at adapting their knowledge and skills to whatever obstacle they face.
+
+    Whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+
+    <hr class="dividerinfolk">
+
+- ### Ranger
+    Just as human, the Aasimar ranger is ready for anything that he might face in nature, and if by chance he would not be, he adapts and survives.
+
+    Whenever the Ranger class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking.
+
+    You make this choice at level 1 and it cannot be changed later.
+
+    <hr class="dividerinfolk">
+
+- ### Rogue
+    Because of their connection to Mount Celestia, Aasimar have a tendency to be drawn towards the lawful direction. This coupled with their tendency to face foes directly generally makes them not suitable as rogues.
+
+    <hr class="dividerinfolk">
+
+- ### Sorcerer
+    You can spend a sorcery point to consecrate a spell that deals fire damage. If you do, half of the fire damage is instead radiant damage.
+
+- ### Swashbuckler
+    An Aasimars natural charisma and human heritage make them well suited to swashbuckling.
+
+    Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
+
+    <hr class="dividerinfolk">
+
+- ### Warlock
+    Aasimar consider themselves already beholden to a patron, the celestial being which is their heritage, so making a pact with another, potentially evil being, is out of the question. Fallen Aasimar on the other hand is a whole other thing, where a potential patron might even be the reason that the Aasimar is fallen in the first place.
+
+    Protector Aasimar cannot be Warlocks.
+
+    If you are a fallen Aasimar, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus. In addition, you learn an additional cantrip.
+
+    <hr class="dividerinfolk">
+
+- ### Wizard
+    Whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
+
+</div>
 
 
-### Cavalier
-Your mount shares your Celestial resistance trait.
-
-### Cleric
-If you have the *light* cantrip, you can manifest it as a halo centered above your head. Once while manifesting this halo, you can choose to have advantage on a Charisma ability check. You regain the use of this ability after a long rest.
 
 
 
-
-
-
-
-
-### Cursed
-A cursed Aasimar is in a constant struggle between his heritage and curse. While transformed, you can spend a transformation to gain an additional use of Radiant soul or Necrotic shroud.
-
-If cursed with the chosen archetype, this will aways come in the form of the Radiant soul trait. If you have another archetype, this will instead be the Necrotic shroud form.
-
-### Druid
-Non magical insects never bite or sting you unless magically compelled to do so, or if you attack them first.
-
-### Feyblood
-An Aasimar can not become a Feyblood. If your Fey heritage is stronger, you will be born a regular human instead.
-
-### Fighter
-A skilled fighter can easily defeat a ten times stronger, but unskilled brute. It is not how hard you hit, but the precision of your strikes.
-
-Select Strength or Dexterity. Whenever the Fighter class description mentions your ability modifier for this ability, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls using this ability.
-
-You make this choice at level 1 and it cannot be changed later.
-
-In addition you have access to the <a href="#internal-celestialKnight">Celestial Knight</a> archetype.
-
-### Inquisitor
-You have the might of Mount Celestia behind you as an Inquisitor. While working for a common cause, you receive the power you deserve.
-
-Whenever the Inquisitor class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking.
-
-You make this choice at level 1 and it cannot be changed later.
-
-<!--
-### Monster Hunter
-Whenever the Monster hunter class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
--->
-
-### Paladin
-Fighting evil is in your blood and you will not easily be stopped. You must fail four death saves before dying.
-
-### Professional
-An Aasimar is still also a human, and as such, good at adapting their knowledge and skills to whatever obstacle they face.
-
-
-
-
-Whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
-
-### Ranger
-Just as human, the Aasimar ranger is ready for anything that he might face in nature, and if by chance he would not be, he adapts and survives.
-
-Whenever the Ranger class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking.
-
-You make this choice at level 1 and it cannot be changed later.
-
-### Rogue
-Because of their connection to Mount Celestia, Aasimar have a tendency to be drawn towards the lawful direction. This coupled with their tendency to face foes directly generally makes them not suitable as rogues.
-
-### Sorcerer
-You can spend a sorcery point to consecrate a spell that deals fire damage. If you do, half of the fire damage is instead radiant damage.
-
-### Swashbuckler
-An Aasimars natural charisma and human heritage make them well suited to swashbuckling.
-
-Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
-
-### Warlock
-Aasimar consider themselves already beholden to a patron, the celestial being which is their heritage, so making a pact with another, potentially evil being, is out of the question. Fallen Aasimar on the other hand is a whole other thing, where a potential patron might even be the reason that the Aasimar is fallen in the first place.
-
-Protector Aasimar cannot be Warlocks.
-
-If you are a fallen Aasimar, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus. In addition, you learn an additional cantrip.
-
-### Wizard
-Whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
-
-
-
-
-
-
-
-
-## <a name="internal-celestialKnight">Celestial Knight</a>
-*Fighter Archetype*
-
-Among the Aasimar there is a general belief that their ancestors may have left the seeds of celestial power in the material plane for a reason. Most of the time this presents itself as an overwhelming want to prove themselves through divine service.
-
-Not all Aasimar follow this path however: some shirk the responsibilities of divine service or the taking of oaths. Perhaps not wanting to bind themselves in the service of an ancestor, they draw forth their hidden potential and search for other challenges that are fitting of a divine child.
-
-**Restriction**: The Celestial Knight can only be taken by a character who is Aasimar.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-celestialKnight">Celestial Knight (Fighter Archetype)</a></h1>
+<div class="featuresTable">
 
 #### Archetype Features
 | Fighter Level | Feature |
@@ -439,6 +477,13 @@ Not all Aasimar follow this path however: some shirk the responsibilities of div
 | 15th | Sight Beyond Sight
 | 18th | Ascendent
 
+</div>
+
+Among the Aasimar there is a general belief that their ancestors may have left the seeds of celestial power in the material plane for a reason. Most of the time this presents itself as an overwhelming want to prove themselves through divine service.
+
+Not all Aasimar follow this path however: some shirk the responsibilities of divine service or the taking of oaths. Perhaps not wanting to bind themselves in the service of an ancestor, they draw forth their hidden potential and search for other challenges that are fitting of a divine child.
+
+**Restriction**: The Celestial Knight can only be taken by a character who is Aasimar.
 
 #### Divine Aura
 Starting at 3rd level, you become a beacon of hope for those who stalwartly defend the material plane against fiendish incursions. You can temporarily manifest a halo as a ***bonus action***; a corona of energy that varies in appearance depending on which type of Aasimar you are; a golden ring of light for Protector or a quivering ring of shadow for Fallen.
@@ -446,13 +491,10 @@ Starting at 3rd level, you become a beacon of hope for those who stalwartly defe
 It lasts for 1 minute, until you dismiss it or are incapacitated. Whilst the halo is active, you gain the following benefits:
 
 - If you are a **Protector** Aasimar, you shed bright light out to 10 ft and dim light an additional 10 ft. If you are a **Fallen** Aasimar, any bright light within 5 ft becomes dim light and any dim light becomes darkness.
-
 - When you attack a creature with a weapon, you can use your ***reaction*** to give yourself advantage.
-
 - If a fiend with a challenge rating equal to or less than half your fighter level starts or ends it’s turn within 10 ft of you, it must roll a Wisdom saving throw against a DC of 8 + your proficiency bonus + your Charisma modifier. If it fails it is frightened of you for 1 minute. A creature can repeat this saving throw at the end of each of it’s turns, provided that it is not within 10 ft of you, and ends this effect on itself on a success.
 
- You can use this ability a number of times equal to your proficiency bonus, and regain all uses after a long rest.
-
+You can use this ability a number of times equal to your proficiency bonus, and regain all uses after a long rest.
 
 
 #### Celestial Presence
@@ -477,9 +519,4 @@ At 18th level, you have realised the full potential of your celestial heritage. 
 - The light or darkness radiated your halo increases by an additional 10 feet.
 - If you are a ***Protector*** Aasimar, the vision granted by your ***Sight Beyond Sight*** feature increases to 60 feet.
 - If you are a **Fallen** Aasimar, as an ***action*** you can cause the fear effect of your transformation to activate, and the range increases to 20 feet. In addition, once per short rest, if you have not yet moved, you can teleport to an area of dim light or darkness that you can see within 300 feet of you. If you use this feature, your speed is 0 for the remainder of that turn.
-
-
-
-
-
 
