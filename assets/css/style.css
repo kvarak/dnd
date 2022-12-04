@@ -349,6 +349,17 @@ hr.classdivider {
   border: none;
 }
 
+hr.dividerinfolk {
+  visibility: visible;
+  height: 5px;
+  /* margin: 0.12cm 0; */
+  margin-left: 20%;
+  margin-right: 20%;
+  background-image: url(../images/Decorative-Line-Black-PNG-Clipart.png);
+  background-size: 100% 100%;
+  border: none;
+}
+
 /* -------------------------------------------------------------------------- */
 
 /* monster table stat color fix  */

@@ -5,15 +5,14 @@ layout: default
 
 <div class="toc" markdown="1">
 
-## Contents
-<a href="#internal-traits">Traits</a><br/>
-<a href="#internal-class">Class options</a><br/>
-<a href="#internal-feat">Feats</a><br/>
-<br/>
-**Dwarf class archetypes**<br/>
-<a href="#internal-battleRager">Barbarian Path of the Battlerager</a><br/>
-<br/>
-**<a href="#internal-race">About the Dwarven Race</a>**<br/>
+#### <a href="#internal-traits">Traits</a>
+#### <a href="#internal-class">Class options</a>
+#### <a href="#internal-feat">Feats</a>
+#### Dwarf class archetypes
+<a href="#internal-battleRager">Barbarian Path of the Battlerager</a>
+<a href="#internal-quakeBringer">Barbarian Path of the Quake Bringer</a>
+
+#### <a href="#internal-race">About the Dwarven Race</a>
 <a href="#internal-path">The Path to Perfection</a><br/>
 <a href="#internal-life">The Birth of a Dwarf</a><br/>
 <a href="#internal-clan">All for One: The Clan</a><br/>
@@ -208,7 +207,8 @@ In addition, whenever the alchemist class description mentions your Intelligence
 ##### Lost Dwarf
 You have not had the possibility to learn alchemy.
 
-<hr>
+<hr class="dividerinfolk">
+
 
 ### Barbarian
 A dwarf-raised barbarian has access to the Barbarian paths of the <a href="#internal-battleRager"> Battlerager</a> and <a href="#internal-quakeBringer">Quake bringer</a>.
@@ -223,7 +223,7 @@ If starting play as a Barbarian, whenever the class description mentions your St
 ##### Stolen Dwarf
 No restrictions or bonuses.
 
-<hr>
+<hr class="dividerinfolk">
 
 
 ### Bard
@@ -238,7 +238,7 @@ The magic produced by a dwarven bard is Divine magic.
 ##### Stolen Dwarf
 Uses the types of instruments common in the culture where he matured. Cannot play wind instruments.
 
-<hr>
+<hr class="dividerinfolk">
 
 
 <img src='https://s-media-cache-ak0.pinimg.com/736x/fd/7f/ba/fd7fba69843a691b7f300f719507c815.jpg' style='float:right;width:42%;padding:20px' />
@@ -294,7 +294,7 @@ A lost dwarf can not become a cavalier.
 ##### Stolen Dwarf
 A stolen dwarf cavalier will have a type of mount suitable for the area he lives.
 
-<hr>
+<hr class="dividerinfolk">
 
 
 ### Cleric
@@ -315,13 +315,13 @@ A stolen dwarf cleric follows the gods taught to him by his master/caretaker.
 ##### Special
 If you have the *Silvered* material trait, you can replace some of the silver required as material component for your divine magic with your spit. Reduce the cost of any silver materials by half. If this takes the cost to 1 gp or lower, your spit is enough.
 
-<hr>
+<hr class="dividerinfolk">
 
 
 ### Cursed
 Dwarves are notoriously hard to possess, but you are an exception. You loose the *Stubborn as stone* trait. But being a dwarf, you can still resist most of the time. You cannot change form except as a ***reaction*** when being reduced to below half hp, becoming frightened, stunned or any other condition affecting your mind.
 
-<hr>
+<hr class="dividerinfolk">
 
 
 ### Druid
@@ -332,7 +332,7 @@ The dwarven society does not have any use for druids, as they have gods that aid
 
 Also, why would a dwarf ever want to change form when they have been crafted to perfection?
 
-<hr>
+<hr class="dividerinfolk">
 
 
 ### Feyblood
@@ -346,7 +346,7 @@ They try to handle the feyblood dwarf just as any other dwarf, but they are alwa
 ##### Special
 If you have the *Iron* material trait, you cannot become a feyblood.
 
-<hr>
+<hr class="dividerinfolk">
 
 ### Fighter
 All types of dwarves may can add the dwarven fighting style to their selection of fighting styles.
@@ -363,7 +363,7 @@ All Dwarf-raised learn how to fight, but a dwarf fighter has specifically been a
 
 If you have the Dwarven fighting style, and wield an axe, pick or hammer, then whenever the class description mentions your Strength modifier, you may instead use your proficiency bonus. This also applies to attack and damage rolls.
 
-<hr>
+<hr class="dividerinfolk">
 
 ### Inquisitor
 
@@ -378,7 +378,7 @@ A lost dwarf can not become a inquisitor.
 A dwarf can not become this class, mostly due to the monster hunter's reliance on blood magic. Dwarves do not have any blood to spill.
 -->
 
-<hr>
+<hr class="dividerinfolk">
 
 ### Paladin
 All dwarven paladins can add the Dwarven fighting style to their selection of fighting styles (see the fighter entry above).
@@ -388,7 +388,7 @@ Dwarves make excellent paladins. Whenever the Paladin class description mentions
 ##### Dwarf-raised
 Dwarf-raised paladins have access to an exclusive oath, the **Oath of the Stonelord**.
 
-<hr>
+<hr class="dividerinfolk">
 
 
 ### Professional
@@ -402,7 +402,7 @@ A lost dwarf would not had the possibility to learn a craft and become a profess
 ##### Stolen Dwarf
 A stolen dwarf can select any field of study, and whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
-<hr>
+<hr class="dividerinfolk">
 
 
 ### Ranger
@@ -428,7 +428,7 @@ No restrictions or bonuses.
 ##### Special
 If you have the *Iron* or *Silvered* material trait, you deal damage to fey (iron) or shapechangers (silvered) as if they were your favored enemy, as well as treating them as your greater favored enemy at level 6.
 
-<hr>
+<hr class="dividerinfolk">
 
 
 ### Rogue
@@ -437,7 +437,7 @@ Dwarf rogues might seem odd, as the dwarves are so honorable and orderly, but th
 
 You may use handaxe or light hammer as if they were light finesse weapons.
 
-<hr>
+<hr class="dividerinfolk">
 
 
 ### Sorcerer
@@ -445,14 +445,14 @@ Dwarves never become sorcerers, as Moradin would not let such randomness infect 
 
 A dwarf can become a relicker, or a stone sorcerer. If you are a stone sorcerer, then whenever the class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
-<hr>
+<hr class="dividerinfolk">
 
 
 ### Swashbuckler
 A dwarf swashbuckler may use the handaxe and light hammer as if they were light finesse weapons.
 
 
-<hr>
+<hr class="dividerinfolk">
 
 <div class="infoarea" markdown="1">
 
@@ -477,7 +477,7 @@ An otherwordly being might very well be the reason why the dwarf became lost or 
 If this is the case, then, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
 
-<hr>
+<hr class="dividerinfolk">
 
 ### Wizard
 It is hard to break the concentration of a fully focused dwarf. A dwarf wizard has advantage on all concentration checks caused by blunt, piercing and slashing damage.
