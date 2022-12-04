@@ -21,6 +21,10 @@ layout: default
 <a href="#internal-warChief">Path of the War Chief</a><br>
 <a href="#internal-zealot">Path of the Zealot</a><br>
 
+#### Restricted Paths
+**Beastfolk (needs a tail)**<br/>
+<a href="#internal-tailfighter">Path of the Tailfighter</a>
+
 </div>
 
 # Barbarian
@@ -1330,3 +1334,59 @@ You can use this feature once. See *Rest Additions*.
 The divine power that fuels your rage allows you to shrug off fatal blows.
 
 While raging, having 0 hit points doesn’t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don’t die until your rage ends, and you die then only if you still have 0 hit points.
+
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-tailfighter">Path of the Tailfighter</a></h1>
+<div class="featuresTable">
+
+#### Path Features
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Tail Adept |
+| 3rd | Tail Fighter |
+| 6th | Lashing Defense, Tail Fighter (d4) |
+| 10th | Quick Stand, Tail Fighter (d6) |
+| 14th | Tripping Tail, Tail Fighter (d8) |
+
+</div>
+
+Originally developed by the savage ratfolk warriors, the frenzied, spinning method of tailfighting can only loosely be described as a martial style. By using their tails as both defensive aids and lethal weapons, the tailfighter can catch even the most seasoned opponent off guard.
+
+##### Racial Restriction
+Only races the physiology to support it can follow the Path of the Tailfighter, i.e. races with tails. This includes Lizardfolk, Ratfolk and some Tieflings.
+
+### Tail Adept
+You develop considerable coordination with your tail, allowing you to manipulate or hold simple items such as a lantern or a pitcher with it. You cannot make fine movements or manipulate tiny objects with it, such as picking pockets, using thieves’ tools, or turning a key in a lock.
+
+
+
+### Tail Fighter
+You can use your tail to make unarmed strikes, dealing 1 + your Strength modifier bludgeoning damage. At 6th level this damage increases to 1d4. At 10th level it increases to 1d6, and at 14th level to 1d8. If you are holding an item in your tail, you cannot make a tail attack.
+
+In addition to normal attacks, you can attack with your tail using a ***bonus action*** as if it were an off-hand weapon, even while wielding a two-handed weapon.
+
+### Lashing Defense
+You have learned to use your lashing tail and your wild, spinning combat style to protect yourself. While raging, when an opponent makes a melee attack against you, you can use your ***reaction*** to impose disadvantage on the attack roll. If the opponent’s attack misses, you may make a tail attack against one target within reach as part of the same reaction.
+
+### Quick Stand
+Your tail is so much a part of your movement that it acts much like an extra leg and can even prop you up when you’ve fallen. You have advantage on saving throws against any effect that would knock you prone or force you to move by pushing or pulling. Standing from prone costs you only 5 feet of movement.
+
+### Tripping Tail
+You can use your tail to make opportunity attacks. If you hit and the target is Large or smaller, in addition to damage, it must make a Strength saving throw against 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). On a failed save, you knock the target prone and its movement is reduced to 0.
+
+### Tail Weapons
+Some tailed races have created weapons that can be used on their tails. Usually it’s only something sharp or heavy strapped at the end of the tail, which cuts or smashes when swung. These weapons can be used similar to offhand weapons, while allowing for one free hand.
+
+It takes a minute to properly strap a tail weapon for use, but nothing prevents it from being strapped for the entire day. However, this prevents a tail to manipulate objects if it otherwise does. Removing a strapped weapon takes half the time.
+
+
+| Name | Price  | Weight | Special |
+|:-----|:-----:|:------:|:-----------|
+| Tailblade | 10 gp | 1 lbs | Increases damage by +1. Tail attack deals slashing damage instead.
+| Tail Mace | 10 gp | 8 lbs | Increases damage to the next die size.
+
+

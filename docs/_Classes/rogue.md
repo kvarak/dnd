@@ -20,6 +20,10 @@ layout: default
 <a href="#internal-spellwarpSniper">Spellwarp Sniper</a><br/>
 <a href="#internal-thief">Thief</a>
 
+#### Restricted Archetypes
+**Catfolk**<br/>
+<a href="#internal-felineStalker">Feline Stalker</a>
+
 </div>
 
 
@@ -1385,20 +1389,10 @@ At 9th level, you can alter the form of certain spells as you cast them. When yo
 ### Silent Spell
 At 13th level, when you cast a spell, you can cast it without any somatic or verbal components. After using this ability, you cannot use it again until you complete a short rest.
 
-
-
-
-
-
-
-
 ### Ray Mastery
 At 17th level, when you make a ranged spell attack that deals damage, you can choose to deal maximum damage.
 
 After using this ability, you must complete a long rest before using it again.
-
-
-
 
 
 
@@ -1451,6 +1445,63 @@ By 13th level, you have learned enough about the workings of magic that you can 
 ### Thief's Reflexes
 When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised
 
+
+
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-felineStalker">Feline Stalker</a></h1>
+<div class="featuresTable">
+
+#### Archetype Features
+| Rogue Level | Feature |
+|:--:|:---|
+| 1st | Bonus Proficiencies |
+| 3rd | Leaps and Bounds, Sharp Claws
+| 9th | Quick Reflexes
+| 13th | Night Stalker
+| 17th | Hide and Seek
+
+</div>
+
+Catfolk, as a people, are very proud of their feline heritage. Big cat species are deeply respected and held in high esteem, and competitions of feats of feline athleticism are common. Some catfolk, particularly the adventuring type, seek to emulate the abilities and hunting practices of big cats so as to hone their survival skills. From this tradition comes a rogue archetype unique to the catfolk: the Feline Stalker.
+
+##### Racial Restriction
+Only Catfolk can choose this archetype.
+
+### Bonus Proficiencies
+You gain proficiency with Jumping, Stealth and Tracking.
+
+### Leaps and Bounds
+You have developed the athleticism of elite catfolk hunters, gaining the following benefits:
+- You can add your Dexterity modifier when calculating the distance and height of your long jumps and high jumps.
+- You take no damage from falling 20 feet or less, and half damage from falling further than that.
+- You cannot be knocked prone from falling.
+- You don't need advantage on your attack roll to use your Sneak Attack if you jump down onto your target from a height of at least 5 feet above it.
+
+
+### Sharp Claws
+Unarmed strikes you make deal 1d6 slashing damage, and you can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of attacks you make with it.
+
+Additionally, you can use the bonus action granted by your Cunning Action to make 1 unarmed strike if you have a free hand to do so.
+
+### Quick Reflexes
+Your keen instinct for danger can propel you away from danger. When you are targeted by a melee attack that would deal damage to you, you can use your ***reaction*** to leap 5 feet backward away from the attack, avoiding the damage completely. This movement does not provoke opportunity attacks.
+
+Once you escape an attack in this way, you cannot do so again until you complete a short rest.
+
+### Darkvision
+You have adapted to the darkness and can see 30 feet in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.
+
+### Hide and Seek
+You have finely honed your ability to remain undetected, as well as to spot hidden threats. You gain the following benefits:
+
+- You have advantage on Stealth checks.
+- You have advantage on ability checks made to spot hidden creatures.
+- You can move stealthily while traveling at a normal pace.
+- When you make an attack against a target that cannot see you, you do not automatically give away your position if you hit or miss with a ranged attack, or if you miss with a melee attack.
 
 
 

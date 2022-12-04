@@ -5,12 +5,13 @@ layout: default
 
 <div class="toc" markdown="1">
 
+#### Beastfolk
 <a href="#internal-apefolk">**Apefolk**</a><br/>
 <a href="#internal-bearfolk">Bearfolk -- **Ursine**</a><br/>
 <a href="#internal-catfolk">**Catfolk**</a><br/>
 <a href="#internal-foxfolk">Foxfolk -- **Vulpine**</a><br/>
-<a href="#internal-frogfolkBullywug">Frogfolk</a> -- **Bullywug**</a><br/>
-<a href="#internal-frogfolkGrung">Frogfolk</a> -- **Grung**</a><br/>
+<a href="#internal-frogfolkBullywug">Frogfolk -- **Bullywug**</a><br/>
+<a href="#internal-frogfolkGrung">Frogfolk -- **Grung**</a><br/>
 <a href="#internal-pigfolk">Porcine folk -- **Varkind**</a><br/>
 <a href="#internal-rabbitfolk">Rabbitfolk -- **Kunek**</a><br/>
 <a href="#internal-ratfolk">**Ratfolk**</a><br/>
@@ -116,7 +117,7 @@ Apefolk approaches some classes is a bit different than other races. When you se
 
     A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Otherwise it lasts until the creature is out of sight or one minute after you exit your rage.
 
-    A **charau-ka** barbarian has access to the <a href="#internal-tailfighter">Path of the Tailfighter</a>.
+    A **charau-ka** barbarian has access to the <a href="../Classes/barbarian.html#internal-tailfighter">Path of the Tailfighter</a>.
 
     <hr class="dividerinfolk">
 
@@ -418,7 +419,7 @@ Catfolk approaches some classes is a bit different than other races. When you se
     <hr class="dividerinfolk">
 
 - ### Rogue
-    A catfolk rogue has access to the <a href="#internal-felineStalker">feline stalker</a> archetype
+    A catfolk rogue has access to the <a href="../Classes/rogue.html#internal-felineStalker">feline stalker</a> archetype
 
     <hr class="dividerinfolk">
 
@@ -584,9 +585,9 @@ Bullywugs possess a unique ability to communicate with all manor of frog and toa
 
 - **Ability Scores**. Your Intelligence ability score, both current and maximum, decreases by 2.
 
-- <img src='../assets/images/Bullywug.png' style='width:75%;padding:20px' />
-
 - **Age**. Bullywugs mature at 10 years, and live up to 50 years.
+
+- <img src='../assets/images/Bullywug.png' style='width:75%;padding:20px' />
 
 - **Alignment**. Many bullywugs can be ruthless and cruel which lends them to Evil. Their indifference toward law or chaos brings them closer to Neutral on that axis. The most “outspoken” of their kind fit this trend, but a noticeable amount of tribes closer to civilization’s borders are less likely to be evil.
 
@@ -693,7 +694,7 @@ Green grung become warriors, hunters, and general laborers. Blue grung are usual
 ### Grung tables
 When creating your grung, roll on the color/caste table once, and on the other tables as you wish for inspiration.
 
-<div class="columnstwo">
+<div class="columnsthree">
 
 - #### Color / Caste
     | d6 | Your color/caste is... | Ability score |
@@ -832,27 +833,40 @@ When creating your grung, roll on the color/caste table once, and on the other t
 </div>
 
 
-## Grung Feats
+### Grung Feats
 You may select the following feat:
 
-<div class="feat">
+<div class="columnstwo">
 
-## Leaper
-- Your **Dexterity** score increases by 1.
-- **Aerial Agility**. You can use your ***reaction*** when you fall to halve any falling damage you take. You can then reduce this damage additionally by an amount equal to your level plus your Dexterity bonus.
-- **Jumping Twitch**. As a ***reaction*** after an enemy misses you with an attack or ends their turn within 5 feet of you, you can jump up to 10 feet away. This movement does not provoke attacks of opportunity.
+- <div class="feat">
 
+    ## Leaper
+    - Your **Dexterity** score increases by 1.
+    - **Aerial Agility**. You can use your ***reaction*** when you fall to halve any falling damage you take. You can then reduce this damage additionally by an amount equal to your level plus your Dexterity bonus.
+    - **Jumping Twitch**. As a ***reaction*** after an enemy misses you with an attack or ends their turn within 5 feet of you, you can jump up to 10 feet away. This movement does not provoke attacks of opportunity.
 
-## Grung Class Options
+  </div>
+
+</div>
+
+### Grung Class Options
 Grung approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
-### Alchemist
-Grung have a penchant for alchemy and are usually quite good at it. However, the oils constantly secreted from their skin usually mixes up with everything. Whenever a target is damaged (or, unfortunately, healed) by any of your concoctions, they are also affected by your poisonous skin. You are of course immune to this.
+<div class="columnstwo">
 
-Whenever the Alchemist class description mentions your Intelligence modifier, you may instead use this modifier +4 or your proficiency bonus, whichever is lower.
+- ### Alchemist
+    Grung have a penchant for alchemy and are usually quite good at it. However, the oils constantly secreted from their skin usually mixes up with everything. Whenever a target is damaged (or, unfortunately, healed) by any of your concoctions, they are also affected by your poisonous skin. You are of course immune to this.
 
-### Cavalier
-Grung commonly ride giant frogs.
+    Whenever the Alchemist class description mentions your Intelligence modifier, you may instead use this modifier +4 or your proficiency bonus, whichever is lower.
+
+    <hr class="dividerinfolk">
+
+- ### Cavalier
+    Grung commonly ride giant frogs.
+
+    <hr class="dividerinfolk">
+
+</div>
 
 
 
@@ -860,18 +874,18 @@ Grung commonly ride giant frogs.
 
 
 
-
-# <a name="internal-pigfolk">Varkind</a>
-
-*“Giggling and snarling to herself, Pack Lord Gnara smiled, listening to the faint squealing and snorting she heard coming from the shield wall, she eagerly charged forward, trampling the smaller gnolls in her bloodlust, only to stop abruptly, as the shield wall parted to reveal a sea of shining tusks, with crossbows pointed at her and her kin, fear coursed through her for the first time, replacing her hot bloodlust with cold fear, as she felt scores of beady eyes lock on to her.”*
-
-—Final Battle of Wolfroot Vale
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-pigfolk">Varkind</a></h1>
 
 Varkind appear to be large humanoid pigs. Most have big bellies with swarthy, stout bodies and possess long stout arms, ending in hands with 3 cloven fingers and a thumb, while standing on short but powerful legs. They have large, squat faces, small beady eyes, floppy ears and pronounced snouts. The females tend to have smaller, more petite snouts, and rounder bodies. Favoring both utility and style, the varkind tend to wear heavy enduring clothing such as jackets, suits, and boots, favoring ornate and finely made pins and medals as a form of decoration. Females tend to wear some form of bonnet or hat, elaborately decorated with feathers or pins, and favor dresses and coats with careful and neat embroidery.
 
 There are two main types of varkind, very much shaped from the environment they live in. Urban varkind tend to look like domestic pigs, with tufted ears and larger snouts. They are famously happy-go-lucky, with sunshine laden, easy going personalities. Barbarian tribes of varkind tend to have a more boar-like appearance, with thick fur or a crested mane, and the males tend to have large tusks protruding from their faces, which they ornately decorate or trim.
 
+<img src='https://robertrigo.github.io/pics/homebrew/pigfolk.png' style='float:right;width:35%;padding:20px' />
 
+> *“Giggling and snarling to herself, Pack Lord Gnara smiled, listening to the faint squealing and snorting she heard coming from the shield wall, she eagerly charged forward, trampling the smaller gnolls in her bloodlust, only to stop abruptly, as the shield wall parted to reveal a sea of shining tusks, with crossbows pointed at her and her kin, fear coursed through her for the first time, replacing her hot bloodlust with cold fear, as she felt scores of beady eyes lock on to her.”*
+>
+> -- Final Battle of Wolfroot Vale
 
 Varkind never forget favor nor offense: they are patient and kind with friends and loved ones, and vicious and unforgiving toward their enemies or those who have done them wrong. They are known to hold a grudge for the entirety of their lives.
 
@@ -890,104 +904,118 @@ Varkind names are all hereditary, passing down the family line for centuries. So
 ## Varkind racial traits
 Your varkind character has the following racial traits.
 
- **Ability Score Increase**. The varkind are far more durable than most, taking pride in their stocky shape and ability to face physical hardship. Your Constitution score, both current and maximum, increases by 2.
+<div class="columnsthree">
 
- **Age**. Varkind mature at the same rate as humans, yet live much longer, often two or three centuries.
+- **Ability Score Increase**. The varkind are far more durable than most, taking pride in their stocky shape and ability to face physical hardship. Your Constitution score, both current and maximum, increases by 2.
 
-![varkind](https://robertrigo.github.io/pics/homebrew/pigfolk.png) {position:absolute,bottom:0px,left:-20px,width:55%}
+- **Age**. Varkind mature at the same rate as humans, yet live much longer, often two or three centuries.
 
+- **Alignment**. Possessed of a kind and generous nature, varkind are often neutral good, taking care of those in need, yet never truly taking sides in most conflicts, choosing to remain uninvolved until absolutely necessary.
 
+- **Size**. Varkind are as stout as dwarves, standing between 4 and 5½ feet tall, and weighing 100-200 pounds. Your size is Medium.
 
+- **Languages**. You know Common and Varkind.
 
+- **Speed**. Their bulky stature and awkward frame slightly hampers them. You have a movement speed of 25 feet. However, your speed is not reduced by wearing heavy armor.
 
+- **Invincible Stomach**. You have advantage on saving throws against indigestible poisons, as well as other effects caused by consumed items or goods.
 
+- **Mud Lover**. Difficult terrain due to mud does not impede your movement.
 
+- **Sure Footed**. Your low center of gravity makes it difficult to knock you over. You have advantage on saving throws you make to avoid being knocked prone.
 
- **Alignment**. Possessed of a kind and generous nature, varkind are often neutral good, taking care of those in need, yet never truly taking sides in most conflicts, choosing to remain uninvolved until absolutely necessary.
+- **Thunderous Squeal**. As a ***bonus action***, you can release a loud squeal. It is audible at 500 feet, and creatures within 10 feet of you that can hear you must succeed a Constitution saving throw DC 8 + your proficiency bonus + your Constitution modifier, or take your level in thunder damage. You can use this ability once, and regain use of it when you finish a long rest.
 
- **Size**. Varkind are as stout as dwarves, standing between 4 and 5½ feet tall, and weighing 100-200 pounds. Your size is Medium.
+- **Truffle Hunter**. You have advantage on checks you make with the Perception or Investigation skills that rely on smell. Anything that would overwhelm your sense of smell would disable this bonus until you take a rest.
 
- **Languages**. You know Common and Varkind.
+</div>
 
- **Speed**. Their bulky stature and awkward frame slightly hampers them. You have a movement speed of 25 feet. However, your speed is not reduced by wearing heavy armor.
-
- **Invincible Stomach**. You have advantage on saving throws against indigestible poisons, as well as other effects caused by consumed items or goods.
-
- **Mud Lover**. Difficult terrain due to mud does not impede your movement.
-
- **Sure Footed**. Your low center of gravity makes it difficult to knock you over. You have advantage on saving throws you make to avoid being knocked prone.
-
- **Thunderous Squeal**. As a ***bonus action***, you can release a loud squeal. It is audible at 500 feet, and creatures within 10 feet of you that can hear you must succeed a Constitution saving throw DC 8 + your proficiency bonus + your Constitution modifier, or take your level in thunder damage. You can use this ability once, and regain use of it when you finish a long rest.
-
- **Truffle Hunter**. You have advantage on checks you make with the Perception or Investigation skills that rely on smell. Anything that would overwhelm your sense of smell would disable this bonus until you take a rest.
-
- **Subtype**. There are two main subraces of varkind, the urban variant and the tribal boarlike subtype.
+**Subtype**. There are two main subraces of varkind, the urban variant and the tribal boarlike subtype.
 
 ### Urban
 Slightly smaller and decidedly rounder than their more rustic cousins, the urban varkind make up for their lack of physical abilities with a razor sharp mind and jovial ways, making wonderful tradesmen, and merchants, as well as brilliant strategists.
 
- **Buffet Enthusiast**. After a meal where you consume twice as much food as what's normal for you during a rest, you also gain an amount of temporary hit points equal to 1d6 + your Constitution modifier. This increases by +1d6 at 6th, 12th and 18th level.
+<div class="columnsthree">
 
- These temporary hit points stack with other sources of temporary hit points granted by food. Once you benefit from this trait, you can't benefit from it again until you finish a long rest.
+- **Buffet Enthusiast**. After a meal where you consume twice as much food as what's normal for you during a rest, you also gain an amount of temporary hit points equal to 1d6 + your Constitution modifier. This increases by +1d6 at 6th, 12th and 18th level.
 
- **Open Minded**. You are proficient with the Insight skill.
+  These temporary hit points stack with other sources of temporary hit points granted by food. Once you benefit from this trait, you can't benefit from it again until you finish a long rest.
 
+- **Open Minded**. You are proficient with the Insight skill.
+
+</div>
 
 
 ### Tribal
 This larger, more boarlike subrace, live a barbaric lifestyle in smaller tribes. They have tusks and a dark skin covered with thick hair.
 
- **Endurance**. When you are dropped to 0 hp or less, you may use your ***reaction*** to go back to 1 hp. You regain the use of this ability after taking a long rest.
+<div class="columnsthree">
 
- **Tusks**. With their deadly tusks, they’re capable of impaling all in their way. They are natural weapons dealing 1d4 + your Strength modifier slashing damage. This base damage increases to 1d6 at 6th level, 1d8 at 12th level, and 1d10 at 18th level. You may also use this attack as an “off-hand” attack as a ***bonus action***.
+- **Endurance**. When you are dropped to 0 hp or less, you may use your ***reaction*** to go back to 1 hp. You regain the use of this ability after taking a long rest.
 
-## Varkind Class Options
+- **Tusks**. With their deadly tusks, they’re capable of impaling all in their way. They are natural weapons dealing 1d4 + your Strength modifier slashing damage. This base damage increases to 1d6 at 6th level, 1d8 at 12th level, and 1d10 at 18th level. You may also use this attack as an “off-hand” attack as a ***bonus action***.
+
+</div>
+
+### Varkind Class Options
 Varkind approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
-### Alchemist
-**Urban Varkind** are masters of Molecular gastronomy. Their life often revolves around food, and varkind alchemists often combine alchemy with food. If you multiclass as a professional (cook), you can count some of your professional class levels as being alchemist levels in regards to your alchemist class features (applies to concoctions and brew potions). You can count max number of levels equal to your alchemist level.
+<div class="columnstwo">
 
-**Tribal Varkind**. The invincible stomach of this race causes the bombs and poison concoctions of the tribal varkind alchemist not to be deadly to ingest for them. In fact, even though they taste terrible, they can function as potion concoction when drunk by the alchemist.
+- ### Alchemist
+    **Urban Varkind** are masters of Molecular gastronomy. Their life often revolves around food, and varkind alchemists often combine alchemy with food. If you multiclass as a professional (cook), you can count some of your professional class levels as being alchemist levels in regards to your alchemist class features (applies to concoctions and brew potions). You can count max number of levels equal to your alchemist level.
 
-### Cavalier
-Varkind are not a very graceful people. They usually avoid riding, instead prefering to ride in a chariat or cart. As a varkind cavalier you can use a mount-drawn chariot instead of a steed.
+    **Tribal Varkind**. The invincible stomach of this race causes the bombs and poison concoctions of the tribal varkind alchemist not to be deadly to ingest for them. In fact, even though they taste terrible, they can function as potion concoction when drunk by the alchemist.
 
-### Professional
-Not surprisingly, the varkind make very good professionals, especially cooks.
+    <hr class="dividerinfolk">
 
-Whenever the professional class description mentions your Wisdom modifier, you can use your proficiency bonus instead.
+- ### Cavalier
+    Varkind are not a very graceful people. They usually avoid riding, instead prefering to ride in a chariat or cart. As a varkind cavalier you can use a mount-drawn chariot instead of a steed.
 
-Also, for **urban varkind** see the alchemist class option.
+    <hr class="dividerinfolk">
 
+- ### Professional
+    Not surprisingly, the varkind make very good professionals, especially cooks.
 
+    Whenever the professional class description mentions your Wisdom modifier, you can use your proficiency bonus instead.
 
+    Also, for **urban varkind** see the alchemist class option.
 
+    <hr class="dividerinfolk">
 
+</div>
 
-
-
-## Racial Feats
+### Racial Feats
 As a varkind, you have access to the following feat.
 
-<div class="feat">
 
-## Belly of the Beast
-*Requirement: Urban varkind*
+<div class="columnstwo">
 
-Few varkind posses a gut as impermeable, nor as odious as your own.
-- Your **Constitution** score increases by 1.
-- Once, after benefiting from your Buffet Enthusiast trait, you can excrete a staggering cloud of yellow, nauseating gas. For the following turn, each creature that comes within 5 feet of you must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or that are immune to poison automatically succeed on this saving throw. This effect is rendered null in areas of moderate wind.
-- When you benefit from your Buffet Enthusiast trait, add half of your level to the total temporary hit points gained.
+- <div class="feat">
+
+    ## Belly of the Beast
+    *Requirement: Urban varkind*
+
+    Few varkind posses a gut as impermeable, nor as odious as your own.
+
+    Your **Constitution** score increases by 1.
+
+    Once, after benefiting from your Buffet Enthusiast trait, you can excrete a staggering cloud of yellow, nauseating gas. For the following turn, each creature that comes within 5 feet of you must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or that are immune to poison automatically succeed on this saving throw. This effect is rendered null in areas of moderate wind.
+
+    When you benefit from your Buffet Enthusiast trait, add half of your level to the total temporary hit points gained.
+
+  </div>
+
+</div>
 
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-rabbitfolk">Kunek</a></h1>
 
-
-
-# <a name="internal-rabbitfolk">Kunek</a>
 Kunek are small humanoids with short fur, and the heads, tails and feet of rabbits. Their powerful limbs make them capable of remarkable leaps. They have long, sensitive ears and their eyesight detects motion almost reflexively. Their eyes are placed on the sides of their heads, akin to true hares and rabbits, giving them almost complete 360-degree vision. Kunek from northern climes have white fur, while those from southern areas will have fur of a darker color.
 
 They are taller than halflings, standing a bit less than three and a half feet tall, but a little more lanky, weighing about 35 lbs. Kunek like lavish clothing with earthy tones for colors, preferring whites, greens, and brown hues over reds and purples. They have a preference for robes and coats, as well as long sleeve shirts, preferring the comfort they bring.
@@ -997,6 +1025,8 @@ They are careful, intentional and cautious beings, but make excellent and loyal 
 Kunek are kind and caring, placing a great deal of stock in performing good deeds, but the expectation of reward is not something that enters their minds. Other races think of them as flighty busybodies because of their predilection to take on more than one task at a time, but they have short lives and only so long to accomplish their goals.
 
 They regularly have as many as five children at once. Their infants are tiny and helpless for about a year, but quickly grow and reach adulthood in just a few short years, mastering language and their bodies at an incredible rate.
+
+<img src='https://www.belloflostsouls.net/wp-content/uploads/2021/09/harengon-header-image.jpg' style='float:right;width:35%;padding:20px' />
 
 #### Warrens
 Kunek life is centered on warrens, independent communities of kunek usually made up of multiple families with complex interwoven bloodlines. Like traditional halfling homes, warrens are built partially underground, often beneath low hills or downs. Unlike halfling villages, however, kunek communities are interconnected below ground, often creating a bewildering maze of tunnels and passageways.
@@ -1017,15 +1047,6 @@ But by far the most important figure in the kunek pantheon is El-ahrairah, the P
 #### Kunek Names
 Kunek have two names. Their first name is usually taken from human or halfling cultures in their geographical areas, whilst their family names take inspiration from the environment and the deeds of their ancestors—their family names are fluid and prone to change every few generations, whether from changing reputations, a new deed, or settling in a new area.
 
-![kunek](https://robertrigo.github.io/pics/homebrew/rabbit.png) {position:absolute,bottom:0px,right:40px,width:38%}
-
-
-
-
-
-
-
-
  **Male**: Blackavar, Buck, Celandine, Charlock, Chervil, Hawkbit, Hrairoo, Laburnum, Nightshade, Orchis, Sainfoin, Scabious, Speedwell, Thlayli, Threar, Vervain
 
  **Female**: Anflellen, Betony, Clover, Flyarth, Hynthlay, Nethilta, Nilhain, Nyreem, Thrayonlosa, Vilthuril, Violet
@@ -1035,73 +1056,96 @@ Kunek have two names. Their first name is usually taken from human or halfling c
 ## Kunek racial traits
 Your kunek character has the following racial traits.
 
- **Ability Score Increase**. Your Luck ability score, both current and maximum, increases by 2, while your Strength ability score, both current and maximum, is reduced by 4.
+<div class="columnsthree">
 
- **Age**. Kunek mature at 5 years, and live up to 30 years.
+- **Ability Score Increase**. Your Luck ability score, both current and maximum, increases by 2, while your Strength ability score, both current and maximum, is reduced by 4.
 
- **Alignment**. Kunek tend to be warm, polite, and kind, following a commonly good alignment. They are known for having a strong conscience and harbor little ill will towards others, and are just as likely to be lawful as chaotic.
+- <img src='https://robertrigo.github.io/pics/homebrew/rabbit.png' style='width:95%;padding:20px' />
 
- **Languages**. You know Common and Kunek.
+- **Age**. Kunek mature at 5 years, and live up to 30 years.
 
- **Size**. Kunek are between 3 and 4 feet tall, and weigh an average of 35 pounds. Your size is Small.
+- **Alignment**. Kunek tend to be warm, polite, and kind, following a commonly good alignment. They are known for having a strong conscience and harbor little ill will towards others, and are just as likely to be lawful as chaotic.
 
- **Speed**. You have a movement speed of 30 feet.
+- **Languages**. You know Common and Kunek.
 
- **Low-light Vision**. Accustomed to life in the warren, you can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+- **Size**. Kunek are between 3 and 4 feet tall, and weigh an average of 35 pounds. Your size is Small.
 
- **Keen Senses**. You have advantage on Perception checks that rely on hearing. In addition, you may add your proficiency bonus to initiative checks.
+- **Speed**. You have a movement speed of 30 feet.
 
- **Nimble Hop**. Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start, and you can use your Dexterity score in place of your Strength score in regards to jumping.
+- **Low-light Vision**. Accustomed to life in the warren, you can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
 
- **Obligate Vegetarian**. Kunek cannot eat meat. If you do so you must make a DC 15 Constitution saving throw or be poisoned until you take a long rest.
+- **Keen Senses**. You have advantage on Perception checks that rely on hearing. In addition, you may add your proficiency bonus to initiative checks.
 
- **Rabbit's Foot**. As a ***reaction***, when a hostile creature moves adjacent to you, you can take the Dodge action and may move up to half your speed without provoking opportunity attacks. You can do this a number of times equal to you Luck ability modifier, and you regain the uses after you finish a long rest.
+- **Nimble Hop**. Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start, and you can use your Dexterity score in place of your Strength score in regards to jumping.
 
- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for Athletic checks when your body weight is the only factor, e.g. climbing. In addition, you have advantage on those checks.
+- **Obligate Vegetarian**. Kunek cannot eat meat. If you do so you must make a DC 15 Constitution saving throw or be poisoned until you take a long rest.
 
+- **Rabbit's Foot**. As a ***reaction***, when a hostile creature moves adjacent to you, you can take the Dodge action and may move up to half your speed without provoking opportunity attacks. You can do this a number of times equal to you Luck ability modifier, and you regain the uses after you finish a long rest.
 
+- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for Athletic checks when your body weight is the only factor, e.g. climbing. In addition, you have advantage on those checks.
 
-## Kunek Class Options
+</div>
+
+### Kunek Class Options
 Kunek approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
-### Bard
-Kunek has a unique way of performing music. They use their feet and stomp the rythm. This allows them to sing and play without needing an instrument.
+<div class="columnstwo">
 
-### Cavalier
-Kunek prefer not to be mounted, instead choosing to walk or ride a comfortable cart.
+- ### Bard
+    Kunek has a unique way of performing music. They use their feet and stomp the rythm. This allows them to sing and play without needing an instrument.
 
-### Fighter
-At 1st level, you can add the Tunnel Fighter and Close Quarter Shooter styles to your selection of fighting styles.
+    <hr class="dividerinfolk">
 
-<div class="feat">
+- ### Cavalier
+    Kunek prefer not to be mounted, instead choosing to walk or ride a comfortable cart.
 
-## Tunnel Fighter
-You excel at defending narrow passages, doorways, and other tight spaces. As a ***bonus action***, you can enter a defensive stance that lasts until the start of your next turn.
+    <hr class="dividerinfolk">
 
-While in your defensive stance, you can make opportunity attacks without using your ***reaction***, and you can use your ***reaction*** to make a melee attack against a creature that moves more than 5 feet while within your reach.
+- ### Fighter
+    At 1st level, you can add the Tunnel Fighter and Close Quarter Shooter styles to your selection of fighting styles.
+
+    <div class="feat">
+
+    ## Tunnel Fighter
+    You excel at defending narrow passages, doorways, and other tight spaces. As a ***bonus action***, you can enter a defensive stance that lasts until the start of your next turn.
+
+    While in your defensive stance, you can make opportunity attacks without using your ***reaction***, and you can use your ***reaction*** to make a melee attack against a creature that moves more than 5 feet while within your reach.
+
+    </div>
+
+    <div class="feat">
+
+    ## Close Quarters Shooter
+    You are trained in making ranged attacks at close quarters. When making a ranged attack while adjacent to a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks.
+
+    </div>
+
+    <hr class="dividerinfolk">
+
+- ### Paladin
+    A kunek paladin of 2nd level can choose the Tunnel Fighter fighting style instead of the ones in the class listing (see the fighter entry above).
+
+    <hr class="dividerinfolk">
+
+- ### Ranger
+    A kunek ranger of 2nd level can choose the Close Quarters Shooter fighting style instead of the ones in the class listing (see the fighter entry above).
+
+    <hr class="dividerinfolk">
+
+- <img src='../assets/images/kunek.png' style='width:65%;padding:20px' />
+
+</div>
 
 
-<div class="feat">
-
-## Close Quarters Shooter
-You are trained in making ranged attacks at close quarters. When making a ranged attack while adjacent to a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks.
-
-
-### Paladin
-A kunek paladin of 2nd level can choose the Tunnel Fighter fighting style instead of the ones in the class listing (see the fighter entry above).
-
-### Ranger
-A kunek ranger of 2nd level can choose the Close Quarters Shooter fighting style instead of the ones in the class listing (see the fighter entry above).
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-ratfolk">Ratfolk</a></h1>
 
-
-
-
-
-# <a name="internal-ratfolk">Ratfolk</a>
 Ratfolk are small, rodent-like humanoids; originally native to subterranean areas in dry deserts and plains, they are now more often found in nomadic trading caravans. Much like the pack rats they resemble, ratfolk are tinkerers and hoarders by nature, and as a whole are masters of commerce, especially when it comes to acquiring and repairing mechanical or magical devices. Though some are shrewd merchants who carefully navigate the shifting alliances of black markets and bazaars, many ratfolk love their stockpiles of interesting items far more than money, and would rather trade for more such prizes to add to their hoards over mere coins. It's common to see a successful crew of ratfolk traders rolling out of town with an even larger bundle than they entered with, the whole mess piled precariously high on a cart drawn by giant rats.
+
+<img src='https://robertrigo.github.io/pics/ratfolk.png' style='float:left;width:35%;padding:20px' />
 
 #### Physical Description
 Most ratfolk stand slightly shorter than men, no more than four or five feet tall and slightly built. Fur covers their entire bodies, and their fingers and toes end in small, sharp talons. Their fur colors range widely, from the rare shades of black or white to the vastly more common reddish brown. their incisors extend below their jaw and can cut through wood and flesh with equal ease. Ratfolk eyes are small and red, and reflect light well. In addition, they possess sharp hearing and a keen sense of smell. They often wear robes to conceal their forms in cities, as they know other humanoids find their rodent features distasteful.
@@ -1129,407 +1173,228 @@ Ratfolk individuals are driven by a desire to acquire interesting items and a co
 ## <a name="internal-trait">Ratfolk traits</a>
 Your ratfolk character has a number of traits in common with all other ratfolk.
 
- **Ability Score Increase**. Ratfolk are agile and clever, but physically weak. Your Deterity ability score, both current and maximum, increases by 2, while your Strength ability score, both current and maximum, is reduced by 2.
+<div class="columnsthree">
 
- **Age**. Ratfolk mature quicker than humans do, and most are expected to settle down to into an adult life by around age 10. They can live 30 to 40 years on average, with some very well-kept individuals going on to live 50 years.
+- **Ability Score Increase**. Ratfolk are agile and clever, but physically weak. Your Deterity ability score, both current and maximum, increases by 2, while your Strength ability score, both current and maximum, is reduced by 2.
 
-![ratfolk](https://robertrigo.github.io/pics/ratfolk.png) {position:absolute,bottom:0px,right:20px,width:44%}
+- **Age**. Ratfolk mature quicker than humans do, and most are expected to settle down to into an adult life by around age 10. They can live 30 to 40 years on average, with some very well-kept individuals going on to live 50 years.
 
+- **Alignment**. Ratfolk are free spirits and are most often Chaotic, tending to ignore rules that don’t suit their tastes. They also tend towards Good, given that they prefer social groupings and generally value communal care over selfishness.
 
+- **Languages**. You speak Common.
 
+- **Size**. Ratfolk are at the lower limit of Medium size.
 
+- **Speed**. You have a base speed of 30 ft.
 
+- **Low-light Vision**. Accustomed to life beneath the ground, you have superior vision. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
 
+- **Sneaky**. You are proficien with the Stealth skill.
 
+</div>
 
- **Alignment**. Ratfolk are free spirits and are most often Chaotic, tending to ignore rules that don’t suit their tastes. They also tend towards Good, given that they prefer social groupings and generally value communal care over selfishness.
-
- **Languages**. You speak Common.
-
- **Size**. Ratfolk are at the lower limit of Medium size.
-
- **Speed**. You have a base speed of 30 ft.
-
- **Low-light Vision**. Accustomed to life beneath the ground, you have superior vision. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
-
- **Sneaky**. You are proficien with the Stealth skill.
-
- **Subtype**. Ratfolk are split into two main types: Wild walkers and Sewer dwellers. Choose one of these.
-
+**Subtype**. Ratfolk are split into two main types: Wild walkers and Sewer dwellers. Choose one of these.
 
 
 ### Sewer Dweller Ratfolk
 Sewer dwellers call underground network of tunnels or sewers their home, surviving however they can in the waste of others. They are typically more bitter and are often more cunning.
 
- **Natural Tinker**. You have proficiency with artisan’s tools (tinker’s tools) and crossbows.
+<div class="columnsthree">
 
- **Sewer Resilience**. You have advantage on saving throws to resist poison and against contracting diseases, including magical diseases.
+- **Natural Tinker**. You have proficiency with artisan’s tools (tinker’s tools) and crossbows.
+
+- **Sewer Resilience**. You have advantage on saving throws to resist poison and against contracting diseases, including magical diseases.
+
+</div>
 
 ### Wild Walker Ratfolk
 Wild walkers are ratfolk who hail from the far reaches of civilization. They make their homes in burrows in forests or hills.
 
- **Scent**. You have proficiency with the Perception skill and advantage on checks made to perceive something by smell. In addition you can track by scent.
+<div class="columnsthree">
 
- **Trailblazer**. You to move an additional 5 feet when taking the dash action.
+- **Scent**. You have proficiency with the Perception skill and advantage on checks made to perceive something by smell. In addition you can track by scent.
 
+- **Trailblazer**. You to move an additional 5 feet when taking the dash action.
 
+</div>
 
-## Ratfolk class options
+### Ratfolk class options
 Ratfolk approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
-### Barbarian
-Ratfolk fight viciously when cut off from friends and allies. Whenever you are reduced below half your hp, and have no conscious ally within 30 feet, reduce all damage received by 1. This stacks with other similar abilities.
+<div class="columnstwo">
 
-In addition you have access to the <a href="#internal-tailfighter">path of the Tailfighter</a>.
+- ### Barbarian
+    Ratfolk fight viciously when cut off from friends and allies. Whenever you are reduced below half your hp, and have no conscious ally within 30 feet, reduce all damage received by 1. This stacks with other similar abilities.
 
-### Cavalier
-Ratfolk are often seen riding giant rats.
+    In addition you have access to the <a href="../Classes/barbarian.html#internal-tailfighter">Path of the Tailfighter</a>.
 
-### Fighter
-At 1st level, you can add the Tunnel Fighter and Close Quarter Shooter styles to your selection of fighting styles.
+    <hr class="dividerinfolk">
 
-<div class="feat">
+- ### Cavalier
+    Ratfolk are often seen riding giant rats.
 
-## Tunnel Fighter
-You excel at defending narrow passages, doorways, and other tight spaces. As a ***bonus action***, you can enter a defensive stance that lasts until the start of your next turn.
+    <hr class="dividerinfolk">
 
-While in your defensive stance, you can make opportunity attacks without using your ***reaction***, and you can use your ***reaction*** to make a melee attack against a creature that moves more than 5 feet while within your reach.
+- ### Fighter
+    At 1st level, you can add the Tunnel Fighter and Close Quarter Shooter styles to your selection of fighting styles.
+
+    <div class="feat">
+
+    ## Tunnel Fighter
+    You excel at defending narrow passages, doorways, and other tight spaces. As a ***bonus action***, you can enter a defensive stance that lasts until the start of your next turn.
+
+    While in your defensive stance, you can make opportunity attacks without using your ***reaction***, and you can use your ***reaction*** to make a melee attack against a creature that moves more than 5 feet while within your reach.
+
+    </div>
+
+    <div class="feat">
+
+    ## Close Quarters Shooter
+    You are trained in making ranged attacks at close quarters. When making a ranged attack while adjacent to a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks.
+
+    </div>
+
+    <hr class="dividerinfolk">
+
+- ### Paladin
+    A ratfolk paladin of 2nd level can choose the Tunnel Fighter fighting style instead of the ones in the class listing (see the fighter entry above).
+
+    <hr class="dividerinfolk">
+
+- ### Ranger
+    A ratfolk ranger of 2nd level can choose the Close Quarters Shooter fighting style instead of the ones in the class listing (see the fighter entry above).
+
+    <hr class="dividerinfolk">
+
+- <img src='https://robertrigo.github.io/pics/ratfolk_2.png' style='width:75%;padding:20px' />
+
+</div>
 
 
-<div class="feat">
-
-## Close Quarters Shooter
-You are trained in making ranged attacks at close quarters. When making a ranged attack while adjacent to a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks.
-
-
-<!--
-### Monk
-A ratfolk monk has access to the <a href="#internal-feral">Way of the Feral</a>.
--->
-
-### Paladin
-A ratfolk paladin of 2nd level can choose the Tunnel Fighter fighting style instead of the ones in the class listing (see the fighter entry above).
-
-### Ranger
-A ratfolk ranger of 2nd level can choose the Close Quarters Shooter fighting style instead of the ones in the class listing (see the fighter entry above).
-
-![skull_divider](https://robertrigo.github.io/pics/ratfolk_2.png) {position:absolute,bottom:-10px,left:-10px,width:53%}
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-class">Beastfolk Class Options</a></h1>
 
-
-
-# <a name="internal-class">Beastfolk Class Options</a>
 There are a lot of similarities in how the different beastfolk approach character classes, and they are all summarized in this chapter. Each class will also mention if the options apply to all beastfolk of just some.
 
-### Alchemist
-Most beastfolk never even come into contact with the alchemical crafts unless they live in or near a human city. However, those who have can usually become as good alchemists as any other race.
+<div class="columnstwo">
 
-### Barbarian
-Raging beastfolk often give in completely to their animalistic side. If attacking only with natural weapons while raging, you can make an additional attack when you take the Attack action. You may also attack with a bonus action, as if wielding an off-hand weapon.
+- ### Alchemist
+    Most beastfolk never even come into contact with the alchemical crafts unless they live in or near a human city. However, those who have can usually become as good alchemists as any other race.
 
-If you are a beastfolk without natural weapons, you can still bite, kick, rip and tear as if you had a natural weapon dealing 1d3 bludgeoning or slashing damage. You can use either your Strength or Dexterity for those attacks.
+    <hr class="dividerinfolk">
 
-### Bard
-In human societies a beastfolk bard is usually not very sought after, as what is considered music differs a lot between human and most beastfolk. Humans generally considers beastfolk singing to be annoying noise, with the exception of **kunek**, who actually has excellent singing voices.
+- ### Barbarian
+    Raging beastfolk often give in completely to their animalistic side. If attacking only with natural weapons while raging, you can make an additional attack when you take the Attack action. You may also attack with a bonus action, as if wielding an off-hand weapon.
 
-### Cleric
-Some beastfolk follow the same pantheons as their human or (in the case of **kunek**) halfling neighbours. Others follow a more primal patheon, represented in the cleric class document as the Celtic pantheon.
+    If you are a beastfolk without natural weapons, you can still bite, kick, rip and tear as if you had a natural weapon dealing 1d3 bludgeoning or slashing damage. You can use either your Strength or Dexterity for those attacks.
 
-If you are a cleric following the celtic pantheon, whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    <hr class="dividerinfolk">
 
-### Cursed
-Humans often consider the different beastfolk races to already be the victims of a curse, but you know it is not true, because you have been struck by a real curse.
+- ### Bard
+    In human societies a beastfolk bard is usually not very sought after, as what is considered music differs a lot between human and most beastfolk. Humans generally considers beastfolk singing to be annoying noise, with the exception of **kunek**, who actually has excellent singing voices.
 
-Whenever the cursed class description mentions your Intelligence modifier (i.e. for spellcasting), you may instead use your proficiency bonus.
+    <hr class="dividerinfolk">
 
+- ### Cleric
+    Some beastfolk follow the same pantheons as their human or (in the case of **kunek**) halfling neighbours. Others follow a more primal patheon, represented in the cleric class document as the Celtic pantheon.
 
+    If you are a cleric following the celtic pantheon, whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-### Druid
-Beastfolk druids are more common than clerics, as these races are strongly connected to nature. The worship is often not to nature, but more to the same pantheon as the clerics.
+    <hr class="dividerinfolk">
 
-Whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+- ### Cursed
+    Humans often consider the different beastfolk races to already be the victims of a curse, but you know it is not true, because you have been struck by a real curse.
 
-### Feyblood
-As a beastfolk feyblood, you can use your fairy dust to transform yourself or a willing creatures to the beast you are related to. This functions as *polymorph*, but lasts until the transformee ends it or becomes unconscious. If cast on yourself, you keep your mental abilities.
+    Whenever the cursed class description mentions your Intelligence modifier (i.e. for spellcasting), you may instead use your proficiency bonus.
 
-### Fighter
-The natural traits of beastfolk, such as thick fur or feral ways, make them fearsome fighters.
+    <hr class="dividerinfolk">
 
-As a beastfolk fighter you may use your proficiency bonus instead of your Dexterity bonus when calculating AC and initiative.
+- ### Druid
+    Beastfolk druids are more common than clerics, as these races are strongly connected to nature. The worship is often not to nature, but more to the same pantheon as the clerics.
 
-### Inquisitor
-The religious practices of beastfolk are usually not focused on things outside their own communities, so the inquisitor role is mostly non existant. The only time you would see a beastfolk inquisitor would be if the individual grew up among humans.
+    Whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-<!--
-### Monk
-Beastfolk monks have access to the monk <a href="#internal-feral">way of the feral</a>.
+    <hr class="dividerinfolk">
 
-### Monster Hunter
-Beastfolk monster hunter is sometimes accused of being monsters themselves, which often gives them more to prove, and a stronger conviction to their cause.
+- ### Feyblood
+    As a beastfolk feyblood, you can use your fairy dust to transform yourself or a willing creatures to the beast you are related to. This functions as *polymorph*, but lasts until the transformee ends it or becomes unconscious. If cast on yourself, you keep your mental abilities.
 
-Whenever the monster hunter class description mentions your Wisdom modifier, you may instead use your proficiency bonus. In addition, when you become a 1st level monster hunter, select Strength or Dexterity. You may use that ability modifier +3 or your proficiency bonus, whichever is lower, when calculating attack and damage rolls using the ability.
--->
+    <hr class="dividerinfolk">
 
-### Paladin
-Paladins are embodiments of the heroic ideals for their race. As the most common race that becomes paladins are humans, the archetypical behaviour of paladins is the ideal for humans.
+- ### Fighter
+    The natural traits of beastfolk, such as thick fur or feral ways, make them fearsome fighters.
 
-This often confuses people when they first meet a beastfolk paladin, as they follow the ideals of their race, which might be similar, but can also be completely different from humans.
+    As a beastfolk fighter you may use your proficiency bonus instead of your Dexterity bonus when calculating AC and initiative.
 
-### Professional
-Beastfolk professionals fill the same niche in their communities that professionals do in other racial communities. However, generally beastfolk tend to prefer and value the more practical fields, like the candlemaker, cook, smith or forester.
+    <hr class="dividerinfolk">
 
-If belonging to a more practical field, whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+- ### Inquisitor
+    The religious practices of beastfolk are usually not focused on things outside their own communities, so the inquisitor role is mostly non existant. The only time you would see a beastfolk inquisitor would be if the individual grew up among humans.
 
+    <hr class="dividerinfolk">
 
+- ### Paladin
+    Paladins are embodiments of the heroic ideals for their race. As the most common race that becomes paladins are humans, the archetypical behaviour of paladins is the ideal for humans.
 
+    This often confuses people when they first meet a beastfolk paladin, as they follow the ideals of their race, which might be similar, but can also be completely different from humans.
 
+    <hr class="dividerinfolk">
 
+- ### Professional
+    Beastfolk professionals fill the same niche in their communities that professionals do in other racial communities. However, generally beastfolk tend to prefer and value the more practical fields, like the candlemaker, cook, smith or forester.
 
+    If belonging to a more practical field, whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
+    <hr class="dividerinfolk">
 
-### Ranger
-No humanoid race is as attuned to nature as beastfolk.
+- ### Ranger
+    No humanoid race is as attuned to nature as beastfolk.
 
-Whenever the Ranger class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking (attack and damage). Make this choice at level 1 and it cannot be changed later.
+    Whenever the Ranger class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking (attack and damage). Make this choice at level 1 and it cannot be changed later.
 
-### Rogue
-Beastfolk are by nature adept at sneaking around as they all descended from predators or prey.
+    <hr class="dividerinfolk">
 
-As a beastfolk rogue, whenever you are in the wild and make a Dexterity ability skill check, you may use your proficiency bonus instead of your Dexterity bonus. You may not use more than half your rogue level.
+- ### Rogue
+    Beastfolk are by nature adept at sneaking around as they all descended from predators or prey.
 
-### Sorcerer
-Sorcerers are just as rare and varied as within other races.
+    As a beastfolk rogue, whenever you are in the wild and make a Dexterity ability skill check, you may use your proficiency bonus instead of your Dexterity bonus. You may not use more than half your rogue level.
 
-Whenever the Sorcerer class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    <hr class="dividerinfolk">
 
+- ### Sorcerer
+    Sorcerers are just as rare and varied as within other races.
 
+    Whenever the Sorcerer class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
-### Swashbuckler
-Beastfolk that choose to take the path of swashbuckling tend to more clever than calculating.
+    <hr class="dividerinfolk">
 
-Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
+- ### Swashbuckler
+    Beastfolk that choose to take the path of swashbuckling tend to more clever than calculating.
 
-### Warlock
-Taking shortcuts to power is just as common among beastfolk as any other thinking creature.
+    Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
-Whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    <hr class="dividerinfolk">
 
-### Wizard
-A beastfolk mage often use alternative ways of recording spells, like runes worn as necklaces or runcarved staffs.
+- ### Warlock
+    Taking shortcuts to power is just as common among beastfolk as any other thinking creature.
 
-Whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
+    Whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
+    <hr class="dividerinfolk">
 
+- ### Wizard
+    A beastfolk mage often use alternative ways of recording spells, like runes worn as necklaces or runcarved staffs.
 
+    Whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
 
+    <hr class="dividerinfolk">
 
-
-
-
-# <a name="internal-tailfighter">Barbarian Path of the Tailfighter</a>
-Originally developed by the savage ratfolk warriors, the frenzied, spinning method of tailfighting can only loosely be described as a martial style. By using their tails as both defensive aids and lethal weapons, the tailfighter can catch even the most seasoned opponent off guard.
-
-##### Racial Restriction
-Only races the physiology to support it can follow the Path of the Tailfighter, i.e. races with tails. This includes Lizardfolk, Ratfolk and some Tieflings.
-
-
-#### Path  Features
-| Barbarian Level | Feature |
-| :-: | :--- |
-| 1st | Tail Adept |
-| 3rd | Tail Fighter |
-| 6th | Lashing Defense, Tail Fighter (d4) |
-| 10th | Quick Stand, Tail Fighter (d6) |
-| 14th | Tripping Tail, Tail Fighter (d8) |
-
-
-#### Tail Adept
-You develop considerable coordination with your tail, allowing you to manipulate or hold simple items such as a lantern or a pitcher with it. You cannot make fine movements or manipulate tiny objects with it, such as picking pockets, using thieves’ tools, or turning a key in a lock.
-
-
-
-#### Tail Fighter
-You can use your tail to make unarmed strikes, dealing 1 + your Strength modifier bludgeoning damage. At 6th level this damage increases to 1d4. At 10th level it increases to 1d6, and at 14th level to 1d8. If you are holding an item in your tail, you cannot make a tail attack.
-
-In addition to normal attacks, you can attack with your tail using a ***bonus action*** as if it were an off-hand weapon, even while wielding a two-handed weapon.
-
-#### Lashing Defense
-You have learned to use your lashing tail and your wild, spinning combat style to protect yourself. While raging, when an opponent makes a melee attack against you, you can use your ***reaction*** to impose disadvantage on the attack roll. If the opponent’s attack misses, you may make a tail attack against one target within reach as part of the same reaction.
-
-#### Quick Stand
-Your tail is so much a part of your movement that it acts much like an extra leg and can even prop you up when you’ve fallen. You have advantage on saving throws against any effect that would knock you prone or force you to move by pushing or pulling. Standing from prone costs you only 5 feet of movement.
-
-#### Tripping Tail
-You can use your tail to make opportunity attacks. If you hit and the target is Large or smaller, in addition to damage, it must make a Strength saving throw against 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). On a failed save, you knock the target prone and its movement is reduced to 0.
-
- :::::
-
-{{}}">wide,descriptive
-#### Tail Weapons
-Some tailed races have created weapons that can be used on their tails. Usually it’s only something sharp or heavy strapped at the end of the tail, which cuts or smashes when swung. These weapons can be used similar to offhand weapons, while allowing for one free hand.
-
-It takes a minute to properly strap a tail weapon for use, but nothing prevents it from being strapped for the entire day. However, this prevents a tail to manipulate objects if it otherwise does. Removing a strapped weapon takes half the time.
-
-
-| Name | Price  | Weight | Special |
-|:-----|:-----:|:------:|:-----------|
-| Tailblade | 10 gp | 1 lbs | Increases damage by +1. Tail attack deals slashing damage instead.
-| Tail Mace | 10 gp | 8 lbs | Increases damage to the next die size.
-
-
-
-
-
-
-
-
-
-
-<!--
-# <a name="internal-feral">Monk Way of the Feral</a>
-Most Monks are controlled and elegant dancers whilst in battle, who have honed their skills through rigorous practice and discipline. You are a Feral Monk. Forgoing this control, you stalk your quarry with an unrelenting fervour before you launch your assault. Feral Monks come from the more beastly races, who can use their fangs or claws to eliminate their prey. Feral Monks are masters of stalking an opponent. Once they have settled on their mark, they will ignore all else until they have achieved the thrill of their hunt.
-
-##### Way of the Feral Features
-| Monk Level | Feature |
-|:--:|:--|
-| 3rd | The Scent of Blood, Tooth and Claw
-| 6th | A Hunter Unleashed
-| 11th | Bathed in Blood
-| 17th | Thrill of the Hunt
-
-#### The Scent of Blood
-From level 3, when you dedicate yourself to the Way of the Feral, you gain the ability to mark your foes as your intended quarry. You can now use your bonus action and spend 1 ki point to mark a target you can see within 60 feet as your intended quarry. For up to 1 hour, you gain the following benefits against them you gain advantage on Wisdom (Perception) and Wisdom (Survival) checks made against this target. In addition, your attacks against your marked quarry cannot suffer from disadvantage.
-
-#### Tooth and Claw
-Also, beginning at 3rd level, you can choose what damage type your unarmed strike deals on a hit - bludgeoning, piercing, or slashing damage.
-
-
-
-
-#### A Hunter Unleashed
-Upon reaching level 6, you have attuned yourself with nature, able to use it to your advantage in the pursuit of your foe. When you use your Step of the Wind feature, you now ignore difficult terrain. In addition, you can now take the Hide action when using your Step of the Wind feature.
-
-#### Bathed in Blood
-Upon reaching level 11, your quarry must fear an even more deadly hunter. When marking your quarry using The Scent of Blood you may spend 1 additional ki point to cause your attacks against score a critical hit on a roll of 19 or 20 on the d20.
-
-In addition to this, when scoring a critical hit against your quarry, you gain resistance to damage done by them until the start of your next turn as your overpowering nature as a hunter shakes their will to fight. This ability has no effect on creatures that are immune to being frightened.
-
-#### Thrill of the Hunt
-Starting from level 17, every one of your senses have been refined and trained. You are the ultimate hunter. When you mark a creature as your quarry using The Scent of Blood, you can sense them wherever they are. For the duration of your blood mark, you always know the exact location of the creature if they are within 60 feet of you and no form of magic can mask their presence from you.
-
-You also gain advantage on the first attack made against your quarry each turn. If your quarry is more than 60 feet away from you, you know the direction that your quarry is in, and whether or not your quarry is within 1 mile of you.
-
-
-
-
-
-
-# <a name="internal-panthera">Monk Way of the Pantherae</a>
-Eat, or be eaten. This simple rule of nature is what guides the Pantherae, a small sect of animalistic beastfolk that live for the hunt. Shunned by the civilized for their ruthlessness and savagery, these individuals embrace their inner beast and take to the wilderness, utilizing their ability to sense and manipulate vital energies in order to easily tear their prey asunder.
-
-While not impossible to reason with, Pantherae seldom seek a peaceful solution to problems, tending to be volatile and quick to ー quite literally ー leap into combat. With bloodshot eyes, they claw their way through their enemies, and as each attack deepens wounds and sputters blood, they revel: this is what they are meant to be.
-
-
-##### Way of the Panthera Features
-| Monk Level | Feature |
-|:----------:|:--------|
-| 3rd | Aim for the Jugular, Roar
-| 6th | Greater Pounce
-| 11th | Inner Beast
-| 17th | Goring Swipes
-
-#### Aim for the Jugular
-Your instincts now pair with your innate mystical abilities, allowing you to sense the concentrations vital energy within a creature's body, making it that much easier to bring them down.
-
-Starting at 3rd level, you may land a critical hit on a roll of 19 or 20. Upon reaching 17th level, you may also land a crítical hit on a roll of 18, 19 or 20.
-
-#### Roar
-At 3rd level, you may spend one Ki point as a bonus action to overcharge your vocal cords and let out a thunderous roar. Any creature within a 15 ft cone takes 1d10 thunder damage and must succeed a Wisdom saving throw or become frightened of you for 30 seconds. The creature may repeat the Wisdom saving throw each of its turns, having it's fear subside on a successful roll.
-
-
-
-
-
-#### Greater Pounce
-At 6th level, you are able to imbue your muscles with vital energy in order to leap forth and bring down an enemy under your powerful claws.
-
-With a running start of 20 ft, you may use an action to spend two Ki points and pounce onto a creature within 20 ft. If it fails a Strength saving throw, the creature is knocked prone and you may perform 2 unarmed attacks against it. On a success, the creature shoves you away and may immediately perform an attack against you as a reaction.
-
-#### Inner Beast
-As you release your Ki, a primal fire begins to rage within your heart, fed by each swipe of your claws and each splatter of blood. The thrill of the hunt takes hold of your being, and the desire to overpower your pray begins to fuel each of your strikes.
-
-Once per long rest, upon reaching the 11th level, you may choose to spend six Ki points to empower consecutive unarmed attacks as follows, for the duration of one minute:
-
-* Each successful consecutive unarmed attack made against a creature cumulatively increases the damage of the following attack by 1d4. (e.g: 1st Unarmed attack +1d4, 2nd Unarmed Attack +2d4, 3rd Unarmed attack +3d4.)
-* If you miss an attack, or if you begin to attack a different target, the additional damage is lost.
-* Your intelligence score is reduced by 4 until the end of the effect.
-
-Additionally, you gain one point of exhaustion once the effect ends.
-
-#### Goring Swipes
-At 17th level, while Inner Beast is active, you may choose to spend one Ki point when you hit an attack and infuse your enemies' wounds with negative energy. If the following attack misses, the additional damage is not lost but does not increase by 1d4.
-
-Additionally, whenever you score a Critical Hit, the additional damage increases by 3d4.
-
-
-
-
-
--->
-
-# <a name="internal-felineStalker">Feline Stalker  - rogue archetype</a>
-Catfolk, as a people, are very proud of their feline heritage. Big cat species are deeply respected and held in high esteem, and competitions of feats of feline athleticism are common. Some catfolk, particularly the adventuring type, seek to emulate the abilities and hunting practices of big cats so as to hone their survival skills. From this tradition comes a rogue archetype unique to the catfolk: the Feline Stalker.
-
-
-#### Archetype Features
-| Rogue Level | Feature |
-|:--:|:---|
-| 1st | Bonus Proficiencies |
-| 3rd | Leaps and Bounds, Sharp Claws
-| 9th | Quick Reflexes
-| 13th | Night Stalker
-| 17th | Hide and Seek
-
-
-#### Bonus Proficiencies
-You gain proficiency with Jumping, Stealth and Tracking.
-
-#### Leaps and Bounds
-You have developed the athleticism of elite catfolk hunters, gaining the following benefits:
-- You can add your Dexterity modifier when calculating the distance and height of your long jumps and high jumps.
-- You take no damage from falling 20 feet or less, and half damage from falling further than that.
-- You cannot be knocked prone from falling.
-- You don't need advantage on your attack roll to use your Sneak Attack if you jump down onto your target from a height of at least 5 feet above it.
-
-
-
-#### Sharp Claws
-Unarmed strikes you make deal 1d6 slashing damage, and you can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of attacks you make with it.
-
-Additionally, you can use the bonus action granted by your Cunning Action to make 1 unarmed strike if you have a free hand to do so.
-
-#### Quick Reflexes
-Your keen instinct for danger can propel you away from danger. When you are targeted by a melee attack that would deal damage to you, you can use your ***reaction*** to leap 5 feet backward away from the attack, avoiding the damage completely. This movement does not provoke opportunity attacks.
-
-Once you escape an attack in this way, you cannot do so again until you complete a short rest.
-
-#### Darkvision
-You have adapted to the darkness and can see 30 feet in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.
-
-#### Hide and Seek
-You have finely honed your ability to remain undetected, as well as to spot hidden threats. You gain the following benefits:
-
-- You have advantage on Stealth checks.
-- You have advantage on ability checks made to spot hidden creatures.
-- You can move stealthily while traveling at a normal pace.
-- When you make an attack against a target that cannot see you, you do not automatically give away your position if you hit or miss with a ranged attack, or if you miss with a melee attack.
-
-
-
+</div>
 
 
 
