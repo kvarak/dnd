@@ -5,23 +5,22 @@ layout: default
 
 <div class="toc" markdown="1">
 
-
-#### <a href="#internal-class">**Class options**</a>
-
 <a href="#internal-apefolk">**Apefolk**</a><br/>
 <a href="#internal-bearfolk">Bearfolk -- **Ursine**</a><br/>
 <a href="#internal-catfolk">**Catfolk**</a><br/>
 <a href="#internal-foxfolk">Foxfolk -- **Vulpine**</a><br/>
-<a href="#internal-frogfolk">Frogfolk -- **Bullywug** and **Grung**</a><br/>
+<a href="#internal-frogfolkBullywug">Frogfolk</a> -- **Bullywug**</a><br/>
+<a href="#internal-frogfolkGrung">Frogfolk</a> -- **Grung**</a><br/>
 <a href="#internal-pigfolk">Porcine folk -- **Varkind**</a><br/>
 <a href="#internal-rabbitfolk">Rabbitfolk -- **Kunek**</a><br/>
 <a href="#internal-ratfolk">**Ratfolk**</a><br/>
+
+#### <a href="#internal-class">**Beastfolk Class options**</a>
 
 </div>
 
 # Beastfolk
 
-### Born with the tools to survive
 Bestial folk can use their bodies in amazing ways, when compared to what most people consider the general bipedal template to be capable of. Some have heightened senses, and others move through obstacles that would challenge someone else with the benefit of daily training. Their origins vary: some are descended from fey in the early verses if the song of creation, and others arose naturally alongside humanity. Some have difficulty integrating into societies; especially where unfounded fear of the lycanthropy hangs over a populace.
 
 > *"I had probably slain at least a hundred Charau-ka before I first befriended one. Like so many others of my kind, I had long since written them off as unintelligent brutes with little to offer.*
@@ -41,8 +40,13 @@ Different types of Bestfolk are extremely diverse, with only the following trais
 #### Beastly Brotherhood
 You have advantage on Animal handling or Intimidation checks when interacting with normal animals related to your kind.
 
-## <a name="internal-apefolk">Apefolk</a>
-Like humans, apefolk are varied, clever, and highly adaptable. Those that leave their homes and native jungles behind are rare enough to turn heads when encountered by the unfamiliar, and at first glance, a naked greater ape is almost indistinguishable from their beastly counterparts. This has led to more than a few unfortunate misunderstandings and members of this proud people have been kept imprisoned by charlatans and circuses who show off their talking ape as a curiosity for passing travelers.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-apefolk">Apefolk</a></h1>
+
+Like <img src='../assets/images/Charau-ka.png' style='float:right;width:25%;padding:20px' />
+humans, apefolk are varied, clever, and highly adaptable. Those that leave their homes and native jungles behind are rare enough to turn heads when encountered by the unfamiliar, and at first glance, a naked greater ape is almost indistinguishable from their beastly counterparts. This has led to more than a few unfortunate misunderstandings and members of this proud people have been kept imprisoned by charlatans and circuses who show off their talking ape as a curiosity for passing travelers.
+
+<img src='../assets/images/apefolk.png' style='float:left;width:30%;padding:20px' />
 
 Apefolk tribes are known for their making alliances and readily join ranks with other races, forming long generational bonds. In areas where this has happened, seeing an ape tending bar or serving as a city guard can become a regular sight. Of all other races, apes are the least likely to trust humans, who they often believe themselves superior to in every way.
 
@@ -51,90 +55,94 @@ Apefolk do not live quite as long as their human cousins, and mature and age at 
 ### Traits
 Apefolk characters have the following traits in common.
 
- **Languages**. You can speak Common and Apelong.
+**Languages**. You can speak Common and Apelong.
 
- **Powerful Build**. You count as one size larger when determining your carrying capacity and the weight you can push, drag and lift, or when grappling a creature.
+**Powerful Build**. You count as one size larger when determining your carrying capacity and the weight you can push, drag and lift, or when grappling a creature.
 
- **Subtype**. Different types of Apefolk are available to you. Choose Ozo or Charau-ka listed in the following section.
-
-
+**Subtype**. Different types of Apefolk are available to you. Choose Ozo or Charau-ka listed in the following section.
 
 ### Ozo
 The mighty Ozo tower over their relatively hairless human cousins, preferring to walk on all fours. They usually resemble gorillas or orangutans.
 
- **Ability Scores**. Your Strength ability score, both current and maximum, increases by 2.
+<div class="columnsthree">
 
- **Age**. Ozo mature at 10 years and live up to 60 years.
+- **Ability Scores**. Your Strength ability score, both current and maximum, increases by 2.
 
- **Size**. Adult males stand between 1.4 and 1.95 m tall, with an arm span that stretches from 2.3 to 2.7 m. Female Ozo are shorter at 1.25 to 1.5 m. A male Ozo weighs on average 170 kg, but can reach weights of 270 kg. Your size is Medium.
+- **Age**. Ozo mature at 10 years and live up to 60 years.
 
- **Speed**. You have a movement speed of 35 feet when your hands are unoccupied, 30 feet when one hand is occupied, and 25 feet when both hands are occupied.
+- **Size**. Adult males stand between 1.4 and 1.95 m tall, with an arm span that stretches from 2.3 to 2.7 m. Female Ozo are shorter at 1.25 to 1.5 m. A male Ozo weighs on average 170 kg, but can reach weights of 270 kg. Your size is Medium.
 
- **Ape Weaponry**. You can use your teeth or hands to make unarmed strikes. If you hit, you deal bludgeoning (fists) or piercing (bite) damage equal to 1d6 + your Strength modifier.
+- **Speed**. You have a movement speed of 35 feet when your hands are unoccupied, 30 feet when one hand is occupied, and 25 feet when both hands are occupied.
 
- **Imposing Stature**. You are proficient with the Intimidation skill.
+- **Ape Weaponry**. You can use your teeth or hands to make unarmed strikes. If you hit, you deal bludgeoning (fists) or piercing (bite) damage equal to 1d6 + your Strength modifier.
 
- **Woodland Traveler**. Difficult terrain due to plants, bushes or trees does not impede your movement.
+- **Imposing Stature**. You are proficient with the Intimidation skill.
+
+- **Woodland Traveler**. Difficult terrain due to plants, bushes or trees does not impede your movement.
+
+</div>
 
 ### Charau-ka
 Charau-ka resemble chimpanzees, and despite their small stature, are much stronger than they look. Their keen minds lead them to all kinds of professions.
 
- **Age**. Charau-ka mature at 10 and live up to 70 years.
+<div class="columnsthree">
 
- **Size**. Charau-ka stand between 3½ and 4½ feet tall, and weigh 80-130 pounds. Your size is Small.
+- **Age**. Charau-ka mature at 10 and live up to 70 years.
 
- **Speed**. You have a movement speed of 25 feet, and a climbing speed of 20 feet.
+- **Size**. Charau-ka stand between 3½ and 4½ feet tall, and weigh 80-130 pounds. Your size is Small.
 
- **Ape Weaponry**. You can use your teeth or hands to make unarmed strikes. If you hit, you deal bludgeoning (fists) or piercing (bite) damage equal to 1d4 + your Strength modifier.
+- **Speed**. You have a movement speed of 25 feet, and a climbing speed of 20 feet.
 
- **Dexterous Feet**. Your feet can serve as a second pair of hands. They can lift a number of pounds equal to five times your Strength score. You can grasp things with your feet, and can use them to do simple tasks like hold objects or open a door or a container.
+- **Ape Weaponry**. You can use your teeth or hands to make unarmed strikes. If you hit, you deal bludgeoning (fists) or piercing (bite) damage equal to 1d4 + your Strength modifier.
 
- While holding something with one or both feet, your walking speed is 0. Your climbing speed is halved, unless both your hands are free.
+- **Dexterous Feet**. Your feet can serve as a second pair of hands. They can lift a number of pounds equal to five times your Strength score. You can grasp things with your feet, and can use them to do simple tasks like hold objects or open a door or a container.
 
- **Graceful Movement**. You are proficient with the Acrobatics skill. When not wearing heavy armor, you can use your Dexterity in place of your Strength when climbing, or determining the distance you can cover when making a jump.
+    While holding something with one or both feet, your walking speed is 0. Your climbing speed is halved, unless both your hands are free.
 
- **Prehensile Tail**. You can make object interactions using your tail, and if you are not wearing heavy armor, you can suspend your body weight from it.
+-  **Graceful Movement**. You are proficient with the Acrobatics skill. When not wearing heavy armor, you can use your Dexterity in place of your Strength when climbing, or determining the distance you can cover when making a jump.
 
-
-
-
-
-![gorilla_samurai](https://robertrigo.github.io/pics/apefolk.png) {position:absolute,top:-0px,left:10px,width:49%}
+-  **Prehensile Tail**. You can make object interactions using your tail, and if you are not wearing heavy armor, you can suspend your body weight from it.
 
 
-
+</div>
 
 ## Apefolk class options
 Apefolk approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
-### Barbarian
-An **zo** raging is a terrifying sight which scares almost everyone in their right mind. When entering rage, all enemies of your size or smaller within 60 ft must succeed at a Wisdom saving throw against a DC 8 + your Strength modifier + your proficiency bonus or become frightened of you.
+<div class="columnstwo">
 
-A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Otherwise it lasts until the creature is out of sight or one minute after you exit your rage.
+- ### Barbarian
+    An **Ozo** raging is a terrifying sight which scares almost everyone in their right mind. When entering rage, all enemies of your size or smaller within 60 ft must succeed at a Wisdom saving throw against a DC 8 + your Strength modifier + your proficiency bonus or become frightened of you.
 
-A **charau-ka** barbarian has access to the <a href="#internal-tailfighter">Path of the Tailfighter</a>.
+    A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Otherwise it lasts until the creature is out of sight or one minute after you exit your rage.
+
+    A **charau-ka** barbarian has access to the <a href="#internal-tailfighter">Path of the Tailfighter</a>.
+
+    <hr class="dividerinfolk">
+
+- ### Cavalier
+    As one can expect, there are not many **ozo** cavaliers. They are simply to heavy for most common riding animals. However, it is not impossible. There has been sightings of ozo riding elephants, hippos and even rhinos.
+
+    Some **charau-ka** tribes befriend and ride warthogs or boars, whose sometimes mean-spirited temper and fearlessness makes them ideal for charging into battle.
+
+    <hr class="dividerinfolk">
+
+- ### Swashbuckler
+    **Charau-ka** are very mobile and the more fearless among them become excellent swashbucklers. Surprisingly enough, this also applies to **ozo**, escpecially among the smaller specimens.
+
+    Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
+
+    <hr class="dividerinfolk">
+
+</div>
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-bearfolk">Ursine</a></h1>
 
-### Cavalier
-As one can expect, there are not many **ozo** cavaliers. They are simply to heavy for most common riding animals. However, it is not impossible. There has been sightings of ozo riding elephants, hippos and even rhinos.
-
-Some **charau-ka** tribes befriend and ride warthogs or boars, whose sometimes mean-spirited temper and fearlessness makes them ideal for charging into battle.
-
-### Swashbuckler
-**Charau-ka** are very mobile and the more fearless among them become excellent swashbucklers. Surprisingly enough, this also applies to **ozo**, escpecially among the smaller specimens.
-
-Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
-
-
-
-
-
-
-
-
-# <a name="internal-bearfolk">Ursine</a>
 Reclusive but powerful, ursine are humanoid bearfolk that tend to keep to mountain villages, tranquil forests, or the cold tundras & wilderness far from civilization. Although their appearance may scare some off, some races and personalities find their calm and easy-going ways refreshing—an opinion sometimes shaken when an ursine is provoked.
+
+<img src='https://robertrigo.github.io/pics/ursine.jpg' style='float:right;width:45%;padding:20px' />
 
 #### Three Furs
 Ursine have been shaped by their environments into three distinct subraces, each having adapted to different conditions and ways of life. Arctic ursine are the largest and sport dense insulating white fur that serves to provide both warmth and camouflage in snowy landscapes, and have narrower skulls than others. Forest ursine are the smallest of the the three, have mostly black fur, and possess claws well-suited to climbing trees in their woodland homes. Brown-furred mountain ursine fall in between the two extremes of size, although they are more bulky than arctic ursine.
@@ -146,7 +154,7 @@ There are many different theories about how ursine came to be, and any definite 
 
 Another legend posits that ursine in fact came first and were chosen by the gods to be shepherds of the wilds and lesser beasts, but that a group of ursine offended the gods in some terrible way. This group was struck dumb, creating the common bears everyone knows today, while the faithful ursine continued on serving the gods as shepherds.
 
-
+<img src='../assets/images/ursine_2.png' style='float:left;width:30%;padding:20px' />
 
 #### Natural Wanderers
 Most ursine tend to live far from civilization, gathering together in villages nestled in the woods, mountains, or tundra, or perhaps living the nomadic life chasing rich hunting grounds or caravan contracts. They usually prefer the quiet of nature, and often find the noise and bustle of cities to be jarring and unwelcome.
@@ -166,98 +174,91 @@ Although there are no strict naming traditions among ursine (particularly as the
 
  **Surnames**: Adar, Awyrlas, Cangengref, Cariadmor, Coedwig, Fryniau, Glanyrafon, Gwynt, Ilaispur, Mellt, Meysydd, Mynydd, Nantclir, Nytheryr, Taenau
 
-![skull_divider](https://robertrigo.github.io/pics/ursine.jpg) {position:absolute,bottom:60px,left:0px,bottom:0px,width:52%,height:29%}
-
-
-
-
-
-
-
-## Ursine Traits
+### Ursine Traits
 Ursine character has a number of traits in common.
 
- **Ability Score Increase**. Your Strength ability score, both current and maximum, increases by 2, while your Dexterity ability score, both current and maximum, is reduced by 2.
+<div class="columnsthree">
 
- **Age**. Ursine reach adulthood at around 16 years old, and live approximately as long as humans.
+- **Ability Score Increase**. Your Strength ability score, both current and maximum, increases by 2, while your Dexterity ability score, both current and maximum, is reduced by 2.
 
- **Alignment**. Ursine vary widely in temperament and have no inborn tendencies toward any specific alignment, and are rather the product of their particular upbringing and surrounding culture.
+- **Age**. Ursine reach adulthood at around 16 years old, and live approximately as long as humans.
 
- **Languages**. You know Common and Sylvan.
+- **Alignment**. Ursine vary widely in temperament and have no inborn tendencies toward any specific alignment, and are rather the product of their particular upbringing and surrounding culture.
 
- **Size**. Ursine are bulky creatures, wide-shouldered and standing 1.80 - 3 meters tall, and weighing 100 – 700 kg. Your size is Medium.
+- **Languages**. You know Common and Sylvan.
 
- **Speed**. Your base speed is 30 feet.
+- **Size**. Ursine are bulky creatures, wide-shouldered and standing 1.80 - 3 meters tall, and weighing 100 – 700 kg. Your size is Medium.
 
- **Powerful Build**. You count as one size larger when determining your carrying capacity and the weight you can push, drag and lift, or when grappling a creature.
+- **Speed**. Your base speed is 30 feet.
 
- **Rip and Tear**. Your unarmed strikes deal 1d6 + your Strength modifier piercing damage (for bite) or slashing damage (for claws). If you have grappled a creature, you may use your ***bonus action*** to bite them.
+- **Powerful Build**. You count as one size larger when determining your carrying capacity and the weight you can push, drag and lift, or when grappling a creature.
 
- **Subtype**. There are three related types of ursine, each with their own distinguishing characteristics: arctic ursine, forest ursine, and mountain ursine. Choose one of these subraces.
+- **Rip and Tear**. Your unarmed strikes deal 1d6 + your Strength modifier piercing damage (for bite) or slashing damage (for claws). If you have grappled a creature, you may use your ***bonus action*** to bite them.
+
+</div>
+
+**Subtype**. There are three related types of ursine, each with their own distinguishing characteristics: arctic ursine, forest ursine, and mountain ursine. Choose one of these subraces.
 
 ### Arctic Ursine
 As an arctic ursine, you’re strong and hardy, able to withstand cold climates and seas as a matter of course. The largest form of the species, arctic ursine usually stand at least 8 and a half feet tall and may weigh up to 1,500 pounds, although the average is closer to 900. Their white fur, resplendent in civilized areas or warmer climates, can provide useful camouflage in the tundras they often call home. These areas do not provide much in the way of permanent shelter, so a nomadic lifestyle is common (a tendency they often maintain even in warmer climes).
 
- **Ability Score Increase**. Your Constitution ability score, both current and maximum, increases by 2, while your Intelligence ability score, both current and maximum, is reduced by 2.
+<div class="columnsthree">
 
- **Iceborn**. You are naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master’s Guide, and you have resistance to cold damage.
+- **Ability Score Increase**. Your Constitution ability score, both current and maximum, increases by 2, while your Intelligence ability score, both current and maximum, is reduced by 2.
 
- **Marine Hunter**. You have a swimming speed of 30 feet, and you can hold your breath for up to 15 minutes at a time.
+- **Iceborn**. You are naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master’s Guide, and you have resistance to cold damage.
 
+- **Marine Hunter**. You have a swimming speed of 30 feet, and you can hold your breath for up to 15 minutes at a time.
 
+</div>
 
 ### Forest Ursine
 As a forest ursine, you are at home among the trees and traverse them with expertise. The smallest variety of ursine, they typically stand no taller than 8 and a half feet and weigh an average of two to three hundred pounds. Other races often view forest ursine as the most approachable of the three types, a trait that is likely the result of their gentler surroundings. Of all their race, forest ursine are the most likely to have permanent villages and to want to stay near them.
 
- **Climber**. You have a climbing speed of 20 feet.
+<div class="columnsthree">
 
- **Woodland Adept**. You are most at home in forests and woods, and gain advantage on Stealth and Survival checks made in this type of terrain.
+- **Climber**. You have a climbing speed of 20 feet.
 
- **Low-light Vision**. You have keen senses, and can see in dim light within 60 feet of you as if it were bright light.
+- **Woodland Adept**. You are most at home in forests and woods, and gain advantage on Stealth and Survival checks made in this type of terrain.
+
+- **Low-light Vision**. You have keen senses, and can see in dim light within 60 feet of you as if it were bright light.
+
+</div>
 
 ### Mountain Ursine
 As a mountain ursine, you embody the fortitude and magical spark of your homeland. Ranging from 7 to 9 feet tall and weighing an average of 500 pounds, brown-furred mountain ursine are known both for their endurance and wisdom. Druids are revered among mountain ursine, as are priests of gods of nature. Although villages of mountain ursine are not uncommon, just as many choose to live their lives on the road or as members of some traveling company or order.
 
- **Ursine Toughness**. Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
+<div class="columnsthree">
 
- **Unnatural Resilience**. You know the *resistance* cantrip, which you can use on yourself only.
+- **Ursine Toughness**. Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
 
-<img src='' style='position:absolute;height:50%;bottom:-40px;right:10px;' />
+- **Unnatural Resilience**. You know the *resistance* cantrip, which you can use on yourself only.
 
-![skull_divider](https://robertrigo.github.io/pics/ursine_2.png) {position:absolute,bottom:-60px,right:-30px,height:55%}
-
-
-
-
-
-
-
+</div>
 
 
 ## Ursine class options
 Ursine approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
-### Barbarian
-An ursine raging is a terrifying sight which scares almost everyone in their right mind. When entering rage, all enemies of your size or smaller within 60 ft must succeed at a Wisdom saving throw against a DC 8 + your Strength modifier + your proficiency bonus or become frightened of you.
+<div class="columnstwo">
 
-A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Otherwise it lasts until the creature is out of sight or one minute after you exit your rage.
+- ### Barbarian
+    An ursine raging is a terrifying sight which scares almost everyone in their right mind. When entering rage, all enemies of your size or smaller within 60 ft must succeed at a Wisdom saving throw against a DC 8 + your Strength modifier + your proficiency bonus or become frightened of you.
 
-### Cavalier
-Ursine do not ride, and even if they wanted, no mount would want to carry them.
+    A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Otherwise it lasts until the creature is out of sight or one minute after you exit your rage.
 
-<!--
-### Monk
-An ursine monk has access to the monk <a href="#internal-panthera">way of the Pantherae</a>.
--->
+    <hr class="dividerinfolk">
 
+- ### Cavalier
+    Ursine do not ride, and even if they wanted, no mount would want to carry them.
 
+    <hr class="dividerinfolk">
 
+</div>
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-catfolk">Catfolk</a></h1>
 
-
-
-
-# <a name="internal-catfolk">Catfolk</a>
 The small hunter-gatherer tribes of the catfolk roam the plains and forests late into the night, making camp after midnight with easily-portable tents and carpets and sleeping until the afternoon. Rarely settling down for long, they tend to take a passing, but enthusiastic, interest in anything around them and are content to let most things be. Except when they're not.
 
 The origin of this race is a matter of debate, but the prevalent myth among non-catfolk involves an ancient druid circle's awaken spell that went haywire and granted a few ordinary creatures a lot more than sapience. They presumably interbred with other normal cats, but the powerful awakening magic in their blood passed on to the offspring and the sentient felines became their own race. The catfolk find the idea that another group of humanoids just created them by mistake a little insulting.
@@ -265,7 +266,7 @@ The origin of this race is a matter of debate, but the prevalent myth among non-
 #### Sleek and Nimble
 Catfolk are intelligent bipedal felines, standing from nearly 6 feet tall to just under 5 feet. The exact kind of cat they resemble varies with location, but it is almost always one of the large, predatory types. The environments in which they typically grow up tend to give them at least a slim amount of muscle, and they are naturally agile and quick on their feet. Sometimes catfolk will drop to all fours if they want to make a quick dash, and in a tight situation they will not hesitate to unsheathe the claws embedded in their fingertips.
 
-
+<img src='../assets/images/catfolk.png' style='float:right;width:45%;padding:20px' />
 
 In contrast to these animalistic behaviors, even tribal groups of catfolk put a great deal of importance into how they dress. The felines view stylish clothing as a sign of maturity and sophistication, and make every effort to acquire or fabricate the best garb they can. Fine cloth is especially valuable to the catfolk, and makes a good start for establishing trading relations. They prefer loose clothing that preserves freedom of movement and, due to their large ears and tails, tend to either make it themselves or commission it personally. Nice outfits are passed down through generations like heirlooms, the tears lovingly sewn up and buttons carefully replaced. Because they rarely clothe their young, a small catfolk's first piece of clothing is a proud sign that they have come of age.
 
@@ -277,14 +278,7 @@ This behavior extends to their mannerisms, too. Though a catfolk's overall mood 
 #### Wide Networks, Loosely Connected
 Although most catfolk live together in small tribes, they hold no particular loyalty to one or the other. Groups form and break apart just as quickly, and any catfolk might go through being a part of four or five different "tribes" in the course of a year. It's not uncommon for an individual to just go off on their own, leading a solitary life interspersed with occasionally spending an evening hunting or talking with one group or another as they pass through various territories.
 
-![skull_divider](https://robertrigo.github.io/pics/catfolk.png) {position:absolute,bottom:0px,left:-90px,width:76%}
-
-
-
-
-
-
-
+<img src='https://robertrigo.github.io/pics/catfolk_2.png' style='float:left;width:30%;padding:20px' />
 
 While this sounds chaotic, it actually results in all catfolk in a region having a general idea of what's going on everywhere else in the region. News spreads quickly through word-of-mouth throughout the community, and the rare catfolk venturing into a city can be a useful source of information from far away, if not a particularly reliable one. They can make decent impromptu messengers across wilderness, too; but again, not particularly reliable ones unless given significant motivation.
 
@@ -307,152 +301,142 @@ These claws are typically not powerful enough to be used as weapons, but some me
 
 
 
-## <a name="internal-trait">Catfolk traits</a>
+### <a name="internal-trait">Catfolk traits</a>
 Your catfolk character has a number of traits in common with other catfolk:
 
- **Ability Scores**. Your Dexterity ability score, both current and maximum, increases by 2.
+<div class="columnsthree">
 
- **Age**. Catfolk reach maturity at age 13, but are nearly indistinguishable from ordinary felines for the first decade of their lives, apart from slowly learning to speak. Up until age 10, catfolk children walk on all fours and don't typically wear clothes, though they steadily grow in size. There are tales about well-meaning humans finding what they presume to be stray kittens and being very surprised when their adopted "pet" started learning to talk.
+- **Ability Scores**. Your Dexterity ability score, both current and maximum, increases by 2.
 
- Around 10 years old, they begin to learn how to stand erect, their bodies grow more humanoid, and they get outfitted for the first time. They have lifespans slightly shorter than humans on average.
+- **Age**. Catfolk reach maturity at age 13, but are nearly indistinguishable from ordinary felines for the first decade of their lives, apart from slowly learning to speak. Up until age 10, catfolk children walk on all fours and don't typically wear clothes, though they steadily grow in size. There are tales about well-meaning humans finding what they presume to be stray kittens and being very surprised when their adopted "pet" started learning to talk.
 
- **Alignment**. The free-spirited nature of catfolk causes them to tend more towards chaos than law, with no particular inclination for good or evil.
+  Around 10 years old, they begin to learn how to stand erect, their bodies grow more humanoid, and they get outfitted for the first time. They have lifespans slightly shorter than humans on average.
 
- **Languages**. Catfolk speak Common.
+- **Alignment**. The free-spirited nature of catfolk causes them to tend more towards chaos than law, with no particular inclination for good or evil.
 
- **Size**. Catfolk tend to be slightly shorter than most humans, with a more slender, athletic build. Your size is Medium.
+- **Languages**. Catfolk speak Common.
 
- **Speed**. Your base speed is 30 feet, but drops to 20 feet if carrying over 50 pounds of weight, regardless of any natural Strength bonus.
+- **Size**. Catfolk tend to be slightly shorter than most humans, with a more slender, athletic build. Your size is Medium.
 
- You are much faster dashing on all fours. As long as you are unencumbered, and hold nothing in your hands, your speed becomes 40 feet.
+- **Speed**. Your base speed is 30 feet, but drops to 20 feet if carrying over 50 pounds of weight, regardless of any natural Strength bonus.
 
- **Low-light Vision**. Your feline eyes shine faintly at night, allowing you to make the most of even the smallest amount of ambient light. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+  You are much faster dashing on all fours. As long as you are unencumbered, and hold nothing in your hands, your speed becomes 40 feet.
 
- **Keen Senses**. You have proficiency with the Perception skill. Catfolk have superior senses, including smell.
+- **Low-light Vision**. Your feline eyes shine faintly at night, allowing you to make the most of even the smallest amount of ambient light. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
 
- **Natural Climbers**. Catfolk have capable claws and an uncanny ability to climb. You have advantage on all checks to climb. When not wearing heavy armor, you can use your Dexterity in place of your Strength when climbing.
+- **Keen Senses**. You have proficiency with the Perception skill. Catfolk have superior senses, including smell.
 
-{{}}">sTable,wide
+- **Natural Climbers**. Catfolk have capable claws and an uncanny ability to climb. You have advantage on all checks to climb. When not wearing heavy armor, you can use your Dexterity in place of your Strength when climbing.
+
+</div>
+
 #### Random Height and Weight
 | Gender | Base Height | Height Modifier | Base Weight | Weight Modifier
 |:----:|:--:|:--:|:--:|:--:|
 | Male | 145 cm | +4d10 | 40 kg | +4d10 x (Strength/10)
 | Female | 135 cm | +4d10 | 30 kg | +4d10 x (Strength/10)
 
-
-
-
-
-
-
-
-
 ### Feline heritage.
 You gain 2 of the following abilities, determined randomly, which represent your feline heritage:
 
- **1. Cat claws**. Your claws are stronger and more developed. You can make unarmed strikes as if they had the finesse property, dealing 1d4 slashing damage. If you move at least 20 feet straight toward a creature and then hit with a claw attack, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target becomes prone, you can make one additional claw attack against it as a ***bonus action***.
-
- **2. Climber**. You excel at hunting prey from trees and other high vantage points, and gain a climb speed equal to your walking speed.
-
- **3. Natural Instinct**. You are proficient with the Stealth and Survival skills.
-
- **4. Keen Smell**. You have advantage on Perception checks that rely on smell. In addition you can track by scent, having advantage on such checks.
-
- **5. Cat's Grace**. You have an amazing sense of balance and keen knowledge of your own center of gravity. You are proficient with Acrobatics and have resistance to falling damage. This ability does not work if you are unconscious or restrained.
-
- **6. Sprinter**. Your speed increases by 10 ft when dashing. In addition, with a 10-foot running start, you can jump twice the normal distance.
-
- **7. Roar**. As an ***action***, you can release a terrifying roar. Any creature within 20 feet of you that can hear you must make a Wisdom saving throw against DC 8 + your Charisma modifier + your proficiency bonus, or become frightened of you for 1 minute.
-
- The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can’t use this trait again until after you complete a short or long rest.
-
- **8. Savage Attacks**. When you score a critical hit with a melee attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.
+| 1d8 | Ability | |
+|:----:|:--|:--|
+| 1 | <div style="white-space:nowrap;">Cat claws</div> | Your claws are stronger and more developed. You can make unarmed strikes as if they had the finesse property, dealing 1d4 slashing damage. If you move at least 20 feet straight toward a creature and then hit with a claw attack, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target becomes prone, you can make one additional claw attack against it as a ***bonus action***.
+| 2 | Climber | You excel at hunting prey from trees and other high vantage points, and gain a climb speed equal to your walking speed.
+| 3 | <div style="white-space:nowrap;">Natural Instinct</div> | You are proficient with the Stealth and Survival skills.
+| 4 | <div style="white-space:nowrap;">Keen Smell</div> | You have advantage on Perception checks that rely on smell. In addition you can track by scent, having advantage on such checks.
+| 5 | <div style="white-space:nowrap;">Cat's Grace</div> | You have an amazing sense of balance and keen knowledge of your own center of gravity. You are proficient with Acrobatics and have resistance to falling damage. This ability does not work if you are unconscious or restrained.
+| 6 | Sprinter | Your speed increases by 10 ft when dashing. In addition, with a 10-foot running start, you can jump twice the normal distance.
+| 7 | Roar | As an ***action***, you can release a terrifying roar. Any creature within 20 feet of you that can hear you must make a Wisdom saving throw against DC 8 + your Charisma modifier + your proficiency bonus, or become frightened of you for 1 minute.<br/>The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can’t use this trait again until after you complete a short or long rest.
+| 8 | <div style="white-space:nowrap;">Savage Attacks</div> | When you score a critical hit with a melee attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.
 
 
-
-## Catfolk Quirks
+### Catfolk Quirks
 You can use the Quirks table to determine an appearance or personality quirk for a catfolk character or to inspire a unique mannerism.
 
+<div class="columnstwo">
 
-#### Catfolk Quirks
-| d20 | Quirk |
-|:---:|:------|
-| 1 | Due to your paw shaped feet you do not wear shoes. The natural toughness of your paws are enough protection for most terrain.
-| 2 | Your fur is longer than normal giving you an extra fluffy appearance. You may roll with advantage against freezing weather conditions.
-| 3 | You have large saber teeth, giving you a fearsome smile.
-| 4 | You have an addiction to catnip. The smell of catnip fills you with energy, but makes it hard to focus.
-| 5 | You have ear tufts like a lynx.
-| 6 | You have extra large paws that act as natural snowshoes. With DM permission you do not suffer a movement penalty in snow.
-| 7 | You love shiny or otherwise unusual trinkets, from gemstones to the paper inside of a fortune cookie (whether that fortune cookie was yours or not). Your impulse control is meh, and so you often waste storage space with random trinkets/trash. But hey, it may come in handy in the future.
-| 8 | You have a thick mane of hair similar to a lion.
-| 9 | You are red-green colorblind. This makes it harder to tell if something a merchant is selling is real or fake. Your clothes are also often mis-matched, causing others to assume things about you, for better (like thinking you're cool) or worse (thinking you're dim-witted or lazy).
-| 10 | Draped over a log upside down is the best way to rest around a campfire. No matter how your traveling companions may try to convince you otherwise.
-| 11 | You can't resist crunchy vegetables, you just love to munch and crunch on them. As a result, you are very susceptible to bribes of such treats. At least your party members enjoy seeing you get so excited at something so small and easily attainable.
+- | d20 | Quirk |
+  |:---:|:------|
+  | 1 | Due to your paw shaped feet you do not wear shoes. The natural toughness of your paws are enough protection for most terrain.
+  | 2 | Your fur is longer than normal giving you an extra fluffy appearance. You may roll with advantage against freezing weather conditions.
+  | 3 | You have large saber teeth, giving you a fearsome smile.
+  | 4 | You have an addiction to catnip. The smell of catnip fills you with energy, but makes it hard to focus.
+  | 5 | You have ear tufts like a lynx.
+  | 6 | You have extra large paws that act as natural snowshoes. With DM permission you do not suffer a movement penalty in snow.
+  | 7 | You love shiny or otherwise unusual trinkets, from gemstones to the paper inside of a fortune cookie (whether that fortune cookie was yours or not). Your impulse control is meh, and so you often waste storage space with random trinkets/trash. But hey, it may come in handy in the future.
+  | 8 | You have a thick mane of hair similar to a lion.
+  | 9 | You are red-green colorblind. This makes it harder to tell if something a merchant is selling is real or fake. Your clothes are also often mis-matched, causing others to assume things about you, for better (like thinking you're cool) or worse (thinking you're dim-witted or lazy).
+  | 10 | Draped over a log upside down is the best way to rest around a campfire. No matter how your traveling companions may try to convince you otherwise.
+  | 11 | You can't resist crunchy vegetables, you just love to munch and crunch on them. As a result, you are very susceptible to bribes of such treats. At least your party members enjoy seeing you get so excited at something so small and easily attainable.
 
+- | d20 | Quirk cont. |
+  |:---:|:------------|
+  | 12 | You fuss with and groom your tail even chewing on it when nervous (like snow leopards do).
+  | 13 | When you fall you almost always land on your feet (DC 10 Dex save). When you fail it's almost always stupidly comical, after which you pretend like (you meant to do that or it never happened).
+  | 14 | When angry or scared your fur stand on end. This makes you look slightly bigger and a lot fuzzier.
+  | 15 | You prefer to groom yourself with your tongue over a "proper" bath. This can lead to a few awkward moments with other party members.
+  | 16 | When you are comfortable you emit a low purring sound, especially when sleeping or talking to a person you care about. It can be heard up to 5ft away from you.
+  | 17 | Naturally nocturnal you are sleepy most of the day and tend to nap a lot.
+  | 18 | Your singing voice is very sharp, piercing, and yowling in nature. To non catfolk it can be grating but to catfolk it is an excellent singing voice.
+  | 19 | Small animals fill you with primal energy, and you must make a WIS save or risk pouncing on and/or eating the animal. Lets hope it wasn't someone's pet.
+  | 20 | Annoyingly enough, you are very territorial. You have gotten better at sharing, BUT that log is YOUR log. You can't believe [party member] sat on YOUR log.. you've ALWAYS sat on that log when the party sets up camp... (I.e., you "claim" things/areas as your own and get very stubborn and defensive when questioned.)
 
-![catfolk](https://robertrigo.github.io/pics/catfolk_2.png) {position:absolute,bottom:-30px,right:-10px,width:46%}
-
-
-
-
-
-
-
-
-
-| d20 | Quirk cont. |
-|:---:|:------------|
-| 12 | You fuss with and groom your tail even chewing on it when nervous (like snow leopards do).
-| 13 | When you fall you almost always land on your feet (DC 10 Dex save). When you fail it's almost always stupidly comical, after which you pretend like (you meant to do that or it never happened).
-| 14 | When angry or scared your fur stand on end. This makes you look slightly bigger and a lot fuzzier.
-| 15 | You prefer to groom yourself with your tongue over a "proper" bath. This can lead to a few awkward moments with other party members.
-| 16 | When you are comfortable you emit a low purring sound, especially when sleeping or talking to a person you care about. It can be heard up to 5ft away from you.
-| 17 | Naturally nocturnal you are sleepy most of the day and tend to nap a lot.
-| 18 | Your singing voice is very sharp, piercing, and yowling in nature. To non catfolk it can be grating but to catfolk it is an excellent singing voice.
-| 19 | Small animals fill you with primal energy, and you must make a WIS save or risk pouncing on and/or eating the animal. Lets hope it wasn't someone's pet.
-| 20 | Annoyingly enough, you are very territorial. You have gotten better at sharing, BUT that log is YOUR log. You can't believe [party member] sat on YOUR log.. you've ALWAYS sat on that log when the party sets up camp... (I.e., you "claim" things/areas as your own and get very stubborn and defensive when questioned.)
+</div>
 
 
-
-
-## Catfolk Feats
+### Catfolk Feats
 The following feats are exclusive to catfolk:
 
-{{}}">feat
-## Springy Step
-While all catfolk have a natural feline grace about them, you've taken it to new heights.
-- Increase your **Dexterity** score by 1.
-- You can use your Dexterity modifier to calculate your jump distances.
-- Whenever you are knocked prone, you can use a ***reaction*** to jump back up on your feet.
-- When you would take fall damage, you can make an Acrobatics check against a DC equal to the damage. If you succeed, you take no damage and land on your feet instead of falling prone.
+<div class="columnstwo">
 
+- <div class="feat">
+
+  ## Springy Step
+  While all catfolk have a natural feline grace about them, you've taken it to new heights.
+
+  Increase your **Dexterity** score by 1.
+
+  You can use your Dexterity modifier to calculate your jump distances.
+
+  Whenever you are knocked prone, you can use a ***reaction*** to jump back up on your feet.
+
+  When you would take fall damage, you can make an Acrobatics check against a DC equal to the damage. If you succeed, you take no damage and land on your feet instead of falling prone.
+
+  </div>
+
+</div>
 
 ## Catfolk class options
 Catfolk approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
-### Cavalier
-In theory catfolk can become cavaliers. However, the catfolk themselves do not have any traditions of using mounts, so it is rarely seen.
+<div class="columnstwo">
 
-<!--
-### Monk
-A catfolk monk has access to the monk <a href="#internal-panthera">way of the Pantherae</a>.
--->
+- ### Cavalier
+    In theory catfolk can become cavaliers. However, the catfolk themselves do not have any traditions of using mounts, so it is rarely seen.
 
-### Rogue
-A catfolk rogue has access to the <a href="#internal-felineStalker">feline stalker</a> archetype
+    <hr class="dividerinfolk">
 
+- ### Rogue
+    A catfolk rogue has access to the <a href="#internal-felineStalker">feline stalker</a> archetype
 
+    <hr class="dividerinfolk">
 
-
-
+</div>
 
 
 
-# <a name="internal-foxfolk">Vulpine</a>
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-foxfolk">Vulpine</a></h1>
+
 Small and nimble, charming and clever, vulpine are humanoid foxfolk that can be found in any number of environments. Vulpine are a fiercely independent race, and their short lifespans inspire them to pursue their own objectives with steely determination.
 
 #### Slender and Agile
 The three subraces of vulpine are distinguished by the color of their fur, which is either white, grey, or red. Both grey and red vulpine have white-furred bellies, throats, and lower jaws, although this coloration is most obvious in red vulpine.
+
+<img src='https://robertrigo.github.io/pics/vulpine.png' style='float:left;width:25%;padding:20px' />
 
 All varieties have elongated bodies with relatively short limbs, long and bushy tails, forepaws with five small fingers, furred pointy ears, and narrow and elongated skulls. Most have amber-colored eyes, although sea grey and blue eyes are not uncommon. Vulpine are thin and agile creatures, are usually three and half to four feet tall, and weigh between 25 and 40 pounds.
 
@@ -466,8 +450,6 @@ Whether the race was created, elevated from simple foxes, born of a mystical uni
 #### Fame Seekers
 Vulpine pregnancy lasts only two months, and kits reach adulthood after only six years. Combined with their brief lifespans, this rapid life cycle tends to instill in vulpine an urgency that many other races lack. They are eager to learn, eager to accomplish things, eager to find fame and fortune. This headlong and rapid pursuit of their goals, however, tends to make them impetuous and even reckless in the eyes of others.
 
-
-
 Early adulthood also means that vulpine are very focused on their own individual independence and objectives. While parents are very protective of their young, once they are grown, the tendency is to push them out into the world and let them deal with life on their own. Family are not forgotten, but neither do they hold any strong allegiance among vulpine. Collectivist cultures or races seem odd to vulpine, who often don’t understand how the whole can be successful if the individual is held back or unhappy.
 
 Nonetheless, vulpine are extremely adaptable and easily adopt the customs and dress of a given region. Even if they find themselves disagreeing with certain ways, they have an uncanny ability to fit in wherever they go.
@@ -477,107 +459,116 @@ Names among vulpine are a fluid thing, at least until one is able to gain a repu
 
 The actual names vary drastically by culture and nation, and might be nearly anything. Given the vulpine tendency to choose new names and seek glory, however, these names often have a flair for the dramatic or ostentatious.
 
-![skull_divider](https://robertrigo.github.io/pics/vulpine.png) {position:absolute,bottom:20px,right:15px,width:33%}
-
-
-
-
-
-
-
-
-## Vulpine Traits
+### Vulpine Traits
 Your vulpine character has a number of traits in common with all other vulpines.
 
- **Ability Score Increase**. Your Luck ability score, both current and maximum, increases by 4, while your Strength ability score, both current and maximum, is reduced by 4.
+<div class="columnsthree">
 
- **Age**. Although they are relatively short-lived, vulpine also grow and mature quickly. They are considered adults at approximately 6 years old, and usually live to be 35-40 years old.
+- **Ability Score Increase**. Your Luck ability score, both current and maximum, increases by 4, while your Strength ability score, both current and maximum, is reduced by 4.
 
- **Alignment**. Vulpine tend to be impulsive creatures and thus lean toward chaotic alignments, but exceptions are many and varied.
+- **Age**. Although they are relatively short-lived, vulpine also grow and mature quickly. They are considered adults at approximately 6 years old, and usually live to be 35-40 years old.
 
- **Languages**. You can speak Common.
+- **Alignment**. Vulpine tend to be impulsive creatures and thus lean toward chaotic alignments, but exceptions are many and varied.
 
- **Size**. Vulpine are slight creatures, thin-framed and standing three and a half to four feet tall. Most weigh between 25 and 40 pounds. Your size is Small.
+- **Languages**. You can speak Common.
 
- **Speed**. Although short, vulpine are unusually quick on their feet. Your base speed is 30 feet.
+- **Size**. Vulpine are slight creatures, thin-framed and standing three and a half to four feet tall. Most weigh between 25 and 40 pounds. Your size is Small.
 
- **Low-light Vision**. Vulpine are comfortable in dark environments, having superior vision. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+- **Speed**. Although short, vulpine are unusually quick on their feet. Your base speed is 30 feet.
 
- **Mask of the Wild**. You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+- **Low-light Vision**. Vulpine are comfortable in dark environments, having superior vision. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
 
- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for Athletic checks when your body weight is the only factor, e.g. climbing. In addition, you have advantage on those checks.
+- **Mask of the Wild**. You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
 
- **Wily**. You gain proficiency in one of the following skills of your choice: Deception, Persuasion, or Stealth.
+- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for Athletic checks when your body weight is the only factor, e.g. climbing. In addition, you have advantage on those checks.
 
- **Subtype**. There are three closely related types of vulpine: arctic vulpine, grey vulpine, and red vulpine. Choose one of these subraces.
+- **Wily**. You gain proficiency in one of the following skills of your choice: Deception, Persuasion, or Stealth.
+
+</div>
+
+**Subtype**. There are three closely related types of vulpine: arctic vulpine, grey vulpine, and red vulpine. Choose one of these subraces.
+
 
 ### Arctic Vulpine
 As an arctic vulpine, you are particularly well-suited to life in cold regions, and are tougher than others of your race in order to survive harsh winters. Most arctic vulpine have a fur coat of pure white, although some are mottled or striped with other colors.
 
- **Ability Score Increase**. Your Constitution ability score, both current and maximum, increases by 2.
+<div class="columnsthree">
 
- **Ice Born**. You’re naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master’s Guide, and you have resistance to cold damage.
+- **Ability Score Increase**. Your Constitution ability score, both current and maximum, increases by 2.
 
- **Alpine Camouflage**. Your white fur allows you to excel at remaining hidden in certain environments. You have advantage on Stealth checks in snow, ice, or other predominantly white terrain, like salt flats or volcanic ash.
+- **Ice Born**. You’re naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master’s Guide, and you have resistance to cold damage.
 
+- **Alpine Camouflage**. Your white fur allows you to excel at remaining hidden in certain environments. You have advantage on Stealth checks in snow, ice, or other predominantly white terrain, like salt flats or volcanic ash.
 
+</div>
 
 ### Grey Vulpine
 As a grey vulpine (also called ashfoxes), you are swift with your hands, and also very clever. Grey vulpine naturally possess grey fur, although with lighter silver or white areas on their bellies, throats, and lower jaws. Justly or not, they have a vague reputation of propensity toward thievery, which some work to overcome while others embrace.
 
- **Ability Score Increase**. Your Intelligence ability score, both current and maximum, increases by 2.
+<div class="columnsthree">
 
- **Vulpine Nimbleness**. You can move through the space of any creature that is of a size larger than yours.
+- **Ability Score Increase**. Your Intelligence ability score, both current and maximum, increases by 2.
 
- **Artisan**. Grey vulpine are quite swift with their fingers. You gain proficiency with Sleight of hand and one set of artisan’s tools of your choice.
+- **Vulpine Nimbleness**. You can move through the space of any creature that is of a size larger than yours.
+
+- **Artisan**. Grey vulpine are quite swift with their fingers. You gain proficiency with Sleight of hand and one set of artisan’s tools of your choice.
+
+</div>
 
 ### Red Vulpine
 As a red vulpine, you have an innate charm and way with others...even if that way involves a bit of a magical nudge. Red vulpine have bright orangish-red fur, with white areas on their bellies, throats, and lower jaws. With a reputation for flamboyance, winning smiles, and witty banter, red vulpine make excellent bards, sorcerers, and con artists.
 
- **Ability Score Increase**. Your Charisma ability score, both current and maximum, increases by 2.
+<div class="columnsthree">
 
- **Unnaturally Charming**. While communicating with a non-hostile humanoid, you can choose to have advantage on Charisma checks directed at it. If you fail the check, the creature realizes that some kind of magic was used to influence its mood and becomes unfriendly toward you. A creature prone to violence might even attack you, depending on the nature of the interaction.
+- **Ability Score Increase**. Your Charisma ability score, both current and maximum, increases by 2.
+
+- **Unnaturally Charming**. While communicating with a non-hostile humanoid, you can choose to have advantage on Charisma checks directed at it. If you fail the check, the creature realizes that some kind of magic was used to influence its mood and becomes unfriendly toward you. A creature prone to violence might even attack you, depending on the nature of the interaction.
+
+</div>
 
 ## Vulpine Class Options
 A Vulpine approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
-### Bard
-A rare few vulpines are born with more than one tail, a sure sign of a life touched by the gods. Those Vulpine are called Kitsune. If you choose to be one, you may exchange one of your spells known with the following trait:
+<div class="columnstwo">
 
-{{}}">feat
-## Ethereal Jaunt
-As a ***bonus action***, you can enter the ethereal plane, and take the Dash action when you do. You can remain in the ethereal plane until the end of your next turn. Once you use this trait, you can’t use it again until you finish a short rest.
+- ### Bard
+    A rare few vulpines are born with more than one tail, a sure sign of a life touched by the gods. Those Vulpine are called Kitsune. If you choose to be one, you may exchange one of your spells known with the following trait:
+
+    <div class="feat">
+
+    ## Ethereal Jaunt
+    As a ***bonus action***, you can enter the ethereal plane, and take the Dash action when you do. You can remain in the ethereal plane until the end of your next turn. Once you use this trait, you can’t use it again until you finish a short rest.
+
+    </div>
+
+    <hr class="dividerinfolk">
+
+- ### Cavalier
+    Vulpine use mounts just as humans, but due to their smaller size they mostly use mules, goats and sometimes ponies.
+
+    <hr class="dividerinfolk">
+
+- ### Sorcerer
+    A Vulpine sorcerer has the same options as the bard.
+
+    <hr class="dividerinfolk">
+
+- ### Swashbuckler
+    A Vulpine swashbuckler can spend a panche to gain advantage on a Luck check, and regains a panache whenever they critically succeed at a Luck check.
+
+    <hr class="dividerinfolk">
+
+</div>
 
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-frogfolkBullywug">Frogfolk - Bullywug</a></h1>
 
-
-
-
-### Cavalier
-Vulpine use mounts just as humans, but due to their smaller size they mostly use mules, goats and sometimes ponies.
-
-### Sorcerer
-A Vulpine sorcerer has the same options as the bard.
-
-### Swashbuckler
-A Vulpine swashbuckler can spend a panche to gain advantage on a Luck check, and regains a panache whenever they critically succeed at a Luck check.
-
-
-
-
-
-
-
-
-# <a name="internal-frogfolk">Frogfolk</a>
 Frogfolk come in two distinct species, the swamp-dwelling Bullywug, more akin to toads, and Grung, who are smaller, froglike and adapted to a life in tropical forests.
 
- ::
-
-## Bullywug
 Through only their own initiative, Bullywugs claim to be the rulers of any and all swampy regions. While they don’t have a complex social structure, most of them certainly act as if they were part of one; giving themselves extravagant titles, excessively bowing and pleading for the acknowledgement of those above them.
 
 Bullywugs live in primitive groups, hunting and fishing together. The hierarchy is based on strength, with the strongest being the leaders. Bullywugs are very territorial, and mostly will attack anyone who trespasses. Oddly enough, they tend not to fight within the tribe, but rival bullywug tribes will fight with each other.
@@ -587,288 +578,265 @@ Bullywugs rarely work alongside other creatures since they would rather use them
 Bullywugs possess a unique ability to communicate with all manor of frog and toad-like creature, even over vast distances. Croaking in this manner can allow for information such as intruders, a cache of resources, or a previously undiscovered plot of land to expand upon to be quickly spread across a tribe’s area of influence.
 
 
-## Bullywug Traits
- **Ability Scores**. Your Intelligence ability score, both current and maximum, decreases by 2.
+### Bullywug Traits
 
- **Age**. Bullywugs mature at 10 years, and live up to 50 years.
+<div class="columnsthree">
 
- **Alignment**. Many bullywugs can be ruthless and cruel which lends them to Evil. Their indifference toward law or chaos brings them closer to Neutral on that axis. The most “outspoken” of their kind fit this trend, but a noticeable amount of tribes closer to civilization’s borders are less likely to be evil.
+- **Ability Scores**. Your Intelligence ability score, both current and maximum, decreases by 2.
 
- **Languages**. You speak Common and Bullywug. The Bullywug language is that of frogs and toads, and consists of croaks, gurgles, and obnoxious screeches.
+- <img src='../assets/images/Bullywug.png' style='width:75%;padding:20px' />
 
- **Size**. Bullywugs stand between 4 and 7 feet tall and weigh anywhere from 100 to 300 pounds. Your size is Medium.
+- **Age**. Bullywugs mature at 10 years, and live up to 50 years.
 
- **Speed**. Your base walking is 30 feet and you have a swimming speed of 30 feet.
+- **Alignment**. Many bullywugs can be ruthless and cruel which lends them to Evil. Their indifference toward law or chaos brings them closer to Neutral on that axis. The most “outspoken” of their kind fit this trend, but a noticeable amount of tribes closer to civilization’s borders are less likely to be evil.
 
- **Amphibious**. You can breathe both air and water.
+- **Languages**. You speak Common and Bullywug. The Bullywug language is that of frogs and toads, and consists of croaks, gurgles, and obnoxious screeches.
 
+- **Size**. Bullywugs stand between 4 and 7 feet tall and weigh anywhere from 100 to 300 pounds. Your size is Medium.
 
+- **Speed**. Your base walking is 30 feet and you have a swimming speed of 30 feet.
 
- **Bite**. Your froggish maw is a natural weapon. On a hit, you deal piercing damage equal to 1d4 + your Strength modifier.
+- **Amphibious**. You can breathe both air and water.
 
- **Bullywug Metabolism**. You have advantage on saving throws against poison and resistance against poison damage.
+- **Bite**. Your froggish maw is a natural weapon. On a hit, you deal piercing damage equal to 1d4 + your Strength modifier.
 
- **One with the Swamp**. You have advantage on checks made to hide in swampy terrain. You also ignore difficult terrain caused by mud and other swampy elements.
+- **Bullywug Metabolism**. You have advantage on saving throws against poison and resistance against poison damage.
 
- **Speak with Frogs and Toads**. You can communicate simple concepts to frogs and toads, as well as their giant counterparts and any other frog-like creatures when you speak in Bullywug.
+- **One with the Swamp**. You have advantage on checks made to hide in swampy terrain. You also ignore difficult terrain caused by mud and other swampy elements.
 
- **Standing Leap**. Your long jump is 30 feet and your high jump is 15 feet, with or without a running start.
+- **Speak with Frogs and Toads**. You can communicate simple concepts to frogs and toads, as well as their giant counterparts and any other frog-like creatures when you speak in Bullywug.
 
-## Feats
+- **Standing Leap**. Your long jump is 30 feet and your high jump is 15 feet, with or without a running start.
+
+</div>
+
+### Feats
 A bullywug may select the following feat:
 
-{{}}">feat
-## Leaping Strike
-- Your **Strength** or **Dexterity** score increases by 1.
-- When an ally that you can see hits a creature with a melee weapon attack, you can use your ***reaction*** to immediately make a standing leap, and make one melee weapon attack against the same target if it is within your reach. This movement does not provoke an opportunity attack. Once you use this trait, you can’t use it again until you finish a short rest.
+<div class="columnstwo">
 
+- <div class="feat">
 
-![frog](https://robertrigo.github.io/pics/homebrew/Bullywug.png) {position:absolute,bottom:-30px,right:-40px,width:63%}
+  ## Leaping Strike
+  Your **Strength** or **Dexterity** score increases by 1.
 
+  When an ally that you can see hits a creature with a melee weapon attack, you can use your ***reaction*** to immediately make a standing leap, and make one melee weapon attack against the same target if it is within your reach. This movement does not provoke an opportunity attack. Once you use this trait, you can’t use it again until you finish a short rest.
 
+  </div>
 
-
-
-
+</div>
 
 
 ## Bullywug Class Options
 Bullywug approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
-### Bard
-The croaking of the bullywug sound obnoxious, but its sound carries long distances. When casting a bard spell or using a bardic class ability, you can choose to "sing" it loudly. The range is doubled, but the sound will be heard a mile away.
+<div class="columnstwo">
 
-### Cavalier
-Bullywug commonly ride giant toads.
+- ### Bard
+    The croaking of the bullywug sound obnoxious, but its sound carries long distances. When casting a bard spell or using a bardic class ability, you can choose to "sing" it loudly. The range is doubled, but the sound will be heard a mile away.
+
+    <hr class="dividerinfolk">
+
+- ### Cavalier
+    Bullywug commonly ride giant toads.
+
+    <hr class="dividerinfolk">
+
+</div>
 
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-frogfolkGrung">Grung</a></h1>
 
-
-
-
-## Grung
-While related to the swamp-dwelling bullywugs, grung are more adapted to life in rainforests and jungles. Grung tribes are often slavers, and they use their skill with poisons to keep their captives sedate by poisoning their food. Grung typically prefer their own kind, but a few ambitious grung manage to find steady work as assassins, alchemists or poisonmakers.
+While <img src='../assets/images/Grungs.png' style='float:right;width:50%;padding:20px' />
+related to the swamp-dwelling bullywugs, grung are more adapted to life in rainforests and jungles. Grung tribes are often slavers, and they use their skill with poisons to keep their captives sedate by poisoning their food. Grung typically prefer their own kind, but a few ambitious grung manage to find steady work as assassins, alchemists or poisonmakers.
 
 #### Castes and Colors
 Grung society is a caste system. Each caste lays eggs in a separate hatching pool, and juvenile grungs join their caste as soon as they become physically capable. All grungs are a dull greenish gray when they are born, but the color of their caste comes to light as they mature.
 
 Green grung become warriors, hunters, and general laborers. Blue grung are usually artisans and domestic workers. Supervising and guiding both those groups are the purple grungs, which serve as administrators and commanders.  Red grung are born with magical talent, and often serve as advisors to those in positions of true leadership. Orange grung are a tribe's elite warriors, with authority over all lesser grungs.
 
-## Grung Traits
- **Ability Score Increase**. Your Strength ability score, both current and maximum, is reduced by 4. In addition you increase one ability score by 1, depending on your caste as shown in the color/caste table.
+### Grung Traits
 
- **Age**. Grungs reach maturity 2 years after they hatch and they live up to 30 years.
+<div class="columnsthree">
 
- **Alignment**. Most grungs are lawful, having been raised in a strict caste system. They tend toward evil as well, coming from a culture where social advancement occurs rarely, and most often because another member of your army has died and there is no one else of that caste to fill the vacancy. Exceptions do exist, but are only found in tribes that neighbor friendlier civilizations.
+- **Ability Score Increase**. Your Strength ability score, both current and maximum, is reduced by 4. In addition you increase one ability score by 1, depending on your caste as shown in the color/caste table.
 
- **Languages**. You can speak Common and Grung.
+- **Age**. Grungs reach maturity 2 years after they hatch and they live up to 30 years.
 
- **Size**. Grung are between 3 and 4 feet tall, and weigh 30-50 pounds. Your size is Small.
+- **Alignment**. Most grungs are lawful, having been raised in a strict caste system. They tend toward evil as well, coming from a culture where social advancement occurs rarely, and most often because another member of your army has died and there is no one else of that caste to fill the vacancy. Exceptions do exist, but are only found in tribes that neighbor friendlier civilizations.
 
- **Speed**. Your base walking is 25 feet. You also have a climbing speed of 20 feet.
+- **Languages**. You can speak Common and Grung.
 
- **Amphibious**. You can breathe air and water. However, you must submerge yourself fully in water or mud once per day or suffer one level of exhaustion, which cannot be removed until you complete a long rest while submerged.
+- **Size**. Grung are between 3 and 4 feet tall, and weigh 30-50 pounds. Your size is Small.
 
- **Grung Resilience**. You have advantage on saving throws against poison and resistance against poison damage.
+- **Speed**. Your base walking is 25 feet. You also have a climbing speed of 20 feet.
 
+- **Amphibious**. You can breathe air and water. However, you must submerge yourself fully in water or mud once per day or suffer one level of exhaustion, which cannot be removed until you complete a long rest while submerged.
 
+- **Grung Resilience**. You have advantage on saving throws against poison and resistance against poison damage.
 
- **Poisonous Skin**. When not wearing heavy armor, any creature that grapples you or otherwise becomes in direct contact with your skin must make a Constitution saving throw or be poisoned for 1 minute. If the creature is no longer in contact with your skin, they may repeat the saving throw at the end of each of their turns. A creature that has successfully saved against your poison is immune until it has finished a longrest. The DC for this saving throw is 8 + your Constitution modifier + your proficiency bonus.
+- **Poisonous Skin**. When not wearing heavy armor, any creature that grapples you or otherwise becomes in direct contact with your skin must make a Constitution saving throw or be poisoned for 1 minute. If the creature is no longer in contact with your skin, they may repeat the saving throw at the end of each of their turns. A creature that has successfully saved against your poison is immune until it has finished a longrest. The DC for this saving throw is 8 + your Constitution modifier + your proficiency bonus.
 
- **Poisoned Weapons**. You are proficient with the poisoner’s kit. As a ritual, you can create a single dose of your own skin’s poison, which can be applied to a weapon. The applied poison lasts for 1 hour or until the weapon strikes a creature, which makes a saving throw as if it had touched your Poisonous Skin.
+- **Poisoned Weapons**. You are proficient with the poisoner’s kit. As a ritual, you can create a single dose of your own skin’s poison, which can be applied to a weapon. The applied poison lasts for 1 hour or until the weapon strikes a creature, which makes a saving throw as if it had touched your Poisonous Skin.
 
- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for Athletic checks when your body weight is the only factor, e.g. climbing. In addition, you have advantage on those checks.
+- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for Athletic checks when your body weight is the only factor, e.g. climbing. In addition, you have advantage on those checks.
 
- **Standing Leap**. Your long jump is 20 feet and your high jump is 15 feet, with or without a running start.
+- **Standing Leap**. Your long jump is 20 feet and your high jump is 15 feet, with or without a running start.
 
- **Sticky Pads**. If you have both hands free, you can climb freely across smooth, vertical, and upside down surfaces. While you climb in this way, you cannot make attacks that require your hands or perform spells that require somatic components.
+- **Sticky Pads**. If you have both hands free, you can climb freely across smooth, vertical, and upside down surfaces. While you climb in this way, you cannot make attacks that require your hands or perform spells that require somatic components.
+
+</div>
 
 ### Grung tables
 When creating your grung, roll on the color/caste table once, and on the other tables as you wish for inspiration.
 
+<div class="columnstwo">
 
-#### Color / Caste
-| d6 | Your color/caste is... | Ability score |
-|:--:| :--------------------- | :-----------: |
-| 1 | an unusual color *(outcast)* or multi-hued | Any one
-| 2 | green *(warrior/hunter/laborer)* | Dexterity
-| 3 | blue *(artisan/domestic)* | Charisma
-| 4 | purple *(administrator)* | Wisdom
-| 5 | orange *(elite warrior)* | Strength and Constitution
-| 6 | red *(scholar/magic user)* | Intelligence
+- #### Color / Caste
+    | d6 | Your color/caste is... | Ability score |
+    |:--:| :--------------------- | :-----------: |
+    | 1 | an unusual color *(outcast)* or multi-hued | Any one
+    | 2 | green *(warrior/hunter/laborer)* | Dexterity
+    | 3 | blue *(artisan/domestic)* | Charisma
+    | 4 | purple *(administrator)* | Wisdom
+    | 5 | orange *(elite warrior)* | Strength and Constitution
+    | 6 | red *(scholar/magic user)* | Intelligence
 
+- #### Individual Treasure
+    | d8 | You have a...
+    |:---:|:-------------|
+    | 1 | clay urn full of fireflies.
+    | 2 | net & harpoon with leash tether.
+    | 3 | giant snake jawbone helmet.
+    | 4 | doll of a frog eating an adventurer.
+    | 5 | pouch of roasted yahcha beetles.
+    | 6 | pouch of 4d6 silver pieces.
+    | 7 | shiny shell.
+    | 8 | ornamental “armor” made from (d6):
+    |    | 1. bronze
+    |    | 2. bone
+    |    | 3. ferns
+    |    | 4. fishing net
+    |    | 5. giant snail shell
+    |    | 6. seashells
 
+- #### Mannerism
+    | d8 | You... |
+    |:--:|:-------------|
+    | 1 | believe anything gold is good and to be respected.
+    | 2 | click when agitated.
+    | 3 | have skin that slightly changes pallor to reflect your mood, what you last ate, or your environment.
+    | 4 | constantly check if others have urinated on their eggs today.
+    | 5 | expect other races to understand all the nuances of grung whistles.
+    | 6 | are gluttonous and cast wantonly lustful looks at others’ food.
+    | 7 | engage in a stare-off with almost any living creature.
+    | 8 | inadvertently make awful frog-related puns.
 
+- #### Goal
+    | d8 | You are looking for...
+    |:--:|:-------------|
+    | 1 | waters for soaking, fishing, and foraging.
+    | 2 | new slaves.
+    | 3 | a mate.
+    | 4 | trees and plants for building.
+    | 5 | medicinal herbs.
+    | 6 | insects to trap or harvest.
+    | 7 | the secret to change your coloration.
+    | 8 | eggs stolen from your home.
 
+- #### Catch Phrases
+    | d8 | You are fond of saying... |
+    |:--:|:-------------|
+    | 1 | *“Keep a tongue out for danger.”*
+    | 2 | *“Long live the Supreme Leader!”*
+    | 3 | *“For glory and tribal advancement!”*
+    | 4 | *“Holy cloaca!”*
+    | 5 | *“The bigger they are, the harder they fall.”*
+    | 6 | *“I don’t do things. I have people who do things. That’s good management.”*
+    | 7 | *“You’re not even color-coded!”*
+    | 8 | *“Trust in the order of the Tribe. Let us uplift deeply held national belief.”*
 
+- #### Water Dependency
+    | d6 | You deal with water dependency by...
+    |:--:|:-------------|
+    | 1 | collecting scrolls of create water… which you usually read correctly.
+    | 2 | harvesting plants that store water.
+    | 3 | never going too far from your known watering hole(s).
+    | 4 | relying on rain forecasting rituals, and restricting travel to rain days.
+    | 5 | setting up fog catchment tarps throughout your territory.
+    | 6 | traveling with a rain-catcher and dozens of waterskins (carried by slaves or pack animals).
 
+- #### Quirks
+    | d6 | You...
+    |:--:|:-------------|
+    | 1 | suffer madness (DMG 260).
+    | 2 | sleep best while submerged in water.
+    | 3 | have a hard time controlling your tongue. It occasionally snatches food that doesn’t belong to you.
+    | 4 | accidentally pick up stray objects due to its slimy skin.
+    | 5 | have no personal hygiene.
+    | 6 | store spare items in your mouth.
 
+- #### Grung Names
+    | d20 | Name
+    |:--:|:-------------|
+    | 1 | Bleep
+    | 2 | B’gulp
+    | 3 | Chiirr
+    | 4 | Chm’chmny
+    | 5 | Erg
+    | 6 | Floorp
+    | 7 | Guoguo
+    | 8 | Jr’myeh
+    | 9 | Ker’plop
+    | 10 | K’ung F’huu
+    | 11 | Lik’iti
+    | 12 | Ouro
+    | 13 | Pbaht
+    | 14 | Quon
+    | 15 | Riki’tiki
+    | 16 | Snurk
+    | 17 | Sook’it
+    | 18 | Squoggle
+    | 19 | Vwaak
+    | 20 | Woog Woog
 
+- #### Strategy
+    | d6 | You prefer to attack with...
+    |:--:|:-------------|
+    | 1 | overwhelming numbers.
+    | 2 | elaborate formations with silly names.
+    | 3 | threats, decoys, and readied attacks.
+    | 4 | camouflaged guerilla warfare.
+    | 5 | a quick calculated raid.
+    | 6 | poisonous grappling in pairs while bungee-jumping from trees.
 
-#### Individual Treasure
-| d8 | You have a...
-|:---:|:-------------|
-| 1 | clay urn full of fireflies.
-| 2 | net & harpoon with leash tether.
-| 3 | giant snake jawbone helmet.
-| 4 | doll of a frog eating an adventurer.
-| 5 | pouch of roasted yahcha beetles.
-| 6 | pouch of 4d6 silver pieces.
-| 7 | shiny shell.
-| 8 | ornamental “armor” made from (d6):
-|    | 1. bronze
-|    | 2. bone
-|    | 3. ferns
-|    | 4. fishing net
-|    | 5. giant snail shell
-|    | 6. seashells
+- #### Slaves & Servitors
+    | d12 | You are served by...
+    |:--:|:-------------|
+    | 1 | nothing and no one.
+    | 2 | what you believe is an unseen servant.
+    | 3 | a grung toadie of a lesser caste.
+    | 4 | a giant frog mount (with poison immunity).
+    | 5 | 1d6 tribal warriors or scouts in a drugged/delirious state.
+    | 6 | 1d6 goblins in a drugged/delirious state.
+    | 7 | a thug who traded for grung poison.
+    | 8 | a mad druid.
+    | 9 | a veteran in a drugged/delirious state.
+    | 10 | an ogre or troll in a drugged/delirious state.
+    | 11 | a mage in a drugged/delirious state...or is he/she?
+    | 12 | DM’s choice.
 
-
-
-#### Mannerism
-| d8 | You... |
-|:--:|:-------------|
-| 1 | believe anything gold is good and to be respected.
-| 2 | click when agitated.
-| 3 | have skin that slightly changes pallor to reflect your mood, what you last ate, or your environment.
-| 4 | constantly check if others have urinated on their eggs today.
-| 5 | expect other races to understand all the nuances of grung whistles.
-| 6 | are gluttonous and cast wantonly lustful looks at others’ food.
-| 7 | engage in a stare-off with almost any living creature.
-| 8 | inadvertently make awful frog-related puns.
-
-
-
-#### Goal
-| d8 | You are looking for...
-|:--:|:-------------|
-| 1 | waters for soaking, fishing, and foraging.
-| 2 | new slaves.
-| 3 | a mate.
-| 4 | trees and plants for building.
-| 5 | medicinal herbs.
-| 6 | insects to trap or harvest.
-| 7 | the secret to change your coloration.
-| 8 | eggs stolen from your home.
-
-
-
-
-
-#### Catch Phrases
-| d8 | You are fond of saying... |
-|:--:|:-------------|
-| 1 | *“Keep a tongue out for danger.”*
-| 2 | *“Long live the Supreme Leader!”*
-| 3 | *“For glory and tribal advancement!”*
-| 4 | *“Holy cloaca!”*
-| 5 | *“The bigger they are, the harder they fall.”*
-| 6 | *“I don’t do things. I have people who do things. That’s good management.”*
-| 7 | *“You’re not even color-coded!”*
-| 8 | *“Trust in the order of the Tribe. Let us uplift deeply held national belief.”*
-
-
-
-#### Water Dependency
-| d6 | You deal with water dependency by...
-|:--:|:-------------|
-| 1 | collecting scrolls of create water… which you usually read correctly.
-| 2 | harvesting plants that store water.
-| 3 | never going too far from your known watering hole(s).
-| 4 | relying on rain forecasting rituals, and restricting travel to rain days.
-| 5 | setting up fog catchment tarps throughout your territory.
-| 6 | traveling with a rain-catcher and dozens of waterskins (carried by slaves or pack animals).
-
-
-
-#### Quirks
-| d6 | You...
-|:--:|:-------------|
-| 1 | suffer madness (DMG 260).
-| 2 | sleep best while submerged in water.
-| 3 | have a hard time controlling your tongue. It occasionally snatches food that doesn’t belong to you.
-| 4 | accidentally pick up stray objects due to its slimy skin.
-| 5 | have no personal hygiene.
-| 6 | store spare items in your mouth.
-
-
-![frog](https://robertrigo.github.io/pics/homebrew/Grung.png) {position:absolute,bottom:-0px,left:0px,height:35%,width:100%}
-
-
-
-
-
-
-
-
-{{}}">sTable,column-count:2
-#### Grung Names
-| d20 | Name
-|:--:|:-------------|
-| 1 | Bleep
-| 2 | B’gulp
-| 3 | Chiirr
-| 4 | Chm’chmny
-| 5 | Erg
-| 6 | Floorp
-| 7 | Guoguo
-| 8 | Jr’myeh
-| 9 | Ker’plop
-| 10 | K’ung F’huu
-
-#### &nbsp;
-| d20 | Name
-|:--:|:-------------|
-| 11 | Lik’iti
-| 12 | Ouro
-| 13 | Pbaht
-| 14 | Quon
-| 15 | Riki’tiki
-| 16 | Snurk
-| 17 | Sook’it
-| 18 | Squoggle
-| 19 | Vwaak
-| 20 | Woog Woog
-
-
-
-#### Strategy
-| d6 | You prefer to attack with...
-|:--:|:-------------|
-| 1 | overwhelming numbers.
-| 2 | elaborate formations with silly names.
-| 3 | threats, decoys, and readied attacks.
-| 4 | camouflaged guerilla warfare.
-| 5 | a quick calculated raid.
-| 6 | poisonous grappling in pairs while bungee-jumping from trees.
-
-
-
-#### Slaves & Servitors
-| d12 | You are served by...
-|:--:|:-------------|
-| 1 | nothing and no one.
-| 2 | what you believe is an unseen servant.
-| 3 | a grung toadie of a lesser caste.
-| 4 | a giant frog mount (with poison immunity).
-| 5 | 1d6 tribal warriors or scouts in a drugged/delirious state.
-| 6 | 1d6 goblins in a drugged/delirious state.
-| 7 | a thug who traded for grung poison.
-| 8 | a mad druid.
-| 9 | a veteran in a drugged/delirious state.
-| 10 | an ogre or troll in a drugged/delirious state.
-| 11 | a mage in a drugged/delirious state...or is he/she?
-| 12 | DM’s choice.
-
-
+</div>
 
 
 ## Grung Feats
 You may select the following feat:
 
-{{}}">feat
+<div class="feat">
+
 ## Leaper
 - Your **Dexterity** score increases by 1.
 - **Aerial Agility**. You can use your ***reaction*** when you fall to halve any falling damage you take. You can then reduce this damage additionally by an amount equal to your level plus your Dexterity bonus.
@@ -1001,7 +969,8 @@ Also, for **urban varkind** see the alchemist class option.
 ## Racial Feats
 As a varkind, you have access to the following feat.
 
-{{}}">feat
+<div class="feat">
+
 ## Belly of the Beast
 *Requirement: Urban varkind*
 
@@ -1104,14 +1073,16 @@ Kunek prefer not to be mounted, instead choosing to walk or ride a comfortable c
 ### Fighter
 At 1st level, you can add the Tunnel Fighter and Close Quarter Shooter styles to your selection of fighting styles.
 
-{{}}">feat
+<div class="feat">
+
 ## Tunnel Fighter
 You excel at defending narrow passages, doorways, and other tight spaces. As a ***bonus action***, you can enter a defensive stance that lasts until the start of your next turn.
 
 While in your defensive stance, you can make opportunity attacks without using your ***reaction***, and you can use your ***reaction*** to make a melee attack against a creature that moves more than 5 feet while within your reach.
 
 
-{{}}">feat
+<div class="feat">
+
 ## Close Quarters Shooter
 You are trained in making ranged attacks at close quarters. When making a ranged attack while adjacent to a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks.
 
@@ -1217,14 +1188,16 @@ Ratfolk are often seen riding giant rats.
 ### Fighter
 At 1st level, you can add the Tunnel Fighter and Close Quarter Shooter styles to your selection of fighting styles.
 
-{{}}">feat
+<div class="feat">
+
 ## Tunnel Fighter
 You excel at defending narrow passages, doorways, and other tight spaces. As a ***bonus action***, you can enter a defensive stance that lasts until the start of your next turn.
 
 While in your defensive stance, you can make opportunity attacks without using your ***reaction***, and you can use your ***reaction*** to make a melee attack against a creature that moves more than 5 feet while within your reach.
 
 
-{{}}">feat
+<div class="feat">
+
 ## Close Quarters Shooter
 You are trained in making ranged attacks at close quarters. When making a ranged attack while adjacent to a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks.
 

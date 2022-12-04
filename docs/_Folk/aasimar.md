@@ -458,6 +458,8 @@ Aasimar approach some classes is a bit different than other races. When you sele
 - ### Wizard
     Whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
 
+    <hr class="dividerinfolk">
+
 </div>
 
 

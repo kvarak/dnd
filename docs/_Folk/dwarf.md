@@ -463,6 +463,8 @@ A dwarfs approach to some classes is a bit different than that of other races. W
     ##### Stolen Dwarf
     No restrictions or bonuses.
 
+    <hr class="dividerinfolk">
+
 </div>
 
 

@@ -365,6 +365,8 @@ An awakened approach to some classes is a bit different than that of other races
 
     In addition, whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
 
+    <hr class="dividerinfolk">
+
 </div>
 
 ## <a class="internal-link" name="internal-feat">Awakened Feats</a>
