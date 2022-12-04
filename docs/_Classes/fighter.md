@@ -1514,9 +1514,9 @@ At the end of your turn after using this feature, you gain 2 levels of exhaustio
 
 
 
-
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-celestialKnight">Celestial Knight</a></h1>
+<h2><a class="internal-link" name="internal-celestialKnight">Restricted to Aasimar characters</a></h2>
+<h1>Celestial Knight</h1>
 <div class="featuresTable">
 
 #### Archetype Features

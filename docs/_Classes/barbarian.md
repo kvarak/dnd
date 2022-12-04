@@ -1343,9 +1343,9 @@ While raging, having 0 hit points doesn’t knock you unconscious. You still mus
 
 
 
-
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-tailfighter">Path of the Tailfighter</a></h1>
+<h2><a class="internal-link" name="internal-tailfighter">Restricted to characters with a tail</a></h2>
+<h1>Path of the Tailfighter</h1>
 <div class="featuresTable">
 
 #### Path Features
@@ -1397,7 +1397,8 @@ It takes a minute to properly strap a tail weapon for use, but nothing prevents 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-battleRager">Path of the Battle Rager</a></h1>
+<h2><a class="internal-link" name="internal-battleRager">Restricted to Dwarf characters</a></h2>
+<h1>Path of the Battle Rager</h1>
 <div class="featuresTable">
 
 #### Path Features
@@ -1452,10 +1453,9 @@ When an adjacent creature hits you with a melee attack, the attacker takes 3 pie
 
 
 
-
-
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-quakeBringer">Path of the Quake Bringer</a></h1>
+<h2><a class="internal-link" name="internal-quakeBringer">Restricted to Dwarf characters</a></h2>
+<h1>Path of the Quake Bringer</h1>
 <div class="featuresTable">
 
 #### Path Features

@@ -1326,7 +1326,8 @@ Beginning at 15th level, while a creature that you have successfully used your P
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-banshee">Banshee Conclave</a></h1>
+<h2><a class="internal-link" name="internal-banshee">Restricted to Awakened (bound spirit) characters</a></h2>
+<h1>Banshee Conclave</h1>
 <div class="featuresTable">
 
 #### Conclave Features

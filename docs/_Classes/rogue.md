@@ -1449,10 +1449,9 @@ When you reach 17th level, you have become adept at laying ambushes and quickly 
 
 
 
-
-
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-felineStalker">Feline Stalker</a></h1>
+<h2><a class="internal-link" name="internal-felineStalker">Restricted to Catfolk characters</a></h2>
+<h1>Feline Stalker</h1>
 <div class="featuresTable">
 
 #### Archetype Features
