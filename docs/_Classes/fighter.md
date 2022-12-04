@@ -25,6 +25,10 @@ layout: default
 <a href="#internal-thingSlinger">Thing Slinger</a><br/>
 <a href="#internal-underdog">Underdog</a>
 
+#### Restricted Archetypes
+**Aasimar**<br/>
+<a href="#internal-celestialKnight">Celestial Knight</a>
+
 #### <a href="#internal-FightingStyles">Fighting Styles</a>
 #### <a href="#internal-combatManeuvers">Maneuvers</a>
 
@@ -1509,6 +1513,64 @@ Your ferocity in a tight spot is truly terrifying. You can use your Action Surge
 At the end of your turn after using this feature, you gain 2 levels of exhaustion.
 
 
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-celestialKnight">Celestial Knight</a></h1>
+<div class="featuresTable">
+
+#### Archetype Features
+| Fighter Level | Feature |
+|:-------------:|:--------|
+| 3rd | Divine Aura
+| 7th | Celestial Presence
+| 10th | Manifest Divinity
+| 15th | Sight Beyond Sight
+| 18th | Ascendent
+
+</div>
+
+Among the Aasimar there is a general belief that their ancestors may have left the seeds of celestial power in the material plane for a reason. Most of the time this presents itself as an overwhelming want to prove themselves through divine service.
+
+Not all Aasimar follow this path however: some shirk the responsibilities of divine service or the taking of oaths. Perhaps not wanting to bind themselves in the service of an ancestor, they draw forth their hidden potential and search for other challenges that are fitting of a divine child.
+
+##### Restriction
+The Celestial Knight can only be taken by a character who is Aasimar.
+
+### Divine Aura
+Starting at 3rd level, you become a beacon of hope for those who stalwartly defend the material plane against fiendish incursions. You can temporarily manifest a halo as a ***bonus action***; a corona of energy that varies in appearance depending on which type of Aasimar you are; a golden ring of light for Protector or a quivering ring of shadow for Fallen.
+
+It lasts for 1 minute, until you dismiss it or are incapacitated. Whilst the halo is active, you gain the following benefits:
+
+- If you are a **Protector** Aasimar, you shed bright light out to 10 ft and dim light an additional 10 ft. If you are a **Fallen** Aasimar, any bright light within 5 ft becomes dim light and any dim light becomes darkness.
+- When you attack a creature with a weapon, you can use your ***reaction*** to give yourself advantage.
+- If a fiend with a challenge rating equal to or less than half your fighter level starts or ends it’s turn within 10 ft of you, it must roll a Wisdom saving throw against a DC of 8 + your proficiency bonus + your Charisma modifier. If it fails it is frightened of you for 1 minute. A creature can repeat this saving throw at the end of each of it’s turns, provided that it is not within 10 ft of you, and ends this effect on itself on a success.
+
+You can use this ability a number of times equal to your proficiency bonus, and regain all uses after a long rest.
+
+
+### Celestial Presence
+By 7th level, your celestial heritage has begun to more directly influence your physical appearance. Your type determines what these changes are:
+
+If you are a **Protector**, you begin to look elegant and perfect, and your skin and hair are constantly free of any dirt or blemishes. You have advantage on Charisma checks, as you enthrall those who look upon you.
+
+If you are a **Fallen**, your dreadful aspect becomes so vivid that creatures now find your simple presence terrifying. Fear effects from your ***Divine Aura*** and ***Necrotic Shroud*** are enhanced, causing creatures to have disadvantage on their saving throws against them.
+
+### Manifest Divinity
+Beginning at 10th level, you learn to harness your innate powers in a more focused manner, allowing you to take on your true appearance for longer.
+
+Whenever you use your ***Divine Aura*** feature, you also gain the benefits of your natural transformation using radiant soul or necrotic shroud. However, any damage dealt by those abilities is halved for the duration of the divine aura.
+
+### Sight Beyond Sight
+Starting at 15th level, your eyes become pools of energy that allow you to see the truth of the world.
+
+You can see in non-magical darkness, see invisible creatures and objects, automatically detect visual illusions an succeed on saving throws against them, perceive the original form of a shapechanger or a creature that is transformed by magic, and see into the ethereal plane, all within a range of 30 feet.
+
+### Ascendent
+At 18th level, you have realised the full potential of your celestial heritage. You can now activate your ***Divine Aura*** at will, and it lasts indefinitely unless you choose to end it. In addition, your divine aura has become much more powerful. Whilst your divine aura is active, the following changes apply:
+- The light or darkness radiated your halo increases by an additional 10 feet.
+- If you are a ***Protector*** Aasimar, the vision granted by your ***Sight Beyond Sight*** feature increases to 60 feet.
+- If you are a **Fallen** Aasimar, as an ***action*** you can cause the fear effect of your transformation to activate, and the range increases to 20 feet. In addition, once per short rest, if you have not yet moved, you can teleport to an area of dim light or darkness that you can see within 300 feet of you. If you use this feature, your speed is 0 for the remainder of that turn.
 
 
 

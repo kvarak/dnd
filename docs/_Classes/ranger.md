@@ -19,6 +19,10 @@ layout: default
 <a href="#internal-nightstalker">Nightstalker</a><br/>
 <a href="#internal-stalker">Stalker</a>
 
+#### Restricted Conclaves
+**Awakened (bound spirit)**<br/>
+<a href="#internal-banshee">Banshee Conclave</a>
+
 </div>
 
 # Ranger
@@ -1321,5 +1325,61 @@ Beginning at 15th level, while a creature that you have successfully used your P
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-banshee">Banshee Conclave</a></h1>
+<div class="featuresTable">
 
+#### Conclave Features
+| Ranger Level | Feature |
+|:--:|:--|
+| 3rd | Dreadful Visage, Phaseblade
+| 5th | Terrorizer
+| 7th | Creature of Fear
+| 11th | Haunting Keen
+| 15th | Lament
+
+</div>
+
+Gifted with power from the dark corners of the feywild, this conclave embodies the horror that haunts the hills. Banshees imitate spirits and spectres to stalk, terrify, and slaughter their enemies. They are the very image of fear, whose knives gleam grisly silver and whose terrible howls chill the soul.
+
+##### Restriction
+The Banshee conclave can only be taken by an awakened **bound spirit**.
+
+### Bonus Spells
+You learn an additional spell when you reach certain levels in this class, as shown in the Banshee Magic table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.
+
+
+#### Banshee Magic
+| Ranger Level | Spells |
+| :----------: | :----- |
+| 3rd | _catapult_
+| 5th | _shadow blade_
+| 9th | _fear_
+| 13th | _crystal wail_
+| 17th | _telekinesis_
+
+
+### Dreadful Visage
+You specialize in hunting the cowardly. You can use a ***bonus action*** to transform your face into a terrible countenance for a split second. Choose one creature within 30 feet that can see you. The sight of you forces that creature to make a Wisdom saving throw against your spell save DC. If it fails, it is frightened of you for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+If a creature's saving throw is successful or the effect ends for it, the creature is immune to the your Dreadful Visage for the next 24 hours. A creature has disadvantage on saving throws against this feature if one or more creatures within 30 of it are also frightened of you.
+
+
+
+### Phaseblade
+Your ghostly nature transforms your weapons. Once per turn when you make a weapon attack, you can phase your weapon or ammunition through the target. This attack deals your choice of cold, necrotic, or psychic damage, and deals an extra 1d8 damage of the chosen type. If the target is frightened, the attack roll ignores AC bonuses granted by shields, parrying reactions, and all but total cover.
+
+### Terrorizer
+You have advantage on attack rolls against creatures that are frightened of you.
+
+### Creature of Fear
+You have become so used to using fear as a weapon that the same tactic doesn't work against you. You are immune to the frightened condition, and gain proficiency with Charisma saving throws.
+
+### Haunting Keen
+You can use Dreadful Visage when you roll initiative. Whenever you use Dreadful Visage in this way, you can replace the facial transformation with a horrific wail that affects all hostile creatures within 60 feet of you, instead of one creature.
+
+### Lament
+You can use your ***reaction*** to let out a mournful wail that wards off death when one friendly creature that you can see within 60 feet drops to 0 hit points. Until that creature is stabilized, it has advantage on death saving throws and attack rolls made against it have disadvantage. You can use this ***reaction*** immediately before being knocked to 0 hit points to gain its benefits yourself.
+
+You can use this feature a number of times equal to your Wisdom modifier, and must complete a long rest before you do so again.
 

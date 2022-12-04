@@ -23,7 +23,12 @@ layout: default
 
 #### Restricted Paths
 **Beastfolk (needs a tail)**<br/>
-<a href="#internal-tailfighter">Path of the Tailfighter</a>
+<a href="#internal-tailfighter">Path of the Tailfighter</a><br/>
+
+**Dwarf**<br/>
+<a href="#internal-battleRager">Path of the Battlerager</a><br/>
+<a href="#internal-quakeBringer">Path of the Quake Bringer</a>
+
 
 </div>
 
@@ -39,6 +44,15 @@ The anger felt by a normal person resembles the rage of a barbarian in the same 
 
 
 ## Class Features
+
+
+As a barbarian, you gain the following class features.
+
+#### Hit Points
+**Hit Dice:** 1d12
+
+#### Saving Throws
+You are proficient with ***Strength*** and ***Constitution*** saving throws.
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
@@ -69,19 +83,10 @@ The anger felt by a normal person resembles the rage of a barbarian in the same 
 
 </div>
 
-As a barbarian, you gain the following class features.
-
-#### Hit Points
-**Hit Dice:** 1d12
-
-#### Saving Throws
-You are proficient with ***Strength*** and ***Constitution*** saving throws.
-
 #### Skills
 **Class Skills:** Animal handling, Herbalism, Nature, Perception, Physique, Survival and Swimming
 
 **Skill Points:** You gain 2 skill points at 1st level.
-
 
 <!-- -------------------- Class Specific Skills ---------------------  -->
 
@@ -1388,5 +1393,116 @@ It takes a minute to properly strap a tail weapon for use, but nothing prevents 
 |:-----|:-----:|:------:|:-----------|
 | Tailblade | 10 gp | 1 lbs | Increases damage by +1. Tail attack deals slashing damage instead.
 | Tail Mace | 10 gp | 8 lbs | Increases damage to the next die size.
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-battleRager">Path of the Battle Rager</a></h1>
+<div class="featuresTable">
+
+#### Path Features
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Battlerager Armor |
+| 3rd | Spiky |
+| 6th | Reckless Abandon |
+| 10th | Battlerager Charge |
+| 14th | Spiked Retribution |
+
+</div>
+
+Dwarven battleragers, or *Kuldjargh* (“axe idiots”), are legendary berserker warriors who can enter a battle frenzy through ritualistic singing. They are believed to have been touched by the dwarven gods of battle, who taught them that if they die in battle, they will be reincarnated stronger than before as a just reward. Therefore, they have no fear of death. Most live short, glorious lives.
+
+Battleragers command grudging, if fearful, respect within dwarven society, where they are known to have coined such philosophically complex dwarven maxims like “head first” and “if it moves, kill it.”
+
+While enraged, a battlerager’s face becomes distorted and twisted. His teeth grind together as spittle flies from his mouth and dribbles down his beard. His eyes enlarge, bulge, and become bloodshot. Charging into battle, he bellows forth his clan or holy war song, throwing his hammers and axes all the way, before cleaving his foes with his mighty dwarven waraxe. In short, he becomes almost unstoppable. Battleragers are often covered from head to toe in body art, from tattoos to brands to ritual scars. They prefer to wear bulky, spiked armor and throwing themselves into combat, striking with their body itself.
+
+The battlerager fills a particular niche in dwarf society and culture. He is a fearless and impulsive warrior, able to enter into an insane rampage. Battleragers are ruthlessly used by dwarf generals for their shock power against attacking armies. While heroic battle is honored in dwarven society and battleragers often excel in this, more often than not they also epitomize lives wasted in stupid rage, something most dwarves realize they cannot afford in a world filled with orcs and goblins.
+
+##### Restriction
+Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.
+
+
+<div class="infoarea" markdown="1">
+
+#### Spiked Armor
+Spiked armor is a type of medium armor made by dwarves. It consists of a leather coat and leggings covered with metal spikes.
+
+ **Cost**: 75 gp<br/>
+ **AC**: 14 + Dexterity modifier (max 2)<br/>
+ **Stealth**: Disadvantage<br/>
+ **Weight**: 45 lb.
+
+</div>
+
+### Battlerager Armor
+When you choose this path, you gain the ability to use spiked armor as a weapon. While wearing spiked armor and raging, you can use a ***bonus action*** to make a melee attack with your armor spikes, dealing 1d6 piercing damage. You use your Strength modifier for the attack and damage rolls.
+
+### Spiky
+If you become grappled, or successfully grapple a creature, the target takes 3 piercing damage. In both cases you continue dealing this damage at the start of your turn if you are still grappled or grappling.
+
+### Reckless Abandon
+When you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier. They vanish if any of them are left when your rage ends.
+
+### Battlerager Charge
+Beginning at 10th level, you can take the Dash action as a **bonus action** while raging.
+
+### Spiked Retribution
+When an adjacent creature hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated, and are wearing spiked armor.
+
+
+
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-quakeBringer">Path of the Quake Bringer</a></h1>
+<div class="featuresTable">
+
+#### Path Features
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Earthen
+| 3rd | Stone Rage
+| 6th | Demolisher
+| 10th | Cliff Running
+| 14th | Seismic Smash
+
+</div>
+
+To match the grand fury and power of an earthquake or avalanche, barbarians of the Path of the Quake Bringer channel primal power, drawing on the element of earth when they rage to turn their body to stone. These warriors test their strength by smashing boulders and leaping chasms. In battle, they embody the earthquake itself, leaving craters, rubble, and terror in their rumbling wake.
+
+Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of dwarves, goliath, or firbolgs. Earth genasi can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.
+
+##### Restriction
+Only dwarves can follow the Path of the Quake Bringer.
+
+### Earthen
+You cannot be petrified, and when you are pushed or pulled, you can reduce the distance you are moved by up to 5 feet.
+
+### Stone Rage
+Your rage armors you with rumbling stone. You gain the following benefits while raging.
+* At the start of each of your turns and when you start raging, you gain temporary hit points equal to 2 + half your barbarian level. They vanish if any of them are left when your rage ends.
+* You can use a ***bonus action*** to shake the ground within 5 feet of you. It becomes difficult terrain for other creatures until the start of your next turn.
+
+### Demolisher
+Your elemental power focuses into mighty blows that smash even stone. You deal double damage with melee weapon attacks to objects and structures. When you hit a target composed of earth (dirt, crystal stone, metal etc.) with a melee weapon attack, your weapon is treated as if it were magical for the purpose of overcoming resistance, and if the target is an object or structure, you also gain a bonus to the damage roll equal to half your barbarian level
+
+Also, you have advantage on Strength checks made to dig, demolish, or excavate using a tool or object.
+
+
+
+### Cliff Running
+Starting at 10th leveL you have a climbing speed equal to your walking speed. You don't need free hands to use this speed unless you are climbing a surface that isn't made of some kind of earth.
+In addition, when you jump off of a surface made of earth, you draw power from the earth to boost your leap, increasing your high jump distance by a number of feet equal to your Constitution modifier (minimum + 1) and your long jump distance by twice that amount.
+Finally, you have tremorsense that extends out to a radius of 60 feet while you are raging, allowing you to sense through the earth.
+
+### Seismic Smash
+You gain the ability to smash the ground itself and create a great seismic shockwave. As an ***action*** while raging and wielding a melee weapon, you can strike the ground with this power. Each other creature on the ground within 30 feet of you must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Strength modifier). You can choose to use a smaller radius, if desired.
+
+On a failed saving throw, a target takes bludgeoning damage equal to your barbarian level + your Strength modifier and is knocked prone. On a successful saving throw, a target takes half as much damage and isn't knocked prone.
+
+If the ground in the area is loose earth or stone, it becomes difficult terrain until cleared Each 5-foot radius portion requires at least 1 minute to clear by hand. When you use this ability, you can choose to damage the ground in the area, structures in contact with the ground in the area, both, or neither. This ability deals twice as much damage to those objects.
+
+Once you use this feature, you can't use it again until you finish a short rest.
 
 

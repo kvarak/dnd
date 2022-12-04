@@ -16,7 +16,7 @@ layout: default
 <a href="#internal-rabbitfolk">Rabbitfolk -- **Kunek**</a><br/>
 <a href="#internal-ratfolk">**Ratfolk**</a><br/>
 
-#### <a href="#internal-class">**Beastfolk Class options**</a>
+#### <a href="#internal-class">**Generic Class options**</a>
 
 </div>
 
