@@ -11,7 +11,7 @@ layout: default
 #### <a href="#internal-classOptions">Class options</a>
 #### <a href="#internal-feat">Exclusive feats</a>
 #### **Class archetypes**
-<a href="#internal-celestialKnight">Celestial knight: Fighter</a>
+<a href="#internal-celestialKnight">Fighter -- Celestial Knight</a>
 
 </div>
 

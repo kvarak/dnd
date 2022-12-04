@@ -9,8 +9,8 @@ layout: default
 #### <a href="#internal-class">Class options</a>
 #### <a href="#internal-feat">Feats</a>
 #### Dwarf class archetypes
-<a href="#internal-battleRager">Barbarian Path of the Battlerager</a><br/>
-<a href="#internal-quakeBringer">Barbarian Path of the Quake Bringer</a>
+<a href="#internal-battleRager">Barbarian -- Path of the Battlerager</a><br/>
+<a href="#internal-quakeBringer">Barbarian -- Path of the Quake Bringer</a>
 
 #### <a href="#internal-race">About the Dwarven Race</a>
 <a href="#internal-path">The Path to Perfection</a><br/>
@@ -525,9 +525,7 @@ The following feats are exclusive to dwarves.
 </div>
 
 <hr class="classdivider">
-
-# <a class="internal-link" name="internal-battleRager">Path of the Battle Rager</a>
-
+<h1><a class="internal-link" name="internal-battleRager">Path of the Battle Rager</a></h1>
 <div class="featuresTable">
 
 #### Path Features
@@ -585,11 +583,7 @@ When an adjacent creature hits you with a melee attack, the attacker takes 3 pie
 
 
 <hr class="classdivider">
-
-
-
-# <a class="internal-link" name="internal-quakeBringer">Path of the Quake Bringer</a>
-
+<h1><a class="internal-link" name="internal-quakeBringer">Path of the Quake Bringer</a></h1>
 <div class="featuresTable">
 
 #### Path Features
