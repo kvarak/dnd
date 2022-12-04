@@ -9,7 +9,7 @@ layout: default
 #### <a href="#internal-class">Class options</a>
 #### <a href="#internal-feat">Feats</a>
 #### Dwarf class archetypes
-<a href="#internal-battleRager">Barbarian Path of the Battlerager</a>
+<a href="#internal-battleRager">Barbarian Path of the Battlerager</a><br/>
 <a href="#internal-quakeBringer">Barbarian Path of the Quake Bringer</a>
 
 #### <a href="#internal-race">About the Dwarven Race</a>
@@ -197,264 +197,276 @@ You have high amounts of silver in your body, and gain the following traits:
 # <a class="internal-link" name="internal-class">Dwarven Class Options</a>
 A dwarfs approach to some classes is a bit different than that of other races. When you select a class, it is modified as follows. Unless under its own subheading, a description is valid for all dwarven origins.
 
+<div class="columnstwo">
+
+- ### Alchemist
+    A dwarven alchemists is usually adept at brewing or drinking brews, often both. You gain proficiency brewer's supplies, and always have advantage on checks with them. All the sampling of your brews have learnt you to withstand even the worst possible hooch. Whenever you succeed at a saving throw against ingested poison, you may heal yourself by using a Hit Dice (if available).
+
+    In addition, whenever the alchemist class description mentions your Intelligence modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+
+    ##### Lost Dwarf
+    You have not had the possibility to learn alchemy.
+
+    <hr class="dividerinfolk">
+
+- ### Barbarian
+    A dwarf-raised barbarian has access to the Barbarian paths of the <a href="#internal-battleRager"> Battlerager</a> and <a href="#internal-quakeBringer">Quake bringer</a>.
+
+    ##### Lost Dwarf
+    A lost dwarf does not have any formal combat training, and often resort to a ferocious and wild fighting style.
 
 
-### Alchemist
-A dwarven alchemists is usually adept at brewing or drinking brews, often both. You gain proficiency brewer's supplies, and always have advantage on checks with them. All the sampling of your brews have learnt you to withstand even the worst possible hooch. Whenever you succeed at a saving throw against ingested poison, you may heal yourself by using a Hit Dice (if available).
 
-In addition, whenever the alchemist class description mentions your Intelligence modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+    If starting play as a Barbarian, whenever the class description mentions your Strength modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
 
-##### Lost Dwarf
-You have not had the possibility to learn alchemy.
+    ##### Stolen Dwarf
+    No restrictions or bonuses.
 
-<hr class="dividerinfolk">
+    <hr class="dividerinfolk">
+
+- ### Bard
+    The dwarven musical tradition is heavily influenced by drumming. If you choose this as your favored instrument, you don't necessarily need your drums at all times. Even if that is preferred, you can use your drumsticks to drum on almost anything, as long as it produces a loud enough sound.
+
+    If you are using drums, when you grant someone an inspiration die, you can play a marching tune to grant one additional inspiration die to a second target in range. The extra inspiration die is there until used, or until you stop playing. This is a concentration effect.
+
+    One thing to keep in mind for a dwarven bard is that they cannot play wind instruments, since they do not have lungs.
+
+    The magic produced by a dwarven bard is Divine magic.
+
+    ##### Stolen Dwarf
+    Uses the types of instruments common in the culture where he matured. Cannot play wind instruments.
+
+    <hr class="dividerinfolk">
+
+-   ### Cavalier
+    The dwarven cavalier's mount of choice is usually the giant goat. Mounted on one of these, a dwarf cavalier can use the giant goat's Charge action as if he had it himself.
+
+    <img src='https://s-media-cache-ak0.pinimg.com/736x/fd/7f/ba/fd7fba69843a691b7f300f719507c815.jpg' style='width:80%;' />
+    <!-- style='float:right;width:42%;padding:20px' /> -->
+
+    ##### Lost Dwarf
+    A lost dwarf can not become a cavalier.
+
+    ##### Stolen Dwarf
+    A stolen dwarf cavalier will have a type of mount suitable for the area he lives.
+
+    <div class="monster multimonster frame">
+    <table class="monster">
+    <thead><tr><th>
+    Giant Goat
+    </th></tr></thead>
+    <tbody>
+    <tr><td><i>Large beast</i></td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1">
+
+    **Armor Class**   11 (natural armor)<br/>
+    **Hit Points**    19 (3d10 + 3)<br/>
+    **Speed** 			  40 ft
+
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
+
+    |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+    |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+    |17 (+3)|11 (+0)|12 (+1)|3 (-4) |12 (+1)|6 (-2) |
+
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
+
+    ***Charge.*** If the goat moves at least 20 ft straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2d4 bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+
+    ***Sure-Footed.*** The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
+    </td></tr>
+    <tr><td><hr></td></tr>
+    <tr><td markdown="1" class="monster">
+
+    ### Actions
+    ***Ram.*** *Melee Attack:* +5 to hit. *Hit*: 2d4+3 bludgeoning damage.
+
+    </td></tr></tbody></table>
+    </div>
 
 
-### Barbarian
-A dwarf-raised barbarian has access to the Barbarian paths of the <a href="#internal-battleRager"> Battlerager</a> and <a href="#internal-quakeBringer">Quake bringer</a>.
+    <hr class="dividerinfolk">
 
-##### Lost Dwarf
-A lost dwarf does not have any formal combat training, and often resort to a ferocious and wild fighting style.
+- ### Cleric
+    Dwarves have a very strong connection to their gods and religion infuses every aspect of their lives. As such, clerics are much more common than in any other race. A dwarf-raised cleric will be follow the gods of the Mordinsamman (see <a href="#internal-religion">*Dwarven Religion*</a>), and no other gods.
 
+    Whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
+    ##### Lost Dwarf
+    The deity Marthammor Duin is the god of lost dwarfs. He tries to guide them and make sure they have the tools to survive. When a lost dwarf listens and heeds the words in his head, he may (sometimes unknowingly) become a cleric).
 
-If starting play as a Barbarian, whenever the class description mentions your Strength modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
+    If you are a cleric of Marthammor Duin, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-##### Stolen Dwarf
-No restrictions or bonuses.
-
-<hr class="dividerinfolk">
-
-
-### Bard
-The dwarven musical tradition is heavily influenced by drumming. If you choose this as your favored instrument, you don't necessarily need your drums at all times. Even if that is preferred, you can use your drumsticks to drum on almost anything, as long as it produces a loud enough sound.
-
-If you are using drums, when you grant someone an inspiration die, you can play a marching tune to grant one additional inspiration die to a second target in range. The extra inspiration die is there until used, or until you stop playing. This is a concentration effect.
-
-One thing to keep in mind for a dwarven bard is that they cannot play wind instruments, since they do not have lungs.
-
-The magic produced by a dwarven bard is Divine magic.
-
-##### Stolen Dwarf
-Uses the types of instruments common in the culture where he matured. Cannot play wind instruments.
-
-<hr class="dividerinfolk">
+    ##### Stolen Dwarf
+    A stolen dwarf cleric follows the gods taught to him by his master/caretaker.
 
 
-<img src='https://s-media-cache-ak0.pinimg.com/736x/fd/7f/ba/fd7fba69843a691b7f300f719507c815.jpg' style='float:right;width:42%;padding:20px' />
+
+    ##### Special
+    If you have the *Silvered* material trait, you can replace some of the silver required as material component for your divine magic with your spit. Reduce the cost of any silver materials by half. If this takes the cost to 1 gp or lower, your spit is enough.
+
+    <hr class="dividerinfolk">
+
+- ### Cursed
+    Dwarves are notoriously hard to possess, but you are an exception. You loose the *Stubborn as stone* trait. But being a dwarf, you can still resist most of the time. You cannot change form except as a ***reaction*** when being reduced to below half hp, becoming frightened, stunned or any other condition affecting your mind.
+
+    <hr class="dividerinfolk">
+
+- ### Druid
+    Lost and stolen dwarves can become druids, just as most other races.
+
+    ##### Dwarf-raised
+    The dwarven society does not have any use for druids, as they have gods that aid them in all matters regarding nature. Because of this there are no dwarf-raised druids.
+
+    Also, why would a dwarf ever want to change form when they have been crafted to perfection?
+
+    <hr class="dividerinfolk">
+
+- ### Feyblood
+    Feyblood dwarves are known to exist. This might happen if some of the materials used when crafting the dwarf was tainted by fey magic. When this happens, the feyblood affinity can only be Boggart, Oread or Pooka.
+
+    ##### Dwarf-raised
+    Such a thing happening is usually a nightmare for the dwarves, as they are not used to adapting to these kind of chaotic events. A dwarf should be a dwarf, and not something else.
+
+    They try to handle the feyblood dwarf just as any other dwarf, but they are always assigned to roles that take them far away from the dwarven stronghold.
+
+    ##### Special
+    If you have the *Iron* material trait, you cannot become a feyblood.
+
+    <hr class="dividerinfolk">
+
+- ### Fighter
+    All types of dwarves may can add the dwarven fighting style to their selection of fighting styles.
+
+    <div class="feat">
+
+    ## Dwarven fighting
+    You know how to use your low center of gravity to best effect in combat. You gain advantage on all rolls to avoid being moved or knocked prone, as well as your attempts to do so to an enemy. In addition, you are not penalized for moving in difficult terrain due to rocky terrain.
+
+    </div>
+
+    ##### Dwarf-raised
+    All Dwarf-raised learn how to fight, but a dwarf fighter has specifically been assigned to continue this role, and improve their martial skills even more.
+
+    If you have the Dwarven fighting style, and wield an axe, pick or hammer, then whenever the class description mentions your Strength modifier, you may instead use your proficiency bonus. This also applies to attack and damage rolls.
+
+    <hr class="dividerinfolk">
+
+- ### Inquisitor
+
+    ##### Dwarf-raised
+    The inquisitor does not have a place in dwarven society.
+
+    ##### Lost Dwarf
+    A lost dwarf can not become a inquisitor.
+
+    <hr class="dividerinfolk">
+
+    <!--
+    ### Monster Hunter
+    A dwarf can not become this class, mostly due to the monster hunter's reliance on blood magic. Dwarves do not have any blood to spill.
+    -->
+
+- ### Paladin
+    All dwarven paladins can add the Dwarven fighting style to their selection of fighting styles (see the fighter entry above).
+
+    Dwarves make excellent paladins. Whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
+
+    ##### Dwarf-raised
+    Dwarf-raised paladins have access to an exclusive oath, the **Oath of the Stonelord**.
+
+    <hr class="dividerinfolk">
+
+- ### Professional
+    Professionals make up the bulk of dwarven society. They are however more focused on the more practical fields, exluding most of the fields in the class description.
+
+    If you belong to one of the more practical professions, then whenever the class description mentions your Wisdom modifier, you may instead use your proficiency bonus. In addition all spells count as being divine magic.
+
+    ##### Lost Dwarf
+    A lost dwarf would not had the possibility to learn a craft and become a professional.
+
+    ##### Stolen Dwarf
+    A stolen dwarf can select any field of study, and whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+
+    <hr class="dividerinfolk">
+
+- ### Ranger
+    All dwarven rangers can add the Dwarven fighting style to their selection of fighting styles (see the fighter entry above).
+
+    ##### Dwarf-raised
+    In the dwarven societies, rangers guard the borders toward the wilderness, as well as guiding travelling dwarfs.
+
+    Due to their closeness with their deities, whenever the class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+
+    ##### Lost Dwarf
+    For a lost dwarf to survive, he has to learn skills that are also essential to the ranger class.
+
+    You may use your Strength or Dexterity modifier +3 or your proficiency bonus when attacking. Make this choice at level 1 and it cannot be changed later.
+
+    In addition, whenever the Ranger class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+
+    ##### Stolen Dwarf
+    No restrictions or bonuses.
+
+    ##### Special
+    If you have the *Iron* or *Silvered* material trait, you deal damage to fey (iron) or shapechangers (silvered) as if they were your favored enemy, as well as treating them as your greater favored enemy at level 6.
+
+    <hr class="dividerinfolk">
+
+- ### Rogue
+    ##### Dwarf-raised
+    Dwarf rogues might seem odd, as the dwarves are so honorable and orderly, but there is sometimes a need for infiltrating enemy strongholds, or take point in trap-filled areas.
+
+    You may use handaxe or light hammer as if they were light finesse weapons.
+
+    <hr class="dividerinfolk">
+
+- ### Sorcerer
+    Dwarves never become sorcerers, as Moradin would not let such randomness infect his perfect creations. However, it has known to happen that a dwarf is blessed be the gods in preparation for an important task, granting a deeper connection to the stone.
+
+    A dwarf can become a relicker, or a stone sorcerer. If you are a stone sorcerer, then whenever the class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+
+    <hr class="dividerinfolk">
 
 
-<div class="monster frame">
-<table class="monster">
-<thead><tr><th>
-Giant Goat
-</th></tr></thead>
-<tbody>
-<tr><td><i>Large beast</i></td></tr>
-<tr><td><hr></td></tr>
-<tr><td markdown="1">
+- ### Swashbuckler
+    A dwarf swashbuckler may use the handaxe and light hammer as if they were light finesse weapons.
 
-**Armor Class**   11 (natural armor)
+    <hr class="dividerinfolk">
 
-**Hit Points**    19 (3d10 + 3)
+- ### Warlock
+    ##### Dwarf-raised
+    Under normal circumstances a dwarf already has allegiance with his clan and his gods, so making a pact with a patron is out of the question. However there might be situations where making a pact with an otherwordly being is the only way to save your clan or returning to it.
 
-**Speed** 			  40 ft
+    ##### Lost or Stolen Dwarf
+    An otherwordly being might very well be the reason why the dwarf became lost or stolen, in order to lure it into its grasp.
 
-</td></tr>
-<tr><td><hr></td></tr>
-<tr><td markdown="1" class="monster">
+    If this is the case, then, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|17 (+3)|11 (+0)|12 (+1)|3 (-4) |12 (+1)|6 (-2) |
 
-</td></tr>
-<tr><td><hr></td></tr>
-<tr><td markdown="1" class="monster">
+    <hr class="dividerinfolk">
 
-***Charge.*** If the goat moves at least 20 ft straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2d4 bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+- ### Wizard
+    It is hard to break the concentration of a fully focused dwarf. A dwarf wizard has advantage on all concentration checks caused by blunt, piercing and slashing damage.
 
-***Sure-Footed.*** The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
-</td></tr>
-<tr><td><hr></td></tr>
-<tr><td markdown="1" class="monster">
+    ##### Dwarf-raised
+    As mentioned in the sidebar, dwarven mostly ignore arcane magic, as it is not "natural" according to them. There is not even a god governing arcane magic in their pantheon.
 
-### Actions
-***Ram.*** *Melee Attack:* +5 to hit. *Hit*: 2d4+3 bludgeoning damage.
+    ##### Lost Dwarf
+    A lost dwarf can not be a wizard.
 
-</td></tr></tbody></table>
+    ##### Stolen Dwarf
+    No restrictions or bonuses.
+
 </div>
 
-### Cavalier
-The dwarven cavalier's mount of choice is usually the giant goat. Mounted on one of these, a dwarf cavalier can use the giant goat's Charge action as if he had it himself.
 
-##### Lost Dwarf
-A lost dwarf can not become a cavalier.
-
-##### Stolen Dwarf
-A stolen dwarf cavalier will have a type of mount suitable for the area he lives.
-
-<hr class="dividerinfolk">
-
-
-### Cleric
-Dwarves have a very strong connection to their gods and religion infuses every aspect of their lives. As such, clerics are much more common than in any other race. A dwarf-raised cleric will be follow the gods of the Mordinsamman (see <a href="#internal-religion">*Dwarven Religion*</a>), and no other gods.
-
-Whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
-
-##### Lost Dwarf
-The deity Marthammor Duin is the god of lost dwarfs. He tries to guide them and make sure they have the tools to survive. When a lost dwarf listens and heeds the words in his head, he may (sometimes unknowingly) become a cleric).
-
-If you are a cleric of Marthammor Duin, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
-
-##### Stolen Dwarf
-A stolen dwarf cleric follows the gods taught to him by his master/caretaker.
-
-
-
-##### Special
-If you have the *Silvered* material trait, you can replace some of the silver required as material component for your divine magic with your spit. Reduce the cost of any silver materials by half. If this takes the cost to 1 gp or lower, your spit is enough.
-
-<hr class="dividerinfolk">
-
-
-### Cursed
-Dwarves are notoriously hard to possess, but you are an exception. You loose the *Stubborn as stone* trait. But being a dwarf, you can still resist most of the time. You cannot change form except as a ***reaction*** when being reduced to below half hp, becoming frightened, stunned or any other condition affecting your mind.
-
-<hr class="dividerinfolk">
-
-
-### Druid
-Lost and stolen dwarves can become druids, just as most other races.
-
-##### Dwarf-raised
-The dwarven society does not have any use for druids, as they have gods that aid them in all matters regarding nature. Because of this there are no dwarf-raised druids.
-
-Also, why would a dwarf ever want to change form when they have been crafted to perfection?
-
-<hr class="dividerinfolk">
-
-
-### Feyblood
-Feyblood dwarves are known to exist. This might happen if some of the materials used when crafting the dwarf was tainted by fey magic. When this happens, the feyblood affinity can only be Boggart, Oread or Pooka.
-
-##### Dwarf-raised
-Such a thing happening is usually a nightmare for the dwarves, as they are not used to adapting to these kind of chaotic events. A dwarf should be a dwarf, and not something else.
-
-They try to handle the feyblood dwarf just as any other dwarf, but they are always assigned to roles that take them far away from the dwarven stronghold.
-
-##### Special
-If you have the *Iron* material trait, you cannot become a feyblood.
-
-<hr class="dividerinfolk">
-
-### Fighter
-All types of dwarves may can add the dwarven fighting style to their selection of fighting styles.
-
-<div class="feat">
-
-## Dwarven fighting
-You know how to use your low center of gravity to best effect in combat. You gain advantage on all rolls to avoid being moved or knocked prone, as well as your attempts to do so to an enemy. In addition, you are not penalized for moving in difficult terrain due to rocky terrain.
-
-</div>
-
-##### Dwarf-raised
-All Dwarf-raised learn how to fight, but a dwarf fighter has specifically been assigned to continue this role, and improve their martial skills even more.
-
-If you have the Dwarven fighting style, and wield an axe, pick or hammer, then whenever the class description mentions your Strength modifier, you may instead use your proficiency bonus. This also applies to attack and damage rolls.
-
-<hr class="dividerinfolk">
-
-### Inquisitor
-
-##### Dwarf-raised
-The inquisitor does not have a place in dwarven society.
-
-##### Lost Dwarf
-A lost dwarf can not become a inquisitor.
-
-<!--
-### Monster Hunter
-A dwarf can not become this class, mostly due to the monster hunter's reliance on blood magic. Dwarves do not have any blood to spill.
--->
-
-<hr class="dividerinfolk">
-
-### Paladin
-All dwarven paladins can add the Dwarven fighting style to their selection of fighting styles (see the fighter entry above).
-
-Dwarves make excellent paladins. Whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
-
-##### Dwarf-raised
-Dwarf-raised paladins have access to an exclusive oath, the **Oath of the Stonelord**.
-
-<hr class="dividerinfolk">
-
-
-### Professional
-Professionals make up the bulk of dwarven society. They are however more focused on the more practical fields, exluding most of the fields in the class description.
-
-If you belong to one of the more practical professions, then whenever the class description mentions your Wisdom modifier, you may instead use your proficiency bonus. In addition all spells count as being divine magic.
-
-##### Lost Dwarf
-A lost dwarf would not had the possibility to learn a craft and become a professional.
-
-##### Stolen Dwarf
-A stolen dwarf can select any field of study, and whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
-
-<hr class="dividerinfolk">
-
-
-### Ranger
-All dwarven rangers can add the Dwarven fighting style to their selection of fighting styles (see the fighter entry above).
-
-
-
-##### Dwarf-raised
-In the dwarven societies, rangers guard the borders toward the wilderness, as well as guiding travelling dwarfs.
-
-Due to their closeness with their deities, whenever the class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
-
-##### Lost Dwarf
-For a lost dwarf to survive, he has to learn skills that are also essential to the ranger class.
-
-You may use your Strength or Dexterity modifier +3 or your proficiency bonus when attacking. Make this choice at level 1 and it cannot be changed later.
-
-In addition, whenever the Ranger class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
-
-##### Stolen Dwarf
-No restrictions or bonuses.
-
-##### Special
-If you have the *Iron* or *Silvered* material trait, you deal damage to fey (iron) or shapechangers (silvered) as if they were your favored enemy, as well as treating them as your greater favored enemy at level 6.
-
-<hr class="dividerinfolk">
-
-
-### Rogue
-##### Dwarf-raised
-Dwarf rogues might seem odd, as the dwarves are so honorable and orderly, but there is sometimes a need for infiltrating enemy strongholds, or take point in trap-filled areas.
-
-You may use handaxe or light hammer as if they were light finesse weapons.
-
-<hr class="dividerinfolk">
-
-
-### Sorcerer
-Dwarves never become sorcerers, as Moradin would not let such randomness infect his perfect creations. However, it has known to happen that a dwarf is blessed be the gods in preparation for an important task, granting a deeper connection to the stone.
-
-A dwarf can become a relicker, or a stone sorcerer. If you are a stone sorcerer, then whenever the class description mentions your Charisma modifier, you may instead use your proficiency bonus.
-
-<hr class="dividerinfolk">
-
-
-### Swashbuckler
-A dwarf swashbuckler may use the handaxe and light hammer as if they were light finesse weapons.
-
-
-<hr class="dividerinfolk">
-
-<div class="infoarea" markdown="1">
+<div class="descriptive" markdown="1">
 
 ### On the topic of magic
 Dwarves are of two minds on the topic of magic.
@@ -464,32 +476,6 @@ They view ***divine magic*** as a gift from their gods, a direct helping hand me
 ***Arcane magic*** in all its forms is a different matter. Dwarves have no innate fear or hatred of such things, but arcane magic has no true patron among the dwarven deities. As such, the dwarves ignore it in their daily lives, and clan members who take up the practice are exceedingly rare. Using arcane magic to assist in the creation of one's works is anathema to almost all dwarves, because the act amounts to nothing more than cheating.
 
 </div>
-
-
-
-### Warlock
-##### Dwarf-raised
-Under normal circumstances a dwarf already has allegiance with his clan and his gods, so making a pact with a patron is out of the question. However there might be situations where making a pact with an otherwordly being is the only way to save your clan or returning to it.
-
-##### Lost or Stolen Dwarf
-An otherwordly being might very well be the reason why the dwarf became lost or stolen, in order to lure it into its grasp.
-
-If this is the case, then, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
-
-
-<hr class="dividerinfolk">
-
-### Wizard
-It is hard to break the concentration of a fully focused dwarf. A dwarf wizard has advantage on all concentration checks caused by blunt, piercing and slashing damage.
-
-##### Dwarf-raised
-As mentioned in the sidebar, dwarven mostly ignore arcane magic, as it is not "natural" according to them. There is not even a god governing arcane magic in their pantheon.
-
-##### Lost Dwarf
-A lost dwarf can not be a wizard.
-
-##### Stolen Dwarf
-No restrictions or bonuses.
 
 
 ## <a class="internal-link" name="internal-feat">Dwarven feats</a>
