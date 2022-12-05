@@ -6,14 +6,12 @@ layout: default
 <div class="toc" markdown="1">
 
 #### <a href="#internal-traits">Traits</a>
-#### <a href="#internal-ElvenSubtypes">Elven Subtypes</a>
+#### <a href="#internal-ElvenSubtypes">Subtypes</a>
 <a href="#internal-eladrin">Eladrin</a><br/>
 <a href="#internal-shadarKai">Shadar-kai</a><br/>
 <a href="#internal-wood">Wood elf</a>
 
-#### Character options
-<a href="#internal-class">Class options</a><br/>
-<a href="#internal-feats">Racial feats</a>
+#### <a href="#internal-class">Class Options</a>
 
 #### The Elven Races
 <a href="#internal-race">The Wood Elves</a><br/>
@@ -103,456 +101,456 @@ Your elf character has a variety of natural abilities, the result of thousands o
 
 When you choose the subtype of your elf, you can choose Eladrin, Shadar-kai or Wood elf.
 
-### <a name="internal-eladrin">Eladrin</a>
+### <a class="internal-link" name="internal-eladrin">Eladrin</a>
 Eladrin are native to the Feywild, but sometimes visit the Material plane out or curiosity, a debt that needs settling, a decree by their ruler or because they have been banished. Being on this plane often seems dull for the eladrin, as everything feels muted compared to the Feywild, the colors, the magic and even the joy.
 
 This is sometimes offset by the fact that they can be killed outside of the Feywild, giving them a bit of a rush when in danger. Some eladrin come to the Material plane just too fell that rush, as if addicted.
 
 An eladrin is associated with one of the four seasons and has coloration reminiscent of that season, which can also affect the eladrin's mood:
 
+<div class="columns">
+
 * **Autumn** is the season of peace and goodwill, when summer's harvest is shared with all.
+
+    <img src='https://media-waterdeep.cursecdn.com/attachments/3/909/autumn-eladrin.png' style='width:100%;padding:20px' />
 
 * **Winter** is the season of contemplation and dolor, when the vibrant energy of the world slumbers.
 
+    <img src='https://i.pinimg.com/originals/cc/3d/7c/cc3d7c7f325001b051f26e3e4a833a70.png' style='width:100%;padding:20px' />
+
 * **Spring** is the season of cheerfulness and celebration, marked by merriment as winter's sorrow passes.
+
+    <img src='https://i.pinimg.com/originals/ce/7e/f8/ce7ef84f1d0ac39f110aa640508db5d3.png' style='width:100%;padding:20px' />
 
 * **Summer** is the season of boldness and aggression. a time of unfettered energy.
 
+    <img src='https://i.pinimg.com/originals/c4/19/97/c41997907a855ed61b91c425151bc14e.png' style='width:100%;padding:20px' />
 
-
-
-
-
-
+</div>
 
 In the Feywild the seaons so not change, so they always have the same association, but in the material plane this changes with the season.
 
 The following tables offer personality suggestions for eladrin of each season. You can roll on the tables or use them as inspiration for characteristics of your own.
 
 
-#### Autumn
-| d4 | Autumn Personality Trait |
-|:--:|:-------------|
-| 1 | If someone is in need, you never withhold aid. |
-| 2 | You share what you have, with little regard for your own needs. |
-| 3 | There are no simple meals, only lavish feasts. |
-| 4 | You stock up on fine food and drink. You hate going without such comforts. |
+<div class="columns">
 
-| d4 | Autumn Flaw |
-|:--:|:-------------|
-| 1 | You trust others without a second thought. |
-| 2 | You give to others, to the point that you leave yourself without necessary supplies. |
-| 3 | Everyone is your friend, or a potential friend. |
-| 4 | You spend excessively on creature comforts. |
+- #### Autumn
+    | d4 | Autumn Personality Trait |
+    |:--:|:-------------|
+    | 1 | If someone is in need, you never withhold aid. |
+    | 2 | You share what you have, with little regard for your own needs. |
+    | 3 | There are no simple meals, only lavish feasts. |
+    | 4 | You stock up on fine food and drink. You hate going without such comforts. |
 
+    | d4 | Autumn Flaw |
+    |:--:|:-------------|
+    | 1 | You trust others without a second thought. |
+    | 2 | You give to others, to the point that you leave yourself without necessary supplies. |
+    | 3 | Everyone is your friend, or a potential friend. |
+    | 4 | You spend excessively on creature comforts. |
 
+- #### Winter
+    | d4 | Winter Personality Trait |
+    |:--:|:-------------|
+    | 1 | The worst case is the most likely to occur. |
+    | 2 | You preserve what you have. Better to be hungry today and have food for tomorrow. |
+    | 3 | Life is full of dangers, but you are ready for them. |
+    | 4 | A penny spent is a penny lost forever. |
 
-#### Winter
-| d4 | Winter Personality Trait |
-|:--:|:-------------|
-| 1 | The worst case is the most likely to occur. |
-| 2 | You preserve what you have. Better to be hungry today and have food for tomorrow. |
-| 3 | Life is full of dangers, but you are ready for them. |
-| 4 | A penny spent is a penny lost forever. |
+    | d4 | Winter Flaw |
+    |:--:|:-------------|
+    | 1 | Everything dies eventually. Why bother building anything that is supposedly meant to last?
+    | 2 | Nothing matters to you, and you allow others to guide your actions.
+    | 3 | Your needs come first. In winter, all must watch out for themselves.
+    | 4 | You speak only to point out the flaws in others' plans.
 
-| d4 | Winter Flaw |
-|:--:|:-------------|
-| 1 | Everything dies eventually. Why bother building anything that is supposedly meant to last?
-| 2 | Nothing matters to you, and you allow others to guide your actions.
-| 3 | Your needs come first. In winter, all must watch out for themselves.
-| 4 | You speak only to point out the flaws in others' plans.
+- #### Spring
+    | d4 | Spring Personality Trait |
+    |:--:|:-------------|
+    | 1 | Every day is the greatest day of your life.
+    | 2 | You approach everything with enthusiasm, even the most mundane chores.
+    | 3 | You love music and song. You supply a tune yourself if no one else can.
+    | 4 | You can't stay still.
 
+    | d4 | Spring Flaw |
+    |:--:|:-------------|
+    | 1 | You overdrink.
+    | 2 | Toil is for drudges. Yours should be a life of leisure.
+    | 3 | A pretty face infatuates you in an instant, but your fancy passes with equal speed.
+    | 4 | Anything worth doing is worth doing again and again.
 
+- #### Summer
+    | d4 | Summer Personality Trait |
+    |:--:|:-------------|
+    | 1 | You believe that direct confrontation is the best way to solve problems.
+    | 2 | Overwhelming force can accomplish almost anything. The tougher the problem, the more force you apply.
+    | 3 | You stand tall and strong so that others can lean on you.
+    | 4 | You maintain an intimidating front. It's better to prevent fights with a show of force than to harm others.
 
+    | d4 | Summer Flaw |
+    |:--:|:-------------|
+    | 1 | You are stubborn. Let others change.
+    | 2 | The best option is one that is swift, unexpected, and overwhelming.
+    | 3 | Punch first. Talk later.
+    | 4 | Your fury can carry you through anything.
 
-
-#### Spring
-| d4 | Spring Personality Trait |
-|:--:|:-------------|
-| 1 | Every day is the greatest day of your life.
-| 2 | You approach everything with enthusiasm, even the most mundane chores.
-| 3 | You love music and song. You supply a tune yourself if no one else can.
-| 4 | You can't stay still.
-
-| d4 | Spring Flaw |
-|:--:|:-------------|
-| 1 | You overdrink.
-| 2 | Toil is for drudges. Yours should be a life of leisure.
-| 3 | A pretty face infatuates you in an instant, but your fancy passes with equal speed.
-| 4 | Anything worth doing is worth doing again and again.
-
-
-
-#### Summer
-| d4 | Summer Personality Trait |
-|:--:|:-------------|
-| 1 | You believe that direct confrontation is the best way to solve problems.
-| 2 | Overwhelming force can accomplish almost anything. The tougher the problem, the more force you apply.
-| 3 | You stand tall and strong so that others can lean on you.
-| 4 | You maintain an intimidating front. It's better to prevent fights with a show of force than to harm others.
-
-| d4 | Summer Flaw |
-|:--:|:-------------|
-| 1 | You are stubborn. Let others change.
-| 2 | The best option is one that is swift, unexpected, and overwhelming.
-| 3 | Punch first. Talk later.
-| 4 | Your fury can carry you through anything.
-
+</div>
 
 #### Eladrin traits
 Eladrin have the following traits in common, in addition to the traits they share with other elves.
 
- **Ability Score Increase**. Your Charisma ability score, both current and maximum, increases by 2.
+<div class="columnsthree">
 
- **Age**. Eladrin are eternal and ageless. Time has no meaning in the Feywild. However, most things they know and learn are forgotten to make place for new knowledge and experiences. So an eladrin might not remember something he learnt 100 years ago and probably doesn't care. It only gives him the opportunity to learn it again.
+- **Ability Score Increase**. Your Charisma ability score, both current and maximum, increases by 2.
 
-![eladrin](https://media-waterdeep.cursecdn.com/attachments/3/909/autumn-eladrin.png) {position:absolute,bottom:10px,left:-20px,width:250px}
+- **Age**. Eladrin are eternal and ageless. Time has no meaning in the Feywild. However, most things they know and learn are forgotten to make place for new knowledge and experiences. So an eladrin might not remember something he learnt 100 years ago and probably doesn't care. It only gives him the opportunity to learn it again.
 
-![eladrin](https://i.pinimg.com/originals/cc/3d/7c/cc3d7c7f325001b051f26e3e4a833a70.png) {position:absolute,bottom:10px,left:180px,width:200px}
+- **Alignment**. Despite what many think, the fey are neither good nor evil, at least not in the mortal sense. While many actions of some fey seem evil, and those of others seem good, the fey care little about morality. On the alignment scale, they are neutral at best. They do what they do because they have to, not because they want to.
 
-![eladrin](https://i.pinimg.com/originals/ce/7e/f8/ce7ef84f1d0ac39f110aa640508db5d3.png) {position:absolute,bottom:10px,right:180px,width:230px}
+  The same applies to the lawful-chaotic spectrum. Fey might seem as chaotic as they come, but all fey obey certain rules set up by the Archfey. As fey, those rules are physically impossible to break.
 
-![eladrin](https://i.pinimg.com/originals/c4/19/97/c41997907a855ed61b91c425151bc14e.png) {position:absolute,bottom:10px,right:0px,width:180px}
+- **Fey Step**. As a ***bonus action***, you can magically walk a couple of steps through the Feywild, ending up on the same plane that you started, but up to 30 feet away to an unoccupied space you can see. You need to be able to move when doing this. In addition, being shackled with iron bonds prevents this. Once you use this trait, you can't do so again until you finish a short rest.
+
+  When you reach 3rd level, your Fey Step gains an additional effect. You can select any one of these, and whenever you finixh a long rest you can switch to another. If the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Charisma modifier:
+
+  -- **Autumn**. Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or gain the charmed condition in regards t you for 1 minute, or until you or your companions deal any damage to it.
+
+  -- **Winter**. When you use your Fey Step, one creature of your choice that was adjacent to you before you moved must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.
+
+  -- **Spring**. When you use your Fey Step, you can touch one willing creature. That creature can move instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet.
+
+  -- **Summer**. Immediately after you use your Fey Step, each adjacent creature of your choice that you can see takes fire damage equal to your Charisma modifier.
+
+- **Eladrin Arrogance**: Eladrin know that thay are a little better than mortals, sometimes to the degree that they have difficulty seeing the point in communicating with "lesser" races. As a PC, you are probably not that bad, but you have disadvantage on Charisma checks against non-eldrin humanoid races (with the exception of Intimidate).
+
+</div>
 
 
 
+### <a class="internal-link" name="internal-shadarKai">Shadar-Kai</a>
 
-
-
-
-
- **Alignment**. Despite what many think, the fey are neither good nor evil, at least not in the mortal sense. While many actions of some fey seem evil, and those of others seem good, the fey care little about morality. On the alignment scale, they are neutral at best. They do what they do because they have to, not because they want to.
-
- The same applies to the lawful-chaotic spectrum. Fey might seem as chaotic as they come, but all fey obey certain rules set up by the Archfey. As fey, those rules are physically impossible to break.
-
- **Fey Step**. As a ***bonus action***, you can magically walk a couple of steps through the Feywild, ending up on the same plane that you started, but up to 30 feet away to an unoccupied space you can see. You need to be able to move when doing this. In addition, being shackled with iron bonds prevents this. Once you use this trait, you can't do so again until you finish a short rest.
-
- When you reach 3rd level, your Fey Step gains an additional effect. You can select any one of these, and whenever you finixh a long rest you can switch to another. If the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Charisma modifier:
-
- **Autumn**. Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or gain the charmed condition in regards t you for 1 minute, or until you or your companions deal any damage to it.
-
- **Winter**. When you use your Fey Step, one creature of your choice that was adjacent to you before you moved must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.
-
- **Spring**. When you use your Fey Step, you can touch one willing creature. That creature can move instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet.
-
- **Summer**. Immediately after you use your Fey Step, each adjacent creature of your choice that you can see takes fire damage equal to your Charisma modifier.
-
- **Eladrin Arrogance**: Eladrin know that thay are a little better than mortals, sometimes to the degree that they have difficulty seeing the point in communicating with "lesser" races. As a PC, you are probably not that bad, but you have disadvantage on Charisma checks against non-eldrin humanoid races (with the exception of Intimidate).
-
-### <a name="internal-shadarKai">Shadar-Kai</a>
 Sworn to the Raven Queen's service, the mysterious shadar-kai are eladrin that ventured into the dark Shadowfell from the Feywild. Once they were fey like the rest of their eladrin kin, and now they exist in a strange state between life and death. Eladrin and shadar-kai are like reflections of each other: one bursting with emotion, the other nearly devoid of it.
-
-
 
 #### Shadar-Kai traits
 Shadar-kai have the following traits in common, in addition to the traits they share with other elves.
 
- **Ability Score Increase**. Your Charisma ability score, both current and maximum, increases by 2.
+<div class="columnsthree">
 
- **Age**. As eladrin.
+- **Ability Score Increase**. Your Charisma ability score, both current and maximum, increases by 2.
 
- **Alignment**. As eladrin.
+- **Age**. As eladrin.
 
- **Blessing of the Raven Queen**. As the eladrin Fey step, except they move through the Shadowfell. Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.
+- **Alignment**. As eladrin.
 
- **Necrotic Resistance**. You have resistance to necrotic damage.
+- **Blessing of the Raven Queen**. As the eladrin Fey step, except they move through the Shadowfell. Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.
 
-### <a name="internal-wood">Wood Elf</a>
+- **Necrotic Resistance**. You have resistance to necrotic damage.
+
+</div>
+
+
+### <a class="internal-link" name="internal-wood">Wood Elf</a>
+
 The wood elf is what people generally mean when they refer to an elves.
 
 As an elf native to the material plane, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests.
 
- **Age**. Elves mature in their late teens and live almost 200 years before they root.
+<div class="columnsthree">
 
- **Alignment**. Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.
+- **Age**. Elves mature in their late teens and live almost 200 years before they root.
 
- **Ancestral Aptitude**. Choose a tool or skill that your parent was proficient in. You have enough memories of this skill that you gain proficiency in it.
+- **Alignment**. Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.
 
- **Ancestral Vision**. You can call upon your ancestral vision to help you recall lore that your parent might have known about. After you fail an Intelligence check made to recall lore, you can choose to immediately spend 1 minute searching for a vision, allowing you to remake the Intelligence check. At the DM’s discretion, you might be able to discover lore that you had no chance of knowing, but your parents could have known. Once you call upon a vision, you can’t do so again until you complete a short rest.
+- **Ancestral Aptitude**. Choose a tool or skill that your parent was proficient in. You have enough memories of this skill that you gain proficiency in it.
 
- **Keen Senses**. You have proficiency with the Perception skill.
+- **Ancestral Vision**. You can call upon your ancestral vision to help you recall lore that your parent might have known about. After you fail an Intelligence check made to recall lore, you can choose to immediately spend 1 minute searching for a vision, allowing you to remake the Intelligence check. At the DM’s discretion, you might be able to discover lore that you had no chance of knowing, but your parents could have known. Once you call upon a vision, you can’t do so again until you complete a short rest.
 
- **Photosynthesis.** You still need to eat as much as human, but you do not die if you reach six levels of exhaustion due to starvation. You go into a kind of hibernation and can survive for an additional 3 + Con modifier days, as long as there is sunlight.
+- **Keen Senses**. You have proficiency with the Perception skill.
 
- **Tree Walker**. You have proficiency bonus with climbing and advantage on such checks when climbing trees. You vam use the Dash action as a ***bonus action*** while in trees, as long as the trees are big enough to allow such action. Furthermore, you are considered to weigh only half your normal weight while in trees.
+- **Photosynthesis.** You still need to eat as much as human, but you do not die if you reach six levels of exhaustion due to starvation. You go into a kind of hibernation and can survive for an additional 3 + Con modifier days, as long as there is sunlight.
 
+- **Tree Walker**. You have proficiency bonus with climbing and advantage on such checks when climbing trees. You vam use the Dash action as a ***bonus action*** while in trees, as long as the trees are big enough to allow such action. Furthermore, you are considered to weigh only half your normal weight while in trees.
 
-
-
-
-
+</div>
 
 
-# <a name="internal-class">Elven class options</a>
+
+
+
+### <a class="internal-link" name="internal-class">Elven class options</a>
+
 An elf approaches some classes a bit different compared than other races. When you select one of the classes in this list, it is modified as follows:
- :
 
-### Alchemist
-Alchemists are very rare among elves, mostly because it's seen as inferior to magic (eladrin) or herbalism (wood elves). However, sometimes Shadar-kai take up the poisoner field of alchemy, and they are naturals at it.
 
-#### Shadar-kai
-If you are a poisoner alchemist, whenever the alchemist class description mentions your Intelligence modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+<div class="columnstwo">
 
-### Barbarian
-#### Eladrin
-Eladrin do not have the range of emotion that allows them to rage, or maybe they simply do not care enough.
+- ### Alchemist
+    Alchemists are very rare among elves, mostly because it's seen as inferior to magic (eladrin) or herbalism (wood elves). However, sometimes Shadar-kai take up the poisoner field of alchemy, and they are naturals at it.
 
-#### Wood elf
-A raging wood elf barbarian becomes more ferocious, like the predatory animals in the woods where thay live. You gain the ferocious rage trait.
+    ##### Shadar-kai
+    If you are a poisoner alchemist, whenever the alchemist class description mentions your Intelligence modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
-{{}}">feat
-## Ferocious Rage
-You do not gain advantage on Strength saves and checks. Instead you have advantage on Dexterity saves and may add your rage damage bonus when attacking with a melee weapon using Dexterity.
+    <hr class="dividerinfolk">
 
+- ### Barbarian
+    ##### Eladrin
+    Eladrin do not have the range of emotion that allows them to rage, or maybe they simply do not care enough.
 
-### Bard
-Elves have either a very long lifespan or access to memories from their ancestors, which grants an elven bard access to a vast pool of stories and legends. An elven bard gains the Lorekeeper trait.
+    ##### Wood elf
+    A raging wood elf barbarian becomes more ferocious, like the predatory animals in the woods where thay live. You gain the ferocious rage trait.
 
-{{}}">feat
-## Lorekeeper
-Whenever you make an History check that pertain to elves, you are considered proficient and have advantage. In addition, your mastery of elven legends and philosophy has allowed you to master one spell used by elven wizards. Select any one spell from the wizard spell list to be considered a bard spell to you.
+    <div class="feat">
 
+    ## Ferocious Rage
+    You do not gain advantage on Strength saves and checks. Instead you have advantage on Dexterity saves and may add your rage damage bonus when attacking with a melee weapon using Dexterity.
 
+    </div>
 
+    <hr class="dividerinfolk">
 
-#### Shadar-kai
-In addition to the option above, a Shadar-kai bard knows the art of shadow puppetry, gaining the following ability.
+- ### Bard
+    Elves have either a very long lifespan or access to memories from their ancestors, which grants an elven bard access to a vast pool of stories and legends. An elven bard gains the Lorekeeper trait.
 
-{{}}">feat
-## Shadow Servant
-To perform shadow puppetry you need to have both hands free and a light source. As an ***action*** you can create a shadow servant to perform simple tasks. The shadow servant is identical to an *unseen servant*, except it appears as a formless shadow.
+    <div class="feat">
 
+    ## Lorekeeper
+    Whenever you make an History check that pertain to elves, you are considered proficient and have advantage. In addition, your mastery of elven legends and philosophy has allowed you to master one spell used by elven wizards. Select any one spell from the wizard spell list to be considered a bard spell to you.
 
-### Cavalier
-Elves normally do not join cavalier orders, as they are mostly human organizations, but they can still join the class as a mounted warrior with an outlook similar to an order's edicts.
+    </div>
 
-#### Eladrin
-Surprisingly enough, cavaliers are quite common among the Eladrin. Many archfey rule their subjects similar to human nobility, with a courtly structure that borders to the parodical. Knights are an important part of any court, and those are often cavaliers, usually with the Order of the Flame, Lion or Scale subclasses.
+    ##### Shadar-kai
+    In addition to the option above, a Shadar-kai bard knows the art of shadow puppetry, gaining the following ability.
 
-If you are a cavalier with one of these archetypes, then whenever the Cavalier class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
+    <div class="feat">
 
-Eladrin never join the Order of the Star, as the concept of religion is not used in the Feywild.
+    ## Shadow Servant
+    To perform shadow puppetry you need to have both hands free and a light source. As an ***action*** you can create a shadow servant to perform simple tasks. The shadow servant is identical to an *unseen servant*, except it appears as a formless shadow.
 
-#### Wood elf
-Wood elves that enter this class often use wild animals as mounts, such as elk and moose, and they prefer to ride without saddles.
+    </div>
 
+    <hr class="dividerinfolk">
 
-![elf](https://robertrigo.github.io/pics/elf_bard.png) {position:absolute,bottom:-20px,right:20px,width:40%}
+- ### Cavalier
+    Elves normally do not join cavalier orders, as they are mostly human organizations, but they can still join the class as a mounted warrior with an outlook similar to an order's edicts.
 
+    ##### Eladrin
+    Surprisingly enough, cavaliers are quite common among the Eladrin. Many archfey rule their subjects similar to human nobility, with a courtly structure that borders to the parodical. Knights are an important part of any court, and those are often cavaliers, usually with the Order of the Flame, Lion or Scale subclasses.
 
+    If you are a cavalier with one of these archetypes, then whenever the Cavalier class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
 
+    Eladrin never join the Order of the Star, as the concept of religion is not used in the Feywild.
 
+    ##### Wood elf
+    Wood elves that enter this class often use wild animals as mounts, such as elk and moose, and they prefer to ride without saddles.
 
+    <hr class="dividerinfolk">
 
+- ### Cleric
+    ##### Eladrin
+    Eladrin do not become clerics. The gods of the material plane have no power in the Feywild, where the archfey rule with power similar to gods. Eladrin worship their rulers, and would do anything for them, but since the archfey walk among them, religions have not had any reason to exist. Instead the closest to a cleric among the eladrin are the warlocks, who have gained notice directly from their liege.
 
+    ##### Shadar-kai
+    As eladrin, but they only follow the Raven Queen.
 
-### Cleric
-#### Eladrin
-Eladrin do not become clerics. The gods of the material plane have no power in the Feywild, where the archfey rule with power similar to gods. Eladrin worship their rulers, and would do anything for them, but since the archfey walk among them, religions have not had any reason to exist. Instead the closest to a cleric among the eladrin are the warlocks, who have gained notice directly from their liege.
+    ##### Wood elf
+    A wood elf can become a cleric, but to an outsider they would probably be thought of as druids. As clerics they have the advantage of having access to memories of events experienced by the ancestors, and in some cases even from their first ancestors, the ones who came to this plane together with the elves who later became the elven gods. This personal experience makes it almost unthinkable to follow a non-elven deity.
 
-#### Shadar-kai
-As eladrin, but they only follow the Raven Queen.
+    If you are a cleric following <a href="../Classes/cleric.html#internal-Elf">an elven god</a>, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-#### Wood elf
-A wood elf can become a cleric, but to an outsider they would probably be thought of as druids. As clerics they have the advantage of having access to memories of events experienced by the ancestors, and in some cases even from their first ancestors, the ones who came to this plane together with the elves who later became the elven gods. This personal experience makes it almost unthinkable to follow a non-elven deity.
+    <hr class="dividerinfolk">
 
-If you are a cleric following an elven god, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+- ### Cursed
+    Elves are creatures of magic, and may use Charisma as their spellcasting ability instead of Intelligence.
 
-### Cursed
-Elves are creatures of magic, and may use Charisma as their spellcasting ability instead of Intelligence.
+    ##### Shadar-kai
+    Sometimes the Raven Queen sends along one of the souls from her realm to help her loyal shadar-kai.
 
-#### Shadar-kai
-Sometimes the Raven Queen sends along one of the souls from her realm to help her loyal shadar-kai.
+    If you are a cursed with the Shadowcursed form, your shadowy curse is such a creature. It will work for the same cause as you, helping you in any way you need.
 
-If you are a cursed with the Shadowcursed form, your shadowy curse is such a creature. It will work for the same cause as you, helping you in any way you need.
+    In addition, whenever the class description mentions your Intelligence modifier (or Charisma if you made that switch), you may you may instead use that modifier +3 or your proficiency bonus, whichever is lower.
 
-In addition, whenever the class description mentions your Intelligence modifier (or Charisma if you made that switch), you may you may instead use that modifier +3 or your proficiency bonus, whichever is lower.
+    <hr class="dividerinfolk">
 
-### Druid
-#### Eladrin
-Eladrin live far longer than other common races, and a single individual may see whole empires rise and fall. Given the impermanence of the cultures around them, it's small wonder that some eladrin turn to the timeless growth of nature for solace, finding allies among the great trees themselves.
+- ### Druid
+    ##### Eladrin
+    Eladrin live far longer than other common races, and a single individual may see whole empires rise and fall. Given the impermanence of the cultures around them, it's small wonder that some eladrin turn to the timeless growth of nature for solace, finding allies among the great trees themselves.
 
-As an eladrin druid, you can wild shape into the form of other fey.
+    As an eladrin druid, you can wild shape into the form of other fey.
 
-Also, as a Feywild native you are well suited for joining the druid Circle of Dreams. If you are, then whenever the Druid class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+    Also, as a Feywild native you are well suited for joining the druid Circle of Dreams. If you are, then whenever the Druid class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
-#### Shadar-kai
-As a native of the Shadowfell you are unnatural and almost shunned by nature. You cannot become a druid, with a few exceptions. You can only join the ***Circle of Dreams***, but instead of the Feywild, you use energies from the Shadowfell, ***Circle of Dust***, ***Circle of Spores*** or ***Circle of the Swarm***.
+    ##### Shadar-kai
+    As a native of the Shadowfell you are unnatural and almost shunned by nature. You cannot become a druid, with a few exceptions. You can only join the <a href="../Classes/druid.html#internal-dreams">***Circle of Dreams***</a> (but instead of the Feywild, you use energies from the Shadowfell), <a href="../Classes/druid.html#internal-dust">***Circle of Dust***</a>, <a href="../Classes/druid.html#internal-spores">***Circle of Spores***</a> or <a href="../Classes/druid.html#internal-swarm">***Circle of the Swarm***</a>.
 
-Whenever you use Wild Shape, or the *conjure animals* spell, you can choose a to polymorph into/conjure a shadowy animal variant from the Shadowfell. This looks like the corresponding animal in the material plane, but with a sickly, shadowy appearance. Use the regular stats for the animal, with the following changes:
-* AC +2
-* only deals half damage with attacks
-* vulnerability to radiant damage
-* has advantage on stealth checks in shadows
+    Whenever you use Wild Shape, or the *conjure animals* spell, you can choose a to polymorph into/conjure a shadowy animal variant from the Shadowfell. This looks like the corresponding animal in the material plane, but with a sickly, shadowy appearance. Use the regular stats for the animal, with the following changes:<br/>
+    -- AC +2<br/>
+    -- only deals half damage with attacks<br/>
+    -- vulnerability to radiant damage<br/>
+    -- has advantage on stealth checks in shadows
 
-#### Wood elf
-Wood elves are very much connected to nature, being part plants themselves, and make very good druids.
+    ##### Wood elf
+    Wood elves are very much connected to nature, being part plants themselves, and make very good druids.
 
-Whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    Whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-In addition, when using wild shape can also choose the forms of plants.
+    In addition, when using wild shape can also choose the forms of plants.
 
-### Feyblood
-#### Eladrin
-Feyblood is the most common class among eladrin. In fact an eladrin that does not choose a class, is a feyblood. As mentioned in the class description, their spark increases by 1 when in the Feywild. This includes when they use their fey step ability, in which case the spark increase remains for 10 minutes.
+    <hr class="dividerinfolk">
 
-#### Shadar-kai
-Being creatures far from nature, as well as under the control of the Raven Queen, a shadar-kai can only have the ***Boggart*** or ***Pooka*** affinity. When the feyblood class description mentions the Feywild, you would instead use the Shadowfell, and as eladrin, your spark is increased after using your fey step ability.
+- ### Feyblood
+    ##### Eladrin
+    Feyblood is the most common class among eladrin. In fact an eladrin that does not choose a class, is a feyblood. As mentioned in the class description, their spark increases by 1 when in the Feywild. This includes when they use their fey step ability, in which case the spark increase remains for 10 minutes.
 
-### Fighter
-#### Eladrin
-You can choose the following exclusive fighting style.
+    ##### Shadar-kai
+    Being creatures far from nature, as well as under the control of the Raven Queen, a shadar-kai can only have the <a href="../Classes/feyblood.html#internal-boggart">***Boggart***</a> or <a href="../Classes/feyblood.html#internal-pooka">***Pooka***</a> affinity. When the feyblood class description mentions the Feywild, you would instead use the Shadowfell, and as eladrin, your spark is increased after using your fey step ability.
 
-{{}}">feat
-## Woodland fighter
-Whenever you fight in wooded terrain, or terrain with a lot of cover, you always count as having *half cover* against melee attacks and *three-quarters cover* against ranged attacks, as you instinctually use the environment to protect yourself.
+    <hr class="dividerinfolk">
 
+- ### Fighter
+    ##### Eladrin
+    You can choose the following exclusive fighting style.
 
+    <div class="feat">
 
+    ## Woodland fighter
+    Whenever you fight in wooded terrain, or terrain with a lot of cover, you always count as having *half cover* against melee attacks and *three-quarters cover* against ranged attacks, as you instinctually use the environment to protect yourself.
 
+    </div>
 
+    ##### Shadar-kai
+    You can choose the following exclusive fighting style.
 
+    <div class="feat">
 
+    ## Shadow fighter
+    Whenever you fight in dim light, the shadows almost seem to envelop you to protect you, and you count as having *half cover* against melee attacks and *three-quarters cover* against ranged attacks.
 
+    </div>
 
-#### Shadar-kai
-You can choose the following exclusive fighting style.
+    ##### Wood elf
+    You have access to the woodland fighter fighting style, as described for eladrin.
 
-{{}}">feat
-## Shadow fighter
-Whenever you fight in dim light, the shadows almost seem to envelop you to protect you, and you count as having *half cover* against melee attacks and *three-quarters cover* against ranged attacks.
+    <hr class="dividerinfolk">
 
+- ### Inquisitor
+    The inquisitor does not have a place in eladrin or wood elf society.
 
-#### Wood elf
-You have access to the woodland fighter fighting style, as described for eladrin.
+    ##### Shadar-kai
+    Even though shadar-kai do not have any organized religion, the Raven Queen is revered as a deity, and some shadar-kai are tasked to root out her enemies in the same way an inquisitor does for a religion.
 
-### Inquisitor
-The inquisitor does not have a place in eladrin or wood elf society.
+    As a shadar-kai inquisitor, you can choose your racial specific fighting style described under the fighter entry above.
 
-#### Shadar-kai
-Even though shadar-kai do not have any organized religion, the Raven Queen is revered as a deity, and some shadar-kai are tasked to root out her enemies in the same way an inquisitor does for a religion.
+    Shadar-kai inquisitors are often even more zealous than their human counterparts. Whenever the Inquisitor class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
 
-As a shadar-kai inquisitor, you can choose your racial specific fighting style described under the fighter entry above.
+    <hr class="dividerinfolk">
 
-Shadar-kai inquisitors are often even more zealous than their human counterparts. Whenever the Inquisitor class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
+- ### Paladin
+    As an elven paladin, you can choose the fighting style described under the fighter entry above.
 
-<!--
-### Monster hunter
-The monster hunter orders are mostly human orders, and sometimes they even see elves, in particular eladrin and shadar-kai, as monsters to be hunted. In addition, the alchemy involved in creating a monster hunter is not relly the elves' strong suite. Therefore it's no wonder elves prefer to stay away from monster hunter orders.
+    In addition, an elven paladin using ***divine sense***, can also detect fey in addition to the other creature types.
 
-With that said, there are specialized fighters among elves that are similar enough to monster hunters that this class is the most appropriate.
+    ##### Eladrin
+    Paladins, just as cavaliers, are surprisingly common among the Eladrin. Many archfey rule their subjects similar to human nobility, with a courtly structure that borders to the parodical. The image of a noble paladin is popular as it is a living embodiment of an oath — a promise or a vow made manifest in a person who has the skill and the determination to see the cause through to the end.
 
-As an elven monster hunter, you can choose the racial specific fighting style described under the fighter entry above.
+    Whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
 
-#### Eladrin
-Eladrin cannot join the ***Order of the Gloaming***.
+    In addition, as an eladrin you have access to the <a href="../Classes/paladin.html#internal-festivity">***Oath of Festivity***</a>.
 
-#### Shadar-kai
-Shadar-kai cannot join the ***Order of the Gloaming***.
 
-The shadar-kai need not partake in the type of rituals that are required for the ***Order of the Dark Spirit***, as they come from the Shadowfell, a realm of death. Many shadar-kai already have the powers granted by this order, and can utilize them fully as if in the order.
 
-If you belong to that order, then whenever the Monster hunter class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
--->
+    ##### Shadar-kai
+    Even though a shadar-kai paladin can follow any oath, the most common is the <a href="../Classes/paladin.html#internal-grave">***Oath of the Grave***</a>.
 
-### Paladin
-As an elven paladin, you can choose the fighting style described under the fighter entry above.
+    If following this oath, the whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
 
-In addition, an elven paladin using ***divine sense***, can also detect fey in addition to the other creature types.
+    ##### Wood elf
+    Even though a wood elf paladin can follow any oath, the most common are the <a href="../Classes/paladin.html#internal-ancients">***Oath of the Ancients***</a> and the <a href="../Classes/paladin.html#internal-tradition">***Oath of Tradition***</a>.
 
-#### Eladrin
-Paladins, just as cavaliers, are surprisingly common among the Eladrin. Many archfey rule their subjects similar to human nobility, with a courtly structure that borders to the parodical. The image of a noble paladin is popular as it is a living embodiment of an oath — a promise or a vow made manifest in a person who has the skill and the determination to see the cause through to the end.
+    If following one of these oaths, the whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
 
-Whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
+    <hr class="dividerinfolk">
 
-In addition, as an eladrin you have access to the ***Oath of Festivity***.
+- ### Professional
+    The life of a professional is seen as tedious, boring and mundane by most elves, who mostly stay away from the long-term commitment required to master a profession.
 
+    ##### Wood elf
+    The forester profession comes naturally to wood elves, who learn this profession just by living out their normal lives. If you are a forester, then whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
+    <hr class="dividerinfolk">
 
-#### Shadar-kai
-Even though a shadar-kai paladin can follow any oath, the most common is the ***Oath of the Grave***.
+- ### Ranger
+    An elven ranger of 2nd level can choose the fighting style described under the fighter entry above.
 
-If following this oath, the whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
+    ##### Wood elf
+    Rangers are very common among wood elves, especially those that stay in or near their birthplace for a long time.
 
-#### Wood elf
-Even though a wood elf paladin can follow any oath, the most common are the ***Oath of the Ancients*** and the ***Oath of Tradition***.
+    Whenever the Ranger class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
 
-If following one of these oaths, the whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
+    <img src='https://robertrigo.github.io/pics/elf_bard.png' style='width:75%;padding:20px' />
 
-### Professional
-The life of a professional is seen as tedious, boring and mundane by most elves, who mostly stay away from the long-term commitment required to master a profession.
+    <hr class="dividerinfolk">
 
-#### Wood elf
-The forester profession comes naturally to wood elves, who learn this profession just by living out their normal lives. If you are a forester, then whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+- ### Rogue
+    ##### Shadar-kai
+    The shadar-kai are always under the watchful eye of the Raven Queen and are rarely found in the material plane. When they are, they are either on the run, or on a mission for the Queen. Both reasons often require a great deal of subterfuge, making rogue skills very useful.
 
-### Ranger
-An elven ranger of 2nd level can choose the fighting style described under the fighter entry above.
+    You have advantage on Stealth checks when in darkness or shadow. When using sneak attack, you can opt not to use all your sneak attack dice. For each die you do not use, gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
 
-#### Wood elf
-Rangers are very common among wood elves, especially those that stay in or near their birthplace for a long time.
+    <hr class="dividerinfolk">
 
-Whenever the Ranger class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
+- ### Sorcerer
+    Elves of all type are creatures born of magic. Whenever the Sorcerer class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
-### Rogue
-#### Shadar-kai
-The shadar-kai are always under the watchful eye of the Raven Queen and are rarely found in the material plane. When they are, they are either on the run, or on a mission for the Queen. Both reasons often require a great deal of subterfuge, making rogue skills very useful.
+    <hr class="dividerinfolk">
 
-You have advantage on Stealth checks when in darkness or shadow. When using sneak attack, you can opt not to use all your sneak attack dice. For each die you do not use, gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
+- ### Swashbuckler
+    Mining and metalworking are very rare skills among the elven subraces, wich in turn has caused them to mostly pursue unarmored fighting traditions.
 
+    Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
+    <hr class="dividerinfolk">
 
+- ### Warlock
+    ##### Eladrin
+    All eladrin have sworn fealty to one of the archfey. Sometimes when a ruler requires a task performed, they appoint one of their servants and grants them powers as a warlock. This would be similar to one the patrons <a href="../Classes/warlock.html#internal-archfey">***The Archfey***</a>, <a href="../Classes/warlock.html#internal-death">***Death***</a>, <a href="../Classes/warlock.html#internal-wildHuntsman">***Oberon, the Wild Huntsman***</a>, <a href="../Classes/warlock.html#internal-seducer">***the Seducer***</a> and <a href="../Classes/warlock.html#internal-weaverLies">***the Weaver of Lies***</a>.
 
+    In addition, an eladrin might agree on a deal from another patron, only because they are bored, or they because  being immortal, they do not concern themselves of any consequences.
 
+    In both cases the eladrin is an excellent vessel of arcane magic. Whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
+    ##### Shadar-kai
+    Shadar-kai worship only the Raven Queen, and she is the only patron they need. As a shadar-kai warlock you can select the following aspects of your patron; <a href="../Classes/warlock.html#internal-archfey">***The Archfey***</a>, <a href="../Classes/warlock.html#internal-death">***Death***</a>, <a href="../Classes/warlock.html#internal-seducer">***the Seducer***</a> and <a href="../Classes/warlock.html#internal-undying">***the Undying***</a>.
 
+    If you have one of these pacts, then whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
-### Sorcerer
-Elves of all type are creatures born of magic. Whenever the Sorcerer class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    ##### Wood elf
+    Wood elf warlocks would most probably select a patron close to the natural world.
 
-### Swashbuckler
-Mining and metalworking are very rare skills among the elven subraces, wich in turn has caused them to mostly pursue unarmored fighting traditions.
+    <hr class="dividerinfolk">
 
-Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
+- ### Wizard
+    Eladrin and shadar-kai are creatures of magic and when choosing the path of the wizard, they can even sustain themselves on the arcane forces.
 
-### Warlock
-#### Eladrin
-All eladrin have sworn fealty to one of the archfey. Sometimes when a ruler requires a task performed, they appoint one of their servants and grants them powers as a warlock. This would be similar to one the patrons ***The Archfey***, ***Death***, ***Oberon, the Wild Huntsman***, ***the Seducer*** and ***the Weaver of Lies***.
+    While in a trance (i.e. sleep), you may spent a spell slot to regain one hit die. That slot is not available to until after your next trance. In addition, whenever the wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
 
-In addition, an eladrin might agree on a deal from another patron, only because they are bored, or they because  being immortal, they do not concern themselves of any consequences.
+    ##### Shadar-kai
+    You can cast an Illusion spell without expending a spell slot. The spell cannot be of a higher spell level than your Intelligence modifier. Once you have used this ability, you must finish a long rest before you can use it again.
 
-In both cases the eladrin is an excellent vessel of arcane magic. Whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    ##### Wood elf
+    Even though wood elves have access to memories from their ancestors, they have no control of it. Fragments come and go when something familiar is encountered. Some wood elf wizards have learnt to access essential memories at will.
 
-#### Shadar-kai
-Shadar-kai worship only the Raven Queen, and she is the only patron they need. As a shadar-kai warlock you can select the following aspects of your patron; ***The Archfey***, ***Death***, ***the Ghost***, ***the Seducer*** and ***the Undying***.
+    You do not need to use a physical spell book to prepare spells. Instead you access memories or your wizard ancestors. In addition, whenever the wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
-If you have one of these pacts, then whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    <hr class="dividerinfolk">
 
-#### Wood elf
-Wood elf warlocks would most probably select a patron close to the natural world.
+</div>
 
 
 
-### Wizard
-Eladrin and shadar-kai are creatures of magic and when choosing the path of the wizard, they can even sustain themselves on the arcane forces.
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-race">The Wood Elves</a></h1>
 
-While in a trance (i.e. sleep), you may spent a spell slot to regain one hit die. That slot is not available to until after your next trance. In addition, whenever the wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
-
-#### Shadar-kai
-You can cast an Illusion spell without expending a spell slot. The spell cannot be of a higher spell level than your Intelligence modifier. Once you have used this ability, you must finish a long rest before you can use it again.
-
-#### Wood elf
-Even though wood elves have access to memories from their ancestors, they have no control of it. Fragments come and go when something familiar is encountered. Some wood elf wizards have learnt to access essential memories at will.
-
-You do not need to use a physical spell book to prepare spells. Instead you access memories or your wizard ancestors. In addition, whenever the wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
-
-
-
-
-
-
-
-
-# <a name="internal-race">The Wood Elves</a>
 Long before elves existed, Corellon was one of the most powerful archfey the Feywild has ever seen, with power rivaling the gods. When his own realm bored him, he travelled to find more interesting things, and he danced from world to world and plane to plane. A being of consummate mutability and infinite grace, Corellon was a power like no other - able to take the form of a chuckling stream, a teasing breeze, an incandescent beam, a cavorting flame, or a crackling bolt of lightning. On nothing more than a whim, Corellon's body could become a school of fish, a swarm of bees, or a flock of birds. He could confidently consort with other gods, often adopting their appearances - male, female, or something else -but just as often kept their company in the form of a rose blossom or a delicate doe.
 
 Corellon's flamboyant, mercurial personality showed through no matter which form the he took. Corellon loved wholeheartedly, broke oaths without reservation, and took pleasure from every encounter with the other beings of the multiverse.
@@ -560,8 +558,6 @@ Corellon's flamboyant, mercurial personality showed through no matter which form
 Most of the gods accepted Corellon's company, even with his mutability and passionate behavior, but these traits infuriated Gruumsh, the greatest of the orc gods. Gruumsh's wrath was almost universally respected, even among the divine powers, but Corellon blithely took no heed of him. Perhaps it was this seeming hauteur that finally infuriated Gruumsh enough to take action. He struck Corellon down and the archfey's broken body fell onto the material plane.
 
 Corellon's faithful retinue flocked were he fell. These primal elves, called the Seldarine, were much akin to Corellon, not nearly as powerful but just as changeable and audacious. Splendid fey creatures, they traveled in Corellon's shadow, sparkling like the reflections from a finely cut gem. Their intense mourning, together with his innate strength as the most powerful of all archfey, and the scraps of divinity he had accumulated during his close association with gods, allowed his essence to ascend, and rise as a newborn deity.
-
-
 
 As a deity in the material plane, Corellon was barred entry into the Feywild. His devoted followers stayed with him, and even when it became clear that they were not immortal on this plane. The elves started to wither and die. Corellon tried to save as many as he could by sharing his newfound divinity with them, but this was just enough to save a few.
 
@@ -572,14 +568,7 @@ The Seldarine came to an agreement with Mother Nature. The elves would bond with
 ### The Betrayal
 The Seldarine remained with the wood elves. Being deities they were immortal, but even though elves died, their children kept many memories of their ancestors, and thus each generation kept the familiarity of their deities. Even though the Seldarine are long gone from the world now, still many living elves have personal memories of meeting their deities, which makes their relationship closer than many other races have with their gods.
 
-![elf](https://scruffygrognard.files.wordpress.com/2015/05/ranger4.png) {position:absolute,bottom:-10px,left:0px,width:100%}
-
-
-
-
-
-
-
+<img src='https://scruffygrognard.files.wordpress.com/2015/05/ranger4.png' style='float:right;width:45%;padding:20px' />
 
 This continued for many generation, until one of the Seldarine, although privileged to be elevated above the rest of the elves, was not satisfied with being one of Corellon's  underlings. She - for she had declared herself thus - saw in the multiverse around them other beings making an impact in various worlds. The entity who called herself Lolth spoke to the other new gods and wove an enticing tale of how the elves could attain superiority if only they could relinquish a bit of their individual freedom. Together, united in purpose, the gods could be the vanguard of this effort. Wasn't losing freedom to achieve greatness worth the price? Through this argument, Lolth persuaded the primal entities to take static forms, largely resembling what the mortal elves look like, and thereby turn away from the example of Corellon's wild, ever-shifting ways.
 
@@ -592,11 +581,11 @@ This act rent the elves asunder. Lolth and Corellon parted ways. The elf gods wh
 The elves who most revered Lolth fleed below the surface of the world and became drow, while the others divided themselves into a multitude of surface-dwelling groups, each worshiping some or all of the Seldarine in their respective enclaves.
 
 
-
 ## <a name="internal-livingReverie">Living in Reverie</a>
-*"History, my young friends? Just because your lives are as fleetingly swift as a hummingbird's flight is no cause to say mine constitutes history. History is the weave of things outside life, not for those still within its loom. Still I shall tell you of my lifetime and my clan's lifetime, as my clansong has not been sung in over a century. In reverie, the People may learn all that has passed for them and their predecessors. Now, in songs that were once only sung in celebration, I may teach you brief candles of humanity of the People and your own place among us."*
 
--- Cymbiir Haevault, Lorekeeper of Clan Haevault
+> *"History, my young friends? Just because your lives are as fleetingly swift as a hummingbird's flight is no cause to say mine constitutes history. History is the weave of things outside life, not for those still within its loom. Still I shall tell you of my lifetime and my clan's lifetime, as my clansong has not been sung in over a century. In reverie, the People may learn all that has passed for them and their predecessors. Now, in songs that were once only sung in celebration, I may teach you brief candles of humanity of the People and your own place among us."*
+>
+> -- Cymbiir Haevault, Lorekeeper of Clan Haevault
 
 A memory is a curious thing. One can come into consciousness unbidden, evoked by an unexpected scent or the words spoken by a friend. A memory can also be elusive, foiling all attempts to recall it and sometimes remembered only after the hunt is abandoned, like a word on the tip of one's tongue. Some memories pull at the heart, weighing it down and holding it there as an anchor moors a ship. Others buoy it up or make it flutter joyously like the wings of a bird. Some memories lie in wait like predators, ready to leap out when the mind or the heart is vulnerable. Some linger like scars, not always visible but ever-present.
 
@@ -609,13 +598,6 @@ Even though an elf child has never talked to its parents, it still feels a deepe
 
 During a young elf's first few years, the memories evoked during trance are drawn not from current life experiences, but from the fantastic past adventures of the elf's ancestors. The young elves are encouraged to explore these memories and talk about them with one another, but they aren't to be discussed with adults until a memory of the current life first intrudes upon a youngster's trance. This experience, called the First Reflection, marks the end of childhood and the start of adolescence.
 
-
-
-
-
-
-
-
 ### Adolescence
 Most elves experience their First Reflection early in their second decade. It marks the beginning of the period when an elf must focus on acquiring the knowledge and skills needed for the elf's role as an adult. As a means to this end, elves in adolescence learn how to use trance to evoke memories of their waking lives, giving them opportunities to reflect on the joys of the mortal world and to reinforce the principles of any training or practice undertaken while awake. At the same time, the memories of long ago that came so easily during childhood now arise less and less frequently. The Drawing of the Veil is the name that elves give to the occasion when a young elf no longer experiences primal memories during trance but instead recalls only the events of its current mortal existence.
 
@@ -626,29 +608,22 @@ Losing access to one's primal memories can be a traumatic experience. Elder elve
 
 After the Drawing of the Veil, an elf enters the prime of life, a span of centuries during which most elves strive to engage with the world. An adult elf learns how to control the memories that bubble up during trance, choosing to recall experiences from its waking life that enhance its training or give it solace in bad times.
 
-<div class="descriptive" markdown="1">
+<div class="infoarea" markdown="1">
 
 #### Notes from beyond memory
 Elves can sleep and dream just like any human, but almost all surface elves avoid doing so. Dreams, as humans know them, are strange and confusing to elves. Unlike the actual memories of one's ancestors or present life, dreams are uncontrolled products of the subconscious, and perhaps the subconscious minds of those that lived before. An elf who dreams must always wonder whose mind these thoughts first arose from, and why. Priests of Sehanine Moon bow are an exception: they sleep and dream to receive signs from their god, and elves consult such priests to interpret their own dreams.
 
-
+</div>
 
 
 This is the stage of elven life that others are most familiar with because it's the age when elves move outside their reclusive communities and interact with the larger world. They strive to have a permanent effect on the world, to change things for the better (as they see it), as well as to experience as much as possible in order to pass those experience on to their children.
 
 Over time, an adult elf can become accomplished in many endeavors while pursuing its destiny. It isn't unusual among elves to meet someone who is expert in disparate disciplines, such as a battle wizard who also is a settlement's best vintner and famous for creating delicate wood carvings. This versatility speaks to every adult elf's eagerness for new experiences, because memories of adventures, escapades, and accomplishments will fuel the next and possibly longest phase of one's life.
 
+<img src='https://i.pinimg.com/originals/c9/35/03/c935032bf9e367d354032702884eb09b.jpg' style='float:left;width:45%;padding:20px' />
+
 ### Elder elves
 At some point during adulthood, the reverie of an elf's trance is first interrupted by a new form of unbidden thought. This seemingly errant memory arises not from the elf's personal experience, nor from the memories of the elf's ancestors, but comes from another life and another time. An elf's first experience of this sort is often referred to as the Remembrance and attributed to the influence of Labelas Enoreth. Or it is called the Revelation, and Araleth Letheranil is honored for its occurrence. Regardless of its label, this event marks the start of a new phase in an elf's life.
-
-![elf](https://i.pinimg.com/originals/c9/35/03/c935032bf9e367d354032702884eb09b.jpg) {position:absolute,bottom:-10px,left:0px,width:100%,height:40%}
-
-
-
-
-
-
-
 
 An elf who begins to experience these other-life memories might live on as normal for decades, but as the intrusions become more frequent, they take their toll on the individual's outlook. Eventually, an elders thoughts start drifting away from worldly accomplishments and turning more and more inward. This change is gradual at first, but it becomes more and more severe until it can't be ignored. When that happens, an elf loses interest in the outside world and wants nothing more than to return home, to be surrounded by others of their own kind, to explore the memories they've accumulated in this life and keep them separate from the ever-increasing number of other-life memories that are resurfacing.
 
@@ -663,8 +638,6 @@ When this happens, the elf will feel the call of nature, and the need to root. H
 
 The elf then goes into its final trance, where it over a time of days or even weeks, grow a cocoon. This cocoon grows roots and its outer shell turns to bark, and slowly it turns into a tree. After several decades, this tree starts to grow fruit, which in turn will birth a new elf. An elf tree can not see or hear, but it is aware of its surroundings. It can not communicate, but its mind and consciousness is still there, and will continue to live on for centuries.
 
-
-
 ## <a name="internal-elvenOutlook">The Elven Outlook</a>
 The elves of the material plane have a unique perspective on the workings of the world and their place in it that is a mixture of all the factors that shape their nature on the material plane, as well as the memories of being fey creatures in the Feywild in the time before time.
 
@@ -675,17 +648,12 @@ Priests among the elves typically believe that the broken link can never be heal
 
 Whether or not Lolth tricked the first elves, to Corellon's mind, is beside the point. They chose to follow her lead, which precipitated the schism between Corellon and Lolth, even if many of them ultimately remained loyal to Corellon. Now the elves of the world must forever suffer the consequences of their ancestors' poor judgment. In this one regard, Corellon is as inflexible and unchanging as the foundation of the world. And all elves grieve over the memories of the irreparably broken bond between themselves and their creator.
 
+<img src='https://robertrigo.github.io/pics/Elf.png' style='float:right;width:45%;padding:20px' />
+
 ### The long view
 Elves have a natural life span of centuries. In addition, the ancestors' memories that are a constant companion to an elf gives them the feeling of having lived far longer than their own life. Not surprisingly, these traits affects their attitude and outlook toward every aspect of mortal life. Events from centuries ago that are distant or even ancient history to humans might have been experienced firsthand by an elf's ancestor, and the memory might be as clear as if the elf was there himself. An elf's memory of such events is likely more accurate than a well-researched historian's account, because the elf can revisit the memory over and over during trance, fixing it more firmly in mind each time.
 
 In keeping with their seeming aloofness, elves can appear cold and emotionless in the face of tragedy. They do feel the same pain that others feel, and they do mourn their losses. But if an elf becomes too emotionally invested in a loss, the experience might be relived during trance for generations to come. Keeping some distance between themselves and the concerns of others serves elves best.
-
-
-
-
-
-
-
 
 The quality of patience, as other races define it, is so ingrained in elves that it goes beyond second nature. When enemies threaten to invade their domain, elves are just as often satisfied to wait out the danger in their concealed strongholds as to come forth and fight. Remaining out of harm's way for a year or even a decade is a small price to pay to avoid bloodshed - because elves, after all, have all the time in the world.
 
@@ -712,15 +680,6 @@ Elves know that once they experience Transcendence, the memories they have accum
 
 This aspect of elven life isn't as well known among other races as it might be, because elves spend much of their "adventuring" years in places far away from other societies. They're more interested in remote forests, lonely valleys, high mountains, and other natural places than in cities.
 
-![elf](https://robertrigo.github.io/pics/Elf.png) {position:absolute,bottom:-30px,right:0px,width:51%}
-
-
-
-
-
-
-
-
 A tiny percentage of elves develop an irrational fear of the serene, contemplative life that awaits them in their later years when they grow into a tree. Even if such a future life seems tepid and unbearably dull during an elf's prime, the psychological changes that come with age make this peaceful period of existence the most satisfying experience possible for an elf's later years. Nevertheless, this fear is immune to logic when it arises in adult elves. To avoid the fate they dread, consciously or subconsciously, they throw themselves into dangerous situations, not caring whether they survive or perhaps even hoping they don't.
 
 ## <a name="internal-elvesMagic">Elves and Magic</a>
@@ -733,16 +692,20 @@ Even after these concepts are mastered, new knowledge of magic remains elusive, 
 
 Of all peoples, elves are perhaps best suited to wizardry. They have access to centuries worth of memories, and their trance effectively gives them extra time to practice, as lessons learned during study can be reinforced by recalling them during resting periods. The patience and restraint for which elves are well known serves them well in this pursuit.
 
-## <a name="internal-seldarine">The Seldarine</a>
+
+
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-seldarine">The Seldarine</a></h1>
+
 The pantheon of elven deities, called the Seldarine, includes Corellon and the group of primal elves whom he graced with divinity. These gods were the ones who brought word to Corellon of Lolth's radical ideas, and their creator rewarded them by bringing them with him when he withdraw to Arvandor. When Lolth lured some of the primal elves away from Corellon with her promises, this high-ranking core of divine entities remained loyal. Because they rejected Lolth's treacherous ways, they retained their primal power and their immortality.
 
 Surface elves, and other elves who dwell in the light,revere these entities for remaining true to Corellon. In practice, this reverence is expressed more as the honoring of an ancestor or relative than the worshiping of a god, for all the elves still remain some memories of the Seldarine.
 
 The Elf Deities table enumerates the members of the Seldarine. For each god, the table notes alignment, province (the god's main areas of interest and responsibility), suggested domains for clerics who serve the god, and a common symbol of the god. Several of the gods in the table are described in this section.
 
-<a name="internal-Elf"></a>
-{{}}">sTable,wide
-#### Elf Deities ( The Seldarine)
+<div class="classTable frame" markdown="1">
+<h4><a class="internal-link" name="internal-ElfDeities">Elf Deities (The Seldarine)</a></h4>
+
 | Deity | Alignment | Province | Domains | Common Symbol
 |:----|:--:|:-----|:----|:----|
 | Aerdrie Faenya | CG | Air, rain, fertility, birth | Air, Life, Tempest | Bird silhouetted against a cloud
@@ -750,36 +713,23 @@ The Elf Deities table enumerates the members of the Seldarine. For each god, the
 | Alathrien Druanna | N | Runes, writing, spellcasting | Arcana, Balance, Knowledge | A quill or glyph
 | Alobal Lorfiril | CG | Revelry, mirth | Celebration, Chaos, Trickery, Whimsy | Wine glass
 | Araleth Letheranil | CG | Light, stars, revelations | Fate, Knowledge, Light, Time | Shaft of light
-| Corellon Larethian | CG | Primary god of elves | Arcana, Life, Leadership, Light | Quarter moon or starburst
+| <a href="#internal-CorellonLarethian">Corellon Larethian</a> | CG | Primary god of elves | Arcana, Life, Leadership, Light | Quarter moon or starburst
 | Darahl Tilvenar | LN | Fire, earth, metalwork | Earth, Fire, Forge | Flame between hands
-| Deep Sashelas | CG | Creativity, knowledge, sea | Knowledge, Ocean, Tempest | Dolphin
+| <a href="#internal-DeepSashelas">Deep Sashelas</a> | CG | Creativity, knowledge, sea | Knowledge, Ocean, Tempest | Dolphin
 | Elebrin Liothiel | CG | Abundance, gardens, the harvest | Celebration, Life, Nature | Acorn
 | Erevan Ilesere | CN | Mischief, change | Chaos, Trickery, Whimsy | Asymmetrical starburst
 | Fenmarel Mestarine | CN | Solitude, outcasts | Fate, Hunting, Nature, Survival | Two peering elven eyes
 | Gadhelyn | CN | Independence, outlawry | Hunting, Strength, Survival | Leaf-shaped arrowhead
-| Hanali Celanil | CG | Love, beauty, the arts | Celebration, Charm, Life | Golden heart
+| <a href="#internal-HanaliCelanil">Hanali Celanil</a> | CG | Love, beauty, the arts | Celebration, Charm, Life | Golden heart
 | Kirith Sotheril | NG | Divination, illusion | Arcana, Illusion, Trickery | Rainbow sphere
-| Labelas Enoreth | CG | Time, history, memory | Fate, Knowledge, Time | Setting sun
+| <a href="#internal-LabelasEnoreth">Labelas Enoreth</a> | CG | Time, history, memory | Fate, Knowledge, Time | Setting sun
 | Melira Taralen | CG | Poetry, songs | Celebration, Charm, Trickery | Lute
-
-
-
-
-
-
-
-
-
-{{}}">sTable,wide
-#### Elf Deities (cont.)
-| Deity | Alignment | Province | Domains | Common Symbol
-|:----|:--:|:-----|:----|:----|
 | Mythrien Sarath | CG | Abjuration, protective magic | Arcana, Protection | Row of three intertwined rings
 | Naralis Analor | NG | Healing, suffering, death | Death, Life, Repose | White dove
 | Rellavar Danuvien | NG | Winter, harsh weather | Tempest, Winter | Spear between two circles
-| Rillifane Rallathil | CG | Nature, beasts, the seasons | Hunting, Nature | Oak
+| <a href="#internal-RillifaneRallathil">Rillifane Rallathil</a> | CG | Nature, beasts, the seasons | Hunting, Nature | Oak
 | Sarula lliene | CG | Lakes, streams |  Nature, Ocean | Three lines symbolizing waves
-| Sehanine Moonbow | CG | Dreams, death, travel | Fate, Repose | Full moon under a moonbow
+| <a href="#internal-SehanineMoonbow">Sehanine Moonbow</a> | CG | Dreams, death, travel | Fate, Repose | Full moon under a moonbow
 | Shevarash | CN | Vengeance, loss, hatred | Death, Punisment, Vengeance | Broken arrow over a tear
 | Solonor Thelandira | CG | Archery, hunting, survival | Hunting, Nature, Survival | Silver arrow with green fletching
 | Tarsellis Meunniduin | CN | Mountains, rivers, wild places | Balance, Nature, Survival | Mountain with a river
@@ -788,8 +738,13 @@ The Elf Deities table enumerates the members of the Seldarine. For each god, the
 | Ye'Cind | CG | Music, enchantment | Celebration, Charm, Trickery | Recorder
 | Zandilar | CN | Romance, lust, dance | Celebration, Charm, Trickery, Whimsy | Lips
 
+</div>
 
-#### Corellon Larathien
+<img src='https://i.pinimg.com/originals/71/1e/00/711e0015ff6ac6e4a729eed9c1845aab.png' style='float:right;width:30%;padding:20px' />
+
+
+<h4><a class="internal-link" name="internal-CorellonLarathien">Corellon Larathien</a></h4>
+
 The grandfather of all elves is both chaos and beauty personified. Corellon is as fluid and changeable as a breeze or a brook- quick to anger, but equally quick to forgive and forget. The god loves magic, artistry, nature, and freedom. Anyone who has felt the mystical presence of Corellon describes it as a joy like no other, followed by a deep melancholy when his presence is no longer felt. Corellon doesn't expect much from followers - no complex rituals or frequent ceremonies or even regular prayer. Corellon wants them to enjoy life, to try new things, to imagine what they desire and then pursue it, and to be kind to others. In return for this freedom from the usual requirements of religion, Corellon expects them to address their own problems and not pray for aid in every crisis.
 
 These precepts are instilled within every elf, since all elves are ultimately descended from fragments of Corellon. When elves ask their priests how one might become able to sense Corellon's presence, the priests often say, "First, truly know yourself. Only then can you feel our creator near."
@@ -800,7 +755,8 @@ Many elf wizards honor Corellon and adorn their spellbooks and towers with the g
 
 
 
-#### Hanali Celanil
+<h4><a class="internal-link" name="internal-HanaliCelanil">Hanali Celanil</a></h4>
+
 Hanali is the elven god of beauty and love. Usually depicted as a beautiful androgynous elf, Hanali's gender in a story seldom matters, for no matter how much heartache and confusion the stories contain, they end with affairs of the heart properly sorted out and everyone in love with the person, or persons, they were fated to be with. Stories of Hanali's romantic adventures among elves and other mortals are perennial favorites when sung by elf bards and poets.
 
 In Arvandor, Hanali maintains a hidden pool called Evergold. She bathes in it at least once a day. It's said that the water of Evergold keeps her young and breathtakingly beautiful, but this is certainly a poetic myth, since all the Seldarine appear young and beautiful, with or without having bathed in this fountain. Mortal elves who are invited to join Hanali in the pool are said to retain their youthfulness and to delay the onset of Transcendence by at least a century. More than a few elves claim to have experienced this benefit, and the truth of it is attested by many bards - sometimes in all earnestness, sometimes with a knowing wink.
@@ -809,17 +765,11 @@ Priests of Hanali preside over most family-related ceremonies. Other than name-g
 
 **Pools of Beauty**. Those who worship Hanali Celanil build shrines in her honor around natural pools of clear spring water- a representation of the purity and power of Evergold. Her priests often surround such an area with flowers or arrange stones in a way that accentuates the natural beauty of the place. In a shrine dedicated to the worship of several elven deities, an alabaster bowl of water, usually with yellow flowers or petals floating in it, is left in reverence to Hanali.
 
-
-
-
-
-
-
-
-
 Devotees of Hanali Celanil are known for taking the initiative in beautifying their surroundings without asking or expecting others to follow suit. If a shrine to the gods is beginning to look somewhat untidy, her followers will straighten things up, bring fresh flowers, and refresh offerings of food, water, and wine. Especially vigilant individuals might even decide to clean up after others who carelessly spill a drink in a tavern or leave their dinner table in a slovenly condition, all in humble service to their god.
 
-#### Labelas Enoreth
+
+<h4><a class="internal-link" name="internal-LabelasEnoreth">Labelas Enoreth</a></h4>
+
 Even though elves live far longer than most other humanoids, they show few physical signs of aging until they become very old. By the time an elf show any signs of age, the elf has already lived for centuries For this longevity and long-lasting vitality, they thank and revere Labelas Enoreth.
 
 Labelas is portrayed as an elderly elf with silver hair, still-active eyes that once were bright blue but now are clouded and gray, fine wrinkles around the eyes and mouth. and a right hand slightly impaired by the effects of age. If anything, these symptoms of mortality make the god even more handsome and stately in the eyes of his followers than he was in his youth.
@@ -828,7 +778,10 @@ Elves tend to give Labelas little regard until they experience Remembrance. Like
 
 Most settlements have only one or two priests of Labelas. These individuals are elves well past their prime but who have not yet begun to withdraw into themselves. Their duties involve guiding elves who have recently experienced Remembrance, and are thus beginning the journey into introversion in the waning days of one's mortal life. The priests also preside over funeral celebrations, since Labelas is also honored for his role in seeing that elves experience beneficial reincarnations.
 
-#### Rillifane Rallathil
+
+
+<h4><a class="internal-link" name="internal-RillifaneRallathil">Rillifane Rallathil</a></h4>
+
 Like the other elven deities, Rillifane Rallathil was once a primal elf sprung from of Corellon's divinity. The original primal elves - and indeed, Corellon himself - have no "true form." Their common, elf-like portrayals are a convenience adopted after the elves took on permanent humanoid form.
 
 
@@ -841,17 +794,12 @@ Energetic debates have been held over whether Rillifane's oak tree exists only o
 
 Rillifane is also the patron of the trees which are the final from of an elf. In an elf community, the druids of Rillifane take care of these trees, and communicate with them. In this commonucation they gently ask the elder tree elves to grow in forms where their descendands can live. As elves live in the branches of their ancestors, one can understand why they are so protective of their homes.
 
-#### Sehanine Moonbow
+
+<h4><a class="internal-link" name="internal-SehanineMoonbow">Sehanine Moonbow</a></h4>
+
 Sehanine is Corellon's beloved; Corellon is Sehanine's creator. Sehanine is Corellon's shadow; Corellon is Sehanine's reflection. Sehanine is the moon; Corellon is the moon's crescent. Sehanine is the night sky; Corellon is the sun and all the stars.
 
 No god of the Seldarine is as intertwined with Corellon or presents so many paradoxes for worshipers to unravel, but this role befits Sehanine, for she is a god  of mysteries as much as anything else. Many non-elves find it easiest to think of Sehanine as the companion of Corellon and the god of the moon, but to elves she is much more than that. The moon passes from one phase to the next, and Sehanine watches over all such cycles, be it from season to season or cradle to grave. She is midwife to elf mothers, ushering souls into the world. She is also thought to stand beside dying elves, to greet their departing spirits and set them on the path to Arvandor.
-
-
-
-
-
-
-
 
 Sehanine serves as patron of the lost and any who travel, as well as those who seek meaning. Elves beseech her to provide relief from madness, and they mark her symbol on graves and tombs to invoke her protection of the dead.In these comforting aspects, Sehanine is often imagined as a willowy, gentle male elf with shining eyes that reveal both melancholy and tenderness in their gaze when depicted alongside his beloved Corellon.
 
@@ -859,11 +807,12 @@ In stories of the Seldarine, Sehanine is Corellon's steadfast companion, the one
 
 **Lunar Worship**. Temples to Sehanine Moonbow are almost always aligned with the heavens to enable the priests to track the motion and phases of the moon. The sleeping quarters of the priests are positioned such that a shaft of light from the full moon falls on them while they are sleeping, and this silver light of Sehanine can influence their dreams and impart messages to them. Instead of going into trance, Sehanine's priests often seek her guidance by entering into a state of true sleep and sifting through their dreams for signs.
 
-
-
 Offerings to Sehanine are mostly made from silver, often shaped in a way that is reminiscent of the full moon. Cups, bowls, cloak pins, and plates of silver are found at her shrines, as well as those dedicated to the Seldarine collectively. The weapons and gear used by her followers, such as silver arrowheads, knife blades, and wooden shields, are often decorated with a stylized image of Sehanine's eye with rays coming out of it - a warning to the elves' enemies that Sehanine's gaze has fallen upon them.
 
-#### Deep Sashelas
+
+
+<h4><a class="internal-link" name="internal-DeepSashelas">Deep Sashelas</a></h4>
+
 Deep Sashelas, sometimes known just as Sashelas, is the elven deity of the sea, seafaring, and knowledge. Sashelas is called the Knowledgeable One. His awareness of all lore, not only that about the sea, is seemingly limitless. He is especially beloved by sea elves, dolphins, and elf sages.
 
 Many elven seafarers toss offerings of gold and jewels overboard, beseeching Sashelas to calm storms or provide favorable winds, and he is inclined to aid them even if they aren't fully dedicated to his worship. Ceremonies honoring Sashelas are held underwater at times of uncommonly high tides or during electrical storms, when flashes of lightning above the waves provide illumination to the calmer realm below the surface.
@@ -872,15 +821,12 @@ Many elven seafarers toss offerings of gold and jewels overboard, beseeching Sas
 
 Away from the open sea, many lagoons, reefs, and grottoes have shrines devoted to Sashelas. Many come in reverence to bathe in the waters in the hope of receiving visions from the god, since it is known that Sashelas is fond of sharing knowledge with those who are true seekers. Scholars, monks, and clerics visit these elaborately decorated seaside temples, immersing themselves in the blessed waters and looking for enlightenment. Because the god also dispenses lore through dreams and reveries of memory, many artists and poets worship Sashelas. They seek his creative insight by spending time floating on the waves, then return to shore to write down or sketch out the gifts bequeathed to them.
 
-![elf](https://i.pinimg.com/originals/71/1e/00/711e0015ff6ac6e4a729eed9c1845aab.png) {position:absolute,bottom:-40px,left:15px,width:65%}
 
 
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-eladrinFeywild">Eladrin and the Feywild</a></h1>
 
-
-
-
-# <a name="internal-eladrinFeywild">Eladrin and the Feywild</a>
 Nearly everyone has heard of the Fey in one form or another. Fairies such as pixies and sprites take on a major role in children’s tales as magical woodland tricksters and guardians. Fey monsters, like hags and trolls, haunt our nightmares. And the graceful sidhe, the fey lords and ladies, are famous throughout the planes for their immeasurable beauty.  Despite the stories, these creatures are rare. They are often seen only in fleeting glimpses, or in the wild, untamed lands of the world. Few, if any, doubt their existence, since just about everyone has met an elf or perhaps even a gnome, but next to no one has met a fey creature, and even fewer have lived to tell about it. Why is that?
 
 The answer is that the fey live separately from the material plane, or the “real world”, on a plane of existence known as the Feywild. Known to some as the Twilight Kingdom, the Eternal Glade, the Wicked Garden, or the Nevernever, the Feywild is a place of beauty, grace, magic, and peril. Lanterns seem to float in the air, which is alive with butterflies and other insects. It is eternally twilight here, and the sun rests low in the sky, never rising or setting. Creatures that are harmed by the sun are safe here, and creatures that cannot see in the dark still retain their vision.
@@ -896,20 +842,13 @@ Those are the obvious dangers. The subtle danger of the Feywild is that it can a
 Time in the Feywild is a tricky subject as well. Days spent in the Feywild might turn out to be seconds on the material plane, or they might turn out to be centuries. Two creatures that both exit the Feywild at the same time might end up being split up vastly by the passage of time, never to see each other again. Although this is an extremely rare occurrence, it is vital to take precautions against this time-warping effect when entering or exiting this echo plane. Wearing or holding iron or steel materials appears to stop time from distorting itself, although it is rather difficult to bring these metals into the Feywild in the first place. The archfey seem to have some sort of control over this effect, and simply traveling with a fey creature seems to stop this effect from happening altogether, which suggests that it is some sort of defense mechanism meant to stop mortals from interfering with the dealings of the fey.
 
 ### The Courts
+<img src='https://robertrigo.github.io/pics/feywild.png' style='float:right;width:45%;padding:20px' />
+
 The land is ruled by two fey Courts, the Summer, or Seelie, and Winter, or Unseelie, Courts.  Each Court has a stronghold, which is located in the same place in the Feywild as a castle on the material plane.
 
 Titania, the Summer Queen, rules her land from Chateau Faria, an awe-inspiring palace of emeralds and other gemstones that teems with life. The lands surrounding Chateau Faria are too beautiful for mortal eyes to comprehend.  Flowers bloom eternally in the Summer Kingdom, where lakes sparkle as though made of sapphires. The air is always hot in the lands of Summer, and despite the constant twilight of the Feywild, it is much brighter here.
 
 Mab, the Winter Queen, rules from Arctis Tor, an imposing castle of ice and black stone. The lands surrounding Arctis Tor are as harsh as winter itself. Icy cold and windswept mountains and dead forests. Only the strong survive in this land, where deadly predators hunt each other in the snows and struggle, both for survival and for the favor of their cold Queen. It is much darker here than in the rest of Feywild.
-
-![elf](https://robertrigo.github.io/pics/feywild.png) {position:absolute,bottom:-0px,left:0px,width:100%,height:35%}
-
-
-
-
-
-
-
 
 The lands outside the direct influence of either court are varied, ranging from copies of either Court to combinations of the two, to completely individual areas. Most lands of the Feywild are subject to the changing of the seasons, unlike the lands of Summer and Winter. Majestic castles and sunken mires dot the landscape, which is inhabited by representatives of both Courts, and by the Wyldfae, which belong to neither. Strange music can often be heard in the wild lands of the Feywild, as can the laughter of the land’s inhabitants. The wild lands are just as perilous as either Court, but out here, it is much harder to let down your guard.
 
@@ -951,6 +890,8 @@ Eladrin culture is older than most other civilizations in the multiverse, and it
 Scholars who have researched eladrin culture blame these traits on the influence of the Feywild. As part of their argument, they point out that eladrin who spend a significant amount of time on the Material Plane - adventurers and scholars, primarily still demonstrate these attitudes, but to a lesser degree.
 
 ## The Laws of the Fey
+<img src='https://robertrigo.github.io/pics/nature_corner.png' style='float:right;width:30%;padding:20px' />
+
 Nearly all fey are bound to a specific set of rules. Some fey can break some of these Laws, but for the most part, they can be seen as a static code among fairies. Fey are physically unable to break these laws. Moreso, they do not see these laws as boundaries, but simply as the way things are. A fey creature cannot comprehend the idea of telling a lie, for example, although they know that mortals are able to, and are always on their guard. The rules of the fey are known as the Laws, and are worded in three simple commandments.
 
 ### Speak No False Words
@@ -961,9 +902,6 @@ The closest thing a fairy will give to an absolute truth a fairy will give, outs
 ### Break No Oaths
 A deal made by a fairy is absolute, and a fairy cannot willingly break a deal. Fairies, by nature, try to make deals with other creatures that they want power over, often with the payment owed to them seeming much smaller or easier to pay than it truly is, or else not mentioning a return payment until after the deal has been accepted. Failure to pay within the given time results in the fairy having power over the dealbreaker, which was the original goal.
 
-![skull_divider](https://robertrigo.github.io/pics/nature_corner.png) {position:absolute,top:0px,right:0px,width:54%}
-
- :::::::::::::::::::::::::::::
 
 A deal a fairy offers will always be equal, and anything offered by a mortal, should it be anything other than equal payment, will be seen as either an opportunity or an insult. Fairies hate to be in debt, and cannot give or take anything for free. Accepting a gift from a fairy is the same as accepting an open-ended deal, and the fairy can extract payment as they see necessary. At the same time, giving a gift to the fey puts them in debt, which they hate. While they are forced to repay their debt, they will also look for an opportunity to harm the gift-giver, except for very special circumstances.
 
@@ -998,6 +936,8 @@ Fey creatures cannot cross a threshold without leaving a fraction of their power
 Fey creatures can cross a threshold if they are invited across, in which case they do not lose their powers. If one wishes to enter a dwelling, but finds itself unable to, it will often use trickery, threats, and coercion to lure its victims outside or have them invite it in. Other, more crafty fey, most famously hags and oni, will gain entrance by befriending children under a disguise, revealing their true form when they are brought inside the house.
 
 ## The Nature of the Fey
+<img src='https://robertrigo.github.io/pics/shadowfell.png' style='float:right;width:45%;padding:20px' />
+
 Although they fey are capable of making choices, feeling emotion, and acting in surprising ways, the key difference between mortals and the fey is that the fey do not have free will. Mortals can change drastically over the course of years, turning a new leaf, so to speak, but the fey are unchanging in nature. Queen Mab will always be a ruthless predator, for example. She would never even consider the possibility of acting against this nature. Such an act is as impossible as a human sprouting wings and flying to a different plane of existence without any magical involvement.
 
 The fey deal in half-truths and lying by omission. Except for very specific circumstances, fey will not be straightforward. They will tell only what they have to, and twist their words in such a way that, while they did not tell a lie, their information is often confusing, muddled, or subject to interpretation, with all of the more likely ways of seeing it actually being false. The fey do not ponder their words before speaking. Such things come naturally to them. Many who deal commonly with the fey believe that, even if they wanted to, which they most certainly do not, the fey cannot give the straight truth.
@@ -1024,13 +964,12 @@ Despite what many think, the fey are neither good nor evil, at least not in the 
 
 
 
-![elf](https://robertrigo.github.io/pics/shadowfell.png) {position:absolute,top:0px,left:0px,width:100%,height:30%}
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-ravenQueen">The Raven queen and the Shadar-kai</a></h1>
 
- :::::::::::::::
-## <a name="internal-ravenQueen">The Raven queen and the Shadar-kai</a>
-*"The Raven queen is trapped by her fascination with the past. She sits in her fortress, amidst all the memories of the world, looking at the ones that please her most as though they were glittering jewels. Many great wizards have attempted to understand her motives, but like a raven she has always remained cryptic, keeping her cache of secrets just out of their reach."*
-
--- High Lady Alustriel Silverhand
+> *"The Raven queen is trapped by her fascination with the past. She sits in her fortress, amidst all the memories of the world, looking at the ones that please her most as though they were glittering jewels. Many great wizards have attempted to understand her motives, but like a raven she has always remained cryptic, keeping her cache of secrets just out of their reach."*
+>
+> -- High Lady Alustriel Silverhand
 
 The Raven Queen is a being of dark mystery. Accomplished wizards talk about her in hushed tones, and with no small amount of fear, for even they can't say what power she wields in her realms, too subtle for mortal minds to sense. Rumors abound as to her current form, most coming from claims made by lunatics who have described an array of disturbing images: a terrible shadow that clawed at their innermost thoughts, a pale and regal elf who exploded into an untold number of ravens or an unknown presence that pulled them screaming blindly into the gloom.
 
@@ -1041,7 +980,6 @@ For those who seek to unravel the enigma of the Raven Queen, the story of her or
 
 
 
- :::::::::::::::::::
 From the fragments that have been found of her history, when Corellon and Lolth were locked in conflict, she tried to use the souls and magic of her people to elevate herself to godly status and to save the fractured pantheon of the elves.
 
 ### Descent into shadow
@@ -1069,6 +1007,8 @@ Since achieving divinity, the Raven Queen has filled her realm with shadows and 
 #### Method or Madness?
 Some wizards and other scholars have speculated that the Raven Queen is simply insane, that there is no method to her madness other than a nervous pecking apart of a psyche with no more motive than a curious child pulling the legs off an ant. Others have speculated that the Raven Queen needs the gravity of emotions to hold her eternally decaying identity together. But a few sages have postulated that the Raven Queen's purpose is of greater importance, that she serves as a filter of sorts, cleansing souls that cling to fear and pain, forcing them to confront their unfinished business so that they are freed of their mortal baggage and can rise to explore higher planes of existence.
 
+<img src='https://i.pinimg.com/originals/1c/a3/95/1ca395c82048e9a93d44ef2c0e56d502.png' style='float:left;width:25%;padding:20px' />
+
 
 
 #### The Raven Queen's influence
@@ -1079,18 +1019,6 @@ Most folk who have heard of the Raven Queen view her through a lens of superstit
 **Audience after Death**. Some adventurers claim to have been visited by the Raven Queen after their deaths- before their stalwart friends paid to have them resurrected. While they were in the afterlife, the Raven Queen enlisted them for a quest to complete a task, acquire a particular item, or perhaps to travel to a location and simply wait. Most of those who have talked about these visitations say they felt compelled to do her bidding, because the visions imparted by the Raven Queen made it apparent that the quest was in some way part of their greater purpose.
 
 The Raven Queen's reason for communing in this way is a matter of some dispute. Some sages suggests that she is using people as pawns in an inscrutable game, the rules of which are known only to her and the Lady of Pain. Others suggest that she is balancing the multiverse by having mortals complete various tasks, and some say that it is in these moments of obeisance to her that the Raven Queen recalls a fragment of her former self.
-
-<img src='' style='position:absolute;height:40%;bottom:20px;right:60px;' />
-
-![elf](https://i.pinimg.com/originals/1c/a3/95/1ca395c82048e9a93d44ef2c0e56d502.png) {position:absolute,bottom:0px,right:60px,height:38%}
-
-
-
-
-
-
-
-
 
 ### Servants of the Queen
 The shadar-kai are bound to the Raven Queen, cursed to forever serve her in the Shadowfell. They dwell in places outside the Fortress of Memories, usually too terrified of the place to enter it willingly. In their communities they reenact their old rituals and ceremonies, in a pale imitation of the days when they dwelled in the life and light of their now-lost kingdom.

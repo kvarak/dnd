@@ -7,8 +7,8 @@ layout: default
 
 #### <a href="#internal-Pantheons">Pantheons</a>
 <a href="#internal-Golarion">Golarion Deities</a><br/>
-Dwarven Deities - <a href="{{ site.baseurl }}/Folk/dwarf.html#internal-religion"><i>See the Dwarven race</i></a><br/>
-<a href="#internal-Elf">Elf Deities</a><br/>
+<a href="../Folk/dwarf.html#internal-religion">Dwarven Deities <i>(see Dwarf folk)</i></a><br/>
+<a href="../Folk/elf.html#internal-seldarine">Elf Deities <i>(see Elf folk)</i></a><br/>
 <a href="#internal-Gnome">Gnome Deities</a><br/>
 <a href="#internal-Halfling">Halfling Deities</a><br/>
 <a href="#internal-Nonhuman">Other Nonhuman Deities</a><br/>
@@ -304,10 +304,10 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 
 <h2><a class="internal-link" name="internal-Pantheons">Pantheons</a></h2>
 
-<div class="columns">
+<div class="columnsthree">
 
-* Dwarven Deities - <a href="{{ site.baseurl }}/Folk/dwarf.html#internal-religion"><i>See the Dwarven race</i></a>
-* <a href="#internal-Elf">Elf Deities</a>
+* <a href="../Folk/dwarf.html#internal-religion">Dwarven Deities <i>(see Dwarf folk)</i></a>
+* <a href="../Folk/elf.html#internal-seldarine">Elf Deities <i>(see Elf folk)</i></a>
 * <a href="#internal-Gnome">Gnome Deities</a>
 * <a href="#internal-Halfling">Halfling Deities</a>
 * <a href="#internal-Nonhuman">Other Nonhuman Deities</a>
@@ -319,7 +319,7 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 
 <div class="classTable frame" markdown="1">
 
-<h5><a class="internal-link" name="internal-Golarion">Golarion Deities</a></h2>
+<h5><a class="internal-link" name="internal-Golarion">Golarion Deities</a></h5>
 
 | Deity | Alignment | Portfolio | Domains |
 |:----|:--:|:-----|:----|
@@ -347,28 +347,7 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 </div>
 
 <div class="classTable frame" markdown="1">
-<h5><a class="internal-link" name="internal-Elf">Elf Deities</a></h2>
-
-| Deity | Alignment | Portfolio | Domains |
-|:----|:--:|:-----|:----|
-| Aerdrie Faenya | CG | Goddess of air, weather, avians | Nature, Tempest, Winter
-| Corellon Larethian | CG | God of the elven race, magic, music, arts, crafts and poetry. | Arcana, Celebration, Knowledge, Light
-| Deep Sashelas | CG | God of the sea | Nature, Ocean, Tempest
-| Eilistraee | CG | Goddess of good drow | Arcana, Life
-| Elebrin Liothiel | CG | God of orchards, gardens and harvest | Agriculture, Celebration, Nature
-| Erevan Ilesere | CN | God of mischief, change and changelings | Chaos, Charm, Trickery
-| Fenmarel Mestarine | CN | God of feral elves, outcasts, scapegoats and solitude | Fate, Hunting, Nature, Survival
-| Hanali Celanil | CG | Goddess of love, romance and beauty | Celebration, Charm, Life, Light
-| Naralis Analor | NG | God of healing and death | Death, Life, Repose
-| Rillifane Rallathil | CG | God of nature and wood elves |  Hunting, Nature
-| Sehanine Moonbow | CG | Goddess of dreams and the moon | Fate, Light
-| Solonor Thelandira | CG | God of archery and hunting | Hunting, Nature
-| Vandria Gilmadrith | LN | Goddess of war, justice and grief | Order, Strength, War
-
-</div>
-
-<div class="classTable frame" markdown="1">
-<h5><a class="internal-link" name="internal-Gnome">Gnome Deities</a></h2>
+<h5><a class="internal-link" name="internal-Gnome">Gnome Deities</a></h5>
 
 | Deity | Alignment | Province | Domains | Common Symbol
 |:----|:--:|:-----|:----|:----|
@@ -390,7 +369,7 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 </div>
 
 <div class="classTable frame" markdown="1">
-<h5><a class="internal-link" name="internal-Halfling">Halfling Deities</a></h2>
+<h5><a class="internal-link" name="internal-Halfling">Halfling Deities</a></h5>
 
 | Deity | Alignment | Province | Domains | Common Symbol
 |:----|:--:|:-----|:----|:----|
@@ -406,7 +385,7 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 </div>
 
 <div class="classTable frame" markdown="1">
-<h5><a class="internal-link" name="internal-Nonhuman">Other Nonhuman Deities</a></h2>
+<h5><a class="internal-link" name="internal-Nonhuman">Other Nonhuman Deities</a></h5>
 
 | Deity | Alignment | Portfolio | Domains |
 |:----|:--:|:-----|:----|
