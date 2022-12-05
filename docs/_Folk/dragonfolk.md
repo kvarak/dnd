@@ -11,6 +11,9 @@ layout: default
 <a href="#internal-DragonbornFeats">Feats</a>
 
 #### <a href="#internal-kobold">Kobolds</a>
+<a href="#internal-KoboldTraits">Traits</a><br>
+<a href="#internal-KoboldClassOptions">Class Options</a><br>
+<a href="#internal-KoboldFeats">Feats</a>
 
 </div>
 
@@ -38,7 +41,7 @@ Though all dragonborn strive to be self-sufficient, they recognize that help is 
 #### Dragonborn Names
 Dragonborn have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutchmates as a descriptive term or a term of endearment. The name might recall an event or center on a habit.
 
-<div class="columns">
+<div class="columnsthree">
 
 - **Male Names**: Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn
 
@@ -126,10 +129,10 @@ Roll an additional feature to personalize your dragonborn.
   | 12 | I have several scales missing and a long gash running along my face.
   | 13 | My scales are prismatic.
   | 14 | I have traces of another color (for example, little splotches of black scales on a green dragonborn).
+  | 15 | My scales are sleek and uniform, like a snake.
 
 - | d30 | Features (cont.) |
   |:---:|:-----------------|
-  | 15 | My scales are sleek and uniform, like a snake.
   | 16 | My scales are incredibly uneven. Some are huge, others are tiny. This isn’t uncomfortable, just making interesting patterns on my skin.
   | | **Speech** |
   | 17 | I slur all my S’s into ‘sh’ sounds.
@@ -145,7 +148,7 @@ Roll an additional feature to personalize your dragonborn.
   | 25 | I have tail spikes like a stegosaurus.
   | 26 | When sleeping, I exhale harmless clouds of smoke from my nostrils.
   | 27 | I take great pride in my claws, and have intricate designs painted on them.
-  | <div style="white-space:nowrap;">28&nbsp;-&nbsp;30</div> | Roll twice more on this table |
+  | <div style="white-space:nowrap;">28-30</div> | Roll twice more on this table |
 
 </div>
 
@@ -170,7 +173,7 @@ Dragonfolk approach some classes is a bit differently than other folk. When you 
 - ### Barbarian
     Raging dragonfolk often give in completely to their draconic rage. While raging, you can bite, rip and tear as if you had a natural weapon dealing 1d4 piercing or slashing damage. If attacking only with natural weapons while raging, you may make an additional attack using a ***bonus action*** as if wielding an off-hand weapon.
 
-    In addition, while raging, you can reduce spend 10 Fury to use your breath weapon without spending its use. If you do, add your rage damage bonus to the damage it deals.
+    In addition, while raging, you can spend 10 Fury to use your breath weapon without spending its use. If you do, add your rage damage bonus to the damage it deals.
 
     <hr class="dividerinfolk">
 
@@ -266,9 +269,9 @@ Dragonfolk approach some classes is a bit differently than other folk. When you 
 
     <div class="descriptive">
 
-    **Hoard-Keeper**. Once you reach 3rd level, you can cast the *alarm* spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the *locate object* spell; you must finish a long rest in order to cast the spell again using this trait. Intelligence is your spellcasting ability for these spells.
+    **Hoard-Keeper**. Once you reach 3rd level, you can cast the *alarm* spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the *locate object* spell; you must finish a long rest in order to cast the spell again using this trait. Intelligence is your spellcasting ability for these spells.<br/>
 
-    **Treasure Sense**. You can supernaturally sense gold, gems, and other treasures within 30 feet of you and through most barriers, but your senses are blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. You can use this trait to detect the presence of magical items, but not identify them or their abilities.
+    **Treasure Sense**. You can supernaturally sense gold, gems, and other treasures within 30 feet of you and through most barriers, but your senses are blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. You can use this trait to detect the presence of magical items, but not identify them or their abilities.<br/>
 
     **Flaw**. My greed for gold and gemstones has a nearly religious fervor.
 
@@ -421,14 +424,14 @@ The following feats are exclusive to dragonfolk.
 
 
 
-
-# <a class="internal-link" name="internal-kobold">Kobold</a>
-
-*“Kobolds are a lot less cute when they learn to cast fireballs."*
-
-— Volo
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-kobold">Kobold</a></h1>
 
 Kobolds are often dismissed as cowardly, foolish, and weak, but these little reptilian creatures are clever with their hands, and viciously work together in order to overcome their physical limitations. Kobold are short in stature, despite the draconic blood running in their veins, with the tallest of them barely reaching 3 feet and weighing no more than 35 pounds. Because of their small size, kobold often have to adopt unorthodox means of achieving victory. This usually leads to traps, which kobold are well known for crafting.
+
+> *“Kobolds are a lot less cute when they learn to cast fireballs."*
+>
+> -- Volo
 
 Unlike the true dragons they worship, kobolds don't have set colors that reflect certain personality traits. Whole tribes usually are the same one or two colors, and the color of a kobold has no bearing on its abilities or skill set. Kobolds display many of the traits that true dragons display, and are often either proud, or vain (or both).
 
@@ -456,324 +459,273 @@ Kobold names are derived from the Draconic tongue and usually relate to a charac
 
 Because kobolds can change sex to suit a tribe's needs, they don't differentiate between male or female names.
 
- **Kobold Names**: Arix, Eks, Galax, Garu, Hagnar, Hox, Irtos, Kashak, Meepo, Molo, Ohsoss, Rotom, Sagin, Sik, Sniv, Taklak, Tes, Urak, Varn.
+**Kobold Names**: Arix, Eks, Galax, Garu, Hagnar, Hox, Irtos, Kashak, Meepo, Molo, Ohsoss, Rotom, Sagin, Sik, Sniv, Taklak, Tes, Urak, Varn.
 
 
+## <a class="internal-link" name="internal-KoboldTraits">Kobold Traits</a>
 
-## Kobold Traits
 As a kobold, you gain the following traits.
 
- **Ability Scores.** The following ability score changes apply both to current and maximum score.
-* Strength is reduced by 4.
-* Wisdom is reduced by 2.
-* Dexterity is increased by 2.
+<div class="columnsthree">
 
- **Age.** Kobolds reach adulthood at age 6 and can live up to 120 years, but rarely do so. Those that live within or near draconic communities tend to live longer.
+- **Ability Scores.** The following ability score changes apply both to current and maximum score.<br/>
+    -- Strength is reduced by 4.<br/>
+    -- Wisdom is reduced by 2.<br/>
+    -- Dexterity is increased by 2.
 
- **Alignment.** Kobolds rely on the strength of their group, which makes them tend toward law.
+- **Age.** Kobolds reach adulthood at age 6 and can live up to 120 years, but rarely do so. Those that live within or near draconic communities tend to live longer.
 
+- **Alignment.** Kobolds rely on the strength of their group, which makes them tend toward law.
 
+- **Languages**. You understand Common and Draconic.
 
+- **Size.** Kobold are between 2 and 4 feet tall and weigh between 25 and 50 pounds. Your size is Small.
 
+- **Speed.** Your base walking speed is 25 feet.
 
+- **Burrower.** As an ***action*** while holding a pickaxe, you can grant yourself a burrow speed of 10 feet through non-rock earth until the end of your turn.
 
+- **Center of Attention.** As an ***action*** you can distract nearby foes. This can be done by cowering pathetically, shrieking furiously, boasting arrogantly, or through other means. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you.
 
+  Once you use this trait, you can't use it again until you finish a short rest.
 
- **Languages**. You understand Common and Draconic.
+- **Fleeting Courage.** When you succeed on a saving throw, your next attack roll or saving throw you make before the end of your next turn has advantage.
 
- **Size.** Kobold are between 2 and 4 feet tall and weigh between 25 and 50 pounds. Your size is Small.
+- **Pack Tactics.** You have advantage on an attack roll against a creature if at least one of your allies is adjacent to the creature and the ally isn’t incapacitated. You can only benefit from this trait once on each of your own turns.
 
- **Speed.** Your base walking speed is 25 feet.
+- **Skilled Trapper.** You gain proficiency with the thieves' tools, and whenever you make an ability check to create traps (found on page 84 of Xanathar's Guide to Everything), you additionally have advantage on all such checks.
 
- **Burrower.** As an ***action*** while holding a pickaxe, you can grant yourself a burrow speed of 10 feet through non-rock earth until the end of your turn.
+- **Low-light Vision**. Living underground, you can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
 
- **Center of Attention.** As an ***action*** you can distract nearby foes. This can be done by cowering pathetically, shrieking furiously, boasting arrogantly, or through other means. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you.
+- <div class="feat">
 
- Once you use this trait, you can't use it again until you finish a short rest.
+    ## Optional
+    Instead of Low-light Vision, you may select to have both the Darkvision and Sunlight Sensitivity traits.
 
- **Fleeting Courage.** When you succeed on a saving throw, your next attack roll or saving throw you make before the end of your next turn has advantage.
+    **Darkvision**.  For 30 ft around you, you can see in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.
 
- **Pack Tactics.** You have advantage on an attack roll against a creature if at least one of your allies is adjacent to the creature and the ally isn’t incapacitated. You can only benefit from this trait once on each of your own turns.
+    **Sunlight Sensitivity**. You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
 
- **Skilled Trapper.** You gain proficiency with the thieves' tools, and whenever you make an ability check to create traps (found on page 84 of Xanathar's Guide to Everything), you additionally have advantage on all such checks.
+  </div>
 
- **Low-light Vision**. Living underground, you can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
-
-<div class="descriptive" markdown="1">
-
-#### Optional
-Instead of Low-light Vision, you may select to have both the Darkvision and Sunlight Sensitivity traits.
-
- ***Darkvision***. For 30 ft around you, you can see in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.
-
- ***Sunlight Sensitivity***. You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
-
+</div>
 
 
 
-## <a class="internal-link" name="internal-class">Kobold Class Options</a>
+## <a class="internal-link" name="internal-KoboldClassOptions">Kobold Class Options</a>
+
 Kobolds approach some classes is a bit differently than other folk. When you select a class, it is modified as follows.
 
-### Alchemist
-Kobolds are clever and cunning, and have a natural aptitude towards the practical appliations of alchemy.
+<div class="columnstwo">
 
-Whenever the Alchemist class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
+- ### Alchemist
+    Kobolds are clever and cunning, and have a natural aptitude towards the practical appliations of alchemy.
 
-### Barbarian
-Kobolds may be small and weak, but when cornered, they defend themselves in a flurry of draconic rage, biting and tearing with furious rage.
+    Whenever the Alchemist class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
-While raging, you can bite, rip and tear as if you had finesse natural weapons dealing 1d4 piercing or slashing damage. If attacking only with natural weapons while raging, you can make an additional attack when you take the Attack action. Additionally you may make an attack using a ***bonus action*** as if wielding an off-hand weapon.
+    <hr class="dividerinfolk">
 
-You can add your rage damage bonus to both Strength and Dexterity attacks.
+- ### Barbarian
+    Kobolds may be small and weak, but when cornered, they defend themselves in a flurry of draconic rage, biting and tearing with furious rage.
 
-### Bard
-Kobolds only use very primitive instruments, so the kobold bards mostly play some type of drum, or sing. However, their singing sounds terrible to most people, similar to cats in heat.
+    While raging, you can bite, rip and tear as if you had finesse natural weapons dealing 1d4 piercing or slashing damage. If attacking only with natural weapons while raging, you can make an additional attack when you take the Attack action. Additionally you may make an attack using a ***bonus action*** as if wielding an off-hand weapon.
 
-### Cavalier
-The cavalier class is more common than one would think among the kobolds. They are often seen riding on large lizards or drakes.
+    You can add your rage damage bonus to both Strength and Dexterity attacks.
 
-Whenever the Cavalier class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
+    <hr class="dividerinfolk">
 
-### Cleric
-Kobolds worship dragons as their gods. This means that the cleric class does not exist, as there is no divine power to grant spells and powers. Instead the religious role of cleric is filled with sorcerers and warlocks who believe their power is granted by their dragon "gods".
+- ### Bard
+    Kobolds only use very primitive instruments, so the kobold bards mostly play some type of drum, or sing. However, their singing sounds terrible to most people, similar to cats in heat.
 
-### Cursed
-Dragonfolk cannot become lycanthropes.
+    <hr class="dividerinfolk">
 
-You may choose Wisdom or Charisma as your spellcasting ability instead of Intelligence.
+- ### Cavalier
+    The cavalier class is more common than one would think among the kobolds. They are often seen riding on large lizards or drakes.
+
+    Whenever the Cavalier class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
+
+    <hr class="dividerinfolk">
+
+- ### Cleric
+    Kobolds worship dragons as their gods. This means that the cleric class does not exist, as there is no divine power to grant spells and powers. Instead the religious role of cleric is filled with sorcerers and warlocks who believe their power is granted by their dragon "gods".
+
+    <hr class="dividerinfolk">
+
+- ### Cursed
+    Dragonfolk cannot become lycanthropes.
+
+    You may choose Wisdom or Charisma as your spellcasting ability instead of Intelligence.
+
+    <hr class="dividerinfolk">
+
+- ### Druid
+    No change.
+
+    <hr class="dividerinfolk">
+
+- ### Feyblood
+    A kobold affect by fey magic can use their faerie dust in a different way. As an action you can spend a use of faerie dust to spread it in a 10 ft radius around you. Creatures within the cloud must succeed at a Wisdom save against you spellcasting DC, or be *confused* for one minute. They get a new save at the end of each of their rounds.
+
+    <hr class="dividerinfolk">
+
+- ### Fighter
+    Kobold fighters may can add the following fighting style to their selection of fighting styles.
+
+    <div class="feat">
+
+    ## And then I did anyway...
+    They told you it was too big and that you shouldn’t train with it. And then you did anyway. Through perseverance, you have managed to overcome your size. Choose one weapon with which you are proficient and that has the Heavy property. You can use that weapon without disadvantage.
+
+    </div>
+
+    <hr class="dividerinfolk">
+
+- ### Inquisitor
+    The religious practices of kobolds mostly ignore things outside their own communities, so the inquisitor role does not really exist.
+
+    <hr class="dividerinfolk">
+
+    <!--
+    ### Monster Hunter
+    Kobolds are often seen as monsters themselves, which often gives them more to prove, and a stronger conviction to their cause.
+
+    Whenever the Monster hunter class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+
+    In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
+    -->
+
+- ### Paladin
+    Paladins are very rare but they do exist among the kobold, and are then embodiments of the heroic ideals for their race. This often confuses people when they first meet a kobold paladin, as they expect a paladin to follow the human ideals.
+
+    Whenever the Paladin class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+
+    In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
+
+    <hr class="dividerinfolk">
+
+- ### Professional
+    Kobolds are clever and can easily pick up the professional class. However, like any other more primitive races they tend to prefer and value the more practical fields, like the candlemaker, cook, smith or forester.
+
+    If belonging to a more practical field, whenever the Professional class description mentions your Wisdom modifier, you may instead your proficiency bonus.
+
+    In addition you may start with the ***kobold inventor*** feat.
+
+    <hr class="dividerinfolk">
+
+- ### Ranger
+    As a kobold ranger you have access to the <a href="../Classes/ranger.html#internal-trickster">Trickster conclave</a>.
+
+    Whenever the Ranger class description mentions your Wisdom modifier you may instead your proficiency bonus. In addition, you may use the same modifier instead of Strength or Dexterity when attacking (attack and damage). Make this choice at level 1 and it cannot be changed later.
+
+    You can add the fighting style from the fighter entry to your selection of fighting styles and finally you may start with the ***kobold inventor*** feat.
+
+    <hr class="dividerinfolk">
+
+- ### Rogue
+    Kobolds are ideal rogues. When you become a 1st level rogue, you gain the ***kobold inventor*** feat.
+
+    When using sneak attack, you can opt not to use all your sneak attack dice. For each die you did not use, you gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
+
+    In addition you may use your Dexterity modifier +3 or your proficiency bonus when calculating AC and when attacking (to hit and damage).
+
+    <hr class="dividerinfolk">
+
+- ### Sorcerer
+    Sorcerers are just as rare and varied as within other folk.
+
+    Whenever the Sorcerer class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+
+    <hr class="dividerinfolk">
+
+- ### Swashbuckler
+    As kobolds are usually to weak to use heavier armor, the swashbuckler class is common.
+
+    Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
+
+    <hr class="dividerinfolk">
+
+- ### Warlock
+    Being small and weak as they are, kobolds would do anything to get ahead. They often do not have any problem following whatever creature that promises them power. The problem is, they are not often offered.
+
+    A kobold gaining the favor of an Ancient dragon would be the highest honor of all, and such a person often ends up as chieftain or religious leader of their tribe.
+
+    If you are a Warlock with an ancient dragon patron, then whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+
+    <hr class="dividerinfolk">
+
+- ### Wizard
+    Kobolds do not see the point of writing, so wizards are very rare.
+
+    <hr class="dividerinfolk">
+
+</div>
 
 
 
 
+## <a class="internal-link" name="internal-KoboldFeats">Kobold Feats</a>
 
-
-
-
-### Druid
-No change.
-
-### Feyblood
-A kobold affect by fey magic can use their faerie dust in a different way. As an action you can spend a use of faerie dust to spread it in a 10 ft radius around you. Creatures within the cloud must succeed at a Wisdom save against you spellcasting DC, or be *confused* for one minute. They get a new save at the end of each of their rounds.
-
-### Fighter
-Kobold fighters may can add the following fighting style to their selection of fighting styles.
-
-<div class="feat">
-
-## And then I did anyway...
-They told you it was too big and that you shouldn’t train with it. And then you did anyway. Through perseverance, you have managed to overcome your size. Choose one weapon with which you are proficient and that has the Heavy property. You can use that weapon without disadvantage.
-
-
-### Inquisitor
-The religious practices of kobolds mostly ignore things outside their own communities, so the inquisitor role does not really exist.
-
-<!--
-### Monster Hunter
-Kobolds are often seen as monsters themselves, which often gives them more to prove, and a stronger conviction to their cause.
-
-Whenever the Monster hunter class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
-
-In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
--->
-
-### Paladin
-Paladins are very rare but they do exist among the kobold, and are then embodiments of the heroic ideals for their race. This often confuses people when they first meet a kobold paladin, as they expect a paladin to follow the human ideals.
-
-Whenever the Paladin class description mentions your Charisma modifier, you may instead use your proficiency bonus.
-
-In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
-
-### Professional
-Kobolds are clever and can easily pick up the professional class. However, like any other more primitive races they tend to prefer and value the more practical fields, like the candlemaker, cook, smith or forester.
-
-If belonging to a more practical field, whenever the Professional class description mentions your Wisdom modifier, you may instead your proficiency bonus.
-
-In addition you may start with the ***kobold inventor*** feat.
-
-
-
-### Ranger
-As a kobold ranger you have access to the <a href="#internal-trickster">Trickster conclave</a>.
-
-Whenever the Ranger class description mentions your Wisdom modifier you may instead your proficiency bonus. In addition, you may use the same modifier instead of Strength or Dexterity when attacking (attack and damage). Make this choice at level 1 and it cannot be changed later.
-
-You can add the fighting style from the fighter entry to your selection of fighting styles and finally you may start with the ***kobold inventor*** feat.
-
-### Rogue
-Kobolds are ideal rogues. When you become a 1st level rogue, you gain the ***kobold inventor*** feat.
-
-When using sneak attack, you can opt not to use all your sneak attack dice. For each die you did not use, you gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
-
-In addition you may use your Dexterity modifier +3 or your proficiency bonus when calculating AC and when attacking (to hit and damage).
-
-### Sorcerer
-Sorcerers are just as rare and varied as within other folk.
-
-Whenever the Sorcerer class description mentions your Charisma modifier, you may instead use your proficiency bonus.
-
-### Swashbuckler
-As kobolds are usually to weak to use heavier armor, the swashbuckler class is common.
-
-Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
-
-### Warlock
-Being small and weak as they are, kobolds would do anything to get ahead. They often do not have any problem following whatever creature that promises them power. The problem is, they are not often offered.
-
-A kobold gaining the favor of an Ancient dragon would be the highest honor of all, and such a person often ends up as chieftain or religious leader of their tribe.
-
-If you are a Warlock with an ancient dragon patron, then whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
-
-### Wizard
-Kobolds do not see the point of writing, so wizards are very rare.
-
-
-
-
-
-
-
-
-## Feats
 Your character has access to the following exclusive feats.
 
-<div class="feat">
+<div class="columnstwo">
 
-## Kobold Inventor
-You are resourceful and clever for a kobold.
-- Your **Intelligence** score increases by 1.
+-   <div class="feat">
 
-- You carry six of your inventions with you, and you can use each of the options below as an ***action*** once. Their DC is 8 + your proficiency bonus + your Intelligence modifier. You also add your proficiency bonus to attack rolls of your inventions (including the swarms attacks). All initial damage increases by an additional 1d6 at 8th level, 12th level, 16th level and 20th level.
+    ## Kobold Inventor
+    You are resourceful and clever for a kobold.
 
-- You can only use one invention each turn. After finishing a long rest, and spending 10 minutes to forage and prepare, you can regain all expended uses of your inventions. These inventions look like a mess of scrap, therefore others are unwilling to use or purchase them.
+    Your **Intelligence** score increases by 1.
 
-- You can choose to panic and use one of the options below as a ***bonus action***, however you must roll a d6 dice to determine which invention you use. If you roll a used invention, then nothing happens.
+    You carry six of your inventions with you, and you can use each of the options below as an ***action*** once. Their DC is 8 + your proficiency bonus + your Intelligence modifier. You also add your proficiency bonus to attack rolls of your inventions (including the swarms attacks). All initial damage increases by an additional 1d6 at 8th level, 12th level, 16th level and 20th level.
 
- ***1- Acid.*** You hurl a flask of volatile acid to a location within 20 feet. Those within 10 feet of that location must make a Dexterity saving throw, taking 2d6 acid damage on a failed save, or half as much damage on a successful one.
+    You can only use one invention each turn. After finishing a long rest, and spending 10 minutes to forage and prepare, you can regain all expended uses of your inventions. These inventions look like a mess of scrap, therefore others are unwilling to use or purchase them.
 
- ***2- Basket of Centipedes.*** You throw a small basket up to 20 feet. A swarm of insects (centipedes) emerges from it, immediately taking its turn after yours, and attacks the nearest creature until that creature is reduced to 0 hit points, after which the swarm disperses.
+    You can choose to panic and use one of the options below as a ***bonus action***, however you must roll a d6 dice to determine which invention you use. If you roll a used invention, then nothing happens.
 
- ***3- Scorpion on a Stick.*** You attack an adjacent creature with a scorpion tied to the end of a stick. On a hit the target suffers 1 piercing damage and  must make a Constitution saving throw, taking 2d6 poison damage on a failed save, or half as much damage on a successful one. On a failed save the target is also poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.
+    ***1- Acid.*** You hurl a flask of volatile acid to a location within 20 feet. Those within 10 feet of that location must make a Dexterity saving throw, taking 2d6 acid damage on a failed save, or half as much damage on a successful one.
 
- ***4- Skunk in a Cage.*** You release a skunk into an unoccupied space within 20 feet, which immediately sprays its musk at a random creature adjacent to it. The target must make a Constitution saving throw. On a failed save, the target retches and can't take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, and whenever it takes damage, ending the effect on a success.
+    ***2- Basket of Centipedes.*** You throw a small basket up to 20 feet. A swarm of insects (centipedes) emerges from it, immediately taking its turn after yours, and attacks the nearest creature until that creature is reduced to 0 hit points, after which the swarm disperses.
 
- ***5- Volatile Fire.*** You hurl a flask of fire to a creature within 20 feet of you, who must make a Dexterity saving throw. On a failed save, the target suffers 1d6 initial fire damage, and 1d6 additional fire damage at the start of each of its turns. A creature can take an action to extinguish the flames.
+    ***3- Scorpion on a Stick.*** You attack an adjacent creature with a scorpion tied to the end of a stick. On a hit the target suffers 1 piercing damage and  must make a Constitution saving throw, taking 2d6 poison damage on a failed save, or half as much damage on a successful one. On a failed save the target is also poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.
 
- ***6- Wasp Nest in a Bag.*** This has the same rules as your Basket of Centipedes, but with wasps.
+    ***4- Skunk in a Cage.*** You release a skunk into an unoccupied space within 20 feet, which immediately sprays its musk at a random creature adjacent to it. The target must make a Constitution saving throw. On a failed save, the target retches and can't take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, and whenever it takes damage, ending the effect on a success.
 
+    ***5- Volatile Fire.*** You hurl a flask of fire to a creature within 20 feet of you, who must make a Dexterity saving throw. On a failed save, the target suffers 1d6 initial fire damage, and 1d6 additional fire damage at the start of each of its turns. A creature can take an action to extinguish the flames.
 
+    ***6- Wasp Nest in a Bag.*** This has the same rules as your Basket of Centipedes, but with wasps.
 
+    </div>
 
-<div class="feat">
 
-## Nimble Kobold
-You are exceptionally nimble, even for a kobold, and you have perfected techniques that allow you to take advantage of openings in an enemies defenses made by an allies attack.
-- You can move through the space of any creature that is of a size larger than you.
-- During combat you can take the Disengage or Dash action as a ***bonus action***.
-- When an ally makes a melee attack against a creature adjacent to you, you can use your ***reaction*** to make one melee weapon attack against that creature.
+-   <div class="feat">
 
+    ## Nimble Kobold
+    You are exceptionally nimble, even for a kobold, and you have perfected techniques that allow you to take advantage of openings in an enemies defenses made by an allies attack.
 
-<div class="feat">
+    You can move through the space of any creature that is of a size larger than you.
 
-## Pickaxe Mastery
-Your time spent wielding a pickaxe allows you to wield it with devastating efficiency.
-- Your **Dexterity** score increases by 1.
-- You are proficient with pickaxes and can use them as if they had the finesse and versatile properties, dealing 1d8 piercing damage (1d10 when used with two hands).
-- Whenever you attack with a pickaxe, you can swing wildly, causing your attack to have disadvantage. If you hit, you deal additional damage equal to double your proficiency bonus.
-- Whenever you have disadvantage on an attack roll you make with a pickaxe, the target still takes piercing damage equal to your Strength or Dexterity modifier (your choice) if the attack misses but the higher of the two d20 rolls would have hit.
+    During combat you can take the Disengage or Dash action as a ***bonus action***.
 
+    When an ally makes a melee attack against a creature adjacent to you, you can use your ***reaction*** to make one melee weapon attack against that creature.
 
+    </div>
 
+-   <div class="feat">
 
+    ## Pickaxe Mastery
+    Your time spent wielding a pickaxe allows you to wield it with devastating efficiency.
 
+    Your **Dexterity** score increases by 1.
 
+    You are proficient with pickaxes and can use them as if they had the finesse and versatile properties, dealing 1d8 piercing damage (1d10 when used with two hands).
 
+    Whenever you attack with a pickaxe, you can swing wildly, causing your attack to have disadvantage. If you hit, you deal additional damage equal to double your proficiency bonus.
 
+    Whenever you have disadvantage on an attack roll you make with a pickaxe, the target still takes piercing damage equal to your Strength or Dexterity modifier (your choice) if the attack misses but the higher of the two d20 rolls would have hit.
 
-# <a class="internal-link" name="internal-trickster">Trickster Conclave</a>
-Kobold rangers are regularly underestimated, but those in the Trickster conclave use that lack of esteem as both a defense and an offense, when need be. Using their cleverness and various talents, they create their own advantages in order to level the playing field.
+    </div>
 
-
-#### Conclave Features
-| Ranger Level | Feature |
-| :----------: | :------ |
-| 3rd | Combat Trickster, Opportune Strike |
-| 5th | Rabbit from a Hat |
-| 7th | Out of Sight, Out of Reach, Combat Trickster (additional tricks, d8 damage) |
-| 11th | Exploitative Nature |
-| 15th | Elusive Foe, Combat Trickster (additional tricks) |
-
-
-### Combat Trickster
-Starting when you join this conclave, you learn how to use your ingenuity, deft hands, and the knowledge you've accumulated, to counteract that you are physically at a disadvantage to most foes. You gain proficiency with tinker’s tools if you don't have it already.
-
- **Combat Tricks**. The conclave has entrusted you with three blueprints and designs for combat tricks; items meant to hinder your enemies. The combat tricks are detailed at the end of the archetype description. You learn the design of one additional combat trick at 7th and 15th level.
-
- **Trick Capacity**. Using your tinker tools, you can spend a short rest crafting or repairing a combat trick. You can only carry four of these combat tricks at any given time. Your trick capacity increases by one at 7th level and 15th level.
-
- **Saving Throws**. Your combat tricks require creatures that trigger them to make a saving throw to avoid its effects. The saving throw DC is calculated as follows: Combat Trick DC = 8 + your proficiency bonus + your Intelligence or Wisdom modifier (your choice)
-
-### Opportune Strike
-You have leart how to exploit the openings your combat tricks create. When a creature fails a saving throw against one of your combat tricks, you can use a ***reaction*** to make one weapon attack against it. Additionally, you never trigger your own combat tricks unless you want to.
-
-### Rabbit From a Hat
-Your familiarity with the combat tricks you employ improves your handling of them. You can choose to use combat tricks as a ***bonus action***.
-
-
-
-Additionally, when you craft or repair a combat trick, you can spend a spell slot to enchant it. An item enchanted in this way deals your choice of fire or poison damage when a creature fails its saving throw against it. The damage is 3d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st. If more than one combat trick is placed in the same area, a creature only takes damage from the most powerful of them. Regardless of whether the creature fails its saving throw or not, the magic imbued in the item is expended.
-
-### Out of Sight, Out of Reach
-You always have a plan to get out of a sticky situation. You can use a ***bonus action*** to take the Disengage action.
-
-### Exploitative Nature
-Your keen eye knows exactly which signs to look for, and how to exploit a show of weakness, no matter how slight it is. When you use a ***reaction*** to attack a creature because it failed a saving throw against one of your combat tricks, you can make two weapon attacks instead of one.
-
-### Elusive Foe
-You can use every opportunity to get out of dodge. When a creature fails a saving throw against one of your combat tricks, you can use your ***reaction*** to move up to half your speed.
-
-## Combat tricks
-Some of the items here are also in the Player's Handbook, but these versions are slightly improved, due to the time, effort, and talent poured into making them.
-
-In addition to hindering your enemies in some way, some are also designed to harm. When combat tricks deal damage, they refer to your trick die, which starts out as d6, and at 7th level it becomes d8.
-
- **Ball bearings (bag of 1,000)**. As an ***action***, you can spill these tiny metal, glass, crystal, stone, or bone balls from their pouch to cover a level area 10 feet square. The first Large or smaller creature moving across the covered area must succeed on a Dexterity saving throw or fall prone, taking 1 trick die of bludgeoning damage.
-
- **Caltrops (bag of 20)**. As an ***action***, you can spread a single bag of caltrops to cover a 5-foot-square area. The first creature that enters the area must succeed on a Dexterity saving throw or stop moving and take 2 trick dice of piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed makes the saving throw with advantage.
-
-
-
-
-
-
-
-
- **Flash Rods (one pair)**. As an ***action***, you can place these two rods connected by a thin wire on a flat surface. The first creature that passes between the rods trips the wire, making the rods flare up in an intensely bright light. The creature must succeed on a Constitution saving throw or be blinded until the end of the turn.
-
- **Oil Fountain**. As an ***action***, you can place this small metal cube attached to a pressure plate on the ground. The first creature that steps on the plate must succeed on a Dexterity saving throw or be sprayed with a highly volatile substance. If the creature takes fire or lightning damage before the substance evaporates at the start of its next turn, it takes 1 trick die fire damage and must succeed on a Wisdom saving throw to withstand the shock of being lit on fire. If it fails, it must use its reaction to move its movement speed in a random direction.
-
- -- **Special**. An oil trap is harder to place  efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
-
- **Portable Ice (bag of 50)**. As an ***action***, you can spread a single bag of these compressed ice pellets to cover a 5-foot-square area. The first creature that enters the area triggers the pellets, making them expand rapidly, forming a 20-feet tall ice pillar that immediately shatters. Any Large or smaller creatures in the area must succeed on a Dexterity saving throw or be lifted by the pillar. Tiny creatures don't trigger the pellets.
-
- -- **Special**. You need access to water to craft these pellets, and they melt after 1 hour if in extreme heat.
-
- **Screeching Sirens (soundproof container)**. As an ***action***, you can place the brittle container on the ground. The first Small or larger creature that enters its 5-foot area causes the container to break, releasing the short-lived bugs inside it. The bugs are drawn to the nearest source of body heat, while emitting a high-pitched sound. Until the start of its next turn, the creature must succeed on a Charisma saving throw in order to cast a spell with verbal components.
-
- --**Special**. You need access to bugs normally found in the wild to collect enough of them to be efficient, so the DM may rule that a city, dungeon or similar restricts how many, if any, you can craft.
-
-
-
- **Snap trap**. When you use your ***action*** to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a Dexterity saving throw or take 1 trick die of piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 trick die of piercing damage to the trapped creature.
-
- -- **Special**. A snap trap is harder to place efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
-
- **Sonic Sphere**. As an ***action***, you can place a small metal sphere on the ground. Highly sensitive to vibrations in the ground, the sphere will activate when the first creature enters its 5-foot area, creating a burst of thunderous sound, which can be heard 100 feet away. The creature must make a Constitution saving throw or take 2 trick dice thunder damage and be deafened until the end of its next turn.
-
- **Sneezing Powder Pellets (bag of 10)**. As an ***action***, you spread a single bag of these hollow, lightweight husks filled with ground seeds to cover a 5-foot square. The first creature that enters the area must succeed on a Constitution saving throw or take 1 trick die of poison damage and spend its action sneezing violently.
-
- **Twitchers (bag of 40)**. As an ***action***, you use a single bag of these tiny metal rods holding trace amounts of lightning energy to cover two 5-foot-square areas. The first creature that enters an area must succeed on a Constitution saving throw or take 1 trick die of lightning damage from the small current running through them. A creature that fails this saving throw has disadvantage on the next attack it makes before the end of its next turn.
-
-
+</div>
 
 
 
