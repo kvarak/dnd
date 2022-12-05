@@ -5,16 +5,13 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### a href="#traits">Traits</a>
+#### <a href="#internal-traits">Traits</a>
 #### Subtypes
-<a href="#woodNymph">Wood nymph</a><br/>
-<a href="#roothulk">Roothulk</a>
+<a href="#internal-woodNymph">Wood nymph</a><br/>
+<a href="#internal-roothulk">Roothulk</a>
 
-#### <a href="#class">Class Options</a>
-#### <a href="#feat">Feats</a>
-
-#### Floran class archetypes
-<a href="#blighted">Barbarian Path of the Blighted</a>
+#### <a href="#internal-class">Class Options</a>
+#### <a href="#internal-feat">Feats</a>
 
 </div>
 
@@ -35,21 +32,12 @@ The following part of the floran's life is the only time that most people will e
 Floran adults live for centuries, never again straying from the spot where they put down roots. Over this time they achieve truly monumental proportions, sometimes sheltering symbiotic communities of elves, gnomes, and other forest dwellers in their branches. Floran adults are still capable of speech and of moving their limbs, but tend to think, speak, and move very slowly and deliberately. To each other, it is said that they communicate by singing the Song of Seasons, a neverending melody inaudible to most humanoids that sets the tempo of the natural world and is filled with the wisdom of the floran ancients.
 Scholars in search of information about the distant past often petition elderly floran for help, but it takes great patience and effort to learn from the ancient treefolk. The stationary floran often ask a service from mobile petitioners in trade for their knowledge.
 
+<img src='https://alwaysbequesting.files.wordpress.com/2012/08/gw2_sylvari.png' style='float:right;width:20%;padding:20px' />
+
 #### You can take the Floran out of the Forest...
 As the old saying goes, you can take the floran out of the forest, but you can't take the forest out of the floran. There are a few things that florans find particularly hard about travelling in the world. Fire unnerves them. It doesn't actually harm a floran any more than it does an elf or human, since they are made of green, living wood that is as hard to set on fire as flesh is. They do have an instinctive aversion to it because of the deadly danger it poses to fully grown floran who can't run away from a forest fire. When setting up camp for the night, it isn't uncommon for a floran traveller to seek a patch of ground far away from the open flame.
 
-![top_image](http://www.algadon.com/images/monsters/dryad_shapeshifter.png) {position:absolute,bottom:260px,right:100px,width:26%}
-
- ::::::::::::::::::
-
 Another ancient enmity built into the floran's genes is their dislike of the myconids, a race of sentient fungi. After all, barring fire and men with axes, there is little that a centuries-old tree hates and fears more than tree rot. Myconids and floran have been in conflict for millennia, with the floran often enlisting aid from the younger races to stamp out myconid nests in their forests, and myconids infiltrating floran groves in order to infect them with exotic spores and other fungal diseases.
-
-
-
-
-
-
-
 
 #### Floran Personalities
 The important thing to remember about floran adventurers is that they are still children, even if they usually act and appear like humanoid adults. As plants, they live by a slower rhythm than most animals. They are patient, rarely given to rash action, and can happily sit in silence for hours. On the other hand, they seldom pass up a chance to experience something new, they throw themselves into unfamiliar situations with a lack of embarrassment that most can only envy, and they tend to be surprisingly good singers.
@@ -71,307 +59,301 @@ Florans have short, concise names, merely used as identifiers more than anything
 
 
 
-## <a name="trait">Floran traits</a>
+## <a class="internal-link" name="internal-trait">Floran traits</a>
+
 Floran live by a slower rhythm and possess patience to humble even the long-lived elves. In their own way, however, every floran is a child, and thus still in the process of becoming the person that they will be for the rest of their epochal lives.
 
- **Age**. Adventuring floran are considered children by their own people, but by the standards of most races they are adults. Floran leave the forest in their early twenties, and travel for around 40 to 60 years as humanoids. Once they root, they can live well in excess of a thousand years while growing to truly immense size.
+<div class="columnsthree">
 
- **Alignment**. Floran might seem slow-paced to other races, but they seek to get as much out of life outside as they can. Because they are technically children, they can be surprisingly impressionable and naive about the workings of the world, especially if they just left their forest. They tend toward neutrality, but their experiences as they travel can change their outlook dramatically.
+- **Age**. Adventuring floran are considered children by their own people, but by the standards of most races they are adults. Floran leave the forest in their early twenties, and travel for around 40 to 60 years as humanoids. Once they root, they can live well in excess of a thousand years while growing to truly immense size.
 
- **Size**. Floran are shorter than humans, and range from 4 and a half to 5 and a half feet tall. Wood nymphs weigh slightly less than a human their height, roothulks slightly more. Your size is medium.
+- **Alignment**. Floran might seem slow-paced to other races, but they seek to get as much out of life outside as they can. Because they are technically children, they can be surprisingly impressionable and naive about the workings of the world, especially if they just left their forest. They tend toward neutrality, but their experiences as they travel can change their outlook dramatically.
 
- **Speed**. Your speed is 30 feet.
+- **Size**. Floran are shorter than humans, and range from 4 and a half to 5 and a half feet tall. Wood nymphs weigh slightly less than a human their height, roothulks slightly more. Your size is medium.
 
- **Languages**. You know Sylvan and Common. Sylvan is the language of the forest denizens, and floran grow up playing with and learning from all manner of pixies, nymphs, and naiads, but they learn Common in order to communicate with the outside world.
+- **Speed**. Your speed is 30 feet.
 
- **Call of the Forest**. You know the *druidcraft* cantrip. Once you reach 3rd level, you can cast the *entangle* spell once per day. Once you reach 5th level, you can also cast the *plant growth* spell once per day. Wisdom is your spellcasting ability for these spells.
+- **Languages**. You know Sylvan and Common. Sylvan is the language of the forest denizens, and floran grow up playing with and learning from all manner of pixies, nymphs, and naiads, but they learn Common in order to communicate with the outside world.
 
- **Photosynthesis**. You do not need to sleep while in sunlight. Instead, you can choose to sunbathe for 4 hours a day. While sunbathing, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep, and you are considered fully nourished for the rest of the day. If you do not get the opportunity to sunbathe, you can still sleep and eat normally. When you do so, you consume the same amount of food and sleep for the same length as a human.
+- **Call of the Forest**. You know the *druidcraft* cantrip. Once you reach 3rd level, you can cast the *entangle* spell once per day. Once you reach 5th level, you can also cast the *plant growth* spell once per day. Wisdom is your spellcasting ability for these spells.
 
- **Bark Skin**. Your skin is made of thick bark and vines. When you aren't wearing armor, your AC is equal to 12 + your Dexterity modifier. You are considered to be wearing light armor with which you are proficient for the purposes of effects and class features, though you may choose not to benefit from this racial feature if an ability (e.g. monk or barbarian AC bonuses) would supersede it.
+- **Photosynthesis**. You do not need to sleep while in sunlight. Instead, you can choose to sunbathe for 4 hours a day. While sunbathing, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep, and you are considered fully nourished for the rest of the day. If you do not get the opportunity to sunbathe, you can still sleep and eat normally. When you do so, you consume the same amount of food and sleep for the same length as a human.
 
+- **Bark Skin**. Your skin is made of thick bark and vines. When you aren't wearing armor, your AC is equal to 12 + your Dexterity modifier. You are considered to be wearing light armor with which you are proficient for the purposes of effects and class features, though you may choose not to benefit from this racial feature if an ability (e.g. monk or barbarian AC bonuses) would supersede it.
 
+- **Aversion to Fire**. If you take fire damage, you have disadvantage on attack rolls and ability checks until the end of your next turn.
 
+- **Subtype**. Floran can be divided into wood nymphs and roothulks. Choose one group to which you belong.
 
-
-
-
-
- **Aversion to Fire**. If you take fire damage, you have disadvantage on attack rolls and ability checks until the end of your next turn.
-
- **Subtype**. Floran can be divided into wood nymphs and roothulks. Choose one group to which you belong.
+</div>
 
 #### Optional Traits
 The following racial traits are optional. Some florans have them and some don't.
 
- **Buoyant**. You are lighter, and float on water and similar liquids. This also means you cannot dive below the surface without aid.
+<div class="columnsthree">
 
- **Coniferous**. You are born of the wilds in the great northlands. As such, you have growths of pine needles and thinner bark. You gain resistance to cold damage, but gain a weakness to fire damage. If you are a Roothulk, this will limit your natural camouflage trait, as a creature knowledgeable with the surrounding flora might see that you stand out.
+- **Buoyant**. You are lighter, and float on water and similar liquids. This also means you cannot dive below the surface without aid.
 
-### <a name="roothulk">Roothulk</a>
+- **Coniferous**. You are born of the wilds in the great northlands. As such, you have growths of pine needles and thinner bark. You gain resistance to cold damage, but gain a weakness to fire damage. If you are a Roothulk, this will limit your natural camouflage trait, as a creature knowledgeable with the surrounding flora might see that you stand out.
+
+</div>
+
+
+### <a class="internal-link" name="internal-roothulk">Roothulk</a>
+
 Those floran that never quite get the hang of appearing human are often called roothulks. Their facial features are rough and unfinished, looking more like wooden festival masks than the finely crafted forms exhibited by their fellow wood nymphs. Roothulks make up for this lack of subtlety by developing powerful physical gifts.
 
- **Grasping Branches**. Many roothulks have large branches growing from them, like antlers, or from their arms, like spikes. When making an opportunity attack, you can use your ***reaction*** to attempt a shove attack instead of a melee attack. Also, you know the *thorn whip* cantrip. Whenever you cast this cantrip and use it to bring a creature adjacent to you, you can use a ***bonus action*** to attempt to grapple the target.
+<div class="columnstwo">
+
+- **Grasping Branches**. Many roothulks have large branches growing from them, like antlers, or from their arms, like spikes. When making an opportunity attack, you can use your ***reaction*** to attempt a shove attack instead of a melee attack. Also, you know the *thorn whip* cantrip. Whenever you cast this cantrip and use it to bring a creature adjacent to you, you can use a ***bonus action*** to attempt to grapple the target.
+
+- **Natural Camouflage**. Roothulks have many obvious plant features, which makes it harder to pass for a human but easier to blend in with the forest. You have advantage on stealth checks when hiding among vegetation.
+
+- <img src='http://vignette2.wikia.nocookie.net/warfortheoverworld/images/b/b4/DryadFinal1.png' style='width:95%;padding:20px' />
+
+</div>
 
 
+### <a class="internal-link" name="internal-woodNymph">Wood nymph</a>
 
- **Natural Camouflage**. Roothulks have many obvious plant features, which makes it harder to pass for a human but easier to blend in with the forest. You have advantage on stealth checks when hiding among vegetation.
-
-### <a name="woodNymph">Wood nymph</a>
 Some floran are naturally gifted at controlling their appearance. They retain plant characteristics, such as leafy hair, wood grain swirls on their "skin", or flesh that is hard and cold to the touch, but the net effect is a masterpiece of humanoid beauty wrought of elegant living wood. Floran wood nymphs find it easier to assimilate into animal society than their shape-challenged brethren, and their skills allow some of them to craft powerful disguises.
 
- **Auto-topiary**. You can control your growth in order to change your physical appearance. Over the course of the long rest you achieve a physical transformation similar to the effects of the *disguise self* spell, except that they are permanent and physically real instead of illusions. This does not affect equipment you are wearing, though you may grow approximations of clothing (like bark covering your body instead of a shirt, or leaves and vines woven together to look like a dress). You can change the color of your "skin" and "hair", completely rearrange your facial features, and so on, but there will always be visual and tactile giveaways of your real nature.
+<div class="columnsthree">
 
- **Life Sense**. Wood nymphs have a mystical connection with living things. When you make a check to detect a living being, you have advantage on the check. This only applies to living biological organisms; beings animated by unnatural, magical, or supernatural forces rather than natural life (e.g. undead, constructs, elementals) are not detectable by your Life Sense.
+- <img src='http://www.algadon.com/images/monsters/dryad_shapeshifter.png' style='width:75%;padding:20px' />
 
-![floran](http://vignette2.wikia.nocookie.net/warfortheoverworld/images/b/b4/DryadFinal1.png) {position:absolute,bottom:-10px,left:-40px,width:65%}
+- **Auto-topiary**. You can control your growth in order to change your physical appearance. Over the course of the long rest you achieve a physical transformation similar to the effects of the *disguise self* spell, except that they are permanent and physically real instead of illusions. This does not affect equipment you are wearing, though you may grow approximations of clothing (like bark covering your body instead of a shirt, or leaves and vines woven together to look like a dress). You can change the color of your "skin" and "hair", completely rearrange your facial features, and so on, but there will always be visual and tactile giveaways of your real nature.
 
-![skull_divider](https://alwaysbequesting.files.wordpress.com/2012/08/gw2_sylvari.png) {position:absolute,bottom:-10px,right:120px,width:20%}
+- **Life Sense**. Wood nymphs have a mystical connection with living things. When you make a check to detect a living being, you have advantage on the check. This only applies to living biological organisms; beings animated by unnatural, magical, or supernatural forces rather than natural life (e.g. undead, constructs, elementals) are not detectable by your Life Sense.
 
-
-
-
+</div>
 
 
 
+## <a class="internal-link" name="internal-class">Floran class options</a>
 
-
-## <a name="class">Floran class options</a>
 An floran approaches some classes is a bit different than other races. When you select one of the classes in this list, it is modified as follows:
 
-### Alchemist
-A floran would not follow the Mad bomber field of study, or use the bomb concoction because of their aversion to fire.
+<div class="columnstwo">
 
-### Barbarian
-As a Floran, you have access to an exclusive Primal Path, the <a href="#blighted">Path of the Blighted</a>, described at the end of the racial description.
+- ### Alchemist
+  A floran would not follow the Mad bomber field of study, or use the bomb concoction because of their aversion to fire.
 
-A Roothulk barbarian can use the *thorn whip* cantrip even while raging, and can do so as a ***bonus action***.
+    <hr class="dividerinfolk">
 
-### Bard
-You can add the following spells to your bard spell list:
+- ### Barbarian
+    As a Floran, you have access to an exclusive Primal Path, the <a href="../Classes/barbarian.html#internal-blighted">Path of the Blighted</a>.
 
+    A Roothulk barbarian can use the *thorn whip* cantrip even while raging, and can do so as a ***bonus action***.
 
-| Spell Level | Spells |
-|:--:|:--|
-| Cantrips | *mold plant, thorn whip* |
-| 1st | *bridge of branches, entangle* |
-| 3rd | *plant growth* |
-| 4th | *tree strike* |
-| 6th | *wall of thorns* |
+    <hr class="dividerinfolk">
+
+- ### Bard
+    You can add the following spells to your bard spell list:
 
 
-**Wood nymphs** have an alluring way that makes them well suited to be bards. Whenever the Bard class description mentions your Charisma modifier, you may instead use your proficiency bonus.
-
-### Cavalier
-Floran generally do not use mounts.
-
-### Cleric
-Floran are not very religious, but do revere the pantheon listed as the Celtic pantheon in the Cleric description. When following one of those gods with the appropriate domain, then whenever the class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
-
-As a floran cleric, you can gain the ***Rune-carver*** feat at level 1.
-
-### Cursed
-Floran cannot become lycanthropes or have the alchemical curse.
-
-You may choose Wisdom or Charisma as spellcasting ability instead of Intelligence.
-
-You also gain the ***Rune-carver*** feat at level 1.
+    | Spell Level | Spells |
+    |:--:|:--|
+    | Cantrips | *mold plant, thorn whip* |
+    | 1st | *bridge of branches, entangle* |
+    | 3rd | *plant growth* |
+    | 4th | *tree strike* |
+    | 6th | *wall of thorns* |
 
 
+    **Wood nymphs** have an alluring way that makes them well suited to be bards. Whenever the Bard class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
-### Druid
-Floran are very connected to nature. Whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
-*
-In addition you are your own druidic focus, as well as a druidic focus to any adjacent druids. When using Wild Shape, you may also take the shape of plants and plant creatures.
+    <hr class="dividerinfolk">
 
-### Feyblood
-Fey and floran share the same forests, so it happens that florans are affected by fey magic, becoming feybloods.
+- ### Cavalier
+    Floran generally do not use mounts.
 
-### Fighter
-Floran fighters may can add the following fighting style to their selection of fighting styles.
+    <hr class="dividerinfolk">
 
-{{}}">feat
-## Gift of Darkwood
-Lots of fighting and wounds have toughened your bark. While wearing no armor, bludgeoning, piercing, and slashing damage that you take from nonmagical sources is reduced by 3 and your AC is 14 + Dex modifier. However, your rigid bark also slows you down, causing you to have disadvantage on Dexterity saves.
+- ### Cleric
+    Floran are not very religious, but do revere the pantheon listed as the Celtic pantheon in the Cleric description. When following one of those gods with the appropriate domain, then whenever the class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
+    As a floran cleric, you can gain the ***Rune-carver*** feat at level 1.
 
-### Inquisitor
-The religious practices of floran mostly ignore things outside their own communities, so the inquisitor role does not  exist.
+    <hr class="dividerinfolk">
 
-<!--
-### Monk
-Your knuckles and other parts used for fighting are coated in amber. This grants resistance to damage that is caused when you hit someone, such as striking a creature with spines. However, this is a recognizable feature and you have disadvantage on any checks to attempt to hide your race or impersonating another creature.
+- ### Cursed
+    Floran cannot become lycanthropes or have the alchemical curse.
 
-### Monster Hunter
-Floran, especially Roothulks, are often seen as monsters themselves, which often gives them more to prove, and a stronger conviction to their cause.
+    You may choose Wisdom or Charisma as spellcasting ability instead of Intelligence.
 
-Whenever the Monster hunter class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    You also gain the ***Rune-carver*** feat at level 1.
 
-In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
--->
+    <hr class="dividerinfolk">
 
-### Paladin
-Paladins are very rare but they do exist among the floran, and are then embodiments of the heroic ideals for their race. This often confuses people when they first meet a floran paladin, as they expect a paladin to follow the human ideals.
+- ### Druid
+    Floran are very connected to nature. Whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-Whenever the Paladin class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    In addition you are your own druidic focus, as well as a druidic focus to any adjacent druids. When using Wild Shape, you may also take the shape of plants and plant creatures.
 
-In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
+    <hr class="dividerinfolk">
 
-### Professional
-Floran do not have societies like most other humanoids, where practising crafts and pursuing knowledge is important. The florans do not need all those things that others require for their lives, and what they need, the forests provide.
+- ### Feyblood
+    Fey and floran share the same forests, so it happens that florans are affected by fey magic, becoming feybloods.
 
-Obviously the forester is off limits.
+    <hr class="dividerinfolk">
 
+- ### Fighter
+    Floran fighters may can add the following fighting style to their selection of fighting styles.
 
+    <div class="feat">
 
+    ## Gift of Darkwood
+    Lots of fighting and wounds have toughened your bark. While wearing no armor, bludgeoning, piercing, and slashing damage that you take from nonmagical sources is reduced by 3 and your AC is 14 + Dex modifier. However, your rigid bark also slows you down, causing you to have disadvantage on Dexterity saves.
 
+    </div>
 
+    <hr class="dividerinfolk">
 
+- ### Inquisitor
+    The religious practices of floran mostly ignore things outside their own communities, so the inquisitor role does not  exist.
 
+    <hr class="dividerinfolk">
 
-### Ranger
-Florans are very attuned to nature and are well suited for a ranger's life.
+- ### Paladin
+    Paladins are very rare but they do exist among the floran, and are then embodiments of the heroic ideals for their race. This often confuses people when they first meet a floran paladin, as they expect a paladin to follow the human ideals.
 
-Whenever the Ranger class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
+    Whenever the Paladin class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
-In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
+    In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
 
-### Rogue
-Catching a floran rogue in a forest is next to impossible.
+    <hr class="dividerinfolk">
 
-You have advantage on all stealth, perception, investigate and survival checks when in "your" type of forest.
+- ### Professional
+    Floran do not have societies like most other humanoids, where practising crafts and pursuing knowledge is important. The florans do not need all those things that others require for their lives, and what they need, the forests provide.
 
-### Sorcerer
-As a floran Sorcerer, you can gain the ***Rune-carver*** feat at level 1.
+    Obviously the forester is off limits.
 
-### Swashbuckler
-No change.
+    <hr class="dividerinfolk">
 
-### Warlock
-As a floran Warlock, you can gain the ***Rune-carver*** feat at level 1.
+- ### Ranger
+    Florans are very attuned to nature and are well suited for a ranger's life.
 
-### Wizard
-As a floran Wizard, you can gain the ***Rune-carver*** feat at level 1.
+    Whenever the Ranger class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
 
+    In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
 
+    <hr class="dividerinfolk">
 
-## <a name="feats">Floran racial feats</a>
+- ### Rogue
+    Catching a floran rogue in a forest is next to impossible.
+
+    You have advantage on all stealth, perception, investigate and survival checks when in "your" type of forest.
+
+    <hr class="dividerinfolk">
+
+- ### Sorcerer
+    As a floran Sorcerer, you can gain the ***Rune-carver*** feat at level 1.
+
+    <hr class="dividerinfolk">
+
+- ### Swashbuckler
+    No change.
+
+    <hr class="dividerinfolk">
+
+- ### Warlock
+    As a floran Warlock, you can gain the ***Rune-carver*** feat at level 1.
+
+    <hr class="dividerinfolk">
+
+- ### Wizard
+    As a floran Wizard, you can gain the ***Rune-carver*** feat at level 1.
+
+    <hr class="dividerinfolk">
+
+</div>
+
+## <a class="internal-link" name="internal-feats">Floran racial feats</a>
+
 The following feats are exclusive to floran characters.
 
-{{}}">feat
-## Arboreal Allure
-*Prerequisite: Wood nymph*
+<div class="columnstwo">
 
-Wood nymphs have a knack for appealing to humanoid conceptions of beauty, a talent that has been described as unearthly and enchanting. Some floran take this natural appeal to the next level, tapping into their mystical connection with all life to magically alter how others view them.
+-   <div class="feat">
 
-- You learn the *friends* cantrip.
-- Choose one spell from among the following: *alter self, calm emotions, enthrall* and *suggestion*. You learn that spell, and can cast it at its lowest level. Once you cast it, you must complete a long rest before you can cast it again. If you choose this feat before you reach 3rd level, you must wait until you reach 3rd level to gain this benefit.
-- You use your otherworldly charm to mitigate the biggest risk of charm magic: being found out. As an ***action***, you may force a creature charmed by you to make a Charisma save. If it fails, the target does not realize that it had been charmed once the condition wears off, overriding the normal side-effect of spells such as *friends* or *charm person*. Once you use this ability, you may not use it against the same target again until you take a long rest.
+    ## Arboreal Allure
+    *Prerequisite: Wood nymph*
 
- The spell DC for these abilities is 8 + your proficiency bonus + your Charisma modifier.
+    Wood nymphs have a knack for appealing to humanoid conceptions of beauty, a talent that has been described as unearthly and enchanting. Some floran take this natural appeal to the next level, tapping into their mystical connection with all life to magically alter how others view them.
 
+    You learn the *friends* cantrip.
 
-{{}}">feat
-## Big, Bad, and Barky
-*Prerequisite: Roothulk*
+    Choose one spell from among the following: *alter self, calm emotions, enthrall* and *suggestion*. You learn that spell, and can cast it at its lowest level. Once you cast it, you must complete a long rest before you can cast it again. If you choose this feat before you reach 3rd level, you must wait until you reach 3rd level to gain this benefit.
 
-Your natural armor is hardened beyond what even a normal floran achieves, boosting your physical abilities and making you resilient to harm in a way that fleshy races can only emulate by wrapping themselves in dead earth.
+    You use your otherworldly charm to mitigate the biggest risk of charm magic: being found out. As an ***action***, you may force a creature charmed by you to make a Charisma save. If it fails, the target does not realize that it had been charmed once the condition wears off, overriding the normal side-effect of spells such as *friends* or *charm person*. Once you use this ability, you may not use it against the same target again until you take a long rest.
 
-- Increase your **Strength** or **Constitution** score by 1.
-- You gain advantage on any Strength or Constitution saves to avoid being stunned.
-- While your hp is at its maximum value, you have resistance to all damage types except for fire. If your hp is below your maximum, you do not receive this benefit, but if you lost hp and then are restored to full, the resistances apply once more.
+    The spell DC for these abilities is 8 + your proficiency bonus + your Charisma modifier.
+    </div>
 
+-   <div class="feat">
 
+    ## Big, Bad, and Barky
+    *Prerequisite: Roothulk*
 
+    Your natural armor is hardened beyond what even a normal floran achieves, boosting your physical abilities and making you resilient to harm in a way that fleshy races can only emulate by wrapping themselves in dead earth.
 
+    Increase your **Strength** or **Constitution** score by 1.
 
+    You gain advantage on any Strength or Constitution saves to avoid being stunned.
 
+    While your hp is at its maximum value, you have resistance to all damage types except for fire. If your hp is below your maximum, you do not receive this benefit, but if you lost hp and then are restored to full, the resistances apply once more.
 
-
-
-{{}}">feat
-## Oozing Sap
-Your wounds ooze sap and close quickly.
-
-- Increase your **Constitution** score by 1.
-- Any effect that causes bleeding will stop by itself after 1 round.
-- If you are below half hp and not wearing armor, your AC increases by 2, due the tar-like sap oozing from your wounds.
+    </div>
 
 
-{{}}">feat
-## Photosynthetic Efficiency
-You heal faster when in direct sunlight.
+-   <div class="feat">
 
-- Increase your **Constitution** score by 1.
-- If you take a short rest in sunlight or water, you can re-roll any hit dice you spend and take the higher value. You may also regrow lost limbs and other extremities in this fashion, although this takes a few days.
-- You need to breathe, but unlike most creatures, you inhale carbon dioxide and exhale oxygen, enough to supply one Medium-sized humanoid with breathable air in an enclosed environment.
+    ## Oozing Sap
 
+    Your wounds ooze sap and close quickly.
 
+    Increase your **Constitution** score by 1.
 
+    Any effect that causes bleeding will stop by itself after 1 round.
 
-{{}}">feat
-## Rune-carved
-You have carved arcane runes and symbols into your bark. These can be used as an arcane/divine focus when casting spells. As such they must be visible and not hidden behind cloak, armor or clothes.
+    If you are below half hp and not wearing armor, your AC increases by 2, due the tar-like sap oozing from your wounds.
 
-- Increase your spellcasting ability score by 1.
-- In addition, you can add the following spells to your spell list:
+    </div>
 
+-   <div class="feat">
 
-| Spell Level | Spells |
-|:--:|:--|
-| Cantrip | *mold plant, thorn whip* |
-| 1st | *bridge of branches, entangle* |
-| 3rd | *plant growth* |
-| 4th | *tree strike* |
-| 6th | *wall of thorns* |
+    ## Photosynthetic Efficiency
+    You heal faster when in direct sunlight.
 
+    Increase your **Constitution** score by 1.
 
+    If you take a short rest in sunlight or water, you can re-roll any hit dice you spend and take the higher value. You may also regrow lost limbs and other extremities in this fashion, although this takes a few days.
 
+    You need to breathe, but unlike most creatures, you inhale carbon dioxide and exhale oxygen, enough to supply one Medium-sized humanoid with breathable air in an enclosed environment.
 
+    </div>
 
+-   <div class="feat">
 
+    ## Rune-carved
+    You have carved arcane runes and symbols into your bark. These can be used as an arcane/divine focus when casting spells. As such they must be visible and not hidden behind cloak, armor or clothes.
 
+    Increase your spellcasting ability score by 1.
 
-
-
-# <a name="blighted">Path of the Blighted</a>
-The Path of the Blighted is a path of unholy origin, allowing you to channel your rage to shift your physical form, becoming a monstrous abomination of vines and branches. While transformed, you engulf and constrict your enemies as you tear them apart.
-
-#### Restriction
-Only Floran follow this path, as it uses their connection to nature.
+    In addition, you can add the following spells to your spell list:
 
 
-#### Path Features
-| Barbarian Level | Feature |
-| :-: | :--- |
-| 1st | Stance of the Forest |
-| 3rd |Blighted Transformation |
-| 6th | Mindless Rage |
-| 10th | Blighted Vines |
-| 14th | Reactive Tendrils |
+    | Spell Level | Spells |
+    |:--:|:--|
+    | Cantrip | *mold plant, thorn whip* |
+    | 1st | *bridge of branches, entangle* |
+    | 3rd | *plant growth* |
+    | 4th | *tree strike* |
+    | 6th | *wall of thorns* |
 
+    </div>
 
-### Stance of the Forest
-You harness your fury to anchor your feet to the ground, shrugging off the blows of those who wish to topple you. Upon choosing this path, you cannot be knocked prone while raging.
-
-### Blighted Transformation
-You become a blighted monster when you rage. For the duration of your rage, whenever you grapple a creature you can choose to constrict them with vines, causing them to be restrained for the duration of the grapple.
-
-
-
-Whenever you take damage while restraining a creature in this manner, you must succeed on a Constitution saving throw to maintain the restrained condition. The DC equals 10 or the damage you take, whichever number is higher. On a failed save, the restrained condition ends until the end of the creature's next turn, though they still remain grappled.
-
-### Mindless Rage
-You can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.
-
-### Blighted Vines
-Whenever you rage you can cast the *thorn whip* cantrip as a ***bonus action*** on your turn. Constitution is your spellcasting ability  Additionally, you no longer have to make Constitution saving throws to avoid ending the restrained condition from your Blighted Transformation feature. The restrained condition now lasts for the duration of the grapple.
-
-### Reactive Tendrils
-Starting at 14th level, whenever you take damage from an adjacent creature, you can use your ***reaction*** to release grasping vines at the attacker, attempting to grapple the target.
-
-
-
-
+</div>
 
 

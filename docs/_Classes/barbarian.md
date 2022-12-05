@@ -32,6 +32,8 @@ layout: default
 <a href="#internal-battleRager">Path of the Battlerager</a><br/>
 <a href="#internal-quakeBringer">Path of the Quake Bringer</a>
 
+**Floran**<br/>
+<a href="#internal-blighted">Path of the Blighted</a>
 
 </div>
 
@@ -57,34 +59,6 @@ As a barbarian, you gain the following class features.
 #### Saving Throws
 You are proficient with ***Strength*** and ***Constitution*** saving throws.
 
-<div class="block classTable halfClassTable frame" markdown="1">
-
-##### The Barbarian
-
-| -Level- | -PB- | -Features- | -Fury- | -Rage Damage- |
-|:---:|:---:|:---|:---:|:---:|
-| 1st | +2 | Primal Path, Rage,<br>Unarmored Defense | 20 | +2 |
-| 2nd | +2 | Combat Style, Survivor | 20 | +2 |
-| 3rd | +2 | Path feature | 30 | +2 |
-| 4th | +2 | Mobile | 30 | +2 |
-| 5th | +3 | Extra Attack | 30 | +2 |
-| 6th | +3 | Path feature | 40 | +2 |
-| 7th | +3 | Feral Instinct | 40 | +2 |
-| 8th | +3 | - | 40 | +2 |
-| 9th | +4 | Brutal Critical (1 die) | 40 | +3 |
-| 10th | +4 | Path feature | 40 | +3 |
-| 11th | +4 | Relentless Rage | 40 | +3 |
-| 12th | +4 | - | 50 | +3 |
-| 13th | +5 | Brutal Critical (2 dice) | 50 | +3 |
-| 14th | +5 | Path feature | 50 | +3 |
-| 15th | +5 | Rage power | 50 | +3 |
-| 16th | +5 | - | 50 | +4 |
-| 17th | +6 | Brutal Critical (3 dice) | 60 | +4 |
-| 18th | +6 | Rage power | 60 | +4 |
-| 19th | +6 | - | 60 | +4 |
-| 20th | +6 | Primal Champion | Unlimited | +4 |
-
-</div>
 
 #### Skills
 **Class Skills:** Animal handling, Herbalism, Nature, Perception, Physique, Survival and Swimming
@@ -124,6 +98,34 @@ Your speed increases by 5 feet while you aren’t wearing heavy armor.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every level.
 
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Barbarian
+
+| -Level- | -PB- | -Features- | -Fury- | -Rage Damage- |
+|:---:|:---:|:---|:---:|:---:|
+| 1st | +2 | Primal Path, Rage,<br>Unarmored Defense | 20 | +2 |
+| 2nd | +2 | Combat Style, Survivor | 20 | +2 |
+| 3rd | +2 | Path feature | 30 | +2 |
+| 4th | +2 | Mobile | 30 | +2 |
+| 5th | +3 | Extra Attack | 30 | +2 |
+| 6th | +3 | Path feature | 40 | +2 |
+| 7th | +3 | Feral Instinct | 40 | +2 |
+| 8th | +3 | - | 40 | +2 |
+| 9th | +4 | Brutal Critical (1 die) | 40 | +3 |
+| 10th | +4 | Path feature | 40 | +3 |
+| 11th | +4 | Relentless Rage | 40 | +3 |
+| 12th | +4 | - | 50 | +3 |
+| 13th | +5 | Brutal Critical (2 dice) | 50 | +3 |
+| 14th | +5 | Path feature | 50 | +3 |
+| 15th | +5 | Rage power | 50 | +3 |
+| 16th | +5 | - | 50 | +4 |
+| 17th | +6 | Brutal Critical (3 dice) | 60 | +4 |
+| 18th | +6 | Rage power | 60 | +4 |
+| 19th | +6 | - | 60 | +4 |
+| 20th | +6 | Primal Champion | Unlimited | +4 |
+
+</div>
 
 
 #### Equipment
@@ -1582,4 +1584,42 @@ If the ground in the area is loose earth or stone, it becomes difficult terrain 
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-blighted">Restricted to Floran characters</a></h2>
+<h1>Path of the Blighted</h1>
+<div class="featuresTable">
+
+#### Path Features
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Stance of the Forest |
+| 3rd |Blighted Transformation |
+| 6th | Mindless Rage |
+| 10th | Blighted Vines |
+| 14th | Reactive Tendrils |
+
+</div>
+
+The Path of the Blighted is a path of unholy origin, allowing you to channel your rage to shift your physical form, becoming a monstrous abomination of vines and branches. While transformed, you engulf and constrict your enemies as you tear them apart.
+
+#### Restriction
+Only Floran follow this path, as it uses their connection to nature.
+
+### Stance of the Forest
+You harness your fury to anchor your feet to the ground, shrugging off the blows of those who wish to topple you. Upon choosing this path, you cannot be knocked prone while raging.
+
+### Blighted Transformation
+You become a blighted monster when you rage. For the duration of your rage, whenever you grapple a creature you can choose to constrict them with vines, causing them to be restrained for the duration of the grapple.
+
+Whenever you take damage while restraining a creature in this manner, you must succeed on a Constitution saving throw to maintain the restrained condition. The DC equals 10 or the damage you take, whichever number is higher. On a failed save, the restrained condition ends until the end of the creature's next turn, though they still remain grappled.
+
+### Mindless Rage
+You can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.
+
+### Blighted Vines
+Whenever you rage you can cast the *thorn whip* cantrip as a ***bonus action*** on your turn. Constitution is your spellcasting ability  Additionally, you no longer have to make Constitution saving throws to avoid ending the restrained condition from your Blighted Transformation feature. The restrained condition now lasts for the duration of the grapple.
+
+### Reactive Tendrils
+Starting at 14th level, whenever you take damage from an adjacent creature, you can use your ***reaction*** to release grasping vines at the attacker, attempting to grapple the target.
 
