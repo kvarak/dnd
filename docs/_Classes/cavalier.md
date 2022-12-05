@@ -108,7 +108,16 @@ You are proficient with ***Constitution*** and ***Charisma*** saving throws.
 
 
 ## Lance
+Special: You have disadvantage when you use a lance to Attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.
 
+Lance
+melee weapon (martial, lance)
+Category: Items
+Damage: 1d12
+Damage Type: Piercing
+Item Rarity: Standard
+Properties: Reach
+Weight: 6
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
