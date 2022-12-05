@@ -27,6 +27,8 @@ Dragonborn look very much like dragons standing erect in humanoid form, though t
 
 Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6 1/2 feet tall and weighing 300 pounds or more. Their hands and feet are strong, talonlike claws with three fingers and a thumb on each hand.
 
+<img src='../assets/images/dragonborn.png' style='float:left;width:35%;padding:20px' />
+
 The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor—bright red, green, blue, or white, lustrous black, or gleaming metallic gold, silver, brass, copper, or bronze.
 
 #### Self-Sufficient Clans
@@ -307,6 +309,8 @@ Dragonfolk approach some classes is a bit differently than other folk. When you 
 
     <hr class="dividerinfolk">
 
+- <img src='http://img2.wikia.nocookie.net/__cb20121110004442/powerlisting/images/thumb/8/80/Dragonborn.jpg/500px-Dragonborn.jpg' style='width:75%;padding:20px' />
+
 </div>
 
 
@@ -584,15 +588,6 @@ Kobolds approach some classes is a bit differently than other folk. When you sel
     The religious practices of kobolds mostly ignore things outside their own communities, so the inquisitor role does not really exist.
 
     <hr class="dividerinfolk">
-
-    <!--
-    ### Monster Hunter
-    Kobolds are often seen as monsters themselves, which often gives them more to prove, and a stronger conviction to their cause.
-
-    Whenever the Monster hunter class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
-
-    In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
-    -->
 
 - ### Paladin
     Paladins are very rare but they do exist among the kobold, and are then embodiments of the heroic ideals for their race. This often confuses people when they first meet a kobold paladin, as they expect a paladin to follow the human ideals.
