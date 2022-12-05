@@ -94,12 +94,14 @@ Your dhampir character has certain traits deriving from your vampiric ancestry.
 
 - **Low-light Vision**. Born into a twilight world, you are not inconvenienced by the night. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
 
-- ***Optional***
+-  <div class="feat">
+
+  ## Optional
   Instead of Low-light Vision, you may select to have both the Darkvision and Sunlight Sensitivity traits.
 
-  ***Darkvision***.  For 30 ft around you, you can see in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.
+  **Darkvision**.  For 30 ft around you, you can see in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.
 
-  ***Sunlight Sensitivity***. You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
+  **Sunlight Sensitivity**. You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
 
 </div>
 
