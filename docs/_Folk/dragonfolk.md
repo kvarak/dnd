@@ -25,9 +25,9 @@ Born of dragons, as their name proclaims, the dragonborn walk proudly through a 
 #### Proud Dragon Kin
 Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. The first dragonborn had scales of vibrant hues matching the colors of their dragon kin, but generations of interbreeding have created a more uniform appearance.
 
-Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6 1/2 feet tall and weighing 300 pounds or more. Their hands and feet are strong, talonlike claws with three fingers and a thumb on each hand.
-
 <img src='../assets/images/dragonborn.png' style='float:left;width:35%;padding:20px' />
+
+Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6 1/2 feet tall and weighing 300 pounds or more. Their hands and feet are strong, talonlike claws with three fingers and a thumb on each hand.
 
 The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor—bright red, green, blue, or white, lustrous black, or gleaming metallic gold, silver, brass, copper, or bronze.
 
@@ -309,7 +309,7 @@ Dragonfolk approach some classes is a bit differently than other folk. When you 
 
     <hr class="dividerinfolk">
 
-- <img src='http://img2.wikia.nocookie.net/__cb20121110004442/powerlisting/images/thumb/8/80/Dragonborn.jpg/500px-Dragonborn.jpg' style='width:75%;padding:20px' />
+- <img src='../assets/images/dragonborn2.png' style='width:75%;padding:20px' />
 
 </div>
 
@@ -440,6 +440,8 @@ Kobolds are often dismissed as cowardly, foolish, and weak, but these little rep
 Unlike the true dragons they worship, kobolds don't have set colors that reflect certain personality traits. Whole tribes usually are the same one or two colors, and the color of a kobold has no bearing on its abilities or skill set. Kobolds display many of the traits that true dragons display, and are often either proud, or vain (or both).
 
 A kobold can be fooled with smooth words or a quick wit, but when the kobold figures out it has been tricked, it remembers the affront. And when possible will retaliate against that person somehow, even if merely in a petty way. Though they are far less grudgeful against draconic races, feeling that they act so because they must prove their worth.
+
+<img src='../assets/images/kobold.png' style='float:left;width:35%;padding:20px' />
 
 #### A small package of greatness
 Due to their small size, many kobold often feel that there's safety in numbers. As such they rarely strike out on their own, unless it's a mission of great importance or they are serving or proving themselves to a dragon.
@@ -624,6 +626,8 @@ Kobolds approach some classes is a bit differently than other folk. When you sel
     In addition you may use your Dexterity modifier +3 or your proficiency bonus when calculating AC and when attacking (to hit and damage).
 
     <hr class="dividerinfolk">
+
+    <img src='../assets/images/kobold2.png' style='width:85%;padding:20px' />
 
 - ### Sorcerer
     Sorcerers are just as rare and varied as within other folk.
