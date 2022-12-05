@@ -89,12 +89,26 @@ As an cavalier, you gain the following class features
 #### Hit Points
 **Hit Dice:** 1d10
 
-#### Proficiencies
-**Armor:** All armor, shields
+#### Saving Throws
+You are proficient with ***Constitution*** and ***Charisma*** saving throws.
 
-**Weapons:** Simple weapons, martial weapons
+#### Skills
+**Class Skills:** Animal handling *(only specific mount, such as camel, dog or horse)*, Courtier, History, Law, Leadership and Physique
 
-**Saving Throws:** Constitution, Charisma
+**Skill Points:** You gain 2 skill points at 1st level.
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 2 with Axe, Club, Flail, Spear, Sword and Bow. Additionally you have rank 1 with Knife, Polearm, Crossbow and Sling.
+
+**Combat Skills:** You gain the *Light armor* and *Medium armor* skills, and 1 additional skill point to spend on combat skills.
+
+**Recommended:** Heavy armor
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every level.
+
+
+## Lance
+
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
