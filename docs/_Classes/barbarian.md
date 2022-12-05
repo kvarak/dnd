@@ -25,6 +25,9 @@ layout: default
 **Beastfolk (needs a tail)**<br/>
 <a href="#internal-tailfighter">Path of the Tailfighter</a><br/>
 
+**Can change shape naturally**<br/>
+<a href="#internal-skinchanger">Path of the Skinchanger</a><br/>
+
 **Dwarf**<br/>
 <a href="#internal-battleRager">Path of the Battlerager</a><br/>
 <a href="#internal-quakeBringer">Path of the Quake Bringer</a>
@@ -1393,6 +1396,80 @@ It takes a minute to properly strap a tail weapon for use, but nothing prevents 
 |:-----|:-----:|:------:|:-----------|
 | Tailblade | 10 gp | 1 lbs | Increases damage by +1. Tail attack deals slashing damage instead.
 | Tail Mace | 10 gp | 8 lbs | Increases damage to the next die size.
+
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-skinchanger">Restricted to characters who can change shape naturally</a></h2>
+<h1>Path of the Skinchanger</h1>
+<div class="featuresTable">
+
+#### Path features
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Wild Rage |
+| 3rd | Skinchanger |
+| 6th | Ten Thousand Masks |
+| 10th | Primal Rage |
+| 14th | Ten Million Masks |
+
+</div>
+
+You belong to a tradition of barbarians who uses their shapechanging heritage to partially adopt the shape of beasts while raging, looking for all the world like a lycanthrope though they do not suffer such a curse. As these barbarians grow in power their ability to change their forms improves.
+
+##### Restriction
+This path is only accessible to creatures who can change shape naturally, such as shifters, changelings and lycanthropes.
+
+### Wild Rage
+When you enter a rage you add the benefit of an animal to the benefits of your rage. A shifter, lycanthrope or other creature with only one animal form, can only use the benefits of the animal which their heritage is based on. While raging, they are also shifted, but without spending a use. A changeling or creature who can assume multiple forms, can choose any of the listed animal forms. After using a form, you cannot choose another until after you finish a long rest.
+
+<div class="columnsthree">
+
+- **Bat.** As a ***bonus action*** you can shriek or catch the wind. If you shriek, you have blindsight up to 60 feet away until the end of your next turn. If you catch the wind, you fly 20 feet and take no damage from falling until the end of your next turn.
+
+- **Boar.** When you move 15 feet or more directly towards a creature on your turn, you can spend your ***bonus action*** to gore them with your tusks. You have proficiency with this attack and add your Strength modifier to hit and damage. The gore attack deals 1d4 slashing damage and the target must succeed at a Strength saving throw or fall prone. The DC of this saving throw is 8 + the damage you dealt with this attack.
+
+- **Rat.** You gain resistance to poison damage and advantage on saving throws against disease, poison and restrained effects. In addition, you can carry and use a light weapon with your tail.
+
+- **Shark.** Gain a swim speed of 30 feet and you can breathe underwater. As a ***bonus action*** you can bite a creature that has less than their maximum hit points. You have proficiency with the bite attack and add your strength modifier to hit and damage. The base damage of the bite attack is 1d4 piercing damage.
+
+- **Wolf.** As a ***reaction*** you can hound a creature when it moves out of your reach. When you hound a creature you move half your movement speed and must move as close to the creature triggering the reaction as possible. Then you hcan make a melee attack as a part of the same reaction.
+
+</div>
+
+### Skinchanger
+You gain the ability to turn into an animal exactly as described in the druid's Wild Shape feature, but can only use the feature once before needing a long rest to use again. This Wild Shape feature improves at 4th and 8th level, just as it does for druid.
+
+### Ten Thousand Masks
+Starting at 6th level, your ability to change your own form improves and you can cast the *enhance ability* spell (targeting yourself only). After casting the spell with this feature you must complete a long rest to use this ability again.
+
+In addition, as part of the ***bonus action*** you use to enter a rage, you can cast *alter self* or *enlarge* (targeting yourself only). Unlike the spell you do not need to concentrate to continue the effect but the effect ends when your rage does.
+
+### Primal Rage
+Your wild rage has even greater rewards. Add an additional benefit to the normal benefits of your rage.
+
+<div class="columnsthree">
+
+- **Bat.** You have a fly movement speed of 30 feet.
+
+- **Boar.** Once per turn when a creature makes an opportunity attack against you, you can make a gore attack against it after its opportunity attack is resolved.
+
+- **Rat.** You are immune to poison and disease. As a ***bonus action*** you can spread dirt and filth across your weapon. The next time you damage a creature with that weapon they must make a Constitution saving throw (DC 14) or be poisoned until the end of their next turn.
+
+- **Shark.** When you deal damage to a creature with less than half its hit points remaining you deal an additional 1d4 damage.
+
+- **Wolf.** When you hound a creature you can move your full movement speed instead of half your movement speed.
+
+</div>
+
+### Ten Million Masks
+You can cast the *enhance ability* spell (targeting yourself only) at will. In addition, you can now use the Wild Shape granted by your Skinchanger feature twice before needing a long rest.
+
+
+
+
+
 
 
 
