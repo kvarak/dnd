@@ -35,6 +35,9 @@ layout: default
 **Floran**<br/>
 <a href="#internal-blighted">Path of the Blighted</a>
 
+**Earth Genasi**<br/>
+<a href="#internal-quakeBringer">Path of the Quake Bringer</a>
+
 </div>
 
 # Barbarian
@@ -1533,7 +1536,7 @@ When an adjacent creature hits you with a melee attack, the attacker takes 3 pie
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-quakeBringer">Restricted to Dwarf characters</a></h2>
+<h2><a class="internal-link" name="internal-quakeBringer">Restricted to Dwarf & Earth Genasi characters</a></h2>
 <h1>Path of the Quake Bringer</h1>
 <div class="featuresTable">
 
