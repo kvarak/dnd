@@ -137,6 +137,9 @@ Kin to nosferatu vampires, you have the long life of other dhampir but seemingly
 
 - **Spider Climb**. You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings as long as your hands are free.
 
+- <img src="https://1.bp.blogspot.com/-T5CrOtjjzGM/VUPn2A7yMHI/AAAAAAAAGm4/Lk9Bs0hQkFs/s1600/nosferatu.jpg" style='width:65%;padding:20px' />
+
+
 </div>
 
 ### <a name="internal-obiri">Obiri</a>
