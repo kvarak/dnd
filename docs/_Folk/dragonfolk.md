@@ -80,31 +80,33 @@ Your draconic heritage manifests in a variety of traits you share with other dra
 
 Choose one type of dragon from the Draconic Ancestry table (or roll randomly). Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.
 
+<div class="columnstwo">
 
-#### Draconic Ancestry
-| 1d10 | Dragon | Damage Type | Breath Weapon |
-|:--:|:-------|:------------|:--------------|
-| 1 | Black | Acid | 5 by 30 ft. line (Dex. save)
-| 2 | Blue | Lightning | 5 by 30 ft. line (Dex. save)
-| 3 | Brass | Fire | 5 by 30 ft. line (Dex. save)
-| 4 | Bronze | Lightning | 5 by 30 ft. line (Dex. save)
-| 5 | Copper | Acid | 5 by 30 ft. line (Dex. save)
-| 6 | Gold | Fire | 15 ft. cone (Dex. save)
-| 7 | Green | Poison | 15 ft. cone (Con. save)
-| 8 | Red | Fire | 15 ft. cone (Dex. save)
-| 9 | Silver | Cold | 15 ft. cone (Con. save)
-| 10 | White | Cold | 15 ft. cone (Con. save)
+- #### Draconic Ancestry
+    | 1d10 | Dragon | Damage Type | Breath Weapon |
+    |:--:|:-------|:------------|:--------------|
+    | 1 | Black | Acid | 5 by 30 ft. line (Dex. save)
+    | 2 | Blue | Lightning | 5 by 30 ft. line (Dex. save)
+    | 3 | Brass | Fire | 5 by 30 ft. line (Dex. save)
+    | 4 | Bronze | Lightning | 5 by 30 ft. line (Dex. save)
+    | 5 | Copper | Acid | 5 by 30 ft. line (Dex. save)
+    | 6 | Gold | Fire | 15 ft. cone (Dex. save)
+    | 7 | Green | Poison | 15 ft. cone (Con. save)
+    | 8 | Red | Fire | 15 ft. cone (Dex. save)
+    | 9 | Silver | Cold | 15 ft. cone (Con. save)
+    | 10 | White | Cold | 15 ft. cone (Con. save)
 
-**Breath Weapon**. You can use your ***action*** to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.
+- **Breath Weapon**. You can use your ***action*** to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.
 
-When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.
+    When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.
 
-After you use your breath weapon, you can’t use it again until you complete a short rest.
+    After you use your breath weapon, you can’t use it again until you complete a short rest.
 
-**Damage Resistance**. You have resistance to the damage type associated with your draconic ancestry.
+    **Damage Resistance**. You have resistance to the damage type associated with your draconic ancestry.
 
-**Varied Lineage**. You may select a dragonborn exclusive feat, described later in this document.
+    **Varied Lineage**. You may select a dragonborn exclusive feat, described later in this document.
 
+</div>
 
 ### Other features
 Roll an additional feature to personalize your dragonborn.
@@ -433,11 +435,11 @@ The following feats are exclusive to dragonfolk.
 
 Kobolds are often dismissed as cowardly, foolish, and weak, but these little reptilian creatures are clever with their hands, and viciously work together in order to overcome their physical limitations. Kobold are short in stature, despite the draconic blood running in their veins, with the tallest of them barely reaching 3 feet and weighing no more than 35 pounds. Because of their small size, kobold often have to adopt unorthodox means of achieving victory. This usually leads to traps, which kobold are well known for crafting.
 
+Unlike the true dragons they worship, kobolds don't have set colors that reflect certain personality traits. Whole tribes usually are the same one or two colors, and the color of a kobold has no bearing on its abilities or skill set. Kobolds display many of the traits that true dragons display, and are often either proud, or vain (or both).
+
 > *“Kobolds are a lot less cute when they learn to cast fireballs."*
 >
 > -- Volo
-
-Unlike the true dragons they worship, kobolds don't have set colors that reflect certain personality traits. Whole tribes usually are the same one or two colors, and the color of a kobold has no bearing on its abilities or skill set. Kobolds display many of the traits that true dragons display, and are often either proud, or vain (or both).
 
 A kobold can be fooled with smooth words or a quick wit, but when the kobold figures out it has been tricked, it remembers the affront. And when possible will retaliate against that person somehow, even if merely in a petty way. Though they are far less grudgeful against draconic races, feeling that they act so because they must prove their worth.
 
@@ -625,9 +627,9 @@ Kobolds approach some classes is a bit differently than other folk. When you sel
 
     In addition you may use your Dexterity modifier +3 or your proficiency bonus when calculating AC and when attacking (to hit and damage).
 
-    <hr class="dividerinfolk">
+    <img src='../assets/images/kobold2.png' style='width:100%;padding:20px' />
 
-    <img src='../assets/images/kobold2.png' style='width:85%;padding:20px' />
+    <hr class="dividerinfolk">
 
 - ### Sorcerer
     Sorcerers are just as rare and varied as within other folk.
