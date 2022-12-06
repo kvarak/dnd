@@ -6,7 +6,6 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### <a href="#internal-traits">Traits</a>
-##### <a href="#internal-personality">Personality</a>
 ##### <a href="#internal-class">Class Options</a>
 ##### <a href="#internal-feats">Exclusive Feats</a>
 
