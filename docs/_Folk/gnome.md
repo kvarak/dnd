@@ -8,7 +8,6 @@ layout: default
 #### <a href="#internal-traits">Traits</a>
 #### The different types of gnomes
 <a href="#internal-forest">Forest Gnome</a><br/>
-<a href="#internal-forestfeats"><i> -- Forest Gnome Feats</i></a><br/>
 <a href="#internal-rock">Rock Gnome</a><br/>
 <a href="#internal-deep">Deep Gnome</a>
 
@@ -232,7 +231,7 @@ Your deep gnome character has access to the following special feat.
 
 <div class="columnstwo">
 
-- <img src='../assets/images/deepgnome.png' style='width:80%;padding:20px' />
+- <img src='https://i.pinimg.com/originals/2c/90/26/2c9026f388484b38d3b0ccf07e32bf06.png' style='width:80%;padding:20px' />
 
 -   <div class="feat">
 
@@ -301,6 +300,8 @@ An gnome approaches some classes is a bit different than other races. When you s
 
     <hr class="dividerinfolk">
 
+- <img src='http://2.bp.blogspot.com/-q5vSB2QKzMs/UR1WjXBncEI/AAAAAAAAExg/f2n70fdm1bg/s1600/Rosie+Cusswell.png' style='width:80%;padding:20px' />
+
 - ### Cavalier
     **Forest gnomes** get very well along with all kinds of animals, and they can be seen riding all kinds of animal, from badgers to moose. With the help from their friends they are very adept on the back of a ridden animal.
 
@@ -349,8 +350,6 @@ An gnome approaches some classes is a bit different than other races. When you s
     **Rock gnomes** have access to the <a href="#internal-tinkerKnight">Tinker knight</a> archetype.
 
     <hr class="dividerinfolk">
-
-- <img src='http://2.bp.blogspot.com/-q5vSB2QKzMs/UR1WjXBncEI/AAAAAAAAExg/f2n70fdm1bg/s1600/Rosie+Cusswell.png' style='width:80%;padding:20px' />
 
 - ### Inquisitor
     Gnomes mostly ignore the religious practices of other creatures, so the inquisitor role does not really exist.
@@ -449,7 +448,7 @@ a new method for cutting gemstones.
 > -- Griballix, gnome of Sigil
 
 
-### <a class="internal-link" name="internal-drinkingDeeplyLife">Drinking deeply of life</a>
+## <a class="internal-link" name="internal-drinkingDeeplyLife">Drinking deeply of life</a>
 A gnome is rarely bored and tries to savor every minute,
 for life is full of opportunities to learn, to help others,
 and to have fun.
@@ -490,7 +489,7 @@ gnome from following their chosen path.
 
 
 
-### <a class="internal-link" name="internal-rockGnomes">Rock Gnomes</a>
+## <a class="internal-link" name="internal-rockGnomes">Rock Gnomes</a>
 A visitor's first steps into a rock gnome warren are accompanied
 by the sounds of industry -hammers rapping
 on metal, chisels chewing wood, cauldrons bubbling,
@@ -507,6 +506,8 @@ hunts and periods of bold experimentation. First they
 mine materials from within the earth, and then they
 figure out what they can create or invent using those resources.
 
+<img src='https://robertrigo.github.io/pics/gnome1.png' style='float:left;width:40%;padding:20px' />
+
 The discovery of a new vein of metal -whether
 tin, copper, silver, or gold- makes rock gnomes clap
 their hands with glee, but they are happiest of all when
@@ -521,8 +522,6 @@ those whose talents lean toward the creation of mechanical
 devices. Every warren has members of each persuasion,
 and they are all bound by mutual respect for what
 they do despite their different perspectives.
-
-<img src='https://robertrigo.github.io/pics/gnome1.png' style='float:right;width:40%;padding:20px' />
 
 #### Practical makes perfect
 Rock gnomes who take a more scientific approach to
@@ -639,7 +638,7 @@ walk into a moat or be run over by a wagon.
 
 
 
-### <a class="internal-link" name="internal-forestGnomes">Forest Gnomes</a>
+## <a class="internal-link" name="internal-forestGnomes">Forest Gnomes</a>
 As the companions of nature and its animals, forest
 gnomes learn from their surroundings as if from a master
 teacher. They evade incursions into their wooded
@@ -699,6 +698,8 @@ call that alerts the gnomes to danger. At night, nocturnal
 animals such as owls and bats carry word to the gnomes
 during times when they should be on their guard.
 
+<img src='https://vignette.wikia.nocookie.net/confanon/images/c/c9/Forest_Gnome.gif/revision/latest?cb=20110805161434' style='float:right;width:40%;padding:20px' />
+
 #### Experts in illusion
 Forest gnomes have innate magical ability, letting them
 create simple illusions. They practice the use of illusion
@@ -738,9 +739,10 @@ and interesting sounds, and false doors and hallways
 to fool intruders and lead them into traps. (Goblins just
 can't pass by a door that calls them names.)
 
-<img src='https://vignette.wikia.nocookie.net/confanon/images/c/c9/Forest_Gnome.gif/revision/latest?cb=20110805161434' style='float:right;width:40%;padding:20px' />
+## <a class="internal-link" name="internal-deepGnomes">Deep Gnomes</a>
 
-### <a class="internal-link" name="internal-deepGnomes">Deep Gnomes</a>
+<img src='https://www.worldanvil.com/uploads/images/6bd6390db7215d10b9d594525eef6205.png' style='float:right;width:40%;padding:20px' />
+
 Deep gnomes, or svirfneblin, are the pragmatic and often
 grumpy cousins of the gnome family, who live deep
 underground. The Underdark is full of danger, meaning
@@ -791,8 +793,6 @@ Surface-dwelling gnomes often take up the adventurer's life out of sheer curiosi
 Nevertheless, a few svirfneblin understand that it is necessary to know something about what is happening on the surface near their hidden refuges. As a result, some svirfneblin become scouts, spies, or messengers who venture abroad, doing their best to avoid attention. These travelers are notoriously close-mouthed about where they come from and what they are up to, but a few eventually learn to trust good-hearted people of the surface world.
 
 A few svirfneblin become merchants who deal with other races both above and below ground. Drow, duergar, and other peoples know that svirfneblin are usually neutral in outlook and typically honest in their dealings. Serving as middlemen between races too hostile to deal with each other directly can be lucrative, and it serves an important defensive function; svirfneblin middlemen tend to know more about rumors and threats between rival merchants than anybody else.
-
-<img src='https://www.worldanvil.com/uploads/images/6bd6390db7215d10b9d594525eef6205.png' style='float:right;width:40%;padding:20px' />
 
 
 ## <a class="internal-link" name="internal-gnomeGods">Gnome Gods</a>
@@ -1077,10 +1077,12 @@ reminder of the importance of participating in society.
 
 
 
-### <a class="internal-link" name="internal-gnomeAdventurers">Gnome Adventurers</a>
+## <a class="internal-link" name="internal-gnomeAdventurers">Gnome Adventurers</a>
 > *"I don't know how many times I've seen a gnome turn a dead end into a wonderful opportunity."*
 >
 > -- Delaan Winterhound
+
+<img src='https://i.pinimg.com/originals/a8/74/54/a874542df88299ccb37275d2de306a67.png' style='float:right;width:40%;padding:20px' />
 
 When a gnome leaves the burrow, the force behind that
 decision is almost always curiosity -an insatiable need
@@ -1112,8 +1114,6 @@ But a few of them take readily to life in the outside
 world and don't come back on schedule, returning to the
 burrow only after spending years or decades away as a
 member of an adventuring party.
-
-<img src='https://i.pinimg.com/originals/a8/74/54/a874542df88299ccb37275d2de306a67.png' style='float:right;width:40%;padding:20px' />
 
 
 #### The pull of the stars
