@@ -83,22 +83,22 @@ As a cleric, you gain the following class features.
 |1st| +2| Divine Domain, Path of Faith, Spellcasting | - | 2 | 2 |— |— |— |—|— |— |— |—|
 |2nd| +2| Channel Divinity, Divine Domain feature | 4 | 2 |3 |— |— |— |—|—| —| —| —|
 |3rd| +2| - | 4 | 2| 4| 2| —| —| —|— |— |— |—|
-|4th| +2| Ability Score Improvement | 4 | 3 |4 |3 |— |— |—|— |— |— |—|
+|4th| +2| - | 4 | 3 |4 |3 |— |— |—|— |— |— |—|
 |5th| +3| - | 5 | 3| 4| 3| 2| —| —|— |— |—| —|
 |6th| +3| Divine Domain feature | 5 | 3 | 4| 3| 3| —| —|— |— |— |—|
 |7th| +3| - | 5 | 3 | 4| 3| 3| 1| —|— |— |— |—|
-|8th| +3| Ability Score Improvement, Faithful Path | 6 | 3 | 4| 3| 3| 2| —|— |— |— |—|
-|9th| +4| - | 6 | 2 | 3 | 4| 3|3|3| 1| —| —| —| —|
+|8th| +3| Faithful Path | 6 | 3 | 4| 3| 3| 2| —|— |— |— |—|
+|9th| +4| - | 6 | 3 | 4| 3|3|3| 1| —| —| —| —| —|
 |10th| +4| Divine Domain feature | 6 | 4 | 4| 3| 3| 3| 2| —| —| —| —|
 |11th| +4| - | 7 | 4| 4| 3| 3| 3| 2| 1| —| —| —|
-|12th| +4| Ability Score Improvement | 7 | 4 | 4| 3|3|3|2| 1| —| —| —|
+|12th| +4| - | 7 | 4 | 4| 3|3|3|2| 1| —| —| —|
 |13th| +5| - | 8 | 4| 4| 3| 3| 3| 2| 1| 1| —| —|
 |14th| +5| Faithful Path | 8 | 4 | 4| 3| 3| 3| 2| 1| 1| —| —
 |15th| +5| - | 9 | 4 |4|3|3| 3| 2| 1| 1| 1| —|
-|16th| +5| Ability Score Improvement | 9 | 4 | 4|3|3| 3| 2| 1| 1| 1| —|
+|16th| +5| - | 9 | 4 | 4|3|3| 3| 2| 1| 1| 1| —|
 |17th| +6| - | 10 | 4 |4| 3| 3| 3|2|1| 1| 1| 1|
 |18th| +6| Divine Domain feature | 10 | 4| 4| 3| 3| 3| 3| 1| 1|1|1|
-|19th| +6| Ability Score Improvement | 12 | 4 | 4| 3|3|3|3| 2| 1| 1| 1|
+|19th| +6| - | 12 | 4 | 4| 3|3|3|3| 2| 1| 1| 1|
 |20th| +6| Divine Intervention | 12 | 4| 4| 3| 3| 3| 3| 2| 2| 1|1|
 
 
@@ -107,14 +107,22 @@ As a cleric, you gain the following class features.
 #### Hit Points
 **Hit Dice:** 1d8
 
-#### Proficiencies
-**Armor:** Light armor
+#### Saving Throws
+You are proficient with ***Wisdom*** and ***Charisma*** saving throws.
 
-**Weapons:** All simple weapons
+#### Skills
+**Class Skills:** All Knowledge skills, Herbalism, Medicine and Religion
 
-**Saving Throws:** Wisdom, Charisma
+**Skill Points:** You gain 2 skill points at 1st level.
 
-**Skills:** Check your background for skills. In addition you gain proficiency with the Religion skill.
+#### Skills - Combat
+**Weapon Groups:** You have rank 1 with Club, Knife, Spear, Staff, Crossbow and Sling.
+
+**Combat Skill Points:** You gain 1 skill point to spend on combat skills at 1st level.
+
+**Recommended:** Light armor
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every even level.
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -123,12 +131,6 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* a priest’s pack or *(b)* an explorer's pack
 - a holy symbol
 - (if proficient) a warhammer, a shield, a light crossbow and 20 bolts
-
-
-
-
-
-
 
 
 ### Divine Domain
@@ -140,11 +142,9 @@ Whenever you gain access to a new cleric spell level, select two of the ones lis
 ### Path of Faith
 Different clerics uphold their faith in different ways. Decide the path you have chosen between the Path of the Missionary, Priest or Saint.
 
- **Crusader**. You are a frontline warrior, using both magic and metal to bolster your allies. Whenever you make an attack with a melee weapon you are proficient with, you may use your Wisdom modifier for the attack and damage rolls. Additionally, you gain proficiency with martial weapons, medium armor and shields.
+ **Crusader**. You are a frontline warrior, using both magic and metal to bolster your allies. Whenever you make an attack with a melee weapon you are proficient with, you may use your Wisdom modifier for the attack and damage rolls. Additionally, you gain the *Medium armor* combat skill as well as 2 additional skill points to spend on combat skills.
 
- **Missionary**. You are but a mouthpiece for your god, to both gain more followers and tell of their superiority. You have proficiency on Charisma checks when deceiving, intimidating, impressing, persuading or speaking in the name of your god. In addition, when make such a check, you may use your Wisdom modifier rather than Charisma.
-
-
+ **Missionary**. You are but a mouthpiece for your god, to both gain more followers and tell of their superiority. Add *Speechcraft* to your class skills and gain 1 skill point to spend ot this skill. In addition, when you make a Charisma check to intimidate, impress, persuade or speak in the name of your god, you may use your Wisdom modifier rather than Charisma.
 
  **Priest**. You focus on using the spells your deity has gifted you, aiding your allies from the back. When calculating AC you may use your Wisdom modifier instead of your Dexterity modifier. You learn an additional cantrip from your spell list.
 
@@ -217,9 +217,9 @@ In order to Channel Divinity, you have to spend 4 ***Piety***. The amount of pie
 ##### Channel Divinity: Turn the Unholy
 When you gain this feature, choose two creature types from the following: Aberration, Celestial, Elemental, Fey, Fiend, or Undead.
 
-As an ***action***, you present your holy symbol and speak a prayer against your chosen creature type. Each creature of that type that can see or hear you within 30 feet must make a Wisdom saving throw. If the creature fails, it is turned for 1 minute or until it takes any damage.
+As an ***action***, you present your holy symbol and speak a prayer against your chosen creature type. Each creature of that type that can see or hear you within 30 ft must make a Wisdom saving throw. If the creature fails, it is turned for 1 minute or until it takes any damage.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 ft of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
 
 </div>
 
@@ -228,7 +228,7 @@ A turned creature must spend its turns trying to move as far away from you as it
 <div class="descriptive" markdown="1">
 
 ##### Channel Divinity: Devastating Strike
-When you hit a target with a melee weapon attack, you can expend a use of your channel divinity to fuel your strike. You deal additional damage equal to 5 + twice your Cleric level. The type of extra damage is dependent on your domain, and is the same as the type of damage your 8th level feature does.
+When you hit a target with a melee weapon attack, you can channel divinity to fuel the strike. You deal additional damage equal to 5 + twice your Cleric level. The type of extra damage is dependent on your domain, and is the same as the type of damage your 8th level feature does.
 
 </div>
 
@@ -236,8 +236,7 @@ When you hit a target with a melee weapon attack, you can expend a use of your c
 <div class="descriptive" markdown="1">
 
 ##### Channel Divinity: Words of Honey
-When you make an ability check or saving throw using Wisdom or Charisma, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the roll succeeds or fails.
-
+When you make an ability check or saving throw using Wisdom or Charisma, you can channel divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the roll succeeds or fails.
 </div>
 
 #### Priest
@@ -247,17 +246,14 @@ When you make an ability check or saving throw using Wisdom or Charisma, you can
 As an ***action*** you present your holy symbol to project an aura emanating from you. The aura is has a 30 ft radius, and it lasts for 1 minute or until you are incapacitated or die. Whenever a creature (including you) ends its turn in the aura, you can grant that creature one of these benefits:
 * You grant it temporary hit points equal to 1d6 plus your cleric level.
 * You end one effect on it causing it to be charmed or frightened.
-
 </div>
 
+<!-- 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score by 2, or two ability scores by 1.
 
 You can’t increase an ability score above 20 using this feature.
-
-
-
-
+-->
 
 ### Faithful Path
 At 8th level, you gain an additional feature depending on your path of faith.
@@ -273,7 +269,7 @@ At 14th level, you gain an additional feature depending on your path of faith.
 
  **Crusader**. The extra damage increases to 2d8.
 
- **Missionary**. You learn any 2 skills of your choice.
+ **Missionary**. You gain 2 additional skill points.
 
  **Priest**. Whenever you cast a spell of 1st level or higher that only targets allies, you may cast a Cleric cantrip as a ***bonus action***. The 1st level or higher spell cast must have used your action.
 
@@ -282,8 +278,6 @@ Finally at 20th level, you can call on your deity to intervene on your behalf wh
 
 1. You replicate the effects of any spell of 9th level or lower from your spell list. You do not require components for this spell, and it can not be counterspelled or dispelled if its duration is 1 minute or less. If its casting time is greater than 1 action, it becomes 1 action for this specific casting. If the spell cast is lower than 9th level, it is cast at 9th level for the purposes of higher level effects.
 
-
-
 2. Your deity sends a loyal servant to aid you. Your DM chooses a creature of the Celestial, Fey or Fiend type that would be appropriate, however its CR can be no greater than 20. The creature is an ally to you and assists you in any way it can, it leaves when it is reduced to 0 HP or after an hour has passed. The DM may rule the creature remains for a longer duration.
 
 3. Your deity restores your energy. You and up to 6 creatures of your choice within 120 ft of you immediately gain the benefits of a long rest.
@@ -291,13 +285,6 @@ Finally at 20th level, you can call on your deity to intervene on your behalf wh
 4. Your deity merges your being with its own, granting you significant power. You immediately recover all your HP and expended spell slots, and you immediately end any effects on you of your choice. Additionally, your AC increases by an amount equal to your wisdom modifier, and your HP maximum increases by your wisdom modifier times 20. These benefits last for an hour or until your deity decides to end it early.
 
 Once you gain aid from your deity, you can not do so again until 7 days have passed.
-
-
-
-
-
-
-
 
 
 
@@ -572,7 +559,7 @@ The following additions are made to the general rest rules.
 #### Domain Features
 | Cleric Level | Feature |
 |:----------------:|:--------|
-| 1st | Bonus Proficiencies, Plentiful Harvest |
+| 1st | Bonus Skills, Plentiful Harvest |
 | 2nd | Channel Divinity: Shared Burden |
 | 6th |  Hand of Solidarity |
 | 8th | Faithful Path |
@@ -580,36 +567,34 @@ The following additions are made to the general rest rules.
 | 18th | Simple Resilience |
 
 
-### Bonus Proficiencies
-When you take this domain at 1st level, you gain proficiency with farming implements, land vehicles, and on agriculture related checks.
+### Bonus Skills
+When you take this domain at 1st level, add *Agriculture* to your class skills and gain 1 skill point to spend on this skill.
 
-Furthermore, you can use well-maintained farming implements as weapons with which you are proficient. These use the stats of the weapon that most closely matches their shape and weight.
+Furthermore, gain rank 1 with *Polearms* and you can use well-maintained farming implements as weapons with which you are proficient. These use the stats of the weapon that most closely matches their shape and weight.
 
 ### Plentiful Harvest
-Also at 1st level, you gain the *goodberry* spell, which is always prepared. Additionally, your healing strengthens those who benefit from it. Whenever you heal a creature for 5 or more hit points using a spell slot of 1st level or higher, that creature gains a +1 bonus to attack rolls and damage with weapon attacks until the beginning of your next turn.
+Gain the *goodberry* spell, which is always prepared. Additionally, your healing strengthens those who benefit from it. Whenever you heal a creature for 5 or more hit points using a spell slot of 1st level or higher, that creature gains a +1 bonus to attack rolls and damage with weapon attacks until the beginning of your next turn.
 
 ### Channel: Shared Burden
-You can use your Channel Divinity to protect your allies using the strength of your shared bonds. When a creature you can see within 30 feet of you takes damage, you can use your ***reaction*** to choose a number of other willing creatures you can see (which can include yourself), up to a number equal to your Wisdom modifier.
+You can Channel Divinity to protect your allies using the strength of your shared bonds. When a creature you can see within 30 ft of you takes damage, you can use your ***reaction*** to choose a number of other willing creatures you can see (which can include yourself), up to a number equal to your Wisdom modifier.
 
 Distribute the damage dealt between the original target and the chosen creatures however you like. This feature doesn't transfer any other effects that might accompany the damage, the damage can't be reduced in any way, and each creature involved must take at least 1 damage.
 
-
-
 ### Hand of Solidarity
-From 6th level, you can invoke your divine power to lift your allies to new heights in battle. You can take the Help action as a ***bonus action***.
+You can invoke your divine power to lift your allies to new heights in battle. You can take the Help action as a ***bonus action***.
 
 Additionally, when you use the Help action to aid an ally in attacking a creature, you can help two allies targeting the same creature within range. You can use this benefit a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
 
 ### Gestalt Anchor
-Starting at 10th level, you can lend providence to your allies when they falter against foes. When a creature you can see within 30 feet of you fails a saving throw, you can use your ***reaction*** to add your Wisdom modifier to the roll, potentially turning it into a success.
+You can lend providence to your allies when they falter against foes. When a creature you can see within 30 ft of you fails a saving throw, you can use your ***reaction*** to add your Wisdom modifier to the roll, potentially turning it into a success.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 ### Simple Resilience
-Starting at 18th level, your spells bolster your target even when already at their peak condition. Any time you heal a creature with a spell slot of 1st level or higher, and the amount of healing rolled would put the target over their hit point maximum, the creature gains those excess hit points as temporary hit points.
+Your spells bolster your target even when already at their peak condition. Any time you heal a creature with a spell slot of 1st level or higher, and the amount of healing rolled would put the target over their hit point maximum, the creature gains those excess hit points as temporary hit points.
 
 These hit points last for 1 minute, and give the creature advantage on all saves as long as they remain. Healing a creature who is missing no hit points and already has temporary hit points from this feature wastes the spell slot with no effect.
 
@@ -634,24 +619,24 @@ Magic is an energy that suffuses the multiverse and that fuels both destruction 
 
 
 ### Arcane Initiate
-When you choose this domain at 1st level, you gain proficiency with the Arcana skill, and you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips.
+When you take this domain at 1st level, add *Arcana* to you class skills, and gain 1 skill point to spend on this skill. 
+
+Additionally you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips.
 
 ### Channel: Harness Power
-Att 2nd level you can expend a use of your Channel Divinity to fuel your spells. As a ***bonus action***, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus.
-
-
+You can Channel Divinity to fuel your spells. As a ***bonus action***, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus.
 
 ### Spell Breaker
-Starting at 6th level, when you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell.
+When you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is force damage.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is force damage.
 
 ### Rapid Arcana
-Beginning at 10th level, you have learned how to quicken your arcane casting. When you cast a spell of 1st level or higher on your turn that only targets allies, you spend a Piety to cast a cantrip as a ***bonus action***.
+You have learned how to quicken your spellcasting. When you cast a spell of 1st level or higher on your turn that only targets allies, you spend a Piety to cast a cantrip as a ***bonus action***.
 
 ### Arcane Mastery
-At 17th level, you choose four spells from the wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you.
+Choose four spells from the wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. Add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you.
 
 
 
@@ -709,21 +694,20 @@ For example, when you cast *flame strike*, you can change the fire damage to col
 | Bludgeoning | Lightning
 
 
-
 ### Channel: Weigh the Scales
-At 2nd level, you can use your ***action*** and your Channel Divinity feature to impose equilibrium. For one minute or until you choose to end this effect as a bonus action, you cannot gain advantage or suffer disadvantage, and you can reroll any damage dice that result in a 1, but only once per die.
+At 2nd level, you can use your ***action*** and your Channel Divinity feature to impose equilibrium. For one minute or until you choose to end this effect as a ***bonus action***, you cannot gain advantage or suffer disadvantage, and you can reroll any damage dice that result in a 1, but only once per die.
 
 ### Harmony in Unity
-At 6th level, your divine calling allows you to correct what has been disrupted. When you cast a spell that causes a creature to regain hit points, that creature’s next attack deals an extra 1d6 force damage.
+Your divine calling allows you to correct what has been disrupted. When you cast a spell that causes a creature to regain hit points, that creature’s next attack deals an extra 1d6 force damage.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, you can choose the extra damage you deal to be radiant or necrotic. You can change this choice at any time.
+If you have chosen the **Path of the Crusader**, you can choose the extra damage you deal to be radiant or necrotic. You can change this choice at any time.
 
 ### Balancing Act
-From 10th level, if you are affected by Weigh the Scales, you are also considered to be affected by *protection from Evil and Good*.
+If you are affected by Weigh the Scales, you are also considered to be affected by *protection from Evil and Good*.
 
 ### Perfect Order
-At 18th level, your god controls the events around you, acting with inscrutable intent. When a creature takes an action within 30 feet of you and rolls a d20, you can choose the result of the die roll.
+Your god controls the events around you, acting with inscrutable intent. When a creature takes an action within 30 ft of you and rolls a d20, you can choose the result of the die roll.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
@@ -754,34 +738,32 @@ Not all deities of this domain are so benevolent, however. Praise for gods of wa
 
 
 ### Bonus Cantrip
-When you choose this domain at 1st level, you gain the *dancing lights* cantrip if you don't already know it. You do not need to maintain concentration on this cantrip, and you can create a number of lights equal to the normal value plus half your cleric level rounded up.
+When you choose this domain at 1st level, you gain the *dancing lights* cantrip if you don't already know it. You do not need to maintain concentration on this cantrip and you can create a number of lights equal to the normal value plus half your cleric level rounded up.
 
 ### Life of the Party
-Also at 1st level, you gain proficiency in one of the following skills: Deception, Performance, or Persuasion.
+Add *Speechcraft* to you class skills, and gain 1 skill point to spend on this skill.
 
 Whenever you cast a cleric spell, you gain temporary hit points equal to your Wisdom modifier that last for one minute.
 
-
-
 ### Channel: Firework
-Starting at 2nd level, you can use your Channel Divinity to conjure a small explosive, which you can throw into any space within 60 feet as an ***action***. When you do so, each creature within 10 feet of the target point must make a Constitution saving throw or be blinded and deafened until the end of your next turn. The firework emits a loud boom that can be heard up to 300 feet away.
+You can Channel Divinity to conjure a small explosive, which you can throw into any space within 60 ft as an ***action***. When you do so, each creature within 10 ft of the target point must make a Constitution saving throw or be blinded and deafened until the end of your next turn. The firework emits a loud boom that can be heard up to 300 ft away.
 
 ### Channel: Water and Wine
-Also from 2nd level, you can use your Channel Divinity feature to transform up to fifty gallons of water into a magical ambrosia for one hour. Creatures that drink from this must make a Wisdom saving throw against your cleric spell save DC or be charmed for one minute.
+You can Channel Divinity to transform up to fifty gallons of water into a magical ambrosia for one hour. Creatures that drink from this must make a Wisdom saving throw against your cleric spell save DC or be charmed for one minute.
 
 Either way, the subject gains temporary hit points equal to your cleric level. This liquid can be bottled, but fades back into water after one hour.
 
 ### Channel: Cheerful Assistance
-At 6th level, you can protect your friends from bad decisions. Whenever a creature within 60 feet of you that you can see makes a roll with disadvantage, you can use your ***reaction*** and Channel Divinity feature to enable them to roll with advantage instead.
+You can protect your friends from bad decisions. Whenever a creature within 60 ft of you that you can see makes a roll with disadvantage, you can use your ***reaction*** and Channel Divinity feature to enable them to roll with advantage instead.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is fire or radiant.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is fire or radiant.
 
 ### More Time for Celebration
-At 10th level you gain 8 additional Piety.
+Gain 8 additional Piety.
 
 ### Grand Finale
-Starting at 18th level, when you make a ranged attack or cast a cantrip that targets only one creature, you can cause the projectile or the cantrip to explode in a shower of sparks. Each creature within a 5-foot radius centered on the target must make a Dexterity saving throw against your cleric spell save DC or take damage as if also targeted by the attack or cantrip.
+When you make a ranged attack or cast a cantrip that targets only one creature, you can cause the projectile or the cantrip to explode in a shower of sparks. Each creature within a 5-ft radius centered on the target must make a Dexterity saving throw against your cleric spell save DC or take damage as if also targeted by the attack or cantrip.
 
 
 
@@ -830,28 +812,24 @@ The following additions are made to the general rest rules.
 
 
 ### Chaotic Manifestation
-At 1st level select two of the following manifestations of chaos. You can use each manifestation a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
-
+Select two of the following manifestations of chaos. You can use each manifestation a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 #### Deliberate Discord
 You are able to sow chaos wherever you go. Whenever a creature that you can see targets you with an attack, you can use your ***reaction*** to force that creature to make a Wisdom saving throw against your Spell Save DC. On failure, the creature must redirect their attack against another creature or object of your choice within the attack’s range.
 
 #### Fury of the Abyss
-As a ***bonus action***, you can give yourself advantage on melee attacks, melee damage rolls, and combat maneuver checks. This bonus lasts for 1 round. During this round, any attacks against you have advantage.
-
-
+As a ***bonus action***, you can give yourself advantage on melee attacks, melee damage rolls and combat maneuver checks. This bonus lasts for 1 round. During this round, any attacks against you have advantage.
 
 #### Locus of Chaos
 Your god's unpredictable nature can infuse your spellcasting with chaos. Whenever you cast a cleric spell of 1st level or higher, you can spend the spell slot as normal, but the spell's effects are treated as if the spell had been cast at the next higher level spell slot. When you use this ability, roll on the Wild Magic Surge table to create a random magical effect.
 
 ### Channel: Entropic Surge
-From 2nd level you can invoke the power of your deity to alter the weave in disorderly ways. As a ***reaction*** when a creature that you can see within 60 feet of you casts a spell, you can present your holy symbol to cause the spell to fail, and the creature must roll on the Wild Surge table with disadvantage.
+You can invoke the power of your deity to alter the weave in disorderly ways. As a ***reaction*** when a creature that you can see within 60 ft of you casts a spell, you can present your holy symbol to cause the spell to fail, and the creature must roll on the Wild Surge table with disadvantage.
 
 ### Channel: Power of the Maelstrom
-Also from 2nd level you gain the ability to conjure the maelstrom of the elemental chaos.
+You can Channel Divinity to conjure the maelstrom of the elemental chaos.
 
-As an action, an explosion of chaotic energy targets each hostile creature within 30 feet. A creature takes damage equal to 2d10 + your cleric level on a failed Dexterity saving throw, and half as much damage on a successful one. Roll the type of damage for each target individually according to the Maelstrom Damage Table.
-
+As an **action**, an explosion of chaotic energy targets each hostile creature within 30 feet. A creature takes damage equal to 2d10 + your cleric level on a failed Dexterity saving throw, and half as much damage on a successful one. Roll the type of damage for each target individually according to the Maelstrom Damage Table.
 
 #### Maelstrom Damage Table
 
@@ -862,26 +840,23 @@ As an action, an explosion of chaotic energy targets each hostile creature withi
 | 3	| Fire 	| 7	| Psychic
 | 4	| Force | 8	| Thunder
 
-
 ### On the Side of Chaos
-Starting at 6th level, whenever you are affected by a spell or effect that has a random effect (e.g. confusion, entropic shield) or use an item with unpredictable effects (e.g. Wand of Wonder, or Deck of Many Things), you make rolls or selections with advantage.
+Whenever you are affected by a spell or effect that has a random effect (e.g. confusion, entropic shield) or use an item with unpredictable effects (e.g. Wand of Wonder, or Deck of Many Things), you make rolls or selections with advantage.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is determined with a roll on the Maelstrom damage table.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is determined with a roll on the Maelstrom damage table.
 
 ### Friend of Fickle Forces
-From 10th level, when you are forced to make a saving throw, you can choose to  make that saving throw with advantage. If you do, you must roll on the Wild Magic Surge table.
+When you are forced to make a saving throw, you can choose to make that saving throw with advantage. If you do, you must roll on the Wild Magic Surge table.
 
 Once you have used this feature you cannot use it again until you complete a short rest.
 
 ### Winds of Madness
-At 18th level, your god manifests their power in full through your actions. As an ***action***, you can unleash a massive burst of chaotic energy. All creatures within a 30-foot radius must make a Charisma saving throw. If they fail, their ties to causality are disrupted.
+Your god manifests their power in full through your actions. As an ***action***, you can unleash a massive burst of chaotic energy. All creatures within a 30 ft radius must make a Charisma saving throw. If they fail, their ties to causality are disrupted.
 
 Whenever the creature takes an action, they must roll on the Wild Magic Surge table to create a random magical effect. This disruption lasts until the start of your next turn.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
-
-
 
 
 
@@ -922,43 +897,41 @@ The following additions are made to the general rest rules.
 | 18th | Master of Enchantment |
 
 
-### Bonus Proficiency
-At 1st level, you gain proficiency with Persuasion and you learn the *friends* cantrip.
+### Charmer
+When you take this domain at 1st level, add *Speechcraft* to your class skills and gain 1 skill point to spend on this skill.
+
+Additionally you learn the *friends* cantrip.
 
 ### Channel: Enthralling Prayer
-Beginning at 2nd level, you can use your Channel Divinity to enthrall other creatures. As an ***action***, you present your holy symbol and speak a hypnotic prayer. Each creature within 30 feet that can see or hear you must succeed on a Wisdom saving throw.
+You can Channel Divinity to enthrall other creatures. As an ***action***, you present your holy symbol and speak a hypnotic prayer. Each creature within 30 ft that can see or hear you must succeed on a Wisdom saving throw.
 
 If a creature fails it's saving throw, it gains the charmed condition for 1 minute or until it takes damage. A charmed creature's speed drops to 0, and the creature is incapacitated and visibly dazed.
 
 Once the effect ends, or if the creature succeeds its initial saving throw against this effect, you can't use this feature on that creature again until you finish a long rest.
 
 ### Instinctive Charm
-Starting at 6th level, when a creature that you can see targets you with an attack, you can use your ***reaction*** to force that creature to make a Wisdom saving throw against your spell save DC. On failure, the creature must redirect their attack against another creature or object of your choice within the attack’s range. Creatures that can't be charmed are immune to this effect.
+When a creature that you can see targets you with an attack, you can use your ***reaction*** to force that creature to make a Wisdom saving throw against your spell save DC. On failure, the creature must redirect their attack against another creature or object of your choice within the attack’s range. Creatures that can't be charmed are immune to this effect.
 
 On a successful save, you can't use this feature on the attacker again until you finish a long rest.
 
-
-
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
 
 If you have chosen the **Path of the Missionary** or **Path of the Missionary**, you can choose the Split Enchantment feature instead of the usual feature.
 
 <div class="descriptive" markdown="1">
 
 #### Split Enchantment
-Starting at 8th level, when you cast an enchantment spell of 1st level or higher that targets only one creature, you can have it target a second creature.
-
+When you cast an enchantment spell of 1st level or higher that targets only one creature, you can have it target a second creature.
 </div>
 
 ### Protective Charm
-From 10th level, when a creature is forced to roll a saving throw against one of your enchantment spells or abilities, you can make it roll with disadvantage.
+When a creature is forced to roll a saving throw against one of your enchantment spells or abilities, you can make it roll with disadvantage.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest
 
 ### Master of Enchantment
-At 18th level, you gain immunity to charm and sleep effects. Additionally you gain advantage on saving throws against other enchantment spells or effects.
-
+Gain immunity to charm and sleep effects. Additionally you gain advantage on saving throws against other enchantment spells or effects.
 
 
 
@@ -983,24 +956,22 @@ The Death domain is concerned with the forces that cause death, as well as the n
 
 
 ### Reaper
-At 1st level, you learn one necromancy cantrip of your choice from any spell list. When you cast a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other.
+Learn one necromancy cantrip of your choice from any spell list. When you cast a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 ft of each other.
 
 ### Channel: Negative Energy
-You can use your Channel Divinity to release a wave of annihilative energy. As an ***action*** on your turn, you cause every creature within 30 feet, other than constructs and undead, to make a Charisma saving throw against your spell save DC. A creature takes necrotic damage equal to 2d6 + half your cleric level on a failed save, or half as much damage on a successful one. An undead within this range instead regains hit points equal to the total.
-
-
+You can Channel Divinity to release a wave of annihilative energy. As an ***action*** on your turn, you force every creature within 30 ft, other than constructs and undead, to make a Charisma saving throw against your spell save DC. A creature takes necrotic damage equal to 2d6 + half your cleric level on a failed save, or half as much damage on a successful one. An undead within this range instead regains hit points equal to the total.
 
 ### Inescapable Destruction
-Starting at 6th level, your ability to channel negative energy becomes more potent. Necrotic damage dealt by your cleric spells and Channel Divinity options ignores resistance to necrotic damage.
+Your ability to channel negative energy becomes more potent. Necrotic damage dealt by your cleric spells and Channel Divinity options ignores resistance to necrotic damage.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is necrotic or poison.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is necrotic or poison.
 
 ### Embrace Death
-Beginning at 10th level, your body has taken on some of the beneficial aspects of undeath without suffering the consequences. You gain resistance to necrotic and noison damage. Additionally, you only age 1 year for every 10 that pass.
+Your body has taken on some of the beneficial aspects of undeath without suffering the consequences. You gain resistance to necrotic and noison damage. Additionally, you only age 1 year for every 10 that pass.
 
 ### Improved Reaper
-Starting at 18th level, when you cast a necromancy spell of 1st through 5th level that targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other. If the spell consumes its material components, you must provide them for each target.
+When you cast a necromancy spell of 1st through 5th level that targets only one creature, the spell can instead target two creatures within range and within 5 ft of each other. If the spell consumes its material components, you must provide them for each target.
 
 
 
@@ -1032,7 +1003,7 @@ The following additions are made to the general rest rules.
 
 | Cleric Level | Feature |
 |:----------------:|:--------|
-| 1st | Bonus Proficiencies, Nomadic Endurance |
+| 1st | Bonus Skill, Nomadic Endurance |
 | 2nd | Channel Divinit: Sandstormy |
 | 6th | Dune Walker |
 | 8th | Faithful Path |
@@ -1040,36 +1011,34 @@ The following additions are made to the general rest rules.
 | 18th | Endless Expanse |
 
 
-### Bonus Proficiencies
-When you select this domain at 1st level, you gain proficiency with deserts, including its flora and fauna, and how to survivie in it.
+### Bonus Skills
+When you take this domain at 1st level, gain the *Survival - Desert Survival* skill and its prerequisite.
 
 ### Nomadic Endurance
-Also from 1st level, your god blesses you with the resilience to survive the harsh landscape of the desert. You can go for a number of days equal to your cleric level without food before suffering ill effects, and you gain advantage on saving throws against exhaustion from desert conditions. You can see through smoke, fog, dust, swirling sand, and other obscuration caused by gasses.
+Your god has blessed you with the resilience to survive the harsh landscape of the desert. You can go for a number of days equal to your cleric level without food before suffering ill effects, and you gain advantage on saving throws against exhaustion from desert conditions. You can see through smoke, fog, dust, swirling sand, and other obscuration caused by gasses.
 
 ### Channel: Sandstorm
-At 2nd level, your god enables you to control the greatest danger in the desert. As an ***action***, you can use your Channel Divinity feature to unleash a raging whirlwind of tearing sand in a 60-foot line that is 20 feet wide. The area becomes heavily obscured by a cloud of dust until the start of your next turn.
+Your god enables you to control the greatest danger in the desert. As an ***action***, you can Channel Divinity to unleash a raging whirlwind of tearing sand in a 60 ft line that is 20 f wide. The area becomes heavily obscured by a cloud of dust until the start of your next turn.
 
 Creatures of your choosing within the area must make a Constitution saving throw against your cleric spell save DC. If they fail, they are blinded until the end of your next turn and take 1d6 slashing damage per two cleric levels you possess. If they succeed, they are not blinded and take half as much damage.
 
 ### Dune Walker
-At 6th level, your god blesses you with the dance of the fearsome serpents of the desert. You can use a ***bonus action*** to teleport up to your movement speed to a location you can see, disappearing in a flash of sand and reforming from dust at the target location. You cannot move and use this action during the same turn.
+Your god blesses you with the dance of the fearsome serpents of the desert. You can use a ***bonus action*** to teleport up to your movement speed to a location you can see, disappearing in a flash of sand and reforming from dust at the target location. You cannot move and use this action during the same turn.
 
-
-
-When you teleport using this feature, you can use your ***action*** to cause a cloudy burst of sand to appear, heavily obscuring a 10-foot radius around you until the start of your next turn.
+When you teleport using this feature, you can use your ***action*** to cause a cloudy burst of sand to appear, heavily obscuring a 10 ft radius around you until the start of your next turn.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, you gain the ability to infuse your weapon strikes with the deadliest scorpion venom and the razor-sharp sands upon the wind. The extra damage you deal is poison or slashing.
+If you have chosen the **Path of the Crusader**, you gain the ability to infuse your weapon strikes with the deadliest scorpion venom and the razor-sharp sands upon the wind. The extra damage you deal is poison or slashing.
 
 ### Shifting Sands
-From 10th level, when you cast a cleric spell of 1st level and higher that requires concentration, you can conjure a gust of wind that surrounds you for 1 minute or until your concentration on the spell is broken.
+When you cast a cleric spell of 1st level and higher that requires concentration, you can conjure a gust of wind that surrounds you for 1 minute or until your concentration on the spell is broken.
 
-The gust of winds creates a small vortex centered on you, out to a radius of 5 feet. When a hostile creature first enters the area within the vortex or starts its turn there, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.
+The gust of winds creates a small vortex centered on you, out to a radius of 5 ft. When a hostile creature first enters the area within the vortex or starts its turn there, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.
 
 ### Endless Expanse
-At 18th level, your god's domain grows and spreads beyond its borders. You ignore difficult terrain while in desert environments, and gain resistance to fire damage.
+Your god's domain grows and spreads beyond its borders. You ignore difficult terrain while in desert environments, and gain resistance to fire damage.
 
 You can also cast *hallucinatory terrain*. When you do so, the area appears to be transformed into a desert, and becomes hot and dry. Creatures of your choosing within the area suffer exhaustion as though exposed to extreme heat. When you cast this spell, you can choose to also cast *conjure animals*; it does not require concentration and has a duration of 10 days.
 
@@ -1121,25 +1090,24 @@ When you choose this domain at 1st level, your god bestows a mark upon you that 
 While your mark is revealed, you can use your ***action*** to gaze into the future of another person. Until the end of your next turn, your first skill check, attack roll, or saving throw regarding the target is made with advantage.
 
 ### Channel: Severed Threads
-At 2nd level, your god grants you the ability to manipulate fate directly. Whenever you deal damage to a creature, you can use a ***bonus action*** and your Channel Divinity feature to attempt to cut its ties to mortality.
+Your god grants you the ability to manipulate fate directly. Whenever you deal damage to a creature, you can use a ***bonus action*** and your Channel Divinity feature to attempt to cut its ties to mortality.
 
 The target must make a Charisma saving throw. If they fail, their fate is disrupted: they have disadvantage on the next three rolls they make (ability checks, attack rolls, or saving throws).
 
 
-
 ### Cryptic Advice
-Starting at 6th level, you can give a piece of cryptic advice to a creature you share a language with. When that creature makes an attack roll, saving throw, or ability check during the day they can recall your cryptic advice to reroll the die, using the second result instead.
+You can give a piece of cryptic advice to a creature you share a language with. When that creature makes an attack roll, saving throw, or ability check during the day they can recall your cryptic advice to reroll the die, using the second result instead.
 
 Once a creature has used you Cryptic Advice, it cannot use it again until it completes a long rest.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, you gain the ability to cut directly into the past and future simultaneously. The extra damage you deal is psychic.
+If you have chosen the **Path of the Crusader**, you gain the ability to cut directly into the past and future simultaneously. The extra damage you deal is psychic.
 
 ### More Cryptic Advice
-From 10th level, a creature can benefit from an additional Cryptic Advice after the first one has been used.
+Creature can benefit from two Cryptic Advice each day.
 
 ### Prophetic Glimpse
-At 18th level, your god grants you the ability to see brief yet perfectly accurate visions of the future. You can choose to activate this feature at the start of your turn.
+Your god grants you the ability to see brief yet perfectly accurate visions of the future. You can choose to activate this feature at the start of your turn.
 
 Record all actions you and others take and the results of rolls made during your turn. If you are satisfied with the results of the events that took place at the end of your turn, this feature ends, as your vision is fulfilled exactly as specified.
 
@@ -1168,7 +1136,7 @@ Clerics of these deities search for objects lost to the forces of darkness, libe
 
 | Cleric Level | Feature |
 |:----------------:|:--------|
-| 1st | Bonus Proficiencies, Blessing of the Forge |
+| 1st | Bonus Skills, Blessing of the Forge |
 | 2nd | Channel Divinity: Artisan’s Blessing |
 | 6th | Soul of the Forge |
 | 8th | Faithful Path |
@@ -1176,38 +1144,38 @@ Clerics of these deities search for objects lost to the forces of darkness, libe
 | 18th | Saint of Forge and Fire |
 
 
-### Bonus Proficiencies
-When you choose this domain at 1st level, you gain proficiency with heavy armor and smith’s tools.
+### Bonus Skills
+When you take this domain at 1st level, add *Craft - Metalwork* to your class skills and gain 2 skill points to spend on this skill.
+
+Additionally you gain 1 skill point to spend on the *Medium armor* or *Heavy armor* combat skills.
 
 ### Blessing of the Forge
-Also at 1st level, you gain the ability to imbue magic into a weapon or armor. At the end of a long rest, you can touch one nonmagical armor, shield, or weapon. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC (if it is an armor or a shield) or a +1 bonus to attack and damage rolls (if it is a weapon).
+You gain the ability to imbue magic into a weapon or armor. At the end of a long rest, you can touch one nonmagical armor, shield or weapon. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC (if it is an armor or a shield) or a +1 bonus to attack and damage rolls (if it is a weapon).
 
 ### Channel: Artisan’s Blessing
-Starting at 2nd level, you can use your Channel Divinity to create simple items.
+You can use your Channel Divinity feature to create simple items.
 
-You conduct an hour-long ritual that crafts a nonmagical item that must include some metal: a weapon, a suit of armor, ten pieces of ammunition, a set of tools, or another metal object. The creation is completed at the end of the hour, coalescing in an unoccupied space of your choice on a surface within 5 feet of you.
-
-
+You conduct an hour-long ritual that creates a nonmagical item that must include some metal: a weapon, a suit of armor, ten pieces of ammunition, a set of tools, or another metal object. The creation is completed at the end of the hour, coalescing in an unoccupied space of your choice on a surface within 5 ft of you.
 
 The item you create can be something that is worth no more than 100 gp. As part of this ritual, you must lay out metal, which can include coins, with a value equal to the creation. The metal irretrievably coalesces and transforms into the creation at the ritual’s end, magically forming even nonmetal parts of the creation.
 
 The ritual can create a duplicate of a nonmagical item that contains metal, such as a key, if you possess the original during the ritual.
 
 ### Soul of the Forge
-Starting at 6th level, your mastery of the forge  grants you a number of special abilities:
+Your mastery of the forge  grants you a number of special abilities:
 * While wearing heavy armor, you gain a +1 bonus to AC.
 * You gain resistance to fire damage.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, you do not deal extra damage. Instead, you learn to channel your divine power into a frenzy of weapon strikes. Once on each of your turns when you take the Attack action, you can make an additional weapon attack as part of the same action. If you hit with this additional attack, you can cause all of the attack's damage to become fire damage.
+If you have chosen the **Path of the Crusader**, you do not deal extra damage. Instead, you learn to channel your divine power into a frenzy of weapon strikes. Once on each of your turns when you take the Attack action, you can make an additional weapon attack as part of the same action. If you hit with this additional attack, you can cause that attack's damage to become fire damage.
 
 When you gain your second Faithful Path power at 14th level, you can instead make a second additional attack, which you can also convert to fire.
 
 ### Behemoth
-Beginning at 10th level, your flame and spirit is an unbreakable defense. You have resistance to nonmagical fire, bludgeoning, piercing, and slashing damage.
+Your flame and spirit is an unbreakable defense. You have resistance to nonmagical fire, bludgeoning, piercing, and slashing damage.
 
 ### Saint of Forge and Fire
-At 18th level, your blessed affinity with fire and metal becomes more powerful:
+Your blessed affinity with fire and metal becomes more powerful:
 * You gain immunity to fire damage.
 * While wearing heavy armor, you have resistance to bludgeoning, piercing, and slashing damage.
 
@@ -1260,23 +1228,21 @@ Beginning at 1st level, you are unnaturally good at things in which you are not 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 ### Channel: Aura of Misfortune
-Starting at 2nd level, by using a ***bonus action***, you can use your Channel Divinity to drain the good luck from your adversaries. All living, hostile creatures within 30 feet of you must succeed on a Charisma saving throw against your cleric spell DC or suffer disadvantage on all attack rolls, saving throws, and ability checks until the end of their next turn.
-
-
+Using a ***bonus action***, you can Channel Divinity to drain the good luck from your adversaries. All living, hostile creatures within 30 ft of you must succeed on a Charisma saving throw against your cleric spell DC or suffer disadvantage on all attack rolls, saving throws, and ability checks until the end of their next turn.
 
 ### Channel: Surge of Fortune
-From 6th level, by using a ***bonus action***, you can use your Channel Divinity to infuse yourself or a an ally within 30 feet with good luck. Until the end of your next turn, you or the ally has advantage on all attack rolls, saving throws, and ability checks.
+Using a ***bonus action***, you can Channel Divinity to infuse yourself or a an ally within 30 ft with good luck. Until the end of your next turn, you or the ally has advantage on all attack rolls, saving throws, and ability checks.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is of the same type dealt by the weapon.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is of the same type dealt by the weapon.
 
 ### Bend Luck
-Starting at 10th level, you have the ability to twist luck. When you or a creature you can see makes a roll, you can use your ***reaction*** to reroll. You can affect any roll, including ability checks, damage rolls, wild surges or even a random roll to see how many gp a creature has. You can do so after the rolls but before any effects of the roll occur.
+You have the ability to twist luck. When you or a creature you can see makes a roll, you can use your ***reaction*** to reroll. You can affect any roll, including ability checks, damage rolls, wild surges or even a random roll to see how many gp a creature has. You can do so after the rolls but before any effects of the roll occur.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 ### Impossible Luck
-Starting at 18th level, you can use your ***action*** to surround yourself with an aura of perfect chance. For 1 minute or until you dismiss the aura using another action, you have advantage on all saving throws against effects that deal damage, and all attack rolls against you are made at disadvantage.
+You can use your ***action*** to surround yourself with an aura of perfect chance. For 1 minute or until you dismiss the aura using another action, you have advantage on all saving throws against effects that deal damage, and all attack rolls against you are made at disadvantage.
 
 
 
@@ -1302,7 +1268,7 @@ A god of the hunt who is evil emphasizes the power of the hunter, who uses super
 
 | Cleric Level | Feature |
 |:----------------:|:--------|
-| 1st | Bonus Proficiencies |
+| 1st | Bonus Skills |
 | 2nd | Channel Divinity: Slayer’s Arrow |
 | 6th | Living Wind |
 | 8th | Faithful Path |
@@ -1310,27 +1276,27 @@ A god of the hunt who is evil emphasizes the power of the hunter, who uses super
 | 18th | Unerring Hunter |
 
 
-### Bonus Proficiencies
-When you select this domain at 1st level, you gain proficiency with all ranged martial weapons and the Survival skill.
+### Bonus Skills
+When you take this domain at 1st level, add *Survival* to your class skills and gain 1 skill point to spend on this skill.
 
-
+Additionally you gain 2 skill points to spend on the *Bow* weapon group.
 
 ### Channel: Slayer's Arrow
-At 2nd level, your god teaches you to attack the soul of your quarry. As an ***action***, you can use your Channel Divinity feature to launch an ethereal arrow or spear, striking all creatures in a line up to 200 feet long and 5 feet wide, that passes through walls and obstacles.
+Your god teaches you to attack the soul of your quarry. As an ***action***, you can use your Channel Divinity feature to launch an ethereal arrow or spear, striking all creatures in a line up to 200 ft long and 5 ft wide, that passes through walls and obstacles.
 
 Struck targets must make a Wisdom saving throw. If they fail, they take magical piercing damage equal to 2d6 plus your cleric level and are knocked prone. If they succeed, they take half as much damage and are not knocked prone.
 
 ### Living Wind
-At 6th level, the winds of the wildlands come to your call. Whenever you cast a single-target cantrip or attack with a weapon, you can use a ***bonus action*** to move up to your speed towards your target. When you do so, ranged and opportunity attacks against you are made with disadvantage until the start of your next turn.
+The winds of the wildlands come to your call. Whenever you cast a single-target cantrip or attack with a weapon, you can use a ***bonus action*** to move up to your speed towards your target. When you do so, ranged and opportunity attacks against you are made with disadvantage until the start of your next turn.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is of the same type dealt by the weapon.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is of the same type dealt by the weapon.
 
 ### Natural Resistance
-At 7th level, due to repeated exposure to nature, your body’s resistance has increased. You gain proficiency with Constitution saving throws.
+Due to repeated exposure to nature, your body’s resistance has increased. You gain proficiency with Constitution saving throws.
 
 ### Unerring Hunter
-At 18th level, you become immune to the effects of difficult terrain and gain a climb speed equal to your walking speed.
+You become immune to the effects of difficult terrain and gain a climb speed equal to your walking speed.
 
 You can choose to have your Slayer's Arrow turn up to three times during its flight and the first creature struck takes additional force damage equal to your cleric level if they fail their saving throw. Each creature cannot be struck more than once per use of this feature.
 
@@ -1372,28 +1338,24 @@ The following additions are made to the general rest rules.
 
 
 ### Blessings of Knowledge
-At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or any other (normally) Intelligence-based knowledge skill.
-
-Whenever you make a check using one of your chosen skills, you may use your Wisdom modifier instead of your Intelligence modifier.
+At 1st level, you learn two languages of your choice. You also gain 2 skill points to spend on *Knowledge* skills.
 
 ### Channel: Knowledge of Ages
-Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an ***action***, choose one skill or tool. For 1 hour, you have proficiency with the chosen skill or tool.
+You can use your Channel Divinity to tap into a divine well of knowledge. As an ***action***, choose non-combat skill. For 1 hour, you know that skill.
 
 ### Invasive Knowledge
-Beginning at 6th level, you can invade other people's privacy in order to gain more knowledge. As an ***action*** you can open up your senses to read a creature's mind, as long as it is within 30 ft and you can see it.
+You can invade other people's privacy in order to gain more knowledge. As an ***action*** you can open up your senses to read a creature's mind, as long as it is within 30 ft and you can see it.
 
 This mind-reading functions as per the *Detect thoughts* spell, but you can only read surface thoughts and can't probe deeper.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
-
-
+If you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
 
 ### Divine Expertise
-At 10th level, choose two of your skill proficiencies. You have advantage on any ability check you make that uses either of the chosen proficiencies.
+Gain 2 additional skill points to spend on any non-combat skill.
 
 ### Visions of the Past
-Starting at 18th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events.
+You can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
