@@ -62,6 +62,8 @@ Includes maces, hammers and picks. Weighted toward the top and attached to a sha
 ##### Rank 3
 - ***Savage Critical***. When you score a critical hit, you may roll one extra damage die.
 
+##### Rank 4
+- ***Intimidating Slash***. On your turn, when you score a critical hit or reduce a creature to 0 hit points, you can use a ***reaction*** to make a Strength (Intimidation) check, contested by the Wisdom of creatures that can see and hear you within 30 ft. If you succeed, the creatures are frightened of you until the end of your next turn.
 </details>
 
 
@@ -126,8 +128,6 @@ The lance is a special weapon that is used when mounted. It only exists as a mar
 ##### Rank 3
 - ***Savage Critical***. When you score a critical hit, you may roll one extra damage die.
 
-##### Rank 4
-- ***Intimidating Slash***. On your turn, when you score a critical hit or reduce a creature to 0 hit points, you can use a ***reaction*** to make a Strength (Intimidation) check, contested by the Wisdom of creatures that can see and hear you within 30 ft. If you succeed, the creatures are frightened of you until the end of your next turn.
 </details>
 
 

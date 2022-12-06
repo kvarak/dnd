@@ -64,22 +64,22 @@ The following are some optional quirks for a player of this Class.
  1st | +2 | Cavalier order, Challenge,<br/>Mounted Expert | - | - | - |
 | 2nd | +2 | Combat Superiority,<br/>Second Wind | 3 | 7 | d4 |
 | 3rd | +2 | Order feature | 3 | 7 | d4 |
-| 4th | +2 | Ability Score Improvement | 3 | 7 | d4 |
+| 4th | +2 | Bonus skill | 3 | 7 | d4 |
 | 5th | +3 | Extra Attack | 4 | 7 | d4 |
-| 6th | +3 | Ability Score Improvement | 4 | 9 | d6 |
+| 6th | +3 | - | 4 | 9 | d6 |
 | 7th | +3 | Order feature | 4 | 9 | d6 |
-| 8th | +3 | Ability Score Improvement | 5 | 9 | d6 |
+| 8th | +3 | Bonus skill | 5 | 9 | d6 |
 | 9th | +4 | Indomitable | 5 | 9 | d6 |
 | 10th | +4 | Order feature | 5 | 10 | d8 |
 | 11th | +4 | Extra Attack (2) | 6 | 10 | d8 |
-| 12th | +4 | Ability Score Improvement | 6 | 10 | d8 |
+| 12th | +4 | Bonus skill | 6 | 10 | d8 |
 | 13th | +5 | Indomitable (2) | 6 | 10 | d8 |
-| 14th | +5 | Ability Score Improvement | 7 | 12 | d10 |
+| 14th | +5 | - | 7 | 12 | d10 |
 | 15th | +5 | Order feature | 7 | 12 | d10 |
-| 16th | +5 | Ability Score Improvement | 7 | 12 | d10 |
+| 16th | +5 | Bonus skill | 7 | 12 | d10 |
 | 17th | +6 | Indomitable (3) | 8 | 16 | d10 |
 | 18th | +6 | Order feature | 8 | 16 | d12 |
-| 19th | +6 | Ability Score Improvement | 8 | 20 | d12 |
+| 19th | +6 | Bonus skill | 8 | 20 | d12 |
 | 20th | +6 | Extra Attack (3) | 8 | 20 | d12 |
 
 </div>
@@ -98,7 +98,7 @@ You are proficient with ***Constitution*** and ***Charisma*** saving throws.
 **Skill Points:** You gain 2 skill points at 1st level.
 
 #### Skills - Combat
-**Weapon Groups:** You have rank 2 with Axe, Club, Flail, Spear, Sword and Bow. Additionally you have rank 1 with Knife, Polearm, Crossbow and Sling.
+**Weapon Groups:** You have rank 2 with Axe, Club, Flail, Lance, Spear, Sword and Bow. Additionally you have rank 1 with Knife, Polearm, Crossbow and Sling.
 
 **Combat Skills:** You gain the *Light armor* and *Medium armor* skills, and 1 additional skill point to spend on combat skills.
 
@@ -107,18 +107,6 @@ You are proficient with ***Constitution*** and ***Charisma*** saving throws.
 **After 1st level:** You gain 1 skill point to spend on combat skills every level.
 
 
-## Lance
-Special: You have disadvantage when you use a lance to Attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.
-
-Lance
-melee weapon (martial, lance)
-Category: Items
-Damage: 1d12
-Damage Type: Piercing
-Item Rarity: Standard
-Properties: Reach
-Weight: 6
-
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 - *(a)* a martial weapon and a shield or *(b)* two martial weapons
@@ -126,12 +114,11 @@ You start with the following equipment, in addition to the equipment granted by 
 - scale mail and a lance
 - riding horse, riding saddle, bit and bridle, 3 days feed
 
+
 ### Cavalier Order
 When you select this class, you must pledge yourself to a specific order. The order grants a number of bonuses, class skills and traits, and are detailed under the section "Orders" below. In addition, each order includes a number of edicts that you must follow. If you violate any of these edicts, you loses the benefits from the order's challenge ability for 24 hours. The violation of an edict is subject to GM interpretation.
 
 Members of these orders are not necessarily bound together, but some organizations do exist that are comprised of cavaliers that all belong to one specific order.
-
-
 
 
 ### Challenge
@@ -191,13 +178,6 @@ The Steed obeys your commands as best as it can. It takes its turn on your initi
 
 Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the Attack action.
 
-
-
-
-
-
-
-
 If your steed dies or is otherwise lost, you can obtain another one by spending 1 week bonding with another mount.
 
 ### Combat Superiority
@@ -222,7 +202,6 @@ Some maneuvers have effects based on your superiority die. You start with a d6, 
 <img src='https://robertrigo.github.io/assets/images/cavalier.png' style='float:right;width:37%;padding:20px' />
 
 
-
 #### Saving Throws
 Some of your maneuvers require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:
 
@@ -236,9 +215,13 @@ From 1st level, you have a limited well of stamina that you can draw on to prote
 
 Once you use this feature, you must finish a short rest before you can use it again.
 
+### Bonus Skill
+When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you gain an additional skill point to spend on your class skills.
 
+<!-- 
 ### Ability Score Improvement
 When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+-->
 
 ### Extra Attack
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
@@ -302,7 +285,7 @@ Members of these orders are not necessarily bound together, but some organizatio
 
 | Cavalier Level | Feature |
 |:--------------:|:--------|
-| 1st | Bonus Proficiency
+| 1st | Bonus Skills
 | 3rd | Challenge
 | 7th | Battlefield Inspiration
 | 10th | Bolstering Conviction
@@ -323,13 +306,8 @@ A knight errant helps people in distress and provides their skills for a fee to 
 </div>
 
 
-### Bonus Proficiency
-You may add your proficiency bonus on all Charisma checks when interacting with common people.
-
-Additionally, you gain proficiency with Dexterity saves.
-
-
-
+### Bonus Skills
+Add Speechcraft to your class skills.
 
 ### Challenge
 From 3rd level, whenever you issue a challenge, you may spend your ***reaction*** to reduce the damage of an attack from your target by 1d8. You must be wielding a melee weapon and must be able to see the attack to parry it.
@@ -368,7 +346,7 @@ At 18th level, whenever you use Challenge, Battlefield Inspiration or Bolstering
 
 | Cavalier Level | Feature |
 |:--------------:|:--------|
-| 1st | Bonus Proficiency
+| 1st | Bonus Skills
 | 3rd | Challenge
 | 7th | Flat of the Blade
 | 10th | Calming Them Down
@@ -389,17 +367,13 @@ Cavaliers of the Blue Rose share the following edicts.
 
 </div>
 
-### Bonus Proficiency
-You gain proficiency with the History and Diplomacy skills.
-
-Additionally, whenever you make a Charisma check to mediate a dispute between two parties that do not include you, you have advantage.
+### Bonus Skills
+Add Speechcraft to your class skills. For you, the skill Diplomacy has cost 0 if you have its prerequisites (*Speechcraft - Tact*).
 
 ### Challenge
 From 3rd level, whenever you issue a challenge, you receive a +1d6 bonus on attack rolls made against the target of your challenge, if the target is an intelligent creature to whom you offered the chance to surrender (by taking an action to offer terms).
 
 At 18th level, you have advantage on attack rolls against that target as well.
-
-
 
 ### Flat of the Blade
 At 7th level, you gain the ability to moderate your attacks in order to take an enemy alive. Whenever you reduce a creature to 0 hit points with a melee attack, you can use a ***bonus action*** to instead leave the creature at 1 hit point.
@@ -435,7 +409,7 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 | Cavalier Level | Feature |
 |:--------------:|:--------|
-| 1st | Bonus Proficiency
+| 1st | Bonus Skills
 | 3rd | Challenge
 | 7th | Rallying Cry
 | 10th | Inspiring Surge
@@ -455,15 +429,11 @@ Cavaliers of the Dragon share the following edicts.
 
 </div>
 
-### Bonus Proficiency
-You gain proficiency with the Survival skill.
-
-Additionally, whenever you make a Survival check to provide food and water for your allies or to protect your allies from harsh weather, you have advantage.
+### Bonus Skills
+Add Survival to your class skills, and gain 1 skill point to spend on this skill.
 
 ### Challenge
 From 3rd level, whenever you issue a challenge, your allies receive a +1 bonus on all damage rolls against the target of your challenge as long as it is adjacent to you. This bonus increases by +1 at 10th level and again at 15th level.
-
-
 
 ### Rallying Cry
 At 7th level, you learn how to inspire your allies to fight on past their injuries. When you use your Second Wind feature, you can choose up to three creatures who can see and hear you. Each one regains hit points equal to your cavalier level.
@@ -494,7 +464,7 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 | Cavalier Level | Feature |
 |:--------------:|:--------|
-| 1st | Bonus Proficiency
+| 1st | Bonus Skills
 | 3rd | Challenge
 | 7th | Foolhardy Rush
 | 10th | Daunting Success
@@ -515,8 +485,8 @@ Cavaliers of the Flame share the following edicts.
 
 </div>
 
-### Bonus Proficiency
-You gain proficiency with the Survival skill and on checks made to spread the glory of your deeds.
+### Bonus Skills
+Add Survival to your class skills.
 
 Additionally, whenever your are at your maximum hit point and try to intimidate someone, you have advantage.
 
@@ -524,8 +494,6 @@ Additionally, whenever your are at your maximum hit point and try to intimidate 
 From 3rd level, you become ever more emboldened with each glorious victory. As an ***bonus action*** after reducing the target of your challenge to 0 hit points, you can elect to issue a new challenge to an opponent within 20 feet. This challenge does not count against your number of challenges. You gain a bonus on melee damage rolls against the target of you challenge equal to 2 times the number of consecutive challenges you have issued so far.
 
 As long as you continue to defeat targets and there are more opponents in range, you can continue to issue challenges indefinitely, with the bonus on damage rolls increasing with each subsequent foe.
-
-
 
 ### Foolhardy Rush
 At 7th level, you can charge across the battlefield at a moment's notice. Whenever you make an initiative check, as long as you roll an 11 or higher on the die, you or your mount can move up to your full movement as a ***reaction*** and you are not surprised.
@@ -552,7 +520,7 @@ At 18th level, you can, as a ***bonus action***, declare a moment of triumph. Un
 
 | Cavalier Level | Feature |
 |:--------------:|:--------|
-| 1st | Bonus Proficiency
+| 1st | Bonus Skills
 | 3rd | Challenge
 | 7th | Lion's Call
 | 10th | For the King
@@ -573,15 +541,11 @@ Cavaliers of the Lion share the following edicts.
 
 </div>
 
-### Bonus Proficiency
-You may add your proficiency bonus on all checks regarding how to act among nobility.
-
-Additionally, whenever you make a check involving your sovereign or his realm, you have advantage.
+### Bonus Skills
+Gain 1 additional skill point to spend on the *Courtier* skill.
 
 ### Challenge
 From 3rd level, whenever you issue a challenge, you receive a +2 bonus to AC on all attacks attacks that originate within 30 feet from you.
-
-
 
 ### Lion's Call
 At 7th level, you can use an ***action*** to bolster the resolve of your companions who can see or hear you. These allies gain temporary hit points equal to half your character level + your Charisma modifier. If any of the allies affected is frightened, he can immediately make another saving throw to resist the effect (if allowed). Once you use this ability, you can't use it again until you finish a short rest.
@@ -610,7 +574,7 @@ In addition, as a ***reaction***, you can redirect an attack made at a creature 
 
 | Cavalier Level | Feature |
 |:--------------:|:--------|
-| 1st | Bonus Proficiency
+| 1st | Bonus Skills
 | 3rd | Challenge
 | 7th | Seek Retribution
 | 10th | Honorable Combat
@@ -635,11 +599,8 @@ Cavaliers of the Scales share the following edicts.
 
 </div>
 
-### Bonus Proficiency
-You gain proficiency with the Insight skill and on all checks concerning the law and contracts.
-
-Additionally, when you make a check to determine whether a creature's behavior is being influenced by others, both by enchantment magic as well as non-magical influence, you have advantage.
-
+### Bonus Skills
+Gain 1 skill point to spend on the *Law* skill. In addition add *Perception - Insight* to your class skills.
 
 
 ### Challenge
@@ -672,7 +633,7 @@ At 18th level, you can tell if people are lying around you. As an ***action*** y
 
 | Cavalier Level | Feature |
 |:--------------:|:--------|
-| 1st | Bonus Proficiency
+| 1st | Bonus Skills
 | 3rd | Challenge, Shield Bash
 | 7th | Defend the Weak
 | 10th | Stem the Tide
@@ -692,19 +653,16 @@ Cavaliers of the Shield share the following edicts.
 
 </div>
 
-### Bonus Proficiency
-You may add your proficiency bonus on all Charisma checks when interacting with common people.
 
-Additionally, whenever you use the Medicine skill to stabilize someone, you have advantage.
+### Bonus Skills
+Add *Medicine* to your class skills. In addition, gain 1 skill point to spend on the *Leadership* skill.
 
 ### Challenge
 From 3rd level, whenever the target of your challenge makes an attack against a target other than you, you have advantage on the next attack roll against target, as long as the attack is made before the end of your next turn.
 
 ### Shield Bash
 Also from 2nd level, your proficiency with shields is unparalleled. When wielding a shield, you may make an attack with it as a ***bonus action***. If this attack hits, you may either
-push the target back 5 feet or deal an amount of damage equal to 1d4 + your Strength modifier.
-
-
+push the target back 5 ft or deal an amount of damage equal to 1d4 + your Strength modifier.
 
 ### Defend the Weak
 From 7th level, as a ***reaction***, you may block an attack aimed at an adjacent ally. You must be able to see the attack to defend your ally in this way. If the attack roll overcomes your AC, you take the damage instead of your ally. This ability cannot be used against effects that do not require an attack roll to hit the target. You must not be incapacitated to defend an ally from an attack.
@@ -716,7 +674,7 @@ resistance against bludgeoning, piercing, and slashing damage from those attacks
 At 10th level, when you hit a creature with an opportunity attack, reduce the creature's speed by 20 for the rest of the turn. When you make an opportunity attack, you can make an additional reaction before the end of your next turn. You can make no more reactions between turns than your Strength modifier or Dexterity modifier (your choice). You can not benefit from this feature while using the sentinel feat.
 
 ### Shining Beacon
-At 15th level, you can inspire bravery in the hearts of your allies and wards. Each friendly creature within 30 feet gains a number of temporary hit points equal to your level. The temporary hit points last for 1 hour. Once you use this ability, you can't use it again until you finish a short rest.
+At 15th level, you can inspire bravery in the hearts of your allies and wards. Each friendly creature within 30 ft gains a number of temporary hit points equal to your level. The temporary hit points last for 1 hour. Once you use this ability, you can't use it again until you finish a short rest.
 
 ### Protect the Meek
 At 18th level, you can move to intercept foes. When a foe makes an action, as a ***reaction***, you can move up to your speed (or your mount's speed, if mounted) and make a single melee attack. This movement provokes opportunity attacks as normal. You must end your movement adjacent to an enemy. Once you use this ability, you can't use it again until you finish a short rest.
@@ -733,7 +691,7 @@ At 18th level, you can move to intercept foes. When a foe makes an action, as a 
 
 | Cavalier Level | Feature |
 |:--------------:|:--------|
-| 1st | Bonus Proficiency
+| 1st | Bonus Skills
 | 3rd | Challenge
 | 7th | Calling
 | 10th | For the Faith
@@ -753,13 +711,11 @@ Cavaliers of the Star share the following edicts.
 
 </div>
 
-### Bonus Proficiency
-You gain proficiency with the Religion skill.
+### Bonus Skills
+Add Religion to your class skills, and gain 1 skill point to spend on this skill.
 
 ### Challenge
 From 3rd level, whenever you issue a challenge, you have advantage on all saves against all spells and abilities of the target of his challenge.
-
-
 
 ### Calling
 At 7th level, you can make a short prayer as an ***action***, filling you with confidence in your abilities. At any point until your next rest, you can gain advantage on one ability check, one attack roll and one saving throw.
