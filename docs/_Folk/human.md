@@ -18,6 +18,8 @@ In the reckonings of most worlds, humans are the youngest of the common races, l
 ### A Broad Spectrum
 With their penchant for migration and conquest, humans are more physically diverse than other common races. There is no typical human. An individual stands from 5 feet to a little over 6 feet tall and weighs from 125 to 250 pounds. Human skin shades range from nearly black to very pale, and hair colors from black to white (curly, kinky, or straight); males might sport facial hair that is sparse or thick. Humans reach adulthood in their late teens and rarely live even a single century.
 
+<img src='https://robertrigo.github.io/pics/humans.png' style='float:right;width:20%;padding:20px' />
+
 ### Variety in All Things
 Humans are the most adaptable and ambitious people among the common races. They have widely varying tastes, morals, and customs in the many different lands where they have settled. When they settle, though, they stay: they build cities to last for the ages, and great kingdoms that can persist for long centuries. An individual human might have a relatively short life span, but a human nation or culture preserves traditions with origins far beyond the reach of any single human’s memory. They live fully in the present—making them well suited to the adventuring life—but also plan for the future, striving to leave a lasting legacy. Individually and as a group, humans are adaptable opportunists, and they stay alert to changing political and social dynamics.
 
@@ -50,13 +52,6 @@ It’s hard to make generalizations about humans, but your human character has t
 
 </div>
 
-![human](https://robertrigo.github.io/pics/humans.png) {position:absolute,bottom:40px,right:0px,width:420px}
-
-
-
-
-
-
 
 
 ## <a class="internal-link" name="internal-talents">Human Talents</a>
@@ -64,7 +59,7 @@ Humans are adaptive, versatile and ambitious, and most humans are good at making
 
 <div class="columnstwo">
 
--    ### Clever
+-   ### Clever
     You are full of surprises, sometimes gaining sparks of inspiration when they’re least expected.
 
     Once per game session, you can ask the DM for a hint and he must either answer truthfully, in much the same way as he would the spell *augury*, or grant you inspiration.
@@ -199,9 +194,9 @@ Humans approach some classes a bit different compared to other races. When you s
 
     When using sneak attack, you can opt not to use all your sneak attack dice. For each die you did not use, you gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
 
-    ![human](https://robertrigo.github.io/pics/mage_divider.png) {position:absolute,bottom:0px,left:20px,width:90%}
-
     <hr class="dividerinfolk">
+
+-   <img src='https://robertrigo.github.io/pics/mage_divider.png' style='width:95%;padding:20px' />
 
 -   ### Sorcerer
     A human sorcerer easily adapts to the changes that occur when the power of their bloodline first appears.
