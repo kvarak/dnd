@@ -720,17 +720,6 @@ Moradin is foremost among the dwarven pantheon, the epitome of everything dwarve
 
 The Dwarf Deities table lists the members of the Mordinsamman. For each god, the table notes alignment, province (the god's main areas of interest and responsibility), suggested domains for clerics who serve the god, and a common symbol of the god. Several of the gods in the table are described below.
 
-#### Moradin
-The father of the dwarves crafted his children from metal, stone and gems, and imbued them with souls as he cooled them with his breath.
-
-Moradin is the master of every craft practiced by the dwarves and the patron of artisans. He expects his children to follow in his footsteps, studying his techniques and aspiring to one day match his expertise.
-
-
-
-
-
-
-
 
 <div class="classTable frame" markdown="1">
 
@@ -738,16 +727,16 @@ Moradin is the master of every craft practiced by the dwarves and the patron of 
 
 | Deity | Alignment | Province | Domains | Common Symbol
 |:----|:--:|:-----|:----|:----|
-| Abbathor | NE | Greed | Illusion, Trickery | Jeweled dagger, point down
-| Berronar Truesilver | LG | Safety, home, honor, truth | Life, Light, Order, Protection | Intertwined silver rings
-| Clangeddin Silverbeard | LG | War, strategy | Leadership, Order, Strength, War | Crossed silver battleaxes
+| <a href="#internal-Abbathor">Abbathor</a> | NE | Greed | Illusion, Trickery | Jeweled dagger, point down
+| <a href="#internal-BerronarTruesilver">Berronar Truesilver</a> | LG | Safety, home, honor, truth | Life, Light, Order, Protection | Intertwined silver rings
+| <a href="#internal-ClangeddinSilverbeard">Clangeddin Silverbeard</a> | LG | War, strategy | Leadership, Order, Strength, War | Crossed silver battleaxes
 | Dugmaren Brightmantle | CG | Discovery, invention | Forge, Knowledge | Open book
 | Dumathoin | N | Buried secrets,  protector of the dwarven dead | Death, Earth, Knowledge, Repose | Gemstone in a mountain
 | Gorm Gulthyn | LG | Vigilance | Order, Protection, War | Bronze half-mask
 | Haela Brightaxe | CG | Combat prowess, luck in battle | Fortune, War | Upright sword with blade sheathed in flame
 | Hanseath | CN | Festivity, brewing, song | Agriculture, Celebration, Trickery | Beer stein
 | Marthammor Duin | NG | Explorers, wanderers, the lost | Nature, Protection, Survival | Upright mace in front of a tall boot
-| Moradin | LG | Primary deity of dwarves | Fate, Forge, Leadership, Life, Order | Hammer and anvil
+| <a href="#internal-Moradin">Moradin</a> | LG | Primary deity of dwarves | Fate, Forge, Leadership, Life, Order | Hammer and anvil
 | Muamman Duathal | NG | Storms, travel | Life, Tempest | Mace held in gauntlets
 | Roknar | NE | Lies, intrigue | Charm, Trickery | Hands filled with coins
 | Sharindlar | CG | Healing, love | Charm, Life | Burning needle
@@ -760,11 +749,18 @@ Moradin is the master of every craft practiced by the dwarves and the patron of 
 
 </div>
 
+<h4><a class="internal-link" name="internal-Moradin">Moradin</a></h4>
+
+The father of the dwarves crafted his children from metal, stone and gems, and imbued them with souls as he cooled them with his breath.
+
+Moradin is the master of every craft practiced by the dwarves and the patron of artisans. He expects his children to follow in his footsteps, studying his techniques and aspiring to one day match his expertise.
+
 Priests of Moradin are responsible for judging and assessing the work of a stronghold's artisans. They keep great volumes that describe various crafting techniques in detail, and use the guidelines in them to judge the quality of individual works.
 
 The priests also evaluate young dwarves to determine the youths' vocations. The decisions of the priests are accepted without question.
 
-#### Abbathor
+<h4><a class="internal-link" name="internal-Abbathor">Abbathor</a></h4>
+
 The Great Master of Greed exerts an influence, no matter how subtle, over every dwarven heart. Abbathor teaches that greed isn't only desirable, but necessary to keep the dwarves in a strong and safe position.
 
 Abbathor has no skill in crafting. Instead, he relies on his ability as a thief to take ownership of what he wants. Why work so hard to manufacture something when a much easier path to riches lies open?
@@ -772,13 +768,14 @@ Abbathor has no skill in crafting. Instead, he relies on his ability as a thief 
 Abbathor is the only advocate for change within the dwarven pantheon. He can inspire dwarves to seek shortcuts, normally frowned upon, but sometimes those methods turn out to be efficient techniques that improve a clan's capabilities.
 
 
+<h4><a class="internal-link" name="internal-BerronarTruesilver">Berronar Truesilver</a></h4>
 
-#### Berronar Truesilver
 The Matron of Home and Hearth is the patron of honor, and law. She lays out the rules for managing a dwarf clan.
 
 Berronar's code establishes the laws of the dwarves, including contracts, trade agreements, and every other kind of bond forged through words and deeds. As Moradin provides the example that dwarves strive to match, Berronar provides the bonds that create dwarven society and culture.
 
-#### Clangeddin Silverbeard
+<h4><a class="internal-link" name="internal-ClangeddinSilverbeard">Clangeddin Silverbeard</a></h4>
+
 Known as the Father of Battle, Clangeddin Silverbeard is the patron of dwarf warriors. Impetuous and brave yet a cunning strategist, Clangeddin embodies the warrior's spirit that makes dwarven armies such formidable foes.
 
 Clangeddin encourages dwarf warriors to venture out of the stronghold in search of foes to defeat. He particularly hates goblinoids, giants, and dragons. He compels his followers to seek out and dispatch such enemies before they can become a threat to the stronghold.
