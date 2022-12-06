@@ -23,6 +23,10 @@ layout: default
 **Awakened (bound spirit)**<br/>
 <a href="#internal-banshee">Banshee Conclave</a>
 
+**Kobold**<br/>
+<a href="#internal-trickster">Trickster Conclave</a>
+
+
 </div>
 
 # Ranger
@@ -1383,4 +1387,91 @@ You can use Dreadful Visage when you roll initiative. Whenever you use Dreadful 
 You can use your ***reaction*** to let out a mournful wail that wards off death when one friendly creature that you can see within 60 feet drops to 0 hit points. Until that creature is stabilized, it has advantage on death saving throws and attack rolls made against it have disadvantage. You can use this ***reaction*** immediately before being knocked to 0 hit points to gain its benefits yourself.
 
 You can use this feature a number of times equal to your Wisdom modifier, and must complete a long rest before you do so again.
+
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-trickster">Restricted to Kobold characters</a></h2>
+<h1>Trickster Conclave</h1>
+<div class="featuresTable">
+
+#### Conclave Features
+| Ranger Level | Feature |
+| :----------: | :------ |
+| 3rd | Combat Trickster, Opportune Strike |
+| 5th | Rabbit from a Hat |
+| 7th | Out of Sight, Out of Reach, Combat Trickster (additional tricks, d8 damage) |
+| 11th | Exploitative Nature |
+| 15th | Elusive Foe, Combat Trickster (additional tricks) |
+
+</div>
+
+Kobold rangers are regularly underestimated, but those in the Trickster conclave use that lack of esteem as both a defense and an offense, when need be. Using their cleverness and various talents, they create their own advantages in order to level the playing field.
+
+### Combat Trickster
+Starting when you join this conclave, you learn how to use your ingenuity, deft hands, and the knowledge you've accumulated, to counteract that you are physically at a disadvantage to most foes. You gain proficiency with tinker’s tools if you don't have it already.
+
+ **Combat Tricks**. The conclave has entrusted you with three blueprints and designs for combat tricks; items meant to hinder your enemies. The combat tricks are detailed at the end of the archetype description. You learn the design of one additional combat trick at 7th and 15th level.
+
+ **Trick Capacity**. Using your tinker tools, you can spend a short rest crafting or repairing a combat trick. You can only carry four of these combat tricks at any given time. Your trick capacity increases by one at 7th level and 15th level.
+
+ **Saving Throws**. Your combat tricks require creatures that trigger them to make a saving throw to avoid its effects. The saving throw DC is calculated as follows: Combat Trick DC = 8 + your proficiency bonus + your Intelligence or Wisdom modifier (your choice)
+
+### Opportune Strike
+You have leart how to exploit the openings your combat tricks create. When a creature fails a saving throw against one of your combat tricks, you can use a ***reaction*** to make one weapon attack against it. Additionally, you never trigger your own combat tricks unless you want to.
+
+### Rabbit From a Hat
+Your familiarity with the combat tricks you employ improves your handling of them. You can choose to use combat tricks as a ***bonus action***.
+
+Additionally, when you craft or repair a combat trick, you can spend a spell slot to enchant it. An item enchanted in this way deals your choice of fire or poison damage when a creature fails its saving throw against it. The damage is 3d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st. If more than one combat trick is placed in the same area, a creature only takes damage from the most powerful of them. Regardless of whether the creature fails its saving throw or not, the magic imbued in the item is expended.
+
+### Out of Sight, Out of Reach
+You always have a plan to get out of a sticky situation. You can use a ***bonus action*** to take the Disengage action.
+
+### Exploitative Nature
+Your keen eye knows exactly which signs to look for, and how to exploit a show of weakness, no matter how slight it is. When you use a ***reaction*** to attack a creature because it failed a saving throw against one of your combat tricks, you can make two weapon attacks instead of one.
+
+### Elusive Foe
+You can use every opportunity to get out of dodge. When a creature fails a saving throw against one of your combat tricks, you can use your ***reaction*** to move up to half your speed.
+
+### Combat tricks
+Some of the items here are also in the Player's Handbook, but these versions are slightly improved, due to the time, effort, and talent poured into making them.
+
+In addition to hindering your enemies in some way, some are also designed to harm. When combat tricks deal damage, they refer to your trick die, which starts out as d6, and at 7th level it becomes d8.
+
+<div class="columnstwo">
+
+- **Ball bearings (bag of 1,000)**. As an ***action***, you can spill these tiny metal, glass, crystal, stone, or bone balls from their pouch to cover a level area 10 feet square. The first Large or smaller creature moving across the covered area must succeed on a Dexterity saving throw or fall prone, taking 1 trick die of bludgeoning damage.
+
+- **Caltrops (bag of 20)**. As an ***action***, you can spread a single bag of caltrops to cover a 5-foot-square area. The first creature that enters the area must succeed on a Dexterity saving throw or stop moving and take 2 trick dice of piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed makes the saving throw with advantage.
+
+- **Flash Rods (one pair)**. As an ***action***, you can place these two rods connected by a thin wire on a flat surface. The first creature that passes between the rods trips the wire, making the rods flare up in an intensely bright light. The creature must succeed on a Constitution saving throw or be blinded until the end of the turn.
+
+- **Oil Fountain**. As an ***action***, you can place this small metal cube attached to a pressure plate on the ground. The first creature that steps on the plate must succeed on a Dexterity saving throw or be sprayed with a highly volatile substance. If the creature takes fire or lightning damage before the substance evaporates at the start of its next turn, it takes 1 trick die fire damage and must succeed on a Wisdom saving throw to withstand the shock of being lit on fire. If it fails, it must use its reaction to move its movement speed in a random direction.
+
+    -- **Special**. An oil trap is harder to place  efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
+
+-**Portable Ice (bag of 50)**. As an ***action***, you can spread a single bag of these compressed ice pellets to cover a 5-foot-square area. The first creature that enters the area triggers the pellets, making them expand rapidly, forming a 20-feet tall ice pillar that immediately shatters. Any Large or smaller creatures in the area must succeed on a Dexterity saving throw or be lifted by the pillar. Tiny creatures don't trigger the pellets.
+
+    -- **Special**. You need access to water to craft these pellets, and they melt after 1 hour if in extreme heat.
+
+- **Screeching Sirens (soundproof container)**. As an ***action***, you can place the brittle container on the ground. The first Small or larger creature that enters its 5-foot area causes the container to break, releasing the short-lived bugs inside it. The bugs are drawn to the nearest source of body heat, while emitting a high-pitched sound. Until the start of its next turn, the creature must succeed on a Charisma saving throw in order to cast a spell with verbal components.
+
+    --**Special**. You need access to bugs normally found in the wild to collect enough of them to be efficient, so the DM may rule that a city, dungeon or similar restricts how many, if any, you can craft.
+
+- **Snap trap**. When you use your ***action*** to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a Dexterity saving throw or take 1 trick die of piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 trick die of piercing damage to the trapped creature.
+
+    -- **Special**. A snap trap is harder to place efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
+
+- **Sonic Sphere**. As an ***action***, you can place a small metal sphere on the ground. Highly sensitive to vibrations in the ground, the sphere will activate when the first creature enters its 5-foot area, creating a burst of thunderous sound, which can be heard 100 feet away. The creature must make a Constitution saving throw or take 2 trick dice thunder damage and be deafened until the end of its next turn.
+
+- **Sneezing Powder Pellets (bag of 10)**. As an ***action***, you spread a single bag of these hollow, lightweight husks filled with ground seeds to cover a 5-foot square. The first creature that enters the area must succeed on a Constitution saving throw or take 1 trick die of poison damage and spend its action sneezing violently.
+
+- **Twitchers (bag of 40)**. As an ***action***, you use a single bag of these tiny metal rods holding trace amounts of lightning energy to cover two 5-foot-square areas. The first creature that enters an area must succeed on a Constitution saving throw or take 1 trick die of lightning damage from the small current running through them. A creature that fails this saving throw has disadvantage on the next attack it makes before the end of its next turn.
+
+</div>
+
+
+
 
