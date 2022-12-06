@@ -21,7 +21,7 @@ Gruumsh created the orcs in his image, a brutish, aggressive and savage folk, th
 #### Nature finds a Way
 No matter how powerful a god is, they are not omnipotent. The orcs spread to all corners of the world. Sometimes a change in an orc was too subtle to be recognized at first, or happened while Gruumsh was otherwise engaged. At other times lesser gods like Maglubiyet or Hruggek, who did not have the power to create their own folk, influenced and hid orcs that were changed, in order to have their own servitor folk.
 
-<img src='http://orig10.deviantart.net/96da/f/2014/055/0/0/half_orc_brawler_by_ianllanas-d77tza1.jpg' style='float:left;width:35%;padding:20px' />
+<img src='http://orig10.deviantart.net/96da/f/2014/055/0/0/half_orc_brawler_by_ianllanas-d77tza1.jpg' style='float:left;width:37%;padding:20px' />
 
 Being one of the creatures most prone to evolutionary change, this has slowly given rise to many kinds of creatures, like hobgoblins, bugbears and different breeds of goblins. They might seem completely different to orcs, but still share the same origin, even though they would never recognize that fact.
 
