@@ -23,7 +23,7 @@ layout: default
 
 ##### Restricted Paths
 **Beastfolk (needs a tail)**<br/>
-<a href="#internal-tailfighter">Path of the Tailfighter</a><br/>
+<a href="#internal-tailfighter">Path of the Tailfighter</a>
 
 **Can change shape naturally**<br/>
 <a href="#internal-skinchanger">Path of the Skinchanger</a><br/>
@@ -40,6 +40,10 @@ layout: default
 
 **Half-Orc**<br/>
 <a href="#internal-eyeOfGruumsh">Eye of Gruumsh</a>
+
+**Lizardfolk**<br/>
+<a href="#internal-tailfighter">Path of the Tailfighter</a><br/>
+<a href="#internal-trophyHunter">Path of the Trophy Hunter</a>
 
 </div>
 
@@ -1681,6 +1685,55 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 You can instead spend 5 Fury to use this feature, if the target is an elf.
 
+
+
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-trophyHunter">Restricted to Lizardfolk characters</a></h2>
+<h1>Path of the Trophy Hunter</h1>
+<div class="featuresTable">
+
+#### Path  Features
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Tracker |
+| 3rd | Spoils of the Hunt |
+| 6th | Insightful Predator |
+| 10th | Glory to the Pack |
+| 14th | Vicious Hunger |
+
+</div>
+
+Although they are cold and calculating, the followers of this path combine ancient teachings and new knowledge to instill emotion and aggressiveness in themselves. Utilizing rituals and animalistic behavior, these trophy hunters seek not only to outlive bigger and stronger foes, but to exceed them, and to become the alpha creature that all others fear.
+
+##### Restriction
+Only lizardfolk follow this path, although there are instances of individuals of other races seeking out this knowledge.
+
+### Tracker
+You gain proficiency with Tracking, and have advantage on such checks.
+
+### Spoils of the Hunt
+You learn an ancient ritual that lets you tap into your primal side by drawing out memories from fallen creatures. To perform this ritual, you must spend 1 hour with the trophy of a creature that's been dead no more than 24 hours. The ritual counts as light activity. While wearing or carrying the trophy, you gain the following benefits that last until you perform this ritual again.
+
+- While raging, you can add your Wisdom modifier to damage rolls against that creature's type.
+- While raging, you can make a bite attack as a bonus action against that creature's type.
+- You can use your Hungry Jaws trait one additional time before you must finish a rest.
+- When you reduce a creature to 0 hit points, other hostile creatures of the same type that can see you must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of their next turn. A creature that succeeds on this saving throw is immune to this effect for 24 hours.
+
+
+
+### Insightful Predator
+Your familiarity with the strange, alien minds of other creatures has grown, and the knowledge you're able to draw out from a trophy increases. You have advantage on Perception, Insight and Intimidation checks made against creatures of the same type as your current trophy, and you can't be surprised by enemies if at least one of them is that creature type.
+
+### Glory to the Pack
+You are able to convey your knowledge and instincts to others. When a friendly creature you can see makes an attack roll or ability check against a creature of the same type as your current trophy, you can use a ***reaction*** to give it advantage.
+
+### Vicious Hunger
+Your bloodthirst has been both awakened and heightened by the numerous creatures you've connected to with your trophy rituals. When you reduce a creature to 0 hit points with a melee weapon attack while raging, you can make a bite attack against a different creature.
+
+Additionally, if the slain creature was of the same type as your current trophy, you can immediately move up to half of your movement speed.
 
 
 

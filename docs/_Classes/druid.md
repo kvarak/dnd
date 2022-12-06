@@ -19,6 +19,10 @@ layout: default
 <a href="#internal-storms">Circle of Storms</a><br/>
 <a href="#internal-swarm">Circle of the Swarm</a><br/>
 
+##### Restricted Paths
+**Lizardfolk**<br/>
+<a href="#internal-ancients">Circle of the Ancients</a>
+
 </div>
 
 # Druid
@@ -1241,19 +1245,70 @@ Additionally, as part of the same reaction you can expend a use of Wild Shape an
 
 You can use this feature once. See *Rest Additions* below.
 
-
-
-
-
-
-
-
-
 ### Plague Swarm
 Starting at 14th level, you have learned how to call upon the power of a plague to consume your foes. The spell *insect plague* is always prepared, and does not count against the number of spells you can cast each day. In addition, when you cast *insect plague* it gains the following:
 * As a ***bonus action*** you can move the sphere up to 40 ft.
 * Only creatures of your choice have to make a save.
 * For each spell level above 5th, radius increases by 5ft.
+
+
+
+
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-ancients">Restricted to Lizardfolk characters</a></h2>
+<h1>Circle of the Ancients</h1>
+<div class="featuresTable">
+
+#### Circle Features
+| Druid Level | Feature |
+|:-----------:|:--------|
+| 1st | Summon Nature's Ally
+| 2nd | Ancient Forms
+| 6th | Primal Strikes
+| 10th | Dreadful Wild Shape
+| 14th | Monstrous Form
+
+</div>
+
+Most lizardfolk do not worship gods or their ancestors, as they don't see the practical advantage of such a tradition. However, some tribes do possess druidic spellcasters who carry within their blood, whether by heritage or ceremony, the memories of the ancient "terrible lizards", the dinosaurs. Through their druidic powers they draw upon the memories of their ancestors to summon and transform into prehistoric beasts.
+
+##### Restriction
+Only lizardfolk follow this path.
+
+### Summon Nature's Ally
+As an ***action***, you can use a spell slot to conjure a dinosaur with a CR equal to the level of the spell slot used minus 1 (minimum of 1/2) or lower. It appears in an unoccupied space within 60 feet.
+
+The dinosaur shares your initiative count, and takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a ***bonus action*** on your turn to command it to take one of the actions in its stat block or to take the Dash, Disengage, Help or Hide action. You don't require any actions to move your Nature's Ally on its own turn. If one of its special traits would require a bonus action, it can use its own.
+
+You must maintain concentration on this, as if you were concentrating on a spell. You can use this feature while in your wild shape form if you have shifted into a dinosaur. Your summoned ally remains until you lose concentration, summon a new ally this way, its hit points are reduced to 0, or until you start a long rest.
+
+
+### Ancient Forms
+As a member of the Circle of the Ancients you carry the memories of the ancient terrible lizards. You can use a ***bonus action***, and expend a use of your Wild Shape to take the form of any reptilian beast or Dinosaur with a CR as high as 1. You ignore the max CR column of the Beast Shapes table, but must abide by all other limitations.
+
+
+Dinosaur forms can be found on page 79 of the Monster Manual and on page 139 of Volo's Guide to Monsters. You do not need to have seen the Dinosaurs before in order to Wild Shape into them, as their memory flows in your veins.
+
+However, the ability to Wild Shape into these powerful forms is not without cost. Your ability to Wild Shape ability is now restricted to Dinosaurs and their descendants; birds and reptiles. Examples of avian and reptilian beasts from the Monster Manual include Crocodiles, Snakes and Vultures.
+
+Starting at 6th level, you can transform into a Dinosaur with a challenge rating as high as your Druid level divided by 3, rounded down.
+
+### Primal Strikes
+Your natural weapons and those of your Nature's Ally count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+
+### Dreadful Wild Shape
+You can expend two uses of your Wild Shape at once to transform into a Dinosaur with a CR equal to your Druid level divided by 2, rounded down.
+
+In addition you have advantage on Constitution saving throws that you make to maintain your concentration on your Nature's Ally.
+
+### Monstrous Form
+You have mastered the use of your Ancient Forms. You can cast the enlarge portion of *enlarge/reduce* as a ***bonus action***, targeting only yourself, while in Wild Shape, without consuming a spell slot.
+
+You can use this ability a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.
+
 
 
 
