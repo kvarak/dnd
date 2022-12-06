@@ -230,7 +230,7 @@ Svirfneblin believe that survival depends on avoiding entanglements with other c
 ### Deep gnome Feats
 Your deep gnome character has access to the following special feat.
 
-<div class="columnswo">
+<div class="columnstwo">
 
 -   <div class="feat">
 
@@ -273,7 +273,7 @@ Your deep gnome character has access to the following special feat.
 
 An gnome approaches some classes is a bit different than other races. When you select one of these classes, it is modified as follows:
 
-<div class="columnswo">
+<div class="columnstwo">
 
 - ### Alchemist
     **Rock gnomes** like explosions and naturally gravitate toward the mad bomber archetype. Whenever the Alchemist class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
@@ -849,19 +849,19 @@ gods in the table are described below.
 
 | Deity | Alignment | Province | Domains | Common Symbol
 |:----|:--:|:-----|:----|:----|
-| Baervan Wildwanderer | NG | Woodlands | Nature | Face of a raccoon
-| Baravar Cloakshadow | NG | Illusion, deception | Arcana, Illusion, Trickery | Dagger against a hooded cloak
+| <a href="#internal-BaervanWildwanderer">Baervan Wildwanderer</a> | NG | Woodlands | Nature | Face of a raccoon
+| <a href="#internal-BaravarCloakshadow">Baravar Cloakshadow</a> | NG | Illusion, deception | Arcana, Illusion, Trickery | Dagger against a hooded cloak
 | Bleredd | N | Labor, craft | Fire, Forge | Iron mule
-| Callarduran Smoothhands | N | Mining, stone carving | Earth, Forge, Knowledge | Golden signet ring with sixpointed star
-| Flandal Steelskin | NG | Metalwork | Fire, Forge, Knowledge | Flaming hammer
-| Gaerdal Ironhand | LG | Protection | Heroism, Protection, War | Iron band
-| Garl Glittergold | LG | Primary god of gnomes | Fortune, Illusion, Trickery, Whimsy | Gold nugget
+| <a href="#internal-CallarduranSmoothhands">Callarduran Smoothhands</a> | N | Mining, stone carving | Earth, Forge, Knowledge | Golden signet ring with sixpointed star
+| <a href="#internal-FlandalSteelskin">Flandal Steelskin</a> | NG | Metalwork | Fire, Forge, Knowledge | Flaming hammer
+| <a href="#internal-GaerdalIronhand">Gaerdal Ironhand</a> | LG | Protection | Heroism, Protection, War | Iron band
+| <a href="#internal-GarlGlittergold">Garl Glittergold</a> | LG | Primary god of gnomes | Fortune, Illusion, Trickery, Whimsy | Gold nugget
 | Gelf Darkhearth | CN | Frustration, destruction | Chaos, Trickery, Vengeance, Whimsy | Broken anvil
-| Nebelun | CG | Invention, luck | Fortune, Knowledge, Trickery, Whimsy | Bellows and lizard tail
+| <a href="#internal-Nebelun">Nebelun</a> | CG | Invention, luck | Fortune, Knowledge, Trickery, Whimsy | Bellows and lizard tail
 | Rill Cleverthrush | LN | Law, thought | Fate, Knowledge | Interlocking gears
-| Segojan Earthcaller | NG | Earth, the dead | Life, Light, Repose | Glowing gemstone
+| <a href="#internal-SegojanEarthcaller">Segojan Earthcaller</a> | NG | Earth, the dead | Life, Light, Repose | Glowing gemstone
 | Sheyanna Flaxenstrand | CG | Love, beauty, passion | Celebration, Charm, Life, Light | Two silver goblets
-| Urdlen | CE | Greed, murder | Death, War | White-clawed mole emerging from ground
+| <a href="#internal-Urdlen">Urdlen</a> | CE | Greed, murder | Death, War | White-clawed mole emerging from ground
 
 </div>
 
