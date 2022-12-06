@@ -62,8 +62,6 @@ Includes maces, hammers and picks. Weighted toward the top and attached to a sha
 ##### Rank 3
 - ***Savage Critical***. When you score a critical hit, you may roll one extra damage die.
 
-##### Rank 4
-- ***Intimidating Slash***. On your turn, when you score a critical hit or reduce a creature to 0 hit points, you can use a ***reaction*** to make a Strength (Intimidation) check, contested by the Wisdom of creatures that can see and hear you within 30 ft. If you succeed, the creatures are frightened of you until the end of your next turn.
 </details>
 
 
@@ -116,6 +114,20 @@ The knife group includes daggers, knives, stilettos and punching daggers. Basica
 - ***Barrage***. The small nature of these weapons make it easy to throw multiples at once. Immediately after you take the Attack action on your turn to make a ranged knife attack, you can make an additional ranged knife attack as a ***bonus action***.
 - ***Riposte***. When a creature misses you with a melee attack, you can use your ***reaction*** to make a knife attack against that creature.
 - ***Try again***. When you attack a creature with a knife during your turn and miss, you can use your ***bonus action*** to make another attack with the weapon against the same creature.
+</details>
+
+
+<details><summary>Lance</summary>
+
+*Melee*
+
+The lance is a special weapon that is used when mounted. It only exists as a martial weapon.
+
+##### Rank 3
+- ***Savage Critical***. When you score a critical hit, you may roll one extra damage die.
+
+##### Rank 4
+- ***Intimidating Slash***. On your turn, when you score a critical hit or reduce a creature to 0 hit points, you can use a ***reaction*** to make a Strength (Intimidation) check, contested by the Wisdom of creatures that can see and hear you within 30 ft. If you succeed, the creatures are frightened of you until the end of your next turn.
 </details>
 
 
