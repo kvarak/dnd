@@ -9,7 +9,7 @@ layout: default
 <a href="#internal-Golarion">Golarion Deities</a><br/>
 <a href="../Folk/dwarf.html#internal-religion">Dwarven Deities <i>(see Dwarf folk)</i></a><br/>
 <a href="../Folk/elf.html#internal-seldarine">Elf Deities <i>(see Elf folk)</i></a><br/>
-<a href="#internal-Gnome">Gnome Deities</a><br/>
+<a href="../Folk/gnome.html#internal-gnomeGods">Gnome Deities <i>(see Gnome folk)</i></a><br/>
 <a href="#internal-Halfling">Halfling Deities</a><br/>
 <a href="#internal-Nonhuman">Other Nonhuman Deities</a><br/>
 <a href="#internal-Celtic">Celtic Deities</a><br/>
@@ -308,7 +308,7 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 
 * <a href="../Folk/dwarf.html#internal-religion">Dwarven Deities <i>(see Dwarf folk)</i></a>
 * <a href="../Folk/elf.html#internal-seldarine">Elf Deities <i>(see Elf folk)</i></a>
-* <a href="#internal-Gnome">Gnome Deities</a>
+* <a href="../Folk/gnome.html#internal-gnomeGods">Gnome Deities <i>(see Gnome folk)</i></a><br/>
 * <a href="#internal-Halfling">Halfling Deities</a>
 * <a href="#internal-Nonhuman">Other Nonhuman Deities</a>
 * <a href="#internal-Celtic">Celtic Deities</a>. Worshiped by nature folk and druids.
@@ -343,28 +343,6 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 | Norgorber  | NE | God of greed, secrets, poison, murder  | Death, Hunting, Knowledge, Trickery |
 | Lamashtu  | CE | Goddess of madness, monsters, nightmares | Chaos, Death, Hunting, Survival, Trickery |
 | Rovagug  | CE | God of wrath, disaster, destruction | Death, Desert, Strength, Tempest, War |
-
-</div>
-
-<div class="classTable frame" markdown="1">
-<h5><a class="internal-link" name="internal-Gnome">Gnome Deities</a></h5>
-
-| Deity | Alignment | Province | Domains | Common Symbol
-|:----|:--:|:-----|:----|:----|
-| Baervan Wildwanderer | NG | Woodlands | Nature | Face of a raccoon
-| Baravar Cloakshadow | NG | Illusion, deception | Arcana, Trickery | Dagger against a hooded cloak
-| Bleredd | N | Labor, craft | Forge | Iron mule
-| Callarduran Smoothhands | N | Mining, stone carving | Forge, Knowledge | Golden signet ring with sixpointed star
-| Flandal Steelskin | NG | Metalwork | Forge, Knowledge | Flaming hammer
-| Gaerdal Ironhand | LG | Protection | Order, Protection, War | Iron band
-| Garl Glittergold | LG | Primary god of gnomes | Fortune, Trickery | Gold nugget
-| Gelf Darkhearth | CN | Frustration, destruction | Chaos, Trickery, Vengeance | Broken anvil
-| Nebelun | CG | Invention, luck | Fortune, Knowledge, Trickery | Bellows and lizard tail
-| Rill Cleverthrush | LN | Law, thought | Fate, Knowledge | Interlocking gears
-| Segojan Earthcaller | NG | Earth, the dead | Life, Light, Repose | Glowing gemstone
-| Sheyanna Flaxenstrand | CG | Love, beauty, passion | Celebration, Charm, Life, Light | Two silver goblets
-| Urdlen | CE | Greed, murder | Death, War | White-clawed mole emerging from ground
-
 
 </div>
 
