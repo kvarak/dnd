@@ -14,8 +14,6 @@ layout: default
 #### <a href="#internal-class">Class options</a>
 #### <a href="#internal-feats">Feats</a>
 #### <a href="#internal-personality">Gnomish personality traits</a>
-#### **Gnome class archetypes**
-- <a href="#internal-trickster">Trickster ranger conclave</a>
 
 #### **<a href="#internal-race">The Gnomes</a>**
 <a href="#internal-drinkingDeeplyLife">Drinking deeply of life</a><br/>
@@ -345,7 +343,7 @@ An gnome approaches some classes is a bit different than other races. When you s
 
     </div>
 
-    **Rock gnomes** have access to the <a href="#internal-tinkerKnight">Tinker knight</a> archetype.
+    **Rock gnomes** have access to the <a href="../Classes/fighter.html#internal-tinkerKnight">Tinker knight</a> archetype.
 
     <hr class="dividerinfolk">
 
@@ -375,7 +373,7 @@ An gnome approaches some classes is a bit different than other races. When you s
     <hr class="dividerinfolk">
 
 - ### Ranger
-    As a gnome ranger you have access to the <a href="#internal-trickster">Trickster conclave</a>.
+    As a gnome ranger you have access to the <a href="../Classes/ranger.html#internal-trickster">Trickster conclave</a>.
 
     Whenever the Ranger class description mentions your Wisdom modifier you may instead your proficiency bonus. In addition, you may use the same modifier instead of Strength or Dexterity when attacking (attack and damage). Make this choice at level 1 and it cannot be changed later.
 
@@ -739,7 +737,7 @@ can't pass by a door that calls them names.)
 
 ## <a class="internal-link" name="internal-deepGnomes">Deep Gnomes</a>
 
-<img src='https://www.worldanvil.com/uploads/images/6bd6390db7215d10b9d594525eef6205.png' style='float:right;width:40%;padding:20px' />
+<img src='https://www.worldanvil.com/uploads/images/6bd6390db7215d10b9d594525eef6205.png' style='float:right;width:30%;padding:20px' />
 
 Deep gnomes, or svirfneblin, are the pragmatic and often
 grumpy cousins of the gnome family, who live deep
@@ -1080,7 +1078,7 @@ reminder of the importance of participating in society.
 >
 > -- Delaan Winterhound
 
-<img src='https://i.pinimg.com/originals/a8/74/54/a874542df88299ccb37275d2de306a67.png' style='float:right;width:40%;padding:20px' />
+<img src='https://i.pinimg.com/originals/a8/74/54/a874542df88299ccb37275d2de306a67.png' style='float:right;width:20%;padding:20px' />
 
 When a gnome leaves the burrow, the force behind that
 decision is almost always curiosity -an insatiable need
@@ -1158,227 +1156,5 @@ of duty rather than a sense of humor to an adventuring
 group. With their grit and iron will, deep gnomes meet
 adversity with hammers, picks, and their dour, dry wit -or
 no wit at all- as their weapons of choice.
-
-
-
-
-
-
-
-
-# <a class="internal-link" name="internal-tinkerKnight">Tinker Knight</a>
-The inventive warriors known as Tinker Knights seek an unorthodox form of martial skill. Rather than hone their physical abilities with the armaments of war, they look to augment their mundane physical abilities with mechanical inventions and innovative weaponry.
-
-Warriors adopt the archetype of the Tinker Knight for many reasons. Some have been grievously injured, and use their ingenuity to make up for their physical shortcomings. Others seek to put their sharp minds to use, but still desire to swing their sword and raise their shield on the front lines of the battlefield.
-
-
-#### Archetype Features
-| Fighter Level | Feature |
-|:-------------:|:--------|
-| 3rd | Bonus Proficiencies, Inventive Arsenal
-| 7th | Tinker's Expertise
-| 10th | Mechanical Synergy
-| 15th | Flexible Innovation
-| 18th | Masterwork Inventions
-
-
-### Bonus Proficiencies
-You gain the skill to maintain your inventive arsenal. You gain proficiency with tinker's tools and smith's tools. If you are already proficient with either of these tools, you instead have advantage on checks with those  tools.
-
-### Inventive Arsenal
-As a Tinker knight, you have come up with a variety of strange modifications for weapons and armor. You learn two schematics of your choice, from the schematics listed at the end of this archetype description.
-
-Each time you gain a level in this class, you can replace one schematic you know with a different one from this feature. You learn additional schematics as you gain fighter levels, as shown in the Schematics Known table.
-
-
-#### Schematics Known
-| Fighter Level | Number of Schematics |
-|:-------------:|:--------|
-| 3rd | 2
-| 7th | 3
-| 10th | 4
-| 15th | 5
-
-
-Whenever you finish a long rest, you can take 10 minutes to adjust a number of objects equal to the number of schematics you know, modifying each object to gain the features of each schematic. To be eligible, an object must meet the requirements stated in the schematic description.
-
-
-
-The modifications from each schematic last until the end of your next long rest, and an object can only be modified by one schematic at a time.
-
-***Saving Throws***. If a schematic requires a saving throw, your Schematic save DC is calculated as 8 + your proficiency bonus + your Intelligence modifier.
-
-### Tinker's Expertise
-Your inventive skill has grown to rival the best of innovators. Items modified by your schematics count as magical for overcoming resistances and immunities, and you can apply your schematics to magical weapons and armor.
-
-A magic item cannot gain more than a +3 bonus to attack rolls, damage rolls, or AC through this feature.
-
-### Mechanical Synergy
-You have learned to make your modifications work together. You can now apply two of your schematics to one item as long as the item meets both prerequisites.
-
-### Flexible Innovation
-You have gained such a familiarity with your inventive arsenal that you can make adjustments in a relatively short amount of time. At the end of a short rest, you can remove the effects of one of your schematics from an item and apply the schematic to a different item that meets the prerequisites. If a schematic's effect has a limited amount of uses per day, the number of expended uses stays the same when transferred.
-
-In addition, you can apply up to three schematics to one item if that item meets the prerequisites for each schematic.
-
-### Masterwork Inventions
-Your innovations to the armaments of war are beyond compare. Weapons modified by your schematics gain a +1 bonus to attack and damage rolls for each schematic applied to them. In the same vein, suits of armor modified by your schematics gain a +1 bonus to Armor Class for each schematic applied to them.
-
-A weapon or suit of armor modified by your schematics cannot gain a bonus greater than +3, regardless of any innate bonuses the item may have had before being modified.
-
-
-
-
-
-
-
-
-## Schematics
-The following schematics are available to you when you learn a new schematic. If a schematic has a level requirement, you can learn it at the same time you meet the requirement.
-
-#### Featherweight Schematic
-You modify the metallurgical makeup of an item, making it lighter. While wearing or wielding an item modified by this schematic, your movement speed increases by 5 feet.
- ***Heavy Armor***. When applied, the wearer ignores any Strength requirements the armor may have, or any penalty it imposes upon Dexterity (Stealth) checks.
- ***Light Armor***. When applied, the wearer can subtract up to 100 feet from their fall when calculating fall damage and can move horizontally 2 feet for every 1 foot they fall.
- ***Weapon***. When applied, a Heavy weapon becomes normal weight, and a normal weapon becomes Light.
-
-#### Intuitive Schematic
-You modify an item to take advantage of your martial and investigative instincts. While wearing or wielding an item modified by this schematic, you gain proficiency with the Investigation skill and have advantage on any Investigation checks you make
- ***Armor***. When applied, the wearer can use Intelligence in place of Dexterity, when calculating AC.
- ***Weapon***. When applied, the wielder can use Intelligence modifier in place of Strength or Dexterity, for attack and damage rolls with this weapon.
-
-#### Radiant Schematic
-You imbue an item with a source of radiant energy. While wearing or wielding an item modified by this schematic, you can use a ***bonus action*** to cause the item to emit bright light in a 15-foot radius, and dim light 15 feet beyond that. You can extinguish the light as a ***bonus action*** on your turn.
- ***Armor or Weapon***. When you are hit by an attack (armor), or hit a creature with an attack (weapon), you can use your ***reaction*** to force the creature to make a Constitution saving throw. On a failed save, the creature is blinded for 1 minute. It can repeat this saving throw at the end of each of its turns, ending the effect on a success. Once you use this feature, you must finish a long rest before you can use it again.
-
-#### Rebounding Schematic
-You modify an item so that it has elastic properties. While wearing or wielding an item modified by this schematic, you can use your ***reaction*** to add your Intelligence modifier to AC against one attack.
- ***Armor***. When the wearer of this armor is hit by an attack, they can use their ***reaction*** to reduce the damage by an amount equal to 1d12 + their Intelligence modifier. If they reduce the damage to 0, the attacker takes the full damage of the attack as if they had been the original target. Once you use this feature you must finish a short rest before you can use it again.
-
-
-
- ***Non-Heavy Weapon***. When applied, the weapon gains the thrown property with a range of 20 feet. After making an attack with this weapon, it immediately returns to the wielder.
-
-#### Empowered Schematic
-*Prerequisite: 7th level Tinker Knight*
-
-You modify this item with complex clockwork mechanics that improve your physical capability and hone your reflexes. While wearing or wielding an item modified by this schematic, you gain a bonus to your initiative rolls equal to your Intelligence modifier.
- ***Heavy Armor***. When applied, the wearer can use their Intelligence score, in place of Strength, for any Strength ability checks or saving throws you make.
- ***Light Armor***. When applied, the wearer can use their Intelligence score, in place of Dexterity, for any Dexterity ability checks or saving throws they make.
- ***Weapon***. When applied, anytime you roll a 1 or 2 for a damage roll with this weapon, you can choose to re-roll the die, but you must use the new result even if it is a 1 or 2.
-
-#### Resilient Schematic
-*Prerequisite: 7th level Tinker Knight*
-
-You modify the metallurgical makeup of this item to make it far more resilient. While wearing or wielding an item modified by this schematic you have advantage on saving throws to resist being grappled or moved against your will.
- ***Armor***. When applied, this armor grants resistance to nonmagical bludgeoning, piercing, and slashing damage.
- ***Weapon***. When applied, this weapon deals bonus damage equal to your Intelligence modifier + your fighter level when you score a critical hit.
-
-## Archetype Maneuvers
-The following maneuvers are available only to a Tinker knight. Tinker knights focus on overcoming enemies and obstacles with the help of their mechanical inventions.
-
-#### Feats of Mechanical Strength
-When you make a Strength check or are forced to make a Strength saving throw, you can use your ***reaction*** to expend a superiority die to gain a bonus to your roll equal to your superiority die roll + your Intelligence modifier.
-
-#### Spring-Loaded Leap
-When you make a high or long jump, you can expend a superiority die as part of your movement to increase your jump distance by a number of feet equal to two rolls of your superiority die.
-
-#### Tinker's Insight
-When you make an Investigation check, or a check with a set of artisan's tools in which you are proficient, you can expend a superiority die to gain a bonus to your roll equal to two rolls of your superiority die.
-
-
-
-
-
-
-
-
-# <a class="internal-link" name="internal-trickster">Trickster Conclave</a>
-Kobold rangers are regularly underestimated, but those in the Trickster conclave use that lack of esteem as both a defense and an offense, when need be. Using their cleverness and various talents, they create their own advantages in order to level the playing field.
-
-
-#### Conclave Features
-| Ranger Level | Feature |
-| :----------: | :------ |
-| 3rd | Combat Trickster, Opportune Strike |
-| 5th | Rabbit from a Hat |
-| 7th | Out of Sight, Out of Reach, Combat Trickster (additional tricks, d8 damage) |
-| 11th | Exploitative Nature |
-| 15th | Elusive Foe, Combat Trickster (additional tricks) |
-
-
-### Combat Trickster
-Starting when you join this conclave, you learn how to use your ingenuity, deft hands, and the knowledge you've accumulated, to counteract that you are physically at a disadvantage to most foes. You gain proficiency with tinker’s tools if you don't have it already.
-
- **Combat Tricks**. The conclave has entrusted you with three blueprints and designs for combat tricks; items meant to hinder your enemies. The combat tricks are detailed at the end of the archetype description. You learn the design of one additional combat trick at 7th and 15th level.
-
- **Trick Capacity**. Using your tinker tools, you can spend a short rest crafting or repairing a combat trick. You can only carry four of these combat tricks at any given time. Your trick capacity increases by one at 7th level and 15th level.
-
- **Saving Throws**. Your combat tricks require creatures that trigger them to make a saving throw to avoid its effects. The saving throw DC is calculated as follows: Combat Trick DC = 8 + your proficiency bonus + your Intelligence or Wisdom modifier (your choice)
-
-### Opportune Strike
-You have leart how to exploit the openings your combat tricks create. When a creature fails a saving throw against one of your combat tricks, you can use a ***reaction*** to make one weapon attack against it. Additionally, you never trigger your own combat tricks unless you want to.
-
-### Rabbit From a Hat
-Your familiarity with the combat tricks you employ improves your handling of them. You can choose to use combat tricks as a ***bonus action***.
-
-
-
-Additionally, when you craft or repair a combat trick, you can spend a spell slot to enchant it. An item enchanted in this way deals your choice of fire or poison damage when a creature fails its saving throw against it. The damage is 3d6 for a 1st-level spell slot, plus 1d6 for each spell level higher than 1st. If more than one combat trick is placed in the same area, a creature only takes damage from the most powerful of them. Regardless of whether the creature fails its saving throw or not, the magic imbued in the item is expended.
-
-### Out of Sight, Out of Reach
-You always have a plan to get out of a sticky situation. You can use a ***bonus action*** to take the Disengage action.
-
-### Exploitative Nature
-Your keen eye knows exactly which signs to look for, and how to exploit a show of weakness, no matter how slight it is. When you use a ***reaction*** to attack a creature because it failed a saving throw against one of your combat tricks, you can make two weapon attacks instead of one.
-
-### Elusive Foe
-You can use every opportunity to get out of dodge. When a creature fails a saving throw against one of your combat tricks, you can use your ***reaction*** to move up to half your speed.
-
-## Combat tricks
-Some of the items here are also in the Player's Handbook, but these versions are slightly improved, due to the time, effort, and talent poured into making them.
-
-In addition to hindering your enemies in some way, some are also designed to harm. When combat tricks deal damage, they refer to your trick die, which starts out as d6, and at 7th level it becomes d8.
-
- **Ball bearings (bag of 1,000)**. As an ***action***, you can spill these tiny metal, glass, crystal, stone, or bone balls from their pouch to cover a level area 10 feet square. The first Large or smaller creature moving across the covered area must succeed on a Dexterity saving throw or fall prone, taking 1 trick die of bludgeoning damage.
-
- **Caltrops (bag of 20)**. As an ***action***, you can spread a single bag of caltrops to cover a 5-foot-square area. The first creature that enters the area must succeed on a Dexterity saving throw or stop moving and take 2 trick dice of piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed makes the saving throw with advantage.
-
-
-
-
-
-
-
-
- **Flash Rods (one pair)**. As an ***action***, you can place these two rods connected by a thin wire on a flat surface. The first creature that passes between the rods trips the wire, making the rods flare up in an intensely bright light. The creature must succeed on a Constitution saving throw or be blinded until the end of the turn.
-
- **Oil Fountain**. As an ***action***, you can place this small metal cube attached to a pressure plate on the ground. The first creature that steps on the plate must succeed on a Dexterity saving throw or be sprayed with a highly volatile substance. If the creature takes fire or lightning damage before the substance evaporates at the start of its next turn, it takes 1 trick die fire damage and must succeed on a Wisdom saving throw to withstand the shock of being lit on fire. If it fails, it must use its reaction to move its movement speed in a random direction.
-
- -- **Special**. An oil trap is harder to place  efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
-
- **Portable Ice (bag of 50)**. As an ***action***, you can spread a single bag of these compressed ice pellets to cover a 5-foot-square area. The first creature that enters the area triggers the pellets, making them expand rapidly, forming a 20-feet tall ice pillar that immediately shatters. Any Large or smaller creatures in the area must succeed on a Dexterity saving throw or be lifted by the pillar. Tiny creatures don't trigger the pellets.
-
- -- **Special**. You need access to water to craft these pellets, and they melt after 1 hour if in extreme heat.
-
- **Screeching Sirens (soundproof container)**. As an ***action***, you can place the brittle container on the ground. The first Small or larger creature that enters its 5-foot area causes the container to break, releasing the short-lived bugs inside it. The bugs are drawn to the nearest source of body heat, while emitting a high-pitched sound. Until the start of its next turn, the creature must succeed on a Charisma saving throw in order to cast a spell with verbal components.
-
- --**Special**. You need access to bugs normally found in the wild to collect enough of them to be efficient, so the DM may rule that a city, dungeon or similar restricts how many, if any, you can craft.
-
-
-
- **Snap trap**. When you use your ***action*** to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a Dexterity saving throw or take 1 trick die of piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 trick die of piercing damage to the trapped creature.
-
- -- **Special**. A snap trap is harder to place efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
-
- **Sonic Sphere**. As an ***action***, you can place a small metal sphere on the ground. Highly sensitive to vibrations in the ground, the sphere will activate when the first creature enters its 5-foot area, creating a burst of thunderous sound, which can be heard 100 feet away. The creature must make a Constitution saving throw or take 2 trick dice thunder damage and be deafened until the end of its next turn.
-
- **Sneezing Powder Pellets (bag of 10)**. As an ***action***, you spread a single bag of these hollow, lightweight husks filled with ground seeds to cover a 5-foot square. The first creature that enters the area must succeed on a Constitution saving throw or take 1 trick die of poison damage and spend its action sneezing violently.
-
- **Twitchers (bag of 40)**. As an ***action***, you use a single bag of these tiny metal rods holding trace amounts of lightning energy to cover two 5-foot-square areas. The first creature that enters an area must succeed on a Constitution saving throw or take 1 trick die of lightning damage from the small current running through them. A creature that fails this saving throw has disadvantage on the next attack it makes before the end of its next turn.
-
-
-
-
 
 
