@@ -12,10 +12,8 @@ layout: default
 <a href="#internal-deep">Deep Gnome</a>
 
 ##### <a href="#internal-class">Class options</a>
-##### <a href="#internal-feats">Feats</a>
-##### <a href="#internal-personality">Gnomish personality traits</a>
 
-##### **<a href="#internal-race">The Gnomes</a>**
+##### **<a href="#internal-race">The Gnome Race</a>**
 <a href="#internal-drinkingDeeplyLife">Drinking deeply of life</a><br/>
 <a href="#internal-rockGnomes">Rock Gnomes</a><br/>
 <a href="#internal-forestGnomes">Forest Gnomes</a><br/>
