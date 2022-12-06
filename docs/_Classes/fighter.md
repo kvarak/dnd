@@ -33,8 +33,8 @@ layout: default
 <a href="#internal-tinkerKnight">Tinker Knight</a>
 
 
-#### <a href="#internal-FightingStyles">Fighting Styles</a>
-#### <a href="#internal-combatManeuvers">Maneuvers</a>
+##### <a href="#internal-FightingStyles">Fighting Styles</a>
+##### <a href="#internal-combatManeuvers">Maneuvers</a>
 
 </div>
 
