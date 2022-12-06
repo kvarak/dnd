@@ -34,8 +34,6 @@ As far as gnomes are concerned, being alive is a wonderful thing, and they squee
 
 Gnomes speak as if they can't get the thoughts out of their heads fast enough. Even as they offer ideas and opinions on a range of subjects, they still manage to listen carefully to others, adding the appropriate exclamations of surprise and appreciation along the way.
 
-<img src='http://4.bp.blogspot.com/-ZoPK7hJMDP4/T1LaEqgMKpI/AAAAAAAACZM/y-F5CEWcu_g/s1600/Lini+-+Druid.png' style='float:right;width:20%;padding:20px' />
-
 > *"Skinny and flaxen-haired, his skin walnut brown and his eyes a startling turquoise, Burgell stood half as tall as Aeron and had to climb up on a stool to look out the peephole. Like most habitations in Oeble, that particular tenement had been built for humans, and smaller residents coped with the resulting awkwardness as best they could.*
 >
 > *But at least the relative largeness of the apartment gave Burgell room to pack in all his gnome-sized gear. The front room was his workshop, and it contained a bewildering miscellany of tools: hammers, chisels, saws, lockpicks, tinted lenses, jeweler's loupes, and jars of powdered and shredded ingredients for casting spells. A fat gray cat, the mage's familiar, lay curled atop a grimoire. It opened its eyes, gave Aeron a disdainful yellow stare, then appeared to go back to sleep."*
@@ -120,9 +118,12 @@ Your forest gnome character has access to the following special feats.
 
     ## Critter Friend
     Your friendship with animals mystically deepens.
-    - Increase your **Wisdom** score by 1.
-    - You gain proficiency with Animal Handling. If already proficient, you instead have advantage on all check made with the skill.
-    - You learn the *speak with animals* spell and can cast it at will without expending a spell slot. You also learn the *animal friendship* spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Wisdom is your spellcasting ability for these spells.
+
+    Increase your **Wisdom** score by 1.
+
+    You gain proficiency with Animal Handling. If already proficient, you instead have advantage on all check made with the skill.
+
+    You learn the *speak with animals* spell and can cast it at will without expending a spell slot. You also learn the *animal friendship* spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Wisdom is your spellcasting ability for these spells.
 
     </div>
 
@@ -130,11 +131,14 @@ Your forest gnome character has access to the following special feats.
 
     ## Fade Away
     You can draw on your magical heritage to escape danger.
-    * Increase your **Wisdom** score by 1.
-    * When you take damage, you can use a ***reaction*** to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short rest.
 
+    Increase your **Wisdom** score by 1.
+
+    When you take damage, you can use a ***reaction*** to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short rest.
 
     </div>
+
+- <img src='http://4.bp.blogspot.com/-ZoPK7hJMDP4/T1LaEqgMKpI/AAAAAAAACZM/y-F5CEWcu_g/s1600/Lini+-+Druid.png' style='width:80%;padding:20px' />
 
 </div>
 
@@ -148,41 +152,41 @@ As a rock gnome, you have a natural inventiveness and hardiness beyond that of o
 
 A constant hum of busy activity pervades the warrens and neighborhoods where the rock gnomes form their closeknit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play.
 
- **Ability Score Increase**. Your Intelligence ability score, both current and maximum, increases by 2.
+<div class="columnsthree">
 
- **Languages**. You know Common and Gnomish. The Gnomish language is renowned for its technical treatises and its catalogs of knowledge about the natural world.
+- <img src='https://robertrigo.github.io/pics/gnome_explosion.png' style='width:80%;padding:20px' />
 
- **Artificer's Lore**. Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you have advantage.
+- **Ability Score Increase**. Your Intelligence ability score, both current and maximum, increases by 2.
 
- **Tinker**. You have proficiency with tinker's tools. Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.
+- **Languages**. You know Common and Gnomish. The Gnomish language is renowned for its technical treatises and its catalogs of knowledge about the natural world.
 
- When you create a device, choose one of the following:
+- **Artificer's Lore**. Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you have advantage.
 
- ***Bouncing Boots***. A pair of metal-reinforced boots with multiple coils and a ratchet-system between a steel innersole and a leather-bottomed outer sole, bouncing boots are guaranteed to add a spring to anyone’s step. Using them requires unlocking them by hand and jumping upwards to ‘prime them’. Six seconds after landing, the timed ratchet releases and the coils unwind violently, propelling the wearer 15 feet. A successful untrained Athletics (Dexterity) check against DC 10 allows the wearer to guide this sudden movement in any direction desired; otherwise the jump occurs in a random direction. Colliding with a solid object larger than the wearer during a jump results in 1d6 points of damage. When the user lands, he must spend his next round relocking the boots. Failure to do so results in another 15-foot jump the next round.
+- **Tinker**. You have proficiency with tinker's tools. Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.
 
- ***Clockwork Toy***. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
+  When you create a device, choose one of the following:
 
+-  -- ***Bouncing Boots***. A pair of metal-reinforced boots with multiple coils and a ratchet-system between a steel innersole and a leather-bottomed outer sole, bouncing boots are guaranteed to add a spring to anyone’s step. Using them requires unlocking them by hand and jumping upwards to ‘prime them’. Six seconds after landing, the timed ratchet releases and the coils unwind violently, propelling the wearer 15 feet. A successful untrained Athletics (Dexterity) check against DC 10 allows the wearer to guide this sudden movement in any direction desired; otherwise the jump occurs in a random direction. Colliding with a solid object larger than the wearer during a jump results in 1d6 points of damage. When the user lands, he must spend his next round relocking the boots. Failure to do so results in another 15-foot jump the next round.
 
+-  -- ***Clockwork Toy***. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
 
- ::::::::::::::::::::::::::::
- ***Fire Starter***. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your ***action***.
+-  -- ***Fire Starter***. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your ***action***.
 
- ***Music Box***. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.
+-  -- ***Music Box***. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.
 
- ***Shield, Retractable***. Due to the ingenuity of gnomes, the retractable shield has come from the depths of imagination to the reality of the battlefield. Though it initially appears to be the size of a buckler, the retractable shield can be expanded with the pulling of a release key. Upon release the fans that make up the retractable shield spread out and become a large shield. Retractable shields require one minute to retract to their original state and this is done by turning the key until the fans that make up the shield lock into place.
+-  -- ***Shield, Retractable***. Due to the ingenuity of gnomes, the retractable shield has come from the depths of imagination to the reality of the battlefield. Though it initially appears to be the size of a buckler, the retractable shield can be expanded with the pulling of a release key. Upon release the fans that make up the retractable shield spread out and become a large shield. Retractable shields require one minute to retract to their original state and this is done by turning the key until the fans that make up the shield lock into place.
 
- ***Shield, Widowmaker***. This strange, gnomish device appears to be an ordinary shield with pyramidlike protrusions around the periphery. The shield works similarly to a bear trap in that, when the shield is struck and the character releases the trip-cord, it snaps shut. Thus, if an opponent misses the bearer of a widowmaker shield by two or less on an attack roll, the character may choose to release the trip-cord and have the shield attempt to close on the opponent’s weapon. The opponent must make a Dexterity save (DC 10) or have the item they were wielding become trapped in the shield’s grip (Strength check DC 10 to break the widowmaker’s grip). If the opponent was using his bare fist to strike at the character with the widowmaker and they fail their save, their hand becomes trapped instead. Once a widowmaker shield is triggered the character loses the AC bonus from the shield. A widowmaker shield takes one minute to reset.
+-  -- ***Shield, Widowmaker***. This strange, gnomish device appears to be an ordinary shield with pyramidlike protrusions around the periphery. The shield works similarly to a bear trap in that, when the shield is struck and the character releases the trip-cord, it snaps shut. Thus, if an opponent misses the bearer of a widowmaker shield by two or less on an attack roll, the character may choose to release the trip-cord and have the shield attempt to close on the opponent’s weapon. The opponent must make a Dexterity save (DC 10) or have the item they were wielding become trapped in the shield’s grip (Strength check DC 10 to break the widowmaker’s grip). If the opponent was using his bare fist to strike at the character with the widowmaker and they fail their save, their hand becomes trapped instead. Once a widowmaker shield is triggered the character loses the AC bonus from the shield. A widowmaker shield takes one minute to reset.
 
-![gnome](https://robertrigo.github.io/pics/gnome_explosion.png) {position:absolute,top:0px,right:30px,width:42%}
-
-
-
+</div>
 
 
 
 
 
-## <a name="internal-deep">Deep Gnome</a>
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-deep">Deep Gnome</a></h1>
+
 Forest gnomes and rock gnomes are the gnomes most commonly encountered in the lands of the surface world. There is another subrace of gnomes rarely seen by any surface-dweller: deep gnomes, also known as svirfneblin. Guarded, and suspicious of outsiders, svirfneblin are cunning and taciturn, but can be just as kind-hearted, loyal, and compassionate as their surface cousins.
 
 #### Born of Deep Earth
@@ -195,12 +199,15 @@ Svirfneblin are well adapted for their subterranean existence. They have excelle
 #### Deep Gnome Names
 Svirfneblin prefer less flamboyant names than their rock gnome or forest gnome cousins. Clan names reflect skills or occupations that a particular family is associated with, and sometimes change if a noteworthy individual strikes out in a new direction.
 
- **Male Names**: Belwar, Brickers, Durthmeck, Firble, Krieger, Kronthud, Schneltheck, Schnicktick, Thulwar, Walschud
+<div class="columnsthree">
 
- **Female Names**: Beliss, Durthee, Fricknarti, Ivridda, Krivi, Lulthiss, Nalvarti, Schnella, Thulmarra, Wirsidda
+- **Male Names**: Belwar, Brickers, Durthmeck, Firble, Krieger, Kronthud, Schneltheck, Schnicktick, Thulwar, Walschud
 
- **Clan Names**: Crystalfist, Gemcutter, Ironfoot, Rockhewer, Seamfinder, Stonecutter
+- **Female Names**: Beliss, Durthee, Fricknarti, Ivridda, Krivi, Lulthiss, Nalvarti, Schnella, Thulmarra, Wirsidda
 
+- **Clan Names**: Crystalfist, Gemcutter, Ironfoot, Rockhewer, Seamfinder, Stonecutter
+
+</div>
 
 
 ### Deep Gnome Traits
@@ -208,188 +215,219 @@ Short-lived compared to other gnomes, deep gnomes mature at the same rate humans
 
 Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others, except those dearest to them.
 
- **Ability Scores**. You do not apply the gnome ***Ability score changes***.
+<div class="columnsthree">
 
- **Languages**. You know Undercommon.
+- **Ability Scores**. You do not apply the gnome ***Ability score changes***.
 
- **Darkvision**. For 30 ft around you, you can see in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.
+- **Languages**. You know Undercommon.
 
- **Stone Camouflage**. You have advantage on Dexterity (stealth) checks to hide in rocky terrain.
+- **Darkvision**. For 30 ft around you, you can see in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.
+
+- **Stone Camouflage**. You have advantage on Dexterity (stealth) checks to hide in rocky terrain.
+
+</div>
 
 ### Deep gnome Feats
 Your deep gnome character has access to the following special feat.
 
-<div class="feat">
+<div class="columnswo">
 
-## Pickaxe Mastery
-Your time spent wielding a pickaxe allows you to wield it with devastating efficiency.
-- Your **Dexterity**  or **Strength** score increases by 1.
-- You are proficient with pickaxes and can use tham as if they had the finesse and versatile properties, dealing 1d8 piercing damage (1d10 when used with two hands).
-- Whenever you attack with a pickaxe, you can swing wildly, causing your attack to have disadvantage. If you hit, you deal additional damage equal to double your proficiency bonus.
-- Whenever you have disadvantage on an attack roll you make with a pickaxe, the target still takes piercing damage equal to your Strength or Dexterity modifier (your choice) if the attack misses but the higher of the two d20 rolls would have hit.
+-   <div class="feat">
+
+    ## Pickaxe Mastery
+    Your time spent wielding a pickaxe allows you to wield it with devastating efficiency.
+
+    Your **Dexterity**  or **Strength** score increases by 1.
+
+    You are proficient with pickaxes and can use tham as if they had the finesse and versatile properties, dealing 1d8 piercing damage (1d10 when used with two hands).
+
+    Whenever you attack with a pickaxe, you can swing wildly, causing your attack to have disadvantage. If you hit, you deal additional damage equal to double your proficiency bonus.
+
+    Whenever you have disadvantage on an attack roll you make with a pickaxe, the target still takes piercing damage equal to your Strength or Dexterity modifier (your choice) if the attack misses but the higher of the two d20 rolls would have hit.
+
+    </div>
+
+-   <div class="feat">
+
+    ## Svirfneblin Magic
+    You have inherited the innate spellcasting ability of your ancestors.
+
+    Your **Charisma**, **Intelligence** or **Wisdom** score increases by 1.
+
+    You can cast *nondetection* on yourself at will, without needing a material component.
+
+    You can cast each of the following spells once: *blindness/deafness, blur*, and *disguise self*. You regain the ability to cast these spells when you finish a long rest.
+
+    Choose Intelligence, Wisdom or Charisma as your spellcasting ability for these spells. The spells are cast at their lowest possible levels.
+
+    </div>
+
+</div>
 
 
-<div class="feat">
-
-## Svirfneblin Magic
-You have inherited the innate spellcasting ability of your ancestors.
-- Your **Charisma**, **Intelligence** or **Wisdom** score increases by 1.
-- You can cast *nondetection* on yourself at will, without needing a material component.
-- You can cast each of the following spells once: *blindness/deafness, blur*, and *disguise self*. You regain the ability to cast these spells when you finish a long rest.
-
- Choose Intelligence, Wisdom or Charisma as your spellcasting ability for these spells. The spells are cast at their lowest possible levels.
 
 
 
 
+## <a class="internal-link" name="internal-class">Gnome Class Options</a>
 
-
-
-
-
-## <a name="internal-class">Gnome Class Options</a>
 An gnome approaches some classes is a bit different than other races. When you select one of these classes, it is modified as follows:
 
-### Alchemist
-**Rock gnomes** like explosions and naturally gravitate toward the mad bomber archetype. Whenever the Alchemist class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
+<div class="columnswo">
 
-### Barbarian
-Gnomes are not really built for this class. They neither have the physique, nor the anger that makes for a fearsome barbarian.
+- ### Alchemist
+    **Rock gnomes** like explosions and naturally gravitate toward the mad bomber archetype. Whenever the Alchemist class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
-### Bard
-A gnome bard can use his bardic inspiration to cause one or more creatures to become furious with him.
+    <hr class="dividerinfolk">
 
-<div class="feat">
+- ### Barbarian
+    Gnomes are not really built for this class. They neither have the physique, nor the anger that makes for a fearsome barbarian.
 
-## Mock
-You can mock a number of creatures up to 1d6 + your proficiency modifier. Each target must be able to see, hear, and understand you. They receive a Wisdom save (DC 10 + your proficiency bonus + your Charisma modifier). If the saving throw succeeds, you cannot successfully mock that creature for 24 hours. If the saving throw fails, the creature is angered by the performance and seeks to harm you. You can maintain this as a concentration effect, allowing the mocked creatures a new Wisdom save at the end of each of its turns. While you maintain the mocking, the targets has disadvantage on all attack rolls and skill checks until it has successfully damaged you.
+    <hr class="dividerinfolk">
 
+- ### Bard
+    A gnome bard can use his bardic inspiration to cause one or more creatures to become furious with him.
 
-In addition, whenever the Bard class description mentions your Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower.
+    <div class="feat">
 
-### Cavalier
-**Forest gnomes** get very well along with all kinds of animals, and they can be seen riding all kinds of animal, from badgers to moose. With the help from their friends they are very adept on the back of a ridden animal.
+    ## Mock
+    You can mock a number of creatures up to 1d6 + your proficiency modifier. Each target must be able to see, hear, and understand you. They receive a Wisdom save (DC 10 + your proficiency bonus + your Charisma modifier). If the saving throw succeeds, you cannot successfully mock that creature for 24 hours. If the saving throw fails, the creature is angered by the performance and seeks to harm you. You can maintain this as a concentration effect, allowing the mocked creatures a new Wisdom save at the end of each of its turns. While you maintain the mocking, the targets has disadvantage on all attack rolls and skill checks until it has successfully damaged you.
 
-Whenever the Cavalier class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
+    </div>
 
-### Cleric
-Gnomes are like most other humanoids in regards of religion.
+    In addition, whenever the Bard class description mentions your Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower.
 
-If you are a cleric following a gnome deity and one of its domains, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    <hr class="dividerinfolk">
 
+- ### Cavalier
+    **Forest gnomes** get very well along with all kinds of animals, and they can be seen riding all kinds of animal, from badgers to moose. With the help from their friends they are very adept on the back of a ridden animal.
 
+    Whenever the Cavalier class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
 
-### Cursed
-Due to their curiosity, rock gnomes have a higher amount of cursed than any other race. However, any gnome can be cursed.
+    <hr class="dividerinfolk">
 
-You may choose Wisdom or Charisma as your spellcasting ability instead of Intelligence. You make this choice at level 1 and cannot change this later.
+- ### Cleric
+    Gnomes are like most other humanoids in regards of religion.
 
-### Druid
-**Forest gnomes** are very much in tune with nature and gain the **critter friend** feat at level 1. In addition, whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    If you are a cleric following a gnome deity and one of its domains, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-### Feyblood
-**Forest gnomes** commonly gain the Sidhe or Sprig affinity, and if so, gain the **fade away** feat at level 1.
+    <hr class="dividerinfolk">
 
-**Rock gnomes** most commonly have the pooka affinity, and if so, gain +2 to their Luck ability.
+- ### Cursed
+    Due to their curiosity, rock gnomes have a higher amount of cursed than any other race. However, any gnome can be cursed.
 
-**Deep gnome** often have the oread affinity, and if so, gain the ***svirfneblin magic*** feat at level 1.
+    You may choose Wisdom or Charisma as your spellcasting ability instead of Intelligence. You make this choice at level 1 and cannot change this later.
 
-### Fighter
-**Deep gnome** fighters may can add the following fighting style to their selection of fighting styles.
+    <hr class="dividerinfolk">
 
-<div class="feat">
+- ### Druid
+    **Forest gnomes** are very much in tune with nature and gain the **critter friend** feat at level 1. In addition, whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
-## And then I did anyway...
-They told you it was too big and that you shouldn’t train with it. And then you did anyway. Through perseverance, you have managed to overcome your size. You can use weapon with the Heavy property without disadvantage.
+    <hr class="dividerinfolk">
 
+- ### Feyblood
+    **Forest gnomes** commonly gain the Sidhe or Sprig affinity, and if so, gain the **fade away** feat at level 1.
 
-**Rock gnomes** have access to the <a href="#internal-tinkerKnight">Tinker knight</a> archetype.
+    **Rock gnomes** most commonly have the pooka affinity, and if so, gain +2 to their Luck ability.
 
-![gnome](http://2.bp.blogspot.com/-q5vSB2QKzMs/UR1WjXBncEI/AAAAAAAAExg/f2n70fdm1bg/s1600/Rosie+Cusswell.png) {position:absolute,bottom:-30px,right:30px,width:46%}
+    **Deep gnome** often have the oread affinity, and if so, gain the ***svirfneblin magic*** feat at level 1.
 
+    <hr class="dividerinfolk">
 
+- ### Fighter
+    **Deep gnome** fighters may can add the following fighting style to their selection of fighting styles.
 
+    <div class="feat">
 
+    ## And then I did anyway...
+    They told you it was too big and that you shouldn’t train with it. And then you did anyway. Through perseverance, you have managed to overcome your size. You can use weapon with the Heavy property without disadvantage.
 
+    </div>
 
+    **Rock gnomes** have access to the <a href="#internal-tinkerKnight">Tinker knight</a> archetype.
 
+    <hr class="dividerinfolk">
 
-### Inquisitor
-Gnomes mostly ignore the religious practices of other creatures, so the inquisitor role does not really exist.
+- <img src='http://2.bp.blogspot.com/-q5vSB2QKzMs/UR1WjXBncEI/AAAAAAAAExg/f2n70fdm1bg/s1600/Rosie+Cusswell.png' style='width:80%;padding:20px' />
 
-<!--
-### Monster Hunter
-Gnomes are usually peaceful folk, but sometimes **forest gnomes** and **deep gnomes** need to take up arms to defend their homes from invading monsters.
+- ### Inquisitor
+    Gnomes mostly ignore the religious practices of other creatures, so the inquisitor role does not really exist.
 
-Whenever the Monster hunter class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    <hr class="dividerinfolk">
 
-In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
--->
+- ### Paladin
+    Paladins are very rare but they do exist among gnomes, and are then the embodiments of the heroic ideals for their race. This often confuses people when they first meet a gnome paladin, as they expect a paladin to follow the human ideals.
 
-### Paladin
-Paladins are very rare but they do exist among gnomes, and are then the embodiments of the heroic ideals for their race. This often confuses people when they first meet a gnome paladin, as they expect a paladin to follow the human ideals.
+    Suitable archetypes are *oath of the ancients* for forest gnomes, *oath of tomorrow* for rock gnomes and *oath of tradition* for deep gnomes.
 
-Suitable archetypes are *oath of the ancients* for forest gnomes, *oath of tomorrow* for rock gnomes and *oath of tradition* for deep gnomes.
+    Whenever the Paladin class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
-Whenever the Paladin class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
 
-In addition you can add the fighting style from the fighter entry to your selection of fighting styles.
+    <hr class="dividerinfolk">
 
-### Professional
-**Rock gnomes** can become very good professionals, not necessarily because they are good at crafting, but because of their love for experimentation. This mostly ends in disaster, but can also result in great leaps of progress.
+- ### Professional
+    **Rock gnomes** can become very good professionals, not necessarily because they are good at crafting, but because of their love for experimentation. This mostly ends in disaster, but can also result in great leaps of progress.
 
-**Deep gnome** societies are usually completely isolated from other settlements, which forces them to have specialists of different kinds. However, they tend to prefer and value the more practical fields, like the candlemaker, cook or smith.
+    **Deep gnome** societies are usually completely isolated from other settlements, which forces them to have specialists of different kinds. However, they tend to prefer and value the more practical fields, like the candlemaker, cook or smith.
 
-If you are a deep gnome in a more practical field, or a rock gnome, then whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+    If you are a deep gnome in a more practical field, or a rock gnome, then whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
-### Ranger
-As a gnome ranger you have access to the <a href="#internal-trickster">Trickster conclave</a>.
+    <hr class="dividerinfolk">
 
-Whenever the Ranger class description mentions your Wisdom modifier you may instead your proficiency bonus. In addition, you may use the same modifier instead of Strength or Dexterity when attacking (attack and damage). Make this choice at level 1 and it cannot be changed later.
+- ### Ranger
+    As a gnome ranger you have access to the <a href="#internal-trickster">Trickster conclave</a>.
 
-Finally you can add the fighting style from the fighter entry to your selection of fighting styles.
+    Whenever the Ranger class description mentions your Wisdom modifier you may instead your proficiency bonus. In addition, you may use the same modifier instead of Strength or Dexterity when attacking (attack and damage). Make this choice at level 1 and it cannot be changed later.
 
+    Finally you can add the fighting style from the fighter entry to your selection of fighting styles.
 
+    <hr class="dividerinfolk">
 
-### Rogue
-**Forest gnomes** are really sneaky. You may use your Dexterity modifier +3 or your proficiency bonus when calculating AC and when attacking (to hit and damage).
+- ### Rogue
+    **Forest gnomes** are really sneaky. You may use your Dexterity modifier +3 or your proficiency bonus when calculating AC and when attacking (to hit and damage).
 
-In addition, when using sneak attack, you can opt not to use all your sneak attack dice. For each die you did not use, you gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
+    In addition, when using sneak attack, you can opt not to use all your sneak attack dice. For each die you did not use, you gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
 
-### Sorcerer
-Sorcerers are just as rare and varied as within other folk.
+    <hr class="dividerinfolk">
 
-Whenever the Sorcerer class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+- ### Sorcerer
+    Sorcerers are just as rare and varied as within other folk.
 
-A **forest gnome** sorcerer may add one illusion spell per spell level from any class list to its spell list.
+    Whenever the Sorcerer class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
-### Swashbuckler
-As **forest gnomes** and **rock gnomes** are usually too weak to use heavier armor, the swashbuckler class is preferred over the fighter class.
+    A **forest gnome** sorcerer may add one illusion spell per spell level from any class list to its spell list.
 
-Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
+    <hr class="dividerinfolk">
 
-In addition you can spend 1 panache to use ***mock***, as the gnomish bard.
+- ### Swashbuckler
+    As **forest gnomes** and **rock gnomes** are usually too weak to use heavier armor, the swashbuckler class is preferred over the fighter class.
 
-### Warlock
-Just as any other folk, gnomes sometimes want to take shortcuts to power, safety, knowledge or, as is the case for rock gnomes, just for curiousity and fun.
+    Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
-Whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    In addition you can spend 1 panache to use ***mock***, as the gnomish bard.
 
-### Wizard
-**Rock gnomes** are very curious and some become fascinated with the arcane arts. Whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
+    <hr class="dividerinfolk">
 
+- ### Warlock
+    Just as any other folk, gnomes sometimes want to take shortcuts to power, safety, knowledge or, as is the case for rock gnomes, just for curiousity and fun.
 
+    Whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
+    <hr class="dividerinfolk">
 
+- ### Wizard
+    **Rock gnomes** are very curious and some become fascinated with the arcane arts. Whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
 
+    <hr class="dividerinfolk">
 
+</div>
 
 
-# <a name="internal-race">The Gnome Race</a>
 
-*"And then the whole thing exploded into a million jillion pieces! {gasp} I never saw anything like it in my life!"*
 
--- Griballix, gnome of Sigil
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-race">The Gnome Race</a></h1>
 
 Love of discovery is the force that drives the life of a
 gnome, whether one is investigating the nature of magic
@@ -404,7 +442,12 @@ a gnome might seek to invent a new garden tool,
 collect and categorize every type of butterfly, or develop
 a new method for cutting gemstones.
 
-### <a name="internal-drinkingDeeplyLife">Drinking deeply of life</a>
+> *"And then the whole thing exploded into a million jillion pieces! {gasp} I never saw anything like it in my life!"*
+>
+> -- Griballix, gnome of Sigil
+
+
+### <a class="internal-link" name="internal-drinkingDeeplyLife">Drinking deeply of life</a>
 A gnome is rarely bored and tries to savor every minute,
 for life is full of opportunities to learn, to help others,
 and to have fun.
@@ -445,7 +488,7 @@ gnome from following their chosen path.
 
 
 
-### <a name="internal-rockGnomes">Rock Gnomes</a>
+### <a class="internal-link" name="internal-rockGnomes">Rock Gnomes</a>
 A visitor's first steps into a rock gnome warren are accompanied
 by the sounds of industry -hammers rapping
 on metal, chisels chewing wood, cauldrons bubbling,
@@ -477,14 +520,7 @@ devices. Every warren has members of each persuasion,
 and they are all bound by mutual respect for what
 they do despite their different perspectives.
 
-![gnome](https://robertrigo.github.io/pics/gnome1.png) {position:absolute,bottom:0px,right:0px,width:52%,transform:scaleX(-1)}
-
-
-
-
-
-
-
+<img src='https://robertrigo.github.io/pics/gnome1.png' style='float:right;width:40%;padding:20px' />
 
 #### Practical makes perfect
 Rock gnomes who take a more scientific approach to
@@ -601,13 +637,7 @@ walk into a moat or be run over by a wagon.
 
 
 
-
-
-
-
- ::::::::::::::::::::::::
-
-### <a name="internal-forestGnomes">Forest Gnomes</a>
+### <a class="internal-link" name="internal-forestGnomes">Forest Gnomes</a>
 As the companions of nature and its animals, forest
 gnomes learn from their surroundings as if from a master
 teacher. They evade incursions into their wooded
@@ -706,16 +736,9 @@ and interesting sounds, and false doors and hallways
 to fool intruders and lead them into traps. (Goblins just
 can't pass by a door that calls them names.)
 
-![gnome](https://vignette.wikia.nocookie.net/confanon/images/c/c9/Forest_Gnome.gif/revision/latest?cb=20110805161434) {position:absolute,top:40px,left:60px,width:40%}
+<img src='https://vignette.wikia.nocookie.net/confanon/images/c/c9/Forest_Gnome.gif/revision/latest?cb=20110805161434' style='float:right;width:40%;padding:20px' />
 
-
-
-
-
-
-
-
-### <a name="internal-deepGnomes">Deep Gnomes</a>
+### <a class="internal-link" name="internal-deepGnomes">Deep Gnomes</a>
 Deep gnomes, or svirfneblin, are the pragmatic and often
 grumpy cousins of the gnome family, who live deep
 underground. The Underdark is full of danger, meaning
@@ -767,21 +790,13 @@ Nevertheless, a few svirfneblin understand that it is necessary to know somethin
 
 A few svirfneblin become merchants who deal with other races both above and below ground. Drow, duergar, and other peoples know that svirfneblin are usually neutral in outlook and typically honest in their dealings. Serving as middlemen between races too hostile to deal with each other directly can be lucrative, and it serves an important defensive function; svirfneblin middlemen tend to know more about rumors and threats between rival merchants than anybody else.
 
-![gnome](https://www.worldanvil.com/uploads/images/6bd6390db7215d10b9d594525eef6205.png) {position:absolute,bottom:0px,right:20px,width:55%}
+<img src='https://www.worldanvil.com/uploads/images/6bd6390db7215d10b9d594525eef6205.png' style='float:right;width:40%;padding:20px' />
 
 
-
-
-
-
-
-
-## <a name="internal-gnomeGods">Gnome Gods</a>
-*"Who forged the chains that bind Tiamat in
-Avernus? Why do the modrons go on the Great March?
-Who is the Lady of Pain, reallly? I can't tell you. but the answers lie in the Colden Hills. And if Carl and his gang don't know, it can't be known."*
-
--- Griballix, gnome of Sigil
+## <a class="internal-link" name="internal-gnomeGods">Gnome Gods</a>
+> *"Who forged the chains that bind Tiamat in Avernus? Why do the modrons go on the Great March? Who is the Lady of Pain, really? I can't tell you. but the answers lie in the Colden Hills. And if Carl and his gang don't know, it can't be known."*
+>
+> -- Griballix, gnome of Sigil
 
 It shouldn't be surprising that gnomes, inveterate inventors
 that they are, have an incredible number of legends
@@ -828,7 +843,31 @@ responsibility), suggested domains for clerics who serve
 the god, and a common symbol of the god. Several of the
 gods in the table are described below.
 
-#### Garl Glittergold
+<div class="classTable frame" markdown="1">
+
+#### Gnome Deities
+
+| Deity | Alignment | Province | Domains | Common Symbol
+|:----|:--:|:-----|:----|:----|
+| Baervan Wildwanderer | NG | Woodlands | Nature | Face of a raccoon
+| Baravar Cloakshadow | NG | Illusion, deception | Arcana, Illusion, Trickery | Dagger against a hooded cloak
+| Bleredd | N | Labor, craft | Fire, Forge | Iron mule
+| Callarduran Smoothhands | N | Mining, stone carving | Earth, Forge, Knowledge | Golden signet ring with sixpointed star
+| Flandal Steelskin | NG | Metalwork | Fire, Forge, Knowledge | Flaming hammer
+| Gaerdal Ironhand | LG | Protection | Heroism, Protection, War | Iron band
+| Garl Glittergold | LG | Primary god of gnomes | Fortune, Illusion, Trickery, Whimsy | Gold nugget
+| Gelf Darkhearth | CN | Frustration, destruction | Chaos, Trickery, Vengeance, Whimsy | Broken anvil
+| Nebelun | CG | Invention, luck | Fortune, Knowledge, Trickery, Whimsy | Bellows and lizard tail
+| Rill Cleverthrush | LN | Law, thought | Fate, Knowledge | Interlocking gears
+| Segojan Earthcaller | NG | Earth, the dead | Life, Light, Repose | Glowing gemstone
+| Sheyanna Flaxenstrand | CG | Love, beauty, passion | Celebration, Charm, Life, Light | Two silver goblets
+| Urdlen | CE | Greed, murder | Death, War | White-clawed mole emerging from ground
+
+</div>
+
+
+<h4><a class="internal-link" name="internal-GarlGlittergold">Garl Glittergold</a></h4>
+
 When gnome children hear their first stories about the
 gods, they are introduced to a gold-skinned gnome with
 a wide grin and glittering gemstone eyes that shift colors
@@ -856,31 +895,6 @@ middle of a gnome burrow. When Garl makes one of
 these rare appearances, it is to resolve a dispute that
 threatens a community.
 
-{{}}">sTable,wide
-#### Gnome Deities
-
-| Deity | Alignment | Province | Domains | Common Symbol
-|:----|:--:|:-----|:----|:----|
-| Baervan Wildwanderer | NG | Woodlands | Nature | Face of a raccoon
-| Baravar Cloakshadow | NG | Illusion, deception | Arcana, Illusion, Trickery | Dagger against a hooded cloak
-| Bleredd | N | Labor, craft | Fire, Forge | Iron mule
-| Callarduran Smoothhands | N | Mining, stone carving | Earth, Forge, Knowledge | Golden signet ring with sixpointed star
-| Flandal Steelskin | NG | Metalwork | Fire, Forge, Knowledge | Flaming hammer
-| Gaerdal Ironhand | LG | Protection | Heroism, Protection, War | Iron band
-| Garl Glittergold | LG | Primary god of gnomes | Fortune, Illusion, Trickery, Whimsy | Gold nugget
-| Gelf Darkhearth | CN | Frustration, destruction | Chaos, Trickery, Vengeance, Whimsy | Broken anvil
-| Nebelun | CG | Invention, luck | Fortune, Knowledge, Trickery, Whimsy | Bellows and lizard tail
-| Rill Cleverthrush | LN | Law, thought | Fate, Knowledge | Interlocking gears
-| Segojan Earthcaller | NG | Earth, the dead | Life, Light, Repose | Glowing gemstone
-| Sheyanna Flaxenstrand | CG | Love, beauty, passion | Celebration, Charm, Life, Light | Two silver goblets
-| Urdlen | CE | Greed, murder | Death, War | White-clawed mole emerging from ground
-
-
-
-
-
-
-
 
 **Brains over Brawn**. Garl favors trickery and illusion
 over direct combat, preferring to use his mind to overcome
@@ -890,7 +904,8 @@ when push comes to shove, Garl uses Arumdina, his
 intelligent two-headed battle axe -capable of cleaving
 through any substance- to escape a perilous situation.
 
-#### Baervan Wildwanderer
+<h4><a class="internal-link" name="internal-BaervanWildwanderer">Baervan Wildwanderer</a></h4>
+
 Baervan Wildwanderer is the god of the forests and of
 those who travel, a peaceful soul whose explorations
 often turn into exciting adventures. Baervan's constant
@@ -909,7 +924,8 @@ gnomes believe that they can speak to the animals of the
 woods and in the air because Baervan teaches their
 souls how to do so before they are born.
 
-#### Baravar Cloakshadow
+<h4><a class="internal-link" name="internal-BaravarCloakshadow">Baravar Cloakshadow</a></h4>
+
 When gnomes arrived in the world, Baravar protected
 them by teaching them how to hide, use magic, and deceive
 their foes. She was once entrapped by the goblin
@@ -925,7 +941,8 @@ Forest gnomes and deep gnomes owe their innate
 magical abilities to Baravar, and all gnomes get their
 natural defense against magic from her shrewdness.
 
-#### Callarduran Smoothhands
+<h4><a class="internal-link" name="internal-CallarduranSmoothhands">Callarduran Smoothhands</a></h4>
+
 Callarduran became the patron of the deep gnomes
 when he led them into the Underdark and taught them
 how to survive, but all gnomes see him as the embodiment
@@ -938,9 +955,8 @@ as he polished the heart and turned it into a magical
 stone. The theft caused Ogremoch to turn to evil, but
 it gave Callarduran the power to control earth elementals - which, it is said, he can confer to deep gnomes by rubbing the stone and saying their names.
 
+<h4><a class="internal-link" name="internal-FlandalSteelskin">Flandal Steelskin</a></h4>
 
-
-#### Flandal Steelskin
 The stories that gnomes tell of Flandal Steelskin typically
 feature some perfect item that he crafted or a
 misadventure that results from following his enormous
@@ -958,7 +974,8 @@ alchemy. Rock gnomes attribute their knack for crafting
 devices and alchemical objects to Flandal's superlative
 skills in those areas.
 
-#### Gaerdal Ironhand
+<h4><a class="internal-link" name="internal-GaerdalIronhand">Gaerdal Ironhand</a></h4>
+
 The Shield of the Golden Hills, Gaerdal Ironhand, has
 no use for amusements, and she doesn't deign to smile
 at any prank except those of Garl Glittergold. Gaerdal
@@ -979,7 +996,8 @@ places because Gaerdal teaches them these techniques.
 Every secret door, spy hole, and intruder alarm in a
 gnome warren is a tribute to Gaerdal's principles.
 
-#### Nebelun
+<h4><a class="internal-link" name="internal-Nebelun">Nebelun</a></h4>
+
 Nebelun, also known as the Meddler, is fearless, perhaps
 foolishly so. Every invention of Nebelun's starts
 with a wild idea, nothing goes entirely according to plan,
@@ -1001,13 +1019,8 @@ might be credited to Nebelun's benevolent meddling in
 the affairs of mortal gnomes.
 
 
+<h4><a class="internal-link" name="internal-SegojanEarthcaller">Segojan Earthcaller</a></h4>
 
-
-
-
-
-
-#### Segojan Earthcaller
 The gnomes know Segojan Earthcaller as a kind,
 modest hero. He is said to be the best cook among the
 gnome gods and to have the power to heal any sickness,
@@ -1028,7 +1041,8 @@ before worms claim it. If a gnome's body isn't entrusted
 to Segojan by interring it, the soul is forced to find its
 own way to the afterlife.
 
-#### Urdlen
+<h4><a class="internal-link" name="internal-Urdlen">Urdlen</a></h4>
+
 Many pantheons include in their number a miscreant or
 an outlier -someone not to be emulated in the customary
 way, and often an entity whose existence serves as
@@ -1061,11 +1075,10 @@ reminder of the importance of participating in society.
 
 
 
-### <a name="internal-gnomeAdventurers">Gnome Adventurers</a>
-*"I don't know how many times I've seen a gnome
-turn a dead end into a wonderful opportunity."*
-
--- Delaan Winterhound
+### <a class="internal-link" name="internal-gnomeAdventurers">Gnome Adventurers</a>
+> *"I don't know how many times I've seen a gnome turn a dead end into a wonderful opportunity."*
+>
+> -- Delaan Winterhound
 
 When a gnome leaves the burrow, the force behind that
 decision is almost always curiosity -an insatiable need
@@ -1098,13 +1111,7 @@ world and don't come back on schedule, returning to the
 burrow only after spending years or decades away as a
 member of an adventuring party.
 
-![gnome](https://i.pinimg.com/originals/a8/74/54/a874542df88299ccb37275d2de306a67.png) {position:absolute,bottom:-20px,right:0px,width:56%}
-
-
-
-
-
-
+<img src='https://i.pinimg.com/originals/a8/74/54/a874542df88299ccb37275d2de306a67.png' style='float:right;width:40%;padding:20px' />
 
 
 #### The pull of the stars
@@ -1159,7 +1166,7 @@ no wit at all- as their weapons of choice.
 
 
 
-# <a name="internal-tinkerKnight">Tinker Knight</a>
+# <a class="internal-link" name="internal-tinkerKnight">Tinker Knight</a>
 The inventive warriors known as Tinker Knights seek an unorthodox form of martial skill. Rather than hone their physical abilities with the armaments of war, they look to augment their mundane physical abilities with mechanical inventions and innovative weaponry.
 
 Warriors adopt the archetype of the Tinker Knight for many reasons. Some have been grievously injured, and use their ingenuity to make up for their physical shortcomings. Others seek to put their sharp minds to use, but still desire to swing their sword and raise their shield on the front lines of the battlefield.
@@ -1286,7 +1293,7 @@ When you make an Investigation check, or a check with a set of artisan's tools i
 
 
 
-# <a name="internal-trickster">Trickster Conclave</a>
+# <a class="internal-link" name="internal-trickster">Trickster Conclave</a>
 Kobold rangers are regularly underestimated, but those in the Trickster conclave use that lack of esteem as both a defense and an offense, when need be. Using their cleverness and various talents, they create their own advantages in order to level the playing field.
 
 
