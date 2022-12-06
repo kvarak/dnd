@@ -5,11 +5,11 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-traits">Traits</a>
-#### <a href="#internal-class">Class options</a>
-#### <a href="#internal-feat">Feats</a>
+##### <a href="#internal-traits">Traits</a>
+##### <a href="#internal-class">Class options</a>
+##### <a href="#internal-feat">Feats</a>
 
-#### <a href="#internal-race">About the Dwarven Race</a>
+##### <a href="#internal-race">About the Dwarven Race</a>
 <a href="#internal-path">The Path to Perfection</a><br/>
 <a href="#internal-life">The Birth of a Dwarf</a><br/>
 <a href="#internal-clan">All for One: The Clan</a><br/>

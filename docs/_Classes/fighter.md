@@ -5,8 +5,8 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-origins">Fighter Origins</a>
-#### <a href="#internal-archetypes">Martial Archetypes</a>
+##### <a href="#internal-origins">Fighter Origins</a>
+##### <a href="#internal-archetypes">Martial Archetypes</a>
 <a href="#internal-arbalestion">Arbalestion</a><br/>
 <a href="#internal-ArcaneArcher">Arcane Archer</a><br/>
 <a href="#internal-Brute">Brute</a><br/>
@@ -25,7 +25,7 @@ layout: default
 <a href="#internal-thingSlinger">Thing Slinger</a><br/>
 <a href="#internal-underdog">Underdog</a>
 
-#### Restricted Archetypes
+##### Restricted Archetypes
 **Aasimar**<br/>
 <a href="#internal-celestialKnight">Celestial Knight</a>
 

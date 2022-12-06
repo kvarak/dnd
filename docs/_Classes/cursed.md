@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Cursed Forms](#internal-cursed-forms)
+##### [Cursed Forms](#internal-cursed-forms)
 <a href="#internal-alchemical">Alchemical Curse</a><br/>
 <a href="#internal-chosen">Chosen</a><br/>
 <a href="#internal-beyond">Curse from Beyond</a><br/>

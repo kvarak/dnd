@@ -6,7 +6,7 @@ layout: default
 <div class="toc" markdown="1">
 
 <!-- #### [Archetypes](#internal-Archetypes) -->
-#### Archetypes
+##### Archetypes
 <a href="#internal-blacksnake">Blacksnake</a><br/>
 <a href="#internal-brawler">Brawler</a><br/>
 <a href="#internal-corsair">Corsair</a><br/>
@@ -16,8 +16,8 @@ layout: default
 <a href="#internal-highwayman">Highwayman</a><br/>
 <a href="#internal-musketeer">Musketeer</a>
 
-#### <a href="#internal-tricks">Tricks</a><br/>
-#### <a href="#internal-deeds">Deeds</a>
+##### <a href="#internal-tricks">Tricks</a><br/>
+##### <a href="#internal-deeds">Deeds</a>
 
 </div>
 

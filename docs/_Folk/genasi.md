@@ -5,8 +5,8 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-traits">Traits</a>
-#### <a href="#internal-classoptions">Class Options</a>
+##### <a href="#internal-traits">Traits</a>
+##### <a href="#internal-classoptions">Class Options</a>
 <a href="#internal-air">Air genasi</a><br/>
 <a href="#internal-earth">Earth genasi</a><br/>
 <a href="#internal-fire">Fire genasi</a><br/>

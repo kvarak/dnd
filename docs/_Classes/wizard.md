@@ -5,8 +5,8 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-spellbook">Spellbooks</a>
-#### <a href="#internal-traditions">Arcane traditions</a>
+##### <a href="#internal-spellbook">Spellbooks</a>
+##### <a href="#internal-traditions">Arcane traditions</a>
 <a href="#internal-unseenHand">Master of the Unseen Hand</a><br/>
 <a href="#internal-astromancy">School of Astromancy</a><br/>
 <a href="#internal-chronomancer">School of Chronomancy</a><br/>

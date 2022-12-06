@@ -5,12 +5,12 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-dragonborn">Dragonborn</a>
+##### <a href="#internal-dragonborn">Dragonborn</a>
 <a href="#internal-DragonbornTraits">Traits</a><br>
 <a href="#internal-DragonbornClassOptions">Class Options</a><br>
 <a href="#internal-DragonbornFeats">Feats</a>
 
-#### <a href="#internal-kobold">Kobolds</a>
+##### <a href="#internal-kobold">Kobolds</a>
 <a href="#internal-KoboldTraits">Traits</a><br>
 <a href="#internal-KoboldClassOptions">Class Options</a><br>
 <a href="#internal-KoboldFeats">Feats</a>

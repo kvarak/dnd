@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Sorcerous Origins](#internal-SorcerousOrigins)
+##### [Sorcerous Origins](#internal-SorcerousOrigins)
 <a href="#internal-aberrant">Aberrant Bloodline</a><br/>
 <a href="#internal-arachnid">Arachnid Magic</a><br/>
 <a href="#internal-ashen">Ashen Lineage</a><br/>
@@ -32,7 +32,7 @@ layout: default
 <a href="#internal-wild">Wild Magic Bloodline</a><br/>
 <a href="#internal-wishcrafter">Wishcrafter</a>
 
-#### <a href="#internal-metaMagic">Metamagic</a>
+##### <a href="#internal-metaMagic">Metamagic</a>
 
 </div>
 

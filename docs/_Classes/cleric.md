@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-Pantheons">Pantheons</a>
+##### <a href="#internal-Pantheons">Pantheons</a>
 <a href="#internal-Golarion">Golarion Deities</a><br/>
 <a href="../Folk/dwarf.html#internal-religion">Dwarven Deities <i>(see Dwarf folk)</i></a><br/>
 <a href="../Folk/elf.html#internal-seldarine">Elf Deities <i>(see Elf folk)</i></a><br/>
@@ -16,7 +16,7 @@ layout: default
 <a href="#internal-Egyptian">Egyptian Deities</a><br/>
 <a href="#internal-Norse">Norse Deities</a><br/>
 
-#### <a href="#internal-Domains">Divine Domains</a>
+##### <a href="#internal-Domains">Divine Domains</a>
 <a href="#internal-Agriculture">Agriculture Domain</a><br/>
 <a href="#internal-Arcana">Arcana Domain</a><br/>
 <a href="#internal-Balance">Balance Domain</a><br/>
@@ -46,7 +46,7 @@ layout: default
 <a href="#internal-War">War Domain</a><br/>
 <a href="#internal-Winter">Winter Domain</a><br/>
 
-#### <a href="#internal-balancedScale">Deity exclusive paths</a>
+##### <a href="#internal-balancedScale">Deity exclusive paths</a>
 <a href="#internal-balancedScale">Balanced Scale of Abadar</a><br/>
 
 </div>

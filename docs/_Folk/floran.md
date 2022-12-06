@@ -5,13 +5,13 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-traits">Traits</a>
-#### Subtypes
+##### <a href="#internal-traits">Traits</a>
+##### Subtypes
 <a href="#internal-woodNymph">Wood nymph</a><br/>
 <a href="#internal-roothulk">Roothulk</a>
 
-#### <a href="#internal-class">Class Options</a>
-#### <a href="#internal-feat">Feats</a>
+##### <a href="#internal-class">Class Options</a>
+##### <a href="#internal-feat">Feats</a>
 
 </div>
 

@@ -5,14 +5,14 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-traits">Traits</a>
-#### <a href="#internal-Subtypes">Subtypes</a>
+##### <a href="#internal-traits">Traits</a>
+##### <a href="#internal-Subtypes">Subtypes</a>
 <a href="#internal-stryg">Stryg</a><br/>
 <a href="#internal-nosferatu">Nosferatu</a><br/>
 <a href="#internal-obiri">Obiri</a>
 
-#### <a href="#internal-ClassOptions">Class Options</a>
-#### <a href="#internal-feat">Feats</a>
+##### <a href="#internal-ClassOptions">Class Options</a>
+##### <a href="#internal-feat">Feats</a>
 
 </div>
 

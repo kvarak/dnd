@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-orders">Cavalier Orders</a>
+##### <a href="#internal-orders">Cavalier Orders</a>
 <a href="#internal-knightErrant">Knight Errant</a><br/>
 <a href="#internal-blueRose">Order of the Blue Rose</a><br/>
 <a href="#internal-dragon">Order of the Dragon</a><br/>
@@ -218,7 +218,7 @@ Once you use this feature, you must finish a short rest before you can use it ag
 ### Bonus Skill
 When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you gain an additional skill point to spend on your class skills.
 
-<!-- 
+<!--
 ### Ability Score Improvement
 When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 -->

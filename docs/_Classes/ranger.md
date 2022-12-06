@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Ranger Conclaves](#internal-conclaves)
+##### [Ranger Conclaves](#internal-conclaves)
 <a href="#internal-beastMaster">Beast Conclave</a><br/>
 <a href="#internal-burghalExplorer">Burghal Explorer</a><br/>
 <a href="#internal-diabolist">Diabolist</a><br/>
@@ -19,7 +19,7 @@ layout: default
 <a href="#internal-nightstalker">Nightstalker</a><br/>
 <a href="#internal-stalker">Stalker</a>
 
-#### Restricted Conclaves
+##### Restricted Conclaves
 **Awakened (bound spirit)**<br/>
 <a href="#internal-banshee">Banshee Conclave</a>
 

@@ -21,7 +21,7 @@ layout: default
 <a href="#internal-warChief">Path of the War Chief</a><br>
 <a href="#internal-zealot">Path of the Zealot</a><br>
 
-#### Restricted Paths
+##### Restricted Paths
 **Beastfolk (needs a tail)**<br/>
 <a href="#internal-tailfighter">Path of the Tailfighter</a><br/>
 
