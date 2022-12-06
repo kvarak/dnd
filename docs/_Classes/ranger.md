@@ -23,7 +23,7 @@ layout: default
 **Awakened (bound spirit)**<br/>
 <a href="#internal-banshee">Banshee Conclave</a>
 
-**Gnome & Kobold**<br/>
+**Gnome/Halfling/Kobold**<br/>
 <a href="#internal-trickster">Trickster Conclave</a>
 
 </div>
@@ -1391,7 +1391,7 @@ You can use this feature a number of times equal to your Wisdom modifier, and mu
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-trickster">Restricted to Gnome & Kobold characters</a></h2>
+<h2><a class="internal-link" name="internal-trickster">Restricted to Gnome & Halfling & Kobold characters</a></h2>
 <h1>Trickster Conclave</h1>
 <div class="featuresTable">
 
@@ -1406,7 +1406,7 @@ You can use this feature a number of times equal to your Wisdom modifier, and mu
 
 </div>
 
-Kobold and Gnome rangers are regularly underestimated, but those in the Trickster conclave use that lack of esteem as both a defense and an offense, when need be. Using their cleverness and various talents, they create their own advantages in order to level the playing field.
+Halfling, Kobold and Gnome rangers are regularly underestimated, but those in the Trickster conclave use that lack of esteem as both a defense and an offense, when need be. Using their cleverness and various talents, they create their own advantages in order to level the playing field.
 
 ##### Restriction
 The Trickster conclave can only be taken by a Gnome or Kobold character.

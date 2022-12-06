@@ -10,7 +10,7 @@ layout: default
 <a href="../Folk/dwarf.html#internal-religion">Dwarven Deities <i>(see Dwarf folk)</i></a><br/>
 <a href="../Folk/elf.html#internal-seldarine">Elf Deities <i>(see Elf folk)</i></a><br/>
 <a href="../Folk/gnome.html#internal-gnomeGods">Gnome Deities <i>(see Gnome folk)</i></a><br/>
-<a href="#internal-Halfling">Halfling Deities</a><br/>
+<a href="../Folk/halfling.html#internal-halflingGodsMyths">Halfling Deities <i>(see Halfling folk)</i></a><br/>
 <a href="#internal-Nonhuman">Other Nonhuman Deities</a><br/>
 <a href="#internal-Celtic">Celtic Deities</a><br/>
 <a href="#internal-Egyptian">Egyptian Deities</a><br/>
@@ -66,7 +66,7 @@ The question has long been debated: Does a mortal become a cleric as a consequen
 #### Deity
 One of the most important things to decide is the deity you serve. The Golarion setting hosts a large pantheon of deities, ranging from the all-powerful greater deities to the minor gods and demigods, who are mostly powerful extraplanar creatures. While most deities' followers span cultures and races, some races and intelligent creatures have their own pantheons worshiped primarily within their own ranks.
 
-A description of the most common deities in Golarion, as well in a more generic setting, can be found *<a href="#internal-Deities">here</a>.* This also includes the allowed domains for each deity.
+A description of the most common deities in Golarion, as well in a more generic setting, can be found *<a href="#internal-Pantheons">here</a>.* This also includes the allowed domains for each deity.
 
 
 
@@ -248,7 +248,7 @@ As an ***action*** you present your holy symbol to project an aura emanating fro
 * You end one effect on it causing it to be charmed or frightened.
 </div>
 
-<!-- 
+<!--
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score by 2, or two ability scores by 1.
 
@@ -296,7 +296,7 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 * <a href="../Folk/dwarf.html#internal-religion">Dwarven Deities <i>(see Dwarf folk)</i></a>
 * <a href="../Folk/elf.html#internal-seldarine">Elf Deities <i>(see Elf folk)</i></a>
 * <a href="../Folk/gnome.html#internal-gnomeGods">Gnome Deities <i>(see Gnome folk)</i></a><br/>
-* <a href="#internal-Halfling">Halfling Deities</a>
+* <a href="../Folk/halfling.html#internal-halflingGodsMyths">Halfling Deities <i>(see Halfling folk)</i></a><br/>
 * <a href="#internal-Nonhuman">Other Nonhuman Deities</a>
 * <a href="#internal-Celtic">Celtic Deities</a>. Worshiped by nature folk and druids.
 * <a href="#internal-Egyptian">Egyptian Deities</a>. Worshiped by desert folk and in the Osirian region.
@@ -330,22 +330,6 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 | Norgorber  | NE | God of greed, secrets, poison, murder  | Death, Hunting, Knowledge, Trickery |
 | Lamashtu  | CE | Goddess of madness, monsters, nightmares | Chaos, Death, Hunting, Survival, Trickery |
 | Rovagug  | CE | God of wrath, disaster, destruction | Death, Desert, Strength, Tempest, War |
-
-</div>
-
-<div class="classTable frame" markdown="1">
-<h5><a class="internal-link" name="internal-Halfling">Halfling Deities</a></h5>
-
-| Deity | Alignment | Province | Domains | Common Symbol
-|:----|:--:|:-----|:----|:----|
-| Arvoreen | LG | Vigilance, war | Protection, War | Crossed short swords
-| Brandobaris | N | Adventure, thievery | Fortune, Trickery | Halfling footprint
-| Charmalaine | N | Keen senses, luck | Fortune, Trickery | Burning boot print
-| Cyrrollalee | LG | Hearth, home | Celebration, Charm, Life | An open door
-| Sheela Peryroyl | NG | Agriculture, nature, weather | Agriculture, Nature, Tempest | A flower
-| Urogalan | LN | Earth, death | Death, Earth, Life, Repose, Winter | Silhouette of a dog's head
-| Yondalla | LG | Primary goddess of halflings | Fortune, Life, Protection | Cornucopia
-
 
 </div>
 
@@ -597,7 +581,7 @@ Magic is an energy that suffuses the multiverse and that fuels both destruction 
 
 
 ### Arcane Initiate
-When you take this domain at 1st level, add *Arcana* to you class skills, and gain 1 skill point to spend on this skill. 
+When you take this domain at 1st level, add *Arcana* to you class skills, and gain 1 skill point to spend on this skill.
 
 Additionally you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips.
 
