@@ -5,10 +5,10 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-traits">Awakened Traits</a>
-#### <a href="#internal-Variant">Awakened Variants</a>
-#### <a href="#internal-class">Class Options</a>
-#### <a href="#internal-feats">Exclusive feats</a>
+##### <a href="#internal-traits">Awakened Traits</a>
+##### <a href="#internal-Variant">Awakened Variants</a>
+##### <a href="#internal-class">Class Options</a>
+##### <a href="#internal-feats">Exclusive feats</a>
 
 </div>
 

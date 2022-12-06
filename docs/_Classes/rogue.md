@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Roguish Archetypes](#internal-RoguishArchetypes)
+##### [Roguish Archetypes](#internal-RoguishArchetypes)
 <a href="#internal-arcaneTrickster">Arcane Trickster</a><br/>
 <a href="#internal-assassin">Assassin</a><br/>
 <a href="#internal-flyingBlade">Blade Juggler</a><br/>
@@ -20,7 +20,7 @@ layout: default
 <a href="#internal-spellwarpSniper">Spellwarp Sniper</a><br/>
 <a href="#internal-thief">Thief</a>
 
-#### Restricted Archetypes
+##### Restricted Archetypes
 **Catfolk**<br/>
 <a href="#internal-felineStalker">Feline Stalker</a>
 

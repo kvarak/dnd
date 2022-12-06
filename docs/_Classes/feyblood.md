@@ -5,9 +5,9 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-class">Class Features</a>
-#### <a href="#internal-feat">Fey Feats</a>
-#### <a href="#internal-affinity">Fey Affinities</a>
+##### <a href="#internal-class">Class Features</a>
+##### <a href="#internal-feat">Fey Feats</a>
+##### <a href="#internal-affinity">Fey Affinities</a>
 <a href="#internal-boggart">Boggart affinity</a><br/>
 <a href="#internal-nereid">Nereid affinity</a><br/>
 <a href="#internal-oread">Oread affinity</a><br/>
@@ -16,7 +16,7 @@ layout: default
 <a href="#internal-sprig">Sprig affinity</a><br/>
 <a href="#internal-sylph">Sylph affinity</a><br/>
 
-#### <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a><br/>
+##### <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a><br/>
 
 </div>
 

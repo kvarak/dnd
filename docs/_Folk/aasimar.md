@@ -5,11 +5,11 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-trait">Traits</a>
-#### <a href="#internal-features">Special Features</a>
-#### <a href="#internal-appearance">Appearance</a>
-#### <a href="#internal-classOptions">Class options</a>
-#### <a href="#internal-feat">Exclusive feats</a>
+##### <a href="#internal-trait">Traits</a>
+##### <a href="#internal-features">Special Features</a>
+##### <a href="#internal-appearance">Appearance</a>
+##### <a href="#internal-classOptions">Class options</a>
+##### <a href="#internal-feat">Exclusive feats</a>
 
 </div>
 

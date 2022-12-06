@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Otherworldly Patrons](#internal-OtherworldlyPatrons)
+##### [Otherworldly Patrons](#internal-OtherworldlyPatrons)
 <a href="#internal-abraxas">Abraxas, Master of the Final Incantation</a><br/>
 <a href="#internal-ancientDragon">The Ancient Dragon</a><br/>
 <a href="#internal-ancientToad">The Ancient Toad</a><br/>
@@ -37,8 +37,8 @@ layout: default
 <a href="#internal-vampire">Vampire Lord</a><br/>
 <a href="#internal-weaverLies">The Weaver of Lies</a>
 
-#### <a href="#internal-invocations">Eldritch Invocations</a>
-#### <a href="#internal-boon">Pact Boons</a>
+##### <a href="#internal-invocations">Eldritch Invocations</a>
+##### <a href="#internal-boon">Pact Boons</a>
 <a href="#internal-PactoftheArc">Pact of the Arc</a><br/>
 <a href="#internal-PactoftheBastion">Pact of the Bastion</a><br/>
 <a href="#internal-PactoftheBlade">Pact of the Blade</a><br/>

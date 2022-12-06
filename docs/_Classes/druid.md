@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Druid Circles](#internal-druid-circles)
+##### [Druid Circles](#internal-druid-circles)
 <a href="#internal-blood">Circle of Blood</a><br/>
 <a href="#internal-dreams">Circle of Dreams</a><br/>
 <a href="#internal-dust">Circle of Dust</a><br/>

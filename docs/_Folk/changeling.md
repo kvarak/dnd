@@ -5,9 +5,9 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-Traits">Traits</a><br/>
-#### <a href="#internal-Feats">Feats</a><br/>
-#### <a href="#internal-ClassOptions">Class Options</a>
+##### <a href="#internal-Traits">Traits</a><br/>
+##### <a href="#internal-Feats">Feats</a><br/>
+##### <a href="#internal-ClassOptions">Class Options</a>
 
 </div>
 

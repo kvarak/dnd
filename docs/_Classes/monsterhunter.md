@@ -6,8 +6,8 @@ layout: default
 
 <div class="toc">
 
-#### <a href="#internal-features">Class Features</a>
-#### <a href="#internal-orders">Monster Hunter Traditions</a>
+##### <a href="#internal-features">Class Features</a>
+##### <a href="#internal-orders">Monster Hunter Traditions</a>
 <a href="#internal-blueBlood">Tradition of the Blue Blood</a><br/>
 <a href="#internal-crimsonEye">Tradition of the Crimson Eye</a><br/>
 <a href="#internal-curseEater">Tradition of the Curse Eater</a><br/>
@@ -19,7 +19,7 @@ layout: default
 <a href="#internal-peerlessFlame">Tradition of the Peerless Flame</a><br/>
 <a href="#internal-profaneSoul">Tradition of the Profane Soul</a><br/>
 
-#### <a href="#internal-bloodCurses">Blood curses</a>
+##### <a href="#internal-bloodCurses">Blood curses</a>
 
 </div>
 

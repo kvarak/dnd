@@ -5,11 +5,11 @@ layout: default
 
 <div class="toc">
 
-#### [The Dark Paladin](#internal-darkpaladin)
-#### [Class Features](#internal-featured)
-#### <a href="#internal-channel">Channel Divinity</a>
-#### <a href="#internal-prayer">Prayers</a>
-#### [Sacred Oaths](#internal-oaths)
+##### [The Dark Paladin](#internal-darkpaladin)
+##### [Class Features](#internal-featured)
+##### <a href="#internal-channel">Channel Divinity</a>
+##### <a href="#internal-prayer">Prayers</a>
+##### [Sacred Oaths](#internal-oaths)
 <a href="#internal-anarchy">Oath of Anarchy</a><br/>
 <a href="#internal-ancients">Oath of the Ancients</a><br/>
 <a href="#internal-balance">Oath of Balance</a><br/>
@@ -35,7 +35,7 @@ layout: default
 <a href="#internal-vengeance">Oath of Vengeance</a><br/>
 <a href="#internal-waves">Oath of the Waves</a><br/>
 
-#### Restricted Oaths
+##### Restricted Oaths
 **Dhampir**<br/>
 <a href="#internal-blood">Oath of Blood</a>
 

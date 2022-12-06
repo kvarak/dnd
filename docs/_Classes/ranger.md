@@ -5,7 +5,7 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### [Ranger Conclaves](#internal-conclaves)
+##### [Ranger Conclaves](#internal-conclaves)
 <a href="#internal-beastMaster">Beast Conclave</a><br/>
 <a href="#internal-burghalExplorer">Burghal Explorer</a><br/>
 <a href="#internal-diabolist">Diabolist</a><br/>
@@ -19,13 +19,12 @@ layout: default
 <a href="#internal-nightstalker">Nightstalker</a><br/>
 <a href="#internal-stalker">Stalker</a>
 
-#### Restricted Conclaves
+##### Restricted Conclaves
 **Awakened (bound spirit)**<br/>
 <a href="#internal-banshee">Banshee Conclave</a>
 
-**Kobold**<br/>
+**Gnome & Kobold**<br/>
 <a href="#internal-trickster">Trickster Conclave</a>
-
 
 </div>
 
@@ -1392,7 +1391,7 @@ You can use this feature a number of times equal to your Wisdom modifier, and mu
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-trickster">Restricted to Kobold characters</a></h2>
+<h2><a class="internal-link" name="internal-trickster">Restricted to Gnome & Kobold characters</a></h2>
 <h1>Trickster Conclave</h1>
 <div class="featuresTable">
 
@@ -1407,7 +1406,10 @@ You can use this feature a number of times equal to your Wisdom modifier, and mu
 
 </div>
 
-Kobold rangers are regularly underestimated, but those in the Trickster conclave use that lack of esteem as both a defense and an offense, when need be. Using their cleverness and various talents, they create their own advantages in order to level the playing field.
+Kobold and Gnome rangers are regularly underestimated, but those in the Trickster conclave use that lack of esteem as both a defense and an offense, when need be. Using their cleverness and various talents, they create their own advantages in order to level the playing field.
+
+##### Restriction
+The Trickster conclave can only be taken by a Gnome or Kobold character.
 
 ### Combat Trickster
 Starting when you join this conclave, you learn how to use your ingenuity, deft hands, and the knowledge you've accumulated, to counteract that you are physically at a disadvantage to most foes. You gain proficiency with tinker’s tools if you don't have it already.
@@ -1450,19 +1452,19 @@ In addition to hindering your enemies in some way, some are also designed to har
 
 - **Oil Fountain**. As an ***action***, you can place this small metal cube attached to a pressure plate on the ground. The first creature that steps on the plate must succeed on a Dexterity saving throw or be sprayed with a highly volatile substance. If the creature takes fire or lightning damage before the substance evaporates at the start of its next turn, it takes 1 trick die fire damage and must succeed on a Wisdom saving throw to withstand the shock of being lit on fire. If it fails, it must use its reaction to move its movement speed in a random direction.
 
-    -- **Special**. An oil trap is harder to place  efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
+    &nbsp;&nbsp;&nbsp;&nbsp;-- **Special**. An oil trap is harder to place  efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
 
--**Portable Ice (bag of 50)**. As an ***action***, you can spread a single bag of these compressed ice pellets to cover a 5-foot-square area. The first creature that enters the area triggers the pellets, making them expand rapidly, forming a 20-feet tall ice pillar that immediately shatters. Any Large or smaller creatures in the area must succeed on a Dexterity saving throw or be lifted by the pillar. Tiny creatures don't trigger the pellets.
+- **Portable Ice (bag of 50)**. As an ***action***, you can spread a single bag of these compressed ice pellets to cover a 5-foot-square area. The first creature that enters the area triggers the pellets, making them expand rapidly, forming a 20-feet tall ice pillar that immediately shatters. Any Large or smaller creatures in the area must succeed on a Dexterity saving throw or be lifted by the pillar. Tiny creatures don't trigger the pellets.
 
-    -- **Special**. You need access to water to craft these pellets, and they melt after 1 hour if in extreme heat.
+    &nbsp;&nbsp;&nbsp;&nbsp;-- **Special**. You need access to water to craft these pellets, and they melt after 1 hour if in extreme heat.
 
 - **Screeching Sirens (soundproof container)**. As an ***action***, you can place the brittle container on the ground. The first Small or larger creature that enters its 5-foot area causes the container to break, releasing the short-lived bugs inside it. The bugs are drawn to the nearest source of body heat, while emitting a high-pitched sound. Until the start of its next turn, the creature must succeed on a Charisma saving throw in order to cast a spell with verbal components.
 
-    --**Special**. You need access to bugs normally found in the wild to collect enough of them to be efficient, so the DM may rule that a city, dungeon or similar restricts how many, if any, you can craft.
+    &nbsp;&nbsp;&nbsp;&nbsp;-- **Special**. You need access to bugs normally found in the wild to collect enough of them to be efficient, so the DM may rule that a city, dungeon or similar restricts how many, if any, you can craft.
 
 - **Snap trap**. When you use your ***action*** to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a Dexterity saving throw or take 1 trick die of piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 trick die of piercing damage to the trapped creature.
 
-    -- **Special**. A snap trap is harder to place efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
+    &nbsp;&nbsp;&nbsp;&nbsp;-- **Special**. A snap trap is harder to place efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
 
 - **Sonic Sphere**. As an ***action***, you can place a small metal sphere on the ground. Highly sensitive to vibrations in the ground, the sphere will activate when the first creature enters its 5-foot area, creating a burst of thunderous sound, which can be heard 100 feet away. The creature must make a Constitution saving throw or take 2 trick dice thunder damage and be deafened until the end of its next turn.
 

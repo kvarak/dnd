@@ -5,15 +5,15 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-traits">Traits</a>
-#### <a href="#internal-ElvenSubtypes">Subtypes</a>
+##### <a href="#internal-traits">Traits</a>
+##### <a href="#internal-ElvenSubtypes">Subtypes</a>
 <a href="#internal-eladrin">Eladrin</a><br/>
 <a href="#internal-shadarKai">Shadar-kai</a><br/>
 <a href="#internal-wood">Wood elf</a>
 
-#### <a href="#internal-class">Class Options</a>
+##### <a href="#internal-class">Class Options</a>
 
-#### The Elven Races
+##### The Elven Races
 <a href="#internal-race">The Wood Elves</a><br/>
 <a href="#internal-seldarine">The Seldarine - Gods of the Elves</a><br/>
 <a href="#internal-eladrinFeywild">Eladrin and the Feywild</a><br/>

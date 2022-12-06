@@ -5,9 +5,9 @@ layout: default
 
 <div class="toc">
 
-#### <a href="#internal-feats">Class exclusive feat</a>
+##### <a href="#internal-feats">Class exclusive feat</a>
 
-#### <a href="#internal-missions">Divine Missions</a>
+##### <a href="#internal-missions">Divine Missions</a>
 
 <a href="#internal-coldIronWarder">Mission of the Cold Iron Warder</a><br/>
 <a href="#internal-crusader">Mission of the Crusader</a><br/>
@@ -16,7 +16,7 @@ layout: default
 <a href="#internal-infiltration">Mission of Infiltration</a><br/>
 <a href="#internal-witchhunter">Mission of Witchhunter</a><br/>
 
-#### <a href="#internal-judgements">Judgements</a>
+##### <a href="#internal-judgements">Judgements</a>
 
 </div>
 

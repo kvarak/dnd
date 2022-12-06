@@ -5,15 +5,15 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-Aarakocra">Aarakocra</a>
+##### <a href="#internal-Aarakocra">Aarakocra</a>
 <a href="#internal-aarakocraTrait">Traits</a><br/>
 <a href="#internal-aarakocraFeats">Feats</a>
 
-#### <a href="#internal-Kenku">Kenku</a>
+##### <a href="#internal-Kenku">Kenku</a>
 <a href="#internal-kenkuTrait">Traits</a><br/>
 <a href="#internal-kenkuFeats">Feats</a>
 
-#### <a href="#internal-class">Birdfolk Class Options</a>
+##### <a href="#internal-class">Birdfolk Class Options</a>
 </div>
 
 *There are several types of birdfolk in the world. Even though they are technically different races, they are grouped together here. Many traits are common to all birdfolk, but for ease, all are listed under each race.*
