@@ -52,8 +52,6 @@ Gnomes love names, and most have half a dozen or so. A gnome's mother, father, c
 
 When dealing with humans and others who are stuffy about names, a gnome learns to use no more than three names: a personal name, a clan name, and a nickname, choosing the one in each category  the most fun to say.
 
-<img src='https://robertrigo.github.io/pics/gnome1.png' style='float:left;width:35%;padding:20px' />
-
 <div class="columns">
 
 - **Male Names**: Alston, Alvyn, Boddynock, Brocc, Burgell, Dimble, Eldon, Erky, Fonkin, Frug, Gerbo, Gimble, Glim, Jebeddo, Kellen, Nam foodle, Orryn, Roondar, Seebo, Sindri, Warryn, Wrenn, Zook
@@ -300,7 +298,7 @@ An gnome approaches some classes is a bit different than other races. When you s
 
     <hr class="dividerinfolk">
 
-- <img src='http://2.bp.blogspot.com/-q5vSB2QKzMs/UR1WjXBncEI/AAAAAAAAExg/f2n70fdm1bg/s1600/Rosie+Cusswell.png' style='width:80%;padding:20px' />
+- <img src='http://2.bp.blogspot.com/-q5vSB2QKzMs/UR1WjXBncEI/AAAAAAAAExg/f2n70fdm1bg/s1600/Rosie+Cusswell.png' style='width:65%;padding:20px' />
 
 - ### Cavalier
     **Forest gnomes** get very well along with all kinds of animals, and they can be seen riding all kinds of animal, from badgers to moose. With the help from their friends they are very adept on the back of a ridden animal.
@@ -681,6 +679,8 @@ more than a haze before it disperses.
 
 
 
+<img src='https://vignette.wikia.nocookie.net/confanon/images/c/c9/Forest_Gnome.gif/revision/latest?cb=20110805161434' style='float:right;width:30%;padding:20px' />
+
 #### Animal helpers
 Forest gnomes can communicate with many of the
 small animals of the woods. Squirrels, raccoons, foxes,
@@ -697,8 +697,6 @@ the gnomes and earn a sweet treat. Birds trill a special
 call that alerts the gnomes to danger. At night, nocturnal
 animals such as owls and bats carry word to the gnomes
 during times when they should be on their guard.
-
-<img src='https://vignette.wikia.nocookie.net/confanon/images/c/c9/Forest_Gnome.gif/revision/latest?cb=20110805161434' style='float:right;width:40%;padding:20px' />
 
 #### Experts in illusion
 Forest gnomes have innate magical ability, letting them
