@@ -38,6 +38,9 @@ layout: default
 **Earth Genasi**<br/>
 <a href="#internal-quakeBringer">Path of the Quake Bringer</a>
 
+**Half-Orc**<br/>
+<a href="#internal-eyeOfGruumsh">Eye of Gruumsh</a>
+
 </div>
 
 # Barbarian
@@ -1625,4 +1628,61 @@ Whenever you rage you can cast the *thorn whip* cantrip as a ***bonus action*** 
 
 ### Reactive Tendrils
 Starting at 14th level, whenever you take damage from an adjacent creature, you can use your ***reaction*** to release grasping vines at the attacker, attempting to grapple the target.
+
+
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-eyeOfGruumsh">Restricted to Orc & Half-Orc characters</a></h2>
+<h1>Eye of Gruumsh</h1>
+<div class="featuresTable">
+
+#### Path Features
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | One-Eyed
+| 3rd | War Shaman |
+| 6th | Soothsayer |
+| 10th | Battle Cry |
+| 14th | Gruumsh’s Fury |
+
+</div>
+
+When an orc slays an elf in the name of Gruumsh and offers the corpse of its foe as a sacrifice, an aspect of the god might appear. This aspect demands that the orc sacrifices one of its eyes, symbolizing the loss Gruumsh himself has. If the orc plucks out its eye, it becomes an Eye of Gruumsh, a shamanistic warrior who uses auguries and magic to fuel its power.
+
+##### Restriction
+Only orcs and half-orcs can follow the Eye of Gruumsh primal path. Gruumsh will only grant his divine fury to his descendants.
+
+#### One-Eyed
+When you choose this primal path you must sacrifice one of your eyes to Gruumsh. You can do so as a 10-minute ritual, in which you rip out your eyeball and divine fire closes the wound shut.
+
+When you have your eye ripped out like this, you have disadvantage on Wisdom (Perception) checks and ranged attack rolls further than 30 feet. If you regain your removed eye, such as from the regenerate spell, you cannot make use of features from this primal path until you remove it again.
+
+In addition, you gain proficiency with Religion, and when making a Religion check made to recall information relating to Gruumsh, you have advantage.
+
+
+
+#### War Shaman
+When you enter a rage, you also cast the *spiritual weapon* spell as part of the same ***bonus action***. You use Wisdom as your spellcasting ability and add your Rage damage bonus to the spell attacks made using this spell while raging. The spell does not last its normal duration, but ends when your rage does.
+
+#### Soothsayer
+You can cast the *augury* spell, but only as a ritual, which includs a Small or larger corpse of a beast or humanoid as one of the material components for this spell.
+
+#### Battle Cry
+You channel divine fury through any number of creatures of your choice within 30 feet as an ***action***. Until the start of your next turn, each of those creatures has advantage on attack rolls until the start of your next turn.
+
+Once you use this feature, you can't use it again until you finish a short rest.
+
+#### Gruumsh’s Fury
+You can channel the anger of Gruumsh through your weapon. When you hit a creature with a melee weapon attack, you can choose for that attack to deal an extra 8d8 damage.
+
+Once you use this feature, you can't use it again until you finish a long rest.
+
+You can instead spend 5 Fury to use this feature, if the target is an elf.
+
+
+
+
+
 
