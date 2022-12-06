@@ -104,7 +104,7 @@ In addition you can choose (or roll with 20% chance each) any of the following t
 
 A half-orc approaches some classes is a bit different than other races. When you select one of these classes, it is modified as follows:
 
-<div class="columnsthree">
+<div class="columnstwo">
 
 - ### Alchemist
     Hmmm... who knew such a strange thing existed. An orc alchemist tend to be more brash when it comes to tasting their experiments. If you do not have it already, you gain the trait ***Ironguts*** described above.
