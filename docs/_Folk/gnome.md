@@ -232,6 +232,8 @@ Your deep gnome character has access to the following special feat.
 
 <div class="columnstwo">
 
+- <img src='../assets/images/deepgnome.png' style='width:80%;padding:20px' />
+
 -   <div class="feat">
 
     ## Pickaxe Mastery
