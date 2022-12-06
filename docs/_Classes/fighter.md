@@ -1644,7 +1644,7 @@ Your innovations to the armaments of war are beyond compare. Weapons modified by
 
 A weapon or suit of armor modified by your schematics cannot gain a bonus greater than +3, regardless of any innate bonuses the item may have had before being modified.
 
-## Schematics
+### Schematics
 The following schematics are available to you when you learn a new schematic. If a schematic has a level requirement, you can learn it at the same time you meet the requirement.
 
 <div class="columnstwo">
@@ -1699,7 +1699,7 @@ The following schematics are available to you when you learn a new schematic. If
 
 </div>
 
-## Archetype Maneuvers
+### Archetype Maneuvers
 The following maneuvers are available only to a Tinker knight. Tinker knights focus on overcoming enemies and obstacles with the help of their mechanical inventions.
 
 <div class="columnsthree">
