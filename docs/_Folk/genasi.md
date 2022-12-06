@@ -24,14 +24,14 @@ The powerful genies, however, don't face such troubles when venturing into the m
 
 Occasionally, genasi result from exposure to a surge of elemental power, through phenomena such as an eruption from the Inner Planes or a planar convergence. Elemental energy saturates any creatures in the area and might alter their nature enough that their offspring with other mortals are born as genasi.
 
+<img src='https://vignette.wikia.nocookie.net/criticalrole/images/1/11/Genasi.png' style='float:left;width:50%;padding:20px' />
+
 #### Heirs to Elemental Power
 Genasi inherit something from both sides of their dual nature. They resemble humans but have unusual skin color (red, green, blue, or gray), and there is something odd about them. The elemental blood flowing through their veins manifests differently in each genasi, often as magical power.
 
 Seen in silhouette, a genasi can usually pass for human. Those of earth or water descent tend to be heavier, while those of air or fire tend to be lighter. A given genasi might have some features reminiscent of the mortal parent (pointed ears from an elf, a stockier frame and thick hair from a dwarf, small hands and feet from a halfling, exceedingly large eyes from a gnome, and so on).
 
 Genasi almost never have contact with their elemental parents. Genies seldom have interest in their mortal offspring, seeing them as accidents. Many feel nothing for their genasi children at all. Some genasi live as outcasts, driven into exile for their unsettling appearance and strange magic, or assuming leadership of savage humanoids and weird cults in untamed lands. Others gain positions of great influence, especially where elemental beings are revered. A few genasi leave the Material Plane to find refuge in the households of their genie parents.
-
-<img src='https://vignette.wikia.nocookie.net/criticalrole/images/1/11/Genasi.png' style='float:left;width:35%;padding:20px' />
 
 #### Wild and Confident
 Genasi rarely lack confidence, seeing themselves as equal to almost any challenge in their path. This certainty might manifest as graceful self-assurance in one genasi and as arrogance in another. Such self-confidence can sometimes blind genasi to risk, and their great plans often get them and others into trouble.  Too much failure can chip away at even a genasi's sense of self, so they constantly push themselves to improve, honing their talents and perfecting their craft.
