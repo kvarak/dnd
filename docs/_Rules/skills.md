@@ -429,6 +429,12 @@ The skill of increasing your chance of winning on mostly Luck based games. If yo
 The skill to look around for clues and make deductions based on those clues. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, determine the weakest point in a tunnel that could cause it to collapse or to pore through ancient scrolls in search of a hidden fragment of knowledge. These are all Intelligence (Investigation) checks.
 
 <details>
+<summary>Appraisal</summary>
+
+You have skill with appraising and comparing values of objects, and always have ***Expertise*** on such checks. Normally you would not roll for this skill, unless it needs to be done quickly.
+</details>
+
+<details>
 <summary>Ciphers</summary>
 
 You are good at finding and solving ciphers. This grants ***Expertise*** on checks to realize that a text or map might contain a cipher or riddle.

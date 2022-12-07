@@ -1361,7 +1361,7 @@ The life domain focuses on the vibrant positive energy - one of the fundamental 
 
 | Cleric Level | Feature |
 |:----------------:|:--------|
-| 1st | Bonus Proficiencies, Disciple of Life |
+| 1st | Bonus Skill, Disciple of Life |
 | 2nd | Channel Divinity: Mend Wounds |
 | 6th | Blessed Healer |
 | 8th | Faithful Path |
@@ -1369,28 +1369,25 @@ The life domain focuses on the vibrant positive energy - one of the fundamental 
 | 18th | Supreme Healing |
 
 
-### Bonus Proficiency
-When you choose this domain at 1st level, you gain proficiency with the Medicine skill.
+### Bonus Skills
+When you take this domain at 1st level, gain 1 skill point to spend on *Medicine*.
 
 ### Disciple of Life
 From 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level.
 
 ### Channel: Mend Wounds
-Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.
+You can Channel Divinity to heal the badly injured.
 
-As an ***action***, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.
-
-
+As an ***action***, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 ft of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.
 
 ### Blessed Healer
-Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level.
+The healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
 
 ### Attuned to Life
-From 10th level, the energies of life fill your body. You have advantage on saves to against effects reducing your hp maximum and are immune to disease. However, your immunity is not absolute. Your capability to withstand a disease depends on its strength.
-
+Energies of life fill your body. You have advantage on saves to against effects reducing your hp maximum and are immune to disease. However, your immunity is not absolute. Your capability to withstand a disease depends on its strength.
 
 #### Magical Immunity
 
@@ -1401,9 +1398,8 @@ From 10th level, the energies of life fill your body. You have advantage on save
 | 16-18 | Diseases up to DC 25
 | 19-20 | All diseases
 
-
 ### Supreme Healing
-Starting at 18th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.
+When you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.
 
 
 
@@ -1444,28 +1440,26 @@ The following additions are made to the general rest rules.
 
 
 ### Warding Flare
-Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature that you can see within 30 feet, you can use your ***reaction*** to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this feature.
+Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature that you can see within 30 ft, you can use your ***reaction*** to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this feature.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 ### Channel: Radiance of Dawn
-Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes. As an ***action***, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled.
+You can Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes. As an ***action***, you present your holy symbol, and any magical darkness within 30 ft of you is dispelled.
 
-Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.
-
-
+Additionally, each hostile creature within 30 ft of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.
 
 ### Improved Flare
-Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet attacks a creature other than you.
+You can also use your Warding Flare feature when a creature that you can see within 30 ft attacks a creature other than you.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
 
 ### Guided by Light
-Once you reach 10th level, the lights guidance no longer makes you wince. You gain resistance to radiant damage, and you are immune to the blinded condition caused by light.
+The lights guidance no longer makes you wince. You gain resistance to radiant damage, and you are immune to the blinded condition caused by light.
 
 ### Corona of Light
-Starting at 18th level, you can use your ***action*** to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.
+You can use your ***action*** to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60 ft radius and dim light 30 ft beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.
 
 
 
@@ -1495,32 +1489,32 @@ Gods of nature are as varied as the natural world itself, from inscrutable gods 
 
 
 ### Acolyte of Nature
-At 1st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival.
+### Bonus Skills
+When you take this domain at 1st level, add *Animal Handling* and *Survival* to your class skills and gain 1 skill point to spend on these skill.
+
+Additionally you learn one druid cantrip of your choice.
 
 ### Channel Divinity
-At 2nd level, you gain two additional ways to use your Channel Divinity.
+You gain two additional ways to use your Channel Divinity.
 
- **Charm Animals and Plants**. As an ***action***, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate.
+ **Charm Animals and Plants**. As an ***action***, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 ft of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate.
 
-
-
-
- **Nature's Bounty**. You can use your Channel Divinity to bestow blessings of the wild upon your allies. As an ***action***, you present your holy symbol and invoke the name of your deity, selecting up to five friendly creatures you can see within 30 feet of you. You and the chosen creatures all gain one of the following benefits of your choice for 1 hour:
- * The creature gains a swimming speed of 30 feet, and it can breathe underwater.
- * The creature gains a climbing speed of 30 feet, and it can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
- * The creature gains resistance to poison damage, and has advantage on saving throws against poison.
+ **Nature's Bounty**. You can Channel Divinity to bestow blessings of the wild upon your allies. As an ***action***, you present your holy symbol and invoke the name of your deity, selecting up to five friendly creatures you can see within 30 ft. You and the chosen creatures all gain one of the following benefits of your choice for 1 hour:
+ - Targets gain a swimming speed of 30 ft and can breathe underwater.
+ * Targets gain a climbing speed of 30 ft and can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+ * Targets gain resistance to poison damage and have advantage on saving throws against poison.
 
 ### Dampen Elements
-Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant ***resistance*** to the creature against that instance of the damage.
+When you or a creature within 30 ft takes acid, cold, fire, lightning, or thunder damage, you can use your ***reaction*** to grant resistance to the target against that instance of the damage.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is cold, fire, or lightning.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is cold, fire, or lightning.
 
 ### Speech of the Wild
-From 10th level, your speech becomes infused with the natural energies of the world. You are considered to always be under the effects of the *Speak with animals* spell.
+Your speech becomes infused with the natural energies of the world. You are considered to always be under the effects of the *Speak with animals* spell.
 
 ### Master of Nature
-At 18th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a ***bonus action*** on your turn to verbally command what each of those creatures will do on its next turn.
+You gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a ***bonus action*** on your turn to verbally command what each of those creatures will do on its next turn.
 
 
 
@@ -1546,42 +1540,40 @@ Standing upon the shore and staring into an endless expanse of water for the fir
 
 
 ### Navigator's Eye
-When you take this domain at 1st level, you gain proficiency with navigation and as a sailor . You also gain proficiency with rapiers, scimitars, and short swords.
+When you take this domain at 1st level, *Physique*, *Sailor* and *Swimming* are added to your class skills. Additionally you gain 2 skill points to spend on *Sailor*.
+
+You also gain rank 1 with *Fencing swords* and *Swords*.
 
 
 ### Waves on the Shore
-At 1st level, your god's power comes to you from the tidal pools and shallows, and from the chitinous creatures that dwell there. You gain a swim speed equal to your walking speed.
+At 1st level, your god's power comes to you from the tidal pools and shallows, and from the chitinous creatures that dwell there.
+
+While under water, you can choose to have your base AC equal 13 + your Constitution modifier, as transparent chitin plates form over your skin to protect you. While these plates are present, you can cast spells, act, and breathe normally while underwater.
 
 <div class="descriptive" markdown="1">
 
 #### Octopus Face
 Your appearance doesn't have to be chitinous. The hide of a shark or stingray can be just as durable and provide a different style of armor for Waves on the Shore.
-
 </div>
 
-While under water, you can choose to have your base AC equal 13 + your Constitution modifier, as transparent chitin plates form over your skin to protect you. While these plates are present, you can cast spells, act, and breathe normally while underwater.
-
-
 ### Channel: Anchor of Faith
-Starting at 2nd level, you can invoke your deity to hinder the unfaithful. As an ***action***, you present your holy symbol and invoke a spiritual anchor chained to a target you can see within 30 feet. The target must make a Strength saving throw.
+You can invoke your deity to hinder the unfaithful. As an ***action***, you present your holy symbol and invoke a spiritual anchor chained to a target you can see within 30 ft. The target must make a Strength saving throw.
 
-On a failure, the creature is chained to the spiritual anchor for 1 minute. While anchored, the creature's speed is halved, and it cannot move or be moved more than 20 feet from the anchor without a successful Strength check.
-
-
+On a failure, the creature is chained to the spiritual anchor for 1 minute. While anchored, the creature's speed is halved, and it cannot move or be moved more than 20 ft from the anchor without a successful Strength check.
 
 ### Blood in the Water
-At 6th level, your god grants you the fearsome curse of the deadly predators of the seas. Whenever you suffer damage, you can use your ***reaction*** to mark one creature you can see with a black, bleeding splotch upon their skin. While a creature is marked, you are aware of its exact location if you are on the same plane. You can only mark one creature at a time using this feature. Marking a new creature erases any previous mark.
+Your god grants you the fearsome curse of the deadly predators of the seas. Whenever you suffer damage, you can use your ***reaction*** to mark one creature you can see with a black, bleeding splotch upon their skin. While a creature is marked, you are aware of its exact location if you are on the same plane. You can only mark one creature at a time using this feature. Marking a new creature erases any previous mark.
 
-If you can see the target, and it is in water, you can use an ***action*** to call a spiritual swarm of undersea predators to attack them and those around them. The target must make a Wisdom saving throw. If they fail, the predators strike them and all other hostile creatures within 15 feet of them, inflicting 3d10 psychic damage. If they succeed, the splotch fades and the effect ends.
+If you can see the target, and it is in water, you can use an ***action*** to call a spiritual swarm of undersea predators to attack them and those around them. The target must make a Wisdom saving throw. If they fail, the predators strike them and all other hostile creatures within 15 ft of them, inflicting 3d10 psychic damage. If they succeed, the splotch fades and the effect ends.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is cold.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is cold.
 
 ### Sailor of Trackless Waters
-At 10th level, your skill at navigating improves so that you cannot become lost except by magical means, as long see the stars.
+Your skill at navigating improves so that you cannot become lost except by magical means, as long see the stars.
 
 ### Call of the Sea
-At 18th level, your summons to the ocean is as strong as it's call to your heart. You can cast *wall of water* and *control water* without expending spell slots.
+Your summons to the ocean is as strong as it's call to your heart. You can cast *wall of water* and *control water* without expending spell slots.
 
 In addition, you gain resistance to cold damage and immunity to exhaustion from swimming or other oceanic conditions and activities.
 
@@ -1624,26 +1616,24 @@ The following additions are made to the general rest rules.
 
 
 ### Voice of Authority
-Starting at 1st level, you can invoke the power of law to drive an ally to attack. Immediately after you cast a spell on an ally using a spell slot of 1st level or higher, that ally can use their ***reaction*** to make one weapon attack. If the spell targets more than one ally, you choose the ally who can make the attack.
+You can invoke the power of law to drive an ally to attack. Immediately after you cast a spell on an ally using a spell slot of 1st level or higher, that ally can use their ***reaction*** to make one weapon attack. If the spell targets more than one ally, you choose the ally who can make the attack.
 
 ### Channel: Order’s Demand
-Starting at 2nd level, you can use Channel Divinity to exert an intimidating presence over others. As an ***action***, you present your holy symbol, and each creature of your choice within 30 feet that can see or hear you must succeed on a Wisdom saving throw or gainm the charmed condition until the end of your next turn or until it takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw.
-
-
+You can Channel Divinity to exert an intimidating presence over others. As an ***action***, you present your holy symbol, and each creature of your choice within 30 ft that can see or hear you must succeed on a Wisdom saving throw or gainm the charmed condition until the end of your next turn or until it takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw.
 
 ### Embodiment of the Law
-At 6th level, you become remarkably adept at channeling magical energy to compel others. If you cast a spell of the enchantment school using a spell slot of 1st level or higher, you can change the spell's casting time to a ***bonus action*** for this casting, provided the spell's casting time is normally an action.
+You become remarkably adept at channeling magical energy to compel others. If you cast a spell of the enchantment school using a spell slot of 1st level or higher, you can change the spell's casting time to a ***bonus action*** for this casting, provided the spell's casting time is normally an action.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
 
 ### Commanding Inspiration
-Starting at 10th level, as an ***action*** you can speak to a creature within 30 feet that can hear you, to end one effect on that creature that is causing them to be charmed or frightened.
+As an ***action*** you can speak to a creature within 30 ft that can hear you, to end one effect on that creature that is causing them to be charmed or frightened.
 
 ### Order’s Wrath
-Starting at 18th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. When you hit a creature with a weapon attack on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 1d8 psychic damage and the curse ends.
+Enemies you designate for destruction wilt under the combined efforts of you and your allies. When you hit a creature with a weapon attack on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 1d8 psychic damage and the curse ends.
 
 
 
@@ -1688,26 +1678,24 @@ The following additions are made to the general rest rules.
 
 
 ### Shield of the Faithful
-Starting at 1st level, you gain the ability to hinder attacks intended for others. When a creature attacks a target other than you, you can use your ***reaction*** to impose disadvantage on the attack roll. To do so, you must be adjacent to both the attacker and the target. You interpose an arm, a shield, or some other part of yourself to try to throw the attack off target.
+You gain the ability to hinder attacks intended for others. When a creature attacks a target other than you, you can use your ***reaction*** to impose disadvantage on the attack roll. To do so, you must be adjacent to both the attacker and the target. You interpose an arm, a shield, or some other part of yourself to try to throw the attack off target.
 
 ### Channel: Stalwart Defense
-You can use Channel Divinity to shield an ally. As an ***action***, you may target a creature within 60 feet, placing a ward on them for 1 minute. The first time the creature takes damage while having this ward, that damage is reduced to 0, and the ward disappears.
-
-
+You can Channel Divinity to shield an ally. As an ***action***, you may target a creature within 60 ft, placing a ward on them for 1 minute. The first time the creature takes damage while having this ward, that damage is reduced to 0, and the ward disappears.
 
 ### Blessed Healer
-Beginning at 6th level, the healing spells you cast on others can heal you as well. When you cast a spell with a spell slot and it restores hit points to any creature other than you this turn, you regain hit points equal to 2 + the spell’s level.
+Healing spells you cast on others can heal you as well. When you cast a spell with a spell slot and it restores hit points to any creature other than you this turn, you regain hit points equal to 2 + the spell’s level.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
 
 ### Protective Bond
-From 10th level, you can forge a protective bond among allies. As an ***action***, you choose a number of willing adjacent creatures equal to your proficiency bonus (this can include yourself). You create a magical bond among them for 10 minutes or until you use this feature again. While a bonded creature is about to take damge, a second bonded creature within 10 feet of the first can use its ***reaction*** take all the damage instead.
+You can forge a protective bond among allies. As an ***action***, you choose a number of willing adjacent creatures equal to your proficiency bonus (this can include yourself). You create a magical bond among them for 10 minutes or until you use this feature again. While a bonded creature is about to take damge, a second bonded creature within 10 ft of the first can use its ***reaction*** take all the damage instead.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 ### Indomitable Defense
-At 18th level, you gain resistance to two damage types of your choice, choosing from bludgeoning, necrotic, piercing, radiant, and slashing. Whenever you finish a long rest, you can change the damage types you chose.
+You gain resistance to two damage types of your choice, choosing from bludgeoning, necrotic, piercing, radiant, and slashing. Whenever you finish a long rest, you can change the damage types you chose.
 
 As an ***action***, you can temporarily give up this resistance and transfer it to one creature you touch. The creature keeps the resistance until your next short rest or until you transfer it back to yourself as a ***bonus action***.
 
@@ -1760,33 +1748,31 @@ The following additions are made to the general rest rules.
 
 
 ### Eyes of the Grave
-At 1st level, as an ***action***, you can sense the presence of the undead. Until the end of your next turn, you know the location of any undead within 60 feet not behind total cover.
+As an ***action***, you can sense the presence of the undead. Until the end of your next turn, you know the location of any undead within 60 ft not behind total cover.
 
 ### Ferryman's Mercy
-Also from 1st level, you stand as a warden at the Black Gates of death, keeping nearby allies out of the grave. You project an aura of stygian vigilance that extends 10 ft from you. At 18th level, the range of this aura increases to 30 ft.
+You stand as a warden at the Black Gates of death, keeping nearby allies out of the grave. You project an aura of stygian vigilance that extends 10 ft from you. At 18th level, the range of this aura increases to 30 ft.
 
 When a creature within your aura is reduced to 0 hit points but not killed outright, you can use your ***reaction*** to make a Wisdom check. The DC equals 10 or half the damage the creature took, whichever number is higher. If you succeed, the creature is reduced to 1 hit point instead, and you can’t use this feature on that creature again until you finish a long rest.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
-
-
 ### Channel: Positive Energy
-You can use Channel Divinity to release a wave of positive energy. As an ***action*** on your turn during combat, you cause every creature within 30 feet of you, other than constructs and undead, to regain hit points equal to 2d6 + half your cleric level. An undead within this range must instead make a Charisma saving throw against your spell save DC, taking radiant damage equal to the total on a failed save, or half as much damage on a successful one.
+You can Channel Divinity to release a wave of positive energy. As an ***action*** on your turn during combat, you cause every creature within 30 ft, other than constructs and undead, to regain hit points equal to 2d6 + half your cleric level. An undead within this range must instead make a Charisma saving throw against your spell save DC, taking radiant damage equal to the total on a failed save, or half as much damage on a successful one.
 
 ### Sentinel at Death’s Door
-At 6th level, you gain the ability to impede death’s progress. As a ***reaction*** when you or a creature within 30 feet that you can see suffers a critical hit, you can turn that hit into a normal hit. Any effects triggered by a critical hit are canceled.
+You gain the ability to impede death’s progress. As a ***reaction*** when you or a creature within 30 ft that you can see suffers a critical hit, you can turn that hit into a normal hit. Any effects triggered by a critical hit are canceled.
 
-You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
+You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a short rest.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is necrotic or radiant.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is necrotic or radiant.
 
 ### Keeper of Souls
-Starting at 10th level, you can seize a trace of vitality from a parting soul and use it to heal the living. When you see an enemy within 60 feet die, as a ***reaction*** you or one creature of your choice within 60 feet regains hit points equal to the enemy’s number of Hit Dice.
+You can seize a trace of vitality from a parting soul and use it to heal the living. When you see an enemy within 60 ft die, as a ***reaction*** you or one creature of your choice within 60 ft regains hit points equal to the enemy’s number of Hit Dice.
 
 ### Not Your Time
-Once you reach 18th level, you are able to declare when it is not someones time to die. When a creature within 120 ft of you would be killed by unnatural means, you can use your ***reaction*** to prevent that death. The creature is instead rendered unconscious and stabilized. While unconscious this way, they are immune to all damage and can not regain any hit points. This stasis ends after 1 hour, upon which they regain 1 hit point.
+You are able to declare when it is not someones time to die. When a creature within 120 ft of you would be killed by unnatural means, you can use your ***reaction*** to prevent that death. The creature is instead rendered unconscious and stabilized. While unconscious this way, they are immune to all damage and can not regain any hit points. This stasis ends after 1 hour, upon which they regain 1 hit point.
 
 Upon using this feature, you can not use it again until you complete a long rest.
 
@@ -1808,7 +1794,7 @@ As a worshipper of a god of physical might, you are dedicated to performing feat
 
 | Cleric Level | Feature |
 |:----------------:|:--------|
-| 1st | Bonus Proficiencies, Mighty Voice |
+| 1st | Bonus Skills, Mighty Voice |
 | 2nd | Channel Divinity |
 | 6th | Channel Divinity: Burst of Strength |
 | 8th | Faithful Path |
@@ -1816,34 +1802,37 @@ As a worshipper of a god of physical might, you are dedicated to performing feat
 | 18th | Overpowering Might |
 
 
-### Bonus Proficiency
-At level 1, you gain proficiency with Athletics and in the use of all heavy melee weapons. Further, you may choose to have proficiency with Strength saving throws instead of Charisma.
+
+### Bonus Skills
+When you choose this domain at 1st level, *Physique* is added to your class skills and you gain 2 skill points to spent on this skill. 
+
+Additionally you gain *Medium armor*, including its prerequisites, and rank 1 with *Axe*, *Flail* and *Sword*.
+
+Further, you may choose to have proficiency with Strength saving throws instead of Charisma.
 
 ### Mighty Voice
-From 1st level, you may use the voice-amplifying effect of the cantrip *thaumaturgy* at any time, without expending an action to cast it.
+You may use the voice-amplifying effect of the cantrip *thaumaturgy* at any time, without expending an action to cast it.
 
 ### Channel Divinity
-At 2nd level, you gain two additional ways to use your Channel Divinity.
+Gain two additional ways to use your Channel Divinity.
 
-**Beast of Burden**. As a ***bonus action***, you may use Channel Divinity and touch a creature; for one minute, their carrying capacity increases tenfold and they can lift, push and drag objects up to ten times more than the usual weight, so long as those objects are free to move and are not part of any larger object.
+**Beast of Burden**. As a ***bonus action***, you may Channel Divinity and touch a creature; for one minute, their carrying capacity increases tenfold and they can lift, push and drag objects up to ten times more than the usual weight, so long as those objects are free to move and are not part of any larger object.
 
-
-
-**Strength to go on**. You can use Channel Divinity to ameliorate fatigue and reinvigorate your allies. As an ***action***, you present your holy symbol, and choose any number of willing creatures you can see within 30 feet. Each chosen recipient regains a number of spent Hit Dice equal to your proficiency bonus.
+**Strength to go on**. You can use Channel Divinity to ameliorate fatigue and reinvigorate your allies. As an ***action***, you present your holy symbol, and choose any number of willing creatures you can see within 30 ft. Each chosen recipient regains a number of spent Hit Dice equal to your proficiency bonus.
 
 ### Channel: Burst of Strength
-Starting at 6th level, whenever you start your turn grappled or restrained, you may use your ***reaction*** and your Channel Divinity to end the effect. If you were restrained by a physical device, you break it.
+Whenever you start your turn grappled or restrained, you may use your ***reaction*** and your Channel Divinity to end the effect. If you were restrained by a physical device, you break it.
 
 Further, whenever an effect would forcibly move you some distance or knock you prone, you may use your ***reaction*** and Channel Divinity to remain still and upright; if the effect was the result of a melee attack, the attacker is instead pushed backwards the distance they attempted to push you, or knocked prone if they attempted to knock you prone.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is bludgeoning.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is bludgeoning.
 
 ### Behemoth
-Beginning at 10th level, your strength is an unbreakable defense. All non-magical damage is reduced by an amount equal to your proficiency bonus.
+Your strength is an unbreakable defense. All non-magical damage is reduced by an amount equal to your proficiency bonus.
 
 ### Overpowering Might
-Starting at 18th level, when you hit a creature with a melee attack, you may use your ***reaction*** to attempt to shove or grapple it, regardless of its size.
+When you hit a creature with a melee attack, you may use your ***reaction*** to attempt to shove or grapple it, regardless of its size.
 
 
 
@@ -1886,29 +1875,27 @@ The following additions are made to the general rest rules.
 
 
 ### Bonus Proficiencies
-When you choose this domain at 1st level, you gain proficiency with the Survival and Nature skills.
+When you choose this domain at 1st level, add *Nature* and *Survival* to your class skills and gain 1 skill point to spend on each skill.
 
 ### Stand the Fallen
-Also starting at 1st level, when you cast the *spare the dying* cantrip, you can make the following changes to the spell: change the range from touch to 30 feet, and the creature gains 1 hit point instead of becoming stable.
+When you cast the *spare the dying* cantrip, you can make the following changes to the spell: change the range from touch to 30 ft, and the creature gains 1 hit point instead of becoming stable.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
-
-
 ### Channel: Encourage the Troops
-Starting at 2nd level, you can use Channel Divinity to bolster the fighting abilities of your allies. As an ***action***, you present your holy symbol and invoke the survival instincts of your deity. Each allied creature that can see you gains advantage on their next melee or ranged weapon attack before the start of your next turn. If their attack hits, the allied creature also regains hit points equal to your cleric level.
+You can Channel Divinity to bolster the fighting abilities of your allies. As an ***action***, you present your holy symbol and invoke the survival instincts of your deity. Each allied creature that can see you gains advantage on their next melee or ranged weapon attack before the start of your next turn. If their attack hits, the allied creature also regains hit points equal to your cleric level.
 
 ### Channel Divinity: Push the Limits
-From 6th level, you can use Channel Divinity as an ***action*** to strengthen the resolve your allies. All allied creatures within 30 feet of you gain temporary hit points equal to your cleric level.
+You can Channel Divinity as an ***action*** to strengthen the resolve your allies. All allied creatures within 30 ft gain temporary hit points equal to your cleric level.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is of the same type dealt by the weapon.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is of the same type dealt by the weapon.
 
 ### Natural Resistance
-At 7th level, due to repeated exposure to nature, your body’s resistance has increased. You gain proficiency with Constitution saving throws.
+Due to repeated exposure to nature, your body’s resistance has increased. You gain proficiency with Constitution saving throws.
 
 ### Protection of the Tribe
-Starting at 18th level, you can use an ***action*** to make one allied creature who you can see immune to damage for a short time. The chosen creature is immune to all damage until the start of your next turn. You can regain the use of this ability when you finish a long rest.
+You can use an ***action*** to make one allied creature who you can see immune to damage for a short time. The chosen creature is immune to all damage dealt by hostile creatures until the start of your next turn. You can regain the use of this ability when you finish a long rest.
 
 
 
@@ -1952,26 +1939,24 @@ The following additions are made to the general rest rules.
 
 
 ### Wrath of the Storm
-Also at 1st level, you can thunderously rebuke attackers. When an adjacent creature hits you with an attack, you can use your ***reaction*** to cause the creature to make a Dexterity saving throw. The creature takes 2d8 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.
+You can thunderously rebuke attackers. When an adjacent creature hits you with an attack, you can use your ***reaction*** to cause the creature to make a Dexterity saving throw. The creature takes 2d8 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
-
-
 ### Channel: Destructive Wrath
-Starting at 2nd level, you can use your Channel Divinity to unleash the wrath of your deity. Each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. This damage can be your choice of lightning or thunder, you choose when using this feature.
+You can Channel Divinity to unleash the wrath of your deity. Each hostile creature within 30 ft must make a Constitution saving throw. A creature takes damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. This damage can be your choice of lightning or thunder, you choose when using this feature.
 
 ### Thunderbolt Strike
-At 6th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you.
+When you deal lightning damage to a Large or smaller creature, you can also push it up to 10 ft away from you.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is lightning or thunder.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is lightning or thunder.
 
 ### Stormborn
-Once you reach 6th level, you become more in tune with the raging tempest. You gain resistance to lightning and thunder damage.
+You become more in tune with the raging tempest. You gain resistance to lightning and thunder damage.
 
 ### Unyielding Storm
-At 18th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors.
+You have a flying speed equal to your current walking speed whenever you are not underground or indoors.
 
 
 
@@ -2026,26 +2011,24 @@ As a melee spell attack, you can stop time for one creature briefly, freezing th
 Once you have used this feature, you cannot use it again until you complete a short rest.
 
 ### Time is at your side
-Also at 1st level, you gain advantage on initiative checks.
+If you have the prerequisites (*Perception*), the *Keen awareness* skill has cost 0 for you.
 
 ### Channel: Choose Future
-Starting at 2nd level, you can use your Channel Divinity to see a momentary vision of the branches of time just before you make an attack or check. As a ***bonus action***, you channel the powers of time in order to gain advantage on the attack or check.
-
-
+You can Channel Divinity to see a momentary vision of the branches of time just before you make an attack or check. As a ***bonus action***, you channel the powers of time in order to gain advantage on the attack or check.
 
 ### Channel: Stall
-Starting at 6th level, you can use Channel Divinity to briefly slow time around another creature. As a ***bonus action***, you may force a creature within 30 feet to make a Wisdom saving throw. If they fail, their AC is reduced by 2, they have disadvantage on attacks, Dexterity saving throws and cannot take reactions until the start of your next turn.
+You can Channel Divinity to briefly slow time around another creature. As a ***bonus action***, you may force a creature within 30 ft to make a Wisdom saving throw. If they fail, their AC is reduced by 2, they have disadvantage on attacks, Dexterity saving throws and cannot take reactions until the start of your next turn.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is necrotic.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is necrotic.
 
 ### Delay Damage
-Starting at 10th level, your ability to manipulate time is so precise you're able to freeze it for a fraction of a second to avoid danger. When you would normally be hit by weapon or spell attack, you can use your ***reaction*** to stop time long enough to get out of harm's way. The attack misses and fails to affect you, and you move to a location within 5 feet. This movement does not provoke opportunity attacks.
+Your ability to manipulate time is so precise you're able to freeze it for a fraction of a second to avoid danger. When you would normally be hit by an attack, you can use your ***reaction*** to stop time long enough to get out of harm's way. The attack misses and fails to affect you, and you move to a location within 5 ft. This movement does not provoke opportunity attacks.
 
 After you use this feature, you cannot use it again until you finish a long rest.
 
 ### Relentless Touch of Time
-At 18th level, as an ***action***, you can call upon the power of entropy to cast *disintegrate* by touch.
+As an ***action***, you can call upon the power of entropy to cast *disintegrate* by touch.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
@@ -2065,43 +2048,41 @@ Gods of trickery are mischief-makers and instigators who stand as a constant cha
 
 | Cleric Level | Feature |
 |:----------------:|:--------|
-| 1st | Blessing of the Trickster,<br> Improved Minor Illusion |
+| 1st | Blessing of the Trickster,<br>Improved Minor Illusion |
 | 2nd | Channel Divinity: Invoke Duplicity |
 | 6th | Channel Divinity: Cloak of Shadows |
 | 8th | Faithful Path |
-| 10th | Malleable Illusions, Trickster’s Majesty |
+| 10th | Malleable Illusions,<br>Trickster’s Majesty |
 | 18th | Soul of Deceit |
 
 
 ### Blessing of the Trickster
-Starting when you choose this domain at 1st level, you can use your ***action*** to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again.
+You can use your ***action*** to touch a willing creature other than yourself to give it advantage on *Stealth* checks. This blessing lasts for 1 hour or until you use this feature again.
 
 ### Improved Minor Illusion
-Also at 1st level, you gain the *minor illusion* cantrip if you don’t already know it. When you cast minor illusion, you can create both a sound and an image with a single casting of the spell.
+Gain the *minor illusion* cantrip if you don’t already know it. When you cast minor illusion, you can create both a sound and an image with a single casting of the spell.
 
 ### Channel: Invoke Duplicity
-Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.
+You can Channel Divinity to create an illusory duplicate of yourself.
 
-As an ***action***, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose concentration. The illusion appears in an unoccupied space that you can see within 30 feet. As a ***bonus action*** on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.
+As an ***action***, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose concentration. The illusion appears in an unoccupied space that you can see within 30 ft. As a ***bonus action*** on your turn, you can move the illusion up to 30 ft to a space you can see, but it must remain within 120 ft.
 
 For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.
 
-
-
 ### Channel: Cloak of Shadows
-Starting at 6th level, you can use your Channel Divinity to vanish. As an ***action***, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.
+You can Channel Divinity to vanish. As an ***action***, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is poison or psychic.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is poison or psychic.
 
 ### Malleable Illusions
-Starting at 10th level, when you cast an illusion that has a duration of 1 minute or longer, you can use your ***action*** to change the nature of that illusion (using the spell’s normal parameters for the illusion), provided that you can see the illusion.
+When you cast an illusion that has a duration of 1 minute or longer, you can use your ***action*** to change the nature of that illusion (using the spell’s normal parameters for the illusion), provided that you can see the illusion.
 
 ### Trickster's Majesty
-Also from 10th level, as an ***action*** you may swap places with your duplicate created by Invoke Duplicity. Your duplicate no longer requires concentration and now lasts for an hour.
+As an ***action*** you may swap places with your duplicate created by Invoke Duplicity. Your duplicate no longer requires concentration and now lasts for an hour.
 
 ### Soul of Deceit
-Starting at 18th level, your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by succeeding on a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.
+Your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by succeeding on a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.
 
 Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful if you so choose, and you can't be compelled to tell the truth by magic.
 
@@ -2137,7 +2118,7 @@ The following additions are made to the general rest rules.
 
 | Cleric Level | Feature |
 |:----------------:|:--------|
-| 1st | Bonus Proficiencies, Vengeful Counter |
+| 1st | Bonus Skills, Vengeful Counter |
 | 2nd | Channel Divinity: Instrument of Revenge |
 | 6th | Fly Havoc |
 | 8th | Faithful Path |
@@ -2145,32 +2126,30 @@ The following additions are made to the general rest rules.
 | 18th | Vengeful Visions |
 
 
-### Bonus Proficiencies
-When you select this domain at 1st level, you gain proficiency with heavy armor.
+### Bonus Skills
+When you select this domain at 1st level, Additionally you gain 1 skill point to spend on the *Medium armor* or *Heavy armor* combat skills.
 
 ### Vengeful Counter
-Also at 1st level, your deity enables you to strike those who harm your allies. Whenever an allied creature you can see takes damage from an attack and the attacker is within your reach, you can make a melee attack against the creature as a ***reaction***.
+Your deity enables you to strike those who harm your allies. Whenever an allied creature you can see takes damage from an attack and the attacker is within your reach, you can make a melee attack against the creature as a ***reaction***.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 ### Channel: Instrument of Revenge
-At 2nd level, you can call upon the power of your deity to grant a vengeful blessing to those who have been hurt. When you see a friendly creature take damage from another creature, you can use Channel Divinity with  your reaction to bless the creature.
-
-
+You can call upon the power of your deity to grant a vengeful blessing to those who have been hurt. When you see a friendly creature take damage from another creature, you can use Channel Divinity with your ***reaction*** to bless the creature.
 
 For the next hour, the target always knows the location of the creature that damaged it, the target’s weapon attacks against this creature deal an extra 1d4 radiant damage, and whenever the creature takes an action that the target can see, the target can use its reaction to move up to its speed towards the creature.
 
 ### Fly Havoc
-At 6th level, your deity grants you the wings of an avenging angel. You can use your ***bonus action*** and expend a spell slot of 1st level or higher, to cause wings to appear at your back. These wings pass harmlessly through armor and equipment but are hard as steel, granting you a flying speed of 60 feet and the benefits of the *shield* spell. The wings remain for a number of rounds equal to twice the level of the spell slot expended.
+Your deity grants you the wings of an avenging angel. You can use your ***bonus action*** and expend a spell slot of 1st level or higher to cause wings to appear at your back. These wings pass harmlessly through armor and equipment but are hard as steel, granting you a flying speed of 60 ft and the benefits of the *shield* spell. The wings remain for a number of rounds equal to twice the level of the spell slot expended.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
 
 ### No Mercy
-From 10th level there is no longer a limit to how many times you can use your Vengeful Counter feature.
+There is no longer a limit to how many times you can use your Vengeful Counter feature.
 
 ### Vengeful Visions
-At 18th level, when you hit a creature with an attack, you can use this feature to instantly cause the target to relive terrifying phantasmal visions of their past deeds. The creature disappears and hurtles through a nightmarish landscape within the Shadowfell.
+When you hit a creature with an attack, you can use this feature to instantly cause the target to relive terrifying phantasmal visions of their past deeds. The creature disappears and hurtles through a nightmarish landscape within the Shadowfell.
 
 At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space and takes 10d10 psychic damage as it reels from its horrific experience.
 
@@ -2193,7 +2172,7 @@ War has many manifestations. It can make heroes of ordinary people. It can be de
 
 | Cleric Level | Feature |
 |:----------------:|:--------|
-| 1st | Bonus Proficiency, Faith and Steel |
+| 1st | Bonus Skills, Faith and Steel |
 | 2nd | Channel Divinity: Battle Hymn |
 | 6th | War God’s Magic |
 | 8th | Faithful Path |
@@ -2201,32 +2180,32 @@ War has many manifestations. It can make heroes of ordinary people. It can be de
 | 18th | Avatar of Battle |
 
 
-### Bonus Proficiency
-At 1st level, you gain proficiency with heavy armor.
+### Bonus Skills
+When you select this domain at 1st level, Additionally you gain 1 skill point to spend on the *Medium armor* or *Heavy armor* combat skills.
 
 ### Faith and Steel
 Your studies mix martial training with theological study, making you as much warrior as priest. You learn one Fighting Style option of your choice from the fighter class. If you already have a style, the one you choose must be different.
 
-Additionally, if proficient, you can use your weapon as a spellcasting focus for your cleric spells.
+Additionally, you gain rank 2 with all weapon groups.
 
-
+Lastly you can use your weapon as a spellcasting focus for your cleric spells.
 
 ### Channel: Battle Hymn
-At 2nd level, you can use Channel Divinity to deliver a bolt of inspiration to a warrior engaged in battle. As a ***bonus action***, you touch your holy symbol and choose one willing creature you can see within 30 feet of you, other than yourself. Once before the end of the creature's next turn when it takes the Attack action, it can make one additional weapon attack as part of that action
+You can Channel Divinity to deliver a bolt of inspiration to a warrior engaged in battle. As a ***bonus action***, you touch your holy symbol and choose one willing creature you can see within 30 ft, other than yourself. Once before the end of the creature's next turn when it takes the Attack action, it can make one additional weapon attack as part of that action.
 
 ### War God's Magic
-Starting at 6th level, divine magic fuels your attacks. When you cast a cleric cantrip using your action, you can make one weapon attack as a ***bonus action***.
+Divine magic fuels your attacks. When you cast a cleric cantrip using your action, you can make one weapon attack as a ***bonus action***.
 
 ### Faithful Path
-At 8th level, if you have chosen the **Path of the Crusader**, you do not deal extra damage. Instead, you learn to channel your divine power into a frenzy of weapon strikes. Once on each of your turns when you take the Attack action, you can make an additional weapon attack as part of the same action. If you hit with this additional attack, you can cause all of the attack's damage to become radiant damage.
+If you have chosen the **Path of the Crusader**, you do not deal extra damage. Instead, you learn to channel your divine power into a frenzy of weapon strikes. Once on each of your turns when you take the Attack action, you can make an additional weapon attack as part of the same action. If you hit with this additional attack, you can cause all of the attack's damage to become radiant damage.
 
 When you gain your second Faithful Path power at 14th level, you can instead make a second additional attack, which you can also convert to radiant.
 
 ### Behemoth
-Beginning at 10th level, you have resistance to nonmagical bludgeoning, piercing, and slashing damage.
+You have resistance to nonmagical bludgeoning, piercing, and slashing damage.
 
 ### Avatar of Battle
-At 18th level, you gain resistance to all bludgeoning, piercing, and slashing damage.
+You gain resistance to all bludgeoning, piercing, and slashing damage.
 
 
 
@@ -2277,32 +2256,30 @@ The following additions are made to the general rest rules.
 
 
 ### Frost’s Fortitude
-At 1st level, winter’s power grants you endurance and strength where others would falter. You take no penalties and suffer no damage from mundane cold environments or weather.
+Winter’s power grants you endurance and strength where others would falter. You take no penalties and suffer no damage from mundane cold environments or weather.
 
 ### Channel: Cold Snap
-Beginning at 2nd level, you can use Channel Divinity to wreath those who oppose you in the fury of winter, instantly freezing them to the ground where they stand. As an ***action***, you may present your holy symbol and call upon the wrath of your deity.
+You can Channel Divinity to wreath those who oppose you in the fury of winter, instantly freezing them to the ground where they stand. As an ***action***, you may present your holy symbol and call upon the wrath of your deity.
 
-All creatures within a 10 foot radius centered on a point within 60 feet must make a Dexterity saving throw against your spell save DC. A creature that fails this saving throw becomes frozen in place for 1 minute. That creatures is grappled until it breaks free; the DC to escape this grapple is equal to your spell save DC.
-
-
+All creatures within a 10 ft radius centered on a point within 60 ft must make a Dexterity saving throw against your spell save DC. A creature that fails this saving throw becomes frozen in place for 1 minute. That creatures is grappled until it breaks free; the DC to escape this grapple is equal to your spell save DC.
 
 ### Rime
-Starting at 6th level, you can rime with frost those who would dare strike you or your allies. When a creature within 30 feet that you can see attacks you or any other creature, you may use your ***reaction*** to chill the attacking creature with a torrent of arctic power, slowing their movements and draining their fortitude.
+You can rime with frost those who would dare strike you or your allies. When a creature within 30 ft attacks, you may use your ***reaction*** to chill the attacking creature with a torrent of arctic power, slowing their movements and draining their fortitude.
 
 Until the end of the affected creature's next turn, its movement speed is halved, it makes Strength, Dexterity, and Constitution checks with disadvantage, and the first Strength, Dexterity, or Constitution saving throw the creature makes has disadvantage. If a creature affected by this ability is hit with an attack, it takes additional damage from that attack equal to your Wisdom modifier. This ability has no effect on creatures with immunity or resistance to cold damage.
 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is cold.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is cold.
 
 ### Glacial Wreath
-From 10th level, you can conjure sheats of ice to protect yourself. After you are dealt damge by an attack, you can use your ***reaction*** to gain temporary hit points equal to half your cleric level, which last until the beginning of your next round.
+You can conjure sheets of ice to protect yourself. After you are dealt damge by an attack, you can use your ***reaction*** to gain temporary hit points equal to half your cleric level, which last until the beginning of your next round.
 
 ### Blizzard
-Starting at 18th level, you can unleash the might of your deity in a powerful flurry of ice and snow, engulfing your foes in a raging snowstorm.
+You can unleash the might of your deity in a powerful flurry of ice and snow, engulfing your foes in a raging snowstorm.
 
-As an ***action***, you conjure a powerful blizzard that lasts for 1 minute, or until you lose your concentration. The blizzard is centered in a point you can see within 120 feet, which occupies a 120 foot tall cylinder with a 100 foot radius. The area is heavily obscured to all creatures, other than a number of creatures of your choice you can see up to your Wisdom modifier.
+As an ***action***, you conjure a powerful blizzard that lasts for 1 minute, or until you lose your concentration. The blizzard is centered in a point you can see within 120 ft, which occupies a 120 ft tall cylinder with a 100 ft radius. The area is heavily obscured to all creatures, other than a number of creatures of your choice you can see up to your Wisdom modifier.
 
 Creatures starting their turn within the blizzard (other than those you have designated) must make a Constitution saving throw against your spell save DC. If a creature fails, it is subject to your Rime ability without expending any of its uses, and takes 4d6 cold damage. Creatures with resistance or immunity to cold damage are not affected by Rime, as normal.
 
@@ -2345,7 +2322,7 @@ The following additions are made to the general rest rules.
 
 | Cleric Level | Feature |
 |:----------------:|:--------|
-| 1st | Bonus Proficiencies, Bypass Ward |
+| 1st | Bonus Skills, Bypass Ward |
 | 2nd | Channel Divinity: Bottomless Bag |
 | 6th | Channel Divinity: Access the Vault |
 | 8th | Potent Spellcasting |
@@ -2353,25 +2330,25 @@ The following additions are made to the general rest rules.
 | 17th | Vault Jump |
 
 
-### Bonus Proficiencies
-A balanced scale must estimate value quickly and accurately, particularly when in a dangerous environment such as an underground tomb. When you select this domain at 1st level, you have proficiency with appraising and comparing values of objects, and you always have advantage on such checks
+### Bonus Skills
+A balanced scale must estimate value quickly and accurately, particularly when in a dangerous environment such as an underground tomb. If you have the prerequisite (*Investigation*), the *Appraisal* skill has cost 0 for you.
 
-Also, getting permission to enter treasure-laden ruins sometimes requires talking to the right people and handing around a few coins for bribes, “finder’s fees,” and so on. You learn which palms to grease and what promises to make, and may add your proficiency bonus on such checks.
+Also, getting permission to enter treasure-laden ruins sometimes requires talking to the right people and handing around a few coins for bribes, “finder’s fees,” and so on. You learn which palms to grease and what promises to make. If you have the prerequisite (*Speechcraft*), the *Mercantilism* skill has cost 0 for you.
 
 Your proficiency bonus is doubled when you offer an appropriate bribe (minimum 10 gp × the level of the recipient) during the interaction, as well as on Charisma checks made to compel a bound creature to perform a service when using the *planar binding* (and similar) spell.
 
 ### Bypass Ward
-Ancient ruins often contain locked and sometimes warded doors which needs to be passed. Also at 1st level, you gain proficiency with Thieves’ tools. By expending a 1st level spell slot, you can temporarily suppress a magic ward on a door for 1 minute, including both magical locks and trap glyphs.
+Ancient ruins often contain locked and sometimes warded doors which needs to be passed. Add *Burglary* to your class skills and gain 1 skill point to spend on it.
 
-
+By expending a 1st level spell slot, you can temporarily suppress a magic ward on a door for 1 minute, including both magical locks and trap glyphs.
 
 ### Channel: Bottomless Bag
-Starting at 2nd level, you can use Channel Divinity to temporarily turn any ordinary container into a bag of holding.
+You can Channel Divinity to temporarily turn any ordinary container into a bag of holding.
 
 As an ***action***, you turn any ordinary sack, backpack, or other container into a bag of holding. The container remains a bag of holding for 1 hour per cleric level; after the duration expires, the container resumes its normal properties, and any items too large to fit within its true dimensions immediately and harmlessly fall out of the opening. Unlike a permanent bag of holding, the bag created by this ability cannot be overloaded or ruptured, nor does it have any special interaction with other kinds of extradimensional spaces.
 
 ### Channel: Access the Vault
-Starting at 6th level, you can use Channel Divinity to access the First Vault, Abadar’s planar repository for perfect versions of every item ever made.
+You can Channel Divinity to access the First Vault, Abadar’s planar repository for perfect versions of every item ever made.
 
 You can summon a copy of any one nonmagical item as long as its market price is equal to or less than 500 gp per cleric level and its volume is less than 1 cubic foot per cleric level. The item remains for 1 minute per cleric level, after which it returns to the Vault.
 
@@ -2380,22 +2357,15 @@ Items taken from the First Vault are obviously of exceptional quality and radiat
 Balanced scales who abuse this ability lose access to all their class abilities until they have atoned for their transgression.
 
 ### Faithful Path
-From 8th level, if you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
+If you have chosen the **Path of the Crusader**, the extra damage you deal is radiant.
 
 ### Unfailing Logic
 Your experience teaches you to anchor yourself in reality, granting resistance to even the most potent illusions. You gain advantage on saving throws against illusions.
 
-
-
-
-
-
-
-
 ### Vault Jump
 Those who drive hard bargains and search for lost treasures sometimes bite off more than they can chew, and a quick exit is often the only way to escape a bad situation alive.
 
-At 18th level, you can create a one-way portal through the First Vault, which has one of two effects. First, you may use the portal as if it were a *teleport* spell. Second, you may use the portal as if you were casting *word of recall*, but instead of returning to a sanctuary, you always returns to the closest active temple of Abadar.
+You can create a one-way portal through the First Vault, which has one of two effects. First, you may use the portal as if it were a *teleport* spell. Second, you may use the portal as if you were casting *word of recall*, but instead of returning to a sanctuary, you always returns to the closest active temple of Abadar.
 
 You can do this once, and this use recovers when you finish a long rest.
 
