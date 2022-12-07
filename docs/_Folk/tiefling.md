@@ -219,33 +219,47 @@ Roll twice on the special appearance tables below.
 ## <a class="internal-link" name="internal-feat">Tiefling feats</a>
 The following feats are exclusive to tieflings:
 
-<div class="feat">
+<div class="columnsthree">
 
-## Flames of Phlegethos
-You learn to call on hellfire to serve your commands.
-- Increase your **Intelligence** or **Charisma** score by 1.
-- When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.
-- Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.
+-   <div class="feat">
 
+    ## Flames of Phlegethos
+    You learn to call on hellfire to serve your commands.
 
-<div class="feat">
+    Increase your **Intelligence** or **Charisma** score by 1.
 
-## Grasping Tail
-*Prerequisite: Tiefling with a tail.*
+    When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.
 
-Your tail becomes more useful.
-- Your **Dexterity** score increases by 1.
-- Many tieflings have tails, but you have a long, flexible tail that can be used to carry items. While you cannot wield weapons with your tail, you can use it to grab unattended items within 5 feet, carry small items such as a torch, or grab stowed objects carried on your person. The tail gives you an extra item action each round.
+    Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.
 
+    </div>
 
-<div class="feat">
+-   <div class="feat">
 
-## Infernal Constitution
-Fiendish blood runs strong in you.
-- Increase your **Constitution** by 1.
-- You have resistance to cold and poison damage.
-* You have advantage on saving throws against being poisoned.
+    ## Grasping Tail
+    *Prerequisite: Tiefling with a tail.*
 
+    Your tail becomes more useful.
+
+    Your **Dexterity** score increases by 1.
+
+    Many tieflings have tails, but you have a long, flexible tail that can be used to carry items. While you cannot wield weapons with your tail, you can use it to grab unattended items within 5 feet, carry small items such as a torch, or grab stowed objects carried on your person. The tail gives you an extra item action each round.
+
+    </div>
+
+-   <div class="feat">
+
+    ## Infernal Constitution
+    Fiendish blood runs strong in you.
+
+    Increase your **Constitution** by 1.
+
+    You have resistance to cold and poison damage.
+
+    You have advantage on saving throws against being poisoned.
+
+    </div>
+</div>
 
 
 
@@ -253,126 +267,141 @@ Fiendish blood runs strong in you.
 ## <a class="internal-link" name="internal-class">Tiefling Class Options</a>
 An tiefling approaches some classes is a bit different than other races. When you select a class, it is modified as follows:
 
-### Alchemist
-When creating bombs you can add some of your essence in the form of your bodily fluids, such as saliva, to the concoctions. If you do, half the damage dealt with the bombs is necrotic damage.
+<div class="columnstwo">
 
-In addition, whenever the Alchemist class description mentions your Intelligence modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+-   ### Alchemist
+    When creating bombs you can add some of your essence in the form of your bodily fluids, such as saliva, to the concoctions. If you do, half the damage dealt with the bombs is necrotic damage.
 
-### Barbarian
-While raging, you have advantage on saves against charm and fear.
+    In addition, whenever the Alchemist class description mentions your Intelligence modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
-In addition, if you have a tail, you have access to the Path of the Tailfighter (see beastfolk description).
+    <hr class="dividerinfolk">
 
-### Bard
-Infernal tieflings can be devilishly charming.
+-   ### Barbarian
+    While raging, you have advantage on saves against charm and fear.
 
-Whenever the Bard class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    In addition, if you have a tail, you have access to the <a href="../Classes/barbarian.html#internal-tailfighter">Path of the Tailfighter</a>.
 
-### Cavalier
-Your mount shares your Abyssal fortitude, or Hellish resistance traits.
+    <hr class="dividerinfolk">
 
-### Cleric
-An tiefling cleric who has chosen to follow the teachings of a good deity are often much more devoted, doing whatever it takes to not end up in the domains of their ancestor after death.
+-   ### Bard
+    Infernal tieflings can be devilishly charming.
 
-Whenever the Cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    Whenever the Bard class description mentions your Charisma modifier, you may instead use your proficiency bonus.
 
-### Cursed
-A cursed tiefling is in a constant struggle between his heritage and curse. You may choose Wisdom or Charisma as your spellcasting ability instead of Intelligence. You make this choice at level 1 and cannot change this later.
+    <hr class="dividerinfolk">
+
+-   ### Cavalier
+    Your mount shares your Abyssal fortitude, or Hellish resistance traits.
+
+    <hr class="dividerinfolk">
+
+-   ### Cleric
+    An tiefling cleric who has chosen to follow the teachings of a good deity are often much more devoted, doing whatever it takes to not end up in the domains of their ancestor after death.
+
+    Whenever the Cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+
+    <hr class="dividerinfolk">
+
+-   ### Cursed
+    A cursed tiefling is in a constant struggle between his heritage and curse. You may choose Wisdom or Charisma as your spellcasting ability instead of Intelligence. You make this choice at level 1 and cannot change this later.
+
+    <hr class="dividerinfolk">
+
+-   ### Druid
+    Nature usually does not respond well to the fiendish heritage of tieflings, so druids are extremely rare.
+
+    <hr class="dividerinfolk">
+
+-   ### Feyblood
+    An Assimar can not become a Feyblood. If your Fey heritage is stronger than your fiendish, you will be born a regular human instead.
+
+    <hr class="dividerinfolk">
+
+-   ### Fighter
+    A skilled fighter can easily defeat a ten times stronger, but unskilled brute. It is not how hard you hit, but the precision of your strikes.
+
+    As a level 1 Fighter, select Strength or Dexterity. Whenever the Fighter class description mentions your ability modifier for this ability, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls using this ability.
+
+    <hr class="dividerinfolk">
+
+-   ### Inquisitor
+    As for the cleric, a tiefling inquisitor who has chosen to follow the teachings of a good deity are often much more devoted, doing whatever it takes to not end up in the domains of their ancestor after death.
+
+    Whenever the Inquisitor class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
+
+    <hr class="dividerinfolk">
+
+-   ### Paladin
+    Tieflings that choose to become paladins are often trying to live a life as good as possible to not end up in the domains of their ancestor after death.
+
+    Whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
+
+    <hr class="dividerinfolk">
+
+-   ### Professional
+    An tiefling is also part human, and as such, good at adapting their knowledge and skills to whatever obstacle they face.
+
+    Whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+
+    <hr class="dividerinfolk">
+
+-   ### Ranger
+    Just as human, the tiefling ranger is ready for anything that he might face in nature, and if by chance he would not be, he adapts and survives.
+
+    Whenever the Ranger class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
+
+    <hr class="dividerinfolk">
+
+-   ### Rogue
+    Tieflings are often, whether they want it or not, drawn into the criminal underworld of the cities.
+
+    You may use your Dexterity modifier +3 or your proficiency bonus when calculating AC and when attacking (to hit and damage).
+
+    In addition, when using sneak attack, you can opt not to use all your sneak attack dice. For each die you did not use, you gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
+
+    <hr class="dividerinfolk">
+
+-   ### Sorcerer
+    Thanks to their fiendish blood, tiefling sorcerers are more common than other folk.
+
+    Whenever the Sorcerer class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+
+    In addition you gain the fiendish sorcery trait.
+
+    <div class="feat">
+
+    ## Fiendish sorcery
+    Your blood resonates with your fiendish ancestry. You may use your blood instead of an arcane focus. This requires you to cut yourself, dealing 1 hp damage. If you do that when casting a spell dealing damage, you may choose half the damage dealt to be necrotic.
+
+    In addition, as an ***action***, you can bleed yourself, reducing your maximum hp by 10, and regaining 1st level spell slot. This is hp reduction is restored after a long rest.
+
+    </div>
+
+    <hr class="dividerinfolk">
+
+-   ### Swashbuckler
+    An infernal tiefling's natural charisma and human heritage make them well suited to swashbuckling.
+
+    Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
+
+    <hr class="dividerinfolk">
+
+-   ### Warlock
+    Some tieflings consider themselves already beholden to a patron, the fiendish being which is their heritage, so making a pact with another is out of the question.
+
+    If you have some kind of fiendish patron, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus. In addition, you learn an additional cantrip.
+
+    <hr class="dividerinfolk">
+
+-   ### Wizard
+    When you use the *find familiar* spell, you can additionally choose an imp or quasit as a familiar.
+
+    In addition, whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
 
 
+    <hr class="dividerinfolk">
 
-
-
-
-
-
-### Druid
-Nature usually does not respond well to the fiendish heritage of tieflings, so druids are extremely rare.
-
-### Feyblood
-An Assimar can not become a Feyblood. If your Fey heritage is stronger than your fiendish, you will be born a regular human instead.
-
-### Fighter
-A skilled fighter can easily defeat a ten times stronger, but unskilled brute. It is not how hard you hit, but the precision of your strikes.
-
-As a level 1 Fighter, select Strength or Dexterity. Whenever the Fighter class description mentions your ability modifier for this ability, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls using this ability.
-
-### Inquisitor
-As for the cleric, a tiefling inquisitor who has chosen to follow the teachings of a good deity are often much more devoted, doing whatever it takes to not end up in the domains of their ancestor after death.
-
-Whenever the Inquisitor class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
-
-<!--
-### Monster Hunter
-Tiefling are often seen as monsters themselves, which often gives them more to prove, and a stronger conviction to their cause.
-
-If you have a non-human appearance, then whenever the Monster hunter class description mentions your Wisdom modifier, you may instead use your proficiency bonus. In addition, when you become a 1st level monster hunter, select Strength or Dexterity. You may use that ability modifier +3 or your proficiency bonus, whichever is lower, when calculating attack and damage rolls using the ability.
--->
-
-### Paladin
-Tieflings that choose to become paladins are often trying to live a life as good as possible to not end up in the domains of their ancestor after death.
-
-Whenever the Paladin class description mentions your Strength or Charisma modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
-
-### Professional
-An tiefling is also part human, and as such, good at adapting their knowledge and skills to whatever obstacle they face.
-
-Whenever the Professional class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
-
-
-
-### Ranger
-Just as human, the tiefling ranger is ready for anything that he might face in nature, and if by chance he would not be, he adapts and survives.
-
-Whenever the Ranger class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower. In addition, you may use the same modifier instead of Strength or Dexterity when attacking. Make this choice at level 1 and it cannot be changed later.
-
-### Rogue
-Tieflings are often, whether they want it or not, drawn into the criminal underworld of the cities.
-
-You may use your Dexterity modifier +3 or your proficiency bonus when calculating AC and when attacking (to hit and damage).
-
-In addition, when using sneak attack, you can opt not to use all your sneak attack dice. For each die you did not use, you gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
-
-### Sorcerer
-Thanks to their fiendish blood, tiefling sorcerers are more common than other folk.
-
-Whenever the Sorcerer class description mentions your Charisma modifier, you may instead use your proficiency bonus.
-
-In addition you gain the fiendish sorcery trait.
-
-<div class="feat">
-
-## Fiendish sorcery
-Your blood resonates with your fiendish ancestry. You may use your blood instead of an arcane focus. This requires you to cut yourself, dealing 1 hp damage. If you do that when casting a spell dealing damage, you may choose half the damage dealt to be necrotic.
-
-In addition, as an ***action***, you can bleed yourself, reducing your maximum hp by 10, and regaining 1st level spell slot. This is hp reduction is restored after a long rest.
-
-
-### Swashbuckler
-An infernal tiefling's natural charisma and human heritage make them well suited to swashbuckling.
-
-Whenever the Swashbuckler class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
-
-
-
-
-
-
-
-
-
-### Warlock
-Some tieflings consider themselves already beholden to a patron, the fiendish being which is their heritage, so making a pact with another is out of the question.
-
-If you have some kind of fiendish patron, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus. In addition, you learn an additional cantrip.
-
-### Wizard
-When you use the *find familiar* spell, you can additionally choose an imp or quasit as a familiar.
-
-In addition, whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
-
-
-
+</div>
 
 
 
