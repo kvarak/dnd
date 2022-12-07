@@ -139,8 +139,10 @@ Bloodmarked are generally tall and slight, with dark hair and severe features. P
 
     ## Bat shape
     Your power of transformation have been honed to the point where you can wholly become a bat.
-    - Your **Wisdom** score increases by 1.
-    - Instead of shifting into your bestial form, you can shift into a bat. This functions as the druid’s Wild Shape, except you can only become a bat, and for all references to druid level, use your character level.
+
+    Your **Wisdom** score increases by 1.
+
+    Instead of shifting into your bestial form, you can shift into a bat. This functions as the druid’s Wild Shape, except you can only become a bat, and for all references to druid level, use your character level.
 
     </div>
 
