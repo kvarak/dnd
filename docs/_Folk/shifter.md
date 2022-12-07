@@ -180,8 +180,9 @@ Not all werebear-kin avoid settlements, but all avoid frequently dealing with pe
 
 ## <a class="internal-link" name="internal-tiger">Fanglord</a>
 
-### Weretiger-kin
 <img src='http://67.media.tumblr.com/45d93564c96d0c6ea8e5ada7751e3176/tumblr_inline_n0fp5cFi0q1s2vv7d.jpg' style='float:right;width:35%;padding:20px' />
+
+### Weretiger-kin
 
 Weretiger-kin are known for their fickle attitudes and unpredictable behavior. Usually, a fanglord makes his living by intimidation, cutthroat business dealings, political ploys, and military ventures. Very much like weretigers, they rarely congregate with others of their kind except as mated pairs. They often have aristocratic connections or the charm to fake it and are happy to settle in affluent areas, where one fanglord typically claims dominion over anything from a small neighborhood to a large city district.
 
@@ -401,7 +402,7 @@ Shifters are to large extent humans, and approach most classes as humans would. 
 <div class="columnstwo">
 
 -   ### Barbarian
-    A shifter barbarian has access to the <a href="#internal-skinchanger">Path of the Skinchanger</a>.
+    A shifter barbarian has access to the <a href="../Classes/barbarian.html#internal-skinchanger">Path of the Skinchanger</a>.
 
     <hr class="dividerinfolk">
 
@@ -418,180 +419,9 @@ Shifters are to large extent humans, and approach most classes as humans would. 
 -   ### Ranger
     You are always considered to have the spell *speak with animals* known and prepared in addition to your other spells. You can cast it without expending a spell slot, but that allows only communication with animals of the same type as your heritage.
 
-    In addition you have access to the <a href="#internal-moonstalker">Monstalker conclave</a>.
+    In addition you have access to the <a href="../Classes/ranger.html#internal-moonstalker">Monstalker conclave</a>.
 
     <hr class="dividerinfolk">
 
 </div>
 
-
-# <a class="internal-link" name="internal-skinchanger">Path of the Skinchanger</a>
-You belong to a tradition of barbarians who uses their shapechanging heritage to partially adopt the shape of beasts while raging, looking for all the world like a lycanthrope though they do not suffer such a curse. As these barbarians grow in power their ability to change their forms improves.
-
-**Restriction**. This path is only accessible to creatures who can change shape naturally, such as shifters, changelings and lycanthropes.
-
-
-#### Path features
-| Barbarian Level | Feature |
-| :-: | :--- |
-| 1st | Wild Rage |
-| 3rd | Skinchanger |
-| 6th | Ten Thousand Masks |
-| 10th | Primal Rage |
-| 14th | Ten Million Masks |
-
-
-### Wild Rage
-When you enter a rage you add the benefit of an animal to the benefits of your rage. A shifter, lycanthrope or other creature with only one animal form, can only use the benefits of the animal which their heritage is based on. While raging, they are also shifted, but without spending a use. A changeling or creature who can assume multiple forms, can choose any of the listed animal forms. After using a form, you cannot choose another until after you finish a long rest.
-
- **Bat.** As a ***bonus action*** you can shriek or catch the wind. If you shriek, you have blindsight up to 60 feet away until the end of your next turn. If you catch the wind, you fly 20 feet and take no damage from falling until the end of your next turn.
-
- **Boar.** When you move 15 feet or more directly towards a creature on your turn, you can spend your ***bonus action*** to gore them with your tusks. You have proficiency with this attack and add your Strength modifier to hit and damage. The gore attack deals 1d4 slashing damage and the target must succeed at a Strength saving throw or fall prone. The DC of this saving throw is 8 + the damage you dealt with this attack.
-
- **Rat.** You gain resistance to poison damage and advantage on saving throws against disease, poison and restrained effects. In addition, you can carry and use a light weapon with your tail.
-
- **Shark.** Gain a swim speed of 30 feet and you can breathe underwater. As a ***bonus action*** you can bite a creature that has less than their maximum hit points. You have proficiency with the bite attack and add your strength modifier to hit and damage. The base damage of the bite attack is 1d4 piercing damage.
-
-
-
- **Wolf.** As a ***reaction*** you can hound a creature when it moves out of your reach. When you hound a creature you move half your movement speed and must move as close to the creature triggering the reaction as possible. Then you hcan make a melee attack as a part of the same reaction.
-
-### Skinchanger
-You gain the ability to turn into an animal exactly as described in the druid's Wild Shape feature, but can only use the feature once before needing a long rest to use again. This Wild Shape feature improves at 4th and 8th level, just as it does for druid.
-
-### Ten Thousand Masks
-Starting at 6th level, your ability to change your own form improves and you can cast the *enhance ability* spell (targeting yourself only). After casting the spell with this feature you must complete a long rest to use this ability again.
-
-In addition, as part of the ***bonus action*** you use to enter a rage, you can cast *alter self* or *enlarge* (targeting yourself only). Unlike the spell you do not need to concentrate to continue the effect but the effect ends when your rage does.
-
-### Primal Rage
-Your wild rage has even greater rewards. Add an additional benefit to the normal benefits of your rage.
-
- **Bat.** You have a fly movement speed of 30 feet.
-
- **Boar.** Once per turn when a creature makes an opportunity attack against you, you can make a gore attack against it after its opportunity attack is resolved.
-
- **Rat.** You are immune to poison and disease. As a ***bonus action*** you can spread dirt and filth across your weapon. The next time you damage a creature with that weapon they must make a Constitution saving throw (DC 14) or be poisoned until the end of their next turn.
-
- **Shark.** When you deal damage to a creature with less than half its hit points remaining you deal an additional 1d4 damage.
-
- **Wolf.** When you hound a creature you can move your full movement speed instead of half your movement speed.
-
-### Ten Million Masks
-You can cast the *enhance ability* spell (targeting yourself only) at will. In addition, you can now use the Wild Shape granted by your Skinchanger feature twice before needing a long rest.
-
-
-
-
-
-
-
-
-# <a class="internal-link" name="internal-moonstalker">Moonstalker - Ranger conclave</a>
-All weretouched—whether they are shifters or lycanthropes—harbor a bestial nature inside themselves. This innate fierceness in lycanthropic blood reveals itself most often in battle. Many weretouched call upon their legacy when needed, but at some point you learned that you were different, and that the power in your blood was greater than you believed.
-
-You take the name moonstalker for the strong tie to your lycanthropic nature you have nurtured in your spirit. You have always had an greater animalistic side, manifested in your physical features and sometimes through your behavior, and now you have awakened this heritage in yourself to become preternaturally formidable. Your tactics and behavior have left behind civilized methods for the savagery, speed, and frightening fury of an untamed predator.
-
-
-#### Conclave Features
-| Ranger Level | Feature |
-| :----------: | :------ |
-| 3rd | Combat Savagery
-| 5th | Extra Attack |
-| 7th | Mystic Savagery, Unleash the Silent Predator
-| 11th | Call to the Moon, Pack Leader
-| 15th | Circle the Prey
-
-
-### Combat Savagery
-You gain a number of savagery points equal to your proficiency bonus. When you finish a short rest, you lose unused savagery points, and gain a number of savagery points equal to your proficiency bonus.
-
-When you hit a creature with a natural weapon or light melee weapon, you can expend 1 savagery point to inflict extra damage equal to your Wisdom bonus on the creature and to create one of the following effects:
-* The creature must make a Wisdom saving throw against your ranger spell save DC or become frightened of you until your next turn.
-
-* The creature must make a Strength saving throw against your ranger spell save DC or fall prone.
-
-* The next attack roll made against that creature before the end of your next turn is made at advantage.
-
- You cannot spend more than 1 savagery point on the same attack.
-
-### Extra Attack
-You can attack twice, instead of once, whenever you take the Attack action on your turn.
-
-### Mystic Savagery
-As a ***bonus action***, you can spend one spell slot and gain a number of savagery points equal to the slot's level.
-
-
-
-### Unleash the Silent Predator
-You can transform yourself into the powerful creature lurking inside you. Choose a beast whose challenge rating is 4 or lower. You can spend 3 savagery points to cast the *polymorph* spell without any components, targeting yourself and polymorphing into the chosen beast. The casting time is changed to 1 ***bonus action*** for this casting, but the duration is reduced to 1 minute. The spell is not a concentration spell when cast in this way.
-
-While in the form you assumed, you gain resistance to nonmagical bludgeoning, piercing, or slashing damage that is not silver. Otherwise it functions just like a normal *polymorph* spell.
-
-Once you use this feature, you cannot do so again until you finish a long rest.
-
-### Call to the Moon
-You unleash a bloodcurdling howl or roar, announcing that the hunt has begun. As an ***action***, you can force each creature of your choice within 30 feet to make a Wisdom saving throw against your ranger spell save DC. Creatures that are prone or are your favored enemy have disadvantage on this saving throw. A target takes 3d8 psychic damage on a failed save or half as much damage on a successful one. In addition, creatures that fail the save are frightened by you until the end of your next turn.
-
-Once you use this feature, you cannot do so again until you finish a short rest.
-
-### Pack Leader
-While within 5 feet of a prone creature, you and your allies add your Wisdom modifier to damage rolls against that creature.
-
-### Circle the Prey
-You instinctively sense the perfect opening to stalk around your prey and inflict a finishing blow. As a ***bonus action***, choose one creature you can see within 30 feet. For 1 minute, you gain the following benefits when attacking that creature.
-
-* If the target dies, you regain hit points equal to your ranger level + your Wisdom modifier.
-
-* If you make an attack against the target on your turn, you can move up to 15 feet before making the attack.
-
-* You gain a bonus to damage rolls against the target. The bonus equals your proficiency bonus.
-
-* Whenever you hit the target with an attack roll, you gain advantage on your next attack roll against the creature before the end of your next turn.
-
- Once you use this feature, you cannot do so again until you finish a short rest.
-
-
-
-
-
-
-
-<!--
-
-# <a class="internal-link" name="internal-feral">Monk Way of the Feral</a>
-Most Monks are controlled and elegant dancers whilst in battle, who have honed their skills through rigorous practice and discipline. You are a Feral Monk. Forgoing this control, you stalk your quarry with an unrelenting fervour before you launch your assault. Feral Monks come from the more "monstrous" races such as Catfolk or Birdfolk, who can use their fangs or claws to eliminate their prey. Feral Monks are masters of stalking an opponent. Once they have settled on their mark, they will ignore all else until they have achieved the thrill of their hunt.
-
-##### Way of the Feral Features
-| Monk Level | Feature |
-|:--:|:--|
-| 3rd | The Scent of Blood, Tooth and Claw
-| 6th | A Hunter Unleashed
-| 11th | Bathed in Blood
-| 17th | Thrill of the Hunt
-
-#### The Scent of Blood
-From level 3, when you dedicate yourself to the Tradition of the Feral, you gain the ability to mark your foes as your intended quarry. You can now use your bonus action and spend 1 ki point to mark a target you can see within 60 feet as your intended quarry. For up to 1 hour, you gain the following benefits against them you gain advantage on Wisdom (Perception) and Wisdom (Survival) checks made against this target. In addition, your attacks against your marked quarry cannot suffer from disadvantage.
-
-#### Tooth and Claw
-Also, beginning at 3rd level, you can choose what damage type your unarmed strike deals on a hit - bludgeoning, piercing, or slashing damage.
-
-
-
-
-#### A Hunter Unleashed
-Upon reaching level 6, you have attuned yourself with nature, able to use it to your advantage in the pursuit of your foe. When you use your Step of the Wind feature, you now ignore difficult terrain. In addition, you can now take the Hide action when using your Step of the Wind feature.
-
-#### Bathed in Blood
-Upon reaching level 11, your quarry must fear an even more deadly hunter. When marking your quarry using The Scent of Blood you may spend 1 additional ki point to cause your attacks against score a critical hit on a roll of 19 or 20 on the d20.
-
-In addition to this, when scoring a critical hit against your quarry, you gain resistance to damage done by them until the start of your next turn as your overpowering nature as a hunter shakes their will to fight. This ability has no effect on creatures that are immune to being frightened.
-
-#### Thrill of the Hunt
-Starting from level 17, every one of your senses have been refined and trained. You are the ultimate hunter. When you mark a creature as your quarry using The Scent of Blood, you can sense them wherever they are. For the duration of your blood mark, you always know the exact location of the creature if they are within 60 feet of you and no form of magic can mask their presence from you. You also gain advantage on the first attack made against your quarry each turn. If your quarry is more than 60 feet away from you, you know the direction that your quarry is in, and whether or not your quarry is within 1 mile of you.
-
-
-
-
-
--->

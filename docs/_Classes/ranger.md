@@ -26,6 +26,9 @@ layout: default
 **Gnome/Halfling/Kobold**<br/>
 <a href="#internal-trickster">Trickster Conclave</a>
 
+**Shifter**<br/>
+<a href="#internal-moonstalker">Moonstalker Conclave</a>
+
 </div>
 
 # Ranger
@@ -1473,6 +1476,82 @@ In addition to hindering your enemies in some way, some are also designed to har
 - **Twitchers (bag of 40)**. As an ***action***, you use a single bag of these tiny metal rods holding trace amounts of lightning energy to cover two 5-foot-square areas. The first creature that enters an area must succeed on a Constitution saving throw or take 1 trick die of lightning damage from the small current running through them. A creature that fails this saving throw has disadvantage on the next attack it makes before the end of its next turn.
 
 </div>
+
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-moonstalker">Restricted to Shifter characters</a></h2>
+<h1>Moonstalker Conclave</h1>
+<div class="featuresTable">
+
+#### Conclave Features
+| Ranger Level | Feature |
+| :----------: | :------ |
+| 3rd | Combat Savagery
+| 5th | Extra Attack |
+| 7th | Mystic Savagery, Unleash the Silent Predator
+| 11th | Call to the Moon, Pack Leader
+| 15th | Circle the Prey
+
+</div>
+
+All weretouched—whether they are shifters or lycanthropes—harbor a bestial nature inside themselves. This innate fierceness in lycanthropic blood reveals itself most often in battle. Many weretouched call upon their legacy when needed, but at some point you learned that you were different, and that the power in your blood was greater than you believed.
+
+You take the name moonstalker for the strong tie to your lycanthropic nature you have nurtured in your spirit. You have always had an greater animalistic side, manifested in your physical features and sometimes through your behavior, and now you have awakened this heritage in yourself to become preternaturally formidable. Your tactics and behavior have left behind civilized methods for the savagery, speed, and frightening fury of an untamed predator.
+
+##### Restriction
+The Moonstalker conclave can only be taken by a Shifter character.
+
+### Combat Savagery
+You gain a number of savagery points equal to your proficiency bonus. When you finish a short rest, you lose unused savagery points, and gain a number of savagery points equal to your proficiency bonus.
+
+When you hit a creature with a natural weapon or light melee weapon, you can expend 1 savagery point to inflict extra damage equal to your Wisdom bonus on the creature and to create one of the following effects:
+* The creature must make a Wisdom saving throw against your ranger spell save DC or become frightened of you until your next turn.
+
+* The creature must make a Strength saving throw against your ranger spell save DC or fall prone.
+
+* The next attack roll made against that creature before the end of your next turn is made at advantage.
+
+You cannot spend more than 1 savagery point on the same attack.
+
+### Extra Attack
+You can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+### Mystic Savagery
+As a ***bonus action***, you can spend one spell slot and gain a number of savagery points equal to the slot's level.
+
+
+
+### Unleash the Silent Predator
+You can transform yourself into the powerful creature lurking inside you. Choose a beast whose challenge rating is 4 or lower. You can spend 3 savagery points to cast the *polymorph* spell without any components, targeting yourself and polymorphing into the chosen beast. The casting time is changed to 1 ***bonus action*** for this casting, but the duration is reduced to 1 minute. The spell is not a concentration spell when cast in this way.
+
+While in the form you assumed, you gain resistance to nonmagical bludgeoning, piercing, or slashing damage that is not silver. Otherwise it functions just like a normal *polymorph* spell.
+
+Once you use this feature, you cannot do so again until you finish a long rest.
+
+### Call to the Moon
+You unleash a bloodcurdling howl or roar, announcing that the hunt has begun. As an ***action***, you can force each creature of your choice within 30 feet to make a Wisdom saving throw against your ranger spell save DC. Creatures that are prone or are your favored enemy have disadvantage on this saving throw. A target takes 3d8 psychic damage on a failed save or half as much damage on a successful one. In addition, creatures that fail the save are frightened by you until the end of your next turn.
+
+Once you use this feature, you cannot do so again until you finish a short rest.
+
+### Pack Leader
+While within 5 feet of a prone creature, you and your allies add your Wisdom modifier to damage rolls against that creature.
+
+### Circle the Prey
+You instinctively sense the perfect opening to stalk around your prey and inflict a finishing blow. As a ***bonus action***, choose one creature you can see within 30 feet. For 1 minute, you gain the following benefits when attacking that creature.
+
+* If the target dies, you regain hit points equal to your ranger level + your Wisdom modifier.
+
+* If you make an attack against the target on your turn, you can move up to 15 feet before making the attack.
+
+* You gain a bonus to damage rolls against the target. The bonus equals your proficiency bonus.
+
+* Whenever you hit the target with an attack roll, you gain advantage on your next attack roll against the creature before the end of your next turn.
+
+Once you use this feature, you cannot do so again until you finish a short rest.
+
+
 
 
 
