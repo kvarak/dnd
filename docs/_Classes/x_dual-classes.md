@@ -1,5 +1,5 @@
 ---
-title: -- Dual classes --
+title: -- Dual Classes --
 layout: default
 ---
 
@@ -11,7 +11,9 @@ When you decide to dual class, you do not choose an archetype for the class. Ins
 
 When a feature refers to your dual class level, this is the sum of the the two class levels.
 
-#### Class combinations
+<div class="block classTable frame" markdown="1">
+
+##### Class combinations
 |            | Barbarian  | Bard | Druid | Fighter |
 |:-----------|:----------:|:----:|:-----:|:-----:|
 | **Barbarian** | - | <a href="#internal-bardbarian">Bardbarian</a> | <a href="#cataclysm">Cataclysm</a> | - |
@@ -19,11 +21,24 @@ When a feature refers to your dual class level, this is the sum of the the two c
 | **Druid**      | <a href="#internal-cataclysm">Cataclysm</a> | - | - | - |
 | **Fighter**      | - | <a href="#internal-bannerlord">Bannerlord</a><br><a href="#gladiator">Gladiator</a> | - | - |
 
+</div>
 
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-bardbarian">Bardbarian </a></h1>
+<div class="featuresTable">
 
+#### Dual Class Features
+| Class | Level | Feature |
+|:------|:-----:|:--------|
+| Barbarian | 1st | Furious Footwork
+| Bard | 1st | Bardbarian Drums
+| Barbarian | 3rd | Regular Violence
+| Bard | 3rd | Warrior's Focus
+| Barbarian | 6th | Battle Beat
+| Bard | 6th | Battle Terror
+| Barbarian | 10th | Staccato
 
-# <a class="internal-link" name="internal-bardbarian">Bardbarian </a>
-
+</div>
 
 #### Barbarian / Bard
 
@@ -40,17 +55,6 @@ Singing songs and weaving tales of past victories, Skalds remind their peers of 
 #### Path of the Haka
 Those who follow the Path of the Haka use simple, well-practiced movements to rain attack after attack on their enemies in devastating cadence. The drums of war pound to the tempo of these barbarians' hearts, who constantly build to the next hammerblow.
 
-
-#### Dual Class Features
-| Class | Level | Feature |
-|:------|:-----:|:--------|
-| Barbarian | 1st | Furious Footwork
-| Bard | 1st | Bardbarian Drums
-| Barbarian | 3rd | Regular Violence
-| Bard | 3rd | Warrior's Focus
-| Barbarian | 6th | Battle Beat
-| Bard | 6th | Battle Terror
-| Barbarian | 10th | Staccato
 
 
 ### Furious Footwork
@@ -93,15 +97,9 @@ The sound of your mighty blows sends a shockwave bursting through other targets.
 
 
 
-
-# <a class="internal-link" name="internal-bannerlord">Bannerlord</a>
-
-
-#### Bard / Fighter
-
-
-The archetypal Bannerlord is the noble, steadfast leader of the battlefield. Also called bannerets, chevaliers, and men-at-arms, these soldiers direct the flow of battle and bolster their allies with their very presence. Leaders by example, they are the first to enter the field and the last to leave.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-bannerlord">Bannerlord </a></h1>
+<div class="featuresTable">
 
 #### Dual Class Features
 | Class | Level | Feature |
@@ -112,6 +110,14 @@ The archetypal Bannerlord is the noble, steadfast leader of the battlefield. Als
 | Bard | 6th | Fighter’s Flourish
 | Fighter | 7th | Unquenchable Morale
 | Fighter | 10th | Lead from the Front
+
+</div>
+
+#### Bard / Fighter
+
+
+The archetypal Bannerlord is the noble, steadfast leader of the battlefield. Also called bannerets, chevaliers, and men-at-arms, these soldiers direct the flow of battle and bolster their allies with their very presence. Leaders by example, they are the first to enter the field and the last to leave.
+
 
 
 ### Fanfare
@@ -160,17 +166,9 @@ Starting at 18th level, when you persevere and access the well of strength hidde
 
 
 
-
-# <a class="internal-link" name="internal-cataclysm">Cataclysm</a>
-
-
-#### Barbarian / Druid
-
-
-Many barbarians are well at home in the wild, often feeling connected to the barbarians of their past who braved the best and worst of the natural elements. Then again, there are others who are not merely connected to the wilds, but are an extension of them. When the forces of society conflict with the will of the forest, it is these individuals, the Cataclysms, who embody the rage of the every felled tree and murdered beast.
-
-The Cataclysm knows they are not nature's diplomat or ambassador, but a violent hammer that strikes fear into those who become too comfortable abusing the land around them. Cataclysms do love the natural world, but can be more accurately defined by their hatred for those that throw the natural world into imbalance.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-cataclysm">Cataclysm </a></h1>
+<div class="featuresTable">
 
 #### Dual Class Features
 | Class | Level | Feature |
@@ -183,6 +181,17 @@ The Cataclysm knows they are not nature's diplomat or ambassador, but a violent 
 | Barbarian	| 6th	| One with Nature
 | Druid	| 10th	| Floral Surge
 | Barbarian	| 10th	| Regenerative Rage
+
+
+</div>
+
+#### Barbarian / Druid
+
+
+Many barbarians are well at home in the wild, often feeling connected to the barbarians of their past who braved the best and worst of the natural elements. Then again, there are others who are not merely connected to the wilds, but are an extension of them. When the forces of society conflict with the will of the forest, it is these individuals, the Cataclysms, who embody the rage of the every felled tree and murdered beast.
+
+The Cataclysm knows they are not nature's diplomat or ambassador, but a violent hammer that strikes fear into those who become too comfortable abusing the land around them. Cataclysms do love the natural world, but can be more accurately defined by their hatred for those that throw the natural world into imbalance.
+
 
 
 ### Natural Connection
@@ -227,17 +236,9 @@ You can channel your druidic magic to mend the wounds of yourself and your allie
 
 
 
-
-
-
-# <a class="internal-link" name="internal-gladiator">Gladiator</a>
-
-
-#### Bard / Fighter
-
-
-The archetypal Gladiator is a fighter who has honed their skills in the pit of a stadium, with the roar of a crowd ringing in their ears. More than mere performance fighters, true Gladiators are champions of the arena, with reputations built up over many bouts. Gladiators excel in single-combat, where they dominate their opponents with their superior weapon skill and tactical movement.
-
+<hr class="classdivider">
+<h1><a class="internal-link" name="internal-gladiator">Gladiator</a></h1>
+<div class="featuresTable">
 
 #### Dual Class Features
 | Class | Level | Feature |
@@ -251,6 +252,30 @@ The archetypal Gladiator is a fighter who has honed their skills in the pit of a
 | Fighter | 7th | Coup de Grace
 | Fighter | 10th | Comeback Victory
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| Long rest |
+|:-|
+| Add the following class benefits to choose from: |
+| * Regain use of ***Comeback Victory***.
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+#### Bard / Fighter
+
+
+The archetypal Gladiator is a fighter who has honed their skills in the pit of a stadium, with the roar of a crowd ringing in their ears. More than mere performance fighters, true Gladiators are champions of the arena, with reputations built up over many bouts. Gladiators excel in single-combat, where they dominate their opponents with their superior weapon skill and tactical movement.
 
 ### Flair for the Dramatic
 Your stylish fighting style can beguile your enemies. You can use a ***bonus action*** to expend an Inspiration Die and add the result to your next weapon attack or weapon damage roll.
@@ -295,11 +320,6 @@ Once you use this feature you cannot use it again until you finish a long rest.
 
 
 
-
-
-
-
-
 In addition, when you reduce a creature to 0 hit points, you can use your ***reaction*** to gain one of the following effects:
 
  **Righteous Victory**. You are reinvigorated by victory as you stand poised over your fallen opponent. You gain temporary hit points equal to twice your Charisma modifier.
@@ -315,66 +335,48 @@ Additionally, the next time you hit a weapon attack against the creature that re
 
 This feature can be used once, and you can regain use of it after you finish a long rest.
 
-<div class="card rest">
-<div class="card-title restHeading">
-Rest Additions
 
-<div class="card-subtitle restPad">
-The following archetype specific additions are made to the general rest rules.
+### Maneuvers
 
-<div class="card-text restTable">
-| Long rest ||
-|:-|:------- |
-| Add the following class benefits to choose from: ||
-| | * Regain use of **Comeback Victory**.
+<div class="columnsthree">
 
+-   #### Artful Avoidance
+    While moving, you can use your ***bonus action*** to expend an Inspiration or Superiority Die and add the result to your AC. This effect ends once you stop moving.
 
+-   #### Constricting Tangle
+    *Prerequisite: Retiarius*
 
-
-## Maneuvers
-
-#### Artful Avoidance
-While moving, you can use your ***bonus action*** to expend an Inspiration or Superiority Die and add the result to your AC. This effect ends once you stop moving.
-
-#### Constricting Tangle
-*Prerequisite: Retiarius*
-
-Whenever a creature attempts to break free of your net, you may use your ***reaction*** to expend an Inspiration or Superiority Die and add the result to your net's escape DC.
+    Whenever a creature attempts to break free of your net, you may use your ***reaction*** to expend an Inspiration or Superiority Die and add the result to your net's escape DC.
 
 
 
-#### Dance of Blades
-You can use your performative combat skills to give you an edge in certain social situations. You may expend an Inspiration or Superiority Die to add the result to a Charisma ability check. You can use this ability after rolling the d20, but must use it before knowing the outcome of the roll.
+-   #### Dance of Blades
+    You can use your performative combat skills to give you an edge in certain social situations. You may expend an Inspiration or Superiority Die to add the result to a Charisma ability check. You can use this ability after rolling the d20, but must use it before knowing the outcome of the roll.
 
-#### Goading Attack
-When you hit a creature with a weapon attack, you can expend one Inspiration or Superiority Die to attempt to goad the target into attacking you. You add the die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.
+-   #### Goading Attack
+    When you hit a creature with a weapon attack, you can expend one Inspiration or Superiority Die to attempt to goad the target into attacking you. You add the die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.
 
-#### Heroic Charge
-When you make a weapon attack roll on your first turn in combat, you may expend an Inspiration or Superiority Die. If you do, an allied creature within 30 feet of you that can see you gains temporary hit points equal to the result of the roll. In addition, the creature gains immunity to the Frightened condition until you next take damage.
+-   #### Heroic Charge
+    When you make a weapon attack roll on your first turn in combat, you may expend an Inspiration or Superiority Die. If you do, an allied creature within 30 feet of you that can see you gains temporary hit points equal to the result of the roll. In addition, the creature gains immunity to the Frightened condition until you next take damage.
 
-#### Perilous Avoidance
-*Prerequisite: Secutus*
+-   #### Perilous Avoidance
+    *Prerequisite: Secutus*
 
-Using your ***reaction***, you can expend an Inspiration or Superiority Die and add the result to a Strength, Dexterity, or Constitution saving throw. You may use this ability after you make the initial roll, but before you know the result.
+    Using your ***reaction***, you can expend an Inspiration or Superiority Die and add the result to a Strength, Dexterity, or Constitution saving throw. You may use this ability after you make the initial roll, but before you know the result.
 
-#### Quick Defense
-*Prerequisite: Secutus*
+-   #### Quick Defense
+    *Prerequisite: Secutus*
 
-Using your ***reaction***, you can expend an Inspiration or Superiority Die to temporarily raise your AC by the result of the roll. Your AC returns to normal at the start of your next turn.
+    Using your ***reaction***, you can expend an Inspiration or Superiority Die to temporarily raise your AC by the result of the roll. Your AC returns to normal at the start of your next turn.
 
-#### Shield Bash
-*Prerequisite: Secutus*
+-   #### Shield Bash
+    *Prerequisite: Secutus*
 
-You use your shield to batter an enemy. When an adjacent creature misses you with a melee weapon attack, you may use your ***reaction*** to expend an Inspiration or Superiority Die. If you do, the creature takes bludgeoning damage equal to the result of the roll, then makes a Strength saving throw. On a failed save, the creature is knocked prone.
+    You use your shield to batter an enemy. When an adjacent creature misses you with a melee weapon attack, you may use your ***reaction*** to expend an Inspiration or Superiority Die. If you do, the creature takes bludgeoning damage equal to the result of the roll, then makes a Strength saving throw. On a failed save, the creature is knocked prone.
 
-#### Sweeping Blow
-You take a dramatic, sweeping swing with your weapon that damages nearby enemies. Whenever you hit a creature with a weapon attack that deals slashing or bludgeoning damage, you can expend an Inspiration or Superiority Die to deal damage of the original type equal to the result of the roll to up to two additional creatures within 5ft of the original target.
+-   #### Sweeping Blow
+    You take a dramatic, sweeping swing with your weapon that damages nearby enemies. Whenever you hit a creature with a weapon attack that deals slashing or bludgeoning damage, you can expend an Inspiration or Superiority Die to deal damage of the original type equal to the result of the roll to up to two additional creatures within 5ft of the original target.
 
-
-
-
-
-
-
+</div>
 
 
