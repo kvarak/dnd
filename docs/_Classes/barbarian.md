@@ -536,7 +536,7 @@ Starting when you choose this path at 1st level, you can perform a 1-hour ritual
 In order to reap the benefits from the bond, you must be within a certain range of your bondmate. This range is referred to as soul range, and for the Defender, who must almost be like a shadow to its bondmate, the range is 10 feet.
 
 ### Alert
-You are always alert for dangers that might threaten your bondmate. Gain 1 skill point to spend on Perception.
+You are always alert for dangers that might threaten your bondmate. Gain 1 skill point to spend on ***Perception***.
 
 ### Avert and Avenge
 You have mastered guarding your bondmate from bodily harm. While raging and within soul range, if a creature you can see hits your bondmate with an attack, you can use a **reaction** to throw yourself in harm's way, forcing the damage to be dealt to yourself instead.
