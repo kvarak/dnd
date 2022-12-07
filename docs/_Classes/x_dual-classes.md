@@ -1,5 +1,5 @@
 ---
-title: [x] Dual classes
+title: -- Dual classes --
 layout: default
 ---
 
