@@ -54,13 +54,6 @@ Shifters appear to be humans with animalistic features. They have the same build
 
 In many populations, shifters are associated with a specific type of lycanthropic bloodline, and their features clearly resemble such werecreatures. For example, longtooth shifters often claim that werewolves are their ancestors and have canine features, while many razorclaw shifters claim weretigers to be their ancestors and display feline features.
 
-
-
-
-
-
-
-
 Other races are often uncomfortable around shifters due to their predatory natures and vaguely bestial appearance. For their part, shifters are accustomed to distrust and don’t expect better treatment from members of the other races, although some shifters try to earn respect and companionship through acts and deeds.
 
 #### The Journey Yet to Come
@@ -77,43 +70,42 @@ Although they are not nomads, shifters prefer simple, well-made items that they 
 #### Shifter Names
 Shifters tend to be named for natural land formations and objects found in the wild. They lack surnames.
 
- **Male Names**. Ash, Brook, Claw, Cliff, Flint, Frost, River, Rock, Storm, Thorn
+<div class="columnstwo">
 
- **Female Names**. Aurora, Autumn, Dawn, Hazel, Iris, Lily, Rain, Rose, Summer
+- **Male Names**. Ash, Brook, Claw, Cliff, Flint, Frost, River, Rock, Storm, Thorn
+
+- **Female Names**. Aurora, Autumn, Dawn, Hazel, Iris, Lily, Rain, Rose, Summer
+
+</div>
 
 ## <a class="internal-link" name="internal-trait">Shifter traits</a>
 Your shifter character has an assortment of inborn abilities.
 
- **Age**. Shifters mature and age at the same rate as humans.
+<div class="columnsthree">
 
- **Alignment**. When it comes to good or evil, shifters are usually neutral, since they embody the spirit of the wild. Most shifters tend to be wild and free and therefore favor chaos over law.
+- <img src='https://s-media-cache-ak0.pinimg.com/736x/a6/e2/b7/a6e2b79a1801001e5371c467902b22c5.jpg' style='width:95%;padding:20px' />
 
- **Language**. You know Common. In addition, through sounds and gestures you can communicate simple ideas with animals of the same type as your heritage.
+- **Age**. Shifters mature and age at the same rate as humans.
 
- **Size**. Your size is Medium.
+- **Alignment**. When it comes to good or evil, shifters are usually neutral, since they embody the spirit of the wild. Most shifters tend to be wild and free and therefore favor chaos over law.
 
- **Speed**. Your base speed is 30 feet.
+- **Language**. You know Common. In addition, through sounds and gestures you can communicate simple ideas with animals of the same type as your heritage.
 
- **Low-light Vision**. Thanks to your lycanthrope heritage, you have superior vision. You can see in dim light as if it were bright light, and an additional 30 feet into darkness as if it were dim light.
+- **Size**. Your size is Medium.
 
- **Shifting**. You can change shape into a bestial form as a ***bonus action*** and may also enter this state as a ***reaction*** if you take damage that leaves you with less than half your maximum hit points. When changing, you gain temporary hit points equal to half your character level, lasting as long as you are changed. While in bestial form, you have disadvantage on any Charisma based checks other than intimidation while interacting with humanoids that lack the shapechanger subtype. This power ends after 1 minute.
+- **Speed**. Your base speed is 30 feet.
 
- Once you use this feature, you can’t use it again until you finish a short rest.
+- **Low-light Vision**. Thanks to your lycanthrope heritage, you have superior vision. You can see in dim light as if it were bright light, and an additional 30 feet into darkness as if it were dim light.
 
-![Shifter](https://s-media-cache-ak0.pinimg.com/736x/a6/e2/b7/a6e2b79a1801001e5371c467902b22c5.jpg) {position:absolute,bottom:-20px,left:0px,width:400px}
+- **Heritage**. Several variants of shifter exist, each with its own animalistic features. Each of these shifter variants has some associated minor behavior that most of its members exhibit.
 
+- **Shifting**. You can change shape into a bestial form as a ***bonus action*** and may also enter this state as a ***reaction*** if you take damage that leaves you with less than half your maximum hit points. When changing, you gain temporary hit points equal to half your character level, lasting as long as you are changed. While in bestial form, you have disadvantage on any Charisma based checks other than intimidation while interacting with humanoids that lack the shapechanger subtype. This power ends after 1 minute.
 
+  Once you use this feature, you can’t use it again until you finish a short rest.
 
+  Different heritages grants a shifter different sets of bestial features. You gains a bestial visage evoking the creature you emulate; the snout elongates, teeth become more prominent, claws emerge from fingertips or skin toughens into hide. In addition you gain abilities as described under each heritage. If you gain any natural weapons, you are proficient with them.
 
-
-
-
-
- Different heritages grants a shifter different sets of bestial features. You gains a bestial visage evoking the creature you emulate; the snout elongates, teeth become more prominent, claws emerge from fingertips or skin toughens into hide. In addition you gain abilities as described under each heritage. If you gain any natural weapons, you are proficient with them.
-
- **Heritage**. Several variants of shifter exist, each with its own animalistic features. Each of these shifter variants has some associated minor behavior that most of its members exhibit.
-
-
+</div>
 
 ## <a class="internal-link" name="internal-bat">Bloodmarked</a>
 
