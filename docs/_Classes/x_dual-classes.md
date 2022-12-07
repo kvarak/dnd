@@ -16,10 +16,10 @@ When a feature refers to your dual class level, this is the sum of the the two c
 ##### Class combinations
 |            | Barbarian  | Bard | Druid | Fighter |
 |:-----------|:----------:|:----:|:-----:|:-----:|
-| **Barbarian** | - | <a href="#internal-bardbarian">Bardbarian</a> | <a href="#cataclysm">Cataclysm</a> | - |
-| **Bard**      | <a href="#internal-bardbarian">Bardbarian</a> | - | - | <a href="#bannerlord">Bannerlord</a><br><a href="#gladiator">Gladiator</a> |
+| **Barbarian** | - | <a href="#internal-bardbarian">Bardbarian</a> | <a href="#internal-cataclysm">Cataclysm</a> | - |
+| **Bard**      | <a href="#internal-bardbarian">Bardbarian</a> | - | - | <a href="#internal-bannerlord">Bannerlord</a><br><a href="#internal-gladiator">Gladiator</a> |
 | **Druid**      | <a href="#internal-cataclysm">Cataclysm</a> | - | - | - |
-| **Fighter**      | - | <a href="#internal-bannerlord">Bannerlord</a><br><a href="#gladiator">Gladiator</a> | - | - |
+| **Fighter**      | - | <a href="#internal-bannerlord">Bannerlord</a><br><a href="#internal-gladiator">Gladiator</a> | - | - |
 
 </div>
 
