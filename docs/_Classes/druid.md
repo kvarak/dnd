@@ -43,22 +43,22 @@ Your druid character might be a true worshiper of nature, one who has always sco
 |1st| +2| Communicate with Nature,<br/>Druid Circle,<br/>Spellcasting |2|2|—|—|—|—|—|—|—|—|
 |2nd| +2| Borrowing, Wild Shape,<br/>Wild Companion |2|3|—|—|—|—|—|—|—|—|
 |3rd| +2| - |2|4|2|—|—|—|—|—|—|—|
-|4th| +2| Wild Shape improvement,<br/>Ability Score Improvement |3|4|3|—|—|—|—|—|—|—|
+|4th| +2| Wild Shape improvement |3|4|3|—|—|—|—|—|—|—|
 |5th| +3| - |3|4|3|2|—|—|—|—|—|—|
 |6th| +3| Druid Circle feature |3|4|3|3|—|—|—|—|—|—|
 |7th| +3| - |3|4|3|3|1|—|—|—|—|—|
-|8th| +3| Wild Shape improvement,<br/>Ability Score Improvement |3|4|3|3|2|—|—|—|—|—|
+|8th| +3| Wild Shape improvement |3|4|3|3|2|—|—|—|—|—|
 |9th| +4| - |3|4|3|3|3|1|—|—|—|—|
 |10th| +4| Druid Circle feature |4|4|3|3|3|2|—|—|—|—|
 |11th| +4| - |4|4|3|3|3|2|1|—|—|—|
-|12th| +4| Ability Score Improvement |4|4|3|3|3|2|1|—|—|—|
+|12th| +4| - |4|4|3|3|3|2|1|—|—|—|
 |13th| +5| - |4|4|3|3|3|2|1|1|—|—|
 |14th| +5| Druid Circle feature |4|4|3|3|3|2|1|1|—|—|
 |15th| +5| - |4|4|3|3|3|2|1|1|1|—|
-|16th| +5| Ability Score Improvement |4|4|3|3|3|2|1|1|1| —|
+|16th| +5| Beast Spells |4|4|3|3|3|2|1|1|1| —|
 |17th| +6| - |4|4|3|3|3|2|1|1|1|1|
-|18th| +6| Timeless Body, Beast Spells |4|4|3|3|3|3|1|1|1|1|
-|19th| +6| Ability Score Improvement |4|4|3|3|3|3|2|1|1|1|
+|18th| +6| Timeless Body |4|4|3|3|3|3|1|1|1|1|
+|19th| +6| - |4|4|3|3|3|3|2|1|1|1|
 |20th| +6| Archdruid |4|4|3|3|3|3|2|2|1|1|
 
 </div>
@@ -68,20 +68,31 @@ As a druid, you gain the following class features.
 #### Hit Points
 **Hit Dice:** 1d8
 
-#### Proficiencies
-**Armor:** Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)
+#### Saving Throws
+You are proficient with ***Intelligence*** and ***Wisdom*** saving throws.
 
-**Weapons:** Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears
+#### Skills
+**Class Skills:** Animal handling, Herbalism, Nature, Survival and Swimming
 
-**Saving Throws:** Intelligence, Wisdom
+**Skill Points:** You gain 3 skill points at 1st level.
 
-**Skills:** Check your background for skills. In addition you have skills with *Animal Handling* and *Surviving in nature*.
+#### Skills - Combat
+**Weapon Groups:** You have rank 1 with Club, Knife, Spear, Staff and Sling.
+
+**Combat Skill Points:** You gain 2 skill point to spend on combat skills at 1st level.
+
+**Recommended:** ***Light armor*** and ***Medium armor***
+
+**Special:** Druids will not wear armor or use shields made of metal
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every even level.
+
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 - *(a)* a wooden shield or *(b)* any simple weapon
-- *(a)* a scimitar, *(b)* any simple melee weapon
-- Leather armor, an explorer’s pack, and a druidic focus
+- Any simple melee weapon
+- Leather armor (if proficient), an explorer’s pack, and a druidic focus
 
 <div class="infoarea" markdown="1">
 
@@ -98,7 +109,7 @@ Druids from regions that lack the plants described here have chosen other plants
 ### Communicate with Nature
 Select one of the following:
 
-***Druidic***: You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.
+***Druidic***: You know Druidic, the secret language of druids. You can speak the language at the highest level and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.
 
 ***Raised by Beasts***: Choose one beast that you have seen before. You can comprehend and verbally communicate with others of its kind. Your DM may decide that your ability to speak with the species of beast allows you to speak with a similar species of beast. For example, if you can speak with brown bears, your DM may decide that you can also speak with polar bears.
 
@@ -149,9 +160,11 @@ You can cast a druid spell as a ritual if that spell has the ritual tag and you 
 You can use a druidic focus as a spellcasting focus for your druid spells.
 
 ### Borrowing
-You gain the ability to borrow the mind of an animal: as an ***action***, you can touch a willing beast and expend a use of your Wild Shape feature to cast the *beast sense* spell, without material components and without requiring concentration.
+You gain the ability to borrow the mind of animals: as an ***action***, you can choose a number of willing beasts up to 3 x times your druid level and expend a use of your Wild Shape feature to cast the *beast sense* spell on them all.
 
-When you cast the spell in this way, the spell doesn't require concentration and it lasts a number of hours equal to half your druid level. The material body you leave behind is unconscious until you end the spell by using your action to return to your normal senses.
+When you cast the spell in this way, the spell doesn't require material components nor concentration, and lasts a number of hours equal to half your druid level. The material body you leave behind is unconscious until you end the spell by using your action to return to your normal senses. 
+
+You can only use one of the animals' senses at a time, but you can switch at will.
 
 ### Wild Shape
 Starting at 2nd level, you can use your ***action*** to magically assume the shape of a beast that you have seen before. You can use this feature twice. See the *Class Rest Additions* for more details.
@@ -174,11 +187,11 @@ While you are transformed, the following rules apply:
 
 <div class="cursedcols">
 
-* Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies and the languages you know, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours.
+* Your game statistics are replaced by the statistics of the beast, but you retain your personality, Intelligence, Wisdom, and Charisma scores. You also retain your skills, saving throw proficiencies and the languages you know, in addition to gaining those of the creature.
 
 * When you transform, you assume the beast's average hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form and lose one unspent hit die or suffer a level of exhaustion if you have no hit dice remaining.
 
-* You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.
+* You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.
 
 * You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you cannot use multiattack in your new form until you are a 5th-level druid (or higher).
 
@@ -187,25 +200,20 @@ While you are transformed, the following rules apply:
 </div>
 
 ### Wild Companion
-You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the *Find familiar* spell, without material components.
+You gain the ability to summon a spirit that assumes an animal form: as an ***action***, you can expend a use of your Wild Shape feature to cast the *Find familiar* spell, without material components.
 
 When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.
 
+<!-- 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
-
-
-
-
-
-
+-->
 
 ### Timeless Body
 Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.
 
 ### Beast Spells
-Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren’t able to provide material components.
-
+Beginning at 16th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren’t able to provide material components.
 
 ### Archdruid
 At 20th level, you can use your Wild Shape an unlimited number of times.
@@ -261,7 +269,7 @@ The Circle of Blood is composed of druids who take a more active role in the saf
 In an effort to strike a balance between ferocity and utility, druids of this circle focus on adopting partial forms of beasts while retaining they're humanoid base. The result is a warrior fights with steel and shield, but who can manifest wings, claws, fangs, and toughened skin as challenges present themselves. True masters of this circle have even developed the ability to adopt features of truly supernatural beasts, such as dragons, unicorns, or trolls. Often known as Wardens or Geomancers, these warriors walk the line between man and monster, and use their prowess for the greater good.
 
 ### Aspects of the beast
-At 2nd level, you learn how to shape your body to improve your base abilities without sacrificing your humanoid form. When you use your Wild shape ability, you may choose to gain up to two beast aspects instead of assuming a beast shape. Different aspects change different parts of the body, and you can only have one aspect per body part at simultaneously at any time. Using Wild shape this way only requires a ***bonus action***.
+You learn how to shape your body to improve your base abilities without sacrificing your humanoid form. When you use your Wild shape ability, you may choose to gain up to two beast aspects instead of assuming a beast shape. Different aspects change different parts of the body, and you can only have one aspect per body part at simultaneously at any time. Using Wild shape this way only requires a ***bonus action***.
 
 You can still fight, speak, and casts spells while you have a beast aspect. If you gain a new attack as part of a beast aspect, you are considered proficient with it.
 
@@ -277,11 +285,11 @@ At higher levels, you can adopt both more aspects simultaneously and more powerf
     **Gorilla Arms**. Your carrying capacity is doubled, your reach increases to 10 ft, and you have advantage on strength checks to break objects.
 
 - #### Eyes
-    **Compound Eyes**. You have advantage on any Intelligence (Investigation) checks made to notice fine details or changes.
+    **Compound Eyes**. You have advantage on any Investigation checks made to notice fine details or changes.
 
-    **Eagle Eyes**. You have advantage on Wisdom (Perception) checks to see, and you don't have disadvantage when making ranged attacks at long range.
+    **Eagle Eyes**. You do not have disadvantage when making ranged attacks at long range.
 
-    **Tiger Eyes**. You can see in dim light within 120 feet as if it were bright light.
+    **Tiger Eyes**. You can see in dim light within 120 ft as if it were bright light.
 
 - #### Horns
     **Bull's Horns**. You gain a set of horns. When you take the Dash action, you can use your ***bonus action*** to make an unarmed melee attack. On a hit, you deal 1d12 + Strength modifier bludgeoning damage and push the target 10 ft, if it is no more than one size larger than you.
@@ -296,29 +304,30 @@ At higher levels, you can adopt both more aspects simultaneously and more powerf
   **Spider Legs**. You gain a climb speed equal to your speed.
 
 - #### Mouth
-    **Snake's Fang**.  You can use a ***bonus action*** to make a bite attack. On a hit, you deal 1d8 + Strength modifier piercing damage, and the target must make a Constitution save or become poisoned until the end of your next turn. The DC is equal to your spell save DC.
+    **Snake's Fang**. You can use a ***bonus action*** to make a bite attack. On a hit, you deal 1d8 + Strength modifier piercing damage, and the target must make a Constitution save or become poisoned until the end of your next turn. The DC is equal to your spell save DC.
 
 - #### Nose
-    **Keen Nose**. You have advantage on checks made to find or track creatures.
+    **Keen Nose**. You have advantage on checks made to find or track creatures through smell.
 
-    **Shark's Frenzy**. You have advantage on melee attack rolls against any creature that doesn't have all its hit points. However, after your attack, all attacks against you also have advantage.
+    **Shark's Frenzy**. You have advantage on melee attack rolls against any creature that doesn't have all its hit points. However, after your attack, attacks against you also have advantage.
 
 - #### Skin
     **Beetle Carapace**. You gain resistance to bludgeoning, piercing, and slashing damage.
 
     **Chameleon Skin**. You have advantage on Dexterity (Stealth) checks, and become invisible as long as you are completely still.
+
 - #### Any
     The following do not conflict with any other aspects, including the ones in the same group.
 
-    **Bat Ears**. You have blindsight out to 30 feet as long as you aren't deafened.
+    **Bat Ears**. You have blindsight out to 30 ft as long as you aren't deafened.
 
-    **Boar's Heart**. The first time you would be reduced to 0 hit points, you instead are reduced to 1 hit point instead. This ability only works once per Wild shape.
+    **Boar's Heart**. The first time you would be reduced to 0 hit points, you are instead reduced to 1 hit point. This ability only works once per Wild shape.
 
     **Elephant Bones**. You gain temporary hit points equal to your Wisdom modifier + your druid level (minimum +1).
 
     **Gills**. You can breathe both air and water.
 
-    **Lizard Tail**. You gain a quick and powerful tail. As a ***reaction***, when a creature moves within 10 feet of you, you can make an unarmed attack against that creature using your tail. On a hit, you deal 1d10 bludgeoning damage and you knock the target prone if it is no more than on size larger than you and fails a Strength save against you spell save DC.
+    **Lizard Tail**. You gain a quick and powerful tail. As a ***reaction***, when a creature moves within 10 ft of you, you can make an unarmed attack against that creature using your tail. On a hit, you deal 1d10 bludgeoning damage and you knock the target prone if it is no more than on size larger than you and fails a Strength save against you spell save DC.
 
 - #### Special
     These have special requirements, such as being counted as several aspect groups.
@@ -328,10 +337,10 @@ At higher levels, you can adopt both more aspects simultaneously and more powerf
 </div>
 
 ### Extra Attack
-At 6th level, you can attack twice whenever you take the Attack action on your turn.
+You can attack twice whenever you take the Attack action on your turn.
 
 ### Supernatural Aspect
-At 11th level, you have mastered the ability to adopt a aspects beyond normal beasts and animals of nature. Whenever you use your Wild shape ability to select a beast aspect, you may use one Supernatural aspect instead. All other restrictions apply as for beast aspects.
+You have mastered the ability to adopt a aspects beyond normal beasts and animals of nature. Whenever you use your Wild shape ability to select a beast aspect, you may use one Supernatural aspect instead. All other restrictions apply as for beast aspects.
 
 <div class="columnsthree">
 
@@ -345,7 +354,7 @@ At 11th level, you have mastered the ability to adopt a aspects beyond normal be
     **Dragon Breath**. As an ***action***, you may expend a spell slot of 1st level or higher to make a breath weapon attack. When you first gain this feature, select a Draconic Ancestry from the Dragonborn Traits (Player's Handbook, page 34). The save is equal to your spell save DC, and you deal damage equal to 1d6 plus an additional 1d6 per spell level sacrificed. The damage type and dimensions of the breath is determined by the ancestry chosen.
 
 - #### Skin
-    **Displacer Beast Hide**. While you manifest this supernatural aspect, you have advantage on Dexterity saving throws and ability checks. In addition, when you take the Dodge Action on your turn, you can make one melee attack as a ***bonus action***.
+    **Displacer Beast Hide**. While you manifest this supernatural aspect, you have advantage on Dexterity saving throws and ability checks. In addition, when you take the Dodge action on your turn, you can make one melee attack as a ***bonus action***.
 
 - #### Any
     **Troll Blood**. While you manifest this supernatural aspect, you have advantage on Constitution saving throws and ability checks. In addition, at the start of each of your turns, you regain hit points equal to 2 + your Constitution modifier if you have no more than half your hit points left. You don't gain this benefit if you have 0 hit points, or if you've taken fire or acid damage since the start of your last turn.
@@ -353,7 +362,11 @@ At 11th level, you have mastered the ability to adopt a aspects beyond normal be
 </div>
 
 ### Primal Magic
-At 14th level, when you use your action to cast a druid spell, you can make one unarmed or weapon attack as a ***bonus action***.
+When you use your action to cast a druid spell, you can make one unarmed or weapon attack as a ***bonus action***.
+
+
+
+
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-dreams">The Circle of Dreams</a></h1>
