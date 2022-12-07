@@ -1364,7 +1364,7 @@ While raging, having 0 hit points doesn’t knock you unconscious. You still mus
 <div class="featuresTable">
 
 #### Path Features
-| Barbarian Level | Feature |
+| Class Level | Feature |
 | :-: | :--- |
 | 1st | Tail Adept |
 | 3rd | Tail Fighter |
@@ -1382,21 +1382,12 @@ Only races the physiology to support it can follow the Path of the Tailfighter, 
 ### Tail Adept
 You develop considerable coordination with your tail, allowing you to manipulate or hold simple items such as a lantern or a pitcher with it. You cannot make fine movements or manipulate tiny objects with it, such as picking pockets, using thieves’ tools, or turning a key in a lock.
 
-
-
 ### Tail Fighter
 You can use your tail to make unarmed strikes, dealing 1 + your Strength modifier bludgeoning damage. At 6th level this damage increases to 1d4. At 10th level it increases to 1d6, and at 14th level to 1d8. If you are holding an item in your tail, you cannot make a tail attack.
 
 In addition to normal attacks, you can attack with your tail using a ***bonus action*** as if it were an off-hand weapon, even while wielding a two-handed weapon.
 
-### Lashing Defense
-You have learned to use your lashing tail and your wild, spinning combat style to protect yourself. While raging, when an opponent makes a melee attack against you, you can use your ***reaction*** to impose disadvantage on the attack roll. If the opponent’s attack misses, you may make a tail attack against one target within reach as part of the same reaction.
-
-### Quick Stand
-Your tail is so much a part of your movement that it acts much like an extra leg and can even prop you up when you’ve fallen. You have advantage on saving throws against any effect that would knock you prone or force you to move by pushing or pulling. Standing from prone costs you only 5 feet of movement.
-
-### Tripping Tail
-You can use your tail to make opportunity attacks. If you hit and the target is Large or smaller, in addition to damage, it must make a Strength saving throw against 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). On a failed save, you knock the target prone and its movement is reduced to 0.
+<div class="infoarea" markdown="1">
 
 ### Tail Weapons
 Some tailed races have created weapons that can be used on their tails. Usually it’s only something sharp or heavy strapped at the end of the tail, which cuts or smashes when swung. These weapons can be used similar to offhand weapons, while allowing for one free hand.
@@ -1408,6 +1399,16 @@ It takes a minute to properly strap a tail weapon for use, but nothing prevents 
 |:-----|:-----:|:------:|:-----------|
 | Tailblade | 10 gp | 1 lbs | Increases damage by +1. Tail attack deals slashing damage instead.
 | Tail Mace | 10 gp | 8 lbs | Increases damage to the next die size.
+</div>
+
+### Lashing Defense
+You have learned to use your lashing tail and your wild, spinning combat style to protect yourself. While raging, when an opponent makes a melee attack against you, you can use your ***reaction*** to impose disadvantage on the attack roll. If the opponent’s attack misses, you may make a tail attack against one target within reach as part of the same reaction.
+
+### Quick Stand
+Your tail is so much a part of your movement that it acts much like an extra leg and can even prop you up when you’ve fallen. You have advantage on saving throws against any effect that would knock you prone or force you to move by pushing or pulling. Standing from prone costs you only 5 feet of movement.
+
+### Tripping Tail
+You can use your tail to make opportunity attacks. If you hit and the target is Large or smaller, in addition to damage, it must make a Strength saving throw against 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). On a failed save, you knock the target prone and its movement is reduced to 0.
 
 
 
@@ -1418,7 +1419,7 @@ It takes a minute to properly strap a tail weapon for use, but nothing prevents 
 <div class="featuresTable">
 
 #### Path features
-| Barbarian Level | Feature |
+| Class Level | Feature |
 | :-: | :--- |
 | 1st | Wild Rage |
 | 3rd | Skinchanger |
@@ -1438,15 +1439,15 @@ When you enter a rage you add the benefit of an animal to the benefits of your r
 
 <div class="columnsthree">
 
-- **Bat.** As a ***bonus action*** you can shriek or catch the wind. If you shriek, you have blindsight up to 60 feet away until the end of your next turn. If you catch the wind, you fly 20 feet and take no damage from falling until the end of your next turn.
+- **Bat.** As a ***bonus action*** you can shriek or catch the wind. If you shriek, you have blindsight up to 60 ft away until the end of your next turn. If you catch the wind, you fly 20 ft and take no damage from falling until the end of your next turn.
 
-- **Boar.** When you move 15 feet or more directly towards a creature on your turn, you can spend your ***bonus action*** to gore them with your tusks. You have proficiency with this attack and add your Strength modifier to hit and damage. The gore attack deals 1d4 slashing damage and the target must succeed at a Strength saving throw or fall prone. The DC of this saving throw is 8 + the damage you dealt with this attack.
+- **Boar.** When you move 15 ft or more directly towards a creature on your turn, you can spend your ***bonus action*** to gore them with your tusks. You have proficiency with this attack and add your Strength modifier to hit and damage. The gore attack deals 1d4 slashing damage and the target must succeed at a Strength saving throw or fall prone. The DC of this saving throw is 8 + the damage you dealt with this attack.
 
-- **Rat.** You gain resistance to poison damage and advantage on saving throws against disease, poison and restrained effects. In addition, you can carry and use a light weapon with your tail.
+- **Rat.** You gain resistance to poison damage and advantage on saving throws against disease, poison and restrained effects. In addition, you can carry and use a light weapon with your tail as if it were carried off-hand.
 
-- **Shark.** Gain a swim speed of 30 feet and you can breathe underwater. As a ***bonus action*** you can bite a creature that has less than their maximum hit points. You have proficiency with the bite attack and add your strength modifier to hit and damage. The base damage of the bite attack is 1d4 piercing damage.
+- **Shark.** You gain a swim speed of 30 ft and can breathe underwater. As a ***bonus action*** you can bite a creature that has less than their maximum hit points. You have proficiency with the bite attack and add your strength modifier to hit and damage. The base damage of the bite attack is 1d4 piercing damage.
 
-- **Wolf.** As a ***reaction*** you can hound a creature when it moves out of your reach. When you hound a creature you move half your movement speed and must move as close to the creature triggering the reaction as possible. Then you hcan make a melee attack as a part of the same reaction.
+- **Wolf.** As a ***reaction*** you can hound a creature when it moves out of your reach. When you hound a creature you move half your movement speed and must move as close to the creature triggering the reaction as possible. Then you can make a melee attack as a part of the same reaction.
 
 </div>
 
@@ -1454,7 +1455,7 @@ When you enter a rage you add the benefit of an animal to the benefits of your r
 You gain the ability to turn into an animal exactly as described in the druid's Wild Shape feature, but can only use the feature once before needing a long rest to use again. This Wild Shape feature improves at 4th and 8th level, just as it does for druid.
 
 ### Ten Thousand Masks
-Starting at 6th level, your ability to change your own form improves and you can cast the *enhance ability* spell (targeting yourself only). After casting the spell with this feature you must complete a long rest to use this ability again.
+Your ability to change your own form improves and you can cast the *enhance ability* spell (targeting yourself only). After casting the spell with this feature you must complete a long rest to use this ability again.
 
 In addition, as part of the ***bonus action*** you use to enter a rage, you can cast *alter self* or *enlarge* (targeting yourself only). Unlike the spell you do not need to concentrate to continue the effect but the effect ends when your rage does.
 
@@ -1463,7 +1464,7 @@ Your wild rage has even greater rewards. Add an additional benefit to the normal
 
 <div class="columnsthree">
 
-- **Bat.** You have a fly movement speed of 30 feet.
+- **Bat.** You have a fly speed of 30 ft.
 
 - **Boar.** Once per turn when a creature makes an opportunity attack against you, you can make a gore attack against it after its opportunity attack is resolved.
 
@@ -1491,7 +1492,7 @@ You can cast the *enhance ability* spell (targeting yourself only) at will. In a
 <div class="featuresTable">
 
 #### Path Features
-| Barbarian Level | Feature |
+| Class Level | Feature |
 | :-: | :--- |
 | 1st | Battlerager Armor |
 | 3rd | Spiky |
@@ -1535,10 +1536,10 @@ If you become grappled, or successfully grapple a creature, the target takes 3 p
 When you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier. They vanish if any of them are left when your rage ends.
 
 ### Battlerager Charge
-Beginning at 10th level, you can take the Dash action as a **bonus action** while raging.
+You can take the Dash action as a **bonus action** while raging.
 
 ### Spiked Retribution
-When an adjacent creature hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated, and are wearing spiked armor.
+When an adjacent creature hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated and wearing spiked armor.
 
 
 
@@ -1548,7 +1549,7 @@ When an adjacent creature hits you with a melee attack, the attacker takes 3 pie
 <div class="featuresTable">
 
 #### Path Features
-| Barbarian Level | Feature |
+| Class Level | Feature |
 | :-: | :--- |
 | 1st | Earthen
 | 3rd | Stone Rage
@@ -1563,15 +1564,15 @@ To match the grand fury and power of an earthquake or avalanche, barbarians of t
 Quake bringers often come from cultures connected to the earth (especially if they value strength) such as those of dwarves, goliath, or firbolgs. Earth genasi can manifest these abilities using latent elemental power. Some quake bringers communed with earth spirits or spent years in isolation on a mountain to gain power.
 
 ##### Restriction
-Only dwarves can follow the Path of the Quake Bringer.
+Only dwarves ans earth genasi can follow the Path of the Quake Bringer.
 
 ### Earthen
-You cannot be petrified, and when you are pushed or pulled, you can reduce the distance you are moved by up to 5 feet.
+You cannot be petrified, and when you are pushed or pulled, you can reduce the distance you are moved by up to 5 ft.
 
 ### Stone Rage
 Your rage armors you with rumbling stone. You gain the following benefits while raging.
-* At the start of each of your turns and when you start raging, you gain temporary hit points equal to 2 + half your barbarian level. They vanish if any of them are left when your rage ends.
-* You can use a ***bonus action*** to shake the ground within 5 feet of you. It becomes difficult terrain for other creatures until the start of your next turn.
+- At the start of each of your turns and when you start raging, you gain temporary hit points equal to 2 + half your barbarian level. They vanish if any of them are left when your rage ends.
+- You can use a ***bonus action*** to shake the ground within 5 ft of you. It becomes difficult terrain for other creatures until the start of your next turn.
 
 ### Demolisher
 Your elemental power focuses into mighty blows that smash even stone. You deal double damage with melee weapon attacks to objects and structures. When you hit a target composed of earth (dirt, crystal stone, metal etc.) with a melee weapon attack, your weapon is treated as if it were magical for the purpose of overcoming resistance, and if the target is an object or structure, you also gain a bonus to the damage roll equal to half your barbarian level
@@ -1579,18 +1580,18 @@ Your elemental power focuses into mighty blows that smash even stone. You deal d
 Also, you have advantage on Strength checks made to dig, demolish, or excavate using a tool or object.
 
 
-
 ### Cliff Running
-Starting at 10th leveL you have a climbing speed equal to your walking speed. You don't need free hands to use this speed unless you are climbing a surface that isn't made of some kind of earth.
+You have a climbing speed equal to your walking speed. You don't need free hands to use this speed unless you are climbing a surface that isn't made of some kind of earth.
+
 In addition, when you jump off of a surface made of earth, you draw power from the earth to boost your leap, increasing your high jump distance by a number of feet equal to your Constitution modifier (minimum + 1) and your long jump distance by twice that amount.
 Finally, you have tremorsense that extends out to a radius of 60 feet while you are raging, allowing you to sense through the earth.
 
 ### Seismic Smash
-You gain the ability to smash the ground itself and create a great seismic shockwave. As an ***action*** while raging and wielding a melee weapon, you can strike the ground with this power. Each other creature on the ground within 30 feet of you must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Strength modifier). You can choose to use a smaller radius, if desired.
+You gain the ability to smash the ground itself and create a great seismic shockwave. As an ***action*** while raging and wielding a melee weapon, you can strike the ground with this power. Each other creature on the ground within 30 ft must make a Dexterity saving throw (DC 8 + your proficiency bonus + your Strength modifier). You can choose to use a smaller radius, if desired.
 
 On a failed saving throw, a target takes bludgeoning damage equal to your barbarian level + your Strength modifier and is knocked prone. On a successful saving throw, a target takes half as much damage and isn't knocked prone.
 
-If the ground in the area is loose earth or stone, it becomes difficult terrain until cleared Each 5-foot radius portion requires at least 1 minute to clear by hand. When you use this ability, you can choose to damage the ground in the area, structures in contact with the ground in the area, both, or neither. This ability deals twice as much damage to those objects.
+If the ground in the area is loose earth or stone, it becomes difficult terrain until cleared. Each 5 ft radius portion requires at least 1 minute to clear by hand. When you use this ability, you can choose to damage the ground in the area, structures in contact with the ground in the area, both, or neither. This ability deals twice as much damage to those objects.
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
@@ -1601,7 +1602,7 @@ Once you use this feature, you can't use it again until you finish a short rest.
 <div class="featuresTable">
 
 #### Path Features
-| Barbarian Level | Feature |
+| Class Level | Feature |
 | :-: | :--- |
 | 1st | Stance of the Forest |
 | 3rd |Blighted Transformation |
@@ -1622,7 +1623,7 @@ You harness your fury to anchor your feet to the ground, shrugging off the blows
 ### Blighted Transformation
 You become a blighted monster when you rage. For the duration of your rage, whenever you grapple a creature you can choose to constrict them with vines, causing them to be restrained for the duration of the grapple.
 
-Whenever you take damage while restraining a creature in this manner, you must succeed on a Constitution saving throw to maintain the restrained condition. The DC equals 10 or the damage you take, whichever number is higher. On a failed save, the restrained condition ends until the end of the creature's next turn, though they still remain grappled.
+Whenever you take damage while restraining a creature in this manner, you must succeed with a Constitution saving throw to maintain the restrained condition. The DC equals 10 or the damage you take, whichever number is higher. On a failed save, the restrained condition ends until the end of the creature's next turn, though they still remain grappled.
 
 ### Mindless Rage
 You can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage.
@@ -1631,7 +1632,7 @@ You can't be charmed or frightened while raging. If you are charmed or frightene
 Whenever you rage you can cast the *thorn whip* cantrip as a ***bonus action*** on your turn. Constitution is your spellcasting ability  Additionally, you no longer have to make Constitution saving throws to avoid ending the restrained condition from your Blighted Transformation feature. The restrained condition now lasts for the duration of the grapple.
 
 ### Reactive Tendrils
-Starting at 14th level, whenever you take damage from an adjacent creature, you can use your ***reaction*** to release grasping vines at the attacker, attempting to grapple the target.
+Whenever you take damage from an adjacent creature, you can use your ***reaction*** to release grasping vines at the attacker, attempting to grapple the target.
 
 
 
@@ -1643,7 +1644,7 @@ Starting at 14th level, whenever you take damage from an adjacent creature, you 
 <div class="featuresTable">
 
 #### Path Features
-| Barbarian Level | Feature |
+| Class Level | Feature |
 | :-: | :--- |
 | 1st | One-Eyed
 | 3rd | War Shaman |
@@ -1661,11 +1662,9 @@ Only orcs and half-orcs can follow the Eye of Gruumsh primal path. Gruumsh will 
 #### One-Eyed
 When you choose this primal path you must sacrifice one of your eyes to Gruumsh. You can do so as a 10-minute ritual, in which you rip out your eyeball and divine fire closes the wound shut.
 
-When you have your eye ripped out like this, you have disadvantage on Wisdom (Perception) checks and ranged attack rolls further than 30 feet. If you regain your removed eye, such as from the regenerate spell, you cannot make use of features from this primal path until you remove it again.
+When you have your eye ripped out like this, you have disadvantage on Wisdom (Perception) checks and ranged attack rolls further than 30 ft. If you regain your removed eye, such as from the regenerate spell, you cannot make use of features from this primal path until you remove it again.
 
-In addition, you gain proficiency with Religion, and when making a Religion check made to recall information relating to Gruumsh, you have advantage.
-
-
+In addition, gain the *Religion - Acolyte (Gruumsh)* skill and its prerequisite.
 
 #### War Shaman
 When you enter a rage, you also cast the *spiritual weapon* spell as part of the same ***bonus action***. You use Wisdom as your spellcasting ability and add your Rage damage bonus to the spell attacks made using this spell while raging. The spell does not last its normal duration, but ends when your rage does.
@@ -1674,7 +1673,7 @@ When you enter a rage, you also cast the *spiritual weapon* spell as part of the
 You can cast the *augury* spell, but only as a ritual, which includs a Small or larger corpse of a beast or humanoid as one of the material components for this spell.
 
 #### Battle Cry
-You channel divine fury through any number of creatures of your choice within 30 feet as an ***action***. Until the start of your next turn, each of those creatures has advantage on attack rolls until the start of your next turn.
+You channel divine fury through any number of creatures of your choice within 30 ft as an ***action***. Until the start of your next turn, each of those creatures has advantage on attack rolls until the start of your next turn.
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
@@ -1696,7 +1695,7 @@ You can instead spend 5 Fury to use this feature, if the target is an elf.
 <div class="featuresTable">
 
 #### Path  Features
-| Barbarian Level | Feature |
+| Class Level | Feature |
 | :-: | :--- |
 | 1st | Tracker |
 | 3rd | Spoils of the Hunt |
@@ -1712,7 +1711,7 @@ Although they are cold and calculating, the followers of this path combine ancie
 Only lizardfolk follow this path, although there are instances of individuals of other races seeking out this knowledge.
 
 ### Tracker
-You gain proficiency with Tracking, and have advantage on such checks.
+If you have the prerequisite (*Survival*), the *Tracking* skill has cost 0 for you.
 
 ### Spoils of the Hunt
 You learn an ancient ritual that lets you tap into your primal side by drawing out memories from fallen creatures. To perform this ritual, you must spend 1 hour with the trophy of a creature that's been dead no more than 24 hours. The ritual counts as light activity. While wearing or carrying the trophy, you gain the following benefits that last until you perform this ritual again.
@@ -1722,10 +1721,8 @@ You learn an ancient ritual that lets you tap into your primal side by drawing o
 - You can use your Hungry Jaws trait one additional time before you must finish a rest.
 - When you reduce a creature to 0 hit points, other hostile creatures of the same type that can see you must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of their next turn. A creature that succeeds on this saving throw is immune to this effect for 24 hours.
 
-
-
 ### Insightful Predator
-Your familiarity with the strange, alien minds of other creatures has grown, and the knowledge you're able to draw out from a trophy increases. You have advantage on Perception, Insight and Intimidation checks made against creatures of the same type as your current trophy, and you can't be surprised by enemies if at least one of them is that creature type.
+Your familiarity with the strange, alien minds of other creatures has grown, and the knowledge you're able to draw out from a trophy increases. You have advantage on Perception and Intimidation checks made against creatures of the same type as your current trophy, and you can't be surprised by enemies if at least one of them is that creature type.
 
 ### Glory to the Pack
 You are able to convey your knowledge and instincts to others. When a friendly creature you can see makes an attack roll or ability check against a creature of the same type as your current trophy, you can use a ***reaction*** to give it advantage.
@@ -1734,8 +1731,4 @@ You are able to convey your knowledge and instincts to others. When a friendly c
 Your bloodthirst has been both awakened and heightened by the numerous creatures you've connected to with your trophy rituals. When you reduce a creature to 0 hit points with a melee weapon attack while raging, you can make a bite attack against a different creature.
 
 Additionally, if the slain creature was of the same type as your current trophy, you can immediately move up to half of your movement speed.
-
-
-
-
 
