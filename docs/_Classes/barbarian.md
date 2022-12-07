@@ -23,7 +23,7 @@ layout: default
 
 ##### Restricted Paths
 **Beastfolk (needs a tail)**<br/>
-<a href="#internal-tailfighter">Path of the Tailfighter</a><br/>
+<a href="#internal-tailfighter">Path of the Tailfighter</a>
 
 **Can change shape naturally**<br/>
 <a href="#internal-skinchanger">Path of the Skinchanger</a><br/>
@@ -37,6 +37,13 @@ layout: default
 
 **Earth Genasi**<br/>
 <a href="#internal-quakeBringer">Path of the Quake Bringer</a>
+
+**Half-Orc**<br/>
+<a href="#internal-eyeOfGruumsh">Eye of Gruumsh</a>
+
+**Lizardfolk**<br/>
+<a href="#internal-tailfighter">Path of the Tailfighter</a><br/>
+<a href="#internal-trophyHunter">Path of the Trophy Hunter</a>
 
 </div>
 
@@ -1625,4 +1632,110 @@ Whenever you rage you can cast the *thorn whip* cantrip as a ***bonus action*** 
 
 ### Reactive Tendrils
 Starting at 14th level, whenever you take damage from an adjacent creature, you can use your ***reaction*** to release grasping vines at the attacker, attempting to grapple the target.
+
+
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-eyeOfGruumsh">Restricted to Orc & Half-Orc characters</a></h2>
+<h1>Eye of Gruumsh</h1>
+<div class="featuresTable">
+
+#### Path Features
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | One-Eyed
+| 3rd | War Shaman |
+| 6th | Soothsayer |
+| 10th | Battle Cry |
+| 14th | Gruumsh’s Fury |
+
+</div>
+
+When an orc slays an elf in the name of Gruumsh and offers the corpse of its foe as a sacrifice, an aspect of the god might appear. This aspect demands that the orc sacrifices one of its eyes, symbolizing the loss Gruumsh himself has. If the orc plucks out its eye, it becomes an Eye of Gruumsh, a shamanistic warrior who uses auguries and magic to fuel its power.
+
+##### Restriction
+Only orcs and half-orcs can follow the Eye of Gruumsh primal path. Gruumsh will only grant his divine fury to his descendants.
+
+#### One-Eyed
+When you choose this primal path you must sacrifice one of your eyes to Gruumsh. You can do so as a 10-minute ritual, in which you rip out your eyeball and divine fire closes the wound shut.
+
+When you have your eye ripped out like this, you have disadvantage on Wisdom (Perception) checks and ranged attack rolls further than 30 feet. If you regain your removed eye, such as from the regenerate spell, you cannot make use of features from this primal path until you remove it again.
+
+In addition, you gain proficiency with Religion, and when making a Religion check made to recall information relating to Gruumsh, you have advantage.
+
+
+
+#### War Shaman
+When you enter a rage, you also cast the *spiritual weapon* spell as part of the same ***bonus action***. You use Wisdom as your spellcasting ability and add your Rage damage bonus to the spell attacks made using this spell while raging. The spell does not last its normal duration, but ends when your rage does.
+
+#### Soothsayer
+You can cast the *augury* spell, but only as a ritual, which includs a Small or larger corpse of a beast or humanoid as one of the material components for this spell.
+
+#### Battle Cry
+You channel divine fury through any number of creatures of your choice within 30 feet as an ***action***. Until the start of your next turn, each of those creatures has advantage on attack rolls until the start of your next turn.
+
+Once you use this feature, you can't use it again until you finish a short rest.
+
+#### Gruumsh’s Fury
+You can channel the anger of Gruumsh through your weapon. When you hit a creature with a melee weapon attack, you can choose for that attack to deal an extra 8d8 damage.
+
+Once you use this feature, you can't use it again until you finish a long rest.
+
+You can instead spend 5 Fury to use this feature, if the target is an elf.
+
+
+
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-trophyHunter">Restricted to Lizardfolk characters</a></h2>
+<h1>Path of the Trophy Hunter</h1>
+<div class="featuresTable">
+
+#### Path  Features
+| Barbarian Level | Feature |
+| :-: | :--- |
+| 1st | Tracker |
+| 3rd | Spoils of the Hunt |
+| 6th | Insightful Predator |
+| 10th | Glory to the Pack |
+| 14th | Vicious Hunger |
+
+</div>
+
+Although they are cold and calculating, the followers of this path combine ancient teachings and new knowledge to instill emotion and aggressiveness in themselves. Utilizing rituals and animalistic behavior, these trophy hunters seek not only to outlive bigger and stronger foes, but to exceed them, and to become the alpha creature that all others fear.
+
+##### Restriction
+Only lizardfolk follow this path, although there are instances of individuals of other races seeking out this knowledge.
+
+### Tracker
+You gain proficiency with Tracking, and have advantage on such checks.
+
+### Spoils of the Hunt
+You learn an ancient ritual that lets you tap into your primal side by drawing out memories from fallen creatures. To perform this ritual, you must spend 1 hour with the trophy of a creature that's been dead no more than 24 hours. The ritual counts as light activity. While wearing or carrying the trophy, you gain the following benefits that last until you perform this ritual again.
+
+- While raging, you can add your Wisdom modifier to damage rolls against that creature's type.
+- While raging, you can make a bite attack as a bonus action against that creature's type.
+- You can use your Hungry Jaws trait one additional time before you must finish a rest.
+- When you reduce a creature to 0 hit points, other hostile creatures of the same type that can see you must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the end of their next turn. A creature that succeeds on this saving throw is immune to this effect for 24 hours.
+
+
+
+### Insightful Predator
+Your familiarity with the strange, alien minds of other creatures has grown, and the knowledge you're able to draw out from a trophy increases. You have advantage on Perception, Insight and Intimidation checks made against creatures of the same type as your current trophy, and you can't be surprised by enemies if at least one of them is that creature type.
+
+### Glory to the Pack
+You are able to convey your knowledge and instincts to others. When a friendly creature you can see makes an attack roll or ability check against a creature of the same type as your current trophy, you can use a ***reaction*** to give it advantage.
+
+### Vicious Hunger
+Your bloodthirst has been both awakened and heightened by the numerous creatures you've connected to with your trophy rituals. When you reduce a creature to 0 hit points with a melee weapon attack while raging, you can make a bite attack against a different creature.
+
+Additionally, if the slain creature was of the same type as your current trophy, you can immediately move up to half of your movement speed.
+
+
+
+
 

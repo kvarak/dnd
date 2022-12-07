@@ -32,6 +32,9 @@ layout: default
 **Gnome**<br/>
 <a href="#internal-tinkerKnight">Tinker Knight</a>
 
+**Halfling**<br/>
+<a href="#internal-warslingSniper">Warsling Sniper</a>
+
 
 ##### <a href="#internal-FightingStyles">Fighting Styles</a>
 ##### <a href="#internal-combatManeuvers">Maneuvers</a>
@@ -1714,6 +1717,58 @@ The following maneuvers are available only to a Tinker knight. Tinker knights fo
     When you make an Investigation check, or a check with a set of artisan's tools in which you are proficient, you can expend a superiority die to gain a bonus to your roll equal to two rolls of your superiority die.
 
 </div>
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-warslingSniper">Restricted to Halfling characters</a></h2>
+<h1>Warsling Sniper</h1>
+<div class="featuresTable">
+
+#### Archetype Features
+| Fighter Level | Feature |
+|:-------------:|:--------|
+| 3rd | Ricochet Shot, Sling Master
+| 7th | Sniper (1d6)
+| 10th | Quick reflexes
+| 15th | Improved Critical, Sniper (2d6)
+| 18th | Exploiting Shot
+
+</div>
+
+The warsling sniper is an expert in the use of the weapon commonly associated with the halfling race. Among the halflings, these individuals are known by their proper name, and are often accorded great respect in the community. To nearly everyone else however, these sharpshooters are known as “those damned sling assassins!” or by even more colorful epithets.
+
+While some warsling snipers do actually sell their talents to those wishing to dispose of their enemies, most are not professional assassins but rather highly skilled specialists who use their skills to help protect their communities or improve their chances of adventuring successfully. The art of warsling expertise is often passed from generation to generation, and most snipers remain with their family for most of their lives, imparting their superlative skills to the young.
+
+##### Restriction
+Only halflings follow this path, although there are instances of individuals of other races acquiring these skills.
+
+### Ricochet Shot
+You become an expert at trajectories and ballistics with your sling, ignoring half cover, and counting three-quarters cover as half cover (+2 AC). You can even target creatures around obstacles and corners, even if that creature has full cover and is out of your line of sight, as long as the path of the attack hits a wall or other solid obstacle, is still within the sling’s range, and can be measured in two straight lines.
+
+In addition, if you hit an enemy during your turn, you can make an additional attack with the same ammunition against any enemy within the remaining range.
+
+In both cases, the attack made after a bounce can never benefit from advantage, and it only works with hard-to-break ammunition like stones and sling bullets, not with alchemical ammunition
+
+### Sling Master
+You are never without a sling. You can easily make a good enough sling from any piece of cloth, that works just as good as any sling you can buy, in a minute.
+
+If you have longer time, you can improve a sling, including one you made temporarily, to become superior warsling. During a long rest where you have a set of leatherworker’s tools available, you can customize and improve the sling, increasing the damage you deal with it by 1 die size, eg, 1d6 for regular ammunition, and increasing the range from 30/120 ft to 50/120 ft.
+
+### Sniper
+Any time you have advantage on an attack with your sling, it deals extra 1d6 damage. This extra damage increases by an additional d6 at 15th level.
+
+### Quick reflexes
+You gain proficiency bonus with initiative checks. In addition, when a creature within 30 feet of you moves, you can use your ***reaction*** to make a ranged weapon attack with a sling against that creature.
+
+### Improved Critical
+Your sling attacks score a critical hit on a roll of 19-20.
+
+### Exploiting Shot
+When you score a critical hit with a sling against a target, you can choose to give that target disadvantage on attack rolls and ability checks, the blinded condition, or the deafened condition until the start of your next turn, or you can choose to make the target fall prone.
+
+
+
 
 
 
