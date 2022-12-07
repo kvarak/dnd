@@ -181,7 +181,7 @@ Not all werebear-kin avoid settlements, but all avoid frequently dealing with pe
 ## <a class="internal-link" name="internal-tiger">Fanglord</a>
 
 ### Weretiger-kin
-<img src='http://67.media.tumblr.com/45d93564c96d0c6ea8e5ada7751e3176/tumblr_inline_n0fp5cFi0q1s2vv7d.jpg' style='float:right;width:40%;padding:20px' />
+<img src='http://67.media.tumblr.com/45d93564c96d0c6ea8e5ada7751e3176/tumblr_inline_n0fp5cFi0q1s2vv7d.jpg' style='float:right;width:35%;padding:20px' />
 
 Weretiger-kin are known for their fickle attitudes and unpredictable behavior. Usually, a fanglord makes his living by intimidation, cutthroat business dealings, political ploys, and military ventures. Very much like weretigers, they rarely congregate with others of their kind except as mated pairs. They often have aristocratic connections or the charm to fake it and are happy to settle in affluent areas, where one fanglord typically claims dominion over anything from a small neighborhood to a large city district.
 
@@ -396,7 +396,7 @@ The following feats are exclusive to shifters:
 </div>
 
 ## <a class="internal-link" name="internal-class">class options</a>
-Shifters are to large extent humans, and approach most classes as humans would. Use the class options listed in the human description. In addition, classes are modified as follows:
+Shifters are to large extent humans, and approach most classes as humans would. Use the <a href="human.html#internal-class">same class options as humans</a>. In addition, classes are modified as follows:
 
 <div class="columnstwo">
 
