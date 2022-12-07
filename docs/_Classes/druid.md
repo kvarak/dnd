@@ -407,26 +407,24 @@ The following additions are made to the general rest rules.
 Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms. The druids’ guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with dreamy wonder. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places, where dream and reality blur together and where the weary can find rest.
 
 ### Balm of the Summer Court
-At 2nd level, you become imbued with the blessings of the Summer Court. You are a font of energy that offers respite from injuries. You have a pool of fey energy represented by a number of d6s equal to your druid level.
+You become imbued with the blessings of the Summer Court. You are a font of energy that offers respite from injuries. You have a pool of fey energy represented by a number of d6s equal to your druid level.
 
-As a ***bonus action***, you can target a creature within 120 feet and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die spent.
+As a ***bonus action***, you can target a creature within 120 ft and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die spent.
 
-You regain all expended dice when you finish a long rest.
+You can regain all expended dice when you finish a long rest.
 
 ### Hearth of Moonlight and Shadow
-At 6th level, home can be wherever you are. During a short or long rest, you can invoke the shadowy power of the Gloaming Court to help guard your respite. At the start of the rest, you touch a point in space, and an invisible, 30-foot-radius sphere of magic appears, centered on that point. Total cover blocks the sphere.
+Home can be wherever you are. During a rest, you can invoke the shadowy power of the Gloaming Court to help guard your respite. At the start of the rest, you touch a point in space, and an invisible, 30 ft radius sphere of magic appears, centered on that point. Total cover blocks the sphere.
 
 While within the sphere, you and your allies gain a +5 bonus on all check to avoid detection and notice danger, and any light from open flames in the sphere (a campfire, torches, or the like) isn’t visible outside it.
 
 The sphere vanishes at the end of the rest or when you leave the sphere.
 
-
-
 ### Hidden Paths
-Starting at 10th level, you can use the hidden, magical pathways that some fey use to traverse space in the blink of an eye. As a ***bonus action*** on your turn, you can teleport up to 60 feet to an unoccupied space you can see. Alternatively, you can use your ***action*** to teleport one willing creature you touch up to 30 feet to an unoccupied space you can see.
+You can use the hidden, magical pathways that some fey use to traverse space in the blink of an eye. As a ***bonus action*** on your turn, you can teleport up to 60 ft to an unoccupied space you can see. Alternatively, you can use your ***action*** to teleport one willing creature you touch up to 30 ft to an unoccupied space you can see.
 
 ### Walker in Dreams
-At 14th level, the magic of the Feywild grants you the ability to travel mentally or physically through dreamlands.
+The magic of the Feywild grants you the ability to travel mentally or physically through dreamlands.
 
 You can cast one of the following spells, without expending a spell slot or requiring material components: *dream* (with you as the messenger), *scrying*, or *teleportation circle*.
 
@@ -469,32 +467,32 @@ The Circle of Dust is an order of druids seen as something of an aberration by m
 ### Theft of Life
 Even if you do not choose to cast healing magic, your unique abilities allow you to "steal" life energy provided by such spells and use it for your own purposes.
 
-You may use your ***reaction*** when a spell or other magical power that restores lost hit points is used within 60 feet. You may immediately expend a single hit die and roll it to recover from damage as though you had used it during a short rest.
+You may use your ***reaction*** when a spell or other magical power that restores lost hit points is used within 60 ft. You may immediately expend a single hit die and roll it to recover from damage as though you had used it during a short rest. This roll is made with advantage.
 
 ### Entropic Exchange
-At 2nd level, you gain the ability to siphon life force from healthy allies in order to mend the wounds of others. During a short rest, two willing creatures can participate in the process, and you may act as the source if you so desire.
+You gain the ability to siphon life force from healthy allies in order to mend the wounds of others. During a short rest, two willing creatures can participate in the process, and you may act as the source if you so desire.
 
 The source of the healing may donate hit dice up to a maximum of your class level. The dice are then rolled as though being used to recuperate during a short rest, and the total is given to the target of the exchange.
 
 A source that does not possess spendable hit dice (such as a monstrous ally) or one who no longer has hit dice to spend may instead elect to suffer 1d10 points of necrotic damage for each hit die they would have otherwise expended, with the damage total being used to fuel the healing on the target.
 
 ### Ash and Wind
-When you reach 6th level, you can expend a use of your Wild shape ability to transform into a cloud of dust and cooled embers. The ash and wind form fonctions as the *gaseous form* spell, with the following exceptions:
+You can expend a use of your Wild shape ability to transform into a cloud of dust and cooled embers. The ash and wind form fonctions as the *gaseous form* spell, with the following exceptions:
 
-* You cannot make physical attacks, cast spells, or speak, but you gain resistance to bludgeoning, piercing, and slashing damage from non-magical attacks. You do not lose concentration on spells already cast. Upon reaching 18th level, you can cast spells while in this form (as per the beast spells druid ability).
-* When you transform, you assume a hit point total equal to your Wisdom modifier times your level. If these hit points are lost before you return to your druid form, you drop out of the ash and wind form just as you would with a normal use of wild shape to become an animal.
-* You can fly at a speed of 40 feet.
-* You have advantage on checks to avoid notice, as you make very little to no noise.
+- You cannot make physical attacks, cast spells or speak, but you gain resistance to bludgeoning, piercing, and slashing damage from non-magical attacks. You do not lose concentration on spells already cast. Upon reaching 18th level, you can cast spells while in this form (as per the beast spells druid ability).
+- When you transform, you assume a hit point total equal to your Wisdom modifier times your level. If these hit points are lost before you return to your druid form, you drop out of the ash and wind form just as you would with a normal use of wild shape to become an animal.
+- You can fly at a speed of 40 ft.
+- You have advantage on checks to avoid notice, as you make very little to no noise.
 
 ### Resist Decay
-Walking the line between survival and ruin grants a Circle of Dust druid significant resilience against effects that ravage the body. Upon reaching 10th level, you have advantage on saving throws against poison and disease, and resistance to necrotic damage.
+Walking the line between survival and ruin grants a Circle of Dust druid significant resilience against effects that ravage the body. You have advantage on saving throws against poison and disease, and resistance to necrotic damage.
 
 ### Wrack or Repeal
-Suffering and destruction are such a part of the Circle of Dust that its most powerful druids can manipulate the echoes of harmful events. Upon achieving 14th level, you can wrack or repeal as a ***reaction*** any time you or an ally within 60 feet suffers from any event that causes hit point damage. The damage suffered is immediately halved and you can decide what to do with the remaining half, electing to either wrack or repeal.
+Suffering and destruction are such a part of the Circle of Dust that its most powerful druids can manipulate the echoes of harmful events. You can wrack or repeal as a ***reaction*** any time you or an ally within 60 ft suffers from any event that causes hit point damage. The damage suffered is immediately halved and you can decide what to do with the remaining half, electing to either wrack or repeal.
 
 If you elect to wrack, half of the damage is immediately reflected back upon the attacker. This damage is of the same type as the triggering attack.
 
-If you elect to repeal, half of the damage is converted to healing and can be distributed to any number of allies within 60 feet of you, as long as they are not the same individual whose damage was reduced.
+If you elect to repeal, half of the damage is converted to healing and can be distributed to any number of allies within 60 ft of you, as long as they are not the same individual whose damage was reduced.
 
 You may use wrack or repeal once upon reaching 14th level, gaining an additional use at 18th level.
 
