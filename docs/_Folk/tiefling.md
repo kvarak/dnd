@@ -7,8 +7,8 @@ layout: default
 
 ##### <a href="#internal-traits">Traits</a>
 ##### <a href="#internal-appearance">Appearance</a>
-##### <a href="#internal-class">Class options</a>
 ##### <a href="#internal-feat">Feats</a>
+##### <a href="#internal-class">Class options</a>
 
 </div>
 
