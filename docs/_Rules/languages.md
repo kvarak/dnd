@@ -15,7 +15,7 @@ G*oswin let his hammer fall to the sand and sat down next to Zandru, who was lis
 
 #### Language levels
 |   | Level | Example | Acquisition DC | Days to next level |
-|:-:|:-----:|:--------|:--------------:|:------------------:|
+|:-:|:------|:--------|:--------------:|:------------------:|
 | 0 | Untrained  | Does not understand the language | - | 14
 | 1 | Basic  | Greetings, numbers, a few foods and<br/> everyday objects | 5 | 30
 | 2 | Beginner | Exchanging simple information,<br/>basic questions like asking directions  | 10 | 125
