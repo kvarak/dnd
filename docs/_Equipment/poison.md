@@ -40,6 +40,8 @@ A character can instead attempt to harvest poison from a poisonous creature, suc
 
 These poisons must be harvested from a recently dead or incapacitated creature. It requires no further preparation.
 
+<div class="block classTable frame" markdown="1">
+
 | Poison | Type | Price per Dose |
 |:-------|:-----|---------------:|
 | Aboleth oil | Contact | 250 gp |
@@ -62,54 +64,57 @@ These poisons must be harvested from a recently dead or incapacitated creature. 
 | Wasp's Sting | Injury | 25 gp |
 | Wyvern venom | Injury | 120 gp |
 
+</div>
+
 ### Harvested Poison Descriptions
 Each type of poison has its own debilitating effects.
 
-**Aboleth Oil (Contact)**. Aboleth oil is impossibly rare, and incredibly dangerous. Coming into contact with it accidentally can quickly spell death for most creatures.
+<div class="columns">
 
-A creature subjected to this oil must make a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease, but the creature is unaware that they have been affected. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 1d12 acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.
+- **Aboleth Oil (Contact)**. Aboleth oil is impossibly rare, and incredibly dangerous. Coming into contact with it accidentally can quickly spell death for most creatures.
 
-**Bearded Devil Venom (Injury)**. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target can't regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+  A creature subjected to this oil must make a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease, but the creature is unaware that they have been affected. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 1d12 acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.
+
+- **Bearded Devil Venom (Injury)**. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target can't regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 
 
-**Bone Devil's Sting (Injury)**. A creature subjected to this poison must succeed on a DC 14 Constitution saving throw or take 5d6 poison damage and become poisoned for 1 minute. On a successful save, the target takes half damage and is not poisoned. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+- **Bone Devil's Sting (Injury)**. A creature subjected to this poison must succeed on a DC 14 Constitution saving throw or take 5d6 poison damage and become poisoned for 1 minute. On a successful save, the target takes half damage and is not poisoned. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-**Carrion Crawler Mucus (Contact)**. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+- **Carrion Crawler Mucus (Contact)**. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-**Centipede Venom (Injury)**. Centipede venom is uncommon and has some unusual properties. It cannot kill, but instead leaves the victim in a helpless, paralyzed state for a short period of time. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 3d6 poison damage on a failed save. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
+- **Centipede Venom (Injury)**. Centipede venom is uncommon and has some unusual properties. It cannot kill, but instead leaves the victim in a helpless, paralyzed state for a short period of time. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 3d6 poison damage on a failed save. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
 
-**Cockatrice Saliva (Injury)**. Cockatrice saliva is potentially one of the most dangerous poisons in existence. While its effects are relatively easy to resist, being subjected to them can quickly turn a creature to stone, rendering it helpless. A creature subjected to this venom must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours.
+- **Cockatrice Saliva (Injury)**. Cockatrice saliva is potentially one of the most dangerous poisons in existence. While its effects are relatively easy to resist, being subjected to them can quickly turn a creature to stone, rendering it helpless. A creature subjected to this venom must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours.
 
-**Ettercap Venom (Injury)**. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 1d8 poison damage and becoming poisoned for 1 minute on a failed save. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+- **Ettercap Venom (Injury)**. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 1d8 poison damage and becoming poisoned for 1 minute on a failed save. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-**Imp Venom (Injury)**. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 3d6 poison damage on a failed save, or half as much damage on a successful one.
+- **Imp Venom (Injury)**. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 3d6 poison damage on a failed save, or half as much damage on a successful one.
 
-**Naga Venom (Injury)**. A creature subjected to the venom of a spirit naga
+- **Naga Venom (Injury)**. A creature subjected to the venom of a spirit naga
 must succeed on a DC 13 Constitution saving throw, taking 7d8 poison damage on a failed save, or half as much damage on a successful one. If the poison has been harvested from a guardian naga, this damage increases to 10d8 and the saving throw DC increases by 2; the value of the poison also increases by 250g.
 
-**Pit Fiend Venom (Injury)**. A creature subjected to this poison must succeed on a DC 21 Constitution saving throw or become poisoned. While poisoned in this way, the target can't regain hit points, and it takes 6d6 poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+- **Pit Fiend Venom (Injury)**. A creature subjected to this poison must succeed on a DC 21 Constitution saving throw or become poisoned. While poisoned in this way, the target can't regain hit points, and it takes 6d6 poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-**Pseudodragon Venom (Injury)**. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.
+- **Pseudodragon Venom (Injury)**. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.
 
-**Purified Couatl Venom (Injury)**. Couatl venom is different from the venom of most other creature's in that is requires a refinement process to use, and it loses its potency if taken from an unwilling couatl. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake. This effect ignores immunity to the poisoned condition.
+- **Purified Couatl Venom (Injury)**. Couatl venom is different from the venom of most other creature's in that is requires a refinement process to use, and it loses its potency if taken from an unwilling couatl. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake. This effect ignores immunity to the poisoned condition.
 
-**Purple Worm Poison (Injury).** A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 12d6 poison damage on a failed save, or half as much damage on a successful one.
+- **Purple Worm Poison (Injury).** A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 12d6 poison damage on a failed save, or half as much damage on a successful one.
 
-**Scorpion Venom (Injury)**. A creature subjected to this poison must make a DC 9 Constitution saving throw, taking 1d8 poison damage on a failed save, or half as much damage on a successful one. If the poison has been harvested from a giant scorpion, the damage increases to 4d10 and the saving throw DC increases by 3; the value of the poison also increases to 1,100gp.
+- **Scorpion Venom (Injury)**. A creature subjected to this poison must make a DC 9 Constitution saving throw, taking 1d8 poison damage on a failed save, or half as much damage on a successful one. If the poison has been harvested from a giant scorpion, the damage increases to 4d10 and the saving throw DC increases by 3; the value of the poison also increases to 1,100gp.
 
-**Serpent Venom (Injury).** A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 3d6 poison damage on a failed save, or half as much damage on a successful one.
+- **Serpent Venom (Injury).** A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 3d6 poison damage on a failed save, or half as much damage on a successful one.
 
-**Spider Venom (Injury)**. A creature subjected to this poison must succeed on a DC 10 Constitution saving throw or take 1d4 poison damage. If the poison has been harvested from a giant wolf spider, the damage increases to 2d6 and the saving throw DC increases to 11. Additionally, the creature takes half damage on a failed save, and if the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way. The value of the poison also increases to 160gp. If the poison has been harvested from a giant spider, this damage increases to 2d8 and the value of the poison increases to 200gp.
+- **Spider Venom (Injury)**. A creature subjected to this poison must succeed on a DC 10 Constitution saving throw or take 1d4 poison damage. If the poison has been harvested from a giant wolf spider, the damage increases to 2d6 and the saving throw DC increases to 11. Additionally, the creature takes half damage on a failed save, and if the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way. The value of the poison also increases to 160gp. If the poison has been harvested from a giant spider, this damage increases to 2d8 and the value of the poison increases to 200gp.
 
-**Vrock Spores (Inhaled)**. A creature subjected to these spores must succeed on a DC 14  Constitution saving throw or become poisoned. While poisoned in this way, a target takes 1d10 poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it.
+- **Vrock Spores (Inhaled)**. A creature subjected to these spores must succeed on a DC 14  Constitution saving throw or become poisoned. While poisoned in this way, a target takes 1d10 poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it.
 
-**Wasp's Sting (Injury)**. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 3d6 poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
+- **Wasp's Sting (Injury)**. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 3d6 poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
 
+- **Wyvern Poison (Injury).** A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 7d6 poison damage on a failed save, or half as much damage on a successful one.
 
-
-**Wyvern Poison (Injury).** A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 7d6 poison damage on a failed save, or half as much damage on a successful one.
-
+</div>
 
 ## <a class="internal-link" name="internal-ContactPoisons">Contact Poisons</a>
 
