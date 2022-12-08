@@ -23,5 +23,7 @@ collections:
   #   output: true
   Resources:
     output: true
+  Equipment:
+    output: true
   Rules:
     output: true
