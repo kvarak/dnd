@@ -73,23 +73,23 @@ Perhaps the most important thing when creating a feyblood is to consider whether
 |:-----:|:-----------:|:---------|:-----:|:------:|----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |1st| +2| Spark, Spellcasting,<br/>Glamorous Defense,<br/>Fey Affinity,<br/>Fey Vulnerabilities |2|4|2|—|—|—|—|—|—|—|—|
 |2nd| +2| Faerie Dust,<br/>Fey Affinity Feature |2|5|3|—|—|—|—|—|—|—|—|
-|3rd| +2| - |2|6|4|2|—|—|—|—|—|—|—|
+|3rd| +2| — |2|6|4|2|—|—|—|—|—|—|—|
 |4th| +2| Misty Escape |2|7|4|3|—|—|—|—|—|—|—|
 |5th| +3| — |3|8|4|3|2|—|—|—|—|—|—|
 |6th| +3| Fey Affinity Feature |3|9|4|3|3|—|—|—|—|—|—|
 |7th| +3| — |3|10|4|3|3|1|—|—|—|—|—|
-|8th| +3| MOrtal Anchor |3|11|4|3|3|2|—|—|—|—|—|
+|8th| +3| Mortal Anchor |3|11|4|3|3|2|—|—|—|—|—|
 |9th| +4| — |4|12|4|3|3|3|1|—|—|—|—|
 |10th| +4| Fey Affinity Feature |4|13|4|3|3|3|2|—|—|—|—|
 |11th| +4| — |4|14|4|3|3|3|2|1|—|—|—|
-|12th| +4| - |4|15|4|3|3|3|2|1|—|—|—|
+|12th| +4| — |4|15|4|3|3|3|2|1|—|—|—|
 |13th| +5| — |5|16|4|3|3|3|2|1|1|—|—|
 |14th| +5| Fey Affinity Feature |5|17|4|3|3|3|2|1|1|—| —|
 |15th| +5| — |5|18|4|3|3|3|2|1|1|1|—|
-|16th| +5| - |5|19|4|3|3|3|2|1|1|1|—|
+|16th| +5| — |5|19|4|3|3|3|2|1|1|1|—|
 |17th| +6| — |6|20|4|3|3|3|2|1|1|1|1|
 |18th| +6| Dreamchaser |6|21|4|3|3|3|3|1|1|1|1|
-|19th| +6| - |6|22|4|3|3|3|3|2|1|1|1|
+|19th| +6| — |6|22|4|3|3|3|3|2|1|1|1|
 |20th| +6| Planar Glamour |6|23|4|3|3|3|3|2|2|1|1|
 
 </div>
@@ -151,7 +151,7 @@ You grow a pair of delicate wings, gaining a flying speed of 25 ft. The wings do
 | 7  | Indigo | Soft singing or humming
 | 8  | Violet | Child’s laughter
 
-While flying on the material plane, you have disadvantage on ability checks to hide or sneak. You cannot fly if you are encumbered, exhausted, or wearing armor.
+While flying on the material plane, you have disadvantage on ability checks to hide or sneak. You cannot fly if you are encumbered, exhausted or wearing armor.
 
 <details><summary>Wing Dust</summary>
 
