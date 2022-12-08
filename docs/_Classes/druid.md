@@ -798,8 +798,9 @@ The creature is aware of this effect before it makes its attack against you.
 #### Circle of the Moon Features
 | Druid Level | Feature |
 |:-----------:|:--------|
-| 2nd | Circle Forms, Combat Wild Shape |
-| 6th | Circle Forms (improved), Primal Strike |
+| 1st | Bonus skills |
+| 2nd | Circle Forms,<br>Combat Wild Shape |
+| 6th | Circle Forms (improved),<br>Primal Strike |
 | 10th | Elemental Wild Shape |
 | 14th | Thousand Forms |
 
@@ -809,29 +810,27 @@ Druids of the Circle of the Moon are fierce guardians of the wilds. Their order 
 
 Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.
 
-
-
+### Bonus Skills
+You gain 1 skill point to spend on combat skills.
 
 ### Circle Forms
-The rites of your circle grant you the ability to transform into more dangerous animal forms. From 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).
+The rites of your circle grant you the ability to transform into more dangerous animal forms. You can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).
 
 Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.
 
-
-
 ### Combat Wild Shape
-Starting at 2nd level, you gain the ability to use Wild Shape on your turn as a ***bonus action***, rather than as an action.
+You gain the ability to use Wild Shape on your turn as a ***bonus action***, rather than as an action.
 
 Additionally, while you are transformed by Wild Shape, you can use a ***bonus action*** to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.
 
 ### Primal Strike
-Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+Your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
 
 ### Elemental Wild Shape
-At 10th level, you can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.
+You can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.
 
 ### Thousand Forms
-By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the *alter self* spell at will.
+You have learned to use magic to alter your physical form in more subtle ways. You can cast the *alter self* spell at will.
 
 
 
@@ -854,16 +853,13 @@ By 14th level, you have learned to use magic to alter your physical form in more
 
 Druids of the Circle of the Sands finds the toughest life in one of the harshest place of the world — the deserts. Fascinated at how life finds a way to survive and thrive in the barren lands, the druid contemplates the tenacity of life, bathing in the scorching sun and roaring sandstorms. Like the shifting sands and winds of the desert, most druids of Circle of Sands prefer nomadic lifestyle over settling into a fixed location. However, some druids of Circle of the Sands stay within a settlement as caretakers and protectors.
 
-
-
-
 ### Circle Spells
 Your mystical connection to the desert grants you ability to cast certain spells. When you choose this circle at 1st level, you learn the *air mastery* cantrip in addition to your other cantrips.
 
 At 3rd, 5th, 7th, and 9th level you gain access to additional spells. Select two of the spells listed as circle spells from a spell level that you can cast. The selected spells are always prepared, and do not count against the number of spells you can prepare each day.
 
 ### Shifting Sands
-From 2nd level, when you cast a druid spell of 1st level and higher that requires concentration, you can conjure a gust of wind that surrounds you for 1 minute or until your concentration on the spell is broken.
+When you cast a druid spell of 1st level and higher that requires concentration, you can conjure a gust of wind that surrounds you for 1 minute or until your concentration on the spell is broken.
 
 The gust of winds creates a small vortex centered on you, out to a radius of 5 feet. When a hostile creature first enters the area within the vortex or starts its turn there, it must succeed on a Strength saving throw against your druid spell save DC or be knocked prone.
 
@@ -871,21 +867,19 @@ Additionally, all ranged attacks against you have disadvantage.
 
 You can expend one use of your Wild Shape as a ***bonus action*** to use this feature without casting a druid spell. If you use this feature this way, the wind lasts for 1 minute or until concentration is broken (as if concentrating on a spell).
 
-
-
 ### Sprinting Sands
-From 6th level, when you use an ***action*** to cast a druid spell of 1st level and higher, you can use a ***bonus action*** to take the Dash or Disengage action.
+When you use an ***action*** to cast a druid spell of 1st level and higher, you can use a ***bonus action*** to take the Dash or Disengage action.
 
 Additionally, while you are surrounded by the wind from your Shifting Sands, moving through nonmagical difficult terrain costs you no extra movement, and you ignore obstacles and hazards on the ground, such as caltrops and the grease spell.
 
 ### Howling Sands
-Starting at 10th level, when a creature fails on a saving throw against your Shifting Sands, you can apply one of the following options:
-* The creature takes slashing damage equal to half your druid level + your Wisdom modifier.
-* The creature is blinded and deafened while in the vortex.
-* The creature's speed is halved until the end of its next turn.
+When a creature fails on a saving throw against your Shifting Sands, you can apply one of the following options:
+- The creature takes slashing damage equal to half your druid level + your Wisdom modifier.
+- The creature is blinded and deafened while in the vortex.
+- The creature's speed is halved until the end of its next turn.
 
 ### Raging Sands
-By 14th level, your Shifting Sands no longer requires concentration, and you can use your Shifting Sands when you cast any druid spell of 1st level and higher.
+Your Shifting Sands no longer requires concentration, and you can use your Shifting Sands when you cast any druid spell of 1st level and higher.
 
 Additionally, while you are surrounded by the wind from your Shifting Sands, you gain flying speed equal to your walking speed.
 
@@ -934,20 +928,15 @@ Druids of the Circle of the Shepherd commune with the spirits of nature, especia
 
 Members of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.
 
-
-
-
 ### Speech of the Woods
-At 1st level when you choose this circle, you learn to speak Sylvan, and gain the ability to communicate with beasts.
+At 1st level when you choose this circle, you learn to speak Sylvan and gain the ability to communicate with beasts.
 
 Beasts can understand your speech, and you gain the ability to decipher their noises and motions. Most beasts lack the intelligence to convey or understand sophisticated concepts, but a friendly beast could relay what it has seen or heard in the recent past. This ability doesn’t grant you friendship with beasts, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character.
 
 ### Spirit Totem
-Starting at 2nd level, you can call forth nature spirits to influence the world around you. As a ***bonus action***, you can magically summon an incorporeal spirit to a point you can see within 60 feet. The spirit creates an aura in a 30-foot radius around that point. It counts as neither a creature nor an object, though it has the spectral appearance of the creature it represents.
+You can call forth nature spirits to influence the world around you. As a ***bonus action***, you can magically summon an incorporeal spirit to a point you can see within 60 ft. The spirit creates an aura in a 30 ft radius around that point. It counts as neither a creature nor an object, though it has the spectral appearance of the creature it represents.
 
-
-
-As a ***bonus action***, you can move the spirit up to 60 feet to a point you can see. The spirit persists for 1 minute or until you’re incapacitated. Once you use this feature, you can’t use it again until you finish a short rest.
+As a ***bonus action***, you can move the spirit up to 60 ft to a point you can see. The spirit persists for 1 minute or until you’re incapacitated. Once you use this feature, you can’t use it again until you finish a short rest.
 
 The effect of the spirit’s aura depends on the type of spirit you summon from the options below.
 
@@ -958,24 +947,17 @@ The effect of the spirit’s aura depends on the type of spirit you summon from 
  **Unicorn Spirit**. The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit’s aura. In addition, if you cast a spell using a spell slot, that restores hit points to any creature inside or outside the aura, each creature of your choice in the aura also regains hit points equal to your druid level.
 
 ### Mighty Summoner
-Starting at 6th level, beasts and fey that you conjure are more resilient than normal. Any beast or fey summoned or created by a spell that you cast gains the following benefits:
-* The creature appears with 2 extra hit points per Hit Die.
-* The damage from its natural weapons is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage.
+Beasts and fey that you conjure are more resilient than normal. Any beast or fey summoned or created by a spell that you cast gains the following benefits:
+- The creature appears with 2 extra hit points per Hit Die.
+- The damage from its natural weapons is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks and damage.
 
 ### Guardian Spirit
-Beginning at 10th level, your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of hit points equal to half your druid level.
-
-
-
-
-
-
-
+Your Spirit Totem safeguards the beasts and fey that you call forth with your magic. When a beast or fey that you summoned or created with a spell ends its turn in your Spirit Totem aura, that creature regains a number of hit points equal to half your druid level.
 
 ### Faithful Summons
-Starting at 14th level, the nature spirits you commune with protect you when you are the most defenseless.
+The nature spirits you commune with protect you when you are the most defenseless.
 
-If reduced to 0 hit points or incapacitated against your will, you can immediately gain the benefits of *conjure animals* as if it were cast using a 9th-level spell slot. It summons four beasts of your choice that are challenge rating 2 or lower. The conjured beasts appear within 20 feet of you. If they receive no commands from you, they protect you from harm and attack your foes.
+If reduced to 0 hit points or incapacitated against your will, you can immediately gain the benefits of *conjure animals* as if it were cast using a 9th-level spell slot. It summons four beasts of your choice that are challenge rating 2 or lower. The conjured beasts appear within 20 ft of you. If they receive no commands from you, they protect you from harm and attack your foes.
 
 The spell lasts for 1 hour, requiring no concentration, or until you dismiss it. Once you use this feature, you can’t use it again until you finish a long rest.
 
@@ -997,7 +979,7 @@ The spell lasts for 1 hour, requiring no concentration, or until you dismiss it.
 | Druid Level | Feature |
 |:-----------:|:--------|
 | 1st | Circle Spells |
-| 2nd | Halo of Spores, Symbiotic Entity |
+| 2nd | Halo of Spores,<br>Symbiotic Entity |
 | 6th | Fungal Infestation |
 | 10th | Spreading Spores |
 | 14th | Fungal Body |
@@ -1008,51 +990,37 @@ Druids of the Circle of Spores find beauty in decay. They see within mold and ot
 
 Druids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. However, these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or avoid passing to a final rest, violate the cycle and must be thwarted.
 
-
-
-
 ### Circle Spells
 Your symbiotic link to fungus and your ability to tap into the cycle of life and death grants you access to certain spells. When you choose this circle at 1st level, you learn the *chill touch* cantrip in addition to your other cantrips.
 
 At 3rd, 5th, 7th, and 9th level you gain access to additional spells. Select two of the spells listed as circle spells from a spell level that you can cast. The selected spells are always prepared, and do not count against the number of spells you can prepare each day.
 
 ### Halo of Spores
-Starting at 2nd level, you can launch spores against other creature, with two different effects.
+You can launch spores against other creature, with two different effects.
 
- **Toxic spores**. You can use your ***reaction*** when you cast a spell of 1st level to deal 5 poison damage to one creature you can see within 10 feet of you. When you cast a spell of 2nd level or higher, you can use this feature to target a number of creatures equal to the level of the spell cast. This damage increases to 8 at 6th level, 10 at 10th level, and 12 at 14th.
+ **Toxic spores**. You can use your ***reaction*** when you cast a spell of 1st level to deal 5 poison damage to a number of creatures equal to the level of the spell cast that you caee within 10 ft. This damage increases to 8 at 6th level, 10 at 10th level, and 12 at 14th.
 
- **Decomposing spores**. You can reap energy from death to restore life. When a Small or larger creature within 10 feet of you is killed, you can use your ***reaction*** to gain temporary hit points equal to half your druid level. Constructs and undead are immune to this effect.
-
-
+ **Decomposing spores**. You can reap energy from death to restore life. When a Small or larger creature within 10 ft of you is killed, you can use your ***reaction*** to gain temporary hit points equal to half your druid level. Constructs and undead are immune to this effect.
 
 ### Symbiotic Entity
-Also from 2nd level, you gain the ability to channel magic into the spores that infuse you. When you use your Wild Shape feature, you can awaken those spores, rather than transforming. When you do so, you gain 3 temporary hit points per druid level, the healing and damage from your Halo of Spores feature doubles, and your melee weapon attacks deal an extra 1d6 poison damage to any target they hit.
+You gain the ability to channel magic into the spores that infuse you. When you use your Wild Shape feature, you can awaken those spores, rather than transforming. When you do so, you gain 3 temporary hit points per druid level, the healing and damage from your Halo of Spores feature doubles, and your melee weapon attacks deal an extra 1d6 poison damage to any target they hit.
 
 The poison damage increases to 2d6 at 6th level, 3d6 at 10th level, and 4d6 at 14th level. These benefits last for 10 minutes or until you use your Wild Shape again.
 
 ### Fungal Infestation
-At 6th level, your spores gain the ability to infest a humanoid corpse and animate it. If a humanoid that has received your Halo of Spores damage within the past minute dies, the creature rises as a zombie at the end of your turn, with 1 hit point.
+Your spores gain the ability to infest a humanoid corpse and animate it. If a humanoid that has received your Halo of Spores damage within the past minute dies, the creature rises as a zombie at the end of your turn, with 1 hit point.
 
 In combat, its turn is immediately after yours. It obeys your mental commands, and remains animate for 1 hour, after which time it collapses and dies. You can have a maximum number of zombies under your control with this feature equal to your Wisdom modifier.
 
 ### Spore Mastery
-At 10th level, you attain mastery over your spore-infested body. The range of your Halo of Spores feature increases to 20 feet. In addition, when you cast a spell that affects you, you automatically succeed on your saving throw against the spell and take no damage if you would normally take half damage on a successful save.
+You attain mastery over your spore-infested body. The range of your Halo of Spores feature increases to 20 ft. In addition, when you cast a spell that affects you, you automatically succeed on your saving throw against the spell and take no damage if you would normally take half damage on a successful save.
 
 ### Fungal Body
-At 14th level, the fungal spores in your body alter you: you can’t be blinded, deafened, diseased, or poisoned, and if an attack is a critical hit against you, it does not deal extra damage.
+The fungal spores in your body alter you: you can’t be blinded, deafened, diseased, or poisoned, and if an attack is a critical hit against you, it does not deal extra damage.
 
 When you die, if your entire body is placed upon or buried in an area of natural growth, your fungal body plants itself in the soil and begins growing a new body. An area with a radius of 5 feet withers and dies as you absorb the life energy of the foliage. Your previous corpse decomposes into the soil. This feature does not work if you are missing any significant part of your body, such as a limb or your head. The parts need not be attached, but must be present.
 
-
-
-
-
-
-
-
 Over the course of 1 day, your mind incubates a new body out of the biomass from the rotting vegetation and your cadaver. The grown body is identical to your previous one. You recall all your memories and life experiences and retain any capabilities you had at the time of your death. You take a -4 penalty to all attack rolls, saving throws, and ability checks. Every time you finish a long rest, the penalty is reduced by 1 until it disappears. If you die while you have this penalty, you cannot use this feature.
-
-
 
 If the process is disturbed or interrupted, such as by excavation or a spell that dispels magic effects, you do not resurrect and you die permanently, as your body is fully decayed.
 
@@ -1133,26 +1101,22 @@ Storm Elemental
 
 Druids of the Circle of Storms do not form a bond with the earth or its beasts, but with the fury of nature: the raging thunderstorm, the writhing cyclone, and the hammering blizzard. Members of this circle seldom remain in one place, instead roaming like a cloud in the breeze. The sacred sites of these druids are not glades encircled by stones but places where the heavens strike the land, such as storm-wracked beaches and lightning-smote peaks. As a member of this circle, you are keenly aware of the unpredictability and heartlessness of the weather. You might embody this fickle and chaotic rage or act to temper the cruelty of the weather.
 
-
-
 ### Circle Spells
 Your mystical connection to the sky infuses you with the ability to cast certain spells. When you choose this circle at 1st level, you learn the *lightning surge* or *thunderclap* cantrip in addition to your other cantrips.
 
 At 3rd, 5th, 7th, and 9th level you gain access to additional spells. Select two of the spells listed as circle spells from a spell level that you can cast. The selected spells are always prepared, and do not count against the number of spells you can prepare each day.
 
 ### Cushion of Air
-From 2nd level, you can cast the *feather fall* spell on only yourself without needing to expend any spell slots or material components. You must finish a short rest before you can use this feature again.
+You can cast the *feather fall* spell on yourself only without needing to expend any spell slots or material components. You must finish a short rest before you can use this feature again.
 
 ### Thundering Bolts
-When you reach 6th level, you pair streaks of lightning with booms of thunder. Whenever you use a cantrip the deals either thunder damage or lightning damage, you deal additional damage equal to your Wisdom modifier of the other damage type, such as thunder damage after casting shocking grasp.
-
-
+You pair streaks of lightning with booms of thunder. Whenever you use a cantrip the deals either thunder damage or lightning damage, you deal additional damage equal to your Wisdom modifier of the other damage type, such as thunder damage after casting shocking grasp.
 
 ### Stormbound
-When you reach 10th level, your connection to storms grants you resistance to thunder and lightning damage. In addition you can cast the *levitate* spell on yourself at will, without expending any spell slots or material components.
+Your connection to storms grants you resistance to thunder and lightning damage. In addition you can cast the *levitate* spell on yourself at will, without expending any spell slots or material components.
 
 ### Shape of the Storm
-At 14th level, you can expend two uses of Wild Shape to become a storm elemental.
+You can expend two uses of Wild Shape to become a storm elemental.
 
 
 
@@ -1202,17 +1166,13 @@ Druids of the Swarm often develop strange tendencies. At your option, you can pi
 | 5 |	You always refer to yourself as ‘we’.
 | 6 | A small colony of insects, spiders or vermin lives in your hair or on your body.
 
-
-
 ### Speech of the Many
 When you choose this circle at 1st level, you gain the ability to converse with insects and similar creatures.
 
 Insects can understand your speech, and you gain the ability to decipher their noises and motions. However, most insects lack the intelligence to convey or understand sophisticated concepts. This ability doesn’t grant you any special friendship with insects, though you can combine this ability with gifts to curry favor with them as you would with any nonplayer character.
 
 ### Swarm Shape
-At 2nd level, you have learned how to split your one consciousness into many. You gain the ability to Wild Shape into swarms of beasts, such as the swarm of rats found in the Monster Manual. You must still abide by the limitations of the Beasts Shapes table.
-
-
+You have learned how to split your one consciousness into many. You gain the ability to Wild Shape into swarms of beasts, such as the swarm of rats found in the Monster Manual. You must still abide by the limitations of the Beasts Shapes table.
 
 The hit point maximum of your swarm form is increased by your total druid level. This bonus increases to two times your druid level at 6th level, and further increases to three times your druid level at 14th level.
 
@@ -1221,30 +1181,30 @@ Note that as a swarm, you cannot regain hit points or gain temporary hit points.
 When you revert from or change the creature comprising your swarm form, any parts of the swarm not with the center mass are destroyed.
 
 ### Greater Swarm
-Starting at 6th level, you have discovered how to share your consciousness with and even greater number of creatures. Any swarm you transform into is now large if it wasn't already bigger. This increases to huge at 12th level.
+You have discovered how to share your consciousness with and even greater number of creatures. Any swarm you transform into is now large if it wasn't already bigger. This increases to huge at 12th level.
 
 While in Swarm Form you can make separate attacks against each creature in your space of your choice, or you can make two attacks against one creature in your reach.
 
 ### Primal Strike
-Starting at 6th level, your attacks in swarm form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+Your attacks in swarm form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
 
 ### Consuming Swarm
-At 10th level, your swarm can restore itself by feasting on fallen foes. You can use an ***action*** to engulf an adjacent creature that was reduced to 0 hit points since the end of your last turn, and heal yourself 2d8 hit points.
+Your swarm can restore itself by feasting on fallen foes. You can use an ***action*** to engulf an adjacent creature that was reduced to 0 hit points since the end of your last turn, and heal yourself 2d8 hit points.
 
 This feature’s healing increases to 3d8 when you reach 14th level, and 4d8 when you reach 17th level.
 
 ### Form of the Many
-Starting at 10th level you are never without your swarm, and can call upon it at a moments notice. When you take bludgeoning, piercing, or slashing damage you may as a ***reaction*** gain resistance to the damage using the fluid nature of the swarm within.
+You are never without your swarm and can call upon it at a moments notice. When you take bludgeoning, piercing, or slashing damage you may as a ***reaction*** gain resistance to the damage using the fluid nature of the swarm within.
 
 Additionally, as part of the same reaction you can expend a use of Wild Shape and transform into a swarm. Any damage from the trigger is dealt to your swarm form instead.
 
 You can use this feature once. See *Rest Additions* below.
 
 ### Plague Swarm
-Starting at 14th level, you have learned how to call upon the power of a plague to consume your foes. The spell *insect plague* is always prepared, and does not count against the number of spells you can cast each day. In addition, when you cast *insect plague* it gains the following:
-* As a ***bonus action*** you can move the sphere up to 40 ft.
-* Only creatures of your choice have to make a save.
-* For each spell level above 5th, radius increases by 5ft.
+You have learned how to call upon the power of a plague to consume your foes. The spell *insect plague* is always prepared, and does not count against the number of spells you can cast each day. In addition, when you cast *insect plague* it gains the following:
+- As a ***bonus action*** you can move the sphere up to 40 ft.
+- Only creatures of your choice have to make a save.
+- For each spell level above 5th, radius increases by 5ft.
 
 
 
@@ -1274,16 +1234,14 @@ Most lizardfolk do not worship gods or their ancestors, as they don't see the pr
 Only lizardfolk follow this path.
 
 ### Summon Nature's Ally
-As an ***action***, you can use a spell slot to conjure a dinosaur with a CR equal to the level of the spell slot used minus 1 (minimum of 1/2) or lower. It appears in an unoccupied space within 60 feet.
+As an ***action***, you can use a spell slot to conjure a dinosaur with a CR equal to the level of the spell slot used minus 1 (minimum of 1/2) or lower. It appears in an unoccupied space within 60 ft.
 
 The dinosaur shares your initiative count, and takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a ***bonus action*** on your turn to command it to take one of the actions in its stat block or to take the Dash, Disengage, Help or Hide action. You don't require any actions to move your Nature's Ally on its own turn. If one of its special traits would require a bonus action, it can use its own.
 
 You must maintain concentration on this, as if you were concentrating on a spell. You can use this feature while in your wild shape form if you have shifted into a dinosaur. Your summoned ally remains until you lose concentration, summon a new ally this way, its hit points are reduced to 0, or until you start a long rest.
 
-
 ### Ancient Forms
 As a member of the Circle of the Ancients you carry the memories of the ancient terrible lizards. You can use a ***bonus action***, and expend a use of your Wild Shape to take the form of any reptilian beast or Dinosaur with a CR as high as 1. You ignore the max CR column of the Beast Shapes table, but must abide by all other limitations.
-
 
 Dinosaur forms can be found on page 79 of the Monster Manual and on page 139 of Volo's Guide to Monsters. You do not need to have seen the Dinosaurs before in order to Wild Shape into them, as their memory flows in your veins.
 
@@ -1300,10 +1258,7 @@ You can expend two uses of your Wild Shape at once to transform into a Dinosaur 
 In addition you have advantage on Constitution saving throws that you make to maintain your concentration on your Nature's Ally.
 
 ### Monstrous Form
-You have mastered the use of your Ancient Forms. You can cast the enlarge portion of *enlarge/reduce* as a ***bonus action***, targeting only yourself, while in Wild Shape, without consuming a spell slot.
+You have mastered the use of your Ancient Forms. You can cast the enlarge portion of *enlarge/reduce* while in Wild Shape as a ***bonus action***, targeting only yourself, without consuming a spell slot.
 
 You can use this ability a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.
-
-
-
 
