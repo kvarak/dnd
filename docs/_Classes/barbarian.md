@@ -22,7 +22,7 @@ layout: default
 <a href="#internal-zealot">Path of the Zealot</a><br>
 
 ##### Restricted Paths
-**Beastfolk (needs a tail)**<br/>
+**Beastfolk & Tiefling (needs a tail)**<br/>
 <a href="#internal-tailfighter">Path of the Tailfighter</a>
 
 **Can change shape naturally**<br/>
