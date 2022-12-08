@@ -87,7 +87,6 @@ You are proficient with ***Intelligence*** and ***Wisdom*** saving throws.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every even level.
 
-
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 - *(a)* a wooden shield or *(b)* any simple weapon

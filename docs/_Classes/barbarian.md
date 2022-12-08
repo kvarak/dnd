@@ -79,7 +79,7 @@ You are proficient with ***Strength*** and ***Constitution*** saving throws.
 
 <details>
 <summary>Class specific skills</summary>
-The following combat skills are exclusive to barbarians.
+The following skills are exclusive to barbarians.
 
 <details><summary>Danger Sense
 

@@ -20,18 +20,14 @@ layout: default
 
 </div>
 
-
 # Fey and the Feyblood Class
 Fey are intensely magical creatures, closely tied to the forces of wild nature, creatures of raw emotion and unbridled impulse, and creatures that look almost human but with a curious turn of mind that makes them wholly alien at the same time.
-
 
 Fey are creatures not fully of this world, or perhaps more precisely they are creatures of another version of this world so idealized and yet just off that reality itself could not bear it, utterly beautiful and yet nearly unendurable in its intensity. When fey leave the Feywild and enter our world, the world of mortals, they bring some of that magic and that strangeness with them.
 
 Fey enjoy observing mortals in their natural habitat, so to speak, and may learn many things about them with long exposure to mortal culture and customs, but only rarely are they able to integrate themselves entirely. Even experienced fey wanderers are no more natural a part of the mortals’ culture than a modern family camping in a national park is at one with the animals.
 
 They come from another plane of existence, they’re immortal, and their concerns and way of approaching the world around them may seem bizarre. Noble fey can be aloof, even cold and distant in how they relate to other creatures, and while possessed of a deep capacity for both capricious whimsy and passionate hatred, the triggers for these emotions aren’t always readily obvious.
-
-
 
 In truth, fey most often enter the Material Plane out of curiosity or compulsion. They might be called there by a powerful spellcaster, or by deep magic, their returning like a comet on a calendar longer than living memory. These excursions produce bonds of family, love and enmity, echoing down generations. Some fey live a life of adventure in the Material Plane for years, eventually return to the Feywild as if called home, and many are never seen again by the denizens of the mortal world.
 
@@ -58,8 +54,6 @@ Feyblood is the name used to describe creatures that have the power of fey cours
 
 A feyblood is more than just a mere sorcerer, as it does not only grants some innate magical powers. No, a feyblood is wholly infused not only with the magic, but also the mannnerism, the feelings and the very essence of a fey creature, to such a degree that they are essentially fey themselves.
 
-
-
 ### Uncanny natures
 Feyblood are part and parcel to magic, wielding it with an aptitude that awes druids, inspires jealousy among wizards, and fosters kinship among sorcerers. They often manage the spellcasting abilities most gain after years of discipline by the end of their adolescence, although they often do not yet realize this to be the case. A feyblood’s affinity might express itself as a kinship to earth, water, air, or plants. Others become master manipulators, or inexplicably efficient with an otherwise crude weapon.
 
@@ -79,23 +73,23 @@ Perhaps the most important thing when creating a feyblood is to consider whether
 |:-----:|:-----------:|:---------|:-----:|:------:|----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |1st| +2| Spark, Spellcasting,<br/>Glamorous Defense,<br/>Fey Affinity,<br/>Fey Vulnerabilities |2|4|2|—|—|—|—|—|—|—|—|
 |2nd| +2| Faerie Dust,<br/>Fey Affinity Feature |2|5|3|—|—|—|—|—|—|—|—|
-|3rd| +2|	Misty Escape |2|6|4|2|—|—|—|—|—|—|—|
-|4th| +2| Ability Score Improvement |2|7|4|3|—|—|—|—|—|—|—|
+|3rd| +2| - |2|6|4|2|—|—|—|—|—|—|—|
+|4th| +2| Misty Escape |2|7|4|3|—|—|—|—|—|—|—|
 |5th| +3| — |3|8|4|3|2|—|—|—|—|—|—|
 |6th| +3| Fey Affinity Feature |3|9|4|3|3|—|—|—|—|—|—|
 |7th| +3| — |3|10|4|3|3|1|—|—|—|—|—|
-|8th| +3| Ability Score Improvement |3|11|4|3|3|2|—|—|—|—|—|
+|8th| +3| MOrtal Anchor |3|11|4|3|3|2|—|—|—|—|—|
 |9th| +4| — |4|12|4|3|3|3|1|—|—|—|—|
 |10th| +4| Fey Affinity Feature |4|13|4|3|3|3|2|—|—|—|—|
 |11th| +4| — |4|14|4|3|3|3|2|1|—|—|—|
-|12th| +4| Ability Score Improvement |4|15|4|3|3|3|2|1|—|—|—|
+|12th| +4| - |4|15|4|3|3|3|2|1|—|—|—|
 |13th| +5| — |5|16|4|3|3|3|2|1|1|—|—|
 |14th| +5| Fey Affinity Feature |5|17|4|3|3|3|2|1|1|—| —|
 |15th| +5| — |5|18|4|3|3|3|2|1|1|1|—|
-|16th| +5| Ability Score Improvement |5|19|4|3|3|3|2|1|1|1|—|
+|16th| +5| - |5|19|4|3|3|3|2|1|1|1|—|
 |17th| +6| — |6|20|4|3|3|3|2|1|1|1|1|
 |18th| +6| Dreamchaser |6|21|4|3|3|3|3|1|1|1|1|
-|19th| +6| Ability Score Improvement |6|22|4|3|3|3|3|2|1|1|1|
+|19th| +6| - |6|22|4|3|3|3|3|2|1|1|1|
 |20th| +6| Planar Glamour |6|23|4|3|3|3|3|2|2|1|1|
 
 </div>
@@ -105,12 +99,82 @@ As a feyblood, you gain the following class features.
 #### Hit Points
 **Hit Dice:** 1d6
 
-#### Proficiencies
-**Weapons:** Simple weapons
+#### Saving Throws
+You are proficient with ***Dexterity*** and ***Charisma*** saving throws.
 
-**Skills:** Check your background for skills.
+#### Skills
+**Class Skills:** Fey Transformation *(class specific)*, Herbalism, Nature and Survival
 
-**Saving Throws:** Dexterity, Charisma
+**Skill Points:** You gain 2 skill points at 1st level.
+
+
+<!-- -------------------- Class Specific Skills ---------------------  -->
+
+<details>
+<summary>Class specific skills</summary>
+The following skills are exclusive to fey and feyblooded characters.
+
+<details><summary>Fey Transformation (trait)</summary>
+Your features slowly take on more fey-like properties.
+
+You have advantage on saving throws against being charmed and magic can’t put you to sleep.
+
+<details><summary>Cunning Glamour (trait)</summary>
+
+When you cast a feyblood spell of level 1 or higher, you can use your ***bonus action*** to take the disengage, dodge or hide action.
+</details>
+
+<details><summary>Glamoured Artistry (trait)</summary>
+Your magic drives you to create, and you can expend a use of your Faerie Dust to gain advantage on a check to perform or craft.
+
+<details><summary>Fey Glamour (cost: 2, trait)</summary>
+Your fey heritage makes people easily fascinated by you. Gain +1 Charisma.
+</details>
+</details>
+
+<details><summary>Pixie Wings
+
+***Requirements:** level 12*
+</summary>
+
+You grow a pair of delicate wings, gaining a flying speed of 25 ft. The wings do not look strong enough to carry you, but they are powered by your faerie dust. A side effect is that while flying, you emit dim light in a 5 ft radius and emit a soft noise.
+
+
+| d8 | Light | Sound |
+|:--:|:------|:------|
+| 1  | Red    | Musical notes
+| 2  | Orange | Gentle breeze
+| 3  | Yellow | Rustling leaves
+| 4  | Spring | Babbling brook
+| 5  | Green  | Insect buzzing
+| 6  | Blue   | Tinkling chimes
+| 7  | Indigo | Soft singing or humming
+| 8  | Violet | Child’s laughter
+
+While flying on the material plane, you have disadvantage on ability checks to hide or sneak. You cannot fly if you are encumbered, exhausted, or wearing armor.
+
+<details><summary>Wing Dust</summary>
+
+Like some other winged fey creatures, you can splash your magical dust using your wings. You can sprinkle a colored type of dust on an adjacent creature as an ***action***.
+
+The pale blue dust makes a creature not needing to breathe for 1 hour.
+
+The rosy dust grants a creature advantage on saving throws against being charmed or frightened for 10 minutes.
+
+The yellowish dust grants a creature flying speed of 30 ft for 1 minute, but they can't fly higher than 10 ft off the ground.
+
+Once you sprinkle a type of dust, you can't use that color dust again until you finish a long rest.
+
+</details>
+</details>
+</details>
+</details>
+
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 1 with Axe, Club, Knife, Spear, Staff and Sling.
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -119,9 +183,6 @@ You start with the following equipment, in addition to the equipment granted by 
 - a spellcasting focus
 - an entertainer's pack
 - a trinket
-
-
-
 
 
 ### Spark
@@ -142,6 +203,7 @@ The following additions are made to the general rest rules.
 | * Regain use of ***Misty Escape***.
 | &nbsp;
 | Add the following class specific benefits to choose from: |
+| * Regain use of the spells granted by ***Mortal Anchor***.
 | * Regain use of ***Dreamchaser***.
 | * Regain use of ***Extraplanar Glamour***.
 
@@ -155,8 +217,6 @@ You are a natural conduit for the energies of the Feywild and can manipulate its
 #### Cantrips
 At 1st level, you know a number of cantrips of your choice equal to you Spark. Since your Spark can change, you should assign the first cantrips to become unavailable if you lose Spark, as well as choose an additional that might become available if your Spark increases.
 
-
-
 You learn additional cantrips of your choice at higher levels, every time you Spark increases, as shown in the Spark column of the feyblood table.
 
 #### Spell Slots
@@ -169,13 +229,6 @@ Additionally, when you gain a level in this class, you can choose one of the spe
 
 #### Spellcasting Focus
 You can use an arcane focus or a musical instrument you are proficient with as a spellcasting focus for your feyblood spells.
-
-
-
-
-
-
-
 
 #### Spellcasting Modifier
 The spellcasting modifier for your feyblood spells is your Spark, since the power of your magic relies on your ability to channel the Feywild into this world.
@@ -194,22 +247,19 @@ When the game gives you more than one way to calculate your Armor Class, you can
 ### Glamorous Defense
 While you are not wearing armor or holding a shield, your AC equals 10 + your Dexterity modifier + your Spark.
 
-
 ### Fey Affinity
 You are infused with the magic of the fey and because of that, you have two creature types: humanoid and fey. You can be affected by a spell or ability if it works on either of your creature types.
 
 In addition you choose a <a href="#internal-affinity">fey affinity</a>, detailed after the end of the class description. Your choice grants you features at 1st level and again at 2nd, 6th, 10th, and 14th level.
 
 ### Fey Weakness
-A fey creature’s origin often does not prepare them for life upon the material plane, and they may be unaware of their own vulnerabilities. Being exposed to any of these reduced Spark by 1 for 1 minute, or until the fey's next round if a save is allowed and successful.
+A fey creature’s origin often does not prepare them for life upon the material plane, and they may be unaware of their own vulnerabilities. Being exposed to any of these reduced Spark by 1 for 1 minute or until the fey's next round if a save is allowed and successful.
 
 #### Bells
-The ringing of iron or silver bells harms any fey who hear them. If a hand-held bell rung 5 feet away from a fey, the sound forces them to make a DC 10 Charisma saving throw. If they fail, they take 1d4 thunder damage. If they succeed, they take half the amount. Volume, proximity, size or other enchantments can increase the damage or DC at the DM’s discretion.
+The ringing of iron or silver bells harms any fey who hear them. If a hand-held bell rung 5 ft away from a fey, the sound forces them to make a DC 10 Charisma saving throw. If they fail, they take 1d4 thunder damage. If they succeed, they take half the amount. Volume, proximity, size or other enchantments can increase the damage or DC at the DM’s discretion.
 
 #### Citrus Toxicity
 Lemons, limes and other citrus fruits are toxic to certain fey. If ingested, the faerie makes a DC 14 Constitution saving throw. If they fail, they become poisoned for 24 hours.
-
-
 
 #### Dairy Intoxication
 Butter, cream and cheese have intoxicating effects on fey. They enjoy the taste and sensation, and must succeed a DC 14 Constitution saving throw or become intoxicated, with effects similar to alcohol upon humans.
@@ -217,7 +267,7 @@ Butter, cream and cheese have intoxicating effects on fey. They enjoy the taste 
 #### Imprisonment
 If bound by an iron or silver collar or fetters, or trapped in a container of fine glass or crystal (with a silver or iron flooring or stopper), fey are unable to speak or use material components for spells, use class abilities or break the bonds of their imprisonment.
 
-Once during their captivity, a fey can cast the *sending* spell, even if they do not know the spell, without expending a spell slot, using a mortal anchor (see feats) as the target.
+Once during their captivity a fey can cast the *sending* spell without expending a spell slot, even if they do not know the spell.
 
 #### Metallurgy
 Certain alloys can be toxic to fey, most notably cold iron and silver. Against "real" fey, i.e. creatures that are of a fey race, such weapons could have advantage on attack rolls against, or deal additional psychic damage or poisoning an unlucky fey. However, feyblood who do not belong to a fey race, usually only has their Spark reduced if they are critically hit.
@@ -233,19 +283,25 @@ Using your ***bonus action***, you can splash dust onto an adjacent creature. Th
 You can use this feature a number of times equal to your Spark, and regain expended uses when you finish a long rest.
 
 ### Misty Escape
-From 3rd level, you can vanish in a puff of mist in response to harm. As a ***reaction*** when you take damage, you can become invisible and teleport up to 30 feet to an unoccupied space you can see. You remain invisible until the end of your next turn or until you attack or cast a spell.
+From 4th level, you can vanish in a puff of mist in response to harm. As a ***reaction*** when you take damage, you can become invisible and teleport up to 30 ft to an unoccupied space you can see. You remain invisible until the end of your next turn or until you attack or cast a spell.
 
 You can use this feature once, and regain its use when you finish a long rest.
 
-
-
-
-
-
-
-
+<!-- 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can’t increase an ability score above your racial maximum.
+-->
+
+### Mortal Anchor
+From 8th level you can perform a 1 hour ritual, binding your essence to a present willing living creature that is native to this plane. You can have only one Mortal Anchor at a time, and a creature may only serve as Mortal Anchor for one fey. The bond grants you the following properties:
+
+You can communicate telepathically with your mortal anchor if within a number of feet equal to 5 × your level. Your Mortal anchor has can disable or re-enable or telepathic link using their ***bonus action***.
+
+You can cast the *scrying* and *sending* spell targeting your Mortal Anchor once each without expending a spell slot, even if you don’t know the spells, and may regain the ability to do so when you finish a long rest. Your mortal anchor can choose to succeed a saving throw against these spells.
+
+The bond is an enchantment of the highest level spell a spellcaster of your level can expend. You are aware of any attempts to break it, and may make a DC 14 Insight check to discover the perpetrator.
+
+Your mortal anchor can revoke the bond at any time using their ***action***. When the bond is broken, you must succeed a DC 20 Charisma saving throw or take one level of exhaustion.
 
 ### Dreamchaser
 At 18th level, you can enter the dreams of others known to you. You can spend 1 minute to compact your faerie dust into a dreamstone, and gift it to another creature. If you create a second, the first crumbles into dust.
@@ -266,94 +322,6 @@ At 20th level, your Charisma score increases by 4, to a maximum of 24 (or 4 abov
 
 
 
-
-## <a class="internal-link" name="internal-feat">Fey feats</a>
-The following feats are available to fey and feyblooded characters.
-
-
-
-<div class="columnsthree">
-
-
-- <div class="feat">
-
-    ## Mortal Anchor
-    You can perform a 1-minute ritual, binding your essence to a willing living creature that can see or hear you. You can have only one Mortal Anchor at a time, and a creature may only serve as Mortal Anchor for one fey. The bond grants you the following properties:
-
-    Increase you **Wisdom** score by 1.
-
-    You can communicate telepathically with your mortal anchor if within a number of feet equal to 5 × your level. Your Mortal anchor has can disable or re-enable or telepathic link using their ***bonus action***.
-
-    You can cast the *scrying* and *sending* spell targeting your Mortal Anchor once each without expending a spell slot, even if you don’t know the spells, and regain the ability to do so when you finish a long rest. Your mortal anchor can choose to succeed a saving throw against these spells.
-
-    The bond is an enchantment of the highest level spell a spellcaster of your level can expend. You are aware of any attempts to break it, and may make a DC 14 Insight check to discover the perpetrator.
-
-    Your mortal anchor can revoke the bond at any time using their ***action***. When the bond is broken, you must succeed a DC 20 Charisma saving throw or take one level of exhaustion.
-
-    </div>
-
-- <div class="feat">
-
-    ## Cunning Glamour
-    When you cast a feyblood spell with a casting time of 1 action on your turn, you can use your ***bonus action*** to take the disengage, dodge or hide action.
-
-    </div>
-
-- <div class="feat">
-
-    ## Pixie Wings
-    *Prerequisites: 12th Level*
-
-    You grow a pair of delicate wings, gaining a flying speed of 25 feet. The wings do not look strong enough to carry you, but they are powered by your faerie dust. A side effect is that while flying, you emit dim light in a 5-foot radius and emit a soft noise.
-
-
-    | d8 | Light | Sound |
-    |:--:|:------|:------|
-    | 1  | Red    | Musical notes
-    | 2  | Orange | Gentle breeze
-    | 3  | Yellow | Rustling leaves
-    | 4  | Spring | Babbling brook
-    | 5  | Green  | Insect buzzing
-    | 6  | Blue   | Tinkling chimes
-    | 7  | Indigo | Soft singing or humming
-    | 8  | Violet | Child’s laughter
-
-
-    While flying on the material plane, you have disadvantage on ability checks to hide or sneak. You cannot fly if you are encumbered, exhausted, or wearing armor.
-
-    </div>
-
-- <div class="feat">
-
-    ## Glamoured Artistry
-    You gain the following benefits:
-
-    Increase your **Charisma** score by 2.
-
-    Your magic drives you to create, and you can expend a use of your Faerie Dust to gain advantage  on checks made with musical instruments or artisan’s tools with which you are proficient.
-
-    </div>
-
-- <div class="feat">
-
-    ## Wing Dust
-    *Prerequisite: Pixie wings*
-
-    Like some other winged fey creatures, you can splash your magical dust using your wings. You can sprinkle a colored type of dust on an adjacent creature as an ***action***.
-
-    The pale blue dust makes a creature not needing to breathe for 1 hour.
-
-    The rosy dust grants a creature advantage on saving throws against being charmed or frightened for 10 minutes.
-
-    The yellowish dust grants a creature flying speed of 30 feet for 1 minute, but they can't fly higher than 60 feet off the ground.
-
-    Once you sprinkle a kind of dust, you can't use that color dust again until you finish a long rest.
-
-    In addition, you increase your **Charisma** score by 1.
-
-    </div>
-
-</div>
 
 ## <a class="internal-link" name="internal-affinity">Fey Affinities</a>
 Every feyblood is unique: their very natures are shaped by the magic that flows through, but also the experiences that shape and transform them along their journeys. For a feyblood, the development of their powers deforms as they experience a change in scenery, lifestyle and the company they keep. They are famously mutable and can be near unrecognizable at the end of a journey as when it began.
@@ -1266,7 +1234,6 @@ You can use this ability once, and regain expended uses of it when you finish a 
 
 **Fey Kissed**. Your beauty begins to manifest in ways many find undeniable. Whenever you make a Charisma check when interacting with humanoids, your proficiency bonus is doubled if it applies to the check.
 
-Additionally, you have advantage on saving throws against being charmed and magic can’t put you to sleep.
 
 #### Soul of the Satyr
 You have a connections to the passionate satyrs, and gain the following abilities:
