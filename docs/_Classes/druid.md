@@ -72,7 +72,7 @@ As a druid, you gain the following class features.
 You are proficient with ***Intelligence*** and ***Wisdom*** saving throws.
 
 #### Skills
-**Class Skills:** Animal handling, Herbalism, Nature, Survival and Swimming
+**Class Skills:** Agriculture, Animal handling, Herbalism, Nature, Survival and Swimming
 
 **Skill Points:** You gain 3 skill points at 1st level.
 
@@ -505,10 +505,10 @@ You may use wrack or repeal once upon reaching 14th level, gaining an additional
 #### Circle Features
 | Druid Level | Feature |
 |:-----------:|:--------|
-| 2nd | Plant Shape, One with the Forest |
-| 6th | Plant Shape (improved), Power of the Forest |
+| 2nd | Plant Shape,<br>One with the Forest |
+| 6th | Plant Shape (improved),<br>Power of the Forest |
 | 10th | Power of the Forest |
-| 14th | Old Growth |
+| 14th | Crushing Grasp |
 
 </div>
 
@@ -529,13 +529,10 @@ These druids feel most comfortable deep in the green wilderness, and place great
 ### Plant Shape
 When you gain the ability to use Wild Shape at 2nd level, you learn how to assume the shape of a plant creature. When you transform into a plant creature, the max CR that you can transform into is increased to 1. Starting at 6th level, you can transform into a plant with a challenge rating as high as your druid level divided by 3, rounded down.
 
-
-
-
-When you are transformed into a plant creature, you gain the ability to command nearby mundane plants. As an ***action***, you can turn difficult terrain caused by plant growth into ordinary terrain in a 5 foot radius centered on you, or you can turn ordinary terrain where plants are present into difficult terrain in a 5 foot radius centered on you. After a 10 minute duration, the plants return to their original condition.
+When transformed into a plant creature, you gain the ability to command nearby mundane plants. As an ***action***, you can turn difficult terrain caused by plant growth into ordinary terrain in a 5 ft radius centered on you, or you can turn ordinary terrain where plants are present into difficult terrain in a 5 ft radius centered on you. After a 10 minute duration, the plants return to their original condition.
 
 ### One with the Forest
-At 2nd level, you gain more kinship with plants. Select one of the following features
+You gain more kinship with plants. Select one of the following features
 
 #### Forest Form
 You gain the ability to activate the deep magic of old forests that infuses your body. As a ***bonus action***, you can expend a use of your Wild Shape feature or a 3rd level spell slot or higher to assume a treelike form; your becomes skin tough and hardy like the eldest trees of the forest, you sprout moss and vines, and leaves and flowers unfurl in your hair.
@@ -578,7 +575,7 @@ Awakened Plant
 <tr><td><hr></td></tr>
 <tr><td markdown="1" class="monster">
 
-**Senses**  blindsight 60ft.
+**Senses**  blindsight 60 ft
 
 **Languages**  Understands languages you know, but can not speak
 
@@ -590,7 +587,7 @@ Awakened Plant
 
 ***False Appearance.*** While motionless, the awakened plant is indistinguishable from a normal plant.
 
-***Plant Camouflage.*** The Awakened Plant has advantage on Dexterity(Stealth) checks while obscured by ample plant life.
+***Plant Camouflage.*** The Awakened Plant has advantage on Dexterity (Stealth) checks while obscured by ample plant life.
 
 ***Thorny Body (Blight only).*** When the plant is grappled or hit by a melee attack, the attacker takes 1d6 piercing damage.
 
@@ -601,25 +598,24 @@ Awakened Plant
 <tr><td markdown="1" class="monster">
 
 ### Actions
-***Vine Lash (Blight Only).*** *Melee Attack:* your spell attack modifier to hit, reach 10ft. *On hit* 1d8 + PB piercing damage.
+***Vine Lash (Blight Only).*** *Melee Attack:* your spell attack modifier to hit, reach 10 ft. *On hit* 1d8 + PB piercing damage.
 
-***Spore Bomb (Fungi Only).*** *Ranged Attack:* your spell attack modifier to hit, reach 60ft. *On hit* 1d6 + PB poison damage.
+***Spore Bomb (Fungi Only).*** *Ranged Attack:* your spell attack modifier to hit, reach 60 ft. *On hit* 1d6 + PB poison damage.
 
 </td></tr></tbody></table>
 </div>
 
 #### Plant Summoner
-At 2nd level, You can cause a Medium or smaller plant within 30 feet to come to life. As an action, you can expend one use of your Wild Shape feature or a 3rd level spell slot or higher to awaken the plant.
+You can cause a Medium or smaller plant within 30 ft to come to life. As an ***action***, you can expend one use of your Wild Shape feature or a 3rd level spell slot or higher to awaken the plant.
 
-The plant is friendly to you and your companions and obeys your commands. See this creature's game statistics in your choice of the Blight or Fungal stat block, which uses your proficiency bonus (PB) in several places. You determine the plant's appearance but the form should at least resemble the specific stat block that represents it.
+The plant is friendly to you and your companions and obeys your commands. Use the statistics of your choice from the Blight or Fungal stat block, which uses your proficiency bonus (PB) in several places.
 
 In combat, the plant shares your initiative count, but it takes its turn immediately after yours. The only action it takes on its turn is the Dodge action, unless you take a ***bonus action*** to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the plant can take any action of its choice, not just Dodge.
 
 The plant manifests for 1 hour, until it is reduced to 0 hit points, until you use this feature to awaken another plant, or until you die.
 
-
 ### Power of the Forest
-At 6th level, select one of the following features:
+Select one of the following features:
 
 #### Extra Attack
 You can attack twice, instead of once, whenever you take the Attack action on your turn. In addition, your unarmed strikes count as magical for the sake of overcoming resistances and immunities.
@@ -629,10 +625,8 @@ You gain the ability to root yourself in the ground while in your normal form, f
 
 Until you end this effect using your ***bonus action*** or fall unconscious, you have a +1 bonus to AC and resistance to all damage except psychic and fire.
 
-
-
 ### Power of the Forest
-At 10th level, select one of the following features:
+Select one of the following features:
 
 #### Greater Awakened Plant
 Your Plant Summoner abilities improves in the following ways:
@@ -698,41 +692,38 @@ The following additions are made to the general rest rules.
 
 The Circle of the Garden is one of peace, nurturing, and a deep respect for plant life. These druids learn to grow the tallest trees, the sweetest flowers, and the most potent herbs. It's through this love of flora that they channel their powers, able to coax their green allies into forms to help and hinder. Bringing their gardens with them, a druid of this circle is always on the lookout for new additions and amazing herbal discoveries.
 
-
-
-
 ### Green Thumb
-Starting when you join this circle at 1st level, you have proficiency with gardening, herbalism and with plants. You have advantage on any ability check you make with a herbalism kit and to identify plants.
+Starting when you join this circle at 1st level, you gain 1 skill point each to spend on ***Agriculture*** and ***Herbalism***.
 
 ### Grow the Garden
-Beginning at 2nd level, you can bring forth new life into the world. As an ***action***, you can expend a use of your Wild Shape to spread lush vegetation from a point on the ground you can see within 30 feet. The radius of the vegetation is a number of feet equal to or less than 5 × your Druid level, and it withers after a number of hours equal to half your Druid level, or when you use this feature again.
+You can bring forth new life into the world. As an ***action***, you can expend a use of your Wild Shape to spread lush vegetation from a point on the ground you can see within 30 ft. The radius of the vegetation is a number of feet equal to or less than 5 × your Druid level and it withers after a number of hours equal to half your Druid level, or when you use this feature again.
 
 When you use this feature, you can select a unique botanical property to instill within the vegetation. If you do so, the vegetation withers after 1 minute. Choose one of the following options:
 
  **Invigorating Pollen**. As a ***bonus action*** on each of your turns, you can choose one friendly creature on the ground within the vegetation. That creature gains a number of temporary hit points equal to 1d8 + your Wisdom modifier.
 
- **Snare Root**. As a ***reaction***, when a creature enters the vegetation or attempts to leave its radius, you can force it to make a Dexterity saving throw. On a failure, the creature is pulled up to 10 feet towards the center of the vegetation and restrained until the start of its next turn. A creature can use its action to attempt to free itself or a restrained creature by making a Strength check against your spell save DC. On a success, it frees itself or a restrained creature.
+ **Snare Root**. As a ***reaction***, when a creature enters the vegetation or attempts to leave its radius, you can force it to make a Dexterity saving throw. On a failure, the creature is pulled up to 10 ft towards the center of the vegetation and restrained until the start of its next turn. A creature can use its action to attempt to free itself or a restrained creature by making a Strength check against your spell save DC. On a success, it frees itself or a restrained creature.
 
  **Viper Vines**. When you spread your vegetation, and as an ***action*** on each of your turns, you can have poisonous vines rear up and lash out. Each hostile creature of your choice on the ground within the vegetation must succeed on a Dexterity saving throw against your spell save DC or take an amount of poison damage equal to 1d6 + your Wisdom modifier.
 
 ### Shape Flora
-At 6th level, as an ***action*** you can touch a Huge or smaller living plant and encourage it to grow. The plant doubles in size over the course of 10 minutes, and you can reshape it into a simple form of your choice, such as a makeshift shelter, or a bridge. You can only double the size of any plant once with this feature.
+As an ***action*** you can touch a Huge or smaller living plant and encourage it to grow. The plant doubles in size over the course of 10 minutes, and you can reshape it into a simple form of your choice, such as a makeshift shelter, or a bridge. You can only double the size of any plant once with this feature.
 
 You can use this feature a number of times equal to your Wisdom modifier, and can regain all uses when you complete a long rest.
 
 ### Verdant Expanse
-At 10th level, you gain the following additional benefits when you instill the vegetation created by your Grow the Garden feature.
+You gain the following additional benefits when you instill the vegetation created by your Grow the Garden feature.
 
  **Invigorating Pollen**. If the creature you choose is below half its hit point maximum, it regains a number of hit points equal to 1d8 + your Wisdom modifier.
 
- **Snare Root**. The creature is pulled up to 30 feet instead of 10, and it is restrained until the end of its next turn.
+ **Snare Root**. The creature is pulled up to 30 ft instead of 10, and it is restrained until the end of its next turn.
 
  **Viper Vines**. The poison damage you deal increases by 2d6, and creatures take half of the damage on a successful save.
 
 ### Green Guardian
-Starting at 14th level, you can call upon the ire of nature in times of peril. As an ***action*** you can summon a hulking plant protector using the statistics of a shambling mound, that fades after 1 minute, or once it is reduced to 0 hit points.
+You can call upon the ire of nature in times of peril. As an ***action*** you can summon a hulking plant protector using the statistics of a shambling mound, that fades after 1 minute, or once it is reduced to 0 hit points.
 
-The protector appears in an unoccupied space within 10 feet. Roll initiative for the protector. On its turn, it attempts to protect you from any creatures that would seek to harm you as best it can.
+The protector appears in an unoccupied space within 10 ft. Roll initiative for the protector. On its turn, it attempts to protect you from any creatures that would seek to harm you as best it can.
 
 Once you use this feature, you can't use it again until you finish a long rest.
 
@@ -779,29 +770,22 @@ Your mystical connection to the land infuses you with the ability to cast certai
 At 3rd, 5th, 7th, and 9th level you gain access to additional spells connected to the land where you became a druid. Choose that land - arctic, coast, desert, forest, grassland, mountain, swamp, or Underdark - and select two of the spells listed as circle spells from a spell level that you can cast. The selected spells are always prepared, and do not count against the number of spells you can prepare each day.
 
 ### Natural Recovery
-Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest.
+You can regain some of your magical energy by sitting in meditation and communing with nature for 10 minutes. You recover expended spell slots that can have a combined level equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest.
 
 For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.
 
-
-
 ### Land's Stride
-Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 
 In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.
 
 ### Nature's Ward
-When you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.
+You can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.
 
 ### Nature's Sanctuary
-When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.
+Creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.
 
 The creature is aware of this effect before it makes its attack against you.
-
-
-
-
-
 
 
 
