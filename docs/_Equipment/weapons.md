@@ -256,7 +256,7 @@ Many weapons have special properties related to their use, as shown in the Weapo
 | Name | Type | Damage | Price  | Weight | Properties |
 |:-----|:-----|:-------|:-----:|:------:|:-----------|
 | Dagger | Simple light | 1d4 piercing | 2&nbsp;gp | 1 lbs | Close quarters combat,<br/>conceal, finesse, thrown |
-| Knife | Simple light | 1d4 piercing or slashing | 2 gp | 1 lbs |  Close quarters combat,<br/>conceal, finesse, thrown |
+| Knife | Simple light | 1d4 piercing<br/>or slashing | 2 gp | 1 lbs |  Close quarters combat,<br/>conceal, finesse, thrown |
 
 
 ### Special knives table
@@ -266,7 +266,7 @@ Many weapons have special properties related to their use, as shown in the Weapo
 | Hook | Simple light | 1d4 piercing | 5 gp | 1 lbs | Close quarters combat,<br/>finesse |
 | Main gauche | Martial light | 1d4 piercing | 15 gp | 1 lbs | Close quarters combat,<br/>finesse, parry |
 | Punching dagger | Martial light | 1d4 piercing | 2 gp | 1 lbs |  Close quarters combat,<br/>finesse |
-| Tamo daggers | Martial light | 1d4 piercing or<br/>1d4 bludgeoning (as club) | 20 gp | 1 lbs | Close quarters combat,<br/>conceal, finesse, thrown |
+| Tamo daggers | Martial light | 1d4 piercing or<br/>bludgeoning (as club) | 20 gp | 1 lbs | Close quarters combat,<br/>conceal, finesse, thrown |
 | Tiger claws | Martial light | 1d4 piercing or<br/>slashing | 15 gp | 1 lbs | Close quarters combat,<br/>finesse |
 
 </div>
