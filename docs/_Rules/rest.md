@@ -31,48 +31,53 @@ A Healer's kit starts with a 1d10 usage die.
 
 
 ## Long rest
-A **Long rest** is a period of extended downtime, at least 8 hours long, in a safe place like a camp or an inn. Before starting your rest, you gain the benefits of a **Short rest**.
 
-A **Long rest** is usually spent sleeping, but you can perform light activity: reading, talking, eating, or standing watch. If the rest is interrupted by a period of strenuous activity, like marching, fighting or similar adventuring activity, you must begin the rest again to gain any benefit from it.
+<div class="columnstwo">
 
-You can’t benefit from more than one **Long rest** in a 24-hour period.
+-   A **Long rest** is a period of extended downtime, at least 8 hours long, in a safe place like a camp or an inn. Before starting your rest, you gain the benefits of a **Short rest**.
 
-#### Benefits of a Long rest
-You must have at least 1 hit point at the start of a **Long rest** rest to gain its benefits. Otherwise you regain 1 hp and become conscious at the end of the rest.
+    A **Long rest** is usually spent sleeping, but you can perform light activity: reading, talking, eating, or standing watch. If the rest is interrupted by a period of strenuous activity, like marching, fighting or similar adventuring activity, you must begin the rest again to gain any benefit from it.
 
-<div class="card rest">
-<div class="card-title restHeading">Long Rest</div>
-<div class="card-subtitle restPad">
-When you finish a **Long rest**, you gain the following benefits:
-<div class="card-text restTable" markdown="1">
+    You can’t benefit from more than one **Long rest** in a 24-hour period.
 
-|    |   |
-|:-: |:- |
-| * | If you are a **full spellcaster**, regain a number of spent **spell slots** equal<br/>to your proficiency bonus. You regain your lowest spell slots first.
-| * | **Other spellcasters**, regain a number of spent **spell slots** equal to half<br/>their proficiency bonus (rounded up). You regain your lowest spell slots first.
-| * | Classes may have other benefits.
-| * | If you have spent the entire rest close to a magical item, you attune to it.
+    #### Benefits of a Long rest
+    You must have at least 1 hit point at the start of a **Long rest** rest to gain its benefits. Otherwise you regain 1 hp and become conscious at the end of the rest.
 
-</div>
-</div>
-<div class="card-subtitle restPad">
-In addition, choose ***one*** of the following benefits:
-<div class="card-text restTable" markdown="1">
+-   <div class="card multirest rest">
+    <div class="card-title restHeading">Long Rest</div>
+    <div class="card-subtitle restPad">
+    When you finish a **Long rest**, you gain the following benefits:
+    <div class="card-text restTable" markdown="1">
 
-|    |   |
-|:-: |:- |
-| * | If not at max hit points, regain up to your **max hp/2** (round up).
-| * | If not at max Hit Dice, regain up to your **max HD/2** (round up).
-| * | Remove 1 **exhaustion** level.
-| * | Attempt to remove a **negative condition** (ex. reduced max hp or a disease).
-| * | Regain 1 reduced **ability score**.
-| * | If less than 3 inspiration, regain 1 **inspiration**.
-| * | Regain your lowest **spell slot**.
-| * | Choose a **class specific** benefit listed in your class description.
+    |    |   |
+    |:-: |:- |
+    | * | If you are a **full spellcaster**, regain a number of spent **spell slots** equal<br/>to your proficiency bonus. You regain your lowest spell slots first.
+    | * | **Other spellcasters**, regain a number of spent **spell slots** equal to half<br/>their proficiency bonus (rounded up). You regain your lowest spell slots first.
+    | * | Classes may have other benefits.
+    | * | If you have spent the entire rest close to a magical item, you attune to it.
+
+    </div>
+    </div>
+    <div class="card-subtitle restPad">
+    <br/>In addition, choose ***one*** of the following benefits:
+    <div class="card-text restTable" markdown="1">
+
+    |    |   |
+    |:-: |:- |
+    | * | If not at max hit points, regain up to your **max hp/2** (round up).
+    | * | If not at max Hit Dice, regain up to your **max HD/2** (round up).
+    | * | Remove 1 **exhaustion** level.
+    | * | Attempt to remove a **negative condition** (ex. reduced max hp or a disease).
+    | * | Regain 1 reduced **ability score**.
+    | * | If less than 3 inspiration, regain 1 **inspiration**.
+    | * | Regain your lowest **spell slot**.
+    | * | Choose a **class specific** benefit listed in your class description.
 
 
-</div>
-</div>
+    </div>
+    </div>
+    </div>
+
 </div>
 
 
