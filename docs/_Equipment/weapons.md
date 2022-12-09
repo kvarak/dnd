@@ -262,12 +262,12 @@ Many weapons have special properties related to their use, as shown in the Weapo
 ### Special knives table
 | Name | Type | Damage | Price  | Weight | Properties |
 |:-----|:-----|:-------|:-----:|:------:|:-----------|
-| Blade boot | Martial light | 1d4 piercing | 15&nbsp;gp | 1 lbs | Close quarters combat, conceal, finesse |
-| Hook | Simple light | 1d4 piercing | 5 gp | 1 lbs | Close quarters combat, finesse |
-| Main gauche | Martial light | 1d4 piercing | 15 gp | 1 lbs | Close quarters combat, finesse, parry |
-| Punching dagger | Martial light | 1d4 piercing | 2 gp | 1 lbs |  Close quarters combat, finesse |
-| Tamo daggers | Martial light | 1d4 piercing or 1d4 bludgeoning (as club) | 20 gp | 1 lbs | Close quarters combat, conceal,<br> finesse, thrown |
-| Tiger claws | Martial light | 1d4 piercing or slashing | 15 gp | 1 lbs | Close quarters combat, finesse |
+| Blade boot | Martial light | 1d4 piercing | 15 gp | 1 lbs | Close quarters combat,<br/>conceal, finesse |
+| Hook | Simple light | 1d4 piercing | 5 gp | 1 lbs | Close quarters combat,<br/>finesse |
+| Main gauche | Martial light | 1d4 piercing | 15 gp | 1 lbs | Close quarters combat,<br/>finesse, parry |
+| Punching dagger | Martial light | 1d4 piercing | 2 gp | 1 lbs |  Close quarters combat,<br/>finesse |
+| Tamo daggers | Martial light | 1d4 piercing or<br/>1d4 bludgeoning (as club) | 20 gp | 1 lbs | Close quarters combat,<br/>conceal, finesse,<br/>thrown |
+| Tiger claws | Martial light | 1d4 piercing or<br/>slashing | 15 gp | 1 lbs | Close quarters combat,<br/>finesse |
 
 </div>
 
@@ -280,6 +280,8 @@ Knives are ***simple light*** weapons that deal 1d4 damage, either piercing or s
 
  **Conceal**. As a ***bonus action*** you can make a Dexterity (Sleight of Hand) check, contested by Wisdom (Perception) to draw a concealed knife. On a success you can make a single attack with the weapon against a creature that has not yet acted in combat. This attack has advantage and scores a critical hit on a roll of 19 or 20.
 
+ <img src='https://68.media.tumblr.com/2ffe3488eecd9608f71e31c1e85bf574/tumblr_n1jg06oK371tu8a0wo1_400.png' style='width:40%;float:right;padding:20px' />
+
  **Finesse**. When making an attack with a knife, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
 
  **Thrown**. You can throw a knife to make a ranged attack, dealing piercing damage. You use the same ability modifier for attack and damage that you would use for a melee attack. Unless otherwise noted, the attack has a normal range of 20 ft, and a maximum range of 60 ft. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can’t attack a target beyond the weapon’s long range.
@@ -290,9 +292,9 @@ Some weapons in this group do not have the generic properties, or have unusual r
 
  **Blade boot**. Come with a spring-mounted knife that pops out when triggered with the right combination of toe presses. You can use a blade boot as an off-hand weapon. Releasing the knife is an ***item action***; rearming it takes a ***full round***. When the blade is extended, you treat normal terrain as difficult.
 
- **Hook**. Mostly used if you have lost a hand, but this also includes tools like the meat hook and similar. If it is a prosthesis, it cannot be disarmed.
+ <img src='https://mcishop.azureedge.net/mciassets/w_6_0031887_larp-bloody-meat-hook_550.png' style='width:100px;float:left;padding:20px' />
 
-<img src='https://mcishop.azureedge.net/mciassets/w_6_0031887_larp-bloody-meat-hook_550.png' style='width:100px;margin-left:80px;' />
+ **Hook**. Mostly used if you have lost a hand, but this also includes tools like the meat hook and similar. If it is a prosthesis, it cannot be disarmed.
 
  **Main gauche**. A dagger specifically designed for parrying. While wielding this weapon together with a rapier, you may use a ***reaction*** after being attacked to roll a d4 and add the result to your Armor Class until the end of the attacker's turn.
 
@@ -301,13 +303,6 @@ Some weapons in this group do not have the generic properties, or have unusual r
  **Tamo daggers**. Tamo daggers, which are always sold in pairs, are thin, stiletto blades mounted on an often elaborately-carved, thick, wooden handle. Each handle has a slot near the blade that serves as a sheath for its twin – when the blades are sheathed the handles form a sturdy club.
 
  **Tiger claws**. A claw-like weapon, designed to fit over the knuckles. It consists of four or five curved blades affixed to a crossbar or glove. Tiger claws cannot be disarmed.
-
-![knives](https://68.media.tumblr.com/2ffe3488eecd9608f71e31c1e85bf574/tumblr_n1jg06oK371tu8a0wo1_400.png) {position:absolute,bottom:0px,left:45px,width:85%,height:30%;}
-
-
-
-
-
 
 
 ### Feats
