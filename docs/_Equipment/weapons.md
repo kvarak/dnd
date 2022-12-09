@@ -40,7 +40,7 @@ The different Weapon tables below shows categories, the damage they deal when th
 ### <a class="internal-link" name="internal-meleeCategories">Melee Weapon Categories</a>
 | Type | Damage | Examples | Properties |
 |:----|:---:|:----|:----|
-| Simple light | 1d4 | Club, dagger,<br/>sickle | **Close quarters combat** (dagger),<br/>**conceal** (dagger),<br/>**finesse** (dagger),<br/>**slam** (club),<br/>**thrown** &sup1; |
+| Simple light | 1d4 | Club, dagger,<br/>sickle | **Close quarters combat** (dagger),<br/>**conceal** (dagger),<br/>**finesse** (dagger),<br/>**slam** (club),<br/><div title="While some weapons in this category might have this property, others don't. Consult with your DM.">**thrown**</div> |
 | Simple | 1d6 | Handaxe, mace,<br/>spear | **Shove** (spear),<br/>**thrown** (handaxe, spear),<br/>**versatile** &sup1; (if large enough haft) |
 | Simple two-handed | 1d8 | Greatclub, quarterstaff | **Slam** (greatclub),<br/>**shove** (quarterstaff)
 | | | | |
@@ -95,24 +95,23 @@ To use a property, a wielder must be proficient in its use. If a maneuver requir
 
  **Versatile**. This weapon can be used with two hands if the haft is long enough. When dealing damage while wielding the weapon in two hands, increase the damage die one size.
 
- :
-
-{{}}">wide
 ## <a class="internal-link" name="internal-meleeSpecial">Special Melee Weapons</a>
 Some weapons do not follow the generic patterns of damage, or have unusual rules governing their use.
 
 
-{{}}">sTable,wide
+<div class="block classTable halfClassTable frame" markdown="1">
+
 | Name | Type | Damage | Price | Weight | Properties |
 |:---|:--|:--|:--:|:--:|:--|
-| Improvised weapon | Simple | 1d4 | - | Var. | Thrown, versatile (if large enough) |
+| Improvised weapon | Simple | 1d4 | - | Var. | Thrown,<br/>versatile (if large enough) |
 | Unarmed strike | Simple | 1  | - | - | - |
-| Duom | Martial | 1d10 piercing | 12 gp | 6 lb. | Reach, special, two-handed |
+| Duom | Martial | 1d10 piercing | 12 gp | 6 lb. | Reach, special,<br/>two-handed |
 | Lance | Martial | 1d12 piercing | 10 gp | 6 lb. | Reach, special |
 | Shield | Martial | 1d4 bludgeoning | - | 6 lb. | Special |
-| Spiked chain | Martial | 2d4 / 1d4 piercing | 20 gp | 10 lb. | Chained, reach, special, two-handed |
-| Whip | Martial | 1d4 slashing | 2 gp | 3 lb. | Chained, finesse, reach |
+| Spiked chain | Martial | 2d4 / 1d4 piercing | 20 gp | 10 lb. | Chained, reach,<br/>special, two-handed |
+| Whip | Martial | 1d4 slashing | 2 gp | 3 lb. | Chained, finesse,<br/>reach |
 
+</div
 
  **Improvised weapon**. Sometimes characters don't have their weapons and have to attack with whatever is close at hand. An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin.
 
