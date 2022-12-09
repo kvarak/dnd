@@ -6,10 +6,7 @@ layout: default
 <div class='toc'>
 
 ##### <a href="#internal-melee">Melee weapons</a>
-<a href="#internal-melee">Melee weapons</a><br/>
-<a href="#internal-meleeCategories">Weapon table</a><br/>
-<a href="#internal-meleeSpecial">Special melee weapons</a>
-
+##### <a href="#internal-meleeSpecial">Special melee weapons</a>
 ##### <a href="#internal-ranged">Ranged Weapons</a>
 
 ##### Weapon groups
@@ -93,8 +90,6 @@ To use a property, a wielder must be proficient in its use. If a maneuver requir
  **Versatile**. This weapon can be used with two hands if the haft is long enough. When dealing damage while wielding the weapon in two hands, increase the damage die one size.
 
 ## <a class="internal-link" name="internal-meleeSpecial">Special Melee Weapons</a>
-Some weapons do not follow the generic patterns of damage, or have unusual rules governing their use.
-
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
@@ -109,6 +104,8 @@ Some weapons do not follow the generic patterns of damage, or have unusual rules
 | Whip | Martial | 1d4 slashing | 2 gp | 3 lb. | Chained, finesse,<br/>reach |
 
 </div
+
+Some weapons do not follow the generic patterns of damage, or have unusual rules governing their use.
 
  **Improvised weapon**. Sometimes characters don't have their weapons and have to attack with whatever is close at hand. An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin.
 
@@ -130,14 +127,10 @@ Some weapons do not follow the generic patterns of damage, or have unusual rules
 
 
 
+## <a class="internal-link" name="internal-ranged">Ranged Weapons</a>
 
+<div class="block classTable halfClassTable frame" markdown="1">
 
-
-<hr class="classdivider">
-
-# <a class="internal-link" name="internal-ranged">Ranged Weapons</a>
-
-{{}}">sTable,wide
 ### Simple Weapons
 | Name | Damage | Price | Weight | Range | Properties |
 |:-----|:-------|:-----:|:------:|:-----:|:-----------|
@@ -159,8 +152,8 @@ Some weapons do not follow the generic patterns of damage, or have unusual rules
 | Net | - | 1 gp |  3 lb. | 5/15 | Special |
 | Staff sling | 1d6&nbsp;bludgeoning | 1&nbsp;sp | - | 60/200 | Ammunition, two-handed
 
+</div>
 
-{{}}">wide
 ### Ranged Weapon Properties
 Many weapons have special properties related to their use, as shown in the Weapons table.
 
@@ -337,5 +330,8 @@ You only need the smallest of blades to deal crippling wounds, and are skilled a
 
 ## <a class="internal-link" name="internal-notes">Notes</a>
 
+<div class="columnstwo">
+
 - <a class="internal-link" name="internal-note1">&sup1; While some weapons in this category might have this property, others don't. Consult with your DM.</a>
 
+</div>
