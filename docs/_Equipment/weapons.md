@@ -12,6 +12,8 @@ layout: default
 ##### Weapon groups
 <a href="#internal-knives">Knives</a>
 
+##### <a href="#internal-Feats">Feats</a>
+
 </div>
 
 
@@ -40,9 +42,6 @@ The different Weapon tables below shows categories, the damage they deal when th
 | Simple light | 1d4 | Club, dagger,<br/>sickle | **Close quarters combat** (dagger),<br/>**conceal** (dagger),<br/>**finesse** (dagger),<br/>**slam** (club),<br/><a href="#internal-note1">**thrown** &sup1;</a> |
 | Simple | 1d6 | Handaxe, mace,<br/>spear | **Shove** (spear),<br/>**thrown** (handaxe, spear),<br/><a href="#internal-note1">**versatile** &sup1;</a> (if large enough haft) |
 | Simple two-handed | 1d8 | Greatclub,<br/>quarterstaff | **Slam** (greatclub),<br/>**shove** (quarterstaff)
-| | | | |
-| | | | |
-| | | | |
 | Martial light | 1d6 | Rapier, shortsword,<br/>trident | **Close quarters combat** (shortsword),<br/>**Finesse** (swords),<br/>**shove** (trident), **thrown** (trident),<br/>**versatile** (trident) |
 | Martial | 1d8 | Battleaxe, flail,<br/>morningstar,<br/>longsword,<br/>scimitar, war pick,<br/>warhammer | **Armor piercer** (war pick),<br/>**chained** (flail),<br/>**slam** (morningstar),<br/><a href="#internal-note1">**versatile** &sup1;</a> (if large enough haft) |
 | Martial two-handed, reach | 1d10 | Glaive, halberd,<br/>pike | **Shove** |
@@ -280,8 +279,6 @@ Knives are ***simple light*** weapons that deal 1d4 damage, either piercing or s
 
  **Conceal**. As a ***bonus action*** you can make a Dexterity (Sleight of Hand) check, contested by Wisdom (Perception) to draw a concealed knife. On a success you can make a single attack with the weapon against a creature that has not yet acted in combat. This attack has advantage and scores a critical hit on a roll of 19 or 20.
 
- <img src='https://68.media.tumblr.com/2ffe3488eecd9608f71e31c1e85bf574/tumblr_n1jg06oK371tu8a0wo1_400.png' style='width:40%;float:right;padding:20px' />
-
  **Finesse**. When making an attack with a knife, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
 
  **Thrown**. You can throw a knife to make a ranged attack, dealing piercing damage. You use the same ability modifier for attack and damage that you would use for a melee attack. Unless otherwise noted, the attack has a normal range of 20 ft, and a maximum range of 60 ft. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can’t attack a target beyond the weapon’s long range.
@@ -305,23 +302,30 @@ Some weapons in this group do not have the generic properties, or have unusual r
  **Tiger claws**. A claw-like weapon, designed to fit over the knuckles. It consists of four or five curved blades affixed to a crossbar or glove. Tiger claws cannot be disarmed.
 
 
-### Feats
+## <a class="internal-link" name="internal-Feats">Feats</a>
+
 The following feats are specific to the knife group.
 
-#### Knife Master
-You only need the smallest of blades to deal crippling wounds, and are skilled at making sudden rapid strikes when an opportunity is presented. You gain the following benefits:
-- Increase your Dexterity by 1, to your racial maximum.
-- You gain proficiency with all types of knives.
-- Drawing a knife does not expend your item action.
-- Attacks with knives score critical hit on a roll of 19-20.
-- You gain +1 bonus to AC while wielding a knife in one hand and nothing in your other hand.
-- When wielding a knife and a creature misses you with a melee attack, you can use your reaction to make an attack against that creature.
-- When you attack a creature with a knife during your turn and miss, you can use your bonus action to make another attack with the weapon against the same creature.
+<div class="columnstwo">
 
+-   <div class="feat">
 
+    ## Knife Master
+    You only need the smallest of blades to deal crippling wounds, and are skilled at making sudden rapid strikes when an opportunity is presented. You gain the following benefits:<br/>
+    -- Increase your Dexterity by 1, to your racial maximum.<br/>
+    -- You gain proficiency with all types of knives.<br/>
+    -- Drawing a knife does not expend your item action.<br/>
+    -- Attacks with knives score critical hit on a roll of 19-20.<br/>
+    -- You gain +1 bonus to AC while wielding a knife in one hand and nothing in your other hand.<br/>
+    -- When wielding a knife and a creature misses you with a melee attack, you can use your reaction to make an attack against that creature.<br/>
+    -- When you attack a creature with a knife during your turn and miss, you can use your bonus action to make another attack with the weapon against the same creature.
 
+    </div>
 
-<hr>
+- <img src='https://68.media.tumblr.com/2ffe3488eecd9608f71e31c1e85bf574/tumblr_n1jg06oK371tu8a0wo1_400.png' style='width:85%;padding:20px' />
+
+</div>
+
 
 ## <a class="internal-link" name="internal-notes">Notes</a>
 
