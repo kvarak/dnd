@@ -31,7 +31,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
 <div class="columnsthree">
 
--   <div class="block classTable frame" markdown="1">
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
     #### Arctic Ingredients
     | d100 | Ingredient | Additional Rule(s) |
@@ -47,7 +47,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
     </div>
 
--   <div class="block classTable frame" markdown="1">
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
     #### Coastal Ingredients
     | d100 | Ingredient | Additional Rule(s) |
@@ -67,7 +67,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
     </div>
 
--   <div class="block classTable frame" markdown="1">
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
     #### Desert Ingredients
     | d100 | Ingredient |
@@ -80,7 +80,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
     </div>
 
--   <div class="block classTable frame" markdown="1">
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
     #### Forest Ingredients
     | d100 | Ingredient | Additional Rule(s) |
@@ -105,7 +105,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
     </div>
 
--   <div class="block classTable frame" markdown="1">
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
     #### Grasslands Ingredients
     | d100 | Ingredient | Additional Rule(s) |
@@ -127,7 +127,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
     </div>
 
--   <div class="block classTable frame" markdown="1">
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
     #### Jungle Ingredients
     | d100 | Ingredient |
@@ -152,7 +152,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
     </div>
 
--   <div class="block classTable frame" markdown="1">
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
 
     #### Mountain Ingredients
@@ -169,7 +169,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
     </div>
 
--   <div class="block classTable frame" markdown="1">
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
     #### Swamp Ingredients
     | d100 | Ingredient | Additional Rule(s) |
@@ -192,7 +192,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
     </div>
 
--   <div class="block classTable frame" markdown="1">
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
     #### Underdark Ingredients
     | d100 | Ingredient |
@@ -205,7 +205,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
     </div>
 
--   <div class="block classTable frame" markdown="1">
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
     #### Common Ingredients
     | d100 | Ingredient | Additional Rule(s) |

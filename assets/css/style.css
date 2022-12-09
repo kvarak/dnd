@@ -301,6 +301,10 @@ summary {
   float:right;
 }
 
+.fillClassTable {
+  width: 100%;
+}
+
 /* --------------------------------------------------------------------------- */
 /* Archetype features tables */
 
