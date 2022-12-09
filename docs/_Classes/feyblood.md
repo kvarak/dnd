@@ -410,13 +410,6 @@ Dau are small, agile, and beautiful creatures. Their fey blood keeps them physic
 
 Beware, however, those who would breach their rules of hospitality.
 
-<div class="infoarea" markdown="1">
-
-#### Roleplaying a Boggart
-- There is no such thing as something for nothing. Favors for favors, tricks for tricks.
--  Trade insult for insult. Always get the last word, but recognize a good joke, even if you’re the butt of it.
-
-</div>
 
 #### Gremlin
 As chaotic souls of vague origin, gremlins are generally unwelcome in town. This is just as well to the gremlins, who directly oppose the trappings of civilizations. Gremlins are innately proficient at destroying machinery by finding and targeting weak points. Machinery in this case ranges from expensive military catapults to the lock on your front door.
@@ -438,11 +431,13 @@ Leprechaun culture mainly revolves around creating shoes and trading or selling 
 **Mistrusted Folk**. Due to stories of leprechauns tricking people into wild goose chases to find their crock, leprechauns have a somewhat unfair reputation as being untrustworthy, when in truth all they are trying to do is protect their crock. This is reinforced by their reputation of kidnapping children, when in fact the only cases of this have been when leprechauns have adopted children growing up in an abusive or neglected home. These children, on those cases that they are taken, end up gaining leprechaun-like characteristics, and some even become so attuned to this new lifestyle they become a leprechaun themselves.
 
 
+<div class="infoarea" markdown="1">
 
+#### Roleplaying a Boggart
+- There is no such thing as something for nothing. Favors for favors, tricks for tricks.
+-  Trade insult for insult. Always get the last word, but recognize a good joke, even if you’re the butt of it.
 
-
-
-
+</div>
 
 
 
