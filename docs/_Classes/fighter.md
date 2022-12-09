@@ -101,22 +101,22 @@ When the battle is done, enemies and allies alike stare in awe at the sight of y
  1st | +2 | Fighter Origin, Fighting Style,<br/>Second Wind | - | - | - |
 | 2nd | +2 | Combat Superiority, Origin Maneuver | 3 | 7 | d4 |
 | 3rd | +2 | Martial Archetype | 3 | 7 | d4 |
-| 4th | +2 | Ability Score Improvement | 3 | 7 | d4 |
+| 4th | +2 | Bonus Skills | 3 | 7 | d4 |
 | 5th | +3 | Extra Attack | 4 | 7 | d4 |
-| 6th | +3 | Ability Score Improvement | 4 | 9 | d6 |
+| 6th | +3 | - | 4 | 9 | d6 |
 | 7th | +3 | Martial Archetype feature | 4 | 9 | d6 |
-| 8th | +3 | - | 5 | 9 | d6 |
+| 8th | +3 | Bonus Skills | 5 | 9 | d6 |
 | 9th | +4 | Indomitable | 5 | 9 | d6 |
 | 10th | +4 | Martial Archetype feature | 5 | 10 | d8 |
 | 11th | +4 | Extra Attack (2) | 6 | 10 | d8 |
-| 12th | +4 | Ability Score Improvement | 6 | 10 | d8 |
+| 12th | +4 | Bonus Skills | 6 | 10 | d8 |
 | 13th | +5 | Indomitable (2) | 6 | 10 | d8 |
-| 14th | +5 | Ability Score Improvement | 7 | 12 | d10 |
+| 14th | +5 | - | 7 | 12 | d10 |
 | 15th | +5 | Martial Archetype feature | 7 | 12 | d10 |
-| 16th | +5 | Ability Score Improvement | 7 | 12 | d10 |
+| 16th | +5 | Bonus Skills | 7 | 12 | d10 |
 | 17th | +6 | Indomitable (3) | 8 | 16 | d10 |
 | 18th | +6 | Martial Archetype feature | 8 | 16 | d12 |
-| 19th | +6 | Ability Score Improvement | 8 | 20 | d12 |
+| 19th | +6 | Bonus Skills | 8 | 20 | d12 |
 | 20th | +6 | Extra Attack (3) | 8 | 20 | d12 |
 
 </div>
@@ -126,12 +126,20 @@ As a fighter, you gain the following class features.
 #### Hit Points
 **Hit Dice:** 1d10
 
-#### Proficiencies
-**Armor:** All armor, shields
+#### Saving Throws
+You are proficient with ***Strength*** and ***Constitution*** saving throws.
 
-**Weapons:** Simple weapons, martial weapons
+#### Skills
+**Class Skills:** Animal handling, Leadership, Perception and Physique
 
-**Saving Throws:** Strength, Constitution
+**Skill Points:** You gain 2 skill points at 1st level.
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 2 with all weapon groups.
+
+**Combat Skills:** You gain the *Light armor* and *Medium armor* skills.
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every level.
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -186,9 +194,6 @@ Starting at 2nd level, your tactical expertise makes you a deadly force on the b
 #### Maneuvers
 You learn two maneuvers of your choice, and one decided by your fighter background. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack. You learn additional maneuvers at certain levels as shown in the Maneuvers Known section of the Fighter table.
 
-
-
-
 Each time you learn new maneuvers, you can also replace one maneuver you know with a different one. All maneuvers are listed *<a href="#internal-combatManeuvers">here</a>*.
 
 In addition you always have access to the ***Action Surge*** maneuver (see below)
@@ -210,17 +215,20 @@ You can push yourself beyond your normal limits for a moment. On your turn, you 
 ### Martial Archetype
 At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. All are detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
 
+
+### Bonus Skill
+When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you gain an additional skill point to spend on your class skills.
+
+<!--
 ### Ability Score Improvement
-When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+-->
 
 ### Extra Attack
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.
 
 ### Indomitable
 At 9th level, you can choose either *Indomitable self* or *Indomitable ally*.
-
-
-
 
 When you use the feature you can’t use it again until you finish a long rest. You can use this feature twice between long rests starting at 13th level and three times starting at 17th level.
 
@@ -229,7 +237,6 @@ As a ***reaction***, you can reroll a saving throw that you fail.
 
 #### Indomitable Ally
 Your courageous words inspire valor and ferocity in your allies, allowing you to use your ***reaction*** to allow an ally within 30 feet who can see or hear you to reroll a failed saving throw.
-
 
 
 <h2><a class="internal-link" name="internal-origins">Fighter Origins</a></h2>
