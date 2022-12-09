@@ -4,12 +4,12 @@ layout: default
 ---
 
 
-# Rest
+# Resting
 Heroic though they might be, adventurers can’t spend every hour of the day in the thick of exploration, Social Interaction, and Combat. They need rest — time to sleep and eat, tend their wounds, refresh their minds and spirits for Spellcasting, and brace themselves for further adventure.
 
 There are two kinds of rests, short and long.
 
-### Short rest
+## Short rest
 A short rest can be anything from taking a couple of minutes after a tough fight to bind your wounds, to a longer break, taking time to eat and rest.
 
 After combat (or other event causing loss of hp) you can spend a few minutes catching your breath. This allows you to spend 1 **Hit Die** and use a **Healer's kit**.
@@ -30,7 +30,7 @@ A Healer's kit starts with a 1d10 usage die.
 </div>
 
 
-### Long rest
+## Long rest
 A **Long rest** is a period of extended downtime, at least 8 hours long, in a safe place like a camp or an inn. Before starting your rest, you gain the benefits of a **Short rest**.
 
 A **Long rest** is usually spent sleeping, but you can perform light activity: reading, talking, eating, or standing watch. If the rest is interrupted by a period of strenuous activity, like marching, fighting or similar adventuring activity, you must begin the rest again to gain any benefit from it.
@@ -48,8 +48,8 @@ When you finish a **Long rest**, you gain the following benefits:
 
 |    |   |
 |:-: |:- |
-| * | If you are a **full spellcaster**, regain a number of spent **spell slots** equal to your proficiency bonus. You regain your lowest spell slots first.
-| * | **Other spellcasters**, regain a number of spent **spell slots** equal to half their proficiency bonus (rounded up). You regain your lowest spell slots first.
+| * | If you are a **full spellcaster**, regain a number of spent **spell slots** equal<br/>to your proficiency bonus. You regain your lowest spell slots first.
+| * | **Other spellcasters**, regain a number of spent **spell slots** equal to half<br/>their proficiency bonus (rounded up). You regain your lowest spell slots first.
 | * | Classes may have other benefits.
 | * | If you have spent the entire rest close to a magical item, you attune to it.
 
@@ -76,7 +76,7 @@ In addition, choose ***one*** of the following benefits:
 </div>
 
 
-### Additional Activities
+## Additional Activities
 During a long rest, you can perform one primary activity before you sleep. Below are listed some example activities.
 
 * Brew drinks
