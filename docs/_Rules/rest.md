@@ -46,7 +46,7 @@ A Healer's kit starts with a 1d10 usage die.
 -   <div class="card multirest rest">
     <div class="card-title restHeading">Long Rest</div>
     <div class="card-subtitle restPad">
-    When you finish a **Long rest**, you gain the following benefits:
+    When you finish a <b>Long rest</b>, you gain the following benefits:
     <div class="card-text restTable" markdown="1">
 
     |    |   |
@@ -59,7 +59,7 @@ A Healer's kit starts with a 1d10 usage die.
     </div>
     </div>
     <div class="card-subtitle restPad">
-    <br/>In addition, choose ***one*** of the following benefits:
+    <br/>In addition, choose <i><b>one</b></i> of the following benefits:
     <div class="card-text restTable" markdown="1">
 
     |    |   |
@@ -122,14 +122,7 @@ A Gear maintenance kit starts with a 1d8 usage die.
 
 **Sharpen Weapon**. If you are proficient with ***martial weapons***, you can spend some time maintaining a weapon - this includes sharpening edged weapons, adjusting and maintaining balance of hammers and polearms, etc, taking care of the wear and tear put on it by adventuring and putting in peak condition.
 
-This peak condition is represented by giving the wielder of that weapon the ability to reroll a damage die. You must use the new result after rerolling the die.
-
-Spend a use of your gear maintenance kit and roll an Intelligence check against DC 10.
-* **Success**: You successfully take care of the weapon.
-* **Failure**: The weapon does not receive a bonus.
-
-Proper tool proficiency allows you to roll a Intelligence (Tool) check instead, and on a success grant an additional number of rerolls equal to your proficiency bonus.
-
+<div class="block classTable halfClassTable frame" markdown="1">
 
 | Tool | Weapons |
 | :--- | :------ |
@@ -138,6 +131,15 @@ Proper tool proficiency allows you to roll a Intelligence (Tool) check instead, 
 | Smith's tools | Metal weapons
 | Tinker's tools | Crossbows
 
+</div>
+
+This peak condition is represented by giving the wielder of that weapon the ability to reroll a damage die. You must use the new result after rerolling the die.
+
+Spend a use of your gear maintenance kit and roll an Intelligence check against DC 10.
+* **Success**: You successfully take care of the weapon.
+* **Failure**: The weapon does not receive a bonus.
+
+Proper tool proficiency allows you to roll a Intelligence (Tool) check instead, and on a success grant an additional number of rerolls equal to your proficiency bonus.
 
 **Maintain Armor**. Proficiency with ***leatherworker's tools*** or ***smith's tools*** allow you to buff and repair appropriate armor, bringing it to peak condition. This peak condition is represented by giving the wearer temporary hit points equal to your proficiency bonus. These hit points last until expended.
 
