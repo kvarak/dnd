@@ -1,5 +1,5 @@
 ---
-title: Skill - combat
+title: Skills - combat
 layout: default
 ---
 
@@ -146,7 +146,7 @@ Polearms are two-handed reach weapons mounted at the end of long shafts. All pol
 
 ##### Rank 4
 - ***Repel Charge II***. You have advantage on attack rolls against mounted creatures.
-- ***Utilize Reach***. Creatures provoke an opportunity attack from you when they enter your reach. 
+- ***Utilize Reach***. Creatures provoke an opportunity attack from you when they enter your reach.
 - ***Whirlwind II***. As an ***action***, you can choose to spin your polearm around you with great force. Make an attack roll against every adjacent creature. Each creature hit takes half damage and must succeed with a Strength saving throw or be pushed back 5 ft.
 </details>
 
@@ -328,7 +328,7 @@ You use shields not just for protection but also for offense. You gain the follo
 <details>
 <summary>Brawler</summary>
 
-You are accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand. You are proficient with improvised weapons and can use either Dexterity or Strength for attack and damage rolls of your unarmed strikes and improvised weapons. Additionally you gain the following benefits: 
+You are accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand. You are proficient with improvised weapons and can use either Dexterity or Strength for attack and damage rolls of your unarmed strikes and improvised weapons. Additionally you gain the following benefits:
 - Your unarmed strike deals 1d4 damage and improvised weapons deal 1d6 if one-handed/thrown or 1d10 if two-handed.
 - When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a ***bonus action*** to make an additional unarmed strike.
 - Attack rolls of unarmed strikes and improvised weapons have advantage for 1 round, if the targeted creature has not been attacked by you since it last completed a long rest.
