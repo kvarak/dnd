@@ -226,13 +226,17 @@ A bow is a shaft of strong, supple material with a string stretched between its 
 
 *Ranged*
 
-Includes hammers and picks. Weighted toward the top and attached to a shaft. Hammers have blunt striking surfaces, while a pick has a pointed head made to pierce.
+A short bow mounted crosswise near the end of a wooden stock that shoots bolts (short arrows).
 
 ##### Rank 3
 - ***Aimed Shot***. As a ***bonus action***, you can make a DC 15 Wisdom (Perception; modifiable with Sense-Sight) check to take a moment extra to ensure a precise hit. The next time you ready an action against a creature, you have advantage on the readied attack and score a critical hit on a roll of 19 or 20.
 - ***Calm Nerves***. Being adjacent to a hostile creature doesn’t impose disadvantage on your ranged attack rolls.
 - ***Fast Loader***. You have trained at loading crossbows faster, allowing you to ignore the loading quality of hand and light crossbows.
 - ***Zig-Zag***. At the start of your turn you can spend a ***bonus action*** to move up to half your base speed. Attacks you make during your turn are made with disadvantage, but ranged attacks against you are made with disadvantage until the start of your next round.
+
+##### Rank 4
+- ***Boltslinger***. Gain a +1 bonus on damage rolls made with any type of crossbow.
+
 </details>
 
 

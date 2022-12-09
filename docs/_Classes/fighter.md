@@ -249,16 +249,16 @@ The type of martial training you received sets the groundwork for your career as
     Your martial training comes from being a guard of some kind. You might not have had so much practical combat experience, relying more on your attentive skills. You could for example have been a city guard, someone's personal bodyguard or a member of the royal guard.
 
     **Bonus proficiencies**:
-    You have proficiency with two of Insight, Investigation and Perception.
+    Add *Investigation* to your class skills and gain 1 skill point to spend on this *Perception*.
 
     **Bonus maneuver**:
     At 2nd level you learn the Studious Eye maneuver.
 
 - ### Instructor
-    For some reason you have been trained by a single instructor. You might be from a wealthy family that could afford a private tutor, or you might have an experienced family member who trained you in between your hard work at the farm.
+    For some reason you have been trained by a single instructor. You might be from a wealthy family that could afford a private tutor or you might have an experienced family member who trained you in between your hard work at the farm.
 
     **Bonus proficiencies**:
-    If you are noble or from a wealthy background, you have proficiency with two theoretical skills of your choice. Otherwise you have proficiency with Athletics, and an appropriate tool proficiency for your work background.
+    If you are noble or from a wealthy background you know how to read/write and you add all *Knowledge* skills to your class skills. Otherwise add *Agriculture* and all *Craft* skills to your class skills and gain 1 skill point to spend on one of them.
 
     **Bonus maneuver**:
     At 2nd level you learn the Combat Focus maneuver.
@@ -267,7 +267,7 @@ The type of martial training you received sets the groundwork for your career as
     Your training has been as a leader of fighters. Most commonly as an officer in an army, but could also be the child of an important tribe member who is groomed to lead the warriors, or the common man forced to lead his fellow farmers in the defense against encroaching humanoids.
 
     **Bonus proficiencies**:
-    You have proficiency with Leadership and Tactics, and your choice of Diplomacy, Intimidation or Deception.
+    Add *Speechcraft* to your class skills and gain 1 skill point to spend on *Leadership*.
 
     **Bonus maneuver**:
     At 2nd level you learn the Commanding Presence maneuver.
@@ -276,13 +276,13 @@ The type of martial training you received sets the groundwork for your career as
     You have learnt your martial skills as a member of the army. It could be the standing army of the king, or a mercenary unit selling their skills to the highest bidder.
 
     **Bonus proficiencies**:
-    You have proficiency with Athletics and Military life. This includes recognizing the chain of command, knowing who to speak to and how to correctly communicate with soldiers of various ranks, as well as the know-how on taking care of your weapons and gear. Also, depending on your assignment you have the following proficiency:<br>
-    &nbsp;&nbsp;**Archer unit**: Fletcher’s tools.<br>
-    &nbsp;&nbsp;**Cavalry**: Animal handling.<br>
-    &nbsp;&nbsp;**Chariot**: Land vehicles.<br>
-    &nbsp;&nbsp;**Infantry**: Marching (gain advantage on all saves and checks during forced march).<br>
-    &nbsp;&nbsp;**Navy**: Sailor.<br>
-    &nbsp;&nbsp;**Scout**: Survival
+    Gain the *Profession - Soldier* skill. Also, depending on your assignment you gain the following:
+    - **Archer unit**: Add *Craft - Woodworking - Bowyer* or *Craft - Metalsmith - Arrowsmith* to your class skills and gain 1 skill point to spend on this skill.
+    - **Cavalry**: For you the skill *Animal handling - Animal husbandry* has cost 0. Gain 1 skill point to spend on *Animal handling*.
+    - **Chariot**: For you the skill *Animal handling - Animal husbandry - Teamster* has cost 0. Gain 1 skill point to spend on *Animal handling*.
+    - **Infantry**: For you the skill *Physique - Endurance* has cost 0. Gain 1 skill point to spend on *Animal Physique*.
+    - **Navy**: Add *Sailor* to your class skills and gain 1 skill point to spend on it.
+    - **Scout**: Add *Survival* to your class skills and gain 1 skill point to spend on it.
 
     **Bonus maneuver**:
     At 2nd level you learn the Athletic Prowess maneuver.
@@ -291,7 +291,7 @@ The type of martial training you received sets the groundwork for your career as
     Your training comes from a less structured type of fighting force. You might be a warrior in a barbarian tribe, a member of an outlaw raiding party or part of a peasant militia.
 
     **Bonus proficiencies**:
-    You have proficiency with Athletics and Survival.
+    Add *Survival* to your class skills and gain 1 skill point to spend on it.
 
     **Bonus maneuver**:
     At 2nd level you learn the Rally maneuver.
@@ -300,7 +300,7 @@ The type of martial training you received sets the groundwork for your career as
     You have not received any training at all. Everything you know about fighting you had to learn by yourself. You might have grown up on the streets fending for yourself, or learnt to fend for yourself when being lost in the wilderness.
 
     **Bonus proficiencies**:
-    You have proficiency with Stealth and Survival.
+    Add *Stealth* and *Survival* to your class skills and gain 1 skill point to spend on one of them.
 
     **Bonus maneuver**.
     At 2nd level you learn the Heroic Might maneuver.
@@ -353,36 +353,33 @@ Different fighters choose different approaches to perfecting their fighting prow
 
 As an arbalestion, you often believe that melee combat is a thing of the past. A modern thinker; you apply your knowledge of enginering to master the use of the more sophisticated crossbows to a deadly effect.
 
-
 ### Boltslinger
-You gain a +1 bonus on damage rolls made with any type of crossbow.
+Gain 1 additional skill point to spend on combat skills.
 
 ### The Future of Warfare
-You become proficient with Tinker's tools and Fletcher’s tools. If already proficient, you instead gain advantage on all checks using these tools.
+Add *Craft - Metalsmith - Arrowsmith* and *Craft - Crossbow Making* to your class skills and gain 1 skill point each to spend on these skill. If already proficient, you instead gain 2 skill points to spend on class skills.
 
-During a day of work, you can try to modify an existing crossbow into a repeating crossbow. This is a DC 20 Intelligence check using your Tinker's tools. If you fail, you can repeat this check the next day, with the DC reduced by 2. This reduction is cumulative.
+During a day of work, you can try to modify an existing crossbow into a repeating crossbow. This is a DC 20 Intelligence (Crossbow making) check using your tools. If you fail, you can repeat this check the next day, with the DC reduced by 2. This reduction is cumulative.
 
 A repeating crossbow has the statistics of the base crossbow, but adds 2 lbs to its weight, and has a magazine that holds up to 12 bolts at once and doesn't require any sort of action to reload between attacks. Changing an empty magazine requires an action.
 
-- You can make a Intelligence ability check using your Tinker's tools against DC 12 to make a magazine for your repeating crossbow during a long rest.
-- You can make a Intelligence ability check using your Tinker's tools against DC 10 to fill 2 magazines during an hour, or 4 during a long rest. On a failed check, you only prepare 1.
-- You can make a Intelligence ability check using your Fletcher’s tools against DC 10 to make 1d6 crossbow bolts during an hour, or 4d6 during a long rest. On a failed check, you only create 1d4-1 crossbow bolts.
-
-
+- You can make an Intelligence (Crossbow making) against DC 12 to make a magazine for your repeating crossbow during a long rest.
+- You can make an Intelligence (Crossbow making) against DC 10 to fill 2 magazines during an hour or 4 during a long rest. On a failed check you only prepare 1.
+- You can make a Intelligence (Crossbow making) against DC 10 to make 1d6 crossbow bolts during an hour or 4d6 during a long rest. On a failed check you only create 1d4-1 crossbow bolts.
 
 ### Snap Shot
 When a creature misses you with an attack, you can make a single ranged weapon attack as a ***reaction***, provided you have sufficient ammunition. You may spend 1 superiority point to gain advantage on this attack.
 
 ### Bull’s Eye
-You gain the Sharpshooter feat. If you have that feat already, you may select a different feat.
+Gain 1 additional skill point to spend on combat skills.
 
 ### Critical Bolt
-Attacks you make with crossbows score a critical hit on a roll of 19-20.
+Attacks you make with crossbows increase their crit range by 1, scoring a critical hit on a roll of 19-20, or 18-20 when aiming.
 
 ### Ordnance
-At 18th level, you can turn a regular crossbow bolt into a deadly explosive. This process consumes material components worth at least 500 gp, such as a ruby, dragon scales or the heart of a fire giant that explodes in a large area on impact. You can craft one of these bolts during a long rest by making a DC 15 Intelligence check with your Fletcher’s Tools.
+You can turn a regular crossbow bolt into a deadly explosive. This process consumes material components worth at least 500 gp, such as a ruby, dragon scales or the heart of a fire giant that explodes in a large area on impact. You can craft one of these bolts during a long rest by making a DC 15 Intelligence (Crossbow making).
 
-As an ***action***, you can choose one creature or object with range and within your line of sight and fire your ordnance bolt. That creature or object and all creatures in a 40 foot radius must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Dexterity modifier with the original target having disadvantage on the saving throw. All creatures take 10d10 fire damage on a failed save, or half as much damage on a successful one. Objects take double damage from this attack.
+As an ***action***, you can choose one creature or object with range and within your line of sight and fire your ordnance bolt. That creature or object and all creatures in a 40 ft radius must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Dexterity modifier with the original target having disadvantage on the saving throw. All creatures take 10d10 fire damage on a failed save, or half as much damage on a successful one. Objects take double damage from this attack.
 
 
 
