@@ -37,18 +37,18 @@ layout: default
 <a href="#internal-UnderwaterCombat">Underwater Combat</a>
 
 
-## <a href="#internal-magic">Spells and Magic</a>
-####  [Prepared Spells](#p6)
-####  [Casting Spells](#p6)
-#### <a href="#internal-spell">Identifying a Spell</a>
-####  [Wild Magic](#p6)
+##### <a href="#internal-magic">Spells and Magic</a>
+[Prepared Spells](#p6)<br/>
+[Casting Spells](#p6)<br/>
+<a href="#internal-spell">Identifying a Spell</a><br/>
+[Wild Magic](#p6)
 
 
-## <a href="#internal-adventuring">Adventuring</a>
-####  <a href="#internal-rest">Resting</a>
-####  <a href="#internal-longRest">Additional Rest Activities</a>
-####  <a href="#internal-travel">Travel</a>
-####  <a href="#internal-water">Water rules</a>
+##### <a href="#internal-adventuring">Adventuring</a>
+<a href="#internal-rest">Resting</a><br/>
+<a href="#internal-longRest">Additional Rest Activities</a><br/>
+<a href="#internal-travel">Travel</a><br/>
+<a href="#internal-water">Water rules</a>
 
 
 
