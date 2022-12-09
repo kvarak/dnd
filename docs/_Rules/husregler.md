@@ -3,56 +3,57 @@ title: House rules
 layout: default
 ---
 
-<div class="toc">
+## Rules - Table of Contents
 
-##### <a href="#internal-character">The Character</a>
-<a href="#internal-AbilityScores">Ability Scores</a><br/>
-<a href="#internal-Luck">Luck</a><br/>
-<a href="#internal-Fatepoints">Fate points</a><br/>
-<a href="#internal-Hitpoints">Hit points</a><br/>
-<a href="#internal-Inspiration">Inspiration</a><br/>
-<a href="#internal-AbilityChecks">Ability Checks</a><br/>
-<a href="#internal-skills">Skills</a><br/>
-<a href="herbalism.html">Herbalism</a><br/>
-<a href="languages.html">Languages</a>
+<div class="columns">
 
-##### <a href="#internal-equipment">Equipment</a>
-<a href="https://robertrigo.github.io/pages/equipment.html">Equipment list</a><br/>
-<a href="https://docs.google.com/document/d/1tqskfu5UBG7etSDtBf_WpMwHKTpOpwMvrQBXHLf36QM/pub">Alchemical and herbal items</a><br/>
-<a href="../Equipment/armor.html">Armor</a><br/>
-<a href="../Equipment/poisons.html">Poisons</a><br/>
-<a href="#internal-Healingpotions">Healing potions</a><br/>
-<a href="#internal-UsageDice">Usage Dice</a><br/>
-<a href="#internal-Weapons">Weapons</a>
+- ##### <a href="#internal-character">The Character</a>
+  <a href="#internal-AbilityChecks">Ability Checks</a><br/>
+  <a href="#internal-AbilityScores">Ability Scores</a><br/>
+  <a href="#internal-Fatepoints">Fate points</a><br/>
+  <a href="herbalism.html">Herbalism</a><br/>
+  <a href="#internal-Hitpoints">Hit points</a><br/>
+  <a href="#internal-Inspiration">Inspiration</a><br/>
+  <a href="languages.html">Languages</a><br/>
+  <a href="#internal-Luck">Luck</a><br/>
+  <a href="#internal-Skills">Skills</a><br/>
 
-##### <a href="#internal-combat">Combat</a>
-<a href="#internal-Surprise">Surprise</a><br/>
-<a href="#internal-Initiative">Initiative</a><br/>
-<a href="#internal-Movement">Movement</a><br/>
-<a href="#internal-ActionsinCombat">Actions in Combat</a><br/>
-<a href="#internal-Cover">Cover</a><br/>
-<a href="#internal-Resistances">Resistances</a><br/>
-<a href="#internal-Droppingto0hp">Dropping to 0 hp</a><br/>
-<a href="#internal-MountedCombat">Mounted Combat</a><br/>
-<a href="#internal-UnderwaterCombat">Underwater Combat</a>
+- ##### <a href="#internal-equipment">Equipment</a>
+  <a href="#internal-Alchemicalandherbalitems">Alchemical and herbal items</a><br/>
+  <a href="#internal-Ammunition">Ammunition</a><br/>
+  <a href="#internal-Armorandshields">Armor and shields</a><br/>
+  <a href="#internal-Equipmentlist">Equipment list</a><br/>
+  <a href="#internal-HealingPotions">Healing Potions</a><br/>
+  <a href="#internal-Poisons">Poisons</a><br/>
+  <a href="#internal-UsageDice">Usage Dice</a><br/>
+  <a href="#internal-Weapons">Weapons</a><br/>
 
+- ##### <a href="#internal-combat">Combat</a>
+  <a href="#internal-ActionsinCombat">Actions in Combat</a><br/>
+  <a href="#internal-Cover">Cover</a><br/>
+  <a href="#internal-Droppingto0hp">Dropping to 0 hp</a><br/>
+  <a href="#internal-Initiative">Initiative</a><br/>
+  <a href="#internal-MountedCombat">Mounted Combat</a><br/>
+  <a href="#internal-Movement">Movement</a><br/>
+  <a href="#internal-Resistances">Resistances</a><br/>
+  <a href="#internal-Surprise">Surprise</a><br/>
+  <a href="#internal-UnderwaterCombat">Underwater Combat</a><br/>
 
-##### <a href="#internal-magic">Spells and Magic</a>
-[Prepared Spells](#p6)<br/>
-[Casting Spells](#p6)<br/>
-<a href="#internal-spell">Identifying a Spell</a><br/>
-[Wild Magic](#p6)
+- ##### <a href="#internal-magic">Spells and Magic</a>
+  <a href="#internal-PreparedSpells">Prepared Spells</a><br/>
+  <a href="#internal-CastingSpells">Casting Spells</a><br/>
+  <a href="#internal-IdentifyingaSpell">Identifying a Spell</a><br/>
+  <a href="#internal-WildMagic">Wild Magic</a><br/>
 
-
-##### <a href="#internal-adventuring">Adventuring</a>
-<a href="#internal-rest">Resting</a><br/>
-<a href="#internal-longRest">Additional Rest Activities</a><br/>
-<a href="#internal-travel">Travel</a><br/>
-<a href="#internal-water">Water rules</a>
+- ##### <a href="#internal-adventuring">Adventuring</a>
+  <a href="#internal-Resting">Resting</a><br/>
+  <a href="#internal-RestActivities">Rest Activities</a><br/>
+  <a href="#internal-Waterrules">Water rules</a><br/>
 
 
 
 </div>
+<!-- - <a href="#internal-travel">Travel</a><br/> -->
 
 
 
@@ -61,220 +62,205 @@ layout: default
 The first step when playing is to create a character. All classes and folk can be found in the menu to the left.
 
 
-### Ability Scores
-Generate ability scores by rolling 4d6, and choosing three of them. After each roll, assign the score to one of your abilities. When you have rolled and assigned the first four ability scores you can choose to either continue rolling the last two as well, or assign an 8 and a 15 to the last ability scores.
+<div class="columnsthree">
+
+-   ### <a class="internal-link" name="internal-AbilityChecks">Ability Checks</a>
+    The three main rolls of the game — the ability check, the saving throw, and the attack roll — rely on your ability scores. Roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
+
+    If you are proficient with the saving throw, a weapon you are attacking with or in an appropriate skill while making an ability check, you additionally add your proficiency bonus.
+
+-   ### <a class="internal-link" name="internal-AbilityScores">Ability Scores</a>
+
+    Generate ability scores by rolling 4d6, and choosing three of them. After each roll, assign the score to one of your abilities. When you have rolled and assigned the first four ability scores you can choose to either continue rolling the last two as well, or assign an 8 and a 15 to the last ability scores.
+
+-   ### <a class="internal-link" name="internal-Fatepoints">Fate points</a>
+
+    When you create your character, you will receive a Fate power which is powered by Fate points. If you start at level 1, you gain 2 Fate points, otherwise you start with 1. Whenever you gain an increase in your proficiency modifier, you also gain a Fate point.
+
+-   ### <a class="internal-link" name="internal-Hitpoints">Hit points</a>
+
+    You start first level with a hit point maximum equal to the highest roll of your hit die, modified by your Constitution modifier.
+
+    When you roll for hit points at higher levels, if you roll a 1 you may reroll the die and must use the new roll.
+
+-   ### <a class="internal-link" name="internal-Inspiration">Inspiration</a>
+
+    You can hold up to 3 inspiration points at once. When making an ability check, you can spend a die *after* you see result to reroll. For other rolls, you have to spend the dice before the roll in order to gain advantage on the roll.
+
+-   ### <a class="internal-link" name="internal-Languages">Languages</a>
+
+    Languages are learnt to different proficiency levels and this described on the <a href="languages.html">Languages page</a>.
+
+-   ### <a class="internal-link" name="internal-Luck">Luck</a>
+
+    In addition to the six basic abilities, you also have a seventh, Luck. Your Luck is generated by rolling 3d6.
+
+-   ### <a class="internal-link" name="internal-Skills">Skills</a>
+    Skills are described <a href="skills.html">in the skills document</a>. You will get skill points to select skills during character creation, as well as when you level up based on your character class.
+
+</div>
 
 
-### Luck
-In addition to the six basic abilities, you also have a seventh, Luck. Your Luck is generated by rolling 3d6.
-
-
-### Fate points
-When you create your character, you will receive a Fate power which is powered by Fate points. If you start at level 1, you gain 2 Fate points, otherwise you start with 1. Whenever you gain an increase in your proficiency modifier, you also gain a Fate point.
-
-
-### Hit points
-You start first level with a hit point maximum equal to the highest roll of your hit die, modified by your Constitution modifier.
-
-When you roll for hit points at higher levels, if you roll a 1 you may reroll the die and must use the new roll.
-
-
-### Inspiration
-You can hold up to 3 inspiration points at once. When making an ability check, you can spend a die *after* you see result to reroll. For other rolls, you have to spend the dice before the roll in order to gain advantage on the roll.
-
-### <a class="internal-link" name="internal-checks">Ability Checks</a>
-The three main rolls of the game — the ability check, the saving throw, and the attack roll — rely on your ability scores. Roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
-
-If you are proficient with the saving throw, a weapon you are attacking with or in an appropriate skill while making an ability check, you additionally add your proficiency bonus.
-
-### <a class="internal-link" name="internal-traits">Skills</a>
-Skills are described in a document found in the menu to the left. You will get skill points to select skills during character creation, as well as when you level up.
-
-* During character creation, when rolling your background, you will get skills appropriate for the events in your life. If you get less than 3 skills (4 for humans), you can select additional skills so that you have 3. Additionally you always gain the appropriate Culture skill (unless living as a hermit or similar).
-
-* Each class receives a number of skill points for which to buy skills from a list of class skills. Currently some classes have not yet been updated to this way of buying skills. In that case consult with your DM.
-
-* Each time you level up, you gain 1 skill point, which you can use to buy any skill.
-
-* In addition, classes may have class features that grant skills or skill points.
-
-### Languages
-Languages are learnt to different proficiency levels and this described on the <a href="http://homebrewery.naturalcrit.com/print/1wH0hMeVaeYe09alA-mrwmlll7x2JgUoyotKzIR4hutVi">Languages page</a>.
-
-
-
-
-
-
-
-
-
-{{}}">wide
 ## <a class="internal-link" name="internal-equipment">Equipment</a>
-
 
 When you create your character, you receive equipment and starting money based on a combination of your class and background. All equipment can be found on the <a href="https://robertrigo.github.io/pages/equipment.html">Equipment page</a>.
 
-In addition there are dedicated pages for <a href="https://docs.google.com/document/d/1tqskfu5UBG7etSDtBf_WpMwHKTpOpwMvrQBXHLf36QM/pub">alchemical and herbal items</a>, <a href="https://homebrewery.naturalcrit.com/print/1GEg-EfFkOaSNy20yrR1zt188H4mC9V52D3b0U32pegD8">armor</a>, <a href="https://homebrewery.naturalcrit.com/print/1uMKDk3FmuTgVZkRdGNlTRWdy_02ObK0h5MunQwzUUIj_">poisons</a> and <a href="https://homebrewery.naturalcrit.com/print/1G6nxn-gfMP80fmDbEDWDByn3eLFwweGwEgY09KHhiJlG">weapons</a>.
+<div class="columnsthree">
+
+-   ### <a class="internal-link" name="internal-Alchemicalandherbalitems">Alchemical and herbal items</a>
+
+    <a href="https://docs.google.com/document/d/1tqskfu5UBG7etSDtBf_WpMwHKTpOpwMvrQBXHLf36QM/pub">Alchemical and herbal items can be found here.</a>
+
+-   ### <a class="internal-link" name="internal-Ammunition">Ammunition</a>
+
+    Ammunition has a modified usage die.
+
+    d20 → d12 → d10 → d8 → d6 → d4 → 1
+
+    If you're down to one piece of ammunition and you use it, that's it — you've used the last piece, so remove the ammunition completely from your inventory.
+
+    Most ammunition types will usually start with (and have a maximum size of) a d12 ammunition die — this represents a full stack of arrows/bolts/bullets/etc.
+
+    #### Ammunition Stacks
+    If you're carrying multiple stacks of any one type of ammunition, prioritize the smallest stack first — always roll the smallest ammunition die per ammo type.
+
+    #### Special Ammo
+    If your ammunition is rare or has limited uses — fire arrows, magic bolts, lighting bullets, etc — don't use an ammunition die. Track each shot as you use them.
+
+-   ### <a class="internal-link" name="internal-Armorandshields">Armor and shields</a>
+
+    <a href="../Equipment/armor.html">Armors and shields can be found here.</a>
+
+-   ### <a class="internal-link" name="internal-Equipmentlist">Equipment list</a>
+
+    <a href="https://robertrigo.github.io/pages/equipment.html">The equipment list can be found here.</a>
+
+-   ### <a class="internal-link" name="internal-HealingPotions">Healing Potions</a>
+    When you drink a healing potion, instead of rolling d4s to find how much hit points you regain,  roll your hit die. If you don't have a hit die value for any reason, roll a d4. Use this for all items that heals a number of d4s.
+
+    If you are multiclassed and have hit dice of varying sizes, use the hit die value of whichever class you have the most levels in. On a tie, use the highest.
+
+-   ### <a class="internal-link" name="internal-Poisons">Poisons</a>
+
+    <a href="../Equipment/poisons.html">Poisons can be found here.</a>
+
+-   ### <a class="internal-link" name="internal-UsageDice">Usage Dice</a>
+
+    Whenever you use a limited consumable (such as ammunition), you roll a usage die — if the roll is a 1 or 2 then the usage die shrinks one step. When you roll a 1 or 2 on a d4, the item is all used up.
+
+    d20 → d12 → d10 → d8 → d6 → d4 → 0
+
+    The larger the starting usage die, the more uses you'll get out of an item before it expires. The Usage Dice table shows the average number of times you can expect to roll a usage die before it's down to the very last use.
 
 
-### Healing Potions
-When you drink a healing potion, instead of rolling d4s to find how much hit points you regain,  roll your hit die. If you don't have a hit die value for any reason, roll a d4. Use this for all items that heals a number of d4s.
+    <div class="block classTable fillClassTable frame" markdown="1">
 
-If you are multiclassed and have hit dice of varying sizes, use the hit die value of whichever class you have the most levels in. On a tie, use the highest.
+    #### Usage Dice
+    | Starting Size | Average Uses | Starting Size | Average Uses |
+    |:-------------:|:------------:|:-------------:|:------------:|
+    | d20 | 30 | d8 | 9
+    | d12 | 20 | d6 | 5
+    | d10 | 14 | d4 | 2
 
-### Usage Dice
-Whenever you use a limited consumable (such as ammunition), you roll a usage die — if the roll is a 1 or 2 then the usage die shrinks one step. When you roll a 1 or 2 on a d4, the item is all used up.
-
-d20 → d12 → d10 → d8 → d6 → d4 → 0
-
-The larger the starting usage die, the more uses you'll get out of an item before it expires. The Usage Dice table shows the average number of times you can expect to roll a usage die before it's down to the very last use.
-
+    </div>
 
 
+-   ### <a class="internal-link" name="internal-Weapons">Weapons</a>
 
-#### Usage Dice
-| Starting Size | Average Uses | Starting Size | Average Uses |
-|:-------------:|:------------:|:-------------:|:------------:|
-| d20 | 30 | d8 | 9
-| d12 | 20 | d6 | 5
-| d10 | 14 | d4 | 2
+    Every weapon belongs to a category, which decides its statistics. More information can be found on the <a href="../Equipment/weapons.html">Weapon page</a>.
 
+</div>
 
-#### Ammunition
-Ammunition has a modified usage die.
-
-d20 → d12 → d10 → d8 → d6 → d4 → 1
-
-If you're down to one piece of ammunition and you use it, that's it — you've used the last piece, so remove the ammunition completely from your inventory.
-
-Most ammunition types will usually start with (and have a maximum size of) a d12 ammunition die — this represents a full stack of arrows/bolts/bullets/etc.
-
-#### Ammunition Stacks
-If you're carrying multiple stacks of any one type of ammunition, prioritize the smallest stack first — always roll the smallest ammunition die per ammo type.
-
-#### Special Ammo
-If your ammunition is rare or has limited uses — fire arrows, magic bolts, lighting bullets, etc — don't use an ammunition die. Track each shot as you use them.
-
-### Weapons
-Every weapon belongs to a category, which decides its statistics. More information can be found on the <a href="https://homebrewery.naturalcrit.com/print/1G6nxn-gfMP80fmDbEDWDByn3eLFwweGwEgY09KHhiJlG">Weapon page</a>.
-
-
-
-
-
-
- {{}}">pageNumber,auto}}
-
-
-{{}}">wide
 ## <a class="internal-link" name="internal-combat">Combat</a>
 
 
 The game organizes the chaos of combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world. During a round, each participant in a battle takes a
 turn. The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative.
 
+<div class="columnsthree">
 
-### Surprise
-Any character or monster that doesn’t notice a threat is surprised at the start of the encounter. If you’re surprised, you can’t move or take an action on your first turn of the combat. Additionally you can’t take a reaction until you have acted.
+-   ### Actions in Combat
+    On your turn, you can **move** a distance up to your speed, take one **action** and a **bonus action**. You can also **interact** with one object or feature of the environment for free, during either your move or your action.
 
-#### Sneaking and Stabbing
-Sneaking up to a guard and and knocking him out is fully possible. If you are undetected, make an attack roll with advantage. If you hit, and the target is Humanoid, it makes a Constitution save to avoid being knocked out. The difficulty of the save depends on whether the target has protection, like a helmet.
+    The most common actions during combat is to attack. Other examples of actions you can take during combat are:
+      ***Dash.*** You gain extra movement for the current turn equal your speed.
 
-Rogues are alittle better at this, forcing the target to make their save sith disadvantage.
+      ***Disengage.*** Your movement doesn’t provoke opportunity attacks for the rest of the turn.
 
+      ***Dodge.*** Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated or if your speed drops to 0.
 
-### Initiative
-Reaction speed is determined first-and-foremost by your thoughts — the faster you can think, the faster your brain can tell your body to act. When rolling for initiative, do not add your Dexterity modifier — instead, add your **Intelligence** modifier. Break ties first with Dexterity, then Wisdom.
+      ***Help.*** A creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can aid in attacking a creature within 5 feet of you. The first attack roll against it before your next turn is made with advantage.
 
+      ***Ready.*** Prepare in order to use your action as a reaction, in response to a trigger that you decide. First, decide what perceivable circumstance will trigger your reaction. Then, choose the action you will take in response to that trigger. When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.
 
-### Movement
-Every character and monster has a speed, which is the distance in feet that the character or monster can move in 1 round. This number assumes short bursts of energetic movement in the midst of a lifethreatening situation.
+      ***Ready a Spell.*** When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell’s magic requires concentration. If your concentration is broken, the spell dissipates without taking effect.
 
-Your movement can include jumping, flying and climbing, and you simply deduct the distance of each part of your move from your speed until it is used up or you are done moving.
+      ***Use an Object.*** Useful when you want to interact with more than one object on your turn.
 
-Every foot of movement in **difficult terrain** costs 1 extra foot. The space of another creature, whether hostile or not, also counts as difficult terrain.
+-   ### Cover
+    A target with ***half cover*** has a +2 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks at least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.
 
-You can drop **prone** without using any of your speed. Standing up costs an amount of movement equal to half your speed. You can’t stand up if you don’t have enough movement left or if your speed is 0. To move while prone, you must crawl, which costs 1 extra foot. Crawling 1 foot in difficult terrain, therefore, costs 3 feet of movement.
+    A target with ***three-quarters cover*** has a +5 bonus to AC and Dexterity saving throws. The obstacle might be an overturned table, an arrow slit, or a thick tree trunk.
 
+    A target with ***total cover*** can’t be targeted directly by an attack or a spell.
 
+-   ### Dropping to 0 hp
+    When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage ***equals or exceeds your hit point maximum***.
 
-***Long Jump***. A long jump covers a number of feet up to your Strength score if you move at least 10 feet on foot immediately before the jump. When making a standing long jump, you can leap only half that distance. When you land in difficult terrain, you must succeed on a DC 10 Dexterity (Acrobatics) check to land on your feet. Otherwise, you land prone.
+    If the remaining damage exceeds your Constitution score, your first Death save is made with disadvantage, and if it is below or equal to your Constitution bonus or 0, it is made with advantage.
 
-***High Jump***.
-When making a high jump, you leap a number of feet equal to 3 + your Strength modifier if you move at least 10 feet on foot immediately before the jump. When you make a standing high jump, you jump only half that distance.
+    You can use your action to administer first aid to an unconscious creature and attempt to ***stabilize*** it, which requires a successful DC 10 Wisdom (Medicine) check. A stable creature that isn’t healed regains 1 hit point after 1d4 hours. However, it does benefit from spending a use from a ***Healer's kit*** if it has remaining hit dice.
 
-You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal to the height of the jump plus 1 1/2 times your height.
+    After you regain hp to bring you above 0 hp it takes a few rounds to adjust; you get 6 levels of **combat exhaustion**. This is added to you normal exhaustion, but reaching level 6 (or higher) does not kill you, instead you count as **stunned**. You loose 1 level of combat exhaustion at the start of each of your rounds.
 
+    ### Initiative
+    Reaction speed is determined first-and-foremost by your thoughts — the faster you can think, the faster your brain can tell your body to act. When rolling for initiative, do not add your Dexterity modifier — instead, add your **Intelligence** modifier. Break ties first with Dexterity, then Wisdom.
 
-### Actions in Combat
-On your turn, you can **move** a distance up to your speed, take one **action** and a **bonus action**. You can also **interact** with one object or feature of the environment for free, during either your move or your action.
+-   ### Jumping
 
-The most common actions during combat is to attack. Other examples of actions you can take during combat are:
-  ***Dash.*** You gain extra movement for the current turn equal your speed.
+    ***Long Jump***. A long jump covers a number of feet up to your Strength score if you move at least 10 feet on foot immediately before the jump. When making a standing long jump, you can leap only half that distance. When you land in difficult terrain, you must succeed on a DC 10 Dexterity (Acrobatics) check to land on your feet. Otherwise, you land prone.
 
-  ***Disengage.*** Your movement doesn’t provoke opportunity attacks for the rest of the turn.
+    ***High Jump***.
+    When making a high jump, you leap a number of feet equal to 3 + your Strength modifier if you move at least 10 feet on foot immediately before the jump. When you make a standing high jump, you jump only half that distance.
 
-  ***Dodge.*** Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated or if your speed drops to 0.
+    You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal to the height of the jump plus 1 1/2 times your height.
 
-  ***Help.*** A creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can aid in attacking a creature within 5 feet of you. The first attack roll against it before your next turn is made with advantage.
+ -  ### Mounted Combat
+    Mounting or dismounting costs an amount of movement equal to half your speed. If an effect moves your mount against its will, you must succeed on a DC 10 Dexterity saving throw or fall off, landing prone. If you’re knocked prone while mounted, you must make the same saving throw. If your mount is knocked prone, you can use your reaction to dismount it as it falls and land on your feet. Otherwise, you are dismounted and fall prone.
 
-  ***Ready.*** Prepare in order to use your action as a reaction, in response to a trigger that you decide. First, decide what perceivable circumstance will trigger your reaction. Then, choose the action you will take in response to that trigger. When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.
+    While mounted, you can either control the mount or allow it to act independently. You can control a mount only if it has been trained to accept a rider, in which case its initiative  changes to match yours. It moves as you direct it, and it has only three action options: Dash, Disengage and Dodge.
 
+    An independent mount retains its place in the initiative order. Bearing a rider puts no restrictions on the actions the mount can take, and it moves and acts as it wishes. It might flee from combat, rush to attack and devour a badly injured foe, or otherwise act against
+    your wishes. In either case, if the mount provokes an opportunity attack while you’re on it, the attacker can target you or the mount.
 
+-   ### Movement
+    Every character and monster has a speed, which is the distance in feet that the character or monster can move in 1 round. This number assumes short bursts of energetic movement in the midst of a lifethreatening situation.
 
+    Your movement can include jumping, flying and climbing, and you simply deduct the distance of each part of your move from your speed until it is used up or you are done moving.
 
+    Every foot of movement in **difficult terrain** costs 1 extra foot. The space of another creature, whether hostile or not, also counts as difficult terrain.
 
+    You can drop **prone** without using any of your speed. Standing up costs an amount of movement equal to half your speed. You can’t stand up if you don’t have enough movement left or if your speed is 0. To move while prone, you must crawl, which costs 1 extra foot. Crawling 1 foot in difficult terrain, therefore, costs 3 feet of movement.
 
-  ***Ready a Spell.*** When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell’s magic requires concentration. If your concentration is broken, the spell dissipates without taking effect.
+-   ### Resistances
+    Resistance is applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.
 
-  ***Use an Object.*** Useful when you want to interact with more than one object on your turn.
+    Multiple instances of resistance that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half, not by three-quarters damage.
 
-### Cover
-A target with ***half cover*** has a +2 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks at least half of its body. The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend.
+-   #### Sneaking and Stabbing
+    Sneaking up to a guard and and knocking him out is fully possible. If you are undetected, make an attack roll with advantage. If you hit, and the target is Humanoid, it makes a Constitution save to avoid being knocked out. The difficulty of the save depends on whether the target has protection, like a helmet.
 
-A target with ***three-quarters cover*** has a +5 bonus to AC and Dexterity saving throws. The obstacle might be an overturned table, an arrow slit, or a thick tree trunk.
+    Rogues are alittle better at this, forcing the target to make their save sith disadvantage.
 
-A target with ***total cover*** can’t be targeted directly by an attack or a spell.
+-   ### Surprise
+    Any character or monster that doesn’t notice a threat is surprised at the start of the encounter. If you’re surprised, you can’t move or take an action on your first turn of the combat. Additionally you can’t take a reaction until you have acted.
 
-### Resistances
-Resistance is applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.
+-   ### Underwater Combat
+    ***Melee weapon*** attacks have disadvantage on the attack roll unless the weapon deals piercing damage. ***Ranged weapon*** attacks automatically miss targets beyond the weapon’s normal range. Even against a target within normal range, the attack roll has disadvantage unless the weapon is a crossbow or a weapon that is thrown like a javelin (including a spear, trident or dart). Creatures and objects that are fully immersed in water have ***resistance to fire*** damage.
 
-Multiple instances of resistance that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half, not by three-quarters damage.
-
-
-### Dropping to 0 hp
-When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage ***equals or exceeds your hit point maximum***.
-
-If the remaining damage exceeds your Constitution score, your first Death save is made with disadvantage, and if it is below or equal to your Constitution bonus or 0, it is made with advantage.
-
-You can use your action to administer first aid to an unconscious creature and attempt to ***stabilize*** it, which requires a successful DC 10 Wisdom (Medicine) check. A stable creature that isn’t healed regains 1 hit point after 1d4 hours. However, it does benefit from spending a use from a ***Healer's kit*** if it has remaining hit dice.
-
-
-
-After you regain hp to bring you above 0 hp it takes a few rounds to adjust; you get 6 levels of **combat exhaustion**. This is added to you normal exhaustion, but reaching level 6 (or higher) does not kill you, instead you count as **stunned**. You loose 1 level of combat exhaustion at the start of each of your rounds.
-
-
-### Mounted Combat
-Mounting or dismounting costs an amount of movement equal to half your speed. If an effect moves your mount against its will, you must succeed on a DC 10 Dexterity saving throw or fall off, landing prone. If you’re knocked prone while mounted, you must make the same saving throw. If your mount is knocked prone, you can use your reaction to dismount it as it falls and land on your feet. Otherwise, you are dismounted and fall prone.
-
-While mounted, you can either control the mount or allow it to act independently. You can control a mount only if it has been trained to accept a rider, in which case its initiative  changes to match yours. It moves as you direct it, and it has only three action options: Dash, Disengage and Dodge.
-
-An independent mount retains its place in the initiative order. Bearing a rider puts no restrictions on the actions the mount can take, and it moves and acts as it wishes. It might flee from combat, rush to attack and devour a badly injured foe, or otherwise act against
-your wishes. In either case, if the mount provokes an opportunity attack while you’re on it, the attacker can target you or the mount.
+</div>
 
 
-### Underwater Combat
-***Melee weapon*** attacks have disadvantage on the attack roll unless the weapon deals piercing damage. ***Ranged weapon*** attacks automatically miss targets beyond the weapon’s normal range. Even against a target within normal range, the attack roll has disadvantage unless the weapon is a crossbow or a weapon that is thrown like a javelin (including a spear, trident or dart). Creatures and objects that are fully immersed in water have ***resistance to fire*** damage.
-
-
-
-
-
- {{}}">pageNumber,auto}}
-
-
-{{}}">wide
 ## <a class="internal-link" name="internal-magic">Spells and Magic</a>
 
 There are three kinds of magic:
@@ -336,15 +322,15 @@ To find the result of a Wild magic effect roll a ***1d1000 + caster's Luck modif
 
 
 
-
-
-{{}}">wide
 ## <a class="internal-link" name="internal-adventuring">Adventuring</a>
 
 This chapter covers the basics of the adventuring life, from the mechanics of movement to the rules of resting and activities your character might pursue between adventures.
 
+
 ## <a class="internal-link" name="internal-rest">Rest</a>
-Heroic though they might be, adventurers can’t spend every hour of the day in the thick of exploration and combat. They need rest — time to sleep and eat, tend their wounds, refresh their minds and spirits and brace themselves for further adventure.
+
+
+Heroic though they might be, adventurers can’t spend every hour of the day in the thick of exploration, Social Interaction, and Combat. They need rest — time to sleep and eat, tend their wounds, refresh their minds and spirits for Spellcasting, and brace themselves for further adventure.
 
 There are two kinds of rests, short and long.
 
@@ -352,6 +338,8 @@ There are two kinds of rests, short and long.
 A short rest can be anything from taking a couple of minutes after a tough fight to bind your wounds, to a longer break, taking time to eat and rest.
 
 After combat (or other event causing loss of hp) you can spend a few minutes catching your breath. This allows you to spend 1 **Hit Die** and use a **Healer's kit**.
+
+You can also take a longer **Short rest** if you have access to a safe place, like your camp. Resting like this allows you to eat and spend any number of **Hit Die**. A longer short rest also gives you some time to investigate a magic item, and hopefully discover how it works.
 
 <div class="descriptive" markdown="1">
 
@@ -364,59 +352,61 @@ You can also, as an action, spend one use to stabilize a creature that has 0 hit
 
 A Healer's kit starts with a 1d10 usage die.
 
-
-You can also take a longer **Short rest** if you have access to a safe place, like your camp. Resting like this allows you to eat and spend any number of **Hit Die**. A longer short rest also gives you some time to investigate a magic item, and hopefully discover how it works.
-
-
+</div>
 
 
 ### Long rest
-A **Long rest** is a period of extended downtime, at least 8 hours long, in a safe place like a camp or an inn. Before starting your rest, you gain the benefits of a **Short rest**.
 
-A **Long rest** is usually spent sleeping, but you can perform light activity: reading, talking, eating, or standing watch. Some additional activities that you character can perform during the rest are listed <a href="#internal-longRest">HERE</a>.
+<div class="columnstwo">
 
-If the rest is interrupted by a period of strenuous activity, like marching, fighting or similar adventuring activity, you must begin the rest again to gain any benefit from it.
+-   A **Long rest** is a period of extended downtime, at least 8 hours long, in a safe place like a camp or an inn. Before starting your rest, you gain the benefits of a **Short rest**.
 
-You can’t benefit from more than one **Long rest** in a 24-hour period.
+    A **Long rest** is usually spent sleeping, but you can perform light activity: reading, talking, eating, or standing watch. If the rest is interrupted by a period of strenuous activity, like marching, fighting or similar adventuring activity, you must begin the rest again to gain any benefit from it.
 
-#### Benefits of a Long rest
-You must have at least 1 hit point at the start of a **Long rest** rest to gain its benefits. Otherwise you regain 1 hp and become conscious at the end of the rest.
+    You can’t benefit from more than one **Long rest** in a 24-hour period.
 
+    #### Benefits of a Long rest
+    You must have at least 1 hit point at the start of a **Long rest** rest to gain its benefits. Otherwise you regain 1 hp and become conscious at the end of the rest.
 
-When you finish a **Long rest**, you gain the following benefits:
+-   <div class="card multirest rest">
+    <div class="card-title restHeading">Long Rest</div>
+    <div class="card-subtitle restPad">
+    When you finish a <b>Long rest</b>, you gain the following benefits:
+    <div class="card-text restTable" markdown="1">
 
-|    |   |
-|:-: |:- |
-| * | If you are a **full spellcaster**, regain a number of spent **spell slots** equal to your proficiency bonus. You regain your lowest spell slots first.
-| * | **Other spellcasters**, regain a number of spent **spell slots** equal to half their proficiency bonus (rounded up). You regain your lowest spell slots first.
-| * | Classes may have other benefits.
-| * | If you have spent the entire rest close to a magical item, you attune to it.
+    |    |   |
+    |:-: |:- |
+    | * | If you are a **full spellcaster**, regain a number of spent **spell slots** equal<br/>to your proficiency bonus. You regain your lowest spell slots first.
+    | * | **Other spellcasters**, regain a number of spent **spell slots** equal to half<br/>their proficiency bonus (rounded up). You regain your lowest spell slots first.
+    | * | Classes may have other benefits.
+    | * | If you have spent the entire rest close to a magical item, you attune to it.
 
+    </div>
+    </div>
+    <div class="card-subtitle restPad">
+    <br/>In addition, choose <i><b>one</b></i> of the following benefits:
+    <div class="card-text restTable" markdown="1">
 
-In addition, choose ***one*** of the following benefits:
-
-|    |   |
-|:-: |:- |
-| * | If not at max hit points, regain up to your **max hp/2** (round up).
-| * | If not at max Hit Dice, regain up to your **max HD/2** (round up).
-| * | Remove 1 **exhaustion** level.
-| * | Attempt to remove a **negative condition** (ex. reduced max hp or a disease).
-| * | Regain 1 reduced **ability score**.
-| * | If less than 3 inspiration, regain 1 **inspiration**.
-| * | Regain your lowest **spell slot**.
-| * | Choose a **class specific** benefit listed in your class description.
-
-
-
-
-
-
-
-
-{{}}">wide
-## <a class="internal-link" name="internal-longRest">Additional Activities</a>
+    |    |   |
+    |:-: |:- |
+    | * | If not at max hit points, regain up to your **max hp/2** (round up).
+    | * | If not at max Hit Dice, regain up to your **max HD/2** (round up).
+    | * | Remove 1 **exhaustion** level.
+    | * | Attempt to remove a **negative condition** (ex. reduced max hp or a disease).
+    | * | Regain 1 reduced **ability score**.
+    | * | If less than 3 inspiration, regain 1 **inspiration**.
+    | * | Regain your lowest **spell slot**.
+    | * | Choose a **class specific** benefit listed in your class description.
 
 
+    </div>
+    </div>
+    </div>
+
+</div>
+
+
+## Additional Activities
 During a long rest, you can perform one primary activity before you sleep. Below are listed some example activities.
 
 * Brew drinks
@@ -452,19 +442,12 @@ The skills required to make proper use of this kit depends on the type of eqipme
 
 A Gear maintenance kit starts with a 1d8 usage die.
 
-
+</div>
 
 
 **Sharpen Weapon**. If you are proficient with ***martial weapons***, you can spend some time maintaining a weapon - this includes sharpening edged weapons, adjusting and maintaining balance of hammers and polearms, etc, taking care of the wear and tear put on it by adventuring and putting in peak condition.
 
-This peak condition is represented by giving the wielder of that weapon the ability to reroll a damage die. You must use the new result after rerolling the die.
-
-Spend a use of your gear maintenance kit and roll an Intelligence check against DC 10.
-* **Success**: You successfully take care of the weapon.
-* **Failure**: The weapon does not receive a bonus.
-
-Proper tool proficiency allows you to roll a Intelligence (Tool) check instead, and on a success grant an additional number of rerolls equal to your proficiency bonus.
-
+<div class="block classTable halfClassTable frame" markdown="1">
 
 | Tool | Weapons |
 | :--- | :------ |
@@ -473,6 +456,15 @@ Proper tool proficiency allows you to roll a Intelligence (Tool) check instead, 
 | Smith's tools | Metal weapons
 | Tinker's tools | Crossbows
 
+</div>
+
+This peak condition is represented by giving the wielder of that weapon the ability to reroll a damage die. You must use the new result after rerolling the die.
+
+Spend a use of your gear maintenance kit and roll an Intelligence check against DC 10.
+* **Success**: You successfully take care of the weapon.
+* **Failure**: The weapon does not receive a bonus.
+
+Proper tool proficiency allows you to roll a Intelligence (Tool) check instead, and on a success grant an additional number of rerolls equal to your proficiency bonus.
 
 **Maintain Armor**. Proficiency with ***leatherworker's tools*** or ***smith's tools*** allow you to buff and repair appropriate armor, bringing it to peak condition. This peak condition is represented by giving the wearer temporary hit points equal to your proficiency bonus. These hit points last until expended.
 
@@ -490,7 +482,13 @@ If you're proficient with the appropriate tool, you may perform basic repairs on
 
 
 
-{{}}">wide
+
+
+<!--
+
+
+
+
 ## <a class="internal-link" name="internal-travel">Travel</a>
 
 It is rarely straightforward outside city walls. Many adventurers have lost their way in dark forests. Many more have died from lack of food, or water, or protection from bandits and monsters—the world is not forgiving to the unprepared traveler. This section introduces the journey phase to make travel a more integral part of the adventure.
@@ -641,12 +639,10 @@ If you are the lookout, you're responsible for making any perception checks duri
 
 
 
+ -->
 
 
 
-
-
-{{}}">wide
 ## <a class="internal-link" name="internal-water">Water rules</a>
 
 Specific rules for what happens in and on water. Unless otherwise noted all ability checks mentioned in this section benefit from proficiency with swimming.
