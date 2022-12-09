@@ -40,22 +40,18 @@ The different Weapon tables below shows categories, the damage they deal when th
 ### <a class="internal-link" name="internal-meleeCategories">Melee Weapon Categories</a>
 | Type | Damage | Examples | Properties |
 |:----|:---:|:----|:----|
-| Simple light | 1d4 | Club, dagger,<br/>sickle | **Close quarters combat** (dagger),<br/>**conceal** (dagger),<br/>**finesse** (dagger),<br/>**slam** (club),<br/><div title="While some weapons in this category might have this property, others don't. Consult with your DM.">**thrown**</div> |
-| Simple | 1d6 | Handaxe, mace,<br/>spear | **Shove** (spear),<br/>**thrown** (handaxe, spear),<br/>**versatile** &sup1; (if large enough haft) |
-| Simple two-handed | 1d8 | Greatclub, quarterstaff | **Slam** (greatclub),<br/>**shove** (quarterstaff)
+| Simple light | 1d4 | Club, dagger,<br/>sickle | **Close quarters combat** (dagger),<br/>**conceal** (dagger),<br/>**finesse** (dagger),<br/>**slam** (club),<br/><a href="#internal-note1">**thrown** &sup1;</a> |
+| Simple | 1d6 | Handaxe, mace,<br/>spear | **Shove** (spear),<br/>**thrown** (handaxe, spear),<br/><a href="#internal-note1">**versatile** &sup1;</a> (if large enough haft) |
+| Simple two-handed | 1d8 | Greatclub,<br/>quarterstaff | **Slam** (greatclub),<br/>**shove** (quarterstaff)
 | | | | |
 | | | | |
 | | | | |
 | Martial light | 1d6 | Rapier, shortsword,<br/>trident | **Close quarters combat** (shortsword),<br/>**Finesse** (swords),<br/>**shove** (trident), **thrown** (trident),<br/>**versatile** (trident) |
-| Martial | 1d8 | Battleaxe, flail,<br/>morningstar, longsword,<br/>scimitar, war pick,<br/>warhammer | **Armor piercer** (war pick),<br/>**chained** (flail),<br/>**slam** (morningstar),<br/>**versatile** &sup1; (if large enough haft) |
+| Martial | 1d8 | Battleaxe, flail,<br/>morningstar,<br/>longsword,<br/>scimitar, war pick,<br/>warhammer | **Armor piercer** (war pick),<br/>**chained** (flail),<br/>**slam** (morningstar),<br/><a href="#internal-note1">**versatile** &sup1;</a> (if large enough haft) |
 | Martial two-handed, reach | 1d10 | Glaive, halberd,<br/>pike | **Shove** |
-| Martial two-handed | 2d6 | Greataxe, greatsword,<br/>maul | **Slam** (maul) |
-| | | | |
+| Martial two-handed | 2d6 | Greataxe,<br/>greatsword,<br/>maul | **Slam** (maul) |
 
 </div>
-
-<!-- | | | | |
-| &sup1; While some weapons in this category might have this property, others don't. Consult with your DM.|||| -->
 
 A **melee** weapon is used to attack targets within 5 feet of you, and are divided into categories that have some characteristics in common.
 
@@ -336,4 +332,10 @@ You only need the smallest of blades to deal crippling wounds, and are skilled a
 
 
 
+
+<hr>
+
+## <a class="internal-link" name="internal-notes">Notes</a>
+
+- <a class="internal-link" name="internal-note1">&sup1; While some weapons in this category might have this property, others don't. Consult with your DM.</a>
 
