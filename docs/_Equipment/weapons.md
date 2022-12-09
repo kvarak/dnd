@@ -40,16 +40,16 @@ The different Weapon tables below shows categories, the damage they deal when th
 ### <a class="internal-link" name="internal-meleeCategories">Melee Weapon Categories</a>
 | Type | Damage | Examples | Properties |
 |:----|:---:|:----|:----|
-| Simple light | 1d4 | Club, dagger, sickle | **Close quarters combat** (dagger), **conceal** (dagger), **finesse** (dagger), **slam** (club), **thrown** &sup1; |
-| Simple | 1d6 | Handaxe, mace, spear | **Shove** (spear), **thrown** (handaxe, spear), **versatile** &sup1; (if weapon has large enough haft) |
-| Simple two-handed | 1d8 | Greatclub, quarterstaff | **Slam** (greatclub), **shove** (quarterstaff)
+| Simple light | 1d4 | Club, dagger,<br/>sickle | **Close quarters combat** (dagger),<br/>**conceal** (dagger),<br/>**finesse** (dagger),<br/>**slam** (club),<br/>**thrown** &sup1; |
+| Simple | 1d6 | Handaxe, mace,<br/>spear | **Shove** (spear),<br/>**thrown** (handaxe, spear),<br/>**versatile** &sup1; (if large enough haft) |
+| Simple two-handed | 1d8 | Greatclub, quarterstaff | **Slam** (greatclub),<br/>**shove** (quarterstaff)
 | | | | |
 | | | | |
 | | | | |
-| Martial light | 1d6 | Rapier, shortsword, trident | **Close quarters combat** (shortsword), **Finesse** (swords), **shove** (trident), **thrown** (trident), **versatile** (trident) |
-| Martial | 1d8 | Battleaxe, flail, morningstar, longsword, scimitar, war pick, warhammer | **Armor piercer** (war pick), **chained** (flail), **slam** (morningstar), **versatile** &sup1; (if weapon has large enough haft) |
-| Martial two-handed, reach | 1d10 | Glaive, halberd, pike | **Shove** |
-| Martial two-handed | 2d6 | Greataxe, greatsword, maul | **Slam** (maul) |
+| Martial light | 1d6 | Rapier, shortsword,<br/>trident | **Close quarters combat** (shortsword),<br/>**Finesse** (swords),<br/>**shove** (trident), **thrown** (trident),<br/>**versatile** (trident) |
+| Martial | 1d8 | Battleaxe, flail,<br/>morningstar, longsword,<br/>scimitar, war pick,<br/>warhammer | **Armor piercer** (war pick),<br/>**chained** (flail),<br/>**slam** (morningstar),<br/>**versatile** &sup1; (if large enough haft) |
+| Martial two-handed, reach | 1d10 | Glaive, halberd,<br/>pike | **Shove** |
+| Martial two-handed | 2d6 | Greataxe, greatsword,<br/>maul | **Slam** (maul) |
 | | | | |
 | | | | |
 | &sup1; While some weapons in this category might have this property, others don't. Consult with your DM.||||
@@ -136,6 +136,8 @@ Some weapons do not follow the generic patterns of damage, or have unusual rules
 
 
 
+
+<hr class="classdivider">
 
 # <a class="internal-link" name="internal-ranged">Ranged Weapons</a>
 
