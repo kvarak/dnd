@@ -132,7 +132,7 @@ Your fey heritage makes people easily fascinated by you. Gain +1 Charisma.
 </details>
 </details>
 
-<details><summary>Pixie Wings
+<details><summary>Pixie Wings (trait)
 
 ***Requirements:** level 12*
 </summary>
@@ -155,7 +155,7 @@ While flying on the material plane, you have disadvantage on ability checks to h
 
 <details><summary>Wing Dust</summary>
 
-Like some other winged fey creatures, you can splash your magical dust using your wings. You can sprinkle a colored type of dust on an adjacent creature as an ***action***.
+Like some other winged fey creatures, you can splash magical dust using your wings. You can sprinkle a colored type of dust on an adjacent creature as an ***action***.
 
 The pale blue dust makes a creature not needing to breathe for 1 hour.
 
