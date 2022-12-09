@@ -9,7 +9,6 @@ layout: default
 ##### <a href="#internal-archetypes">Martial Archetypes</a>
 <a href="#internal-arbalestion">Arbalestion</a><br/>
 <a href="#internal-ArcaneArcher">Arcane Archer</a><br/>
-<a href="#internal-Brute">Brute</a><br/>
 <a href="#internal-bulwark">Bulwark</a><br/>
 <a href="#internal-Champion">Champion</a><br/>
 <a href="#internal-daredevil">Daredevil</a><br/>
@@ -416,27 +415,26 @@ The following additions are made to the general rest rules.
 
 An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.
 
-
 ### Arcane Archer Lore
-At 3rd level, you learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the *prestidigitation* or the *druidcraft* cantrip.
+You learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. Add either *Arcana* or *Nature* to your class skills and gain 1 skill point to spend on the chosen skill. 
+
+Aditionally if you selected *Arcana*, you learn the *prestidigitation* cantrip, otherwise you learn the *druidcraft* cantrip.
 
 ### Arcane Shot
-At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see “*Arcane Shot Options*” below).
+You learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see “*Arcane Shot Options*” below).
 
 When you fire an arrow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. Once you use this ability, you can't use it again until you finish a short rest.
 
 You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.
 
 ### Magic Arrow
-At 7th level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target.
-
-
+Gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target.
 
 ### Curving Shot
-At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a ***bonus action*** to reroll the attack roll against a different target within 60 feet of the original target.
+You learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a ***bonus action*** to reroll the attack roll against a different target within 60 ft of the original target.
 
 ### Ever-Ready Shot
-Starting at 15th level, you are always ready with an Arcane Shot. When you roll initiative, you can use a one of your Arcane Shot maneuvers as part of the first ranged weapon attack you make, without expending a use of Arcane shot.
+You are always ready with an Arcane Shot. When you roll initiative, you can use a one of your Arcane Shot maneuvers as part of the first ranged weapon attack you make, without expending a use of Arcane shot.
 
 ## Arcane Shot Options
 The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.
@@ -466,12 +464,12 @@ If an option requires a saving throw, your Arcane Shot save DC equals 8 + your p
     The necrotic damage increases to 4d6 when you reach 18th level in this class.
 
 - #### Grasping Arrow
-    When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The target takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.
+    When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The target takes an extra 2d6 poison damage, its speed is reduced by 10 ft, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.
 
     The poison damage and slashing damage both increase to 4d6 when you reach 18th level in this class.
 
 - #### Piercing Arrow
-    You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow shoots forward in a 30 feet line before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.
+    You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow shoots forward in a 30 ft line before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.
 
     The piercing damage increases to 2d6 when you reach 18th level in this class.
 
@@ -485,61 +483,11 @@ If an option requires a saving throw, your Arcane Shot save DC equals 8 + your p
     The force damage increases to 2d6 when you reach 18th level in this class.
 
 - #### Shadow Arrow
-    You weave illusion magic into your arrow, causing it to occlude your foe’s vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.
+    You weave illusion magic into your arrow, causing it to occlude your foe’s vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 ft away until the start of your next turn.
 
     The psychic damage increases to 4d6 when you reach 18th level in this class.
 
 </div>
-
-<hr class="classdivider">
-<h1><a class="internal-link" name="internal-Brute">Brute</a></h1>
-<div class="featuresTable">
-
-#### Brute Features
-| Fighter Level | Feature |
-|:-------------:|:--------|
-| 3rd | Fearsome Brute, Heavy Metal
-| 7th | Beast of Burden
-| 10th | Hulking Hurler
-| 15th | Musclebound Enforcer
-| 18th | Combat Brute
-
-</div>
-
-The battlefield attracts fighters of all types and creeds. Inevitably, each fighter will do his damnedest to prove to the others that his way is the "right" way of fighting: the Champion sculpts his body into a figure made of marble, the Battle Master uses tricks and tactics to control the flow of combat, and the Eldritch Knights straight-up cheat by bringing magic into the whole mess. Kensai, Duelists and Weapon masters of all types, they all think they know how to win.
-
-The real answer is much, much more simple: Pick up the biggest, heaviest thing you can find, and squash the rest of them with it.
-
-That's the Brute Way.
-
-
-
-
-### Fearsome Brute
-Beginning at 3rd level, you gain proficiency with the Intimidation skill and always have advantage on such checks. In addition you can use Strength when intimidating a creature of your size or smaller.
-
-### Heavy Metal
-Starting at 3rd level, the Brute learns how to make the most out of the biggest, heaviest weapons. When wielding a weapon with the Heavy trait, you deal an additional 1d4 damage per strike. This increases to 1d6 at 10th level and 1d8 at 18th level.
-
-In addition, you can use your ***bonus action*** to deal an additional 1d4 of weapon damage on a successful hit with a heavy weapon and force the target to succeed on a Strength saving throw against 8 + your proficiency bonus + your Strength modifier, or be shoved 5 feet away for every 10 points of damage dealt by this attack. Creatures of Huge size or larger automatically succeed on the saving throw from this feature.
-
-The extra damage from this feature increases to 1d6 at 7th level, 1d8 at 11th level, 1d10 at 15th level, and 1d12 at 20th level.
-
-
-
-### Beast of Burden
-Brutes are adept at lugging lots of heavy gear and how to effectively throw their weight around. Starting at 7th level, you double your capacities for carrying, lifting, pushing, and pulling, and gain advantage on noncombat strength checks.
-
-### Hulking Hurler
-Tossing big, heavy things at an enemy is always a useful tactic. At 10th level you can treat any weapon with the Heavy descriptor and any sufficiently large improvised weapon as if it had the Thrown Property, with a range of 20/60 feet, and you gain proficiency with thrown improvised weapons.
-
-### Musclebound Enforcer
-Violence never solves anything. The visible threat of violence, however will get you very far. At 15th level you have expertise with the Intimidation skill.
-
-### Combat Brute
-From 18th level, after shoving a target, you gain advantage on your next attack against that target. Also, after you hit using an attack action with a Heavy melee weapon, you may choose to forgo any number of additional attacks you get from the Extra Attack feature. For each attack you forego, you add two extra weapon damage dice to your damage roll.
-
-
 
 
 
@@ -561,26 +509,24 @@ From 18th level, after shoving a target, you gain advantage on your next attack 
 Bulwarks are elite defensive warriors whose strengths shine while fighting side by side with their allies. Though trained to use weapons of all types, they are especially effective when using a protective style of fighting with a weapon and shield. Alone, a Bulwark is a small threat, but when fighting alongside their allies they are impenetrable walls of steel.
 
 ### Guardian Stance
-Beginning at 3rd level, so long as you are wielding a shield, you can use a ***bonus action*** to enter a Guardian Stance. This Stance lasts indefinitely and ends early if you are incapacitated or end it as a free action. While in this Stance, you gain the following features:
-* Your base movement speed is reduced by 10 feet.
-* You can confer three-quarters cover against ranged attacks to adjacent allies.
-* Adjacent allies that are wielding a shield gain a +1 bonus to their AC.
-* As a ***reaction***, when an adjacent creature is hit by an attack, you can become the target of the attack, taking the damage of the attack, as well as any other results of the hit.
-* As a ***bonus action***, you can make a melee weapon attack with your shield. You are considered proficient with this attack, and on hit, your shield attack deals bludgeoning damage equal to 1d4 + your Strength modifier.
-
-
+As long as you are wielding a shield, you can use a ***bonus action*** to enter a Guardian Stance. This Stance lasts indefinitely and ends early if you are incapacitated or end it as a free action. While in this Stance, you gain the following features:
+- Your base movement speed is reduced by 10 ft.
+- You can confer three-quarters cover against ranged attacks to adjacent allies.
+- Adjacent allies that are wielding a shield gain a +1 bonus to their AC.
+- As a ***reaction***, when an adjacent creature is hit by an attack, you can become the target of the attack, taking the damage of the attack, as well as any other results of the hit.
+- As a ***bonus action***, you can make a melee weapon attack with your shield. You are considered proficient with this attack, and on hit, your shield attack deals bludgeoning damage equal to 1d4 + your Strength modifier.
 
 ### Steadying Influence
-Beginning at 7th level, you emanate an aura of confidence. Any creature to which you are conferring cover can make the first ranged spell or weapon attack roll on each of its turns with advantage.
+You emanate an aura of confidence. Any creature to which you are conferring cover can make the first ranged spell or weapon attack roll on each of its turns with advantage.
 
 ### Mobile Cover
-Beginning at 10th level, you can coordinate your movement with your allies as you shield them from attacks. Whenever a creature to which you are conferring cover moves on their turn, you can use your ***reaction*** to move with them, up to a maximum distance equal to your speed.
+You can coordinate your movement with your allies as you shield them from attacks. Whenever a creature to which you are conferring cover moves on their turn, you can use your ***reaction*** to move with them, up to a maximum distance equal to your speed.
 
 ### Immovable Object
-Beginning at 15th level, you cannot be shoved or knocked prone.
+You cannot be shoved or knocked prone.
 
 ### Unshakable Bastion
-You are a master amongst Stalwarts. Starting at 18th level, your Guardian Stance feature can affect creatures within 10 feet.
+You are a master amongst Stalwarts. Your Guardian Stance feature can affect creatures within 10 feet.
 
 
 
@@ -604,25 +550,22 @@ You are a master amongst Stalwarts. Starting at 18th level, your Guardian Stance
 
 The champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.
 
-
 ### Improved Critical
-Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.
-
-
+Your weapon attacks score a critical hit on a roll of 19 or 20.
 
 ### Remarkable Athlete
-Starting at 7th level, you can gain advantage on any Strength, Dexterity, or Constitution check you make.
+You can gain advantage on any Strength, Dexterity, or Constitution check you make.
 
 In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.
 
 ### Additional Fighting Style
-At 10th level, you can choose a second option from the Fighting Style class feature.
+You can choose a second option from the Fighting Style class feature.
 
 ### Superior Critical
-Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.
+Your weapon attacks score a critical hit on a roll of 18-20.
 
 ### Survivor
-At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.
+You attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.
 
 
 
