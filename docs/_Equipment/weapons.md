@@ -51,10 +51,11 @@ The different Weapon tables below shows categories, the damage they deal when th
 | Martial two-handed, reach | 1d10 | Glaive, halberd,<br/>pike | **Shove** |
 | Martial two-handed | 2d6 | Greataxe, greatsword,<br/>maul | **Slam** (maul) |
 | | | | |
-| | | | |
-| &sup1; While some weapons in this category might have this property, others don't. Consult with your DM.||||
 
 </div>
+
+<!-- | | | | |
+| &sup1; While some weapons in this category might have this property, others don't. Consult with your DM.|||| -->
 
 A **melee** weapon is used to attack targets within 5 feet of you, and are divided into categories that have some characteristics in common.
 
