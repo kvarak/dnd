@@ -26,14 +26,14 @@ layout: default
 <a href="#internal-Weapons">Weapons</a>
 
 ##### <a href="#internal-combat">Combat</a>
-<a href="#internal-Surprise">Surprise</a>
-<a href="#internal-Initiative">Initiative</a>
-<a href="#internal-Movement">Movement</a>
-<a href="#internal-ActionsinCombat">Actions in Combat</a>
-<a href="#internal-Cover">Cover</a>
-<a href="#internal-Resistances">Resistances</a>
-<a href="#internal-Droppingto0hp">Dropping to 0 hp</a>
-<a href="#internal-MountedCombat">Mounted Combat</a>
+<a href="#internal-Surprise">Surprise</a><br/>
+<a href="#internal-Initiative">Initiative</a><br/>
+<a href="#internal-Movement">Movement</a><br/>
+<a href="#internal-ActionsinCombat">Actions in Combat</a><br/>
+<a href="#internal-Cover">Cover</a><br/>
+<a href="#internal-Resistances">Resistances</a><br/>
+<a href="#internal-Droppingto0hp">Dropping to 0 hp</a><br/>
+<a href="#internal-MountedCombat">Mounted Combat</a><br/>
 <a href="#internal-UnderwaterCombat">Underwater Combat</a>
 
 
