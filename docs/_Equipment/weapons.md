@@ -186,6 +186,7 @@ Many weapons have special properties related to their use, as shown in the Weapo
 
 
 
+<div class="block classTable halfClassTable frame" markdown="1">
 
 
 #### Ammunition and Ranged accessories
@@ -213,6 +214,7 @@ Many weapons have special properties related to their use, as shown in the Weapo
 | **Other** | | |
 | Knife Vest  | 25 gp | 2 lb
 
+</div>
 
  **Arrow, Blinding**. Arrow with a small clay head containing a reactive chemical. On a hit, it releases a bright flash, blinding the target until the start of your next turn if it fails a DC10 Dexterity save. Deals bludgeoning damage, one die smaller than an ordinary arrow.
 
@@ -246,10 +248,28 @@ Many weapons have special properties related to their use, as shown in the Weapo
 
 
 
-
-{{}}">wide
 ## <a class="internal-link" name="internal-knives">Knives</a>
 
+<div class="block classTable halfClassTable frame" markdown="1">
+
+### Basic knives table
+| Name | Type | Damage | Price  | Weight | Properties |
+|:-----|:-----|:-------|:-----:|:------:|:-----------|
+| Dagger | Simple light | 1d4 piercing | 2&nbsp;gp | 1 lbs | Close quarters combat, conceal, finesse, thrown |
+| Knife | Simple light | 1d4 piercing or slashing | 2 gp | 1 lbs |  Close quarters combat, conceal, finesse, thrown |
+
+
+### Special knives table
+| Name | Type | Damage | Price  | Weight | Properties |
+|:-----|:-----|:-------|:-----:|:------:|:-----------|
+| Blade boot | Martial light | 1d4 piercing | 15&nbsp;gp | 1 lbs | Close quarters combat, conceal, finesse |
+| Hook | Simple light | 1d4 piercing | 5 gp | 1 lbs | Close quarters combat, finesse |
+| Main gauche | Martial light | 1d4 piercing | 15 gp | 1 lbs | Close quarters combat, finesse, parry |
+| Punching dagger | Martial light | 1d4 piercing | 2 gp | 1 lbs |  Close quarters combat, finesse |
+| Tamo daggers | Martial light | 1d4 piercing or 1d4 bludgeoning (as club) | 20 gp | 1 lbs | Close quarters combat, conceal,<br> finesse, thrown |
+| Tiger claws | Martial light | 1d4 piercing or slashing | 15 gp | 1 lbs | Close quarters combat, finesse |
+
+</div>
 
 The knife group includes daggers, knives, stilettos and punching daggers. Basically any short blade that deals piercing or slashing damage. Knives are usually simple light weapons, but there are some that require more training to use efficiently, i.e. making them martial weapons, such as the blade boot or tiger claws.
 
@@ -302,26 +322,6 @@ You only need the smallest of blades to deal crippling wounds, and are skilled a
 - You gain +1 bonus to AC while wielding a knife in one hand and nothing in your other hand.
 - When wielding a knife and a creature misses you with a melee attack, you can use your reaction to make an attack against that creature.
 - When you attack a creature with a knife during your turn and miss, you can use your bonus action to make another attack with the weapon against the same creature.
-
-{{}}">sTable,wide
-### Basic knives table
-| Name | Type | Damage | Price  | Weight | Properties |
-|:-----|:-----|:-------|:-----:|:------:|:-----------|
-| Dagger | Simple light | 1d4 piercing | 2&nbsp;gp | 1 lbs | Close quarters combat, conceal, finesse, thrown |
-| Knife | Simple light | 1d4 piercing or slashing | 2 gp | 1 lbs |  Close quarters combat, conceal, finesse, thrown |
-
-
-{{}}">sTable,wide
-### Special knives table
-| Name | Type | Damage | Price  | Weight | Properties |
-|:-----|:-----|:-------|:-----:|:------:|:-----------|
-| Blade boot | Martial light | 1d4 piercing | 15&nbsp;gp | 1 lbs | Close quarters combat, conceal, finesse |
-| Hook | Simple light | 1d4 piercing | 5 gp | 1 lbs | Close quarters combat, finesse |
-| Main gauche | Martial light | 1d4 piercing | 15 gp | 1 lbs | Close quarters combat, finesse, parry |
-| Punching dagger | Martial light | 1d4 piercing | 2 gp | 1 lbs |  Close quarters combat, finesse |
-| Tamo daggers | Martial light | 1d4 piercing or 1d4 bludgeoning (as club) | 20 gp | 1 lbs | Close quarters combat, conceal,<br> finesse, thrown |
-| Tiger claws | Martial light | 1d4 piercing or slashing | 15 gp | 1 lbs | Close quarters combat, finesse |
-
 
 
 
