@@ -29,194 +29,208 @@ Unless otherwise noted, a herb can be prepared during a long rest.
 ## Terrain
 This tables are used to randomly determine which ingredient are found in different terrains. Additional rulings can be found next to each ingredient on the charts below.
 
+<div class="columnsthree">
 
-#### Arctic Ingredients
-| d100 | Ingredient | Additional Rule(s) |
-|:---:|:-----------|:-------------------|
-| 1&nbsp;-&nbsp;15 | Ceran | |
-| 16&nbsp;-&nbsp;30 | Colewort | |
-| 31&nbsp;-&nbsp;45 | Guardseye | |
-| 46&nbsp;-&nbsp;55| Halcyon&nbsp;crocus | |
-| 56&nbsp;-&nbsp;65 | Jojopo | |
-| 66&nbsp;-&nbsp;70 | Laumspur | |
-| 67| Oilosse | Only one dose found |
-| 68&nbsp;-&nbsp;100| Common&nbsp;Ingredient | |
+-   <div class="block classTable frame" markdown="1">
 
+    #### Arctic Ingredients
+    | d100 | Ingredient | Additional Rule(s) |
+    |:---:|:-----------|:-------------------|
+    | 1&nbsp;-&nbsp;15 | Ceran | |
+    | 16&nbsp;-&nbsp;30 | Colewort | |
+    | 31&nbsp;-&nbsp;45 | Guardseye | |
+    | 46&nbsp;-&nbsp;55| Halcyon&nbsp;crocus | |
+    | 56&nbsp;-&nbsp;65 | Jojopo | |
+    | 66&nbsp;-&nbsp;70 | Laumspur | |
+    | 67| Oilosse | Only one dose found |
+    | 68&nbsp;-&nbsp;100| Common&nbsp;Ingredient | |
 
+    </div>
 
+-   <div class="block classTable frame" markdown="1">
 
+    #### Coastal Ingredients
+    | d100 | Ingredient | Additional Rule(s) |
+    |:---:|:-----------|:-------------------|
+    | 1&nbsp;-&nbsp;6 | Colewort | |
+    | 7&nbsp;-&nbsp;12 | Dahkra | |
+    | 13&nbsp;-&nbsp;18 | Goblin rogue | Find 2x rolled amount from Aug-Nov, otherwise reroll
+    | 19&nbsp;-&nbsp;24 | Goldbark bulb | |
+    | 25&nbsp;-&nbsp;30 | Gylvir | |
+    | 31&nbsp;-&nbsp;36 | Harrada tree | |
+    | 37&nbsp;-&nbsp;42 | Hyancinth nectar | |
+    | 43&nbsp;-&nbsp;48 | Laumspur | |
+    | 49&nbsp;-&nbsp;54 | Sakrash tree | Find 2x the rolled amount |
+    | 55&nbsp;-&nbsp;60 | Terrap bush | |
+    | 61&nbsp;-&nbsp;66 | Yewclaw | |
+    | 67&nbsp;-&nbsp;100 | Common&nbsp;Ingredient | &nbsp; |
 
-#### Coastal Ingredients
-| d100 | Ingredient | Additional Rule(s) |
-|:---:|:-----------|:-------------------|
-| 1&nbsp;-&nbsp;6 | Colewort | |
-| 7&nbsp;-&nbsp;12 | Dahkra | |
-| 13&nbsp;-&nbsp;18 | Goblin rogue | Find 2x rolled amount from Aug-Nov, otherwise reroll
-| 19&nbsp;-&nbsp;24 | Goldbark bulb | |
-| 25&nbsp;-&nbsp;30 | Gylvir | |
-| 31&nbsp;-&nbsp;36 | Harrada tree | |
-| 37&nbsp;-&nbsp;42 | Hyancinth nectar | |
-| 43&nbsp;-&nbsp;48 | Laumspur | |
-| 49&nbsp;-&nbsp;54 | Sakrash tree | Find 2x the rolled amount |
-| 55&nbsp;-&nbsp;60 | Terrap bush | |
-| 61&nbsp;-&nbsp;66 | Yewclaw | |
-| 67&nbsp;-&nbsp;100 | Common&nbsp;Ingredient | &nbsp; |
+    </div>
 
+-   <div class="block classTable frame" markdown="1">
 
+    #### Desert Ingredients
+    | d100 | Ingredient |
+    |:---:|:-----------|
+    | 1&nbsp;-&nbsp;22 | Aloe vera |
+    | 23&nbsp;-&nbsp;44 | Entriste |
+    | 45&nbsp;-&nbsp;66 | Pesh |
+    | 67&nbsp;-&nbsp;88 | Sun pepper |
+    | 89&nbsp;-&nbsp;100 | Common Ingredient |
 
-#### Desert Ingredients
-| d100 | Ingredient |
-|:---:|:-----------|
-| 1&nbsp;-&nbsp;22 | Aloe vera |
-| 23&nbsp;-&nbsp;44 | Entriste |
-| 45&nbsp;-&nbsp;66 | Pesh |
-| 67&nbsp;-&nbsp;88 | Sun pepper |
-| 89&nbsp;-&nbsp;100 | Common Ingredient |
+    </div>
 
+-   <div class="block classTable frame" markdown="1">
 
+    #### Forest Ingredients
+    | d100 | Ingredient | Additional Rule(s) |
+    |:---:|:-----------|:-------------------|
+    | 1&nbsp;-&nbsp;5 | Bramble hold | |
+    | 6&nbsp;-&nbsp;10 | Bride's Veil | |
+    | 11&nbsp;-&nbsp;15 | Dahkra | |
+    | 16&nbsp;-&nbsp;20 | Faerie wings | |
+    | 21&nbsp;-&nbsp;25 | Flayleaf | |
+    | 26&nbsp;-&nbsp;30 | Goblin rogue | Find 2x rolled amount from Aug-Nov, otherwise reroll
+    | 31&nbsp;-&nbsp;35 | Goldbark bulb | |
+    | 36&nbsp;-&nbsp;40 | Harrada tree | |
+    | 41&nbsp;-&nbsp;45 | Pollencloud Berries | |
+    | 46&nbsp;-&nbsp;50 | Sakrash | |
+    | 51&nbsp;-&nbsp;55 | Sparkleberry | |
+    | 56&nbsp;-&nbsp;60 | Specterflower | |
+    | 61&nbsp;-&nbsp;65 | Terrap | |
+    | 66&nbsp;-&nbsp;70 | Torchstalk | |
+    | 71&nbsp;-&nbsp;75 | Willowshade | |
+    | 76&nbsp;-&nbsp;80 | Yewclaw | |
+    | 81&nbsp;-&nbsp;100 | Common&nbsp;Ingredient | |
 
-#### Forest Ingredients
-| d100 | Ingredient | Additional Rule(s) |
-|:---:|:-----------|:-------------------|
-| 1&nbsp;-&nbsp;5 | Bramble hold | |
-| 6&nbsp;-&nbsp;10 | Bride's Veil | |
-| 11&nbsp;-&nbsp;15 | Dahkra | |
-| 16&nbsp;-&nbsp;20 | Faerie wings | |
-| 21&nbsp;-&nbsp;25 | Flayleaf | |
-| 26&nbsp;-&nbsp;30 | Goblin rogue | Find 2x rolled amount from Aug-Nov, otherwise reroll
-| 31&nbsp;-&nbsp;35 | Goldbark bulb | |
-| 36&nbsp;-&nbsp;40 | Harrada tree | |
-| 41&nbsp;-&nbsp;45 | Pollencloud Berries | |
-| 46&nbsp;-&nbsp;50 | Sakrash | |
-| 51&nbsp;-&nbsp;55 | Sparkleberry | |
-| 56&nbsp;-&nbsp;60 | Specterflower | |
-| 61&nbsp;-&nbsp;65 | Terrap | |
-| 66&nbsp;-&nbsp;70 | Torchstalk | |
-| 71&nbsp;-&nbsp;75 | Willowshade | |
-| 76&nbsp;-&nbsp;80 | Yewclaw | |
-| 81&nbsp;-&nbsp;100 | Common&nbsp;Ingredient | |
+    </div>
 
+-   <div class="block classTable frame" markdown="1">
 
+    #### Grasslands Ingredients
+    | d100 | Ingredient | Additional Rule(s) |
+    |:---:|:-----------|:-------------------|
+    | 1&nbsp;-&nbsp;7 | Aloe vera | |
+    | 8&nbsp;-&nbsp;14 | Devilweed | Find 2x the rolled amount |
+    | 15&nbsp;-&nbsp;21 | Entriste ||
+    | 22&nbsp;-&nbsp;28 | Featherfew ||
+    | 29&nbsp;-&nbsp;35 | Goblin rogue | Find 2x rolled amount from Aug-Nov, otherwise reroll |
+    | 36&nbsp;-&nbsp;42 | Goldbark bulb ||
+    | 43&nbsp;-&nbsp;49 | Kaitlin’s Weed ||
+    | 50&nbsp;-&nbsp;56 | Laumspur ||
+    | 58&nbsp;-&nbsp;60 | Pesh ||
+    | 61&nbsp;-&nbsp;67 | Pollencloud Berries | |
+    | 68&nbsp;-&nbsp;74 | Sparkleberry ||
+    | 75&nbsp;-&nbsp;81 | Sun pepper ||
+    | 82&nbsp;-&nbsp;88 | Terrap ||
+    | 89&nbsp;-&nbsp;100 | &nbsp;Common&nbsp;Ingredient | | |
 
+    </div>
 
+-   <div class="block classTable frame" markdown="1">
 
+    #### Jungle Ingredients
+    | d100 | Ingredient |
+    |:---:|:-----------|
+    | 1&nbsp;-&nbsp;5 | Bramble hold |
+    | 6&nbsp;-&nbsp;10 | Faranir tree |
+    | 11&nbsp;-&nbsp;15 | Flayleaf |
+    | 16&nbsp;-&nbsp;20 | Goldbark bulb |
+    | 21&nbsp;-&nbsp;25 | Harrada tree |
+    | 26&nbsp;-&nbsp;30 | Jinab
+    | 31&nbsp;-&nbsp;35 | Mallow
+    | 36&nbsp;-&nbsp;40 | Masthin
+    | 41&nbsp;-&nbsp;45 | Pollencloud Berries
+    | 46&nbsp;-&nbsp;50 | Ripplebark |
+    | 51&nbsp;-&nbsp;55 | Sparkleberry |
+    | 56&nbsp;-&nbsp;60 | Sakrash
+    | 61&nbsp;-&nbsp;65 | Specterflower
+    | 66&nbsp;-&nbsp;70 | Torchstalk
+    | 71&nbsp;-&nbsp;75 | Sun pepper
+    | 76&nbsp;-&nbsp;80 | Yewclaw
+    | 81&nbsp;-&nbsp;100 | Common&nbsp;Ingredient |
 
+    </div>
 
-
-
-
-#### Grasslands Ingredients
-| d100 | Ingredient | Additional Rule(s) |
-|:---:|:-----------|:-------------------|
-| 1&nbsp;-&nbsp;7 | Aloe vera | |
-| 8&nbsp;-&nbsp;14 | Devilweed | Find 2x the rolled amount |
-| 15&nbsp;-&nbsp;21 | Entriste ||
-| 22&nbsp;-&nbsp;28 | Featherfew ||
-| 29&nbsp;-&nbsp;35 | Goblin rogue | Find 2x rolled amount from Aug-Nov, otherwise reroll |
-| 36&nbsp;-&nbsp;42 | Goldbark bulb ||
-| 43&nbsp;-&nbsp;49 | Kaitlin’s Weed ||
-| 50&nbsp;-&nbsp;56 | Laumspur ||
-| 58&nbsp;-&nbsp;60 | Pesh ||
-| 61&nbsp;-&nbsp;67 | Pollencloud Berries | |
-| 68&nbsp;-&nbsp;74 | Sparkleberry ||
-| 75&nbsp;-&nbsp;81 | Sun pepper ||
-| 82&nbsp;-&nbsp;88 | Terrap ||
-| 89&nbsp;-&nbsp;100 | &nbsp;Common&nbsp;Ingredient | | |
-
-
-
-
-#### Jungle Ingredients
-| d100 | Ingredient |
-|:---:|:-----------|
-| 1&nbsp;-&nbsp;5 | Bramble hold |
-| 6&nbsp;-&nbsp;10 | Faranir tree |
-| 11&nbsp;-&nbsp;15 | Flayleaf |
-| 16&nbsp;-&nbsp;20 | Goldbark bulb |
-| 21&nbsp;-&nbsp;25 | Harrada tree |
-| 26&nbsp;-&nbsp;30 | Jinab
-| 31&nbsp;-&nbsp;35 | Mallow
-| 36&nbsp;-&nbsp;40 | Masthin
-| 41&nbsp;-&nbsp;45 | Pollencloud Berries
-| 46&nbsp;-&nbsp;50 | Ripplebark |
-| 51&nbsp;-&nbsp;55 | Sparkleberry |
-| 56&nbsp;-&nbsp;60 | Sakrash
-| 61&nbsp;-&nbsp;65 | Specterflower
-| 66&nbsp;-&nbsp;70 | Torchstalk
-| 71&nbsp;-&nbsp;75 | Sun pepper
-| 76&nbsp;-&nbsp;80 | Yewclaw
-| 81&nbsp;-&nbsp;100 | Common&nbsp;Ingredient |
-
-
-
-#### Mountain Ingredients
-| d100 | Ingredient |
-|:---:|:-----------|
-| 1&nbsp;-&nbsp;15 | Ceran |
-| 16&nbsp;-&nbsp;25 | Darkberry |
-| 26&nbsp;-&nbsp;40 | Guardseye |
-| 41&nbsp;-&nbsp;55 | Halcyon crocus |
-| 56&nbsp;-&nbsp;65 | Laumspur |
-| 66&nbsp;-&nbsp;75 | Troll Poppy
-| 76&nbsp;-&nbsp;85 | Willowshade
-| 81&nbsp;-&nbsp;100 | Common&nbsp;Ingredient |
+-   <div class="block classTable frame" markdown="1">
 
 
+    #### Mountain Ingredients
+    | d100 | Ingredient |
+    |:---:|:-----------|
+    | 1&nbsp;-&nbsp;15 | Ceran |
+    | 16&nbsp;-&nbsp;25 | Darkberry |
+    | 26&nbsp;-&nbsp;40 | Guardseye |
+    | 41&nbsp;-&nbsp;55 | Halcyon crocus |
+    | 56&nbsp;-&nbsp;65 | Laumspur |
+    | 66&nbsp;-&nbsp;75 | Troll Poppy
+    | 76&nbsp;-&nbsp;85 | Willowshade
+    | 81&nbsp;-&nbsp;100 | Common&nbsp;Ingredient |
+
+    </div>
+
+-   <div class="block classTable frame" markdown="1">
+
+    #### Swamp Ingredients
+    | d100 | Ingredient | Additional Rule(s) |
+    |:---:|:-----------|:-------------------|
+    | 1&nbsp;-&nbsp;6 | Blightshroom | |
+    | 7&nbsp;-&nbsp;12 | Dahkra | |
+    | 13&nbsp;-&nbsp;18 | Flayleaf | |
+    | 19&nbsp;-&nbsp;24 | Goblin rogue | Find 2x rolled amount from Aug-Nov, otherwise reroll |
+    | 25&nbsp;-&nbsp;30 | Goldbark bulb | |
+    | 31&nbsp;-&nbsp;36 | Harrada tree | |
+    | 37&nbsp;-&nbsp;42 | Hyancinth Nectar | |
+    | 43&nbsp;-&nbsp;48 | Musk Muddle | |
+    | 49&nbsp;-&nbsp;54 | Nightshade Berries | |
+    | 55&nbsp;-&nbsp;60 | Pollencloud Berries | |
+    | 61&nbsp;-&nbsp;66 | Sakrash | |
+    | 67&nbsp;-&nbsp;72 | Terrap | |
+    | 73&nbsp;-&nbsp;78 | Willowshade | |
+    | 79&nbsp;-&nbsp;84 | Yewclaw | |
+    | 85&nbsp;-&nbsp;100 | &nbsp;Common&nbsp;Ingredient | | |
+
+    </div>
+
+-   <div class="block classTable frame" markdown="1">
+
+    #### Underdark Ingredients
+    | d100 | Ingredient |
+    |:---:|:-----------|
+    | 1&nbsp;-&nbsp;23 | Aloe vera |
+    | 24&nbsp;-&nbsp;46 | Blue Toadshade |
+    | 47&nbsp;-&nbsp;79 | Darkberry |
+    | 80&nbsp;-&nbsp;92 | Torchstalk |
+    | 93&nbsp;-&nbsp;100 | Common&nbsp;Ingredient |
+
+    </div>
+
+-   <div class="block classTable frame" markdown="1">
+
+    #### Common Ingredients
+    | d100 | Ingredient | Additional Rule(s) |
+    |:---:|:-----------|:-------------------|
+    | 1-10 | Desna's Gift | Find 2x rolled amount
+    | 11-15 | Draaf | Find 2x rolled amount
+    | 16-24 | Exspiravit | |
+    | 25-33 | Ginseng | |
+    | 34-43 | Halfling thistle | |
+    | 44-49 | Hightop bloom | |
+    | 50-55 | Iraster | |
+    | 56-64 | Lavender | |
+    | 65-69 | Mandrake root | |
+    | 70-74 | Mellowroot | |
+    | 75-83 | Milkweed seeds | |
+    | 84-85 | Purple pipeweed | |
+    | 86-89 | Sycamore petals | |
+    | 91-92 | Waxworm | |
+    | 93-96 | White baneberry | |
+    | 97-100 | Wild Sageroot | |
 
 
+    </div>
 
-#### Swamp Ingredients
-| d100 | Ingredient | Additional Rule(s) |
-|:---:|:-----------|:-------------------|
-| 1&nbsp;-&nbsp;6 | Blightshroom | |
-| 7&nbsp;-&nbsp;12 | Dahkra | |
-| 13&nbsp;-&nbsp;18 | Flayleaf | |
-| 19&nbsp;-&nbsp;24 | Goblin rogue | Find 2x rolled amount from Aug-Nov, otherwise reroll |
-| 25&nbsp;-&nbsp;30 | Goldbark bulb | |
-| 31&nbsp;-&nbsp;36 | Harrada tree | |
-| 37&nbsp;-&nbsp;42 | Hyancinth Nectar | |
-| 43&nbsp;-&nbsp;48 | Musk Muddle | |
-| 49&nbsp;-&nbsp;54 | Nightshade Berries | |
-| 55&nbsp;-&nbsp;60 | Pollencloud Berries | |
-| 61&nbsp;-&nbsp;66 | Sakrash | |
-| 67&nbsp;-&nbsp;72 | Terrap | |
-| 73&nbsp;-&nbsp;78 | Willowshade | |
-| 79&nbsp;-&nbsp;84 | Yewclaw | |
-| 85&nbsp;-&nbsp;100 | &nbsp;Common&nbsp;Ingredient | | |
-
-
-
-#### Underdark Ingredients
-| d100 | Ingredient |
-|:---:|:-----------|
-| 1&nbsp;-&nbsp;23 | Aloe vera |
-| 24&nbsp;-&nbsp;46 | Blue Toadshade |
-| 47&nbsp;-&nbsp;79 | Darkberry |
-| 80&nbsp;-&nbsp;92 | Torchstalk |
-| 93&nbsp;-&nbsp;100 | Common&nbsp;Ingredient |
-
-
-
-#### Common Ingredients
-| d100 | Ingredient | Additional Rule(s) |
-|:---:|:-----------|:-------------------|
-| 1-10 | Desna's Gift | Find 2x rolled amount
-| 11-15 | Draaf | Find 2x rolled amount
-| 16-24 | Exspiravit | |
-| 25-33 | Ginseng | |
-| 34-43 | Halfling thistle | |
-| 44-49 | Hightop bloom | |
-| 50-55 | Iraster | |
-| 56-64 | Lavender | |
-| 65-69 | Mandrake root | |
-| 70-74 | Mellowroot | |
-| 75-83 | Milkweed seeds | |
-| 84-85 | Purple pipeweed | |
-| 86-89 | Sycamore petals | |
-| 91-92 | Waxworm | |
-| 93-96 | White baneberry | |
-| 97-100 | Wild Sageroot | |
-
+</div>
 
 
 
