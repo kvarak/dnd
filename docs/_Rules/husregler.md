@@ -59,6 +59,7 @@ layout: default
   <a href="#internal-ClimbinguponaShip">Climbing up on a Ship</a><br/>
   <a href="#internal-Resting">FallingoffaShip</a><br/>
   <a href="#internal-Underwater">Underwater</a><br/>
+  <a href="#internal-UnderwaterCombat">Underwater Combat</a><br/>
 
 </div>
 <!-- - <a href="#internal-travel">Travel</a><br/> -->
@@ -530,7 +531,7 @@ Specific rules for what happens in and on water. Unless otherwise noted all abil
     -- If you jump or dive into the water you can enter the water at any point up to the maximum distance you can jump.
 
 -   ### <a class="internal-link" name="internal-Underwater">Underwater</a>
-    You can swim underwater as long as you can hold your breath (see “Drowning” below). Your underwater swimming speed is the same as your surface swimming speed. You can swim straight down at half that speed. You can swim straight down at 15 ft per round if holding the equivalent of medium armor or 25 ft per round if holding the equivalent of heavy armor.
+    You can swim underwater as long as you can hold your breath (see “<a href="#internal-Drowning">Drowning</a>”). Your underwater swimming speed is the same as your surface swimming speed. You can swim straight down at half that speed. You can swim straight down at 15 ft per round if holding the equivalent of medium armor or 25 ft per round if holding the equivalent of heavy armor.
 
     Without armor you can swim toward the surface at a rate of 20 ft per round.
 
