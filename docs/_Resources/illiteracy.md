@@ -1,5 +1,5 @@
 ---
-title: Role-playing Illiteracy
+title: RP -- Role-playing Illiteracy
 layout: default
 ---
 

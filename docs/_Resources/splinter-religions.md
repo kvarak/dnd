@@ -1,5 +1,5 @@
 ---
-title: Splinter Religions
+title: RP -- Splinter Religions
 layout: default
 ---
 

@@ -140,6 +140,4 @@ A list of links to different generators to use when you need inspiration for a n
 <a class="c7" href="https://www.google.com/url?q=http://homebrewery.naturalcrit.com/print/By-Yk6latM&amp;sa=D&amp;source=editors&amp;ust=1670692134051035&amp;usg=AOvVaw2ty29YOHWAg7E6NQGuEqV7">Chases</a>
 <a class="c7" href="https://www.google.com/url?q=http://homebrewery.naturalcrit.com/print/ByMN3dkGN&amp;sa=D&amp;source=editors&amp;ust=1670692134051271&amp;usg=AOvVaw3JiUTq_M8_HvvKhuAuhiN5">Disease</a>
 <a class="c7" href="https://www.google.com/url?q=http://homebrewery.naturalcrit.com/print/BJHxpokf4&amp;sa=D&amp;source=editors&amp;ust=1670692134051509&amp;usg=AOvVaw2apC8R6-ova9zxFvVvW_5R">Downtime</a>
-<a class="c7" href="https://www.google.com/url?q=http://homebrewery.naturalcrit.com/print/ByWIGTJGzV&amp;sa=D&amp;source=editors&amp;ust=1670692134051744&amp;usg=AOvVaw1NA2nRecNqZNXHkkbkWoKh">Resurrection</a></span></p><p class="c4 c8"><span class="c0"></span></p><p class="c4 c8"><span class="c0"></span></p></div></div><script type="text/javascript" nonce="7s_zPM4QqH8r7HmKuQChFA">(function(){/*
-
-
+<a class="c7" href="https://www.google.com/url?q=http://homebrewery.naturalcrit.com/print/ByWIGTJGzV&amp;sa=D&amp;source=editors&amp;ust=1670692134051744&amp;usg=AOvVaw1NA2nRecNqZNXHkkbkWoKh">Resurrection</a>

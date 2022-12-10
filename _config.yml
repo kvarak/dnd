@@ -23,7 +23,5 @@ collections:
     output: true
   Resources:
     output: true
-  RP:
-    output: true
   Rules:
     output: true
