@@ -1,5 +1,5 @@
 ---
-title: Role-playing Illiteracy
+title: Splinter Religions
 layout: default
 ---
 
