@@ -286,11 +286,23 @@ There are three kinds of magic:
 
 <div class="columnsthree">
 
-- ***Arcane magic*** used by wizards, warlocks, sorcerers and bards, rely on an understanding — learned or intuitive — of the workings of the Weave that suffuses all existence.
+-   <div class="block classTable fillClassTable frame" markdown="1">
 
-- ***Divine magic*** is granted by the Gods to their most devoted followers, clerics and paladins.
+    ***Arcane magic*** used by wizards, warlocks, sorcerers and bards, rely on an understanding — learned or intuitive — of the workings of the Weave that suffuses all existence.
 
-- ***Primal magic*** which is provided by nature itself, or by ancestor spirits and filtered through nature. This magic is mostly used by druids, rangers and creatures close to nature, such as fey.
+    </div>
+
+-   <div class="block classTable fillClassTable frame" markdown="1">
+
+    ***Divine magic*** is granted by the Gods to their most devoted followers, clerics and paladins.
+
+    </div>
+
+-   <div class="block classTable fillClassTable frame" markdown="1">
+
+    ***Primal magic*** which is provided by nature itself, or by ancestor spirits and filtered through nature. This magic is mostly used by druids, rangers and creatures close to nature, such as fey.
+
+    </div>
 
 </div>
 
