@@ -401,11 +401,17 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
   <div class="block classTable fillClassTable frame" markdown="1">
 
   #### Travelling Pace
-  | Travel pace | Hour | Day | Guide | Forage | Scout | Hide Tracks | Effect |
-  |:------------|:----:|:---:|:-----:|:------:|:-----:|:-----------:|:-------|
-  | Slow | 1.5&nbsp;miles | 12&nbsp;miles | Advantage | Normal | Advantage | Advantage | -5 penalty to Perception
-  | Medium | 2&nbsp;miles | 16&nbsp;miles | Normal | Disadvantage | Normal | Normal | —
-  | Fast | 3&nbsp;miles | 24&nbsp;miles | Disadvantage | None | Disadvantage | Disadvantage | Able to use stealth
+  | Travel pace | Hour | Day | Guide | Forage |
+  |:------------|:----:|:---:|:-----:|:------:|
+  | Slow | 1.5&nbsp;miles | 12&nbsp;miles | Adv. | Normal |
+  | Medium | 2&nbsp;miles | 16&nbsp;miles | Normal | Disadv. |
+  | Fast | 3&nbsp;miles | 24&nbsp;miles | Disadv. | None |
+
+  | Travel pace | Scout | Hide Tracks | Effect |
+  |:------------|:-----:|:-----------:|:-------|
+  | Slow | Adv. | Adv. | -5 penalty to Perception
+  | Medium | Normal | Normal | —
+  | Fast | Disadv. | Disadv. | Able to use stealth
 
   </div>
 
