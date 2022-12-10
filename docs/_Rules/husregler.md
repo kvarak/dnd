@@ -499,17 +499,17 @@ Specific rules for what happens in and on water. Unless otherwise noted all abil
 
     The time it takes to remove armor when in water is halved with a successful ***DC 15 Dexterity (Acrobatics) check***.
 
-    #### Light Armor
+-   #### Armor in water - Light Armor
     Attempting to swim while wearing light armor requires a ***DC 10 Strength check each round***. Failure means you have a speed of 0 as you go under water for that round and lose one held item, shield or weapon (your choice as to what you drop).
 
     Removing your armor after entering the water takes one minute (10 rounds). During this time you cannot swim or take any other actions. Make a ***DC 10 Dexterity check*** each round. Each successful round keeps your head above water and counts as one round of the rounds required to remove your armor. Failure means that you went under water this round and made no headway in removing your armor. After 3 failures you receive one level of exhaustion.
 
-    #### Medium Armor
+-   #### Armor in water - Medium Armor
     Swimming in medium armor requires a ***DC 15 Strength check*** each round. On a success, if you are on the surface at the beginning of the round, you stay on the surface. Each foot you swim cost you ***two extra feet*** of speed, and you can take no other actions besides shouting and stowing a weapon. Failure means you sink 10 ft and lose any still-carried shields or weapons. On the round following a failed save you are under water. After that, on a successful save you can swim toward the surface at a rate of 15 ft per round. On failure you sink another 10 ft.
 
     You can attempt to remove your armor, but you will be sinking at a rate of 10 ft per round during this time. It normally takes 5 minutes (50 rounds) to doff your armor.
 
-    #### Heavy Armor
+-   #### Armor in water - Heavy Armor
     You cannot swim while wearing heavy armor, giving you an effective speed of 0. Whenever you are in water, you lose any carried shields and weapons and begin to sink. Make a ***DC 25 Strength check*** each round. Success keeps your head above water, or if you start the round under water you can swim 15 ft toward the surface. You can take no other actions. Failure means you sink another 20 ft.
 
     You can attempt to remove your armor, but you will be sinking at a rate of 20 ft per round during this time. It normally takes 5 minutes (50 rounds) to doff your armor.
