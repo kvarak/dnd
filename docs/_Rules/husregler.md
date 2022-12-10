@@ -61,9 +61,9 @@ layout: default
   <a href="#internal-SettingCamp">3. Setting Camp</a><br/>
   <a href="#internal-TheNightRest">4. The Night Rest</a><br/>
   <a href="#internal-RolesDuringTravel">Roles During Travel</a><br/>
-  <a href="#internal-RoleTheGuide">Role: The Guide</a><br/>
-  <a href="#internal-RoleTheForager">Role: The Forager</a><br/>
-  <a href="#internal-RoleTheLookout">Role: The Lookout</a><br/>
+  <a href="#internal-RoleTheGuide">The Guide</a><br/>
+  <a href="#internal-RoleTheForager">The Forager</a><br/>
+  <a href="#internal-RoleTheLookout">The Lookout</a><br/>
 
 - ##### <a href="#internal-water">Water rules</a>
   <a href="#internal-Armorinwater">Armor in water</a><br/>
@@ -455,7 +455,7 @@ A role can have only one leader, but any number of helpers. The leader makes the
 
 <div class="columnsthree">
 
-- ### <a class="internal-link" name="internal-RoleTheGuide">Role: The Guide</a>
+- ### <a class="internal-link" name="internal-RoleTheGuide">The Guide</a>
   The guide makes sure everyone is heading in the right direction and avoids obstacles. If the guide fails, the journey will take longer.
 
   When setting camp the guide rolls an Intelligence check using the DCs on the Guidance table. Cartography tools and the Survival skill will help you be a better guide.
@@ -480,7 +480,7 @@ A role can have only one leader, but any number of helpers. The leader makes the
 
   </div>
 
-- ### <a class="internal-link" name="internal-RoleTheForager">Role: The Forager</a>
+- ### <a class="internal-link" name="internal-RoleTheForager">The Forager</a>
   The forager finds food and water for the travelling party. If the forager fails, you can run out of essential supplies long before the journey reaches its destination — so make sure to pack plentiful supplies before you embark if you don't have a skilled forager.
 
   Roll an Wisdom check using the DCs on the Foraging table at the end of the day to see how much food and water you were able to hunt throughout the day. Hunting equipment and the Survival skill will help you forage.
@@ -505,7 +505,7 @@ A role can have only one leader, but any number of helpers. The leader makes the
 
   Additionally a character can forage for herbs. See the section for <a href="herbalism.html">Herbalism</a> for how that works.
 
-- ### <a class="internal-link" name="internal-RoleTheLookout">Role: The Lookout</a>
+- ### <a class="internal-link" name="internal-RoleTheLookout">The Lookout</a>
   The lookout ranges ahead during the day's travel and keeps an eye out for dangers. If the lookout fails, you may be ambushed by enemies and other hazards.
 
   If you are the lookout, you're responsible for making any perception checks during the day to spot incoming risks and dangers.
