@@ -15,6 +15,9 @@ layout: default
 ##### <a href="#internal-personality">Familiar personality</a>
 
 ##### <a href="#internal-list">Alphabetical list of familiars</a>
+<a href="internal-almiraj">Almiraj</a><br/>
+<a href="internal-amethystWyrmling">Amethyst Wyrmling</a><br/>
+<a href="internal-bat">Bat</a><br/>
 
 </div>
 
@@ -258,7 +261,7 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
 ## <a class="internal-link" name="internal-list">Alphabetical list of familiars</a>
 
-<div class="columnstwo">
+<div class="columnsthree">
 
 - <div class="monster multimonster frame">
   <table class="monster">
@@ -304,9 +307,7 @@ A familiar is an individual, and as such has a personality. When summoning your 
   </td></tr></tbody></table>
   </div>
 
-- <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='width:35%'/>
-
-
+- <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='width:65%'/>
 
 - <div class="monster multimonster frame">
   <table class="monster">
@@ -358,26 +359,45 @@ A familiar is an individual, and as such has a personality. When summoning your 
   </td></tr></tbody></table>
   </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-bat">Bat</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   11
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  5ft, fly 30ft
 
-## <a class="internal-link" name="internal-bat">Bat</a>
-*Tiny beast*
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
-**Armor Class**   11
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  5ft, fly 30ft
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4)|15 (+2)|8 (-1)|2 (-4)|12 (+1)|4 (-3)|
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4)|15 (+2)|8 (-1)|2 (-4)|12 (+1)|4 (-3)|
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
-**Senses.** Blindsight 60 ft
+  **Senses.** Blindsight 60 ft<br/>
+  ***Echolocation.*** The bat can't use its blindsight while deafened.<br/>
+  ***Keen Hearing.*** The bat has advantage on Perception checks that rely on hearing.
 
-***Echolocation.*** The bat can't use its blindsight while deafened.
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
-***Keen Hearing.*** The bat has advantage on Perception checks that rely on hearing.
-### Actions
-**Bite.** *Melee Attack*: +0 to hit, 1 piercing damage.
+  ### Actions
+  **Bite.** *Melee Attack*: +0 to hit, 1 piercing damage.
+
+  </td></tr></tbody></table>
+  </div>
 
 
 
