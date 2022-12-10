@@ -1,5 +1,5 @@
 ---
-title: 13 Ways to Role-play Illiteracy
+title: Role-playing Illiteracy
 layout: default
 ---
 
