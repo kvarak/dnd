@@ -18,6 +18,47 @@ layout: default
 <a href="internal-almiraj">Almiraj</a><br/>
 <a href="internal-amethystWyrmling">Amethyst Wyrmling</a><br/>
 <a href="internal-bat">Bat</a><br/>
+<a href="internal-cat">Cat</a><br/>
+<a href="internal-clockworkMouse">Clockwork Mouse</a><br/>
+<a href="internal-crab">Crab</a><br/>
+<a href="internal-craniumRat">Cranium Rat</a><br/>
+<a href="internal-crawlingClaw">Crawling Claw</a><br/>
+<a href="internal-donkey">Donkey</a><br/>
+<a href="internal-emeraldWyrmling">Emerald Wyrmling</a><br/>
+<a href="internal-flyingBook">Flying Book</a><br/>
+<a href="internal-fox">Fox</a><br/>
+<a href="internal-frog">Frog</a><br/>
+<a href="internal-giantRoach">Giant Roach</a><br/>
+<a href="internal-goreCrow">Gore Crow</a><br/>
+<a href="internal-hawk">Hawk</a><br/>
+<a href="internal-lanternBeetle">Lantern beetle</a><br/>
+<a href="internal-lizard">Lizard</a><br/>
+<a href="internal-mechanicalWyrmling">Mechanical Wyrmling</a><br/>
+<a href="internal-mimic">Mimic</a><br/>
+<a href="internal-moteEarth">Mote of Earth</a><br/>
+<a href="internal-moteFire">Mote of Fire</a><br/>
+<a href="internal-moteLight">Mote of Light</a><br/>
+<a href="internal-moteWater">Mote of Water</a><br/>
+<a href="internal-octopus">Octopus</a><br/>
+<a href="internal-oracularChicken">Oracular Chicken</a><br/>
+<a href="internal-owl">Owl</a><br/>
+<a href="internal-poisonousSnake">Poisonous snake</a><br/>
+<a href="internal-quipper">Quipper</a><br/>
+<a href="internal-ragDoll">Rag Doll</a><br/>
+<a href="internal-rat">Rat</a><br/>
+<a href="internal-raven">Raven</a><br/>
+<a href="internal-seaHorse">Sea horse</a><br/>
+<a href="internal-skullServant">Skull Servant</a><br/>
+<a href="internal-spider">Spider</a><br/>
+<a href="internal-squirrel">Squirrel</a><br/>
+<a href="internal-spidercat">Spidercat</a><br/>
+<a href="internal-shadowRat">Shadow Rat</a><br/>
+<a href="internal-tinSoldier">Tin Soldier</a><br/>
+<a href="internal-tressym">Tressym</a><br/>
+<a href="internal-weasel">Weasel</a><br/>
+<a href="internal-wingedPiglet">Winged Piglet</a><br/>
+<a href="internal-wingedMonkey">Winged Monkey</a><br/>
+<a href="internal-yarnGolem">Yarn Golem</a><br/>
 
 </div>
 
@@ -261,7 +302,11 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
 ## <a class="internal-link" name="internal-list">Alphabetical list of familiars</a>
 
+<br/>
+
 <div class="columnsthree">
+
+- <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='text-align: center;width:45%'/>
 
 - <div class="monster multimonster frame">
   <table class="monster">
@@ -306,8 +351,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   </td></tr></tbody></table>
   </div>
-
-- <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='width:65%'/>
 
 - <div class="monster multimonster frame">
   <table class="monster">
@@ -402,428 +445,665 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
 
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-cat">Cat</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
+
+  **Armor Class**   12<br/>
+  **Hit Points** 	  2 (1d4)<br/>
+  **Speed** 			  30 ft, climb 30 ft
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4)|15 (+2)|10 (0)|3 (-4)|12 (+1)|7 (-2)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills**   Perception +3, Stealth +4<br/>
+  **Senses**   Low-light vision 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  ***Keen Senses.*** The cat has advantage on Perception checks.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
+  ### Actions
+  **Claw.** *Melee Attack*: +0 to hit, 1 slashing damage.
+
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-crab">Crab</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
+
+  **Armor Class**   11
+  **Hit Points** 	  2 (1d4)
+  **Speed** 			  20 ft, swim 20 ft
+
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4)|11 (0)|10 (0)|1 (-5)|8 (-1)|2 (-4)|
+
+  **Skills**   Stealth +2
+  **Senses**   Blindsight 30ft., passive Perception 9
+
+  ***Amphibious.*** The crab can breathe air and water.
+  ### Actions
+  **Claw.** *Melee Attack*: +0 to hit, 1 slashing damage.
+
+  </td></tr></tbody></table>
+  </div>
+
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-clockworkMouse">Clockwork Mouse</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny construct</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  *"It's the oldest question of all, George. Who can spy on the spies?"*
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-c
+  *- Jon le Gearré - Tinker Gnome Spymaster.*
+
+  These sneaky scoundrels are perfect for the spymaster that doesn’t enjoy getting their hands dirty, which I believe is all of them. Perfected by Tinker Gnomes over the years, the clockwork mice are often disguised to look like ordinary mice and sent to lock or unlock doors, chests, and other things. Either to eavesdrop or obtain small items such as keys, signet rings, letters or gemstones.
 
+  ***Automated Agent.*** Clockwork mice are loyal to their creators, able to follow reasonably complicated orders and adept enough to carry out those orders with a reasonable success rate; although clockwork mice are often caught and destroyed by hawks and cats, much to the predator's disappointment.
 
+  When visiting a noble or dignitary who employs a gnomish advisor that may well be a spymaster, expect the walls to be brimming with tunnels and passageways for the engineered espionage to occur.
 
-<!-- Snippet end -->
- ::::::::
+  **Armor Class**   12
+  **Hit Points** 	  9 (2d4 + 4)
+  **Speed** 			  25 ft, climb 15 ft
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-cat">Cat</a>
-*Tiny beast*
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |8 (-1)|15 (+2)|14 (+2)|2 (-4)|10 (+0)|4 (-3)|
 
-**Armor Class**   12
-**Hit Points** 	  2 (1d4)
-**Speed** 			  30 ft, climb 30 ft
+  **Skills** 								  Perception +2, Stealth +4
+  **Damage Immunities** 		  poison, psychic
+  **Condition Immunities**	  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4)|15 (+2)|10 (0)|3 (-4)|12 (+1)|7 (-2)|
+  ***Lockpicking Tail.*** The tail of the clockwork mouse can split into a set of lockpicking tools. The clockwork mouse is considered proficient with thieves' tools and has advantage on any check made to pick locks.
+  ### Actions
+  ***Bite.*** *Melee Attack:* +1 to hit, 1d4-1 piercing damage.
 
-**Skills**   Perception +3, Stealth +4
-**Senses**   Low-light vision 30 ft
+  </td></tr></tbody></table>
+  </div>
 
-***Keen Senses.*** The cat has advantage on Perception checks.
-### Actions
-**Claw.** *Melee Attack*: +0 to hit, 1 slashing damage.
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-craniumRat">Cranium Rat</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-crab">Crab</a>
-*Tiny beast*
+  A cranium rat is almost indistinguishable from a normal rodent, except that a portion of its large brain is exposed and pulses with a soft glow.
 
-**Armor Class**   11
-**Hit Points** 	  2 (1d4)
-**Speed** 			  20 ft, swim 20 ft
+  **Armor Class**   12
+  **Hit Points** 	  2 (1d4)
+  **Speed** 			  30 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4)|11 (0)|10 (0)|1 (-5)|8 (-1)|2 (-4)|
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4)|14 (+2)|10 (0)|4 (-3)|11 (0)|8 (-1)|
 
-**Skills**   Stealth +2
-**Senses**   Blindsight 30ft., passive Perception 9
+  ***Senses*** 		  lowlight vision 30 ft
+  ***Language***    telepathy 30 ft
 
-***Amphibious.*** The crab can breathe air and water.
-### Actions
-**Claw.** *Melee Attack*: +0 to hit, 1 slashing damage.
+  ***Illumination.*** As a bonus action, the cranium rat can shed dim light from its brain in a 5-foot radius or extinguish the light.
 
+  ***Telepathic Shroud.*** The cranium rat is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells.
+  ### Actions
+  **Bite.** *Melee Attack*: +4 to hit,  1 piercing damage.
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-crawlingClaw">Crawling Claw</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny undead</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
- ::::::::
-### <a class="internal-link" name="internal-clockworkMouse">Clockwork Mouse</a>
-*"It's the oldest question of all, George. Who can spy on the spies?"*
+  **Armor Class**   12
+  **Hit Points** 	  2 (1d4)
+  **Speed** 			  20 ft, climb 20 ft
 
-*- Jon le Gearré - Tinker Gnome Spymaster.*
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |13 (+1)|14 (+2)|11 (0)|5 (-3)|10 (0)|4 (-3)|
 
-These sneaky scoundrels are perfect for the spymaster that doesn’t enjoy getting their hands dirty, which I believe is all of them. Perfected by Tinker Gnomes over the years, the clockwork mice are often disguised to look like ordinary mice and sent to lock or unlock doors, chests, and other things. Either to eavesdrop or obtain small items such as keys, signet rings, letters or gemstones.
+  **Damage Immunities** 		  poison
+  **Condition Immunities** 	  charmed, exhaustion, poisoned
+  **Senses** 								  blindsight 30 ft. (blind beyond this radius)
+  **Language** 							  understands Common but can't speak
 
-***Automated Agent.*** Clockwork mice are loyal to their creators, able to follow reasonably complicated orders and adept enough to carry out those orders with a reasonable success rate; although clockwork mice are often caught and destroyed by hawks and cats, much to the predator's disappointment.
+  ***Turn Immunity.*** The claw is immune to effects that turn undead.
+  ### Actions
+  **Claw.** *Melee Attack*: +3 to hit, 1d4+1 bludgeoning or slashing damage (claw's choice).
 
-When visiting a noble or dignitary who employs a gnomish advisor that may well be a spymaster, expect the walls to be brimming with tunnels and passageways for the engineered espionage to occur.
+  </td></tr></tbody></table>
+  </div>
 
-{{}}">monster,frame
-## Clockwork Mouse
-*Tiny construct*
 
-**Armor Class**   12
-**Hit Points** 	  9 (2d4 + 4)
-**Speed** 			  25 ft, climb 15 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|8 (-1)|15 (+2)|14 (+2)|2 (-4)|10 (+0)|4 (-3)|
 
-**Skills** 								  Perception +2, Stealth +4
-**Damage Immunities** 		  poison, psychic
-**Condition Immunities**	  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-donkey">Donkey</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Medium beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-***Lockpicking Tail.*** The tail of the clockwork mouse can split into a set of lockpicking tools. The clockwork mouse is considered proficient with thieves' tools and has advantage on any check made to pick locks.
-### Actions
-***Bite.*** *Melee Attack:* +1 to hit, 1d4-1 piercing damage.
+  What more could one want than an obedient donkey?
 
+  **Armor Class**   10
+  **Hit Points** 	  11 (2d8 + 2)
+  **Speed** 			  10 ft, fly 60 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |14 (+2)|10 (0) |13 (+1)|2 (-4) |10 (0) |5 (-3) |
 
+  ***Beast of Burden.*** The donkey is considered to be a Large animal for the purpose of determining its carrying capacity.
 
+  ***Sure-Footed.*** The donkey has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
 
+  ### Actions
+  **Hooves.** *Melee Attack*: +4 to hit, 1d4+2 bludgeoning damage.
 
+  </td></tr></tbody></table>
+  </div>
 
 
 
-### <a class="internal-link" name="internal-craniumRat">Cranium Rat</a>
-A cranium rat is almost indistinguishable from a normal rodent, except that a portion of its large brain is exposed and pulses with a soft glow.
 
-{{}}">monster,frame
-## Cranium Rat
-*Tiny beast*
 
-**Armor Class**   12
-**Hit Points** 	  2 (1d4)
-**Speed** 			  30 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4)|14 (+2)|10 (0)|4 (-3)|11 (0)|8 (-1)|
 
-***Senses*** 		  lowlight vision 30 ft
-***Language***    telepathy 30 ft
 
-***Illumination.*** As a bonus action, the cranium rat can shed dim light from its brain in a 5-foot radius or extinguish the light.
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-emeraldWyrmling">Emerald Wyrmling</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny dragon</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-***Telepathic Shroud.*** The cranium rat is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells.
-### Actions
-**Bite.** *Melee Attack*: +4 to hit,  1 piercing damage.
+  **Armor Class**   13
+  **Hit Points** 	  10 (3d4 + 3)
+  **Speed** 			  15 ft, fly 30 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4) |16 (+3)|12 (+1)|14 (+2)|14 (+2)|14 (+2)|
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-crawlingClaw">Crawling Claw</a>
-*Tiny undead*
+  **Skills** 							  Arcana +4, Perception +4
+  **Damage Resistances**	  thunder
+  **Senses** 							  low-light vision 60 ft
+  **Languages** 					  Draconic
 
-**Armor Class**   12
-**Hit Points** 	  2 (1d4)
-**Speed** 			  20 ft, climb 20 ft
+  ***Innate Spellcasting.*** The wyrmling’s can innately cast a number of spells, requiring no material components:
+  At will: *prestidigitation*
+  1/day: *fog cloud*
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|13 (+1)|14 (+2)|11 (0)|5 (-3)|10 (0)|4 (-3)|
+  ### Actions
+  **Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
 
-**Damage Immunities** 		  poison
-**Condition Immunities** 	  charmed, exhaustion, poisoned
-**Senses** 								  blindsight 30 ft. (blind beyond this radius)
-**Language** 							  understands Common but can't speak
+  **Sonic Breath** (1/day). The wyrmling exhales a cone of sonic energy in a 10-foot cone. Creatures in the area must make a DC 11 Constitution saving throw, taking 2d6 thunder damage on a failure, or half as much on a success.
 
-***Turn Immunity.*** The claw is immune to effects that turn undead.
-### Actions
-**Claw.** *Melee Attack*: +3 to hit, 1d4+1 bludgeoning or slashing damage (claw's choice).
+  </td></tr></tbody></table>
+  </div>
 
 
 
 
 
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-flyingBook">Flying Book</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny construct</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   13 (natural armor)
+  **Hit Points** 	  2 (1d4)
+  **Speed** 			  0 ft, fly 30 ft (hover)
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4)|15 (+2)|11 (+0)|1 (-5)|4 (-3)|1 (-5)|
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-d
+  **Damage Immunities** 			  poison, psychic
+  **Damage Vulnerabilities** 	  fire
+  **Condition Immunities** 		  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+  **Senses** 									  blindsight 60 ft. (blind beyond this radius)
 
+  ***Antimagic Susceptibility***. The flying book is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the flying books must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
 
+  ***False Appearance***. While the flying book remains motionless, it is indistinguishable from a normal book.
+  ### Actions
+  ***Slam.*** *Melee Attack:* +0 to hit, 1 bludgeoning damage.
 
-<!-- Snippet end -->
- ::::::::
+  </td></tr></tbody></table>
+  </div>
 
-### <a class="internal-link" name="internal-donkey">Donkey</a>
-What more could one want than an obedient donkey?
 
-{{}}">monster,frame
-## Donkey
-*Medium beast*
 
-**Armor Class**   10
-**Hit Points** 	  11 (2d8 + 2)
-**Speed** 			  10 ft, fly 60 ft
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-fox">Fox</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Small beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|14 (+2)|10 (0) |13 (+1)|2 (-4) |10 (0) |5 (-3) |
+  Foxes are renowned as clever animals, able to avoid the hunter’s hounds which seek them for their valuable furs. They are most active at night, but they can also be seen by day. Their tails are always tipped white, while their legs, feet, and tips of the ear are always black. The rest of their coat, however, is varied in color: Most commonly red, silver and platinum foxes are also known.
 
-***Beast of Burden.*** The donkey is considered to be a Large animal for the purpose of determining its carrying capacity.
+  **Armor Class**   12
+  **Hit Points** 	  3 (1d6)
+  **Speed** 			  30 ft
 
-***Sure-Footed.*** The donkey has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4) |15 (+2)|10 (0) |4 (-3) |14 (+2)|7 (-2) |
 
-### Actions
-**Hooves.** *Melee Attack*: +4 to hit, 1d4+2 bludgeoning damage.
+  **Skills**   Perception +3, Stealth +4, Survival +2
+  **Senses**   Low-light vision 30ft
 
+  ***Keen Hearing and Smell.*** The fox has advantage on Perception checks that rely on hearing or smell.
+  ### Actions
+  **Bite.** *Melee Attack*: +4 to hit, 1 piercing damage.
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-frog">Frog</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  A frog has no effective attacks. It feeds on small insects and typically dwells near water, in trees, or underground.
 
+  **Armor Class**   11
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  0 ft, fly 30 ft (hover)
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |1 (-5)|13 (+1)|8 (-1)|1 (-5)|8 (-1)|3 (-4)|
 
+  **Skills** Perception +1, Stealth +3
 
+  ***Amphibious.*** The frog can breathe air and water
 
+  ***Standing Leap.*** The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.
+  ### Actions
+  None
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-e
 
+  </td></tr></tbody></table>
+  </div>
 
 
-<!-- Snippet end -->
- ::::::::
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-emeraldWyrmling">Emerald Wyrmling</a>
-*Tiny dragon*
 
-**Armor Class**   13
-**Hit Points** 	  10 (3d4 + 3)
-**Speed** 			  15 ft, fly 30 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4) |16 (+3)|12 (+1)|14 (+2)|14 (+2)|14 (+2)|
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-giantRoach">Giant Roach</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Small beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-**Skills** 							  Arcana +4, Perception +4
-**Damage Resistances**	  thunder
-**Senses** 							  low-light vision 60 ft
-**Languages** 					  Draconic
+  Giant roaches are big, fat cockroaches the size of a small dog. Like their smaller cousins, they have wings and can fly, albeit not very well. They can be found anywhere there is food and a remote possibility that life can survive. Giant roaches prefer to eat crops and defenseless livestock, only attacking anything that can put up a fight if they are starving or attacked first.
 
-***Innate Spellcasting.*** The wyrmling’s can innately cast a number of spells, requiring no material components:
- At will: *prestidigitation*
- 1/day: *fog cloud*
+  **Armor Class**   13 (natural armor)
+  **Hit Points** 	  4 (1d6 + 1)
+  **Speed** 			  30 ft, fly 30 ft
 
-### Actions
-**Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |8 (-1) |10 (0) |12 (+1)|1 (-5) |7 (-2) |3 (-4) |
 
-**Sonic Breath** (1/day). The wyrmling exhales a cone of sonic energy in a 10-foot cone. Creatures in the area must make a DC 11 Constitution saving throw, taking 2d6 thunder damage on a failure, or half as much on a success.
+  **Senses**   Low-light vision 60ft, tremorsense 60 ft
 
+  ***Clumsy Flyer.*** A giant roach cannot sustain flight for more than one turn.
+  ### Actions
+  **Bite.** *Melee Attack*: +3 to hit, 1d6-1 piercing damage.
 
+  </td></tr></tbody></table>
+  </div>
 
 
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-goreCrow">Gore Crow</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny undead</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  Gore crows are birds whose corpses have been granted a twisted mimicry of life, often protecting the skies above territories claimed by necromancers.
 
+  The resurrection process used when creating gore crows darkens the feathers of any bird affected. This gives the creature it’s characteristic crow-like appearance, in reality a gore crow can be any breed of bird.
 
+  **Armor Class**   8
+  **Hit Points** 	  5 (2d4 + 1)
+  **Speed** 			  10 ft, fly 40 ft
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-f
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4)|8 (-1)|12 (+1)|1 (-5)|6 (-2)|3 (-3)|
 
+  **Saving Throws** 				  Wisdom +0
+  **Damage Immunities** 		  Poison
+  **Condition Immunities** 	  Poisoned
+  **Senses** 								  Darkvision 60 ft
 
+  ***Twisted Mimicry.*** The gore crow can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 7 Wisdom (Insight) check.
 
-<!-- Snippet end -->
- ::::::::
+  ***Undead Fortitude.*** If damage reduces the gore crow to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the gore crow drops to 1 hit point instead.
+  ### Actions
+  **Beak.** *Melee Attack*: +1 to hit, 1 piercing damage.
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-flyingBook">Flying Book</a>
-*Tiny construct*
+  </td></tr></tbody></table>
+  </div>
 
-**Armor Class**   13 (natural armor)
-**Hit Points** 	  2 (1d4)
-**Speed** 			  0 ft, fly 30 ft (hover)
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4)|15 (+2)|11 (+0)|1 (-5)|4 (-3)|1 (-5)|
 
-**Damage Immunities** 			  poison, psychic
-**Damage Vulnerabilities** 	  fire
-**Condition Immunities** 		  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
-**Senses** 									  blindsight 60 ft. (blind beyond this radius)
 
-***Antimagic Susceptibility***. The flying book is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the flying books must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
 
-***False Appearance***. While the flying book remains motionless, it is indistinguishable from a normal book.
-### Actions
-***Slam.*** *Melee Attack:* +0 to hit, 1 bludgeoning damage.
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-hawk">Hawk</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   13
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  10 ft, fly 60 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |5 (-3)|16 (+3)|8 (-1)|2 (-4)|14 (+2)|6 (-2)|
 
+  **Skills** Perception +4
 
- ::::::::
+  ***Keen Sight.*** The hawk has advantage on Perception checks that rely on sight.
+  ### Actions
+  **Talons.** *Melee Attack*: +0 to hit, 1 piercing damage.
 
-### <a class="internal-link" name="internal-fox">Fox</a>
-Foxes are renowned as clever animals, able to avoid the hunter’s hounds which seek them for their valuable furs. They are most active at night, but they can also be seen by day. Their tails are always tipped white, while their legs, feet, and tips of the ear are always black. The rest of their coat, however, is varied in color: Most commonly red, silver and platinum foxes are also known.
+  </td></tr></tbody></table>
+  </div>
 
-{{}}">monster,frame
-## Fox
-*Small beast*
 
-**Armor Class**   12
-**Hit Points** 	  3 (1d6)
-**Speed** 			  30 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4) |15 (+2)|10 (0) |4 (-3) |14 (+2)|7 (-2) |
 
-**Skills**   Perception +3, Stealth +4, Survival +2
-**Senses**   Low-light vision 30ft
 
-***Keen Hearing and Smell.*** The fox has advantage on Perception checks that rely on hearing or smell.
-### Actions
-**Bite.** *Melee Attack*: +4 to hit, 1 piercing damage.
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-lanternBeetle">Lantern beetle</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-### <a class="internal-link" name="internal-frog">Frog</a>
-A frog has no effective attacks. It feeds on small insects and typically dwells near water, in trees, or underground.
+  The lantern beetle looks like a big firefly. They normally live in the Underdark and feast primarily on the fungus that grows in the darkest caverns.
 
-{{}}">monster,frame
-## Frog
-*Tiny beast*
+  The glow of the lantern beetle’s abdomen is from the digestion of bioluminescent fungus, which reacts with the beetle’s gut to make the glow. They are often trained by denizens of the Underdark as mobile light sources.
 
-**Armor Class**   11
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  0 ft, fly 30 ft (hover)
+  **Armor Class**   13 (natural armor)
+  **Hit Points** 	  2 (1d4)
+  **Speed** 			  20 ft, climb 20 ft, fly 20 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|1 (-5)|13 (+1)|8 (-1)|1 (-5)|8 (-1)|3 (-4)|
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |6 (-2) |12 (+1)|10 (0) |1 (-5) |7 (-2) |3 (-4)|
 
-**Skills** Perception +1, Stealth +3
+  ***Illumination.*** The beetle can shed bright light at will in a 10 foot radius and dim light for an additional 10 feet. When it dies, its body continues to glow for another 6 hours.
 
-***Amphibious.*** The frog can breathe air and water
+  ### Actions
+  **Bite.** *Melee Attack*: +2 to hit, 1 piercing damage.
 
-***Standing Leap.*** The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.
-### Actions
-None
+  </td></tr></tbody></table>
+  </div>
 
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-lizard">Lizard</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   10
+  **Hit Points** 	  2 (1d4)
+  **Speed** 			  20 ft, climb 20 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4)|11 (0)|10 (0)|1 (-5)|8 (-1)|3 (-4)|
 
+  **Senses** Low-light vision 30ft
 
+  ### Actions
+  **Bite.** *Melee Attack*: +0 to hit, 1 piercing damage.
 
+  </td></tr></tbody></table>
+  </div>
 
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-g
 
 
 
-<!-- Snippet end -->
- ::::::::
 
-### <a class="internal-link" name="internal-giantRoach">Giant Roach</a>
-Giant roaches are big, fat cockroaches the size of a small dog. Like their smaller cousins, they have wings and can fly, albeit not very well. They can be found anywhere there is food and a remote possibility that life can survive. Giant roaches prefer to eat crops and defenseless livestock, only attacking anything that can put up a fight if they are starving or attacked first.
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-mechanicalWyrmling">Mechanical Wyrmling</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny construct</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-{{}}">monster,frame
-## Giant Roach
-*Small beast*
+  **Armor Class**   13 (natural armor)
+  **Hit Points** 	  6 (2d4 + 2)
+  **Speed** 			  20 ft, fly 25 ft
 
-**Armor Class**   13 (natural armor)
-**Hit Points** 	  4 (1d6 + 1)
-**Speed** 			  30 ft, fly 30 ft
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |10 (0) |10 (0) |13 (+1)|8 (-2) |9 (-1) |5 (-3) |
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|8 (-1) |10 (0) |12 (+1)|1 (-5) |7 (-2) |3 (-4) |
+  **Damage Immunities** 		  poison, psychic
+  **Condition Immunities**	  charmed, exhaustion, frightened, petrified, poisoned
+  **Senses** 								  darkvision 60 ft
 
-**Senses**   Low-light vision 60ft, tremorsense 60 ft
+  ***Axiomatic Mind.*** The mechanical wyrmling can't be compelled to act in a manner contrary to its nature or its instructions.
+  ### Actions
+  **Bite.** *Melee Attack*: +2 to hit, 1d4+1 piercing damage.
 
-***Clumsy Flyer.*** A giant roach cannot sustain flight for more than one turn.
-### Actions
-**Bite.** *Melee Attack*: +3 to hit, 1d6-1 piercing damage.
+  **Flame Jet**. The mechanical wyrmling exhales fire in a 20 foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 4d4 fire damage on a failed save, or half as much damage on a successful one.
 
+  </td></tr></tbody></table>
+  </div>
 
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-mimic">Mimic</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny monstrosity (shapechanger)</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
- ::::::::
-### <a class="internal-link" name="internal-goreCrow">Gore Crow</a>
-Gore crows are birds whose corpses have been granted a twisted mimicry of life, often protecting the skies above territories claimed by necromancers.
+  A mini version of the mimic.
 
-The resurrection process used when creating gore crows darkens the feathers of any bird affected. This gives the creature it’s characteristic crow-like appearance, in reality a gore crow can be any breed of bird.
+  **Armor Class**   12 (natural armor)
+  **Hit Points** 	  4 (2d4)
+  **Speed** 			  10 ft, climb 10 ft
 
-{{}}">monster,frame
-## Gore Crow
-*Tiny undead*
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |6 (-2) |12 (+1)|10 (0) |6 (-2) |12 (+1)|8 (-1) |
 
-**Armor Class**   8
-**Hit Points** 	  5 (2d4 + 1)
-**Speed** 			  10 ft, fly 40 ft
+  **Damage Immunities** 		  acid
+  **Condition Immunities**	  prone
+  **Senses** 								  darkvision 60 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4)|8 (-1)|12 (+1)|1 (-5)|6 (-2)|3 (-3)|
+  ***Adhesive***. The mimic adheres to creatures that that touch it. A creature can remove the mimic from itself using its action. The mimic has advantage on attack rolls against a creature it is adhered to. The mimic can adhere itself to a Small or larger creature by moving into its space.
 
-**Saving Throws** 				  Wisdom +0
-**Damage Immunities** 		  Poison
-**Condition Immunities** 	  Poisoned
-**Senses** 								  Darkvision 60 ft
+  ***False Appearance*** (Object Form Only). While the mimic remains motionless, it is indistinguishable from an ordinary tiny object.
 
-***Twisted Mimicry.*** The gore crow can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 7 Wisdom (Insight) check.
+  ***Shapechanger*** (1/Day). The mimic can use its ***action*** to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+  ### Actions
+  **Bite.** *Melee Attack*: +3 to hit, 1d4+1 piercing damage.
 
-***Undead Fortitude.*** If damage reduces the gore crow to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the gore crow drops to 1 hit point instead.
-### Actions
-**Beak.** *Melee Attack*: +1 to hit, 1 piercing damage.
+  </td></tr></tbody></table>
+  </div>
 
 
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-moteEarth">Mote of Earth</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny elemental</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  A mote of earth usually takes the shape of a tiny boulder, with small arms and legs that it can draw inside its body to assume a roundish shape.
 
+  **Armor Class**   14 (natural armor)
+  **Hit Points** 	  14 (2d4 + 9)
+  **Speed** 			  15 ft (30 ft when rolling, 60 ft when rolling downhill)
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |14 (+2)|8 (-1) |16 (+3)|5 (-3) |11 (0) |5 (-3) |
 
+  **Damage Resistances** 		  piercing and slashing from nonmagical weapons that aren’t adamantine
+  **Damage Immunities** 		  poison
+  **Condition Immunities**	  exhaustion, paralyzed, petrified, poisoned
+  **Senses** 								  darkvision 60 ft, tremorsense 30 ft
+  **Languages**	 						  Terran
 
+  ***Rolling Charge***. If the mote rolls at least 20 ft straight toward a target and then hits it with a slam attack on the same turn, the target takes an additional 1d6 bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-h
+  ***False Appearance***. While the mote remains motionless, it is indistinguishable from a normal tiny rock.
 
+  ***Siege Monster***. The mote deals double damage to objects and structures.
+  ### Actions
+  **Slam.** *Melee Attack*: +4 to hit, 1d6+2 bludgeoning damage.
 
+  </td></tr></tbody></table>
+  </div>
 
-<!-- Snippet end -->
- ::::::::
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-moteFire">Mote of Fire</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny elemental</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-hawk">Hawk</a>
-*Tiny beast*
+  **Armor Class**   13
+  **Hit Points** 	  7 (2d4 + 2)
+  **Speed** 			  30 ft
 
-**Armor Class**   13
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  10 ft, fly 60 ft
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |6 (-2) |16 (+3)|12 (+1)|6 (-2) |14 (+2)|7 (-2) |
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|5 (-3)|16 (+3)|8 (-1)|2 (-4)|14 (+2)|6 (-2)|
+  **Damage Vulnerabilities**  cold
+  **Damage Resistances** 		  bludgeoning, piercing, and slashing from nonmagical weapons
+  **Damage Immunities** 		  fire, poison
+  **Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
+  **Languages** 						  Ignan
 
-**Skills** Perception +4
+  ***Fire Form.*** The mote can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the mote takes 1 fire damage. If the mote enters a creature's space and stops there, the creature takes 1 fire damage.
 
-***Keen Sight.*** The hawk has advantage on Perception checks that rely on sight.
-### Actions
-**Talons.** *Melee Attack*: +0 to hit, 1 piercing damage.
+  ***Illumination.*** The mote sheds bright light in a 10-foot radius and dim light for an additional 20 feet.
 
+  ***Water Susceptibility.*** If the mote is submerged in water, it takes 1d4 cold damage.
+  ### Actions
+  **Touch.** *Melee Attack*: +4 to hit, 1d6 fire damage, and the target catches fire;
+  until someone takes an action to douse the fire, the creature takes 2 fire damage at the start of each of its turns.
 
 
 
@@ -831,865 +1111,724 @@ The resurrection process used when creating gore crows darkens the feathers of a
 
 
 
+  </td></tr></tbody></table>
+  </div>
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-l
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-moteLight">Mote of Light</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny elemental</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   13
+  **Hit Points** 	  5 (2d4)
+  **Speed** 			  0 ft, fly 30 ft (hover)
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4) |16 (+3)|10 (0) |5 (-3) |12 (+1)|14 (+2)|
 
-<!-- Snippet end -->
- ::::::::
+  **Skills** 								  Insight +3, Perception +3
+  **Damage Immunities** 		  radiant, poison
+  **Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
+  **Languages** 						  Celestial
 
-### <a class="internal-link" name="internal-lanternBeetle">Lantern beetle</a>
-The lantern beetle looks like a big firefly. They normally live in the Underdark and feast primarily on the fungus that grows in the darkest caverns.
+  ***Illumination.*** The mote sheds bright light in a 10-foot radius and dim light for an additional 20 feet. As a ***bonus action***, the mote can intensity the light to up to 20 foot radius (shedding dim light for an additional 40 feet), or dim the light to only shed dim light in a 5 foot radius. The mote’s light is overpowered by the darkness spell.
 
-The glow of the lantern beetle’s abdomen is from the digestion of bioluminescent fungus, which reacts with the beetle’s gut to make the glow. They are often trained by denizens of the Underdark as mobile light sources.
+  ***Luminescent Form.*** The mote can move through a space as narrow as 1 inch wide without squeezing.
+  ### Actions
+  **Flare.** *Melee Attack*: +5 to hit, 1d6 radiant damage.
 
-{{}}">monster,frame
-## Lantern beetle
-*Tiny beast*
+  **Dazzle.** (2/day). The mote flashes in a dazzling display at one creature within 10 feet of the mote that can see it. The target must succeed on a DC 11 Wisdom saving throw take 1d10 radiant damage and be blinded until the end of its next turn. Creatures without eyes or cannot see succeed this saving throw automatically.
 
-**Armor Class**   13 (natural armor)
-**Hit Points** 	  2 (1d4)
-**Speed** 			  20 ft, climb 20 ft, fly 20 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|6 (-2) |12 (+1)|10 (0) |1 (-5) |7 (-2) |3 (-4)|
+  </td></tr></tbody></table>
+  </div>
 
-***Illumination.*** The beetle can shed bright light at will in a 10 foot radius and dim light for an additional 10 feet. When it dies, its body continues to glow for another 6 hours.
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-moteWater">Mote of Water</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny elemental</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-### Actions
-**Bite.** *Melee Attack*: +2 to hit, 1 piercing damage.
+  **Armor Class**   10
+  **Hit Points** 	  14 (2d4 + 9)
+  **Speed** 			  20 ft, swim 40 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |14 (+2)|11 (0) |16 (+3)|5 (-3) |9 (-1) |4 (-3) |
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-lizard">Lizard</a>
-*Tiny beast*
+  **Damage Resistances** 		  bludgeoning, piercing, and slashing from nonmagical weapons
+  **Damage Immunities** 		  poison
+  **Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
+  **Senses** 								  darkvision 60 ft
 
-**Armor Class**   10
-**Hit Points** 	  2 (1d4)
-**Speed** 			  20 ft, climb 20 ft
+  ***Freeze.*** If the elemental takes 5 or more points of cold damage during a single turn, it partially freezes; its speeds are halved until the end of its next turn, and it loses its resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons for the same duration.
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4)|11 (0)|10 (0)|1 (-5)|8 (-1)|3 (-4)|
+  ***Water Form.*** The elemental can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. It can’t have its speed reduced or be forced to move without using its movement, action, or reaction, except by its Freeze trait.
+  ### Actions
+  **Slam.** *Melee Attack*: +4 to hit, 1d4+2 bludgeoning damage.
 
-**Senses** Low-light vision 30ft
 
-### Actions
-**Bite.** *Melee Attack*: +0 to hit, 1 piercing damage.
 
 
 
 
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-octopus">Octopus</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Small beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   12
+  **Hit Points** 	  3 (1d6)
+  **Speed** 			  5 ft, swim 30 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |4 (-3)|15 (+2)|11 (0)|3 (-4)|10 (0)|4 (-3)|
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-m
+  **Skills** Perception +2, Stealth +4
+  **Senses** Low-light vision 30ft
 
+  ***Hold Breath.*** While out of water, the octopus can hold its breath for 30 minutes.
 
+  ***Underwater Camouflage.*** The octopus has advantage on Stealth checks made while underwater.
 
-<!-- Snippet end -->
- ::::::::
+  ***Water Breathing.*** The octopus can breathe only underwater.
+  ### Actions
+  **Tentacles.** *Melee Attack*: +4 to hit, 1 bludgeoning damage. The target is grappled (escape DC 10) Until this grapple ends, the octopus can't use its tentacles on another target
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-mechanicalWyrmling">Mechanical Wyrmling</a>
-*Tiny construct*
+  **Ink Cloud (Recharges after a Short Rest).** A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a ***bonus action***.
 
-**Armor Class**   13 (natural armor)
-**Hit Points** 	  6 (2d4 + 2)
-**Speed** 			  20 ft, fly 25 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|10 (0) |10 (0) |13 (+1)|8 (-2) |9 (-1) |5 (-3) |
 
-**Damage Immunities** 		  poison, psychic
-**Condition Immunities**	  charmed, exhaustion, frightened, petrified, poisoned
-**Senses** 								  darkvision 60 ft
+  </td></tr></tbody></table>
+  </div>
 
-***Axiomatic Mind.*** The mechanical wyrmling can't be compelled to act in a manner contrary to its nature or its instructions.
-### Actions
-**Bite.** *Melee Attack*: +2 to hit, 1d4+1 piercing damage.
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-oracularChicken">Oracular Chicken</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-**Flame Jet**. The mechanical wyrmling exhales fire in a 20 foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 4d4 fire damage on a failed save, or half as much damage on a successful one.
+  It looks like a normal chicken, but has divination powers. Peple knowledgable about this draw runew on the ground. Where the chicken nests indicates the future.
 
+  **Armor Class**   10
+  **Hit Points** 	  2 (1d4-1)
+  **Speed** 			  25 ft, fly 15 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4) |10 (0) |8 (-1) |2 (-4) |12 (+1)|4 (-3)|
 
+  ***Clumsy Flyer.*** A chicken cannot sustain flight for more than one turn.
 
- ::::::::
-### <a class="internal-link" name="internal-mimic">Mimic</a>
-A mini version of the mimic.
+  ***Prophetic.*** When the oracular chicken is about to nest for the night, and it is in sight of arcane runes symbolising Weal and Woe, you can voice a question about the results of a specific course of action that you plan to take within the next day. Where the oracular chicken chooses to nest gives an omen of your future regarding that choice:
+  Weal, for good results
+  Woe, for bad results
+  Somewhere else, for both, or neither, good and bad results
 
-{{}}">monster,frame
-## Mimic
-*Tiny monstrosity (shapechanger)*
+  ### Actions
+  **Peck.** *Melee Attack*: +1 to hit, 1 piercing damage.
 
-**Armor Class**   12 (natural armor)
-**Hit Points** 	  4 (2d4)
-**Speed** 			  10 ft, climb 10 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|6 (-2) |12 (+1)|10 (0) |6 (-2) |12 (+1)|8 (-1) |
 
-**Damage Immunities** 		  acid
-**Condition Immunities**	  prone
-**Senses** 								  darkvision 60 ft
+  </td></tr></tbody></table>
+  </div>
 
-***Adhesive***. The mimic adheres to creatures that that touch it. A creature can remove the mimic from itself using its action. The mimic has advantage on attack rolls against a creature it is adhered to. The mimic can adhere itself to a Small or larger creature by moving into its space.
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-owl">Owl</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-***False Appearance*** (Object Form Only). While the mimic remains motionless, it is indistinguishable from an ordinary tiny object.
+  **Armor Class**   11
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  5 ft, fly 50 ft
 
-***Shapechanger*** (1/Day). The mimic can use its ***action*** to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
-### Actions
-**Bite.** *Melee Attack*: +3 to hit, 1d4+1 piercing damage.
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4)|13 (+1)|8 (-1)|2 (-4)|12 (+1)|7 (-2)|
 
+  **Skills**   Perception +3, Stealth + 3
+  **Senses**   Low-light vision 120 ft
 
-### <a class="internal-link" name="internal-moteEarth">Mote of Earth</a>
-A mote of earth usually takes the shape of a tiny boulder, with small arms and legs that it can draw inside its body to assume a roundish shape.
+  ***Flyby.*** The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.
 
+  ***Keen Hearing and Sight.*** The owl has advantage on Perception checks that rely on hearing or sight.
+  ### Actions
+  **Talons.** *Melee Attack*: +3 to hit, 1 piercing damage.
 
 
 
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-poisonousSnake">Poisonous snake</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   13
+  **Hit Points** 	  2 (1d4)
+  **Speed** 			  30 ft, swim 20 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4)|16 (+3)|11 (0)|1 (-5)|10 (0)|3 (-4)|
 
-{{}}">monster,frame
-## Mote of Earth
-*Tiny elemental*
+  **Senses** Blindsight 10 ft
 
-**Armor Class**   14 (natural armor)
-**Hit Points** 	  14 (2d4 + 9)
-**Speed** 			  15 ft (30 ft when rolling, 60 ft when rolling downhill)
+  ### Actions
+  **Bite.** *Melee Attack*: +5 to hit, 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 2d4 poison damage on a failed save, or half as much damage on a successful one.
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|14 (+2)|8 (-1) |16 (+3)|5 (-3) |11 (0) |5 (-3) |
 
-**Damage Resistances** 		  piercing and slashing from nonmagical weapons that aren’t adamantine
-**Damage Immunities** 		  poison
-**Condition Immunities**	  exhaustion, paralyzed, petrified, poisoned
-**Senses** 								  darkvision 60 ft, tremorsense 30 ft
-**Languages**	 						  Terran
 
-***Rolling Charge***. If the mote rolls at least 20 ft straight toward a target and then hits it with a slam attack on the same turn, the target takes an additional 1d6 bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
 
-***False Appearance***. While the mote remains motionless, it is indistinguishable from a normal tiny rock.
+  </td></tr></tbody></table>
+  </div>
 
-***Siege Monster***. The mote deals double damage to objects and structures.
-### Actions
-**Slam.** *Melee Attack*: +4 to hit, 1d6+2 bludgeoning damage.
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-quipper">Quipper</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   13
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  swim 40 ft
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-moteFire">Mote of Fire</a>
-*Tiny elemental*
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4)|16 (+3)|9 (-1)|1 (-5)|7 (-2)|2 (-4)|
 
-**Armor Class**   13
-**Hit Points** 	  7 (2d4 + 2)
-**Speed** 			  30 ft
+  **Senses** Low-light vision 60 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|6 (-2) |16 (+3)|12 (+1)|6 (-2) |14 (+2)|7 (-2) |
+  ***Blood Frenzy.*** The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points.
 
-**Damage Vulnerabilities**  cold
-**Damage Resistances** 		  bludgeoning, piercing, and slashing from nonmagical weapons
-**Damage Immunities** 		  fire, poison
-**Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
-**Languages** 						  Ignan
+  ***Water Breathing.*** The quipper can breathe only underwater.
+  ### Actions
+  **Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
 
-***Fire Form.*** The mote can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the mote takes 1 fire damage. If the mote enters a creature's space and stops there, the creature takes 1 fire damage.
 
-***Illumination.*** The mote sheds bright light in a 10-foot radius and dim light for an additional 20 feet.
 
-***Water Susceptibility.*** If the mote is submerged in water, it takes 1d4 cold damage.
-### Actions
-**Touch.** *Melee Attack*: +4 to hit, 1d6 fire damage, and the target catches fire;
-until someone takes an action to douse the fire, the creature takes 2 fire damage at the start of each of its turns.
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-ragDoll">Rag Doll</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny construct</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   11
+  **Hit Points** 	  2 (1d4)
+  **Speed** 			  20 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |4 (-3)|12 (+1)|10 (+0)|3 (-4)|5 (-3)|16 (+3)|
 
+  **Skills** 									  Persuasion +5, Stealth +5
+  **Damage Immunities** 			  poison, bludgeoning from nonmagical weapons
+  **Damage Vulnerabilities** 	  fire
+  **Condition Immunities** 		  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+  **Senses** 									  low-light vision 60 ft
 
+  ***False Appearance***. While the rag doll remains motionless, it is indistinguishable from a normal stuffed toy.
 
+  ***Mimicry***. The rag doll can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.
+  ### Actions
+  ***Slam.*** *Melee Attack:* +0 to hit, 1 bludgeoning damage.
 
+  </td></tr></tbody></table>
+  </div>
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-moteLight">Mote of Light</a>
-*Tiny elemental*
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-rat">Rat</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-**Armor Class**   13
-**Hit Points** 	  5 (2d4)
-**Speed** 			  0 ft, fly 30 ft (hover)
+  **Armor Class**   10
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  20 ft, climb 20 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4) |16 (+3)|10 (0) |5 (-3) |12 (+1)|14 (+2)|
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4)|11 (0)|9 (-1)|2 (-4)|10 (0)|4 (-3)|
 
-**Skills** 								  Insight +3, Perception +3
-**Damage Immunities** 		  radiant, poison
-**Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
-**Languages** 						  Celestial
+  **Senses** Low-light vision 30 ft
 
-***Illumination.*** The mote sheds bright light in a 10-foot radius and dim light for an additional 20 feet. As a ***bonus action***, the mote can intensity the light to up to 20 foot radius (shedding dim light for an additional 40 feet), or dim the light to only shed dim light in a 5 foot radius. The mote’s light is overpowered by the darkness spell.
+  ***Keen Smell.*** The rat has advantage on Perception checks that rely on smell.
+  ### Actions
+  **Bite.** *Melee Attack*: +0 to hit, 1 piercing damage.
 
-***Luminescent Form.*** The mote can move through a space as narrow as 1 inch wide without squeezing.
-### Actions
-**Flare.** *Melee Attack*: +5 to hit, 1d6 radiant damage.
 
-**Dazzle.** (2/day). The mote flashes in a dazzling display at one creature within 10 feet of the mote that can see it. The target must succeed on a DC 11 Wisdom saving throw take 1d10 radiant damage and be blinded until the end of its next turn. Creatures without eyes or cannot see succeed this saving throw automatically.
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-raven">Raven</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-moteWater">Mote of Water</a>
-*Tiny elemental*
+  **Armor Class**   12
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  10 ft, fly 50 ft
 
-**Armor Class**   10
-**Hit Points** 	  14 (2d4 + 9)
-**Speed** 			  20 ft, swim 40 ft
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4)|14 (+2)|8 (-1)|2 (-4)|12 (+1)|6 (-2)|
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|14 (+2)|11 (0) |16 (+3)|5 (-3) |9 (-1) |4 (-3) |
+  **Skills** Perception +3
 
-**Damage Resistances** 		  bludgeoning, piercing, and slashing from nonmagical weapons
-**Damage Immunities** 		  poison
-**Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
-**Senses** 								  darkvision 60 ft
+  ***Mimicry.*** The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.
+  ### Actions
+  **Beak.** *Melee Attack*: +4 to hit, 1 piercing damage.
 
-***Freeze.*** If the elemental takes 5 or more points of cold damage during a single turn, it partially freezes; its speeds are halved until the end of its next turn, and it loses its resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons for the same duration.
 
-***Water Form.*** The elemental can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. It can’t have its speed reduced or be forced to move without using its movement, action, or reaction, except by its Freeze trait.
-### Actions
-**Slam.** *Melee Attack*: +4 to hit, 1d4+2 bludgeoning damage.
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-seaHorse">Sea horse</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   11
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  swim 20 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |1 (-5)|12 (+1)|8 (-1)|1 (-5)|10 (0)|2 (-4)|
 
+  ***Water Breathing.*** The sea horse can breathe only underwater.
+  ### Actions
+  None
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-skullServant">Skull Servant</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny undead</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  A floating skull.
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-o
+  **Armor Class**   13
+  **Hit Points** 	  7 (2d4+2)
+  **Speed** 			  0 ft, fly 30 ft (hover)
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4) |16 (+3)|12 (+1)|12 (+1)|11 (0) |8 (-1) |
 
+  **Skills** 								  Arcana +3, History +3
+  **Damage Immunities** 		  poison
+  **Condition Immunities**	  exhaustion, poisoned, prone
+  **Senses** 								  darkvision 60 ft
+  **Languages** 						  all the languages it knew in life
 
-<!-- Snippet end -->
- ::::::::
+  ***Death Burst***. When the skull dies, it explodes into jagged bone fragments. Each creature within 5 feet of it must make a DC 12 Dexterity saving throw, taking 1d6 slashing damage on a failed save, or half as much on a success.
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-octopus">Octopus</a>
-*Small beast*
+  ***False Appearance***. While the skull remains motionless, it is indistinguishable from an ordinary skull.
+  ### Actions
+  **Bite.** *Melee Attack*: +5 to hit, 1d6+3 piercing damage.
 
-**Armor Class**   12
-**Hit Points** 	  3 (1d6)
-**Speed** 			  5 ft, swim 30 ft
+  **Scare** (1/day). One creature of the skull's choice within 20 feet of it must succeed on a DC 11 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|4 (-3)|15 (+2)|11 (0)|3 (-4)|10 (0)|4 (-3)|
+  </td></tr></tbody></table>
+  </div>
 
-**Skills** Perception +2, Stealth +4
-**Senses** Low-light vision 30ft
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-spider">Spider</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-***Hold Breath.*** While out of water, the octopus can hold its breath for 30 minutes.
+  **Armor Class**   12
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  20 ft, climb 20 ft
 
-***Underwater Camouflage.*** The octopus has advantage on Stealth checks made while underwater.
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4)|14 (+2)|8 (-1)|1 (-5)|10 (0)|2 (-4)|
 
-***Water Breathing.*** The octopus can breathe only underwater.
-### Actions
-**Tentacles.** *Melee Attack*: +4 to hit, 1 bludgeoning damage. The target is grappled (escape DC 10) Until this grapple ends, the octopus can't use its tentacles on another target
+  **Skills**   Stealth +4
+  **Senses**   Low-light vision 30 ft
 
-**Ink Cloud (Recharges after a Short Rest).** A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a ***bonus action***.
+  ***Spider Climb.*** The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
+  ***Web Sense.*** While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.
 
+  ***Web Walker.*** The spider ignores movement restrictions caused by webbing.
+  ### Actions
+  **Bite.** *Melee Attack*: +4 to hit, 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 1d4 poison damage.
 
+  </td></tr></tbody></table>
+  </div>
 
- ::::::::
-### <a class="internal-link" name="internal-oracularChicken">Oracular Chicken</a>
-It looks like a normal chicken, but has divination powers. Peple knowledgable about this draw runew on the ground. Where the chicken nests indicates the future.
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-squirrel">Squirrel</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-{{}}">monster,frame
-## Oracular Chicken
-*Tiny beast*
+  **Armor Class**   10
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  30 ft, climb 30 ft
 
-**Armor Class**   10
-**Hit Points** 	  2 (1d4-1)
-**Speed** 			  25 ft, fly 15 ft
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4) |15 (+2)|8 (-1) |2 (-4) |12 (+1)|4 (-3) |
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4) |10 (0) |8 (-1) |2 (-4) |12 (+1)|4 (-3)|
+  **Skills**   Acrobatics +4, Perception +4, Stealth +4
 
-***Clumsy Flyer.*** A chicken cannot sustain flight for more than one turn.
+  ***Keen Smell.*** The squirrel has advantage on all wisdom checks related to their sense of smell.
+  ### Actions
+  **Bite.** *Melee Attack*: +4 to hit, 1 piercing damage.
 
-***Prophetic.*** When the oracular chicken is about to nest for the night, and it is in sight of arcane runes symbolising Weal and Woe, you can voice a question about the results of a specific course of action that you plan to take within the next day. Where the oracular chicken chooses to nest gives an omen of your future regarding that choice:
- Weal, for good results
- Woe, for bad results
- Somewhere else, for both, or neither, good and bad results
 
-### Actions
-**Peck.** *Melee Attack*: +1 to hit, 1 piercing damage.
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-spidercat">Spidercat</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  Neither a spider nor a cat, a spiny long-limbed mammal with too many joints.
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-owl">Owl</a>
-*Tiny beast*
+  **Armor Class**   12
+  **Hit Points** 	  2 (1d4)
+  **Speed** 			  30 ft, climb 30 ft
 
-**Armor Class**   11
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  5 ft, fly 50 ft
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4) |15 (+2)|10 (0) |3 (-4) |12 (+1)|2 (-4) |
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4)|13 (+1)|8 (-1)|2 (-4)|12 (+1)|7 (-2)|
+  **Skills**   Perception +3, Stealth +4
+  **Senses**   Low-light vision 30 ft
 
-**Skills**   Perception +3, Stealth + 3
-**Senses**   Low-light vision 120 ft
+  ***Keen Senses.*** The spidercat has advantage on Perception checks.
 
-***Flyby.*** The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.
+  ***Spider Climb.*** The spidercat can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+  ### Actions
+  **Bite.** *Melee Attack*: +4 to hit, 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 1d4 poison damage.
 
-***Keen Hearing and Sight.*** The owl has advantage on Perception checks that rely on hearing or sight.
-### Actions
-**Talons.** *Melee Attack*: +3 to hit, 1 piercing damage.
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-shadowRat">Shadow Rat</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny undead</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  Shadow rats are undead rats that can blend effortlessly into shadows and even reduce their physical form to shadows for a limited time.
 
+  This creature appears as a rat with rotting flesh, torn and matted fur, and blazing red eyes. Its semitranslucent skin reveals the rat’s discolored bones and muscles.
 
+  **Armor Class**   12
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  20 ft, climb 20 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |6 (-2)|15 (+2)|9 (-1)|2 (-4)|12 (+1)|12 (+1)|
 
+  **Damage Immunities** 		  Poison
+  **Condition Immunities** 	  fear, poison
+  **Senses** 								  darkvision 60 ft
 
+  ***Cadaver Fever.*** At the end of a battle, anyone who was bitten by a shadow rat must make a DC 9 Constitution saving throw against disease. Failure indicates the character is infected with cadaver fever. An infected character gains one level of exhaustion immediately and must repeat the saving throw at the end of every long rest. Each failed saving throw adds one more level of exhaustion; a successful saving throw at the end of a long rest means only that the character’s condition doesn’t worsen. The character recovers fully when he or she makes successful saving throws at the ends of two consecutive long rests or when lesser restoration or comparable magic is used on the character.
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-p
+  ***Shadow Blend.*** A shadow rat becomes invisible when it moves into darkness, dim light, or any other space where it is heavily obscured.
+  ### Actions
+  **Bite.** *Melee Attack*: +4 to hit, 1 piercing damage, and the target may be infected with cadaver fever (see above).
 
+  ***Shadow Form (1/day).*** The shadow rat can assume shadow form for up to 1 hour. While in shadow form, its AC increases to 14, it gains immunity to damage from nonmagical weapons, and can move through solid objects and other creatures as if they were difficult terrain. The shadow rat is destroyed if it is still inside something solid at the end of its turn.
 
 
-<!-- Snippet end -->
- ::::::::
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-poisonousSnake">Poisonous snake</a>
-*Tiny beast*
 
-**Armor Class**   13
-**Hit Points** 	  2 (1d4)
-**Speed** 			  30 ft, swim 20 ft
+  </td></tr></tbody></table>
+  </div>
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4)|16 (+3)|11 (0)|1 (-5)|10 (0)|3 (-4)|
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-tinSoldier">Tin Soldier</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny construct</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-**Senses** Blindsight 10 ft
+  **Armor Class**   14 (natural armor)
+  **Hit Points** 	  3 (1d4 + 1)
+  **Speed** 			  30 ft
 
-### Actions
-**Bite.** *Melee Attack*: +5 to hit, 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 2d4 poison damage on a failed save, or half as much damage on a successful one.
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |7 (-2)|12 (+1)|12 (+1)|5 (-3)|10 (+0)|10 (+0)|
 
+  **Skills**               	  Perception +2
+  **Damage Immunities** 		  poison
+  **Condition Immunities** 	  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
 
+  ***False Appearance***. While the tin soldier remains motionless, it is indistinguishable from a normal toy.
 
+  ***Formation***. The tin soldier has advantage on attack rolls when it is within 5 ft of another tin soldier.
+  ### Actions
+  ***Tiny Sword.*** *Melee Attack:* +0 to hit, 1 piercing damage.
 
+  ***Crossbow*** *Ranged Attack:* +3 to hit, range 10/30 ft., 1 piercing damage.
 
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-tressym">Tressym</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  A tressym resembles a small cat, roughly the size of a common housecat. Their primary feature is their wings, that extend from their well-muscled shoulders, and are formed like a bat's.
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-q
+  **Armor Class**   12
+  **Hit Points** 	  5 (2d4)
+  **Speed** 			  30 ft, climb 20 ft, fly 40 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4)|15 (+2)|10 (0)|11 (0)|12 (+1)|12 (+1)|
 
+  **Skills** 		  Perception +5, Stealth +4
+  **Senses** 		  Low-light vision 60 ft
+  **Languages**   Understand Common but can't speak
 
-<!-- Snippet end -->
- ::::::::
+  ***Detect Invisibility*** Within 60 feet of the tressym, magical invisibility fails to conceal anything from the tressym's sight.
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-quipper">Quipper</a>
-*Tiny beast*
+  ***Poison Sense*** A tressym can detect whether a substance is poisonous by taste, touch, or smell.
+  ### Actions
+  **Claws.** *Melee Attack*: +0 to hit, 1 slashing damage.
 
-**Armor Class**   13
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  swim 40 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4)|16 (+3)|9 (-1)|1 (-5)|7 (-2)|2 (-4)|
+  </td></tr></tbody></table>
+  </div>
 
-**Senses** Low-light vision 60 ft
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-weasel">Weasel</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-***Blood Frenzy.*** The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points.
+  **Armor Class**   13
+  **Hit Points** 	  1 (1d4 - 1)
+  **Speed** 			  30 ft
 
-***Water Breathing.*** The quipper can breathe only underwater.
-### Actions
-**Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4)|16 (+3)|8 (-1)|2 (-4)|12 (+1)|3 (-4)|
 
+  **Skills** Perception +3, Stealth +5
 
+  ***Keen Hearing and Smell.*** The weasel has advantage on Perception checks that rely on hearing or smell.
+  ### Actions
+  **Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
 
 
+  </td></tr></tbody></table>
+  </div>
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-wingedPiglet">Winged Piglet</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny fey</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
+  **Armor Class**   12 (natural armor)
+  **Hit Points** 	  4 (1d6 + 1)
+  **Speed** 			  30 ft, fly 30 ft
 
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |12 (+1)|13 (+1)|12 (+1)|10 (0) |14 (+2)|8 (-1) |
 
+  **Skills** Investigation +2, Survival +4
 
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-r
+  ***Epicurean***. While resting in a wilderness, the piglet can assist a creature forage for food; roll a d20, and use its results to determine the following:
+  1-10: Results as normal.
+  11-15: They find twice as much food as they normally would.
+  16-19: They find medicinal herbs. Creatures that partake of the fresh herbs and spend hit dice during the rest heal an additional hit point for each hit dice they spend.
+  19-20: They find rare and valuable plants or ingredients, such as truffles or mandrake root.
 
+  ***Keen Smell.*** The weasel has advantage on Perception checks that rely on smell.
+  ### Actions
+  **Bite.** *Melee Attack*: +3 to hit, 1d4+1 piercing damage.
 
 
-<!-- Snippet end -->
- ::::::::
+  </td></tr></tbody></table>
+  </div>
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-ragDoll">Rag Doll</a>
-*Tiny construct*
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-wingedMonkey">Winged Monkey</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-**Armor Class**   11
-**Hit Points** 	  2 (1d4)
-**Speed** 			  20 ft
+  **Armor Class**   12
+  **Hit Points** 	  7 (2d4 + 2)
+  **Speed** 			  20 ft, climb 20 ft, fly 30 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|4 (-3)|12 (+1)|10 (+0)|3 (-4)|5 (-3)|16 (+3)|
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |8 (-1) |14 (+2)|12 (+1)|5 (-3)|12 (+1)|6 (-2)|
 
-**Skills** 									  Persuasion +5, Stealth +5
-**Damage Immunities** 			  poison, bludgeoning from nonmagical weapons
-**Damage Vulnerabilities** 	  fire
-**Condition Immunities** 		  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
-**Senses** 									  low-light vision 60 ft
+  **Skills**   Acrobatics +4, Performance +2, Sleight of Hand +4
 
-***False Appearance***. While the rag doll remains motionless, it is indistinguishable from a normal stuffed toy.
+  ***Pack Tactics.*** The flying monkey has advantage on an attack roll against a creature if at least one of the monkey's allies is adjacent to the creature and the ally isn't incapacitated.
+  ### Actions
+  **Bite.** *Melee Attack*: +1 to hit, 1d4-1 piercing damage.
 
-***Mimicry***. The rag doll can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.
-### Actions
-***Slam.*** *Melee Attack:* +0 to hit, 1 bludgeoning damage.
 
+  </td></tr></tbody></table>
+  </div>
 
-{{}}">monster,frame
-## <a class="internal-link" name="internal-rat">Rat</a>
-*Tiny beast*
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-yarnGolem">Yarn Golem</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny construct</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-**Armor Class**   10
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  20 ft, climb 20 ft
+  **Armor Class**   12
+  **Hit Points** 	  2 (1d4)
+  **Speed** 			  30 ft
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4)|11 (0)|9 (-1)|2 (-4)|10 (0)|4 (-3)|
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |8 (-1)|15 (+2)|10 (+0)|1 (-5)|10 (+0)|8 (-1)|
 
-**Senses** Low-light vision 30 ft
+  **Damage Resistance** 		  poison, piercing
+  **Condition Immunities** 	  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
 
-***Keen Smell.*** The rat has advantage on Perception checks that rely on smell.
-### Actions
-**Bite.** *Melee Attack*: +0 to hit, 1 piercing damage.
+  ***False Appearance***. While the golem remains motionless, it is indistinguishable from a normal ball of yarn.
 
+  ***Mutable Form***. Whenever a spell or effect would alter the golem's form, the effect works as normal, except that the new form is always made out of a tangle of yarn.
+  ### Actions
+  ***Tangle.*** *Melee Attack:* +4 to hit, the target is restrained (escape DC 12).
 
 
 
+  </td></tr></tbody></table>
+  </div>
 
- ::::::::
-{{}}">monster,frame
-## <a class="internal-link" name="internal-raven">Raven</a>
-*Tiny beast*
-
-**Armor Class**   12
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  10 ft, fly 50 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4)|14 (+2)|8 (-1)|2 (-4)|12 (+1)|6 (-2)|
-
-**Skills** Perception +3
-
-***Mimicry.*** The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.
-### Actions
-**Beak.** *Melee Attack*: +4 to hit, 1 piercing damage.
-
-
-
-
-
-
-
-
-
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-s
-
-
-
-<!-- Snippet end -->
- ::::::::
-
-{{}}">monster,frame
-## <a class="internal-link" name="internal-seaHorse">Sea horse</a>
-*Tiny beast*
-
-**Armor Class**   11
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  swim 20 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|1 (-5)|12 (+1)|8 (-1)|1 (-5)|10 (0)|2 (-4)|
-
-***Water Breathing.*** The sea horse can breathe only underwater.
-### Actions
-None
-
-
-### <a class="internal-link" name="internal-skullServant">Skull Servant</a>
-A floating skull.
-
-{{}}">monster,frame
-## Skull Servant
-*Tiny undead*
-
-**Armor Class**   13
-**Hit Points** 	  7 (2d4+2)
-**Speed** 			  0 ft, fly 30 ft (hover)
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4) |16 (+3)|12 (+1)|12 (+1)|11 (0) |8 (-1) |
-
-**Skills** 								  Arcana +3, History +3
-**Damage Immunities** 		  poison
-**Condition Immunities**	  exhaustion, poisoned, prone
-**Senses** 								  darkvision 60 ft
-**Languages** 						  all the languages it knew in life
-
-***Death Burst***. When the skull dies, it explodes into jagged bone fragments. Each creature within 5 feet of it must make a DC 12 Dexterity saving throw, taking 1d6 slashing damage on a failed save, or half as much on a success.
-
-***False Appearance***. While the skull remains motionless, it is indistinguishable from an ordinary skull.
-### Actions
-**Bite.** *Melee Attack*: +5 to hit, 1d6+3 piercing damage.
-
-**Scare** (1/day). One creature of the skull's choice within 20 feet of it must succeed on a DC 11 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-
-
-
- ::::::::
-{{}}">monster,frame
-## <a class="internal-link" name="internal-spider">Spider</a>
-*Tiny beast*
-
-**Armor Class**   12
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  20 ft, climb 20 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4)|14 (+2)|8 (-1)|1 (-5)|10 (0)|2 (-4)|
-
-**Skills**   Stealth +4
-**Senses**   Low-light vision 30 ft
-
-***Spider Climb.*** The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-
-***Web Sense.*** While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.
-
-***Web Walker.*** The spider ignores movement restrictions caused by webbing.
-### Actions
-**Bite.** *Melee Attack*: +4 to hit, 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 1d4 poison damage.
-
-
-{{}}">monster,frame
-## <a class="internal-link" name="internal-squirrel">Squirrel</a>
-*Tiny beast*
-
-**Armor Class**   10
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  30 ft, climb 30 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4) |15 (+2)|8 (-1) |2 (-4) |12 (+1)|4 (-3) |
-
-**Skills**   Acrobatics +4, Perception +4, Stealth +4
-
-***Keen Smell.*** The squirrel has advantage on all wisdom checks related to their sense of smell.
-### Actions
-**Bite.** *Melee Attack*: +4 to hit, 1 piercing damage.
-
-
-
-
-
-
-
-
-
-### <a class="internal-link" name="internal-spidercat">Spidercat</a>
-Neither a spider nor a cat, a spiny long-limbed mammal with too many joints.
-
-
-{{}}">monster,frame
-## Spidercat
-*Tiny beast*
-
-**Armor Class**   12
-**Hit Points** 	  2 (1d4)
-**Speed** 			  30 ft, climb 30 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4) |15 (+2)|10 (0) |3 (-4) |12 (+1)|2 (-4) |
-
-**Skills**   Perception +3, Stealth +4
-**Senses**   Low-light vision 30 ft
-
-***Keen Senses.*** The spidercat has advantage on Perception checks.
-
-***Spider Climb.*** The spidercat can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
-### Actions
-**Bite.** *Melee Attack*: +4 to hit, 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 1d4 poison damage.
-
-
-
-
-### <a class="internal-link" name="internal-shadowRat">Shadow Rat</a>
-Shadow rats are undead rats that can blend effortlessly into shadows and even reduce their physical form to shadows for a limited time.
-
-This creature appears as a rat with rotting flesh, torn and matted fur, and blazing red eyes. Its semitranslucent skin reveals the rat’s discolored bones and muscles.
-
-{{}}">monster,frame
-## Shadow Rat
-*Tiny undead*
-
-**Armor Class**   12
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  20 ft, climb 20 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|6 (-2)|15 (+2)|9 (-1)|2 (-4)|12 (+1)|12 (+1)|
-
-**Damage Immunities** 		  Poison
-**Condition Immunities** 	  fear, poison
-**Senses** 								  darkvision 60 ft
-
-***Cadaver Fever.*** At the end of a battle, anyone who was bitten by a shadow rat must make a DC 9 Constitution saving throw against disease. Failure indicates the character is infected with cadaver fever. An infected character gains one level of exhaustion immediately and must repeat the saving throw at the end of every long rest. Each failed saving throw adds one more level of exhaustion; a successful saving throw at the end of a long rest means only that the character’s condition doesn’t worsen. The character recovers fully when he or she makes successful saving throws at the ends of two consecutive long rests or when lesser restoration or comparable magic is used on the character.
-
-***Shadow Blend.*** A shadow rat becomes invisible when it moves into darkness, dim light, or any other space where it is heavily obscured.
-### Actions
-**Bite.** *Melee Attack*: +4 to hit, 1 piercing damage, and the target may be infected with cadaver fever (see above).
-
-***Shadow Form (1/day).*** The shadow rat can assume shadow form for up to 1 hour. While in shadow form, its AC increases to 14, it gains immunity to damage from nonmagical weapons, and can move through solid objects and other creatures as if they were difficult terrain. The shadow rat is destroyed if it is still inside something solid at the end of its turn.
-
-
-
-
-
-
-
-
-
-
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-t
-
-
-
-<!-- Snippet end -->
- ::::::::
-
-{{}}">monster,frame
-## <a class="internal-link" name="internal-tinSoldier">Tin Soldier</a>
-*Tiny construct*
-
-**Armor Class**   14 (natural armor)
-**Hit Points** 	  3 (1d4 + 1)
-**Speed** 			  30 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|7 (-2)|12 (+1)|12 (+1)|5 (-3)|10 (+0)|10 (+0)|
-
-**Skills**               	  Perception +2
-**Damage Immunities** 		  poison
-**Condition Immunities** 	  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
-
-***False Appearance***. While the tin soldier remains motionless, it is indistinguishable from a normal toy.
-
-***Formation***. The tin soldier has advantage on attack rolls when it is within 5 ft of another tin soldier.
-### Actions
-***Tiny Sword.*** *Melee Attack:* +0 to hit, 1 piercing damage.
-
-***Crossbow*** *Ranged Attack:* +3 to hit, range 10/30 ft., 1 piercing damage.
-
-
-
-
- ::::::::
-### <a class="internal-link" name="internal-tressym">Tressym</a>
-A tressym resembles a small cat, roughly the size of a common housecat. Their primary feature is their wings, that extend from their well-muscled shoulders, and are formed like a bat's.
-
-{{}}">monster,frame
-## Tressym
-*Tiny beast*
-
-**Armor Class**   12
-**Hit Points** 	  5 (2d4)
-**Speed** 			  30 ft, climb 20 ft, fly 40 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4)|15 (+2)|10 (0)|11 (0)|12 (+1)|12 (+1)|
-
-**Skills** 		  Perception +5, Stealth +4
-**Senses** 		  Low-light vision 60 ft
-**Languages**   Understand Common but can't speak
-
-***Detect Invisibility*** Within 60 feet of the tressym, magical invisibility fails to conceal anything from the tressym's sight.
-
-***Poison Sense*** A tressym can detect whether a substance is poisonous by taste, touch, or smell.
-### Actions
-**Claws.** *Melee Attack*: +0 to hit, 1 slashing damage.
-
-
-
-
-
-
-
-
-
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-w
-
-
-
-<!-- Snippet end -->
- ::::::::
-
-{{}}">monster,frame
-## <a class="internal-link" name="internal-weasel">Weasel</a>
-*Tiny beast*
-
-**Armor Class**   13
-**Hit Points** 	  1 (1d4 - 1)
-**Speed** 			  30 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4)|16 (+3)|8 (-1)|2 (-4)|12 (+1)|3 (-4)|
-
-**Skills** Perception +3, Stealth +5
-
-***Keen Hearing and Smell.*** The weasel has advantage on Perception checks that rely on hearing or smell.
-### Actions
-**Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
-
-
-{{}}">monster,frame
-## <a class="internal-link" name="internal-wingedPiglet">Winged Piglet</a>
-*Tiny fey*
-
-**Armor Class**   12 (natural armor)
-**Hit Points** 	  4 (1d6 + 1)
-**Speed** 			  30 ft, fly 30 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|12 (+1)|13 (+1)|12 (+1)|10 (0) |14 (+2)|8 (-1) |
-
-**Skills** Investigation +2, Survival +4
-
-***Epicurean***. While resting in a wilderness, the piglet can assist a creature forage for food; roll a d20, and use its results to determine the following:
- 1-10: Results as normal.
- 11-15: They find twice as much food as they normally would.
- 16-19: They find medicinal herbs. Creatures that partake of the fresh herbs and spend hit dice during the rest heal an additional hit point for each hit dice they spend.
- 19-20: They find rare and valuable plants or ingredients, such as truffles or mandrake root.
-
-***Keen Smell.*** The weasel has advantage on Perception checks that rely on smell.
-### Actions
-**Bite.** *Melee Attack*: +3 to hit, 1d4+1 piercing damage.
-
-
-
-
- ::::::::
-{{}}">monster,frame
-## <a class="internal-link" name="internal-wingedMonkey">Winged Monkey</a>
-*Tiny beast*
-
-**Armor Class**   12
-**Hit Points** 	  7 (2d4 + 2)
-**Speed** 			  20 ft, climb 20 ft, fly 30 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|8 (-1) |14 (+2)|12 (+1)|5 (-3)|12 (+1)|6 (-2)|
-
-**Skills**   Acrobatics +4, Performance +2, Sleight of Hand +4
-
-***Pack Tactics.*** The flying monkey has advantage on an attack roll against a creature if at least one of the monkey's allies is adjacent to the creature and the ally isn't incapacitated.
-### Actions
-**Bite.** *Melee Attack*: +1 to hit, 1d4-1 piercing damage.
-
-
-
-
-
-
-
-
-
-
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-y
-
-
-
-<!-- Snippet end -->
- ::::::::
-{{}}">monster,frame
-## <a class="internal-link" name="internal-yarnGolem">Yarn Golem</a>
-*Tiny construct*
-
-**Armor Class**   12
-**Hit Points** 	  2 (1d4)
-**Speed** 			  30 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|8 (-1)|15 (+2)|10 (+0)|1 (-5)|10 (+0)|8 (-1)|
-
-**Damage Resistance** 		  poison, piercing
-**Condition Immunities** 	  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
-
-***False Appearance***. While the golem remains motionless, it is indistinguishable from a normal ball of yarn.
-
-***Mutable Form***. Whenever a spell or effect would alter the golem's form, the effect works as normal, except that the new form is always made out of a tangle of yarn.
-### Actions
-***Tangle.*** *Melee Attack:* +4 to hit, the target is restrained (escape DC 12).
-
-
-
+</div>
 
 
 
