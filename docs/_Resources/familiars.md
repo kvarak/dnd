@@ -258,20 +258,23 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
 ## <a class="internal-link" name="internal-list">Alphabetical list of familiars</a>
 
-### <a class="internal-link" name="internal-almiraj">Almiraj</a>
-The almiraj is a small magical beast resembling a rabbit with a unicorn-like horn in the middle of its forehead. They are popular familiars among witches.
-
 <div class="columnstwo">
 
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
-  Almiraj
+  <a class="internal-link" name="internal-almiraj">Almiraj</a>
   </th></tr></thead>
   <tbody>
   <tr><td><i>Small beast</i></td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
+
+  The almiraj is a small magical beast resembling a rabbit with a unicorn-like horn in the middle of its forehead. They are popular familiars among witches.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Armor Class**   13<br/>
   **Hit Points** 	  3 (1d6)<br/>
@@ -301,55 +304,62 @@ The almiraj is a small magical beast resembling a rabbit with a unicorn-like hor
   </td></tr></tbody></table>
   </div>
 
-- <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='width:55%'/>
-
-</div>
-
-{{}}">monster,frame
-## <a class="internal-link" name="internal-amethystWyrmling">Amethyst Wyrmling</a>
-*Tiny dragon*
-
-**Armor Class**   13
-**Hit Points** 	  10 (3d4 + 3)
-**Speed** 			  15 ft, fly 30 ft
-
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|3 (-4) |16 (+3)|12 (+1)|14 (+2)|14 (+2)|14 (+2)|
-
-**Damage Resistances**	  force
-**Senses** 							  low-light vision 60 ft
-**Languages** 					  Draconic
-
-***Innate Spellcasting.*** The wyrmling’s can innately cast a number of spells, requiring no material components:
- At will: *mage hand*
- 1/day: *shield*
-
-### Actions
-**Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
-
-**Gem Lozenge** (1/day). The wyrmling exhales a gem lozenge up to 60 feet to a point it can see, which shatters on impact in a 5-foot radius. Creatures in the area must make a DC 11 Dexterity saving throw, taking 2d6 piercing damage on a failure, or half as much on a success.
+- <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='width:35%'/>
 
 
 
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  <a class="internal-link" name="internal-amethystWyrmling">Amethyst Wyrmling</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Tiny dragon</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
+
+  **Armor Class**   13<br/>
+  **Hit Points** 	  10 (3d4 + 3)<br/>
+  **Speed** 			  15 ft, fly 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |3 (-4) |16 (+3)|12 (+1)|14 (+2)|14 (+2)|14 (+2)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Damage Resistances**	  force<br/>
+  **Senses** 							  low-light vision 60 ft<br/>
+  **Languages** 					  Draconic
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  ***Innate Spellcasting.*** The wyrmling’s can innately cast a number of spells, requiring no material components:<br/>
+  At will: *mage hand*<br/>
+  1/day: *shield*
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  ### Actions
+  **Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
+
+  **Gem Lozenge** (1/day). The wyrmling exhales a gem lozenge up to 60 feet to a point it can see, which shatters on impact in a 5-foot radius. Creatures in the area must make a DC 11 Dexterity saving throw, taking 2d6 piercing damage on a failure, or half as much on a success.
+
+  </td></tr></tbody></table>
+  </div>
 
 
 
-
-
-
-
-
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-b
-
-
-
-<!-- Snippet end -->
- ::::::::
-
-{{}}">monster,frame
 ## <a class="internal-link" name="internal-bat">Bat</a>
 *Tiny beast*
 
