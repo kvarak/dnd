@@ -135,9 +135,3 @@ A list of links to different generators to use when you need inspiration for a n
   When you need the flag of your country or region. -- <a class="c7" href="https://www.google.com/url?q=http://chaoticshiny.com/flaggen.php&amp;sa=D&amp;source=editors&amp;ust=1670692134050647&amp;usg=AOvVaw2fk3v-ygrapvExhzBoGFNO">http://chaoticshiny.com/flaggen.php</a>
 
 </div>
-
-----------------------
-<a class="c7" href="https://www.google.com/url?q=http://homebrewery.naturalcrit.com/print/By-Yk6latM&amp;sa=D&amp;source=editors&amp;ust=1670692134051035&amp;usg=AOvVaw2ty29YOHWAg7E6NQGuEqV7">Chases</a>
-<a class="c7" href="https://www.google.com/url?q=http://homebrewery.naturalcrit.com/print/ByMN3dkGN&amp;sa=D&amp;source=editors&amp;ust=1670692134051271&amp;usg=AOvVaw3JiUTq_M8_HvvKhuAuhiN5">Disease</a>
-<a class="c7" href="https://www.google.com/url?q=http://homebrewery.naturalcrit.com/print/BJHxpokf4&amp;sa=D&amp;source=editors&amp;ust=1670692134051509&amp;usg=AOvVaw2apC8R6-ova9zxFvVvW_5R">Downtime</a>
-<a class="c7" href="https://www.google.com/url?q=http://homebrewery.naturalcrit.com/print/ByWIGTJGzV&amp;sa=D&amp;source=editors&amp;ust=1670692134051744&amp;usg=AOvVaw1NA2nRecNqZNXHkkbkWoKh">Resurrection</a>

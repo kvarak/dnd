@@ -1,5 +1,5 @@
 ---
-title: RP -- Faiths for the Faithless
+title: Faiths for the Faithless
 layout: default
 ---
 
