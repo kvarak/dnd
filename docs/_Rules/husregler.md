@@ -53,6 +53,18 @@ layout: default
   <a href="#internal-Resting">Resting</a><br/>
   <a href="#internal-RestActivities">Rest Activities</a><br/>
 
+- ##### <a href="#internal-travel">Travel</a>
+  <a href="#internal-PlanningaJourney">Planning a Journey</a><br/>
+  <a href="#internal-ADayofTravelling">A Day of Travelling</a><br/>
+  <a href="#internal-BreakingCamp">Breaking Camp</a><br/>
+  <a href="#internal-TravelPace">Travel Pace</a><br/>
+  <a href="#internal-SettingCamp">Setting Camp</a><br/>
+  <a href="#internal-TheNightRest">The Night Rest</a><br/>
+  <a href="#internal-RolesDuringTravel">Roles During Travel</a><br/>
+  <a href="#internal-RoleTheGuide">Role: The Guide</a><br/>
+  <a href="#internal-RoleTheForager">Role: The Forager</a><br/>
+  <a href="#internal-RoleTheLookout">Role: The Lookout</a><br/>
+
 - ##### <a href="#internal-water">Water rules</a>
   <a href="#internal-Armorinwater">Armor in water</a><br/>
   <a href="#internal-Drowning">Drowning</a><br/>
