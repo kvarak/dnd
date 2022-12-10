@@ -52,9 +52,13 @@ layout: default
 - ##### <a href="#internal-adventuring">Adventuring</a>
   <a href="#internal-Resting">Resting</a><br/>
   <a href="#internal-RestActivities">Rest Activities</a><br/>
-  <a href="#internal-Waterrules">Water rules</a><br/>
 
-
+- ##### <a href="#internal-water">Water rules</a>
+  <a href="#internal-Armorinwater">Armor in water</a><br/>
+  <a href="#internal-Drowning">Drowning</a><br/>
+  <a href="#internal-ClimbinguponaShip">Climbing up on a Ship</a><br/>
+  <a href="#internal-Resting">FallingoffaShip</a><br/>
+  <a href="#internal-Underwater">Underwater</a><br/>
 
 </div>
 <!-- - <a href="#internal-travel">Travel</a><br/> -->
@@ -269,11 +273,11 @@ turn. The order of turns is determined at the beginning of a combat encounter, w
 
 There are three kinds of magic:
 
-  ***Arcane magic*** used by wizards, warlocks, sorcerers and bards, rely on an understanding — learned or intuitive — of the workings of the Weave that suffuses all existence.
+***Arcane magic*** used by wizards, warlocks, sorcerers and bards, rely on an understanding — learned or intuitive — of the workings of the Weave that suffuses all existence.
 
-  ***Divine magic*** is granted by the Gods to their most devoted followers, clerics and paladins.
+***Divine magic*** is granted by the Gods to their most devoted followers, clerics and paladins.
 
-  ***Primal magic*** which is provided by nature itself, or by ancestor spirits and filtered through nature. This magic is mostly used by druids, rangers and creatures close to nature, such as fey.
+***Primal magic*** which is provided by nature itself, or by ancestor spirits and filtered through nature. This magic is mostly used by druids, rangers and creatures close to nature, such as fey.
 
 <div class="columnsthree">
 
@@ -323,169 +327,17 @@ There are three kinds of magic:
 
 This chapter covers the basics of the adventuring life, from the mechanics of movement to the rules of resting and activities your character might pursue between adventures.
 
+<div class="columnsthree">
 
-## <a class="internal-link" name="internal-rest">Rest</a>
+- ### <a class="internal-link" name="internal-rest">Rest</a>
+  Detailed information on resting can be found on the <a href="rest.html">Resting page</a>.
 
-
-Heroic though they might be, adventurers can’t spend every hour of the day in the thick of exploration, Social Interaction, and Combat. They need rest — time to sleep and eat, tend their wounds, refresh their minds and spirits for Spellcasting, and brace themselves for further adventure.
-
-There are two kinds of rests, short and long.
-
-### Short rest
-A short rest can be anything from taking a couple of minutes after a tough fight to bind your wounds, to a longer break, taking time to eat and rest.
-
-After combat (or other event causing loss of hp) you can spend a few minutes catching your breath. This allows you to spend 1 **Hit Die** and use a **Healer's kit**.
-
-You can also take a longer **Short rest** if you have access to a safe place, like your camp. Resting like this allows you to eat and spend any number of **Hit Die**. A longer short rest also gives you some time to investigate a magic item, and hopefully discover how it works.
-
-<div class="descriptive" markdown="1">
-
-##### Healer's kit
-*(5 gp, 3 lbs)*
-
-You can also use a Healer’s kit to bind wounds and apply simple first aid during a short rest. Make a **DC 10 Wisdom** (Medicine) check to treat a creature that was damaged within the last 10 minutes. On a success, the target can expend 1 **Hit Hie** to heal, plus 1 additional die for each 10 points you exceed the DC.
-
-You can also, as an action, spend one use to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.
-
-A Healer's kit starts with a 1d10 usage die.
+- ### Rest Activities
+  Detailed information on rest activities can be found on the <a href="rest.html">Resting page</a>.
 
 </div>
-
-
-### Long rest
-
-<div class="columnstwo">
-
--   A **Long rest** is a period of extended downtime, at least 8 hours long, in a safe place like a camp or an inn. Before starting your rest, you gain the benefits of a **Short rest**.
-
-    A **Long rest** is usually spent sleeping, but you can perform light activity: reading, talking, eating, or standing watch. If the rest is interrupted by a period of strenuous activity, like marching, fighting or similar adventuring activity, you must begin the rest again to gain any benefit from it.
-
-    You can’t benefit from more than one **Long rest** in a 24-hour period.
-
-    #### Benefits of a Long rest
-    You must have at least 1 hit point at the start of a **Long rest** rest to gain its benefits. Otherwise you regain 1 hp and become conscious at the end of the rest.
-
--   <div class="card multirest rest">
-    <div class="card-title restHeading">Long Rest</div>
-    <div class="card-subtitle restPad">
-    When you finish a <b>Long rest</b>, you gain the following benefits:
-    <div class="card-text restTable" markdown="1">
-
-    |    |   |
-    |:-: |:- |
-    | * | If you are a **full spellcaster**, regain a number of spent **spell slots** equal<br/>to your proficiency bonus. You regain your lowest spell slots first.
-    | * | **Other spellcasters**, regain a number of spent **spell slots** equal to half<br/>their proficiency bonus (rounded up). You regain your lowest spell slots first.
-    | * | Classes may have other benefits.
-    | * | If you have spent the entire rest close to a magical item, you attune to it.
-
-    </div>
-    </div>
-    <div class="card-subtitle restPad">
-    <br/>In addition, choose <i><b>one</b></i> of the following benefits:
-    <div class="card-text restTable" markdown="1">
-
-    |    |   |
-    |:-: |:- |
-    | * | If not at max hit points, regain up to your **max hp/2** (round up).
-    | * | If not at max Hit Dice, regain up to your **max HD/2** (round up).
-    | * | Remove 1 **exhaustion** level.
-    | * | Attempt to remove a **negative condition** (ex. reduced max hp or a disease).
-    | * | Regain 1 reduced **ability score**.
-    | * | If less than 3 inspiration, regain 1 **inspiration**.
-    | * | Regain your lowest **spell slot**.
-    | * | Choose a **class specific** benefit listed in your class description.
-
-
-    </div>
-    </div>
-    </div>
-
-</div>
-
-
-## Additional Activities
-During a long rest, you can perform one primary activity before you sleep. Below are listed some example activities.
-
-* Brew drinks
-* Cook food
-* Craft an item
-* Maintain gear
-* Repair an item
-
-#### Brew Drinks
-If you are proficient with alchemy or herbalism and have the right supplies, you can prepare brews for the group. This requires a campfire and an appropriate kit. Expend one of your water rations to try one of the following actions:
-
- **Purify water**: You distill some impure water overnight to create 1d4 + 1 new, drinkable water rations.
-
- **Craft**: Prepare an alchemical or herbal item if you have raw materials
-
-#### Cook Food
-If you know how to cook and have the right supplies, you can prepare a meal for the group. This requires use of a campfire and cooking tools.
-
-#### Craft an Item
-You can spend time crafting simple items — bandages, salves, arrows — if you have the right materials and tools. Roll the appropriate check for your specific craft.
-
-#### Maintain Gear
-You can spend time maintaining your weapons and armor, if you have the right knowledge, materials and tools.
-
-<div class="descriptive" markdown="1">
-
-##### Gear maintenance kit
-*(3 gp, 1 lbs)*
-
-This kit contains a whetstone, metal polish, conditioning oil for leather, two soft cloths, extra leather straps, a sewing needle, and a few buttons.
-
-The skills required to make proper use of this kit depends on the type of eqipment being maintained (see below).
-
-A Gear maintenance kit starts with a 1d8 usage die.
-
-</div>
-
-
-**Sharpen Weapon**. If you are proficient with ***martial weapons***, you can spend some time maintaining a weapon - this includes sharpening edged weapons, adjusting and maintaining balance of hammers and polearms, etc, taking care of the wear and tear put on it by adventuring and putting in peak condition.
-
-<div class="block classTable halfClassTable frame" markdown="1">
-
-| Tool | Weapons |
-| :--- | :------ |
-| Bowyer's tools | Bows
-| Leatherworker's tools | Sling
-| Smith's tools | Metal weapons
-| Tinker's tools | Crossbows
-
-</div>
-
-This peak condition is represented by giving the wielder of that weapon the ability to reroll a damage die. You must use the new result after rerolling the die.
-
-Spend a use of your gear maintenance kit and roll an Intelligence check against DC 10.
-* **Success**: You successfully take care of the weapon.
-* **Failure**: The weapon does not receive a bonus.
-
-Proper tool proficiency allows you to roll a Intelligence (Tool) check instead, and on a success grant an additional number of rerolls equal to your proficiency bonus.
-
-**Maintain Armor**. Proficiency with ***leatherworker's tools*** or ***smith's tools*** allow you to buff and repair appropriate armor, bringing it to peak condition. This peak condition is represented by giving the wearer temporary hit points equal to your proficiency bonus. These hit points last until expended.
-
-Spend a use of your gear maintenance kit and roll an Intelligence (Tool) check against DC 10.
-* **Success**: You successfully take care of the armor.
-* **Failure**: The armor does not receive a bonus.
-
-#### Repair an Item
-If you're proficient with the appropriate tool, you may perform basic repairs on damaged equipment—sharpening a blunt sword, sewing up a torn robe, hammering out some dented armor. You can try to repair an item with a successful Intelligence (Tool) check against DC 10.
-* **Success**: You successfully repair the item.
-* **Failure**: You were unable to make the repairs.
-
-
-
-
-
-
-
 
 <!--
-
-
-
-
 ## <a class="internal-link" name="internal-travel">Travel</a>
 
 It is rarely straightforward outside city walls. Many adventurers have lost their way in dark forests. Many more have died from lack of food, or water, or protection from bandits and monsters—the world is not forgiving to the unprepared traveler. This section introduces the journey phase to make travel a more integral part of the adventure.
@@ -548,12 +400,6 @@ Characters in wagons, carriages, or other land vehicles choose a pace as normal.
 | Slow | 1.5&nbsp;miles | 12&nbsp;miles | Advantage | Normal | Advantage | Advantage | -5 penalty to Perception
 | Medium | 2&nbsp;miles | 16&nbsp;miles | Normal | Disadvantage | Normal | Normal | —
 | Fast | 3&nbsp;miles | 24&nbsp;miles | Disadvantage | None | Disadvantage | Disadvantage | Able to use stealth
-
-
-
-
-
-
 
 
 #### Setting Camp
@@ -633,10 +479,9 @@ If you are the lookout, you're responsible for making any perception checks duri
 
  **Failure**: You failed to spot the danger in time and the party are surprised.
 
-
-
-
  -->
+
+
 
 
 
@@ -646,57 +491,48 @@ Specific rules for what happens in and on water. Unless otherwise noted all abil
 
 ***Rough water*** adds 5 to all the following DCs except for saves made when more than 5 feet under the surface.
 
+<div class="columnsthree">
 
-### Falling Off a Ship
-This can be hazardous to your health. If you fall or are pushed overboard, you must succeed on a ***DC 10 Dexterity check*** to enter the water without damage. Otherwise you receive 1d6 hit points damage from the fall.
+-   ### <a class="internal-link" name="internal-Armorinwater">Armor in water</a>
+    In general, heavy armor is not common on ships. The weight tends to be the most prohibitive factor – falling overboard in full plate normally results in death. Occasionally, soldiers will don light or medium armor for a battle, but most of the time sailors go unarmored.
 
-  If you fall overboard you will splash down 1d6+5 ft from your ship.
+    The time it takes to remove armor when in water is halved with a successful ***DC 15 Dexterity (Acrobatics) check***.
 
- If you are pushed overboard you will fall 2d6+5 ft from your ship.
+    #### Light Armor
+    Attempting to swim while wearing light armor requires a ***DC 10 Strength check each round***. Failure means you have a speed of 0 as you go under water for that round and lose one held item, shield or weapon (your choice as to what you drop).
 
- If you jump or dive into the water you can enter the water at any point up to the maximum distance you can jump.
+    Removing your armor after entering the water takes one minute (10 rounds). During this time you cannot swim or take any other actions. Make a ***DC 10 Dexterity check*** each round. Each successful round keeps your head above water and counts as one round of the rounds required to remove your armor. Failure means that you went under water this round and made no headway in removing your armor. After 3 failures you receive one level of exhaustion.
 
+    #### Medium Armor
+    Swimming in medium armor requires a ***DC 15 Strength check*** each round. On a success, if you are on the surface at the beginning of the round, you stay on the surface. Each foot you swim cost you ***two extra feet*** of speed, and you can take no other actions besides shouting and stowing a weapon. Failure means you sink 10 ft and lose any still-carried shields or weapons. On the round following a failed save you are under water. After that, on a successful save you can swim toward the surface at a rate of 15 ft per round. On failure you sink another 10 ft.
 
-#### Climbing back on a Ship
-If within 5 ft of a moving ship, you must make a ***DC 10 Strength check***. Failure means that you cannot move this round, you are using all of your strength to simply keep your head above the waves. Once you reach the ship, you must make as ***DC 15 Strength (Climb)*** check to climb back onto the ship. Failure results in you falling back into the water.
+    You can attempt to remove your armor, but you will be sinking at a rate of 10 ft per round during this time. It normally takes 5 minutes (50 rounds) to doff your armor.
 
+    #### Heavy Armor
+    You cannot swim while wearing heavy armor, giving you an effective speed of 0. Whenever you are in water, you lose any carried shields and weapons and begin to sink. Make a ***DC 25 Strength check*** each round. Success keeps your head above water, or if you start the round under water you can swim 15 ft toward the surface. You can take no other actions. Failure means you sink another 20 ft.
 
-### Underwater
-You can swim underwater as long as you can hold your breath (see “Drowning” below). Your underwater swimming speed is the same as your surface swimming speed. You can swim straight down at half that speed. You can swim straight down at 15 ft per round if holding the equivalent of medium armor or 25 ft per round if holding the equivalent of heavy armor.
+    You can attempt to remove your armor, but you will be sinking at a rate of 20 ft per round during this time. It normally takes 5 minutes (50 rounds) to doff your armor.
 
-Without armor you can swim toward the surface at a rate of 20 ft per round.
+-   ### <a class="internal-link" name="internal-Drowning">Drowning</a>
+    After 1 + your Constitution bonus minutes of holding your breath underwater you fall unconscious, your hit points fall to 0, and you begin making your death saving throws as per the standard rules.
 
-
-### Armor
-In general, heavy armor is not common on ships. The weight tends to be the most prohibitive factor – falling overboard in full plate normally results in death. Occasionally, soldiers will don light or medium armor for a battle, but most of the time sailors go unarmored.
-
-The time it takes to remove armor when in water is halved with a successful ***DC 15 Dexterity (Acrobatics) check***.
-
-
-
-
-#### Light Armor
-Attempting to swim while wearing light armor requires a ***DC 10 Strength check each round***. Failure means you have a speed of 0 as you go under water for that round and lose one held item, shield or weapon (your choice as to what you drop).
-
-Removing your armor after entering the water takes one minute (10 rounds). During this time you cannot swim or take any other actions. Make a ***DC 10 Dexterity check*** each round. Each successful round keeps your head above water and counts as one round of the rounds required to remove your armor. Failure means that you went under water this round and made no headway in removing your armor. After 3 failures you receive one level of exhaustion.
-
-#### Medium Armor
-Swimming in medium armor requires a ***DC 15 Strength check*** each round. On a success, if you are on the surface at the beginning of the round, you stay on the surface. Each foot you swim cost you ***two extra feet*** of speed, and you can take no other actions besides shouting and stowing a weapon. Failure means you sink 10 ft and lose any still-carried shields or weapons. On the round following a failed save you are under water. After that, on a successful save you can swim toward the surface at a rate of 15 ft per round. On failure you sink another 10 ft.
-
-You can attempt to remove your armor, but you will be sinking at a rate of 10 ft per round during this time. It normally takes 5 minutes (50 rounds) to doff your armor.
-
-#### Heavy Armor
-You cannot swim while wearing heavy armor, giving you an effective speed of 0. Whenever you are in water, you lose any carried shields and weapons and begin to sink. Make a ***DC 25 Strength check*** each round. Success keeps your head above water, or if you start the round under water you can swim 15 ft toward the surface. You can take no other actions. Failure means you sink another 20 ft.
-
-You can attempt to remove your armor, but you will be sinking at a rate of 20 ft per round during this time. It normally takes 5 minutes (50 rounds) to doff your armor.
-
-### Drowning
-After 1 + your Constitution bonus minutes of holding your breath underwater you fall unconscious, your hit points fall to 0, and you begin making your death saving throws as per the standard rules.
-
-However, if you become stable there is a problem. If you are still under water you can’t remain stable. So you must start making death saving throws again. This continues until you die unless you are saved in some way.
+    However, if you become stable there is a problem. If you are still under water you can’t remain stable. So you must start making death saving throws again. This continues until you die unless you are saved in some way.
 
 
+-   ### <a class="internal-link" name="internal-ClimbinguponaShip">Climbing up on a Ship</a>
+    If within 5 ft of a moving ship, you must make a ***DC 10 Strength check***. Failure means that you cannot move this round, you are using all of your strength to simply keep your head above the waves. Once you reach the ship, you must make as ***DC 15 Strength (Climb)*** check to climb back onto the ship. Failure results in you falling back into the water.
 
+-   ### <a class="internal-link" name="internal-FallingoffaShip">Falling off a Ship</a>
+    This can be hazardous to your health. If you fall or are pushed overboard, you must succeed on a ***DC 10 Dexterity check*** to enter the water without damage. Otherwise you receive 1d6 hit points damage from the fall.
 
+    -- If you fall overboard you will splash down 1d6+5 ft from your ship.<br/>
+    -- If you are pushed overboard you will fall 2d6+5 ft from your ship.<br/>
+    -- If you jump or dive into the water you can enter the water at any point up to the maximum distance you can jump.
 
+-   ### <a class="internal-link" name="internal-Underwater">Underwater</a>
+    You can swim underwater as long as you can hold your breath (see “Drowning” below). Your underwater swimming speed is the same as your surface swimming speed. You can swim straight down at half that speed. You can swim straight down at 15 ft per round if holding the equivalent of medium armor or 25 ft per round if holding the equivalent of heavy armor.
+
+    Without armor you can swim toward the surface at a rate of 20 ft per round.
+
+</div>
 
