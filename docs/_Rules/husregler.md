@@ -369,8 +369,12 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
 - #### Water
   Unless a character drinks ***one gallon of water per day***, or two gallons if the weather is hot, he  must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion at the end of the day. A character drinking less than half that, automatically suffers one level of exhaustion at the end of the day. If the character already has one or more levels of exhaustion, the character takes two levels in either case.
 
-- ### <a class="internal-link" name="internal-ADayofTravelling">A Day of Travelling</a>
-  Each travel day is broken up into distinct phases — breaking camp, travel, setting camp and rest.
+</div>
+
+### <a class="internal-link" name="internal-ADayofTravelling">A Day of Travelling</a>
+Each travel day is broken up into distinct phases — breaking camp, travel, setting camp and rest.
+
+<div class="columnsthree">
 
 - ### <a class="internal-link" name="internal-BreakingCamp">1. Breaking Camp</a>
   Sunlight crests the horizon. It's time to wake up, eat some breakfast to prepare for the day ahead, and pack up camp.
