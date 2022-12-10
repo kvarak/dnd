@@ -499,6 +499,13 @@ hr.dividerinfolk {
   margin-bottom: 5px;
 }
 
+.multispell {
+  margin: 0px;
+  float: none;
+  max-width: unset;
+  margin-left: unset;
+  margin-bottom: unset;
+}
 
 
 /* -------------------------------------------------------------------------- */

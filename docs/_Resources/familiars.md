@@ -3,11 +3,18 @@ title: Familiars
 layout: default
 ---
 
-<div class="columns">
+<div class="toc">
 
 ##### Spells
-- <a href="#internal-personality">Familiar personality</a><br/>
-- <a href="#internal-list">Alphabetical list of familiars</a>
+<a href="internal-AnimateFamiliar">Animate Familiar</a><br/>
+<a href="internal-CallFamiliar">Call Familiar</a><br/>
+<a href="internal-FindFamiliar">Find Familiar</a><br/>
+<a href="internal-ImbueObject">Imbue Object</a><br/>
+<a href="internal-ShapeElement">Shape Element</a>
+
+##### <a href="#internal-personality">Familiar personality</a>
+
+##### <a href="#internal-list">Alphabetical list of familiars</a>
 
 </div>
 
@@ -37,233 +44,266 @@ The following is common to all familiar summoning spells:
 
 </div>
 
+<div class="columnstwo">
 
-### Animate Familiar
-*1st-level necromancy (ritual)*
+-   <div class="spell multispell">
 
-**Casting Time:**   1 hour<br/>
-**Components:**		  V, S, M (10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)<br/>
-**Duration:** 		  Instantaneous
+    ### <a class="internal-link" name="internal-AnimateFamiliar">Animate Familiar</a>
+    *1st-level necromancy (ritual)*
 
-You raise the corpse of a tiny animal to become your familiar, a severed hand to create a <a href="#internal-crawlingClaw">crawling claw</a> or a skull to create a <a href="#skullServant">skull servant</a>. It has the statistics of the corpse’s living form, but its type becomes undead, and its appearance is zombified, mummified, or skeletal depending on the state of the corpse you used to fashion it. In addition it gains the following feature:
+    **Casting Time:**   1 hour<br/>
+    **Components:**		  V, S, M (10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)<br/>
+    **Duration:** 		  Instantaneous
 
-***Undead Fortitude.*** If damage reduces the familiar to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the familiar drops to 1 hit point instead.
+    You raise the corpse of a tiny animal to become your familiar, a severed hand to create a <a href="#internal-crawlingClaw">crawling claw</a> or a skull to create a <a href="#internal-skullServant">skull servant</a>. It has the statistics of the corpse’s living form, but its type becomes undead, and its appearance is zombified, mummified, or skeletal depending on the state of the corpse you used to fashion it. In addition it gains the following feature:
 
-If your familiar drops to 0 HP it returns to being an inanimate corpse, but you can raise it again without using material components.
+    ***Undead Fortitude.*** If damage reduces the familiar to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the familiar drops to 1 hit point instead.
 
-In addition you can use rare components worth five times, as much to turn a dead crow into a <a href="#internal-goreCrow">gore crow</a>, or a dead rat into a <a href="#shadowRat">shadow rat</a>. If a gore crow or shadow rat is reduced to 0 hp, it cannot be raised to this form again.
+    If your familiar drops to 0 HP it returns to being an inanimate corpse, but you can raise it again without using material components.
 
-### Call Familiar
-*1st-level conjuration (ritual)*
+    In addition you can use rare components worth five times, as much to turn a dead crow into a <a href="#internal-goreCrow">gore crow</a>, or a dead rat into a <a href="#internal-shadowRat">shadow rat</a>. If a gore crow or shadow rat is reduced to 0 hp, it cannot be raised to this form again.
 
-**Casting Time:**   1 hour<br/>
-**Components:**		  V, S, M (50 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)<br/>
-**Duration:** 		  Instantaneous
+    </div><br/><br/>
 
-This spell calls out a summons to the natural creatures in the area. After the next long rest, a willing creature will have answered your call, submitting to be your familiar. This creature has a higher intelligence than other of its kind, and it is here by its own will, instead of being magically coerced, as with other familiar summoning spells.
+-   <div class="spell multispell">
 
-When the creature appears, roll on the Called familiar table shown after the spell descriptions. Some familiars have an additional power as stated in the table.
+    ### <a class="internal-link" name="internal-CallFamiliar">Call Familiar</a>
+    *1st-level conjuration (ritual)*
 
-If this familiar dies or is permanently dismissed, you cannot use this spell to summon a familiar for one week.
+    **Casting Time:**   1 hour<br/>
+    **Components:**		  V, S, M (50 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)<br/>
+    **Duration:** 		  Instantaneous
 
-### Find Familiar
-*1st-level conjuration (ritual)*
+    This spell calls out a summons to the natural creatures in the area. After the next long rest, a willing creature will have answered your call, submitting to be your familiar. This creature has a higher intelligence than other of its kind, and it is here by its own will, instead of being magically coerced, as with other familiar summoning spells.
 
-**Casting Time:**   1 hour<br/>
-**Components:**		  V, S, M (10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)<br/>
-**Duration:** 		  Instantaneous
+    When the creature appears, roll on the Called familiar table shown after the spell descriptions. Some familiars have an additional power as stated in the table.
 
-You gain the service of a familiar, a spirit that takes an animal form of your choice from the following:
+    If this familiar dies or is permanently dismissed, you cannot use this spell to summon a familiar for one week.
 
+    <div class="block classTable frame" markdown="1">
 
-|  |  |  |  |
-|:-|:-|:-|:-|
-| <a href="#internal-bat">Bat</a> | <a href="#cat">Cat</a> | <a href="#crab">Crab</a> | <a href="#frog">Frog/toad</a> |
-|  <a href="#internal-hawk">Hawk</a> | <a href="#lizard">Lizard</a> | <a href="#octopus">Octopus</a> |<a href="#owl">Owl</a>
-| <a href="#internal-snake">Poisonous snake</a> | <a href="#quipper">Quipper</a> | <a href="#rat">Rat</a> | <a href="#raven">Raven</a> |
-| <a href="#internal-sea horse">Sea horse</a> | <a href="#spider">Spider</a> | <a href="#squirrel">Squirrel</a> | <a href="#weasel">Weasel</a>
+    #### Called Familiar
+    | d15 | Creature | Power |
+    |:---:|:---------|:------|
+    | 1 | <a href="#internal-almiraj">Almiraj</a> | Once per day it can touch a creature with its horn and heal it 1d8 + 2 hit points. |
+    | 2 | <a href="#internal-craniumRat">Cranium rat</a> |  |
+    | 3 | <a href="#internal-wingedMonkey">Winged monkey</a> |  |
+    | 4 | <a href="#internal-tressym">Tressym</a> |  |
+    | 5 | <a href="#internal-fox">Fox</a> | While in contact with your familiar, your lies become slightly more believable. Gain advantage on such checks. |
+    | 6 | <a href="#internal-squirrel">Squirrel</a> | While in contact with your familiar, you have a climb speed equal to your movement. |
+    | 7 | <a href="#internal-donkey">Donkey</a> |  |
+    | 8 | <a href="#internal-giantRoach">Giant roach</a> | Once per day, you can choose to reroll a Constitution save. |
+    | 9 | <a href="#internal-lanternBeetle">Lantern beetle</a> |  |
+    | 10 | <a href="#internal-spidercat">Spidercat</a> | While in contact with your familiar, you have a climb speed equal to your movement. |
+    | 11 | <a href="#internal-amethystWyrmling">Amethyst&nbsp;wyrmling</a> |  |
+    | 12 | <a href="#internal-emeraldWyrmling">Emerald wyrmling</a> |  |
+    | 13 | <a href="#internal-mimic">Mimic</a> |  |
+    | 14 | <a href="#internal-oracularChicken">Oracular chicken</a> |  |
+    | 15 | <a href="#internal-wingedPiglet">Winged piglet</a> |  |
 
+    </div>
 
-At the end of the ritual, the familiar appears adjacent to you. It has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.
+    </div><br/><br/>
 
-As an ***action***, you can dismiss your familiar, either temporarily or permanently. A temporarily dismissed familiar disappears into a pocket dimension where it awaits your summons. As an ***action*** while it is temporarily dismissed, you can cause it to reappear next to you.
+-   <div class="spell multispell">
 
+    ### <a class="internal-link" name="internal-FindFamiliar">Find Familiar</a>
+    *1st-level conjuration (ritual)*
 
+    **Casting Time:**   1 hour<br/>
+    **Components:**		  V, S, M (10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)<br/>
+    **Duration:** 		  Instantaneous
 
-### Imbue object
-*1st-level conjuration (ritual)*
+    You gain the service of a familiar, a spirit that takes an animal form of your choice from the following:
 
-**Casting Time:**   1 hour
-**Components:**		  V, S, M (10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)
-**Duration:** 		  Instantaneous
+    <div class="block classTable frame" markdown="1">
 
-You gain the service of a familiar spirit which enters an object that you have prepared as a part of the ritual. After the completed ritual, the spirit is bound to the object and animates it, allowing it to move as described in the creature statistics. The following object are suitable for animation:
+    |  |  |  |  |
+    |:-|:-|:-|:-|
+    | <a href="#internal-bat">Bat</a> | <a href="#internal-cat">Cat</a> | <a href="#internal-crab">Crab</a> | <a href="#internal-frog">Frog/toad</a> |
+    | <a href="#internal-hawk">Hawk</a> | <a href="#internal-lizard">Lizard</a> | <a href="#internal-octopus">Octopus</a> |<a href="#internal-owl">Owl</a>
+    | <a href="#internal-snake">Poisonous snake</a> | <a href="#internal-quipper">Quipper</a> | <a href="#internal-rat">Rat</a> | <a href="#internal-raven">Raven</a> |
+    | <a href="#internal-sea horse">Sea horse</a> | <a href="#internal-spider">Spider</a> | <a href="#internal-squirrel">Squirrel</a> | <a href="#internal-weasel">Weasel</a>
 
+    </div>
 
-|  |  |  |  |
-|:-|:-|:-|:-|
-| <a href="#internal-flyingBook">Flying book</a> | <a href="#ragDoll">Rag doll</a> | <a href="#tinSoldier">Tin soldier</a> | <a href="#yarnGolem">Yarn golem</a>
+    At the end of the ritual, the familiar appears adjacent to you. It has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.
 
+    As an ***action***, you can dismiss your familiar, either temporarily or permanently. A temporarily dismissed familiar disappears into a pocket dimension where it awaits your summons. As an ***action*** while it is temporarily dismissed, you can cause it to reappear next to you.
 
-If the familiar is reduced to 0 hp, the physical object remains. Unless the object is completely destroyed, you can repair it with the *mending* spell or using the appropriate tools. When the object is repaired, the familiar spirit will return after the next long rest.
+    </div><br/><br/>
 
-#### Clockwork creatures
-Clockwork familiars are basically animated objects, but require more specialized knowledge. They are only available to Tinker gnomes and casters with proficiency in tinker's tools.
+-   <div class="spell multispell">
 
+    ### <a class="internal-link" name="internal-ImbueObject">Imbue Object</a>
+    *1st-level conjuration (ritual)*
 
-|  |  |
-|:-|:-|
-| <a href="#internal-clockworkMouse">Clockwork mouse</a> | <a href="#mechanicalWyrmling">Mechanical Wyrmling</a>
+    **Casting Time:**   1 hour
+    **Components:**		  V, S, M (10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier)
+    **Duration:** 		  Instantaneous
 
+    You gain the service of a familiar spirit which enters an object that you have prepared as a part of the ritual. After the completed ritual, the spirit is bound to the object and animates it, allowing it to move as described in the creature statistics. The following object are suitable for animation:
 
-A clockwork familiar can not be healed with magic, instead it has to be repaired. Even the *mending* spell does not work, since the mechanical parts are much to delicate. However, during a short rest, a successful Intelligence (Tinker's tools) check against a DC equal to the familiars max hp heals it the amount with witch you succeeded the roll + 1.
+    <div class="block classTable frame" markdown="1">
 
+    |  |
+    |:-|
+    | <a href="#internal-flyingBook">Flying book</a>
+    | <a href="#internal-ragDoll">Rag doll</a>
+    | <a href="#internal-tinSoldier">Tin soldier</a>
+    | <a href="#internal-yarnGolem">Yarn golem</a>
 
+    </div>
 
+    If the familiar is reduced to 0 hp, the physical object remains. Unless the object is completely destroyed, you can repair it with the *mending* spell or using the appropriate tools. When the object is repaired, the familiar spirit will return after the next long rest.
 
+    #### Clockwork creatures
+    Clockwork familiars are basically animated objects, but require more specialized knowledge. They are only available to Tinker gnomes and casters with proficiency in tinker's tools.
 
+    <div class="block classTable frame" markdown="1">
 
+    |  |
+    |:-|
+    | <a href="#internal-clockworkMouse">Clockwork mouse</a>
+    | <a href="#internal-mechanicalWyrmling">Mechanical Wyrmling</a>
 
+    </div>
 
-### Shape Element
-*1st-level conjuration (ritual)*
+    A clockwork familiar can not be healed with magic, instead it has to be repaired. Even the *mending* spell does not work, since the mechanical parts are much to delicate. However, during a short rest, a successful Intelligence (Tinker's tools) check against a DC equal to the familiars max hp heals it the amount with witch you succeeded the roll + 1.
 
-**Casting Time:**   1 hour
-**Components:**		  V, S, M (10 gp worth of incense and pigments used to draw runes)
-**Duration:** 		  Instantaneous
+    </div><br/><br/>
 
-You draw an elemental spirit into this world to serve you as a familiar. You must have a small amount of its native element which it can inhabit when arriving on this plane at the end of the ritual.
+-   <div class="spell multispell">
 
-As an ***action***, you can dismiss your familiar into a larger amount of the same element it is made of, where it disappears into a pocket dimension awaiting your summons. As an ***action*** while it is temporarily dismissed, you can cause it to reappear next to you, from any larger amount of its element.
+    ### <a class="internal-link" name="internal-ShapeElement">Shape Element</a>
+    *1st-level conjuration (ritual)*
 
+    **Casting Time:**   1 hour
+    **Components:**		  V, S, M (10 gp worth of incense and pigments used to draw runes)
+    **Duration:** 		  Instantaneous
 
-|  |  |  |  |
-|:-|:-|:-|:-|
-| <a href="#internal-moteEarth">Mote of Earth</a> | <a href="#moteFire">Mote of Fire</a> | <a href="#moteLight">Mote of Light</a> | <a href="#moteWater">Mote of Water</a> |
+    You draw an elemental spirit into this world to serve you as a familiar. You must have a small amount of its native element which it can inhabit when arriving on this plane at the end of the ritual.
 
+    As an ***action***, you can dismiss your familiar into a larger amount of the same element it is made of, where it disappears into a pocket dimension awaiting your summons. As an ***action*** while it is temporarily dismissed, you can cause it to reappear next to you, from any larger amount of its element.
 
-You can summon any type of element, unless your archetype is aligned with one element in particular. In that case you can only summon "your" element.
+    <div class="block classTable frame" markdown="1">
 
+    |  |
+    |:-|
+    | <a href="#internal-moteEarth">Mote of Earth</a>
+    | <a href="#internal-moteFire">Mote of Fire</a>
+    | <a href="#internal-moteLight">Mote of Light</a>
+    | <a href="#internal-moteWater">Mote of Water</a> |
 
-<div class="block classTable frame" markdown="1">
+    </div>
 
-#### Called Familiar
-| d15 | Creature | Power |
-|:---:|:---------|:------|
-| 1 | <a href="#internal-almiraj">Almiraj</a> | Once per day it can touch a creature with its horn and heal it 1d8 + 2 hit points. |
-| 2 | <a href="#internal-craniumRat">Cranium rat</a> |  |
-| 3 | <a href="#internal-wingedMonkey">Winged monkey</a> |  |
-| 4 | <a href="#internal-tressym">Tressym</a> |  |
-| 5 | <a href="#internal-fox">Fox</a> | While in contact with your familiar, your lies become slightly more believable. Gain advantage on such checks. |
-| 6 | <a href="#internal-squirrel">Squirrel</a> | While in contact with your familiar, you have a climb speed equal to your movement. |
-| 7 | <a href="#internal-donkey">Donkey</a> |  |
-| 8 | <a href="#internal-giantRoach">Giant roach</a> | Once per day, you can choose to reroll a Constitution save. |
-| 9 | <a href="#internal-lanternBeetle">Lantern beetle</a> |  |
-| 10 | <a href="#internal-spidercat">Spidercat</a> | While in contact with your familiar, you have a climb speed equal to your movement. |
-| 11 | <a href="#internal-amethystWyrmling">Amethyst&nbsp;wyrmling</a> |  |
-| 12 | <a href="#internal-emeraldWyrmling">Emerald wyrmling</a> |  |
-| 13 | <a href="#internal-mimic">Mimic</a> |  |
-| 14 | <a href="#internal-oracularChicken">Oracular chicken</a> |  |
-| 15 | <a href="#internal-wingedPiglet">Winged piglet</a> |  |
+    You can summon any type of element, unless your archetype is aligned with one element in particular. In that case you can only summon "your" element.
+
+    </div><br/><br/>
 
 </div>
 
 
 
-
-
-
-
-# <a class="internal-link" name="internal-list">Personality traits</a>
+## <a class="internal-link" name="internal-list">Personality traits</a>
 A familiar is an individual, and as such has a personality. When summoning your familiar for the first time, select a personality trait or roll on at random from this table.
 
+<div class="columnsthree">
 
-#### Personality Trait
-| d34 | Trait |
-|:---:|:------|
-| 1 | Hisses at holy people and refuses to enter churches and temples
-| 2 | Extremely gullible
-| 3 | It attempts to decorate itself with whatever it can find. It rolls itself in dust, ties necklace chains around its extremities, dips its beak into various colors of paint before pruning its feathers. Needless to say, the results are not exactly pleasant.
-| 4 | They follow instructions, but are very squirrely and afraid of almost everything.
-| 5 | Always talks about themselves in the third person
-| 6 | Is incredibly old and responds to every request with a story of a previous wizard who asked the same request.
-| 7 | Always drags its feet and gives the least amount of effort required.
-| 8 | A friendly familiar, calling everyone "friend", “pal", "buddy". May not grasp death very much.
-| 9 | A familiar that thinks their master is (or is going to be) the greatest mage ever, and is a constant cheerleader for them.
-| 10 | The familiar displays an unhealthy enthusiasm for destructive magic, encouraging the mage to use their most destructive spells at all times, especially when it doesn't make sense. ("You know what would dry those clothes off really fast? Fireball.")
-| 11 | Grandmotherly. She always reminds you to wear a coat, eat vegetables, be nicer, etc. Bonus if it can somehow give you cookies every now and then.
-| 12 | A familiar that acts like a loyal guard dog, fiercely protecting their master, even from their allies.
-| 13 | A familiar that believes itself to be the master's patron. Any instruction it is given is interpreted as a request for power from the master, and the familiar will constantly attempt to further its own agenda.
-| 14 | A familiar that only speaks by repeating what it just heard, possibly in a mocking tone
-| 15 | The familiar is kind of a jerk, still does what you want it to do, but usually with an attitude of "ugh, fine. I'll do it."
-| 16 | Has an attraction to shiny objects, and loves to steal them.
+- | d34 | Trait |
+  |:---:|:------|
+  | 1 | Hisses at holy people and refuses to enter churches and temples
+  | 2 | Extremely gullible
+  | 3 | It attempts to decorate itself with whatever it can find. It rolls itself in dust, ties necklace chains around its extremities, dips its beak into various colors of paint before pruning its feathers. Needless to say, the results are not exactly pleasant.
+  | 4 | They follow instructions, but are very squirrely and afraid of almost everything.
+  | 5 | Always talks about themselves in the third person
+  | 6 | Is incredibly old and responds to every request with a story of a previous wizard who asked the same request.
+  | 7 | Always drags its feet and gives the least amount of effort required.
+  | 8 | A friendly familiar, calling everyone "friend", “pal", "buddy". May not grasp death very much.
+  | 9 | A familiar that thinks their master is (or is going to be) the greatest mage ever, and is a constant cheerleader for them.
+  | 10 | The familiar displays an unhealthy enthusiasm for destructive magic, encouraging the mage to use their most destructive spells at all times, especially when it doesn't make sense. ("You know what would dry those clothes off really fast? Fireball.")
 
+- | d34 | Trait |
+  |:---:|:------|
+  | 11 | Grandmotherly. She always reminds you to wear a coat, eat vegetables, be nicer, etc. Bonus if it can somehow give you cookies every now and then.
+  | 12 | A familiar that acts like a loyal guard dog, fiercely protecting their master, even from their allies.
+  | 13 | A familiar that believes itself to be the master's patron. Any instruction it is given is interpreted as a request for power from the master, and the familiar will constantly attempt to further its own agenda.
+  | 14 | A familiar that only speaks by repeating what it just heard, possibly in a mocking tone
+  | 15 | The familiar is kind of a jerk, still does what you want it to do, but usually with an attitude of "ugh, fine. I'll do it."
+  | 16 | Has an attraction to shiny objects, and loves to steal them.
+  | 17 | A female familiar with the personality of a 5-year-old human girl.
+  | 18 | A male familiar with the personality of a 5-year-old human boy.
+  | 19 | A familiar who talks in a stereotypical hero/superman voice, sounding off about justice and smiting evil anytime they get a chance.
+  | 20 | A familiar that’s a little depressed, will do as you tell it but sigh heavily and express a sort of resigned dissatisfaction towards the dangers it faces. (Think Eeyore)
+  | 21 | A familiar that lacks common sense.
 
+- | d34 | Trait |
+  |:---:|:------|
+  | 22 | A familiar that pretty much just does nothing and stays silent until it is given instructions by it's wizard. When given instructions, it shouts "OKAY!" before doing the task in the most vigorous way possible. (For example, if it was told to break a window, it would yell "OKAY!" before jumping out the window, full-body-slamming the window into small shards.)
+  | 23 | Resentful of its position. "I might be a servant, but I don’t like it, and will complain when given orders."
+  | 24 | Bumptious. A self-aggrandizing know-it-all.
+  | 25 | Gluttonous. Always hungry.
+  | 26 | Spiteful. Delights in cruelty and malice, and loves to laugh at others’ failures.
+  | 27 | Jealous. Likes to be the center of its master’s attention, and responds poorly to anyone competing for it.
+  | 28 | "I may be a servant now, but someday I will master my own destiny– and maybe yours, too."
+  | 29 | "To serve is my reason for existence."
+  | 30 | Chaotic. Only wants to watch the world burn, and takes every opportunity to cause mischief.
+  | 31 | Lazy. When not under orders, prefers to sleep.
+  | 32 | Not very bright. Does its best to follow orders, butoften misunderstand commands given.
+  | 33 | A very loving familiar, that wants to cuddle with the person who summoned it if no important events are going on.
+  | 34 | Extremely cowardly.
 
-
- :::::::
-
-#### Personality Trait (cont.)
-| d34 | Trait |
-|:---:|:------|
-| 17 | A female familiar with the personality of a 5-year-old human girl.
-| 18 | A male familiar with the personality of a 5-year-old human boy.
-| 19 | A familiar who talks in a stereotypical hero/superman voice, sounding off about justice and smiting evil anytime they get a chance.
-| 20 | A familiar that’s a little depressed, will do as you tell it but sigh heavily and express a sort of resigned dissatisfaction towards the dangers it faces. (Think Eeyore)
-| 21 | A familiar that lacks common sense.
-| 22 | A familiar that pretty much just does nothing and stays silent until it is given instructions by it's wizard. When given instructions, it shouts "OKAY!" before doing the task in the most vigorous way possible. (For example, if it was told to break a window, it would yell "OKAY!" before jumping out the window, full-body-slamming the window into small shards.)
-| 23 | Resentful of its position. "I might be a servant, but I don’t like it, and will complain when given orders."
-| 24 | Bumptious. A self-aggrandizing know-it-all.
-| 25 | Gluttonous. Always hungry.
-| 26 | Spiteful. Delights in cruelty and malice, and loves to laugh at others’ failures.
-| 27 | Jealous. Likes to be the center of its master’s attention, and responds poorly to anyone competing for it.
-| 28 | "I may be a servant now, but someday I will master my own destiny– and maybe yours, too."
-| 29 | "To serve is my reason for existence."
-| 30 | Chaotic. Only wants to watch the world burn, and takes every opportunity to cause mischief.
-| 31 | Lazy. When not under orders, prefers to sleep.
-| 32 | Not very bright. Does its best to follow orders, butoften misunderstand commands given.
-| 33 | A very loving familiar, that wants to cuddle with the person who summoned it if no important events are going on.
-| 34 | Extremely cowardly.
-
+</div>
 
 
-
-
-
-
-
-
-<!-- Letterheader Snippet (put at top of page) -->
-{{}}">wide,letterheader
-{{}}">mmletter,mml-a
-
-
-
-<!-- Snippet end -->
- ::::::::
-<a class="internal-link" name="internal-list"></a>
+## <a class="internal-link" name="internal-list">Alphabetical list of familiars</a>
 
 ### <a class="internal-link" name="internal-almiraj">Almiraj</a>
 The almiraj is a small magical beast resembling a rabbit with a unicorn-like horn in the middle of its forehead. They are popular familiars among witches.
 
-{{}}">monster,frame
-## Almiraj
-*Small beast*
+<div class="columnstwo">
 
-**Armor Class**   13
-**Hit Points** 	  3 (1d6)
-**Speed** 			  40 ft
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+  Almiraj
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Small beast</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
 
-|  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|2 (-4) |16 (+3)|10 (0) |2 (-4) |14 (+2)|10 (0) |
+  **Armor Class**   13<br/>
+  **Hit Points** 	  3 (1d6)<br/>
+  **Speed** 			  40 ft
 
-**Skills** Perception +4, Stealth +5
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
-***Keen Smell.*** The almiraj has advantage on Perception checks that rely on smell.
-### Actions
-**Horn.** *Melee Attack*: +5 to hit, 1d4+3 piercing damage.
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |2 (-4) |16 (+3)|10 (0) |2 (-4) |14 (+2)|10 (0) |
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills** Perception +4, Stealth +5<br/>
+  ***Keen Smell.*** The almiraj has advantage on Perception checks that rely on smell.
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  ### Actions
+  **Horn.** *Melee Attack*: +5 to hit, 1d4+3 piercing damage.
+
+  </td></tr></tbody></table>
+  </div>
+
+- <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='width:55%'/>
+
+</div>
 
 {{}}">monster,frame
 ## <a class="internal-link" name="internal-amethystWyrmling">Amethyst Wyrmling</a>
@@ -292,9 +332,6 @@ The almiraj is a small magical beast resembling a rabbit with a unicorn-like hor
 
 
 
-
-<img
-  src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='position:absolute;height:39%;right:80px;top:150px;' />
 
 
 
