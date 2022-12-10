@@ -74,8 +74,6 @@ layout: default
   <a href="#internal-UnderwaterCombat">Underwater Combat</a><br/>
 
 </div>
-<!-- - <a href="#internal-travel">Travel</a><br/> -->
-
 
 
 ## <a class="internal-link" name="internal-character">The Character</a>
@@ -365,11 +363,10 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
 - ### <a class="internal-link" name="internal-PlanningaJourney">Planning a Journey</a>
   The first step in making a journey is planning — you need to decide where you're going, how you're getting there and gather any supplies, vehicles and equipment needed for the journey.
 
-  #### Food
+- #### Food
   A character needs ***one pound of food per day*** and can go without food for a number of days equal to 3 + Constitution modifier (min 1). At the end of each day beyond that limit, a character automatically suffers one level of exhaustion. A normal day of eating resets the count of days without food to zero.
 
-
-  #### Water
+- #### Water
   Unless a character drinks ***one gallon of water per day***, or two gallons if the weather is hot, he  must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion at the end of the day. A character drinking less than half that, automatically suffers one level of exhaustion at the end of the day. If the character already has one or more levels of exhaustion, the character takes two levels in either case.
 
 - ### <a class="internal-link" name="internal-ADayofTravelling">A Day of Travelling</a>
@@ -389,13 +386,13 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
 - ### <a class="internal-link" name="internal-TravelPace">2. The Travel</a>
   While traveling, a group can move at a ***normal, fast or slow pace***, as shown on the Travelling Pace table. The table states how far the party can move in a period of time and the impact a pace has to a role. A fast pace makes characters less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully.
 
-  #### Walking
+- #### Walking
   The average character has a walking speed of about 2 miles per hour, and can travel comfortably around 16 miles per day. This takes into account the many rest breaks, pauses, and distractions a character will need during the day — especially those that carry heavy gear and armor. Walking long-distance is surprisingly hard work, and a long march in full plate armor is a sure way to strain muscles and hurt yourself.
 
-  #### Forced March
+- #### Forced March
   The Travelling Pace table assumes that characters ***travel for 8 hours in day***. For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the hour column for their pace, and must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of exhaustion
 
-  #### Mounts and Vehicles
+- #### Mounts and Vehicles
   The average horse walks at much the same pace as a character. While they can gallop much faster, they can only do so on flat ground for very short periods — horses overheat very quickly.
 
   Characters in wagons, carriages, or other land vehicles choose a pace as normal. Characters in a waterborne vessel are limited to the speed of the vessel, but don’t suffer penalties for a fast pace or gain benefits from a slow pace.
@@ -431,10 +428,14 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
 - ### <a class="internal-link" name="internal-TheNightRest">4. The Night Rest</a>
   The night is dark and full of terrors, an unwelcoming to travelers. Travel is very difficult and it's easy to get lost, so get some sleep and recover your energy for tomorrow. See <a href="rest.html">Resting</a> on the resting rules and what activities you can perform during the long rest.
 
-- ### <a class="internal-link" name="internal-RolesDuringTravel">Roles During Travel</a>
-  There are three main responsibilities when travelling: guide, forager and lookout. A person can only lead or assist one role per day, and any role not taken will automatically fail any related rolls.
+</div>
 
-  A role can have only one leader, but any number of helpers. The leader makes the roll, the first helper grants advantage, and subsequent helpers grant a +1 bonus.
+### <a class="internal-link" name="internal-RolesDuringTravel">Roles During Travel</a>
+There are three main responsibilities when travelling: guide, forager and lookout. A person can only lead or assist one role per day, and any role not taken will automatically fail any related rolls.
+
+A role can have only one leader, but any number of helpers. The leader makes the roll, the first helper grants advantage, and subsequent helpers grant a +1 bonus.
+
+<div class="columnsthree">
 
 - ### <a class="internal-link" name="internal-RoleTheGuide">Role: The Guide</a>
   The guide makes sure everyone is heading in the right direction and avoids obstacles. If the guide fails, the journey will take longer.
