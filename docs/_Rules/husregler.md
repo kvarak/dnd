@@ -286,25 +286,27 @@ There are three kinds of magic:
 
 <div class="columnsthree">
 
--   <div class="block classTable fillClassTable frame" markdown="1">
-
-    ***Arcane magic*** used by wizards, warlocks, sorcerers and bards, rely on an understanding — learned or intuitive — of the workings of the Weave that suffuses all existence.
-
-    </div>
-
--   <div class="block classTable fillClassTable frame" markdown="1">
+-   <div class="descriptive">
 
     ***Divine magic*** is granted by the Gods to their most devoted followers, clerics and paladins.
 
     </div>
 
--   <div class="block classTable fillClassTable frame" markdown="1">
+-   <div class="descriptive">
+
+    ***Arcane magic*** used by wizards, warlocks, sorcerers and bards, rely on an understanding — learned or intuitive — of the workings of the Weave that suffuses all existence.
+
+    </div>
+
+-   <div class="descriptive">
 
     ***Primal magic*** which is provided by nature itself, or by ancestor spirits and filtered through nature. This magic is mostly used by druids, rangers and creatures close to nature, such as fey.
 
     </div>
 
 </div>
+
+<hr>
 
 <div class="columnsthree">
 
@@ -415,7 +417,7 @@ Each travel day is broken up into distinct phases — breaking camp, travel, set
 
   <!-- | | Distance per... || ||||| -->
 
-  <div class="block classTable fillClassTable frame" markdown="1">
+- <div class="block classTable fillClassTable frame" markdown="1">
 
   #### Travelling Pace
   | Pace | Hour | Day | Guide | Forage |
@@ -474,7 +476,7 @@ A role can have only one leader, but any number of helpers. The leader makes the
   | **15** | Light rain or mist; Woods and hills.
   | **20** | Moonlight night; Heavy rain or mist; Forest with no clear pathway or markings.
   | **25** | Fog; Thick and obscure forest; Mountains.
-  | **30** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Clouded night; Impossibly thick fog; A shifting maze; Magically treacherous terrain.
+  | **30** | Clouded night; Impossibly thick fog; A shifting maze; Magically treacherous terrain.
 
   </div>
 
@@ -497,7 +499,7 @@ A role can have only one leader, but any number of helpers. The leader makes the
   | **15** | Thin woodland and greenwood. Food must be actively hunted and water is harder to find.
   | **20** | Dry, open plains; Very little food or clean water.
   | **25** | Desert and barren or polluted land; Food is extremely rare and water may need treatment.
-  | **30** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Toxic or corrupted deadlands; Food is inedible and water sources are poisoned.
+  | **30** | Toxic or corrupted deadlands; Food is inedible and water sources are poisoned.
 
   </div>
 
