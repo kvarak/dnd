@@ -56,10 +56,10 @@ layout: default
 - ##### <a href="#internal-travel">Travel</a>
   <a href="#internal-PlanningaJourney">Planning a Journey</a><br/>
   <a href="#internal-ADayofTravelling">A Day of Travelling</a><br/>
-  <a href="#internal-BreakingCamp">Breaking Camp</a><br/>
-  <a href="#internal-TravelPace">Travel Pace</a><br/>
-  <a href="#internal-SettingCamp">Setting Camp</a><br/>
-  <a href="#internal-TheNightRest">The Night Rest</a><br/>
+  <a href="#internal-BreakingCamp">1. Breaking Camp</a><br/>
+  <a href="#internal-TravelPace">2. The Travel</a><br/>
+  <a href="#internal-SettingCamp">3. Setting Camp</a><br/>
+  <a href="#internal-TheNightRest">4. The Night Rest</a><br/>
   <a href="#internal-RolesDuringTravel">Roles During Travel</a><br/>
   <a href="#internal-RoleTheGuide">Role: The Guide</a><br/>
   <a href="#internal-RoleTheForager">Role: The Forager</a><br/>
@@ -286,11 +286,15 @@ turn. The order of turns is determined at the beginning of a combat encounter, w
 
 There are three kinds of magic:
 
-***Arcane magic*** used by wizards, warlocks, sorcerers and bards, rely on an understanding — learned or intuitive — of the workings of the Weave that suffuses all existence.
+<div class="columnsthree">
 
-***Divine magic*** is granted by the Gods to their most devoted followers, clerics and paladins.
+- ***Arcane magic*** used by wizards, warlocks, sorcerers and bards, rely on an understanding — learned or intuitive — of the workings of the Weave that suffuses all existence.
 
-***Primal magic*** which is provided by nature itself, or by ancestor spirits and filtered through nature. This magic is mostly used by druids, rangers and creatures close to nature, such as fey.
+- ***Divine magic*** is granted by the Gods to their most devoted followers, clerics and paladins.
+
+- ***Primal magic*** which is provided by nature itself, or by ancestor spirits and filtered through nature. This magic is mostly used by druids, rangers and creatures close to nature, such as fey.
+
+</div>
 
 <div class="columnsthree">
 
@@ -371,7 +375,7 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
 - ### <a class="internal-link" name="internal-ADayofTravelling">A Day of Travelling</a>
   Each travel day is broken up into distinct phases — breaking camp, travel, setting camp and rest.
 
-- ### <a class="internal-link" name="internal-BreakingCamp">Breaking Camp</a>
+- ### <a class="internal-link" name="internal-BreakingCamp">1. Breaking Camp</a>
   Sunlight crests the horizon. It's time to wake up, eat some breakfast to prepare for the day ahead, and pack up camp.
 
   **Check the weather**: The weather can have a drastic impact on your travel plans, especially if you're not prepared. You may want to avoid travel completely during heavy rains, storms, and snows.
@@ -382,7 +386,7 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
 
   **Pack up camp**: Put out any cooking fires, strap on your gear, and pack up your camp.
 
-- ### <a class="internal-link" name="internal-TravelPace">Travel Pace</a>
+- ### <a class="internal-link" name="internal-TravelPace">2. The Travel</a>
   While traveling, a group can move at a ***normal, fast or slow pace***, as shown on the Travelling Pace table. The table states how far the party can move in a period of time and the impact a pace has to a role. A fast pace makes characters less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully.
 
   #### Walking
@@ -401,13 +405,13 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
   <div class="block classTable fillClassTable frame" markdown="1">
 
   #### Travelling Pace
-  | Travel pace | Hour | Day | Guide | Forage |
+  | Pace | Hour | Day | Guide | Forage |
   |:------------|:----:|:---:|:-----:|:------:|
   | Slow | 1.5&nbsp;miles | 12&nbsp;miles | Adv. | Normal |
   | Medium | 2&nbsp;miles | 16&nbsp;miles | Normal | Disadv. |
   | Fast | 3&nbsp;miles | 24&nbsp;miles | Disadv. | None |
 
-  | Travel pace | Scout | Hide Tracks | Effect |
+  | Pace | Scout | Hide Tracks | Effect |
   |:------------|:-----:|:-----------:|:-------|
   | Slow | Adv. | Adv. | -5 penalty to Perception
   | Medium | Normal | Normal | —
@@ -415,7 +419,7 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
 
   </div>
 
-- ### <a class="internal-link" name="internal-SettingCamp">Setting Camp</a>
+- ### <a class="internal-link" name="internal-SettingCamp">3. Setting Camp</a>
   The sun sinks beneath the horizon and the sky darkens. It's time to set up camp for the night, eat and reflect on today's travel.
 
   **Guide**: The guide makes a guidance check to see if you managed to stay on the right path.
@@ -424,8 +428,8 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
 
   **Make camp**: Take off your gear and set up camp.
 
-- ### <a class="internal-link" name="internal-TheNightRest">The Night Rest</a>
-  The night is dark and full of terrors, an unwelcoming to travelers. Travel is very difficult and it's easy to get lost, so get some sleep and recover your energy for tomorrow. See the section about what happens during <a href="#internal-rest">Resting</a> and <a href="#longRest">Activities</a> you can perform during the long rest.
+- ### <a class="internal-link" name="internal-TheNightRest">4. The Night Rest</a>
+  The night is dark and full of terrors, an unwelcoming to travelers. Travel is very difficult and it's easy to get lost, so get some sleep and recover your energy for tomorrow. See <a href="rest.html">Resting</a> on the resting rules and what activities you can perform during the long rest.
 
 - ### <a class="internal-link" name="internal-RolesDuringTravel">Roles During Travel</a>
   There are three main responsibilities when travelling: guide, forager and lookout. A person can only lead or assist one role per day, and any role not taken will automatically fail any related rolls.
@@ -480,7 +484,7 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
 
   </div>
 
-  Additionally a character can forage for herbs. See the section for <a href="https://homebrewery.naturalcrit.com/print/1Jm5srkDwjuW6p_SI8uQqnu1htq9jFNF1VKmVI6DuZdSU">Herbalism</a> for how that works.
+  Additionally a character can forage for herbs. See the section for <a href="herbalism.html">Herbalism</a> for how that works.
 
 - ### <a class="internal-link" name="internal-RoleTheLookout">Role: The Lookout</a>
   The lookout ranges ahead during the day's travel and keeps an eye out for dangers. If the lookout fails, you may be ambushed by enemies and other hazards.
