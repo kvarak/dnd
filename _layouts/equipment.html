@@ -4,100 +4,82 @@
 <head>
   {% include head.html %}
 
+  <!-- Compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Datatables CSS -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.css"/>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Compiled Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- Datatables JavaScript -->
   <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.js"></script>
 
-  <!-- <style>
-
-    body {
-      font-family: "Buenard";
-      font-size: 13px;
-    }
-    th {
-      background-color: #d42129;
-      color: white;
-      font-size: 1.3em;
-    }
-    tr:first-of-type th:first-of-type { border-radius: 6px 0 0 0;}
-    tr:first-of-type th:last-child { border-radius: 0 6px 0 0; }
-    th .input-sm { border-radius: 6px !important; }
-    .td-center { text-align: center; }
-    .td-nobreak { white-space: nowrap; }
-
-</style> -->
-
-<script>
-  ///////////////////////////////////////
-  // Get google sheet data
-  $(document).ready(function() {
-  var tableContent = []
-  fetch("https://opensheet.elk.sh/1xUNZ5xcqvfepphKklfj4HQ3CbSyk342a3eIMTnSAKUY/1")
-    .then((res) => res.json())
-    .then((data) => {
-      data.forEach((row) => {
-        var weight = (row['Weight']) ? row['Weight'] : '-'
-        var description = (row['Description']) ? row['Description'] : '-'
-        tableContent.push([row['Item'],row['Category'],row['Price'],weight,description]);
-      });
-
-      var contentTable = $('#contentTable').DataTable({data: tableContent,
-                                                      order: [[0, 'desc']],
-                                                      ordering: false,
-                                                      iDisplayLength: -1,
-                                                      aoColumnDefs: [{ sClass: "td-nobreak",
-                                                                        aTargets: [ 0 ] },
-                                                                      { sClass: "td-center",
-                                                                        aTargets: [ 2,3 ] }],
-                                                      columns: [{ title: 'Item'},
-                                                                { title: 'Category'},
-                                                                { title: 'Price'},
-                                                                { title: 'Weight'},
-                                                                { title: 'Description'}],
-                                                      dom:  "<'row'<'col-sm-3'l><'col-sm-3'f><'col-sm-6'p>>" +
-                                                            "<'row'<'col-sm-12'tr>>" +
-                                                            "<'row'<'col-sm-5'i><'col-sm-7'p>>"
-
-                                                      });
-
-
-      // Create search box on each column
-      $('#contentTable thead tr').clone(true).appendTo( '#contentTable thead' );
-      $('#contentTable thead tr:eq(1) th').each( function (i) {
-        var title = $(this).text();
-        $(this).html( '<div class="input-group"><input type="text" class="form-control input-sm" placeholder="Search" /></div>' );
-
-        $( 'input', this ).on( 'keyup change', function () {
-          if ( contentTable.column(i).search() !== this.value ) {
-            contentTable
-              .column(i)
-              .search( this.value )
-              .draw();
-          }
+  <script>
+    ///////////////////////////////////////
+    // Get google sheet data
+    $(document).ready(function() {
+    var tableContent = []
+    fetch("https://opensheet.elk.sh/1xUNZ5xcqvfepphKklfj4HQ3CbSyk342a3eIMTnSAKUY/1")
+      .then((res) => res.json())
+      .then((data) => {
+        data.forEach((row) => {
+          var weight = (row['Weight']) ? row['Weight'] : '-'
+          var description = (row['Description']) ? row['Description'] : '-'
+          tableContent.push([row['Item'],row['Category'],row['Price'],weight,description]);
         });
 
-        $( 'input', this ).on( 'click', function (e) {
-          e.stopPropagation();
+        var contentTable = $('#contentTable').DataTable({
+          data: tableContent,
+          order: [[0, 'desc']],
+          ordering: false,
+          lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
+          iDisplayLength: -1,
+          aoColumnDefs: [{ sClass: "td-nobreak",
+                            aTargets: [ 0 ] },
+                          { sClass: "td-center",
+                            aTargets: [ 2,3 ] }],
+          columns: [{ title: 'Item'},
+                    { title: 'Category'},
+                    { title: 'Price'},
+                    { title: 'Weight'},
+                    { title: 'Description'}],
+          dom:  "<'row'<'col-sm-3'l><'col-sm-3'f><'col-sm-6'p>>" +
+                "<'row'<'col-sm-12'tr>>" +
+                "<'row'<'col-sm-5'i><'col-sm-7'p>>"
         });
-      });
+
+        // Create search box on each column
+        $('#contentTable thead tr').clone(true).appendTo( '#contentTable thead' );
+        $('#contentTable thead tr:eq(1) th').each( function (i) {
+          var title = $(this).text();
+          $(this).html( '<div class="input-group"><input type="text" class="form-control input-sm" placeholder="Search" /></div>' );
+
+          $( 'input', this ).on( 'keyup change', function () {
+            if ( contentTable.column(i).search() !== this.value ) {
+              contentTable
+                .column(i)
+                .search( this.value )
+                .draw();
+            }
+          });
+
+          $( 'input', this ).on( 'click', function (e) {
+            e.stopPropagation();
+          });
+        });
+    });
   });
-});
-</script>
+  </script>
 
 </head>
 
 <body>
   {% include navigation.html %}
   <div class="container container-main">
-    <div class="row">
-      <div class="col-lg-11">
-        <h1>Equipment</h1>
-        For most items the price is for something that is functional, used by a commoner. The price x5 is someting used by the upper end of the middle class. Lowest price x10 for upper class, and something for the aristocratic circles would cost x100.
-        <hr>
-        <table class="table table-striped table-hover table-condensed" id="contentTable"></table>
-      </div>
-      <div class="col-lg-1"></div>
-    </div>
+    <h1>Equipment</h1>
+    For most items the price is for something that is functional, used by a commoner. The price x5 is someting used by the upper end of the middle class. Lowest price x10 for upper class, and something for the aristocratic circles would cost x100.
+    <hr>
+    <table class="table table-striped table-hover table-condensed" id="contentTable"></table>
   </div>
 </body>
