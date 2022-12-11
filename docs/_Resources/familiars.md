@@ -3,62 +3,62 @@ title: Familiars
 layout: default
 ---
 
-<div class="toc">
+<div class="columns">
 
-##### Spells
-<a href="internal-AnimateFamiliar">Animate Familiar</a><br/>
-<a href="internal-CallFamiliar">Call Familiar</a><br/>
-<a href="internal-FindFamiliar">Find Familiar</a><br/>
-<a href="internal-ImbueObject">Imbue Object</a><br/>
-<a href="internal-ShapeElement">Shape Element</a>
+- ##### Spells
+  <a href="#internal-AnimateFamiliar">Animate Familiar</a><br/>
+  <a href="#internal-CallFamiliar">Call Familiar</a><br/>
+  <a href="#internal-FindFamiliar">Find Familiar</a><br/>
+  <a href="#internal-ImbueObject">Imbue Object</a><br/>
+  <a href="#internal-ShapeElement">Shape Element</a>
 
-##### <a href="#internal-personality">Familiar personality</a>
+- ##### <a href="#internal-personality">Familiar personality</a>
 
-##### <a href="#internal-list">Alphabetical list of familiars</a>
-<a href="internal-almiraj">Almiraj</a><br/>
-<a href="internal-amethystWyrmling">Amethyst Wyrmling</a><br/>
-<a href="internal-bat">Bat</a><br/>
-<a href="internal-cat">Cat</a><br/>
-<a href="internal-clockworkMouse">Clockwork Mouse</a><br/>
-<a href="internal-crab">Crab</a><br/>
-<a href="internal-craniumRat">Cranium Rat</a><br/>
-<a href="internal-crawlingClaw">Crawling Claw</a><br/>
-<a href="internal-donkey">Donkey</a><br/>
-<a href="internal-emeraldWyrmling">Emerald Wyrmling</a><br/>
-<a href="internal-flyingBook">Flying Book</a><br/>
-<a href="internal-fox">Fox</a><br/>
-<a href="internal-frog">Frog</a><br/>
-<a href="internal-giantRoach">Giant Roach</a><br/>
-<a href="internal-goreCrow">Gore Crow</a><br/>
-<a href="internal-hawk">Hawk</a><br/>
-<a href="internal-lanternBeetle">Lantern beetle</a><br/>
-<a href="internal-lizard">Lizard</a><br/>
-<a href="internal-mechanicalWyrmling">Mechanical Wyrmling</a><br/>
-<a href="internal-mimic">Mimic</a><br/>
-<a href="internal-moteEarth">Mote of Earth</a><br/>
-<a href="internal-moteFire">Mote of Fire</a><br/>
-<a href="internal-moteLight">Mote of Light</a><br/>
-<a href="internal-moteWater">Mote of Water</a><br/>
-<a href="internal-octopus">Octopus</a><br/>
-<a href="internal-oracularChicken">Oracular Chicken</a><br/>
-<a href="internal-owl">Owl</a><br/>
-<a href="internal-poisonousSnake">Poisonous snake</a><br/>
-<a href="internal-quipper">Quipper</a><br/>
-<a href="internal-ragDoll">Rag Doll</a><br/>
-<a href="internal-rat">Rat</a><br/>
-<a href="internal-raven">Raven</a><br/>
-<a href="internal-seaHorse">Sea horse</a><br/>
-<a href="internal-skullServant">Skull Servant</a><br/>
-<a href="internal-spider">Spider</a><br/>
-<a href="internal-squirrel">Squirrel</a><br/>
-<a href="internal-spidercat">Spidercat</a><br/>
-<a href="internal-shadowRat">Shadow Rat</a><br/>
-<a href="internal-tinSoldier">Tin Soldier</a><br/>
-<a href="internal-tressym">Tressym</a><br/>
-<a href="internal-weasel">Weasel</a><br/>
-<a href="internal-wingedPiglet">Winged Piglet</a><br/>
-<a href="internal-wingedMonkey">Winged Monkey</a><br/>
-<a href="internal-yarnGolem">Yarn Golem</a><br/>
+- ##### <a href="#internal-list">Alphabetical list of familiars</a>
+- <a href="#internal-almiraj">Almiraj</a>
+- <a href="#internal-amethystWyrmling">Amethyst Wyrmling</a>
+- <a href="#internal-bat">Bat</a>
+- <a href="#internal-cat">Cat</a>
+- <a href="#internal-clockworkMouse">Clockwork Mouse</a>
+- <a href="#internal-crab">Crab</a>
+- <a href="#internal-craniumRat">Cranium Rat</a>
+- <a href="#internal-crawlingClaw">Crawling Claw</a>
+- <a href="#internal-donkey">Donkey</a>
+- <a href="#internal-emeraldWyrmling">Emerald Wyrmling</a>
+- <a href="#internal-flyingBook">Flying Book</a>
+- <a href="#internal-fox">Fox</a>
+- <a href="#internal-frog">Frog</a>
+- <a href="#internal-giantRoach">Giant Roach</a>
+- <a href="#internal-goreCrow">Gore Crow</a>
+- <a href="#internal-hawk">Hawk</a>
+- <a href="#internal-lanternBeetle">Lantern beetle</a>
+- <a href="#internal-lizard">Lizard</a>
+- <a href="#internal-mechanicalWyrmling">Mechanical Wyrmling</a>
+- <a href="#internal-mimic">Mimic</a>
+- <a href="#internal-moteEarth">Mote of Earth</a>
+- <a href="#internal-moteFire">Mote of Fire</a>
+- <a href="#internal-moteLight">Mote of Light</a>
+- <a href="#internal-moteWater">Mote of Water</a>
+- <a href="#internal-octopus">Octopus</a>
+- <a href="#internal-oracularChicken">Oracular Chicken</a>
+- <a href="#internal-owl">Owl</a>
+- <a href="#internal-poisonousSnake">Poisonous snake</a>
+- <a href="#internal-quipper">Quipper</a>
+- <a href="#internal-ragDoll">Rag Doll</a>
+- <a href="#internal-rat">Rat</a>
+- <a href="#internal-raven">Raven</a>
+- <a href="#internal-seaHorse">Sea horse</a>
+- <a href="#internal-skullServant">Skull Servant</a>
+- <a href="#internal-spider">Spider</a>
+- <a href="#internal-squirrel">Squirrel</a>
+- <a href="#internal-spidercat">Spidercat</a>
+- <a href="#internal-shadowRat">Shadow Rat</a>
+- <a href="#internal-tinSoldier">Tin Soldier</a>
+- <a href="#internal-tressym">Tressym</a>
+- <a href="#internal-weasel">Weasel</a>
+- <a href="#internal-wingedPiglet">Winged Piglet</a>
+- <a href="#internal-wingedMonkey">Winged Monkey</a>
+- <a href="#internal-yarnGolem">Yarn Golem</a>
 
 </div>
 
@@ -504,14 +504,27 @@ A familiar is an individual, and as such has a personality. When summoning your 
   **Hit Points** 	  2 (1d4)
   **Speed** 			  20 ft, swim 20 ft
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |2 (-4)|11 (0)|10 (0)|1 (-5)|8 (-1)|2 (-4)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Skills**   Stealth +2
   **Senses**   Blindsight 30ft., passive Perception 9
 
   ***Amphibious.*** The crab can breathe air and water.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Claw.** *Melee Attack*: +0 to hit, 1 slashing damage.
 
@@ -538,19 +551,36 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   When visiting a noble or dignitary who employs a gnomish advisor that may well be a spymaster, expect the walls to be brimming with tunnels and passageways for the engineered espionage to occur.
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Armor Class**   12
   **Hit Points** 	  9 (2d4 + 4)
   **Speed** 			  25 ft, climb 15 ft
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |8 (-1)|15 (+2)|14 (+2)|2 (-4)|10 (+0)|4 (-3)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Skills** 								  Perception +2, Stealth +4
   **Damage Immunities** 		  poison, psychic
   **Condition Immunities**	  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
 
   ***Lockpicking Tail.*** The tail of the clockwork mouse can split into a set of lockpicking tools. The clockwork mouse is considered proficient with thieves' tools and has advantage on any check made to pick locks.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   ***Bite.*** *Melee Attack:* +1 to hit, 1d4-1 piercing damage.
 
@@ -570,13 +600,25 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   A cranium rat is almost indistinguishable from a normal rodent, except that a portion of its large brain is exposed and pulses with a soft glow.
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Armor Class**   12
   **Hit Points** 	  2 (1d4)
   **Speed** 			  30 ft
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |2 (-4)|14 (+2)|10 (0)|4 (-3)|11 (0)|8 (-1)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Senses*** 		  lowlight vision 30 ft
   ***Language***    telepathy 30 ft
@@ -584,6 +626,11 @@ A familiar is an individual, and as such has a personality. When summoning your 
   ***Illumination.*** As a bonus action, the cranium rat can shed dim light from its brain in a 5-foot radius or extinguish the light.
 
   ***Telepathic Shroud.*** The cranium rat is immune to any effect that would sense its emotions or read its thoughts, as well as to all divination spells.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +4 to hit,  1 piercing damage.
 
@@ -604,9 +651,17 @@ A familiar is an individual, and as such has a personality. When summoning your 
   **Hit Points** 	  2 (1d4)
   **Speed** 			  20 ft, climb 20 ft
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |13 (+1)|14 (+2)|11 (0)|5 (-3)|10 (0)|4 (-3)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Damage Immunities** 		  poison
   **Condition Immunities** 	  charmed, exhaustion, poisoned
@@ -614,6 +669,11 @@ A familiar is an individual, and as such has a personality. When summoning your 
   **Language** 							  understands Common but can't speak
 
   ***Turn Immunity.*** The claw is immune to effects that turn undead.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Claw.** *Melee Attack*: +3 to hit, 1d4+1 bludgeoning or slashing damage (claw's choice).
 
@@ -635,17 +695,33 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   What more could one want than an obedient donkey?
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Armor Class**   10
   **Hit Points** 	  11 (2d8 + 2)
   **Speed** 			  10 ft, fly 60 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |14 (+2)|10 (0) |13 (+1)|2 (-4) |10 (0) |5 (-3) |
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ***Beast of Burden.*** The donkey is considered to be a Large animal for the purpose of determining its carrying capacity.
 
   ***Sure-Footed.*** The donkey has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ### Actions
   **Hooves.** *Melee Attack*: +4 to hit, 1d4+2 bludgeoning damage.
@@ -674,18 +750,34 @@ A familiar is an individual, and as such has a personality. When summoning your 
   **Hit Points** 	  10 (3d4 + 3)
   **Speed** 			  15 ft, fly 30 ft
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |3 (-4) |16 (+3)|12 (+1)|14 (+2)|14 (+2)|14 (+2)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Skills** 							  Arcana +4, Perception +4
   **Damage Resistances**	  thunder
   **Senses** 							  low-light vision 60 ft
   **Languages** 					  Draconic
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ***Innate Spellcasting.*** The wyrmling’s can innately cast a number of spells, requiring no material components:
   At will: *prestidigitation*
   1/day: *fog cloud*
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ### Actions
   **Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
@@ -714,9 +806,17 @@ A familiar is an individual, and as such has a personality. When summoning your 
   **Hit Points** 	  2 (1d4)
   **Speed** 			  0 ft, fly 30 ft (hover)
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |3 (-4)|15 (+2)|11 (+0)|1 (-5)|4 (-3)|1 (-5)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Damage Immunities** 			  poison, psychic
   **Damage Vulnerabilities** 	  fire
@@ -726,6 +826,11 @@ A familiar is an individual, and as such has a personality. When summoning your 
   ***Antimagic Susceptibility***. The flying book is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the flying books must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
 
   ***False Appearance***. While the flying book remains motionless, it is indistinguishable from a normal book.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   ***Slam.*** *Melee Attack:* +0 to hit, 1 bludgeoning damage.
 
@@ -746,18 +851,35 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   Foxes are renowned as clever animals, able to avoid the hunter’s hounds which seek them for their valuable furs. They are most active at night, but they can also be seen by day. Their tails are always tipped white, while their legs, feet, and tips of the ear are always black. The rest of their coat, however, is varied in color: Most commonly red, silver and platinum foxes are also known.
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Armor Class**   12
   **Hit Points** 	  3 (1d6)
   **Speed** 			  30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |3 (-4) |15 (+2)|10 (0) |4 (-3) |14 (+2)|7 (-2) |
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Skills**   Perception +3, Stealth +4, Survival +2
   **Senses**   Low-light vision 30ft
 
   ***Keen Hearing and Smell.*** The fox has advantage on Perception checks that rely on hearing or smell.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +4 to hit, 1 piercing damage.
 
