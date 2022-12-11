@@ -3,9 +3,9 @@ title: Familiars
 layout: default
 ---
 
-<div class="columns">
+<div class="columns narrowcolumns">
 
-- ##### Spells
+- ##### <a href="#internal-Spells">Spells</a>
   <a href="#internal-AnimateFamiliar">Animate Familiar</a><br/>
   <a href="#internal-CallFamiliar">Call Familiar</a><br/>
   <a href="#internal-FindFamiliar">Find Familiar</a><br/>
@@ -65,7 +65,7 @@ layout: default
 # Get familiar with familiars
 The most common way to get a familiar is by casting the *find familiar* spell, but ther are other spells that grants the service of a familiar. Some are described below, as well as the creatures that can be summoned as familiars for each variant.
 
-## Spells
+## <a class="internal-link" name="internal-Spells">Spells</a>
 Each spell lists which forms the familiar can take, with links to their stats. If you have access to one of these spells when you start play with a new character, you may start with a familiar already summoned.
 
 **Animate familiar**. This variant creates an undead familiar.
