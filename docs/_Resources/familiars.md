@@ -582,6 +582,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   When visiting a noble or dignitary who employs a gnomish advisor that may well be a spymaster, expect the walls to be brimming with tunnels and passageways for the engineered espionage to occur.
 
+  <div class="centerimg"><img src='../assets/images/familiar-clockworkmouse.png' style='width:65%'/></div>
+
   </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
@@ -635,6 +637,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   A cranium rat is almost indistinguishable from a normal rodent, except that a portion of its large brain is exposed and pulses with a soft glow.
 
+  <div class="centerimg"><img src='../assets/images/Cranium_rats-5e.png' style='width:65%'/></div>
+
   </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
@@ -685,6 +689,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><i>Tiny undead</i></td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
+
+  <div class="centerimg"><img src='https://cdn.draconic.io/media/images/dnd5e/creature/crawling-claw.png' style='width:65%'/></div>
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Armor Class**   12<br/>
   **Hit Points** 	  2 (1d4)<br/>
@@ -737,6 +747,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td markdown="1">
 
   What more could one want than an obedient donkey?
+
+  <div class="centerimg"><img src='https://cdn.pixabay.com/photo/2018/12/02/02/37/donkey-3850616__480.png' style='width:65%'/></div>
 
   </td></tr>
   <tr><td><hr></td></tr>
@@ -844,6 +856,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><i>Tiny construct</i></td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
+
+  <div class="centerimg"><img src='https://paintingvalley.com/drawings/flying-books-drawing-26.png' style='width:65%'/></div>
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Armor Class**   13 (natural armor)<br/>
   **Hit Points** 	  2 (1d4)<br/>
@@ -2324,6 +2342,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   A tressym resembles a small cat, roughly the size of a common housecat. Their primary feature is their wings, that extend from their well-muscled shoulders, and are formed like a bat's.
 
+  <div class="centerimg"><img src='../assets/images/tressym.png' style='width:65%'/></div>
+
   </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
@@ -2404,6 +2424,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><i>Tiny fey</i></td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
+
+  <div class="centerimg"><img src='../assets/images/wingedpiglet.png' style='width:65%'/></div>
 
   **Armor Class**   12 (natural armor)<br/>
   **Hit Points** 	  4 (1d6 + 1)<br/>
