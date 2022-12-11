@@ -205,7 +205,18 @@ summary {
 }
 
 .narrowcolumns {
-  margin: 0 0 0 0;
+  margin: 0;
+  padding: 0;
+}
+
+.narrowcolumns ul {
+  margin: 0;
+  padding: 0;
+}
+
+.narrowcolumns li {
+  margin: 0;
+  padding: 0;
 }
 
 /* ---------------------------------------------------------------------------- */
