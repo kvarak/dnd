@@ -3,7 +3,7 @@ title: Familiars
 layout: default
 ---
 
-<div class="columns narrowcolumns">
+<div class="columnssix narrowcolumns">
 
 - ##### <a href="#internal-Spells">Spells</a>
   <a href="#internal-AnimateFamiliar">Animate Familiar</a><br/>
@@ -62,6 +62,8 @@ layout: default
 
 </div>
 
+<hr>
+
 # Get familiar with familiars
 The most common way to get a familiar is by casting the *find familiar* spell, but ther are other spells that grants the service of a familiar. Some are described below, as well as the creatures that can be summoned as familiars for each variant.
 
@@ -76,7 +78,7 @@ Each spell lists which forms the familiar can take, with links to their stats. I
 
 The following is common to all familiar summoning spells:
 
-<div class="columnstwo">
+<div class="columns">
 
 * Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can’t attack, but it can take other actions as normal.
 
@@ -87,6 +89,8 @@ The following is common to all familiar summoning spells:
 * When you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and must use its ***reaction*** to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.
 
 </div>
+
+<hr>
 
 <div class="columnstwo">
 
@@ -249,7 +253,7 @@ The following is common to all familiar summoning spells:
 
 
 
-## <a class="internal-link" name="internal-list">Personality traits</a>
+## <a class="internal-link" name="internal-personality">Personality traits</a>
 A familiar is an individual, and as such has a personality. When summoning your familiar for the first time, select a personality trait or roll on at random from this table.
 
 <div class="columnsthree">

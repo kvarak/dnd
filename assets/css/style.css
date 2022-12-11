@@ -156,6 +156,14 @@ summary {
     column-count: 4;
     column-gap: 40px;
   }
+  .columnssix ul {
+    -moz-column-count: 6;
+    -moz-column-gap: 40px;
+    -webkit-column-count: 6;
+    -webkit-column-gap: 40px;
+    column-count: 6;
+    column-gap: 40px;
+  }
   .columnsthree ul {
     -moz-column-count: 3;
     -moz-column-gap: 30px;
@@ -175,7 +183,7 @@ summary {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .columns ul, .columnsthree ul {
+  .columns ul, .columnssix ul, .columnsthree ul {
       -moz-column-count: 2;
       -moz-column-gap: 20px;
       -webkit-column-count: 2;
@@ -184,12 +192,12 @@ summary {
       column-gap: 20px;
   }
 }
-.columns ul, .columnsthree ul, .columnstwo ul {
+.columns ul, .columnsthree ul, .columnstwo ul, .columnssix ul {
   list-style: none;
   margin: 0 0 1.5em 0;
 }
 
-.columns li, .columnsthree li, .columnstwo li {
+.columns li, .columnsthree li, .columnstwo li, .columnssix li {
   margin-bottom: 5px;
   break-inside: avoid !important;
 }
