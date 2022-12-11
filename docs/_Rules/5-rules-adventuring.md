@@ -81,7 +81,7 @@ There are two kinds of rests, short and long.
   | Regain 1 reduced ***ability score***.
   | If less than 3 inspiration, regain 1 ***inspiration***.
   | Regain your lowest ***spell slot***.
-  | Some classes can add to choices.
+  | Some classes can add choices.
 
   </div>
 
