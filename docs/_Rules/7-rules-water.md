@@ -1,5 +1,5 @@
 ---
-title: "6. Water Rules"
+title: "7. Water Rules"
 layout: default
 ---
 
@@ -15,7 +15,7 @@ layout: default
 
 </div>
 
-# <a class="internal-link" name="internal-water">6. Water Rules</a>
+# <a class="internal-link" name="internal-water">Water Rules</a>
 
 Specific rules for what happens in and on water. Unless otherwise noted all ability checks mentioned in this section benefit from proficiency with swimming.
 

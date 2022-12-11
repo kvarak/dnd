@@ -1,5 +1,5 @@
 ---
-title: House rules
+title: "-- Rules Index --"
 layout: default
 ---
 
@@ -11,12 +11,13 @@ layout: default
   <a href="1-rules-character.html#internal-AbilityChecks">Ability Checks</a><br/>
   <a href="1-rules-character.html#internal-AbilityScores">Ability Scores</a><br/>
   <a href="1-rules-character.html#internal-Fatepoints">Fate points</a><br/>
-  <a href="1-rules-character.htmlherbalism.html">Herbalism</a><br/>
+  <a href="herbalism.html">Herbalism</a><br/>
   <a href="1-rules-character.html#internal-Hitpoints">Hit points</a><br/>
   <a href="1-rules-character.html#internal-Inspiration">Inspiration</a><br/>
   <a href="languages.html">Languages</a><br/>
   <a href="1-rules-character.html#internal-Luck">Luck</a><br/>
-  <a href="1-rules-character.html#internal-Skills">Skills</a><br/>
+  <a href="skills.html">Skills</a><br/>
+  <a href="skills_combat.html">Skills, combat</a><br/>
 
 - ##### <a href="2-rules-equipment.html#internal-equipment">Equipment</a>
   <a href="2-rules-equipment.html#internal-Alchemicalandherbalitems">Alchemical and herbal items</a><br/>
@@ -50,7 +51,8 @@ layout: default
   <a href="4-rules-spells.html#internal-WildMagic">Wild Magic</a><br/>
 
 - ##### <a href="5-rules-adventuring.html#internal-adventuring">Adventuring</a>
-  <a href="5-rules-adventuring.html#internal-Resting">Resting</a><br/>
+  <a href="5-rules-adventuring.html#internal-RestingShort">Resting, Short</a><br/>
+  <a href="5-rules-adventuring.html#internal-RestingLong">Resting, Long</a><br/>
   <a href="5-rules-adventuring.html#internal-RestActivities">Rest Activities</a><br/>
 
 - ##### <a href="6-rules-travel.html#internal-travel">Travel</a>
@@ -69,7 +71,7 @@ layout: default
   <a href="7-rules-water.html#internal-Armorinwater">Armor in water</a><br/>
   <a href="7-rules-water.html#internal-Drowning">Drowning</a><br/>
   <a href="7-rules-water.html#internal-ClimbinguponaShip">Climbing up on a Ship</a><br/>
-  <a href="7-rules-water.html#internal-Resting">FallingoffaShip</a><br/>
+  <a href="7-rules-water.html#internal-Resting">Falling off a Ship</a><br/>
   <a href="7-rules-water.html#internal-Underwater">Underwater</a><br/>
   <a href="7-rules-water.html#internal-UnderwaterCombat">Underwater Combat</a><br/>
 

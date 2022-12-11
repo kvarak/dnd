@@ -19,7 +19,7 @@ layout: default
 
 </div>
 
-# <a class="internal-link" name="internal-travel">6. Travel</a>
+# <a class="internal-link" name="internal-travel">Travel</a>
 
 It is rarely straightforward outside city walls. Many adventurers have lost their way in dark forests. Many more have died from lack of food, or water, or protection from bandits and monsters—the world is not forgiving to the unprepared traveler. This section introduces the journey phase to make travel a more integral part of the adventure.
 

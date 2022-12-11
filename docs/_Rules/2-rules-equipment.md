@@ -17,7 +17,7 @@ layout: default
 
 </div>
 
-# <a class="internal-link" name="internal-equipment">2. Equipment</a>
+# <a class="internal-link" name="internal-equipment">Equipment</a>
 
 When you create your character, you receive equipment and starting money based on a combination of your class and background. All equipment can be found on the <a href="https://robertrigo.github.io/pages/equipment.html">Equipment page</a>.
 

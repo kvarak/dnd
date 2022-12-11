@@ -16,7 +16,7 @@ layout: default
 </div>
 
 
-# <a class="internal-link" name="internal-magic">4. Spells and Magic</a>
+# <a class="internal-link" name="internal-magic">pells and Magic</a>
 
 There are three kinds of magic:
 
