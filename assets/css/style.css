@@ -204,17 +204,7 @@ summary {
   margin: 0 0 1.5em 0;
 }
 
-.narrowcolumns {
-  margin: 0;
-  padding: 0;
-}
-
-.narrowcolumns ul {
-  margin: 0;
-  padding: 0;
-}
-
-.narrowcolumns li {
+.narrowcolumns ul, .narrowcolumns li, .narrowcolumns p {
   margin: 0;
   padding: 0;
 }
