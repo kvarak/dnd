@@ -1,0 +1,13 @@
+
+<div class="container">
+  {% for link in site.data.links %}
+  <div class="row">
+    <div class="col">
+      <div class="centerimg"><img src="{{ link.img }}" style='height:25px'></div>
+    </div>
+    <div class="col">
+      <a href="{{ link.url }}">{{ link.name }}</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
