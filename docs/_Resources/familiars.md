@@ -308,9 +308,7 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
 <br/>
 
-<div class="columnstwo">
-
-- <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='text-align: center;width:45%'/>
+<div class="columnsthree">
 
 - <div class="monster multimonster frame">
   <table class="monster">
@@ -323,6 +321,9 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td markdown="1">
 
   The almiraj is a small magical beast resembling a rabbit with a unicorn-like horn in the middle of its forehead. They are popular familiars among witches.
+
+  <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='text-align:center;width:45%'/>
+
   </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
