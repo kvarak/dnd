@@ -2,21 +2,15 @@
 
 <html>
 <head>
-  <!-- Compiled and minified Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  {% include head.html %}
+
   <!-- Datatables CSS -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.css"/>
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Compiled Bootstrap JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- Datatables JavaScript -->
   <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="../assets/css/originalDndStyle.css">
-  
   <style>
-  
+
     body {font-family: "Buenard";
   		 font-size: 13px;}
 
@@ -45,15 +39,15 @@
         var description = (row['Description']) ? row['Description'] : '-'
         tableContent.push([row['Item'],row['Category'],row['Price'],weight,description]);
       });
-      
+
       var contentTable = $('#contentTable').DataTable({data: tableContent,
                                                       order: [[0, 'desc']],
                                                       ordering: false,
                                                       lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
                                                       iDisplayLength: -1,
-                                                      aoColumnDefs: [{ sClass: "td-nobreak",         
+                                                      aoColumnDefs: [{ sClass: "td-nobreak",
                                                                         aTargets: [ 0 ] },
-                                                                      { sClass: "td-center",         
+                                                                      { sClass: "td-center",
                                                                         aTargets: [ 2,3 ] }],
                                                       columns: [{ title: 'Item'},
                                                                 { title: 'Category'},
@@ -63,10 +57,10 @@
                                                       dom:  "<'row'<'col-sm-3'l><'col-sm-3'f><'col-sm-6'p>>" +
                                                             "<'row'<'col-sm-12'tr>>" +
                                                             "<'row'<'col-sm-5'i><'col-sm-7'p>>"
-                                              
+
                                                       });
-  
-                                                      
+
+
       // Create search box on each column
       $('#contentTable thead tr').clone(true).appendTo( '#contentTable thead' );
       $('#contentTable thead tr:eq(1) th').each( function (i) {
@@ -81,26 +75,28 @@
               .draw();
           }
         });
-    
+
         $( 'input', this ).on( 'click', function (e) {
-          e.stopPropagation();          
+          e.stopPropagation();
         });
       });
   });
 });
 </script>
 
-<title>Equipment</title>
 </head>
 
 <body>
-  <div class="row">
-    <div class="col-lg-11">
-      <h2>Equipment</h2>
-      For most items the price is for something that is functional, used by a commoner. The price x5 is someting used by the upper end of the middle class. Lowest price x10 for upper class, and something for the aristocratic circles would cost x100.
-      <hr>
-      <table class="table table-striped table-hover table-condensed" id="contentTable"></table>
+  {% include navigation.html %}
+  <div class="container container-main">
+    <div class="row">
+      <div class="col-lg-11">
+        <h2>Equipment</h2>
+        For most items the price is for something that is functional, used by a commoner. The price x5 is someting used by the upper end of the middle class. Lowest price x10 for upper class, and something for the aristocratic circles would cost x100.
+        <hr>
+        <table class="table table-striped table-hover table-condensed" id="contentTable"></table>
+      </div>
+      <div class="col-lg-1"></div>
     </div>
-    <div class="col-lg-1"></div>
   </div>
 </body>
