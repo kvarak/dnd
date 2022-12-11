@@ -308,7 +308,7 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
 <br/>
 
-<div class="columnsthree">
+<div class="columnstwo">
 
 - <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png'  style='text-align: center;width:45%'/>
 
