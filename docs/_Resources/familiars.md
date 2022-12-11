@@ -322,7 +322,7 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   The almiraj is a small magical beast resembling a rabbit with a unicorn-like horn in the middle of its forehead. They are popular familiars among witches.
 
-  <div class="centerimg"><img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png' style='text-align:center;width:45%'/></div>
+  <div class="centerimg"><img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/30/740/1000/1000/636395097245241750.png' style='width:45%'/></div>
 
   </td></tr>
   <tr><td><hr></td></tr>
@@ -364,6 +364,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><i>Tiny dragon</i></td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
+
+  <div class="centerimg"><img src='https://i.pinimg.com/originals/a0/b0/1c/a0b01c1fe7b7a37d30933006cc1ba2e8.png' style='width:65%'/></div>
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Armor Class**   13<br/>
   **Hit Points** 	  10 (3d4 + 3)<br/>
@@ -415,6 +421,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
+  <div class="centerimg"><img src='../assets/images/familiar-bat.png' style='width:65%'/></div>
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Armor Class**   11
   **Hit Points** 	  1 (1d4 - 1)
   **Speed** 			  5ft, fly 30ft
@@ -457,6 +469,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><i>Tiny beast</i></td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
+
+  <div class="centerimg"><img src='https://i.pinimg.com/originals/44/e7/8e/44e78eee6ad38573d4fa3e283f22aeb2.png' style='width:65%'/></div>
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Armor Class**   12<br/>
   **Hit Points** 	  2 (1d4)<br/>
@@ -502,6 +520,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><i>Tiny beast</i></td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
+
+  <div class="centerimg"><img src='../assets/images/familiar-crab.png' style='width:65%'/></div>
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   **Armor Class**   11<br/>
   **Hit Points** 	  2 (1d4)<br/>
