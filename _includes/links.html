@@ -1,13 +1,15 @@
 
-<div class="container">
-  {% for link in site.data.links %}
-  <div class="row">
-    <div class="col">
-      <div class="centerimg"><img src="{{ link.img }}" style='height:25px'></div>
-    </div>
-    <div class="col">
-      <a href="{{ link.url }}">{{ link.name }}</a>
+<ul>
+{% for link in site.data.links %}
+<li>
+  <div class="card" style="width: 9rem;">
+    <img class="card-img-top" src="{{ link.img }}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"><a href="{{ link.url }}" style='vertical-align: middle;'>{{ link.name }}</a></h5>
+      <p class="card-text">{{ link.info }}</p>
+      <!-- <a href="{{ link.url }}" class="btn btn-primary">{{ link.name }}</a> -->
     </div>
   </div>
-  {% endfor %}
-</div>
+</li>
+{% endfor %}
+</ul>

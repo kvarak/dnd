@@ -2,24 +2,25 @@
 - name: The Calendar
   img: assets/images/calender.png
   url: https://app.fantasy-calendar.com/calendars/0afe93d1ee9b9a90b6ee4cfa73290428
-
-- name: Forum
-  img: assets/images/forum.png
-  url: https://forum.vilijam.com/
+  info: Calendar of events in the game
 
 - name: Onenote
-  img: https://i2.wp.com/www.drware.com/wp-content/uploads/2020/10/OneNote.png
+  img: https://www.pngkey.com/png/detail/151-1515103_writing-quill-books-transparent-background-creative-writing-transparent.png
   url: https://onenote.vilijam.nu
+  info: For notes
 
 - name: Statistics
   img: assets/images/stats.png
   url: https://uppsalarollspel.gitlab.io/path-stats/
+  info: All kinds of plots and statistics from all paths
 
 - name: Chronicles
   img: https://www.cambridgeblog.org/wp-content/uploads/2018/06/antique-books-1024x512.png
   url: https://uppsalarollspel.gitlab.io/chronicles/story.html
+  info: Generated chronicles of what has happened
 
 - name: Official Rules
-  img: https://images.ctfassets.net/swt2dsco9mfe/1qU2YMq2MSczf9KGme5gu7/a580e2f158f2c08faad3a9d4463af0bc/dnd-hub-logo.png
+  img: https://www.logolynx.com/images/logolynx/04/0465390b45d30282b4bd3f68c2fe3aac.png
   url: https://dnd.wizards.com/products/tabletop/players-basic-rules
+  info: The official rules for D&D
 

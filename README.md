@@ -18,7 +18,11 @@ Updates to the D&D page.
 
 <h2>Links</h2>
 
+<div class="columnsthree">
+
 {% include links.html %}
+
+</div>
 
 </div>
 
