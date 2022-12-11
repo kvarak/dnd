@@ -502,8 +502,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   11
-  **Hit Points** 	  2 (1d4)
+  **Armor Class**   11<br/>
+  **Hit Points** 	  2 (1d4)<br/>
   **Speed** 			  20 ft, swim 20 ft
 
   </td></tr>
@@ -518,8 +518,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Skills**   Stealth +2
+  **Skills**   Stealth +2<br/>
   **Senses**   Blindsight 30ft., passive Perception 9
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Amphibious.*** The crab can breathe air and water.
 
@@ -557,8 +561,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Armor Class**   12
-  **Hit Points** 	  9 (2d4 + 4)
+  **Armor Class**   12<br/>
+  **Hit Points** 	  9 (2d4 + 4)<br/>
   **Speed** 			  25 ft, climb 15 ft
 
   </td></tr>
@@ -573,9 +577,13 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Skills** 								  Perception +2, Stealth +4
-  **Damage Immunities** 		  poison, psychic
+  **Skills** 								  Perception +2, Stealth +4<br/>
+  **Damage Immunities** 		  poison, psychic<br/>
   **Condition Immunities**	  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Lockpicking Tail.*** The tail of the clockwork mouse can split into a set of lockpicking tools. The clockwork mouse is considered proficient with thieves' tools and has advantage on any check made to pick locks.
 
@@ -606,8 +614,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Armor Class**   12
-  **Hit Points** 	  2 (1d4)
+  **Armor Class**   12<br/>
+  **Hit Points** 	  2 (1d4)<br/>
   **Speed** 			  30 ft
 
   </td></tr>
@@ -622,8 +630,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  ***Senses*** 		  lowlight vision 30 ft
+  ***Senses*** 		  lowlight vision 30 ft<br/>
   ***Language***    telepathy 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Illumination.*** As a bonus action, the cranium rat can shed dim light from its brain in a 5-foot radius or extinguish the light.
 
@@ -649,8 +661,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   12
-  **Hit Points** 	  2 (1d4)
+  **Armor Class**   12<br/>
+  **Hit Points** 	  2 (1d4)<br/>
   **Speed** 			  20 ft, climb 20 ft
 
   </td></tr>
@@ -665,10 +677,14 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Damage Immunities** 		  poison
-  **Condition Immunities** 	  charmed, exhaustion, poisoned
-  **Senses** 								  blindsight 30 ft. (blind beyond this radius)
+  **Damage Immunities** 		  poison<br/>
+  **Condition Immunities** 	  charmed, exhaustion, poisoned<br/>
+  **Senses** 								  blindsight 30 ft. (blind beyond this radius)<br/>
   **Language** 							  understands Common but can't speak
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Turn Immunity.*** The claw is immune to effects that turn undead.
 
@@ -701,8 +717,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Armor Class**   10
-  **Hit Points** 	  11 (2d8 + 2)
+  **Armor Class**   10<br/>
+  **Hit Points** 	  11 (2d8 + 2)<br/>
   **Speed** 			  10 ft, fly 60 ft
 
   </td></tr>
@@ -748,8 +764,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   13
-  **Hit Points** 	  10 (3d4 + 3)
+  **Armor Class**   13<br/>
+  **Hit Points** 	  10 (3d4 + 3)<br/>
   **Speed** 			  15 ft, fly 30 ft
 
   </td></tr>
@@ -764,17 +780,17 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Skills** 							  Arcana +4, Perception +4
-  **Damage Resistances**	  thunder
-  **Senses** 							  low-light vision 60 ft
+  **Skills** 							  Arcana +4, Perception +4<br/>
+  **Damage Resistances**	  thunder<br/>
+  **Senses** 							  low-light vision 60 ft<br/>
   **Languages** 					  Draconic
 
   </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  ***Innate Spellcasting.*** The wyrmling’s can innately cast a number of spells, requiring no material components:
-  At will: *prestidigitation*
+  ***Innate Spellcasting.*** The wyrmling’s can innately cast a number of spells, requiring no material components:<br/>
+  At will: *prestidigitation*<br/>
   1/day: *fog cloud*
 
   </td></tr>
@@ -804,8 +820,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   13 (natural armor)
-  **Hit Points** 	  2 (1d4)
+  **Armor Class**   13 (natural armor)<br/>
+  **Hit Points** 	  2 (1d4)<br/>
   **Speed** 			  0 ft, fly 30 ft (hover)
 
   </td></tr>
@@ -820,10 +836,14 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Damage Immunities** 			  poison, psychic
-  **Damage Vulnerabilities** 	  fire
-  **Condition Immunities** 		  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+  **Damage Immunities** 			  poison, psychic<br/>
+  **Damage Vulnerabilities** 	  fire<br/>
+  **Condition Immunities** 		  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned<br/>
   **Senses** 									  blindsight 60 ft. (blind beyond this radius)
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Antimagic Susceptibility***. The flying book is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the flying books must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
 
@@ -857,8 +877,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Armor Class**   12
-  **Hit Points** 	  3 (1d6)
+  **Armor Class**   12<br/>
+  **Hit Points** 	  3 (1d6)<br/>
   **Speed** 			  30 ft
 
   </td></tr>
@@ -873,8 +893,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Skills**   Perception +3, Stealth +4, Survival +2
+  **Skills**   Perception +3, Stealth +4, Survival +2<br/>
   **Senses**   Low-light vision 30ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Keen Hearing and Smell.*** The fox has advantage on Perception checks that rely on hearing or smell.
 
@@ -900,19 +924,40 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   A frog has no effective attacks. It feeds on small insects and typically dwells near water, in trees, or underground.
 
-  **Armor Class**   11
-  **Hit Points** 	  1 (1d4 - 1)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   11<br/>
+  **Hit Points** 	  1 (1d4 - 1)<br/>
   **Speed** 			  0 ft, fly 30 ft (hover)
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |1 (-5)|13 (+1)|8 (-1)|1 (-5)|8 (-1)|3 (-4)|
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Skills** Perception +1, Stealth +3
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Amphibious.*** The frog can breathe air and water
 
   ***Standing Leap.*** The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   None
 
@@ -936,17 +981,34 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   Giant roaches are big, fat cockroaches the size of a small dog. Like their smaller cousins, they have wings and can fly, albeit not very well. They can be found anywhere there is food and a remote possibility that life can survive. Giant roaches prefer to eat crops and defenseless livestock, only attacking anything that can put up a fight if they are starving or attacked first.
 
-  **Armor Class**   13 (natural armor)
-  **Hit Points** 	  4 (1d6 + 1)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   13 (natural armor)<br/>
+  **Hit Points** 	  4 (1d6 + 1)<br/>
   **Speed** 			  30 ft, fly 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |8 (-1) |10 (0) |12 (+1)|1 (-5) |7 (-2) |3 (-4) |
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Senses**   Low-light vision 60ft, tremorsense 60 ft
 
   ***Clumsy Flyer.*** A giant roach cannot sustain flight for more than one turn.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +3 to hit, 1d6-1 piercing damage.
 
@@ -969,22 +1031,43 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   The resurrection process used when creating gore crows darkens the feathers of any bird affected. This gives the creature it’s characteristic crow-like appearance, in reality a gore crow can be any breed of bird.
 
-  **Armor Class**   8
-  **Hit Points** 	  5 (2d4 + 1)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   8<br/>
+  **Hit Points** 	  5 (2d4 + 1)<br/>
   **Speed** 			  10 ft, fly 40 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |2 (-4)|8 (-1)|12 (+1)|1 (-5)|6 (-2)|3 (-3)|
 
-  **Saving Throws** 				  Wisdom +0
-  **Damage Immunities** 		  Poison
-  **Condition Immunities** 	  Poisoned
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Saving Throws** 				  Wisdom +0<br/>
+  **Damage Immunities** 		  Poison<br/>
+  **Condition Immunities** 	  Poisoned<br/>
   **Senses** 								  Darkvision 60 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Twisted Mimicry.*** The gore crow can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 7 Wisdom (Insight) check.
 
   ***Undead Fortitude.*** If damage reduces the gore crow to 0 Hit Points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the gore crow drops to 1 hit point instead.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Beak.** *Melee Attack*: +1 to hit, 1 piercing damage.
 
@@ -1006,17 +1089,34 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   13
-  **Hit Points** 	  1 (1d4 - 1)
+  **Armor Class**   13<br/>
+  **Hit Points** 	  1 (1d4 - 1)<br/>
   **Speed** 			  10 ft, fly 60 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |5 (-3)|16 (+3)|8 (-1)|2 (-4)|14 (+2)|6 (-2)|
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Skills** Perception +4
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ***Keen Sight.*** The hawk has advantage on Perception checks that rely on sight.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Talons.** *Melee Attack*: +0 to hit, 1 piercing damage.
 
@@ -1042,15 +1142,31 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   The glow of the lantern beetle’s abdomen is from the digestion of bioluminescent fungus, which reacts with the beetle’s gut to make the glow. They are often trained by denizens of the Underdark as mobile light sources.
 
-  **Armor Class**   13 (natural armor)
-  **Hit Points** 	  2 (1d4)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   13 (natural armor)<br/>
+  **Hit Points** 	  2 (1d4)<br/>
   **Speed** 			  20 ft, climb 20 ft, fly 20 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |6 (-2) |12 (+1)|10 (0) |1 (-5) |7 (-2) |3 (-4)|
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ***Illumination.*** The beetle can shed bright light at will in a 10 foot radius and dim light for an additional 10 feet. When it dies, its body continues to glow for another 6 hours.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ### Actions
   **Bite.** *Melee Attack*: +2 to hit, 1 piercing damage.
@@ -1069,15 +1185,31 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   10
-  **Hit Points** 	  2 (1d4)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   10<br/>
+  **Hit Points** 	  2 (1d4)<br/>
   **Speed** 			  20 ft, climb 20 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |2 (-4)|11 (0)|10 (0)|1 (-5)|8 (-1)|3 (-4)|
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Senses** Low-light vision 30ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ### Actions
   **Bite.** *Melee Attack*: +0 to hit, 1 piercing damage.
@@ -1100,19 +1232,36 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   13 (natural armor)
-  **Hit Points** 	  6 (2d4 + 2)
+  **Armor Class**   13 (natural armor)<br/>
+  **Hit Points** 	  6 (2d4 + 2)<br/>
   **Speed** 			  20 ft, fly 25 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |10 (0) |10 (0) |13 (+1)|8 (-2) |9 (-1) |5 (-3) |
 
-  **Damage Immunities** 		  poison, psychic
-  **Condition Immunities**	  charmed, exhaustion, frightened, petrified, poisoned
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Damage Immunities** 		  poison, psychic<br/>
+  **Condition Immunities**	  charmed, exhaustion, frightened, petrified, poisoned<br/>
   **Senses** 								  darkvision 60 ft
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ***Axiomatic Mind.*** The mechanical wyrmling can't be compelled to act in a manner contrary to its nature or its instructions.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +2 to hit, 1d4+1 piercing damage.
 
@@ -1134,23 +1283,44 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   A mini version of the mimic.
 
-  **Armor Class**   12 (natural armor)
-  **Hit Points** 	  4 (2d4)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   12 (natural armor)<br/>
+  **Hit Points** 	  4 (2d4)<br/>
   **Speed** 			  10 ft, climb 10 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |6 (-2) |12 (+1)|10 (0) |6 (-2) |12 (+1)|8 (-1) |
 
-  **Damage Immunities** 		  acid
-  **Condition Immunities**	  prone
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Damage Immunities** 		  acid<br/>
+  **Condition Immunities**	  prone<br/>
   **Senses** 								  darkvision 60 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Adhesive***. The mimic adheres to creatures that that touch it. A creature can remove the mimic from itself using its action. The mimic has advantage on attack rolls against a creature it is adhered to. The mimic can adhere itself to a Small or larger creature by moving into its space.
 
   ***False Appearance*** (Object Form Only). While the mimic remains motionless, it is indistinguishable from an ordinary tiny object.
 
   ***Shapechanger*** (1/Day). The mimic can use its ***action*** to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +3 to hit, 1d4+1 piercing damage.
 
@@ -1171,25 +1341,46 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   A mote of earth usually takes the shape of a tiny boulder, with small arms and legs that it can draw inside its body to assume a roundish shape.
 
-  **Armor Class**   14 (natural armor)
-  **Hit Points** 	  14 (2d4 + 9)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   14 (natural armor)<br/>
+  **Hit Points** 	  14 (2d4 + 9)<br/>
   **Speed** 			  15 ft (30 ft when rolling, 60 ft when rolling downhill)
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |14 (+2)|8 (-1) |16 (+3)|5 (-3) |11 (0) |5 (-3) |
 
-  **Damage Resistances** 		  piercing and slashing from nonmagical weapons that aren’t adamantine
-  **Damage Immunities** 		  poison
-  **Condition Immunities**	  exhaustion, paralyzed, petrified, poisoned
-  **Senses** 								  darkvision 60 ft, tremorsense 30 ft
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Damage Resistances** 		  piercing and slashing from nonmagical weapons that aren’t adamantine<br/>
+  **Damage Immunities** 		  poison<br/>
+  **Condition Immunities**	  exhaustion, paralyzed, petrified, poisoned<br/>
+  **Senses** 								  darkvision 60 ft, tremorsense 30 ft<br/>
   **Languages**	 						  Terran
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Rolling Charge***. If the mote rolls at least 20 ft straight toward a target and then hits it with a slam attack on the same turn, the target takes an additional 1d6 bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.
 
   ***False Appearance***. While the mote remains motionless, it is indistinguishable from a normal tiny rock.
 
   ***Siege Monster***. The mote deals double damage to objects and structures.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Slam.** *Melee Attack*: +4 to hit, 1d6+2 bludgeoning damage.
 
@@ -1206,37 +1397,49 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   13
-  **Hit Points** 	  7 (2d4 + 2)
+  **Armor Class**   13<br/>
+  **Hit Points** 	  7 (2d4 + 2)<br/>
   **Speed** 			  30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |6 (-2) |16 (+3)|12 (+1)|6 (-2) |14 (+2)|7 (-2) |
 
-  **Damage Vulnerabilities**  cold
-  **Damage Resistances** 		  bludgeoning, piercing, and slashing from nonmagical weapons
-  **Damage Immunities** 		  fire, poison
-  **Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Damage Vulnerabilities**  cold<br/>
+  **Damage Resistances** 		  bludgeoning, piercing, and slashing from nonmagical weapons<br/>
+  **Damage Immunities** 		  fire, poison<br/>
+  **Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained<br/>
   **Languages** 						  Ignan
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Fire Form.*** The mote can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the mote takes 1 fire damage. If the mote enters a creature's space and stops there, the creature takes 1 fire damage.
 
   ***Illumination.*** The mote sheds bright light in a 10-foot radius and dim light for an additional 20 feet.
 
   ***Water Susceptibility.*** If the mote is submerged in water, it takes 1d4 cold damage.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Touch.** *Melee Attack*: +4 to hit, 1d6 fire damage, and the target catches fire;
   until someone takes an action to douse the fire, the creature takes 2 fire damage at the start of each of its turns.
 
-
-
-
-
-
-
   </td></tr></tbody></table>
   </div>
+
 
 - <div class="monster multimonster frame">
   <table class="monster">
@@ -1248,22 +1451,39 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   13
-  **Hit Points** 	  5 (2d4)
+  **Armor Class**   13<br/>
+  **Hit Points** 	  5 (2d4)<br/>
   **Speed** 			  0 ft, fly 30 ft (hover)
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |3 (-4) |16 (+3)|10 (0) |5 (-3) |12 (+1)|14 (+2)|
 
-  **Skills** 								  Insight +3, Perception +3
-  **Damage Immunities** 		  radiant, poison
-  **Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills** 								  Insight +3, Perception +3<br/>
+  **Damage Immunities** 		  radiant, poison<br/>
+  **Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained<br/>
   **Languages** 						  Celestial
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Illumination.*** The mote sheds bright light in a 10-foot radius and dim light for an additional 20 feet. As a ***bonus action***, the mote can intensity the light to up to 20 foot radius (shedding dim light for an additional 40 feet), or dim the light to only shed dim light in a 5 foot radius. The mote’s light is overpowered by the darkness spell.
 
   ***Luminescent Form.*** The mote can move through a space as narrow as 1 inch wide without squeezing.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Flare.** *Melee Attack*: +5 to hit, 1d6 radiant damage.
 
@@ -1283,33 +1503,47 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   10
-  **Hit Points** 	  14 (2d4 + 9)
+  **Armor Class**   10<br/>
+  **Hit Points** 	  14 (2d4 + 9)<br/>
   **Speed** 			  20 ft, swim 40 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |14 (+2)|11 (0) |16 (+3)|5 (-3) |9 (-1) |4 (-3) |
 
-  **Damage Resistances** 		  bludgeoning, piercing, and slashing from nonmagical weapons
-  **Damage Immunities** 		  poison
-  **Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Damage Resistances** 		  bludgeoning, piercing, and slashing from nonmagical weapons<br/>
+  **Damage Immunities** 		  poison<br/>
+  **Condition Immunities**	  exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained<br/>
   **Senses** 								  darkvision 60 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Freeze.*** If the elemental takes 5 or more points of cold damage during a single turn, it partially freezes; its speeds are halved until the end of its next turn, and it loses its resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons for the same duration.
 
   ***Water Form.*** The elemental can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. It can’t have its speed reduced or be forced to move without using its movement, action, or reaction, except by its Freeze trait.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Slam.** *Melee Attack*: +4 to hit, 1d4+2 bludgeoning damage.
 
-
-
-
-
-
-
   </td></tr></tbody></table>
   </div>
+
+
+
 
 - <div class="monster multimonster frame">
   <table class="monster">
@@ -1321,22 +1555,39 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   12
-  **Hit Points** 	  3 (1d6)
+  **Armor Class**   12<br/>
+  **Hit Points** 	  3 (1d6)<br/>
   **Speed** 			  5 ft, swim 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |4 (-3)|15 (+2)|11 (0)|3 (-4)|10 (0)|4 (-3)|
 
-  **Skills** Perception +2, Stealth +4
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills** Perception +2, Stealth +4<br/>
   **Senses** Low-light vision 30ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Hold Breath.*** While out of water, the octopus can hold its breath for 30 minutes.
 
   ***Underwater Camouflage.*** The octopus has advantage on Stealth checks made while underwater.
 
   ***Water Breathing.*** The octopus can breathe only underwater.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Tentacles.** *Melee Attack*: +4 to hit, 1 bludgeoning damage. The target is grappled (escape DC 10) Until this grapple ends, the octopus can't use its tentacles on another target
 
@@ -1359,13 +1610,25 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   It looks like a normal chicken, but has divination powers. Peple knowledgable about this draw runew on the ground. Where the chicken nests indicates the future.
 
-  **Armor Class**   10
-  **Hit Points** 	  2 (1d4-1)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   10<br/>
+  **Hit Points** 	  2 (1d4-1)<br/>
   **Speed** 			  25 ft, fly 15 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |3 (-4) |10 (0) |8 (-1) |2 (-4) |12 (+1)|4 (-3)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Clumsy Flyer.*** A chicken cannot sustain flight for more than one turn.
 
@@ -1373,6 +1636,10 @@ A familiar is an individual, and as such has a personality. When summoning your 
   Weal, for good results
   Woe, for bad results
   Somewhere else, for both, or neither, good and bad results
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ### Actions
   **Peck.** *Melee Attack*: +1 to hit, 1 piercing damage.
@@ -1392,20 +1659,37 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   11
-  **Hit Points** 	  1 (1d4 - 1)
+  **Armor Class**   11<br/>
+  **Hit Points** 	  1 (1d4 - 1)<br/>
   **Speed** 			  5 ft, fly 50 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |3 (-4)|13 (+1)|8 (-1)|2 (-4)|12 (+1)|7 (-2)|
 
-  **Skills**   Perception +3, Stealth + 3
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills**   Perception +3, Stealth + 3<br/>
   **Senses**   Low-light vision 120 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Flyby.*** The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach.
 
   ***Keen Hearing and Sight.*** The owl has advantage on Perception checks that rely on hearing or sight.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Talons.** *Melee Attack*: +3 to hit, 1 piercing damage.
 
@@ -1425,15 +1709,27 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   13
-  **Hit Points** 	  2 (1d4)
+  **Armor Class**   13<br/>
+  **Hit Points** 	  2 (1d4)<br/>
   **Speed** 			  30 ft, swim 20 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |2 (-4)|16 (+3)|11 (0)|1 (-5)|10 (0)|3 (-4)|
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Senses** Blindsight 10 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ### Actions
   **Bite.** *Melee Attack*: +5 to hit, 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 2d4 poison damage on a failed save, or half as much damage on a successful one.
@@ -1454,19 +1750,36 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   13
-  **Hit Points** 	  1 (1d4 - 1)
+  **Armor Class**   13<br/>
+  **Hit Points** 	  1 (1d4 - 1)<br/>
   **Speed** 			  swim 40 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |2 (-4)|16 (+3)|9 (-1)|1 (-5)|7 (-2)|2 (-4)|
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Senses** Low-light vision 60 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Blood Frenzy.*** The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points.
 
   ***Water Breathing.*** The quipper can breathe only underwater.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
 
@@ -1486,23 +1799,40 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   11
-  **Hit Points** 	  2 (1d4)
+  **Armor Class**   11<br/>
+  **Hit Points** 	  2 (1d4)<br/>
   **Speed** 			  20 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |4 (-3)|12 (+1)|10 (+0)|3 (-4)|5 (-3)|16 (+3)|
 
-  **Skills** 									  Persuasion +5, Stealth +5
-  **Damage Immunities** 			  poison, bludgeoning from nonmagical weapons
-  **Damage Vulnerabilities** 	  fire
-  **Condition Immunities** 		  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills** 									  Persuasion +5, Stealth +5<br/>
+  **Damage Immunities** 			  poison, bludgeoning from nonmagical weapons<br/>
+  **Damage Vulnerabilities** 	  fire<br/>
+  **Condition Immunities** 		  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned<br/>
   **Senses** 									  low-light vision 60 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***False Appearance***. While the rag doll remains motionless, it is indistinguishable from a normal stuffed toy.
 
   ***Mimicry***. The rag doll can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   ***Slam.*** *Melee Attack:* +0 to hit, 1 bludgeoning damage.
 
@@ -1519,17 +1849,34 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   10
-  **Hit Points** 	  1 (1d4 - 1)
+  **Armor Class**   10<br/>
+  **Hit Points** 	  1 (1d4 - 1)<br/>
   **Speed** 			  20 ft, climb 20 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |2 (-4)|11 (0)|9 (-1)|2 (-4)|10 (0)|4 (-3)|
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Senses** Low-light vision 30 ft
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ***Keen Smell.*** The rat has advantage on Perception checks that rely on smell.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +0 to hit, 1 piercing damage.
 
@@ -1548,17 +1895,34 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   12
-  **Hit Points** 	  1 (1d4 - 1)
+  **Armor Class**   12<br/>
+  **Hit Points** 	  1 (1d4 - 1)<br/>
   **Speed** 			  10 ft, fly 50 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |2 (-4)|14 (+2)|8 (-1)|2 (-4)|12 (+1)|6 (-2)|
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Skills** Perception +3
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ***Mimicry.*** The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Beak.** *Melee Attack*: +4 to hit, 1 piercing damage.
 
@@ -1577,15 +1941,28 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   11
-  **Hit Points** 	  1 (1d4 - 1)
+  **Armor Class**   11<br/>
+  **Hit Points** 	  1 (1d4 - 1)<br/>
   **Speed** 			  swim 20 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |1 (-5)|12 (+1)|8 (-1)|1 (-5)|10 (0)|2 (-4)|
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ***Water Breathing.*** The sea horse can breathe only underwater.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   None
 
@@ -1604,23 +1981,44 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   A floating skull.
 
-  **Armor Class**   13
-  **Hit Points** 	  7 (2d4+2)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   13<br/>
+  **Hit Points** 	  7 (2d4+2)<br/>
   **Speed** 			  0 ft, fly 30 ft (hover)
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |3 (-4) |16 (+3)|12 (+1)|12 (+1)|11 (0) |8 (-1) |
 
-  **Skills** 								  Arcana +3, History +3
-  **Damage Immunities** 		  poison
-  **Condition Immunities**	  exhaustion, poisoned, prone
-  **Senses** 								  darkvision 60 ft
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills** 								  Arcana +3, History +3<br/>
+  **Damage Immunities** 		  poison<br/>
+  **Condition Immunities**	  exhaustion, poisoned, prone<br/>
+  **Senses** 								  darkvision 60 ft<br/>
   **Languages** 						  all the languages it knew in life
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Death Burst***. When the skull dies, it explodes into jagged bone fragments. Each creature within 5 feet of it must make a DC 12 Dexterity saving throw, taking 1d6 slashing damage on a failed save, or half as much on a success.
 
   ***False Appearance***. While the skull remains motionless, it is indistinguishable from an ordinary skull.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +5 to hit, 1d6+3 piercing damage.
 
@@ -1639,22 +2037,39 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   12
-  **Hit Points** 	  1 (1d4 - 1)
+  **Armor Class**   12<br/>
+  **Hit Points** 	  1 (1d4 - 1)<br/>
   **Speed** 			  20 ft, climb 20 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |2 (-4)|14 (+2)|8 (-1)|1 (-5)|10 (0)|2 (-4)|
 
-  **Skills**   Stealth +4
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills**   Stealth +4<br/>
   **Senses**   Low-light vision 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Spider Climb.*** The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
   ***Web Sense.*** While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.
 
   ***Web Walker.*** The spider ignores movement restrictions caused by webbing.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +4 to hit, 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 1d4 poison damage.
 
@@ -1671,17 +2086,34 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   10
-  **Hit Points** 	  1 (1d4 - 1)
+  **Armor Class**   10<br/>
+  **Hit Points** 	  1 (1d4 - 1)<br/>
   **Speed** 			  30 ft, climb 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |2 (-4) |15 (+2)|8 (-1) |2 (-4) |12 (+1)|4 (-3) |
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Skills**   Acrobatics +4, Perception +4, Stealth +4
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ***Keen Smell.*** The squirrel has advantage on all wisdom checks related to their sense of smell.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +4 to hit, 1 piercing damage.
 
@@ -1701,20 +2133,41 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   Neither a spider nor a cat, a spiny long-limbed mammal with too many joints.
 
-  **Armor Class**   12
-  **Hit Points** 	  2 (1d4)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   12<br/>
+  **Hit Points** 	  2 (1d4)<br/>
   **Speed** 			  30 ft, climb 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |3 (-4) |15 (+2)|10 (0) |3 (-4) |12 (+1)|2 (-4) |
 
-  **Skills**   Perception +3, Stealth +4
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills**   Perception +3, Stealth +4<br/>
   **Senses**   Low-light vision 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Keen Senses.*** The spidercat has advantage on Perception checks.
 
   ***Spider Climb.*** The spidercat can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +4 to hit, 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 1d4 poison damage.
 
@@ -1736,21 +2189,42 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   This creature appears as a rat with rotting flesh, torn and matted fur, and blazing red eyes. Its semitranslucent skin reveals the rat’s discolored bones and muscles.
 
-  **Armor Class**   12
-  **Hit Points** 	  1 (1d4 - 1)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   12<br/>
+  **Hit Points** 	  1 (1d4 - 1)<br/>
   **Speed** 			  20 ft, climb 20 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |6 (-2)|15 (+2)|9 (-1)|2 (-4)|12 (+1)|12 (+1)|
 
-  **Damage Immunities** 		  Poison
-  **Condition Immunities** 	  fear, poison
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Damage Immunities** 		  Poison<br/>
+  **Condition Immunities** 	  fear, poison<br/>
   **Senses** 								  darkvision 60 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Cadaver Fever.*** At the end of a battle, anyone who was bitten by a shadow rat must make a DC 9 Constitution saving throw against disease. Failure indicates the character is infected with cadaver fever. An infected character gains one level of exhaustion immediately and must repeat the saving throw at the end of every long rest. Each failed saving throw adds one more level of exhaustion; a successful saving throw at the end of a long rest means only that the character’s condition doesn’t worsen. The character recovers fully when he or she makes successful saving throws at the ends of two consecutive long rests or when lesser restoration or comparable magic is used on the character.
 
   ***Shadow Blend.*** A shadow rat becomes invisible when it moves into darkness, dim light, or any other space where it is heavily obscured.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +4 to hit, 1 piercing damage, and the target may be infected with cadaver fever (see above).
 
@@ -1772,21 +2246,38 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   14 (natural armor)
-  **Hit Points** 	  3 (1d4 + 1)
+  **Armor Class**   14 (natural armor)<br/>
+  **Hit Points** 	  3 (1d4 + 1)<br/>
   **Speed** 			  30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |7 (-2)|12 (+1)|12 (+1)|5 (-3)|10 (+0)|10 (+0)|
 
-  **Skills**               	  Perception +2
-  **Damage Immunities** 		  poison
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills**               	  Perception +2<br/>
+  **Damage Immunities** 		  poison<br/>
   **Condition Immunities** 	  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***False Appearance***. While the tin soldier remains motionless, it is indistinguishable from a normal toy.
 
   ***Formation***. The tin soldier has advantage on attack rolls when it is within 5 ft of another tin soldier.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   ***Tiny Sword.*** *Melee Attack:* +0 to hit, 1 piercing damage.
 
@@ -1808,21 +2299,42 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   A tressym resembles a small cat, roughly the size of a common housecat. Their primary feature is their wings, that extend from their well-muscled shoulders, and are formed like a bat's.
 
-  **Armor Class**   12
-  **Hit Points** 	  5 (2d4)
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   12<br/>
+  **Hit Points** 	  5 (2d4)<br/>
   **Speed** 			  30 ft, climb 20 ft, fly 40 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |3 (-4)|15 (+2)|10 (0)|11 (0)|12 (+1)|12 (+1)|
 
-  **Skills** 		  Perception +5, Stealth +4
-  **Senses** 		  Low-light vision 60 ft
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills** 		  Perception +5, Stealth +4<br/>
+  **Senses** 		  Low-light vision 60 ft<br/>
   **Languages**   Understand Common but can't speak
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***Detect Invisibility*** Within 60 feet of the tressym, magical invisibility fails to conceal anything from the tressym's sight.
 
   ***Poison Sense*** A tressym can detect whether a substance is poisonous by taste, touch, or smell.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Claws.** *Melee Attack*: +0 to hit, 1 slashing damage.
 
@@ -1868,23 +2380,40 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   12 (natural armor)
-  **Hit Points** 	  4 (1d6 + 1)
+  **Armor Class**   12 (natural armor)<br/>
+  **Hit Points** 	  4 (1d6 + 1)<br/>
   **Speed** 			  30 ft, fly 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |12 (+1)|13 (+1)|12 (+1)|10 (0) |14 (+2)|8 (-1) |
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Skills** Investigation +2, Survival +4
 
-  ***Epicurean***. While resting in a wilderness, the piglet can assist a creature forage for food; roll a d20, and use its results to determine the following:
-  1-10: Results as normal.
-  11-15: They find twice as much food as they normally would.
-  16-19: They find medicinal herbs. Creatures that partake of the fresh herbs and spend hit dice during the rest heal an additional hit point for each hit dice they spend.
-  19-20: They find rare and valuable plants or ingredients, such as truffles or mandrake root.
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  ***Epicurean***. While resting in a wilderness, the piglet can assist a creature forage for food; roll a d20, and use its results to determine the following:<br/>
+  -- 1-10: Results as normal.<br/>
+  -- 11-15: They find twice as much food as they normally would.<br/>
+  -- 16-19: They find medicinal herbs. Creatures that partake of the fresh herbs and spend hit dice during the rest heal an additional hit <br/>point for each hit dice they spend.
+  -- 19-20: They find rare and valuable plants or ingredients, such as truffles or mandrake root.<br/>
 
   ***Keen Smell.*** The weasel has advantage on Perception checks that rely on smell.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +3 to hit, 1d4+1 piercing damage.
 
@@ -1902,17 +2431,34 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   12
-  **Hit Points** 	  7 (2d4 + 2)
+  **Armor Class**   12<br/>
+  **Hit Points** 	  7 (2d4 + 2)<br/>
   **Speed** 			  20 ft, climb 20 ft, fly 30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |8 (-1) |14 (+2)|12 (+1)|5 (-3)|12 (+1)|6 (-2)|
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   **Skills**   Acrobatics +4, Performance +2, Sleight of Hand +4
 
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ***Pack Tactics.*** The flying monkey has advantage on an attack roll against a creature if at least one of the monkey's allies is adjacent to the creature and the ally isn't incapacitated.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   **Bite.** *Melee Attack*: +1 to hit, 1d4-1 piercing damage.
 
@@ -1930,20 +2476,37 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
-  **Armor Class**   12
-  **Hit Points** 	  2 (1d4)
+  **Armor Class**   12<br/>
+  **Hit Points** 	  2 (1d4)<br/>
   **Speed** 			  30 ft
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
   |8 (-1)|15 (+2)|10 (+0)|1 (-5)|10 (+0)|8 (-1)|
 
-  **Damage Resistance** 		  poison, piercing
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Damage Resistance** 		  poison, piercing<br/>
   **Condition Immunities** 	  charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
 
   ***False Appearance***. While the golem remains motionless, it is indistinguishable from a normal ball of yarn.
 
   ***Mutable Form***. Whenever a spell or effect would alter the golem's form, the effect works as normal, except that the new form is always made out of a tangle of yarn.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
   ### Actions
   ***Tangle.*** *Melee Attack:* +4 to hit, the target is restrained (escape DC 12).
 
