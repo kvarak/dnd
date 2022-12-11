@@ -55,52 +55,41 @@ There are two kinds of rests, short and long.
 - #### Benefits of a Long rest
   You must have at least 1 hit point at the start of a **Long rest** rest to gain its benefits. Otherwise you regain 1 hp and become conscious at the end of the rest.
 
-  <div class="card multirest rest">
-  <div class="card-title restHeading">Long Rest</div>
-  <div class="card-subtitle restPad">
-  When you finish a <b>Long rest</b>, you gain the following benefits:
-  <div class="card-text restTable" markdown="1">
+- <div class="block classTable frame" markdown="1">
 
-  |    |   |
-  |:-: |:- |
-  | * | If you are a **full spellcaster**, regain a number of spent **spell slots** equal<br/>to your proficiency bonus. You regain your lowest spell slots first.
-  | * | **Other spellcasters**, regain a number of spent **spell slots** equal to half<br/>their proficiency bonus (rounded up). You regain your lowest spell slots first.
-  | * | Classes may have other benefits.
-  | * | If you have spent the entire rest close to a magical item, you attune to it.
+  ##### When you finish a <b>Long rest</b>, you gain the following benefits
+
+  |   |
+  |:- |
+  | If you are a **full spellcaster**, regain a number of spent ***spell slots*** equal to your proficiency bonus. You regain your lowest spell slots first.
+  | **Other spellcasters**, regain a number of spent ***spell slots*** equal to half their proficiency bonus (rounded up). You regain your lowest spell slots first.
+  | If you have spent the entire rest close to a magical item, you attune to it.
+  | Classes may have other benefits.
 
   </div>
-  </div>
-  <div class="card-subtitle restPad">
-  <br/>In addition, choose <i><b>one</b></i> of the following benefits:
-  <div class="card-text restTable" markdown="1">
 
-  |    |   |
-  |:-: |:- |
-  | * | If not at max hit points, regain up to your **max hp/2** (round up).
-  | * | If not at max Hit Dice, regain up to your **max HD/2** (round up).
-  | * | Remove 1 **exhaustion** level.
-  | * | Attempt to remove a **negative condition** (ex. reduced max hp or a disease).
-  | * | Regain 1 reduced **ability score**.
-  | * | If less than 3 inspiration, regain 1 **inspiration**.
-  | * | Regain your lowest **spell slot**.
-  | * | Choose a **class specific** benefit listed in your class description.
+- <div class="block classTable frame" markdown="1">
 
+  ##### In addition, choose <i><b>one</b></i> of the following benefits
 
-  </div>
-  </div>
+  |   |
+  |:- |
+  | If not at max hit points, regain up to your ***max hp/2*** (round up).
+  | If not at max Hit Dice, regain up to your ***max HD/2*** (round up).
+  | Remove 1 ***exhaustion*** level.
+  | Attempt to remove a ***negative condition*** (ex. reduced max hp or a disease).
+  | Regain 1 reduced ***ability score***.
+  | If less than 3 inspiration, regain 1 ***inspiration***.
+  | Regain your lowest ***spell slot***.
+  | Some classes can add to choices.
+
   </div>
 
 </div>
 
-### <a class="internal-link" name="internal-RestActivities">Additional Activities</a>
+### <a class="internal-link" name="internal-RestActivities">Rest Activities</a>
 
 During a long rest, you can perform one primary activity before you sleep. Below are listed some example activities.
-
-* Brew drinks
-* Cook food
-* Craft an item
-* Maintain gear
-* Repair an item
 
 <div class="columnsthree">
 
@@ -117,10 +106,21 @@ During a long rest, you can perform one primary activity before you sleep. Below
 - #### Craft an Item
   You can spend time crafting simple items — bandages, salves, arrows — if you have the right materials and tools. Roll the appropriate check for your specific craft.
 
+- <div class="block classTable frame" markdown="1">
+
+  | Tool | Weapons |
+  | :--- | :------ |
+  | Bowyer's tools | Bows
+  | Leatherworker's tools | Sling
+  | Smith's tools | Metal weapons
+  | Tinker's tools | Crossbows
+
+  </div>
+
 - #### Maintain Gear
   You can spend time maintaining your weapons and armor, if you have the right knowledge, materials and tools.
 
-  <div class="descriptive" markdown="1">
+- <div class="descriptive" markdown="1">
 
   ##### Gear maintenance kit
   *(3 gp, 1 lbs)*
@@ -133,17 +133,6 @@ During a long rest, you can perform one primary activity before you sleep. Below
 
   </div>
 
-
-- <div class="block classTable frame" markdown="1">
-
-  | Tool | Weapons |
-  | :--- | :------ |
-  | Bowyer's tools | Bows
-  | Leatherworker's tools | Sling
-  | Smith's tools | Metal weapons
-  | Tinker's tools | Crossbows
-
-  </div>
 
 - **Sharpen Weapon**. If you are proficient with ***martial weapons***, you can spend some time maintaining a weapon - this includes sharpening edged weapons, adjusting and maintaining balance of hammers and polearms, etc, taking care of the wear and tear put on it by adventuring and putting in peak condition.
 

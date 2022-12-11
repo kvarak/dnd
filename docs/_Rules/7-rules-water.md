@@ -9,7 +9,7 @@ layout: default
 <a href="#internal-Armorinwater">Armor in water</a><br/>
 <a href="#internal-Drowning">Drowning</a><br/>
 <a href="#internal-ClimbinguponaShip">Climbing up on a Ship</a><br/>
-<a href="#internal-Resting">FallingoffaShip</a><br/>
+<a href="#internal-Resting">Falling off a Ship</a><br/>
 <a href="#internal-Underwater">Underwater</a><br/>
 <a href="#internal-UnderwaterCombat">Underwater Combat</a><br/>
 
