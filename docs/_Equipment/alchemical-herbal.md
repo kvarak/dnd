@@ -522,6 +522,13 @@ These remedies can usually be bought in any town or village.
 
     When healing, roll the same die as your most common hit die. If you don't have a hit die value for any reason, roll a d4.
 
+    | Quality | Max spell slots | Cost |
+    |:--------|:----------------|:-----|
+    | Lesser | 1st level | 30 gp
+    | Greater | 2nd level | 50 gp
+    | Superior | 3rd level | 150 gp
+    | Supreme | 5th level | 500 gp
+
 
     | Quality | Recovery | Cost | 
     |:--------|:---------|:-----|
