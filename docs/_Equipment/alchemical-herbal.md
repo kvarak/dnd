@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alchemical and Herbal items
 layout: default
 ---
