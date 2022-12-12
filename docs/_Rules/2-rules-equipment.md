@@ -63,7 +63,7 @@ When you create your character, you receive equipment and starting money based o
 
 -   ### <a class="internal-link" name="internal-Poisons">Poisons</a>
 
-    The most common poisons can be found under <a href="../Equipment/alchemical-herbal.html#internal-poisons">can be found here</a>, but there's also a dedicated <a href="../Equipment/poisons.html">poison document</a>.
+    The most common poisons can be found under <a href="../Equipment/alchemical-herbal.html#internal-poisons">can be found here</a>, but there's also a dedicated <a href="../Equipment/poison.html">poison document</a>.
 
 -   ### <a class="internal-link" name="internal-UsageDice">Usage Dice</a>
 
