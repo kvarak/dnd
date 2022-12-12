@@ -10,6 +10,8 @@ layout: default
 
 Creating alchemical items requires alchemist’s supplies. Alchemists selling these items can usually be found in cities and larger towns.
 
+<div class="block classTable frame" markdown="1">
+
 <div class="columns">
 
 -   | Alchemical items | Cost |
@@ -54,6 +56,8 @@ Creating alchemical items requires alchemist’s supplies. Alchemists selling th
     | Trollweed | 10 gp
     | Unguent of revivification | 10 gp
     | Vapors of sleep | 5 gp
+
+</div>
 
 </div>
 
