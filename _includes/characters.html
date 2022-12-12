@@ -1,0 +1,13 @@
+
+<div class="columns">
+
+{% for c in site.data.characters %}
+{% if campaign == 1 %}
+
+- <img src="{{ c.img }}" style="max-width:200px;">
+  <i>{{ link.name }}</i>
+
+{% endif %}
+{% endfor %}
+
+</div>

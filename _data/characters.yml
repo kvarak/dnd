@@ -1,0 +1,28 @@
+
+- path: 1
+  name: Aidan
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-aidan.jpg
+
+- path: 1
+  name: Augustu
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-augustu.jpg
+
+- path: 1
+  name: Corax
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-corax.jpg
+
+- path: 1
+  name: Grachius Baradin
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-grachius-baradin.png
+
+- path: 1
+  name: Harnan Boiko
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-harnan-boiko.jpg
+
+- path: 1
+  name: Istakkos
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-istakkos.png
+
+- path: 1
+  name: Max
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-max.jpg
