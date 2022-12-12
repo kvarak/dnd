@@ -5,7 +5,16 @@ layout: default
 
 # Crafted items
 
-Creating **alchemical items** requires alchemist’s supplies. Alchemists selling these items can usually be found in cities and larger towns.
+Creating <a href="#internal-alchemicalitems">**alchemical items**</a> requires alchemist’s supplies. Alchemists selling these items can usually be found in cities and larger towns.
+
+<a href="#internal-herbalremedies">**Herbal remedies**</a> are special herbal poultices, potions, and other curatives that can be used to heal wounds and increase one’s strength and senses. Creating herbal remedies requires an Herbalism Kit. These remedies can usually be bought in any town or village.
+
+Creating <a href="#internal-poisons">**poisons**</a> requires a Poisoner’s kit. Individuals creating and selling these items can usually be found in cities and larger towns.
+
+Potions are an adventurer’s best friend, but it's not always sensible—or realistic—to carry a few dozen potions at once. When you need to carry a lot of potion in a little container, use a <a href="#internal-flasks">**flask**</a>.
+
+A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle (or other container) that can safely hold a large - but uncertain — amount of consumable potion (or other liquid). Unlike potions, which typically come in single-use vials, it's always hard to tell exactly how much liquid remains inside a flask — you never quite know exactly how many uses you'll get before it's all gone.
+
 
 <div class="columns">
 
@@ -54,10 +63,6 @@ Creating **alchemical items** requires alchemist’s supplies. Alchemists sellin
 
 </div>
 
-
-**Herbal remedies** are special herbal poultices, potions, and other curatives that can be used to heal wounds and increase one’s strength and senses. Creating herbal remedies requires an Herbalism Kit.
-
-These remedies can usually be bought in any town or village.
 
 <div class="columns">
 
@@ -742,9 +747,6 @@ These remedies can usually be bought in any town or village.
 
 # Poisons {#poisons}
 
-Creating poisons requires a Poisoner’s kit. Individuals creating and selling these items can usually be found in cities and larger towns.
-
-
 <table>
   <tr>
    <td><strong>Poison</strong>
@@ -799,10 +801,6 @@ This gritty black paste is a poison that interferes with an afflicted creature�
 
 
 ## <a name="internal-flasks">Flasks</a>
-
-Potions are an adventurer’s best friend, but it's not always sensible—or realistic—to carry a few dozen potions at once. When you need to carry a lot of potion in a little container, use a flask.
-
-A flask is a small, magically-infused bottle (or other container) that can safely hold a large—but uncertain— amount of consumable potion (or other liquid). Unlike potions, which typically come in single-use vials, it's always hard to tell exactly how much liquid remains inside a flask—you never quite know exactly how many uses you'll get before it's all gone.
 
 
 #### The Flask Die
