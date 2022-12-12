@@ -1,8 +1,7 @@
 ---
-title: Haunted Lands
+title: (7) Haunted Lands
 layout: default
 ---
-
 
 
 # Player Guide

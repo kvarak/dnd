@@ -1,18 +1,8 @@
 ---
-#layout: default
-title: Into the Dark Continent
+title: (6) Into the Dark Continent
 layout: default
-#tags: []
-#systems: []
-#renderer: legacy
-#theme: 5ePHB
 ---
 
-<!--
-<img
-  src='https://robertrigo.github.io/pics/KsIZkRy.png'
-  style='position:absolute; top:0px; right:0px; width:100%' />
--->
 
 # Into the Dark Continent
 Sargava is a land on the verge, simultaneously pushing on the edge of the map of the Inner Sea and facing an uncertain political future. The nigh impassable jungles of the Mwangi Expanse and the permanent hurricane known as the Eye of Abendego isolate Sargava from the rest of Garund, and its closest neighbors are only nominally nations themselves. The former Chelish colony also stands at the threshold of a new future free from colonial rule, making all things possible.
