@@ -24,6 +24,7 @@ layout: default
   <a href="2-rules-equipment.html#internal-Ammunition">Ammunition</a><br/>
   <a href="2-rules-equipment.html#internal-Armorandshields">Armor and shields</a><br/>
   <a href="2-rules-equipment.html#internal-Equipmentlist">Equipment list</a><br/>
+  <a href="2-rules-equipment.html#internal-Flasks">Flasks</a><br/>
   <a href="2-rules-equipment.html#internal-HealingPotions">Healing Potions</a><br/>
   <a href="2-rules-equipment.html#internal-Poisons">Poisons</a><br/>
   <a href="2-rules-equipment.html#internal-UsageDice">Usage Dice</a><br/>

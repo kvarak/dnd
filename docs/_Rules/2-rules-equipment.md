@@ -10,6 +10,7 @@ layout: default
 <a href="#internal-Ammunition">Ammunition</a><br/>
 <a href="#internal-Armorandshields">Armor and shields</a><br/>
 <a href="#internal-Equipmentlist">Equipment list</a><br/>
+<a href="#internal-Flasks">Flasks</a><br/>
 <a href="#internal-HealingPotions">Healing Potions</a><br/>
 <a href="#internal-Poisons">Poisons</a><br/>
 <a href="#internal-UsageDice">Usage Dice</a><br/>
@@ -25,7 +26,7 @@ When you create your character, you receive equipment and starting money based o
 
 -   ### <a class="internal-link" name="internal-Alchemicalandherbalitems">Alchemical and herbal items</a>
 
-    <a href="https://docs.google.com/document/d/1tqskfu5UBG7etSDtBf_WpMwHKTpOpwMvrQBXHLf36QM/pub">Alchemical and herbal items can be found here.</a>
+    <a href="../Equipment/alchemical-herbal.html">Alchemical and herbal items can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-Ammunition">Ammunition</a>
 
@@ -51,6 +52,10 @@ When you create your character, you receive equipment and starting money based o
 
     <a href="https://robertrigo.github.io/pages/equipment.html">The equipment list can be found here.</a>
 
+-   ### <a class="internal-link" name="internal-Flasks">Flasks</a>
+
+    Flasks are described last on the <a href="../Equipment/alchemical-herbal.html#internal-flasks">alchemical and herbal page</a>.
+
 -   ### <a class="internal-link" name="internal-HealingPotions">Healing Potions</a>
     When you drink a healing potion, instead of rolling d4s to find how much hit points you regain,  roll your hit die. If you don't have a hit die value for any reason, roll a d4. Use this for all items that heals a number of d4s.
 
@@ -58,7 +63,7 @@ When you create your character, you receive equipment and starting money based o
 
 -   ### <a class="internal-link" name="internal-Poisons">Poisons</a>
 
-    <a href="../Equipment/poisons.html">Poisons can be found here.</a>
+    The most common poisons can be found under <a href="../Equipment/alchemical-herbal.html#internal-poisons">can be found here</a>, but there's also a dedicated <a href="../Equipment/poisons.html">poison document</a>.
 
 -   ### <a class="internal-link" name="internal-UsageDice">Usage Dice</a>
 
