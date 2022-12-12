@@ -1,8 +1,8 @@
 
-- name: The Calendar
+- name: Calendar
   img: assets/images/calender.png
   url: https://app.fantasy-calendar.com/calendars/0afe93d1ee9b9a90b6ee4cfa73290428
-  info: Calendar of events in the game
+  info: Calendar of in-game events
 
 - name: Onenote
   img: https://www.pngkey.com/png/detail/151-1515103_writing-quill-books-transparent-background-creative-writing-transparent.png
