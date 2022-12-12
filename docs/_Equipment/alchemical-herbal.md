@@ -124,7 +124,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
 
 </div>
 
-<div class="columns">
+<div class="columnstwo">
 
 -   | Poison | Cost |
     |:-------------|:-----|
@@ -139,11 +139,6 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | d8 | 9 | 6 x [base potion cost]
     | d6 | 3 | 3 x [base potion cost]
     | d4 | 1 | 1.5 x [base potion cost]
-
--   <a href="#internal-TheFlaskDie">The Flask Die</a><br/>
-    <a href="#internal-Whydidmyflaskdecrease?">Why did my flask decrease?</a><br/>
-    <a href="#internal-UsesCosts">Uses & Costs</a><br/>
-    <a href="#internal-SplittingFlasks">Splitting Flasks</a>
 
 </div>
 
@@ -828,6 +823,14 @@ Clanda: Flask quantity is d4, so I roll a d4 and get...
 #### Uses & Costs
 
 Any liquid alchemical or herbal item can be filled in a flask. This is noted in the description of the item. Calculate the cost the following way:
+
+| Flask | (Average) Uses |  | Cost |
+|:------|:-----:|:-----:|:-----:|
+| d12 | 20 | 15 x [base potion cost]
+| d10 | 14 | 10 x [base potion cost]
+| d8 | 9 | 6 x [base potion cost]
+| d6 | 3 | 3 x [base potion cost]
+| d4 | 1 | 1.5 x [base potion cost]
 
 #### Splitting Flasks
 
