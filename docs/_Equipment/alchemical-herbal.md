@@ -522,13 +522,6 @@ These remedies can usually be bought in any town or village.
 
     When healing, roll the same die as your most common hit die. If you don't have a hit die value for any reason, roll a d4.
 
-    | Quality | Max spell slots | Cost |
-    |:--------|:----------------|:-----|
-    | Lesser | 1st level | 30 gp
-    | Greater | 2nd level | 50 gp
-    | Superior | 3rd level | 150 gp
-    | Supreme | 5th level | 500 gp
-
 
     | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
@@ -610,7 +603,7 @@ These remedies can usually be bought in any town or village.
     You recover some hit points when you drink this potion—the better the quality, the more hit points you are able to restore. When you drink a healing potion, roll the same die as your most common hit die. If you don't have a hit die value for any reason, roll a d4.
 
 
-    | Quality | Recovery | Cost | 
+    | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
     | Lesser | 2 [hit die] + 2 | 25 gp
     | Greater | 4 [hit die] + 4 | 60 gp
@@ -627,7 +620,7 @@ These remedies can usually be bought in any town or village.
 
     You instantly recover a number of expended hit dice when you drink this potion—the better the quality, the more hit dice you recover. You may choose which of your hit dice are restored.
 
-    | Quality | Recovery | Cost | 
+    | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
     | Lesser | Recover 2 hit die | 25 gp
     | Greater | Recover 4 hit die | 40 gp
@@ -645,7 +638,7 @@ These remedies can usually be bought in any town or village.
 
     You may ignore some exhaustion for one hour when you drink this potion—the better the quality, the more exhaustion you can ignore.
 
-    | Quality | Recovery | Cost | 
+    | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
     | Lesser | −1 exhaustion | 25 gp
     | Greater | −2 exhaustion | 40 gp
@@ -664,7 +657,7 @@ These remedies can usually be bought in any town or village.
 
     The better the quality, the more temporary hit points you gain. When you drink a potion of vigor, roll the same die as your most common hit die. If you don't have a hit die value for any reason, roll a d4.
 
-    | Quality | Recovery | Save DC | Cost | 
+    | Quality | Recovery | Save DC | Cost |
     |:--------|:---------|:--------|:-----|
     | Lesser | 2 [hit die] + 2 | 15 | 5 gp
     | Greater | 4 [hit die] + 4 | 17 | 15 gp
