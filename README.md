@@ -11,7 +11,7 @@ Updates to the D&D page.
 </div> <!-- col -->
 <div class="col">
 
-## Links
+## External Links
 
 {% include links.html %}
 
