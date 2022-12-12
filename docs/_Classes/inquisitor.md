@@ -28,11 +28,8 @@ The inquisitor is in many ways similar to the paladin, but where the paladin ser
 
 Each inquisitor has different goals, largely based on their god and their god's desires. An inquisitor of Pelor, for example, may seek out and destroy undead, while and inquisitor of Silvanus may hunt those who would harm or destroy nature. All inquisitors have a divine mission.
 
-
 ## Class Features
 
-
-<!-- - **Skills:** from Arcana, Deception, Insight, Intimidation, Investigation, Perception, Religion and Stealth -->
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Inquisitor
@@ -66,14 +63,22 @@ As an inquisitor, you gain the following class features
 #### Hit Points
 **Hit Dice:**   1d8
 
-#### Proficiencies
-**Armor:**  Light and medium armors, shields
+#### Saving Throws
+You are proficient with ***Wisdom*** and ***Charisma*** saving throws.
 
-**Weapons:**  Simple weapons, martial weapons
+#### Skills
+**Class Skills:** Burglary, Investigation, Law, Religion, Speechcraft, Stealth and Underworld
 
-**Saving Throws:**   Wisdom, Charisma
+**Skill Points:** You gain 3 skill points at 1st level.
 
-**Skills:**          Insight, Religion, Stealth and interrogation
+#### Skills - Combat
+**Weapon Groups:** You have rank 2 with Fencing sword, Knife, Sword, Crossbow, Sling and Thrown weapon. Additionally you have rank 1 with Club, Spear, Staff, Whip and Bow.
+
+**Combat Skill Points:** You gain 2 skill point to spend on combat skills at 1st level.
+
+**Recommended:** **Light armor* and *Medium armor*
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every even level.
 
 
 #### Equipment
@@ -84,13 +89,6 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* a explorer's pack or *(b)* a priest's pack
 - a leather armor and a holy symbol
 
-
-
-
-
-
-
-
 ### Fighting Style
 At 1st level, you adopt a style of fighting as your specialty. Choose one of the fighting style options from the <a href="fighter.html#internal-FightingStyles">Fighter class description</a>. In addition, the *Blessed Warrior* style is also added to your options.
 
@@ -98,7 +96,6 @@ At 1st level, you adopt a style of fighting as your specialty. Choose one of the
 
 ## Blessed Warrior
 You learn two cantrips of your choice from a cleric spell list appropriate to your deity. They count as Inquisitor spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the same spell list.
-
 </div>
 
 Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
@@ -106,13 +103,11 @@ Whenever you gain a level in a class that has the Fighting Style feature, you ca
 ### Judgement
 As an instrument of your deity's will, you are empowered to pass judgment on those around you. You learn two judgement of your choice, which are detailed at the end of the class description.
 
-As a ***bonus action***, you may spend **Piety** to direct your righteous fury at any creature within 60 feet by pointing your finger at them and judge them verbally. The target must be able to hear you, but does not have to understand you.
+As a ***bonus action***, you may spend **Piety** to direct your righteous fury at any creature within 60 ft by pointing your finger at them and judge them verbally. The target must be able to hear you, but does not have to understand you.
 
 Unless otherwise stated, a Judgement last for 1 minute. If the target of your judgment dies or enters a different plane of existence before the duration has elapsed, as a ***reaction***, you may shift your judgment to another creature within range for the remainder of the duration.
 
 You learn one additional Judgement of your choice at 7th, 11th, and 18th level. Each time you learn a new Judgement, you can also replace a Judgement.
-
-<!-- Originally one use per short or long rest -->
 
 #### Piety
 In order to use a Judgement, you have to spend 4 ***Piety***, or 6 for its greater Judgement effect. The amount of ***Piety*** you have per level is shown in the Inquisitor table.
@@ -122,12 +117,10 @@ In order to use a Judgement, you have to spend 4 ***Piety***, or 6 for its great
 #### Prayer
 As an ***action*** on your turn, if you have access to a holy symbol or a place of worship, you can say a short prayer to expend your highest available spell slot and regain 4 **Piety**.
 
-
-
 ### Divine Sense
 The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears.
 
-Beginning at 2nd level, you can use your ***action*** to open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.
+Beginning at 2nd level, you can use your ***action*** to open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend or undead within 60 ft of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.
 
 After you have used this feature, you have to complete a short rest to use it again.
 
@@ -178,29 +171,29 @@ Wisdom is your spellcasting ability for your inquisitor spells.
 #### Spellcasting Focus
 You can use a holy symbol as a spellcasting focus for your inquisitor spells.
 
-
-
-
-
 Your choice grants you features at 3rd level, and again at 7th, 11th, and 18th level.
 
+<!-- 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
 You also have access to a class specific feat described at the end of the class description.
+-->
 
 ### Extra Attack
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 ### Inquisitor's Talent
-You are highly trained in getting the information you seek out of others. Beginning at 5th level, have advantage on Insight and interrogation checks.
+You are highly trained in getting the information you seek out of others. At 5th level, 
+
+Add Speechcraft to your class skills. For you, the skill Diplomacy has cost 0 if you have its prerequisites (*Speechcraft - Tact*).
+
+have advantage on Insight and interrogation checks.
 
 ### Sanctified Mind
 At 6th level, your mind has been tempered and is supernaturally resilient. You gain resistance to psychic damage, and you have advantage on saving throws against being enchanted or frightened.
 
 At 14th level, you become to any effect that would sense your emotions or read your thoughts, divination spells, and the charmed condition.
-
-
 
 ### Beacon of Truth
 Starting at 10th level, as an ***action***, you can emanate an aura of truth. For 1 minute, all creatures within 10 feet of you are subjected to the effects of the *zone of truth* spell.

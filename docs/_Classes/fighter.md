@@ -54,8 +54,6 @@ Fighters learn the basics of all combat styles. Every fighter can swing an axe, 
 
 Beyond that basic degree of familiarity, each fighter specializes in a certain style of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic. This combination of broad general ability and extensive specialization makes fighters superior combatants on battlefields and in dungeons alike.
 
-
-
 #### Trained for Danger
 Not every member of the city watch, the village militia, or the queen's army is a fighter. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge.
 
@@ -87,10 +85,7 @@ When the battle is done, enemies and allies alike stare in awe at the sight of y
 | 10 | There is no time to celebrate, for your war is eternal!
 
 
-
 ## Class Features
-
-
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
