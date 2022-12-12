@@ -5,7 +5,16 @@ layout: default
 
 # Crafted items
 
-Creating **alchemical items** requires alchemist’s supplies. Alchemists selling these items can usually be found in cities and larger towns.
+Creating <a href="#internal-alchemicalitems">**alchemical items**</a> requires alchemist’s supplies. Alchemists selling these items can usually be found in cities and larger towns.
+
+<a href="#internal-herbalremedies">**Herbal remedies**</a> are special herbal poultices, potions, and other curatives that can be used to heal wounds and increase one’s strength and senses. Creating herbal remedies requires an Herbalism Kit. These remedies can usually be bought in any town or village.
+
+Creating <a href="#internal-poisons">**poisons**</a> requires a Poisoner’s kit. Individuals creating and selling these items can usually be found in cities and larger towns.
+
+Potions are an adventurer’s best friend, but it's not always sensible—or realistic—to carry a few dozen potions at once. When you need to carry a lot of potion in a little container, use a <a href="#internal-flasks">**flask**</a>.
+
+A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle (or other container) that can safely hold a large - but uncertain — amount of consumable potion (or other liquid). Unlike potions, which typically come in single-use vials, it's always hard to tell exactly how much liquid remains inside a flask — you never quite know exactly how many uses you'll get before it's all gone.
+
 
 <div class="columns">
 
@@ -54,10 +63,6 @@ Creating **alchemical items** requires alchemist’s supplies. Alchemists sellin
 
 </div>
 
-
-**Herbal remedies** are special herbal poultices, potions, and other curatives that can be used to heal wounds and increase one’s strength and senses. Creating herbal remedies requires an Herbalism Kit.
-
-These remedies can usually be bought in any town or village.
 
 <div class="columns">
 
@@ -522,15 +527,8 @@ These remedies can usually be bought in any town or village.
 
     When healing, roll the same die as your most common hit die. If you don't have a hit die value for any reason, roll a d4.
 
-    | Quality | Max spell slots | Cost |
-    |:--------|:----------------|:-----|
-    | Lesser | 1st level | 30 gp
-    | Greater | 2nd level | 50 gp
-    | Superior | 3rd level | 150 gp
-    | Supreme | 5th level | 500 gp
 
-
-    | Quality | Recovery | Cost | 
+    | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
     | Lesser | 2 [hit die] + 2 | 1 gp
     | Greater | 4 [hit die] + 4 | 5 gp
@@ -610,7 +608,7 @@ These remedies can usually be bought in any town or village.
     You recover some hit points when you drink this potion—the better the quality, the more hit points you are able to restore. When you drink a healing potion, roll the same die as your most common hit die. If you don't have a hit die value for any reason, roll a d4.
 
 
-    | Quality | Recovery | Cost | 
+    | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
     | Lesser | 2 [hit die] + 2 | 25 gp
     | Greater | 4 [hit die] + 4 | 60 gp
@@ -627,7 +625,7 @@ These remedies can usually be bought in any town or village.
 
     You instantly recover a number of expended hit dice when you drink this potion—the better the quality, the more hit dice you recover. You may choose which of your hit dice are restored.
 
-    | Quality | Recovery | Cost | 
+    | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
     | Lesser | Recover 2 hit die | 25 gp
     | Greater | Recover 4 hit die | 40 gp
@@ -645,7 +643,7 @@ These remedies can usually be bought in any town or village.
 
     You may ignore some exhaustion for one hour when you drink this potion—the better the quality, the more exhaustion you can ignore.
 
-    | Quality | Recovery | Cost | 
+    | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
     | Lesser | −1 exhaustion | 25 gp
     | Greater | −2 exhaustion | 40 gp
@@ -664,7 +662,7 @@ These remedies can usually be bought in any town or village.
 
     The better the quality, the more temporary hit points you gain. When you drink a potion of vigor, roll the same die as your most common hit die. If you don't have a hit die value for any reason, roll a d4.
 
-    | Quality | Recovery | Save DC | Cost | 
+    | Quality | Recovery | Save DC | Cost |
     |:--------|:---------|:--------|:-----|
     | Lesser | 2 [hit die] + 2 | 15 | 5 gp
     | Greater | 4 [hit die] + 4 | 17 | 15 gp
@@ -749,9 +747,6 @@ These remedies can usually be bought in any town or village.
 
 # Poisons {#poisons}
 
-Creating poisons requires a Poisoner’s kit. Individuals creating and selling these items can usually be found in cities and larger towns.
-
-
 <table>
   <tr>
    <td><strong>Poison</strong>
@@ -806,10 +801,6 @@ This gritty black paste is a poison that interferes with an afflicted creature�
 
 
 ## <a name="internal-flasks">Flasks</a>
-
-Potions are an adventurer’s best friend, but it's not always sensible—or realistic—to carry a few dozen potions at once. When you need to carry a lot of potion in a little container, use a flask.
-
-A flask is a small, magically-infused bottle (or other container) that can safely hold a large—but uncertain— amount of consumable potion (or other liquid). Unlike potions, which typically come in single-use vials, it's always hard to tell exactly how much liquid remains inside a flask—you never quite know exactly how many uses you'll get before it's all gone.
 
 
 #### The Flask Die
