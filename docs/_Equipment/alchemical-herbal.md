@@ -143,7 +143,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
 </div>
 
 
-## <a name="internal-alchemicalitems">Alchemical items</a>
+## <a class="internal-link" name="internal-alchemicalitems">Alchemical items</a>
 
 
 <div class="columnsthree">
@@ -392,7 +392,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
 
 <hr class="classdivider">
 
-## <a name="internal-herbalremedies">Herbal Remedies</a>
+## <a class="internal-link" name="internal-herbalremedies">Herbal Remedies</a>
 
 <div class="columnsthree">
 
@@ -766,7 +766,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
 
 <hr class="classdivider">
 
-## <a name="internal-poisons">Poisons</a>
+## <a class="internal-link" name="internal-poisons">Poisons</a>
 
 <div class="columnsthree">
 
@@ -794,7 +794,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
 
 <hr class="classdivider">
 
-## <a name="internal-flasks">Flasks</a>
+## <a class="internal-link" name="internal-flasks">Flasks</a>
 
 #### The Flask Die
 
