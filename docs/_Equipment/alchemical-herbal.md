@@ -530,7 +530,7 @@ These remedies can usually be bought in any town or village.
     | Supreme | 5th level | 500 gp
 
 
-    | Quality | Recovery | Cost | 
+    | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
     | Lesser | 2 [hit die] + 2 | 1 gp
     | Greater | 4 [hit die] + 4 | 5 gp
