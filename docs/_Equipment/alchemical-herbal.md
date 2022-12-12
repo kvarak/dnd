@@ -11,16 +11,14 @@ Creating <a href="#internal-alchemicalitems">**alchemical items**</a> requires a
 
 Creating <a href="#internal-poisons">**poisons**</a> requires a Poisoner’s kit. Individuals creating and selling these items can usually be found in cities and larger towns.
 
-Potions are an adventurer’s best friend, but it's not always sensible—or realistic—to carry a few dozen potions at once. When you need to carry a lot of potion in a little container, use a <a href="#internal-flasks">**flask**</a>.
-
-A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle (or other container) that can safely hold a large - but uncertain — amount of consumable potion (or other liquid). Unlike potions, which typically come in single-use vials, it's always hard to tell exactly how much liquid remains inside a flask — you never quite know exactly how many uses you'll get before it's all gone.
+Potions are an adventurer’s best friend, but it's not always sensible—or realistic—to carry a few dozen potions at once. When you need to carry a lot of potion in a little container, use a flask. A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle (or other container) that can safely hold a large - but uncertain — amount of consumable potion (or other liquid). Unlike potions, which typically come in single-use vials, it's always hard to tell exactly how much liquid remains inside a flask — you never quite know exactly how many uses you'll get before it's all gone.
 
 
 <div class="columns">
 
 -   | Alchemical items | Cost |
-    |:-----------------|:-----|
-    | [Acid]{#acid} | 10 gp
+    |:-----------------|:----:|
+    | Acid | 10 gp
     | Air crystals | 5 gp
     | Air sponge | 50 gp
     | Alchemical solvent | 10 gp
@@ -38,7 +36,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | Flash powder | 10 gp
 
 -   | Alchemical items | Cost |
-    |:-----------------|:-----|
+    |:-----------------|:----:|
     | Ghost essence | 100 gp
     | Ghostbane oil | 30 gp
     | Glass gargle | 5 gp
@@ -56,7 +54,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | Vapors of sleep | 5 gp
 
 -   | Herbal items | Cost |
-    |:-------------|:-----|
+    |:-------------|:----:|
     | Antiplague | 25 gp
     | Antitoxin | 30 gp
     | Basil tea | 5 cp
@@ -81,7 +79,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | Jinab bark | 50 gp
 
 -   | Herbal items | Cost |
-    |:-------------|:-----|
+    |:-------------|:----:|
     | Jojopo poultice | 5 sp
     | Laumspur tea | 20 gp
     | Lavender tea | 20 gp
@@ -116,7 +114,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | Woundweal | 50 gp
 
 -   | Flask | (Average) Uses | Cost |
-    |:------|:-----:|:-----:|:-----:|
+    |:------|:--------------:|:----:|
     | d12 | 20 | 15 x [base potion cost]
     | d10 | 14 | 10 x [base potion cost]
     | d8 | 9 | 6 x [base potion cost]
