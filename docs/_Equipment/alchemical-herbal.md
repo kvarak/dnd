@@ -28,9 +28,6 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | Alchemist’s fire | 10 gp
     | Alkali salt | 10 gp
     | Allnight | 5 gp
-
--   | Alchemical items | Cost |
-    |:-----------------|:-----|
     | Dragon's Breath | 20 gp
     | Cooling gel | 5 gp
     | Darkflare | 10 gp
@@ -50,9 +47,6 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | Powdered chalk | 1 cp
     | Smelling salt | 5 gp
     | Smoking pellet | 10 gp
-
--   | Alchemical items | Cost |
-    |:-----------------|:-----|
     | Smokestick | 10 gp
     | Spellpower potion | 30 - 500 gp
     | Tindertwig | 1 sp
@@ -60,11 +54,6 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | Trollweed | 10 gp
     | Unguent of revivification | 10 gp
     | Vapors of sleep | 5 gp
-
-</div>
-
-
-<div class="columns">
 
 -   | Herbal items | Cost |
     |:-------------|:-----|
@@ -79,9 +68,6 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | Devilweed | 5 gp
     | Dragon’s bane | 6 sp
     | Exspiravit powder | 10 gp
-
--   | Herbal items | Cost |
-    |:-------------|:-----|
     | Faerie wing brew | 2 gp
     | Flayleaf | 8 sp
     | Geranium compress | 4 sp
@@ -107,9 +93,6 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | Potion of Healing | 25-350 gp
     | Potion of Recovery | 25-70 gp
     | Potion of Stamina | 25-100 gp
-
--   | Herbal items | Cost |
-    |:-------------|:-----|
     | Potion of Vigor | 5-35 gp
     | Purple pipeweed | 1 gp
     | Sage | 4 cp
