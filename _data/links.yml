@@ -1,4 +1,9 @@
 
+- name: Spells
+  img: https://lucidgoddess.com/wp-content/uploads/2016/12/book-of-spells-01.png
+  url: http://spells.rigo.nu/
+  info: Rules for all spells in the game
+
 - name: Calendar
   img: assets/images/calender.png
   url: https://app.fantasy-calendar.com/calendars/0afe93d1ee9b9a90b6ee4cfa73290428
