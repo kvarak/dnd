@@ -132,7 +132,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
     | Noxious aromatic | 15 gp
     | Woundweal | 50 gp
 
--   | Flask | (Average) Uses |  | Cost |
+-   | Flask | (Average) Uses | Cost |
     |:------|:-----:|:-----:|:-----:|
     | d12 | 20 | 15 x [base potion cost]
     | d10 | 14 | 10 x [base potion cost]
