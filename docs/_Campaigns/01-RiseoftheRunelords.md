@@ -9,3 +9,7 @@ layout: default
 
 {% include characters.html path=1 %}
 
+## The Scenery
+
+{% include scenery.html path=1 %}
+

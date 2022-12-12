@@ -1,0 +1,12 @@
+
+<div class="columnsthree">
+
+{% for scene in site.data.scenery %}
+{% if scene.path == include.path %}
+
+- <img src="{{ scene.img }}" style="width:85%px;">
+
+{% endif %}
+{% endfor %}
+
+</div>
