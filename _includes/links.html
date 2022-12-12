@@ -17,10 +17,11 @@
 
 
 
-|  |  |
-|:-|:-|
+<table>
 {% for link in site.data.links %}
-| <a href="{{ link.url }}" style='vertical-align: middle;'>{{ link.name }}</a> | {{ link.info }} |
+<tr>
+<td><a href="{{ link.url }}" style='vertical-align: middle;'>{{ link.name }}</a></td>
+<td>{{ link.info }}</td>
+</tr>
 {% endfor %}
-
-
+</table>
