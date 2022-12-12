@@ -2,6 +2,7 @@
 <html>
   <head>
     {% include head.html %}
+    <link href="../assets/css/newstyle.css" rel="stylesheet">
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
     <script type="text/javascript">
@@ -22,11 +23,23 @@
 
       function showInfo(results) {
         var data = results.data
+        var txt = "";
 
+        document.getElementById("alert").innerHTML = "Imported " + data.length + " spells.";
         // data comes through as a simple array since simpleSheet is turned on
         // alert("Successfully processed " + data.length + " rows!")
-        document.getElementById("sheetcontent").innerHTML = "<strong>Headlines:</strong> " + [ data[0].Name, data[1].Name, data[2].Name ].join(", ");
-        console.log(data);
+        for (d in data) {
+          // console.log(d);
+          txt = txt + "<tr>";
+          txt = txt + "<td>" + data[d].Name + "</td>";
+          txt = txt + "<td>" + data[d].Level + "</td>";
+          txt = txt + "<td>" + data[d].School + "</td>";
+          txt = txt + "<td>" + data[d].Web_Description + "</td>";
+          txt = txt + "</tr>";
+        }
+
+        document.getElementById("sheetcontent").innerHTML = txt;
+        // console.log(data);
       }
 
       // document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");
@@ -38,7 +51,27 @@
     {% include navigation.html %}
     <div class="container container-main">
 
-      <p id="sheetcontent"></p>
+      <section class="container">
+        <h1>Spells</h1>
+        <input type="search" class="light-table-filter" data-table="table-info" placeholder="Filter/Search">
+
+        <p id="alert"></p>
+
+        <table class="table-info table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Level</th>
+              <th>School</th>
+              <th>Web_Description</th>
+            </tr>
+          </thead>
+          <tbody id="sheetcontent">
+          </tbody>
+        </table>
+      </section>
+
+      <script src="../assets/js/function.js"></script>
 
       {{ content }}
 
