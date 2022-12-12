@@ -6,219 +6,56 @@ layout: default
 # Crafted items
 
 
-## Alchemical items {#alchemical-items}
+## Alchemical items
 
 Creating alchemical items requires alchemist’s supplies. Alchemists selling these items can usually be found in cities and larger towns.
 
+<div class="columns">
 
-<table>
-  <tr>
-   <td><strong>Alchemical items</strong>
-   </td>
-   <td><strong>Cost</strong>
-   </td>
-   <td>
-   </td>
-   <td><strong>Alchemical items</strong>
-   </td>
-   <td><strong>Cost</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Acid
-   </td>
-   <td>10 gp
-   </td>
-   <td>
-   </td>
-   <td>Ghost essence
-   </td>
-   <td>100 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Air crystals
-   </td>
-   <td>5 gp
-   </td>
-   <td>
-   </td>
-   <td>Ghostbane oil
-   </td>
-   <td>30 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Air sponge
-   </td>
-   <td>50 gp
-   </td>
-   <td>
-   </td>
-   <td>Glass gargle
-   </td>
-   <td>5 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Alchemical solvent
-   </td>
-   <td>10 gp
-   </td>
-   <td>
-   </td>
-   <td>Liquid ice
-   </td>
-   <td>20 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Alchemical torch
-   </td>
-   <td>25 gp
-   </td>
-   <td>
-   </td>
-   <td>Noxious aromatic
-   </td>
-   <td>10 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Alchemist’s fire
-   </td>
-   <td>10 gp
-   </td>
-   <td>
-   </td>
-   <td>Powdered chalk
-   </td>
-   <td>1 cp
-   </td>
-  </tr>
-  <tr>
-   <td>Alkali salt
-   </td>
-   <td>10 gp
-   </td>
-   <td>
-   </td>
-   <td>Smelling salt
-   </td>
-   <td>5 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Allnight
-   </td>
-   <td>5 gp
-   </td>
-   <td>
-   </td>
-   <td>Smoking pellet
-   </td>
-   <td>10 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Dragon's Breath
-   </td>
-   <td>20 gp
-   </td>
-   <td>
-   </td>
-   <td>Smokestick
-   </td>
-   <td>10 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Cooling gel
-   </td>
-   <td>5 gp
-   </td>
-   <td>
-   </td>
-   <td>Spellpower potion
-   </td>
-   <td>30 - 500 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Darkflare
-   </td>
-   <td>10 gp
-   </td>
-   <td>
-   </td>
-   <td>Tindertwig
-   </td>
-   <td>1 sp
-   </td>
-  </tr>
-  <tr>
-   <td>Deodorizing agent
-   </td>
-   <td>5 gp
-   </td>
-   <td>
-   </td>
-   <td>Troll oil
-   </td>
-   <td>25 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Distilled courage
-   </td>
-   <td>20 gp
-   </td>
-   <td>
-   </td>
-   <td>Trollweed
-   </td>
-   <td>10 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Facemold paste
-   </td>
-   <td>25 gp
-   </td>
-   <td>
-   </td>
-   <td>Unguent of revivification
-   </td>
-   <td>10 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Firebane
-   </td>
-   <td>25 gp
-   </td>
-   <td>
-   </td>
-   <td>Vapors of sleep
-   </td>
-   <td>5 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Flash powder
-   </td>
-   <td>10 gp
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
+-   | Alchemical items | Cost |
+    |:-----------------|:-----|
+    | Acid | 10 gp
+    | Air crystals | 5 gp
+    | Air sponge | 50 gp
+    | Alchemical solvent | 10 gp
+    | Alchemical torch | 25 gp
+    | Alchemist’s fire | 10 gp
+    | Alkali salt | 10 gp
+    | Allnight | 5 gp
 
+-   | Alchemical items | Cost |
+    |:-----------------|:-----|
+    | Dragon's Breath | 20 gp
+    | Cooling gel | 5 gp
+    | Darkflare | 10 gp
+    | Deodorizing agent | 5 gp
+    | Distilled courage | 20 gp
+    | Facemold paste | 25 gp
+    | Firebane | 25 gp
+    | Flash powder | 10 gp
 
+-   | Alchemical items | Cost |
+    |:-----------------|:-----|
+    | Ghost essence | 100 gp
+    | Ghostbane oil | 30 gp
+    | Glass gargle | 5 gp
+    | Liquid ice | 20 gp
+    | Noxious aromatic | 10 gp
+    | Powdered chalk | 1 cp
+    | Smelling salt | 5 gp
+    | Smoking pellet | 10 gp
+
+-   | Alchemical items | Cost |
+    |:-----------------|:-----|
+    | Smokestick | 10 gp
+    | Spellpower potion | 30 - 500 gp
+    | Tindertwig | 1 sp
+    | Troll oil | 25 gp
+    | Trollweed | 10 gp
+    | Unguent of revivification | 10 gp
+    | Vapors of sleep | 5 gp
+
+</div>
 
 ## Acid
 
