@@ -84,7 +84,7 @@ Creating alchemical items requires alchemist’s supplies. Alchemists selling th
 
 -   #### Alchemical solvent
 
-    Price: 10 gp, can be purchased in a [flask](#flasks)
+    Price: 10 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
     This bubbling purple gel eats through adhesives. Each vial can cover a single 5-foot square. It destroys normal adhesives (such as tar, tree sap, or glue) in a single round but takes 1d4+1 rounds to deal with more powerful adhesives (tanglefoot bags, spider webbing, and so on). It has no effect on fully magical adhesives, including sovereign glue.
 
@@ -119,7 +119,7 @@ Creating alchemical items requires alchemist’s supplies. Alchemists selling th
 
 -   #### Dragon's Breath
 
-    Price: 20 gp, can be purchased in a [flask](#flasks)
+    Price: 20 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
     A golden liquid with a strong smell of spices and feels like drinking molten lava. It heals for 2d6 + Con mod and removes one level of exhaustion. The drinker has a tingly feeling throughout their body for the next 2d4 hours.
 
@@ -140,14 +140,14 @@ Creating alchemical items requires alchemist’s supplies. Alchemists selling th
 
 -   #### Deodorizing agent
 
-    Price: 5 gp, can be purchased in a [flask](#flasks)
+    Price: 5 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
     Coating a creature in a vial of this milky, odorless substance takes 1 minute and renders it scentless for 1d3 hours. Creatures that rely on scent for locating creatures do not gain the benefit of this ability against a creature affected by a dose of deodorizing agent.
 
 
 -   #### Distilled Courage
 
-    Price: 10 gp, can be purchased in a [flask](#flasks)
+    Price: 10 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
     When you use this alcohol as a material component to cast the _false life_ spell, you have advantage on the first charisma check you make before the spell ends.
 
@@ -175,7 +175,7 @@ Creating alchemical items requires alchemist’s supplies. Alchemists selling th
 
 -   #### Ghost Essence
 
-    Price: 100 gp, can be purchased in a [flask](#flasks)
+    Price: 100 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
     The imbiber leaves his physical body and becomes a visible but incorporeal creature. While in this state, the user’s speed is doubled, but he can take no actions other than movement and visual observation. While in this state, the spirit is invulnerable to physical harm, but not magical damage.
 
@@ -188,14 +188,14 @@ Creating alchemical items requires alchemist’s supplies. Alchemists selling th
 
 -   #### Ghostbane Oil
 
-    Price: 30 gp, can be purchased in a [flask](#flasks)
+    Price: 30 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
     When applied to a weapon, allows it to inflict full damage upon incorporeal creatures as if they were physical creatures. The benefit lasts only for a few swings (2d4).
 
 
 -   #### Glass gargle
 
-    Price: 5 gp, can be purchased in a [flask](#flasks)
+    Price: 5 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
     Glass gargle is a gritty, cloudy liquid that, when gargled, roughens the voice, lowering it in both pitch and timbre. A character who uses glass gargle gains a +2 bonus on checks to hide his identity (when applicable), but suffers an equal penalty to all Perform skill checks involving vocal performance.
 
@@ -244,7 +244,7 @@ Creating alchemical items requires alchemist’s supplies. Alchemists selling th
 
 -   #### Spellpower Potion
 
-    Can be purchased in a [flask](#flasks).
+    Can be purchased in a <a href="#internal-flasks">flask</a>.
 
     This glowing, blue potion glistens with tiny crystalline fragments. It tastes of lightning and glass.
 
@@ -270,7 +270,7 @@ Creating alchemical items requires alchemist’s supplies. Alchemists selling th
 
 -   #### Troll oil
 
-    Price: 25 gp, can be purchased in a [flask](#flasks)
+    Price: 25 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
     This disgusting crimson liquid is viscous and tastes foul. If you drink it, for the next hour you have advantage on all stabilization rolls when reduced to 0 hit points and have a 50% chance each round to end any bleeding effect on you. However, drinking this liquid is not so easy as it is really foul. A successful DC 8 Constitution save is required to avoid being sickened and keeping the liquid down after drinking it. If you succeed by less than 5, you are sickened (as the poisoned condition) for the full duration.
 
@@ -290,14 +290,14 @@ Creating alchemical items requires alchemist’s supplies. Alchemists selling th
 
 -   #### Unguent of revivification
 
-    Price: 10 gp, can be purchased in a [flask](#flasks)
+    Price: 10 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
     The preservation of dead flesh is important in undead-friendly cultures. In such places this alchemical ointment is commonly used as a cheaper alternative to the _gentle repose _spell to give their undead flesh the blush of life. A single dose staves off the decomposition of dead flesh for 1d6 days. It cannot reverse decay that is already present and has no effect on the time limit for raising creatures from the dead.
 
 
 -   #### Vapors of sleep
 
-    Price: 5 gp, can be purchased in a [flask](#flasks)
+    Price: 5 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
     When applied to a cloth and held over the nose and mouth, it forces the target to make a Constitution save (DC 13) or sleep for 1d4 hours. It can be thrown as a ranged improvised weapon, breaking on impact and causing those who fail the save (DC 13) to become drowsy and disoriented and suffer -2 to all actions for 1d4 rds.
 
@@ -373,14 +373,14 @@ These remedies can usually be bought in any town or village.
 
 #### Antiplague
 
-Price: 25 gp, can be purchased in a [flask](#flasks)
+Price: 25 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
 If you drink a vial of this foul-tasting, milky tonic, you gain advantage on saving throws against disease for the next hour.
 
 
 #### Antitoxin
 
-Price: 30 gp, can be purchased in a [flask](#flasks)
+Price: 30 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
 A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs.
 
@@ -396,7 +396,7 @@ Benefit: If administered within 10 minutes after a combat during a short rest, i
 
 #### Bloodletter's draught
 
-Price: 5 gp, can be purchased in a [flask](#flasks)
+Price: 5 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
 Upon drinking, the imbiber immediately takes 1d6 damage. Every minute for the next 1d3+1 minutes later they are healed by the amount of damage taken. This potion is used to ease the passing of those too weak to survive, but restores those who still have their strength to live back to health.
 
@@ -454,7 +454,7 @@ This dried fungus allows for speaking with the spirits of the dead when used as 
 
 #### Faerie wing brew
 
-Price: 2 gp, can be purchased in a [flask](#flasks)
+Price: 2 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
 A brew made from a rare flower called Faerie wing. Drinking the liquid grants the ability to see invisible objects up to five feet away for one minute.
 
@@ -496,7 +496,7 @@ Dried herbs, that when cooked in water, the resulting tea will grant the drinker
 
 #### Hag's brew
 
-Price: 15 gp, can be purchased in a [flask](#flasks)
+Price: 15 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
 This vile concoction requires a DC 12 Constitution check to not instantly throw up. If the check is passed, it restores 6d4 hp.
 
@@ -627,7 +627,7 @@ This ball of aromatic spices and perfumes fills an area with a 15 foot radius wi
 
 #### Potion of Healing
 
-Can be purchased in a [flask](#flasks).
+Can be purchased in a <a href="#internal-flasks">flask</a>.
 
 This red potion feels strangely warm to the touch. It tastes of cinnamon and orange.
 
@@ -685,7 +685,7 @@ You recover some hit points when you drink this potion—the better the quality,
 
 #### Potion of Recovery
 
-Can be purchased in a [flask](#flasks).
+Can be purchased in a <a href="#internal-flasks">flask</a>.
 
 This watery, green potion smells of freshly cut grass. If left in natural sunlight, it spoils after one hour.
 
@@ -734,7 +734,7 @@ You instantly recover a number of expended hit dice when you drink this potion�
 
 #### Potion of Stamina
 
-Can be purchased in a [flask](#flasks).
+Can be purchased in a <a href="#internal-flasks">flask</a>.
 
 This cold, black potion tastes strongly of old coffee and sour milk. It fizzes when shaken.
 
@@ -794,7 +794,7 @@ You may ignore some exhaustion for one hour when you drink this potion—the bet
 
 #### Potion of Vigor
 
-Can be purchased in a [flask](#flasks).
+Can be purchased in a <a href="#internal-flasks">flask</a>.
 
 This potion of boiled water and herbs gives increased energy and dulls pain.
 
@@ -870,7 +870,7 @@ Certain types of sage can also be used as a culinary herb.
 
 #### Sakrash (Twilight wine)
 
-Price: 10 gp, can be purchased in a [flask](#flasks)
+Price: 10 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
 Sweet oily wine. You cannot be detected by effects that read or alter thoughts or emotions for 1d4 hours. However, your eyes become sensitive to bright light, causing disadvantage on all saves against light effects.
 
@@ -963,7 +963,7 @@ Creating poisons requires a Poisoner’s kit. Individuals creating and selling t
 
 #### Basic poison
 
-Price: 10 gp, can be purchased in a [flask](#flasks)
+Price: 10 gp, can be purchased in a <a href="#internal-flasks">flask</a>
 
 You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
 
@@ -985,7 +985,7 @@ This gritty black paste is a poison that interferes with an afflicted creature�
 ---
 
 
-# Flasks {#flasks}
+## <a name="internal-flasks">Flasks</a>
 
 Potions are an adventurer’s best friend, but it's not always sensible—or realistic—to carry a few dozen potions at once. When you need to carry a lot of potion in a little container, use a flask.
 
