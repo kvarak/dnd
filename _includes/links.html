@@ -1,5 +1,5 @@
 
-<div class="columnsthree">
+<!-- <div class="columnsthree">
 
 {% for link in site.data.links %}
 
@@ -8,10 +8,19 @@
     <div class="card-body">
       <h5 class="card-title"><a href="{{ link.url }}" style='vertical-align: middle;'>{{ link.name }}</a></h5>
       <p class="card-text">{{ link.info }}</p>
-      <!-- <a href="{{ link.url }}" class="btn btn-primary">{{ link.name }}</a> -->
     </div>
   </div>
 
 {% endfor %}
 
-</div>
+</div> -->
+
+
+
+|  |  |
+|:-|:-|
+{% for link in site.data.links %}
+| <a href="{{ link.url }}" style='vertical-align: middle;'>{{ link.name }}</a> | {{ link.info }}
+{% endfor %}
+
+
