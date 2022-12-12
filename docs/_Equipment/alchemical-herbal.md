@@ -124,7 +124,31 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
 
 </div>
 
-## Alchemical items
+<div class="columns">
+
+-   | Poison | Cost |
+    |:-------------|:-----|
+    | Basic poison | 10 gp
+    | Noxious aromatic | 15 gp
+    | Woundweal | 50 gp
+
+-   | Flask | (Average) Uses |  | Cost |
+    |:------|:-----:|:-----:|:-----:|
+    | d12 | 20 | 15 x [base potion cost]
+    | d10 | 14 | 10 x [base potion cost]
+    | d8 | 9 | 6 x [base potion cost]
+    | d6 | 3 | 3 x [base potion cost]
+    | d4 | 1 | 1.5 x [base potion cost]
+
+-   <a href="#internal-TheFlaskDie">The Flask Die</a><br/>
+    <a href="#internal-Whydidmyflaskdecrease?">Why did my flask decrease?</a><br/>
+    <a href="#internal-UsesCosts">Uses & Costs</a><br/>
+    <a href="#internal-SplittingFlasks">Splitting Flasks</a>
+
+</div>
+
+
+## <a name="internal-alchemicalitems">Alchemical items</a>
 
 
 <div class="columnsthree">
@@ -373,7 +397,7 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
 
 <hr class="classdivider">
 
-## Herbal Remedies
+## <a name="internal-herbalremedies">Herbal Remedies</a>
 
 <div class="columnsthree">
 
@@ -745,63 +769,37 @@ A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle 
 </div>
 
 
-# Poisons {#poisons}
+<hr class="classdivider">
 
-<table>
-  <tr>
-   <td><strong>Poison</strong>
-   </td>
-   <td><strong>Cost</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Basic poison
-   </td>
-   <td>10 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Noxious aromatic
-   </td>
-   <td>15 gp
-   </td>
-  </tr>
-  <tr>
-   <td>Woundweal
-   </td>
-   <td>50 gp
-   </td>
-  </tr>
-</table>
+## <a name="internal-poisons">Poisons</a>
+
+<div class="columnsthree">
+
+-   #### Basic poison
+
+    Price: 10 gp, can be purchased in a <a href="#internal-flasks">flask</a>
+
+    You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
 
 
+-   #### Noxious aromatic
 
-#### Basic poison
+    Price: 15 gp
 
-Price: 10 gp, can be purchased in a <a href="#internal-flasks">flask</a>
-
-You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
-
-
-#### Noxious aromatic
-
-Price: 15 gp
-
-This glass container of foul-smelling oil shatters easily upon impact. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the flask as an improvised weapon. If a creature with the scent ability is standing in the square of impact, it must succeed at a DC 14 Constitution save or be incapacitated for 1d4+1 rounds. Any creature with scent in an adjacent square must succeed at a DC 12 Constitution save or be poisoned for 1 round. Creatures without the scent ability are not affected by noxious aromas.
+    This glass container of foul-smelling oil shatters easily upon impact. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the flask as an improvised weapon. If a creature with the scent ability is standing in the square of impact, it must succeed at a DC 14 Constitution save or be incapacitated for 1d4+1 rounds. Any creature with scent in an adjacent square must succeed at a DC 12 Constitution save or be poisoned for 1 round. Creatures without the scent ability are not affected by noxious aromas.
 
 
-#### Woundweal
+-   #### Woundweal
 
-Price: 50 gp
+    Price: 50 gp
 
-This gritty black paste is a poison that interferes with an afflicted creature’s ability to recover from injuries. All Medicine checks applied to the creature suffer a –10 penalty. In addition, anyone using magical healing on the target must make a DC 25 caster level check to succeed.
+    This gritty black paste is a poison that interferes with an afflicted creature’s ability to recover from injuries. All Medicine checks applied to the creature suffer a –10 penalty. In addition, anyone using magical healing on the target must make a DC 25 caster level check to succeed.
 
+</div>
 
----
-
+<hr class="classdivider">
 
 ## <a name="internal-flasks">Flasks</a>
-
 
 #### The Flask Die
 
@@ -821,80 +819,15 @@ Clanda: Flask quantity is d4, so I roll a d4 and get...
 ```
 
 
-
 #### Why did my flask decrease?
-
-
 
 * You drank too much.
 * You spilled some as you were drinking.
 * You overestimated how much was in there to begin with.
 
-
 #### Uses & Costs
 
 Any liquid alchemical or herbal item can be filled in a flask. This is noted in the description of the item. Calculate the cost the following way:
-
-
-<table>
-  <tr>
-   <td><strong>Quantity</strong>
-   </td>
-   <td><strong>Remaining Uses</strong>
-<p>
-<strong>(Average)</strong>
-   </td>
-   <td><strong>Cost</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>d12
-   </td>
-   <td>
-    20
-   </td>
-   <td>15 x [base potion cost]
-   </td>
-  </tr>
-  <tr>
-   <td>d10
-   </td>
-   <td>
-    14
-   </td>
-   <td>10 x [base potion cost]
-   </td>
-  </tr>
-  <tr>
-   <td>d8
-   </td>
-   <td>
-    9
-   </td>
-   <td>6 x [base potion cost]
-   </td>
-  </tr>
-  <tr>
-   <td>d6
-   </td>
-   <td>
-    3
-   </td>
-   <td>3 x [base potion cost]
-   </td>
-  </tr>
-  <tr>
-   <td>d4
-   </td>
-   <td>
-    1
-   </td>
-   <td>1.5 x [base potion cost]
-   </td>
-  </tr>
-</table>
-
-
 
 #### Splitting Flasks
 
