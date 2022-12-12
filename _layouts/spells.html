@@ -30,12 +30,29 @@
         // alert("Successfully processed " + data.length + " rows!")
         for (d in data) {
           // console.log(d);
-          txt = txt + "<tr>";
-          txt = txt + "<td>" + data[d].Name + "</td>";
-          txt = txt + "<td>" + data[d].Level + "</td>";
-          txt = txt + "<td>" + data[d].School + "</td>";
-          txt = txt + "<td>" + data[d].Web_Description + "</td>";
-          txt = txt + "</tr>";
+          txt = txt + "<tr><td>";
+          txt = txt + "<h4>" + data[d].Name + "</h4>";
+          if (data[d].Level == "0") {
+            txt = txt + "<i>Cantrip";
+          } else {
+            txt = txt + "<i>Level: " + data[d].Level;
+          }
+          if (data[d].Ritual == "Yes") {
+            txt = txt + " (ritual)";
+          }
+          txt = txt + "</i><br/>";
+          txt = txt + "<b>Casting time: </b>" + data[d].Casting_Time + "<br/>";
+          txt = txt + "<b>Target: </b>" + data[d].Target + "<br/>";
+          txt = txt + "<b>Range: </b>" + data[d].Range + "<br/>";
+          txt = txt + "<b>Components: </b>" + data[d].Components + "<br/>";
+          txt = txt + "<b>Duration: </b>";
+          if (data[d].Conc == "Yes") {
+            txt = txt + "Concentration, up to " + data[d].Duration + "<br/><br/>";
+          } else {
+            txt = txt + data[d].Duration + "<br/><br/>";
+          }
+          txt = txt + "<p>" + data[d].Web_Description + "</p>";
+          txt = txt + "</td></tr>";
         }
 
         document.getElementById("sheetcontent").innerHTML = txt;
@@ -61,9 +78,6 @@
           <thead>
             <tr>
               <th>Name</th>
-              <th>Level</th>
-              <th>School</th>
-              <th>Web_Description</th>
             </tr>
           </thead>
           <tbody id="sheetcontent">
