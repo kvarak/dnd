@@ -1,21 +1,28 @@
 
 - path: 1
+  name: Foxglove Manor
   img: ../assets/campaigns/01-Rise-of-the-Runelords/Foxglove_Manor.jpg
 
 - path: 1
+  name: Stone giants
   img: ../assets/campaigns/01-Rise-of-the-Runelords/Stone_giants.jpg
 
 - path: 1
+  name: Small Red Dragon
   img: ../assets/campaigns/01-Rise-of-the-Runelords/RedDragon.Small.jpg
 
 - path: 1
+  name: harrowing tarot
   img: ../assets/campaigns/01-Rise-of-the-Runelords/harrowingtarotA1_small.png
 
 - path: 1
+  name: Duvals runa
   img: ../assets/campaigns/01-Rise-of-the-Runelords/Duvalsruna.png
 
 - path: 1
+  name: Skull Crossing
   img: ../assets/campaigns/01-Rise-of-the-Runelords/SkullCrossing3.jpg
 
 - path: 1
+  name: Turtleback ferry
   img: ../assets/campaigns/01-Rise-of-the-Runelords/turtlebackferry.jpg
