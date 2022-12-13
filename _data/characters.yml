@@ -108,7 +108,7 @@
   name: Rayhan
   img: ../assets/campaigns/04-Legacy-of-Fire/Rayhan.png
 - path: 4
-  name: Seif.Yassim
+  name: Seif Yassim
   img: ../assets/campaigns/04-Legacy-of-Fire/Seif.Yassim.jpg
 
 - path: 5
@@ -161,9 +161,6 @@
   name: Goswin
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Goswin.jpg
 - path: 6
-  name: Havoc
-  img: ../assets/campaigns/06-Into-the-Dark-Continent/Havoc.jpg
-- path: 6
   name: Impisi
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Impisi.jpg
 - path: 6
@@ -185,45 +182,21 @@
   name: Sabri02
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Sabri02.jpg
 - path: 6
-  name: Sasha
-  img: ../assets/campaigns/06-Into-the-Dark-Continent/Sasha.png
-- path: 6
-  name: Saventh-Yi
-  img: ../assets/campaigns/06-Into-the-Dark-Continent/Saventh-Yi.jpg
-- path: 6
   name: Sudi
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Sudi.jpg
 - path: 6
-  name: Talalai
-  img: ../assets/campaigns/06-Into-the-Dark-Continent/Talalai.jpg
-- path: 6
-  name: Valeria
-  img: ../assets/campaigns/06-Into-the-Dark-Continent/Valeria.JPG
-- path: 6
   name: Valerikender
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Valerikender.jpg
-- path: 6
-  name: ilmurea
-  img: ../assets/campaigns/06-Into-the-Dark-Continent/ilmurea.jpg
 
 - path: 7
   name: Azriel
   img: ../assets/campaigns/07-Haunted-Lands/Azriel.jpg
 - path: 7
-  name: Carmen
-  img: ../assets/campaigns/07-Haunted-Lands/Carmen.jpg
-- path: 7
   name: Dorian
   img: ../assets/campaigns/07-Haunted-Lands/Dorian.jpg
 - path: 7
-  name: Ettore
-  img: ../assets/campaigns/07-Haunted-Lands/Ettore.jpg
-- path: 7
   name: Hubert
   img: ../assets/campaigns/07-Haunted-Lands/Hubert.jpg
-- path: 7
-  name: Kendra
-  img: ../assets/campaigns/07-Haunted-Lands/Kendra.jpg
 - path: 7
   name: Krystof
   img: ../assets/campaigns/07-Haunted-Lands/Krystof.png
@@ -240,39 +213,36 @@
   name: Wadimitru
   img: ../assets/campaigns/07-Haunted-Lands/Wadimitru.jpg
 - path: 7
-  name: Walter
-  img: ../assets/campaigns/07-Haunted-Lands/Walter.jpg
-- path: 7
   name: Woldemar
   img: ../assets/campaigns/07-Haunted-Lands/Woldemar.jpeg
 - path: 7
   name: Zandru
   img: ../assets/campaigns/07-Haunted-Lands/Zandru.jpg
 - path: 7
-  name: quinn
-  img: ../assets/campaigns/07-Haunted-Lands/quinn.png
+  name: Quinley Basdel
+  img: ../assets/campaigns/07-Haunted-Lands/QuinleyBasdel.jpg
 
 - path: 8
   name: Augustu v2
   img: ../assets/campaigns/08-Return-to-Sandpoint/Augustu v2.jpg
 - path: 8
-  name: Catan01
+  name: Catan 1
   img: ../assets/campaigns/08-Return-to-Sandpoint/Catan01.jpg
 - path: 8
-  name: Catan02
+  name: Catan 2
   img: ../assets/campaigns/08-Return-to-Sandpoint/Catan02.jpg
 - path: 8
-  name: Catan03
+  name: Catan 3
   img: ../assets/campaigns/08-Return-to-Sandpoint/Catan03.jpg
 - path: 8
-  name: Grachius.Baradin
+  name: Grachius Baradin
   img: ../assets/campaigns/08-Return-to-Sandpoint/Grachius.Baradin.png
 - path: 8
   name: Hansi
   img: ../assets/campaigns/08-Return-to-Sandpoint/Hansi.jpg
 - path: 8
   name: Kanabō
-  img: ../assets/campaigns/08-Return-to-Sandpoint/Kanabō.jpg
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Kanabo.jpg
 - path: 8
   name: Mokren
   img: ../assets/campaigns/08-Return-to-Sandpoint/Mokren.jpg
@@ -280,7 +250,7 @@
   name: Mori
   img: ../assets/campaigns/08-Return-to-Sandpoint/Mori.jpg
 - path: 8
-  name: Shusuke01
+  name: Shusuke
   img: ../assets/campaigns/08-Return-to-Sandpoint/Shusuke01.jpg
 - path: 8
   name: Torgeir

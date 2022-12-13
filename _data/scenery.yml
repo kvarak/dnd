@@ -32,7 +32,7 @@
   img: ../assets/campaigns/02-The-Crimson-Throne/Scarwall.jpg
 
 - path: 4
-  name: RTbHrvo
+  name: Continent map
   img: ../assets/campaigns/04-Legacy-of-Fire/RTbHrvo.png
 
 - path: 5
@@ -79,32 +79,59 @@
   img: ../assets/campaigns/02-The-Crimson-Throne/mask-torvic.jpg
 
 - path: 6
-  name: Draco (Cookbook that Sabri made)
+  name: Havoc
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Havoc.jpg
+- path: 6
+  name: Sasha
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Sasha.png
+- path: 6
+  name: Saventh-Yi
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Saventh-Yi.jpg
+- path: 6
+  name: Talalai
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Talalai.jpg
+- path: 6
+  name: Valeria
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Valeria.JPG
+- path: 6
+  name: Ilmurea
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/ilmurea.jpg
+- path: 6
+  name: Dracos cookbook that Sabri made
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Draco-CookbookSabrimade.jpg
 - path: 6
-  name: Draco (Loincloth)
+  name: Dracos Loincloth
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Draco-Loincloth.jpg
 - path: 6
-  name: npc-Aerys
+  name: Aerys
   img: ../assets/campaigns/06-Into-the-Dark-Continent/npc-Aerys.png
 - path: 6
-  name: npc-Hief
+  name: Hief
   img: ../assets/campaigns/06-Into-the-Dark-Continent/npc-Hief.jpg
 - path: 6
-  name: rest-cheat-sheet
-  img: ../assets/campaigns/06-Into-the-Dark-Continent/rest-cheat-sheet.pdf
-- path: 6
-  name: tiamat
+  name: Tiamat
   img: ../assets/campaigns/06-Into-the-Dark-Continent/tiamat.png
 
 - path: 7
-  name: Quinley Basdel
-  img: ../assets/campaigns/07-Haunted-Lands/QuinleyBasdel.jpg
+  name: Carmen
+  img: ../assets/campaigns/07-Haunted-Lands/Carmen.jpg
+- path: 7
+  name: Ettore
+  img: ../assets/campaigns/07-Haunted-Lands/Ettore.jpg
+- path: 7
+  name: Kendra
+  img: ../assets/campaigns/07-Haunted-Lands/Kendra.jpg
 - path: 7
   name: Liiza
   img: ../assets/campaigns/07-Haunted-Lands/Liiza.jpg
 - path: 7
-  name: adivionadrissant
+  name: Walter
+  img: ../assets/campaigns/07-Haunted-Lands/Walter.jpg
+- path: 7
+  name: Quinn
+  img: ../assets/campaigns/07-Haunted-Lands/quinn.png
+- path: 7
+  name: Adivion Adrissant
   img: ../assets/campaigns/07-Haunted-Lands/adivionadrissant.png
 - path: 7
   name: Zandru-shifted
@@ -119,20 +146,20 @@
   name: Petros Testamente
   img: ../assets/campaigns/07-Haunted-Lands/PetrosTestamente.jpg
 - path: 7
-  name: sub
+  name: Submarine
   img: ../assets/campaigns/07-Haunted-Lands/sub.png
 
 - path: 8
   name: Augustus rustning
   img: ../assets/campaigns/08-Return-to-Sandpoint/Augustus rustning.png
 - path: 8
-  name: brinestump-marsh
+  name: brinestump marsh
   img: ../assets/campaigns/08-Return-to-Sandpoint/brinestump-marsh.png
 - path: 8
-  name: funeral-ship
+  name: funeral ship
   img: ../assets/campaigns/08-Return-to-Sandpoint/funeral-ship.png
 - path: 8
-  name: kaijutsu-letter
+  name: kaijutsu letter
   img: ../assets/campaigns/08-Return-to-Sandpoint/kaijutsu-letter.png
 - path: 8
   name: minkai
@@ -141,20 +168,20 @@
   name: o-sayumis-inro
   img: ../assets/campaigns/08-Return-to-Sandpoint/o-sayumis-inro.png
 - path: 8
-  name: sandpoint-hinterlands
+  name: Sandpoint Hinterlands
   img: ../assets/campaigns/08-Return-to-Sandpoint/sandpoint-hinterlands.png
 - path: 8
-  name: sandpoint
+  name: Sandpoint
   img: ../assets/campaigns/08-Return-to-Sandpoint/sandpoint.png
 - path: 8
-  name: thinginthecabin
+  name: Thing in the cabin
   img: ../assets/campaigns/08-Return-to-Sandpoint/thinginthecabin.png
 
 - path: 9
-  name: Golarion_inner_sea
+  name: Golarion inner sea
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/Golarion_inner_sea.png
 - path: 9
-  name: wormwood
+  name: Wormwood
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/wormwood.png
 - path: 9
   name: Mote of light
