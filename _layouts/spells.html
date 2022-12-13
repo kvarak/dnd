@@ -31,7 +31,7 @@
         for (d in data) {
           // console.log(d);
           txt = txt + "<tr><td>";
-          txt = txt + "<h4>" + data[d].Name + "</h4>";
+          txt = txt + "<h4><a class=\"internal-link\" name=\"" + data[d].Name.replace(/\s/g, '') + "\">" + data[d].Name + "</h4>";
           if (data[d].Level == "0") {
             txt = txt + "<i>Cantrip";
           } else {
