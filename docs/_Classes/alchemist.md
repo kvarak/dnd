@@ -345,10 +345,8 @@ Cadaver
 <tr><td><hr></td></tr>
 <tr><td markdown="1">
 
-**Armor Class**   10
-
-**Hit Points**    22 (3d8 + 9)
-
+**Armor Class**   10<br/>
+**Hit Points**    22 (3d8 + 9)<br/>
 **Speed** 			  25 ft.
 
 </td></tr>
@@ -363,12 +361,9 @@ Cadaver
 <tr><td><hr></td></tr>
 <tr><td markdown="1">
 
-**Damage Immunities.** poison
-
-**Condition Immunities.** poisoned
-
-**Senses.** darkvision 60 ft.
-
+**Damage Immunities.** poison<br/>
+**Condition Immunities.** poisoned<br/>
+**Senses.** darkvision 60 ft.<br/>
 **Languages.** understands all languages creator knows, but can't speak
 
 </td></tr>
@@ -670,221 +665,210 @@ You can use your ***action*** to consume the reserve of transmutation magic stor
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="internal-discovery">Discoveries</a></h1>
+<h2><a class="internal-link" name="internal-discovery">Discoveries</a></h2>
 
 If a discovery has prerequisites, you must meet them to learn it. You can learn the discovery at the same time that you reach its prerequisites. You can only learn a discovery once, unless otherwise specified.
 
-<img src='https://i.pinimg.com/originals/78/1a/dc/781adc9d6f97e084c7f075950f8a0775.jpg' style='float:right;width:40%;padding:20px' />
+<div class="columnstwo">
 
+-   ### Acid Bomb
+    You can make bombs which spray a corrosive acid. As a ***bonus action*** when you throw a bomb, you can replace the bomb's explosive reagent with an acidic one, changing it to an acid bomb. An acid bomb deals acid damage instead of fire damage. Additionally, the target, as well as all creatures within the blast radius that fail their saving throws, take an additional 1d8 acid damage at the start of your next turn.
 
-### Acid Bomb
-You can make bombs which spray a corrosive acid. As a ***bonus action*** when you throw a bomb, you can replace the bomb's explosive reagent with an acidic one, changing it to an acid bomb. An acid bomb deals acid damage instead of fire damage. Additionally, the target, as well as all creatures within the blast radius that fail their saving throws, take an additional 1d8 acid damage at the start of your next turn.
+-   ### Alchemy of Life
+    *Prerequisite: Brew Potions feature*
 
-### Alchemy of Life
-*Prerequisite: Brew Potions feature*
+    You can additionally brew the following potions with your Brew potions feature:
 
-You can additionally brew the following potions with your Brew potions feature:
+    **Energizer**. A creature that drinks this elixir can reduce their level of exhaustion by 1 for the duration. The condition still exists, but it is mitigated by this potion. After the potion wears off, the exhaustion effects return to normal unless removed through other means. (*1 alchemy point*)
 
-**Energizer**. A creature that drinks this elixir can reduce their level of exhaustion by 1 for the duration. The condition still exists, but it is mitigated by this potion. After the potion wears off, the exhaustion effects return to normal unless removed through other means. (*1 alchemy point*)
+    **Health Tonic**. A creature that drinks this elixir ends one effect reducing its hit point maximum. (*2 alchemy points*)
 
-**Health Tonic**. A creature that drinks this elixir ends one effect reducing its hit point maximum. (*2 alchemy points*)
+    **Rejuvenating Tonic**. A creature that drinks this elixir ends regains 2 points from a reduced ability score. (*2 alchemy points*)
 
-**Rejuvenating Tonic**. A creature that drinks this elixir ends regains 2 points from a reduced ability score. (*2 alchemy points*)
+    **Cure**. End either one disease or one condition afflicting the target creature. The condition can be blinded, deafened, paralyzed, poisoned, or unconscious. If the target was at 0 hit points when you removed the unconscious condition, it is restored to 1 hit point. (*3 alchemy points*)
 
-**Cure**. End either one disease or one condition afflicting the target creature. The condition can be blinded, deafened, paralyzed, poisoned, or unconscious. If the target was at 0 hit points when you removed the unconscious condition, it is restored to 1 hit point. (*3 alchemy points*)
+-   ### Alchemy of Change
+    *Prerequisite: Brew Potions feature*
 
-### Alchemy of Change
-*Prerequisite: Brew Potions feature*
+    You can additionally brew the following potions with your Brew potions feature:
 
-You can additionally brew the following potions with your Brew potions feature:
+    **Feather fall**. Target’s weight halves and it has resistance to falling damage. (*1 alchemy point*)
 
-**Feather fall**. Target’s weight halves and it has resistance to falling damage. (*1 alchemy point*)
+    **Natural Armor**. Until the effect ends, the target's skin becomes thick and callused in appearance, and the target's AC can't be less than 14, regardless of what kind of armor it is wearing. (*1 alchemy point*)
 
-**Natural Armor**. Until the effect ends, the target's skin becomes thick and callused in appearance, and the target's AC can't be less than 14, regardless of what kind of armor it is wearing. (*1 alchemy point*)
 
+    **Aquatic Adaptation**. The target’s body adapts to an aquatic environment, sprouting gills and growing webbing between your fingers. The target can breathe underwater and gain a swimming speed equal to its walking speed. Affected creatures also retain their normal mode of respiration. (*2 alchemy points*)
 
-**Aquatic Adaptation**. The target’s body adapts to an aquatic environment, sprouting gills and growing webbing between your fingers. The target can breathe underwater and gain a swimming speed equal to its walking speed. Affected creatures also retain their normal mode of respiration. (*2 alchemy points*)
+    **Enlarge**. The target creature grows larger for the duration, as the enlarge spell. (*2 alchemy points*)
 
-**Enlarge**. The target creature grows larger for the duration, as the enlarge spell. (*2 alchemy points*)
+    **Reduce**. The target creature grows smaller for the duration, as the spell. (*2 alchemy points*)
 
-**Reduce**. The target creature grows smaller for the duration, as the spell. (*2 alchemy points*)
+    **Stoneskin**. The target’s flesh becomes as hard as stone. Until the effect ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage. (*3 alchemy points*)
 
-**Stoneskin**. The target’s flesh becomes as hard as stone. Until the effect ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage. (*3 alchemy points*)
+-   ### Alchemy of the Mind
+    *Prerequisite: Brew Potions feature*
 
-### Alchemy of the Mind
-*Prerequisite: Brew Potions feature*
+    You can additionally brew the following potions with your Brew potions feature:
 
-You can additionally brew the following potions with your Brew potions feature:
+    **Comprehend Languages**. Target can understand the literal meaning of any spoken language that it hears. (*1 alchemy point*)
 
-**Comprehend Languages**. Target can understand the literal meaning of any spoken language that it hears. (*1 alchemy point*)
+    **Keen Mind**. Target can accurately recall anything it has seen or heard within the past month, always knows which way is north, and always knows the number of hours left before the next sunrise or sunset. (*1 alchemy point*)
 
-**Keen Mind**. Target can accurately recall anything it has seen or heard within the past month, always knows which way is north, and always knows the number of hours left before the next sunrise or sunset. (*1 alchemy point*)
+    **Pheromones**. This perfumes grants a bonus to Charisma ability checks and saves equal to your Intelligence modifier for 1 hour. (*1 alchemy point*)
 
-**Pheromones**. This perfumes grants a bonus to Charisma ability checks and saves equal to your Intelligence modifier for 1 hour. (*1 alchemy point*)
+    **Liquid Courage**. A creature that takes this elixir gains advantage on saving throws against fear effects. If you have the frightened condition when you drink this potion, you may immediately make a new saving throw. (*1 alchemy point*)
 
-**Liquid Courage**. A creature that takes this elixir gains advantage on saving throws against fear effects. If you have the frightened condition when you drink this potion, you may immediately make a new saving throw. (*1 alchemy point*)
+    **Communicate with Animals**. Target gains the ability to comprehend and non-verbally communicate with beasts for the duration. (*2 alchemy points*)
 
-**Communicate with Animals**. Target gains the ability to comprehend and non-verbally communicate with beasts for the duration. (*2 alchemy points*)
+-   ### Alchemy of the Senses
+    *Prerequisite: Brew Potions feature*
 
-### Alchemy of the Senses
-*Prerequisite: Brew Potions feature*
+    You can additionally brew the following potions with your Brew potions feature:
 
-You can additionally brew the following potions with your Brew potions feature:
+    **Heightened Senses**. Target gains advantage on all Perception and Investigation checks. (*1 alchemy point*)
 
-**Heightened Senses**. Target gains advantage on all Perception and Investigation checks. (*1 alchemy point*)
+    **Darkvision**. The target gains the ability to see in the dark to a range of 30 ft. (*2 alchemy points*)
 
-**Darkvision**. The target gains the ability to see in the dark to a range of 30 ft. (*2 alchemy points*)
+    **Blindsight**. Target gains blindsight for the duration. The target can perceive its surroundings without relying on sight, within a 30 ft radius. (*3 alchemy points*)
 
-**Blindsight**. Target gains blindsight for the duration. The target can perceive its surroundings without relying on sight, within a 30 ft radius. (*3 alchemy points*)
+-   ### Arcane Study
+    You learn two cantrips of your choice from the wizard’s spell list. Your spellcasting ability for these cantrips is Intelligence.
 
-### Arcane Study
-You learn two cantrips of your choice from the wizard’s spell list. Your spellcasting ability for these cantrips is Intelligence.
+-   ### Aqua Fortis
+    Using your alchemist's supplies and 20 gp worth of materials, you can spend 1 hour creating a vial of aqua fortis, a very strong acid that rapidly dissolves organic material and most metals. This vial can be splashed or thrown at a creature like common acid. On a hit, a creature takes 3d6 acid damage, followed by an additional 2d6 acid damage at the start of your next turn and another 1d6 acid damage at the start of the turn after that.
 
-### Aqua Fortis
-Using your alchemist's supplies and 20 gp worth of materials, you can spend 1 hour creating a vial of aqua fortis, a very strong acid that rapidly dissolves organic material and most metals. This vial can be splashed or thrown at a creature like common acid. On a hit, a creature takes 3d6 acid damage, followed by an additional 2d6 acid damage at the start of your next turn and another 1d6 acid damage at the start of the turn after that.
+    If a vial of aqua fortis is splashed on a nonmagical object that isn't being worn or carried, it will will dissolve a 1-foot cube of it. If splashed on a suit of armor armor or a shield, the object takes a permanent and cumulative -1 penalty to the AC it offers. If splashed on a weapon, it takes a permanent and cumulative -1 penalty to damage rolls. It has no effect on gold, glass, stone, and adamantine objects or magical items.
 
-If a vial of aqua fortis is splashed on a nonmagical object that isn't being worn or carried, it will will dissolve a 1-foot cube of it. If splashed on a suit of armor armor or a shield, the object takes a permanent and cumulative -1 penalty to the AC it offers. If splashed on a weapon, it takes a permanent and cumulative -1 penalty to damage rolls. It has no effect on gold, glass, stone, and adamantine objects or magical items.
+-   ### Argentum sanguine
+    ***“Silver blood”***
 
-### Argentum sanguine
-***“Silver blood”***
+    You have imbued your very essence with alchemical silver and cannot be infected with lycanthropy or vampirism. Any such creature that bites you takes damage equal to your Constitution modifier (min 1). Damage from your weapon or spell attacks is not reduced by the natural damage resistance of a lycanthrope or vampire.
 
-You have imbued your very essence with alchemical silver and cannot be infected with lycanthropy or vampirism. Any such creature that bites you takes damage equal to your Constitution modifier (min 1). Damage from your weapon or spell attacks is not reduced by the natural damage resistance of a lycanthrope or vampire.
+    In addition, this interferes with magic that attempt to control your mind. You have advantage on saves against all such attempts.
 
-In addition, this interferes with magic that attempt to control your mind. You have advantage on saves against all such attempts.
+-   ### Blast Coat
+    You have developed a coating for your coat, specially treated to protect you from your own explosions. You automatically succeed any saving throws against your own bombs. If can only be applied to cloth, and if you need to apply the coating on a new item, this takes a full day. Even if the coating could be worn by anyone, it is a bit toxic and would probably kill people not used to being close these kind of chemicals.
 
-### Blast Coat
-You have developed a coating for your coat, specially treated to protect you from your own explosions. You automatically succeed any saving throws against your own bombs. If can only be applied to cloth, and if you need to apply the coating on a new item, this takes a full day. Even if the coating could be worn by anyone, it is a bit toxic and would probably kill people not used to being close these kind of chemicals.
+-   ### Bomb trap
+    You can set up a bomb to explode when someone moves past or over it. This is done with a tripwire, a buried mine or any other trap construction appropriate for the location.
 
-### Bomb trap
-You can set up a bomb to explode when someone moves past or over it. This is done with a tripwire, a buried mine or any other trap construction appropriate for the location.
+    You set it up in 1 minute, and you can have a number of traps up to your intelligence modifier at one time. When a creature of Small size or larger moves at the spot where your trap is set, it must make a Dexterity saving throw. On a failed save the creature takes full damage from the bomb, or half as much on a successful save. A creature can detect the presence of a trapped bomb with a Perception check opposed by your Intelligence (Sleight of hand) check.
 
-You set it up in 1 minute, and you can have a number of traps up to your intelligence modifier at one time. When a creature of Small size or larger moves at the spot where your trap is set, it must make a Dexterity saving throw. On a failed save the creature takes full damage from the bomb, or half as much on a successful save. A creature can detect the presence of a trapped bomb with a Perception check opposed by your Intelligence (Sleight of hand) check.
+-   ### Clotting Agent
+    You have developed a serum that protects you from harm. Your maximum hp increases by half your Alchemist level (rounded up.)
 
-### Clotting Agent
-You have developed a serum that protects you from harm. Your maximum hp increases by half your Alchemist level (rounded up.)
+-   ### Compounding Formulary
+    *Prerequisite: Brew Potions feature*
 
-### Compounding Formulary
-*Prerequisite: Brew Potions feature*
+    You can create potions in powdered rather than liquid form if desired. The potions can be used for two days before becoming inert. However, it takes 2 rounds to prepare them for use, and so prepared, they must be used within a minute.
 
-You can create potions in powdered rather than liquid form if desired. The potions can be used for two days before becoming inert. However, it takes 2 rounds to prepare them for use, and so prepared, they must be used within a minute.
+-   <img src='https://i.pinimg.com/originals/78/1a/dc/781adc9d6f97e084c7f075950f8a0775.jpg' style='width:75%;padding:20px' />
 
-### Craft Homunculus
-Using a special alchemical process requiring 8 hours of work, you can create a homunculus (Monster Manual pg. 188.) A homunculus functions as a familiar summoned by the find familiar spell, with the following differences:
+-   ### Craft Homunculus
+    Using a special alchemical process requiring 8 hours of work, you can create a homunculus (Monster Manual pg. 188.) A homunculus functions as a familiar summoned by the find familiar spell, with the following differences:<br/>
+    -- Your homunculus is a construct and cannot assume a different form.<br/>
+    -- You cannot dismiss your homunculus as you would a familiar.<br/>
+    -- When your homunculus dies, its body remains, and can be reanimated as a ritual requiring 1 hour of work.<br/>
+    -- Your homunculus is able to take the Attack action on its turn.
 
-- Your homunculus is a construct and cannot assume a different form.
-- You cannot dismiss your homunculus as you would a familiar.
-- When your homunculus dies, its body remains, and can be reanimated as a ritual requiring 1 hour of work.
-- Your homunculus is able to take the Attack action on its turn.
+-   ### Detonation Theorem
+    When you throw a bomb, you can add your Intelligence modifier to the attack roll, instead of Strength or Dexterity.
 
-### Detonation Theorem
-When you throw a bomb, you can add your Intelligence modifier to the attack roll, instead of Strength or Dexterity.
+-   ### Extend Potion
+    Whenever you drink a potion with a duration, the duration is doubled.
 
-### Extend Potion
-Whenever you drink a potion with a duration, the duration is doubled.
+-   ### Flashbang
+    You can include bright flashing powder in your bombs. This allows you to make you bombs blind targets who fail a Constitution save. Targets gain a new save at the end of each of their rounds to end the condition. Creatures with darkvision have disadvantage on saves against this type of bomb.
 
-### Flashbang
-You can include bright flashing powder in your bombs. This allows you to make you bombs blind targets who fail a Constitution save. Targets gain a new save at the end of each of their rounds to end the condition. Creatures with darkvision have disadvantage on saves against this type of bomb.
+-   ### Glassfoot Bomb
+    When you create a bomb, he can choose to have it cover the ground in volatile jagged crystals in addition to its normal effects. These crystals act like caltrops, evaporating into a smelly but harmless gas in 2d6 rounds.
 
-### Glassfoot Bomb
-When you create a bomb, he can choose to have it cover the ground in volatile jagged crystals in addition to its normal effects. These crystals act like caltrops, evaporating into a smelly but harmless gas in 2d6 rounds.
+-   ### Hallucinogenic Toxin
+    You can add hallucinogenic properties to your poisons. If a target fails a Wisdom save against your poison, it becomes frightened by a random source (DM decides based on the target). The target attacks the closest target to it each turn if able. If it cannot attack, it does nothing.
 
+    The target is affected in this way for a number of rounds equal to your Intelligence modifier (minimum 1), but receives a new save at the end of its turns to end the effect.
 
+    On a succesful save, the target is *confused* for 1 round, and is immune to any further effects from this toxins.
 
+-   ### Holy Bomb
+    You can infuse a bomb with holy water. As a ***bonus action*** when you throw a bomb, you can add a few drops of holy water to the bomb. If its target is a fiend or undead, it takes an additional 4d6 radiant damage.
 
+-   ### Laughing Gas Bomb
+    You can make non lethal bombs which afflict your foes with fits of laughter. As a ***bonus action*** when you throw a bomb, you can replace the bomb's contents with a drop of Jesterate, a highly euphoric chemical, changing it into a laughing gas bomb.
 
+    A laughing gas bomb deals no damage, but the target and each creature in the blast radius must make a Constitution saving throw or begin laughing uncontrollably, and have disadvantage on all attack rolls and ability checks until the end of your next turn. On a successful save, a creature is immune to the effects of laughing gas bombs for 24 hours.
 
-### Hallucinogenic Toxin
-You can add hallucinogenic properties to your poisons. If a target fails a Wisdom save against your poison, it becomes frightened by a random source (DM decides based on the target). The target attacks the closest target to it each turn if able. If it cannot attack, it does nothing.
+-   ### Reflexive Toss
+    You can throw a bomb as an Opportunity Attack, even if you have already thrown a bomb on your turn.
 
-The target is affected in this way for a number of rounds equal to your Intelligence modifier (minimum 1), but receives a new save at the end of its turns to end the effect.
+-   ### Smoke Bomb
+    You can make non-lethal bombs that generate smoke. As a ***bonus action*** when you throw a bomb, you can replace the bomb's reagent with a less explosive one, changing it to a smoke bomb. A smoke bomb deals no damage, but creates a 20-foot-radius sphere of fog. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
 
-On a succesful save, the target is *confused* for 1 round, and is immune to any further effects from this toxins.
+-   ### Sonic Bomb
+    You can make bombs that generate a deafening boom. As a ***bonus action*** when you throw a bomb, you can replace the bomb's explosive reagent with a different one, changing it to a sonic bomb. A sonic bomb deals thunder damage instead of fire damage. Additionally, the target, as well as all creatures within the blast radius that fail their saving throws, are deafened. They get a new save at the end of each of their turns to end the condition.
 
-### Holy Bomb
-You can infuse a bomb with holy water. As a ***bonus action*** when you throw a bomb, you can add a few drops of holy water to the bomb. If its target is a fiend or undead, it takes an additional 4d6 radiant damage.
 
-### Laughing Gas Bomb
-You can make non lethal bombs which afflict your foes with fits of laughter. As a ***bonus action*** when you throw a bomb, you can replace the bomb's contents with a drop of Jesterate, a highly euphoric chemical, changing it into a laughing gas bomb.
+-   ### Spell Knowledge
+    *Prerequisite: Transmuter Field of Study*
 
-A laughing gas bomb deals no damage, but the target and each creature in the blast radius must make a Constitution saving throw or begin laughing uncontrollably, and have disadvantage on all attack rolls and ability checks until the end of your next turn. On a successful save, a creature is immune to the effects of laughing gas bombs for 24 hours.
+    Your studies into how all things are interconnected have taught you to cast additional spells of other schools. You may add any two wizard spells to your spellbook. You may select this discovery more than once.
 
-### Reflexive Toss
-You can throw a bomb as an Opportunity Attack, even if you have already thrown a bomb on your turn.
+-   ### Stink Bomb
+    You can create bombs that produce putrid, noxious gas. As a ***bonus action*** when you throw a bomb, you can replace the bomb's explosive reagent with an ounce of a toxic compound, changing it into a stink bomb. A stink bomb deals poison damage instead of fire damage. Additionally, the target and all creatures within the blast radius must succeed a Constitution saving throw, or be poisoned until the beginning of your next turn.
 
-### Smoke Bomb
-You can make non-lethal bombs that generate smoke. As a ***bonus action*** when you throw a bomb, you can replace the bomb's reagent with a less explosive one, changing it to a smoke bomb. A smoke bomb deals no damage, but creates a 20-foot-radius sphere of fog. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
+-   ### Syringe
+    Using a sophisticated hypodermic needle, you can administer a potion to a willing creature within your reach as a ***bonus action***. If the creature is unwilling, you can administer a potion to it with a successful melee attack. A syringe deals 1 piercing damage and is broken if you roll a natural 1 with it. You can make a new one after a long rest.
 
-### Sonic Bomb
-You can make bombs that generate a deafening boom. As a ***bonus action*** when you throw a bomb, you can replace the bomb's explosive reagent with a different one, changing it to a sonic bomb. A sonic bomb deals thunder damage instead of fire damage. Additionally, the target, as well as all creatures within the blast radius that fail their saving throws, are deafened. They get a new save at the end of each of their turns to end the condition.
+-   ### Tanglefoot Bomb
+    You can make non-lethal bombs which explode with a glue-like resin. As a ***bonus action*** when you throw a bomb, you can replace a bomb’s contents with a hardened block of resin which liquefies in the explosion, changing it into a tanglefoot bomb. A tanglefoot bomb deals no damage and has no blast radius, but its target must make a Dexterity saving throw or be glued to the floor, reducing its speed to zero. At the end of each of its turns, the creature can break the resin with a successful DC 12 Strength check.
 
+-   ### Torchbearer
+    When you light a torch and have your alchemist’s supplies available, you can choose any number of the following features.<br/>
+    -- The flame is almost impossible to quench. It continues to burn even if smothered or put under water.<br/>
+    -- The radius of both bright and dim illumination increases by 10 feet.<br/>
+    -- Once per torch, you can create a brilliant flash of light that blinds everyone within 10 feet for 1 round. Creatures with darkvision are blinded for 1d4 additional rounds.<br/>
+    -- When you attack with the torch, it deals 1d6 additional fire damage instead of 1.
 
-### Spell Knowledge
-*Prerequisite: Transmuter Field of Study*
+-   ### Withering Bomb
+    You can make bombs which waste away living things. As a ***bonus action*** when you throw a bomb, you can add a desiccating chemical to the bomb’s reagent, changing it to a withering bomb. A withering bomb deals necrotic damage instead of fire damage. Additionally, the target, as well as all creatures within the blast radius that fail their saving throws, can’t regain hit points until the start of your next turn.
 
-Your studies into how all things are interconnected have taught you to cast additional spells of other schools. You may add any two wizard spells to your spellbook. You may select this discovery more than once.
+-   ### Bottled Ooze
+    *Prerequisite: 6th level*
 
-### Stink Bomb
-You can create bombs that produce putrid, noxious gas. As a ***bonus action*** when you throw a bomb, you can replace the bomb's explosive reagent with an ounce of a toxic compound, changing it into a stink bomb. A stink bomb deals poison damage instead of fire damage. Additionally, the target and all creatures within the blast radius must succeed a Constitution saving throw, or be poisoned until the beginning of your next turn.
+    You have learned how to preserve a sample of ooze in a sealed bottle, which you can prepare for use as a concoction. When you activate the concoction, you throw the bottle as a bomb, releasing the ooze, which reconstitutes and attacks the closest creature. The ooze is not under your control. It remains for 1 round per alchemist level, and decays into goo when the duration expires. You can use this goo to create a new bottled ooze. When you choose this discovery, you also obtain a sample of a gray ooze.
 
-### Syringe
-Using a sophisticated hypodermic needle, you can administer a potion to a willing creature within your reach as a ***bonus action***. If the creature is unwilling, you can administer a potion to it with a successful melee attack. A syringe deals 1 piercing damage and is broken if you roll a natural 1 with it. You can make a new one after a long rest.
+-   ### Draught of Necromancy
+    *Prerequisite: 8th level*
 
-### Tanglefoot Bomb
-You can make non-lethal bombs which explode with a glue-like resin. As a ***bonus action*** when you throw a bomb, you can replace a bomb’s contents with a hardened block of resin which liquefies in the explosion, changing it into a tanglefoot bomb. A tanglefoot bomb deals no damage and has no blast radius, but its target must make a Dexterity saving throw or be glued to the floor, reducing its speed to zero. At the end of each of its turns, the creature can break the resin with a successful DC 12 Strength check.
+    With your Brew potions feature, you can prepare a single dose of an alchemical potion that reanimates corpses. This costs *3 alchemy points*. You can pour this potion on a corpse or a pile of bones as an action, causing it to reanimated as if it was the target of an animate dead spell.
 
-### Torchbearer
-When you light a torch and have your alchemist’s supplies available, you can choose any number of the following features.
+-   ### Grenadier
+    *Prerequisite: 8th level, Mad Bomber field of study*
 
-- The flame is almost impossible to quench. It continues to burn even if smothered or put under water.
-- The radius of both bright and dim illumination increases by 10 feet.
-- Once per torch, you can create a brilliant flash of light that blinds everyone within 10 feet for 1 round. Creatures with darkvision are blinded for 1d4 additional rounds.
-- When you attack with the torch, it deals 1d6 additional fire damage instead of 1.
+    When you take the Attack action and attack with a light weapon that you’re holding in one hand, you can use a bonus action to throw a bomb.
 
 
+-   ### Lazarus Bolt
+    *Prerequisite: 8th level, Apothecary field of study*
 
+    Instead of a concoction, you can create a Lazarus bolt. As an action, you can drive a bolt into the torso of a creature that has died within the last minute and shock it back to life with electricity. That creature returns to life with 1 hit point. This feature can’t return to life a creature that has died of old age, nor can it restore any missing body parts.
 
+-   ### Paralytic Poison
+    *Prerequisite: 8th level, Poisoner field of study*
 
+    You discover a powerful paralytic agent. When preparing your concoctions, you can spend two uses to create a poison that numbs the body. The poison deals no damage, but on a failed save, the target lose feelings in their arms or legs (your choice). If the arms are numbed, the target has disadvantage on all attack rolls and Strength checks, and if they are wielding a shield, they lose the shield bonus to AC. If a leg is numbed, their speed is halved, they have disadvantage on all Dexterity checks, and all attacks against them is at advantage. The poison lasts for a number of rounds equal to your Intelligence modifier (minimum 1).
 
-### Withering Bomb
-You can make bombs which waste away living things. As a ***bonus action*** when you throw a bomb, you can add a desiccating chemical to the bomb’s reagent, changing it to a withering bomb. A withering bomb deals necrotic damage instead of fire damage. Additionally, the target, as well as all creatures within the blast radius that fail their saving throws, can’t regain hit points until the start of your next turn.
+-   ### Clone Master
+    *Prerequisite: 15th level, Apothecary field of study*
 
-### Bottled Ooze
-*Prerequisite: 6th level*
+    You learn to create a clone, just like the spell. After using this ability you need to complete a long rest before using it again.
 
-You have learned how to preserve a sample of ooze in a sealed bottle, which you can prepare for use as a concoction. When you activate the concoction, you throw the bottle as a bomb, releasing the ooze, which reconstitutes and attacks the closest creature. The ooze is not under your control. It remains for 1 round per alchemist level, and decays into goo when the duration expires. You can use this goo to create a new bottled ooze. When you choose this discovery, you also obtain a sample of a gray ooze.
+-   ### Shaped Charge
+    *Prerequisite: 15th level, Mad Bomber field of study*
 
-### Draught of Necromancy
-*Prerequisite: 8th level*
+    You can set your bombs to explode in different patterns. As part of your attack when you throw a bomb, you can change that bomb's blast radius to a 15 foot cone or a 20 foot line, originating from the target's space in a direction of your choice.
 
-With your Brew potions feature, you can prepare a single dose of an alchemical potion that reanimates corpses. This costs *3 alchemy points*. You can pour this potion on a corpse or a pile of bones as an action, causing it to reanimated as if it was the target of an animate dead spell.
-
-### Grenadier
-*Prerequisite: 8th level, Mad Bomber field of study*
-
-When you take the Attack action and attack with a light weapon that you’re holding in one hand, you can use a bonus action to throw a bomb.
-
-
-### Lazarus Bolt
-*Prerequisite: 8th level, Apothecary field of study*
-
-Instead of a concoction, you can create a Lazarus bolt. As an action, you can drive a bolt into the torso of a creature that has died within the last minute and shock it back to life with electricity. That creature returns to life with 1 hit point. This feature can’t return to life a creature that has died of old age, nor can it restore any missing body parts.
-
-### Paralytic Poison
-*Prerequisite: 8th level, Poisoner field of study*
-
-You discover a powerful paralytic agent. When preparing your concoctions, you can spend two uses to create a poison that numbs the body. The poison deals no damage, but on a failed save, the target lose feelings in their arms or legs (your choice). If the arms are numbed, the target has disadvantage on all attack rolls and Strength checks, and if they are wielding a shield, they lose the shield bonus to AC. If a leg is numbed, their speed is halved, they have disadvantage on all Dexterity checks, and all attacks against them is at advantage. The poison lasts for a number of rounds equal to your Intelligence modifier (minimum 1).
-
-### Clone Master
-*Prerequisite: 15th level, Apothecary field of study*
-
-You learn to create a clone, just like the spell. After using this ability you need to complete a long rest before using it again.
-
-### Shaped Charge
-*Prerequisite: 15th level, Mad Bomber field of study*
-
-You can set your bombs to explode in different patterns. As part of your attack when you throw a bomb, you can change that bomb's blast radius to a 15 foot cone or a 20 foot line, originating from the target's space in a direction of your choice.
-
-
+</div>
 
 
 
