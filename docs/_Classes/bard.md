@@ -9,8 +9,8 @@ layout: default
 <a href="#internal-loreseeker">Loreseeker</a>
 
 ##### <a href="#internal-bardicSongs">Bardic Songs</a>
+##### <a href="#internal-BardColleges">Bard Colleges</a>
 
-##### Bard Colleges
 <a href="#internal-beguiler">Beguiler</a><br/>
 <a href="#internal-awakenedArt">College of Awakened Art</a><br/>
 <a href="#internal-crossroads">College of Crossroads</a><br/>
@@ -67,6 +67,8 @@ Jumping a small pit? Land with the flourish of a world class gymnast! Slaying a 
 
 #### Not liking instruments?
 As a bard you do not have to carry around an instrument as the stereotypical bard. There are many art forms that a bard may choose to follow instead. In the table below are some examples. Work with your DM to adjust your spellcasting focus feature and other college or class features that seem to be dependent on an instrument.
+
+<img src='https://zjcasas.github.io/dungeons_and_dragons_tools/images/bard.png' style='float:right;height:50%;padding:20px' />
 
 ##### Unusual bard art forms
 
@@ -289,7 +291,7 @@ Starting at 2nd level, you can add half your proficiency bonus, rounded down, to
 ### Expertise
 At 4th, 8th and 12th level, you gain 3 additional skill points.
 
-<!-- 
+<!--
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 -->
@@ -312,176 +314,168 @@ At 20th level, when you roll initiative, you regain all uses of Bardic Inspirati
 <h2><a class="internal-link" name="internal-bardicSongs">Bardic songs</a></h2>
 
 
-<img src='https://zjcasas.github.io/dungeons_and_dragons_tools/images/bard.png' style='float:right;height:50%;padding:20px' />
-
 When you reach 2nd level, and again at 6th, 9th, 13th, and 17th level, you learn a bardic song.
 
 You may start a song as an ***action***. After starting a song you can continue it as an ***action*** indefinitely, as long as you keep concentration. If you loose concentration while playing a bardic song, you cannot gain the benefits of the same song again until after a long rest.
 
 Playing a bardic song requires an instrument, both hands and your mouth, and any target must be able to hear your song to be affected. You can switch songs at the beginning of your turn.
 
-### Afendream
-You grant a peaceful respite with this soothing cant. While playing, allies within 30 feet of you gain temporary hit points equal to your Charisma modifier at the start of each of your turns.
+<div class="columnstwo">
 
-Starting at 6th level, when a creature affected by your song takes enough damage to lose all their temporary hit points, it can use a ***reaction*** to spend one hit dice to regain hit points.
+-	### Afendream
+    You grant a peaceful respite with this soothing cant. While playing, allies within 30 feet of you gain temporary hit points equal to your Charisma modifier at the start of each of your turns.
 
-### Betwixt the Dragon and its Prey
-With this dynamic cant, you grant protection from the elements or threaten with the same. Each creature of your choice within 30 ft reduces any acid, cold, fire, lightning, poison or thunder damage taken by 1d4, and increases any acid, cold, fire, lightning, poison or thunder damage dealt by 1d4. You can switch the type of element at the beginning of your turn.
+    Starting at 6th level, when a creature affected by your song takes enough damage to lose all their temporary hit points, it can use a ***reaction*** to spend one hit dice to regain hit points.
 
-The damage bonus and reduction increase by 1d4 at 9th (2d4) and 17th (3d4) level in this class.
+-	### Betwixt the Dragon and its Prey
+    With this dynamic cant, you grant protection from the elements or threaten with the same. Each creature of your choice within 30 ft reduces any acid, cold, fire, lightning, poison or thunder damage taken by 1d4, and increases any acid, cold, fire, lightning, poison or thunder damage dealt by 1d4. You can switch the type of element at the beginning of your turn.
 
-### Call to Battle
-While you perform Call to Battle, friendly creatures are inspired to fight with greater zeal while within 30 feet of you. Once per turn, an affected creature can roll an extra d4 when rolling damage for a bludgeoning, piercing, or slashing attack.
+    The damage bonus and reduction increase by 1d4 at 9th (2d4) and 17th (3d4) level in this class.
 
-The extra damage die increase when you reach certain levels in this class: to 1d6 at 6th level, 1d8 at 13th level, and 1d10 at 17th level.
+-	### Call to Battle
+    While you perform Call to Battle, friendly creatures are inspired to fight with greater zeal while within 30 feet of you. Once per turn, an affected creature can roll an extra d4 when rolling damage for a bludgeoning, piercing, or slashing attack.
 
-### Countercurse
-You can use your music to bolster your allies against evil influence. While using the song, you and friendly creatures within 30 feet have advantage on saving throws against being cursed. Apart from the bestow curse spell and abilities that explicitly state they are curses, it also helps on saves against being paralyzed and petrified.
+    The extra damage die increase when you reach certain levels in this class: to 1d6 at 6th level, 1d8 at 13th level, and 1d10 at 17th level.
 
-
-### Life’s Flame
-You grant strong vigor, or prevent life's flame from being extinguished with this looming cant. Each creature of your choice within 30 ft makes a Constitution saving throw when damage would reduce them to 0 hit points. The DC for the saving throw is 10 + the damage taken. On a success, the creature is instead reduced to 1 hit point.
-
-### Oft beset, never bruised
-Your triumphant song makes allies and enemies alike feel like the battle is already won, encouraging allies and demoralizing enemies. While playing, allies within 30 feet gain a +1 bonus to attack rolls.
-
-Starting at 6th level, all enemies within 30 feet of you have a -1 penalty to attack rolls.
-
-From 9th level, when an attack is made by a creature within range, you can use your ***reaction*** to cause the attack roll to be made with disadvantage.
+-	### Countercurse
+    You can use your music to bolster your allies against evil influence. While using the song, you and friendly creatures within 30 feet have advantage on saving throws against being cursed. Apart from the bestow curse spell and abilities that explicitly state they are curses, it also helps on saves against being paralyzed and petrified.
 
 
+-	### Life’s Flame
+    You grant strong vigor, or prevent life's flame from being extinguished with this looming cant. Each creature of your choice within 30 ft makes a Constitution saving throw when damage would reduce them to 0 hit points. The DC for the saving throw is 10 + the damage taken. On a success, the creature is instead reduced to 1 hit point.
 
+-	### Oft beset, never bruised
+    Your triumphant song makes allies and enemies alike feel like the battle is already won, encouraging allies and demoralizing enemies. While playing, allies within 30 feet gain a +1 bonus to attack rolls.
 
+    Starting at 6th level, all enemies within 30 feet of you have a -1 penalty to attack rolls.
 
+    From 9th level, when an attack is made by a creature within range, you can use your ***reaction*** to cause the attack roll to be made with disadvantage.
 
+-	### Seeds of Doubt
+    You sow the seeds of doubt in your enemies, making them reluctant to attack you. While using this performance, whenever a creature hearing this attempts to target you with an attack or harmful spell, it must first make a Wisdom saving throw against your bard spell save DC. On a failed save, it must choose a new target or lose its action. This effect doesn’t protect you from spell effects that don’t target you directly, such as the explosion of a fireball. Creatures that cannot be charmed are immune to this effect.
 
+-	### Song of Accord
+    While the bard plays, allies (not including the bard) make all charisma ability checks with advantage against listeners who can hear the song. This is a charm effect.
 
-### Seeds of Doubt
-You sow the seeds of doubt in your enemies, making them reluctant to attack you. While using this performance, whenever a creature hearing this attempts to target you with an attack or harmful spell, it must first make a Wisdom saving throw against your bard spell save DC. On a failed save, it must choose a new target or lose its action. This effect doesn’t protect you from spell effects that don’t target you directly, such as the explosion of a fireball. Creatures that cannot be charmed are immune to this effect.
+-	### Song of Adventures
+    The bard can play this song only at the beginning of a long rest at a fireplace, recalling glorious deeds of heroes of the past. All companions of the bard get an extra inspiration dice for the whole next day.
 
-### Song of Accord
-While the bard plays, allies (not including the bard) make all charisma ability checks with advantage against listeners who can hear the song. This is a charm effect.
+-	### Song of Courage
+    This song inspires heroics in its listeners. While using this performance, you and any creature within 30 feet that can hear you has advantage on saving throws against being charmed or frightened.
 
-### Song of Adventures
-The bard can play this song only at the beginning of a long rest at a fireplace, recalling glorious deeds of heroes of the past. All companions of the bard get an extra inspiration dice for the whole next day.
+-	### Song of Foreboding
+    This ominous song creates a sense of foreboding, causing your allies to be more aware of their surroundings. Stopping the song involves drawing it to a crescendo, similar to one before a jumpscare. While playing, allies within 30 feet cannot be surprised, and attacks do not gain advantage against them due to an unseen attacker, unless that attacker is invisible.
 
-### Song of Courage
-This song inspires heroics in its listeners. While using this performance, you and any creature within 30 feet that can hear you has advantage on saving throws against being charmed or frightened.
+    Starting at 6th level, you can stop your song unexpectedly. When you do, enemies within 30 feet of you must succeed on a Wisdom saving throw or become frightened of you for the number of rounds equal to your Charisma modifier. A frightened creature may repeat the save at the end of each of its turns, ending the effect on a success  and making it immune to this effect for 1 hour.
 
-### Song of Foreboding
-This ominous song creates a sense of foreboding, causing your allies to be more aware of their surroundings. Stopping the song involves drawing it to a crescendo, similar to one before a jumpscare. While playing, allies within 30 feet cannot be surprised, and attacks do not gain advantage against them due to an unseen attacker, unless that attacker is invisible.
+-	### Song of Melancholy
+    Your sad song causes allies to think deeply on philosophical topics like the meaning of life, and can affect enemies with an overwhelming sadness. While playing, allies within 30 feet of you have advantage on Wisdom saving throws.
 
-Starting at 6th level, you can stop your song unexpectedly. When you do, enemies within 30 feet of you must succeed on a Wisdom saving throw or become frightened of you for the number of rounds equal to your Charisma modifier. A frightened creature may repeat the save at the end of each of its turns, ending the effect on a success  and making it immune to this effect for 1 hour.
+    Starting at 6th level, enemies within 30 feet of have disadvantage on Wisdom saving throws. A depressed creature may attempt a Wisdom save against your spell save DC at the end of each of its turns, ending the effect on a success and making it immune to this effect for 1 hour.
 
+-	### Song of Reputation
+    The bard glorifies or vilifies a person or organization. Listeners of the bard's choice make a Charisma save vs a charm effect. On a failure, the listeners attitude towards the song's subject changes: friendly to indifferent or vice versa, or indifferent to hostile or vice versa. At the end of the hour, the audience makes a second save: on a second failure, the new attitude is permanent until changed by other circumstances: it can't be changed further in the same direction by other songs of reputation.
 
+    *(The fluff for the college of lore talks about using songs to make audience members question their loyalty to kings and priests, but there are no official mechanics that bear that out. It may seem alarming that this is a permanent effect, but a) it can only be used on listeners who are friendly to the bard, and b) this is what bards are for, right? Forget about their 9th level spells. A bard's primary purpose is propaganda.)*
 
-### Song of Melancholy
-Your sad song causes allies to think deeply on philosophical topics like the meaning of life, and can affect enemies with an overwhelming sadness. While playing, allies within 30 feet of you have advantage on Wisdom saving throws.
+-	### Soothe the savage beast
+    Monsters that aren't already hostile make Wisdom saves against the bard's spell DC. Identical groups of monsters make one save. On a failure, the monsters are entranced. While affected this way, they ignore the party. If the party passes through without making a fuss, the monsters will only dimly remember the interlopers' presence. The effect ends if the party speaks to the monsters, lingers, gets too close, makes hostile acts, takes anything, or in any other way brings itself to the monsters' attention.
 
-Starting at 6th level, enemies within 30 feet of have disadvantage on Wisdom saving throws. A depressed creature may attempt a Wisdom save against your spell save DC at the end of each of its turns, ending the effect on a success and making it immune to this effect for 1 hour.
+    *(This is meant to address two of the classic bardic-music problems: a song of stealth is an oxymoron, and making extra noise inside a hostile dungeon is generally a bad idea. Rather than a stealth buff, this song is an alternative to stealth. It's meant to be less effective than a rogue's stealth, but more effective than a party's group stealth check.)*
 
-### Song of Reputation
-The bard glorifies or vilifies a person or organization. Listeners of the bard's choice make a Charisma save vs a charm effect. On a failure, the listeners attitude towards the song's subject changes: friendly to indifferent or vice versa, or indifferent to hostile or vice versa. At the end of the hour, the audience makes a second save: on a second failure, the new attitude is permanent until changed by other circumstances: it can't be changed further in the same direction by other songs of reputation.
+</div>
 
-*(The fluff for the college of lore talks about using songs to make audience members question their loyalty to kings and priests, but there are no official mechanics that bear that out. It may seem alarming that this is a permanent effect, but a) it can only be used on listeners who are friendly to the bard, and b) this is what bards are for, right? Forget about their 9th level spells. A bard's primary purpose is propaganda.)*
-
-### Soothe the savage beast
-Monsters that aren't already hostile make Wisdom saves against the bard's spell DC. Identical groups of monsters make one save. On a failure, the monsters are entranced. While affected this way, they ignore the party. If the party passes through without making a fuss, the monsters will only dimly remember the interlopers' presence. The effect ends if the party speaks to the monsters, lingers, gets too close, makes hostile acts, takes anything, or in any other way brings itself to the monsters' attention.
-
-*(This is meant to address two of the classic bardic-music problems: a song of stealth is an oxymoron, and making extra noise inside a hostile dungeon is generally a bad idea. Rather than a stealth buff, this song is an alternative to stealth. It's meant to be less effective than a rogue's stealth, but more effective than a party's group stealth check.)*
-
-
-
-
-## Bard Colleges
+<h2><a class="internal-link" name="internal-BardColleges">Bard Colleges</a></h2>
 The way of a bard is gregarious. Bards seek each other out to swap songs and stories, boast of their accomplishments, and share their knowledge. Bards form loose associations, which they call colleges, to facilitate their gatherings and preserve their traditions.
 
-### Art of Acting
-**<a href="#internal-masks">College of Masks</a>** - Bards in the College of Masks (or Masters of Masks, as they have come to be called) are virtuoso performers who practice becoming the figure they portray, rather than merely imitating them.
+<div class="columnsthree">
 
-### Art of Dance
-**<a href="#internal-dance">College of Dance</a>** - Bards who are exceptionally in tune with their bodies, weaving movement, combat and spellcasting into a singular art of self-expression.
+-   ### Art of Acting
+    **<a href="#internal-masks">College of Masks</a>** - Bards in the College of Masks (or Masters of Masks, as they have come to be called) are virtuoso performers who practice becoming the figure they portray, rather than merely imitating them.
 
-### Art of History and Legends
-**<a href="#internal-grandeur">College of Grandeur</a>** - Your study of history and politics has made you an expert in how certain individuals shape the destinies of multitudes, and you understand the path that leads to this kind of legendary influence. Many epic sagas begin with a small band of seemingly insignificant heroes who chose glory over safety. Whether doing it yourself or seeking to inspire others, you are set to guide someone to greatness.
+-   ### Art of Dance
+    **<a href="#internal-dance">College of Dance</a>** - Bards who are exceptionally in tune with their bodies, weaving movement, combat and spellcasting into a singular art of self-expression.
 
-**<a href="#internal-lore">College of Lore</a>** - Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales.
+-   ### Art of History and Legends
+    **<a href="#internal-grandeur">College of Grandeur</a>** - Your study of history and politics has made you an expert in how certain individuals shape the destinies of multitudes, and you understand the path that leads to this kind of legendary influence. Many epic sagas begin with a small band of seemingly insignificant heroes who chose glory over safety. Whether doing it yourself or seeking to inspire others, you are set to guide someone to greatness.
 
-**<a href="#internal-tales">College of Tales</a>** - Wanderers and storytellers who tirelessly seek out ancient legends and new tales alike.
+    **<a href="#internal-lore">College of Lore</a>** - Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales.
 
-**<a href="#internal-valor">College of Valor</a>** - Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes.
+    **<a href="#internal-tales">College of Tales</a>** - Wanderers and storytellers who tirelessly seek out ancient legends and new tales alike.
 
-**<a href="#internal-pathfinderChronicler">Pathfinder Chronicler</a>** - The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers, story-spinners, and recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance.
+    **<a href="#internal-valor">College of Valor</a>** - Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes.
 
-
-
-### Art of Manipulation
-Bards who master lying and manipulation.
-
-**<a href="#internal-beguiler">Beguiler</a>** - Bards that see lying and manipulation as their tools of choice.
-
-**<a href="#internal-secrets">College of Secrets</a>** - Your college is no loose association, but a close-knit society of sworn comrades. It could be one or more of many things — a thieves’ guild, an outlawed cult, a spy ring, a hidden faction of nobles devoted to restoring the true heir to the throne — but the key to your survival is clear: an expert understanding of the psychology and culture of those around you.
-
-**<a href="#internal-whispers">College of Whispers</a>** - Bards that use their knowledge and magic to uncover secrets, and turn them against others through extortion and threats.
-
-### Art of Song
-**<a href="#internal-shanties">College of Shanties</a>** - A seaman, a singer, a trusty mate with quick reflexes and a big heart; this is the ideal bard from the College of Shanties, a hero whose words lead and inspire their companions to always act at their best.
-
-### Art of Visual Art
-Painters, sculptors or other similar artists.
-
-**<a href="#internal-awakenedArt">College of Awakened Art</a>** - Bard who use a repertoire of sketched magical summons.
-
-**<a href="#internal-colors">College of Colors</a>** - Bards with talent in the visual arts and the manipulation of light.
-
-**<a href="#internal-portraiture">College of Portraiture</a>** - Bards of the College of Portraiture are artisans first and foremost. Through intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations.
-
-### Bards Working with Animals
-**<a href="#internal-beasts">College of Beasts</a>** - These bards can often be seen in circuses, training the animals, or wandering the world, with their animals as their only traveling and performing companions.
-
-**<a href="#internal-piedPiper">Pied Piper</a>** - Specialist in entrancing people, animals and vermin.
+    **<a href="#internal-pathfinderChronicler">Pathfinder Chronicler</a>** - The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers, story-spinners, and recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance.
 
 
 
+-   ### Art of Manipulation
+    Bards who master lying and manipulation.
 
+    **<a href="#internal-beguiler">Beguiler</a>** - Bards that see lying and manipulation as their tools of choice.
+
+    **<a href="#internal-secrets">College of Secrets</a>** - Your college is no loose association, but a close-knit society of sworn comrades. It could be one or more of many things — a thieves’ guild, an outlawed cult, a spy ring, a hidden faction of nobles devoted to restoring the true heir to the throne — but the key to your survival is clear: an expert understanding of the psychology and culture of those around you.
+
+    **<a href="#internal-whispers">College of Whispers</a>** - Bards that use their knowledge and magic to uncover secrets, and turn them against others through extortion and threats.
+
+-   ### Art of Song
+    **<a href="#internal-shanties">College of Shanties</a>** - A seaman, a singer, a trusty mate with quick reflexes and a big heart; this is the ideal bard from the College of Shanties, a hero whose words lead and inspire their companions to always act at their best.
+
+-   ### Art of Visual Art
+    Painters, sculptors or other similar artists.
+
+    **<a href="#internal-awakenedArt">College of Awakened Art</a>** - Bard who use a repertoire of sketched magical summons.
+
+    **<a href="#internal-colors">College of Colors</a>** - Bards with talent in the visual arts and the manipulation of light.
+
+    **<a href="#internal-portraiture">College of Portraiture</a>** - Bards of the College of Portraiture are artisans first and foremost. Through intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations.
+
+-   ### Bards Working with Animals
+    **<a href="#internal-beasts">College of Beasts</a>** - These bards can often be seen in circuses, training the animals, or wandering the world, with their animals as their only traveling and performing companions.
+
+    **<a href="#internal-piedPiper">Pied Piper</a>** - Specialist in entrancing people, animals and vermin.
 
 
 
 
-### Comedy and Simple Entertainment
-**<a href="#internal-fools">College of Fools</a>** - These bards use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court.
-
-**<a href="#internal-mirrors">College of Mirrors</a>** - Bards who specialize in the art of misdirection.
-
-**<a href="#internal-marionettist">Marionettist</a>** - Puppeteers that turn the movement of wooden dolls into a masterpiece of animation. Using their nimble fingers and magic string, they can even control the bodies of the living and animate the dead to follow their precise instructions.
-
-### Love and Friendship
-**<a href="#internal-desire">College of Desire</a>** - Bards peerless in a particular art, and that art is infatuation.
-
-**<a href="#internal-purity">College of Purity</a>** - Despite living through many of the cruellest dangers the world has to offer, there are those who maintain that all conflicts can be resolved with the power of friendship. The bards of the College of Purity are united by their belief in this ideal, and use their performances to spread peace and harmony wherever they go.
 
 
 
-### Touched by Otherworldly Forces
-**<a href="#internal-crossroads">College of Crossroads</a>** - A bard who seek out a shortcut to musical greatness, no matter what the cost―even if it means their souls.
 
-**<a href="#internal-doors">College of Doors</a>** - These bards are roamers of the planes who tell tales of their travels and the fantastical places they've seen.
+-   ### Comedy and Simple Entertainment
+    **<a href="#internal-fools">College of Fools</a>** - These bards use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court.
 
-**<a href="#internal-faith">College of Faith</a>** - Bards of the College of Faith *(also called cantors)* believe their music is a gift from above and that it should be used to praise the gods.
+    **<a href="#internal-mirrors">College of Mirrors</a>** - Bards who specialize in the art of misdirection.
 
-**<a href="#internal-glamour">College of Glamour</a>** - This college is open to those bards who mastered their craft in the vibrant, deadly realm of the Feywild.
+    **<a href="#internal-marionettist">Marionettist</a>** - Puppeteers that turn the movement of wooden dolls into a masterpiece of animation. Using their nimble fingers and magic string, they can even control the bodies of the living and animate the dead to follow their precise instructions.
 
-**<a href="#internal-madGod">College of the Mad God</a>** - A haunting tune from beyond beckons you, slowly driving you insane...
+-   ### Love and Friendship
+    **<a href="#internal-desire">College of Desire</a>** - Bards peerless in a particular art, and that art is infatuation.
 
-### Other
-**<a href="#internal-entropy">College of Entropy</a>** - Bards of the College of Entropy, called Luck stealers, are itinerate gamblers and daring thrill seekers whose actions are supremely unpredictable.
-
-**<a href="#internal-eulogies">College of Eulogies</a>** - Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and horro
-
-**<a href="#internal-revelry">College of Revelry</a>** - Bards that completely commit to a hedonistic lifestyle.
+    **<a href="#internal-purity">College of Purity</a>** - Despite living through many of the cruellest dangers the world has to offer, there are those who maintain that all conflicts can be resolved with the power of friendship. The bards of the College of Purity are united by their belief in this ideal, and use their performances to spread peace and harmony wherever they go.
 
 
 
+-   ### Touched by Otherworldly Forces
+    **<a href="#internal-crossroads">College of Crossroads</a>** - A bard who seek out a shortcut to musical greatness, no matter what the cost―even if it means their souls.
+
+    **<a href="#internal-doors">College of Doors</a>** - These bards are roamers of the planes who tell tales of their travels and the fantastical places they've seen.
+
+    **<a href="#internal-faith">College of Faith</a>** - Bards of the College of Faith *(also called cantors)* believe their music is a gift from above and that it should be used to praise the gods.
+
+    **<a href="#internal-glamour">College of Glamour</a>** - This college is open to those bards who mastered their craft in the vibrant, deadly realm of the Feywild.
+
+    **<a href="#internal-madGod">College of the Mad God</a>** - A haunting tune from beyond beckons you, slowly driving you insane...
+
+-   ### Other
+    **<a href="#internal-entropy">College of Entropy</a>** - Bards of the College of Entropy, called Luck stealers, are itinerate gamblers and daring thrill seekers whose actions are supremely unpredictable.
+
+    **<a href="#internal-eulogies">College of Eulogies</a>** - Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and horro
+
+    **<a href="#internal-revelry">College of Revelry</a>** - Bards that completely commit to a hedonistic lifestyle.
+
+
+</div>
 
 
 <hr class="classdivider">
@@ -1115,10 +1109,8 @@ Restless Spirit
 <tr><td><hr></td></tr>
 <tr><td markdown="1">
 
-**Armor Class**   13 + PB (natural armor)
-
-**Hit Points**    5 + five times your bard level
-
+**Armor Class**   13 + PB (natural armor)<br/>
+**Hit Points**    5 + five times your bard level<br/>
 **Speed**         30 ft.
 
 </td></tr>
@@ -1133,12 +1125,9 @@ Restless Spirit
 <tr><td><hr></td></tr>
 <tr><td markdown="1">
 
-**Damage Resistance**      necrotic
-
-**Condition Immunities**   frightened, grappled
-
-**Senses**                 blindsense 30 ft.
-
+**Damage Resistance**      necrotic<br/>
+**Condition Immunities**   frightened, grappled<br/>
+**Senses**                 blindsense 30 ft.<br/>
 **Languages**              understands the languages you speak, but it cannot speak itself
 
 </td></tr>
@@ -1306,7 +1295,7 @@ The creature is immune if it can not hear you or if it is immune to being charme
 ### Tumbling Fool
 As long as you wear no armor and wield no weapon, your armor class is equal to 10 + your Dexterity Bonus + your Charisma modifier.
 
-You also gain the *Acrobatics - Tumbling* skill. If you have that skill already, you may spend a skill point on any other class skill. 
+You also gain the *Acrobatics - Tumbling* skill. If you have that skill already, you may spend a skill point on any other class skill.
 
 In addition to the regular uses of tumbling, you can use it to gain the benefits of taking the Disengage action as a ***bonus action***.
 
@@ -1610,71 +1599,73 @@ You can have a fourth mask. You have become a master of assuming the archetypes 
 
 ## Persona Masks
 
-#### Angel
-The image of an androgynous face with eyes serenely upturned to the heavens forms this mask, carved from flawless alabaster. When you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 1d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 4d8.
+<div class="columnsthree">
 
-Beginning at 6th level, you may expend a Bardic Inspiration die as an ***action*** to heal a creature you touch by the amount rolled plus your Charisma modifier.
+-   #### Angel
+    The image of an androgynous face with eyes serenely upturned to the heavens forms this mask, carved from flawless alabaster. When you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 1d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 4d8.
 
-Your alignment appears to be lawful good while you are wearing an Angel mask.
+    Beginning at 6th level, you may expend a Bardic Inspiration die as an ***action*** to heal a creature you touch by the amount rolled plus your Charisma modifier.
 
-#### Archmage
-This mask of deep purple fluorite is sculpted in the image of a heavily wrinkled old man. While wearing the mask of the Archmage, you have the spells *burning hands, expeditious retreat, grease*, and *magic missile* prepared in addition to the spells you have prepared.
+    Your alignment appears to be lawful good while you are wearing an Angel mask.
 
-Beginning at 6th level, add *scorching ray* and *gust of wind* to your spell prepared. In addition, you can expend a Bardic Inspiration die as a ***bonus action*** to increase the save DC of a spell cast by you, by half the amount rolled, rounded down.
+-   #### Archmage
+    This mask of deep purple fluorite is sculpted in the image of a heavily wrinkled old man. While wearing the mask of the Archmage, you have the spells *burning hands, expeditious retreat, grease*, and *magic missile* prepared in addition to the spells you have prepared.
 
-Your alignment appears to be chaotic good while you wear the Archmage mask.
+    Beginning at 6th level, add *scorching ray* and *gust of wind* to your spell prepared. In addition, you can expend a Bardic Inspiration die as a ***bonus action*** to increase the save DC of a spell cast by you, by half the amount rolled, rounded down.
 
-#### Assassin
-Hardened black leather and metal clasps create the disturbing aspect of the assassin. While wearing this mask, you gain the Rogue Sneak Attack class feature with damage as a rogue of half your level.
+    Your alignment appears to be chaotic good while you wear the Archmage mask.
 
-Beginning at 6th level, when you make a melee attack against a creature who hasn't taken a turn in combat yet, you can expend a Bardic Inspiration die as a ***bonus action*** to increase damage your damage against that creature by the amount rolled.
+-   #### Assassin
+    Hardened black leather and metal clasps create the disturbing aspect of the assassin. While wearing this mask, you gain the Rogue Sneak Attack class feature with damage as a rogue of half your level.
 
-Your alignment appears to be lawful evil while you wear an Assassin mask.
+    Beginning at 6th level, when you make a melee attack against a creature who hasn't taken a turn in combat yet, you can expend a Bardic Inspiration die as a ***bonus action*** to increase damage your damage against that creature by the amount rolled.
 
-#### Beast
-Bright, flaking warpaint streaks this battered wooden image of a snarling, fang-toothed wild man. While wearing this mask, you gain the Barbarian Reckless Attack class feature.
+    Your alignment appears to be lawful evil while you wear an Assassin mask.
 
-In addition, beginning at 6th level, when you score a critical hit with a melee weapon attack, you can expend a Bardic Inspiration as a ***reaction*** to increase your damage by the amount rolled.
+-   #### Beast
+    Bright, flaking warpaint streaks this battered wooden image of a snarling, fang-toothed wild man. While wearing this mask, you gain the Barbarian Reckless Attack class feature.
 
-Your alignment appears to be true neutral while wearing a Beast mask.
+    In addition, beginning at 6th level, when you score a critical hit with a melee weapon attack, you can expend a Bardic Inspiration as a ***reaction*** to increase your damage by the amount rolled.
 
-#### Demon
-This obsidian mask bears the visage of a darkly handsome fiend. Small, black horns adorn the demon's forehead, and its black ears rise to points. You have resistance to fire and cold damage while you are wearing this mask.
+    Your alignment appears to be true neutral while wearing a Beast mask.
 
-At 6th level, you can glare at a single target when they make an attack against you and expend a Bardic Inspiration die as a ***reaction***, to reduce their attack roll by the amount rolled.
+-   #### Demon
+    This obsidian mask bears the visage of a darkly handsome fiend. Small, black horns adorn the demon's forehead, and its black ears rise to points. You have resistance to fire and cold damage while you are wearing this mask.
 
-Your alignment appears to be chaotic evil while wearing a Demon mask.
+    At 6th level, you can glare at a single target when they make an attack against you and expend a Bardic Inspiration die as a ***reaction***, to reduce their attack roll by the amount rolled.
 
-#### Dragon
-This multihued mask of precious metals and scintillating gemstones forms the terrible visage of a snarling wyrm. While you wear this mask, you can use your ***action*** to exhale destructive energy. Each creature in a 15-foot cone must make Dexterity saving throw. A creature takes 4d6 fire damage on a failed save, and half as much damage on a successful one.  You must finish a short rest before using this ability again.
+    Your alignment appears to be chaotic evil while wearing a Demon mask.
 
-Beginning at 6th level, you may expend a Bardic Inspiration die as a ***bonus action*** to gain resistance to an energy type of your choice for a number of rounds equal to the amount rolled.
+-   #### Dragon
+    This multihued mask of precious metals and scintillating gemstones forms the terrible visage of a snarling wyrm. While you wear this mask, you can use your ***action*** to exhale destructive energy. Each creature in a 15-foot cone must make Dexterity saving throw. A creature takes 4d6 fire damage on a failed save, and half as much damage on a successful one.  You must finish a short rest before using this ability again.
 
-Your alignment appears to be neutral evil while you wear a Dragon mask.
+    Beginning at 6th level, you may expend a Bardic Inspiration die as a ***bonus action*** to gain resistance to an energy type of your choice for a number of rounds equal to the amount rolled.
 
-
-#### Faceless
-Only a pair of empty eyeholes break this otherwise featureless oval, porcelain mask. While you wear this mask, you have advantage on saves against spells.
-
-Beginning at 6th level, you can spend a Bardic Inspiration die as a ***bonus action*** to gain advantage on Stealth checks for a number of minutes equal to the result rolled.
-
-Your alignment appears to be neutral while you are wearing a Faceless mask.
-
-#### Gladiator
-This wyvern-hide mask is shaped like the face of a grim warrior. Scars cover its surface, and silver chainmail rings surround its outer edge. While you wear this mask, you have proficiency with all weapons.
-
-Beginning at 6th level, when you make a melee weapon attack, you can expend a Bardic Inspiration die as a ***bonus action*** to increase your attack roll by the amount rolled.
-
-Your alignment appears to be chaotic neutral while you wear a Gladiator mask.
-
-#### High Priest
-This mask of rose porphyry has a wide mouth open in song, but instead of eyes it has slits twisted into runes, which somehow do not restrict your vision. While wearing the mask of the high Priest, you have the spells *bless, detect evil and good, healing word*, and *shield of faith* prepared in addition to the spells you have prepared.
-
-Beginning at 6th level, add *aid* and *zone of truth* to your spells prepared. In addition, you can expend a Bardic Inspiration die as a ***bonus action*** to increase the save DC of a spell cast by you by half the amount rolled, rounded down.
-
-Your alignment appears to be neutral good while you wear a High Priest mask.
+    Your alignment appears to be neutral evil while you wear a Dragon mask.
 
 
+-   #### Faceless
+    Only a pair of empty eyeholes break this otherwise featureless oval, porcelain mask. While you wear this mask, you have advantage on saves against spells.
+
+    Beginning at 6th level, you can spend a Bardic Inspiration die as a ***bonus action*** to gain advantage on Stealth checks for a number of minutes equal to the result rolled.
+
+    Your alignment appears to be neutral while you are wearing a Faceless mask.
+
+-   #### Gladiator
+    This wyvern-hide mask is shaped like the face of a grim warrior. Scars cover its surface, and silver chainmail rings surround its outer edge. While you wear this mask, you have proficiency with all weapons.
+
+    Beginning at 6th level, when you make a melee weapon attack, you can expend a Bardic Inspiration die as a ***bonus action*** to increase your attack roll by the amount rolled.
+
+    Your alignment appears to be chaotic neutral while you wear a Gladiator mask.
+
+-   #### High Priest
+    This mask of rose porphyry has a wide mouth open in song, but instead of eyes it has slits twisted into runes, which somehow do not restrict your vision. While wearing the mask of the high Priest, you have the spells *bless, detect evil and good, healing word*, and *shield of faith* prepared in addition to the spells you have prepared.
+
+    Beginning at 6th level, add *aid* and *zone of truth* to your spells prepared. In addition, you can expend a Bardic Inspiration die as a ***bonus action*** to increase the save DC of a spell cast by you by half the amount rolled, rounded down.
+
+    Your alignment appears to be neutral good while you wear a High Priest mask.
+
+</div>
 
 
 
@@ -1851,10 +1842,8 @@ Gentle Unicorn
 <tr><td><hr></td></tr>
 <tr><td markdown="1">
 
-**Armor Class** 12
-
-**Hit Points** 45(6d10 + 12)
-
+**Armor Class** 12<br/>
+**Hit Points** 45(6d10 + 12)<br/>
 **Speed** 40ft, fly 80 ft
 
 </td></tr>
@@ -1869,13 +1858,10 @@ Gentle Unicorn
 <tr><td><hr></td></tr>
 <tr><td markdown="1" class="monster">
 
-**Condition Immunities**	  charmed, poisoned
-
-**Damage Immunities**			  poison
-
-**Senses**								  darkvision 60 ft
-
-**Languages**							  understands the languages spoken by the creature who summoned it, but can't speak
+**Condition Immunities**	  charmed, poisoned<br/>
+**Damage Immunities**    	  poison<br/>
+**Senses**                  darkvision 60 ft<br/>
+**Languages**            	  understands the languages spoken by the creature who summoned it, but can't speak
 
 ***Benevolent.*** The gentle unicorn will only attack creatures that have harmed its allies.
 
@@ -2209,7 +2195,7 @@ While most are satisfied with this role, others strive to be the hero of legend 
 You can use an arcane focus, your meele weapon or a musical instrument as a spellcasting focus for your spells.
 
 ### Glorious Purpose
-You have trained to overcome any obstacle that may stand in the path of your glorious legend. 
+You have trained to overcome any obstacle that may stand in the path of your glorious legend.
 
 Starting when you join this college at 1st level, *Physique* is added to your class skills. Additionally you gain *Medium armor*, including its prerequisites, and 2 additional skill points to spend on combat skills.
 
@@ -2446,7 +2432,7 @@ Bards of this college are mentored by experienced pipers, who teach them the sec
 You can use a musical instrument as a spellcasting focus for your spells.
 
 ### Animal Magnetism
-When you join the College of Pied Pipers at 1st level, *Animal Handling* is added to your class skills, and you gain 1 additional skill points to spent this skill. 
+When you join the College of Pied Pipers at 1st level, *Animal Handling* is added to your class skills, and you gain 1 additional skill points to spent this skill.
 
 ### Fascinating Performance
 You learn how to use your inspiring performance to sway the minds of those that can hear you. You can spend an ***action*** and expend one or more uses of your Bardic Inspiration in an attempt to fascinate a number of targets within 60 ft, equal to the result of your Bardic Inspiration dice. Creatures affected must make a Charisma saving throw against your spell save DC.
