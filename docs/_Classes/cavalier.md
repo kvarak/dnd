@@ -233,11 +233,15 @@ At 9th level, you can choose either *Indomitable self* or *Indomitable ally*.
 
 When you use the feature you can’t use it again until you finish a long rest. You can use this feature twice between long rests starting at 13th level and three times starting at 17th level.
 
-#### Indomitable Self
-As a ***reaction***, you can reroll a saving throw that you fail.
+<div class="columnstwo">
 
-#### Indomitable Ally
-Your courageous words inspire valor and ferocity in your allies, allowing you to use your ***reaction*** to allow an ally within 30 feet who can see or hear you to reroll a failed saving throw.
+- #### Indomitable Self
+  As a ***reaction***, you can reroll a saving throw that you fail.
+
+- #### Indomitable Ally
+  Your courageous words inspire valor and ferocity in your allies, allowing you to use your ***reaction*** to allow an ally within 30 feet who can see or hear you to reroll a failed saving throw.
+
+</div>
 
 <div class="descriptive" markdown="1">
 
@@ -296,15 +300,11 @@ Members of these orders are not necessarily bound together, but some organizatio
 
 Knights errant are brave mercenary warriors who wander the land, following no particular order but still upholding a code of chivalry wherever they go. Knights errant travel the land in search of adventure, to show off their combat prowess and help those in need wherever they travel. A knight errant pays no kingdom fealty, holding only to the service of those who need them, or those who pay them. These knights are often nomadic but provide their services to those in need. If a kingdom is in need, the knight will likely expect payment for services rendered.
 
-<div class="edictsbox" markdown="1">
 
 #### Edicts
 A knight errant helps people in distress and provides their skills for a fee to those who can afford it.
 * You may not ignore the pleas of those of lesser station than you. As a knight, you must help those in need when you find them.
 * You must be a beacon of hope and strength for all who see you, you are not allowed to be rude to the common folk.
-
-</div>
-
 
 ### Bonus Skills
 Add Speechcraft to your class skills.
@@ -357,7 +357,6 @@ At 18th level, whenever you use Challenge, Battlefield Inspiration or Bolstering
 
 The cavaliers of the order of the blue rose dedicate themselves to promoting peace in the lands they roam. Skilled warriors and adept diplomats, these cavaliers counsel wisdom, patience, and understanding, but are ever mindful of the need to take up arms to strike down aggressors, tyrants, or evil usurpers. Although they believe wholeheartedly in peace as an aim and a final goal, cavaliers of the blue rose are warriors first, and embrace their role as guardians of those who cannot or will not take up arms to defend themselves.
 
-<div class="edictsbox" markdown="1">
 
 #### Edicts
 Cavaliers of the Blue Rose share the following edicts.
@@ -365,7 +364,6 @@ Cavaliers of the Blue Rose share the following edicts.
 * He must seek to stop conflict with a minimum of bloodshed, to encourage peaceful resolutions to disagreements between intelligent creatures, and to mend the wounds opened by battle.
 * He must also honor quarter when he gives it, protecting captives who have surrendered from his own allies if need be.
 
-</div>
 
 ### Bonus Skills
 Add Speechcraft to your class skills. For you, the skill Diplomacy has cost 0 if you have its prerequisites (*Speechcraft - Tact*).
@@ -420,14 +418,11 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 Cavaliers belonging to the order of the dragon dedicate themselves to a group of like-minded individuals, be it a mercenary company or a small band of adventurers. These cavaliers believe in loyalty and friendship, and are willing to lay down their lives to protect their allies.
 
-<div class="edictsbox" markdown="1">
 
 #### Edicts
 Cavaliers of the Dragon share the following edicts.
 * The cavalier must remain loyal to his allies and must always work to further the aims of the group.
 * He must protect his allies from harm and defend their honor when called into doubt.
-
-</div>
 
 ### Bonus Skills
 Add Survival to your class skills, and gain 1 skill point to spend on this skill.
@@ -475,7 +470,6 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 A cavalier of the order of the flame devotes his life to the pursuit of personal glory. Even if such pursuit puts his own life on the line, the cavalier pursues legendary status and the fame and glory associated with such renown.
 
-<div class="edictsbox" markdown="1">
 
 #### Edicts
 Cavaliers of the Flame share the following edicts.
@@ -483,7 +477,6 @@ Cavaliers of the Flame share the following edicts.
 * He must strive to heap glory upon his name, no matter the costs.
 * He must challenge and defeat an ever-increasing host of rivals to further cement his illustrious reputation.
 
-</div>
 
 ### Bonus Skills
 Add Survival to your class skills.
@@ -531,7 +524,6 @@ At 18th level, you can, as a ***bonus action***, declare a moment of triumph. Un
 
 A cavalier who belongs to this order has pledged himself to a sovereign; be it a king, queen, or even the local warlord. Cavaliers of this order are stalwart and dedicated to their cause, willing to go any length to ensure the safety of their lord and his domain.
 
-<div class="edictsbox" markdown="1">
 
 #### Edicts
 Cavaliers of the Lion share the following edicts.
@@ -539,7 +531,6 @@ Cavaliers of the Lion share the following edicts.
 * He must obey the commands of his sovereign without question.
 * He must strive to expand the power and prestige of his realm.
 
-</div>
 
 ### Bonus Skills
 Gain 1 additional skill point to spend on the *Courtier* skill.
@@ -587,7 +578,6 @@ Truth is the most sacred of all ideals. The order of the scales cavalier safegua
 
 Members of this cavalier order serve the cause of legal integrity. Many order of the scales cavaliers track down and apprehend fleeing lawbreakers so that these vagrants may answer for their crimes and make good on their debts. They often serve as judges or stakeholders, and work to ensure that wherever a bargain is made—whether it is monetary, a life debt, or an oath to be upheld—both ends make good on their promises.
 
-<div class="edictsbox" markdown="1">
 
 #### Edicts
 Cavaliers of the Scales share the following edicts.
@@ -597,7 +587,6 @@ Cavaliers of the Scales share the following edicts.
 * When serving as a judge or arbiter, the cavalier must make fair, impartial judgments, and if unable to do so, must recuse himself at the earliest possibility.
 * If authorized to enforce an agreement, the cavalier must wholeheartedly strive to accomplish this, remaining unswayed by threats, bribery, and other deterrents.
 
-</div>
 
 ### Bonus Skills
 Gain 1 skill point to spend on the *Law* skill. In addition add *Perception - Insight* to your class skills.
@@ -644,14 +633,12 @@ At 18th level, you can tell if people are lying around you. As an ***action*** y
 
 Cavaliers who join the order of the shield devote their lives to protecting the common folk, from the simple farmer to the honest craftsman. These cavaliers stand before the tide, protecting the innocent from roving marauders and hungry monsters.
 
-<div class="edictsbox" markdown="1">
 
 Cavaliers of the Shield share the following edicts.
 * The cavalier must protect the lives and prosperity of the common folk, shielding them from the deprivations of those who would seek to cause them harm or exploit them.
 * He must give charity when it is warranted and aid when needed.
 * He must take no action that would cause harm or hardship to those who cannot defend themselves.
 
-</div>
 
 
 ### Bonus Skills
@@ -702,14 +689,12 @@ At 18th level, you can move to intercept foes. When a foe makes an action, as a 
 
 Cavaliers who join the order of the star dedicate themselves to the protection and service of a faith and its members. Cavaliers belonging to this order tend to follow many of the tenets and guides of the religion that they serve. When a cavalier joins this order, he should select a single religion to serve.
 
-<div class="edictsbox" markdown="1">
 
 #### Edicts
 Cavaliers of the Star share the following edicts.
 * The cavalier must strive to protect the faith and all those who follow its teachings, from priest to common man.
 * He must adhere to the strictures of the faith, promote its cause whenever possible, and serve the agents of the divine.
 
-</div>
 
 ### Bonus Skills
 Add Religion to your class skills, and gain 1 skill point to spend on this skill.
@@ -736,7 +721,7 @@ At 18th level, you can take retribution on those who dare to strike an agent of 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-maneuvers">Maneuvers</a></h1>
+<h2><a class="internal-link" name="internal-maneuvers">Maneuvers</a></h2>
 
 If a maneuver has prerequisites, you must meet them to learn it. You can learn the maneuver at the same time you meet its prerequisites. A level prerequisite refers to your class level.
 
@@ -745,91 +730,96 @@ Many maneuvers enhance an attack in some way. You can use only one maneuver per 
 ### Mounted maneuvers
 The following maneuvers cost 1 superiority to use and require you to be mounted.
 
-#### Cavalier's Control
-When you take the Attack action while mounted, you can make your mount attack (if it has any attacks) as a ***bonus action***. You can add your proficiency modifier to the attack roll, and if it hits you add your Superiority die to the damage roll.
+<div class="columnstwo">
 
-#### Cavalry Charge
-When you ride your mount at least 20 feet and make an attack with a lance or spear, you can expend one superiority die to add it to your damage roll. In addition, if the target is Large or smaller, it must succeed at a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.
+-   #### Cavalier's Control
+    When you take the Attack action while mounted, you can make your mount attack (if it has any attacks) as a ***bonus action***. You can add your proficiency modifier to the attack roll, and if it hits you add your Superiority die to the damage roll.
 
-#### Control Mount
-When you make a check to influence or control a creature you are riding, you can expend one superiority die to add it to the check. You apply this bonus after making the check but before learning if it was successful.
+-   #### Cavalry Charge
+    When you ride your mount at least 20 feet and make an attack with a lance or spear, you can expend one superiority die to add it to your damage roll. In addition, if the target is Large or smaller, it must succeed at a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.
 
-In addition, as a ***bonus action*** while mounted, you can expend a superiority die. Roll the die to grant your mount temporary hit points equal to twice your roll.
+-   #### Control Mount
+    When you make a check to influence or control a creature you are riding, you can expend one superiority die to add it to the check. You apply this bonus after making the check but before learning if it was successful.
 
-#### Evasive Maneuvers
-If either you or your mount is hit by an attack while you are mounted, you can expend one superiority die as a ***reaction***, adding the number rolled to your or your mount's AC. If the attack still hits, you or your mount have resistance to the attack's damage.
+    In addition, as a ***bonus action*** while mounted, you can expend a superiority die. Roll the die to grant your mount temporary hit points equal to twice your roll.
 
-#### Inspiring Charge
-While mounted and moving 20 ft or more toward a target, you can expend a superiority die. Up to five allied creatures that can see or hear you can use their ***reaction*** to move 10 feet towards you or the target you moved towards.
+-   #### Evasive Maneuvers
+    If either you or your mount is hit by an attack while you are mounted, you can expend one superiority die as a ***reaction***, adding the number rolled to your or your mount's AC. If the attack still hits, you or your mount have resistance to the attack's damage.
 
-#### Unstoppable Advance
-When you move, you can expend one superiority die to make your mount ignore difficult terrain until the end of your turn. During this time, your mount can move through the spaces of hostile creatures by spending twice the movement required to move through their space.
+-   <img src='https://i.pinimg.com/736x/85/6e/66/856e664d65efb50a6d94eaeb43d64665.jpg' style="width:75%;padding:10px"/>
 
-<img src='https://i.pinimg.com/736x/85/6e/66/856e664d65efb50a6d94eaeb43d64665.jpg' style="float:right;width:50%;padding:10px"/>
+-   #### Inspiring Charge
+    While mounted and moving 20 ft or more toward a target, you can expend a superiority die. Up to five allied creatures that can see or hear you can use their ***reaction*** to move 10 feet towards you or the target you moved towards.
 
+-   #### Unstoppable Advance
+    When you move, you can expend one superiority die to make your mount ignore difficult terrain until the end of your turn. During this time, your mount can move through the spaces of hostile creatures by spending twice the movement required to move through their space.
+
+</div>
 
 ### Basic maneuvers
 The following maneuvers cost 2 superiority to use, or 1 if mounted.
 
-#### Commander's Strike
-When you take the Attack action, you can forgo one of your attacks and use a ***bonus action*** to direct one of your companions to strike. When you do so, choose a friendly creature who can see and hear you. That creature can immediately use its ***reaction*** to make one weapon attack, adding your superiority die to the attack's damage roll.
+<div class="columnstwo">
 
-#### Combat Focus
-As a ***reaction***, you can roll a Superiority Die and add that number to a save. You can do this after the roll, but before you know the result.
+-   #### Commander's Strike
+    When you take the Attack action, you can forgo one of your attacks and use a ***bonus action*** to direct one of your companions to strike. When you do so, choose a friendly creature who can see and hear you. That creature can immediately use its ***reaction*** to make one weapon attack, adding your superiority die to the attack's damage roll.
 
-#### Distracting Strike
-When you hit a creature with a weapon attack, you can distract the creature, giving your allies an opening. Add your superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.
+-   #### Combat Focus
+    As a ***reaction***, you can roll a Superiority Die and add that number to a save. You can do this after the roll, but before you know the result.
 
-#### Expert Deflection
-*Prerequisite: 10th level*
+-   <img src='https://i.pinimg.com/originals/fc/6c/02/fc6c0214294b26d48be3ef64703efeb6.jpg' style='width:75%;padding:20px' />
 
-As a ***reaction*** reduce the damage from an attack that hits you or an adjacent ally by two superiority dice worth.
+-   #### Distracting Strike
+    When you hit a creature with a weapon attack, you can distract the creature, giving your allies an opening. Add your superiority die to the attack's damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.
 
-#### Feinting Attack
-You can use a ***bonus action*** to feint, choosing one adjacent creature as your target. You have advantage on your next attack roll against that creature. If that attack hits, add your superiority die to the attack's damage roll.
+-   #### Expert Deflection
+    *Prerequisite: 10th level*
 
-#### Immortal Fortitude
-If you would be reduced to 0 or less Hit Points after receiving damage, you can, as a ***reaction***, make a Constitution Save against a DC of half the damage dealt against you or DC 15, whichever is higher, to survive the attack and remain at 1 Hit Point.
+    As a ***reaction*** reduce the damage from an attack that hits you or an adjacent ally by two superiority dice worth.
 
-#### Maneuvering Attack
-When you hit a creature with a weapon attack, you can maneuver one of your comrades into a more advantageous position. Add your superiority die to the damage roll, and you choose a friendly creature who can see or hear you. That creature can use its ***reaction*** to move up to half its speed without provoking opportunity attacks from the target of your attack.
+-   #### Feinting Attack
+    You can use a ***bonus action*** to feint, choosing one adjacent creature as your target. You have advantage on your next attack roll against that creature. If that attack hits, add your superiority die to the attack's damage roll.
 
-#### Menacing Attack
-When you hit a creature with a melee attack, you can attempt to frighten the target. Add your superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.
+-   #### Immortal Fortitude
+    If you would be reduced to 0 or less Hit Points after receiving damage, you can, as a ***reaction***, make a Constitution Save against a DC of half the damage dealt against you or DC 15, whichever is higher, to survive the attack and remain at 1 Hit Point.
 
-<img src='https://i.pinimg.com/originals/fc/6c/02/fc6c0214294b26d48be3ef64703efeb6.jpg' style='float:left;width:37%;padding:20px' />
+-   #### Maneuvering Attack
+    When you hit a creature with a weapon attack, you can maneuver one of your comrades into a more advantageous position. Add your superiority die to the damage roll, and you choose a friendly creature who can see or hear you. That creature can use its ***reaction*** to move up to half its speed without provoking opportunity attacks from the target of your attack.
 
-#### Parry
-When you are damaged by a melee attack, you can use your ***reaction*** and reduce the damage by your superiority die + your Dexterity modifier.
+-   #### Menacing Attack
+    When you hit a creature with a melee attack, you can attempt to frighten the target. Add your superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.
 
-#### Precision Attack
-When you make an attack roll against a creature, you can add your one superiority die to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.
+-   #### Parry
+    When you are damaged by a melee attack, you can use your ***reaction*** and reduce the damage by your superiority die + your Dexterity modifier.
 
-#### Rally
-You can use a ***bonus action*** to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see and hear you to gain temporary hit points.
+-   #### Precision Attack
+    When you make an attack roll against a creature, you can add your one superiority die to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.
 
-You grant more temporary hit points as you gain cavalier class levels and become a more inspiring battle master.
+-   #### Rally
+    You can use a ***bonus action*** to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see and hear you to gain temporary hit points.
 
-
-| Level | Temporary HP |
-|:-----:|:-----------|
-|  2nd | 1d6 + cavalier level
-|  7th | 2d8 + cavalier level
-| 12th | 3d10 + cavalier level
-| 17th | 4d12 + cavalier level
+    You grant more temporary hit points as you gain cavalier class levels and become a more inspiring battle master.
 
 
-
-#### Riposte
-When a creature misses you with a melee attack, you can use your ***reaction*** to make a melee weapon attack against the creature. If you hit, add your superiority die to the damage roll.
-
-#### Shrug It Off
-At the start of your turn, if affected by any effect that places one of these conditions on you: blinded, deafened, frightened, charmed, paralyzed, petrified, stunned or unconscious, you can make an additional saving throw against it with advantage.
-
-#### Silver Tongue
-When you make a Charisma check to influence other creatures that you share a language with, add your superiority die to the ability check. You can do this after the roll, but before you know the result.
+    | Level | Temporary HP |
+    |:-----:|:-----------|
+    |  2nd | 1d6 + cavalier level
+    |  7th | 2d8 + cavalier level
+    | 12th | 3d10 + cavalier level
+    | 17th | 4d12 + cavalier level
 
 
+
+-   #### Riposte
+    When a creature misses you with a melee attack, you can use your ***reaction*** to make a melee weapon attack against the creature. If you hit, add your superiority die to the damage roll.
+
+-   #### Shrug It Off
+    At the start of your turn, if affected by any effect that places one of these conditions on you: blinded, deafened, frightened, charmed, paralyzed, petrified, stunned or unconscious, you can make an additional saving throw against it with advantage.
+
+-   #### Silver Tongue
+    When you make a Charisma check to influence other creatures that you share a language with, add your superiority die to the ability check. You can do this after the roll, but before you know the result.
+
+</div>
 
 
 
