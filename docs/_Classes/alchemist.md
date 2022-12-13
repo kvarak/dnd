@@ -267,6 +267,9 @@ Many practically-minded alchemists decide to assume the role of the apothecary. 
 When you select this field of study at 2nd level, you gain 1 skill point to spend on Medicine. In addition, you can use your alchemist's supplies instead of a healer's kit.
 
 ### Painkiller Bomb
+
+<img src='https://i.pinimg.com/originals/9f/44/28/9f442894bec6ab5311e1c00ca5735ce7.png' style='float:right;width:20%;padding:20px' />
+
 You can create bombs which spray an analgesic oil. When creating a bomb, you can replace its contents with this oil, changing it to a painkiller bomb. The bomb can then be thrown as normal or splashed on an adjacent creature.
 
 You have advantage on attack rolls made to hit a willing creature in combat with this bomb, while outside of combat, you automatically hit. Painkiller bombs do not have a blast radius and deal no damage. Instead, on a hit, the target gains temporary hit points for 1 minute, equal to your alchemy die + your Intelligence modifier.
@@ -454,6 +457,7 @@ During the transformation, the cadaver can't create another cadaver using its 'A
 | 16th | Big bombs
 
 </div>
+<img src='https://www.gmbinder.com/images/375WaGT.png' style='float:left;width:20%;padding:20px' />
 
 While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.
 

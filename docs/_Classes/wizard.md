@@ -138,6 +138,8 @@ At 1st-level, you know six 1st-level spells from your class spell list, that you
 
  **Finding spells**. In addition, you may find other wizard spells — such as on scrolls and in spellbooks — on your adventures. If you can decipher their script, you may be able to write them into your own spellbook.
 
+<img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/357/420/618/636272696881281556.png' style='float:left;width:20%;padding:20px' />
+
 #### Preparing Spells
 You must prepare the list of spells that you can cast, choosing from your list of recorded wizard spells.
 

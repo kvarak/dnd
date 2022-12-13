@@ -355,6 +355,8 @@ Add *Craft - Metalsmith - Arrowsmith* and *Craft - Crossbow Making* to your clas
 
 During a day of work, you can try to modify an existing crossbow into a repeating crossbow. This is a DC 20 Intelligence (Crossbow making) check using your tools. If you fail, you can repeat this check the next day, with the DC reduced by 2. This reduction is cumulative.
 
+<img src='https://www.dandwiki.com/w/images/thumb/2/2c/The_Black_Knight.png/300px-The_Black_Knight.png' style='float:right;width:20%;padding:20px' />
+
 A repeating crossbow has the statistics of the base crossbow, but adds 2 lbs to its weight, and has a magazine that holds up to 12 bolts at once and doesn't require any sort of action to reload between attacks. Changing an empty magazine requires an action.
 
 - You can make an Intelligence (Crossbow making) against DC 12 to make a magazine for your repeating crossbow during a long rest.
@@ -411,7 +413,7 @@ The following additions are made to the general rest rules.
 An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.
 
 ### Arcane Archer Lore
-You learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. Add either *Arcana* or *Nature* to your class skills and gain 1 skill point to spend on the chosen skill. 
+You learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. Add either *Arcana* or *Nature* to your class skills and gain 1 skill point to spend on the chosen skill.
 
 Aditionally if you selected *Arcana*, you learn the *prestidigitation* cantrip, otherwise you learn the *druidcraft* cantrip.
 
@@ -923,6 +925,8 @@ Kindlers are fighters who choose to bear a torch for others, a symbolic flame wh
 ### Torchbearer
 When you choose this archetype at 3rd level, you learn to wield torches as weapons. For you a lit torch becomes a melee weapon with the light property, dealing 2d4 fire damage.
 
+<img src='https://i.pinimg.com/originals/40/9d/31/409d312fa9544fd63a0d5753698e6a3b.png' style='float:left;width:20%;padding:20px' />
+
 ### Living Flame
 You can temper your inner flame, and release it as a ***bonus action*** if you are wielding a torch. When you do so, for the next minute, whenever you hit a creature with a lit torch, you can use your ***bonus action*** to inflict one of the following conditions on the creature.
 
@@ -1038,7 +1042,7 @@ Below are the runic augmentations for each of the five master runes. In the anci
     *Defense Augmentation*
 
     You can activate a rune with the Vard augmentation as a ***reaction***. A rune’s power can only be used while wearing the armor or holding the shield it is inscribed on.
-    
+
     **Ild**. When you are hit by a melee attack, the attacker takes fire damage equal to your proficiency bonus.
 
     **Kalt**. When you are hit by a melee attack, the damage you take from the attack is reduced an amount equal to your proficiency bonus.
@@ -1669,7 +1673,7 @@ Whenever you gain a level in a class that has the Fighting Style feature, you ca
     **Counterpunch**. If you take the dodge action, and a creature misses a melee attack against you, you may use your ***reaction*** to make a single unarmed or improvised weapon strike against that creature. You must not be wielding any other weapons, and not be wearing a shield to perform a counterpunch.
 
 - #### Cavalry
-    Whenever you are mounted, you may add your proficiency bonus to the saving throws and AC of your steed. 
+    Whenever you are mounted, you may add your proficiency bonus to the saving throws and AC of your steed.
 
     When mounted, if you move at least 20 ft straight toward a large or smaller creature you may use your action to make a charging attack. If the attack hits, the creature must make a Dexterity saving throw. On a failed save, the creature is pushed up to 10 ft away from you. The DC for the save is equal to 8 + your Strength modifier + your proficiency + bonus.
 

@@ -32,6 +32,8 @@ An elf is generally slightly taller than humans, and possess a graceful, fragile
 
 Eladrin can instead have a tint of red, yellow or white, while Shadar-kai are greyish in hue. Elven hair can be light or dark, but always with a similar hue as the skin, and their eyes are like pools of liquid gold or silver. An elf has no facial or body hair.
 
+<img src='https://images-geeknative-com.exactdn.com/wp-content/uploads/2022/09/16202337/uncharted-journeys-art.png?strip=all&lossy=1&sharp=1&w=697&ssl=1&is-pending-load=1' style='float:right;width:30%;padding:20px' />
+
 #### Random height and weight
 | Base height | Height mod | Base weight | Weight mod
 |:----:|:----:|:----:|:----:|

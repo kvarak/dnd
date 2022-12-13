@@ -38,9 +38,9 @@ The wild is more friend to most shifters than the city, where other people tend 
 #### Born to be Free
 Shifters are at home in the wild amongst other animals. The city makes them nervous, with so much to overwhelm their senses. Personal freedom and being yourself are hallmarks of the shifter which they will defend to the end. In many civilized areas, shifters are feared because of their heritage, but it is not much of a problem for the shifters.
 
-
-
 They don't care what others think of them, state their opinions and stances boldly, and stay out of the way when matters do not concern them. When it comes to their friends, however, shifters are loyal and will defend their pack to the end.
+
+<img src='https://www.gmbinder.com/images/IT6aylS.png' style='float:left;width:30%;padding:20px' />
 
 #### Walkers on the Edge
 Though rare in most civilized lands, in certain areas shifters are nearly as common as humans. Most reside in only the wildest regions of humanoid nations, however, eking out livings as hunters and trappers. A brave few feel compelled to venture forth into the wider world, becoming, guides, trackers, explorers, or scouts. Moving from such rugged self-reliance to the lifestyle of an adventurer is not a big step.
