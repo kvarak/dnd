@@ -5,7 +5,6 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### <a href="#internal-discovery">Discoveries</a>
 ##### <a>Fields of Study</a>
 <a href="#internal-apothecary">Apothecary</a><br>
 <a href="#internal-corpsecrafter">Corpsecrafter</a><br>
@@ -13,6 +12,8 @@ layout: default
 <a href="#internal-poisoner">Poisoner</a><br>
 <a href="#internal-psychedelic">Psychedelic</a><br>
 <a href="#internal-transmuter">Transmuter</a><br>
+
+##### <a href="#internal-discovery">Discoveries</a>
 
 </div>
 
@@ -22,6 +23,7 @@ layout: default
 
 *A slender elf quickly mixes liquids and herbs in a small bowl. She applies the mixture to an arrow wound on an injured dwarf's side, which immediately stops bleeding.*
 
+<img src='https://i.pinimg.com/originals/35/51/c9/3551c937846dcf796508bcd44512a58b.png' style='float:left;width:30%;padding:20px' />
 
 Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected school of magic, the alchemist is often regarded as being just as unstable, unpredictable, and dangerous as the concoctions he brews. While some creators of alchemical items content themselves with sedentary lives as merchants, providing tindertwigs and smokesticks, the true alchemist answers a deeper calling. Rather than cast magic like a spellcaster, the alchemist captures his own magic potential within liquids and extracts he creates, infusing his chemicals with virulent power to grant him impressive skill with poisons, explosives, and all manner of self-transformative magic.
 
@@ -110,6 +112,8 @@ Attacking at long range doesn’t impose disadvantage on your combat alchemy att
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
+
+<img src='https://i.imgur.com/4AHDDpZ.png' style='float:right;width:20%;padding:20px' />
 
 - *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
 - *(a)* an explorer's pack or *(b)* a scholar's pack
