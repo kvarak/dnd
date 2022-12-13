@@ -30,52 +30,53 @@
 - path: 2
   name: Scarwall
   img: ../assets/campaigns/02-The-Crimson-Throne/Scarwall.jpg
-- path: 2
-  name: mask-Arael
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Arael.jpg
-- path: 2
-  name: mask-Cassius
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Cassius.jpg
-- path: 2
-  name: mask-Celinda
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Celinda.jpg
-- path: 2
-  name: mask-Larco
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Larco.jpg
-- path: 2
-  name: mask-Merric
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Merric.jpg
-- path: 2
-  name: mask-Primus
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Primus.jpg
-- path: 2
-  name: mask-Thorgrim
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Thorgrim.jpg
-- path: 2
-  name: mask-adeo
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-adeo.jpg
-- path: 2
-  name: mask-gario
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-gario.jpg
-- path: 2
-  name: mask-octo
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-octo.jpg
-- path: 2
-  name: mask-remius
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-remius.jpg
-- path: 2
-  name: mask-roscian
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-roscian.jpg
-- path: 2
-  name: mask-sigric
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-sigric.jpg
-- path: 2
-  name: mask-torvic
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-torvic.jpg
 
 - path: 4
   name: RTbHrvo
   img: ../assets/campaigns/04-Legacy-of-Fire/RTbHrvo.png
+
+- path: 5
+  name: mask-Arael
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Arael.jpg
+- path: 5
+  name: mask-Cassius
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Cassius.jpg
+- path: 5
+  name: mask-Celinda
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Celinda.jpg
+- path: 5
+  name: mask-Larco
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Larco.jpg
+- path: 5
+  name: mask-Merric
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Merric.jpg
+- path: 5
+  name: mask-Primus
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Primus.jpg
+- path: 5
+  name: mask-Thorgrim
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Thorgrim.jpg
+- path: 5
+  name: mask-adeo
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-adeo.jpg
+- path: 5
+  name: mask-gario
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-gario.jpg
+- path: 5
+  name: mask-octo
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-octo.jpg
+- path: 5
+  name: mask-remius
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-remius.jpg
+- path: 5
+  name: mask-roscian
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-roscian.jpg
+- path: 5
+  name: mask-sigric
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-sigric.jpg
+- path: 5
+  name: mask-torvic
+  img: ../assets/campaigns/02-The-Crimson-Throne/mask-torvic.jpg
 
 - path: 6
   name: Draco (Cookbook that Sabri made)
