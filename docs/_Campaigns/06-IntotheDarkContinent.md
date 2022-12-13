@@ -1,10 +1,21 @@
 ---
-title: (6) Into the Dark Continent
+title: Into the Dark Continent
 layout: default
 ---
 
 
 # Into the Dark Continent
+
+## The Cast
+
+{% include characters.html path=6 %}
+
+## The Scenery
+
+{% include scenery.html path=6 %}
+
+
+## Sargava
 Sargava is a land on the verge, simultaneously pushing on the edge of the map of the Inner Sea and facing an uncertain political future. The nigh impassable jungles of the Mwangi Expanse and the permanent hurricane known as the Eye of Abendego isolate Sargava from the rest of Garund, and its closest neighbors are only nominally nations themselves. The former Chelish colony also stands at the threshold of a new future free from colonial rule, making all things possible.
 
 Yet the citizens of Sargava were not the first to attempt to carve civilization out of the wild region—since the dawn of history, humanity has strived to form great kingdoms amid the dangers of the Mwangi Expanse. Crumbled ruins are all that remain of these vanished empires, and even their names have been forgotten by history. Some scholars even whisper that lost ruins of the ancient Azlanti empire may be found in the unexplored jungles, but these crackpot theories are dismissed by more reputable sages. But whatever their origins, these ruins may provide incredible wealth and power to those who rediscover them. This dangerous land and the wilderness beyond serve as the setting of the Adventure Path.

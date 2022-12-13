@@ -1,10 +1,20 @@
 ---
-title: (7) Haunted Lands
+title: Haunted Lands
 layout: default
 ---
 
+# Haunted Lands
 
-# Player Guide
+## The Cast
+
+{% include characters.html path=7 %}
+
+## The Scenery
+
+{% include scenery.html path=7 %}
+
+
+## Player Guide
 Tales are told throughout Golarion of shadowy figures that lurk in dark corners — stories recounted at children’s bedsides feature bestial creatures that come out only when the moon is right, and fireside legends speak of otherworldly beings beyond reckoning, whose very existence is more than the human mind can bear to know. These are the legends that explain where the blood of the family cow went, and why clerics spend so much time ensuring the proper Pharasmin rites are observed at gravesites throughout the Inner Sea. One can write them off as simple, scary stories in Absalom or Westcrown, but in Ustalav, everyone knows the truth of the things that go bump in the night. In this adventure path, the horrors of the night become undeniably real as the PCs undertake a journey that will decide the future of a nation.
 
 ## Ustalav Overview
