@@ -84,14 +84,14 @@
 
 
 - path: 4
-  name: Antara
-  img: ../assets/campaigns/04-Legacy-of-Fire/Antara.jpg
-- path: 4
   name: Baaquir
   img: ../assets/campaigns/04-Legacy-of-Fire/Baaquir.jpg
 - path: 4
   name: Feathers
   img: ../assets/campaigns/04-Legacy-of-Fire/Feathers.png
+- path: 4
+  name: Antara
+  img: ../assets/campaigns/04-Legacy-of-Fire/Antara.jpg
 - path: 4
   name: Marwaan
   img: ../assets/campaigns/04-Legacy-of-Fire/Marwaan.jpg
@@ -240,9 +240,6 @@
 - path: 8
   name: Hansi
   img: ../assets/campaigns/08-Return-to-Sandpoint/Hansi.jpg
-- path: 8
-  name: Kanabō
-  img: ../assets/campaigns/08-Return-to-Sandpoint/Kanabo.jpg
 - path: 8
   name: Mokren
   img: ../assets/campaigns/08-Return-to-Sandpoint/Mokren.jpg

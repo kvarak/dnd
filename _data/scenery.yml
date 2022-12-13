@@ -37,46 +37,46 @@
 
 - path: 5
   name: mask-Arael
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Arael.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-Arael.jpg
 - path: 5
   name: mask-Cassius
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Cassius.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-Cassius.jpg
 - path: 5
   name: mask-Celinda
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Celinda.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-Celinda.jpg
 - path: 5
   name: mask-Larco
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Larco.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-Larco.jpg
 - path: 5
   name: mask-Merric
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Merric.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-Merric.jpg
 - path: 5
   name: mask-Primus
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Primus.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-Primus.jpg
 - path: 5
   name: mask-Thorgrim
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-Thorgrim.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-Thorgrim.jpg
 - path: 5
   name: mask-adeo
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-adeo.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-adeo.jpg
 - path: 5
   name: mask-gario
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-gario.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-gario.jpg
 - path: 5
   name: mask-octo
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-octo.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-octo.jpg
 - path: 5
   name: mask-remius
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-remius.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-remius.jpg
 - path: 5
   name: mask-roscian
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-roscian.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-roscian.jpg
 - path: 5
   name: mask-sigric
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-sigric.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-sigric.jpg
 - path: 5
   name: mask-torvic
-  img: ../assets/campaigns/02-The-Crimson-Throne/mask-torvic.jpg
+  img: ../assets/campaigns/05-Vanguard-of-Hope/mask-torvic.jpg
 
 - path: 6
   name: Havoc
@@ -150,11 +150,14 @@
   img: ../assets/campaigns/07-Haunted-Lands/sub.png
 
 - path: 8
-  name: Augustus rustning
-  img: ../assets/campaigns/08-Return-to-Sandpoint/Augustus rustning.png
+  name: Thing in the cabin
+  img: ../assets/campaigns/08-Return-to-Sandpoint/thinginthecabin.png
 - path: 8
   name: brinestump marsh
   img: ../assets/campaigns/08-Return-to-Sandpoint/brinestump-marsh.png
+- path: 8
+  name: Augustus rustning
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Augustus rustning.png
 - path: 8
   name: funeral ship
   img: ../assets/campaigns/08-Return-to-Sandpoint/funeral-ship.png
@@ -174,8 +177,8 @@
   name: Sandpoint
   img: ../assets/campaigns/08-Return-to-Sandpoint/sandpoint.png
 - path: 8
-  name: Thing in the cabin
-  img: ../assets/campaigns/08-Return-to-Sandpoint/thinginthecabin.png
+  name: Kanabō
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Kanabo.jpg
 
 - path: 9
   name: Golarion inner sea
