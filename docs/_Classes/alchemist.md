@@ -217,20 +217,33 @@ You regain ***Alchemy points*** after a long rest. See *Rest Additions* for more
 <img src='https://www.gmbinder.com/images/375WaGT.png' style='float:left;width:30%;padding:20px' />
 
 *Brewing the following potions cost 1 alchemy point.*
+<div class="columnstwo">
+
 - Any mundane alchemical substance.
 - **Bear’s Endurance**. The target gains 2d6 temporary hit points, which are lost when the effect ends.
 - **Bull’s Strength**. Target’s carrying capacity doubles.
 - **Curative**. A creature that drinks this elixir heals 2 [hit die] + 4 hit points.
 - **Diver**. The target gains the ability to hold its breath twice as long as normal, i.e. for a number of minutes equal to 2 + twice its Constitution bomns.
 
+</div>
+
 *From level 8, you can brew the following potions, for 2 alchemy points each.*
+
+<div class="columnstwo">
+
 - **Neutralizer**. A creature that drinks this elixir gains advantage on saving throws against poison. If you are poisoned when you drink this potion, you may immediately make a new saving throw.
 - **Preventative**. A creature that drinks this elixir gains advantage on saving throws against disease. If you are diseased when you drink this remedy, you may immediately make a new saving throw.
 
+</div>
+
 *At level 14, you can brew the following potions, for 3 alchemy points each.*
+
+<div class="columnstwo">
+
 - **Gaseous Form**. The drinker and along with everything worn, transforms into a misty cloud for the duration, as the spell.
 - **Haste**. As the spell.
 
+</div>
 
 ### Evasion
 Your experience with avoiding your own bombs' explosions has granted you the ability to nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an *ice storm* spell.
