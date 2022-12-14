@@ -97,7 +97,7 @@ Each travel day is broken up into distinct phases — breaking camp, travel, set
   **Make camp**: Take off your gear and set up camp.
 
 - ### <a class="internal-link" name="internal-TheNightRest">4. The Night Rest</a>
-  The night is dark and full of terrors, an unwelcoming to travelers. Travel is very difficult and it's easy to get lost, so get some sleep and recover your energy for tomorrow. See <a href="rest.html">Resting</a> on the resting rules and what activities you can perform during the long rest.
+  The night is dark and full of terrors, an unwelcoming to travelers. Travel is very difficult and it's easy to get lost, so get some sleep and recover your energy for tomorrow. See <a href="5-rules-adventuring.html#internal-RestActivities">Rest Activities</a> in the adventuring chapter to what activities you can perform during the long rest.
 
 </div>
 
@@ -142,6 +142,8 @@ A role can have only one leader, but any number of helpers. The leader makes the
 
   ***Failure***: You were unable to find anything.
 
+  Additionally a character can forage for herbs. See the section for <a href="1.1-herbalism.html">Herbalism</a> for how that works.
+
   <div class="block classTable fillClassTable frame" markdown="1">
 
   #### Foraging
@@ -155,8 +157,6 @@ A role can have only one leader, but any number of helpers. The leader makes the
   | **30** | Toxic or corrupted deadlands; Food is inedible and water sources are poisoned.
 
   </div>
-
-  Additionally a character can forage for herbs. See the section for <a href="herbalism.html">Herbalism</a> for how that works.
 
 - ### <a class="internal-link" name="internal-RoleTheLookout">The Lookout</a>
   The lookout ranges ahead during the day's travel and keeps an eye out for dangers. If the lookout fails, you may be ambushed by enemies and other hazards.

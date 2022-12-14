@@ -1,4 +1,0 @@
----
-title: Spells
-layout: spells
----
