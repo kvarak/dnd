@@ -145,19 +145,21 @@ An elementary reagent is a versatile concoction which can be finalized into one 
 
 After the final mix is made, the concoction has to be used within a number of rounds equal to your Intelligence modifier. You can make the reagents into one of the following:
 
+<div class="columns">
 
+- **Adhesive**. As an ***action***, you can stick two surfaces together, requiring a Strength check against your Alchemy save DC to separate. Lasts 1 hour or until you separate them chemically as an ***action***.
 
-**Adhesive**. As an ***action***, you can stick two surfaces together, requiring a Strength check against your Alchemy save DC to separate. Lasts 1 hour or until you separate them chemically as an ***action***.
+- **Aromatic**. You can reproduce a non-harmful, non-magical scent you remember for a number of minutes equal to your Intelligence modifier.
 
-**Aromatic**. You can reproduce a non-harmful, non-magical scent you remember for a number of minutes equal to your Intelligence modifier.
+- **Corrosive**. An unstable vial of Acid.
 
-**Corrosive**. An unstable vial of Acid.
+- **Endotherm**. You mix a potion that rapidly cools, decompressing the surrounding air with a loud bang that can be heard within a number of feet equal to your Intelligence modifier times 100 feet.
 
-**Endotherm**. You mix a potion that rapidly cools, decompressing the surrounding air with a loud bang that can be heard within a number of feet equal to your Intelligence modifier times 100 feet.
+- **Incendiary**. An unstable flask of Alchemist’s Fire.
 
-**Incendiary**. An unstable flask of Alchemist’s Fire.
+- **Luminescent**. You mix a luminous concoction that sheds dim light in a radius equal to five times your Intelligence modifier and bright light for half of that. This effect lasts 1 hour or until the vial is broken.
 
-**Luminescent**. You mix a luminous concoction that sheds dim light in a radius equal to five times your Intelligence modifier and bright light for half of that. This effect lasts 1 hour or until the vial is broken.
+</div>
 
 #### Poison
 Poison concoctions can be applied to slashing or piercing weapons. As an ***action***, you can apply one of these poisons to your weapon or to three pieces of ammunition, where it lasts for 10 minutes before it becomes inert.
@@ -416,6 +418,8 @@ If you spend a short rest with your leatherworker's tools on your cadaver, it re
 Your cadaver is created by science, but unfortunately people often associate undead with evil. Luckily your cadaver’s undead nature is easy to hide, at least if reasonably fresh. All it takes is covering it with clothes, armor, bandages and maybe a mask or hat.
 
 
+<img src='https://mythcreants.com/wp-content/uploads/2021/05/Alchemist-Apprentice-768x562.png' style='float:right;width:20%;padding:20px' />
+
 ### Revival Concoction
 You learn how to prepare an additional concoction, the revival concoction, which can be used as an ***action*** to repair your cadaver.
 
@@ -426,19 +430,23 @@ Using the concoction on a “living” cadaver grants it temporary hit points eq
 ### Corpsecrafting Infusions
 When you create your cadaver, you can choose to add a variety of boons and features to it by using corpsecrafting infusions. When creating a cadaver you can apply one effect form the infusions list. You can apply one additional infusion at 10th level. Some infusions can be applied twice, with additional effects.
 
-**Draining Touch**. When you apply this infusion to your cadaver, its unarmed attacks instead do 3d6 necrotic damage. If applied twice, the cadaver regains health equal to half the damage dealt with this attack.
+<div class="columnsthree">
 
-**Enhanced Vitality**. When you apply this infusion to your cadaver, double its hit points. If applied twice, double it again.
+- **Draining Touch**. When you apply this infusion to your cadaver, its unarmed attacks instead do 3d6 necrotic damage. If applied twice, the cadaver regains health equal to half the damage dealt with this attack.
 
-**Extraordinary Activation**. Each time you apply this infusion to your cadaver, it gains a skill point to spend on a combat skill.
+- **Enhanced Vitality**. When you apply this infusion to your cadaver, double its hit points. If applied twice, double it again.
 
-**Galvanism**. Whenever the cadaver is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt. If applied twice, it also gains resistance to acid damage.
+- **Extraordinary Activation**. Each time you apply this infusion to your cadaver, it gains a skill point to spend on a combat skill.
 
-**Martial Memories**. The cadaver gains an additional attack every time it takes the attack action.
+- **Galvanism**. Whenever the cadaver is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt. If applied twice, it also gains resistance to acid damage.
 
-**Necrotic Regeneration**. When you apply this infusion to your cadaver, if it has more than 0 hit points it regains hit points equal to your Intelligence modifier at the start of your turn. The amount regenerated increases to twice your Intelligence modifier if applied twice.
+- **Martial Memories**. The cadaver gains an additional attack every time it takes the attack action.
 
-**Undead Constitution**. When you apply this infusion to your cadaver, it gains immunity to the charmed, exhaustion, paralyzed and petrified condition as well as resistance to necrotic damage. If applied twice, it also gains resistance to bludgeoning, piercing, and slashing from nonmagical attacks.
+- **Necrotic Regeneration**. When you apply this infusion to your cadaver, if it has more than 0 hit points it regains hit points equal to your Intelligence modifier at the start of your turn. The amount regenerated increases to twice your Intelligence modifier if applied twice.
+
+- **Undead Constitution**. When you apply this infusion to your cadaver, it gains immunity to the charmed, exhaustion, paralyzed and petrified condition as well as resistance to necrotic damage. If applied twice, it also gains resistance to bludgeoning, piercing, and slashing from nonmagical attacks.
+
+</div>
 
 ### Unnatural Intellect
 Your cadaver gains some semblance of thought. Your cadaver can now act on its own, not needing to be commanded with your bonus action to use its own actions.
@@ -446,15 +454,19 @@ Your cadaver gains some semblance of thought. Your cadaver can now act on its ow
 ### Magnum Opus
 You have developed some extraordinary infusions for your cadaver. Choose one of the Magnum Opus infusions to give to a cadaver you create.
 
-**Magnum Opus: Incorporeal**. When you apply this infusion to your cadaver, it gains a flying speed of 30ft and becomes immune to the grappled, prone and restrained condition. It also can move through other creatures and objects as if they were difficult terrain, taking 1d10 force damage if it ends its turn inside an object.
+<div class="columnsthree">
 
-**Magnum Opus: Harbinger**. When you apply this infusion to your cadaver, whwnever it kills another humanoid, the creature will rise as a zombie with one hit point at the start of your next turn. It is under your command and uses your initiative count.
+- **Magnum Opus: Incorporeal**. When you apply this infusion to your cadaver, it gains a flying speed of 30ft and becomes immune to the grappled, prone and restrained condition. It also can move through other creatures and objects as if they were difficult terrain, taking 1d10 force damage if it ends its turn inside an object.
 
-**Magnum Opus: Macabre Doppelganger**. When you apply this infusion to your cadaver, your cadaver gains a new strange ability. When you die, your cadaver can turn itself into an unnatural imitation of you by consuming your fresh (within the hour) corpse. When it does this, it gains all your statistics as well as your behaviours and memories but not your appearance. Over the course of the next week, the cadaver slowly changes to look identical to your original body.
+- **Magnum Opus: Harbinger**. When you apply this infusion to your cadaver, whwnever it kills another humanoid, the creature will rise as a zombie with one hit point at the start of your next turn. It is under your command and uses your initiative count.
 
-If you manage to be resurrected before the cadaver finishes changing, the cadaver reverts back to normal, if however, the cadaver finishes its transformation before you are resurrected your soul is thrust into the cadaver.
+- **Magnum Opus: Macabre Doppelganger**. When you apply this infusion to your cadaver, your cadaver gains a new strange ability. When you die, your cadaver can turn itself into an unnatural imitation of you by consuming your fresh (within the hour) corpse. When it does this, it gains all your statistics as well as your behaviours and memories but not your appearance. Over the course of the next week, the cadaver slowly changes to look identical to your original body.
 
-During the transformation, the cadaver can't create another cadaver using its 'Animate cadaver' feature.
+  If you manage to be resurrected before the cadaver finishes changing, the cadaver reverts back to normal, if however, the cadaver finishes its transformation before you are resurrected your soul is thrust into the cadaver.
+
+  During the transformation, the cadaver can't create another cadaver using its 'Animate cadaver' feature.
+
+</div>
 
 <hr class="classdivider">
 
@@ -477,6 +489,8 @@ While many "mad bombers" aren't actually mad, it takes a special kind of crazy t
 
 ### Makeshift Bombs
 The creation of bombs is so ingrained in your memory that you can do it in an instant. As long as you have alchemist’s supplies and a component pouch, you can create a makeshift bomb as an ***item action***. The bomb does not count against your daily limit of concoctions, only damages a single target on a hit and cannot be modified by any of your discoveries.
+
+<img src='http://www.koboldpress.com/wp-content/uploads/2011/06/alchemy-bottle.jpg' style='float:left;width:20%;padding:20px' />
 
 ### Demolition
 You learn to use your bombs to damage and destroy structures. You now make your bombs to accept fuses of various lengths. As an ***action***, you can set a bomb and light its fuse, which has a duration of your choice between 1 round and 5 minutes. Upon detonation, this bomb deals its damage as normal, but also deals double damage to any nonmagical object within 5 ft of it that isn't being worn or carried and also ignores its damage immunities. For rules on objects and their hit points, see pages 246 and 247 of the Dungeon Master's Guide.
@@ -551,6 +565,8 @@ You learn how to create more versatile versions of your poison concoctions. When
 
 Psychedelics specialize in manipulating the minds of creatures using hormones, narcotics and other baneful elixirs to make them compliant. Whether it is to gather information, convince a target of a truth or to assassinate a suspect, the psychedelics move silently and deadly.
 
+<img src='https://i.imgur.com/dtkd4nA.png' style='float:left;width:20%;padding:20px' />
+
 ### Psychedelic Concoctions
 From 2nd level, when you choose this field of study, you learn how to prepare an additional concoction, the hallucinogen.
 
@@ -606,6 +622,8 @@ Not satisfied with mere mundane alchemy, the transmuter blends science with arca
 
 ### Bonus Skills
 When you select this field of study at 2nd level, you gain 2 skill points to spend on Arcana.
+
+<img src='https://wizardofthetavern.com/wp-content/uploads/2020/04/transmute-1.jpg' style='float:left;width:35%;padding:20px' />
 
 ### Spellcasting
 You gain the ability to cast spells.
@@ -727,6 +745,8 @@ If a discovery has prerequisites, you must meet them to learn it. You can learn 
 
     **Stoneskin**. The target’s flesh becomes as hard as stone. Until the effect ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage. (*3 alchemy points*)
 
+- <img src='https://img.over-blog-kiwi.com/1/87/76/85/20170811/ob_1950d2_ekaterina-burmak-folio-alchemist.jpg' style='width:85%;padding:20px' />
+
 -   ### Alchemy of the Mind
     *Prerequisite: Brew Potions feature*
 
@@ -784,8 +804,6 @@ If a discovery has prerequisites, you must meet them to learn it. You can learn 
 
     You can create potions in powdered rather than liquid form if desired. The potions can be used for two days before becoming inert. However, it takes 2 rounds to prepare them for use, and so prepared, they must be used within a minute.
 
--   <img src='https://i.pinimg.com/originals/78/1a/dc/781adc9d6f97e084c7f075950f8a0775.jpg' style='width:75%;padding:20px' />
-
 -   ### Craft Homunculus
     Using a special alchemical process requiring 8 hours of work, you can create a homunculus (Monster Manual pg. 188.) A homunculus functions as a familiar summoned by the find familiar spell, with the following differences:<br/>
     -- Your homunculus is a construct and cannot assume a different form.<br/>
@@ -804,6 +822,8 @@ If a discovery has prerequisites, you must meet them to learn it. You can learn 
 
 -   ### Glassfoot Bomb
     When you create a bomb, he can choose to have it cover the ground in volatile jagged crystals in addition to its normal effects. These crystals act like caltrops, evaporating into a smelly but harmless gas in 2d6 rounds.
+
+-   <img src='https://i.pinimg.com/originals/78/1a/dc/781adc9d6f97e084c7f075950f8a0775.jpg' style='width:85%;padding:20px' />
 
 -   ### Hallucinogenic Toxin
     You can add hallucinogenic properties to your poisons. If a target fails a Wisdom save against your poison, it becomes frightened by a random source (DM decides based on the target). The target attacks the closest target to it each turn if able. If it cannot attack, it does nothing.
@@ -889,6 +909,8 @@ If a discovery has prerequisites, you must meet them to learn it. You can learn 
     *Prerequisite: 15th level, Mad Bomber field of study*
 
     You can set your bombs to explode in different patterns. As part of your attack when you throw a bomb, you can change that bomb's blast radius to a 15 foot cone or a 20 foot line, originating from the target's space in a direction of your choice.
+
+-   <img src='https://2.bp.blogspot.com/-ITy9OUorDio/Vw0oeN13D4I/AAAAAAAAHZ0/uYX2lT-p4n0o_Y1z0U7gw2SeKgMkZ1dpgCLcB/w1200-h630-p-k-no-nu/1382836114588.jpg' style='width:85%;padding:20px' />
 
 </div>
 
