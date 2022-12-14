@@ -112,6 +112,10 @@ table {
   padding: 20px;
 }
 
+.td-nobreak {
+  white-space: nowrap;
+}
+
 details {
   margin-top: 1px;
   margin-left: 20px;
