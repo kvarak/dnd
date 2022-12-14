@@ -270,13 +270,13 @@ The type of martial training you received sets the groundwork for your career as
     You have learnt your martial skills as a member of the army. It could be the standing army of the king, or a mercenary unit selling their skills to the highest bidder.
 
     **Bonus proficiencies**:
-    Gain the *Profession - Soldier* skill. Also, depending on your assignment you gain the following:
-    - **Archer unit**: Add *Craft - Woodworking - Bowyer* or *Craft - Metalsmith - Arrowsmith* to your class skills and gain 1 skill point to spend on this skill.
-    - **Cavalry**: For you the skill *Animal handling - Animal husbandry* has cost 0. Gain 1 skill point to spend on *Animal handling*.
-    - **Chariot**: For you the skill *Animal handling - Animal husbandry - Teamster* has cost 0. Gain 1 skill point to spend on *Animal handling*.
-    - **Infantry**: For you the skill *Physique - Endurance* has cost 0. Gain 1 skill point to spend on *Animal Physique*.
-    - **Navy**: Add *Sailor* to your class skills and gain 1 skill point to spend on it.
-    - **Scout**: Add *Survival* to your class skills and gain 1 skill point to spend on it.
+    Gain the *Profession - Soldier* skill. Also, depending on your assignment you gain the following:<br/>
+    -- **Archer unit**: Add *Craft - Woodworking - Bowyer* or *Craft - Metalsmith - Arrowsmith* to your class skills and gain 1 skill point to spend on this skill.<br/>
+    -- **Cavalry**: For you the skill *Animal handling - Animal husbandry* has cost 0. Gain 1 skill point to spend on *Animal handling*.<br/>
+    -- **Chariot**: For you the skill *Animal handling - Animal husbandry - Teamster* has cost 0. Gain 1 skill point to spend on *Animal handling*.<br/>
+    -- **Infantry**: For you the skill *Physique - Endurance* has cost 0. Gain 1 skill point to spend on *Animal Physique*.<br/>
+    -- **Navy**: Add *Sailor* to your class skills and gain 1 skill point to spend on it.<br/>
+    -- **Scout**: Add *Survival* to your class skills and gain 1 skill point to spend on it.
 
     **Bonus maneuver**:
     At 2nd level you learn the Athletic Prowess maneuver.
@@ -355,7 +355,7 @@ Add *Craft - Metalsmith - Arrowsmith* and *Craft - Crossbow Making* to your clas
 
 During a day of work, you can try to modify an existing crossbow into a repeating crossbow. This is a DC 20 Intelligence (Crossbow making) check using your tools. If you fail, you can repeat this check the next day, with the DC reduced by 2. This reduction is cumulative.
 
-<img src='https://www.dandwiki.com/w/images/thumb/2/2c/The_Black_Knight.png/300px-The_Black_Knight.png' style='float:right;width:20%;padding:20px' />
+<img src='https://www.dandwiki.com/w/images/thumb/2/2c/The_Black_Knight.png/300px-The_Black_Knight.png' style='float:right;width:40%;padding:20px' />
 
 A repeating crossbow has the statistics of the base crossbow, but adds 2 lbs to its weight, and has a magazine that holds up to 12 bolts at once and doesn't require any sort of action to reload between attacks. Changing an empty magazine requires an action.
 

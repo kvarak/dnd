@@ -214,6 +214,8 @@ You have learnt to create potions with ease and speed. During a couple of hours 
 
 You regain ***Alchemy points*** after a long rest. See *Rest Additions* for more info.
 
+<img src='https://www.gmbinder.com/images/375WaGT.png' style='float:left;width:40%;padding:20px' />
+
 *Brewing the following potions cost 1 alchemy point.*
 - Any mundane alchemical substance.
 - **Bear’s Endurance**. The target gains 2d6 temporary hit points, which are lost when the effect ends.
@@ -268,7 +270,7 @@ When you select this field of study at 2nd level, you gain 1 skill point to spen
 
 ### Painkiller Bomb
 
-<img src='https://i.pinimg.com/originals/9f/44/28/9f442894bec6ab5311e1c00ca5735ce7.png' style='float:right;width:20%;padding:20px' />
+<img src='https://i.pinimg.com/originals/9f/44/28/9f442894bec6ab5311e1c00ca5735ce7.png' style='float:right;width:30%;padding:20px' />
 
 You can create bombs which spray an analgesic oil. When creating a bomb, you can replace its contents with this oil, changing it to a painkiller bomb. The bomb can then be thrown as normal or splashed on an adjacent creature.
 
@@ -457,7 +459,6 @@ During the transformation, the cadaver can't create another cadaver using its 'A
 | 16th | Big bombs
 
 </div>
-<img src='https://www.gmbinder.com/images/375WaGT.png' style='float:left;width:20%;padding:20px' />
 
 While many "mad bombers" aren't actually mad, it takes a special kind of crazy to devote one's life to studying explosives. Most alchemists who specialize in this field are incorrigible pyromaniacs who take great pleasure in burning, blasting, and blowing things up. Mad bombers are always working to improve their bombs' effectiveness.
 

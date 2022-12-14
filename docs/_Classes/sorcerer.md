@@ -44,7 +44,7 @@ Magic is a part of every sorcerer, suffusing body, mind, and spirit with a laten
 
 The appearance of sorcerous powers is wildly unpredictable. Most of the time, the talents of sorcery appear as apparent flukes. Some sorcerers can't name the origin of their power, while others trace it to strange events in their own lives. The touch of a demon, the blessing of a dryad at a baby's birth, or a taste of the water from a mysterious spring might spark the gift of sorcery. So too might the gift of a deity of magic, exposure to the elemental forces of the Inner Planes or the maddening chaos of Limbo, or a glimpse into the inner workings of reality.
 
-<img src='https://www.gmbinder.com/images/1hC2Tvh.png' style='float:left;width:20%;padding:20px' />
+<img src='https://www.gmbinder.com/images/1hC2Tvh.png' style='float:left;width:35%;padding:20px' />
 
 #### Unexplained Powers
 When it comes to drawing forth their abilities in times of need, sorcerers have it easy compared to other characters. Their power not only rests within them, but it likely takes some effort to keep it at bay. Every sorcerer is born to the role, or stumbles into it through cosmic chance. Unlike other characters, who must actively learn, embrace, and pursue their talents, sorcerers have their power thrust upon them.
