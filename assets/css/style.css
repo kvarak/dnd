@@ -116,6 +116,10 @@ table {
   white-space: nowrap;
 }
 
+.td-center {
+  text-align: center;
+}
+
 details {
   margin-top: 1px;
   margin-left: 20px;
