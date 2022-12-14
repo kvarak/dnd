@@ -39,7 +39,7 @@ More experienced alchemists learn to mix less volatile substances, some of which
 
 ##### The Alchemist
 
-| -Level- | -PB- | -Alchemy Die- | -Features- | -Discoveries Known- |
+| -Level- | -PB- | -Alchemy Die- | -Features- | -Discoveries- |
 |:-----:|:---:|:---:|:---|:---:|
 | 1st | +2 | 1d8 | Concoctions | - |
 | 2nd | +2 | 1d8 | Field of Study | - |
@@ -113,13 +113,33 @@ Attacking at long range doesn’t impose disadvantage on your combat alchemy att
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 
-<img src='https://i.imgur.com/4AHDDpZ.png' style='float:right;width:20%;padding:20px' />
-
 - *(a)* a light crossbow and 20 bolts or *(b)* any simple weapon
 - *(a)* an explorer's pack or *(b)* a scholar's pack
 - an alchemist's kit
 - leather armor *(if proficient)* and a dagger
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| During a Long rest: |
+| * Create 2 ***Concoctions***.
+| * Create any number of potions with ***Brew Potions***.
+| &nbsp;
+| After a Long rest: |
+| * Regain 1 ***Alchemy point***.
+| &nbsp;
+| Add the following class specific benefits to choose from: |
+| * Regain all ***Alchemy points***.
+| * Create 2 additional ***Concoctions***.
+
+</div>
+</div>
+</div>
 
 ### Concoctions
 You learn how to create a variety of concoctions using your alchemist's supplies. During a long rest you can prepare 2 concoctions. See *Rest Additions* for more info.
@@ -170,28 +190,7 @@ If you damage a living creature with the weapon, this poison deals additional po
 You can mix together herbs to create potions that cure ailments and injuries. If such a potion is ingested as an ***item action***, it heals damage equal to your alchemy die.
 
 
-<div class="card rest">
-<div class="card-title restHeading">Rest Additions</div>
-<div class="card-subtitle restPad">
-The following additions are made to the general rest rules.
-<div class="card-text restTable" markdown="1">
-
-| Long rest |
-|:-|
-| During a Long rest: |
-| * Create 2 ***Concoctions***.
-| * Create any number of potions with ***Brew Potions***.
-| &nbsp;
-| After a Long rest: |
-| * Regain 1 ***Alchemy point***.
-| &nbsp;
-| Add the following class specific benefits to choose from: |
-| * Regain all ***Alchemy points***.
-| * Create 2 additional ***Concoctions***.
-
-</div>
-</div>
-</div>
+<img src='https://i.imgur.com/4AHDDpZ.png' style='float:right;width:20%;padding:20px' />
 
 <!--
 ### Studious Expertise
@@ -219,6 +218,7 @@ You regain ***Alchemy points*** after a long rest. See *Rest Additions* for more
 <img src='https://www.gmbinder.com/images/375WaGT.png' style='float:left;width:30%;padding:20px' />
 
 *Brewing the following potions cost 1 alchemy point.*
+
 <div class="columnstwo">
 
 - Any mundane alchemical substance.
@@ -304,9 +304,13 @@ Your skill with small and precise tools is so refined that it shows even in batt
 ### Bonus Potions
 You can additionally brew the following potions with your Brew potions feature:
 
-**Improved Curative**. A creature that drinks this elixir heals 4[hit die] + 4 hit points. (1 alchemy point)
+<div class="columnstwo">
 
-**Greater Curative**. A creature that drinks this elixir heals 8[hit die] + 10 hit points. (3 alchemy points)
+- **Improved Curative**. A creature that drinks this elixir heals 4[hit die] + 4 hit points. (1 alchemy point)
+
+- **Greater Curative**. A creature that drinks this elixir heals 8[hit die] + 10 hit points. (3 alchemy points)
+
+</div>
 
 ### Panacea
 During a long rest, using ***5 alchemy points*** and materials worth at least 500 gp (which are consumed upon use), you can distill the essence of universal healing, the panacea. When a creature drinks this potion, they instantly gain the following benefits:
@@ -355,9 +359,6 @@ The art of corpsecrafting specializes in using alchemy to reanimate and reshape 
 
 ### Bonus Skills
 When you select this field of study at 2nd level, you gain 2 skill points to spend on Leatherworking.
-
-### Animated Cadaver
-You have perfected the ability to reanimate corpses and modify them. During a long rest, you can alchemically reanimate a fresh cadaver if you have your alchemist’s supplies, leatherworker's tools and a humanoid corpse. When you do so, it has the base statistics listed below. You can only have one cadaver at a time as they need constant upkeep.
 
 <div class="monster frame">
 <table class="monster">
@@ -409,6 +410,9 @@ Cadaver
 
 </td></tr></tbody></table>
 </div>
+
+### Animated Cadaver
+You have perfected the ability to reanimate corpses and modify them. During a long rest, you can alchemically reanimate a fresh cadaver if you have your alchemist’s supplies, leatherworker's tools and a humanoid corpse. When you do so, it has the base statistics listed below. You can only have one cadaver at a time as they need constant upkeep.
 
 In combat, the cadaver shares your initiative count and takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action unless you take a ***bonus action*** on your turn to command it to take the Attack, Dash, Disengage, Help, Hide, or Search action.
 
@@ -642,7 +646,7 @@ You prepare the list of spells that are available for you to cast. To do so, cho
 
 ##### Transmuter Spellcasting
 
-| Transmuter Level | Cantrips Known | 1st | 2nd | 3rd | 4th
+| -Transmuter Level- | -Cantrips- | 1st | 2nd | 3rd | 4th
 |:--:|:--:|:--:|:--:|:--:|:--:|
 | 2nd | 2 | 1 | - | - | - |
 | 3rd | 2 | 2 | - | - | - |
@@ -682,10 +686,14 @@ You can spend 8 hours creating a transmuter’s stone that stores transmutation 
 
 When you create the stone, choose the benefit from the following options:
 
+<div class="columns">
+
 - Darkvision out to a range of 30 ft.
 - An increase to speed of 10 ft while the creature is unencumbered.
 - Proficiency with Constitution saving throws.
 - Resistance to acid, cold, fire, lightning, or thunder damage (your choice whenever you choose this benefit).
+
+</div>
 
 Each time you cast a transmutation spell of 1st level or higher, you can change the effect of your stone if the stone is on your person. If you create a new transmuter’s stone, the previous one ceases to function.
 
