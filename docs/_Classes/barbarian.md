@@ -348,6 +348,7 @@ The Path of the Aquatic Hunter is a spiritual journey, as the barbarian accepts 
 
 Barbarians from coastal and island cultures often draw on the spirit of the ocean's greatest hunters to inspire them in battle. Aquatic totems include killer whales (orca) and sharks.
 
+<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png' style="float:left;width:30%;padding:10px"/>
 
 ### Swimmer
 When you choose this path, you gain 2 skill points to spend on Swimming.
@@ -357,7 +358,6 @@ Choose a totem spirit. You must make or acquire a physical totem object - an amu
 
 You gain 1 skill point to spend on Animal handling. Additionally you have advantage on Charisma checks when interacting with normal animals related to your totem spirit.
 
-<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png' style="float:right;width:50%;padding:10px"/>
 
 ### Creature of the Sea
 You gain the ability to cast the *water breathing* and *speak with animals* spells, but only as rituals, and only targeting yourself.
@@ -365,31 +365,37 @@ You gain the ability to cast the *water breathing* and *speak with animals* spel
 ### Totemic Blessing
 You gain a greater connection to your totem spirit. You gain a power based on your chosen animal. The power is only active while raging and not wearing heavy armor.
 
-**Albatross.** The spirit of the albatross makes you into a opportunist who can weave through the fray with ease. Creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a **bonus action** on your turn.
+<div class="columns">
 
-**Crab.** The spirit of the lobster grants you its incredible resilience. Bludgeoning, piercing, and slashing damage done to you is reduced by 3.
+-   **Albatross.** The spirit of the albatross makes you into a opportunist who can weave through the fray with ease. Creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a **bonus action** on your turn.
 
-**Orca.** Orca travel and hunt in packs, learning to work together to defeat their prey. Your allies have advantage on melee attack rolls against any creatures adjacent to you.
+-   **Crab.** The spirit of the lobster grants you its incredible resilience. Bludgeoning, piercing, and slashing damage done to you is reduced by 3.
 
-**Shark.** The spirit of the shark makes you ferocious at the smell of blood. The spirit of the shark makes you ferocious at the smell of blood. You gain temporary hit points equal to your Constitution modifier whenever you damage a creature with a melee attack.
+-   **Orca.** Orca travel and hunt in packs, learning to work together to defeat their prey. Your allies have advantage on melee attack rolls against any creatures adjacent to you.
 
-**Whale.** The spirit of the whale protects you from the elements. When you start your rage, you gain a number of temporary hit points equal to your Constitution score, which last until your rage ends. While you have those temporary hit points, you have resistance to cold and fire damage.
+-   **Shark.** The spirit of the shark makes you ferocious at the smell of blood. The spirit of the shark makes you ferocious at the smell of blood. You gain temporary hit points equal to your Constitution modifier whenever you damage a creature with a melee attack.
 
+-   **Whale.** The spirit of the whale protects you from the elements. When you start your rage, you gain a number of temporary hit points equal to your Constitution score, which last until your rage ends. While you have those temporary hit points, you have resistance to cold and fire damage.
 
+</div>
 
 
 ### Aspect of the Beast
 You gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected previously or a different one.
 
-**Albatross.** This spirit helps you roam far and fast. Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated (see chapter 8 in the Player's Handbook for more information about travel pace).
+<div class="columns">
 
-**Crab.** You suffer none of the drawbacks of old age, and you can't be aged magically.
+-   **Albatross.** This spirit helps you roam far and fast. Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated (see chapter 8 in the Player's Handbook for more information about travel pace).
 
-**Orca.** While raging, you gain blindsight to a range of 10 feet in air, or 60 feet underwater. As this ability is gained by echolocation, you can't use this ability while deafened.
+-   **Crab.** You suffer none of the drawbacks of old age, and you can't be aged magically.
 
-**Shark.** You gain the swiftness and senses of a shark. You have a swimming speed equal to your walking speed and advantage on tracking creatures that do not have all their hit points.
+-   **Orca.** While raging, you gain blindsight to a range of 10 feet in air, or 60 feet underwater. As this ability is gained by echolocation, you can't use this ability while deafened.
 
-**Whale.** As Orca.
+-   **Shark.** You gain the swiftness and senses of a shark. You have a swimming speed equal to your walking speed and advantage on tracking creatures that do not have all their hit points.
+
+-   **Whale.** As Orca.
+
+</div>
 
 ### Oceanic Blessing
 You may cast the *water breathing* spell granted by Creature of the sea on other targets than yourself.
@@ -401,17 +407,19 @@ Additionally you can cast the *commune with the sea* spell, but only as a ritual
 ### Totemic Attunement
 You gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected previously or a different one, however, at least two of the selections must be from your totem animal.
 
-**Albatross.** While raging, you have a flying speed equal to your base walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.
+<div class="columns">
 
-**Crab.** While raging, any creature grappled by you takes 1d6 + your Strength modifier + your rage bonus in bludgeoning damage when it starts its turn.
+- **Albatross.** While raging, you have a flying speed equal to your base walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.
 
-**Orca.** You learn to use your size and speed to your advantage in combat. While you are raging, you can use a ***bonus action*** on your turn to knock a Large or smaller creature prone when you hit it with a melee attack.
+- **Crab.** While raging, any creature grappled by you takes 1d6 + your Strength modifier + your rage bonus in bludgeoning damage when it starts its turn.
 
-**Shark.** Your emotionless ferocity is more terrifying than any wild rage. While raging, enemies you damage with a melee weapon attack have disadvantage on attack rolls against you until the end of its next turn. An enemy is immune to this effect if it can't see or hear you, or if it can't be frightened.
+- **Orca.** You learn to use your size and speed to your advantage in combat. While you are raging, you can use a ***bonus action*** on your turn to knock a Large or smaller creature prone when you hit it with a melee attack.
 
-**Whale.** While raging, you are under the enlarge effect of the *enlarge/reduce* spell. You also count as one size larger than your enraged size for the purposes of determining which creatures you can grapple and shove.
+- **Shark.** Your emotionless ferocity is more terrifying than any wild rage. While raging, enemies you damage with a melee weapon attack have disadvantage on attack rolls against you until the end of its next turn. An enemy is immune to this effect if it can't see or hear you, or if it can't be frightened.
 
+- **Whale.** While raging, you are under the enlarge effect of the *enlarge/reduce* spell. You also count as one size larger than your enraged size for the purposes of determining which creatures you can grapple and shove.
 
+</div>
 
 
 <hr class="classdivider">
@@ -898,6 +906,8 @@ Though most tribes of the world may lack parchment to draw and write on, all hav
 ### Bonus Skills
 When you choose this primal path at 1st level, you gain the Art - Drawing, Art - Tattooing skills and 1 additional skill point to spend on your class skills.
 
+<img src='https://i.pinimg.com/originals/7b/cb/1c/7bcb1cf0f3f6701361a1fb305df8727b.png' style="float:left;width:25%;padding:10px"/>
+
 ### Primal Tattoos
 You can invoke tattoos on you body with your savage anger. You have a number of tattoos equal to your Constitution modifier (minimum 1), chosen from the options at the end of this class description. When you enter a rage, you can activate the effects of tattoos you have on your body, to a maximum amount of tattoos activated at once equal to your rage damage bonus. You choose which tattoos you wish to activate every time you enter a rage.
 
@@ -996,11 +1006,12 @@ All barbarians harbor a fury within. Their rage grants them superior strength, d
 
 Storm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. Other storm heralds hone their craft in lodges in regions wracked by storms, in the frozen reaches at the world’s end, or deep in the hottest deserts.
 
+<img src='https://db4sgowjqfwig.cloudfront.net/campaigns/90586/assets/801523/thunder_barbarian.jpg?1511266560' style="float:left;width:25%;padding:10px"/>
 
 ### Thunder Sense
 When you choose this path at 1st level, you can use your action to predict the weather for the next 24 hours. You can sense where within a 5 mile radius a storm will happen, what kind of storm it will be, and how intense the storm will be.
 
-### Storm of Fury
+### Storm Aura
 You emanate a stormy, magical aura while you rage. The aura extends 10 ft in every direction, but not through total cover.
 
 Your aura has an effect that activates when you enter your rage, and you can activate the effect again on each of your turns as a ***bonus action***. Choose desert, sea, or tundra. Your aura’s effect depends on that chosen environment, as detailed below. You can change your environment choice whenever you gain a level in this class.
