@@ -214,7 +214,7 @@ You have learnt to create potions with ease and speed. During a couple of hours 
 
 You regain ***Alchemy points*** after a long rest. See *Rest Additions* for more info.
 
-<img src='https://www.gmbinder.com/images/375WaGT.png' style='float:left;width:40%;padding:20px' />
+<img src='https://www.gmbinder.com/images/375WaGT.png' style='float:left;width:30%;padding:20px' />
 
 *Brewing the following potions cost 1 alchemy point.*
 - Any mundane alchemical substance.
