@@ -3241,7 +3241,7 @@ For 1 minute, you gain the following benefits:
 #### Oath Features
 | Paladin Level | Feature |
 |:-------------:|:--------|
-| 1st | Draining Bite, Sacred Touch, Vampiric Nature |
+| 1st | Draining Bite, Sacred Touch,<br>Vampiric Nature |
 | 3rd | Channel Divinity, Protean Form |
 | 7th | Blood Thirst, Dark Aura
 | 15th | Undead Regeneration
@@ -3249,7 +3249,6 @@ For 1 minute, you gain the following benefits:
 | 20th | Vampiric Form
 
 </div>
-
 
 Unlike a regular Dhampir, you are a real vampire; a monster, fated and infected by a vile curse that transformed you into a creature of nightmare. By some means — whether by the lifedraining attack of an elder vampire, an ancient doom laid upon your family, the foul magic of a hateful enemy, or even by seeking immortal power yourself through ancient rites and alchemical formulas — the curse of vampirism fell upon you.
 
@@ -3266,11 +3265,6 @@ You struggle unrelentingly to control the monstrous urges of your vampiric natur
 
  **Loyalty**. Those who accept you for what you are take a grave chance, and transcend their natural instincts of fear and revulsion to maintain your company. They are a treasure greater than gold, and must be protected accordingly.
 
-
-
-
-
-
 ### Draining Bite
 If you are below half you maximum hit points and do not have all your Hit Die, you can drain the blood of others. You can bite this way by making an unarmed strike against a willing creature, a creature that is incapacitated or restrained, or a creature that is grappled by you. Constructs, undead and other creatures that do no have blood are immune to this attack.
 
@@ -3284,7 +3278,7 @@ You gain access to the following.
 <div class="columnstwo">
 
 - #### Divine Blessing
-    This blessing can only be used on yourself, and requires you to spend at 1 Devotion.
+    This blessing can only be used on yourself, and requires you to spend at least 1 Devotion.
 
     ***Spider Climb***. You gain a climbing speed equal to your walking speed, and the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.
 
@@ -3369,7 +3363,7 @@ You can use an ***action*** and spend 5 Devotion to undergo a transformation. Fo
 | Paladin Level | Feature |
 |:----------------:|:--------|
 | 1st | Good Host, Sacred Touch |
-| 3rd | Channel Divinity, Prayer: Rejuvenation |
+| 3rd | Channel Divinity,<br>Prayer: Rejuvenation |
 | 7th | Aura of Revelry
 | 9th | Strengthening the Divine
 | 15th | Dramatic Entrance
@@ -3392,11 +3386,8 @@ The tenets of this oath call its adherents to care for the well-being of others 
 
  **Hospitality**. There is always room for another chair at the bar, another seat at the table, and another friend in your heart. Bring others into the fold and share with them.
 
-
 ### Good Host
-You gain proficiency with Charisma ability checks made when Gathering Information or befriending people, and your choice of Cooking or Brewing.
-
-
+Add *Cooking* to your class skills and gain 1 skill point each to spend on *Cooking* and *Speechcraft*.
 
 ### Sacred Touch
 When you use the Lay on Hands feature, you always remove any poison effects on the target, as well granting it temporary hit points equal to half your level, rounded up.
@@ -3423,7 +3414,6 @@ You know the following two Channel Divinity options.
 ### Rejuvenation
 In quiet moments before startin a long rest, you can prepare a source of relief for others, such as comfort food, a stiff drink, or kind words. Any creature that can see or hear you regains hit points equal to your Charisma modifier and reduces fatigue one step.
 
-
 ### Aura of Revelry
 Your incorrigible excitement suppresses fatigue. While you are conscious, you and friendly creatures within 10 ft do not suffer the effects of the blinded, deafened, exhausted, poisoned, and unconscious conditions, unless at 0 hit points. Affected creatures are not cured of any conditions they suffer, and the effects return when a creature leaves your aura.
 
@@ -3440,7 +3430,7 @@ You gain access to the following.
     The effect ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.
 
 - #### Prayer: Commune with Civilization
-    You know this prayer in addition to your other prayers.
+    *You know this prayer in addition to your other prayers.*
 
     You briefly become one with the soul of festivity and gain limited knowledge of surrounding settlements within 3 miles. You instantly gain know of places of merriment and festivity, such as taverns, festival places or praces of worship in the area.
 
@@ -3496,9 +3486,6 @@ The tenets of the Oath of the Revenant vary from revenant to revenant, based pri
 
  **Complete the Mission**. Personal goals no longer have meaning, as they died with your true body long ago. The sole purpose of your revived existence is to see to completion the goals you were given, nothing else.
 
-
-
-
 ### Sacred Touch
 When you spend Devotion to use Divine Smite, you can forgo rolling 1 or more of your dice to instead use Frightful Smite.
 
@@ -3508,7 +3495,6 @@ When you spend Devotion to use Divine Smite, you can forgo rolling 1 or more of 
 The target must make a Wisdom saving throw or be frightened of you. At the end of each of its turns, the target can make another Wisdom saving throw to end the effect. If the target succeeds on a save against this blessing, it takes 1d4 necrotic damage for each Devotion you spent.
 
 </div>
-
 
 In addition, you gain access to the following blessing:
 
@@ -3562,7 +3548,7 @@ You can use an ***action*** and spend 5 Devotion to channel the aspect of the un
 #### Oath Features
 | Paladin Level | Feature |
 |:----------------:|:--------|
-| 1st | Defender of Dwarves, Sacred Touch |
+| 1st | Defender of Dwarves,<br>Sacred Touch |
 | 3rd | Channel Divinity |
 | 7th | Hammer Throw
 | 9th | Strengthening the Divine
@@ -3586,12 +3572,8 @@ A stonelord's duty is first to protect her people, but defending the works and t
 
  **Defeat my enemies, but with honor**. Against my people's enemies I will show no mercy. I will defeat them, and I will scatter their families. Yet even in the struggle against our enemies, I will act in a way that brings honor to Moradin.
 
-
-
-
 ### Defender of Dwarves
 As long as you uphold your tenets you have advantage on Charisma ability checks against dwarves.
-
 
 ### Sacred Touch
 You can spend 1 Devotion as a ***reaction*** when taking damage, to reduce damage you take by 2d8.
@@ -3618,7 +3600,7 @@ You know the following Channel Divinity options.
 </div>
 
 ### Hammer Throw
-All hammers you wield, including light hammers, mauls, and warhammers, are considered magical and have the Thrown property, with a range of 30/60 ft. Hammers you throw return to your hand at the end of your turn.
+All hammers you wield, including light hammers, mauls, and warhammers, are considered magical and have the Thrown property with a range of 30/60 ft. Hammers you throw return to your hand at the end of your turn.
 
 At 18th level, you can throw a hammer in a 60 ft line as an ***action***. Make a single attack roll and compare it against the AC of each creature in this line, dealing damage normally on a hit.
 
@@ -3688,9 +3670,6 @@ The tenets for this oath does not vary, neither in words nor pitch, though the m
 
   **Be the Flight**. Be a glorious beacon for all who live in despair. Let the *[swoosh]* of your joy and courage shine forth in all your deeds.
 
-
-
-
 ### Gliding
 You've cracked the secret of flight. Almost.
 
@@ -3699,8 +3678,6 @@ Even though you cannot fly, you can use your wings to some degree. They help wit
 In addition your wings can slow your descent when falling. Your speed of falling is 60 ft per round and you can move up to 30 ft horizontally as well. When you land, you take no falling damage and you can land on your feet.
 
 Using any of these effects requires you to be able to flap your wings.
-
-
 
 ### Sacred Touch
 When you spend Devotion to use Divine Smite, you can forgo rolling 1 or more of your dice to instead use Earthbind Smite. This application of Divine Smite can be used with ranged weapons.
@@ -3753,8 +3730,6 @@ You gain access to the following.
 Beginning at 15th level, you are always under the effect of a ***feather fall*** spell.
 
 Additionally, you can make sounds even if you are silenced.
-
-
 
 ### True To Your Heart
 You can use an ***action*** and spend 5 Devotion to assume the form of what your heart is telling you that your race once was. For 10 minutes, you gain the following benefits:
