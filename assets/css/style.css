@@ -28,6 +28,21 @@ h1, h2, h3, h4, h5 {
   font-variant: small-caps;
 }
 
+body {
+  background-image: url("../images/page-background.jpg");
+}
+
+#logo {
+  width: 400px;
+  height: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#main {
+  height: 297mm;
+}
+
 h1 {
   font-size: 2.5em;
 }
@@ -97,6 +112,14 @@ table {
   padding: 20px;
 }
 
+.td-nobreak {
+  white-space: nowrap;
+}
+
+.td-center {
+  text-align: center;
+}
+
 details {
   margin-top: 1px;
   margin-left: 20px;
@@ -117,24 +140,6 @@ summary {
   color: #6b4fbb;
   cursor: pointer;
   display: list-item;
-}
-
-/* -------------------------------------------------------------------- */
-
-.iframe-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 35px;
-  height: 0;
-  overflow: hidden;
-}
-
-.iframe-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 /* -------------------------------------------------------------------- */

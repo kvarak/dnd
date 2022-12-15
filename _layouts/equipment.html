@@ -5,13 +5,13 @@
   {% include head.html %}
 
   <!-- Compiled and minified Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
   <!-- Datatables CSS -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.css"/>
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Compiled Bootstrap JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
   <!-- Datatables JavaScript -->
   <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.js"></script>
 
@@ -36,7 +36,7 @@
           lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
           iDisplayLength: -1,
           aoColumnDefs: [{ sClass: "td-nobreak",
-                            aTargets: [ 0 ] },
+                            aTargets: [ 0,2 ] },
                           { sClass: "td-center",
                             aTargets: [ 2,3 ] }],
           columns: [{ title: 'Item'},
@@ -44,9 +44,9 @@
                     { title: 'Price'},
                     { title: 'Weight'},
                     { title: 'Description'}],
-          dom:  "<'row'<'col-sm-3'l><'col-sm-3'f><'col-sm-6'p>>" +
+          dom:  "<'row'<'col-sm-12'f>>" +
                 "<'row'<'col-sm-12'tr>>" +
-                "<'row'<'col-sm-5'i><'col-sm-7'p>>"
+                "<'row'<'col-sm-12'i>>"
         });
 
         // Create search box on each column

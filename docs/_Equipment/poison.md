@@ -38,38 +38,39 @@ A character can instead attempt to harvest poison from a poisonous creature, suc
 
 ## <a class="internal-link" name="internal-HarvestedPoisons">Harvested Poisons</a>
 
-These poisons must be harvested from a recently dead or incapacitated creature. It requires no further preparation.
-
-<div class="block classTable frame" markdown="1">
-
-| Poison | Type | Price per Dose |
-|:-------|:-----|---------------:|
-| Aboleth oil | Contact | 250 gp |
-| Bearded devil venom | Injury | 60 gp |
-| Bone devil's  sting | Injury | 100 gp |
-| Carrion crawler mucus | Contact | 20 gp |
-| Centipede venom | Injury | 20 gp |
-| Cockatrice saliva | Injury | 75 gp |
-| Ettercap venom | Injury | 5 gp |
-| Imp venom | Injury | 20 gp |
-| Naga venom | Injury | 200 gp |
-| Pit Fiend Venom | Injury | 1,700 gp |
-| Pseudodragon Venom | Injury | 12 gp |
-| Purified Couatl Venom | Injury | 70 gp |
-| Purple worm poison | Injury | 200 gp |
-| Scorpion venom | Injury | 10 gp |
-| Serpent venom | Injury | 10 gp |
-| Spider venom | Injury | 20 gp |
-| Vrock spores | Inhaled | 60 gp |
-| Wasp's Sting | Injury | 25 gp |
-| Wyvern venom | Injury | 120 gp |
-
-</div>
-
-### Harvested Poison Descriptions
-Each type of poison has its own debilitating effects.
-
 <div class="columnsthree">
+
+-   ### Harvested Poisons
+    These poisons must be harvested from a recently dead or incapacitated creature. It requires no further preparation.
+
+    <div class="block classTable frame" markdown="1">
+
+    | Poison | Type | Price per Dose |
+    |:-------|:-----|---------------:|
+    | Aboleth oil | Contact | 250 gp |
+    | Bearded devil venom | Injury | 60 gp |
+    | Bone devil's  sting | Injury | 100 gp |
+    | Carrion crawler mucus | Contact | 20 gp |
+    | Centipede venom | Injury | 20 gp |
+    | Cockatrice saliva | Injury | 75 gp |
+    | Ettercap venom | Injury | 5 gp |
+    | Imp venom | Injury | 20 gp |
+    | Naga venom | Injury | 200 gp |
+    | Pit Fiend Venom | Injury | 1,700 gp |
+    | Pseudodragon Venom | Injury | 12 gp |
+    | Purified Couatl Venom | Injury | 70 gp |
+    | Purple worm poison | Injury | 200 gp |
+    | Scorpion venom | Injury | 10 gp |
+    | Serpent venom | Injury | 10 gp |
+    | Spider venom | Injury | 20 gp |
+    | Vrock spores | Inhaled | 60 gp |
+    | Wasp's Sting | Injury | 25 gp |
+    | Wyvern venom | Injury | 120 gp |
+
+    </div>
+
+    ### Harvested Poison Descriptions
+    Each type of poison has its own debilitating effects.
 
 - **Aboleth Oil (Contact)**. Aboleth oil is impossibly rare, and incredibly dangerous. Coming into contact with it accidentally can quickly spell death for most creatures.
 
@@ -118,21 +119,25 @@ must succeed on a DC 13 Constitution saving throw, taking 7d8 poison damage on a
 
 ## <a class="internal-link" name="internal-ContactPoisons">Contact Poisons</a>
 
-Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.
-
-<div class="block classTable frame" markdown="1">
-
-| Poison | Type | Price per Dose |
-|:-------|:-----|---------------:|
-| Black Ivy Paste | Contact | 20gp |
-| Black Lotus Extract | Contact | 650 gp |
-| Goodbye Kiss | Contact | 160 gp |
-| Oil of Taggit | Contact | 40 gp |
-| Sunlight Oil | Contact | 130 gp |
-
-</div>
-
 <div class="columnsthree">
+
+-   ### Contact Poisons
+    Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.
+
+    <div class="block classTable frame" markdown="1">
+
+    | Poison | Type | Price per Dose |
+    |:-------|:-----|---------------:|
+    | Black Ivy Paste | Contact | 20gp |
+    | Black Lotus Extract | Contact | 650 gp |
+    | Goodbye Kiss | Contact | 160 gp |
+    | Oil of Taggit | Contact | 40 gp |
+    | Sunlight Oil | Contact | 130 gp |
+
+    </div>
+
+    ### Contact Poisons Descriptions
+    Each type of poison has its own debilitating effects.
 
 - **Black Ivy Paste (Contact)**. The black ivy plant is rare, but extremely poisonous. Its leaves can be ground into a thin paste and spread upon surfaces to injure those that touch it.
 
@@ -159,29 +164,33 @@ the clergy of the sun god and infused with the sun's magic. The blessed oil must
 
 ## <a class="internal-link" name="internal-IngestedPoisons">Ingested Poisons</a>
 
-A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. The DM may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.
-
-<div class="block classTable frame" markdown="1">
-
-| Poison | Type | Price per Dose |
-|:-------|:-----|---------------:|
-| Assassin's Blood | Ingested | 15 gp |
-| Deadly Nightshade | Ingested | 20 gp |
-| Depraved Decadence | Ingested | 950 gp |
-| Hemlock | Ingested | 50 gp |
-| Lockjaw | Ingested | 25 gp |
-| Midnight Tears | Ingested | 150 gp |
-| Nightmare Root | Ingested | 145 gp |
-| Pale Tincture | Ingested | 25 gp |
-| Pallid Serpent's Deception | Ingested | 134 gp |
-| Strychnine | Ingested | 40 gp |
-| Torpor | Ingested | 60 gp |
-| Touch of Servility | Ingested | 20 gp |
-| Truth Serum | Ingested | 15 gp |
-
-</div>
-
 <div class="columnsthree">
+
+-   ### Ingested Poisons
+    A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. The DM may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.
+
+    <div class="block classTable frame" markdown="1">
+
+    | Poison | Type | Price per Dose |
+    |:-------|:-----|---------------:|
+    | Assassin's Blood | Ingested | 15 gp |
+    | Deadly Nightshade | Ingested | 20 gp |
+    | Depraved Decadence | Ingested | 950 gp |
+    | Hemlock | Ingested | 50 gp |
+    | Lockjaw | Ingested | 25 gp |
+    | Midnight Tears | Ingested | 150 gp |
+    | Nightmare Root | Ingested | 145 gp |
+    | Pale Tincture | Ingested | 25 gp |
+    | Pallid Serpent's Deception | Ingested | 134 gp |
+    | Strychnine | Ingested | 40 gp |
+    | Torpor | Ingested | 60 gp |
+    | Touch of Servility | Ingested | 20 gp |
+    | Truth Serum | Ingested | 15 gp |
+
+    </div>
+
+    ### Ingested Poisons Descriptions
+    Each type of poison has its own debilitating effects.
 
 - **Assassin's Blood (Ingested)**. Assassin's blood is the primary tool of assassins that wish to subtly eliminate their targets, often mixing a dose into food or drink.
 
@@ -225,23 +234,27 @@ A creature must swallow an entire dose of ingested poison to suffer its effects.
 
 ## <a class="internal-link" name="internal-InhaledPoisons">Inhaled Poisons</a>
 
-These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one’s breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.
-
-<div class="block classTable frame" markdown="1">
-
-| Poison | Type | Price per Dose |
-|:-------|:-----|---------------:|
-| Anosmia | Inhaled | 80 gp |
-| Burnt Othur Fumes | Inhaled | 50 gp |
-| Dreamweed | Inhaled | 15 gp |
-| Dust of the Desert Winds | Inhaled | 120 gp |
-| Essence of Ether | Inhaled | 30 gp |
-| Insanity Mist | Inhaled | 225 gp |
-| Malice | Inhaled | 25 gp |
-
-</div>
-
 <div class="columnsthree">
+
+-   ### Inhaled Poisons
+    These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one’s breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.
+
+    <div class="block classTable frame" markdown="1">
+
+    | Poison | Type | Price per Dose |
+    |:-------|:-----|---------------:|
+    | Anosmia | Inhaled | 80 gp |
+    | Burnt Othur Fumes | Inhaled | 50 gp |
+    | Dreamweed | Inhaled | 15 gp |
+    | Dust of the Desert Winds | Inhaled | 120 gp |
+    | Essence of Ether | Inhaled | 30 gp |
+    | Insanity Mist | Inhaled | 225 gp |
+    | Malice | Inhaled | 25 gp |
+
+    </div>
+
+    ### Inhaled Poisons Descriptions
+    Each type of poison has its own debilitating effects.
 
 - **Anosmia (Inhaled)**. A creature subjected to this poison must make a DC 18 Constitution saving throw. On a failed save, the creature loses its sense of smell for 48 hours. If the creature relies on smell to locate other creatures, it can no longer do so. The creature automatically fails any Wisdom (Perception) check that relies on smell. If the creature has the keen smell trait, it must also succeed on a Wisdom saving throw or act as though affected by the *confusion* spell during their next turn.
 
@@ -266,20 +279,23 @@ These poisons are powders or gases that take effect when inhaled. Blowing the po
 
 ## <a class="internal-link" name="internal-InjuryPoisons">Injury Poisons</a>
 
-Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage, and generally remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.
-
-<div class="block classTable frame" markdown="1">
-
-| Poison | Type | Price per Dose |
-|:-------|:-----|---------------:|
-| Bloodfire Paste | Injury | 65 gp |
-| Drow Poison | Injury | 20 gp |
-| Healer’s Bane | Injury | 50 gp |
-
-</div>
-
 <div class="columnsthree">
 
+-   ### Injury Poisons
+    Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage, and generally remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.
+
+    <div class="block classTable frame" markdown="1">
+
+    | Poison | Type | Price per Dose |
+    |:-------|:-----|---------------:|
+    | Bloodfire Paste | Injury | 65 gp |
+    | Drow Poison | Injury | 20 gp |
+    | Healer’s Bane | Injury | 50 gp |
+
+    </div>
+
+    ### Injury Poisons Descriptions
+    Each type of poison has its own debilitating effects.
 
 - **Bloodfire Paste (Injury)**. Once injured, the poison reacts with the creatures blood and begins igniting from within, causing a creature to quickly burn from the inside out. A creature subjected to this poison must make a DC 13 Constitution saving throw, taking 2d10 fire damage on a failed save, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the creature takes 1d6 fire damage. After three successful saves, the poison ends. This effect cannot effect a creature without blood.
 

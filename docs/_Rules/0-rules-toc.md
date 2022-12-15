@@ -11,13 +11,13 @@ layout: default
   <a href="1-rules-character.html#internal-AbilityChecks">Ability Checks</a><br/>
   <a href="1-rules-character.html#internal-AbilityScores">Ability Scores</a><br/>
   <a href="1-rules-character.html#internal-Fatepoints">Fate points</a><br/>
-  <a href="herbalism.html">Herbalism</a><br/>
+  <a href="1.1-herbalism.html">Herbalism</a><br/>
   <a href="1-rules-character.html#internal-Hitpoints">Hit points</a><br/>
   <a href="1-rules-character.html#internal-Inspiration">Inspiration</a><br/>
-  <a href="languages.html">Languages</a><br/>
+  <a href="1.3-languages.html">Languages</a><br/>
   <a href="1-rules-character.html#internal-Luck">Luck</a><br/>
-  <a href="skills.html">Skills</a><br/>
-  <a href="skills_combat.html">Skills, combat</a><br/>
+  <a href="1.7-skills.html">Skills</a><br/>
+  <a href="1.8-skills_combat.html">Skills, combat</a><br/>
 
 - ##### <a href="2-rules-equipment.html#internal-equipment">Equipment</a>
   <a href="2-rules-equipment.html#internal-Alchemicalandherbalitems">Alchemical and herbal items</a><br/>
@@ -44,6 +44,7 @@ layout: default
   <a href="3-rules-combat.html#internal-UnderwaterCombat">Underwater Combat</a><br/>
 
 - ##### <a href="4-rules-spells.html#internal-magic">Spells and Magic</a>
+  <a href="4.1-spells.html">Spells</a><br/>
   <a href="4-rules-spells.html#internal-IdentifyingSpells">Identifying Spells</a><br/>
   <a href="4-rules-spells.html#internal-PreparedSpells">Prepared Spells</a><br/>
   <a href="4-rules-spells.html#internal-SpellCastingTime">Spell Casting Time</a><br/>
