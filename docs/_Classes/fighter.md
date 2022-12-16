@@ -5,11 +5,10 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-origins">Fighter Origins</a>
-#### <a href="#internal-archetypes">Martial Archetypes</a>
+##### <a href="#internal-origins">Fighter Origins</a>
+##### <a href="#internal-archetypes">Martial Archetypes</a>
 <a href="#internal-arbalestion">Arbalestion</a><br/>
 <a href="#internal-ArcaneArcher">Arcane Archer</a><br/>
-<a href="#internal-Brute">Brute</a><br/>
 <a href="#internal-bulwark">Bulwark</a><br/>
 <a href="#internal-Champion">Champion</a><br/>
 <a href="#internal-daredevil">Daredevil</a><br/>
@@ -25,8 +24,19 @@ layout: default
 <a href="#internal-thingSlinger">Thing Slinger</a><br/>
 <a href="#internal-underdog">Underdog</a>
 
-#### <a href="#internal-FightingStyles">Fighting Styles</a>
-#### <a href="#internal-combatManeuvers">Maneuvers</a>
+##### Restricted Archetypes
+**Aasimar**<br/>
+<a href="#internal-celestialKnight">Celestial Knight</a>
+
+**Gnome**<br/>
+<a href="#internal-tinkerKnight">Tinker Knight</a>
+
+**Halfling**<br/>
+<a href="#internal-warslingSniper">Warsling Sniper</a>
+
+
+##### <a href="#internal-FightingStyles">Fighting Styles</a>
+##### <a href="#internal-combatManeuvers">Maneuvers</a>
 
 </div>
 
@@ -79,47 +89,56 @@ When the battle is done, enemies and allies alike stare in awe at the sight of y
 
 
 ## Class Features
-As a fighter, you gain the following class features.
 
 
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Fighter
-| - Level - | - PB - | - Features - | - Maneuvers Known - | - Superiority - | - Superiority Dice - |
+| -Level- | -PB- | -Features- | -Maneuvers- | -Superiority- | -Superiority Dice- |
 |:-----:|:-----------------:|:---------|:---------------:|:-----------:|:----------------:|
- 1st | +2 | Fighter Origin, Fighting Style, Second Wind | - | - | - |
+ 1st | +2 | Fighter Origin, Fighting Style,<br/>Second Wind | - | - | - |
 | 2nd | +2 | Combat Superiority, Origin Maneuver | 3 | 7 | d4 |
 | 3rd | +2 | Martial Archetype | 3 | 7 | d4 |
-| 4th | +2 | Ability Score Improvement | 3 | 7 | d4 |
+| 4th | +2 | Bonus Skills | 3 | 7 | d4 |
 | 5th | +3 | Extra Attack | 4 | 7 | d4 |
-| 6th | +3 | Ability Score Improvement | 4 | 9 | d6 |
+| 6th | +3 | - | 4 | 9 | d6 |
 | 7th | +3 | Martial Archetype feature | 4 | 9 | d6 |
-| 8th | +3 | - | 5 | 9 | d6 |
+| 8th | +3 | Bonus Skills | 5 | 9 | d6 |
 | 9th | +4 | Indomitable | 5 | 9 | d6 |
 | 10th | +4 | Martial Archetype feature | 5 | 10 | d8 |
 | 11th | +4 | Extra Attack (2) | 6 | 10 | d8 |
-| 12th | +4 | Ability Score Improvement | 6 | 10 | d8 |
+| 12th | +4 | Bonus Skills | 6 | 10 | d8 |
 | 13th | +5 | Indomitable (2) | 6 | 10 | d8 |
-| 14th | +5 | Ability Score Improvement | 7 | 12 | d10 |
+| 14th | +5 | - | 7 | 12 | d10 |
 | 15th | +5 | Martial Archetype feature | 7 | 12 | d10 |
-| 16th | +5 | Ability Score Improvement | 7 | 12 | d10 |
+| 16th | +5 | Bonus Skills | 7 | 12 | d10 |
 | 17th | +6 | Indomitable (3) | 8 | 16 | d10 |
 | 18th | +6 | Martial Archetype feature | 8 | 16 | d12 |
-| 19th | +6 | Ability Score Improvement | 8 | 20 | d12 |
+| 19th | +6 | Bonus Skills | 8 | 20 | d12 |
 | 20th | +6 | Extra Attack (3) | 8 | 20 | d12 |
 
 </div>
 
+As a fighter, you gain the following class features.
+
 #### Hit Points
 **Hit Dice:** 1d10
 
-#### Proficiencies
-**Armor:** All armor, shields
+#### Saving Throws
+You are proficient with ***Strength*** and ***Constitution*** saving throws.
 
-**Weapons:** Simple weapons, martial weapons
+#### Skills
+**Class Skills:** Animal handling, Leadership, Perception and Physique
 
-**Saving Throws:** Strength, Constitution
+**Skill Points:** You gain 2 skill points at 1st level.
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 2 with all weapon groups.
+
+**Combat Skills:** You gain the *Light armor* and *Medium armor* skills.
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every level.
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -128,10 +147,25 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* a light crossbow and 20 bolts or *(b)* two handaxes
 - *(a)* a dungeoneer’s pack or *(b)* an explorer’s pack
 
+### Fighter Origin
+The type of martial training you received sets the groundwork for your career as a fighter. Your origin can range from a disciplined training in the army, to being a self-taught farmer.
+
+All origins are describes at the end of the class description. Select the origin most suitable for your character.
+
+### Fighting Styles
+At 1st level, a fighter adopts a particular style of fighting as his specialty. All styles are listed *<a href="#internal-FightingStyles">here</a>*.
+
+Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
+
+### Second Wind
+From 1st level, you have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, if you have less than half your hp left, you can use a ***bonus action*** to regain a number of hit points equal to 1d10 + your Constitution bonus.
+
+Once you use this feature, you must finish a short rest before you can use it again.
+
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -153,29 +187,11 @@ The following class specific additions are made to the general rest rules.
 </div>
 </div>
 
-### Fighter Origin
-The type of martial training you received sets the groundwork for your career as a fighter. Your origin can range from a disciplined training in the army, to being a self-taught farmer.
-
-All origins are describes at the end of the class description. Select the origin most suitable for your character.
-
-### Fighting Styles
-At 1st level, a fighter adopts a particular style of fighting as his specialty. All styles are listed *<a href="#internal-FightingStyles">here</a>*.
-
-Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
-
-### Second Wind
-From 1st level, you have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, if you have less than half your hp left, you can use a ***bonus action*** to regain a number of hit points equal to 1d10 + your Constitution bonus.
-
-Once you use this feature, you must finish a short rest before you can use it again.
-
 ### Combat Superiority
 Starting at 2nd level, your tactical expertise makes you a deadly force on the battlefield. You learn maneuvers which are fueled by a special resource called superiority.
 
 #### Maneuvers
 You learn two maneuvers of your choice, and one decided by your fighter background. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack. You learn additional maneuvers at certain levels as shown in the Maneuvers Known section of the Fighter table.
-
-
-
 
 Each time you learn new maneuvers, you can also replace one maneuver you know with a different one. All maneuvers are listed *<a href="#internal-combatManeuvers">here</a>*.
 
@@ -198,17 +214,20 @@ You can push yourself beyond your normal limits for a moment. On your turn, you 
 ### Martial Archetype
 At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. All are detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
 
+
+### Bonus Skill
+When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you gain an additional skill point to spend on your class skills.
+
+<!--
 ### Ability Score Improvement
-When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
+-->
 
 ### Extra Attack
 Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.
 
 ### Indomitable
 At 9th level, you can choose either *Indomitable self* or *Indomitable ally*.
-
-
-
 
 When you use the feature you can’t use it again until you finish a long rest. You can use this feature twice between long rests starting at 13th level and three times starting at 17th level.
 
@@ -219,8 +238,7 @@ As a ***reaction***, you can reroll a saving throw that you fail.
 Your courageous words inspire valor and ferocity in your allies, allowing you to use your ***reaction*** to allow an ally within 30 feet who can see or hear you to reroll a failed saving throw.
 
 
-
-## <a name="internal-origins">Fighter Origins</a>
+<h2><a class="internal-link" name="internal-origins">Fighter Origins</a></h2>
 
 The type of martial training you received sets the groundwork for your career as a fighter. Select the origin most suitable for your character.
 
@@ -230,16 +248,16 @@ The type of martial training you received sets the groundwork for your career as
     Your martial training comes from being a guard of some kind. You might not have had so much practical combat experience, relying more on your attentive skills. You could for example have been a city guard, someone's personal bodyguard or a member of the royal guard.
 
     **Bonus proficiencies**:
-    You have proficiency with two of Insight, Investigation and Perception.
+    Add *Investigation* to your class skills and gain 1 skill point to spend on this *Perception*.
 
     **Bonus maneuver**:
     At 2nd level you learn the Studious Eye maneuver.
 
 - ### Instructor
-    For some reason you have been trained by a single instructor. You might be from a wealthy family that could afford a private tutor, or you might have an experienced family member who trained you in between your hard work at the farm.
+    For some reason you have been trained by a single instructor. You might be from a wealthy family that could afford a private tutor or you might have an experienced family member who trained you in between your hard work at the farm.
 
     **Bonus proficiencies**:
-    If you are noble or from a wealthy background, you have proficiency with two theoretical skills of your choice. Otherwise you have proficiency with Athletics, and an appropriate tool proficiency for your work background.
+    If you are noble or from a wealthy background you know how to read/write and you add all *Knowledge* skills to your class skills. Otherwise add *Agriculture* and all *Craft* skills to your class skills and gain 1 skill point to spend on one of them.
 
     **Bonus maneuver**:
     At 2nd level you learn the Combat Focus maneuver.
@@ -248,7 +266,7 @@ The type of martial training you received sets the groundwork for your career as
     Your training has been as a leader of fighters. Most commonly as an officer in an army, but could also be the child of an important tribe member who is groomed to lead the warriors, or the common man forced to lead his fellow farmers in the defense against encroaching humanoids.
 
     **Bonus proficiencies**:
-    You have proficiency with Leadership and Tactics, and your choice of Diplomacy, Intimidation or Deception.
+    Add *Speechcraft* to your class skills and gain 1 skill point to spend on *Leadership*.
 
     **Bonus maneuver**:
     At 2nd level you learn the Commanding Presence maneuver.
@@ -257,13 +275,13 @@ The type of martial training you received sets the groundwork for your career as
     You have learnt your martial skills as a member of the army. It could be the standing army of the king, or a mercenary unit selling their skills to the highest bidder.
 
     **Bonus proficiencies**:
-    You have proficiency with Athletics and Military life. This includes recognizing the chain of command, knowing who to speak to and how to correctly communicate with soldiers of various ranks, as well as the know-how on taking care of your weapons and gear. Also, depending on your assignment you have the following proficiency:<br>
-    &nbsp;&nbsp;**Archer unit**: Fletcher’s tools.<br>
-    &nbsp;&nbsp;**Cavalry**: Animal handling.<br>
-    &nbsp;&nbsp;**Chariot**: Land vehicles.<br>
-    &nbsp;&nbsp;**Infantry**: Marching (gain advantage on all saves and checks during forced march).<br>
-    &nbsp;&nbsp;**Navy**: Sailor.<br>
-    &nbsp;&nbsp;**Scout**: Survival
+    Gain the *Profession - Soldier* skill. Also, depending on your assignment you gain the following:
+    - **Archer unit**: Add *Craft - Woodworking - Bowyer* or *Craft - Metalsmith - Arrowsmith* to your class skills and gain 1 skill point to spend on this skill.
+    - **Cavalry**: For you the skill *Animal handling - Animal husbandry* has cost 0. Gain 1 skill point to spend on *Animal handling*.
+    - **Chariot**: For you the skill *Animal handling - Animal husbandry - Teamster* has cost 0. Gain 1 skill point to spend on *Animal handling*.
+    - **Infantry**: For you the skill *Physique - Endurance* has cost 0. Gain 1 skill point to spend on *Animal Physique*.
+    - **Navy**: Add *Sailor* to your class skills and gain 1 skill point to spend on it.
+    - **Scout**: Add *Survival* to your class skills and gain 1 skill point to spend on it.
 
     **Bonus maneuver**:
     At 2nd level you learn the Athletic Prowess maneuver.
@@ -272,7 +290,7 @@ The type of martial training you received sets the groundwork for your career as
     Your training comes from a less structured type of fighting force. You might be a warrior in a barbarian tribe, a member of an outlaw raiding party or part of a peasant militia.
 
     **Bonus proficiencies**:
-    You have proficiency with Athletics and Survival.
+    Add *Survival* to your class skills and gain 1 skill point to spend on it.
 
     **Bonus maneuver**:
     At 2nd level you learn the Rally maneuver.
@@ -281,7 +299,7 @@ The type of martial training you received sets the groundwork for your career as
     You have not received any training at all. Everything you know about fighting you had to learn by yourself. You might have grown up on the streets fending for yourself, or learnt to fend for yourself when being lost in the wilderness.
 
     **Bonus proficiencies**:
-    You have proficiency with Stealth and Survival.
+    Add *Stealth* and *Survival* to your class skills and gain 1 skill point to spend on one of them.
 
     **Bonus maneuver**.
     At 2nd level you learn the Heroic Might maneuver.
@@ -334,36 +352,33 @@ Different fighters choose different approaches to perfecting their fighting prow
 
 As an arbalestion, you often believe that melee combat is a thing of the past. A modern thinker; you apply your knowledge of enginering to master the use of the more sophisticated crossbows to a deadly effect.
 
-
 ### Boltslinger
-You gain a +1 bonus on damage rolls made with any type of crossbow.
+Gain 1 additional skill point to spend on combat skills.
 
 ### The Future of Warfare
-You become proficient with Tinker's tools and Fletcher’s tools. If already proficient, you instead gain advantage on all checks using these tools.
+Add *Craft - Metalsmith - Arrowsmith* and *Craft - Crossbow Making* to your class skills and gain 1 skill point each to spend on these skill. If already proficient, you instead gain 2 skill points to spend on class skills.
 
-During a day of work, you can try to modify an existing crossbow into a repeating crossbow. This is a DC 20 Intelligence check using your Tinker's tools. If you fail, you can repeat this check the next day, with the DC reduced by 2. This reduction is cumulative.
+During a day of work, you can try to modify an existing crossbow into a repeating crossbow. This is a DC 20 Intelligence (Crossbow making) check using your tools. If you fail, you can repeat this check the next day, with the DC reduced by 2. This reduction is cumulative.
 
 A repeating crossbow has the statistics of the base crossbow, but adds 2 lbs to its weight, and has a magazine that holds up to 12 bolts at once and doesn't require any sort of action to reload between attacks. Changing an empty magazine requires an action.
 
-- You can make a Intelligence ability check using your Tinker's tools against DC 12 to make a magazine for your repeating crossbow during a long rest.
-- You can make a Intelligence ability check using your Tinker's tools against DC 10 to fill 2 magazines during an hour, or 4 during a long rest. On a failed check, you only prepare 1.
-- You can make a Intelligence ability check using your Fletcher’s tools against DC 10 to make 1d6 crossbow bolts during an hour, or 4d6 during a long rest. On a failed check, you only create 1d4-1 crossbow bolts.
-
-
+- You can make an Intelligence (Crossbow making) against DC 12 to make a magazine for your repeating crossbow during a long rest.
+- You can make an Intelligence (Crossbow making) against DC 10 to fill 2 magazines during an hour or 4 during a long rest. On a failed check you only prepare 1.
+- You can make a Intelligence (Crossbow making) against DC 10 to make 1d6 crossbow bolts during an hour or 4d6 during a long rest. On a failed check you only create 1d4-1 crossbow bolts.
 
 ### Snap Shot
 When a creature misses you with an attack, you can make a single ranged weapon attack as a ***reaction***, provided you have sufficient ammunition. You may spend 1 superiority point to gain advantage on this attack.
 
 ### Bull’s Eye
-You gain the Sharpshooter feat. If you have that feat already, you may select a different feat.
+Gain 1 additional skill point to spend on combat skills.
 
 ### Critical Bolt
-Attacks you make with crossbows score a critical hit on a roll of 19-20.
+Attacks you make with crossbows increase their crit range by 1, scoring a critical hit on a roll of 19-20, or 18-20 when aiming.
 
 ### Ordnance
-At 18th level, you can turn a regular crossbow bolt into a deadly explosive. This process consumes material components worth at least 500 gp, such as a ruby, dragon scales or the heart of a fire giant that explodes in a large area on impact. You can craft one of these bolts during a long rest by making a DC 15 Intelligence check with your Fletcher’s Tools.
+You can turn a regular crossbow bolt into a deadly explosive. This process consumes material components worth at least 500 gp, such as a ruby, dragon scales or the heart of a fire giant that explodes in a large area on impact. You can craft one of these bolts during a long rest by making a DC 15 Intelligence (Crossbow making).
 
-As an ***action***, you can choose one creature or object with range and within your line of sight and fire your ordnance bolt. That creature or object and all creatures in a 40 foot radius must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Dexterity modifier with the original target having disadvantage on the saving throw. All creatures take 10d10 fire damage on a failed save, or half as much damage on a successful one. Objects take double damage from this attack.
+As an ***action***, you can choose one creature or object with range and within your line of sight and fire your ordnance bolt. That creature or object and all creatures in a 40 ft radius must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Dexterity modifier with the original target having disadvantage on the saving throw. All creatures take 10d10 fire damage on a failed save, or half as much damage on a successful one. Objects take double damage from this attack.
 
 
 
@@ -384,7 +399,7 @@ As an ***action***, you can choose one creature or object with range and within 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -400,27 +415,26 @@ The following class specific additions are made to the general rest rules.
 
 An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.
 
-
 ### Arcane Archer Lore
-At 3rd level, you learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the *prestidigitation* or the *druidcraft* cantrip.
+You learn magical theory or some of the secrets of nature — typical for practitioners of this elven martial tradition. Add either *Arcana* or *Nature* to your class skills and gain 1 skill point to spend on the chosen skill. 
+
+Aditionally if you selected *Arcana*, you learn the *prestidigitation* cantrip, otherwise you learn the *druidcraft* cantrip.
 
 ### Arcane Shot
-At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see “*Arcane Shot Options*” below).
+You learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see “*Arcane Shot Options*” below).
 
 When you fire an arrow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. Once you use this ability, you can't use it again until you finish a short rest.
 
 You gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.
 
 ### Magic Arrow
-At 7th level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target.
-
-
+Gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target.
 
 ### Curving Shot
-At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a ***bonus action*** to reroll the attack roll against a different target within 60 feet of the original target.
+You learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a ***bonus action*** to reroll the attack roll against a different target within 60 ft of the original target.
 
 ### Ever-Ready Shot
-Starting at 15th level, you are always ready with an Arcane Shot. When you roll initiative, you can use a one of your Arcane Shot maneuvers as part of the first ranged weapon attack you make, without expending a use of Arcane shot.
+You are always ready with an Arcane Shot. When you roll initiative, you can use a one of your Arcane Shot maneuvers as part of the first ranged weapon attack you make, without expending a use of Arcane shot.
 
 ## Arcane Shot Options
 The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.
@@ -450,12 +464,12 @@ If an option requires a saving throw, your Arcane Shot save DC equals 8 + your p
     The necrotic damage increases to 4d6 when you reach 18th level in this class.
 
 - #### Grasping Arrow
-    When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The target takes an extra 2d6 poison damage, its speed is reduced by 10 feet, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.
+    When this arrow strikes its target, conjuration magic creates grasping, poisonous brambles, which wrap around the target. The target takes an extra 2d6 poison damage, its speed is reduced by 10 ft, and it takes 2d6 slashing damage the first time on each turn it moves 1 foot or more. The target or any creature that can reach it can use its action to remove the brambles with a successful Strength (Athletics) check against your Arcane Shot save DC. Otherwise, the brambles last for 1 minute or until you use this option again.
 
     The poison damage and slashing damage both increase to 4d6 when you reach 18th level in this class.
 
 - #### Piercing Arrow
-    You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow shoots forward in a 30 feet line before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.
+    You use transmutation magic to give your arrow an ethereal quality. When you use this option, you don’t make an attack roll for the attack. Instead, the arrow shoots forward in a 30 ft line before disappearing. The arrow passes harmlessly through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the arrow, plus an extra 1d6 piercing damage. On a successful save, a target takes half as much damage.
 
     The piercing damage increases to 2d6 when you reach 18th level in this class.
 
@@ -469,61 +483,11 @@ If an option requires a saving throw, your Arcane Shot save DC equals 8 + your p
     The force damage increases to 2d6 when you reach 18th level in this class.
 
 - #### Shadow Arrow
-    You weave illusion magic into your arrow, causing it to occlude your foe’s vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.
+    You weave illusion magic into your arrow, causing it to occlude your foe’s vision with shadows. The creature hit by the arrow takes an extra 2d6 psychic damage, and must succeed on a Wisdom saving throw or be unable to see anything farther than 5 ft away until the start of your next turn.
 
     The psychic damage increases to 4d6 when you reach 18th level in this class.
 
 </div>
-
-<hr class="classdivider">
-<h1><a class="internal-link" name="internal-Brute">Brute</a></h1>
-<div class="featuresTable">
-
-#### Brute Features
-| Fighter Level | Feature |
-|:-------------:|:--------|
-| 3rd | Fearsome Brute, Heavy Metal
-| 7th | Beast of Burden
-| 10th | Hulking Hurler
-| 15th | Musclebound Enforcer
-| 18th | Combat Brute
-
-</div>
-
-The battlefield attracts fighters of all types and creeds. Inevitably, each fighter will do his damnedest to prove to the others that his way is the "right" way of fighting: the Champion sculpts his body into a figure made of marble, the Battle Master uses tricks and tactics to control the flow of combat, and the Eldritch Knights straight-up cheat by bringing magic into the whole mess. Kensai, Duelists and Weapon masters of all types, they all think they know how to win.
-
-The real answer is much, much more simple: Pick up the biggest, heaviest thing you can find, and squash the rest of them with it.
-
-That's the Brute Way.
-
-
-
-
-### Fearsome Brute
-Beginning at 3rd level, you gain proficiency with the Intimidation skill and always have advantage on such checks. In addition you can use Strength when intimidating a creature of your size or smaller.
-
-### Heavy Metal
-Starting at 3rd level, the Brute learns how to make the most out of the biggest, heaviest weapons. When wielding a weapon with the Heavy trait, you deal an additional 1d4 damage per strike. This increases to 1d6 at 10th level and 1d8 at 18th level.
-
-In addition, you can use your ***bonus action*** to deal an additional 1d4 of weapon damage on a successful hit with a heavy weapon and force the target to succeed on a Strength saving throw against 8 + your proficiency bonus + your Strength modifier, or be shoved 5 feet away for every 10 points of damage dealt by this attack. Creatures of Huge size or larger automatically succeed on the saving throw from this feature.
-
-The extra damage from this feature increases to 1d6 at 7th level, 1d8 at 11th level, 1d10 at 15th level, and 1d12 at 20th level.
-
-
-
-### Beast of Burden
-Brutes are adept at lugging lots of heavy gear and how to effectively throw their weight around. Starting at 7th level, you double your capacities for carrying, lifting, pushing, and pulling, and gain advantage on noncombat strength checks.
-
-### Hulking Hurler
-Tossing big, heavy things at an enemy is always a useful tactic. At 10th level you can treat any weapon with the Heavy descriptor and any sufficiently large improvised weapon as if it had the Thrown Property, with a range of 20/60 feet, and you gain proficiency with thrown improvised weapons.
-
-### Musclebound Enforcer
-Violence never solves anything. The visible threat of violence, however will get you very far. At 15th level you have expertise with the Intimidation skill.
-
-### Combat Brute
-From 18th level, after shoving a target, you gain advantage on your next attack against that target. Also, after you hit using an attack action with a Heavy melee weapon, you may choose to forgo any number of additional attacks you get from the Extra Attack feature. For each attack you forego, you add two extra weapon damage dice to your damage roll.
-
-
 
 
 
@@ -545,26 +509,24 @@ From 18th level, after shoving a target, you gain advantage on your next attack 
 Bulwarks are elite defensive warriors whose strengths shine while fighting side by side with their allies. Though trained to use weapons of all types, they are especially effective when using a protective style of fighting with a weapon and shield. Alone, a Bulwark is a small threat, but when fighting alongside their allies they are impenetrable walls of steel.
 
 ### Guardian Stance
-Beginning at 3rd level, so long as you are wielding a shield, you can use a ***bonus action*** to enter a Guardian Stance. This Stance lasts indefinitely and ends early if you are incapacitated or end it as a free action. While in this Stance, you gain the following features:
-* Your base movement speed is reduced by 10 feet.
-* You can confer three-quarters cover against ranged attacks to adjacent allies.
-* Adjacent allies that are wielding a shield gain a +1 bonus to their AC.
-* As a ***reaction***, when an adjacent creature is hit by an attack, you can become the target of the attack, taking the damage of the attack, as well as any other results of the hit.
-* As a ***bonus action***, you can make a melee weapon attack with your shield. You are considered proficient with this attack, and on hit, your shield attack deals bludgeoning damage equal to 1d4 + your Strength modifier.
-
-
+As long as you are wielding a shield, you can use a ***bonus action*** to enter a Guardian Stance. This Stance lasts indefinitely and ends early if you are incapacitated or end it as a free action. While in this Stance, you gain the following features:
+- Your base movement speed is reduced by 10 ft.
+- You can confer three-quarters cover against ranged attacks to adjacent allies.
+- Adjacent allies that are wielding a shield gain a +1 bonus to their AC.
+- As a ***reaction***, when an adjacent creature is hit by an attack, you can become the target of the attack, taking the damage of the attack, as well as any other results of the hit.
+- As a ***bonus action***, you can make a melee weapon attack with your shield. You are considered proficient with this attack, and on hit, your shield attack deals bludgeoning damage equal to 1d4 + your Strength modifier.
 
 ### Steadying Influence
-Beginning at 7th level, you emanate an aura of confidence. Any creature to which you are conferring cover can make the first ranged spell or weapon attack roll on each of its turns with advantage.
+You emanate an aura of confidence. Any creature to which you are conferring cover can make the first ranged spell or weapon attack roll on each of its turns with advantage.
 
 ### Mobile Cover
-Beginning at 10th level, you can coordinate your movement with your allies as you shield them from attacks. Whenever a creature to which you are conferring cover moves on their turn, you can use your ***reaction*** to move with them, up to a maximum distance equal to your speed.
+You can coordinate your movement with your allies as you shield them from attacks. Whenever a creature to which you are conferring cover moves on their turn, you can use your ***reaction*** to move with them, up to a maximum distance equal to your speed.
 
 ### Immovable Object
-Beginning at 15th level, you cannot be shoved or knocked prone.
+You cannot be shoved or knocked prone.
 
 ### Unshakable Bastion
-You are a master amongst Stalwarts. Starting at 18th level, your Guardian Stance feature can affect creatures within 10 feet.
+You are a master amongst Stalwarts. Your Guardian Stance feature can affect creatures within 10 feet.
 
 
 
@@ -588,25 +550,22 @@ You are a master amongst Stalwarts. Starting at 18th level, your Guardian Stance
 
 The champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.
 
-
 ### Improved Critical
-Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.
-
-
+Your weapon attacks score a critical hit on a roll of 19 or 20.
 
 ### Remarkable Athlete
-Starting at 7th level, you can gain advantage on any Strength, Dexterity, or Constitution check you make.
+You can gain advantage on any Strength, Dexterity, or Constitution check you make.
 
 In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.
 
 ### Additional Fighting Style
-At 10th level, you can choose a second option from the Fighting Style class feature.
+You can choose a second option from the Fighting Style class feature.
 
 ### Superior Critical
-Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.
+Your weapon attacks score a critical hit on a roll of 18-20.
 
 ### Survivor
-At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.
+You attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.
 
 
 
@@ -682,7 +641,7 @@ Each time you reduce a creature to 0 hit points, you may move up to your speed a
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -849,7 +808,7 @@ At 18th level, you can quickly neutralize a target if you can get the drop on th
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1275,7 +1234,7 @@ Starting at 18th level, as an **action**, you may make an attack against every e
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1506,6 +1465,268 @@ In addition, you gain temporary hit points equal to your fighter level whenever 
 Your ferocity in a tight spot is truly terrifying. You can use your Action Surge up to twice in one turn when you have at least a +2 bonus through your Hackles Up feature.
 
 At the end of your turn after using this feature, you gain 2 levels of exhaustion.
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-celestialKnight">Restricted to Aasimar characters</a></h2>
+<h1>Celestial Knight</h1>
+<div class="featuresTable">
+
+#### Archetype Features
+| Fighter Level | Feature |
+|:-------------:|:--------|
+| 3rd | Divine Aura
+| 7th | Celestial Presence
+| 10th | Manifest Divinity
+| 15th | Sight Beyond Sight
+| 18th | Ascendent
+
+</div>
+
+Among the Aasimar there is a general belief that their ancestors may have left the seeds of celestial power in the material plane for a reason. Most of the time this presents itself as an overwhelming want to prove themselves through divine service.
+
+Not all Aasimar follow this path however: some shirk the responsibilities of divine service or the taking of oaths. Perhaps not wanting to bind themselves in the service of an ancestor, they draw forth their hidden potential and search for other challenges that are fitting of a divine child.
+
+##### Restriction
+The Celestial Knight can only be taken by a character who is Aasimar.
+
+### Divine Aura
+Starting at 3rd level, you become a beacon of hope for those who stalwartly defend the material plane against fiendish incursions. You can temporarily manifest a halo as a ***bonus action***; a corona of energy that varies in appearance depending on which type of Aasimar you are; a golden ring of light for Protector or a quivering ring of shadow for Fallen.
+
+It lasts for 1 minute, until you dismiss it or are incapacitated. Whilst the halo is active, you gain the following benefits:
+
+- If you are a **Protector** Aasimar, you shed bright light out to 10 ft and dim light an additional 10 ft. If you are a **Fallen** Aasimar, any bright light within 5 ft becomes dim light and any dim light becomes darkness.
+- When you attack a creature with a weapon, you can use your ***reaction*** to give yourself advantage.
+- If a fiend with a challenge rating equal to or less than half your fighter level starts or ends it’s turn within 10 ft of you, it must roll a Wisdom saving throw against a DC of 8 + your proficiency bonus + your Charisma modifier. If it fails it is frightened of you for 1 minute. A creature can repeat this saving throw at the end of each of it’s turns, provided that it is not within 10 ft of you, and ends this effect on itself on a success.
+
+You can use this ability a number of times equal to your proficiency bonus, and regain all uses after a long rest.
+
+
+### Celestial Presence
+By 7th level, your celestial heritage has begun to more directly influence your physical appearance. Your type determines what these changes are:
+
+If you are a **Protector**, you begin to look elegant and perfect, and your skin and hair are constantly free of any dirt or blemishes. You have advantage on Charisma checks, as you enthrall those who look upon you.
+
+If you are a **Fallen**, your dreadful aspect becomes so vivid that creatures now find your simple presence terrifying. Fear effects from your ***Divine Aura*** and ***Necrotic Shroud*** are enhanced, causing creatures to have disadvantage on their saving throws against them.
+
+### Manifest Divinity
+Beginning at 10th level, you learn to harness your innate powers in a more focused manner, allowing you to take on your true appearance for longer.
+
+Whenever you use your ***Divine Aura*** feature, you also gain the benefits of your natural transformation using radiant soul or necrotic shroud. However, any damage dealt by those abilities is halved for the duration of the divine aura.
+
+### Sight Beyond Sight
+Starting at 15th level, your eyes become pools of energy that allow you to see the truth of the world.
+
+You can see in non-magical darkness, see invisible creatures and objects, automatically detect visual illusions an succeed on saving throws against them, perceive the original form of a shapechanger or a creature that is transformed by magic, and see into the ethereal plane, all within a range of 30 feet.
+
+### Ascendent
+At 18th level, you have realised the full potential of your celestial heritage. You can now activate your ***Divine Aura*** at will, and it lasts indefinitely unless you choose to end it. In addition, your divine aura has become much more powerful. Whilst your divine aura is active, the following changes apply:
+- The light or darkness radiated your halo increases by an additional 10 feet.
+- If you are a ***Protector*** Aasimar, the vision granted by your ***Sight Beyond Sight*** feature increases to 60 feet.
+- If you are a **Fallen** Aasimar, as an ***action*** you can cause the fear effect of your transformation to activate, and the range increases to 20 feet. In addition, once per short rest, if you have not yet moved, you can teleport to an area of dim light or darkness that you can see within 300 feet of you. If you use this feature, your speed is 0 for the remainder of that turn.
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-tinkerKnight">Restricted to Gnome characters</a></h2>
+<h1>Tinker Knight</h1>
+<div class="featuresTable">
+
+#### Archetype Features
+| Fighter Level | Feature |
+|:-------------:|:--------|
+| 3rd | Bonus Proficiencies, Inventive Arsenal
+| 7th | Tinker's Expertise
+| 10th | Mechanical Synergy
+| 15th | Flexible Innovation
+| 18th | Masterwork Inventions
+
+</div>
+
+The inventive warriors known as Tinker Knights seek an unorthodox form of martial skill. Rather than hone their physical abilities with the armaments of war, they look to augment their mundane physical abilities with mechanical inventions and innovative weaponry.
+
+Warriors adopt the archetype of the Tinker Knight for many reasons. Some have been grievously injured, and use their ingenuity to make up for their physical shortcomings. Others seek to put their sharp minds to use, but still desire to swing their sword and raise their shield on the front lines of the battlefield.
+
+##### Restriction
+The Celestial Knight can only be taken by a character who is Gnome.
+
+### Bonus Proficiencies
+You gain the skill to maintain your inventive arsenal. You gain proficiency with tinker's tools and smith's tools. If you are already proficient with either of these tools, you instead have advantage on checks with those  tools.
+
+### Inventive Arsenal
+As a Tinker knight, you have come up with a variety of strange modifications for weapons and armor. You learn two schematics of your choice, from the schematics listed at the end of this archetype description.
+
+Each time you gain a level in this class, you can replace one schematic you know with a different one from this feature. You learn additional schematics as you gain fighter levels, as shown in the Schematics Known table.
+
+
+#### Schematics Known
+| Fighter Level | Number of Schematics |
+|:-------------:|:--------|
+| 3rd | 2
+| 7th | 3
+| 10th | 4
+| 15th | 5
+
+
+Whenever you finish a long rest, you can take 10 minutes to adjust a number of objects equal to the number of schematics you know, modifying each object to gain the features of each schematic. To be eligible, an object must meet the requirements stated in the schematic description.
+
+
+
+The modifications from each schematic last until the end of your next long rest, and an object can only be modified by one schematic at a time.
+
+***Saving Throws***. If a schematic requires a saving throw, your Schematic save DC is calculated as 8 + your proficiency bonus + your Intelligence modifier.
+
+### Tinker's Expertise
+Your inventive skill has grown to rival the best of innovators. Items modified by your schematics count as magical for overcoming resistances and immunities, and you can apply your schematics to magical weapons and armor.
+
+A magic item cannot gain more than a +3 bonus to attack rolls, damage rolls, or AC through this feature.
+
+### Mechanical Synergy
+You have learned to make your modifications work together. You can now apply two of your schematics to one item as long as the item meets both prerequisites.
+
+### Flexible Innovation
+You have gained such a familiarity with your inventive arsenal that you can make adjustments in a relatively short amount of time. At the end of a short rest, you can remove the effects of one of your schematics from an item and apply the schematic to a different item that meets the prerequisites. If a schematic's effect has a limited amount of uses per day, the number of expended uses stays the same when transferred.
+
+In addition, you can apply up to three schematics to one item if that item meets the prerequisites for each schematic.
+
+### Masterwork Inventions
+Your innovations to the armaments of war are beyond compare. Weapons modified by your schematics gain a +1 bonus to attack and damage rolls for each schematic applied to them. In the same vein, suits of armor modified by your schematics gain a +1 bonus to Armor Class for each schematic applied to them.
+
+A weapon or suit of armor modified by your schematics cannot gain a bonus greater than +3, regardless of any innate bonuses the item may have had before being modified.
+
+### Schematics
+The following schematics are available to you when you learn a new schematic. If a schematic has a level requirement, you can learn it at the same time you meet the requirement.
+
+<div class="columnstwo">
+
+- #### Featherweight Schematic
+    You modify the metallurgical makeup of an item, making it lighter. While wearing or wielding an item modified by this schematic, your movement speed increases by 5 feet.
+
+    ***Heavy Armor***. When applied, the wearer ignores any Strength requirements the armor may have, or any penalty it imposes upon Dexterity (Stealth) checks.
+
+    ***Light Armor***. When applied, the wearer can subtract up to 100 feet from their fall when calculating fall damage and can move horizontally 2 feet for every 1 foot they fall.
+
+    ***Weapon***. When applied, a Heavy weapon becomes normal weight, and a normal weapon becomes Light.
+
+- #### Intuitive Schematic
+    You modify an item to take advantage of your martial and investigative instincts. While wearing or wielding an item modified by this schematic, you gain proficiency with the Investigation skill and have advantage on any Investigation checks you make
+
+    ***Armor***. When applied, the wearer can use Intelligence in place of Dexterity, when calculating AC.
+
+    ***Weapon***. When applied, the wielder can use Intelligence modifier in place of Strength or Dexterity, for attack and damage rolls with this weapon.
+
+- #### Radiant Schematic
+    You imbue an item with a source of radiant energy. While wearing or wielding an item modified by this schematic, you can use a ***bonus action*** to cause the item to emit bright light in a 15-foot radius, and dim light 15 feet beyond that. You can extinguish the light as a ***bonus action*** on your turn.
+
+    ***Armor or Weapon***. When you are hit by an attack (armor), or hit a creature with an attack (weapon), you can use your ***reaction*** to force the creature to make a Constitution saving throw. On a failed save, the creature is blinded for 1 minute. It can repeat this saving throw at the end of each of its turns, ending the effect on a success. Once you use this feature, you must finish a long rest before you can use it again.
+
+- #### Rebounding Schematic
+    You modify an item so that it has elastic properties. While wearing or wielding an item modified by this schematic, you can use your ***reaction*** to add your Intelligence modifier to AC against one attack.
+
+    ***Armor***. When the wearer of this armor is hit by an attack, they can use their ***reaction*** to reduce the damage by an amount equal to 1d12 + their Intelligence modifier. If they reduce the damage to 0, the attacker takes the full damage of the attack as if they had been the original target. Once you use this feature you must finish a short rest before you can use it again.
+
+    ***Non-Heavy Weapon***. When applied, the weapon gains the thrown property with a range of 20 feet. After making an attack with this weapon, it immediately returns to the wielder.
+
+- #### Empowered Schematic
+    *Prerequisite: 7th level Tinker Knight*
+
+    You modify this item with complex clockwork mechanics that improve your physical capability and hone your reflexes. While wearing or wielding an item modified by this schematic, you gain a bonus to your initiative rolls equal to your Intelligence modifier.
+
+    ***Heavy Armor***. When applied, the wearer can use their Intelligence score, in place of Strength, for any Strength ability checks or saving throws you make.
+
+    ***Light Armor***. When applied, the wearer can use their Intelligence score, in place of Dexterity, for any Dexterity ability checks or saving throws they make.
+
+    ***Weapon***. When applied, anytime you roll a 1 or 2 for a damage roll with this weapon, you can choose to re-roll the die, but you must use the new result even if it is a 1 or 2.
+
+- #### Resilient Schematic
+    *Prerequisite: 7th level Tinker Knight*
+
+    You modify the metallurgical makeup of this item to make it far more resilient. While wearing or wielding an item modified by this schematic you have advantage on saving throws to resist being grappled or moved against your will.
+
+    ***Armor***. When applied, this armor grants resistance to nonmagical bludgeoning, piercing, and slashing damage.
+
+    ***Weapon***. When applied, this weapon deals bonus damage equal to your Intelligence modifier + your fighter level when you score a critical hit.
+
+</div>
+
+### Archetype Maneuvers
+The following maneuvers are available only to a Tinker knight. Tinker knights focus on overcoming enemies and obstacles with the help of their mechanical inventions.
+
+<div class="columnsthree">
+
+- #### Feats of Mechanical Strength
+    When you make a Strength check or are forced to make a Strength saving throw, you can use your ***reaction*** to expend a superiority die to gain a bonus to your roll equal to your superiority die roll + your Intelligence modifier.
+
+- #### Spring-Loaded Leap
+    When you make a high or long jump, you can expend a superiority die as part of your movement to increase your jump distance by a number of feet equal to two rolls of your superiority die.
+
+- #### Tinker's Insight
+    When you make an Investigation check, or a check with a set of artisan's tools in which you are proficient, you can expend a superiority die to gain a bonus to your roll equal to two rolls of your superiority die.
+
+</div>
+
+
+
+<hr class="classdivider">
+<h2><a class="internal-link" name="internal-warslingSniper">Restricted to Halfling characters</a></h2>
+<h1>Warsling Sniper</h1>
+<div class="featuresTable">
+
+#### Archetype Features
+| Fighter Level | Feature |
+|:-------------:|:--------|
+| 3rd | Ricochet Shot, Sling Master
+| 7th | Sniper (1d6)
+| 10th | Quick reflexes
+| 15th | Improved Critical, Sniper (2d6)
+| 18th | Exploiting Shot
+
+</div>
+
+The warsling sniper is an expert in the use of the weapon commonly associated with the halfling race. Among the halflings, these individuals are known by their proper name, and are often accorded great respect in the community. To nearly everyone else however, these sharpshooters are known as “those damned sling assassins!” or by even more colorful epithets.
+
+While some warsling snipers do actually sell their talents to those wishing to dispose of their enemies, most are not professional assassins but rather highly skilled specialists who use their skills to help protect their communities or improve their chances of adventuring successfully. The art of warsling expertise is often passed from generation to generation, and most snipers remain with their family for most of their lives, imparting their superlative skills to the young.
+
+##### Restriction
+Only halflings follow this path, although there are instances of individuals of other races acquiring these skills.
+
+### Ricochet Shot
+You become an expert at trajectories and ballistics with your sling, ignoring half cover, and counting three-quarters cover as half cover (+2 AC). You can even target creatures around obstacles and corners, even if that creature has full cover and is out of your line of sight, as long as the path of the attack hits a wall or other solid obstacle, is still within the sling’s range, and can be measured in two straight lines.
+
+In addition, if you hit an enemy during your turn, you can make an additional attack with the same ammunition against any enemy within the remaining range.
+
+In both cases, the attack made after a bounce can never benefit from advantage, and it only works with hard-to-break ammunition like stones and sling bullets, not with alchemical ammunition
+
+### Sling Master
+You are never without a sling. You can easily make a good enough sling from any piece of cloth, that works just as good as any sling you can buy, in a minute.
+
+If you have longer time, you can improve a sling, including one you made temporarily, to become superior warsling. During a long rest where you have a set of leatherworker’s tools available, you can customize and improve the sling, increasing the damage you deal with it by 1 die size, eg, 1d6 for regular ammunition, and increasing the range from 30/120 ft to 50/120 ft.
+
+### Sniper
+Any time you have advantage on an attack with your sling, it deals extra 1d6 damage. This extra damage increases by an additional d6 at 15th level.
+
+### Quick reflexes
+You gain proficiency bonus with initiative checks. In addition, when a creature within 30 feet of you moves, you can use your ***reaction*** to make a ranged weapon attack with a sling against that creature.
+
+### Improved Critical
+Your sling attacks score a critical hit on a roll of 19-20.
+
+### Exploiting Shot
+When you score a critical hit with a sling against a target, you can choose to give that target disadvantage on attack rolls and ability checks, the blinded condition, or the deafened condition until the start of your next turn, or you can choose to make the target fall prone.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

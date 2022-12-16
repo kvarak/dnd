@@ -12,7 +12,8 @@ You will get skill points to select skills during character creation, as well as
 - During character creation, while generating your background, you will get skills appropriate for the events in your life. If you get less than 3 skills (4 for humans), you can select additional skills so that you have 3. Additionally you always gain the appropriate Culture skill (unless living as a hermit or similar). Skills found in Background Skills are only available at this time.
 - Each class receives a number of skill points for which to buy skills from a list of class skills.
 - Each time you level up, you gain 1 skill point, which you can use to buy any skill.
-- In addition, classes may have class features that grant skills or skill points.
+- In addition, classes may have class features that grant skills or skill points. If a class grant a skill with a prerequisite skill, you also gain that skill.
+
 
 ### Spending skill points
 Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must know the skill right above it in the “skill tree”. You can save skill points, and are allowed to spend them at a later time, after finishing a long rest. Additionally you can spend skill points the following ways.
@@ -428,6 +429,12 @@ The skill of increasing your chance of winning on mostly Luck based games. If yo
 The skill to look around for clues and make deductions based on those clues. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, determine the weakest point in a tunnel that could cause it to collapse or to pore through ancient scrolls in search of a hidden fragment of knowledge. These are all Intelligence (Investigation) checks.
 
 <details>
+<summary>Appraisal</summary>
+
+You have skill with appraising and comparing values of objects, and always have ***Expertise*** on such checks. Normally you would not roll for this skill, unless it needs to be done quickly.
+</details>
+
+<details>
 <summary>Ciphers</summary>
 
 You are good at finding and solving ciphers. This grants ***Expertise*** on checks to realize that a text or map might contain a cipher or riddle.
@@ -655,7 +662,7 @@ Observing how humanoids behave has given you lots of insight in the mind of othe
 </details>
 
 <details>
-<summary>Keen Awareness</summary>
+<summary>Keen Awareness (trait)</summary>
 
 You are always on your guard and can react to danger at a moment's notice. Gain ***Expertise*** on Initiative checks. In addition you can use your ***reaction*** before your first round.
 <details>
@@ -1613,7 +1620,7 @@ Continental politics are just so thrilling, with the upheaval and the betrayals 
 </div>
 </details>
 
-<!-- ---------------------------- CURLTURE ----------------------------------  -->
+<!-- ---------------------------- CULTURE ----------------------------------  -->
 
 <details>
 <summary>Culture (Group)</summary>
@@ -2265,6 +2272,11 @@ The carving and shaping of three-dimensional figures in stone, metals, ceramics,
 </details>
 
 <details>
+<summary>Tattoo</summary>
+The skill to design and create tattoos.
+</details>
+
+<details>
 <summary>Taxidermy</summary>
 The skill of meticulous preservation, display and restoration of the bodies of deceased animals.
 </details>
@@ -2749,13 +2761,14 @@ Multiple characters can help cut the time down, with each person making a check 
 
 ##### Generic crafting skills
 The following skill is not bound to a craft, instead it applies to all crafts in which you have skill.
+
 <details>
 <summary>Guild Politics</summary>
 
-##### Craft specific skills
 Knowledge of the etiquette among guilds and their associates. You have ***Expertise*** on Charisma checks when interacting with crafting professionals. This applies even to guilds where you are not a member.
 </details>
 
+##### Craft specific skills
 For each single craft, you can select the skills described below. Also note, that dwarves gain both the Journeyman crafter and Master crafter skills, as the craftsmanship of dwarves is well known. For other folk, during play, you do not have to spend points to gain the Journeyman crafter and Master crafter skills, instead you gain them as soon as you are applicable for them.
 <details>
 <summary>Appraiser (trait)</summary>
@@ -2766,11 +2779,13 @@ The skill to correctly identify the approximate value of items according to thei
 If you start play with this skill, you have an official trade certificate allowing you to charge for your work with the craft, but not yet work as a self-employed master craftsman. This will in most human urban and rural areas allow you to live a modest lifestyle without paying the cost. Becoming a Journeyman crafter during play is a lot harder, as it requires a 7 year apprenticeship. This doesn’t have to be cumulative, so you might almost be done during your background, and finish up the last periods during downtime.
 
 As a journeyman one is expected to accomplish a three-year working trip, to train with multiple masters, which are called the journeyman years. After this trip a journeyman has to submit a masterpiece of work to a guild for evaluation. If the masterpiece is not accepted by the masters, he is not allowed to join the guild, possibly remaining a journeyman for the rest of his life.
-</details>
+
 <details>
 <summary>Master Crafter (trait)</summary>
 If you start play with this skill, you are a member of a guild and have an official master certificate. This means you have a network of contacts within the craft, as well as suppliers, buyers and in some cases, with other related crafts. In most human urban and rural areas having this skill allows you to live a comfortable lifestyle without paying the cost.
 </details>
+</details>
+
 <details>
 <summary>Trader</summary>
 
@@ -2790,7 +2805,7 @@ The scientific study of the properties and behavior of the elements that make up
 ##### Crafting Alchemical Items.
 To craft an alchemical item you need at least an alchemist’s kit and raw materials worth half the value of the created item. Your skill determines what kind of alchemical items you can safely create. If you attempt to make such an item, spend the raw materials and a long rest, then make an Intelligence (Alchemy) check and see the first applicable result below.
 
-- **On a resule of 0 or lower.** The item is not created, the raw materials are wasted and you suffer an alchemical mishap.
+- **On a result of 0 or lower.** The item is not created, the raw materials are wasted and you suffer an alchemical mishap.
 - **On a result below 5 or if you roll a natural 1.** The item is not created and the raw materials are wasted.
 - **6-10.** The reaction is not as efficient as you would have expected. You need to spend additional raw materials equal to 25% of the value of the created item, as well as 8 additional hours. If you choose not to, the original raw materials are wasted and the item is not created.
 - **11-25.** The item is created as expected.
@@ -2801,11 +2816,6 @@ You can make any number of doses of the same item at the same time. You can also
 If you have access to a fully stocked alchemical laboratory, you have advantage on your check.
 
 You can attempt to make items above your level of skill. For each level below, you have a -10 on your check.
-
-<details>
-<summary>Combat Alchemy (trait)</summary>
-You know how to maximize the effectiveness of alchemical items under stress, for instance when in combat. You are proficient with throwing flasks and vials and do not have disadvantage when attacking an adjacent creature with them. In addition the damage of your acid, alchemist’s fire and other similar items increases by one damage die at levels 5, 11, and 17.
-</details>
 
 <details>
 <summary>Craft Alchemical Substance (trait)</summary>
@@ -3244,18 +3254,20 @@ You have cheated death so often that even Pharasma now deems it part of your fat
 </details>
 
 <details>
-<summary>Fiery Spirit of Passion</summary>
-<div markdown="1">
+<summary>Fiery Spirit of Passion
 
 *Prerequisite: Devoted follower of Balder, Calistria, Hanali Celanil, Hathor, Sheyanna Flaxenstrand or Shelyn*
-
-Your faith blooms, giving you a fierce devotion, beauty and free spirited passion. The deity you are devoted to grants you a fiery and irrepressible strength of soul and a breath catching grace of form. Gain +1 to your Charisma. In addition You share a deep bond with your companions, driving them forward with your fiery passion and spirit. When you and at least one allied creature within 20 ft make a saving throw against the Frightened condition at the same time, they can use your saving throw instead of theirs if yours is higher. A creature can only replace their roll with yours once and must complete a long rest before they can do so again.
+</summary>
+<div markdown="1">
+Your faith blooms, giving you a fierce devotion, beauty and free spirited passion. The deity you are devoted to grants you a fiery and irrepressible strength of soul and a breath catching grace of form. Gain +1 to your Charisma. In addition you share a deep bond with your companions, driving them forward with your fiery passion and spirit. When you and at least one allied creature within 20 ft make a saving throw against the Frightened condition at the same time, they can use your saving throw instead of theirs if yours is higher. A creature can only replace their roll with yours once and must complete a long rest before they can do so again.
 
 <details>
 <summary>Fiery Soul</summary>
+
 You can draw upon your faith to unleash the magnetic fiery soul within you with the effect of the spell *enthrall*, which you can cast once between each long rest without expending a spell slot. When you cast it in this way, the spell does not require a somatic component. Charisma is your spellcasting ability for this spell.
 <details>
 <summary>Fiery Personality</summary>
+
 When you cast *enthrall* using this trait, you additionally gain the effects of the sanctuary spell and advantage on all Speechcraft and Performance checks against creatures that failed their saving throw. All effects end when the enthrall spell ends, or if you break the effects of sanctuary by making an attack or casting a spell.
 </details>
 </details>
@@ -3263,12 +3275,14 @@ When you cast *enthrall* using this trait, you additionally gain the effects of 
 </details>
 
 <details>
-<summary>Graceful Dancer</summary>
-<div markdown="1">
+<summary>Graceful Dancer
 
 *Prerequisite: Art - Dance and Devoted follower of Bes, Calistria, Corellon Larethian or Shelyn*
+</summary>
+<div markdown="1">
 
-Each step is an expression of your faith, graceful and flowing, as if about to burst into dance at any moment, your movements take on a bewildering elegance that makes others seem plodding in comparison. You gain the ability to take a Dancer’s Step as a bonus action. You can move up to 5 ft, and select one additional effect: 
+
+Each step is an expression of your faith, graceful and flowing, as if about to burst into dance at any moment, your movements take on a bewildering elegance that makes others seem plodding in comparison. You gain the ability to take a Dancer’s Step as a *bonus action*. You can move up to 5 ft, and select one additional effect: 
 - Your Dancer’s Step movement does not provoke opportunity attacks.
 - The next attack from one creature within 5 ft of where you end the Dancer’s Step against you before the start of your next turn has disadvantage.
 - You can make an attack with a light melee weapon after your Dancer’s Step movement as part of the same action.
@@ -3281,25 +3295,28 @@ You can select two effects whenever you make a Dancer’ Step.
 </details>
 
 <details>
-<summary>Selfless Martyr</summary>
-<div markdown="1">
+<summary>Selfless Martyr
 
 *Prerequisite: Devoted follower of Arawn or Torag*
+</summary>
+<div markdown="1">
 
-Your faith helps you persevere through anything, taking the suffering of others onto yourself and offering relief to those that need it most. As an action, you can touch a creature that is Blinded, Charmed, Deafened, Frightened , Paralyzed, Petrified, Poisoned or Stunned, and immediately end that condition on the target creature, but suffer that condition yourself. If that condition has a save against its ongoing effect, you can immediately make a save against the effect to end it as part of taking the condition onto yourself. Each time you take on the suffering of another creature with this trait, you gain temporary hit points equal to your proficiency bonus. You can do this a number of times equal to your proficiency bonus, and regain all uses when you complete a long rest.
+Your faith helps you persevere through anything, taking the suffering of others onto yourself and offering relief to those that need it most. As an *action*, you can touch a creature that is Blinded, Charmed, Deafened, Frightened , Paralyzed, Petrified, Poisoned or Stunned, and immediately end that condition on the target creature, but suffer that condition yourself. If that condition has a save against its ongoing effect, you can immediately make a save against the effect to end it as part of taking the condition onto yourself. Each time you take on the suffering of another creature with this trait, you gain temporary hit points equal to your proficiency bonus. You can do this a number of times equal to your proficiency bonus, and regain all uses when you complete a long rest.
 </div>
 </details>
 
 <details>
-<summary>Steadfast Traveler</summary>
-<div markdown="1">
+<summary>Steadfast Traveler
 
 *Prerequisite: Physique - Endurance and Devoted follower of Desna, Lugh or Marthammor Duin*
+</summary>
+<div markdown="1">
 
-Your faith gives a drive and curiosity that drives you to go beyond and press further. This has been noticed by your deity who has granted you the ability to cast augury without expending a spell slot as long as the question asked relates to a path, trail, or route, and only the consequences of taking it. The normal restrictions of using augury multiple times a day still applies.
+Your faith gives a drive and curiosity that drives you to go beyond and press further. This has been noticed by your deity who has granted you the ability to cast *augury* without expending a spell slot as long as the question asked relates to a path, trail, or route, and only the consequences of taking it. The normal restrictions of using augury multiple times a day still applies.
 <details>
 <summary>Freedom of Movement</summary>
-Little can stop you. As a bonus action you can gain temporary hit points equal to your proficiency bonus and be under the effect of freedom of movement until the end of your turn. Once you do this, you must complete a long rest before you use this feature again.
+
+Little can stop you. As a *bonus action* you can gain temporary hit points equal to your proficiency bonus and be under the effect of *freedom of movement* until the end of your turn. Once you do this, you must complete a long rest before you use this feature again.
 </details>
 </div>
 </details>
@@ -3310,15 +3327,21 @@ Little can stop you. As a bonus action you can gain temporary hit points equal t
 <div id="class" class="container tab-pane fade">
 
 <details>
-<summary>Evasive Flow</summary>
-<div markdown="1">
-<i>Prerequisite: Acrobatics - Tumbling and Thrown weapon</i>
+<summary>Evasive Flow
 
-When a creature uses an ability that triggers your Evasion, you can use your reaction to make an immediate ranged attack, at advantage, toward the same enemy.
+*Prerequisite: Acrobatics - Tumbling and Thrown weapon*
+</summary>
+<div markdown="1">
+
+
+When a creature uses an ability that triggers your Evasion, you can use your *reaction* to make an immediate ranged attack, at advantage, toward the same enemy.
 
 <details>
-<summary>Evasive Flow II</summary>
-<i>Prerequisite: Acrobatics - Roll with the blow II.</i>
+<summary>Evasive Flow II
+
+*Prerequisite: Acrobatics - Roll with the blow II.*
+</summary>
+
 
 If you succeed with a Roll with the Blow II check, you can as a part of the same reaction make an immediate ranged attack with advantage against the enemy that attacked you and triggered the reaction.
 </details>
@@ -3335,7 +3358,8 @@ Only available at character creation.
 <details>
 <summary>Avenger</summary>
 <div markdown="1">
-If you can’t protect your friends, you can be damn well sure you’ll avenge them. Whenever an enemy causes an ally to become blinded, frightened, incapacitated, paralyzed, restrained or to suffer a critical hit, you gain advantage on your next attack roll. In addition, whenever a creature causes an ally to drop to 0 hit points, you can use your reaction to make a melee weapon attack against that creature.
+
+If you can’t protect your friends, you can be damn well sure you’ll avenge them. Whenever an enemy causes an ally to become blinded, frightened, incapacitated, paralyzed, restrained or to suffer a critical hit, you gain advantage on your next attack roll. In addition, whenever a creature causes an ally to drop to 0 hit points, you can use your *reaction* to make a melee weapon attack against that creature.
 </div>
 </details>
 
@@ -3347,10 +3371,11 @@ You’re always quick to shy away from danger, and desperate to keep your blood 
 </details>
 
 <details>
-<summary>Feel No Pain</summary>
-<div markdown="1">
+<summary>Feel No Pain
 
 *Requires: Constitution 13 or higher, Wisdom 8 or lower*
+</summary>
+<div markdown="1">
 
 Some people wonder whether you’re really physically tough, or if you’re just too oblivious to notice you’ve been wounded. Who needs mental fortitude when you’ve got a skull thick enough to stop evil magic! You gain the following benefits:
 - You may make an unarmed strike with your head for 1d4 bludgeoning damage as a ***bonus action***. You are proficient with this attack.
@@ -3360,10 +3385,11 @@ Some people wonder whether you’re really physically tough, or if you’re just
 </details>
 
 <details>
-<summary>Lovable Klutz</summary>
-<div markdown="1">
+<summary>Lovable Klutz
 
 *Requires: Dexterity 8 or lower, Charisma 13 or higher*
+</summary>
+<div markdown="1">
 
 Though your clumsiness often interferes with routine tasks and you spend as much time on the ground as you do standing up, you always stay positive! It’s important to do your best every day! You gain the following benefits:
 - A creature that makes a melee attack against you while you are prone does not gain advantage.

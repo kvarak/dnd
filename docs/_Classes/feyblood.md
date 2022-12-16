@@ -5,9 +5,9 @@ layout: default
 
 <div class="toc" markdown="1">
 
-#### <a href="#internal-class">Class Features</a>
-#### <a href="#internal-feat">Fey Feats</a>
-#### <a href="#internal-affinity">Fey Affinities</a>
+##### <a href="#internal-class">Class Features</a>
+##### <a href="#internal-feat">Fey Feats</a>
+##### <a href="#internal-affinity">Fey Affinities</a>
 <a href="#internal-boggart">Boggart affinity</a><br/>
 <a href="#internal-nereid">Nereid affinity</a><br/>
 <a href="#internal-oread">Oread affinity</a><br/>
@@ -16,22 +16,18 @@ layout: default
 <a href="#internal-sprig">Sprig affinity</a><br/>
 <a href="#internal-sylph">Sylph affinity</a><br/>
 
-#### <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a><br/>
+##### <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a><br/>
 
 </div>
 
-
 # Fey and the Feyblood Class
 Fey are intensely magical creatures, closely tied to the forces of wild nature, creatures of raw emotion and unbridled impulse, and creatures that look almost human but with a curious turn of mind that makes them wholly alien at the same time.
-
 
 Fey are creatures not fully of this world, or perhaps more precisely they are creatures of another version of this world so idealized and yet just off that reality itself could not bear it, utterly beautiful and yet nearly unendurable in its intensity. When fey leave the Feywild and enter our world, the world of mortals, they bring some of that magic and that strangeness with them.
 
 Fey enjoy observing mortals in their natural habitat, so to speak, and may learn many things about them with long exposure to mortal culture and customs, but only rarely are they able to integrate themselves entirely. Even experienced fey wanderers are no more natural a part of the mortals’ culture than a modern family camping in a national park is at one with the animals.
 
 They come from another plane of existence, they’re immortal, and their concerns and way of approaching the world around them may seem bizarre. Noble fey can be aloof, even cold and distant in how they relate to other creatures, and while possessed of a deep capacity for both capricious whimsy and passionate hatred, the triggers for these emotions aren’t always readily obvious.
-
-
 
 In truth, fey most often enter the Material Plane out of curiosity or compulsion. They might be called there by a powerful spellcaster, or by deep magic, their returning like a comet on a calendar longer than living memory. These excursions produce bonds of family, love and enmity, echoing down generations. Some fey live a life of adventure in the Material Plane for years, eventually return to the Feywild as if called home, and many are never seen again by the denizens of the mortal world.
 
@@ -58,8 +54,6 @@ Feyblood is the name used to describe creatures that have the power of fey cours
 
 A feyblood is more than just a mere sorcerer, as it does not only grants some innate magical powers. No, a feyblood is wholly infused not only with the magic, but also the mannnerism, the feelings and the very essence of a fey creature, to such a degree that they are essentially fey themselves.
 
-
-
 ### Uncanny natures
 Feyblood are part and parcel to magic, wielding it with an aptitude that awes druids, inspires jealousy among wizards, and fosters kinship among sorcerers. They often manage the spellcasting abilities most gain after years of discipline by the end of their adolescence, although they often do not yet realize this to be the case. A feyblood’s affinity might express itself as a kinship to earth, water, air, or plants. Others become master manipulators, or inexplicably efficient with an otherwise crude weapon.
 
@@ -72,17 +66,175 @@ Perhaps the most important thing when creating a feyblood is to consider whether
 
 <h2><a class="internal-link" name="internal-class">Class Features</a></h2>
 
+<div class="block classTable halfClassTable frame" markdown="1">
+
+##### The Feyblood
+| -Level-  | -PB- | -Features- | -Spark- | -Spells- | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
+|:-----:|:-----------:|:---------|:-----:|:------:|----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|1st| +2| Spark, Spellcasting,<br/>Glamorous Defense,<br/>Fey Affinity,<br/>Fey Vulnerabilities |2|4|2|—|—|—|—|—|—|—|—|
+|2nd| +2| Faerie Dust,<br/>Fey Affinity Feature |2|5|3|—|—|—|—|—|—|—|—|
+|3rd| +2| — |2|6|4|2|—|—|—|—|—|—|—|
+|4th| +2| Misty Escape |2|7|4|3|—|—|—|—|—|—|—|
+|5th| +3| — |3|8|4|3|2|—|—|—|—|—|—|
+|6th| +3| Fey Affinity Feature |3|9|4|3|3|—|—|—|—|—|—|
+|7th| +3| — |3|10|4|3|3|1|—|—|—|—|—|
+|8th| +3| Mortal Anchor |3|11|4|3|3|2|—|—|—|—|—|
+|9th| +4| — |4|12|4|3|3|3|1|—|—|—|—|
+|10th| +4| Fey Affinity Feature |4|13|4|3|3|3|2|—|—|—|—|
+|11th| +4| — |4|14|4|3|3|3|2|1|—|—|—|
+|12th| +4| — |4|15|4|3|3|3|2|1|—|—|—|
+|13th| +5| — |5|16|4|3|3|3|2|1|1|—|—|
+|14th| +5| Fey Affinity Feature |5|17|4|3|3|3|2|1|1|—| —|
+|15th| +5| — |5|18|4|3|3|3|2|1|1|1|—|
+|16th| +5| — |5|19|4|3|3|3|2|1|1|1|—|
+|17th| +6| — |6|20|4|3|3|3|2|1|1|1|1|
+|18th| +6| Dreamchaser |6|21|4|3|3|3|3|1|1|1|1|
+|19th| +6| — |6|22|4|3|3|3|3|2|1|1|1|
+|20th| +6| Planar Glamour |6|23|4|3|3|3|3|2|2|1|1|
+
+</div>
+
 As a feyblood, you gain the following class features.
 
 #### Hit Points
 **Hit Dice:** 1d6
 
-#### Proficiencies
-**Weapons:** Simple weapons
+#### Saving Throws
+You are proficient with ***Dexterity*** and ***Charisma*** saving throws.
 
-**Skills:** Check your background for skills.
+#### Skills
+**Class Skills:** Fey Transformation *(class specific)*, Herbalism, Nature and Survival
 
-**Saving Throws:** Dexterity, Charisma
+**Skill Points:** You gain 2 skill points at 1st level.
+
+
+<!-- -------------------- Class Specific Skills ---------------------  -->
+
+<details>
+<summary>Class specific skills</summary>
+The following skills are exclusive to fey and feyblooded characters.
+
+<details><summary>Fey Transformation (trait)</summary>
+Your features slowly take on more fey-like properties.
+
+You have advantage on saving throws against being charmed and magic can’t put you to sleep.
+
+<details><summary>Cunning Glamour (trait)</summary>
+
+When you cast a feyblood spell of level 1 or higher, you can use your ***bonus action*** to take the disengage, dodge or hide action.
+</details>
+
+<details><summary>Glamoured Artistry (trait)</summary>
+Your magic drives you to create, and you can expend a use of your Faerie Dust to gain advantage on a check to perform or craft.
+
+<details><summary>Fey Glamour (cost: 2, trait)</summary>
+Your fey heritage makes people easily fascinated by you. Gain +1 Charisma.
+</details>
+</details>
+
+
+<details><summary>Korred Influence (trait)
+
+***Requirements:** Oread (Korred) affinity*
+</summary>
+Some Korred have a much stronger affininty to stone, even to the point where stones actively help them or even talk to them.
+
+You count as two sizes larger when determining your carrying capacity and the weight you can push, drag, or lift, but only in respect to stone.
+
+<details><summary>Stone Speech (trait)</summary>
+You can speak with stones. Most rocks have no ears or eyes and a poor grasp of time, but easily reveal information about their mineral composition, or structural integrity.
+</details>
+</details>
+
+
+<details><summary>Pixie Wings (trait)
+
+***Requirements:** level 12*
+</summary>
+
+You grow a pair of delicate wings, gaining a flying speed of 25 ft. The wings do not look strong enough to carry you, but they are powered by your faerie dust. A side effect is that while flying, you emit dim light in a 5 ft radius and emit a soft noise.
+
+
+| d8 | Light | Sound |
+|:--:|:------|:------|
+| 1  | Red    | Musical notes
+| 2  | Orange | Gentle breeze
+| 3  | Yellow | Rustling leaves
+| 4  | Spring | Babbling brook
+| 5  | Green  | Insect buzzing
+| 6  | Blue   | Tinkling chimes
+| 7  | Indigo | Soft singing or humming
+| 8  | Violet | Child’s laughter
+
+While flying on the material plane, you have disadvantage on ability checks to hide or sneak. You cannot fly if you are encumbered, exhausted or wearing armor.
+
+<details><summary>Wing Dust</summary>
+
+Like some other winged fey creatures, you can splash magical dust using your wings. You can sprinkle a colored type of dust on an adjacent creature as an ***action***.
+
+The pale blue dust makes a creature not needing to breathe for 1 hour.
+
+The rosy dust grants a creature advantage on saving throws against being charmed or frightened for 10 minutes.
+
+The yellowish dust grants a creature flying speed of 30 ft for 1 minute, but they can't fly higher than 10 ft off the ground.
+
+Once you sprinkle a type of dust, you can't use that color dust again until you finish a long rest.
+
+</details>
+</details>
+</details>
+</details>
+
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 1 with Axe, Club, Knife, Spear, Staff and Sling.
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
+
+
+<!-- -------------------- Class Specific Combat Skills ---------------------  -->
+
+<details>
+<summary>Class specific combat skills</summary>
+The following combat skills are exclusive to alchemists.
+
+<details><summary>Hair Whip (trait)
+
+***Requirements:** Oread (Korred) affinity*
+</summary>
+
+As an ***action***, you can extend a long, whip made from your magical hair that lashes out toward one creature you can see within 30 ft. Make a melee spell attack against the target. If the attack hits, the creature takes 1d6 bludgeoning damage, and if the creature is Large or smaller, you can pull the creature up to 10 ft closer to you. Damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+
+<details><summary>Grappling Hair (trait)</summary>
+
+When you hit a creature with your Hair Whip, you can attempt to grapple the target using your ***bonus action***. You can use your Spark instead of your Strength modifier on checks to make or maintain the grapple. If you succeed, your speed drops to 0. While grappling, your hair has an AC of 10 + your proficiency bonus + your Spark, and a number of hit points equal to your level + your Constitution modifier. It also has resistance to fire damage, and regains 1 hit point at the start of your turn. If your hair whip drops to 0 hit points, it is destroyed, and you must finish a long rest before using this trait again.
+</details>
+</details>
+
+<details><summary>Stone Troll Strength (trait)
+
+***Requirements:** Oread (Stone troll) affinity*
+</summary>
+
+You can shrug off injury. When you take damage from a creature, you can use your ***reaction*** to reduce the damage by 1d6 + your Constitution modifier. You can add that total to the damage roll the first melee attack you hit with on your next turn.
+
+You can do this once, and regain its use after a short rest.
+
+<details><summary>Stone Skin (trait)</summary>
+
+When you take damage, you can use your ***reaction*** to harden your skin, gaining resistance to all damage except thunder and psychic, until the start of your next turn, including the triggering attack.
+
+You can do this once, and regain its use after a short rest.
+</details>
+
+<details><summary>Thundering Stomp (trait)</summary>
+
+As an ***action***, you stomp your foot down creating a thundering sound, audible at 100 ft away. All adjacent creatures must make a Constitution saving throw against your spall casting DC. A creature that fails its saving throw takes 1d8 thunder damage and is deafened until the start of your next turn. This damage increases at 5th level (2d8), 11th level (3d8), and 17th level (4d8). A creature that succeeds its save takes half damage and isn’t deafened.
+
+You can do this once, and regain its use after a short rest.
+</details>
+</details>
+</details>
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -92,36 +244,6 @@ You start with the following equipment, in addition to the equipment granted by 
 - an entertainer's pack
 - a trinket
 
-
-
-
-<div class="block classTable frame" markdown="1">
-
-##### The Feyblood
-| - Level -  | - PB - | - Features - | - Spark - | - Spells Known - | 1st |2nd |3rd |4th |5th |6th |7th |8th |9th |
-|:-----:|:-----------:|:---------|:-----:|:------:|----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|1st| +2| Spark, Spellcasting, Glamorous Defense, Fey Affinity, Fey Vulnerabilities |2|4|2|—|—|—|—|—|—|—|—|
-|2nd| +2| Faerie Dust, Fey Affinity Feature |2|5|3|—|—|—|—|—|—|—|—|
-|3rd| +2|	Misty Escape |2|6|4|2|—|—|—|—|—|—|—|
-|4th| +2| Ability Score Improvement |2|7|4|3|—|—|—|—|—|—|—|
-|5th| +3| — |3|8|4|3|2|—|—|—|—|—|—|
-|6th| +3| Fey Affinity Feature |3|9|4|3|3|—|—|—|—|—|—|
-|7th| +3| — |3|10|4|3|3|1|—|—|—|—|—|
-|8th| +3| Ability Score Improvement |3|11|4|3|3|2|—|—|—|—|—|
-|9th| +4| — |4|12|4|3|3|3|1|—|—|—|—|
-|10th| +4| Fey Affinity Feature |4|13|4|3|3|3|2|—|—|—|—|
-|11th| +4| — |4|14|4|3|3|3|2|1|—|—|—|
-|12th| +4| Ability Score Improvement |4|15|4|3|3|3|2|1|—|—|—|
-|13th| +5| — |5|16|4|3|3|3|2|1|1|—|—|
-|14th| +5| Fey Affinity Feature |5|17|4|3|3|3|2|1|1|—| —|
-|15th| +5| — |5|18|4|3|3|3|2|1|1|1|—|
-|16th| +5| Ability Score Improvement |5|19|4|3|3|3|2|1|1|1|—|
-|17th| +6| — |6|20|4|3|3|3|2|1|1|1|1|
-|18th| +6| Dreamchaser |6|21|4|3|3|3|3|1|1|1|1|
-|19th| +6| Ability Score Improvement |6|22|4|3|3|3|3|2|1|1|1|
-|20th| +6| Planar Glamour |6|23|4|3|3|3|3|2|2|1|1|
-
-</div>
 
 ### Spark
 Your Spark symbolizes your connection to the feywild, from where your mystical powers are drawn. Spark is used to fuel your magic and the abilities you can use. On the material plane, your Spark is normally as shown in the Spark columne of the Feyblood class table.
@@ -133,7 +255,7 @@ Some feyblood have a greater inner strength and can channel Spark more efficient
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -141,6 +263,7 @@ The following class specific additions are made to the general rest rules.
 | * Regain use of ***Misty Escape***.
 | &nbsp;
 | Add the following class specific benefits to choose from: |
+| * Regain use of the spells granted by ***Mortal Anchor***.
 | * Regain use of ***Dreamchaser***.
 | * Regain use of ***Extraplanar Glamour***.
 
@@ -154,8 +277,6 @@ You are a natural conduit for the energies of the Feywild and can manipulate its
 #### Cantrips
 At 1st level, you know a number of cantrips of your choice equal to you Spark. Since your Spark can change, you should assign the first cantrips to become unavailable if you lose Spark, as well as choose an additional that might become available if your Spark increases.
 
-
-
 You learn additional cantrips of your choice at higher levels, every time you Spark increases, as shown in the Spark column of the feyblood table.
 
 #### Spell Slots
@@ -168,13 +289,6 @@ Additionally, when you gain a level in this class, you can choose one of the spe
 
 #### Spellcasting Focus
 You can use an arcane focus or a musical instrument you are proficient with as a spellcasting focus for your feyblood spells.
-
-
-
-
-
-
-
 
 #### Spellcasting Modifier
 The spellcasting modifier for your feyblood spells is your Spark, since the power of your magic relies on your ability to channel the Feywild into this world.
@@ -193,22 +307,19 @@ When the game gives you more than one way to calculate your Armor Class, you can
 ### Glamorous Defense
 While you are not wearing armor or holding a shield, your AC equals 10 + your Dexterity modifier + your Spark.
 
-
 ### Fey Affinity
 You are infused with the magic of the fey and because of that, you have two creature types: humanoid and fey. You can be affected by a spell or ability if it works on either of your creature types.
 
 In addition you choose a <a href="#internal-affinity">fey affinity</a>, detailed after the end of the class description. Your choice grants you features at 1st level and again at 2nd, 6th, 10th, and 14th level.
 
 ### Fey Weakness
-A fey creature’s origin often does not prepare them for life upon the material plane, and they may be unaware of their own vulnerabilities. Being exposed to any of these reduced Spark by 1 for 1 minute, or until the fey's next round if a save is allowed and successful.
+A fey creature’s origin often does not prepare them for life upon the material plane, and they may be unaware of their own vulnerabilities. Being exposed to any of these reduced Spark by 1 for 1 minute or until the fey's next round if a save is allowed and successful.
 
 #### Bells
-The ringing of iron or silver bells harms any fey who hear them. If a hand-held bell rung 5 feet away from a fey, the sound forces them to make a DC 10 Charisma saving throw. If they fail, they take 1d4 thunder damage. If they succeed, they take half the amount. Volume, proximity, size or other enchantments can increase the damage or DC at the DM’s discretion.
+The ringing of iron or silver bells harms any fey who hear them. If a hand-held bell rung 5 ft away from a fey, the sound forces them to make a DC 10 Charisma saving throw. If they fail, they take 1d4 thunder damage. If they succeed, they take half the amount. Volume, proximity, size or other enchantments can increase the damage or DC at the DM’s discretion.
 
 #### Citrus Toxicity
 Lemons, limes and other citrus fruits are toxic to certain fey. If ingested, the faerie makes a DC 14 Constitution saving throw. If they fail, they become poisoned for 24 hours.
-
-
 
 #### Dairy Intoxication
 Butter, cream and cheese have intoxicating effects on fey. They enjoy the taste and sensation, and must succeed a DC 14 Constitution saving throw or become intoxicated, with effects similar to alcohol upon humans.
@@ -216,7 +327,7 @@ Butter, cream and cheese have intoxicating effects on fey. They enjoy the taste 
 #### Imprisonment
 If bound by an iron or silver collar or fetters, or trapped in a container of fine glass or crystal (with a silver or iron flooring or stopper), fey are unable to speak or use material components for spells, use class abilities or break the bonds of their imprisonment.
 
-Once during their captivity, a fey can cast the *sending* spell, even if they do not know the spell, without expending a spell slot, using a mortal anchor (see feats) as the target.
+Once during their captivity a fey can cast the *sending* spell without expending a spell slot, even if they do not know the spell.
 
 #### Metallurgy
 Certain alloys can be toxic to fey, most notably cold iron and silver. Against "real" fey, i.e. creatures that are of a fey race, such weapons could have advantage on attack rolls against, or deal additional psychic damage or poisoning an unlucky fey. However, feyblood who do not belong to a fey race, usually only has their Spark reduced if they are critically hit.
@@ -232,19 +343,25 @@ Using your ***bonus action***, you can splash dust onto an adjacent creature. Th
 You can use this feature a number of times equal to your Spark, and regain expended uses when you finish a long rest.
 
 ### Misty Escape
-From 3rd level, you can vanish in a puff of mist in response to harm. As a ***reaction*** when you take damage, you can become invisible and teleport up to 30 feet to an unoccupied space you can see. You remain invisible until the end of your next turn or until you attack or cast a spell.
+From 4th level, you can vanish in a puff of mist in response to harm. As a ***reaction*** when you take damage, you can become invisible and teleport up to 30 ft to an unoccupied space you can see. You remain invisible until the end of your next turn or until you attack or cast a spell.
 
 You can use this feature once, and regain its use when you finish a long rest.
 
-
-
-
-
-
-
-
+<!-- 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can’t increase an ability score above your racial maximum.
+-->
+
+### Mortal Anchor
+From 8th level you can perform a 1 hour ritual, binding your essence to a present willing living creature that is native to this plane. You can have only one Mortal Anchor at a time, and a creature may only serve as Mortal Anchor for one fey. The bond grants you the following properties:
+
+You can communicate telepathically with your mortal anchor if within a number of feet equal to 5 × your level. Your Mortal anchor has can disable or re-enable or telepathic link using their ***bonus action***.
+
+You can cast the *scrying* and *sending* spell targeting your Mortal Anchor once each without expending a spell slot, even if you don’t know the spells, and may regain the ability to do so when you finish a long rest. Your mortal anchor can choose to succeed a saving throw against these spells.
+
+The bond is an enchantment of the highest level spell a spellcaster of your level can expend. You are aware of any attempts to break it, and may make a DC 14 Insight check to discover the perpetrator.
+
+Your mortal anchor can revoke the bond at any time using their ***action***. When the bond is broken, you must succeed a DC 20 Charisma saving throw or take one level of exhaustion.
 
 ### Dreamchaser
 At 18th level, you can enter the dreams of others known to you. You can spend 1 minute to compact your faerie dust into a dreamstone, and gift it to another creature. If you create a second, the first crumbles into dust.
@@ -265,94 +382,6 @@ At 20th level, your Charisma score increases by 4, to a maximum of 24 (or 4 abov
 
 
 
-
-## <a class="internal-link" name="internal-feat">Fey feats</a>
-The following feats are available to fey and feyblooded characters.
-
-
-
-<div class="columnsthree">
-
-
-- <div class="feat">
-
-    ## Mortal Anchor
-    You can perform a 1-minute ritual, binding your essence to a willing living creature that can see or hear you. You can have only one Mortal Anchor at a time, and a creature may only serve as Mortal Anchor for one fey. The bond grants you the following properties:
-
-    Increase you **Wisdom** score by 1.
-
-    You can communicate telepathically with your mortal anchor if within a number of feet equal to 5 × your level. Your Mortal anchor has can disable or re-enable or telepathic link using their ***bonus action***.
-
-    You can cast the *scrying* and *sending* spell targeting your Mortal Anchor once each without expending a spell slot, even if you don’t know the spells, and regain the ability to do so when you finish a long rest. Your mortal anchor can choose to succeed a saving throw against these spells.
-
-    The bond is an enchantment of the highest level spell a spellcaster of your level can expend. You are aware of any attempts to break it, and may make a DC 14 Insight check to discover the perpetrator.
-
-    Your mortal anchor can revoke the bond at any time using their ***action***. When the bond is broken, you must succeed a DC 20 Charisma saving throw or take one level of exhaustion.
-
-    </div>
-
-- <div class="feat">
-
-    ## Cunning Glamour
-    When you cast a feyblood spell with a casting time of 1 action on your turn, you can use your ***bonus action*** to take the disengage, dodge or hide action.
-
-    </div>
-
-- <div class="feat">
-
-    ## Pixie Wings
-    *Prerequisites: 12th Level*
-
-    You grow a pair of delicate wings, gaining a flying speed of 25 feet. The wings do not look strong enough to carry you, but they are powered by your faerie dust. A side effect is that while flying, you emit dim light in a 5-foot radius and emit a soft noise.
-
-
-    | d8 | Light | Sound |
-    |:--:|:------|:------|
-    | 1  | Red    | Musical notes
-    | 2  | Orange | Gentle breeze
-    | 3  | Yellow | Rustling leaves
-    | 4  | Spring | Babbling brook
-    | 5  | Green  | Insect buzzing
-    | 6  | Blue   | Tinkling chimes
-    | 7  | Indigo | Soft singing or humming
-    | 8  | Violet | Child’s laughter
-
-
-    While flying on the material plane, you have disadvantage on ability checks to hide or sneak. You cannot fly if you are encumbered, exhausted, or wearing armor.
-
-    </div>
-
-- <div class="feat">
-
-    ## Glamoured Artistry
-    You gain the following benefits:
-
-    Increase your **Charisma** score by 2.
-
-    Your magic drives you to create, and you can expend a use of your Faerie Dust to gain advantage  on checks made with musical instruments or artisan’s tools with which you are proficient.
-
-    </div>
-
-- <div class="feat">
-
-    ## Wing Dust
-    *Prerequisite: Pixie wings*
-
-    Like some other winged fey creatures, you can splash your magical dust using your wings. You can sprinkle a colored type of dust on an adjacent creature as an ***action***.
-
-    The pale blue dust makes a creature not needing to breathe for 1 hour.
-
-    The rosy dust grants a creature advantage on saving throws against being charmed or frightened for 10 minutes.
-
-    The yellowish dust grants a creature flying speed of 30 feet for 1 minute, but they can't fly higher than 60 feet off the ground.
-
-    Once you sprinkle a kind of dust, you can't use that color dust again until you finish a long rest.
-
-    In addition, you increase your **Charisma** score by 1.
-
-    </div>
-
-</div>
 
 ## <a class="internal-link" name="internal-affinity">Fey Affinities</a>
 Every feyblood is unique: their very natures are shaped by the magic that flows through, but also the experiences that shape and transform them along their journeys. For a feyblood, the development of their powers deforms as they experience a change in scenery, lifestyle and the company they keep. They are famously mutable and can be near unrecognizable at the end of a journey as when it began.
@@ -402,7 +431,7 @@ Every feyblood is unique: their very natures are shaped by the magic that flows 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -441,14 +470,6 @@ Dau are small, agile, and beautiful creatures. Their fey blood keeps them physic
 
 Beware, however, those who would breach their rules of hospitality.
 
-<div class="infoarea" markdown="1">
-
-#### Roleplaying a Boggart
-- There is no such thing as something for nothing. Favors for favors, tricks for tricks.
--  Trade insult for insult. Always get the last word, but recognize a good joke, even if you’re the butt of it.
-
-</div>
-
 #### Gremlin
 As chaotic souls of vague origin, gremlins are generally unwelcome in town. This is just as well to the gremlins, who directly oppose the trappings of civilizations. Gremlins are innately proficient at destroying machinery by finding and targeting weak points. Machinery in this case ranges from expensive military catapults to the lock on your front door.
 
@@ -470,19 +491,18 @@ Leprechaun culture mainly revolves around creating shoes and trading or selling 
 
 
 
-
-
-
-
-
-
-
-
-
 ### Cunning Magics
-When you choose this affinity at 1st level, you gain proficiency with the Arcana skill, and learn the *annoy* and *vicious mockery* cantrips.
+When you choose this affinity at 1st level, add *Arcana* to your class skills and gain 1 skill point to spend on this skill. You also learn the *annoy* and *vicious mockery* cantrips.
 
 You learn additional spells when you reach certain levels, shown in the Feyblood Affinity Spells table. These spells are feyblood spells for you, and they don't count against the number of feyblood spells you know.
+
+<div class="infoarea" markdown="1">
+
+#### Roleplaying a Boggart
+- There is no such thing as something for nothing. Favors for favors, tricks for tricks.
+-  Trade insult for insult. Always get the last word, but recognize a good joke, even if you’re the butt of it.
+
+</div>
 
 
 #### Feyblood Affinity Spells
@@ -498,9 +518,8 @@ You learn additional spells when you reach certain levels, shown in the Feyblood
 | 15th | *glibness*
 | 17th | *world of deception*
 
-
 ### Fey Blood
-The powers of your connected fey starts to grow. At 2nd level, select one of the following, based on the fey you are influenced by.
+The powers of your connected fey starts to grow. Select one of the following, based on the fey you are influenced by.
 
 <img src='https://robertrigo.github.io/pics/boggle.png' style='float:right;padding:20px' />
 
@@ -509,10 +528,9 @@ As a ***bonus action***, you excrete a non-flammable oil from your skin for 1 mi
 
 While coated in slippery oil, you have advantage on checks made to escape bonds, squeeze through narrow spaces, and end grapples.
 
-While coated in sticky oil, you have advantage on checks made to grapple and checks made to maintain a hold on another creature, a surface, or an object. You gain a climbing speed of 20 feet.
+While coated in sticky oil, you have advantage on checks made to grapple and checks made to maintain a hold on another creature, a surface, or an object. You gain a climbing speed of 20 ft.
 
-#### Oil Puddle
-While coated in oil, you can use your ***action*** to create a puddle of it, 1 inch deep and covering the ground in a 5 ft radius around you. The puddle is difficult terrain for all other creatures except boggles and lasts for 1 hour.
+**Oil Puddle**. While coated in oil, you can use your ***action*** to create a puddle of it, 1 inch deep and covering the ground in a 5 ft radius around you. The puddle is difficult terrain for all other creatures except boggles and lasts for 1 hour.
 
 Saving throw DCs against your oil puddle effects are 8 + your proficiency bonus + your Spark.
 
@@ -538,38 +556,29 @@ You're an adaptable, chaotic force of destruction and gain the following abiliti
 
 **Dismantle.** You have advantage on attack rolls and ability checks made to break or dismantle objects. Additionally, you deal extra damage equal to your Spark when you hit an object or a construct with an attack.
 
-
-
-
-
-
-
-
 #### Leprechaun Luck
 You gain the following abilities:
 
-**Cobbler of the Fair Folk**. You have proficiency with cobbler's tools, and double your proficiency bonus in them when you use them to create or adapt a shoe. Using your cobbler's tools, you may as an action magically resize any shoe to perfectly fit any humanoid or fey of Medium size or smaller you choose. Once you have done so, you may not resize the same shoe again.
+**Cobbler of the Fair Folk**. You gain 1 skill point to spend on ***Craft - Cobbler***. Using your cobbler's tools, you may as an action magically resize any shoe to perfectly fit any humanoid or fey of Medium size or smaller you choose. Once you have done so, you may not resize the same shoe again.
 
 **Lucky**. You gain +2 to your Luck ability score, and when you roll a 1 on the d20 for any roll, you can reroll the die and must use the new roll.
 
 ### Supple Ward
-At 6th level, when a ranged spell attack (or *magic missile*) targets a creature you can see within 30 feet of you, and the results have not been announced, you can use your ***reaction*** and expend an equivalent spell slot to make an opposed spellcasting ability check against the caster.
+When a ranged spell attack (or *magic missile*) targets a creature you can see within 30 ft, and the results have not been announced, you can use your ***reaction*** and expend an equivalent spell slot to make an opposed spellcasting ability check against the caster.
 
 If you succeed, the spell targets the caster using the original attack roll. You cannot reflect spells cast above 5th-level.
 
 You can use this feature once, and regain it when you complete a long rest.
 
 ### Tricksy Cantrip
-At 10th level, you can empower one feyblood cantrip you know that targets a single creature.
+You can empower one feyblood cantrip you know that targets a single creature.
 
 When you cast the cantrip, you can target one additional creature within range and also within a number of feet equal to 5 × your Spark of the initial target. If the cantrip requires an attack roll, you make a second attack roll.
 
 You can use this feature once, and regain it when you complete a short rest.
 
-
-
 ### Magical Mimicry
-At 14th level, if an ally within 30 feet of you that you can see or hear casts a spell of 5th-level or lower, with a casting time of 1 action or 1 bonus action that doesn’t require concentration, you can use your ***reaction*** and an equivalent spell slot to cast the same spell, even if you don’t know it.
+If an ally within 30 ft that you can see and hear casts a spell of 5th-level or lower, with a casting time of 1 action or 1 bonus action that doesn’t require concentration, you can use your ***reaction*** and an equivalent spell slot to cast the same spell, even if you don’t know it.
 
 Once you use this feature, you can’t use it again until you finish a long rest.
 
@@ -597,7 +606,7 @@ Once you use this feature, you can’t use it again until you finish a long rest
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -629,13 +638,8 @@ These torso of a siren resembles that of an elf, but the lower body resembles a 
 
 Sirens are blamed for floods, storms, shipwrecks, and drownings, but many sirens are simple curious romantics. An infatuated siren will risk life and limb to follow it onto land to learn about the object of their desire, assuming an elven visage. Sirens find walking uncomfortable, however, and when they become wet or immersed in water, their body reflexively returns to its native aquatic form.
 
-
-
-
-
-
 ### Touched by the Waters
-When you choose this affinity at 1st level, you gain a swimming speed equal to half your walking speed and you can hold your breath for ten minutes before running out of breath.
+When you choose this affinity at 1st level, add *Swimming* to your class skills and gain 2 skill point to spend on this skill.
 
 You learn additional spells when you reach certain levels, shown in the Feyblood Affinity Spells table. These spells are feyblood spells for you, and they don't count against the number of feyblood spells you know.
 
@@ -654,14 +658,14 @@ You learn additional spells when you reach certain levels, shown in the Feyblood
 | 17th | *storm of vengeance*
 
 ### Fey Blood
-The powers of your connected fey starts to grow. At 2nd level, select one of the following, based on the fey you are affected by.
+The powers of your connected fey starts to grow. Select one of the following, based on the fey you are affected by.
 
 #### Nixie Connection
 You have a connections to the nixies , and gain the following abilities:
 
 **Captivating Song**. You can sing a magical melody as if concentrating on a spell for up to 10 minutes. The sound of this song is heard up to 100 ft away and can be heard equally well through air as in water. For the duration, you can use a ***bonus action*** to force a humanoid creature you can see, that can hear the music, to make a Wisdom saving throw against your spellcasting DC or become charmed. If the target is in combat, it automatically succeeds its saving throw.
 
-While charmed, a target is incapacitated. If the target is more than 5 ft. away, the tries to move toward you by the most direct route possible, without putting itself in danger. If there is no choice but following a dangerous path, and whenever it takes damage, the charm is broken.
+While charmed, a target is incapacitated. If the target is more than 5 ft away, the tries to move toward you by the most direct route possible, without putting itself in danger. If there is no choice but following a dangerous path, and whenever it takes damage, the charm is broken.
 
 The creature is charmed by you for as long as it can hear your music and for up to 1 hour. You can only have one creature charmed this way. Once you use this trait, you can’t use it again until you complete a long rest.
 
@@ -674,26 +678,24 @@ You can use this feature a number of times equal to your Spark, and regain expen
 #### Siren Connection
 You have a connections to the sirens of the sea, and gain the following abilities:
 
-**Child of the Sea**. When wet, you can use your ***action*** to form your lower body into something resempling a sea creature: iridescent scales and the wide tail of a fish. If you are dry, you immediately revert to your normal form. While you have a tail, your movement speed becomes 5 feet on land, but your swimming speed increases by 10 ft.
+**Child of the Sea**. When wet, you can use your ***action*** to form your lower body into something resempling a sea creature; iridescent scales and the wide tail of a fish. If you are dry, you immediately revert to your normal form. While you have a tail, your movement speed becomes 5 feet on land, but your swimming speed increases by 10 ft.
 
 **Captivating Song**. As Nixie above.
 
-**Stupefying Touch**. As an ***action***, you touch a creature you can see within 5 feet of you. The creature must succeed a Wisdom saving throw or take psychic damage equal to a number of d6s equivalent to your proficiency bonus and be incapacitated until the start of your next turn. This feature has no effect on constructs or undead. You can use this ability once, and can regain it after a long rest.
+**Stupefying Touch**. As an ***action***, you can touch a which must succeed a Wisdom saving throw or take psychic damage equal to a number of d6s equivalent to your proficiency bonus and be incapacitated until the start of your next turn. This feature has no effect on constructs or undead. You can use this ability once, and can regain it after a long rest.
 
 ### Drench
-Starting at 6th level, you can manipulate the ambient water present in the air. As an ***action***, you can extinguish all nonmagical flames within 30 feet of you. This can also be used as a ***reaction***, to gain resistance to an incoming fire damage.
+You can manipulate the ambient water present in the air. As an ***action***, you can extinguish all nonmagical flames within 30 ft. This can also be used as a ***reaction***, to gain resistance to an incoming fire damage.
 
 You can use this feature a number of times equal to your Spark, and regain expended uses when you finish a long rest.
 
-
-
 ### Nereid’s Grace
-From 10th level, you blend in with the waters around you. You can breathe underwater, and while submerged, you are heavily obscured to creatures outside of the water and lightly obscured to creatures within the same body of water. While in the rain, you are lightly obscured.
+You blend in with the waters around you. You can breathe underwater, and while submerged, you are heavily obscured to creatures outside of the water and lightly obscured to creatures within the same body of water. While in the rain, you are lightly obscured.
 
-In addition, while using your swim speed, your movement is unaffected by difficult terrain. While underwater, spells and magical effects can neither reduce your speed nor cause you to be paralyzed or restrained.
+In addition, while swimming, your movement is unaffected by difficult terrain. While underwater, spells and magical effects can neither reduce your speed nor cause you to be paralyzed or restrained.
 
 ### Soul of the Water
-At 14th level, you become one with the sea. Your swimming speed increases to 40 feet or becomes equal to your land speed, whichever is higher. In addition, while it is raining or when you are underwater, you can use your ***action*** to become invisible. You remain invisible until you make an attack, cast a spell, or move out of the water.
+You become one with the sea. Your swimming speed increases to 40 feet or becomes equal to your land speed, whichever is higher. In addition, while it is raining or when you are underwater, you can use your ***action*** to become invisible. You remain invisible until you make an attack, cast a spell, or move out of the water.
 
 You can use this feature a number of times equal to your Spark, and regain expended uses when you finish a long rest.
 
@@ -718,7 +720,7 @@ You can use this feature a number of times equal to your Spark, and regain expen
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -737,8 +739,6 @@ Oread are feyblood that have a strong connection to earth, stone and metals. The
 
 An oread might be related to one of the following fey creatures. This connection will not only affect their powers, but also their demeanor and outlook.
 
-
-
 #### Korred
 Korreds are unpredictable, secretive fey with strong ties to stone. Because of their magical hair and their mystical understanding of minerals, they are sought out by treasure hunters, dwarves and others that desire the wealth of the earth. No one knows the ways of stone and earth better than a korred. Korreds can seemingly feel the rise and fall of bedrock under the earth.
 
@@ -749,15 +749,13 @@ Stone trolls are horned fey with stony skin. The most ancient of stories make me
 
 This duty-bound nature can put them at odds with an adversary who is all too happy to paint the troll as a monster to be slain, which complicates their repuation. In actual fact, nothing is more important to a troll than their honor. This is both a cultural institution and a supernatural compulsion imposed by their fey nature. A troll who breaks an oath loses some of their strength until they have redeemed themselves.
 
-
-
 ### Faerie Weapon
-When you choose this affinity at 1st level, your fists, teeth, nails, or favorite one-handed simple melee weapon become a magical d4 faerie weapon. When you take the ***Attack*** action with your faerie weapon, you can attack twice. You gain a climbing speed of 20 feet. If you have a flying speed, you lose it.
+When you choose this affinity at 1st level, you gain the ***Light armor*** combat skill and 1 skill point to spend on combat skills. Additionally your fists, teeth, nails or favorite one-handed simple melee weapon become a magical d4 faerie weapon. When you take the ***Attack*** action with your faerie weapon you can attack twice.
 
 You gain 2 additional hit points, and 1 additional hit point each time you gain a feyblood level.
 
 ### Oread Magic
-Also at 1st level, you become proficient with light armor, and you know the *mold earth* cantrip.
+Also at 1st level, you learn the *mold earth* cantrip and you gain a climbing speed of 20 ft. If you have a flying speed, you lose it.
 
 You learn additional spells when you reach certain levels, shown in the Feyblood Affinity Spells table. These spells are feyblood spells for you, and they don't count against the number of feyblood spells you know.
 
@@ -785,67 +783,22 @@ You learn additional spells when you reach certain levels, shown in the Feyblood
 
 
 ### Whimsy
-At 2nd level, you can enter a whimsy at the start of your turn, which lasts until the end of your next turn. For the duration, you have resistance to piercing, slashing and bludgeoning damage. You can concentrate on spells, but can cast only cantrips, and you have disadvantage on concentration checks.
+You can enter a whimsy at the start of your turn, which lasts until the end of your next turn. For the duration, you have resistance to piercing, slashing and bludgeoning damage. You can concentrate on spells, but can cast only cantrips, and you have disadvantage on concentration checks.
 
 Additionally, you may add your Spark to attack and damage rolls made with your faerie weapon. The whimsy ends if you fall unconscious.
 
 You can whimsy a number of times equivalent to your Spark, and you regain all uses when you complete a short rest.
 
 ### Quickling Attack
-At 6th level, your faerie weapon becomes a d6 weapon. While in Whimsy, if you take the Attack action using your faerie weapon, you can make an additional attack with it using your ***bonus action***.
+Your faerie weapon becomes a d6 weapon. While in Whimsy, if you take the Attack action using your faerie weapon, you can make an additional attack with it using your ***bonus action***.
 
 ### Wanton Assault
-At 10th level, while in a Whimsy, you can use your ***action*** and ***bonus action*** to add 15 feet to your movement, ignore attacks of opportunity, and make a number of attacks with your faerie weapon equal to your Spark. Damage dealt this way count as magical.
+While in a Whimsy you can use your ***action*** and ***bonus action*** to add 15 ft to your movement, ignore attacks of opportunity, and make a number of attacks with your faerie weapon equal to your Spark. Damage dealt this way count as magical.
 
 Once you use this ability, you can’t use it again until you finish a short rest.
 
 ### Smiting Glamour
-At 14th level, while in a Whimsy, the first creature you hit on each of your turns with your faerie weapon takes additional damage equal to half your feyblood level. The extra damage is necrotic or radiant. Choose the type of damage when you gain this feature.
-
-
-
-
-
-## Oread feats
-Some oread have an even greater connection to the fey. When you are eligible for selecting a feat, you may choose one of the following, depending on your chosen fey relation.
-
-<div class="columnstwo">
-
-
-- <div class="feat">
-
-    ## Korred Influence
-    You gain the following features:
-
-    **Ability increase**. You can increase one ability score of your choice by 1.
-
-    **Stone Mover**. You count as two sizes larger when determining your carrying capacity and the weight you can push, drag, or lift stone.
-
-    **Stone Speech**. You can speak with stones. Most rocks have no ears or eyes and a poor grasp of time, but easily reveal information about their mineral composition, or structural integrity.
-
-
-
-    **Hair Whip**. As an ***action***, you can extend a long, whip made from your magical hair that lashes out toward one creature you can see within 30 feet of you. Make a melee spell attack against the target. If the attack hits, the creature takes 1d6 bludgeoning damage, and if the creature is Large or smaller, you can pull the creature up to 10 feet closer to you. Damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
-
-    **Grappling Hair**. When you hit a creature with your Hair Whip, you can attempt to grapple the target using your ***bonus action***. You can use your Spark instead of your Strength modifier on checks to make or maintain the grapple. If you succeed, your speed drops to 0. While grappling, your hair has an AC of 10 + your proficiency bonus + your Spark, and a number of hit points equal to your level + your Constitution modifier. It also has resistance to fire damage, and regains 1 hit point at the start of your turn. If your hair whip drops to 0 hit points, it is destroyed, and you must finish a long rest before using this trait again.
-
-    </div>
-
-- <div class="feat">
-
-    ## Strone Troll Strength
-    You gain the following features, which can each be used once, and the use is regained after a short rest.
-
-    **Strength of Honor**. You can shrug off injury. When you take damage from another creature, you can use your ***reaction*** to reduce the damage by 1d6 + your Constitution modifier. You can add that total to the damage roll the first melee attack you hit with on your next turn.
-
-    **Stone Skin**. When you take damage, you can use your ***reaction*** to harden your skin, gaining resistance to all damage except thunder and psychic, until the start of your next turn, including the triggering attack.
-
-    **Thundering Stomp**. As an ***action***, you stomp your foot down, creating a thundering sound, audible at 100 feet away. All adjacent creatures must make a Constitution saving throw against your spall casting DC. A creature that fails its saving throw takes 1d8 thunder damage and is deafened until the start of your next turn. This damage increases at 5th level (2d8), 11th level (3d8), and 17th level (4d8). A creature that succeeds its save takes half damage and isn’t deafened.
-
-    </div>
-
-</div>
-
+While in a Whimsy, the first creature you hit on each of your turns with your faerie weapon takes additional damage equal to half your feyblood level. The extra damage is necrotic or radiant. Choose the type of damage when you gain this feature.
 
 
 
@@ -867,7 +820,7 @@ Some oread have an even greater connection to the fey. When you are eligible for
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -894,19 +847,14 @@ Pooka resemble small halflings or gnomes with pronounced animal features: eyes, 
 
 Capricious in nature, pookas are always in search of fun, though they don’t often care who they inconvenience with their antics—they’re just in it for the whimsy. Always chaotic in nature, some pookas are cruel, some are good-natured, and others are slightly unhinged. There’s no way to tell which kind one is just by looking at it; only by interacting with a pooka does its nature become clear.
 
-They have a reputation as liars and mischief-makers, but this lying is, in fact, a kind of language unto itself: the bigger the feeling a pooka has, the bigger the lie they will tell on the subject. Once one knows a pooka well enough to see the truth behind their lies, a lasting friendship can form.
+They have a reputation as liars and mischief-makers, but this lying is in fact a kind of language unto itself: the bigger the feeling a pooka has, the bigger the lie they will tell on the subject. Once one knows a pooka well enough to see the truth behind their lies, a lasting friendship can form.
 
 Pookas thrive when in the company of others, and they frequently find companionship in a particular individual whether the camaraderie is wanted or not. They pull pranks to get to know a person and stay invisibly near them to observe the results. As they usually communicate with their unlucky target (whom they call “friend”) using telepathy, the person’s erratic reactions to the unseen pooka’s pranks and mental “voice” can make the target appear insane. The pooka doesn’t mind a little rough retaliation, but flees any attempts to kill it.
 
-
-
-
 ### Chaos Magic
-When you choose this affinity at 1st level, your spellcasting is a bit unstable and can unleash surges of untamed magic, or as a pooka might say, be more fun. When you attempt to cast a spell of 1st level or higher, roll a d20. If your result is 1, or lower than your Luck score, roll on the <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a> table to create a random magical effect.
+When you choose this affinity at 1st level, your spellcasting is a bit unstable and can unleash surges of untamed magic, or as a pooka might say, be more fun. When you attempt to cast a spell of 1st level or higher, roll a d20. If your result is lower than your Luck score, roll on the <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a> table to create a random magical effect.
 
 In addition, you gain the *zap* cantrip.
-
-
 
 You learn additional spells when you reach certain levels, shown in the Feyblood Affinity Spells table. These spells are feyblood spells for you, and they don't count against the number of feyblood spells you know.
 
@@ -926,36 +874,26 @@ You learn additional spells when you reach certain levels, shown in the Feyblood
 
 
 ### Luck of the Pooka
-A pooka feyblood would be long dead unless they had this incredible Luck, allowing them to survive their own chaos.
+A pooka feyblood would be long dead unless they had this incredible Luck, allowing them to survive their own chaos. Gain +2 to your Luck score.
 
-At 2nd level, you gain +2 to your Luck score.
-
-In addition, you have a knack of avoiding the havoc you cause. When you roll a wild surge on the regular wild surge table (i.e. not the <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a> table in this affinity description), you can choose it not to affect you and/or nature around you. When you do, reduce your your Luck by 2. You cannot use this feature if it would reduce your Luck below 0.
+In addition, you have a knack of avoiding the havoc you cause. When you roll a wild surge on the regular wild surge table (i.e. not the <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a> table), you can choose it not to affect you and/or nature around you. When you do, reduce your your Luck by 2. You cannot use this feature if it would reduce your Luck below 0.
 
 If this would cause the surge to have no effect at all, you additionally gain a level of exhaustion.
 
 You can use this feature a number of times equivalent to your Spark.
 
 ### Bend Luck
-Starting at 6th level, you have the ability to twist fate using your wild magic. When you or another creature you can see makes a roll, you can use your ***reaction*** to reroll. You can affect really any roll, including ability checks, damage rolls, wild surges or even a random roll to see how many gp a creature has. You can do so after the rolls but before any effects of the roll occur.
+You have the ability to twist fate using your wild magic. When you or another creature you can see makes a roll, you can use your ***reaction*** to reroll. You can affect really any roll, including ability checks, damage rolls, wild surges or even a random roll to see how many gp a creature has. You can do so after the rolls but before any effects of the roll occur.
 
 You can bend luck a number of times equivalent to your Spark, and you can regain expended uses when you complete a long rest.
 
-
-
-
-
-
-
-
-
 ### Glamourous Incorporation
-At 10th level, you can absorb a hostile spell, and store the magical energy for your own use. If you are the sole target of a 5th-level or lower spell requiring a saving throw, you can use your ***reaction*** to make a Charisma save instead of the one required by the spell. If you succeed, the spell triggeres a wild surge instead, and you regain an expended spell slot, up to the level of the spell you absorbed.
+You can absorb a hostile spell and store the magical energy for your own use. If you are the sole target of a 5th-level or lower spell requiring a saving throw, you can use your ***reaction*** to make a Charisma save instead of the one required by the spell. If you succeed, the spell triggeres a wild surge instead, and you regain an expended spell slot, up to the level of the spell you absorbed.
 
 Once you use this feature, you can’t use it again until you finish a long rest.
 
 ###  Thundering Heroism
-At 14th level, wild magic comes effortlessly to you, not even using any of your magical recources. Whenever your Chaos magic feature triggers, causing you to not cast the spell you intended, you regain your lowest level expended spell slot.
+Wild magic comes effortlessly to you, not even using any of your magical recources. Whenever your Chaos magic feature triggers, causing you to not cast the spell you intended, you regain your lowest level expended spell slot.
 
 
 
@@ -976,7 +914,7 @@ At 14th level, wild magic comes effortlessly to you, not even using any of your 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Short rest |
@@ -1007,7 +945,12 @@ For the most part, the wee folk caution their young against interactions with mo
 
 Prestige is everything to a pixie: their short seasons and long years are an endless game of acquisitions and losses played among their tribe, or troop. They are taught to defend territory with ferocity, when a tactical retreat will serve them best, and how to exact revenge upon those who wronged them. Throughout this education, a strong sense of fair play is stressed, and cunning and creativity are considered virtues.
 
-<div class="infotext" markdown="1">
+### Fluid Magics
+Starting when you choose this affinity at 1st level, people meeting you for the first time often take a liking to you. As long as you are friendly and nice to them, you have may add your proficiency on Charisma checks made against them even if you normally wouldn't (with the exception of Intimidation).
+
+You learn additional spells when you reach certain levels, shown in the Feyblood Affinity Spells table. These spells are feyblood spells for you, and they don't count against the number of feyblood spells you know.
+
+<div class="infoarea" markdown="1">
 
 #### Roleplaying a Sidhe
 * A clever alliance can overcome any obstacle.
@@ -1017,13 +960,6 @@ Prestige is everything to a pixie: their short seasons and long years are an end
 * Moods, desires and fancies are like the weather: they come in wide varieties and are bound to change.
 
 </div>
-
-
-### Fluid Magics
-Starting when you choose this affinity at 1st level, people meeting you for the first time often take a liking to you. As long as you are friendly and nice to them, you have proficiency on Charisma checks made against them (with the exception of Intimidation).
-
-You learn additional spells when you reach certain levels, shown in the Feyblood Affinity Spells table. These spells are feyblood spells for you, and they don't count against the number of feyblood spells you know.
-
 
 #### Feyblood Affinity Spells
 | Feyblood level | Sidhe Spells |
@@ -1042,25 +978,18 @@ You learn additional spells when you reach certain levels, shown in the Feyblood
 Additionally you learn the *air mastery* cantrip.
 
 ### Heroic Glamour
-You can entwine your essence with an ally, emboldening them. As a ***bonus action***, target an ally within 30 feet of you that you can see.
+You can entwine your essence with an ally, emboldening them. As a ***bonus action***, target an ally within 30 ft that you can see.
 
-Until the end of your next turn, their AC, saving throws and damage rolls receive a bonus equal to your Spark. They have resistance to all damage, and if they take damage, you take half the amount they take as psychic damage. The effect ends if the target moves more than 30 feet away from you.
+Until the end of your next turn, their AC, saving throws and damage rolls receive a bonus equal to your Spark. They have resistance to all damage, and if they take damage, you take half the amount they take as psychic damage. The effect ends if the target moves more than 30 ft away from you.
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
 ### Free on the Wind
-As an ***action***, you can create a fluffy cloud of bubbles of any shape you wish. As a ***bonus action*** you can move the cloud in any direction up to 20 feet. The cloud can carry up to 9 medium creatures on top of it, it provides physical cover, and is opaque. It lasts for 1 minute or until it reaches 0 hit points, at which time it slowly breaks apart and gently descends up to 25 feet before disappearing.
+As an ***action***, you can create a fluffy cloud of bubbles of any shape you wish. As a ***bonus action*** you can move the cloud in any direction up to 20 ft. The cloud can carry up to 9 medium creatures on top of it, it provides physical cover, and is opaque. It lasts for 1 minute or until it reaches 0 hit points, at which time it slowly breaks apart and gently descends up to 25 feet before disappearing.
 
 The cloud has an AC of 8, 20 hit points and is resistant to non-magical damage and immune to necrotic, poison, and psychic damage.
 
 Once you use this feature, you can't use it again until you finish a long rest.
-
-
-
-
-
-
-
 
 ### Glamourous Incorporation
 You can absorb a hostile spell and store the magical energy for your own use. If you are the sole target of a 5th-level or lower spell requiring a saving throw, you can use your ***reaction*** to make a Charisma saving throw instead of the one required by the spell. If you succeed, you regain an expended spell slot, up to the level of the spell you absorbed.
@@ -1069,8 +998,6 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 ###  Thundering Heroism
 You further empower the recipients of your Heroic Glamour. They add half your feyblood level to any damage rolls they make as additional thunder damage.
-
-
 
 
 
@@ -1091,7 +1018,7 @@ You further empower the recipients of your Heroic Glamour. They add half your fe
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1110,12 +1037,9 @@ A feyblood whose connection to the Feywild manifests as a closeness to nature is
 #### Dryads
 Dryads dedicate their long lives to watching over, caring for, and living within trees, woods and forests and caring for the beasts that inhabit it. Visitors to their forests would do well to not act foolishly around any tree inhabited or protected by a dryad.
 
-
-
-
 ### Floral Fortitude
 When you choose this affinity at 1st level, you gain the following benefits:
-- You become proficient with the Nature skill.
+- Gain 1 skill point to spend on ***Nature******.
 - You learn the *mold plant* and *thorn whip* cantrips.
 - You can cast *speak with plants* once without expending a spell slot, and regain the ability to do so when you complete a short rest.
 - You have advantage on saving throws against poison, and resistance poison damage.
@@ -1136,29 +1060,27 @@ Additionally, You learn additional spells when you reach certain levels, shown i
 | 15th | *control weather*
 | 17th | *ivy siege*
 
-
-
 ### Corrosive Ichor
-At 2nd level, you can spray corrosive ichor from your *thorn whip*. When you hit a creature with your *thorn whip*, you can expend a spell slot to spray the target with ichor as a ***bonus action***, dealing additional acid damage to the target.
+You can spray corrosive ichor from your *thorn whip*. When you hit a creature with your *thorn whip*, you can expend a spell slot to spray the target with ichor as a ***bonus action***, dealing additional acid damage to the target.
 
 The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 10d8.
 
 ###  Grasping Vines
-At 6th level, you gain the following benefits:
+You gain the following benefits:
 - You can cast the *speak with plants* spell at will.
 - Your *thorn whip’s* range increases to 45 ft, and the distance you can pull a target with it increases to 15 ft.
 - As a ***bonus action***, you can command your *entangle* or *spike growth* spells to move a number of feet equal to 5 × your Spark.
 
 ###  Natural Raiment
-At 10th level, you can cause plant matter to form a protective shell around you. As an action, you assume the form of a Shambling Mound (see page 270 of the Monster Manual) with hit points equal to 50 + your feyblood level. While in this form, you can not cast spells, with the exception of *thorn whip*. If your form is reduced to 0 hit points, you take the remainder of the damage. You can release the form as a free action.
+You can cause plant matter to form a protective shell around you. As an ***action***, you assume the form of a Shambling Mound (see page 270 of the Monster Manual) with hit points equal to 50 + your feyblood level. While in this form, you can not cast spells, with the exception of *thorn whip*. If your form is reduced to 0 hit points, you take the remainder of the damage. You can release the form as a free action.
 
 Once you use this feature, you can’t use it again until you complete a long rest.
 
 ###  We are the Vine
-At 14th level, your will extends to plants under your control. You gain the following benefits:
+Your will extends to plants under your control. You gain the following benefits:
 - Plants created by your spells or charmed by you that you can see can serve as the origin of your *thorn whip*.
 - Your *thorn whip* deals additional acid damage equal to your Spark.
-- Your *thorn whip* can pull a willing creature up to 15 feet without harming them, without needing to make an attack roll.
+- Your *thorn whip* can pull a willing creature up to 15 ft without harming them, without needing to make an attack roll.
 
 
 
@@ -1183,7 +1105,7 @@ At 14th level, your will extends to plants under your control. You gain the foll
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
-The following class specific additions are made to the general rest rules.
+The following additions are made to the general rest rules.
 <div class="card-text restTable" markdown="1">
 
 | Long rest |
@@ -1219,13 +1141,10 @@ While passion is something satyrs understand innately, most do not grasp the emo
 
 Music and storytelling are prized skills among satyrs, and many pursue careers related to music. Clubs, pubs, bars, and breweries are potent attractors to them. With their store of impressive stamina, jobs requiring hearty individuals also suit satyrs nicely.
 
-
-
-
 ### Revelry and Passion
 The spirit of these fey allows you to enjoy rampant hedonism without consequence. Starting when you choose this affinity at 1st level, you suffer no adverse health effects from excessive drinking, such as hangovers or weight gain (although you can still become intoxicated). Additionally, you have advantage on saving throws against paralysis and exhaustion.
 
-When you make direct physical contact with a humanoid or fey, you can use your action to attempt discern their surface thoughts and emotional state. If the target fails a Charisma saving throw against your spellcasting DC, it is under the effect of the *detect thoughts* spell by you while you remain in contact with them, and you also learn the creature’s alignment.
+When you make direct physical contact with a humanoid or fey, you can use your ***action*** to attempt discern their surface thoughts and emotional state. If the target fails a Charisma saving throw against your spellcasting DC, it is under the effect of the *detect thoughts* spell by you while you remain in contact with them, and you also learn the creature’s alignment.
 
 You learn additional spells when you reach certain levels, shown in the Feyblood Affinity Spells table. These spells are feyblood spells for you, and they don't count against the number of feyblood spells you know.
 
@@ -1245,51 +1164,40 @@ You learn additional spells when you reach certain levels, shown in the Feyblood
 
 
 ### Fey Blood
-The powers of your connected fey starts to grow. At 2nd level, select one of the following, based on the fey you are affected by.
+The powers of your connected fey starts to grow. Select one of the following, based on the fey you are affected by.
 
 #### Nymph’s Charm
 You have a connections to the beautiful nymphs, and gain the following abilities:
 
 **Blinding Beauty**. As an ***action***, you can magically enhance your your beauty for up to 10 minutes while concentrating. During this time, a humanoid that might be interested in a creature of your race/sex, must succeed at a Wisdom save against your spellcasting DC to be able to look away from you.
 
-
-
-
-
-
-
-
-While displaying your beauty, if a humanoid starts its turn within 30 feet of the you and can see you, as an ***action*** you can force the creature to make a Constitution saving throw against your spellcasting DC. On a failed save, the creature is magically blinded. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A humanoid that isn’t surprised can attempt to avert their eyes.
+While displaying your beauty, as an ***action*** you can force a humanoid creature within 30 ft that can see you to make a Constitution saving throw against your spellcasting DC. On a failed save, the creature is magically blinded. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A humanoid that isn’t surprised can attempt to avert their eyes.
 
 You can use this ability once, and regain expended uses of it when you finish a long rest.
 
-**Fey Kissed**. Your beauty begins to manifest in ways many find undeniable. Whenever you make a Charisma check when interacting with humanoids, your proficiency bonus is doubled if it applies to the check.
-
-Additionally, you have advantage on saving throws against being charmed and magic can’t put you to sleep.
+**Fey Kissed**. Your beauty begins to manifest in ways many find undeniable. Whenever you make a Charisma check when interacting with humanoids, you can reroll the check. You can do this a number of times equal to your Spark, and regain uses after a long rest.
 
 #### Soul of the Satyr
 You have a connections to the passionate satyrs, and gain the following abilities:
 
-**Faun’s Form**. Your body transforms, giving you tiny horns. You can use your horns to make a ram attack, which deals 1d6 bludgeoning damage. You count as proficient, and you add your Strength modifier to attack and damage rolls. Additionally, your land speed increases by 10 feet and you can pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+**Faun’s Form**. Your body transforms, giving you tiny horns. You can use your horns to make a ram attack, which deals 1d6 bludgeoning damage. You count as proficient, and you add your Strength modifier to attack and damage rolls. Additionally, your land speed increases by 10 ft and you can pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 
-**Charge**. If you move at least 10 feet in a straight line toward a Large or smaller creature and then hit it with your horns, the target must succeed a Strength saving throw DC 8 + your proficiency bonus + your Strength modifier or be pushed 5 feet away from you or knocked prone (your choice). You can then use your ***bonus action*** to make a melee attack.
+**Charge**. If you move at least 10 ft in a straight line toward a Large or smaller creature and then hit it with your horns, the target must succeed a Strength saving throw DC 8 + your proficiency bonus + your Strength modifier or be pushed 5 feet away from you or knocked prone (your choice). You can then use your ***bonus action*** to make a melee attack.
 
 **Laughing Touch**. You can touch a creature to attempt to make it burst out laughing. If the creature fails a Wisdom saving throw against your spellcasting DC, the creature is incapacitated until the end of its next turn. Once affected, you can’t use this feature on that creature again for 24 hours. A creature is immune to this effect if it’s immune to being charmed.
 
 ### Unearthly Grace
-From 6th level, whenever you cast an enchantment spell of 1st level or higher, you gain a bonus to your AC and saving throws equal to your Spark until the end of your next turn.
-
-
+Whenever you cast an enchantment spell of 1st level or higher, you gain a bonus to your AC and saving throws equal to your Spark until the end of your next turn.
 
 Additionally, when you succeed a saving throw to resist being charmed by another creature, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your spellcasting DC or be charmed by you for 1 minute or until the creature takes any damage.
 
 ### Pandemonium
-From 10th level, you can cast the *confusion* spell without expending a spell slot or providing material components for the spell. You can do this a number of times equal to your Spark, and can regain expended uses of it when you complete a long rest.
+You can cast the *confusion* spell without expending a spell slot or providing material components for the spell. You can do this a number of times equal to your Spark, and can regain expended uses of it when you complete a long rest.
 
 Additionally you can expend a use to cast the spell at a higher spell level, e.g. spend two uses to cast it as a 5th level spell, 3 uses to cast as it as a 6th-level spell and so on.
 
 ### Enchanting Gaze
-Starting at 14th level, whenever a creature within 20 ft you attacks you, you may use your ***reaction*** to force the creature to make a Wisdom saving throw against your spellcasting DC. This save is made with disadvantage if you or your companions has attacked it during the last round.
+Whenever a creature within 20 ft you attacks you, you may use your ***reaction*** to force the creature to make a Wisdom saving throw against your spellcasting DC. This save is made with disadvantage if you or your companions has attacked it during the last round.
 
 On a failed save, the creature gains the charmed condition for 1 minute, or until you lose concentration. At the end of each of its turns, and whenever the charmed creature takes damage, it may repeat the saving throw to end the effect. On a successful save, the creature is immune to your Enchanting Gaze for 24 hours.
 
@@ -1312,40 +1220,40 @@ You can use this feature a number of times equal to your Spark, and can regain u
 |11-12| Your size and stature grow to that of a brute of monstrous proportions, and hair grows all over your body. Until your next long rest, your strength is increased by 4, but Dexterity is reduced by 4.
 |13-14| You cast *entangle* centered upon yourself. This effect lasts 1 minute and does not require concentration.
 |15-16| For the next minute, you regain 5 hit points at the start of each of your turns.
-|17-18| A misty rain begins falling around you in a 30' radius. A creature that starts their turn within the rain regenerates 2d4 hit points.
+|17-18| A misty rain begins falling around you in a 30 ft radius. A creature that starts their turn within the rain regenerates 2d4 hit points.
 |19-20| A magical veil of shifting patterns and lights covers you. For the next minute you have disadvantage on checks to stay hidden.
 |21-22| You cast *sleep* as a 5th-level spell.
-|23-24| Each creature within 30 feet of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell.
+|23-24| Each creature within 30 ft of you becomes invisible for the next minute. The invisibility ends on a creature when it attacks or casts a spell.
 |25-26| You cast *grease* centered on yourself. Whoopsie!
 |27-28| Until the end of your next round, roll all of your D20's as 1d2. If it's a 1, you rolled a 1. If it's a 2, you rolled a 20.
-|29-30| You teleport up to 60 feet to an unoccupied space of your choice that you can see.
-|31-32| You are transformed into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, the pot shatters, and your form reverts.
+|29-30| You teleport up to 60 ft to an unoccupied space of your choice that you can see.
+|31-32| You are transformed into a potted plant until the start of your next turn. While a plant, you are incapacitated and have vulnerability to all damage. If you drop to 0 hit points, the pot shatters and your form reverts.
 |33-34| Power courses through your veins as you grip a pulsing string of nether in your hand. Maximize your next damaging spell within the next 1 minute.
-|35-36| For the next minute, you, and any object or creature you touch is affected as though by the *faerie fire* spell.
-|37-38 | Flip a coin! If Heads then your Charisma score changes to 20, otherwise  your Charisma score becomes a 3 (eww). It reverts back after 1 minute.
+|35-36| For the next minute, you and any object or creature you touch is affected as though by the *faerie fire* spell.
+|37-38 | Flip a coin! If Heads then your Charisma score changes to 20, otherwise your Charisma score becomes a 3 (eww). It reverts back after 1 minute.
 |39-40| All buttons, clasps, bows, knots and similar devises you wear immediately come undone.
 |41-42| A spectral shield hovers near you for the next minute, granting you a +2 bonus to AC and immunity to magic missiles.
 |43-44| You cast *fog cloud* centered on yourself.
 |45-46 | You can’t speak for the next minute. Whenever you try, pink bubbles float out of your mouth with written text floating inside them. When you pop the bubbles the words are released!
-|47-48| Up to three creatures you choose within 30 feet of you take Xd10 lightning damage. X is equal to the highest level of spell you are able to cast.
-|49-50| Your skin turns a vibrant shade of blue and a glowing halo floats above your head for 24 hours. The halo emits light in a 5 foot radius.
+|47-48| Up to three creatures you choose within 30 ft of you take Xd10 lightning damage. X is equal to the highest level of spell you are able to cast.
+|49-50| Your skin turns a vibrant shade of blue and a glowing halo floats above your head for 24 hours. The halo emits light in a 5 ft radius.
 |51-52| Whoa, why does everything have such big teeth? You are frightened by the nearest creature to you at the start of your turn for the next 5 turns.
-|53-54| Ultimate cosmic power! Each creature within 30 feet of you takes Xd10 necrotic damage. You regain hit points equal to the  damage dealt. X is equal to your Spark. Any excess become temp hit points that persist for 1 hour.
+|53-54| Ultimate cosmic power! Each creature within 30 ft of you takes Xd10 necrotic damage. You regain hit points equal to the damage dealt. X is equal to your Spark. Any excess become temporary hit points that persist for 1 hour.
 |55-56| You summon an invisible humanoid that tells amazing jokes. Only you can see or hear it.
-|57-58| A 15 foot cone of cold explodes out in front of you dealing 2d8 cold damage and slows targets by 10 feet until the end of their next turn.
+|57-58| A 15 ft cone of cold explodes out in front of you dealing 2d8 cold damage and slows targets by 10 ft until the end of their next turn.
 |59-60| A small cloud appears above your head and drizzles a cold rain on your parade. The pesky thing sticks around for 10 minutes.
 |61-70| A "real" wild surge occurs. Roll a d1000 on the Wild surge table.
 |71-72| You are surrounded by faint, ethereal music for the next minute, tiny violins float in the air about you. During this time you gain advantage on all spell saving throws.
-|73-74| You summon a thin green fog that fills a 60 foot area and stinks horribly. It leaves a bad taste in your mouth too.
+|73-74| You summon a thin green fog that fills a 60 ft radius area and stinks horribly. It leaves a bad taste in your mouth too.
 |75-76| You cast polymorph on yourself. If you fail the saving throw you become a rabbit for the spell's duration.
 |77-78| Grass, flowers and strange plants sprout wherever you step for the next minute. Roll 1d4 and find that many magical goodberries ready for harvest.
 |79-80| Small bugs keep finding their way up your pants leg and into your shirt. They pinch and make you unable to rest easily for the next 24 hours no matter how many times you bathe.
 |81-82| Your feet feel impossibly heavy; as a matter of fact they turned to stone! Speed is halved for 1 minute.
 |83-84| For the next minute your speed doubles and you gain an extra action every turn, but you must make a successful DC 12 Dexterity check for every action you take or you fumble it. You’re just too fast and jittery to properly control your movements!
-|85-86| BOOOM! Each creature within 30 feet of you takes 1d10 thunder damage. You become resistant to thunder damage for the next minute.
-|87-88| All lights, even magical, within 30 feet of you are extinguished as a gust of primal wind surrounds you momentarily, small dust flurries dance nearby for the next minute.
+|85-86| BOOOM! Each creature within 30 ft of you takes 1d10 thunder damage. You become resistant to thunder damage for the next minute.
+|87-88| All lights, even magical, within 30 ft of you are extinguished as a gust of primal wind surrounds you momentarily, small dust flurries dance nearby for the next minute.
 |89-90| You become invisible for the next minute. During that time, other creatures can’t hear you. The invisibility ends if you attack or cast a spell.
-|91-92| Illusory dragonflies and flower petals flutter in the air within 10 feet of you for the next minute.
+|91-92| Illusory dragonflies and flower petals flutter in the air within 10 ft of you for the next minute.
 |93-94| Your voice booms to 5 times its normal volume, including your breathing. You annoy people nearby and gain disadvantage on stealth checks for the next 10 minutes.
 |95-96| If you die within the next minute, you immediately come back to life as if by the (1-*reincarnate*, 2-*resurrection*) spell.
 |97-98| You cast *mirror image*.

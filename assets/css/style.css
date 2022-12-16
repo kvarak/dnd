@@ -109,10 +109,6 @@ details {
   border-radius: 5px;
 }
 
-details h1, h2, h3, h4, h5 {
-  margin-top: 0.75em;
-}
-
 details p {
   margin-bottom: 2px;
 }
@@ -148,7 +144,7 @@ summary {
 }
 
 
-/* ------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------------------------------------------- */
 /* bullet list into columns depending on screen size */
 
 @media only screen and (min-width: 1025px) {
@@ -209,7 +205,7 @@ summary {
 }
 
 
-/* ------------------------------------------------------------------------------------------------ */
+/* ---------------------------------------------------------------------------- */
 
 .container-main {
   margin-top: 80px;
@@ -277,7 +273,7 @@ summary {
 
 
 
-/* ------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------------------------------------- */
 /* Class tables */
 
 .classTable.frame {
@@ -305,7 +301,11 @@ summary {
   float:right;
 }
 
-/* ------------------------------------------------------------------------------------------------ */
+.fillClassTable {
+  width: 100%;
+}
+
+/* --------------------------------------------------------------------------- */
 /* Archetype features tables */
 
 .featuresTable {
@@ -317,18 +317,28 @@ summary {
   margin-top: 0px;
   float:right;
 }
+.featuresTable h4 {
+  padding: 5px;
+  padding-left: 10px;
+  background-color: #d42129;
+  color: white;
+  font-family: MrJeeves;
+  font-size: large;
+  font-size: 1.65em;
+  font-weight: bold;
+}
 
 .featuresTable table {
-  margin-right: 5px;
+  width: 95%;
 }
 
-.featuresTable h4 {
-  padding-left: 10px;
-  padding-top: 10px;
+.featuresTable th:first-child {
+  text-align: center;
 }
 
 
-/* ------------------------------------------------------------------------------------------------ */
+
+/* -------------------------------------------------------------------------- */
 
 hr.classdivider {
   visibility: visible;
@@ -339,7 +349,18 @@ hr.classdivider {
   border: none;
 }
 
-/* ------------------------------------------------------------------------------------------------ */
+hr.dividerinfolk {
+  visibility: visible;
+  height: 5px;
+  /* margin: 0.12cm 0; */
+  margin-left: 20%;
+  margin-right: 20%;
+  background-image: url(../images/Decorative-Line-Black-PNG-Clipart.png);
+  background-size: 100% 100%;
+  border: none;
+}
+
+/* -------------------------------------------------------------------------- */
 
 /* monster table stat color fix  */
 .monster table tbody tr td {
@@ -386,15 +407,7 @@ hr.classdivider {
   float: none;
 }
 
-/* ------------------------------------------------------------------------------------------------ */
-
-/* Spell heading */
-.spell {
-  text-align:center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background:#b5e2f1;
-}
+/* --------------------------------------------------------------------------- */
 
 /* Feat block */
 .feat {
@@ -415,7 +428,7 @@ hr.classdivider {
 }
 
 
-/* ------------------------------------------------------------------------------------------------ */
+/* --------------------------------------------------------------------------- */
 
 /* Info areas */
 .descriptive, .infoarea {
@@ -454,6 +467,11 @@ hr.classdivider {
   max-width: 50%;
 }
 
+.infoarea ul {
+  margin-bottom: -8px;
+}
+
+
 .edictsbox {
   font-family: ScalySansRemake;
   font-size: .318cm;
@@ -464,12 +482,26 @@ hr.classdivider {
   border-image: url(../images/descriptiveBorder.png) 12 stretch;
   border-image-outset: 4px;
   padding: 2px;
-  max-width: 33%;
   margin-left: 75px;
   margin-bottom: 5px;
 }
 
-/* ------------------------------------------------------------------------------------------------ */
+/* Spell heading */
+.spell {
+  border-style: solid;
+  border-width: 7px;
+  background-color: #b5e2f1 !important;
+  border-image: url(../images/descriptiveBorder.png) 12 stretch;
+  border-image-outset: 4px;
+  max-width: 50%;
+  padding: 2px;
+  margin-left: 75px;
+  margin-bottom: 5px;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
 
 .phb hr+blockquote {
   background-color: #b5e2f1 !important;;
@@ -486,16 +518,14 @@ hr.classdivider {
   filter: hue-rotate(180deg);
 background-image: url(https://i.imgur.com/gtHyLi6.png)}
 
-/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
 
 /* Rest block */
 .rest {
-  background-color: white;
-  border-radius: 5px;
-  color: black;
   float: right;
-  margin-bottom: 15px;
-  margin-left: 5px;
+  margin-bottom: 5px;;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .restHeading {
@@ -504,7 +534,7 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
   border-top-right-radius: 5px;
   color: white;
   font-family: MrJeeves;
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-variant: small-caps;
   font-weight: bold;
   padding-left: 20px;
@@ -519,14 +549,18 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
   width: 100%;
 }
 
+.restTable th:first-child {
+  text-align: left;
+}
+
 .restTable th {
   background-color: #E5E8E8;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: black;
   font-size: 1.1em;
-
 }
+
 
 .restTable td {
   font-size: 0.95em;
@@ -534,7 +568,12 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
   color: black;
 }
 
-/* ------------------------------------------------------------------------------------------------ */
+.multirest {
+  margin: 0px;
+  float: none;
+}
+
+/* ----------------------------------------------------------------------------- */
 
 /* Tables */
 table tr:nth-child(odd) td {background-color: #b5e2f1;}
