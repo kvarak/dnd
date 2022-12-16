@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  {% include head.html %}
+
+  <!-- Compiled and minified Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <!-- Datatables CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.css"/>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Compiled Bootstrap JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <!-- Datatables JavaScript -->
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.js"></script>
+
+  <script>
+    ///////////////////////////////////////
+    // Get google sheet data
+    $(document).ready(function() {
+    var tableContent = []
+    fetch("https://opensheet.elk.sh/1xUNZ5xcqvfepphKklfj4HQ3CbSyk342a3eIMTnSAKUY/1")
+      .then((res) => res.json())
+      .then((data) => {
+        data.forEach((row) => {
+          var weight = (row['Weight']) ? row['Weight'] : '-'
+          var description = (row['Description']) ? row['Description'] : '-'
+          tableContent.push([row['Item'],row['Category'],row['Price'],weight,description]);
+        });
+
+        var contentTable = $('#contentTable').DataTable({
+          data: tableContent,
+          order: [[0, 'desc']],
+          ordering: false,
+          lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
+          iDisplayLength: -1,
+          aoColumnDefs: [{ sClass: "td-nobreak",
+                            aTargets: [ 0,2 ] },
+                          { sClass: "td-center",
+                            aTargets: [ 2,3 ] }],
+          columns: [{ title: 'Item'},
+                    { title: 'Category'},
+                    { title: 'Price'},
+                    { title: 'Weight'},
+                    { title: 'Description'}],
+          dom:  "<'row'<'col-sm-12'f>>" +
+                "<'row'<'col-sm-12'tr>>" +
+                "<'row'<'col-sm-12'i>>"
+        });
+
+        // Create search box on each column
+        $('#contentTable thead tr').clone(true).appendTo( '#contentTable thead' );
+        $('#contentTable thead tr:eq(1) th').each( function (i) {
+          var title = $(this).text();
+          $(this).html( '<div class="input-group"><input type="text" class="form-control input-sm" placeholder="Search" /></div>' );
+
+          $( 'input', this ).on( 'keyup change', function () {
+            if ( contentTable.column(i).search() !== this.value ) {
+              contentTable
+                .column(i)
+                .search( this.value )
+                .draw();
+            }
+          });
+
+          $( 'input', this ).on( 'click', function (e) {
+            e.stopPropagation();
+          });
+        });
+    });
+  });
+  </script>
+
+</head>
+
+<body>
+  {% include navigation.html %}
+  <div class="container container-main">
+    <h1>Equipment</h1>
+    For most items the price is for something that is functional, used by a commoner. The price x5 is someting used by the upper end of the middle class. Lowest price x10 for upper class, and something for the aristocratic circles would cost x100.
+    <hr>
+    <table class="table table-striped table-hover table-condensed" id="contentTable"></table>
+  </div>
+</body>

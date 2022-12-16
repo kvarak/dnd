@@ -1,0 +1,28 @@
+
+<!-- <div class="columnsthree">
+
+{% for link in site.data.links %}
+
+- <div class="card" style="width: 8rem;">
+    <img class="card-img-top" src="{{ link.img }}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"><a href="{{ link.url }}" style='vertical-align: middle;'>{{ link.name }}</a></h5>
+      <p class="card-text">{{ link.info }}</p>
+    </div>
+  </div>
+
+{% endfor %}
+
+</div> -->
+
+<br/>
+
+<table>
+{% for link in site.data.links %}
+<tr>
+<td><a href="{{ link.url }}" style='vertical-align: middle;'>{{ link.name }}</a></td>
+<td> -- </td>
+<td>{{ link.info }}</td>
+</tr>
+{% endfor %}
+</table>

@@ -15,11 +15,7 @@ layout: default
 <a href="#internal-forester">Forester</a><br/>
 <a href="#internal-psychologist">Psychologist</a><br/>
 <a href="#internal-smith">Smith</a><br/>
-
-
 </div>
-
-
 
 # Professional
 Every professional is defined by a specific mundane field, such as a craft, a profession or an art form. From years of study and practice, they master the basic methods of their field. But that is just the first step to true progress, the development of new methods and approaches. A true professional is never satisfied. They are always seeking out new ways to improve their knowledge.
@@ -27,7 +23,6 @@ Every professional is defined by a specific mundane field, such as a craft, a pr
 The life of a professional often times begins in the mundane, as a simple craftsman or a sage. For some, the mundane life is too slow, and when their skills becomes stagnant or when an answer cannot be found, the call to adventure rings louder. For the truly curious, the adventuring life is the only way to expand one's horizons of knowledge and build one's skill. Whether they're seeking some lost knowledge, want to test a new theory, or hoping to find new questions to ask, professionals often find themselves in ancient, lost, and often dangerous, places to find them.
 
 Typically, a professional will make his or her biggest contributions to an adventuring party outside of combat. Their knowledge and expertise make them valuable in many situations that adventurers find themselves in. However, as they continue adventuring, their dedication and will to learn allows them to pick up many of the skills needed for this dangerous life. In some ways it could be said that in addition to being masters in their chosen field, they become adventuring professional.
-
 
 ## Class Features
 
@@ -39,22 +34,22 @@ Typically, a professional will make his or her biggest contributions to an adven
 |1st| +2| Adaption (d6),<br/>Field of Expertise,<br/>Spellcasting | 0 |4 |2 |— |— |— |—|— |— |— |—|
 |2nd| +2| Quick study, Tool Belt | 0 |5 |3 |— |— |— |—|—| —| —| —|
 |3rd| +2| Field of Expertise | 0| 6| 4| 2| —| —| —|— |— |— |—|
-|4th| +2| Ability Score Improvement | 1 |7 |4 |3 |— |— |—|— |— |— |—|
+|4th| +2| - | 1 |7 |4 |3 |— |— |—|— |— |— |—|
 |5th| +3| Adaption (d8),<br/>Trial and Error | 1 | 8| 4| 3| 2| —| —|— |— |—| —|
 |6th| +3| Field of Expertise | 1 | 9| 4| 3| 3| —| —|— |— |— |—|
 |7th| +3| Keen Mind | 1 |10| 4| 3| 3| 1| —|— |— |— |—|
-|8th| +3| Ability Score Improvement | 1 |11| 4| 3| 3| 2| —|— |— |— |—|
+|8th| +3| - | 1 |11| 4| 3| 3| 2| —|— |— |— |—|
 |9th| +4| Field of Expertise | 1 |12| 4| 3|3|3| 1| —| —| —| —|
 |10th| +4| Adaption (d10) | 2 |14| 4| 3| 3| 3| 2| —| —| —| —|
 |11th| +4| Reliable Talent | 2 |15| 4| 3| 3| 3| 2| 1| —| —| —|
-|12th| +4| Ability Score Improvement | 2 |15| 4| 3|3|3|2| 1| —| —| —|
+|12th| +4| - | 2 |15| 4| 3|3|3|2| 1| —| —| —|
 |13th| +5| Field of Expertise | 2 | 16| 4| 3| 3| 3| 2| 1| 1| —| —|
 |14th| +5| Expanded Knowledge | 2 |18| 4| 3| 3| 3| 2| 1| 1| —| —
 |15th| +5| Adaption (d12) | 2 |19| 4|3|3| 3| 2| 1| 1| 1| —|
-|16th| +5| Ability Score Improvement | 2 |19| 4|3|3| 3| 2| 1| 1| 1| —|
+|16th| +5| - | 2 |19| 4|3|3| 3| 2| 1| 1| 1| —|
 |17th| +6| Field of Expertise | 2 |20| 4| 3| 3| 3|2|1| 1| 1| 1|
 |18th| +6| Superior Adaption | 2 |22| 4| 3| 3| 3| 3| 1| 1|1|1|
-|19th| +6| Ability Score Improvement | 2 |22| 4| 3|3|3|3| 2| 1| 1| 1|
+|19th| +6| - | 2 |22| 4| 3|3|3|3| 2| 1| 1| 1|
 |20th| +6| Pinnacle of Achievement | 2 |22| 4| 3| 3| 3| 3| 2| 2| 1|1|
 
 </div>
@@ -64,12 +59,24 @@ As a professional, you gain the following class features.
 #### Hit Points
 **Hit Dice:** 1d8
 
-#### Proficiencies
-**Armor:** Light armor
+#### Saving Throws
+You are proficient with ***Wisdom*** saving throws.
 
-**Weapons:** Simple weapons
+#### Skills
+**Class Skills:** All Craft, all Knowledge and Profession
 
-**Saving Throws:** Wisdom
+**Skill Points:** You gain 4 skill points at 1st level.
+
+**Additional Skills:** You gain 3 additional skill points to spend on on single Craft. *Note that **Journeyman crafter** and **Master crafter** are much more difficult to gain during play.*
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 1 with Club, Knife, Spear, Staff, Crossbow and Sling.
+
+**Combat Skill Points:** You gain 1 skill point to spend on combat skills at 1st level.
+
+**Recommended:** *Light armor*
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -78,9 +85,9 @@ You start with the following equipment, in addition to the equipment granted by 
 - Any two tools or tool kits
 
 ### Adaption
-By necessity you have a nimble mind and take to anything new quickly. If you have seen a creature make any type of ability check, attack roll, or Dexterity saving throw within the last 10 minutes, you can spend a Talent die, a d6, and add the number rolled to your own roll of the same type.
+By necessity you have a nimble mind and take to anything new quickly. If you have seen a creature make any type of ability check, attack roll or Dexterity saving throw within the last 10 minutes, you can spend a Talent die, a d6, and add the number rolled to your own roll of the same type.
 
-You may instead spread your knowledge and experience to those around you, guiding them towards success. You can spend 1 minute advising your companions in a skill or tool you are proficient with. A number of friendly creatures up to your Wisdom modifier may add your Talent die to a check with the chosen skill or tool, within the next hour.
+You may instead spread your knowledge and experience to those around you, guiding them towards success. You can spend 1 minute advising your companions in a skill you are proficient with. A number of friendly creatures up to your Wisdom modifier may add your Talent die to a check with the chosen skill made within the next hour.
 
 In both cases the decision to use the Talent die can wait until after you the d20 is rolled, but before the DM says whether the roll succeeds or fails.
 
@@ -121,14 +128,11 @@ In addition, select one of the following:
 
 ***Practical field***: You gain +2 maximum hit point. Whenever you gain a new level in the professional class your maximum hit points increases by 2.
 
-
 ### Spellcasting
 Your studies and experience has granted you the ability to reshape reality, allowing you to cast spells. Your spells are discoveries that you can innately exploit.
 
 #### Cantrips
 You learn cantrips of your choice at higher levels, as shown in the Cantrips Known column. Whenever you gain a level in this class, you can replace one cantrip you learned with another cantrip from your spell list.
-
-
 
 #### Spell slots
 The Professional table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
@@ -154,20 +158,12 @@ You can cast any spell from your spell list you know as a ritual if that spell h
 You can use a set of appropriate tools as a spellcasting focus for your professional spells.
 
 ### Quick Study
-You can prepare yourself to take on any challenge by analyzing and training. From 2nd level, you can spend 1 hour in preparation, which can be done as part of a long rest, to gain proficiency in one skill or tool of your choice. This benefit lasts until you use this ability to gain another proficiency this way.
+You can prepare yourself to take on any challenge by analyzing and training. From 2nd level, you can spend 1 hour in preparation to gain to gain 1 temporary skill point to spend on a skill for which you have the prerequisites. This benefit lasts until you use this ability to gain another proficiency this way.
 
 ### Tool Belt
 While other adventurers may rely on spells, or luck, or brute strength to solve a problem, you believe in always having the right tool on hand. From 2nd level, following a long rest, you can use your ***action*** to retrieve a piece of non-magical gear from your belt, apron, pack, cart, or wherever you keep your tools, even if you did not have it in your inventory before. This item cannot have a gp cost higher than 5 times your class level.
 
 Items retrieved this way remain in your inventory until you take a long rest. You can use this feature a number of times equal to your Wisdom modifier, and may regain expended uses after you finish a long rest.
-
-
-
-
-
-
-
-
 
 ### Trial and Error
 Starting at 5th level, you can adapt your tactics, try to predict your foes patterns and get the upper hand. Once during your turn, when you miss with a weapon attack, you can make another weapon attack as a ***bonus action***. On that attack you can choose to have advantage, or deal an additional 1d8 damage.
@@ -175,21 +171,19 @@ Starting at 5th level, you can adapt your tactics, try to predict your foes patt
 At 11th level, the additional damage increases to 2d8.
 
 ### Keen Mind
-At 7th level, if you fail a saving throw that you are proficient with, you may reroll it. If you do so, you must use the new roll, and you can’t use this feature again until you finish a short rest.
+From 7th level, if you fail a saving throw that you are proficient with, you may reroll it. If you do so, you must use the new roll and can’t use this feature again until you finish a short rest.
 
 ### Reliable Talent
-By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you always have advantage.
+By 11th level you have refined your chosen skills until they approach perfection. When you make an ability check that lets you add your proficiency bonus, you may reroll it. If you do so, you must use the new roll.
 
 ### Expanded knowledge
-You gain proficiency with two additional proficiencies.
+You gain 2 additional skill points.
 
 ### Superior Adaption
 At 18th level, when you roll initiative and have no Talent dice left, you regain one.
 
 ### Pinnacle of Achievement
 At 20th level, your Wisdom increases by 2 and your maximum becomes 22.
-
-
 
 <h2><a class="internal-link" name="internal-fields">Fields of Expertise</a></h2>
 
@@ -247,29 +241,27 @@ Arcanist are usually a bookish lot who see beauty and mystery in the application
 Select an arcane tradition from the Wizard class. When selecting cantrips and other spells, use the spell list of that tradition.
 
 ### Bonus Proficiencies
-You gains proficiency with Intelligence saving throws,concentration checks and the Arcana skill. You have advantage on all Arcana ability checks.
+You gain proficiency with Intelligence saving throws and 1 additional skill point to spend on the *Arcana* skill.
 
 ### Magic Item Analysis
-Also from 1st level, your understanding of magic items allows you to analyze and understand their secrets. You know the spells *detect magic* and *identify*, and you can cast them as rituals. You don’t need to provide a material component when casting *identify* with this class feature.
-
-
+Your understanding of magic items allows you to analyze and understand their secrets. You know the spells *detect magic* and *identify*, and you can cast them as rituals. You don’t need to provide a material component when casting *identify* with this class feature.
 
 ### Savvy Arcanist
-You have studied it in theory and your understanding of the processes that go into magic is of a level even some wizards will never obtain. You understand precisely the amount of effort and concentration that goes into casting or maintaining spells. From 3rd level, whenever you cause a target to make a concentration check, it has disadvantage on that check.
+You have studied it in theory and your understanding of the processes that go into magic is of a level even some wizards will never obtain. You understand precisely the amount of effort and concentration that goes into casting or maintaining spells. Whenever you cause a target to make a concentration check, it has disadvantage on that check.
 
-Additionally, you can cast spells from scrolls, even if you do not have them on a known spell list. To cast the spell, you must succeed at an Arcana check. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect.
+Additionally, you can cast spells from scrolls even if you do not have them on a known spell list. To cast the spell, you must succeed at an Arcana check. The DC equals 10 + the spell's level. On a failed check, the spell disappears from the scroll with no other effect.
 
 ### Superior Attunement
-From 6th level, your superior understanding of magic items allows you to master their use. You can now attune to up to four, rather than three, magic items at a time.
+Your superior understanding of magic items allows you to master their use. The *Arcana - Artifice - Master attuner* costs 0 for you. If you have that skill already, you may spend a skill point on any other class skill.
 
 ### Master of Arcane Theory
-From 9th level, you have studied enough magic to understand the limitations and flaws of most spells. As a ***reaction***, when you see a spell being cast, you can gain advantage on any saves against that spell.
+You have studied enough magic to understand the limitations and flaws of most spells. As a ***reaction***, when you see a spell being cast, you can gain advantage on any saves against that spell.
 
 ### Use Magic Device
-By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.
+You have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.
 
 ### Superior Attunement
-At 17th level, you can attune to up to five magic items.
+If you have the *Master attuner* skill, you can instead attune to five magic items.
 
 
 
@@ -296,26 +288,19 @@ Archaeologists explore the isolated reaches of the world lost to history and tim
 
 An archaeologist must be prepared for traps, danger, and deadly combat when delving into the world's most perilous places, but this risk is often much of what makes their discoveries worthwhile. An eccentric lot, archaeologists often believe heavily in luck, intelligence, and skill, trusting to their tools as easily as trusting a roll of the dice.
 
-
-
-
 ### Bonus Proficiencies
-You gain proficiency with Intelligence saving throws and the History skill. You have advantage on all History ability checks.
-
-In addition you gain proficiency with cartographer's tools and one additional language.
+You gain proficiency with Intelligence saving throws and 1 additional skill point to spend on the *History* skill.
 
 ### Whip Master
-You have mastered the use of whips as both a weapon and a tool. You become proficient with whips and gain the following benefits while wielding it.
+You have mastered the use of whips as both a weapon and a tool. Gain 3 skill points to spend on the *Whip* weapon group. In addition you gain the following benefits while wielding a whip.
 
-- When you use a whip, its damage die changes from a d4 to a d6, and it counts as a light weapon.
+- When using a whip, its damage die changes from a d4 to a d6 and it counts as a light weapon.
 
 - Select a fighting style from the fighter class list. While wielding a whip, you have access to the benefits of that fighting style.
 
-- Once per turn, if you hit a creature with a whip, you can force it to make a Strength save (DC 8 + your proficiency bonus + your Dexterity modifier). If it fails, you can knock it prone, grapple it, pull it 5 feet towards you, or force it to drop an item it is holding. *(i.e. this means you can do it once during your turn and once if you attack as a reaction)*
+- Once per turn, if you hit a creature with a whip, you can force it to make a Strength save (DC 8 + your proficiency bonus + your Dexterity modifier). If it fails, you can knock it prone, grapple it, pull it 5 feet towards you or force it to drop an item it is holding. *(i.e. this means you can do it once during your turn and once if you attack as a reaction)*
 
 - You can use your whip as a short grappling hook to grasp onto an object within its reach in order to hold yourself to it, climb toward it, or pull it toward you.
-
-
 
 - When you jump, you can use a ***bonus action*** at any point in your jump's trajectory to lash out and swing from an anchoring point within reach of your whip. This extends your jump by the reach of your whip, or twice that distance on a long jump. This extra distance does not consume movement.
 

@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+    <link href="../assets/css/newstyle.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+    <script type="text/javascript">
+      // timeline
+      // var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1prVAoIfRSMnyqJ3dTe-0jRRja8c3Gy-Be8hiP3VYn28/pub?output=csv';
+      // spells
+      var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1Lsmu72Ssq48d7Df2zqYDFUoHsdsOb7K1L_u1FshKJWc/pub?output=csv';
+
+      function init() {
+        Papa.parse(public_spreadsheet_url, {
+          download: true,
+          header: true,
+          complete: showInfo
+        })
+      }
+
+      window.addEventListener('DOMContentLoaded', init)
+
+      function showInfo(results) {
+        var data = results.data
+        var txt = "";
+
+        document.getElementById("alert").innerHTML = "Imported " + data.length + " spells.";
+        // data comes through as a simple array since simpleSheet is turned on
+        // alert("Successfully processed " + data.length + " rows!")
+        for (d in data) {
+          // console.log(d);
+          txt = txt + "<tr><td>";
+          txt = txt + "<h4><a class=\"internal-link\" name=\"" + data[d].Name.replace(/\s/g, '') + "\">" + data[d].Name + "</h4>";
+          if (data[d].Level == "0") {
+            txt = txt + "<i>Cantrip";
+          } else {
+            txt = txt + "<i>Level: " + data[d].Level;
+          }
+          if (data[d].Ritual == "Yes") {
+            txt = txt + " (ritual)";
+          }
+          txt = txt + "</i><br/>";
+          txt = txt + "<b>Casting time: </b>" + data[d].Casting_Time + "<br/>";
+          txt = txt + "<b>Target: </b>" + data[d].Target + "<br/>";
+          txt = txt + "<b>Range: </b>" + data[d].Range + "<br/>";
+          txt = txt + "<b>Components: </b>" + data[d].Components + "<br/>";
+          txt = txt + "<b>Duration: </b>";
+          if (data[d].Conc == "Yes") {
+            txt = txt + "Concentration, up to " + data[d].Duration + "<br/><br/>";
+          } else {
+            txt = txt + data[d].Duration + "<br/><br/>";
+          }
+          txt = txt + "<p>" + data[d].Web_Description + "</p>";
+          txt = txt + "</td></tr>";
+        }
+
+        document.getElementById("sheetcontent").innerHTML = txt;
+        // console.log(data);
+      }
+
+      // document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");
+    </script>
+  </head>
+
+  <body>
+
+    {% include navigation.html %}
+    <div class="container container-main">
+
+      <section class="container">
+        <h1>Spells</h1>
+        <input type="search" class="light-table-filter" data-table="table-info" placeholder="Filter/Search">
+
+        <p id="alert"></p>
+
+        <table class="table-info table">
+          <thead>
+            <tr>
+              <th>Name</th>
+            </tr>
+          </thead>
+          <tbody id="sheetcontent">
+          </tbody>
+        </table>
+      </section>
+
+      <script src="../assets/js/function.js"></script>
+
+      {{ content }}
+
+    </div>
+
+  </body>
+</html>

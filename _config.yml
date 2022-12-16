@@ -17,13 +17,11 @@ collections:
     output: true
   Classes:
     output: true
+  Equipment:
+    output: true
   Folk:
     output: true
-  # Links:
-  #   output: true
   Resources:
-    output: true
-  Equipment:
     output: true
   Rules:
     output: true

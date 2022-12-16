@@ -1,0 +1,6 @@
+---
+title: Equipment
+layout: equipment
+---
+
+

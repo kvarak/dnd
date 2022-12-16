@@ -1,0 +1,282 @@
+
+- path: 1
+  name: Aidan
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-aidan.jpg
+- path: 1
+  name: Augustu
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-augustu.jpg
+- path: 1
+  name: Corax
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-corax.jpg
+- path: 1
+  name: Grachius Baradin
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-grachius-baradin.png
+- path: 1
+  name: Harnan Boiko
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-harnan-boiko.jpg
+- path: 1
+  name: Istakkos
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-istakkos.png
+- path: 1
+  name: Max
+  img: ../assets/campaigns/01-Rise-of-the-Runelords/01-max.jpg
+
+
+
+- path: 2
+  name: Asloiquot
+  img: ../assets/campaigns/02-The-Crimson-Throne/Asloiquot.jpg
+- path: 2
+  name: Bregan Drongor
+  img: ../assets/campaigns/02-The-Crimson-Throne/Bregan.Drongor.jpg
+- path: 2
+  name: Dalal the Weaver
+  img: ../assets/campaigns/02-The-Crimson-Throne/Dalal.the.Weaver.png
+- path: 2
+  name: Edgar Rave
+  img: ../assets/campaigns/02-The-Crimson-Throne/Edgar.Rave.jpg
+- path: 2
+  name: Lexandro
+  img: ../assets/campaigns/02-The-Crimson-Throne/Lexandro.jpg
+- path: 2
+  name: Morvius
+  img: ../assets/campaigns/02-The-Crimson-Throne/Morvius.jpg
+- path: 2
+  name: Rolen Amaruil (full)
+  img: ../assets/campaigns/02-The-Crimson-Throne/Rolen.Amaruil.Full.jpg
+- path: 2
+  name: Rolen Amaruil
+  img: ../assets/campaigns/02-The-Crimson-Throne/Rolen.Amaruil.jpg
+- path: 2
+  name: Sesett Donaun
+  img: ../assets/campaigns/02-The-Crimson-Throne/Sesett.Donaun.jpg
+- path: 2
+  name: Yibroc (Broc)
+  img: ../assets/campaigns/02-The-Crimson-Throne/Yibroc.Broc.jpg
+- path: 2
+  name: Yibroc
+  img: ../assets/campaigns/02-The-Crimson-Throne/Yibroc.jpg
+
+- path: 3
+  name: Danric Fireshadow
+  img: ../assets/campaigns/03-Second-Darkness/Danric.Fireshadow.jpg
+- path: 3
+  name: Emidus
+  img: ../assets/campaigns/03-Second-Darkness/Emidus.jpg
+- path: 3
+  name: Filarion
+  img: ../assets/campaigns/03-Second-Darkness/Filarion.png
+- path: 3
+  name: Kester
+  img: ../assets/campaigns/03-Second-Darkness/Kester.png
+- path: 3
+  name: Kester (with animals)
+  img: ../assets/campaigns/03-Second-Darkness/Kester.Animals.jpg
+- path: 3
+  name: Rochon
+  img: ../assets/campaigns/03-Second-Darkness/Rochon.jpg
+- path: 3
+  name: Ulric Owini
+  img: ../assets/campaigns/03-Second-Darkness/Ulric.Owini.jpg
+- path: 3
+  name: Willow
+  img: ../assets/campaigns/03-Second-Darkness/Willow.jpg
+
+
+- path: 4
+  name: Baaquir
+  img: ../assets/campaigns/04-Legacy-of-Fire/Baaquir.jpg
+- path: 4
+  name: Feathers
+  img: ../assets/campaigns/04-Legacy-of-Fire/Feathers.png
+- path: 4
+  name: Antara
+  img: ../assets/campaigns/04-Legacy-of-Fire/Antara.jpg
+- path: 4
+  name: Marwaan
+  img: ../assets/campaigns/04-Legacy-of-Fire/Marwaan.jpg
+- path: 4
+  name: Mazu
+  img: ../assets/campaigns/04-Legacy-of-Fire/Mazu.jpg
+- path: 4
+  name: Nazir
+  img: ../assets/campaigns/04-Legacy-of-Fire/Nazir.jpg
+- path: 4
+  name: Quasim
+  img: ../assets/campaigns/04-Legacy-of-Fire/Quasim.jpg
+- path: 4
+  name: Rayhan
+  img: ../assets/campaigns/04-Legacy-of-Fire/Rayhan.png
+- path: 4
+  name: Seif Yassim
+  img: ../assets/campaigns/04-Legacy-of-Fire/Seif.Yassim.jpg
+
+- path: 5
+  name: Adeo
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Adeo.jpg
+- path: 5
+  name: Arael
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Arael.png
+- path: 5
+  name: Cassius
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Cassius.jpg
+- path: 5
+  name: Chernek
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Chernek.jpg
+- path: 5
+  name: Gario
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Gario.jpg
+- path: 5
+  name: Larco
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Larco.jpg
+- path: 5
+  name: Octo
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Octo.jpg
+- path: 5
+  name: Primus
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Primus.jpg
+- path: 5
+  name: Remius
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Remius.jpg
+- path: 5
+  name: Roscian
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Roscian.jpg
+- path: 5
+  name: Sigric
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Sigric.jpg
+- path: 5
+  name: Torvic
+  img: ../assets/campaigns/05-Vanguard-of-Hope/Torvic.jpg
+
+- path: 6
+  name: Anwrick
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Anwrick.jpg
+- path: 6
+  name: Dragomir
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Dragomir.jpg
+- path: 6
+  name: Elnath
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Elnath.jpg
+- path: 6
+  name: Goswin
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Goswin.jpg
+- path: 6
+  name: Impisi
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Impisi.jpg
+- path: 6
+  name: Kwanzaa
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Kwanzaa.jpg
+- path: 6
+  name: Primotep
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Primotep.jpg
+- path: 6
+  name: Primotep 2
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Primotep 2.jpg
+- path: 6
+  name: Rufius
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Rufius.jpg
+- path: 6
+  name: Sabri01
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Sabri01.jpg
+- path: 6
+  name: Sabri02
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Sabri02.jpg
+- path: 6
+  name: Sudi
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Sudi.jpg
+- path: 6
+  name: Valerikender
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Valerikender.jpg
+
+- path: 7
+  name: Azriel
+  img: ../assets/campaigns/07-Haunted-Lands/Azriel.jpg
+- path: 7
+  name: Dorian
+  img: ../assets/campaigns/07-Haunted-Lands/Dorian.jpg
+- path: 7
+  name: Hubert
+  img: ../assets/campaigns/07-Haunted-Lands/Hubert.jpg
+- path: 7
+  name: Krystof
+  img: ../assets/campaigns/07-Haunted-Lands/Krystof.png
+- path: 7
+  name: Marius
+  img: ../assets/campaigns/07-Haunted-Lands/Marius.jpg
+- path: 7
+  name: Matyas
+  img: ../assets/campaigns/07-Haunted-Lands/Matyas.jpg
+- path: 7
+  name: Radjit Kazmer
+  img: ../assets/campaigns/07-Haunted-Lands/RadjitKazmer.jpg
+- path: 7
+  name: Wadimitru
+  img: ../assets/campaigns/07-Haunted-Lands/Wadimitru.jpg
+- path: 7
+  name: Woldemar
+  img: ../assets/campaigns/07-Haunted-Lands/Woldemar.jpeg
+- path: 7
+  name: Zandru
+  img: ../assets/campaigns/07-Haunted-Lands/Zandru.jpg
+- path: 7
+  name: Quinley Basdel
+  img: ../assets/campaigns/07-Haunted-Lands/QuinleyBasdel.jpg
+
+- path: 8
+  name: Augustu v2
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Augustu v2.jpg
+- path: 8
+  name: Catan 1
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Catan01.jpg
+- path: 8
+  name: Catan 2
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Catan02.jpg
+- path: 8
+  name: Catan 3
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Catan03.jpg
+- path: 8
+  name: Grachius Baradin
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Grachius.Baradin.png
+- path: 8
+  name: Hansi
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Hansi.jpg
+- path: 8
+  name: Mokren
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Mokren.jpg
+- path: 8
+  name: Mori
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Mori.jpg
+- path: 8
+  name: Shusuke
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Shusuke01.jpg
+- path: 8
+  name: Torgeir
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Torgeir.jpg
+- path: 8
+  name: grachius
+  img: ../assets/campaigns/08-Return-to-Sandpoint/grachius.jpg
+- path: 8
+  name: kane
+  img: ../assets/campaigns/08-Return-to-Sandpoint/kane.jpeg
+
+- path: 9
+  name: Bayne
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/Bayne.jpg
+- path: 9
+  name: Gratus
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/Gratus.jpg
+- path: 9
+  name: Gualternus
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/Gualternus.jpeg
+- path: 9
+  name: Vulph Amberbloom
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/VulphAmberbloom.jpg
+- path: 9
+  name: Aghlon
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/Aghlon.jpg
+- path: 9
+  name: Lucio
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/Lucio.png
+- path: 9
+  name: Kibi
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/Kibi.png
