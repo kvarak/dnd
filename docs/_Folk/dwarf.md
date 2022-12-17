@@ -6,6 +6,7 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### <a href="#internal-traits">Traits</a>
+##### <a href="#internal-Background">Background</a>
 ##### <a href="#internal-class">Class options</a>
 ##### <a href="#internal-feat">Feats</a>
 
@@ -102,96 +103,90 @@ Your dwarf character has an assortment of inborn abilities.
 
 </div>
 
-### Dwarf-raised
-You were created and raised by your clan.
+## <a class="internal-link" name="internal-Background">Background</a>
 
- **Alignment**. Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.
+<div class="columnsthree">
 
- **Languages**. You know Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.
+-   ### Dwarf-raised
+    You were created and raised by your clan.
 
- **Dwarven Cultural Training**. Dwarves are very bound to tradition, and an important part of the upbringing of each dwarf is to learn the basics of war and crafting. You gain proficiency with dwarven history, an artisan's tools of your choice, one-handed axes, picks and hammers, and light and medium armor.
+    **Alignment**. Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.
 
-<hr>
+    **Languages**. You know Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.
 
-### Lost
-Something happened after your creation, leaving you all by yourself before being learnt what it means to be a dwarf. This could have happened for instance if you were separated by your clan in a catastrophe, or your clan was wiped out by outside forces.
+    **Dwarven Cultural Training**. Dwarves are very bound to tradition, and an important part of the upbringing of each dwarf is to learn the basics of war and crafting. You gain proficiency with dwarven history, an artisan's tools of your choice, one-handed axes, picks and hammers, and light and medium armor.
 
- **Alignment**. A lost dwarf still has an instinct that pushes it toward a lawful and good alignment. However, this might change slowly if its surroundings forces it into other types of behaviour.
+-   ### Lost
+    Something happened after your creation, leaving you all by yourself before being learnt what it means to be a dwarf. This could have happened for instance if you were separated by your clan in a catastrophe, or your clan was wiped out by outside forces.
 
- **Languages**. You do not know any languages, although when you start playing you have probably picked up Common. No matter your Intelligence score, you cannot read and write.
+    **Alignment**. A lost dwarf still has an instinct that pushes it toward a lawful and good alignment. However, this might change slowly if its surroundings forces it into other types of behaviour.
 
- **Nature is a Harsh Mistress**. You are proficient with the Survival skill, as well as with improvised weapons like rocks and clubs.
+    **Languages**. You do not know any languages, although when you start playing you have probably picked up Common. No matter your Intelligence score, you cannot read and write.
 
-<hr>
+    **Nature is a Harsh Mistress**. You are proficient with the Survival skill, as well as with improvised weapons like rocks and clubs.
 
-### Stolen
-You were stolen after creation, either by trickery or force. Stolen dwarves are usually retrieved and reintroduced in dwarven society, but you are the one in a million case where the clan thought you gone forever, or the thief was knowledgeable enough about dwarves to avoid capture.
+-   ### Stolen
+    You were stolen after creation, either by trickery or force. Stolen dwarves are usually retrieved and reintroduced in dwarven society, but you are the one in a million case where the clan thought you gone forever, or the thief was knowledgeable enough about dwarves to avoid capture.
 
-When this happens, they have had the opportunity to mold you however they wanted. This is not necessarily done maliciously, as you might have been found by nice people who just choose to take care of you.
+    When this happens, they have had the opportunity to mold you however they wanted. This is not necessarily done maliciously, as you might have been found by nice people who just choose to take care of you.
 
- **Alignment**. A stolen dwarf still has an instinct that pushes it toward a lawful and good alignment, and will still have such tendencies unless taught otherwise.
+    **Alignment**. A stolen dwarf still has an instinct that pushes it toward a lawful and good alignment, and will still have such tendencies unless taught otherwise.
 
- **Languages**. You know whatever language is spoken by your master/caretaker.
+    **Languages**. You know whatever language is spoken by your master/caretaker.
 
-
+</div>
 
 ## <a class="internal-link" name="internal-mineral">Material Traits</a>
 Some dwarves have an overabundance of a certain type of mineral or metal. If you do, you gain the associated trait.
 
-### Coppered
-The main component in your body is copper. You most likely have red hair, and a reddish tint to your skin. You gain the following traits:
+<div class="columnsthree">
 
- **Lightning rod**. When you take lightning damage, you take 1 extra damage per die, and you have disadvantage on any saves against lightning effects.
+-   ### Coppered
+    The main component in your body is copper. You most likely have red hair, and a reddish tint to your skin. You gain the following traits:
 
- **Conductive**. You conduct electricity well. As a ***reaction*** when being struck by lightning damage, you can grab an adjacent creature, friend or foe, automatically failing a save if any. You need at least one hand free. If you have two hands free, you can grab two creatures. All lightning damge taken by you is divided among all connected creatures. If grappled, grappling, or carried, you don't have to spend your action; it happens no matter if you want it or not.
+    **Lightning rod**. When you take lightning damage, you take 1 extra damage per die, and you have disadvantage on any saves against lightning effects.
 
-<hr>
+    **Conductive**. You conduct electricity well. As a ***reaction*** when being struck by lightning damage, you can grab an adjacent creature, friend or foe, automatically failing a save if any. You need at least one hand free. If you have two hands free, you can grab two creatures. All lightning damge taken by you is divided among all connected creatures. If grappled, grappling, or carried, you don't have to spend your action; it happens no matter if you want it or not.
 
-### Iron
-Iron is the most abundand material in your body. You gain the following traits:
+-   ### Iron
+    Iron is the most abundand material in your body. You gain the following traits:
 
- **Fey bane**. Your natural weapons count as a magical weapon for the purposes of overcoming damage resistances of Fey. If a Fey does not have any resistances, it deals a bonus 1d4 damage instead.
+    **Fey bane**. Your natural weapons count as a magical weapon for the purposes of overcoming damage resistances of Fey. If a Fey does not have any resistances, it deals a bonus 1d4 damage instead.
 
- **Fey target**. Due to no fault of yours, Fey really do not like you. You have disadvantage on all Charisma checks against Fey, and they will usually go out of their way to mess with you.
+    **Fey target**. Due to no fault of yours, Fey really do not like you. You have disadvantage on all Charisma checks against Fey, and they will usually go out of their way to mess with you.
 
- **Magnetic**. Magnets tend to stick to you, but the good news is that you always know where north is.
+    **Magnetic**. Magnets tend to stick to you, but the good news is that you always know where north is.
 
-<hr>
+-   ### Leaden
+    > *"By Moradin's beard, I'm not overweight, I just contain a lot of lead!"*
+    >
+    > -- Gunnskal Leadfoot
 
-### Leaden
-> *"By Moradin's beard, I'm not overweight, I just contain a lot of lead!"*
->
-> -- Gunnskal Leadfoot
+    You gain the following traits:
 
-You gain the following traits:
+    **Unscryable**. Lead is commonly used to block divination magic. You cannot be scryed on. Magic traps often use some kind of divinatory magic to be triggered. You will not trigger those traps. If the DM is not sure that this is or isn't the mechanism, make a Luck check.
 
- **Unscryable**. Lead is commonly used to block divination magic. You cannot be scryed on. Magic traps often use some kind of divinatory magic to be triggered. You will not trigger those traps. If the DM is not sure that this is or isn't the mechanism, make a Luck check.
+    **Heavy and soft**. Lead is heavier than most materials. Your weight is 150% of normal. Lead is also very soft. When you take slashing damage, you take 1 additional damage. This damage is added after all reduction and resistance is calculated, making 2 the minimum damage.
 
- **Heavy and soft**. Lead is heavier than most materials. Your weight is 150% of normal. Lead is also very soft. When you take slashing damage, you take 1 additional damage. This damage is added after all reduction and resistance is calculated, making 2 the minimum damage.
+-   ### Pumice
+    Contrary to most dwarfs, you consist of largely lighter material, such as pumice, and gain the following traits:
 
-<hr>
+    **Floater**. While dwarfs normally sink, you float. You do not have to make swim check to stay afloat. If you want to swim underwater, you make swim checks with disadvantage.
 
-### Pumice
-Contrary to most dwarfs, you consist of largely lighter material, such as pumice, and gain the following traits:
+    **Lightweight**. You weigh around 50% of a ordinary dwarf, and you have disadvantage on any checks or saves made to avoid being moved.
 
- **Floater**. While dwarfs normally sink, you float. You do not have to make swim check to stay afloat. If you want to swim underwater, you make swim checks with disadvantage.
+-   ### Silvered
+    You have high amounts of silver in your body, and gain the following traits:
 
- **Lightweight**. You weigh around 50% of a ordinary dwarf, and you have disadvantage on any checks or saves made to avoid being moved.
+    **Bane of shapeshifters**. Lycanthropes and other shapeshifters will generally try to avoid you. Your natural weapons count as a magical weapon for the purposes of overcoming their damage resistances. If a shapeshifter does not have such resistances listed, it deals a bonus 1d4 damage instead. In addition you have disadvantage on all Charisma checks against shapeshifters.
 
-<hr>
+    **Purity of silver**. Radiant energy is drawn towards you. When you take radiant damage, you take 1 extra damage per die, and you have disadvantage on any saves against radiant effects.
 
-### Silvered
-You have high amounts of silver in your body, and gain the following traits:
+- <img src='https://3.bp.blogspot.com/-QfD95NWyO9M/V9tv4q8GJPI/AAAAAAAAJDU/OTP0kc8JyvY9qiMc_A_5V5N0_K3flyFKACLcB/s1600/UEllxuSDSsS7og4M4HhN_Duke_Zalto.png' style='width:85%;padding:20px'/>
 
- **Bane of shapeshifters**. Lycanthropes and other shapeshifters will generally try to avoid you. Your natural weapons count as a magical weapon for the purposes of overcoming their damage resistances. If a shapeshifter does not have such resistances listed, it deals a bonus 1d4 damage instead. In addition you have disadvantage on all Charisma checks against shapeshifters.
+</div>
 
- **Purity of silver**. Radiant energy is drawn towards you. When you take radiant damage, you take 1 extra damage per die, and you have disadvantage on any saves against radiant effects.
-
-
-<hr class="classdivider">
-
-
-# <a class="internal-link" name="internal-class">Dwarven Class Options</a>
+## <a class="internal-link" name="internal-class">Dwarven Class Options</a>
 A dwarfs approach to some classes is a bit different than that of other races. When you select a class, it is modified as follows. Unless under its own subheading, a description is valid for all dwarven origins.
 
 <div class="columnstwo">
