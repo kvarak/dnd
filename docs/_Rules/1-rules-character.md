@@ -24,6 +24,7 @@ layout: default
 
 The first step when playing is to create a character. All classes and folk can be found in the menu to the left.
 
+<img src='https://swsca-production.s3.amazonaws.com/uploads/facebook_share/None/218_NCAB1200-01.jpg' style='width:37%;padding:20px' />
 
 <div class="columnsthree">
 
