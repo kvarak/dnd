@@ -18,6 +18,8 @@ Tieflings are humans with demonic, devilish, or other evil outsider blood in the
 
 Tieflings don’t have a unified culture, and have found it wise to conceal their nature. Their tainted blood usually makes them outcasts of human society. Sometimes they group together for mutual protection in roving bands or wilderness forts, but usually they are seen alone and wandering. Tieflings always have distinctive marks or traits that make them stand out from normal humans.
 
+<img src='https://i2.wp.com/nerdarchy.com/wp-content/uploads/2019/03/tieflings.png' style='float:right;width:50%;padding:20px' />
+
 #### Self-Reliant and Suspicious
 Tieflings subsist in small minorities found mostly in human cities or towns, often in the roughest quarters of those places, where they grow up to be swindlers, thieves, or crime lords. Some times they live among other minority populations in enclaves where they are treated with more respect.
 
@@ -259,6 +261,10 @@ The following feats are exclusive to tieflings:
     You have advantage on saving throws against being poisoned.
 
     </div>
+
+- <img src='https://lh4.googleusercontent.com/vX33UNBjiN5F91E4GcRcV9fjBWDeuy_4UapMu85aNXl-B1Gr9CSCRVSAn0MTqDrw_icgE-vhWZAth1NQujy7wR8D0i9puEPT3CLmqp2G5beDRUPcFvgKmtwlU6_pjpYjdmOwfdsp' style='width:75%;padding:20px' />
+
+
 </div>
 
 
@@ -360,6 +366,8 @@ An tiefling approaches some classes is a bit different than other races. When yo
     In addition, when using sneak attack, you can opt not to use all your sneak attack dice. For each die you did not use, you gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
 
     <hr class="dividerinfolk">
+
+- <img src='https://i.pinimg.com/originals/b0/42/23/b042237db6034373244c03ed464eff63.png' style='width:75%;padding:20px' />
 
 -   ### Sorcerer
     Thanks to their fiendish blood, tiefling sorcerers are more common than other folk.
