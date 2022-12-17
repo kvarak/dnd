@@ -11,12 +11,16 @@ Creating <a href="#internal-alchemicalitems">**alchemical items**</a> requires a
 
 Creating <a href="#internal-poisons">**poisons**</a> requires a Poisoner’s kit. Individuals creating and selling these items can usually be found in cities and larger towns.
 
-Potions are an adventurer’s best friend, but it's not always sensible—or realistic—to carry a few dozen potions at once. When you need to carry a lot of potion in a little container, use a flask. A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle (or other container) that can safely hold a large - but uncertain — amount of consumable potion (or other liquid). Unlike potions, which typically come in single-use vials, it's always hard to tell exactly how much liquid remains inside a flask — you never quite know exactly how many uses you'll get before it's all gone.
+Potions are an adventurer’s best friend, but it's not always sensible -- or realistic -- to carry a few dozen potions at once. When you need to carry a lot of potion in a little container, use a flask. A <a href="#internal-flasks">**flask**</a> is a small, magically-infused bottle (or other container) that can safely hold a large -- but uncertain -- amount of consumable potion (or other liquid). Unlike potions, which typically come in single-use vials and it's always hard to tell exactly how much liquid remains inside a flask; you never quite know exactly how many uses you'll get before it's all gone.
+
+## <a class="internal-link" name="internal-alchemicalitems">Alchemical items</a>
 
 
-<div class="columns">
+<div class="columnsthree">
 
--   | Alchemical items | Cost |
+-   <div class="block classTable frame" markdown="1">
+
+    | Alchemical items | Cost |
     |:-----------------|:----:|
     | Acid | 10 gp
     | Air crystals | 5 gp
@@ -34,9 +38,6 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
     | Facemold paste | 25 gp
     | Firebane | 25 gp
     | Flash powder | 10 gp
-
--   | Alchemical items | Cost |
-    |:-----------------|:----:|
     | Ghost essence | 100 gp
     | Ghostbane oil | 30 gp
     | Glass gargle | 5 gp
@@ -53,81 +54,7 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
     | Unguent of revivification | 10 gp
     | Vapors of sleep | 5 gp
 
--   | Herbal items | Cost |
-    |:-------------|:----:|
-    | Antiplague | 25 gp
-    | Antitoxin | 30 gp
-    | Basil tea | 5 cp
-    | Bloodletter's draught | 5 gp
-    | Burn balm | 5 gp
-    | Burn balm, Improved | 30 gp
-    | Ceran tea | 2 gp
-    | Chamomile Salve | 2 cp
-    | Devilweed | 5 gp
-    | Dragon’s bane | 6 sp
-    | Exspiravit powder | 10 gp
-    | Faerie wing brew | 2 gp
-    | Flayleaf | 8 sp
-    | Geranium compress | 4 sp
-    | Ginseng tea | 5 gp
-    | Goldbark bud | 15 gp
-    | Guardseye | 30 gp
-    | Hag’s brew | 15 gp
-    | Halcyon snuff | 50 gp
-    | Healing myrrh | 5 sp
-    | Healing poultice | 1-15 gp
-    | Jinab bark | 50 gp
-
--   | Herbal items | Cost |
-    |:-------------|:----:|
-    | Jojopo poultice | 5 sp
-    | Laumspur tea | 20 gp
-    | Lavender tea | 20 gp
-    | Insectbane candle | 2 gp
-    | Mellowrot | 2 sp
-    | Oilosse | 2,000 gp
-    | Pesh | 5 sp
-    | Pomander of Warding | 15 gp
-    | Potion of Healing | 25-350 gp
-    | Potion of Recovery | 25-70 gp
-    | Potion of Stamina | 25-100 gp
-    | Potion of Vigor | 5-35 gp
-    | Purple pipeweed | 1 gp
-    | Sage | 4 cp
-    | Sakrash (Twilight mind) | 10 gp
-    | Shinewater | 10 gp
-    | Sparkleberry jam/jelly | 5 gp
-    | Sun pepper | 2 gp
-    | Sun pepper concentrate | 5 gp
-    | Terrap sap | 10 gp
-    | Yewclaw incense | 100 gp
-    | Willowshade oil | 50 gp
-
-</div>
-
-<div class="columnstwo">
-
--   | Poison | Cost |
-    |:-------------|:-----|
-    | Basic poison | 10 gp
-    | Noxious aromatic | 15 gp
-    | Woundweal | 50 gp
-
--   | Flask | (Average) Uses | Cost |
-    |:------|:--------------:|:----:|
-    | d12 | 20 | 15 x [base potion cost]
-    | d10 | 14 | 10 x [base potion cost]
-    | d8 | 9 | 6 x [base potion cost]
-    | d6 | 3 | 3 x [base potion cost]
-    | d4 | 1 | 1.5 x [base potion cost]
-
-</div>
-
-
-## <a class="internal-link" name="internal-alchemicalitems">Alchemical items</a>
-
-
-<div class="columnsthree">
+    </div>
 
 -   #### Acid
 
@@ -319,6 +246,7 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
     Spellpower potions infuse your body with a sudden burst of magical power—but at the cost of some stamina. When you drink this potion, you may spend one hit die and regain one expended spell slot of your choosing—the better the quality of the potion, the higher the maximum spell slot level.  If you don't have any hit dice, you may instead gain a level of exhaustion.
 
 
+    <div class="block classTable frame" markdown="1">
 
     | Quality | Max spell slots | Cost |
     |:--------|:----------------|:-----|
@@ -327,7 +255,7 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
     | Superior | 3rd level | 150 gp
     | Supreme | 5th level | 500 gp
 
-
+    </div>
 
 -   #### Tindertwig
 
@@ -371,11 +299,60 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
 
 </div>
 
-<hr class="classdivider">
-
 ## <a class="internal-link" name="internal-herbalremedies">Herbal Remedies</a>
 
 <div class="columnsthree">
+
+-   <div class="block classTable frame" markdown="1">
+
+    | Herbal items | Cost |
+    |:-------------|:----:|
+    | Antiplague | 25 gp
+    | Antitoxin | 30 gp
+    | Basil tea | 5 cp
+    | Bloodletter's draught | 5 gp
+    | Burn balm | 5 gp
+    | Burn balm, Improved | 30 gp
+    | Ceran tea | 2 gp
+    | Chamomile Salve | 2 cp
+    | Devilweed | 5 gp
+    | Dragon’s bane | 6 sp
+    | Exspiravit powder | 10 gp
+    | Faerie wing brew | 2 gp
+    | Flayleaf | 8 sp
+    | Geranium compress | 4 sp
+    | Ginseng tea | 5 gp
+    | Goldbark bud | 15 gp
+    | Guardseye | 30 gp
+    | Hag’s brew | 15 gp
+    | Halcyon snuff | 50 gp
+    | Healing myrrh | 5 sp
+    | Healing poultice | 1-15 gp
+    | Jinab bark | 50 gp
+    | Jojopo poultice | 5 sp
+    | Laumspur tea | 20 gp
+    | Lavender tea | 20 gp
+    | Insectbane candle | 2 gp
+    | Mellowrot | 2 sp
+    | Oilosse | 2,000 gp
+    | Pesh | 5 sp
+    | Pomander of Warding | 15 gp
+    | Potion of Healing | 25-350 gp
+    | Potion of Recovery | 25-70 gp
+    | Potion of Stamina | 25-100 gp
+    | Potion of Vigor | 5-35 gp
+    | Purple pipeweed | 1 gp
+    | Sage | 4 cp
+    | Sakrash (Twilight mind) | 10 gp
+    | Shinewater | 10 gp
+    | Sparkleberry jam/jelly | 5 gp
+    | Sun pepper | 2 gp
+    | Sun pepper concentrate | 5 gp
+    | Terrap sap | 10 gp
+    | Yewclaw incense | 100 gp
+    | Willowshade oil | 50 gp
+
+    </div>
 
 -   #### Antiplague
 
@@ -527,6 +504,7 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
 
     When healing, roll the same die as your most common hit die. If you don't have a hit die value for any reason, roll a d4.
 
+    <div class="block classTable frame" markdown="1">
 
     | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
@@ -534,7 +512,7 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
     | Greater | 4 [hit die] + 4 | 5 gp
     | Improved | 6 [hit die] + 8 | 15 gp
 
-
+    </div>
 
 -   #### Insectbane candle
 
@@ -607,6 +585,7 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
 
     You recover some hit points when you drink this potion—the better the quality, the more hit points you are able to restore. When you drink a healing potion, roll the same die as your most common hit die. If you don't have a hit die value for any reason, roll a d4.
 
+    <div class="block classTable frame" markdown="1">
 
     | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
@@ -615,7 +594,7 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
     | Superior | 6 [hit die] + 8 | 100 gp
     | Supreme | 8 [hit die] + 16 | 350 gp
 
-
+    </div>
 
 -   #### Potion of Recovery
 
@@ -625,13 +604,15 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
 
     You instantly recover a number of expended hit dice when you drink this potion—the better the quality, the more hit dice you recover. You may choose which of your hit dice are restored.
 
+    <div class="block classTable frame" markdown="1">
+
     | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
     | Lesser | Recover 2 hit die | 25 gp
     | Greater | Recover 4 hit die | 40 gp
     | Superior | Recover 8 hit die | 70 gp
 
-
+    </div>
 
 -   #### Potion of Stamina
 
@@ -643,6 +624,8 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
 
     You may ignore some exhaustion for one hour when you drink this potion—the better the quality, the more exhaustion you can ignore.
 
+    <div class="block classTable frame" markdown="1">
+
     | Quality | Recovery | Cost |
     |:--------|:---------|:-----|
     | Lesser | −1 exhaustion | 25 gp
@@ -650,7 +633,7 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
     | Superior | −4 exhaustion | 70 gp
     | Supreme | Ignore all exhaustion | 100 gp
 
-
+    </div>
 
 -   #### Potion of Vigor
 
@@ -662,12 +645,15 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
 
     The better the quality, the more temporary hit points you gain. When you drink a potion of vigor, roll the same die as your most common hit die. If you don't have a hit die value for any reason, roll a d4.
 
+    <div class="block classTable frame" markdown="1">
+
     | Quality | Recovery | Save DC | Cost |
     |:--------|:---------|:--------|:-----|
     | Lesser | 2 [hit die] + 2 | 15 | 5 gp
     | Greater | 4 [hit die] + 4 | 17 | 15 gp
     | Superior | 6 [hit die] + 8 | 19 | 35 gp
 
+    </div>
 
 -   #### Purple Pipeweed
 
@@ -744,12 +730,19 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
 
 </div>
 
-
-<hr class="classdivider">
-
 ## <a class="internal-link" name="internal-poisons">Poisons</a>
 
 <div class="columnsthree">
+
+-   <div class="block classTable frame" markdown="1">
+
+    | Poison | Cost |
+    |:-------------|:-----|
+    | Basic poison | 10 gp
+    | Noxious aromatic | 15 gp
+    | Woundweal | 50 gp
+
+    </div>
 
 -   #### Basic poison
 
@@ -773,9 +766,23 @@ Potions are an adventurer’s best friend, but it's not always sensible—or rea
 
 </div>
 
-<hr class="classdivider">
-
 ## <a class="internal-link" name="internal-flasks">Flasks</a>
+
+#### Uses & Costs
+
+Any liquid alchemical or herbal item can be filled in a flask. This is noted in the description of the item. Calculate the cost the following way:
+
+<div class="block classTable frame" markdown="1">
+
+| Flask | (Average) Uses | Cost |
+|:------|:--------------:|:----:|
+| d12 | 20 | 15 x [base potion cost]
+| d10 | 14 | 10 x [base potion cost]
+| d8 | 9 | 6 x [base potion cost]
+| d6 | 3 | 3 x [base potion cost]
+| d4 | 1 | 1.5 x [base potion cost]
+
+</div>
 
 #### The Flask Die
 
@@ -786,32 +793,19 @@ d12 → d10 → d8 → d6 → d4 → 0
 Once you roll a 1 or 2 on a d4, that's it—the flask is now completely empty. This roll is at disadvantage if the flask is used to heal an unconscious character.
 
 
-```
-DM: The wizard's lightning bolt hits you for 11 points of damage, Clanda. What do you do?
-Clanda: Damn it, I'm hurt. Can't risk another hit like that—I'll take a drink from my flask of healing and get... 7 hit points back.
-DM: Great, now roll your flask die.
-Clanda: Flask quantity is d4, so I roll a d4 and get...
-(rolls 1) damn—looks like that was the last of the flask.
-```
-
+> **DM:** The wizard's lightning bolt hits you for 11 points of damage, Clanda. What do you do?
+>
+> **Clanda:** Damn it, I'm hurt. Can't risk another hit like that -- I'll take a drink from my flask of healing and get... 7 hit points back.
+>
+> **DM:** Great, now roll your flask die.
+>
+> **Clanda:** Flask quantity is d4, so I roll a d4 and get... *(rolls 1)* damn -- looks like that was the last of the flask.
 
 #### Why did my flask decrease?
 
 * You drank too much.
 * You spilled some as you were drinking.
 * You overestimated how much was in there to begin with.
-
-#### Uses & Costs
-
-Any liquid alchemical or herbal item can be filled in a flask. This is noted in the description of the item. Calculate the cost the following way:
-
-| Flask | (Average) Uses |  | Cost |
-|:------|:-----:|:-----:|:-----:|
-| d12 | 20 | 15 x [base potion cost]
-| d10 | 14 | 10 x [base potion cost]
-| d8 | 9 | 6 x [base potion cost]
-| d6 | 3 | 3 x [base potion cost]
-| d4 | 1 | 1.5 x [base potion cost]
 
 #### Splitting Flasks
 
