@@ -114,19 +114,19 @@ An eladrin is associated with one of the four seasons and has coloration reminis
 
 * **Autumn** is the season of peace and goodwill, when summer's harvest is shared with all.
 
-    <img src='https://media-waterdeep.cursecdn.com/attachments/3/909/autumn-eladrin.png' style='width:100%;padding:20px' />
+    <img src='https://media-waterdeep.cursecdn.com/attachments/3/909/autumn-eladrin.png' style='height:350px;padding:20px' />
 
 * **Winter** is the season of contemplation and dolor, when the vibrant energy of the world slumbers.
 
-    <img src='https://i.pinimg.com/originals/cc/3d/7c/cc3d7c7f325001b051f26e3e4a833a70.png' style='width:100%;padding:20px' />
+    <img src='https://i.pinimg.com/originals/cc/3d/7c/cc3d7c7f325001b051f26e3e4a833a70.png' style='height:350px;padding:20px' />
 
 * **Spring** is the season of cheerfulness and celebration, marked by merriment as winter's sorrow passes.
 
-    <img src='https://i.pinimg.com/originals/ce/7e/f8/ce7ef84f1d0ac39f110aa640508db5d3.png' style='width:100%;padding:20px' />
+    <img src='https://i.pinimg.com/originals/ce/7e/f8/ce7ef84f1d0ac39f110aa640508db5d3.png' style='height:350px;padding:20px' />
 
 * **Summer** is the season of boldness and aggression. a time of unfettered energy.
 
-    <img src='https://i.pinimg.com/originals/c4/19/97/c41997907a855ed61b91c425151bc14e.png' style='width:100%;padding:20px' />
+    <img src='https://i.pinimg.com/originals/c4/19/97/c41997907a855ed61b91c425151bc14e.png' style='height:350px;padding:20px' />
 
 </div>
 
