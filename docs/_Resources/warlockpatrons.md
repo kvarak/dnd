@@ -4,12 +4,7 @@ layout: default
 ---
 
 
-# Warlock Patrons
-The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence - not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return.
-
-Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.
-
-Here follows a list of patrons to choose from, randomly select, or just to take inspiration from.
+<div class="block classTable halfClassTable frame" markdown="1">
 
 ##### Otherworldly Patrons
 
@@ -22,36 +17,49 @@ Here follows a list of patrons to choose from, randomly select, or just to take 
 | **5** | <a href="#undead">Undead</a> |
 | **6** | <a href="#other">Other</a> |
 
+</div>
 
+# Warlock Patrons
+The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence - not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return.
+
+Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.
+
+Use the list of patrons to choose from, randomly select, or just to take inspiration from.
 
 ## <a name="demon">Demons</a>
 You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet, as well as demons far below the lords in the demonic hierarchy.
 
-| Roll | Name | Pact |
-|:-:|:-|:-|
-| 1 | Abraxas, Master of the Final Incantation | Abraxas |
-| 2 | Aldinach, She of the Six Venoms | Fiend / Pharaoh |
-| 3 | Andirifkhu, The Razor Princess | Fiend / Pharaoh |
-| 4 | Areshkagal, The Faceless Sphinx | Fiend / Pharaoh |
-| 5 | Baphomet, Lord of the Minotaurs | Fiend |
-| 6 | Codricuhn, the Blood Storm | Fiend |
-| 7 | Cyth-V'sug, Prince of the Blasted Heath | Fiend / Great old one |
-| 8 | Dagon, Lord of Shadowsea | Dagon |
-| 9  | Doresain, the King of Ghouls | Fiend / Undead |
-| 10 | Haagenti, The Whispers Within | Fiend |
-| 11 | Jezelda, Mistress of the Hungry Moon | Fiend |
-| 12 | Jubilex, The Faceless Lord | Jubilex |
-| 13 | Kabriri, He Who Gnaws | Dead king / Fiend |
-| 14 | Mestama, The Mother of Witches | Fiend / Crone |
-| 15 | Nocticula, Our Lady in Shadow | Fiend / Seducer |
-| 16 | Orcus, Prince of Undeath | Fiend / Undead |
-| 17 | Pazuzu, King of the Wind Demons | Fiend |
-| 18 | Shax, The Blood Marquis | Fiend |
-| 19 | Sifkesh, The Sacred Whore | Fiend / Seducer |
-| 20 | Urxehl, Trollfather | Fiend |
-| 21 | Zura, The Vampire Queen | Fiend / Vampire |
-
 <div class="columnstwo">
+
+-   <div class="block classTable frame" markdown="1">
+
+    | Roll | Name | Pact |
+    |:-:|:-|:-|
+    | 1 | Abraxas, Master of the Final Incantation | Abraxas |
+    | 2 | Aldinach, She of the Six Venoms | Fiend / Pharaoh |
+    | 3 | Andirifkhu, The Razor Princess | Fiend / Pharaoh |
+    | 4 | Areshkagal, The Faceless Sphinx | Fiend / Pharaoh |
+    | 5 | Baphomet, Lord of the Minotaurs | Fiend |
+    | 6 | Codricuhn, the Blood Storm | Fiend |
+    | 7 | Cyth-V'sug, Prince of the Blasted Heath | Fiend / Great old one |
+    | 8 | Dagon, Lord of Shadowsea | Dagon |
+    | 9  | Doresain, the King of Ghouls | Fiend / Undead |
+    | 10 | Haagenti, The Whispers Within | Fiend |
+    | 11 | Jezelda, Mistress of the Hungry Moon | Fiend |
+    | 12 | Jubilex, The Faceless Lord | Jubilex |
+    | 13 | Kabriri, He Who Gnaws | Dead king / Fiend |
+    | 14 | Mestama, The Mother of Witches | Fiend / Crone |
+    | 15 | Nocticula, Our Lady in Shadow | Fiend / Seducer |
+    | 16 | Orcus, Prince of Undeath | Fiend / Undead |
+    | 17 | Pazuzu, King of the Wind Demons | Fiend |
+    | 18 | Shax, The Blood Marquis | Fiend |
+    | 19 | Sifkesh, The Sacred Whore | Fiend / Seducer |
+    | 20 | Urxehl, Trollfather | Fiend |
+    | 21 | Zura, The Vampire Queen | Fiend / Vampire |
+
+    </div>
+
+    #### Patron descriptions
 
 - **Abraxas, Master of the Final Incantation**. The demon lord of magic and forbidden lore. Abraxas knows countless destructive secrets and eldritch magical formulas, particularly those that cause great devastation and pain. His greatest weapon is the dreaded "Final Incantation", a single potent word that can unmake magic.
 
@@ -113,20 +121,26 @@ You have made a pact with a fiend from the lower planes of existence, a being wh
 ## <a name="devil">Devils</a>
 You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you.
 
-| Roll | Name | Pact |
-|:----:|:-----|:-----|
-| 1 | Asmodeus | Fiend |
-| 2 | Dispater | Dispater |
-| 3 | Ebe', the Ancestors' Keeper | Fiend |
-| 4 | General Garruk, 9th Baatorian Division | Fiend |
-| 5 | Hesperia, The Serpent Empress | Serpent Empress |
-| 6 | The Ironclad | Fiend |
-| 7 | Levistus, Lord of the Fifth | Levistus |
-| 8 | Luxerovax, the Draconic Duke | Fiend / Ancient Dragon |
-| 9 | Quainn the Imp | Fiend |
-| 10| Zier'den | Fiend |
-
 <div class="columnstwo">
+
+-   <div class="block classTable frame" markdown="1">
+
+    | Roll | Name | Pact |
+    |:----:|:-----|:-----|
+    | 1 | Asmodeus | Fiend |
+    | 2 | Dispater | Dispater |
+    | 3 | Ebe', the Ancestors' Keeper | Fiend |
+    | 4 | General Garruk, 9th Baatorian Division | Fiend |
+    | 5 | Hesperia, The Serpent Empress | Serpent Empress |
+    | 6 | The Ironclad | Fiend |
+    | 7 | Levistus, Lord of the Fifth | Levistus |
+    | 8 | Luxerovax, the Draconic Duke | Fiend / Ancient Dragon |
+    | 9 | Quainn the Imp | Fiend |
+    | 10| Zier'den | Fiend |
+
+    </div>
+
+    #### Patron descriptions
 
 - **Asmodeus**. Yup, you've somehow managed to get the attention of the big man himself. The head honcho. Why is the King of the Damned interested in what happens to you? You're not quite sure yet, but it probably won't end well for you. But until the other shoe drops, make the most of the power that he's parceling out to you.
 
@@ -157,33 +171,39 @@ You have made a pact with a fiend from the lower planes of existence, a being wh
 ## <a name="natural">The Natural World</a>
 Your patron is a creature from this world. It might be found deep into the wild, far away from civilization, or hiding in the Shadowfell.
 
-| Roll | Name | Pact |
-|:-:|:-|:-|
-| 1 | The Ancient Dragon | Ancient dragon |
-| 2 | Angrboda | Crone |
-| 3 | Baba Yaga | Crone |
-| 4 | Coyote | Archfey |
-| 5 | The Feasting Lord | Archfey |
-| 6 | Gambrinus and Ninkasi | Archfey |
-| 7 | Hyrsam | Archfey |
-| 8 | Kris Kringle, the Winter King | Archfey |
-| 9  | The Lady of the Lake | Archfey |
-| 10 | Lurue, the Unicorn Queen | Archfey |
-| 11 | Lusus the Gatekeeper | Archfey |
-| 12 | The Norns, Weavers of Fate | Archfey |
-| 13 | Oberon | Oberon |
-| 14 | Old Redbark | Archfey |
-| 15 | The Prince of Frost | Archfey |
-| 16 | Puck | Archfey |
-| 17 | The Queen of Air and Darkness  | Archfey |
-| 18 | Rougarou | Archfey |
-| 19 | The Sandman | Archfey / Great old one |
-| 20 | Sanguinor | Archfey |
-| 21 | The Sea Lord | Sea lord |
-| 22 | Tinkerbell | Archfey |
-| 23 | Titania | Archfey |
-
 <div class="columnstwo">
+
+-   <div class="block classTable frame" markdown="1">
+
+    | Roll | Name | Pact |
+    |:-:|:-|:-|
+    | 1 | The Ancient Dragon | Ancient dragon |
+    | 2 | Angrboda | Crone |
+    | 3 | Baba Yaga | Crone |
+    | 4 | Coyote | Archfey |
+    | 5 | The Feasting Lord | Archfey |
+    | 6 | Gambrinus and Ninkasi | Archfey |
+    | 7 | Hyrsam | Archfey |
+    | 8 | Kris Kringle, the Winter King | Archfey |
+    | 9  | The Lady of the Lake | Archfey |
+    | 10 | Lurue, the Unicorn Queen | Archfey |
+    | 11 | Lusus the Gatekeeper | Archfey |
+    | 12 | The Norns, Weavers of Fate | Archfey |
+    | 13 | Oberon | Oberon |
+    | 14 | Old Redbark | Archfey |
+    | 15 | The Prince of Frost | Archfey |
+    | 16 | Puck | Archfey |
+    | 17 | The Queen of Air and Darkness  | Archfey |
+    | 18 | Rougarou | Archfey |
+    | 19 | The Sandman | Archfey / Great old one |
+    | 20 | Sanguinor | Archfey |
+    | 21 | The Sea Lord | Sea lord |
+    | 22 | Tinkerbell | Archfey |
+    | 23 | Titania | Archfey |
+
+    </div>
+
+    #### Patron descriptions
 
 - **The Ancient Dragon**. Creatures of innate magic and eons-old intelligence, dragons are beings of legend, fate, destruction, and destiny incarnate. Though it is a secret known to few, the truly ancient of their kind are able to share their inner magic with mortals by taking part in an eldritch ritual involving a contract and an elixir of the ancient dragon's own blood suffused with the dragon's potent magical will. This ritual binds the mortal to their ancient draconic patron, sharing in the power of the dragon's blood and gaining a portion of the dragon's own magic.
 
@@ -246,28 +266,34 @@ Your patron is a creature from this world. It might be found deep into the wild,
 ## <a name="outerRealms">Outer Realms</a>
 Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. Your patron  might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it.
 
-| Roll | Name | Pact |
-|:-:|:-|:-|
-| 1 | Aloth-Zanoth the Eternal Sleeper | Great old one |
-| 2 | The Blue | Great old one |
-| 3 | Caracal | Great old one |
-| 4 | Dendar, the Night Serpent | Great old one / Monstrosity |
-| 5 | Drokan the Unknown | Fiend / Great old one |
-| 6 | Ghaunadar | Great old one |
-| 7 | Lavos | Great old one |
-| 8 | The Man in the Moon | Great old one |
-| 9 | Moander | Great old one |
-| 10 | The Necronomicon | Great old one |
-| 11 | Polaris, the North Star | Great old one |
-| 12 | Primus, the Engine of Extinction | Cosmic machine |
-| 13 | The Eternal Citadel | Eternal Citadel |
-| 14 | The Tarrasque | Monstrosity |
-| 15 | The Voice in the Deep | Great old one / Sea lord |
-| 16 | Zargon | Great old one |
-| 17 | Ziltoid the Omniscient | Great old one |
-| 18 | The Shadowcat | Shadowcat |
-
 <div class="columnstwo">
+
+-   <div class="block classTable frame" markdown="1">
+
+    | Roll | Name | Pact |
+    |:-:|:-|:-|
+    | 1 | Aloth-Zanoth the Eternal Sleeper | Great old one |
+    | 2 | The Blue | Great old one |
+    | 3 | Caracal | Great old one |
+    | 4 | Dendar, the Night Serpent | Great old one / Monstrosity |
+    | 5 | Drokan the Unknown | Fiend / Great old one |
+    | 6 | Ghaunadar | Great old one |
+    | 7 | Lavos | Great old one |
+    | 8 | The Man in the Moon | Great old one |
+    | 9 | Moander | Great old one |
+    | 10 | The Necronomicon | Great old one |
+    | 11 | Polaris, the North Star | Great old one |
+    | 12 | Primus, the Engine of Extinction | Cosmic machine |
+    | 13 | The Eternal Citadel | Eternal Citadel |
+    | 14 | The Tarrasque | Monstrosity |
+    | 15 | The Voice in the Deep | Great old one / Sea lord |
+    | 16 | Zargon | Great old one |
+    | 17 | Ziltoid the Omniscient | Great old one |
+    | 18 | The Shadowcat | Shadowcat |
+
+    </div>
+
+    #### Patron descriptions
 
 - **Aloth-Zanoth, the Eternal Sleeper**. There are two cults involved with this slumbering terror. One wants to unleash it on the world, while the other is trying to make sure that its unknowable body remains ever-sleeping. To maintain the enchantment that forces this sleep, though, thousands of souls are required. You tell yourself that the many goblins and bandits that you've slain with your eldritch powers deserve the fate of being devoured within Aloth-Zanoth's dreams, but do they really? And is your attempt at keeping this being from waking up and devouring all who live on the mortal world doomed no matter how many you kill? It's hard to tell.
 
@@ -310,14 +336,20 @@ Your patron is a mysterious entity whose nature is utterly foreign to the fabric
 ## <a name="undead">Undead</a>
 Some undead are powerful enough to grant powers to mere mortals.
 
-| Roll | Name | Pact |
-|:-:|:-|:-|
-| 1 | The Emergent Mind | The Emergent Mind |
-| 2 | The Ghost | Ghost |
-| 3 | The Undead | Undead |
-| 4 | The Vampire | Vampire |
-
 <div class="columnstwo">
+
+-   <div class="block classTable frame" markdown="1">
+
+    | Roll | Name | Pact |
+    |:-:|:-|:-|
+    | 1 | The Emergent Mind | The Emergent Mind |
+    | 2 | The Ghost | Ghost |
+    | 3 | The Undead | Undead |
+    | 4 | The Vampire | Vampire |
+
+    </div>
+
+    #### Patron descriptions
 
 - **The Emergent Mind**. You have noticed — and been noticed by — an unfathomable intelligence that permeates a particular locality. Born from sites of strong emotions, tragedies, or even the complex interactions of unwitting participants, these entities whisper subtly of times forgotten through the creak of the floorboard, the din of the city market, the cavernous echo of dripping water, or the shining death of a distant star.
 
@@ -337,16 +369,22 @@ Some undead are powerful enough to grant powers to mere mortals.
 ## <a name="other">Other</a>
 A collection of other patrons that do not fit into any or the other categories. Most of these patrons have their own pacts.
 
-| Roll | Name | Pact |
-|:-:|:-|:-|
-| 1 | The Black Pharaoh | Great old one / Pharaoh |
-| 2 | Death | Death |
-| 3 | The Haunting Melody | Great old one / Seducer |
-| 4 | Jaffar, the Steel Sultan | Fiend / Pharaoh |
-| 5 | Khafre | Pharaoh
-| 6 | Razael the Usurper | Fiend |
-
 <div class="columnstwo">
+
+-   <div class="block classTable frame" markdown="1">
+
+    | Roll | Name | Pact |
+    |:-:|:-|:-|
+    | 1 | The Black Pharaoh | Great old one / Pharaoh |
+    | 2 | Death | Death |
+    | 3 | The Haunting Melody | Great old one / Seducer |
+    | 4 | Jaffar, the Steel Sultan | Fiend / Pharaoh |
+    | 5 | Khafre | Pharaoh
+    | 6 | Razael the Usurper | Fiend |
+
+    </div>
+
+    #### Patron descriptions
 
 - **The Black Pharaoh**. The vestige of a God-King, the Black Pharaoh's kingdom fell long ago. The warlocks that he contracts with are expected to delve into the ruins of his civilization, find treasures there, and bring them back to revive his kingdom's memory in the minds of the people. Said artifacts, however, always seem... wrong, somehow. The writing of one of his former contractors has been recently discovered, and it claims that the Black Pharaoh is no ghost at all, but a guise adopted by an entity that he named "the Crawling Chaos." But surely, those are just the ravings of a madman...
 
