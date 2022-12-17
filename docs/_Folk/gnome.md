@@ -294,8 +294,6 @@ An gnome approaches some classes is a bit different than other races. When you s
 
     <hr class="dividerinfolk">
 
-- <img src='http://2.bp.blogspot.com/-q5vSB2QKzMs/UR1WjXBncEI/AAAAAAAAExg/f2n70fdm1bg/s1600/Rosie+Cusswell.png' style='width:65%;padding:20px' />
-
 - ### Cavalier
     **Forest gnomes** get very well along with all kinds of animals, and they can be seen riding all kinds of animal, from badgers to moose. With the help from their friends they are very adept on the back of a ridden animal.
 
