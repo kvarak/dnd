@@ -22,6 +22,15 @@ layout: default
 
 When you create your character, you receive equipment and starting money based on a combination of your class and background. All equipment can be found on the <a href="https://robertrigo.github.io/pages/equipment.html">Equipment page</a>.
 
+<div class="columnstwo">
+
+- <img src='https://i.pinimg.com/originals/3a/66/9c/3a669cd33c5111e8d2836e497f7defac.jpg' style='width:100%;padding:5px' />
+
+- <img src='https://i.pinimg.com/736x/67/10/0c/67100cfd9efe8a3883f969b2e67e6d3d.jpg' style='width:100%;padding:5px' />
+
+</div>
+
+
 <div class="columnsthree">
 
 -   ### <a class="internal-link" name="internal-Alchemicalandherbalitems">Alchemical and herbal items</a>
@@ -52,10 +61,6 @@ When you create your character, you receive equipment and starting money based o
 
     <a href="https://robertrigo.github.io/pages/equipment.html">The equipment list can be found here.</a>
 
--   ### <a class="internal-link" name="internal-Flasks">Flasks</a>
-
-    Flasks are described last on the <a href="../Equipment/alchemical-herbal.html#internal-flasks">alchemical and herbal page</a>.
-
 -   ### <a class="internal-link" name="internal-HealingPotions">Healing Potions</a>
     When you drink a healing potion, instead of rolling d4s to find how much hit points you regain,  roll your hit die. If you don't have a hit die value for any reason, roll a d4. Use this for all items that heals a number of d4s.
 
@@ -64,6 +69,10 @@ When you create your character, you receive equipment and starting money based o
 -   ### <a class="internal-link" name="internal-Poisons">Poisons</a>
 
     The most common poisons can be found under <a href="../Equipment/alchemical-herbal.html#internal-poisons">can be found here</a>, but there's also a dedicated <a href="../Equipment/poison.html">poison document</a>.
+
+-   ### <a class="internal-link" name="internal-Weapons">Weapons</a>
+
+    Every weapon belongs to a category, which decides its statistics. More information can be found on the <a href="../Equipment/weapons.html">Weapon page</a>.
 
 -   ### <a class="internal-link" name="internal-UsageDice">Usage Dice</a>
 
@@ -85,9 +94,53 @@ When you create your character, you receive equipment and starting money based o
 
     </div>
 
+-   ### <a class="internal-link" name="internal-Flasks">Flasks</a>
 
--   ### <a class="internal-link" name="internal-Weapons">Weapons</a>
+    Potions are an adventurer’s best friend, but it's not always sensible -- or realistic -- to carry a few dozen potions at once. When you need to carry a lot of potion in a little container, use a flask. A flask is a small, magically-infused bottle (or other container) that can safely hold a large -- but uncertain -- amount of consumable potion (or other liquid). Unlike potions, which typically come in single-use vials and it's always hard to tell exactly how much liquid remains inside a flask; you never quite know exactly how many uses you'll get before it's all gone.
 
-    Every weapon belongs to a category, which decides its statistics. More information can be found on the <a href="../Equipment/weapons.html">Weapon page</a>.
+    **Uses & Costs**: Any liquid alchemical or herbal item can be filled in a flask. This is noted in the description of the item. Calculate the cost the following way:
+
+    <div class="block classTable frame" markdown="1">
+
+    | Flask | (Average) Uses | Cost |
+    |:------|:--------------:|:----:|
+    | d12 | 20 | 15 x [base potion cost]
+    | d10 | 14 | 10 x [base potion cost]
+    | d8 | 9 | 6 x [base potion cost]
+    | d6 | 3 | 3 x [base potion cost]
+    | d4 | 1 | 1.5 x [base potion cost]
+
+    </div>
+
+    **The Flask Die**: Instead of tracking individual drinks, flask quantity is measured with a die—d8, d10, d12, etc. This is your _Flask die_—roll it whenever you take a drink from the flask: if you roll a 1 or 2, the die gets one size smaller:
+
+    d12 → d10 → d8 → d6 → d4 → 0
+
+    Once you roll a 1 or 2 on a d4, that's it—the flask is now completely empty. This roll is at disadvantage if the flask is used to heal an unconscious character.
+
+    **Splitting Flasks**: Magic fades quickly from any liquid leaving the flask. If you pour the contents of a flask into another container— such as a potion vial, a cup, or a different flask—the magic fades within one round, becoming useless if not consumed during that time.
 
 </div>
+
+<div class="columnstwo">
+
+- <img src='https://i.pinimg.com/736x/5e/56/a3/5e56a3d96f31eade0cf1eba6b9d6c7a5.jpg' style='width:100%;padding:5px' />
+
+- <img src='https://i.pinimg.com/originals/47/6f/23/476f2342fc5a87e734f34305eadb5732.jpg' style='width:100%;padding:5px' />
+
+- <img src='https://i.pinimg.com/originals/22/b7/2d/22b72de1af0d2c7df27b81739cb98436.jpg' style='width:100%;padding:5px' />
+
+- <img src='https://i.pinimg.com/originals/e2/2c/93/e22c934908414708576d409b40e70a0a.jpg' style='width:100%;padding:5px' />
+
+- <img src='https://i.pinimg.com/originals/c2/10/66/c210667009c0b08cbf8d2206e8cbdc26.jpg' style='width:100%;padding:5px' />
+
+- <img src='https://explorednd.com/wp-content/uploads/2021/06/Adventuring-Equipment.jpg' style='width:100%;padding:5px' />
+
+<!-- - <img src='https://i.pinimg.com/originals/5d/9b/95/5d9b95ed83ed44da56e19651ba37ecec.jpg' style='width:100%;padding:5px' /> -->
+
+- <img src='https://i.pinimg.com/originals/79/8e/1a/798e1aa9e6eb35a7104ef3664adcca19.jpg' style='width:100%;padding:5px' />
+
+- <img src='https://i.pinimg.com/736x/6f/cc/18/6fcc1839e5d5ea96931c244fa1069d47.jpg' style='width:100%;padding:5px' />
+
+</div>
+
