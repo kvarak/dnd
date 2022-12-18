@@ -2,9 +2,15 @@
 <html>
   <head>
     {% include head.html %}
-    <link href="../assets/css/newstyle.css" rel="stylesheet">
+    <!-- <link href="../assets/css/newstyle.css" rel="stylesheet"> -->
 
+    <!-- Datatables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.css"/>
+    <!-- Datatables JavaScript -->
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.js"></script>
+    <!-- Papa Parse -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+
     <script type="text/javascript">
       // timeline
       // var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1prVAoIfRSMnyqJ3dTe-0jRRja8c3Gy-Be8hiP3VYn28/pub?output=csv';
@@ -15,51 +21,88 @@
         Papa.parse(public_spreadsheet_url, {
           download: true,
           header: true,
-          complete: showInfo
+          complete: newShowInfo
         })
       }
 
+
       window.addEventListener('DOMContentLoaded', init)
 
-      function showInfo(results) {
+      function newShowInfo(results) {
+        var tableContent = []
         var data = results.data
-        var txt = "";
 
         document.getElementById("alert").innerHTML = "Imported " + data.length + " spells.";
-        // data comes through as a simple array since simpleSheet is turned on
-        // alert("Successfully processed " + data.length + " rows!")
-        for (d in data) {
-          // console.log(d);
-          txt = txt + "<tr><td>";
-          txt = txt + "<h4><a class=\"internal-link\" name=\"" + data[d].Name.replace(/\s/g, '') + "\">" + data[d].Name + "</h4>";
-          if (data[d].Level == "0") {
+
+        data.forEach((row) => {
+          var txt = "";
+          txt = txt + "<h4><a class=\"internal-link\" name=\"" + row['Name'].replace(/\s/g, '') + "\">" + row['Name'] + "</h4>";
+          if (row['Level'] == "0") {
             txt = txt + "<i>Cantrip";
           } else {
-            txt = txt + "<i>Level: " + data[d].Level;
+            txt = txt + "<i>Level: " + row['Level'];
           }
-          if (data[d].Ritual == "Yes") {
+          if (row['Ritual'] == "Yes") {
             txt = txt + " (ritual)";
           }
           txt = txt + "</i><br/>";
-          txt = txt + "<b>Casting time: </b>" + data[d].Casting_Time + "<br/>";
-          txt = txt + "<b>Target: </b>" + data[d].Target + "<br/>";
-          txt = txt + "<b>Range: </b>" + data[d].Range + "<br/>";
-          txt = txt + "<b>Components: </b>" + data[d].Components + "<br/>";
+          txt = txt + "<b>Casting time: </b>" + row['Casting_Time'] + "<br/>";
+          txt = txt + "<b>Target: </b>" + row['Target'] + "<br/>";
+          txt = txt + "<b>Range: </b>" + row['Range'] + "<br/>";
+          txt = txt + "<b>Components: </b>" + row['Components'] + "<br/>";
           txt = txt + "<b>Duration: </b>";
-          if (data[d].Conc == "Yes") {
-            txt = txt + "Concentration, up to " + data[d].Duration + "<br/><br/>";
+          if (row['Conc'] == "Yes") {
+            txt = txt + "Concentration, up to " + row['Duration'] + "<br/><br/>";
           } else {
-            txt = txt + data[d].Duration + "<br/><br/>";
+            txt = txt + row['Duration'] + "<br/><br/>";
           }
-          txt = txt + "<p>" + data[d].Web_Description + "</p>";
-          txt = txt + "</td></tr>";
-        }
+          txt = txt + "<p>" + row['Web_Description'] + "</p>";
 
-        document.getElementById("sheetcontent").innerHTML = txt;
-        // console.log(data);
+          var weight = (row['Weight']) ? row['Weight'] : '-'
+          var description = (row['Description']) ? row['Description'] : '-'
+          tableContent.push([txt]);
+        });
+
+        var contentTable = $('#contentTable').DataTable({
+          data: tableContent,
+          order: [[0, 'desc']],
+          ordering: false,
+          lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
+          iDisplayLength: -1,
+          // aoColumnDefs: [{ sClass: "td-nobreak",
+          //                   aTargets: [ 0 ] },
+          //                 { sClass: "td-center",
+          //                   aTargets: [ 1 ] }],
+          columns: [{ title: '<h1>Spells</h1>'}],
+                    // { title: 'Spell'},
+                    // { title: 'Casting_Time'},
+                    // { title: 'Components'},
+                    // { title: 'Web_Description'}],
+          dom:  "<'row'<'col-sm-12'f>>" +
+                "<'row'<'col-sm-12'tr>>" //+
+                // "<'row'<'col-sm-12'i>>"
+        });
+
+        // Create search box on each column
+        // $('#contentTable thead tr').clone(true).appendTo( '#contentTable thead' );
+        // $('#contentTable thead tr:eq(1) th').each( function (i) {
+        //   var title = $(this).text();
+        //   $(this).html( '<div class="input-group"><input type="text" class="form-control input-sm" placeholder="Search" /></div>' );
+
+        //   $( 'input', this ).on( 'keyup change', function () {
+        //     if ( contentTable.column(i).search() !== this.value ) {
+        //       contentTable
+        //         .column(i)
+        //         .search( this.value )
+        //         .draw();
+        //     }
+        //   });
+
+        //   $( 'input', this ).on( 'click', function (e) {
+        //     e.stopPropagation();
+        //   });
+        // });
       }
-
-      // document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");
     </script>
   </head>
 
@@ -68,28 +111,15 @@
     {% include navigation.html %}
     <div class="container container-main">
 
-      <section class="container">
-        <h1>Spells</h1>
-        <input type="search" class="light-table-filter" data-table="table-info" placeholder="Filter/Search">
+      <!-- <h3>Spells</h3> -->
 
-        <p id="alert"></p>
+        {{ content }}
 
-        <table class="table-info table">
-          <thead>
-            <tr>
-              <th>Name</th>
-            </tr>
-          </thead>
-          <tbody id="sheetcontent">
-          </tbody>
-        </table>
-      </section>
+        <p id="alert" style="font-style:italic;"></p>
 
-      <script src="../assets/js/function.js"></script>
+        <table class="table table-striped table-hover table-condensed" id="contentTable"></table>
 
-      {{ content }}
-
-    </div>
+      </div>
 
   </body>
 </html>
