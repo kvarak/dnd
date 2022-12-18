@@ -22,9 +22,9 @@ layout: default
 
 # <a class="internal-link" name="internal-character">The Character</a>
 
-The first step when playing is to create a character. All classes and folk can be found in the menu to the left.
+The first step when playing is to create a character. All classes and folk can be found in the menu.
 
-<img src='https://swsca-production.s3.amazonaws.com/uploads/facebook_share/None/218_NCAB1200-01.jpg' style='width:37%;padding:20px' />
+<img src='../assets/images/characters.png' style='width:50%;padding:20px' />
 
 <div class="columnsthree">
 

@@ -21,6 +21,9 @@ Specific rules for what happens in and on water. Unless otherwise noted all abil
 
 ***Rough water*** adds 5 to all the following DCs except for saves made when more than 5 feet under the surface.
 
+<img src='https://www.belloflostsouls.net/wp-content/uploads/2019/01/Aquatic_Combat.jpg' style='width:50%;padding:20px' />
+
+
 <div class="columnsthree">
 
 -   ### <a class="internal-link" name="internal-Armorinwater">Armor in water</a>

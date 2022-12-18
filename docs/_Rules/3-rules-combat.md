@@ -25,6 +25,8 @@ layout: default
 The game organizes the chaos of combat into a cycle of rounds and turns. A round represents about 6 seconds in the game world. During a round, each participant in a battle takes a
 turn. The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative.
 
+<img src='https://i.pinimg.com/originals/2e/30/8a/2e308a572548f5231b33714d0e45480a.jpg' style='width:50%;padding:20px' />
+
 <div class="columnsthree">
 
 -   ### <a class="internal-link" name="internal-ActionsinCombat">Actions in Combat</a>
