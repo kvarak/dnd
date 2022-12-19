@@ -59,8 +59,6 @@ The anger felt by a normal person resembles the rage of a barbarian in the same 
 
 
 ## Class Features
-
-
 As a barbarian, you gain the following class features.
 
 #### Hit Points
@@ -68,7 +66,6 @@ As a barbarian, you gain the following class features.
 
 #### Saving Throws
 You are proficient with ***Strength*** and ***Constitution*** saving throws.
-
 
 #### Skills
 **Class Skills:** Animal handling, Herbalism, Nature, Perception, Physique, Survival and Swimming
@@ -104,7 +101,7 @@ Your speed increases by 5 feet while you aren’t wearing heavy armor.
 
 **Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level.
 
-**Recommended:** Light armor and Medium armor
+**Recommended:** *Light armor* and *Medium armor*
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every level.
 

@@ -42,9 +42,6 @@ A relationship with civilization informs every ranger’s personality and histor
 
 Why did you choose the path of a ranger. In the following table are some suggestions, but keep in mind your background and all the other details you have established so far.
 
-
-
-
 #### Ranger Background
 | d6 | I became a ranger because … |
 |:--:|:-------|
@@ -66,23 +63,23 @@ Why did you choose the path of a ranger. In the following table are some suggest
 |:-----:|:-----------:|:---------|:------:|:---:|:--:|:--:|:--:|:--:|
 | 1st | +2 | Natural Explorer,<br/>Sworn Enemy | — | — | — | — | — | — |
 | 2nd | +2 | Fighting Style, Spellcasting | 2 | 2 | — | — | — | — |
-| 3rd | +2 | Primeval Awareness,<br/>Ranger Conclave | 3 | 3 | — | — | — | — |
-| 4th | +2 | Ability Score Improvement | 3 | 3 | — | — | — | — |
+| 3rd | +2 | Ranger Conclave | 3 | 3 | — | — | — | — |
+| 4th | +2 | Primeval Awareness | 3 | 3 | — | — | — | — |
 | 5th | +3 | Ranger Conclave feature | 4 | 4 | 2 | — | — | — |
 | 6th | +3 | Greater Sworn Enemy | 4 | 4 | 2 | — | — | — |
 | 7th | +3 | Ranger Conclave feature | 5 | 4 | 3 | — | — | — |
-| 8th | +3 | Ability Score Improvement,<br/>Relentless | 5 | 4 | 3 | — | — | — |
+| 8th | +3 | Relentless | 5 | 4 | 3 | — | — | — |
 | 9th | +4 | ─ | 6 | 4 | 3 | 2 | — | — |
 | 10th | +4 | Hide in Plain Sight | 6 | 4 | 3 | 2 | — | — |
 | 11th | +4 | Ranger Conclave feature | 7 | 4 | 3 | 3 | — | — |
-| 12th | +4 | Ability Score Improvement | 7 | 4 | 3 | 3 | — | — |
+| 12th | +4 | ─ | 7 | 4 | 3 | 3 | — | — |
 | 13th | +5 | ─ | 8 | 4 | 3 | 3 | 1 | — |
 | 14th | +5 | Low Profile | 8 | 4 | 3 | 3 | 1 | — |
 | 15th | +5 | Ranger Conclave feature | 9 | 4 | 3 | 3 | 2 | — |
-| 16th | +5 | Ability Score Improvement | 9 | 4 | 3 | 3 | 2 | — |
+| 16th | +5 | ─ | 9 | 4 | 3 | 3 | 2 | — |
 | 17th | +6 | ─ | 10 | 4 | 3 | 3 | 3 | 1 |
 | 18th | +6 | Evolutionary Balance | 10 | 4 | 3 | 3 | 3 | 1 |
-| 19th | +6 | Ability Score Improvement | 11 | 4 | 3 | 3 | 3 | 2 |
+| 19th | +6 | ─ | 11 | 4 | 3 | 3 | 3 | 2 |
 | 20th | +6 | Apex Predator | 11 | 4 | 3 | 3 | 3 | 2 |
 
 </div>
@@ -92,14 +89,22 @@ As a ranger, you gain the following class features.
 #### Hit Points
 **Hit Dice:** 1d10
 
-#### Proficiencies
-**Armor:** Light armor, medium armor, shields
+#### Saving Throws
+You are proficient with ***Dexterity*** and ***Strength*** saving throws.
 
-**Weapons:** Simple weapons, martial weapons
+#### Skills
+**Class Skills:** Animal handling, Herbalism, Nature, Perception, Physique, Stealth, Survival and Swimming
 
-**Saving Throws:** Dexterity, Strength
+**Skill Points:** You gain 3 skill points at 1st level.
 
-**Skills:** Check your background for skills. In addition you gain proficiency with three of the following: Animal Handling, Athletics, Nature, Perception, Stealth, Surviving in the wilds or Tracking
+#### Skills - Combat
+**Weapon Groups:** You have rank 2 with all weapon groups.
+
+**Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level.
+
+**Recommended:** *Light armor* and *Medium armor*
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every level.
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -108,14 +113,13 @@ You start with the following equipment, in addition to the equipment granted by 
 * *(a)* a dungeoneer’s pack or *(b)* an explorer’s pack
 * A longbow and a quiver of 20 arrows
 
-
 ### Natural Explorer
 You are particularly familiar with the natural world, adept at traveling and surviving out in the wilds. At 1st level, choose three of the following traits. You may choose two additional traits at 6th and 10th level.
 
 <div class="columnstwo">
 
 - #### Expert Tracker
-    While tracking other creatures, you also learn their exact number, their sizes, and roughly how long ago it was that they passed through the area.
+    While tracking other creatures, you also learn their exact number, their sizes and roughly how long ago it was that they passed through the area.
 
 - #### Forest Friend
     You gain the trust of a tiny animal friend. You both share a basic understanding, though the animal is still subject to its natural instincts. Your animal must be a tiny CR 0 beast, and (when relevant) it shares your pool of actions.
@@ -129,9 +133,8 @@ You are particularly familiar with the natural world, adept at traveling and sur
 - #### In the Corner of My Eye
     Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
 
-
 - #### Light in the Dark
-    You know how to make your lighting supplies last a little longer in the dark. You may roll with advantage when crafting (or enhancing) simple candles or torches, and these crafted lights burn for twice as long as normal.
+    You know how to make your lighting supplies last a little longer in the dark. You have skill wwith crafting simple candles or torches, and these crafted lights burn for twice as long as normal.
 
 - #### Light Sleeper
     While asleep, you are still half-aware of what's happening around you. You may still roll Perception checks while sleeping, but with disadvantage.
@@ -152,7 +155,6 @@ You are particularly familiar with the natural world, adept at traveling and sur
     If you are traveling alone, you can move stealthily at a normal pace.
 
 </div>
-
 
 ### Sworn Enemy
 At 1st level, you swear an oath to protect the world against a particular type of enemy. Choose one of the following options.
@@ -187,7 +189,7 @@ At 1st level, you swear an oath to protect the world against a particular type o
 
     Choose a type of favored enemy: beasts, fey, humanoids, monstrosities or undead. You gain a +2 bonus to damage with weapon attacks against creatures of the chosen type.
 
-    Additionally, you have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
+    Additionally, you have advantage on checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
 
     When you gain this feature, you also learn one language of your choice, typically one spoken by your favored enemy or creatures associated with it. However, you are free to pick any language you wish to learn.
 
@@ -222,7 +224,6 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 
-
 ### Fighting Style
 At 2nd level, you adopt a style of fighting as your specialty. Choose one of the options from the <a href="fighter.html#internal-FightingStyles">fighter list of fighting styles</a>. You can’t take a fighting style option more than once, even if you later get to choose again.
 
@@ -239,15 +240,17 @@ You know two 1st-level spells of your choice from the ranger spell list. The Spe
 
 Additionally, when you gain a level in this class, you can choose one of the spells you know and replace it with another spell from your spell list, which also must be of a level for which you have spell slots.
 
-
 #### Spellcasting Ability
 Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature.
 
  **Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
  **Spell attack modifier** = your proficiency bonus + your Wisdom modifier
 
+### Ranger Conclave
+At 3rd level, you choose to emulate the ideals and training of a ranger conclave, all detailed at the end of the class description. Your choice grants you features at 3rd level and again at 5th, 7th, 11th, and 15th level.
+
 ### Primeval Awareness
-From 3rd level, your mastery of ranger lore allows you to establish a link to beasts and to the land around you.
+From 4th level, your mastery of ranger lore allows you to establish a link to beasts and to the land around you.
 
 You have an ability to communicate with beasts, and they recognize you as a kindred spirit. Through sounds and gestures, you can communicate simple ideas to a beast, and can read its basic mood and intent. You learn its emotional state, whether it is affected by magic of any sort, its short-term needs, and actions you can take (if any) to persuade it to not attack.
 
@@ -258,11 +261,10 @@ If you have the Favored Enemy feature, you can attune your senses to determine i
 
 You may use this feature a number of times equal to your proficiency bonus and can regain all expended uses when you finish a long rest.
 
-### Ranger Conclave
-At 3rd level, you choose to emulate the ideals and training of a ranger conclave, all detailed at the end of the class description. Your choice grants you features at 3rd level and again at 5th, 7th, 11th, and 15th level.
-
+<!-- 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+-->
 
 ### Greater Sworn Enemy
 At 6th level, you are ready to hunt even deadlier game. Depending on which Sworn Enemy you selected at 1st level, you gain the following feature:
@@ -274,19 +276,19 @@ At 6th level, you are ready to hunt even deadlier game. Depending on which Sworn
 
     **Brute**. Brutes suffer a -2 penalty to attack rolls against you.
 
-    **Fiend**. You have advantage on Wisdom (Insight) checks to detect if a creature serves, worships, or draws power from a fiend.
+    **Fiend**. You have advantage on Wisdom (Insight) checks to detect if a creature serves, worships or draws power from a fiend.
 
     **Flyer**. When you hit a flyer with an attack, it looses flight until the start of your next turn.
 
     **Legend**. You deal 3 extra damage per hit against legends, instead of 1.
 
-    **Mage**. You have advantage on Strength, Dexterity, and Constitution saving throws against spells.
+    **Mage**. You have advantage on Strength, Dexterity and Constitution saving throws against spells.
 
     **Mindless**. Mindless creatures avoid attacking you unless you have damaged them or they have been given an explicit order to attack you.
 
     **Minion**. Once per turn, when you kill a minion, you can transfer any excess damage from your attack to another minion within 5 feet of the first minion. The second minion has resistance to this damage.
 
-    **Stalker**. Your Perception is considered to be 5 higher for the purpose of detecting stalkers, and you have advantage on Wisdom (Perception) checks to search for them if you know they are nearby (suspicion or paranoia is insufficient).
+    **Stalker**. Your Perception is considered to be 5 higher for the purpose of detecting stalkers and you have advantage on Perception checks to search for them if you know they are nearby (suspicion or paranoia is insufficient).
 
     **Warrior**. You have resistance to damage from nonmagical weapons.
 
@@ -342,7 +344,7 @@ At 18th level, you gain a special ability to detect your prey. Choose one of the
     You become proficient with Perception if you weren't already, and you add double your proficiency bonus, instead of your normal bonus, when you make Perception checks.
 
 - #### Feral Senses
-    You gain supernatural senses that help you fight creatures you can't see. You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness.
+    You gain supernatural senses that help you fight creatures you can't see. You have blindsight with a range of 10 ft. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness.
 
 - #### Hound's Snout
     You can detect the scent of all creatures that passed through an area unless the area has been subject to light winds for 1 hour, moderate winds for 1 minute, or strong winds for 1 round. By following the scent trail, you can detect the exact path your quarry took.
@@ -427,8 +429,6 @@ Across the wilds, rangers come together to form conclaves - loose associations w
 
 Many rangers are more at home in the wilds than in civilization, to the point where animals consider them kin. Rangers of the Beast Conclave develop a close bond with a beast, then further strengthen that bond through the use of magic.
 
-
-
 ### Animal Companion
 At 3rd level, you learn to use your magic to create a powerful bond with a creature of the natural world.
 
@@ -444,8 +444,6 @@ If you use this ability to call upon a new companion, your current companion lea
 
 ##### Expanding Companion Options
 Depending on the nature of your campaign, the DM might choose to expand the options for your animal companion. As a rule of thumb, a beast can serve as an animal companion if it is Medium or smaller, has 15 or fewer hit points, and cannot deal more than 8 damage with a single attack. In general, that applies to creatures with a challenge rating of 1/4 or less, but there are exceptions.
-
-
 </div>
 
 #### Companion’s Bond
@@ -480,27 +478,17 @@ Your animal companion gains a variety of benefits while it is linked to you.
 | 5 | My idea of hello is a flurry of licks to the face. |
 | 6 | I jump on creatures to tell them how much I love them. |
 
-
-
-
-
-
-
-
-
 ### Coordinated Attack
-Beginning at 5th level, you and your animal companion form a more potent fighting team. When you use the Attack action on your turn, if your companion can see you, it can use its ***reaction*** to make a melee attack.
+You and your animal companion form a more potent fighting team. When you use the Attack action on your turn, if your companion can see you, it can use its ***reaction*** to make a melee attack.
 
 ### Beast’s Defense
-At 7th level, while your companion can see you, it has advantage on all saving throws.
-
-
+While your companion can see you, it has advantage on all saving throws.
 
 ### Storm of Claws and Fangs
-At 11th level, your companion can use its ***action*** to make a melee attack against each creature of its choice within 5 feet of it, with a separate attack roll for each target.
+Your companion can use its ***action*** to make a melee attack against each creature of its choice within 5 ft of it with a separate attack roll for each target.
 
 ### Superior Beast’s Defense
-At 15th level, whenever an attacker that your companion can see hits it with an attack, it can use its ***reaction*** to halve the attack’s damage against it
+Whenever an attacker that your companion can see hits it with an attack, it can use its ***reaction*** to halve the attack’s damage against it
 
 
 
@@ -514,7 +502,7 @@ At 15th level, whenever an attacker that your companion can see hits it with an 
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Burghal Explorer Magic, Grazing Strike |
+| 3rd | Burghal Explorer Magic,<br>Grazing Strike |
 | 5th | Extra Attack |
 | 7th | Above and Below |
 | 11th | Streetwise |
@@ -530,12 +518,8 @@ Burghal Explorers toe the line between the natural forest and cityscapes, moonli
 >
 > -- Landon Fleetcloak, Burghal explorer
 
-
-
-
 ### Burghal Explorer Magic
-Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Burghal Explorer Spells table. The spell counts as a ranger spell for you, but it does not count against the number of ranger spells you know.
-
+You learn an additional spell when you reach certain levels in this class, as shown in the Burghal Explorer Spells table. The spell counts as a ranger spell for you, but it does not count against the number of ranger spells you know.
 
 #### Burghal Explorer Spells
 | Ranger Level | Spells |
@@ -546,29 +530,26 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 | 13th | *Mordenkainen’s faithful hound* |
 | 17th | *animate objects* |
 
-
-
-
 ### Grazing Strike
-At 3rd level, you gain the ability to hinder your foes with your strikes. Once per turn when you damage a creature with a weapon attack, you can graze your target’s arm, leg, chest, or head. When you do, the creature takes an additional 1d4 damage and you impose one of the follow effects on that target:
+You gain the ability to hinder your foes with your strikes. Once per turn when you damage a creature with a weapon attack, you can graze your target’s arm, leg, chest, or head. When you do, the creature takes an additional 1d4 damage and you impose one of the follow effects on that target:
 * **Head**. It has disadvantage the next saving throw it makes before the end of its next turn.
 * **Arm**. It has disadvantage on the next Strength or Dexterity check it makes before the end of its next turn.
 * **Leg**. Its movement speed is reduced by 10 feet until the end of its next turn.
 * **Chest**. It must succeed a Strength saving throw. If it fails, you can push it up to 5 feet away from you.
 
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once whenever you take the Attack action on your turn.
+You can attack twice instead of once whenever you take the Attack action on your turn.
 
 ### Above and Below
-At 7th level, you can identify the fastest routes across cityscapes or crumbling ruins, whether the path leads through the sewers below or the roofs above. Climbing and swimming no longer costs you extra movement and you can hold your breath for twice as long as normal.
+You can identify the fastest routes across cityscapes or crumbling ruins, whether the path leads through the sewers below or the roofs above. Climbing and swimming no longer costs you extra movement and you can hold your breath for twice as long as normal.
 
 In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.
 
 ### Streetwise
-At 11th level, you disappear into crowds without hesitation. While you are hidden, moving through a crowd that isn’t hostile to you, you can don a disguise if you have prepared it in advance and you have at least one hand free.
+You disappear into crowds without hesitation. While you are hidden, moving through a crowd that isn’t hostile to you, you can don a disguise if you have prepared it in advance and you have at least one hand free.
 
 ### Close Quarters
-At 15th level, you always gain the benefits of half cover whenever two or more creatures are within 5 feet of you. As a ***bonus action*** while holding a shield, you can grant this to benefit to one of the creatures adjacent to you until the start of your next turn or it moves 10 feet away from you.
+You always gain the benefits of half cover whenever two or more creatures are within 5 ft of you. As a ***bonus action*** while holding a shield, you can grant this to benefit to one of the creatures adjacent to you until the start of your next turn or it moves 10 ft away from you.
 
 
 
@@ -607,10 +588,8 @@ The following additions are made to the general rest rules.
 
 Diabolist rangers roam the land, searching for tales of shades that hunt for the living, banshees that haunt the woods, or even helping ghosts that are not aware that they have passed in the first place. They believe that the ethereal creatures that we may become should be helped to pass on to a proper plane of existence, or at the very least stopped from harming others.
 
-
-
 ### Diabolist Magic
-Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Diabolist Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
+You learn an additional spell when you reach certain levels in this class, as shown in the Diabolist Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
 
 
 #### Diabolist Spells
@@ -622,35 +601,29 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 | 13th | *death ward* |
 | 17th | *dispel evil and good* |
 
-
 ### Phantom Sense
-At 3rd level, you gain the ability to magically sense the presence of ethereal undead creatures. As an ***action***, you detect the location of the closest ethereal undead creature within 100 ft of you. You learn the CR of the creature, but not the exact type of the creature.
+You gain the ability to magically sense the presence of ethereal undead creatures. As an ***action***, you detect the location of the closest ethereal undead creature within 100 ft of you. You learn the CR of the creature, but not the exact type of the creature.
 
 ### Mind Impression
-Also at 3rd level, you can enhance your knowledge of the afterlife to whittle away the psyche of others. As a ***bonus action***, you designate one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes psychic damage, and the creature takes an extra 1d6 psychic damage from the attack.
+You can enhance your knowledge of the afterlife to whittle away the psyche of others. As a ***bonus action***, you designate one creature you can see within 30 ft of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes psychic damage, and the creature takes an extra 1d6 psychic damage from the attack.
 
 When you reach 11th level in this class, the extra damage increases to 2d6.
 
-
-
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once whenever you take the Attack action on your turn.
+You can attack twice, instead of once whenever you take the Attack action on your turn.
 
 ### Spiritual Sheath
-Starting at 7th level, you are well versed in the effects that the supernatural creatures can cause. You have advantage on any saving throw from undead creatures' special abilities, for example a ghost’s Possession or a specter’s Life Drain feature.
+You are well versed in the effects that the supernatural creatures can cause. You have advantage on any saving throw from undead creatures' special abilities, for example a ghost’s Possession or a specter’s Life Drain feature.
 
 ### Planar Blockade
-At 11th level, you can sense when a creature attempts to move out of this plane or travel and attempt to block it. Whenever a creature within 60 feet of you attempts to teleport or use a feature to travel to another plane, similar to the *plane shift* spell, you can use your ***reaction*** to cause the target creature to make a Wisdom saving throw. On a failure, the creature’s attempt fails.
+You can sense when a creature attempts to move out of this plane or travel and attempt to block it. Whenever a creature within 60 feet of you attempts to teleport or use a feature to travel to another plane, similar to the *plane shift* spell, you can use your ***reaction*** to cause the target creature to make a Wisdom saving throw. On a failure, the creature’s attempt fails.
 
 ### Material Slip
-Finally at 15th level, you can alter your form to match the creatures you fight. As a ***bonus action***, you can magically transform yourself into a semi-ethereal form, one between the material plane and a spirit. While you are like this, you have resistance to all damage from creatures that are not ethereal, except for force damage. You do not have resistance from any creature that is ethereal.
+You can alter your form to match the creatures you fight. As a ***bonus action***, you can magically transform yourself into a semi-ethereal form, one between the material plane and a spirit. While you are like this, you have resistance to all damage from creatures that are not ethereal, except for force damage. You do not have resistance from any creature that is ethereal.
 
 While in this form, you can move in any direction, including up and down, or through objects as difficult terrain. If you end your turn in an object, you take 10 force damage. You remain in this form for 1 minute. This feature ends early if you use a ***bonus action*** to do so, you fall unconscious, you die, or if you enter an area of antimagic.
 
 Once you use this feature, you cannot do so again until you finish a long rest.
-
-
-
 
 
 
@@ -674,10 +647,8 @@ Once you use this feature, you cannot do so again until you finish a long rest.
 
 A fey hunter specializes in eliminating menaces from the Fey Realms and resisting the many charms and deceptions of the fey. Though fey hunters need not slay every fey they meet, alliances between the fair folk and their hunters are fleeting and uneasy.
 
-
 ### Fey Hunter Magic
-Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Fey Hunter Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
-
+You learn an additional spell when you reach certain levels in this class, as shown in the Fey Hunter Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
 
 #### Fey Hunter Spells
 | Ranger Level | Spells |
@@ -688,25 +659,22 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 | 13th | *by the light of the watchful moon* |
 | 17th | *hallow* |
 
-
 ### Sealed Mind
-At 3rd level, you become vigilant against the wiles of the fey. You become proficient with Wisdom saving throws, nad you have advantage on saves against being charmed.
-
-
+You become vigilant against the wiles of the fey. You become proficient with Wisdom saving throws and you have advantage on saves against being charmed.
 
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once whenever you take the Attack action on your turn.
+You can attack twice, instead of once whenever you take the Attack action on your turn.
 
 ### Rally Against Fey
-From 7th level, when an ally within 30 feet of you fails a saving throw against an enchantment spell, you can use your ***reaction*** to allow that ally to reroll the saving throw and take the higher result. You cannot use this feature on yourself.
+When an ally within 30 ft of you fails a saving throw against an enchantment spell, you can use your ***reaction*** to allow that ally to reroll the saving throw and take the higher result. You cannot use this feature on yourself.
 
 ### Lift the Veil
-Starting at 11th level, your strikes cut away at the magic surrounding your prey. When you take the Attack action and damage your target, you can use your ***bonus action*** to immediately end any one spell of 3rd level or lower affecting the target. You must know what effect you want to end, e.g. you could choose to end whatever is making your foe invisible, not necessarily knowing the exact spell causing the effect.
+Your strikes cut away at the magic surrounding your prey. When you take the Attack action and damage your target, you can use your ***bonus action*** to immediately end any one spell of 3rd level or lower affecting the target. You must know what effect you want to end, e.g. you could choose to end whatever is making your foe invisible, not necessarily knowing the exact spell causing the effect.
 
 Additionally, as an ***action***, you may expend a spell slot of 2nd level or higher to gain truesight to a range of 60 ft. The duration requires concentration and lasts until the end of your next round (2nd level slot), 1 minute (3rd level slot), 10 minutes (4th level slot), or 1 hour (5th level slot).
 
 ### Master Fey Hunter
-At 15th level, your attacks and spells against fey creatures ignore any resistances they possess. Additionally, you can now end spells of 5th level or lower when using your Lift the Veil feature.
+Your attacks and spells against fey creatures ignore any resistances they possess. Additionally, you can now end spells of 5th level or lower when using your Lift the Veil feature.
 
 
 
@@ -732,12 +700,8 @@ Agile, evasive, and unmoored from the constraints that slow down other rangers, 
 
 A freerunner is most at home in a city or in the treetops of a great forest, for their unique movement requires a place that is steeped with complex geometry which reaches high into the sky. Of course, even on flat terrain, a freerunner's agility is not to be underestimated, for they can dive through a giants legs or scurry up its back with ease.
 
-
-
-
 ### Freerunner Magic
-Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Fey Hunter Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
-
+You learn an additional spell when you reach certain levels in this class, as shown in the Fey Hunter Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
 
 #### Freerunner Spells
 | Ranger Level | Spells |
@@ -750,27 +714,27 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 
 
 ### Freerunning
-Starting at 3rd level, you have trained extensively to move freely over and through any terrain using only the abilities of the body. You gain proficiency with Acrobatics, and can use Dexterity (Acrobatics) when making a check to climb, jump, or swing on a rope.
+You have trained extensively to move freely over and through any terrain using only the abilities of the body. Gain the *Acrobatics - Parkour* skill and its prerequisite. If you have that skill already you may spend the skill point on any class skill.
 
 Additionally, you have mastered a number of techniques:
-- **Slide**. As a ***bonus action***, you can move up to 10 feet without spending movement through another creature’s space or squeeze up to 10 feet through a smaller space.
-- **Tumble**. As a ***bonus action***, you can nimbly jump, dive, or roll up to 10 feet in a straight line without spending movement. During this movement, any attacks of opportunity made against you have disadvantage.
+- **Slide**. As a ***bonus action***, you can move up to 10 ft without spending movement through another creature’s space or squeeze up to 10 ft through a smaller space.
+- **Tumble**. As a ***bonus action***, you can nimbly jump, dive or roll up to 10 ft in a straight line without spending movement. During this movement, any attacks of opportunity made against you have disadvantage.
 - **Wall Run**. As a ***bonus action***, you can choose to run along a vertical surface as part of your movement. Until the end of your turn, you gain a climb speed equal to your walking speed. If you jump while running along a wall, you can complete the distance of your jump, even if doing so would exceed your movement speed.
 
 ### Momentum
-At 3rd level, if you move through a hostile creature’s space, leave a creature’s reach, or move at least 15 feet vertically, you deal an additional 1d6 damage on the next weapon attack you make on your turn.
+If you move through a hostile creature’s space, leave a creature’s reach or move at least 15 ft vertically, you deal an additional 1d6 damage on the next weapon attack you make on your turn.
 
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once whenever you take the Attack action on your turn.
+You can attack twice, instead of once whenever you take the Attack action on your turn.
 
 ### Evasive Fighter
-Beginning at 7th level, when you use a freerunning technique, you gain a +2 bonus to your AC until the beginning of your next turn.
+When you use a freerunning technique, you gain a +2 bonus to your AC until the beginning of your next turn.
 
 ### Hit Hard, Hit Fast
-Starting at 11th level, the additional damage from your Momentum feature increases to 2d6.
+The additional damage from your Momentum feature increases to 2d6.
 
 ### Nimble Dodge
-At 15th level, when a spell or other effect would have you make a saving throw due to being in an area of effect, you can use your ***reaction*** to move up to half your movement speed, potentially moving you outside the effect’s area.
+When a spell or other effect would have you make a saving throw due to being in an area of effect, you can use your ***reaction*** to move up to half your movement speed, potentially moving you outside the effect’s area.
 
 
 
@@ -784,7 +748,7 @@ At 15th level, when a spell or other effect would have you make a saving throw d
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Gloomstalker Magic,<br/>Dread Ambusher,<br>Low-light Vision |
+| 3rd | Gloomstalker Magic,<br>Dread Ambusher,<br>Low-light Vision |
 | 5th | Extra Attack |
 | 7th | Iron Mind |
 | 11th | Stalker’s Flurry |
@@ -794,12 +758,8 @@ At 15th level, when a spell or other effect would have you make a saving throw d
 
 Gloomstalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloomstalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.
 
-
-
-
 ### Gloomstalker Magic
-Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Gloomstalker Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
-
+You learn an additional spell when you reach certain levels in this class, as shown in the Gloomstalker Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
 
 #### Gloomstalker Spells
 | Ranger Level | Spells |
@@ -810,30 +770,25 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 | 13th | *greater invisibility* |
 | 17th | *mislead* |
 
-
 ### Dread Ambusher
-At 3rd level, you master the art of the ambush. You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.
+You master the art of the ambush. You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.
 
-At the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the Attack action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra 1d8 damage of the weapon’s damage type.
-
-
+At the start of your first turn of each combat, your speed increases by 10 ft, which lasts until the end of that turn. If you take the Attack action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra 1d8 damage of the weapon’s damage type.
 
 ### Low-light Vision
-From 3rd level, you can see in dim light within 120 feet as if it were bright light.
-
-You are also adept at evading creatures that rely on darkvision. While in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness.
+You can see in dim light within 120 ft as if it were bright light.
 
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once whenever you take the Attack action on your turn.
+You can attack twice, instead of once whenever you take the Attack action on your turn.
 
 ### Iron Mind
-By 7th level, you have honed your ability to resist the mind-altering powers of your prey. You gain proficiency with Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).
+You have honed your ability to resist the mind-altering powers of your prey. You gain proficiency with Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice).
 
 ### Stalker’s Flurry
-At 11th level, you learn to attack with such unexpected speed that you can turn a miss into another strike. Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action.
+You learn to attack with such unexpected speed that you can turn a miss into another strike. Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action.
 
 ### Shadowy Dodge
-Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernatural shadow around you. Whenever a creature makes an attack roll against you and doesn’t have advantage on the roll, you can use your ***reaction*** to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll.
+You can dodge in unforeseen ways, with wisps of supernatural shadow around you. Whenever a creature makes an attack roll against you and doesn’t have advantage on the roll, you can use your ***reaction*** to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll.
 
 
 
@@ -857,12 +812,8 @@ Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernat
 
 Herbalist rangers have learned to extract the magical properties of plants and nature in order to create potent mixtures that can aid allies and hinder foes.
 
-
-
-
 ### Herbalist Magic
-Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Herbalist Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
-
+You learn an additional spell when you reach certain levels in this class, as shown in the Herbalist Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
 
 #### Herbalist Spells
 | Ranger Level | Spells |
@@ -873,12 +824,11 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 | 13th | *blight* |
 | 17th | *greater restoration* |
 
-
 ### Alchemist
-At 3rd level, you gain proficiency with the herbalist kits and you add double your proficiency bonus for any ability check you make using it. Additionally, the gold and time you must spend to create antitoxins and potions using an herbalism kit is halved.
+Gain 1 skill point to spend on the *Alchemy* skill.
 
 ### Volatile Mixtures
-At 3rd level, as long as you have an herbalism kit, at the end of a long rest, you prepare five mixtures, chosen from the list below, in any combination. For example, you can prepare three healing draughts and two quick coatings at the end of a long rest.
+As long as you have an herbalism kit, during a long rest you can prepare five mixtures, chosen from the list below, in any combination. For example, you can prepare three healing draughts and two quick coatings at the end of a long rest.
 
 It is assumed that your mixtures are created from ingredients foraged or gathered while traveling. Your mixtures lose their potency after 24 hours. Some mixtures require a target to make a saving throw to resist the mixture's effects. The saving throw DC is your ranger spell save DC.
 
@@ -890,34 +840,25 @@ It is assumed that your mixtures are created from ingredients foraged or gathere
 
 - **Quick Coating**. As a ***bonus action*** on your turn, you can coat one melee weapon or up to five pieces of ammunition with a reactive alchemical mixture. Once applied, the coating loses its potency at the start of your next turn. A coated weapon or piece of ammunition deals an additional 1d6 damage. The damage type is acid, cold, fire, or poison (your choice). The additional damage increases by 1d6 when you reach 11th level (2d6).
 
-- **Poison Bomb**. As an ***action***, you can throw this flask to a point up to 20 feet from you, shattering it on impact, releasing a small cloud of poison that disperses quickly. Each creature in a 5-foot-radius sphere centered on the point of impact must make a Constitution saving throw or take 1d4 poison damage and become poisoned for one minute. The creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success. Holding one's breath is ineffective against the poison, as it affects the nasal membranes, tear ducts, and other parts of the body. The damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+- **Poison Bomb**. As an ***action***, you can throw this flask to a point up to 20 ft from you, shattering it on impact, releasing a small cloud of poison that disperses quickly. Each creature in a 5-foot-radius sphere centered on the point of impact must make a Constitution saving throw or take 1d4 poison damage and become poisoned for one minute. The creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success. Holding one's breath is ineffective against the poison, as it affects the nasal membranes, tear ducts, and other parts of the body. The damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
 
-- **Smoke Bomb**. As an ***action***, you can throw this flask to a point up to 20 feet from you, shattering it on impact. It creates a 10-foot-radius sphere of smoke centered on the point of impact. The sphere spreads around corners, and its area is heavily obscured. It lasts for one minute or until winds (at least 5 miles per hour) disperses it.
+- **Smoke Bomb**. As an ***action***, you can throw this flask to a point up to 20 ft from you, shattering it on impact. It creates a 10 ft radius sphere of smoke centered on the point of impact. The sphere spreads around corners, and its area is heavily obscured. It lasts for one minute or until winds (at least 5 miles per hour) disperses it.
 
-- **Sludge Bomb**. As an action, you can throw this flask to a point up to 20 feet from you, shattering it on impact. The ground in a 5-foot-radius centered on that point becomes difficult terrain for one minute.
+- **Sludge Bomb**. As an action, you can throw this flask to a point up to 20 feet from you, shattering it on impact. The ground in a 5 ft radius centered on that point becomes difficult terrain for one minute.
 
 </div>
 
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once whenever you take the Attack action on your turn.
-
-
-
-
-
-
-
+You can attack twice, instead of once whenever you take the Attack action on your turn.
 
 ### Natural Resistance
-At 7th level, due to repeated exposure to alchemical mixtures and poisons, your body’s natural resistances have increased. You gain proficiency with Constitution saving throws.
+Due to repeated exposure to alchemical mixtures and poisons, your body’s natural resistances have increased. You gain proficiency with Constitution saving throws.
 
 ### Quick Mixing
-At 11th level, at the end of a long rest, you prepare an additional number of mixtures equal to your Wisdom modifier (total of 5 + your Wisdom modifier).
-
-
+During a long rest you can prepare an additional number of mixtures equal to your Wisdom modifier (total of 5 + your Wisdom modifier).
 
 ### Master Alchemist
-At 15th level, you have mastered your mixtures’ recipes, and have learned to combine your ingredients to deadly effectiveness. Your mixtures gain additional effects:
+You have mastered your mixtures’ recipes, and have learned to combine your ingredients to deadly effectiveness. Your mixtures gain additional effects:
 
 <div class="columnstwo">
 
@@ -929,7 +870,7 @@ At 15th level, you have mastered your mixtures’ recipes, and have learned to c
 
 - **Poison Bomb**. A creature who succeeds on the saving throw takes half the damage instead of no damage.
 
-- **Smoke Bomb**. The smoke's radius increases to 15 feet, and it lasts for up to 10 minutes. Winds can no longer disperse the smoke.
+- **Smoke Bomb**. The smoke's radius increases to 15 ft and it lasts for up to 10 minutes. Winds can no longer disperse the smoke.
 
 - **Sludge Bomb**. When a Large or smaller creature enters the sludge’s area for the first time on a turn or starts its turn there, that creature must make a Strength saving throw. On a failed save, the creature is grappled by the sludge until the start of its next turn.
 
@@ -946,10 +887,10 @@ At 15th level, you have mastered your mixtures’ recipes, and have learned to c
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Horizon Walker Magic,<br/>Detect Portal,<br>Planar Warrior (1d8) |
+| 3rd | Horizon Walker Magic,<br>Detect Portal,<br>Planar Warrior (1d8) |
 | 5th | Extra Attack |
 | 7th | Ethereal Step |
-| 11th | Distant Strike,<br/>Planar Warrior (2d8) |
+| 11th | Distant Strike,<br>Planar Warrior (2d8) |
 | 15th | Spectral Defense |
 
 <div class="card rest">
@@ -973,11 +914,8 @@ Horizon Walkers guard the world against threats that originate from other planes
 
 These rangers are also friends to any forces in the multiverse — especially benevolent dragons, fey, and elementals — that work to preserve life and the order of the planes.
 
-
-
 ### Horizon Walker Magic
-Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, and it doesn’t count against the number of ranger spells you know.
-
+You learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, and it doesn’t count against the number of ranger spells you know.
 
 #### Horizon Walker Spells
 | Ranger Level | Spells |
@@ -988,36 +926,33 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 | 13th | *banishment* |
 | 17th | *teleportation circle* |
 
-
 ### Detect Portal
-At 3rd level, you gain the ability to magically sense the presence of a planar portal. As an 10 minutes ritual, you detect the distance and direction to the closest planar portal within 1 mile of you.
+You gain the ability to magically sense the presence of a planar portal. As an 10 minutes ritual, you detect the distance and direction to the closest planar portal within 1 mile of you.
 
 See the “Planar Travel” section in chapter 2 of the Dungeon Master’s Guide for examples of planar portals.
 
-
-
 ### Planar Warrior
-At 3rd level, you learn to draw on the energy of the multiverse to augment your attacks.
+You learn to draw on the energy of the multiverse to augment your attacks.
 
-As a ***bonus action***, choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra 1d8 force damage from the attack.
+As a ***bonus action***, choose one creature you can see within 30 ft of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra 1d8 force damage from the attack.
 
 When you reach 11th level in this class, the extra damage increases to 2d8.
 
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 ### Ethereal Step
-At 7th level, you learn to step through the Ethereal Plane. As a ***bonus action***, you can cast the *etherealness* spell with this feature, without expending a spell slot, but the spell ends at the end of the current turn.
+You learn to step through the Ethereal Plane. As a ***bonus action***, you can cast the *etherealness* spell with this feature, without expending a spell slot, but the spell ends at the end of the current turn.
 
 You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
 ### Distant Strike
-At 11th level, you gain the ability to pass between the planes in the blink of an eye. When you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.
+You gain the ability to pass between the planes in the blink of an eye. When you take the Attack action, you can teleport up to 10 ft before each attack to an unoccupied space you can see.
 
 If you attack at least two different creatures with the action, you can make one additional attack with it against a third creature.
 
 ### Spectral Defense
-At 15th level, your ability to move between planes enables you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage from an attack, you can use your ***reaction*** to give yourself resistance to that attack’s damage on this turn.
+Your ability to move between planes enables you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage from an attack, you can use your ***reaction*** to give yourself resistance to that attack’s damage on this turn.
 
 
 
@@ -1044,25 +979,22 @@ At 15th level, your ability to move between planes enables you to slip through t
 
 The Hunter serves as a protector of both the wilderness and civilization. They attempt to keep the peace, ensuring hostilities don't arise between the two different settlements. A Hunter is equipped to handle threats from both sides, from poachers and polluters to rampaging ogres and hordes of orcs to towering giants and terrifying dragons.
 
-
-
-
 ### Hunter's Prey
-At 3rd level, you gain one of the following features of your choice.
+You gain one of the following features of your choice.
 
 <div class="columnstwo">
 
-- **Giant Killer**. When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your ***reaction*** to attack that creature immediately after its attack, provided that you can see the creature.
+- **Giant Killer**. When an adjacent Large or larger creature hits or misses you with an attack, you can use your ***reaction*** to attack that creature immediately after its attack, provided that you can see the creature.
 
-- **Horde Breaker**. Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.
+- **Horde Breaker**. Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is adjacent to the original target and within range of your weapon.
 
 </div>
 
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 ### Defensive Tactics
-Your training has made you resilient in the face of overwhelming odds. At 7th level, you gain one of the following features of your choice.
+Your training has made you resilient in the face of overwhelming odds. You gain one of the following features of your choice.
 
 <div class="columnsthree">
 
@@ -1075,18 +1007,18 @@ Your training has made you resilient in the face of overwhelming odds. At 7th le
 </div>
 
 ### Multiattack
-At 11th level, you gain one of the following features of your choice.
+Gain one of the following features of your choice.
 
 <div class="columnstwo">
 
-- **Volley**. You can use your ***action*** to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, and you make a separate attack roll for each target.
+- **Volley**. You can use your ***action*** to make a ranged attack against any number of creatures within 10 ft of a point you can see within your weapon's range. You must have ammunition for each target, and you make a separate attack roll for each target.
 
-- **Whirlwind Attack**. You can use your ***action*** to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.
+- **Whirlwind Attack**. You can use your ***action*** to make a melee attack against any number of creatures adjacent to you, with a separate attack roll for each target.
 
 </div>
 
 ### Superior Hunter's Defense
-Your experience has proven invaluable in keeping you safe from harm. At 15th level, you gain one of the following features of your choice.
+Your experience has proven invaluable in keeping you safe from harm. Gain one of the following features of your choice.
 
 <div class="columnstwo">
 
@@ -1113,7 +1045,7 @@ Your experience has proven invaluable in keeping you safe from harm. At 15th lev
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Monster Slayer Magic, Hunter’s Sense,<br>Slayer’s Prey |
+| 3rd | Monster Slayer Magic,<br>Hunter’s Sense,<br>Slayer’s Prey |
 | 5th | Extra Attack |
 | 7th | Supernatural Defense |
 | 11th | Magic-User’s Nemesis |
@@ -1138,11 +1070,8 @@ The following additions are made to the general rest rules.
 
 You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.
 
-
-
 ### Monster Slayer Magic
-Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Monster Slayer Spells table. The spell counts as a ranger spell for you, and it doesn’t count against the number of ranger spells you know.
-
+You learn an additional spell when you reach certain levels in this class, as shown in the Monster Slayer Spells table. The spell counts as a ranger spell for you, and it doesn’t count against the number of ranger spells you know.
 
 #### Monster Slayer Spells
 | Ranger Level | Spells |
@@ -1153,34 +1082,31 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 | 13th | *banishment* |
 | 17th | *hold monster* |
 
-
 ### Hunter’s Sense
-At 3rd level, you gain the ability to peer at a creature and magically discern how best to hurt it.
+Gain the ability to peer at a creature and magically discern how best to hurt it.
 
-As an ***action***, choose one creature you can see within 60 feet. You immediately learn whether the creature has any damage immunities, resistances, or vulnerabilities and what they are. If the creature is hidden from divination magic, you sense that it has no damage immunities, resistances, or vulnerabilities.
+As an ***action***, choose one creature you can see within 60 ft. You immediately learn whether the creature has any damage immunities, resistances, or vulnerabilities and what they are. If the creature is hidden from divination magic, you sense that it has no damage immunities, resistances, or vulnerabilities.
 
 ### Slayer’s Prey
-Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. As a ***bonus action***, you designate one creature you can see within 60 feet as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra 1d6 damage from the weapon.
-
-
+You can focus your ire on one foe, increasing the harm you inflict on it. As a ***bonus action***, you designate one creature you can see within 60 ft as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra 1d6 damage from the weapon.
 
 This benefit lasts until you finish a short rest. It ends early if you designate a different creature.
 
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 ### Supernatural Defense
-At 7th level, you gain extra resilience against your prey’s assaults on your mind and body.
+You gain extra resilience against your prey’s assaults on your mind and body.
 
 Whenever the target of your Slayer’s Prey forces you to make a saving throw and whenever you make an ability check to escape that target’s grapple, add 1d6 to your roll.
 
 ### Magic-User’s Nemesis
-At 11th level, you gain the ability to thwart someone else’s magic. When you see a creature casting a spell or teleporting within 60 feet of you, you can use your ***reaction*** to try to magically foil it. The creature must succeed on a Wisdom saving throw against your spell save DC, or its spell or teleport fails and is wasted.
+Gain the ability to thwart someone else’s magic. When you see a creature casting a spell or teleporting within 60 ft of you, you can use your ***reaction*** to try to magically foil it. The creature must succeed on a Wisdom saving throw against your spell save DC, or its spell or teleport fails and is wasted.
 
 Once you use this feature, you can’t use it again until you finish a short rest.
 
 ### Slayer’s Counter
-At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Prey forces you to make a saving throw, you can use your ***reaction*** to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack’s normal effects.
+Gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Prey forces you to make a saving throw, you can use your ***reaction*** to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack’s normal effects.
 
 
 
@@ -1208,8 +1134,7 @@ At 15th level, you gain the ability to counterattack when your prey tries to sab
 The Nightstalker conclave emulates a unique form of shadow magic, used to create shadowy familiars to accompany you in battle. By walking this path, you learn to use your shadow familiar like an extension of yourself, using them like a weapon as you stalk through the dim forests and vast plains of the world, searching for your prey. Your choice of familiar defines your style of fighting, with each familiar playing a different role on the hunt and on the battlefield.
 
 ### Nightstalker Magic
-Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Nightstalker Spells table. The spell counts as a ranger spell for you, and it doesn’t count against the number of ranger spells you know.
-
+Learn an additional spell when you reach certain levels in this class, as shown in the Nightstalker Spells table. The spell counts as a ranger spell for you, and it doesn’t count against the number of ranger spells you know.
 
 #### Nightstalker Spells
 | Ranger Level | Spells |
@@ -1220,29 +1145,28 @@ Starting at 3rd level, you learn an additional spell when you reach certain leve
 | 13th | *rend shadows* |
 | 17th | *Lorlovim's creeping shadow* |
 
-
 ### Shadow Familiar
-At 3rd level, you gain the ability to summon a creature of shadow to serve you. As a ***bonus action*** on your turn, you can conjure or dismiss your shadow familiar, which takes the form of a spectral creature that cannot be targeted or damaged. You choose the form you can create when you select this subclass.
+Gain the ability to summon a creature of shadow to serve you. As a ***bonus action*** on your turn, you can conjure or dismiss your shadow familiar, which takes the form of a spectral creature that cannot be targeted or damaged. You choose the form you can create when you select this subclass.
 
-When you conjure your shadow familiar, it appears in an unoccupied space within 30 feet. As long as it is conjured, you can forgo one or more of your attacks when you use the Attack action to have your shadow familiar make attacks of its own. The attacks use your spell attack modifier for their attacks, and the familiar makes one melee attack for each attack you forgo. While within 120 ft of your familiar, you can command it to move (no action required). The speeds and attacks of the three forms are listed below.
+When you conjure your shadow familiar, it appears in an unoccupied space within 30 ft. As long as it is conjured, you can forgo one or more of your attacks when you use the Attack action to have your shadow familiar make attacks of its own. The attacks use your spell attack modifier for their attacks, and the familiar makes one melee attack for each attack you forgo. While within 120 ft of your familiar, you can command it to move (no action required). The speeds and attacks of the three forms are listed below.
 
- **Bear**. This form has a speed of 30 feet. On a hit, its attack deals 1d10 + your Wisdom modifier slashing damage, and trigger any spells or features that would trigger from your own  attacks (such as Hunter’s Mark).
+ **Bear**. This form has a speed of 30 ft. On a hit, its attack deals 1d10 + your Wisdom modifier slashing damage, and trigger any spells or features that would trigger from your own  attacks (such as Hunter’s Mark).
 
- **Raven**. This form has a flying speed of 90 feet, and a walking speed of 10 feet. On a hit, its attack deals 1d4 + your Wisdom modifier slashing damage, and causes the next attack made against the target before the end of your next turn to be made at advantage.
+ **Raven**. This form has a flying speed of 90 ft and a walking speed of 10 ft. On a hit, its attack deals 1d4 + your Wisdom modifier slashing damage, and causes the next attack made against the target before the end of your next turn to be made at advantage.
 
- **Wolf**. This form has a speed of 40 feet. On a hit, its attack deals 1d6 + your Wisdom modifier piercing damage, and causes its target to have disadvantage on the next attack roll it makes before the end of its next turn.
+ **Wolf**. This form has a speed of 40 ft. On a hit, its attack deals 1d6 + your Wisdom modifier piercing damage, and causes its target to have disadvantage on the next attack roll it makes before the end of its next turn.
 
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 ### Shadowy Transposition
-Starting at 7th level, whenever you cast a ranger spell of 1st level or higher, you can choose to swap locations with your familiar immediately before or after casting the spell.
+Whenever you cast a ranger spell of 1st level or higher, you can choose to swap locations with your familiar immediately before or after casting the spell.
 
 ### Dark Sentinel
-At 11th level, whenever a creature leaves the reach of your shadow familiar, you can use your ***reaction*** to have it make an attack of opportunity against that creature.
+Whenever a creature leaves the reach of your shadow familiar, you can use your ***reaction*** to have it make an attack of opportunity against that creature.
 
 ### Midnight Bulwark
-Beginning at 15th level, whenever a creature adjacent to your shadow familiar makes an attack against you, you can use your ***reaction*** to have the familiar make an attack against that creature.
+Whenever a creature adjacent to your shadow familiar makes an attack against you, you can use your ***reaction*** to have the familiar make an attack against that creature.
 
 Additionally, whenever you command your familiar to make an attack using your reaction and the attack hits, the target’s speed is reduced to half until the end of the target’s current turn.
 
@@ -1259,10 +1183,10 @@ Additionally, whenever you command your familiar to make an attack using your re
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Investigator’s Intellect,<br/>Penetrating Insight |
+| 3rd | Investigator’s Intellect,<br>Penetrating Insight |
 | 5th | Extra Attack |
 | 7th | Iron Mind |
-| 11th | Informant Network,<br/>Twenty Moves Ahead |
+| 11th | Informant Network,<br>Twenty Moves Ahead |
 | 15th | Reliable Insight |
 
 </div>
@@ -1271,18 +1195,13 @@ At first glance, you seem hopelessly out of place in an adventuring party, looki
 
 Unlike other rangers, you are just as at home in a crowded metropolis as you are in a wilderness setting. Like all rangers, you are a master of the hunt, but when your prey can be as intelligent, sophisticated, or devious as yourself, hunting them is a far more complex task. You are experienced in solving intricate mysteries and bringing justice to the masterminds behind ambitious crimes. As comfortable stalking your quarry in a bustling city as a savage wilderness, you are no mere urban ranger, but a master of observation, deduction, and interrogation.
 
-
-
-
 ### Investigator’s Intellect
 When you choose this archetype at 3rd level, you gain a superior mastery of skills related to obtaining information, allowing you to find clues others might miss. This gives you a number of benefits:
-* You gain proficiency with Insight, Investigation, Perception and thieves’ tools.
+* Gain a skill point each to spend the *Burglary* and *Investigation* skills.
 * After you have attempted an check with one of those skill, you can choose to spend a spell slot to reroll, gaining a bonus on the second roll equal to 1d4 + the level of the spell slot spent.
 
-
-
 ### Penetrating Insight
-Also at 3rd level, you can focus your deductive powers on a single target, analyzing its weaknesses and gaining insights on how to defeat it. As a ***bonus action***, you can force a creature you can see that isn’t incapacitated to make a Charisma saving throw against your ranger spell DC. The target has disadvantage on this saving throw if it is your favored enemy. If the creature succeeds, they are immune to this effect for 1 hour.
+You can focus your deductive powers on a single target, analyzing its weaknesses and gaining insights on how to defeat it. As a ***bonus action***, you can force a creature you can see that isn’t incapacitated to make a Charisma saving throw against your ranger spell DC. The target has disadvantage on this saving throw if it is your favored enemy. If the creature succeeds, they are immune to this effect for 1 hour.
 
 If the target fails, once during each of your turns, you can roll 1d6 and add the result to one of the following rolls of your choice:
  * A damage roll against the target.
@@ -1292,15 +1211,15 @@ If the target fails, once during each of your turns, you can roll 1d6 and add th
 These benefits last until you target a different creature with this feature or until you finish a long rest.
 
 ### Extra Attack
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.
+You can attack twice, instead of once, whenever you take the Attack action on your turn.
 
 ### Iron Mind
-At 7th level, you have trained your mind to an extraordinary level of insight, memory, and attention to detail and gain the following benefits:
-* You add your Intelligence modifier to your Perception and Insight checks.
+You have trained your mind to an extraordinary level of insight, memory, and attention to detail and gain the following benefits:
+* You add your Intelligence modifier to your Perception checks.
 * You can accurately recall anything you have seen or heard within the past 72 hours.
 
 ### Informant Network
-At 11th level, you have carefully built up a network of informants who you can contact from almost anywhere (via a messenger bird, magic, or other). These informants are mix of guards, beggars, vagabonds, merchants, and allied government officials who have enough personal loyalty to you to perform routine favors, but not to risk their safety. As long as you are within 100 miles of a settlement that includes at least 100 intelligent creatures with whom you share a language, you can use the following abilities:
+You have carefully built up a network of informants who you can contact from almost anywhere (via a messenger bird, magic, or other). These informants are mix of guards, beggars, vagabonds, merchants, and allied government officials who have enough personal loyalty to you to perform routine favors, but not to risk their safety. As long as you are within 100 miles of a settlement that includes at least 100 intelligent creatures with whom you share a language, you can use the following abilities:
 
 * You can cast the *commune* and *legend lore* spells as rituals with a 1 hour casting time. These are not magical effects, being information from your network rather than divinations, and can be used even if magic is unavailable. Any references deities in those spells instead reference your network. You can gain any information that is known by more than 1 person within 200 miles, within the limitations of the spells. The casting time is the time it takes to contact your network and get back your answer.
 
@@ -1320,13 +1239,11 @@ At 11th level, you have carefully built up a network of informants who you can c
 
 For example, if you entered a new city and used this ability, you could determine its most powerful thieves’ guild, the locations of temples that can provide magical healing, and which graveyards are said to be haunted by undead.
 
-
-
 ### Twenty Moves Ahead
-Also at 11th level, you can see through your opponent's deceptions and anticipate their actions. When a creature that is the target of your Penetrating Insight feature misses you with an attack roll, that creature provokes an opportunity attack from you. In addition, all checks to deceive you are made with disadvantage.
+You can see through your opponent's deceptions and anticipate their actions. When a creature that is the target of your Penetrating Insight feature misses you with an attack roll, that creature provokes an opportunity attack from you. In addition, all checks to deceive you are made with disadvantage.
 
 ### Reliable Insight
-Beginning at 15th level, while a creature that you have successfully used your Penetrating Insight feature on within the last hour is also the target of a spell on which you are maintaining concentration, you have advantage on attack rolls and Insight checks against that creature.
+While a creature that you have successfully used your Penetrating Insight feature on within the last hour is also the target of a spell on which you are maintaining concentration, you have advantage on attack rolls and Insight checks against that creature.
 
 
 
@@ -1355,7 +1272,6 @@ The Banshee conclave can only be taken by an awakened **bound spirit**.
 ### Bonus Spells
 You learn an additional spell when you reach certain levels in this class, as shown in the Banshee Magic table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.
 
-
 #### Banshee Magic
 | Ranger Level | Spells |
 | :----------: | :----- |
@@ -1365,13 +1281,10 @@ You learn an additional spell when you reach certain levels in this class, as sh
 | 13th | _crystal wail_
 | 17th | _telekinesis_
 
-
 ### Dreadful Visage
-You specialize in hunting the cowardly. You can use a ***bonus action*** to transform your face into a terrible countenance for a split second. Choose one creature within 30 feet that can see you. The sight of you forces that creature to make a Wisdom saving throw against your spell save DC. If it fails, it is frightened of you for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+You specialize in hunting the cowardly. You can use a ***bonus action*** to transform your face into a terrible countenance for a split second. Choose one creature within 30 ft that can see you. The sight of you forces that creature to make a Wisdom saving throw against your spell save DC. If it fails, it is frightened of you for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 If a creature's saving throw is successful or the effect ends for it, the creature is immune to the your Dreadful Visage for the next 24 hours. A creature has disadvantage on saving throws against this feature if one or more creatures within 30 of it are also frightened of you.
-
-
 
 ### Phaseblade
 Your ghostly nature transforms your weapons. Once per turn when you make a weapon attack, you can phase your weapon or ammunition through the target. This attack deals your choice of cold, necrotic, or psychic damage, and deals an extra 1d8 damage of the chosen type. If the target is frightened, the attack roll ignores AC bonuses granted by shields, parrying reactions, and all but total cover.
@@ -1386,7 +1299,7 @@ You have become so used to using fear as a weapon that the same tactic doesn't w
 You can use Dreadful Visage when you roll initiative. Whenever you use Dreadful Visage in this way, you can replace the facial transformation with a horrific wail that affects all hostile creatures within 60 feet of you, instead of one creature.
 
 ### Lament
-You can use your ***reaction*** to let out a mournful wail that wards off death when one friendly creature that you can see within 60 feet drops to 0 hit points. Until that creature is stabilized, it has advantage on death saving throws and attack rolls made against it have disadvantage. You can use this ***reaction*** immediately before being knocked to 0 hit points to gain its benefits yourself.
+You can use your ***reaction*** to let out a mournful wail that wards off death when one friendly creature that you can see within 60 ft drops to 0 hit points. Until that creature is stabilized, it has advantage on death saving throws and attack rolls made against it have disadvantage. You can use this ***reaction*** immediately before being knocked to 0 hit points to gain its benefits yourself.
 
 You can use this feature a number of times equal to your Wisdom modifier, and must complete a long rest before you do so again.
 
@@ -1401,18 +1314,21 @@ You can use this feature a number of times equal to your Wisdom modifier, and mu
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Combat Trickster, Opportune Strike |
+| 3rd | Bonus skills,<br>Combat Trickster,<br>Opportune Strike |
 | 5th | Rabbit from a Hat |
-| 7th | Out of Sight, Out of Reach, Combat Trickster (additional tricks, d8 damage) |
+| 7th | Out of Sight, Out of Reach,<br>Combat Trickster (additional tricks, d8 damage) |
 | 11th | Exploitative Nature |
-| 15th | Elusive Foe, Combat Trickster (additional tricks) |
+| 15th | Elusive Foe,<br>Combat Trickster (additional tricks) |
 
 </div>
 
 Halfling, Kobold and Gnome rangers are regularly underestimated, but those in the Trickster conclave use that lack of esteem as both a defense and an offense, when need be. Using their cleverness and various talents, they create their own advantages in order to level the playing field.
 
 ##### Restriction
-The Trickster conclave can only be taken by a Gnome or Kobold character.
+The Trickster conclave can only be taken by a Gnome, Halfling or Kobold character.
+
+### Bonus Skills
+Gain 2 skill pooints to spend on *Craft* and *Engineering* skills.
 
 ### Combat Trickster
 Starting when you join this conclave, you learn how to use your ingenuity, deft hands, and the knowledge you've accumulated, to counteract that you are physically at a disadvantage to most foes. You gain proficiency with tinker’s tools if you don't have it already.
@@ -1447,9 +1363,9 @@ In addition to hindering your enemies in some way, some are also designed to har
 
 <div class="columnstwo">
 
-- **Ball bearings (bag of 1,000)**. As an ***action***, you can spill these tiny metal, glass, crystal, stone, or bone balls from their pouch to cover a level area 10 feet square. The first Large or smaller creature moving across the covered area must succeed on a Dexterity saving throw or fall prone, taking 1 trick die of bludgeoning damage.
+- **Ball bearings (bag of 1,000)**. As an ***action***, you can spill these tiny metal, glass, crystal, stone, or bone balls from their pouch to cover a level area 10 ft square. The first Large or smaller creature moving across the covered area must succeed on a Dexterity saving throw or fall prone, taking 1 trick die of bludgeoning damage.
 
-- **Caltrops (bag of 20)**. As an ***action***, you can spread a single bag of caltrops to cover a 5-foot-square area. The first creature that enters the area must succeed on a Dexterity saving throw or stop moving and take 2 trick dice of piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed makes the saving throw with advantage.
+- **Caltrops (bag of 20)**. As an ***action***, you can spread a single bag of caltrops to cover a 5 ft square area. The first creature that enters the area must succeed on a Dexterity saving throw or stop moving and take 2 trick dice of piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 ft. A creature moving through the area at half speed makes the saving throw with advantage.
 
 - **Flash Rods (one pair)**. As an ***action***, you can place these two rods connected by a thin wire on a flat surface. The first creature that passes between the rods trips the wire, making the rods flare up in an intensely bright light. The creature must succeed on a Constitution saving throw or be blinded until the end of the turn.
 
@@ -1457,23 +1373,23 @@ In addition to hindering your enemies in some way, some are also designed to har
 
     &nbsp;&nbsp;&nbsp;&nbsp;-- **Special**. An oil trap is harder to place  efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
 
-- **Portable Ice (bag of 50)**. As an ***action***, you can spread a single bag of these compressed ice pellets to cover a 5-foot-square area. The first creature that enters the area triggers the pellets, making them expand rapidly, forming a 20-feet tall ice pillar that immediately shatters. Any Large or smaller creatures in the area must succeed on a Dexterity saving throw or be lifted by the pillar. Tiny creatures don't trigger the pellets.
+- **Portable Ice (bag of 50)**. As an ***action***, you can spread a single bag of these compressed ice pellets to cover a 5 ft square area. The first creature that enters the area triggers the pellets, making them expand rapidly, forming a 20 ft tall ice pillar that immediately shatters. Any Large or smaller creatures in the area must succeed on a Dexterity saving throw or be lifted by the pillar. Tiny creatures don't trigger the pellets.
 
-    &nbsp;&nbsp;&nbsp;&nbsp;-- **Special**. You need access to water to craft these pellets, and they melt after 1 hour if in extreme heat.
+    &nbsp;&nbsp;&nbsp;&nbsp;-- **Special**. You need access to water to craft these pellets and they melt after 1 hour if in extreme heat.
 
-- **Screeching Sirens (soundproof container)**. As an ***action***, you can place the brittle container on the ground. The first Small or larger creature that enters its 5-foot area causes the container to break, releasing the short-lived bugs inside it. The bugs are drawn to the nearest source of body heat, while emitting a high-pitched sound. Until the start of its next turn, the creature must succeed on a Charisma saving throw in order to cast a spell with verbal components.
+- **Screeching Sirens (soundproof container)**. As an ***action***, you can place the brittle container on the ground. The first Small or larger creature that enters its 5 ft area causes the container to break, releasing the short-lived bugs inside it. The bugs are drawn to the nearest source of body heat, while emitting a high-pitched sound. Until the start of its next turn, the creature must succeed on a Charisma saving throw in order to cast a spell with verbal components.
 
     &nbsp;&nbsp;&nbsp;&nbsp;-- **Special**. You need access to bugs normally found in the wild to collect enough of them to be efficient, so the DM may rule that a city, dungeon or similar restricts how many, if any, you can craft.
 
-- **Snap trap**. When you use your ***action*** to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a Dexterity saving throw or take 1 trick die of piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 trick die of piercing damage to the trapped creature.
+- **Snap trap**. When you use your ***action*** to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a Dexterity saving throw or take 1 trick die of piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 ft long). A creature can use its action to make a Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 trick die of piercing damage to the trapped creature.
 
     &nbsp;&nbsp;&nbsp;&nbsp;-- **Special**. A snap trap is harder to place efficiently, so it can only be placed as an action, even with the Rabbit from a hat feature.
 
-- **Sonic Sphere**. As an ***action***, you can place a small metal sphere on the ground. Highly sensitive to vibrations in the ground, the sphere will activate when the first creature enters its 5-foot area, creating a burst of thunderous sound, which can be heard 100 feet away. The creature must make a Constitution saving throw or take 2 trick dice thunder damage and be deafened until the end of its next turn.
+- **Sonic Sphere**. As an ***action***, you can place a small metal sphere on the ground. Highly sensitive to vibrations in the ground, the sphere will activate when the first creature enters its 5 ft area, creating a burst of thunderous sound, which can be heard 100 feet away. The creature must make a Constitution saving throw or take 2 trick dice thunder damage and be deafened until the end of its next turn.
 
-- **Sneezing Powder Pellets (bag of 10)**. As an ***action***, you spread a single bag of these hollow, lightweight husks filled with ground seeds to cover a 5-foot square. The first creature that enters the area must succeed on a Constitution saving throw or take 1 trick die of poison damage and spend its action sneezing violently.
+- **Sneezing Powder Pellets (bag of 10)**. As an ***action***, you spread a single bag of these hollow, lightweight husks filled with ground seeds to cover a 5 ft square. The first creature that enters the area must succeed on a Constitution saving throw or take 1 trick die of poison damage and spend its action sneezing violently.
 
-- **Twitchers (bag of 40)**. As an ***action***, you use a single bag of these tiny metal rods holding trace amounts of lightning energy to cover two 5-foot-square areas. The first creature that enters an area must succeed on a Constitution saving throw or take 1 trick die of lightning damage from the small current running through them. A creature that fails this saving throw has disadvantage on the next attack it makes before the end of its next turn.
+- **Twitchers (bag of 40)**. As an ***action***, you use a single bag of these tiny metal rods holding trace amounts of lightning energy to cover two 5 ft square areas. The first creature that enters an area must succeed on a Constitution saving throw or take 1 trick die of lightning damage from the small current running through them. A creature that fails this saving throw has disadvantage on the next attack it makes before the end of its next turn.
 
 </div>
 
@@ -1507,10 +1423,9 @@ The Moonstalker conclave can only be taken by a Shifter character.
 You gain a number of savagery points equal to your proficiency bonus. When you finish a short rest, you lose unused savagery points, and gain a number of savagery points equal to your proficiency bonus.
 
 When you hit a creature with a natural weapon or light melee weapon, you can expend 1 savagery point to inflict extra damage equal to your Wisdom bonus on the creature and to create one of the following effects:
+
 * The creature must make a Wisdom saving throw against your ranger spell save DC or become frightened of you until your next turn.
-
 * The creature must make a Strength saving throw against your ranger spell save DC or fall prone.
-
 * The next attack roll made against that creature before the end of your next turn is made at advantage.
 
 You cannot spend more than 1 savagery point on the same attack.
@@ -1520,8 +1435,6 @@ You can attack twice, instead of once, whenever you take the Attack action on yo
 
 ### Mystic Savagery
 As a ***bonus action***, you can spend one spell slot and gain a number of savagery points equal to the slot's level.
-
-
 
 ### Unleash the Silent Predator
 You can transform yourself into the powerful creature lurking inside you. Choose a beast whose challenge rating is 4 or lower. You can spend 3 savagery points to cast the *polymorph* spell without any components, targeting yourself and polymorphing into the chosen beast. The casting time is changed to 1 ***bonus action*** for this casting, but the duration is reduced to 1 minute. The spell is not a concentration spell when cast in this way.
@@ -1536,10 +1449,10 @@ You unleash a bloodcurdling howl or roar, announcing that the hunt has begun. As
 Once you use this feature, you cannot do so again until you finish a short rest.
 
 ### Pack Leader
-While within 5 feet of a prone creature, you and your allies add your Wisdom modifier to damage rolls against that creature.
+While adjacent to a prone creature, you and your allies add your Wisdom modifier to damage rolls against that creature.
 
 ### Circle the Prey
-You instinctively sense the perfect opening to stalk around your prey and inflict a finishing blow. As a ***bonus action***, choose one creature you can see within 30 feet. For 1 minute, you gain the following benefits when attacking that creature.
+You instinctively sense the perfect opening to stalk around your prey and inflict a finishing blow. As a ***bonus action***, choose one creature you can see within 30 ft. For 1 minute, you gain the following benefits when attacking that creature.
 
 * If the target dies, you regain hit points equal to your ranger level + your Wisdom modifier.
 
