@@ -75,7 +75,7 @@
           data: tableContent,
           order: [[0, 'desc']],
           ordering: false,
-          lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
+          // lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
           iDisplayLength: -1,
           columnDefs: [
             { targets: [0], visible: true},
@@ -94,8 +94,7 @@
           dom: "<'row'<'col-sm-12'f>>" + "<'row'<'col-sm-12'tr>>"
         });
 
-        {% assign classStart = 2 %}
-        {% assign i = classStart %}
+        {% assign i = 2 %}
         {% for class in page.classes %}
 
         $('#show{{ class }}').on('change', function() {
@@ -158,9 +157,9 @@
 
         <p id="alert" style="font-style:italic;font-size-adjust:-1;"></p>
 
-        <table class="table table-striped table-hover" id="contentTable"></table>
+      <table class="table table-striped table-hover" id="contentTable"></table>
 
-      </div>
+    </div>
 
-  </body>
+</body>
 </html>
