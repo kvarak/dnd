@@ -61,7 +61,14 @@
 
           var weight = (row['Weight']) ? row['Weight'] : '-'
           var description = (row['Description']) ? row['Description'] : '-'
-          tableContent.push([txt, row['Level'], row['Bard']]);
+
+          tableContent.push([
+            txt,
+            row['Level'],
+            {% for class in page.classes %}
+            row['{{ class }}'],
+            {% endfor %}
+            row['Ritual']]);
         });
 
         contentTable = $('#contentTable').DataTable({
@@ -80,15 +87,22 @@
           columns: [
             { title: '<h1>Spells</h1>'},
             { title: 'Level'},
-            { title: 'Bard'}],
+            {% for class in page.classes %}
+            { title: '{{ class }}'},
+            {% endfor %}
+            { title: 'Ritual'}],
           dom: "<'row'<'col-sm-12'f>>" + "<'row'<'col-sm-12'tr>>"
         });
 
-        $('#showBard').on('change', function() {
+        {% assign classStart = 2 %}
+        {% assign i = classStart %}
+        {% for class in page.classes %}
+
+        $('#show{{ class }}').on('change', function() {
           if ($(this).is(':checked')) {
             $.fn.dataTable.ext.search.push(
               function(settings, data, dataIndex) {
-                return data[2] != 'No'
+                return data[{{ i }}] != 'No'
               }
             )
           } else {
@@ -96,6 +110,9 @@
           }
           contentTable.draw()
         });
+
+        {% assign i = i | plus:1 %}
+        {% endfor %}
 
         $('#levelSelection').on('change',function(){
           var selectedValue = $(this).val();
@@ -111,6 +128,7 @@
         });
 
       }
+
     </script>
   </head>
 
@@ -123,20 +141,22 @@
 
         {{ content }}
 
-        <p id="alert" style="font-style:italic;float:right"></p>
-
-        <label for="levelSelection">Filter:</label>
+        <label for="levelSelection">Spell level:</label>
         <select name="levelSelection" id="levelSelection">
-          <option value="reset">Spell level</option>
+          <option value="reset">All</option>
           <option value="0">Cantrip</option>
-          {% for n in range(9) %}
+          {% for n in (1..9) %}
           <option value="{{n}}">Lvl {{n}}</option>
           {% endfor %}
         </select>
 
         <p>
-          <label><input type="checkbox" id="showBard"> Bard</label>
+          {% for class in page.classes %}
+          <label><input type="checkbox" id="show{{ class }}"> {{ class }}</label>
+          {% endfor %}
         </p>
+
+        <p id="alert" style="font-style:italic;font-size-adjust:-1;"></p>
 
         <table class="table table-striped table-hover" id="contentTable"></table>
 
