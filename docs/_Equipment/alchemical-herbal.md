@@ -20,37 +20,37 @@ Creating <a href="#internal-poisons">**poisons**</a> requires a Poisoner’s kit
 
     | Alchemical items | Cost |
     |:-----------------|:----:|
-    | Acid | 10 gp
-    | Air crystals | 5 gp
-    | Air sponge | 50 gp
-    | Alchemical solvent | 10 gp
-    | Alchemical torch | 25 gp
-    | Alchemist’s fire | 10 gp
-    | Alkali salt | 10 gp
-    | Allnight | 5 gp
-    | Dragon's Breath | 20 gp
-    | Cooling gel | 5 gp
-    | Darkflare | 10 gp
-    | Deodorizing agent | 5 gp
-    | Distilled courage | 20 gp
-    | Facemold paste | 25 gp
-    | Firebane | 25 gp
-    | Flash powder | 10 gp
-    | Ghost essence | 100 gp
-    | Ghostbane oil | 30 gp
-    | Glass gargle | 5 gp
-    | Liquid ice | 20 gp
-    | Noxious aromatic | 10 gp
-    | Powdered chalk | 1 cp
-    | Smelling salt | 5 gp
-    | Smoking pellet | 10 gp
-    | Smokestick | 10 gp
-    | Spellpower potion | 30 - 500 gp
-    | Tindertwig | 1 sp
-    | Troll oil | 25 gp
-    | Trollweed | 10 gp
-    | Unguent of revivification | 10 gp
-    | Vapors of sleep | 5 gp
+    | <a href="#acid">Acid</a> | 10 gp
+    | <a href="#air-crystals">Air crystals</a> | 5 gp
+    | <a href="#air-sponge">Air sponge</a> | 50 gp
+    | <a href="#alchemical-solvent">Alchemical solvent</a> | 10 gp
+    | <a href="#alchemical-torch">Alchemical torch</a> | 25 gp
+    | <a href="#alchemists-fire">Alchemist’s fire</a> | 10 gp
+    | <a href="#alkali-salt">Alkali salt</a> | 10 gp
+    | <a href="#allnight">Allnight</a> | 5 gp
+    | <a href="#dragons-breath">Dragon's Breath</a> | 20 gp
+    | <a href="#cooling-gel">Cooling gel</a> | 5 gp
+    | <a href="#darkflare">Darkflare</a> | 10 gp
+    | <a href="#deodorizing-agent">Deodorizing agent</a> | 5 gp
+    | <a href="#distilled-courage">Distilled courage</a> | 20 gp
+    | <a href="#facemold-paste">Facemold paste</a> | 25 gp
+    | <a href="#firebane">Firebane</a> | 25 gp
+    | <a href="#flash-powder">Flash powder</a> | 10 gp
+    | <a href="#ghost-essence">Ghost essence</a> | 100 gp
+    | <a href="#ghostbane-oil">Ghostbane oil</a> | 30 gp
+    | <a href="#glass-gargle">Glass gargle</a> | 5 gp
+    | <a href="#liquid-ice">Liquid ice</a> | 20 gp
+    | <a href="#noxious-aromatic">Noxious aromatic</a> | 10 gp
+    | <a href="#powdered-chalk">Powdered chalk</a> | 1 cp
+    | <a href="#smelling-salt">Smelling salt</a> | 5 gp
+    | <a href="#smoking-pellet">Smoking pellet</a> | 10 gp
+    | <a href="#smokestick">Smokestick</a> | 10 gp
+    | <a href="#spellpower-potion">Spellpower potion | 30</a> - 500 gp
+    | <a href="#tindertwig">Tindertwig</a> | 1 sp
+    | <a href="#troll-oil">Troll oil</a> | 25 gp
+    | <a href="#trollweed">Trollweed</a> | 10 gp
+    | <a href="#unguent-of-revivification">Unguent of revivification</a> | 10 gp
+    | <a href="#vapors-of-sleep">Vapors of sleep</a> | 5 gp
 
     </div>
 
