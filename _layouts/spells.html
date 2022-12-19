@@ -129,8 +129,8 @@
         <select name="levelSelection" id="levelSelection">
           <option value="reset">Spell level</option>
           <option value="0">Cantrip</option>
-          {% for i in range(1,9) %}
-          <option value="{{i}}">Lvl {{i}}</option>
+          {% for n in range(9) %}
+          <option value="{{n}}">Lvl {{n}}</option>
           {% endfor %}
         </select>
 
