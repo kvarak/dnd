@@ -165,11 +165,11 @@ You start with the following equipment, in addition to the equipment granted by 
 |4th| +2| Expertise | 3 |7 |4 |3 |— |— |—|— |— |— |—|
 |5th| +3| Bardic Inspiration (d8),<br/>Font of Inspiration | 3| 8| 4| 3| 2| —| —|— |— |—| —|
 |6th| +3| Bard College feature,<br/>Bardic Song | 3| 9| 4| 3| 3| —| —|— |— |— |—|
-|7th| +3| - | 3 |10| 4| 3| 3| 1| —|— |— |— |—|
+|7th| +3| ─ | 3 |10| 4| 3| 3| 1| —|— |— |— |—|
 |8th| +3| Expertise | 3 |11| 4| 3| 3| 2| —|— |— |— |—|
 |9th| +4| Bardic Song | 3 |12| 4| 3|3|3| 1| —| —| —| —|
 |10th| +4| Bardic Inspiration (d10),<br/>Magical Secrets |4|14|4|3|3|3|2|—|—|—|—|
-|11th| +4| - | 4 |15| 4| 3| 3| 3| 2| 1| —| —| —|
+|11th| +4| ─ | 4 |15| 4| 3| 3| 3| 2| 1| —| —| —|
 |12th| +4| Expertise | 4 |15| 4| 3|3|3|2| 1| —| —| —|
 |13th| +5| Bardic Song | 4| 16| 4| 3| 3| 3| 2| 1| 1| —| —|
 |14th| +5| Bard College feature | 4 |18| 4| 3| 3| 3| 2| 1| 1| —| —|
@@ -177,7 +177,7 @@ You start with the following equipment, in addition to the equipment granted by 
 |16th| +5| Bardic Inspiration (d12) | 4 |19| 4|3|3| 3| 2| 1| 1| 1| —|
 |17th| +6| Bardic Song | 4 |20| 4| 3| 3| 3|2|1| 1| 1| 1|
 |18th| +6| Magical Secrets | 4 |22| 4| 3| 3| 3| 3| 1| 1|1|1|
-|19th| +6| - | 4 |22| 4| 3|3|3|3| 2| 1| 1| 1|
+|19th| +6| ─ | 4 |22| 4| 3|3|3|3| 2| 1| 1| 1|
 |20th| +6| Superior Inspiration | 4 |22| 4| 3| 3| 3| 3| 2| 2| 1|1|
 
 </div>

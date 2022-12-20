@@ -1463,9 +1463,3 @@ You instinctively sense the perfect opening to stalk around your prey and inflic
 * Whenever you hit the target with an attack roll, you gain advantage on your next attack roll against the creature before the end of your next turn.
 
 Once you use this feature, you cannot do so again until you finish a short rest.
-
-
-
-
-
-
