@@ -53,11 +53,6 @@ Because the idea of an innately magical being traveling among them does not sit 
 
 Sorcerers are often defined by the events surrounding the manifestation of their power. For those who receive it as an expected birthright, its appearance is a cause for celebration. Other sorcerers are treated as outcasts, banished from their homes after the sudden, terrifying arrival of their abilities.
 
-
-
-
-
-
 ### Creating a Sorcerer
 There are some important questions to consider when creating your sorcerer. They might have been answered during your background generation. If not, make something up, or roll on the Sorcerer background tables available from the DM.
 
@@ -65,13 +60,6 @@ There are some important questions to consider when creating your sorcerer. They
 The most important question to consider when creating your sorcerer is the origin of your power. Some sorcerers understand where their power came from, based on how their abilities manifested. Others can only speculate, since their powers came to them in a way that suggests no particular cause.
 
 Does your character know the source of your magical power? Does it tie back to some distant relative, a cosmic event, or blind chance? If your sorcerer doesn’t know where their power arose from, your DM can select an origin and reveal it to you when the information plays a role in the campaign.
-
-
-
-
-
-
-
 
 #### Reaction
 When a new sorcerer enters the world, either at birth or later when one’s power becomes evident, the consequences of that event depend greatly on how its witnesses react to what they have seen.
@@ -85,8 +73,6 @@ When you casts a spell, does the effort reveal itself in a sign of sorcery? Is t
 
 #### Manifestation
 How did your sorcerous powers first manifest? Was there signs already at birth, or did they not appear until later? Maybe when you reached puberty, or during a stressful situation.
-
-
 
 ## Sorcerer Class Features
 
@@ -123,10 +109,24 @@ As a sorcerer, you gain the following class features.
 #### Hit Points
 **Hit Dice:** 1d6
 
+#### Saving Throws
+You are proficient with ***Dexterity*** and ***Charisma*** saving throws.
+
+#### Skills
+**Class Skills:** All Craft skills, all Knowledge skills and Survival
+
+**Skill Points:** You gain 2 skill points at 1st level.
+
+#### Skills - Combat
+**Weapon Groups:** You have rank 1 with Club, Knife, Spear, Staff, Crossbow and Sling.
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
+
+
 #### Proficiencies
 **Weapons:** Daggers, darts, slings, quarterstaffs, light crossbows
 
-**Saving Throws:** Dexterity, Charisma
+**Saving Throws:** , 
 
 **Skills:** Check your background for skills.
 

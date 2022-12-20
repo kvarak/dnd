@@ -86,6 +86,10 @@ You are proficient with ***Dexterity*** and ***Intelligence*** saving throws.
 <!-- -------------------- Class Specific Skills ---------------------  -->
 
 <details>
+<summary>Class specific skills</summary>
+The following skills are exclusive to rogues.
+
+<details>
 <summary>Evasive Flow
 
 *Prerequisite: Acrobatics - Tumbling and Thrown weapon*
@@ -102,7 +106,7 @@ When a creature uses an ability that triggers your Evasion, you can use your *re
 If you succeed with a Roll with the Blow II check, you can as a part of the same reaction make an immediate ranged attack with advantage against the enemy that attacked you and triggered the reaction.
 </details>
 </details>
-
+</details>
 
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with Club, Fencing sword, Knife, Sword, Whip, Crossbow, Sling and Thrown Weapon. Additionally you have rank 1 with Axe, Spear and Bow.
