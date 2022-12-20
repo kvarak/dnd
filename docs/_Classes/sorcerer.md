@@ -84,22 +84,22 @@ How did your sorcerous powers first manifest? Was there signs already at birth, 
 |1st|+2|—| Spellcasting,<br/>Sorcerous Origin |4|2|2|—|—|—|—|—|—|—|—|
 |2nd|+2|2| Font of Magic |4|3|3|—|—|—|—|—|—|—|—|
 |3rd|+2|3| Metamagic |4|4|4|2|—|—|—|—|—|—|—|
-|4th|+2|4| Ability Score Improvement |5|5|4|3|—|—|—|—|—|—|—|
+|4th|+2|4| — |5|5|4|3|—|—|—|—|—|—|—|
 |5th|+3|5| — |5|6|4|3|2|—|—|—|—|—|—|
 |6th|+3|6| Sorcerous Origin feature |5|7|4|3|3|—|—|—|—|—|—|
 |7th|+3|7| — |5|8|4|3|3|1|—|—|—|—|—|
-|8th|+3|8| Ability Score Improvement |5|9|4|3|3|2|—|—|—|—|—|
+|8th|+3|8| — |5|9|4|3|3|2|—|—|—|—|—|
 |9th|+4|9| — |5|10|4|3|3|3|1|—|—|—|—|
 |10th|+4|10| Metamagic |6|11|4|3|3|3|2|—|—|—|—|
 |11th|+4|11| — |6|12|4|3|3|3|2|1|—|—|—|
-|12th|+4|12| Ability Score Improvement |6|12|4|3|3|3|2|1|—|—|—|
+|12th|+4|12| — |6|12|4|3|3|3|2|1|—|—|—|
 |13th|+5|13| — |6|13|4|3|3|3|2|1|1|—|—|
 |14th|+5|14| Sorcerous Origin feature |6|13|4|3|3|3|2|1|1|—| —|
 |15th|+5|15| — |6|14|4|3|3|3|2|1|1|1|—|
-|16th|+5|16| Ability Score Improvement |6|14|4|3|3|3|2|1|1|1|—|
+|16th|+5|16| — |6|14|4|3|3|3|2|1|1|1|—|
 |17th|+6|17| Metamagic |6|15|4|3|3|3|2|1|1|1|1|
 |18th|+6|18| Sorcerous Origin feature |6|15|4|3|3|3|3|1|1|1|1|
-|19th|+6|19| Ability Score Improvement |6|15|4|3|3|3|3|2|1|1|1|
+|19th|+6|19| — |6|15|4|3|3|3|3|2|1|1|1|
 |20th|+6|20| Sorcerous Restoration |6|15|4|3|3|3|3|2|2|1|1|
 
 </div>
@@ -113,7 +113,7 @@ As a sorcerer, you gain the following class features.
 You are proficient with ***Dexterity*** and ***Charisma*** saving throws.
 
 #### Skills
-**Class Skills:** All Craft skills, all Knowledge skills and Survival
+**Class Skills:** Arcana and one additional skill of your choice
 
 **Skill Points:** You gain 2 skill points at 1st level.
 
@@ -122,14 +122,6 @@ You are proficient with ***Dexterity*** and ***Charisma*** saving throws.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
 
-
-#### Proficiencies
-**Weapons:** Daggers, darts, slings, quarterstaffs, light crossbows
-
-**Saving Throws:** , 
-
-**Skills:** Check your background for skills.
-
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
 
@@ -137,12 +129,6 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* a component pouch or *(b)* an arcane focus
 - *(a)* a dungeoneer’s pack or *(b)* an entertainer's pack
 -  Two daggers
-
-
-
-
-
-
 
 ### Spellcasting
 An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells.
@@ -176,7 +162,6 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 
-
 #### Spells Known
 You know two 1st-level spells of your choice from your spell list. The Spells Known column of the Sorcerer table shows when you learn more spells of your choice. Each of these spells must be of a level for which you have spell slots.
 
@@ -193,8 +178,6 @@ You can use an arcane focus as a spellcasting focus for your sorcerer spells.
 
 ### Sorcerous Origin
 Choose a sorcerous origin, which describes the source of your innate magical power, detailed at the end of the class description. Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.
-
-
 
 ### Font of Magic
 At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.
@@ -238,16 +221,13 @@ The hobgoblin ran. He did not get far.
 ### Metamagic
 At 3rd level, you gain the ability to twist your spells to suit your needs. You gain three of the <a href="#internal-metaMagic">Metamagic options</a> of your choice and gain three additional options at both 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
 
+<!-- 
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
-
-
+-->
 
 ### Sorcerous Restoration
 At 20th level, you regain an expended sorcery points whenever you finish a short rest.
-
-
-
 
 <h2><a class="internal-link" name="internal-SorcerousOrigins">Sorcerous Origins</a></h2>
 
@@ -326,25 +306,23 @@ Somewhere in your bloodline, your ancestors were tainted by an aberration. Wheth
 This taint in your blood is alien and bizarre. You tend to think in odd ways, approaching problems from an angle that most would not expect. Over time, this taint manifests itself in your physical form, like claws, webbed feet, an extra eye, or slimy skin.
 
 ### Dark Whisperer
-Many creatures of your heritage seldom communicate orally, relying on greater mental powers to touch the minds of similar or lesser beings. From 1st level, you can communicate telepathically with a creature you can see within 30 feet. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. Additionally, you learn the *vicious mockery* cantrip.
+Many creatures of your heritage seldom communicate orally, relying on greater mental powers to touch the minds of similar or lesser beings. You can communicate telepathically with a creature you can see within 30 ft. You don’t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. Additionally, you learn the *vicious mockery* cantrip.
 
 ### Tainted Blood
-The magic in your veins makes you resilient to toxins and alien substances. From 1st level, you gain resistance to poison damage and have advantage on saving throws against the poisoned condition.
+The magic in your veins makes you resilient to toxins and alien substances. Gain resistance to poison damage and have advantage on saving throws against the poisoned condition.
 
 In addition, you are proficient with intimidating humanoids and beasts.
 
 ### Mindfire
-Starting at 6th level, you add *detect thoughts*, *dissonant whispers*, and *suggestion* as spells known if you do not already know them.
+Add *detect thoughts*, *dissonant whispers*, and *suggestion* as spells known if you do not already know them.
 
-Additionally, you learn to channel your sorcerous energies to emit a potent psychic energy in a 30-foot cone. As an ***action*** you can spend a number of sorcery points up to half your Sorcerer level. Each creature in the area must succeed an Intelligence saving throw with DC equal to your spell save DC. On a failed save, the creature takes psychic damage equal to 1d4 per sorcery point spent plus your Charisma modifier and are stunned for 1 round. On a successful save, the creature takes half damage and is not stunned.
-
-
+Additionally, you learn to channel your sorcerous energies to emit a potent psychic energy in a 30 ft cone. As an ***action*** you can spend a number of sorcery points up to half your Sorcerer level. Each creature in the area must succeed an Intelligence saving throw with DC equal to your spell save DC. On a failed save, the creature takes psychic damage equal to 1d4 per sorcery point spent plus your Charisma modifier and are stunned for 1 round. On a successful save, the creature takes half damage and is not stunned.
 
 ### Aberrant Form
-Starting 14th level, you learn to embrace your tainted heritage and can channel your magic to embody a powerful aberration. As an ***action***, you can spend 6 sorcery points to transform yourself as if you had cast the *polymorph* spell. You follow the normal rules of the spells except you can only transform into aberrations and do not gain the benefits of the shapechanger subtype or feature. Whenever you revert back to your true form (whether intentional or not), you must make a Wisdom saving throw against your spell save DC. On a failure, you are dealt 4d8 psychic damage and afflicted with a short-term madness (DMG, pg. 259). This psychic damage cannot be prevented from immunities or resistances.
+You learn to embrace your tainted heritage and can channel your magic to embody a powerful aberration. As an ***action***, you can spend 6 sorcery points to transform yourself as if you had cast the *polymorph* spell. You follow the normal rules of the spells except you can only transform into aberrations and do not gain the benefits of the shapechanger subtype or feature. Whenever you revert back to your true form (whether intentional or not), you must make a Wisdom saving throw against your spell save DC. On a failure, you are dealt 4d8 psychic damage and afflicted with a short-term madness (DMG, pg. 259). This psychic damage cannot be prevented from immunities or resistances.
 
 ### Xenomorphic Apotheosis
-At 18th level, your physical form has become twisted by the taint of your ancestors, allowing your psionic capabilities to reach their full potential. You gain resistance to psychic damage.
+Your physical form has become twisted by the taint of your ancestors, allowing your psionic capabilities to reach their full potential. You gain resistance to psychic damage.
 
 Whenever you make a Strength, Dexterity, or Constitution saving throw, as a ***reaction*** by expending 2 sorcery points, you can treat it as a Charisma saving throw instead.
 
@@ -368,7 +346,6 @@ Additionally, whenever you cast a spell at 1st-level or higher that deals psychi
 | 14th | Heightened Webbing |
 | 18th | Den of the Widow |
 
-
 </div>
 
 To many, even the sight of spiders can instill fear into the hearts of others. However, you have learned to not only to instill this fear, but also to use the power of spiders as well. You are a sorcerer who has mastered the might and abilities of spiders, manipulating other creatures and web alike.
@@ -386,31 +363,29 @@ Perhaps you were bitten by a magical spider, or your birth was affected by magic
 | 6 | You care very deeply for young children, and often try to help in protecting them.
 
 ### Spider Movement
-At 1st level, your familiarity with spiders has allowed you to communicate with them. You ignore movement restrictions caused by webbing. You also are able to speak to spiders as if under the *speak with animals* spell.
+Your familiarity with spiders allows you to communicate with them as if under the *speak with animals* spell. Additionally you ignore movement restrictions caused by webbing.
 
 ### Vicious Constitution
-Beginning at 1st level, you have become accustomed to the venom within a spider’s fangs, and can even use it yourself. You have advantage on Constitution saving throws against poison. You also learn the *poison spray* or *venom strike* cantrip.
+You have become accustomed to the venom within a spider’s fangs and can even use it yourself. You have advantage on Constitution saving throws against poison. You also learn the *poison spray* or *venom strike* cantrip.
 
-Additionally, your gender lends you additional benefits. If you are a female, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. If you are a male, your movement speed increases by 5 feet. If your character has no gender, then you may choose between these two.
-
-
+Additionally, your gender lends you additional benefits. If you are a female, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. If you are a male, your movement speed increases by 5 ft. If your character has no gender, then you may choose between these two.
 
 ### Web Familiarity
-By 6th level, you have become adept at moving like a spider. You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+You have become adept at moving like a spider. You gain a climbing speed equal to your walking speed and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
 Additionally, you are now able to call upon your spider allies to aid you. As an ***action***, you can spend 2 sorcery points to cast *conjure animals*, though you are only able to summon giant wolf spiders, swarm of spiders, or giant spiders.
 
 ### Heightened Webbing
-At 14th level, you have heightened your webbing skills. While in contact with a web, you know the exact location of any other creature in contact with the same web, and your movement speed is doubled when moving on webs.
+You have heightened your webbing skills. While in contact with a web, you know the exact location of any other creature in contact with the same web and your movement speed is doubled when moving on webs.
 
-Additionally, as a ***reaction*** to falling, you can shoot a strand of webbing towards a wall or ceiling to stop you from falling. This webbing has a maximum range of 100 feet, and can withstand up to 200 lbs of weight before the web breaks. You can climb up this web with a climbing speed equal to your movement speed.
+Additionally, as a ***reaction*** to falling, you can shoot a strand of webbing towards a wall or ceiling to stop you from falling. This webbing has a maximum range of 100 ft and can withstand up to 200 lbs of weight before it breaks.
 
 ### Den of the Widow
-By 18th level, your spider-like constitution has granted you immunity to the poisoned condition. You also gain the ability to transform any area into your domain. As an ***action***, you can spend 6 sorcery points to devour a small spider, then spew forth from your throat large amounts of webbing, which works as if you cast the spell web. However, the spell has the following changes:
-* The spell’s range covers that of a 90 foot cube.
+Your spider-like constitution has granted you immunity to the poisoned condition. You also gain the ability to transform any area into your domain. As an ***action***, you can spend 6 sorcery points to devour a small spider, then spew forth from your throat large amounts of webbing, which works as if you cast the spell *web* with the following changes:
+* The spell’s range covers that of a 90 ft cube.
 * The webbing has resistance to fire damage.
 * The spell does not require concentration.
-* While moving on this webbing, you and any spiders you summon have their movement speed increased by 10 feet.
+* While moving on this webbing, you and any spiders you summon have their movement speed increased by 10 ft.
 * The webbing lasts for 1 minute, at which point the webbing wilts away.
 
 
@@ -454,35 +429,28 @@ Somewhere in your bloodline, one of your ancestors made a pact with a powerful s
 While the Wolf may have no hold over you, it may be interested in your affairs nevertheless, and your very existence could draw the ire of the Wolf’s eternal foe: the frost-bound Wild Huntsman. With smoke and cinders pouring from your hands with each spell you cast and a layer of ash gradually creeping over your body, you are the incarnation of a smoldering ember thrown upon a dry forest. Let your power burn forth like wildfire
 
 ### Born of Ember
-At 1st level, a thin layer of ash and charred wood begins to coat your skin as you fight, engulfing you, yet allowing you to blaze back to life with a vengeance. Whenever you are below your hit point maximum, charred claws and fangs erupt from your hands and mouth. While you have these claws, you can use your ***bonus action*** to make a melee spell attack that deals fire damage equal to 1d8 + your Charisma modifier. At 11th level, the damage increases to 2d8 + your Charisma modifier.
+A thin layer of ash and charred wood begins to coat your skin as you fight, engulfing you, yet allowing you to blaze back to life with a vengeance. Whenever you are below your hit point maximum, charred claws and fangs erupt from your hands and mouth. While you have these claws, you can use your ***bonus action*** to make a melee spell attack that deals fire damage equal to 1d8 + your Charisma modifier. At 11th level, the damage increases to 2d8 + your Charisma modifier.
 
 The first time after a long rest when you are below half your hit point maximum, the ash that coats your body infuses your soul, granting you gain resistance to fire damage. This lasts until you finish a long rest.
 
 Additionally, you learn the *produce flame* cantrip.
 
 ### Burning Fury
-Starting at 6th level, the fire within you begins to call directly to the Ashen Wolf, and it grants you strength, either in honor of your ancestor or in a twisted form of revenge. When you reduce a creature to 0 hit points with an attack granted by your Born of Ember class feature, the burning fury empowering your attack surges through the creature, turning its vital organs to ash and granting you temporary hit points equal to your Sorcerer level.
+The fire within you begins to call directly to the Ashen Wolf and it grants you strength, either in honor of your ancestor or in a twisted form of revenge. When you reduce a creature to 0 hit points with an attack granted by your Born of Ember class feature, the burning fury empowering your attack surges through the creature, turning its vital organs to ash and granting you temporary hit points equal to your Sorcerer level.
 
 Additionally, you can spend 1 sorcery point during your turn when you are below half your hit point maximum to cause the ash upon your skin to harden. For i minute, your AC is 17. This has no effect if your AC is equal to or greater than 17.
 
-
-
 ### Cinderwraith
-At 14th level, your spark has grown to a flame, burning black with dark power. Any time you would inflict fire damage, you can choose to inflict necrotic damage instead, and vice versa.
+Your spark has grown to a flame, burning black with dark power. Any time you would inflict fire damage, you can choose to inflict necrotic damage instead, and vice versa.
 
 Additionally, your ashen form allows you to move with unnatural ease, disintegrating and reforming with each step you take. You ignore difficult terrain, and you can move through any space at least 6 inches wide without squeezing.
 
 ### The Wolf’s Bargain
-At 18th level, your strength has grown to surpass that of your ancestor, and your power over the ancient and primal magics of flame and ash is without peer. As an action, you can spend 5 sorcery points to launch yourself skyward in a pillar of fire and smoke before crashing down at a location that you can see within 60 feet of your point of origin, unleashing a hellish blast of fire and cursed power at creatures within 10 feet of you. The targets must make a Wisdom saving throw against your sorcerer spell save DC. They take 6d10 fire damage on a failed save, or half as much damage on a successful one.
+Your strength has grown to surpass that of your ancestor, and your power over the ancient and primal magics of flame and ash is without peer. As an action, you can spend 5 sorcery points to launch yourself skyward in a pillar of fire and smoke before crashing down at a location that you can see within 60 feet of your point of origin, unleashing a hellish blast of fire and cursed power at creatures within 10 ft. The targets must make a Wisdom saving throw against your sorcerer spell save DC. They take 6d10 fire damage on a failed save, or half as much damage on a successful one.
 
 If any targets are slain by this attack, they are consumed instantly by flame, and the ashes coalesce into a hellhound. Hell hounds summoned by this feature are elementals instead of fiends. The hellhound obeys your orders without question and acts during your turn. You can’t have more than two hellhounds at a time from this feature. Creation of a third hellhound destroys the oldest one still alive. Each hellhound remains in your service until slain or until the third dawn after it was summoned, at which point it disintegrates into Ash.
 
 Once you use this feature, you can’t do so again until you finish a long rest.
-
-
-
-
-
 
 
 
@@ -517,30 +485,46 @@ You are a sorcerer who wields the power of cold, decay, and bountiful harvests, 
 | 5 | When you are near trees, they will shed a few of their leaves, as if in autumn.
 | 6 | You are always ready to plan or attend a festival.
 
+
 ### One With the Fall
-By 1st level, you are attuned to nature. You gain proficiency with the Nature skill, and you learn the *druidcraft* cantrip.
+You are attuned to nature. Add *Nature* to your class skills and gain 1 skill point to spend on this skill. Additionally you learn the *druidcraft* cantrip.
 
 ### Knowledge of Harvests
-Starting at 1st level, your experience with harvests and preparing feasts has granted you additional benefits. You gain proficiency with sickles and scythes, and can use one as an arcane focus.
+Your experience with harvests and preparing feasts has granted you additional benefits. You rank 2 in the *Sickle and scythe* weapon group described below.
 
-In addition, once per day, you may spend an hour scouring the land for edible crops, such as fruits and vegetables. By doing so, you are able to produce a small amount of food that works as if you had cast the spell *goodberry*.
+In addition, once per day you may spend an hour scouring the land for edible crops such as fruits and vegetables. By doing so, you are able to produce a small amount of food that works as if you had cast the spell *goodberry*.
 
+<!-- -------------------- Bloodline Specific Combat Skills ---------------------  -->
+
+<details><summary>Sickle and scythe</summary>
+
+*Melee*
+The group includes only the sickle and scythe (a simple two-handed weapon). You can use these weapons as arcane focus for your sorcerer spells.
+
+##### Rank 3
+- ***Arcing slash***. When attacking with a ***Scythe***, you may choose to target two creatures with a single attack. The targets must be within 5 ft of each other and within your reach. This attack uses the same attack roll for both targets, but using only half your proficiency bonus. On a hit you deal slashing damage equal to 1d6 plus your Strength modifier to each target.
+- ***Defensive Fighter***. You gain +1 bonus to AC while wielding a ***Sickle*** in one hand and nothing in your other hand.
+
+##### Rank 4
+- ***Intimidating Slash***. On your turn, when you score a critical hit or reduce a creature to 0 hit points, you can use a ***reaction*** to make a Strength (Intimidation) check, contested by the Wisdom of creatures that can see and hear you within 30 ft. If you succeed, the creatures are frightened of you until the end of your next turn.
+- ***Precise***. Attacks with these weapons score a critical hit on a roll of 19-20.
+</details>
 
 
 ### Guardians of the Fields
-By 6th level, you have become accustomed to the cooler climates of autumn, and the natural states of decay that autumn brings. You gain resistance to cold and necrotic damage.
+You have become accustomed to the cooler climates of autumn and the natural states of decay that autumn brings. You gain resistance to cold and necrotic damage.
 
-Additionally, you can call upon the guardians of harvests to come to your aid. As an ***action***, you toss into the air a handful of straw or hay, spending 3 sorcery points to summon a number of scarecrows (Monster Manual, pg. 268) equal to your proficiency bonus. The maximum number of scarecrows you may have at any given time is equal to your proficiency bonus.
+Additionally you can call upon the guardians of harvests to come to your aid. As an ***action*** you toss into the air a handful of straw or hay, spending 3 sorcery points to summon a number of scarecrows (Monster Manual, pg. 268) equal to your proficiency bonus. The maximum number of scarecrows you may have at any given time is equal to your proficiency bonus.
 
 These scarecrows obey your commands, and act on your initiative order. These scarecrows exist until they are reduced to 0 hit points or are dispelled as a ***bonus action***.
 
 ### Cloak of Fallen Leaves
-By 14th level, the plants of the land have become your ally. You can cast *speak with plants* at will.
+The plants of the land have become your ally. You can cast *speak with plants* at will.
 
 Additionally, as a ***bonus action***, you may summon a cloak of fallen leaves to wrap around you. While wearing this cloak, once on each of your turns, you can use 10 feet of your movement to step into one living tree and emerge from a second living tree within 60 feet. Both trees must be Large or bigger.
 
 ### Wrathful Storm of Autumn
-At 18th level, you may create a mighty storm of autumn, filled with chilling air, dense fog, and fallen leaves. As an ***action***, you can spend 5 sorcery points to create a powerful force of whirling, cold wind centered in a 20 foot radius centered on you, and reaching about 15 feet in height. This storm lasts for 1 minute, or until you lose concentration.
+You may create a mighty storm of autumn, filled with chilling air, dense fog, and fallen leaves. As an ***action***, you can spend 5 sorcery points to create a powerful force of whirling, cold wind centered in a 20 foot radius centered on you, and reaching about 15 feet in height. This storm lasts for 1 minute, or until you lose concentration.
 
 While active, this storm has the following effects on creatures other than you:
 * When the storm is first summoned, creatures within it must make a Strength saving throw against your spell save DC or be pushed 20 feet out of the storm.
@@ -586,31 +570,29 @@ The following additions are made to the general rest rules.
 Your innate magic stems from the corrupting power of a Gulthias tree. Most with this origin can trace their magic back to a near-death experience caused by a blighted creature, or through extended exposure to blighted land and plant life. Attempting to consume blighted plants over a period of a few weeks or months can often lead to this magic becoming imbued into a creature’s system, assuming it doesn’t kill them first. Whatever the cause, blight magic allows you to animate blighted creatures to do your bidding, as if you were a living Gulthias tree.
 
 ### Blighted Construct
-Starting when you choose this origin at 1st level, you gain the ability to animate a plant to do your bidding. As an ***action***, you can touch a pile of twigs and infuse it with blighted magic, awakening it as a twig blight. This blight cannot attack, but it can take other actions as normal.
+Gain the ability to animate a plant to do your bidding. As an ***action***, you can touch a pile of twigs and infuse it with blighted magic, awakening it as a twig blight. This blight cannot attack, but it can take other actions as normal.
 
-While the blight is within 150 feet of you, you can mentally command it to move (no action required). Additionally, as an ***action***, you can see and hear through the blight until the start of your next turn. During this time, you are deaf and blind with regard to your own senses.
+While the blight is within 150 ft, you can mentally command it to move (no action required). Additionally, as an ***action***, you can see and hear through the blight until the start of your next turn. During this time, you are deaf and blind with regard to your own senses.
 
 You may only have one twig blight animated with this feature at a time.
 
 ### Rotting Touch
-Also from 1st level, your touch can rot objects and plants. As an ***action***, you can touch a Small or smaller plant or object made from plant material. The target slowly rots over the next minute as if a year had passed. This feature can only be used once on any one plant or object.
-
-
+Tour touch can rot objects and plants. As an ***action***, you can touch a Small or smaller plant or object made from plant material. The target slowly rots over the next minute as if a year had passed. This feature can only be used once on any one plant or object.
 
 ### Awakening
-At 6th level, you gain the ability to awaken plants into needle blights. With a 1 minute long ritual, you can touch an area of plant life and expend 3 sorcery points to imbue it with foul magic, awakening it as a needle blight. Blights that you create have their hit point maximum increased by an amount equal to your sorcerer level, and they add your proficiency modifier to their attack and damage rolls.
+Gain the ability to awaken plants into needle blights. With a 1 minute long ritual, you can touch an area of plant life and expend 3 sorcery points to imbue it with foul magic, awakening it as a needle blight. Blights that you create have their hit point maximum increased by an amount equal to your sorcerer level, and they add your proficiency modifier to their attack and damage rolls.
 
-On each of your turns, you can use a ***bonus action*** to mentally command any creature you made with this feature if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.
+On each of your turns, you can use a ***bonus action*** to mentally command any creature you made with this feature if the creature is within 60 ft (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.
 
 Once you complete a long rest, the creatures created using this feature fall apart, returning to their original form.
 
 ### Blighted Command
-Beginning at 14th level, you can create vine blights in much the same way you create needle blights. Following the same rules as outlined in the awakening feature, you can awaken a vine blight by expending 4 sorcery points.
+You can create vine blights in much the same way you create needle blights. Following the same rules as outlined in the awakening feature, you can awaken a vine blight by expending 4 sorcery points.
 
-Vine blights can be commanded in the same way as needle blights, except you can command them from up to 500 feet away. You can choose to have any needle blights within 60 feet of a vine blight receive the same command.
+Vine blights can be commanded in the same way as needle blights, except you can command them from up to 500 ft away. You can choose to have any needle blights within 60 ft of a vine blight receive the same command.
 
 ### Unrelenting Army
-Beginning at 18th level, you can imbue life into back into your blights after they have fallen. As an ***action***, you can touch a blight that was reduced to 0 hit points within the last minute and spend 1 sorcery point to revive it with half of its hit point maximum in current hit points.
+You can imbue life into back into your blights after they have fallen. As an ***action***, you can touch a blight that was reduced to 0 hit points within the last minute and spend 1 sorcery point to revive it with half of its hit point maximum in current hit points.
 
 
 
@@ -669,10 +651,10 @@ To many, sands of the earth or deserts are viewed as a nuisance; it is coarse, r
 | 6 | You always carry some container filled with sand or dirt.
 
 ### One of the Desert
-Beginning at 1st level, you have become accustomed to the extreme conditions and landscapes of the deserts. You are proficient with surviving in the wild. You're also naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide, and you ignore difficult terrain caused by deserts or pits of sand.
+You are accustomed to the extreme conditions and landscapes of the deserts. Gain the *Survival - Desert survival* skill and its prerequisites. You're also naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide, and you ignore difficult terrain caused by deserts or pits of sand.
 
 ### Magic of the Dunes
-At 1st level, your familiarity with the desert sands has allowed you to learn when to alter it, and when to know if the heat is playing tricks with your mind. You learn the *air mastery* cantrip, and you have advantage on checks made to identify illusions.
+Your familiarity with the desert sands has allowed you to learn when to alter it and when to know if the heat is playing tricks with your mind. You learn the *air mastery* cantrip and have advantage on checks made to identify illusions.
 
 ### Shield of the Sands
 By 6th level, you have acclimated to the heats of the desert, as well as the venomous animals and poisonous plants that reside within it. You gain resistance to fire and poison damage.
