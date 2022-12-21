@@ -399,7 +399,7 @@ You have become adept at detecting ambushes and quickly escaping danger. By spen
 <h1><a class="internal-link" name="internal-daredevil">Daredevil</a></h1>
 <div class="featuresTable">
 
-##### Daredevil features
+#### Daredevil features
 | Swashbuckler level | Feature |
 |:------------------:|:--------|
 | 1st  | Never trapped |
