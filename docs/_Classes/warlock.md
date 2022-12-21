@@ -113,22 +113,22 @@ But after months of sacrifice and careful study - of people telling him he was m
 | 1st  | +2 | Otherworldly Patron,<br/>Pact Boon, Pact Magic | 2 | 2 | 1 | 1st | — |
 | 2nd  | +2 | Eldritch Invocations,<br/>Sacrificial Bargain  | 2 | 3 | 2 | 1st | 2 |
 | 3rd  | +2 | Pact Boon feature                          | 2 | 4 | 2 | 2nd | 2 |
-| 4th  | +2 | Ability Score Improvement                  | 3 | 5 | 2 | 2nd | 2 |
+| 4th  | +2 | —                                          | 3 | 5 | 2 | 2nd | 2 |
 | 5th  | +3 | Pact Boon feature                          | 3 | 6 | 2 | 3rd | 3 |
 | 6th  | +3 | Otherworldly Patron feature                | 3 | 7 | 3 | 3rd | 3 |
 | 7th  | +3 | Pact Boon feature                          | 3 | 8 | 3 | 4th | 4 |
-| 8th  | +3 | Ability Score Improvement                  | 3 | 9 | 3 | 4th | 4 |
+| 8th  | +3 | —                                          | 3 | 9 | 3 | 4th | 4 |
 | 9th  | +4 | Pact Boon feature                          | 3 | 10 | 3 | 5th | 5 |
 | 10th | +4 | Otherworldly Patron feature                | 4 | 10 | 4 | 5th | 5 |
 | 11th | +4 | Mystic Arcanum (6th level)                 | 4 | 11 | 4 | 5th | 5 |
-| 12th | +4 | Ability Score Improvement                  | 4 | 11 | 4 | 5th | 6 |
+| 12th | +4 | —                                          | 4 | 11 | 4 | 5th | 6 |
 | 13th | +5 | Mystic Arcanum (7th level)                 | 4 | 12 | 4 | 5th | 6 |
 | 14th | +5 | Otherworldly Patron feature                | 4 | 12 | 5 | 5th | 6 |
 | 15th | +5 | Mystic Arcanum (8th level)                 | 4 | 13 | 5 | 5th | 7 |
-| 16th | +5 | Ability Score Improvement                  | 4 | 13 | 5 | 5th | 7 |
+| 16th | +5 | —                                          | 4 | 13 | 5 | 5th | 7 |
 | 17th | +6 | Mystic Arcanum (9th level)                 | 4 | 14 | 5 | 5th | 7 |
 | 18th | +6 | —                                          | 4 | 14 | 6 | 5th | 8 |
-| 19th | +6 | Ability Score Improvement                  | 4 | 15 | 6 | 5th | 8 |
+| 19th | +6 | —                                          | 4 | 15 | 6 | 5th | 8 |
 | 20th | +6 | Eldritch Master                            | 4 | 15 | 6 | 5th | 8 |
 
 </div>
@@ -138,14 +138,22 @@ Seekers of ancient—and often forbidden—knowledge, warlocks make a pact with 
 #### Hit Points
 **Hit Dice:** 1d8
 
-#### Proficiencies
-**Armor:** Light armor
+#### Saving Throws
+You are proficient with ***Intelligence*** and ***Wisdom*** saving throws.
 
-**Weapons:** All simple weapons
+#### Skills
+**Class Skills:** All Knowledge skills, Investigation and Underworld
+ 
+**Skill Points:** You gain 2 skill points at 1st level.
 
-**Saving Throws:** Intelligence, Wisdom
+#### Skills - Combat
+**Weapon Groups:** You have rank 1 with Club, Knife, Spear, Staff, Crossbow and Sling.
 
-**Skills:** You have proficiency with investigating written information and with one additional skill from Arcana, Deception, History, Intimidation, Investigation, Nature and Religion.
+**Combat Skill Points:** You gain 1 skill point to spend on combat skills at 1st level.
+
+**Recommended:** *Light armor*
+
+**After 1st level:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
@@ -162,10 +170,6 @@ To mark the initiation of your pact bargain, you are rewarded with a boon from y
 
 #### Spellcasting Focus
 For as long as you are holding or wearing it, your pact boon acts as a spellcasting focus for your warlock spells.
-
-
-
-
 
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
@@ -188,9 +192,6 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 
-
-
-
 ### Pact Magic
 Your arcane research and the magic bestowed on you by your patron have given you facility with spells.
 
@@ -205,8 +206,6 @@ The Warlock table shows how many spell slots you have. The table also shows what
 #### Spells Known
 At 1st level, you know two 1st-level spells of your choice from your spell list. The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what’s shown in the table's Slot Level column for your level.
 
-
-
 When you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from your spell list, which also must be no higher than your maximum Slot Level.
 
 #### Spellcasting Ability
@@ -220,15 +219,6 @@ You use an arcane focus or your pact boon item as a spellcasting focus for your 
 
 #### Eldritch Versatility
 When you finish a long rest, you may replace one of your known warlock spells with another spell from your spell list. The new spell must be of the same spell level as the spell you replace.
-
-
-
-
-
-
-
-
-
 
 ### Eldritch Invocations
 In your study of occult lore, you unearth <a href="#internal-invocations">eldritch invocations</a>, fragments of forbidden knowledge that imbue you with an abiding magical ability.
@@ -254,12 +244,6 @@ Edgar cut his palm with the black knife, feeding his blood to the ever-hungry pa
 
 </div>
 
-### Ability Score Improvement
-When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can't increase an ability score above 20 using this feature.
-
-
-
-
 ### Mystic Arcanum
 At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from your spell list as this arcanum. You can cast this spell once without expending a spell slot. You can regain this feature after a long rest.
 
@@ -269,8 +253,6 @@ At higher levels, you gain more spells of your choice that can be cast in this w
 At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature.
 
 Once you regain spell slots with this feature, you must finish a long rest before you can do so again.
-
-
 
 
 
@@ -400,7 +382,6 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 </div>
-
 </div>
 
 As the demon lord of magic and forbidden lore, Abraxas knows countless destructive secrets and eldritch magical formulas, particularly those that cause great devastation and pain. His greatest weapon is the dreaded "Final Incantation", a single potent word that can unmake magic.
@@ -411,7 +392,6 @@ On Golarion, one can expect to find small cults of Abraxas in most large cities.
 
 #### Quirks
 Each warlock who delves into the secrets of Abraxas' archives is touched in a different way by the foul knowledge and ancient arts that lie within. Many develop strange habits and unusual practices, while others are physically marked during the rituals and practices they perform and the prices that must be paid to achieve ownership of the power they wield. When creating a warlock, consider adding one or more of the following traits to your character.
-
 
 #### Abraxas Warlock Quirks
 | d12 | Quirk |
@@ -429,39 +409,27 @@ Each warlock who delves into the secrets of Abraxas' archives is touched in a di
 | 11 | Your irises become red, with black veins running through them. Sometimes you can see the veins form words.
 | 12 | Blood placed on your skin appears to form runic sigils. You're not certain what they mean. |
 
-
-
-
 ### Tainted Knowledge
-At 1st level, you have feasted your eyes upon books from the libraries of Diovengia, and your mind has both withered and grown. Choose two of the following: Arcana, History, Nature, or Religion. Your become proficient and always have advantage on ability checks using those skills.
+You have feasted your eyes upon books from the libraries of Diovengia, and your mind has both withered and grown. Gain 1 skill points to spend on each of the *Arcana*, *History*, *Nature* or *Religion* skills.
 
 You can use an ***action*** to enter the Accursed Archives of Diovengia along with up to ten willing companions of your choosing that you can see. Time does not pass outside the Archive while you are within, and you cannot rest, recover hit points, or maintain concentration while inside. For more information on the Archive, see the ”*Inside the Archive*” section. When you choose to depart, you and your companions return instantly to the point from which you entered.
 
 Once you use this feature, you cannot do so again until you finish a long rest.
 
 ### Heretical Revelation
-Starting at 6th level, you can whisper terrible secrets to an adjacent target as an ***action***. The target can resist with a Wisdom save aginst your spell save DC. If the target fails its save, it is incapacitated for 1 round, then confused for 1d4 rounds, and then frightened of you for 2d6 rounds. The target does not need to understand you, but must be able to hear.
+You can whisper terrible secrets to an adjacent target as an ***action***. The target can resist with a Wisdom save aginst your spell save DC. If the target fails its save, it is incapacitated for 1 round, then confused for 1d4 rounds, and then frightened of you for 2d6 rounds. The target does not need to understand you, but must be able to hear.
 
 Once you use this feature, you cannot do so again until you finish a short rest.
 
-
-
-
-
-
-
-
 ### Vile Heresies
-At 10th level, you uncover secrets that could shatter the balance of the heavens and hells. Choose any spell of 4th level or lower that is not a cantrip. You can cast this spell once using a warlock spell slot and can regain its use after you finish a long rest.
+You uncover secrets that could shatter the balance of the heavens and hells. Choose any spell of 4th level or lower that is not a cantrip. You can cast this spell once using a warlock spell slot and can regain its use after you finish a long rest.
 
 Whenever you are within the Archive, you can exchange this spell for a different one, but cannot use it until you finish a long rest. You cannot exchange the spell if you have already cast the spell and have not completed a long rest to restore it.
 
 ### Penultimate Incantation
-When you reach 14th level, you can affect a any number of creatures within 30 feet with a *dispel magic*. Each spell or effect dispelled inflicts fire damage to the target equal to the result of your caster level check made to dispel that effect.
+You can affect a any number of creatures within 30 ft with a *dispel magic*. Each spell or effect dispelled inflicts fire damage to the target equal to the result of your caster level check made to dispel that effect.
 
 Once you have used this ability, you may not use it again until you have completed a short rest.
-
-
 
 ### Patron Invocations
 The following invocations are granted by Abraxas to its warlocks.
@@ -494,12 +462,6 @@ The following invocations are granted by Abraxas to its warlocks.
 
 </div>
 
-
-
-
-
-
-
 ## Inside the Archive
 While few have ventured into the accursed archives of Diovengia, those who do cannot help but be drawn through the opening halls to gaze upon the tome in the center of the room - Index Incarnatus - the endless book that contains the location and description of every  scrap of forbidden lore within the city. Even gazing upon it for mere moments can cause discomfort, and reading from it can cause agony to both the body and the soul. Any creature that attempts to read from the Index must make a Intelligence save against DC 20. If they fail, they gain a level of exhaustion, but might still locate the correct tome or scroll.
 
@@ -510,8 +472,6 @@ Each time a person speaks or makes noise within the archives, the DM should roll
 While the Silent One appears before each person who has entered the Archive in a different way, all describe it as large, powerful, and extremely dangerous. Some claim it looks similar to a hound, blind and eyeless, with massive teeth and an eerie walk that conceals its speed. They say tendrils spiral from its back, laying around the hallways waiting to ensnare someone walking without sufficient caution.
 
 Others claim it looks like a bat, with large wings and ears that twitch atop a mass of tentacles. Those who have seen this incarnation claim it swoops down from the highest bookshelves, crashing into unfortunate souls before pinning them beneath its unholy mass and devouring them alive. Few see it as a serpent, silently flickering a tongue-like tendril that enables it to seek out those who are quiet enough to hide from it. A rare number call it a spider, sitting within a web of limbs and tentacles, waiting for a fly to stumble upon it.
-
-
 
 Those who have fallen to madness after seeing the beast multiple times claim all of these answers are wrong, and put forth an even more disturbing hypothesis: There is not merely a single Silent One, but many. Each that greets the next unfortunate soul is one of the previous victims of the beasts, transformed into their worst nightmare by the unspeakable powers that dwell within the darkest depths of the Archive. Few believe these tales, of course, but they are hard to shake. After all, those who have attempted to resurrect individuals who've fallen to the beast have failed, even when using the most powerful of magic.
 
@@ -567,12 +527,8 @@ Creatures of innate magic and eons-old intelligence, dragons are beings of legen
 
 Dragons are fickle, however, and notorious hoarders of both treasure and power, neither of which they give up without an abundantly good reason. What could have influenced your draconic patron to give up a (even quite small) portion of their power, and what does the dragon hope to gain by it? How involved is your patron in your affairs, and why did they choose you to bear some of their power? Often, these are questions that even the warlock has to ponder, as the true intent of a dragon is hidden to all but the most calculating, or truly insane, minds.
 
-
-
-
 ### Breath of the Ancients
-Beginning at 1st level, the dragon that has chosen to bestow power upon you has lent a distinct character to the abilities you possess. Choose the option that corresponds with your patron's ancestry on the table below.
-
+The dragon that has chosen to bestow power upon you has lent a distinct character to the abilities you possess. Choose the option that corresponds with your patron's ancestry on the table below.
 
 | Dragon | Damage type | Breath Weapon |
 |:--|:--|:--|
@@ -587,36 +543,32 @@ Beginning at 1st level, the dragon that has chosen to bestow power upon you has 
 | Silver | Cold |  15 ft. cone |
 | White | Cold | 15 ft. cone |
 
-
 You gain a breath weapon based on the heritage of your patron, which you may use as an ***action*** on your turn. This breath weapon targets all creatures in its listed area (starting from your location). Targets  must make a Dexterity saving throw against your spell save DC, or a Constitution saving throw instead if your patron's damage type is cold or poison.
-
-
 
 If a creature fails this saving throw, it takes damage of your patron's damage type, equal to your warlock level + your Intelligence modifier, or half this amount if it succeeds on the saving throw.
 
 Once you use this ability, you must take a short rest before you can use it again.
 
 ### Dragonscales
-Starting at 6th level, you can call upon the scales of your patron to burst forth in patches upon your body, protecting you from harm. As a ***reaction*** when you are hit by an attack, you may extend your dragonscales and add your Intelligence modifier to your AC until the beginning of your next turn. This bonus to AC also applies against the attack that triggered this ability, and may cause the triggering hit to instead become a miss.
+You can call upon the scales of your patron to burst forth in patches upon your body, protecting you from harm. As a ***reaction*** when you are hit by an attack, you may extend your dragonscales and add your Intelligence modifier to your AC until the beginning of your next turn. This bonus to AC also applies against the attack that triggered this ability, and may cause the triggering hit to instead become a miss.
 
 Once you have used this ability, you may not use it again until you have completed a short rest.
 
 ### Blood of Dragons
-Starting at 10th level, you gain resistance to the damage type associated with your draconic patron, as selected in your Breath of the Ancients feature.
+Gain resistance to the damage type associated with your draconic patron, as selected in your Breath of the Ancients feature.
 
 If you are included in the area of a spell or feature effect that deals damage, and you succeed on a saving throw imposed by that spell or effect, you become enraged with the fury of your patron. While enraged, the first attack you make before the end of your next turn deals 2d6 additional damage of your patron's damage type.
 
 ### Draconic Apotheosis
-Once you reach 14th level, you can assume the form of an aspect of your draconic patron for up to a minute. You may sprout horns, grow scales, gain burning draconic eyes, and take on other features directly reminiscent of your draconic lord.
+You can assume the form of an aspect of your draconic patron for up to a minute. You may sprout horns, grow scales, gain burning draconic eyes, and take on other features directly reminiscent of your draconic lord.
 
 You can transform on your turn using a ***bonus action***, which grants the the following abilities:
 
-- Webbed dragon wings sprout from your back, granting you a flying speed of 60 feet.
-- As a ***bonus action*** on your turn, you may level your draconic gaze at a creature within 60 feet of you. This creature must make a Wisdom saving throw against your spell save DC or become frightened of you for one minute. A creature affected by this repeats this save at the end of each of its turns, and a creature that saves against this effect is immune to it for 24 hours.
+- Webbed dragon wings sprout from your back, granting you a flying speed of 60 ft.
+- As a ***bonus action*** on your turn, you may level your draconic gaze at a creature within 60 ft. This creature must make a Wisdom saving throw against your spell save DC or become frightened of you for one minute. A creature affected by this repeats this save at the end of each of its turns, and a creature that saves against this effect is immune to it for 24 hours.
 - The damage caused by your Breath of the Ancients increases by 10, and the damage dice from your Blood of Dragons feature increase from 2d6 to 2d12.
 
 Once you have used this ability, you may not use it again until you complete a long rest.
-
 
 ### Patron Invocations
 The following invocations are granted by the Ancient Dragon to its warlocks.
@@ -709,7 +661,6 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 </div>
-
 </div>
 
 You’ve made a pact with a being of immense size and strength. Sitting in a large, palatial temple within a network of mystical swamps, woods, and rivers lies the Ancient Toad, a creature of knowledge, magic, and power. Generally concerned with only its own realm and its preservation, the Ancient Toad rules over the various denizens that reside within it, from the smallest frogs and tadpole servants to the largest toad brutes and sages.
@@ -718,7 +669,6 @@ Though it rarely leaves its own home, the Ancient Toad often sends its minions o
 
 #### Quirks of the Toad Sage
 The life of living amongst toads, frogs, and other amphibians has changed aspects of your appearance and personality. Consider the following quirks when creating a warlock under the Ancient Toad. You may use as many of the following quirks as you like.
-
 
 #### Quirks
 | d14 | Quirks |
@@ -739,19 +689,19 @@ The life of living amongst toads, frogs, and other amphibians has changed aspect
 | 14 | You tend to be highly loyal to your friends and family.
 
 ### Speech of the Amphibious
-Beginning at 1st level, your familiarity with toads and frogs has given you insight into how they live. You can breathe underwater and gain a swimming speed equal to your walking speed. If you already have a swimming speed, you now double it. You also learn the *acid splash* and *acicid discharge* cantrips.
+Your familiarity with toads and frogs has given you insight into how they live. You can breathe underwater and gain a swimming speed equal to your walking speed. You also learn the *acid splash* and *acicid discharge* cantrips.
 
 Additionally, you can speak to toads, frogs, and other amphibians as if you were under the effects of the *speak with animals* spell.
 
 ### Call of the Swamp
-At 6th level, frogs and toads can come to your aid. As an ***action***, you can cast *conjure animals*, but you can only summon frogs or toads, including giant frogs and giant toads.
+Frogs and toads can come to your aid. As an ***action***, you can cast *conjure animals*, but you can only summon frogs or toads, including giant frogs and giant toads.
 
 Once you use this feature, you cannot do so again until you finish a long rest.
 
 ### Traits of the Toad
-At 10th level, you have learned even more from the toads. You gain immunity to acid and the poisoned condition.
+You have learned even more from the toads. Gain immunity to acid and the poisoned condition.
 
-Additionally, when you are subject to an effect that requires you to make a Dexterity saving throw, you can use your ***reaction*** to leap into the air to an unoccupied location within 30 feet of you, potentially avoiding the effect.
+Additionally, when you are subject to an effect that requires you to make a Dexterity saving throw, you can use your ***reaction*** to leap into the air to an unoccupied location within 30 ft of you, potentially avoiding the effect.
 
 You cannot use this feature again until you finish a short rest.
 
@@ -762,7 +712,7 @@ You cannot use this feature again until you finish a short rest.
 </div>
 
 ### Friend of the Toad
-One of the strongest of toads has become your ally. From 14th level, by speaking its name, you can summon a monstrous humanoid toad to aid you in combat, appearing as either a green, red, brown, or black toad, and armed with a large club and a simple vest. This creature acts under your command during its turn, and can speak, and possesses a simple personality. The toad remains until it dies, you dismiss it, or one minute has passed.
+One of the strongest of toads has become your ally. By speaking its name, you can summon a monstrous humanoid toad to aid you in combat, appearing as either a green, red, brown, or black toad, and armed with a large club and a simple vest. This creature acts under your command during its turn, and can speak, and possesses a simple personality. The toad remains until it dies, you dismiss it, or one minute has passed.
 
 You can summon the monstrous toad once and can regain the use of this feature after you finish a long rest.
 
@@ -797,7 +747,8 @@ Monstrous Toad
 **Damage Resistances**       fire, poison<br/>
 **Damage Vulnerabilities**   lightning<br/>
 **Condition Immunities**     poisoned<br/>
-**Senses** 	                 low-light vision 60 ft, Perception +6<br/>
+**Senses** 	                 low-light vision 60 ft<br/>
+**Skills**                   Perception, Physique<br/>
 **Languages**                Amphibian, Common
 
 </td></tr>
@@ -820,9 +771,9 @@ Monstrous Toad
 
 ***Bite.*** *Melee Attack:* +6 to hit. Hit: 2d10+2 piercing damage.
 
-***Putrid Breath. (Recharge 5-6).*** The elite toad exhales an oily acid in a 15 foot line that is 5 feet wide. Each creature in this line must make a DC 14 Dexterity saving throw, taking 4d8 acid and 2d6 poison damage on a failed save, or half as much on a successful one.
+***Putrid Breath. (Recharge 5-6).*** The elite toad exhales an oily acid in a 15 ft line that is 5 ft wide. Each creature in this line must make a DC 14 Dexterity saving throw, taking 4d8 acid and 2d6 poison damage on a failed save, or half as much on a successful one.
 
-***Tongue.*** The elite toad targets one Medium or smaller creature that it can see within 20 feet of it. The target must make a DC 14 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of the elite toad, and the elite toad can make a bite attack against it as a bonus action.
+***Tongue.*** The elite toad targets one Medium or smaller creature that it can see within 20 ft. The target must make a DC 14 Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 ft of the elite toad, and the elite toad can make a bite attack against it as a bonus action.
 
 </td></tr></tbody></table>
 </div>
@@ -838,7 +789,7 @@ The following invocations are granted by the Ancient Toad to its warlocks.
 
     You gain the use of one of the toad's greatest assets: a breath weapon that takes the form of an oily expulsion, coating in a slimy oil any enemies that would stand in your way.
 
-    As an ***action*** each creature in a 15 foot cone must make a saving throw against your spell save DC. A creature takes 6d6 acid damage on a failed save, and half as much damage on a successful one.
+    As an ***action*** each creature in a 15 ft cone must make a saving throw against your spell save DC. A creature takes 6d6 acid damage on a failed save, and half as much damage on a successful one.
 
     You regain use of this feature after a long rest.
 
@@ -848,7 +799,7 @@ The following invocations are granted by the Ancient Toad to its warlocks.
 - #### Hive Keeper
     *Prerequisites: Conjure insects cantrip*
 
-    For one minute after casting the *conjure insects* cantrip, you are covered in a living armour of insects. You gain +1 to your AC for the duration. When a creature within 30 feet attacks you, you can use a ***reaction*** to cause the insect armour to jump to the attacker, ending the effect and dealing 1d10 piercing damage.
+    For one minute after casting the *conjure insects* cantrip, you are covered in a living armour of insects. You gain +1 to your AC for the duration. When a creature within 30 ft attacks you, you can use a ***reaction*** to cause the insect armour to jump to the attacker, ending the effect and dealing 1d10 piercing damage.
 
 - #### Flesh of the Toad
     *You have learned to imitate the appearances of the toad to provide you with benefits.*
@@ -880,7 +831,7 @@ The following invocations are granted by the Ancient Toad to its warlocks.
 - #### Leap of the Toad
     *Prerequisite: Pact of the Blade*
 
-    You can create a whip that appears like a long, frog tongue and is coated in a slimy liquid. This weapon deals acid or slashing damage, your choice. If a ranged attack misses you while wielding this weapon, you can use your ***reaction*** to jump up to 15 feet to an unoccupied space. If the attacker is within reach after your move, you can make a single melee attack against them with this weapon as part of the same reaction.
+    You can create a whip that appears like a long, frog tongue and is coated in a slimy liquid. This weapon deals acid or slashing damage, your choice. If a ranged attack misses you while wielding this weapon, you can use your ***reaction*** to jump up to 15 ft to an unoccupied space. If the attacker is within reach after your move, you can make a single melee attack against them with this weapon as part of the same reaction.
 
 - #### Nature's Voice
     *Prerequisite: 14th level*
@@ -890,7 +841,7 @@ The following invocations are granted by the Ancient Toad to its warlocks.
 - #### Pull of the Toad
     *Prerequisite: 5th level, Pact of the Blade*
 
-    When you strike a target with your pact weapon, you can force the target to make Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 feet of you, allowing you to make one melee attack against the target as a ***bonus action***.
+    When you strike a target with your pact weapon, you can force the target to make Strength saving throw. On a failed save, the target is pulled into an unoccupied space within 5 ft of you, allowing you to make one melee attack against the target as a ***bonus action***.
 
 - #### Tongue of the Toad
     *Prerequisite: 5th level*
@@ -938,7 +889,7 @@ Warlocks who have been given the Pact of the Chain can choose to have either of 
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    **Skills**: 	  Acrobatics +4, Nature +4, Stealth +4<br/>
+    **Skills**: 	  Acrobatics, Stealth, Survival<br/>
     **Senses** 		  Low-light vision 60 ft<br/>
     **Languages**   Amphibian, Common
 
@@ -948,7 +899,7 @@ Warlocks who have been given the Pact of the Chain can choose to have either of 
 
     ***Amphibious.*** The horned toad can breathe air and water.
 
-    ***Natural Knowledge.*** Whenever the horned toad is touching another creature, both gain advantage on Nature and Stealth checks.
+    ***Natural Knowledge.*** Whenever the horned toad is touching another creature, both gain advantage on Stealth and Survival checks.
 
     ***Standing Leap.*** The horned toad's long jump is 20 ft., and its high jump is up to 10 ft., with or without a running start.
 
@@ -957,7 +908,7 @@ Warlocks who have been given the Pact of the Chain can choose to have either of 
     <tr><td markdown="1" class="monster">
 
     ### Actions
-    ***Poison Breath***.The horned toad exhales acid in a 20-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 1d6+2 poison damage on a failed save, or half as much damage on a successful one.
+    ***Poison Breath***.The horned toad exhales acid in a 20 ft line that is 5 ft wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 1d6+2 poison damage on a failed save, or half as much damage on a successful one.
 
     </td></tr></tbody></table>
     </div>
@@ -992,7 +943,7 @@ Warlocks who have been given the Pact of the Chain can choose to have either of 
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    **Skills**: 	  Acrobatics +7, Perception +4<br/>
+    **Skills**: 	  Acrobatics, Perception, Survival<br/>
     **Senses** 		  Low-light vision 60 ft<br/>
     **Languages**   Amphibian, Common
 
@@ -1010,13 +961,13 @@ Warlocks who have been given the Pact of the Chain can choose to have either of 
     <tr><td markdown="1" class="monster">
 
     ### Actions
-    ***Acid Breath***. The river frog exhales acid in a 20-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 1d6+2 acid damage on a failed save, or half as much damage on a successful one.
+    ***Acid Breath***. The river frog exhales acid in a 20 ft line that is 5 ft wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 1d6+2 acid damage on a failed save, or half as much damage on a successful one.
 
     </td></tr></tbody></table>
     </div>
-
-
 </div>
+
+
 
 
 <hr class="classdivider">
