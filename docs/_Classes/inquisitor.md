@@ -227,19 +227,6 @@ At 20th level, you can act as a conduit for the full power of your faith. As an 
 A creature so judged cannot be affected by this ability again for 1 year after the time of casting. You can use this feature once and can recover the use when you finish a long rest.
 
 
-<h2><a class="internal-link" name="internal-feats">Class exclusive feat</a></h2>
-
-As an Inquisitor you have access to the following feat:
-
-<div class="feat">
-
-## Harvest Judgement
-You have mastered the art of returning the magic of your judgements.
-- Increase any one ability score by 1.
-- When you reduce a creature with an active judgement to 0 hit points with a weapon attack, you can use a ***reaction*** to regain 4 piety.
-
-</div>
-
 
 <h2><a class="internal-link" name="internal-missions">Divine Missions</a></h2>
 

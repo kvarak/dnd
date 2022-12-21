@@ -209,7 +209,6 @@ You can push yourself beyond your normal limits for a moment. On your turn, you 
 ### Martial Archetype
 At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. All are detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
 
-
 ### Bonus Skill
 When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you gain an additional skill point to spend on your class skills.
 
