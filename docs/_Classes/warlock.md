@@ -1002,35 +1002,31 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 </div>
-
 </div>
 
 Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.
 
 #### Fey Presence
-Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an ***action***, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws all gain the charmed condition or are frightened by you (your choice) until the end of your next turn.
+Your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an ***action***, you can cause each creature in a 10 ft cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws all gain the charmed condition or are frightened by you (your choice) until the end of your next turn.
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
 #### Misty Escape
-Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your ***reaction*** to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.
+You can vanish in a puff of mist in response to harm. When you take damage, you can use your ***reaction*** to turn invisible and teleport up to 60 ft to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
 #### Beguiling Defenses
-Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your ***reaction*** to attempt to turn the charm back on that creature.
+Your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your ***reaction*** to attempt to turn the charm back on that creature.
 
 The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute or until the creature takes any damage.
 
-
-
 #### Dark Delirium
-Starting at 14th level, you can plunge a creature into an illusory realm. As an ***action***, choose a creature that you can see within 60 feet. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken. This effect ends early if the creature takes any damage.
+You can plunge a creature into an illusory realm. As an ***action***, choose a creature that you can see within 60 ft. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken. This effect ends early if the creature takes any damage.
 
 Until this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.
 
 You must finish a long rest before you can use this feature again.
-
 
 ### Patron Invocations
 The following invocations are granted by the Archfey to its warlocks.
@@ -1038,7 +1034,7 @@ The following invocations are granted by the Archfey to its warlocks.
 <div class="columnstwo">
 
 - #### Dreams of the Summer Court
-    When you cast the *minor illusion* cantrip, its range is 300 feet, and you can choose the illusion to be imperceptible to any number of creatures you have seen in the past minute.
+    When you cast the *minor illusion* cantrip, its range is 300 ft, and you can choose the illusion to be imperceptible to any number of creatures you have seen in the past minute.
 
 - #### Glamour of the Fey Folk
     *Your patron has blessed you with unearthly beauty.*
@@ -1096,7 +1092,6 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 </div>
-
 </div>
 
 Within every fire, there is an insatiable and gluttonous greed. A simple and pure predatory urge to consume, feast, and burn until nothing is left. Wood, flesh, and metal alike bow before the furious supremacy of the flame. The Ashen Wolf is a physical manifestation of this terrible hunger. Some call it a fiend from the blackest pit, others call it an elemental creature. Nevertheless, it is living, it is hungry, and it burns for the thrill of the hunt.
@@ -1106,8 +1101,6 @@ Those who have laid eyes upon the Wolf and lived describe it as a being of unque
 
 While the Wolf is ever-hungry, it seeks more than mere meat. It hungers for conflict, companionship, and the freedom to roam and burn. Often surrounded by emberborn, small wolf-like fire elementals, it hunts the forests of the world for ancient beasts, cunning prey, and lost wanderers.
 
-
-
 #### A Dangerous Bargain
 The Ashen Wolf is known to the mortal races from the stories told of those who have gone to entreat this beast, begging for aid, power, or control over their own destiny. The Wolf is known to grant these requests, but the price for this boon is cruel and terrible by all accounts.
 
@@ -1115,19 +1108,16 @@ The Wolf delights in the suffering of mortals it does not consider within its pa
 
 <img src='https://static.wixstatic.com/media/54abec_c742d959c92f46058c564ca7aa5fe1f8~mv2_d_2550_1500_s_2.jpg_256' style='float:left;width:45%;padding:20px' />
 
-
 #### Sign of the Burning Harvest
 Cultures that lie within the untamed lands beyond the civilized world are often more familiar with the Ashen Wolf than those who dwell within the cities, though even their knowledge is often rife with superstition. The Wolf seems to enjoy the sacrifices made in its name and responds favorably to those who perform the proper rituals, sending its emberborn servants to hunt the beasts that plague its supplicants or to purge outcasts and criminals from their land. If the fields burn and the granaries are destroyed in the process, then that is the price of the hungering flame.
 
 The Wolf is often symbolized with a flag coated in ash with prominent markings of fangs or claw-prints drawn in red or orange paint. In some cultures, magically-heated metal is twisted into unusual shapes and pressed into trees to mark the domain of the Wolf’s servants.
-
 
 ### The Pact
 You’ve made a pact with a primal spirit of fire and the hunt – a scourge of the forests and fields, and a harbinger of ill fate. This creature is wise and cunning, making deals with those who have the potential to bring ruin and change. Some consider the beast to be native to the Plane of Elemental Fire; others call it a fiend from the darkest hells. Whatever its origin, the ember-eyed wolf often extracts payment in the form of wishes gone awry: a demand for power becomes a battle to retain one’s humanity, while a request for a peaceful resolution often has a price that brings constant regret.
 
 #### Quirks of the Ashen
 Warlocks who have made a pact with the Ashen Wolf are often known simply as ashen. Consider adding one or more of these quirks when creating a warlock or after performing an action that would please the Wolf.
-
 
 #### Quirks
 | d16 | Quirks |
@@ -1150,31 +1140,29 @@ Warlocks who have made a pact with the Ashen Wolf are often known simply as ashe
 | 16 | You compulsively scratch your fingers on wood.
 
 ### Breath of Smoke
-Starting at 1st level, you can use your action to exhale blistering embers in a 15-foot cone. Each creature in that area must make a Constitution saving throw against your warlock spell save DC. Creature that fail take fire damage equal to your warlock level + your Intelligence modifier and are blinded until the end of their next turn.
+You can use your ***action*** to exhale blistering embers in a 15 ft cone. Each creature in that area must make a Constitution saving throw against your warlock spell save DC. Creature that fail take fire damage equal to your warlock level + your Intelligence modifier and are blinded until the end of their next turn.
 
 If you activate this feature again before finishing a long rest, you gain one level of exhaustion.
 
 Additionally, you can breathe and see normally in smoke or ash-filled air.
 
-
-
 ### Feast for the Fire
-Beginning at 6th level, when you damage a creature with fire, you mark it as a sacrifice to the Ashen Wolf.
+When you damage a creature with fire, you mark it as a sacrifice to the Ashen Wolf.
 
-If it is killed before the end of your next turn, and within 5 feet, you can use a ***reaction*** to incinerate it, leaving it a pile of ash. You gain temporary hit points equal to your warlock level, and can spend one Hit Die to heal yourself.
+If it is killed while adjacent to you, before the end of your next turn, you can use a ***reaction*** to incinerate it, leaving it a pile of ash. You gain temporary hit points equal to your warlock level, and can spend one Hit Die to heal yourself.
 
 ### Endless Pursuit
-At 10th level, your patron grants you a portion of its primal stamina. You gain resistance to fire damage. When you finish a short rest, you can choose to reduce your level of exhaustion by one.
+Your patron grants you a portion of its primal stamina. You gain resistance to fire damage. When you finish a short rest, you can choose to reduce your level of exhaustion by one.
 
 You must finish a long rest before you can use this feature again.
 
 ### Beast of the Burning End
-At 14th level, you unlock the power to incarnate into the form of your patron. As an ***action***, you wrap yourself in the guise of a massive flaming lupine creature. For 1 minute, or until you exit this incarnation as a ***bonus action***, you gain the following benefits.
+You unlock the power to incarnate into the form of your patron. As an ***action***, you wrap yourself in the guise of a massive flaming lupine creature. For 1 minute, or until you exit this incarnation as a ***bonus action***, you gain the following benefits.
 
  * Your size becomes Large.
  * You ignore all levels of exhaustion.
- * Your speed increases by 20 feet.
- * You have advantage on melee attack rolls against a creature if at least one of your allies is within 5 feet of the creature and the ally isn’t incapacitated.
+ * Your speed increases by 20 ft.
+ * You have advantage on melee attack rolls against a creature if at least one of your allies is adjacent to the creature and the ally isn’t incapacitated.
  * You are immune to fire damage.
 
 When you use this feature, two **hell hounds** burst forth from your burning flesh. They obey any verbal commands that you issue to them (no action required). If you don’t issue any commands to them or are incapacitated, they defend themselves and you from hostile creatures, but otherwise take no actions. They act on your initiative count, have twice as many hit points as a normal hell hound, and are considered elementals instead of their normal type.
@@ -1182,7 +1170,6 @@ When you use this feature, two **hell hounds** burst forth from your burning fle
 When you exit this incarnation, the hell hounds instantly turn to ash. Your body immediately attempts to reabsorb the ash as it swirls back to you from up to 300 feet away. If a hell hound has died or the ash cannot return to you due to distance, you gain one level of exhaustion per missing hound.
 
 You must finish a long rest before you can use this feature again.
-
 
 ### Patron Invocations
 The following invocations are granted by the Ashen Wolf to its warlocks.
@@ -1223,10 +1210,7 @@ The following invocations are granted by the Ashen Wolf to its warlocks.
     Whenever you would take fire damage or are exposed to damaging flame, you can use your ***reaction*** to absorb the elemental fire as an offering to the Ashen Wolf. The damage is negated, and instead you gain temporary hit points equal to the amount of damage you would have taken before resistances and immunities. The amount of temporary hit points received at one time cannot exceed three times your Intelligence modifier.
 
     You can use this invocation twice, and regain all uses when you finish a long rest.
-
 </div>
-
-
 
 ### Pact of the Chain Familiar
 The following familiar is available to the Ashen who have selected the Pact of the Chain feature.
@@ -1287,7 +1271,7 @@ The following familiar is available to the Ashen who have selected the Pact of t
     ### Actions
     ***Bite.*** *Melee Attack:* +5 to hit. Hit: 1d6+2 piercing damage plus 1d6 fire damage
 
-    ***Burst. (Recharges after a short rest).*** The emberborn blasts ash and cinders from its body. Creatures within 10 feet of the emberborn must make a DC 12 Dexterity saving throw. If they fail, they are blinded until the end of their next turn and take 2d6 fire damage. If they succeed, they are unaffected.
+    ***Burst. (Recharges after a short rest).*** The emberborn blasts ash and cinders from its body. Creatures within 10 ft of the emberborn must make a DC 12 Dexterity saving throw. If they fail, they are blinded until the end of their next turn and take 2d6 fire damage. If they succeed, they are unaffected.
 
     </td></tr></tbody></table>
     </div>
@@ -1330,8 +1314,6 @@ The wanderers who care not for the false temptations of the Fields while seeking
 
 In response, the Blackthorn burrows into the gap where their heart once was, filling them with purpose – to grow, to fight, to live, and to see the world with eyes unclouded by hate. Reborn, they revel in the emotions abandoned within the Maze and Fields, now seeking the joy of life. However, the heart rooted in their chest thirsts for blood, and they will be instinctively drawn to violent conflict and suffer a lust for power. It is the nature of a grove to seek to spread and grow, after all, and only the most powerful can provide fertile soil for the seed of the Blackthorn Grove.
 
-
-
 ### The Pact
 You’ve torn out your heart as an offering to the Blackthorn Grove after braving the Maze of Blood and resisting the temptations of the Fields of Acedia. In place of your heart, a pulsing, beating, writhing mass of thorns has grown and made you whole. The lifeblood of the world itself runs through your veins, granting you power and passion alike to fulfill your purpose, whatever that may be. The trials and suffering of your past beckon you to make amends or take your revenge, but the feeling of grass under your feet and the sunlight upon your face is enough to help you understand the worth of life. Wander alone no longer, for even in death the Grove shall grant you a home.
 
@@ -1353,22 +1335,20 @@ Warlocks who draw power from the Blackthorn Grove are called thornhearted and ar
 | 10 | Whenever you cast a spell, your Blackthorn heart pulses with crimson energy. |
 
 ### Blackthorn Heart
-At 1st level, you have torn out your heart and replaced it with something otherworldly, granting you the will to survive. Whenever you fail a death saving throw, your Blackthorn heart bursts from your chest and lashes out with life-stealing briars toward a creature within 15 feet. The briars target the nearest hostile creature if possible, but if no hostile creatures are in range, any target will do. Make a melee spell attack against the target. On a hit, the creature takes magical piercing damage equal to your warlock level, and you regain hit points equal to the damage dealt.
+You have torn out your heart and replaced it with something otherworldly, granting you the will to survive. Whenever you fail a death saving throw, your Blackthorn heart bursts from your chest and lashes out with life-stealing briars toward a creature within 15 ft. The briars target the nearest hostile creature if possible, but if no hostile creatures are in range, any target will do. Make a melee spell attack against the target. On a hit, the creature takes magical piercing damage equal to your warlock level, and you regain hit points equal to the damage dealt.
 
 After you recover hit points using this feature, you cannot make this attack again until you finish a short rest.
 
 ### Apathy is Death
-At 6th level, you can use your ***reaction*** to surge with purpose and haste whenever you make an Intelligence, Wisdom or Charisma saving throw. You gain advantage on the saving throw, and can make a single weapon attack before the result of the roll is revealed.
+You can use your ***reaction*** to surge with purpose and haste whenever you make an Intelligence, Wisdom or Charisma saving throw. You gain advantage on the saving throw, and can make a single weapon attack before the result of the roll is revealed.
 
 Once you use this feature, you can’t do so again until you finish a short rest.
 
-
-
 ### Arboreal Guardian
-At 10th level, your purpose is not merely to exist, but to safeguard life. Whenever a creature within 5 feet of you would take damage, you can choose to redirect half of the damage to you by shielding them with vines from your Blackthorn heart. Only the original target suffers any additional effects of the damage. If this damage reduces you to 0 hit points, you gain advantage on the first attack made by your Blackthorn Heart feature.
+Your purpose is not merely to exist, but to safeguard life. Whenever an adjacent creature would take damage, you can choose to redirect half of the damage to you by shielding them with vines from your Blackthorn heart. Only the original target suffers any additional effects of the damage. If this damage reduces you to 0 hit points, you gain advantage on the first attack made by your Blackthorn Heart feature.
 
 ### Seeds of Destruction
-At 14th level, you realize the reason you have been blessed with this power and purpose: to spread the Blackthorn Grove. As an ***action***, or whenever you are reduced to 0 hit points and you fail to recover hit points using your Blackthorn Heart feature, you can choose to have the beginnings of a new Maze of Blood appear around you. The area within a 30-foot radius becomes difficult terrain as blood-hungry vines emerge from the assembled briars to drink their fill.
+You realize the reason you have been blessed with this power and purpose: to spread the Blackthorn Grove. As an ***action***, or whenever you are reduced to 0 hit points and you fail to recover hit points using your Blackthorn Heart feature, you can choose to have the beginnings of a new Maze of Blood appear around you. The area within a 30 ft radius becomes difficult terrain as blood-hungry vines emerge from the assembled briars to drink their fill.
 
 A creature within the area at the start of its turn must make a Constitution saving throw against your warlock spell save DC. A target takes 4d6 magical slashing damage on a failed save, or half as much damage on a successful one. Allies make this saving throw with advantage. If summoned as an action, it lasts until the start of your next turn. If summoned when you are at 0 hit points, it lasts until you recover 1 hit point, or becomes permanent if you die.
 
@@ -1473,7 +1453,7 @@ The following familiar is available to Thornhearted warlocks who have selected t
 #### Patron Features
 | Warlock Level | Feature |
 |:-------------:|:--------|
-| 1st | Mechanical Arcana,Warped Reality
+| 1st | Mechanical Arcana, Warped Reality
 | 6th | Defensive Protocol
 | 10th | Axiomatic Mind
 | 14th |The Maker's Monolith
@@ -1489,7 +1469,6 @@ Your physical appearance might have been changed in some way by your relationshi
 #### Quirks
 The behaviour of the warlock of the Machine patron is not often directly influenced by their benefactor, but serving a being so alien to the thoughts and emotions of most living creatures tends to have lingering effects. The following quirks are made to give a little flavour to one who has made a pact with constructs of immense power.
 
-
 #### Machine Warlock Quirks
 | d8 | Quirk |
 |:-:|:-------------|
@@ -1502,33 +1481,30 @@ The behaviour of the warlock of the Machine patron is not often directly influen
 | 7 | You often ignore social convention in the face of logic. |
 | 8 | Everything must be ordered, everything must be in place. That book should be in the shelf, that mop should be next to the bucket... |
 
-
-
 ### Mechanical Arcana
-Beginning at 1st level, you know the *mending* and *shocking grasp* cantrips, which do not count against your known cantrips.
+Learn the *mending* and *shocking grasp* cantrips, which do not count against your known cantrips.
 
 ### Warped Reality
-Also at 1st level, you can briefly bend and contract space between you and a target within 60 feet, as part of an attack. This unexpected strike grants you advantage on your attack roll and also grants shorter ranged attacks a range of 60 feet, including melee attacks.
+You can briefly bend and contract space between you and a target within 60 ft, as part of an attack. This unexpected strike grants you advantage on your attack roll and also grants shorter ranged attacks a range of 60 ft, including melee attacks.
 
 You may also use this feature to pick up an object, perform the Use Object action, or perform a touch spell on a willing creature within this range. You may not pick up an object that weighs more than 10 pounds.
 
 Once you use this feature, you cannot use it again until you finish a short rest.
 
 ### Defensive Protocol
-Starting at 6th level, you can impose your will on an attacker, forcing them to cease their hostility. As a ***reaction*** when a creature within 60 feet targets you with an attack, spell or effect, you can force the target to make a Wisdom saving throw against your warlock spell save DC. On a failed save, the target gains the charmed condition until the end of your next turn, until you deal damage to it, or until you force it to make a saving throw.
+You can impose your will on an attacker, forcing them to cease their hostility. As a ***reaction*** when a creature within 60 ft targets you with an attack, spell or effect, you can force the target to make a Wisdom saving throw against your warlock spell save DC. On a failed save, the target gains the charmed condition until the end of your next turn, until you deal damage to it, or until you force it to make a saving throw.
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
 ### Axiomatic Mind
-Starting at 10th level, your course of action is yours alone to control. You are immune to the frightened condition, and whenever you are charmed or otherwise magically compelled to act against your will, you can make another saving throw against the spell or effect that you are charmed by, ending the effect on yourself on a success.
-
+Your course of action is yours alone to control. You are immune to the frightened condition, and whenever you are charmed or otherwise magically compelled to act against your will, you can make another saving throw against the spell or effect that you are charmed by, ending the effect on yourself on a success.
 
 ### The Maker's Monolith
-Starting at 14th level, you can summon an imposing column of stone or steel as an action; raising a 3 foot wide and 15 foot tall monument in an adjacent space.
+You can summon an imposing column of stone or steel as an action; raising a 3 foot wide and 15 ft tall monument in an adjacent space.
 
 This nigh invincible monolith acts as a conduit for your patron's power into this realm. You can spend 10 minutes forming any basic structures or objects made of non-magical metal, wood or stone, or altering terrain within 30 feet of this monolith. Objects or structures removed from this area will disintegrate after 1 minute, and terrain will revert to its natural form. In addition, you are mentally alerted when a creature of size Tiny or larger enters this area, as long as you are within 5 miles.
 
-You can also teleport yourself and up to 4 other willing creatures within 10 feet to the base of the monolith as an ***action***, as long as you are within 5 miles of it. Once you teleport like this, you can't do so again until you finish a long rest.
+You can also teleport yourself and up to 4 other willing creatures within 10 ft to the base of the monolith as an ***action***, as long as you are within 5 miles of it. Once you teleport like this, you can't do so again until you finish a long rest.
 
 This effect is active as long as you maintain concentration. If you concentrate for one hour after creating the monolith, this effect becomes permanent until you raise another monolith, then it will recede into the ground and all surrounding changes are reversed to their original state.
 
@@ -1550,7 +1526,7 @@ The following invocations are granted by the Cosmic Machine to its warlocks.
     When you create a pact weapon, you can choose to also conjure a magical suit of splint over your body, instantly donning it. The splint persists until you dismiss it as a ***bonus action***, or you die. While wearing this armor, you are considered proficient with it.
 
 - #### Cold Calculation
-    You gain proficiency with initiative checks and the Investigation skill.
+    Gain 1 skill point to spend on the *Investigation* skill. Additionally *Perception - Keen Awareness* costs 0 to you.
 
 - #### Crime and Punishment
     *Prerequisite: 3rd level*
@@ -1573,12 +1549,12 @@ The following invocations are granted by the Cosmic Machine to its warlocks.
 - #### Mechanic Vigor
     *After using this ability your skin visibly and physically toughens, being more metallic than mortal skin.*
 
-    You can toughen your skin as an action, gaining a base AC equal to 10 + your Dexterity modifier + your Intelligence modifier. Your skin returns to normal after a short rest unless you dismiss this ability early. In addition, while active you can gain 1d4+4 temporary hit points at will as an action.
+    You can toughen your skin as an action, gaining a base AC equal to 10 + your Dexterity modifier + your Intelligence modifier. Your skin returns to normal after a short rest unless you dismiss this ability early. In addition, while active you can gain 1d4+4 temporary hit points at will as an ***action***.
 
 - #### Seal of Primus
     *Prerequisite: Pact of the Talisman feature*
 
-    Your talisman can be placed on any entryway as an ***action***, casting the *arcane lock* spell without expending a spell slot or material components. It can also be placed on any mechanism smaller than a 10 foot cube, such as a lever or set of gears, which will cause it to seize up and jam instead of lock. While the object is under this spell you can open, close, activate or deactivate it as a ***bonus action*** as long as you are on the same plane of existence and the object wasn't initially locked or disabled.
+    Your talisman can be placed on any entryway as an ***action***, casting the *arcane lock* spell without expending a spell slot or material components. It can also be placed on any mechanism smaller than a 10 ft cube, such as a lever or set of gears, which will cause it to seize up and jam instead of lock. While the object is under this spell you can open, close, activate or deactivate it as a ***bonus action*** as long as you are on the same plane of existence and the object wasn't initially locked or disabled.
 
     This spell will end if the lock is dispelled, if the talisman is removed from the target object, or if it is used to cast another spell. Once you use this feature, you can't use it again until you finish a long rest.
 
@@ -1617,7 +1593,7 @@ The following invocations are granted by the Cosmic Machine to its warlocks.
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    **Skills** 								  Investigation +7, Perception +7<br/>
+    **Skills** 								  Investigation, Perception<br/>
     **Damage Immunities** 		  poison<br/>
     **Condition Immunities** 	  poisoned, prone<br/>
     **Languages** 						  understands the same languages as its master but can't speak
@@ -1626,11 +1602,11 @@ The following invocations are granted by the Cosmic Machine to its warlocks.
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    ***Assimilation.***. The sentinel drone can spend 1 minute to completely destroy a Tiny or Small non-magical object within 5 feet and regain 2d6 hit points.
+    ***Assimilation.***. The sentinel drone can spend 1 minute to completely destroy an adjacent Tiny or Small non-magical object and regain 2d6 hit points.
 
     ***Searchlight.*** The sentinel drone may begin emitting light as if casting the *light* cantrip on itself as a ***bonus action***.
 
-    ***Projection.*** The sentinel drone may beam images of its thoughts and memories anywhere within a 60 feet to communicate with other creatures. It may also cast the *minor illusion* spell at will with a save DC of 13.
+    ***Projection.*** The sentinel drone may beam images of its thoughts and memories anywhere within a 60 ft to communicate with other creatures. It may also cast the *minor illusion* spell at will with a save DC of 13.
 
     ***Immaculate Memory.*** The sentinel drone may recall a specific creature or object that it has seen or heard before with almost perfect accuracy, even among those of a similar type or appearance.
 
@@ -1639,7 +1615,7 @@ The following invocations are granted by the Cosmic Machine to its warlocks.
     <tr><td markdown="1" class="monster">
 
     ### Actions
-    ***Flarebolt.*** *Ranged Weapon Attack:* +5 to hit, range 60 ft. Hit: 1d4 + 2 piercing damage, and the target creature is illuminated as if affected by the *light* cantrip. The creature may spend an ***action*** removing any bolts from its body to end this effect. This attack does not have disadvantage if an enemy is within 5 feet.
+    ***Flarebolt.*** *Ranged Weapon Attack:* +5 to hit, range 60 ft. Hit: 1d4 + 2 piercing damage, and the target creature is illuminated as if affected by the *light* cantrip. The creature may spend an ***action*** removing any bolts from its body to end this effect. This attack does not have disadvantage if an enemy is adjacent.
 
     </td></tr></tbody></table>
     </div>
@@ -1668,10 +1644,12 @@ The following invocations are granted by the Cosmic Machine to its warlocks.
 Your patron is a elder evil force in the world that veers capriciously between its maternal and destructive instincts. Such creatures smother those they hold dear with doting attention and reject those set against her with ruthless cruelty, often times vacillating between these extremes seemingly without prompt. You have chosen a spiteful and suffocating patron, one whose nature you find yourself more and more mimicking. Beings of this sort include; Aradia, mother of witchcraft, Baba Yaga, the evil woman, and Hecate, queen of witches.
 
 ### Howls and Screeches
-Starting at 1st level, you can cast *speak with animals* at will, without expending a spell slot.
+You can cast *speak with animals* at will, without expending a spell slot.
 
 ### Toil and Trouble
-Also from 1st level, you gain profienciecy with herbalism and alchemy, and can prepare an enchanted brew during a long rest. When you do select one of the following potions to create, which all smells delicious and sweet.
+Add *Herbalism* and *Craft - Alchemy* to your class skills and gain 1 skill point to spend on each of them.
+
+Additionally you can prepare an enchanted brew during a long rest. When you do select one of the following potions to create, which all smells delicious and sweet.
 
 **Everdream**. When consumed as a ***bonus action*** this tonic puts its drinker under a heavy lethargy as if you had cast the *spell* sleep with your highest level Pact Magic spell slot.
 
@@ -1682,19 +1660,19 @@ Also from 1st level, you gain profienciecy with herbalism and alchemy, and can p
 These brews only stay potent only a few days. After that they turn putrid, foul and impotent. In game terms, you can have only one of each with at any time.
 
 ### Baleful Glance
-Starting at 6th level, as a ***reaction***, you can apply disadvantage to one attack roll made by a creature you can see within 60 feet against you. Creatures that are immune to being frightened are immune. You must finish a short rest before using this feature again.
+As a ***reaction***, you can apply disadvantage to one attack roll made by a creature you can see within 60 ft against you. Creatures that are immune to being frightened are immune. You must finish a short rest before using this feature again.
 
 ### Blood of the Coven
-Also from 6th level when you cast a spell you can call out to your companions to shed blood for your power. One ally within 30 feet of you can spend their ***reaction*** to take 1d6 necrotic damage per level of the spell slot and your spell is empowered. If your spell includes a spell attack roll it gains advantage. If your spell includes a saving throw, the target creatures gain disadvantage on that roll.
+When you cast a spell you can call out to your companions to shed blood for your power. One ally within 30 ft can spend their ***reaction*** to take 1d6 necrotic damage per level of the spell slot and your spell is empowered. If your spell includes a spell attack roll it gains advantage. If your spell includes a saving throw, the target creatures gain disadvantage on that roll.
 
 ### Umbral Ward
-When you reach 10th level, you can’t be charmed or frightened by fiends or fey, and you are immune to disease.
+You can’t be charmed or frightened by fiends or fey, and you are immune to disease.
 
 ### Walking Hovel, Flying Broom
-Also from 10th level you can cast the spell *animate objects* without expending a spell slot. You can use this feature again after a long rest.
+You can cast the spell *animate objects* without expending a spell slot. You can use this feature again after a long rest.
 
 ### Familiar Curse
-Starting at 14th level you can touch an unconscious creature and turn it into any beast with a CR of 1 or lower. That beast then acts as your familiar as if you had cast the *find familiar* spell. As your familiar, the creature fears your mystical power and cannot summon the courage to do anything to defy your will. This effect ends when someone casts *remove curse* on the target or you use this feature again. In addition, you must name a condition that, if it comes to pass, functions as if a remove curse spell had been cast on the target. Choose one of the following conditions:
+You can touch an unconscious creature and turn it into any beast with a CR of 1 or lower. That beast then acts as your familiar as if you had cast the *find familiar* spell. As your familiar, the creature fears your mystical power and cannot summon the courage to do anything to defy your will. This effect ends when someone casts *remove curse* on the target or you use this feature again. In addition, you must name a condition that, if it comes to pass, functions as if a remove curse spell had been cast on the target. Choose one of the following conditions:
 
  **Devotion**. If the target has a sincere change of heart and is repentant for his transgression against you, a loyal servant to you for a year and a day, and begs your forgiveness. The Familiar Curse returns if they transgress you again and you have not used the feature again. In this case you do not select a condition.
 
@@ -1710,7 +1688,7 @@ The following invocations are granted by the Crone to its warlocks.
 <div class="columnstwo">
 
 - #### Dance Macabre
-    As an action, you may target one undead creature you can see within 30 feet. The target must make a Wisdom saving throw against your spell DC. On a failed save, the target must obey your commands for the next 24 hours. An undead creature whose challenge rating is equal to or greater than your level is immune to this effect.
+    As an action, you may target one undead creature you can see within 30 ft. The target must make a Wisdom saving throw against your spell DC. On a failed save, the target must obey your commands for the next 24 hours. An undead creature whose challenge rating is equal to or greater than your level is immune to this effect.
 
     Once you use this ability, you may not do so again until you complete a long rest.
 
@@ -1722,7 +1700,7 @@ The following invocations are granted by the Crone to its warlocks.
     Once you trigger this transformation, you can't do so again until you complete a long rest.
 
 - #### Crone's Hobbies
-    Choose two of the following skills: Alchemy, Animal Handling, Medicine, Perception, and Survival. You gain proficiency with the chosen skills, if you didn't have it already, and have advantage on check made with those skills. Whenever you complete a long rest, you may choose new skills from the list.
+    You may spend 2 skill points on one of the following skills: *Craft - Alchemy*, *Animal Handling*, *Medicine*, *Perception* and *Survival*. Whenever you complete a long rest, you may move these skills points.
 
 - #### Curse of Conscription
     *Prerequisite: 7th level, Pact of the Evil eye*
@@ -1771,29 +1749,27 @@ The Prince of Depths is believed to be the largest of all the known demon lords.
 Dagon is quite active on the Material Plane, regularly sending his demonic minions to the deep oceans of the world to become high priests for evil aquatic monster races. Unfortunately, Dagon's foul influence is not limited to the ocean depths; he is also revered by some debased coastline societies. In these twisted communities, land dwellers mix with ichthyic beings from the depths, spawning horrible cross-breeds which have no place in the natural order of things.
 
 ### Depths of Knowledge
-From 1st level, you can use your ***action*** to focus your awareness on the region around you. For 1 minute you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are on the ocean or underwater): aberrations, celestials and fiends and undead. This feature doesn't reveal the creature's' location or number.
+You can use your ***action*** to focus your awareness on the region around you. For 1 minute you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are on the ocean or underwater): aberrations, celestials and fiends and undead. This feature doesn't reveal the creature's' location or number.
 
 Once you use this ability, you cannot use it again until you take a long rest.
 
 ### Pelagic Tentacle
-Also from 1st level, you are able to conjure a tentacle from the Ocean's depths to grasp at your foes. As a an ***action***, you may cause a tentacle to burst forth from an extraplanar space and attempt to grasp a creature within 30 feet. The creature must make a Dexterity saving throw against your spell save DC. If it fails, the creature's movement speed becomes 0 as the tentacle grasps them, and they cannot move (except by forced movement or teleportation) until the tentacle dissipates at the beginning of your next turn.
-
-
+You are able to conjure a tentacle from the Ocean's depths to grasp at your foes. As a an ***action***, you may cause a tentacle to burst forth from an extraplanar space and attempt to grasp a creature within 30 ft. The creature must make a Dexterity saving throw against your spell save DC. If it fails, the creature's movement speed becomes 0 as the tentacle grasps them, and they cannot move (except by forced movement or teleportation) until the tentacle dissipates at the beginning of your next turn.
 
 If target is swimming, you can also pull the creature straight down in the water a number of feet equal to five times your proficiency bonus on a failed save.
 
 Once you use this ability, you cannot use it again until you take a short rest.
 
 ### Sign of the Abyss
-Starting at level 6, you can breath underwater and suffer no ill effects from water pressure. You gain darkvison out to 30 feet when underwater, and can see clearly through the water up to that distance. You also gain a swim speed equal to your base land speed.
+You can breath underwater and suffer no ill effects from water pressure. You gain darkvison out to 30 ft when underwater and can see clearly through the water up to that distance. You also gain a swim speed equal to your base land speed.
 
 ### Squamous Hide
-Starting at 10th level, the flesh on your arms, legs, and body carries scattered patches of scales, slippery and fish-like. You have advantage on any checks you make to resist or escape a grapple, and resistance to cold damage.
+The flesh on your arms, legs and body carries scattered patches of scales, slippery and fish-like. You have advantage on any checks you make to resist or escape a grapple, and resistance to cold damage.
 
 When you take damage, except psychic damage, you may use your ***reaction*** to reduce the amount taken by your Intelligence modifier.
 
 ### Drown in the Depths
-Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the Shadowsea. The creature disappears and hurtles through a subaquatic realm. At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target does not have a swim speed or the ability to breathe water, it takes 10d10 cold or bludgeoning damage (your choice) as it is exposed to lightless, icy water or the crushing depths.
+When you hit a creature with an attack, you can use this feature to instantly transport the target through the Shadowsea. The creature disappears and hurtles through a subaquatic realm. At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target does not have a swim speed or the ability to breathe water, it takes 10d10 cold or bludgeoning damage (your choice) as it is exposed to lightless, icy water or the crushing depths.
 
 Once you use this feature, you can’t use it again until you finish a long rest.
 
@@ -1803,7 +1779,7 @@ The following invocations are granted by Dagon to its warlocks.
 <div class="columnstwo">
 
 - #### Pod Leader
-    Your swimming speed increases by 10 feet. While in water, friendly creatures within 30 feet of you gain a swimming speed equal to their movement speed.
+    Your swimming speed increases by 10 ft. While in water, friendly creatures within 30 ft gain a swimming speed equal to their movement speed.
 
 </div>
 
@@ -1846,25 +1822,23 @@ Warlocks who have walked the line between life and death and endured the trials 
 | 12 | Your blood slowly becomes dust when exposed to air.
 
 ### Memory of Life
-At 1st level, when you cast spells that are restricted to targeting humanoids, such as *charm person*, you may instead target undead creatures whose CR is equal to or less than half your level.
+When you cast spells that are restricted to targeting humanoids, such as *charm person*, you may instead target undead creatures whose CR is equal to or less than half your level.
 
 ### Rejection of the Crypt
-At 1st level, your refusal to die has left a mark upon you that cannot be denied. You can add your Intelligence modifier to death saving throws, and you gain immunity to effects that would reduce your maximum hit points.
-
-
+Your refusal to die has left a mark upon you that cannot be denied. You can add your Intelligence modifier to death saving throws, and you gain immunity to effects that would reduce your maximum hit points.
 
 ### Ghoulish Constitution
-Starting at 6th level, your flesh is filled with the icy chill of the grave. When you are hit with a melee attack, you can use your ***reaction*** to steal life’s precious warmth from your attacker. When you do so, you gain resistance to the damage dealt, and the attacker takes cold damage equal to your warlock level. If the attacker is reduced to 0 hit points by this damage, you gain temporary hit points equal to your warlock level. If you already have temporary hit points, increase those temporary hit points by this amount instead.
+Your flesh is filled with the icy chill of the grave. When you are hit with a melee attack, you can use your ***reaction*** to steal life’s precious warmth from your attacker. When you do so, you gain resistance to the damage dealt, and the attacker takes cold damage equal to your warlock level. If the attacker is reduced to 0 hit points by this damage, you gain temporary hit points equal to your warlock level. If you already have temporary hit points, increase those temporary hit points by this amount instead.
 
 You can use this a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.
 
 ### Keeper of Souls
-Starting at 10th level, your gain a measure of control over the spirits that are much to late to their death. Whenever a hostile undead within 60 feet of you is reduced to 0 hit points, you gain temporary hit points equal to your warlock level.
+Your gain a measure of control over the spirits that are much to late to their death. Whenever a hostile undead within 60 ft of you is reduced to 0 hit points, you gain temporary hit points equal to your warlock level.
 
 In addition, you gain resistance to necrotic damage and immunity to effects that would kill you instantly without dealing damage.
 
 ### Reaper of Souls
-At 14th level, you are as implacable as the specter of death itself. You no longer age and cannot be magically aged. You gain immunity to the charmed and frightened conditions. When you kill a creature, it cannot be raised as undead or resurrected unless you allow it
+You are as implacable as the specter of death itself. You no longer age and cannot be magically aged. You gain immunity to the charmed and frightened conditions. When you kill a creature, it cannot be raised as undead or resurrected unless you allow it
 
 Additionally, as a ***bonus action*** you can unleash the touch of death onto nearby creatures. Each creature of your choice that is within 30 ft of you takes necrotic damage equal to 2d8 + your Intelligence modifier. Undead that take this damage are turned until the start of your next turn.
 
@@ -1876,7 +1850,7 @@ The following invocations are granted by Death to its warlocks.
 <div class="columnstwo">
 
 - ### Dance Macabre
-    As an ***action***, you may target one undead creature you can see within 30 feet. The target must make a Wisdom saving throw against your spell DC. On a failed save, the target must obey your commands for the next 24 hours. An undead creature whose challenge rating is equal to or greater than your level is immune to this effect. Once you use this ability, you may not do so again until you complete a long rest.
+    As an ***action***, you may target one undead creature you can see within 30 ft. The target must make a Wisdom saving throw against your spell DC. On a failed save, the target must obey your commands for the next 24 hours. An undead creature whose challenge rating is equal to or greater than your level is immune to this effect. Once you use this ability, you may not do so again until you complete a long rest.
 
 - #### Cold Touch of Death
     *The touch of Death is cold indeed, chilling the touched through both body and soul.*
@@ -1889,12 +1863,12 @@ The following invocations are granted by Death to its warlocks.
     You can choose a haunted crow as your familiar. If you do, it gains additional hit points equal to your warlock level. While you have this familiar, it recovers a single use of its Shriek action whenever either of you reduces a creature to 0 hit points, and the saving throw DC of this action equals your warlock spell save DC
 
 - #### Eyes of the Lost
-    As an ***action***, you can choose to perceive through the senses of an undead creature within 120 feet of you until the start of your next turn. During this time, you are deaf and blind with regard to your own senses.
+    As an ***action***, you can choose to perceive through the senses of an undead creature within 120 ft until the start of your next turn. During this time, you are deaf and blind with regard to your own senses.
 
 - #### Ledger of the Deceased
     *Prerequisite: Pact of the Tome feature*
 
-    Whenever a creature that you can see within 120 feet dies or you touch a corpse, you can choose to have their name be magically inscribed in your Book of Shadows. That creature’s corpse is always considered to be present and whole within your Book. If your Book of Shadows is destroyed, all the names within are lost.
+    Whenever a creature that you can see within 120 ft dies or you touch a corpse, you can choose to have their name be magically inscribed in your Book of Shadows. That creature’s corpse is always considered to be present and whole within your Book. If your Book of Shadows is destroyed, all the names within are lost.
 
 - #### Rejuvenating Mercy
     *Prerequisite: 4th level*
@@ -1951,7 +1925,7 @@ The following familiar is available to Gravebound warlocks who have selected the
     <tr><td markdown="1" class="monster">
 
     **Saving Throws** 				  Dex +6<br/>
-    **Skills** 								  Perception +4, Stealth +8<br/>
+    **Skills** 								  Perception, Stealth<br/>
     **Damage Resistances** 		  bludgeoning, piercing and slashing from nonmagical sources.<br/>
     **Damage Immunities** 		  necrotic<br/>
     **Condition Immunities** 	  charmed, frightened<br/>
@@ -1975,15 +1949,12 @@ The following familiar is available to Gravebound warlocks who have selected the
     ### Actions
     ***Peck.*** *Melee Attack:* +6 to hit. *Hit:* 1d4+4 piercing damage plus 1d6 necrotic damage.
 
-    ***Shriek. (Recharges after a long rest).*** The crow unleashes a terrifying scream. Hostile creatures within 40 feet of the crow must make a DC 12 Wisdom saving throw. If they fail, they are frightened for 1 minute. They can repeat this saving throw at the end of each of their turns, ending the effect on a success.
+    ***Shriek. (Recharges after a long rest).*** The crow unleashes a terrifying scream. Hostile creatures within 40 ft must make a DC 12 Wisdom saving throw. If they fail, they are frightened for 1 minute. They can repeat this saving throw at the end of each of their turns, ending the effect on a success.
 
     </td></tr></tbody></table>
     </div>
 
 </div>
-
-
-
 
 
 
@@ -2007,16 +1978,16 @@ Dispater is an archdevil and the Lord of the Iron City. He is Hell's greatest ja
 Paranoid and reclusive, he no longer leaves his inner sanctum. He is always stoic, emotionless, and expressionless. He remains this way constantly even in the heat of battle. Dispater is the very definition of caution. He is vigilant beyond compare, weaving a web of impenetrable defenses around himself and his holdings. His plans are far-reaching, taking generations to come to fruition. Yet he is not a craven, frightened fiend who grasps at power out of fear of losing it. He is calm, composed, and charming. He is the perfect gentleman, not given to emotional outbursts or acts of passion. He knows the political games of the Nine Hells, and he's one of the best players. Dispater has a finger in everything. He has agents scattered throughout the layers, all working toward some convoluted scheme.
 
 ### Infernal Bulwark
-Starting at first level, you gain proficiency with medium and heavy armor, as well as proficiency with shields.
+Gain 2 skill points to spent on *Armor* combat skills.
 
 ### Aura of Fortitude
-Starting at level 6, any ally within 20 feet of you gains a +2 bonus to AC or saving throws (their choice). You do not gain this benefit. At level 14, the radius of this aura extends to 40 feet around you.
+Any ally within 20 ft gains a +2 bonus to AC or saving throws (their choice). You do not gain this benefit. At level 14, the radius of this aura extends to 40 ft around you.
 
 ### Hellish Warding
-Starting at level 10, you can concentrate on up to two abjuration spells at the same time. However, while you are concentrating on both of these spells, you may cast no additional spells, with the exception of cantrips. If you fail a concentration check, you lose both spells.
+You can concentrate on up to two abjuration spells at the same time. However, while you are concentrating on both of these spells, you may cast no additional spells, with the exception of cantrips. If you fail a concentration check, you lose both spells.
 
 ### Iron Flesh
-Starting at level 14, you gain resistance one of the following damage types: piercing, slashing, or bludgeoning. Once you make this choice, it cannot be changed. This invulnerability can only be overcome by a weapon that is both magic and silver.
+You gain resistance one of the following damage types: piercing, slashing, or bludgeoning. Once you make this choice, it cannot be changed. This invulnerability can only be overcome by a weapon that is both magic and silver.
 
 
 
@@ -2045,7 +2016,6 @@ A typical example of these beings may be a sinister haunting, however these enti
 #### Quirks
 Warlocks that have signed a pact with an Emergent Mind are often very esoteric individuals, if they choose to reveal themselves at all. Immersing themselves in a world that others cannot see, they may be seen as eccentric, mad or downright spine chilling in their behaviour. These quirks are provided to inspire some odd behaviours in your Emergent Mind warlock.
 
-
 #### Emergent Mind Warlock Quirks
 | d12 | Quirk |
 |:-:|:-------------|
@@ -2063,23 +2033,23 @@ Warlocks that have signed a pact with an Emergent Mind are often very esoteric i
 |12| Foreboding omens alway seem to occur whenever you say something of great portent or dire consequence.
 
 ### Haunted
-Starting at 1st level, weird occurrences and events just happen all around you. You learn the *minor illusion* and *thaumaturgy* cantrips, and can cast them without any material, somatic, or verbal components. They do not count against your number of cantrips known.
+Weird occurrences and events just happen all around you. You learn the *minor illusion* and *thaumaturgy* cantrips, and can cast them without any material, somatic, or verbal components. They do not count against your number of cantrips known.
 
 ### Silent Keeper
-Also from 1st level, your patron grants you the knowledge to remain out of sight and mind, as they have for aeons. You gain proficiency with the Stealth skill.
+Your patron grants you the knowledge to remain out of sight and mind, as they have for aeons. Add *Stealth* to your class skills and gain 1 skill point to spend on it.
 
 ### Visions of Aeons
-Starting at 6th level, you can cause painful memories or visions of stories untold to flash before the mind of any creature that strikes you. When you take damage from another creature that you can see, you can force the target creature to make a Wisdom saving throw against your warlock spell save DC as a reaction. On a failed save, the creature is both frightened and charmed condition by you until the end of their next turn.
+You can cause painful memories or visions of stories untold to flash before the mind of any creature that strikes you. When you take damage from another creature that you can see, you can force the target creature to make a Wisdom saving throw against your warlock spell save DC as a reaction. On a failed save, the creature is both frightened and charmed condition by you until the end of their next turn.
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
 ### Unspoken Guardian
-Starting at 10th level, you become a timeless emissary for your patron, speaker for that which does not, and guardian of their secrets. For every 10 years that pass, you age only 1 year, and you cannot be magically aged.
+You become a timeless emissary for your patron, speaker for that which does not, and guardian of their secrets. For every 10 years that pass, you age only 1 year, and you cannot be magically aged.
 
 In addition, creatures that attempt to speak your name or describe you in any way must succeed with a Charisma saving throw against your warlock spell save DC. On a failure, words escape them, and while they may remember you clearly, they cannot name, describe or draw you in any manner for 24 hours. On a successful save they are immune to this effect for 24 hours. You may designate any creature that you have met to be unaffected by this feature.
 
 ### Spirit of Place
-Starting at 14th level, you can merge with the local consciousness of reality until the start of your next turn as a ***bonus action***. You vanish, no longer occupying your current space and you gain truesight out to 300 feet, which ignores all forms of cover. All existing conditions and effects on you are suspended and you are immune to all damage for this duration. At the start of your next turn, you must choose an open space anywhere within this 300 foot radius to appear again.
+You can merge with the local consciousness of reality until the start of your next turn as a ***bonus action***. You vanish, no longer occupying your current space and you gain truesight out to 300 ft, which ignores all forms of cover. All existing conditions and effects on you are suspended and you are immune to all damage for this duration. At the start of your next turn, you must choose an open space anywhere within this 300 ft radius to appear again.
 
 Once you use this feature, you can't use it again until you finish a long rest.
 
@@ -2096,7 +2066,7 @@ The following invocations are granted by the Emergent Mind to its warlocks.
     Additionally, you can cast *animate dead* once without using a warlock spell slot. You can't do so again until you finish a long rest.
 
 - #### Dance Macabre
-    As an ***action***, you may target one undead creature you can see within 30 feet. The target must make a Wisdom saving throw against your spell DC. On a failed save, the target must obey your commands for the next 24 hours. An undead creature whose challenge rating is equal to or greater than your level is immune to this effect. Once you use this ability, you may not do so again until you complete a long rest.
+    As an ***action***, you may target one undead creature you can see within 30 ft. The target must make a Wisdom saving throw against your spell DC. On a failed save, the target must obey your commands for the next 24 hours. An undead creature whose challenge rating is equal to or greater than your level is immune to this effect. Once you use this ability, you may not do so again until you complete a long rest.
 
 - #### Forgive and Forget
     *Prerequisites: 9th level*
@@ -2123,14 +2093,14 @@ The following invocations are granted by the Emergent Mind to its warlocks.
     You can cast *guardian of faith* once without expending a spell slot. When *guardian of faith* is cast in this way it appears as a large phantom and deals necrotic damage instead of radiant damage. Once you use this feature, you can't use it again until you finish a long rest.
 
 - #### Voices in the Wall
-    You can cast the *thaumaturgy* cantrip up to a range of 120 feet, and you can affect objects you can't see, so long as you have seen them before and can visualise their location.
+    You can cast the *thaumaturgy* cantrip up to a range of 120 ft, and you can affect objects you can't see, so long as you have seen them before and can visualise their location.
 
     In addition, you can create up to three different effects with a single casting of this spell, and you can also extinguish a small non-magical light source such as torch or lamp for up to 1 minute as a chosen effect.
 
 - #### Watcher's Gaze
     *Prerequisites: 15th level*
 
-    Matter is of no consequence to sight and mind. When you touch a surface or object, such as a wall, floor or door, you may cause a 10 foot square area up to 5 feet thick to become transparent to yourself as a ***bonus action***. Creatures with *truesight* or under the effect of the *see invisibility* spell can also see this transparency. This effect remains as long as you keep touching the affected surface.
+    Matter is of no consequence to sight and mind. When you touch a surface or object, such as a wall, floor or door, you may cause a 10 ft square area up to 5 ft thick to become transparent to yourself as a ***bonus action***. Creatures with *truesight* or under the effect of the *see invisibility* spell can also see this transparency. This effect remains as long as you keep touching the affected surface.
 
 - #### Whispers of the Grave
     *Often, the dead speak to you, whether you'd like them to or not.*
@@ -2140,9 +2110,9 @@ The following invocations are granted by the Emergent Mind to its warlocks.
     You can cast *speak with dead* at will, without expending a spell slot.
 
 - #### World's Empathy
-    The world appears differently to you than it does to others, you see existence as a personality unto itself. You gain proficiency with the Insight skill. When you would normally make an Investigation check to search an area, you may choose to perform an Insight check instead. If you do, you have advantage on the check.
+    The world appears differently to you than it does to others, you see existence as a personality unto itself. You gain the *Perception - Insight* skill and its prerequisite. When you would normally make an Investigation check to search an area, you may choose to perform an Insight check instead.
 
-    In addition you have advantage on History checks made to recall knowledge if these checks are made in a location directly related to the topic being discussed.
+    In addition you are considered to have the *History* skill when making checks made to recall knowledge, if these checks are made in a location directly related to the topic being discussed.
 
 </div>
 
@@ -2181,7 +2151,7 @@ The following familiar is available to Emergent Mind patron warlocks who have se
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    **Skills** 								  Perception +4, Stealth +6<br/>
+    **Skills** 								  Perception, Stealth<br/>
     **Damage Resistances** 		  cold, fire; bludgeoning, piercing, and slashing from non-magical weapons<br/>
     **Damage Immunities** 		  poison<br/>
     **Condition Immunities** 	  exhaustion, grappled, paralyzed, poisoned, prone, restrained<br/>
@@ -2245,11 +2215,8 @@ The Citadel does not speak, but communicates instead in pure sensations of desir
 
 Tales are told of individuals who grow old, feeble, and weak. Their minds suffer under the weight of eons, trapping them in a state of helpless confusion. Their bodies become thin and skeletal no matter how much they eat, and their breathing becomes slow and painful. Yet, no matter how agonized or miserable they are, they cannot die. The Citadel will not allow it. They must be preserved, for they have been marked by that shining and terrible fortress.
 
-
-
 ### Traits of the Timeless
 Warlocks who have made a pact with the Eternal Citadel are often known as timeless, and are known for their strangeness and unusual habits, given many are stolen from other worlds. Consider adding one or more of these traits when creating a warlock or after performing one of your duties as a servant of the Citadel.
-
 
 #### Trait
 | d10 | Trait |
@@ -2266,24 +2233,24 @@ Warlocks who have made a pact with the Eternal Citadel are often known as timele
 | 10 | Your facial structure is oddly statuesque and your hair remains in a single shape, no matter how hard you try to change it. |
 
 ### Righteous Guardian
-At 1st level, you gain the ability to shield yourself and others from harm. Whenever you or an ally within 30 feet takes damage, you can use your ***reaction*** to create a mystical barrier of energy. The amount of damage taken is reduced by half your warlock level + your Intelligence modifier, after applying resistances or vulnerabilities.
+Gain the ability to shield yourself and others from harm. Whenever you or an ally within 30 ft takes damage, you can use your ***reaction*** to create a mystical barrier of energy. The amount of damage taken is reduced by half your warlock level + your Intelligence modifier, after applying resistances or vulnerabilities.
 
 You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
 ### Force of Preservation
-At 6th level, you gain the ability to fortify yourself further. Whenever you take damage, you can use your ***reaction*** to become immune to the damage from that effect or attack, and gain temporary hit points equal to half your warlock level.
+Gain the ability to fortify yourself further. Whenever you take damage, you can use your ***reaction*** to become immune to the damage from that effect or attack, and gain temporary hit points equal to half your warlock level.
 
 Once you use this feature, you cannot use it again until you finish a long rest.
 
 ### Builder of Walls
-At 10th level, your connection with the Eternal Citadel deepens, enabling you to call upon it for defense. You learn two spells with the word “wall” in their name that are of 5th level or lower. They do not count against your total spells known. You can’t choose *wall of force* as one of these spells.
+Your connection with the Eternal Citadel deepens, enabling you to call upon it for defense. You learn two spells with the word “wall” in their name that are of 5th level or lower. They do not count against your total spells known. You can’t choose *wall of force* as one of these spells.
 
 You can cast one of these two spells once without expending a spell slot. Once you do so, you cannot do so again until you finish a long rest.
 
 ### Bound to the Aeons
-At 14th level, your oath to the Eternal Citadel becomes irrevocable. You no longer age, and cannot be magically aged. You also do not require food or water.
+Your oath to the Eternal Citadel becomes irrevocable. You no longer age, and cannot be magically aged. You also do not require food or water.
 
-Additionally, you can call down an onslaught of timeless power from the central spire of the Citadel to burn away the souls of your foes. During your turn, you can use an ***action*** to choose a location that you can see within 200 feet of you. An infinitely tall 10-foot-radius cylinder expands in that space, illuminating it with bright otherworldly light. At the start of your next turn, a beam of golden energy shoots down from the sky, and creatures within the area must make a Charisma saving throw against your warlock spell save DC. If they fail, they take 7d6 radiant damage, 7d6 force damage, and are blinded until the start of your next turn. If they succeed, they take half as much damage and are not blinded. This beam passes through obstacles without damaging them.
+Additionally, you can call down an onslaught of timeless power from the central spire of the Citadel to burn away the souls of your foes. During your turn, you can use an ***action*** to choose a location that you can see within 200 ft. An infinitely tall 10 ft radius cylinder expands in that space, illuminating it with bright otherworldly light. At the start of your next turn, a beam of golden energy shoots down from the sky, and creatures within the area must make a Charisma saving throw against your warlock spell save DC. If they fail, they take 7d6 radiant damage, 7d6 force damage, and are blinded until the start of your next turn. If they succeed, they take half as much damage and are not blinded. This beam passes through obstacles without damaging them.
 
 Once you use this feature, you can’t do so again until you finish a long rest.
 
@@ -2303,7 +2270,7 @@ The following invocations are granted by the Eternal Citadel to its warlocks.
 - #### Grand Design
     *Prerequisite: Pact of the Tome*
 
-    You can focus your awareness on a structure you are touching for one minute (as if concentrating on a spell) to learn its floor plan. if the building is larger than a 100 foot cube, you only learn the floor plan for a 100 foot cube area of the building, centered on you.
+    You can focus your awareness on a structure you are touching for one minute (as if concentrating on a spell) to learn its floor plan. if the building is larger than a 100 ft cube, you only learn the floor plan for a 100 ft cube area of the building, centered on you.
 
     Additionally, you deal double damage to objects and structures. Once per turn when you deal damage to a construct, it takes an additional 1d8 force damage.
 
@@ -2318,7 +2285,7 @@ The following invocations are granted by the Eternal Citadel to its warlocks.
     You are instantly aware of any attempt by the other parties to break the terms of any contract or written agreement signed by you. If the contract is broken, you become aware of it.
 
 - #### Servants of the Citadel
-    When you deal damage to a creature with a cantrip or weapon attack, you can use your ***bonus action*** to fortify an ally that you can see within 60 feet. The target gains temporary hit points equal to your Intelligence modifier that lasts 1 minute.
+    When you deal damage to a creature with a cantrip or weapon attack, you can use your ***bonus action*** to fortify an ally that you can see within 60 ft. The target gains temporary hit points equal to your Intelligence modifier that lasts 1 minute.
 
 - #### Steadfast Companion
     *Prerequisite: Pact of the Chain feature*
@@ -2363,7 +2330,7 @@ The following familiar is available to Eternal Citadel patron warlocks who have 
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    **Skills** 								  Perception +6<br/>
+    **Skills** 								  Perception<br/>
     **Damage Resistances** 		  bludgeoning, piercing, slashing<br/>
     **Damage Immunities** 		  poison, radiant<br/>
     **Condition Immunities** 	  blinded, charmed, frightened, poisoned, exhaustion<br/>
@@ -2389,7 +2356,7 @@ The following familiar is available to Eternal Citadel patron warlocks who have 
     ### Actions
     ***Bash***. *Melee Attack*: +6 to hit. *Hit*: 1d6 + 2 bludgeoning damage and the target is pushed back 5 feet.
 
-    ***Guard***. The animate shield hovers around an ally within 5 feet of it and moves with the ally. The next time that ally is hit with an attack before the start of the shield’s next turn, the shield is hit instead. The shield cannot be forcibly moved during this time. If the ally teleports, the shield also teleports with them.
+    ***Guard***. The animate shield hovers around an ally and moves with it. The next time that ally is hit with an attack before the start of the shield’s next turn, the shield is hit instead. The shield cannot be forcibly moved during this time. If the ally teleports, the shield also teleports with them.
 
     </td></tr></tbody></table>
     </div>
@@ -2439,7 +2406,6 @@ It endlessly searches, seeking either a soul of great kindness to help it find t
 
 </div>
 
-
 <div class="descriptive" markdown="1">
 
 *Their rage was made manifest, and the stars struck the place where the mortal lived with the hate of one thousand suns, utterly destroying the mortal. They then took their former sibling and cast them down from the heavens, to wander and beg for champions to bring it justice and peace.*
@@ -2450,7 +2416,6 @@ It endlessly searches, seeking either a soul of great kindness to help it find t
 
 ### Traits of the Exiled
 Warlocks who have taken the purpose of the Fallen Exile to heart are known as the exiled, as they often forsake societal norms and boundaries in their quest. Consider adding one or more of these traits when creating a warlock or after serving the goal of the Fallen Exile.
-
 
 #### Traits
 | d8 | Traits |
@@ -2464,20 +2429,11 @@ Warlocks who have taken the purpose of the Fallen Exile to heart are known as th
 | 7 | When you cast a spell, a nimbus of light forms around you.
 | 8 | Sparks and ribbons of light trail from your fingertips whenever you gesture.
 
-
-
 ### Cosmic Conduit
-At 1st level, the Exile’s duality of betrayal and compassion infuses your spellcasting, enabling you to reach into the world in the same way that it does. Whenever you cast a spell using a warlock spell slot, you can choose to cast the spell as though you were located in the space of an enemy or ally that you can see within 60 feet. When you cast from the space of an enemy, they take 1d6 radiant damage. When you cast from the space of an ally, they gain 1d6 temporary hit points.
-
-
-
-
-
-
-
+The Exile’s duality of betrayal and compassion infuses your spellcasting, enabling you to reach into the world in the same way that it does. Whenever you cast a spell using a warlock spell slot, you can choose to cast the spell as though you were located in the space of an enemy or ally that you can see within 60 ft. When you cast from the space of an enemy, they take 1d6 radiant damage. When you cast from the space of an ally, they gain 1d6 temporary hit points.
 
 ### Stardust Crusader
-At 6th level, the Exile grants you a portion of the power it stole from the other stars as it fell, allowing access to their spirits. Choose two of the following Dawn constellations.
+The Exile grants you a portion of the power it stole from the other stars as it fell, allowing access to their spirits. Choose two of the following Dawn constellations.
 
 <div class="columns">
 
@@ -2497,7 +2453,7 @@ At 6th level, the Exile grants you a portion of the power it stole from the othe
 
 - **The Sun**: You can cast feather fall at will without expending a spell slot.
 
-- **Temperance**: You gain advantage on Wisdom (Insight) checks made to discern the motives of creatures.
+- **Temperance**: You gain advantage on *Insight* checks made to discern the motives of creatures.
 
 - **The Tower**: Damage you deal to unattended objects is tripled.
 
@@ -2508,14 +2464,14 @@ At 6th level, the Exile grants you a portion of the power it stole from the othe
 Whenever you gain a new warlock level, you can change your Dawn constellations.
 
 ### Under the Night Sky
-At 10th level, you wrest power from the Exile’s true foes with ease. Whenever you finish a long rest, you can exchange your chosen Constellations for different ones. Additionally, you gain resistance to radiant damage.
+You wrest power from the Exile’s true foes with ease. Whenever you finish a long rest, you can exchange your chosen Constellations for different ones. Additionally, you gain resistance to radiant damage.
 
 ### Astrological Savant
-At 14th level, you have finally usurped the celestial spheres. You can choose two of the following Dusk Constellations and can exchange them using your Under the Night Sky feature.
+You have finally usurped the celestial spheres. You can choose two of the following Dusk Constellations and can exchange them using your Under the Night Sky feature.
 
 <div class="columns">
 
-- **The Devil**: You have advantage on Diplomacy, Deception and Persuasion checks.
+- **The Devil**: You have advantage on all *Speechcraft* checks.
 
 - **The Empress**: When you finish a short rest, you gain temporary hit points equal to half your warlock level.
 
@@ -2543,11 +2499,11 @@ The following invocations are granted by the Fallen exile to its warlocks.
 - #### Astrological Chart
     *Prerequisite: Pact of the Tome feature*
 
-    When a creature targets you with an attack, you can use your ***reaction*** to unleash a wave of sparkling light around yourself in a 10-foot radius. All invisible creatures and objects in the area are highlighted by glowing motes of stardust. Hostile creatures in the area must succeed on a Wisdom saving throw against your warlock spell save DC or become blinded until the start of your next turn.
+    When a creature targets you with an attack, you can use your ***reaction*** to unleash a wave of sparkling light around yourself in a 10 ft radius. All invisible creatures and objects in the area are highlighted by glowing motes of stardust. Hostile creatures in the area must succeed on a Wisdom saving throw against your warlock spell save DC or become blinded until the start of your next turn.
 
     Once you use this ability, you cannot do so again until you finish a short rest.
 
-    Additionally, you can’t become lost when you have an unobstructed view of the night sky, and you gain advantage on ability checks made to navigate at night.
+    Additionally, gain 1 skill point to spend on the *Astronomy* skill.
 
 - #### The Exile’s Demand
     *Prerequisite: 20th level*
@@ -2607,13 +2563,13 @@ The following familiar is available to warlocks of the Fallen, who have selected
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    ***Bitter Spite***. Whenever a hostile creature within 30 feet of the shard is reduced to 0 hit points, it can use a ***reaction*** to lance out with a fragment of its being, dealing 1d8 radiant damage to a target of its choosing within 30 feet.
+    ***Bitter Spite***. Whenever a hostile creature within 30 ft of the shard is reduced to 0 hit points, it can use a ***reaction*** to lance out with a fragment of its being, dealing 1d8 radiant damage to a target of its choosing within 30 ft.
 
     ***Magic Resistance***. The luminous shard has advantage on saving throws against spells and other magical effects.
 
-    ***Nameless Love***. Whenever an ally within 30 feet of the shard would be reduced to 0 hit points, the shard can use a ***reaction*** to sacrifice itself, restoring that ally to 1 hit point and destroying the shard.
+    ***Nameless Love***. Whenever an ally within 30 ft of the shard would be reduced to 0 hit points, the shard can use a ***reaction*** to sacrifice itself, restoring that ally to 1 hit point and destroying the shard.
 
-    ***Starshine***. The shard can choose to generate an aura of bright light in a 20-foot radius around it and dim light in another 20-foot radius beyond that. It can toggle this aura as a bonus action. Also, it can cast the *light* cantrip. These light sources count as natural sunlight.
+    ***Starshine***. The shard can choose to generate an aura of bright light in a 20 ft radius around it and dim light in another 20 ft radius beyond that. It can toggle this aura as a bonus action. Also, it can cast the *light* cantrip. These light sources count as natural sunlight.
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -2646,18 +2602,18 @@ The following familiar is available to warlocks of the Fallen, who have selected
 You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.
 
 ### Dark One's Blessing
-Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Intelligence modifier + your warlock level.
+When you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Intelligence modifier + your warlock level.
 
 ### Dark One's Own Luck
-Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.
+You can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
 ### Fiendish Resilience
-Starting at 10th level, you can choose one damage type when you finish a long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.
+You can choose one damage type when you finish a long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance.
 
 ### Hurl Through Hell
-Starting at 14th level, when you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.
+When you hit a creature with an attack, you can use this feature to instantly transport the target through the lower planes. The creature disappears and hurtles through a nightmare landscape.
 
 At the end of your next turn, the target returns to the space it previously occupied, or the nearest unoccupied space. If the target is not a fiend, it takes 10d10 psychic damage as it reels from its horrific experience.
 
@@ -2676,14 +2632,14 @@ The following invocations are granted by the Fiend to its warlocks.
 - #### Cloak of Flies
     *Prerequisite: 5th level*
 
-    As a ***bonus action***, you can surround yourself with a magical aura that looks like buzzing flies.The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you’re incapacitated or you dismiss it as a bonus action.
+    As a ***bonus action***, you can surround yourself with a magical aura that looks like buzzing flies.The aura extends 5 ft from you in every direction, but not through total cover. It lasts until you’re incapacitated or you dismiss it as a bonus action.
 
     The aura grants you advantage on Intimidation checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Intelligence modifier.
 
 - #### Otherworldly Leap
     *Prerequisite: 9th level*
 
-    Your legs are longer than is normal for your race. Add a foot or a foot-and-a-half to your total height. Your height is visibly distinctive, and may be physically disconcerting.
+    Your legs are longer than is normal for your race. Add a foot-and-a-half to your total height. Your height is visibly distinctive and may be physically disconcerting.
 
     You can cast *jump* on yourself at will, without expending a spell slot or material components.
 
@@ -2717,22 +2673,22 @@ The following invocations are granted by the Fiend to its warlocks.
 Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it. Entities of this type include Ghaunadar, That Which Lurks, Tharizdun the Chained God, Dendar the Night Serpent, Zargon the Returner, Great Cthulhu and other unfathomable beings.
 
 ### Awakened Mind
-Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.
+Your alien knowledge gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 ft. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.
 
 ### Visions of Horror
-At 6th level, you can flood the minds of those who assault you with terrifying, incomprehensible images from your patron's realm. When a creature within 60 feet damages you, you can use your ***reaction*** to force the creature to make an Intelligence saving throw against your warlock spell save DC.
+You can flood the minds of those who assault you with terrifying, incomprehensible images from your patron's realm. When a creature within 60 ft damages you, you can use your ***reaction*** to force the creature to make an Intelligence saving throw against your warlock spell save DC.
 
 On a failed save, the creature takes psychic damage equal to 1d10 + half your warlock level and is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. On a successful save, the creature takes half as much damage and isn't frightened.
 
 Once you use this feature, you can't use it again until you finish a short rest.
 
 ### Labyrinthine Conundrum
-At 10th level, the outer layers of your mind become alien in scope - becoming indecipherable to those who would plunder it, while revealing the true nature of the world around you. You are immune to any effect that would sense your emotions, read your thoughts, or determine you are lying, unless you allow it.
+The outer layers of your mind become alien in scope - becoming indecipherable to those who would plunder it, while revealing the true nature of the world around you. You are immune to any effect that would sense your emotions, read your thoughts, or determine you are lying, unless you allow it.
 
-Additionally, you can use your ***action*** to open your mind to the truth of the world. For 10 minutes, you gain truesight out to 60 feet. Once you do so, you can't do so again until you finish a long rest.
+Additionally, you can use your ***action*** to open your mind to the truth of the world. For 10 minutes, you gain truesight out to 60 ft. Once you do so, you can't do so again until you finish a long rest.
 
 ### Create Thrall
-At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your ***action*** to touch an incapacitated humanoid. That creature is charmed by you until a ***remove curse*** spell is cast on it, the charmed condition is removed from it, or you use this feature again.
+You gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your ***action*** to touch an incapacitated humanoid. That creature is charmed by you until a ***remove curse*** spell is cast on it, the charmed condition is removed from it, or you use this feature again.
 
 You can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence. The charmed creature regards you as a trusted friend to be heeded and protected. Although the creature isn't under your control, it takes your requests or actions in the most favorable way it can.
 
@@ -2748,7 +2704,7 @@ The following invocations are granted by the Great Old One to its warlocks.
 
     Your familiar gains additional hit points equal to your warlock level, its creature type becomes aberration, and you can use your ***bonus action*** to make its appearance alien, or revert it to normal.
 
-    While your familiar appears alien, it has advantage on Intimidation checks, and you can use your ***action*** to make it do something unnatural, such as gibber in maddening voices. A creature within 10 feet of the familiar that sees this must succeed on a Wisdom saving throw against your warlock spell save DC or be frightened of the familiar for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+    While your familiar appears alien, it has advantage on Intimidation checks, and you can use your ***action*** to make it do something unnatural, such as gibber in maddening voices. A creature within 10 ft of the familiar that sees this must succeed on a Wisdom saving throw against your warlock spell save DC or be frightened of the familiar for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
     Once you've made your familiar this way, you can't do so again until you finish a short rest.
 
@@ -2783,7 +2739,7 @@ The following invocations are granted by the Great Old One to its warlocks.
 - #### Voice of Ulban
     *Your ability to touch the minds of other creatures expands dramatically.*
 
-    When you use your Awakened Mind feature to communicate telepathically, the range increases to 120 feet, you can communicate with a number of creatures equal to your Intelligence modifier simultaneously, and other creatures can respond to your telepathic messages, but can't initiate or terminate contact.
+    When you use your Awakened Mind feature to communicate telepathically, the range increases to 120 ft, you can communicate with a number of creatures equal to your Intelligence modifier simultaneously, and other creatures can respond to your telepathic messages, but can't initiate or terminate contact.
 
 - #### Whispers Beyond the Veil
     *You can draw your consciousness close to the veil between worlds, listening to whispers from the denizens of the Far Realm.*
@@ -2820,7 +2776,6 @@ Situated within her palace of gold and turquoise, the Serpent Empress sleeps in 
 #### Traits of the Imperial Courtier
 Consider adding one or more of these traits when creating a warlock or after serving the in schemes of the Empress.
 
-
 #### Traits
 | d8 | Quirk |
 |:-:|:-------------|
@@ -2833,24 +2788,21 @@ Consider adding one or more of these traits when creating a warlock or after ser
 | 7 | You frequently wear snakes upon your body. |
 | 8 | You have a tendency to not blink. |
 
-
 ### Blessing of the Empress
-At 1st level, you receive the favor of your patron. You gain advantage on saving throws against poison and effects that inflict the poisoned condition. You can speak to snakes, serpents, and other reptiles as though you were under the effects of the *speak with animals* spell.
+You receive the favor of your patron. You gain advantage on saving throws against poison and effects that inflict the poisoned condition. You can speak to snakes, serpents, and other reptiles as though you were under the effects of the *speak with animals* spell.
 
-Whenever you cast a spell that has a verbal component, you can suppress the senses of those around you. Choose one creature within 30 feet that can hear you. Your spellcasting is silent to that creature, and it has disadvantage on its next Wisdom, Intelligence, or Charisma check within 1 minute.
-
-
+Whenever you cast a spell that has a verbal component, you can suppress the senses of those around you. Choose one creature within 30 ft that can hear you. Your spellcasting is silent to that creature, and it has disadvantage on its next Wisdom, Intelligence, or Charisma check within 1 minute.
 
 ### Hair of Snakes
-At 6th level, you can cause a swarm of serpents to grow from your head as a ***bonus action***, and they remain until you dismiss them. While they are out, you can see through the eyes of these serpents. As long as the serpents can see, you have advantage on Perception checks, gain low-light vision out to 30 feet, and gain immunity to the blinded condition.
+You can cause a swarm of serpents to grow from your head as a ***bonus action*** and they remain until you dismiss them. While they are out, you can see through the eyes of these serpents. As long as the serpents can see, you have advantage on Perception checks, gain low-light vision out to 30 ft and gain immunity to the blinded condition.
 
-While you are within 10 feet of a creature, you can use your action to have your serpents whisper a sinful secret to the creature. The target must make a Wisdom saving throw against your warlock spell save DC. If it fails, it gains the charmed condition until the end of your next turn or until it takes damage.
+While within 10 ft of a creature, you can use your ***action*** to have your serpents whisper a sinful secret to the creature. The target must make a Wisdom saving throw against your warlock spell save DC. If it fails, it gains the charmed condition until the end of your next turn or until it takes damage.
 
 ### Toxic Blood
-At 10th level, your veins run with venom. You gain resistance to poison damage and immunity to the poisoned condition. Additionally, poison damage you deal treats immunity to poison as resistance to poison. Creatures immune to the poisoned condition are considered to be not immune, but they do have advantage on any saving throw against the poison.
+Your veins run with venom. You gain resistance to poison damage and immunity to the poisoned condition. Additionally, poison damage you deal treats immunity to poison as resistance to poison. Creatures immune to the poisoned condition are considered to be not immune, but they do have advantage on any saving throw against the poison.
 
 ### Gaze of the Goddess
-At 14th level, your patron looks from your eyes and exerts her supreme power through you. As an ***action***, choose one creature within 30 feet. The target is paralyzed for one minute. If the target takes damage, the effect ends. If the target is immune to paralysis, it takes 3d10 psychic damage and is knocked prone.
+Your patron looks from your eyes and exerts her supreme power through you. As an ***action*** choose one creature within 30 ft. The target is paralyzed for one minute. If the target takes damage, the effect ends. If the target is immune to paralysis, it takes 3d10 psychic damage and is knocked prone.
 
 Once you use this feature, you can’t do so again until you finish a long rest.
 
@@ -2872,7 +2824,7 @@ The following invocations are granted by Hesperia to its warlocks.
 - #### Handmaiden's Friend
     *Prerequisite: Pact of the Chain feature*
 
-    When you have an imperial cobra as your familiar, it gains additional hit points equal to your warlock level. While your familiar is within 10 feet of you, it can use its ***reaction*** to make an attack whenever you take damage.
+    When you have an imperial cobra as your familiar, it gains additional hit points equal to your warlock level. While your familiar is within 10 ft of you, it can use its ***reaction*** to make an attack whenever you take damage.
 
 - #### Majestic Scales
     *Prerequisite: 6th level*
@@ -2934,11 +2886,11 @@ The following familiar is available to Serpent Empress patron warlocks who have 
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    **Saving Throws** 				  Dex +7<br/>
-    **Skills** 								  Deception +4, Perception +3, Persuasion +4, Stealth +7<br/>
-    **Damage Immunities** 		  poison<br/>
-    **Condition Immunities** 	  charmed, frightened, petrified, poisoned, prone<br/>
-    **Languages** 						  common and those known by its master, can communicate with other reptiles regardless of language.
+    **Saving Throws** 			Dex +7<br/>
+    **Skills** 		            Perception, Speechcraft, Stealth<br/>
+    **Damage Immunities** 		poison<br/>
+    **Condition Immunities** 	charmed, frightened, petrified, poisoned, prone<br/>
+    **Languages** 				common and those known by its master, can communicate with other reptiles regardless of language.
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -2986,7 +2938,6 @@ The intentions of these cunning and enigmatic yet bestial beings are incredibly 
 ### Quirks
 Warlocks of a Hive patron are often regarded as frightening individuals who spend much of their time living amongst creatures others would consider vermin. This stigma is often well justified, as they commonly exhibit disturbing behaviours imparted by the influence of the hive.
 
-
 | d6 | Quirk |
 |:--:|:------|
 | 1 | Every now and then, a bug will fly out of your mouth while you are talking. This is perfectly normal.
@@ -2996,27 +2947,23 @@ Warlocks of a Hive patron are often regarded as frightening individuals who spen
 | 5 | You often find yourself distracted, observing the behaviour of insects.
 | 6 | You are disappointed that you don't find rotting meat palatable, as it smells delightful.
 
-
-
 ### Children of the Swarm
-At 1st level, you can summon the young of your hive to feed on your fallen enemies. When you slay a creature, you can cause a ravenous cloud of insects to erupt from its body as a ***reaction***. Any hostile creature that begins their turn or moves within 5 feet of the target corpse suffers magical piercing damage equal to your Intelligence modifier + half your warlock level.
-
-
+You can summon the young of your hive to feed on your fallen enemies. When you slay a creature, you can cause a ravenous cloud of insects to erupt from its body as a ***reaction***. Any hostile creature that begins their turn or moves adjacent to the target corpse suffers magical piercing damage equal to your Intelligence modifier + half your warlock level.
 
 The swarm will disperse after 1 minute, or if the target corpse is destroyed, revived, raised  or if you use this feature again on another slain creature. This feature can't be used on any creature that is not made of organic matter, such as constructs and elementals.
 
 ### Gnashing Swarm
-At 6th level, you can send out the swarm to harry your foes. As an ***action***, your swarm appears as a 10-foot-radius cloud within 60 feet of you. The swarm remains for 1 minute, making the area heavily obscured for creatures other than you. If an enemy creature enters the swarm the first time on a turn or starts it's turn in it, it takes 3d4 piercing damage. Creatures that are reduced to 0 hit points from this damage are affected by Children of the Swarm.
+You can send out the swarm to harry your foes. As an ***action***, your swarm appears as a 10 ft radius cloud within 60 ft of you. The swarm remains for 1 minute, making the area heavily obscured for creatures other than you. If an enemy creature enters the swarm the first time on a turn or starts it's turn in it, it takes 3d4 piercing damage. Creatures that are reduced to 0 hit points from this damage are affected by Children of the Swarm.
 
-As a ***bonus action***, you can move the center of the swarm 20 feet. A wind of at least 10 miles per hour disperses the swarm and ends the effect. You can't use this ability until you complete a long rest.
+As a ***bonus action***, you can move the center of the swarm 20 ft. A wind of at least 10 miles per hour disperses the swarm and ends the effect. You can't use this ability until you complete a long rest.
 
 ### Hive Mind
-Starting at 10th level, you and your swarm's consciousness have melded together, for better or worse. You have advantage on saving throws against poison, and resistance against poison and psychic damage.
+You and your swarm's consciousness have melded together, for better or worse. You have advantage on saving throws against poison, and resistance against poison and psychic damage.
 
 Additionally, if you make a saving throw against being charmed or frightened, you can choose to automatically succeed instead of rolling. You regain this feature after a short rest.
 
 ### One of Many
-Starting at 14th level, you can discorporate into a swarm as a ***bonus action***. You can spend up to 1 minute in this form however the time spent does not need to be contiguous. You regain all expended time in this form when you finish a long rest. This effect is similar to the gaseous form spell except it does not require concentration or components, your flight speed is 60 feet, and you can freely discard this form without using an action.
+You can discorporate into a swarm as a ***bonus action***. You can spend up to 1 minute in this form however the time spent does not need to be contiguous. You regain all expended time in this form when you finish a long rest. This effect is similar to the gaseous form spell except it does not require concentration or components, your flight speed is 60 feet, and you can freely discard this form without using an action.
 
 You can also choose to unleash a second massive swarm as an ***action*** when you discard this form. Every hostile creature within 15 feet of you must make a Constitution saving throw against your warlock spell save DC. On a failed saving throw a creature suffers 4d10 magical piercing damage and takes half damage on a success.
 
@@ -3043,9 +2990,7 @@ The following invocations have been added as additions for the Hive patron.
 - #### Million Whispers
     *Prerequisite: Pact of the Tome feature, 9th level*
 
-    You can perform a 10 minute ritual while holding your Book of Shadows to commune with all insects within 3 miles. This effect is similar to the *commune with nature* spell, however a group of insects will also lead you along the shortest path to one location of your choice, and you gain advantage on Perception and Survival checks while you remain within 30 feet of this guiding insect swarm.
-
-
+    You can perform a 10 minute ritual while holding your Book of Shadows to commune with all insects within 3 miles. This effect is similar to the *commune with nature* spell, however a group of insects will also lead you along the shortest path to one location of your choice, and you gain advantage on Perception and Survival checks while you remain within 30 ft of this guiding insect swarm.
 
 </div>
 
@@ -3074,7 +3019,6 @@ You have formed a symbiotic relationship with your patron, by integrating a port
 ### Quirks
 The power of Jubilex touches more than just the soul. Consider adding one or more of these traits when creating a warlock.
 
-
 | d8 | Quirk |
 |:-:|:-------------|
 | 1 | You track footprints of slime wherever you go while outdoors. You can suppress this when you notice it.
@@ -3087,29 +3031,27 @@ The power of Jubilex touches more than just the soul. Consider adding one or mor
 | 8 | Your eyes are acid green with purple flecks.
 
 ### Amorphous Step
-Starting at 1st level, your form becomes more flexible and fluid. You can move through a space as narrow as a foot wide without squeezing, and you have resistance to falling damage.
-
-
+Your form becomes more flexible and fluid. You can move through a space as narrow as a foot wide without squeezing, and you have resistance to falling damage.
 
 ### Recovered Memories
-Also at 1st level, you learn to dissolve the bodies of the dead and learn from their lives. As an ***action*** while standing adjacent to a corpse, you can produce an iridescent acid that consumes the corpse over the course of 1 minute. Once the process has finished, you can reabsorb the acid to access the creature’s memories. You gain information about the creature’s last 48 hours alive and the most important memories from their final year of life.
+You learn to dissolve the bodies of the dead and learn from their lives. As an ***action*** while standing adjacent to a corpse, you can produce an iridescent acid that consumes the corpse over the course of 1 minute. Once the process has finished, you can reabsorb the acid to access the creature’s memories. You gain information about the creature’s last 48 hours alive and the most important memories from their final year of life.
 
 Once you use this feature, you can’t use it again until you finish a long rest.
 
 ### Side Splitting
-At 6th level, your body becomes somewhat... slimy. Whenever you suffer damage, you can use your ***reaction*** to divide into a Medium swarm of Tiny oozes, gaining resistance to damage from the attack.
+Your body becomes somewhat... slimy. Whenever you suffer damage, you can use your ***reaction*** to divide into a Medium swarm of Tiny oozes, gaining resistance to damage from the attack.
 
 Your hit points remain the same, and you function as a single unified swarm that occupies the same space as a Medium creature. While in this state, you can’t take actions other than the Dash action, your movement speed is halved, you gain resistance to bludgeoning, piercing, and slashing damage, you gain immunity to acid and poison damage, you don’t provoke opportunity attacks, and you can move through any space as narrow as 1 inch without squeezing. You can return to your normal form at will without using an action, provided there is room to do so.
 
 Once you use this feature, you can’t use it again until you finish a long rest. Starting at 10th level, you can use this feature at will as an ***action***. Using this feature as a reaction is still limited to once per long rest.
 
 ### Acidic Body
-Starting at 10th level, you are able to absorb some of the impact from physical blows and acid due to your acidic, gelatinous nature. You gain resistance to acid damage and nonmagical bludgeoning damage.
+You are able to absorb some of the impact from physical blows and acid due to your acidic, gelatinous nature. You gain resistance to acid damage and nonmagical bludgeoning damage.
 
 Additionally, whenever a creature starts its turn in a grapple with you, you can choose to have it take 2d8 acid damage.
 
 ### Cellular Division
-Starting at 14th level, when you are hit by an attack you can choose to split your form in two. The two resulting forms are considered a size smaller than your normal size and each have hit points equal to half your amount when you spilt. On each of your turns, you can choose to use your movement and action with either one of the two forms, but not both.
+When you are hit by an attack you can choose to split your form in two. The two resulting forms are considered a size smaller than your normal size and each have hit points equal to half your amount when you spilt. On each of your turns, you can choose to use your movement and action with either one of the two forms, but not both.
 
 After 1 minute, if the two forms move more than 60 feet from each other, or until one of the forms drops to 0 hit points, the two forms merge back into your normal self with your hit points equal to the current hit points of the two individual forms added together.
 
@@ -3180,16 +3122,16 @@ The following familiar is available to warlocks of the Formless One, who have se
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    **Damage Immunities**   	  acid, bludgeoning, poison<br/>
-    **Condition Immunities** 	  blinded, charmed, deafened, exhaustion, frightened, poisoned, prone<br/>
-    **Senses** 								  blindsight 10 ft<br/>
-    **Languages** 						  common and those known by its master, but can’t speak
+    **Damage Immunities**       acid, bludgeoning, poison<br/>
+    **Condition Immunities** 	blinded, charmed, deafened, exhaustion, frightened, poisoned, prone<br/>
+    **Senses** 					blindsight 10 ft<br/>
+    **Languages** 				common and those known by its master, but can’t speak
 
     </td></tr>
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    ***Corrosive Form***. A creature that hits the cube with a melee attack while within 5 feet of it takes 1d8 acid damage. The cube can eat through 1-inch-thick nonmagical wood or metal in one round.
+    ***Corrosive Form***. A creature that hits the cube with a melee attack while within 5 feet of it takes 1d8 acid damage. The cube can eat through 1 inch thick nonmagical wood or metal in one round.
 
     ***False Appearance***. While the ooze remains motionless, it is indistinguishable from a small puddle or wet stone.
 
@@ -3215,10 +3157,6 @@ The following familiar is available to warlocks of the Formless One, who have se
     </div>
 
 </div>
-
-
-
-
 
 
 
@@ -3249,13 +3187,10 @@ Those who survive but are not worthy of collection are marked by the Keeper, who
 #### Dreams of the Deep
 The Keeper’s reach is more than a mere invasion. Once the Keeper discovers something interesting in one, it will begin to dig, burrowing into the consciousness of the unfortunate victim. Tentacles of unearthly energy pour forth from its dream self into the surrounding ego, changing and twisting existing memories as it extracts what it desires.
 
-
-
 Those who have experienced it describe it as being like suffering an injury and finding out that one’s bones are actually endless teeth stacked one atop another, merged into the shape that they should be but completely wrong nevertheless. Such is the horror that the Keeper inflicts, and yet some still go to it in supplication, for there is power in the twisting marks it makes upon ones soul.
 
 #### Traits of the Dweller
 The Keeper takes more than just restful sleep; it steals humanity and one’s own sense of self as well. Consider adding one or more of these traits when creating a warlock or after serving the goals of the Keeper of the Depths.
-
 
 | d8 | Quirk |
 |:-:|:-------------|
@@ -3268,42 +3203,29 @@ The Keeper takes more than just restful sleep; it steals humanity and one’s ow
 | 7 | When you cast a spell, dark tentacles seem to reach up from under your skin before disappearing.
 | 8 | You sometimes ask personal questions instead of offering greetings.
 
-
 #### The Pact
 You’ve made a pact with an ancient oceanic entity known as the Keeper of the Depths. As life teems within the seas, so do the secrets of the forgotten ages – sunken cities, ships lost at sea, and treasures unimaginable gone to the darkest currents that churn with horrible tentacles and creatures from nightmare. The Keeper watches over all this hidden knowledge, and harvests ever more in its endless pursuit of the unspoken secrets of the universe. In the deepest crevices where sunlight has never been seen, all oceans are one to the Keeper of the Depths, and its desire is insatiable.
 
-
-
-
 ### Secrets of the Lost
-Starting at 1st level, your patron visits you in your dreams, stealing fragments of your experiences in exchange for hidden knowledge. Whenever you finish a long rest, you gain proficiency with two skills or languages of your choice. You remain proficient in these until you finish another long rest, at which point you can choose new ones to replace them.
-
-
-
-
-
-
-
+Your patron visits you in your dreams, stealing fragments of your experiences in exchange for hidden knowledge. Whenever you finish a long rest, you gain 2 skills points to spend on non-combat skills. You have these skills until you finish another long rest.
 
 ### The Depths of Knowledge
-Also at 1st level, you can perform a 10 minute ritual to focus your awareness on the region around you. For 1 minute you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are on the ocean or underwater): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creature's' location or number.
+You can perform a 10 minute ritual to focus your awareness on the region around you. For 1 minute you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are on the ocean or underwater): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creature's' location or number.
 
 ### Sailor’s Nightmare
-At 6th level, you can curse your enemies, using the weight of ethereal water to drag them into the sea’s embrace. As a ***bonus action***, you can curse a creature within 60 feet for 1 minute. While the creature is afflicted by this curse, it cannot jump or fly, and it treats all terrain as difficult terrain. If the creature is flying or swimming, at the start of each of its turns it must succeed at a Strength saving throw or descend 60 feet.
+You can curse your enemies, using the weight of ethereal water to drag them into the sea’s embrace. As a ***bonus action***, you can curse a creature within 60 ft for 1 minute. While the creature is afflicted by this curse, it cannot jump or fly, and it treats all terrain as difficult terrain. If the creature is flying or swimming, at the start of each of its turns it must succeed at a Strength saving throw or descend 60 ft.
 
 After you use this ability, you must complete a long rest before you may use it again.
 
 ### Madness of the Deep
-At 10th level, the Keeper’s gaze looms over you. Whenever you take damage, you can use your ***reaction*** to unleash a wave of black ink to cloud the air in a 10-foot radius of your current location for one minute, heavily obscuring the area. Hostile creatures that end their turn within the area must make a Wisdom saving throw against your warlock spell save DC. If they fail, they are frightened until the start of your next turn and must attempt to escape the cloud.
+The Keeper’s gaze looms over you. Whenever you take damage, you can use your ***reaction*** to unleash a wave of black ink to cloud the air in a 10 ft radius of your current location for one minute, heavily obscuring the area. Hostile creatures that end their turn within the area must make a Wisdom saving throw against your warlock spell save DC. If they fail, they are frightened until the start of your next turn and must attempt to escape the cloud.
 
 Once you use this feature, you can’t do so again until you finish a long rest.
 
 ### Hunger for Knowledge
-Starting at 14th level, you can summon the terrible maw of the Keeper to appear before you as an action. A massive beak surrounded by tentacles appears and attempts to grab a target of your choice within 30 feet. When a creature is targeted, it must make a Strength saving throw against your warlock spell save DC to shake off the grasp of the horror. If the target fails, it is dragged into the beak and bitten, taking 6d10 piercing damage and 6d10 psychic damage. If this is enough to reduce the target to 0 hit points, you can choose to have them be swallowed whole by the mouth, consuming them. Either way, the maw then immediately disappears.
+You can summon the terrible maw of the Keeper to appear before you as an ***action***. A massive beak surrounded by tentacles appears and attempts to grab a target of your choice within 30 ft. When a creature is targeted, it must make a Strength saving throw against your warlock spell save DC to shake off the grasp of the horror. If the target fails, it is dragged into the beak and bitten, taking 6d10 piercing damage and 6d10 psychic damage. If this is enough to reduce the target to 0 hit points, you can choose to have them be swallowed whole by the mouth, consuming them. Either way, the maw then immediately disappears.
 
 Once you summon this maw, you can’t do so again until you finish a long rest.
-
-
 
 If the maw consumes a creature using this feature, your patron visits you in your dreams during your next long rest and grants you a boon in return for the sacrifice. Choose any spell of 5th level or lower from the warlock or wizard spell lists. You can cast this spell twice using a warlock spell slot, after which it is lost. The spell is also lost if you sacrifice a new creature and select a new spell using this feature.
 
@@ -3320,12 +3242,12 @@ The following invocations are granted by the Keeper of the deep to its warlocks.
 - #### Paper Boat
     *Prerequisite: Pact of the Tome feature*
 
-    Your book of shadows becomes filled with sea charts and navigational maps. You gain proficiency with navigator’s tools and cartographer’s tools, and your Book of Shadows is able to act as both. You can’t become lost as long as you have your Book of Shadows.
+    Your book of shadows becomes filled with sea charts and navigational maps. You gain the *Astronomy - Navigation* skill and its prerequisite and your Book of Shadows is able to act as navigation tools. You can not become lost as long as you have your Book of Shadows.
 
     By performing a 1 minute ritual with your Book of Shadows, you can transform it into a paper boat large enough to carry one Medium creature or object. The boat is impervious to water and damage, but lacks any means of propulsion. The boat can hold up to 500 pounds, instantly turning back into a book if more weight is placed onto it. You can transform the boat back into a book through the same ritual.
 
 - #### Pod Leader
-    Your swimming speed increases by 10 feet. While in water, friendly creatures within 30 feet of you gain a swimming speed equal to their movement speed.
+    Your swimming speed increases by 10 ft. While in water, friendly creatures within 30 feet of you gain a swimming speed equal to their movement speed.
 
 - #### Sea Serpent
     *Prerequisites: Pact of the Chain feature*
@@ -3335,7 +3257,7 @@ The following invocations are granted by the Keeper of the deep to its warlocks.
 - #### Sirensong
     *Prerequisites: 5th level*
 
-    As a ***bonus action***, you can usher forth an unearthly song that seems to come from all directions. Any creatures within 30 feet of you that can hear you must make a Wisdom saving throw against your spell save DC. If a creature fails this saving throw, it gains the charmed condition until the end of your next turn. When you charm a creature with this ability, you may choose to move it up to 20 feet in a straight line closer to you.
+    As a ***bonus action***, you can usher forth an unearthly song that seems to come from all directions. Any creatures within 30 ft of you that can hear you must make a Wisdom saving throw against your spell save DC. If a creature fails this saving throw, it gains the charmed condition until the end of your next turn. When you charm a creature with this ability, you may choose to move it up to 20 ft in a straight line closer to you.
 
     Once you use this ability, you require a short rest before you may use it again.
 
@@ -3371,19 +3293,19 @@ Young Sea Drake
 <tr><td><hr></td></tr>
 <tr><td markdown="1" class="monster">
 
-**Skills** 		  Perception +3, Stealth +4, Survival +3<br/>
-**Senses** 		  darkvision 30 ft<br/>
+**Skills** 		Perception, Stealth, Survival<br/>
+**Senses** 		darkvision 30 ft<br/>
 **Languages**   understands Common, Draconic, and Aquan but can't speak
 
 </td></tr>
 <tr><td><hr></td></tr>
 <tr><td markdown="1" class="monster">
 
-***Keen Senses.***  The young sea drake has advantage on Perception checks that rely on sight.
+***Keen Senses.***  The young sea drake has the *Perception - Sense-sight* skill.
 
 ***Magic Resistance.*** The young sea drake has advantage on saving throws against spells and other magical effects.
 
-***Limited Telepathy.*** The young sea drake can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.
+***Limited Telepathy.*** The young sea drake can magically communicate simple ideas, emotions and images telepathically with any creature within 1 feet of it that can understand a language.
 
 </td></tr>
 <tr><td><hr></td></tr>
@@ -3392,7 +3314,7 @@ Young Sea Drake
 ### Actions
 ***Bite.*** *Melee Weapon Attack:* +4 to hit. *Hit*: 1d4+2 piercing damage.
 
-***Torrent Breath*** Choose one creature the drake can see within 30 feet. The drake unleashes a torrent of water from its mouth, forcing the targeted creature to make a Dexterity saving throw against your warlock spell save DC. If that creature fails, it is pushed up to 10 feet directly away from the drake, and takes bludgeoning damage equal to your warlock level + your Intelligence modifier (half damage on a success).
+***Torrent Breath*** Choose one creature the drake can see within 30 ft. The drake unleashes a torrent of water from its mouth, forcing the targeted creature to make a Dexterity saving throw against your warlock spell save DC. If that creature fails, it is pushed up to 10 feet directly away from the drake, and takes bludgeoning damage equal to your warlock level + your Intelligence modifier (half damage on a success).
 
 ***Marine Camouflage.*** The drake shifts the color of its scales to blend into its environment until it attacks or uses its Torrent Breath, or until its concentration ends (as if concentrating on a spell). Until then, it and any creature it is riding have advantage on Stealth checks made to hide.
 
