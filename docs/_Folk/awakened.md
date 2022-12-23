@@ -305,7 +305,7 @@ An awakened approach to some classes is a bit different than that of other races
 - ### Paladin
     Awakened are too connected to the negative planes and usually cannot connect to the positive planes of existence. An awakened Paladin changes all class features that deal radiant damage to necrotic damage.
 
-    All awakened also have access to the **Oath of the Revenant**.
+    All awakened also have access to the <a href="../Classes/paladin.html#internal-revenant">Oath of the Revenant</a>.
 
     <img src='https://robertrigo.github.io/pics/awakened_cavalier.png' style='width:75%;padding:20px' />
 
