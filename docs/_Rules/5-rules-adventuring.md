@@ -24,6 +24,8 @@ layout: default
 
 This chapter covers the basics of the adventuring life, from the mechanics of movement to the rules of resting and activities your character might pursue between adventures.
 
+<img src='../assets/images/campfire_by_temarinde.jpeg' style='width:55%;padding:20px' />
+
 Heroic though they might be, adventurers can’t spend every hour of the day in the thick of exploration, Social Interaction, and Combat. They need rest — time to sleep and eat, tend their wounds, refresh their minds and spirits for Spellcasting, and brace themselves for further adventure.
 
 There are two kinds of rests, short and long.

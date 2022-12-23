@@ -45,12 +45,12 @@ layout: default
   <a href="3-rules-combat.html#internal-UnderwaterCombat">Underwater Combat</a><br/>
 
 - ##### <a href="4-rules-spells.html#internal-magic">Spells and Magic</a>
-  <a href="4.1-spells.html">Spells</a><br/>
   <a href="4-rules-spells.html#internal-IdentifyingSpells">Identifying Spells</a><br/>
   <a href="4-rules-spells.html#internal-PreparedSpells">Prepared Spells</a><br/>
   <a href="4-rules-spells.html#internal-SpellCastingTime">Spell Casting Time</a><br/>
   <a href="4-rules-spells.html#internal-SpellComponents">Spell Components</a><br/>
   <a href="4-rules-spells.html#internal-SpellTargets">Spell Targets</a><br/>
+  <a href="4.1-spells.html">Spells List</a><br/>
   <a href="4-rules-spells.html#internal-WildMagic">Wild Magic</a><br/>
 
 - ##### <a href="5-rules-adventuring.html#internal-adventuring">Adventuring</a>
@@ -72,8 +72,8 @@ layout: default
 
 - ##### <a href="7-rules-water.html#internal-water">Water rules</a>
   <a href="7-rules-water.html#internal-Armorinwater">Armor in water</a><br/>
-  <a href="7-rules-water.html#internal-Drowning">Drowning</a><br/>
   <a href="7-rules-water.html#internal-ClimbinguponaShip">Climbing up on a Ship</a><br/>
+  <a href="7-rules-water.html#internal-Drowning">Drowning</a><br/>
   <a href="7-rules-water.html#internal-Resting">Falling off a Ship</a><br/>
   <a href="7-rules-water.html#internal-Underwater">Underwater</a><br/>
   <a href="7-rules-water.html#internal-UnderwaterCombat">Underwater Combat</a><br/>

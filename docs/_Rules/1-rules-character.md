@@ -32,7 +32,7 @@ layout: default
 
 The first step when playing is to create a character. All classes and folk can be found in the menu.
 
-<img src='../assets/images/characters.png' style='width:50%;padding:20px' />
+<img src='https://www.goblinstavern.gr/wp-content/uploads/2022/05/races_alltogether_4_cropped-1024x406.jpg' style='width:70%;padding:20px' />
 
 <div class="columnsthree">
 

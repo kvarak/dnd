@@ -9,12 +9,12 @@ layout: default
 ##### <a href="2-rules-equipment.html">Equipment</a>
 ##### <a href="3-rules-combat.html">Combat</a>
 ##### <a href="#internal-magic">Spells and Magic</a>
-<a href="4.1-spells.html">Spells</a><br/>
 <a href="#internal-IdentifyingSpells">Identifying Spells</a><br/>
 <a href="#internal-PreparedSpells">Prepared Spells</a><br/>
 <a href="#internal-SpellCastingTime">Spell Casting Time</a><br/>
 <a href="#internal-SpellComponents">Spell Components</a><br/>
 <a href="#internal-SpellTargets">Spell Targets</a><br/>
+<a href="4.1-spells.html">Spells List</a><br/>
 <a href="#internal-WildMagic">Wild Magic</a><br/>
 
 ##### <a href="5-rules-adventuring.html">Adventuring</a>
@@ -50,13 +50,9 @@ There are three kinds of magic:
 
 </div>
 
-<hr>
+<p style="text-align:center"><img src='https://static.fandomspot.com/images/09/9084/00-featured-wizard-darkness-casting-spell-digitalpainting-000fesbra000.jpg' style='width:50%;padding:20px' /></p>
 
 <div class="columnsthree">
-
--   ### Spells
-
-    <a href="4.1-spells.html">All spells can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-IdentifyingSpells">Identifying Spells</a>
     To identify a spell, a character can use a ***reaction*** to identify it as it’s being cast or  an action to identify it by its effect after it is cast.
@@ -92,6 +88,10 @@ There are three kinds of magic:
     ***Material***. Some spells requires particular objects, specified in parentheses in the component entry. A caster can use a component pouch or a spellcasting focus in place of an item, unless a cost is indicated. A spellcaster must have a hand free to access material components, but it can be the same hand that he or she uses to perform somatic components.
 
     ***Focus***. An item through which the magic of the spell is focused. This item needs to be present and held, but is not consumed.
+
+-   ### Spells List
+
+    <a href="4.1-spells.html">All spells can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-WildMagic">Wild Magic</a>
     To find the result of a Wild magic effect roll a ***1d1000 + caster's Luck modifier - target's Luck modifier***.

@@ -13,8 +13,8 @@ layout: default
 ##### <a href="6-rules-travel.html">Travel</a>
 ##### <a href="#internal-water">Water rules</a>
 <a href="#internal-Armorinwater">Armor in water</a><br/>
-<a href="#internal-Drowning">Drowning</a><br/>
 <a href="#internal-ClimbinguponaShip">Climbing up on a Ship</a><br/>
+<a href="#internal-Drowning">Drowning</a><br/>
 <a href="#internal-Resting">Falling off a Ship</a><br/>
 <a href="#internal-Underwater">Underwater</a><br/>
 <a href="#internal-UnderwaterCombat">Underwater Combat</a><br/>
@@ -53,14 +53,13 @@ Specific rules for what happens in and on water. Unless otherwise noted all abil
 
     You can attempt to remove your armor, but you will be sinking at a rate of 20 ft per round during this time. It normally takes 5 minutes (50 rounds) to doff your armor.
 
+-   ### <a class="internal-link" name="internal-ClimbinguponaShip">Climbing up on a Ship</a>
+    If within 5 ft of a moving ship, you must make a ***DC 10 Strength check***. Failure means that you cannot move this round, you are using all of your strength to simply keep your head above the waves. Once you reach the ship, you must make as ***DC 15 Strength (Climb)*** check to climb back onto the ship. Failure results in you falling back into the water.
+
 -   ### <a class="internal-link" name="internal-Drowning">Drowning</a>
     After 1 + your Constitution bonus minutes of holding your breath underwater you fall unconscious, your hit points fall to 0, and you begin making your death saving throws as per the standard rules.
 
     However, if you become stable there is a problem. If you are still under water you can’t remain stable. So you must start making death saving throws again. This continues until you die unless you are saved in some way.
-
-
--   ### <a class="internal-link" name="internal-ClimbinguponaShip">Climbing up on a Ship</a>
-    If within 5 ft of a moving ship, you must make a ***DC 10 Strength check***. Failure means that you cannot move this round, you are using all of your strength to simply keep your head above the waves. Once you reach the ship, you must make as ***DC 15 Strength (Climb)*** check to climb back onto the ship. Failure results in you falling back into the water.
 
 -   ### <a class="internal-link" name="internal-FallingoffaShip">Falling off a Ship</a>
     This can be hazardous to your health. If you fall or are pushed overboard, you must succeed on a ***DC 10 Dexterity check*** to enter the water without damage. Otherwise you receive 1d6 hit points damage from the fall.
