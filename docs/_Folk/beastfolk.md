@@ -39,7 +39,7 @@ A few make their presence known only to trade, and then disappear, returning to 
 Different types of Bestfolk are extremely diverse, with only the following trais in common.
 
 #### Beastly Brotherhood
-You have advantage on Animal handling or Intimidation checks when interacting with normal animals related to your kind.
+You have ***Expertise*** with *Animal handling* and *Intimidation* checks when interacting with normal animals related to your kind.
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-apefolk">Apefolk</a></h1>
@@ -73,11 +73,11 @@ The mighty Ozo tower over their relatively hairless human cousins, preferring to
 
 - **Size**. Adult males stand between 1.4 and 1.95 m tall, with an arm span that stretches from 2.3 to 2.7 m. Female Ozo are shorter at 1.25 to 1.5 m. A male Ozo weighs on average 170 kg, but can reach weights of 270 kg. Your size is Medium.
 
-- **Speed**. You have a movement speed of 35 feet when your hands are unoccupied, 30 feet when one hand is occupied, and 25 feet when both hands are occupied.
+- **Speed**. You have a movement speed of 35 ft when your hands are unoccupied, 30 ft when one hand is occupied and 25 ft when both hands are occupied.
 
 - **Ape Weaponry**. You can use your teeth or hands to make unarmed strikes. If you hit, you deal bludgeoning (fists) or piercing (bite) damage equal to 1d6 + your Strength modifier.
 
-- **Imposing Stature**. You are proficient with the Intimidation skill.
+- **Imposing Stature**. Add the *Physique* skill to your class skills if not already there. The *Physique - Intimidation* skill costs 0 for you.
 
 - **Woodland Traveler**. Difficult terrain due to plants, bushes or trees does not impede your movement.
 
@@ -92,7 +92,7 @@ Charau-ka resemble chimpanzees, and despite their small stature, are much strong
 
 - **Size**. Charau-ka stand between 3½ and 4½ feet tall, and weigh 80-130 pounds. Your size is Small.
 
-- **Speed**. You have a movement speed of 25 feet, and a climbing speed of 20 feet.
+- **Speed**. You have a movement speed of 25 ft and a climbing speed of 20 ft.
 
 - **Ape Weaponry**. You can use your teeth or hands to make unarmed strikes. If you hit, you deal bludgeoning (fists) or piercing (bite) damage equal to 1d4 + your Strength modifier.
 
@@ -100,7 +100,7 @@ Charau-ka resemble chimpanzees, and despite their small stature, are much strong
 
     While holding something with one or both feet, your walking speed is 0. Your climbing speed is halved, unless both your hands are free.
 
--  **Graceful Movement**. You are proficient with the Acrobatics skill. When not wearing heavy armor, you can use your Dexterity in place of your Strength when climbing, or determining the distance you can cover when making a jump.
+-  **Graceful Movement**. Add the *Acrobatics* skill to your class skills if not already there, and gain 1 skill point to spend on that skill. When not wearing heavy armor, you can use your Dexterity in place of your Strength when climbing and determining the distance you can cover when making a jump.
 
 -  **Prehensile Tail**. You can make object interactions using your tail, and if you are not wearing heavy armor, you can suspend your body weight from it.
 
@@ -190,7 +190,7 @@ Ursine character has a number of traits in common.
 
 - **Size**. Ursine are bulky creatures, wide-shouldered and standing 1.80 - 3 meters tall, and weighing 100 – 700 kg. Your size is Medium.
 
-- **Speed**. Your base speed is 30 feet.
+- **Speed**. Your base speed is 30 ft.
 
 - **Powerful Build**. You count as one size larger when determining your carrying capacity and the weight you can push, drag and lift, or when grappling a creature.
 
@@ -207,9 +207,9 @@ As an arctic ursine, you’re strong and hardy, able to withstand cold climates 
 
 - **Ability Score Increase**. Your Constitution ability score, both current and maximum, increases by 2, while your Intelligence ability score, both current and maximum, is reduced by 2.
 
-- **Iceborn**. You are naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master’s Guide, and you have resistance to cold damage.
+- **Iceborn**. Add the *Survival* skill to your class skills if not already there. The *Survival - Arctic* skill costs 0 to you. You are naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master’s Guide, and you have resistance to cold damage.
 
-- **Marine Hunter**. You have a swimming speed of 30 feet, and you can hold your breath for up to 15 minutes at a time.
+- **Marine Hunter**. You have a swimming speed of 20 ft and you can hold your breath for up to 15 minutes at a time.
 
 </div>
 
@@ -218,11 +218,11 @@ As a forest ursine, you are at home among the trees and traverse them with exper
 
 <div class="columnsthree">
 
-- **Climber**. You have a climbing speed of 20 feet.
+- **Climber**. You have a climbing speed of 20 ft.
 
-- **Woodland Adept**. You are most at home in forests and woods, and gain advantage on Stealth and Survival checks made in this type of terrain.
+- **Woodland Adept**. You are most at home in forests and woods. Add the *Survival* skill to your class skills if not already there. The *Stealth - Forest* and *Survival - Forest* skills cost 0 for you.
 
-- **Low-light Vision**. You have keen senses, and can see in dim light within 60 feet of you as if it were bright light.
+- **Low-light Vision**. You have keen senses and can see in dim light within 60 ft of you as if it were bright light.
 
 </div>
 
@@ -231,12 +231,12 @@ As a mountain ursine, you embody the fortitude and magical spark of your homelan
 
 <div class="columnsthree">
 
+- **Mountain dweller**. You are most at home in the mountains. Add the *Survival* skill to your class skills if not already there. The *Survival - Mountain* skills cost 0 for you.
+
 - **Ursine Toughness**. Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
 
 - **Unnatural Resilience**. You know the *resistance* cantrip, which you can use on yourself only.
-
 </div>
-
 
 ## Ursine class options
 Ursine approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
@@ -300,8 +300,6 @@ In general, catfolk are lithe and slender. While clearly humanoid, they possess 
 
 These claws are typically not powerful enough to be used as weapons, but some members of the species—either by quirk of birth or from years of honing—can use them with deadly effect. Feline whiskers are not uncommon, but not universal, and hair and eye color vary greatly.
 
-
-
 ### <a name="internal-trait">Catfolk traits</a>
 Your catfolk character has a number of traits in common with other catfolk:
 
@@ -319,13 +317,13 @@ Your catfolk character has a number of traits in common with other catfolk:
 
 - **Size**. Catfolk tend to be slightly shorter than most humans, with a more slender, athletic build. Your size is Medium.
 
-- **Speed**. Your base speed is 30 feet, but drops to 20 feet if carrying over 50 pounds of weight, regardless of any natural Strength bonus.
+- **Speed**. Your base speed is 30 ft, but drops to 20 ft if carrying over 50 pounds of weight, regardless of any natural Strength bonus.
 
-  You are much faster dashing on all fours. As long as you are unencumbered, and hold nothing in your hands, your speed becomes 40 feet.
+  You are much faster dashing on all fours. As long as you are unencumbered and hold nothing in your hands, your speed becomes 40 ft.
 
-- **Low-light Vision**. Your feline eyes shine faintly at night, allowing you to make the most of even the smallest amount of ambient light. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+- **Low-light Vision**. Your feline eyes shine faintly at night, allowing you to make the most of even the smallest amount of ambient light. You can see in dim light as if it were bright light and an additional 60 ft into darkness as if it were dim light.
 
-- **Keen Senses**. You have proficiency with the Perception skill. Catfolk have superior senses, including smell.
+- **Keen Senses**. Catfolk have superior senses, including smell. Add the *Perception* skill to your class skills if not already there and gain 1 skill point to spent on that skill. 
 
 - **Natural Climbers**. Catfolk have capable claws and an uncanny ability to climb. You have advantage on all checks to climb. When not wearing heavy armor, you can use your Dexterity in place of your Strength when climbing.
 
@@ -342,15 +340,14 @@ You gain 2 of the following abilities, determined randomly, which represent your
 
 | 1d8 | Ability | |
 |:----:|:--|:--|
-| 1 | <div style="white-space:nowrap;">Cat claws</div> | Your claws are stronger and more developed. You can make unarmed strikes as if they had the finesse property, dealing 1d4 slashing damage. If you move at least 20 feet straight toward a creature and then hit with a claw attack, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target becomes prone, you can make one additional claw attack against it as a ***bonus action***.
+| 1 | <div style="white-space:nowrap;">Cat claws</div> | Your claws are stronger and more developed. You can make unarmed strikes as if they had the finesse property, dealing 1d4 slashing damage. If you move at least 20 ft straight toward a creature and then hit with a claw attack, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target becomes prone, you can make one additional claw attack against it as a ***bonus action***.
 | 2 | Climber | You excel at hunting prey from trees and other high vantage points, and gain a climb speed equal to your walking speed.
-| 3 | <div style="white-space:nowrap;">Natural Instinct</div> | You are proficient with the Stealth and Survival skills.
-| 4 | <div style="white-space:nowrap;">Keen Smell</div> | You have advantage on Perception checks that rely on smell. In addition you can track by scent, having advantage on such checks.
-| 5 | <div style="white-space:nowrap;">Cat's Grace</div> | You have an amazing sense of balance and keen knowledge of your own center of gravity. You are proficient with Acrobatics and have resistance to falling damage. This ability does not work if you are unconscious or restrained.
-| 6 | Sprinter | Your speed increases by 10 ft when dashing. In addition, with a 10-foot running start, you can jump twice the normal distance.
-| 7 | Roar | As an ***action***, you can release a terrifying roar. Any creature within 20 feet of you that can hear you must make a Wisdom saving throw against DC 8 + your Charisma modifier + your proficiency bonus, or become frightened of you for 1 minute.<br/>The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can’t use this trait again until after you complete a short or long rest.
+| 3 | <div style="white-space:nowrap;">Natural Instinct</div> | Add the *Stealth* and *Survival* skills to your class skills if not already there and gain 1 skill point to spent on each of those skills.
+| 4 | <div style="white-space:nowrap;">Keen Smell</div> | Gain the *Perception - Sense-smell* skill. In addition you can track by scent.
+| 5 | <div style="white-space:nowrap;">Cat's Grace</div> | You have an amazing sense of balance and keen knowledge of your own center of gravity. Add the *Acrobatics* skill to your class skills if not already there and gain 1 skill point to spent on that skill. Additionally you resistance to falling damage. This does not work if you are unconscious or restrained.
+| 6 | Sprinter | Your speed increases by 10 ft when dashing. In addition, with a 10 ft running start, you can jump twice the normal distance.
+| 7 | Roar | As an ***action***, you can release a terrifying roar. Any creature within 20 ft of you that can hear you must make a Wisdom saving throw against DC 8 + your Charisma modifier + your proficiency bonus, or become frightened of you for 1 minute.<br/>The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can’t use this trait again until after you complete a short or long rest.
 | 8 | <div style="white-space:nowrap;">Savage Attacks</div> | When you score a critical hit with a melee attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.
-
 
 ### Catfolk Quirks
 You can use the Quirks table to determine an appearance or personality quirk for a catfolk character or to inspire a unique mannerism.
@@ -385,29 +382,6 @@ You can use the Quirks table to determine an appearance or personality quirk for
 
 </div>
 
-
-### Catfolk Feats
-The following feats are exclusive to catfolk:
-
-<div class="columnstwo">
-
-- <div class="feat">
-
-  ## Springy Step
-  While all catfolk have a natural feline grace about them, you've taken it to new heights.
-
-  Increase your **Dexterity** score by 1.
-
-  You can use your Dexterity modifier to calculate your jump distances.
-
-  Whenever you are knocked prone, you can use a ***reaction*** to jump back up on your feet.
-
-  When you would take fall damage, you can make an Acrobatics check against a DC equal to the damage. If you succeed, you take no damage and land on your feet instead of falling prone.
-
-  </div>
-
-</div>
-
 ## Catfolk class options
 Catfolk approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
@@ -424,8 +398,6 @@ Catfolk approaches some classes is a bit different than other races. When you se
     <hr class="dividerinfolk">
 
 </div>
-
-
 
 
 
@@ -475,20 +447,19 @@ Your vulpine character has a number of traits in common with all other vulpines.
 
 - **Size**. Vulpine are slight creatures, thin-framed and standing three and a half to four feet tall. Most weigh between 25 and 40 pounds. Your size is Small.
 
-- **Speed**. Although short, vulpine are unusually quick on their feet. Your base speed is 30 feet.
+- **Speed**. Although short, vulpine are unusually quick on their feet. Your base speed is 30 ft.
 
-- **Low-light Vision**. Vulpine are comfortable in dark environments, having superior vision. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+- **Low-light Vision**. Vulpine are comfortable in dark environments, having superior vision. You can see in dim light as if it were bright light, and an additional 60 ft into darkness as if it were dim light.
 
 - **Mask of the Wild**. You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
 
-- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for Athletic checks when your body weight is the only factor, e.g. climbing. In addition, you have advantage on those checks.
+- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for Physical checks when your body weight is the only factor, e.g. climbing.
 
-- **Wily**. You gain proficiency in one of the following skills of your choice: Deception, Persuasion, or Stealth.
+- **Wily**. Add the *Speechcraft* and *Stealth* skills to your class skills if not already there and gain 1 skill point to spent on each of those skills.
 
 </div>
 
 **Subtype**. There are three closely related types of vulpine: arctic vulpine, grey vulpine, and red vulpine. Choose one of these subraces.
-
 
 ### Arctic Vulpine
 As an arctic vulpine, you are particularly well-suited to life in cold regions, and are tougher than others of your race in order to survive harsh winters. Most arctic vulpine have a fur coat of pure white, although some are mottled or striped with other colors.
@@ -499,7 +470,7 @@ As an arctic vulpine, you are particularly well-suited to life in cold regions, 
 
 - **Ice Born**. You’re naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master’s Guide, and you have resistance to cold damage.
 
-- **Alpine Camouflage**. Your white fur allows you to excel at remaining hidden in certain environments. You have advantage on Stealth checks in snow, ice, or other predominantly white terrain, like salt flats or volcanic ash.
+- **Alpine Camouflage**. Your white fur allows you to excel at remaining hidden in certain environments. The *Stealth - Arctic* skill costs 0 for you.
 
 </div>
 
@@ -512,7 +483,7 @@ As a grey vulpine (also called ashfoxes), you are swift with your hands, and als
 
 - **Vulpine Nimbleness**. You can move through the space of any creature that is of a size larger than yours.
 
-- **Artisan**. Grey vulpine are quite swift with their fingers. You gain proficiency with Sleight of hand and one set of artisan’s tools of your choice.
+- **Artisan**. Grey vulpine are quite swift with their fingers. Add the *Sleight of hand* skill to your class skills if not already there and gain 1 skill point to spent on that skill.
 
 </div>
 
@@ -555,7 +526,7 @@ A Vulpine approaches some classes is a bit different than other races. When you 
     <hr class="dividerinfolk">
 
 - ### Swashbuckler
-    A Vulpine swashbuckler can spend a panche to gain advantage on a Luck check, and regains a panache whenever they critically succeed at a Luck check.
+    A Vulpine swashbuckler can spend a panche to reroll a Luck check, even if already rerolled once, and regains a panache whenever they critically succeed at a Luck check.
 
     <hr class="dividerinfolk">
 
@@ -593,9 +564,9 @@ Bullywugs possess a unique ability to communicate with all manor of frog and toa
 
 - **Languages**. You speak Common and Bullywug. The Bullywug language is that of frogs and toads, and consists of croaks, gurgles, and obnoxious screeches.
 
-- **Size**. Bullywugs stand between 4 and 7 feet tall and weigh anywhere from 100 to 300 pounds. Your size is Medium.
+- **Size**. Bullywugs stand between 4 and 7 ft tall and weigh anywhere from 100 to 300 pounds. Your size is Medium.
 
-- **Speed**. Your base walking is 30 feet and you have a swimming speed of 30 feet.
+- **Speed**. Your base walking is 30 ft and you have a swimming speed of 30 ft.
 
 - **Amphibious**. You can breathe both air and water.
 
@@ -603,30 +574,13 @@ Bullywugs possess a unique ability to communicate with all manor of frog and toa
 
 - **Bullywug Metabolism**. You have advantage on saving throws against poison and resistance against poison damage.
 
-- **One with the Swamp**. You have advantage on checks made to hide in swampy terrain. You also ignore difficult terrain caused by mud and other swampy elements.
+- **One with the Swamp**. The *Stealth - Wetland* skill costs 0 to you. You also ignore difficult terrain caused by mud and other swampy elements.
 
 - **Speak with Frogs and Toads**. You can communicate simple concepts to frogs and toads, as well as their giant counterparts and any other frog-like creatures when you speak in Bullywug.
 
-- **Standing Leap**. Your long jump is 30 feet and your high jump is 15 feet, with or without a running start.
+- **Standing Leap**. Your long jump is 30 ft and your high jump is 15 ft, with or without a running start.
 
 </div>
-
-### Feats
-A bullywug may select the following feat:
-
-<div class="columnstwo">
-
-- <div class="feat">
-
-  ## Leaping Strike
-  Your **Strength** or **Dexterity** score increases by 1.
-
-  When an ally that you can see hits a creature with a melee weapon attack, you can use your ***reaction*** to immediately make a standing leap, and make one melee weapon attack against the same target if it is within your reach. This movement does not provoke an opportunity attack. Once you use this trait, you can’t use it again until you finish a short rest.
-
-  </div>
-
-</div>
-
 
 ## Bullywug Class Options
 Bullywug approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
@@ -671,9 +625,9 @@ Green grung become warriors, hunters, and general laborers. Blue grung are usual
 
 - **Languages**. You can speak Common and Grung.
 
-- **Size**. Grung are between 3 and 4 feet tall, and weigh 30-50 pounds. Your size is Small.
+- **Size**. Grung are between 3 and 4 ft tall, and weigh 30-50 pounds. Your size is Small.
 
-- **Speed**. Your base walking is 25 feet. You also have a climbing speed of 20 feet.
+- **Speed**. Your base walking is 25 ft. You also have a climbing speed of 20 ft.
 
 - **Amphibious**. You can breathe air and water. However, you must submerge yourself fully in water or mud once per day or suffer one level of exhaustion, which cannot be removed until you complete a long rest while submerged.
 
@@ -681,11 +635,11 @@ Green grung become warriors, hunters, and general laborers. Blue grung are usual
 
 - **Poisonous Skin**. When not wearing heavy armor, any creature that grapples you or otherwise becomes in direct contact with your skin must make a Constitution saving throw or be poisoned for 1 minute. If the creature is no longer in contact with your skin, they may repeat the saving throw at the end of each of their turns. A creature that has successfully saved against your poison is immune until it has finished a longrest. The DC for this saving throw is 8 + your Constitution modifier + your proficiency bonus.
 
-- **Poisoned Weapons**. You are proficient with the poisoner’s kit. As a ritual, you can create a single dose of your own skin’s poison, which can be applied to a weapon. The applied poison lasts for 1 hour or until the weapon strikes a creature, which makes a saving throw as if it had touched your Poisonous Skin.
+- **Poisoned Weapons**. The *Alchemy - Prepare poisons* skill costs 0 to you. As a ritual, you can create a single dose of your own skin’s poison, which can be applied to a weapon. The applied poison lasts for 1 hour or until the weapon strikes a creature, which makes a saving throw as if it had touched your Poisonous Skin.
 
-- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for Athletic checks when your body weight is the only factor, e.g. climbing. In addition, you have advantage on those checks.
+- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for physical checks when your body weight is the only factor, e.g. climbing.
 
-- **Standing Leap**. Your long jump is 20 feet and your high jump is 15 feet, with or without a running start.
+- **Standing Leap**. Your long jump is 20 ft and your high jump is 15 ft, with or without a running start.
 
 - **Sticky Pads**. If you have both hands free, you can climb freely across smooth, vertical, and upside down surfaces. While you climb in this way, you cannot make attacks that require your hands or perform spells that require somatic components.
 
@@ -832,23 +786,6 @@ When creating your grung, roll on the color/caste table once, and on the other t
 
 </div>
 
-
-### Grung Feats
-You may select the following feat:
-
-<div class="columnstwo">
-
-- <div class="feat">
-
-    ## Leaper
-    - Your **Dexterity** score increases by 1.
-    - **Aerial Agility**. You can use your ***reaction*** when you fall to halve any falling damage you take. You can then reduce this damage additionally by an amount equal to your level plus your Dexterity bonus.
-    - **Jumping Twitch**. As a ***reaction*** after an enemy misses you with an attack or ends their turn within 5 feet of you, you can jump up to 10 feet away. This movement does not provoke attacks of opportunity.
-
-  </div>
-
-</div>
-
 ### Grung Class Options
 Grung approaches some classes is a bit different than other races. When you select one of these classes, it is modified as described below, as well as described in the general Beastfolk class option chapter.
 
@@ -912,11 +849,11 @@ Your varkind character has the following racial traits.
 
 - **Alignment**. Possessed of a kind and generous nature, varkind are often neutral good, taking care of those in need, yet never truly taking sides in most conflicts, choosing to remain uninvolved until absolutely necessary.
 
-- **Size**. Varkind are as stout as dwarves, standing between 4 and 5½ feet tall, and weighing 100-200 pounds. Your size is Medium.
+- **Size**. Varkind are as stout as dwarves, standing between 4 and 5½ ft tall, and weighing 100-200 pounds. Your size is Medium.
 
 - **Languages**. You know Common and Varkind.
 
-- **Speed**. Their bulky stature and awkward frame slightly hampers them. You have a movement speed of 25 feet. However, your speed is not reduced by wearing heavy armor.
+- **Speed**. Their bulky stature and awkward frame slightly hampers them. You have a movement speed of 25 ft. However, your speed is not reduced by wearing heavy armor.
 
 - **Invincible Stomach**. You have advantage on saving throws against indigestible poisons, as well as other effects caused by consumed items or goods.
 
@@ -924,9 +861,7 @@ Your varkind character has the following racial traits.
 
 - **Sure Footed**. Your low center of gravity makes it difficult to knock you over. You have advantage on saving throws you make to avoid being knocked prone.
 
-- **Thunderous Squeal**. As a ***bonus action***, you can release a loud squeal. It is audible at 500 feet, and creatures within 10 feet of you that can hear you must succeed a Constitution saving throw DC 8 + your proficiency bonus + your Constitution modifier, or take your level in thunder damage. You can use this ability once, and regain use of it when you finish a long rest.
-
-- **Truffle Hunter**. You have advantage on checks you make with the Perception or Investigation skills that rely on smell. Anything that would overwhelm your sense of smell would disable this bonus until you take a rest.
+- **Thunderous Squeal**. As a ***bonus action***, you can release a loud squeal. It is audible at 500 ft, and creatures within 10 ft of you that can hear you must succeed a Constitution saving throw DC 8 + your proficiency bonus + your Constitution modifier, or take your level in thunder damage. You can use this ability once, and regain use of it when you finish a long rest.
 
 </div>
 
@@ -941,8 +876,7 @@ Slightly smaller and decidedly rounder than their more rustic cousins, the urban
 
   These temporary hit points stack with other sources of temporary hit points granted by food. Once you benefit from this trait, you can't benefit from it again until you finish a long rest.
 
-- **Open Minded**. You are proficient with the Insight skill.
-
+- **Open Minded**. The *Perception - Insight* skill costs 0 to you.
 </div>
 
 
@@ -985,32 +919,6 @@ Varkind approaches some classes is a bit different than other races. When you se
 
 </div>
 
-### Racial Feats
-As a varkind, you have access to the following feat.
-
-
-<div class="columnstwo">
-
-- <div class="feat">
-
-    ## Belly of the Beast
-    *Requirement: Urban varkind*
-
-    Few varkind posses a gut as impermeable, nor as odious as your own.
-
-    Your **Constitution** score increases by 1.
-
-    Once, after benefiting from your Buffet Enthusiast trait, you can excrete a staggering cloud of yellow, nauseating gas. For the following turn, each creature that comes within 5 feet of you must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or that are immune to poison automatically succeed on this saving throw. This effect is rendered null in areas of moderate wind.
-
-    When you benefit from your Buffet Enthusiast trait, add half of your level to the total temporary hit points gained.
-
-  </div>
-
-</div>
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1032,8 +940,6 @@ They regularly have as many as five children at once. Their infants are tiny and
 Kunek life is centered on warrens, independent communities of kunek usually made up of multiple families with complex interwoven bloodlines. Like traditional halfling homes, warrens are built partially underground, often beneath low hills or downs. Unlike halfling villages, however, kunek communities are interconnected below ground, often creating a bewildering maze of tunnels and passageways.
 
 In most warrens, public spaces are entirely underground, and there may be as few as two exits to the outside world. In wealthier warrens, it is more common for individual domiciles to have their own entrances/exits, windows, etc. More secretive warrens may disguise or even booby-trap their entrances.
-
-
 
 Kunek society is highly rigid and structured, with a hierarchical collective leadership. Each warren is led by a council of elders, at the head of which is a chief. Chiefs append the honorific -rah (roughly translated as “prince” or “leader”) to their names. The role of chief varies from benign figurehead to military dictator, but most warrens prefer a more consultative, quasi-democratic approach.
 
@@ -1068,21 +974,21 @@ Your kunek character has the following racial traits.
 
 - **Languages**. You know Common and Kunek.
 
-- **Size**. Kunek are between 3 and 4 feet tall, and weigh an average of 35 pounds. Your size is Small.
+- **Size**. Kunek are between 3 and 4 ft tall, and weigh an average of 35 pounds. Your size is Small.
 
-- **Speed**. You have a movement speed of 30 feet.
+- **Speed**. You have a movement speed of 30 ft.
 
-- **Low-light Vision**. Accustomed to life in the warren, you can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+- **Low-light Vision**. Accustomed to life in the warren, you can see in dim light as if it were bright light, and an additional 60 ft into darkness as if it were dim light.
 
 - **Keen Senses**. You have advantage on Perception checks that rely on hearing. In addition, you may add your proficiency bonus to initiative checks.
 
-- **Nimble Hop**. Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start, and you can use your Dexterity score in place of your Strength score in regards to jumping.
+- **Nimble Hop**. Your long jump is up to 20 ft and your high jump is up to 10 ft, with or without a running start, and you can use your Dexterity score in place of your Strength score in regards to jumping.
 
 - **Obligate Vegetarian**. Kunek cannot eat meat. If you do so you must make a DC 15 Constitution saving throw or be poisoned until you take a long rest.
 
 - **Rabbit's Foot**. As a ***reaction***, when a hostile creature moves adjacent to you, you can take the Dodge action and may move up to half your speed without provoking opportunity attacks. You can do this a number of times equal to you Luck ability modifier, and you regain the uses after you finish a long rest.
 
-- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for Athletic checks when your body weight is the only factor, e.g. climbing. In addition, you have advantage on those checks.
+- **Small Stature**. Even though you might not be so strong, your body weight is low. You may use your Dexterity instead of Strength for physical checks when your body weight is the only factor, e.g. climbing.
 
 </div>
 
@@ -1109,14 +1015,14 @@ Kunek approaches some classes is a bit different than other races. When you sele
     ## Tunnel Fighter
     You excel at defending narrow passages, doorways, and other tight spaces. As a ***bonus action***, you can enter a defensive stance that lasts until the start of your next turn.
 
-    While in your defensive stance, you can make opportunity attacks without using your ***reaction***, and you can use your ***reaction*** to make a melee attack against a creature that moves more than 5 feet while within your reach.
+    While in your defensive stance, you can make opportunity attacks without using your ***reaction***, and you can use your ***reaction*** to make a melee attack against a creature that moves more than 5 ft while within your reach.
 
     </div>
 
     <div class="feat">
 
     ## Close Quarters Shooter
-    You are trained in making ranged attacks at close quarters. When making a ranged attack while adjacent to a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 feet of you. Finally, you have a +1 bonus to attack rolls on ranged attacks.
+    You are trained in making ranged attacks at close quarters. When making a ranged attack while adjacent to a hostile creature, you do not have disadvantage on the attack roll. Your ranged attacks ignore half cover and three-quarters cover against targets within 30 ft of you. Finally, you have a +1 bonus to attack rolls on ranged attacks.
 
     </div>
 
@@ -1163,8 +1069,6 @@ Ratfolk have a strong attraction to shiny jewelry, especially copper, bronze, an
 #### Society
 Ratfolk are extremely communal, and live in large warrens with plenty of hidden crannies in which to stash their hoards or flee in times of danger, gravitating toward subterranean tunnels or tightly packed tenements in city slums. They feel an intense bond with their large families and kin networks, as well as with ordinary rodents of all sorts, living in chaotic harmony and fighting fiercely to defend each other when threatened. They are quick to use their stockpiles of gear in combat, but prefer to work out differences and settle disputes with mutually beneficial trades.
 
-
-
 When a specific ratfolk warren grows overcrowded and the surrounding environment won't support a larger community, young ratfolk instinctively seek out new places in which to dwell. If a large enough group of ratfolk immigrants all settle down in a new, fertile area, they may create a new warren, often with strong political ties to their original homeland. Otherwise, individual ratfolk are inclined to simply leave home and take up residence elsewhere, or wander on caravan trips that last most of the year, reducing the pressure of overcrowding at home.
 
 #### Alignment and Religion
@@ -1187,9 +1091,9 @@ Your ratfolk character has a number of traits in common with all other ratfolk.
 
 - **Speed**. You have a base speed of 30 ft.
 
-- **Low-light Vision**. Accustomed to life beneath the ground, you have superior vision. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+- **Low-light Vision**. Accustomed to life beneath the ground, you have superior vision. You can see in dim light as if it were bright light, and an additional 60 ft into darkness as if it were dim light.
 
-- **Sneaky**. You are proficien with the Stealth skill.
+- **Sneaky**. Add the *Stealth* skill to your class skills if not already there and gain 1 skill point to spent on that skill.
 
 </div>
 
@@ -1201,7 +1105,7 @@ Sewer dwellers call underground network of tunnels or sewers their home, survivi
 
 <div class="columnsthree">
 
-- **Natural Tinker**. You have proficiency with artisan’s tools (tinker’s tools) and crossbows.
+- **Natural Tinker**. The *Engineering - Tinkering* skill costs 0 to you. Additionally you gain 1 skill point to spend on the *Crossbow* weapon group.
 
 - **Sewer Resilience**. You have advantage on saving throws to resist poison and against contracting diseases, including magical diseases.
 
@@ -1212,9 +1116,9 @@ Wild walkers are ratfolk who hail from the far reaches of civilization. They mak
 
 <div class="columnsthree">
 
-- **Scent**. You have proficiency with the Perception skill and advantage on checks made to perceive something by smell. In addition you can track by scent.
+- **Scent**. The *Perception - Sense-smell* skill costs 0 to you. In addition you can track by scent.
 
-- **Trailblazer**. You to move an additional 5 feet when taking the dash action.
+- **Trailblazer**. You to move an additional 5 ft when taking the dash action.
 
 </div>
 
@@ -1224,7 +1128,7 @@ Ratfolk approaches some classes is a bit different than other races. When you se
 <div class="columnstwo">
 
 - ### Barbarian
-    Ratfolk fight viciously when cut off from friends and allies. Whenever you are reduced below half your hp, and have no conscious ally within 30 feet, reduce all damage received by 1. This stacks with other similar abilities.
+    Ratfolk fight viciously when cut off from friends and allies. Whenever you are reduced below half your hp, and have no conscious ally within 30 ft, reduce all damage received by 1. This stacks with other similar abilities.
 
     In addition you have access to the <a href="../Classes/barbarian.html#internal-tailfighter">Path of the Tailfighter</a>.
 
