@@ -11,7 +11,7 @@ layout: default
 </div>
 
 # Awakened
-Death comes for all things in a near-infinite variety of ways. So to are there many reasons that the dead might return from the grave. Directly applied necromancy, cursed lands, and unfinished business are but a few, and all leave the newly-undead soul with a mere semblance of the life it had before. All undead carry the physical or emotional scars of what ended their mortal lives, though some may be far more subtle than others.
+Death comes for all things in a near-infinite variety of ways. So to are there many reasons that the dead might return from the grave. Directly applied necromancy, cursed lands and unfinished business are but a few, and all leave the newly-undead soul with a mere semblance of the life it had before. All undead carry the physical or emotional scars of what ended their mortal lives, though some may be far more subtle than others.
 
 ### Dead and Reborn
 Typically having no lands to call their own, undead with an awakened sense of self are usually perpetual foreigners, wanders in a land and often a time not their own. Compounding matters, most mortal cultures carry within them an instinctual fear of death and the dead, and many associate necromancy specifically with dark tidings. This forms a wall of (often well earned) prejudice and hatred that sentient undead find themselves up against, and many undead choose to hide their necrotic natures behind clothes, masks, and pungent perfumes when journeying into civilization.
