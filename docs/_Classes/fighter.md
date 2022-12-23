@@ -95,22 +95,22 @@ When the battle is done, enemies and allies alike stare in awe at the sight of y
  1st | +2 | Fighter Origin, Fighting Style,<br/>Second Wind | - | - | - |
 | 2nd | +2 | Combat Superiority, Origin Maneuver | 3 | 7 | d4 |
 | 3rd | +2 | Martial Archetype | 3 | 7 | d4 |
-| 4th | +2 | Bonus Skills | 3 | 7 | d4 |
+| 4th | +2 | Bonus Skill | 3 | 7 | d4 |
 | 5th | +3 | Extra Attack | 4 | 7 | d4 |
 | 6th | +3 | - | 4 | 9 | d6 |
 | 7th | +3 | Martial Archetype feature | 4 | 9 | d6 |
-| 8th | +3 | Bonus Skills | 5 | 9 | d6 |
+| 8th | +3 | Bonus Skill | 5 | 9 | d6 |
 | 9th | +4 | Indomitable | 5 | 9 | d6 |
 | 10th | +4 | Martial Archetype feature | 5 | 10 | d8 |
 | 11th | +4 | Extra Attack (2) | 6 | 10 | d8 |
-| 12th | +4 | Bonus Skills | 6 | 10 | d8 |
+| 12th | +4 | Bonus Skill | 6 | 10 | d8 |
 | 13th | +5 | Indomitable (2) | 6 | 10 | d8 |
 | 14th | +5 | - | 7 | 12 | d10 |
 | 15th | +5 | Martial Archetype feature | 7 | 12 | d10 |
-| 16th | +5 | Bonus Skills | 7 | 12 | d10 |
+| 16th | +5 | Bonus Skill | 7 | 12 | d10 |
 | 17th | +6 | Indomitable (3) | 8 | 16 | d10 |
 | 18th | +6 | Martial Archetype feature | 8 | 16 | d12 |
-| 19th | +6 | Bonus Skills | 8 | 20 | d12 |
+| 19th | +6 | Bonus Skill | 8 | 20 | d12 |
 | 20th | +6 | Extra Attack (3) | 8 | 20 | d12 |
 
 </div>
