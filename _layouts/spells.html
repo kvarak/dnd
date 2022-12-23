@@ -53,18 +53,22 @@
           txt = txt + "<b>Components: </b>" + row['Components'] + "<br/>";
           txt = txt + "<b>Duration: </b>";
           if (row['Conc'] == "Yes") {
-            txt = txt + "Concentration, up to " + row['Duration'] + "<br/><br/>";
+            txt = txt + "Concentration, up to " + row['Duration'];
           } else {
-            txt = txt + row['Duration'] + "<br/><br/>";
+            txt = txt + row['Duration'];
           }
-          txt = txt + "<p>" + row['Web_Description'] + "</p>";
 
-          var weight = (row['Weight']) ? row['Weight'] : '-'
-          var description = (row['Description']) ? row['Description'] : '-'
+          var archetypes = ""
+          {% for class in page.classes %}
+          if (row['{{ class }}'] != "Yes" && row['{{ class }}'] != "No")
+            archetypes += row['{{ class }}'] + ", "
+          {% endfor %}
 
           tableContent.push([
             txt,
+            row['Web_Description'],
             row['Level'],
+            archetypes,
             {% for class in page.classes %}
             row['{{ class }}'],
             {% endfor %}
@@ -76,17 +80,19 @@
           order: [[0, 'desc']],
           ordering: false,
           // lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
-          // iDisplayLength: -1,
+          iDisplayLength: -1,
           columnDefs: [
-            { targets: [0], visible: true},
+            { targets: [0,1], visible: true},
             { targets: '_all', visible: false }],
           // aoColumnDefs: [{ sClass: "td-nobreak",
           //                   aTargets: [ 0 ] },
           //                 { sClass: "td-center",
           //                   aTargets: [ 1 ] }],
           columns: [
-            { title: '<h1>Spells</h1>'},
+            { title: 'Spell'},
+            { title: 'Description'},
             { title: 'Level'},
+            { title: 'Archetypes'},
             {% for class in page.classes %}
             { title: '{{ class }}'},
             {% endfor %}
@@ -94,7 +100,9 @@
           dom: "<'row'<'col-sm-12'f>>" + "<'row'<'col-sm-12'tr>>"
         });
 
-        {% assign i = 2 %}
+        {% assign levelposition = 2 %}
+        {% assign firstclass = 4 %}
+        {% assign i = firstclass %}
         {% for class in page.classes %}
 
         $('#show{{ class }}').on('change', function() {
@@ -119,7 +127,7 @@
           if (selectedValue != "reset") {
             $.fn.dataTable.ext.search.push(
               function(settings, data, dataIndex) {
-                return data[1] == selectedValue
+                return data[{{ levelposition }}] == selectedValue
               }
             )
           }
@@ -155,7 +163,7 @@
           {% endfor %}
         </p>
 
-        <p id="alert" style="font-style:italic;font-size-adjust:-1;"></p>
+        <p id="alert" style="font-style:italic;font-size-adjust:-1;">Please wait, importing spells...</p>
 
       <table class="table table-striped table-hover" id="contentTable"></table>
 
