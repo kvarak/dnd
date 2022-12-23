@@ -8,10 +8,7 @@ layout: default
 ##### <a href="#internal-traits">Awakened Traits</a>
 ##### <a href="#internal-Variant">Awakened Variants</a>
 ##### <a href="#internal-class">Class Options</a>
-##### <a href="#internal-feats">Exclusive feats</a>
-
 </div>
-
 
 # Awakened
 Death comes for all things in a near-infinite variety of ways. So to are there many reasons that the dead might return from the grave. Directly applied necromancy, cursed lands, and unfinished business are but a few, and all leave the newly-undead soul with a mere semblance of the life it had before. All undead carry the physical or emotional scars of what ended their mortal lives, though some may be far more subtle than others.
@@ -48,17 +45,17 @@ Your awakened character has an assortment of innate abilities.
 
 - **Ability Score Increase**. Your Constitution ability score, both current and maximum, increases by 2.
 
-- **Speed**. Your base speed is 30 feet.
+- **Speed**. Your base speed is 30 ft.
 
 - **Deathly Resilience**. You have advantage on saving throws against being poisoned and resistance against poison damage. You are immune to disease and treat exhaustion as if it was one level less. You do not need to eat or breathe, but you can ingest food and drink if you wish.
 
 - **Immortality**. You do not age. Given time, the necromantic energies that sustain you will heal most wounds you take at approximately the same rate as a mortal, and your hit dice function as normal.
 
-  When dropping to 0 hit points you make death saving throws just as usual. On three failures, instead of dying again, your spirit can’t hold on to the material plane any longer and finally continues to the afterlife, which is your full death. After that you can no longer be resurrected.
+When dropping to 0 hit points you make death saving throws just as usual. On three failures, instead of dying again, your spirit can’t hold on to the material plane any longer and finally continues to the afterlife, which is your full death. After that you can no longer be resurrected.
 
-- **Past Life**. Choose another living folk. Before your death, you were a member of this race. Your languages, size and height are the same as a typical member of that folk. You do not retain any special movement such as swimming or flying, nor any other racial traits.
+- **Past Life**. Choose another living folk which you were before your death. Your languages, size and height are the same as a typical member of that folk. You do not retain any special movement such as swimming or flying, nor any other traits.
 
-- **Low-light Vision**. Through the necromantic energy animating you, you are able to perceive with greater clarity that which lurks in the night. You can see in dim light as if it were bright light, and an additional 30 feet into darkness as if it were dim light.
+- **Low-light Vision**. Through the necromantic energy animating you, you are able to perceive with greater clarity that which lurks in the night. You can see in dim light as if it were bright light, and an additional 30 ft into darkness as if it were dim light.
 
 - **Lifesense**. Even in complete darkness, you can see the outline of living creatures with a soul within 30 ft.
 
@@ -91,11 +88,11 @@ Even though you are a ghost, you still have an ectoplasmic form, which is the ma
 
 - **Ethereal Jaunt**. As a ***bonus action***, you can enter the Ethereal Plane. You can traverse solid objects but cannot traverse magic barriers or force effects. At the end of your next turn, you return in the spot you currently occupy. If you occupy the same spot as a solid object or creature when this happens, you are immediately shunted to the nearest unoccupied space and take force damage equal to twice the number of feet you are moved. After you have used this feature, you must complete a long rest to use it again.
 
-- **Ethereal Sight**. While upon the material plane, you can see into the ethereal plane up to a distance of 30 feet, and vice-versa.
+- **Ethereal Sight**. While upon the material plane, you can see into the ethereal plane up to a distance of 30 ft, and vice-versa.
 
 - **Float**. You have a flying speed equal to your walking speed, but cannot ascend any higher than 1 foot off the ground with this ability.
 
-- **Horrifying Visage**. As an ***action***, you can force each non-undead creature within 60 feet that can see to make a Wisdom saving throw against a DC equal to 8 + your proficiency bonus + your Charisma modifier.On a failed save they are frightened of you for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. If an affected creature’s saving throw is successful or the effect ends for it, the creature is immune to your Horrifying Visage for the next 24 hours.
+- **Horrifying Visage**. As an ***action***, you can force each non-undead creature within 60 ft that can see you to make a Wisdom saving throw against a DC equal to 8 + your proficiency bonus + your Charisma modifier.On a failed save they are frightened of you for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. If an affected creature’s saving throw is successful or the effect ends for it, the creature is immune to your Horrifying Visage for the next 24 hours.
 
 - **Incorporeal Self**. You have advantage on Dexterity checks and saving throws to escape grappled and restrained conditions. Conversely, you have disadvantage when attempting to grapple or shove a creature.
 
@@ -131,9 +128,7 @@ Ghouls enjoy the taste of rotting flesh and will horde pieces of individuals the
 ### Mummy
 Mummies become undead not long after their deaths, but most do not awaken until a long slumber has passed. The contingencies that animate them are not always up to them. Most mummies are protectors and guardians, meant to keep something – cursed treasure, powerful artifacts, or unspeakable evils contained. Some are meant only to watch over the remains of a royal family, ensuring their tombs stay undisturbed.
 
-
 <img src='https://i.redd.it/o2cxaacjimt21.jpg' style='float:left;width:35%;padding:20px' />
-
 
 However, once these tasks are gone, a rare few mummies may choose to stray from their ancient dwelling, traveling out of their tombs to inflict themselves on the world above. Depending on the length of their slumber, an awakened mummy might find themselves in a world they scarcely recognize.
 
@@ -158,17 +153,15 @@ master and your departure from the tomb.
 
 - **Alignment**. Mummies are lawful almost without exception, as they are created with unchanging rituals to follow strict rules.
 
-- **Speed**. Your base speed is 25 feet.
+- **Speed**. Your base speed is 25 ft.
 
 - **Bloodless**. You are immune to poison damage and the poisoned condition.
 
-- **Dreadful Glare**. As an ***action***, you can target one creature within 10 feet. The target must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC for this saving throw equals 8 + your Charisma modifier + your Proficiency bonus. After you use your glare, you can't use it again until you complete a short rest.
+- **Dreadful Glare**. As an ***action***, you can target one creature within 10 ft. The target must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC for this saving throw equals 8 + your Charisma modifier + your Proficiency bonus. After you use your glare, you can't use it again until you complete a short rest.
 
 - **Necrotic Resilience**. You have advantage on saving throws against spells or abilities that deal necrotic damage, and you have resistance against necrotic damage.
 
 - **Rotting Fist**. Your hands rot those they touch. When you hit a creature with an unarmed strike, you deal necrotic damage equal to 1d6 + your Strength modifier instead of the bludgeoning damage normal for an unarmed attack.
-
-
 
 
 
@@ -183,7 +176,7 @@ Revenants typically have no compunction about killing any and everything that ge
 
 - **Life Drain**. When you hit a humanoid with a natural attack, you can use a ***bonus action*** to force the target to make a Constitution saving throw DC 8 + your proficiency bonus + your Constitution modifier. If they fail, they take a number of d6s equal to your proficiency bonus as necrotic damage. If they succeed, they take half the amount. You gain half the amount of necrotic damage dealt as temporary hit points. Once you use this trait, you can’t do so again until you finish a long rest.
 
-- **Mark of Vengeance**. As an ***action***, you can target a creature within 30 feet. While the creature is marked in this way, you have advantage on any Perception or Survival checks you make to find it. Additionally, you know whether or not the creature is alive, even if it is on a different plane of existence.
+- **Mark of Vengeance**. As an ***action***, you can target a creature within 30 ft. While the creature is marked in this way, you have advantage on any *Perception* or *Tracking* checks you make to find it. Additionally, you know whether or not the creature is alive, even if it is on a different plane of existence.
 
 - **Unnatural Vitality**.  When you drop to 0 hit points, you may choose to stay conscious instead of falling unconscious. If you do, you gain temporary hit points equal to your total character level. In this state, you may take an ***action*** or ***bonus action*** on your turn, but not both, and you make death saving throws at the end of your turn. You can remain in this state until you fail your first death saving throw or loose the temporary hit points. You can't use this feature again until you finish a long rest.
 
@@ -191,7 +184,6 @@ Revenants typically have no compunction about killing any and everything that ge
 
 
 ### Skeleton
-
 An animated figure made of dry bones devoid of flesh and muscle, you were likely raised by a necromantic caster or dark, supernatural curse as a simple minion, completely without will and self knowledge. Something changed, however; perhaps your master was slain, the land cleansed, or you merely awoke one day to fragmented memories of your previous life. Whatever the case, possessed of a fragmented sense of self and newfound purpose, you struck out into the wider world to find a new destiny.
 
 Without the tiresome requirements of the body’s incessant desire for food, pleasure and excretion, most skeletons that awaken find great pleasure in purpose and activity, measuring their unlife in deeds and accomplishments they never would have had the time or energy to accomplish while still alive. Skeletons make tireless laborers, and despite their lack of a brain, some skeletons are shockingly intelligent, able to recall things about their life and times from an entirely new and detached perspective.
@@ -206,11 +198,11 @@ Without the tiresome requirements of the body’s incessant desire for food, ple
 
 - **Bone to Pick**. Whenever both of your hands are free, you may choose to use a free hand and an item action to remove one of your hands or arms. If you remove an arm, it counts as a club. If you remove a hand, it can function as thieves' tools or a similar set of simple tools while you hold it. In either case, removed hands and arms may be re-attached by using another item action.
 
-- **Brittle Bones**. You have resistance to piercing damage, but vulnerability to bludgeoning damage.
+- **Brittle Bones**. You have resistance to piercing and slashing damage, but vulnerability to bludgeoning damage.
 
-- **Chattering Teeth**. Skeletons cannot speak, and this is a problem when casting spells with verbal components. However, as any trained wizard would tell you, the words themselves aren't the source of a spell's power; rather, the particular combination of specific pitch and resonance, sets the threads of magic in motion. Skeleton spellcasters have solved this by using their body to create those sounds.
+- **Chattering Teeth**. Skeletons cannot speak and this is a problem when casting spells with verbal components. However, as any trained wizard would tell you, the words themselves aren't the source of a spell's power; rather, the particular combination of specific pitch and resonance, sets the threads of magic in motion. Skeleton spellcasters have solved this by using their body to create those sounds.
 
-- **Drinking Problem**. As a skeleton, you cannot use potions, or any other item that has to be eaten or drunk to have an effect. If you (or a friend) have any alchemical or herbal knowledge, it is possible to use potions by letting them soak into your bones. This requires sponges or bandages, a DC 5 medicine check and a few minutes.
+- **Drinking Problem**. As a skeleton you cannot use potions or any other item that has to be eaten or drunk to have an effect. If you (or a friend) have any alchemical or herbal knowledge, it is possible to use potions by letting them soak into your bones. This requires sponges or bandages, a DC 5 *Medicine* check and a few minutes.
 
 - **Falling Apart**. When you enter your inactive state as described in the *slepless* trait, you relax the force that holds your bones together, allowing them to fall into a pile. This pile is considered one size smaller than you are normally, and appears inert. You can enter this disassembled state as an ***action***, and can remain in this state until you choose to reassemble. As a ritual, you can reassemble yourself into your normal, humanoid shape.
 
@@ -225,13 +217,13 @@ An awakened approach to some classes is a bit different than that of other races
 <div class="columnstwo">
 
 - ### Alchemist
-    The biggest problems an awakened Alchemist faces, is that undead and the living heal have completely different healing mechanisms. It's not completely unsolvable, but keeping the same potency for potions is not possible.
+    The biggest problems an awakened Alchemist faces, is that undead and the living have completely different healing mechanisms. It's not completely unsolvable, but keeping the same potency for potions is not possible.
 
     Whenever you make a potion that heals, you can either decide if it works only for awakened or only the living, or the potion can heal both, but for half efficiency.
 
     However, since you are not as affected by poison as the living, you do not have to be so careful. Whenever the Alchemist class description mentions your Intelligence modifier, you may instead use this modifier +4 or your proficiency bonus, whichever is lower.
 
-    **Skeletons** face a different problem (see the skeleton drinking problem). They have to decide if they are making potions for drinking, or "potions" for soaking. The positive thing is that the potions made for soaking can be made twice as potent, i.e. healing twice the amount or lasting twice as long.
+    **Skeletons** face a different problem (see the skeleton drinking problem). They have to decide if they are making potions for drinking or "potions" for soaking, only usable on themselves. The positive thing is that the potions made for soaking can be made twice as potent, i.e. healing twice the amount or lasting twice as long.
 
     <hr class="dividerinfolk">
 
@@ -240,20 +232,20 @@ An awakened approach to some classes is a bit different than that of other races
 
     In addition, some of the subraces treat their rage a bit different.
 
-    **Bound spirit**. When raging you go full poltergeist. Loose items in the area start flying around, striking everyone around you. You no longer deal bonus rage damage when striking an enemy, instead that damage is dealt to all creatures within 30 ft from you. This damage can be avoided if a creature is prone.
+    **Bound spirit**. When raging you go full poltergeist. Loose items in the area start flying around, striking everyone around you. You no longer deal bonus rage damage when striking an enemy, instead that damage is dealt to all creatures of your choice within 30 ft from you. This damage can be avoided if a creature is prone.
 
     **Ghoul**. You become a whirlwind of claws. When you take the Attack action on your turn and make an attack with only your claws, you can use your ***bonus action*** to make an additional attack using your claws on the same enemy.
 
     **Mummy**. When you start your rage, you can use your Dreadful glare without spending its use. You do this as a ***bonus action***, and can only target a creature which you have, or intend to attack with your first melee attack.
 
-    **Revenant**. Once during your rage you can use your Life drain trait without spending its use.
+    **Revenant**. Once during your rage you can use your Life drain feature without spending its use.
 
     <hr class="dividerinfolk">
 
 - ### Bard
     **Non-skeleton awakened** can draw on their connection to the realms of the dead to power their near-mortal voices.
 
-    You may expend one or more uses of your Bardic Inspiration to create an **Unearthly Wail**. When you do so, all living creatures within 30 feet must make a Charisma save against your spell save DC or take 1d6 necrotic damage per die spent.
+    You may expend one or more uses of your Bardic Inspiration to create an **Unearthly Wail**. When you do so, all living creatures within 30 ft must make a Charisma save against your spell save DC or take 1d6 necrotic damage per die spent.
 
     In addition to damage, the targets become frightened until the end of their next turn. If you spend at least three uses of Bardic Inspiration, the targets become frightened for 1 minute. By spending five uses, targets become stunned until the end of their next turn in addition to becoming frightened for 1 minute. Any creature frightened by this power may repeat the Charisma saving throw at the end of each of its turns to end the condition.
 
@@ -264,14 +256,14 @@ An awakened approach to some classes is a bit different than that of other races
 - ### Cavalier
     Instead of selecting a Steed at level 1, you can become a **Ghost Rider**, gaining the faithful service of a spectral horse.
 
-    You can use your ***action*** to create a phantom steed to serve as your faithful mount. You decide the creature’s appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by this feature vanishes in a puff of smoke if it is carried more than 10 feet away from the steed. The steed uses the statistics of a Riding Horse. It disappears when it drops to 0 hit points, it is more than 30 feet away from you, you dismiss it with an action or when sunrise comes. You can have only one steed created this way at any time, and cannot summon a new one until the previous one has expired.
+    You can use your ***action*** to create a phantom steed to serve as your faithful mount. You decide the creature’s appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by this feature vanishes in a puff of smoke if it is carried more than 10 ft away from the steed. The steed uses the statistics of a Riding Horse. It disappears when it drops to 0 hit points, it is more than 30 ft away from you, you dismiss it with an action or when sunrise comes. You can have only one steed created this way at any time, and cannot summon a new one until the previous one has expired.
 
     <hr class="dividerinfolk">
 
 - ### Cleric
-    An awakened cleric is often in an unique situation. Not many clerics have had the possibility to die and see the afterlife they are destined to. This ususlly does one of two things. Either they find that the place they went to was the right place, or they were sent to a place which they would do anything to avoid being sent to again.
+    An awakened cleric is often in an unique situation. Not many clerics have had the possibility to die and see the afterlife they are destined to. This usually does one of two things; either they find that the place they went to was the right place or they were sent to a place which they would do anything to avoid being sent to again.
 
-    No matter what, awakened clerics are often much more devoted to their chosen deity, doing whatever it takes to finally end up where they think they deserve.
+    In both cases awakened clerics are often much more devoted to their chosen deity, doing whatever it takes to finally end up where they think they deserve.
 
     Whenever the Cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
@@ -299,7 +291,7 @@ An awakened approach to some classes is a bit different than that of other races
 
     As a 1st level Fighter, select Strength or Dexterity. Whenever the Fighter class description mentions your ability modifier for this ability, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls using this ability.
 
-    In addition, an awakened fighter that selects the Eldritch knight archetype is called a Pale knight. In archetype description, replace any reference to abjuration spells with necromancy spells.
+    In addition, an awakened fighter that selects the Eldritch knight archetype is called a Pale knight. In the archetype description, replace any reference to abjuration spells with necromancy spells.
 
     <hr class="dividerinfolk">
 
@@ -321,16 +313,18 @@ An awakened approach to some classes is a bit different than that of other races
     <hr class="dividerinfolk">
 
 - ### Professional
-    After your first death you adapted and quickly used your tool talents to learn repairing yourself. During a rest you can spent time sewing up your bandages, glueing your bones together or seal holes in your dead flesh.
+    After your first death you adapted and quickly used your talents to learn repairing yourself. During a rest you can spent time sewing up your bandages, glueing your bones together or seal holes in your dead flesh.
 
-    Roll an appropriate Tool check (ex. tailor's tools or  mortician's tools). You heal a number of hp equal to your check - 10 at the end of the rest.
+    Roll an appropriate Craft or Profession check (ex. *Leatherworking* or *Mortician*). You heal a number of hp equal to your check - 10 at the end of the rest.
 
     <hr class="dividerinfolk">
 
 - ### Ranger
-    You have a **Soul sense**, a dim sense of the souls of living beings who are near. If a living creature comes within 30 feet, you become aware of the creature's presence and location, even if behind cover. This ability functions as blindsense against these creatures.
+    You have a **Soul sense**, a dim sense of the souls of living beings who are near. If a living creature comes within 30 ft, you become aware of the creature's presence and location, even if behind cover. This ability functions as blindsense against these creatures.
 
     A bound spirit also has access to the <a href="../Classes/ranger.html#internal-banshee">Banshee Conclave</a>.
+
+    <hr class="dividerinfolk">
 
 - ### Rogue
     There is one thing awakened are better at than any other creature in existence, acting dead. If attacking a target who is examining your "dead" body, you have advantage on the attack, automatically crit on a hit, and may add your sneak attack damage to all attacks that round.
@@ -359,105 +353,10 @@ An awakened approach to some classes is a bit different than that of other races
 - ### Wizard
     The awakened are created by magic of some kind, and a Wizard scooled in the arcane arts can learn how to tap into the magic that keeps them together, in order to cast spells even though out of spell slots.
 
-    As an ***bonus action*** you can reduce your Constitution score by the square of the spell slot level you want to cast + the number of times you have already done this today. If you succeed at an arcana check against a DC of 10 + the Constitution reduction, you can use the spell slot until the end of your next turn.
+    As an ***bonus action*** you can reduce your Constitution score by the square of the spell slot level you want to cast + the number of times you have already done this today. If you succeed at an *Arcana* check against a DC of 10 + the Constitution reduction, you can use the spell slot until the end of your next turn.
 
     In addition, whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
 
     <hr class="dividerinfolk">
 
 </div>
-
-## <a class="internal-link" name="internal-feat">Awakened Feats</a>
-
-The following feats are exclusive to awakened:
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Consume Souls
-    You have the ability to drain energy from fallen foes. You gain the following benefits.
-
-    Your **Constitution** score increases by 1.
-
-    Whenever a creature dies while within 30 feet of you, you can use your ***reaction*** to gain a number of temporary hit points equal to twice your proficiency bonus.
-
-    </div>
-
--   <div class="feat">
-
-    ## Detached From Reality
-    *Prerequisite: Awakened (skeleton)*
-
-    Increase any one of your ability scores by 1.
-
-    **Graveyard Whisper**. You know the *message* cantrip. In addition, you have embedded a copper wire onto the inside of your skull, meaning you are never without the cantrip’s material component. When you cast *message*, if the target replies to you, the reply returns with an echoey quality but otherwise works normally.
-
-    You are even better at using the body parts you detach with the *bone to pick* trait. As an ***action*** on your turn, you are able to recall any detached body parts, which will be drawn back to you, moving 30 ft per turn in a straight line towards you. Your detached body part has hit points equal to your level, apart from your head which has double your level in hitpoints. If a body part is destroyed, it can be replaced with bones from an appropriate humanoid.
-
-    **Arm**. Your disconnected arm is a club dealing 1d8 bludgeoning damage.
-
-    **Hand**. When detached from your body, your hand gains a walking speed equal to half your walking speed. Your detached hand can't attack, activate magic items, or carry more than 10 pounds and has a range of 60 ft before it can no longer be controlled or recalled.
-
-    **Head**. When you detach your head from your shoulders you are still able to use all of its functions (sight, hearing, etc.). While detached in this way, your head needs to be reattached manually and cannot be recalled. If your head is destroyed while detached, you are unconscious until the skull of an appropriate humanoid is manually attached onto your body.
-
-    **Ribs & fingers**. A rib or finger can be used as lockpicks. When attempting to pick a lock in this way, you may add your proficiency bonus to the roll.
-
-    </div>
-
-
--   <div class="feat">
-
-    ## Deathless Flesh
-    As your power grows, your flesh becomes resilient to mundane forms of damage. When you take this feat, you gain resistance to bludgeoning, piercing, and slashing damage from non-magical sources.
-
-    </div>
-
--   <div class="feat">
-
-    ## Ghost Speaker
-    You have learned how to communicate better with other undead, whether in the hope of ending their torments or as a means to obtain forbidden lore.
-
-    Increase your **Intelligence** or **Wisdom** score by 1.
-
-    When you make an Insight or Persuasion check against a non-hostile undead, you have advantage for any ability check you make that uses either of those skills.
-
-    You can comprehend and verbally communicate with undead, even if they cannot normally speak. Their willingness to communicate with you is limited by their intelligence and their general attitude toward the living, but even if they might attack you shortly afterward, they can usually be persuaded to give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day.
-
-    You are able to mask your soul from the mindless hordes and become indistinguishable from one of their own. Undead with an intelligence score of 6 or lower are considered to have the charmed contition in regards to you unless you damage them. Undead with an intelligence score of 8 or lower will not attack you unless you damage them or somehow impede their goal first. You can still be affected by area-of-effect abilities and/or spells from these undead.
-
-    </div>
-
-
-
--   <div class="feat">
-
-    ## Ghostly Magic
-    *Prerequisite: Awakened (bound spirit)*
-
-    Your soul is especially powerful, and you may channel its power into a semblance of mortal magic. Each day, you may cast up to three of the following spells: *blink, catapult, charm person, fear*, and *invisibility* (self only). You regain the ability to cast these spells when you finish a long rest.
-
-    When you take this feat, choose either Charisma or Wisdom as your spellcasting ability for these spells, and you cast any spells gained by this feat at their lowest possible levels.
-
-    </div>
-
--   <div class="feat">
-
-    ## Necrotic Affinity
-    *Prerequisite: Awakened (mummy)*
-
-    Your affinity with necrotic energy grows, and you can sustain yourself with it.
-
-    An ability score of your choice increases by 1.
-
-    When you take necrotic damage, you can use your ***reaction*** to ignore the damage and instead gain temporary hit points equal to the damage. These temporary hit points fade after 1 hour. Once you use this trait, you can’t use it again until you finish a short rest.
-
-
-    </div>
-
-</div>
-
-
-
-
-
