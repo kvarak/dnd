@@ -9,7 +9,6 @@ layout: default
 ##### <a href="#internal-features">Special Features</a>
 ##### <a href="#internal-appearance">Appearance</a>
 ##### <a href="#internal-classOptions">Class options</a>
-##### <a href="#internal-feat">Exclusive feats</a>
 
 </div>
 
@@ -90,7 +89,7 @@ Aasimar share certain traits as a result of their celestial descent.
 
 </div>
 
-### Subrace
+### Subtype
 
 In addition to the common Protector Aasimar, some Aasimar become touched by darkness, turning into fallen aasimar. Choose one of them for your character.
 
@@ -373,7 +372,7 @@ Aasimar approach some classes is a bit different than other races. When you sele
     You can spend a sorcery point to consecrate a spell that deals fire damage. If you do, half of the fire damage is instead radiant damage.
 
     <hr class="dividerinfolk">
-    
+
 - ### Swashbuckler
     An Aasimars natural charisma and human heritage make them well suited to swashbuckling.
 
