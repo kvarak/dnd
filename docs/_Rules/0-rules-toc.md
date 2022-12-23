@@ -16,6 +16,7 @@ layout: default
   <a href="1-rules-character.html#internal-Inspiration">Inspiration</a><br/>
   <a href="1.3-languages.html">Languages</a><br/>
   <a href="1-rules-character.html#internal-Luck">Luck</a><br/>
+  <a href="1.5-multiclassing.html">Multiclassing</a><br/>
   <a href="1.7-skills.html">Skills</a><br/>
   <a href="1.8-skills_combat.html">Skills, combat</a><br/>
 
