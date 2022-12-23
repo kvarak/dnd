@@ -262,67 +262,6 @@ In addition to the common Protector Aasimar, some Aasimar become touched by dark
 
 </div>
 
-## <a class="internal-link" name="internal-feat">Exclusive feats</a>
-
-The following feats are exclusive to aasimar.
-
-<div class="columnstwo">
-
-- <div class="feat">
-
-    ## Aasimar's Blessing
-    Your divine lineage runs true within you, and you've grown to be able to draw upon it more frequently.
-
-    You can use your Necrotic Shroud or Radiant Soul feature a number of times equal to your proficiency bonus, and you regain all uses after a long rest.
-
-  </div>
-
-- <div class="feat">
-
-    ## Celestial Resilience
-    You become more resistant to injury when you unleash your full celestial might.
-
-    Increase your **Constitution** or **Charisma** score by 1.
-
-    You gain temporary hit points equal to your level when you activate your Radiant Soul or Necrotic Shroud trait. These temporary hit points last until your transformation ends.
-
-    During your transformation, if you fail a saving throw, you can use your ***reaction*** to reroll the saving throw with advantage. Once you use this ability, you can't do so again until your next transformation.
-
-    While transformed you may use a ***reaction*** to give an attack disadvantage within 10ft of you, as you attempt to block the attack with your wings.
-
-  </div>
-
-- <div class="feat">
-
-  ## Heavenly Emissary
-    Your natural charm makes you trustworthy and earnest.
-
-    Increase your **Charisma** or **Wisdom** by 1.
-
-    You gain proficiency with Persuasion. If already proficient, you gain advantage on all checks you make with it.
-
-    You have advantage on all Insight and Charisma checks when dealing with celestials.
-
-    **Eyes of the Upper Planes**. You can spend 1 minute opening up your divine bloodline up to the creases of reality. For 10 minutes you can see into the ethereal plane and see through invisibility and illusions. Once you use this feature you must complete a long rest before using it again.
-
-  </div>
-
-- <div class="feat">
-
-    ## Searing Radiance
-    Your celestial nature burns with holy fire, shining forth from your form.
-
-    Increase your **Charisma** or **Wisdom** by 1.
-
-    You learn either the *sacred flame* or *hand of radiance* cantrip.
-
-    You learn either the *searing smite* or the *guiding bolt* spell. You may cast this spell once per long rest without expending a spell slot.
-
-  </div>
-
-</div>
-
-
 ## <a class="internal-link" name="internal-classOptions">Class Options</a>
 
 Aasimar approach some classes is a bit different than other races. When you select one of these classes, it is modified as follows:
@@ -335,7 +274,7 @@ Aasimar approach some classes is a bit different than other races. When you sele
     <hr class="dividerinfolk">
 
 - ### Barbarian
-    If you are a Aasimar barbarian, you may add your rage damage whenever Radiant soul or Necrotic shroud deals damage to a celestial, fiend or undead.
+    As an Aasimar barbarian, you may add your rage damage whenever Radiant soul or Necrotic shroud deals damage to a celestial, fiend or undead.
 
     <hr class="dividerinfolk">
 
@@ -349,7 +288,7 @@ Aasimar approach some classes is a bit different than other races. When you sele
     ## Language of the Gods
     As a ***bonus action***, you can issue inspiring chants or terrible challenges in the Celestial tongue.
 
-    Choose a number of creatures equal to your Charisma modifier within 60 feet that can hear you. Each target has advantage or disadvantage (your choice) on the first attack roll or ability check it makes before the start of your next turn.
+    Choose a number of creatures equal to your Charisma modifier within 60 ft that can hear you. Each target has advantage or disadvantage (your choice) on the first attack roll or ability check it makes before the start of your next turn.
 
     You can give this oration a number of times equal to your Charisma modifier. You regain all expended uses when you finish a long rest.
 
@@ -433,6 +372,8 @@ Aasimar approach some classes is a bit different than other races. When you sele
 - ### Sorcerer
     You can spend a sorcery point to consecrate a spell that deals fire damage. If you do, half of the fire damage is instead radiant damage.
 
+    <hr class="dividerinfolk">
+    
 - ### Swashbuckler
     An Aasimars natural charisma and human heritage make them well suited to swashbuckling.
 
