@@ -16,7 +16,6 @@ Sane minds shirk from attempting to comprehend the shear number of creatures tha
 
     While full-grown flumphs can sustain themselves on psychic energy alone, young flumphlings require protein to increase their body size. They will capture and consume lizards, frogs, and snakes, but will always prefer mice and rats, and will chase any they find relentlessly. Some flumphlings even consider the hunting of rodents to be a sacred duty - though none can fathom why.
 
-
 -   <img src='http://www.acrosstheboardgames.net/wp-content/uploads/flumph-360x600.jpg' style='float:right;width:40%' />
 
     <div class="monster multimonster frame">
@@ -45,17 +44,17 @@ Sane minds shirk from attempting to comprehend the shear number of creatures tha
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    **Skills** Arcana +2, History +2, Perception +4, Religion +2, Stealth +4<br/>
-    **Senses** darkvision 60 ft, passive Perception 14<br/>
+    **Skills** Arcana, History, Perception, Religion, Stealth<br/>
+    **Senses** darkvision 60 ft<br/>
     **Languages** Common and Undercommon but can't speak, telepathy 60 ft
 
     </td></tr>
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    ***Advanced Telepathy***. The flumphling can perceive the content of any telepathic communication used within 60 feet of it, and it can't be surprised by creatures with any form of telepathy.
+    ***Advanced Telepathy***. The flumphling can perceive the content of any telepathic communication used within 60 ft of it and it can't be surprised by creatures with any form of telepathy.
 
-    ***Telepathic Shroud***. The flumphling is immune to any effect that would sense its emotions or read its thoughts without its consent. If the flumphling is serving as a familiar, this trait is shared by its companion as long as its companion is within 10 feet.
+    ***Telepathic Shroud***. The flumphling is immune to any effect that would sense its emotions or read its thoughts without its consent. If the flumphling is serving as a familiar, this trait is shared by its companion as long as its companion is within 10 ft.
 
     ***Magic Resistance***. The flumphling has advantage on saving throws against spells and other magical effects.
 
@@ -64,9 +63,9 @@ Sane minds shirk from attempting to comprehend the shear number of creatures tha
     <tr><td markdown="1" class="monster">
 
     ### Actions
-    ***Tendril***. Melee Weapon Attack: +4 to hit, reach 5ft, one target. Hit 1d4 + 2 piercing damage plus 1 acid damage. At the end of each of its turns, the target must make a DC 11 Constitution saving throw, taking 1d4-1 acid damage on a failure or ending the recurring acid damage on a success. A lesser restoration spell cast on the target also ends the recurring acid damage.
+    ***Tendril***. *Melee Attack*: +4 to hit. *On hit*: 1d4 + 2 piercing damage plus 1 acid damage. At the end of each of its turns, the target must make a DC 11 Constitution saving throw, taking 1d4-1 acid damage on a failure or ending the recurring acid damage on a success. A lesser restoration spell cast on the target also ends the recurring acid damage.
 
-    ***Stench Spray*** (1/Day). One creature with 15 feet of the flumphling must succeed on a DC 11 Dexterity saving throw or be coated in a foul-smelling liquid. A coated creature exudes a horrible stench for 1 hour. The coated creature is poisoned as long as the stench lasts, and other creatures are poisoned while within 5 feet of the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar.
+    ***Stench Spray*** (1/Day). One creature with 15 ft must succeed on a DC 11 Dexterity saving throw or be coated in a foul-smelling liquid. A coated creature exudes a horrible stench for 1 hour. The coated creature is poisoned as long as the stench lasts, and other creatures are poisoned while adjacent to the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar.
 
     </td></tr></tbody></table>
     </div>
@@ -78,8 +77,6 @@ Sane minds shirk from attempting to comprehend the shear number of creatures tha
     Grown out of the remains of a full-sized adult gibbering mouther, gibbering orblets are something like the larval stage of their former parent. Constantly floating and enunciating a string of whispered nonsense syllables from multiple mouths, gibbering orblets are every bit as vile and madness-inducing as their adult kin, and only the most insane or powerhungry warlocks seek their companionship.
 
     Gibbering orblets eventually grow into mouthers, but require a steady stream of nourishment in the form of assorted organic matter for their size to grow big enough. Typically, an orblet is able to grow to full size after a century of regular feeding. Strictly speaking, orblets do not require food to survive, only to grow and gain more mass. An unfed orblet is an unhappy orblet, though, and wise warlocks looking to keep possession of their fingers and appendages don't let an orblet remain unfed for long.
-
-
 
 -   <img src='https://i.pinimg.com/originals/94/e4/4b/94e44bae9bae936f212350b9b1fdaba1.jpg' style='float:right;width:40%' />
 
@@ -109,8 +106,8 @@ Sane minds shirk from attempting to comprehend the shear number of creatures tha
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    **Skills** Perception +3<br/>
-    **Senses** darkvision 120 ft, passive Perception 13<br/>
+    **Skills** Perception<br/>
+    **Senses** darkvision 120 ft<br/>
     **Damage Immunities** psychic<br/>
     **Languages** Common and Deep Speech, can't speak intelligibly beyond two words
 
@@ -118,7 +115,7 @@ Sane minds shirk from attempting to comprehend the shear number of creatures tha
     <tr><td><hr></td></tr>
     <tr><td markdown="1" class="monster">
 
-    ***Limited Telepathy***. The gibbering orblet can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.
+    ***Limited Telepathy***. The gibbering orblet can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 ft of it that can understand a language.
 
     ***Gibbering***. The gibbering orblet babbles incoherently while it can see any creature and isn't incapacitated. Each enemy creature that starts its turn within 10 feet of the orblet and can hear the gibbering must succeed on a DC 11 Wisdom saving throw. On a failure, attacks against the creature from the orblet (and, if the orblet is a familiar, the orblet's master as well) are made with advantage. Affected creatures repeat this save at the start of each of their subsequent turns, and a creature that saves against this effect cannot be affected by it for 24 hours
 
@@ -129,9 +126,9 @@ Sane minds shirk from attempting to comprehend the shear number of creatures tha
     <tr><td markdown="1" class="monster">
 
     ### Actions
-    ***Bite***. Melee Attack: +4 to hit, reach 5ft, Hit 1d4 + 2 piercing damage.
+    ***Bite***. *Melee Attack*: +4 to hit. *On hit*: 1d4 + 2 piercing damage.
 
-    ***Poison Spittle***. Ranged Attack: +4 to hit, range 10/20 ft, Hit 1d4 + 2 acid damage , and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute.
+    ***Poison Spittle***. *Ranged Attack*: +4 to hit, 10/20 ft. *On hit*: 1d4 + 2 acid damage , and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute.
 
     ***Phasing***. The orblet partially phases into the etherial plane or returns to the material plane. While partially in the ethereal plane, attacks targeting the orblet are made with disadvantage, but the orblet may not take any other actions than choosing to use this ability to return to the material plane. The orblet returns to the material plane if it dies.
 

@@ -26,7 +26,7 @@ Constructs - and things that look like constructs. Many of these creatures are i
 
     **Armor Class** 13 (natural armor)<br/>
     **Hit Points** 2 (1d4)<br/>
-    **Speed** 0 ft., fly 30 ft. (hover)
+    **Speed** 0 ft, fly 30 ft (hover)
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -43,8 +43,8 @@ Constructs - and things that look like constructs. Many of these creatures are i
     **Damage Immunities** poison, psychic<br/>
     **Damage Vulnerabilities** fire<br/>
     **Condition Immunities** blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned<br/>
-    **Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 7<br/>
-    **Languages** –
+    **Senses** blindsight 60 ft (blind beyond this radius)<br/>
+    **Languages** Understands those known by its master but can’t speak or write
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -63,7 +63,7 @@ Constructs - and things that look like constructs. Many of these creatures are i
     <tr><td markdown="1">
 
     ### Actions
-    ***Slam***. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.
+    ***Slam***. *Melee Attack*: +0 to hit. *On hit*: 1 piercing damage.
 
     </td></tr></tbody></table>
     </div>
@@ -81,7 +81,7 @@ Constructs - and things that look like constructs. Many of these creatures are i
 
     **Armor Class** 11 (natural armor)<br/>
     **Hit Points** 9 (2d4 + 4)<br/>
-    **Speed** 5 ft., fly 60 ft.
+    **Speed** 10 ft
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -97,9 +97,9 @@ Constructs - and things that look like constructs. Many of these creatures are i
 
     **Damage Immunities** acid<br/>
     **Condition Immunities** prone<br/>
-    **Senses** blindsight 60 ft. (blind beyond this radius), passive<br/>
-    **Skills** Stealth +4<br/>
-    **Languages** –
+    **Senses** blindsight 60 ft (blind beyond this radius)<br/>
+    **Skills** Stealth<br/>
+    **Languages** Understands those known by its master but can’t speak or write
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -125,12 +125,9 @@ Constructs - and things that look like constructs. Many of these creatures are i
     <tr><td markdown="1">
 
     ### Actions
-    ***Pseudopod***. Melee Weapon Attack: +1 to hit, reach 5 ft., one
-    target. Hit: 1 bludgeoning damage. If the mock is in object form,
-    the target is subjected to its Adhesive trait.
+    ***Pseudopod***. *Melee Attack*: +1 to hit. *On hit*: 1 bludgeoning damage. If the mock is in object form,     the target is subjected to its Adhesive trait.
 
-    ***Bite***. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit:
-    2 (1d6-1) piercing damage plus 3 (1d6) acid damage.
+    ***Bite***. *Melee Attack*: +1 to hit. *On hit*: 2 (1d6-1) piercing damage plus 3 (1d6) acid damage.
 
     </td></tr></tbody></table>
     </div>
@@ -148,7 +145,7 @@ Constructs - and things that look like constructs. Many of these creatures are i
 
     **Armor Class** 11<br/>
     **Hit Points** 2 (1d4)<br/>
-    **Speed** 20 ft.
+    **Speed** 20 ft
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -164,9 +161,9 @@ Constructs - and things that look like constructs. Many of these creatures are i
 
     **Damage Immunities** poison, bludgeoning from nonmagical weapons<br/>
     **Damage Vulnerabilities** fire<br/>
-    **Senses** darkvision 60 ft., passive Perception 7<br/>
-    **Skills** Persuasion +5, Stealth +5<br/>
-    **Languages** –
+    **Senses** darkvision 60 ft<br/>
+    **Skills** Speechcraft, Stealth<br/>
+    **Languages** Knows those known by its master
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -186,8 +183,7 @@ Constructs - and things that look like constructs. Many of these creatures are i
 
     ### Actions
 
-    ***Headbutt***. Melee Weapon Attack: +0 to hit, reach 5 ft., one target.
-    Hit: 1 bludgeoning damage.
+    ***Headbutt***. *Melee Attack*: +0 to hit. *On hit*: 1 bludgeoning damage.
 
     </td></tr></tbody></table>
     </div>
@@ -207,7 +203,7 @@ Constructs - and things that look like constructs. Many of these creatures are i
 
     **Armor Class** 14 (natural armor)<br/>
     **Hit Points** 3 (1d4 + 1)<br/>
-    **Speed** 30 ft.
+    **Speed** 30 ft
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -222,9 +218,9 @@ Constructs - and things that look like constructs. Many of these creatures are i
     <tr><td markdown="1">
 
     **Damage Immunities** poison<br/>
-    **Senses** darkvision 60 ft., passive Perception 7<br/>
-    **Skills** Perception +2<br/>
-    **Languages** –
+    **Senses** darkvision 60 ft<br/>
+    **Skills** Perception<br/>
+    **Languages** Understands those known by its master but can’t speak or write
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -234,7 +230,7 @@ Constructs - and things that look like constructs. Many of these creatures are i
     indistinguishable from a normal toy.
 
     ***Formation***. The tin soldier has advantage on attack rolls when it is
-    within 5 feet of another tin soldier.
+    within 5 ft of another tin soldier.
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -242,11 +238,9 @@ Constructs - and things that look like constructs. Many of these creatures are i
 
     ### Actions
 
-    ***Bayonet***. Melee Weapon Attack: +0 to hit, reach 5 ft., one target.
-    Hit: 1 piercing damage.
+    ***Bayonet***. *Melee Attack*: +0 to hit. *On hit*: 1 piercing damage.
 
-    ***Rifle*** (Recharge 6). Ranged Weapon Attack: +3 to hit, range 20/60
-    ft., one target. Hit: 1 piercing damage.
+    ***Rifle*** (Recharge 6). *Ranged Attack*: +3 to hit, range 20/60 ft. *On hit*: 1 piercing damage.
 
     </td></tr></tbody></table>
     </div>
@@ -265,7 +259,7 @@ Constructs - and things that look like constructs. Many of these creatures are i
 
     **Armor Class** 12<br/>
     **Hit Points** 2 (1d4)<br/>
-    **Speed** 30 ft.
+    **Speed** 30 ft
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -280,8 +274,7 @@ Constructs - and things that look like constructs. Many of these creatures are i
     <tr><td markdown="1">
 
     **Damage Resistance** piercing<br/>
-    **Senses** passive Perception 10<br/>
-    **Languages** –
+    **Languages** Understands those known by its master but can’t speak or write
 
     </td></tr>
     <tr><td><hr></td></tr>
@@ -300,8 +293,7 @@ Constructs - and things that look like constructs. Many of these creatures are i
 
     ### Actions
 
-    ***Tangle***. Melee Weapon Attack: +4 to hit, reach 5 ft., one target.
-    Hit: The target is restrained (escape DC 12).
+    ***Tangle***. *Melee Attack*: +4 to hit. *On hit*: The target is restrained (escape DC 12).
 
     </td></tr></tbody></table>
     </div>
