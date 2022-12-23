@@ -5,6 +5,8 @@ layout: default
 
 <div class="toc">
 
+##### <a href="1-rules-character">The Character</a>
+##### <a href="2-rules-equipment.html">Equipment</a>
 ##### <a href="#internal-combat">Combat</a>
 <a href="#internal-ActionsinCombat">Actions in Combat</a><br/>
 <a href="#internal-Cover">Cover</a><br/>
@@ -17,6 +19,11 @@ layout: default
 <a href="#internal-SneakingandStabbing">Sneaking and Stabbing</a><br/>
 <a href="#internal-Surprise">Surprise</a><br/>
 <a href="#internal-UnderwaterCombat">Underwater Combat</a><br/>
+
+##### <a href="4-rules-spells.html">Spells and Magic</a>
+##### <a href="5-rules-adventuring.html">Adventuring</a>
+##### <a href="6-rules-travel.html">Travel</a>
+##### <a href="7-rules-water.html">Water rules</a>
 
 </div>
 

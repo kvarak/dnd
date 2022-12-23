@@ -5,6 +5,11 @@ layout: default
 
 <div class="toc">
 
+##### <a href="1-rules-character">The Character</a>
+##### <a href="2-rules-equipment.html">Equipment</a>
+##### <a href="3-rules-combat.html">Combat</a>
+##### <a href="4-rules-spells.html">Spells and Magic</a>
+##### <a href="5-rules-adventuring.html">Adventuring</a>
 ##### <a href="#internal-travel">Travel</a>
 <a href="#internal-PlanningaJourney">Planning a Journey</a><br/>
 <a href="#internal-ADayofTravelling">A Day of Travelling</a><br/>
@@ -16,6 +21,8 @@ layout: default
 <a href="#internal-RoleTheGuide">The Guide</a><br/>
 <a href="#internal-RoleTheForager">The Forager</a><br/>
 <a href="#internal-RoleTheLookout">The Lookout</a><br/>
+
+##### <a href="7-rules-water.html">Water rules</a>
 
 </div>
 

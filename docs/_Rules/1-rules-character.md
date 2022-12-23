@@ -18,6 +18,13 @@ layout: default
 <a href="1.7-skills.html">Skills</a><br/>
 <a href="1.8-skills_combat.html">Skills, combat</a><br/>
 
+##### <a href="2-rules-equipment.html">Equipment</a>
+##### <a href="3-rules-combat.html">Combat</a>
+##### <a href="4-rules-spells.html">Spells and Magic</a>
+##### <a href="5-rules-adventuring.html">Adventuring</a>
+##### <a href="6-rules-travel.html">Travel</a>
+##### <a href="7-rules-water.html">Water rules</a>
+
 </div>
 
 

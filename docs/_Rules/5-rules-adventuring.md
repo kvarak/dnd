@@ -5,10 +5,17 @@ layout: default
 
 <div class="toc">
 
+##### <a href="1-rules-character">The Character</a>
+##### <a href="2-rules-equipment.html">Equipment</a>
+##### <a href="3-rules-combat.html">Combat</a>
+##### <a href="4-rules-spells.html">Spells and Magic</a>
 ##### <a href="#internal-adventuring">Adventuring</a>
 <a href="#internal-RestingShort">Resting, Short</a><br/>
 <a href="#internal-RestingLong">Resting, Long</a><br/>
 <a href="#internal-RestActivities">Rest Activities</a><br/>
+
+##### <a href="6-rules-travel.html">Travel</a>
+##### <a href="7-rules-water.html">Water rules</a>
 
 </div>
 

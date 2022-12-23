@@ -5,6 +5,7 @@ layout: default
 
 <div class="toc">
 
+##### <a href="1-rules-character">The Character</a>
 ##### <a href="#internal-equipment">Equipment</a>
 <a href="#internal-Alchemicalandherbalitems">Alchemical and herbal items</a><br/>
 <a href="#internal-Ammunition">Ammunition</a><br/>
@@ -15,6 +16,12 @@ layout: default
 <a href="#internal-Poisons">Poisons</a><br/>
 <a href="#internal-UsageDice">Usage Dice</a><br/>
 <a href="#internal-Weapons">Weapons</a><br/>
+
+##### <a href="3-rules-combat.html">Combat</a>
+##### <a href="4-rules-spells.html">Spells and Magic</a>
+##### <a href="5-rules-adventuring.html">Adventuring</a>
+##### <a href="6-rules-travel.html">Travel</a>
+##### <a href="7-rules-water.html">Water rules</a>
 
 </div>
 

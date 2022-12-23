@@ -5,6 +5,9 @@ layout: default
 
 <div class="toc">
 
+##### <a href="1-rules-character">The Character</a>
+##### <a href="2-rules-equipment.html">Equipment</a>
+##### <a href="3-rules-combat.html">Combat</a>
 ##### <a href="#internal-magic">Spells and Magic</a>
 <a href="4.1-spells.html">Spells</a><br/>
 <a href="#internal-IdentifyingSpells">Identifying Spells</a><br/>
@@ -13,6 +16,10 @@ layout: default
 <a href="#internal-SpellComponents">Spell Components</a><br/>
 <a href="#internal-SpellTargets">Spell Targets</a><br/>
 <a href="#internal-WildMagic">Wild Magic</a><br/>
+
+##### <a href="5-rules-adventuring.html">Adventuring</a>
+##### <a href="6-rules-travel.html">Travel</a>
+##### <a href="7-rules-water.html">Water rules</a>
 
 </div>
 
