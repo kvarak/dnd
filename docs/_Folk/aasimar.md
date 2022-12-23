@@ -78,13 +78,13 @@ Aasimar share certain traits as a result of their celestial descent.
 
 - **Age**. Aasimar mature at the same rate as humans but live a few years longer.
 
-- **Speed**. Your base speed is 30 feet.
+- **Speed**. Your base speed is 30 ft.
 
-- **Low-light Vision**. Blessed with a radiant soul, your vision enhances even the smallest light. You can see in dim light as if it were bright light, and an additional 30 feet into darkness as if it were dim light.
+- **Low-light Vision**. Blessed with a radiant soul, your vision enhances even the smallest light. You can see in dim light as if it were bright light, and an additional 30 ft into darkness as if it were dim light.
 
 - **Celestial Resistance**. You have resistance to necrotic and radiant damage.
 
-- **Aasimar features**. Roll twice on the <a href="#internal-features">special feature</a> and <a href="#internal-appearance">special appearance</a> tables below.
+- **Aasimar features**. Roll twice on the <a href="#internal-features">special feature</a> table and once on the <a href="#internal-appearance">special appearance</a> table.
 
 - **Language**. You know Common and Celestial.
 
@@ -101,14 +101,14 @@ In addition to the common Protector Aasimar, some Aasimar become touched by dark
 
     **Radiant Soul**. Starting at 3rd level, you can use your ***action*** to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.
 
-    Your transformation lasts for 1 minute or until you end it as a ***bonus action***. While transformed, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.
+    Your transformation lasts for 1 minute or until you end it as a ***bonus action***. While transformed, you have a flying speed of 30 ft, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.
 
     Once you use this trait, you can't use it again until you finish a long rest.
 
 - #### Fallen Aasimar
     An aasimar who was touched by dark powers as a youth or who turns to evil in early adulthood can become one of the fallen-a group of aasimar whose inner light has been replaced by shadow.
 
-    **Necrotic Shroud**. Starting at 3rd level, you can use your ***action*** to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.
+    **Necrotic Shroud**. Starting at 3rd level, you can use your ***action*** to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 ft of you that can see you must each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.
 
     Your transformation lasts for 1 minute or until you end it as a ***bonus action***. While transformed, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.
 
@@ -227,22 +227,22 @@ In addition to the common Protector Aasimar, some Aasimar become touched by dark
 - | d30 | Special Feature |
   |:-:|:----------------|
   | 1 | You can drink a flask of holy water to heal 1d6 hit points.
-  | 2 | Once you've reached adulthood, you stop aging, and will never die of age.
-  | 3 | If you stand atop a grave and meditate for 10 minutes, you learn the name of whoever lies buried below and get a general sense for what plane their soul has departed..
-  | 4 | You feel sick to your stomach when you first come within 30 feet of a fiend. This gives you the poisoned condition, lasting 1 minute. You cannot be affected again for 10 minutes.
+  | 2 | Once you've reached adulthood you stop aging and will never die of age.
+  | 3 | If you stand atop a grave and meditate for 10 minutes, you learn the name of whoever lies buried below and get a general sense for what plane their soul has departed.
+  | 4 | You feel sick to your stomach when you first come within 30 ft of a fiend. This gives you the poisoned condition, lasting 1 minute. You cannot be affected again for 10 minutes.
   | 5 | If you die, your body can never be reanimated as an undead creature.
-  | 6 | Your tears are iridescent or glowing, and have the ability to cure disease. This functions as the *lesser restoration* spell. You can use this trait once per day
+  | 6 | Your tears are iridescent or glowing, and have the ability to cure disease. This functions as the *lesser restoration* spell. You can use this feature once per day.
   | 7 | Your skin has almost a metallic sheen and allows you to gain sustenance from sunlight. Standing in direct sunlight for half an hour nourishes you as though you had just eaten a hearty meal. You still need to drink water.
   | 8 | If your body is placed on consecrated ground and prayers to your deity are recited continuously for 24 hours, you return to life as if by a *raise dead* spell. This ability works 1d4 times in your lifetime.
   | 9 | Your kiss invigorates others. Once per day, you can kiss a creature to reduce its exhaustion level by one, as if you had cast a *greater restoration*.
   | 10 | You can subsist entirely on honey and wine.
-  | 11 | Glowing sigil on palm. As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.
+  | 11 | Glowing sigil on palm. As an ***action***, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this feature, you can't use it again until you finish a long rest.
   | 12 | You can urinate holy water once a day.
   | 13 | Bronze skin that grants an unarmored AC equal to 12 + Dex mod.
-  | 14 | Light emits from eyes illuminating a 30 foot cone.
-
+  
 - | d30 | Special Feature |
   |:--:|:----------------|
+  | 14 | Light emits from eyes illuminating a 30 ft cone.
   | 15 | Can make a golden mask appear on face at will to hide identity.
   | 16 | Alcohol  and other poisons tastes and smells vile.
   | 17 | Babies stop crying when you get close and lost children often find their way to you.
@@ -261,10 +261,6 @@ In addition to the common Protector Aasimar, some Aasimar become touched by dark
   | 30 | If you ask a direct and honest question, people are made visibly uncomfortable by telling you a lie or hearing one being told.
 
 </div>
-
-
-
-
 
 ## <a class="internal-link" name="internal-feat">Exclusive feats</a>
 
