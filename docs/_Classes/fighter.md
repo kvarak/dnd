@@ -1227,9 +1227,9 @@ The Templar Spellcasting table shows how many spell slots you have to cast your 
 #### Spells Known
 You know one 1st-level cleric spells of your choice. The Spells Known column of the Templar Spellcasting table shows when you learn more cleric spells of 1st level or higher. Each of these spells must be of a level for which you have spell slots.
 
-In addition, pick a cleric domain. You know all domain specific 1st level spells of that domain. At level 7 you learn all domain specific 2nd level spells, at 13th level the 3rd level spells and at 19th level the 4th level spells.
+<div class="block classTable halfClassTable frame" markdown="1">
 
-#### Templar Spellcasting Table
+##### Templar Spellcasting Table
 | Level | Cantrips | Spells Known | 1st | 2nd | 3rd | 4th |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 3rd | 2 | 1 | 2 | - | - | - |
@@ -1251,6 +1251,9 @@ In addition, pick a cleric domain. You know all domain specific 1st level spells
 | 19th | 3 | 10 | 4 | 3 | 3 | 1 |
 | 20th | 3 | 11 | 4 | 3 | 3 | 1 |
 
+</div>
+
+In addition, pick a cleric domain. You know all domain specific 1st level spells of that domain. At level 7 you learn all domain specific 2nd level spells, at 13th level the 3rd level spells and at 19th level the 4th level spells.
 
 Whenever you gain a level in this class, you can replace one of the cleric spells you know with another spell of your choice from the cleric spell list. However, you may not swap out a domain spell. The new spell must be of a level for which you have spell slots.
 
