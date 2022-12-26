@@ -223,8 +223,14 @@
   img: ../assets/campaigns/07-Haunted-Lands/QuinleyBasdel.jpg
 
 - path: 8
-  name: Augustu v2
-  img: ../assets/campaigns/08-Return-to-Sandpoint/Augustu v2.jpg
+  name: Augustu Vira v2
+  img: ../assets/campaigns/08-Return-to-Sandpoint/augustu.jpg
+- path: 8
+  name: Grachius Baradin v2
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Grachius.Baradin.png
+- path: 8
+  name: Grachius Baradin v3
+  img: ../assets/campaigns/08-Return-to-Sandpoint/grachius.jpg
 - path: 8
   name: Catan 1
   img: ../assets/campaigns/08-Return-to-Sandpoint/Catan01.jpg
@@ -235,17 +241,11 @@
   name: Catan 3
   img: ../assets/campaigns/08-Return-to-Sandpoint/Catan03.jpg
 - path: 8
-  name: Grachius Baradin
-  img: ../assets/campaigns/08-Return-to-Sandpoint/Grachius.Baradin.png
-- path: 8
   name: Hansi
   img: ../assets/campaigns/08-Return-to-Sandpoint/Hansi.jpg
 - path: 8
   name: Mokren
   img: ../assets/campaigns/08-Return-to-Sandpoint/Mokren.jpg
-- path: 8
-  name: Mori
-  img: ../assets/campaigns/08-Return-to-Sandpoint/Mori.jpg
 - path: 8
   name: Shusuke
   img: ../assets/campaigns/08-Return-to-Sandpoint/Shusuke01.jpg
@@ -253,30 +253,39 @@
   name: Torgeir
   img: ../assets/campaigns/08-Return-to-Sandpoint/Torgeir.jpg
 - path: 8
-  name: grachius
-  img: ../assets/campaigns/08-Return-to-Sandpoint/grachius.jpg
+  name: Murugawaya Mori
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Mori.jpg
 - path: 8
-  name: kane
+  name: Kanjiro Kane
   img: ../assets/campaigns/08-Return-to-Sandpoint/kane.jpeg
 
 - path: 9
   name: Bayne
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/Bayne.jpg
 - path: 9
-  name: Gratus
+  name: Gratus Gallus
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/Gratus.jpg
 - path: 9
-  name: Gualternus
+  name: Gualternus Verructus
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/Gualternus.jpeg
 - path: 9
   name: Vulph Amberbloom
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/VulphAmberbloom.jpg
 - path: 9
+  name: Issa of Inlé
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/Issa.jpg
+- path: 9
   name: Aghlon
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/Aghlon.jpg
 - path: 9
-  name: Lucio
-  img: ../assets/campaigns/09-Adventures-in-the-Shackles/Lucio.png
-- path: 9
   name: Kibi
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/Kibi.png
+- path: 9
+  name: Lucio Donnari
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/Lucio.png
+- path: 9
+  name: Raday 'Whiskers'
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/whiskers.png
+- path: 9
+  name: Ebaleke
+  img: ../assets/campaigns/09-Adventures-in-the-Shackles/ebaleke.png
