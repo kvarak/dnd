@@ -1139,7 +1139,7 @@ If this attack reduces the creature to 0 hit points, you can gloat about it as p
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Skirmisher">Skirmisher / Mariner</a></h1>
+<h1><a class="internal-link" name="internal-Skirmisher">Skirmisher</a></h1>
 <div class="featuresTable">
 
 #### Skirmisher Features
@@ -1153,7 +1153,7 @@ If this attack reduces the creature to 0 hit points, you can gloat about it as p
 
 </div>
 
-The skirmisher is a warrior trained for speed. They use their superior mobility to take the fight to their opponents and keep them off balance. A fighter built for maneuverability from an aquatic setting is called a mariner and follows the same rules (but choosing the swimming option for No Escape at 3rd level).
+The skirmisher is a warrior trained for speed. They use their superior mobility to take the fight to their opponents and keep them off balance.
 
 ### No Escape
 You can use your ***reaction*** to move up to half your speed when a creature you can see that is hostile to you moves.
