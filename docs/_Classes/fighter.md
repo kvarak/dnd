@@ -664,14 +664,11 @@ The Eldritch Knight Spellcasting table shows how many spell slots you have to ca
 #### Spells Known
 You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list. The Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots.
 
-The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
+<div class="block classTable halfClassTable frame" markdown="1">
 
-Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
+##### Eldritch Knight Spellcasting
 
-
-#### Eldritch Knight Spellcasting
-
-| Level | Cantrips | Spells Known | 1st | 2nd | 3rd | 4th |
+| Level | Cantrips | Spells | 1st | 2nd | 3rd | 4th |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 3rd | 2 | 3 | 2 | - | - | - |
 | 4th | 2 | 4 | 3 | - | - | - |
@@ -692,6 +689,11 @@ Whenever you gain a level in this class, you can replace one of the wizard spell
 | 19th | 3 | 12 | 4 | 3 | 3 | 1 |
 | 20th | 3 | 13 | 4 | 3 | 3 | 1 |
 
+</div>
+
+The spells you learn at 8th, 14th, and 20th level can come from any school of magic.
+
+Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you're replacing the spell you gained at 8th, 14th, or 20th level.
 
 #### Spellcasting Ability
 Intelligence is your spellcasting ability for your spells, since you learn your spells through study and memorization.
