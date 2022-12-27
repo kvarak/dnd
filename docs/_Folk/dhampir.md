@@ -12,8 +12,6 @@ layout: default
 <a href="#internal-obiri">Obiri</a>
 
 ##### <a href="#internal-ClassOptions">Class Options</a>
-##### <a href="#internal-feat">Feats</a>
-
 </div>
 
 # Dhampir
