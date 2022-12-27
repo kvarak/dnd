@@ -26,8 +26,6 @@ Eventually, a dhampir must learn to cope with these difficulties in order to fin
 
 However, even with those they feel attached to, most dhampirs are sullen and reserved. Some fear the persecution heaped upon them may be transferred to their companions, whereas others worry their own bloodlust will one day overwhelm them and they'll inadvertently turn upon their friends. In any case, an alliance with a dhampir almost always leads to an ill-fated conclusion.
 
-
-
 #### Physical Description
 Tall and slender and with well-defined musculature, dhampirs look like statuesque humans of unearthly beauty. Their hair, eye, and skin colors resemble unnerving versions of their mothers'; many possess a ghastly pallor, particularly in the sunlight, while those with dark complexions often possess skin the color of a bruise.
 
@@ -37,7 +35,6 @@ While many dhampirs can pass as humans in ideal conditions, their features are i
 
 #### Society
 Dhampirs have no culture of their own, nor do they have any known lands or even communities. Often born in secret and abandoned at orphanages or left to die on the outskirts of town, they tend to live solitary lives as exiles and outcasts. Individuals acquire the cultural beliefs and teachings of the regions in which they grew up, and adopt additional philosophies over the course of their complex lives. This ability to adapt to a variety of circumstances provides dhampirs with a social camouflage that hides them from both predators and prey. In rare instances, dhampirs might gather to form small groups or cabals dedicated to resolving their joint issues. Even so, the philosophies of such groups reflect the interests of the individuals involved, not any common dhampir culture.
-
 
 #### Alignment and Religion
 Most dhampirs succumb to the evil within their blood. They are unnatural creatures, and the foul influence of their undead heritage makes an evil outlook difficult to overcome. Those who struggle against their wicked natures rarely progress beyond a neutral outlook.
@@ -50,7 +47,6 @@ Every dhampir knows a thirst slaked only by the living. Those who overindulge th
 
 While most dhampirs thirst for blood, your character might otherwise gain sustenance from the living. Roll or choose an option to determine what tempts your character to feed.
 
-
 | d6 | Hunger |
 |:--:|:-------|
 | 1 | Blood
@@ -60,10 +56,8 @@ While most dhampirs thirst for blood, your character might otherwise gain susten
 | 5 | Dreams
 | 6 | Life energy
 
-
 #### Dhampir Origins
 Dhampirs often arise from encounters with vampires, but all manner of macabre bargains, necromantic influences, and encounters with mysterious immortals might have transformed your character. The Dhampir Origins table provides suggestions for how your character gained their lineage.
-
 
 | d8 | Origin |
 |:--:|:-------|
@@ -99,7 +93,7 @@ Your dhampir character has certain traits deriving from your vampiric ancestry.
 
     **Darkvision**.  For 30 ft around you, you can see in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.
 
-    **Sunlight Sensitivity**. You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
+    **Sunlight Sensitivity**. You have disadvantage on attack rolls and on Invetigation and Perception checks that rely on sight when you, the target of your attack, or whatever you are trying to see is in direct sunlight.
 
   </div>
 
@@ -109,7 +103,6 @@ Your dhampir character has certain traits deriving from your vampiric ancestry.
 
 The varieties of different vampire bloodlines have resulted in three types of dhampir. The stryg is most common, with most stryg simply referred to as dhampir. The nosferatu and obiri are related to the vampires of the same name. The former prefer to hide their existence, while the latter are harder to identify as a dhampir and go unnoticed.
 
-
 ### <a name="internal-stryg">Stryg</a>
 Descended from common vampires, the Stryg are often considered synonymous with perceptions of dhampir. You have the unearthly beauty and charm of your progenitor. You have pale skin, sharp features, and your eyes have a slightly crimson iris that catches the light like a cat's.
 
@@ -117,7 +110,7 @@ Descended from common vampires, the Stryg are often considered synonymous with p
 
 - **Ability Scores**. Your Charisma ability score, both current and maximum, increases by 2.
 
-- **Natural Grace**. You gain proficiency with Deception and Persuasion.
+- **Natural Grace**. Add *Speechcraft* to your class skills if not already there, and gain 1 skill point to spend on that skill.
 
 - **Tainted Blood**. You know the *friends* cantrip. When you reach 3rd level, you can cast the *misty step* spell once between rests. Charisma is your spellcasting ability for these spells.
 
@@ -131,7 +124,7 @@ Kin to nosferatu vampires, you have the long life of other dhampir but seemingly
 
 - **Ability Scores**. Your Charisma ability score, both current and maximum, is reduced by 2.
 
-- **Fangs**. Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals ld4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.
+- **Fangs**. Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.
 
 - **Blood Drinker**.  When you deal damage with your bite, you may use a **bonus action** to expend a hit die. Roll that die and add your Constitution modifier. You regain Hit Points equal to the total.
 
@@ -286,48 +279,3 @@ A dhampir approaches some classes is a bit different than other races. When you 
     <hr class="dividerinfolk">
 
 </div>
-
-
-
-
-## <a class="internal-link" name="internal-feat">Dhampir Feats</a>
-
-The following feats are exclusive to dhampir:
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Bite Fighter
-    *Prerequisite: Nosferatu*
-
-    You have practiced and honed your bite attack.
-
-    Increase your **Strength** or **Dexterity**  by 1.
-
-    The damage of your bite increases by one die size.
-
-    When you make a bite attack against a creature you have grappled or that is otherwise restrained, you have advantage on the attack roll.
-
-    If you hit an adjacent opponent with a melee weapon attack as part of an Attack action, you can use your ***bonus action*** to attack the same target with your bite.
-
-    </div>
-
--   <div class="feat">
-
-    ## Blood Drinker
-    You have stronger and longer fangs, that allow you to drink blood, just as your vampiric progenitors.
-
-    Increase your **Constitution** by 1.
-
-    You can drink fresh blood from a humanoid creature, granting you 10 temporary hit points. Normally, you can only drink blood from an opponent who is helpless, grappled, paralyzed, unconscious, or similarly disabled.
-    If you have a bite attack, you can drink blood as part of your bite attack; otherwise, you must first cut your target by dealing 1 hit point of damage with a slashing or piercing weapon. Once you cut the target, you can drink from its wound as an ***action***, dealing 1d3 damage each round. The blood must come from a living humanoid creature. It cannot come from a dead or summoned creature.
-
-    </div>
-
-</div>
-
-
-
-
-
