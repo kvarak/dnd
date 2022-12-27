@@ -6,9 +6,7 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### <a href="#internal-Traits">Traits</a><br/>
-##### <a href="#internal-Feats">Feats</a><br/>
 ##### <a href="#internal-ClassOptions">Class Options</a>
-
 </div>
 
 
@@ -32,7 +30,7 @@ As a changeling you get a some traits that you share with the others of your kin
 
 <div class="columnstwo">
 
-- **Duplicity**. You have proficiency with Deception, Persuasion and Insight.
+- **Duplicity**. The *Perception - Insight* and *Speechcraft - Deception* skills costs 0 to you.
 
 - **Magic resistance**. You have advantage on saves against any spell or effect that would alter your form.
 
