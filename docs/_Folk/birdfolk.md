@@ -7,11 +7,9 @@ layout: default
 
 ##### <a href="#internal-Aarakocra">Aarakocra</a>
 <a href="#internal-aarakocraTrait">Traits</a><br/>
-<a href="#internal-aarakocraFeats">Feats</a>
 
 ##### <a href="#internal-Kenku">Kenku</a>
 <a href="#internal-kenkuTrait">Traits</a><br/>
-<a href="#internal-kenkuFeats">Feats</a>
 
 ##### <a href="#internal-class">Birdfolk Class Options</a>
 </div>
@@ -58,8 +56,6 @@ Two other circumstances might call an aarakocra to adventure. First, aarakocra h
 
 Second, aarakocra are sworn foes of elemental earth, in particular the gargoyles that serve Ogrémoch, the Prince of Earth. The Aarakocra word for gargoyle is loosely translated as “flying rock,” and battles between aarakocra and gargoyles have raged across the Elemental Planes of Earth and Air, occasionally spilling into a world on the Material Plane. Aarakocra on that plane might leave their colonies to lend aid to other humanoids committed to fighting earth cults and thwarting their efforts.
 
-
-
 ### Aarakocra Names
 As with much of their speech, aarakocra names include clicks, trills, and whistles to the point that other people have a difficult time pronouncing them. Typically, a name has two to four syllables with the sounds acting as connectors. When interacting with other races, aarakocra may use nicknames gained from people they meet or shortened forms of their full names.
 
@@ -81,47 +77,11 @@ As an aarakocra, you have certain traits in common with your people. Being able 
 
 - **Speed**. Your base walking is 25 feet.
 
-- **Flight**. You have a flying speed of 40 feet. To use this speed, you can't be wearing medium or heavy armor, nor can you be encumbered (i.e. carrying weight more than 5 times your Strength score). For the wings to be able to function, you must have a number of feet equal to your height free on both sides of you.
+- **Flight**. You have a flying speed of 40 ft. To use this speed, you can't be wearing medium or heavy armor, nor can you be encumbered (i.e. carrying weight more than 5 times your Strength score). For the wings to be able to function, you must have a number of feet equal to your height free on both sides of you.
 
 - **Talons**. You have sharp talons on your feet, which deal 1d4 slashing damage on a hit.
 
 - **Language**. You can speak Aarakocra and Auran.
-
-</div>
-
-<h3><a class="internal-link" name="internal-aarakocraFeats">Feats</a></h3>
-
-The following feats are exclusive to aarakocra.
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Auran Spirit
-    You have learned spent time learning from your elders, preparing to tend to the spiritual need of your tribe.
-
-    Your **Wisdom** score increases by 1.
-
-    You learn the *guidance* cantrip.
-
-    You learn the *augury* spell or the *find familiar* spell. You can cast the spell you choose as a ritual.
-
-    </div>
-
--   <div class="feat">
-
-    ## Wings of Iron
-    You have spent your formative years training with the wardens of your tribe. You gain the following benefits:
-
-    Your **Dexterity** score increases by 1.
-
-    You gain proficiency with spears, javelins and nets.
-
-    When you are flying and dive at least 40 feet towards a target and hit it with a melee weapon, you can cause the attack to deal an aditional 1d6 damage.
-
-    Your wings can be used to swiftly strike at the enemy. You are proficient with unarmed strikes, which deal 1d4 slashing damage on a hit. These unarmed strikes have the finesse property and can be used as an off-hand weapon, even if wielding a two-handed weapon.
-
-    </div>
 
 </div>
 
@@ -199,7 +159,7 @@ As a kenku you get a some traits that you share with the others of your kind.
 
 - **Expert Forgery**. You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.
 
-- **Kenku Training**. You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.
+- **Kenku Talent**. Add the following skills to your class skills: Acrobatics, Stealth and Sleight of Hand. Additionally gain 1 additional skill point to spend on one of the skills.
 
 - **Mimicry**. You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.
 
@@ -213,40 +173,6 @@ As a kenku you get a some traits that you share with the others of your kind.
 If you're playing a kenku, constant attempts to mimic noises can come across as confusing or irritating rather than entertaining. You can just as easily describe the sounds your character makes and what they mean. Be clear about your character's intentions unless you're deliberately aiming for inscrutable or mysterious.
 
 You might say, "Snapper makes the noise of a hammer slowly and rhythmically tapping a stone to show how bored he is. He plays with his dagger and studies the Lords' Alliance agent sitting at the bar." Creating a vocabulary of noises for the other players to decode might sound like fun, but it can prove distracting and could slow down the game.
-
-</div>
-
-
-
-<h3><a class="internal-link" name="internal-kenkuFeats">Kenku feats</a></h3>
-
-The following feats are exclusive to kenku.
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Expert Mimic
-    You have spent so long copying others, it's second nature to you now.
-
-    An ability of your choice increases by 1.
-
-    You gain proficiency with thieves' tools or the forgery kit.
-
-    During a long rest, you can spend time observing a willing ally. From this, you can mimic their proficiency in a specific skill or tool, gaining proficiency in this skill until the end of your next long rest, or until you use this feature again.
-
-    </div>
-
--   <div class="feat">
-
-    ## Spellstealer
-    Your mastery of mimicry allows you to copy the complex gestures and arcane words of spells that you have never seen before.
-
-    Increase your **Intelligence** score by 1.
-
-    As a ***reaction*** to seeing someone else cast a 1st level spell, you can copy that spell and cast it at its lowest possible level within the next minute without material components or spell slots. Intelligence is your spellcasting modifier for this spell. Once you use this feature, you cannot do so again until you finish a long rest. The level of spell that you can copy increases to 2nd level at character level 5, and and again to 3rd level at character level 9.
-
-    </div>
 
 </div>
 
