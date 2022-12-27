@@ -1711,9 +1711,6 @@ Whenever you gain a level in a class that has the Fighting Style feature, you ca
 - #### Opportunist
     While wielding a melee weapon in one hand and not using a weapon or shield in the other, you gain advantage on attack rolls made using a ***reaction***.
 
-- #### Mariner
-    As long as you are not wearing heavy armor or using a shield, you have a swimming speed and a climbing speed equal to your normal speed, and you gain a +1 bonus to AC.
-
 - #### Master Thrower
     You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +1 bonus to the damage roll.
 
