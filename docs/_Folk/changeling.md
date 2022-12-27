@@ -44,69 +44,6 @@ As a changeling you get a some traits that you share with the others of your kin
 
 </div>
 
-<h3><a class="internal-link" name="internal-Feats">Feats</a></h3>
-
-The following feats are exclusive to changelings.
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Beastly Forms
-    With enough training, your ability to change form has improved so well that you can now take forms of beasts.
-
-    You can now use your Shapechanger trait to turn into a beast that you have seen, of a similar size and shape as you. While you are transformed into a beast, your AC is replaced by the beast's AC and you lose your ability to speak. Other than that, your statistics do not change.
-
-    If the creature you are transformed into has a swimming or climbing speed, you gain that speed. If it has a swimming or climbing speed that's higher than your movement speed, you only gain that speed equal to your movement speed.
-
-    While transformed into a creature with horns, claws or other natural weapons, you have natural weapons, which you are proficient with. If you hit with them, you deal slashing damage equal to 1d6 + your Strength modifier.
-
-    </div>
-
--   <div class="feat">
-
-    ## Defensive Shift
-    You can use your shapeshifting to harden your skin to better protect yourself against physical assault.
-
-    Your **Constitution** score increases by 1.
-
-    When you take non-magical bludgeoning, piercing or slashing damage, you can use your ***reaction*** to gain resistance to that damage type. This resistance lasts until the start of your next turn and applies to the triggering damage. You can use this feature a number of times equal to your Constitution modifier, and regain all uses after a short rest.
-
-    </div>
-
--   <div class="feat">
-
-    ## Malleable Form
-    You have a finer degree of control over your shapeshifting.
-
-    Increase your **Dexterity** score by 1.
-
-    As an ***action*** you can change your skin tones to match those of your surroundings giving you advantage on Stealth checks in that terrain.
-
-    You can increase the flexibility of your joints granting you advantage on Acrobatics checks to get out of or avoid grapples.
-
-    </div>
-
--   <div class="feat">
-
-    ## Truly Eldritch
-    You have truly embrace your aberrant heritage. Your true form is improved, granting you the following benefits:
-
-    Increase your **Charisma** score by 1.
-
-    You gain advantage on saving throws to avoid being charmed or frightened.
-
-    You have advantage on checks and saving throws to resist both magical and nonmagical effects that detect your thoughts, emotions or compel you to tell truth. Additionally, you can present false thoughts, emotions, or lies as if you are being truthful by making a Charisma (Deception) check contested by the creature's Wisdom (Insight) check.
-
-    You can cast *detect thoughts* and *Nystul's magic aura* once without expending a spell slot. You regain the ability to cast both spells in this way when you finish a long rest. Charisma is your spellcasting ability for these spells. You can cast them without requiring components, but effects of Nystul's magic aura can't become permanent if it's casted this way for 30 days.
-
-    While you are in your true form, you can cast *nondetection* on yourself without expending a spell slot, requiring no spell components. When you cast the spell this way, it ends immediately if you are no longer in your true form, whether by using your Shapechanger trait, or when you are transformed. You regain the ability to cast the spell in this way when you finish a long rest. Charisma is your spellcasting ability for this spell.
-
-    </div>
-
-</div>
-
-
 <h3><a class="internal-link" name="internal-ClassOptions">Class Options</a></h3>
 
 Psychologically a changeling is very similar to a human, and have the same class options as humans with the following addition:
