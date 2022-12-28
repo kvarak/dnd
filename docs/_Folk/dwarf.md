@@ -24,18 +24,14 @@ layout: default
 </div>
 
 # Dwarf
-
 Kingdoms rich in ancient grandeur, halls carved into the hearts of mountains, the echoing of picks and hammers in deep mines and blazing forges and a commitment to clan and tradition—these common threads unite all dwarves. They are a stoic but stern race, with a reputation as dour and humorless craftsmen of the earth. Dwarves throughout the world are characterized by their love of stonework and their passion for craftsmanship and architecture.
 
 #### Long Memory, Long Grudges
 Dwarves can live to be more than 500 years old. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack. Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change.
 
-
-
 They respect the traditions of their clans and don't abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge.
 
 Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf’s entire clan, so what begins as one dwarf’s hunt for vengeance can become a full-blown clan feud.
-
 
 <img src='http://media.wizards.com/images/dnd/newtodnd/NEW_TO_DD_Races_Dwarf.png' style='float:left;width:25%;padding:20px' />
 
@@ -44,8 +40,6 @@ Dwarven kingdoms stretch deep beneath the mountains where the dwarves mine gems 
 
 The chief unit of dwarven society is the clan. Even dwarves who live far from their own kingdoms cherish their clan identities and affiliations, recognize related dwarves, and invoke their predecessors' names in oaths and curses. To be clanless is the worst fate that can befall a dwarf.
 
-
-
 #### Made, not born
 Contrary to other humanoids, dwarves are not born, but made from magic and stone. They are a genderless race of free-willed earth elementals, which makes them rather alien in nature, at least by human standards.
 
@@ -53,20 +47,13 @@ After a long and expensive period of crafting a body from stone, precious metals
 
 Due to their way of reproducing, most dwarves don't really get the idea of gender or sexual reproduction, leading to all manner of misunderstandings when dealing with non-dwarves. Aside from human jokes and tall tales, instances of dwarven sexual interest in any species, including their own, are pretty much nil as far as others can tell. This is why dwarves have a reputation among humans as being particularly dour and uptight: humans simply can't believe that they have no sex drive and don't suffer because of it. With reproduction being a matter of "art" and without competition for mates, dwarven society simply lacks many of the dynamics found among humans.
 
-
-
-
-
-
 #### Short and Stout
 Dwarves are a short and stocky race. They stand well under 150 cm tall, with broad, compact bodies that account for their burly appearance. Even though the dwarves are created from stone, the ritual that gives them life also transforms their body into something similar to flesh. However, they are very dense and can weigh as much as a human standing a meter taller.
-
 
 #### Random height and weight
 | Base height | Height mod | Base weight | Weight mod
 |:----:|:----:|:----:|:----:|
 | 4' | +2d4 | 140 lb.| x(2d8) lb.
-
 
 Dwarven skin ranges from almost black to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth. The actual color depends on the materials they were made from. They pride themselves on the length of their hair, which is usually black, gray, or brown, though paler dwarves often have red hair.
 
@@ -76,18 +63,31 @@ Your dwarf character has an assortment of inborn abilities.
 <div class="columns">
 
 - **Ability Score Increase**. Your Constitution score, both current and maximum, increases by 2, while your Dexterity score, both current and maximum, is reduced by 2.
+
 - **Age**. Dwarves are created fully mature, although it takes a few months to reach mental maturity. On average, they live about 500 years, during which they do not suffer any negative effects from aging.
-- **Speed**. Your base speed is 25 feet. Your speed is not reduced by wearing heavy armor.
-- **Dense**. Your dense body does not really help when swimming. You have disadvantage on all swimming check
+
+- **Speed**. Your base speed is 25 ft. Your speed is not reduced by wearing heavy armor.
+
+- **Dense**. Your dense body does not really help when swimming. You have disadvantage on all *Swimming* checks.
+
 - **Dwarven Toughness**. Your hit point maximum increases by 1, and it increases by 1 every time you gain a level. In addition you have advantage on saving throws against disease and poison, and you have resistance against poison damage.
-- **Low-light Vision**. Created for life underground, you have superior vision. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
-- **Powerful Build**. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+
+- **Low-light Vision**. Created for life underground, you have superior vision. You can see in dim light as if it were bright light, and an additional 60 ft into darkness as if it were dim light.
+
+- **Powerful Build**. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. This does not stack with the *Physique - Balance load* skill, however that skill costs 0 to you.
+
 - **Reduced Nutritional Needs**. You only require half the amount of food.
-- **Stonecunning**. The dwarves wwer born from stone, and can hear its whispers echo through their mind, speaking of ancient mysteries. Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient with the History skill and have advantage on the check.
+
+- **Stonecunning**. The dwarves were born from stone and can hear its whispers echo through their mind. Add *Geology* to your class skills if not already there, and gain 1 skill point to spend on that skill.
+
 - **Stoneform**. Even though you are not really made of stone, your physiology is completely different from humans, with almost no organs, and a thick, viscous "blood" of the same color as your hair. You have resistance to piercing damage and you can use a ***reaction*** to negate a critical hit against you, making it a regular hit.
-  In addition, it is easier to stop your bleeding. All checks made to stabilize you, or stop bleeding have advantage.
-- **Stubborn as Stone**. Even though dwarves can be charmed and controlled, their stubborn and alien nature makes it hard to make them go against their traditions. A charmed, dominated, possessed or otherwise controlled dwarf who is given a command that goes against his normal behavior, gains a new save with advantage to end the effect.
+
+In addition, it is easier to stop your bleeding. All checks made to stabilize you or stop bleeding have advantage.
+
+- **Stubborn as Stone**. Even though dwarves can be charmed and controlled, their stubborn and alien nature makes it hard to make them go against their traditions. A charmed, dominated, possessed or otherwise controlled dwarf who is given a command that goes against his normal behavior, gains a new save to end the effect.
+
 - **Culture Traits**. In addition to the racial traits, a dwarf has some traits depending on where it spent the first months of its life, see sidebar at "<a href="#internal-life">*The Birth of a Dwarf*</a>" for more information. You can choose from the following background: dwarf-raised, lost and stolen.
+
 - **Mineral Abundance**. Each dwarf is different in their exact composition of minerals and metal. In some cases there is an excess of one type, which may cause a dwarf to exhibit some extraordinary traits.
   #####
   | d20 | Material |
@@ -114,7 +114,9 @@ Your dwarf character has an assortment of inborn abilities.
 
     **Languages**. You know Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.
 
-    **Dwarven Cultural Training**. Dwarves are very bound to tradition, and an important part of the upbringing of each dwarf is to learn the basics of war and crafting. You gain proficiency with dwarven history, an artisan's tools of your choice, one-handed axes, picks and hammers, and light and medium armor.
+    **Dwarven Cultural Training**. Dwarves are very bound to tradition, and an important part of the upbringing of each dwarf is to learn the basics of war and crafting. Add *History* and one *Craft* to your class skills and gain 1 skill point to spend on each of those skills.
+    
+    Additionally, if not granted by your class, gain rank 2 in the *axe* and *club* weapon groups.
 
 -   ### Lost
     Something happened after your creation, leaving you all by yourself before being learnt what it means to be a dwarf. This could have happened for instance if you were separated by your clan in a catastrophe, or your clan was wiped out by outside forces.
@@ -123,7 +125,9 @@ Your dwarf character has an assortment of inborn abilities.
 
     **Languages**. You do not know any languages, although when you start playing you have probably picked up Common. No matter your Intelligence score, you cannot read and write.
 
-    **Nature is a Harsh Mistress**. You are proficient with the Survival skill, as well as with improvised weapons like rocks and clubs.
+    **Nature is a Harsh Mistress**. Add *Survival* to your class skills if not already there, and gain 1 skill point to spend on that skill.
+
+    Additionally you are proficient with improvised weapons like rocks and clubs. If not granted by your class, gain rank 1 in the *club* and *thrown weapon* weapon groups.
 
 -   ### Stolen
     You were stolen after creation, either by trickery or force. Stolen dwarves are usually retrieved and reintroduced in dwarven society, but you are the one in a million case where the clan thought you gone forever, or the thief was knowledgeable enough about dwarves to avoid capture.
@@ -472,57 +476,7 @@ They view ***divine magic*** as a gift from their gods, a direct helping hand me
 </div>
 
 
-## <a class="internal-link" name="internal-feat">Dwarven feats</a>
-The following feats are exclusive to dwarves.
-
-
-<div class="columnsthree">
-
-- <div class="feat">
-
-    ## Dwarven Piety
-    Dwarves revere Moradin as the Dwarf-father. He smiles on dwarves who do good work in the world, and grants them his favor.
-
-    Increase your Wisdom by 1, to a maximum of 20.
-
-    You learn the *divine favor*, *sanctuary*, and *prayer of healing* spells, and can cast each once without expending a spell slot, regaining the ability to cast them in this way after a long rest. Wisdom is your spellcasting modifier for these spells.
-
-    </div>
-
-- <div class="feat">
-
-    ## Dwarven Resilience
-    You have the soul of dwarf heroes flowing through you.
-
-    Increase your **Constitution** by 1.
-
-    Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself.
-
-    You can use your ***reaction*** upon being hit by a weapon attack to give yourself resistance towards bludgeoning, piercing, or slashing damage until the start of your next turn. You must then finish a long rest to use this feature again.
-
-
-    </div>
-
-- <div class="feat">
-
-    ## Dwarven Stubbornness
-    Dwarves are renowned for their stubbornness, but you are even more stubborn than most.
-
-    Increase your **Wisdom** by 1.
-
-    You have advantage on saving throws against being charmed.
-
-    You have resistance against psychic damage and advantage on saving throws against spells and effects that deal psychic damage.
-
-    </div>
-
-</div>
-
-
-
 <hr class="classdivider">
-
-
 
 # <a class="internal-link" name="internal-race">The Dwarven Race</a>
 The dwarf god Moradin forged the first dwarves in his great workshop, causing them to spring to life from inert metal and stone when he cooled the heated castings with his breath. Since then. the dwarves have revered Moradin and sought to follow in his footsteps. Through constant, steady work, they strive to emulate the perfect example set by the originator of the arts and skills the dwarves pursue.
@@ -547,8 +501,6 @@ Moradin crafted the dwarves' sturdy bodies, giving them the strength to work for
 
 Dwarf artisans regard the fruits of their labors with the same love that members of other races reserve for their children. A dwarf's works are built to last for centuries, to carry a legacy into the world long after the dwarf is gone. Each item a dwarf crafts is a milepost on he path to perfection, a step taken toward mastering a technique.
 
-
-
 All of one's works taken together are the physical representation of a dwarf's accomplishments. A dwarf who has lived a good, fruitful life leaves behind a rich legacy of wondrous goods: gleaming metal goblets, gem-encrusted stone sculptures, golden tapestries, finely honed weapons, or the end result of any other endeavor that enriches the crafter while it pays homage to the Creator.
 
 Dwarves guard their personal creations with the vigilance and ferocity of a dragon protecting a treasure hoard. Such protectiveness isn't often called for in the company of friends and family; but just as a parent doesn't leave a child unattended, a dwarf doesn't craft an item and then knowingly leave it vulnerable to being stolen (or worse). A dwarf who loses an item to thievery pursues the item's recovery or seeks vengeance against the thieves with the same fury that parents direct against those who kidnapped their child.
@@ -561,7 +513,6 @@ Although the dwarves' obsessive pursuit of perfection in the arts of crafting le
 This rigidity in outlook, though a fundamental part of the dwarven psyche, can sometimes be a disadvantage. Dwarves don't change their minds easily, and once set on a course rarely alter their strategy. Their commitment to following a plan serves them well when they build a stone bridge designed to last for centuries, but the same inflexibility can bring problems when applied to the unpredictable dangers of the world.
 
 A clan might continue to depend on the same plan for defending its stronghold that has been used for centuries, without considering the possibility that its enemies have discovered how to overcome those defenses.
-
 
 The dwarves' way of thinking leads to difficulties in their relationships with humans and elves. From their long-lived perspective, dwarves can't understand the speed with which human communities and civilizations rise and fall. If a trade delegation from a dwarven stronghold were to visit a human town once every twenty or thirty years - not a long time to a dwarf - the community's leaders would likely be different every time, and for the dwarves the experience would be akin to making first contact all over again. Establishing trade with this "new" human outpost would require forming new relationships, a process that could take weeks or months.
 
@@ -591,8 +542,6 @@ The new dwarf is built from the inside out, with layers of treated stone that is
 #### Crafting Perfection
 It takes many years to finish crafting a dwarf, as everything needs to be perfect. Moradin would not want anything less. When the dwarf is ready a surprisingly short ritual is performed, which will infuse the dwarf with the divine spark of Moradin.
 
-
-
 During the ritual the divinly infused soulstone will transmute itself and the stone around it to something else, something soft and almost fungal, and grow roots that find their way around small passages that has been created by the crafter. While this happens, the stony body slowly transforms into a grey, compact, flesh-like substance. Lastly, the roots find their way out, to resemble beard and hair all over the body, just as the way the crafter prepared.
 
 #### The First Steps
@@ -613,8 +562,6 @@ The clan is the basic unit of dwarven society, an extended family that dwells to
 Every clan calls upon its members to fill three principal roles, each of which contributes to the group's welfare. As soon as a dwarf has matured and learnt all the basic thing a dwarf needs to know, he is assigned a role by the priests overseing this. The role is assigned based on what the dwarf shows talent with, what is currently needed in the clan and through divination.
 
 This assignment will decide what the dwarf most probably will spend their life doing, and can be virtually anything, from latrine handler to king, from shovelsmith to cleric of Moradin. The roles are generally of three different types.
-
-
 
 First, many dwarves support the clan by working at an occupation that sustains the community; brewing ale, tending crops, and preparing food, for instance. Not everyone can be a master artisan or a vigilant warrior; the clan needs a wide range of labor and talents to meet all the needs of the group.
 
@@ -655,7 +602,6 @@ More important, a young prince's conduct while pursuing a variety of tasks gives
 <img src='https://i1.wp.com/nerdarchy.com/wp-content/uploads/2018/06/dwarf-keep-MToF.png' style='float:right;width:50%;padding:20px' />
 -->
 
-
 Every dwarf clan maintains a stronghold, typically a series of chambers dug out beneath a mountain or inside a hill. The stronghold is a haven from the chaos of the outside world , allowing the dwarves to toil in peace. The first concern of any stronghold is defense, but older and prosperous strongholds can grow to become wondrous underground cities filled with generations of exquisite dwarven artisanship.
 
 Regardless of a clan's size and status, its stronghold is a stony personification of the clan itself - what's good for the clan is good for the stronghold, and vice versa. If a stronghold fails from within, or falls victim to outside forces, such an event is often the clan's death knell.
@@ -671,9 +617,6 @@ A well-built stronghold is an easily managed, tranquil environment where dwarves
 The stronghold's remoteness isolates the dwarves from the vagaries of politics and other forms of turmoil in the surface world. Underground, they don't have to contend with the changing of the seasons, or even daily variations in the weather, so that one day inside a stronghold is much like any other day.
 
 The activities of the clan are governed by a firm schedule that provides every member with daily time for work and personal enrichment. The forges are never allowed to go cold, and the mines around the stronghold are worked every hour of every day.
-
-
-
 
 #### Beautiful on the inside
 Dwarves are acutely aware that their reputation as skilled miners and crafters of beautiful works of art makes any stronghold a prime target for thieves and raiders. For that reason, the entrance to a stronghold doesn't broadcast its presence by being a stellar example of dwarven stonework. The outer precincts of a clan's home are plain and functional, decorated minimally or not at all, to give visitors and those passing nearby no reason to suspect what lies in the deeper chambers. From what they see, a dwarven stronghold is well built but austere.
@@ -797,8 +740,6 @@ Abbathor does, however, play a positive role in helping the dwarves discover new
 
 In that vein, dwarf emissaries and merchants are expected to use Abbathor's tricks when they deal with humans, elves, and other races. When a dwarf offers a piece of merchandise for sale to an outsider, that merchant is expected to drive a hard bargain, even if the item is in truth an inferior example of its kind.
 
-
-
 Fortunately for the other party in the arrangement, the dwarves' idea of "inferior" means that a product they consider substandard is still far superior to any such item that outsiders might create. The dwarves might laugh among themselves at a human farmer who bought a shovel from them that will last only a few decades. To the dwarves, that's a shoddy tool; to the farmer, it's a purchase that lasts a lifetime.
 
 ### <a class="internal-link" name="internal-collapse">When clans collapse</a>
@@ -816,9 +757,6 @@ Every clan is aware that there are plenty of unprincipled creatures in the world
 If the worst comes to pass and the loss of a clan's stronghold to invaders is inevitable, most of the dwarves would be willing to die while making a last stand for their home. But the clan must survive, even if only as a shell of its former self, and so every clan has a contingency plan to secure a safe escape for a selected few in the stronghold.
 
 If the survivors are able to get away, they tend to seek shelter in a human city or kingdom. Their skill as artisans ensures that almost any community would welcome their contribution to the workforce, and they can eke out a comfortable existence for themselves.
-
-
-
 
 A group of refugee dwarves seeking residence in a community will do whatever they can to live together, keeping the clan intact. They recreate what they can of their former lifestyle and remaining isolated from their neighbors.
 
@@ -872,20 +810,7 @@ The little nutrients and minerals they need, they imbibe in liquid form, like so
 
 Other races often see dwarves as drunkards, as they can often be seen drinking different types of alcohol. However, they are not affected by alcohol in the same extend a human would be, instead it is a necessity for them. Alcohol, the stronger the better, serves an important function in cleaning the insides of a dwarf, helping in making sure any solid remains of whatever they have ingested is dissolved and absorbed.
 
-
-
-
-
-
-
-
 ### The Death of a Dwarf
 When a dwarf dies, he will slowly turn back to the stone he was made from. They do not decompose like other living creatures. Instead they slowly stiffen under a period of a deacade or so, before finally turning completely to stone.
 
 In dwarven society a dwarf is buried in stone if possible, usually with the help of divine magic. It is well-known by dwarves, that the body will by the seed of a new mineral or metal deposit, allowing the dwarf to eventually be reborn as a component of new dwarves.
-
-
-
-
-
-
