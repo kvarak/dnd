@@ -8,12 +8,10 @@ layout: default
 ##### <a href="#internal-dragonborn">Dragonborn</a>
 <a href="#internal-DragonbornTraits">Traits</a><br>
 <a href="#internal-DragonbornClassOptions">Class Options</a><br>
-<a href="#internal-DragonbornFeats">Feats</a>
 
 ##### <a href="#internal-kobold">Kobolds</a>
 <a href="#internal-KoboldTraits">Traits</a><br>
 <a href="#internal-KoboldClassOptions">Class Options</a><br>
-<a href="#internal-KoboldFeats">Feats</a>
 
 </div>
 
@@ -35,8 +33,6 @@ The blood of a particular type of dragon runs very strong through some dragonbor
 To any dragonborn, the clan is more important than life itself. Dragonborn owe their devotion and respect to their clan above all else, even the gods. Each dragonborn’s conduct reflects on the honor of his or her clan, and bringing dishonor to the clan can result in expulsion and exile. Each dragonborn knows his or her station and duties within the clan, and honor demands maintaining the bounds of that position.
 
 A continual drive for self-improvement reflects the self-sufficiency of the race as a whole. Dragonborn value skill and excellence in all endeavors. They hate to fail, and they push them selves to extreme efforts before they give up on something. A dragonborn holds mastery of a particular skill as a lifetime goal. Members of other races who share the same commitment find it easy to earn the respect of a dragonborn.
-
-
 
 Though all dragonborn strive to be self-sufficient, they recognize that help is sometimes needed in difficult situations. But the best source for such help is the clan, and when a clan needs help, it turns to another dragonborn clan before seeking aid from other races—or even from the gods.
 
@@ -156,11 +152,6 @@ Roll an additional feature to personalize your dragonborn.
 
 </div>
 
-
-
-
-
-
 ## <a class="internal-link" name="internal-DragonbornClassOptions">Dragonborn Class Options</a>
 
 Dragonfolk approach some classes is a bit differently than other folk. When you select a class, it is modified as follows.
@@ -273,9 +264,9 @@ Dragonfolk approach some classes is a bit differently than other folk. When you 
 
     <div class="descriptive">
 
-    **Hoard-Keeper**. Once you reach 3rd level, you can cast the *alarm* spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the *locate object* spell; you must finish a long rest in order to cast the spell again using this trait. Intelligence is your spellcasting ability for these spells.<br/>
+    **Hoard-Keeper**. Once you reach 3rd level, you can cast the *alarm* spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the *locate object* spell; you must finish a long rest in order to cast the spell again using this trait. Intelligence is your spellcasting ability for these spells.<br>
 
-    **Treasure Sense**. You can supernaturally sense gold, gems, and other treasures within 30 feet of you and through most barriers, but your senses are blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. You can use this trait to detect the presence of magical items, but not identify them or their abilities.<br/>
+    **Treasure Sense**. You can supernaturally sense gold, gems, and other treasures within 30 ft and through most barriers, but your senses are blocked by 1 ft of stone, 1 inch of common metal, a thin sheet of lead or 3 ft of wood or dirt. You can use this trait to detect the presence of magical items, but not identify them or their abilities.<br/>
 
     **Flaw**. My greed for gold and gemstones has a nearly religious fervor.
 
@@ -314,120 +305,6 @@ Dragonfolk approach some classes is a bit differently than other folk. When you 
 - <img src='../assets/images/dragonborn2.png' style='width:75%;padding:20px' />
 
 </div>
-
-
-
-
-## <a class="internal-link" name="internal-DragonbornFeats">Dragonborn Feats</a>
-
-
-The following feats are exclusive to dragonfolk.
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Brutal
-    Broader and bulkier than your kin, you embody the physical might of your ancient ancestors, who fought with savage cunning and brutal efficiency.
-
-    Your **Constitution** ability score, both current and maximum, increases by 1.
-
-    **Powerful Build**. You count as one size larger when determining your carrying capacity, the weight you can push, drag, or lift, and the creatures that you can grapple or shove.
-
-    **Tenfold Shields**. While you aren't wearing armor, your Armor Class equals 13 + your Dexterity modifier. You can use a shield and still gain this benefit.
-
-    **Teeth like Swords**. Your claws and teeth are natural weapons with which you are proficient that deal slashing damage (for claws) or piercing damage (for teeth) equal to 1d4 + your Strength modifier. You can also use your jaws to grapple a creature without a free hand. When you grapple a creature in this way, it automatically fails saving throws against your breath weapon until it is released from your grip.
-
-    </div>
-
--   <div class="feat">
-
-    ## Majestic
-    A dragon inspires awe in all who encounter it. The dragon blood that flows through your veins gives you the same commanding presence.
-
-    Your **Charisma** score, both current and maximum, increases by 1.
-
-    **Supernatural Awe**. You know the *thaumaturgy* cantrip. Once you reach 3rd level, you can cast the *cause fear* spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.
-
-    **Voice of the Wyrm**. You can roar, forcing each creature of your choice within 30 feet that can hear or see you, to make a Wisdom saving throw against your breath weapon DC. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success. After you use your roar, you can’t use it again until you complete a short or long rest.
-
-    </div>
-
--   <div class="feat">
-
-    ## Mighty Dragonborn Breath
-    Your draconic breath weapon is even more fearsome than that of your kin.
-
-    Your **Strength**, **Constitution**, **Intelligence** or **Charisma** ability score, both current and maximum, increases by 1.
-
-    The damage die for your Breath Weapon increase to d8. You also add your Constitution modifier to the damage.
-
-    Depending on your Draconic Ancestry, you also gain the following benefit:
-
-    **Black/Copper**: Your acid burns your foes' faces causing blinding pain. Creatures that fail the saving throw against your Breath Weapon are also blinded until the end of your next turn.
-
-    **Blue/Bronze**: Your lightning causes bolts of electricity to spark out at nearby enemies. Choose a number of creatures equal to your Constitution modifier (minimum of one) within 15 feet of any creatures affected by your initial Breath Weapon. Those creatures are also affected by your Breath Weapon.
-
-    **Green**: Your poison is noxious enough to cause agonizing sickness in others. Creatures that fail the saving throw against your Breath Weapon spend their next action that turn in pain and are unable to take any other action. Creatures immune to poison are not affected.
-
-    **Red/Gold/Brass**: Your fire leaves lingering flames on its victims. Creatures that fail the saving throw against your Breath Weapon take fire damage at the start of their next turn equal to your Breath Weapon damage, and then the flames burn out.
-
-    **White/Silver**: Your cold freezes enemies in their path. Creatures that fail the saving throw against your Breath Weapon are restrained until the end of your next turn.
-
-    </div>
-
--   <div class="feat">
-
-    ## Platinum Aspect
-    *Prerequisite: Follower of Bahamut*
-
-    Your service to the platinum dragon gives a deep well of inner strength and a forceful presence that cannot be easily denied.
-
-    Your **Strength** or **Charisma** score, both current and maximum, increases by 1.
-
-    As **bonus action**, you can gain one aspect of Bahumut's Justice, selecting one of the following:
-
-    **Wings of Justice**: You gain ethereal dragon wings, giving you flying speed equal to your walking speed until the end of your turn.
-
-    **Breath of Justice**: You emit a blast of radiant energy. Creatures in a line 30 feet long and 5 feet wide emitting from you must make a Dexterity save against your breath weapon DC. On failure, creatures take a number of d6 radiant damage equal to your proficiency bonus.
-
-    **Eyes of Justice**: Your eyes glow radiant platinum, giving you 30 feet of truesight until the end of your turn.
-
-    Once you activate a draconic aspect, you cannot do so again until you complete a long rest.
-
-    </div>
-
--   <div class="feat">
-
-    ## Semi-Aquatic Adaptation
-    *Prerequisite: Black, Bronze or White dragonborn*
-
-    Your ancestor was once able to swim through rivers, and you have tapped into that ability, developing an eel-like tail, webbed feet and hands, or whatever adaptation you find appropriate.
-
-    Your **Constitution** ability score, both current and maximum, increases by 1.
-
-    You have a swim speed of 30 feet.
-
-    You can hold your breath for 30 minutes.
-
-    </div>
-
--   <div class="feat">
-
-    ## Shapechanger
-    *Prerequisite: Brass, Copper, Gold or Silver dragonborn*
-
-    You manifest the  metallic dragon's ability to change their form.
-
-    Your **Strength**, **Constitution**, **Intelligence** or **Charisma** ability score, both current and maximum, increases by 1.
-
-    You can cast *alter self* once per short rest.
-
-    </div>
-
-</div>
-
-
 
 
 <hr class="classdivider">
