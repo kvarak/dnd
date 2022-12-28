@@ -330,8 +330,6 @@ While kobolds prefer to run away from a fight, they know that there is greatness
 #### Worship of dragons
 Kobolds are renowned for their worship of dragons, in which case they cast aside any pride they have and willingly and proudly serve such mighty creatures without a thought of treason. If the dragon expresses cruelty, they will tolerate it or simply go away instead of seeking revenge. They even display actual acts of courage while within their service. Strangely, they have the same sentiment towards dragonborn and half dragons, whom they consider to be dragons.
 
-
-
 This often leads to the annoyance of dragonborn, many of whom hold resentment towards dragons for past slavery. However, their obsessive loyalty and devotion, and their skill at handling the sewage of draconic communities, causes the other draconic races to tolerate their presence. And those that are able to put their pride aside acknowledge that more than one draconic community has been saved by using the kobolds overwhelming numbers and unorthodox way of fighting.
 
 #### Natural miners
@@ -366,21 +364,21 @@ As a kobold, you gain the following traits.
 
 - **Size.** Kobold are between 2 and 4 feet tall and weigh between 25 and 50 pounds. Your size is Small.
 
-- **Speed.** Your base walking speed is 25 feet.
+- **Speed.** Your base walking speed is 25 ft.
 
-- **Burrower.** As an ***action*** while holding a pickaxe, you can grant yourself a burrow speed of 10 feet through non-rock earth until the end of your turn.
+- **Burrower.** As an ***action*** while holding a pickaxe, you can grant yourself a burrow speed of 5 ft through non-rock earth until the end of your turn.
 
-- **Center of Attention.** As an ***action*** you can distract nearby foes. This can be done by cowering pathetically, shrieking furiously, boasting arrogantly, or through other means. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you.
+- **Center of Attention.** As an ***action*** you can distract nearby foes. This can be done by cowering pathetically, shrieking furiously, boasting arrogantly or through other means. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 ft of you that can see you.
 
-  Once you use this trait, you can't use it again until you finish a short rest.
+Once you use this trait, you can't use it again until you finish a short rest.
 
 - **Fleeting Courage.** When you succeed on a saving throw, your next attack roll or saving throw you make before the end of your next turn has advantage.
 
 - **Pack Tactics.** You have advantage on an attack roll against a creature if at least one of your allies is adjacent to the creature and the ally isn’t incapacitated. You can only benefit from this trait once on each of your own turns.
 
-- **Skilled Trapper.** You gain proficiency with the thieves' tools, and whenever you make an ability check to create traps (found on page 84 of Xanathar's Guide to Everything), you additionally have advantage on all such checks.
+- **Skilled Trapper.** Add *Craft - Trapmaking* to your class skills if not already there, and gain 1 skill point to spend on that skill.
 
-- **Low-light Vision**. Living underground, you can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+- **Low-light Vision**. Living underground, you can see in dim light as if it were bright light, and an additional 60 ft into darkness as if it were dim light.
 
 - <div class="feat">
 
@@ -449,7 +447,7 @@ Kobolds approach some classes is a bit differently than other folk. When you sel
     <hr class="dividerinfolk">
 
 - ### Feyblood
-    A kobold affect by fey magic can use their faerie dust in a different way. As an action you can spend a use of faerie dust to spread it in a 10 ft radius around you. Creatures within the cloud must succeed at a Wisdom save against you spellcasting DC, or be *confused* for one minute. They get a new save at the end of each of their rounds.
+    A kobold affect by fey magic can use their faerie dust in a different way. As an action you can spend a use of faerie dust to spread it in a 10 ft radius around you. Creatures within the cloud must succeed at a Wisdom save against you spellcasting DC or be *confused* for one minute. They get a new save at the end of each of their rounds.
 
     <hr class="dividerinfolk">
 
@@ -484,8 +482,6 @@ Kobolds approach some classes is a bit differently than other folk. When you sel
 
     If belonging to a more practical field, whenever the Professional class description mentions your Wisdom modifier, you may instead your proficiency bonus.
 
-    In addition you may start with the ***kobold inventor*** feat.
-
     <hr class="dividerinfolk">
 
 - ### Ranger
@@ -493,16 +489,14 @@ Kobolds approach some classes is a bit differently than other folk. When you sel
 
     Whenever the Ranger class description mentions your Wisdom modifier you may instead your proficiency bonus. In addition, you may use the same modifier instead of Strength or Dexterity when attacking (attack and damage). Make this choice at level 1 and it cannot be changed later.
 
-    You can add the fighting style from the fighter entry to your selection of fighting styles and finally you may start with the ***kobold inventor*** feat.
+    You can add the fighting style from the fighter entry to your selection of fighting styles.
 
     <hr class="dividerinfolk">
 
 - ### Rogue
-    Kobolds are ideal rogues. When you become a 1st level rogue, you gain the ***kobold inventor*** feat.
+    Kobolds are ideal rogues. You may use your Dexterity modifier +3 or your proficiency bonus when calculating AC and when attacking (to hit and damage).
 
-    When using sneak attack, you can opt not to use all your sneak attack dice. For each die you did not use, you gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
-
-    In addition you may use your Dexterity modifier +3 or your proficiency bonus when calculating AC and when attacking (to hit and damage).
+    In addition, when using sneak attack, you can opt not to use all your sneak attack dice. For each die you did not use, you gain a +1 to AC until the start of your next turn. Note that you can sneak attack using 0 extra damage dice.
 
     <img src='../assets/images/kobold2.png' style='width:100%;padding:20px' />
 
@@ -537,74 +531,4 @@ Kobolds approach some classes is a bit differently than other folk. When you sel
     <hr class="dividerinfolk">
 
 </div>
-
-
-
-
-## <a class="internal-link" name="internal-KoboldFeats">Kobold Feats</a>
-
-Your character has access to the following exclusive feats.
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Kobold Inventor
-    You are resourceful and clever for a kobold.
-
-    Your **Intelligence** score increases by 1.
-
-    You carry six of your inventions with you, and you can use each of the options below as an ***action*** once. Their DC is 8 + your proficiency bonus + your Intelligence modifier. You also add your proficiency bonus to attack rolls of your inventions (including the swarms attacks). All initial damage increases by an additional 1d6 at 8th level, 12th level, 16th level and 20th level.
-
-    You can only use one invention each turn. After finishing a long rest, and spending 10 minutes to forage and prepare, you can regain all expended uses of your inventions. These inventions look like a mess of scrap, therefore others are unwilling to use or purchase them.
-
-    You can choose to panic and use one of the options below as a ***bonus action***, however you must roll a d6 dice to determine which invention you use. If you roll a used invention, then nothing happens.
-
-    ***1- Acid.*** You hurl a flask of volatile acid to a location within 20 feet. Those within 10 feet of that location must make a Dexterity saving throw, taking 2d6 acid damage on a failed save, or half as much damage on a successful one.
-
-    ***2- Basket of Centipedes.*** You throw a small basket up to 20 feet. A swarm of insects (centipedes) emerges from it, immediately taking its turn after yours, and attacks the nearest creature until that creature is reduced to 0 hit points, after which the swarm disperses.
-
-    ***3- Scorpion on a Stick.*** You attack an adjacent creature with a scorpion tied to the end of a stick. On a hit the target suffers 1 piercing damage and  must make a Constitution saving throw, taking 2d6 poison damage on a failed save, or half as much damage on a successful one. On a failed save the target is also poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.
-
-    ***4- Skunk in a Cage.*** You release a skunk into an unoccupied space within 20 feet, which immediately sprays its musk at a random creature adjacent to it. The target must make a Constitution saving throw. On a failed save, the target retches and can't take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, and whenever it takes damage, ending the effect on a success.
-
-    ***5- Volatile Fire.*** You hurl a flask of fire to a creature within 20 feet of you, who must make a Dexterity saving throw. On a failed save, the target suffers 1d6 initial fire damage, and 1d6 additional fire damage at the start of each of its turns. A creature can take an action to extinguish the flames.
-
-    ***6- Wasp Nest in a Bag.*** This has the same rules as your Basket of Centipedes, but with wasps.
-
-    </div>
-
-
--   <div class="feat">
-
-    ## Nimble Kobold
-    You are exceptionally nimble, even for a kobold, and you have perfected techniques that allow you to take advantage of openings in an enemies defenses made by an allies attack.
-
-    You can move through the space of any creature that is of a size larger than you.
-
-    During combat you can take the Disengage or Dash action as a ***bonus action***.
-
-    When an ally makes a melee attack against a creature adjacent to you, you can use your ***reaction*** to make one melee weapon attack against that creature.
-
-    </div>
-
--   <div class="feat">
-
-    ## Pickaxe Mastery
-    Your time spent wielding a pickaxe allows you to wield it with devastating efficiency.
-
-    Your **Dexterity** score increases by 1.
-
-    You are proficient with pickaxes and can use them as if they had the finesse and versatile properties, dealing 1d8 piercing damage (1d10 when used with two hands).
-
-    Whenever you attack with a pickaxe, you can swing wildly, causing your attack to have disadvantage. If you hit, you deal additional damage equal to double your proficiency bonus.
-
-    Whenever you have disadvantage on an attack roll you make with a pickaxe, the target still takes piercing damage equal to your Strength or Dexterity modifier (your choice) if the attack misses but the higher of the two d20 rolls would have hit.
-
-    </div>
-
-</div>
-
-
-
 
