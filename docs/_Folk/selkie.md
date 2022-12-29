@@ -24,8 +24,6 @@ Selkie can mate with both common seals and humans as well as their own kind. Whe
 
 Though most selkies are happy living their lives exploring the oceans and coastal regions with their families and marine friends, some are born with an insatiable curiosity about the far oceans, deep trenches or legendary ruins at the heart of the surface world.
 
-
-
 Selkie adventurers use their affinity for magic and natural charm to survive in the bizarre world of surface culture, becoming bards, druids, rangers, rogues and wild sorcerers. Myths of selkies making pacts with twisted beings of the deep seas are common morality tales among the sea-dwelling folk, though the occurrence of selkie warlocks is extremely rare.
 
 ## <a class="internal-link" name="internal-traits">Selkie traits</a>
@@ -44,11 +42,11 @@ You share a number of traits with other selkie.
 
 - **Speed**. Your base speed is 30 feet in human form.
 
-- **Aquatic Grace**. Even in human form, you are as at home in the water as you are on land. You are proficient with Swimming, and have advantage on all such checks.
+- **Aquatic Grace**. Even in human form, you are as at home in the water as you are on land. Add *Swimming* to your class skills if not already there, and gain 1 skill point to spend on that skill.
 
   You have swim speed equal to your walking speed and you do not take exhaustion while swimming. You can hold your breath for a number of minutes equal to your Constitution score.
 
-- **Low-light Vision**. Your sylvan ancestry has adapted your physiology to both the twilight realms and the depths of the sea. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+- **Low-light Vision**. Your sylvan ancestry has adapted your physiology to both the twilight realms and the depths of the sea. You can see in dim light as if it were bright light and an additional 60 ft into darkness as if it were dim light.
 
 - **Thermoregulation**. You are resistant to cold damage and to ill effects from time spent in cold environments.
 
@@ -79,12 +77,6 @@ You share a number of traits with other selkie.
   |  STR  |  DEX  |  CON  |  INT    WIS    CHA  |
   |:-----:|:-----:|:-----:|:-----:|
   |10 (+0)|14 (+2)|12 (+1)| As your normal form |
-
-  </td></tr>
-  <tr><td><hr></td></tr>
-  <tr><td markdown="1" class="monster">
-
-  **Skills** Perception
 
   </td></tr>
   <tr><td><hr></td></tr>
