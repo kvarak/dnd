@@ -6,7 +6,6 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### <a href="#internal-traits">Traits</a>
-##### <a href="#internal-feat">Feats</a>
 ##### <a href="#internal-class">Class options</a>
 ##### <a href="#internal-race">The Halfling people</a>
 <a href="#internal-lifeHalfling">Life as a halfling</a><br/>
@@ -16,7 +15,6 @@ layout: default
 </div>
 
 # Halfling
-
 The comfort of home are the goal of most halflings' lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Though some halflings live out their days in remote agricultural communities, others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a wagon jostling along an dirt road or a raft floating downriver.
 
 > *"Regis the halfling, the only one of his kind for hundreds of miles in any direction, locked his fingers behind his head and leaned back against the mossy blanket of the tree trunk. Regis was short, even by the standards of his diminutive race, with the fluff of his curly brown locks barely cresting the three-foot mark, but his belly was amply thickened by his love of a good meal, or several, as the opportunities presented themselves. The crooked stick that served as his fishing pole rose up above him, clenched between two of his toes, and hung out over the quiet lake, mirrored perfectly in the glassy surface of Maer Dualdon."*
@@ -29,8 +27,6 @@ The comfort of home are the goal of most halflings' lives: a place to settle in 
 The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife. They are inclined to be stout, weighing between 40 and 45 pounds.
 
 Halflings' skin ranges from tan to pale with a ruddy cast, and their hair is usually brown or sandy brown and wavy. They have brown or hazel eyes. Halfling men often sport long sideburns, but beards are rare among them and mustaches even more so. They like to wear simple, comfortable, and practical clothes, favoring bright colors.
-
-
 
 Halfling practicality extends beyond their clothing. They're concerned with basic needs and simple pleasures and have little use for ostentation. Even the wealthiest of halflings keep their treasures locked in a cellar rather than on display for all to see. They have a knack for finding the most straightforward solution to a problem, and have little patience for dithering.
 
@@ -51,13 +47,6 @@ Many halflings live among other races, where the halflings' hard work and loyal 
 
 #### Exploring Opportunities
 Halflings usually set out on the adventurer's path to defend their communities, support their friends, or explore a wide and wonder-filled world. For them, adventuring is less a career than an opportunity or sometimes a necessity.
-
-
-
-
-
-
-
 
 #### Halfling Names
 A halfling has a given name, a family name, and possibly a nickname. Family names are often nicknames that stuck so tenaciously they have been passed down through the generations.
@@ -85,9 +74,9 @@ Your halfling character has a number of traits in common with all other halfling
 
 - **Languages**. You know Common and Halfling. The halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong.
 
-- **Size**. Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.
+- **Size**. Halflings average about 3 ft tall and weigh about 40 pounds. Your size is Small.
 
-- **Speed**. Your base  speed is 25 feet.
+- **Speed**. Your base  speed is 25 ft.
 
 - **Brave**. You have advantage on saving throws against being frightened.
 
@@ -112,29 +101,6 @@ Halflings try to get along with everyone else and are loath to make sweeping gen
 
 </div>
 
-## <a class="internal-link" name="internal-feat">Halfling Feats</a>
-Your character has access to the following feats.
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Juggling Joker
-    You've found that your natural ability to juggle and throw stuff accurately elicits both applause and smiles from a crowd, as well as the oohs and aahs you delight so much in.
-
-    Increase your **Charisma** or **Dexterity** score by 1.
-
-    You gain proficiency with the juggler's kit and the Performance skill. If you are profiecient already, you instead gain advantage on such checks.
-
-    Your deft, quick hands allow you to draw a thrown weapon as part of a weapon attack instead of using an object interaction.
-
-    You can throw stones well, treating them as if you have proficiency and can throw them up to 60 feet. On a hit they do 1d4 + Dex damage regardless of their size.
-
-    **Juggler's kit**.  15 sp. This kit consists of well-balanced items like multi-colored balls, shiny throwing knives, funnily painted clubs, and so on, as well as the tools to maintain these items.
-
-    </div>
-
-</div>
 
 ## <a class="internal-link" name="internal-class">Halfling Class Options</a>
 A halfling approaches some classes is a bit different than other races. When you select one of these classes, it is modified as follows:
@@ -197,7 +163,7 @@ A halfling approaches some classes is a bit different than other races. When you
     <div class="feat">
 
     ## Acrobatic
-    You have learnt some sneaky tricks to level the field when fighting larger opponents. You take help from your entire body when using combat maneuver like the shove or disarm action and may use Acrobatics instead of Athletics. In addition you have advantage on checks made to avoid or escape grapples and restraints, as well as proficiency with Initiative checks.
+    You have learnt some sneaky tricks to level the field when fighting larger opponents. You take help from your entire body when using combat maneuver like the shove or disarm action and may add your Desterity instead of Strength on such checks. In addition you have advantage on checks made to avoid or escape grapples and restraints, as well as proficiency with Initiative checks.
 
     </div>
 
@@ -211,7 +177,7 @@ A halfling approaches some classes is a bit different than other races. When you
     <hr class="dividerinfolk">
 
 -   ### Inquisitor
-    The religious practices of kobolds mostly ignore things outside their own communities, so the inquisitor role does not really exist.
+    The religious practices of halflings mostly ignore things outside their own communities, so the inquisitor role does not really exist.
 
     <hr class="dividerinfolk">
 
@@ -296,7 +262,6 @@ A halfling approaches some classes is a bit different than other races. When you
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-race">The Halfling Folk</a></h1>
 
-
 Anyone who has spent time around halflings, and particularly halfling adventurers, has likely witnessed the storied "luck of the halflings" in action. When a halfling is in mortal danger, it seems as though an unseen force intervenes. If a halfling falls off a cliff. her britches will snag on a root or a sharp outcrop of rock. If a halfling is forced by pirates to walk the plank, he will catch a piece of flotsam and use it to stay afloat until he is rescued.
 
 Halflings believe in the power of luck, and they abide by a great number of superstitions that they believe bring good or ill fortune. They attribute their unusual gift to the favor of Yondalla, believing that, now and then, the divine will of the goddess tips the balance of fate in their favor (or gives it a hearty shove when the occasion warrants).
@@ -335,13 +300,6 @@ This openness doesn't extend all the way to naivete. Halflings won't be taken in
 
 This aspect of the halfling mind-set accounts for what members of other races often characterize as courage. A halfling about to enter the unknown doesn't feel fear as much as wonderment. Instead of being frightened, the halfling remains optimistic, confident of having a good story to tell when it's all over. Whether the situation requires a rogue slipping into a dragon's den or the local militia repelling an orc attack by refusing to yield, halflings surprise larger folk again and again with their unflappable nature.
 
-
-
-
-
-
-
-
 #### Happy with today
 Throughout recorded history, halflings have never sought to expand their reach beyond the borders of their isolated communities. They live their lives satisfied with what the world has to offer: fresh air, green grass, and rich soil. They grow all the food they need, taking pleasure in every poached egg and piece of toast. Halflings aren't known for great works of literature or elaborate written accounts of their history. Scholars who study their behavior speculate that halflings realize -consciously or otherwise- that the past is a story that can only be retold, not changed, and the future doesn't yet exist, so it can't be experienced. Only by living in the moment can one appreciate the wonder of being alive.
 
@@ -354,8 +312,6 @@ As do many other races, halflings enjoy accumulating personal possessions. But u
 Of course, most halflings' possessions aren't so exotic in origin. But even a stay-at-home halfling strives to collect everyday objects that played a significant role in an exciting story (such as "the rolling pin that Aunt Hattie used to chase away a bugbear" or "the shoes that Timtom wore when he escaped from the wolf"). Halflings believe that an item has a "spirit" of its own. The more dramatic or incredible its story, the stronger its spirit.
 
 This outlook prompts them to ask probing questions about the possessions of other folk they encounter. Queries that can make them seem nosy to those who don't understand where they're coming from.
-
-
 
 <div class="infoarea" markdown="1">
 
@@ -412,8 +368,6 @@ A typical halfling village is a cluster of small, stone houses with thatched roo
 #### Life of Leisure
 Halflings rarely consider leaving the security of their villages, because they already have all the comforts they could want -food, drink, laughter, family, friends, and the satisfaction of doing a good day's work. When all their necessities have been taken care of, halflings take it easy and many of them find a way to turn idleness into an art form. Every halfling has a favorite spot for doing nothing -in the shade of a large stone, on the fringe of a sun-dappled meadow, or nestled in a comfy crook high in a tree.
 
-
-
 When they're not dozing off and dreaming of chasing butterflies, halflings spend time on simple creative activities, such as whittling a pipe from a branch, braiding yarn into a thick rope, or composing a jaunty tune on a second-hand mandolin.
 
 #### Serious Business
@@ -462,8 +416,6 @@ Yondalla created the first halfling villages and showed the people how to build,
 
 To the halflings, Yondalla is responsible for the spring in their step and the bubbly excitement they feel from knowing that luck is on their side. When a pumpkin grows to enormous size or a garden yields twice as many carrots as usual, credit goes to Yondalla. When a halfling trips, slides down a hillside, and lands on a nuggetof gold, that's Yondalla turning bad luck into good.
 
-
-
 <h4><a class="internal-link" name="internal-Arvoreen">Arvoreen</a></h4>
 
 From time to time, halflings must fight to defend their friends or their village. In those moments, the tales of Arvoreen come to the fore in every halfling's memory.
@@ -504,8 +456,6 @@ Every halfling village tells its version of the legendary tale of Cyrrollalee an
 
 So Cyrrollalee set all the people in the town to baking pies, but not just any pies. They were special troll pies. Into each one she put a pinch of magic to make them irresistible to trolls. While the warriors of the town grumbled and sharpened their steel, Cyrrollalee created an atmosphere of fun, bringing cheer to the frightened people as they worked.
 
-
-
 When the day was done, she set off with a cart full of pies and laid them in a tasty trail far up into the mountains. When the troll came near the town and found the trail, it began to gobble up pie after pie, following the delightful smells up the mountain path until it walked right into the lair of a young red dragon. The greedy troll was swiftly incinerated. Cyrrollalee returned a hero, and from that day forward all the townsfolk remembered her with a word of thanks when baking pies.
 
 <img src='https://i.pinimg.com/originals/d0/3f/b3/d03fb384592f8b4803c7b0bf8b829900.png' style='float:left;width:25%;padding:20px' />
@@ -530,8 +480,6 @@ As a divine being, Urogalan can move freely through the earth and across the pla
 
 Unlike other halfting deities, Urogalan is surrounded by a cloud of melancholy. He is gaunt, with his dusky skin covered by white robes. Priests who venerate Urogalan emulate this practice of dress and demeanor.
 
-
-
 ## <a class="internal-link" name="internal-halflingAdventurer">The Halfling Adventurer</a>
 Everything about halflings, from their small stature to their easy demeanor, makes them unlikely candidates for taking up a life of adventure away from home. Yet every generation produces a handful of exceptional individuals who defy conventional wisdom and seek their fortunes in the wider world.
 
@@ -549,6 +497,4 @@ A halfling's potential for adventuring usually manifests early in life. When a c
 The term refers to the persistent urge to wander beyond the boundaries of the community, an activity that is in the purview of Brandobaris, who is said to have "the fanciest feet of all." Each village has its own way of coping with this phenomenon. Some elders -especially those who once had fancy feet themselves- just shrug, smile, and say it is the way of things.
 
 Nevertheless, well-meaning villagers might try to dissuade a youngster from leaving the community. Other villages are much more supportive of one of their members who demonstrates the urge to adventure, likely because some of their elders have gone into the world and returned to tell about it. In one of these places, a youngster about to set out is celebrated with a rousing party that goes far into the night, during which the adventurer-to-be is regaled by tales of other "fancy-footed" heroes of halfling history.
-
-
 
