@@ -9,8 +9,6 @@ Creating <a href="#internal-alchemicalitems">**alchemical items**</a> requires a
 
 <a href="#internal-herbalremedies">**Herbal remedies**</a> are special herbal poultices, potions, and other curatives that can be used to heal wounds and increase one’s strength and senses. Creating herbal remedies requires an Herbalism Kit. These remedies can usually be bought in any town or village.
 
-Creating <a href="#internal-poisons">**poisons**</a> requires a Poisoner’s kit. Individuals creating and selling these items can usually be found in cities and larger towns.
-
 ## <a class="internal-link" name="internal-alchemicalitems">Alchemical items</a>
 
 
@@ -725,41 +723,5 @@ Creating <a href="#internal-poisons">**poisons**</a> requires a Poisoner’s kit
 
     A dark blue oil can be extracted from the fruit of the Willowshade plant. A creature can use its action to apply the oil to another creature that has been petrified for less than 1 minute, causing the petrified condition on that creature to end at the start of what would be that creature’s next turn.
 
-
-</div>
-
-## <a class="internal-link" name="internal-poisons">Poisons</a>
-
-<div class="columnsthree">
-
--   <div class="block classTable frame" markdown="1">
-
-    | Poison | Cost |
-    |:-------------|:-----|
-    | Basic poison | 10 gp
-    | Noxious aromatic | 15 gp
-    | Woundweal | 50 gp
-
-    </div>
-
--   #### Basic poison
-
-    Price: 10 gp, can be purchased in a <a href="../Rules/2-rules-equipment.html#internal-Flasks">flask</a>
-
-    You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.
-
-
--   #### Noxious aromatic
-
-    Price: 15 gp
-
-    This glass container of foul-smelling oil shatters easily upon impact. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the flask as an improvised weapon. If a creature with the scent ability is standing in the square of impact, it must succeed at a DC 14 Constitution save or be incapacitated for 1d4+1 rounds. Any creature with scent in an adjacent square must succeed at a DC 12 Constitution save or be poisoned for 1 round. Creatures without the scent ability are not affected by noxious aromas.
-
-
--   #### Woundweal
-
-    Price: 50 gp
-
-    This gritty black paste is a poison that interferes with an afflicted creature’s ability to recover from injuries. All Medicine checks applied to the creature suffer a –10 penalty. In addition, anyone using magical healing on the target must make a DC 25 caster level check to succeed.
 
 </div>

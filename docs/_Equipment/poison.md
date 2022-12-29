@@ -202,8 +202,6 @@ the clergy of the sun god and infused with the sun's magic. The blessed oil must
 
   A creature subjected to this poison must make a DC 20 Constitution saving throw. On a failed save, a creature can no longer receive sustenance by consuming food. Every two days the creature goes without sustenance, their Constitution score decreases by 1. If a creature's Constitution score reaches 0 due to this effect, they die.
 
-
-
 - **Hemlock (Ingested)**. A creature subjected to this poison must succeed on a DC 17 Constitution saving throw or become poisoned for 12 hours. The poisoned creature has their speed halved. If the saving throw fails by 5 or more, the creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the paralysis on a success.
 
 - **Lockjaw (Ingested)**. Lockjaw is a mild paralytic that loses its potency before it is even swallowed, thereby only affecting the mouth and jaw. It can be made from a weed that grows in swampy areas. On its own, the weed only causes mild numbness, but once refined it is a decent paralytic.
@@ -250,15 +248,13 @@ the clergy of the sun god and infused with the sun's magic. The blessed oil must
     | Essence of Ether | Inhaled | 30 gp |
     | Insanity Mist | Inhaled | 225 gp |
     | Malice | Inhaled | 25 gp |
-
+    | Noxious aromatic | 15 gp |
     </div>
 
     ### Inhaled Poisons Descriptions
     Each type of poison has its own debilitating effects.
 
 - **Anosmia (Inhaled)**. A creature subjected to this poison must make a DC 18 Constitution saving throw. On a failed save, the creature loses its sense of smell for 48 hours. If the creature relies on smell to locate other creatures, it can no longer do so. The creature automatically fails any Wisdom (Perception) check that relies on smell. If the creature has the keen smell trait, it must also succeed on a Wisdom saving throw or act as though affected by the *confusion* spell during their next turn.
-
-
 
 - **Burnt Othur Fumes (Inhaled)**. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 3d6 poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the creature takes 1d6 poison damage. After three successful saves, the poison ends.
 
@@ -273,6 +269,8 @@ the clergy of the sun god and infused with the sun's magic. The blessed oil must
 - **Insanity Mist (Inhaled)**. A creature subject to this poison must succeed a DC 15 Constitution saving throw or gain an effect listed on the short-term madness table within the DM's Guide (page 259). The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 - **Malice (Inhaled)**. A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 1 hour. The poisoned creature is blinded.
+
+- **Noxious aromatic**. This glass container of foul-smelling oil shatters easily upon impact. As an action, you can throw this flask up to 20 ft, shattering it on impact. Make a ranged attack against a creature or object, treating the flask as an improvised weapon. If a creature with the scent ability is standing in the square of impact, it must succeed at a DC 14 Constitution save or be incapacitated for 1d4+1 rounds. Any creature with scent in an adjacent square must succeed at a DC 12 Constitution save or be poisoned for 1 round. Creatures without the scent ability are not affected by noxious aromas.
 
 </div>
 
@@ -291,7 +289,7 @@ the clergy of the sun god and infused with the sun's magic. The blessed oil must
     | Bloodfire Paste | Injury | 65 gp |
     | Drow Poison | Injury | 20 gp |
     | Healer’s Bane | Injury | 50 gp |
-
+    | Woundweal | 50 gp
     </div>
 
     ### Injury Poisons Descriptions
@@ -303,4 +301,5 @@ the clergy of the sun god and infused with the sun's magic. The blessed oil must
 
 - **Healer’s Bane (Injury)**. A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or become poisoned for 48 hours. The poisoned creature cannot recover hit points from resting or expending hit dice. If the creature receives magical healing they must make a DC 14 Constitution saving throw. On a failure, the hit points gained are temporary hit points that last 1 hour. On a successful saving throw the creature recovers half the normal amount of hit points.
 
+- **Woundweal**. This gritty black paste is a poison that interferes with an afflicted creature’s ability to recover from injuries. All Medicine checks applied to the creature suffer a –10 penalty. In addition, anyone using magical healing on the target must make a DC 25 caster level check to succeed.
 </div>
