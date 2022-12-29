@@ -11,13 +11,10 @@ layout: default
 <a href="#internal-roothulk">Roothulk</a>
 
 ##### <a href="#internal-class">Class Options</a>
-##### <a href="#internal-feat">Feats</a>
-
 </div>
 
 
 # Floran
-
 Floran are living, bipedal plants that travel the world in order to bring new skills and experiences back to their ancestral forest. All floran are basically human shaped. Some appear as idealized men and women exquisitely carved from fine wood, while others never quite pick up the trick of blending in, and look like shambling brutes made of bark and branches. Whatever their appearance, floran are known for their inquisitiveness, patience, and their love of songs.
 
 #### A Unique Lifecycle
@@ -26,8 +23,6 @@ Floran are among the longest lived beings in the world, though thanks to their u
 When a floran reaches about 5 feet tall, it begins to fill out and achieve the rough proportions and facial appearance of a human. It begins to move around more, and acquires the ability to speak. A few years after that, when the grove judges that they've taught the young floran what they can, the child is granted supplies to strike out on its own.
 
 The following part of the floran's life is the only time that most people will ever encounter one. The young floran is encouraged to see everything she can of the world and to accrue skills and experiences among the younger races that she'll never have the chance to pursue again. It is a time of great freedom and experimentation, and although the floran is still considered a child by his own people, among humanoids he tends to be treated as the adult which he resembles. After 30 to 40 years of wandering, learning, adventuring, losing, and generally living life as fully as possible, a floran will seek some place to settle for the rest of his life, usually an established grove with other adults. There he undergoes a process called "rooting", giving up his ability to walk in order to achieve a much more sedate adulthood.
-
-
 
 Floran adults live for centuries, never again straying from the spot where they put down roots. Over this time they achieve truly monumental proportions, sometimes sheltering symbiotic communities of elves, gnomes, and other forest dwellers in their branches. Floran adults are still capable of speech and of moving their limbs, but tend to think, speak, and move very slowly and deliberately. To each other, it is said that they communicate by singing the Song of Seasons, a neverending melody inaudible to most humanoids that sets the tempo of the natural world and is filled with the wisdom of the floran ancients.
 Scholars in search of information about the distant past often petition elderly floran for help, but it takes great patience and effort to learn from the ancient treefolk. The stationary floran often ask a service from mobile petitioners in trade for their knowledge.
@@ -57,8 +52,6 @@ Florans have short, concise names, merely used as identifiers more than anything
 
  **Female Names**. Choque, Chuaca, Coca, Cuilla, Cura, Ollssill, Pola, Rima, Sica, Sisuyo.
 
-
-
 ## <a class="internal-link" name="internal-trait">Floran traits</a>
 
 Floran live by a slower rhythm and possess patience to humble even the long-lived elves. In their own way, however, every floran is a child, and thus still in the process of becoming the person that they will be for the rest of their epochal lives.
@@ -71,9 +64,9 @@ Floran live by a slower rhythm and possess patience to humble even the long-live
 
 - **Size**. Floran are shorter than humans, and range from 4 and a half to 5 and a half feet tall. Wood nymphs weigh slightly less than a human their height, roothulks slightly more. Your size is medium.
 
-- **Speed**. Your speed is 30 feet.
+- **Speed**. Your speed is 30 ft.
 
-- **Languages**. You know Sylvan and Common. Sylvan is the language of the forest denizens, and floran grow up playing with and learning from all manner of pixies, nymphs, and naiads, but they learn Common in order to communicate with the outside world.
+- **Languages**. You know Sylvan and Common. Sylvan is the language of the forest denizens, and floran grow up playing with and learning from all manner of pixies, nymphs and naiads, but they learn Common in order to communicate with the outside world.
 
 - **Call of the Forest**. You know the *druidcraft* cantrip. Once you reach 3rd level, you can cast the *entangle* spell once per day. Once you reach 5th level, you can also cast the *plant growth* spell once per day. Wisdom is your spellcasting ability for these spells.
 
@@ -94,13 +87,12 @@ The following racial traits are optional. Some florans have them and some don't.
 
 - **Buoyant**. You are lighter, and float on water and similar liquids. This also means you cannot dive below the surface without aid.
 
-- **Coniferous**. You are born of the wilds in the great northlands. As such, you have growths of pine needles and thinner bark. You gain resistance to cold damage, but gain a weakness to fire damage. If you are a Roothulk, this will limit your natural camouflage trait, as a creature knowledgeable with the surrounding flora might see that you stand out.
+- **Coniferous**. You are born of the wilds in the great northlands. As such, you have growths of pine needles and thinner bark. You gain resistance to cold damage, but gain a weakness to fire damage. If you are a Roothulk, this will limit your natural camouflage trait, as a creature knowledgeable with the surrounding flora might see that you stand out if you are in the wrong type of forest.
 
 </div>
 
 
 ### <a class="internal-link" name="internal-roothulk">Roothulk</a>
-
 Those floran that never quite get the hang of appearing human are often called roothulks. Their facial features are rough and unfinished, looking more like wooden festival masks than the finely crafted forms exhibited by their fellow wood nymphs. Roothulks make up for this lack of subtlety by developing powerful physical gifts.
 
 <div class="columnstwo">
@@ -173,7 +165,7 @@ An floran approaches some classes is a bit different than other races. When you 
 - ### Cleric
     Floran are not very religious, but do revere the pantheon listed as the Celtic pantheon in the Cleric description. When following one of those gods with the appropriate domain, then whenever the class description mentions your Wisdom modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
-    As a floran cleric, you can gain the ***Rune-carver*** feat at level 1.
+    As a floran Cleric, the ***Rune-carved*** folk-specific skill costs 0 to you.
 
     <hr class="dividerinfolk">
 
@@ -182,7 +174,7 @@ An floran approaches some classes is a bit different than other races. When you 
 
     You may choose Wisdom or Charisma as spellcasting ability instead of Intelligence.
 
-    You also gain the ***Rune-carver*** feat at level 1.
+    As a floran Cursed, the ***Rune-carved*** folk-specific skill costs 0 to you.
 
     <hr class="dividerinfolk">
 
@@ -248,7 +240,7 @@ An floran approaches some classes is a bit different than other races. When you 
     <hr class="dividerinfolk">
 
 - ### Sorcerer
-    As a floran Sorcerer, you can gain the ***Rune-carver*** feat at level 1.
+    As a floran Sorcerer, the ***Rune-carved*** folk-specific skill costs 0 to you.
 
     <hr class="dividerinfolk">
 
@@ -258,102 +250,13 @@ An floran approaches some classes is a bit different than other races. When you 
     <hr class="dividerinfolk">
 
 - ### Warlock
-    As a floran Warlock, you can gain the ***Rune-carver*** feat at level 1.
+    As a floran Warlock, the ***Rune-carved*** folk-specific skill costs 0 to you.
 
     <hr class="dividerinfolk">
 
 - ### Wizard
-    As a floran Wizard, you can gain the ***Rune-carver*** feat at level 1.
+    As a floran Wizard, the ***Rune-carved*** folk-specific skill costs 0 to you.
 
     <hr class="dividerinfolk">
 
 </div>
-
-## <a class="internal-link" name="internal-feats">Floran racial feats</a>
-
-The following feats are exclusive to floran characters.
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Arboreal Allure
-    *Prerequisite: Wood nymph*
-
-    Wood nymphs have a knack for appealing to humanoid conceptions of beauty, a talent that has been described as unearthly and enchanting. Some floran take this natural appeal to the next level, tapping into their mystical connection with all life to magically alter how others view them.
-
-    You learn the *friends* cantrip.
-
-    Choose one spell from among the following: *alter self, calm emotions, enthrall* and *suggestion*. You learn that spell, and can cast it at its lowest level. Once you cast it, you must complete a long rest before you can cast it again. If you choose this feat before you reach 3rd level, you must wait until you reach 3rd level to gain this benefit.
-
-    You use your otherworldly charm to mitigate the biggest risk of charm magic: being found out. As an ***action***, you may force a creature charmed by you to make a Charisma save. If it fails, the target does not realize that it had been charmed once the condition wears off, overriding the normal side-effect of spells such as *friends* or *charm person*. Once you use this ability, you may not use it against the same target again until you take a long rest.
-
-    The spell DC for these abilities is 8 + your proficiency bonus + your Charisma modifier.
-    </div>
-
--   <div class="feat">
-
-    ## Big, Bad, and Barky
-    *Prerequisite: Roothulk*
-
-    Your natural armor is hardened beyond what even a normal floran achieves, boosting your physical abilities and making you resilient to harm in a way that fleshy races can only emulate by wrapping themselves in dead earth.
-
-    Increase your **Strength** or **Constitution** score by 1.
-
-    You gain advantage on any Strength or Constitution saves to avoid being stunned.
-
-    While your hp is at its maximum value, you have resistance to all damage types except for fire. If your hp is below your maximum, you do not receive this benefit, but if you lost hp and then are restored to full, the resistances apply once more.
-
-    </div>
-
-
--   <div class="feat">
-
-    ## Oozing Sap
-
-    Your wounds ooze sap and close quickly.
-
-    Increase your **Constitution** score by 1.
-
-    Any effect that causes bleeding will stop by itself after 1 round.
-
-    If you are below half hp and not wearing armor, your AC increases by 2, due the tar-like sap oozing from your wounds.
-
-    </div>
-
--   <div class="feat">
-
-    ## Photosynthetic Efficiency
-    You heal faster when in direct sunlight.
-
-    Increase your **Constitution** score by 1.
-
-    If you take a short rest in sunlight or water, you can re-roll any hit dice you spend and take the higher value. You may also regrow lost limbs and other extremities in this fashion, although this takes a few days.
-
-    You need to breathe, but unlike most creatures, you inhale carbon dioxide and exhale oxygen, enough to supply one Medium-sized humanoid with breathable air in an enclosed environment.
-
-    </div>
-
--   <div class="feat">
-
-    ## Rune-carved
-    You have carved arcane runes and symbols into your bark. These can be used as an arcane/divine focus when casting spells. As such they must be visible and not hidden behind cloak, armor or clothes.
-
-    Increase your spellcasting ability score by 1.
-
-    In addition, you can add the following spells to your spell list:
-
-
-    | Spell Level | Spells |
-    |:--:|:--|
-    | Cantrip | *mold plant, thorn whip* |
-    | 1st | *bridge of branches, entangle* |
-    | 3rd | *plant growth* |
-    | 4th | *tree strike* |
-    | 6th | *wall of thorns* |
-
-    </div>
-
-</div>
-
-
