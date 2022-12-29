@@ -39,9 +39,6 @@ Eladrin can instead have a tint of red, yellow or white, while Shadar-kai are gr
 |:----:|:----:|:----:|:----:|
 | 4'8" | +2d8 | 90 lb.| x1d4 lb.
 
-
-
-
 The elves have no division between male and female as most other races. Eladrin often choose to appear, dress and behave as an archetypical lord or lady, but which of the two changes from time to time. Wood elves on the other hand generally have a more androgynous look, being neither male nor female. In fact this is true in all ways. Eladrin do not reproduce at all, and elves do not reproduce sexually, but both are hermafrodites.
 
 #### The Eladrin and the Feywild
@@ -93,7 +90,7 @@ Your elf character has a variety of natural abilities, the result of thousands o
 
 - **Fey Ancestry**. You have advantage on saving throws against being charmed, and magic can't put you to sleep.
 
-- **Low-light Vision**. Accustomed to twilight forests and the night sky, you have superior vision. You can see in dim light within 60 feet as if it were bright light.
+- **Low-light Vision**. Accustomed to twilight forests and the night sky, you have superior vision. You can see in dim light within 60 ft as if it were bright light.
 
 - **Trance**. Elves don't need to sleep. Instead, they meditate deeply for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
 
@@ -212,15 +209,15 @@ Eladrin have the following traits in common, in addition to the traits they shar
 
   The same applies to the lawful-chaotic spectrum. Fey might seem as chaotic as they come, but all fey obey certain rules set up by the Archfey. As fey, those rules are physically impossible to break.
 
-- **Fey Step**. As a ***bonus action***, you can magically walk a couple of steps through the Feywild, ending up on the same plane that you started, but up to 30 feet away to an unoccupied space you can see. You need to be able to move when doing this. In addition, being shackled with iron bonds prevents this. Once you use this trait, you can't do so again until you finish a short rest.
+- **Fey Step**. As a ***bonus action***, you can magically walk a couple of steps through the Feywild, ending up on the same plane that you started, but up to 30 ft away to an unoccupied space you can see. You need to be able to move when doing this. In addition, being shackled with iron bonds prevents this. Once you use this trait, you can't do so again until you finish a long rest.
 
   When you reach 3rd level, your Fey Step gains an additional effect. You can select any one of these, and whenever you finixh a long rest you can switch to another. If the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Charisma modifier:
 
-  -- **Autumn**. Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or gain the charmed condition in regards t you for 1 minute, or until you or your companions deal any damage to it.
+  -- **Autumn**. Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 ft of you must succeed on a Wisdom saving throw or gain the charmed condition in regards t you for 1 minute, or until you or your companions deal any damage to it.
 
   -- **Winter**. When you use your Fey Step, one creature of your choice that was adjacent to you before you moved must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn.
 
-  -- **Spring**. When you use your Fey Step, you can touch one willing creature. That creature can move instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet.
+  -- **Spring**. When you use your Fey Step, you can touch one willing creature. That creature can move instead of you, appearing in an unoccupied space of your choice that you can see within 30 ft.
 
   -- **Summer**. Immediately after you use your Fey Step, each adjacent creature of your choice that you can see takes fire damage equal to your Charisma modifier.
 
@@ -264,15 +261,15 @@ As an elf native to the material plane, you have keen senses and intuition, and 
 
 - **Alignment**. Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.
 
-- **Ancestral Aptitude**. Choose a tool or skill that your parent was proficient in. You have enough memories of this skill that you gain proficiency in it.
+- **Ancestral Aptitude**. Choose a *Knowledge* or *Craft* skill that your parent was proficient in. You have enough memories of this skill gain a skill point to spend on that skill.
 
 - **Ancestral Vision**. You can call upon your ancestral vision to help you recall lore that your parent might have known about. After you fail an Intelligence check made to recall lore, you can choose to immediately spend 1 minute searching for a vision, allowing you to remake the Intelligence check. At the DM’s discretion, you might be able to discover lore that you had no chance of knowing, but your parents could have known. Once you call upon a vision, you can’t do so again until you complete a short rest.
 
-- **Keen Senses**. You have proficiency with the Perception skill.
+- **Keen Senses**. Add *Perception* to your class skills if not already there, and gain 1 skill point to spend on that skill.
 
 - **Photosynthesis.** You still need to eat as much as human, but you do not die if you reach six levels of exhaustion due to starvation. You go into a kind of hibernation and can survive for an additional 3 + Con modifier days, as long as there is sunlight.
 
-- **Tree Walker**. You have proficiency bonus with climbing and advantage on such checks when climbing trees. You vam use the Dash action as a ***bonus action*** while in trees, as long as the trees are big enough to allow such action. Furthermore, you are considered to weigh only half your normal weight while in trees.
+- **Tree Walker**. The *Physique - Climb trees* cost 0 for you. Furthermore, you are considered to weigh only half your normal weight while in trees.
 
 </div>
 
@@ -317,7 +314,7 @@ An elf approaches some classes a bit different compared than other races. When y
     <div class="feat">
 
     ## Lorekeeper
-    Whenever you make an History check that pertain to elves, you are considered proficient and have advantage. In addition, your mastery of elven legends and philosophy has allowed you to master one spell used by elven wizards. Select any one spell from the wizard spell list to be considered a bard spell to you.
+    Whenever you make an History check that pertain to elves, you ahave *expertise*. In addition, your mastery of elven legends and philosophy has allowed you to master one spell used by elven wizards. Select any one spell from the wizard spell list to be considered a bard spell to you.
 
     </div>
 
@@ -617,7 +614,6 @@ Elves can sleep and dream just like any human, but almost all surface elves avoi
 
 </div>
 
-
 This is the stage of elven life that others are most familiar with because it's the age when elves move outside their reclusive communities and interact with the larger world. They strive to have a permanent effect on the world, to change things for the better (as they see it), as well as to experience as much as possible in order to pass those experience on to their children.
 
 Over time, an adult elf can become accomplished in many endeavors while pursuing its destiny. It isn't unusual among elves to meet someone who is expert in disparate disciplines, such as a battle wizard who also is a settlement's best vintner and famous for creating delicate wood carvings. This versatility speaks to every adult elf's eagerness for new experiences, because memories of adventures, escapades, and accomplishments will fuel the next and possibly longest phase of one's life.
@@ -672,8 +668,6 @@ This passion wanes as an elf ages, but it never disappears entirely. One of the 
 One of the most fervent passions in an elf is the animosity that surface elves and drow hold for one another. This hatred dates back to when the primal elves surrendered their mutable forms in response to Lolth's promises. They split into two factions: the drow, who believed that Corellon had held them back and that Lolth's betrayal was justified, and al other elves, who felt bereft of Corellon's presence and believed Lolth had manipulated them from the very beginning. To the drow, every elf who basks in Corellon's light is a weakling and a fool. To most other elves, every drow is a traitor.
 
 Despite the rift between them, drow and other elves can deal with each other when necessary, avoiding violence for the sake of a common cause. They won't like it- they might even hate themselves for a time afterward- but they'll do what must be done according to the circumstances of the situation.
-
-
 
 ### Elf adventurers
 Most surface elves embark on a period of adventuring during their early adulthood. An adventure to an elf, however, isn't always the same as what humans mean when they think of adventure. Humans tend to equate  adventurers with people who battle monsters, explore dangerous ruins, delve into deep caverns, and generally stir up trouble, usually in pursuit of gold and glory. Elves have been known to do all those things, but more typical elf adventurers are simple travelers.
@@ -755,8 +749,6 @@ Services in Corellon's honor are typically conducted in natural stone amphitheat
 
 Many elf wizards honor Corellon and adorn their spellbooks and towers with the god's symbols. Some of them speculate that Corellon is the personification of raw magic itself, the primal force that underlies the multiverse. Corellon is not magic tamed or shaped, but magic in its original form: a well of endless, splendid possibilities.
 
-
-
 <h4><a class="internal-link" name="internal-HanaliCelanil">Hanali Celanil</a></h4>
 
 Hanali is the elven god of beauty and love. Usually depicted as a beautiful androgynous elf, Hanali's gender in a story seldom matters, for no matter how much heartache and confusion the stories contain, they end with affairs of the heart properly sorted out and everyone in love with the person, or persons, they were fated to be with. Stories of Hanali's romantic adventures among elves and other mortals are perennial favorites when sung by elf bards and poets.
@@ -786,8 +778,6 @@ Most settlements have only one or two priests of Labelas. These individuals are 
 
 Like the other elven deities, Rillifane Rallathil was once a primal elf sprung from of Corellon's divinity. The original primal elves - and indeed, Corellon himself - have no "true form." Their common, elf-like portrayals are a convenience adopted after the elves took on permanent humanoid form.
 
-
-
 When the other elven deities decided on humanoid forms, Rillifane took a different approach. He took as his principal form that of an enormous oak tree, taller and wider than any other. Its roots are so deep and far-reaching that they touch the roots of every other plant in the world, or so it's said. Through this network of tendrils, Rillifane remains aware of everything that happens in the forest.
 
 When he chooses to travel to other planes and worlds, Rillifane takes the appearance of an uncommonly tall and strong wood elf with dark skin, handsome features, and twigs and leaves protruding from his hair. In either guise, his main concerns are the welfare of forests and prairies, the passing of the seasons, and the lives of beasts. Most of his followers and priests are elf druids. They're just as insular and secretive as any other druids, which means their motives are often not clear to those around them.
@@ -811,8 +801,6 @@ In stories of the Seldarine, Sehanine is Corellon's steadfast companion, the one
 
 Offerings to Sehanine are mostly made from silver, often shaped in a way that is reminiscent of the full moon. Cups, bowls, cloak pins, and plates of silver are found at her shrines, as well as those dedicated to the Seldarine collectively. The weapons and gear used by her followers, such as silver arrowheads, knife blades, and wooden shields, are often decorated with a stylized image of Sehanine's eye with rays coming out of it - a warning to the elves' enemies that Sehanine's gaze has fallen upon them.
 
-
-
 <h4><a class="internal-link" name="internal-DeepSashelas">Deep Sashelas</a></h4>
 
 Deep Sashelas, sometimes known just as Sashelas, is the elven deity of the sea, seafaring, and knowledge. Sashelas is called the Knowledgeable One. His awareness of all lore, not only that about the sea, is seemingly limitless. He is especially beloved by sea elves, dolphins, and elf sages.
@@ -822,9 +810,6 @@ Many elven seafarers toss offerings of gold and jewels overboard, beseeching Sas
 **Sea of Knowledge**. Over time, much of the world sinks to the depths of the oceans and is thought to be lost forever, but it isn't lost to everyone. Sashelas gleans much about the world above the waves from that which sinks beneath them: every shipwreck, every offering, and the wealth and knowledge of every seaside city swallowed by a giant wave are added to Sashelas's ever-expanding library of lore. Knowledge that has disappeared from the surface world might still be known to the priests of Sashelas, gained through communion with their god. Messengers who never reached their destination, ships filled with scrolls from an ancient library, scholars whose works were lost at sea -  all of these add to Sashelas's storehouse.
 
 Away from the open sea, many lagoons, reefs, and grottoes have shrines devoted to Sashelas. Many come in reverence to bathe in the waters in the hope of receiving visions from the god, since it is known that Sashelas is fond of sharing knowledge with those who are true seekers. Scholars, monks, and clerics visit these elaborately decorated seaside temples, immersing themselves in the blessed waters and looking for enlightenment. Because the god also dispenses lore through dreams and reveries of memory, many artists and poets worship Sashelas. They seek his creative insight by spending time floating on the waves, then return to shore to write down or sketch out the gifts bequeathed to them.
-
-
-
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-eladrinFeywild">Eladrin and the Feywild</a></h1>
@@ -838,8 +823,6 @@ It's a realm of nature run amok, and a place where the unfettered passions of fe
 The natives are boisterous, tempestuous, and ready to draw blood over the slightest insult or lapse of tradition. The plane's beauty is both overpowering and bewildering. Fey spirits lurk everywhere, and they're even more unpredictable and more easily provoked than the elves.
 
 Those are the obvious dangers. The subtle danger of the Feywild is that it can act like an addictive drug on visitors: the longer they remain, the more likely they will never want to leave. Anyone who stays more than a month might need to be dragged back to their home plane by well-meaning friends, then guarded or confined until the realm's pull on the person wanes.
-
-
 
 Time in the Feywild is a tricky subject as well. Days spent in the Feywild might turn out to be seconds on the material plane, or they might turn out to be centuries. Two creatures that both exit the Feywild at the same time might end up being split up vastly by the passage of time, never to see each other again. Although this is an extremely rare occurrence, it is vital to take precautions against this time-warping effect when entering or exiting this echo plane. Wearing or holding iron or steel materials appears to stop time from distorting itself, although it is rather difficult to bring these metals into the Feywild in the first place. The archfey seem to have some sort of control over this effect, and simply traveling with a fey creature seems to stop this effect from happening altogether, which suggests that it is some sort of defense mechanism meant to stop mortals from interfering with the dealings of the fey.
 
@@ -865,8 +848,6 @@ The archfey are immortal, and on as powerful in the Feywild as gods are in other
 ### Sidhe
 Sidhe are the lords and ladies of the Courts. They are nearly incapable of existing outside of a fey Court, and to them, death is preferable to banishment from their Court. The sidhe appear as humanoids more graceful and beautiful than any mortal, and they are deeply in tune with magic. Sidhe cast magic as easily and as innately as they breathe.
 
-
-
 All sidhe have abilities drawn from their Court, but each one also has unique talents. They love to play tricks on mortals, drawing them with charms or illusions and making deals with enchanted mortals that will give momentary pleasure, but will also give something much more valuable to the sidhe, usually the mortal’s life or free will, which can then be used as a bargaining chip for more power or political standing in their Court. The sidhe are very competitive, and all seek to both serve their Queen to the best of their ability, and to prove themselves worthy of being granted the powers of an archfey.
 
 Sidhe that are banished from their Court survive in other inhabited areas, joining the Wild Hunt or other wyldfae, or else traveling to the material plane. They sometimes create lands for themselves as well. When they are forced to take a side, few chose the one that banished them, with most of the banished sidhe working for the other side as revenge for being cast out.
@@ -879,13 +860,6 @@ Eladrin are essentially immortal in the Feywild. If they are killed, they can be
 Some eladrin could pass for wood elves, but most are distinctly eladrin in appearance: very slender, with hair and skin color determined by the season, and their eyes often glimmer with fey magic.
 
 Eladrin tend to be haughty around mortals. They're proud of their heritage and equally proud of their ability to thrive in the Feywild, a land full of threats that would overwhelm and destroy weaker creatures. Some eladrin trade haughtiness for a tender kindness or pity toward their mortals that are stuck on the material planeand has never felt the glory of the Feywild. These kinder eladrin take a special pleasure in introducing their realm to others.
-
-
-
-
-
-
-
 
 Eladrin culture is older than most other civilizations in the multiverse, and it's also the most decadent. Most elves are impetuous to some extent, but eladrin are known for their fickleness. Many of them change their minds on the spur of the moment without giving reasons. Their system of justice vacillates between capriciously harsh and whimsically mild, depending on the mood of the eladrin passing judgment, and eladrin are more susceptible to flattery than other almost any other creature.
 
@@ -904,19 +878,12 @@ The closest thing a fairy will give to an absolute truth a fairy will give, outs
 ### Break No Oaths
 A deal made by a fairy is absolute, and a fairy cannot willingly break a deal. Fairies, by nature, try to make deals with other creatures that they want power over, often with the payment owed to them seeming much smaller or easier to pay than it truly is, or else not mentioning a return payment until after the deal has been accepted. Failure to pay within the given time results in the fairy having power over the dealbreaker, which was the original goal.
 
-
 A deal a fairy offers will always be equal, and anything offered by a mortal, should it be anything other than equal payment, will be seen as either an opportunity or an insult. Fairies hate to be in debt, and cannot give or take anything for free. Accepting a gift from a fairy is the same as accepting an open-ended deal, and the fairy can extract payment as they see necessary. At the same time, giving a gift to the fey puts them in debt, which they hate. While they are forced to repay their debt, they will also look for an opportunity to harm the gift-giver, except for very special circumstances.
 
 Similarly, promises made to or by the fey are binding, and must be fulfilled. An oath of fealty can only be broken through an agreement on both parties. Additionally, a vassal must fulfill all of the orders of their master, and their master cannot order them to break any previous oaths, and can only inflict harm on them if they fail to complete their orders to the master’s satisfaction. Prisoners are automatically considered vassals.
 
 ### Harm No Outsiders
 A fairy belonging to a Court, even temporarily, cannot directly harm a fairy or mortal that does not belong to the same court, or is not ranked lower than themselves, unless if they are slighted by the individual beforehand. Duels are accepted, and open combat between the two Courts is also allowed. Because of the specifics of this rule, predators who wish to hunt prey that does not belong to them try to enter a deal with their prey or cause their prey to slight them, allowing them to hunt to their heart’s content.
-
-
-
-
-
-
 
 Different types of fey have different definitions of a slight, and these definitions are absolute. If a creature intrudes on a malk or kumonga colony’s territory without offering something to the resident fey or proving their strength in some other way, it is considered fair game, and is hunted down mercilessly, for example.
 
@@ -931,8 +898,6 @@ Attacking a fairy with iron is a perfect way to gain the ire of other fey, and s
 ### Thresholds
 A threshold is the barrier between an intelligent creature’s home and the outside world. To mortals, a threshold is a loose term used to describe an entrance into someone’s house, but to the fey, thresholds are very real and very powerful barriers. Thresholds do not appear on every building, or even every house, and those that do vary greatly in their strength. A threshold is formed from the energy of the life that is lived inside a building. Happy homes and the homes of large or devout families tend to have strong thresholds, while the homes of lonely people or temporary dwellings have little to no threshold. Churches and temples that see many different people every day might have a threshold if the clergy live there, but only those that serve a truly devout congregation have thresholds of the same power as a home.
 
-
-
 Fey creatures cannot cross a threshold without leaving a fraction of their power behind them. This power is restored when they leave. Only the most powerful archfey can cross a threshold without becoming powerless while inside, and even then, they are often reduced to the strength of lower sidhe. Because only mortals can create a threshold, they are very rare in the Feywild, and fey creatures are often surprised when they are stopped by one.
 
 Fey creatures can cross a threshold if they are invited across, in which case they do not lose their powers. If one wishes to enter a dwelling, but finds itself unable to, it will often use trickery, threats, and coercion to lure its victims outside or have them invite it in. Other, more crafty fey, most famously hags and oni, will gain entrance by befriending children under a disguise, revealing their true form when they are brought inside the house.
@@ -946,25 +911,9 @@ The fey deal in half-truths and lying by omission. Except for very specific circ
 
 The fey try to trap mortals in their promises. Even to a close ally, the fey are dangerous for this. In general, it is a bad idea to accept anything offered by the fey, including food, drink, and other pleasures, unless you know exactly what the price is. If a mortal enters a deal with a fairy, they all-too-often are made into eternal servants. This can have a variety of meanings. Some fey consider their servants prey, and hunt them down and devour them, some use them as playthings, and others (mostly the Summer Court) actually have them return to the material plane and simply return to the Feywild on occasion to give information or work.
 
-
-
-
-
-
-
-
 Similarly, fey hate being given gifts, because this puts them in debt with the giver. Someone who is owed by the fey can expect a favor or gift to be given quickly, but this is often a double-edged sword, especially if the gift was not expected. The fey often give items that, while they may help in some way, often leave a way for manipulation in the future, or else cause danger to follow the owner. The only time it is safe to accept something from the fey is if you are greeted as a guest in their dwelling and accept the status. Even then, you are only protected from the owner of the dwelling. Other fey might cause harm in some ways, although the host cannot order this, and is sworn to punish those who attempt it.
 
-
-
 Despite what many think, the fey are neither good nor evil, at least not in the mortal sense. While many actions of the Winter Court seem evil, and many of the Summer seem good, the fey care little about morality. On the alignment scale, they are neutral at best. They do what they do because they have to, not quite because they want to. Their nature strives them to be power-hungry, predatory, or deceitful, and they are incapable of resisting or changing their nature. A fairy that appears to be going against its nature is almost certainly under the influence of some other creature.
-
-
-
-
-
-
-
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-ravenQueen">The Raven queen and the Shadar-kai</a></h1>
@@ -980,8 +929,6 @@ Despite all attempts to demystify her, the Raven Queen has remained enigmatic an
 ### Origin of the Raven Queen
 For those who seek to unravel the enigma of the Raven Queen, the story of her origin comes from the ancient history of the elves. It is said that she was once an elf queen, whose people loved her more than they loved the gods.
 
-
-
 From the fragments that have been found of her history, when Corellon and Lolth were locked in conflict, she tried to use the souls and magic of her people to elevate herself to godly status and to save the fractured pantheon of the elves.
 
 ### Descent into shadow
@@ -990,13 +937,6 @@ As the queen rose in power, many elves became inspired by her, freely offering t
 As the numbers of shadar-kai grew, a consortium of evil wizards among her followers saw an opportunity to siphon off the energy of the shadar-kai for themselves by performing their own self-serving ritual, which would impart to them magical powers beyond those of the greatest wizards of legend. But as the queen approached the entrance to Arvandor, she realized what the wizards were doing and brought all her wrath down upon them as the ritual was under way. Because she was by now a quasi-divine entity, her supernatural rage corrupted the ritual into a phenomenon that took on a terrible strength of its own.
 
 By the time the queen realized her error, she could feel the now-twisted magical energy grabbing hold of her, and she was powerless to stop it. In a panic, she reached out to the souls of the shadar-kai for more power, hoping to save herself, but the gravity of the spell had become irresistible. It pulled the queen, and all who were under her sway, into the Shadowfell, where she was instantly killed. From her ruined mind and body, the Raven Queen was born.
-
-
-
-
-
-
-
 
 ### After the Fall
 The souls of the shadar-kai watched as the Raven Queen fell deeper and deeper into a divine madness. Her pain and turmoil over the betrayal of her wizards, the destruction of her kingdom, and her failure at attaining godhood all contributed to her descent into an unquenchable sorrow. At the same time, the energy of the corrupted ritual was still transforming her, breaking down her form from a physical one into an entity composed of symbols, images, and perceptions. To keep herself from dissipating entirely into nothingness, the queen used the last vestiges of her personal power to pull dead memories from the Shadowfell about her, creating a cloak of identities that sustained her. Over centuries, those dark memories accumulated and coalesced to give shape to the entity now known as the Raven Queen.
@@ -1010,8 +950,6 @@ Since achieving divinity, the Raven Queen has filled her realm with shadows and 
 Some wizards and other scholars have speculated that the Raven Queen is simply insane, that there is no method to her madness other than a nervous pecking apart of a psyche with no more motive than a curious child pulling the legs off an ant. Others have speculated that the Raven Queen needs the gravity of emotions to hold her eternally decaying identity together. But a few sages have postulated that the Raven Queen's purpose is of greater importance, that she serves as a filter of sorts, cleansing souls that cling to fear and pain, forcing them to confront their unfinished business so that they are freed of their mortal baggage and can rise to explore higher planes of existence.
 
 <img src='https://i.pinimg.com/originals/1c/a3/95/1ca395c82048e9a93d44ef2c0e56d502.png' style='float:left;width:25%;padding:20px' />
-
-
 
 #### The Raven Queen's influence
 The Raven Queen's desire to interfere with the affairs of the gods and her subsequent failure was taken as nothing less than treason by both Corellon and Lolth. As a result, the physical reality of her kingdom was shifted to the Shadowfell, and the memory of her existence was wiped from the minds of elves. Initially, no mortals knew of her, but over the centuries, those who have journeyed to the Shadowfell and those who have encountered shadar-kai in the world have seen, or heard tales of, a dark fortress, a mysterious figure surrounded by gaunt servants, and scores of seemingly sentient ravens.
@@ -1029,13 +967,6 @@ When shadar-kai are in the Shadowfell, their bodies and faces are old and wither
 
 **Immortal Servants**. The shadar-kai know that when they die, the Raven Queen captures their souls and returns them to the Shadowfell, where they are resurrected to serve her yet again. Thus, they consider death to be a temporary condition, and many shadar-kai care little for the physical shell they currently inhabit.
 
-
 Shadar-kai know that those who come willingly to the Raven Queen's tower are there to beseech her for something, and thus they try to prepare such visitors for what they will face. The queen's servants talk to any inquiring adventurer about the gravity of emotion, how sorrow weighs on the soul as it travels through the Shadowfell, and how best to persevere in the Raven Queen's test.
 
 **Follow the Ravens**. When the Raven Queen sees a soul or a piece of information she wants, she sends her ravens to alert the shadar-kai. Her minions then put their trust in these cryptic, cawing guides to lead them to where the barriers are weakest so they can then slip across planes to their destination. Once at their destination,  the shadar-kai watch and wait, looking for the tragedies their queen wishes them to collect. Sometimes they are small: a spurned lover, a lost item, a betrayal. But some tragedies are much graver: a murder, a war, a diabolical bargain. To bring back a trinket for their queen, the shadar-kai use their shadow magic. If a target is living, they magically infiltrate the person's mind and excise the desired bits of emotion, or if the target is close to death, the shadar-kai capture the whole soul to bring back to the Raven Queen.
-
-
-
-
-
-
