@@ -20,21 +20,13 @@ layout: default
 Given their insidious and deadly nature, creating, possessing and using poisons is highly illegal in most societies but is a still a favorite tool among assassins, drow, and other evil creatures. Illegality does not stop the existence of poisons, but it forces the prices up, making it very expensive. A black-market dealer or unscrupulous apothecary might keep a hidden stash and characters with criminal contacts might be able to acquire poison. Other characters might have to make extensive inquiries and pay bribes before they track down the poison they seek.
 
 ### Creating Poisons
-During downtime between adventures, a character can use the crafting rules in the *Player's Handbook* to create basic poison if the character has proficiency with a poisoner's kit At your discretion, the character can craft other kinds of poison. Not all poison ingredients are available for purchase, and tracking down certain ingredients might form the basis of an entire adventure.
+During downtime between adventures a character can use the *Alchemy - Prepare poisons* skill to create poisons. Not all poison ingredients are available for purchase, and tracking down certain ingredients might form the basis of an entire adventure.
 
 ### Poisoner’s Kit
-A poisoner’s kit is a favored resource for thieves, assassins, and others who engage in skulduggery. It includes glass vials, a mortar and pestle, chemicals, and a glass stirring rod. The kit allows you to apply poisons and create them from various materials. Your knowledge of poisons also helps you treat them, as well as some other things.
-
-* **History**. Your training with poisons can help you when you try to recall facts about infamous poisonings.
-* **Investigation, Perception**. Your knowledge of poisons has taught you to handle those substances carefully, giving you an edge when you inspect poisoned objects or try to extract clues from events that involve poison.
-* **Medicine**. When you treat the victim of a poison, your knowledge grants you added insight into how to provide the best care to your patient.
-* **Nature, Survival**. Working with poisons enables you to acquire lore about poisonous plants and animals.
-* **Handle Poison**. You can handle and apply a poison without risk of exposing yourself to its effects.
+A poisoner’s kit is a favored resource for thieves, assassins, and others who engage in skulduggery. It includes glass vials, a mortar and pestle, chemicals, and a glass stirring rod. The kit allows you to apply poisons and create them from various materials.
 
 ### Harvesting poisons
-A character can instead attempt to harvest poison from a poisonous creature, such as a snake, wyvern, or carrion crawler. The creature must be incapacitated or dead, and the harvesting requires 1d6 minutes followed by a DC 20 Intelligence (poisoner's kit) check. On a successful check, the character harvests enough poison for a single dose. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison.
-
-
+A character can instead attempt to harvest poison from a poisonous creature, such as a snake, wyvern, or carrion crawler. The creature must be incapacitated or dead, and the harvesting requires 1d6 minutes followed by a DC 15 Intelligence (*Nature*) check. On a successful check, the character harvests enough poison for a single dose. On a failed check, the character is unable to extract any poison. If the character fails the check by 5 or more, the character is subjected to the creature's poison.
 
 ## <a class="internal-link" name="internal-HarvestedPoisons">Harvested Poisons</a>
 
