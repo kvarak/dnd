@@ -6,7 +6,6 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### <a href="#internal-traits">Traits</a>
-##### <a href="#internal-feats">Feats</a>
 ##### <a href="#internal-class">Class options</a>
 
 </div>
@@ -40,12 +39,6 @@ Lacking any internal emotional reactions, lizardfolk behave in a distant manner.
 
 Lizardfolk lack meaningful emotional ties to the past. They assess situations based on their current and future utility and importance. Nowhere does this come through as strongly as when lizardfolk deal with the dead. To a lizardfolk, a comrade who dies becomes a potential source of food. That companion might have once been a warrior or hunter, but now the body is just freshly killed meat.
 
-
-
-
-
-
-
 A lizard folk who lives among other humanoids can, over time, learn to respect other creatures' emotions. The lizardfolk doesn't share those feelings, but instead assesses them in the same clinical manner. Yes, the fallen dwarf might be most useful as a meal, but hacking the body into steaks provokes aggression in the other humanoids and makes them less helpful in battle.
 
 The lizardfolk mindset might seem unnecessarily cruel, but it helps them survive in a hostile environment. The swamps they inhabit are filled with a staggering variety of threats. Lizardfolk focus on survival above all, without sentiment. Lizardfolk assess everyone and everything in terms of utility. Art and beauty have little meaning for them. A sharp sword serves a useful and good purpose, while a dull sword is a dead weight without a whetstone.
@@ -61,8 +54,6 @@ Lizardfolk take their names from the Draconic language. They use simple descript
 Lizardfolk make no distinction between male and female in their naming conventions. Each example name includes its translation in parenthesis.
 
  **Lizardfolk Names**: Achuak (green), Aryte (war), Baeshra (animal), Darastrix (dragon), Garurt (axe), Irhtos (secret), Jhank (hammer), Kepesk (storm), Kethend (gem), Korth (danger), Kosj (small), Kothar (demon), Litrix (armor), Mirik (song), Othokent (smart), Sauriv (eye), Throden (many), Thurkear (night), Usk (iron), Valignat (burn), Vargach (battle), Verthica (mountain), Vutha (black), Vyth (steel)
-
-
 
 ## <a class="internal-link" name="internal-traits">Lizardfolk traits</a>
 Your lizardfolk character has the following racial traits.
@@ -88,7 +79,7 @@ Your lizardfolk character has the following racial traits.
 
 - **Size**. Lizardfolk are a little bulkier and taller than humans, and their colorful frills make them appear even larger. Your size is Medium.
 
-- **Speed**. Your base speed is 30 feet.
+- **Speed**. Your base speed is 30 ft.
 
 - **Bite**. Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier.
 
@@ -96,7 +87,7 @@ Your lizardfolk character has the following racial traits.
 
 - **Cunning Artisan**. As a ritual, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.
 
-- **Hunter's Lore**. You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.
+- **Hunter's Lore**. Add the following skills to your class skills and gain 2 skill points to spend on them: Animal Handling, Nature, Perception, Stealth and Survival.
 
 - **Natural Armor**. You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.
 
@@ -112,7 +103,7 @@ The blackscale lizardfolk are the most primitive and bestial of the lizardfolk s
 
 <div class="columnsthree">
 
-- **Speed** You have a 30 foot swim speed.
+- **Speed** You have a 30 ft swim speed.
 
 - **Death Roll**. When grappling, you count as one size larger. Additionally, you have advantage on checks to prevent a grappled creature from escaping.
 
@@ -131,9 +122,9 @@ Frillneck lizardfolk are found along coastlines and close to rivers and lakes. T
 
 - **Size**. Slender and short, frillnecks are smaller than other lizardfolk.
 
-- **Hidden Frill**. You have a hidden, brightly colored frill folded over your neck. As a ***reaction***, when a creature makes an attack against you, you can unfurl your frill and hiss. The target must beat a contest between their Wisdom (Insight) check and your Charisma (Intimidation) check or waste the attack.
+- **Hidden Frill**. You have a hidden, brightly colored frill folded over your neck. As a ***reaction***, when a creature makes an attack against you, you can unfurl your frill and hiss. The target must beat a contest with their Wisdom (Insight) check against the result of your *Intimidation* check or waste the attack.
 
-  Once you use this feature, you can’t use it again until you finish a short rest.
+Once you use this feature, you can’t use it again until you finish a short rest.
 
 - **Venomous Glands and Flaring Sails**. You have glands in your mouth that you can use to spray poison against enemies. The poison counts as the *poison spray* cantrip. Constitution is your spellcasting ability for this spell.
 
@@ -144,9 +135,9 @@ Glider lizardfolk are found in mountain regions and among the highest treetops. 
 
 <div class="columnsthree">
 
-- **Speed**. You have a 20 foot climb speed.
+- **Speed**. You have a 20 ft climb speed.
 
-- **Glide**. You can flatten your body, stretching skin between your elongated ribs to slow your fall and allow for gliding. You fall at a rate of 70 feet a round, you take no damage from falls less than 100 feet, and half damage for any fall greater than 100 feet. You can also glide forward, moving 2 feet forward for every foot you fall.
+- **Glide**. You can flatten your body, stretching skin between your elongated ribs to slow your fall and allow for gliding. You fall at a rate of 70 ft a round, you take no damage from falls less than 100 ft, and half damage for any fall greater than 100 ft. You can also glide forward, moving 2 ft forward for every foot you fall.
 
 </div>
 
@@ -155,9 +146,9 @@ Found tropical rain forests, greenscales are perfect ambush predators. Their ski
 
 <div class="columnsthree">
 
-- **Chameleon Eyes**. Greenscales have large bulbous eyes which allow them to look in two different directions at once. You have proficiency with the Perception skill.
+- **Chameleon Eyes**. Greenscales have large bulbous eyes which allow them to look in two different directions at once. The *Perception - Sense-sight* skill cost 0 to you.
 
-- **Color Change**. Slowly moving allows you to focus on changing the color of your scales to match your background. If you move less than 5 feet this round, you gain advantage on Stealth checks. However, because your skin also reflects your emotional state, you always have disadvantage on Deception checks.
+- **Color Change**. Slowly moving allows you to focus on changing the color of your scales to match your background. If you move less than 5 ft this round, you gain advantage on *Stealth* checks. However, because your skin also reflects your emotional state, you always have disadvantage on *Deception* checks.
 
 </div>
 
@@ -168,7 +159,7 @@ Sandscale lizardfolk live in deserts that would inhospitable to most other races
 
 - **Desert Born**. The desert has bred you to be able to survive on minimal food and water. You can eat half-rations for 4 days or eat and drink nothing for 2 days before suffering levels of exhaustion. You suffer none of the ill effects of extreme heat. You can also expertly traverse the desert, giving you advantage on checks made to travel across, find food, and avoid obstacles desert areas.
 
-- **Desert Mirage** You have advantage on Stealth checks to hide in sandy or rocky terrain.
+- **Desert Mirage** You have advantage on *Stealth* checks to hide in sandy or rocky terrain.
 
 - **Venomous Bite**. Your produce a slowing toxin in your saliva. When you hit with your bite attack, you can choose to excrete venom. The targets takes an extra 1d4 poison damage and is reduced to half movement for the next 1d4 rounds. Once you use this feature, you can’t use it again until you finish a short rest.
 
@@ -186,105 +177,6 @@ These lizardfolk make their home in forests where they live high up in trees. Th
 - **Detachable Tail**. Your tail can come off, making for an excellent distraction. As a reaction to becoming grappled, you can detach your tail to comletely avoid it. If this is the result of an attack, the attack is a miss and deals no damage. In addition the attacker rolls attacks with disadvantage until the end of your next turn. You can't use this feature again until a week has passed.
 
 </div>
-
-
-## <a class="internal-link" name="internal-feats">Exclusive feats</a>
-The following feats are exclusive to lizardfolk:
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Alien Mind
-    Your mind is even more alien than most lizardfolk.
-
-    Increase your **Wisdom** score by 1.
-
-    Insight checks made against you have disadvantage.
-
-    You may reroll an Intelligence, Wisdom or Charisma saving throw. Once you use this feature, you can’t use it again until you finish a short rest.
-
-    </div>
-
--   <div class="feat">
-
-    ## Aquatic Hunter
-    *Prerequisite: Blackscale lizardfolk*
-
-    Your swimming talent develops, allowing you to swim with ease and ambush unsuspecting prey from the water.
-
-    Increase your **Strength** or **Constitution** score by 1.
-
-    You can breathe underwater as long as you are conscious.
-
-    You have advantage on Stealth checks made to hide underwater.
-
-    While in water, once per turn when you hit a creature with your bite attack, you may attempt to initiate a grapple.
-
-    </div>
-
--   <div class="feat">
-
-    ## Bite Fighter
-    You have practiced and honed your bite attack.
-
-    Increase your **Strength** or **Dexterity**  by 1.
-
-    The damage of your bite increases by one die size.
-
-    When you make a bite attack against a creature you have grappled or that is otherwise restrained, you have advantage on the attack roll.
-
-    If you hit an adjacent opponent with a melee weapon attack as part of an Attack action, you can use your ***bonus action*** to attack the same target with your bite.
-
-    </div>
-
--   <div class="feat">
-
-    ## Blood of The Komodo
-    *Prerequisite: Frillneck or sandscale lizardfolk*
-
-    Some species of lizardfolk have poisonous glands, that become stronger with time.
-
-    Increase your **Constitution** by 1.
-
-    You gain resistance to poison damage.
-
-    When dealing damage with your bite attack, add an extra 1d4 poison damage.
-
-    </div>
-
--   <div class="feat">
-
-    ## Prehensile Tail
-    *Prerequisite: Any lizardfolk, except treewalker*
-
-    Unlike others of your kin, your tail is much stronger and more flexible, allowing you to do things with it that others cannot.
-
-    Increase your **Strength** or **Dexterity** score by 1.
-
-    You have advantage on Acrobatics checks thanks to your stronger than average tail.
-
-    Your tail gains a reach of 5 feet, and can lift a number of pounds equal to 2 x your Strength score. You can use your tail to accomplish basic tasks such as: Lift, Drop, Hold, Push, or Pull an object/creature, Open/Close a door or container. Your tail cannot wield weapons, shields or do anything else that requires manual precision, like activating magical items or performing somatic components of spells.
-
-    </div>
-
--   <div class="feat">
-
-    ## Strong Tail
-    *Prerequisite: Any lizardfolk, except treewalker*
-
-    You have trained the muscles in your tail enough to use it as a weapon.
-
-    Increase your **Strength** by 1.
-
-    You gain proficiency with tail attacks which you can use to make unarmed strikes. If you hit, you deal bludgeoning damage equal to 1d6 + your Strength modifier.
-
-    You can use your tail attack as if you were wielding a secondary weapon, even if already wielding a two-handed weapon.
-
-    </div>
-
-</div>
-
 
 ## <a class="internal-link" name="internal-class">Class options</a>
 Lizardfolk approach some classes a bit different compared to other races. When you select a class, it is modified as follows:
@@ -361,7 +253,7 @@ Lizardfolk approach some classes a bit different compared to other races. When y
     <hr class="dividerinfolk">
 
 -   ### Ranger
-    The ranger is the epitome of self-sufficiency ansd suits lizardfolk well.
+    The ranger is the epitome of self-sufficiency and suits lizardfolk well.
 
     Whenever the Ranger class description mentions your Wisdom modifier you may instead your proficiency bonus. In addition, you may use the same modifier instead of Strength or Dexterity when attacking (attack and damage). Make this choice at level 1 and it cannot be changed later.
 
@@ -401,7 +293,7 @@ Lizardfolk approach some classes a bit different compared to other races. When y
     <hr class="dividerinfolk">
 
 -   ### Wizard
-    The lizardfolk tounge does not have a written form. Most lizard folk never come into contact with any writing, so wizards are extremely rare.
+    The lizardfolk tongue does not have a written form. Most lizard folk never come into contact with any writing, so wizards are extremely rare.
 
     <hr class="dividerinfolk">
 

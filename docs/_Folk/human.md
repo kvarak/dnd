@@ -55,7 +55,7 @@ It’s hard to make generalizations about humans, but your human character has t
 
 
 ## <a class="internal-link" name="internal-talents">Human Talents</a>
-Humans are adaptive, versatile and ambitious, and most humans are good at making the most of their strengths. you can spend 1 skill point to select one of the following talents when you create your character.
+Humans are adaptive, versatile and ambitious, and most humans are good at making the most of their strengths. You can spend 1 skill point to select one of the following talents when you create your character.
 
 <div class="columnstwo">
 
@@ -81,7 +81,7 @@ Humans are adaptive, versatile and ambitious, and most humans are good at making
 
     You may not have the intellectual capacity to learn many different subject like a typical human, instead you excel in a just one particular area.
 
-    Choose any one Knowledge skill. When rolling an Intelligence ability check with skill, you can use +5 instead of your Intelligence modifier.
+    Choose any one Knowledge skill. When rolling an Intelligence ability check with this skill, you can use +5 instead of your Intelligence modifier.
 
 -   ### Ingenious
     You have always been one of the sharper knifes in the drawer, able to quickly learn what you need to overcome adversity.
