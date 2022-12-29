@@ -17,12 +17,6 @@ layout: default
 <a href="#internal-shark">Seascarred (wereshark-kin)</a>
 
 ##### <a href="#internal-class">Class Options</a>
-##### <a href="#internal-feats">Exclusive Feats</a>
-
-<!-- - **Catfolk class archetypes**
-  - <a href="#internal-skinchanger">Barbarian path of the Skinchanger</a>
-  - <a href="#internal-moonstalker">Monstalker ranger conclave</a> -->
-
 </div>
 
 # Shifter
@@ -63,8 +57,6 @@ Self-reliance has long been the most important virtue in the shifter mind. The g
 
 The life of an adventurer is particularly suited to remaining ready for an unexpected trial or journey and particularly prone to having such events occur. Many shifters find themselves embarking on adventuring careers after something happens to disrupt their everyday routines—a monstrous incursion into their village or forest, for example, or a guide job gone sour.
 
-
-
 Although they are not nomads, shifters prefer simple, well-made items that they can carry with them in a pinch. Even when they have permanent homes of their own, most shifters keep a simple pack loaded and ready for travel. Individual shifters prepare for the journey yet to come in varying ways. Some talk about it often; some remain reticent. Whether they discuss it openly with their traveling companions or not, shifters strive to make sure that their possessions are portable. They favor a small number of well-made weapons and pieces of armor over many lower quality items, even if the larger number of items equates to more overall value.
 
 #### Shifter Names
@@ -93,9 +85,9 @@ Your shifter character has an assortment of inborn abilities.
 
 - **Size**. Your size is Medium.
 
-- **Speed**. Your base speed is 30 feet.
+- **Speed**. Your base speed is 30 ft.
 
-- **Low-light Vision**. Thanks to your lycanthrope heritage, you have superior vision. You can see in dim light as if it were bright light, and an additional 30 feet into darkness as if it were dim light.
+- **Low-light Vision**. Thanks to your lycanthrope heritage, you have superior vision. You can see in dim light as if it were bright light and an additional 30 ft into darkness as if it were dim light.
 
 - **Heritage**. Several variants of shifter exist, each with its own animalistic features. Each of these shifter variants has some associated minor behavior that most of its members exhibit.
 
@@ -122,30 +114,15 @@ Bloodmarked are generally tall and slight, with dark hair and severe features. P
 
 <div class="columnsthree">
 
-- **Keen Senses**. You have advantage on Perception checks that rely on hearing.
+- **Keen hearing**. The *Perception - Sense-hearing* skill costs 0 to you.
 
--   **Bloodmarked Shifting**. While shifted, you have advantage on Dexterity ability checks and gain the ability to utter an ultrasonic shriek, audible only to creatures with heightened senses. You can use with a ***bonus action*** as a ranged attack, dealing 1d6 thunder damage, as well as granting blindsense to a range of 30 feet.
+-   **Bloodmarked Shifting**. While shifted, you have advantage on Dexterity ability checks and gain the ability to utter an ultrasonic shriek, audible only to creatures with heightened senses. You can use with a ***bonus action*** as a ranged attack, dealing 1d6 thunder damage, as well as granting blindsense to a range of 30 ft.
 
     At 11th level your shriek deals 2d6 thunder damage.
 
     In addition you grow a membrane between your arms and body, that allows you to glide in the air for short distances, granting the following benefits:<br/>
-    -- You add 5 feet to your long jump distance and 2 feet to your high jump distance. In addition, when you take the dash action, your speed is increased by 5 feet for that action.<br/>
-    -- Functions as the *feather fall* spell, but also allows you to move up to 5 feet in any horizontal direction for every 1 foot you fall.
-
--   #### Heritage Feats
-    The following feat is exclusive to bloodmarked shifters:
-
-    <div class="feat">
-
-    ## Bat shape
-    Your power of transformation have been honed to the point where you can wholly become a bat.
-
-    Your **Wisdom** score increases by 1.
-
-    Instead of shifting into your bestial form, you can shift into a bat. This functions as the druid’s Wild Shape, except you can only become a bat, and for all references to druid level, use your character level.
-
-    </div>
-
+    -- You add 5 ft to your long jump distance and 2 ft to your high jump distance. In addition, when you take the dash action, your speed is increased by 5 ft for that action.<br/>
+    -- Functions as the *feather fall* spell, but also allows you to move up to 5 ft in any horizontal direction for every 1 ft you fall.
 </div>
 
 
@@ -220,13 +197,11 @@ Longtooth shifters are often passionate and intimidating. Their first transforma
 
 The latter often turn for inspiration to the legends of the Hounds of Good, rare and blessed longtooth shifters who retain human dignity and virtue despite their lycanthropic heritage. Such goodly longtooth shifters form cabals dedicated to defending a particular area from fiends, evil lycanthropes, and other monsters, or start adventuring parties that seek out their sworn enemies wherever they can be found.
 
-
-
 Like their werewolf relatives, longtooth shifters are feared and despised for the savagery that characterizes the majority of their kind, and not without reason. While not all are monsters, certainly many werewolf-kin bands are happy enough to rob and murder fellow travelers who will not be missed or hire themselves out as mercenaries.
 
 <div class="columnsthree">
 
-- **Keen Senses**. You have advantage on Perception checks that rely on smell or hearing.
+- **Keen Senses**. The *Perception - Sense-hearing* and *Perception - Sense-smell* skills costs 0 to you.
 
 -  **Longtooth Shifting**. When you shift, you grow long fangs which function as a light weapon dealing 1d6 piercing damage. You may attack with your fangs as a ***bonus action***. Once per round when you deal damage to a foe with your fangs, you may gain 1d6 temporary hit points  that last for 1 minute.
 
@@ -252,7 +227,7 @@ As a result of their close association with pests, wererat-kin are often erroneo
 
 <div class="columnsthree">
 
-- **Keen Senses**. You have advantage on Perception checks that rely on smell.
+- **Keen Senses**. The *Perception - Sense-smell* skill costs 0 to you.
 
 - **Vermin Blood**. You have advantage on saving throws against poison and disease.
 
@@ -304,7 +279,7 @@ Most dwell in low buildings near the water's edge, either alone or with a few of
 
 <div class="columnsthree">
 
-- **Aquatic Grace**. Even in human form, you are as at home in the water as you are on land. You have prificiency with Swimming, and have advantage on all such checks. In addition you have swim speed equal to your land speed and can hold your breath for twice as long as normal.
+- **Aquatic Grace**. Even in human form, you are as at home in the water as you are on land. Add *Swimming* to your class skills if not already there, and gain 1 skill point to spend on that skill. In addition you have swim speed equal to your land speed and can hold your breath for twice as long as normal.
 
 - **Scaleheart Shifting**. When you shift, you grow sharp teeth which function as a light weapon dealing 1d6 piercing damage. You may attack with your jaws as a ***bonus action***. In addition, you skin becomes scaly, granting an AC of 14 + Dexterity.
 
@@ -329,7 +304,7 @@ Their first transformation is commonly triggered by the first serious injury the
 
 - **Ability Score Increase**. Your Strength ability score, both current and maximum, increase by 2.
 
-- **Aquatic Grace**. Even in human form, you are as at home in the water as you are on land. You have prificiency with Swimming, and have advantage on all such checks. In addition you have swim speed equal to your land speed and can hold your breath for twice as long as normal.
+- **Aquatic Grace**. Even in human form, you are as at home in the water as you are on land. Add *Swimming* to your class skills if not already there, and gain 1 skill point to spend on that skill. In addition you have swim speed equal to your land speed and can hold your breath for twice as long as normal.
 
 - **Seascarred Shifting**. When you shift, you grow gills, allowing you to breathe underwater. In addition, you grow sharp teeth which function as a light weapon dealing 1d6 piercing damage. You gain a bonus to bite damage rolls against creatures below half hit points, equal to your proficiency bonus. You may attack with your jaws as a ***bonus action***.
 
@@ -339,62 +314,6 @@ Their first transformation is commonly triggered by the first serious injury the
 
 </div>
 
-
-
-
-
-
-## <a class="internal-link" name="internal-feats">Exclusive feats</a>
-The following feats are exclusive to shifters:
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Bite Fighter
-    *Prerequisite: Bite attack*
-
-    You have practiced and honed your bite attack.
-
-    Increase your **Strength** or **Dexterity**  by 1.
-
-    The damage of your bite increases by one die size.
-
-    When you make a bite attack against a creature you have grappled or that is otherwise restrained, you have advantage on the attack roll.
-
-    </div>
-
--   <div class="feat">
-
-    ## Embraced Heritage
-    You have fully embraced your heritage.
-
-    Increase an ability score of your choice by 1.
-
-    Revealing your inner beast can shake mere humans to their cores. Any target that witnesses your shifting and has not seen this type of transformation before, must succeed at a Wisdom save against a DC of 8 + your proficiency bonus + your Charisma bonus, or be frightened of you. They are allowed a new save at the end of each of their turns.
-
-    Even if you teeth and claws are not strong enough to be used in combat, they can still do some damage to a close enough enemy. As a ***reaction*** when you are grappled or dealt damage while grappled, you may deal 1d6 + Str modifier slashing damage to your grappler.
-
-    Your lycanthropic heritage may be considered a curse, but it has given you an innate defense against baleful magic. You have advantage on saving throws against curses and curse effects.
-
-    </div>
-
--   <div class="feat">
-
-    ## Shifter Senses
-    *Prerequisite: Keen senses*
-
-    Your shifter-enhanced instincts and senses allow you to detect concealed and invisible creatures.
-
-    Increase your ***Wisdom*** score by 1.
-
-    You gain proficiency with the Perception skill. If you already have proficiency, you instead have advantage on all such checks.
-
-    While shifted, you gain blindsight out to a range of 15 feet.
-
-    </div>
-
-</div>
 
 ## <a class="internal-link" name="internal-class">class options</a>
 Shifters are to large extent humans, and approach most classes as humans would. Use the <a href="human.html#internal-class">same class options as humans</a>. In addition, classes are modified as follows:
