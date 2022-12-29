@@ -7,13 +7,10 @@ layout: default
 
 ##### <a href="#internal-traits">Traits</a>
 ##### <a href="#internal-appearance">Appearance</a>
-##### <a href="#internal-feat">Feats</a>
 ##### <a href="#internal-class">Class options</a>
-
 </div>
 
 # Tiefling
-
 Tieflings are humans with demonic, devilish, or other evil outsider blood in their ancestry. Often persecuted for their strange appearance and unnatural mannerisms, most tieflings disguise their nature or are forced to live on the fringes or underbelly of civilized society. Though they are not born evil, it is an easy path for them to find, especially as most suffer at the hands of “normal” folks while growing up. Tieflings look mostly human except for some physical traits that reveal their strange heritage.
 
 Tieflings don’t have a unified culture, and have found it wise to conceal their nature. Their tainted blood usually makes them outcasts of human society. Sometimes they group together for mutual protection in roving bands or wilderness forts, but usually they are seen alone and wandering. Tieflings always have distinctive marks or traits that make them stand out from normal humans.
@@ -29,8 +26,6 @@ Lacking a homeland, tieflings know that they have to make their own way in the w
 Tieflings lack even a common appearance to draw them together as a folk. It is said that no two tieflings look exactly alike; like fingerprints, each tiefling’s unique appearance marks him indelibly.
 
 Most tieflings display all their unusual traits at birth, but some are born resembling their mortal parents only to develop their fiendish qualities months, even years, later. In many regions, the appearance of a fiend-tainted child is reason enough to put the creature to death—and often the mother as well. In lands where the origins of tieflings are better understood, such births are mourned but don’t always end in murder. The grim circumstances of tiefling births mean that many, tieflings don’t survive their earliest days, a sorry condition that many pessimistic tieflings consider a blessing.
-
-
 
 By the time they have grown to adolescence, all tieflings display at least one physical reflection of their fiendish ancestry. For the lucky, such traits prove so minor as to allow the tiefling to pass as a human or member of another exotic race. Most, though, are so clearly marked it is impossible to hide their nature without the help of elaborate disguises or magic. Fortunately, most tieflings develop supernatural abilities to aid them in their difficult lives. The dramatic changes a tiefling undergoes are almost secondary, however, to the mental stress such a transformation brings.
 
@@ -62,9 +57,9 @@ Tieflings share certain traits as a result of their fiendish descent.
 
 - **Size**. Tieflings are about the same size and build as humans. Your size is Medium.
 
-- **Speed**. Your base speed is 30 feet.
+- **Speed**. Your base speed is 30 ft.
 
-- **Low-light Vision**. Thanks to your fiendish heritage, you have superior vision. You can see in dim light as if it were bright light, and an additional 30 feet into darkness as if it were dim light.
+- **Low-light Vision**. Thanks to your fiendish heritage you have superior vision. You can see in dim light as if it were bright light and an additional 30 ft into darkness as if it were dim light.
 
 - **Tiefling Appearance**. Roll twice on the <a href="#internal-appearance">special appearance</a> table below.
 
@@ -217,55 +212,7 @@ Roll twice on the special appearance tables below.
 
 </div>
 
-
-## <a class="internal-link" name="internal-feat">Tiefling feats</a>
-The following feats are exclusive to tieflings:
-
-<div class="columnsthree">
-
--   <div class="feat">
-
-    ## Flames of Phlegethos
-    You learn to call on hellfire to serve your commands.
-
-    Increase your **Intelligence** or **Charisma** score by 1.
-
-    When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.
-
-    Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage.
-
-    </div>
-
--   <div class="feat">
-
-    ## Grasping Tail
-    *Prerequisite: Tiefling with a tail.*
-
-    Your tail becomes more useful.
-
-    Your **Dexterity** score increases by 1.
-
-    Many tieflings have tails, but you have a long, flexible tail that can be used to carry items. While you cannot wield weapons with your tail, you can use it to grab unattended items within 5 feet, carry small items such as a torch, or grab stowed objects carried on your person. The tail gives you an extra item action each round.
-
-    </div>
-
--   <div class="feat">
-
-    ## Infernal Constitution
-    Fiendish blood runs strong in you.
-
-    Increase your **Constitution** by 1.
-
-    You have resistance to cold and poison damage.
-
-    You have advantage on saving throws against being poisoned.
-
-    </div>
-
 - <img src='https://lh4.googleusercontent.com/vX33UNBjiN5F91E4GcRcV9fjBWDeuy_4UapMu85aNXl-B1Gr9CSCRVSAn0MTqDrw_icgE-vhWZAth1NQujy7wR8D0i9puEPT3CLmqp2G5beDRUPcFvgKmtwlU6_pjpYjdmOwfdsp' style='width:75%;padding:20px' />
-
-
-</div>
 
 
 
@@ -319,7 +266,7 @@ An tiefling approaches some classes is a bit different than other races. When yo
     <hr class="dividerinfolk">
 
 -   ### Feyblood
-    An Assimar can not become a Feyblood. If your Fey heritage is stronger than your fiendish, you will be born a regular human instead.
+    A tiefling can not become a Feyblood. If your Fey heritage is stronger than your fiendish, you will be born a regular human instead.
 
     <hr class="dividerinfolk">
 
