@@ -72,13 +72,13 @@ Your gnome character has certain characteristics in common with all other gnomes
 
 - **Alignment**. Gnomes are most often good. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.
 
-- **Size**. Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.
+- **Size**. Gnomes are between 3 and 4 ft tall and average about 40 pounds. Your size is Small.
 
-- **Speed**. Your base speed is 25 feet.
+- **Speed**. Your base speed is 25 ft.
 
-- **Low-light Vision**. Accustomed to living in dark burrows, you have superior vision. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+- **Low-light Vision**. Accustomed to living in dark burrows, you have superior vision. You can see in dim light as if it were bright light and an additional 60 ft into darkness as if it were dim light.
 
-- **Gnome Cunning**. You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
+- **Gnome Cunning**. You have advantage on all Intelligence and Charisma saving throws against magic.
 
 - **Subtype**. There are three types of gnomes; forest gnomes, rock gnomes (also known as tinker gnomes), and the more uncommon deep gnome.
 
@@ -97,39 +97,9 @@ The rare and secretive forest gnomes, have a natural knack for illusion and inhe
 
 - **Natural Illusionist**. You know the *minor illusion* cantrip. Wisdom is your spellcasting ability for it.
 
-- **Speak with Small Beasts**. Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.
+- **Speak with Small Beasts**. Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Gain the *Animal Handling - Forest animals* skill. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.
 
 </div>
-
-<h3><a class="internal-link" name="internal-forestfeats">Forest Gnome Feats</a></h3>
-
-Your forest gnome character has access to the following special feats.
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Critter Friend
-    Your friendship with animals mystically deepens.
-
-    Increase your **Wisdom** score by 1.
-
-    You gain proficiency with Animal Handling. If already proficient, you instead have advantage on all check made with the skill.
-
-    You learn the *speak with animals* spell and can cast it at will without expending a spell slot. You also learn the *animal friendship* spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Wisdom is your spellcasting ability for these spells.
-
-    </div>
-
--   <div class="feat">
-
-    ## Fade Away
-    You can draw on your magical heritage to escape danger.
-
-    Increase your **Wisdom** score by 1.
-
-    When you take damage, you can use a ***reaction*** to magically become invisible until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short rest.
-
-    </div>
 
 - <img src='http://4.bp.blogspot.com/-ZoPK7hJMDP4/T1LaEqgMKpI/AAAAAAAACZM/y-F5CEWcu_g/s1600/Lini+-+Druid.png' style='width:80%;padding:20px' />
 
@@ -153,24 +123,23 @@ A constant hum of busy activity pervades the warrens and neighborhoods where the
 
 - **Languages**. You know Common and Gnomish. The Gnomish language is renowned for its technical treatises and its catalogs of knowledge about the natural world.
 
-- **Artificer's Lore**. Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you have advantage.
+- **Artificer's Lore**. Whenever you make an *History* check related to magic items, alchemical objects or technological devices, you have advantage.
 
-- **Tinker**. You have proficiency with tinker's tools. Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.
+- **Tinker**. Gain the skill *Engineering - Tinkering - Gnomish tinkering* and all its prerequisites. Using a set of tinker's tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.
 
   When you create a device, choose one of the following:
 
--  -- ***Bouncing Boots***. A pair of metal-reinforced boots with multiple coils and a ratchet-system between a steel innersole and a leather-bottomed outer sole, bouncing boots are guaranteed to add a spring to anyone’s step. Using them requires unlocking them by hand and jumping upwards to ‘prime them’. Six seconds after landing, the timed ratchet releases and the coils unwind violently, propelling the wearer 15 feet. A successful untrained Athletics (Dexterity) check against DC 10 allows the wearer to guide this sudden movement in any direction desired; otherwise the jump occurs in a random direction. Colliding with a solid object larger than the wearer during a jump results in 1d6 points of damage. When the user lands, he must spend his next round relocking the boots. Failure to do so results in another 15-foot jump the next round.
+-  -- ***Bouncing Boots***. A pair of metal-reinforced boots with multiple coils and a ratchet-system between a steel innersole and a leather-bottomed outer sole, bouncing boots are guaranteed to add a spring to anyone’s step. Using them requires unlocking them by hand and jumping upwards to ‘prime them’. Six seconds after landing, the timed ratchet releases and the coils unwind violently, propelling the wearer 15 ft. A successful *Acrobatics* check against DC 10 allows the wearer to guide this sudden movement in any direction desired; otherwise the jump occurs in a random direction. Colliding with a solid object larger than the wearer during a jump results in 1d6 points of damage. When the user lands, he must spend his next round relocking the boots. Failure to do so results in another 15 ft jump the next round.
 
--  -- ***Clockwork Toy***. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
+-  -- ***Clockwork Toy***. This toy is a clockwork animal, monster or person, such as a frog, mouse, bird, dragon or soldier. When placed on the ground, the toy moves 5 ft across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
 
--  -- ***Fire Starter***. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your ***action***.
+-  -- ***Fire Starter***. The device produces a miniature flame, which you can use to light a candle, torch or campfire. Using the device requires your ***action***.
 
 -  -- ***Music Box***. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.
 
 -  -- ***Shield, Retractable***. Due to the ingenuity of gnomes, the retractable shield has come from the depths of imagination to the reality of the battlefield. Though it initially appears to be the size of a buckler, the retractable shield can be expanded with the pulling of a release key. Upon release the fans that make up the retractable shield spread out and become a large shield. Retractable shields require one minute to retract to their original state and this is done by turning the key until the fans that make up the shield lock into place.
 
 -  -- ***Shield, Widowmaker***. This strange, gnomish device appears to be an ordinary shield with pyramidlike protrusions around the periphery. The shield works similarly to a bear trap in that, when the shield is struck and the character releases the trip-cord, it snaps shut. Thus, if an opponent misses the bearer of a widowmaker shield by two or less on an attack roll, the character may choose to release the trip-cord and have the shield attempt to close on the opponent’s weapon. The opponent must make a Dexterity save (DC 10) or have the item they were wielding become trapped in the shield’s grip (Strength check DC 10 to break the widowmaker’s grip). If the opponent was using his bare fist to strike at the character with the widowmaker and they fail their save, their hand becomes trapped instead. Once a widowmaker shield is triggered the character loses the AC bonus from the shield. A widowmaker shield takes one minute to reset.
-
 </div>
 
 
@@ -216,50 +185,11 @@ Svirfneblin believe that survival depends on avoiding entanglements with other c
 
 - **Darkvision**. For 30 ft around you, you can see in darkness as if it were dim light. You can't discern color in darkness, only shades of grey.
 
-- **Stone Camouflage**. You have advantage on Dexterity (stealth) checks to hide in rocky terrain.
+- **Stone Camouflage**. You have advantage on *Stealth* checks to hide in rocky terrain.
 
 </div>
 
-### Deep gnome Feats
-Your deep gnome character has access to the following special feat.
-
-<div class="columnstwo">
-
-- <img src='https://i.pinimg.com/originals/2c/90/26/2c9026f388484b38d3b0ccf07e32bf06.png' style='width:80%;padding:20px' />
-
--   <div class="feat">
-
-    ## Pickaxe Mastery
-    Your time spent wielding a pickaxe allows you to wield it with devastating efficiency.
-
-    Your **Dexterity**  or **Strength** score increases by 1.
-
-    You are proficient with pickaxes and can use tham as if they had the finesse and versatile properties, dealing 1d8 piercing damage (1d10 when used with two hands).
-
-    Whenever you attack with a pickaxe, you can swing wildly, causing your attack to have disadvantage. If you hit, you deal additional damage equal to double your proficiency bonus.
-
-    Whenever you have disadvantage on an attack roll you make with a pickaxe, the target still takes piercing damage equal to your Strength or Dexterity modifier (your choice) if the attack misses but the higher of the two d20 rolls would have hit.
-
-    </div>
-
--   <div class="feat">
-
-    ## Svirfneblin Magic
-    You have inherited the innate spellcasting ability of your ancestors.
-
-    Your **Charisma**, **Intelligence** or **Wisdom** score increases by 1.
-
-    You can cast *nondetection* on yourself at will, without needing a material component.
-
-    You can cast each of the following spells once: *blindness/deafness, blur*, and *disguise self*. You regain the ability to cast these spells when you finish a long rest.
-
-    Choose Intelligence, Wisdom or Charisma as your spellcasting ability for these spells. The spells are cast at their lowest possible levels.
-
-    </div>
-
-</div>
-
-
+<img src='https://i.pinimg.com/originals/2c/90/26/2c9026f388484b38d3b0ccf07e32bf06.png' style='width:80%;padding:20px' />
 
 
 
@@ -567,8 +497,6 @@ a number of useful substances, such as alchemist's fire,
 antitoxin, super slippery goo, stone melting compound,
 stirge repellent, and glow-in-the-dark paint.
 
-
-
 #### Artificers
 Rock gnome artificers construct exquisitely tooled and
 enameled pieces of machinery, often weaving magical
@@ -627,9 +555,6 @@ it's much safer for them to stay in their homes, since a
 gnome wandering the streets deep in thought is liable to
 walk into a moat or be run over by a wagon.
 
-
-
-
 ## <a class="internal-link" name="internal-forestGnomes">Forest Gnomes</a>
 As the companions of nature and its animals, forest
 gnomes learn from their surroundings as if from a master
@@ -670,8 +595,6 @@ openings are used for their cleverly hidden chimneys,
 disguised as tree branches, which carry smoke from
 their small fires high into the treetops, reducing it to little
 more than a haze before it disperses.
-
-
 
 <img src='https://vignette.wikia.nocookie.net/confanon/images/c/c9/Forest_Gnome.gif/revision/latest?cb=20110805161434' style='float:right;width:30%;padding:20px' />
 
@@ -777,15 +700,12 @@ into the cavern walls, are strung with hammocks for
 each inhabitant, but often are otherwise empty except
 for stone coffers holding a few personal effects.
 
-
-
 #### Scouts and Spies
 Surface-dwelling gnomes often take up the adventurer's life out of sheer curiosity about the world around them, eager to see new things and meet new people. By comparison, most svirfneblin possess very little wanderlust and rarely travel far from home. They see the surface world as a bewildering place without boundaries and filled with unknown dangers.
 
 Nevertheless, a few svirfneblin understand that it is necessary to know something about what is happening on the surface near their hidden refuges. As a result, some svirfneblin become scouts, spies, or messengers who venture abroad, doing their best to avoid attention. These travelers are notoriously close-mouthed about where they come from and what they are up to, but a few eventually learn to trust good-hearted people of the surface world.
 
 A few svirfneblin become merchants who deal with other races both above and below ground. Drow, duergar, and other peoples know that svirfneblin are usually neutral in outlook and typically honest in their dealings. Serving as middlemen between races too hostile to deal with each other directly can be lucrative, and it serves an important defensive function; svirfneblin middlemen tend to know more about rumors and threats between rival merchants than anybody else.
-
 
 ## <a class="internal-link" name="internal-gnomeGods">Gnome Gods</a>
 > *"Who forged the chains that bind Tiamat in Avernus? Why do the modrons go on the Great March? Who is the Lady of Pain, really? I can't tell you. but the answers lie in the Colden Hills. And if Carl and his gang don't know, it can't be known."*
@@ -888,7 +808,6 @@ in a certain direction, or even manifest an avatar in the
 middle of a gnome burrow. When Garl makes one of
 these rare appearances, it is to resolve a dispute that
 threatens a community.
-
 
 **Brains over Brawn**. Garl favors trickery and illusion
 over direct combat, preferring to use his mind to overcome
@@ -1012,7 +931,6 @@ Any accident that fortuitously results in a new discovery
 might be credited to Nebelun's benevolent meddling in
 the affairs of mortal gnomes.
 
-
 <h4><a class="internal-link" name="internal-SegojanEarthcaller">Segojan Earthcaller</a></h4>
 
 The gnomes know Segojan Earthcaller as a kind,
@@ -1068,7 +986,6 @@ with others, and so tales of Urdlen serve as a somber
 reminder of the importance of participating in society.
 
 
-
 ## <a class="internal-link" name="internal-gnomeAdventurers">Gnome Adventurers</a>
 > *"I don't know how many times I've seen a gnome turn a dead end into a wonderful opportunity."*
 >
@@ -1107,7 +1024,6 @@ world and don't come back on schedule, returning to the
 burrow only after spending years or decades away as a
 member of an adventuring party.
 
-
 #### The pull of the stars
 Because of their extensive travels, gnome adventurers
 often become fascinated with the grandeur of the
@@ -1132,8 +1048,6 @@ a dungeon expedition, if not lost in thought, can steer a
 party clear of many obstacles. Even the most complex
 magical or mechanical traps can be disarmed by a rock
 gnome who takes pride in solving difficult puzzles.
-
-
 
 A forest gnome's skills are invaluable in the wilderness.
 Forest gnomes can spot subtle tracks, uncover
