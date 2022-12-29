@@ -7,13 +7,9 @@ layout: default
 
 ##### <a href="#internal-traits">Traits</a>
 ##### <a href="#internal-class">Class Options</a>
-##### <a href="#internal-feats">Exclusive Feats</a>
-
 </div>
 
-
 # Half-Orc
-
 The original orcs were created by the one-eyed god Gruumsh at the dawn of this world. They are one of the first intelligent beings that lived here, together with the dragons, dwarves and lizardfolk, even though intelligent might be stretching it.
 
 Gruumsh created the orcs in his image, a brutish, aggressive and savage folk, that only knew conquering and breeding. Their only purpose was to destroy and to make the world theirs. The god was a controlling god, never letting his creations any amount of freedom, instantly smiting those who disobeyed or were different from his vision.
@@ -67,13 +63,13 @@ Your half-orc character has certain traits deriving from your orc ancestry.
 
 - **Languages**. You know Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own.
 
-- **Size**. Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.
+- **Size**. Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 ft tall. Your size is Medium.
 
-- **Speed**. Your base speed is 30 feet.
+- **Speed**. Your base speed is 30 ft.
 
-- **Low-light Vision**. Thanks to your orc blood, you have superior vision. You can see in dim light as if it were bright light, and an additional 60 feet into darkness as if it were dim light.
+- **Low-light Vision**. Thanks to your orc blood, you have superior vision. You can see in dim light as if it were bright light, and an additional 60 ft into darkness as if it were dim light.
 
-- **Menacing**. You gain proficiency with Intimidation.
+- **Menacing**. All *Intimidation* skills cost 0 to you.
 
 - **Relentless Endurance**. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.
 
@@ -91,9 +87,9 @@ In addition you can choose (or roll with 20% chance each) any of the following t
 
 <div class="columnsthree">
 
-- **Ironguts**: Orcs eat almost exclusively meat, and can even eat meat on the edge of rotting. You have inherited the strong stomach from your orcish ancestry, allowing you to roll all saving throws against ingested poisons with advantage. However, this has also killed your sense of taste, causing you to have disadvantage on all perception checks concerning taste or smell.
+- **Ironguts**: Orcs eat almost exclusively meat, and can even eat meat on the edge of rotting. You have inherited the strong stomach from your orcish ancestry, allowing you to roll all saving throws against ingested poisons with advantage. However, this has also killed your sense of taste, causing you to have disadvantage on all *Perception* checks concerning taste or smell.
 
-- **Razortusk**: Your powerful jaws and steely teeth are deadly enough to give you a bite attack. The attack deals 1d4 + your Strength modifier piercing damage and you are considered proficient. This also gives you a more fearsome appearance, causing you to have disadvantage on all Charisma skill checks, except Intimidate, against non-orcs.
+- **Razortusk**: Your powerful jaws and steely teeth are deadly enough to give you a bite attack. The attack deals 1d4 + your Strength modifier piercing damage and you are considered proficient. This also gives you a more fearsome appearance, causing you to have disadvantage on all Charisma ability checks, except Intimidation, against non-orcs.
 
 </div>
 
@@ -232,7 +228,7 @@ A half-orc approaches some classes is a bit different than other races. When you
     <div class="feat">
 
     ## Brute force
-    You gain proficiency with all bludgeoning weapons, and can perform sneak attacks with any such weapon, even if it lacks the *finesse* property.
+    You gain rank with the *Club* weapon group and can perform sneak attacks with such weapons, even if it lacks the *finesse* property.
 
     In addition you can use the bonus action granted by *cunning action* to make a Strength  check to grapple or shove an opponent within reach.
 
@@ -257,7 +253,7 @@ A half-orc approaches some classes is a bit different than other races. When you
     <hr class="dividerinfolk">
 
 - ### Swashbuckler
-    Half-orcs are usually too large and bulky to choose this way of life. So you are either a very lithe half-orc, or an extremely confident and/or lucky half-orc, maybe a little stupid as well. Select on of the following:
+    Half-orcs are usually too large and bulky to choose this way of life. So you are either a very lithe half-orc or an extremely confident and/or lucky half-orc, maybe a little stupid as well. Select on of the following:
 
     If you are a half-orc of smaller stature, with gloves and a hood you could probably pass yourself of as a human.
 
@@ -276,33 +272,6 @@ A half-orc approaches some classes is a bit different than other races. When you
     <hr class="dividerinfolk">
 
 </div>
-
-
-## <a class="internal-link" name="internal-feats">Half-Orc Feats</a>
-
-The following feats are exclusive to half-orcs:
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Bite Fighter
-    *Prerequisite: Razortusk racial trait*
-
-    You have practiced and honed your bite attack. You gain the following benefits with this feat:
-
-    Increase your **Strength** or **Dexterity** score by 1.
-
-    The damage of your bite attack increases by one die size (i.e., d6 increases to d8, d4 to d6, d3 to d4, etc.).
-
-    When you make a bite attack against a creature you have grappled or that is otherwise restrained, you have advantage on the attack roll.
-
-    If you hit an adjacent opponent with a melee weapon attack as part of an Attack action, you can use your ***bonus action*** to attack the same target with your bite.
-
-    </div>
-
-</div>
-
 
 
 
