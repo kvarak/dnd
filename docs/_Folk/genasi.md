@@ -20,8 +20,6 @@ Those who think of other planes at all consider them remote, distant realms, but
 
 The powerful genies, however, don't face such troubles when venturing into the mortal world. They adapt well to the mingled elements of the Material Plane, and they sometimes visit—whether of their own volition or compelled by magic. Some genies can adopt mortal guise and travel incognito. During these visits, a mortal might catch a genie's eye. Friendship forms, romance blooms, and sometimes children result. These children are genasi: individuals with ties to two worlds, yet belonging to neither. Some genasi are born of mortal–genie unions, others have two genasi as parents, and a rare few have a genie further up their family tree, manifesting an elemental heritage that's lain dormant for generations.
 
-
-
 Occasionally, genasi result from exposure to a surge of elemental power, through phenomena such as an eruption from the Inner Planes or a planar convergence. Elemental energy saturates any creatures in the area and might alter their nature enough that their offspring with other mortals are born as genasi.
 
 <img src='https://vignette.wikia.nocookie.net/criticalrole/images/1/11/Genasi.png' style='float:left;width:50%;padding:20px' />
@@ -56,9 +54,9 @@ Your genasi character has certain characteristics in common with all other genas
 
 - **Languages**. You know Common and an additional language appropriate to your background.
 
-- **Size**. Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium.
+- **Size**. Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 ft to over 6 ft tall. Your size is Medium.
 
-- **Speed**. Your base speed is 30 feet.
+- **Speed**. Your base speed is 30 ft.
 
 - **Elemental connection**: There are four major variants of genasi. Choose one of air, earth, fire and water.
 
@@ -70,7 +68,6 @@ Your genasi character has certain characteristics in common with all other genas
 When you select one of the following classes as a genasi, the following changes are made. In addition, each type of genasi might have additional changes.
 
 <div class="columnstwo">
-
 
 - #### Cleric
     Genasi sometime choose to completely dedicate themselves to worship of the elemental plane of their ancestors and the powerful creatures ruling those planes. If you are one of those, you have the Tempest (air), Desert or Forge (earth), Light (fire) or Ocean (water) domain. In addition whenever the Cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
@@ -113,10 +110,6 @@ When you select one of the following classes as a genasi, the following changes 
 
 </div>
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-air">Air Genasi</a></h1>
 
@@ -138,15 +131,12 @@ Air genasi approach some classes a bit differently than other folk. In addition 
 <div class="columnstwo">
 
 - #### Druid
-    The ever-changing patterns of weather seem simple to you, due to your deep connection to the skies. Over the course of 1 minute, you can meditate to find out the following information about your local region:
+The ever-changing patterns of weather seem simple to you, due to your deep connection to the skies. Over the course of 1 minute, you can meditate to find out the following information about your local region:
 
-    Current temperature and approximate wind speed.
-
-    Weather for the next 8 hours.
-
-    General trend of the season (drier, wetter, warmer, colder).
-
-    Whether or not any outside force has acted on the weather in the past 24 hours.
+- Current temperature and approximate wind speed.
+- Weather for the next 8 hours.
+- General trend of the season (drier, wetter, warmer, colder).
+- Whether or not any outside force has acted on the weather in the past 24 hours.
 
     <hr class="dividerinfolk">
 
@@ -260,27 +250,6 @@ Earth genasi approach some classes a bit differently than other folk. In additio
     <hr class="dividerinfolk">
 
 </div>
-
-### Earth Genasi Feats
-Earth genasi has access to the following feats:
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Artisan's Eye
-    The treasure seekers of the dao echo in your heritage, allowing you an innate knack for identifying precious items.
-
-    Increase your **Intelligence** or **Wisdom** by 1.
-
-    You have advantage on any check made to determine the quality, rarity, or legitimacy of precious gems or metals, or objects made with them.
-
-    You also can cast the *detect magic* spell at will, but it only detects magic items and objects, not spells.
-
-    </div>
-
-</div>
-
 
 
 
@@ -399,26 +368,3 @@ Water genasi approach some classes a bit differently than other folk. In additio
     <hr class="dividerinfolk">
 
 </div>
-
-### Water Genasi Feats
-A water genasi has access to the following feats:
-
-<div class="columnstwo">
-
--   <div class="feat">
-
-    ## Eternal purity
-    The purity of the elemental plane of water flows through your veins.
-
-    Increase your **Constitution** score by 1.
-
-    You have advantage on saves against poison.
-
-    You have resistance to posion damage.
-
-    You can drink any manner of water, so long as it is of an appropriate temperature. This includes sea water, thin mud, and other such liquids; you still gain the benefits of drinking normal water.
-
-    </div>
-
-</div>
-
