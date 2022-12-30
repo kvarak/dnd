@@ -9,12 +9,11 @@ layout: default
 ##### <a href="2-rules-equipment.html">Equipment</a>
 ##### <a href="3-rules-combat.html">Combat</a>
 ##### <a href="#internal-magic">Spells and Magic</a>
-<a href="#internal-IdentifyingSpells">Identifying Spells</a><br/>
 <a href="#internal-PreparedSpells">Prepared Spells</a><br/>
 <a href="#internal-SpellCastingTime">Spell Casting Time</a><br/>
 <a href="#internal-SpellComponents">Spell Components</a><br/>
 <a href="#internal-SpellTargets">Spell Targets</a><br/>
-<a href="4.1-spells.html">Spells List</a><br/>
+<a href="4.1-spells.html">Spell List</a><br/>
 <a href="#internal-WildMagic">Wild Magic</a><br/>
 
 ##### <a href="5-rules-adventuring.html">Adventuring</a>
@@ -32,20 +31,17 @@ There are three kinds of magic:
 
 -   <div class="descriptive">
 
-    ***Divine magic*** is granted by the Gods to their most devoted followers, clerics and paladins.
-
+    ***Arcane magic*** used by wizards, warlocks, sorcerers and bards, rely on an understanding — learned or intuitive — of the workings of the Weave that suffuses all existence.
     </div>
 
 -   <div class="descriptive">
 
-    ***Arcane magic*** used by wizards, warlocks, sorcerers and bards, rely on an understanding — learned or intuitive — of the workings of the Weave that suffuses all existence.
-
+    ***Divine magic*** is granted by the Gods to their most devoted followers, clerics and paladins.
     </div>
 
 -   <div class="descriptive">
 
     ***Primal magic*** which is provided by nature itself, or by ancestor spirits and filtered through nature. This magic is mostly used by druids, rangers and creatures close to nature, such as fey.
-
     </div>
 
 </div>
@@ -53,13 +49,6 @@ There are three kinds of magic:
 <p style="text-align:center"><img src='https://static.fandomspot.com/images/09/9084/00-featured-wizard-darkness-casting-spell-digitalpainting-000fesbra000.jpg' style='width:50%;padding:20px' /></p>
 
 <div class="columnsthree">
-
--   ### <a class="internal-link" name="internal-IdentifyingSpells">Identifying Spells</a>
-    To identify a spell, a character can use a ***reaction*** to identify it as it’s being cast or  an action to identify it by its effect after it is cast.
-
-    This is an Intelligence (Arcana) check against a DC equal to 15 + the spell’s level. If the spell is cast as a class spell and the character is a member of that class, the check is made with advantage. For example, if the spellcaster casts a spell as a cleric, another cleric has advantage on the check to identify the spell.
-
-    This Intelligence check represents the fact that identifying a spell requires a quick mind and familiarity with the theory and practice of casting. This is true even for a character whose spellcasting ability is Wisdom or Charisma. Being able to cast spells doesn’t by itself make you adept at deducing exactly what others are doing when they cast their spells.
 
 -   ### <a class="internal-link" name="internal-PreparedSpells">Prepared Spells</a>
     If your class prepares spells, you can choose to not select all your daily spells. Instead you can cast a spell from your spellbook using that unprepared slot. Casting a spell this way takes a minute per spell level, requires your spellbook, and after casting, the slot is now prepared with the new spell.
@@ -89,7 +78,7 @@ There are three kinds of magic:
 
     ***Focus***. An item through which the magic of the spell is focused. This item needs to be present and held, but is not consumed.
 
--   ### Spells List
+-   ### Spell List
 
     <a href="4.1-spells.html">All spells can be found here.</a>
 

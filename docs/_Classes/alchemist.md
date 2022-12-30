@@ -83,7 +83,7 @@ You are proficient with ***Constitution*** and ***Intelligence*** saving throws.
 #### Skills - Combat
 **Weapon Groups:** You have rank 1 in each weapon group.
 
-**Combat Skills:** You gain the *Light armor* and *Combat alchemy* skills.
+**Combat Skills:** You gain the *Light armor* skill and the class specific *Combat alchemy* combat skill.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every 3rd level, at levels 3, 6, 9, 12, 15 and 18.
 
