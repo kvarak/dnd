@@ -100,9 +100,7 @@ You are proficient with ***Constitution*** and ***Charisma*** saving throws.
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with Axe, Club, Flail, Lance, Spear, Sword and Bow. Additionally you have rank 1 with Knife, Polearm, Crossbow and Sling.
 
-**Combat Skills:** You gain the *Light armor* and *Medium armor* skills, and 1 additional skill point to spend on combat skills.
-
-**Recommended:** Heavy armor
+**Combat Skills:** You gain the *Light armor*, *Medium armor* and *Heavy armor* skills.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every level.
 

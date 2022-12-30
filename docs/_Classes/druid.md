@@ -79,11 +79,9 @@ You are proficient with ***Intelligence*** and ***Wisdom*** saving throws.
 #### Skills - Combat
 **Weapon Groups:** You have rank 1 with Club, Knife, Spear, Staff and Sling.
 
-**Combat Skill Points:** You gain 2 skill point to spend on combat skills at 1st level.
+**Combat Skills:** You gain the *Light armor* and *Medium armor* skills.
 
-**Recommended:** ***Light armor*** and ***Medium armor***
-
-**Special:** Druids will not wear armor or use shields made of metal
+**Special:** Druids will not wear armor or use shields made of metal.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every even level.
 
@@ -161,7 +159,7 @@ You can use a druidic focus as a spellcasting focus for your druid spells.
 ### Borrowing
 You gain the ability to borrow the mind of animals: as an ***action***, you can choose a number of willing beasts up to 3 x times your druid level and expend a use of your Wild Shape feature to cast the *beast sense* spell on them all.
 
-When you cast the spell in this way, the spell doesn't require material components nor concentration, and lasts a number of hours equal to half your druid level. The material body you leave behind is unconscious until you end the spell by using your action to return to your normal senses. 
+When you cast the spell in this way, the spell doesn't require material components nor concentration, and lasts a number of hours equal to half your druid level. The material body you leave behind is unconscious until you end the spell by using your action to return to your normal senses.
 
 You can only use one of the animals' senses at a time, but you can switch at will.
 
@@ -203,7 +201,7 @@ You gain the ability to summon a spirit that assumes an animal form: as an ***ac
 
 When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.
 
-<!-- 
+<!--
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 -->

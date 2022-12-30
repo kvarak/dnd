@@ -100,9 +100,7 @@ You are proficient with ***Dexterity*** and ***Strength*** saving throws.
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with all weapon groups.
 
-**Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level.
-
-**Recommended:** *Light armor* and *Medium armor*
+**Combat Skills:** You gain the *Light armor* and *Medium armor* skills.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every level.
 
@@ -261,7 +259,7 @@ If you have the Favored Enemy feature, you can attune your senses to determine i
 
 You may use this feature a number of times equal to your proficiency bonus and can regain all expended uses when you finish a long rest.
 
-<!-- 
+<!--
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 -->

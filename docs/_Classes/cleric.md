@@ -118,9 +118,7 @@ You are proficient with ***Wisdom*** and ***Charisma*** saving throws.
 #### Skills - Combat
 **Weapon Groups:** You have rank 1 with Club, Knife, Spear, Staff, Crossbow and Sling.
 
-**Combat Skill Points:** You gain 1 skill point to spend on combat skills at 1st level.
-
-**Recommended:** *Light armor*
+**Combat Skills:** You gain the *Light armor* skill.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every even level.
 
@@ -1788,7 +1786,7 @@ As a worshipper of a god of physical might, you are dedicated to performing feat
 
 
 ### Bonus Skills
-When you choose this domain at 1st level, *Physique* is added to your class skills and you gain 2 skill points to spent on this skill. 
+When you choose this domain at 1st level, *Physique* is added to your class skills and you gain 2 skill points to spent on this skill.
 
 Additionally you gain *Medium armor*, including its prerequisites, and rank 1 with *Axe*, *Flail* and *Sword*.
 

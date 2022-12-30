@@ -74,11 +74,9 @@ You are proficient with ***Dexterity*** and ***Intelligence*** saving throws.
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with Fencing sword, Knife, Sword, Whip, Crossbow and Thrown Weapon. Additionally you have rank 1 with Club, Polearm, Spear, Staff, Bow and Sling.
 
-**Combat Skill Points:** You gain 1 skill point to spend on combat skills at 1st level.
+**Combat Skills:** You gain the *Light armor* skills.
 
-**Recommended:** *Light armor*
-
-**Special:** You are proficient with the use of buckler shields
+**Special:** You are proficient with the use of buckler shields.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every level.
 
