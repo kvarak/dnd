@@ -64,6 +64,14 @@ There are two kinds of rests, short and long.
 - #### Benefits of a Long rest
   You must have at least 1 hit point at the start of a **Long rest** rest to gain its benefits. Otherwise you regain 1 hp and become conscious at the end of the rest.
 
+- #### Resting in Armor
+  Sleeping in armor can make it difficult to recover fully during a long rest.
+
+  When you finish a long rest during which you slept in armor, after you selected the benefits, make an Constitution (*Physique - Endurance - Armor familiarity*) check against DC 5 (light armor), DC 10 (medium) or DC 15 (heavy). 
+  
+  If you succeed you gain the benefits as usual. On a failed check you gain no benefits, unless you selected to regain hit points or HD, in which case you regain half the usual amount.
+  
+
 - <div class="block classTable frame" markdown="1">
 
   ##### When you finish a <b>Long rest</b>, you gain the following benefits

@@ -300,11 +300,3 @@ Some weapons in this group do not have the generic properties, or have unusual r
 
 <img src='https://68.media.tumblr.com/2ffe3488eecd9608f71e31c1e85bf574/tumblr_n1jg06oK371tu8a0wo1_400.png' style='width:85%;padding:20px' />
 
-
-## <a class="internal-link" name="internal-notes">Notes</a>
-
-<div class="columnstwo">
-
-- <a class="internal-link" name="internal-note1">&sup1; While some weapons in this category might have this property, others don't. Consult with your DM.</a>
-
-</div>

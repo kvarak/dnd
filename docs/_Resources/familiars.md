@@ -14,7 +14,7 @@ layout: default
 
 - ##### <a href="#internal-personality">Familiar personality</a>
 
-- ##### <a href="#internal-list">Alphabetical list of familiars</a>
+- ##### <a href="#internal-list">The list of familiars</a>
 - <a href="#internal-almiraj">Almiraj</a>
 - <a href="#internal-amethystWyrmling">Amethyst Wyrmling</a>
 - <a href="#internal-bat">Bat</a>
@@ -304,7 +304,7 @@ A familiar is an individual, and as such has a personality. When summoning your 
 </div>
 
 
-## <a class="internal-link" name="internal-list">Alphabetical list of familiars</a>
+## <a class="internal-link" name="internal-list">List of familiars</a>
 
 <br/>
 
