@@ -23,7 +23,7 @@ layout: default
 </div>
 
 
-# <a class="internal-link" name="internal-magic">pells and Magic</a>
+# <a class="internal-link" name="internal-magic">Spells and Magic</a>
 
 There are three kinds of magic:
 
@@ -49,6 +49,10 @@ There are three kinds of magic:
 <p style="text-align:center"><img src='https://static.fandomspot.com/images/09/9084/00-featured-wizard-darkness-casting-spell-digitalpainting-000fesbra000.jpg' style='width:50%;padding:20px' /></p>
 
 <div class="columnsthree">
+
+-   ### Familiars
+
+    Information about <a href="4.2-familiars.html">familiars can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-PreparedSpells">Prepared Spells</a>
     If your class prepares spells, you can choose to not select all your daily spells. Instead you can cast a spell from your spellbook using that unprepared slot. Casting a spell this way takes a minute per spell level, requires your spellbook, and after casting, the slot is now prepared with the new spell.
