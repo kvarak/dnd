@@ -149,7 +149,7 @@ A role can have only one leader, but any number of helpers. The leader makes the
 
   ***Failure***: You were unable to find anything.
 
-  Additionally a character can forage for herbs. See the section for <a href="1.1-herbalism.html">Herbalism</a> for how that works.
+  Instead of foraging for food, a character can forage for herbs. See the section for <a href="1.1-herbalism.html">Herbalism</a> for details.
 
   <div class="block classTable fillClassTable frame" markdown="1">
 

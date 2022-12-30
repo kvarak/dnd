@@ -9,7 +9,6 @@ layout: default
 <a href="#internal-AbilityChecks">Ability Checks</a><br/>
 <a href="#internal-AbilityScores">Ability Scores</a><br/>
 <a href="#internal-Fatepoints">Fate points</a><br/>
-<a href="1.1-herbalism.html">Herbalism</a><br/>
 <a href="#internal-Hitpoints">Hit points</a><br/>
 <a href="#internal-Inspiration">Inspiration</a><br/>
 <a href="1.3-languages.html">Languages</a><br/>
@@ -30,7 +29,7 @@ layout: default
 
 # <a class="internal-link" name="internal-character">The Character</a>
 
-The first step when playing is to create a character. All classes and folk can be found in the menu.
+The first step when playing is to create a character. All classes and folk can be found in the navigation bar.
 
 <img src='https://www.goblinstavern.gr/wp-content/uploads/2022/05/races_alltogether_4_cropped-1024x406.jpg' style='width:70%;padding:20px' />
 
@@ -39,7 +38,7 @@ The first step when playing is to create a character. All classes and folk can b
 -   ### <a class="internal-link" name="internal-AbilityChecks">Ability Checks</a>
     The three main rolls of the game — the ability check, the saving throw, and the attack roll — rely on your ability scores. Roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
 
-    If you are proficient with the saving throw, a weapon you are attacking with or in an appropriate skill while making an ability check, you additionally add your proficiency bonus.
+    If you are proficient with the saving throw, the weapon you are attacking with or the appropriate skill while making an ability check, additionally add your proficiency bonus.
 
 -   ### <a class="internal-link" name="internal-AbilityScores">Ability Scores</a>
 
@@ -48,10 +47,6 @@ The first step when playing is to create a character. All classes and folk can b
 -   ### <a class="internal-link" name="internal-Fatepoints">Fate points</a>
 
     When you create your character, you will receive a Fate power which is powered by Fate points. If you start at level 1, you gain 2 Fate points, otherwise you start with 1. Whenever you gain an increase in your proficiency modifier, you also gain a Fate point.
-
--   ### Herbalism
-
-    <a href="1.1-herbalism.html">Herbalism can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-Hitpoints">Hit points</a>
 

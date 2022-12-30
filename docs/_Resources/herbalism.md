@@ -1,30 +1,27 @@
 ---
-title: "&nbsp;&nbsp;&nbsp;&nbsp;Herbalism"
+title: "Herbalism"
 layout: default
 ---
 
-
-
-
 # Herbalism
-If you have proficiency with the herbalism kit, you know where to find useful plants, identify them, safely collect them, and know how to use them properly.
+If you have have the *Herbalism* skill, you know where to find useful plants, identify them, safely collect them and how to use them properly.
 
 ### The herbalism kit
 An herbalism kit includes pouches to store herbs, clippers and leather gloves for collecting plants, a mortar and pestle, and several glass jars.
 
 ### Gathering herbs
-You can gather herbs during travel, or during downtime.
+You can gather herbs during travel or during downtime.
 
- **Travel**. As an alternative travel activity, you can forage for useful plants. If you do, you don’t contribute to the groups Perception for noticing hidden threats.
+ **Travel**. As an alternative travel activity, you can forage for useful plants. If you do, you don’t contribute to the group's checks for noticing threats.
 
  **Downtime**. During periods in between sessions, you can search for herbs in the surrounding area. While doing this, you are assumed to be able to sell some of the useful plants you find, and can maintain a modest lifestyle without having to pay 1 gp per day.
 
-The DC to find useful plants is 15, or 20 in deserts, arctic, and other inhospitable areas. If you succeed, roll a 1d4 to determine how many ingredients were gathered. Then find the most relevant terrain type in the terrain tables and determine what herbs you found.
+The DC to find useful plants is 15, or 20 in deserts, arctic and other inhospitable areas. If you succeed, roll a 1d4 to determine how many doses of ingredients were gathered. Then find the most relevant terrain type in the terrain tables and determine what herbs you found.
 
 ### Using herbs
-In each herb description, it states the final effect, the time it takes, and any additional costs. You are assumed to have enough knowledge to prepare the herbs (otherwise you probably wouldn’t have picked them), but in some cases there might be additional checks to create the final product.
+In each herb description, it states the final effect, the time it takes, and any additional costs. You are assumed to have enough knowledge to prepare the herbs (otherwise you probably wouldn’t have picked them). 
 
-Unless otherwise noted, a herb can be prepared during a long rest.
+Unless otherwise noted, a herb is can be prepared during a long rest, and uses the regular rules for the *Herbalism* skill. If the herb can be used without preparation, this will be indicated with an &sup1; next to the name.
 
 ## Terrain
 This tables are used to randomly determine which ingredient are found in different terrains. Additional rulings can be found next to each ingredient on the charts below.
@@ -233,23 +230,19 @@ This tables are used to randomly determine which ingredient are found in differe
 </div>
 
 
-
-
-
-
-
-
 ## Herb descriptions
 
 <div class="columnsthree">
 
-- **Aloe Vera**. Used in salves. When applied within 1 minute, it heals half of the fire damage dealt to a creature. Application takes 1 round per 10 hp healed (which might cause it to be too late to heal).
+&sup1; The herb can be used withouth preparation. 
+
+- **Aloe Vera**. Can be made into a salve (d6 uses) that relieves burns. When applied within 1 minute, it heals half of the fire damage dealt to a creature. Application takes 1 round per 10 hp healed (which might cause it to be too late to heal).
 
 - **Blightshroom**. This fungus can be use to make a sickly green concoction, called blight ichor, that harbors potent psychedelic properties. Provided it is neither a construct nor undead, a creature ingesting a dose of blight ichor gains advantage on Intelligence and Wisdom checks, as well as vulnerability to psychic damage, for 1 hour.
 
-  For each dose of blight ichor consumed, the creature must succeed on a DC 15 Constitution saving throw or become poisoned for 1d6 hours and suffer the effects of a confusion spell for 1 minute. An undead creature subjected to a dose of blight ichor gains advantage on all Dexterity checks and is immune to the frightened condition for 1 hour.
+  For each dose of blight ichor consumed, the creature must succeed on a DC 15 Constitution saving throw or become poisoned for 1d6 hours and suffer the effects of a *confusion* spell for 1 minute.
 
-- **Blue Toadshade**. This dark blue cap with a yellow striped stem is a common mushroom in the Underdark. When disturbed, it lets off a puff of blue powder. Usually this causes no harm to the surrounding creatures, but it can stain their skin and equipment for a short while. The powder is commonly used to color various inks and dyes. If the mushroom is carefully picked, it can be used for its healing properties. It burns really slowly, filling a small room with faint smoke that persists for an hour. Any creatures resting in the area regains 1 additional hit point per level. Multiple uses in a 24-hour period do not stack.
+- **Blue Toadshade**. This dark blue cap with a yellow striped stem is a common mushroom in the Underdark. When disturbed, it lets off a puff of blue powder. Usually this causes no harm to the surrounding creatures, but it can stain their skin and equipment for a short while. The powder is commonly used to color various inks and dyes. If the mushroom is carefully picked, it can be used for its healing properties ***without preparation***. It burns really slowly, filling a small room with faint smoke that persists for an hour. Any creatures resting in the area regains 1 additional hit point per level. Multiple uses in a 24-hour period do not stack.
 
 - **Bramble Hold**. This red-purple tea is brewed from a mixture of berries native to most temperate forests. It has a strong, sweet taste and is often used as a late evening drink. Though not inherently intoxicating, bramble hold has strong magical connotations and is highly sensitive to the magic of druids and the fey. If an enchantment spell of third level or lower is cast upon bramble hold while brewing, it will absorb the magical qualities. The brew can hold the magic for up to 24 hours. Any creature drinking the brew is affected as though they had been targeted by the enchantment. They receive all normal saving throws.
 

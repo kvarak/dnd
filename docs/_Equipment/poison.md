@@ -20,7 +20,7 @@ layout: default
 Given their insidious and deadly nature, creating, possessing and using poisons is highly illegal in most societies but is a still a favorite tool among assassins, drow, and other evil creatures. Illegality does not stop the existence of poisons, but it forces the prices up, making it very expensive. A black-market dealer or unscrupulous apothecary might keep a hidden stash and characters with criminal contacts might be able to acquire poison. Other characters might have to make extensive inquiries and pay bribes before they track down the poison they seek.
 
 ### Creating Poisons
-During downtime between adventures a character can use the *Alchemy - Prepare poisons* skill to create poisons. Not all poison ingredients are available for purchase, and tracking down certain ingredients might form the basis of an entire adventure.
+During downtime between adventures a character can use the *Alchemy - Prepare poisons* or *Herbalism - Prepare poisons* skills to create poisons. Not all poison ingredients are available for purchase, and tracking down certain ingredients might form the basis of an entire adventure.
 
 ### Poisoner’s Kit
 A poisoner’s kit is a favored resource for thieves, assassins, and others who engage in skulduggery. It includes glass vials, a mortar and pestle, chemicals, and a glass stirring rod. The kit allows you to apply poisons and create them from various materials.
