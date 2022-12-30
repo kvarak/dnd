@@ -164,9 +164,7 @@ You are proficient with ***Wisdom*** and ***Charisma*** saving throws.
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with Axe, Club, Flail, Lance, Spear, Sword and Bow. Additionally you have rank 1 with Knife, Polearm and Crossbow.
 
-**Combat Skills:** You gain the *Light armor* and *Medium armor* skills, and 1 additional skill point to spend on combat skills.
-
-**Recommended:** Heavy armor
+**Combat Skills:** You gain the *Light armor*, *Medium armor* and *Heavy armor* skills.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every level.
 
@@ -3064,7 +3062,7 @@ The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve 
 
 ### Hunter
 You are keen to identify danger, injustice, and your quarry's trail. When you take this oath, gain the *Survival - Tracking* skill and its prerequisite.
- 
+
 ### Sacred Touch
 When you spend Devotion to use Divine Smite, you can forgo rolling 1 or more of your dice to instead use Vengeful Smite.
 

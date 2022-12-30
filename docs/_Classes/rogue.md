@@ -111,9 +111,7 @@ If you succeed with a Roll with the Blow II check, you can as a part of the same
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with Club, Fencing sword, Knife, Sword, Whip, Crossbow, Sling and Thrown Weapon. Additionally you have rank 1 with Axe, Spear and Bow.
 
-**Combat Skill Points:** You gain 1 skill point to spend on combat skills at 1st level.
-
-**Recommended:** *Light armor*
+**Combat Skills:** You gain the *Light armor* skill.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every even level.
 
@@ -143,7 +141,7 @@ Starting at 2nd level, your quick thinking and agility allow you to act quickly.
 ### Expertise
 At 3rd and 6th level you gain 2 additional skill points.
 
-<!-- 
+<!--
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 -->

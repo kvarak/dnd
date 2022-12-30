@@ -99,9 +99,7 @@ Your speed increases by 5 feet while you aren’t wearing heavy armor.
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with Axe, Club, Knife, Staff, Sword and Thrown Weapon. Additionally you have rank 1 with Flail, Polearm, Spear and Bow.
 
-**Combat Skill Points:** You gain 2 skill points to spend on combat skills at 1st level.
-
-**Recommended:** *Light armor* and *Medium armor*
+**Combat Skills:** You gain the *Light armor* and *Medium armor* skills.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every level.
 

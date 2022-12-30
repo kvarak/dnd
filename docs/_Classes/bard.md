@@ -201,9 +201,7 @@ You are proficient with ***Dexterity*** and ***Charisma*** saving throws.
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with Fencing sword, Knife, Staff, Sword, Whip, Sling and Thrown Weapon. Additionally you have rank 1 with Club, Bow and Crossbow.
 
-**Combat Skill Points:** You gain 1 skill point to spend on combat skills at 1st level.
-
-**Recommended:** Light armor
+**Combat Skills:** You gain the *Light armor* skill.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every ***even*** level.
 

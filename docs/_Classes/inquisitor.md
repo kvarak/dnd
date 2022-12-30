@@ -74,9 +74,7 @@ You are proficient with ***Wisdom*** and ***Charisma*** saving throws.
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with Fencing sword, Knife, Sword, Crossbow, Sling and Thrown weapon. Additionally you have rank 1 with Club, Spear, Staff, Whip and Bow.
 
-**Combat Skill Points:** You gain 2 skill point to spend on combat skills at 1st level.
-
-**Recommended:** *Light armor* and *Medium armor*
+**Combat Skills:** You gain the *Light armor* and *Medium armor* skills.
 
 **After 1st level:** You gain 1 skill point to spend on combat skills every even level.
 
@@ -187,7 +185,7 @@ You can use a holy symbol as a spellcasting focus for your inquisitor spells.
 
 Your choice grants you features at 3rd level, and again at 7th, 11th, and 18th level.
 
-<!-- 
+<!--
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
@@ -451,7 +449,7 @@ You mark the judged creature as your Prey. This judgement remains active until y
 
  **Greater Judgement**. You know the exact direction to your prey, and the additional damage increases by 1d6.
 </div>
-#### 
+####
 
 ### Cloak of the Wild
 You have learned to become one with nature. When you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena, you can use your ***action*** and spend 4 **Piety** to become invisible. You remain invisible until you make an attack, cast a spell, or move into an open area.
