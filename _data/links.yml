@@ -1,4 +1,14 @@
 
+- name: Roll20 character sheet
+  img: https://raw.githubusercontent.com/kvarak/roll20-sheet/main/sheet.png
+  url: https://github.com/kvarak/roll20-sheet
+  info: The roll20 character sheet adapted for these rules
+
+- name: Source code
+  img: https://raw.githubusercontent.com/kvarak/roll20-sheet/main/sheet.png
+  url: https://github.com/kvarak/dnd
+  info: Source code for this site
+
 - name: Spells
   img: https://lucidgoddess.com/wp-content/uploads/2016/12/book-of-spells-01.png
   url: http://spells.rigo.nu/
