@@ -110,29 +110,11 @@ During a long rest, you can perform one primary activity before you sleep. Below
 
 <div class="columnsthree">
 
-- #### Brew Drinks
-  If you are proficient with alchemy or herbalism and have the right supplies, you can prepare brews for the group. This requires a campfire and an appropriate kit. Expend one of your water rations to try one of the following actions:
-
-  **Purify water**: You distill some impure water overnight to create 1d4 + 1 new, drinkable water rations.
-
-  **Craft**: Prepare an alchemical or herbal item if you have raw materials
-
 - #### Cook Food
   If you know how to cook and have the right supplies, you can prepare a meal for the group. This requires use of a campfire and cooking tools.
 
 - #### Craft an Item
-  You can spend time crafting simple items — bandages, salves, arrows — if you have the right materials and tools. Roll the appropriate check for your specific craft.
-
-- <div class="block classTable frame" markdown="1">
-
-  | Tool | Weapons |
-  | :--- | :------ |
-  | Bowyer's tools | Bows
-  | Leatherworker's tools | Sling
-  | Smith's tools | Metal weapons
-  | Tinker's tools | Crossbows
-
-  </div>
+  You can spend time crafting simple items — bandages, salves, arrows — if you have the right materials and tools.
 
 - #### Maintain Gear
   You can spend time maintaining your weapons and armor, if you have the right knowledge, materials and tools.
@@ -150,8 +132,7 @@ During a long rest, you can perform one primary activity before you sleep. Below
 
   </div>
 
-
-- **Sharpen Weapon**. If you are proficient with ***martial weapons***, you can spend some time maintaining a weapon - this includes sharpening edged weapons, adjusting and maintaining balance of hammers and polearms, etc, taking care of the wear and tear put on it by adventuring and putting in peak condition.
+- **Sharpen Weapon**. If you have rank 2 with a weapon, you can spend some time maintaining it - this includes sharpening edged weapons, adjusting and maintaining balance of hammers and polearms, etc, taking care of the wear and tear put on it by adventuring and putting in peak condition.
 
   This peak condition is represented by giving the wielder of that weapon the ability to reroll a damage die. You must use the new result after rerolling the die.
 
@@ -159,16 +140,27 @@ During a long rest, you can perform one primary activity before you sleep. Below
   -- **Success**: You successfully take care of the weapon.<br/>
   -- **Failure**: The weapon does not receive a bonus.
 
-  Proper tool proficiency allows you to roll a Intelligence (Tool) check instead, and on a success grant an additional number of rerolls equal to your proficiency bonus.
+  If you have a suitable craft skill you can roll an Intelligence (Craft) check instead, and on a success grant an additional number of rerolls equal to your proficiency bonus.
 
-- **Maintain Armor**. Proficiency with ***leatherworker's tools*** or ***smith's tools*** allow you to buff and repair appropriate armor, bringing it to peak condition. This peak condition is represented by giving the wearer temporary hit points equal to your proficiency bonus. These hit points last until expended.
+  <div class="block classTable frame" markdown="1">
+
+  | Skill | Weapons |
+  | :--- | :------ |
+  | *Bowyer* | Bows
+  | *Leatherworking* | Sling
+  | *Metalwork - Metalsmith* | Metal weapons
+  | *Tinkering* | Crossbows
+  | *Leatherworking* | Wooden weapons
+  </div>
+
+- **Maintain Armor**. Proficiency with ***Leatherworking*** or ***Metalwork - Metalsmith*** allow you to buff and repair appropriate armor, bringing it to peak condition. This peak condition is represented by giving the wearer temporary hit points equal to your proficiency bonus. These hit points last until expended.
 
   Spend a use of your gear maintenance kit and roll an Intelligence (Tool) check against DC 10.<br/>
   -- **Success**: You successfully take care of the armor.<br/>
   -- **Failure**: The armor does not receive a bonus.
 
 - #### Repair an Item
-  If you're proficient with the appropriate tool, you may perform basic repairs on damaged equipment—sharpening a blunt sword, sewing up a torn robe, hammering out some dented armor. You can try to repair an item with a successful Intelligence (Tool) check against DC 10.<br/>
+  If you're proficient with the appropriate tools, you may perform basic repairs on damaged equipment—sharpening a blunt sword, sewing up a torn robe, hammering out some dented armor. You can try to repair an item with a appropriate Intelligence (*Craft*) check against DC 10.<br/>
   -- **Success**: You successfully repair the item.<br/>
   -- **Failure**: You were unable to make the repairs.
 
