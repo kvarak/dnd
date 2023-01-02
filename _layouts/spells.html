@@ -83,7 +83,7 @@
           iDisplayLength: -1,
           columnDefs: [
             { targets: [0,1], visible: true},
-            { targets: '_all', visible: true }],
+            { targets: '_all', visible: false }],
           // aoColumnDefs: [{ sClass: "td-nobreak",
           //                   aTargets: [ 0 ] },
           //                 { sClass: "td-center",
@@ -134,23 +134,8 @@
           contentTable.draw()
         });
 
-
-        $('#levelSelect').on('change', function() {
-          var levels = [];
-          $('.levelSelect').each(function() {
-            levels.append($(this).val());
-          });
-
-          console.log(levels)
-
-          table
-            .columns( '{{ levelposition }}' )
-            .search( levels )
-            .draw();
-         });
-         
     };
-    
+
     </script>
   </head>
 
@@ -162,14 +147,6 @@
       <!-- <h3>Spells</h3> -->
 
         {{ content }}
-
-        <b>Spell level:</b>
-        <label><input type="checkbox" id="0" selected> Cantrips</label>
-        {% for n in (1..9) %}
-          <label><input type="checkbox" class="levelSelect" value="{{ n }}"> {{ n }}</label>
-        {% endfor %}
-
-
 
         <label for="levelSelection">Spell level:</label>
         <select name="levelSelection" id="levelSelection">
