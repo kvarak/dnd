@@ -134,7 +134,20 @@
           contentTable.draw()
         });
 
-      }
+
+        $('#levelSelect').on('change', function() {
+          var levels = [];
+          $('.levelSelect').each(function() {
+            levels.append($(this).val());
+          });
+
+          console.log(levels)
+          
+          table
+            .columns( '{{ levelposition }}' )
+            .search( levels )
+            .draw();
+         });
 
     </script>
   </head>
@@ -147,6 +160,14 @@
       <!-- <h3>Spells</h3> -->
 
         {{ content }}
+
+        <b>Spell level:</b>
+        <label><input type="checkbox" id="0" selected> Cantrips</label>
+        {% for n in (1..9) %}
+          <label><input type="checkbox" class="levelSelect" id="{{ n }}"> {{ n }}</label>
+        {% endfor %}
+
+
 
         <label for="levelSelection">Spell level:</label>
         <select name="levelSelection" id="levelSelection">
