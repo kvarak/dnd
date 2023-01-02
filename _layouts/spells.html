@@ -142,7 +142,7 @@
           });
 
           console.log(levels)
-          
+
           table
             .columns( '{{ levelposition }}' )
             .search( levels )
@@ -164,7 +164,7 @@
         <b>Spell level:</b>
         <label><input type="checkbox" id="0" selected> Cantrips</label>
         {% for n in (1..9) %}
-          <label><input type="checkbox" class="levelSelect" id="{{ n }}"> {{ n }}</label>
+          <label><input type="checkbox" class="levelSelect" value="{{ n }}"> {{ n }}</label>
         {% endfor %}
 
 
