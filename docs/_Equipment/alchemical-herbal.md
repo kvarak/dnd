@@ -163,6 +163,8 @@ Creating <a href="#internal-alchemicalitems">**alchemical items**</a> requires a
 
     This coarse gray powder ignites and burns almost instantly if exposed to flame, significant friction, or even a simple force such as throwing it against a floor. Creatures within the 10-foot-radius burst are blinded for 1 round (Dexterity save DC 13 negates).
 
+-   <img src='https://paizo.com/image/content/PathfinderRPG/PZO1115-AlchemistsCheatsheet.jpg' style='width:100%;padding:10px' />
+
 
 -   #### Ghost Essence
 
@@ -211,6 +213,7 @@ Creating <a href="#internal-alchemicalitems">**alchemical items**</a> requires a
 
     Powdered chalk, flour, and similar materials are popular with adventurers for their utility in pinpointing invisible creatures. Throwing a bag of powder into a square is an attack against AC 5, and momentarily reveals if there is an invisible creature there. A much more effective method is to spread powder on a surface (which takes 1 full round) and look for footprints.
 
+-   <img src='https://1.bp.blogspot.com/-O203XaPYvlo/VAvnLz3bo6I/AAAAAAAACXQ/8xv37bonmwQ/s1600/pharmacy_by_realnam-d6rvlo6.jpg' style='width:100%;padding:10px' />
 
 -   #### Smelling salt
 
