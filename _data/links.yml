@@ -1,4 +1,9 @@
 
+- name: The Legacy dnd page
+  img: assets/images/legacy.png
+  url: https://robertrigo.github.io/
+  info: The previous version of the dnd page, with the old rules
+
 - name: Roll20 character sheet
   img: https://raw.githubusercontent.com/kvarak/roll20-sheet/main/sheet.png
   url: https://github.com/kvarak/roll20-sheet
