@@ -133,9 +133,80 @@
           }
           contentTable.draw()
         });
+      };
 
-    };
+      
+    $(document).ready(function() {
+      ////////////////////////////
+      //// Initialize selections
+      $('#classSelection').data('pre', $(this).val());
+      $('.levelSelect').each(function() {
+        $(this).prop('checked', true);
+      });
 
+
+      ////////////////////////////
+      //// Level selection
+      $('.levelSelect').on('change', function() {
+        var levels = [];
+        $('.levelSelect:checked').each(function() {
+          levels.push($(this).val());
+        });
+
+        $('#contentTable').DataTable()
+          .columns( 2 )
+          .search( levels.join('|'), true, false )
+          .draw();
+        });
+      
+      ////////////////////////////
+      //// Reset level selection
+      $('#resetLevel').on('click', function() {
+        
+        if ($('.levelSelect').is(":checked")) {
+          $('.levelSelect').each(function() {
+            $(this).prop('checked', false);
+          });
+
+          $('#contentTable').DataTable()
+          .columns( 2 )
+          .search( 'Hide all rows' )
+          .draw();
+
+        } else {
+          $('.levelSelect').each(function() {
+            $(this).prop('checked', true);
+          });
+
+          $('#contentTable').DataTable()
+          .columns( 2 )
+          .search( '' )
+          .draw();
+        }
+      });
+
+      
+      ////////////////////////////
+      //// Class selection
+      $('#classSelection').on('change', function() {
+        var value_before_change = $(this).data('pre');
+        var selectedClassCol = $(this).val();
+        
+        var table = $('#contentTable').DataTable()
+
+        table
+          .column( value_before_change )
+          .search( '' )
+          .draw();
+
+        table
+          .column( selectedClassCol )
+          .search( '^((?!No).)*$', true, false )
+          .draw();
+        
+        // save currently selected
+        $(this).data('pre', $(this).val());
+      });      
     </script>
   </head>
 
@@ -148,6 +219,30 @@
 
         {{ content }}
 
+      <label for="levelSelection">Spell levels:</label>
+      <label><input type="checkbox" class="levelSelect" value="0"> Cantrips</label>
+
+      {% for n in (1..9) %}
+        <label><input type="checkbox" class="levelSelect" value="{{ n }}"> {{ n }}</label>
+      {% endfor %}
+
+      <button class="btn btn-sm btn-outline-primary" id="resetLevel">Check/uncheck all</button>
+
+      <p>
+        <label for="classSelection">Class:</label>
+        <select id="classSelection">
+          <option value="2">All</option>
+
+          {% assign i = firstclass %}
+          {% for class in page.classes %}
+            <option value="{{ i }}">{{ class }}</option>
+          {% assign i = i | plus:1 %}
+          {% endfor %}
+        </select>    
+      </p>
+
+
+      <!--
         <label for="levelSelection">Spell level:</label>
         <select name="levelSelection" id="levelSelection">
           <option value="reset">All</option>
@@ -162,6 +257,8 @@
           <label><input type="checkbox" id="show{{ class }}"> {{ class }}</label>
           {% endfor %}
         </p>
+      -->
+
 
         <p id="alert" style="font-style:italic;font-size-adjust:-1;">Please wait, importing spells...</p>
 

@@ -70,167 +70,16 @@
           dom: "<'row'<'col-sm-12'f>>" + "<'row'<'col-sm-12'tr>>"
         });
 
-        
-        
-        
-        
+       
 
-        $('#showBard').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[4] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
+        ////////////////////////////
+        //// Initialize selections
+        $('.levelSelect').each(function() {
+          $(this).prop('checked', true);
         });
-
         
-        
+        $('#classSelection').data('pre', $(this).val());
 
-        $('#showCleric').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[5] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
-        });
-
-        
-        
-
-        $('#showDruid').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[6] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
-        });
-
-        
-        
-
-        $('#showRanger').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[7] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
-        });
-
-        
-        
-
-        $('#showSorcerer').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[8] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
-        });
-
-        
-        
-
-        $('#showWarlock').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[9] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
-        });
-
-        
-        
-
-        $('#showWizard').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[10] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
-        });
-
-        
-        
-
-        $('#showProfessional').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[11] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
-        });
-
-        
-        
-
-        $('#showCursed').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[12] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
-        });
-
-        
-        
-
-        $('#showFeyblood').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[13] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
-        });
 
 
         ////////////////////////////
@@ -250,32 +99,51 @@
         ////////////////////////////
         //// Reset level selection
         $('#resetLevel').on('click', function() {
-          $('#contentTable').DataTable()
+          
+          if ($('.levelSelect').is(":checked")) {
+            $('.levelSelect').each(function() {
+              $(this).prop('checked', false);
+            });
+
+            $('#contentTable').DataTable()
+            .columns( 2 )
+            .search( 'Hide all rows' )
+            .draw();
+
+          } else {
+            $('.levelSelect').each(function() {
+              $(this).prop('checked', true);
+            });
+
+            $('#contentTable').DataTable()
             .columns( 2 )
             .search( '' )
             .draw();
+          }
         });
 
         
         ////////////////////////////
         //// Class selection
         $('#classSelection').on('change', function() {
+          var value_before_change = $(this).data('pre');
           var selectedClassCol = $(this).val();
-
+          
           var table = $('#contentTable').DataTable()
-          console.log(selectedClassCol)
 
-          $('#contentTable').DataTable()
-            .column( 0 )
+          table
+            .column( value_before_change )
             .search( '' )
             .draw();
 
-          $('#contentTable').DataTable()
+          table
             .column( selectedClassCol )
             .search( '^((?!No).)*$', true, false )
             .draw();
-         });
-
+         
+          // save currently selected
+          $(this).data('pre', $(this).val());
+          });
 
       });
 
@@ -313,12 +181,12 @@
         <label><input type="checkbox" class="levelSelect" value="reset"> All</label>
 
 
-        <button class="btn btn-sm btn-outline-danger" id="resetLevel">Toggle all</button>
+        <button class="btn btn-sm btn-outline-primary" id="resetLevel">Check/uncheck all</button>
 
         <p>
           <label for="classSelection">Class:</label>
           <select id="classSelection">
-            <option value="0">All</option>
+            <option value="2">All</option>
             <option value="4">Bard</option>
             <option value="5">Cleric</option>
             <option value="6">Druid</option>
@@ -326,28 +194,6 @@
           </select>
         </p>
 
-        <p>
-          <label><input type="checkbox" id="showBard"> Bard</label>
-          
-          <label><input type="checkbox" id="showCleric"> Cleric</label>
-          
-          <label><input type="checkbox" id="showDruid"> Druid</label>
-          
-          <label><input type="checkbox" id="showRanger"> Ranger</label>
-          
-          <label><input type="checkbox" id="showSorcerer"> Sorcerer</label>
-          
-          <label><input type="checkbox" id="showWarlock"> Warlock</label>
-          
-          <label><input type="checkbox" id="showWizard"> Wizard</label>
-          
-          <label><input type="checkbox" id="showProfessional"> Professional</label>
-          
-          <label><input type="checkbox" id="showCursed"> Cursed</label>
-          
-          <label><input type="checkbox" id="showFeyblood"> Feyblood</label>
-          
-        </p>
 
         <p id="alert" style="font-style:italic;font-size-adjust:-1;">Please wait, importing spells...</p>
 
