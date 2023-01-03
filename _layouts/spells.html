@@ -136,76 +136,77 @@
       };
 
       
-    $(document).ready(function() {
-      ////////////////////////////
-      //// Initialize selections
-      $('#classSelection').data('pre', $(this).val());
-      $('.levelSelect').each(function() {
-        $(this).prop('checked', true);
-      });
-
-
-      ////////////////////////////
-      //// Level selection
-      $('.levelSelect').on('change', function() {
-        var levels = [];
-        $('.levelSelect:checked').each(function() {
-          levels.push($(this).val());
+      $(document).ready(function() {
+        ////////////////////////////
+        //// Initialize selections
+        $('#classSelection').data('pre', $(this).val());
+        $('.levelSelect').each(function() {
+          $(this).prop('checked', true);
         });
 
-        $('#contentTable').DataTable()
-          .columns( 2 )
-          .search( levels.join('|'), true, false )
-          .draw();
-        });
-      
-      ////////////////////////////
-      //// Reset level selection
-      $('#resetLevel').on('click', function() {
-        
-        if ($('.levelSelect').is(":checked")) {
-          $('.levelSelect').each(function() {
-            $(this).prop('checked', false);
+
+        ////////////////////////////
+        //// Level selection
+        $('.levelSelect').on('change', function() {
+          var levels = [];
+          $('.levelSelect:checked').each(function() {
+            levels.push($(this).val());
           });
 
           $('#contentTable').DataTable()
-          .columns( 2 )
-          .search( 'Hide all rows' )
-          .draw();
-
-        } else {
-          $('.levelSelect').each(function() {
-            $(this).prop('checked', true);
+            .columns( 2 )
+            .search( levels.join('|'), true, false )
+            .draw();
           });
-
-          $('#contentTable').DataTable()
-          .columns( 2 )
-          .search( '' )
-          .draw();
-        }
-      });
-
-      
-      ////////////////////////////
-      //// Class selection
-      $('#classSelection').on('change', function() {
-        var value_before_change = $(this).data('pre');
-        var selectedClassCol = $(this).val();
         
-        var table = $('#contentTable').DataTable()
+        ////////////////////////////
+        //// Reset level selection
+        $('#resetLevel').on('click', function() {
+          
+          if ($('.levelSelect').is(":checked")) {
+            $('.levelSelect').each(function() {
+              $(this).prop('checked', false);
+            });
 
-        table
-          .column( value_before_change )
-          .search( '' )
-          .draw();
+            $('#contentTable').DataTable()
+            .columns( 2 )
+            .search( 'Hide all rows' )
+            .draw();
 
-        table
-          .column( selectedClassCol )
-          .search( '^((?!No).)*$', true, false )
-          .draw();
+          } else {
+            $('.levelSelect').each(function() {
+              $(this).prop('checked', true);
+            });
+
+            $('#contentTable').DataTable()
+            .columns( 2 )
+            .search( '' )
+            .draw();
+          }
+        });
+
         
-        // save currently selected
-        $(this).data('pre', $(this).val());
+        ////////////////////////////
+        //// Class selection
+        $('#classSelection').on('change', function() {
+          var value_before_change = $(this).data('pre');
+          var selectedClassCol = $(this).val();
+          
+          var table = $('#contentTable').DataTable()
+
+          table
+            .column( value_before_change )
+            .search( '' )
+            .draw();
+
+          table
+            .column( selectedClassCol )
+            .search( '^((?!No).)*$', true, false )
+            .draw();
+          
+          // save currently selected
+          $(this).data('pre', $(this).val());
+        });      
       });      
     </script>
   </head>
