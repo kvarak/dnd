@@ -95,13 +95,14 @@
           dom: "<'row'<'col-sm-12'f>>" + "<'row'<'col-sm-12'tr>>"
         });
 
-        {% assign levelposition = 2 %}
       };
 
       
       $(document).ready(function() {
         ////////////////////////////
         //// Initialize selections
+        {% assign levelposition = 2 %}
+
         $('#classSelection').data('pre', $(this).val());
         $('.levelSelect').each(function() {
           $(this).prop('checked', true);
@@ -183,23 +184,24 @@
 
 
       <div class="form-group row">
-      <label class="col-sm-1 col-form-label font-weight-bold" for="levelSelection">Spell levels:</label>
+        <label class="col-sm-2 col-form-label font-weight-bold text-right" for="levelSelection">Spell levels:</label>
 
-      <div class="col-sm-6">
-        <label><input type="checkbox" class="levelSelect" value="0"> Cantrips</label>
+        <div class="col-sm-4 pt-2">
+          <label><input type="checkbox" class="levelSelect" value="0"> Cantrips</label>
 
-        {% for n in (1..9) %}
-          <label><input type="checkbox" class="levelSelect" value="{{ n }}"> {{ n }}</label>
-        {% endfor %}
+          {% for n in (1..9) %}
+            <label><input type="checkbox" class="levelSelect" value="{{ n }}"> {{ n }}</label>
+          {% endfor %}
+        </div>
+
+        <div class="col-sm-2">
+          <button class="btn btn-sm btn-outline-primary" id="resetLevel">Check/uncheck all</button>
+        </div>
       </div>
 
-      <div class="col-sm-1">
-        <button class="btn btn-sm btn-outline-primary" id="resetLevel">Check/uncheck all</button>
-      </div>
-      </div>
 
       <div class="form-group row">
-        <label class="col-sm-1 col-form-label font-weight-bold" for="classSelection">Class:</label>
+        <label class="col-sm-2 col-form-label font-weight-bold text-right" for="classSelection">Class:</label>
         <div class="col-sm-2">
           <select class="form-control" id="classSelection">
             <option value="{{ levelposition }}">All</option>
