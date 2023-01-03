@@ -70,7 +70,7 @@
             row['Level'],
             archetypes,
             {% for class in page.classes %}
-            row['{{ class }}'],
+              row['{{ class }}'],
             {% endfor %}
             row['Ritual']]);
         });
@@ -79,15 +79,10 @@
           data: tableContent,
           order: [[0, 'desc']],
           ordering: false,
-          // lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
           iDisplayLength: -1,
           columnDefs: [
             { targets: [0,1], visible: true},
             { targets: '_all', visible: false }],
-          // aoColumnDefs: [{ sClass: "td-nobreak",
-          //                   aTargets: [ 0 ] },
-          //                 { sClass: "td-center",
-          //                   aTargets: [ 1 ] }],
           columns: [
             { title: 'Spell'},
             { title: 'Description'},
@@ -101,38 +96,6 @@
         });
 
         {% assign levelposition = 2 %}
-        {% assign firstclass = 4 %}
-        {% assign i = firstclass %}
-        {% for class in page.classes %}
-
-        $('#show{{ class }}').on('change', function() {
-          if ($(this).is(':checked')) {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[{{ i }}] != 'No'
-              }
-            )
-          } else {
-            $.fn.dataTable.ext.search.pop()
-          }
-          contentTable.draw()
-        });
-
-        {% assign i = i | plus:1 %}
-        {% endfor %}
-
-        $('#levelSelection').on('change',function(){
-          var selectedValue = $(this).val();
-          $.fn.dataTable.ext.search.pop()
-          if (selectedValue != "reset") {
-            $.fn.dataTable.ext.search.push(
-              function(settings, data, dataIndex) {
-                return data[{{ levelposition }}] == selectedValue
-              }
-            )
-          }
-          contentTable.draw()
-        });
       };
 
       
@@ -154,7 +117,7 @@
           });
 
           $('#contentTable').DataTable()
-            .columns( 2 )
+            .columns( '{{ levelposition }}' )
             .search( levels.join('|'), true, false )
             .draw();
           });
@@ -169,7 +132,7 @@
             });
 
             $('#contentTable').DataTable()
-            .columns( 2 )
+            .columns( '{{ levelposition }}' )
             .search( 'Hide all rows' )
             .draw();
 
@@ -179,7 +142,7 @@
             });
 
             $('#contentTable').DataTable()
-            .columns( 2 )
+            .columns( '{{ levelposition }}' )
             .search( '' )
             .draw();
           }
@@ -216,13 +179,11 @@
     {% include navigation.html %}
     <div class="container container-main">
 
-      <!-- <h3>Spells</h3> -->
-
-        {{ content }}
+      {{ content }}
 
 
       <div class="form-group row">
-      <label class="col-sm-2 col-form-label font-weight-bold" for="levelSelection">Spell levels:</label>
+      <label class="col-sm-1 col-form-label font-weight-bold" for="levelSelection">Spell levels:</label>
 
       <div class="col-sm-6">
         <label><input type="checkbox" class="levelSelect" value="0"> Cantrips</label>
@@ -232,46 +193,27 @@
         {% endfor %}
       </div>
 
-      <div class="col-sm-6">
+      <div class="col-sm-1">
         <button class="btn btn-sm btn-outline-primary" id="resetLevel">Check/uncheck all</button>
       </div>
       </div>
 
       <div class="form-group row">
-        <label class="col-sm-2 col-form-label font-weight-bold" for="classSelection">Class:</label>
+        <label class="col-sm-1 col-form-label font-weight-bold" for="classSelection">Class:</label>
         <div class="col-sm-2">
           <select class="form-control" id="classSelection">
-            <option value="2">All</option>
+            <option value="{{ levelposition }}">All</option>
 
             {% assign i = firstclass %}
             {% for class in page.classes %}
               <option value="{{ i }}">{{ class }}</option>
-            {% assign i = i | plus:1 %}
+              {% assign i = i | plus:1 %}
             {% endfor %}
           </select>    
         </div>
       </div>
 
-
-      <!--
-        <label for="levelSelection">Spell level:</label>
-        <select name="levelSelection" id="levelSelection">
-          <option value="reset">All</option>
-          <option value="0">Cantrip</option>
-          {% for n in (1..9) %}
-          <option value="{{n}}">Lvl {{n}}</option>
-          {% endfor %}
-        </select>
-
-        <p>
-          {% for class in page.classes %}
-          <label><input type="checkbox" id="show{{ class }}"> {{ class }}</label>
-          {% endfor %}
-        </p>
-      -->
-
-
-        <p id="alert" style="font-style:italic;font-size-adjust:-1;">Please wait, importing spells...</p>
+      <p id="alert" style="font-style:italic;font-size-adjust:-1;">Please wait, importing spells...</p>
 
       <table class="table table-striped table-hover" id="contentTable"></table>
 
