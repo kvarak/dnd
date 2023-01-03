@@ -229,18 +229,20 @@
 
       <button class="btn btn-sm btn-outline-primary" id="resetLevel">Check/uncheck all</button>
 
-      <p>
-        <label for="classSelection">Class:</label>
-        <select id="classSelection">
-          <option value="2">All</option>
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label" for="classSelection">Class:</label>
+        <div class="col-sm-4">
+          <select class="form-control" id="classSelection">
+            <option value="2">All</option>
 
-          {% assign i = firstclass %}
-          {% for class in page.classes %}
-            <option value="{{ i }}">{{ class }}</option>
-          {% assign i = i | plus:1 %}
-          {% endfor %}
-        </select>    
-      </p>
+            {% assign i = firstclass %}
+            {% for class in page.classes %}
+              <option value="{{ i }}">{{ class }}</option>
+            {% assign i = i | plus:1 %}
+            {% endfor %}
+          </select>    
+        </div>
+      </div>
 
 
       <!--
