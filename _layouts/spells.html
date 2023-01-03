@@ -220,18 +220,26 @@
 
         {{ content }}
 
-      <label for="levelSelection">Spell levels:</label>
-      <label><input type="checkbox" class="levelSelect" value="0"> Cantrips</label>
-
-      {% for n in (1..9) %}
-        <label><input type="checkbox" class="levelSelect" value="{{ n }}"> {{ n }}</label>
-      {% endfor %}
-
-      <button class="btn btn-sm btn-outline-primary" id="resetLevel">Check/uncheck all</button>
 
       <div class="form-group row">
-        <label class="col-sm-2 col-form-label" for="classSelection">Class:</label>
-        <div class="col-sm-4">
+      <label class="col-sm-2 col-form-label font-weight-bold" for="levelSelection">Spell levels:</label>
+
+      <div class="col-sm-6">
+        <label><input type="checkbox" class="levelSelect" value="0"> Cantrips</label>
+
+        {% for n in (1..9) %}
+          <label><input type="checkbox" class="levelSelect" value="{{ n }}"> {{ n }}</label>
+        {% endfor %}
+      </div>
+
+      <div class="col-sm-6">
+        <button class="btn btn-sm btn-outline-primary" id="resetLevel">Check/uncheck all</button>
+      </div>
+      </div>
+
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label font-weight-bold" for="classSelection">Class:</label>
+        <div class="col-sm-2">
           <select class="form-control" id="classSelection">
             <option value="2">All</option>
 
