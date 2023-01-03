@@ -9,6 +9,7 @@ layout: default
 <a href="#internal-AbilityChecks">Ability Checks</a><br/>
 <a href="#internal-AbilityScores">Ability Scores</a><br/>
 <a href="#internal-Fatepoints">Fate points</a><br/>
+<a href="1.1-herbalism.html">Herbalism</a><br/>
 <a href="#internal-Hitpoints">Hit points</a><br/>
 <a href="#internal-Inspiration">Inspiration</a><br/>
 <a href="1.3-languages.html">Languages</a><br/>
@@ -47,6 +48,10 @@ The first step when playing is to create a character. All classes and folk can b
 -   ### <a class="internal-link" name="internal-Fatepoints">Fate points</a>
 
     When you create your character, you will receive a Fate power which is powered by Fate points. If you start at level 1, you gain 2 Fate points, otherwise you start with 1. Whenever you gain an increase in your proficiency modifier, you also gain a Fate point.
+
+-   ### Herbalism
+
+    <a href="1.1-herbalism.md">In-depth Herbalism rules can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-Hitpoints">Hit points</a>
 
