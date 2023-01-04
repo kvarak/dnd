@@ -280,6 +280,7 @@ Knives are ***simple light*** weapons that deal 1d4 damage, either piercing or s
 
  **Thrown**. You can throw a knife to make a ranged attack, dealing piercing damage. You use the same ability modifier for attack and damage that you would use for a melee attack. Unless otherwise noted, the attack has a normal range of 20 ft, and a maximum range of 60 ft. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can’t attack a target beyond the weapon’s long range.
 
+<img src='https://68.media.tumblr.com/2ffe3488eecd9608f71e31c1e85bf574/tumblr_n1jg06oK371tu8a0wo1_400.png' style='float:right;width:35%;padding:20px' />
 
 ### Special Knives
 Some weapons in this group do not have the generic properties, or have unusual rules governing their use.
@@ -297,6 +298,4 @@ Some weapons in this group do not have the generic properties, or have unusual r
  **Tamo daggers**. Tamo daggers, which are always sold in pairs, are thin, stiletto blades mounted on an often elaborately-carved, thick, wooden handle. Each handle has a slot near the blade that serves as a sheath for its twin – when the blades are sheathed the handles form a sturdy club.
 
  **Tiger claws**. A claw-like weapon, designed to fit over the knuckles. It consists of four or five curved blades affixed to a crossbar or glove. Tiger claws cannot be disarmed.
-
-<img src='https://68.media.tumblr.com/2ffe3488eecd9608f71e31c1e85bf574/tumblr_n1jg06oK371tu8a0wo1_400.png' style='width:85%;padding:20px' />
 
