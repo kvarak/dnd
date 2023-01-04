@@ -17,7 +17,7 @@ layout: default
 <a href="#internal-Multiclassing">Multiclassing</a><br/>
 <a href="#internal-Skills">Skills</a><br/>
 <a href="#internal-SkillsCombat">Skills, combat</a><br/>
-
+<a href="#internal-StartingMoney">Starting money</a>
 </div>
 
 
@@ -75,5 +75,11 @@ The first step when playing is to create a character. All classes and folk can b
 -   ### <a class="internal-link" name="internal-SkillsCombat">Skills, combat</a>
 
     <a href="skills_combat.html">Combat skills can be found here.</a>
+
+-   ### <a class="internal-link" name="internal-StartingMoney">Starting money</a>
+    
+    When starting play, your character starts with 1d20 gp, 1d20 sp and 1d20 cp, modified by your social status.
+
+    Additionally you will receive the equipment shown in your class description.
 
 </div>
