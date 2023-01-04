@@ -71,7 +71,7 @@ To use a property, a wielder must be proficient in its use. If a maneuver requir
 
  **Conceal**. As a bonus action you can make a Dexterity (Sleight of Hand) check, contested by Wisdom (Perception) to draw a concealed weapon. On a success you can make a single attack with the concealed weapon against a creature that has not yet acted in combat. This attack has advantage and scores a critical hit on a roll of 19 or 20.
 
-<img src='https://i.pinimg.com/originals/39/4b/b5/394bb5819d0f6c79b96ba952fc4011c2.jpg' style='float:left;width:35%;padding:20px' />
+<img src='https://i.pinimg.com/originals/39/4b/b5/394bb5819d0f6c79b96ba952fc4011c2.jpg' style='float:left;width:55%;padding:20px' />
 
  **Finesse**. When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
 

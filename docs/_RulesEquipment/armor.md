@@ -3,6 +3,7 @@ title: Armor and Shields
 layout: default
 ---
 
+<img src='../assets/images/Western_Armor.jpg' style='float:right;width:55%;padding:20px' />
 
 # Armor and Shields
 Adventurers have access to a variety of armor types, ranging from leather armor to chain mail to costly plate armor, with several other kinds of armor in between. The Armor table collects the most commonly available types of armor found in the game and separates them into three categories: light armor, medium armor, and heavy armor. Many warriors supplement their armor with a shield.
