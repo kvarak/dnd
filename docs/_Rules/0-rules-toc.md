@@ -1,5 +1,5 @@
 ---
-title: "-- Rules Index --"
+title: "0. Rules Index"
 layout: default
 ---
 

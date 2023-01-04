@@ -1,5 +1,5 @@
 ---
-title: -- Races in the World --
+title: Races in the World
 layout: default
 ---
 

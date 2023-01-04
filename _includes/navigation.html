@@ -10,19 +10,34 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      {% for collection in site.collections %}
-      {% if collection.label != 'posts' %}
+      {% for nav in site.data.navigation %}
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{ collection.label }}
+          {{ nav.header }}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          {% for doc in collection.docs %}
-          <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a>
-          {% endfor %}
+          {% if nav.subheads == true %}
+            {% for subnav in nav.subheaders %}
+              <a class="dropdown-item" href=""><b>{{ subnav.header }}</b></a>
+              {% for collection in site.collections %}
+                {% if collection.label == subnav.folder %}
+                  {% for doc in collection.docs %}
+                    <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">&nbsp;&nbsp;&nbsp;{{ doc.title }}</a>
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          {% else %}
+            {% for collection in site.collections %}
+              {% if collection.label == nav.folder %}
+                {% for doc in collection.docs %}
+                  <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
         </div>
       </li>
-      {% endif %}
       {% endfor %}
     </ul>
   </div>

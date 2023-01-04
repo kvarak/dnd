@@ -1,0 +1,29 @@
+
+- header: "Campaigns"
+  subheads: false
+  folder: "Campaigns"
+
+- header: "Classes"
+  subheads: true
+  subheaders:
+  - header: "The classes"
+    folder: "Classes"
+  - header: "Special classes"
+    folder: "Classes2"
+
+- header: "Folk"
+  subheads: true
+  subheaders:
+  - header: "Overview"
+    folder: "FolkGeneric"
+  - header: "Different folk"
+    folder: "Folk"
+
+- header: "Resources"
+  subheads: false
+  folder: "Resources"
+
+- header: "Rules"
+  subheads: false
+  folder: "Rules"
+
