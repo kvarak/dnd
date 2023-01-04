@@ -1,34 +1,24 @@
 
-<ul>
-  {% for nav in site.data.navigation %}
-  {% if nav.header == "Rules" %}
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      {{ nav.header }}
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      {% if nav.subheads == true %}
-        {% for subnav in nav.subheaders %}
-          <a class="dropdown-item" href=""><b>{{ subnav.header }}</b></a>
-          {% for collection in site.collections %}
-            {% if collection.label == subnav.folder %}
-              {% for doc in collection.docs %}
-                <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">&nbsp;&nbsp;&nbsp;{{ doc.title }}</a>
-              {% endfor %}
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-      {% else %}
+{% for nav in site.data.navigation %}
+{% if nav.header == "Rules" %}
+  <h2>{{ nav.header }}</h2>
+  <ul>
+    {% for subnav in nav.subheaders %}
+      {% if subnav.header != "Index" %}
+      <li><a class="dropdown-item" href=""><b>{{ subnav.header }}</b><ul>
         {% for collection in site.collections %}
-          {% if collection.label == nav.folder %}
+          {% if collection.label == subnav.folder %}
             {% for doc in collection.docs %}
-              <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a>
+              <li>
+                <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a>
+                {{ doc.content }}
+              </li>
             {% endfor %}
           {% endif %}
         {% endfor %}
+      </ul></li>
       {% endif %}
-    </div>
-  </li>
-  {% endif %}
-  {% endfor %}
-</ul>
+    {% endfor %}
+    </ul>
+{% endif %}
+{% endfor %}
