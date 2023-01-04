@@ -6,7 +6,7 @@ type: index
 
 <div class="toc">
 
-<h5><a href="../RulesMagic/a_index.html#internal-magic">Spells and Magic</a></h5>
+<h5><a href="../RulesMagic/a_index.html#internal-magic">Spells & Magic</a></h5>
 <a href="../RulesMagic/a_index.html#internal-PreparedSpells">Prepared Spells</a><br/>
 <a href="../RulesMagic/a_index.html#internal-SpellCastingTime">Spell Casting Time</a><br/>
 <a href="../RulesMagic/a_index.html#internal-SpellComponents">Spell Components</a><br/>
@@ -63,9 +63,6 @@ There are three kinds of magic:
 
     ***Longer Casting Times***. When casting spells with casting time longer than an action, you must spend your action each turn casting the spell, you cannot move and must maintain your concentration. If your concentration is broken, the spell fails, but you don’t expend a spell slot.
 
--   ### <a class="internal-link" name="internal-SpellTargets">Spell Targets</a>
-    To target something, you must see it, unless you are targeting yourself.
-
 -   ### <a class="internal-link" name="internal-SpellComponents">Spell Components</a>
     The physical requirements you must meet in order to cast it. Each spell’s description indicates whether it requires verbal (V), somatic (S), material (M) or focus (F) components. If you can’t provide one or more of a spell’s com ponents, you are unable to cast the spell.
 
@@ -76,6 +73,9 @@ There are three kinds of magic:
     ***Material***. Some spells requires particular objects, specified in parentheses in the component entry. A caster can use a component pouch or a spellcasting focus in place of an item, unless a cost is indicated. A spellcaster must have a hand free to access material components, but it can be the same hand that he or she uses to perform somatic components.
 
     ***Focus***. An item through which the magic of the spell is focused. This item needs to be present and held, but is not consumed.
+
+-   ### <a class="internal-link" name="internal-SpellTargets">Spell Targets</a>
+    To target something, you must see it, unless you are targeting yourself.
 
 -   ### <a class="internal-link" name="internal-SpellList">Spell List</a>
 
