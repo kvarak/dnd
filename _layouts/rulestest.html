@@ -13,7 +13,7 @@
                 <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a>
                 {% assign thetext = "" %}
                 {% assign inside = 0 %}
-                {% assign shortstr = doc.content %}
+                {% assign string = doc.content | split: " " %}
                 {% for word in string %}
                   {% if word == "<div" %}
                     {% assign inside = 1 %}
