@@ -5,20 +5,31 @@
   <ul>
     {% for subnav in nav.subheaders %}
       {% if subnav.header != "Index" %}
-      <li><a class="dropdown-item" href=""><b>{{ subnav.header }}</b><ul>
         {% for collection in site.collections %}
           {% if collection.label == subnav.folder %}
             {% for doc in collection.docs %}
               {% if doc.type == "index" %}
               <li>
                 <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a>
-                {{ doc.content }}
+                {% assign thetext = "" %}
+                {% assign inside = 0 %}
+                {% assign shortstr = doc.content %}
+                {% for word in string %}
+                  {% if word == "<div" %}
+                    {% assign inside = 1 %}
+                  {% endif %}
+                  {% if inside == 1 %}
+                    {% assign thetext = thetext | append: word %}
+                  {% endif %}
+                  {% if word == "</div>" %}
+                    {% assign inside = 0 %}
+                  {% endif %}
+                {% endfor %}
               </li>
               {% endif %}
             {% endfor %}
           {% endif %}
         {% endfor %}
-      </ul></li>
       {% endif %}
     {% endfor %}
     </ul>
