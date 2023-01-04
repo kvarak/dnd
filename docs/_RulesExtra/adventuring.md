@@ -1,6 +1,7 @@
 ---
 title: "Adventuring"
 layout: default
+type: index
 ---
 
 <div class="toc">

@@ -9,10 +9,12 @@
         {% for collection in site.collections %}
           {% if collection.label == subnav.folder %}
             {% for doc in collection.docs %}
+              {% if doc.type == "index" %}
               <li>
                 <a class="dropdown-item" href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a>
                 {{ doc.content }}
               </li>
+              {% endif %}
             {% endfor %}
           {% endif %}
         {% endfor %}

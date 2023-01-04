@@ -1,6 +1,7 @@
 ---
 title: "Equipment overview"
 layout: default
+type: index
 ---
 
 <div class="toc">
