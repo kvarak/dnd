@@ -1,5 +1,5 @@
 ---
-title: "6. Travel"
+title: "Travel"
 layout: default
 ---
 

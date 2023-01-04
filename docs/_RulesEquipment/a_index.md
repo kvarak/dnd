@@ -1,5 +1,5 @@
 ---
-title: "2. Equipment"
+title: "Equipment overview"
 layout: default
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "&nbsp;&nbsp;&nbsp;&nbsp;Skills - combat"
+title: "Skills - combat"
 layout: default
 ---
 
@@ -474,7 +474,7 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Deathless Flesh
-  
+
   &nbsp;&nbsp; *Prerequisite: Non-skeleton Awakened*
   </summary>
   As your power grows, your flesh becomes resilient to mundane forms of damage. Gain resistance to bludgeoning, piercing, and slashing damage from non-magical sources.
@@ -482,7 +482,7 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Necrotic Affinity
-  
+
   &nbsp;&nbsp; *Prerequisite: Awakened (mummy)*
   </summary>
   Your affinity with necrotic energy grows, and you can sustain yourself with it.
@@ -497,10 +497,10 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Belly of the Beast
-  
+
   &nbsp;&nbsp; *Prerequisite: Varkind beastfolk*
   </summary>
-  
+
   Few varkind posses a gut as impermeable, nor as odious as your own.
 
   Once, after benefiting from your Buffet Enthusiast feature, you can excrete a staggering cloud of yellow, nauseating gas. For the following turn, each creature that comes within 5 ft of you must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or that are immune to poison automatically succeed on this saving throw. This effect is rendered null in areas of moderate wind.
@@ -510,19 +510,19 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Jumping Twitch
-  
+
   &nbsp;&nbsp; *Prerequisite: Grung beastfolk*
   </summary>
-  
+
   As a ***reaction*** after an enemy misses you with an attack or ends their turn adjacent to you, you can jump up to 10 ft away. This movement does not provoke attacks of opportunity.
   </details>
 
   <details>
   <summary>Leaping Strike
-  
+
   &nbsp;&nbsp; *Prerequisite: Bullywug beastfolk*
   </summary>
-  
+
   When an ally that you can see hits a creature with a melee weapon attack, you can use your ***reaction*** to immediately make a standing leap, and make one melee weapon attack against the same target if it is within your reach. This movement does not provoke an opportunity attack. Once you use this trait, you can’t use it again until you finish a short rest.
   </details>
 </details>
@@ -533,21 +533,21 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Flying Charge
-  
+
   &nbsp;&nbsp; *Prerequisite: Aarakocra birdfolk*
   </summary>
   You have learned how to utilize your flight and speed in combat.
-  
+
   When you are flying and dive at least 40 ft towards a target and hit it with a melee weapon, you can cause the attack to deal an aditional 1d6 damage.
   </details>
 
   <details>
   <summary>Wings of Iron
-  
+
   &nbsp;&nbsp; *Prerequisite: Aarakocra birdfolk*
   </summary>
   Some aarakocra learn how to use their wings in combat, even adding metal tips to them.
-  
+
   Your wings can be used to swiftly strike at the enemy, dealing 1d4 slashing damage on a hit. You always count as being proficient. These unarmed strikes have the finesse property and can be used as an off-hand weapon, even if wielding a two-handed weapon.
   </details>
 </details>
@@ -571,7 +571,7 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Bite Fighter
-  
+
   &nbsp;&nbsp; *Prerequisite: Nosferatu Dhampir*
   </summary>
   You have practiced and honed your bite attack.
@@ -625,7 +625,7 @@ Skills and traits only selectable by certain folk.
   Your claws and teeth are natural weapons with which you are proficient. They deal slashing damage (for claws) or piercing damage (for teeth) equal to 1d4 + your Strength modifier.
 
   This base damage increases to 1d6 at 6th level, 1d8 at 12th level and 1d10 at 18th level. You may also use your natural weapons as an “off-hand” attack using the two-weapon fighting rules.
-  
+
   Additionally you can use your jaws and one of your attacks to grapple a creature without a free hand. When you grapple a creature in this way, it automatically fails saving throws against your breath weapon until released from your grip.
   </details>
 
@@ -637,7 +637,7 @@ Skills and traits only selectable by certain folk.
   <details>
   <summary>Voice of the Wyrm</summary>
   A dragon inspires awe in all who encounter it. The dragon blood that flows through your veins gives you the same commanding presence.
-  
+
   You can roar, forcing each creature of your choice within 30 ft that can hear you to make a Wisdom saving throw against your breath weapon DC. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success. After you use your roar, you can’t use it again until you complete a short rest.
   </details>
 </details>
@@ -677,7 +677,7 @@ Skills and traits only selectable by certain folk.
   You can move through the space of any creature that is of a size larger than you.
 
   During combat you can take the Disengage or Dash action as a ***bonus action***.
-  
+
   <details>
   <summary>Opportunist</summary>
   You have perfected techniques that allow you to take advantage of openings in an enemies defenses made by an allies attack.
@@ -697,7 +697,7 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Pickaxe Mastery
-  
+
   &nbsp;&nbsp; *Prerequisite: Club weapon group rank 2*
   </summary>
   Your time spent wielding a pickaxe allows you to wield it with devastating efficiency. You can use them as if they had the finesse and versatile properties, dealing 1d8 piercing damage (1d10 when used with two hands).
@@ -728,7 +728,7 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Big, Bad and Barky
-  
+
   *Prerequisite: Roothulk floran*
   </summary>
   Your natural armor is hardened beyond what even a normal floran achieves, boosting your physical abilities and making you resilient to harm in a way that fleshy races can only emulate by wrapping themselves in dead earth.
@@ -737,7 +737,7 @@ Skills and traits only selectable by certain folk.
 
   While your hp is at its maximum value, you have resistance to all damage types except for fire.
   </details>
-  
+
   <details>
   <summary>Oozing Sap</summary>
   Your wounds ooze sap and close quickly. Any effect that causes bleeding will stop by itself after 1 round.
@@ -762,7 +762,7 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Pickaxe Mastery
-  
+
   &nbsp;&nbsp; *Prerequisite: Deep gnome, Club weapon group rank 2*
   </summary>
   Your time spent wielding a pickaxe allows you to wield it with devastating efficiency. You can use them as if they had the finesse and versatile properties, dealing 1d8 piercing damage (1d10 when used with two hands).
@@ -779,14 +779,14 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Juggling Joker
-  
+
   &nbsp;&nbsp; *Prerequisite: Sleight of hand - Juggling, thrown weapon group rank 1*
   </summary>
   You've found that your natural ability to juggle and throw stuff accurately elicits both applause and smiles from a crowd, as well as the oohs and aahs you delight so much in.
 
   Your deft, quick hands allow you to draw a thrown weapon as part of a weapon attack instead of using an object interaction.
 
-  You can throw stones well, treating them as simple thrown weapons and can throw them up to 60 ft. On a hit they do 1d4 + Dex damage regardless of their size. 
+  You can throw stones well, treating them as simple thrown weapons and can throw them up to 60 ft. On a hit they do 1d4 + Dex damage regardless of their size.
 
   If you use the ***Attack*** action with only thrown weapons, you can make an additional attack as a *bonus action* with a thrown weapon using the normal rules for two-weapon fighting.
 
@@ -801,7 +801,7 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Bite Fighter
-  
+
   *Prerequisite: Razortusk trait*
   </summary>
   You have practiced and honed your bite attack. The damage of your bite attack increases by one die size (i.e., d6 increases to d8, d4 to d6, d3 to d4, etc.).
@@ -827,7 +827,7 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Blood of The Komodo
-  
+
   *Prerequisite: Frillneck or sandscale lizardfolk*
   </summary>
   Some species of lizardfolk have poisonous glands that become stronger with time.
@@ -837,7 +837,7 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Strong Tail
-  
+
   *Prerequisite: Any lizardfolk, except treewalker*
   </summary>
   You have trained the muscles in your tail enough to use it as a weapon. Gain proficiency with tail attacks which you can use to make unarmed strikes. If you hit, you deal bludgeoning damage equal to 1d6 + your Strength modifier.
@@ -852,7 +852,7 @@ Skills and traits only selectable by certain folk.
 
   <details>
   <summary>Bite Fighter
-  
+
   *Prerequisite: Bite attack*
   </summary>
   You have practiced and honed your bite attack. The damage of your bite attack increases by one die size (i.e., d6 increases to d8, d4 to d6, d3 to d4, etc.).
@@ -861,7 +861,7 @@ Skills and traits only selectable by certain folk.
 
   If you hit an adjacent opponent with a melee weapon attack as part of an Attack action, you can use your ***bonus action*** to attack the same target with your bite using the normal two-weapon fighting rules.
   </details>
-  
+
   <details>
   <summary>Embraced Heritage</summary>
   You have fully embraced your heritage.

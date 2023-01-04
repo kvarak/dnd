@@ -1,5 +1,5 @@
 ---
-title: "7. Water Rules"
+title: "Water Rules"
 layout: default
 ---
 

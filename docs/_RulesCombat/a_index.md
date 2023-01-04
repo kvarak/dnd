@@ -1,5 +1,5 @@
 ---
-title: "3. Combat"
+title: "Combat overview"
 layout: default
 ---
 

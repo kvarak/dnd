@@ -1,5 +1,5 @@
 ---
-title: "&nbsp;&nbsp;&nbsp;&nbsp;Multiclassing"
+title: "Multiclassing"
 layout: default
 ---
 

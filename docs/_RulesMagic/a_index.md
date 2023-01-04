@@ -1,5 +1,5 @@
 ---
-title: "4. Spells & Magic"
+title: "Spells & Magic overview"
 layout: default
 ---
 

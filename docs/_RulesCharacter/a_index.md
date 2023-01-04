@@ -1,5 +1,5 @@
 ---
-title: "1. Character"
+title: "Character overview"
 layout: default
 ---
 

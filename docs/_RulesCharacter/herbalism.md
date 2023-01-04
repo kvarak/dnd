@@ -1,5 +1,5 @@
 ---
-title: "&nbsp;&nbsp;&nbsp;&nbsp;Herbalism"
+title: "Herbalism"
 layout: default
 ---
 
