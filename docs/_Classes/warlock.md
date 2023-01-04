@@ -5379,9 +5379,9 @@ Tressym also commonly follow warlocks of the Pharaoh and the Seducer.
 
 Warlocks of the Cosmic Machine sometimes have Clockwork beetles or Library automatons (*Tome of Beasts*) as familiars.
 
-Warlocks following the Great Old One have access to more otherworldly familiars, such as <a href="../Resources/familiars-alternative-great-old-one.html">the Gibbering Orblet and Flumphling</a>, or the Gazer (*Volo's Guide to Monsters)*.
+Warlocks following the Great Old One have access to more otherworldly familiars, such as <a href="../Specific/familiars-alternative-great-old-one.html">the Gibbering Orblet and Flumphling</a>, or the Gazer (*Volo's Guide to Monsters)*.
 
-A warlock ot the The Emergent Mind might have an <a href="../Resources/familiars-animated.html">possessed item</a>.
+A warlock ot the The Emergent Mind might have an <a href="../Specific/familiars-animated.html">possessed item</a>.
 
 ### Chained Familiar
 An eldritch trinket, such as a ring, bracelet, earring, or a diadem. Your trinket bears the unmistakable mark of your patron—fiendish red veins, fey vines and flowers, aberrant runes and etchings, etc.
