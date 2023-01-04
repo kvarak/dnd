@@ -29,5 +29,15 @@ collections:
     output: true
   Rules:
     output: true
+  RulesCharacter:
+    output: true
+  RulesCombat:
+    output: true
+  RulesEquipment:
+    output: true
+  RulesExtra:
+    output: true
+  RulesMagic:
+    output: true
   Specific:
     output: true

@@ -24,6 +24,18 @@
   folder: "Resources"
 
 - header: "Rules"
-  subheads: false
-  folder: "Rules"
+  subheads: true
+  subheaders:
+  - header: "Index"
+    folder: "Rules"
+  - header: "Character"
+    folder: "RulesCharacter"
+  - header: "Equipment"
+    folder: "RulesEquipment"
+  - header: "Combat"
+    folder: "RulesCombat"
+  - header: "Spells & Magic"
+    folder: "RulesMagic"
+  - header: "Specific Rules"
+    folder: "RulesExtra"
 
