@@ -68,7 +68,11 @@
           {% for class in page.classes %}
             if (row['{{ class }}'] != "Yes" && row['{{ class }}'] != "No") {
               archetypes += row['{{ class }}'] + ", ";
-              archetypeDict['{{ class }}'].add(row['{{ class }}'].split(','))
+              
+              archetypes = row['{{ class }}'].split(',')
+              for (const element of archetypes) {
+                archetypeDict['{{ class }}'].add(element)
+              };
             };
           {% endfor %}
 
