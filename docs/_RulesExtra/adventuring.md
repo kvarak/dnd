@@ -1,21 +1,14 @@
 ---
-title: "5. Adventuring"
+title: "Adventuring"
 layout: default
 ---
 
 <div class="toc">
 
-##### <a href="1-rules-character">The Character</a>
-##### <a href="2-rules-equipment.html">Equipment</a>
-##### <a href="3-rules-combat.html">Combat</a>
-##### <a href="4-rules-spells.html">Spells and Magic</a>
 ##### <a href="#internal-adventuring">Adventuring</a>
 <a href="#internal-RestingShort">Resting, Short</a><br/>
 <a href="#internal-RestingLong">Resting, Long</a><br/>
 <a href="#internal-RestActivities">Rest Activities</a><br/>
-
-##### <a href="6-rules-travel.html">Travel</a>
-##### <a href="7-rules-water.html">Water rules</a>
 
 </div>
 
@@ -67,10 +60,10 @@ There are two kinds of rests, short and long.
 - #### Resting in Armor
   Sleeping in armor can make it difficult to recover fully during a long rest.
 
-  When you finish a long rest during which you slept in armor, after you selected the benefits, make an Constitution (*Physique - Endurance - Armor familiarity*) check against DC 5 (light armor), DC 10 (medium) or DC 15 (heavy). 
-  
+  When you finish a long rest during which you slept in armor, after you selected the benefits, make an Constitution (*Physique - Endurance - Armor familiarity*) check against DC 5 (light armor), DC 10 (medium) or DC 15 (heavy).
+
   If you succeed you gain the benefits as usual. On a failed check you gain no benefits, unless you selected to regain hit points or HD, in which case you regain half the usual amount.
-  
+
 
 - <div class="block classTable frame" markdown="1">
 

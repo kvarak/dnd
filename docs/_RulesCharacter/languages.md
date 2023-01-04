@@ -1,5 +1,5 @@
 ---
-title: "&nbsp;&nbsp;&nbsp;&nbsp;Languages"
+title: "Languages"
 layout: default
 ---
 

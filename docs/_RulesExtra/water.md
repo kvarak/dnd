@@ -1,16 +1,10 @@
 ---
-title: "7. Water Rules"
+title: "Water Rules"
 layout: default
 ---
 
 <div class="toc">
 
-##### <a href="1-rules-character">The Character</a>
-##### <a href="2-rules-equipment.html">Equipment</a>
-##### <a href="3-rules-combat.html">Combat</a>
-##### <a href="4-rules-spells.html">Spells and Magic</a>
-##### <a href="5-rules-adventuring.html">Adventuring</a>
-##### <a href="6-rules-travel.html">Travel</a>
 ##### <a href="#internal-water">Water rules</a>
 <a href="#internal-Armorinwater">Armor in water</a><br/>
 <a href="#internal-ClimbinguponaShip">Climbing up on a Ship</a><br/>

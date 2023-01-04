@@ -1,5 +1,5 @@
 ---
-title: "&nbsp;&nbsp;&nbsp;&nbsp;Familiars"
+title: "Familiars"
 layout: default
 ---
 

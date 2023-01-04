@@ -1,5 +1,5 @@
 ---
-title: "&nbsp;&nbsp;&nbsp;&nbsp;Skills"
+title: "Skills"
 layout: default
 ---
 
@@ -3381,7 +3381,7 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
   <details>
   <summary>Ghost Speaker
-  
+
   &nbsp;&nbsp; *Prerequisite: Speechcraft*
   </summary>
   You have learned how to communicate better with other undead, whether in the hope of ending their torments or as a means to obtain forbidden lore.
@@ -3393,12 +3393,12 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
   <details>
   <summary>Ghostly Magic
-  
+
   &nbsp;&nbsp; *Prerequisite: Awakened (bound spirit) and Arcana*
   </summary>
 
   Your soul is especially powerful and you may channel its power into a semblance of mortal magic.
-  
+
   - Each day, you may cast up to three of the following spells: *blink, catapult, charm person, fear*, and *invisibility* (self only). You regain the ability to cast these spells when you finish a long rest.
 
   - When you take this skill, choose either Charisma or Wisdom as your spellcasting ability for these spells, and you cast any spells gained by this feat at their lowest possible levels.
@@ -3407,7 +3407,7 @@ Some of the skills are designated as ***Background traits***, which indicates th
   <details>
   <summary>Mask Presence</summary>
   You are able to mask your soul from the mindless hordes and become indistinguishable from one of their own.
-  
+
   - Undead with an intelligence score of 6 or lower are considered to have the charmed contition in regards to you unless you damage them. Undead with an intelligence score of 8 or lower will not attack you unless you damage them or somehow impede their goal first. You can still be affected by area-of-effect abilities and/or spells from these undead.
   </details>
 </details>
@@ -3418,10 +3418,10 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
   <details>
   <summary>Aerial Agility
-  
+
   &nbsp;&nbsp; *Prerequisite: Grung beastfolk*
   </summary>
-  
+
   You can use your ***reaction*** when you fall to halve any falling damage you take. You can then reduce this damage additionally by an amount equal to your level plus your Dexterity bonus.
   </details>
 </details>
@@ -3464,7 +3464,7 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
   <details>
   <summary>Beastly Forms
-  
+
   &nbsp;&nbsp; *Prerequisite: Nature*
   </summary>
   With enough training, your ability to change form has improved so well that you can now take forms of beasts.
@@ -3478,34 +3478,34 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
   <details>
   <summary>Malleable Form
-  
+
   &nbsp;&nbsp; *Prerequisite: Acrobatics*
   </summary>
   You have a finer degree of control over your shapeshifting allowing you to increase the flexibility of your joints.
 
   Gain the skill *Acrobatics - Contortion* and all its subskills.
-  </details>  
+  </details>
 
   <details>
   <summary>Truly Eldritch</summary>
   You have truly embraced your aberrant heritage and are able to mold your mind as well as your body.
-  
-  You have ***Expertise*** on checks and saving throws to resist both magical and nonmagical effects that detect your thoughts, emotions or compel you to tell truth. 
-  
+
+  You have ***Expertise*** on checks and saving throws to resist both magical and nonmagical effects that detect your thoughts, emotions or compel you to tell truth.
+
   Additionally, you can present false thoughts, emotions or lies as if you are being truthful by making a Charisma (*Speechcraft - Deception*) check contested by the creature's *Insight* check.
 
   <details>
   <summary>Eldritch Mindreader</summary>
-  
+
   You can cast *detect thoughts* once without expending a spell slot or components. Charisma is your spellcasting ability for this spell and you regain the ability to the spells in this way when you finish a long rest.
 
   <details>
   <summary>Arcane Hiding</summary>
-  
+
   While in your true form, you can cast *nondetection* on yourself without expending a spell slot, requiring no spell components. When you cast the spell this way, it ends immediately if you are no longer in your true form, whether by using your Shapechanger trait, or when you are transformed. You regain the ability to cast the spell in this way when you finish a long rest. Charisma is your spellcasting ability.
-  </details> 
-  </details>  
-  </details>  
+  </details>
+  </details>
+  </details>
 
 </details>
 
@@ -3516,8 +3516,8 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
   <details>
   <summary>Powerful Build
-  
-  &nbsp;&nbsp; *Background trait*  
+
+  &nbsp;&nbsp; *Background trait*
   </summary>
   Broader and bulkier than your kin, you embody the physical might of your ancient ancestors. You count as one size larger when determining your carrying capacity, the weight you can push, drag or lift, and the creatures that you can grapple or shove.
 
@@ -3544,7 +3544,7 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
   <details>
   <summary>Semi-Aquatic Adaptation
-  
+
   &nbsp;&nbsp; *Background trait, Prerequisite: Black, Bronze or White dragonborn*
   </summary>
   Your ancestor was once able to swim through rivers, and you have tapped into that ability, developing an eel-like tail, webbed feet and hands, or whatever adaptation you find appropriate.
@@ -3556,7 +3556,7 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
   <details>
   <summary>Shapechanger
-  
+
   &nbsp;&nbsp; *Prerequisite: Brass, Copper, Gold or Silver dragonborn*
   </summary>
   You manifest the metallic dragon's ability to change their form.
@@ -3585,13 +3585,13 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
   <details>
   <summary>Arboreal Allure
-  
+
   *Prerequisite: Wood nymph floran*
   </summary>
   Wood nymphs have a knack for appealing to humanoid conceptions of beauty, a talent that has been described as unearthly and enchanting.
 
   You learn the *friends* cantrip.
-  
+
   <details>
   <summary>Arboreal Allure II</summary>
   Some wood nymphs take this natural appeal to the next level, tapping into their mystical connection with all life to magically alter how others view them.
@@ -3734,7 +3734,7 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
   <details>
   <summary>Grasping Tail
-  
+
   *Prerequisite: Tiefling with a tail.*
   </summary>
   Many tieflings have tails, but you have a long, flexible tail that can be used to carry items. While you cannot wield weapons with your tail, you can use it to grab unattended items within 5 ft, carry small items such as a torch or grab stowed objects carried on your person. The tail gives you an extra item action each round.
