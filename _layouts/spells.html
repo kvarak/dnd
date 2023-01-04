@@ -111,7 +111,7 @@
           console.log(archetypeDict['{{ class }}']);
 
           archetypeDict['{{ class }}'].forEach (function(archetype) {
-            $('#archetypeSelection').append('<option class="{{ class }}archetype" value="' + archetype + '">' + archetype + '</option>');
+            $('#archetypeSelection').append('<option class="{{ class }}archetype" value="' + archetype + '" hidden>' + archetype + '</option>');
           });
         {% endfor %}
 
@@ -191,6 +191,13 @@
             .search( '^((?!No).)*$', true, false )
             .draw();
           
+          if (selectedClassCol == '{{ levelposition }}' ) {
+            $('#archetypeSelection').hide();
+          } else {
+            $('#archetypeSelection').show();
+            $('#' + selectedClassCol + 'archetype').show();
+          }
+
           // save currently selected
           $(this).data('pre', $(this).val());
         });      
@@ -238,7 +245,7 @@
         </div>
 
         <div class="col-sm-4">
-          <select class="form-control" id="archetypeSelection">
+          <select class="form-control" id="archetypeSelection" hidden>
           </select>    
         </div>
 
