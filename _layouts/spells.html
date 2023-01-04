@@ -30,6 +30,7 @@
       var contentTable = $('#contentTable').DataTable({data: []});
 
       function fillTable(results) {
+        {% assign firstclass = 4 %}
         var tableContent = []
         var data = results.data
 
@@ -107,11 +108,13 @@
           dom: "<'row'<'col-sm-12'f>>" + "<'row'<'col-sm-12'tr>>"
         });
 
-        {% for class in page.classes %}
-          console.log(archetypeDict['{{ class }}']);
 
+        {% assign i = firstclass %}
+
+        {% for class in page.classes %}
           archetypeDict['{{ class }}'].forEach (function(archetype) {
-            $('#archetypeSelection').append('<option class="{{ class }}archetype" value="' + archetype + '" hidden>' + archetype + '</option>');
+            $('#archetypeSelection').append('<option class="{{ i }}archetype" value="' + archetype + '" hidden>' + archetype + '</option>');
+            {% assign i = i | plus:1 %}
           });
         {% endfor %}
 
