@@ -106,9 +106,8 @@
         {% for class in page.classes %}
           console.log(archetypeDict['{{ class }}']);
 
-          
-          $.each(archetypeDict['{{ class }}'], function (i, item) {
-            $('#archetypeSelection').append('<option class="{{ class }}archetype" value="' + i + '">' + i + '</option>');
+          archetypeDict['{{ class }}'].forEach (function(archetype) {
+            $('#archetypeSelection').append('<option class="{{ class }}archetype" value="' + archetype + '">' + archetype + '</option>');
           });
         {% endfor %}
 
