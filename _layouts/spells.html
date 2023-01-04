@@ -104,8 +104,11 @@
         });
 
         {% for class in page.classes %}
+          console.log(archetypeDict['{{ class }}']);
+
+          
           $.each(archetypeDict['{{ class }}'], function (i, item) {
-            $('#archetypeSelection').append('<option value="' + i + '">' + i + '</option>');
+            $('#archetypeSelection').append('<option class="{{ class }}archetype" value="' + i + '">' + i + '</option>');
           });
         {% endfor %}
 
