@@ -5,11 +5,6 @@ layout: default
 
 <div class="toc">
 
-##### <a href="1-rules-character">The Character</a>
-##### <a href="2-rules-equipment.html">Equipment</a>
-##### <a href="3-rules-combat.html">Combat</a>
-##### <a href="4-rules-spells.html">Spells and Magic</a>
-##### <a href="5-rules-adventuring.html">Adventuring</a>
 ##### <a href="#internal-travel">Travel</a>
 <a href="#internal-PlanningaJourney">Planning a Journey</a><br/>
 <a href="#internal-ADayofTravelling">A Day of Travelling</a><br/>
@@ -21,8 +16,6 @@ layout: default
 <a href="#internal-RoleTheGuide">The Guide</a><br/>
 <a href="#internal-RoleTheForager">The Forager</a><br/>
 <a href="#internal-RoleTheLookout">The Lookout</a><br/>
-
-##### <a href="7-rules-water.html">Water rules</a>
 
 </div>
 
@@ -104,7 +97,7 @@ Each travel day is broken up into distinct phases — breaking camp, travel, set
   **Make camp**: Take off your gear and set up camp.
 
 - ### <a class="internal-link" name="internal-TheNightRest">4. The Night Rest</a>
-  The night is dark and full of terrors, an unwelcoming to travelers. Travel is very difficult and it's easy to get lost, so get some sleep and recover your energy for tomorrow. See <a href="5-rules-adventuring.html#internal-RestActivities">Rest Activities</a> in the adventuring chapter to what activities you can perform during the long rest.
+  The night is dark and full of terrors, an unwelcoming to travelers. Travel is very difficult and it's easy to get lost, so get some sleep and recover your energy for tomorrow. See <a href="adventuring.html#internal-RestActivities">Rest Activities</a> in the adventuring chapter to what activities you can perform during the long rest.
 
 </div>
 
@@ -149,7 +142,7 @@ A role can have only one leader, but any number of helpers. The leader makes the
 
   ***Failure***: You were unable to find anything.
 
-  Instead of foraging for food, a character can forage for herbs. See the section for <a href="1.1-herbalism.html">Herbalism</a> for details.
+  Instead of foraging for food, a character can forage for herbs. See the section for <a href="../RulesCharacter/herbalism.html">Herbalism</a> for details.
 
   <div class="block classTable fillClassTable frame" markdown="1">
 

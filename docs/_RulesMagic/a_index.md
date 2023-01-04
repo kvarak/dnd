@@ -5,20 +5,14 @@ layout: default
 
 <div class="toc">
 
-##### <a href="1-rules-character">The Character</a>
-##### <a href="2-rules-equipment.html">Equipment</a>
-##### <a href="3-rules-combat.html">Combat</a>
 ##### <a href="#internal-magic">Spells and Magic</a>
 <a href="#internal-PreparedSpells">Prepared Spells</a><br/>
 <a href="#internal-SpellCastingTime">Spell Casting Time</a><br/>
 <a href="#internal-SpellComponents">Spell Components</a><br/>
 <a href="#internal-SpellTargets">Spell Targets</a><br/>
-<a href="4.1-spells.html">Spell List</a><br/>
+<a href="#internal-SpellList">Spell List</a><br/>
 <a href="#internal-WildMagic">Wild Magic</a><br/>
 
-##### <a href="5-rules-adventuring.html">Adventuring</a>
-##### <a href="6-rules-travel.html">Travel</a>
-##### <a href="7-rules-water.html">Water rules</a>
 
 </div>
 
@@ -52,7 +46,7 @@ There are three kinds of magic:
 
 -   ### Familiars
 
-    Information about <a href="4.2-familiars.html">familiars can be found here.</a>
+    Information about <a href="familiars.html">familiars can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-PreparedSpells">Prepared Spells</a>
     If your class prepares spells, you can choose to not select all your daily spells. Instead you can cast a spell from your spellbook using that unprepared slot. Casting a spell this way takes a minute per spell level, requires your spellbook, and after casting, the slot is now prepared with the new spell.
@@ -82,9 +76,9 @@ There are three kinds of magic:
 
     ***Focus***. An item through which the magic of the spell is focused. This item needs to be present and held, but is not consumed.
 
--   ### Spell List
+-   ### <a class="internal-link" name="internal-SpellList">Spell List</a>
 
-    <a href="4.1-spells.html">All spells can be found here.</a>
+    <a href="spells.html">All spells can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-WildMagic">Wild Magic</a>
     To find the result of a Wild magic effect roll a ***1d1000 + caster's Luck modifier - target's Luck modifier***.

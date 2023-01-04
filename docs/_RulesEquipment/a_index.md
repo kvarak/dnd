@@ -5,7 +5,6 @@ layout: default
 
 <div class="toc">
 
-##### <a href="1-rules-character">The Character</a>
 ##### <a href="#internal-equipment">Equipment</a>
 <a href="#internal-Alchemicalandherbalitems">Alchemical and herbal items</a><br/>
 <a href="#internal-Ammunition">Ammunition</a><br/>
@@ -17,17 +16,11 @@ layout: default
 <a href="#internal-UsageDice">Usage Dice</a><br/>
 <a href="#internal-Weapons">Weapons</a><br/>
 
-##### <a href="3-rules-combat.html">Combat</a>
-##### <a href="4-rules-spells.html">Spells and Magic</a>
-##### <a href="5-rules-adventuring.html">Adventuring</a>
-##### <a href="6-rules-travel.html">Travel</a>
-##### <a href="7-rules-water.html">Water rules</a>
-
 </div>
 
 # <a class="internal-link" name="internal-equipment">Equipment</a>
 
-When you create your character, you receive equipment and starting money based on a combination of your class and background. All equipment can be found on the <a href="https://robertrigo.github.io/pages/equipment.html">Equipment page</a>.
+When you create your character, you receive equipment and starting money based on a combination of your class and background. All equipment can be found on the <a href="equipment.html">Equipment page</a>.
 
 <div class="columnstwo">
 
@@ -42,7 +35,7 @@ When you create your character, you receive equipment and starting money based o
 
 -   ### <a class="internal-link" name="internal-Alchemicalandherbalitems">Alchemical and herbal items</a>
 
-    <a href="../Equipment/alchemical-herbal.html">Alchemical and herbal items can be found here.</a>
+    <a href="alchemical-herbal.html">Alchemical and herbal items can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-Ammunition">Ammunition</a>
 
@@ -62,11 +55,11 @@ When you create your character, you receive equipment and starting money based o
 
 -   ### <a class="internal-link" name="internal-Armorandshields">Armor and shields</a>
 
-    <a href="../Equipment/armor.html">Armors and shields can be found here.</a>
+    <a href="armor.html">Armors and shields can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-Equipmentlist">Equipment list</a>
 
-    <a href="https://robertrigo.github.io/pages/equipment.html">The equipment list can be found here.</a>
+    <a href="equipment.html">The equipment list can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-HealingPotions">Healing Potions</a>
     When you drink a healing potion, instead of rolling d4s to find how much hit points you regain,  roll your hit die. If you don't have a hit die value for any reason, roll a d4. Use this for all items that heals a number of d4s.
@@ -75,11 +68,11 @@ When you create your character, you receive equipment and starting money based o
 
 -   ### <a class="internal-link" name="internal-Poisons">Poisons</a>
 
-    The most common poisons can be found under <a href="../Equipment/alchemical-herbal.html#internal-poisons">can be found here</a>, but there's also a dedicated <a href="../Equipment/poison.html">poison document</a>.
+    The most common poisons can be found in the <a href="poison.html">poison document</a>.
 
 -   ### <a class="internal-link" name="internal-Weapons">Weapons</a>
 
-    Every weapon belongs to a category, which decides its statistics. More information can be found on the <a href="../Equipment/weapons.html">Weapon page</a>.
+    Every weapon belongs to a category, which decides its statistics. More information can be found on the <a href="weapons.html">Weapon page</a>.
 
 -   ### <a class="internal-link" name="internal-UsageDice">Usage Dice</a>
 
@@ -142,8 +135,6 @@ When you create your character, you receive equipment and starting money based o
 - <img src='https://i.pinimg.com/originals/c2/10/66/c210667009c0b08cbf8d2206e8cbdc26.jpg' style='width:100%;padding:5px' />
 
 - <img src='https://explorednd.com/wp-content/uploads/2021/06/Adventuring-Equipment.jpg' style='width:100%;padding:5px' />
-
-<!-- - <img src='https://i.pinimg.com/originals/5d/9b/95/5d9b95ed83ed44da56e19651ba37ecec.jpg' style='width:100%;padding:5px' /> -->
 
 - <img src='https://i.pinimg.com/originals/79/8e/1a/798e1aa9e6eb35a7104ef3664adcca19.jpg' style='width:100%;padding:5px' />
 

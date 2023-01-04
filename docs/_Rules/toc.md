@@ -44,14 +44,14 @@ layout: default
   <a href="../RulesCombat/a_index.html#internal-Surprise">Surprise</a><br/>
   <a href="../RulesCombat/a_index.html#internal-UnderwaterCombat">Underwater Combat</a><br/>
 
-- ##### <a href="../RulesMagic/a_index.html#internal-magic">Spells and Magic</a>
-  <a href="../RulesMagic/a_index.html#internal-IdentifyingSpells">Identifying Spells</a><br/>
-  <a href="../RulesMagic/a_index.html#internal-PreparedSpells">Prepared Spells</a><br/>
-  <a href="../RulesMagic/a_index.html#internal-SpellCastingTime">Spell Casting Time</a><br/>
-  <a href="../RulesMagic/a_index.html#internal-SpellComponents">Spell Components</a><br/>
-  <a href="../RulesMagic/a_index.html#internal-SpellTargets">Spell Targets</a><br/>
-  <a href="../RulesMagic/a_index.html#internal-Spells">Spells List</a><br/>
-  <a href="../RulesMagic/a_index.html#internal-WildMagic">Wild Magic</a><br/>
+- ##### <a href="4-rules-spells.html#internal-magic">Spells and Magic</a>
+  <a href="4-rules-spells.html#internal-IdentifyingSpells">Identifying Spells</a><br/>
+  <a href="4-rules-spells.html#internal-PreparedSpells">Prepared Spells</a><br/>
+  <a href="4-rules-spells.html#internal-SpellCastingTime">Spell Casting Time</a><br/>
+  <a href="4-rules-spells.html#internal-SpellComponents">Spell Components</a><br/>
+  <a href="4-rules-spells.html#internal-SpellTargets">Spell Targets</a><br/>
+  <a href="4.1-spells.html">Spells List</a><br/>
+  <a href="4-rules-spells.html#internal-WildMagic">Wild Magic</a><br/>
 
 - ##### <a href="../RulesExtra/adventuring.html#internal-adventuring">Adventuring</a>
   <a href="../RulesExtra/adventuring.html#internal-RestingShort">Resting, Short</a><br/>
