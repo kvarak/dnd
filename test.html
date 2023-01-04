@@ -27,49 +27,40 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
 
     <script type="text/javascript">
-  $(document).ready(function() {
-         contentTable = $('#contentTable').DataTable({
+      $(document).ready(function() {
+
+
+        var archetypeDict = {};
+        archetypeDict["Bard"] = new Set();
+        archetypeDict["Cleric"] = new Set();
+        archetypeDict["Druid"] = new Set();
+
+
+        contentTable = $('#contentTable').DataTable({
           order: [[0, 'desc']],
           ordering: false,
-          // lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
           iDisplayLength: -1,
           columnDefs: [
             { targets: [0,1], visible: true},
             { targets: '_all', visible: true }],
-          // aoColumnDefs: [{ sClass: "td-nobreak",
-          //                   aTargets: [ 0 ] },
-          //                 { sClass: "td-center",
-          //                   aTargets: [ 1 ] }],
           columns: [
             { title: 'Spell'},
             { title: 'Description'},
             { title: 'Level'},
             { title: 'Archetypes'},
-            
             { title: 'Bard'},
-            
             { title: 'Cleric'},
-            
             { title: 'Druid'},
-            
             { title: 'Ranger'},
-            
             { title: 'Sorcerer'},
-            
             { title: 'Warlock'},
-            
             { title: 'Wizard'},
-            
             { title: 'Professional'},
-            
             { title: 'Cursed'},
-            
             { title: 'Feyblood'},
-            
             { title: 'Ritual'}],
           dom: "<'row'<'col-sm-12'f>>" + "<'row'<'col-sm-12'tr>>"
         });
-
        
 
         ////////////////////////////

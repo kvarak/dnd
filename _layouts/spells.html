@@ -35,6 +35,12 @@
 
         document.getElementById("alert").innerHTML = "Imported " + data.length + " spells.";
 
+        var archetypeDict = {};
+        {% for class in page.classes %}
+          archetypeDict['{{ class }}'] = new Set();
+        {% endfor %}
+
+
         data.forEach((row) => {
           var txt = "";
           txt = txt + "<h4><a class=\"internal-link\" name=\"" + row['Name'].replace(/\s/g, '') + "\">" + row['Name'] + "</h4>";
@@ -60,8 +66,10 @@
 
           var archetypes = ""
           {% for class in page.classes %}
-          if (row['{{ class }}'] != "Yes" && row['{{ class }}'] != "No")
-            archetypes += row['{{ class }}'] + ", "
+            if (row['{{ class }}'] != "Yes" && row['{{ class }}'] != "No") {
+              archetypes += row['{{ class }}'] + ", ";
+              archetypeDict['{{ class }}'].add(row['{{ class }}'].split(','))
+            };
           {% endfor %}
 
           tableContent.push([
@@ -95,10 +103,17 @@
           dom: "<'row'<'col-sm-12'f>>" + "<'row'<'col-sm-12'tr>>"
         });
 
+        {% for class in page.classes %}
+          $.each(archetypeDict['{{ class }}'], function (i, item) {
+            $('#archetypeSelection').append('<option value="' + i + '">' + i + '</option>');
+          });
+        {% endfor %}
+
       };
 
       
       $(document).ready(function() {
+
         ////////////////////////////
         //// Initialize selections
         {% assign levelposition = 2 %}
@@ -107,6 +122,8 @@
         $('.levelSelect').each(function() {
           $(this).prop('checked', true);
         });
+
+
 
 
         ////////////////////////////
@@ -186,7 +203,7 @@
       <div class="form-group row">
         <label class="col-sm-2 col-form-label font-weight-bold text-right" for="levelSelection">Spell levels:</label>
 
-        <div class="col-sm-4 pt-2">
+        <div class="col-sm-8 pt-2">
           <label><input type="checkbox" class="levelSelect" value="0"> Cantrips</label>
 
           {% for n in (1..9) %}
@@ -202,7 +219,7 @@
 
       <div class="form-group row">
         <label class="col-sm-2 col-form-label font-weight-bold text-right" for="classSelection">Class:</label>
-        <div class="col-sm-2">
+        <div class="col-sm-4">
           <select class="form-control" id="classSelection">
             <option value="{{ levelposition }}">All</option>
 
@@ -213,6 +230,12 @@
             {% endfor %}
           </select>    
         </div>
+
+        <div class="col-sm-4">
+          <select class="form-control" id="archetypeSelection">
+          </select>    
+        </div>
+
       </div>
 
       <p id="alert" style="font-style:italic;font-size-adjust:-1;">Please wait, importing spells...</p>
