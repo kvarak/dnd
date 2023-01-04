@@ -1,22 +1,23 @@
 ---
 title: "Combat overview"
 layout: default
+type: index
 ---
 
 <div class="toc">
 
-##### <a href="#internal-combat">Combat</a>
-<a href="#internal-ActionsinCombat">Actions in Combat</a><br/>
-<a href="#internal-Cover">Cover</a><br/>
-<a href="#internal-Droppingto0hp">Dropping to 0 hp</a><br/>
-<a href="#internal-Initiative">Initiative</a><br/>
-<a href="#internal-Jumping">Jumping</a><br/>
-<a href="#internal-MountedCombat">Mounted Combat</a><br/>
-<a href="#internal-Movement">Movement</a><br/>
-<a href="#internal-Resistances">Resistances</a><br/>
-<a href="#internal-SneakingandStabbing">Sneaking and Stabbing</a><br/>
-<a href="#internal-Surprise">Surprise</a><br/>
-<a href="#internal-UnderwaterCombat">Underwater Combat</a><br/>
+<h5><a href="../RulesCombat/a_index.html#internal-combat">Combat</a></h5>
+<a href="../RulesCombat/a_index.html#internal-ActionsinCombat">Actions in Combat</a><br/>
+<a href="../RulesCombat/a_index.html#internal-Cover">Cover</a><br/>
+<a href="../RulesCombat/a_index.html#internal-Droppingto0hp">Dropping to 0 hp</a><br/>
+<a href="../RulesCombat/a_index.html#internal-Initiative">Initiative</a><br/>
+<a href="../RulesCombat/a_index.html#internal-Jumping">Jumping</a><br/>
+<a href="../RulesCombat/a_index.html#internal-MountedCombat">Mounted Combat</a><br/>
+<a href="../RulesCombat/a_index.html#internal-Movement">Movement</a><br/>
+<a href="../RulesCombat/a_index.html#internal-Resistances">Resistances</a><br/>
+<a href="../RulesCombat/a_index.html#internal-SneakingandStabbing">Sneaking and Stabbing</a><br/>
+<a href="../RulesCombat/a_index.html#internal-Surprise">Surprise</a><br/>
+<a href="../RulesCombat/a_index.html#internal-UnderwaterCombat">Underwater Combat</a><br/>
 
 
 </div>

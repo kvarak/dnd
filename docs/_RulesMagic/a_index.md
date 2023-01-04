@@ -1,17 +1,18 @@
 ---
 title: "Spells & Magic overview"
 layout: default
+type: index
 ---
 
 <div class="toc">
 
-##### <a href="#internal-magic">Spells and Magic</a>
-<a href="#internal-PreparedSpells">Prepared Spells</a><br/>
-<a href="#internal-SpellCastingTime">Spell Casting Time</a><br/>
-<a href="#internal-SpellComponents">Spell Components</a><br/>
-<a href="#internal-SpellTargets">Spell Targets</a><br/>
-<a href="#internal-SpellList">Spell List</a><br/>
-<a href="#internal-WildMagic">Wild Magic</a><br/>
+<h5><a href="../RulesMagic/a_index.html#internal-magic">Spells and Magic</a></h5>
+<a href="../RulesMagic/a_index.html#internal-PreparedSpells">Prepared Spells</a><br/>
+<a href="../RulesMagic/a_index.html#internal-SpellCastingTime">Spell Casting Time</a><br/>
+<a href="../RulesMagic/a_index.html#internal-SpellComponents">Spell Components</a><br/>
+<a href="../RulesMagic/a_index.html#internal-SpellTargets">Spell Targets</a><br/>
+<a href="../RulesMagic/a_index.html#internal-SpellList">Spell List</a><br/>
+<a href="../RulesMagic/a_index.html#internal-WildMagic">Wild Magic</a><br/>
 
 
 </div>

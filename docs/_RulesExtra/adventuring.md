@@ -6,10 +6,10 @@ type: index
 
 <div class="toc">
 
-##### <a href="#internal-adventuring">Adventuring</a>
-<a href="#internal-RestingShort">Resting, Short</a><br/>
-<a href="#internal-RestingLong">Resting, Long</a><br/>
-<a href="#internal-RestActivities">Rest Activities</a><br/>
+<h5><a href="../RulesExtra/adventuring.html#internal-adventuring">Adventuring</a></h5>
+<a href="../RulesExtra/adventuring.html#internal-RestingShort">Resting, Short</a><br/>
+<a href="../RulesExtra/adventuring.html#internal-RestingLong">Resting, Long</a><br/>
+<a href="../RulesExtra/adventuring.html#internal-RestActivities">Rest Activities</a><br/>
 
 </div>
 

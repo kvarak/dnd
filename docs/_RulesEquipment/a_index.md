@@ -6,16 +6,16 @@ type: index
 
 <div class="toc">
 
-##### <a href="#internal-equipment">Equipment</a>
-<a href="#internal-Alchemicalandherbalitems">Alchemical and herbal items</a><br/>
-<a href="#internal-Ammunition">Ammunition</a><br/>
-<a href="#internal-Armorandshields">Armor and shields</a><br/>
-<a href="#internal-Equipmentlist">Equipment list</a><br/>
-<a href="#internal-Flasks">Flasks</a><br/>
-<a href="#internal-HealingPotions">Healing Potions</a><br/>
-<a href="#internal-Poisons">Poisons</a><br/>
-<a href="#internal-UsageDice">Usage Dice</a><br/>
-<a href="#internal-Weapons">Weapons</a><br/>
+<h5><a href="../RulesEquipment/a_index.html#internal-equipment">Equipment</a></h5>
+<a href="../RulesEquipment/a_index.html#internal-Alchemicalandherbalitems">Alchemical and herbal items</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Ammunition">Ammunition</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Armorandshields">Armor and shields</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Equipmentlist">Equipment list</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Flasks">Flasks</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-HealingPotions">Healing Potions</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Poisons">Poisons</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-UsageDice">Usage Dice</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Weapons">Weapons</a><br/>
 
 </div>
 
