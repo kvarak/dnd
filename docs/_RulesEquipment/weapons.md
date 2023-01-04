@@ -15,14 +15,12 @@ layout: default
 
 
 # Weapons
+Skill with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon.
 
-### Weapon Proficiency
-Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon
-
-#### Weapon Groups
+### Weapon Groups
 Weapons are divided in groups. If you are not proficient with a whole category, e.g. martial weapons, you can be proficient in a weapon group, such as swords, maces or daggers. Weapons in a group are usually very similar, with a lot of common properties.
 
-#### Weapon tables
+### Weapon tables
 The tables in the following sections are divided in weapon categories, as well as classified as either melee or ranged. A melee weapon is used to attack a target within 5 feet of you, whereas a ranged weapon is used to attack a target at a distance.
 
 The different Weapon tables below shows categories, the damage they deal when they hit and any special properties they possess.
@@ -72,6 +70,8 @@ To use a property, a wielder must be proficient in its use. If a maneuver requir
  **Close Quarters Combat**. Attacking with this weapon from a prone position does not incur disadvantage. When you successfully escape a grapple, you can make a single weapon attack as a bonus action.
 
  **Conceal**. As a bonus action you can make a Dexterity (Sleight of Hand) check, contested by Wisdom (Perception) to draw a concealed weapon. On a success you can make a single attack with the concealed weapon against a creature that has not yet acted in combat. This attack has advantage and scores a critical hit on a roll of 19 or 20.
+
+<img src='https://i.pinimg.com/originals/39/4b/b5/394bb5819d0f6c79b96ba952fc4011c2.jpg' style='float:left;width:35%;padding:20px' />
 
  **Finesse**. When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
 
