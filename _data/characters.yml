@@ -24,9 +24,6 @@
 
 
 - path: 2
-  name: Asloiquot
-  img: ../assets/campaigns/02-The-Crimson-Throne/Asloiquot.jpg
-- path: 2
   name: Bregan Drongor
   img: ../assets/campaigns/02-The-Crimson-Throne/Bregan.Drongor.jpg
 - path: 2
@@ -42,20 +39,20 @@
   name: Morvius
   img: ../assets/campaigns/02-The-Crimson-Throne/Morvius.jpg
 - path: 2
-  name: Rolen Amaruil (full)
-  img: ../assets/campaigns/02-The-Crimson-Throne/Rolen.Amaruil.Full.jpg
-- path: 2
   name: Rolen Amaruil
   img: ../assets/campaigns/02-The-Crimson-Throne/Rolen.Amaruil.jpg
 - path: 2
   name: Sesett Donaun
   img: ../assets/campaigns/02-The-Crimson-Throne/Sesett.Donaun.jpg
 - path: 2
+  name: Yibroc
+  img: ../assets/campaigns/02-The-Crimson-Throne/Yibroc.jpg
+- path: 2
   name: Yibroc (Broc)
   img: ../assets/campaigns/02-The-Crimson-Throne/Yibroc.Broc.jpg
 - path: 2
-  name: Yibroc
-  img: ../assets/campaigns/02-The-Crimson-Throne/Yibroc.jpg
+  name: Asloiquot
+  img: ../assets/campaigns/02-The-Crimson-Throne/Asloiquot.jpg
 
 - path: 3
   name: Danric Fireshadow
@@ -69,9 +66,6 @@
 - path: 3
   name: Kester
   img: ../assets/campaigns/03-Second-Darkness/Kester.png
-- path: 3
-  name: Kester (with animals)
-  img: ../assets/campaigns/03-Second-Darkness/Kester.Animals.jpg
 - path: 3
   name: Rochon
   img: ../assets/campaigns/03-Second-Darkness/Rochon.jpg
@@ -176,10 +170,7 @@
   name: Rufius
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Rufius.jpg
 - path: 6
-  name: Sabri01
-  img: ../assets/campaigns/06-Into-the-Dark-Continent/Sabri01.jpg
-- path: 6
-  name: Sabri02
+  name: Sabri
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Sabri02.jpg
 - path: 6
   name: Sudi
@@ -189,23 +180,23 @@
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Valerikender.jpg
 
 - path: 7
-  name: Azriel
-  img: ../assets/campaigns/07-Haunted-Lands/Azriel.jpg
-- path: 7
   name: Dorian
   img: ../assets/campaigns/07-Haunted-Lands/Dorian.jpg
-- path: 7
-  name: Hubert
-  img: ../assets/campaigns/07-Haunted-Lands/Hubert.jpg
 - path: 7
   name: Krystof
   img: ../assets/campaigns/07-Haunted-Lands/Krystof.png
 - path: 7
+  name: Matyas
+  img: ../assets/campaigns/07-Haunted-Lands/Matyas.jpg
+- path: 7
   name: Marius
   img: ../assets/campaigns/07-Haunted-Lands/Marius.jpg
 - path: 7
-  name: Matyas
-  img: ../assets/campaigns/07-Haunted-Lands/Matyas.jpg
+  name: Hubert
+  img: ../assets/campaigns/07-Haunted-Lands/Hubert.jpg
+- path: 7
+  name: Azriel
+  img: ../assets/campaigns/07-Haunted-Lands/Azriel.jpg
 - path: 7
   name: Radjit Kazmer
   img: ../assets/campaigns/07-Haunted-Lands/RadjitKazmer.jpg
