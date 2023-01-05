@@ -1,21 +1,22 @@
 ---
 title: "Travel"
 layout: default
+type: index
 ---
 
 <div class="toc">
 
-##### <a href="#internal-travel">Travel</a>
-<a href="#internal-PlanningaJourney">Planning a Journey</a><br/>
-<a href="#internal-ADayofTravelling">A Day of Travelling</a><br/>
-<a href="#internal-BreakingCamp">1. Breaking Camp</a><br/>
-<a href="#internal-TravelPace">2. The Travel</a><br/>
-<a href="#internal-SettingCamp">3. Setting Camp</a><br/>
-<a href="#internal-TheNightRest">4. The Night Rest</a><br/>
-<a href="#internal-RolesDuringTravel">Roles During Travel</a><br/>
-<a href="#internal-RoleTheGuide">The Guide</a><br/>
-<a href="#internal-RoleTheForager">The Forager</a><br/>
-<a href="#internal-RoleTheLookout">The Lookout</a><br/>
+<h5><a href="../RulesExtra/travel.html#internal-travel">Travel</a></h5>
+<a href="../RulesExtra/travel.html#internal-PlanningaJourney">Planning a Journey</a><br/>
+<a href="../RulesExtra/travel.html#internal-ADayofTravelling">A Day of Travelling</a><br/>
+<a href="../RulesExtra/travel.html#internal-BreakingCamp">1. Breaking Camp</a><br/>
+<a href="../RulesExtra/travel.html#internal-TravelPace">2. The Travel</a><br/>
+<a href="../RulesExtra/travel.html#internal-SettingCamp">3. Setting Camp</a><br/>
+<a href="../RulesExtra/travel.html#internal-TheNightRest">4. The Night Rest</a><br/>
+<a href="../RulesExtra/travel.html#internal-RolesDuringTravel">Roles During Travel</a><br/>
+<a href="../RulesExtra/travel.html#internal-RoleTheGuide">The Guide</a><br/>
+<a href="../RulesExtra/travel.html#internal-RoleTheForager">The Forager</a><br/>
+<a href="../RulesExtra/travel.html#internal-RoleTheLookout">The Lookout</a><br/>
 
 </div>
 

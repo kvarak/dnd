@@ -1,23 +1,24 @@
 ---
 title: "Character overview"
 layout: default
+type: index
 ---
 
 <div class="toc">
 
-##### <a href="#internal-character">The Character</a>
-<a href="#internal-AbilityChecks">Ability Checks</a><br/>
-<a href="#internal-AbilityScores">Ability Scores</a><br/>
-<a href="#internal-Fatepoints">Fate points</a><br/>
-<a href="#internal-Herbalism">Herbalism</a><br/>
-<a href="#internal-Hitpoints">Hit points</a><br/>
-<a href="#internal-Inspiration">Inspiration</a><br/>
-<a href="#internal-Languages">Languages</a><br/>
-<a href="#internal-Luck">Luck</a><br/>
-<a href="#internal-Multiclassing">Multiclassing</a><br/>
-<a href="#internal-Skills">Skills</a><br/>
-<a href="#internal-SkillsCombat">Skills, combat</a><br/>
-<a href="#internal-StartingMoney">Starting money</a>
+<h5><a href="../RulesCharacter/a_index.html#internal-character">The Character</a></h5>
+<a href="../RulesCharacter/a_index.html#internal-AbilityChecks">Ability Checks</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-AbilityScores">Ability Scores</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-Fatepoints">Fate points</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-Herbalism">Herbalism</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-Hitpoints">Hit points</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-Inspiration">Inspiration</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-Languages">Languages</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-Luck">Luck</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-Multiclassing">Multiclassing</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-Skills">Skills</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-SkillsCombat">Skills, combat</a><br/>
+<a href="../RulesCharacter/a_index.html#internal-StartingMoney">Starting money</a>
 </div>
 
 
@@ -77,7 +78,7 @@ The first step when playing is to create a character. All classes and folk can b
     <a href="skills_combat.html">Combat skills can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-StartingMoney">Starting money</a>
-    
+
     When starting play, your character starts with 1d20 gp, 1d20 sp and 1d20 cp, modified by your social status.
 
     Additionally you will receive the equipment shown in your class description.

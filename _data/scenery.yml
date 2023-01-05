@@ -22,6 +22,9 @@
   img: ../assets/campaigns/01-Rise-of-the-Runelords/turtlebackferry.jpg
 
 - path: 2
+  name: Rolen Amaruil (full)
+  img: ../assets/campaigns/02-The-Crimson-Throne/Rolen.Amaruil.Full.jpg
+- path: 2
   name: Bregan (shifted)
   img: ../assets/campaigns/02-The-Crimson-Throne/Bregan_shifted.jpg
 - path: 2
@@ -30,6 +33,10 @@
 - path: 2
   name: Scarwall
   img: ../assets/campaigns/02-The-Crimson-Throne/Scarwall.jpg
+
+- path: 3
+  name: Kester (with animals)
+  img: ../assets/campaigns/03-Second-Darkness/Kester.Animals.jpg
 
 - path: 4
   name: Continent map
@@ -78,6 +85,9 @@
   name: mask-torvic
   img: ../assets/campaigns/05-Vanguard-of-Hope/mask-torvic.jpg
 
+- path: 6
+  name: Alternative view of Sabri
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Sabri01.jpg
 - path: 6
   name: Havoc
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Havoc.jpg

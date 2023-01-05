@@ -1,20 +1,22 @@
 ---
 title: "Equipment overview"
 layout: default
+type: index
 ---
 
 <div class="toc">
 
-##### <a href="#internal-equipment">Equipment</a>
-<a href="#internal-Alchemicalandherbalitems">Alchemical and herbal items</a><br/>
-<a href="#internal-Ammunition">Ammunition</a><br/>
-<a href="#internal-Armorandshields">Armor and shields</a><br/>
-<a href="#internal-Equipmentlist">Equipment list</a><br/>
-<a href="#internal-Flasks">Flasks</a><br/>
-<a href="#internal-HealingPotions">Healing Potions</a><br/>
-<a href="#internal-Poisons">Poisons</a><br/>
-<a href="#internal-UsageDice">Usage Dice</a><br/>
-<a href="#internal-Weapons">Weapons</a><br/>
+<h5><a href="../RulesEquipment/a_index.html#internal-equipment">Equipment</a></h5>
+<a href="../RulesEquipment/a_index.html#internal-alchemicalitems">Alchemical items</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Ammunition">Ammunition</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Armorandshields">Armor and shields</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Equipmentlist">Equipment list</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Flasks">Flasks</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-HealingPotions">Healing Potions</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-herbalremedies">Herbal Remedies</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Poisons">Poisons</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-UsageDice">Usage Dice</a><br/>
+<a href="../RulesEquipment/a_index.html#internal-Weapons">Weapons</a><br/>
 
 </div>
 
@@ -33,9 +35,9 @@ When you create your character, you receive equipment and starting money based o
 
 <div class="columnsthree">
 
--   ### <a class="internal-link" name="internal-Alchemicalandherbalitems">Alchemical and herbal items</a>
+-   ### <a class="internal-link" name="internal-alchemicalitems">Alchemical items</a>
 
-    <a href="alchemical-herbal.html">Alchemical and herbal items can be found here.</a>
+    <a href="alchemical.html">Alchemical items can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-Ammunition">Ammunition</a>
 
@@ -60,39 +62,6 @@ When you create your character, you receive equipment and starting money based o
 -   ### <a class="internal-link" name="internal-Equipmentlist">Equipment list</a>
 
     <a href="equipment.html">The equipment list can be found here.</a>
-
--   ### <a class="internal-link" name="internal-HealingPotions">Healing Potions</a>
-    When you drink a healing potion, instead of rolling d4s to find how much hit points you regain,  roll your hit die. If you don't have a hit die value for any reason, roll a d4. Use this for all items that heals a number of d4s.
-
-    If you are multiclassed and have hit dice of varying sizes, use the hit die value of whichever class you have the most levels in. On a tie, use the highest.
-
--   ### <a class="internal-link" name="internal-Poisons">Poisons</a>
-
-    The most common poisons can be found in the <a href="poison.html">poison document</a>.
-
--   ### <a class="internal-link" name="internal-Weapons">Weapons</a>
-
-    Every weapon belongs to a category, which decides its statistics. More information can be found on the <a href="weapons.html">Weapon page</a>.
-
--   ### <a class="internal-link" name="internal-UsageDice">Usage Dice</a>
-
-    Whenever you use a limited consumable (such as ammunition), you roll a usage die — if the roll is a 1 or 2 then the usage die shrinks one step. When you roll a 1 or 2 on a d4, the item is all used up.
-
-    d20 → d12 → d10 → d8 → d6 → d4 → 0
-
-    The larger the starting usage die, the more uses you'll get out of an item before it expires. The Usage Dice table shows the average number of times you can expect to roll a usage die before it's down to the very last use.
-
-
-    <div class="block classTable fillClassTable frame" markdown="1">
-
-    #### Usage Dice
-    | Starting Size | Average Uses | Starting Size | Average Uses |
-    |:-------------:|:------------:|:-------------:|:------------:|
-    | d20 | 30 | d8 | 9
-    | d12 | 20 | d6 | 5
-    | d10 | 14 | d4 | 2
-
-    </div>
 
 -   ### <a class="internal-link" name="internal-Flasks">Flasks</a>
 
@@ -119,6 +88,43 @@ When you create your character, you receive equipment and starting money based o
     Once you roll a 1 or 2 on a d4, that's it—the flask is now completely empty. This roll is at disadvantage if the flask is used to heal an unconscious character.
 
     **Splitting Flasks**: Magic fades quickly from any liquid leaving the flask. If you pour the contents of a flask into another container— such as a potion vial, a cup, or a different flask—the magic fades within one round, becoming useless if not consumed during that time.
+
+-   ### <a class="internal-link" name="internal-HealingPotions">Healing Potions</a>
+    When you drink a healing potion, instead of rolling d4s to find how much hit points you regain,  roll your hit die. If you don't have a hit die value for any reason, roll a d4. Use this for all items that heals a number of d4s.
+
+    If you are multiclassed and have hit dice of varying sizes, use the hit die value of whichever class you have the most levels in. On a tie, use the highest.
+
+-   ### <a class="internal-link" name="internal-herbalremedies">Herbal Remedies</a>
+
+    <a href="herbal.html">Herbal Remedies can be found here.</a>
+
+-   ### <a class="internal-link" name="internal-Poisons">Poisons</a>
+
+    The most common poisons can be found in the <a href="poison.html">poison document</a>.
+
+-   ### <a class="internal-link" name="internal-UsageDice">Usage Dice</a>
+
+    Whenever you use a limited consumable (such as ammunition), you roll a usage die — if the roll is a 1 or 2 then the usage die shrinks one step. When you roll a 1 or 2 on a d4, the item is all used up.
+
+    d20 → d12 → d10 → d8 → d6 → d4 → 0
+
+    The larger the starting usage die, the more uses you'll get out of an item before it expires. The Usage Dice table shows the average number of times you can expect to roll a usage die before it's down to the very last use.
+
+
+    <div class="block classTable fillClassTable frame" markdown="1">
+
+    #### Usage Dice
+    | Starting Size | Average Uses | Starting Size | Average Uses |
+    |:-------------:|:------------:|:-------------:|:------------:|
+    | d20 | 30 | d8 | 9
+    | d12 | 20 | d6 | 5
+    | d10 | 14 | d4 | 2
+
+    </div>
+
+-   ### <a class="internal-link" name="internal-Weapons">Weapons</a>
+
+    Every weapon belongs to a category, which decides its statistics. More information can be found on the <a href="weapons.html">Weapon page</a>.
 
 </div>
 

@@ -278,6 +278,12 @@ summary p {
   margin-bottom: 0px;
 }
 
+.indextoc {
+  margin: 10px 10px 0px 10px;
+  padding: 5px;
+  text-align:center
+}
+
 .toc {
   border: 1px solid black;
   border-radius: 8px;

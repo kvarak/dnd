@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+
+    {% include navigation.html %}
+    <div class="container container-main">
+
+      <h2>{{ page.title }}</h2>
+
+      {% for nav in site.data.navigation %}
+      {% if nav.header == "Rules" %}
+        <div class="columns">
+        <ul>
+          {% for subnav in nav.subheaders %}
+            {% if subnav.header != "Index" %}
+              {% for collection in site.collections %}
+                {% if collection.label == subnav.folder %}
+                  {% for doc in collection.docs %}
+                    {% if doc.type == "index" %}
+                      {% assign thetext = "" %}
+                      {% assign inside = 0 %}
+                      {% assign string = doc.content | split: " " %}
+                      {% for word in string %}
+                        {% if word == "<div" %}
+                          {% assign inside = 1 %}
+                        {% endif %}
+                        {% if inside == 1 %}
+                          {% assign thetext = thetext | append: " " %}
+                          {% assign thetext = thetext | append: word %}
+                        {% endif %}
+                        {% if word == "</div>" %}
+                          {% if inside == 1 %}
+                            {% break %}
+                          {% endif %}
+                        {% endif %}
+                      {% endfor %}
+                      <li>
+                        {% assign thetext = thetext | replace: '<div class="toc">', '<div class="indextoc">' %}
+                        {% comment %} {% assign thetext = thetext | replace: '<div class="toc">', '' %} {% endcomment %}
+                        {% comment %} {% assign thetext = thetext | replace: '</div>', '' %} {% endcomment %}
+                        {{ thetext }}
+                        <hr class="dividerinfolk">
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+          </ul>
+
+        </div>
+      {% endif %}
+      {% endfor %}
+
+    </div>
+  </body>
+</html>
