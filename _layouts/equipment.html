@@ -23,6 +23,8 @@
           tableContent.push([row['Item'],row['Category'],row['Price'],weight,description]);
         });
 
+        document.getElementById("alert").innerHTML = "Imported " + data.length + " items.";
+
         var contentTable = $('#contentTable').DataTable({
           data: tableContent,
           order: [[0, 'desc']],
@@ -73,6 +75,8 @@
   <div class="container container-main">
     <h1>Equipment</h1>
     For most items the price is for something that is functional, used by a commoner. The price x5 is someting used by the upper end of the middle class. Lowest price x10 for upper class, and something for the aristocratic circles would cost x100.
+    <hr>
+    <p id="alert" style="font-style:italic;font-size-adjust:-1;">Please wait, importing items...</p>
     <hr>
     <table class="table table-striped table-hover table-condensed" id="contentTable"></table>
   </div>
