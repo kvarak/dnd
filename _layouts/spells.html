@@ -31,7 +31,7 @@
         var tableContent = []
         var data = results.data
 
-        $('#alert').text('Imported' + data.length + ' spells.')
+        $('#alert').text('Imported ' + data.length + ' spells.')
 
         var archetypeDict = {};
         {% for class in page.classes %}
@@ -67,6 +67,7 @@
             if (row['{{ class }}'] != "Yes" && row['{{ class }}'] != "No") {
 //              archetypes += row['{{ class }}'] + ", ";
               archetypes = row['{{ class }}'].split(',')
+              archetypeDict['{{ class }}'] = []
               for (const element of archetypes) {
                 archetypeDict['{{ class }}'].add(element)
               };
