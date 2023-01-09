@@ -68,15 +68,10 @@
 //              archetypes += row['{{ class }}'] + ", ";
               archetypes = row['{{ class }}'].split(',')
               
-              archetypeDict['{{ class }}'] = [];
               for (const element of archetypes) {
-                archetypeDict['{{ class }}'].push(element)
+                archetypeDict['{{ class }}'].add(element)
               };
             };
-            console.log('{{ class }}')
-            console.log(archetypeDict['{{ class }}'])
-
-            archetypeDict['{{ class }}'] = Array.from(archetypeDict['{{ class }}']).sort();
           {% endfor %}
 
           tableContent.push([
@@ -114,6 +109,9 @@
         {% assign i = firstclass %}
 
         {% for class in page.classes %}
+
+          archetypeDict['{{ class }}'] = Array.from(archetypeDict['{{ class }}']).sort();
+
           archetypeDict['{{ class }}'].forEach (function(archetype) {
             $('#archetypeSelection').append('<option class="{{ i }}archetype" value="' + archetype + '" d-none>' + archetype + '</option>');
             {% assign i = i | plus:1 %}
