@@ -72,6 +72,8 @@
                 archetypeDict['{{ class }}'].push(element)
               };
             };
+            console.log('{{ class }}')
+            console.log(archetypeDict['{{ class }}'])
             archetypeDict['{{ class }}'] = archetypeDict['{{ class }}'].sort();
           {% endfor %}
 
