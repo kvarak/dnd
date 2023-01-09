@@ -67,14 +67,16 @@
             if (row['{{ class }}'] != "Yes" && row['{{ class }}'] != "No") {
 //              archetypes += row['{{ class }}'] + ", ";
               archetypes = row['{{ class }}'].split(',')
-              archetypeDict['{{ class }}'] = []
+              
+              archetypeDict['{{ class }}'] = [];
               for (const element of archetypes) {
                 archetypeDict['{{ class }}'].push(element)
               };
             };
             console.log('{{ class }}')
             console.log(archetypeDict['{{ class }}'])
-            archetypeDict['{{ class }}'] = archetypeDict['{{ class }}'].sort();
+
+            archetypeDict['{{ class }}'] = Array.from(archetypeDict['{{ class }}']).sort();
           {% endfor %}
 
           tableContent.push([
