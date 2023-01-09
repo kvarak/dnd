@@ -72,7 +72,7 @@
                 archetypeDict['{{ class }}'].push(element)
               };
             };
-            archetypeDict['{{ class }}'] = archetypeDict['{{ class }}'].sort;
+            archetypeDict['{{ class }}'] = archetypeDict['{{ class }}'].sort();
           {% endfor %}
 
           tableContent.push([
