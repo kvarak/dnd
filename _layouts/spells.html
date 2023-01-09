@@ -2,7 +2,6 @@
 <html>
   <head>
     {% include head.html %}
-    <!-- <link href="../assets/css/newstyle.css" rel="stylesheet"> -->
 
     <!-- Datatables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.css"/>
@@ -12,8 +11,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
 
     <script type="text/javascript">
-      // timeline
-      // var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1prVAoIfRSMnyqJ3dTe-0jRRja8c3Gy-Be8hiP3VYn28/pub?output=csv';
       // spells
       var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1Lsmu72Ssq48d7Df2zqYDFUoHsdsOb7K1L_u1FshKJWc/pub?output=csv';
 
@@ -30,11 +27,11 @@
       var contentTable = $('#contentTable').DataTable({data: []});
 
       function fillTable(results) {
-        {% assign firstclass = 4 %}
+        {% assign firstclass = 3 %}
         var tableContent = []
         var data = results.data
 
-        document.getElementById("alert").innerHTML = "Imported " + data.length + " spells.";
+        $('#alert').text('Imported' + data.length + ' spells.')
 
         var archetypeDict = {};
         {% for class in page.classes %}
@@ -68,20 +65,20 @@
           var archetypes = ""
           {% for class in page.classes %}
             if (row['{{ class }}'] != "Yes" && row['{{ class }}'] != "No") {
-              archetypes += row['{{ class }}'] + ", ";
-              
+//              archetypes += row['{{ class }}'] + ", ";
               archetypes = row['{{ class }}'].split(',')
               for (const element of archetypes) {
                 archetypeDict['{{ class }}'].add(element)
               };
             };
+            archetypeDict['{{ class }}'] = archetypeDict['{{ class }}'].sort;
           {% endfor %}
 
           tableContent.push([
             txt,
             row['Web_Description'],
             row['Level'],
-            archetypes,
+  //          archetypes,
             {% for class in page.classes %}
               row['{{ class }}'],
             {% endfor %}
@@ -100,7 +97,7 @@
             { title: 'Spell'},
             { title: 'Description'},
             { title: 'Level'},
-            { title: 'Archetypes'},
+//            { title: 'Archetypes'},
             {% for class in page.classes %}
             { title: '{{ class }}'},
             {% endfor %}
@@ -113,7 +110,7 @@
 
         {% for class in page.classes %}
           archetypeDict['{{ class }}'].forEach (function(archetype) {
-            $('#archetypeSelection').append('<option class="{{ i }}archetype" value="' + archetype + '" hidden>' + archetype + '</option>');
+            $('#archetypeSelection').append('<option class="{{ i }}archetype" value="' + archetype + '" d-none>' + archetype + '</option>');
             {% assign i = i | plus:1 %}
           });
         {% endfor %}
@@ -122,16 +119,22 @@
 
       
       $(document).ready(function() {
-
+        {% assign levelposition = 2 %}
+        
         ////////////////////////////
         //// Initialize selections
-        {% assign levelposition = 2 %}
-
         $('#classSelection').data('pre', $(this).val());
         $('.levelSelect').each(function() {
           $(this).prop('checked', true);
         });
 
+
+        ////////////////////////////
+        //// Count spells
+        function countSpells() {
+          spellCount = $('#contentTable').DataTable().rows( {search:'applied'} ).count();
+          $('#alert').text(spellCount + ' spells in selection')            
+        };
 
 
 
@@ -147,8 +150,11 @@
             .columns( '{{ levelposition }}' )
             .search( levels.join('|'), true, false )
             .draw();
-          });
         
+          countSpells();
+        });
+        
+
         ////////////////////////////
         //// Reset level selection
         $('#resetLevel').on('click', function() {
@@ -173,6 +179,8 @@
             .search( '' )
             .draw();
           }
+
+          countSpells();
         });
 
         
@@ -193,18 +201,37 @@
             .column( selectedClassCol )
             .search( '^((?!No).)*$', true, false )
             .draw();
-          
+
+          $('.' + value_before_change + 'archetype').addClass('d-none');
+
           if (selectedClassCol == '{{ levelposition }}' ) {
-            $('#archetypeSelection').hide();
+            $('#archetypeSelection').addClass('d-none');
           } else {
-            $('#archetypeSelection').show();
-            $('#' + selectedClassCol + 'archetype').show();
+            $('#archetypeSelection').removeClass('d-none');
+            $('#archetypeSelection').val('None').change();
+            $('.' + selectedClassCol + 'archetype').removeClass('d-none');
           }
 
           // save currently selected
           $(this).data('pre', $(this).val());
-        });      
-      });      
+          countSpells();
+        });
+
+        ////////////////////////////
+        //// Archetype selection
+        $('#archetypeSelection').on('change', function() {
+          classColumn = $('#classSelection').val()
+          archetypeRegEx = 'Yes|' + $('#archetypeSelection').val()
+          
+          $('#contentTable').DataTable()
+            .columns( classColumn )
+            .search( archetypeRegEx , true, false )
+            .draw();
+
+          countSpells();
+        });    
+
+      });
     </script>
   </head>
 
@@ -248,7 +275,8 @@
         </div>
 
         <div class="col-sm-4">
-          <select class="form-control" id="archetypeSelection" hidden>
+          <select class="form-control d-none" id="archetypeSelection">
+            <option id="baseChoice" value="None">Base class spells</option>
           </select>    
         </div>
 
