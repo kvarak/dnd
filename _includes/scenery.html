@@ -4,7 +4,7 @@
 {% for scene in site.data.scenery %}
 {% if scene.path == include.path %}
 
-- <img src="{{ scene.img }}" style="width:95%;">
+- <a href="{{ scene.img }}"><img src="{{ scene.img }}" style="max-width:95%;padding:20px;"></a>
   <br/><i>{{ scene.name }}</i>
 
 {% endif %}

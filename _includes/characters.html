@@ -4,7 +4,7 @@
 {% for c in site.data.characters %}
 {% if c.path == include.path %}
 
-- <img src="{{ c.img }}" style="max-width:200px;">
+- <a href="{{ c.img }}"><img src="{{ c.img }}" style="max-width:95%;padding:20px;"></a>
   <br/><i>{{ c.name }}</i>
 
 {% endif %}

@@ -89,6 +89,9 @@
   name: Alternative view of Sabri
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Sabri01.jpg
 - path: 6
+  name: Alternative view of Primotep
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Primotep 2.jpg
+- path: 6
   name: Havoc
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Havoc.jpg
 - path: 6
@@ -119,18 +122,15 @@
   name: Hief
   img: ../assets/campaigns/06-Into-the-Dark-Continent/npc-Hief.jpg
 - path: 6
+  name: Sudi
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Sudi.jpg
+- path: 6
   name: Tiamat
   img: ../assets/campaigns/06-Into-the-Dark-Continent/tiamat.png
 
 - path: 7
-  name: Carmen
-  img: ../assets/campaigns/07-Haunted-Lands/Carmen.jpg
-- path: 7
   name: Ettore
   img: ../assets/campaigns/07-Haunted-Lands/Ettore.jpg
-- path: 7
-  name: Kendra
-  img: ../assets/campaigns/07-Haunted-Lands/Kendra.jpg
 - path: 7
   name: Liiza
   img: ../assets/campaigns/07-Haunted-Lands/Liiza.jpg
@@ -159,6 +159,9 @@
   name: Submarine
   img: ../assets/campaigns/07-Haunted-Lands/sub.png
 
+- path: 8
+  name: Alternative view of Catan
+  img: ../assets/campaigns/08-Return-to-Sandpoint/Catan02.jpg
 - path: 8
   name: Thing in the cabin
   img: ../assets/campaigns/08-Return-to-Sandpoint/thinginthecabin.png
@@ -212,7 +215,7 @@
   name: Monkey snake
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/apormen.jpeg
 - path: 9
-  name: Cycklop heads
+  name: Carved heads on the side of the well
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/cyclops.png
 - path: 9
   name: Giles Halmis
