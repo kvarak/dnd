@@ -65,7 +65,6 @@
           var archetypes = ""
           {% for class in page.classes %}
             if (row['{{ class }}'] != "Yes" && row['{{ class }}'] != "No") {
-//              archetypes += row['{{ class }}'] + ", ";
               archetypes = row['{{ class }}'].split(',')
               
               for (const element of archetypes) {
@@ -78,7 +77,6 @@
             txt,
             row['Web_Description'],
             row['Level'],
-  //          archetypes,
             {% for class in page.classes %}
               row['{{ class }}'],
             {% endfor %}
@@ -97,7 +95,6 @@
             { title: 'Spell'},
             { title: 'Description'},
             { title: 'Level'},
-//            { title: 'Archetypes'},
             {% for class in page.classes %}
             { title: '{{ class }}'},
             {% endfor %}
@@ -113,7 +110,7 @@
           archetypeDict['{{ class }}'] = Array.from(archetypeDict['{{ class }}']).sort();
 
           archetypeDict['{{ class }}'].forEach (function(archetype) {
-            $('#archetypeSelection').append('<option class="{{ i }}archetype" value="' + archetype + '" d-none>' + archetype + '</option>');
+            $('#archetypeSelection').append('<option class="{{ i }}archetype d-none" value="' + archetype + '">' + archetype + '</option>');
             {% assign i = i | plus:1 %}
           });
         {% endfor %}
@@ -192,8 +189,6 @@
         //// Class selection
         $('#classSelection').on('change', function() {
           var value_before_change = $(this).data('pre');
-          console.log(value_before_change)
-          
           var selectedClassCol = $(this).val();
           
           var table = $('#contentTable').DataTable()
