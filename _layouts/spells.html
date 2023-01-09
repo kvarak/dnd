@@ -92,7 +92,7 @@
           iDisplayLength: -1,
           columnDefs: [
             { targets: [0,1], visible: true},
-            { targets: '_all', visible: true }],
+            { targets: '_all', visible: false }],
           columns: [
             { title: 'Spell'},
             { title: 'Description'},
@@ -127,6 +127,7 @@
         ////////////////////////////
         //// Initialize selections
         $('#classSelection').data('pre', $(this).val());
+               
         $('.levelSelect').each(function() {
           $(this).prop('checked', true);
         });
@@ -191,6 +192,8 @@
         //// Class selection
         $('#classSelection').on('change', function() {
           var value_before_change = $(this).data('pre');
+          console.log(value_before_change)
+          
           var selectedClassCol = $(this).val();
           
           var table = $('#contentTable').DataTable()
