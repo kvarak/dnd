@@ -69,7 +69,7 @@
               archetypes = row['{{ class }}'].split(',')
               archetypeDict['{{ class }}'] = []
               for (const element of archetypes) {
-                archetypeDict['{{ class }}'].add(element)
+                archetypeDict['{{ class }}'].push(element)
               };
             };
             archetypeDict['{{ class }}'] = archetypeDict['{{ class }}'].sort;
