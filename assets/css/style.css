@@ -149,6 +149,9 @@ summary p {
   margin-top: 0px;
 }
 
+.dropdown li {
+  overflow-y: scroll;
+}
 
 /* -------------------------------------------------------------------- */
 /* nav bar dropdowns */
