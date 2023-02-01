@@ -401,6 +401,12 @@ You master one type of game in this category, and have ***Expertise*** on such c
 <summary>Luck-based Games</summary>
 
 The skill of increasing your chance of winning on mostly Luck based games. If you have the Mathematics skill, you additionally gain ***Expertise***.
+<details>
+<summary>Professional Gamling</summary>
+With a lifetime of pushing your luck, you know when the odds are in your favor. Barring intentional obfuscation, you’re generally able to puzzle out and exploit any common advantage in your favor in a game of chance. You’re also familiar with all of the normal traps the house or other gamblers may use to trick or swindle you.
+
+Additionally, you know how to secure an invite even to the most hush-hush of private games. You can leverage your contacts and savvy to get yourself invited to back-room and even upper-crust gambling events. Depending on how secret or exclusive the game, it might take you some time to find the right “in.”
+</details>
 </details>
 
 </div>
