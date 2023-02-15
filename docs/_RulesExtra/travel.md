@@ -35,7 +35,7 @@ If you wish to make a journey, there are some basic steps to follow: plan your r
   A character needs ***one pound of food per day*** and can go without food for a number of days equal to 3 + Constitution modifier (min 1). At the end of each day beyond that limit, a character automatically suffers one level of exhaustion. A normal day of eating resets the count of days without food to zero.
 
 - #### Water
-  Unless a character drinks ***one gallon of water per day***, or two gallons if the weather is hot, he  must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion at the end of the day. A character drinking less than half that, automatically suffers one level of exhaustion at the end of the day. If the character already has one or more levels of exhaustion, the character takes two levels in either case.
+  Unless a character drinks ***a half gallon of water per day***, or one gallons if the weather is hot (a waterskin holds a half gallon of liquid), he must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion at the end of the day. A character drinking less than half that, automatically suffers one level of exhaustion at the end of the day. If the character already has one or more levels of exhaustion, the character takes two levels in either case.
 
 </div>
 
