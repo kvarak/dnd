@@ -74,17 +74,17 @@ Each travel day is broken up into distinct phases — breaking camp, travel, set
 - <div class="block classTable fillClassTable frame" markdown="1">
 
   #### Travelling Pace
-  | Pace | Hour | Day | Guide | Forage |
-  |:------------|:----:|:---:|:-----:|:------:|
-  | Slow | 1.5&nbsp;miles | 12&nbsp;miles | Adv. | Normal |
-  | Medium | 2&nbsp;miles | 16&nbsp;miles | Normal | Disadv. |
-  | Fast | 3&nbsp;miles | 24&nbsp;miles | Disadv. | None |
+  | Pace | Hour | Day | Guide | Forage | Lookout |
+  |:------------|:----:|:---:|:-----:|:------:|:------:|
+  | Slow | 1.5&nbsp;miles | 12&nbsp;miles | Adv. | Normal | Adv. |
+  | Medium | 2&nbsp;miles | 16&nbsp;miles | Normal | Disadv. | Normal |
+  | Fast | 3&nbsp;miles | 24&nbsp;miles | Disadv. | None | Disadv. |
 
-  | Pace | Scout | Hide Tracks | Effect |
-  |:------------|:-----:|:-----------:|:-------|
-  | Slow | Adv. | Adv. | -5 penalty to Perception
-  | Medium | Normal | Normal | —
-  | Fast | Disadv. | Disadv. | Able to use stealth
+  | Pace | Hide Tracks | Effect |
+  |:-----|:-----------:|:-------|
+  | Slow | Adv. | Able to use stealth
+  | Medium | Normal | —
+  | Fast | Disadv. | -5 penalty to Perception
 
   </div>
 
