@@ -2382,7 +2382,26 @@ Adds the option to safely manufacture other types of herbal poisons, being conta
 You are skilled at a specific job that is not covered by other skills. Like Art, Craft and Knowledge, this is a number of separate skills, and each Profession skill represents an aptitude in a vocation requiring a broader range of less specific knowledge. Some common Profession skills are baker, brewer, butcher, clerk, courtesan, driver, farmer, fisherman, gardener, innkeeper, librarian, merchant, midwife, miller, miner, porter, shepherd, stable master, soldier, trapper and woodcutter. In many cases there is an overlap between a Profession skill and other skills. The Profession skill is normally less specific and only includes the basic knowledge to perform the profession, as well as how to get in touch with potential employers or other similar professionals of your type, how to get hold of materials and tools or appraising the price and quality of services. In addition you have Synergy (Speechcraft) when interacting with other professionals or your type.
 
 During downtime you can practice your profession, allowing you to live a modest lifestyle without paying the cost.
+
 </div>
+
+<details>
+<summary>Merchant</summary>
+One common profession is the merchant. This profession allows you to add your proficiency bonus to all types of transactions when trading, buying and selling. 
+
+However, if you have a specialization, such as books, weapons, animal or basically any type of items that are usually traded, you can additionally select the following skills.
+
+<details>
+<summary>Appraiser (trait)</summary>
+The skill to correctly identify the approximate value of items within your expertise according to their workmanship and innate value. Your experience allows you to always know an approximate value after examining an object for a few minutes.
+</details>
+
+<details>
+<summary>Trader</summary>
+
+You know how and where to sell and buy items within your expertise to earn the most. This applies on transactions from single items to wholesale bulk. You have ***Expertise*** on all such checks, including checks made to find information about sellers and buyers.
+</details>
+</details>
 </details>
 
 <!-- ---------------------------- SAILOR ----------------------------------  -->
