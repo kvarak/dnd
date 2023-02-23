@@ -1909,6 +1909,16 @@ You recognize the attack patterns of many Beasts. Knowing how they attack and re
 </details>
 
 <details>
+<summary>Dragons</summary>
+You know how to recognize and identify different types of ddragons. This identification includes the ecology of the dragon, the threats it imposes and its general behavior and motives.
+<details>
+<summary>Fight Dragons (trait)</summary>
+You recognize the attack patterns of many Dragons. Knowing how they attack and recognizing their intentions provides +2 AC against Dragons, as well as advantage on saving throws against their breath weapons.
+</details>
+</details>
+
+
+<details>
 <summary>Fungi</summary>
 You are familiar with the fleshy and edible fruit bodies of several species of mushroom, including those that grow above and below ground. Mushrooms are eaten for their food value and for other qualities, some of them magical, as well as being a poison source. The study includes yeasts, lichen and mushrooms, shriekers and violet fungi, as well as sentient forms of fungus such as yellow musk creepers.
 <details>
