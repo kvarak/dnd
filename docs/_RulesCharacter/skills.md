@@ -2147,11 +2147,6 @@ The means of making an image using paint, pencil, pen and ink, charcoal, pastels
 </details>
 
 <details>
-<summary>Literature</summary>
-Mastery of storytelling for the purpose of providing intellectual or artistic merit, as a means to enlighten, communicate or serve as a source of knowledge and reference for a literate audience.
-</details>
-
-<details>
 <summary>Make-up</summary>
 The art of applying make-up, commonly used to enhance one’s appearance, but can also be used for theatrical make-up or even to imitate the resemblance of another person or creature.
 <details>
