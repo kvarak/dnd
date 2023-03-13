@@ -2109,9 +2109,16 @@ Art is a group of skills that involves creative or imaginative talent expressive
 The art in which the character tells a story through speech, emotional expressivity, improvisation and physicality. The skill requires an impressive memory, imagination, strength of voice and the ability to intuitively understand intelligent beings. Actors train at length in formal speaking, while gaining a wide knowledge in dramatic literature and humanoid culture.
 <details>
 <summary>Master Actor</summary>
-
 *“There was a **WHAT**? A robbery?!”*<br>
 You have ***Expertise*** on acting checks. Additionally you may spend an Inspiration to add 1d8 to any Deception check. If you roll a 5 or less, this inspiration is not expended on use.
+
+<details>
+<summary>Inspiring Speech</summary>
+
+*“Brothers! Sisters! I say, to arms!”*<br>
+You may spend an Inspiration to roll a number of d12s equal to your Charisma modifier. The result is granted as temporary hitpoints, divided among any number of companions who can see and hear you.
+</details>
+
 </details>
 <details>
 <summary>Playwriting</summary>
