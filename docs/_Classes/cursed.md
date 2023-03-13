@@ -455,6 +455,11 @@ As an ***action*** you can try to engulf a creature of your size or smaller. The
 
 When you move, the engulfed creature moves with you. At the end of each of its rounds, the engulfed creature can try to escape by making a Strength (Athletics) or Dexterity (Acrobatics) check against the DC. On a success, the creature escapes.
 
+#### Eye Beams
+Your eyes are abnormally large and bulbous, and have a faint glow. As an action, you can focus your gaze on a creature, and make a ranged weapon attack, as you create a bright beam from the eyes. On a hit, it takes 1d8 force damage, plus your Constitution modifier.
+
+The damage of this beam increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+
 #### Gibbering
 Your cursed form has constantly and incoherently babbling mouths and maws all over its body. Each creature that starts its turn within 20 ft and can hear your babbling must succeed on a Wisdom saving throw. On a failure, the creature can't take reactions until the start of its next turn and rolls for the action during their turn as if under the effect of the *confusion* spell. You can suppress this at will, but it requires concentration to do so.
 

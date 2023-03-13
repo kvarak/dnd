@@ -281,6 +281,8 @@ At higher levels, you can adopt both more aspects simultaneously and more powerf
 
     **Gorilla Arms**. Your carrying capacity is doubled, your reach increases to 10 ft, and you have advantage on strength checks to break objects.
 
+    **Manta Glide**. You have a membrane between your arms and body that you can use to slow your fall or allow you to glide. When you fall and aren't incapacitated, you can subtract up to 100 ft from the fall when calculating falling damage, and you can move up to 2 ft horizontally for every 1 ft you descend.
+
 - #### Eyes
     **Compound Eyes**. You have advantage on any Investigation checks made to notice fine details or changes.
 
@@ -294,6 +296,8 @@ At higher levels, you can adopt both more aspects simultaneously and more powerf
 - #### Legs
   **Cat Paws**. You ignore the effects of difficult terrain when moving.
 
+  **Cricket’s Step**. Your long jump is 30 ft and your high jump is up to 15 ft, without a running start. With a running start, both of these distances increase by 10 ft. Additionally, your speed increases by 5 ft while not wearing armor.
+
   **Horse Hooves**. Your speed increases by 20 ft.
 
   **Raptor Talons**. Your legs turn into those of a raptor, allowing you to deal 1d6 + Dexterity slashing damage with your unarmed attack. In addition, you may use your ***bonus action*** to make an unarmed attack.
@@ -301,6 +305,8 @@ At higher levels, you can adopt both more aspects simultaneously and more powerf
   **Spider Legs**. You gain a climb speed equal to your speed.
 
 - #### Mouth
+    **Frog's Tongue**. Your tongue, while still able to perfectly fit inside your mouth, can extend up to 15 ft. It can be used to grab objects to pull towards you. If the object is being held or some other resistance, make a strength skill check to determine whether you can pull the object against the DC your GM finds appropriate. 
+
     **Snake's Fang**. You can use a ***bonus action*** to make a bite attack. On a hit, you deal 1d8 + Strength modifier piercing damage, and the target must make a Constitution save or become poisoned until the end of your next turn. The DC is equal to your spell save DC.
 
 - #### Nose
@@ -309,9 +315,16 @@ At higher levels, you can adopt both more aspects simultaneously and more powerf
     **Shark's Frenzy**. You have advantage on melee attack rolls against any creature that doesn't have all its hit points. However, after your attack, attacks against you also have advantage.
 
 - #### Skin
+    **Barbed Hide**. At the start of your turn, deal 1d10 piercing damage to any creature grappling you, or which you are grappling.
+
     **Beetle Carapace**. You gain resistance to bludgeoning, piercing, and slashing damage.
 
     **Chameleon Skin**. You have advantage on Dexterity (Stealth) checks, and become invisible as long as you are completely still.
+
+- #### Tail
+    **Lizard Tail**. You gain a quick and powerful tail. As a ***reaction***, when a creature moves within 10 ft of you, you can make an unarmed attack against that creature using your tail. On a hit, you deal 1d10 bludgeoning damage and you knock the target prone if it is no more than on size larger than you and fails a Strength save against you spell save DC.
+
+   **Scorpion's Stinger**. The stinger on this tail counts as deals a weapon with Finesse and Reach. On a successful hit it deals 1d4 damage, and the tatget must make a constitution saving throw. If they fail, they take 1d8 poison damage.
 
 - #### Any
     The following do not conflict with any other aspects, including the ones in the same group.
@@ -320,11 +333,11 @@ At higher levels, you can adopt both more aspects simultaneously and more powerf
 
     **Boar's Heart**. The first time you would be reduced to 0 hit points, you are instead reduced to 1 hit point. This ability only works once per Wild shape.
 
+    **Electric Organ**. Just like an electric eel, you build up an internal electrical current which you can discharge against an unsuspecting attacker. When a creature hits you with a melee attack, you can use your ***reaction*** to deliver an electric shock to them, dealing lightning damage equal to your Constitution modifier.
+
     **Elephant Bones**. You gain temporary hit points equal to your Wisdom modifier + your druid level (minimum +1).
 
     **Gills**. You can breathe both air and water.
-
-    **Lizard Tail**. You gain a quick and powerful tail. As a ***reaction***, when a creature moves within 10 ft of you, you can make an unarmed attack against that creature using your tail. On a hit, you deal 1d10 bludgeoning damage and you knock the target prone if it is no more than on size larger than you and fails a Strength save against you spell save DC.
 
 - #### Special
     These have special requirements, such as being counted as several aspect groups.
@@ -342,6 +355,8 @@ You have mastered the ability to adopt a aspects beyond normal beasts and animal
 <div class="columnsthree">
 
 - #### Eyes
+    **Beholder Eyes**. Your eyes become abnormally large and bulbous, and have a faint glow. As an action, you can focus your gaze on a creature, and make a ranged weapon attack, as you create a bright beam from your eyes. On a hit, it takes 3d8 force damage, plus your Constitution modifier.
+
     **Umber Hulk Eyes**. While you manifest this supernatural aspect, you have advantage on Strength saving throws and ability checks. In addition, you may use casts the *confusion* spell at will.
 
 - #### Horns
