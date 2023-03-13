@@ -2110,9 +2110,10 @@ The art in which the character tells a story through speech, emotional expressiv
 <details>
 <summary>Master Actor</summary>
 
-*“There was a WHAT? A robbery?!”*
+*“There was a **WHAT**? A robbery?!”*<br>
 You have ***Expertise*** on acting checks. Additionally you may spend an Inspiration to add 1d8 to any Deception check. If you roll a 5 or less, this inspiration is not expended on use.
 </details>
+<details>
 <summary>Playwriting</summary>
 The skill to write plays, enabling the character to create the preordained dialogue and performance to be employed by actors; the creation of dramatic content.
 </details>
