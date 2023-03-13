@@ -395,12 +395,22 @@ You can think tactically and understand how you win games that do not include Lu
 
 You master one type of game in this category, and have ***Expertise*** on such checks.
 </details>
+
+<summary>Read the Odds (trait)</summary>
+If you roll an attack and miss, you may choose to spend an inspiration to “take back” the attack as if it never happened, not expending ammunition/spell slots, revealing your location or your hostility to an enemy.
+</details>
 </details>
 
 <details>
 <summary>Luck-based Games</summary>
 
 The skill of increasing your chance of winning on mostly Luck based games. If you have the Mathematics skill, you additionally gain ***Expertise***.
+
+<details>
+<summary>Luckiest Player Alive (trait)</summary>
+If you roll a 7 on any dice, you can spend an inspiration to roll that dice again and add the results together. If you continue to roll 7s, continue to roll and add the results.
+</details>
+
 <details>
 <summary>Professional Gamling</summary>
 With a lifetime of pushing your luck, you know when the odds are in your favor. Barring intentional obfuscation, you’re generally able to puzzle out and exploit any common advantage in your favor in a game of chance. You’re also familiar with all of the normal traps the house or other gamblers may use to trick or swindle you.
@@ -789,8 +799,8 @@ You are used to sleeping in armor and have *Expertise* on checks to avoid fatigu
 </details>
 
 <details>
-<summary>Sprinter (trait)</summary>
-You can run fast for short distances. During combat you can take a bonus action to Dash. When Dashing outside combat, you can add 4 times your speed. You can keep this up for 2 rounds. Instead you can add 3 times your speed for 10 rounds. If you want to continue, you can make a Constitution save against DC 10. On a success you can continue one more round, on a fail you get one level of Exhaustion. You can continue doing this with a cumulative +5 on the DC each round.
+<summary>Hidden reserves (trait)</summary>
+You can spend an inspiration and choose an expended spell slot for any level of spell you can cast, then roll 1d6 for each level of that slot. Regain that spell slot, but also gain 1 level of exhaustion for each roll of 1, 2 or 3.
 </details>
 
 <details>
@@ -815,6 +825,11 @@ You are good at jumping both long and high, and have ***Expertise*** on such che
 <summary>Manual Labor</summary>
 
 You are used to manual labor and perform it well, and have ***Expertise*** if you need to make a check for such an activity. Having this proficiency allows you to use it as if it were a profession for the purposes of Downtime. In addition, you can use this skill with Charisma on checks to communicate with manual laborers.
+</details>
+
+<details>
+<summary>Sprinter (trait)</summary>
+You can run fast for short distances. During combat you can take a bonus action to Dash. When Dashing outside combat, you can add 4 times your speed. You can keep this up for 2 rounds. Instead you can add 3 times your speed for 10 rounds. If you want to continue, you can make a Constitution save against DC 10. On a success you can continue one more round, on a fail you get one level of Exhaustion. You can continue doing this with a cumulative +5 on the DC each round.
 </details>
 
 <details>
@@ -1749,14 +1764,16 @@ Powerful artifacts affect the area and creatures in their vicinity. This skill i
 </details>
 
 <details>
-<summary>Historical Accuracy</summary>
+<summary>Expert of Antiquities (trait)</summary>
 
-You are trained in authentication of historical documents and objects. When investigating a historical document or other matter of historical interest such as a map or work of art, for example examining a document to determine if it is a forgery, you have ***Expertise***. You also have ***Expertise*** when authenticating an object from an Ancient culture with which you have proficiency, with Weapons & armor if you have that proficiency, and finally with other objects from your known cultures if you have Archaeology.
+*“Believe it or not, I’ve seen one of these before.”*<br>
+Having examined hundreds upon hundreds of antiquities, many of which with historical pedigrees reaching into the distant pasts, you can more easily identify magic items. With a DC 15 History check, you can identify the qualities of an item as if you had used the *Identify* spell.
 </details>
 
 <details>
-<summary>Identify Weapons & Armor</summary>
-Having examined hundreds upon hundreds of weapons and armor, many of which with historical pedigrees reaching into the distant pasts, you can more easily identify magic weapons or magic armor, when they can be handled, as well as increasing your chances to avoid being affected by such cursed items.
+<summary>Historical Accuracy</summary>
+
+You are trained in authentication of historical documents and objects. When investigating a historical document or other matter of historical interest such as a map or work of art, for example examining a document to determine if it is a forgery, you have ***Expertise***. You also have ***Expertise*** when authenticating an object from an Ancient culture with which you have proficiency, with Weapons & armor if you have that proficiency, and finally with other objects from your known cultures if you have Archaeology.
 </details>
 
 <details>
@@ -2108,12 +2125,13 @@ Art is a group of skills that involves creative or imaginative talent expressive
 <summary>Acting</summary>
 The art in which the character tells a story through speech, emotional expressivity, improvisation and physicality. The skill requires an impressive memory, imagination, strength of voice and the ability to intuitively understand intelligent beings. Actors train at length in formal speaking, while gaining a wide knowledge in dramatic literature and humanoid culture.
 <details>
-<summary>Master Actor</summary>
+<summary>Master Actor (trait)</summary>
+
 *“There was a **WHAT**? A robbery?!”*<br>
 You have ***Expertise*** on acting checks. Additionally you may spend an Inspiration to add 1d8 to any Deception check. If you roll a 5 or less, this inspiration is not expended on use.
 
 <details>
-<summary>Inspiring Speech</summary>
+<summary>Inspiring Speech (trait)</summary>
 
 *“Brothers! Sisters! I say, to arms!”*<br>
 You may spend an Inspiration to roll a number of d12s equal to your Charisma modifier. The result is granted as temporary hitpoints, divided among any number of companions who can see and hear you.
@@ -2170,6 +2188,12 @@ You have training in concealing your appearance, trying to pass yourself off as 
 <summary>Disguise II (trait)</summary>
 Your skill with disguises has reached where you can impersonate others. This will usually only work for shorter encounters with people who don’t know the person you’re impersonating so well.
 </details>
+</details>
+
+<summary>Look Your Best (trait)</summary>
+
+*“Whoever trimmed your beard like that should be hung. Here. Allow me.”*<br>
+After 20 minutes of work, you may grant a 1d6 bonus to a character's next Charisma check, if appripriate, i.e looks can improve it.
 </details>
 </details>
 
@@ -3224,6 +3248,21 @@ This group collects additional traits that are not part of a skill.
 <div markdown="1">
 
 You have cheated death so often that even Pharasma now deems it part of your fate. This allows you to reroll any roll where failure has a chance of killing you or reducing you to 0 hp. This might be an attack roll against you when you are low on hp, an unexpectedly high damage roll, a failed save against an ability damage or spell effect that instantly kills. When using it, the reroll is made with advantage or disadvantage, your choice. You can use this a number of times equal to the number of times you have died, and regain all uses when you finish a short rest.
+</div>
+</details>
+
+<details>
+<summary>Drunkard
+
+&nbsp;&nbsp; *Requirement: Must be a drunkard*
+</summary>
+<div markdown="1">
+
+You defenitely have problems with alcohol, being constantly at some level of inebreity. The following applies to you:
+- Each first Dexterity, Intelligence and Wisdom save you make each day is made with disadvantage.
+- **Cocktail**. If you consume a potion you have mixed with alcohol, roll 2d8 and gain that many temporary hit points. If you roll two 1s, you are poisoned for one hour instead. Drinking such a cocktail takes at least a full round.
+- **Drunken Lurch**. If an enemy hits you with an attack, you can spend an Inspiration to gain resistance to that damage, then move into a random empty space within 5 ft and fall prone.
+- **Boozer’s Endurance**. If you fail a saving throw against being stunned or unconscious, you may add any number to your roll by taking psychic damage equal to twice what you add.
 </div>
 </details>
 

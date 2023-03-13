@@ -220,6 +220,10 @@ A bow is a shaft of strong, supple material with a string stretched between its 
 
 ##### Rank 3
 - ***Aimed Shot***. As a ***bonus action***, you can make a DC 15 Wisdom (Perception; modifiable with Sense-Sight) check to take a moment extra to ensure a precise hit. The next time you ready an action against a creature, you have advantage on the readied attack and score a critical hit on a roll of 19 or 20.
+
+##### Rank 4
+- ***Lightning Reflexes***. If your bow is drawn, you can make 1d3-1 ranged attacks as part of rolling initiative.
+
 </details>
 
 

@@ -111,6 +111,7 @@ During a long rest, you can perform one primary activity before you sleep. Below
   You can spend time crafting simple items — bandages, salves, arrows — if you have the right materials and tools.
 
 - #### Maintain Gear
+  *“Take care of your equipment and it’ll take care of you.”*<br>
   You can spend time maintaining your weapons and armor, if you have the right knowledge, materials and tools.
 
 - <div class="descriptive" markdown="1">
@@ -125,6 +126,8 @@ During a long rest, you can perform one primary activity before you sleep. Below
   A Gear maintenance kit starts with a 1d8 usage die.
 
   </div>
+
+- **Daily Upkeep**. Spend a use of your gear maintenance kit taking care of your armor and weapons. For each weapon where you have rank 2, and for shields with which you are proficient, the following applies. The first time during the next day when a weapon or shield you are holding would break, it doesn’t.
 
 - **Sharpen Weapon**. If you have rank 2 with a weapon, you can spend some time maintaining it - this includes sharpening edged weapons, adjusting and maintaining balance of hammers and polearms, etc, taking care of the wear and tear put on it by adventuring and putting in peak condition.
 
