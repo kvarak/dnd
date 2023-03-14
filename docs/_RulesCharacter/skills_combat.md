@@ -119,7 +119,6 @@ The knife group includes daggers, knives, stilettos and punching daggers. Basica
 - ***Try again***. When you attack a creature with a knife during your turn and miss, you can use your ***bonus action*** to make another attack with the weapon against the same creature.
 </details>
 
-
 <details><summary>Lance</summary>
 
 *Melee*
@@ -130,7 +129,6 @@ The lance is a special weapon that is used when mounted. It only exists as a mar
 - ***Savage Critical***. When you score a critical hit, you may roll one extra damage die.
 
 </details>
-
 
 <details><summary>Polearm</summary>
 
@@ -150,7 +148,6 @@ Polearms are two-handed reach weapons mounted at the end of long shafts. All pol
 - ***Utilize Reach***. Creatures provoke an opportunity attack from you when they enter your reach.
 - ***Whirlwind II***. As an ***action***, you can choose to spin your polearm around you with great force. Make an attack roll against every adjacent creature. Each creature hit takes half damage and must succeed with a Strength saving throw or be pushed back 5 ft.
 </details>
-
 
 
 <details><summary>Spear</summary>
@@ -286,38 +283,31 @@ This group includes all types of thrown weapons.
 
 <div id="armor" class="container tab-pane fade">
 
-<details>
-<summary>Light Armor</summary>
+<details><summary>Light Armor</summary>
 <div markdown="1">
 You have trained to master the use of theae types of armor. You gain proficiency with light armor.
 
-<details>
-<summary>Light Armor Master</summary>
+<details><summary>Light Armor Master</summary>
 
 You are able to nimbly duck and dodge, and use your armor’s light protection to cover your mistakes, deflecting blows that would have only barely hit you. While wearing light armor, if you are subjected to an effect that allows you to make a Dexterity saving throw, you may use your ***reaction*** to gain advantage on the save. In addition opportunity attacks against you suffer disadvantage.
 </details>
 
-<details>
-<summary>Medium Armor</summary>
+<details><summary>Medium Armor</summary>
 You gain proficiency with medium armor and shields.
 
-<details>
-<summary>Medium Armor Master</summary>
+<details><summary>Medium Armor Master</summary>
 Wearing medium armor doesn’t impose disadvantage on your Stealth checks, and when wearing such armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher.
 </details>
 
-<details>
-<summary>Heavy Armor</summary>
+<details><summary>Heavy Armor</summary>
 You gain proficiency with heavy armor.
 
-<details>
-<summary>Heavy Armor Master</summary>
+<details><summary>Heavy Armor Master</summary>
 You can use your armor or to deflect strikes that would kill others. While wearing heavy armor, bludgeoning, piercing and slashing damage that you take from non magical weapons is reduced by 3.
 </details>
 </details>
 
-<details>
-<summary>Shield Master</summary>
+<details><summary>Shield Master</summary>
 
 You use shields not just for protection but also for offense. You gain the following benefits while wielding a shield.
 - If you take the Attack action, you can use a ***bonus action*** to try to shove an adjacent creature with your shield.
@@ -334,8 +324,7 @@ You use shields not just for protection but also for offense. You gain the follo
 
 <div id="other" class="container tab-pane fade">
 
-<details>
-<summary>Brawler</summary>
+<details><summary>Brawler</summary>
 
 You are accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand. You are proficient with improvised weapons and can use either Dexterity or Strength for attack and damage rolls of your unarmed strikes and improvised weapons. Additionally you gain the following benefits:
 - Your unarmed strike deals 1d4 damage and improvised weapons deal 1d6 if one-handed/thrown or 1d10 if two-handed.
@@ -343,92 +332,77 @@ You are accustomed to rough-and-tumble fighting using whatever weapons happen to
 - Attack rolls of unarmed strikes and improvised weapons have advantage for 1 round, if the targeted creature has not been attacked by you since it last completed a long rest.
 </details>
 
-<details>
-<summary>Dual Wield</summary>
+<details><summary>Dual Wield</summary>
 You are a master at fighting with two weapons. Gain a +1 bonus to AC while wielding a separate melee weapon in each hand. Additionally you can draw or stow two weapons as a single item interaction.
-<details>
-<summary>Dual Wield II</summary>
+
+<details><summary>Dual Wield II</summary>
 You can use two-weapon fighting even when the weapons you are wielding aren’t light.
 </details>
 </details>
 
-<details>
-<summary>Feint</summary>
+<details><summary>Feint</summary>
 You can replace one attack with an attempt to deceive one humanoid that can see and hear you. Make a Charisma (Feint) check contested by the target’s Insight check. If you succeed, your movement doesn’t provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your next turn or until you use this ability on a different target. If your check fails, the target can’t be deceived by you in this way for 1 hour.
 </details>
 
-<details>
-<summary>Great Weapon Master</summary>
+<details><summary>Great Weapon Master</summary>
 
 You’ve learned to put the weight of a Heavy weapon to your advantage, letting its momentum empower your strikes. On your turn, when you score a critical hit or reduce a creature to 0 hit points with one, you can make one melee weapon attack with it as a ***bonus action***.
 </details>
 
-<details>
-<summary>Interceptor</summary>
+<details><summary>Interceptor</summary>
 
 Interceptor is a generic term for any article of clothing which is used to deflect or intercept attacks, such as a thick wool cloak, silk scarf, war fan or umbrella. These are not weapons in the traditional sense, just durable personal effects, but can be just as effective in a duel as steel. For you, an interceptor grants +1 AC and has the Trip weapon property. In addition you can use an interceptor to catch missile weapons in flight before they strike, even against an ally. When a creature you can see attacks you or a target adjacent to you, you can use your ***reaction*** to impose disadvantage on the attack roll.
 </details>
 
-<details>
-<summary>Opportunist</summary>
+<details><summary>Opportunist</summary>
 
 You take advantage of every drop in any enemy’s guard. When an adjacent creature makes an attack against a target other than you (and that target doesn’t have this feat), you can use your ***reaction*** to make a melee weapon attack against the attacking creature.
 </details>
 
-<details>
-<summary>Phalanx</summary>
+<details><summary>Phalanx</summary>
 The training to fight and defend in a formation, in which the presence of friendly combatants on the left and right offer greater stability and defense during combat. The formation is a straight line, offering a front of defense against an enemy while advancing or fighting. This front ensures that each combatant in the line (with the exception of those upon the ends unless next to a wall) can be attacked by only one enemy per round. In a front created from the use of shields and one-handed weapons, shields provide an extra +1 AC. A formation requires that all the participants have this skill.
 
 Your training includes watching your flanks and making it harder to pass. Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach.
 </details>
 
-<details>
-<summary>Press</summary>
+<details><summary>Press</summary>
 
 The art of causing an adjacent enemy (of your size or smaller) to move towards an area where the combatant does not wish to be. On a successful opposed Strength (Press) check you push an enemy 5 ft backwards. You can either do this as a ***bonus action***, or instead of an attack, in which case you have ***expertise***.
 
-<details>
-<summary>Improved Press</summary>
+<details><summary>Improved Press</summary>
 You can press creatures of one size larger than you.
 </details>
 </details>
 
-<details>
-<summary>Sharpshooter</summary>
+<details><summary>Sharpshooter</summary>
 You have mastered ranged weapons and can make shots that others find impossible. Attacking at long range doesn’t impose disadvantage on your ranged weapon attack rolls. In addition they ignore half cover and three-quarters cover.
 
-<details>
-<summary>Crippling Hit</summary>
+<details><summary>Crippling Hit</summary>
 Aiming for the legs, you can slow down your target. When you hit a creature with a ranged weapon attack, you can forgo the normal weapon damage. If you do, you deal damage equal to your ability modifier and the target must succeed with a Constitution saving throw, or their movement is reduced by half until the end of its next turn.
 </details>
 
-<details>
-<summary>Trick Shot</summary>
+<details><summary>Trick Shot</summary>
 
 Aiming for more vulnerable points can cause a great deal of damage. As an ***action***, make a single stylish shot with disadvantage using a ranged weapon. If the lower roll would also hit the target, you automatically score a critical hit.
 </details>
 </details>
 
 
-<details>
-<summary>War magic</summary>
+<details><summary>War magic</summary>
 
 *Requires Arcana, Divine magic or Primal magic, and only applies to the type of magic for which you have prerequisites.*
 
 You have practiced casting spells in the midst of combat. Through rigorous discipline you have learnt techniques that grant ***expertise*** on saving throws made to maintain concentration on spell effect. If you fail such a saving throw, you may choose to gain a level of exhaustion and treat the saving throw as a success instead.
 
-<details>
-<summary>Residual Power</summary>
+<details><summary>Residual Power</summary>
 You have learned to harness your offensive magics and recycle its energy for use on your weapons. When you cast a spell of 1st level or higher that does damage, the next time you hit a creature with a weapon attack within 1 minute you deal 1d6 additional damage, the type of which is the same as the spell’s.
 </details>
 
-<details>
-<summary>Spell Sniper</summary>
+<details><summary>Spell Sniper</summary>
 You have learned techniques to enhance the precision and reach with combat spells. When you cast a spell that requires an attack roll, the spell’s range is doubled and the attacks ignore half cover and three-quarters cover.
 </details>
 
-<details>
-<summary>War Caster</summary>
+<details><summary>War Caster</summary>
 You can perform the somatic components of spells even when you have weapons or a shield in one or both hands. In addition you can cast a spell when making an opportunity attack. The spell must have a casting time of 1 action and target only that creature.
 </details>
 </details>
@@ -441,18 +415,15 @@ You can perform the somatic components of spells even when you have weapons or a
 Skills and traits only selectable by certain folk.
 
 <!-- ----- AASIMAR ------  -->
-<details>
-<summary>Aasimar</summary>
+<details><summary>Aasimar</summary>
 
-  <details>
-  <summary>Aasimar's Blessing</summary>
+  <details><summary>Aasimar's Blessing</summary>
   Your divine lineage runs true within you, and you've grown to be able to draw upon it more frequently.
 
   You can use your Necrotic Shroud or Radiant Soul feature a number of times equal to your proficiency bonus and you regain all uses after a long rest.
   </details>
 
-  <details>
-  <summary>Celestial Resilience</summary>
+  <details><summary>Celestial Resilience</summary>
   You become more resistant to injury when you unleash your full celestial might.
 
   Gain temporary hit points equal to your level when you activate your Radiant Soul or Necrotic Shroud feature. These temporary hit points last until your transformation ends.
@@ -462,8 +433,7 @@ Skills and traits only selectable by certain folk.
   While transformed you may use a ***reaction*** to give an attack disadvantage within 10 ft of you, as you attempt to block the attack with your wings.
   </details>
 
-  <details>
-  <summary>Searing Radiance</summary>
+  <details><summary>Searing Radiance</summary>
   Your celestial nature burns with holy fire, shining forth from your form.
 
   You learn either the *sacred flame* or *hand of radiance* cantrip.
@@ -473,19 +443,16 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- AWAKENED ------  -->
-<details>
-<summary>Awakened</summary>
+<details><summary>Awakened</summary>
 
-  <details>
-  <summary>Deathless Flesh
+  <details><summary>Deathless Flesh
 
   &nbsp;&nbsp; *Prerequisite: Non-skeleton Awakened*
   </summary>
   As your power grows, your flesh becomes resilient to mundane forms of damage. Gain resistance to bludgeoning, piercing, and slashing damage from non-magical sources.
   </details>
 
-  <details>
-  <summary>Necrotic Affinity
+  <details><summary>Necrotic Affinity
 
   &nbsp;&nbsp; *Prerequisite: Awakened (mummy)*
   </summary>
@@ -496,11 +463,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- BEASTFOLK ------  -->
-<details>
-<summary>Beastfolk</summary>
+<details><summary>Beastfolk</summary>
 
-  <details>
-  <summary>Belly of the Beast
+  <details><summary>Belly of the Beast
 
   &nbsp;&nbsp; *Prerequisite: Varkind beastfolk*
   </summary>
@@ -512,8 +477,7 @@ Skills and traits only selectable by certain folk.
   When you benefit from your Buffet Enthusiast trait, add half of your level to the total temporary hit points gained.
   </details>
 
-  <details>
-  <summary>Jumping Twitch
+  <details><summary>Jumping Twitch
 
   &nbsp;&nbsp; *Prerequisite: Grung beastfolk*
   </summary>
@@ -521,8 +485,7 @@ Skills and traits only selectable by certain folk.
   As a ***reaction*** after an enemy misses you with an attack or ends their turn adjacent to you, you can jump up to 10 ft away. This movement does not provoke attacks of opportunity.
   </details>
 
-  <details>
-  <summary>Leaping Strike
+  <details><summary>Leaping Strike
 
   &nbsp;&nbsp; *Prerequisite: Bullywug beastfolk*
   </summary>
@@ -532,11 +495,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- BIRDFOLK ------  -->
-<details>
-<summary>Birdfolk</summary>
+<details><summary>Birdfolk</summary>
 
-  <details>
-  <summary>Flying Charge
+  <details><summary>Flying Charge
 
   &nbsp;&nbsp; *Prerequisite: Aarakocra birdfolk*
   </summary>
@@ -545,8 +506,7 @@ Skills and traits only selectable by certain folk.
   When you are flying and dive at least 40 ft towards a target and hit it with a melee weapon, you can cause the attack to deal an aditional 1d6 damage.
   </details>
 
-  <details>
-  <summary>Wings of Iron
+  <details><summary>Wings of Iron
 
   &nbsp;&nbsp; *Prerequisite: Aarakocra birdfolk*
   </summary>
@@ -557,11 +517,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- CHANGELING ------  -->
-<details>
-<summary>Changeling</summary>
+<details><summary>Changeling</summary>
 
-  <details>
-  <summary>Defensive Shift</summary>
+  <details><summary>Defensive Shift</summary>
   You can use your shapeshifting to harden your skin to better protect yourself against physical assault.
 
   When you take non-magical bludgeoning, piercing or slashing damage, you can use your ***reaction*** to gain resistance to that damage type. This resistance lasts until the start of your next turn and applies to the triggering damage. You can use this feature a number of times equal to your Constitution modifier, and regain all uses after a short rest.
@@ -570,11 +528,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- DHAMPIR ------  -->
-<details>
-<summary>Dhampir</summary>
+<details><summary>Dhampir</summary>
 
-  <details>
-  <summary>Bite Fighter
+  <details><summary>Bite Fighter
 
   &nbsp;&nbsp; *Prerequisite: Nosferatu Dhampir*
   </summary>
@@ -587,8 +543,7 @@ Skills and traits only selectable by certain folk.
   If you hit an adjacent opponent with a melee weapon attack as part of an Attack action, you can use your ***bonus action*** to attack the same target with your bite.
   </details>
 
-  <details>
-  <summary>Blood Drinker</summary>
+  <details><summary>Blood Drinker</summary>
   You have stronger and longer fangs, that allow you to drink blood, just as your vampiric progenitors.
 
   You can drink fresh blood from a humanoid creature, granting you 10 temporary hit points. Normally, you can only drink blood from an opponent who is helpless, grappled, paralyzed, unconscious, or similarly disabled.
@@ -598,11 +553,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- DRAGONBORN DRAGONFOLK ------  -->
-<details>
-<summary>Dragonborn</summary>
+<details><summary>Dragonborn</summary>
 
-  <details>
-  <summary>Mighty Dragonborn Breath</summary>
+  <details><summary>Mighty Dragonborn Breath</summary>
   Your draconic breath weapon is even more fearsome than that of your kin.
 
   Depending on your Draconic Ancestry, you gain the following benefit:
@@ -617,15 +570,12 @@ Skills and traits only selectable by certain folk.
 
   **White/Silver**: Your cold freezes enemies in their path. Creatures that fail the saving throw against your Breath Weapon are restrained until the end of your next turn.
 
-  <details>
-  <summary>Mighty Dragonborn Breath II</summary>
+  <details><summary>Mighty Dragonborn Breath II</summary>
   The damage dice for your Breath Weapon increase to d8s. You also add your Constitution modifier to the damage.
   </details>
   </details>
 
-
-  <details>
-  <summary>Teeth like Knives</summary>
+  <details><summary>Teeth like Knives</summary>
   Your claws and teeth are natural weapons with which you are proficient. They deal slashing damage (for claws) or piercing damage (for teeth) equal to 1d4 + your Strength modifier.
 
   This base damage increases to 1d6 at 6th level, 1d8 at 12th level and 1d10 at 18th level. You may also use your natural weapons as an “off-hand” attack using the two-weapon fighting rules.
@@ -633,13 +583,11 @@ Skills and traits only selectable by certain folk.
   Additionally you can use your jaws and one of your attacks to grapple a creature without a free hand. When you grapple a creature in this way, it automatically fails saving throws against your breath weapon until released from your grip.
   </details>
 
-  <details>
-  <summary>Tenfold Shields</summary>
+  <details><summary>Tenfold Shields</summary>
   You have tougher scales than most of your kin. While you aren't wearing armor, your Armor Class equals 13 + your Dexterity modifier. You can use a shield and still gain this benefit.
   </details>
 
-  <details>
-  <summary>Voice of the Wyrm</summary>
+  <details><summary>Voice of the Wyrm</summary>
   A dragon inspires awe in all who encounter it. The dragon blood that flows through your veins gives you the same commanding presence.
 
   You can roar, forcing each creature of your choice within 30 ft that can hear you to make a Wisdom saving throw against your breath weapon DC. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success. After you use your roar, you can’t use it again until you complete a short rest.
@@ -647,11 +595,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- KOBOLD DRAGONFOLK ------  -->
-<details>
-<summary>Kobold Dragonfolk</summary>
+<details><summary>Kobold Dragonfolk</summary>
 
-  <details>
-  <summary>Kobold Inventor</summary>
+  <details><summary>Kobold Inventor</summary>
   You are resourceful and clever for a kobold.
 
   You carry six of your inventions with you, and you can use each of the options below as an ***action*** once. Their DC is 8 + your proficiency bonus + your Intelligence modifier. You also add your proficiency bonus to attack rolls of your inventions (including the swarms attacks). All initial damage increases by an additional 1d6 at 8th level, 12th level, 16th level and 20th level.
@@ -674,24 +620,21 @@ Skills and traits only selectable by certain folk.
 
   </details>
 
-  <details>
-  <summary>Nimble Kobold</summary>
+  <details><summary>Nimble Kobold</summary>
   You are exceptionally nimble, even for a kobold.
 
   You can move through the space of any creature that is of a size larger than you.
 
   During combat you can take the Disengage or Dash action as a ***bonus action***.
 
-  <details>
-  <summary>Opportunist</summary>
+  <details><summary>Opportunist</summary>
   You have perfected techniques that allow you to take advantage of openings in an enemies defenses made by an allies attack.
 
   When an ally makes a melee attack against a creature adjacent to you, you can use your ***reaction*** to make one melee weapon attack against that creature.
   </details>
   </details>
 
-  <details>
-  <summary>Nimble Kobold</summary>
+  <details><summary>Nimble Kobold</summary>
   You are exceptionally nimble, even for a kobold.
 
   You can move through the space of any creature that is of a size larger than you.
@@ -699,8 +642,7 @@ Skills and traits only selectable by certain folk.
   During combat you can take the Disengage or Dash action as a ***bonus action***.
   </details>
 
-  <details>
-  <summary>Pickaxe Mastery
+  <details><summary>Pickaxe Mastery
 
   &nbsp;&nbsp; *Prerequisite: Club weapon group rank 2*
   </summary>
@@ -713,11 +655,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- DWARF ------  -->
-<details>
-<summary>Dwarf</summary>
+<details><summary>Dwarf</summary>
 
-  <details>
-  <summary>Dwarven Resilience</summary>
+  <details><summary>Dwarven Resilience</summary>
   You have the soul of dwarf heroes flowing through you.
 
   Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself.
@@ -727,11 +667,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- FLORAN ------  -->
-<details>
-<summary>Floran</summary>
+<details><summary>Floran</summary>
 
-  <details>
-  <summary>Big, Bad and Barky
+  <details><summary>Big, Bad and Barky
 
   *Prerequisite: Roothulk floran*
   </summary>
@@ -742,8 +680,7 @@ Skills and traits only selectable by certain folk.
   While your hp is at its maximum value, you have resistance to all damage types except for fire.
   </details>
 
-  <details>
-  <summary>Oozing Sap</summary>
+  <details><summary>Oozing Sap</summary>
   Your wounds ooze sap and close quickly. Any effect that causes bleeding will stop by itself after 1 round.
 
   If you are below half hp and not wearing armor, your AC increases by 2, due the tar-like sap oozing from your wounds.
@@ -751,11 +688,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- GNOME ------  -->
-<details>
-<summary>Gnome</summary>
+<details><summary>Gnome</summary>
 
-  <details>
-  <summary>Fade Away
+  <details><summary>Fade Away
 
   &nbsp;&nbsp; *Prerequisite: Forest gnome*
   </summary>
@@ -764,8 +699,7 @@ Skills and traits only selectable by certain folk.
   When you take damage, you can use a ***reaction*** to magically become invisible until the end of your next turn or until you attack, deal damage or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short rest.
   </details>
 
-  <details>
-  <summary>Pickaxe Mastery
+  <details><summary>Pickaxe Mastery
 
   &nbsp;&nbsp; *Prerequisite: Deep gnome, Club weapon group rank 2*
   </summary>
@@ -778,11 +712,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- HALFLING ------  -->
-<details>
-<summary>Halfling</summary>
+<details><summary>Halfling</summary>
 
-  <details>
-  <summary>Juggling Joker
+  <details><summary>Juggling Joker
 
   &nbsp;&nbsp; *Prerequisite: Sleight of hand - Juggling, thrown weapon group rank 1*
   </summary>
@@ -800,11 +732,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- HALF-ORC ------  -->
-<details>
-<summary>Half-Orc</summary>
+<details><summary>Half-Orc</summary>
 
-  <details>
-  <summary>Bite Fighter
+  <details><summary>Bite Fighter
 
   *Prerequisite: Razortusk trait*
   </summary>
@@ -817,11 +747,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- LIZARDFOLK ------  -->
-<details>
-<summary>Lizardfolk</summary>
+<details><summary>Lizardfolk</summary>
 
-  <details>
-  <summary>Bite Fighter</summary>
+  <details><summary>Bite Fighter</summary>
   You have practiced and honed your bite attack. The damage of your bite attack increases by one die size (i.e., d6 increases to d8, d4 to d6, d3 to d4, etc.).
 
   When you make a bite attack against a creature you have grappled or that is otherwise restrained, you have advantage on the attack roll.
@@ -829,8 +757,7 @@ Skills and traits only selectable by certain folk.
   If you hit an adjacent opponent with a melee weapon attack as part of an Attack action, you can use your ***bonus action*** to attack the same target with your bite using the normal two-weapon fighting rules.
   </details>
 
-  <details>
-  <summary>Blood of The Komodo
+  <details><summary>Blood of The Komodo
 
   *Prerequisite: Frillneck or sandscale lizardfolk*
   </summary>
@@ -839,8 +766,7 @@ Skills and traits only selectable by certain folk.
   You gain resistance to poison damage. When dealing damage with your bite attack, add an extra 1d4 poison damage.
   </details>
 
-  <details>
-  <summary>Strong Tail
+  <details><summary>Strong Tail
 
   *Prerequisite: Any lizardfolk, except treewalker*
   </summary>
@@ -851,11 +777,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- SHIFTER ------  -->
-<details>
-<summary>Shifter</summary>
+<details><summary>Shifter</summary>
 
-  <details>
-  <summary>Bite Fighter
+  <details><summary>Bite Fighter
 
   *Prerequisite: Bite attack*
   </summary>
@@ -866,8 +790,7 @@ Skills and traits only selectable by certain folk.
   If you hit an adjacent opponent with a melee weapon attack as part of an Attack action, you can use your ***bonus action*** to attack the same target with your bite using the normal two-weapon fighting rules.
   </details>
 
-  <details>
-  <summary>Embraced Heritage</summary>
+  <details><summary>Embraced Heritage</summary>
   You have fully embraced your heritage.
 
   Revealing your inner beast can shake mere humans to their cores. Any target that witnesses your shifting and has not seen this type of transformation before, must succeed at a Wisdom save against a DC of 8 + your proficiency bonus + your Charisma bonus or be frightened of you. They are allowed a new save at the end of each of their turns.
@@ -879,11 +802,9 @@ Skills and traits only selectable by certain folk.
 </details>
 
 <!-- ----- TIEFLING ------  -->
-<details>
-<summary>Tiefling</summary>
+<details><summary>Tiefling</summary>
 
-  <details>
-  <summary>Flames of Phlegethos</summary>
+  <details><summary>Flames of Phlegethos</summary>
   You have learned to call on hellfire to serve your commands.
 
   Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 ft and dim light for an additional 30 ft. While the flames are present, adjacent creature that hit you with a melee attack takes 1d4 fire damage.
