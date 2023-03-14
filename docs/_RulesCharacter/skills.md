@@ -1924,7 +1924,6 @@ You have ***Expertise*** on acting checks. Additionally you may spend an Inspira
 *“Brothers! Sisters! I say, to arms!”*<br>
 You may spend an Inspiration to roll a number of d12s equal to your Charisma modifier. The result is granted as temporary hitpoints, divided among any number of companions who can see and hear you.
 </details>
-</details>
 
 <details><summary>Playwriting</summary>
 The skill to write plays, enabling the character to create the preordained dialogue and performance to be employed by actors; the creation of dramatic content.
