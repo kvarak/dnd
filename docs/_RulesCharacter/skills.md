@@ -162,8 +162,7 @@ The acrobatic skill of doing rolls, twists, somersaults and other rotational act
 
 </details>
 
-<details>
-<summary>Animal Handling (Group, Untrained)</summary>
+<details><summary>Animal Handling (Group, Untrained)</summary>
 <div markdown="1">
 
 Animal handling is a Group of similar skills that describe the practical handling of animals. The first time you select this skill group, choose a category of animals that you are familiar with. You also gain the **Handle animal** skill. After the first time, you select either an animal category or a skill. In most cases a skill applies to all categories you have selected.
@@ -377,26 +376,23 @@ Gain an understanding of unnatural animals in the categories you have familiarit
 
 <!-- ------------------  GAMING -------------------------------------- -->
 
-<details>
-<summary>Gaming (Group, Untrained)</summary>
+<details><summary>Gaming (Group, Untrained)</summary>
 <div markdown="1">
 A Group of skills that include all types of games. Proficiency with one skill would not give you knowledge of other skills in the group. Each time you choose the Gaming skill, you must select a subskill. Each of these skills can be used untrained, as long as someone has explained the basic rules.
 
-<details>
-<summary>Dexterity-based Games</summary>
+<details><summary>Dexterity-based Games</summary>
 The skill of increasing your chance of winning on mostly Dexterity based games.
 </details>
 
-<details>
-<summary>Games of Tactics</summary>
+<details><summary>Games of Tactics</summary>
 You can think tactically and understand how you win games that do not include Luck, such as Chess.
-<details>
-<summary>Game Master (group)</summary>
+
+<details><summary>Game Master (group)</summary>
 
 You master one type of game in this category, and have ***Expertise*** on such checks.
 </details>
 
-<summary>Read the Odds (trait)</summary>
+<details><summary>Read the Odds (trait)</summary>
 If you roll an attack and miss, you may choose to spend an inspiration to “take back” the attack as if it never happened, not expending ammunition/spell slots, revealing your location or your hostility to an enemy.
 </details>
 </details>
