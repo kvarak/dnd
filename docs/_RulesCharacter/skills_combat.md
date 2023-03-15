@@ -363,6 +363,10 @@ You take advantage of every drop in any enemy’s guard. When an adjacent creatu
 The training to fight and defend in a formation, in which the presence of friendly combatants on the left and right offer greater stability and defense during combat. The formation is a straight line, offering a front of defense against an enemy while advancing or fighting. This front ensures that each combatant in the line (with the exception of those upon the ends unless next to a wall) can be attacked by only one enemy per round. In a front created from the use of shields and one-handed weapons, shields provide an extra +1 AC. A formation requires that all the participants have this skill.
 
 Your training includes watching your flanks and making it harder to pass. Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach.
+
+<details><summary>Stand Your Ground</summary>
+During combat, if at the end of your turn you have not moved, gain 3 temporary hit points. These temprary hit points last for 1 minute.
+</details>
 </details>
 
 <details><summary>Press</summary>
@@ -372,6 +376,10 @@ The art of causing an adjacent enemy (of your size or smaller) to move towards a
 <details><summary>Improved Press</summary>
 You can press creatures of one size larger than you.
 </details>
+</details>
+
+<details><summary>Scuttle Away</summary>
+After rolling initiative, you may choose to replace your roll with an 18. If you do, for the first round of combat, you may only take the Dash, Hide, Dodge or Disengage actions for your action.
 </details>
 
 <details><summary>Sharpshooter</summary>

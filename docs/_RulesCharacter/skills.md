@@ -1478,6 +1478,13 @@ Additionally there are cultures now seen as dead cultures. Those are covered und
 <div markdown="1">
 Engineering is the practical knowledge of invention, innovation, design, building, maintenance and improvement of machines and tools. This also enables a character to oversee the construction of various machines, including ships and other vehicles, siege engines, cranes, winches, pumps, water-driven equipment, foundries, flight, submersion and so on, given a sufficient amount of time and available labor. Engineering includes a wide variety of other knowledge, including surveying, the strengthening of fortifications, the shoring of tunnels, the creation of dykes and many other things, which in some cases overlaps with architecture.
 
+<details><summary>Assess Construction (trait)</summary>
+
+*“Its vision is based on movement. At least, that’s how I would have built it ...”*<br>
+When encountering a Construct, you may roll an Engineering check against a DC equal to 5 + CR. For every 5 points by which you exceed this, you may identify either its damage vulnerabilities or resistances, or its special attacks, or its senses, or other traits at DM’s discretion.<br>
+Additionally, attack rolls of 18 or 19 also count as a Critical Hits against Constructs.
+</details>
+
 <details><summary>Demolition</summary>
 
 You know how to destroy constructions. This is mainly by identifying bearing walls and pillars, or by sapping. Sapping is the digging and shoring of underground tunnels designed to collapse enemy fortifications. You have ***Expertise*** on such checks.
@@ -2178,8 +2185,19 @@ Adds the option to safely manufacture other types of herbal poisons, being conta
 You are skilled at a specific job that is not covered by other skills. Like Art, Craft and Knowledge, this is a number of separate skills, and each Profession skill represents an aptitude in a vocation requiring a broader range of less specific knowledge. Some common Profession skills are baker, brewer, butcher, clerk, courtesan, driver, farmer, fisherman, gardener, innkeeper, librarian, merchant, midwife, miller, miner, porter, shepherd, stable master, soldier, trapper and woodcutter. In many cases there is an overlap between a Profession skill and other skills. The Profession skill is normally less specific and only includes the basic knowledge to perform the profession, as well as how to get in touch with potential employers or other similar professionals of your type, how to get hold of materials and tools or appraising the price and quality of services. In addition you have Synergy (Speechcraft) when interacting with other professionals or your type.
 
 During downtime you can practice your profession, allowing you to live a modest lifestyle without paying the cost.
-
 </div>
+
+<br>
+Some specific professions with additional subskills include:
+<br>
+
+<details><summary>Embalmer</summary>
+The embalmer prepares the deceased for funerary rites and burials.
+
+<details><summary>Embalming (trait)</summary>
+
+If you have access to Alchemist’s or Brewer’s Supplies or Cook’s Utensils, you may confer a benefit identical to the *Gentle Repose* spell.
+</details>
 
 <details><summary>Merchant</summary>
 One common profession is the merchant. This profession allows you to add your proficiency bonus to all types of transactions when trading, buying and selling. 
@@ -2195,6 +2213,10 @@ The skill to correctly identify the approximate value of items within your exper
 You know how and where to sell and buy items within your expertise to earn the most. This applies on transactions from single items to wholesale bulk. You have ***Expertise*** on all such checks, including checks made to find information about sellers and buyers.
 </details>
 </details>
+
+
+
+
 </details>
 
 <!-- ---------------------------- SAILOR ----------------------------------  -->
