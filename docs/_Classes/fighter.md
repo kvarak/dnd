@@ -1404,7 +1404,7 @@ In addition, you gain temporary hit points equal to your fighter level whenever 
 ### Tooth and Nail
 Your ferocity in a tight spot is truly terrifying. You can use your Action Surge up to twice in one turn when you have at least a +2 bonus through your Hackles Up feature.
 
-At the end of your turn after using this feature, you gain 2 levels of exhaustion.
+At the end of your turn after using this feature, you gain 2 levels of exhaustion, but you also gain a +1 bonus to your Intimidation skill for every level of exhaustion you have.
 
 
 
