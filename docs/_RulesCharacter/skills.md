@@ -2198,9 +2198,10 @@ The embalmer prepares the deceased for funerary rites and burials.
 
 If you have access to Alchemist’s or Brewer’s Supplies or Cook’s Utensils, you may confer a benefit identical to the *Gentle Repose* spell.
 </details>
+</details>
 
 <details><summary>Merchant</summary>
-One common profession is the merchant. This profession allows you to add your proficiency bonus to all types of transactions when trading, buying and selling. 
+One common profession is the merchant. This profession allows you to add your proficiency bonus to all types of transactions when trading, buying and selling.
 
 However, if you have a specialization, such as books, weapons, animal or basically any type of items that are usually traded, you can additionally select the following skills.
 
