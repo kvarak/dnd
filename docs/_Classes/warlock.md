@@ -5185,7 +5185,7 @@ The ritual takes 1 hour, during which all magic properties will be transferred i
 You can attack with your pact weapon twice whenever you take the Attack action on your turn.
 
 ### Eldritch Arrows
-As a ***bonus action*** you can channel the magics of your cantrips into your pact weapon, empowering the next arrow fired. You may cast any of your single target cantrips through your pact weapon this way. If the arrow hits, the target is considered to be hit by the cantrip as well, dealing damage by both. If the cantrip aloows a save, it is considered failed.
+As a ***bonus action*** you can channel the magics of your cantrips into your pact weapon, empowering the next arrow fired. You may cast any of your single target cantrips through your pact weapon this way. If the arrow hits, the target is considered to be hit by the cantrip as well, dealing damage by both. If the cantrip allows a save, it is considered failed.
 
 While channeled through your pact weapon, the cantrip uses either the maximum range of the spell or your weapon, whichever is further, and neither confers disadvantage for long range.
 
