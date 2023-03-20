@@ -5189,7 +5189,7 @@ You can attack with your pact weapon twice whenever you take the Attack action o
 ### Eldritch Arrows
 As a ***bonus action*** you can channel the magics of your cantrips into your pact weapon, empowering the next arrow fired. You may cast any of your single target cantrips through your pact weapon this way. If the arrow hits, the target is considered to be hit by the cantrip as well, dealing damage by both. If the cantrip allows a save, it is considered failed.
 
-While channeled through your pact weapon, the cantrip uses either the maximum range of the spell or your weapon, whichever is further, and neither confers disadvantage for long range.
+While channeled through your pact weapon, the cantrip uses either the maximum range of the spell or your weapon, whichever is further.
 
 ### Banish
 When you hit a creature with your pact weapon, you can choose to banish it. If it fails a Charisma save against your spell save DC, it is banished to a demiplane controlled by your patron. It remains there as long as you concentrate, up to 1 minute.
