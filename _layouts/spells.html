@@ -51,6 +51,7 @@
             txt = txt + " (ritual)";
           }
           txt = txt + "</i><br/>";
+          txt = txt + "<i>" + row['School'] + "</i><br/>";
           txt = txt + "<b>Casting time: </b>" + row['Casting_Time'] + "<br/>";
           txt = txt + "<b>Target: </b>" + row['Target'] + "<br/>";
           txt = txt + "<b>Range: </b>" + row['Range'] + "<br/>";
@@ -66,7 +67,7 @@
           {% for class in page.classes %}
             if (row['{{ class }}'] != "Yes" && row['{{ class }}'] != "No") {
               archetypes = row['{{ class }}'].split(',')
-              
+
               for (const element of archetypes) {
                 archetypeDict['{{ class }}'].add(element)
               };
@@ -117,14 +118,14 @@
 
       };
 
-      
+
       $(document).ready(function() {
         {% assign levelposition = 2 %}
-        
+
         ////////////////////////////
         //// Initialize selections
         $('#classSelection').data('pre', $(this).val());
-               
+
         $('.levelSelect').each(function() {
           $(this).prop('checked', true);
         });
@@ -134,7 +135,7 @@
         //// Count spells
         function countSpells() {
           spellCount = $('#contentTable').DataTable().rows( {search:'applied'} ).count();
-          $('#alert').text(spellCount + ' spells in selection')            
+          $('#alert').text(spellCount + ' spells in selection')
         };
 
 
@@ -151,15 +152,15 @@
             .columns( '{{ levelposition }}' )
             .search( levels.join('|'), true, false )
             .draw();
-        
+
           countSpells();
         });
-        
+
 
         ////////////////////////////
         //// Reset level selection
         $('#resetLevel').on('click', function() {
-          
+
           if ($('.levelSelect').is(":checked")) {
             $('.levelSelect').each(function() {
               $(this).prop('checked', false);
@@ -184,13 +185,13 @@
           countSpells();
         });
 
-        
+
         ////////////////////////////
         //// Class selection
         $('#classSelection').on('change', function() {
           var value_before_change = $(this).data('pre');
           var selectedClassCol = $(this).val();
-          
+
           var table = $('#contentTable').DataTable()
 
           table
@@ -223,14 +224,14 @@
         $('#archetypeSelection').on('change', function() {
           classColumn = $('#classSelection').val()
           archetypeRegEx = 'Yes|' + $('#archetypeSelection').val()
-          
+
           $('#contentTable').DataTable()
             .columns( classColumn )
             .search( archetypeRegEx , true, false )
             .draw();
 
           countSpells();
-        });    
+        });
 
       });
     </script>
@@ -272,13 +273,13 @@
               <option value="{{ i }}">{{ class }}</option>
               {% assign i = i | plus:1 %}
             {% endfor %}
-          </select>    
+          </select>
         </div>
 
         <div class="col-sm-4">
           <select class="form-control d-none" id="archetypeSelection">
             <option id="baseChoice" value="None">Base class spells</option>
-          </select>    
+          </select>
         </div>
 
       </div>
