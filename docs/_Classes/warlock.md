@@ -5176,6 +5176,8 @@ You can spend one ***action*** to summon your pact weapon into your empty hand.
 
  **Ephemeral**. This weapon disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.
 
+In addition, you gain 2 additional skill points to spend on weapon groups.
+
 ### Assimilate
 You can absorb the arcane properties of a magic ranged weapon into your pact weapon by performing a special, eldritch ritual.
 
