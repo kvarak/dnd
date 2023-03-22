@@ -9,6 +9,8 @@ layout: default
 
 <div class="columnstwo">
 
+- <img src='../assets/campaigns/09-Adventures-in-the-Shackles/wormwood.png' style='width:75%;padding:20px' />
+
 - ### Log book entry of Gualternus Verructus
   *Crescent Moon (formerly Man's Promise)*<br/>
   *Date: From 10th of Rova, 4713 AR and onwards*
@@ -24,6 +26,7 @@ layout: default
   Our journey has taken us to Little Oppara, a town where the residents seem to think highly of themselves and their supposed cultural importance. We were able to open a magical safe that required a 100-gold piece fee, and inside, we found papers worth 10,000 gold pieces in Abadar post-vouchers. We will need to visit Port Peril to exchange them for their value.
 
   In summary, our journey has been eventful thus far, and we must remain vigilant in our pursuit of Lexandro and our goals as pirates.
+
 
 - ### Log book entry of Gualternus Verructus
 
@@ -56,6 +59,10 @@ layout: default
   We also found two water-breathing potions and a piece of cloth used to wrap the dead body. There was also a bottle of liquid that brought me back to life after I was killed.
 
   End log book entry.
+
+- <img src='../assets/campaigns/09-Adventures-in-the-Shackles/apormen.jpeg' style='width:75%;padding:20px' />
+
+- <img src='../assets/campaigns/09-Adventures-in-the-Shackles/cyclops.png' style='width:75%;padding:20px' />
 
 - ### Logbook Entry - Sandara Quinn
 
@@ -130,6 +137,8 @@ layout: default
   Gualternus also died in the confrontation with Giles, and we need to be more careful from now on. We have to find out more about these names and their connection with the toxin. This could be a dangerous situation for the Shackles, and we need to get to the bottom of it as soon as possible.
 
   -- Sandara Quinn, First Mate
+
+- <img src='../assets/campaigns/09-Adventures-in-the-Shackles/giles.jpeg' style='width:75%;padding:20px' />
 
 </div>
 
