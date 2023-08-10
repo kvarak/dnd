@@ -365,7 +365,7 @@ The training to fight and defend in a formation, in which the presence of friend
 Your training includes watching your flanks and making it harder to pass. Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach.
 
 <details><summary>Stand Your Ground</summary>
-During combat, if at the end of your turn you have not moved, gain 3 temporary hit points. These temprary hit points last for 1 minute.
+During combat, if at the end of your turn you have not moved, gain 3 temporary hit points. These temporary hit points last for 1 minute.
 </details>
 </details>
 
