@@ -1103,7 +1103,7 @@ While wielding any of these weapons or making an unarmed strike:
 
 
 ### Dirty Fighting
-When you make a Sneak Attack against a creature no more than 1 size category larger than you and using a ***Crush ‘Em weapon***, you can use a your ***Cunning Action*** to perform a Low Blow.
+When you make an attack against a creature no more than 1 size category larger than you and using a ***Crush ‘Em weapon***, you can use a your ***Cunning Action*** to perform a Low Blow.
 
 Some effects require the target to make a saving throw. A target that has failed on a save against a Low Blow, is immune to the same effect until its next long rest.
 
