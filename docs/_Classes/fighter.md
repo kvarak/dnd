@@ -171,7 +171,7 @@ The following additions are made to the general rest rules.
 
 | Long rest |
 |:-|
-| After a short rest: |
+| After a long rest: |
 | * Regain ***Superiority*** equal to your proficiency bonus.
 | |
 | Add the following class specific benefits to choose from: |
@@ -196,7 +196,7 @@ In addition you always have access to the ***Action Surge*** maneuver (see below
 To use a maneuver, you have to spend ***Superiority***. Most maneuvers require you to spend 2 superiority, some cost only 1, and the action surge maneuver costs 4. The amount of superiority you have per level as shown in the Fighter table.
 
 #### Superiority Dice
-Some maneuvers have effects based on your superiority die. You start with a d6, and it increases as you level, as shown in the Fighter table.
+Some maneuvers have effects based on your superiority die. You start with a d4, and it increases as you level, as shown in the Fighter table.
 
 #### Saving Throws
 Some of your maneuvers require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:

@@ -2953,7 +2953,7 @@ You learn the following two Channel Divinity options.
 - #### Invoke Legacy
     You call upon the spirits of those who have passed, granting your targets inspiration. Each target gains a Spirit die. A Spirit die can be used to add a d8 to one ability check, attack roll, or saving throw that they make.
 
-    This can be made after making the roll but before the results are revealed. If the bonus is not used before 10 minutes have passed, a target instead gains 1d8 temprary hp.
+    This can be made after making the roll but before the results are revealed. If the bonus is not used before 10 minutes have passed, a target instead gains 1d8 temporary hp.
 
 - #### Turn Machination
     You can use your Channel Divinity to abjure fabricated locomotion. Each construct or undead that can see or hear you within 30 ft of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
