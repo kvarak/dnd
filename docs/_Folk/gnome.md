@@ -89,7 +89,7 @@ Your gnome character has certain characteristics in common with all other gnomes
 
 The rare and secretive forest gnomes, have a natural knack for illusion and inherent quickness and stealth. They gather in hidden communities in sylvan forests, using illusions and trickery to conceal themselves from threats or to mask their escape should they be detected. Forest gnomes tend to be friendly with other good-spirited woodland folk, and they regard elves and good fey as their most important allies. These gnomes also befriend small forest animals and rely on them for information about threats that might prowl their lands.
 
-<div class="columnsthree">
+<div class="columnstwo">
 
 - **Ability Score Increase**. Your Wisdom ability score, both current and maximum, increases by 2.
 
@@ -98,8 +98,6 @@ The rare and secretive forest gnomes, have a natural knack for illusion and inhe
 - **Natural Illusionist**. You know the *minor illusion* cantrip. Wisdom is your spellcasting ability for it.
 
 - **Speak with Small Beasts**. Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Gain the *Animal Handling - Forest animals* skill. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.
-
-</div>
 
 - <img src='http://4.bp.blogspot.com/-ZoPK7hJMDP4/T1LaEqgMKpI/AAAAAAAACZM/y-F5CEWcu_g/s1600/Lini+-+Druid.png' style='width:80%;padding:20px' />
 
@@ -177,7 +175,7 @@ Short-lived compared to other gnomes, deep gnomes mature at the same rate humans
 
 Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others, except those dearest to them.
 
-<div class="columnsthree">
+<div class="columnstwo">
 
 - **Ability Scores**. You do not apply the gnome ***Ability score changes***.
 
@@ -187,9 +185,9 @@ Svirfneblin believe that survival depends on avoiding entanglements with other c
 
 - **Stone Camouflage**. You have advantage on *Stealth* checks to hide in rocky terrain.
 
-</div>
+- <img src='https://i.pinimg.com/originals/2c/90/26/2c9026f388484b38d3b0ccf07e32bf06.png' style='width:80%;padding:20px' />
 
-<img src='https://i.pinimg.com/originals/2c/90/26/2c9026f388484b38d3b0ccf07e32bf06.png' style='width:80%;padding:20px' />
+</div>
 
 
 

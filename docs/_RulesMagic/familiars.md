@@ -801,6 +801,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
+  <div class="centerimg"><img src='../assets/images/emerald-wyrmling.png' style='width:65%'/></div>
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
+
   **Armor Class**   13<br/>
   **Hit Points** 	  10 (3d4 + 3)<br/>
   **Speed** 			  15 ft, fly 30 ft
@@ -1384,6 +1390,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   A mote of earth usually takes the shape of a tiny boulder, with small arms and legs that it can draw inside its body to assume a roundish shape.
 
+  <div class="centerimg"><img src='../assets/images/mote-of-earth.png' style='width:65%'/></div>
+
   </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
@@ -1437,6 +1445,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   </th></tr></thead>
   <tbody>
   <tr><td><i>Tiny elemental</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
+
+  <div class="centerimg"><img src='../assets/images/mote-of-fire.png' style='width:65%'/></div>
+
+  </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
@@ -1494,6 +1508,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
+  <div class="centerimg"><img src='../assets/images/mote-of-light.png' style='width:65%'/></div>
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
+
   **Armor Class**   13<br/>
   **Hit Points** 	  5 (2d4)<br/>
   **Speed** 			  0 ft, fly 30 ft (hover)
@@ -1543,6 +1563,12 @@ A familiar is an individual, and as such has a personality. When summoning your 
   </th></tr></thead>
   <tbody>
   <tr><td><i>Tiny elemental</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
+
+  <div class="centerimg"><img src='../assets/images/mote-of-water.png' style='width:65%'/></div>
+
+  </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 

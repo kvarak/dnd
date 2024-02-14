@@ -23,7 +23,7 @@ Each aasimar can count a specific celestial agent of the gods as a guide. This e
 ### Hidden Wanderers
 While aasimar are strident foes of evil, they typically prefer to keep a low profile. An aasimar inevitably draws the attention of evil cultists, fiends, and other enemies of good, all of whom would be eager to strike down a celestial champion if they had the chance.
 
-<img src='http://duralans-workbench.wdfiles.com/local--files/the-prelude/Alhrand.png' style='float:left;width:25%;padding:20px' />
+<img src='../assets/images/aasimar.png' style='float:right;width:40%;padding:10px' />
 
 When traveling, aasimar prefer hoods, closed helms, and other gear that allows them to conceal their identities. They nevertheless have no compunction about striking openly at evil. The secrecy they desire is never worth endangering the innocent.
 
@@ -98,6 +98,8 @@ In addition to the common Protector Aasimar, some Aasimar become touched by dark
 - #### Protector Aasimar
     Protector aasimar are charged by the powers of good to guard the weak, to strike at evil wherever it arises, and to stand vigilant against the darkness. From a young age, a protector aasimar receives advice and directives that urge to stand against evil.
 
+    <img src='../assets/images/protector-aasimar.png' style='float:left;width:60%;padding:10px' />
+
     **Radiant Soul**. Starting at 3rd level, you can use your ***action*** to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.
 
     Your transformation lasts for 1 minute or until you end it as a ***bonus action***. While transformed, you have a flying speed of 30 ft, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.
@@ -106,6 +108,8 @@ In addition to the common Protector Aasimar, some Aasimar become touched by dark
 
 - #### Fallen Aasimar
     An aasimar who was touched by dark powers as a youth or who turns to evil in early adulthood can become one of the fallen-a group of aasimar whose inner light has been replaced by shadow.
+
+    <img src='../assets/images/fallen-aasimar.png' style='float:left;width:60%;padding:10px' />
 
     **Necrotic Shroud**. Starting at 3rd level, you can use your ***action*** to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 ft of you that can see you must each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.
 
@@ -238,7 +242,7 @@ In addition to the common Protector Aasimar, some Aasimar become touched by dark
   | 11 | Glowing sigil on palm. As an ***action***, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this feature, you can't use it again until you finish a long rest.
   | 12 | You can urinate holy water once a day.
   | 13 | Bronze skin that grants an unarmored AC equal to 12 + Dex mod.
-  
+
 - | d30 | Special Feature |
   |:--:|:----------------|
   | 14 | Light emits from eyes illuminating a 30 ft cone.
