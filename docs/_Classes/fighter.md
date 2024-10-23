@@ -49,6 +49,8 @@ Some take up arms for glory, wealth, or revenge. Others do battle to prove thems
 >
 > — Janus Sironan, knight commander
 
+<img src='../assets/images/fighter.png' style='float:left;width:30%;padding:10px' />
+
 #### Well-Rounded Specialists
 Fighters learn the basics of all combat styles. Every fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, use a bow, and even trap foes in a net with some degree of skill. Likewise, a fighter is adept with shields and every form of armor.
 
@@ -439,6 +441,8 @@ If an option requires a saving throw, your Arcane Shot save DC equals 8 + your p
 
 <div class="columnsthree">
 
+- <img src='../assets/images/fighter-arcanearcher.png' style='float:left;width:100%;padding:10px' />
+
 - #### Banishing Arrow
     You use abjuration magic to try to temporarily banish your target to a harmless location in the Feywild. The creature hit by the arrow must succeed on a Charisma saving throw or be banished. While banished in this way, the target’s speed is 0, and it is incapacitated. At the end of its next turn, the target reappears in the space it vacated or in the nearest unoccupied space if that space is occupied.
 
@@ -503,6 +507,8 @@ If an option requires a saving throw, your Arcane Shot save DC equals 8 + your p
 </div>
 
 Bulwarks are elite defensive warriors whose strengths shine while fighting side by side with their allies. Though trained to use weapons of all types, they are especially effective when using a protective style of fighting with a weapon and shield. Alone, a Bulwark is a small threat, but when fighting alongside their allies they are impenetrable walls of steel.
+
+<img src='../assets/images/fighter-bulwark.png' style='float:right;width:30%;padding:10px' />
 
 ### Guardian Stance
 As long as you are wielding a shield, you can use a ***bonus action*** to enter a Guardian Stance. This Stance lasts indefinitely and ends early if you are incapacitated or end it as a free action. While in this Stance, you gain the following features:
@@ -984,6 +990,8 @@ While these names are known to you as the basis for empowering your equipment, t
 You learn three runic augmentations of your choice, which are detailed under “Runic Augmentations” below. Each augmentation is specific to its master rune; for instance, if you learn the Sokn augmentation of the Ild master rune, you don’t gain the ability to use the Sokn augmentation with other master runes unless you also learn that specific combination.
 
 You learn two additional augmentations at 7th, 10th, 15th, and 18th level. Each time you learn new augmentations, you can choose to replace one you already know with a different one.
+
+<img src='../assets/images/fighter-runeguard.png' style='float:left;width:30%;padding:10px' />
 
 #### Ritual Crafting
 Each runic combination must be inscribed and empowered into your equipment over the course of 8 hours. Each piece of equipment must be within your reach throughout the ritual, at the conclusion of which, you infuse a part of your being into the runes, causing them to glow slightly with your own spiritual essence. The rune’s power fades if it moves more than 100 feet away from you and can’t be used by anyone other than you.

@@ -31,7 +31,7 @@
 
 - name: Statistics
   img: assets/images/stats.png
-  url: https://uppsalarollspel.gitlab.io/path-stats/
+  url: http://dndstats.kvarak.net/
   info: All kinds of plots and statistics from all paths
 
 - name: Chronicles

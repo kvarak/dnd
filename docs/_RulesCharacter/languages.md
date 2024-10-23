@@ -7,9 +7,17 @@ layout: default
 # Expanded Rules for Languages
 G*oswin let his hammer fall to the sand and sat down next to Zandru, who was listlessly plucking at his lute strings. “Something’s wrong,” the dwarf said. “Talk to me.”*
 
+<img src='../assets/images/languages.png' style='float:right;width:25%;padding:10px' />
+
 *Zandru sighed. “Well, it’s two weeks we’ll be spending in Garhaim. Two weeks of banquets, parties and a coronation the likes of which I’ve never seen and may never see again. But it’s two weeks deep in Dwarven land, and I’m the only one here who doesn’t speak Dwarvish! Think of all the jokes I’ll miss, all the conversations I won’t get to be a part of. Even if I just knew a Dwarvish song or two to impress the guests.”*
 
 *Goswin chuckled. “Well, if you really want to learn, and if you promise to listen, I’ll see what I can make stick in that brain of yours. Now pay attention.”*
+
+### Picking it up as you go
+D&D approaches languages in an "all or nothing" way -- you either know a language completey, or you don't know it at all, and the options that give additional language after character creation are few and far between. The following is a set of optional language rules for your adventures. These rules allow for learning a language in stages, so your characters can pick up just enough language to get around a new place without relying on magic or taking vast amounts of downtime.
+
+Languages are divided into five general levels of complexity, which can be attained through study and training. Each level takes more time and is harder to attain than the next.
+
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
@@ -28,12 +36,6 @@ G*oswin let his hammer fall to the sand and sat down next to Zandru, who was lis
 | | | *Written: Archiac manuscript* | | |
 
 </div>
-
-### Picking it up as you go
-D&D approaches languages in an "all or nothing" way -- you either know a language completey, or you don't know it at all, and the options that give additional language after character creation are few and far between. The following is a set of optional language rules for your adventures. These rules allow for learning a language in stages, so your characters can pick up just enough language to get around a new place without relying on magic or taking vast amounts of downtime.
-
-Languages are divided into five general levels of complexity, which can be attained through study and training. Each level takes more time and is harder to attain than the next.
-
 
 ### Character Creation
 At the end of character generation you will determine the proficiency level for each language you know as follows: One language you choose will be your primary language (level 5). You get a number of points equal to 3 times the number of languages you received in your background, modifies by your Intelligence modifier. You may spend these points on your known languages as you wish.
