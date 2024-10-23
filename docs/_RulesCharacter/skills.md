@@ -16,7 +16,7 @@ You will get skill points to select skills during character creation, as well as
 
 ### Spending skill points
 Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must know the skill right above it in the “skill tree”. You can save skill points, and are allowed to spend them at a later time, after finishing a long rest. Additionally you can spend skill points the following ways.
-- **Ability Score Increase**. You can spend 2 skill points to increase an ability score by 1.
+- **Ability Score Increase**. You can spend 2 skill points to increase an ability score by 1. You can only choose this option a number of times equal to half your character level.
 - **Improved Proficiency**. If you have Expertise with a skill, you can spend 2 skill points to gain +1 to all checks with that skill. You can improve it even further, increasing the cost by 1 point each time you buy this.
 
 ### Terms
