@@ -45,7 +45,7 @@ function loadSpells() {
 
           searchData.push({
             title: spellName,
-            url: '/dnd/RulesMagic/spells.html#' + spellName.replace(/\s/g, ''),
+            url: basePath + '/RulesMagic/spells.html#' + spellName.replace(/\s/g, ''),
             collection: 'spells',
             content: `${school} spell. ${description}`
           });
