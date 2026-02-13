@@ -1,1 +1,22 @@
+# macOS
 .DS_Store
+
+# Jekyll build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby/Bundler (Docker will handle these)
+vendor/bundle/
+.bundle/
+Gemfile.lock
+
+# Docker
+.dockerignore
+
+# Development files
+.vscode/
+*.log
+*~
+.env
