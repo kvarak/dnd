@@ -4,8 +4,11 @@
 let searchData = [];
 let spellsLoaded = false;
 
+// Determine base path (works for both /dnd/ dev and root custom domain)
+const basePath = window.location.pathname.includes('/dnd/') ? '/dnd' : '';
+
 // Load search data (collections and data files)
-fetch('/dnd/search.json')
+fetch(`${basePath}/search.json`)
   .then(response => response.json())
   .then(data => {
     searchData = data;
