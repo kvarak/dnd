@@ -492,7 +492,7 @@ While many "mad bombers" aren't actually mad, it takes a special kind of crazy t
 ### Makeshift Bombs
 The creation of bombs is so ingrained in your memory that you can do it in an instant. As long as you have alchemist’s supplies and a component pouch, you can create a makeshift bomb as an ***item action***. The bomb does not count against your daily limit of concoctions, only damages a single target on a hit and cannot be modified by any of your discoveries.
 
-<img src='http://www.koboldpress.com/wp-content/uploads/2011/06/alchemy-bottle.jpg' style='float:left;width:20%;padding:20px' />
+<img src='https://www.koboldpress.com/wp-content/uploads/2011/06/alchemy-bottle.jpg' style='float:left;width:20%;padding:20px' />
 
 ### Demolition
 You learn to use your bombs to damage and destroy structures. You now make your bombs to accept fuses of various lengths. As an ***action***, you can set a bomb and light its fuse, which has a duration of your choice between 1 round and 5 minutes. Upon detonation, this bomb deals its damage as normal, but also deals double damage to any nonmagical object within 5 ft of it that isn't being worn or carried and also ignores its damage immunities. For rules on objects and their hit points, see pages 246 and 247 of the Dungeon Master's Guide.

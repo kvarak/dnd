@@ -90,7 +90,7 @@
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Sabri01.jpg
 - path: 6
   name: Alternative view of Primotep
-  img: ../assets/campaigns/06-Into-the-Dark-Continent/Primotep 2.jpg
+  img: ../assets/campaigns/06-Into-the-Dark-Continent/Primotep-2.jpg
 - path: 6
   name: Havoc
   img: ../assets/campaigns/06-Into-the-Dark-Continent/Havoc.jpg
@@ -148,7 +148,7 @@
   img: ../assets/campaigns/07-Haunted-Lands/Zandru-shifted.png
 - path: 7
   name: Matyas rustning
-  img: ../assets/campaigns/07-Haunted-Lands/Matyas rustning.png
+  img: ../assets/campaigns/07-Haunted-Lands/Matyas-rustning.png
 - path: 7
   name: Petros - Läs mig
   img: ../assets/campaigns/07-Haunted-Lands/Petros.readme.jpg

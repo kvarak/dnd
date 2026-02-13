@@ -16,7 +16,7 @@ Death comes for all things in a near-infinite variety of ways. So to are there m
 ### Dead and Reborn
 Typically having no lands to call their own, undead with an awakened sense of self are usually perpetual foreigners, wanders in a land and often a time not their own. Compounding matters, most mortal cultures carry within them an instinctual fear of death and the dead, and many associate necromancy specifically with dark tidings. This forms a wall of (often well earned) prejudice and hatred that sentient undead find themselves up against, and many undead choose to hide their necrotic natures behind clothes, masks, and pungent perfumes when journeying into civilization.
 
-<img src='http://i.imgur.com/IvOuvHS.png' style='float:left;width:25%;padding:20px' />
+<img src='https://i.imgur.com/IvOuvHS.png' style='float:left;width:25%;padding:20px' />
 
 Depending on composition, humanoid undead typically range from 20 to 300 pounds, and may possess empty eyes, a colored flame-like magical animus in their sockets, or harrowed, surprisingly mortal eyes burning with an inner fire.
 
@@ -72,7 +72,7 @@ Different types of awakened undead are available to you. Choose Bound spirit, Gh
 ### Bound spirit
 Long after their remains have turned to dust, the spirit of an individual can linger still. There are as many reasons for a ghost to haunt the world as there are folk in it. Ghosts are forcibly tied to the material plane by deep magic and are only able to move on when their unfinished business is concluded. Most ghosts awaken confused, and must discover what it is that holds their attachment to the world of the living, as if discovering a final piece of themselves that they must confront before entering the next phase of their existence.
 
-<img src='http://inkwellideas.com/wp-content/uploads/2015/10/token__ghost__keith_curtis.png' style='float:right;width:35%;padding:20px' />
+<img src='https://inkwellideas.com/wp-content/uploads/2015/10/token__ghost__keith_curtis.png' style='float:right;width:35%;padding:20px' />
 
 Adventurous ghosts such as yourself typically either escape the masters that raised them or have something unresolved from their days amongst the living that requires they journey far and wide. If a ghost is charged with unfinished business it can take many forms, from protecting a loved one, to keeping a particular item safe, to simple revenge.
 
@@ -206,7 +206,7 @@ Without the tiresome requirements of the body’s incessant desire for food, ple
 
 - **Falling Apart**. When you enter your inactive state as described in the *slepless* trait, you relax the force that holds your bones together, allowing them to fall into a pile. This pile is considered one size smaller than you are normally, and appears inert. You can enter this disassembled state as an ***action***, and can remain in this state until you choose to reassemble. As a ritual, you can reassemble yourself into your normal, humanoid shape.
 
-- <img src='http://units.wesnoth.org/1.10/pics/core$images$portraits$undead$transparent$archer.png' style='width:75%;padding:20px' />
+- <img src='https://units.wesnoth.org/1.10/pics/core$images$portraits$undead$transparent$archer.png' style='width:75%;padding:20px' />
 
 </div>
 

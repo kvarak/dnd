@@ -11,12 +11,12 @@
 - [x] **Update jQuery from 3.2.1 to 3.7.x** - ✅ Updated to jQuery 3.7.1 with integrity hash
 - [x] **Fix duplicate title tags in head.html** - ✅ Eliminated duplication (consolidate duplication)
 - [x] **Add viewport meta tag** - ✅ Mobile responsiveness enabled
-- [ ] **Convert 16 files with http:// links to https://** - Security issue with mixed content
+- [x] **Convert 16 files with http:// links to https://** - ✅ Security fixed (consolidate duplication: standardized protocol)
 
 ### Content Management
 - [x] **Create proper Gemfile** - ✅ Created with GitHub Pages compatibility and dev dependencies
 - [x] **Fix .gitignore** - ✅ Added Jekyll build artifacts, Ruby gems, and dev files
-- [ ] **Optimize large campaign images** - 5.2MB PNG and other multi-MB images causing slow page loads
+- [ ] **Optimize large campaign images** - 5.2MB Golarion map, multiple 3MB+ images - consider installing ImageMagick
 - [x] **Remove test.html file** - ✅ 441KB waste eliminated (separation of concerns)
 
 ## ⚠️ SHOULD FIX (Important Improvements)
@@ -34,7 +34,7 @@
 - [ ] **Compress campaign images** - Reduce 98MB asset directory size
 - [ ] **Implement responsive images** - Use srcset for different screen sizes
 - [ ] **Add image lazy loading** - Improve initial page load times
-- [ ] **Fix files with spaces in names** - "Primotep 2.jpg", "Matyas rustning.png" etc.
+- [x] **Fix files with spaces in names** - ✅ Standardized naming (reduce waste: shell-friendly filenames)
 - [ ] **Optimize font loading** - Add font-display: swap to custom fonts
 
 ### Development Workflow

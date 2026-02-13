@@ -21,7 +21,7 @@ The comfort of home are the goal of most halflings' lives: a place to settle in 
 >
 > -- R.A. Salvatore, *The Crystal Shard*
 
-<img src='http://2.bp.blogspot.com/-q5vSB2QKzMs/UR1WjXBncEI/AAAAAAAAExg/f2n70fdm1bg/s1600/Rosie+Cusswell.png' style='float:right;width:35%;padding:20px' />
+<img src='https://2.bp.blogspot.com/-q5vSB2QKzMs/UR1WjXBncEI/AAAAAAAAExg/f2n70fdm1bg/s1600/Rosie+Cusswell.png' style='float:right;width:35%;padding:20px' />
 
 #### Small and Practical
 The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife. They are inclined to be stout, weighing between 40 and 45 pounds.

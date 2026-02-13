@@ -101,7 +101,7 @@ Those floran that never quite get the hang of appearing human are often called r
 
 - **Natural Camouflage**. Roothulks have many obvious plant features, which makes it harder to pass for a human but easier to blend in with the forest. You have advantage on stealth checks when hiding among vegetation.
 
-- <img src='http://vignette2.wikia.nocookie.net/warfortheoverworld/images/b/b4/DryadFinal1.png' style='width:95%;padding:20px' />
+- <img src='https://vignette2.wikia.nocookie.net/warfortheoverworld/images/b/b4/DryadFinal1.png' style='width:95%;padding:20px' />
 
 </div>
 
@@ -112,7 +112,7 @@ Some floran are naturally gifted at controlling their appearance. They retain pl
 
 <div class="columnsthree">
 
-- <img src='http://www.algadon.com/images/monsters/dryad_shapeshifter.png' style='width:75%;padding:20px' />
+- <img src='https://www.algadon.com/images/monsters/dryad_shapeshifter.png' style='width:75%;padding:20px' />
 
 - **Auto-topiary**. You can control your growth in order to change your physical appearance. Over the course of the long rest you achieve a physical transformation similar to the effects of the *disguise self* spell, except that they are permanent and physically real instead of illusions. This does not affect equipment you are wearing, though you may grow approximations of clothing (like bark covering your body instead of a shirt, or leaves and vines woven together to look like a dress). You can change the color of your "skin" and "hair", completely rearrange your facial features, and so on, but there will always be visual and tactile giveaways of your real nature.
 

@@ -31,7 +31,7 @@ Tall and slender and with well-defined musculature, dhampirs look like statuesqu
 
 While many dhampirs can pass as humans in ideal conditions, their features are inevitably more pronounced and they move with an unnaturally fluid grace. All dhampirs have elongated incisors. While not true fangs, these teeth are sharp enough to draw blood, and many suffer a reprehensible desire to indulge in sanguinary delights, despite the fact that the act provides most no physical benefit.
 
-<img src='http://1.bp.blogspot.com/-zWXUG_Ul6KY/UjYkXMgTftI/AAAAAAAACOg/IuLVcEtKmiU/s1600/dhampir.png' style='float:left;width:30%;padding:20px' />
+<img src='https://1.bp.blogspot.com/-zWXUG_Ul6KY/UjYkXMgTftI/AAAAAAAACOg/IuLVcEtKmiU/s1600/dhampir.png' style='float:left;width:30%;padding:20px' />
 
 #### Society
 Dhampirs have no culture of their own, nor do they have any known lands or even communities. Often born in secret and abandoned at orphanages or left to die on the outskirts of town, they tend to live solitary lives as exiles and outcasts. Individuals acquire the cultural beliefs and teachings of the regions in which they grew up, and adopt additional philosophies over the course of their complex lives. This ability to adapt to a variety of circumstances provides dhampirs with a social camouflage that hides them from both predators and prey. In rare instances, dhampirs might gather to form small groups or cabals dedicated to resolving their joint issues. Even so, the philosophies of such groups reflect the interests of the individuals involved, not any common dhampir culture.

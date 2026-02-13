@@ -210,7 +210,7 @@ Of course, it takes more than a need for stealth to drive someone to train in th
 
 Blacksnakes are often perceived as thugs and bullies, and the archetype package is often taken by characters that are slavers and enforcers. But some adventurers and tomb delvers also favor the flexibility and reach of the whip, and have more interest in it as a tool than an instrument of cruelty. Of course, the difference between these two types of blacksnakes is solely in their attitudes, and so can be difficult to determine at a glance. Many good-hearted adventurers who become blacksnakes will find locals are mistrustful of anyone carrying a long braid of steel-tipped leather.
 
-<img src='http://cdn.obsidianportal.com/assets/218754/Master_Scourge.png' style='float:left;width:30%;padding:20px' />
+<img src='https://cdn.obsidianportal.com/assets/218754/Master_Scourge.png' style='float:left;width:30%;padding:20px' />
 
 ### Prehensile whip
 In your hand a whip has a life of its own, wrapping around pillars and items with ease. When becoming a blacksnake, you can perform the following:
@@ -342,7 +342,7 @@ Corsairs can be evil or good depending on their motivations and methods. Behind 
 | 9 | The bastard of a wealthy family, my only choice was to make my own name at sea. |
 | 0 | Roll again twice, both are true. |
 
-<img src='http://pfseconddarkness.wdfiles.com/local--files/mister-plugg/Mister%20Plugg.png' style='float:left;width:30%;padding:20px' />
+<img src='https://pfseconddarkness.wdfiles.com/local--files/mister-plugg/Mister%20Plugg.png' style='float:left;width:30%;padding:20px' />
 
 ### Scallywag tricks
 As a corsair, you have a better understanding of how to move about and survive at sea, from climbing through riggings to swimming through waves. While you are either wearing light armor or no armor and not holding a shield, you gain both a swimming and a climbing speed equal to your normal movement speed. You can also hold your breath for twice as long.
@@ -732,7 +732,7 @@ The deeds are presented in alphabetical order.
 
     If you take the Attack action at the end of a fall, you have advantage on your attack rolls and deal an additional 1d6 damage for every 10 feet you fell, up to a maximum of 5d6.
 
-- <img src='http://40.media.tumblr.com/8165ab7746ca59625e85be8014109983/tumblr_mkveo3uMxT1rq8jqio1_500.png' style='float:right;width:35%;padding:20px' />
+- <img src='https://40.media.tumblr.com/8165ab7746ca59625e85be8014109983/tumblr_mkveo3uMxT1rq8jqio1_500.png' style='float:right;width:35%;padding:20px' />
 
 - #### Dramatic Entrance
     You can expend one panache to make a dramatic entrance as a ***bonus action***. Any creature that was not aware of you being there until now must make a Wisdom saving throw or get the charmed condition towards you until the end of their next turn.

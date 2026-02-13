@@ -343,7 +343,7 @@ The Path of the Aquatic Hunter is a spiritual journey, as the barbarian accepts 
 
 Barbarians from coastal and island cultures often draw on the spirit of the ocean's greatest hunters to inspire them in battle. Aquatic totems include killer whales (orca) and sharks.
 
-<img src='http://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png' style="float:left;width:30%;padding:10px"/>
+<img src='https://tribality.com/wp-content/uploads/2015/06/RH-OrcaShaman-sized-01-740x360.png' style="float:left;width:30%;padding:10px"/>
 
 ### Swimmer
 When you choose this path, you gain 2 skill points to spend on Swimming.

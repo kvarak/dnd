@@ -16,7 +16,7 @@
 
 - name: Spells
   img: https://lucidgoddess.com/wp-content/uploads/2016/12/book-of-spells-01.png
-  url: http://spells.rigo.nu/
+  url: https://spells.rigo.nu/
   info: Rules for all spells in the game
 
 - name: Calendar
@@ -31,7 +31,7 @@
 
 - name: Statistics
   img: assets/images/stats.png
-  url: http://dndstats.kvarak.net/
+  url: https://dndstats.kvarak.net/
   info: All kinds of plots and statistics from all paths
 
 - name: Chronicles
