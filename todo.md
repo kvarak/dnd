@@ -26,7 +26,7 @@
 - [ ] **Add alt text to 183 images** - Critical accessibility issue (systematic approach needed)
 - [ ] **Add Open Graph meta tags** - Improve social media sharing
 - [ ] **Add Twitter Card meta tags** - Better social media appearance
-- [ ] **Create robots.txt** - Web crawler guidance
+- [x] **Create robots.txt** - ✅ Basic SEO crawler guidance (holistic view: prepare for search indexing)
 - [ ] **Generate sitemap.xml** - Help search engines index content
 - [ ] **Add structured data markup** - Rich snippets for D&D content
 
@@ -53,7 +53,7 @@
 - [ ] **Add WebP image format support** - Better compression than PNG/JPG
 
 ### User Experience
-- [ ] **Add search functionality** - Help users find content across 76 files
+- [x] **Add search functionality** - ✅ Client-side search across 76 files (reduce complexity: vanilla JS, no dependencies)
 - [ ] **Add dark mode toggle** - Improve accessibility and user preference
 - [ ] **Add breadcrumb navigation** - Better navigation for deep content
 - [ ] **Mobile navigation improvements** - Better UX for small screens

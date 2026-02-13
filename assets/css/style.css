@@ -673,3 +673,82 @@ blockquote p {
 .centerimg {
   text-align:center;
 }
+
+/* Search functionality styles */
+#search-container {
+  position: relative;
+  margin-right: 20px;
+}
+
+#site-search-input {
+  width: 250px;
+  padding: 8px 12px;
+  border: 1px solid #495057;
+  border-radius: 4px;
+  background-color: #343a40;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+#site-search-input:focus {
+  outline: none;
+  border-color: #80bdff;
+  background-color: #2b3035;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#site-search-input::placeholder {
+  color: #adb5bd;
+}
+
+#search-results {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 400px;
+  max-height: 500px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1050;
+  margin-top: 5px;
+}
+
+.search-result-item {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-link {
+  display: block;
+  padding: 12px 15px;
+  text-decoration: none;
+  color: inherit;
+  tran  tran  tran  tran  tran  tran  se  tran  tran  trult-  tran  tra{
+  backgro  backgro  backgro    tex  backgro  bacnone;
+}}}}}}}}}}}}}}ult}}}}}}}}}}}}}}ult}}gh}}}}}}}}}}}}}}ult}}}}}}}9;
+                      }
+                      }
+on {
+on {
+    ze: 0.    ze: 0.    ze: 0.      margin    ze: 0.    ze: 0.-transf    ze: 0talize;
+    ze: 0.    ze: 0.   et    ze: 0.    ze: 0.   et olo    ze: 0.    ze: 0.   et    ze: 0.    ze: 0.   etlts {    ze: 0.    ze: 0.   et    ze:ce    ze: 0.    z#6c757d;
+}
+
+@media (max-width: 768px) {
+  #site-search-input {
+    width: 200px;
+  }
+  
+  
+
+width: esults {
+    width: 300px;
+  }
+}

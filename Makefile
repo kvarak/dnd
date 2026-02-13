@@ -21,7 +21,7 @@ build:
 	@echo "✅ Docker image built!"
 
 # Start development server
-serve: build
+serve: clean build
 	@echo "🚀 Starting Jekyll development server..."
 	@echo "📍 Site will be available at: http://localhost:4000/dnd/"
 	docker run --rm --name $(CONTAINER_NAME) \

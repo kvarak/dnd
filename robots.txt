@@ -1,0 +1,15 @@
+# robots.txt for dnd.rigo.nu
+# Allow all search engines to index the site
+
+User-agent: *
+Allow: /
+
+# Disallow build artifacts and development files
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
+Disallow: /Makefile
+Disallow: /Dockerfile
+Disallow: /.dockerignore
+
+# Future sitemap location (when implemented)
+# Sitemap: https://dnd.rigo.nu/sitemap.xml

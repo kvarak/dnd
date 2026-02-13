@@ -41,7 +41,7 @@
 
         data.forEach((row) => {
           var txt = "";
-          txt = txt + "<h4><a class=\"internal-link\" name=\"" + row['Name'].replace(/\s/g, '') + "\">" + row['Name'] + "</h4>";
+          txt = txt + "<h4><a class=\"internal-link\" name=\"" + row['Name'].replace(/\s/g, '') + "\">" + row['Name'] + "</a></h4>";
           if (row['Level'] == "0") {
             txt = txt + "<i>Cantrip";
           } else {
@@ -102,6 +102,16 @@
             { title: 'Ritual'}],
           dom: "<'row'<'col-sm-12'f>>" + "<'row'<'col-sm-12'tr>>"
         });
+
+        // Scroll to anchor after data loads
+        if (window.location.hash) {
+          setTimeout(function() {
+            var target = document.querySelector('a[name="' + window.location.hash.substring(1) + '"]');
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }, 100);
+        }
 
 
         {% assign i = firstclass %}
@@ -289,6 +299,9 @@
       <table class="table table-striped table-hover" id="contentTable"></table>
 
     </div>
+
+    <!-- Search functionality -->
+    <script src="{{ site.baseurl }}/assets/js/search.js"></script>
 
 </body>
 </html>
