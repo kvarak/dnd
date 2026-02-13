@@ -16,7 +16,7 @@
 ### Content Management
 - [x] **Create proper Gemfile** - ✅ Created with GitHub Pages compatibility and dev dependencies
 - [x] **Fix .gitignore** - ✅ Added Jekyll build artifacts, Ruby gems, and dev files
-- [ ] **Optimize large campaign images** - 5.2MB Golarion map, multiple 3MB+ images - consider installing ImageMagick
+- [x] **Optimize large campaign images** - ✅ Reduced from 98MB to 49MB (~50% reduction, reduce waste)
 - [x] **Remove test.html file** - ✅ 441KB waste eliminated (separation of concerns)
 
 ## ⚠️ SHOULD FIX (Important Improvements)
@@ -31,7 +31,7 @@
 - [ ] **Add structured data markup** - Rich snippets for D&D content
 
 ### Asset Optimization
-- [ ] **Compress campaign images** - Reduce 98MB asset directory size
+- [x] **Compress campaign images** - ✅ Optimized 10 largest images, saved ~49MB
 - [ ] **Implement responsive images** - Use srcset for different screen sizes
 - [ ] **Add image lazy loading** - Improve initial page load times
 - [x] **Fix files with spaces in names** - ✅ Standardized naming (reduce waste: shell-friendly filenames)
