@@ -22,6 +22,14 @@
 <!-- Structured Data for Rich Snippets -->
 {% include structured-data.html %}
 
+<!-- PWA Manifest -->
+<link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+<meta name="theme-color" content="#8B4513">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Varlyn D&D">
+<link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/lantern.jpg">
+
 <!-- Bootstrap 5.3.3 CSS (Self-hosted) -->
 <link href="{{ site.baseurl }}/assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
 
@@ -43,3 +51,97 @@
 <!-- GoatCounter Analytics -->
 <script data-goatcounter="https://stats.dnd.kvarak.net/count"
         async src="//stats.dnd.kvarak.net/count.js"></script>
+
+<!-- Service Worker Registration -->
+<script>
+// Register service worker for offline caching and performance
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('{{ site.baseurl }}/sw.js', {
+      scope: '{{ site.baseurl }}/'
+    })
+    .then(function(registration) {
+      console.log('Service Worker registered successfully:', registration);
+
+      // Check for updates
+      registration.addEventListener('updatefound', function() {
+        const newWorker = registration.installing;
+        console.log('Service Worker update found');
+
+        newWorker.addEventListener('statechange', function() {
+          if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+            // New service worker is available, show update notification
+            showUpdateNotification();
+          }
+        });
+      });
+    })
+    .catch(function(error) {
+      console.log('Service Worker registration failed:', error);
+    });
+
+    // Listen for service worker messages
+    navigator.serviceWorker.addEventListener('message', function(event) {
+      if (event.data && event.data.type === 'CACHE_UPDATED') {
+        console.log('Cache updated:', event.data);
+      }
+    });
+  });
+
+  // Show update notification when new service worker is available
+  function showUpdateNotification() {
+    const updateBanner = document.createElement('div');
+    updateBanner.className = 'alert alert-info alert-dismissible fade show position-fixed';
+    updateBanner.style.cssText = 'top: 20px; right: 20px; z-index: 9999; max-width: 400px;';
+    updateBanner.innerHTML = `
+      <i class="fas fa-sync-alt me-2"></i>
+      <strong>Site Updated!</strong> New content is available.
+      <button class="btn btn-sm btn-outline-primary ms-2" onclick="updateServiceWorker()">
+        Update Now
+      </button>
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    `;
+    document.body.appendChild(updateBanner);
+  }
+
+  // Update service worker and reload page
+  window.updateServiceWorker = function() {
+    if (navigator.serviceWorker.controller) {
+      navigator.serviceWorker.controller.postMessage({type: 'SKIP_WAITING'});
+      window.location.reload();
+    }
+  };
+}
+
+// Network status indicator for offline capability
+window.addEventListener('load', function() {
+  function updateNetworkStatus() {
+    const isOnline = navigator.onLine;
+    const statusIndicator = document.getElementById('network-status');
+
+    if (!statusIndicator) {
+      const indicator = document.createElement('div');
+      indicator.id = 'network-status';
+      indicator.className = 'position-fixed bottom-0 end-0 m-3 d-none';
+      indicator.style.zIndex = '9998';
+      indicator.innerHTML = `
+        <div class="badge bg-danger">
+          <i class="fas fa-wifi-slash me-1"></i>Offline Mode
+        </div>
+      `;
+      document.body.appendChild(indicator);
+    }
+
+    const indicator = document.getElementById('network-status');
+    if (isOnline) {
+      indicator.classList.add('d-none');
+    } else {
+      indicator.classList.remove('d-none');
+    }
+  }
+
+  window.addEventListener('online', updateNetworkStatus);
+  window.addEventListener('offline', updateNetworkStatus);
+  updateNetworkStatus(); // Initial check
+});
+</script>

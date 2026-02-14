@@ -1,0 +1,48 @@
+{
+  "name": "Varlyn D&D Rules",
+  "short_name": "Varlyn D&D",
+  "description": "Custom D&D rules, campaigns, and character options for tabletop RPG adventures",
+  "start_url": "/dnd/",
+  "scope": "/dnd/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#8B4513",
+  "background_color": "#f8f9fa",
+  "categories": ["games", "entertainment", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/dnd/assets/images/lantern.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/dnd/assets/images/lantern.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Character Creation",
+      "short_name": "Characters",
+      "description": "Create new D&D characters with Varlyn rules",
+      "url": "/dnd/docs/_RulesCharacter/character-creation.html"
+    },
+    {
+      "name": "Combat Rules",
+      "short_name": "Combat",
+      "description": "Quick reference for combat mechanics",
+      "url": "/dnd/docs/_RulesCombat/combat.html"
+    },
+    {
+      "name": "Spellcasting",
+      "short_name": "Spells",
+      "description": "Magic and spellcasting reference",
+      "url": "/dnd/docs/_RulesMagic/spellcasting.html"
+    }
+  ]
+}

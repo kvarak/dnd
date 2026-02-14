@@ -1,0 +1,167 @@
+---
+layout: default
+title: "Offline - Varlyn D&D Rules"
+description: "You're currently offline, but essential D&D rules are still available"
+permalink: /offline.html
+---
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="text-center mb-5">
+        <i class="fas fa-wifi-slash fa-4x text-muted mb-3"></i>
+        <h1 class="display-4">You're Offline</h1>
+        <p class="lead">No internet connection, but your D&D adventure can continue!</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header bg-primary text-white">
+          <h3 class="mb-0"><i class="fas fa-download me-2"></i>Cached D&D Resources</h3>
+        </div>
+        <div class="card-body">
+          <p>The following essential D&D reference materials are available offline:</p>
+
+          <div class="row">
+            <div class="col-md-6">
+              <h5><i class="fas fa-user me-2"></i>Character Creation</h5>
+              <ul class="list-unstyled mb-4">
+                <li><a href="{{ site.baseurl }}/docs/_RulesCharacter/character-creation.html" class="text-decoration-none">
+                  <i class="fas fa-link me-1"></i>Character Creation Guide</a></li>
+                <li><a href="{{ site.baseurl }}/docs/_RulesCharacter/ability-scores.html" class="text-decoration-none">
+                  <i class="fas fa-link me-1"></i>Ability Scores</a></li>
+              </ul>
+
+              <h5><i class="fas fa-fist-raised me-2"></i>Combat Rules</h5>
+              <ul class="list-unstyled mb-4">
+                <li><a href="{{ site.baseurl }}/docs/_RulesCombat/combat.html" class="text-decoration-none">
+                  <i class="fas fa-link me-1"></i>Combat Mechanics</a></li>
+                <li><a href="{{ site.baseurl }}/docs/_RulesExtra/conditions.html" class="text-decoration-none">
+                  <i class="fas fa-link me-1"></i>Conditions Reference</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-6">
+              <h5><i class="fas fa-magic me-2"></i>Magic & Spells</h5>
+              <ul class="list-unstyled mb-4">
+                <li><a href="{{ site.baseurl }}/docs/_RulesMagic/spellcasting.html" class="text-decoration-none">
+                  <i class="fas fa-link me-1"></i>Spellcasting Rules</a></li>
+              </ul>
+
+              <h5><i class="fas fa-home me-2"></i>Navigation</h5>
+              <ul class="list-unstyled mb-4">
+                <li><a href="{{ site.baseurl }}/" class="text-decoration-none">
+                  <i class="fas fa-link me-1"></i>Home (cached)</a></li>
+                <li><a href="javascript:history.back()" class="text-decoration-none">
+                  <i class="fas fa-arrow-left me-1"></i>Go Back</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="alert alert-info" role="alert">
+            <i class="fas fa-info-circle me-2"></i>
+            <strong>Tip:</strong> Pages you've visited while online are automatically cached for offline access.
+            Visit important D&D reference pages while connected to ensure they're available during your game sessions.
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-4">
+        <div class="card-header bg-success text-white">
+          <h4 class="mb-0"><i class="fas fa-dice-d20 me-2"></i>Offline D&D Tools</h4>
+        </div>
+        <div class="card-body">
+          <p>While offline, you can still use these essential gaming tools:</p>
+
+          <div class="row text-center">
+            <div class="col-md-4 mb-3">
+              <div class="border rounded p-3">
+                <i class="fas fa-dice fa-2x text-primary mb-2"></i>
+                <h6>Dice Roller</h6>
+                <button class="btn btn-sm btn-primary" onclick="rollDice()">
+                  Roll d20
+                </button>
+                <div id="dice-result" class="mt-2 fw-bold"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <div class="border rounded p-3">
+                <i class="fas fa-heart fa-2x text-danger mb-2"></i>
+                <h6>HP Tracker</h6>
+                <div class="input-group input-group-sm">
+                  <input type="number" class="form-control" id="hp-input" placeholder="HP" min="0">
+                  <button class="btn btn-outline-secondary" onclick="trackHP()">Track</button>
+                </div>
+                <div id="hp-display" class="mt-2"></div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <div class="border rounded p-3">
+                <i class="fas fa-clock fa-2x text-warning mb-2"></i>
+                <h6>Initiative Timer</h6>
+                <button class="btn btn-sm btn-warning" onclick="startTimer()">
+                  Start Round
+                </button>
+                <div id="timer-display" class="mt-2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <button class="btn btn-outline-primary" onclick="location.reload()">
+          <i class="fas fa-sync-alt me-2"></i>Try to Reconnect
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Check online status
+  function updateOnlineStatus() {
+    if (navigator.onLine) {
+      document.body.insertAdjacentHTML('afterbegin',
+        '<div class="alert alert-success alert-dismissible fade show" role="alert">' +
+        '<i class="fas fa-wifi me-2"></i>You\'re back online! ' +
+        '<a href="/" class="alert-link">Return to full site</a>' +
+        '<button type="button" class="btn-close" data-bs-dismiss="alert"></button>' +
+        '</div>'
+      );
+    }
+  }
+
+  window.addEventListener('online', updateOnlineStatus);
+
+  // Simple offline tools
+  window.rollDice = function() {
+    const result = Math.floor(Math.random() * 20) + 1;
+    document.getElementById('dice-result').textContent = result;
+  };
+
+  window.trackHP = function() {
+    const hp = document.getElementById('hp-input').value;
+    if (hp) {
+      document.getElementById('hp-display').innerHTML =
+        `<span class="badge bg-${hp > 50 ? 'success' : hp > 25 ? 'warning' : 'danger'}">${hp} HP</span>`;
+    }
+  };
+
+  let timerInterval;
+  window.startTimer = function() {
+    clearInterval(timerInterval);
+    let seconds = 0;
+    const display = document.getElementById('timer-display');
+
+    timerInterval = setInterval(function() {
+      seconds++;
+      const minutes = Math.floor(seconds / 60);
+      const remainingSeconds = seconds % 60;
+      display.textContent = `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
+    }, 1000);
+  };
+});
+</script>
