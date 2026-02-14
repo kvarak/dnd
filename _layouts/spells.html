@@ -14,12 +14,60 @@
       // spells
       var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1Lsmu72Ssq48d7Df2zqYDFUoHsdsOb7K1L_u1FshKJWc/pub?output=csv';
 
+      // Cache settings (1 hour = 1 * 60 * 60 * 1000 milliseconds)
+      var CACHE_DURATION = 1 * 60 * 60 * 1000;
+      var CACHE_KEY = 'spells_data';
+      var CACHE_TIMESTAMP_KEY = 'spells_timestamp';
+
       function init() {
+        // Check if we have cached data and it's still valid
+        var cachedData = localStorage.getItem(CACHE_KEY);
+        var cacheTimestamp = localStorage.getItem(CACHE_TIMESTAMP_KEY);
+        var now = new Date().getTime();
+
+        if (cachedData && cacheTimestamp && (now - parseInt(cacheTimestamp)) < CACHE_DURATION) {
+          // Use cached data
+          $('#alert').html('Using cached spells data. <button id="refresh-btn" class="btn btn-sm btn-outline-secondary ml-2">Refresh from Google Sheets</button>');
+          var parsedData = JSON.parse(cachedData);
+          fillTable({ data: parsedData });
+
+          // Add refresh button functionality
+          $('#refresh-btn').on('click', function() {
+            localStorage.removeItem(CACHE_KEY);
+            localStorage.removeItem(CACHE_TIMESTAMP_KEY);
+            $('#alert').text('Downloading fresh spells data...');
+            downloadSpells();
+          });
+        } else {
+          // Download fresh data
+          $('#alert').text('Downloading spells data...');
+          downloadSpells();
+        }
+      }
+
+      function downloadSpells() {
         Papa.parse(public_spreadsheet_url, {
           download: true,
           header: true,
-          complete: fillTable
-        })
+          complete: function(results) {
+            // Cache the downloaded data
+            localStorage.setItem(CACHE_KEY, JSON.stringify(results.data));
+            localStorage.setItem(CACHE_TIMESTAMP_KEY, new Date().getTime().toString());
+
+            fillTable(results);
+          },
+          error: function(error) {
+            $('#alert').text('Error loading spells: ' + error.message);
+
+            // Try to use cached data as fallback
+            var cachedData = localStorage.getItem(CACHE_KEY);
+            if (cachedData) {
+              $('#alert').append(' Using cached data as fallback.');
+              var parsedData = JSON.parse(cachedData);
+              fillTable({ data: parsedData });
+            }
+          }
+        });
       }
 
       window.addEventListener('DOMContentLoaded', init)
