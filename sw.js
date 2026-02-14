@@ -19,7 +19,8 @@ const CORE_CACHE = [
   '/dnd/assets/vendor/fonts/buenard.css',
   '/dnd/assets/vendor/fonts/buenard-regular.ttf',
   '/dnd/assets/images/og-image.jpg',
-  '/dnd/assets/js/search.min.js'
+  '/dnd/assets/js/search.min.js',
+  '/dnd/assets/js/dark-mode.min.js'
 ];
 
 // Essential D&D reference pages to cache for offline gaming

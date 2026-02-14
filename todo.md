@@ -55,7 +55,7 @@
 
 ### User Experience
 - [x] **Add search functionality** - ✅ Client-side search across 76 files (reduce complexity: vanilla JS, no dependencies)
-- [ ] **Add dark mode toggle** - Improve accessibility and user preference
+- [x] **Add dark mode toggle** - ✅ CSS custom properties with localStorage persistence and system preference detection
 - [ ] **Add breadcrumb navigation** - Better navigation for deep content
 - [ ] **Mobile navigation improvements** - Better UX for small screens
 - [ ] **Add print stylesheets** - Better printing of rule pages

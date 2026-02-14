@@ -4,6 +4,98 @@ html {
   scroll-padding-top: 80px; /* Account for fixed navbar height */
 }
 
+/* Dark Mode Support - CSS Custom Properties for theming */
+:root {
+  /* Light mode colors (default) */
+  --bg-body-image: url("../images/page-background.jpg");
+  --bg-body-color: #f5f5dc;
+  --bg-content: white;
+  --color-heading: #58180D;
+  --color-text: #000;
+  --color-link: #0066cc;
+  --color-link-hover: #0052a3;
+  --color-summary: #6b4fbb;
+  --bg-skill-frame: lightblue;
+  --bg-table-odd: #b5e2f1;
+  --bg-table-even: #E5E8E8;
+  --bg-descriptive: #b5e2f1;
+  --bg-feat-header: #d42129;
+  --bg-monster: #f2e5b5;
+  --bg-search-input: #343a40;
+  --color-search-input: #fff;
+  --bg-search-results: #fff;
+  --color-search-text: #333;
+  --border-search: #495057;
+  --bg-blockquote: #faebbc;
+  --border-blockquote: #e1cc89;
+  --bg-details: transparent;
+  --border-details: rgba(90, 88, 88, 0.5);
+  --filter-img: none;
+}
+
+/* Dark mode overrides */
+html.dark-mode {
+  --bg-body-image: none;
+  --bg-body-color: #1a1a1a;
+  --bg-content: #2d2d2d;
+  --color-heading: #d4a574;
+  --color-text: #e0e0e0;
+  --color-link: #5eb3f6;
+  --color-link-hover: #8eccff;
+  --color-summary: #9d7fff;
+  --bg-skill-frame: #2a3d4a;
+  --bg-table-odd: #2a3d4a;
+  --bg-table-even: #3a3a3a;
+  --bg-descriptive: #2a3d4a;
+  --bg-feat-header: #8b2e2e;
+  --bg-monster: #3a3020;
+  --bg-search-input: #2b3035;
+  --color-search-input: #e0e0e0;
+  --bg-search-results: #2d2d2d;
+  --color-search-text: #e0e0e0;
+  --border-search: #495057;
+  --bg-blockquote: #3a3020;
+  --border-blockquote: #5a4a2a;
+  --bg-details: rgba(50, 50, 50, 0.3);
+  --border-details: rgba(150, 150, 150, 0.3);
+  --filter-img: brightness(0.85) contrast(1.1);
+}
+
+/* Apply theme variables to html first for immediate effect */
+html {
+  background-image: var(--bg-body-image);
+  background-color: var(--bg-body-color);
+  color: var(--color-text);
+}
+
+/* Apply theme variables */
+body {
+  background-image: var(--bg-body-image);
+  background-color: var(--bg-body-color);
+  color: var(--color-text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5 {
+  color: var(--color-heading);
+}
+
+/* Link colors for dark mode */
+a {
+  color: var(--color-link);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+/* Dark mode image adjustments */
+html.dark-mode img:not(.navbar-brand img):not(#logo) {
+  filter: var(--filter-img);
+}
+
 @font-face {
   font-family:SolberaImitationRemake;
   src:url('../fonts/Solbera Imitation Tweak.woff2');
@@ -29,15 +121,7 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 0;
   font-family: MrJeeves;
   font-weight: 900;
-  color: #58180D;
   font-variant: small-caps;
-}
-
-body {
-  background-image: url("../images/page-background.jpg");
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 #logo {
@@ -136,7 +220,8 @@ details {
   padding: 4px;
   border-style: double;
   border-width: 1px;
-  border-color: rgba(90, 88, 88, 0.5);
+  border-color: var(--border-details);
+  background-color: var(--bg-details);
   border-radius: 5px;
 }
 
@@ -146,7 +231,7 @@ details p {
 }
 
 summary {
-  color: #6b4fbb;
+  color: var(--color-summary);
   cursor: pointer;
   display: list-item;
 }
@@ -277,7 +362,7 @@ a[name]:not([href]) {
 }
 
 .skill-frame {
-  background-color: lightblue;
+  background-color: var(--bg-skill-frame);
   border-image: url(../images/descriptiveBorder.png) 12 stretch;
   border-image-outset: 4px;
   border-style: double;
@@ -306,12 +391,13 @@ a[name]:not([href]) {
 }
 
 .toc {
-  border: 1px solid black;
+  border: 1px solid var(--border-details);
   border-radius: 8px;
   float: right;
   margin: 10px 10px 0px 10px;
   padding: 5px;
-  background-image: url(../images/page-background.jpg);
+  background-image: var(--bg-body-image);
+  background-color: var(--bg-body-color);
 }
 
 .toc p {
@@ -320,7 +406,7 @@ a[name]:not([href]) {
 }
 
 .toc a {
-  color: inherit;
+  color: var(--color-link);
 }
 
 
@@ -329,7 +415,7 @@ a[name]:not([href]) {
 /* Class tables */
 
 .classTable.frame {
-  background-color: white;
+  background-color: var(--bg-content);
   border: initial;
   border-collapse: separate;
   border-image-outset: 0.4cm 0.3cm;
@@ -343,6 +429,46 @@ a[name]:not([href]) {
   margin-top: 25px;
   margin-bottom: 25px;
   margin-right: 10px;
+}
+
+/* Force class tables to stay light mode (frameBorder.png has white center) */
+html.dark-mode .classTable.frame {
+  background-color: white;
+  color: #000;
+}
+
+html.dark-mode .classTable.frame table {
+  color: #000;
+}
+
+html.dark-mode .classTable.frame a {
+  color: #0066cc;
+}
+
+html.dark-mode .classTable.frame a:hover {
+  color: #0052a3;
+}
+
+html.dark-mode .classTable.frame th,
+html.dark-mode .classTable.frame td {
+  color: #000;
+}
+
+/* Preserve alternating row colors in light mode style */
+html.dark-mode .classTable.frame table tr:nth-child(odd) td {
+  background-color: #b5e2f1;
+}
+
+html.dark-mode .classTable.frame table tr:nth-child(even) td {
+  background-color: white;
+}
+
+html.dark-mode .classTable.frame h1,
+html.dark-mode .classTable.frame h2,
+html.dark-mode .classTable.frame h3,
+html.dark-mode .classTable.frame h4,
+html.dark-mode .classTable.frame h5 {
+  color: #58180D;
 }
 
 .classTable thead tr th {
@@ -361,7 +487,7 @@ a[name]:not([href]) {
 /* Archetype features tables */
 
 .featuresTable {
-  background-color: #E5E8E8;
+  background-color: var(--bg-table-even);
   border-radius: 10px;;
   margin-left: 10px;
   margin-bottom: 0px;
@@ -372,7 +498,7 @@ a[name]:not([href]) {
 .featuresTable h4 {
   padding: 5px;
   padding-left: 10px;
-  background-color: #d42129;
+  background-color: var(--bg-feat-header);
   color: white;
   font-family: MrJeeves;
   font-size: large;
@@ -422,7 +548,7 @@ hr.dividerinfolk {
 .monster.frame {
   border-style: solid;
   border-width: 7px 6px;
-  background-color: #f2e5b5;
+  background-color: var(--bg-monster);
   background-image: url(../images/parchmentBackgroundGrayscale.jpg);
   border-image: url(../images/monsterBorderFancy.png) 14 round;
   border-image-outset: 0px 2px;
@@ -463,8 +589,8 @@ hr.dividerinfolk {
 
 /* Feat block */
 .feat {
-  background-color: #E5E8E8;
-  color: black;
+  background-color: var(--bg-table-even);
+  color: var(--color-text);
   border-radius: 8px;
   margin-bottom: 15px;
   font-size: 0.95em;
@@ -473,7 +599,7 @@ hr.dividerinfolk {
 
 .feat h2 {
   padding: 5px;
-  background-color: #d42129;
+  background-color: var(--bg-feat-header);
   color: white;
   font-size: large;
   font-weight: bold;
@@ -490,7 +616,7 @@ hr.dividerinfolk {
   line-height: 1.2em;
   border-style: solid;
   border-width: 7px;
-  background-color: #b5e2f1 !important;
+  background-color: var(--bg-descriptive) !important;
   border-image: url(../images/descriptiveBorder.png) 12 stretch;
   border-image-outset: 4px;
   padding: 2px;
@@ -530,7 +656,7 @@ hr.dividerinfolk {
   line-height: 1.2em;
   border-style: solid;
   border-width: 7px;
-  background-color: #b5e2f1 !important;
+  background-color: var(--bg-descriptive) !important;
   border-image: url(../images/descriptiveBorder.png) 12 stretch;
   border-image-outset: 4px;
   padding: 2px;
@@ -542,7 +668,7 @@ hr.dividerinfolk {
 .spell {
   border-style: solid;
   border-width: 7px;
-  background-color: #b5e2f1 !important;
+  background-color: var(--bg-descriptive) !important;
   border-image: url(../images/descriptiveBorder.png) 12 stretch;
   border-image-outset: 4px;
   max-width: 50%;
@@ -563,15 +689,15 @@ hr.dividerinfolk {
 /* -------------------------------------------------------------------------- */
 
 .phb hr+blockquote {
-  background-color: #b5e2f1 !important;;
+  background-color: var(--bg-descriptive) !important;;
   background-position: center center;
   border-width: 6px;
   border-image: url(https://i.imgur.com/gtHyLi6.png);
   border-image-slice: 20 }
 
-.phb blockquote {background-color: #b5e2f1 !important;}
-.phb hr+blockquote hr+ul {color: #000;}
-.phb hr+blockquote table {color: #000;}
+.phb blockquote {background-color: var(--bg-descriptive) !important;}
+.phb hr+blockquote hr+ul {color: var(--color-text);}
+.phb hr+blockquote table {color: var(--color-text);}
 
 .phb hr+blockquote hr {
   filter: hue-rotate(180deg);
@@ -613,18 +739,18 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
 }
 
 .restTable th {
-  background-color: #E5E8E8;
+  background-color: var(--bg-table-even);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  color: black;
+  color: var(--color-text);
   font-size: 1.1em;
 }
 
 
 .restTable td {
   font-size: 0.95em;
-  background-color: #E5E8E8 !important;
-  color: black;
+  background-color: var(--bg-table-even) !important;
+  color: var(--color-text);
 }
 
 .multirest {
@@ -635,11 +761,11 @@ background-image: url(https://i.imgur.com/gtHyLi6.png)}
 /* ----------------------------------------------------------------------------- */
 
 /* Tables */
-table tr:nth-child(odd) td {background-color: #b5e2f1;}
+table tr:nth-child(odd) td {background-color: var(--bg-table-odd);}
 
 /* styled Tables */
 .sTable {
-  background-color: #b5e2f1;
+  background-color: var(--bg-table-odd);
   color: white;
   border-radius: 8px;
   margin-bottom: 15px;
@@ -649,8 +775,8 @@ table tr:nth-child(odd) td {background-color: #b5e2f1;}
 .sTable h4 { padding: 8px 0px 6px 10px ; }
 
 .sTable th {
-  background-color: #E5E8E8;
-  color: black;
+  background-color: var(--bg-table-even);
+  color: var(--color-text);
 }
 
 .sTable td {
@@ -658,13 +784,13 @@ table tr:nth-child(odd) td {background-color: #b5e2f1;}
 }
 
 .sTable tr:nth-child(odd) td {
-  background-color: #E5E8E8;
-  color: black;
+  background-color: var(--bg-table-even);
+  color: var(--color-text);
 }
 
 .sTable tr:nth-child(even) td {
-  background-color: white;
-  color: black;
+  background-color: var(--bg-content);
+  color: var(--color-text);
 }
 
 /* Quote blocks */
@@ -672,15 +798,16 @@ table tr:nth-child(odd) td {background-color: #b5e2f1;}
 blockquote {
   font: 14px/20px italic Times, serif;
   padding: 8px;
-  background-color: #faebbc;
-  border-top: 1px solid #e1cc89;
-  border-bottom: 1px solid #e1cc89;
+  background-color: var(--bg-blockquote);
+  border-top: 1px solid var(--border-blockquote);
+  border-bottom: 1px solid var(--border-blockquote);
   background-position: top left;
   background-repeat: no-repeat;
   text-indent: 23px;
   max-width: 500px;
   margin: 5px;
   margin-left: 50px;
+  color: var(--color-text);
 }
 
 blockquote p {
@@ -701,10 +828,10 @@ blockquote p {
 #site-search-input {
   width: 250px;
   padding: 8px 12px;
-  border: 1px solid #495057;
+  border: 1px solid var(--border-search);
   border-radius: 4px;
-  background-color: #343a40;
-  color: #fff;
+  background-color: var(--bg-search-input);
+  color: var(--color-search-input);
   transition: all 0.3s ease;
 }
 
@@ -747,7 +874,7 @@ blockquote p {
   width: 400px;
   max-height: 500px;
   overflow-y: auto;
-  background-color: #fff;
+  background-color: var(--bg-search-results);
   border: 1px solid #dee2e6;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -759,7 +886,7 @@ blockquote p {
   display: block;
   padding: 6px 15px;
   text-decoration: none;
-  color: #333;
+  color: var(--color-search-text);
   border-bottom: 1px solid #e9ecef;
   transition: background-color 0.2s ease;
   white-space: nowrap;
@@ -787,7 +914,7 @@ blockquote p {
 
 .search-result-title {
   display: inline;
-  color: #333;
+  color: var(--color-search-text);
 }
 
 .search-result-match {
@@ -809,5 +936,37 @@ blockquote p {
 
   #search-results {
     width: 300px;
+  }
+}
+
+/* Dark Mode Toggle Button */
+#dark-mode-toggle {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  padding: 6px 12px;
+  transition: all 0.3s ease;
+  line-height: 1;
+}
+
+#dark-mode-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+#dark-mode-toggle:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  #dark-mode-toggle {
+    margin-left: 10px;
+    padding: 4px 8px;
+    font-size: 1rem;
   }
 }

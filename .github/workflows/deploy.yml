@@ -71,11 +71,15 @@ jobs:
           # Minify function.js
           terser assets/js/function.js -o assets/js/function.min.js -c -m
 
+          # Minify dark-mode.js
+          terser assets/js/dark-mode.js -o assets/js/dark-mode.min.js -c -m
+
           # Show minification results
           echo "JavaScript minification results:"
           echo "search.js: $(stat -f%z assets/js/search.js) bytes -> $(stat -f%z assets/js/search.min.js) bytes"
           echo "skills-anchors.js: $(stat -f%z assets/js/skills-anchors.js) bytes -> $(stat -f%z assets/js/skills-anchors.min.js) bytes"
           echo "function.js: $(stat -f%z assets/js/function.js) bytes -> $(stat -f%z assets/js/function.min.js) bytes"
+          echo "dark-mode.js: $(stat -f%z assets/js/dark-mode.js) bytes -> $(stat -f%z assets/js/dark-mode.min.js) bytes"
 
       - name: Setup Pages
         id: pages

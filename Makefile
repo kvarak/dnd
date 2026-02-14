@@ -53,7 +53,8 @@ minify: build
 		cleancss -o assets/css/newstyle.min.css assets/css/newstyle.css && \
 		terser assets/js/search.js -o assets/js/search.min.js -c -m && \
 		terser assets/js/skills-anchors.js -o assets/js/skills-anchors.min.js -c -m && \
-		terser assets/js/function.js -o assets/js/function.min.js -c -m"
+		terser assets/js/function.js -o assets/js/function.min.js -c -m && \
+		terser assets/js/dark-mode.js -o assets/js/dark-mode.min.js -c -m"
 	@echo "✅ Minified: $$(du -h assets/css/style.min.css | cut -f1) CSS, $$(du -h assets/js/search.min.js | cut -f1) JS"
 
 # Start development server (does extract & minify automatically)

@@ -1,6 +1,9 @@
 // Simple search functionality for dnd.rigo.nu
 // Following core principle: Reduce complexity (vanilla JS, no dependencies)
 
+(function() {
+  'use strict';
+
 let searchData = [];
 let spellsLoaded = false;
 let equipmentLoaded = false;
@@ -467,3 +470,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
+})(); // End IIFE

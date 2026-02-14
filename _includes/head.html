@@ -4,6 +4,19 @@
 <link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Varlyn custom D&D rules, campaigns, and character options for tabletop RPG adventures{% endif %}">
 
+<!-- Dark Mode: Apply immediately before any CSS loads to prevent flash -->
+<script>
+(function() {
+  const stored = localStorage.getItem('dnd-dark-mode');
+  const isDark = stored !== null ? stored === 'true' : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  console.log('[INLINE SCRIPT] localStorage:', stored, '| isDark:', isDark, '| Will apply:', isDark ? 'dark-mode class' : 'no class');
+  if (isDark) {
+    document.documentElement.classList.add('dark-mode');
+    console.log('[INLINE SCRIPT] Added dark-mode class to <html>');
+  }
+})();
+</script>
+
 <!-- Open Graph meta tags -->
 <meta property="og:title" content="{{ page.title | default: 'Varlyn D&D Rules' }}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Varlyn custom D&D rules, campaigns, and character options for tabletop RPG adventures{% endif %}">
@@ -46,14 +59,17 @@
 <!-- Google Fonts: Buenard (Self-hosted) -->
 <link href="{{ site.baseurl }}/assets/vendor/fonts/buenard.css" rel="stylesheet">
 
-<!-- My style (minified for dev/prod parity) -->
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.min.css">
+<!-- My style (minified for dev/prod parity) - cache busted by build time -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.min.css?v={{ site.time | date: '%s' }}">
+
+<!-- Dark Mode (must load early to prevent flash, minified for dev/prod parity) -->
+<script src="{{ site.baseurl }}/assets/js/dark-mode.min.js?v={{ site.time | date: '%s' }}"></script>
 
 <!-- GoatCounter Analytics -->
 <script data-goatcounter="https://stats.dnd.kvarak.net/count"
         async src="//stats.dnd.kvarak.net/count.js"></script>
 
-<!-- Service Worker Registration -->
+<!-- Service Worker Registration (DISABLED for development) -->
 <script>
 // Register service worker for offline caching and performance
 if ('serviceWorker' in navigator) {
