@@ -1,0 +1,39 @@
+# Lychee ignore file for dnd.rigo.nu link checker
+# URLs that should be excluded from external link checking
+
+# Google Sheets URLs (authentication required)
+https://docs.google.com/spreadsheets/*
+https://opensheet.elk.sh/*
+
+# Social media placeholder URLs and generic examples
+https://facebook.com
+https://twitter.com
+https://linkedin.com
+https://example.com
+https://example.org
+
+# Font delivery that might be rate limited
+https://fonts.googleapis.com/*
+https://fonts.gstatic.com/*
+
+# CDN URLs that might have rate limiting
+https://cdn.jsdelivr.net/*
+https://cdnjs.cloudflare.com/*
+https://code.jquery.com/*
+
+# GoatCounter analytics (might block automated requests)
+https://gc.zgo.at/*
+
+# Common false positives - URLs that work in browsers but block bots
+https://unsplash.com/photos/*
+https://blogger.googleusercontent.com/*
+
+# Local development URLs
+http://localhost*
+http://127.0.0.1*
+
+# Rate-limited or bot-blocking services
+https://roll20.net/*
+
+# Placeholder or template URLs that might appear in documentation
+mailto:example@example.com

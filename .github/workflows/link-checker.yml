@@ -1,0 +1,110 @@
+name: Check Links
+
+on:
+  # Run on pull requests to main branch
+  pull_request:
+    branches: [ main ]
+
+  # Run weekly on Sundays at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * 0'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build
+          ls -la _site/
+        env:
+          JEKYLL_ENV: production
+
+      - name: Check internal links with htmlproofer
+        run: |
+          bundle exec htmlproofer ./_site \
+            --disable-external \
+            --check-html \
+            --check-internal-hash \
+            --allow-hash-href \
+            --ignore-urls "/assets/campaigns/,/assets/images/" \
+            --ignore-files "/RulesMagic/spells.html,/RulesEquipment/equipment.html" \
+            --swap-urls "^/dnd:" \
+            --typhoeus-config '{"timeout":30}'
+
+      - name: Setup Node.js for external link checking
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install lychee link checker
+        run: npm install -g lychee-link-checker
+
+      - name: Check external links with lychee
+        run: |
+          lychee --verbose \
+            --no-progress \
+            --max-concurrency 8 \
+            --timeout 30 \
+            --retry-wait-time 5 \
+            --exclude-file .lycheeignore \
+            --exclude "docs.google.com" \
+            --exclude "opensheet.elk.sh" \
+            --exclude "localhost" \
+            --exclude "127.0.0.1" \
+            "_site/**/*.html"
+        continue-on-error: true
+
+      - name: Create issue on failure (scheduled runs only)
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `🔗 Broken Links Detected - ${new Date().toISOString().split('T')[0]}`;
+            const body = `
+            ## Broken Links Found
+
+            The weekly link check has detected broken links on the site.
+
+            **Action Required:**
+            1. Check the [workflow run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details
+            2. Fix identified broken links
+            3. Update redirects if needed
+            4. Consider adding problematic URLs to .lycheeignore if appropriate
+
+            **Site:** https://dnd.rigo.nu
+            **Time:** ${new Date().toISOString()}
+
+            This issue was auto-created by the link checker workflow.
+            `;
+
+            // Check if similar issue already exists
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: ['broken-links', 'automated']
+            });
+
+            if (issues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['broken-links', 'automated', 'bug']
+              });
+            }

@@ -39,7 +39,7 @@
 
 ### Development Workflow
 - [ ] **Add GitHub Actions for CI/CD** - Automated testing and deployment
-- [ ] **Add link checker workflow** - Catch broken links automatically
+- [x] **Add link checker workflow** - ✅ Automated internal/external link validation with weekly reports
 - [ ] **Add image optimization workflow** - Automatically compress new images
 - [x] **Create local development documentation** - ✅ Docker with bundle exec for proper dependency management
 
