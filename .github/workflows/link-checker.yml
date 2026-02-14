@@ -1,11 +1,11 @@
-name: Check Links (Standalone)
+name: Link Monitoring
 
 on:
-  # Run on pull requests to main branch
+  # Monitor on pull requests
   pull_request:
     branches: [ main ]
 
-  # Run weekly on Sundays at 2 AM UTC
+  # Weekly monitoring on Sundays at 2 AM UTC
   schedule:
     - cron: '0 2 * * 0'
 
@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  check-links:
+  comprehensive-link-check:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,30 +26,19 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
-      - name: Build Jekyll site
-        run: |
-          bundle exec jekyll build
-          ls -la _site/
-        env:
-          JEKYLL_ENV: production
-
-      - name: Check internal links with htmlproofer
-        run: |
-          bundle exec htmlproofer ./_site \
-            --ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
-            --ignore-files "spells.html,equipment.html" \
-            --disable-external
-
-      - name: Setup Node.js for external link checking
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
 
-      - name: Install lychee link checker
-        run: npm install -g lychee-link-checker
-
-      - name: Check external links with lychee
+      - name: Build site and check internal links
         run: |
+          make ci-build
+          make ci-link-check
+
+      - name: Install and run external link checker
+        run: |
+          npm install -g lychee-link-checker
           lychee --verbose \
             --no-progress \
             --max-concurrency 8 \
@@ -62,6 +51,47 @@ jobs:
             --exclude "127.0.0.1" \
             "_site/**/*.html"
         continue-on-error: true
+
+      - name: Create issue on failure (scheduled runs only)
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `🔗 Broken Links Detected - ${new Date().toISOString().split('T')[0]}`;
+            const body = `
+            ## Broken Links Found
+
+            The weekly link check has detected broken links on the site.
+
+            **Action Required:**
+            1. Check the [workflow run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details
+            2. Fix identified broken links
+            3. Update redirects if needed
+            4. Consider adding problematic URLs to .lycheeignore if appropriate
+
+            **Site:** https://dnd.rigo.nu
+            **Time:** ${new Date().toISOString()}
+
+            This issue was auto-created by the link checker workflow.
+            `;
+
+            // Check if similar issue already exists
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: ['broken-links', 'automated']
+            });
+
+            if (issues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['broken-links', 'automated', 'bug']
+              });
+            }
 
       - name: Create issue on failure (scheduled runs only)
         if: failure() && github.event_name == 'schedule'

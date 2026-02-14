@@ -1,6 +1,6 @@
 # Simplified Makefile for Jekyll D&D site (following simplification principle)
 
-.PHONY: help serve build build-site clean
+.PHONY: help serve build build-site clean link-checker ci-build ci-link-check
 
 # Docker configuration
 DOCKER_IMAGE = dnd-jekyll
@@ -11,6 +11,9 @@ help:
 	@echo "D&D Site Development Commands:"
 	@echo "  serve       - Start development server"
 	@echo "  build-site  - Build Jekyll site (static files only)"
+	@echo "  link-checker- Check internal links locally (Docker)"
+	@echo "  ci-build    - Build site for CI/CD (no Docker)"
+	@echo "  ci-link-check- Check internal links for CI/CD (no Docker)"
 	@echo "  extract     - Extract searchable content (skills, familiars)"
 	@echo "  build       - Build Docker image"
 	@echo "  clean       - Clean Docker artifacts"
@@ -58,6 +61,32 @@ clean:
 dev-build: build-image ## Quick development build
 	@echo "⚡ Quick development build in Docker..."
 	$(DOCKER_RUN) $(DOCKER_IMAGE) bundle exec jekyll build --incremental --baseurl="/dnd"
+
+# Check internal links with html-proofer
+link-checker: build-site ## Check internal links locally
+	@echo "🔗 Checking internal links with html-proofer in Docker..."
+	docker run --rm \
+		-v $(PWD):/srv/jekyll \
+		$(DOCKER_IMAGE) \
+		bundle exec htmlproofer _site \
+			--ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
+			--ignore-files "spells.html,equipment.html" \
+			--disable-external
+	@echo "✅ Link checking complete!"
+
+# CI/CD targets (no Docker required)
+ci-build: extract ## Build Jekyll site for CI/CD
+	@echo "🏠 Building Jekyll site for CI/CD..."
+	bundle exec jekyll build --baseurl="/dnd"
+	@echo "✅ CI build complete!"
+
+ci-link-check: ## Check internal links for CI/CD (assumes site already built)
+	@echo "🔗 Checking internal links with html-proofer for CI/CD..."
+	bundle exec htmlproofer ./_site \
+		--ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
+		--ignore-files "spells.html,equipment.html" \
+		--disable-external
+	@echo "✅ CI link checking complete!"
 
 # Check site health
 test: dev-build ## Run basic site tests

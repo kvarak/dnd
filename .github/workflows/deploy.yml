@@ -20,59 +20,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Link check job (runs first to catch issues early)
-  check-links:
-    runs-on: ubuntu-latest
+  # Single job: build, validate, and deploy
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
-
-      - name: Build Jekyll site for link checking
-        run: |
-          bundle exec jekyll build
-        env:
-          JEKYLL_ENV: production
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PAGES_REPO_NWO: ${{ github.repository }}
-
-      - name: Check internal links with htmlproofer
-        run: |
-          bundle exec htmlproofer ./_site \
-            --ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
-            --ignore-files "spells.html,equipment.html" \
-            --disable-external
-
-      - name: Setup Node.js for external link checking
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      - name: Install lychee link checker
-        run: npm install -g lychee-link-checker
-
-      - name: Check external links with lychee
-        run: |
-          lychee --verbose \
-            --no-progress \
-            --max-concurrency 8 \
-            --timeout 30 \
-            --retry-wait-time 5 \
-            --exclude-file .lycheeignore \
-            --exclude "docs.google.com" \
-            --exclude "opensheet.elk.sh" \
-            --exclude "localhost" \
-            --exclude "127.0.0.1" \
-            "_site/**/*.html"
-
-  # Build job (runs in parallel with link check)
-  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -89,9 +42,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Build Jekyll site
+      - name: Build Jekyll site with basic quality gate
         run: |
+          ruby extract-searchable.rb
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+          bundle exec htmlproofer ./_site \
+            --ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
+            --ignore-files "spells.html,equipment.html" \
+            --disable-external
         env:
           JEKYLL_ENV: production
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -102,16 +60,6 @@ jobs:
         with:
           path: ./_site/
 
-  # Deploy job (runs only after both build and link check succeed)
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-    needs: [build, check-links]
-
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
