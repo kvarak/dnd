@@ -1,6 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title }}</title>
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Varlyn custom D&D rules, campaigns, and character options for tabletop RPG adventures{% endif %}">
 
 <!-- Open Graph meta tags -->
@@ -28,7 +29,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Varlyn D&D">
-<link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/lantern.jpg">
+<link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/og-image.jpg">
 
 <!-- Bootstrap 5.3.3 CSS (Self-hosted) -->
 <link href="{{ site.baseurl }}/assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -45,8 +46,8 @@
 <!-- Google Fonts: Buenard (Self-hosted) -->
 <link href="{{ site.baseurl }}/assets/vendor/fonts/buenard.css" rel="stylesheet">
 
-<!-- My style -->
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+<!-- My style (minified for dev/prod parity) -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.min.css">
 
 <!-- GoatCounter Analytics -->
 <script data-goatcounter="https://stats.dnd.kvarak.net/count"

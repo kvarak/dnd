@@ -4,6 +4,12 @@ FROM --platform=linux/arm64 jekyll/jekyll:4.2.2
 # Set working directory
 WORKDIR /srv/jekyll
 
+# Install Node.js and npm for minification tools
+RUN apk add --no-cache nodejs npm
+
+# Install minification tools globally in Docker
+RUN npm install -g clean-css-cli terser
+
 # Copy Gemfile first for dependency management
 COPY Gemfile* ./
 

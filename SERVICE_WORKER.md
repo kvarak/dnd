@@ -35,15 +35,11 @@ This implementation provides offline capability and performance caching optimize
 ```
 /dnd/ (home page)
 /dnd/offline.html
-/dnd/assets/css/style.css
+/dnd/assets/css/style.min.css (minified)
 /dnd/assets/vendor/bootstrap/bootstrap.min.css
 /dnd/assets/vendor/jquery/jquery-3.7.1.min.js
 /dnd/assets/vendor/fontawesome/fontawesome-all.min.css
-/dnd/assets/js/search.js
-```
-
-### Essential D&D Pages (Pre-cached)
-```
+/dnd/assets/js/search.min.js (minified)
 Character Creation Guide
 Ability Scores Reference
 Combat Mechanics

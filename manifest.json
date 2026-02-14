@@ -13,13 +13,13 @@
   "dir": "ltr",
   "icons": [
     {
-      "src": "/dnd/assets/images/lantern.jpg",
+      "src": "/dnd/assets/images/og-image.jpg",
       "sizes": "192x192",
       "type": "image/jpeg",
       "purpose": "any"
     },
     {
-      "src": "/dnd/assets/images/lantern.jpg",
+      "src": "/dnd/assets/images/og-image.jpg",
       "sizes": "512x512",
       "type": "image/jpeg",
       "purpose": "any"
