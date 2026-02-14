@@ -6,3 +6,6 @@
 - date: 2024-02-24
   info: The statistics page has been completely rewritten and now includes a lot more information
 
+
+- date: 2026-02-14
+  info: Major site upgrade - Dark mode toggle, comprehensive search with multi-word support, self-hosted resources for faster loading, offline support with service worker, improved social sharing previews, equipment/spells caching for instant loading, mobile navigation improvements

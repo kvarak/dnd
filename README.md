@@ -1,15 +1,15 @@
 
 <div class="container">
 <div class="row">
-<div class="col">
+<div class="col-12 col-md-6">
 
-## What’s New
+## What's New
 Updates to the D&D page.
 
 {% include updates.html %}
 
 </div> <!-- col -->
-<div class="col">
+<div class="col-12 col-md-6">
 
 ## External Links
 
@@ -17,6 +17,6 @@ Updates to the D&D page.
 
 </div> <!-- col -->
 </div> <!-- row -->
-</div> <!-- containers -->
+</div> <!-- container -->
 
 

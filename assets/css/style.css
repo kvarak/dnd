@@ -131,6 +131,13 @@ h1, h2, h3, h4, h5 {
   border-top-left-radius: 10px;
 }
 
+/* Hide logo on mobile - reduce waste, maximize space */
+@media (max-width: 991px) {
+  .navbar-left {
+    display: none;
+  }
+}
+
 #main {
   height: 297mm;
 }
@@ -250,6 +257,34 @@ summary p {
 /* nav bar dropdowns */
 .navbar-nav a.dropdown-item {
   padding: 1px 10px;
+}
+
+/* Mobile-specific dropdown improvements */
+@media (max-width: 991px) {
+  .navbar-nav a.dropdown-item {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+
+  /* Better visual separation for subheaders on mobile */
+  .navbar-nav a.dropdown-item b {
+    display: block;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffc107;
+  }
+
+  .navbar-nav a.dropdown-item:first-child b {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+  }
+
+  /* Indented sub-items more clearly */
+  .navbar-nav a.dropdown-item[href*=" "] {
+    padding-left: 25px;
+  }
 }
 
 
@@ -993,9 +1028,87 @@ html.dark-mode .search-result-item:hover {
   }
 }
 
-/* Dark Mode Toggle Button */
-#dark-mode-toggle {
-  background: none;
+/* Mobile navigation improvements */
+@media (max-width: 991px) {
+  /* Hide search by default on mobile */
+  #search-container {
+    display: none !important;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--bg-search-input);
+    border-bottom: 1px solid var(--border-search);
+    z-index: 1040;
+  }
+
+  #search-container.show {
+    display: flex !important;
+  }
+
+  #site-search-input {
+    width: 100%;
+    flex: 1;
+  }
+
+  #search-results {
+    width: calc(100vw - 20px);
+    left: 10px;
+    right: 10px;
+  }
+
+  /* Touch-optimized dropdowns */
+  .dropdown-menu {
+    width: 100%;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+
+  .dropdown-item {
+    padding: 12px 15px;
+    font-size: 16px; /* Prevent iOS zoom */
+  }
+
+  /* Better spacing in navbar */
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  /* Stack search toggle and dark mode button vertically on mobile */
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-collapse .navbar-nav {
+    order: 1;
+  }
+
+  .navbar-collapse #mobile-search-toggle {
+    order: 2;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+  }
+
+  .navbar-collapse #dark-mode-toggle {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    margin: 5px 0;
+  }
+
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   color: #fff;

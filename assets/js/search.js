@@ -469,6 +469,26 @@ document.addEventListener('DOMContentLoaded', function() {
       searchResults.style.display = 'block';
     }
   });
+
+  // Mobile search toggle
+  const mobileSearchToggle = document.getElementById('mobile-search-toggle');
+  if (mobileSearchToggle) {
+    mobileSearchToggle.addEventListener('click', function() {
+      searchContainer.classList.toggle('show');
+      if (searchContainer.classList.contains('show')) {
+        searchInput.focus();
+      }
+    });
+
+    // Close search when clicking outside on mobile
+    document.addEventListener('click', function(e) {
+      if (window.innerWidth <= 991 &&
+          !searchContainer.contains(e.target) &&
+          !mobileSearchToggle.contains(e.target)) {
+        searchContainer.classList.remove('show');
+      }
+    });
+  }
 });
 
 })(); // End IIFE

@@ -1,7 +1,7 @@
 
 <div class="columnstwo">
 
-{% for update in site.data.updates %}
+{% for update in site.data.updates reversed %}
 
 - [{{ update.date }}] {{ update.info }}
 
