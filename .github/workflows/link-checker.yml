@@ -36,12 +36,9 @@ jobs:
       - name: Check internal links with htmlproofer
         run: |
           bundle exec htmlproofer ./_site \
-            --checks Links,Images,Scripts \
-            --internal-domains dnd.rigo.nu \
-            --ignore-urls "/assets/campaigns/,/assets/images/" \
-            --ignore-files "/RulesMagic/spells.html,/RulesEquipment/equipment.html" \
-            --swap-attributes '{"href": "^/dnd"}' \
-            --typhoeus '{"timeout": 30}'
+            --ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
+            --ignore-files "spells.html,equipment.html" \
+            --disable-external
 
       - name: Setup Node.js for external link checking
         uses: actions/setup-node@v4
