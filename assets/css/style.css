@@ -793,6 +793,56 @@ table tr:nth-child(odd) td {background-color: var(--bg-table-odd);}
   color: var(--color-text);
 }
 
+/* Bootstrap table-striped styling for light and dark modes */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: transparent;
+}
+
+/* Dark mode table-striped styling */
+html.dark-mode .table-striped tbody tr:nth-of-type(odd) {
+  background-color: var(--bg-table-odd) !important;
+}
+
+html.dark-mode .table-striped tbody tr:nth-of-type(even) {
+  background-color: var(--bg-table-even) !important;
+}
+
+html.dark-mode .table-striped tbody tr td {
+  color: var(--color-text) !important;
+}
+
+/* DataTables dynamic classes (used by spells/equipment pages) */
+html.dark-mode table.dataTable tbody tr.odd {
+  background-color: var(--bg-table-odd) !important;
+}
+
+html.dark-mode table.dataTable tbody tr.even {
+  background-color: var(--bg-table-even) !important;
+}
+
+html.dark-mode table.dataTable tbody tr.odd td,
+html.dark-mode table.dataTable tbody tr.even td {
+  color: var(--color-text) !important;
+}
+
+/* Specific override for contentTable (spells/equipment pages) */
+html.dark-mode #contentTable tbody tr td {
+  color: var(--color-text) !important;
+}
+
+html.dark-mode #contentTable.dataTable tbody tr {
+  color: var(--color-text) !important;
+}
+
+html.dark-mode table.table-striped tbody tr,
+html.dark-mode table.table-hover tbody tr {
+  color: var(--color-text) !important;
+}
+
 /* Quote blocks */
 
 blockquote {

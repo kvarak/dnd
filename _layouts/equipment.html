@@ -6,6 +6,28 @@
 
   <!-- Datatables CSS -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.css"/>
+
+  <!-- Dark mode overrides for DataTables (must come after DataTables CSS) -->
+  <style>
+    html.dark-mode table.dataTable tbody tr.odd,
+    html.dark-mode table.dataTable tbody tr.odd td {
+      background-color: #2a3d4a !important;
+      color: #e0e0e0 !important;
+    }
+
+    html.dark-mode table.dataTable tbody tr.even,
+    html.dark-mode table.dataTable tbody tr.even td {
+      background-color: #3a3a3a !important;
+      color: #e0e0e0 !important;
+    }
+
+    html.dark-mode table.dataTable thead th {
+      background-color: #2d2d2d !important;
+      color: #e0e0e0 !important;
+      border-bottom-color: #4a4a4a !important;
+    }
+  </style>
+
   <!-- Datatables JavaScript -->
   <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.js"></script>
 
