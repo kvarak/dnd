@@ -11,6 +11,10 @@ baseurl: ""
 basewebsite: /dnd
 permalink: date
 
+# Repository information for GitHub Pages and sitemap generation
+repository: kvarak/dnd
+url: https://dnd.rigo.nu
+
 include:
   - search.json
   - robots.txt
