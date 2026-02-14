@@ -953,6 +953,10 @@ blockquote p {
   background-color: #f8f9fa;
 }
 
+html.dark-mode .search-result-item:hover {
+  background-color: #3a3d42;
+}
+
 .search-result-collection {
   display: inline;
   font-size: 0.75em;
