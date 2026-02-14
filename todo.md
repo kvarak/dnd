@@ -48,7 +48,7 @@
 
 ### Performance Enhancements
 - [x] **Update Font Awesome to v6** - ✅ Updated to Font Awesome 7.2.0 from jsDelivr CDN
-- [ ] **Self-host external dependencies** - Reduce external requests (Bootstrap, jQuery, fonts)
+- [x] **Self-host external dependencies** - ✅ All CDN dependencies now self-hosted (Bootstrap, jQuery, Font Awesome, Google Fonts)
 - [ ] **Add service worker for caching** - Offline capability and faster loads
 - [ ] **Implement CSS/JS minification** - GitHub Pages doesn't auto-minify
 - [ ] **Add WebP image format support** - Better compression than PNG/JPG
