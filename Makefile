@@ -1,6 +1,6 @@
 # Simplified Makefile for Jekyll D&D site (following simplification principle)
 
-.PHONY: help serve build build-site clean link-checker ci-build ci-link-check
+.PHONY: help serve build build-site clean link-checker link-checker-full find-broken-links ci-build ci-link-check
 
 # Docker configuration
 DOCKER_IMAGE = dnd-jekyll
@@ -9,15 +9,17 @@ CONTAINER_NAME = dnd-site
 # Default target
 help:
 	@echo "D&D Site Development Commands:"
-	@echo "  serve       - Start development server"
-	@echo "  build-site  - Build Jekyll site (static files only)"
-	@echo "  link-checker- Check internal links locally (Docker)"
-	@echo "  ci-build    - Build site for CI/CD (no Docker)"
-	@echo "  ci-link-check- Check internal links for CI/CD (no Docker)"
-	@echo "  extract     - Extract searchable content (skills, familiars)"
-	@echo "  build       - Build Docker image"
-	@echo "  clean       - Clean Docker artifacts"
-	@echo "  help        - Show this help"
+	@echo "  serve           - Start development server"
+	@echo "  build-site      - Build Jekyll site (static files only)"
+	@echo "  link-checker    - Check internal links locally (Docker)"
+	@echo "  link-checker-full- Check internal + external links (Docker)"
+	@echo "  find-broken-links- Find image placeholders needing replacement"
+	@echo "  ci-build        - Build site for CI/CD (no Docker)"
+	@echo "  ci-link-check   - Check internal links for CI/CD (no Docker)"
+	@echo "  extract         - Extract searchable content (skills, familiars)"
+	@echo "  build           - Build Docker image"
+	@echo "  clean           - Clean Docker artifacts"
+	@echo "  help            - Show this help"
 
 # Build Docker image
 build:
@@ -62,8 +64,23 @@ dev-build: build-image ## Quick development build
 	@echo "⚡ Quick development build in Docker..."
 	$(DOCKER_RUN) $(DOCKER_IMAGE) bundle exec jekyll build --incremental --baseurl="/dnd"
 
-# Check internal links with html-proofer
-link-checker: build-site ## Check internal links locally
+# Find image placeholders that need replacement
+find-broken-links: ## Find image placeholders needing replacement
+	@echo "🔍 Searching for image placeholders that need replacement..."
+	@echo "==========================================="
+	@grep -r -n "Placeholder.*image.*TODO" docs/ --include="*.md" | \
+		sed 's/:.*Placeholder for \(.*\) image.*/: \1 image placeholder/' || true
+	@echo ""
+	@echo "📋 Original broken URLs:"
+	@echo "========================"
+	@grep -r -A1 "Original broken URL:" docs/ --include="*.md" | \
+		grep -E "(Original broken URL:|--)|docs/" | \
+		sed 's/.*Original broken URL: /📎 /' | \
+		sed 's/^docs\/\([^:]*\):.*/📁 \1/' || true
+	@echo ""
+	@echo "✨ To fix: Replace placeholder divs with proper images"
+# Check internal and external links with Docker
+link-checker-full: build-site ## Check internal and external links locally (Docker)
 	@echo "🔗 Checking internal links with html-proofer in Docker..."
 	docker run --rm \
 		-v $(PWD):/srv/jekyll \
@@ -72,7 +89,47 @@ link-checker: build-site ## Check internal links locally
 			--ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
 			--ignore-files "spells.html,equipment.html" \
 			--disable-external
-	@echo "✅ Link checking complete!"
+	@echo "🌐 Checking external links with lychee in Docker..."
+	docker run --rm \
+		-v $(PWD):/app \
+		-w /app \
+		lycheeverse/lychee:latest \
+		--verbose \
+		--no-progress \
+		--max-concurrency 8 \
+		--timeout 30 \
+		--retry-wait-time 5 \
+		--exclude-file .lycheeignore \
+		--exclude "docs.google.com" \
+		--exclude "opensheet.elk.sh" \
+		--exclude "localhost" \
+		--exclude "127.0.0.1" \
+		"_site/**/*.html"
+	@echo "✅ Full link checking complete!"	@echo "🔗 Checking internal links with html-proofer in Docker..."
+	docker run --rm \
+		-v $(PWD):/srv/jekyll \
+		$(DOCKER_IMAGE) \
+		bundle exec htmlproofer _site \
+			--ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
+			--ignore-files "spells.html,equipment.html" \
+			--disable-external
+	@echo "🌐 Checking external links with lychee in Docker..."
+	docker run --rm \
+		-v $(PWD):/app \
+		-w /app \
+		lycheeverse/lychee:latest \
+		--verbose \
+		--no-progress \
+		--max-concurrency 8 \
+		--timeout 30 \
+		--retry-wait-time 5 \
+		--exclude-file .lycheeignore \
+		--exclude "docs.google.com" \
+		--exclude "opensheet.elk.sh" \
+		--exclude "localhost" \
+		--exclude "127.0.0.1" \
+		"_site/**/*.html"
+	@echo "✅ Full link checking complete!"
 
 # CI/CD targets (no Docker required)
 ci-build: extract ## Build Jekyll site for CI/CD

@@ -26,7 +26,7 @@ layout: default
 
 *His eyes flash with a green glare, and his skin begins to bubble. The now wary bandits slowly shuffle backwards. The man shoots to well over 8 feet tall and his flesh ripples as it adjusts to a new muscular form. As the bandits turn tail, the monster hurls a nearby boulder and bellows a thunderous roar.*
 
-<img src='https://cdn.escapistmagazine.com/media/global/images/library/deriv/913/913051.png' style='float:left;width:30%;padding:20px' />
+<img src='{{ site.baseurl }}/assets/images/cursed.jpg' alt='Cursed character transformation' style='float:left;width:30%;padding:20px' />
 
 You are cursed. The body that you inhabit is shared with something else. It might be an incorporeal, fiendish presence that takes control when your mental defenses are down, an unearthly entity from beyond that warps your body to better suit it, a curse that transform you into a furious wolfman, or even a manifestation of your own inner rage.
 
@@ -179,7 +179,7 @@ If you fail such a saving throw, make a Wisdom save with a DC equal to 10 + half
 
 If the duration of the triggering effect still remains when the transformation ends, you are still affected by it.
 
-<!-- 
+<!--
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores by 1. You can’t increase an ability score above 20 using this feature.
 -->
@@ -803,8 +803,6 @@ While transformed, the following applies in addition to the benefits of your Lyc
 -  Your size becomes Small.
 -  You gain a bite attack that deals 1d4 piercing damage. Add your Dexterity modifier to the attack and damage rolls.
 -  A creature damaged by your bite must succeed with a Constitution saving throw against a DC equal to 8 + your proficiency bonus + your Constitution modifier or take an additional 2d4 poison damage and become poisoned until the end of its next turn.
-
-</div>
 
 #### Scurry
 Starting at 6th level if you take the disengage action on your turn you can dash as a ***bonus action***. Additionally if you take the attack action on your turn, you can disengage as a ***bonus action***.

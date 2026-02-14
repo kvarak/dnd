@@ -35,6 +35,7 @@
 - [ ] **Implement responsive images** - Use srcset for different screen sizes
 - [ ] **Add image lazy loading** - Improve initial page load times
 - [x] **Fix files with spaces in names** - ✅ Standardized naming (reduce waste: shell-friendly filenames)
+- [ ] **Replace broken external image links** - Fixed escapistmagazine.com and acrosstheboardgames.net with placeholders
 - [ ] **Optimize font loading** - Add font-display: swap to custom fonts
 
 ### Development Workflow
@@ -46,7 +47,7 @@
 ## 💡 COULD FIX (Nice to Have)
 
 ### Performance Enhancements
-- [ ] **Update Font Awesome to v6** - Performance improvements and new icons
+- [x] **Update Font Awesome to v6** - ✅ Updated to Font Awesome 7.2.0 from jsDelivr CDN
 - [ ] **Self-host external dependencies** - Reduce external requests (Bootstrap, jQuery, fonts)
 - [ ] **Add service worker for caching** - Offline capability and faster loads
 - [ ] **Implement CSS/JS minification** - GitHub Pages doesn't auto-minify

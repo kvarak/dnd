@@ -16,7 +16,7 @@ Sane minds shirk from attempting to comprehend the shear number of creatures tha
 
     While full-grown flumphs can sustain themselves on psychic energy alone, young flumphlings require protein to increase their body size. They will capture and consume lizards, frogs, and snakes, but will always prefer mice and rats, and will chase any they find relentlessly. Some flumphlings even consider the hunting of rodents to be a sacred duty - though none can fathom why.
 
--   <img src='http://www.acrosstheboardgames.net/wp-content/uploads/flumph-360x600.jpg' style='float:right;width:40%' />
+-   <img src='{{ site.baseurl }}/assets/images/flumphling.png' alt='Flumph creature' style='float:right;width:40%' />
 
     <div class="monster multimonster frame">
     <table class="monster">

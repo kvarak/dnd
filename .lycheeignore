@@ -1,7 +1,15 @@
 # Lychee ignore file for dnd.rigo.nu link checker
 # URLs that should be excluded from external link checking
 
-# Google Sheets URLs (authentication required)
+# Internal Jekyll links with baseurl (lychee can't resolve these properly)
+*/dnd/*
+*/_site/*
+
+# Known broken/dead domains
+https://cdn.escapistmagazine.com/*
+https://onenote.vilijam.nu*
+http://www.acrosstheboardgames.net/*
+https://www.acrosstheboardgames.net/*
 https://docs.google.com/spreadsheets/*
 https://opensheet.elk.sh/*
 
