@@ -1,6 +1,7 @@
 ---
 title: Haunted Lands
 layout: default
+path: 7
 ---
 
 # Haunted Lands

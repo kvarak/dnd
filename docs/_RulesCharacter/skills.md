@@ -3463,3 +3463,5 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
 </div>
 </div>
+
+<script src="{{ site.baseurl }}/assets/js/skills-anchors.js"></script>

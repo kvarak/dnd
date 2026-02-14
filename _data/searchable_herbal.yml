@@ -1,0 +1,243 @@
+---
+- name: Antiplague
+  anchor: antiplague
+  description: 'Price: 25 gp, can be purchased in a flask If you drink a vial of this
+    foul-tasting, milky tonic, you gain advantage on saving throws against disease
+    for the next hour.'
+- name: Antitoxin
+  anchor: antitoxin
+  description: 'Price: 30 gp, can be purchased in a flask A creature that drinks this
+    vial of liquid gains advantage on saving throws against poison for 1 hour. It
+    confers no benefit to undead or constructs.'
+- name: Basil Tea
+  anchor: basil-tea
+  description: 'Price: 5 cp Basil is used for cramping and muscle discomfort. It is
+    often used during heavy physical training to reduce after workout pain and discomfort.
+    Midwives also use the tea as a safe method of easing birth, or to slow down the
+    birth process if things are moving too quickly. Basil is of cours'
+- name: Bloodletter's draught
+  anchor: bloodletters-draught
+  description: 'Price: 5 gp, can be purchased in a flask Upon drinking, the imbiber
+    immediately takes 1d6 damage. Every minute for the next 1d3+1 minutes later they
+    are healed by the amount of damage taken. This potion is used to ease the passing
+    of those too weak to survive, but restores those who still have their'
+- name: Burn balm
+  anchor: burn-balm
+  description: 'Price: 5 gp Balm that soothes sunburn, and helps alleviate the pain
+    from other burns (if applied within 2 turns of taking fire damage, capable of
+    healing 2d4 fire damage).'
+- name: Burn balm, Improved
+  anchor: burn-balm-improved
+  description: 'Price: 30 gp When applied within 1 minute, it heals half of the fire
+    damage dealt to a creature. Application takes 1 round per 10 hp healed (which
+    might cause it to be too late to heal).'
+- name: Ceran
+  anchor: ceran
+  description: 'Price: 2 gp Crushed leaves from the Ceran bush. Drinking tea made
+    from this herb results in a warm tingling feeling inside, all the effects of being
+    in extreme cold conditions will be negated for 2d4 hours.'
+- name: Chamomile Salve
+  anchor: chamomile-salve
+  description: 'Price: 2 cp Chamomile salve is found in many alchemy workshops and
+    it is particularly good at easing burns resulting from acid. It is made from steeped
+    chamomile flowers, animal fat, and mint extract. Benefit: Provides advantage on
+    healing rolls when patient acid burns.'
+- name: Devilweed
+  anchor: devilweed
+  description: 'Price: 5 gp Tobacco-like smoked drug, that grants advantage on Strength
+    and Constitution checks, but disadvantage on Intelligence, Wisdom and Charisma
+    checks for the next 1d6 hours.'
+- name: Dragon’s Bane
+  anchor: dragons-bane
+  description: 'Price: 6 sp Dragon’s bane is an herb that is used in purple dyes,
+    but is most popularly known for its ability to ease fear and anxiety in those
+    who inhale its smoke. Widely used by soldiers, dragon’s bane tobacco has a dark,
+    spicy aroma and deep purple smoke. Some temples use dragon’s bane incense t'
+- name: Exspiravit powder
+  anchor: exspiravit-powder
+  description: 'Price: 10 gp This dried fungus allows for speaking with the spirits
+    of the dead when used as snuff. After using it, and succeeding at a DC10 Constitution
+    save, it functions as a _speak with dead_ spell. On a save the user will experience
+    hallucinations of dead people talking to them.'
+- name: Faerie wing brew
+  anchor: faerie-wing-brew
+  description: 'Price: 2 gp, can be purchased in a flask A brew made from a rare flower
+    called Faerie wing. Drinking the liquid grants the ability to see invisible objects
+    up to five feet away for one minute.'
+- name: Flayleaf
+  anchor: flayleaf
+  description: 'Price: 8 sp These narrow, rust-colored leaves produce a mildly hallucinogenic
+    smoke that also serves as a powerful sedative. Users are immune to pain for 4
+    hours after smoking flayleaf, but during this time they have disadvantage on saves
+    against mind-altering effects.'
+- name: Geranium Compress
+  anchor: geranium-compress
+  description: 'Price: 4 sp The geranium compress is made from the leaves and flowers
+    of the plant. After being steeped in oil for several weeks the oil is strained
+    and a bit of blood spice is added. Small cloth squares are infused with the oil
+    and are usually sealed in a waxed, leather bag until needed. They are a'
+- name: Ginseng Tea
+  anchor: ginseng-tea
+  description: 'Price: 5 gp When prepared and drunk, grants advantage on Constitution
+    saving throws for 10 minutes.'
+- name: Goldbark Bud
+  anchor: goldbark-bud
+  description: 'Price: 15 gp This foul-tasting bulb can be chewed to gain a degree
+    of mental clarity, and is sometimes used by student scholars and apprentice wizards.
+    For one minute, those who chew the bulb gain advantage on all Intelligence based
+    checks. Unfortunately, there is a side effect: for one hour afterwa'
+- name: Guardseye
+  anchor: guardseye
+  description: 'Price: 30 gp Dried herbs, that when cooked in water, the resulting
+    tea will grant the drinker the ability to see invisible, phased, ethereal and
+    similarly affected creatures. The effect last for 1d6 hours.'
+- name: Hag's brew
+  anchor: hags-brew
+  description: 'Price: 15 gp, can be purchased in a flask This vile concoction requires
+    a DC 12 Constitution check to not instantly throw up. If the check is passed,
+    it restores 6d4 hp.'
+- name: Halcyon snuff
+  anchor: halcyon-snuff
+  description: 'Price: 50 gp A snuff that engulfs the user in bittersweet recollections
+    of yore. With each dose of the Halcyon Snuff the user remembers a spell forgotten,
+    effectively regaining a 1st level spell slot. If several doses are taken simultaneously,
+    higher level spell slots can be regained, up to the numb'
+- name: Healing myrrh
+  anchor: healing-myrrh
+  description: 'Price: 5 sp When you burn this powerful resin, it fills a small room
+    with faint smoke that persists for a full hour. Any creatures resting in the area
+    regain 1 additional hit point per level. Multiple uses of healing myrrh in a 24-hour
+    period do not stack.'
+- name: Healing poultice
+  anchor: healing-poultice
+  description: A healing poultice is a special mixture of herbs compacted into a bandage
+    and then laid across a wound. It hardens and assists in the healing process, but
+    requires time and rest. Once a healing poultice is applied, you heal at the end
+    of your next short rest. You may apply this healing before you sp
+- name: Insectbane candle
+  anchor: insectbane-candle
+  description: 'Price: 2 gp This heavily scented candle smells pleasant to humans
+    and humanoids but is repellent to insects. Non-monstrous vermin will not approach
+    within a 5-foot radius of a burning candle. It burns for 1 hour.'
+- name: Jinab bark
+  anchor: jinab-bark
+  description: 'Price: 50 gp The dark chocolate-brown bark of this small fast growing
+    tree, may be eaten in order to allow a person to remain awake for one whole week,
+    without the need for sleep. At the end of this period, they will collapse absolutely
+    exhausted, instantly gaining 5 levels of exhaustion.'
+- name: Jojopo poultice
+  anchor: jojopo-poultice
+  description: 'Price: 5 sp If applied within 3 turns of taking frost damage, proper
+    application of the poultice will cure 2d6 points of cold damage. The poultice
+    is usable for about 2 weeks after preparation.'
+- name: Laumspur tea
+  anchor: laumspur-tea
+  description: 'Price: 20 gp If drunk during a short rest, any expended Hit Dice restore
+    the maximum number of hit points.'
+- name: Lavender tea
+  anchor: lavender-tea
+  description: 'Price: 20 gp Grants immunity to being magically put to sleep and advantage
+    on any saving throws involved with magical effects that would affect their sleep
+    for 24 hours.'
+- name: Mellowrot
+  anchor: mellowrot
+  description: 'Price: 2 sp Sneaky goblin chieftains give this orange paste to the
+    tribe''s warriors before proposing a particularly bold raid. Consuming mellowroot
+    causes a euphoric feeling that makes you feel invulnerable. For 1 hour after consuming
+    mellowroot, you gain advantage on saves against fear effects. How'
+- name: Oiolosse
+  anchor: oiolosse
+  description: 'Price: 2,000 gp This exceedingly rare herb will restore an elf to
+    life if applied within seven days of death. This effect also works on half-elves
+    up to 3 days.'
+- name: Pesh
+  anchor: pesh
+  description: 'Price: 5 sp The milk of this vibrantly green cactus, when mixed with
+    resins and other ingredients, congeals into sticky, black chunks with an exceedingly
+    sour taste. Though pesh comes in several different varieties, refined pesh is
+    both the most potent and expensive type. Taking refined pesh gives a'
+- name: Pomander of Warding
+  anchor: pomander-of-warding
+  description: 'Price: 15 gp This ball of aromatic spices and perfumes fills an area
+    with a 15 foot radius with a strong scent for 24 hours after being unwrapped.
+    Undead creatures of CR 2 or lower that enter this area must make a Wisdom saving
+    throw (DC 10) or be turned, as detailed in the Turn Undead cleric featur'
+- name: Potion of Healing
+  anchor: potion-of-healing
+  description: Can be purchased in a flask . This red potion feels strangely warm
+    to the touch. It tastes of cinnamon and orange. You recover some hit points when
+    you drink this potion—the better the quality, the more hit points you are able
+    to restore. When you drink a healing potion, roll the same die as your mo
+- name: Potion of Recovery
+  anchor: potion-of-recovery
+  description: Can be purchased in a flask . This watery, green potion smells of freshly
+    cut grass. If left in natural sunlight, it spoils after one hour. You instantly
+    recover a number of expended hit dice when you drink this potion—the better the
+    quality, the more hit dice you recover. You may choose which of yo
+- name: Potion of Stamina
+  anchor: potion-of-stamina
+  description: 'Can be purchased in a flask . This cold, black potion tastes strongly
+    of old coffee and sour milk. It fizzes when shaken. Stamina potions grant a small
+    burst of energy to those suffering from exhaustion—a potential life-saver on long,
+    dangerous journeys far from a safe resting place. When you drink '
+- name: Potion of Vigor
+  anchor: potion-of-vigor
+  description: 'Can be purchased in a flask . This potion of boiled water and herbs
+    gives increased energy and dulls pain. Drinking this potion grants you temporary
+    hit points. Outside of combat or other strenuous activity, you retain these hit
+    points for 1 hour or until you take sufficient damage. While in combat '
+- name: Purple Pipeweed
+  anchor: purple-pipeweed
+  description: 'Price: 1 gp Pipeweed commonly smoked by spellcasters that focus on
+    illusory magic. For one hours after smoking a quantity of pipeweed, the consumer
+    is elevated to a higher state of imagination. This unfortunately makes them inattentive,
+    (enemies in combat will always have a surprise round against th'
+- name: Sage
+  anchor: sage
+  description: 'Price: 4 cp \ Sage is a soft, blue-green leaf that is dried and burned
+    as an incense to achieve its effect, purifying a 20’ square foot area. The purified
+    area repels negative residual emotions and spiritual energies. While burning in
+    an area, any evil or evil act is at a disadvantage while it is in'
+- name: Sakrash (Twilight wine)
+  anchor: sakrash-twilight-wine
+  description: 'Price: 10 gp, can be purchased in a flask Sweet oily wine. You cannot
+    be detected by effects that read or alter thoughts or emotions for 1d4 hours.
+    However, your eyes become sensitive to bright light, causing disadvantage on all
+    saves against light effects.'
+- name: Shinewater
+  anchor: shinewater
+  description: 'Price: 10 gp This comes in a large 2 lbs jar. Removes all rust and
+    corrosion from metal objects left to soak in it overnight. One dose de-rusts a
+    medium-sized metal weapon.'
+- name: Sparkleberry jam/jelly
+  anchor: sparkleberry-jamjelly
+  description: 'Price: 5 gp Consumption of the jam or jelly grants resistance to radiant
+    damage for 5 minutes.'
+- name: Sun Pepper
+  anchor: sun-pepper
+  description: 'Price: 2 gp These small, yellow peppers are extremely spicy. Eating
+    one restores 1d6+2 hp, but imparts a cumulative -2 penalty to all skill checks
+    for the next hour'
+- name: Sun pepper concentrate
+  anchor: sun-pepper-concentrate
+  description: 'Price: 5 gp A translucent crimson concoction with purple flakes suspended
+    within it. The fumes produced by the solution are highly irritating to one''s
+    eyes. As an **_action_**, you can splash the contents of this vial onto an adjacent
+    creature or throw the vial up to 20 feet, shattering it on impact'
+- name: Terrap sap
+  anchor: terrap-sap
+  description: 'Price: 10 gp When first opened, this sealed jar releases such an overwhelmingly
+    antiseptic odor that it covers other smells until it disperses (1d6+1 rounds after
+    opening). Creatures within 20 feet of the jar gain advantage on all saves against
+    scent-based attacks while the sap’s odor remains, but t'
+- name: Yewclaw incense
+  anchor: yewclaw-incense
+  description: 'Price: 100 gp When this yellowish incense is burnt, the resultant
+    smoke calms the mind when deeply inhaled, suppressing a short-term madness completely,
+    and easing a long-term madness for one hour.'
+- name: Willowshade oil
+  anchor: willowshade-oil
+  description: 'Price: 50 gp A dark blue oil can be extracted from the fruit of the
+    Willowshade plant. A creature can use its action to apply the oil to another creature
+    that has been petrified for less than 1 minute, causing the petrified condition
+    on that creature to end at the start of what would be that creatur'

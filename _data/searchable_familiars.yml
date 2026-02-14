@@ -1,0 +1,133 @@
+---
+- name: Almiraj
+  anchor: internal-almiraj
+  description: ''
+- name: Amethyst Wyrmling
+  anchor: internal-amethystWyrmling
+  description: ''
+- name: Bat
+  anchor: internal-bat
+  description: ''
+- name: Cat
+  anchor: internal-cat
+  description: ''
+- name: Crab
+  anchor: internal-crab
+  description: ''
+- name: Clockwork Mouse
+  anchor: internal-clockworkMouse
+  description: ''
+- name: Cranium Rat
+  anchor: internal-craniumRat
+  description: ''
+- name: Crawling Claw
+  anchor: internal-crawlingClaw
+  description: ''
+- name: Donkey
+  anchor: internal-donkey
+  description: ''
+- name: Emerald Wyrmling
+  anchor: internal-emeraldWyrmling
+  description: ''
+- name: Flying Book
+  anchor: internal-flyingBook
+  description: ''
+- name: Fox
+  anchor: internal-fox
+  description: ''
+- name: Frog
+  anchor: internal-frog
+  description: ''
+- name: Giant Roach
+  anchor: internal-giantRoach
+  description: ''
+- name: Gore Crow
+  anchor: internal-goreCrow
+  description: ''
+- name: Hawk
+  anchor: internal-hawk
+  description: ''
+- name: Lantern beetle
+  anchor: internal-lanternBeetle
+  description: ''
+- name: Lizard
+  anchor: internal-lizard
+  description: ''
+- name: Mechanical Wyrmling
+  anchor: internal-mechanicalWyrmling
+  description: ''
+- name: Mimic
+  anchor: internal-mimic
+  description: ''
+- name: Mote of Earth
+  anchor: internal-moteEarth
+  description: ''
+- name: Mote of Fire
+  anchor: internal-moteFire
+  description: ''
+- name: Mote of Light
+  anchor: internal-moteLight
+  description: ''
+- name: Mote of Water
+  anchor: internal-moteWater
+  description: ''
+- name: Octopus
+  anchor: internal-octopus
+  description: ''
+- name: Oracular Chicken
+  anchor: internal-oracularChicken
+  description: ''
+- name: Owl
+  anchor: internal-owl
+  description: ''
+- name: Poisonous snake
+  anchor: internal-poisonousSnake
+  description: ''
+- name: Quipper
+  anchor: internal-quipper
+  description: ''
+- name: Rag Doll
+  anchor: internal-ragDoll
+  description: ''
+- name: Rat
+  anchor: internal-rat
+  description: ''
+- name: Raven
+  anchor: internal-raven
+  description: ''
+- name: Sea horse
+  anchor: internal-seaHorse
+  description: ''
+- name: Skull Servant
+  anchor: internal-skullServant
+  description: ''
+- name: Spider
+  anchor: internal-spider
+  description: ''
+- name: Squirrel
+  anchor: internal-squirrel
+  description: ''
+- name: Spidercat
+  anchor: internal-spidercat
+  description: ''
+- name: Shadow Rat
+  anchor: internal-shadowRat
+  description: ''
+- name: Tin Soldier
+  anchor: internal-tinSoldier
+  description: ''
+- name: Tressym
+  anchor: internal-tressym
+  description: ''
+- name: Weasel
+  anchor: internal-weasel
+  description: ''
+- name: Winged Piglet
+  anchor: internal-wingedPiglet
+  description: ''
+- name: Winged Monkey
+  anchor: internal-wingedMonkey
+  description: ''
+- name: Yarn Golem
+  anchor: internal-yarnGolem
+  description: ''

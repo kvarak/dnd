@@ -1,6 +1,7 @@
 ---
 title: Return to Sandpoint
 layout: default
+path: 8
 ---
 
 # Return to Sandpoint

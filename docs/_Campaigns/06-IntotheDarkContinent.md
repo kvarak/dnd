@@ -1,6 +1,7 @@
 ---
 title: Into the Dark Continent
 layout: default
+path: 6
 ---
 
 

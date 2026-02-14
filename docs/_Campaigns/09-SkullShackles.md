@@ -1,6 +1,7 @@
 ---
 title: Skull & Shackles
 layout: default
+path: 9
 ---
 
 # Skull & Shackles

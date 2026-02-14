@@ -14,12 +14,52 @@ layout: none
     "content": {{ doc.content | strip_html | strip_newlines | truncate: 500 | jsonify }}
   },
 {% endfor %}
-{% for character in site.data.characters %}
+{% for skill in site.data.searchable_skills %}
   {
-    "title": {{ character.name | jsonify }},
-    "url": "{{ site.baseurl }}{% assign campaigns = site.Campaigns | where: 'path', character.path %}{% if campaigns.size > 0 %}{{ campaigns[0].url }}{% else %}/#{% endif %}",
-    "collection": "characters",
-    "content": "Campaign character"
+    "title": {{ skill.name | jsonify }},
+    "url": "{{ site.baseurl }}/RulesCharacter/skills.html#skill-{{ skill.id }}",
+    "collection": "skills",
+    "content": {{ skill.description | jsonify }}
+  },
+{% endfor %}
+{% for skill in site.data.searchable_combat_skills %}
+  {
+    "title": {{ skill.name | jsonify }},
+    "url": "{{ site.baseurl }}/RulesCharacter/skills_combat.html#skill-{{ skill.id }}",
+    "collection": "combat skills",
+    "content": {{ skill.description | jsonify }}
+  },
+{% endfor %}
+{% for familiar in site.data.searchable_familiars %}
+  {
+    "title": {{ familiar.name | jsonify }},
+    "url": "{{ site.baseurl }}/RulesMagic/familiars.html#{{ familiar.anchor }}",
+    "collection": "familiars",
+    "content": {{ familiar.description | jsonify }}
+  },
+{% endfor %}
+{% for item in site.data.searchable_alchemical %}
+  {
+    "title": {{ item.name | jsonify }},
+    "url": "{{ site.baseurl }}/RulesEquipment/alchemical.html#{{ item.anchor }}",
+    "collection": "alchemical",
+    "content": {{ item.description | jsonify }}
+  },
+{% endfor %}
+{% for item in site.data.searchable_herbal %}
+  {
+    "title": {{ item.name | jsonify }},
+    "url": "{{ site.baseurl }}/RulesEquipment/herbal.html#{{ item.anchor }}",
+    "collection": "herbal",
+    "content": {{ item.description | jsonify }}
+  },
+{% endfor %}
+{% for poison in site.data.searchable_poisons %}
+  {
+    "title": {{ poison.name | jsonify }},
+    "url": "{{ site.baseurl }}/RulesEquipment/poison.html#{{ poison.anchor }}",
+    "collection": "poisons",
+    "content": {{ poison.description | jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]

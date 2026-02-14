@@ -20,7 +20,13 @@
         data.forEach((row) => {
           var weight = (row['Weight']) ? row['Weight'] : '-'
           var description = (row['Description']) ? row['Description'] : '-'
-          tableContent.push([row['Item'],row['Category'],row['Price'],weight,description]);
+          // Generate anchor ID for deep linking
+          var itemAnchor = row['Item'].replace(/[^a-zA-Z0-9\s-]/g, '')
+                                      .trim()
+                                      .toLowerCase()
+                                      .replace(/\s+/g, '-');
+          var itemWithAnchor = '<a class="internal-link" name="' + itemAnchor + '">' + row['Item'] + '</a>';
+          tableContent.push([itemWithAnchor,row['Category'],row['Price'],weight,description]);
         });
 
         document.getElementById("alert").innerHTML = "Imported " + data.length + " items.";
@@ -64,6 +70,18 @@
             e.stopPropagation();
           });
         });
+
+        // Scroll to anchor after data loads and table is drawn
+        if (window.location.hash) {
+          setTimeout(function() {
+            var target = document.querySelector('a[name="' + window.location.hash.substring(1) + '"]');
+            if (target) {
+              // Show all items in table to ensure target is visible
+              contentTable.page.len(-1).draw();
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }, 200);
+        }
     });
   });
   </script>

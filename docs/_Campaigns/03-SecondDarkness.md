@@ -1,6 +1,7 @@
 ---
 title: Second Darkness
 layout: default
+path: 3
 ---
 
 # Second Darkness

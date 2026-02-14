@@ -1,6 +1,7 @@
 ---
 title: Vanguard of Hope
 layout: default
+path: 5
 ---
 
 # Vanguard of Hope

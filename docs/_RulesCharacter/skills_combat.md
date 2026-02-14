@@ -822,3 +822,5 @@ Skills and traits only selectable by certain folk.
 
 </div>
 </div>
+
+<script src="{{ site.baseurl }}/assets/js/skills-anchors.js"></script>

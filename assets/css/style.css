@@ -1,3 +1,8 @@
+/* Following core principle: Reduce complexity (single rule handles all anchor navigation) */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Account for fixed navbar height */
+}
 
 @font-face {
   font-family:SolberaImitationRemake;
@@ -241,6 +246,7 @@ summary p {
   font-size: small;
 }
 
+/* Legacy scroll-margin for older browsers, but html scroll-padding-top handles it better */
 .internal-link {
   scroll-margin-top: 80px;
 }
@@ -701,6 +707,26 @@ blockquote p {
   color: #adb5bd;
 }
 
+/* Loading state animation - subtle pulse for d20 emoji */
+#site-search-input:not(.search-ready)::placeholder {
+  animation: searchPulse 2s ease-in-out infinite;
+}
+
+/* Ready state - subtle glow */
+#site-search-input.search-ready {
+  border-color: #28a745;
+}
+
+#site-search-input.search-ready:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.15);
+}
+
+@keyframes searchPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
 #search-results {
   display: none;
   position: absolute;
@@ -718,37 +744,58 @@ blockquote p {
 }
 
 .search-result-item {
+  display: block;
+  padding: 6px 15px;
+  text-decoration: none;
+  color: #333;
   border-bottom: 1px solid #e9ecef;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.85em;
 }
 
 .search-result-item:last-child {
   border-bottom: none;
 }
 
-.search-result-link {
-  display: block;
-  padding: 12px 15px;
-  text-decoration: none;
-  color: inherit;
-  tran  tran  tran  tran  tran  tran  se  tran  tran  trult-  tran  tra{
-  backgro  backgro  backgro    tex  backgro  bacnone;
-}}}}}}}}}}}}}}ult}}}}}}}}}}}}}}ult}}gh}}}}}}}}}}}}}}ult}}}}}}}9;
-                      }
-                      }
-on {
-on {
-    ze: 0.    ze: 0.    ze: 0.      margin    ze: 0.    ze: 0.-transf    ze: 0talize;
-    ze: 0.    ze: 0.   et    ze: 0.    ze: 0.   et olo    ze: 0.    ze: 0.   et    ze: 0.    ze: 0.   etlts {    ze: 0.    ze: 0.   et    ze:ce    ze: 0.    z#6c757d;
+.search-result-item:hover {
+  background-color: #f8f9fa;
+}
+
+.search-result-collection {
+  display: inline;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #6c757d;
+  text-transform: capitalize;
+  margin-right: 8px;
+}
+
+.search-result-title {
+  display: inline;
+  color: #333;
+}
+
+.search-result-match {
+  font-size: 0.75em;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.search-no-results {
+  padding: 15px;
+  text-align: center;
+  color: #6c757d;
 }
 
 @media (max-width: 768px) {
   #site-search-input {
     width: 200px;
   }
-  
-  
 
-width: esults {
+  #search-results {
     width: 300px;
   }
 }

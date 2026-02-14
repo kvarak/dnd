@@ -1,6 +1,7 @@
 ---
 title: Rise of the Runelords
 layout: default
+path: 1
 ---
 
 # Rise of the Runelords

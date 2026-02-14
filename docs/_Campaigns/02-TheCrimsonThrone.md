@@ -1,6 +1,7 @@
 ---
 title: The Crimson Throne
 layout: default
+path: 2
 ---
 
 # The Crimson Throne

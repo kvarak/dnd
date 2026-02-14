@@ -1,6 +1,6 @@
 # Simplified Makefile for Jekyll D&D site (following simplification principle)
 
-.PHONY: help serve build clean
+.PHONY: help serve build build-site clean
 
 # Docker configuration
 DOCKER_IMAGE = dnd-jekyll
@@ -9,10 +9,12 @@ CONTAINER_NAME = dnd-site
 # Default target
 help:
 	@echo "D&D Site Development Commands:"
-	@echo "  serve    - Start development server"
-	@echo "  build    - Build Docker image"
-	@echo "  clean    - Clean Docker artifacts"
-	@echo "  help     - Show this help"
+	@echo "  serve       - Start development server"
+	@echo "  build-site  - Build Jekyll site (static files only)"
+	@echo "  extract     - Extract searchable content (skills, familiars)"
+	@echo "  build       - Build Docker image"
+	@echo "  clean       - Clean Docker artifacts"
+	@echo "  help        - Show this help"
 
 # Build Docker image
 build:
@@ -20,8 +22,23 @@ build:
 	docker build -t $(DOCKER_IMAGE) .
 	@echo "✅ Docker image built!"
 
+# Extract searchable content before building
+extract:
+	@echo "🔍 Extracting searchable content (skills, combat skills, familiars)..."
+	ruby extract-searchable.rb
+	@echo "✅ Extraction complete!"
+
+# Build Jekyll site (static files in _site/)
+build-site: build extract
+	@echo "🏗️  Building Jekyll site..."
+	docker run --rm \
+		-v $(PWD):/srv/jekyll \
+		$(DOCKER_IMAGE) \
+		bundle exec jekyll build --baseurl="/dnd"
+	@echo "✅ Site built in _site/ directory"
+
 # Start development server
-serve: clean build
+serve: clean build extract
 	@echo "🚀 Starting Jekyll development server..."
 	@echo "📍 Site will be available at: http://localhost:4000/dnd/"
 	docker run --rm --name $(CONTAINER_NAME) \

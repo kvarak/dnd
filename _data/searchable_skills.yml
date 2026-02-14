@@ -1,0 +1,3653 @@
+---
+- name: Acrobatics (Untrained)
+  id: acrobatics
+  description: This skill mixes various physical performances with feats of extraordinary
+    balance, agility and coordination. It incorporates numerous amusements and stunts
+    which can be performed for an audience, as well as tricks that can serve the character
+    well in other ventures, such as staying on your feet whe
+  collection: skills
+- name: Acrobatics → Aerial Acrobatics
+  id: aerialacrobatics
+  description: Acrobatics performed in the air on a suspended apparatus such as a
+    trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar.
+    When making a performance you have ***Expertise (Dex, Cha)***. During adventuring
+    you could use this skill with Expertise to jump from a balcony to
+  collection: skills
+- name: Acrobatics → Contortion (trait)
+  id: contortion
+  description: The skill of extreme physical flexibility. This skill allows you to
+    squeeze through very tight spaces as long as your head fits. You have ***Expertise***
+    to escape grapples.
+  collection: skills
+- name: Contortion → Body Packing (trait)
+  id: bodypacking
+  description: You can squeeze your body into a small, knee-high box or other contained
+    space which appears as being too small to contain you.
+  collection: skills
+- name: Contortion → Dislocation (trait)
+  id: dislocation
+  description: You can easily dislocate your shoulders and with a bit more effort
+    even your hip joints. This allows you to escape most bonds given time.
+  collection: skills
+- name: Acrobatics → Fast Reflexes (trait)
+  id: fastreflexes
+  description: The large amount of training you have put yourself through has made
+    you able to react without a conscious thought. You can use reactions before you
+    have had the chance to act in a combat. This applies even if you are surprised.
+  collection: skills
+- name: Acrobatics → Give Exhibition
+  id: giveexhibition
+  description: Enabling you to put on an acrobatic performance, incorporating elements
+    of juggling, tumbling and so on. The character is assumed to perform tricks regularly
+    and work at his or her craft to invent something new. When making a performance
+    you have ***Expertise (Dex, Cha)***.
+  collection: skills
+- name: Acrobatics → Parkour
+  id: parkour
+  description: The skill by which characters aim to move from one point to another
+    in a complex, jumbled environment, without equipment and in the fastest and most
+    efficient way possible. You have ***Expertise*** on checks made to avoid the effects
+    of non-magical difficult terrain. As a ***bonus action***, you can
+  collection: skills
+- name: Parkour → Parkour through magic (→ Arcana)
+  id: parkourthroughmagic
+  description: You also have ***Expertise*** on checks made to avoid the effects of
+    magical difficult terrain.
+  collection: skills
+- name: Parkour → Wall Runner (trait)
+  id: wallrunner
+  description: When you take the Dash action and move at least 10 ft, you may climb
+    up to 10 ft of shear wall without using any additional movement. You cannot end
+    your movement there without falling. When climbing you may also do a high or long
+    jump.
+  collection: skills
+- name: Parkour → Pole Vault (trait)
+  id: polevault
+  description: You are skilled at using a pole to overcome obstacles. If you have
+    a pole or staff, you can use an ***item action*** to extend your jumping distance
+    by the length of the pole.
+  collection: skills
+- name: Acrobatics → Roll with the blow
+  id: rollwiththeblow
+  description: When struck by an effect that moves you and you can see, you may choose
+    to "roll with the blow". If you do, move an additional 5 ft, and gain ***Expertise***
+    on any checks to avoid falling prone. If it does not allow a check, you can still
+    make an Dexterity (Roll with the blow) check against a DC eq
+  collection: skills
+- name: Roll with the blow → Roll with the blow II
+  id: rollwiththeblowii
+  description: You may roll with the blow against any attack that deals bludgeoning
+    damage, as long as you have a 5 ft behind you and spend a ***reaction***. On a
+    successful Dexterity (Roll with the blow) check against a DC equal to the damage
+    dealt, you gain resistance to the attack and move 5 ft back (without pr
+  collection: skills
+- name: Acrobatics → Slip Trap
+  id: sliptrap
+  description: Your fast reflexes and acrobatic training allows you to forgo damage
+    from traps by nimbly twisting your body to escape harm. When a trap allows for
+    a Dexterity save, you can use this skill with ***Expertise*** instead.
+  collection: skills
+- name: Acrobatics → Stability
+  id: stability
+  description: You have exceptional balance. This skill grants ***Expertise*** on
+    all checks to keep your balance, such as balancing on a ledge, to stay upright
+    on a ship or even to keep you footing within a grease spell.
+  collection: skills
+- name: Stability → Beam walking (trait)
+  id: beamwalking
+  description: You are comfortable on narrow beams or ledges, as long as they are
+    at least 4 in. wide. You are able to disregard any distance, even a thousand feet,
+    that may threaten beneath your footing. Furthermore, you are able to sit comfortably,
+    rest and eat on such a ledge.
+  collection: skills
+- name: Stability → Log Riding (trait)
+  id: logriding
+  description: Enables sure-footedness when clambering across loose logs moving upon
+    a rivercourse; requires a peavey, a short hooked pike.
+  collection: skills
+- name: Stability → Tightrope walking (trait)
+  id: tightropewalking
+  description: You are skilled at walking along a thin wire or rope, allowing you
+    to walk at full speed.
+  collection: skills
+- name: Acrobatics → Tumbling
+  id: tumbling
+  description: 'The acrobatic skill of doing rolls, twists, somersaults and other
+    rotational activities using the whole body. This skill grants ***Expertise***
+    on such checks, as well as the following benefits: - When prone, standing up uses
+    only 5 ft of your movement. - If you spend 1 minute stretching and limberi'
+  collection: skills
+- name: Animal Handling (Group, Untrained)
+  id: animalhandling
+  description: 'Animal handling is a Group of similar skills that describe the practical
+    handling of animals. The first time you select this skill group, choose a category
+    of animals that you are familiar with. You also gain the **Handle animal** skill.
+    After the first time, you select either an animal category or '
+  collection: skills
+- name: Animal Handling → Desert Navigation
+  id: desertnavigation
+  description: Provides heightened knowledge through learning to trust the camel's
+    survival instincts in order to better survive. Gain ***Expertise*** on Desert
+    survival checks.
+  collection: skills
+- name: Animal Handling → Rouse Admiration
+  id: rouseadmiration
+  description: Capture the attention and impress persons with great power and status.
+    You have ***Expertise*** on such checks.
+  collection: skills
+- name: Animal Handling → Send Home (→ Animal Training, trait)
+  id: sendhome
+  description: You have trained your bird so you send it with a message to a location
+    and person it has been trained to recognize.
+  collection: skills
+- name: Animal Handling → Underdark Navigation
+  id: underdarknavigation
+  description: Provides heightened knowledge through learning to trust the lizards's
+    survival instincts in order to better survive. Gain ***Expertise*** on Underdark
+    survival checks.
+  collection: skills
+- name: Animal Handling → Handle Animal
+  id: handleanimal
+  description: 'You have familiarity with some categories of animals. This skill is
+    used when there is any question whether you can calm down a domesticated animal,
+    keep a mount from getting spooked or intuit an animal’s intentions. Characters
+    without this training are still able to ride an appropriate animal, but '
+  collection: skills
+- name: Handle Animal → Animal Husbandry
+  id: animalhusbandry
+  description: The skill to keep, raise, and properly use domestic animals for work
+    and food. You know the minimum environment an animal must be kept in, the proper
+    food to feed it and how to keep the animal from running off. This skill would
+    normally not be rolled for.
+  collection: skills
+- name: Animal Husbandry → Breed Animal
+  id: breedanimal
+  description: Proficiency with selective breeding of animals. This is a long term
+    activity normally not possible to do during adventuring with the exception of
+    long downtimes. However, you have ***Expertise*** on checks made to identify the
+    general condition of animals and might for example allow you to select th
+  collection: skills
+- name: Animal Husbandry → Teamster
+  id: teamster
+  description: Provides skill at the employment of common domestic farm animals as
+    beasts of burden, plow teams or as animals to pull carts, wagons and carriages.
+    You have ***Expertise*** on travel checks when handling animals this way, as well
+    as on checks to control wagons or chariots.
+  collection: skills
+- name: Handle Animal → Animal Training
+  id: animaltraining
+  description: The skill to train animals tricks, such as "Speak” or “Fetch" as well
+    as teaching animals to do a specific job, such as pulling a wagon, or guarding
+    an item on command. Unless an already domesticated animal, this process takes
+    months. However, if you start the game with this skill or any other skill
+  collection: skills
+- name: Animal Training → Combat Training
+  id: combattraining
+  description: 'You have proficiency with techniques needed to train an appropriate
+    animal to attack and fight. If a creature who you’ve trained or considers you
+    its master can see and hear you, and makes an attack, skill check or saving throw,
+    you may use your ***reaction*** to give that creature advantage on its '
+  collection: skills
+- name: Combat Training → Unconventional Combat Training
+  id: unconventionalcombattraining
+  description: You have learnt techniques needed to train an inappropriate animal
+    to attack and fight. You could for example, if you really wanted, combat train
+    a chicken.
+  collection: skills
+- name: Combat Training → War Training (trait)
+  id: wartraining
+  description: You have mastered techniques making it possible to train animals for
+    combat during a short period of time. You may train an animal in 1/4 the usual
+    time (adding the ***war-trained template****** to the animal in five weeks, rather
+    than five months, for example).
+  collection: skills
+- name: Animal Training → Companionship Training
+  id: companionshiptraining
+  description: The way you train beasts is more focused on companionship. This is
+    a simpler task that can usually be done in a week. When you take this skill it
+    is assumed that you have practiced this for a while, allowing you to have a group
+    of companion animals that follow you. Choose a number of beasts from you
+  collection: skills
+- name: Animal Training → Hunt Training
+  id: hunttraining
+  description: 'You can train an animal to hunt independent of you, i.e. making Foraging
+    checks by itself. An animal must be appropriate for the task. To hunt game, the
+    animal must be one that typically does this in the wild. However, some animals
+    may be able to train to search for alternative food sources, like a '
+  collection: skills
+- name: Animal Training → Mount Training
+  id: mounttraining
+  description: You can train an animal to accept a rider of appropriate size.
+  collection: skills
+- name: Handle Animal → Animal Whisperer (trait)
+  id: animalwhisperer
+  description: Allows you to communicate simple ideas through sounds and gestures.
+    You have ***Expertise*** on checks to calm an animal down or intuit its intentions.
+  collection: skills
+- name: Animal Whisperer → Animal Whisperer II (trait)
+  id: animalwhispererii
+  description: Allows you to use the Animal Whisperer skill with non-domesticated
+    animals.
+  collection: skills
+- name: Handle Animal → Battle Animal (trait)
+  id: battleanimal
+  description: You recognize the attack patterns of the animals you are familiar with.
+    Knowing how it attacks, when it is about to pounce and recognizing its intentions
+    provides +2 AC against animals of the categories you are familiar with, including
+    non-domesticated ones.
+  collection: skills
+- name: Handle Animal → Find & Catch Animals
+  id: findcatchanimals
+  description: You have knowledge on how to locate the birthplaces of wild animals
+    and how to catch them for training and breeding.
+  collection: skills
+- name: Handle Animal → Nurse Animal
+  id: nurseanimal
+  description: The skill of maintaining and restoring health in animals, along with
+    treating diseases and parasites. Gain ***Expertise*** on checks to treat animals
+    and on saving throws animals in your care make against disease. This includes
+    non-domesticated animals. In addition you gain the following benefits. -
+  collection: skills
+- name: Handle Animal → Pack Animal
+  id: packanimal
+  description: Enables you to properly load a pack animal so that its health is not
+    threatened by travel conditions. Gain ***Expertise*** on travel checks and on
+    saves made by your pack animals to avoid exhaustion.
+  collection: skills
+- name: Pack Animal → Improve Encumbrance (trait)
+  id: improveencumbrance
+  description: Increases the capacity and endurance of your pack animals.
+  collection: skills
+- name: Handle Animal → Ride Animal
+  id: rideanimal
+  description: The skill to direct and ride an animal of the appropriate size and
+    physique. Gain ***Expertise*** on such checks.
+  collection: skills
+- name: Ride Animal → Flying Mounts
+  id: flyingmounts
+  description: You possess enough skill and knowledge to handle hippogriffs, pegasi
+    and other flying mounts for transportation and combat.
+  collection: skills
+- name: Ride Animal → Mounted Combat (trait)
+  id: mountedcombat
+  description: You possess enough skill to fight from the back of a mount. While mounted
+    you gain the following benefits. - You have advantage on melee attack rolls against
+    any unmounted creature smaller than your mount. - You can force an attack targeted
+    at your mount to target you instead. - If your mount is sub
+  collection: skills
+- name: Ride Animal → Racing
+  id: racing
+  description: Provides the skill for pushing a riding animal past its ordinary endurance
+    in order to win races. Your mount has ***Expertise*** on checks and saves to maintain
+    their speed and pass obstacles.
+  collection: skills
+- name: Handle Animal → Savage Animal Handling
+  id: savageanimalhandling
+  description: Enables you to handle "savage" animals, i.e. animals that are not normally
+    domesticated. If you have other animal handling skills, you can also apply those
+    to savage animals from your familiar categories.
+  collection: skills
+- name: Savage Animal Handling → Train Monstrous Animal
+  id: trainmonstrousanimal
+  description: Gain an understanding of unnatural animals in the categories you have
+    familiarity with. This can include beasts such as the giant eagle (bird), griffon
+    (bird or mammal), hippogriff (bird or mammal) and so on. Allows you to use other
+    animal handling skills with such creatures.
+  collection: skills
+- name: Gaming (Group, Untrained)
+  id: gaming
+  description: A Group of skills that include all types of games. Proficiency with
+    one skill would not give you knowledge of other skills in the group. Each time
+    you choose the Gaming skill, you must select a subskill. Each of these skills
+    can be used untrained, as long as someone has explained the basic rules.
+  collection: skills
+- name: Gaming → Dexterity-based Games
+  id: dexteritybasedgames
+  description: The skill of increasing your chance of winning on mostly Dexterity
+    based games.
+  collection: skills
+- name: Gaming → Games of Tactics
+  id: gamesoftactics
+  description: You can think tactically and understand how you win games that do not
+    include Luck, such as Chess.
+  collection: skills
+- name: Games of Tactics → Game Master (group)
+  id: gamemaster
+  description: You master one type of game in this category, and have ***Expertise***
+    on such checks.
+  collection: skills
+- name: Games of Tactics → Read the Odds (trait)
+  id: readtheodds
+  description: If you roll an attack and miss, you may choose to spend an inspiration
+    to “take back” the attack as if it never happened, not expending ammunition/spell
+    slots, revealing your location or your hostility to an enemy.
+  collection: skills
+- name: Gaming → Luck-based Games
+  id: luckbasedgames
+  description: The skill of increasing your chance of winning on mostly Luck based
+    games. If you have the Mathematics skill, you additionally gain ***Expertise***.
+  collection: skills
+- name: Luck-based Games → Luckiest Player Alive (trait)
+  id: luckiestplayeralive
+  description: If you roll a 7 on any dice, you can spend an inspiration to roll that
+    dice again and add the results together. If you continue to roll 7s, continue
+    to roll and add the results.
+  collection: skills
+- name: Luck-based Games → Professional Gamling
+  id: professionalgamling
+  description: With a lifetime of pushing your luck, you know when the odds are in
+    your favor. Barring intentional obfuscation, you’re generally able to puzzle out
+    and exploit any common advantage in your favor in a game of chance. You’re also
+    familiar with all of the normal traps the house or other gamblers may u
+  collection: skills
+- name: Investigation (Untrained)
+  id: investigation
+  description: The skill to look around for clues and make deductions based on those
+    clues. You might deduce the location of a hidden object, discern from the appearance
+    of a wound what kind of weapon dealt it, determine the weakest point in a tunnel
+    that could cause it to collapse or to pore through ancient scrol
+  collection: skills
+- name: Investigation → Appraisal
+  id: appraisal
+  description: You have skill with appraising and comparing values of objects, and
+    always have ***Expertise*** on such checks. Normally you would not roll for this
+    skill, unless it needs to be done quickly.
+  collection: skills
+- name: Investigation → Ciphers
+  id: ciphers
+  description: You are good at finding and solving ciphers. This grants ***Expertise***
+    on checks to realize that a text or map might contain a cipher or riddle.
+  collection: skills
+- name: Investigation → Dungeon Delver
+  id: dungeondelver
+  description: You are alert to the hidden traps and secret doors found in many dungeons
+    and can search for them while traveling at a normal pace, instead of only at a
+    slow pace. If you instead choose to move at a slow pace, you have ***Expertise***
+    in finding and detecting their presence.
+  collection: skills
+- name: Investigation → Find Clues
+  id: findclues
+  description: You have an eye for detail and can pick out the smallest clues. When
+    searching a room for clues that seem out of place you have ***Expertise***. This
+    does not help for finding traps or secret doors. In addition, it only applies
+    when looking in a place within a familiar culture; otherwise you would n
+  collection: skills
+- name: Investigation → Research
+  id: research
+  description: You are at home in libraries and other places of study and have ***Expertise***
+    when performing the systematic work required to find information in such a setting.
+  collection: skills
+- name: Leadership (Untrained)
+  id: leadership
+  description: This includes the practical skills to act as a leader, organizing and
+    overseeing other persons, teams and whole organizations. With this comes an understanding
+    of power, ambitions towards a personal vision and the defense of social values.
+  collection: skills
+- name: Leadership → Center of Attention (trait)
+  id: centerofattention
+  description: As a leader you have learned how to make others pay attention to you.
+    Gain +1 Charisma.
+  collection: skills
+- name: Leadership → Heroism (trait)
+  id: heroism
+  description: 'More of a philosophy than a skill, that quests for reverence and glory
+    through great risk, deeds and selflessness. A person with this skill perceives
+    reality differently from others. For example, the object of taking an action —
+    say, killing a monster — is less important than how it is done, or how '
+  collection: skills
+- name: Heroism → Presence (trait)
+  id: presence
+  description: You are often recognized as an unusual presence in a room, providing
+    respect or fear.
+  collection: skills
+- name: Presence → Gain Patron (trait)
+  id: gainpatron
+  description: You are approached by a member of court or something corresponding
+    in the area where your deeds are known. This patron can offer to provide knowledge
+    of errant beasts, capital and introductions to the powerful.
+  collection: skills
+- name: Gain Patron → Gain Rank (trait)
+  id: gainrank
+  description: You are invited to accept the responsibilities of rank, including parcels
+    of land and a steady income.
+  collection: skills
+- name: Leadership → Judgement
+  id: judgement
+  description: Enables you to make good sense in choosing those who serve under you,
+    particularly when assigning duties and giving trust to both hirelings and followers.
+    This would usually be a Wisdom (Judgement) check. Knowing how to recruit the right
+    people will in general improve morale and allow you to find pe
+  collection: skills
+- name: Leadership → Logistics
+  id: logistics
+  description: Your leadership is more focused around the management of supply and
+    people handling it, enabling the endurance of a long-term military campaign, caravan
+    or expedition. Having this skill includes knowledge on how to handle the discipline
+    of planning and carrying out the movement, supply and maintenan
+  collection: skills
+- name: Leadership → Motivation (trait)
+  id: motivation
+  description: The skill to inspire and improve the morale of hirelings, followers
+    and allies, rallying them to engage in combat and giving their loyalty to actions
+    the leader undertakes. Also provides great potential to inspire not only direct
+    associates, but to any group of willing persons, on the scale of a set
+  collection: skills
+- name: Motivation → Improve Morale (trait)
+  id: improvemorale
+  description: 'Increases morale for hireling and associate non-player characters.
+    This morale boost will stay in effect for as long as they are in your employ,
+    and you do not mistreat them. You gain the following abilities. - As long as your
+    followers are within 30 ft, they have advantage on saving throws against '
+  collection: skills
+- name: Motivation → Inspire Loyalty (trait)
+  id: inspireloyalty
+  description: Ensures that a cadre of subordinates, up to 10 persons, will never
+    quit your employ, and would die before betraying you.
+  collection: skills
+- name: Inspire Loyalty → Inspire Sacrifice (trait)
+  id: inspiresacrifice
+  description: Within certain parameters and from time to time, you are able to encourage
+    up to 2-5 non-player characters to give their lives to achieve a goal.
+  collection: skills
+- name: Motivation → Rousing Speech (trait)
+  id: rousingspeech
+  description: Prior to a significant conflict, you can hold an inspiring speech.
+    When you do so, your subordinates gain temporary hit points equal to your level
+    + your Charisma modifier.
+  collection: skills
+- name: Leadership → Raise Company (trait)
+  id: raisecompany
+  description: Empowers you to choose good leaders and effectively raise and lead
+    a body of 100 soldiers who are capable of acting as a unit towards achieving goals.
+    This will of course cost a great deal of money.
+  collection: skills
+- name: Raise Company → Command (trait)
+  id: command
+  description: Supported by company commanders, you are able to effectively lead a
+    thousand or more persons into battle, inspiring them to embrace tactics which
+    you order.
+  collection: skills
+- name: Command → Marshal (trait)
+  id: marshal
+  description: You are able to lead a national army, even a combined army of several
+    nationalities, determining a grand strategy for military actions.
+  collection: skills
+- name: Medicine (Untrained)
+  id: medicine
+  description: Medicine is the study of maintaining and restoring the health of humanoids,
+    as well as treating their illness and preventing the effects of poison. This skill
+    gives enough knowledge to perform basic tasks like stabilize an ally or diagnose
+    an illness. For anything more advanced you would have to see
+  collection: skills
+- name: Medicine → Battlefield Medicine
+  id: battlefieldmedicine
+  description: No stranger to the frontlines, you have experience with treating wounds
+    immediately when they occur, allowing you to mend wounds quickly and get your
+    allies back in the fight. You have ***Expertise*** on checks to stabilize, checks
+    made to remove injury effects and checks made with a healer’s kit du
+  collection: skills
+- name: Medicine → Detoxification
+  id: detoxification
+  description: 'Grants Expertise to identify a poison affecting a patient''s health,
+    as well as treating it. During a short rest, which in this case would take at
+    least 10 minutes, you can take care of people poisoned by an injury poison. By
+    spending one use of leeches you restore hp equal to your proficiency bonus '
+  collection: skills
+- name: Medicine → Disease
+  id: disease
+  description: You are specialized in diseases, with ***Expertise*** on checks to
+    identify and treat them. The skill includes knowledge of magical diseases, and
+    you would be able to deduce if it is of a magical origin (Int check). You could
+    trace a disease to its origin by interviewing patients (Cha check). In add
+  collection: skills
+- name: Medicine → Folk (group)
+  id: folk
+  description: You can take this skill multiple times. Select a different folk each
+    time. You are trained in treating members of that folk as well.
+  collection: skills
+- name: Medicine → Forensics
+  id: forensics
+  description: Some would describe the fascination with dead bodies as "morbid" or
+    "creepy", but you don't understand all the fuss. Everyone dies someday and it's
+    important to know what happened to them. You know how to figure out how the deceased
+    came to be that way. By carefully studying the surrounding environm
+  collection: skills
+- name: Medicine → Humoral Theory
+  id: humoraltheory
+  description: You are fully aware of how most conditions are caused by imbalance
+    on the humors, i.e. body fluids. Each of the humors are governed by an element,
+    and that is the reason why some conditions, injuries and illnesses need to be
+    cleaned (adding water), others need to be cleaned and kept dry. You are ski
+  collection: skills
+- name: Medicine → Phrenology
+  id: phrenology
+  description: The character has studied the science of the mind, and can tell much
+    by reading the topography of a being’s skull. You can ascertain levels of intelligence,
+    aggression, compassion, magical predilection and much more just by examining the
+    shape and texture of another person’s head.
+  collection: skills
+- name: Medicine → Surgery
+  id: surgery
+  description: The skill to cut open the body and provide treatment with a meaningful
+    probability the patient will survive. To learn this skill you have probably gone
+    through a lot of dissection or even vivisections. You have ***Expertise*** on
+    all checks regarding surgery and anatomy.
+  collection: skills
+- name: Medicine → Trepanning
+  id: trepanning
+  description: One of the ways to exorcise a possessed or mad person is to drill a
+    hole in its skull and let the evil spirits out. A target treated by you may reroll
+    a saving throw against a possession, domination or similar affliction.
+  collection: skills
+- name: Perception (Untrained)
+  id: perception
+  description: This skill lets you spot, hear or otherwise detect the presence of
+    something. It measures your general awareness of your surroundings and the keenness
+    of your senses. For example, you might try to hear a conversation through a closed
+    door, eavesdrop under an open window, or hear monsters moving stea
+  collection: skills
+- name: Perception → Insight
+  id: insight
+  description: You possess keen insight into how other people think and feel, and
+    have ***Expertise*** when trying to determine the true intentions of a creature.
+    Doing so involves gleaning clues from body language, speech habits, and changes
+    in mannerisms.
+  collection: skills
+- name: Insight → Detect Mania
+  id: detectmania
+  description: Allows recognition of situations where groups of people are acting
+    without control, either due to mass hysteria, magical suggestion or control, madness
+    or like condition. While an ordinary observer may see a crowd acting with high
+    emotion and believe that the assemblage is an ordinary mob or rabble,
+  collection: skills
+- name: Insight → Predict Behavior
+  id: predictbehavior
+  description: You can observe a humanoid to try to get uncanny insight about it and
+    how it will respond. Make a Wisdom (Predict Behavior) check contested by the target’s
+    Deception check. If your check succeeds, you have advantage on ability checks
+    against the target until the end of your next turn.
+  collection: skills
+- name: Perception → Keen Awareness (trait)
+  id: keenawareness
+  description: You are always on your guard and can react to danger at a moment's
+    notice. Gain ***Expertise*** on Initiative checks. In addition you can use your
+    ***reaction*** before your first round.
+  collection: skills
+- name: Keen Awareness → Always Ready (trait)
+  id: alwaysready
+  description: You cannot be surprised unless you are incapacitated. In addition,
+    when you roll initiative you can use a reaction to take either the Help, Ready,
+    or Search action.
+  collection: skills
+- name: Keen Awareness → Quick Witted (trait)
+  id: quickwitted
+  description: Great ideas come to you naturally; this often saves your life. When
+    you would make a saving throw, you may instead make an Intelligence saving throw.
+    You may use this feature a number of times equal to your Intelligence modifier
+    and regain all expended uses of this feature when you complete a long r
+  collection: skills
+- name: Perception → On Guard
+  id: onguard
+  description: You are trained to act as a sentinel, both the actual act of guarding
+    as well as taking precautions against unknown intruders. During any stationary
+    situation where you actively state as being on guard and not engaging your attention
+    upon something other than watching for trouble, you have ***Expert
+  collection: skills
+- name: On Guard → Alert (→ Sense-Hearing, trait)
+  id: alert
+  description: While on guard you can’t be surprised, nor do creatures gain advantage
+    on attacks against you as a result of being hidden.
+  collection: skills
+- name: Perception → Recognise Disturbance
+  id: recognisedisturbance
+  description: You can sense objects or creatures within 5 ft of you, even if they
+    are invisible or make no sound. You can additionally make Wisdom (Recognise Disturbance)
+    check to sense that someone has entered and lingered in a room over the last hour.
+  collection: skills
+- name: Recognise Disturbance → Blind Fighting (→ Sense-Hearing, trait)
+  id: blindfighting
+  description: You do not have disadvantage when attacking a target within 5 ft that
+    you cannot see.
+  collection: skills
+- name: Perception → Sense - Hearing
+  id: sensehearing
+  description: You have exceptional hearing and have ***Expertise*** on checks to
+    hear sounds.
+  collection: skills
+- name: Perception → Sense - Sight
+  id: sensesight
+  description: You have exceptional sight and have ***Expertise*** when trying to
+    spot things.
+  collection: skills
+- name: Sense - Sight → Keen Sight (trait)
+  id: keensight
+  description: You can see up to 1 mile away with no difficulty, able to discern even
+    fine details as though looking at something no more than 100 ft away from you.
+    You also gain the following benefits. - Attacking at long range doesn’t impose
+    disadvantage on your ranged weapon attack rolls.- If you can see a crea
+  collection: skills
+- name: Sense - Sight → Focused Vision (trait)
+  id: focusedvision
+  description: You are good at focusing your vision on what is important and are able
+    to shout out clutter. Being in a lightly obscured area doesn’t impose disadvantage
+    on your Perception checks that rely on sight, and your ranged weapon attacks ignore
+    half and three-quarters cover.
+  collection: skills
+- name: Sense - Sight → Nightvision (trait)
+  id: nightvision
+  description: You are accustomed to the dark and can see in dim light as if it were
+    bright light.
+  collection: skills
+- name: Perception → Sense - Smell
+  id: sensesmell
+  description: You have exceptional smell and have ***Expertise*** on checks to recognise
+    the origin and source of that which is smelled. This would include detecting poison
+    in food & drink and detecting any sort of odorous creature, such as a skunk, troglodyte
+    or rotting undead.
+  collection: skills
+- name: Perception → Sense - Taste
+  id: sensetaste
+  description: You have an exceptional sense of taste and have ***Expertise*** on
+    checks to recognise flavors. This would include detecting poison in food & drink
+    and identifying potions
+  collection: skills
+- name: Perception → Sense - Touch
+  id: sensetouch
+  description: You have an exceptional sense of touch granting Synergy with Investigation
+    when forced to investigate by touch. This could be the case if it is dark or if
+    you are trying to detect secret doors or traps by touch.
+  collection: skills
+- name: Physique (Untrained)
+  id: physique
+  description: The skill of utilizing your strength and body weight in an efficient
+    way. Having proficiency with this skill would indicate that a character has a
+    good level of physical fitness. The physique skill would normally be used for
+    difficult situations when climbing, jumping and other similar activities. P
+  collection: skills
+- name: Physique → Balance Load (trait)
+  id: balanceload
+  description: You are trained in balancing and carrying large loads, counting as
+    if you were one size larger for the purpose of determining your carrying capacity.
+  collection: skills
+- name: Balance Load → Lift Weights
+  id: liftweights
+  description: You can attempt to temporarily Push, Drag, or Lift a weight exceeding
+    your calculated maximum. For each 5 above a DC 5 Strength (Physique) check, count
+    your Strength as if it was 2 points higher when calculating carrying capacity.
+  collection: skills
+- name: Physique → Carousing
+  id: carousing
+  description: You know how to hold your drink and withstand the effects of alcohol,
+    while keeping a friendly demeanor. You have ***Expertise (Con, Cha)*** on checks
+    to influence people in a setting where lots of alcohol is used.
+  collection: skills
+- name: Physique → Climb Trees
+  id: climbtrees
+  description: You have ***Expertise*** when climbing foliage.
+  collection: skills
+- name: Climb Trees → Fast Climber (trait)
+  id: fastclimber
+  description: You gain a climbing speed equal to your movement speed.
+  collection: skills
+- name: Physique → Climb Wall
+  id: climbwall
+  description: 'When climbing walls with equipment, you have ***Expertise***. This
+    proficiency also allows you to climb vertical surfaces without equipment, provided
+    that surface retains cracks or mortared separations and you are not encumbered.
+    The distance that may be climbed safely, without requiring a die roll '
+  collection: skills
+- name: Climb Wall → Fast Climber (trait)
+  id: fastclimber
+  description: You gain a climbing speed equal to your movement speed.
+  collection: skills
+- name: Climb Wall → Instructor (trait)
+  id: instructor
+  description: You can spend 5 minutes instructing, pointing out handholds, and guiding
+    other creatures before making a climb. When you do so, choose up to six friendly
+    creatures (which can include yourself) who pay attention to you. Each creature
+    can add a 1d6 to one check or saving throw they make for that climb
+  collection: skills
+- name: Physique → Endurance
+  id: endurance
+  description: Armies, merchants, refugees or convicts; many people push themselves
+    farther than they could naturally go, and some who are regulars at this have adapted
+    to this way of life. When you make a saving throw against exhaustion from extensive
+    travel, you can use this skill with ***Expertise*** instead. Y
+  collection: skills
+- name: Endurance → Fast Recovery
+  id: fastrecovery
+  description: You recover faster than most. When you roll regain hit points, be it
+    from using a Hit Die or from healing, you regain 2 additional hit points per roll.
+    Note that Hit Dice are always rolled one at a time.
+  collection: skills
+- name: Endurance → Armor Familiarity
+  id: armorfamiliarity
+  description: You are used to sleeping in armor and have *Expertise* on checks to
+    avoid fatigue after doing so.
+  collection: skills
+- name: Physique → Hidden reserves (trait)
+  id: hiddenreserves
+  description: You can spend an inspiration and choose an expended spell slot for
+    any level of spell you can cast, then roll 1d6 for each level of that slot. Regain
+    that spell slot, but also gain 1 level of exhaustion for each roll of 1, 2 or
+    3.
+  collection: skills
+- name: Physique → Intimidate
+  id: intimidate
+  description: The skill of getting what you want by threatening people with your
+    size. You have ***Expertise (Str, Cha)*** when trying to intimidate someone.
+  collection: skills
+- name: Intimidate → Menacing
+  id: menacing
+  description: You appear fearsome to others. During your turn, you can replace one
+    attack with an attempt to demoralize one humanoid within 30 ft of you that can
+    see and hear you. Make an Intimidation check contested by the target’s Wisdom
+    (Insight) check. If you succeed, the target is frightened until the end of
+  collection: skills
+- name: Physique → Jumper
+  id: jumper
+  description: You are good at jumping both long and high, and have ***Expertise***
+    on such checks. You gain the following benefits. - You can attempt to jump even
+    longer or higher. For each 5 above a DC 5 Strength (Physique) check, count your
+    Strength as if it was 2 points higher when calculating jumping distance
+  collection: skills
+- name: Physique → Manual Labor
+  id: manuallabor
+  description: You are used to manual labor and perform it well, and have ***Expertise***
+    if you need to make a check for such an activity. Having this proficiency allows
+    you to use it as if it were a profession for the purposes of Downtime. In addition,
+    you can use this skill with Charisma on checks to communicat
+  collection: skills
+- name: Physique → Sprinter (trait)
+  id: sprinter
+  description: You can run fast for short distances. During combat you can take a
+    bonus action to Dash. When Dashing outside combat, you can add 4 times your speed.
+    You can keep this up for 2 rounds. Instead you can add 3 times your speed for
+    10 rounds. If you want to continue, you can make a Constitution save aga
+  collection: skills
+- name: Physique → Stand Ground
+  id: standground
+  description: This skill might come from several sources, such as certain types of
+    wrestling or from military training where holding the line is of essence. You
+    are good at standing your ground and avoid being moved against your will. If such
+    an effect allows for a save, you can use this skill with ***Expertise**
+  collection: skills
+- name: Stand Ground → Push
+  id: push
+  description: You can use this skill with ***Expertise*** when attempting to move
+    another creature. If you have the Stand Ground II trait, you also count as one
+    size higher when doing so.
+  collection: skills
+- name: Stand Ground → Stand Ground II (trait)
+  id: standgroundii
+  description: For purposes of moving you, your size counts as one higher.
+  collection: skills
+- name: Physique → Strong Arm (trait)
+  id: strongarm
+  description: Through training, you have significantly increased your forearm strength,
+    granting a stronger grip. Wrist, hand and forearm have been coordinated so that
+    you are able to hurl weapons a greater distance and precision than normal. You
+    gain the following benefits. - You can treat any one-handed item as
+  collection: skills
+- name: Physique → Tolerance
+  id: tolerance
+  description: You have trained, maybe unvoluntarily, to endure torture, harsh environment
+    or other conditions that most people are lucky to avoid. When making a check to
+    resist such conditions, you have ***Expertise***. If it requires a Constitution
+    save, you can use this skill instead.
+  collection: skills
+- name: Tolerance → Tough (trait)
+  id: tough
+  description: You are tougher than most. Your hit point maximum increases by an amount
+    equal to twice your level when you gain this trait. Whenever you gain a level
+    thereafter, your hit point maximum increases by an additional 2 hit points.
+  collection: skills
+- name: Physique → Unarmed Combat
+  id: unarmedcombat
+  description: You are skilled at a discipline of unarmed combat, like boxing (wrestling
+    and similar is its own subskill). - You are proficient with unarmed strikes and
+    use a 1d4 for damage. - You can use Dexterity or Strength for attack and damage
+    rolls of your unarmed strikes, your choice. - When you attack a cr
+  collection: skills
+- name: Physique → Wrestling
+  id: wrestling
+  description: You are familiar with competitive wrestling and have ***Expertise***
+    with such activities, which would include grappling or escaping a grapple. This
+    applies only to humanoid targets. You can use your ***action*** to try to pin
+    a creature grappled by you. To do so, make another Strength (Wrestling) c
+  collection: skills
+- name: Wrestling → Beast Wrestler (trait)
+  id: beastwrestler
+  description: You can wrestle any creatures, not just humanoids. In addition, creatures
+    that are one size larger than you don’t automatically succeed on checks to escape
+    your grapple.
+  collection: skills
+- name: Wrestling → Wrestling II (trait)
+  id: wrestlingii
+  description: For purposes of grappling, your size counts as one higher.
+  collection: skills
+- name: Religion (Untrained)
+  id: religion
+  description: The Religion skill covers your ability to recall lore about deities,
+    rites and prayers, religious hierarchies, divine agents and holy symbols regarding
+    the main pantheon within your culture, as well as the cultures for which you have
+    the appropriate Culture skill.
+  collection: skills
+- name: Religion → Acolyte (group)
+  id: acolyte
+  description: You have formal in-depth training on one particular deity and the patheon
+    it belongs to. Select a deity. You are always assumed to have rolled a 20 on any
+    checks regarding the chosen deity, unless it is regarding the finer points of
+    theology, obscure myths or secret knowledge. If a check is required
+  collection: skills
+- name: Religion → Divine Magic
+  id: divinemagic
+  description: You have knowledge on the holy magic that is provided by the gods to
+    their devoted followers. A Wisdom (Divine magic) check measures your ability to
+    recall lore about divine spells and magical traditions. It does not infer any
+    knowledge on Arcane or Primal magic, with the exception of possibly knowi
+  collection: skills
+- name: Divine Magic → Divine Defense
+  id: divinedefense
+  description: You have seen enough divine magic to understand the limitations and
+    flaws that deities impose on most spells they grant. You have ***Expertise***
+    when using a ***reaction*** to identify a divine spell being cast. If you recognize
+    it, you gain advantage on any saves against that spell.
+  collection: skills
+- name: Divine Magic → Divine Symbolism
+  id: divinesymbolism
+  description: You recognize many of the protective symbols, objects and even gestures
+    intended to turn away harm or evil influences, as in deflecting misfortune or
+    averting the evil eye. As most of these symbols have their origin in religion,
+    you would recognize such practices and would be able to make an educate
+  collection: skills
+- name: Divine Magic → Incarneum
+  id: incarneum
+  description: The returning of souls from beyond death. Such magic is viewed as heretical
+    when not performed by clerics that channel the powers of their god, which is seen
+    as having the blessing of both the keeper of the soul, and the soul itself. Doing
+    so without divine guidance, i.e. using arcane magic, inevita
+  collection: skills
+- name: Incarneum → Spiritualism
+  id: spiritualism
+  description: The contacting of souls from beyond death, often involving consulting
+    the spirits of the dead about information they knew in life. This skill grants
+    ***Expertise*** on checks to communicate to spirits.
+  collection: skills
+- name: Incarneum → Undead
+  id: undead
+  description: This skill lets you identify undead and may grant insight on how to
+    combat creatures and how to put them to rest.
+  collection: skills
+- name: Undead → Battle Undead (trait)
+  id: battleundead
+  description: Provides +2 AC against undead.
+  collection: skills
+- name: Undead → Exorcism
+  id: exorcism
+  description: You have some knowledge in how to banish an undead manifestation with
+    the use of proper exorcism tools. This is most commonly multiple holy symbols,
+    but some undead may have other specific items that can drive them away. You can
+    attempt to turn an incorporeal undead with an opposed skill check again
+  collection: skills
+- name: Divine Magic → Outer Planes
+  id: outerplanes
+  description: Many creatures of religious significance (like celestials and fiends)
+    reside in the Outer planes, and as such, are of interest to a scholar of religion.
+    This skill grants knowledge on the features of the Outer planes and the beings
+    that reside within. You also know how to properly address such super
+  collection: skills
+- name: Divine Magic → Prophecy
+  id: prophecy
+  description: Deities have the power to send prophetic visions to their worshipers,
+    granting insight on secrets long forgotten, to predict the future and to find
+    things hidden. You have ***Expertise*** on checks to recall lore about divinations
+    and prophecies, as well as on checks to interpret them.
+  collection: skills
+- name: Divine Magic → Residual Divinity (trait)
+  id: residualdivinity
+  description: If you are a divine spellcaster, you have gained the favor of your
+    deity, who has granted you the strength to continue caring for your flock. When
+    you cast a spell that restores hit points to an ally, you gain temporary hit points
+    equal to the highest die value that you roll. These temporary hit poi
+  collection: skills
+- name: Divine Magic → Ritual Magic
+  id: ritualmagic
+  description: Casting spells through careful rituals to appease the gods is common
+    among their followers. Many ritualized sermons have an origin in magic rituals.
+    You understand how these types of rituals are written down and how to perform
+    them, even to the extent that you have learnt a few. When you choose this
+  collection: skills
+- name: Religion → Preach
+  id: preach
+  description: The skill to leverage your religion to deliver a sermon and influencing
+    an audience to adopt moral truth, right conduct and worthy leadership. You have
+    ***Expertise*** on such checks.
+  collection: skills
+- name: Religion → Religious Bureaucracy
+  id: religiousbureaucracy
+  description: The hierarchies and bureaucracy of the religious organizations can
+    sometimes be very complicated to get around. Many old customs and people strictly
+    adhering to outdated rules can make it next to impossible to find the help you
+    need. However, you are well acquainted with the way church bureaucracy w
+  collection: skills
+- name: Speechcraft (Untrained)
+  id: speechcraft
+  description: This is the skill to interact effectively with others. It includes
+    such factors as confidence and eloquence, and can also represent a charming or
+    commanding personality. It would be used when you try to influence others, when
+    you try to make an impression or tell a convincing lie, or when you are na
+  collection: skills
+- name: Speechcraft → Actor
+  id: actor
+  description: You are skilled at acting and dramatics and have ***Expertise*** on
+    such checks, including checks when trying to pass yourself off as a different
+    person.
+  collection: skills
+- name: Speechcraft → Deception
+  id: deception
+  description: You are good at convincingly hiding the truth, either verbally or through
+    your actions. You have ***Expertise*** when attempting to mislead one or very
+    few persons with ambiguity or even telling outright lies in a short-term situation.
+    Typical situations include trying to fast-talk a guard, con a me
+  collection: skills
+- name: Deception → Acceptance
+  id: acceptance
+  description: 'The skill to "fit in" among persons of different cultures and social
+    class, and thus be "accepted" as one of them. While Deception might be used to
+    talk a guard into letting you enter a masquerade ball, this skill would be used
+    to convincingly keep up the charade during a whole evening, making sure '
+  collection: skills
+- name: Deception → Deception II
+  id: deceptionii
+  description: You have the confidence to convincingly lie or hide the truth to a
+    large group of people. Paradoxically this is often easier than lying to one person.
+    You have ***Expertise*** when using this skill.
+  collection: skills
+- name: Deception II → Sheeple
+  id: sheeple
+  description: The skill to motivate a large group of people towards a panicked action
+    upon a pre-existing fear or prejudice by direct suggestion. You have ***Expertise***
+    when attempting this action.
+  collection: skills
+- name: Deception → Fraud
+  id: fraud
+  description: The art of swindling by first gaining the confidence of others, then
+    using it to part them from their wealth. This can also include co-opting the positions
+    of the target. Fraud is a long-term version of deception, taking weeks of work
+    to set into motion. You have ***Expertise*** when using this skil
+  collection: skills
+- name: Deception → Gaslight
+  id: gaslight
+  description: The skill to sow seeds of doubt in a targeted individual's own memory,
+    perception or judgement, leading the victim towards an intended action. This process
+    takes days or weeks. You have ***Expertise*** when using this skill.
+  collection: skills
+- name: Deception → Guile
+  id: guile
+  description: The skill to deceive others about your intent, integrity, appearance
+    and reason for being for a long period of time. It enables a character to adopt
+    a disguise or level of confidence, enabling them to spy where they do not belong
+    and even rise within the hierarchy of organizations to which they do n
+  collection: skills
+- name: Deception → Insert Memory
+  id: insertmemory
+  description: 'You know how to plant a plausible, minor memory in a person’s thoughts
+    regarding an event that took place at least a year ago, such as having met once
+    before at some event. This is something that can be done during the first minutes
+    of a conversation, and unless the target has no reason to question '
+  collection: skills
+- name: Speechcraft → Intimidation
+  id: intimidation
+  description: You are skilled at making a person believe that you will follow through
+    on your actions when trying to influence through overt threats, hostile actions
+    and physical violence, granting you ***Expertise (Str, Cha)***. Examples include
+    trying to pry information out of a prisoner, convincing a street th
+  collection: skills
+- name: Intimidation → Intimidation II
+  id: intimidationii
+  description: You also have ***Expertise (Str, Cha)*** when attempting to intimidate
+    a group of people.
+  collection: skills
+- name: Speechcraft → Mercantilism
+  id: mercantilism
+  description: This includes the skill and ability to raise capital, organize and
+    manage loans, control wages, maximize profit on resources, encourage manufacturing,
+    avoid tariffs, fees and other taxes and in general create a successful and complex
+    business through a combination of innovation and guile. A common w
+  collection: skills
+- name: Speechcraft → Orator
+  id: orator
+  description: Mastery of storytelling for the purpose of captivating an audience,
+    granting ***Expertise*** on suck checks.
+  collection: skills
+- name: Speechcraft → Seduction
+  id: seduction
+  description: You are skilled at seduction and get ***Expertise*** on all such checks.
+  collection: skills
+- name: Speechcraft → Tact
+  id: tact
+  description: This skill is used when you attempt to influence someone with tact,
+    social graces, or good nature. Typically it is used when acting in good faith,
+    to foster friendships, make cordial requests, or exhibit proper etiquette. You
+    have ***Expertise*** when using this skill.
+  collection: skills
+- name: Tact → Diplomacy
+  id: diplomacy
+  description: Similar to Tact, but you also have ***Expertise*** when attempting
+    to influence a group of people. Examples include negotiating peace between warring
+    tribes or inspiring a crowd of townsfolk.
+  collection: skills
+- name: Stealth (Untrained)
+  id: stealth
+  description: The art of not being seen, through actions and the application of camouflage
+    and disguise. A Stealth check is made when you attempt to stalk a target, wait
+    within a short distance of an enemy without drawing attention, slink past guards,
+    slip away without being noticed, or sneak up on someone withou
+  collection: skills
+- name: Stealth → Terrain (group)
+  id: terrain
+  description: You are skilled at camouflage and concealment within a specific terrain.
+    Select one of the terrains below. You have ***Expertise*** when attempting to
+    hide yourself or sneak alone within that terrain. Stealth in an urban environment
+    is its own skill (Urban Stealth). - Arctic - Coastal - Desert - For
+  collection: skills
+- name: Terrain → Camouflage
+  id: camouflage
+  description: Your familiarity with the terrain allows you to attempt to hide even
+    when just lightly obscured from the creature from which you are hiding. This applies
+    to all selected terrains.
+  collection: skills
+- name: Terrain → Covert professional
+  id: covertprofessional
+  description: Your skill extends to camouflaging buildings, vehicles and larger groups
+    of people. You have ***Expertise*** within all selected terrains, on checks when
+    attempting to hide or sneak with groups of people or objects.
+  collection: skills
+- name: Terrain → Passing Through (trait)
+  id: passingthrough
+  description: You are patient and know how to wait for the right moment. If you are
+    hidden, you can move up to 10 ft in the open without revealing yourself if you
+    end the move in a position where you’re not clearly visible. This applies to all
+    selected terrains.
+  collection: skills
+- name: Stealth → Urban Stealth
+  id: urbanstealth
+  description: You know your way around a city and have ***Expertise*** when attempting
+    to hide yourself or sneak alone in an urban environment.
+  collection: skills
+- name: Urban Stealth → Evaporate
+  id: evaporate
+  description: You can apparently disappear into a crowd, even while under direct
+    observation. You have ***Expertise*** on such checks.
+  collection: skills
+- name: Urban Stealth → Indiscernible
+  id: indiscernible
+  description: You are skilled at escaping attention and seem unassuming. Even people
+    you might have spoken to during an event or similar have a hard time remembering
+    you. You have ***Expertise*** on checks to evade notice.
+  collection: skills
+- name: Urban Stealth → Passing Through (trait)
+  id: passingthrough
+  description: Enables you to "slip past" others without being seen. This is possible
+    even in broad daylight, even if there are guards present — the trick requires
+    waiting for the right moment. To determine when the moment occurs, a d100 is rolled,
+    giving a time of 1 to 100 minutes. This indicates how long a chara
+  collection: skills
+- name: Arcana
+  id: arcana
+  description: You have studied the basics of the arcane arts and the processes of
+    Arcane magic. Your Intelligence (Arcana) check measures your ability to recall
+    lore about spells, magic items, eldritch symbols, magical traditions, the planes
+    of existence, and the inhabitants of those planes. It does not infer any
+  collection: skills
+- name: Arcana → Arcane Defense
+  id: arcanedefense
+  description: You have studied enough magic to understand the limitations and flaws
+    of most spells. You have ***Expertise*** when using a ***reaction*** to identify
+    an arcane spell being cast. If you recognize it, you gain advantage on any saves
+    against that spell.
+  collection: skills
+- name: Arcane Defense → Mage Slayer
+  id: mageslayer
+  description: You have practiced techniques useful to combat spellcasters and gain
+    the following benefits. - When an adjacent arcane spellcaster casts a spell, you
+    can use a ***reaction*** to make a melee attack against that creature. In addition,
+    if you are the target, you have ***Expertise*** on saves against t
+  collection: skills
+- name: Arcana → Arcane Symbols
+  id: arcanesymbols
+  description: You recognize many of the symbols used during the practise of arcane
+    magic and have ***Expertise*** on checks to deduce the purpose of such symbols.
+  collection: skills
+- name: Arcana → Artifice
+  id: artifice
+  description: The understanding of how magic is infused and bound in objects. This
+    skill allows you to better analyze and understand the secrets of magic items and
+    artifacts, granting ***Expertise*** on checks concerning magical items, including
+    researching its history, identifying its existence or deducing its u
+  collection: skills
+- name: Artifice → Master Attuner
+  id: masterattuner
+  description: Your superior understanding of magic items allows you to master their
+    use, allowing you to attune to one additional magic item.
+  collection: skills
+- name: Artifice → Read Scrolls
+  id: readscrolls
+  description: You're able to decode arcane spell scrolls, allowing you to understand
+    them and cast its spells regardless of class requirements. Use this skill instead
+    of an ability check to cast a scroll’s spell if its level is no higher than your
+    proficiency bonus. Intelligence is your spellcasting ability for a
+  collection: skills
+- name: Arcana → Ritual Magic
+  id: ritualmagic
+  description: Your knowledge in the arcane arts specializes in the ritual casting
+    of spells. This grants you the knowledge to understand how rituals are written
+    and how to perform them, even to the extent that you have learnt a few. When you
+    choose this skill, it is assumed that you have spent enough time researc
+  collection: skills
+- name: Arcana → Abjuration
+  id: abjuration
+  description: Abjuration is a school of magic which specializes in protective magic.
+    In general this type of magic is used to keep things out, preventing things from
+    appearing and getting rid of those that already have. You have ***Expertise***
+    on checks to recall lore about phenomena associated with Abjuration m
+  collection: skills
+- name: Abjuration → Apotropaic Magic
+  id: apotropaicmagic
+  description: The creation of protective symbols, objects and even gestures intended
+    to turn away harm or evil influences, as in deflecting misfortune or averting
+    the evil eye. As an expert in this field, you would recognize such practices and
+    would be able to make an educated guess whether they actually ward aga
+  collection: skills
+- name: Abjuration → Barrier Wards
+  id: barrierwards
+  description: A field of abjuration that deals with the creation of magical barriers
+    and protections used to contain summoned entities. Barrier wards need to be anchored
+    to some kind of physical demarcation - like a magic circle or a series of glyphs.
+    This skill allows you to deduce what or who a ward is designed
+  collection: skills
+- name: Abjuration → Practical Application - Mage Armor
+  id: practicalapplicationmagearmor
+  description: You’ve learned how to empower the *mage armor* spell. The first time
+    each day you cast the spell, it does not expend a spell slot. In addition, the
+    target’s base AC can be either 13 + Dexterity modifier or 16 (your choice).
+  collection: skills
+- name: Abjuration → Protective Wards
+  id: protectivewards
+  description: 'The skill of applying protective designs painted onto a person’s body.
+    Such designs need to be exposed for them to work and are used as protective "war
+    paint" in many traditions. They are prone to being short lived - especially if
+    the user insists on washing (or even just sweating) and may come off '
+  collection: skills
+- name: Protective Wards → Tattoo Ward (→ Tattooing, trait)
+  id: tattooward
+  description: You can use tattooing tools to make protective wards more permanent.
+    This may have other side effects and/or need to be recharged regularly. *Not yet
+    available.*
+  collection: skills
+- name: Abjuration → Ward Mage (trait)
+  id: wardmage
+  description: You have learned how to bolster your shields, barriers, and walls of
+    magic beyond their normal capabilities in order to better control a battlefield
+    and protect yourself and your allies. You gain the following benefits. - When
+    a spell or class feature grants a protective ward with hit points, you gr
+  collection: skills
+- name: Arcana → Conjuration
+  id: conjuration
+  description: Magic that gathers tendrils of arcane power and forces a form upon
+    it, creating matter, creatures and even bridges to other realms. Conjurations
+    bring manifestations of objects or creatures to you (the summoning subschool),
+    actually transport creatures from another plane of existence to your plane (
+  collection: skills
+- name: Conjuration → Apportation
+  id: apportation
+  description: The branch of magic that deals with the transport of things and creatures,
+    calling them from somewhere else or teleporting them away or from one place to
+    another. This movement is instantaneous travel through the Astral Plane, meaning
+    that anything that blocks astral travel also blocks teleportation
+  collection: skills
+- name: Apportation → Calling (→ Dweomercraft)
+  id: calling
+  description: Refers to the practice of calling a supernatural entity into your workspace,
+    usually under controlled conditions, for the purposes of bargaining with it for
+    power, information or practical aid. Anyone who knows the right ritual (or something
+    approximately right…) can get the target entity (or someth
+  collection: skills
+- name: Calling → Bargain Deals
+  id: bargaindeals
+  description: You know how to leverage in making a deal with a creature from another
+    plane and gain ***Expertise*** on all such checks.
+  collection: skills
+- name: Apportation → Planar Travel (trait)
+  id: planartravel
+  description: Knowledge of how to safely transition yourself and others from one
+    existence to another, granting a higher degree of assurance to end up in the right
+    place when crossing into the ethereal or across the astral planes.
+  collection: skills
+- name: Planar Travel → Astral Travel
+  id: astraltravel
+  description: You know a lot about traversing the Astral Plane and have ***Expertise***
+    on all movement checks made there, as well as on check on knowledge on how to
+    protect yourself in this place.
+  collection: skills
+- name: Conjuration → Creation (trait)
+  id: creation
+  description: The magic of creating objects from thin air. Temporary objects can
+    be created from ectoplasm and given enough form to be useful, or an item can be
+    pulled together from its component atoms and made literally from nothing. An item
+    created this way is normally indistinguishable from an object created u
+  collection: skills
+- name: Creation → Magic Crafter (→ Any craft, trait)
+  id: magiccrafter
+  description: Select a craft. You are both a skilled crafter as well as a skilled
+    arcanist. Objects created by you are impossible to distinguish from a “normal”
+    object to an investigator without the Creation skill, and even with it, they have
+    disadvantage to detect any magic influences.
+  collection: skills
+- name: Conjuration → Familiarus (trait)
+  id: familiarus
+  description: Magic used to bind the life force of two creatures together as a master
+    and familiar. You know the *Call Familiar* ritual, and if you start the game with
+    this trait, you have one bound to you already.
+  collection: skills
+- name: Conjuration → Summoning
+  id: summoning
+  description: 'Summoning magic instantly brings a manifestation of a creature to
+    a place you designate. It is temporarily removed from where it is summoned and
+    appears under your control. When the spell ends, is dispelled or even if the summoned
+    creature dies, it is instantly sent back to where it came from. This '
+  collection: skills
+- name: Arcana → Divination
+  id: divination
+  description: Magic which specializes in information gathering. Common applications
+    include learning secrets long forgotten, to predict the future, to find hidden
+    things and to foil deceptive magic. You have ***Expertise*** on checks to recall
+    lore about phenomena associated with Divination magic, as well as lore
+  collection: skills
+- name: Divination → Method of Divination
+  id: methodofdivination
+  description: There are many divinatory techniques to specialize in (almost anything
+    with "-mancy" on the end) based on everything from watching the sky for omens,
+    staring into a fire, casting stones or seeing which pieces of grain a chicken
+    eats. Some are described below. Unless otherwise noted for a form of div
+  collection: skills
+- name: Divination → Scrying (trait)
+  id: scrying
+  description: Scrying magic uses an invisible magical sensor to send you information.
+    Having this skill allows you to steer a scrying sensor with more skill. In addition
+    to the basic movements and sensory acuity of the sensor, you can use your Stealth
+    and Investigation skills through it.
+  collection: skills
+- name: Arcana → Enchantment
+  id: enchantment
+  description: A term for those types of magic which control and manipulate the target's
+    mind and/or take over control of their body. You have ***Expertise*** on checks
+    to recall lore about phenomena associated with Enchantment magic.
+  collection: skills
+- name: Enchantment → Charm
+  id: charm
+  description: Your expertise is in charms and enthrallment, allowing you to recognize
+    whether a person is acting under its own control or being influenced by someone.
+    You would only be able to detect this for folk of your culture, as other folk
+    and/or cultures may behave very differently from what you are used to
+  collection: skills
+- name: Enchantment → Compulsion
+  id: compulsion
+  description: This type of magic compels a target to to act in some manner or to
+    follow some course of action, or inaction. By interviewing such a person you would
+    be able to determine the limitations of a compulsion and, if possible, find a
+    way around it.
+  collection: skills
+- name: Arcana → Evocation
+  id: evocation
+  description: Tapping into rawer elements of magic, evocation magic creates spontaneous
+    and spectacular effects often without tangible form such as light or fire. You
+    have ***Expertise*** on checks to recall lore about phenomena associated with
+    Evocation magic.
+  collection: skills
+- name: Arcana → Illusion
+  id: illusion
+  description: Focusing on deceiving and bending perceptions, illusion magics allow
+    the user to present their version of reality to the viewer. They cause people
+    to see things that are not there, not see things that are there, hear phantom
+    noises or even manipulate light and shadow. The fae are famously fond of th
+  collection: skills
+- name: Illusion → Figments (trait)
+  id: figments
+  description: Figment magic is the simplest interpretation of illusion magic, projected
+    images lacking in any real substance that either move according to pre-programmed
+    instructions or in accordance with the will of their controller. Anyone can see
+    them, they look the same to everyone and they look as real as th
+  collection: skills
+- name: Illusion → Glamer (trait)
+  id: glamer
+  description: This type of illusion magic changes a target's sensory qualities, making
+    it look, feel, taste, smell, or sound like something else, or even seem to disappear.
+    With this skill you have the same benefits as described in the Figment section.
+  collection: skills
+- name: Illusion → Pattern (trait)
+  id: pattern
+  description: Like a figment, pattern magic creates an image that others can see,
+    but its main purpose is to overwhelm the senses. With this skill you have ***Expertise***
+    on saves against pattern magic.
+  collection: skills
+- name: Illusion → Phantasm (trait)
+  id: phantasm
+  description: These types of illusions exist only in the mind of the viewer, effectively
+    tell the viewer's senses "there's a dragon here" and let them provide the balance
+    of the information themselves. As it is all in a target’s head, a skilled illusionist
+    can make the victim more susceptible to a phantasm by con
+  collection: skills
+- name: Phantasm → Deadly Illusionist (trait)
+  id: deadlyillusionist
+  description: Your illusions invade the deepest crevice of your enemies’ minds and
+    leave them scarred. If you are a spellcaster you learn one illusion spell from
+    your class spell list. This spell does not count against the number of spells
+    you can prepare each day. Creatures who fail their initial saving throw ag
+  collection: skills
+- name: Illusion → Shadow
+  id: shadow
+  description: Shadow magic creates something that is partially real from extradimensional
+    energy. Such illusions can have real effects. You have ***Expertise*** on all
+    checks to recall lore on the Plane of Shadows and the magic emanating from it.
+  collection: skills
+- name: Arcana → Necromancy
+  id: necromancy
+  description: The magic of life and death, the forces that stem from the innate magic
+    of souls as well as the mending and manipulation of flesh, necromancy is seen
+    as dark and dirty magic by most common folk. You have ***Expertise*** on checks
+    to recall lore about phenomena associated with necromantic magic.
+  collection: skills
+- name: Necromancy → Osteomancy
+  id: osteomancy
+  description: Known as "bone magic", this focuses on the manipulation of the skeleton
+    and the calcified remains of the living as well as the dead. Some uses of this
+    skill would be to provide insight from skeletal remains, such as the type of creature,
+    its condition in life or even what killed it. It can, if you a
+  collection: skills
+- name: Osteomancy → Fight Skeletons (trait)
+  id: fightskeletons
+  description: You know where to strike a skeletal creature to hurt its integrity
+    the most, granting you advantage on your damage rolls against them. In addition
+    you can tell when such a creature has reached half its hp.
+  collection: skills
+- name: Necromancy → Incarneum
+  id: incarneum
+  description: The returning of souls from beyond death. Such magic is viewed as heretical
+    when not performed by clerics that channel the powers of their god, which is seen
+    as having the blessing of both the keeper of the soul, and the soul itself. Doing
+    so without divine guidance, i.e. using arcane magic, inevita
+  collection: skills
+- name: Incarneum → Undead
+  id: undead
+  description: This skill lets you identify undead and may grant insight on how to
+    combat creatures and how to put them to rest.
+  collection: skills
+- name: Undead → Battle Undead (trait)
+  id: battleundead
+  description: Provides +2 AC against undead.
+  collection: skills
+- name: Undead → Exorcism
+  id: exorcism
+  description: You have some knowledge in how to banish an undead manifestation with
+    the use of proper exorcism tools. This is most commonly multiple holy symbols,
+    but some undead may have other specific items that can drive them away. You can
+    attempt to turn an incorporeal undead with an opposed skill check again
+  collection: skills
+- name: Undead → Vampire Knowledge
+  id: vampireknowledge
+  description: You are skilled in vampire lore. This grants ***Expertise*** on checks
+    when speaking to them, as well a +2 bonus on saves against their innate abilities.
+  collection: skills
+- name: Necromancy → Pathogens
+  id: pathogens
+  description: Some necromantic magic focuses on the manipulation of life in the form
+    of diseases. You have ***Expertise*** on checks to identify diseases and on checks
+    concerning how to spread or cure disease.
+  collection: skills
+- name: Necromancy → Spiritualism
+  id: spiritualism
+  description: 'The contacting of souls from beyond death, often involving consulting
+    the spirits of the dead about information they knew in life. This is sometimes
+    seen as heretical, but in most cultures acceptable. In some cultures that practices
+    ancestor worship or shamanism this could even be seen as something '
+  collection: skills
+- name: Arcana → Transmutation
+  id: transmutation
+  description: Transmutation magic changes the properties of creatures, objects or
+    conditions. You have ***Expertise*** on checks to recall lore about phenomena
+    associated with Transmutation magic.
+  collection: skills
+- name: Transmutation → Detect Transmutation
+  id: detecttransmutation
+  description: The fact that an object or creature has been transmuted is normally
+    impossible to detect with mundane means. In some cases even magic detection is
+    not possible. This skill allows you to deduce that an item or creature does not
+    have its original form. If you have an appropriate proficiency, such as C
+  collection: skills
+- name: Transmutation → Constructs
+  id: constructs
+  description: This skill lets you identify constructs and may grant insight on how
+    they were created, what their orders might be and how to combat them.
+  collection: skills
+- name: Constructs → Battle Golem (trait)
+  id: battlegolem
+  description: Provides +2 to AC against golems and on saves against their innate
+    abilities.
+  collection: skills
+- name: Arcana → Wild Magic
+  id: wildmagic
+  description: This type of magic is a field left alone by most serious arcanists,
+    unless needing to handle problems caused by irresponsible casters. You have ***Expertise***
+    on checks to recall lore about phenomena associated with Wild magic. In addition,
+    when rolling a wild surge on the wild surge table, you can
+  collection: skills
+- name: Wild Magic → Twist Luck
+  id: twistluck
+  description: You have the ability to twist fate, avoiding the havoc you cause. Gain
+    +2 Luck. In addition you can choose to have complete immunity to the effects of
+    a wild surge after you know the effects by describing the improbable chain of
+    effects leading to this. You can use this feature freely once between e
+  collection: skills
+- name: Architecture
+  id: architecture
+  description: The planning, designing and constructing of buildings and other structures,
+    for the purpose of housing, defense, durability, beauty and other benefits. The
+    field covers every aspect of architecture, including parts and pieces of domestic
+    living, the building of castles and temples, decoration, the u
+  collection: skills
+- name: Architecture → Construction
+  id: construction
+  description: Integrates knowledge of surveying, excavation, masonry, carpentry,
+    financial considerations, contracting and the ongoing management and productivity
+    of labor. Some practical skills are included, but the focus is upon planning and
+    overseeing work gangs who will perform the actual work.
+  collection: skills
+- name: Construction → Tradecraft
+  id: tradecraft
+  description: Grants knowledge of one craft to the architect, gained from time spent
+    on building sites. Choose from carpentry, excavation, brickwork, masonry, tile
+    work or thatching.
+  collection: skills
+- name: Architecture → Fortification
+  id: fortification
+  description: The art of designing defensive military fortifications such as walls,
+    towers, harbors, mottes and baileys, gates, drawbridges and siege engines. The
+    knowledge extends to making plans — for the most part, actual construction may
+    take years and even decades, and can be performed by simple laborers und
+  collection: skills
+- name: Architecture → Investigate Structure
+  id: investigatestructure
+  description: You are well familiar with the way architects add secret areas in a
+    structure. This grants you ***Expertise*** when attempting to find secret doors
+    and areas in a built structure, such as a building or dungeon.
+  collection: skills
+- name: Astronomy
+  id: astronomy
+  description: Astronomy, which also includes astrology, is the observation of celestial
+    objects both scientifically and as a means of insight into individuals and the
+    natural world. The combined framework is possible in a world of magic, where astrology
+    has legitimacy and is therefore respectable. With this skill
+  collection: skills
+- name: Astronomy → Astrology
+  id: astrology
+  description: The monitoring of the movements of celestial bodies, both those bound
+    to Golarion by anchors that appear as lights in the heavens that revolve around
+    the night sky, and those further away that appear as distant stars. Such movements
+    are the result of grand cosmological changes, showing the movements
+  collection: skills
+- name: Astronomy → Navigation
+  id: navigation
+  description: Permits the proper use of a sextant in order to measure the angle between
+    any two visible objects or to determine the character's location when the sky
+    is clear, either by using the sun at noon or sighting the pole star at night.
+    Position on the earth's surface cannot be obtained if a sextant cannot
+  collection: skills
+- name: Cosmology
+  id: cosmology
+  description: The study of planes of existence beyond the Prime Material. It provides
+    details, including each plane's natural laws, moral code, reason for being and
+    general extent. Knowledge of the outer planes focuses far more upon each plane's
+    structure than it does upon its residents. This includes the planes'
+  collection: skills
+- name: Cosmology → Dweomercraft
+  id: dweomercraft
+  description: This is the field of detection, understanding and manipulation of unnatural
+    manifestations on the Prime Material plane originating from other planes of existence,
+    such as demons, devils, elementals, celestials and the ancient creatures associated
+    with the Cthulhu mythos. With this skill you have ***
+  collection: skills
+- name: Dweomercraft → Advanced Dweomercraft
+  id: advanceddweomercraft
+  description: You have considerable knowledge in this field. After identifying an
+    unnatural manifestation you can attempt an Intelligence (Advanced Dweomercraft)
+    check to gain some insight in how such a manifestation could be closed or sent
+    back.
+  collection: skills
+- name: Dweomercraft → Call Manifestation
+  id: callmanifestation
+  description: With this skill you know the proper protocols in how to address and
+    speak to minor supernatural manifestations. It would for instance allow you to
+    lure forth a manifestation known to reside in a location, permitting the suspension
+    of hostilities while allowing communication.
+  collection: skills
+- name: Dweomercraft → Contact Other Plane
+  id: contactotherplane
+  description: The knowledge of how to properly address the more powerful supernatural
+    entities on their plane of existence, enables you to seek advice without being
+    seen as a nuisance. It does not confer the ability to contact them.
+  collection: skills
+- name: Cosmology → Knowledge - Plane (group)
+  id: knowledgeplane
+  description: Each outer plane is its own skill granting more in-depth knowledge
+    on this specific plane. You can take it multiple times, each time applied to a
+    different outer plane. With this skill you have ***Expertise*** on Cosmology regarding
+    the selected plane.
+  collection: skills
+- name: Courtier
+  id: courtier
+  description: The knowledge on how to properly behave in a court, from the minor
+    court of a noble estate to an emperor’s court. You would know who you are “allowed”
+    to address and how to do it in a way appropriate to their station, the correct
+    way to gain an audience with someone and the different functions and t
+  collection: skills
+- name: Courtier → Courtier II
+  id: courtierii
+  description: You excel in the world of the courts and have ***Expertise*** on checks
+    regarding lines of nobility or etiquette. In addition you have ***Synergy (Speechcraft)***
+    when interacting with nobility, common folk, or knights, provided that you have
+    not shown yourself to be a danger to them.
+  collection: skills
+- name: Courtier → Courteous (trait)
+  id: courteous
+  description: Behaving in an appropriate way is the key in each situation. Gain +1
+    Charisma.
+  collection: skills
+- name: Courtier → Fey Courts
+  id: feycourts
+  description: The courts of the archfey that rule the feywild have very specific
+    rules. A slight mistake in how one presents a request or answers a question could
+    have serious consequences.
+  collection: skills
+- name: Courtier → Heraldry
+  id: heraldry
+  description: 'Relates to the implementation, creation, acquisition and origin of
+    emblazoned signs and sigils upon tabards, shields, flags and so on. Signs are
+    images that are blazoned onto armor and elsewhere according to complex rules in
+    the formal language of heraldry. Identifying sigils includes seals, runes, '
+  collection: skills
+- name: Heraldry → Recognition of Signs
+  id: recognitionofsigns
+  description: Expands your knowledge to include the nobility of every kingdom or
+    empire within the chosen culture, as well as signs relating to cities larger than
+    10,000 persons. You are also able to recognize the extensive collection of guild
+    marks and signs created and displayed for public use. Finally, you are
+  collection: skills
+- name: Recognition of Signs → Recognition of Signs II
+  id: recognitionofsignsii
+  description: Permits recognition of heraldry, signs & sigils relating to secret
+    societies, including thieves and assassins. These marks are used to indicate the
+    location of secret places, warnings and even code words, which you can use to
+    better navigate safely around large cities — where most signs of this type
+  collection: skills
+- name: Courtier → Politics
+  id: politics
+  description: Continental politics are just so thrilling, with the upheaval and the
+    betrayals and the drama of it all. Much better than any play you've seen or book
+    you've read. You love keeping up with the political current events in a kingdom
+    and always know what is going on with the ruler or officials of any c
+  collection: skills
+- name: Culture (Group)
+  id: culture
+  description: Culture is a group of skills that involves the knowledge of other cultures
+    (also known as anthropology), each skill being a different culture. You are always
+    assumed to be proficient with your own culture. Skill with one Culture would not
+    give you knowledge of any other culture. Each time you choose
+  collection: skills
+- name: Engineering
+  id: engineering
+  description: Engineering is the practical knowledge of invention, innovation, design,
+    building, maintenance and improvement of machines and tools. This also enables
+    a character to oversee the construction of various machines, including ships and
+    other vehicles, siege engines, cranes, winches, pumps, water-driven
+  collection: skills
+- name: Engineering → Assess Construction (trait)
+  id: assessconstruction
+  description: "*“Its vision is based on movement. At least, that’s how I would have
+    built it ...”* When encountering a Construct, you may roll an Engineering check
+    against a DC equal to 5 + CR. For every 5 points by which you exceed this, you
+    may identify either its damage vulnerabilities or resistances, or its sp"
+  collection: skills
+- name: Engineering → Demolition
+  id: demolition
+  description: You know how to destroy constructions. This is mainly by identifying
+    bearing walls and pillars, or by sapping. Sapping is the digging and shoring of
+    underground tunnels designed to collapse enemy fortifications. You have ***Expertise***
+    on such checks.
+  collection: skills
+- name: Engineering → Model Making
+  id: modelmaking
+  description: You are proficient with making realistic minia­tures of things. This
+    grants ***Expertise*** on checks regarding models, as an example being able to
+    draw conclusions regarding hidden areas when observing a miniature building.
+  collection: skills
+- name: Engineering → Siege Weapon-making
+  id: siegeweaponmaking
+  description: Allows the creation of devices intended to break or circumvent castle
+    doors or walls, such as battering rams, trebuchets, catapults, ballista and mangonels.
+    You have ***Expertise*** on checks to create such machines.
+  collection: skills
+- name: Engineering → Tinkering
+  id: tinkering
+  description: You are familiar with a lot of different types of machines and tools,
+    and have ***Expertise*** on checks to identify, use and repair them.
+  collection: skills
+- name: Tinkering → Gnomish Tinkering
+  id: gnomishtinkering
+  description: Allows you to create and operate gnomish machinery. This is very unsafe,
+    even with the skill. Even the safest gnomish constructions often include steam-powered
+    engines that can explode at any time.
+  collection: skills
+- name: Geology
+  id: geology
+  description: The science of the solid earth, the rocks of which it's composed and
+    the processes by which they change. You have knowledge in geological formations
+    like mountain ranges, caves, cliffs, canyons, and much more. You can tell a lot
+    from the rocks you pick up, such as their age, composition and location
+  collection: skills
+- name: Geology → Elemental Earth
+  id: elementalearth
+  description: Knowledge on materials and creatures that originate from the elemental
+    plane of earth.
+  collection: skills
+- name: Geology → Gemology (→ Gemcutting)
+  id: gemology
+  description: You can easily identify different types of gems and estimate their
+    worth and use, gaining ***Expertise*** on such checks.
+  collection: skills
+- name: Geology → Hazards
+  id: hazards
+  description: You have studied natural geological hazards like earthquakes, volcanoes,
+    avalanches and sinkholes. This knowledge is mostly theoretical, but grants ***Expertise***
+    on checks to identify areas that might be prone to such hazards, to know how to
+    prepare for such an event to increase survival and other
+  collection: skills
+- name: Hazards → Practical Hazard knowledge
+  id: practicalhazardknowledge
+  description: Intense (and close) studies of geological hazards have given you the
+    experience to survive close encounters with them. You have ***Expertise*** on
+    all saves and check to avoid or lessen the effects from these types of hazards.
+  collection: skills
+- name: Geology → Rocks
+  id: rocks
+  description: Your main knowledge is with geological formations and different types
+    of rocks. You have ***Expertise*** on checks regarding this subject, as well as
+    ***Synergy (Survival-Mountains)***. Example checks for this skill would be to
+    locate precious mineral deposits or identifying the type of natural rock
+  collection: skills
+- name: Geology → Underground Mining
+  id: undergroundmining
+  description: The knowledge of mining techniques and skills associated with the excavation
+    of hard and soft materials below the surface. You have ***Expertise*** on such
+    checks, including assessing the safety of natural underground areas.
+  collection: skills
+- name: History
+  id: history
+  description: The understanding of past events, conflicts and consequences arising
+    from actions and chance occurrences. An Intelligence (History) check measures
+    your ability to recall lore about historical events, legendary people, ancient
+    kingdoms, past disputes, recent wars and lost civilizations. Because histo
+  collection: skills
+- name: History → Ancient Culture (group)
+  id: ancientculture
+  description: The knowledge of specific ancient cultures. When selecting this skill,
+    choose a specific culture that you have studied, like Azlant, Thassilonia or Ghol-Gan.
+  collection: skills
+- name: Ancient Culture → Deeper Knowledge
+  id: deeperknowledge
+  description: You have learnt most of the things available in your specific culture,
+    making you an authority on the subject, and have ***Expertise*** on all checks
+    regarding the culture.
+  collection: skills
+- name: History → Archeology
+  id: archeology
+  description: The practical study of forgotten civilizations, uncharted lands and
+    ancient places. The ruins of ancient civilizations teach the follies of the past
+    so that they may be avoided in the future. The character can ascertain much about
+    ancient cultures by exploring the places in which they lived. Among o
+  collection: skills
+- name: Archeology → Manage Dig Site
+  id: managedigsite
+  description: Integrates knowledge of surveying, excavation, financial considerations,
+    contracting and the ongoing management and productivity of labor. Some practical
+    skills are included, but the focus is upon planning and overseeing work gangs
+    who perform the actual work of digging and unearthing an archaeologi
+  collection: skills
+- name: History → Artifacts
+  id: artifacts
+  description: Provides knowledge of magical items that possess a unique existence,
+    with accumulated knowledge offering the various details of each item. Knowledge
+    of one item does not necessarily extend to any other item — but through research
+    and inquiry the character may begin to amass the sufficient tools nece
+  collection: skills
+- name: Artifacts → Interpret Artifact
+  id: interpretartifact
+  description: Artifacts often have a will of their own. This skill enables a safe
+    investigation of an artifact to learn its powers and malevolent effects.
+  collection: skills
+- name: Interpret Artifact → Rectify Artifact
+  id: rectifyartifact
+  description: The study of how to remove an artifact's malevolent effects.
+  collection: skills
+- name: Artifacts → Trace Artifact
+  id: traceartifact
+  description: The skill of research and reliable decision-making in tracing and determining
+    the accurate location of a given artifact.
+  collection: skills
+- name: Trace Artifact → Locate Hoard
+  id: locatehoard
+  description: Powerful artifacts affect the area and creatures in their vicinity.
+    This skill is used to reveal the probable location of a hidden cache, based upon
+    evidence gained from walking the nearby area.
+  collection: skills
+- name: History → Expert of Antiquities (trait)
+  id: expertofantiquities
+  description: "*“Believe it or not, I’ve seen one of these before.”* Having examined
+    hundreds upon hundreds of antiquities, many of which with historical pedigrees
+    reaching into the distant pasts, you can more easily identify magic items. With
+    a DC 15 History check, you can identify the qualities of an item as if "
+  collection: skills
+- name: History → Historical Accuracy
+  id: historicalaccuracy
+  description: You are trained in authentication of historical documents and objects.
+    When investigating a historical document or other matter of historical interest
+    such as a map or work of art, for example examining a document to determine if
+    it is a forgery, you have ***Expertise***. You also have ***Expertise*
+  collection: skills
+- name: History → Military Study
+  id: militarystudy
+  description: Provides a clear grasp of the events surrounding the pursuit of war,
+    including battles and general strategies employed by commanders and armies in
+    the past. You are well-steeped in historical diplomacy and wars, having studied
+    the gains and losses by the victors and the defeated. This grants ***Expe
+  collection: skills
+- name: Law
+  id: law
+  description: The Law skill covers the system of laws enforced by the political entities
+    within your culture. When you select this skill it includes enough knowledge to
+    understand how laws work in your culture as well as the cultures for which you
+    have the appropriate Culture skill. Even though you may not know s
+  collection: skills
+- name: Law → Bureaucracy
+  id: bureaucracy
+  description: You know how to cut through the red tape of bureaucracy and reduce
+    the time needed to navigate such institutions. Gain ***Expertise*** on such checks.
+  collection: skills
+- name: Law → Business Dealing
+  id: businessdealing
+  description: The ability to make sound business contracts that will safely benefit
+    both parties. You have ***Expertise*** on all such checks.
+  collection: skills
+- name: Law → Infernal Law (trait)
+  id: infernallaw
+  description: You have enough knowledge to be able to decipher the convoluted language
+    of an infernal contract. In order to fully comprehend such a contract, you would
+    need to understand Infernal.
+  collection: skills
+- name: Law → Solicitor
+  id: solicitor
+  description: You have sufficient understanding of the legal system to be able to
+    defend yourself or someone else during a court trial, and have ***Expertise***
+    on such checks.
+  collection: skills
+- name: Language
+  id: language
+  description: The knowledge of different languages (see rules for languages). Gain
+    language study as if you had trained for 50 days. Note that reading and writing
+    counts as a language.
+  collection: skills
+- name: Linguistics
+  id: linguistics
+  description: Your Intelligence (Linguistics) check measures your ability and understanding
+    of languages, both its spoken and written forms. This includes deciphering writing
+    in an unfamiliar language which is similar to one you know or a message written
+    in an incomplete or archaic form. You can also do the follo
+  collection: skills
+- name: Linguistics → Cryptology
+  id: cryptology
+  description: You can invent ciphers, and are able to teach a cipher to others. Anyone
+    who knows a cipher can encode and read hidden messages made with it. Additionally,
+    you have ***Expertise*** on checks made to detect and decode ciphers and codes.
+  collection: skills
+- name: Mathematics
+  id: mathematics
+  description: While most adventurers struggle to count their remaining fingers and
+    toes after a battle, a character with this skill is able to wield the power of
+    numbers and logic as a tool to best the toughest challenges. The character can
+    estimate distances, calculate heights and use careful plotting to improve
+  collection: skills
+- name: Mathematics → Accounting
+  id: accounting
+  description: The skill to keep detailed (and verifiable) records of wealth, expenditures,
+    losses and potential income, as well as provide analysis of the records of others’
+    financial transactions. You have ***Expertise*** on any such checks.
+  collection: skills
+- name: Mathematics → Advanced Mathematics
+  id: advancedmathematics
+  description: Your knowledge reaches beyond simple addition, subtraction, multiplications
+    and division. You can calculate volumes and trajectories, understand calculus
+    and can make statistical analysis. Gain +1 Intelligence.
+  collection: skills
+- name: Advanced Mathematics → Physics
+  id: physics
+  description: The theoretical study of the physical laws associated with the movement
+    of bodies and objects, vibration, sound, optics and light, the movement of water,
+    air and earth, pressure, magnetism and many similar branches and topics that give
+    the character insight into the way that energy (including magic)
+  collection: skills
+- name: Physics → Aerodynamics (trait)
+  id: aerodynamics
+  description: You can Dash while in flight (or freefall).
+  collection: skills
+- name: Mathematics → Siege Weapons
+  id: siegeweapons
+  description: You have ***Expertise*** on attacks using siege weapons.
+  collection: skills
+- name: Nature
+  id: nature
+  description: The theoretical knowledge of terrain, plants and animals, the weather
+    and natural cycles. - Grassland - Jungle - Mountains - includes Alpine mountains
+    - Ocean - Planar - specify plane. Examples include Abyss, Acheron, Astral plane,
+    Hell - Ruins (in D&D worlds ruins often have a unique ecology) - Rur
+  collection: skills
+- name: Nature → Animals (group)
+  id: animals
+  description: Select a type of animal from Amphibians, Birds, Bugs & Spiders, Mammals
+    (land), Reptiles or Sea life. You can take this skill multiple times, each type
+    applied to a different type of animal. Gain ***Expertise*** on checks to recall
+    lore on the type of animal selected.
+  collection: skills
+- name: Animals → Confound Animal
+  id: confoundanimal
+  description: You know about the behavior of the type of animals you are familiar
+    with, enabling you to know how to mislead or confuse them, so as to "disappear"
+    from their attention. Gain ***Expertise*** on such checks, even allowing you to
+    sometimes avoid a check completely.
+  collection: skills
+- name: Nature → Beasts
+  id: beasts
+  description: Enables you to recognize and identify beasts — creatures that have
+    unnatural animal forms that are often magical in nature. This identification includes
+    the name of the beast, the threats it imposes and its general behavior and motives.
+  collection: skills
+- name: Beasts → Beast Forms
+  id: beastforms
+  description: Provides full knowledge of the moral and symbolic qualities that beasts
+    possess, including stories of their origins, their place and reason for being,
+    the manner in which they fit into the religious milieu and construction of the
+    universe and ultimately how they "think". This skill provides ***Exper
+  collection: skills
+- name: Beasts → Confound Beasts
+  id: confoundbeasts
+  description: You know how to mislead or confuse Beasts, so as to "disappear" from
+    their attention. Gain ***Expertise*** on such checks, even allowing you to sometimes
+    avoid a check completely.
+  collection: skills
+- name: Beasts → Fight Beasts (trait)
+  id: fightbeasts
+  description: You recognize the attack patterns of many Beasts. Knowing how they
+    attack and recognizing their intentions provides +2 AC against Beasts.
+  collection: skills
+- name: Nature → Dragons
+  id: dragons
+  description: You know how to recognize and identify different types of ddragons.
+    This identification includes the ecology of the dragon, the threats it imposes
+    and its general behavior and motives.
+  collection: skills
+- name: Dragons → Fight Dragons (trait)
+  id: fightdragons
+  description: You recognize the attack patterns of many Dragons. Knowing how they
+    attack and recognizing their intentions provides +2 AC against Dragons, as well
+    as advantage on saving throws against their breath weapons.
+  collection: skills
+- name: Nature → Fungi
+  id: fungi
+  description: You are familiar with the fleshy and edible fruit bodies of several
+    species of mushroom, including those that grow above and below ground. Mushrooms
+    are eaten for their food value and for other qualities, some of them magical,
+    as well as being a poison source. The study includes yeasts, lichen and m
+  collection: skills
+- name: Fungi → Cultivate Mushroom
+  id: cultivatemushroom
+  description: You know how to grow fungi of any variety. Gain ***Expertise*** on
+    any such checks, including recognizing that fungi may have been grown on purpose
+    in a location (shrikers as guards for instance).
+  collection: skills
+- name: Fungi → Detect Fungus
+  id: detectfungus
+  description: Recognises the odor given off by dangerous fungus-based creatures,
+    forewarning the character when approaching within 120 ft. Grants at least ***Expertise***
+    on checks to notice or detect such creatures.
+  collection: skills
+- name: Fungi → Fermentation
+  id: fermentation
+  description: Provides knowledge of yeast and fungus in creating safe-to-consume
+    fermented alcoholic beverages and in food processing (the pickling of vegetables
+    and making of yogurt).
+  collection: skills
+- name: Fungi → Know Fungi
+  id: knowfungi
+  description: You can identify the name of genera and species of fungi on sight,
+    and know when and where to search for edible or poisonous mushrooms in a wild
+    environment. This grants ***Expertise*** on Foraging checks during appropriate
+    seasons and terrains.
+  collection: skills
+- name: Nature → Oozes
+  id: oozes
+  description: Includes puddings, molds, oozes and jellies. You are familiar with
+    these kinds of creatures and can identify most of them on sight. This skill can
+    be used instead of Perception when dealing with such creatures and hazards.
+  collection: skills
+- name: Oozes → Fight Ooze (trait)
+  id: fightooze
+  description: Oozes are not the brightest creatures and you know how to trick their
+    perceptions, granting a +2 AC against Oozes.
+  collection: skills
+- name: Oozes → Ooze Master
+  id: oozemaster
+  description: You have more knowledge than most regarding Oozes, granting ***Expertise***
+    on checks to recall lore about them. In addition, a successful check can grant
+    you insight in their defenses and immunities.
+  collection: skills
+- name: Oozes → Protect against Ooze (trait)
+  id: protectagainstooze
+  description: Most Oozes are corrosive, but they might have other nasty abilities.
+    You know how to protect yourself against some of their natural powers, gaining
+    +2 on saves against abilities of Oozes.
+  collection: skills
+- name: Oozes → Smell Ooze
+  id: smellooze
+  description: 'When within 20 ft of one of these creatures, even if the creature
+    cannot be seen (provided the barrier between you is not air-tight), you can with
+    a successful Constitution (Smell Ooze) detect the distinct smell of the creature,
+    but not the exact species, and the general sense of where the creature '
+  collection: skills
+- name: Nature → Plants
+  id: plants
+  description: You have a lot of theoretical knowledge on plants, allowing you to
+    identify most types of plants, both wild and cultivated, and have ***Expertise***
+    on checks to recall lore about plants.
+  collection: skills
+- name: Plants → Florist
+  id: florist
+  description: There's something about the beautiful colors of flowers that captures
+    your attention like nothing else. Your fascination has given you a huge base of
+    knowledge on flowers. You can identify them by color and shape and you know which
+    flowers are associated with which plants. You also have knowledge of
+  collection: skills
+- name: Plants → Plant creatures
+  id: plantcreatures
+  description: You are familiar with different types of plant creatures, and the way
+    they might want to consume you.
+  collection: skills
+- name: Nature → Primal Magic
+  id: primalmagic
+  description: 'A type of magic provided by nature itself or provided by ancestor
+    spirits and filtered through nature. This magic is mostly used by druids, rangers
+    and creatures close to nature, such as fey. A Wisdom (Primal Magic) check measures
+    your ability to recall lore about primal spells, symbols and magical '
+  collection: skills
+- name: Primal Magic → Fey Magic
+  id: feymagic
+  description: The magic of fey is well known to you, and you have ***Expertise***
+    on all checks to recall lore about such magic, including recognizing a spell being
+    cast.
+  collection: skills
+- name: Primal Magic → Primal Defense
+  id: primaldefense
+  description: You have seen enough primal magic to understand the limitations and
+    flaws of most such spells. You have ***Expertise*** when using a ***reaction***
+    to identify a primal spell being cast. If you recognize it, you gain advantage
+    on any saves against that spell.
+  collection: skills
+- name: Primal Magic → Primal Symbols
+  id: primalsymbols
+  description: You recognize many of the symbols used during the practise of primal
+    magic and have ***Expertise*** on checks to deduce the purpose of such symbols.
+  collection: skills
+- name: Primal Magic → Ritual Magic
+  id: ritualmagic
+  description: Your knowledge in the primal arts specializes in the ritual casting
+    of spells, commonly used by circles of druids. Such rituals are very dependent
+    on the natural cycles, such as the moon or the seasons, and locations where primal
+    magic is stronger. The skill grants you enough knowledge to understand
+  collection: skills
+- name: Primal Magic → Spiritualism
+  id: spiritualism
+  description: The contacting of ancestral souls from beyond death, often involving
+    consulting the spirits of the dead about information they knew in life. This skill
+    grants ***Expertise*** on checks to communicate to such spirits.
+  collection: skills
+- name: Nature → Terrain (group)
+  id: terrain
+  description: You have theoretical knowledge on the natural phenomena from a specific
+    type of terrain. When you select this skill, always choose a terrain type from
+    below. You can select it multiple times, each time choosing a different type of
+    terrain. In addition to being familiar with the selected type of terr
+  collection: skills
+- name: Terrain → Woodcutting
+  id: woodcutting
+  description: The skill at selecting and cutting timber to sustain a forest while
+    drawing its resources. This skill might also give you ***Expertise*** on checks
+    to communicate with both sides of a foresting dispute.
+  collection: skills
+- name: Nature → Weather
+  id: weather
+  description: The knowledge of weather phenomena, including magical ones, and the
+    skill to determine future weather events with marked accuracy, allowing for instance
+    when and where a storm will occur, as well as its severity and length. You have
+    ***Expertise*** on checks to recall lore about weather phenomena.
+  collection: skills
+- name: Knowledge (other) (Group)
+  id: knowledge
+  description: You are educated in a field of study not covered by other Knowledge
+    skills. In addition you have ***Synergy (Speechcraft)*** when interacting with
+    other sages in your field.
+  collection: skills
+- name: Agriculture
+  id: agriculture
+  description: The art of cultivating plants, from growing simple plants in a flower
+    pot, to full scale farming. A character with this skill would know how it is done,
+    when it can be done and what is required to successfully grow crops and other
+    plants.
+  collection: skills
+- name: Agriculture → Farming
+  id: farming
+  description: Knowledge on how to grow crops, from the amount required to sustain
+    a single household to areas feeding entire towns. You have ***Expertise*** on
+    any checks regarding this.
+  collection: skills
+- name: Agriculture → Gardening
+  id: gardening
+  description: Knowledge on how to grow plants on a small scale, in particular for
+    ornamental, but also for medicinal purposes. You have ***Expertise*** on any checks
+    regarding this.
+  collection: skills
+- name: Agriculture → Mushroom Farming
+  id: mushroomfarming
+  description: Societies living in the Underdark use mushroom farming to sustain their
+    inhabitants, as they are able to grow underground with no access to light. You
+    have ***Expertise*** on any checks regarding this.
+  collection: skills
+- name: Art (Group)
+  id: art
+  description: Art is a group of skills that involves creative or imaginative talent
+    expressive of technical proficiency, beauty, emotional power or conceptual ideas.
+    Skill with one Art in this group would not give you knowledge of other skills
+    in the group. Each time you choose the Art skill, you must select a su
+  collection: skills
+- name: Art → Acting
+  id: acting
+  description: The art in which the character tells a story through speech, emotional
+    expressivity, improvisation and physicality. The skill requires an impressive
+    memory, imagination, strength of voice and the ability to intuitively understand
+    intelligent beings. Actors train at length in formal speaking, while g
+  collection: skills
+- name: Acting → Master Actor (trait)
+  id: masteractor
+  description: "*“There was a **WHAT**? A robbery?!”* You have ***Expertise*** on
+    acting checks. Additionally you may spend an Inspiration to add 1d8 to any Deception
+    check. If you roll a 5 or less, this inspiration is not expended on use."
+  collection: skills
+- name: Acting → Inspiring Speech (trait)
+  id: inspiringspeech
+  description: "*“Brothers! Sisters! I say, to arms!”* You may spend an Inspiration
+    to roll a number of d12s equal to your Charisma modifier. The result is granted
+    as temporary hitpoints, divided among any number of companions who can see and
+    hear you."
+  collection: skills
+- name: Acting → Playwriting
+  id: playwriting
+  description: The skill to write plays, enabling the character to create the preordained
+    dialogue and performance to be employed by actors; the creation of dramatic content.
+  collection: skills
+- name: Acting → Recall
+  id: recall
+  description: A character with this skill has trained to remember names, places and
+    phrases spoken by persons in an exact manner, without effort.
+  collection: skills
+- name: Acting → Vocal Range
+  id: vocalrange
+  description: Your speaking voice can be heard at a 50% greater distance than a normal
+    person.
+  collection: skills
+- name: Art → Calligraphy
+  id: calligraphy
+  description: The art of writing in an expressive, harmonious and skillful manner.
+    You must know how to read and write before taking this skill. Your skill in writing
+    allows you to detect if written text is a forgery with a successful Intelligence
+    (Calligraphy) check.
+  collection: skills
+- name: Calligraphy → Forgery
+  id: forgery
+  description: The art of creating false documentation in order to encourage others
+    to believe in the legitimacy of a characters' fraudulent practices. You have ***Expertise***
+    on checks made to create a convincing forgery.
+  collection: skills
+- name: Art → Clowning
+  id: clowning
+  description: Providing the classical features of the harlequin and the court jester,
+    the act of inspiring laughter and merriment through foolishness, physical prowess
+    and surprise.
+  collection: skills
+- name: Art → Dance
+  id: dance
+  description: This includes the performance of dances enjoyed at social gatherings,
+    such as the ballo, carol, stampita or saltarello, or dances made as pure stage
+    performances. It offers a style of performance as well as an emotional connection
+    between dancers, or between a dancer and a non-dancer. This skill wou
+  collection: skills
+- name: Art → Drawing
+  id: drawing
+  description: The means of making an image using paint, pencil, pen and ink, charcoal,
+    pastels and a variety of applied techniques to capture visual appearance on a
+    flat surface, such as paper, canvas or a wall.
+  collection: skills
+- name: Art → Make-up
+  id: makeup
+  description: The art of applying make-up, commonly used to enhance one’s appearance,
+    but can also be used for theatrical make-up or even to imitate the resemblance
+    of another person or creature.
+  collection: skills
+- name: Make-up → Disguise
+  id: disguise
+  description: You have training in concealing your appearance, trying to pass yourself
+    off as a different person so that you will not be recognized. This grants ***Expertise***
+    on such checks.
+  collection: skills
+- name: Disguise → Disguise II (trait)
+  id: disguiseii
+  description: Your skill with disguises has reached where you can impersonate others.
+    This will usually only work for shorter encounters with people who don’t know
+    the person you’re impersonating so well.
+  collection: skills
+- name: Make-up → Look Your Best (trait)
+  id: lookyourbest
+  description: "*“Whoever trimmed your beard like that should be hung. Here. Allow
+    me.”* After 20 minutes of work, you may grant a 1d6 bonus to a character's next
+    Charisma check, if appripriate, i.e looks can improve it."
+  collection: skills
+- name: Art → Music
+  id: music
+  description: The performance and knowledge of music within a cultural and social
+    context. Music is an important part of many people’s way of life, regardless of
+    their particular skill. The first time you select this skill, immediately select
+    two of the below skills as well.
+  collection: skills
+- name: Music → Courtly Music
+  id: courtlymusic
+  description: A type of music typically played at high court, appropriate as background
+    music or as music to dance the highly choreographed noble dances to.
+  collection: skills
+- name: Music → Folk Music
+  id: folkmusic
+  description: The traditions, customs and superstitions of the uncultured classes,
+    or music for the people as a whole, defined by ethnic and historical identity.
+    A form that is easily accessible to those who have very little musical skill.
+  collection: skills
+- name: Music → Martial Music
+  id: martialmusic
+  description: A form of music intended for military settings, with bugle calls, fanfares,
+    drum cadences and composed so that it may be taught by ear, for the inspiration
+    of pomp and warfare.
+  collection: skills
+- name: Martial Music → Lift Spirits (trait)
+  id: liftspirits
+  description: Extend the endurance of an army marching together during a forced march.
+  collection: skills
+- name: Music → Opera
+  id: opera
+  description: A form of musical theater, in which the story is told entirely through
+    music, with aspects supported by political, religious and moral themes.
+  collection: skills
+- name: Music → Play Instrument (group)
+  id: playinstrument
+  description: Enables the character to proficiently make musical sounds with a group
+    of instruments of choice.
+  collection: skills
+- name: Play Instrument → Master Music
+  id: mastermusic
+  description: This knowledge is beyond playing, a comprehension of reading notes,
+    improvisation, genre, intonation, dynamics, melodic phrasing, composing and more.
+  collection: skills
+- name: Music → Religious Music
+  id: religiousmusic
+  description: Music performed or composed for religious use or through religious
+    influence; describes music that is performed or composed for ritual, or to raise
+    the religious consciousness to beautify the gods.
+  collection: skills
+- name: Art → Origami
+  id: origami
+  description: The art of folding paper into different shapes.
+  collection: skills
+- name: Art → Patronage
+  id: patronage
+  description: The act of appealing to and receiving financial support and ongoing
+    commissions from members of the elite, be they merchants, nobles, religious leaders
+    or persons of questionable motives. You know how this is done, how to find the
+    appropriate venues and persons, and how to properly address such peop
+  collection: skills
+- name: Art → Poetry
+  id: poetry
+  description: The skill to write and perform captivating poetry.
+  collection: skills
+- name: Art → Puppeteering
+  id: puppeteering
+  description: The practice of making a puppet appear alive, through various applications
+    of strings, hands, the control of the space in which the puppet appears, diversion
+    and mastery of the puppet’s movement.
+  collection: skills
+- name: Puppeteering → Puppet-making
+  id: puppetmaking
+  description: The creation of an object, typically resembling something humanoid
+    or alive, of various materials, that is designed to be manipulated by a variety
+    of means.
+  collection: skills
+- name: Art → Sculpture
+  id: sculpture
+  description: The carving and shaping of three-dimensional figures in stone, metals,
+    ceramics, wood and other materials, central to the devotion of religion, beauty
+    and the agony and passion of humanoid emotion.
+  collection: skills
+- name: Art → Tattoo
+  id: tattoo
+  description: The skill to design and create tattoos.
+  collection: skills
+- name: Art → Taxidermy
+  id: taxidermy
+  description: The skill of meticulous preservation, display and restoration of the
+    bodies of deceased animals.
+  collection: skills
+- name: Art → Writing
+  id: writing
+  description: The art of writing a captivating story. This skill would also let you
+    identify hidden meanings in other people’s work.
+  collection: skills
+- name: Burglary
+  id: burglary
+  description: 'The art of planning, executing and resolving a burglary of a house
+    or other property, to obtain objects of value within. A character could for instance
+    roll Wisdom (Burglary) while staking out a house to identify where and when it
+    would make most sense to enter a building, or a Dexterity (Burglary) '
+  collection: skills
+- name: Burglary → Break & Enter
+  id: breakenter
+  description: Provides a character with some skill regarding the destruction of doors
+    and windows so that they might be passed through as quickly as possible without
+    creating excessive noise and attention. Glass may be cut, bolts in doors removed,
+    stones and bits of plaster excavated, frames separated from the bu
+  collection: skills
+- name: Burglary → Case Building (trait)
+  id: casebuilding
+  description: Provides a character with a unique eye regarding the design and layout
+    not only of singular buildings, but of town and city blocks, street fronts and
+    layout. Thus, a would-be thief may feel a particular property calls out to be
+    entered, with conveniently placed balconies, ledges or rooftops easily a
+  collection: skills
+- name: Burglary → Detect Concealed Door
+  id: detectconcealeddoor
+  description: 'Enables a character to notice the telltale signs of a concealed door,
+    then pinpoint its precise location. Concealed doors may be screened by trees,
+    the shape of the terrain; they may be small and difficult to see; or located down
+    a hole that passes unnoticed. Inside a house, they may be hidden by a '
+  collection: skills
+- name: Burglary → Lockpicking
+  id: lockpicking
+  description: You master the art of opening locks or circumventing security precautions
+    of various designs using a set of lockpicks. You can additionally pick locks with
+    improvised tools, but have ***Expertise*** on checks using proper lockpicking
+    tools.
+  collection: skills
+- name: Burglary → Lookout
+  id: lookout
+  description: Enables a character to distract outsiders while another character commits
+    burglary or other criminal activity, while also giving subtle warning to the perpetrator
+    of the crime. This includes skill to ensure that they are not themselves noticed
+    loitering around on a street, such as dressing up as a w
+  collection: skills
+- name: Cooking
+  id: cooking
+  description: The skill to prepare raw ingredients into tasty and safe meals. Normally
+    no check is required. If you have the skill and ingredients, you can consistently
+    prepare food that is edible and tastes fine, at least for people of your folk.
+    Checks would only be required for example if you need to impress a
+  collection: skills
+- name: Cooking → Baking
+  id: baking
+  description: You are skilled at the creation of flour-based food readied in an oven,
+    including bread, cookies, cakes, pastries and pies, and have ***Expertise*** on
+    such checks.
+  collection: skills
+- name: Cooking → Butchering
+  id: butchering
+  description: Skill at slaughtering, dressing and preserving meat from livestock,
+    game and fish. A slaughter improperly performed can spoil or even poison the meat,
+    so having skill at removing the animal's entrails is necessary in the production
+    of large amounts of available meat. When preparing rations from anim
+  collection: skills
+- name: Cooking → Cuisine
+  id: cuisine
+  description: The mastery of supervising and working in a professional kitchen, ordering
+    and purchasing of inventory and the preparation, practice and preservation of
+    food. It grants ***Expertise*** on Charisma checks when communicating with other
+    kitchen staff, as well as patrons that have been impressed with yo
+  collection: skills
+- name: Cooking → Foraging
+  id: foraging
+  description: The skill to find safe naturally occurring ingredients that you can
+    prepare in a wilderness environment. Even though you might not be able to identify
+    the exact nature of the ingredients, you will be able to ensure that they are
+    safe to eat, and figure out how to prepare them. You have ***Expertise*
+  collection: skills
+- name: Herbalism
+  id: herbalism
+  description: 'This skill is used to search for herbs in the wild, to identify herbs,
+    safely collect them and to create herbal infusions. This is normally a Wisdom
+    ability check. ##### Foraging for Herbs How to forage for herbs is described in
+    its own section. ##### Crafting Herbal Items To craft a herbal item you'
+  collection: skills
+- name: Herbalism → Crafter
+  id: crafter
+  description: You are good at producing herbal items and have ***Expertise*** on
+    all such checks.
+  collection: skills
+- name: Herbalism → Identify Herbal Item (→ Sense-Taste)
+  id: identifyherbalitem
+  description: You can identify potions and other herbal substances by taste, granting
+    ***Expertise*** on all such checks.
+  collection: skills
+- name: Herbalism → Locate Herbs
+  id: locateherbs
+  description: You have knowledge on how to locate, identify and harvest raw materials
+    for your herbal infusions, granting ***Expertise*** on all such checks.
+  collection: skills
+- name: Herbalism → Prepare Poisons (trait)
+  id: preparepoisons
+  description: You can additionally create natural poisons that must be imbibed to
+    be effective.
+  collection: skills
+- name: Prepare Poisons → Prepare Poisons II (trait)
+  id: preparepoisonsii
+  description: Adds the option to safely manufacture other types of herbal poisons,
+    being contact, inhaled and injury poisons.
+  collection: skills
+- name: Profession (Group)
+  id: profession
+  description: You are skilled at a specific job that is not covered by other skills.
+    Like Art, Craft and Knowledge, this is a number of separate skills, and each Profession
+    skill represents an aptitude in a vocation requiring a broader range of less specific
+    knowledge. Some common Profession skills are baker, bre
+  collection: skills
+- name: Profession → Embalmer
+  id: embalmer
+  description: The embalmer prepares the deceased for funerary rites and burials.
+  collection: skills
+- name: Embalmer → Embalming (trait)
+  id: embalming
+  description: If you have access to Alchemist’s or Brewer’s Supplies or Cook’s Utensils,
+    you may confer a benefit identical to the *Gentle Repose* spell.
+  collection: skills
+- name: Profession → Merchant
+  id: merchant
+  description: One common profession is the merchant. This profession allows you to
+    add your proficiency bonus to all types of transactions when trading, buying and
+    selling. However, if you have a specialization, such as books, weapons, animal
+    or basically any type of items that are usually traded, you can additio
+  collection: skills
+- name: Merchant → Appraiser (trait)
+  id: appraiser
+  description: The skill to correctly identify the approximate value of items within
+    your expertise according to their workmanship and innate value. Your experience
+    allows you to always know an approximate value after examining an object for a
+    few minutes.
+  collection: skills
+- name: Merchant → Trader
+  id: trader
+  description: You know how and where to sell and buy items within your expertise
+    to earn the most. This applies on transactions from single items to wholesale
+    bulk. You have ***Expertise*** on all such checks, including checks made to find
+    information about sellers and buyers.
+  collection: skills
+- name: Sailor
+  id: sailor
+  description: Skill in the basic management of a water vehicle, driven by wind, with
+    rigging, rudder and keel. This allows a character to be useful as crew on a ship,
+    or to handle a smaller boat by himself, as well as understanding the rudimentaries
+    of boat craft and repair.
+  collection: skills
+- name: Sailor → Air ship
+  id: airship
+  description: Extremely rare, some magical ships have the ability to soar through
+    the air, or even space. You are just as home with this type of ship as you are
+    with a boat in the water.
+  collection: skills
+- name: Sailor → Boathandler
+  id: boathandler
+  description: The skill to function as a river pilot, with skill derived from a familiarity
+    with such environments, allowing the management of a boat through the safest and
+    most efficient river waters. You have ***Expertise*** on all checks made for this
+    purpose.
+  collection: skills
+- name: Sailor → Navigation
+  id: navigation
+  description: Permits the proper use of a sextant in order to navigate at sea.
+  collection: skills
+- name: Sailor → Sea Dog
+  id: seadog
+  description: You are more at home on a boat than anywhere else. Having solid ground
+    beneath your feet will never feel as natural to you as the rolling deck of a ship.
+    You have ***Expertise*** on all Sailor checks as well as on Acrobatics checks
+    made to keep your balance and on checks made to climb onboard a ship
+  collection: skills
+- name: Sleight of Hand
+  id: sleightofhand
+  description: Fine hand motor skill used for entertainment or deception. Used whenever
+    you attempt an act of legerdemain or manual trickery. For example an action such
+    as planting something on someone else, slipping something out of another person’s
+    pocket or concealing an object on your person, would require a D
+  collection: skills
+- name: Sleight of Hand → Hide Object
+  id: hideobject
+  description: The skill of making sure hidden objects on your person stay hidden.
+    You have ***Expertise*** on all such checks, usually handled by moving the objects
+    being searched for while the search is being performed.
+  collection: skills
+- name: Sleight of Hand → Juggling
+  id: juggling
+  description: You are skilled at juggling objects and have ***Expertise*** on checks
+    to perform in such a manner, but also for checks made to not drop something during
+    combat.
+  collection: skills
+- name: Sleight of Hand → Knot Tying
+  id: knottying
+  description: After years of practice, your nimble fingers can tie any type of knot
+    imaginable and you can always think of the perfect knot to tie in any situation.
+    Unfortunately, your skill and experience in tying knots doesn't necessarily translate
+    to untying knots, especially if you're being restrained by them
+  collection: skills
+- name: Sleight of Hand → Legerdemain
+  id: legerdemain
+  description: The art of performing magic tricks. You have ***Expertise*** on checks
+    such as performing stage magic to impress a crowd. This skill can also be used
+    as an opposed skill check to trick someone trying to identify a spell that you
+    cast into thinking it is a different spell.
+  collection: skills
+- name: Sleight of Hand → Pickpocketing
+  id: pickpocketing
+  description: Skill at stealing money or other items from a creature without any
+    notice of the theft having occurred. You have ***Expertise*** on such checks.
+  collection: skills
+- name: Survival
+  id: survival
+  description: 'The Survival skill allows you to navigate, hunt, track, read the landscape,
+    etc. It is your ability to manage living or traveling in the wild and being aware
+    of the dangers therein. The DM might ask you to make a Wisdom (Survival) check
+    to follow tracks through a forest, forage for wild game, guide '
+  collection: skills
+- name: Survival → Arctic Survival
+  id: arcticsurvival
+  description: You are at home in the cold arctic and have ***Expertise*** on Survival
+    checks in that type of environment.
+  collection: skills
+- name: Arctic Survival → Skiing
+  id: skiing
+  description: 'You know how to fashion, maintain and employ wooden skis as a means
+    of travel and transport, and have ***Expertise*** on all checks and saves in regards
+    to that. The skill provides some ability to shush down hills, but it must be noted
+    that the nature of skis that can be constructed are not capable '
+  collection: skills
+- name: Arctic Survival → Glacier Crossing
+  id: glaciercrossing
+  description: Improves agility and success when crossing glaciers. You know what
+    equipment is necessary and safe methods of crossing. With preparation you can
+    grant your entire group ***Expertise*** on checks and saves against such natural
+    hazards.
+  collection: skills
+- name: Survival → Coastal Survival
+  id: coastalsurvival
+  description: You are an expert at reading coastal terrain, including areas around
+    lakes and rivers, and can easily determine where the shallow sections are, as
+    well as where the big lagoons or large ship anchorages might be. Additionally
+    you have ***Expertise*** on Survival checks in that type of environment.
+  collection: skills
+- name: Coastal Survival → Fishing
+  id: fishing
+  description: You know the coastlines, but more importantly you are familiar with
+    the fish that inhabit these areas and how to catch them. You can provide enough
+    fish to feed yourself and five other people as long as the area has not been fished
+    out. You can easily tell if something is disturbing the natural bala
+  collection: skills
+- name: Survival → Desert Survival
+  id: desertsurvival
+  description: You are at home in the unforgiving deserts and have ***Expertise***
+    on Survival checks in that type of environment.
+  collection: skills
+- name: Survival → Forest Survival
+  id: forestsurvival
+  description: You are at home in most types of temperate forests and have ***Expertise***
+    on Survival checks in that type of environment.
+  collection: skills
+- name: Survival → Grassland Survival
+  id: grasslandsurvival
+  description: You are at home on plains and savannahs of the world and have ***Expertise***
+    on Survival checks in that type of environment.
+  collection: skills
+- name: Survival → Jungle Survival
+  id: junglesurvival
+  description: You are at home in the jungle and have ***Expertise*** on Survival
+    checks in that type of environment.
+  collection: skills
+- name: Survival → Mountain Survival
+  id: mountainsurvival
+  description: You are at home in mountainous regions, including alpine mountains,
+    and have ***Expertise*** on Survival checks in that type of environment.
+  collection: skills
+- name: Mountain Survival → Glacier Crossing
+  id: glaciercrossing
+  description: Improves agility and success when crossing glaciers. You know what
+    equipment is necessary and safe methods of crossing. With preparation you can
+    grant your entire group ***Expertise*** on checks and saves against such natural
+    hazards.
+  collection: skills
+- name: Mountain Survival → Mountain Routefinding
+  id: mountainroutefinding
+  description: 'This ability, associated with scrambling and mountain climbing, allows
+    the character to make the best possible guesses for locating a good route through
+    mountains. The skill can be used in finding the most likely means for crossing
+    a mountain range, or it may be used specifically for how to climb a '
+  collection: skills
+- name: Survival → Ocean Survival
+  id: oceansurvival
+  description: You know how to survive at sea, both on boats on the surface as well
+    as underwater, and have ***Expertise*** on Survival checks in that type of environment.
+  collection: skills
+- name: Ocean Survival → Boatbuilding
+  id: boatbuilding
+  description: You have the skill necessary to fashion a seaworthy craft that's capable
+    of a long journey, as long as you have access to wood and rope.
+  collection: skills
+- name: Survival → Planar Survival (Group)
+  id: planarsurvival
+  description: When taking this skill, specify a plane, like the Abyss, Acheron, Astral
+    plane, Hell, etc. You know how to survive on this particular plane and have ***Expertise***
+    on Survival checks while there.
+  collection: skills
+- name: Survival → Subterranean Survival
+  id: subterraneansurvival
+  description: You are at home in the Underdark and other subterranean areas, and
+    have ***Expertise*** on Survival checks in that type of environment.
+  collection: skills
+- name: Subterranean Survival → Caving
+  id: caving
+  description: Enables the discovery of cave entrances by virtue of the experience
+    gained from systematically searching rock formations, pushing through passages
+    that are overlooked as "too tight," digging through dirt and rock fill, or enlarging
+    narrow fissures in the rock — even recognizing air movement, the pat
+  collection: skills
+- name: Survival → Wetland Survival
+  id: wetlandsurvival
+  description: You are at home in swamps and other types of wetlands, and have ***Expertise***
+    on Survival checks in that type of environment.
+  collection: skills
+- name: Survival → Foraging
+  id: foraging
+  description: The skill to find naturally occurring food in a wilderness environment,
+    which may be edible animal or vegetable matter. The exact nature of the food is
+    not important, though it will typically consist of products such as fish, bird's
+    eggs, roots, fruits and berries, nuts, honey, fungus, shellfish and
+  collection: skills
+- name: Foraging → Identify Clean Water (trait)
+  id: identifycleanwater
+  description: You can always ascertain if naturally occurring water is safe to drink,
+    largely through observation, odor, testing a bit of the water against one's tongue
+    and the appearance of the surrounding vista (no checks required).
+  collection: skills
+- name: Survival → Pathfinding
+  id: pathfinding
+  description: 'Improves distance covered when crossing untracked wilderness. A proficient
+    character can deduce the best way to go when attempting to cross a valley, desert
+    or river, climb towards a mountain pass or to a high point, circumnavigate a large
+    feature or otherwise avoid treacherous ground. This reduces '
+  collection: skills
+- name: Pathfinding → Pathfinding II (trait)
+  id: pathfindingii
+  description: Enables a character to help protect others from the environment, giving
+    ***Expertise*** on checks against getting caught in or taking damage from natural
+    features, such as sinkholes, slippery places, quicksand, natural pits, natural
+    spikes and potential falls. In effect, character with this skill in
+  collection: skills
+- name: Survival → Scouting
+  id: scouting
+  description: A set of survival and orientation skills that focus on avoiding detection
+    in the wild, providing a character with the skill to consciously avoid detection
+    by others who may be actively hunting the character or in a position to witness
+    traces left by the character. This includes actively choosing rou
+  collection: skills
+- name: Survival → Tracking
+  id: tracking
+  description: The practice of observing, stalking and following a trail left by a
+    creature or animal in the wild, in order to ultimately locate them or their lair.
+    You have ***Expertise*** on such checks.
+  collection: skills
+- name: Swimming
+  id: swimming
+  description: You have the basic ability to swim.
+  collection: skills
+- name: Swimming → Armored Swimmer (trait)
+  id: armoredswimmer
+  description: While wearing armor in water, you may treat it as a category lighter.
+  collection: skills
+- name: Swimming → At Home in Water (trait)
+  id: athomeinwater
+  description: You are at home in water, being able to both swim and dive with ease.
+    You have ***Expertise*** on Swimming checks. In addition whenever you land in
+    water, you may decide if you make no splash, an average splash, or a large distracting
+    splash.
+  collection: skills
+- name: Swimming → Freediving (trait)
+  id: freediving
+  description: Empowers you with the ability to hold his or her breath for longer
+    periods, enabling deep dives. You can hold your breath for four times as long
+    as normal, granting advantage on constitution saving throws against airborne dangers
+    such as gas clouds.
+  collection: skills
+- name: Freediving → Deep Breathing (trait)
+  id: deepbreathing
+  description: Provides unnatural lung capacity that allows periods of 8 to 15 minutes
+    underwater.
+  collection: skills
+- name: Swimming → Speed Swimmer (trait)
+  id: speedswimmer
+  description: You gain a swimming speed equal to your walking speed and can Dash
+    while swimming.
+  collection: skills
+- name: Underworld
+  id: underworld
+  description: The familiarity with the criminal element and how to best handle oneself
+    in rough quarters and among rough people, and knowledge of the unethical trade
+    of other's property.
+  collection: skills
+- name: Underworld → Appraisal (trait)
+  id: appraisal
+  description: The skill to correctly identify the approximate value of items according
+    to their workmanship and innate value. This would allow you to identify the most
+    valuable objects in a room or treasure trove automatically, or to estimate the
+    value of an object after examining for a few minutes.
+  collection: skills
+- name: Underworld → Black Market
+  id: blackmarket
+  description: The underground movement, illegal sale and fencing of stolen items,
+    acting as a shadow house of sale for objects that cannot be sold to vendors or
+    at auction due to their illegality. In the cities where you normally operate,
+    no checks are required. You have one or more contacts that can handle these
+  collection: skills
+- name: Underworld → Streetwise
+  id: streetwise
+  description: You are aware of the subtle signs used in the criminal underworld,
+    and can understand them enough to recognize who you can talk to, who you shouldn’t
+    approach and how to ask for information with a minimal amount of trouble. You
+    have ***Expertise*** on such checks if within a Culture you are familiar
+  collection: skills
+- name: Guild Politics
+  id: guildpolitics
+  description: Knowledge of the etiquette among guilds and their associates. You have
+    ***Expertise*** on Charisma checks when interacting with crafting professionals.
+    This applies even to guilds where you are not a member.
+  collection: skills
+- name: Appraiser (trait)
+  id: appraiser
+  description: The skill to correctly identify the approximate value of items according
+    to their workmanship and innate value. Your experience allows you to always know
+    an approximate value after examining an object for a few minutes.
+  collection: skills
+- name: Journeyman Crafter (trait)
+  id: journeymancrafter
+  description: 'If you start play with this skill, you have an official trade certificate
+    allowing you to charge for your work with the craft, but not yet work as a self-employed
+    master craftsman. This will in most human urban and rural areas allow you to live
+    a modest lifestyle without paying the cost. Becoming a '
+  collection: skills
+- name: Journeyman Crafter → Master Crafter (trait)
+  id: mastercrafter
+  description: 'If you start play with this skill, you are a member of a guild and
+    have an official master certificate. This means you have a network of contacts
+    within the craft, as well as suppliers, buyers and in some cases, with other related
+    crafts. In most human urban and rural areas having this skill allows '
+  collection: skills
+- name: Trader
+  id: trader
+  description: You know how and where to sell and buy the type of items you can craft
+    in order to earn the most. This applies on transactions from single items to wholesale
+    bulk. You have ***Expertise*** on all such checks, including checks made to find
+    information about sellers and buyers.
+  collection: skills
+- name: Alchemy
+  id: alchemy
+  description: 'The scientific study of the properties and behavior of the elements
+    that make up matter; their composition, structure, properties, behavior and the
+    changes they undergo during a reaction with other substances. The Alchemy skill
+    covers theoretical knowledge of basic chemistry and can additionally be '
+  collection: skills
+- name: Alchemy → Craft Alchemical Substance (trait)
+  id: craftalchemicalsubstance
+  description: You know how to apply your theoretical knowledge into practice, allowing
+    you to safely craft alchemical items up to a value of 10 gp.
+  collection: skills
+- name: Craft Alchemical Substance → Craft Alchemical Substance II (trait)
+  id: craftalchemicalsubstanceii
+  description: You know how to safely craft alchemical items up to a value of 25 gp.
+  collection: skills
+- name: Craft Alchemical Substance II → Craft Alchemical Substance III (trait)
+  id: craftalchemicalsubstanceiii
+  description: You know how to safely craft any alchemical item.
+  collection: skills
+- name: Alchemy → Distilling
+  id: distilling
+  description: You have great knowledge on how to purify or concentrate a variety
+    of non-magical liquids, including the making of beverages, and have ***Expertise***
+    on such checks.
+  collection: skills
+- name: Alchemy → Identify Alchemical Substance (→ Sense-Taste)
+  id: identifyalchemicalsubstance
+  description: You can identify potions and other alchemical substances by taste,
+    granting ***Expertise*** on all such checks.
+  collection: skills
+- name: Alchemy → Identify Natural Substance
+  id: identifynaturalsubstance
+  description: You have knowledge on how to locate, identify and harvest naturally
+    occurring substances and liquids.
+  collection: skills
+- name: Alchemy → Prepare Poisons (trait)
+  id: preparepoisons
+  description: Adds the option to safely manufacture alchemical poisons that must
+    be imbibed to be effective.
+  collection: skills
+- name: Prepare Poisons → Prepare Poisons II (trait)
+  id: preparepoisonsii
+  description: Adds the option to safely manufacture other types of alchemical poisons,
+    being contact, inhaled and injury poisons.
+  collection: skills
+- name: Prepare Poisons → Poisoning
+  id: poisoning
+  description: The subtle art of introducing poisons effectively into common food
+    and drink, and upon a weapon's blade without any risk for oneself.
+  collection: skills
+- name: Ceramics
+  id: ceramics
+  description: 'The creation of vessels, objects and figurines made of clay that''s
+    hardened or sintered in fire. Ceramics include many possible options for the structure,
+    artistry and beauty of earthenware, porcelain and stoneware. With this skill you
+    can make from simple bricks and roof tiles, to beautiful glazed '
+  collection: skills
+- name: Ceramics → Clay Masonry
+  id: claymasonry
+  description: The making and design of structural construction, including bricks,
+    pipes, floor and roof tiles. This skill also allows you to make your own kilns
+    and metal or glass-making crucibles. You have ***Expertise*** on all such checks.
+  collection: skills
+- name: Ceramics → Clay Materials
+  id: claymaterials
+  description: Provides a complex understanding of plastic materials, allowing knowledge
+    of clay deposits and their location and the preparation and addition of minerals.
+    Lack of this knowledge requires you to purchase prepared materials for making
+    earthenware, stoneware or porcelain.
+  collection: skills
+- name: Clay Materials → Hardened Materials (trait)
+  id: hardenedmaterials
+  description: You know the secrets of increasing the density of clay materials, with
+    knowledge of how to shape and prepare ceramics as weapons and sling missiles.
+  collection: skills
+- name: Hardened Materials → Animated Pottery (trait)
+  id: animatedpottery
+  description: You are able to make ceramic and clay figures in a way that makes them
+    suitable to imbue with magical properties, or even life, such as a golems and
+    other animated constructs.
+  collection: skills
+- name: Clay Materials → Prepare Glues & Acids
+  id: preparegluesacids
+  description: The manufacture of such compounds for use in fusing and etching ceramics
+    and glass. Treat this as if you had Craft Alchemical Substance III with regards
+    to glues and acids.
+  collection: skills
+- name: Ceramics → Glassblowing
+  id: glassblowing
+  description: You are familiar with the process of inflating molten glass with the
+    aid of a blowpipe to produce bottles and other vessels.
+  collection: skills
+- name: Ceramics → Glaze
+  id: glaze
+  description: Decoration and artistic expression produced before and after the firing
+    process, to create objects of fine distinction with a legitimate tradable value.
+    A ceramic object of art can offer a sense of respect and appreciation, even from
+    those unaware of its value. Gifting such an item might give ***Exp
+  collection: skills
+- name: Cordage
+  id: cordage
+  description: You are trained in crafting nets, cords, ropes or cables of varying
+    thicknesses and strengths from fibrous threads of both natural and artificial
+    origin. This also grants ***Expertise*** on checks made to assess strength and
+    wear for such items.
+  collection: skills
+- name: Cordage → Knot Tying
+  id: knottying
+  description: After years of practice, your nimble fingers can tie any type of knot
+    imaginable and you can always think of the perfect knot to tie in any situation.
+    Unfortunately, your skill and experience in tying knots doesn't necessarily translate
+    to untying knots, especially if you're being restrained by them
+  collection: skills
+- name: Gemcutting
+  id: gemcutting
+  description: The skill to shape stone, minerals or gemstones into decorative designs.
+    This does not include the setting of stones into jewelry, which is done by a finesmith.
+    A skilled gemcutter can improve the value of raw gemstones. When performing your
+    craft and determining the final value of your crafted gem,
+  collection: skills
+- name: Kite Making
+  id: kitemaking
+  description: The skill of making a functional kite. Normally used for fun and recreation.
+    However, tinker gnomes have found other practical uses for them, such as attaching
+    small non-flying familiars to act as lookouts, lightning attractors or portable
+    beacons.
+  collection: skills
+- name: Kite Making → Advanced Kiting
+  id: advancedkiting
+  description: A craft perfected by gnomes, where kites can be built large and strong
+    enough to be able to carry a Small creature. A second creature still needs to
+    fly the kite from the ground. Such a kite can also be used, even by a Medium creature,
+    to glide down safely from a high position. A Dexterity (Advanced
+  collection: skills
+- name: Leatherworking (Group)
+  id: leatherworking
+  description: The making of products from animals, primarily including the tanning
+    and processing of leather. Leatherworking consists of two very different steps.
+    When you learn this skill, select one of the two subskills below. Even if you
+    are not skilled in the other subskill, you still are aware of what is req
+  collection: skills
+- name: Leatherworking → Hides & Skins
+  id: hidesskins
+  description: The treatment and process underlying the transformation of skins and
+    hides into leather, including skinning, tanning, tawing and parchment making.
+  collection: skills
+- name: Hides & Skins → Manufacture
+  id: manufacture
+  description: You are skilled at the tanning and tawing steps of leatherworking,
+    gaining ***Expertise*** on checks to craft leather from animal hides. This can
+    be used to increase the value of the raw hides before becoming leather.
+  collection: skills
+- name: Hides & Skins → Parchment Making
+  id: parchmentmaking
+  description: 'Parchments can be made from animal hides, in a process that takes
+    at least two week with optimal conditions. You can make parchments while traveling.
+    This uses your camp activities, as well as some preparation before starting travel
+    each day in order to allow different steps to be done on the road. '
+  collection: skills
+- name: Hides & Skins → Skinning
+  id: skinning
+  description: You are exceptionally good at removing the hide from dead animals and
+    other beasts, getting a 10 % usable material. Normally this does not require a
+    check, unless it is a mythical beast, such as a dragon or couatl. However this
+    would for instance allow you to recognize which beast a hide came from o
+  collection: skills
+- name: Leatherworking → Leathercraft
+  id: leathercraft
+  description: The practice of making animal skins and hides into objects of many
+    forms, including the use of leather for protection and the use of leather as an
+    adornment for aesthetic appeal, such as dyeing, painting, carving, stamping and
+    molding.
+  collection: skills
+- name: Leathercraft → Leather Armor
+  id: leatherarmor
+  description: The fashioning of leather as a protective covering used to prevent
+    damage during combat, for both humanoids and animal mounts. You have ***Expertise***
+    on checks to craft leather armor.
+  collection: skills
+- name: Leathercraft → Leather Art
+  id: leatherart
+  description: Decoration and artistic expression when producing leather items, to
+    create objects of fine distinction with a legitimate tradable value. Wearing beautiful
+    clothes and armor can offer a sense of respect and appreciation, even from those
+    unaware of its value. Gifting such an item might give ***Experti
+  collection: skills
+- name: Leathercraft → Leather Clothing
+  id: leatherclothing
+  description: The making of leather garments and gear for both practicality and high
+    fashion, as well as protection against the elements. You have ***Expertise***
+    on checks to craft leather clothing.
+  collection: skills
+- name: Leathercraft → Leather Containers
+  id: leathercontainers
+  description: The making of bags and containers made from leather. You have ***Expertise***
+    on checks to craft such items.
+  collection: skills
+- name: Metalwork (Group)
+  id: metalwork
+  description: The skill of working with metals to create individual objects, assemblies
+    or large-scale structures. Metalworking consists of very different disciplines.
+    When you choose this skill, select one of the subskills below. Even if you do
+    not know a subskill, you still are aware of what is required to perf
+  collection: skills
+- name: Metalwork → Finesmith
+  id: finesmith
+  description: Skill at making and repairing jewelry, engraving, stonesetting, precision
+    tools and other metal forms requiring a fine and meticulous mastery.
+  collection: skills
+- name: Finesmith → Jewelcrafter
+  id: jewelcrafter
+  description: You are skilled with the creation and repair of jewelry, and have ***Expertise***
+    on such checks.
+  collection: skills
+- name: Finesmith → Metal Art
+  id: metalart
+  description: Decoration and artistic expression when producing metal items, to create
+    objects of fine distinction with a legitimate tradable value. Wearing beautiful
+    jewelry, armor or weapons can offer a sense of respect and appreciation, even
+    from those unaware of its value. Gifting such an item might give ***E
+  collection: skills
+- name: Metalwork → Metalsmith
+  id: metalsmith
+  description: The process of working metal through the manipulation of heat and blacksmithing,
+    making common everyday objects and tools in various metals. As a metalsmith you
+    can work with all common metals.
+  collection: skills
+- name: Metalsmith → Armorsmith
+  id: armorsmith
+  description: The mastery at making metal armor for humanoids and animals, using
+    a forge, hammer and anvil. You have ***Expertise*** on checks to craft metal armors.
+    If you have skill in woodworking you also gain ***Expertise*** when making shields.
+  collection: skills
+- name: Metalsmith → Arrowsmith
+  id: arrowsmith
+  description: A metalsmith who specializes in forging arrowheads. You have ***Expertise***
+    on all such checks.
+  collection: skills
+- name: Arrowsmith → Advanced Arrowsmith (trait)
+  id: advancedarrowsmith
+  description: You have complemented your smithing skills with some alchemical knowledge,
+    allowing you to additionally make all types of speciality arrows.
+  collection: skills
+- name: Metalsmith → Blacksmith
+  id: blacksmith
+  description: The skill to create objects primarily from wrought iron or steel. You
+    have ***Expertise*** on checks to craft objects such as gates, tools, agricultural
+    implements and cooking utensils, provided they are not covered by another metalsmith
+    skill.
+  collection: skills
+- name: Metalsmith → Bladesmith
+  id: bladesmith
+  description: Forging of knives, swords and other blades. You have ***Expertise***
+    on such checks.
+  collection: skills
+- name: Metalsmith → Brownsmith
+  id: brownsmith
+  description: Metalsmith that works with brass and copper. You have ***Expertise***
+    on checks to craft objects from these metals.
+  collection: skills
+- name: Metalsmith → Coinsmith
+  id: coinsmith
+  description: A coinsmith works strictly with minting of coins and other currency.
+    Having this skill implies you have or had an official permit to mint money in
+    some part of the world. Unless otherwise noted in your background you might still
+    have a few important contacts higher up in the ruling class of that are
+  collection: skills
+- name: Metalsmith → Goldsmith
+  id: goldsmith
+  description: Metalsmith that works with gold. You have ***Expertise*** on checks
+    to craft such objects.
+  collection: skills
+- name: Metalsmith → Locksmith
+  id: locksmith
+  description: The skill to craft locks, safes and keys. You have ***Expertise***
+    on checks to craft such objects, as well as on checks to open locks and safes.
+  collection: skills
+- name: Metalsmith → Silversmith
+  id: silversmith
+  description: Metalsmith that works with silver. You have ***Expertise*** on checks
+    to craft such objects, including changing weapons into silvered weapons.
+  collection: skills
+- name: Metalsmith → Weaponsmith
+  id: weaponsmith
+  description: The skill to forge forges weapons other than blades, including axes,
+    spears, flails and other such weapons. You have ***Expertise*** on checks to craft
+    weapons.
+  collection: skills
+- name: Metalsmith → Whitesmith
+  id: whitesmith
+  description: Metalsmith that works with white metal (tin and pewter). You have ***Expertise***
+    on checks to craft objects from these metals.
+  collection: skills
+- name: Metalwork → Smelting
+  id: smelting
+  description: The skill of smelting and purifying metals that can be derived from
+    ordinary ores or coarse nuggets.
+  collection: skills
+- name: Textiles (Group)
+  id: textiles
+  description: The skill of using plant or animal fibers to construct everyday and
+    ornamental clothing or arts. Includes multiple techniques used to embellish or
+    decorate textiles, including dyeing, printing, knitting, tailoring, hooking and
+    more. When you choose this skill, select one of the subskills below. Even
+  collection: skills
+- name: Textiles → Cloth & Materials
+  id: clothmaterials
+  description: Knowledge of the cloth making process, from cultivation and care of
+    plants and animals through the fulling, weaving and coloring of the cloth itself.
+  collection: skills
+- name: Textiles → Textile Art
+  id: textileart
+  description: Decoration and artistic expression when producing textile items, to
+    create objects of fine distinction with a legitimate tradable value. Wearing beautiful
+    clothing or adorning your home with expensive textiles can offer a sense of respect
+    and appreciation, even from those unaware of its value. Gifti
+  collection: skills
+- name: Textiles → Textilework
+  id: textilework
+  description: The making of cloth garments and gear for both practicality and high
+    fashion, as well as for protection against the elements and other dangers (including
+    combat).
+  collection: skills
+- name: Textilework → Clothes
+  id: clothes
+  description: You have ***Expertise*** on checks to craft clothes.
+  collection: skills
+- name: Textilework → Cloth Armor
+  id: clotharmor
+  description: You have ***Expertise*** on checks to craft cloth armor.
+  collection: skills
+- name: Textilework → Embroidery & Print
+  id: embroideryprint
+  description: Skills at making tapestries, carpets, tablecloths and drapery, coverlets
+    and more, to provide comfort, grace and magnificence to living spaces and surfaces.
+    You have ***Expertise*** on checks to craft such items.
+  collection: skills
+- name: Textilework → Sacks & Bags
+  id: sacksbags
+  description: The making of bags and containers made from cloth. You have ***Expertise***
+    on checks to craft such items.
+  collection: skills
+- name: Trapmaking
+  id: trapmaking
+  description: The skill of creating, setting and concealing traps for the purpose
+    of detaining, damaging, wounding, injuring or killing unwanted trespassers and
+    unsuspecting victims. Characters with this skill are also able to remove the traps
+    set by other persons.
+  collection: skills
+- name: Trapmaking → Animal Trapping
+  id: animaltrapping
+  description: You are skilled at using snares and traps to catch animals for their
+    furs and meat, or as a means of pest control. You have ***Expertise*** on checks
+    to create or remove such traps, as well as on all foraging checks.
+  collection: skills
+- name: Trapmaking → Booby Traps
+  id: boobytraps
+  description: The creation of larger traps using materials commonly found in nature
+    and targeting intelligent prey. This includes traps such as deadfall traps, pit
+    traps and snare traps. You have ***Expertise*** on checks to create, spot and
+    remove such traps.
+  collection: skills
+- name: Trapmaking → Pressure Traps
+  id: pressuretraps
+  description: The creation of traps that implement balance and hydraulic forces in
+    the making. These types of traps are usually part of the architecture, and need
+    to be built in when building a structure. You have ***Expertise*** on checks to
+    create, spot and remove such traps.
+  collection: skills
+- name: Pressure Traps → Safe Trap (trait)
+  id: safetrap
+  description: Improves traps so that they can be reset or reloaded by unskilled persons
+    with a minimum of training.
+  collection: skills
+- name: Pressure Traps → Self-resetting Traps (trait)
+  id: selfresettingtraps
+  description: The knowledge to use magical application or ingenuity to enable traps
+    to reset themselves after firing.
+  collection: skills
+- name: Trapmaking → Recognise Dweomer
+  id: recognisedweomer
+  description: The skill to recognize the presence of magical traps, glyphs, runes,
+    sigils and similar devices. You have ***Expertise*** on checks to spot, avoid
+    and deduce the triggers of such traps.
+  collection: skills
+- name: Woodworking (Group)
+  id: woodworking
+  description: The skill of making objects, furniture and large-scale structures out
+    of wood, including the dyeing, staining and polishing of veneer and the use of
+    resins as glues and ornamentation. Woodworking consists of some very different
+    disciplines. When you choose this skill, select one of the subskills bel
+  collection: skills
+- name: Woodworking → Bowyer
+  id: bowyer
+  description: The skill of making reliable bows and arrows.
+  collection: skills
+- name: Bowyer → Advanced Bowyer
+  id: advancedbowyer
+  description: Your skill with this trade grants ***Expertise*** on all checks when
+    crafting bows or arrows.
+  collection: skills
+- name: Woodworking → Joinery
+  id: joinery
+  description: The act of joining pieces of wood together to make complex items such
+    as furniture, cabinets, timber framing and additional creations associated with
+    carpentry.
+  collection: skills
+- name: Joinery → Engines
+  id: engines
+  description: Skill in creating large machines such as wind and water mills, rolling
+    wagons, chariots and siege engines, for practical use, martial destruction and
+    festive celebration.
+  collection: skills
+- name: Joinery → Shipbuilding
+  id: shipbuilding
+  description: Construction of ships and other floating vessels, often viewed as works
+    of magnificence and art, for practical haulage and as weapons of war.
+  collection: skills
+- name: Woodworking → Whittling
+  id: whittling
+  description: The art of carving shapes out of raw wood using a knife or mallet and
+    chisel. The wood can be fashioned into a variety of imaginative or useful objects,
+    for both practical and aesthetic merit.
+  collection: skills
+- name: Whittling → Wood carving
+  id: woodcarving
+  description: An artistic expression of whittling, for the sole purpose of sculptural
+    ornamentation of a wooden object. Aesthetically pleasing objects can offer a sense
+    of respect and appreciation, even from those unaware of its value. Gifting such
+    an item might give ***Expertise*** on Charisma checks, provided t
+  collection: skills
+- name: Craft (other) (Group)
+  id: craft
+  description: You are skilled in a craft not covered by other Craft skills, such
+    as barrel making, basket weaving, book binding or cobbling. A Craft skill is specifically
+    focused on creating something. If nothing is created by the endeavor, it probably
+    falls under the heading of a Profession skill.
+  collection: skills
+- name: |-
+    Death’s Suitor
+
+    &nbsp;&nbsp; *Requirement: Must have died at least once*
+  id: deathssuitornbspnbsprequirementmusthavediedatleastonce
+  description: You have cheated death so often that even Pharasma now deems it part
+    of your fate. This allows you to reroll any roll where failure has a chance of
+    killing you or reducing you to 0 hp. This might be an attack roll against you
+    when you are low on hp, an unexpectedly high damage roll, a failed save ag
+  collection: skills
+- name: |-
+    Drunkard
+
+    &nbsp;&nbsp; *Requirement: Must be a drunkard*
+  id: drunkardnbspnbsprequirementmustbeadrunkard
+  description: 'You defenitely have problems with alcohol, being constantly at some
+    level of inebreity. The following applies to you: - Each first Dexterity, Intelligence
+    and Wisdom save you make each day is made with disadvantage. - **Cocktail**. If
+    you consume a potion you have mixed with alcohol, roll 2d8 and ga'
+  collection: skills
+- name: |-
+    Fiery Spirit of Passion
+
+    &nbsp;&nbsp; *Prerequisite: Devoted follower of Balder, Calistria, Hanali Celanil, Hathor, Sheyanna Flaxenstrand or Shelyn*
+  id: fieryspiritofpassionnbspnbspprerequisitedevotedfollowerofbaldercalistriahanalicelanilhathorsheyannaflaxenstrandorshelyn
+  description: Your faith blooms, giving you a fierce devotion, beauty and free spirited
+    passion. The deity you are devoted to grants you a fiery and irrepressible strength
+    of soul and a breath catching grace of form. You share a deep bond with your companions,
+    driving them forward with your fiery passion and spir
+  collection: skills
+- name: |-
+    Fiery Spirit of Passion
+
+    &nbsp;&nbsp; *Prerequisite: Devoted follower of Balder, Calistria, Hanali Celanil, Hathor, Sheyanna Flaxenstrand or Shelyn* → Fiery Soul
+  id: fierysoul
+  description: You can draw upon your faith to unleash the magnetic fiery soul within
+    you with the effect of the spell *enthrall*, which you can cast once between each
+    long rest without expending a spell slot. When you cast it in this way, the spell
+    does not require a somatic component. Charisma is your spellcasti
+  collection: skills
+- name: Fiery Soul → Fiery Personality
+  id: fierypersonality
+  description: When you cast *enthrall* using this trait, you additionally gain the
+    effects of the sanctuary spell and advantage on all Speechcraft and Performance
+    checks against creatures that failed their saving throw. All effects end when
+    the enthrall spell ends, or if you break the effects of sanctuary by maki
+  collection: skills
+- name: |-
+    Graceful Dancer
+
+    &nbsp;&nbsp; *Prerequisite: Art - Dance and Devoted follower of Bes, Calistria, Corellon Larethian or Shelyn*
+  id: gracefuldancernbspnbspprerequisiteartdanceanddevotedfollowerofbescalistriacorellonlarethianorshelyn
+  description: Each step is an expression of your faith, graceful and flowing, as
+    if about to burst into dance at any moment, your movements take on a bewildering
+    elegance that makes others seem plodding in comparison. You gain the ability to
+    take a Dancer’s Step as a *bonus action*. You can move up to 5 ft, and s
+  collection: skills
+- name: |-
+    Graceful Dancer
+
+    &nbsp;&nbsp; *Prerequisite: Art - Dance and Devoted follower of Bes, Calistria, Corellon Larethian or Shelyn* → Masterful Dancer
+  id: masterfuldancer
+  description: You can select two effects whenever you make a Dancer’ Step.
+  collection: skills
+- name: |-
+    Selfless Martyr
+
+    &nbsp;&nbsp; *Prerequisite: Devoted follower of Arawn or Torag*
+  id: selflessmartyrnbspnbspprerequisitedevotedfollowerofarawnortorag
+  description: 'Your faith helps you persevere through anything, taking the suffering
+    of others onto yourself and offering relief to those that need it most. As an
+    *action*, you can touch a creature that is Blinded, Charmed, Deafened, Frightened
+    , Paralyzed, Petrified, Poisoned or Stunned, and immediately end that '
+  collection: skills
+- name: |-
+    Steadfast Traveler
+
+    &nbsp;&nbsp; *Prerequisite: Physique - Endurance and Devoted follower of Desna, Lugh or Marthammor Duin*
+  id: steadfasttravelernbspnbspprerequisitephysiqueenduranceanddevotedfollowerofdesnalughormarthammorduin
+  description: Your faith gives a drive and curiosity that drives you to go beyond
+    and press further. This has been noticed by your deity who has granted you the
+    ability to cast *augury* without expending a spell slot as long as the question
+    asked relates to a path, trail, or route, and only the consequences of ta
+  collection: skills
+- name: |-
+    Steadfast Traveler
+
+    &nbsp;&nbsp; *Prerequisite: Physique - Endurance and Devoted follower of Desna, Lugh or Marthammor Duin* → Freedom of Movement
+  id: freedomofmovement
+  description: Little can stop you. As a *bonus action* you can gain temporary hit
+    points equal to your proficiency bonus and be under the effect of *freedom of
+    movement* until the end of your turn. Once you do this, you must complete a long
+    rest before you use this feature again.
+  collection: skills
+- name: Avenger
+  id: avenger
+  description: If you can’t protect your friends, you can be damn well sure you’ll
+    avenge them. Whenever an enemy causes an ally to become blinded, frightened, incapacitated,
+    paralyzed, restrained or to suffer a critical hit, you gain advantage on your
+    next attack roll. In addition, whenever a creature causes an a
+  collection: skills
+- name: Beautiful Coward
+  id: beautifulcoward
+  description: You’re always quick to shy away from danger, and desperate to keep
+    your blood in its proper place, whether that takes covering your head and sobbing,
+    “Dear god, don’t hurt me! I’m too pretty to die!” or by vigorously pointing a
+    beast toward an ally who is a bit ‘meatier’, you’re quick to save your s
+  collection: skills
+- name: |-
+    Feel No Pain
+
+    &nbsp;&nbsp; *Requires: Constitution 13 or higher, Wisdom 8 or lower*
+  id: feelnopainnbspnbsprequiresconstitution13orhigherwisdom8orlower
+  description: 'Some people wonder whether you’re really physically tough, or if you’re
+    just too oblivious to notice you’ve been wounded. Who needs mental fortitude when
+    you’ve got a skull thick enough to stop evil magic! You gain the following benefits:
+    - You may make an unarmed strike with your head for 1d4 bludg'
+  collection: skills
+- name: |-
+    Lovable Klutz
+
+    &nbsp;&nbsp; *Requires: Dexterity 8 or lower, Charisma 13 or higher*
+  id: lovableklutznbspnbsprequiresdexterity8orlowercharisma13orhigher
+  description: 'Though your clumsiness often interferes with routine tasks and you
+    spend as much time on the ground as you do standing up, you always stay positive!
+    It’s important to do your best every day! You gain the following benefits: - A
+    creature that makes a melee attack against you while you are prone does '
+  collection: skills
+- name: Aasimar
+  id: aasimar
+  description: ''
+  collection: skills
+- name: Aasimar → Eyes of the Upper Planes
+  id: eyesoftheupperplanes
+  description: You can spend 1 minute opening up your divine bloodline up to the creases
+    of reality. For 10 minutes you can see into the ethereal plane, and see through
+    invisibility and illusions. Once you use this feature you must complete a long
+    rest before using it again.
+  collection: skills
+- name: Eyes of the Upper Planes → Wisdom of the Planes
+  id: wisdomoftheplanes
+  description: Increase your **Wisdom** score by 1.
+  collection: skills
+- name: Aasimar → Heavenly Emissary
+  id: heavenlyemissary
+  description: Your natural charm makes you trustworthy and earnest. You have advantage
+    on *Insight* and *Speechcraft* checks in friendly dealings with celestials.
+  collection: skills
+- name: Heavenly Emissary → Heavenly Charm
+  id: heavenlycharm
+  description: Increase your **Charisma** score by 1.
+  collection: skills
+- name: Awakened
+  id: awakened
+  description: ''
+  collection: skills
+- name: Awakened → Consume Souls
+  id: consumesouls
+  description: You have the ability to drain energy from dying creatures. - Whenever
+    a humanoid creature dies within 30 ft of you, you can use your ***reaction***
+    to gain a number of temporary hit points equal to twice your proficiency bonus.
+  collection: skills
+- name: |-
+    Awakened → Detached From Reality
+
+      &nbsp;&nbsp; *Prerequisite: Awakened (skeleton)*
+  id: detachedfromrealitynbspnbspprerequisiteawakened
+  description: "- You are even better at using the body parts you detach with the
+    *bone to pick* trait. As an ***action*** on your turn, you are able to recall
+    any detached body parts, which will be drawn back to you, moving 30 ft per turn
+    in a straight line towards you. Your detached body part has hit points equal"
+  collection: skills
+- name: |-
+    Awakened → Ghost Speaker
+
+      &nbsp;&nbsp; *Prerequisite: Speechcraft*
+  id: ghostspeakernbspnbspprerequisitespeechcraft
+  description: You have learned how to communicate better with other undead, whether
+    in the hope of ending their torments or as a means to obtain forbidden lore. -
+    When you make an *Insight* or *Speechcraft* check against a non-hostile undead,
+    you have ***Expertise***. - You can comprehend and verbally communicate
+  collection: skills
+- name: |-
+    Awakened → Ghostly Magic
+
+      &nbsp;&nbsp; *Prerequisite: Awakened (bound spirit) and Arcana*
+  id: ghostlymagicnbspnbspprerequisiteawakenedandarcana
+  description: 'Your soul is especially powerful and you may channel its power into
+    a semblance of mortal magic. - Each day, you may cast up to three of the following
+    spells: *blink, catapult, charm person, fear*, and *invisibility* (self only).
+    You regain the ability to cast these spells when you finish a long res'
+  collection: skills
+- name: Awakened → Mask Presence
+  id: maskpresence
+  description: You are able to mask your soul from the mindless hordes and become
+    indistinguishable from one of their own. - Undead with an intelligence score of
+    6 or lower are considered to have the charmed contition in regards to you unless
+    you damage them. Undead with an intelligence score of 8 or lower will no
+  collection: skills
+- name: Beastfolk
+  id: beastfolk
+  description: ''
+  collection: skills
+- name: |-
+    Beastfolk → Aerial Agility
+
+      &nbsp;&nbsp; *Prerequisite: Grung beastfolk*
+  id: aerialagilitynbspnbspprerequisitegrungbeastfolk
+  description: You can use your ***reaction*** when you fall to halve any falling
+    damage you take. You can then reduce this damage additionally by an amount equal
+    to your level plus your Dexterity bonus.
+  collection: skills
+- name: Birdfolk
+  id: birdfolk
+  description: ''
+  collection: skills
+- name: |-
+    Birdfolk → Auran Spirit
+
+      &nbsp;&nbsp; *Background trait, Prerequisite: Aarakocra birdfolk*
+  id: auranspiritnbspnbspbackgroundtraitprerequisiteaarakocrabirdfolk
+  description: You have learned spent time learning from your elders, preparing to
+    tend to the spiritual need of your tribe. You learn the *guidance* cantrip.
+  collection: skills
+- name: |-
+    Auran Spirit
+
+      &nbsp;&nbsp; *Background trait, Prerequisite: Aarakocra birdfolk* → Auran Spirit II
+  id: auranspiritii
+  description: You learn the *augury* spell or the *find familiar* spell. You can
+    cast the spell you choose as a ritual.
+  collection: skills
+- name: |-
+    Birdfolk → Spellstealer
+
+      &nbsp;&nbsp; *Prerequisite: Kenku birdfolk, Arcana*
+  id: spellstealernbspnbspprerequisitekenkubirdfolkarcana
+  description: Your mastery of mimicry allows you to copy the complex gestures and
+    arcane words of spells that you have never seen before. As a ***reaction*** to
+    seeing someone else cast a 1st level arcane spell, you can copy that spell and
+    cast it at its lowest possible level within the next minute, without mater
+  collection: skills
+- name: Changeling
+  id: changeling
+  description: ''
+  collection: skills
+- name: |-
+    Changeling → Beastly Forms
+
+      &nbsp;&nbsp; *Prerequisite: Nature*
+  id: beastlyformsnbspnbspprerequisitenature
+  description: With enough training, your ability to change form has improved so well
+    that you can now take forms of beasts. You can now use your Shapechanger trait
+    to turn into an animal that you have seen of a similar size and shape as you.
+    While you are transformed into a beast, your AC is replaced by the beast
+  collection: skills
+- name: |-
+    Changeling → Malleable Form
+
+      &nbsp;&nbsp; *Prerequisite: Acrobatics*
+  id: malleableformnbspnbspprerequisiteacrobatics
+  description: You have a finer degree of control over your shapeshifting allowing
+    you to increase the flexibility of your joints. Gain the skill *Acrobatics - Contortion*
+    and all its subskills.
+  collection: skills
+- name: Changeling → Truly Eldritch
+  id: trulyeldritch
+  description: 'You have truly embraced your aberrant heritage and are able to mold
+    your mind as well as your body. You have ***Expertise*** on checks and saving
+    throws to resist both magical and nonmagical effects that detect your thoughts,
+    emotions or compel you to tell truth. Additionally, you can present false '
+  collection: skills
+- name: Truly Eldritch → Eldritch Mindreader
+  id: eldritchmindreader
+  description: You can cast *detect thoughts* once without expending a spell slot
+    or components. Charisma is your spellcasting ability for this spell and you regain
+    the ability to the spells in this way when you finish a long rest.
+  collection: skills
+- name: Eldritch Mindreader → Arcane Hiding
+  id: arcanehiding
+  description: While in your true form, you can cast *nondetection* on yourself without
+    expending a spell slot, requiring no spell components. When you cast the spell
+    this way, it ends immediately if you are no longer in your true form, whether
+    by using your Shapechanger trait, or when you are transformed. You reg
+  collection: skills
+- name: Dragonborn
+  id: dragonborn
+  description: ''
+  collection: skills
+- name: |-
+    Dragonborn → Powerful Build
+
+      &nbsp;&nbsp; *Background trait*
+  id: powerfulbuildnbspnbspbackgroundtrait
+  description: Broader and bulkier than your kin, you embody the physical might of
+    your ancient ancestors. You count as one size larger when determining your carrying
+    capacity, the weight you can push, drag or lift, and the creatures that you can
+    grapple or shove. This does not stack with the *Physique - Balance l
+  collection: skills
+- name: |-
+    Dragonborn → Platinum Aspect
+
+      &nbsp;&nbsp; *Prerequisite: Devoted follower of Bahamut and the Religion - Acolyte (Bahamut) skill*
+  id: platinumaspectnbspnbspprerequisitedevotedfollowerofbahamutandthereligionacolyteskill
+  description: 'Your service to the platinum dragon gives a deep well of inner strength
+    and a forceful presence that cannot be easily denied. As **bonus action**, you
+    can gain one aspect of Bahumut''s Justice, selecting one of the following: **Wings
+    of Justice**: You gain ethereal dragon wings, giving you flying spe'
+  collection: skills
+- name: |-
+    Dragonborn → Semi-Aquatic Adaptation
+
+      &nbsp;&nbsp; *Background trait, Prerequisite: Black, Bronze or White dragonborn*
+  id: semiaquaticadaptationnbspnbspbackgroundtraitprerequisiteblackbronzeorwhitedragonborn
+  description: Your ancestor was once able to swim through rivers, and you have tapped
+    into that ability, developing an eel-like tail, webbed feet and hands, or whatever
+    adaptation you find appropriate. Gain the *Swimming* and *Swimming - Speed swimmer*
+    skills. After calculating your swim speed, add 10 ft to it. A
+  collection: skills
+- name: |-
+    Dragonborn → Shapechanger
+
+      &nbsp;&nbsp; *Prerequisite: Brass, Copper, Gold or Silver dragonborn*
+  id: shapechangernbspnbspprerequisitebrasscoppergoldorsilverdragonborn
+  description: You manifest the metallic dragon's ability to change their form. You
+    can cast *alter self* once per short rest.
+  collection: skills
+- name: Dwarf
+  id: dwarf
+  description: ''
+  collection: skills
+- name: Dwarf → Dwarven Stubbornness
+  id: dwarvenstubbornness
+  description: Dwarves are renowned for their stubbornness, but you are even more
+    stubborn than most. You have advantage on saving throws against being charmed.
+    You have resistance against psychic damage and advantage on saving throws against
+    spells and effects that deal psychic damage.
+  collection: skills
+- name: Floran
+  id: floran
+  description: ''
+  collection: skills
+- name: |-
+    Floran → Arboreal Allure
+
+      *Prerequisite: Wood nymph floran*
+  id: arborealallureprerequisitewoodnymphfloran
+  description: Wood nymphs have a knack for appealing to humanoid conceptions of beauty,
+    a talent that has been described as unearthly and enchanting. You learn the *friends*
+    cantrip.
+  collection: skills
+- name: |-
+    Arboreal Allure
+
+      *Prerequisite: Wood nymph floran* → Arboreal Allure II
+  id: arborealallureii
+  description: 'Some wood nymphs take this natural appeal to the next level, tapping
+    into their mystical connection with all life to magically alter how others view
+    them. Choose one spell from among the following: *alter self, calm emotions, enthrall*
+    and *suggestion*. You learn that spell, and can cast it at its l'
+  collection: skills
+- name: Floran → Photosynthetic Efficiency
+  id: photosyntheticefficiency
+  description: You heal faster when in direct sunlight. If you take a short rest in
+    sunlight or water, you can re-roll any hit dice you spend and take the higher
+    value. You may also regrow lost limbs and other extremities in this fashion, although
+    this takes a few days. You need to breathe, but unlike most humanoi
+  collection: skills
+- name: |-
+    Floran → Rune-carved
+
+      &nbsp;&nbsp; *Prerequisite: Arcana*
+  id: runecarvednbspnbspprerequisitearcana
+  description: 'You have carved arcane runes and symbols into your bark. These can
+    be used as an arcane/divine focus when casting spells. As such they must be visible
+    and not hidden behind cloak, armor or clothes. Add the following spells to your
+    spell list: | Spell Level | Spells | |:--:|:--| | Cantrip | *mold pla'
+  collection: skills
+- name: Genasi
+  id: genasi
+  description: ''
+  collection: skills
+- name: |-
+    Genasi → Artisan's Eye
+
+      &nbsp;&nbsp; *Prerequisite: Earth genasi*
+  id: artisanseyenbspnbspprerequisiteearthgenasi
+  description: The treasure seekers of the dao echo in your heritage, allowing you
+    an innate knack for identifying precious items. You have advantage on any check
+    made to determine the quality, rarity or legitimacy of precious gems or metals,
+    or objects made with them. You also can cast the *detect magic* spell at
+  collection: skills
+- name: |-
+    Genasi → Eternal Purity
+
+      &nbsp;&nbsp; *Prerequisite: Water genasi*
+  id: eternalpuritynbspnbspprerequisitewatergenasi
+  description: The purity of the elemental plane of water flows through your veins.
+    You have advantage on saves against poison and resistance to posion damage. You
+    can drink any manner of water, so long as it is of an appropriate temperature.
+    This includes sea water, thin mud and other such liquids; you still gain
+  collection: skills
+- name: Gnome
+  id: gnome
+  description: ''
+  collection: skills
+- name: |-
+    Gnome → Critter Friend
+
+      &nbsp;&nbsp; *Prerequisite: Forest gnome*
+  id: critterfriendnbspnbspprerequisiteforestgnome
+  description: 'Your friendship with animals mystically deepens. You learn the *speak
+    with animals* spell and can cast it at will without expending a spell slot. You
+    also learn the *animal friendship* spell, and can cast it once without expending
+    a spell slot. You regain the ability to cast it in this way when you '
+  collection: skills
+- name: |-
+    Gnome → Svirfneblin Magic
+
+      &nbsp;&nbsp; *Prerequisite: Deep gnome*
+  id: svirfneblinmagicnbspnbspprerequisitedeepgnome
+  description: 'You have inherited the innate spellcasting ability of your ancestors.
+    You can cast *nondetection* on yourself at will, without needing a material component.
+    Additionally you can cast each of the following spells once: *blindness/deafness*,
+    *blur*, and *disguise self*. You regain the ability to cast '
+  collection: skills
+- name: Lizardfolk
+  id: lizardfolk
+  description: ''
+  collection: skills
+- name: Lizardfolk → Alien Mind
+  id: alienmind
+  description: Your mind is even more alien than most lizardfolk. Insight checks made
+    against you have disadvantage. Additionally you may reroll an Intelligence, Wisdom
+    or Charisma saving throw. Once you use this feature, you can’t use it again until
+    you finish a short rest.
+  collection: skills
+- name: |-
+    Lizardfolk → Aquatic Hunter
+
+      *Prerequisite: Blackscale lizardfolk*
+  id: aquatichunterprerequisiteblackscalelizardfolk
+  description: Your swimming talent develops, allowing you to swim with ease and ambush
+    unsuspecting prey from the water. You can breathe underwater as long as you are
+    conscious and you have advantage on *Stealth* checks made to hide underwater.
+    While in water, the first time you hit a creature with your bite atta
+  collection: skills
+- name: Shifter
+  id: shifter
+  description: ''
+  collection: skills
+- name: |-
+    Shifter → Bat Shape
+
+      *Prerequisite: Bloodmarked shifter*
+  id: batshapeprerequisitebloodmarkedshifter
+  description: Your power of transformation have been honed to the point where you
+    can wholly become a bat. Instead of shifting into your bestial form, you can shift
+    into a bat. This functions as the druid’s Wild Shape, except you can only become
+    a bat, and for all references to druid level, use your character lev
+  collection: skills
+- name: Tiefling
+  id: tiefling
+  description: ''
+  collection: skills
+- name: |-
+    Tiefling → Grasping Tail
+
+      *Prerequisite: Tiefling with a tail.*
+  id: graspingtailprerequisitetieflingwithatail
+  description: Many tieflings have tails, but you have a long, flexible tail that
+    can be used to carry items. While you cannot wield weapons with your tail, you
+    can use it to grab unattended items within 5 ft, carry small items such as a torch
+    or grab stowed objects carried on your person. The tail gives you an ex
+  collection: skills
+- name: Tiefling → Infernal Constitution
+  id: infernalconstitution
+  description: Fiendish blood runs strong in you, granting you resistance to cold
+    and poison damage, and advantage on saving throws against being poisoned.
+  collection: skills

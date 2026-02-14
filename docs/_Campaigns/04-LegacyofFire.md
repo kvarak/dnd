@@ -1,6 +1,7 @@
 ---
 title: Legacy of Fire
 layout: default
+path: 4
 ---
 
 # Legacy of Fire

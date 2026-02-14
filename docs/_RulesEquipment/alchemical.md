@@ -3,7 +3,7 @@ title: Alchemical items
 layout: default
 ---
 
-# <a class="internal-link" name="internal-alchemicalitems">Alchemical items
+# <a class="internal-link" name="internal-alchemicalitems">Alchemical items</a>
 
 Creating alchemical items requires alchemist’s supplies. Alchemists selling these items can usually be found in cities and larger towns.
 

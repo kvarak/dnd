@@ -1,0 +1,290 @@
+---
+- name: Aboleth Oil (Contact)
+  anchor: aboleth-oil-contact
+  description: Aboleth oil is impossibly rare, and incredibly dangerous. Coming into
+    contact with it accidentally can quickly spell death for most creatures. A creature
+    subjected to this oil must make a DC 14 Constitution saving throw or become diseased.
+    The disease has no effect for 1 minute and can be removed by
+- name: Bearded Devil Venom (Injury)
+  anchor: bearded-devil-venom-injury
+  description: A creature subjected to this poison must succeed on a DC 12 Constitution
+    saving throw or be poisoned for 1 minute. While poisoned in this way, the target
+    can't regain hit points. The target can repeat the saving throw at the end of
+    each of its turns, ending the effect on itself on a success.
+- name: Bone Devil's Sting (Injury)
+  anchor: bone-devils-sting-injury
+  description: A creature subjected to this poison must succeed on a DC 14 Constitution
+    saving throw or take 5d6 poison damage and become poisoned for 1 minute. On a
+    successful save, the target takes half damage and is not poisoned. The target
+    can repeat the saving throw at the end of each of its turns, ending the
+- name: Carrion Crawler Mucus (Contact)
+  anchor: carrion-crawler-mucus-contact
+  description: A creature subjected to this poison must succeed on a DC 13 Constitution
+    saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed.
+    The creature can repeat the saving throw at the end of each of its turns, ending
+    the effect on itself on a success.
+- name: Centipede Venom (Injury)
+  anchor: centipede-venom-injury
+  description: Centipede venom is uncommon and has some unusual properties. It cannot
+    kill, but instead leaves the victim in a helpless, paralyzed state for a short
+    period of time. A creature subjected to this poison must succeed on a DC 11 Constitution
+    saving throw, taking 3d6 poison damage on a failed save. If t
+- name: Cockatrice Saliva (Injury)
+  anchor: cockatrice-saliva-injury
+  description: 'Cockatrice saliva is potentially one of the most dangerous poisons
+    in existence. While its effects are relatively easy to resist, being subjected
+    to them can quickly turn a creature to stone, rendering it helpless. A creature
+    subjected to this venom must succeed on a DC 11 Constitution saving throw '
+- name: Ettercap Venom (Injury)
+  anchor: ettercap-venom-injury
+  description: A creature subjected to this poison must succeed on a DC 11 Constitution
+    saving throw, taking 1d8 poison damage and becoming poisoned for 1 minute on a
+    failed save. The creature can repeat the saving throw at the end of each of its
+    turns, ending the effect on itself on a success.
+- name: Imp Venom (Injury)
+  anchor: imp-venom-injury
+  description: A creature subjected to this poison must succeed on a DC 11 Constitution
+    saving throw, taking 3d6 poison damage on a failed save, or half as much damage
+    on a successful one.
+- name: Naga Venom (Injury)
+  anchor: naga-venom-injury
+  description: A creature subjected to the venom of a spirit naga must succeed on
+    a DC 13 Constitution saving throw, taking 7d8 poison damage on a failed save,
+    or half as much damage on a successful one. If the poison has been harvested from
+    a guardian naga, this damage increases to 10d8 and the saving throw DC in
+- name: Pit Fiend Venom (Injury)
+  anchor: pit-fiend-venom-injury
+  description: A creature subjected to this poison must succeed on a DC 21 Constitution
+    saving throw or become poisoned. While poisoned in this way, the target can't
+    regain hit points, and it takes 6d6 poison damage at the start of each of its
+    turns. The poisoned target can repeat the saving throw at the end of ea
+- name: Pseudodragon Venom (Injury)
+  anchor: pseudodragon-venom-injury
+  description: A creature subjected to this poison must succeed on a DC 11 Constitution
+    saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more,
+    the creature is also unconscious while poisoned in this way. The creature wakes
+    up if it takes damage or if another creature takes an action to sha
+- name: Purified Couatl Venom (Injury)
+  anchor: purified-couatl-venom-injury
+  description: Couatl venom is different from the venom of most other creature's in
+    that is requires a refinement process to use, and it loses its potency if taken
+    from an unwilling couatl. A creature subjected to this poison must succeed on
+    a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this
+- name: Purple Worm Poison (Injury)
+  anchor: purple-worm-poison-injury
+  description: A creature subjected to this poison must make a DC 19 Constitution
+    saving throw, taking 12d6 poison damage on a failed save, or half as much damage
+    on a successful one.
+- name: Scorpion Venom (Injury)
+  anchor: scorpion-venom-injury
+  description: A creature subjected to this poison must make a DC 9 Constitution saving
+    throw, taking 1d8 poison damage on a failed save, or half as much damage on a
+    successful one. If the poison has been harvested from a giant scorpion, the damage
+    increases to 4d10 and the saving throw DC increases by 3; the valu
+- name: Serpent Venom (Injury)
+  anchor: serpent-venom-injury
+  description: A creature subjected to this poison must succeed on a DC 11 Constitution
+    saving throw, taking 3d6 poison damage on a failed save, or half as much damage
+    on a successful one.
+- name: Spider Venom (Injury)
+  anchor: spider-venom-injury
+  description: A creature subjected to this poison must succeed on a DC 10 Constitution
+    saving throw or take 1d4 poison damage. If the poison has been harvested from
+    a giant wolf spider, the damage increases to 2d6 and the saving throw DC increases
+    to 11. Additionally, the creature takes half damage on a failed sa
+- name: Vrock Spores (Inhaled)
+  anchor: vrock-spores-inhaled
+  description: A creature subjected to these spores must succeed on a DC 14 Constitution
+    saving throw or become poisoned. While poisoned in this way, a target takes 1d10
+    poison damage at the start of each of its turns. A target can repeat the saving
+    throw at the end of each of its turns, ending the effect on itsel
+- name: Wasp's Sting (Injury)
+  anchor: wasps-sting-injury
+  description: A creature subjected to this poison must succeed on a DC 11 Constitution
+    saving throw, taking 3d6 poison damage on a failed save, or half as much damage
+    on a successful one. If the poison damage reduces the target to 0 hit points,
+    the target is stable but poisoned for 1 hour, even after regaining hi
+- name: Wyvern Poison (Injury)
+  anchor: wyvern-poison-injury
+  description: 'A creature subjected to this poison must make a DC 15 Constitution
+    saving throw, taking 7d6 poison damage on a failed save, or half as much damage
+    on a successful one. ## Contact Poisons - ### Contact Poisons Contact poison can
+    be smeared on an object and remains potent until it is touched or washed'
+- name: Black Ivy Paste (Contact)
+  anchor: black-ivy-paste-contact
+  description: The black ivy plant is rare, but extremely poisonous. Its leaves can
+    be ground into a thin paste and spread upon surfaces to injure those that touch
+    it. A creature subjected to this poison must make a DC 16 Constitution saving
+    throw or take 1d6 poison damage. The paste retains its potency until a to
+- name: Black Lotus Extract (Contact)
+  anchor: black-lotus-extract-contact
+  description: The flower known as the black lotus is legendary. Its properties allow
+    it to be used for a number of purposes, but creating a poison out of the nectar
+    is one of many uses. A creature subjected to this poison takes 10d10 poison damage.
+    A successful DC 20 save halves the damage.
+- name: Goodbye Kiss (Contact)
+  anchor: goodbye-kiss-contact
+  description: Some would-be assassins seem much friendlier than they really are.
+    The goodbye kiss is a poison modified from midnight tears so that it can be applied
+    to the lips without harming the poisoner. The poisoner must first coat the area
+    of their skin that will come in contact with the poison in the nectar
+- name: Oil of Taggit (Contact)
+  anchor: oil-of-taggit-contact
+  description: There are several rare plants with narcotic properties that this oil
+    is able to be extracted from. A creature subjected to this poison must succeed
+    on a DC 13 Constitution saving throw or become poisoned for 24 hours. The poisoned
+    creature is unconscious. The creature wakes up if it takes damage.
+- name: Sunlight Oil (Contact)
+  anchor: sunlight-oil-contact
+  description: Sunlight oil is crafted by clerics of the sun god, and is the primary
+    choice for fighting any form of undead. It will lose its potency if it is not
+    exposed to direct sunlight for 24 hours. The oil is made from oil that has been
+    blessed by the clergy of the sun god and infused with the sun's magic. T
+- name: Assassin's Blood (Ingested)
+  anchor: assassins-blood-ingested
+  description: Assassin's blood is the primary tool of assassins that wish to subtly
+    eliminate their targets, often mixing a dose into food or drink. A creature subjected
+    to this poison must make a DC 10 Constitution saving throw. On a failed save,
+    it takes 1d12 poison damage and is poisoned for 24 hours. On a suc
+- name: Deadly Nightshade (Ingested)
+  anchor: deadly-nightshade-ingested
+  description: A creature subjected to this poison must succeed on a DC 13 Constitution
+    saving throw or become poisoned for 8 hours. The poisoned creature gains 1 level
+    of exhaustion. If the saving throw fails by 5 or more, the creature is also paralyzed
+    while poisoned. Also known as belladonna, this poison is oft
+- name: Depraved Decadence (Ingested)
+  anchor: depraved-decadence-ingested
+  description: This poison causes slow, painful death by starvation. Using this banetoxin
+    is considered cruel even by the standards of most assassins. A creature subjected
+    to this poison must make a DC 20 Constitution saving throw. On a failed save,
+    a creature can no longer receive sustenance by consuming food. Ev
+- name: Hemlock (Ingested)
+  anchor: hemlock-ingested
+  description: A creature subjected to this poison must succeed on a DC 17 Constitution
+    saving throw or become poisoned for 12 hours. The poisoned creature has their
+    speed halved. If the saving throw fails by 5 or more, the creature is paralyzed.
+    The creature can repeat the saving throw at the end of each of its t
+- name: Lockjaw (Ingested)
+  anchor: lockjaw-ingested
+  description: Lockjaw is a mild paralytic that loses its potency before it is even
+    swallowed, thereby only affecting the mouth and jaw. It can be made from a weed
+    that grows in swampy areas. On its own, the weed only causes mild numbness, but
+    once refined it is a decent paralytic. A creature subjected to this poi
+- name: Midnight Tears (Ingested)
+  anchor: midnight-tears-ingested
+  description: A creature that ingests this poison suffers no effect until the stroke
+    of midnight. If the poison has not been neutralized before then, the creature
+    must succeed on a DC 17 Constitution saving throw, taking 9d6 poison damage on
+    a failed save, or half as much damage on a successful one.
+- name: Nightmare Root (Ingested)
+  anchor: nightmare-root-ingested
+  description: This poison comes from the pulverized roots of a twisting red and purple
+    plant deep within the abyss. A creature subjected to this poison must make a DC
+    19 Constitution saving throw. On a failed save, the creature's sleep is haunted
+    with a combination of their greatest fears and everything they've e
+- name: Pale Tincture (Ingested)
+  anchor: pale-tincture-ingested
+  description: 'Deep within damp caves and frequently in the underdark, there is a
+    rare fluorescent mushroom that slowly secretes a thick, acrid substance that can
+    be used to make this poison. A creature subjected to this poison must succeed
+    on a DC 16 Constitution saving throw or take 1d6 poison damage and become '
+- name: Pallid Serpent's Deception (Ingested)
+  anchor: pallid-serpents-deception-ingested
+  description: Upon ingestion, the victim begins experiencing terrible headaches and
+    visual hallucinations. They often see things twisting and warping, with vile and
+    hideous creatures seeking to cause them harm. Those in the throes of the poison
+    often lash out at those around them, believing that they have suddenl
+- name: Strychnine (Ingested)
+  anchor: strychnine-ingested
+  description: 'A creature subjected to this poison must succeed on a DC 14 Constitution
+    saving throw. On a failed save, the creature takes 4d6 poison damage and become
+    poisoned for 8 hours. The poison causes convulsions when a poisonous creature
+    is exposed to loud noises or pain. After taking damage, the creature '
+- name: Torpor (Ingested)
+  anchor: torpor-ingested
+  description: Torpor has been used recreationally in small doses throughout history,
+    but in its concentrated form it has many sinister capabilities. A creature subjected
+    to this poison must succeed on a DC 15 Constitution saving throw or become poisoned
+    for 4d6 hours. The poisoned creature is incapacitated.
+- name: Touch of Servility (Ingested)
+  anchor: touch-of-servility-ingested
+  description: A creature subjected to this poison must succeed on a DC 13 Constitution
+    saving throw or become poisoned for 24 hours. The poisoned creature loses much
+    of its free will and is highly suggestible. The creature has disadvantage on Wisdom
+    saving throws, and is considered charmed by all creatures.
+- name: Truth Serum (Ingested)
+  anchor: truth-serum-ingested
+  description: 'A creature subjected to this poison must succeed on a DC 11 Constitution
+    saving throw or become poisoned for 1 hour. The poisoned creature can’t knowingly
+    speak a lie, as if under the effect of a zone of truth spell. ## Inhaled Poisons
+    - ### Inhaled Poisons These poisons are powders or gases that ta'
+- name: Anosmia (Inhaled)
+  anchor: anosmia-inhaled
+  description: A creature subjected to this poison must make a DC 18 Constitution
+    saving throw. On a failed save, the creature loses its sense of smell for 48 hours.
+    If the creature relies on smell to locate other creatures, it can no longer do
+    so. The creature automatically fails any Wisdom (Perception) check tha
+- name: Burnt Othur Fumes (Inhaled)
+  anchor: burnt-othur-fumes-inhaled
+  description: A creature subjected to this poison must succeed on a DC 13 Constitution
+    saving throw or take 3d6 poison damage, and must repeat the saving throw at the
+    start of each of its turns. On each successive failed save, the creature takes
+    1d6 poison damage. After three successful saves, the poison ends.
+- name: Dreamweed (Inhaled)
+  anchor: dreamweed-inhaled
+  description: A creature subjected to this poison must succeed on a DC 13 Constitution
+    saving throw or become poisoned for 8 hours. This poison is known for causing
+    pleasing hallucinations and vivid dreams, and while poisoned the creature has
+    disadvantage on Wisdom (Perception) checks and saving throws to avoid f
+- name: Dust of the Desert Winds (Inhaled)
+  anchor: dust-of-the-desert-winds-inhaled
+  description: 'Beneath the desert sands grows a fungus that draws moisture from its
+    surroundings. The spores of this fungus can be gathered and stored for later use
+    as a poison. This poison begins immediately leaching all of the moisture from
+    a victim’s body after it has entered through the mucous membranes. Once '
+- name: Essence of Ether (Inhaled)
+  anchor: essence-of-ether-inhaled
+  description: A creature subjected to this poison must succeed on a DC 15 Constitution
+    saving throw or become poisoned for 8 hours. The poisoned creature is unconscious.
+    The creature wakes up if it takes damage or if another creature takes an action
+    to shake it awake.
+- name: Insanity Mist (Inhaled)
+  anchor: insanity-mist-inhaled
+  description: A creature subject to this poison must succeed a DC 15 Constitution
+    saving throw or gain an effect listed on the short-term madness table within the
+    DM's Guide (page 259). The creature can repeat the saving throw at the end of
+    each of its turns, ending the effect on itself on a success.
+- name: Malice (Inhaled)
+  anchor: malice-inhaled
+  description: A creature subjected to this poison must succeed on a DC 15 Constitution
+    saving throw or become poisoned for 1 hour. The poisoned creature is blinded.
+- name: Noxious aromatic (Inhaled)
+  anchor: noxious-aromatic-inhaled
+  description: This glass container of foul-smelling oil shatters easily upon impact.
+    As an action, you can throw this flask up to 20 ft, shattering it on impact. Make
+    a ranged attack against a creature or object, treating the flask as an improvised
+    weapon. If a creature with the scent ability is standing in the s
+- name: Bloodfire Paste (Injury)
+  anchor: bloodfire-paste-injury
+  description: Once injured, the poison reacts with the creatures blood and begins
+    igniting from within, causing a creature to quickly burn from the inside out.
+    A creature subjected to this poison must make a DC 13 Constitution saving throw,
+    taking 2d10 fire damage on a failed save, and must repeat the saving thro
+- name: Drow Poison (Injury)
+  anchor: drow-poison-injury
+  description: A creature subjected to this poison must succeed on a DC 13 Constitution
+    saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more,
+    the creature is also unconscious while poisoned in this way. The creature wakes
+    up if it takes damage or if another creature takes an action to sha
+- name: Healer's Bane (Injury)
+  anchor: healers-bane-injury
+  description: A creature subjected to this poison must succeed on a DC 16 Constitution
+    saving throw or become poisoned for 48 hours. The poisoned creature cannot recover
+    hit points from resting or expending hit dice. If the creature receives magical
+    healing they must make a DC 14 Constitution saving throw. On a f
+- name: Woundweal (Injury)
+  anchor: woundweal-injury
+  description: This gritty black paste is a poison that interferes with an afflicted
+    creature's ability to recover from injuries. All Medicine checks applied to the
+    creature suffer a –10 penalty. In addition, anyone using magical healing on the
+    target must make a DC 25 caster level check to succeed.

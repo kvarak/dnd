@@ -1,0 +1,182 @@
+---
+- name: Acid
+  anchor: acid
+  description: 'Price: 10 gp As an action, you can splash the contents of this vial
+    onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering
+    it on impact. In either case, make a ranged attack against a creature or object,
+    treating the acid as an improvised weapon. On a hit, the target takes '
+- name: Air crystals
+  anchor: air-crystals
+  description: 'Price: 5 gp These unpleasant-tasting, alchemically grown crystals
+    release breathable air when chewed. A pouch of air crystals provides 1 minute
+    of breathable air. Any attempt to speak while chewing air crystals negates any
+    remaining duration.'
+- name: Air sponge
+  anchor: air-sponge
+  description: 'Price: 50 gp It looks like a white sponge, about twice the size of
+    a man’s fist, but instead of absorbing water, it has been alchemically treated
+    to hold a surprising amount of air. Even when immersed in water, the air sponge
+    will hold its air, leaking only an occasional tiny bubble. The air sponge '
+- name: Alchemical solvent
+  anchor: alchemical-solvent
+  description: 'Price: 10 gp, can be purchased in a flask This bubbling purple gel
+    eats through adhesives. Each vial can cover a single 5-foot square. It destroys
+    normal adhesives (such as tar, tree sap, or glue) in a single round but takes
+    1d4+1 rounds to deal with more powerful adhesives (tanglefoot bags, spider '
+- name: Alchemical Torch
+  anchor: alchemical-torch
+  description: Cost 25 gp The rough, sticky tar at the end of this torch traps air,
+    keeping it burning through even the most adverse conditions. An alchemical torch
+    burns for 1 hour and continues to smolder in heavy rains, strong winds, and underwater
+    (albeit poorly when submerged, shedding only dim light in a 5-f
+- name: Alchemist’s fire
+  anchor: alchemists-fire
+  description: 'Price: 10 gp This sticky, adhesive fluid ignites when exposed to air.
+    As an action, you can throw this flask up to 20 feet, shattering it on impact.
+    Make a ranged attack against a creature or object, treating the alchemist''s fire
+    as an improvised weapon. On a hit, the target takes 1d4 fire damage at'
+- name: Alkali salt
+  anchor: alkali-salt
+  description: 'Price: 10 gp These tiny granules can be dissolved in water, creating
+    a slimy material used to coat metallic items such as weapons or armor. Such a
+    coating neutralizes the metal-eating acid of black puddings, gray oozes and rust
+    monsters, protecting the item from 1d6 contacts. The coating will stay o'
+- name: Allnight
+  anchor: allnight
+  description: 'Price: 5 gp This treated wafer dissolves into a chalky paste when
+    placed under the tongue and then gives the imbiber a jolt of restless energy.
+    It eliminates the effects of fatigue for the next 8 hours; when the drug’s effect
+    ends, the user gains a level of exhaustion. Allnight makes its users jitte'
+- name: Dragon's Breath
+  anchor: dragons-breath
+  description: 'Price: 20 gp, can be purchased in a flask A golden liquid with a strong
+    smell of spices and feels like drinking molten lava. It heals for 2d6 + Con mod
+    and removes one level of exhaustion. The drinker has a tingly feeling throughout
+    their body for the next 2d4 hours.'
+- name: Cooling gel
+  anchor: cooling-gel
+  description: 'Price: 5 gp This cold blue gel provides a +1 bonus for one hour on
+    saves against fire and heat, or heals 1d8 burn damage if applied within one hour.'
+- name: Darkflare
+  anchor: darkflare
+  description: 'Price: 10 gp Created by drow-hunters, this alchemical flare explodes
+    in black sparks 1 round after lighting. Any creature within 5 feet of the darkflare
+    when it explodes must make a DC 13 Constitution save or be unable to see with
+    darkvision for 1d10 rounds. Affected creatures can still see in norma'
+- name: Deodorizing agent
+  anchor: deodorizing-agent
+  description: 'Price: 5 gp, can be purchased in a flask Coating a creature in a vial
+    of this milky, odorless substance takes 1 minute and renders it scentless for
+    1d3 hours. Creatures that rely on scent for locating creatures do not gain the
+    benefit of this ability against a creature affected by a dose of deodoriz'
+- name: Distilled Courage
+  anchor: distilled-courage
+  description: 'Price: 10 gp, can be purchased in a flask When you use this alcohol
+    as a material component to cast the _false life_ spell, you have advantage on
+    the first charisma check you make before the spell ends.'
+- name: Facemold Paste
+  anchor: facemold-paste
+  description: 'Cost 25 gp This thick clay can be produced in any color and is easily
+    moldable over skin. After it sets, it is almost indistinguishable from the real
+    thing. With 1 minute of work, you can use facemold paste to create a convincing
+    disguise, even if you are not proficient with or lack a disguise kit. '
+- name: Firebane
+  anchor: firebane
+  description: 'Price: 25 gp This thick grease provides resistance to fire for one
+    half hour if smeared over the entire body. Unless washed from the body after that
+    time, it causes damage (1 fire damage/min).'
+- name: Flash powder
+  anchor: flash-powder
+  description: 'Price: 10 gp This coarse gray powder ignites and burns almost instantly
+    if exposed to flame, significant friction, or even a simple force such as throwing
+    it against a floor. Creatures within the 10-foot-radius burst are blinded for
+    1 round (Dexterity save DC 13 negates). -'
+- name: Ghost Essence
+  anchor: ghost-essence
+  description: 'Price: 100 gp, can be purchased in a flask The imbiber leaves his
+    physical body and becomes a visible but incorporeal creature. While in this state,
+    the user’s speed is doubled, but he can take no actions other than movement and
+    visual observation. While in this state, the spirit is invulnerable to '
+- name: Ghostbane Oil
+  anchor: ghostbane-oil
+  description: 'Price: 30 gp, can be purchased in a flask When applied to a weapon,
+    allows it to inflict full damage upon incorporeal creatures as if they were physical
+    creatures. The benefit lasts only for a few swings (2d4).'
+- name: Glass gargle
+  anchor: glass-gargle
+  description: 'Price: 5 gp, can be purchased in a flask Glass gargle is a gritty,
+    cloudy liquid that, when gargled, roughens the voice, lowering it in both pitch
+    and timbre. A character who uses glass gargle gains a +2 bonus on checks to hide
+    his identity (when applicable), but suffers an equal penalty to all Perf'
+- name: Liquid ice
+  anchor: liquid-ice
+  description: 'Price: 20 gp Also known as “Alchemist’s ice,” this sealed jar of crystalline
+    blue fluid immediately starts to evaporate once opened. During the next 1d6 rounds,
+    you can use it to freeze a liquid or to coat an object in a thin layer of ice.
+    As an action, you can throw this flask up to 20 feet, shatte'
+- name: Noxious aromatic
+  anchor: noxious-aromatic
+  description: 'Price: 10 gp This glass container of foul-smelling oil shatters easily
+    upon impact. As an action, you can throw this flask up to 20 feet, shattering
+    it on impact. Make a ranged attack against a creature or object, treating the
+    flask as an improvised weapon. If a creature with the scent ability is st'
+- name: Powdered chalk
+  anchor: powdered-chalk
+  description: 'Price: 1 cp Powdered chalk, flour, and similar materials are popular
+    with adventurers for their utility in pinpointing invisible creatures. Throwing
+    a bag of powder into a square is an attack against AC 5, and momentarily reveals
+    if there is an invisible creature there. A much more effective method '
+- name: Smelling salt
+  anchor: smelling-salt
+  description: 'Price: 5 gp These sharply scented gray crystals cause people inhaling
+    them to regain consciousness. Smelling salts grant you a new saving throw to resist
+    any spell or effect that has already rendered you unconscious, sleeping or stunned.
+    If exposed to smelling salts while dying, you immediately beco'
+- name: Smoke pellet
+  anchor: smoke-pellet
+  description: 'Price: 10 gp This small clay sphere contains two alchemical substances
+    separated by a thin barrier. When you break the sphere, the substances mingle
+    and fill a 5-foot square with a cloud of foul but harmless yellow smoke. Treat
+    the effect as a _fog cloud _spell, except the smoke only lasts for 1 rou'
+- name: Smokestick
+  anchor: smokestick
+  description: 'Price: 10 gp This alchemically treated wooden stick instantly creates
+    thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect
+    as a _fog cloud _spell, except that a moderate or stronger wind dissipates the
+    smoke in 1 round). The stick is consumed after 1 round, and the smoke'
+- name: Spellpower Potion
+  anchor: spellpower-potion
+  description: Can be purchased in a flask . This glowing, blue potion glistens with
+    tiny crystalline fragments. It tastes of lightning and glass. Spellpower potions
+    infuse your body with a sudden burst of magical power—but at the cost of some
+    stamina. When you drink this potion, you may spend one hit die and rega
+- name: Tindertwig
+  anchor: tindertwig
+  description: 'Price: 1 sp The alchemical substance on the end of this small, wooden
+    stick ignites when struck against a rough surface. Creating a flame with a tindertwig
+    is much faster than creating a flame with flint and steel (or a magnifying glass)
+    and tinder. Lighting a torch with a tindertwig takes only a ro'
+- name: Troll oil
+  anchor: troll-oil
+  description: 'Price: 25 gp, can be purchased in a flask This disgusting crimson
+    liquid is viscous and tastes foul. If you drink it, for the next hour you have
+    advantage on all stabilization rolls when reduced to 0 hit points and have a 50%
+    chance each round to end any bleeding effect on you. However, drinking thi'
+- name: Trollweed
+  anchor: trollweed
+  description: 'Price: 10 gp This is a magical psychoactive plant, harvested from
+    the skin of trolls. It can be smoked, eaten, or brewed as a tea to allow the user
+    to see magic and magical auras. It is also used as an ingredient in many potions
+    and poisons. Its effects are myriad and magical in nature depending on '
+- name: Unguent of revivification
+  anchor: unguent-of-revivification
+  description: 'Price: 10 gp, can be purchased in a flask The preservation of dead
+    flesh is important in undead-friendly cultures. In such places this alchemical
+    ointment is commonly used as a cheaper alternative to the _gentle repose _spell
+    to give their undead flesh the blush of life. A single dose staves off the'
+- name: Vapors of sleep
+  anchor: vapors-of-sleep
+  description: 'Price: 5 gp, can be purchased in a flask When applied to a cloth and
+    held over the nose and mouth, it forces the target to make a Constitution save
+    (DC 13) or sleep for 1d4 hours. It can be thrown as a ranged improvised weapon,
+    breaking on impact and causing those who fail the save (DC 13) to become'
