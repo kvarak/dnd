@@ -25,10 +25,10 @@
 - [x] **Add meta descriptions to all pages** - ✅ Template added to head.html with per-page override support
 - [ ] **Add alt text to 183 images** - Critical accessibility issue (systematic approach needed)
 - [x] **Add Open Graph meta tags** - ✅ Social media rich previews with site branding and descriptions
-- [x] **Add Twitter Card meta tags** - ✅ Optimized Twitter sharing with summary cards
+- [x] **Add Twitter Card meta tags** - ✅ Optimized Twitter sharing with summary cards and lantern image
 - [x] **Create robots.txt** - ✅ Basic SEO crawler guidance (holistic view: prepare for search indexing)
 - [x] **Generate sitemap.xml** - ✅ Added jekyll-sitemap plugin for automatic sitemap generation
-- [ ] **Add structured data markup** - Rich snippets for D&D content
+- [x] **Add structured data markup** - ✅ JSON-LD schema for rich snippets across all content types
 
 ### Asset Optimization
 - [x] **Compress campaign images** - ✅ Optimized 10 largest images, saved ~49MB

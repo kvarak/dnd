@@ -1,0 +1,135 @@
+{% comment %}
+Structured Data (JSON-LD) for search engine rich snippets
+Dynamically generates appropriate schema based on page collection
+{% endcomment %}
+
+{% if page.collection %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  {% if page.collection == 'Classes' or page.collection == 'Classes2' %}
+  "@type": "Article",
+  "headline": "{{ page.title }} - D&D Class",
+  "articleSection": "D&D Character Classes",
+  "about": {
+    "@type": "Thing",
+    "name": "{{ page.title }}",
+    "description": "Custom D&D character class for Varlyn campaign setting"
+  },
+  "genre": "Tabletop RPG",
+  "keywords": "D&D, Dungeons and Dragons, {{ page.title }}, Character Class, Varlyn, Custom Rules",
+  {% elsif page.collection == 'Folk' or page.collection == 'FolkGeneric' %}
+  "@type": "Article",
+  "headline": "{{ page.title }} - D&D Race",
+  "articleSection": "D&D Character Races",
+  "about": {
+    "@type": "Thing",
+    "name": "{{ page.title }}",
+    "description": "Custom D&D character race for Varlyn campaign setting"
+  },
+  "genre": "Tabletop RPG",
+  "keywords": "D&D, Dungeons and Dragons, {{ page.title }}, Character Race, Varlyn, Custom Rules",
+  {% elsif page.collection contains 'Rules' %}
+  "@type": "Article",
+  "headline": "{{ page.title }} - D&D Rules",
+  "articleSection": "D&D Game Rules",
+  "about": {
+    "@type": "Thing",
+    "name": "{{ page.title }}",
+    "description": "Custom D&D game rules for Varlyn campaign setting"
+  },
+  "genre": "Tabletop RPG",
+  "keywords": "D&D, Dungeons and Dragons, {{ page.title }}, Game Rules, Varlyn, Custom Rules",
+  {% elsif page.collection == 'Campaigns' %}
+  "@type": "Article",
+  "headline": "{{ page.title }} - D&D Campaign",
+  "articleSection": "D&D Campaigns",
+  "about": {
+    "@type": "Thing",
+    "name": "{{ page.title }}",
+    "description": "D&D campaign documentation for Varlyn setting"
+  },
+  "genre": "Tabletop RPG",
+  "keywords": "D&D, Dungeons and Dragons, {{ page.title }}, Campaign, Varlyn",
+  {% elsif page.collection == 'Resources' %}
+  "@type": "Article",
+  "headline": "{{ page.title }} - D&D Resources",
+  "articleSection": "D&D Reference Materials",
+  "about": {
+    "@type": "Thing",
+    "name": "{{ page.title }}",
+    "description": "D&D reference materials and tools for Varlyn setting"
+  },
+  "genre": "Tabletop RPG",
+  "keywords": "D&D, Dungeons and Dragons, {{ page.title }}, Resources, Varlyn, Reference",
+  {% else %}
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "articleSection": "D&D Content",
+  "about": {
+    "@type": "Thing",
+    "name": "{{ page.title }}",
+    "description": "D&D content for Varlyn campaign setting"
+  },
+  "genre": "Tabletop RPG",
+  "keywords": "D&D, Dungeons and Dragons, {{ page.title }}, Varlyn",
+  {% endif %}
+  "author": {
+    "@type": "Organization",
+    "name": "Rigo Games",
+    "url": "https://dnd.rigo.nu"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Varlyn D&D Rules",
+    "url": "https://dnd.rigo.nu",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dnd.rigo.nu{{ site.baseurl }}/assets/images/og-image.jpg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dnd.rigo.nu{{ page.url }}"
+  },
+  "url": "https://dnd.rigo.nu{{ page.url }}",
+  {% if page.description %}
+  "description": "{{ page.description }}",
+  {% else %}
+  "description": "{% if page.collection == 'Classes' or page.collection == 'Classes2' %}Custom D&D {{ page.title }} class with unique abilities and archetypes for the Varlyn campaign setting.{% elsif page.collection == 'Folk' or page.collection == 'FolkGeneric' %}Custom D&D {{ page.title }} race with unique traits and lore for the Varlyn campaign setting.{% elsif page.collection contains 'Rules' %}Custom D&D rules for {{ page.title }} in the Varlyn campaign setting.{% elsif page.collection == 'Campaigns' %}{{ page.title }} campaign documentation and resources for D&D adventures.{% else %}{{ page.title }} - Custom D&D content for the Varlyn campaign setting.{% endif %}",
+  {% endif %}
+  "inLanguage": "en-US",
+  "dateModified": "{{ site.time | date_to_xmlschema }}",
+  "datePublished": "2026-01-01T00:00:00Z"
+}
+</script>
+{% else %}
+{% comment %}Homepage or other non-collection pages{% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Varlyn D&D Rules",
+  "alternateName": "dnd.rigo.nu",
+  "description": "Custom D&D rules, campaigns, and character options for tabletop RPG adventures in the Varlyn setting",
+  "url": "https://dnd.rigo.nu",
+  "author": {
+    "@type": "Organization",
+    "name": "Rigo Games"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rigo Games",
+    "url": "https://dnd.rigo.nu"
+  },
+  "genre": "Tabletop RPG",
+  "keywords": "D&D, Dungeons and Dragons, Custom Rules, Varlyn, Campaign Setting, Character Classes, Races",
+  "inLanguage": "en-US",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://dnd.rigo.nu/?search={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{% endif %}
