@@ -15,6 +15,9 @@ include:
   - search.json
   - robots.txt
 
+plugins:
+  - jekyll-sitemap
+
 collections_dir: docs
 
 collections:

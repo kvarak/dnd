@@ -27,7 +27,7 @@
 - [ ] **Add Open Graph meta tags** - Improve social media sharing
 - [ ] **Add Twitter Card meta tags** - Better social media appearance
 - [x] **Create robots.txt** - ✅ Basic SEO crawler guidance (holistic view: prepare for search indexing)
-- [ ] **Generate sitemap.xml** - Help search engines index content
+- [x] **Generate sitemap.xml** - ✅ Added jekyll-sitemap plugin for automatic sitemap generation
 - [ ] **Add structured data markup** - Rich snippets for D&D content
 
 ### Asset Optimization

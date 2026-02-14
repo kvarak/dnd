@@ -1,6 +1,6 @@
 # D&D Site Development (Docker)
 
-> Jekyll site for dnd.rigo.nu - Custom 5e Darker Dungeons rules and campaign documentation
+> Jekyll site for dnd.rigo.nu - Custom Varlyn rules and campaign documentation
 >
 > 🐳 **Fully containerized development environment**
 
