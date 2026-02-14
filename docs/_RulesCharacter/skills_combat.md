@@ -1,6 +1,6 @@
 ---
 title: "Skills - combat"
-layout: default
+layout: skills
 ---
 
 # Skills
@@ -21,10 +21,10 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
 ### Skill list
 <ul class="nav nav-tabs" id="skill-tabs" role="tablist">
-  <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#weapon"><h5>Weapon skills</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#armor"><h5>Armor skills</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#other"><h5>Other combat skills</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#folk"><h5>Folk specific combat skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#weapon"><h5>Weapon skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#armor"><h5>Armor skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#other"><h5>Other combat skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#folk"><h5>Folk specific combat skills</h5></a></li>
 </ul>
 
 <div class="tab-content">
@@ -822,5 +822,3 @@ Skills and traits only selectable by certain folk.
 
 </div>
 </div>
-
-<script src="{{ site.baseurl }}/assets/js/skills-anchors.js"></script>

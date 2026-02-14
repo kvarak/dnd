@@ -251,6 +251,14 @@ summary p {
   scroll-margin-top: 80px;
 }
 
+/* Anchors without href (used for scroll targets) should not look like links */
+a.internal-link:not([href]),
+a[name]:not([href]) {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
+
 .nav-tabs .nav-link {
   margin-bottom: 5px;
 }

@@ -1,6 +1,6 @@
 ---
 title: "Skills"
-layout: default
+layout: skills
 ---
 
 # Skills
@@ -31,13 +31,13 @@ Unless otherwise noted, each skill costs 1 skill point. To buy a skill you must 
 
 ### Skill list
 <ul class="nav nav-tabs" id="skill-tabs" role="tablist">
-  <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#untrained"><h5>Untrained skills</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#knowledge"><h5>Knowledge skills</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#practical"><h5>Practical skills</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#craft"><h5>Craft skills</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#traits"><h5>Traits</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#background"><h5>Background traits</h5></a></li>
-  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#folk"><h5>Folk specific skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#untrained"><h5>Untrained skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#knowledge"><h5>Knowledge skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#practical"><h5>Practical skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#craft"><h5>Craft skills</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#traits"><h5>Traits</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#background"><h5>Background traits</h5></a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#folk"><h5>Folk specific skills</h5></a></li>
 
 </ul>
 
@@ -3463,5 +3463,3 @@ Some of the skills are designated as ***Background traits***, which indicates th
 
 </div>
 </div>
-
-<script src="{{ site.baseurl }}/assets/js/skills-anchors.js"></script>

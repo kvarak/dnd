@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+    <!-- Skills anchor generation (must run before page renders) -->
+    <script>
+      // Add anchor IDs to skill details elements for search linking
+      document.addEventListener('DOMContentLoaded', function() {
+        const summaries = document.querySelectorAll('details > summary');
+        summaries.forEach(summary => {
+          const skillName = summary.textContent.trim().replace(/\s*\(.*?\)\s*/g, '');
+          const skillId = 'skill-' + skillName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+          if (!summary.parentElement.id) {
+            summary.parentElement.id = skillId;
+          }
+        });
+
+        // Handle anchor scrolling with tab switching
+        if (window.location.hash) {
+          setTimeout(function() {
+            const target = document.getElementById(window.location.hash.substring(1));
+            if (target) {
+              // Find if target is inside a tab-pane
+              const tabPane = target.closest('.tab-pane');
+              if (tabPane) {
+                // Deactivate all tabs and panes
+                document.querySelectorAll('.nav-link').forEach(link => {
+                  link.classList.remove('active');
+                });
+                document.querySelectorAll('.tab-pane').forEach(pane => {
+                  pane.classList.remove('active');
+                  pane.classList.add('fade');
+                });
+
+                // Activate the correct tab and pane
+                const tabId = tabPane.id;
+                const tabLink = document.querySelector('.nav-link[href="#' + tabId + '"]');
+                if (tabLink) {
+                  tabLink.classList.add('active');
+                }
+                tabPane.classList.remove('fade');
+                tabPane.classList.add('active');
+              }
+
+              // Scroll to target and open if collapsed
+              target.scrollIntoView({ behavior: 'smooth', block: 'start'});
+              if (target.tagName === 'DETAILS' && !target.open) {
+                target.open = true;
+              }
+            }
+          }, 100);
+        }
+      });
+    </script>
+  </head>
+
+  <body>
+
+    {% include navigation.html %}
+    <div class="container container-main">
+      {{ content }}
+    </div>
+
+    <!-- Search functionality -->
+    <script src="{{ site.baseurl }}/assets/js/search.js"></script>
+  </body>
+</html>
