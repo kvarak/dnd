@@ -1,64 +1,72 @@
-# dnd.rigo.nu Technical Todo List
+# Todo
 
-> Site audit completed: February 13, 2026
->
-> Prioritized list of technical improvements for the dnd.rigo.nu Jekyll site
+## High Priority
 
-## 🚨 MUST FIX (Critical Issues)
+### Interactive Features
+- [ ] POSTPONED AND ADDED TO interactive-character-creator branch **Interactive character creator** - Step-by-step wizard for Varlyn character creation with auto-calculations, export to PDF/JSON (biggest onboarding barrier removal)
+  - **MVP Core (testable wizard)**:
+    - [ ] **Data extraction script** - Build `assets/js/build-creator-data.js` for 3 Folk + 3 Classes only (Human+Elf+Tiefling, Fighter+Wizard+Cursed), expand to full dataset later (testable: validates JSON schema, counts extracted items)
+    - [ ] **Character data model** - Define JavaScript class with validation for character state matching Varlyn creation steps (testable: unit tests for schema validation)
+    - [ ] **Wizard navigation** - 12-step flow (folk→background→traits→skills→fate→abilities→luck→languages→money→class→levelup→done) with prev/next/jump-to-step (releasable: completes basic wizard UX)
+    - [ ] **Folk selection UI** - Card-based folk picker with images and trait previews, step 1 of wizard (releasable: standalone folk browser with filtering)
+    - [ ] **Ability score roller** - Interactive 4d6-drop-lowest dice roller with animation, option to assign 8/15 for last two (releasable: fun standalone dice tool, works offline)
+    - [ ] **Class selection UI** - Class picker with archetype dropdown and hit die display, step 11 of wizard (releasable: helps users discover classes with similar-to-5E labels)
+    - [ ] **Auto-calculation engine** - Derive modifiers, HP, proficiency bonus, luck modifier from base stats (testable: unit tests for all calculation formulas)
+    - [ ] **JSON export** - Download character as structured JSON file (releasable: first export format, can re-import later)
+  - **Essential Features (complete basic experience)**:
+    - [ ] **LocalStorage draft system** - Auto-save character in progress every 30s (releasable: prevents lost work, testable by refreshing page)
+    - [ ] **Skill selection UI** - Point-buy system for background/class skills, 3-4 background skills based on folk (releasable: completes character creation basics)
+    - [ ] **Basic PDF export** - Generate simple character sheet with jsPDF (releasable: printable sheet with core stats)
+  - **Enhanced Features (Varlyn-specific depth)**:
+    - [ ] **Background generator** - Roll on folk-specific event tables for backstory, step 2 of wizard (releasable: optional advanced feature, adds narrative flavor)
+    - [ ] **Traits & Fate Powers** - Roll random traits (2+) and fate power as per creation rules (releasable: adds Varlyn-specific character flavor)
+    - [ ] **Enhanced PDF template** - Styled character sheet matching D&D aesthetic (releasable: professional-looking sheet)
+  - **Advanced Features (polish & integration)**:
+    - [ ] **Expand to full dataset** - Add remaining 16 Folk + 15 Classes to extraction script (Human+Elf+Tiefling→All Folk, Fighter+Wizard+Cursed→All Classes)
+    - [ ] **Folk class modifications** - Migrate remaining 16 Folk to include `classOptions` frontmatter with summaries (Elf prototype complete, captures Folk/Class interaction complexity unique to Varlyn)
+    - [ ] **Sync checker script** - Create `make check-creator-sync` to detect stale data by comparing file mtimes (testable: detects when markdown newer than JSON)
+    - [ ] **GitHub Actions integration** - CI check that warns when rules change but creator data stale (testable: PR comment appears on rule changes)
+- [ ] **Quick reference mode** - Mobile-first combat/action lookup with contextual dice roller and "I want to..." search (at-table utility)
+- [ ] **Varlyn vs 5E comparison page** - Side-by-side rule differences with design rationale (experienced player onboarding)
 
-### Security & Performance
-- [x] **Update Bootstrap from 4.0.0 to 5.3.x** - ✅ Updated to Bootstrap 5.3.3 with integrity checks and proper data attributes
-- [x] **Update jQuery from 3.2.1 to 3.7.x** - ✅ Updated to jQuery 3.7.1 with integrity hash
-- [x] **Fix duplicate title tags in head.html** - ✅ Eliminated duplication (consolidate duplication)
-- [x] **Add viewport meta tag** - ✅ Mobile responsiveness enabled
-- [x] **Convert 16 files with http:// links to https://** - ✅ Security fixed (consolidate duplication: standardized protocol)
-
-### Content Management
-- [x] **Create proper Gemfile** - ✅ Created with GitHub Pages compatibility and dev dependencies
-- [x] **Fix .gitignore** - ✅ Added Jekyll build artifacts, Ruby gems, and dev files
-- [x] **Optimize large campaign images** - ✅ Reduced from 98MB to 49MB (~50% reduction, reduce waste)
-- [x] **Remove test.html file** - ✅ 441KB waste eliminated (separation of concerns)
-
-## ⚠️ SHOULD FIX (Important Improvements)
-
-### SEO & Accessibility
-- [x] **Add meta descriptions to all pages** - ✅ Template added to head.html with per-page override support
-- [ ] **Add alt text to 183 images** - Critical accessibility issue (systematic approach needed)
-- [x] **Add Open Graph meta tags** - ✅ Social media rich previews with site branding and descriptions
-- [x] **Add Twitter Card meta tags** - ✅ Optimized Twitter sharing with summary cards and lantern image
-- [x] **Create robots.txt** - ✅ Basic SEO crawler guidance (holistic view: prepare for search indexing)
-- [x] **Generate sitemap.xml** - ✅ Added jekyll-sitemap plugin for automatic sitemap generation
-- [x] **Add structured data markup** - ✅ JSON-LD schema for rich snippets across all content types
+### Accessibility
+- [ ] **Add alt text to 180 images** - Critical accessibility issue (systematic approach needed, WCAG 2.1 AA compliance)
 
 ### Asset Optimization
-- [x] **Compress campaign images** - ✅ Optimized 10 largest images, saved ~49MB
 - [ ] **Implement responsive images** - Use srcset for different screen sizes
 - [ ] **Add image lazy loading** - Improve initial page load times
-- [x] **Fix files with spaces in names** - ✅ Standardized naming (reduce waste: shell-friendly filenames)
-- [ ] **Replace broken external image links** - Fixed escapistmagazine.com and acrosstheboardgames.net with placeholders
-- [ ] **Optimize font loading** - Add font-display: swap to custom fonts
+- [ ] **Replace broken external image links** - Fix escapistmagazine.com and acrosstheboardgames.net with placeholders
+- [ ] **Optimize font loading** - Add font-display: swap to 4 custom fonts (prevents FOIT)
+- [ ] **Optimize remaining large images** - 8 campaign images still >1MB (total 8MB)
 
 ### Development Workflow
-- [x] **Add GitHub Actions for CI/CD** - ✅ Automated Jekyll build/deploy with full Gemfile compatibility
-- [x] **Add link checker workflow** - ✅ Automated internal/external link validation with weekly reports
 - [ ] **Add image optimization workflow** - Automatically compress new images
-- [x] **Create local development documentation** - ✅ Docker with bundle exec for proper dependency management
+- [x] **Create tools directory** - Build `tools/` folder with utilities callable from Makefile
+  - [x] **Markdown linter** - Create `tools/lint-markdown.js` to validate markdown formatting, headings structure, and consistent styling (callable via `make lint-md`)
+  - [x] **Structure tester** - Create `tools/test-structure.js` to validate Varlyn-specific patterns like `**TRAIT**. DESCRIPTION`, frontmatter schema, TOC consistency (callable via `make test-structure`)
+  - [x] **Unified test runner** - Create `make test` command that runs all text validation tools (lint-md, test-structure, and any future tests in sequence)
 
-## 💡 COULD FIX (Nice to Have)
+## Nice to Have
 
 ### Performance Enhancements
-- [x] **Update Font Awesome to v6** - ✅ Updated to Font Awesome 7.2.0 from jsDelivr CDN
-- [x] **Self-host external dependencies** - ✅ All CDN dependencies now self-hosted (Bootstrap, jQuery, Font Awesome, Google Fonts)
-- [x] **Add service worker for caching** - ✅ Offline capability and performance caching implemented with D&D-optimized strategies
-- [x] **Implement CSS/JS minification** - ✅ GitHub Actions workflow minifies CSS/JS assets automatically, ~25-30% size reduction
 - [ ] **Add WebP image format support** - Better compression than PNG/JPG
 
 ### User Experience
-- [x] **Add search functionality** - ✅ Client-side search across 76 files (reduce complexity: vanilla JS, no dependencies)
-- [x] **Add dark mode toggle** - ✅ CSS custom properties with localStorage persistence and system preference detection
+- [ ] **New player onboarding paths** - Guided tours for different audiences (never played D&D / know 5E / want to DM)
+- [ ] **Visual campaign timeline** - Interactive timeline showing 9 campaigns' chronology with character/event filtering
+- [ ] **Character relationship network** - Force-directed graph visualizing connections between 334 characters
 - [ ] **Add breadcrumb navigation** - Better navigation for deep content
-- [ ] **Mobile navigation improvements** - Better UX for small screens
 - [ ] **Add print stylesheets** - Better printing of rule pages
+- [ ] **Printable reference cards** - Generate spell/item/condition cards with "print my character's spells" feature
+
+### Community & Engagement
+- [ ] **Session journal system** - Player-contributed campaign notes with auto-linking to rules/NPCs/locations
+- [ ] **Rules change notifications** - RSS/email alerts when subscribed pages update (prevent outdated character sheets)
+- [ ] **Rule voting/Q&A system** - Community proposes clarifications, votes on interpretations, builds organic FAQ
+
+### Content Tools
+- [ ] **Native random generators** - NPC, encounter, treasure generators using Varlyn-specific content (replace external links)
+- [ ] **"Tonight's one-shot" generator** - Complete adventure generator with characters, encounters, and maps (reduce prep time)
 
 ### Content Management
 - [ ] **Create content templates** - Standardize new campaign/class creation
@@ -73,54 +81,3 @@
 - [ ] **Add related content suggestions** - Cross-link similar content
 - [ ] **Create API endpoints** - Structured data access for other tools
 - [ ] **Add full-text search** - Search within content, not just titles
-
-## 📊 Current Site Status
-
-**Content Statistics:**
-- 76 content files across 9 collections
-- 334 character entries with images
-- 162 campaign images (98MB total assets)
-- 9 documented campaigns
-
-**Technical Debt:**
-- ✅ ~~Using Bootstrap 4.0.0 (2018) vs current 5.3.x~~ - **FIXED: Updated to 5.3.3**
-- ✅ ~~Using jQuery 3.2.1 vs current 3.7.x~~ - **FIXED: Updated to 3.7.1**
-- ✅ ~~No dependency management (missing Gemfile)~~ - **FIXED: Added Gemfile + Makefile workflow**
-**Performance Issues:**
-- Largest image: 5.2MB (Golarion_inner_sea.png)
-- Total asset size: 98MB
-- No image optimization or lazy loading
-- External CDN dependencies blocking render
-
----
-
-## 🛠️ Quick Wins (Can be done immediately)
-
-1. **Fix duplicate titles** - 2 minute fix in head.html
-2. **Add viewport meta tag** - 1 minute fix for mobile responsiveness
-3. **Remove test.html** - Clean up production environment
-4. ✅ **~~Update .gitignore~~** - **COMPLETED: Added Jekyll exclusions**
-5. ✅ **~~Create development workflow~~** - **COMPLETED: Added Docker-based Makefile with `make serve`**
-6. **Create basic robots.txt** - Simple SEO improvement
-
-## 📈 Estimated Impact
-
-**High Impact:**
-- Bootstrap/jQuery updates (security + performance)
-- Image optimization (major performance boost)
-- Mobile responsiveness fixes
-- Alt text additions (accessibility compliance)
-
-**Medium Impact:**
-- SEO meta tags (search visibility)
-- Asset organization (maintainability)
-- Development workflow improvements
-
-**Low Impact but Good Developer Experience:**
-- Local development setup
-- Automated testing
-- Advanced features
-
----
-
-*This audit focused on technical infrastructure rather than content. All 76 content files and 9 collections appear well-organized and comprehensive.*
