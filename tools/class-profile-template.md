@@ -9,7 +9,6 @@ profile:
   # Generic trait categories (standardized across all classes)
   generic:
     magicType: "none" | "utility" | "damage" | "healing" | "control" | "versatile"
-    roleplaying: "low" | "medium" | "high" | "very-high"
     originBackground: ["military", "rural", "urban", "noble", "criminal", "tribal", "scholarly", "artisan"]
 
   # Specific/unique traits (narrative flavor, array of strings)
@@ -33,12 +32,6 @@ profile:
 - **healing**: Restorative and protective magic
 - **control**: Battlefield control, debuffs, manipulation
 - **versatile**: Mix of multiple magic types
-
-### roleplaying
-- **low**: Straightforward mechanics, limited roleplay hooks
-- **medium**: Some built-in roleplay elements and social features
-- **high**: Rich roleplay opportunities and social mechanics
-- **very-high**: Class heavily focused on narrative and character interaction
 
 ### originBackground
 Array of likely character backgrounds that fit the class theme:
@@ -74,7 +67,6 @@ layout: default
 profile:
   generic:
     magicType: "none"
-    roleplaying: "medium"
     originBackground: ["military", "rural", "urban"]
   specific: ["disciplined-warrior", "tactical-mind", "physical-prowess"]
   archetypes:

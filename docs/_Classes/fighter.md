@@ -7,14 +7,58 @@ profile:
     originBackground: ["military", "rural", "urban"]
   specific: ["disciplined-value", "tactical-value", "physical-prowess", "weapon-specialist"]
   archetypes:
+    arbalestion:
+      specific: ["crossbow-specialist", "ranged-expert", "engineering-mind", "craftsman-warrior", "modern-value"]
+    arcane-archer:
+      generic:
+        magicType: "utility"
+      specific: ["archery-specialist", "magic-student", "ranged-expert", "dual-nature"]
+    bulwark:
+      specific: ["shield-specialist", "defensive-expert", "tactical-value", "disciplined-value"]
     champion:
       specific: ["pure-warrior", "weapon-master", "athletic-excellence"]
+    daredevil:
+      specific: ["risk-taker", "mobile-combatant", "acrobatic", "opportunistic-value"]
     eldritch-knight:
       generic:
         magicType: "utility"
       specific: ["scholar-warrior", "magic-student", "dual-nature", "intellectual-combatant"]
-    arbalestion:
-      specific: ["crossbow-specialist", "ranged-expert", "engineering-mind", "craftsman-warrior", "modern-value"]
+    ghost-operative:
+      specific: ["stealth-master", "infiltrator", "tactical-value", "initiative-specialist"]
+    guerilla:
+      specific: ["adaptable-fighter", "survival-expert", "stealth-master", "tactical-value"]
+    juggernaut:
+      specific: ["unstoppable-force", "strength-specialist", "reckless-value", "heavy-armor"]
+    kindler:
+      specific: ["fire-wielder", "protective-value", "inspirational-leader", "charismatic"]
+    runeguard:
+      generic:
+        magicType: "utility"
+      specific: ["rune-magic", "scholar-warrior", "magic-student", "tactical-value"]
+    sellsword:
+      specific: ["pragmatic-fighter", "opportunistic-value", "dirty-tactics", "streetwise"]
+    skirmisher:
+      specific: ["mobile-combatant", "agile-warrior", "speed-specialist", "evasive"]
+    templar:
+      generic:
+        magicType: "utility"
+      specific: ["divine-student", "ritual-caster", "religious-value", "magic-student"]
+    thing-slinger:
+      specific: ["improvised-specialist", "throwing-expert", "strength-specialist", "chaotic-value"]
+    underdog:
+      specific: ["underdog-fighter", "survival-expert", "gritty-value", "improvised-specialist"]
+    celestial-knight:
+      restriction:
+        folk: "aasimar"
+      specific: ["celestial-heritage", "divine-warrior", "holy-power", "lawful-value"]
+    tinker-knight:
+      restriction:
+        folk: "gnome"
+      specific: ["engineering-mind", "innovation-specialist", "craftsman-warrior", "intellectual-combatant"]
+    warsling-sniper:
+      restriction:
+        folk: "halfling"
+      specific: ["sling-specialist", "sniper", "ranged-expert", "tactical-value"]
 ---
 
 <div class="toc" markdown="1">
@@ -22,7 +66,7 @@ profile:
 ##### <a href="#internal-origins">Fighter Origins</a>
 ##### <a href="#internal-archetypes">Martial Archetypes</a>
 <a href="#internal-arbalestion">Arbalestion</a><br/>
-<a href="#internal-ArcaneArcher">Arcane Archer</a><br/>
+<a href="#internal-arcaneArcher">Arcane Archer</a><br/>
 <a href="#internal-bulwark">Bulwark</a><br/>
 <a href="#internal-champion">Champion</a><br/>
 <a href="#internal-daredevil">Daredevil</a><br/>
@@ -33,8 +77,8 @@ profile:
 <a href="#internal-kindler">Kindler</a><br/>
 <a href="#internal-runeguard">Runeguard</a><br/>
 <a href="#internal-sellsword">Sellsword</a><br/>
-<a href="#internal-Skirmisher">Skirmisher / Mariner</a><br/>
-<a href="#internal-Templar">Templar</a><br/>
+<a href="#internal-skirmisher">Skirmisher / Mariner</a><br/>
+<a href="#internal-templar">Templar</a><br/>
 <a href="#internal-thingSlinger">Thing Slinger</a><br/>
 <a href="#internal-underdog">Underdog</a>
 
@@ -324,7 +368,7 @@ Different fighters choose different approaches to perfecting their fighting prow
 <div class="columnsthree">
 
 - **<a href="#internal-arbalestion">Arbalestion</a>** - Crossbows expert.
-- **<a href="#internal-ArcaneArcher">Arcane Archer</a>** - A fighter combining archery with magic.
+- **<a href="#internal-arcaneArcher">Arcane Archer</a>** - A fighter combining archery with magic.
 - **<a href="#internal-Brute">Brute</a>** - The Brute's way of fighting is simple: Pick up the biggest, heaviest thing you can find, and squash your enemies with it.
 - **<a href="#internal-bulwark">Bulwark</a>** - Bulwarks shine as defensive warriors.
 - **<a href="#internal-champion">Champion</a>** - The Champion focuses on the development of raw physical power honed to deadly perfection.
@@ -394,7 +438,7 @@ As an ***action***, you can choose one creature or object with range and within 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ArcaneArcher">Arcane Archer</a></h1>
+<h1><a class="internal-link" name="internal-arcaneArcher">Arcane Archer</a></h1>
 <div class="featuresTable">
 
 #### Arcane Archer Features
@@ -1119,7 +1163,7 @@ If this attack reduces the creature to 0 hit points, you can gloat about it as p
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Skirmisher">Skirmisher</a></h1>
+<h1><a class="internal-link" name="internal-skirmisher">Skirmisher</a></h1>
 <div class="featuresTable">
 
 #### Skirmisher Features
@@ -1152,7 +1196,7 @@ As an **action**, you may make an attack against every enemy within your reach. 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Templar">Templar</a></h1>
+<h1><a class="internal-link" name="internal-templar">Templar</a></h1>
 <div class="featuresTable">
 
 #### Templar Features

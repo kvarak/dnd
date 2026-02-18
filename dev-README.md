@@ -187,3 +187,124 @@ Recommendations:
   2. Bard - 65% match (utility + social)
   3. Wizard - 34% match (damage misalignment)
 ```
+
+---
+
+## Adaptive Question Selection Algorithm
+
+The questionnaire uses **intelligent question ordering** to maximize recommendation accuracy with minimal questions. Instead of random/fixed ordering, questions adapt based on current Live Match Progress.
+
+### Algorithm Flow
+
+**Question 1:** Random selection from all questions
+
+**Question 2+:** Adaptive selection based on Live Match Progress:
+
+1. **Get current recommendations** (sorted by match percentage)
+2. **Iterate through recommendations in reverse** (starting from last/lowest-ranked)
+3. **For each recommendation:**
+   - Get the archetype's required traits (merged profile: base class + archetype)
+   - Find traits the user **hasn't been asked about yet**
+   - If unanswered traits exist → select a question affecting one of those traits
+   - If ALL traits for this archetype explored → move to next archetype
+4. **If all top archetypes fully explored** → randomize from unused questions
+5. **If all questions exhausted** → allow viewing results or restart
+
+### Example Progression
+
+**After 5 questions:**
+```
+Live Match Progress:
+  #1 Rogue - Assassin: 65% (4 of 9 traits explored)
+  #2 Fighter - Champion: 58% (3 of 10 traits explored)
+  ...
+  #10 Wizard - Enchanter: 42% (1 of 8 traits explored)
+
+Next question: Targets unanswered Enchanter trait (explores lowest-ranked first)
+```
+
+**After 15 questions:**
+```
+Live Match Progress:
+  #1 Rogue - Assassin: 75% (6 of 9 traits explored)
+  #2 Fighter - Champion: 68% (8 of 10 traits explored)
+  ...
+  #10 Wizard - Enchanter: 58% (8 of 8 traits ✓ fully explored)
+
+Next question: Targets #9's unexplored traits (skip Enchanter, move up)
+```
+
+**After 40 questions:**
+```
+Live Match Progress:
+  Top 10 archetypes: All traits fully explored ✓
+
+Next question: Random from remaining unused questions
+```
+
+### Implementation Details
+
+**Data Structures:**
+```javascript
+// Track which questions have been shown
+this.askedQuestionIds = new Set();
+
+// Map questions to the traits they affect
+this.questionToTraitsMap = {
+  'healing-magic': ['healing-magic', 'damage-magic', 'utility-magic'],
+  'destructive-magic': ['damage-magic', 'control-magic'],
+  // ... etc
+};
+
+// Track which traits have been explored
+getExploredTraits() {
+  const exploredTraits = new Set();
+  for (const questionId of this.askedQuestionIds) {
+    const traits = this.questionToTraitsMap[questionId] || [];
+    traits.forEach(t => exploredTraits.add(t));
+  }
+  return exploredTraits;
+}
+```
+
+**Selection Logic:**
+```javascript
+selectNextAdaptiveQuestion() {
+  // 1. Calculate current recommendations
+  const recommendations = this.calculateRecommendations();
+  const exploredTraits = this.getExploredTraits();
+
+  // 2. Find archetype with unexplored traits
+  for (const rec of recommendations) {
+    const requiredTraits = this.getArchetypeTraits(rec);
+    const unexploredTraits = requiredTraits.filter(t => !exploredTraits.has(t));
+
+    if (unexploredTraits.length > 0) {
+      // 3. Find question targeting this trait
+      return this.findQuestionForTrait(unexploredTraits[0]);
+    }
+  }
+
+  // 4. Fallback: random from unused questions
+  return this.getRandomUnusedQuestion();
+}
+```
+
+### Benefits
+
+✅ **Efficient** - Focuses on traits that matter for top matches
+✅ **Adaptive** - Responds to user's evolving profile
+✅ **Thorough** - Fully explores top candidates before moving on
+✅ **Smart fallback** - Never gets stuck, always has a next question
+✅ **Natural flow** - Questions feel conversational and relevant
+✅ **Fast convergence** - Reaches accurate recommendations quickly
+
+---
+
+## Adding New Archetypes
+
+**Quick Start:** [ARCHETYPE_CHECKLIST.md](ARCHETYPE_CHECKLIST.md) - Concise 5-phase workflow (~300 lines)
+
+**Full Reference:** [ARCHETYPE_GUIDE.md](ARCHETYPE_GUIDE.md) - Comprehensive guide with examples (~1100 lines)
+
+Use the checklist for standard archetypes, consult the full guide for complex cases or troubleshooting.

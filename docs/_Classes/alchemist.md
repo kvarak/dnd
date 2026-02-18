@@ -1,6 +1,36 @@
 ---
 title: Alchemist
 layout: default
+profile:
+  generic:
+    magicType: "versatile"
+    originBackground: ["scholarly", "urban"]
+  specific: ["innovation-specialist", "craftsman-warrior", "scholarly-background", "versatile-magic"]
+  archetypes:
+    apothecary:
+      generic:
+        magicType: "healing"
+      specific: ["potion-brewer", "healing-magic", "protective-value", "scholarly-background"]
+    corpsecrafter:
+      generic:
+        magicType: "control"
+      specific: ["necromancy-dabbler", "death-dealer", "chaotic-value", "innovation-specialist"]
+    mad-bomber:
+      generic:
+        magicType: "damage"
+      specific: ["explosives-expert", "damage-magic", "reckless-value", "throwing-expert"]
+    poisoner:
+      generic:
+        magicType: "damage"
+      specific: ["poison-expert", "death-dealer", "stealth-master", "patient-value"]
+    psychedelic:
+      generic:
+        magicType: "control"
+      specific: ["mind-alteration", "control-magic", "illusion-specialist", "chaotic-value"]
+    transmuter:
+      generic:
+        magicType: "utility"
+      specific: ["transmutation-magic", "versatile-magic", "magic-student", "scholar-warrior"]
 ---
 
 <div class="toc" markdown="1">

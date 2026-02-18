@@ -213,6 +213,24 @@
       <div class="row justify-content-center mt-4">
         <div class="col-12 col-lg-8">
 
+          <!-- Folk Selection (shown first, then hidden) -->
+          <div id="folk-selection-container" class="card shadow-sm mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Character Folk Selection</h4>
+              <p class="text-muted">Some archetypes are restricted to specific folk (races). Select your character's folk to get personalized recommendations, or skip this step.</p>
+
+              <div id="folk-buttons" class="d-flex flex-wrap gap-2 mb-3">
+                <!-- Folk buttons will be dynamically generated here -->
+              </div>
+
+              <div class="text-center mt-3">
+                <button id="folk-skip-btn" class="btn btn-outline-secondary">
+                  Skip / I haven't decided yet
+                </button>
+              </div>
+            </div>
+          </div>
+
           <!-- Progress Bar -->
           <div class="progress mb-4" style="height: 10px;">
             <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%"></div>
@@ -315,25 +333,52 @@
       class QuestionnaireApp {
         constructor() {
           this.currentQuestionIndex = 0;
-          this.questions = this.shuffleQuestions(QUESTIONS);
+          this.questions = QUESTIONS; // Keep original questions array
+          this.allQuestions = [...QUESTIONS]; // Full copy for adaptive selection
           this.classProfiles = CLASS_PROFILES;
           this.userAnswers = {};
+          this.askedQuestionIds = new Set(); // Track which questions shown
           this.isComplete = false;
+          this.selectedFolk = null; // Track selected folk for restricted archetypes
+          this.folkRestrictions = this.extractFolkRestrictions(); // Extract folk from profiles
           this.storageKey = 'dnd-questionnaire-state';
-          this.storageVersion = 3; // Increment this when scoring logic changes
+          this.storageVersion = 5; // Increment this when scoring logic changes
           this.isProcessingAnswer = false;
           this.autoAdvanceTimeout = null;
+
+          // Build question-to-traits map
+          this.buildQuestionToTraitsMap();
 
           this.initializeElements();
           this.setupEventListeners();
 
           // Try to load saved state
           if (this.loadState()) {
-            // State restored
-          } else if (this.questions.length > 0) {
-            this.showQuestion(0);
+            // State restored - questionnaire or results are already shown
+            // Only show folk selection if not yet completed
+            if (!this.isComplete) {
+              if (this.selectedFolk) {
+                this.hideFolkSelection();
+              } else if (this.folkRestrictions.size > 0) {
+                this.showFolkSelection();
+              }
+            }
           } else {
-            this.showError('No questions loaded. Please refresh the page.');
+            // Show folk selection if there are restricted archetypes
+            if (this.folkRestrictions.size > 0) {
+              this.showFolkSelection();
+            } else {
+              // No folk restrictions, start questionnaire immediately
+              this.hideFolkSelection();
+              const firstQuestion = this.selectNextAdaptiveQuestion();
+              if (firstQuestion) {
+                this.questions = [firstQuestion];
+                this.askedQuestionIds.add(firstQuestion.id);
+                this.showQuestion(0);
+              } else {
+                this.showError('No questions loaded. Please refresh the page.');
+              }
+            }
           }
         }
 
@@ -389,16 +434,18 @@
           const question = this.questions[index];
           this.currentQuestionIndex = index;
 
-          // Update progress
-          const progress = ((index + 1) / this.questions.length) * 100;
+          // Update progress - base it on % of total available questions asked
+          const totalAvailableQuestions = this.allQuestions.length;
+          const questionsAsked = this.askedQuestionIds.size;
+          const progress = (questionsAsked / totalAvailableQuestions) * 100;
           this.progressBar.style.width = `${progress}%`;
 
           // Update question counter
-          const answeredCount = index + 1;
+          const answeredCount = questionsAsked;
           if (answeredCount < this.minQuestionsForResults) {
-            this.questionCounter.textContent = `Question ${answeredCount} of ${this.questions.length} (minimum ${this.minQuestionsForResults})`;
+            this.questionCounter.textContent = `Question ${answeredCount} (minimum ${this.minQuestionsForResults} for results)`;
           } else {
-            this.questionCounter.textContent = `Question ${answeredCount} of ${this.questions.length}`;
+            this.questionCounter.textContent = `Question ${answeredCount}`;
           }
 
           // Render question
@@ -415,7 +462,10 @@
 
           // Update navigation buttons
           this.prevBtn.disabled = index === 0;
-          this.nextBtn.disabled = index >= this.questions.length - 1;
+
+          // With adaptive selection, we can always try to get more questions
+          // Next button will be disabled in goToNextQuestion if no more available
+          this.nextBtn.disabled = false;
 
           // Show "Get Results" button only after minimum questions answered
           if (answeredCount >= this.minQuestionsForResults) {
@@ -477,13 +527,19 @@
           // Save state to localStorage immediately and synchronously
           this.saveState();
 
-          // Auto-advance to next question after brief delay (only if not at last question)
-          if (this.currentQuestionIndex < this.questions.length - 1) {
+          // Auto-advance to next question after brief delay
+          // Check if there's a next question already loaded OR if we can get a new adaptive question
+          const hasNextQuestion = this.currentQuestionIndex < this.questions.length - 1;
+          const canGetNewQuestion = this.currentQuestionIndex >= this.questions.length - 1 &&
+                                    this.hasUnusedQuestions();
+
+          if (hasNextQuestion || canGetNewQuestion) {
             this.autoAdvanceTimeout = setTimeout(() => {
               this.isProcessingAnswer = false;
               this.goToNextQuestion();
             }, 600);
           } else {
+            // We're at the end and no more questions available
             this.isProcessingAnswer = false;
           }
         }
@@ -496,11 +552,26 @@
         }
 
         goToNextQuestion() {
-          if (this.currentQuestionIndex < this.questions.length - 1) {
+          // Check if we need to add a new question
+          if (this.currentQuestionIndex >= this.questions.length - 1) {
+            // Select next question using adaptive algorithm
+            const nextQuestion = this.selectNextAdaptiveQuestion();
+
+            if (nextQuestion) {
+              // Add to questions array and mark as asked
+              this.questions.push(nextQuestion);
+              this.askedQuestionIds.add(nextQuestion.id);
+              this.showQuestion(this.currentQuestionIndex + 1);
+              this.saveState();
+            } else {
+              // No more questions available
+              this.nextBtn.disabled = true;
+            }
+          } else {
+            // Navigate to existing next question
             this.showQuestion(this.currentQuestionIndex + 1);
             this.saveState();
           }
-          // Don't auto-show results anymore - user must click "Get Results"
         }
 
         showResults() {
@@ -530,8 +601,9 @@
             // Show results
             this.resultsContent.innerHTML = this.renderResults(recommendations, userTraitProfile);
 
-            // Hide question container and show results
+            // Hide question container and folk selection, show results
             this.questionContainer.style.display = 'none';
+            document.getElementById('folk-selection-container').style.display = 'none';
             this.resultsContainer.style.display = 'block';
 
             // Show continue button if there are more questions
@@ -570,12 +642,24 @@
                 const mergedProfile = this.mergeArchetypeProfile(profile, archetypeData);
                 const formattedArchetype = this.formatArchetypeName(archetypeName);
                 const score = this.scoreProfile(mergedProfile, `${formattedArchetype} (${className})`);
+
+                // Apply folk restriction bonus
+                let folkBonus = 0;
+                if (this.selectedFolk && archetypeData.restriction && archetypeData.restriction.folk) {
+                  if (archetypeData.restriction.folk === this.selectedFolk) {
+                    folkBonus = 20; // Significant bonus for matching folk
+                  }
+                }
+
                 results.push({
                   className: className,
                   archetypeName: archetypeName,
                   displayName: `${formattedArchetype} (${className})`,
                   profile: mergedProfile,  // Include profile for trait display
-                  ...score
+                  restriction: archetypeData.restriction, // Include restriction info
+                  folkBonus: folkBonus,
+                  ...score,
+                  score: score.score + folkBonus // Add bonus to total score
                 });
               }
             } else {
@@ -1023,6 +1107,23 @@
           output += recommendations.map((rec, index) => {
             const anchor = rec.archetypeName ? '#internal-' + this.archetypeToAnchor(rec.archetypeName) : '';
 
+            // Check folk restriction
+            let folkRestrictionBadge = '';
+            let isRestricted = false;
+            if (rec.restriction && rec.restriction.folk) {
+              const requiredFolk = rec.restriction.folk;
+              const folkFormatted = requiredFolk.charAt(0).toUpperCase() + requiredFolk.slice(1);
+
+              if (this.selectedFolk === requiredFolk) {
+                // Available to selected folk
+                folkRestrictionBadge = `<span class="badge bg-success ms-2" title="Available to ${folkFormatted}"><i class="fas fa-check-circle"></i> ${folkFormatted}</span>`;
+              } else {
+                // Restricted - not available
+                folkRestrictionBadge = `<span class="badge bg-warning text-dark ms-2" title="Requires ${folkFormatted}"><i class="fas fa-lock"></i> Requires ${folkFormatted}</span>`;
+                isRestricted = true;
+              }
+            }
+
             // Get the specific traits for this class/archetype and show user's percentages
             let traitsDisplay = '';
             if (rec.profile && rec.profile.specific && rec.profile.specific.length > 0) {
@@ -1081,13 +1182,14 @@
             }
 
             return `
-            <div class="card mb-3 ${index === 0 ? 'border-primary' : ''}">
+            <div class="card mb-3 ${index === 0 ? 'border-primary' : ''} ${isRestricted ? 'opacity-75' : ''}">
               <div class="card-body">
                 <div class="d-flex align-items-center mb-2">
                   <span class="badge bg-primary me-2" style="border-radius: 50%; width: 2.5em; height: 2.5em; display: flex; align-items: center; justify-content: center;">
                     ${index + 1}
                   </span>
                   <h5 class="card-title mb-0">${rec.displayName || rec.className}</h5>
+                  ${folkRestrictionBadge}
                   <div class="ms-auto">
                     <span class="badge bg-success">
                       ${rec.percentage.toFixed(1)}% match
@@ -1136,20 +1238,34 @@
           this.currentQuestionIndex = 0;
           this.userAnswers = {};
           this.isComplete = false;
-
-          // Reshuffle questions for new attempt
-          this.questions = this.shuffleQuestions(QUESTIONS);
-
-          this.questionContainer.style.display = 'block';
-          this.resultsContainer.style.display = 'none';
-
-          // Hide live scores
-          document.getElementById('live-scores').style.display = 'none';
+          this.askedQuestionIds = new Set(); // Reset asked questions
+          this.selectedFolk = null; // Reset folk selection
 
           // Clear localStorage
           this.clearState();
 
-          this.showQuestion(0);
+          // Show folk selection again if there are restricted archetypes
+          if (this.folkRestrictions.size > 0) {
+            this.resultsContainer.style.display = 'none';
+            this.showFolkSelection();
+          } else {
+            // No folk restrictions, start questionnaire directly
+            const firstQuestion = this.selectNextAdaptiveQuestion();
+            if (firstQuestion) {
+              this.questions = [firstQuestion];
+              this.askedQuestionIds.add(firstQuestion.id);
+            } else {
+              this.questions = [];
+            }
+
+            this.questionContainer.style.display = 'block';
+            this.resultsContainer.style.display = 'none';
+
+            // Hide live scores
+            document.getElementById('live-scores').style.display = 'none';
+
+            this.showQuestion(0);
+          }
         }
 
         shuffleQuestions(questions) {
@@ -1160,6 +1276,244 @@
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
           }
           return shuffled;
+        }
+
+        // Folk Selection Methods
+
+        extractFolkRestrictions() {
+          // Dynamically extract all folk that have restricted archetypes
+          const folkSet = new Set();
+
+          for (const [className, profile] of Object.entries(this.classProfiles)) {
+            if (!profile || !profile.archetypes) continue;
+
+            for (const [archetypeName, archetypeData] of Object.entries(profile.archetypes)) {
+              if (archetypeData.restriction && archetypeData.restriction.folk) {
+                folkSet.add(archetypeData.restriction.folk);
+              }
+            }
+          }
+
+          return folkSet;
+        }
+
+        showFolkSelection() {
+          const container = document.getElementById('folk-selection-container');
+          const buttonsContainer = document.getElementById('folk-buttons');
+          const skipBtn = document.getElementById('folk-skip-btn');
+
+          // Show folk selection, hide questionnaire
+          container.style.display = 'block';
+          document.getElementById('question-container').style.display = 'none';
+          document.getElementById('progress-bar').parentElement.style.display = 'none';
+
+          // Generate folk buttons dynamically
+          const folkArray = Array.from(this.folkRestrictions).sort();
+          buttonsContainer.innerHTML = folkArray.map(folk => {
+            const folkFormatted = folk.charAt(0).toUpperCase() + folk.slice(1);
+            return `<button class=\"btn btn-outline-primary folk-btn\" data-folk=\"${folk}\">${folkFormatted}</button>`;
+          }).join('');
+
+          // Add event listeners to folk buttons
+          buttonsContainer.querySelectorAll('.folk-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+              this.selectFolk(btn.dataset.folk);
+            });
+          });
+
+          // Add skip button listener
+          skipBtn.addEventListener('click', () => {
+            this.selectFolk(null);
+          });
+        }
+
+        hideFolkSelection() {
+          document.getElementById('folk-selection-container').style.display = 'none';
+          document.getElementById('question-container').style.display = 'block';
+          document.getElementById('progress-bar').parentElement.style.display = 'block';
+        }
+
+        selectFolk(folk) {
+          this.selectedFolk = folk;
+          this.hideFolkSelection();
+
+          // Start questionnaire
+          const firstQuestion = this.selectNextAdaptiveQuestion();
+          if (firstQuestion) {
+            this.questions = [firstQuestion];
+            this.askedQuestionIds.add(firstQuestion.id);
+            this.showQuestion(0);
+          } else {
+            this.showError('No questions loaded. Please refresh the page.');
+          }
+
+          this.saveState();
+        }
+
+        // End Folk Selection Methods
+
+        buildQuestionToTraitsMap() {
+          // Build a map of question ID -> traits it affects
+          this.questionToTraitsMap = {};
+
+          this.allQuestions.forEach(question => {
+            const traits = new Set();
+
+            // Check all possible answers for traits
+            for (const answerKey in question.answers) {
+              if (answerKey !== 'dont-know') {
+                const traitScores = question.answers[answerKey];
+                for (const trait in traitScores) {
+                  traits.add(trait);
+                }
+              }
+            }
+
+            this.questionToTraitsMap[question.id] = Array.from(traits);
+          });
+        }
+
+        getExploredTraits() {
+          // Get all traits that have been explored through asked questions
+          const exploredTraits = new Set();
+
+          for (const questionId of this.askedQuestionIds) {
+            const traits = this.questionToTraitsMap[questionId] || [];
+            traits.forEach(trait => exploredTraits.add(trait));
+          }
+
+          return exploredTraits;
+        }
+
+        getArchetypeRequiredTraits(recommendation) {
+          // Get all traits required by this archetype (merged profile)
+          const traits = new Set();
+
+          if (recommendation.profile && recommendation.profile.specific) {
+            recommendation.profile.specific.forEach(trait => traits.add(trait));
+          }
+
+          // Also consider generic traits like magicType and originBackground
+          if (recommendation.profile && recommendation.profile.generic) {
+            if (recommendation.profile.generic.magicType) {
+              // Map magicType to corresponding trait
+              const magicType = recommendation.profile.generic.magicType;
+              if (magicType === 'healing') traits.add('healing-magic');
+              else if (magicType === 'damage') traits.add('damage-magic');
+              else if (magicType === 'utility') traits.add('utility-magic');
+              else if (magicType === 'control') traits.add('control-magic');
+              else if (magicType === 'versatile') traits.add('versatile-magic');
+              else if (magicType === 'none') traits.add('arcane-averse-magic');
+            }
+
+            if (recommendation.profile.generic.originBackground) {
+              // Map backgrounds to corresponding traits
+              const backgrounds = recommendation.profile.generic.originBackground;
+              backgrounds.forEach(bg => {
+                traits.add(`${bg}-background`);
+              });
+            }
+          }
+
+          return Array.from(traits);
+        }
+
+        findQuestionForTrait(targetTrait) {
+          // Find an unasked question that affects the target trait
+          const unusedQuestions = this.allQuestions.filter(q => !this.askedQuestionIds.has(q.id));
+
+          for (const question of unusedQuestions) {
+            const traits = this.questionToTraitsMap[question.id] || [];
+            if (traits.includes(targetTrait)) {
+              return question;
+            }
+          }
+
+          return null;
+        }
+
+        hasUnusedQuestions() {
+          // Check if there are any questions that haven't been asked yet
+          return this.allQuestions.some(q => !this.askedQuestionIds.has(q.id));
+        }
+
+        getRandomUnusedQuestion() {
+          // Get a random question that hasn't been asked yet
+          const unusedQuestions = this.allQuestions.filter(q => !this.askedQuestionIds.has(q.id));
+
+          if (unusedQuestions.length === 0) {
+            return null; // All questions exhausted
+          }
+
+          const randomIndex = Math.floor(Math.random() * unusedQuestions.length);
+          return unusedQuestions[randomIndex];
+        }
+
+        selectNextAdaptiveQuestion() {
+          // Adaptive question selection algorithm
+
+          // First question: random
+          if (this.askedQuestionIds.size === 0) {
+            return this.getRandomUnusedQuestion();
+          }
+
+          // Folk-based prioritization: If folk is selected, prioritize questions
+          // that score traits from folk-restricted archetypes
+          if (this.selectedFolk) {
+            const folkTraits = this.getFolkRestrictedTraits(this.selectedFolk);
+            const exploredTraits = this.getExploredTraits();
+            const unexploredFolkTraits = folkTraits.filter(trait => !exploredTraits.has(trait));
+
+            // 70% chance to ask about folk-specific traits (if any unexplored)
+            if (unexploredFolkTraits.length > 0 && Math.random() < 0.7) {
+              const question = this.findQuestionForTrait(unexploredFolkTraits[0]);
+              if (question) {
+                return question;
+              }
+            }
+          }
+
+          // Get current recommendations sorted by match percentage
+          const recommendations = this.calculateRecommendations();
+          const exploredTraits = this.getExploredTraits();
+
+          // Iterate through recommendations in reverse (starting from lowest-ranked)
+          for (let i = recommendations.length - 1; i >= 0; i--) {
+            const rec = recommendations[i];
+            const requiredTraits = this.getArchetypeRequiredTraits(rec);
+            const unexploredTraits = requiredTraits.filter(trait => !exploredTraits.has(trait));
+
+            if (unexploredTraits.length > 0) {
+              // Try to find a question for the first unexplored trait
+              const question = this.findQuestionForTrait(unexploredTraits[0]);
+              if (question) {
+                return question;
+              }
+            }
+          }
+
+          // Fallback: All top archetypes fully explored, pick random unused question
+          return this.getRandomUnusedQuestion();
+        }
+
+        getFolkRestrictedTraits(folk) {
+          // Get all traits from archetypes restricted to this folk
+          const traits = new Set();
+
+          for (const [className, profile] of Object.entries(this.classProfiles)) {
+            if (!profile || !profile.archetypes) continue;
+
+            for (const [archetypeName, archetypeData] of Object.entries(profile.archetypes)) {
+              if (archetypeData.restriction && archetypeData.restriction.folk === folk) {
+                // Add specific traits from this restricted archetype
+                if (Array.isArray(archetypeData.specific)) {
+                  archetypeData.specific.forEach(trait => traits.add(trait));
+                }
+              }
+            }
+          }
+
+          return Array.from(traits);
         }
 
         updateLiveScores() {
@@ -1205,7 +1559,10 @@
             version: this.storageVersion,
             currentQuestionIndex: this.currentQuestionIndex,
             userAnswers: this.userAnswers,
+            questions: this.questions, // Save the adaptive question sequence
+            askedQuestionIds: Array.from(this.askedQuestionIds), // Convert Set to Array
             isComplete: this.isComplete,
+            selectedFolk: this.selectedFolk, // Save folk selection
             timestamp: Date.now()
           };
           try {
@@ -1238,7 +1595,10 @@
             // Restore state
             this.currentQuestionIndex = state.currentQuestionIndex || 0;
             this.userAnswers = state.userAnswers || {};
+            this.questions = state.questions || [];
+            this.askedQuestionIds = new Set(state.askedQuestionIds || []);
             this.isComplete = state.isComplete || false;
+            this.selectedFolk = state.selectedFolk || null; // Restore folk selection
 
             // Show appropriate view
             if (this.isComplete) {

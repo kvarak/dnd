@@ -168,7 +168,12 @@ test: build
 		npm install --silent && \
 		node tools/lint-markdown.js --quiet" && \
 	echo "" && \
-	echo " Validating question bank..." && \
+	echo "📋 Validating class profiles..." && \
+	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
+		npm install --silent js-yaml && \
+		node tools/validate-class-profiles.js" && \
+	echo "" && \
+	echo "🎯 Validating question bank..." && \
 	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent js-yaml && \
 		node tools/validate-question-bank.js"
