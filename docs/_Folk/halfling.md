@@ -257,8 +257,6 @@ A halfling approaches some classes is a bit different than other races. When you
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-race">The Halfling Folk</a></h1>
 
@@ -316,35 +314,35 @@ This outlook prompts them to ask probing questions about the possessions of othe
 <div class="infoarea" markdown="1">
 
 #### How the Fishskippers got their name
- _From the gentle waters,_<br/>
- _Amid the swaying reeds,_<br/>
- _There rose a hairy villain,_<br/>
- _A troll called Snobble Sweed._<br/>
+ *From the gentle waters,*<br/>
+ *Amid the swaying reeds,*<br/>
+ *There rose a hairy villain,*<br/>
+ *A troll called Snobble Sweed.*<br/>
 <br/>
-  _He came to gobble children,_<br/>
- _To line his lair with bones,_<br/>
- _And pick his teeth with talons,_<br/>
- _And grind their flesh with stones._<br/>
+  *He came to gobble children,*<br/>
+ *To line his lair with bones,*<br/>
+ *And pick his teeth with talons,*<br/>
+ *And grind their flesh with stones.*<br/>
 <br/>
- _But on that day a-fishing_<br/>
- _Was a halfling brave and true,_<br/>
- _The first of the Fishskippers,_<br/>
- _Grand-kin to me and you._<br/>
+ *But on that day a-fishing*<br/>
+ *Was a halfling brave and true,*<br/>
+ *The first of the Fishskippers,*<br/>
+ *Grand-kin to me and you.*<br/>
 <br/>
- _When he saw old Snobble Sweed_<br/>
- _A-sharpening his knives,_<br/>
- _He knew that all his family's folk_<br/>
- _Were in danger of their lives._<br/>
+ *When he saw old Snobble Sweed*<br/>
+ *A-sharpening his knives,*<br/>
+ *He knew that all his family's folk*<br/>
+ *Were in danger of their lives.*<br/>
 <br/>
- _In that moment of grave peril,_<br/>
- _Fishskipper caught a bream_<br/>
- _And hurled it by its silvery tail_<br/>
- _Across the glassy stream._<br/>
+ *In that moment of grave peril,*<br/>
+ *Fishskipper caught a bream*<br/>
+ *And hurled it by its silvery tail*<br/>
+ *Across the glassy stream.*<br/>
 <br/>
- _Ten times the bream did swiftly skip,_<br/>
- _And like a clap of thunder_<br/>
- _It smote old Sweed upon his head,_<br/>
- _And tore the beast asunder._<br/>
+ *Ten times the bream did swiftly skip,*<br/>
+ *And like a clap of thunder*<br/>
+ *It smote old Sweed upon his head,*<br/>
+ *And tore the beast asunder.*<br/>
 <br/>
   -- "Tale of the Fishskippers," by Harkin Fishskipper
 

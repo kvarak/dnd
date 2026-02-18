@@ -53,7 +53,6 @@ Adventurers have access to a variety of armor types, ranging from leather armor 
 </div>
 
 
-
 ### Descriptions
 Non-basic shields, and attachments are described below.
 
@@ -75,8 +74,6 @@ Placing a pavise (or picking it up from a placed position) requires an action. O
 
 **Tower Shield**. A tower shield is much larger and heavier than a standard shield, standing nearly as tall as the person who wields it.
 In addition to the normal benefit to your Armor Class, you gain a +2 bonus to Dexterity saving throws. You can also perform a special version of the Dodge action by hunkering down behind a tower shield. The benefit of this Dodge is not lost if you are incapacitated or if your speed is otherwise reduced to 0.
-
-
 
 
 ## Armor rules

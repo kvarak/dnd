@@ -106,4 +106,3 @@ Humans are animals, tied to the cycle of the seasons and the whirl of life and d
 
 **There are two roads from this faith as a former member of this sect:** *the Humanist* and *the Universalist*. The Humanist chooses to become part of his own flock, to give up his godlike overview of civilization and to dwell among the people. Conversely, the Universalist seeks a greater balance with the Endless Scream of the Wild, abandoning his delicately balanced position of observation and authority over the affairs of humans to seek better understanding of some other species, or perhaps even the weave of the universe itself.
 
-

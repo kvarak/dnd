@@ -30,7 +30,6 @@ Humans who seek adventure are the most daring and ambitious members of a daring 
 Having so much more variety than other cultures, humans as a whole have no typical names. Most parents give names that are linked to their region’s culture or to the naming traditions of their ancestors.
 
 
-
 ## <a class="internal-link" name="internal-trait">Human traits</a>
 It’s hard to make generalizations about humans, but your human character has these traits.
 
@@ -51,7 +50,6 @@ It’s hard to make generalizations about humans, but your human character has t
 - **Versatile**. You gain one additional skill point to spend during background generation. This skill point can be used to buy Human Talents listed below.
 
 </div>
-
 
 
 ## <a class="internal-link" name="internal-talents">Human Talents</a>
@@ -227,8 +225,4 @@ Humans approach some classes a bit different compared to other races. When you s
     <hr class="dividerinfolk">
 
 </div>
-
-
-
-
 

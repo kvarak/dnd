@@ -121,7 +121,6 @@ Some floran are naturally gifted at controlling their appearance. They retain pl
 </div>
 
 
-
 ## <a class="internal-link" name="internal-class">Floran class options</a>
 
 An floran approaches some classes is a bit different than other races. When you select one of the classes in this list, it is modified as follows:

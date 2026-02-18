@@ -115,7 +115,7 @@ In addition, it is easier to stop your bleeding. All checks made to stabilize yo
     **Languages**. You know Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.
 
     **Dwarven Cultural Training**. Dwarves are very bound to tradition, and an important part of the upbringing of each dwarf is to learn the basics of war and crafting. Add *History* and one *Craft* to your class skills and gain 1 skill point to spend on each of those skills.
-    
+
     Additionally, if not granted by your class, gain rank 2 in the *axe* and *club* weapon groups.
 
 -   ### Lost
@@ -212,7 +212,6 @@ A dwarfs approach to some classes is a bit different than that of other races. W
     A lost dwarf does not have any formal combat training, and often resort to a ferocious and wild fighting style.
 
 
-
     If starting play as a Barbarian, whenever the class description mentions your Strength modifier, you may instead use that modifier +3 or your proficiency bonus, whichever is lower. This also applies to attack and damage rolls.
 
     ##### Stolen Dwarf
@@ -300,7 +299,6 @@ A dwarfs approach to some classes is a bit different than that of other races. W
 
     ##### Stolen Dwarf
     A stolen dwarf cleric follows the gods taught to him by his master/caretaker.
-
 
 
     ##### Special
@@ -589,7 +587,6 @@ First, the apprenticeships expose a young prince to each part of the clan's oper
 More important, a young prince's conduct while pursuing a variety of tasks gives the elder princes a chance to assess the youth's character. Ideally, a prince who ascends to the leadership of a clan demonstrates an even temperament and an affinity for the clan's key functions. A prince who particularly enjoys fighting might become a minister of war or a general, while one who loves smithing might become an overseer of the crafters' work.
 
 
-
 <img src='https://i.pinimg.com/originals/83/da/74/83da742dc8f707121a1e138f9fc05305.jpg' style='float:right;width:30%;padding:20px' />
 
 ### <a class="internal-link" name="internal-stronghold">One for all: The Stronghold</a>
@@ -643,7 +640,6 @@ Every dwarf knows instinctively that clan and stronghold are inextricably tied t
 Dwarves use a variety of approaches and devices in setting their defenses. The strongholds of many clans are honeycombed with secret passages designed to enable the dwarves to ambush and flank enemies. Dwarves also make liberal use of secret doors fashioned by dwarf artisans, slabs of stone that fit so precisely in their openings that no one but a dwarf knows how to locate and open one.
 
 Unlike some other races that guard their territory by creating features that actively deter invaders, dwarves rarely use arrow traps, pit traps, and other such measures that could cause harm to clan members. They see little sense in risking injury if a trap of that sort malfunctioned or was accidentally triggered by a dwarf. A defensive measure isn't doing its job if it ends up hurting those it was meant to protect.
-
 
 
 ### <a class="internal-link" name="internal-religion">Dwarven Religion</a>
@@ -780,7 +776,6 @@ Dwarves who reside in surface communities prefer to keep to themselves when not 
 
 ### <a class="internal-link" name="internal-biology">Dwarven Biology</a>
 A dwarf's biology is very different from most other living creatures, mostly due to the fact that they are elementals crafted from stone, not born. Even though they are crafted in the same way, each dwarf is very different. The artistic choices made during crafting, and the exact composition and ratios of stone, metal and gems used in the making, both include enough variation to make each dwarf unique.
-
 
 
 #### The Brain

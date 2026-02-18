@@ -69,7 +69,30 @@
 <script data-goatcounter="https://stats.dnd.kvarak.net/count"
         async src="//stats.dnd.kvarak.net/count.js"></script>
 
-<!-- Service Worker Registration (DISABLED for development) -->
+<!-- Service Worker Registration - DISABLED -->
+<!-- Unregister existing service workers and clear caches -->
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    // Unregister all service workers
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      for(let registration of registrations) {
+        registration.unregister();
+      }
+    });
+
+    // Clear service worker caches
+    caches.keys().then(function(names) {
+      for (let name of names) {
+        caches.delete(name);
+      }
+    });
+  });
+}
+</script>
+
+<!--
+COMMENTED OUT - Service Worker Registration
 <script>
 // Register service worker for offline caching and performance
 if ('serviceWorker' in navigator) {
@@ -162,3 +185,4 @@ window.addEventListener('load', function() {
   updateNetworkStatus(); // Initial check
 });
 </script>
+-->

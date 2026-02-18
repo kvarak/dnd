@@ -72,7 +72,7 @@
 - name: Distilled Courage
   anchor: distilled-courage
   description: 'Price: 10 gp, can be purchased in a flask When you use this alcohol
-    as a material component to cast the _false life_ spell, you have advantage on
+    as a material component to cast the *false life* spell, you have advantage on
     the first charisma check you make before the spell ends.'
 - name: Facemold Paste
   anchor: facemold-paste

@@ -100,9 +100,3 @@ You share a number of traits with other selkie.
 ## <a class="internal-link" name="internal-class">Class options</a>
 Selkie has intermingled with humans to a large extent, and use the <a href="human.html#internal-class">same class options as humans</a>.
 
-
-
-
-
-
-

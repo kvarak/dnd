@@ -323,7 +323,7 @@ Your catfolk character has a number of traits in common with other catfolk:
 
 - **Low-light Vision**. Your feline eyes shine faintly at night, allowing you to make the most of even the smallest amount of ambient light. You can see in dim light as if it were bright light and an additional 60 ft into darkness as if it were dim light.
 
-- **Keen Senses**. Catfolk have superior senses, including smell. Add the *Perception* skill to your class skills if not already there and gain 1 skill point to spent on that skill. 
+- **Keen Senses**. Catfolk have superior senses, including smell. Add the *Perception* skill to your class skills if not already there and gain 1 skill point to spent on that skill.
 
 - **Natural Climbers**. Catfolk have capable claws and an uncanny ability to climb. You have advantage on all checks to climb. When not wearing heavy armor, you can use your Dexterity in place of your Strength when climbing.
 
@@ -398,7 +398,6 @@ Catfolk approaches some classes is a bit different than other races. When you se
     <hr class="dividerinfolk">
 
 </div>
-
 
 
 <hr class="classdivider">
@@ -533,9 +532,6 @@ A Vulpine approaches some classes is a bit different than other races. When you 
 </div>
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-frogfolkBullywug">Frogfolk - Bullywug</a></h1>
 
@@ -598,8 +594,6 @@ Bullywug approaches some classes is a bit different than other races. When you s
     <hr class="dividerinfolk">
 
 </div>
-
-
 
 
 <hr class="classdivider">
@@ -806,11 +800,6 @@ Grung approaches some classes is a bit different than other races. When you sele
 </div>
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-pigfolk">Varkind</a></h1>
 
@@ -918,7 +907,6 @@ Varkind approaches some classes is a bit different than other races. When you se
     <hr class="dividerinfolk">
 
 </div>
-
 
 
 <hr class="classdivider">
@@ -1041,9 +1029,6 @@ Kunek approaches some classes is a bit different than other races. When you sele
 - <img src='../assets/images/kunek.png' style='width:65%;padding:20px' />
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -1175,11 +1160,6 @@ Ratfolk approaches some classes is a bit different than other races. When you se
 </div>
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-class">Beastfolk Class Options</a></h1>
 
@@ -1299,6 +1279,4 @@ There are a lot of similarities in how the different beastfolk approach characte
     <hr class="dividerinfolk">
 
 </div>
-
-
 

@@ -126,9 +126,6 @@ Bloodmarked are generally tall and slight, with dark hair and severe features. P
 </div>
 
 
-
-
-
 ## <a class="internal-link" name="internal-bear">Coldborn</a>
 
 ### Werebear-kin
@@ -288,7 +285,6 @@ Most dwell in low buildings near the water's edge, either alone or with a few of
     At 11th level your jaws deals 2d6 damage.
 
 </div>
-
 
 
 ## <a class="internal-link" name="internal-shark">Seascarred</a>

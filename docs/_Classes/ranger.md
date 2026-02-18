@@ -371,9 +371,6 @@ At 20th level, you become an unparalleled hunter. Choose an option.
 </div>
 
 
-
-
-
 <h2><a class="internal-link" name="internal-conclaves">Ranger Conclaves</a></h2>
 
 Across the wilds, rangers come together to form conclaves - loose associations whose members share a similar outlook on how best to protect  nature from those who would despoil it.
@@ -405,9 +402,6 @@ Across the wilds, rangers come together to form conclaves - loose associations w
 - **<a href="#internal-stalker">Stalker</a>** - Stalkers serve as investigators, spies, informants, interrogators, and vigilantes. Unlike other rangers, they are just as at home in a crowded metropolis as in a wilderness setting.
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -466,7 +460,6 @@ Your animal companion gains a variety of benefits while it is linked to you.
 | 6 | I put my friends’ needs before my own in all things. |
 
 
-
 | d6 | Flaw |
 |:--:|:------|
 | 1 | If there’s food left unattended, I’ll eat it. |
@@ -487,10 +480,6 @@ Your companion can use its ***action*** to make a melee attack against each crea
 
 ### Superior Beast’s Defense
 Whenever an attacker that your companion can see hits it with an attack, it can use its ***reaction*** to halve the attack’s damage against it
-
-
-
-
 
 
 <hr class="classdivider">
@@ -548,10 +537,6 @@ You disappear into crowds without hesitation. While you are hidden, moving throu
 
 ### Close Quarters
 You always gain the benefits of half cover whenever two or more creatures are within 5 ft of you. As a ***bonus action*** while holding a shield, you can grant this to benefit to one of the creatures adjacent to you until the start of your next turn or it moves 10 ft away from you.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -624,10 +609,6 @@ While in this form, you can move in any direction, including up and down, or thr
 Once you use this feature, you cannot do so again until you finish a long rest.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-feyHunter">Fey Hunter</a></h1>
 <div class="featuresTable">
@@ -673,10 +654,6 @@ Additionally, as an ***action***, you may expend a spell slot of 2nd level or hi
 
 ### Master Fey Hunter
 Your attacks and spells against fey creatures ignore any resistances they possess. Additionally, you can now end spells of 5th level or lower when using your Lift the Veil feature.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -735,10 +712,6 @@ The additional damage from your Momentum feature increases to 2d6.
 When a spell or other effect would have you make a saving throw due to being in an area of effect, you can use your ***reaction*** to move up to half your movement speed, potentially moving you outside the effect’s area.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-gloomStalker">Gloomstalker</a></h1>
 <div class="featuresTable">
@@ -787,10 +760,6 @@ You learn to attack with such unexpected speed that you can turn a miss into ano
 
 ### Shadowy Dodge
 You can dodge in unforeseen ways, with wisps of supernatural shadow around you. Whenever a creature makes an attack roll against you and doesn’t have advantage on the roll, you can use your ***reaction*** to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -875,9 +844,6 @@ You have mastered your mixtures’ recipes, and have learned to combine your ing
 </div>
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-horizonWalker">Horizon Walker</a></h1>
 <div class="featuresTable">
@@ -953,13 +919,6 @@ If you attack at least two different creatures with the action, you can make one
 Your ability to move between planes enables you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage from an attack, you can use your ***reaction*** to give yourself resistance to that attack’s damage on this turn.
 
 
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-hunter">Hunter Conclave</a></h1>
 <div class="featuresTable">
@@ -1029,11 +988,6 @@ Your experience has proven invaluable in keeping you safe from harm. Gain one of
 - **Wisdom of Experience**. You gain a bonus to all your saving throws and contested ability checks equal to your Wisdom modifier.
 
 </div>
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1107,13 +1061,6 @@ Once you use this feature, you can’t use it again until you finish a short res
 Gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Prey forces you to make a saving throw, you can use your ***reaction*** to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack’s normal effects.
 
 
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-nightstalker">Nightstalker</a></h1>
 <div class="featuresTable">
@@ -1167,11 +1114,6 @@ Whenever a creature leaves the reach of your shadow familiar, you can use your *
 Whenever a creature adjacent to your shadow familiar makes an attack against you, you can use your ***reaction*** to have the familiar make an attack against that creature.
 
 Additionally, whenever you command your familiar to make an attack using your reaction and the attack hits, the target’s speed is reduced to half until the end of the target’s current turn.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1244,8 +1186,6 @@ You can see through your opponent's deceptions and anticipate their actions. Whe
 While a creature that you have successfully used your Penetrating Insight feature on within the last hour is also the target of a spell on which you are maintaining concentration, you have advantage on attack rolls and Insight checks against that creature.
 
 
-
-
 <hr class="classdivider">
 <h2><a class="internal-link" name="internal-banshee">Restricted to Awakened (bound spirit) characters</a></h2>
 <h1>Banshee Conclave</h1>
@@ -1273,11 +1213,11 @@ You learn an additional spell when you reach certain levels in this class, as sh
 #### Banshee Magic
 | Ranger Level | Spells |
 | :----------: | :----- |
-| 3rd | _catapult_
-| 5th | _shadow blade_
-| 9th | _fear_
-| 13th | _crystal wail_
-| 17th | _telekinesis_
+| 3rd | *catapult*
+| 5th | *shadow blade*
+| 9th | *fear*
+| 13th | *crystal wail*
+| 17th | *telekinesis*
 
 ### Dreadful Visage
 You specialize in hunting the cowardly. You can use a ***bonus action*** to transform your face into a terrible countenance for a split second. Choose one creature within 30 ft that can see you. The sight of you forces that creature to make a Wisdom saving throw against your spell save DC. If it fails, it is frightened of you for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
@@ -1300,8 +1240,6 @@ You can use Dreadful Visage when you roll initiative. Whenever you use Dreadful 
 You can use your ***reaction*** to let out a mournful wail that wards off death when one friendly creature that you can see within 60 ft drops to 0 hit points. Until that creature is stabilized, it has advantage on death saving throws and attack rolls made against it have disadvantage. You can use this ***reaction*** immediately before being knocked to 0 hit points to gain its benefits yourself.
 
 You can use this feature a number of times equal to your Wisdom modifier, and must complete a long rest before you do so again.
-
-
 
 
 <hr class="classdivider">
@@ -1390,8 +1328,6 @@ In addition to hindering your enemies in some way, some are also designed to har
 - **Twitchers (bag of 40)**. As an ***action***, you use a single bag of these tiny metal rods holding trace amounts of lightning energy to cover two 5 ft square areas. The first creature that enters an area must succeed on a Constitution saving throw or take 1 trick die of lightning damage from the small current running through them. A creature that fails this saving throw has disadvantage on the next attack it makes before the end of its next turn.
 
 </div>
-
-
 
 
 <hr class="classdivider">

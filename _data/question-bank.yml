@@ -1,0 +1,654 @@
+# Class Selector Question Bank
+# Questions designed to map player preferences to class/archetype traits.
+# Each question can influence multiple trait categories with different weights.
+
+# ========================================
+# MULTI-DIMENSIONAL TRAIT SCORING SYSTEM
+# ========================================
+#
+# CORE PRINCIPLE:
+# Every answer contributes positive or negative scores across MULTIPLE trait dimensions
+# simultaneously. This creates a nuanced profile showing both strengths (high scores)
+# and aversions (negative scores).
+#
+# HOW IT WORKS:
+#
+# 1. Each question can score multiple traits in different directions:
+#    Example:
+#      - id: healing-magic
+#        text: "Do you want to heal and protect your allies?"
+#        answers:
+#          "yes":
+#            healing-magic: +4      # Strong preference FOR healing
+#            damage-magic: -2       # Moderate aversion AGAINST damage
+#            utility-magic: +1      # Slight lean toward utility
+#          "no":
+#            healing-magic: -2      # Aversion to healing
+#            damage-magic: +4       # Strong preference for damage
+#
+# 2. Score Accumulation:
+#    - As player answers questions, each trait accumulates scores
+#    - current_score = sum(all_answers_affecting_this_trait)
+#    - Track min/max possible: What's the lowest/highest score achievable?
+#
+# 3. Percentage Calculation:
+#    - If possible range is -10 to +20:
+#      * Score of +15 = 83% alignment ((15 - (-10)) / (20 - (-10)) = 25/30)
+#      * Score of 0 = 33% alignment ((0 - (-10)) / 30 = 10/30)
+#      * Score of -8 = 7% alignment ((-8 - (-10)) / 30 = 2/30)
+#
+# 4. Matching to Classes:
+#    - Classes define which traits they need (e.g., Cleric needs healing-magic)
+#    - Player's score percentage in those traits determines class fit
+#    - Higher percentage in matched traits = better recommendation
+#
+# EXAMPLE FLOW:
+#   Questions asked:
+#     Q1: "Want to heal allies?" → YES → healing-magic: +4, damage-magic: -2
+#     Q2: "Want damage spells?" → NO  → healing-magic: +2, damage-magic: -4
+#     Q3: "Interested in magic?" → YES → utility-magic: +2
+#
+#   Player's accumulated scores:
+#     healing-magic: +6 (range -4 to +10) = 71% alignment
+#     damage-magic: -6 (range -10 to +8) = 22% alignment
+#     utility-magic: +5 (range -2 to +12) = 50% alignment
+#
+#   Class matching:
+#     Cleric (wants healing-magic): 71% match ✅
+#     Wizard (wants damage-magic): 22% match ❌
+#
+# KEY ADVANTAGES:
+#   - Natural questions ("Do you want X?") instead of rating scales
+#   - Shows both preferences AND aversions
+#   - Transparent scoring visible to players
+#   - One question influences multiple trait dimensions
+#   - Creates nuanced profiles, not binary categories
+
+
+# Magic Type Questions
+- id: healing-magic
+  text: "Do you want to heal and protect your allies?"
+  category: combat-style
+  answers:
+    "yes":
+      healing-magic: +4        # Direct preference for healing/support
+      utility-magic: +1        # Support often includes utility spells
+      damage-magic: -2         # Moderate opposition to offensive magic
+    "maybe":
+      healing-magic: +1        # Weak preference
+      utility-magic: +2        # Leans more toward utility
+      versatile-magic: +1      # Flexibility in approach
+    "no":
+      healing-magic: -2        # Rejection of healing role
+      damage-magic: +2         # Likely prefers offensive spells
+      control-magic: +1        # Alternative support style
+    dont-know: {}
+
+- id: magic-interest
+  text: "Are you interested in using magic?"
+  category: magic-preference
+  answers:
+    "yes":
+      versatile-magic: +4      # Broad magical interest
+      utility-magic: +1        # General magic includes utility
+      damage-magic: +1         # And damage
+      healing-magic: +1        # And healing
+      control-magic: +1        # And control
+      arcane-averse-magic: -4             # Strong opposition to non-magical
+    "maybe":
+      utility-magic: +2        # Some magical interest, practical
+      versatile-magic: +1      # Moderate breadth
+      arcane-averse-magic: -1             # Slight away from pure martial
+    "no":
+      arcane-averse-magic: +4             # Strong preference for non-magical
+      versatile-magic: -3      # Strong opposition to magic
+      damage-magic: -2         # Against magical damage
+      healing-magic: -2        # Against magical healing
+      utility-magic: -2        # Against magical utility
+    dont-know: {}
+
+- id: destructive-magic
+  text: "Do you want to deal damage with spells?"
+  category: magic-style
+  answers:
+    "yes":
+      damage-magic: +4         # Direct preference for offensive spells
+      versatile-magic: +1      # Damage is part of versatility
+      healing-magic: -2        # Moderate opposition to support
+    "maybe":
+      damage-magic: +1         # Some interest
+      versatile-magic: +2      # Flexibility preferred
+      utility-magic: +1        # Mixed magical interests
+    "no":
+      damage-magic: -2         # Not interested in offensive magic
+      utility-magic: +2        # Prefer other magic types
+      healing-magic: +1        # Maybe support instead
+      control-magic: +1        # Or battlefield control
+    dont-know: {}
+
+# Roleplay Questions
+- id: social-interaction
+  text: "Do you enjoy social interactions and negotiations?"
+  category: roleplay-style
+  answers:
+    "yes":
+      noble-background: +3     # Social skill suggests high-class upbringing
+      urban-background: +2     # Cities require social navigation
+      criminal-background: -1  # Less formal social interaction
+      rural-background: -2     # Rural life less social
+    "maybe":
+      urban-background: +2     # Moderate social environment
+      noble-background: +1     # Some social grace
+    "no":
+      rural-background: +2     # Prefers solitude
+      urban-background: -1     # Against city life
+      noble-background: -2     # Against formal society
+    dont-know: {}
+
+- id: character-backstory
+  text: "Do you want a complex character backstory and relationships?"
+  category: roleplay-depth
+  answers:
+    "yes": {}
+    "maybe": {}
+    "no": {}
+    dont-know: {}
+
+- id: moral-dilemmas
+  text: "Are you interested in moral dilemmas and character growth?"
+  category: roleplay-depth
+  answers:
+    "yes": {}
+    "maybe": {}
+    "no": {}
+    dont-know: {}
+
+# Origin Background Questions
+- id: military-background
+  text: "Does a military/guard background appeal to you?"
+  category: character-origin
+  answers:
+    "yes":
+      military-background: +4  # Direct preference
+      disciplined-value: +2  # Military training = discipline
+      urban-background: +1     # Guards often in cities
+      noble-background: +1     # Officers often noble
+    "maybe":
+      military-background: +1  # Some interest
+      urban-background: +2     # City guard compromise
+      disciplined-value: +1  # Some structure
+    "no":
+      military-background: -2  # Not interested
+      rural-background: +2     # Alternative: country life
+      criminal-background: +1  # Or outside law
+    dont-know: {}
+
+- id: noble-upbringing
+  text: "Do you want to come from a wealthy/noble family?"
+  category: character-origin
+  answers:
+    "yes":
+      noble-background: +4     # Direct preference
+      urban-background: +1     # Nobles usually in cities
+      criminal-background: -2  # Opposition to underworld
+    "maybe":
+      urban-background: +2     # Middle class city dweller
+      noble-background: +1     # Some wealth
+    "no":
+      noble-background: -2     # Rejection of aristocracy
+      rural-background: +2     # Common/rural folk
+      criminal-background: +1  # Or working class
+    dont-know: {}
+
+- id: wilderness-life
+  text: "Do you prefer a rural/wilderness background?"
+  category: character-origin
+  answers:
+    "yes":
+      rural-background: +4     # Direct preference
+      tribal-background: +1    # Wilderness often tribal
+      urban-background: -2     # Opposition to cities
+      noble-background: -1     # Less likely noble
+    "maybe":
+      rural-background: +2     # Some affinity
+      urban-background: +1     # But not opposed to civilization
+    "no":
+      urban-background: +3     # Prefers civilization
+      rural-background: -2     # Against wilderness
+    dont-know: {}
+
+- id: scholarly-pursuits
+  text: "Are you drawn to books, research, and scholarly pursuits?"
+  category: character-background
+  answers:
+    "yes":
+      scholarly-background: +4 # Direct preference
+      versatile-magic: +2      # Study often leads to magic
+      utility-magic: +1        # Research = utility
+      urban-background: +1     # Schools in cities
+      rural-background: -1     # Less common in countryside
+    "maybe":
+      scholarly-background: +1 # Some interest
+      urban-background: +2     # City educated
+      versatile-magic: +1      # Maybe dabbled in study
+    "no":
+      scholarly-background: -2 # Not interested in books
+      rural-background: +2     # Practical/hands-on learning
+      arcane-averse-magic: +1             # Less likely to study magic
+    dont-know: {}
+
+- id: criminal-past
+  text: "Does a criminal/underground background interest you?"
+  category: character-background
+  answers:
+    "yes":
+      criminal-background: +4  # Direct preference
+      urban-background: +2     # Underworld in cities
+      stealth-master: +1       # Criminal often stealthy
+      cunning-value: +1         # Need to be clever
+      noble-background: -2     # Opposition to aristocracy
+    "maybe":
+      urban-background: +2     # City life
+      criminal-background: +1  # Some edge
+      cunning-value: +1         # Street smart
+    "no":
+      criminal-background: -2  # Against illegal activities
+      noble-background: +2     # Law-abiding, maybe upper class
+      military-background: +1  # Or law enforcement
+    dont-know: {}
+
+# Group Dynamics Questions
+- id: team-leadership
+  text: "Do you want to be a natural leader who inspires others?"
+  category: group-dynamics
+  answers:
+    "yes":
+      military-background: +3  # Military leadership
+      noble-background: +2     # Noble born to lead
+      social-manipulator: +1   # Leadership requires social skills
+    "maybe":
+      noble-background: +1     # Some leadership
+      military-background: +1  # Or tactical role
+    "no":
+      criminal-background: +1  # Lone wolf
+      rural-background: +1     # Independent
+    dont-know: {}
+
+- id: mysterious-loner
+  text: "Do you prefer being mysterious and working alone?"
+  category: group-dynamics
+  answers:
+    "yes":
+      criminal-background: +3  # Loner fits underworld
+      stealth-master: +3       # Mystery suggests stealth
+      cunning-value: +2         # Clever to be mysterious
+      utility-magic: +1        # Self-sufficient magic
+      social-manipulator: -1   # Less social
+    "maybe":
+      cunning-value: +1         # Some mystery
+      stealth-master: +1       # Some secrecy
+    "no":
+      noble-background: +1     # Social connections
+      military-background: +1  # Team-oriented
+      social-manipulator: +1   # Enjoys company
+    dont-know: {}
+
+- id: elemental-power
+  text: "Are you drawn to elemental forces (fire, ice, lightning)?"
+  category: power-source
+  answers:
+    "yes":
+      damage-magic: +3         # Elements often destructive
+      elemental-affinity: +4   # Direct elemental connection
+      draconic-heritage: +2    # Dragons = elemental
+      versatile-magic: +1      # Elements cover multiple schools
+    "maybe":
+      versatile-magic: +2      # Some magical interest
+      elemental-affinity: +1   # Mild affinity
+    "no":
+      arcane-averse-magic: +2             # Against flashy magic
+      elemental-affinity: -2   # Not drawn to elements
+    dont-know: {}
+
+# Specific Trait Questions
+- id: weapon-mastery
+  text: "Do you want to specialize in mastering specific weapons?"
+  category: combat-specialization
+  answers:
+    "yes":
+      weapon-specialist: +4    # Direct preference
+      weapon-master: +3        # Master weapons
+      disciplined-value: +2  # Mastery requires discipline
+      arcane-averse-magic: +1             # Focus on weapons, not spells
+    "maybe":
+      physical-prowess: +2     # Some martial interest
+      weapon-specialist: +1    # Moderate specialization
+    "no":
+      versatile-magic: +2      # Prefer magic instead
+      arcane-averse-magic: -1             # Less weapon focus
+    dont-know: {}
+
+- id: tactical-thinking
+  text: "Do you prefer planning and strategy over instinctive action?"
+  category: combat-approach
+  answers:
+    "yes":
+      tactical-value: +4        # Direct preference for strategy
+      intellectual-combatant: +3 # Smart fighting
+      scholar-warrior: +2      # Study to fight better
+      disciplined-value: +1  # Discipline aids planning
+    "maybe":
+      tactical-value: +1        # Some planning
+      disciplined-value: +2  # Moderate structure
+    "no":
+      chaotic-value: +3       # Instinct over planning
+      intuitive-value: +2     # Gut feeling approach
+      raw-talent: +1           # Natural ability
+    dont-know: {}
+
+- id: innate-abilities
+  text: "Do you prefer natural, inborn talents over studied skills?"
+  category: power-origin
+  answers:
+    "yes":
+      innate-power: +4         # Direct preference for natural talent
+      raw-talent: +3           # Raw ability
+      intuitive-value: +3     # Instinctive magic use
+      magical-bloodline: +2    # Inborn magical heritage
+      versatile-magic: +1      # Natural magic often broad
+    "maybe":
+      dual-nature: +2          # Mix of natural and learned
+      utility-magic: +1        # Practical magic
+    "no":
+      scholar-warrior: +3      # Study over talent
+      magic-student: +3        # Learned magic
+      scholarly-background: +2 # Academic approach
+    dont-know: {}
+
+- id: physical-excellence
+  text: "Do you want to excel at physical feats and athletics?"
+  category: physical-focus
+  answers:
+    "yes":
+      athletic-excellence: +4  # Direct preference
+      physical-prowess: +3     # General physicality
+      pure-warrior: +2         # Physical over magical
+      arcane-averse-magic: +1             # Less focus on spells
+    "maybe":
+      physical-prowess: +1     # Some athleticism
+      dual-nature: +1          # Balance of physical and other
+    "no":
+      versatile-magic: +2      # Prefer magic
+      scholarly-background: +1 # Mental over physical
+    dont-know: {}
+
+- id: bloodline-heritage
+  text: "Are you interested in having a powerful ancestral bloodline?"
+  category: character-heritage
+  answers:
+    "yes":
+      magical-bloodline: +4    # Magical ancestry
+      draconic-heritage: +3    # Dragon blood common
+      proud-value: +3        # Pride in heritage
+      elemental-affinity: +2   # Elemental connection
+      noble-background: +1     # Often noble lines
+      tribal-background: +1    # Or tribal heritage
+    "maybe":
+      innate-power: +2         # Some natural ability
+      magical-bloodline: +1    # Possible heritage
+    "no":
+      rural-background: +2     # Common folk
+      scholarly-background: +1 # Learned not inherited
+    dont-know: {}
+
+- id: chaos-unpredictability
+  text: "Do you enjoy unpredictable and chaotic elements in gameplay?"
+  category: chaos-preference
+  answers:
+    "yes":
+      chaotic-value: +4       # Direct preference for chaos
+      unpredictable-power: +4  # Unpredictable magic
+      wild-surges: +4          # Wild magic surges
+      fate-touched: +2         # Luck/destiny
+      raw-talent: +1           # Unrefined ability
+    "maybe":
+      chaotic-value: +1       # Some chaos tolerance
+      raw-talent: +2           # Natural talent
+    "no":
+      disciplined-value: +3  # Order and structure
+      tactical-value: +2        # Planning over chaos
+      scholarly-background: +1 # Controlled approach
+    dont-know: {}
+
+- id: defensive-protection
+  text: "Do you want to focus on protecting yourself and others?"
+  category: defensive-focus
+  answers:
+    "yes":
+      healing-magic: +3        # Protection includes healing
+      natural-armor: +3        # Self-protection
+      pure-warrior: +2         # Tank warrior
+      disciplined-value: +2  # Defensive discipline
+      control-magic: +1        # Battlefield protection
+    "maybe":
+      utility-magic: +2        # Some protective utility
+      healing-magic: +1        # Moderate support
+    "no":
+      damage-magic: +2         # Offense over defense
+      chaotic-value: +1       # Aggressive play
+    dont-know: {}
+
+- id: dual-nature-balance
+  text: "Are you interested in combining multiple different abilities?"
+  category: versatility-preference
+  answers:
+    "yes":
+      dual-nature: +4          # Direct preference for hybrid
+      intellectual-combatant: +3 # Smart hybrid fighting
+      scholar-warrior: +2      # Study + combat
+      magic-student: +2        # Learn diverse skills
+      versatile-magic: +1      # Broad magical knowledge
+    "maybe":
+      versatile-magic: +1      # Some versatility
+      dual-nature: +1          # Moderate hybrid
+    "no":
+      pure-warrior: +3         # Focus on one thing
+      weapon-specialist: +1    # Specialize not generalize
+    dont-know: {}
+
+- id: ranged-combat
+  text: "Do you prefer fighting from a distance over close combat?"
+  category: combat-range
+  answers:
+    "yes":
+      ranged-expert: +4        # Direct ranged preference
+      crossbow-specialist: +2  # Specific ranged weapon
+      tactical-value: +1        # Range = tactical
+      damage-magic: +1         # Spells from distance
+    "maybe":
+      ranged-expert: +1        # Some ranged combat
+      versatile-magic: +1      # Mix of approaches
+    "no":
+      pure-warrior: +2         # Melee combat
+      athletic-excellence: +1  # Close combat athleticism
+    dont-know: {}
+
+- id: crafting-engineering
+  text: "Are you interested in crafting and engineering?"
+  category: technical-interest
+  answers:
+    "yes":
+      engineering-mind: +4     # Direct technical interest
+      craftsman-warrior: +4    # Crafting warrior
+      modern-value: +2       # Non-traditional approach
+      utility-magic: +1        # Practical magic use
+    "maybe":
+      engineering-mind: +1     # Some technical interest
+      craftsman-warrior: +1    # Some craft skills
+    "no":
+      pure-warrior: +2         # Traditional combat focus
+      arcane-averse-magic: +1             # Less technical/magical
+    dont-know: {}
+
+- id: sophisticated-approach
+  text: "Do you prefer sophisticated, technical solutions over brute force?"
+  category: problem-solving
+  answers:
+    "yes":
+      modern-value: +4       # Technical over brute
+      engineering-mind: +3     # Engineering solutions
+      tactical-value: +2        # Strategy over strength
+      intellectual-combatant: +2 # Smart fighting
+      utility-magic: +1        # Problem-solving magic
+    "maybe":
+      tactical-value: +2        # Some planning
+      modern-value: +1       # Some sophistication
+    "no":
+      pure-warrior: +4         # Brute force approach
+      physical-prowess: +1     # Physical solutions
+    dont-know: {}
+
+# Rogue-specific Questions
+- id: stealth-approach
+  text: "Do you prefer avoiding fights through stealth and cleverness?"
+  category: combat-avoidance
+  answers:
+    "yes":
+      stealth-master: +4       # Direct stealth preference
+      cunning-value: +3         # Cleverness required
+      opportunistic-value: +2        # Strike when advantageous
+      classic-rogue: +4        # Classic rogue approach
+      criminal-background: +1  # Stealth fits criminal
+    "maybe":
+      stealth-master: +1       # Some stealth use
+      cunning-value: +2         # Moderate cleverness
+      tactical-value: +1        # Thoughtful approach
+    "no":
+      pure-warrior: +2         # Direct combat
+      athletic-excellence: +1  # Physical confrontation
+    dont-know: {}
+
+- id: skill-versatility
+  text: "Do you want to be good at many different skills (lockpicking, persuasion, acrobatics)?"
+  category: character-versatility
+  answers:
+    "yes":
+      skill-expert: +4         # Direct skill focus
+      cunning-value: +3         # Smart skill use
+      social-manipulator: +2   # Persuasion included
+      lock-picker: +3          # Lockpicking mentioned
+      acrobatic: +2            # Acrobatics mentioned
+      fast-hands: +2           # Dexterity skills
+      urban-background: +1     # City skills
+    "maybe":
+      skill-expert: +2         # Some versatility
+      cunning-value: +1         # Some skill
+    "no":
+      weapon-specialist: +2    # Focus on combat
+      pure-warrior: +1         # Martial over skills
+    dont-know: {}
+
+- id: treasure-motivation
+  text: "Does the promise of treasure and riches motivate your character?"
+  category: character-motivation
+  answers:
+    "yes":
+      opportunistic-value: +4        # Motivated by gain
+      treasure-hunter: +4      # Direct treasure focus
+      criminal-background: +2  # Often criminal motivation
+      cunning-value: +1         # Smart about profit
+    "maybe":
+      opportunistic-value: +2        # Somewhat motivated
+      urban-background: +1     # City commerce
+    "no":
+      noble-background: +2     # Already wealthy
+      military-background: +1  # Duty over wealth
+      scholarly-background: +1 # Knowledge over gold
+    dont-know: {}
+
+# Archetype-specific Questions
+- id: patience-planning
+  text: "Do you prefer careful planning and patience over quick action?"
+  category: tactical-approach
+  answers:
+    "yes":
+      patient-value: +4       # Direct patience trait
+      tactical-value: +3        # Planning focus
+      disciplined-value: +1  # Discipline aids patience
+    "maybe":
+      tactical-value: +2        # Some planning
+      patient-value: +1       # Moderate patience
+    "no":
+      opportunistic-value: +2        # Quick action
+      chaotic-value: +1       # Spontaneous
+    dont-know: {}
+
+- id: deception-disguise
+  text: "Are you interested in deception, disguises, and false identities?"
+  category: social-manipulation
+  answers:
+    "yes":
+      disguise-master: +4      # Direct disguise focus
+      social-manipulator: +4   # Deception skill
+      cunning-value: +3         # Need to be clever
+      criminal-background: +1  # Often criminal trait
+    "maybe":
+      social-manipulator: +2   # Some deception
+      cunning-value: +1         # Some cleverness
+    "no":
+      disciplined-value: +2  # Honest/direct approach
+      noble-background: +1     # Honorable
+    dont-know: {}
+
+- id: magic-tricks
+  text: "Do you like the idea of using magic for tricks and illusions?"
+  category: magic-style
+  answers:
+    "yes":
+      utility-magic: +4        # Trick magic
+      illusion-specialist: +4  # Illusion focus
+      mage-hand-master: +3     # Specific trick spell
+      cunning-value: +2         # Clever magic use
+      versatile-magic: +1      # Varied magic
+    "maybe":
+      utility-magic: +2        # Some magic utility
+      versatile-magic: +1      # Moderate interest
+    "no":
+      arcane-averse-magic: +3             # Against magic
+      pure-warrior: +1         # Martial focus
+    dont-know: {}
+
+- id: study-vs-talent
+  text: "Do you prefer learning through study and books over natural talent?"
+  category: learning-style
+  answers:
+    "yes":
+      scholarly-rogue: +4      # Studied rogue
+      magic-student: +4        # Learned magic
+      intellectual-combatant: +3 # Smart fighter
+      scholarly-background: +2 # Academic
+      tactical-value: +1        # Study helps strategy
+    "maybe":
+      dual-nature: +1          # Mix of both
+    "no":
+      intuitive-value: +4     # Instinctive magic
+      innate-power: +3         # Natural ability
+      raw-talent: +3           # Untrained skill
+      chaotic-value: +1       # Spontaneous
+    dont-know: {}
+
+- id: lethal-force
+  text: "Are you comfortable with using lethal force when necessary?"
+  category: moral-approach
+  answers:
+    "yes":
+      death-dealer: +4         # Direct lethal focus
+      professional-killer: +3  # Assassin trait
+      disciplined-value: +1  # Pragmatic combat
+    "maybe":
+      tactical-value: +1        # Situation dependent
+    "no":
+      healing-magic: +3        # Prefer to save lives
+      control-magic: +1        # Subdue not kill
+      noble-background: +1     # Moral code
+    dont-know: {}

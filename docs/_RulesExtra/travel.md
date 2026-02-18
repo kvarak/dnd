@@ -170,4 +170,3 @@ A role can have only one leader, but any number of helpers. The leader makes the
 
 </div>
 
-

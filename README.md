@@ -19,4 +19,3 @@ Updates to the D&D page.
 </div> <!-- row -->
 </div> <!-- container -->
 
-

@@ -227,8 +227,6 @@ You can use this feature a number of times equal to your Charisma modifier, and 
 Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 16th level.
 
 
-
-
 <div class="card rest">
 <div class="card-title restHeading">Rest Additions</div>
 <div class="card-subtitle restPad">
@@ -248,7 +246,6 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 </div>
-
 
 
 ### Spellcasting
@@ -306,7 +303,6 @@ You learn two additional spells from any class at 15th level and again at 18th l
 
 ### Superior Inspiration
 At 20th level, when you roll initiative, you regain all uses of Bardic Inspiration.
-
 
 
 <h2><a class="internal-link" name="internal-bardicSongs">Bardic songs</a></h2>
@@ -406,7 +402,6 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
     **<a href="#internal-pathfinderChronicler">Pathfinder Chronicler</a>** - The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers, story-spinners, and recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance.
 
 
-
 -   ### Art of Manipulation
     Bards who master lying and manipulation.
 
@@ -434,12 +429,6 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
     **<a href="#internal-piedPiper">Pied Piper</a>** - Specialist in entrancing people, animals and vermin.
 
 
-
-
-
-
-
-
 -   ### Comedy and Simple Entertainment
     **<a href="#internal-fools">College of Fools</a>** - These bards use lowbrow stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from the crowds in a rundown dockside pub to the nobles of a king’s royal court.
 
@@ -451,7 +440,6 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
     **<a href="#internal-desire">College of Desire</a>** - Bards peerless in a particular art, and that art is infatuation.
 
     **<a href="#internal-purity">College of Purity</a>** - Despite living through many of the cruellest dangers the world has to offer, there are those who maintain that all conflicts can be resolved with the power of friendship. The bards of the College of Purity are united by their belief in this ideal, and use their performances to spread peace and harmony wherever they go.
-
 
 
 -   ### Touched by Otherworldly Forces
@@ -517,9 +505,6 @@ Learn two Illusion or Enchantment spells of your choice from any class. A spell 
 You are able to make a creature unaware of your magical influence on it. When you cast an Enchantment spell to charm one or more creatures, you can alter one creature's understanding so that it remains unaware of being charmed or that a spell has been cast.
 
 Additionally, when the spell expires, you can try to make the creature forget some of the time it spent charmed. The creature must succeed on an Intelligence saving throw against your bard spell save DC or lose a number of hours of memories up to 1 + your Charisma modifier. The amount of time can't exceed the duration of your spell, but you can choose the exact stretch of time lost.
-
-
-
 
 
 <hr class="classdivider">
@@ -602,8 +587,6 @@ You may also cast each of these spells once without expending a spell slot. If y
 You now use your sketchbook twice per day. Additionally, they now last a number of rounds equal to three times your Charisma modifier.
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-beasts">College of Beasts</a></h1>
 
@@ -651,10 +634,6 @@ Additionally, you can teach your animal companion, your familiar, and your steed
 
 ### Share Spells
 When you cast a spell targeting yourself, you can also affect your animal companion, your familiar and your steed with the spell if they are within 30 ft.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -734,10 +713,6 @@ Your mastery of light allows you to render yourself and others invisible, while 
 These illusions look perfect, but act very crudely as it is difficult to maintain concentration of the mannerisms of so many creatures. You may use an ***action*** to control any one of the illusions more specifically, but without your guidance they can do nothing more extravagant than stand and appear to repeat mindless tasks. After 10 minutes, the illusions disappear, but the invisibility lasts for one hour or until an invisible creature casts a spell or makes an attack.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-crossroads">College of Crossroads</a></h1>
 
@@ -802,8 +777,6 @@ You can draw additional power from your fiendish ally. After a short rest when y
 You can use your action to recover an expended spell slot of 5th level or lower. Once you use this ability, you can’t use it again until you finish a short or long rest.-->
 
 In addition, you learn the *infernal calling* spell, which counts as a bard spell for you and doesn’t count against the number of bard spells you know.
-
-
 
 
 <hr class="classdivider">
@@ -885,9 +858,6 @@ From 14th level, after you have used a Dance Flourish, you can grant up to three
 | Heavy      |    +1    |
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-desire">College of Desire</a></h1>
 
@@ -949,10 +919,6 @@ Each and every heart flutters at your presence. As an ***action***, you can exud
 Once you use this feature, you can't use it again until you finish a long rest.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-doors">College of Doors</a></h1>
 
@@ -993,7 +959,6 @@ Doors are not the only form of teleportation that you can achieve. As an ***acti
 
 ### Planar Door
 You can travel between any two Magic Doors regardless of their distance, and even between planes of existence.
-
 
 
 <hr class="classdivider">
@@ -1073,8 +1038,6 @@ Everything desires to be something else. As an ***action***, you can change one 
 You regain the use of this feature after a short rest.
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-eulogies">College of Eulogies</a></h1>
 
@@ -1094,7 +1057,6 @@ You regain the use of this feature after a short rest.
 Bards are masters of eliciting all types of emotion. They use their musical magic to make audiences feel longing for places they have never been and love for people long dead. Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and horror. They take their name from the speeches typically delivered in memory of the deceased, for they see themselves as bringers of death.
 
 Combined with a talent for necromancy magic, Eulogy bards wield the power of fear and despair to fill their foe's hearts with horror and bind restless spirits to their will.
-
 
 
 <div class="monster frame">
@@ -1184,9 +1146,6 @@ If your Spirit was destroyed within the last hour, you can expend a spell slot o
 The sadness and despair that you inflict upon your enemies cloys to them until it exacts its toll. When you use Misery from the Deep Despair feature, the inspiration is not lost if the target dies and you use Reap as a reaction immediately direct after.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-faith">College of Faith</a></h1>
 
@@ -1233,10 +1192,6 @@ If your chosen divine domain grants a Channel Divinity option at 6th level, you 
  **Dirge of the Divine**: As an ***action*** you sing a harrowing song which inspires fear in your foes. All creatures of your choice within 60 ft must make a wisdom saving throw against your spell save DC. On a failed save the creature takes 4d8 + your Charisma modifier psychic damage or half as much on a success. On a failed save, the creature is also frightened for 1 minute. Whenever the creature takes damage, it can repeat the save, ending the condition on a success.
 
  **Chords of the Choirs**: As an ***action*** you sing a song of holy inspiration. All creatures of your choice within 60 ft regain hit points equal to 4d8 + your Charisma modifier. Creatures affected by this ability are immune to fear and make all wisdom saving throws at advantage. These benefits last for 1 minute.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1310,10 +1265,6 @@ Whenever you are dealt lethal damage you may make a DC 15 Dexterity saving throw
 Even if a joke falls flat at first, you know how to get your audience laughing; it's all in the timing. A creature that has a Bardic Inspiration die from you can roll that die twice and take the higher result.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-glamour">College of Glamour</a></h1>
 
@@ -1365,7 +1316,6 @@ As a ***bonus action***, you can expend one use of your Bardic Inspiration to gr
 The number of temporary hit points increases when you reach certain levels in this class, increasing to 8 at 3th level, 11 at 6th level, and 14 at 14th level.
 
 
-
 ### Enthralling Performance
 You can charge your performance with seductive, fey magic.
 
@@ -1384,10 +1334,6 @@ Any creature charmed by you automatically fails its saving throw against the com
 Your appearance permanently gains an otherworldly aspect that makes you look more lovely and fierce.
 
 In addition, as a ***bonus action***, you can assume a magically majestic presence for 1 minute or until you are incapacitated. For the duration, whenever any creature tries to attack you for the first time on a turn, the attacker must make a Charisma saving throw against your spell save DC. On a failed save, it can’t attack you on this turn, and it must choose a new target for its attack or the attack is wasted.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1447,11 +1393,6 @@ You may use a ***bonus action*** to encourage an ally with 30 ft and refocus the
 You can use this feature a number of times equal to your Charisma modifier and can regain uses when you finish a long rest.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-lore">College of Lore</a></h1>
 
@@ -1490,10 +1431,6 @@ You learn two spells of your choice from any class. A spell you choose must be o
 
 ### Peerless Skill
 When you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the DM tells you whether you succeed or fail.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1552,10 +1489,6 @@ As an ***action***, you can create a droning, deafening noise with your instrume
 Additionally, if a creature within 30 ft is concentrating, it must make a successful Constitution saving throw against your spell save DC or lose concentration.
 
 After you use this ability, you must complete a short rest before using it again.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1666,8 +1599,6 @@ You can have a fourth mask. You have become a master of assuming the archetypes 
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-mirrors">College of Mirrors</a></h1>
 
@@ -1727,11 +1658,6 @@ This feature can not be used when the casting of the spell takes you by surprise
 You can use this feature a number of times equal to your Charisma modifier and can regain expended uses when you finish a long rest.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-portraiture">College of Portraiture</a></h1>
 
@@ -1782,11 +1708,6 @@ Whenever you cast a spell, you can use one of your portrait-soldiers as the poin
 Whenever you would take damage, you can use your ***reaction*** to sacrifice the life of one of your portrait-soldiers before the damage is applied. You gain temporary hit points equal to the portrait-soldier’s remaining hit points, and the portrait-soldier is destroyed.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-purity">College of Purity</a></h1>
 
@@ -1827,7 +1748,6 @@ The following additions are made to the general rest rules.
 Despite living through many of the cruellest dangers the world has to offer, there are those who maintain that all conflicts can be resolved with the power of friendship. The bards of the College of Purity are united by their belief in this ideal, and use their performances to spread peace and harmony wherever they go.
 
 It is said that this College was once founded by a talented princess, whose clarity of voice was matched only by her purity of heart. Variously imagined as a mermaid who longed for legs, a leader of a troupe of dwarves, and even a woman who could paint with the colors of the wind, her adventures are often told by these bards to set a positive example for children, bring hope to the hopeless, and quell the hostilities of others.
-
 
 
 <div class="monster frame">
@@ -1894,7 +1814,6 @@ The critters will attend to your requests for 1 hour, until they are 1 mile away
 Once you use this feature, you can't use it again until you finish a short rest.
 
 
-
 ### Comforting Melody
 You learn a mellifluous song that soothes friend and foe alike. As an ***action***, you can expend a use of your Bardic Inspiration to sing to creatures of your choice within 60 ft, that can hear you. The number of creatures you can sing to equals the number rolled on the Bardic Inspiration die.
 
@@ -1918,9 +1837,6 @@ Your virtue begins to attract spirits of true goodness. As an ***action***, you 
 Although the gentle unicorn will follow your commands, it only does so if they don't go against its alignment. Uncommanded, it focuses on protecting you. The gentle unicorn will leave you after 1 hour or after it drops to O hit points. It will also leave your side 1 minute after it enters combat, regardless of when it was summoned. When it leaves, it disappears in a shower of buttercups and daisies, and anything it was carrying floats harmlessly to the ground.
 
 Once you use this feature, you can't use it again until you finish a long rest.
-
-
-
 
 
 <hr class="classdivider">
@@ -1962,10 +1878,6 @@ Your words and songs send creatures into a state of ecstasy. You can use your **
 While stunned, the creature is in state of pure ecstasy of your choosing. It could be a drunken stupor, uncontrollable laughter, sensual hallucinations, or overwhelming pleasure.
 
 When you use this feature, you can choose to expend an additional use of bardic inspiration to impose disadvantage on the target's initial saving throw.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -2040,10 +1952,6 @@ You have carefully built up a network of informants who you can contact from alm
 	- other settlements or cultures nearby
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-shanties">College of Shanties</a></h1>
 
@@ -2101,9 +2009,6 @@ When you run out of breath or are choking, you can survive for a number of round
 The very act of striking you down is enough to invoke a supernatural curse on whoever dared attack a shantyman. If you are reduced to 0 hit points or incapacitated against your will, you can immediately cast a 9th level bestow curse spell against a target within 60 ft, without expending a spell slot nor using an action.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-tales">College of Tales</a></h1>
 
@@ -2148,10 +2053,10 @@ Your training as a bard of the College of Tales enables you to make stories and 
 
 | Bard Level | Spells |
 |:----------:|:--------|
-| 3rd | _find steed, healing spirit_
-| 5th | _conjure animals, fallen soul_
-| 7th | _conjure woodland beings, find greater steed_
-| 9th | _conjure elemental, insect plague_
+| 3rd | *find steed, healing spirit*
+| 5th | *conjure animals, fallen soul*
+| 7th | *conjure woodland beings, find greater steed*
+| 9th | *conjure elemental, insect plague*
 
 ### Song of Triumph
 Your tales of victory in the face of overwhelming odds inspire your allies and egg them on to ever greater heroics. Whenever a creature you can see within 60 ft scores a critical hit, you can use your ***reaction*** to celebrate their accomplishment, granting them one Bardic Inspiration die which lasts until the end of the creature's next turn. This ability does not require you to expend a use of your Bardic Inspiration.
@@ -2161,12 +2066,6 @@ Your Bardic Inspiration magically imbues your allies with the aspect of heroes o
 
 ### Makers of Truths
 Any creature that you summon or create with a spell is automatically granted a Bardic Inspiration die.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -2207,8 +2106,6 @@ You can attack twice, instead of once, whenever you take the Attack action on yo
 Your desire to become a true legend will never die. You are immune to the frightened condition, and whenever you make a death saving throw you can choose to expend a bardic inspiration and add it to your roll.
 
 In addition, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a ***bonus action***.
-
-
 
 
 <hr class="classdivider">
@@ -2257,7 +2154,6 @@ If you speak to a humanoid alone for at least 1 minute, you can attempt to seed 
 If the target succeeds on its saving throw, the target has no hint that you tried to frighten it.
 
 
-
 ### Psychic Blades
 You gain the ability to make your weapon attacks magically toxic to a creature’s mind.
 
@@ -2284,12 +2180,6 @@ On a failed saving throw, the target is charmed by you for the next 8 hours or u
 The charmed creature obeys your commands for fear that you will reveal its secret. It won’t risk its life for you or fight for you, unless it was already inclined to do so. When the effect ends, the creature has no understanding of why it held you in such fear.
 
 Once you use this feature, you can’t use it again until you finish a long rest.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -2344,9 +2234,6 @@ Your soul strings can attach to the bodies of dead creatures and inanimate objec
 The duration of this spell is a number of rounds equal to the number rolled on the Bardic Inspiration die and does not require concentration.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-pathfinderChronicler">Pathfinder Chronicler</a></h1>
 
@@ -2382,7 +2269,6 @@ In addition, if you take 1 hour to pack your gear each day, you gain a +4 bonus 
 Finally, you have advantage on checks made to conceal small objects on your person.
 
 
-
 ### Epic Tales
 Your retelling of the ancient tales of old are so evocative and so moving that it allows you to summon echoes of the legends. As an ***action***, you can expend up to three Bardic Inspiration dice to tell the tale of a deceased legendary figure. You can only have one Echo active at a time, and each Echo lasts for 1 minute. The Echo has hit points equal to double your Charisma modifier, plus the number rolled on your Bardic Inspiration dice. The Echo takes its turn immediately after yours, has a speed of 30 ft, and follows mental directions you issue (no action required by you). It either takes the form of the Warrior or the Wizard, your choice each time you use this feature.
 
@@ -2398,11 +2284,6 @@ A Pathfinder chronicler develops an excellent sense of direction and skill at le
 
 ### Greater Epic Tales
 You may have two Echoes active at once – either two Warriors, or one Warrior and one Wizard. Each can be commanded separately or together. The echo of a Wizard takes its turn before the Warrior, though both still take their turns just after yours.
-
-
-
-
-
 
 
 <hr class="classdivider">

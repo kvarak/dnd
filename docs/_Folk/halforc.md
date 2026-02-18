@@ -94,7 +94,6 @@ In addition you can choose (or roll with 20% chance each) any of the following t
 </div>
 
 
-
 ## <a class="internal-link" name="internal-class">Half-Orc Class Options</a>
 
 A half-orc approaches some classes is a bit different than other races. When you select one of these classes, it is modified as follows:
@@ -272,8 +271,4 @@ A half-orc approaches some classes is a bit different than other races. When you
     <hr class="dividerinfolk">
 
 </div>
-
-
-
-
 

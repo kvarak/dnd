@@ -1,6 +1,20 @@
 ---
 title: Fighter
 layout: default
+profile:
+  generic:
+    magicType: "none"
+    originBackground: ["military", "rural", "urban"]
+  specific: ["disciplined-value", "tactical-value", "physical-prowess", "weapon-specialist"]
+  archetypes:
+    champion:
+      specific: ["pure-warrior", "weapon-master", "athletic-excellence"]
+    eldritch-knight:
+      generic:
+        magicType: "utility"
+      specific: ["scholar-warrior", "magic-student", "dual-nature", "intellectual-combatant"]
+    arbalestion:
+      specific: ["crossbow-specialist", "ranged-expert", "engineering-mind", "craftsman-warrior", "modern-value"]
 ---
 
 <div class="toc" markdown="1">
@@ -10,9 +24,9 @@ layout: default
 <a href="#internal-arbalestion">Arbalestion</a><br/>
 <a href="#internal-ArcaneArcher">Arcane Archer</a><br/>
 <a href="#internal-bulwark">Bulwark</a><br/>
-<a href="#internal-Champion">Champion</a><br/>
+<a href="#internal-champion">Champion</a><br/>
 <a href="#internal-daredevil">Daredevil</a><br/>
-<a href="#internal-EldritchKnight">Eldritch Knight</a><br/>
+<a href="#internal-eldritchKnight">Eldritch Knight</a><br/>
 <a href="#internal-guerilla">Guerilla</a><br/>
 <a href="#internal-ghostOperative">Ghost Operative</a><br/>
 <a href="#internal-juggernaut">Juggernaut</a><br/>
@@ -313,9 +327,9 @@ Different fighters choose different approaches to perfecting their fighting prow
 - **<a href="#internal-ArcaneArcher">Arcane Archer</a>** - A fighter combining archery with magic.
 - **<a href="#internal-Brute">Brute</a>** - The Brute's way of fighting is simple: Pick up the biggest, heaviest thing you can find, and squash your enemies with it.
 - **<a href="#internal-bulwark">Bulwark</a>** - Bulwarks shine as defensive warriors.
-- **<a href="#internal-Champion">Champion</a>** - The Champion focuses on the development of raw physical power honed to deadly perfection.
+- **<a href="#internal-champion">Champion</a>** - The Champion focuses on the development of raw physical power honed to deadly perfection.
 - **<a href="#internal-daredevil">Daredevil</a>** - Your fighting style is memorable and displays the full range of your training.
-- **<a href="#internal-EldritchKnight">Eldritch Knight</a>** - The Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic.
+- **<a href="#internal-eldritchKnight">Eldritch Knight</a>** - The Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic.
 - **<a href="#internal-ghostOperative">Ghost&nbsp;Operative</a>** - Ghost Operatives are the elite scouts and strike force of a well-trained military unit.
 - **<a href="#internal-guerilla">Guerilla</a>** - Experts in adapting to any environment and situation.
 - **<a href="#internal-kindler">Kindler</a>** - Kindlers are fighters who choose to bear a torch for others, both a symbolic flame which signifies guidance, protection, and life, as well as a literal one.
@@ -377,8 +391,6 @@ Attacks you make with crossbows increase their crit range by 1, scoring a critic
 You can turn a regular crossbow bolt into a deadly explosive. This process consumes material components worth at least 500 gp, such as a ruby, dragon scales or the heart of a fire giant that explodes in a large area on impact. You can craft one of these bolts during a long rest by making a DC 15 Intelligence (Crossbow making).
 
 As an ***action***, you can choose one creature or object with range and within your line of sight and fire your ordnance bolt. That creature or object and all creatures in a 40 ft radius must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Dexterity modifier with the original target having disadvantage on the saving throw. All creatures take 10d10 fire damage on a failed save, or half as much damage on a successful one. Objects take double damage from this attack.
-
-
 
 
 <hr class="classdivider">
@@ -490,7 +502,6 @@ If an option requires a saving throw, your Arcane Shot save DC equals 8 + your p
 </div>
 
 
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-bulwark">Bulwark</a></h1>
 <div class="featuresTable">
@@ -531,12 +542,8 @@ You cannot be shoved or knocked prone.
 You are a master amongst Stalwarts. Your Guardian Stance feature can affect creatures within 10 feet.
 
 
-
-
-
-
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Champion">Champion</a></h1>
+<h1><a class="internal-link" name="internal-champion">Champion</a></h1>
 <div class="featuresTable">
 
 #### Champion Features
@@ -566,11 +573,6 @@ Your weapon attacks score a critical hit on a roll of 18-20.
 
 ### Survivor
 You attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -617,13 +619,8 @@ When you hit the same creature at least twice on your turn with two different we
 Each time you reduce a creature to 0 hit points, you may move up to your speed and make an additional attack that doesn’t count against your number of attacks for the turn.
 
 
-
-
-
-
-
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-EldritchKnight">Eldritch Knight</a></h1>
+<h1><a class="internal-link" name="internal-eldritchKnight">Eldritch Knight</a></h1>
 <div class="featuresTable">
 
 #### Eldritch Knight Features
@@ -728,14 +725,6 @@ Gain the ability to teleport up to 30 ft to an unoccupied space you can see when
 When you use your action to cast a spell, you can make one weapon attack as a ***bonus action***.
 
 
-
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-ghostOperative">Ghost Operative</a></h1>
 <div class="featuresTable">
@@ -782,9 +771,6 @@ You have learned tricks to help you enter and move about target sites quietly. Y
 
 ### Sudden Strike
 You can quickly neutralize a target if you can get the drop on them. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit. If the target’s remaining hp is less than twice your fighter level, you can choose to knock them out instead. If you do, you deal no damage, but the creature falls unconscious.
-
-
-
 
 
 <hr class="classdivider">
@@ -861,8 +847,6 @@ The following maneuvers are available only to the Guerrilla archetype. Guerrilla
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-juggernaut">Juggernaut</a></h1>
 <div class="featuresTable">
@@ -907,9 +891,6 @@ When you successfully shove away a creature that you are grappling, you can move
 As an ***action***, you can gain enough momentum to smash through walls. This creates an effect similar to the *passwall* spell, but the opening you create is permanent and causes instability in the structure surrounding it.
 
 Additionally, any creature within 15 ft of the opposite opening takes 4d8 bludgeoning damage and is knocked prone. Once you use this feature, you must finish a long rest before you can use it again.
-
-
-
 
 
 <hr class="classdivider">
@@ -958,10 +939,6 @@ The flames that live inside of you burst out when you push yourself to your limi
 
 ### Eternal Ember
 There are no longer any limits on how often you can use your Living Flame.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1095,7 +1072,6 @@ Below are the runic augmentations for each of the five master runes. In the anci
 </div>
 
 
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-sellsword">Sellsword</a></h1>
 <div class="featuresTable">
@@ -1142,10 +1118,6 @@ When a creature you can see takes a critical hit, you can use your ***reaction**
 If this attack reduces the creature to 0 hit points, you can gloat about it as part of this reaction and gain temporary hit points equal to your fighter level.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Skirmisher">Skirmisher</a></h1>
 <div class="featuresTable">
@@ -1177,11 +1149,6 @@ Your base speed increases by 5 ft and you become proficient with Dexterity savin
 
 ### Whirlwind attack
 As an **action**, you may make an attack against every enemy within your reach. Each enemy can only be attacked once.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1287,12 +1254,6 @@ Gain the ability to cast any ritual you learned though this archetype as an ***a
 Once you use this feature, you must finish a long rest before you can use it again.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-thingSlinger">Thing Slinger</a></h1>
 <div class="featuresTable">
@@ -1364,9 +1325,6 @@ You must repeat this check whenever you attempt to use a creature in this way fo
 This deals type deal an additional 2d4 damage on a hit per size tier of the creature being used (Small = 2d4, Medium = 4d4), and the total amount of damage dealt is also dealt to them. The additional damage is not applied if the creature is dead.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-underdog">Underdog</a></h1>
 <div class="featuresTable">
@@ -1413,7 +1371,6 @@ In addition, you gain temporary hit points equal to your fighter level whenever 
 Your ferocity in a tight spot is truly terrifying. You can use your Action Surge up to twice in one turn when you have at least a +2 bonus through your Hackles Up feature.
 
 At the end of your turn after using this feature, you gain 2 levels of exhaustion, but you also gain a +1 bonus to your Intimidation skill for every level of exhaustion you have.
-
 
 
 <hr class="classdivider">
@@ -1609,7 +1566,6 @@ The following maneuvers are available only to a Tinker knight. Tinker knights fo
 </div>
 
 
-
 <hr class="classdivider">
 <h2><a class="internal-link" name="internal-warslingSniper">Restricted to Halfling characters</a></h2>
 <h1>Warsling Sniper</h1>
@@ -1656,8 +1612,6 @@ Your sling attacks score a critical hit on a roll of 19-20.
 
 ### Exploiting Shot
 When you score a critical hit with a sling against a target, you can choose to give that target disadvantage on attack rolls and ability checks, the blinded condition, or the deafened condition until the start of your next turn, or you can choose to make the target fall prone.
-
-
 
 
 <h2><a class="internal-link" name="internal-FightingStyles">Fighting Styles</a></h2>
@@ -1741,8 +1695,6 @@ Whenever you gain a level in a class that has the Fighting Style feature, you ca
     While you wield a weapon with reach, creatures must spend twice the normal movement within 10 ft of you.
 
 </div>
-
-
 
 
 <h2><a class="internal-link" name="internal-combatManeuvers">Maneuvers</a></h2>

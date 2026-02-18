@@ -299,5 +299,3 @@ Lizardfolk approach some classes a bit different compared to other races. When y
 
 </div>
 
-
-

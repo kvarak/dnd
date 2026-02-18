@@ -253,12 +253,6 @@ At 20th level, you can draw on your inner reserve of mystical power while entrea
 Once you regain spell slots with this feature, you must finish a long rest before you can do so again.
 
 
-
-
-
-
-
-
 <h2><a class="internal-link" name="internal-OtherworldlyPatrons">Otherworldly Patrons</a></h2>
 
 The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence - not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return.
@@ -340,9 +334,6 @@ Some of the patrons are described very generally, but that only means that the p
     **<a href="#internal-weaverLies">The Weaver of Lies</a>**. The speech of a god is the act of creation itself, but what happens when the gods lie? The small accumulated deceptions come together, forming a creature of webs and treachery, lies and deceit. It is called the Weaver, but it is a being woven from the lies of the gods themselves. Its influence is felt each day in the small comforts one tells oneself to the greatest of blasphemies against the divine concordant. You have joined its servants in your lust for power or desire to forget.
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -480,10 +471,6 @@ If they fail, the dark tendrils of the creature dig into their skin with unnervi
 
 ### Leaving the Archive
 The party can depart from the Archive by returning to the central hall and striking the small bell located beside the Index as an action. Each person striking the bell instantly departs and returns to the location from which they entered the Archive, with no time having passed from the moment they left.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -966,8 +953,6 @@ Warlocks who have been given the Pact of the Chain can choose to have either of 
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-archfey">The Archfey</a></h1>
 <div class="featuresTable">
@@ -1057,10 +1042,6 @@ The following invocations are granted by the Archfey to its warlocks.
     If a creature carrying your talisman is charmed by a spell cast through it, the creature must make a Wisdom saving throw against your warlock spell save DC once the spell ends. On a failed save, the creature does not recognise your talisman as the source of the spell even if the creature would have reason to suspect it.
 
 </div>
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1277,8 +1258,6 @@ The following familiar is available to the Ashen who have selected the Pact of t
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-blackthornGrove">The Blackthorn Grove</a></h1>
 <div class="featuresTable">
@@ -1440,8 +1419,6 @@ The following familiar is available to Thornhearted warlocks who have selected t
     </div>
 
 </div>
-
-
 
 
 <hr class="classdivider">
@@ -1621,10 +1598,6 @@ The following invocations are granted by the Cosmic Machine to its warlocks.
 </div>
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-crone">The Crone</a></h1>
 <div class="featuresTable">
@@ -1723,9 +1696,6 @@ The following invocations are granted by the Crone to its warlocks.
 </div>
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-dagon">Dagon, Prince of Depths</a></h1>
 <div class="featuresTable">
@@ -1780,8 +1750,6 @@ The following invocations are granted by Dagon to its warlocks.
     Your swimming speed increases by 10 ft. While in water, friendly creatures within 30 ft gain a swimming speed equal to their movement speed.
 
 </div>
-
-
 
 
 <hr class="classdivider">
@@ -1955,8 +1923,6 @@ The following familiar is available to Gravebound warlocks who have selected the
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-dispater">Dispater, Lord of Dis</a></h1>
 <div class="featuresTable">
@@ -1986,11 +1952,6 @@ You can concentrate on up to two abjuration spells at the same time. However, wh
 
 ### Iron Flesh
 You gain resistance one of the following damage types: piercing, slashing, or bludgeoning. Once you make this choice, it cannot be changed. This invulnerability can only be overcome by a weapon that is both magic and silver.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -2181,11 +2142,6 @@ The following familiar is available to Emergent Mind patron warlocks who have se
 </div>
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-eternalCitadel">The Eternal Citadel</a></h1>
 <div class="featuresTable">
@@ -2360,11 +2316,6 @@ The following familiar is available to Eternal Citadel patron warlocks who have 
     </div>
 
 </div>
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -2582,7 +2533,6 @@ The following familiar is available to warlocks of the Fallen, who have selected
 </div>
 
 
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-fiend">The Fiend</a></h1>
 <div class="featuresTable">
@@ -2649,9 +2599,6 @@ The following invocations are granted by the Fiend to its warlocks.
     Within the next 7 days, you can cast a single spell that targets or is centered on the branded creature, as long as they are on the same plane of existence, after which the effect ends and the mark fades. This effect will also end if you brand another creature, or if the remove curse spell is cast on the creature.
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -2750,9 +2697,6 @@ The following invocations are granted by the Great Old One to its warlocks.
 
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -2912,9 +2856,6 @@ The following familiar is available to Serpent Empress patron warlocks who have 
 </div>
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-hive">The Hive</a></h1>
 <div class="featuresTable">
@@ -2991,9 +2932,6 @@ The following invocations have been added as additions for the Hive patron.
     You can perform a 10 minute ritual while holding your Book of Shadows to commune with all insects within 3 miles. This effect is similar to the *commune with nature* spell, however a group of insects will also lead you along the shortest path to one location of your choice, and you gain advantage on Perception and Survival checks while you remain within 30 ft of this guiding insect swarm.
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -3155,7 +3093,6 @@ The following familiar is available to warlocks of the Formless One, who have se
     </div>
 
 </div>
-
 
 
 <hr class="classdivider">
@@ -3320,10 +3257,6 @@ Young Sea Drake
 </div>
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-levistus">Levistus, Lord of Stygia</a></h1>
 <div class="featuresTable">
@@ -3386,9 +3319,6 @@ The following invocations are granted by Levistus to its warlocks.
     Once you use this invocation, you can’t use it again until you finish a short rest.
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -3562,9 +3492,6 @@ The following invocations can be chosen by warlocks with the Monstrosity patron.
     You may return your familiar to its original size by using another action to do so. Once you use this ability, you require a short rest before you may use it again.
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -3786,10 +3713,6 @@ The following familiar is available to Wild Huntsman warlocks who have selected 
 </div>
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-pharaoh">The Pharaoh</a></h1>
 <div class="featuresTable">
@@ -3890,10 +3813,6 @@ The following invocations are granted by the Pharaoh to its warlocks.
 </div>
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-seducer">The Seducer</a></h1>
 <div class="featuresTable">
@@ -3951,8 +3870,6 @@ The following invocations are granted by the Seducer to its warlocks.
     You can cast *disguise* on yourself at will, without expending a spell slot.
 
 </div>
-
-
 
 
 <hr class="classdivider">
@@ -4128,9 +4045,6 @@ The following familiar is available to Shadowcat warlocks who have selected the 
 </div>
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-stormLord">The Storm Lord</a></h1>
 <div class="featuresTable">
@@ -4301,10 +4215,6 @@ The following familiar is available to servants of the Storm Lord, who have sele
 </div>
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-undying">The Undying</a></h1>
 <div class="featuresTable">
@@ -4385,9 +4295,6 @@ The following invocations are granted by the Undying to its warlocks.
 </div>
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-vampire">Vampire</a></h1>
 <div class="featuresTable">
@@ -4453,9 +4360,6 @@ The following invocations are granted by the Vampire to its warlocks.
     As an ***action***, you may target one undead creature you can see within 30 ft. The target must make a Wisdom saving throw against your spell DC. On a failed save, the target must obey your commands for the next 24 hours. An undead creature whose challenge rating is equal to or greater than your level is immune to this effect. Once you use this ability, you may not do so again until you complete a long rest.
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -4531,7 +4435,6 @@ The creature remains completely unaware that you have acted upon it and feels ce
 Once you attempt to magically ensnare a creature, you can’t do so again until you finish a long rest.
 
 
-
 ### Patron Invocations
 The following invocations are granted by the Weaver of Lies to its warlocks.
 
@@ -4562,11 +4465,6 @@ The following invocations are granted by the Weaver of Lies to its warlocks.
 </div>
 
 
-
-
-
-
-
 ### Pact of the Chain Familiar
 The following familiar is available to Spidersworn who have selected the Pact of the Chain feature.
 
@@ -4574,7 +4472,6 @@ The following familiar is available to Spidersworn who have selected the Pact of
 
 - #### Shade Widow
     The shade widow is an eerily silent spider-shaped construct made entirely of animate webbing and shaped obsidian. Created by the Weaver of Lies as assassins, these deadly objects are used to tie up loose ends wherever they arise. They’ll often lie in wait under the beds of unsuspecting victims before emerging to bite with fangs coated in magical poison. Acolytes of the Weaver are fond of them due to their ability to create massive webs, making them invaluable while fleeing from an angry mob after the lies they’ve spun fall to tatters.
-
 
 
 -   <div class="monster multimonster frame">
@@ -4635,8 +4532,6 @@ The following familiar is available to Spidersworn who have selected the Pact of
     </div>
 
 </div>
-
-
 
 
 <h2><a class="internal-link" name="internal-invocations">Eldritch Invocations</a></h2>
@@ -5125,7 +5020,6 @@ The following invocations grant extra spells, that can usually be used at will, 
 </div>
 
 
-
 <h2><a class="internal-link" name="internal-boon">Pact Boons</a></h2>
 
 In the long, storied history of outsiders meddling with and granting power to mortals, no two pacts struck have ever been exactly the same. Mortals are creatures of many needs, some being far more important than others. Most patrons by their nature are providing sorts, and tend to give the mortals at least a semblance of what they desire if only to more fully ensure that the mortals are willing and alive long enough to fulfill their patron's dread will.
@@ -5277,8 +5171,6 @@ The following invocations are unique to warlocks with the Pact of the Bastion.
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-PactoftheBlade">Pact of the Blade</a></h1>
 <div class="featuresTable">
@@ -5354,8 +5246,6 @@ The following invocations are unique to warlocks with the Pact of the Blade.
     Whenever you hit a hostile creature with your pact blade, you can use a ***bonus action*** to gain a number of temporary hit points equal to half the damage dealt.
 
 </div>
-
-
 
 
 <hr class="classdivider">
@@ -5460,9 +5350,6 @@ The following invocations are unique to warlocks with the Pact of the Chain.
 </div>
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-PactoftheCowl">Pact of the Cowl</a></h1>
 <div class="featuresTable">
@@ -5520,11 +5407,6 @@ The following invocations are unique to warlocks with the Pact of the Cowl.
   Your Cowl provides unnatural warmth, functioning as cold weather gear and making you comfortable in frigid environments. You gain resistance to cold damage while wearing the Cowl.
 
 </div>
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -5585,9 +5467,6 @@ The following invocations are unique to warlocks with the Pact of the Evil Eye.
     When you see a creature cursed by you making an attack, you can use your ***reaction*** to impose disadvantage on the roll. If the attack hits, the cursed creature takes 2d10 psychic damage.
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -5656,10 +5535,6 @@ The following invocations are unique to warlocks with the Pact of the Talisman.
     You can use your ***bonus action*** to swap places with your talisman, as long as it is within 60 feet of you. Alternatively, you can use this feature to swap places with a willing creature holding your talisman within this range. Once you use this feature, you can't do so again until you finish a short rest.
 
 </div>
-
-
-
-
 
 
 <hr class="classdivider">

@@ -36,7 +36,6 @@ Cavaliers learn the art of combat with restraint. A cavalier must follow a code 
 A cavalier always acts in accordance with the strictest tenets of honor and follows a personal code of chivalry. Cavaliers act with caution and care not to harm those who cannot defend themselves, nor do they strike a foe unprepared. Honorable combat is the only form of combat known to a cavalier, even when it is to the cavalier’s personal detriment. Cavaliers are dedicated to the cause of chivalry, and their order. As trained soldiers, they are taught to bring honor to themselves, their families, and their order or kingdom.
 
 
-
 ### Adventuring
 An adventuring cavalier often uses their training on their adventures across the world, bringing honor and renown to the order that trained them, as well as safety to those in need. A cavalier is driven by a sense of duty to protect those who cannot protect themselves and to fight against those who threaten innocent people.
 
@@ -159,7 +158,6 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 </div>
-
 
 
 ### Mounted Expert
@@ -327,14 +325,6 @@ From 15th level, if you are under the effect of a spell or ability that a succes
 At 18th level, whenever you use Challenge, Battlefield Inspiration or Bolstering Conviction,  you gain advantage on your attack rolls and saving throws until the start of your next turn.
 
 
-
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-blueRose">Order of the Blue Rose</a></h1>
 
@@ -392,10 +382,6 @@ At 18th level, you gain an expert sense of impending violence around you. When t
 In addition, while dodging, when an attacker that you can see hits you or an adjacent ally with an attack, you can use your reaction to halve the attack's damage.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-dragon">Order of the Dragon</a></h1>
 
@@ -443,9 +429,6 @@ Beginning at 15th level, you can extend the benefit of your Indomitable feature 
 At 18th level, you gain an expert sense of impending violence around you. When taking the Dodge action, you can extend your protection to those around you. Until the start of your next turn, your adjacent allies bonuses are considered as if they had taken the Dodge action.
 
 In addition, while dodging, when an attacker that you can see hits you or an adjacent ally with an attack, you can use your reaction to halve the attack's damage.
-
-
-
 
 
 <hr class="classdivider">
@@ -499,9 +482,6 @@ At 15th level, you can spend a superiority to increase your base speed by 10 fee
 At 18th level, you can, as a ***bonus action***, declare a moment of triumph. Until the start of your next turn, you have advantage on all ability checks, attack rolls, damage rolls and saving throws. Once you use this ability, you can't use it again until you finish a short rest.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-lion">Order of the Lion</a></h1>
 
@@ -549,9 +529,6 @@ Beginning at 15th level, your weapon attacks score a critical hit on a roll of 1
 At 18th level, you can protect those around you. Allies that are adjacent to the you receive a +1 bonus to AC.
 
 In addition, as a ***reaction***, you can redirect an attack made at a creature adjacent to you, as long as the creature making the attack is within reach. This ability must be declared before the attack roll is made.
-
-
-
 
 
 <hr class="classdivider">
@@ -608,9 +585,6 @@ From 15th level, you can formally witness an oath or agreement between two creat
 At 18th level, you can tell if people are lying around you. As an ***action*** you can create a *zone of truth* around you. The save DC is equal to the result of your Insight skill check. Once you use this ability, you can't use it again until you finish a long rest.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-shield">Order of the Shield</a></h1>
 
@@ -638,7 +612,6 @@ Cavaliers of the Shield share the following edicts.
 * He must take no action that would cause harm or hardship to those who cannot defend themselves.
 
 
-
 ### Bonus Skills
 Add *Medicine* to your class skills. In addition, gain 1 skill point to spend on the *Leadership* skill.
 
@@ -663,8 +636,6 @@ At 15th level, you can inspire bravery in the hearts of your allies and wards. E
 
 ### Protect the Meek
 At 18th level, you can move to intercept foes. When a foe makes an action, as a ***reaction***, you can move up to your speed (or your mount's speed, if mounted) and make a single melee attack. This movement provokes opportunity attacks as normal. You must end your movement adjacent to an enemy. Once you use this ability, you can't use it again until you finish a short rest.
-
-
 
 
 <hr class="classdivider">
@@ -713,9 +684,6 @@ At 15th level, you can inspire bravery in the hearts of allies of your faith. Ea
 
 ### Retribution
 At 18th level, you can take retribution on those who dare to strike an agent of his faith. Whenever an enemy makes a successful melee attack against you or an adjacent ally devoted to the same faith, you can use your ***reaction*** to strike the enemy. You have advantage on this attack. If the attack made by the enemy was a critical hit, you have advantage on any damage rolls resulting from your reaction as well.
-
-
-
 
 
 <hr class="classdivider">
@@ -807,7 +775,6 @@ The following maneuvers cost 2 superiority to use, or 1 if mounted.
     | 17th | 4d12 + cavalier level
 
 
-
 -   #### Riposte
     When a creature misses you with a melee attack, you can use your ***reaction*** to make a melee weapon attack against the creature. If you hit, add your superiority die to the damage roll.
 
@@ -818,6 +785,4 @@ The following maneuvers cost 2 superiority to use, or 1 if mounted.
     When you make a Charisma check to influence other creatures that you share a language with, add your superiority die to the ability check. You can do this after the roll, but before you know the result.
 
 </div>
-
-
 

@@ -137,7 +137,7 @@ Creating alchemical items requires alchemist’s supplies. Alchemists selling th
 
     Price: 10 gp, can be purchased in a <a href="a_index.html#internal-Flasks">flask</a>
 
-    When you use this alcohol as a material component to cast the _false life_ spell, you have advantage on the first charisma check you make before the spell ends.
+    When you use this alcohol as a material component to cast the *false life* spell, you have advantage on the first charisma check you make before the spell ends.
 
 
 -   #### Facemold Paste

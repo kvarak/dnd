@@ -252,7 +252,6 @@ The following is common to all familiar summoning spells:
 </div>
 
 
-
 ## <a class="internal-link" name="internal-personality">Personality traits</a>
 A familiar is an individual, and as such has a personality. When summoning your familiar for the first time, select a personality trait or roll on at random from this table.
 
@@ -456,8 +455,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   </td></tr></tbody></table>
   </div>
-
-
 
 
 - <div class="monster multimonster frame">
@@ -734,8 +731,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
   </div>
 
 
-
-
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
@@ -783,12 +778,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   </td></tr></tbody></table>
   </div>
-
-
-
-
-
-
 
 
 - <div class="monster multimonster frame">
@@ -849,10 +838,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
   </div>
 
 
-
-
-
-
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
@@ -907,7 +892,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   </td></tr></tbody></table>
   </div>
-
 
 
 - <div class="monster multimonster frame">
@@ -1015,9 +999,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
   </div>
 
 
-
-
-
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
@@ -1063,7 +1044,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   </td></tr></tbody></table>
   </div>
-
 
 
 - <div class="monster multimonster frame">
@@ -1124,10 +1104,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
   </div>
 
 
-
-
-
-
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
@@ -1171,10 +1147,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   </td></tr></tbody></table>
   </div>
-
-
-
-
 
 
 - <div class="monster multimonster frame">
@@ -1265,10 +1237,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   </td></tr></tbody></table>
   </div>
-
-
-
-
 
 
 - <div class="monster multimonster frame">
@@ -1375,7 +1343,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   </td></tr></tbody></table>
   </div>
-
 
 
 - <div class="monster multimonster frame">
@@ -1612,8 +1579,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
   </div>
 
 
-
-
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
@@ -1661,7 +1626,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
   **Tentacles.** *Melee Attack*: +4 to hit, 1 bludgeoning damage. The target is grappled (escape DC 10) Until this grapple ends, the octopus can't use its tentacles on another target
 
   **Ink Cloud (Recharges after a Short Rest).** A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a ***bonus action***.
-
 
 
   </td></tr></tbody></table>
@@ -1714,7 +1678,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
   **Peck.** *Melee Attack*: +1 to hit, 1 piercing damage.
 
 
-
   </td></tr></tbody></table>
   </div>
 
@@ -1763,8 +1726,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
   **Talons.** *Melee Attack*: +3 to hit, 1 piercing damage.
 
 
-
-
   </td></tr></tbody></table>
   </div>
 
@@ -1802,8 +1763,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   ### Actions
   **Bite.** *Melee Attack*: +5 to hit, 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 2d4 poison damage on a failed save, or half as much damage on a successful one.
-
-
 
 
   </td></tr></tbody></table>
@@ -1851,8 +1810,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   ### Actions
   **Bite.** *Melee Attack*: +5 to hit, 1 piercing damage.
-
-
 
 
   </td></tr></tbody></table>
@@ -1950,7 +1907,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
   **Bite.** *Melee Attack*: +0 to hit, 1 piercing damage.
 
 
-
   </td></tr></tbody></table>
   </div>
 
@@ -1994,7 +1950,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
 
   ### Actions
   **Beak.** *Melee Attack*: +4 to hit, 1 piercing damage.
-
 
 
   </td></tr></tbody></table>
@@ -2300,8 +2255,6 @@ A familiar is an individual, and as such has a personality. When summoning your 
   ***Shadow Form (1/day).*** The shadow rat can assume shadow form for up to 1 hour. While in shadow form, its AC increases to 14, it gains immunity to damage from nonmagical weapons, and can move through solid objects and other creatures as if they were difficult terrain. The shadow rat is destroyed if it is still inside something solid at the end of its turn.
 
 
-
-
   </td></tr></tbody></table>
   </div>
 
@@ -2584,12 +2537,8 @@ A familiar is an individual, and as such has a personality. When summoning your 
   ***Tangle.*** *Melee Attack:* +4 to hit, the target is restrained (escape DC 12).
 
 
-
   </td></tr></tbody></table>
   </div>
 
 </div>
-
-
-
 

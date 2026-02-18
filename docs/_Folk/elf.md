@@ -226,7 +226,6 @@ Eladrin have the following traits in common, in addition to the traits they shar
 </div>
 
 
-
 ### <a class="internal-link" name="internal-shadarKai">Shadar-Kai</a>
 
 Sworn to the Raven Queen's service, the mysterious shadar-kai are eladrin that ventured into the dark Shadowfell from the Feywild. Once they were fey like the rest of their eladrin kin, and now they exist in a strange state between life and death. Eladrin and shadar-kai are like reflections of each other: one bursting with emotion, the other nearly devoid of it.
@@ -272,9 +271,6 @@ As an elf native to the material plane, you have keen senses and intuition, and 
 - **Tree Walker**. The *Physique - Climb trees* cost 0 for you. Furthermore, you are considered to weigh only half your normal weight while in trees.
 
 </div>
-
-
-
 
 
 ### <a class="internal-link" name="internal-class">Elven class options</a>
@@ -457,7 +453,6 @@ An elf approaches some classes a bit different compared than other races. When y
     In addition, as an eladrin you have access to the <a href="../Classes/paladin.html#internal-festivity">***Oath of Festivity***</a>.
 
 
-
     ##### Shadar-kai
     Even though a shadar-kai paladin can follow any oath, the most common is the <a href="../Classes/paladin.html#internal-grave">***Oath of the Grave***</a>.
 
@@ -544,7 +539,6 @@ An elf approaches some classes a bit different compared than other races. When y
     <hr class="dividerinfolk">
 
 </div>
-
 
 
 <hr class="classdivider">
@@ -689,7 +683,6 @@ Even after these concepts are mastered, new knowledge of magic remains elusive, 
 Of all peoples, elves are perhaps best suited to wizardry. They have access to centuries worth of memories, and their trance effectively gives them extra time to practice, as lessons learned during study can be reinforced by recalling them during resting periods. The patience and restraint for which elves are well known serves them well in this pursuit.
 
 
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-seldarine">The Seldarine</a></h1>
 
@@ -771,7 +764,6 @@ Labelas is portrayed as an elderly elf with silver hair, still-active eyes that 
 Elves tend to give Labelas little regard until they experience Remembrance. Like Corellon and Hanali, Labelas makes few demands on his followers. A few minutes each day spent thanking him for his gift of long life and good health, and occasionally placing a fresh flower in one of his shrines, is generally all that's expected. When an elf develops unusual ailments in old age and appears headed for decrepitude, other elves might wonder if these are the repercussions for not paying Labelas his due.
 
 Most settlements have only one or two priests of Labelas. These individuals are elves well past their prime but who have not yet begun to withdraw into themselves. Their duties involve guiding elves who have recently experienced Remembrance, and are thus beginning the journey into introversion in the waning days of one's mortal life. The priests also preside over funeral celebrations, since Labelas is also honored for his role in seeing that elves experience beneficial reincarnations.
-
 
 
 <h4><a class="internal-link" name="internal-RillifaneRallathil">Rillifane Rallathil</a></h4>

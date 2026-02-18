@@ -305,7 +305,7 @@ At higher levels, you can adopt both more aspects simultaneously and more powerf
   **Spider Legs**. You gain a climb speed equal to your speed.
 
 - #### Mouth
-    **Frog's Tongue**. Your tongue, while still able to perfectly fit inside your mouth, can extend up to 15 ft. It can be used to grab objects to pull towards you. If the object is being held or some other resistance, make a strength skill check to determine whether you can pull the object against the DC your GM finds appropriate. 
+    **Frog's Tongue**. Your tongue, while still able to perfectly fit inside your mouth, can extend up to 15 ft. It can be used to grab objects to pull towards you. If the object is being held or some other resistance, make a strength skill check to determine whether you can pull the object against the DC your GM finds appropriate.
 
     **Snake's Fang**. You can use a ***bonus action*** to make a bite attack. On a hit, you deal 1d8 + Strength modifier piercing damage, and the target must make a Constitution save or become poisoned until the end of your next turn. The DC is equal to your spell save DC.
 
@@ -375,9 +375,6 @@ You have mastered the ability to adopt a aspects beyond normal beasts and animal
 
 ### Primal Magic
 When you use your action to cast a druid spell, you can make one unarmed or weapon attack as a ***bonus action***.
-
-
-
 
 
 <hr class="classdivider">
@@ -507,7 +504,6 @@ If you elect to wrack, half of the damage is immediately reflected back upon the
 If you elect to repeal, half of the damage is converted to healing and can be distributed to any number of allies within 60 ft of you, as long as they are not the same individual whose damage was reduced.
 
 You may use wrack or repeal once upon reaching 14th level, gaining an additional use at 18th level.
-
 
 
 <hr class="classdivider">
@@ -661,9 +657,6 @@ Your intimate connection to the ancient forests of the world allows you to stimu
 Any creature grappled or restrained by you or an awakened plant (by a grapple or a spell such as entangle) takes bludgeoning damage equal to 2d6 + your Wisdom modifier at the start of their turn as your grasp crushes them.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-garden">Circle of the Garden</a></h1>
 <div class="featuresTable">
@@ -740,8 +733,6 @@ The protector appears in an unoccupied space within 10 ft. Roll initiative for t
 Once you use this feature, you can't use it again until you finish a long rest.
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-land">Circle of the Land</a></h1>
 <div class="featuresTable">
@@ -800,9 +791,6 @@ Creatures of the natural world sense your connection to nature and become hesita
 The creature is aware of this effect before it makes its attack against you.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-moon">Circle of the Moon</a></h1>
 <div class="featuresTable">
@@ -843,9 +831,6 @@ You can expend two uses of Wild Shape at the same time to transform into an air 
 
 ### Thousand Forms
 You have learned to use magic to alter your physical form in more subtle ways. You can cast the *alter self* spell at will.
-
-
-
 
 
 <hr class="classdivider">
@@ -894,10 +879,6 @@ When a creature fails on a saving throw against your Shifting Sands, you can app
 Your Shifting Sands no longer requires concentration, and you can use your Shifting Sands when you cast any druid spell of 1st level and higher.
 
 Additionally, while you are surrounded by the wind from your Shifting Sands, you gain flying speed equal to your walking speed.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -974,15 +955,6 @@ If reduced to 0 hit points or incapacitated against your will, you can immediate
 The spell lasts for 1 hour, requiring no concentration, or until you dismiss it. Once you use this feature, you can’t use it again until you finish a long rest.
 
 
-
-
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-spores">Circle of Spores</a></h1>
 <div class="featuresTable">
@@ -1035,10 +1007,6 @@ When you die, if your entire body is placed upon or buried in an area of natural
 Over the course of 1 day, your mind incubates a new body out of the biomass from the rotting vegetation and your cadaver. The grown body is identical to your previous one. You recall all your memories and life experiences and retain any capabilities you had at the time of your death. You take a -4 penalty to all attack rolls, saving throws, and ability checks. Every time you finish a long rest, the penalty is reduced by 1 until it disappears. If you die while you have this penalty, you cannot use this feature.
 
 If the process is disturbed or interrupted, such as by excavation or a spell that dispels magic effects, you do not resurrect and you die permanently, as your body is fully decayed.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1131,9 +1099,6 @@ Your connection to storms grants you resistance to thunder and lightning damage.
 You can expend two uses of Wild Shape to become a storm elemental.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-swarm">Circle of the Swarm</a></h1>
 <div class="featuresTable">
@@ -1217,11 +1182,6 @@ You have learned how to call upon the power of a plague to consume your foes. Th
 - As a ***bonus action*** you can move the sphere up to 40 ft.
 - Only creatures of your choice have to make a save.
 - For each spell level above 5th, radius increases by 5ft.
-
-
-
-
-
 
 
 <hr class="classdivider">

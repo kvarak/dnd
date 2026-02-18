@@ -213,8 +213,6 @@ At 1st level, you choose your expertise. Your expertise grants you features at 1
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-arcanist">Arcanist</a></h1>
 <div class="featuresTable">
@@ -260,10 +258,6 @@ You have learned enough about the workings of magic that you can improvise the u
 
 ### Superior Attunement
 If you have the *Master attuner* skill, you can instead attune to five magic items.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -330,11 +324,6 @@ You have learned to rely on your luck and can take risks that others would consi
 Your reputation and glory as an explorer are unrivaled. You regain all expended explorer's points after a short rest.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-astronomer">Astronomer</a></h1>
 <div class="featuresTable">
@@ -382,12 +371,6 @@ You receive three omens which recharge when you finish a long rest. On your turn
 Play out your turn as normal. When your premonition ends, you return to your initial position with all expended resources, and can choose to either follow the exact actions you did in the premonition, or do something different. If you choose to imitate the premonition, use the same dice results that you used in the premonition.
 
 Once you use this ability, you cannot use it again in the same turn.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -498,10 +481,6 @@ The light of your candles reveals even treacherous magic for what it really is. 
 - Invisible creatures or objects are revealed with a warm, glowing outline.
 - Visual illusions within the light are immediately seen as such. If the illusion involves a saving throw, all creatures that can see it while it is in the light automatically succeed.
 - Shapechangers and creatures whose form has been magically altered are perceived as their original form.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -639,10 +618,6 @@ You have reached the pinnacle of culinary expertise. You can serve full course m
 Also, if you cook a meal during a long rest, you and anyone who eats your food can gain 3d10 temporary hp that last up to 1 full day.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-diplomat">Diplomat</a></h1>
 <div class="featuresTable">
@@ -682,10 +657,6 @@ No effect can cause you to have disadvantage on Insight checks. Additionally, yo
 
 ### Diplomatic Immunity
 Your heart cannot be swayed to extremes. You are immune to being charmed and frightened. As an ***action***, you can end a charmed or frightened effect on a creature within 30 ft of you that you share a language with.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -773,9 +744,6 @@ For example, you could determine the location of major sources of safe drinking 
 Instead of rolling a saving throw, you can choose to count your result as a 20. You can use this feature a number of times equal to your Wisdom modifier, and regain expended uses after you finish a long rest.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-psychologist">Psychologist</a></h1>
 <div class="featuresTable">
@@ -822,11 +790,6 @@ You can use this feature a number of times equal to your Wisdom modifier, and re
 
 ### Hardened Mind
 You have resistance to psychic damage and advantage on all saves and check made to avoid charm effects.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -975,6 +938,4 @@ You learn two techniques at level 6, and two additional techniques at 9th, 13th 
 - **Solanium Truesteel Blade**. You learn how to blend Solanium Iron, stone infused with radiant energy, into your steel. Your weapon deals an additional 1d6 radiant damage on a hit, or 2d6 against fiends and undead. Additionally, your weapon glows, shedding light as a torch.
 
 </div>
-
-
 

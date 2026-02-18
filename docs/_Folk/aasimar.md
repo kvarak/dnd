@@ -120,7 +120,6 @@ In addition to the common Protector Aasimar, some Aasimar become touched by dark
 </div>
 
 
-
 ## <a class="internal-link" name="internal-appearance">Aasimar special appearance</a>
 
 <div class="columnsthree">
@@ -219,8 +218,6 @@ In addition to the common Protector Aasimar, some Aasimar become touched by dark
   | 72 | Roll twice more on this table |
 
 </div>
-
-
 
 
 ## <a class="internal-link" name="internal-features">Aasimar Special Features</a>

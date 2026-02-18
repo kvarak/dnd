@@ -374,5 +374,3 @@ This tables are used to randomly determine which ingredient are found in differe
 
 </div>
 
-
-

@@ -321,7 +321,6 @@ During a long rest, using ***5 alchemy points*** and materials worth at least 50
 The panacea must be consumed within 24 hours, after which it becomes inert. You can reactivate it during a long rest, with the same ***alchemy point*** cost, but no additional gp cost.
 
 
-
 <hr class="classdivider">
 
 <h1><a class="internal-link" name="internal-corpsecrafter">Corpsecrafter</a></h1>
@@ -502,7 +501,6 @@ You have figured out how to make larger casings for your bombs. The blast radius
 
 ### Big bombs
 You can combine two non makeshift bombs into one. Combine damage and effect from both bombs. Any saves against the bombs are made at disadvantage.
-
 
 
 <hr class="classdivider">
@@ -706,7 +704,6 @@ You can use your ***action*** to consume the reserve of transmutation magic stor
 **Restore Life**. You cast the *raise dead* spell on a creature you touch with the transmuter’s stone, without expending a spell slot or needing to have the spell in your spellbook.
 
 **Restore Youth**. You touch the transmuter’s stone to a willing creature, and that creature’s apparent age is reduced by 3d10 years, to a minimum of 13 years. This effect doesn’t extend the creature’s lifespan.
-
 
 
 <hr class="classdivider">
@@ -919,6 +916,4 @@ If a discovery has prerequisites, you must meet them to learn it. You can learn 
 -   <img src='https://2.bp.blogspot.com/-ITy9OUorDio/Vw0oeN13D4I/AAAAAAAAHZ0/uYX2lT-p4n0o_Y1z0U7gw2SeKgMkZ1dpgCLcB/w1200-h630-p-k-no-nu/1382836114588.jpg' style='width:85%;padding:20px' />
 
 </div>
-
-
 

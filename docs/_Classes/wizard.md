@@ -187,7 +187,6 @@ When you reach 20th level, you gain mastery over two powerful spells and can cas
 When you do so, you can’t do so again until you finish a short rest. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 
 
-
 <h2><a class="internal-link" name="internal-spellbook">Spellbooks</a></h2>
 
 No self-respecting wizard is a wizard for long without a spellbook of their very own -  a  priceless tome in which to record spells and arcane knowledge. The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might also find other spells during your adventures.
@@ -237,7 +236,6 @@ While every wizard has a spellbook, the spellbooks themselves can range in desig
 | 8 | A collection of scarves, upon which are stitched special designs that signify spells.
 | 9 | A collection of arm, chest, or leg wraps that are bound tight across the body, inscribed with your spells.
 | 10 | A collection of crystals, each embedded with spells in the form of mystical etchings, that you keep in a special box or bag.
-
 
 
 <h2><a class="internal-link" name="internal-traditions">Arcane traditions</a></h2>
@@ -300,11 +298,6 @@ The most common arcane traditions in the multiverse revolve around the schools o
 </div>
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-unseenHand">Master of the Unseen Hand</a></h1>
 <div class="featuresTable">
@@ -351,11 +344,6 @@ You can use your prowess of telekinesis to do one of the following things as an 
 * Violently hurl objects within 30 ft from you in a 30 cone in any direction. This deals 1d6 bludgeoning damage + 5d6 force damage to all creatures within the cone.
 
 After you use this feature, you cannot use it again until you finish a short rest.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -534,9 +522,6 @@ You can channel the powers of the constellations through your spell stars. The s
 </div>
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-abjuration">School of Abjuration</a></h1>
 <div class="featuresTable">
@@ -574,11 +559,6 @@ When you cast an abjuration spell that requires you to make an ability check as 
 
 ### Spell Resistance
 You have advantage on saving throws against spells. Furthermore, you have resistance against the damage of spells.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -633,11 +613,6 @@ You have become so adept at manipulating the flow of time, that you've become ab
 There is always some sort of exchange to compensate. When making this change, the Chronomancer must be exact and thoughtful of the repercussions. These changes may only affect you directly. Any changes to the current timeline from this change, planned or otherwise, is up to the DM.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-conjuration">School of Conjuration</a></h1>
 <div class="featuresTable">
@@ -673,11 +648,6 @@ While you are concentrating on a conjuration spell, your concentration can’t b
 
 ### Durable Summons
 Any creature that you summon or create with a conjuration spell has 30 temporary hit points.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -723,11 +693,6 @@ You can use your ***action*** to increase your powers of perception. When you do
 Starting at 14th level, the visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. You roll three d20s for your Portent feature, rather than two.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-enchantment">School of Enchantment</a></h1>
 <div class="featuresTable">
@@ -767,11 +732,6 @@ When you cast an enchantment spell of 1st level or higher that targets only one 
 Gain the ability to make a creature unaware of your magical influence on it. When you cast an enchantment spell to charm one or more creatures, you can alter one creature’s understanding so that it remains unaware of being charmed.
 
 Additionally, once before the spell expires, you can use your ***action*** to try to make the chosen creature forget some of the time it spent charmed. The creature must succeed on an Intelligence saving throw against your wizard spell save DC or lose a number of hours of its memories equal to 1 + your Charisma modifier (minimum 1). You can make the creature forget less time, and the amount of time can’t exceed the duration of your enchantment spell.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -827,11 +787,6 @@ You can add your Intelligence modifier to the damage roll of any wizard evocatio
 You can increase the power of your simpler spells. When you cast a wizard spell of 5th level or lower that deals damage, you can choose to deal maximum damage with that spell.
 
 The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -906,11 +861,6 @@ As an ***action*** on your familiar’s turn you can invoke the ultimate express
 You can have two familiars at any given time changing the normal rules of the *find familiar* spell. Both familiars gain their own spell slot with the Creature Mystique feature.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-illusion">School of Illusion</a></h1>
 <div class="featuresTable">
@@ -948,11 +898,6 @@ Once you use this feature, you can’t use it again until you finish a short res
 You have learned the secret of weaving shadow magic into your illusions to give them a semireality. When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a ***bonus action*** while the spell is ongoing. The object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross.
 
 The object can’t deal damage or otherwise directly harm anyone.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1031,9 +976,6 @@ Choose one of the options *command undead* or *siphon spirit*.
 </div>
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-gravebinder">Gravebinder (School of Necromancy)</a></h1>
 <div class="featuresTable">
@@ -1066,17 +1008,12 @@ Gain the ability to feel undead around you. This ability works like the spell *d
 You become more adept at hurting undead. You may sacrifice a spell slot to do radiant damage to one undead you can see within 30 ft. The creature must make a Charisma saving throw against your Wizard spell save DC or suffer 1d6 radiant damage per level of the spell sacrificed.
 
 ### Inured to Undeath
-You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects. Gain resistance to necrotic damage and your hit point maximum can't be reduced. 
+You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects. Gain resistance to necrotic damage and your hit point maximum can't be reduced.
 
 ### Undead Purge
 You can use your ***action*** to create a 30 ft radius aure. Living creatures within it have advantage on all saving throws made against undead spells and abilities. Additionally, undead have disadvantage on all attacks.
 
 As an ***action***, you can choose one undead within the area. That creature must make a Charisma saving throw against your spell save DC. If it fails, it takes 4d8 radiant damage and you regain up to that number of hit points, or the creature's maximum hit points - whichever is lower. A creature targeted by this ability is immune to it for the next 24 hours.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1114,11 +1051,6 @@ You can consume the soul within your Soul Vial to restore hit points to yourself
 
 ### Lasting Creation
 Creatures created through your Soul Reawaken feature lasts for up to 8 hours and no longer requires concentration to maintain.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1176,11 +1108,6 @@ You can use your ***action*** to consume the reserve of transmutation magic stor
  **Restore Youth**. You touch the transmuter’s stone to a willing creature, and that creature’s apparent age is reduced by 3d10 years, to a minimm of 13 years. This effect doesn’t extend the creature’s lifespan.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-masterTransmogrifist">Master Transmogrifist</a></h1>
 <div class="featuresTable">
@@ -1230,10 +1157,6 @@ Gain the ability to create imaginary forms when casting *polymorph, true polymor
 For example, if the base form was a Tyrannosaurus Rex, and the second form was a Giant Owl, you could add the fly speed of 60 ft to the Tyrannosaurus Rex, making it a winged T-Rex. If the first form was a Giant Scorpion, and the second a Giant Octopus, you could add the Octopus’s tentacle attack to the Giant Scorpion, grappling enemies from afar, then clawing and stinging them.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-science">Scientific Tradition</a></h1>
 <div class="featuresTable">
@@ -1274,12 +1197,6 @@ You can make logical leaps that leaves others dumbfounded. When you make an Inte
 After using this feature, you must finish a long rest before using it again.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-windbringer">Windbringer</a></h1>
 <div class="featuresTable">
@@ -1316,5 +1233,4 @@ You have become attuned to the strength of the winds. You can cast the *levitate
 You have gained mastery over wind. As an ***action***, you can cast the *investiture of wind* spell on yourself without expending a spell slot. When you cast the spell this way, while the spell is active, you can choose a number of creatures up to your Intelligence modifier, to also gain a flying speed of 60 ft. This lasts as long as you maintain concentration and the targets keep within 20 ft from you.
 
 Once you cast *investiture of wind* in this way, you can’t do so again until you finish a long rest, though you can still cast it normally using an available spell slot.
-
 

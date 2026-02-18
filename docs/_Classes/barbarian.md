@@ -141,7 +141,6 @@ You start with the following equipment, in addition to the equipment granted by 
 - An explorer’s pack and four javelins
 
 
-
 ### Primal Path
 At 1st level, you choose a path that shapes the nature of your rage. All paths are detailed at the end of the class description. Your choice grants you features again at 3rd, 6th, 10th, and 14th levels.
 
@@ -159,7 +158,6 @@ You can rage for a maximum number of rounds as your remaining **Fury**. The rage
 When the rage ends, reduce your current **Fury** with the number of rounds you raged for. The maximum fury for your barbarian level is shown in the **Fury** column of the Barbarian table.
 
 *See the Barbarian Rest Additions for more details.*
-
 
 
 <div class="card rest">
@@ -183,7 +181,6 @@ The following additions are made to the general rest rules.
 </div>
 </div>
 </div>
-
 
 
 ### Unarmored Defense
@@ -224,7 +221,6 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 
 
 <img src='https://media-waterdeep.cursecdn.com/avatars/thumbnails/6/342/420/618/636272680339895080.png' style='float:left;width:25%;padding:20px' />
-
 
 
 ### Mobile
@@ -281,9 +277,6 @@ While in your rage, you have advantage on all Strength, Dexterity, and Constitut
 
 ### Primal Champion
 At 20th level, you embody the power of the wilds. Your Strength and Constitution scores, and maximums increase by 4.
-
-
-
 
 
 <h2><a class="internal-link" name="internal-primal-paths">Primal Paths</a></h2>
@@ -398,7 +391,6 @@ You may cast the *water breathing* spell granted by Creature of the sea on other
 Additionally you can cast the *commune with the sea* spell, but only as a ritual. When you do so, a spiritual version of your totem animal appears to you to convey the information you seek.
 
 
-
 ### Totemic Attunement
 You gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected previously or a different one, however, at least two of the selections must be from your totem animal.
 
@@ -460,8 +452,6 @@ If the creature succeeds on its saving throw, you can't use this feature on that
 When you take damage from a creature, you can use your **reaction** to make a melee weapon attack against that creature
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-courageousHeart">Path of the Courageous Heart</a></h1>
 
@@ -512,8 +502,6 @@ Whenever you succeed at a Constitution saving throw to remain conscious with you
 **Rallying.** Your heroic refusal to die fills your allies with confidence. Allies you that can see you gain advantage on the next attack roll they make within the next 1 minute.
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-defender">Path of the Defender</a></h1>
 
@@ -558,8 +546,6 @@ Instincts flow through the bond. While within soul range, both you and your bond
 
 ### Passive Aggressiveness
 You and your bondmate function even more like a team when faced with foes. While raging, if a hostile creature deals damage to you with an attack aimed at your bondmate, your bondmate can use a ***reaction*** to make an weapon or cantrip attack against it.
-
-
 
 
 <hr class="classdivider">
@@ -615,8 +601,6 @@ You may use Tossing Shove and Hurl Creature while not raging. You can shove a cr
 Your enemies become just another weapon in your arsenal. While raging, you can grapple a creature your size or smaller and choose to wield them as a weapon. You can make only one attack per turn in this way, and cannot wield any other items. On a hit, roll damage both for the creature you struck as well as the creature being wielded as a weapon.
 
 Creatures that are Tiny or smaller cannot be used for this feature. Small creatures deal 1d8 damage, while Medium creatures deal 1d12 damage but have to be wielded in two hands. Large creatures deal 2d8 damage with the Reach property. Creatures of larger sizes continue to deal damage as a large creature, but add +5 bonus damage for each size category above Large.
-
-
 
 
 <hr class="classdivider">
@@ -679,8 +663,6 @@ You are a pillar of endurance, blows seeming to not harm you.
 When you take damage while raging, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total.
 
 You may do this a number of times equal to your Constitution modifier. See *Rest Additions* below.
-
-
 
 
 <hr class="classdivider">
@@ -757,9 +739,6 @@ You can use this feature once and regain its use when you finish a short rest.
 
 ### Leading by Example
 As the foremost expert in the field of surprise surgery, your allies look to your demonstrations. Whenever you score a critical hit while raging, you can choose one ally within 30 ft. That ally may use their reaction to move up to half their speed and make one melee weapon attack. This ability cannot trigger off the same enemy more than once per round.
-
-
-
 
 
 <hr class="classdivider">
@@ -877,7 +856,6 @@ If you start your turn raging, you can choose to switch your current Form of the
 Your guardian form emanates a magical aura that fortifies your allies. When you gain temporary hit points with the Ancient Fortitude feature, you can use a **bonus action** to grants each friendly creature within 20 feet of you the same amount of temporary hit points.
 
 
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-paintedWarrior">Path of the Painted Warrior</a></h1>
 
@@ -978,8 +956,6 @@ Your destiny overpowers the lesser lives of others. When you have 0 hit points a
 Your destined death awaits your arrival, and you refuse to surrender before the end of your journey. The first time each round that you lose hit points while raging, you gain temporary hit points equal to half the amount of hit points lost. These temporary hit points last until the start of your next turn. Whenever you are reduced to 0 hit points while you are raging, you can use your ***reaction*** to make a single melee weapon attack against a target within reach. If this attack hits, it is a critical hit.
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-stormHerald">Path of the Storm Herald</a></h1>
 
@@ -1040,7 +1016,6 @@ The power of the storm you channel grows mightier, lashing out at your foes. The
 - **Sea**. When you hit a creature in your aura with an attack, you can use your ***reaction*** to force that creature to make a Strength saving throw. On a failed save, the creature is knocked prone, as if struck by a wave.
 
 - **Tundra**. Whenever the effect of your Storm Aura is activated, you can choose one creature you can see in the aura. That creature must succeed on a Strength saving throw, or its speed is reduced to 0 until the start of your next turn, as magical frost covers it.
-
 
 
 <hr class="classdivider">
@@ -1218,8 +1193,6 @@ You gain a magical benefit based on the totem animal of your choice. You can cho
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-warChief">Path of the War Chief</a></h1>
 
@@ -1307,7 +1280,6 @@ Additionally, the range of your War Song increases to 30 ft, and when you issue 
 </div>
 
 
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-zealot">Path of the Zealot</a></h1>
 
@@ -1362,8 +1334,6 @@ The divine power that fuels your rage allows you to shrug off fatal blows.
 While raging, having 0 hit points doesn’t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don’t die until your rage ends, and you die then only if you still have 0 hit points.
 
 
-
-
 <hr class="classdivider">
 <h2><a class="internal-link" name="internal-tailfighter">Restricted to characters with a tail</a></h2>
 <h1>Path of the Tailfighter</h1>
@@ -1415,8 +1385,6 @@ Your tail is so much a part of your movement that it acts much like an extra leg
 
 ### Tripping Tail
 You can use your tail to make opportunity attacks. If you hit and the target is Large or smaller, in addition to damage, it must make a Strength saving throw against 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). On a failed save, you knock the target prone and its movement is reduced to 0.
-
-
 
 
 <hr class="classdivider">
@@ -1486,12 +1454,6 @@ Your wild rage has even greater rewards. Add an additional benefit to the normal
 You can cast the *enhance ability* spell (targeting yourself only) at will. In addition, you can now use the Wild Shape granted by your Skinchanger feature twice before needing a long rest.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h2><a class="internal-link" name="internal-battleRager">Restricted to Dwarf characters</a></h2>
 <h1>Path of the Battle Rager</h1>
@@ -1546,7 +1508,6 @@ You can take the Dash action as a **bonus action** while raging.
 
 ### Spiked Retribution
 When an adjacent creature hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated and wearing spiked armor.
-
 
 
 <hr class="classdivider">
@@ -1641,9 +1602,6 @@ Whenever you rage you can cast the *thorn whip* cantrip as a ***bonus action*** 
 Whenever you take damage from an adjacent creature, you can use your ***reaction*** to release grasping vines at the attacker, attempting to grapple the target.
 
 
-
-
-
 <hr class="classdivider">
 <h2><a class="internal-link" name="internal-eyeOfGruumsh">Restricted to Orc & Half-Orc characters</a></h2>
 <h1>Eye of Gruumsh</h1>
@@ -1689,10 +1647,6 @@ You can channel the anger of Gruumsh through your weapon. When you hit a creatur
 Once you use this feature, you can't use it again until you finish a long rest.
 
 You can instead spend 5 Fury to use this feature, if the target is an elf.
-
-
-
-
 
 
 <hr class="classdivider">

@@ -99,7 +99,6 @@ Weapons in the flail group have a flexible material, usually a length of chain, 
 </details>
 
 
-
 <details><summary>Knife</summary>
 
 *Melee/Ranged*
@@ -276,9 +275,6 @@ This group includes all types of thrown weapons.
 </div>
 
 
-
-
-
 <!-- ---------------------------- ARMOR SKILLS -------------------------  -->
 
 <div id="armor" class="container tab-pane fade">
@@ -317,7 +313,6 @@ You use shields not just for protection but also for offense. You gain the follo
 </details>
 </details>
 </div>
-
 
 
 <!-- ----------------------------OTHER COMBAT SKILLS -------------------------  -->

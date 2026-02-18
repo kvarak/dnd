@@ -56,13 +56,11 @@ Singing songs and weaving tales of past victories, Skalds remind their peers of 
 Those who follow the Path of the Haka use simple, well-practiced movements to rain attack after attack on their enemies in devastating cadence. The drums of war pound to the tempo of these barbarians' hearts, who constantly build to the next hammerblow.
 
 
-
 ### Furious Footwork
 At your 1st barbarian level, you gain proficiency with drums, Acrobatics and Performance. You can stand from prone using only 5 feet of movement, and when you Dash you ignore difficult terrain.
 
 ### Bardbarian Drums
 You are able to capture your rage in your music, amplifying the psychological effects it has on those around you. During the same ***bonus action*** used to activate your rage, you may pummel a set of drums you are proficient with to intimidate enemies and bolster your allies.
-
 
 
 Enemies within 30 feet of you must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma or Strength modifier) or be frightened of you. In addition, make a performance check, allies within 30 feet of you gain temporary hit points equal to your roll.
@@ -91,12 +89,6 @@ The range on your Bardbarian Drums feature increases to 60 feet. In addition, yo
 The sound of your mighty blows sends a shockwave bursting through other targets. When you hit a creature with a melee weapon attack, all creatures of your choice adjacent to the target take thunder damage equal to your current rage bonus.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-bannerlord">Bannerlord </a></h1>
 <div class="featuresTable">
@@ -119,7 +111,6 @@ The sound of your mighty blows sends a shockwave bursting through other targets.
 The archetypal Bannerlord is the noble, steadfast leader of the battlefield. Also called bannerets, chevaliers, and men-at-arms, these soldiers direct the flow of battle and bolster their allies with their very presence. Leaders by example, they are the first to enter the field and the last to leave.
 
 
-
 ### Fanfare
 When you roll initiative, you and each ally within 60 feet that can see or hear you adds your Charisma modifier to its initiative roll.
 
@@ -137,7 +128,6 @@ You and each creature of your choice within 30 feet of you (or 60 feet if you ar
  **Fear not, for I am with you**. Each affected creature has advantage on saving throws against becoming frightened.
 
  **Rouse the warriors**. When an affected creature rolls a 1 on a damage die for weapon attack, it can reroll the die and must use the new roll.
-
 
 
 While you have an eyecatch raised, you can restore an ally's fighting spirit by expending one hit die as a ***bonus action***. A friendly creature of your choice within 30 feet that can see you regains the hit points from that hit die, instead of you.
@@ -158,12 +148,6 @@ Beginning at 15th level, when you roll initiative and have no uses of Raise the 
 
 ### Lead from the Front
 Starting at 18th level, when you persevere and access the well of strength hidden deep within, so can your allies. Whenever you use your Action Surge, one ally of your choice within 60 feet that can see or hear you can take an additional action immediately after your turn ends.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -193,7 +177,6 @@ Many barbarians are well at home in the wild, often feeling connected to the bar
 The Cataclysm knows they are not nature's diplomat or ambassador, but a violent hammer that strikes fear into those who become too comfortable abusing the land around them. Cataclysms do love the natural world, but can be more accurately defined by their hatred for those that throw the natural world into imbalance.
 
 
-
 ### Natural Connection
 You gain proficiency with Herbalism, Nature and Tracking.
 
@@ -207,7 +190,6 @@ In addition while raging, if you land a critical hit on an enemy that you know h
 
 ### Floral Rage
 A burst of nature magic is unleashed when you enter rage, covering you in a shroud of vines, petals or spores. This applies both to your normal rage, as well as the rage entered using the Nature's Justician feature. When you enter rage, you can gain one of the following features.
-
 
 
 #### Anima Rage
@@ -231,9 +213,6 @@ Your rage is strengthened by nature. You may cast a prepared level 1 druid the s
 
 ### Regenerative Rage
 You can channel your druidic magic to mend the wounds of yourself and your allies. While raging, you and adjacent creatures regain a number of hit points equal to your Constitution or Wisdom modifier at the start of each of your turns. Creatures can only recover hit points in this manner if they start their turn below half their hit point maximum.
-
-
-
 
 
 <hr class="classdivider">
@@ -294,7 +273,6 @@ Whenever you start your turn adjacent to a restrained creature, you can use your
 Heavily armed and armored, the Secutus is often pitted against other gladiators as an insurmountable obstacle for them to overcome. They are best at patiently waiting for their enemies to tire and then lashing out for a finishing blow.
 
 
-
 While wearing heavy armor, if you succeed on a Dexterity, Constitution, or Strength saving throw to take only half damage, you instead take no damage.
 
 ### Additional Maneuvers
@@ -317,7 +295,6 @@ In addition, you can add your Charisma modifier to melee weapon damage rolls in 
 Gladiatorial fights are performances, and you know that every performance needs a great ending to really be memorable. You can deliver a finishing blow to disabled opponents. When you hit a creature that has half or less of its maximum hit points remaining and is unconscious, paralyzed, or incapacitated with a melee weapon attack, you can force that creature to make a Constitution saving throw against your Maneuver Save DC. If it fails, it is reduced to 0 Hit Points. If it succeeds, it takes 10d10 necrotic damage.
 
 Once you use this feature you cannot use it again until you finish a long rest.
-
 
 
 In addition, when you reduce a creature to 0 hit points, you can use your ***reaction*** to gain one of the following effects:
@@ -349,7 +326,6 @@ This feature can be used once, and you can regain use of it after you finish a l
     Whenever a creature attempts to break free of your net, you may use your ***reaction*** to expend an Inspiration or Superiority Die and add the result to your net's escape DC.
 
 
-
 -   #### Dance of Blades
     You can use your performative combat skills to give you an edge in certain social situations. You may expend an Inspiration or Superiority Die to add the result to a Charisma ability check. You can use this ability after rolling the d20, but must use it before knowing the outcome of the roll.
 
@@ -378,5 +354,4 @@ This feature can be used once, and you can regain use of it after you finish a l
     You take a dramatic, sweeping swing with your weapon that damages nearby enemies. Whenever you hit a creature with a weapon attack that deals slashing or bludgeoning damage, you can expend an Inspiration or Superiority Die to deal damage of the original type equal to the result of the roll to up to two additional creatures within 5ft of the original target.
 
 </div>
-
 

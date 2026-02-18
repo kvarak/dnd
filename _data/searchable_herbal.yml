@@ -57,7 +57,7 @@
   anchor: exspiravit-powder
   description: 'Price: 10 gp This dried fungus allows for speaking with the spirits
     of the dead when used as snuff. After using it, and succeeding at a DC10 Constitution
-    save, it functions as a _speak with dead_ spell. On a save the user will experience
+    save, it functions as a *speak with dead* spell. On a save the user will experience
     hallucinations of dead people talking to them.'
 - name: Faerie wing brew
   anchor: faerie-wing-brew

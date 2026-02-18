@@ -185,7 +185,6 @@ At 14th level, if you hit and only wield one weapon, you do an additional die of
 At 20th level, you are so elusive that attackers rarely get the upper hand against you. No attack roll has advantage against you while you aren't incapacitated.
 
 
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-blacksnake">Blacksnake</a></h1>
 <div class="featuresTable">
@@ -246,9 +245,6 @@ You can actually lift skin off your targets with well-struck attacks using your 
 You cow your enemies with the lash of a whip. When you hit a target, you can spend 1 panache to force the target to make a Wisdom save against 8 + your Intelligence modifier + your proficiency modifier. On a failed save, the target is frightened of you. The target can repeat the save at the end of each of their turns. As long as you are in attack range with your whip, that save is made at a disadvantage.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-brawler">Brawler</a></h1>
 <div class="featuresTable">
@@ -302,10 +298,6 @@ You learn how to place your unarmed attacks for the maximum impact. Once on each
 
 ### Taking a Beating
 You can take an impressive amount of beating. You gain resistance to nonmagical damage.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -389,10 +381,6 @@ Even your allies respect your presence and know you are not to be trifled with. 
 You have become adept at detecting ambushes and quickly escaping danger. By spending one panache, you can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-daredevil">Daredevil</a></h1>
 <div class="featuresTable">
@@ -451,11 +439,6 @@ You can use your ***action*** to make a melee attack against any number of adjac
 A daredevil really enjoys being in the center of a battle and this really shows. When you start your turn surrounded by 3 or more opponents, you regain hit points equal to 5 + number of opponents. You don't gain this benefit if you have more than half your hit points left or at 0 hit points.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-duelist">Duelist</a></h1>
 <div class="featuresTable">
@@ -501,9 +484,6 @@ Attacks with light or finesse weapons score a critical hit on a roll of 19 or 20
 
 ### No Cheating
 When you are in single combat with an enemy, as a ***reaction*** you can get advantage on saving throws against spells you are aware of, until the start of your next round. Unfortunately, so does your opponent until the start of his next turn. You can spend one panache to only affect yourself.
-
-
-
 
 
 <hr class="classdivider">
@@ -584,11 +564,6 @@ You and your friends have lived through impossibly dangerous experiences and com
 Through a nearly impossible comedy of errors, you can stride through a battlefield of carnage and danger to emerge intact. You can use this feature as an ***action*** and when you do so, until the beginning of your next turn, any attacks that target you automatically miss and you cannot be the target of spells or abilities.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-highwayman">Highwayman</a></h1>
 <div class="featuresTable">
@@ -638,8 +613,6 @@ You have attuned your senses not only to danger at your heels, but encroaching u
 
 ### Cheat Death
 You are adept at escaping the cold grasp of death. When you are reduced to 0 hit points, you can expend 2 panache to have 1 hit point instead, even if the attack would otherwise kill you.
-
-
 
 
 <hr class="classdivider">
@@ -698,8 +671,6 @@ You have learned how best to benefit from those who fight by your side. When adj
 
 ### And All For One
 You attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.
-
-
 
 
 <h2><a class="internal-link" name="internal-deeds">Deeds</a></h2>
@@ -836,7 +807,4 @@ The tricks are presented in alphabetical order.
     The creature is frightened of you for a number of minutes equal to your Charisma modifier. It must also make a Charisma saving throw with a DC 8 + your Charisma modifier + your proficiency modifier. If the creature fails this saving throw, it answers truthfully any questions you ask it and obeys your direct orders while it is frightened by this effect.
 
 </div>
-
-
-
 

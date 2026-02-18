@@ -225,7 +225,6 @@ At 20th level, you can act as a conduit for the full power of your faith. As an 
 A creature so judged cannot be affected by this ability again for 1 year after the time of casting. You can use this feature once and can recover the use when you finish a long rest.
 
 
-
 <h2><a class="internal-link" name="internal-missions">Divine Missions</a></h2>
 
 At 3rd level, you commit yourself to a Divine Mission. Your misson shapes the path your inquisition takes, and reflects your study and obsession with your faith.
@@ -245,8 +244,6 @@ At 3rd level, you commit yourself to a Divine Mission. Your misson shapes the pa
 - **Mission of the Witchhunter**. Becomes the scourge of those who use magical powers against your faith.
 
 </div>
-
-
 
 
 <hr class="classdivider">
@@ -290,10 +287,6 @@ Starting at 11th level, you may acquire a sense about a teleporting creature's d
 
 ### Divine Protection
 You have resistance to all damage from fiends.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -349,11 +342,6 @@ You can also spend 2 **Piety** when an ally you see would be hit by an attack to
 You can spend 4 **Piety** to simultaneously grant all allies within 30 ft the effects of Bolster the Faithful.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-hierophant">Mission of the Hierophant</a></h1>
 <div class="featuresTable">
@@ -403,10 +391,6 @@ Your Hierophant's Blessing also armor those it protects. While a creature is jud
 
 ### Hierophant's Grace
 You can use your blessing's restorative power to stave off death. Whenever a creature within 30 feet judged by your Hierophant's Blessing drops to 0 hit points, you can use your ***reaction*** to consume the blessing. When you do, the target regains an amount of hp equal to your level + your proficiency bonus.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -460,10 +444,6 @@ You gain heightened senses that help you find creatures you can't see. You are a
 When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-infiltration">Mission of Infiltration</a></h1>
 <div class="featuresTable">
@@ -502,10 +482,6 @@ Years of thwarting indoctrination have given you the ability to convince anyone 
 
 ### Trial of the Faith
 When you successfully down an enemy you can choose to not kill him. When you do this, you spend 6 **Piety** to immediately cast the spell *geas* on him. He is allowed a save, but with disadvantage. This *geas* lasts for ten years or until the enemy achieves the desired mission.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -556,10 +532,6 @@ When you are the target of a hostile or offensive spell of 5th level or lower an
 If you do not have spell slots of that level at the moment, you cannot use this feature. Succeeding at the saving throw does not mean the spell has no effect.
 
 Also, you learn that spell as if it was an Inquisitor spell of the same level. This learned spell will vanish after a period of 24 hours.
-
-
-
-
 
 
 <h2><a class="internal-link" name="internal-judgements">Judgements</a></h2>

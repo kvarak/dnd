@@ -347,7 +347,7 @@ From 4th level, you can vanish in a puff of mist in response to harm. As a ***re
 
 You can use this feature once, and regain its use when you finish a long rest.
 
-<!-- 
+<!--
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can’t increase an ability score above your racial maximum.
 -->
@@ -378,11 +378,6 @@ At 20th level, your Charisma score increases by 4, to a maximum of 24 (or 4 abov
  **Ethereal Access**: You can cast the *etherealness* spell once without expending a spell slot. When you cast the spell, you can bring an additional number of willing creatures that you can see within 30 feet of you equal to your Spark.
 
 
-
-
-
-
-
 ## <a class="internal-link" name="internal-affinity">Fey Affinities</a>
 Every feyblood is unique: their very natures are shaped by the magic that flows through, but also the experiences that shape and transform them along their journeys. For a feyblood, the development of their powers deforms as they experience a change in scenery, lifestyle and the company they keep. They are famously mutable and can be near unrecognizable at the end of a journey as when it began.
 
@@ -410,9 +405,6 @@ Every feyblood is unique: their very natures are shaped by the magic that flows 
     Shaped by the influence of the more hedonistic fey, like satyrs, or nymphs.
 
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -488,7 +480,6 @@ Leprechauns are a curious folk, hiding in forests and abandoned farms, sometimes
 Leprechaun culture mainly revolves around creating shoes and trading or selling them to whichever other creatures happen to live nearby. They also gain money through sneaking into houses and gathering tiny scrapings of gold from various items, eventually forging them into a coin. Over time, leprechauns build up a stash of gold from these two methods, which they generally store in a clay pot known as a crock. The older the leprechaun, the more gold they have in their crock - but also the wilier they become at defending it.
 
 **Mistrusted Folk**. Due to stories of leprechauns tricking people into wild goose chases to find their crock, leprechauns have a somewhat unfair reputation as being untrustworthy, when in truth all they are trying to do is protect their crock. This is reinforced by their reputation of kidnapping children, when in fact the only cases of this have been when leprechauns have adopted children growing up in an abusive or neglected home. These children, on those cases that they are taken, end up gaining leprechaun-like characteristics, and some even become so attuned to this new lifestyle they become a leprechaun themselves.
-
 
 
 ### Cunning Magics
@@ -581,13 +572,6 @@ You can use this feature once, and regain it when you complete a short rest.
 If an ally within 30 ft that you can see and hear casts a spell of 5th-level or lower, with a casting time of 1 action or 1 bonus action that doesn’t require concentration, you can use your ***reaction*** and an equivalent spell slot to cast the same spell, even if you don’t know it.
 
 Once you use this feature, you can’t use it again until you finish a long rest.
-
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -700,10 +684,6 @@ You become one with the sea. Your swimming speed increases to 40 feet or becomes
 You can use this feature a number of times equal to your Spark, and regain expended uses when you finish a long rest.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-oread">The Oread</a></h1>
 <div class="featuresTable">
@@ -801,9 +781,6 @@ Once you use this ability, you can’t use it again until you finish a short res
 While in a Whimsy, the first creature you hit on each of your turns with your faerie weapon takes additional damage equal to half your feyblood level. The extra damage is necrotic or radiant. Choose the type of damage when you gain this feature.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-pooka">The Pooka</a></h1>
 <div class="featuresTable">
@@ -894,8 +871,6 @@ Once you use this feature, you can’t use it again until you finish a long rest
 
 ###  Thundering Heroism
 Wild magic comes effortlessly to you, not even using any of your magical recources. Whenever your Chaos magic feature triggers, causing you to not cast the spell you intended, you regain your lowest level expended spell slot.
-
-
 
 
 <hr class="classdivider">
@@ -1000,8 +975,6 @@ Once you use this feature, you can't use it again until you finish a long rest.
 You further empower the recipients of your Heroic Glamour. They add half your feyblood level to any damage rolls they make as additional thunder damage.
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-sprig">The Sprig</a></h1>
 <div class="featuresTable">
@@ -1081,12 +1054,6 @@ Your will extends to plants under your control. You gain the following benefits:
 - Plants created by your spells or charmed by you that you can see can serve as the origin of your *thorn whip*.
 - Your *thorn whip* deals additional acid damage equal to your Spark.
 - Your *thorn whip* can pull a willing creature up to 15 ft without harming them, without needing to make an attack roll.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1202,7 +1169,6 @@ Whenever a creature within 20 ft you attacks you, you may use your ***reaction**
 On a failed save, the creature gains the charmed condition for 1 minute, or until you lose concentration. At the end of each of its turns, and whenever the charmed creature takes damage, it may repeat the saving throw to end the effect. On a successful save, the creature is immune to your Enchanting Gaze for 24 hours.
 
 You can use this feature a number of times equal to your Spark, and can regain uses when you finish a long rest.
-
 
 
 <hr class="classdivider">

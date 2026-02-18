@@ -774,7 +774,6 @@ You count as one size larger for the purposes of determining which creatures you
 At 10th level, while in your lycanthropic form, and not wearing armor, you gain a +2 bonus to AC.
 
 
-
 ### Boar Form
 Wereboars are ill-tempered and vulgar brutes. As humanoids, they are stocky and muscular, with short, stiff hair. In their hybrid forms they use heavy weapons, or a devastating goring attack.
 
@@ -790,7 +789,6 @@ Starting at 6th level, while in your hybrid form, if move at least 15 ft straigh
 
 #### Relentless
 When you reach the 10th Level, if you drop to 0 hit points while in your any form and don't die outright, you can drop to 1 hit point instead. You can do this once per transformation.
-
 
 
 ### Rat Form
@@ -813,7 +811,6 @@ At 10th level you gain advantage on checks made to hide. You also gain a climbin
 If you hit a surprised creature with an attack on your first turn in combat, the attack deals an extra 3d6 damage of the same type as the attack itself.
 
 
-
 ### Tiger Form
 Weretigers are ferocious hunters and warriors with a haughty and fastidious nature. Lithe and sleekly muscular in humanoid form, they are taller than average and meticulously groomed.
 
@@ -831,10 +828,6 @@ At 6th level, you gain 2 skill points to spend on ***Acrobatics***. Additionally
 At 10th level you gain 30 ft darkvision and a skill point to spend on ***Perception***.
 
 
-
-
-
-
 ### Wolf Form
 A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its hybrid form is more terrifying by far - a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.
 
@@ -850,10 +843,6 @@ From 6th level, while in your Cursed form you can use your ***action*** to howl.
 From 10th level, whenever you reduce an enemy to 0 hit points with your claws, you may use your ***bonus action*** to give out a terrifying roar. Each enemy within 30 ft must make a Wisdom saving throw DC 8 + your proficiency bonus + your Constitution modifier or be frightened until the end of your next turn.
 
 In addition, whenever you attack a creature frightened by you (in any form), you have advantage on your attack.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1103,8 +1092,6 @@ Gray Ooze, Lesser
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-sealedDragon">Sealed Dragon</a></h1>
 <div class="featuresTable">
@@ -1182,9 +1169,6 @@ Even closer to your release final release, your abilities strengthen.
  * Your flying speed increases to double your walking speed.
 
  * As an ***Attack action***, you can attack twice with your claws, and once each with your bite and tail.
-
-
-
 
 
 <hr class="classdivider">

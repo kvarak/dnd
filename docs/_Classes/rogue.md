@@ -1,6 +1,20 @@
 ---
 title: Rogue
 layout: default
+profile:
+  generic:
+    magicType: "none"
+    originBackground: ["urban", "criminal", "rural"]
+  specific: ["stealth-master", "skill-expert", "cunning-value", "opportunistic-value", "social-manipulator"]
+  archetypes:
+    thief:
+      specific: ["classic-rogue", "treasure-hunter", "acrobatic", "lock-picker", "fast-hands"]
+    arcane-trickster:
+      generic:
+        magicType: "utility"
+      specific: ["magic-student", "illusion-specialist", "scholarly-rogue", "mage-hand-master"]
+    assassin:
+      specific: ["death-dealer", "disguise-master", "patient-value", "professional-killer"]
 ---
 
 <div class="toc" markdown="1">
@@ -25,7 +39,6 @@ layout: default
 <a href="#internal-felineStalker">Feline Stalker</a>
 
 </div>
-
 
 
 # Rogue
@@ -168,10 +181,6 @@ Beginning at 18th level, you are so evasive that attackers rarely gain the upper
 At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20. Once you use this feature, you can’t use it again until you finish a short or long rest.
 
 
-
-
-
-
 <h2><a class="internal-link" name="internal-RoguishArchetypes">Roguish Archetypes</a></h2>
 
 Rogues have many features in common, including their emphasis on perfecting their skills, their precise and deadly approach to combat, and their increasingly quick reflexes. But different rogues steer those talents in varying directions, embodied by the rogue archetypes. Your choice of archetype is a reflection of your focus - not necessarily an indication of your chosen profession, but a description of your preferred techniques.
@@ -205,7 +214,6 @@ Rogues have many features in common, including their emphasis on perfecting thei
 - **<a href="#internal-thief">Thief</a>**. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators.
 
 </div>
-
 
 
 <hr class="classdivider">
@@ -317,14 +325,6 @@ On a failed save, you negate the spell's effect against you, and you steal the k
 Once you use this feature, you can't use it again until you finish a long rest.
 
 
-
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-assassin">Assassin</a></h1>
 <div class="featuresTable">
@@ -358,10 +358,6 @@ Your ruse is indiscernible to the casual observer. If a wary creature suspects s
 
 ### Death Strike
 You become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -412,11 +408,6 @@ You have become so precise that you are able to target the weakest and most sens
 - **Nerve Cluster**. On a hit, the target takes normal damage and must make a Constitution saving throw or become stunned. The creature remains stunned a number of rounds equal to your Strength or Dexterity modifier. At the end of each of the target's subsequent turns, the creature makes another Constitution saving throw, ending the condition on a success.
 - **Legs/Wings**. On a hit, the target takes normal damage and must make a Dexterity saving throw. On a success, the creature's movement speed is reduced by your proficiency bonus + your Dexerity or Strength modifier. On a failure, the creature falls prone and its movement speed is halved. This movement speed penalty lasts for a number of rounds equal to your Strength or Dexterity modifier.
 - **Throat.** On a hit, the target takes normal and and must make a Constitutions saving throw. On a success, the creature takes an additional damage die of damage. On a failure, the creature takes an additional damage equal to your sneak attack damage.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -503,11 +494,6 @@ You can harmless absorb your daggers (even if they are poisoned) into your hands
 
 ### Greater Imbue Dagger
 You may now imbue two held daggers instead of one as a ***bonus action***, expending spell slots for each separately, and concentrate on two imbued daggers at once.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -623,15 +609,6 @@ After the saving throw succeeds, you can’t cast a spell or use this feature ag
 
 ### Last Rites
 When you hit a creature that has less than half its hit point, you can use your Sneak Attack feature on that creature, even without advantage.
-
-
-
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -774,9 +751,6 @@ You regain the use of this feature after finishing a long rest.
 </div>
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-investigator">Investigator</a></h1>
 <div class="featuresTable">
@@ -899,10 +873,6 @@ You have become adept at laying and avoiding ambushes. You can take two turns du
 </div>
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-jester">Jester</a></h1>
 <div class="featuresTable">
@@ -988,12 +958,6 @@ When you end this effect, you have advantage on any attack that targets a creatu
 Once you use this ability, you can’t use it again until you finish a long rest.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-keenBlade">Keen Blade</a></h1>
 <div class="featuresTable">
@@ -1071,12 +1035,6 @@ Combat becomes a game of strategy to you. Each strike is carefully chosen to do 
 Your ferocity and cunning have reached their peak on the battlefield. Each victory fuels you to press on for one more kill, your tactical genius surging. When you drop a creature to 0 hit points, you regain a superiority die.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-ruffian">Ruffian</a></h1>
 <div class="featuresTable">
@@ -1129,11 +1087,6 @@ If an attack misses you, you can use your ***reaction*** to cause the grappled c
 
 ### Send ‘Em to the Morgue
 At 17th level, you can make the most of a nearby opponent’s failures. When a creature misses you with an attack, you can use your ***reaction*** to attack it with a ***Crush ‘Em weapon***. If it hits, this revenging blow deals an additional 3d6 damage, and you can choose to immediately perform one Low Blow against your attacker.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1203,9 +1156,6 @@ The mist lasts for 1d6 rounds. If two clouds of mist overlap, any creatures insi
 You learn the ultimate serpentine skill - the petrification of enemies. As an ***action***, you may gaze at an enemy within 60 feet. If the enemy can see you, they must succeed on a Constitution save or take 10d6 poison damage and be Poisoned for one minute. If the enemy succeeds on their save they take half damage and are not Poisoned. If the enemy is already Poisoned and they fail their save, they are Petrified.
 
 Once you have used this ability you cannot do so again until you have completed a long rest.
-
-
-
 
 
 <hr class="classdivider">
@@ -1312,9 +1262,6 @@ When you make a ranged spell attack that deals damage, you can choose to deal ma
 After using this ability, you must complete a long rest before using it again.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-thief">Thief</a></h1>
 <div class="featuresTable">
@@ -1351,9 +1298,6 @@ You have learned enough about the workings of magic that you can improvise the u
 
 ### Thief's Reflexes
 You have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised
-
-
-
 
 
 <hr class="classdivider">
@@ -1407,6 +1351,4 @@ You have finely honed your ability to remain undetected, as well as to spot hidd
 - You have advantage on ability checks made to spot hidden creatures.
 - You can move stealthily while traveling at a normal pace.
 - When you make an attack against a target that cannot see you, you do not automatically give away your position if you hit or miss with a ranged attack, or if you miss with a melee attack.
-
-
 

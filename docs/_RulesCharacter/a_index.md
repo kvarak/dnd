@@ -34,10 +34,10 @@ The first step when playing is to create a character. All classes and folk can b
 
     **Generate Background**. Unless you have a specific background in mind, use the background tables to generate the events of your life before starting the adventure.
 
-    **Roll Traits**. Roll two (or more) traits in addition to any that were granted during background generation. 
+    **Roll Traits**. Roll two (or more) traits in addition to any that were granted during background generation.
 
     **Select Background Skills**. While generating your background, you will receive skills appropriate for the events in your life. If you get less than three skills (four for humans), you can select additional appropriate skills so that you have that amount. Additionally you always gain the appropriate Culture skill (unless living as a hermit or similar). Skills found in the Background skills section on the skills page, are only available at this time.
-    
+
     **Gain Fate Power**. Roll a random Fate power. If you start at first level you gain two Fate points which are used to activate your power. At higher levels you start with one fate point. Whenever you gain an increase in your proficiency modifier, you also gain a Fate point.
 
     **Folk Features**. Gain features from your type of folk.

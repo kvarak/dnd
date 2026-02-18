@@ -53,7 +53,6 @@ A light weapon is small and easy to handle, making it ideal for use when fightin
 Adds 5 ft to your reach.
 
 
-
 #### Two-handed
 Weapon requires two hands. Small creatures have disadvantage on attack rolls with these weapons. The size and bulk make it too large for a Small creature to use effectively.
 
@@ -78,7 +77,6 @@ To use a property, a wielder must be proficient in its use. If a maneuver requir
  **Shove**. Using the haft, you shove up to two adjacent opponents in place of a weapon attack. Both targets must be within 5 feet from you and each other. Each creature must make a Strength saving throw. On a failure, a creature is pushed 5 feet away from you.
 
  **Slam**. When an attack roll with this weapon exceeds the target's AC by 10 or more, or on a critical hit (in addition to its normal effect), the bludgeon hits with a singularly bone-shaking blow. If it rolls a d20 before the end of its next turn, it makes the roll with disadvantage and this effect ends.
-
 
 
  **Thrown**. If a weapon has the thrown property, you can throw the weapon to make a ranged attack. You use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. Unless otherwise noted, the attack has a normal range of 20 feet, and a maximum range of 60 feet. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can’t attack a target beyond the weapon’s long range.
@@ -112,15 +110,11 @@ Some weapons do not follow the generic patterns of damage, or have unusual rules
  **Special: Duom**. The duom is a longspear with a standard spearhead, as well as two blades curved so that they point backward along the shaft. The weapon has reach, allowing you to strike opponents 10 ft away with it. Those proficient with the duom can also attack adjacent foes with the reversed heads using a practiced “reverse thrust” as a ***bonus action***. This attack deals 1d6 damage and counts as an off-hand attack.
 
 
-
  **Special: Shield**. Proficiency with improvised weapon counts as proficiency with shield attacks. You can forgo a weapon attack to drive an opponent off-balance by smashing through their guard with an attack from your shield. On a hit, the target takes damage and must succeed with a Strength saving throw, or your next attack roll against it this round is made with advantage.
 
  **Special: Spiked chain**. This requires two hands to use, but is wielded as two separate one-handed weapons when you hold it. Both of these weapons are considered to have the light property.
 
  You may use an action to attempt to grapple a Large or smaller creature with this weapon. Make a single attack with either half of this weapon. On a hit, the creature takes damage from the attack as normal, and is grappled. Until this grapple ends, you automatically inflict 1d4 piercing damage at the start of your turn. You may only maintain one such grapple at any time and cannot use that end of the weapon.
-
-
-
 
 
 ## <a class="internal-link" name="internal-ranged">Ranged Weapons</a>
@@ -168,18 +162,11 @@ Many weapons have special properties related to their use, as shown in the Weapo
  **Range**. A weapon that can be used to make a ranged attack has a range shown as two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can’t attack a target beyond the weapon's long range.
 
 
-
  **Special: Net**. A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
 
  **Special: Composite Longbow**. The composite bow’s unique construction gives it an incredibly heavy draw, making it usable only by the strongest archers. Characters with a Strength score of 14 or lower have disadvantage on attacks made with a composite bow.
 
  When you make an attack with a composite bow, you may take a penalty on your attack roll equal to your Strength modifier. This penalty must be applied before the roll is made. If the attack hits, it deals additional damage equal to your Strength modifier.
-
-
-
-
-
-
 
 
 <div class="block classTable halfClassTable frame" markdown="1">
@@ -223,7 +210,6 @@ Many weapons have special properties related to their use, as shown in the Weapo
  **Arrow, Signal** This arrow is specially designed to emulate a bird’s call when fired. Elven fletchers craft the arrows to make calls that will be recognized as signals by the elves of the community. For example, a hawk’s cry might signal an attack, and an owl’s screech might signal a stealthy advance. A successful Wisdom (Nature) check at DC 15 determines whether the sound comes from a bird or another source. The intricate carving on the arrow shafts makes them clumsy in flight, imposing a disadvantage on attack rolls.
 
 
-
  **Arrow, Smoking**. Arrow with a small clay head containing a reactive chemical. On a hit, it releases smoke in a 10ft sphere, heavily obscuring vision in that area. The smoke lasts for 10 rounds, unless removed by a strong wind.  Deals bludgeoning damage, one die smaller than an ordinary arrow.
 
  **Bullet, Acid**. These hollow glass sling bullets are filled with acid. When they strike a target, they immediately shatter, dealing 1d4 points of acid damage in addition to the normal damage from the sling bullet. To hold sufficient acid, these bullets must be larger than normal. The increased size makes the bullets awkward and unwieldy to launch, imposing a –2 penalty on the attack roll.
@@ -237,11 +223,6 @@ Many weapons have special properties related to their use, as shown in the Weapo
  **Quiver, Aquatic**. This is not so much a quiver as a back-mounted bandoleer, intended to hold arrows in place during the tumbling and turning that is common underwater. A normal open quiver is extremely likely to spill arrows during even casual manoeuvring. Holds up to 20 arrows.
 
  **Vest, Knife**	This specially designed vest is worn over other clothing and can comfortably hold up to ten daggers across the chest, and is particularly handy for knife-throwers. Each time you make a ranged attack, drawing the weapon from the knife vest is part of the attack.
-
-
-
-
-
 
 
 ## <a class="internal-link" name="internal-knives">Knives</a>

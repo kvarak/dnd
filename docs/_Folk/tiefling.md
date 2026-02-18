@@ -215,8 +215,6 @@ Roll twice on the special appearance tables below.
 - <img src='https://lh4.googleusercontent.com/vX33UNBjiN5F91E4GcRcV9fjBWDeuy_4UapMu85aNXl-B1Gr9CSCRVSAn0MTqDrw_icgE-vhWZAth1NQujy7wR8D0i9puEPT3CLmqp2G5beDRUPcFvgKmtwlU6_pjpYjdmOwfdsp' style='width:75%;padding:20px' />
 
 
-
-
 ## <a class="internal-link" name="internal-class">Tiefling Class Options</a>
 An tiefling approaches some classes is a bit different than other races. When you select a class, it is modified as follows:
 
@@ -357,6 +355,4 @@ An tiefling approaches some classes is a bit different than other races. When yo
     <hr class="dividerinfolk">
 
 </div>
-
-
 

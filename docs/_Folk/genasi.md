@@ -173,8 +173,6 @@ The ever-changing patterns of weather seem simple to you, due to your deep conne
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-earth">Earth Genasi</a></h1>
 
@@ -252,8 +250,6 @@ Earth genasi approach some classes a bit differently than other folk. In additio
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-fire">Fire genasi</a></h1>
 
@@ -299,9 +295,6 @@ Fire genasi approach some classes a bit differently than other folk. In addition
 - <img src='https://i.pinimg.com/474x/37/58/3c/37583c0c5c9382c98c110db00f0262e6.jpg' style='width:65%;padding:20px' />
 
 </div>
-
-
-
 
 
 <hr class="classdivider">

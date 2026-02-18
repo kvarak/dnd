@@ -1,6 +1,20 @@
 ---
 title: Sorcerer
 layout: default
+profile:
+  generic:
+    magicType: "versatile"
+    originBackground: ["noble", "tribal", "rural", "scholarly"]
+  specific: ["innate-power", "magical-bloodline", "raw-talent", "intuitive-value"]
+  archetypes:
+    draconic-bloodline:
+      generic:
+        magicType: "damage"
+      specific: ["draconic-heritage", "proud-value", "elemental-affinity", "natural-armor"]
+    wild-magic-bloodline:
+      generic:
+        magicType: "versatile"
+      specific: ["chaotic-value", "unpredictable-power", "fate-touched", "wild-surges"]
 ---
 
 <div class="toc" markdown="1">
@@ -13,7 +27,7 @@ layout: default
 <a href="#internal-blighted">Blighted</a><br/>
 <a href="#internal-duneChild">Dune Child</a><br/>
 <a href="#internal-divineSoul">Divine Soul</a><br/>
-<a href="#internal-draconic">Draconic Bloodline</a><br/>
+<a href="#internal-draconicBloodline">Draconic Bloodline</a><br/>
 <a href="#internal-dread">Dread Sorcery</a><br/>
 <a href="#internal-ethereal">Ethereal Spirit</a><br/>
 <a href="#internal-fiendish">Fiendish Bloodline</a><br/>
@@ -29,7 +43,7 @@ layout: default
 <a href="#internal-stone">Stone Sorcerer</a><br/>
 <a href="#internal-storm">Storm Sorcerer</a><br/>
 <a href="#internal-timeThief">Time Thief</a><br/>
-<a href="#internal-wild">Wild Magic Bloodline</a><br/>
+<a href="#internal-wildMagicBloodline">Wild Magic Bloodline</a><br/>
 <a href="#internal-wishcrafter">Wishcrafter</a>
 
 ##### <a href="#internal-metaMagic">Metamagic</a>
@@ -221,7 +235,7 @@ The hobgoblin ran. He did not get far.
 ### Metamagic
 At 3rd level, you gain the ability to twist your spells to suit your needs. You gain three of the <a href="#internal-metaMagic">Metamagic options</a> of your choice and gain three additional options at both 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
 
-<!-- 
+<!--
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 -->
@@ -249,7 +263,7 @@ Different sorcerers claim different origins for their innate magic. Choose a sor
 
 - **<a href="#internal-divineSoul">Divine Soul</a>**. Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention.
 
-- **<a href="#internal-draconic">Draconic Bloodline</a>**. Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors.
+- **<a href="#internal-draconicBloodline">Draconic Bloodline</a>**. Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors.
 
 - **<a href="#internal-dread">Dread Sorcery</a>**. The essence of undeath, the antithesis of life, permeates your soul.
 
@@ -281,7 +295,7 @@ Different sorcerers claim different origins for their innate magic. Choose a sor
 
 - **<a href="#internal-timeThief">Time Thief</a>**. Sorcerer that manipulates time.
 
-- **<a href="#internal-wild">Wild Magic Bloodline</a>**. Your innate magic comes from the wild forces of chaos.
+- **<a href="#internal-wildMagicBloodline">Wild Magic Bloodline</a>**. Your innate magic comes from the wild forces of chaos.
 
 - **<a href="#internal-wishcrafter">Wishcrafter</a>**. Imbued with magic from a powerful, reality-altering wish, your destiny is to bring hope to others and grant their desires, while simultaneously realizing your own.
 
@@ -327,11 +341,6 @@ Your physical form has become twisted by the taint of your ancestors, allowing y
 Whenever you make a Strength, Dexterity, or Constitution saving throw, as a ***reaction*** by expending 2 sorcery points, you can treat it as a Charisma saving throw instead.
 
 Additionally, whenever you cast a spell at 1st-level or higher that deals psychic damage, you add your Charisma modifier to it.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -387,11 +396,6 @@ Your spider-like constitution has granted you immunity to the poisoned condition
 * The spell does not require concentration.
 * While moving on this webbing, you and any spiders you summon have their movement speed increased by 10 ft.
 * The webbing lasts for 1 minute, at which point the webbing wilts away.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -451,10 +455,6 @@ Your strength has grown to surpass that of your ancestor, and your power over th
 If any targets are slain by this attack, they are consumed instantly by flame, and the ashes coalesce into a hellhound. Hell hounds summoned by this feature are elementals instead of fiends. The hellhound obeys your orders without question and acts during your turn. You can’t have more than two hellhounds at a time from this feature. Creation of a third hellhound destroys the oldest one still alive. Each hellhound remains in your service until slain or until the third dawn after it was summoned, at which point it disintegrates into Ash.
 
 Once you use this feature, you can’t do so again until you finish a long rest.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -533,11 +533,6 @@ While active, this storm has the following effects on creatures other than you:
 * Creatures within the storm move at half their normal speed as the chilling air and fog make navigation difficult.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-blighted">Blighted</a></h1>
 <div class="featuresTable">
@@ -593,15 +588,6 @@ Vine blights can be commanded in the same way as needle blights, except you can 
 
 ### Unrelenting Army
 You can imbue life into back into your blights after they have fallen. As an ***action***, you can touch a blight that was reduced to 0 hit points within the last minute and spend 1 sorcery point to revive it with half of its hit point maximum in current hit points.
-
-
-
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -674,12 +660,6 @@ Additionally, you may cast the spell *blur* or *mirror image* once each, without
 You have garnered mastery over the desert, allowing you to call upon its strength anywhere. As an ***action***, you can spend 5 sorcery points to create a sandstorm in a 30 ft radius sphere centered on you, and it moves with you. While this sandstorm is active, creatures caught within the affected area take slashing damage equal to half your sorcerer level at the beginning of each of their turns, and their movement speed is reduced by half. In addition, creatures within the affected area have disadvantage on saving throws made to resist illusion spells that you cast.
 
 Once you have used this feature, you cannot do so again until you finish a long rest.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -757,13 +737,8 @@ Gain the ability to overcome grievous injuries. As a ***bonus action*** when you
 Once you use this feature, you can’t use it again until you finish a long rest.
 
 
-
-
-
-
-
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-draconic">Draconic Bloodline</a></h1>
+<h1><a class="internal-link" name="internal-draconicBloodline">Draconic Bloodline</a></h1>
 <div class="featuresTable">
 
 #### Draconic Bloodline features
@@ -815,10 +790,6 @@ You can channel the dread presence of your dragon ancestor, causing those around
 For 1 minute or until you lose your concentration (as if concentrating on a spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends.
 
 A creature that succeeds on this saving throw is immune to your aura for 24 hours.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -898,12 +869,6 @@ Additionally, undead creatures sense your connection to them and the dead and be
 You no longer require sleep, and can’t be forced to sleep by any means. You age much slower than normal. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged.
 
 Additionally, you have learned how to command the magic of death. Choose two necromancy spells of 5th level or lower from any spell list. You learn those spells, and you can cast each of these spells once without using a spell slot.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -988,12 +953,6 @@ Additionally, you are able to possess other creatures, taking control of their b
 You now control the body but this effect doesn't deprive the target of awareness. You can't be targeted by any attack, spell, or other effect, except ones that turn undead or affect your mind. You use the possessed target's physical stats, however you do not gain access to the target's knowledge, class features, or proficiencies.
 
 This possession lasts until the target’s body drops to 0 hit points, you end this effect as a ***bonus action***, or you are turned or forced out by an effect like the dispel evil and good spell. When the possession ends, you reappear in an unoccupied space within 5 feet of the body. The target is immune to this possession for 24 hours after succeeding on the saving throw or after the possession ends.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1081,11 +1040,6 @@ You take on the inscrutable nature of the Lord of the Ninth himself. Any magic o
 Additionally, you can use the full force of your infernal magic to impose your will on a creature that would otherwise do you harm. When you are targeted by an attack or spell, you can use your ***reaction*** and spend 5 sorcery points to force the attacking creature to make a Wisdom saving throw.
 
 On a failed save, the creature is charmed by you until the end of your next turn, and you can choose to have the creature immediately move up to its speed and perform the attack or spell against a new target of your choice. While charmed, the creature uses your spell save DC in place of its own.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1189,10 +1143,6 @@ You are able to call upon winter itself to aid you in battle. As an ***action***
 * A hostile creature that starts its turn within 10 ft of you must succeed on a Constitution saving throw or take 2d8 cold damage and become restrained until the start of its next turn. A creature that succeeds on this saving throw is immune to this effect for the next 24 hours.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-incantatrix">The Incantatrix</a></h1>
 <div class="featuresTable">
@@ -1270,11 +1220,6 @@ By means of this power, you target any single being who is within 60 feet. To st
 A stolen spell may be cast immediately, without material components or even any need for you to understand the spell. You will not automatically know the identity or the nature of the stolen spell so you may end up aiding rather than harming an opponent. Any stolen spell takes effect, when expelled, as though it was cast by the being from which it was stolen, with regard to level of effectiveness, damage caused, alignment considerations, and so forth. Spell-like natural powers employed by beings cannot be stolen by means of this spell.
 
 Once you use this feature, you can't use it again until you complete a long rest.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1364,12 +1309,6 @@ On your turn, you can move through any space that is at least 3 inches in diamet
 You may spend 10 sorcery points to transform into an air elemental or water elemental for up to 8 hours. This ability otherwise works as the *shapechange* spell.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-oozemaster">Oozemaster</a></h1>
 <div class="featuresTable">
@@ -1420,10 +1359,6 @@ Your blood flows like a thick soup rather than a normal liquid. As a ***reaction
 Your transformation into an ooze is complete. You can *polymorph*, as per the spell, into any ooze without expending a spell slot.
 
 After you use this ability, you cannot use it again until you complete a long rest.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1484,9 +1419,6 @@ Additionally, your ability to identify the maladies of afflicted creatures impro
 You can wield Pandemonium's power to show other creatures the absolute futility of their efforts. You can use your ***action*** and spend 6 sorcery points to force a creature you can see within 60 ft to make a Wisdom saving throw. On a failed save, the creature takes 3d12 psychic damage, gains a level of exhaustion, and is deafened and paralyzed for 1 minute, or until you lose concentration (as if you were casting a concentration spell), as Pandemonium's winds roar in their mind. At the end of each of the creature's turns, it takes 3d12 psychic damage and must make another Wisdom saving throw. The creature gains a level of exhaustion on a failure, and ends the effect on a success, losing all exhaustion caused by this feature.
 
 A creature that gains 6 levels of exhaustion while under this effect, or is reduced to 0 hit points by it, doesn't die. Instead, the effect ends, the creature loses all exhaustion caused by this feature and it goes insane until cured by *greater restoration*, becoming stable if at 0 hit points. While insane, the creature's speed is reduced to 10 feet, it has disadvantage on attack rolls, ability checks and saving throws, it perceives all other creatures as enemies, it can't read, and it speaks only in gibberish.
-
-
-
 
 
 <hr class="classdivider">
@@ -1564,10 +1496,6 @@ You finally master the spark of fire that dances within you. While under the eff
 - If you use your Phoenix Spark, that feature deals an extra 20 fire damage to each creature
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-plaguebringer">Plaguebringer</a></h1>
 <div class="featuresTable">
@@ -1632,12 +1560,6 @@ Additionally, whenever you come across someone who carries a disease, you can at
 You have become a harbinger of plagues. Any spell that you cast that causes disease or poison treats the diseases as magical.
 
 In addition, you can spend 5 sorcery points to change the range of the spell *contagion* from touch to a 30 ft sphere centered on yourself. This spell moves with you and lasts up to 1 minute. Additionally, you can choose up to two diseases instead of one. When you choose two diseases, they both work at the same time, and each targeted creature must roll twice, once for each disease. You can choose a number of creatures within range of this spell up to your Charisma modifier to be immune to its effects.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1743,10 +1665,6 @@ Your relic takes on an aspect of greater power. Choose one of the following feat
 Your relic becomes an artifact. It gains two minor and one major beneficial property, either selected at random or chosen by the DM. When you gain this feature, you can also choose to gain an additional minor beneficial property as well as one minor detrimental property, selected at random.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-starTouched">Star Touched</a></h1>
 <div class="featuresTable">
@@ -1799,11 +1717,6 @@ You can now wield the destructive power of the cosmos, allowing you to cause you
 The creature must make a Dexterity saving throw  against your spell save DC, taking 2d10 radiant damage per mote and be blinded until the start of its next turn on a failed save, and half as much damage and not be blinded on a successful save.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-stone">Stone Sorcerer</a></h1>
 <div class="featuresTable">
@@ -1853,7 +1766,7 @@ Perhaps you were born underground or at the base of a mountain, or came in conta
 | 6 | Your voice is unusually deep and rough.
 
 ### Bonus Skills
-Select any 2 weapon groups and gain rank 2 in each. You gain 1 skill point to spend on *Armor* skills. 
+Select any 2 weapon groups and gain rank 2 in each. You gain 1 skill point to spend on *Armor* skills.
 
 Additionally, you learn the *mold earth* cantrip, add *Geology* to your class skills and gain 1 skill point to spend on this skill.
 
@@ -1881,13 +1794,6 @@ You have gained immunity to the petrified condition. You also gain a burrowing s
 You have become one with stone and the earth. You no longer can be moved against your will, and spells you cast that deal bludgeoning damage and your unarmed strikes while your Stoneflesh feature is active deal additional damage equal to half your sorcerer level.
 
 You also have learned how to turn the power of the earth against your enemies. As an ***action***, you can spend 5 sorcery points to cast the spell *earthquake* without concentration, and the spell’s range increases to 1000 feet.
-
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1947,11 +1853,6 @@ When you are hit by a melee attack, you can use your ***reaction*** to deal ligh
 Gain a flying speed of 60 ft. As an ***action***, you can reduce your flying speed to 30 ft for 1 hour and choose a number of creatures within 30 ft equal to 3 + your Charisma modifier. The chosen creatures gain flying speed of 30 ft for 1 hour. Once you reduce your flying speed in this way, you can’t do so again until you finish a long rest.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-timeThief">Time Thief</a></h1>
 <div class="featuresTable">
@@ -1984,7 +1885,7 @@ The following additions are made to the general rest rules.
 A time thief's legacy originally comes from a time traveler, a master of chronomancy or just some creature heavily affected by time magic. He learns instinctively to manipulate time, in particular steal time. Mostly he steals boring, unneeded time from his own future, saving tiny split-seconds he can use to make his life easier in the present. As his powers grow, the time thief can learn to manipulate bigger slices of time, giving more options to enhance his actions or even alter the timeline of enemies and allies alike. Most of the time thief's effects are subtle to outside observers, seeming to be more good fortune and preternatural speed than control over time.
 
 ### Bonus Skills
-Select any 2 weapon groups and gain rank 2 in each. You gain 1 skill point to spend on *Armor* skills. 
+Select any 2 weapon groups and gain rank 2 in each. You gain 1 skill point to spend on *Armor* skills.
 
 ### Mote of Time
 A mote is a tiny split-second of time that you steal from your own future. The motes taken are inconsequential slivers of continuance that even you will not notice being missing from your activities. However, you can use these motes to affect your present time, allowing you to retry actions and slow down time around you so you can act more carefully and alertly in fast-moving situations.
@@ -2090,13 +1991,8 @@ When first gained, you must select a single power from the list below and you ha
 You are so evasive that attackers rarely gain the upper hand against you. No attack roll can have advantage against you while you aren't incapacitated.
 
 
-
-
-
-
-
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-wild">Wild Magic Bloodline</a></h1>
+<h1><a class="internal-link" name="internal-wildMagicBloodline">Wild Magic Bloodline</a></h1>
 <div class="featuresTable">
 
 #### Wild Sorcerer Features
@@ -2139,11 +2035,6 @@ You gain a modicum of control over the surges of your wild magic. Whenever you r
 
 ### Spell Bombardment
 The harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -2206,10 +2097,6 @@ Once you have used this feature, you may not do so again until after a long rest
 
 ### Heart’s Desire
 Your dedication to aiding others has allowed you to more easily imbue yourself with power. When you cast a beneficial spell on a friendly target, you may also cast the same effect on yourself. If the spell normally targets more than one creature, you do not count towards the spell's normal targets.
-
-
-
-
 
 
 <h2><a class="internal-link" name="internal-metaMagic">Metamagic</a></h2>

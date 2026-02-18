@@ -48,8 +48,6 @@ The days to next level column refers to the minimum number of days of training b
 Your teacher can be anyone who agrees to teach you. They don’t need to be fluent in the language, but they cannot bring you to a level higher than their own. A teacher also needs to use their camp activity or a minor downtime activity while teaching.
 
 
-
-
 Once the minimum number of days for a student's current level has been met, the student may attempt an Intelligence check against the next level’s Aquisition DC.
 
 In order to attempt the Acquisition check once more, a student must undergo additional days of training equal to half of the number of training hours they had just completed, rounded down. This reduction is cumulative with successive failed checks.
@@ -64,11 +62,7 @@ If he fails a second time, he must spend 1 more day of study before attempting t
 He can use the language at that level, and he can begin training in Beginner Dwarvish (Level 2).
 
 
-
 </div>
-
-
-
 
 
 ### Using Language
@@ -101,7 +95,4 @@ The result is; when reading Varisian or Common, his reading level is 2. However,
     A roll of 1 will result in a mistranslation of a key peice of language.
 
 </div>
-
-
-
 

@@ -104,8 +104,6 @@ The rare and secretive forest gnomes, have a natural knack for illusion and inhe
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-rock">Rock Gnome</a></h1>
 
@@ -139,9 +137,6 @@ A constant hum of busy activity pervades the warrens and neighborhoods where the
 
 -  -- ***Shield, Widowmaker***. This strange, gnomish device appears to be an ordinary shield with pyramidlike protrusions around the periphery. The shield works similarly to a bear trap in that, when the shield is struck and the character releases the trip-cord, it snaps shut. Thus, if an opponent misses the bearer of a widowmaker shield by two or less on an attack roll, the character may choose to release the trip-cord and have the shield attempt to close on the opponent’s weapon. The opponent must make a Dexterity save (DC 10) or have the item they were wielding become trapped in the shield’s grip (Strength check DC 10 to break the widowmaker’s grip). If the opponent was using his bare fist to strike at the character with the widowmaker and they fail their save, their hand becomes trapped instead. Once a widowmaker shield is triggered the character loses the AC bonus from the shield. A widowmaker shield takes one minute to reset.
 </div>
-
-
-
 
 
 <hr class="classdivider">
@@ -188,8 +183,6 @@ Svirfneblin believe that survival depends on avoiding entanglements with other c
 - <img src='https://i.pinimg.com/originals/2c/90/26/2c9026f388484b38d3b0ccf07e32bf06.png' style='width:80%;padding:20px' />
 
 </div>
-
-
 
 
 ## <a class="internal-link" name="internal-class">Gnome Class Options</a>
@@ -345,8 +338,6 @@ An gnome approaches some classes is a bit different than other races. When you s
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-race">The Gnome Race</a></h1>
 
@@ -406,7 +397,6 @@ revel in the search. They savor the acquisition of new
 knowledge, realizing it might come at a cost, and even a
 series of bad results in experiments doesn't dissuade a
 gnome from following their chosen path.
-
 
 
 ## <a class="internal-link" name="internal-rockGnomes">Rock Gnomes</a>
@@ -1064,5 +1054,4 @@ of duty rather than a sense of humor to an adventuring
 group. With their grit and iron will, deep gnomes meet
 adversity with hammers, picks, and their dour, dry wit -or
 no wit at all- as their weapons of choice.
-
 

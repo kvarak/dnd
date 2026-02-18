@@ -2216,8 +2216,6 @@ You know how and where to sell and buy items within your expertise to earn the m
 </details>
 
 
-
-
 </details>
 
 <!-- ---------------------------- SAILOR ----------------------------------  -->

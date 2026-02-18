@@ -140,7 +140,7 @@ Herbal remedies are special herbal poultices, potions, and other curatives that 
 
     Price: 10 gp
 
-    This dried fungus allows for speaking with the spirits of the dead when used as snuff. After using it, and succeeding at a DC10 Constitution save, it functions as a _speak with dead_ spell. On a save the user will experience hallucinations of dead people talking to them.
+    This dried fungus allows for speaking with the spirits of the dead when used as snuff. After using it, and succeeding at a DC10 Constitution save, it functions as a *speak with dead* spell. On a save the user will experience hallucinations of dead people talking to them.
 
 
 -   #### Faerie wing brew
@@ -375,7 +375,7 @@ Herbal remedies are special herbal poultices, potions, and other curatives that 
     Price: 4 cp \
     Sage is a soft, blue-green leaf that is dried and burned as an incense to achieve its effect, purifying a 20’ square foot area. The purified area repels negative residual emotions and spiritual energies. While burning in an area, any evil or evil act is at a disadvantage while it is in the area. If used in conjunction with a spell that protects from evil, it extends the duration by 50%.
 
-    It can also be used as an additional material component while casting the spell _glyph of warding_ as a ritual. If you do, creatures and objects in the glyph's area of effect when it activates are also targeted by _dispel magic_.
+    It can also be used as an additional material component while casting the spell *glyph of warding* as a ritual. If you do, creatures and objects in the glyph's area of effect when it activates are also targeted by *dispel magic*.
 
     Certain types of sage can also be used as a culinary herb.
 

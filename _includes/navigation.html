@@ -27,6 +27,10 @@
                 {% endif %}
               {% endfor %}
             {% endfor %}
+          {% elsif nav.pages %}
+            {% for page in nav.pages %}
+              <a class="dropdown-item" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+            {% endfor %}
           {% else %}
             {% for collection in site.collections %}
               {% if collection.label == nav.folder %}

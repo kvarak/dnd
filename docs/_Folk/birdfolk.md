@@ -86,8 +86,6 @@ As an aarakocra, you have certain traits in common with your people. Being able 
 </div>
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Kenku">Kenku (Tengu)</a></h1>
 
@@ -175,7 +173,6 @@ If you're playing a kenku, constant attempts to mimic noises can come across as 
 You might say, "Snapper makes the noise of a hammer slowly and rhythmically tapping a stone to show how bored he is. He plays with his dagger and studies the Lords' Alliance agent sitting at the bar." Creating a vocabulary of noises for the other players to decode might sound like fun, but it can prove distracting and could slow down the game.
 
 </div>
-
 
 
 <hr class="classdivider">

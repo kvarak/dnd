@@ -246,7 +246,6 @@ Constructs - and things that look like constructs. Many of these creatures are i
     </div>
 
 
-
 -   <div class="monster multimonster frame">
     <table class="monster">
     <thead><tr><th>

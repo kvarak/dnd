@@ -69,7 +69,6 @@ One of the most important things to decide is the deity you serve. The Golarion 
 A description of the most common deities in Golarion, as well in a more generic setting, can be found *<a href="#internal-Pantheons">here</a>.* This also includes the allowed domains for each deity.
 
 
-
 ## Cleric Class Features
 
 As a cleric, you gain the following class features.
@@ -158,7 +157,6 @@ Whenever you gain a level in this class, you can replace one cantrip you learned
 The Cleric table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain expended spell slots when you finish a long rest.
 
 You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells up to your Wisdom modifier + your cleric level. The spells must be of a level for which you have spell slots. Casting the spell doesn’t remove it from your list of prepared spells.
-
 
 
 <div class="card rest">
@@ -283,8 +281,6 @@ Finally at 20th level, you can call on your deity to intervene on your behalf wh
 4. Your deity merges your being with its own, granting you significant power. You immediately recover all your HP and expended spell slots, and you immediately end any effects on you of your choice. Additionally, your AC increases by an amount equal to your wisdom modifier, and your HP maximum increases by your wisdom modifier times 20. These benefits last for an hour or until your deity decides to end it early.
 
 Once you gain aid from your deity, you can not do so again until 7 days have passed.
-
-
 
 
 <h2><a class="internal-link" name="internal-Pantheons">Pantheons</a></h2>
@@ -452,7 +448,6 @@ Each domain has a list of domain spells. Whenever you gain access to a new cleri
 If you have chosen the path of the Crusader, your divine domain decides what type of damage your Faithful Path features deals. A few domains also have choices for other Paths.
 
 
-
 #### Domain list
 
 <div class="columns">
@@ -490,7 +485,6 @@ If you have chosen the path of the Crusader, your divine domain decides what typ
 
 #### Deity exclusive paths
 <a href="#internal-balancedScale">Balanced Scale of Abadar</a>. This is a path exclusive to clerics of Abadar.
-
 
 
 <hr class="classdivider">
@@ -559,7 +553,6 @@ Your spells bolster your target even when already at their peak condition. Any t
 These hit points last for 1 minute, and give the creature advantage on all saves as long as they remain. Healing a creature who is missing no hit points and already has temporary hit points from this feature wastes the spell slot with no effect.
 
 
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Arcana">Arcana Domain</a></h1>
 
@@ -597,8 +590,6 @@ You have learned how to quicken your spellcasting. When you cast a spell of 1st 
 
 ### Arcane Mastery
 Choose four spells from the wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. Add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you.
-
-
 
 
 <hr class="classdivider">
@@ -672,9 +663,6 @@ Your god controls the events around you, acting with inscrutable intent. When a 
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Celebration">Celebration Domain</a></h1>
 
@@ -724,9 +712,6 @@ Gain 8 additional Piety.
 
 ### Grand Finale
 When you make a ranged attack or cast a cantrip that targets only one creature, you can cause the projectile or the cantrip to explode in a shower of sparks. Each creature within a 5-ft radius centered on the target must make a Dexterity saving throw against your cleric spell save DC or take damage as if also targeted by the attack or cantrip.
-
-
-
 
 
 <hr class="classdivider">
@@ -819,12 +804,6 @@ Whenever the creature takes an action, they must roll on the Wild Magic Surge ta
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Charm">Charm Domain</a></h1>
 
@@ -894,9 +873,6 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 Gain immunity to charm and sleep effects. Additionally you gain advantage on saving throws against other enchantment spells or effects.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Death">Death Domain</a></h1>
 
@@ -932,10 +908,6 @@ Your body has taken on some of the beneficial aspects of undeath without sufferi
 
 ### Improved Reaper
 When you cast a necromancy spell of 1st through 5th level that targets only one creature, the spell can instead target two creatures within range and within 5 ft of each other. If the spell consumes its material components, you must provide them for each target.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1005,11 +977,6 @@ You can also cast *hallucinatory terrain*. When you do so, the area appears to b
 Once you have used this feature you cannot use it again until you complete a long rest.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Fate">Fate Domain</a></h1>
 
@@ -1076,14 +1043,6 @@ If you are not satisfied at that time, you can choose to defy the vision, revert
 Once you have used this feature you cannot use it again until you complete a long rest.
 
 
-
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Forge">Forge Domain</a></h1>
 
@@ -1138,11 +1097,6 @@ Your flame and spirit is an unbreakable defense. You have resistance to nonmagic
 Your blessed affinity with fire and metal becomes more powerful:
 * You gain immunity to fire damage.
 * While wearing heavy armor, you have resistance to bludgeoning, piercing, and slashing damage.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1205,12 +1159,6 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 You can use your ***action*** to surround yourself with an aura of perfect chance. For 1 minute or until you dismiss the aura using another action, you have advantage on all saving throws against effects that deal damage, and all attack rolls against you are made at disadvantage.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Hunting">Hunting Domain</a></h1>
 
@@ -1259,10 +1207,6 @@ Due to repeated exposure to nature, your body’s resistance has increased. You 
 You become immune to the effects of difficult terrain and gain a climb speed equal to your walking speed.
 
 You can choose to have your Slayer's Arrow turn up to three times during its flight and the first creature struck takes additional force damage equal to your cleric level if they fail their saving throw. Each creature cannot be struck more than once per use of this feature.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1324,15 +1268,6 @@ You can use this feature a number of times equal to your proficiency bonus, and 
  **Area Reading**. As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.
 
 
-
-
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Life">Life Domain</a></h1>
 
@@ -1382,11 +1317,6 @@ Energies of life fill your body. You have advantage on saves to against effects 
 
 ### Supreme Healing
 When you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1444,14 +1374,6 @@ The lights guidance no longer makes you wince. You gain resistance to radiant da
 You can use your ***action*** to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60 ft radius and dim light 30 ft beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.
 
 
-
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Nature">Nature Domain</a></h1>
 
@@ -1497,10 +1419,6 @@ Your speech becomes infused with the natural energies of the world. You are cons
 
 ### Master of Nature
 You gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a ***bonus action*** on your turn to verbally command what each of those creatures will do on its next turn.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1560,9 +1478,6 @@ Your summons to the ocean is as strong as it's call to your heart. You can cast 
 In addition, you gain resistance to cold damage and immunity to exhaustion from swimming or other oceanic conditions and activities.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Order">Order Domain</a></h1>
 
@@ -1616,13 +1531,6 @@ As an ***action*** you can speak to a creature within 30 ft that can hear you, t
 
 ### Order’s Wrath
 Enemies you designate for destruction wilt under the combined efforts of you and your allies. When you hit a creature with a weapon attack on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 1d8 psychic damage and the curse ends.
-
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1680,15 +1588,6 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 You gain resistance to two damage types of your choice, choosing from bludgeoning, necrotic, piercing, radiant, and slashing. Whenever you finish a long rest, you can change the damage types you chose.
 
 As an ***action***, you can temporarily give up this resistance and transfer it to one creature you touch. The creature keeps the resistance until your next short rest or until you transfer it back to yourself as a ***bonus action***.
-
-
-
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1759,13 +1658,6 @@ You are able to declare when it is not someones time to die. When a creature wit
 Upon using this feature, you can not use it again until you complete a long rest.
 
 
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Strength">Strength Domain</a></h1>
 
@@ -1782,7 +1674,6 @@ As a worshipper of a god of physical might, you are dedicated to performing feat
 | 8th | Faithful Path |
 | 10th | Behemoth |
 | 18th | Overpowering Might |
-
 
 
 ### Bonus Skills
@@ -1815,10 +1706,6 @@ Your strength is an unbreakable defense. All non-magical damage is reduced by an
 
 ### Overpowering Might
 When you hit a creature with a melee attack, you may use your ***reaction*** to attempt to shove or grapple it, regardless of its size.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1880,14 +1767,6 @@ Due to repeated exposure to nature, your body’s resistance has increased. You 
 You can use an ***action*** to make one allied creature who you can see immune to damage for a short time. The chosen creature is immune to all damage dealt by hostile creatures until the start of your next turn. You can regain the use of this ability when you finish a long rest.
 
 
-
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Tempest">Tempest Domain</a></h1>
 
@@ -1939,14 +1818,6 @@ You become more in tune with the raging tempest. You gain resistance to lightnin
 
 ### Unyielding Storm
 You have a flying speed equal to your current walking speed whenever you are not underground or indoors.
-
-
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -2015,11 +1886,6 @@ As an ***action***, you can call upon the power of entropy to cast *disintegrate
 You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-Trickery">Trickery Domain</a></h1>
 
@@ -2067,10 +1933,6 @@ As an ***action*** you may swap places with your duplicate created by Invoke Dup
 Your thoughts can't be read by telepathy or other means, unless you allow it. You can present false thoughts by succeeding on a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.
 
 Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful if you so choose, and you can't be compelled to tell the truth by magic.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -2138,12 +2000,6 @@ At the end of your next turn, the target returns to the space it previously occu
 Once you use this feature, you can't use it again until you finish a long rest.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-War">War Domain</a></h1>
 
@@ -2188,11 +2044,6 @@ You have resistance to nonmagical bludgeoning, piercing, and slashing damage.
 
 ### Avatar of Battle
 You gain resistance to all bludgeoning, piercing, and slashing damage.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -2266,16 +2117,6 @@ As an ***action***, you conjure a powerful blizzard that lasts for 1 minute, or 
 Creatures starting their turn within the blizzard (other than those you have designated) must make a Constitution saving throw against your spell save DC. If a creature fails, it is subject to your Rime ability without expending any of its uses, and takes 4d6 cold damage. Creatures with resistance or immunity to cold damage are not affected by Rime, as normal.
 
 You can dismiss this blizzard as a part of any other action. You can use this once and can regain its use when you finish a long rest.
-
-
-
-
-
-
-
-
-
-
 
 
 <hr class="classdivider">

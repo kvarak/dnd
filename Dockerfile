@@ -10,6 +10,12 @@ RUN apk add --no-cache nodejs npm
 # Install minification tools globally in Docker
 RUN npm install -g clean-css-cli terser
 
+# Copy package.json for npm dependencies
+COPY package.json ./
+
+# Install npm dependencies (glob, js-yaml for validation tools)
+RUN npm install
+
 # Copy Gemfile first for dependency management
 COPY Gemfile* ./
 

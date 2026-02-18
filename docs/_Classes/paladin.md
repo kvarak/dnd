@@ -65,16 +65,6 @@ Although no paladin in the world could be described as typical, a number of them
 It’s important to keep in mind that most paladins aren’t robots. They have doubts and prejudices and harbor contradictory thoughts just as any other character does. Some are compelled by an internal motivation that might sometimes be at odds with the principles of their oaths.
 
 
-
-
-
-
-
-
-
-
-
-
 <h2><a class="internal-link" name="internal-darkpaladin">The Dark Paladin</a></h2>
 
 
@@ -101,7 +91,6 @@ so hot that they lose their divine virtues in a haze of fury.
 | 8 | Only the weak confide their worries. Only the false confess their sins. |
 
 
-
 #### Naïveté
 Naive paladins are unfamiliar with the ways of the world. Their actions are well intended, but in their haste for justice they bite off more than they can chew. Those who lack diligence or patience may find themselves accessory to a villain’s plot. Soft-hearted paladins will someday discover the brutality of their profession, and the wisdom to accept that is hard-won.
 
@@ -115,7 +104,6 @@ Naive paladins are unfamiliar with the ways of the world. Their actions are well
 | 6 | Nobody understands my burden; I regularly tell them so. |
 | 7 | I find no peace in quiet moments; my thoughts return to the lives I couldn’t save.|
 | 8 | Even in my dreams, I cannot escape the carnage I wreak in the name of virtue. |
-
 
 
 <h2><a class="internal-link" name="internal-featured">Class Features</a></h2>
@@ -388,10 +376,6 @@ The following blessings can only be used on yourself, and to use them you must s
 </div>
 
 
-
-
-
-
 <h2><a class="internal-link" name="internal-channel">Channel Divinity options</a></h2>
 
 Your sacred vows allow you to channel divine energy to fuel magical effects. You know **two** Channel Divinity options from below, and additionally one or more determined by your oath. When you gain a new Paladin level you can replace one of your Channel Divinity options with a new one, but you cannot replace the one provided by your oath.
@@ -542,7 +526,6 @@ The following prayers can be chosen when you reach 17th level of the Paladin cla
 </div>
 
 
-
 <h2><a class="internal-link" name="internal-oaths">Sacred Oaths</a></h2>
 
 
@@ -668,7 +651,6 @@ In the second case, the oath wold not be available if you grew up completely out
     **<a href="#internal-wingSeeker">Oath of the Wing seeker</a>** *(Kenku only)*. This oath focuses on the quest to end the plight that has plagued their race, and these paladins will follow any god or mission if it gets them closer to unravel the mysteries of their own past and to break the curse that looms over them.
 
 </div>
-
 
 
 <hr class="classdivider">
@@ -851,11 +833,6 @@ By using your ***action*** and spending 5 Devotion, you break free of all bonds 
 You can also move through other creatures and objects, but take 1d10 force damage if you end your turn inside an object.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-ancients">Oath of the Ancients</a></h1>
 <div class="featuresTable">
@@ -973,8 +950,6 @@ By using your ***action*** and spending 5 Devotion, you undergo a transformation
  - Creatures have disadvantage on saving throws against your Paladin features.
 
 
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-balance">Oath of Balance</a></h1>
 <div class="featuresTable">
@@ -1089,7 +1064,6 @@ You can use an ***action*** and spend 5 Devotion to enforce your will for dispas
 - You gain the benefits of the *true seeing* spell.
 
 
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-bastion">Oath of the Bastion</a></h1>
 <div class="featuresTable">
@@ -1184,9 +1158,6 @@ You can use an ***action*** and spend 5 Devotion to suffuse your form with divin
 - You have resistance to all damage except psychic damage
 - You cannot be moved by other creatures unless you choose to be moved.
 - You automatically succeed on saving throws to maintain your concentration on paladin effects provided the DC is 19 or less.
-
-
-
 
 
 <hr class="classdivider">
@@ -1284,11 +1255,6 @@ You can use an ***action*** and spend 5 Devotion to manifest visibly the regal s
  - You emanate an aura of majesty in a 30 ft radius. When a hostile creature starts its turn in the aura or enters it for the first time on a turn, it must succeed on a Wisdom saving throw against your Strength of Devotion DC or gain the charmed condition until the start of its next turn or until you do anything harmful to it.
 
 Alternatively, you can cast the *heroes' feast* spell once without requiring a spell slot or any material components.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1397,9 +1363,6 @@ You can use an ***action*** and spend 5 Devotion to harness your extraordinary m
  - Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-courage">Oath of Courage</a></h1>
 <div class="featuresTable">
@@ -1478,9 +1441,6 @@ You can use an ***action*** and spend 5 Devotion to assume the form of a holy av
  - All allies within 15 ft have advantage on attack rolls against undead and fiends, and advantage on saving throws to resist effects and spells by undead and fiends.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-crown">Oath of the Crown</a></h1>
 <div class="featuresTable">
@@ -1551,9 +1511,6 @@ You can use an ***action*** and spend 5 Devotion to make your presence on the fi
  - You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.
  - Your allies have advantage on death saving throws while within 30 ft of you.
  - You have advantage on Wisdom saving throws, as do your allies within 30 ft of you.
-
-
-
 
 
 <hr class="classdivider">
@@ -1637,11 +1594,6 @@ You can use an ***action*** and spend 5 Devotion to emanate an aura of sunlight.
  - You have resistance to radiant and necrotic damage.
  - You have advantage on saving throws against the spells and magical effects of fiends and undead.
  - Whenever an enemy creature starts its turn in the bright light, the creature takes 10 radiant damage.
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -1759,9 +1711,6 @@ If the portal leads to the Far Realm, creatures that enter it are flung to the f
 If the portal leads from the Far Realm, creatures adjacent to it are restrained by tentacles, claws, or other monstrous appendages that reach through it. Creatures so restrained can break free as an action by making a Strength saving throw.
 
 
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-freshness">Oath of Freshness</a></h1>
 <div class="featuresTable">
@@ -1867,11 +1816,6 @@ You can use an ***action*** and spend 5 Devotion to begin singing a truly heaven
 - You and friendly creatures within 30 ft of you are immune to the charmed condition.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-grave">Oath of the Grave</a></h1>
 <div class="featuresTable">
@@ -1973,10 +1917,6 @@ In addition dead bodies interred in the area can’t be turned into undead.
 You can use an ***action*** and spend 5 Devotion to surround yourself with a deathly chill. For 1 minute, swirls of chilling wind surround you in a 30 ft radius. Whenever an enemy creature starts its turn in the area, the creature takes 10 cold damage and their movement speed is reduced by 10 ft until the start of their next turn. In addition, whenever a creature dies within the area, you regain 20 hit points.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-guardian">Oath of the Guardian</a></h1>
 <div class="featuresTable">
@@ -2060,10 +2000,6 @@ You can use an ***action*** and spend 5 Devotion to become impenetrable bulwark 
  - You emanate an aura of compulsion in a 30 ft radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or direct all of its attacks against you.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-leadership">Oath of Leadership</a></h1>
 <div class="featuresTable">
@@ -2141,10 +2077,6 @@ You can use an ***action*** and spend 5 Devotion to turn into a divine symbol of
 
  - You gain proficiency with every skill, and your proficiency bonus is doubled for any ability check you make using a skill you’re proficient with.
  - Once per turn, when you make an attack roll, an ability check, or a saving throw, you can give yourself advantage on that roll.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -2273,11 +2205,6 @@ You can use an ***action*** and spend 5 Devotion to become an inspiring avatar o
 - You have advantage on saving throws against spells and magical effects from aberrations, demons and fey.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-martyrdom">Oath of Martyrdom</a></h1>
 <div class="featuresTable">
@@ -2381,13 +2308,6 @@ You can use an ***action*** and spend 5 Devotion to enter a state where pain and
 - You and all allies within 30 ft gain immunity to ability damage and death effects. You also gain immunity to all spells that restore hit point damage.
 
 
-
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-purge">Oath of the Purge</a></h1>
 <div class="featuresTable">
@@ -2481,10 +2401,6 @@ You can use an ***action*** and spend 5 Devotion to wreath yourself in flames. F
 - You have immunity to fire damage and resistance to cold damage.
 
 
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-radiance">Oath of Radiance</a></h1>
 <div class="featuresTable">
@@ -2575,11 +2491,6 @@ You can use an ***action*** and spend 5 Devotion to assume the form of a dazzlin
 - When a creature hits you with an attack, you may use your ***reaction*** to release a flare of light. Each creature within 5 ft of you must then succeed on a Constitution saving throw or take 2d8 radiant damage and become blinded until the end of their next turn.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-redemption">Oath of Redemption</a></h1>
 <div class="featuresTable">
@@ -2666,11 +2577,6 @@ You become an avatar of peace.
 If you attack a creature, target it with a spell or effect, or deal damage to it by any means but this feature, neither benefit works against that creature until you finish a long rest.
 
 
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-redemption">Oath of Redemption</a></h1>
 <div class="featuresTable">
@@ -2754,9 +2660,6 @@ For 1 minute, you gain the following benefits:
 
 - You gain resistance to all damage, except psychic damage.
 - You gain the benefits of the *haste* spell, and do not have to maintain concentration on it.
-
-
-
 
 
 <hr class="classdivider">
@@ -2883,10 +2786,6 @@ You can use an ***action*** and spend 5 Devotion to manifest your advocacy for p
 - You are immune to being charmed, exhausted, frightened, petrified, or poisoned, and magic cannot put you to sleep.
 - You are resistant to nonmagical bludgeoning, piercing, and slashing damage inflicted by weapons that are not made of adamantine.
 - Your melee weapon attacks inflict an additional die of damage and count as magical if they do not already.
-
-
-
-
 
 
 <hr class="classdivider">
@@ -3018,12 +2917,6 @@ You can use an ***action*** and spend 5 Devotion to channel the legacy of histor
 - Space within 30 ft is considered difficult terrain for hostile creatures.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-vengeance">Oath of Vengeance</a></h1>
 <div class="featuresTable">
@@ -3122,12 +3015,6 @@ You can use an ***action*** and spend 5 Devotion to assume the form of an angeli
 - You have advantage on attack rolls against creatures frightened of you.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-waves">Oath of the Waves</a></h1>
 <div class="featuresTable">
@@ -3223,12 +3110,6 @@ For 1 minute, you gain the following benefits:
 - You have advantage on Strength and Constitution checks and you gain 4d10 temporary hit points.
 - You gain the ability to breath water and gain a swim speed of 60 ft.
 - Your Shockwave counts as a critical hit if a target fails its saving throw.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -3346,12 +3227,6 @@ You can use an ***action*** and spend 5 Devotion to undergo a transformation. Fo
 - When you use your Draining Bite without restrictions.
 
 
-
-
-
-
-
-
 <hr class="classdivider">
 <h2><a class="internal-link" name="internal-festivity">Restricted to Eladrin or Halfling culture</a></h2>
 <h1>Oath of Festivity</h1>
@@ -3449,10 +3324,6 @@ You can use an ***action*** and spend 5 Devotion to transform into a brilliant s
 - The first time a creature enters this aura or starts its turn there, you can grant it the the benefits of the Death Ward prayer, which last until your transformation ends. Once a creature gains this benefit, it cannot do so again until your next transformation.
 
 
-
-
-
-
 <hr class="classdivider">
 <h2><a class="internal-link" name="internal-revenant">Restricted to Awakened characters</a></h2>
 <h1>Oath of the Revenant</h1>
@@ -3530,12 +3401,6 @@ You can use an ***action*** and spend 5 Devotion to channel the aspect of the un
 - You have resistance to all damage.
 - You regain 10 hit points at the start of each of your turns.
 - After you have taken the Attack action on your turn, you can use your ***bonus action*** to deal 20 necrotic or poison damage (your choice) to a creature within 30 ft that you can see and have not dealt damage to that turn.
-
-
-
-
-
-
 
 
 <hr class="classdivider">
@@ -3630,12 +3495,6 @@ You can use an ***action*** and spend 5 Devotion to turn into living stone. For 
 - You are immune to poison and any transmutation effect that change your body.
 - You have advantage on saves against magic effects and resistance to all damage, except psychic.
 - If you choose you can be completely immovable. You succeed on saves and checks against effects that tries to move you.
-
-
-
-
-
-
 
 
 <hr class="classdivider">

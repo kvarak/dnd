@@ -173,7 +173,6 @@ Dragonborn grow quickly. They walk hours after hatching, attain the size and dev
 Now, Dragomir didn’t know his exact age, and had no idea when his birthday was. Nevertheless, the night when Dragomir turned 15, a group of monsters attacked  and killed every single person in the camp. Dragomir survived by a stroke of luck, or maybe it was destined, and escaped to a nearby city with the things he could carry and his masters maul. Talalai was nowhere to be found.
 
 
-
 Something unseen guided Dragomir towards a ship that was about to leave the harbor. Without thinking, he asked where the ship was bound and after he got a reply, he walked on board.
 
 The ship was the Jenivere and would travel to Eleder. He found Talalai on the ship, and he became whole again. He also found new friends.

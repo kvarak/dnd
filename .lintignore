@@ -1,0 +1,7 @@
+{
+  "htmlDetected": ["*:*"],
+  "brokenLinks": [],
+  "headingStructure": ["*:*"],
+  "frontmatterIssues": ["*:*"],
+  "formatting": ["dev-README.md:*"]
+}

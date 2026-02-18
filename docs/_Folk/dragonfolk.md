@@ -394,7 +394,6 @@ Once you use this trait, you can't use it again until you finish a short rest.
 </div>
 
 
-
 ## <a class="internal-link" name="internal-KoboldClassOptions">Kobold Class Options</a>
 
 Kobolds approach some classes is a bit differently than other folk. When you select a class, it is modified as follows.

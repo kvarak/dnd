@@ -3,6 +3,29 @@
 ## High Priority
 
 ### Interactive Features
+- [ ] **Class/Archetype Recommendation Engine** - Questionnaire-based selector that asks lifestyle, preference, and background questions to recommend fitting Varlyn classes/archetypes (removes analysis paralysis for new players choosing from 18 classes)
+  - **MVP Core (basic recommendation engine)**:
+    - [x] **Class template design** - Create standardized frontmatter template for `profile` with Fighter and Sorcerer as prototypes, defining generic trait categories (combat-focus, magic-type, roleplay-style, origin-background, complexity-level) plus specific/unique traits array (war-deserter, former-slave, noble-outcast, etc.) and archetype override structure (testable: template validates against schema, reusable for remaining 16 classes)
+    - [x] **Fighter/Sorcerer trait definition** - Define recommendation traits for Fighter (Champion/Eldritch Knight) and Sorcerer (Draconic/Wild Magic) archetypes only, covering martial vs magical extremes (testable: validates schema, covers diverse class types, establishes trait taxonomy baseline)
+    - [x] **Question bank system** - Create 15-20 multiple choice questions covering key decision factors ("Are you from a desert area?", "Do you prefer direct combat or support?", "How complex character do you want?") with yes/no/maybe/don't-know options (testable: questions cover all trait categories)
+    - [x] **Scoring algorithm** - Points-based system where classes gain 0-2 points per question based on trait matches (yes=2, maybe=1, no=0, don't-know=skip) (testable: unit tests for scoring logic, deterministic results)
+    - [x] **Results ranking** - Sort classes by total score, show top 3-5 recommendations with brief explanations of why they fit (releasable: basic recommendation with rationale)
+    - [x] **Simple questionnaire UI** - Clean question-by-question flow with progress indicator and prev/next navigation (releasable: functional questionnaire experience)
+  - **Essential Features (complete user experience)**:
+    - [ ] **Class preview cards** - Rich recommendation cards showing class name, archetype options, key features, and "Why this fits you" explanation based on answered questions (releasable: helps users understand recommendations)
+    - [ ] **Skip/retake functionality** - Allow users to skip questions or restart questionnaire with different answers (releasable: flexible UX for exploration)
+    - [ ] **Link to full class pages** - Direct navigation from recommendations to detailed class documentation (releasable: seamless integration with existing content)
+    - [ ] **LocalStorage state** - Remember answers across sessions, allow resuming questionnaire (releasable: prevents lost progress)
+  - **Enhanced Features (advanced matching)**:
+    - [ ] **Archetype trait refinement** - Fine-tune archetype-specific trait variations and add specialized archetype questions (releasable: more nuanced recommendations for players who know they want specific archetype styles)
+    - [ ] **Confidence scoring** - Show how confident the system is in each recommendation based on question coverage (releasable: helps users understand recommendation quality)
+    - [ ] **Alternative suggestions** - Show "close matches" and explain what would make them better fits (releasable: educational about class design space)
+    - [ ] **Folk integration** - Factor in previously selected folk for folk-specific class synergies (releasable: integrates with character creation flow)
+  - **Advanced Features (sophisticated analysis)**:
+    - [ ] **Multi-dimensional scoring** - Weight different trait categories based on user priorities ("I care more about roleplay than combat effectiveness") (releasable: personalized recommendations)
+    - [ ] **Comparative analysis** - "This class vs that class" side-by-side comparison from questionnaire results (releasable: helps with final decision between close matches)
+    - [ ] **Analytics integration** - Track which questions are most decisive for recommendations to improve question bank (testable: data collection and analysis scripts)
+    - [ ] **Campaign context questions** - Factor in campaign setting and party composition for better recommendations (releasable: DM tool for suggesting classes to players)
 - [ ] POSTPONED AND ADDED TO interactive-character-creator branch **Interactive character creator** - Step-by-step wizard for Varlyn character creation with auto-calculations, export to PDF/JSON (biggest onboarding barrier removal)
   - **MVP Core (testable wizard)**:
     - [ ] **Data extraction script** - Build `assets/js/build-creator-data.js` for 3 Folk + 3 Classes only (Human+Elf+Tiefling, Fighter+Wizard+Cursed), expand to full dataset later (testable: validates JSON schema, counts extracted items)
