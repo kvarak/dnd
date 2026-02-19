@@ -1,6 +1,162 @@
 ---
 title: Bard
 layout: default
+profile:
+  generic:
+    magicType: "versatile"
+    originBackground: ["urban", "scholarly", "noble"]
+  specific: ["social-manipulator", "versatile-magic", "inspirational-leader", "intellectual-combatant"]
+  archetypes:
+    loreseeker:
+      generic:
+        magicType: "utility"
+        originBackground: ["scholarly", "urban"]
+      specific: ["scholar-warrior", "scholarly-background", "intellectual-combatant", "magic-student"]
+    beguiler:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "criminal"]
+      specific: ["social-manipulator", "illusion-specialist", "cunning-value", "disguise-master"]
+    awakenedArt:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "noble"]
+      specific: ["inspirational-leader", "versatile-magic", "artistic-excellence", "noble-background"]
+    beasts:
+      generic:
+        magicType: "utility"
+        originBackground: ["rural", "tribal"]
+      specific: ["survival-expert", "animal-companion", "rural-background", "intuitive-value"]
+    colors:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "noble"]
+      specific: ["illusion-specialist", "artistic-excellence", "visual-arts", "noble-background"]
+    crossroads:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "rural"]
+      specific: ["survival-expert", "adaptable-fighter", "wanderer-spirit", "intuitive-value"]
+    dance:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "noble"]
+      specific: ["agile-warrior", "mobile-combatant", "performance-arts", "noble-background"]
+    desire:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "noble"]
+      specific: ["social-manipulator", "charm-magic", "seductive-arts", "cunning-value"]
+    doors:
+      generic:
+        magicType: "utility"
+        originBackground: ["scholarly", "urban"]
+      specific: ["utility-magic", "dimensional-magic", "scholar-warrior", "scholarly-background"]
+    entropy:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "criminal"]
+      specific: ["fate-touched", "unpredictable-power", "chaotic-value", "risk-taker"]
+    eulogies:
+      generic:
+        magicType: "utility"
+        originBackground: ["rural", "scholarly"]
+      specific: ["death-speaker", "protective-value", "funeral-rites", "rural-background"]
+    faith:
+      generic:
+        magicType: "healing"
+        originBackground: ["rural", "scholarly"]
+      specific: ["divine-student", "religious-value", "healing-magic", "holy-power"]
+    fools:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "criminal"]
+      specific: ["social-manipulator", "comedy-arts", "chaotic-value", "criminal-background"]
+    glamour:
+      generic:
+        magicType: "control"
+        originBackground: ["noble", "urban"]
+      specific: ["social-manipulator", "charm-magic", "noble-background", "control-magic"]
+    grandeur:
+      generic:
+        magicType: "control"
+        originBackground: ["noble", "urban"]
+      specific: ["inspirational-leader", "noble-background", "proud-value", "commanding-presence"]
+    lore:
+      generic:
+        magicType: "versatile"
+        originBackground: ["scholarly", "urban"]
+      specific: ["scholar-warrior", "magic-student", "scholarly-background", "intellectual-combatant"]
+    madGod:
+      generic:
+        magicType: "control"
+        originBackground: ["rural", "tribal"]
+      specific: ["unpredictable-power", "religious-value", "chaotic-value", "tribal-background"]
+    masks:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "criminal"]
+      specific: ["disguise-master", "social-manipulator", "identity-shifter", "cunning-value"]
+    mirrors:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "scholarly"]
+      specific: ["illusion-specialist", "reflection-magic", "scholar-warrior", "scholarly-background"]
+    portraiture:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "noble"]
+      specific: ["artistic-excellence", "visual-arts", "noble-background", "patient-value"]
+    purity:
+      generic:
+        magicType: "healing"
+        originBackground: ["rural", "noble"]
+      specific: ["religious-value", "healing-magic", "purification-rites", "lawful-value"]
+    revelry:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "noble"]
+      specific: ["social-manipulator", "party-master", "inspirational-leader", "noble-background"]
+    secrets:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "criminal"]
+      specific: ["social-manipulator", "information-broker", "cunning-value", "criminal-background"]
+    shanties:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "criminal"]
+      specific: ["musical-magic", "team-coordination", "criminal-background", "work-songs"]
+    tales:
+      generic:
+        magicType: "utility"
+        originBackground: ["rural", "scholarly"]
+      specific: ["storyteller", "oral-tradition", "inspirational-leader", "rural-background"]
+    valor:
+      generic:
+        magicType: "damage"
+        originBackground: ["military", "noble"]
+      specific: ["weapon-master", "military-background", "tactical-value", "inspirational-leader"]
+    whispers:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "criminal"]
+      specific: ["social-manipulator", "information-broker", "cunning-value", "criminal-background"]
+    marionettist:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "criminal"]
+      specific: ["mind-alteration", "puppet-mastery", "control-magic", "criminal-background"]
+    pathfinderChronicler:
+      generic:
+        magicType: "utility"
+        originBackground: ["scholarly", "rural"]
+      specific: ["scholar-warrior", "survival-expert", "exploration-specialist", "scholarly-background"]
+    piedPiper:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "rural"]
+      specific: ["musical-magic", "mass-manipulation", "creature-control", "control-magic"]
 ---
 
 <div class="toc" markdown="1">

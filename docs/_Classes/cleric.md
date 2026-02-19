@@ -1,50 +1,201 @@
 ---
 title: Cleric
 layout: default
+profile:
+  generic:
+    magicType: "healing"
+    originBackground: ["noble", "scholarly", "rural"]
+  specific: ["religious-value", "divine-student", "healing-magic", "protective-value"]
+  archetypes:
+    agriculture:
+      generic:
+        magicType: "healing"
+        originBackground: ["rural", "tribal"]
+      specific: ["rural-background", "patient-value", "survival-expert", "religious-value"]
+    arcana:
+      generic:
+        magicType: "utility"
+        originBackground: ["scholarly", "urban"]
+      specific: ["magic-student", "scholarly-background", "divine-student", "intellectual-combatant"]
+    balance:
+      generic:
+        magicType: "utility"
+        originBackground: ["scholarly", "noble"]
+      specific: ["lawful-value", "disciplined-value", "patient-value", "religious-value"]
+    celebration:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "noble"]
+      specific: ["social-manipulator", "inspirational-leader", "noble-background", "religious-value"]
+    chaos:
+      generic:
+        magicType: "damage"
+        originBackground: ["urban", "tribal"]
+      specific: ["chaotic-value", "unpredictable-power", "wild-surges", "religious-value"]
+    charm:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "noble"]
+      specific: ["social-manipulator", "mind-alteration", "divine-student", "religious-value"]
+    death:
+      generic:
+        magicType: "damage"
+        originBackground: ["rural", "scholarly"]
+      specific: ["necromancy-dabbler", "death-dealer", "dark-magic", "religious-value"]
+    desert:
+      generic:
+        magicType: "utility"
+        originBackground: ["rural", "tribal"]
+      specific: ["survival-expert", "elemental-affinity", "endurance-specialist", "religious-value"]
+    fate:
+      generic:
+        magicType: "utility"
+        originBackground: ["scholarly", "rural"]
+      specific: ["fate-touched", "unpredictable-power", "divination-expert", "religious-value"]
+    forge:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "military"]
+      specific: ["craftsman-warrior", "engineering-mind", "fire-wielder", "religious-value"]
+    fortune:
+      generic:
+        magicType: "utility"
+        originBackground: ["urban", "criminal"]
+      specific: ["fate-touched", "opportunistic-value", "luck-wielder", "religious-value"]
+    hunting:
+      generic:
+        magicType: "damage"
+        originBackground: ["rural", "tribal"]
+      specific: ["ranged-expert", "survival-expert", "tracking-specialist", "religious-value"]
+    knowledge:
+      generic:
+        magicType: "utility"
+        originBackground: ["scholarly", "urban"]
+      specific: ["scholarly-background", "intellectual-combatant", "memory-keeper", "religious-value"]
+    life:
+      generic:
+        magicType: "healing"
+        originBackground: ["noble", "rural"]
+      specific: ["healing-magic", "protective-value", "divine-warrior", "religious-value"]
+    light:
+      generic:
+        magicType: "damage"
+        originBackground: ["noble", "scholarly"]
+      specific: ["divine-warrior", "holy-power", "radiant-wielder", "religious-value"]
+    nature:
+      generic:
+        magicType: "utility"
+        originBackground: ["rural", "tribal"]
+      specific: ["survival-expert", "elemental-affinity", "natural-communion", "religious-value"]
+    ocean:
+      generic:
+        magicType: "utility"
+        originBackground: ["rural", "tribal"]
+      specific: ["elemental-affinity", "survival-expert", "water-mastery", "religious-value"]
+    order:
+      generic:
+        magicType: "utility"
+        originBackground: ["noble", "military"]
+      specific: ["lawful-value", "disciplined-value", "command-presence", "religious-value"]
+    protection:
+      generic:
+        magicType: "utility"
+        originBackground: ["military", "noble"]
+      specific: ["protective-value", "defensive-expert", "shield-specialist", "religious-value"]
+    repose:
+      generic:
+        magicType: "healing"
+        originBackground: ["rural", "scholarly"]
+      specific: ["death-speaker", "patient-value", "peaceful-transition", "religious-value"]
+    strength:
+      generic:
+        magicType: "damage"
+        originBackground: ["military", "tribal"]
+      specific: ["strength-specialist", "physical-prowess", "might-champion", "religious-value"]
+    survival:
+      generic:
+        magicType: "utility"
+        originBackground: ["rural", "tribal"]
+      specific: ["survival-expert", "adaptable-fighter", "wilderness-guide", "religious-value"]
+    tempest:
+      generic:
+        magicType: "damage"
+        originBackground: ["rural", "tribal"]
+      specific: ["elemental-affinity", "divine-warrior", "storm-caller", "religious-value"]
+    time:
+      generic:
+        magicType: "utility"
+        originBackground: ["scholarly", "noble"]
+      specific: ["patient-value", "fate-touched", "temporal-guardian", "religious-value"]
+    trickery:
+      generic:
+        magicType: "control"
+        originBackground: ["urban", "criminal"]
+      specific: ["cunning-value", "stealth-master", "deception-specialist", "religious-value"]
+    vengeance:
+      generic:
+        magicType: "damage"
+        originBackground: ["military", "urban"]
+      specific: ["divine-warrior", "opportunistic-value", "justice-seeker", "religious-value"]
+    war:
+      generic:
+        magicType: "damage"
+        originBackground: ["military", "noble"]
+      specific: ["weapon-master", "military-background", "battle-chaplain", "religious-value"]
+    winter:
+      generic:
+        magicType: "damage"
+        originBackground: ["rural", "tribal"]
+      specific: ["elemental-affinity", "patient-value", "frost-wielder", "religious-value"]
+    balancedScale:
+      generic:
+        magicType: "utility"
+        originBackground: ["noble", "scholarly"]
+      specific: ["lawful-value", "noble-background", "divine-justice", "religious-value"]
 ---
 
 <div class="toc" markdown="1">
 
-##### <a href="#internal-Pantheons">Pantheons</a>
-<a href="#internal-Golarion">Golarion Deities</a><br/>
+##### <a href="#internal-pantheons">Pantheons</a>
+<a href="#internal-golarion">Golarion Deities</a><br/>
 <a href="../Folk/dwarf.html#internal-religion">Dwarven Deities <i>(see Dwarf folk)</i></a><br/>
 <a href="../Folk/elf.html#internal-seldarine">Elf Deities <i>(see Elf folk)</i></a><br/>
 <a href="../Folk/gnome.html#internal-gnomeGods">Gnome Deities <i>(see Gnome folk)</i></a><br/>
 <a href="../Folk/halfling.html#internal-halflingGodsMyths">Halfling Deities <i>(see Halfling folk)</i></a><br/>
-<a href="#internal-Nonhuman">Other Nonhuman Deities</a><br/>
-<a href="#internal-Celtic">Celtic Deities</a><br/>
-<a href="#internal-Egyptian">Egyptian Deities</a><br/>
-<a href="#internal-Norse">Norse Deities</a><br/>
+<a href="#internal-nonhuman">Other Nonhuman Deities</a><br/>
+<a href="#internal-celtic">Celtic Deities</a><br/>
+<a href="#internal-egyptian">Egyptian Deities</a><br/>
+<a href="#internal-norse">Norse Deities</a><br/>
 
-##### <a href="#internal-Domains">Divine Domains</a>
-<a href="#internal-Agriculture">Agriculture Domain</a><br/>
-<a href="#internal-Arcana">Arcana Domain</a><br/>
-<a href="#internal-Balance">Balance Domain</a><br/>
-<a href="#internal-Celebration">Celebration Domain</a><br/>
-<a href="#internal-Chaos">Chaos Domain</a><br/>
-<a href="#internal-Charm">Charm Domain</a><br/>
-<a href="#internal-Death">Death Domain</a><br/>
-<a href="#internal-Desert">Desert Domain</a><br/>
-<a href="#internal-Fate">Fate Domain</a><br/>
-<a href="#internal-Forge">Forge Domain</a><br/>
-<a href="#internal-Fortune">Fortune Domain</a><br/>
-<a href="#internal-Hunting">Hunting Domain</a><br/>
-<a href="#internal-Knowledge">Knowledge Domain</a><br/>
-<a href="#internal-Life">Life Domain</a><br/>
-<a href="#internal-Light">Light Domain</a><br/>
-<a href="#internal-Nature">Nature Domain</a><br/>
-<a href="#internal-Ocean">Ocean Domain</a><br/>
-<a href="#internal-Order">Order Domain</a><br/>
-<a href="#internal-Protection">Protection Domain</a><br/>
-<a href="#internal-Repose">Repose Domain</a><br/>
-<a href="#internal-Strength">Strength Domain</a><br/>
-<a href="#internal-Survival">Survival Domain</a><br/>
-<a href="#internal-Tempest">Tempest Domain</a><br/>
-<a href="#internal-Time">Time Domain</a><br/>
-<a href="#internal-Trickery">Trickery Domain</a><br/>
-<a href="#internal-Vengeance">Vengeance Domain</a><br/>
-<a href="#internal-War">War Domain</a><br/>
-<a href="#internal-Winter">Winter Domain</a><br/>
+##### <a href="#internal-domains">Divine Domains</a>
+<a href="#internal-agriculture">Agriculture Domain</a><br/>
+<a href="#internal-arcana">Arcana Domain</a><br/>
+<a href="#internal-balance">Balance Domain</a><br/>
+<a href="#internal-celebration">Celebration Domain</a><br/>
+<a href="#internal-chaos">Chaos Domain</a><br/>
+<a href="#internal-charm">Charm Domain</a><br/>
+<a href="#internal-death">Death Domain</a><br/>
+<a href="#internal-desert">Desert Domain</a><br/>
+<a href="#internal-fate">Fate Domain</a><br/>
+<a href="#internal-forge">Forge Domain</a><br/>
+<a href="#internal-fortune">Fortune Domain</a><br/>
+<a href="#internal-hunting">Hunting Domain</a><br/>
+<a href="#internal-knowledge">Knowledge Domain</a><br/>
+<a href="#internal-life">Life Domain</a><br/>
+<a href="#internal-light">Light Domain</a><br/>
+<a href="#internal-nature">Nature Domain</a><br/>
+<a href="#internal-ocean">Ocean Domain</a><br/>
+<a href="#internal-order">Order Domain</a><br/>
+<a href="#internal-protection">Protection Domain</a><br/>
+<a href="#internal-repose">Repose Domain</a><br/>
+<a href="#internal-strength">Strength Domain</a><br/>
+<a href="#internal-survival">Survival Domain</a><br/>
+<a href="#internal-tempest">Tempest Domain</a><br/>
+<a href="#internal-time">Time Domain</a><br/>
+<a href="#internal-trickery">Trickery Domain</a><br/>
+<a href="#internal-vengeance">Vengeance Domain</a><br/>
+<a href="#internal-war">War Domain</a><br/>
+<a href="#internal-winter">Winter Domain</a><br/>
 
 ##### <a href="#internal-balancedScale">Deity exclusive paths</a>
 <a href="#internal-balancedScale">Balanced Scale of Abadar</a><br/>
@@ -283,7 +434,7 @@ Finally at 20th level, you can call on your deity to intervene on your behalf wh
 Once you gain aid from your deity, you can not do so again until 7 days have passed.
 
 
-<h2><a class="internal-link" name="internal-Pantheons">Pantheons</a></h2>
+<h2><a class="internal-link" name="internal-pantheons">Pantheons</a></h2>
 
 <div class="columnsthree">
 
@@ -300,7 +451,7 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 
 <div class="classTable frame" markdown="1">
 
-<h5><a class="internal-link" name="internal-Golarion">Golarion Deities</a></h5>
+<h5><a class="internal-link" name="internal-golarion">Golarion Deities</a></h5>
 
 | Deity | Alignment | Portfolio | Domains |
 |:----|:--:|:-----|:----|
@@ -328,7 +479,7 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 </div>
 
 <div class="classTable frame" markdown="1">
-<h5><a class="internal-link" name="internal-Nonhuman">Other Nonhuman Deities</a></h5>
+<h5><a class="internal-link" name="internal-nonhuman">Other Nonhuman Deities</a></h5>
 
 | Deity | Alignment | Portfolio | Domains |
 |:----|:--:|:-----|:----|
@@ -340,7 +491,7 @@ Once you gain aid from your deity, you can not do so again until 7 days have pas
 
 </div>
 
-<h3><a class="internal-link" name="internal-Celtic">Celtic Deities</a></h3>
+<h3><a class="internal-link" name="internal-celtic">Celtic Deities</a></h3>
 
 It's said that something wild lurks in the heart of every soul, a space that thrills to the sound of geese calling at night, to the whispering wind through the pines, to the unexpected red of mistletoe on an oak - and it is in this space that the Celtic gods dwell.
 
@@ -369,7 +520,7 @@ The Celtic gods are as often served by druids as by clerics, for they are closel
 
 </div>
 
-<h3><a class="internal-link" name="internal-Egyptian">Egyptian Deities</a></h3>
+<h3><a class="internal-link" name="internal-egyptian">Egyptian Deities</a></h3>
 
 These gods are a young dynasty of an ancient divine family, heirs to the rulership of the cosmos and the maintenance of the divine principle of Ma'at - the fundamental order of truth, justice, law, and order that puts gods, mortal pharaohs, and ordinary men and women in their logical and rightful place in the universe.
 
@@ -396,7 +547,7 @@ The Egyptian pantheon is unusual in having three gods with the Death domain of d
 
 </div>
 
-<h3><a class="internal-link" name="internal-Norse">Norse Deities</a></h3>
+<h3><a class="internal-link" name="internal-norse">Norse Deities</a></h3>
 
 Where the land plummets from the snowy hills into the icy fjords below, where the longboats draw up on to the beach, where the glaciers flow forward and retreat with every fall and spring - this is the land of the Vikings, the home of the Norse pantheon. It's a brutal clime, and one that calls for brutal living. The warriors of the land have had to adapt to the harsh conditions in order to survive, but they haven't been too twisted by the needs of their environment. Given the necessity of raiding for food and wealth, it's surprising the mortals turned out as well as they did.
 
@@ -431,7 +582,7 @@ The Norse pantheon includes two main families, the Aesir (deities of war and des
 
 </div>
 
-<h2><a class="internal-link" name="internal-Domains">Divine Domains</a></h2>
+<h2><a class="internal-link" name="internal-domains">Divine Domains</a></h2>
 
 In a pantheon, every deity has influence over different aspects of mortal life and civilization, called a deity's domain. All the domains over which a deity has influence are called the deity's portfolio. For example, the portfolio of the Greek god Apollo includes the domains of Knowledge, Life, and Light. As a cleric, you choose one aspect of your deity's portfolio to emphasize, and you are granted powers related to that domain.
 
@@ -488,7 +639,7 @@ If you have chosen the path of the Crusader, your divine domain decides what typ
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Agriculture">Agriculture Domain</a></h1>
+<h1><a class="internal-link" name="internal-agriculture">Agriculture Domain</a></h1>
 
 Gods of the field and farm share much with the gods of nature. They are nurturing forces, lifebringers and survivors. Unlike their more wild cousins, however, gods of agriculture cultivate nature, sculpting it to their needs.
 
@@ -554,7 +705,7 @@ These hit points last for 1 minute, and give the creature advantage on all saves
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Arcana">Arcana Domain</a></h1>
+<h1><a class="internal-link" name="internal-arcana">Arcana Domain</a></h1>
 
 Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit. The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand.
 
@@ -593,7 +744,7 @@ Choose four spells from the wizard spell list, one from each of the following le
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Balance">Balance Domain</a></h1>
+<h1><a class="internal-link" name="internal-balance">Balance Domain</a></h1>
 
 For every light, there is a shadow equally dark. It is in this balance between the forces of chaos, law, good, and evil that the mortal races can live and thrive. Such is the order of things, and thus, that balance must be protected.
 
@@ -664,7 +815,7 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Celebration">Celebration Domain</a></h1>
+<h1><a class="internal-link" name="internal-celebration">Celebration Domain</a></h1>
 
 Your god is an awesome god, and one who loves to throw excellent parties. Cayden Cailean, Bacchus, Dionysus, Hanseath, and any god known for alcohol or other intoxicants, wild behavior, and good cheer could have celebration as one of their domains.
 
@@ -715,7 +866,7 @@ When you make a ranged attack or cast a cantrip that targets only one creature, 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Chaos">Chaos Domain</a></h1>
+<h1><a class="internal-link" name="internal-chaos">Chaos Domain</a></h1>
 
 The Chaos Domain is the concern of gods that shuns the idea of laws and order, embracing chaos, change, progress, and entropy. Although they are often perceived as a threat or dangerous by those in power, many of these gods act as the voices of the people who cannot be heard, as well as the catalysts for revolutions against corrupt empires and others who would enslave and oppress.
 
@@ -805,7 +956,7 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Charm">Charm Domain</a></h1>
+<h1><a class="internal-link" name="internal-charm">Charm Domain</a></h1>
 
 Deities whose portfolios include the Charm domain govern over the ability to control others either through charismatic presence or through enchantment magic. They include deities of beauty, art, pleasure, courtship, love and fertility as well as lust, control, deceit and enchantment magic.
 
@@ -874,7 +1025,7 @@ Gain immunity to charm and sleep effects. Additionally you gain advantage on sav
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Death">Death Domain</a></h1>
+<h1><a class="internal-link" name="internal-death">Death Domain</a></h1>
 
 The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Gods of the Death domain also embody murder, pain, disease, poison and the underworld.
 
@@ -911,7 +1062,7 @@ When you cast a necromancy spell of 1st through 5th level that targets only one 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Desert">Desert Domain</a></h1>
+<h1><a class="internal-link" name="internal-desert">Desert Domain</a></h1>
 
 Gods of the sands and burning sun, deities of cloudless nights and storms of cutting wind, masters of the scorching heat and lords of the desert all call this domain their own. Often as merciless as the lands they claim, many are jealous and generous in equal measure. Clerics of these deities often escort travelers, seek forgotten relics, hunt criminals, and war for peace.
 
@@ -978,7 +1129,7 @@ Once you have used this feature you cannot use it again until you complete a lon
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Fate">Fate Domain</a></h1>
+<h1><a class="internal-link" name="internal-fate">Fate Domain</a></h1>
 
 Diviners and wizards often attempt to peer at the threads that bind the lives of mortals, but gods are the ones who weave those threads with every new birth and death. The deities of death, glory, time, judgement, luck, and prophecy call upon their clerics to act as oracles and seers of fate and future - and to intervene when the time is right.
 
@@ -1044,7 +1195,7 @@ Once you have used this feature you cannot use it again until you complete a lon
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Forge">Forge Domain</a></h1>
+<h1><a class="internal-link" name="internal-forge">Forge Domain</a></h1>
 
 The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamondtipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can be transformed from a lump of ore to a beautifully wrought object.
 
@@ -1100,7 +1251,7 @@ Your blessed affinity with fire and metal becomes more powerful:
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Fortune">Fortune Domain</a></h1>
+<h1><a class="internal-link" name="internal-fortune">Fortune Domain</a></h1>
 
 Gods of luck, fortune, and chance are venerated by those individuals that rely on cosmic intervention to make their way through the world, often using the symbol of a coin. Most of these gods embody good luck or random chance, though there are some deities that revel in misfortune. All of them seem attracted at some level to the daring and bold, but they also seem drawn to unknown or undiscovered things, because such things often lead to greater destinies or adventure.
 
@@ -1160,7 +1311,7 @@ You can use your ***action*** to surround yourself with an aura of perfect chanc
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Hunting">Hunting Domain</a></h1>
+<h1><a class="internal-link" name="internal-hunting">Hunting Domain</a></h1>
 
 
 > *Run all you like. For you cannot hide.*
@@ -1210,7 +1361,7 @@ You can choose to have your Slayer's Arrow turn up to three times during its fli
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Knowledge">Knowledge Domain</a></h1>
+<h1><a class="internal-link" name="internal-knowledge">Knowledge Domain</a></h1>
 
 The gods of knowledge value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can.
 
@@ -1269,7 +1420,7 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Life">Life Domain</a></h1>
+<h1><a class="internal-link" name="internal-life">Life Domain</a></h1>
 
 The life domain focuses on the vibrant positive energy - one of the fundamental forces of the universe - that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities, sun gods, gods of healing or endurance, and gods of home and community.
 
@@ -1320,7 +1471,7 @@ When you would normally roll one or more dice to restore hit points with a spell
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Light">Light Domain</a></h1>
+<h1><a class="internal-link" name="internal-light">Light Domain</a></h1>
 
 Gods of light promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.
 
@@ -1375,7 +1526,7 @@ You can use your ***action*** to activate an aura of sunlight that lasts for 1 m
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Nature">Nature Domain</a></h1>
+<h1><a class="internal-link" name="internal-nature">Nature Domain</a></h1>
 
 Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests to friendly deities associated with particular springs and groves. Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.
 
@@ -1422,7 +1573,7 @@ You gain the ability to command animals and plant creatures. While creatures are
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Ocean">Ocean Domain</a></h1>
+<h1><a class="internal-link" name="internal-ocean">Ocean Domain</a></h1>
 
 Standing upon the shore and staring into an endless expanse of water for the first time can be a religious experience for some, and certainly is for those who are called to service by a god of the sea. These clerics pursue a wide variety of goals; from calming the waves so that fishermen may survive to summoning terrible monsters from the deep.
 
@@ -1479,7 +1630,7 @@ In addition, you gain resistance to cold damage and immunity to exhaustion from 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Order">Order Domain</a></h1>
+<h1><a class="internal-link" name="internal-order">Order Domain</a></h1>
 
 The Order domain represents discipline, as well  as service to a society or an institution, whether that service is rendered in obedience to or  enforcement of the law—civil, religious, or both. Gods on many worlds grant access to this  domain, including Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.
 
@@ -1534,7 +1685,7 @@ Enemies you designate for destruction wilt under the combined efforts of you and
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Protection">Protection Domain</a></h1>
+<h1><a class="internal-link" name="internal-protection">Protection Domain</a></h1>
 
 The protection domain is the purview of deities who charge their followers to shield the weak from the strong. The gods’ faithful dwell in villages and towns on the borderlands, where they help bolster defenses and seek out evils to defeat. These gods believe that a strong shield and a suit of armor is the best defense against evil, second only to a stout mace on hand to respond to any attacks in kind.
 
@@ -1591,7 +1742,7 @@ As an ***action***, you can temporarily give up this resistance and transfer it 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Repose">Repose Domain</a></h1>
+<h1><a class="internal-link" name="internal-repose">Repose Domain</a></h1>
 
 Many gods of the dead watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse’s workings. To resist death, or to desecrate the dead’s rest, is an abomination.
 
@@ -1659,7 +1810,7 @@ Upon using this feature, you can not use it again until you complete a long rest
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Strength">Strength Domain</a></h1>
+<h1><a class="internal-link" name="internal-strength">Strength Domain</a></h1>
 
 As a worshipper of a god of physical might, you are dedicated to performing feats of strength and despise weakness. You are granted various magical abilities related to using, bestowing, or depleting athletic ability. For you, their somatic components tend to involve flexing, shadow boxing, or pounding the floor until it shakes.
 
@@ -1709,7 +1860,7 @@ When you hit a creature with a melee attack, you may use your ***reaction*** to 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Survival">Survival Domain</a></h1>
+<h1><a class="internal-link" name="internal-survival">Survival Domain</a></h1>
 
 Clerics and shamans of primitive tribes living in harsh environments have no greater mission than ensuring the survival of their tribes. The gods of survival often have other domains in similar realms, such as life or nature. The worshippers who work within the Survival domain, however, are much more primal and brutal than their counterparts.
 
@@ -1768,7 +1919,7 @@ You can use an ***action*** to make one allied creature who you can see immune t
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Tempest">Tempest Domain</a></h1>
+<h1><a class="internal-link" name="internal-tempest">Tempest Domain</a></h1>
 
 Gods whose portfolios include the Tempest domain govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices to ward off divine wrath.
 
@@ -1821,7 +1972,7 @@ You have a flying speed equal to your current walking speed whenever you are not
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Time">Time Domain</a></h1>
+<h1><a class="internal-link" name="internal-time">Time Domain</a></h1>
 
 The Time domain deals with the flow of time. Few deities offer access to this domain, as it is quite esoteric and dangerous to tamper with. In some games, there may be powerful rituals usable by clerics with this domain that allow creatures or objects to travel into the past or future, or to move sideways through time into parallel worlds with different histories, while in other campaigns, any sort of time travel might be forbidden or even impossible.
 
@@ -1887,7 +2038,7 @@ You can use this feature a number of times equal to your proficiency bonus, and 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Trickery">Trickery Domain</a></h1>
+<h1><a class="internal-link" name="internal-trickery">Trickery Domain</a></h1>
 
 Gods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.
 
@@ -1936,7 +2087,7 @@ Additionally, no matter what you say, magic that would determine if you are tell
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Vengeance">Vengeance Domain</a></h1>
+<h1><a class="internal-link" name="internal-vengeance">Vengeance Domain</a></h1>
 
 The domain of vengeance, revenge, avengers, retribution and retributive justice - a fiery force that fuels many. Vengeance is worthwhile when server with great passion and swift justice. Deities whose portfolios include the Vengeance domain govern over all forms of revenge and vengeful justice whether of good intent or out of hatred. They include deities of hatred, strife, jealousy, murder, poetic justice, revenge, ethical balance and justice, defense of personal honor, as well as deities that don't shy from the undead in the form of revenants.
 
@@ -2001,7 +2152,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-War">War Domain</a></h1>
+<h1><a class="internal-link" name="internal-war">War Domain</a></h1>
 
 War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry as well as gods of destruction and pillage, and gods of conquest and domination. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.
 
@@ -2047,7 +2198,7 @@ You gain resistance to all bludgeoning, piercing, and slashing damage.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Winter">Winter Domain</a></h1>
+<h1><a class="internal-link" name="internal-winter">Winter Domain</a></h1>
 
 Winter is a time of both cold brutality and togetherness, and Winter clerics often epitomize one or both of these principles, leaving the dead to lie buried in snowdrifts, or saving a village of people beset by dark tidings. People may turn to these clerics for warm comfort in troubled times, or to be instruments or dark, remorseless wrath against those that are affronts to their gods.
 

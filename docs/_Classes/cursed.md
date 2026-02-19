@@ -1,17 +1,51 @@
 ---
 title: Cursed
 layout: default
+profile:
+  generic:
+    magicType: "versatile"
+    originBackground: ["scholarly", "tribal", "criminal"]
+  specific: ["dual-nature", "transmutation-magic", "unpredictable-power"]
+  archetypes:
+    alchemical-curse:
+      specific: ["potion-brewer", "alchemical-transformation", "raw-talent", "gritty-value"]
+    chosen:
+      generic:
+        magicType: "healing"
+      specific: ["celestial-heritage", "holy-power", "divine-warrior", "lawful-value"]
+    curse-from-beyond:
+      specific: ["aberrant-influence", "mind-alteration", "chaotic-value", "intellectual-combatant"]
+    demonic-possession:
+      generic:
+        magicType: "damage"
+      specific: ["demonic-corruption", "damage-magic", "chaotic-value", "reckless-value"]
+    entropic-rift:
+      specific: ["wild-surges", "entropy-conduit", "chaotic-value", "unpredictable-power"]
+    lycanthropic-curse:
+      generic:
+        magicType: "none"
+      specific: ["lycanthropic-beast", "natural-armor", "survival-expert", "intuitive-value"]
+    molded:
+      specific: ["ooze-symbiosis", "adaptable-fighter", "dual-nature", "patient-value"]
+    sealed-dragon:
+      generic:
+        magicType: "damage"
+      specific: ["draconic-heritage", "proud-value", "elemental-affinity", "raw-talent"]
+    shadowcursed:
+      generic:
+        magicType: "utility"
+      specific: ["shadow-binding", "stealth-master", "death-dealer", "intuitive-value"]
 ---
 
 <div class="toc" markdown="1">
 
 ##### [Cursed Forms](#internal-cursed-forms)
-<a href="#internal-alchemical">Alchemical Curse</a><br/>
+<a href="#internal-alchemicalCurse">Alchemical Curse</a><br/>
 <a href="#internal-chosen">Chosen</a><br/>
-<a href="#internal-beyond">Curse from Beyond</a><br/>
-<a href="#internal-demonic">Demonic Possession</a><br/>
+<a href="#internal-curseFromBeyond">Curse from Beyond</a><br/>
+<a href="#internal-demonicPossession">Demonic Possession</a><br/>
 <a href="#internal-entropicRift">Entropic Rift</a><br/>
-<a href="#internal-lycanthropic">Lycanthropic Curse</a><br/>
+<a href="#internal-lycanthropicCurse">Lycanthropic Curse</a><br/>
 <a href="#internal-molded">Molded</a><br/>
 <a href="#internal-sealedDragon">Sealed Dragon</a><br/>
 <a href="#internal-shadowcursed">Shadowcursed</a><br/>
@@ -244,7 +278,7 @@ At 1st level, chooses the curse that shapes your other form. Your choice grants 
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-alchemical">Alchemical Curse</a></h1>
+<h1><a class="internal-link" name="internal-alchemicalCurse">Alchemical Curse</a></h1>
 <div class="featuresTable">
 
 #### Features
@@ -379,7 +413,7 @@ You can unleash judgement on all creatures with 60 ft radius once per transforma
 You have advantage on saving throws against spells and other magical effects in both your forms.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-beyond">Curse from Beyond</a></h1>
+<h1><a class="internal-link" name="internal-curseFromBeyond">Curse from Beyond</a></h1>
 <div class="featuresTable">
 
 #### Features
@@ -492,7 +526,7 @@ When a creature deals piercing, or slashing damage to you, each adjacent creatur
 Your Cursed form has a stinger, bite attack, a hooked tentacle or some other way to inject venom. Whenever you take the Attack action, you can make an attack with this weapon as a bonus action, dealing 1d8 + Constitution modifier poison damage. This counts as a magical venom.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-demonic">Demonic Possession</a></h1>
+<h1><a class="internal-link" name="internal-demonicPossession">Demonic Possession</a></h1>
 <div class="featuresTable">
 
 #### Features
@@ -701,7 +735,7 @@ All creatures within a 30 ft radius must make a Charisma saving throw. If they f
 You can use this feature once and you can recover the use when you finish a long rest.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-lycanthropic">Lycanthropic Curse</a></h1>
+<h1><a class="internal-link" name="internal-lycanthropicCurse">Lycanthropic Curse</a></h1>
 <div class="featuresTable">
 
 #### Features

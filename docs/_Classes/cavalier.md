@@ -1,6 +1,52 @@
 ---
 title: Cavalier
 layout: default
+profile:
+  generic:
+    magicType: "none"
+    originBackground: ["military", "noble"]
+  specific: ["weapon-master", "tactical-value", "inspirational-leader", "lawful-value"]
+  archetypes:
+    knightErrant:
+      generic:
+        magicType: "none"
+        originBackground: ["military", "rural"]
+      specific: ["survival-expert", "opportunistic-value", "wanderer-spirit", "pragmatic-fighter"]
+    blueRose:
+      generic:
+        magicType: "none"
+        originBackground: ["noble", "scholarly"]
+      specific: ["social-manipulator", "protective-value", "lawful-value", "diplomatic-negotiator"]
+    dragon:
+      generic:
+        magicType: "none"
+        originBackground: ["military", "noble"]
+      specific: ["inspirational-leader", "military-background", "tactical-value", "group-coordinator"]
+    flame:
+      generic:
+        magicType: "none"
+        originBackground: ["noble", "military"]
+      specific: ["proud-value", "reckless-value", "glory-seeker", "charismatic-presence"]
+    lion:
+      generic:
+        magicType: "none"
+        originBackground: ["noble", "military"]
+      specific: ["noble-background", "loyal-servant", "disciplined-value", "protective-value"]
+    scales:
+      generic:
+        magicType: "none"
+        originBackground: ["noble", "scholarly"]
+      specific: ["lawful-value", "truth-seeker", "oath-keeper", "disciplined-value"]
+    shield:
+      generic:
+        magicType: "none"
+        originBackground: ["military", "rural"]
+      specific: ["protective-value", "shield-specialist", "defensive-expert", "selfless-guardian"]
+    star:
+      generic:
+        magicType: "none"
+        originBackground: ["noble", "scholarly"]
+      specific: ["religious-value", "divine-warrior", "holy-power", "faith-defender"]
 ---
 
 <div class="toc" markdown="1">

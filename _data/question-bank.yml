@@ -407,6 +407,7 @@
       chaotic-value: +4 # Direct preference for chaos
       unpredictable-power: +4 # Unpredictable magic
       wild-surges: +4 # Wild magic surges
+      entropy-conduit: +3 # Channeling chaotic forces
       risk-taker: +3 # Risk-taking from chaos
       fate-touched: +2 # Luck/destiny
       raw-talent: +1 # Unrefined ability
@@ -1463,6 +1464,7 @@
   answers:
     "yes":
       transmutation-magic: +4 # Self-transformation
+      alchemical-transformation: +4 # Direct alchemy for body alteration
       adaptable-fighter: +3 # Changing forms
       innovation-specialist: +2 # Experimental
       reckless-value: +1 # Risk tolerance
@@ -1492,4 +1494,113 @@
       weapon-specialist: +3 # Focus over breadth
       pure-warrior: +2 # Master one thing
       disciplined-value: +1 # Consistent approach
+    dont-know: {}
+
+# Cursed-specific trait questions
+- id: abnormal-entities
+  text: "Are you drawn to mysterious entities from beyond normal reality?"
+  category: power-source
+  answers:
+    "yes":
+      aberrant-influence: +4 # Direct aberrant connection
+      mind-alteration: +3 # Mental influence
+      chaotic-value: +2 # Unknowable chaos
+      intellectual-combatant: +1 # Studying the unknown
+    "maybe":
+      aberrant-influence: +2 # Some interest in the strange
+      intellectual-combatant: +2 # Curious about mysteries
+    "no":
+      aberrant-influence: -2 # Against abnormal entities
+      lawful-value: +2 # Order over chaos
+      pure-warrior: +1 # Mundane power
+    dont-know: {}
+
+- id: fiendish-power
+  text: "Would you make a deal with a demon or devil for power?"
+  category: power-source
+  answers:
+    "yes":
+      demonic-corruption: +4 # Direct fiendish connection
+      reckless-value: +3 # Dangerous choice
+      opportunistic-value: +2 # Any advantage
+      damage-magic: +1 # Destructive power
+    "maybe":
+      demonic-corruption: +2 # Considering fiendish power
+      opportunistic-value: +3 # Pragmatic approach
+    "no":
+      demonic-corruption: -3 # Against fiendish power
+      holy-power: +2 # Opposing force
+      lawful-value: +2 # Moral standards
+    dont-know: {}
+
+- id: chaos-conduit
+  text: "Do you feel comfortable being a conduit for unpredictable forces?"
+  category: power-source
+  answers:
+    "yes":
+      entropy-conduit: +4 # Direct entropy channel
+      wild-surges: +3 # Chaos magic
+      unpredictable-power: +3 # Random effects
+      chaotic-value: +2 # Chaos alignment
+    "maybe":
+      entropy-conduit: +2 # Some chaos tolerance
+      adaptable-fighter: +2 # Adapting to chaos
+    "no":
+      entropy-conduit: -2 # Against chaos forces
+      disciplined-value: +3 # Order and control
+      tactical-value: +2 # Predictable strategy
+    dont-know: {}
+
+- id: beast-transformation
+  text: "Does the idea of transforming into a savage beast appeal to you?"
+  category: power-source
+  answers:
+    "yes":
+      lycanthropic-beast: +4 # Direct lycanthropic appeal
+      natural-armor: +3 # Beast form protection
+      survival-expert: +3 # Wild instincts
+      intuitive-value: +2 # Following instincts
+    "maybe":
+      lycanthropic-beast: +2 # Some beast interest
+      survival-expert: +2 # Wild nature
+    "no":
+      lycanthropic-beast: -3 # Against beast forms
+      scholarly-background: +2 # Intellectual approach
+      disciplined-value: +2 # Control over instinct
+    dont-know: {}
+
+- id: symbiotic-relationship
+  text: "Would you accept a parasitic relationship that grants you power?"
+  category: power-source
+  answers:
+    "yes":
+      ooze-symbiosis: +4 # Direct ooze symbiosis
+      adaptable-fighter: +3 # Flexible forms
+      dual-nature: +3 # Two beings as one
+      patient-value: +2 # Long-term partnership
+    "maybe":
+      ooze-symbiosis: +2 # Considering symbiosis
+      pragmatic-fighter: +2 # Practical power
+    "no":
+      ooze-symbiosis: -3 # Against parasitic power
+      pure-warrior: +2 # Self-reliant strength
+      proud-value: +2 # Independence
+    dont-know: {}
+
+- id: shadow-possession
+  text: "Are you willing to share your body with a ghostly entity?"
+  category: power-source
+  answers:
+    "yes":
+      shadow-binding: +4 # Direct shadow connection
+      stealth-master: +3 # Shadow abilities
+      death-dealer: +3 # Ghostly powers
+      intuitive-value: +2 # Following whispers
+    "maybe":
+      shadow-binding: +2 # Some shadow interest
+      stealth-master: +2 # Shadow skills
+    "no":
+      shadow-binding: -3 # Against shadow entities
+      holy-power: +2 # Opposing light
+      disciplined-value: +2 # Self-control
     dont-know: {}
