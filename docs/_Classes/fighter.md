@@ -49,15 +49,15 @@ profile:
       specific: ["underdog-fighter", "survival-expert", "gritty-value", "improvised-specialist"]
     celestial-knight:
       restriction:
-        folk: "aasimar"
+        folk: ["aasimar"]
       specific: ["celestial-heritage", "divine-warrior", "holy-power", "lawful-value"]
     tinker-knight:
       restriction:
-        folk: "gnome"
+        folk: ["gnome"]
       specific: ["engineering-mind", "innovation-specialist", "craftsman-warrior", "intellectual-combatant"]
     warsling-sniper:
       restriction:
-        folk: "halfling"
+        folk: ["halfling"]
       specific: ["sling-specialist", "sniper", "ranged-expert", "tactical-value"]
 ---
 

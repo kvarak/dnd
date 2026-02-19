@@ -1,6 +1,116 @@
 ---
 title: Barbarian
 layout: default
+profile:
+  generic:
+    magicType: "damage"
+    originBackground: ["rural", "tribal"]
+  specific: ["physical-prowess", "raw-talent", "reckless-value", "arcane-averse-magic"]
+  archetypes:
+    aquaticHunter:
+      restriction:
+        folk: ["merfolk", "triton", "sea-elf"]
+      generic:
+        magicType: "utility"
+        originBackground: ["rural", "tribal"]
+      specific: ["survival-expert", "adaptable-fighter", "elemental-affinity", "tribal-background"]
+    berserker:
+      generic:
+        magicType: "damage"
+      specific: ["death-dealer", "reckless-value", "unstoppable-force", "chaotic-value"]
+    courageousHeart:
+      generic:
+        magicType: "utility"
+      specific: ["protective-value", "lawful-value", "disciplined-value", "inspirational-leader"]
+    defender:
+      generic:
+        magicType: "utility"
+      specific: ["shield-specialist", "defensive-expert", "protective-value", "tactical-value"]
+    hurler:
+      generic:
+        magicType: "damage"
+      specific: ["throwing-expert", "ranged-expert", "tactical-value", "adaptable-fighter"]
+    juggernaut:
+      generic:
+        magicType: "damage"
+      specific: ["unstoppable-force", "strength-specialist", "heavy-armor", "physical-prowess"]
+    marauder:
+      generic:
+        magicType: "damage"
+        originBackground: ["military", "tribal"]
+      specific: ["tactical-value", "opportunistic-value", "military-background", "inspirational-leader"]
+    earthWarden:
+      generic:
+        magicType: "utility"
+      specific: ["versatile-magic", "utility-magic", "survival-expert", "elemental-affinity"]
+    paintedWarrior:
+      generic:
+        magicType: "utility"
+      specific: ["tribal-background", "proud-value", "charismatic", "inspirational-leader"]
+    sacrifice:
+      generic:
+        magicType: "utility"
+      specific: ["religious-value", "protective-value", "death-dealer", "disciplined-value"]
+    stormHerald:
+      generic:
+        magicType: "damage"
+      specific: ["elemental-affinity", "damage-magic", "chaotic-value", "raw-talent"]
+    totemWarrior:
+      generic:
+        magicType: "utility"
+      specific: ["tribal-background", "religious-value", "versatile-magic", "innate-power"]
+    warChief:
+      generic:
+        magicType: "utility"
+        originBackground: ["military", "tribal"]
+      specific: ["inspirational-leader", "charismatic", "military-background", "tactical-value"]
+    zealot:
+      generic:
+        magicType: "utility"
+      specific: ["religious-value", "divine-warrior", "holy-power", "lawful-value"]
+    tailfighter:
+      restriction:
+        folk: ["lizardfolk", "ratfolk", "kobold", "dragonborn"]
+      generic:
+        magicType: "damage"
+      specific: ["agile-warrior", "mobile-combatant", "acrobatic", "adaptable-fighter"]
+    skinchanger:
+      restriction:
+        folk: ["shifter", "changeling", "lycanthrope"]
+      generic:
+        magicType: "utility"
+      specific: ["dual-nature", "adaptable-fighter", "versatile-magic", "innate-power"]
+    battleRager:
+      restriction:
+        folk: ["dwarf"]
+      generic:
+        magicType: "damage"
+        originBackground: ["military", "urban"]
+      specific: ["reckless-value", "heavy-armor", "unstoppable-force", "proud-value"]
+    quakeBringer:
+      restriction:
+        folk: ["dwarf", "earth-genasi"]
+      generic:
+        magicType: "damage"
+      specific: ["elemental-affinity", "strength-specialist", "unstoppable-force", "damage-magic"]
+    blighted:
+      restriction:
+        folk: ["floran"]
+      generic:
+        magicType: "control"
+      specific: ["necromancy-dabbler", "death-dealer", "survival-expert", "chaotic-value"]
+    eyeOfGruumsh:
+      restriction:
+        folk: ["orc", "half-orc"]
+      generic:
+        magicType: "utility"
+      specific: ["religious-value", "divine-warrior", "tribal-background", "death-dealer"]
+    trophyHunter:
+      restriction:
+        folk: ["lizardfolk"]
+      generic:
+        magicType: "utility"
+      specific: ["survival-expert", "tribal-background", "patient-value", "death-dealer"]
 ---
 
 
@@ -17,6 +127,7 @@ layout: default
 <a href="#internal-earthWarden">Path of Nature's Warden</a><br>
 <a href="#internal-paintedWarrior">Path of the Painted Warrior</a><br>
 <a href="#internal-sacrifice">Path of Sacrifice</a><br>
+<a href="#internal-stormHerald">Path of the Storm Herald</a><br>
 <a href="#internal-totemWarrior">Path of the Totem Warrior</a><br>
 <a href="#internal-warChief">Path of the War Chief</a><br>
 <a href="#internal-zealot">Path of the Zealot</a><br>

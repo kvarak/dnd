@@ -646,7 +646,13 @@
                 // Apply folk restriction bonus
                 let folkBonus = 0;
                 if (this.selectedFolk && archetypeData.restriction && archetypeData.restriction.folk) {
-                  if (archetypeData.restriction.folk === this.selectedFolk) {
+                  const folkRestriction = archetypeData.restriction.folk;
+                  // Handle both single folk (string) and multiple folk (array)
+                  const isFolkMatch = Array.isArray(folkRestriction)
+                    ? folkRestriction.includes(this.selectedFolk)
+                    : folkRestriction === this.selectedFolk;
+
+                  if (isFolkMatch) {
                     folkBonus = 20; // Significant bonus for matching folk
                   }
                 }
@@ -678,6 +684,64 @@
           results.sort((a, b) => b.score - a.score);
 
           return results.slice(0, 5);
+        }
+
+        calculateAllRecommendations() {
+          // Same logic as calculateRecommendations but returns ALL results for localhost debugging
+          const results = [];
+
+          // Score each class/archetype combination
+          for (const [className, profile] of Object.entries(this.classProfiles)) {
+            if (!profile) continue;
+
+            // Check if this class has archetypes
+            if (profile.archetypes && Object.keys(profile.archetypes).length > 0) {
+              // Score each archetype separately
+              for (const [archetypeName, archetypeData] of Object.entries(profile.archetypes)) {
+                const mergedProfile = this.mergeArchetypeProfile(profile, archetypeData);
+                const formattedArchetype = this.formatArchetypeName(archetypeName);
+                const score = this.scoreProfile(mergedProfile, `${formattedArchetype} (${className})`);
+
+                // Apply folk restriction bonus
+                let folkBonus = 0;
+                if (this.selectedFolk && archetypeData.restriction && archetypeData.restriction.folk) {
+                  const folkRestriction = archetypeData.restriction.folk;
+                  // Handle both single folk (string) and multiple folk (array)
+                  const isFolkMatch = Array.isArray(folkRestriction)
+                    ? folkRestriction.includes(this.selectedFolk)
+                    : folkRestriction === this.selectedFolk;
+
+                  if (isFolkMatch) {
+                    folkBonus = 20; // Significant bonus for matching folk
+                  }
+                }
+
+                results.push({
+                  className: className,
+                  archetypeName: archetypeName,
+                  displayName: `${formattedArchetype} (${className})`,
+                  profile: mergedProfile,  // Include profile for trait display
+                  restriction: archetypeData.restriction, // Include restriction info
+                  folkBonus: folkBonus,
+                  ...score,
+                  score: score.score + folkBonus // Add bonus to total score
+                });
+              }
+            } else {
+              // Score the base class
+              const score = this.scoreProfile(profile, className);
+              results.push({
+                className: className,
+                displayName: className,
+                profile: profile,  // Include profile for trait display
+                ...score
+              });
+            }
+          }
+
+          // Sort by score descending - return ALL results for localhost debugging
+          results.sort((a, b) => b.score - a.score);
+          return results; // Return everything for dev mode
         }
 
         formatArchetypeName(archetypeName) {
@@ -1104,28 +1168,42 @@
             });
           }
 
-          output += recommendations.map((rec, index) => {
-            const anchor = rec.archetypeName ? '#internal-' + this.archetypeToAnchor(rec.archetypeName) : '';
-
-            // Check folk restriction
-            let folkRestrictionBadge = '';
-            let isRestricted = false;
-            if (rec.restriction && rec.restriction.folk) {
-              const requiredFolk = rec.restriction.folk;
-              const folkFormatted = requiredFolk.charAt(0).toUpperCase() + requiredFolk.slice(1);
-
-              if (this.selectedFolk === requiredFolk) {
-                // Available to selected folk
-                folkRestrictionBadge = `<span class="badge bg-success ms-2" title="Available to ${folkFormatted}"><i class="fas fa-check-circle"></i> ${folkFormatted}</span>`;
-              } else {
-                // Restricted - not available
-                folkRestrictionBadge = `<span class="badge bg-warning text-dark ms-2" title="Requires ${folkFormatted}"><i class="fas fa-lock"></i> Requires ${folkFormatted}</span>`;
-                isRestricted = true;
+          output += recommendations
+            .filter(rec => {
+              // Only show archetypes that have no folk restriction OR match the selected folk
+              if (!rec.restriction || !rec.restriction.folk) {
+                return true; // No restriction, always show
               }
-            }
+
+              const requiredFolk = rec.restriction.folk;
+              const isFolkMatch = Array.isArray(requiredFolk)
+                ? requiredFolk.includes(this.selectedFolk)
+                : requiredFolk === this.selectedFolk;
+
+              return isFolkMatch; // Only show if folk matches
+            })
+            .map((rec, index) => {
+            const anchor = rec.archetypeName ? '#internal-' + this.archetypeToAnchor(rec.archetypeName) : '';
 
             // Get the specific traits for this class/archetype and show user's percentages
             let traitsDisplay = '';
+
+            // Prepare folk restriction badge for traits area
+            let folkBadgeForTraits = '';
+            if (rec.restriction && rec.restriction.folk) {
+              const requiredFolk = rec.restriction.folk;
+              let folkDisplayText = '';
+
+              if (Array.isArray(requiredFolk)) {
+                folkDisplayText = requiredFolk.map(f => f.charAt(0).toUpperCase() + f.slice(1)).join(', ');
+              } else {
+                folkDisplayText = requiredFolk.charAt(0).toUpperCase() + requiredFolk.slice(1);
+              }
+
+              // Since we only show matching archetypes, this will always be the success version
+              folkBadgeForTraits = `<span class="badge bg-success me-1 mb-1" title="Available to ${folkDisplayText}"><i class="fas fa-check-circle"></i> ${folkDisplayText}</span>`;
+            }
+
             if (rec.profile && rec.profile.specific && rec.profile.specific.length > 0) {
               const traitData = rec.profile.specific
                 .map(traitName => {
@@ -1175,24 +1253,30 @@
 
                 traitsDisplay = `
                   <div class="mt-2">
-                    ${badges}
+                    ${folkBadgeForTraits}${badges}
+                  </div>
+                `;
+              } else if (folkBadgeForTraits) {
+                // Show folk badge even if no other traits
+                traitsDisplay = `
+                  <div class="mt-2">
+                    ${folkBadgeForTraits}
                   </div>
                 `;
               }
             }
 
             return `
-            <div class="card mb-3 ${index === 0 ? 'border-primary' : ''} ${isRestricted ? 'opacity-75' : ''}">
+            <div class="card mb-3 ${index === 0 ? 'border-primary' : ''}">
               <div class="card-body">
                 <div class="d-flex align-items-center mb-2">
                   <span class="badge bg-primary me-2" style="border-radius: 50%; width: 2.5em; height: 2.5em; display: flex; align-items: center; justify-content: center;">
                     ${index + 1}
                   </span>
                   <h5 class="card-title mb-0">${rec.displayName || rec.className}</h5>
-                  ${folkRestrictionBadge}
                   <div class="ms-auto">
                     <span class="badge bg-success">
-                      ${rec.percentage.toFixed(1)}% match
+                      ${rec.folkBonus > 0 ? ((rec.score / rec.maxScore) * 100).toFixed(1) : rec.percentage.toFixed(1)}% match
                     </span>
                   </div>
                 </div>
@@ -1289,7 +1373,13 @@
 
             for (const [archetypeName, archetypeData] of Object.entries(profile.archetypes)) {
               if (archetypeData.restriction && archetypeData.restriction.folk) {
-                folkSet.add(archetypeData.restriction.folk);
+                const folkRestriction = archetypeData.restriction.folk;
+                // Handle both single folk (string) and multiple folk (array)
+                if (Array.isArray(folkRestriction)) {
+                  folkRestriction.forEach(folk => folkSet.add(folk));
+                } else {
+                  folkSet.add(folkRestriction);
+                }
               }
             }
           }
@@ -1504,10 +1594,18 @@
             if (!profile || !profile.archetypes) continue;
 
             for (const [archetypeName, archetypeData] of Object.entries(profile.archetypes)) {
-              if (archetypeData.restriction && archetypeData.restriction.folk === folk) {
-                // Add specific traits from this restricted archetype
-                if (Array.isArray(archetypeData.specific)) {
-                  archetypeData.specific.forEach(trait => traits.add(trait));
+              if (archetypeData.restriction && archetypeData.restriction.folk) {
+                const folkRestriction = archetypeData.restriction.folk;
+                // Handle both single folk (string) and multiple folk (array)
+                const isFolkMatch = Array.isArray(folkRestriction)
+                  ? folkRestriction.includes(folk)
+                  : folkRestriction === folk;
+
+                if (isFolkMatch) {
+                  // Add specific traits from this restricted archetype
+                  if (Array.isArray(archetypeData.specific)) {
+                    archetypeData.specific.forEach(trait => traits.add(trait));
+                  }
                 }
               }
             }
@@ -1525,8 +1623,13 @@
             return;
           }
 
+          // Detect localhost for development debugging
+          const isLocalhost = window.location.hostname === 'localhost' ||
+                             window.location.hostname === '127.0.0.1' ||
+                             window.location.hostname === '';
+
           // Calculate current scores for all archetypes
-          const scores = this.calculateRecommendations();
+          const scores = isLocalhost ? this.calculateAllRecommendations() : this.calculateRecommendations();
 
           if (!scores || scores.length === 0) {
             return;
@@ -1535,20 +1638,36 @@
           // Show the live scores container
           document.getElementById('live-scores').style.display = 'block';
 
-          // Render score bars
+          // Update title for dev mode
+          const titleElement = document.querySelector('.live-scores-title');
+          titleElement.textContent = isLocalhost ? 'Live Match Progress (All Archetypes - Dev Mode)' : 'Live Match Progress';
+
+          // Update container styling for dev mode (remove height limit)
           const scoreBarsContainer = document.getElementById('score-bars');
+          if (isLocalhost) {
+            scoreBarsContainer.style.maxHeight = 'none';
+            scoreBarsContainer.style.height = 'auto';
+          } else {
+            scoreBarsContainer.style.maxHeight = '200px';
+            scoreBarsContainer.style.height = '';
+          }
+
+          // Render score bars
           scoreBarsContainer.innerHTML = scores.map((result, index) => {
             const width = result.percentage; // Use actual percentage, not scaled
             const className = result.className.toLowerCase().replace(/\s+/g, '-');
             const classColor = `class-${className}`;
 
+            // Add debug info for localhost
+            const debugInfo = isLocalhost ? ` (Score: ${result.score.toFixed(1)}${result.folkBonus ? `, Folk: +${result.folkBonus}` : ''})` : '';
+
             return `<div class="score-bar-wrapper">
                       <div class="score-bar-container">
                         <div class="score-bar ${classColor}"
                              style="width: ${width}%;"
-                             data-tooltip="${result.displayName} - ${result.percentage.toFixed(1)}%"
-                             title="${result.displayName}"></div>
-                        <span class="score-class-name">${result.displayName}</span>
+                             data-tooltip="${result.displayName} - ${result.percentage.toFixed(1)}%${debugInfo}"
+                             title="${result.displayName}${debugInfo}"></div>
+                        <span class="score-class-name">${result.displayName}${isLocalhost ? ` (${result.percentage.toFixed(1)}%)` : ''}</span>
                       </div>
                     </div>`;
           }).join('');
