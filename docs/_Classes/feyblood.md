@@ -1,6 +1,36 @@
 ---
 title: Feyblood
 layout: default
+profile:
+  generic:
+    magicType: "versatile"
+    originBackground: ["natural-prodigy", "haunted-past", "destiny-burdened"]
+  specific: ["fey-touched", "versatile-magic", "chaotic-value"]
+  archetypes:
+    boggart:
+      specific: ["trickster-magic", "social-manipulator", "cunning-value", "opportunistic-value"]
+    nereid:
+      generic:
+        magicType: "utility"
+      specific: ["water-mastery", "aquatic-heritage", "healing-magic", "intuitive-value"]
+    oread:
+      generic:
+        magicType: "none"
+      specific: ["fey-warrior", "weapon-master", "natural-armor", "aggressive-value"]
+    pooka:
+      specific: ["wild-surges", "chaos-magic", "fate-touched", "chaotic-value"]
+    sidhe:
+      generic:
+        magicType: "utility"
+      specific: ["noble-heritage", "inspirational-leader", "protective-value", "proud-value"]
+    sprig:
+      generic:
+        magicType: "utility"
+      specific: ["plant-mastery", "nature-guardian", "healing-magic", "patient-value"]
+    sylph:
+      generic:
+        magicType: "control"
+      specific: ["fey-beauty", "social-manipulator", "hedonistic-soul", "chaotic-value"]
 ---
 
 <div class="toc" markdown="1">

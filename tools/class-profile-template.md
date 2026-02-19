@@ -42,6 +42,7 @@ Array of likely character backgrounds that fit the class theme:
 - **criminal**: Thieves, smugglers, underground contacts
 - **tribal**: Clan members, shamanic traditions, nomads
 - **scholarly**: Academics, researchers, scribes
+- **religious**: Clergy, temple-raised, faithful devotees
 - **artisan**: Crafters, builders, makers
 
 ## Specific Traits Examples

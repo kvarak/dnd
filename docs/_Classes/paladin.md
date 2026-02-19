@@ -1,6 +1,80 @@
 ---
 title: Paladin
 layout: default
+profile:
+  generic:
+    magicType: "healing"
+    originBackground: ["military", "religious", "noble"]
+  specific: ["divine-warrior", "holy-power", "lawful-value"]
+  archetypes:
+    anarchy:
+      specific: ["nature-guardian", "chaotic-value", "wild-spirit", "freedom-fighter"]
+    ancients:
+      specific: ["nature-guardian", "fey-touched", "ancient-lore", "protective-value"]
+    balance:
+      specific: ["diplomatic-soul", "wisdom-seeker", "balanced-approach", "patient-value"]
+    bastion:
+      specific: ["protective-value", "disciplined-value", "loyal-guardian", "defensive-expert"]
+    benevolence:
+      specific: ["nurturing-soul", "healing-magic", "protective-value", "compassionate-heart"]
+    conquest:
+      specific: ["inspirational-leader", "tactical-value", "divine-warrior", "disciplined-value"]
+    courage:
+      specific: ["inspirational-leader", "fearless-heart", "protective-value", "divine-warrior"]
+    crown:
+      specific: ["loyal-guardian", "lawful-value", "noble-background", "inspirational-leader"]
+    devotion:
+      specific: ["holy-power", "lawful-value", "disciplined-value", "religious-value"]
+    elderSign:
+      specific: ["aberration-hunter", "protective-value", "eldritch-knowledge", "fearless-heart"]
+    freshness:
+      specific: ["artistic-soul", "joyful-spirit", "social-manipulator", "charismatic-presence"]
+    grave:
+      specific: ["undead-hunter", "death-magic", "protective-value", "grim-reaper"]
+    guardian:
+      specific: ["protective-value", "defensive-expert", "loyal-guardian", "nurturing-soul"]
+    leadership:
+      specific: ["inspirational-leader", "tactical-value", "charismatic-presence", "disciplined-value"]
+    lyan:
+      specific: ["lawful-value", "disciplined-value", "honorable-warrior", "traditional-values"]
+    martyrdom:
+      specific: ["self-sacrifice", "protective-value", "nurturing-soul", "fearless-heart"]
+    purge:
+      specific: ["zealot-faith", "destructive-power", "lawful-value", "purifying-flame"]
+    radiance:
+      specific: ["truth-seeker", "holy-power", "illuminating-light", "wisdom-seeker"]
+    redemption:
+      specific: ["compassionate-heart", "healing-magic", "forgiveness-virtue", "patient-value"]
+    supremacy:
+      specific: ["proud-value", "inspirational-leader", "zealot-faith", "superior-being"]
+    tomorrow:
+      specific: ["progressive-ideals", "modern-value", "visionary-leader", "change-agent"]
+    tradition:
+      specific: ["ancient-lore", "traditional-values", "scholarly-background", "cultural-guardian"]
+    vengeance:
+      specific: ["relentless-hunter", "divine-warrior", "justice-seeker", "vengeful-soul"]
+    waves:
+      specific: ["sea-born", "nature-guardian", "elemental-affinity", "fluid-movement"]
+    blood:
+      restriction:
+        folk: ["dhampir"]
+      specific: ["vampiric-nature", "blood-magic", "dark-heritage", "cursed-blessing"]
+    festivity:
+      restriction:
+        folk: ["eladrin", "halfling"]
+      specific: ["joyful-spirit", "artistic-soul", "social-manipulator", "festive-celebration"]
+    revenant:
+      restriction:
+        folk: ["awakened"]
+      specific: ["undead-hunter", "duty-bound", "vengeful-soul", "death-magic"]
+    wingSeeker:
+      restriction:
+        folk: ["kenku"]
+      specific: ["flight-seeker", "ancient-curse", "freedom-fighter", "sky-longing"]
+    stonelord:
+      restriction:
+        folk: ["dwarf"]
+      specific: ["earth-affinity", "protective-value", "ancient-lore", "stone-guardian"]
 ---
 
 <div class="toc">
@@ -2578,7 +2652,7 @@ If you attack a creature, target it with a spell or effect, or deal damage to it
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-redemption">Oath of Redemption</a></h1>
+<h1><a class="internal-link" name="internal-supremacy">Oath of Supremacy</a></h1>
 <div class="featuresTable">
 
 #### Oath Features

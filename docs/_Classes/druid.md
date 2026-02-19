@@ -1,6 +1,40 @@
 ---
 title: Druid
 layout: default
+profile:
+  generic:
+    magicType: "versatile"
+    originBackground: ["rural", "tribal", "natural-prodigy"]
+  specific: ["nature-guardian", "healing-magic", "survival-expert"]
+  archetypes:
+    blood:
+      specific: ["shape-mastery", "dual-nature", "adaptable-fighter", "pragmatic-fighter"]
+    dreams:
+      specific: ["fey-touched", "healing-magic", "utility-magic", "intuitive-value"]
+    dust:
+      specific: ["post-apocalypse", "survival-expert", "gritty-value", "protective-value"]
+    forest:
+      specific: ["ancient-knowledge", "ritual-caster", "scholar-warrior", "patient-value"]
+    garden:
+      specific: ["plant-mastery", "healing-magic", "protective-value", "nurturing-soul"]
+    land:
+      specific: ["terrain-bond", "utility-magic", "survival-expert", "tactical-value"]
+    moon:
+      specific: ["shape-mastery", "natural-armor", "instinctive-combatant", "wild-spirit"]
+    sands:
+      specific: ["desert-survival", "endurance-specialist", "gritty-value", "patient-value"]
+    shepherd:
+      specific: ["beast-friend", "protective-value", "inspirational-leader", "nurturing-soul"]
+    spores:
+      specific: ["decay-mastery", "necromancy-dabbler", "patient-value", "pragmatic-fighter"]
+    storms:
+      specific: ["storm-caller", "damage-magic", "ranged-expert", "chaotic-value"]
+    swarm:
+      specific: ["swarm-tactics", "tactical-value", "mobile-combatant", "opportunistic-value"]
+    ancients:
+      restriction:
+        folk: "lizardfolk"
+      specific: ["ancestral-memory", "draconic-heritage", "natural-armor", "proud-value"]
 ---
 
 <div class="toc" markdown="1">

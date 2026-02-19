@@ -1,6 +1,24 @@
 ---
 title: Inquisitor
 layout: default
+profile:
+  generic:
+    magicType: "utility"
+    originBackground: ["religious", "military", "haunted-past"]
+  specific: ["divine-warrior", "holy-power", "lawful-value"]
+  archetypes:
+    cold-iron-warder:
+      specific: ["demon-hunter", "divine-warrior", "protective-value", "disciplined-value"]
+    crusader:
+      specific: ["inspirational-leader", "zealot-faith", "holy-power", "lawful-value"]
+    hierophant:
+      specific: ["divine-healer", "protective-value", "healing-magic", "nurturing-soul"]
+    hunter:
+      specific: ["wilderness-tracker", "stealth-master", "survival-expert", "patient-value"]
+    infiltration:
+      specific: ["faith-infiltrator", "social-manipulator", "stealth-master", "cunning-value"]
+    witchhunter:
+      specific: ["magic-hunter", "spell-disruptor", "disciplined-value", "protective-value"]
 ---
 
 <div class="toc">
