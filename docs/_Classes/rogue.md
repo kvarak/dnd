@@ -7,14 +7,46 @@ profile:
     originBackground: ["urban", "criminal", "rural"]
   specific: ["stealth-master", "skill-expert", "cunning-value", "opportunistic-value", "social-manipulator"]
   archetypes:
-    thief:
-      specific: ["classic-rogue", "treasure-hunter", "acrobatic", "lock-picker", "fast-hands"]
     arcane-trickster:
       generic:
         magicType: "utility"
       specific: ["magic-student", "illusion-specialist", "scholarly-rogue", "mage-hand-master"]
     assassin:
       specific: ["death-dealer", "disguise-master", "patient-value", "professional-killer"]
+    blade-juggler:
+      specific: ["thrown-weapon-master", "precision-thrower", "ranged-rogue", "weapon-juggling"]
+    daggerspell-mage:
+      generic:
+        magicType: "damage"
+      specific: ["dagger-specialist", "spell-blade-fusion", "melee-caster", "evocation-specialist"]
+    divine-herald:
+      generic:
+        magicType: "healing"
+      specific: ["divine-rogue", "holy-assassin", "cleric-hybrid", "radiant-damage"]
+    gambler:
+      specific: ["luck-master", "risk-taker", "fate-touched", "chance-gambler"]
+    investigator:
+      specific: ["deduction-master", "knowledge-seeker", "analytical-mind", "clue-finder"]
+    jester:
+      generic:
+        magicType: "utility"
+      specific: ["comedic-performer", "trickster-entertainer", "harlequin-mask", "vicious-mockery"]
+    keen-blade:
+      specific: ["tactical-fighter", "dagger-master", "intelligence-combatant", "surgical-precision"]
+    ruffian:
+      specific: ["brute-rogue", "improvised-weapon", "dirty-fighter", "enforcer"]
+    serpentine-infiltrator:
+      specific: ["shapeshifter", "poison-master", "yuan-ti-power", "viper-form"]
+    spellwarp-sniper:
+      generic:
+        magicType: "damage"
+      specific: ["ray-specialist", "spell-sniper", "evocation-master", "precision-caster"]
+    thief:
+      specific: ["classic-rogue", "treasure-hunter", "acrobatic", "lock-picker", "fast-hands"]
+    feline-stalker:
+      restriction:
+        folk: ["catfolk"]
+      specific: ["catfolk-hunter", "big-cat-emulation", "athletic-prowess", "claw-fighter"]
 ---
 
 <div class="toc" markdown="1">
@@ -22,7 +54,7 @@ profile:
 ##### [Roguish Archetypes](#internal-RoguishArchetypes)
 <a href="#internal-arcaneTrickster">Arcane Trickster</a><br/>
 <a href="#internal-assassin">Assassin</a><br/>
-<a href="#internal-flyingBlade">Blade Juggler</a><br/>
+<a href="#internal-bladeJuggler">Blade Juggler</a><br/>
 <a href="#internal-daggerspellMage">Daggerspell Mage</a><br/>
 <a href="#internal-divineHerald">Divine Herald</a><br/>
 <a href="#internal-gambler">Gambler</a><br/>
@@ -191,7 +223,7 @@ Rogues have many features in common, including their emphasis on perfecting thei
 
 - **<a href="#internal-assassin">Assassin</a>**. This archetype focuses its training on the grim art of death.
 
-- **<a href="#internal-flyingBlade">Blade Juggler</a>**. Those who choose to fling handaxes, daggers, and the like from afar rather than partake in melee.
+- **<a href="#internal-bladeJuggler">Blade Juggler</a>**. Those who choose to fling handaxes, daggers, and the like from afar rather than partake in melee.
 
 - **<a href="#internal-daggerspellMage">Daggerspell Mage</a>**. A master of blending the carnage of twin daggers with arcane spellcasting, daggerspell mages make devastating foes. To learn and perfect the art of balancing a spell on the edge of a blade takes years and must be practiced meticulously, but rewards it's students with exceptional power.
 
@@ -361,7 +393,7 @@ You become a master of instant death. When you attack and hit a creature that is
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-flyingBlade">Blade Juggler</a></h1>
+<h1><a class="internal-link" name="internal-bladeJuggler">Blade Juggler</a></h1>
 <div class="featuresTable">
 
 #### Archetype Features
