@@ -636,10 +636,29 @@
 
         calculateRecommendations() {
           const results = [];
+          // Track variant scores per class for later use
+          const variantScores = new Map();
 
           // Score each class/archetype combination
           for (const [className, profile] of Object.entries(this.classProfiles)) {
             if (!profile) continue;
+
+            // Check if this class has variants (e.g., Bard's Loreseeker)
+            if (profile.variants && Object.keys(profile.variants).length > 0) {
+              const classVariants = [];
+              for (const [variantName, variantData] of Object.entries(profile.variants)) {
+                const mergedProfile = this.mergeArchetypeProfile(profile, variantData);
+                const score = this.scoreProfile(mergedProfile, `${variantName} (${className})`);
+                classVariants.push({
+                  name: variantName,
+                  score: score.score,
+                  percentage: score.percentage
+                });
+              }
+              // Sort variants by score and store the top scoring ones
+              classVariants.sort((a, b) => b.score - a.score);
+              variantScores.set(className, classVariants);
+            }
 
             // Check if this class has archetypes
             if (profile.archetypes && Object.keys(profile.archetypes).length > 0) {
@@ -684,6 +703,26 @@
                 ...score
               });
             }
+
+            // Check if this class has boons (e.g., Warlock pact boons)
+            if (profile.boons && Object.keys(profile.boons).length > 0) {
+              // Score each boon separately
+              for (const [boonName, boonData] of Object.entries(profile.boons)) {
+                const mergedProfile = this.mergeArchetypeProfile(profile, boonData);
+                const formattedBoon = this.formatArchetypeName(boonName);
+                const displayName = `Pact of the ${formattedBoon} (${className})`;
+                const score = this.scoreProfile(mergedProfile, displayName);
+
+                results.push({
+                  className: className,
+                  boonName: boonName,
+                  displayName: displayName,
+                  profile: mergedProfile,
+                  isBoon: true,  // Flag to distinguish boons from archetypes
+                  ...score
+                });
+              }
+            }
           }
 
           // Sort by score descending
@@ -695,10 +734,29 @@
         calculateAllRecommendations() {
           // Same logic as calculateRecommendations but returns ALL results for localhost debugging
           const results = [];
+          // Track variant scores per class for later use
+          const variantScores = new Map();
 
           // Score each class/archetype combination
           for (const [className, profile] of Object.entries(this.classProfiles)) {
             if (!profile) continue;
+
+            // Check if this class has variants (e.g., Bard's Loreseeker)
+            if (profile.variants && Object.keys(profile.variants).length > 0) {
+              const classVariants = [];
+              for (const [variantName, variantData] of Object.entries(profile.variants)) {
+                const mergedProfile = this.mergeArchetypeProfile(profile, variantData);
+                const score = this.scoreProfile(mergedProfile, `${variantName} (${className})`);
+                classVariants.push({
+                  name: variantName,
+                  score: score.score,
+                  percentage: score.percentage
+                });
+              }
+              // Sort variants by score and store the top scoring ones
+              classVariants.sort((a, b) => b.score - a.score);
+              variantScores.set(className, classVariants);
+            }
 
             // Check if this class has archetypes
             if (profile.archetypes && Object.keys(profile.archetypes).length > 0) {
@@ -722,10 +780,21 @@
                   }
                 }
 
+                // Check if this class has high-scoring variants to apply
+                let variantPrefix = '';
+                if (variantScores.has(className)) {
+                  const variants = variantScores.get(className);
+                  // Apply variant if it scored >= 50%
+                  const highScoringVariants = variants.filter(v => v.percentage >= 50);
+                  if (highScoringVariants.length > 0) {
+                    variantPrefix = this.formatArchetypeName(highScoringVariants[0].name) + ' - ';
+                  }
+                }
+
                 results.push({
                   className: className,
                   archetypeName: archetypeName,
-                  displayName: `${formattedArchetype} (${className})`,
+                  displayName: `${variantPrefix}${formattedArchetype} (${className})`,
                   profile: mergedProfile,  // Include profile for trait display
                   restriction: archetypeData.restriction, // Include restriction info
                   folkBonus: folkBonus,
@@ -742,6 +811,26 @@
                 profile: profile,  // Include profile for trait display
                 ...score
               });
+            }
+
+            // Check if this class has boons (e.g., Warlock pact boons)
+            if (profile.boons && Object.keys(profile.boons).length > 0) {
+              // Score each boon separately
+              for (const [boonName, boonData] of Object.entries(profile.boons)) {
+                const mergedProfile = this.mergeArchetypeProfile(profile, boonData);
+                const formattedBoon = this.formatArchetypeName(boonName);
+                const displayName = `Pact of the ${formattedBoon} (${className})`;
+                const score = this.scoreProfile(mergedProfile, displayName);
+
+                results.push({
+                  className: className,
+                  boonName: boonName,
+                  displayName: displayName,
+                  profile: mergedProfile,
+                  isBoon: true,  // Flag to distinguish boons from archetypes
+                  ...score
+                });
+              }
             }
           }
 
@@ -1189,7 +1278,15 @@
               return isFolkMatch; // Only show if folk matches
             })
             .map((rec, index) => {
-            const anchor = rec.archetypeName ? '#internal-' + this.archetypeToAnchor(rec.archetypeName) : '';
+            // Generate anchor for archetypes or boons
+            let anchor = '';
+            if (rec.archetypeName) {
+              anchor = '#internal-' + this.archetypeToAnchor(rec.archetypeName);
+            } else if (rec.boonName) {
+              // Boons use PascalCase anchors like "PactoftheBlade"
+              const boonAnchor = 'Pactofthe' + this.formatArchetypeName(rec.boonName).replace(/\s+/g, '');
+              anchor = '#internal-' + boonAnchor;
+            }
 
             // Get the specific traits for this class/archetype and show user's percentages
             let traitsDisplay = '';

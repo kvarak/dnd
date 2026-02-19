@@ -1,6 +1,28 @@
 ---
 title: Swashbuckler
 layout: default
+profile:
+  generic:
+    magicType: "none"
+    originBackground: ["urban", "military", "criminal", "noble", "rural", "tribal", "artisan"]
+  specific: ["agile-fighter", "finesse-expert", "dexterity-master", "mobile-combatant"]
+  archetypes:
+    blacksnake:
+      specific: ["martial", "tactical", "precise", "controlling", "utility-focused", "disciplined", "unconventional", "exotic-weapons", "disarming", "skilled"]
+    brawler:
+      specific: ["martial", "aggressive", "improvised", "adaptable", "resilient", "street-smart", "physical", "brawling", "durable", "unarmed-combat"]
+    corsair:
+      specific: ["maritime", "intimidating", "fearsome", "charismatic", "adaptive", "outlaw", "ruthless", "pirate", "seafaring", "commanding"]
+    daredevil:
+      specific: ["acrobatic", "mobile", "agile", "reckless", "daring", "charismatic", "multitasking", "parkour", "crowd-fighter", "witty"]
+    duelist:
+      specific: ["refined", "precise", "honorable", "elegant", "disciplined", "traditional", "perfectionist", "fencing", "reputation", "critical-striker"]
+    fatebender:
+      specific: ["lucky", "chaotic", "improvised", "oblivious", "destined", "unpredictable", "fortunate", "probability-manipulation", "fate-touched", "casual"]
+    highwayman:
+      specific: ["mounted", "outlaw", "nomadic", "cunning", "theatrical", "rebellious", "dual-identity", "traveler", "bandit", "masked"]
+    musketeer:
+      specific: ["military", "disciplined", "teamwork-focused", "courtly", "honorable", "tactical", "supportive", "organized", "loyal", "commanding"]
 ---
 
 <div class="toc" markdown="1">

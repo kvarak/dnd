@@ -6,138 +6,139 @@ profile:
     magicType: "versatile"
     originBackground: ["urban", "scholarly", "noble"]
   specific: ["social-manipulator", "versatile-magic", "inspirational-leader", "intellectual-combatant"]
-  archetypes:
+  variants:
     loreseeker:
       generic:
         magicType: "utility"
         originBackground: ["scholarly", "urban"]
-      specific: ["scholar-warrior", "scholarly-background", "intellectual-combatant", "magic-student"]
+      specific: ["archaeologist", "scholarly-background", "magic-student"]
+  archetypes:
     beguiler:
       generic:
         magicType: "control"
         originBackground: ["urban", "criminal"]
       specific: ["social-manipulator", "illusion-specialist", "cunning-value", "disguise-master"]
-    awakenedArt:
+    college-of-awakened-art:
       generic:
         magicType: "utility"
         originBackground: ["urban", "noble"]
       specific: ["inspirational-leader", "versatile-magic", "artistic-excellence", "noble-background"]
-    beasts:
+    college-of-beasts:
       generic:
         magicType: "utility"
         originBackground: ["rural", "tribal"]
       specific: ["survival-expert", "animal-companion", "rural-background", "intuitive-value"]
-    colors:
+    college-of-colors:
       generic:
         magicType: "utility"
         originBackground: ["urban", "noble"]
       specific: ["illusion-specialist", "artistic-excellence", "visual-arts", "noble-background"]
-    crossroads:
+    college-of-crossroads:
       generic:
         magicType: "utility"
         originBackground: ["urban", "rural"]
       specific: ["survival-expert", "adaptable-fighter", "wanderer-spirit", "intuitive-value"]
-    dance:
+    college-of-dance:
       generic:
         magicType: "utility"
         originBackground: ["urban", "noble"]
       specific: ["agile-warrior", "mobile-combatant", "performance-arts", "noble-background"]
-    desire:
+    college-of-desire:
       generic:
         magicType: "control"
         originBackground: ["urban", "noble"]
       specific: ["social-manipulator", "charm-magic", "seductive-arts", "cunning-value"]
-    doors:
+    college-of-doors:
       generic:
         magicType: "utility"
         originBackground: ["scholarly", "urban"]
       specific: ["utility-magic", "dimensional-magic", "scholar-warrior", "scholarly-background"]
-    entropy:
+    college-of-entropy:
       generic:
         magicType: "control"
         originBackground: ["urban", "criminal"]
       specific: ["fate-touched", "unpredictable-power", "chaotic-value", "risk-taker"]
-    eulogies:
+    college-of-eulogies:
       generic:
         magicType: "utility"
         originBackground: ["rural", "scholarly"]
       specific: ["death-speaker", "protective-value", "funeral-rites", "rural-background"]
-    faith:
+    college-of-faith:
       generic:
         magicType: "healing"
         originBackground: ["rural", "scholarly"]
       specific: ["divine-student", "religious-value", "healing-magic", "holy-power"]
-    fools:
+    college-of-fools:
       generic:
         magicType: "control"
         originBackground: ["urban", "criminal"]
       specific: ["social-manipulator", "comedy-arts", "chaotic-value", "criminal-background"]
-    glamour:
+    college-of-glamour:
       generic:
         magicType: "control"
         originBackground: ["noble", "urban"]
       specific: ["social-manipulator", "charm-magic", "noble-background", "control-magic"]
-    grandeur:
+    college-of-grandeur:
       generic:
         magicType: "control"
         originBackground: ["noble", "urban"]
       specific: ["inspirational-leader", "noble-background", "proud-value", "commanding-presence"]
-    lore:
+    college-of-lore:
       generic:
         magicType: "versatile"
         originBackground: ["scholarly", "urban"]
       specific: ["scholar-warrior", "magic-student", "scholarly-background", "intellectual-combatant"]
-    madGod:
+    college-of-the-mad-god:
       generic:
         magicType: "control"
         originBackground: ["rural", "tribal"]
       specific: ["unpredictable-power", "religious-value", "chaotic-value", "tribal-background"]
-    masks:
+    college-of-masks:
       generic:
         magicType: "control"
         originBackground: ["urban", "criminal"]
       specific: ["disguise-master", "social-manipulator", "identity-shifter", "cunning-value"]
-    mirrors:
+    college-of-mirrors:
       generic:
         magicType: "utility"
         originBackground: ["urban", "scholarly"]
       specific: ["illusion-specialist", "reflection-magic", "scholar-warrior", "scholarly-background"]
-    portraiture:
+    college-of-portraiture:
       generic:
         magicType: "utility"
         originBackground: ["urban", "noble"]
       specific: ["artistic-excellence", "visual-arts", "noble-background", "patient-value"]
-    purity:
+    college-of-purity:
       generic:
         magicType: "healing"
         originBackground: ["rural", "noble"]
       specific: ["religious-value", "healing-magic", "purification-rites", "lawful-value"]
-    revelry:
+    college-of-revelry:
       generic:
         magicType: "utility"
         originBackground: ["urban", "noble"]
       specific: ["social-manipulator", "party-master", "inspirational-leader", "noble-background"]
-    secrets:
+    college-of-secrets:
       generic:
         magicType: "control"
         originBackground: ["urban", "criminal"]
       specific: ["social-manipulator", "information-broker", "cunning-value", "criminal-background"]
-    shanties:
+    college-of-shanties:
       generic:
         magicType: "utility"
         originBackground: ["urban", "criminal"]
       specific: ["musical-magic", "team-coordination", "criminal-background", "work-songs"]
-    tales:
+    college-of-tales:
       generic:
         magicType: "utility"
         originBackground: ["rural", "scholarly"]
       specific: ["storyteller", "oral-tradition", "inspirational-leader", "rural-background"]
-    valor:
+    college-of-valor:
       generic:
         magicType: "damage"
         originBackground: ["military", "noble"]
       specific: ["weapon-master", "military-background", "tactical-value", "inspirational-leader"]
-    whispers:
+    college-of-whispers:
       generic:
         magicType: "control"
         originBackground: ["urban", "criminal"]
@@ -147,12 +148,12 @@ profile:
         magicType: "control"
         originBackground: ["urban", "criminal"]
       specific: ["mind-alteration", "puppet-mastery", "control-magic", "criminal-background"]
-    pathfinderChronicler:
+    pathfinder-chronicler:
       generic:
         magicType: "utility"
         originBackground: ["scholarly", "rural"]
       specific: ["scholar-warrior", "survival-expert", "exploration-specialist", "scholarly-background"]
-    piedPiper:
+    pied-piper:
       generic:
         magicType: "control"
         originBackground: ["urban", "rural"]
@@ -168,31 +169,31 @@ profile:
 ##### <a href="#internal-BardColleges">Bard Colleges</a>
 
 <a href="#internal-beguiler">Beguiler</a><br/>
-<a href="#internal-awakenedArt">College of Awakened Art</a><br/>
-<a href="#internal-crossroads">College of Crossroads</a><br/>
-<a href="#internal-beasts">College of Beasts</a><br/>
-<a href="#internal-colors">College of Colors</a><br/>
-<a href="#internal-dance">College of Dance</a><br/>
-<a href="#internal-desire">College of Desire</a><br/>
-<a href="#internal-doors">College of Doors</a><br/>
-<a href="#internal-entropy">College of Entropy</a><br/>
-<a href="#internal-eulogies">College of Eulogies</a><br/>
-<a href="#internal-faith">College of Faith</a><br/>
-<a href="#internal-fools">College of Fools</a><br/>
-<a href="#internal-glamour">College of Glamour</a><br/>
-<a href="#internal-grandeur">College of Grandeur</a><br/>
-<a href="#internal-lore">College of Lore</a><br/>
-<a href="#internal-madGod">College of the Mad God</a><br/>
-<a href="#internal-masks">College of Masks</a><br/>
-<a href="#internal-mirrors">College of Mirrors</a><br/>
-<a href="#internal-portraiture">College of Portraiture</a><br/>
-<a href="#internal-purity">College of Purity</a><br/>
-<a href="#internal-revelry">College of Revelry</a><br/>
-<a href="#internal-secrets">College of Secrets</a><br/>
-<a href="#internal-shanties">College of Shanties</a><br/>
-<a href="#internal-tales">College of Tales</a><br/>
-<a href="#internal-valor">College of Valor</a><br/>
-<a href="#internal-whispers">College of Whispers</a><br/>
+<a href="#internal-collegeOfAwakenedArt">College of Awakened Art</a><br/>
+<a href="#internal-collegeOfCrossroads">College of Crossroads</a><br/>
+<a href="#internal-collegeOfBeasts">College of Beasts</a><br/>
+<a href="#internal-collegeOfColors">College of Colors</a><br/>
+<a href="#internal-collegeOfDance">College of Dance</a><br/>
+<a href="#internal-collegeOfDesire">College of Desire</a><br/>
+<a href="#internal-collegeOfDoors">College of Doors</a><br/>
+<a href="#internal-collegeOfEntropy">College of Entropy</a><br/>
+<a href="#internal-collegeOfEulogies">College of Eulogies</a><br/>
+<a href="#internal-collegeOfFaith">College of Faith</a><br/>
+<a href="#internal-collegeOfFools">College of Fools</a><br/>
+<a href="#internal-collegeOfGlamour">College of Glamour</a><br/>
+<a href="#internal-collegeOfGrandeur">College of Grandeur</a><br/>
+<a href="#internal-collegeOfLore">College of Lore</a><br/>
+<a href="#internal-collegeOfTheMadGod">College of the Mad God</a><br/>
+<a href="#internal-collegeOfMasks">College of Masks</a><br/>
+<a href="#internal-collegeOfMirrors">College of Mirrors</a><br/>
+<a href="#internal-collegeOfPortraiture">College of Portraiture</a><br/>
+<a href="#internal-collegeOfPurity">College of Purity</a><br/>
+<a href="#internal-collegeOfRevelry">College of Revelry</a><br/>
+<a href="#internal-collegeOfSecrets">College of Secrets</a><br/>
+<a href="#internal-collegeOfShanties">College of Shanties</a><br/>
+<a href="#internal-collegeOfTales">College of Tales</a><br/>
+<a href="#internal-collegeOfValor">College of Valor</a><br/>
+<a href="#internal-collegeOfWhispers">College of Whispers</a><br/>
 <a href="#internal-marionettist">Marionettist</a><br/>
 <a href="#internal-pathfinderChronicler">Pathfinder Chronicler</a><br/>
 <a href="#internal-piedPiper">Pied Piper</a><br/>
@@ -664,7 +665,7 @@ Additionally, when the spell expires, you can try to make the creature forget so
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-awakenedArt">College of Awakened Arts</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfAwakenedArt">College of Awakened Arts</a></h1>
 
 <div class="featuresTable">
 
@@ -744,7 +745,7 @@ You now use your sketchbook twice per day. Additionally, they now last a number 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-beasts">College of Beasts</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfBeasts">College of Beasts</a></h1>
 
 <div class="featuresTable">
 
@@ -793,7 +794,7 @@ When you cast a spell targeting yourself, you can also affect your animal compan
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-colors">College of Colors</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfColors">College of Colors</a></h1>
 
 <div class="featuresTable">
 
@@ -870,7 +871,7 @@ These illusions look perfect, but act very crudely as it is difficult to maintai
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-crossroads">College of Crossroads</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfCrossroads">College of Crossroads</a></h1>
 
 <div class="featuresTable">
 
@@ -936,7 +937,7 @@ In addition, you learn the *infernal calling* spell, which counts as a bard spel
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-dance">College of Dance</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfDance">College of Dance</a></h1>
 
 <div class="featuresTable">
 
@@ -1015,7 +1016,7 @@ From 14th level, after you have used a Dance Flourish, you can grant up to three
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-desire">College of Desire</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfDesire">College of Desire</a></h1>
 
 <div class="featuresTable">
 
@@ -1076,7 +1077,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-doors">College of Doors</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfDoors">College of Doors</a></h1>
 
 <div class="featuresTable">
 
@@ -1118,7 +1119,7 @@ You can travel between any two Magic Doors regardless of their distance, and eve
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-entropy">College of Entropy</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfEntropy">College of Entropy</a></h1>
 
 <div class="featuresTable">
 
@@ -1195,7 +1196,7 @@ You regain the use of this feature after a short rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-eulogies">College of Eulogies</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfEulogies">College of Eulogies</a></h1>
 
 <div class="featuresTable">
 
@@ -1303,7 +1304,7 @@ The sadness and despair that you inflict upon your enemies cloys to them until i
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-faith">College of Faith</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfFaith">College of Faith</a></h1>
 
 <div class="featuresTable">
 
@@ -1351,7 +1352,7 @@ If your chosen divine domain grants a Channel Divinity option at 6th level, you 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-fools">College of Fools</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfFools">College of Fools</a></h1>
 
 <div class="featuresTable">
 
@@ -1422,7 +1423,7 @@ Even if a joke falls flat at first, you know how to get your audience laughing; 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-glamour">College of Glamour</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfGlamour">College of Glamour</a></h1>
 
 <div class="featuresTable">
 
@@ -1493,7 +1494,7 @@ In addition, as a ***bonus action***, you can assume a magically majestic presen
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-grandeur">College of Grandeur</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfGrandeur">College of Grandeur</a></h1>
 
 <div class="featuresTable">
 
@@ -1550,7 +1551,7 @@ You can use this feature a number of times equal to your Charisma modifier and c
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-lore">College of Lore</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfLore">College of Lore</a></h1>
 
 <div class="featuresTable">
 
@@ -1590,7 +1591,7 @@ When you make an ability check, you can expend one use of Bardic Inspiration. Ro
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-madGod">College of the Mad God</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfTheMadGod">College of the Mad God</a></h1>
 
 <div class="featuresTable">
 
@@ -1648,7 +1649,7 @@ After you use this ability, you must complete a short rest before using it again
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-masks">College of Masks</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfMasks">College of Masks</a></h1>
 
 <div class="featuresTable">
 
@@ -1756,7 +1757,7 @@ You can have a fourth mask. You have become a master of assuming the archetypes 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-mirrors">College of Mirrors</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfMirrors">College of Mirrors</a></h1>
 
 <div class="featuresTable">
 
@@ -1815,7 +1816,7 @@ You can use this feature a number of times equal to your Charisma modifier and c
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-portraiture">College of Portraiture</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfPortraiture">College of Portraiture</a></h1>
 
 <div class="featuresTable">
 
@@ -1865,7 +1866,7 @@ Whenever you would take damage, you can use your ***reaction*** to sacrifice the
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-purity">College of Purity</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfPurity">College of Purity</a></h1>
 
 <div class="featuresTable">
 
@@ -1996,7 +1997,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-revelry">College of Revelry</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfRevelry">College of Revelry</a></h1>
 
 <div class="featuresTable">
 
@@ -2037,7 +2038,7 @@ When you use this feature, you can choose to expend an additional use of bardic 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-secrets">College of Secrets</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfSecrets">College of Secrets</a></h1>
 
 <div class="featuresTable">
 
@@ -2109,7 +2110,7 @@ You have carefully built up a network of informants who you can contact from alm
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-shanties">College of Shanties</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfShanties">College of Shanties</a></h1>
 
 <div class="featuresTable">
 
@@ -2166,7 +2167,7 @@ The very act of striking you down is enough to invoke a supernatural curse on wh
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-tales">College of Tales</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfTales">College of Tales</a></h1>
 
 <div class="featuresTable">
 
@@ -2225,7 +2226,7 @@ Any creature that you summon or create with a spell is automatically granted a B
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-valor">College of Valor</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfValor">College of Valor</a></h1>
 
 <div class="featuresTable">
 
@@ -2265,7 +2266,7 @@ In addition, you have mastered the art of weaving spellcasting and weapon use in
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-whispers">College of Whispers</a></h1>
+<h1><a class="internal-link" name="internal-collegeOfWhispers">College of Whispers</a></h1>
 
 <div class="featuresTable">
 

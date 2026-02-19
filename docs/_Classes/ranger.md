@@ -1,6 +1,48 @@
 ---
 title: Ranger
 layout: default
+profile:
+  generic:
+    magicType: "utility"
+    originBackground: ["rural", "military", "tribal"]
+  specific: ["survival-expert", "nature-guardian", "stealth-master"]
+  archetypes:
+    beastMaster:
+      specific: ["animal-companion", "nature-guardian", "loyal-guardian", "wild-spirit"]
+    burghalExplorer:
+      specific: ["urban-background", "explorer", "athletic-prowess", "stealth-master"]
+    diabolist:
+      specific: ["undead-hunter", "ghost-tracker", "death-magic", "spirit-medium"]
+    feyHunter:
+      specific: ["fey-hunter", "enchantment-resistance", "nature-guardian", "tactical-value"]
+    freerunner:
+      specific: ["mobile-combatant", "athletic-prowess", "agile-fighter", "physical-prowess"]
+    gloomStalker:
+      specific: ["darkvision-master", "stealth-master", "ambush-predator", "shadow-affinity"]
+    herbalist:
+      specific: ["potion-brewer", "healing-magic", "nature-guardian", "supportive-role"]
+    horizonWalker:
+      specific: ["planar-guardian", "dimensional-magic", "tactical-value", "otherworldly-knowledge"]
+    hunter:
+      specific: ["monster-hunter", "tactical-value", "survival-expert", "weapon-specialist"]
+    monsterSlayer:
+      specific: ["monster-hunter", "relentless-hunter", "tactical-value", "demon-hunter"]
+    nightstalker:
+      specific: ["shadow-magic", "stealth-master", "shadow-affinity", "summon-familiar"]
+    stalker:
+      specific: ["urban-background", "stealth-master", "social-manipulator", "investigator"]
+    banshee:
+      restriction:
+        folk: ["bound spirit"]
+      specific: ["undead-hunter", "death-magic", "vengeful-soul", "spirit-medium"]
+    trickster:
+      restriction:
+        folk: ["gnome", "halfling", "kobold"]
+      specific: ["trickster-magic", "illusion-specialist", "cunning-value", "small-advantage"]
+    moonstalker:
+      restriction:
+        folk: ["shifter"]
+      specific: ["shapeshifter", "wild-spirit", "lunar-affinity", "primal-hunter"]
 ---
 
 <div class="toc" markdown="1">

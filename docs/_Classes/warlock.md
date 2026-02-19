@@ -1,6 +1,149 @@
 ---
 title: Warlock
 layout: default
+# Warlock Profile Structure:
+# Warlocks are unique in having TWO orthogonal choices:
+#   - archetypes: Which patron (WHO you pact with) - 30 options
+#   - boons: Which pact boon (HOW you fight/cast) - 8 options
+#
+# This creates 30 × 8 = 240 combinations, but we avoid duplication by:
+# 1. Scoring archetypes separately (patron choice - narrative/thematic)
+# 2. Scoring boons separately (playstyle choice - mechanical)
+# 3. Presenting both results independently for user to combine
+#
+# Implementation: The questionnaire will score:
+#   - "Warlock Patron: Abraxas (85%)"
+#   - "Pact Boon: Tome (92%)"
+# User then combines their preferred patron + boon combination.
+profile:
+  generic:
+    magicType: "versatile"
+    originBackground: ["scholarly", "urban", "rural", "criminal"]
+  specific: ["knowledge-seeker", "otherworldly-knowledge", "magic-student", "cunning-value"]
+  archetypes:
+    abraxas:
+      generic:
+        magicType: "damage"
+      specific: ["arcane-scholar", "knowledge-seeker", "ancient-lore", "damage-magic"]
+    ancient-dragon:
+      generic:
+        magicType: "damage"
+      specific: ["draconic-heritage", "elemental-affinity", "ancient-knowledge", "proud-value"]
+    ancient-toad:
+      specific: ["nature-guardian", "knowledge-seeker", "water-mastery", "wisdom-seeker"]
+    archfey:
+      generic:
+        magicType: "control"
+      specific: ["fey-warrior", "trickster-magic", "illusion-specialist", "chaotic-value"]
+    ashen-wolf:
+      generic:
+        magicType: "damage"
+      specific: ["primal-hunter", "fire-affinity", "wild-spirit", "aggressive-value"]
+    blackthorn-grove:
+      specific: ["nature-guardian", "plant-mastery", "wild-spirit", "protective-value"]
+    cosmic-machine:
+      generic:
+        magicType: "utility"
+      specific: ["lawful-value", "tactical-value", "knowledge-seeker", "disciplined-value"]
+    crone:
+      specific: ["shadow-magic", "ancient-lore", "fate-touched", "wild-spirit"]
+    dagon:
+      generic:
+        magicType: "control"
+      specific: ["aquatic-heritage", "water-mastery", "aberrant-influence", "primal-hunter"]
+    death:
+      specific: ["death-magic", "necromancy-dabbler", "patient-value", "fate-touched"]
+    dispater:
+      generic:
+        magicType: "control"
+      specific: ["lawful-value", "tactical-value", "social-manipulator", "disciplined-value"]
+    emergent-mind:
+      generic:
+        magicType: "control"
+      specific: ["mind-reader", "mind-alteration", "ancient-knowledge", "patient-value"]
+    eternal-citadel:
+      generic:
+        magicType: "utility"
+      specific: ["defensive-expert", "protective-value", "lawful-value", "loyal-guardian"]
+    fallen-exile:
+      generic:
+        magicType: "damage"
+      specific: ["otherworldly-knowledge", "proud-value", "knowledge-seeker", "aggressive-value"]
+    fiend:
+      generic:
+        magicType: "damage"
+      specific: ["demonic-corruption", "damage-magic", "aggressive-value", "opportunistic-value"]
+    great-old-one:
+      generic:
+        magicType: "control"
+      specific: ["aberrant-influence", "mind-alteration", "otherworldly-knowledge", "ancient-lore"]
+    serpent-empress:
+      generic:
+        magicType: "control"
+      specific: ["social-manipulator", "noble-heritage", "hedonistic-soul", "proud-value"]
+    hive:
+      generic:
+        magicType: "control"
+      specific: ["swarm-tactics", "teamwork-focused", "aberrant-influence", "tactical-value"]
+    jubilex:
+      generic:
+        magicType: "control"
+      specific: ["ooze-symbiosis", "aberrant-influence", "chaos-magic", "unpredictable-power"]
+    keeper-depths:
+      specific: ["aquatic-heritage", "ancient-knowledge", "treasure-hunter", "water-mastery"]
+    levistus:
+      generic:
+        magicType: "control"
+      specific: ["tactical-value", "patient-value", "lawful-value", "disciplined-value"]
+    monstrosity:
+      generic:
+        magicType: "damage"
+      specific: ["physical-prowess", "unstoppable-force", "primal-hunter", "aggressive-value"]
+    wild-huntsman:
+      generic:
+        magicType: "utility"
+      specific: ["primal-hunter", "beast-friend", "fey-warrior", "athletic-prowess"]
+    pharaoh:
+      specific: ["divine-student", "ancient-lore", "desert-survival", "noble-heritage"]
+    seducer:
+      generic:
+        magicType: "control"
+      specific: ["social-manipulator", "hedonistic-soul", "chaotic-value", "mind-alteration"]
+    shadow-cat:
+      generic:
+        magicType: "utility"
+      specific: ["fate-touched", "shadow-affinity", "stealth-master", "patient-value"]
+    storm-lord:
+      generic:
+        magicType: "damage"
+      specific: ["storm-caller", "elemental-affinity", "chaotic-value", "aggressive-value"]
+    undying:
+      specific: ["necromancy-dabbler", "ancient-knowledge", "patient-value", "knowledge-seeker"]
+    vampire:
+      generic:
+        magicType: "control"
+      specific: ["death-magic", "social-manipulator", "hedonistic-soul", "ambush-predator"]
+    weaver-lies:
+      generic:
+        magicType: "control"
+      specific: ["trickster-magic", "social-manipulator", "illusion-specialist", "chaotic-value"]
+  boons:
+    arc:
+      specific: ["ranged-expert", "archery-specialist", "tactical-value", "agile-warrior"]
+    bastion:
+      specific: ["defensive-expert", "shield-specialist", "protective-value", "heavy-armor"]
+    blade:
+      specific: ["weapon-specialist", "physical-prowess", "aggressive-value", "instinctive-combatant"]
+    chain:
+      specific: ["summon-familiar", "beast-friend", "supportive-role", "tactical-value"]
+    cowl:
+      specific: ["stealth-master", "infiltrator", "agile-warrior", "shadow-affinity"]
+    evil-eye:
+      specific: ["mind-alteration", "control-magic", "tactical-value", "patient-value"]
+    talisman:
+      specific: ["utility-magic", "tactical-value", "damage-magic", "versatile-magic"]
+    tome:
+      specific: ["ritual-caster", "knowledge-seeker", "arcane-scholar", "versatile-magic"]
 ---
 
 <div class="toc" markdown="1">

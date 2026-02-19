@@ -2125,3 +2125,382 @@
       cunning-value: +3 # Comfortable with deception
       chaotic-value: +2 # Relative truth
     dont-know: {}
+# Ranger-Specific Questions
+- id: animal-bond
+  text: "Do you want to form a deep bond with an animal companion?"
+  category: character-capability
+  answers:
+    "yes":
+      animal-companion: +4 # Direct animal companion
+      nature-guardian: +3 # Nature focus
+      loyal-guardian: +2 # Protective bond
+      wild-spirit: +2 # Animal connection
+      rural-background: +1 # Wilderness upbringing
+    "maybe":
+      animal-companion: +1 # Some interest
+      nature-guardian: +1 # Some nature focus
+    "no":
+      urban-background: +3 # City preference
+      scholarly-background: +2 # Study over bonds
+    dont-know: {}
+- id: hunt-undead-spirits
+  text: "Do you want to hunt ghosts and undead spirits?"
+  category: combat-specialization
+  answers:
+    "yes":
+      ghost-tracker: +4 # Direct ghost hunting
+      undead-hunter: +3 # Hunt undead
+      spirit-medium: +3 # Communicate with spirits
+      death-magic: +2 # Death domain
+      fearless-heart: +1 # Face the dead
+    "maybe":
+      ghost-tracker: +1 # Some interest
+      undead-hunter: +1 # Some focus
+    "no":
+      nature-guardian: +3 # Living creatures focus
+      healing-magic: +2 # Life over death
+    dont-know: {}
+- id: resist-enchantments
+  text: "Is resisting mental manipulation and enchantments important to you?"
+  category: character-capability
+  answers:
+    "yes":
+      enchantment-resistance: +4 # Direct resistance
+      disciplined-value: +3 # Mental discipline
+      tactical-value: +2 # Stay clear-headed
+      fey-hunter: +2 # Resist fey charms
+      wisdom-seeker: +2 # Mental fortitude
+    "maybe":
+      enchantment-resistance: +1 # Some protection
+      disciplined-value: +1 # Some discipline
+    "no":
+      chaotic-value: +2 # Embrace chaos
+      wild-spirit: +2 # Instinctive approach
+    dont-know: {}
+- id: extreme-mobility
+  text: "Do you want to be extremely mobile and acrobatic in combat?"
+  category: combat-approach
+  answers:
+    "yes":
+      agile-fighter: +4 # Direct agility
+      mobile-combatant: +3 # Movement specialist
+      athletic-prowess: +3 # Physical skill
+      physical-prowess: +2 # Overall fitness
+      stealth-master: +1 # Quiet movement
+    "maybe":
+      agile-fighter: +1 # Some agility
+      athletic-prowess: +1 # Some athleticism
+    "no":
+      defensive-expert: +3 # Hold ground
+      tactical-value: +2 # Plan over move
+    dont-know: {}
+- id: darkness-master
+  text: "Do you want to excel in darkness and shadows?"
+  category: combat-specialization
+  answers:
+    "yes":
+      darkvision-master: +4 # Direct darkness mastery
+      shadow-affinity: +3 # Shadow connection
+      ambush-predator: +3 # Ambush from darkness
+      stealth-master: +3 # Hide in shadows
+      shadow-magic: +2 # Shadow spells
+    "maybe":
+      darkvision-master: +1 # Some dark vision
+      stealth-master: +1 # Some stealth
+    "no":
+      holy-power: +2 # Light focus
+      illuminating-light: +2 # Prefer light
+    dont-know: {}
+- id: planar-travel
+  text: "Are you interested in traveling between planes and dimensions?"
+  category: magic-preference
+  answers:
+    "yes":
+      planar-guardian: +4 # Direct planar focus
+      dimensional-magic: +3 # Dimension magic
+      otherworldly-knowledge: +3 # Planar knowledge
+      explorer: +2 # Explore other realms
+      tactical-value: +2 # Strategic positioning
+    "maybe":
+      planar-guardian: +1 # Some interest
+      dimensional-magic: +1 # Some magic
+    "no":
+      nature-guardian: +3 # Material plane focus
+      rural-background: +2 # Earthly roots
+    dont-know: {}
+- id: shapeshift-transform
+  text: "Do you want to shapeshift and transform your body?"
+  category: character-capability
+  answers:
+    "yes":
+      shapeshifter: +4 # Direct shapeshifting
+      primal-hunter: +3 # Primal transformation
+      wild-spirit: +3 # Wild nature
+      lunar-affinity: +2 # Moon connection
+      adaptable-fighter: +2 # Versatile forms
+    "maybe":
+      shapeshifter: +1 # Some interest
+      adaptable-fighter: +1 # Some versatility
+    "no":
+      disciplined-value: +3 # Keep one form
+      lawful-value: +2 # Consistent identity
+    dont-know: {}
+- id: investigate-mysteries
+  text: "Do you want to investigate crimes and uncover mysteries?"
+  category: character-role
+  answers:
+    "yes":
+      investigator: +4 # Direct investigation
+      tactical-value: +3 # Analytical thinking
+      scholarly-background: +2 # Research skills
+      urban-background: +2 # City detective
+      cunning-value: +2 # Clever deduction
+    "maybe":
+      investigator: +1 # Some interest
+      tactical-value: +1 # Some analysis
+    "no":
+      wild-spirit: +3 # Wilderness focus
+      berserker-rage: +2 # Action over thought
+    dont-know: {}
+- id: magical-companion
+  text: "Do you want to summon magical companions or familiars?"
+  category: magic-preference
+  answers:
+    "yes":
+      summon-familiar: +4 # Direct familiar summoning
+      shadow-magic: +2 # Shadow familiars
+      utility-magic: +2 # Companion utility
+      supportive-role: +2 # Team support
+      versatile-magic: +1 # Varied magic
+    "maybe":
+      summon-familiar: +1 # Some interest
+      utility-magic: +1 # Some utility
+    "no":
+      pure-warrior: +3 # Self-reliant fighter
+      arcane-averse-magic: +2 # No magic
+    dont-know: {}
+- id: small-stature-advantage
+  text: "Do you want to use your small size as a tactical advantage?"
+  category: combat-approach
+  answers:
+    "yes":
+      small-advantage: +4 # Direct small size tactics
+      cunning-value: +3 # Clever use of size
+      stealth-master: +3 # Hide easily
+      tactical-value: +2 # Strategic positioning
+      agile-fighter: +2 # Nimble movement
+    "maybe":
+      small-advantage: +1 # Some tactics
+      stealth-master: +1 # Some hiding
+    "no":
+      physical-prowess: +3 # Strength focus
+      inspirational-leader: +2 # Command presence
+    dont-know: {}
+# Swashbuckler-specific questions
+- id: exotic-weapons-interest
+  text: "Are you interested in mastering exotic weapons like whips, chains, or nets?"
+  category: combat-style
+  answers:
+    "yes":
+      exotic-weapons: +4 # Direct exotic weapon focus
+      unconventional: +3 # Unusual tactics
+      controlling: +3 # Control weapons
+      disarming: +3 # Many exotic weapons disarm
+      skilled: +2 # Requires training
+      tactical-value: +2 # Strategic use
+    "maybe":
+      exotic-weapons: +1 # Some interest
+      unconventional: +1 # Moderate uniqueness
+    "no":
+      weapon-specialist: +2 # Traditional weapons
+      pure-warrior: +2 # Standard arms
+    dont-know: {}
+- id: unarmed-brawling
+  text: "Do you prefer fighting with your fists and improvised weapons?"
+  category: combat-style
+  answers:
+    "yes":
+      unarmed-combat: +4 # Direct unarmed preference
+      brawling: +4 # Street fighting
+      improvised: +3 # Use anything
+      street-smart: +3 # Street background
+      aggressive: +2 # Direct approach
+      physical: +3 # Physical focus
+      resilient: +2 # Take hits
+    "maybe":
+      unarmed-combat: +1 # Some interest
+      brawling: +1 # Some street skill
+    "no":
+      weapon-specialist: +3 # Armed combat
+      refined: +2 # Elegant approach
+    dont-know: {}
+- id: pirate-life
+  text: "Are you drawn to the life of a pirate or corsair?"
+  category: character-role
+  answers:
+    "yes":
+      pirate: +4 # Direct pirate theme
+      seafaring: +4 # Maritime life
+      maritime: +4 # Sea-based
+      outlaw: +3 # Piracy is outlawed
+      fearsome: +3 # Pirate reputation
+      intimidating: +3 # Fear tactics
+      ruthless: +2 # Harsh approach
+      adaptive: +2 # Varied situations
+    "maybe":
+      maritime: +1 # Some sea interest
+      outlaw: +1 # Some rebelliousness
+    "no":
+      lawful-value: +3 # Law-abiding
+      noble-background: +2 # Honorable
+    dont-know: {}
+- id: crowd-combat
+  text: "Do you thrive when fighting multiple opponents at once?"
+  category: combat-preference
+  answers:
+    "yes":
+      crowd-fighter: +4 # Multiple foes
+      acrobatic: +3 # Dodge many attacks
+      mobile: +3 # Move between enemies
+      daring: +3 # Brave approach
+      reckless: +2 # Risky tactics
+      multitasking: +3 # Many targets
+    "maybe":
+      crowd-fighter: +1 # Some interest
+      mobile: +1 # Some movement
+    "no":
+      tactical-value: +2 # Controlled fights
+      duelist: +3 # One-on-one
+    dont-know: {}
+- id: parkour-acrobatics
+  text: "Do you enjoy using parkour and acrobatic movement in combat?"
+  category: combat-style
+  answers:
+    "yes":
+      parkour: +4 # Direct parkour focus
+      acrobatic: +4 # Acrobatic movement
+      mobile-combatant: +3 # Movement focus
+      agile-fighter: +3 # Agility
+      daring: +2 # Bold movement
+      urban-background: +2 # City environment
+    "maybe":
+      parkour: +1 # Some interest
+      mobile-combatant: +1 # Some mobility
+    "no":
+      heavy-armor: +3 # Armored tank
+      defensive-expert: +2 # Stand ground
+    dont-know: {}
+- id: elegant-dueling
+  text: "Are you interested in refined, elegant dueling and fencing?"
+  category: combat-style
+  answers:
+    "yes":
+      fencing: +4 # Direct fencing focus
+      refined: +4 # Elegant style
+      duelist: +4 # One-on-one combat
+      elegant: +4 # Grace in combat
+      precise: +3 # Precision strikes
+      disciplined: +3 # Trained technique
+      honorable: +3 # Dueling honor
+      traditional: +2 # Classical style
+    "maybe":
+      fencing: +1 # Some interest
+      refined: +1 # Some elegance
+    "no":
+      brawling: +3 # Street fighting
+      aggressive: +2 # Brutal approach
+    dont-know: {}
+- id: critical-precision
+  text: "Do you want to focus on landing precise, critical strikes?"
+  category: combat-preference
+  answers:
+    "yes":
+      critical-striker: +4 # Critical hit focus
+      precise: +4 # Precision attacks
+      tactical-value: +3 # Strategic targeting
+      perfectionist: +3 # Perfect strikes
+      sniper: +2 # Precision parallels
+    "maybe":
+      critical-striker: +1 # Some interest
+      precise: +1 # Some accuracy
+    "no":
+      area-attacker: +3 # Broad damage
+      berserker-rage: +2 # Wild attacks
+    dont-know: {}
+- id: luck-manipulation
+  text: "Do you want to manipulate luck and probability in your favor?"
+  category: special-ability
+  answers:
+    "yes":
+      probability-manipulation: +4 # Direct probability focus
+      lucky: +4 # Inherent luck
+      fate-touched: +4 # Destiny connection
+      chaotic: +3 # Unpredictable
+      fortunate: +3 # Good fortune
+      destined: +3 # Fated path
+      unpredictable: +2 # Hard to predict
+      casual: +2 # Relaxed attitude
+    "maybe":
+      lucky: +1 # Some luck
+      fortunate: +1 # Some fortune
+    "no":
+      disciplined-value: +3 # Control over chance
+      tactical-value: +2 # Planning over luck
+    dont-know: {}
+- id: secret-identity
+  text: "Do you want to maintain a secret identity or dual life?"
+  category: character-role
+  answers:
+    "yes":
+      dual-identity: +4 # Direct dual identity
+      masked: +4 # Hidden face
+      theatrical: +3 # Performance aspect
+      cunning: +3 # Deceptive skill
+      outlaw: +3 # Hidden from law
+      rebellious: +2 # Against authority
+      disguise-master: +2 # Disguise skills
+    "maybe":
+      dual-identity: +1 # Some interest
+      masked: +1 # Some concealment
+    "no":
+      honorable: +3 # Open honesty
+      proud-value: +2 # Open identity
+    dont-know: {}
+- id: teamwork-tactics
+  text: "Do you prefer fighting alongside allies with coordinated teamwork?"
+  category: combat-preference
+  answers:
+    "yes":
+      teamwork-focused: +4 # Direct teamwork
+      military: +3 # Military training
+      disciplined: +3 # Group discipline
+      supportive: +3 # Support allies
+      tactical-value: +3 # Coordinated tactics
+      loyal: +3 # Ally loyalty
+      organized: +2 # Structured approach
+      commanding: +2 # Lead groups
+    "maybe":
+      teamwork-focused: +1 # Some teamwork
+      supportive: +1 # Some support
+    "no":
+      solo-operative: +3 # Lone wolf
+      opportunistic-value: +2 # Individual advantage
+    dont-know: {}
+- id: weapon-disarm
+  text: "Do you want to specialize in disarming and controlling opponents?"
+  category: combat-style
+  answers:
+    "yes":
+      disarming: +4 # Direct disarm focus
+      controlling: +4 # Control battlefield
+      tactical-value: +3 # Strategic combat
+      precise: +3 # Targeted strikes
+      defensive-expert: +2 # Defense through control
+      martial: +2 # Skilled technique
+    "maybe":
+      disarming: +1 # Some interest
+      controlling: +1 # Some control
+    "no":
+      aggressive: +3 # Direct damage
+      berserker-rage: +2 # Overwhelming force
+    dont-know: {}
