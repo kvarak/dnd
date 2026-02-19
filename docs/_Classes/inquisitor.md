@@ -7,17 +7,17 @@ profile:
     originBackground: ["religious", "military", "haunted-past"]
   specific: ["divine-warrior", "holy-power", "lawful-value"]
   archetypes:
-    cold-iron-warder:
+    mission-of-the-cold-iron-warder:
       specific: ["demon-hunter", "divine-warrior", "protective-value", "disciplined-value"]
-    crusader:
+    mission-of-the-crusader:
       specific: ["inspirational-leader", "zealot-faith", "holy-power", "lawful-value"]
-    hierophant:
+    mission-of-the-hierophant:
       specific: ["divine-healer", "protective-value", "healing-magic", "nurturing-soul"]
-    hunter:
+    mission-of-the-hunter:
       specific: ["wilderness-tracker", "stealth-master", "survival-expert", "patient-value"]
-    infiltration:
+    mission-of-infiltration:
       specific: ["faith-infiltrator", "social-manipulator", "stealth-master", "cunning-value"]
-    witchhunter:
+    mission-of-witchhunter:
       specific: ["magic-hunter", "spell-disruptor", "disciplined-value", "protective-value"]
 ---
 
@@ -27,12 +27,12 @@ profile:
 
 ##### <a href="#internal-missions">Divine Missions</a>
 
-<a href="#internal-coldIronWarder">Mission of the Cold Iron Warder</a><br/>
-<a href="#internal-crusader">Mission of the Crusader</a><br/>
-<a href="#internal-hierophant">Mission of the Hierophant</a><br/>
-<a href="#internal-hunter">Mission of the Hunter</a><br/>
-<a href="#internal-infiltration">Mission of Infiltration</a><br/>
-<a href="#internal-witchhunter">Mission of Witchhunter</a><br/>
+<a href="#internal-missionOfTheColdIronWarder">Mission of the Cold Iron Warder</a><br/>
+<a href="#internal-missionOfTheCrusader">Mission of the Crusader</a><br/>
+<a href="#internal-missionOfTheHierophant">Mission of the Hierophant</a><br/>
+<a href="#internal-missionOfTheHunter">Mission of the Hunter</a><br/>
+<a href="#internal-missionOfInfiltration">Mission of Infiltration</a><br/>
+<a href="#internal-missionOfWitchhunter">Mission of Witchhunter</a><br/>
 
 ##### <a href="#internal-judgements">Judgements</a>
 
@@ -265,7 +265,7 @@ At 3rd level, you commit yourself to a Divine Mission. Your misson shapes the pa
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-coldIronWarder">Mission of the Cold Iron Warder</a></h1>
+<h1><a class="internal-link" name="internal-missionOfTheColdIronWarder">Mission of the Cold Iron Warder</a></h1>
 <div class="featuresTable">
 
 #### Mission Features
@@ -308,7 +308,7 @@ You have resistance to all damage from fiends.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-crusader">Mission of the Crusader</a></h1>
+<h1><a class="internal-link" name="internal-missionOfTheCrusader">Mission of the Crusader</a></h1>
 <div class="featuresTable">
 
 #### Mission Features
@@ -361,7 +361,7 @@ You can spend 4 **Piety** to simultaneously grant all allies within 30 ft the ef
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-hierophant">Mission of the Hierophant</a></h1>
+<h1><a class="internal-link" name="internal-missionOfTheHierophant">Mission of the Hierophant</a></h1>
 <div class="featuresTable">
 
 #### Mission Features
@@ -412,7 +412,7 @@ You can use your blessing's restorative power to stave off death. Whenever a cre
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-hunter">Mission of the Hunter</a></h1>
+<h1><a class="internal-link" name="internal-missionOfTheHunter">Mission of the Hunter</a></h1>
 <div class="featuresTable">
 
 #### Mission Features
@@ -463,7 +463,7 @@ When you attack a creature you can't see, your inability to see it doesn't impos
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-infiltration">Mission of Infiltration</a></h1>
+<h1><a class="internal-link" name="internal-missionOfInfiltration">Mission of Infiltration</a></h1>
 <div class="featuresTable">
 
 #### Mission Features
@@ -503,7 +503,7 @@ When you successfully down an enemy you can choose to not kill him. When you do 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-witchhunter">Mission of Witchhunter</a></h1>
+<h1><a class="internal-link" name="internal-missionOfWitchhunter">Mission of Witchhunter</a></h1>
 <div class="featuresTable">
 
 

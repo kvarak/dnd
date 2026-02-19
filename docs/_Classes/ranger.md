@@ -7,39 +7,39 @@ profile:
     originBackground: ["rural", "military", "tribal"]
   specific: ["survival-expert", "nature-guardian", "stealth-master"]
   archetypes:
-    beastMaster:
+    beast-conclave:
       specific: ["animal-companion", "nature-guardian", "loyal-guardian", "wild-spirit"]
-    burghalExplorer:
+    burghal-explorer:
       specific: ["urban-background", "explorer", "athletic-prowess", "stealth-master"]
     diabolist:
       specific: ["undead-hunter", "ghost-tracker", "death-magic", "spirit-medium"]
-    feyHunter:
+    fey-hunter:
       specific: ["fey-hunter", "enchantment-resistance", "nature-guardian", "tactical-value"]
     freerunner:
       specific: ["mobile-combatant", "athletic-prowess", "agile-fighter", "physical-prowess"]
-    gloomStalker:
+    gloom-stalker:
       specific: ["darkvision-master", "stealth-master", "ambush-predator", "shadow-affinity"]
-    herbalist:
+    herbalist-conclave:
       specific: ["potion-brewer", "healing-magic", "nature-guardian", "supportive-role"]
-    horizonWalker:
+    horizon-walker:
       specific: ["planar-guardian", "dimensional-magic", "tactical-value", "otherworldly-knowledge"]
-    hunter:
+    hunter-conclave:
       specific: ["monster-hunter", "tactical-value", "survival-expert", "weapon-specialist"]
-    monsterSlayer:
+    monster-slayer:
       specific: ["monster-hunter", "relentless-hunter", "tactical-value", "demon-hunter"]
     nightstalker:
       specific: ["shadow-magic", "stealth-master", "shadow-affinity", "summon-familiar"]
     stalker:
       specific: ["urban-background", "stealth-master", "social-manipulator", "investigator"]
-    banshee:
+    banshee-conclave:
       restriction:
         folk: ["bound spirit"]
       specific: ["undead-hunter", "death-magic", "vengeful-soul", "spirit-medium"]
-    trickster:
+    trickster-conclave:
       restriction:
         folk: ["gnome", "halfling", "kobold"]
       specific: ["trickster-magic", "illusion-specialist", "cunning-value", "small-advantage"]
-    moonstalker:
+    moonstalker-conclave:
       restriction:
         folk: ["shifter"]
       specific: ["shapeshifter", "wild-spirit", "lunar-affinity", "primal-hunter"]
@@ -48,28 +48,28 @@ profile:
 <div class="toc" markdown="1">
 
 ##### [Ranger Conclaves](#internal-conclaves)
-<a href="#internal-beastMaster">Beast Conclave</a><br/>
+<a href="#internal-beastConclave">Beast Conclave</a><br/>
 <a href="#internal-burghalExplorer">Burghal Explorer</a><br/>
 <a href="#internal-diabolist">Diabolist</a><br/>
 <a href="#internal-feyHunter">Fey Hunter</a><br/>
 <a href="#internal-freerunner">Freerunner</a><br/>
-<a href="#internal-gloomStalker">Gloomstalker</a><br/>
-<a href="#internal-herbalist">Herbalist Conclave</a><br/>
+<a href="#internal-gloomStalker">Gloom Stalker</a><br/>
+<a href="#internal-herbalistConclave">Herbalist Conclave</a><br/>
 <a href="#internal-horizonWalker">Horizon Walker</a><br/>
-<a href="#internal-hunter">Hunter Conclave</a><br/>
+<a href="#internal-hunterConclave">Hunter Conclave</a><br/>
 <a href="#internal-monsterSlayer">Monster Slayer</a><br/>
 <a href="#internal-nightstalker">Nightstalker</a><br/>
 <a href="#internal-stalker">Stalker</a>
 
 ##### Restricted Conclaves
 **Awakened (bound spirit)**<br/>
-<a href="#internal-banshee">Banshee Conclave</a>
+<a href="#internal-bansheeConclave">Banshee Conclave</a>
 
 **Gnome/Halfling/Kobold**<br/>
-<a href="#internal-trickster">Trickster Conclave</a>
+<a href="#internal-tricksterConclave">Trickster Conclave</a>
 
 **Shifter**<br/>
-<a href="#internal-moonstalker">Moonstalker Conclave</a>
+<a href="#internal-moonstalkerConclave">Moonstalker Conclave</a>
 
 </div>
 
@@ -447,7 +447,7 @@ Across the wilds, rangers come together to form conclaves - loose associations w
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-beastMaster">Beast Conclave</a></h1>
+<h1><a class="internal-link" name="internal-beastConclave">Beast Conclave</a></h1>
 <div class="featuresTable">
 
 #### Conclave Features
@@ -805,7 +805,7 @@ You can dodge in unforeseen ways, with wisps of supernatural shadow around you. 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-herbalist">Herbalist Conclave</a></h1>
+<h1><a class="internal-link" name="internal-herbalistConclave">Herbalist Conclave</a></h1>
 <div class="featuresTable">
 
 #### Conclave Features
@@ -962,7 +962,7 @@ Your ability to move between planes enables you to slip through the planar bound
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-hunter">Hunter Conclave</a></h1>
+<h1><a class="internal-link" name="internal-hunterConclave">Hunter Conclave</a></h1>
 <div class="featuresTable">
 
 #### Conclave Features
@@ -1229,7 +1229,7 @@ While a creature that you have successfully used your Penetrating Insight featur
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-banshee">Restricted to Awakened (bound spirit) characters</a></h2>
+<h2><a class="internal-link" name="internal-bansheeConclave">Restricted to Awakened (bound spirit) characters</a></h2>
 <h1>Banshee Conclave</h1>
 <div class="featuresTable">
 
@@ -1285,7 +1285,7 @@ You can use this feature a number of times equal to your Wisdom modifier, and mu
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-trickster">Restricted to Gnome & Halfling & Kobold characters</a></h2>
+<h2><a class="internal-link" name="internal-tricksterConclave">Restricted to Gnome & Halfling & Kobold characters</a></h2>
 <h1>Trickster Conclave</h1>
 <div class="featuresTable">
 
@@ -1373,7 +1373,7 @@ In addition to hindering your enemies in some way, some are also designed to har
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-moonstalker">Restricted to Shifter characters</a></h2>
+<h2><a class="internal-link" name="internal-moonstalkerConclave">Restricted to Shifter characters</a></h2>
 <h1>Moonstalker Conclave</h1>
 <div class="featuresTable">
 

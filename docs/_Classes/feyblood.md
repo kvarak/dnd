@@ -7,27 +7,27 @@ profile:
     originBackground: ["natural-prodigy", "haunted-past", "destiny-burdened"]
   specific: ["fey-touched", "versatile-magic", "chaotic-value"]
   archetypes:
-    boggart:
+    boggart-affinity:
       specific: ["trickster-magic", "social-manipulator", "cunning-value", "opportunistic-value"]
-    nereid:
+    nereid-affinity:
       generic:
         magicType: "utility"
       specific: ["water-mastery", "aquatic-heritage", "healing-magic", "intuitive-value"]
-    oread:
+    oread-affinity:
       generic:
         magicType: "none"
       specific: ["fey-warrior", "weapon-master", "natural-armor", "aggressive-value"]
-    pooka:
+    pooka-affinity:
       specific: ["wild-surges", "chaos-magic", "fate-touched", "chaotic-value"]
-    sidhe:
+    sidhe-affinity:
       generic:
         magicType: "utility"
       specific: ["noble-heritage", "inspirational-leader", "protective-value", "proud-value"]
-    sprig:
+    sprig-affinity:
       generic:
         magicType: "utility"
       specific: ["plant-mastery", "nature-guardian", "healing-magic", "patient-value"]
-    sylph:
+    sylph-affinity:
       generic:
         magicType: "control"
       specific: ["fey-beauty", "social-manipulator", "hedonistic-soul", "chaotic-value"]
@@ -38,13 +38,13 @@ profile:
 ##### <a href="#internal-class">Class Features</a>
 ##### <a href="#internal-feat">Fey Feats</a>
 ##### <a href="#internal-affinity">Fey Affinities</a>
-<a href="#internal-boggart">Boggart affinity</a><br/>
-<a href="#internal-nereid">Nereid affinity</a><br/>
-<a href="#internal-oread">Oread affinity</a><br/>
-<a href="#internal-pooka">Pooka affinity</a><br/>
-<a href="#internal-sidhe">Sidhe affinity</a><br/>
-<a href="#internal-sprig">Sprig affinity</a><br/>
-<a href="#internal-sylph">Sylph affinity</a><br/>
+<a href="#internal-boggartAffinity">Boggart affinity</a><br/>
+<a href="#internal-nereidAffinity">Nereid affinity</a><br/>
+<a href="#internal-oreadAffinity">Oread affinity</a><br/>
+<a href="#internal-pookaAffinity">Pooka affinity</a><br/>
+<a href="#internal-sidheAffinity">Sidhe affinity</a><br/>
+<a href="#internal-sprigAffinity">Sprig affinity</a><br/>
+<a href="#internal-sylphAffinity">Sylph affinity</a><br/>
 
 ##### <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a><br/>
 
@@ -413,32 +413,32 @@ Every feyblood is unique: their very natures are shaped by the magic that flows 
 
 <div class="columnsthree">
 
-- #### <a href="#internal-boggart">Boggart Affinity</a>
+- #### <a href="#internal-boggartAffinity">Boggart Affinity</a>
     Feyblood shaped by mischevieous fey, like the Boggle, Dau or Leprechaun.
 
-- #### <a href="#internal-nereid">Nereid Affinity</a>
+- #### <a href="#internal-nereidAffinity">Nereid Affinity</a>
     Shaped by fey of the waters, like the Nixie or Siren.
 
-- #### <a href="#internal-oread">Oread Affinity</a>
+- #### <a href="#internal-oreadAffinity">Oread Affinity</a>
     Feyblood with a strong connection to earth, stone and metals, like the Korred or Stone trolls.
 
-- #### <a href="#internal-pooka">Pooka Affinity</a>
+- #### <a href="#internal-pookaAffinity">Pooka Affinity</a>
     Chaotic feyblood affected by wild magic.
 
-- #### <a href="#internal-sidhe">Sidhe Affinity</a>
+- #### <a href="#internal-sidheAffinity">Sidhe Affinity</a>
     Pixie touched feyblood.
 
-- #### <a href="#internal-sprig">Sprig Affinity</a>
+- #### <a href="#internal-sprigAffinity">Sprig Affinity</a>
     Feyblood whose connection to the Feywild manifests as a closeness to nature, like a Dryad or an awakened plant.
 
-- #### <a href="#internal-sylph">Sylph Affinity</a>
+- #### <a href="#internal-sylphAffinity">Sylph Affinity</a>
     Shaped by the influence of the more hedonistic fey, like satyrs, or nymphs.
 
 </div>
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-boggart">The Boggart</a></h1>
+<h1><a class="internal-link" name="internal-boggartAffinity">The Boggart</a></h1>
 <div class="featuresTable">
 
 #### Affinity Features
@@ -605,7 +605,7 @@ Once you use this feature, you can’t use it again until you finish a long rest
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-nereid">The Nereid</a></h1>
+<h1><a class="internal-link" name="internal-nereidAffinity">The Nereid</a></h1>
 <div class="featuresTable">
 
 #### Affinity Features
@@ -715,7 +715,7 @@ You can use this feature a number of times equal to your Spark, and regain expen
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-oread">The Oread</a></h1>
+<h1><a class="internal-link" name="internal-oreadAffinity">The Oread</a></h1>
 <div class="featuresTable">
 
 #### Affinity Features
@@ -812,7 +812,7 @@ While in a Whimsy, the first creature you hit on each of your turns with your fa
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pooka">The Pooka</a></h1>
+<h1><a class="internal-link" name="internal-pookaAffinity">The Pooka</a></h1>
 <div class="featuresTable">
 
 #### Affinity Features
@@ -904,7 +904,7 @@ Wild magic comes effortlessly to you, not even using any of your magical recourc
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-sidhe">The Sidhe</a></h1>
+<h1><a class="internal-link" name="internal-sidheAffinity">The Sidhe</a></h1>
 <div class="featuresTable">
 
 #### Affinity Features
@@ -1006,7 +1006,7 @@ You further empower the recipients of your Heroic Glamour. They add half your fe
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-sprig">The Sprig</a></h1>
+<h1><a class="internal-link" name="internal-sprigAffinity">The Sprig</a></h1>
 <div class="featuresTable">
 
 #### Affinity Features
@@ -1087,7 +1087,7 @@ Your will extends to plants under your control. You gain the following benefits:
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-sylph">The Sylph</a></h1>
+<h1><a class="internal-link" name="internal-sylphAffinity">The Sylph</a></h1>
 <div class="featuresTable">
 
 #### Affinity Features

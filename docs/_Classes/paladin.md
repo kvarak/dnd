@@ -7,71 +7,71 @@ profile:
     originBackground: ["military", "religious", "noble"]
   specific: ["divine-warrior", "holy-power", "lawful-value"]
   archetypes:
-    anarchy:
+    oath-of-anarchy:
       specific: ["nature-guardian", "chaotic-value", "wild-spirit", "freedom-fighter"]
-    ancients:
+    oath-of-the-ancients:
       specific: ["nature-guardian", "fey-touched", "ancient-lore", "protective-value"]
-    balance:
+    oath-of-balance:
       specific: ["diplomatic-soul", "wisdom-seeker", "balanced-approach", "patient-value"]
-    bastion:
+    oath-of-the-bastion:
       specific: ["protective-value", "disciplined-value", "loyal-guardian", "defensive-expert"]
-    benevolence:
+    oath-of-benevolence:
       specific: ["nurturing-soul", "healing-magic", "protective-value", "compassionate-heart"]
-    conquest:
+    oath-of-conquest:
       specific: ["inspirational-leader", "tactical-value", "divine-warrior", "disciplined-value"]
-    courage:
+    oath-of-courage:
       specific: ["inspirational-leader", "fearless-heart", "protective-value", "divine-warrior"]
-    crown:
+    oath-of-the-crown:
       specific: ["loyal-guardian", "lawful-value", "noble-background", "inspirational-leader"]
-    devotion:
+    oath-of-devotion:
       specific: ["holy-power", "lawful-value", "disciplined-value", "religious-value"]
-    elderSign:
+    oath-of-the-elder-sign:
       specific: ["aberration-hunter", "protective-value", "eldritch-knowledge", "fearless-heart"]
-    freshness:
+    oath-of-freshness:
       specific: ["artistic-soul", "joyful-spirit", "social-manipulator", "charismatic-presence"]
-    grave:
+    oath-of-the-grave:
       specific: ["undead-hunter", "death-magic", "protective-value", "grim-reaper"]
-    guardian:
+    oath-of-the-guardian:
       specific: ["protective-value", "defensive-expert", "loyal-guardian", "nurturing-soul"]
-    leadership:
+    oath-of-leadership:
       specific: ["inspirational-leader", "tactical-value", "charismatic-presence", "disciplined-value"]
-    lyan:
+    oath-of-the-lyan:
       specific: ["lawful-value", "disciplined-value", "honorable-warrior", "traditional-values"]
-    martyrdom:
+    oath-of-martyrdom:
       specific: ["self-sacrifice", "protective-value", "nurturing-soul", "fearless-heart"]
-    purge:
+    oath-of-the-purge:
       specific: ["zealot-faith", "destructive-power", "lawful-value", "purifying-flame"]
-    radiance:
+    oath-of-radiance:
       specific: ["truth-seeker", "holy-power", "illuminating-light", "wisdom-seeker"]
-    redemption:
+    oath-of-redemption:
       specific: ["compassionate-heart", "healing-magic", "forgiveness-virtue", "patient-value"]
-    supremacy:
+    oath-of-supremacy:
       specific: ["proud-value", "inspirational-leader", "zealot-faith", "superior-being"]
-    tomorrow:
+    oath-of-tomorrow:
       specific: ["progressive-ideals", "modern-value", "visionary-leader", "change-agent"]
-    tradition:
+    oath-of-tradition:
       specific: ["ancient-lore", "traditional-values", "scholarly-background", "cultural-guardian"]
-    vengeance:
+    oath-of-vengeance:
       specific: ["relentless-hunter", "divine-warrior", "justice-seeker", "vengeful-soul"]
-    waves:
+    oath-of-the-waves:
       specific: ["sea-born", "nature-guardian", "elemental-affinity", "fluid-movement"]
-    blood:
+    oath-of-blood:
       restriction:
         folk: ["dhampir"]
       specific: ["vampiric-nature", "blood-magic", "dark-heritage", "cursed-blessing"]
-    festivity:
+    oath-of-festivity:
       restriction:
         folk: ["eladrin", "halfling"]
       specific: ["joyful-spirit", "artistic-soul", "social-manipulator", "festive-celebration"]
-    revenant:
+    oath-of-the-revenant:
       restriction:
         folk: ["awakened"]
       specific: ["undead-hunter", "duty-bound", "vengeful-soul", "death-magic"]
-    wingSeeker:
+    oath-of-the-wing-seeker:
       restriction:
         folk: ["kenku"]
       specific: ["flight-seeker", "ancient-curse", "freedom-fighter", "sky-longing"]
-    stonelord:
+    oath-of-the-stonelord:
       restriction:
         folk: ["dwarf"]
       specific: ["earth-affinity", "protective-value", "ancient-lore", "stone-guardian"]
@@ -84,46 +84,46 @@ profile:
 ##### <a href="#internal-channel">Channel Divinity</a>
 ##### <a href="#internal-prayer">Prayers</a>
 ##### [Sacred Oaths](#internal-oaths)
-<a href="#internal-anarchy">Oath of Anarchy</a><br/>
-<a href="#internal-ancients">Oath of the Ancients</a><br/>
-<a href="#internal-balance">Oath of Balance</a><br/>
-<a href="#internal-bastion">Oath of the Bastion</a><br/>
-<a href="#internal-benevolence">Oath of Benevolence</a><br/>
-<a href="#internal-conquest">Oath of Conquest</a><br/>
-<a href="#internal-courage">Oath of Courage</a><br/>
-<a href="#internal-crown">Oath of the Crown</a><br/>
-<a href="#internal-devotion">Oath of Devotion</a><br/>
-<a href="#internal-elderSign">Oath of the Elder Sign</a><br/>
-<a href="#internal-freshness">Oath of Freshness</a><br/>
-<a href="#internal-grave">Oath of the Grave</a><br/>
-<a href="#internal-guardian">Oath of the Guardian</a><br/>
-<a href="#internal-leadership">Oath of Leadership</a><br/>
-<a href="#internal-lyan">Oath of the Lyan</a><br/>
-<a href="#internal-martyrdom">Oath of Martyrdom</a><br/>
-<a href="#internal-purge">Oath of the Purge</a><br/>
-<a href="#internal-radiance">Oath of Radiance</a><br/>
-<a href="#internal-redemption">Oath of Redemption</a><br/>
-<a href="#internal-supremacy">Oath of Supremacy</a><br/>
-<a href="#internal-tomorrow">Oath of Tomorrow</a><br/>
-<a href="#internal-tradition">Oath of Tradition</a><br/>
-<a href="#internal-vengeance">Oath of Vengeance</a><br/>
-<a href="#internal-waves">Oath of the Waves</a><br/>
+<a href="#internal-oathOfAnarchy">Oath of Anarchy</a><br/>
+<a href="#internal-oathOfTheAncients">Oath of the Ancients</a><br/>
+<a href="#internal-oathOfBalance">Oath of Balance</a><br/>
+<a href="#internal-oathOfTheBastion">Oath of the Bastion</a><br/>
+<a href="#internal-oathOfBenevolence">Oath of Benevolence</a><br/>
+<a href="#internal-oathOfConquest">Oath of Conquest</a><br/>
+<a href="#internal-oathOfCourage">Oath of Courage</a><br/>
+<a href="#internal-oathOfTheCrown">Oath of the Crown</a><br/>
+<a href="#internal-oathOfDevotion">Oath of Devotion</a><br/>
+<a href="#internal-oathOfTheElderSign">Oath of the Elder Sign</a><br/>
+<a href="#internal-oathOfFreshness">Oath of Freshness</a><br/>
+<a href="#internal-oathOfTheGrave">Oath of the Grave</a><br/>
+<a href="#internal-oathOfTheGuardian">Oath of the Guardian</a><br/>
+<a href="#internal-oathOfLeadership">Oath of Leadership</a><br/>
+<a href="#internal-oathOfTheLyan">Oath of the Lyan</a><br/>
+<a href="#internal-oathOfMartyrdom">Oath of Martyrdom</a><br/>
+<a href="#internal-oathOfThePurge">Oath of the Purge</a><br/>
+<a href="#internal-oathOfRadiance">Oath of Radiance</a><br/>
+<a href="#internal-oathOfRedemption">Oath of Redemption</a><br/>
+<a href="#internal-oathOfSupremacy">Oath of Supremacy</a><br/>
+<a href="#internal-oathOfTomorrow">Oath of Tomorrow</a><br/>
+<a href="#internal-oathOfTradition">Oath of Tradition</a><br/>
+<a href="#internal-oathOfVengeance">Oath of Vengeance</a><br/>
+<a href="#internal-oathOfTheWaves">Oath of the Waves</a><br/>
 
 ##### Restricted Oaths
 **Dhampir**<br/>
-<a href="#internal-blood">Oath of Blood</a>
+<a href="#internal-oathOfBlood">Oath of Blood</a>
 
 **Eladrin and Halfling**<br/>
-<a href="#internal-festivity">Oath of Festivity</a>
+<a href="#internal-oathOfFestivity">Oath of Festivity</a>
 
 **Awakened**<br/>
-<a href="#internal-revenant">Oath of the Revenant</a>
+<a href="#internal-oathOfTheRevenant">Oath of the Revenant</a>
 
 **Kenku**<br/>
-<a href="#internal-wingSeeker">Oath of the Wing seeker</a><br/>
+<a href="#internal-oathOfTheWingSeeker">Oath of the Wing seeker</a><br/>
 
 **Dwarf**<br/>
-<a href="#internal-stonelord">Stonelord</a>
+<a href="#internal-oathOfTheStonelord">Oath of the Stonelord</a>
 
 </div>
 
@@ -612,19 +612,19 @@ The oaths in this group all strive to become an ideal; a clarion call in the dar
 
 <div class="columns">
 
-- **<a href="#internal-courage">Oath of Courage</a>**.  You see it as your duty to give people around you the hope, the confidence, and the tools to fight alongside you. A beacon in the darkness capable of bolstering those who are frightened, and the voice of a leader.
+- **<a href="#internal-oathOfCourage">Oath of Courage</a>**.  You see it as your duty to give people around you the hope, the confidence, and the tools to fight alongside you. A beacon in the darkness capable of bolstering those who are frightened, and the voice of a leader.
 
-- **<a href="#internal-benevolence">Oath of Benevolence</a>**.  Find comfort in hope and purpose in love, acting as friends to all living things: outcast, royal, beast, and mortal alike.
+- **<a href="#internal-oathOfBenevolence">Oath of Benevolence</a>**.  Find comfort in hope and purpose in love, acting as friends to all living things: outcast, royal, beast, and mortal alike.
 
-- **<a href="#internal-devotion">Oath of Devotion</a>.**  This oath binds a paladin to the highest standards of conduct, following the loftiest ideals of justice, virtue, and order. Some, for better or worse, also hold the rest of the world to the same standards.
+- **<a href="#internal-oathOfDevotion">Oath of Devotion</a>.**  This oath binds a paladin to the highest standards of conduct, following the loftiest ideals of justice, virtue, and order. Some, for better or worse, also hold the rest of the world to the same standards.
 
-- **<a href="#internal-guardian">Oath of the Guardian</a>.**  You have sworn to defend of those who cannot defend themselves.
+- **<a href="#internal-oathOfTheGuardian">Oath of the Guardian</a>.**  You have sworn to defend of those who cannot defend themselves.
 
-- **<a href="#internal-leadership">Oath of Leadership</a>.**  This oath calls to paladins who seek to be the first one to raise their weapon in the face of danger and destruction.
+- **<a href="#internal-oathOfLeadership">Oath of Leadership</a>.**  This oath calls to paladins who seek to be the first one to raise their weapon in the face of danger and destruction.
 
-- **<a href="#internal-martyrdom">Oath of Martyrdom</a>.**  The most selfless of oaths. A paladin who dedicates his life in taking the suffering from others.
+- **<a href="#internal-oathOfMartyrdom">Oath of Martyrdom</a>.**  The most selfless of oaths. A paladin who dedicates his life in taking the suffering from others.
 
-- **<a href="#internal-redemption">Oath of Redemption</a>.**  These paladins believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk.
+- **<a href="#internal-oathOfRedemption">Oath of Redemption</a>.**  These paladins believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk.
 
 </div>
 
@@ -635,11 +635,11 @@ They focus on promoting the freedom of individuals, and encourage the chaos of t
 
 <div class="columns">
 
-- **<a href="#internal-anarchy">Oath of Anarchy</a>.** These paladins believe in the liberty of chaos; rules and authority are dangerous things. They dislike conquest of the wilderness, preferring that people live with nature, not against it.
+- **<a href="#internal-oathOfAnarchy">Oath of Anarchy</a>.** These paladins believe in the liberty of chaos; rules and authority are dangerous things. They dislike conquest of the wilderness, preferring that people live with nature, not against it.
 
-- **<a href="#internal-ancients">Oath of the Ancients</a>.** Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath have a close connection to the fey and nature.
+- **<a href="#internal-oathOfTheAncients">Oath of the Ancients</a>.** Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath have a close connection to the fey and nature.
 
-- **<a href="#internal-waves">Oath of the Waves</a>.**  Paladins who follow gods of the ocean or who are born among marine races often follow this oath.
+- **<a href="#internal-oathOfTheWaves">Oath of the Waves</a>.**  Paladins who follow gods of the ocean or who are born among marine races often follow this oath.
 
 </div>
 
@@ -648,17 +648,17 @@ Just as the more common paladins, followers of these oaths are sworn to an ideal
 
 <div class="columns">
 
-- **<a href="#internal-balance">Oath of Balance</a>.**  These paladins choose to step back from the conflict between good, evil, law, and chaos, believing alliance with any extreme only blinds one to the truths of the universe.
+- **<a href="#internal-oathOfBalance">Oath of Balance</a>.**  These paladins choose to step back from the conflict between good, evil, law, and chaos, believing alliance with any extreme only blinds one to the truths of the universe.
 
-- **<a href="#internal-freshness">Oath of Freshness</a>**.  These paladins have sworn their oaths to deities of music and beauty, emphasizing that people should be happy and not take life too seriously.
+- **<a href="#internal-oathOfFreshness">Oath of Freshness</a>**.  These paladins have sworn their oaths to deities of music and beauty, emphasizing that people should be happy and not take life too seriously.
 
-- **<a href="#internal-lyan">Oath of the Lyan</a>.**  Sworn to uphold lawfulness in all senses and believe in the value of deference, honor, and trustworthiness, with little interest in matters of good and evil.
+- **<a href="#internal-oathOfTheLyan">Oath of the Lyan</a>.**  Sworn to uphold lawfulness in all senses and believe in the value of deference, honor, and trustworthiness, with little interest in matters of good and evil.
 
-- **<a href="#internal-radiance">Oath of Radiance</a>.**  Paladins who focus on the concept of truth.
+- **<a href="#internal-oathOfRadiance">Oath of Radiance</a>.**  Paladins who focus on the concept of truth.
 
-- **<a href="#internal-tomorrow">Oath of Tomorrow</a>.**  Those who swear the oath of tomorrow believe in the virtue of progress and strive to push the world forward, opposing reactionaries who would stand against such.
+- **<a href="#internal-oathOfTomorrow">Oath of Tomorrow</a>.**  Those who swear the oath of tomorrow believe in the virtue of progress and strive to push the world forward, opposing reactionaries who would stand against such.
 
-- **<a href="#internal-tradition">Oath of Tradition</a>.**  Those who swear this oath recognize the value of history, of lore, of the past, and are protectors of traditional institutions as well as keepers of those stories that would otherwise be forgotten.
+- **<a href="#internal-oathOfTradition">Oath of Tradition</a>.**  Those who swear this oath recognize the value of history, of lore, of the past, and are protectors of traditional institutions as well as keepers of those stories that would otherwise be forgotten.
 
 </div>
 
@@ -667,9 +667,9 @@ Most paladins serve some kind of ideal or idea, but the following serve a specif
 
 <div class="columns">
 
-- **<a href="#internal-bastion">Oath of the Bastion</a>.**  Swearing to defend their charge at any cost, these paladins make it their duty to protect a sacred location, a holy relic, or a group of people.
+- **<a href="#internal-oathOfTheBastion">Oath of the Bastion</a>.**  Swearing to defend their charge at any cost, these paladins make it their duty to protect a sacred location, a holy relic, or a group of people.
 
-- **<a href="#internal-crown">Oath of the Crown</a>.**  Sworn to the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership.
+- **<a href="#internal-oathOfTheCrown">Oath of the Crown</a>.**  Sworn to the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership.
 
 </div>
 
@@ -678,9 +678,9 @@ Some oaths have been sworn in the defense of the world against a specific threat
 
 <div class="columns">
 
-- **<a href="#internal-elderSign">Oath of the Elder Sign</a>.**  Sworn to defend this reality from the horrors of the Far realm.
+- **<a href="#internal-oathOfTheElderSign">Oath of the Elder Sign</a>.**  Sworn to defend this reality from the horrors of the Far realm.
 
-- **<a href="#internal-grave">Oath of the Grave</a>.**  A guardian of the dead, sworn to defend their right to eternal rest and to return the undead to their graves.
+- **<a href="#internal-oathOfTheGrave">Oath of the Grave</a>.**  A guardian of the dead, sworn to defend their right to eternal rest and to return the undead to their graves.
 
 </div>
 
@@ -689,13 +689,13 @@ The paladins in this group often do not not notice when they have crossed the li
 
 <div class="columns">
 
-- **<a href="#internal-conquest">Oath of Conquest</a>.**  These paladins who seek glory in battle and the subjugation of their enemies, seeing that as more important that why they are doing it.
+- **<a href="#internal-oathOfConquest">Oath of Conquest</a>.**  These paladins who seek glory in battle and the subjugation of their enemies, seeing that as more important that why they are doing it.
 
-- **<a href="#internal-purge">Oath of the Purge</a>.**  Dictates that impurity must be cleansed by fire and annihilated completely.
+- **<a href="#internal-oathOfThePurge">Oath of the Purge</a>.**  Dictates that impurity must be cleansed by fire and annihilated completely.
 
-- **<a href="#internal-supremacy">Oath of Supremacy</a>.**  Paladins who proclaim the moral supremacy of any single cause, such as their faith, ideal, leader, movement, order, race, or sect.
+- **<a href="#internal-oathOfSupremacy">Oath of Supremacy</a>.**  Paladins who proclaim the moral supremacy of any single cause, such as their faith, ideal, leader, movement, order, race, or sect.
 
-- **<a href="#internal-vengeance">Oath of Vengeance</a>.**  A solemn commitment to punish those who have committed a grievous sin.
+- **<a href="#internal-oathOfVengeance">Oath of Vengeance</a>.**  A solemn commitment to punish those who have committed a grievous sin.
 
 </div>
 
@@ -707,28 +707,28 @@ In the second case, the oath wold not be available if you grew up completely out
 <div class="columns">
 
 - #### Awakened
-    **<a href="#internal-revenant">Oath of the Revenant</a>** *(Awakened only)*. This oath is one that is  not necessarily chosen voluntarily. Paladins sworn to this oath live only to complete a definite goal given to them by their creators, and once it is complete their soul can finally return to the afterlife.
+    **<a href="#internal-oathOfTheRevenant">Oath of the Revenant</a>** *(Awakened only)*. This oath is one that is  not necessarily chosen voluntarily. Paladins sworn to this oath live only to complete a definite goal given to them by their creators, and once it is complete their soul can finally return to the afterlife.
 
 - #### Dhampir
-    **<a href="#internal-blood">Oath of Blood</a>** *(Dhampir only)*. You are more Vampire than Dhampir. Rather than falling to it, you called upon the divine nature of a paladin’s oath to keep your curse at bay, and swore to use your dark nature in the service of a cause.
+    **<a href="#internal-oathOfBlood">Oath of Blood</a>** *(Dhampir only)*. You are more Vampire than Dhampir. Rather than falling to it, you called upon the divine nature of a paladin’s oath to keep your curse at bay, and swore to use your dark nature in the service of a cause.
 
 - #### Dwarf
-    **<a href="#internal-stonelord">Stonelord</a>** *(Dwarf only)*. A stonelord is a devoted sentinel of dwarven enclaves, who has strengthened their connection to the ground, drawing power from the earth and ancient stone to protect their people.
+    **<a href="#internal-oathOfTheStonelord">Oath of the Stonelord</a>** *(Dwarf only)*. A stonelord is a devoted sentinel of dwarven enclaves, who has strengthened their connection to the ground, drawing power from the earth and ancient stone to protect their people.
 
 - #### Eladrin
-    **<a href="#internal-festivity">Oath of Festivity</a>**. This oath appeals to eladrin paladins with an unquenchable zest for life and the need to spread it to others. When times are darkest and gloom casts a shadow over the people, these paladins are there to bring joy back into the lives of their comrades and allies.
+    **<a href="#internal-oathOfFestivity">Oath of Festivity</a>**. This oath appeals to eladrin paladins with an unquenchable zest for life and the need to spread it to others. When times are darkest and gloom casts a shadow over the people, these paladins are there to bring joy back into the lives of their comrades and allies.
 
 - #### Halfling
-    **<a href="#internal-festivity">Oath of Festivity</a>**. This oath appeals to halfling paladins with an unquenchable zest for life and the need to spread it to others. When times are darkest and gloom casts a shadow over the people, these paladins are there to bring joy back into the lives of their comrades and allies.
+    **<a href="#internal-oathOfFestivity">Oath of Festivity</a>**. This oath appeals to halfling paladins with an unquenchable zest for life and the need to spread it to others. When times are darkest and gloom casts a shadow over the people, these paladins are there to bring joy back into the lives of their comrades and allies.
 
 - #### Kenku
-    **<a href="#internal-wingSeeker">Oath of the Wing seeker</a>** *(Kenku only)*. This oath focuses on the quest to end the plight that has plagued their race, and these paladins will follow any god or mission if it gets them closer to unravel the mysteries of their own past and to break the curse that looms over them.
+    **<a href="#internal-oathOfTheWingSeeker">Oath of the Wing seeker</a>** *(Kenku only)*. This oath focuses on the quest to end the plight that has plagued their race, and these paladins will follow any god or mission if it gets them closer to unravel the mysteries of their own past and to break the curse that looms over them.
 
 </div>
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-anarchy">Oath of Anarchy</a></h1>
+<h1><a class="internal-link" name="internal-oathOfAnarchy">Oath of Anarchy</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -908,7 +908,7 @@ You can also move through other creatures and objects, but take 1d10 force damag
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ancients">Oath of the Ancients</a></h1>
+<h1><a class="internal-link" name="internal-oathOfTheAncients">Oath of the Ancients</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1025,7 +1025,7 @@ By using your ***action*** and spending 5 Devotion, you undergo a transformation
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-balance">Oath of Balance</a></h1>
+<h1><a class="internal-link" name="internal-oathOfBalance">Oath of Balance</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1139,7 +1139,7 @@ You can use an ***action*** and spend 5 Devotion to enforce your will for dispas
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-bastion">Oath of the Bastion</a></h1>
+<h1><a class="internal-link" name="internal-oathOfTheBastion">Oath of the Bastion</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1235,7 +1235,7 @@ You can use an ***action*** and spend 5 Devotion to suffuse your form with divin
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-benevolence">Oath of Benevolence</a></h1>
+<h1><a class="internal-link" name="internal-oathOfBenevolence">Oath of Benevolence</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1332,7 +1332,7 @@ Alternatively, you can cast the *heroes' feast* spell once without requiring a s
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-conquest">Oath of Conquest</a></h1>
+<h1><a class="internal-link" name="internal-oathOfConquest">Oath of Conquest</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1438,7 +1438,7 @@ You can use an ***action*** and spend 5 Devotion to harness your extraordinary m
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-courage">Oath of Courage</a></h1>
+<h1><a class="internal-link" name="internal-oathOfCourage">Oath of Courage</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1516,7 +1516,7 @@ You can use an ***action*** and spend 5 Devotion to assume the form of a holy av
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-crown">Oath of the Crown</a></h1>
+<h1><a class="internal-link" name="internal-oathOfTheCrown">Oath of the Crown</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1588,7 +1588,7 @@ You can use an ***action*** and spend 5 Devotion to make your presence on the fi
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-devotion">Oath of Devotion</a></h1>
+<h1><a class="internal-link" name="internal-oathOfDevotion">Oath of Devotion</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1671,7 +1671,7 @@ You can use an ***action*** and spend 5 Devotion to emanate an aura of sunlight.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-elderSign">Oath of the Elder Sign</a></h1>
+<h1><a class="internal-link" name="internal-oathOfTheElderSign">Oath of the Elder Sign</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1786,7 +1786,7 @@ If the portal leads from the Far Realm, creatures adjacent to it are restrained 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-freshness">Oath of Freshness</a></h1>
+<h1><a class="internal-link" name="internal-oathOfFreshness">Oath of Freshness</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1891,7 +1891,7 @@ You can use an ***action*** and spend 5 Devotion to begin singing a truly heaven
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-grave">Oath of the Grave</a></h1>
+<h1><a class="internal-link" name="internal-oathOfTheGrave">Oath of the Grave</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -1992,7 +1992,7 @@ You can use an ***action*** and spend 5 Devotion to surround yourself with a dea
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-guardian">Oath of the Guardian</a></h1>
+<h1><a class="internal-link" name="internal-oathOfTheGuardian">Oath of the Guardian</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -2075,7 +2075,7 @@ You can use an ***action*** and spend 5 Devotion to become impenetrable bulwark 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-leadership">Oath of Leadership</a></h1>
+<h1><a class="internal-link" name="internal-oathOfLeadership">Oath of Leadership</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -2154,7 +2154,7 @@ You can use an ***action*** and spend 5 Devotion to turn into a divine symbol of
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-lyan">Oath of the Lyan</a></h1>
+<h1><a class="internal-link" name="internal-oathOfTheLyan">Oath of the Lyan</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -2280,7 +2280,7 @@ You can use an ***action*** and spend 5 Devotion to become an inspiring avatar o
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-martyrdom">Oath of Martyrdom</a></h1>
+<h1><a class="internal-link" name="internal-oathOfMartyrdom">Oath of Martyrdom</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -2383,7 +2383,7 @@ You can use an ***action*** and spend 5 Devotion to enter a state where pain and
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-purge">Oath of the Purge</a></h1>
+<h1><a class="internal-link" name="internal-oathOfThePurge">Oath of the Purge</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -2476,7 +2476,7 @@ You can use an ***action*** and spend 5 Devotion to wreath yourself in flames. F
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-radiance">Oath of Radiance</a></h1>
+<h1><a class="internal-link" name="internal-oathOfRadiance">Oath of Radiance</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -2566,7 +2566,7 @@ You can use an ***action*** and spend 5 Devotion to assume the form of a dazzlin
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-redemption">Oath of Redemption</a></h1>
+<h1><a class="internal-link" name="internal-oathOfRedemption">Oath of Redemption</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -2652,7 +2652,7 @@ If you attack a creature, target it with a spell or effect, or deal damage to it
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-supremacy">Oath of Supremacy</a></h1>
+<h1><a class="internal-link" name="internal-oathOfSupremacy">Oath of Supremacy</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -2737,7 +2737,7 @@ For 1 minute, you gain the following benefits:
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-tomorrow">Oath of Tomorrow</a></h1>
+<h1><a class="internal-link" name="internal-oathOfTomorrow">Oath of Tomorrow</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -2863,7 +2863,7 @@ You can use an ***action*** and spend 5 Devotion to manifest your advocacy for p
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-tradition">Oath of Tradition</a></h1>
+<h1><a class="internal-link" name="internal-oathOfTradition">Oath of Tradition</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -2992,7 +2992,7 @@ You can use an ***action*** and spend 5 Devotion to channel the legacy of histor
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-vengeance">Oath of Vengeance</a></h1>
+<h1><a class="internal-link" name="internal-oathOfVengeance">Oath of Vengeance</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -3090,7 +3090,7 @@ You can use an ***action*** and spend 5 Devotion to assume the form of an angeli
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-waves">Oath of the Waves</a></h1>
+<h1><a class="internal-link" name="internal-oathOfTheWaves">Oath of the Waves</a></h1>
 <div class="featuresTable">
 
 #### Oath Features
@@ -3187,7 +3187,7 @@ For 1 minute, you gain the following benefits:
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-blood">Restricted to Dhampir characters</a></h2>
+<h2><a class="internal-link" name="internal-oathOfBlood">Restricted to Dhampir characters</a></h2>
 <h1>Oath of Blood</h1>
 <div class="featuresTable">
 
@@ -3302,7 +3302,7 @@ You can use an ***action*** and spend 5 Devotion to undergo a transformation. Fo
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-festivity">Restricted to Eladrin or Halfling culture</a></h2>
+<h2><a class="internal-link" name="internal-oathOfFestivity">Restricted to Eladrin or Halfling culture</a></h2>
 <h1>Oath of Festivity</h1>
 <div class="featuresTable">
 
@@ -3399,7 +3399,7 @@ You can use an ***action*** and spend 5 Devotion to transform into a brilliant s
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-revenant">Restricted to Awakened characters</a></h2>
+<h2><a class="internal-link" name="internal-oathOfTheRevenant">Restricted to Awakened characters</a></h2>
 <h1>Oath of the Revenant</h1>
 <div class="featuresTable">
 
@@ -3478,7 +3478,7 @@ You can use an ***action*** and spend 5 Devotion to channel the aspect of the un
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-stonelord">Restricted to Dwarven characters</a></h2>
+<h2><a class="internal-link" name="internal-oathOfTheStonelord">Restricted to Dwarven characters</a></h2>
 <h1>Oath of the Stonelord</h1>
 <div class="featuresTable">
 
@@ -3572,7 +3572,7 @@ You can use an ***action*** and spend 5 Devotion to turn into living stone. For 
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-wingSeeker">Restricted to Kenku characters</a></h2>
+<h2><a class="internal-link" name="internal-oathOfTheWingSeeker">Restricted to Kenku characters</a></h2>
 <h1>Oath of the Wing Seeker</h1>
 <div class="featuresTable">
 

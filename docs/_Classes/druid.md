@@ -7,31 +7,31 @@ profile:
     originBackground: ["rural", "tribal", "natural-prodigy"]
   specific: ["nature-guardian", "healing-magic", "survival-expert"]
   archetypes:
-    blood:
+    circle-of-blood:
       specific: ["shape-mastery", "dual-nature", "adaptable-fighter", "pragmatic-fighter"]
-    dreams:
+    circle-of-dreams:
       specific: ["fey-touched", "healing-magic", "utility-magic", "intuitive-value"]
-    dust:
+    circle-of-dust:
       specific: ["post-apocalypse", "survival-expert", "gritty-value", "protective-value"]
-    forest:
+    circle-of-the-forest:
       specific: ["ancient-knowledge", "ritual-caster", "scholar-warrior", "patient-value"]
-    garden:
+    circle-of-the-garden:
       specific: ["plant-mastery", "healing-magic", "protective-value", "nurturing-soul"]
-    land:
+    circle-of-the-land:
       specific: ["terrain-bond", "utility-magic", "survival-expert", "tactical-value"]
-    moon:
+    circle-of-the-moon:
       specific: ["shape-mastery", "natural-armor", "instinctive-combatant", "wild-spirit"]
-    sands:
+    circle-of-the-sands:
       specific: ["desert-survival", "endurance-specialist", "gritty-value", "patient-value"]
-    shepherd:
+    circle-of-the-shepherd:
       specific: ["beast-friend", "protective-value", "inspirational-leader", "nurturing-soul"]
-    spores:
+    circle-of-spores:
       specific: ["decay-mastery", "necromancy-dabbler", "patient-value", "pragmatic-fighter"]
-    storms:
+    circle-of-storms:
       specific: ["storm-caller", "damage-magic", "ranged-expert", "chaotic-value"]
-    swarm:
+    circle-of-the-swarm:
       specific: ["swarm-tactics", "tactical-value", "mobile-combatant", "opportunistic-value"]
-    ancients:
+    circle-of-the-ancients:
       restriction:
         folk: "lizardfolk"
       specific: ["ancestral-memory", "draconic-heritage", "natural-armor", "proud-value"]
@@ -40,22 +40,22 @@ profile:
 <div class="toc" markdown="1">
 
 ##### [Druid Circles](#internal-druid-circles)
-<a href="#internal-blood">Circle of Blood</a><br/>
-<a href="#internal-dreams">Circle of Dreams</a><br/>
-<a href="#internal-dust">Circle of Dust</a><br/>
-<a href="#internal-forest">Circle of the Forest</a><br/>
-<a href="#internal-garden">Circle of the Garden</a><br/>
-<a href="#internal-land">Circle of the Land</a><br/>
-<a href="#internal-moon">Circle of the Moon</a><br/>
-<a href="#internal-sands">Circle of Sands</a><br/>
-<a href="#internal-shepherd">Circle of the Shepherd</a><br/>
-<a href="#internal-spores">Circle of Spores</a><br/>
-<a href="#internal-storms">Circle of Storms</a><br/>
-<a href="#internal-swarm">Circle of the Swarm</a><br/>
+<a href="#internal-circleOfBlood">Circle of Blood</a><br/>
+<a href="#internal-circleOfDreams">Circle of Dreams</a><br/>
+<a href="#internal-circleOfDust">Circle of Dust</a><br/>
+<a href="#internal-circleOfTheForest">Circle of the Forest</a><br/>
+<a href="#internal-circleOfTheGarden">Circle of the Garden</a><br/>
+<a href="#internal-circleOfTheLand">Circle of the Land</a><br/>
+<a href="#internal-circleOfTheMoon">Circle of the Moon</a><br/>
+<a href="#internal-circleOfTheSands">Circle of the Sands</a><br/>
+<a href="#internal-circleOfTheShepherd">Circle of the Shepherd</a><br/>
+<a href="#internal-circleOfSpores">Circle of Spores</a><br/>
+<a href="#internal-circleOfStorms">Circle of Storms</a><br/>
+<a href="#internal-circleOfTheSwarm">Circle of the Swarm</a><br/>
 
 ##### Restricted Paths
 **Lizardfolk**<br/>
-<a href="#internal-ancients">Circle of the Ancients</a>
+<a href="#internal-circleOfTheAncients">Circle of the Ancients</a>
 
 </div>
 
@@ -255,34 +255,34 @@ Though their organization is invisible to most outsiders, druids are part of a s
 
 <div class="columnsthree">
 
-- **<a href="#internal-blood">Circle of Blood</a>** Druids that can wildshape parts of their body, even to several animals at once.
+- **<a href="#internal-circleOfBlood">Circle of Blood</a>** Druids that can wildshape parts of their body, even to several animals at once.
 
-- **<a href="#internal-dreams">Circle of Dreams</a>** Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms.
+- **<a href="#internal-circleOfDreams">Circle of Dreams</a>** Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms.
 
-- **<a href="#internal-dust">Circle of Dust</a>** A druid safeguarding nature in an area where widespread, catastrophic or near-catastrophic ruin is pervasive.
+- **<a href="#internal-circleOfDust">Circle of Dust</a>** A druid safeguarding nature in an area where widespread, catastrophic or near-catastrophic ruin is pervasive.
 
-- **<a href="#internal-forest">Circle of the Forest</a>** Druids that delve deeper into the ancient rituals and hidden knowledge of plant magic.
+- **<a href="#internal-circleOfTheForest">Circle of the Forest</a>** Druids that delve deeper into the ancient rituals and hidden knowledge of plant magic.
 
-- **<a href="#internal-garden">Circle of the Garden</a>** These druids have a deep respect for plants and the gifts they provide.
+- **<a href="#internal-circleOfTheGarden">Circle of the Garden</a>** These druids have a deep respect for plants and the gifts they provide.
 
-- **<a href="#internal-land">Circle of the Land</a>** A druid whose magic has been affected by the land he protects.
+- **<a href="#internal-circleOfTheLand">Circle of the Land</a>** A druid whose magic has been affected by the land he protects.
 
-- **<a href="#internal-moon">Circle of the Moon</a>** Druids who masters wild shape.
+- **<a href="#internal-circleOfTheMoon">Circle of the Moon</a>** Druids who masters wild shape.
 
-- **<a href="#internal-sands">Circle of Sands</a>** Druids of the Circle of the Sands finds the toughest life in one of the harshest place of the world — the deserts.
+- **<a href="#internal-circleOfSands">Circle of Sands</a>** Druids of the Circle of the Sands finds the toughest life in one of the harshest place of the world — the deserts.
 
-- **<a href="#internal-shepherd">Circle of the Shepherd</a>** Druids of the Circle of the Shepherd recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves.
+- **<a href="#internal-circleOfTheShepherd">Circle of the Shepherd</a>** Druids of the Circle of the Shepherd recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves.
 
-- **<a href="#internal-spores">Circle of Spores</a>** Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the  ability to transform lifeless material into abundant life.
+- **<a href="#internal-circleOfSpores">Circle of Spores</a>** Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the  ability to transform lifeless material into abundant life.
 
-- **<a href="#internal-storms">Circle of Storms</a>** Guardians and warriors who wield the power of lightning and thunder to destroy their enemies from above.
+- **<a href="#internal-circleOfStorms">Circle of Storms</a>** Guardians and warriors who wield the power of lightning and thunder to destroy their enemies from above.
 
-- **<a href="#internal-swarm">Circle of the Swarm</a>** Druids of the Circle of the Swarm have found strength in numbers above all else.
+- **<a href="#internal-circleOfTheSwarm">Circle of the Swarm</a>** Druids of the Circle of the Swarm have found strength in numbers above all else.
 
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-blood">Circle of Blood</a></h1>
+<h1><a class="internal-link" name="internal-circleOfBlood">Circle of Blood</a></h1>
 <div class="featuresTable">
 
 #### Circle of Blood Features
@@ -412,7 +412,7 @@ When you use your action to cast a druid spell, you can make one unarmed or weap
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-dreams">The Circle of Dreams</a></h1>
+<h1><a class="internal-link" name="internal-circleOfDreams">The Circle of Dreams</a></h1>
 <div class="featuresTable">
 
 #### Circle of Dreams Features
@@ -476,7 +476,7 @@ When you cast *teleportation circle* from this feature or from casting it with a
 Once you use this feature, you may regain its use after you finish a long rest.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-dust">The Circle of Dust</a></h1>
+<h1><a class="internal-link" name="internal-circleOfDust">The Circle of Dust</a></h1>
 <div class="featuresTable">
 
 #### Circle of Dust Features
@@ -541,7 +541,7 @@ You may use wrack or repeal once upon reaching 14th level, gaining an additional
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-forest">Circle of the Forest</a></h1>
+<h1><a class="internal-link" name="internal-circleOfTheForest">Circle of the Forest</a></h1>
 <div class="featuresTable">
 
 #### Circle Features
@@ -692,7 +692,7 @@ Any creature grappled or restrained by you or an awakened plant (by a grapple or
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-garden">Circle of the Garden</a></h1>
+<h1><a class="internal-link" name="internal-circleOfTheGarden">Circle of the Garden</a></h1>
 <div class="featuresTable">
 
 #### Circle Features
@@ -768,7 +768,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-land">Circle of the Land</a></h1>
+<h1><a class="internal-link" name="internal-circleOfTheLand">Circle of the Land</a></h1>
 <div class="featuresTable">
 
 #### Circle of Land Features
@@ -826,7 +826,7 @@ The creature is aware of this effect before it makes its attack against you.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-moon">Circle of the Moon</a></h1>
+<h1><a class="internal-link" name="internal-circleOfTheMoon">Circle of the Moon</a></h1>
 <div class="featuresTable">
 
 #### Circle of the Moon Features
@@ -868,7 +868,7 @@ You have learned to use magic to alter your physical form in more subtle ways. Y
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-sands">Circle of the Sands</a></h1>
+<h1><a class="internal-link" name="internal-circleOfTheSands">Circle of the Sands</a></h1>
 <div class="featuresTable">
 
 #### Circle of the Sands Features
@@ -882,7 +882,7 @@ You have learned to use magic to alter your physical form in more subtle ways. Y
 
 </div>
 
-Druids of the Circle of the Sands finds the toughest life in one of the harshest place of the world — the deserts. Fascinated at how life finds a way to survive and thrive in the barren lands, the druid contemplates the tenacity of life, bathing in the scorching sun and roaring sandstorms. Like the shifting sands and winds of the desert, most druids of Circle of Sands prefer nomadic lifestyle over settling into a fixed location. However, some druids of Circle of the Sands stay within a settlement as caretakers and protectors.
+Druids of the Circle of the Sands finds the toughest life in one of the harshest place of the world — the deserts. Fascinated at how life finds a way to survive and thrive in the barren lands, the druid contemplates the tenacity of life, bathing in the scorching sun and roaring sandstorms. Like the shifting sands and winds of the desert, most druids of Circle of the Sands prefer nomadic lifestyle over settling into a fixed location. However, some druids of Circle of the Sands stay within a settlement as caretakers and protectors.
 
 ### Circle Spells
 Your mystical connection to the desert grants you ability to cast certain spells. When you choose this circle at 1st level, you learn the *air mastery* cantrip in addition to your other cantrips.
@@ -916,7 +916,7 @@ Additionally, while you are surrounded by the wind from your Shifting Sands, you
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-shepherd">Circle of the Shepherd</a></h1>
+<h1><a class="internal-link" name="internal-circleOfTheShepherd">Circle of the Shepherd</a></h1>
 <div class="featuresTable">
 
 #### Circle of the Shepherd Features
@@ -990,7 +990,7 @@ The spell lasts for 1 hour, requiring no concentration, or until you dismiss it.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-spores">Circle of Spores</a></h1>
+<h1><a class="internal-link" name="internal-circleOfSpores">Circle of Spores</a></h1>
 <div class="featuresTable">
 
 #### Circle of Spores Features
@@ -1099,7 +1099,7 @@ Storm Elemental
 </td></tr></tbody></table>
 </div>
 
-<h1><a class="internal-link" name="internal-storms">Circle of Storms</a></h1>
+<h1><a class="internal-link" name="internal-circleOfStorms">Circle of Storms</a></h1>
 <div class="featuresTable">
 
 #### Circle of the Storms Features
@@ -1134,7 +1134,7 @@ You can expend two uses of Wild Shape to become a storm elemental.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-swarm">Circle of the Swarm</a></h1>
+<h1><a class="internal-link" name="internal-circleOfTheSwarm">Circle of the Swarm</a></h1>
 <div class="featuresTable">
 
 #### Circle of the Swarm Features
@@ -1219,7 +1219,7 @@ You have learned how to call upon the power of a plague to consume your foes. Th
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-ancients">Restricted to Lizardfolk characters</a></h2>
+<h2><a class="internal-link" name="internal-circleOfTheAncients">Restricted to Lizardfolk characters</a></h2>
 <h1>Circle of the Ancients</h1>
 <div class="featuresTable">
 

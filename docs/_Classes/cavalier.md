@@ -9,42 +9,34 @@ profile:
   archetypes:
     knightErrant:
       generic:
-        magicType: "none"
         originBackground: ["military", "rural"]
       specific: ["survival-expert", "opportunistic-value", "wanderer-spirit", "pragmatic-fighter"]
-    blueRose:
+    order-of-the-blueRose:
       generic:
-        magicType: "none"
         originBackground: ["noble", "scholarly"]
       specific: ["social-manipulator", "protective-value", "lawful-value", "diplomatic-negotiator"]
-    dragon:
+    order-of-the-dragon:
       generic:
-        magicType: "none"
         originBackground: ["military", "noble"]
       specific: ["inspirational-leader", "military-background", "tactical-value", "group-coordinator"]
-    flame:
+    order-of-the-flame:
       generic:
-        magicType: "none"
         originBackground: ["noble", "military"]
       specific: ["proud-value", "reckless-value", "glory-seeker", "charismatic-presence"]
-    lion:
+    order-of-the-lion:
       generic:
-        magicType: "none"
         originBackground: ["noble", "military"]
       specific: ["noble-background", "loyal-servant", "disciplined-value", "protective-value"]
-    scales:
+    order-of-the-scales:
       generic:
-        magicType: "none"
         originBackground: ["noble", "scholarly"]
       specific: ["lawful-value", "truth-seeker", "oath-keeper", "disciplined-value"]
-    shield:
+    order-of-the-shield:
       generic:
-        magicType: "none"
         originBackground: ["military", "rural"]
       specific: ["protective-value", "shield-specialist", "defensive-expert", "selfless-guardian"]
-    star:
+    order-of-the-star:
       generic:
-        magicType: "none"
         originBackground: ["noble", "scholarly"]
       specific: ["religious-value", "divine-warrior", "holy-power", "faith-defender"]
 ---
@@ -53,13 +45,13 @@ profile:
 
 ##### <a href="#internal-orders">Cavalier Orders</a>
 <a href="#internal-knightErrant">Knight Errant</a><br/>
-<a href="#internal-blueRose">Order of the Blue Rose</a><br/>
-<a href="#internal-dragon">Order of the Dragon</a><br/>
-<a href="#internal-flame">Order of the Flame</a><br/>
-<a href="#internal-lion">Order of the Lion</a><br/>
-<a href="#internal-scales">Order of the Scales</a><br/>
-<a href="#internal-shield">Order of the Shield</a><br/>
-<a href="#internal-star">Order of the Star</a><br/>
+<a href="#internal-orderOfTheBlueRose">Order of the Blue Rose</a><br/>
+<a href="#internal-orderOfTheDragon">Order of the Dragon</a><br/>
+<a href="#internal-orderOfTheFlame">Order of the Flame</a><br/>
+<a href="#internal-orderOfTheLion">Order of the Lion</a><br/>
+<a href="#internal-orderOfTheScales">Order of the Scales</a><br/>
+<a href="#internal-orderOfTheShield">Order of the Shield</a><br/>
+<a href="#internal-orderOfTheStar">Order of the Star</a><br/>
 
 #### <a href="#internal-maneuvers">Maneuvers</a>
 
@@ -307,19 +299,19 @@ Members of these orders are not necessarily bound together, but some organizatio
 
 - **<a href="#internal-knightErrant">Knight Errant</a>**. Brave mercenary warriors who wander the land to show off their combat prowess and help those in need.
 
-- **<a href="#internal-blueRose">Order of the Blue Rose</a>**. Diplomatic knights that dedicate themselves to promoting peace.
+- **<a href="#internal-orderOfTheBlueRose">Order of the Blue Rose</a>**. Diplomatic knights that dedicate themselves to promoting peace.
 
-- **<a href="#internal-dragon">Order of the Dragon</a>**. These cavaliers value loyalty and friendship, often in a group of like-minded individuals.
+- **<a href="#internal-orderOfTheDragon">Order of the Dragon</a>**. These cavaliers value loyalty and friendship, often in a group of like-minded individuals.
 
-- **<a href="#internal-flame">Order of the Flame</a>**. Knights that devote their lives to the pursuit of personal glory.
+- **<a href="#internal-orderOfTheFlame">Order of the Flame</a>**. Knights that devote their lives to the pursuit of personal glory.
 
-- **<a href="#internal-lion">Order of the Lion</a>**. An order that pledges themselves to a sovereign; be it a king, queen, or even the local warlord.
+- **<a href="#internal-orderOfTheLion">Order of the Lion</a>**. An order that pledges themselves to a sovereign; be it a king, queen, or even the local warlord.
 
-- **<a href="#internal-scales">Order of the Scales</a>**. The order of the scales safeguards the truth in all its forms, punishing liars, cheaters, and traitors.
+- **<a href="#internal-orderOfTheScales">Order of the Scales</a>**. The order of the scales safeguards the truth in all its forms, punishing liars, cheaters, and traitors.
 
-- **<a href="#internal-shield">Order of the Shield</a>**. Cavaliers that devote their lives to protecting the common folk.
+- **<a href="#internal-orderOfTheShield">Order of the Shield</a>**. Cavaliers that devote their lives to protecting the common folk.
 
-- **<a href="#internal-star">Order of the Star</a>**. The order of the star dedicate themselves to the protection and service of a faith and its members.
+- **<a href="#internal-orderOfTheStar">Order of the Star</a>**. The order of the star dedicate themselves to the protection and service of a faith and its members.
 
 </div>
 
@@ -372,7 +364,7 @@ At 18th level, whenever you use Challenge, Battlefield Inspiration or Bolstering
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-blueRose">Order of the Blue Rose</a></h1>
+<h1><a class="internal-link" name="internal-orderOfTheBlueRose">Order of the Blue Rose</a></h1>
 
 <div class="featuresTable">
 
@@ -429,7 +421,7 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-dragon">Order of the Dragon</a></h1>
+<h1><a class="internal-link" name="internal-orderOfTheDragon">Order of the Dragon</a></h1>
 
 <div class="featuresTable">
 
@@ -478,7 +470,7 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-flame">Order of the Flame</a></h1>
+<h1><a class="internal-link" name="internal-orderOfTheFlame">Order of the Flame</a></h1>
 
 <div class="featuresTable">
 
@@ -529,7 +521,7 @@ At 18th level, you can, as a ***bonus action***, declare a moment of triumph. Un
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-lion">Order of the Lion</a></h1>
+<h1><a class="internal-link" name="internal-orderOfTheLion">Order of the Lion</a></h1>
 
 <div class="featuresTable">
 
@@ -578,7 +570,7 @@ In addition, as a ***reaction***, you can redirect an attack made at a creature 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-scales">Order of the Scales</a></h1>
+<h1><a class="internal-link" name="internal-orderOfTheScales">Order of the Scales</a></h1>
 
 <div class="featuresTable">
 
@@ -632,7 +624,7 @@ At 18th level, you can tell if people are lying around you. As an ***action*** y
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-shield">Order of the Shield</a></h1>
+<h1><a class="internal-link" name="internal-orderOfTheShield">Order of the Shield</a></h1>
 
 <div class="featuresTable">
 
@@ -685,7 +677,7 @@ At 18th level, you can move to intercept foes. When a foe makes an action, as a 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-star">Order of the Star</a></h1>
+<h1><a class="internal-link" name="internal-orderOfTheStar">Order of the Star</a></h1>
 
 <div class="featuresTable">
 
