@@ -5,48 +5,48 @@ profile:
   generic:
     magicType: "none"
     originBackground: ["urban", "criminal", "rural"]
-  specific: ["stealth-master", "skill-expert", "cunning-value", "opportunistic-value", "social-manipulator"]
+  specific: ["stealth-master", "cunning-value", "opportunistic-value", "social-manipulator"]
   archetypes:
     arcane-trickster:
       generic:
         magicType: "utility"
-      specific: ["magic-student", "illusion-specialist", "scholarly-rogue", "mage-hand-master"]
+      specific: ["magic-student", "illusion-specialist", "scholar", "mage-hand-master"]
     assassin:
       specific: ["death-dealer", "disguise-master", "patient-value", "professional-killer"]
     blade-juggler:
-      specific: ["thrown-weapon-master", "precision-thrower", "ranged-rogue", "weapon-juggling"]
+      specific: ["throwing-expert", "ranged-expert", "precise", "fast-hands", "initiative-specialist"]
     daggerspell-mage:
       generic:
         magicType: "damage"
-      specific: ["dagger-specialist", "spell-blade-fusion", "melee-caster", "evocation-specialist"]
+      specific: ["damage-magic", "scholar", "weapon-specialist", "transmutation-magic"]
     divine-herald:
       generic:
         magicType: "healing"
-      specific: ["divine-rogue", "holy-assassin", "cleric-hybrid", "radiant-damage"]
+      specific: ["divine-magic", "zealot-faith", "faith-infiltrator", "truth-seeker"]
     gambler:
-      specific: ["luck-master", "risk-taker", "fate-touched", "chance-gambler"]
+      specific: ["lucky", "risk-taker", "fate-touched", "chaotic-value"]
     investigator:
-      specific: ["deduction-master", "knowledge-seeker", "analytical-mind", "clue-finder"]
+      specific: ["knowledge-seeker", "investigator", "otherworldly-knowledge", "streetwise", "mind-reader"]
     jester:
       generic:
         magicType: "utility"
-      specific: ["comedic-performer", "trickster-entertainer", "harlequin-mask", "vicious-mockery"]
+      specific: ["charismatic", "trickster-magic", "artistic-excellence", "disguise-master"]
     keen-blade:
-      specific: ["tactical-fighter", "dagger-master", "intelligence-combatant", "surgical-precision"]
+      specific: ["tactical-value", "scholar", "precise", "duelist", "initiative-specialist"]
     ruffian:
-      specific: ["brute-rogue", "improvised-weapon", "dirty-fighter", "enforcer"]
+      specific: ["strength-specialist", "adaptive", "aggressive-value", "unarmed-combat", "physical"]
     serpentine-infiltrator:
-      specific: ["shapeshifter", "poison-master", "yuan-ti-power", "viper-form"]
+      specific: ["shapeshifter", "poison-expert", "infiltrator", "shadow-binding", "stealth-master"]
     spellwarp-sniper:
       generic:
         magicType: "damage"
-      specific: ["ray-specialist", "spell-sniper", "evocation-master", "precision-caster"]
+      specific: ["ranged-expert", "damage-magic", "sniper", "spell-disruptor", "precise"]
     thief:
       specific: ["classic-rogue", "treasure-hunter", "acrobatic", "lock-picker", "fast-hands"]
     feline-stalker:
       restriction:
         folk: ["catfolk"]
-      specific: ["catfolk-hunter", "big-cat-emulation", "athletic-prowess", "claw-fighter"]
+      specific: ["athletic-prowess", "stealth-master", "hunting-expert", "darkvision-master", "natural-armor"]
 ---
 
 <div class="toc" markdown="1">

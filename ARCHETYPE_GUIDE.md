@@ -1153,7 +1153,7 @@ profile:
   generic:
     magicType: "none"
     originBackground: ["urban", "criminal", "rural"]
-  specific: ["stealth-master", "skill-expert", "cunning-value"]
+  specific: ["stealth-master", "cunning-value"]
   archetypes:
     thief:
       # No generic override - inherits none magic type
@@ -1186,7 +1186,7 @@ profile:
   generic:
     magicType: "none"
     originBackground: ["urban", "criminal", "rural"]
-  specific: ["stealth-master", "skill-expert", "cunning-value"]
+  specific: ["stealth-master", "cunning-value"]
   archetypes:
     arcane-trickster:
       generic:
@@ -1219,7 +1219,7 @@ profile:
   generic:
     magicType: "versatile"
     originBackground: ["noble", "tribal", "rural", "scholarly"]
-  specific: ["innate-power", "magical-bloodline", "raw-talent", "intuitive-value"]
+  specific: ["innate-power", "raw-talent", "intuitive-value"]
   archetypes:
     draconic-bloodline:
       generic:

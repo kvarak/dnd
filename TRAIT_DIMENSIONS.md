@@ -198,12 +198,8 @@ Fighters (Arbalestion)
 ### Magic & Spellcasting Traits
 
 **innate-power**
-Natural magical ability vs. studied
+Natural magical ability vs. studied (includes magical bloodlines/ancestry)
 Sorcerers, Warlocks
-
-**magical-bloodline**
-Magic from ancestry
-Sorcerers, some Warlocks
 
 **raw-talent**
 Untrained natural ability
@@ -291,10 +287,6 @@ Rogues (all), some Rangers
 
 **cunning-value**
 Clever thinking and deception
-Rogues, Bards
-
-**skill-expert**
-Proficiency in many skills
 Rogues, Bards
 
 **opportunistic**

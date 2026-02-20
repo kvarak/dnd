@@ -5,7 +5,7 @@ profile:
   generic:
     magicType: "none"
     originBackground: ["military", "rural", "urban"]
-  specific: ["disciplined-value", "tactical-value", "physical-prowess", "weapon-specialist"]
+  specific: ["disciplined-value", "tactical-value", "physical", "weapon-specialist"]
   archetypes:
     arbalestion:
       specific: ["crossbow-specialist", "ranged-expert", "engineering-mind", "craftsman-warrior", "modern-value"]
@@ -16,13 +16,13 @@ profile:
     bulwark:
       specific: ["shield-specialist", "defensive-expert", "tactical-value", "disciplined-value"]
     champion:
-      specific: ["pure-warrior", "weapon-master", "athletic-excellence"]
+      specific: ["weapon-master", "critical-striker", "athletic-prowess", "endurance-specialist"]
     daredevil:
       specific: ["risk-taker", "mobile-combatant", "acrobatic", "opportunistic-value"]
     eldritch-knight:
       generic:
         magicType: "utility"
-      specific: ["scholar-warrior", "magic-student", "dual-nature", "intellectual-combatant"]
+      specific: ["scholar", "magic-student", "dual-nature", "intellectual-combatant"]
     ghost-operative:
       specific: ["stealth-master", "infiltrator", "tactical-value", "initiative-specialist"]
     guerilla:
@@ -34,7 +34,7 @@ profile:
     runeguard:
       generic:
         magicType: "utility"
-      specific: ["rune-magic", "scholar-warrior", "magic-student", "tactical-value"]
+      specific: ["rune-magic", "scholar", "magic-student", "tactical-value"]
     sellsword:
       specific: ["pragmatic-fighter", "opportunistic-value", "dirty-tactics", "streetwise"]
     skirmisher:

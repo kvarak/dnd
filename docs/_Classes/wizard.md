@@ -5,14 +5,14 @@ profile:
   generic:
     magicType: "versatile"
     originBackground: ["scholarly", "noble", "urban"]
-  specific: ["arcane-scholar", "knowledge-seeker", "magic-student", "intellectual-combatant"]
+  specific: ["scholar", "knowledge-seeker", "magic-student", "intellectual-combatant", "arcane-magic"]
   archetypes:
     master-of-the-unseen-hand:
       specific: ["mage-hand-master", "tactical-value", "innovation-specialist", "control-magic"]
     school-of-astromancy:
       generic:
         magicType: "utility"
-      specific: ["divination-magic", "fate-touched", "ancient-knowledge", "celestial-scholar"]
+      specific: ["divination-magic", "fate-touched", "ancient-knowledge"]
     school-of-chronomancy:
       generic:
         magicType: "utility"

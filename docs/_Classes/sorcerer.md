@@ -5,7 +5,7 @@ profile:
   generic:
     magicType: "versatile"
     originBackground: ["noble", "tribal", "rural", "scholarly"]
-  specific: ["innate-power", "magical-bloodline", "raw-talent", "intuitive-value"]
+  specific: ["innate-power", "raw-talent", "intuitive-value", "arcane-magic"]
   archetypes:
     draconic-bloodline:
       generic:
@@ -15,6 +15,98 @@ profile:
       generic:
         magicType: "versatile"
       specific: ["chaotic-value", "unpredictable-power", "fate-touched", "wild-surges"]
+    aberrant:
+      generic:
+        magicType: "control"
+      specific: ["aberrant-influence", "mind-alteration", "otherworldly-knowledge", "mind-reader"]
+    arachnid:
+      generic:
+        magicType: "control"
+      specific: ["patient-value", "stealth-master", "control-magic", "ambush-predator"]
+    ashen:
+      generic:
+        magicType: "damage"
+      specific: ["fire-affinity", "damage-magic", "wild-spirit", "aggressive-value"]
+    autumnal:
+      generic:
+        magicType: "utility"
+      specific: ["transmutation-magic", "nature-guardian", "decay-mastery", "wisdom-seeker"]
+    blighted:
+      generic:
+        magicType: "damage"
+      specific: ["poison-expert", "decay-mastery", "necromancy-dabbler", "damage-magic"]
+    divine-soul:
+      generic:
+        magicType: "healing"
+      specific: ["celestial-heritage", "divine-student", "healing-magic", "holy-power"]
+    dread:
+      generic:
+        magicType: "control"
+      specific: ["enchantment-resistance", "shadow-magic", "mind-alteration", "control-magic"]
+    dune-child:
+      generic:
+        magicType: "utility"
+      specific: ["desert-survival", "elemental-affinity", "endurance-specialist", "tribal-background"]
+    ethereal:
+      generic:
+        magicType: "utility"
+      specific: ["dimensional-magic", "transmutation-magic", "spirit-medium", "planar-guardian"]
+    fiendish:
+      generic:
+        magicType: "damage"
+      specific: ["demonic-corruption", "fire-affinity", "damage-magic", "proud-value"]
+    frozen-heart:
+      generic:
+        magicType: "control"
+      specific: ["elemental-affinity", "control-magic", "disciplined-value", "patient-value"]
+    incantatrix:
+      generic:
+        magicType: "utility"
+      specific: ["scholar", "versatile-magic", "scholarly-background", "magic-student"]
+    oceanic:
+      generic:
+        magicType: "utility"
+      specific: ["aquatic-heritage", "water-mastery", "storm-caller", "elemental-affinity"]
+    oozemaster:
+      generic:
+        magicType: "control"
+      specific: ["ooze-symbiosis", "transmutation-magic", "shapeshifter", "adaptable-fighter"]
+    pandemonic:
+      generic:
+        magicType: "damage"
+      specific: ["chaos-magic", "dimensional-magic", "damage-magic", "chaotic-value"]
+    phoenix:
+      generic:
+        magicType: "damage"
+      specific: ["fire-wielder", "elemental-affinity", "damage-magic", "raw-talent"]
+    plaguebringer:
+      generic:
+        magicType: "damage"
+      specific: ["poison-expert", "necromancy-dabbler", "damage-magic", "death-dealer"]
+    relicker:
+      generic:
+        magicType: "utility"
+      specific: ["treasure-hunter", "ancient-knowledge", "magic-hunter", "scholar"]
+    star-touched:
+      generic:
+        magicType: "utility"
+      specific: ["celestial-heritage", "divination-magic", "fate-touched", "otherworldly-knowledge"]
+    stone:
+      generic:
+        magicType: "utility"
+      specific: ["endurance-specialist", "defensive-expert", "natural-armor", "tribal-background"]
+    storm:
+      generic:
+        magicType: "damage"
+      specific: ["storm-caller", "elemental-affinity", "damage-magic", "raw-talent"]
+    time-thief:
+      generic:
+        magicType: "utility"
+      specific: ["transmutation-magic", "divination-magic", "fate-touched", "cunning-value"]
+    wishcrafter:
+      generic:
+        magicType: "versatile"
+      specific: ["enchantment-resistance", "versatile-magic", "probability-manipulation", "illusion-specialist"]
 ---
 
 <div class="toc" markdown="1">

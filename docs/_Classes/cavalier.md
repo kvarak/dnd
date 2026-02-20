@@ -5,7 +5,7 @@ profile:
   generic:
     magicType: "none"
     originBackground: ["military", "noble"]
-  specific: ["weapon-master", "tactical-value", "inspirational-leader", "lawful-value"]
+  specific: ["weapon-master", "tactical-value", "inspirational-leader", "lawful-value", "mounted"]
   archetypes:
     knightErrant:
       generic:
@@ -14,31 +14,31 @@ profile:
     order-of-the-blueRose:
       generic:
         originBackground: ["noble", "scholarly"]
-      specific: ["social-manipulator", "protective-value", "lawful-value", "diplomatic-negotiator"]
+      specific: ["social-manipulator", "protective-value", "lawful-value", "diplomatic-soul"]
     order-of-the-dragon:
       generic:
         originBackground: ["military", "noble"]
-      specific: ["inspirational-leader", "military-background", "tactical-value", "group-coordinator"]
+      specific: ["inspirational-leader", "military-background", "tactical-value", "teamwork-focused"]
     order-of-the-flame:
       generic:
         originBackground: ["noble", "military"]
-      specific: ["proud-value", "reckless-value", "glory-seeker", "charismatic-presence"]
+      specific: ["proud-value", "reckless-value", "charismatic", "fearless-heart", "fire-affinity", "daring"]
     order-of-the-lion:
       generic:
         originBackground: ["noble", "military"]
-      specific: ["noble-background", "loyal-servant", "disciplined-value", "protective-value"]
+      specific: ["noble-background", "loyal-guardian", "disciplined-value", "protective-value"]
     order-of-the-scales:
       generic:
         originBackground: ["noble", "scholarly"]
-      specific: ["lawful-value", "truth-seeker", "oath-keeper", "disciplined-value"]
+      specific: ["lawful-value", "truth-seeker", "disciplined-value", "justice-seeker", "scholar", "honorable"]
     order-of-the-shield:
       generic:
         originBackground: ["military", "rural"]
-      specific: ["protective-value", "shield-specialist", "defensive-expert", "selfless-guardian"]
+      specific: ["protective-value", "shield-specialist", "defensive-expert", "loyal-guardian", "endurance-specialist", "mounted"]
     order-of-the-star:
       generic:
         originBackground: ["noble", "scholarly"]
-      specific: ["religious-value", "divine-warrior", "holy-power", "faith-defender"]
+      specific: ["religious-value", "divine-warrior", "holy-power", "scholar", "divine-healer", "illuminating-light"]
 ---
 
 <div class="toc" markdown="1">

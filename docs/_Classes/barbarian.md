@@ -5,7 +5,7 @@ profile:
   generic:
     magicType: "damage"
     originBackground: ["rural", "tribal"]
-  specific: ["physical-prowess", "raw-talent", "reckless-value", "arcane-averse-magic"]
+  specific: ["physical", "raw-talent", "reckless-value", "instinctive-combatant", "underdog-fighter"]
   archetypes:
     path-of-the-aquatic-hunter:
       restriction:
@@ -33,7 +33,7 @@ profile:
     path-of-the-juggernaut:
       generic:
         magicType: "damage"
-      specific: ["unstoppable-force", "strength-specialist", "heavy-armor", "physical-prowess"]
+      specific: ["unstoppable-force", "strength-specialist", "heavy-armor", "physical"]
     path-of-the-marauder:
       generic:
         magicType: "damage"

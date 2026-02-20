@@ -68,6 +68,66 @@
         color: #a0a0a0 !important;
       }
 
+      /* Class standings chart - COMMENTED OUT FOR NOW */
+      /*
+      .class-standings {
+        margin-top: 2rem;
+        padding: 1.5rem;
+        background: rgba(0,0,0,0.02);
+        border-radius: 8px;
+      }
+
+      html.dark-mode .class-standings {
+        background: rgba(255,255,255,0.05);
+      }
+
+      .class-standings-title {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 1.5rem;
+        opacity: 0.6;
+        text-align: center;
+      }
+
+      .charts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-top: 1rem;
+      }
+
+      .chart-container {
+        background: rgba(0,0,0,0.02);
+        border-radius: 8px;
+        padding: 1rem;
+        position: relative;
+        min-height: 250px;
+      }
+
+      html.dark-mode .chart-container {
+        background: rgba(255,255,255,0.03);
+      }
+
+      .chart-container h6 {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 0.75rem;
+        opacity: 0.7;
+        text-align: center;
+      }
+
+      .chart-wrapper {
+        position: relative;
+        height: 220px;
+      }
+      */
+
+      .chart-wrapper.tall {
+        height: 280px;
+      }
+
       /* Live scoring visualization */
       .live-scores {
         margin-top: 2rem;
@@ -92,9 +152,16 @@
         display: flex;
         flex-direction: column;
         gap: 4px;
-        max-height: 200px;
+        max-height: 400px;
         overflow-y: auto;
         position: relative;
+        border: 1px solid rgba(0,0,0,0.1);
+        border-radius: 4px;
+        padding: 0.5rem;
+      }
+
+      html.dark-mode .score-bars-container {
+        border-color: rgba(255,255,255,0.1);
       }
 
       .score-bar-wrapper {
@@ -279,8 +346,8 @@
           <!-- Results Container (hidden initially) -->
           <div id="results-container" class="card shadow-sm" style="display: none;">
             <div class="card-body">
-              <h2>Your Recommended Classes</h2>
-              <p class="mb-4">Based on your <span id="answer-count">0</span> answers, here are your top class recommendations:</p>
+              <h2>Your Recommended Archetypes</h2>
+              <p class="mb-4">Based on your <span id="answer-count">0</span> answers, here are your top archetype recommendations:</p>
               <div id="results-content">
                 <!-- Results will be loaded here -->
               </div>
@@ -303,11 +370,34 @@
             </small>
           </div>
 
+          <!-- Class Standings Chart - COMMENTED OUT FOR NOW -->
+          <!--
+          <div id="class-standings" class="class-standings" style="display: none;">
+            <div class="class-standings-title">Character Analysis Visualizations</div>
+
+            <div class="charts-grid">
+              <div class="chart-container">
+                <h6>🎯 Top Traits (Dynamic Scale)</h6>
+                <div class="chart-wrapper tall">
+                  <canvas id="chart-1"></canvas>
+                </div>
+              </div>
+
+              <div class="chart-container">
+                <h6>📉 Weakest Traits (Dynamic Scale)</h6>
+                <div class="chart-wrapper tall">
+                  <canvas id="chart-2"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+
           <!-- Live Scoring Visualization -->
-          <div id="live-scores" class="live-scores" style="display: none;">
+          <div id="live-scores" class="live-scores" style="display: block;">
             <div class="live-scores-title text-center">Live Match Progress</div>
             <div class="score-bars-container" id="score-bars">
-              <!-- Score bars will be dynamically generated here -->
+              <div class="text-muted text-center py-3">Answer questions to see archetype matches</div>
             </div>
           </div>
 
@@ -315,6 +405,9 @@
       </div>
 
     </div>
+
+    <!-- Chart.js Library - COMMENTED OUT FOR NOW -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script> -->
 
     <!-- Inject Jekyll data directly into JavaScript -->
     <script>
@@ -401,7 +494,16 @@
           this.answerCount = document.getElementById('answer-count');
           this.restartBtn = document.getElementById('restart-btn');
           this.continueBtn = document.getElementById('continue-btn');
+          this.skipNotice = document.querySelector('.skip-notice');
           this.minQuestionsForResults = 20;
+
+          // Initialize 2 charts - COMMENTED OUT FOR NOW
+          /*
+          this.charts = {
+            chart1: { instance: null, canvas: document.getElementById('chart-1') },
+            chart2: { instance: null, canvas: document.getElementById('chart-2') }
+          };
+          */
         }
 
         setupEventListeners() {
@@ -485,6 +587,7 @@
 
           // Update live scores if we have answers
           this.updateLiveScores();
+          // this.updateClassChart(); // COMMENTED OUT FOR NOW
         }
 
         renderAnswerOptions(questionId) {
@@ -529,6 +632,7 @@
 
           // Update live scoring visualization
           this.updateLiveScores();
+          // this.updateClassChart(); // COMMENTED OUT FOR NOW
 
           // Save state to localStorage immediately and synchronously
           this.saveState();
@@ -612,15 +716,19 @@
             document.getElementById('folk-selection-container').style.display = 'none';
             this.resultsContainer.style.display = 'block';
 
-            // Show continue button if there are more questions
-            if (this.currentQuestionIndex < this.questions.length - 1) {
+            // Hide skip notice on results page
+            if (this.skipNotice) this.skipNotice.style.display = 'none';
+
+            // Show continue button if there are more questions available
+            if (this.hasUnusedQuestions()) {
               this.continueBtn.style.display = 'inline-block';
             } else {
               this.continueBtn.style.display = 'none';
             }
 
-            // Hide live scores visualization
+            // Hide live scores visualization and class chart
             document.getElementById('live-scores').style.display = 'none';
+            // document.getElementById('class-standings').style.display = 'none'; // COMMENTED OUT FOR NOW
 
             // Update progress to 100%
             this.progressBar.style.width = '100%';
@@ -682,6 +790,10 @@
                   }
                 }
 
+                // Calculate display percentage (capped at 100%) vs raw percentage for sorting
+                const rawPercentage = folkBonus > 0 ? ((score.score + folkBonus) / score.maxScore) * 100 : score.percentage;
+                const displayPercentage = Math.min(100, rawPercentage);
+
                 results.push({
                   className: className,
                   archetypeName: archetypeName,
@@ -690,7 +802,9 @@
                   restriction: archetypeData.restriction, // Include restriction info
                   folkBonus: folkBonus,
                   ...score,
-                  score: score.score + folkBonus // Add bonus to total score
+                  score: score.score + folkBonus, // Add bonus to total score
+                  percentage: displayPercentage, // Display percentage capped at 100%
+                  rawPercentage: rawPercentage // Keep raw for sorting if needed
                 });
               }
             } else {
@@ -725,10 +839,97 @@
             }
           }
 
-          // Sort by score descending
-          results.sort((a, b) => b.score - a.score);
+          // Group boon combinations (e.g., Warlock patron + pact)
+          const grouped = this.groupBoonCombinations(results);
 
-          return results.slice(0, 5);
+          // Get user trait profile to filter out archetypes with red badges
+          const userTraitProfile = this.getUserTraitProfile();
+          const userTraitMap = new Map();
+          userTraitProfile.forEach(trait => {
+            userTraitMap.set(trait.name, trait.percentage);
+          });
+
+          // Filter out archetypes where any specific trait has very low score (< 20%)
+          // Red badges indicate the user answered negatively for important traits
+          const filtered = grouped.filter(rec => {
+            if (rec.profile && rec.profile.specific && rec.profile.specific.length > 0) {
+              const hasRedBadge = rec.profile.specific.some(traitName => {
+                const percentage = userTraitMap.get(traitName);
+                return percentage !== undefined && percentage < 20;
+              });
+              return !hasRedBadge; // Exclude if any trait is red
+            }
+            return true; // Keep if no specific traits
+          });
+
+          // Sort by score descending
+          filtered.sort((a, b) => b.score - a.score);
+
+          return filtered.slice(0, 10);
+        }
+
+        groupBoonCombinations(results) {
+          // Separate results by class and type
+          const byClass = new Map();
+
+          for (const result of results) {
+            if (!byClass.has(result.className)) {
+              byClass.set(result.className, {
+                archetypes: [],
+                boons: [],
+                other: []
+              });
+            }
+
+            const classResults = byClass.get(result.className);
+            if (result.isBoon) {
+              classResults.boons.push(result);
+            } else if (result.archetypeName) {
+              classResults.archetypes.push(result);
+            } else {
+              classResults.other.push(result);
+            }
+          }
+
+          // Build final results list
+          const grouped = [];
+
+          for (const [className, classResults] of byClass.entries()) {
+            // If class has both archetypes and boons, combine them
+            if (classResults.archetypes.length > 0 && classResults.boons.length > 0) {
+              // Sort each category by score
+              classResults.archetypes.sort((a, b) => b.score - a.score);
+              classResults.boons.sort((a, b) => b.score - a.score);
+
+              // Take top archetype and top boon
+              const topArchetype = classResults.archetypes[0];
+              const topBoon = classResults.boons[0];
+
+              // Create combined entry
+              const formattedArchetype = this.formatArchetypeName(topArchetype.archetypeName);
+              const formattedBoon = this.formatArchetypeName(topBoon.boonName);
+
+              grouped.push({
+                className: className,
+                archetypeName: topArchetype.archetypeName,
+                boonName: topBoon.boonName,
+                displayName: `${formattedArchetype} + Pact of the ${formattedBoon} (${className})`,
+                profile: topArchetype.profile, // Use archetype profile for trait display
+                restriction: topArchetype.restriction,
+                folkBonus: topArchetype.folkBonus || 0,
+                score: (topArchetype.score + topBoon.score) / 2, // Average the scores
+                percentage: (topArchetype.percentage + topBoon.percentage) / 2, // Average the percentages
+                maxScore: topArchetype.maxScore // Carry over maxScore for display
+              });
+            } else {
+              // Add archetypes, boons, and other results as-is
+              grouped.push(...classResults.archetypes);
+              grouped.push(...classResults.boons);
+              grouped.push(...classResults.other);
+            }
+          }
+
+          return grouped;
         }
 
         calculateAllRecommendations() {
@@ -791,6 +992,10 @@
                   }
                 }
 
+                // Calculate display percentage (capped at 100%) vs raw percentage for sorting
+                const rawPercentage = folkBonus > 0 ? ((score.score + folkBonus) / score.maxScore) * 100 : score.percentage;
+                const displayPercentage = Math.min(100, rawPercentage);
+
                 results.push({
                   className: className,
                   archetypeName: archetypeName,
@@ -799,7 +1004,9 @@
                   restriction: archetypeData.restriction, // Include restriction info
                   folkBonus: folkBonus,
                   ...score,
-                  score: score.score + folkBonus // Add bonus to total score
+                  score: score.score + folkBonus, // Add bonus to total score
+                  percentage: displayPercentage, // Display percentage capped at 100%
+                  rawPercentage: rawPercentage // Keep raw for sorting if needed
                 });
               }
             } else {
@@ -834,9 +1041,12 @@
             }
           }
 
+          // Group boon combinations (e.g., Warlock patron + pact)
+          const grouped = this.groupBoonCombinations(results);
+
           // Sort by score descending - return ALL results for localhost debugging
-          results.sort((a, b) => b.score - a.score);
-          return results; // Return everything for dev mode
+          grouped.sort((a, b) => b.score - a.score);
+          return grouped; // Return everything for dev mode
         }
 
         formatArchetypeName(archetypeName) {
@@ -888,7 +1098,8 @@
             // All definite answers (yes/no) have weight 2, maybe has weight 1
             // "no" answers map to opposite traits (e.g., combatFocus: low) so they should still score
             const answerStrength = userAnswer === 'yes' ? 2 : (userAnswer === 'maybe' ? 1 : 2);
-            maxPossibleScore += answerStrength * 2;
+            const maxQuestionScore = answerStrength * 2;
+            maxPossibleScore += maxQuestionScore;
 
             let questionScore = 0;
 
@@ -961,7 +1172,8 @@
               }
             }
 
-            totalScore += questionScore;
+            // Cap question score to maximum possible for this question
+            totalScore += Math.min(questionScore, maxQuestionScore);
           }
 
           // Sort traits by their contribution score and get top matches
@@ -1185,10 +1397,7 @@
             // Group traits by category for better organization
             const magicTraits = userTraitProfile.filter(t => t.name.includes('-magic'));
             const backgroundTraits = userTraitProfile.filter(t => t.name.includes('-background'));
-
-            // Philosophy/Values traits - character approach to life and decision-making
             const philosophyProfile = userTraitProfile.filter(t => t.name.includes('-value'));
-
             const otherTraits = userTraitProfile.filter(t =>
               !t.name.includes('-magic') &&
               !t.name.includes('-background') &&
@@ -1200,10 +1409,9 @@
               return `
                 <div class="col-md-6 mb-3">
                   <h6 class="text-muted"><i class="${iconClass}"></i> ${title}</h6>
-                  <div class="trait-bars">
-                    ${traits.slice(0, 5).map(trait => {
+                  <div class="d-flex flex-wrap gap-2">
+                    ${traits.slice(0, 10).map(trait => {
                       let displayName = trait.name;
-
                       if (stripSuffix) {
                         displayName = displayName.replace(new RegExp(`-${stripSuffix}$`), '');
                       }
@@ -1212,24 +1420,18 @@
                         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
                         .join(' ');
 
-                      const barColor = trait.percentage >= 70 ? 'success' :
-                                     trait.percentage >= 40 ? 'info' : 'secondary';
-                      return `
-                        <div class="mb-2">
-                          <div class="d-flex justify-content-between align-items-center mb-1">
-                            <small class="fw-bold">${formattedName}</small>
-                            <small class="text-muted">${Math.round(trait.percentage)}%</small>
-                          </div>
-                          <div class="progress" style="height: 8px;">
-                            <div class="progress-bar bg-${barColor}"
-                                 role="progressbar"
-                                 style="width: ${trait.percentage}%"
-                                 aria-valuenow="${trait.percentage}"
-                                 aria-valuemin="0"
-                                 aria-valuemax="100"></div>
-                          </div>
-                        </div>
-                      `;
+                      let badgeColor;
+                      if (trait.percentage >= 70) {
+                        badgeColor = 'bg-success';
+                      } else if (trait.percentage >= 40) {
+                        badgeColor = 'bg-info text-dark';
+                      } else if (trait.percentage >= 20) {
+                        badgeColor = 'bg-secondary';
+                      } else {
+                        badgeColor = 'bg-danger';
+                      }
+
+                      return `<span class="badge ${badgeColor} rounded-pill me-1 mb-1">${formattedName} ${Math.round(trait.percentage)}%</span>`;
                     }).join('')}
                   </div>
                 </div>
@@ -1253,7 +1455,7 @@
           }
 
           // Add recommendations
-          output += '<h5 class="mb-3">Recommended Classes & Archetypes</h5>';
+          output += '<h5 class="mb-3">Recommended Archetypes</h5>';
 
           // Convert user trait profile to a Map for easy lookup
           const userTraitMap = new Map();
@@ -1266,26 +1468,32 @@
           output += recommendations
             .filter(rec => {
               // Only show archetypes that have no folk restriction OR match the selected folk
-              if (!rec.restriction || !rec.restriction.folk) {
-                return true; // No restriction, always show
+              if (rec.restriction && rec.restriction.folk) {
+                const requiredFolk = rec.restriction.folk;
+                const isFolkMatch = Array.isArray(requiredFolk)
+                  ? requiredFolk.includes(this.selectedFolk)
+                  : requiredFolk === this.selectedFolk;
+
+                return isFolkMatch; // Only show if folk matches
               }
 
-              const requiredFolk = rec.restriction.folk;
-              const isFolkMatch = Array.isArray(requiredFolk)
-                ? requiredFolk.includes(this.selectedFolk)
-                : requiredFolk === this.selectedFolk;
-
-              return isFolkMatch; // Only show if folk matches
+              return true; // Show all others
             })
             .map((rec, index) => {
             // Generate anchor for archetypes or boons
             let anchor = '';
-            if (rec.archetypeName) {
+            let boonAnchor = '';
+            if (rec.archetypeName && rec.boonName) {
+              // Combined entry - generate both anchors
+              anchor = '#internal-' + this.archetypeToAnchor(rec.archetypeName);
+              const boonAnchorName = 'Pactofthe' + this.formatArchetypeName(rec.boonName).replace(/\s+/g, '');
+              boonAnchor = '#internal-' + boonAnchorName;
+            } else if (rec.archetypeName) {
               anchor = '#internal-' + this.archetypeToAnchor(rec.archetypeName);
             } else if (rec.boonName) {
               // Boons use PascalCase anchors like "PactoftheBlade"
-              const boonAnchor = 'Pactofthe' + this.formatArchetypeName(rec.boonName).replace(/\s+/g, '');
-              anchor = '#internal-' + boonAnchor;
+              const boonAnchorName = 'Pactofthe' + this.formatArchetypeName(rec.boonName).replace(/\s+/g, '');
+              anchor = '#internal-' + boonAnchorName;
             }
 
             // Get the specific traits for this class/archetype and show user's percentages
@@ -1376,21 +1584,23 @@
                   <span class="badge bg-primary me-2" style="border-radius: 50%; width: 2.5em; height: 2.5em; display: flex; align-items: center; justify-content: center;">
                     ${index + 1}
                   </span>
-                  <h5 class="card-title mb-0">${rec.displayName || rec.className}</h5>
+                  <h5 class="card-title mb-0">
+                    ${rec.archetypeName && rec.boonName ? `
+                      <a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html${anchor}" class="text-decoration-none">${this.formatArchetypeName(rec.archetypeName)}</a> + <a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html${boonAnchor}" class="text-decoration-none">Pact of the ${this.formatArchetypeName(rec.boonName)}</a> (<a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html" class="text-decoration-none">${rec.className}</a>)
+                    ` : rec.archetypeName ? `
+                      <a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html${anchor}" class="text-decoration-none">${this.formatArchetypeName(rec.archetypeName)}</a> (<a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html" class="text-decoration-none">${rec.className}</a>)
+                    ` : `
+                      <a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html" class="text-decoration-none">${rec.className}</a>
+                    `}
+                  </h5>
                   <div class="ms-auto">
                     <span class="badge bg-success">
-                      ${rec.folkBonus > 0 ? ((rec.score / rec.maxScore) * 100).toFixed(1) : rec.percentage.toFixed(1)}% match
+                      ${rec.percentage.toFixed(1)}% match
                     </span>
                   </div>
                 </div>
 
                 ${traitsDisplay}
-
-                <div class="mt-3">
-                  <a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html${anchor}" class="btn btn-sm btn-outline-primary">
-                    Learn More <i class="fas fa-external-link-alt"></i>
-                  </a>
-                </div>
               </div>
             </div>
           `;
@@ -1413,8 +1623,12 @@
           this.questionContainer.style.display = 'block';
           this.resultsContainer.style.display = 'none';
 
-          // Show live scores again
+          // Show skip notice again
+          if (this.skipNotice) this.skipNotice.style.display = '';
+
+          // Show live scores and class chart again
           document.getElementById('live-scores').style.display = 'block';
+          // document.getElementById('class-standings').style.display = 'block'; // COMMENTED OUT FOR NOW
 
           // Go to next unanswered question
           this.showQuestion(this.currentQuestionIndex + 1);
@@ -1448,8 +1662,12 @@
             this.questionContainer.style.display = 'block';
             this.resultsContainer.style.display = 'none';
 
-            // Hide live scores
-            document.getElementById('live-scores').style.display = 'none';
+            // Show skip notice again
+            if (this.skipNotice) this.skipNotice.style.display = '';
+
+            // Show live scores (always visible now)
+            document.getElementById('live-scores').style.display = 'block';
+            // document.getElementById('class-standings').style.display = 'none'; // COMMENTED OUT FOR NOW
 
             this.showQuestion(0);
           }
@@ -1650,15 +1868,19 @@
             return this.getRandomUnusedQuestion();
           }
 
-          // Folk-based prioritization: If folk is selected, prioritize questions
-          // that score traits from folk-restricted archetypes
+          // Always get ALL recommendations (matching what's displayed in Live Match Progress)
+          // This ensures we're asking about the true lowest-scoring archetypes
+          const recommendations = this.calculateAllRecommendations();
+          const exploredTraits = this.getExploredTraits();
+
+          // Folk-based prioritization: If folk is selected, check if lowest archetype has folk restrictions
+          // Only prioritize folk traits if they belong to low-scoring archetypes
           if (this.selectedFolk) {
             const folkTraits = this.getFolkRestrictedTraits(this.selectedFolk);
-            const exploredTraits = this.getExploredTraits();
             const unexploredFolkTraits = folkTraits.filter(trait => !exploredTraits.has(trait));
 
-            // 70% chance to ask about folk-specific traits (if any unexplored)
-            if (unexploredFolkTraits.length > 0 && Math.random() < 0.7) {
+            // 30% chance to ask about folk-specific traits (reduced priority)
+            if (unexploredFolkTraits.length > 0 && Math.random() < 0.3) {
               const question = this.findQuestionForTrait(unexploredFolkTraits[0]);
               if (question) {
                 return question;
@@ -1666,11 +1888,8 @@
             }
           }
 
-          // Get current recommendations sorted by match percentage
-          const recommendations = this.calculateRecommendations();
-          const exploredTraits = this.getExploredTraits();
-
-          // Iterate through recommendations in reverse (starting from lowest-ranked)
+          // PRIMARY STRATEGY: Iterate through recommendations in reverse (starting from LAST/lowest-ranked)
+          // This explores why the lowest-scoring archetypes score poorly and gives them a chance to rise
           for (let i = recommendations.length - 1; i >= 0; i--) {
             const rec = recommendations[i];
             const requiredTraits = this.getArchetypeRequiredTraits(rec);
@@ -1685,7 +1904,7 @@
             }
           }
 
-          // Fallback: All top archetypes fully explored, pick random unused question
+          // Fallback: All archetypes fully explored, pick random unused question
           return this.getRandomUnusedQuestion();
         }
 
@@ -1718,42 +1937,26 @@
         }
 
         updateLiveScores() {
-          // Only show if at least one question has been answered
+          // Always show live scores, even with 0 answers (will show empty state)
           const answeredCount = Object.keys(this.userAnswers).filter(k => this.userAnswers[k] !== 'dont-know').length;
 
-          if (answeredCount === 0) {
-            document.getElementById('live-scores').style.display = 'none';
-            return;
-          }
-
-          // Detect localhost for development debugging
-          const isLocalhost = window.location.hostname === 'localhost' ||
-                             window.location.hostname === '127.0.0.1' ||
-                             window.location.hostname === '';
-
-          // Calculate current scores for all archetypes
-          const scores = isLocalhost ? this.calculateAllRecommendations() : this.calculateRecommendations();
-
-          if (!scores || scores.length === 0) {
-            return;
-          }
-
-          // Show the live scores container
+          // Always show the live scores container
           document.getElementById('live-scores').style.display = 'block';
 
-          // Update title for dev mode
-          const titleElement = document.querySelector('.live-scores-title');
-          titleElement.textContent = isLocalhost ? 'Live Match Progress (All Archetypes - Dev Mode)' : 'Live Match Progress';
+          // Always calculate scores for all archetypes
+          const scores = this.calculateAllRecommendations();
 
-          // Update container styling for dev mode (remove height limit)
-          const scoreBarsContainer = document.getElementById('score-bars');
-          if (isLocalhost) {
-            scoreBarsContainer.style.maxHeight = 'none';
-            scoreBarsContainer.style.height = 'auto';
-          } else {
-            scoreBarsContainer.style.maxHeight = '200px';
-            scoreBarsContainer.style.height = '';
+          if (!scores || scores.length === 0) {
+            document.getElementById('score-bars').innerHTML = '<div class="text-muted text-center py-3">Answer questions to see archetype matches</div>';
+            return;
           }
+
+          // Update title
+          const titleElement = document.querySelector('.live-scores-title');
+          titleElement.textContent = 'Live Match Progress';
+
+          // Scroll container is always limited in height (set in CSS)
+          const scoreBarsContainer = document.getElementById('score-bars');
 
           // Render score bars
           scoreBarsContainer.innerHTML = scores.map((result, index) => {
@@ -1761,20 +1964,144 @@
             const className = result.className.toLowerCase().replace(/\s+/g, '-');
             const classColor = `class-${className}`;
 
-            // Add debug info for localhost
-            const debugInfo = isLocalhost ? ` (Score: ${result.score.toFixed(1)}${result.folkBonus ? `, Folk: +${result.folkBonus}` : ''})` : '';
-
             return `<div class="score-bar-wrapper">
                       <div class="score-bar-container">
                         <div class="score-bar ${classColor}"
                              style="width: ${width}%;"
-                             data-tooltip="${result.displayName} - ${result.percentage.toFixed(1)}%${debugInfo}"
-                             title="${result.displayName}${debugInfo}"></div>
-                        <span class="score-class-name">${result.displayName}${isLocalhost ? ` (${result.percentage.toFixed(1)}%)` : ''}</span>
+                             data-tooltip="${result.displayName} - ${result.percentage.toFixed(1)}%"
+                             title="${result.displayName}"></div>
+                        <span class="score-class-name">${result.displayName}</span>
                       </div>
                     </div>`;
           }).join('');
         }
+
+        // updateClassChart() - COMMENTED OUT FOR NOW
+        /*
+        updateClassChart() {
+          const answeredCount = Object.keys(this.userAnswers).filter(k => this.userAnswers[k] !== 'dont-know').length;
+
+          if (answeredCount === 0) {
+            document.getElementById('class-standings').style.display = 'none';
+            return;
+          }
+
+          const userTraitProfile = this.getUserTraitProfile();
+          if (!userTraitProfile || userTraitProfile.length === 0) return;
+
+          document.getElementById('class-standings').style.display = 'block';
+
+          const isDarkMode = document.documentElement.classList.contains('dark-mode');
+          const gridColor = isDarkMode ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)';
+          const textColor = isDarkMode ? '#e0e0e0' : '#666';
+
+          // Destroy all existing charts
+          Object.values(this.charts).forEach(chart => {
+            if (chart.instance) chart.instance.destroy();
+          });
+
+          const formatTraitName = (name) => name
+            .replace(/-magic$/, '').replace(/-background$/, '').replace(/-value$/, '')
+            .split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+          // Calculate average trait score to normalize against
+          const avgTraitScore = userTraitProfile.reduce((sum, t) => sum + t.percentage, 0) / userTraitProfile.length;
+
+          // Filter traits with meaningful variation (not all at 100%)
+          const variableTraits = userTraitProfile.filter(t => t.percentage < 95);
+          const traitsToShow = variableTraits.length >= 10 ? variableTraits.slice(0, 10) : userTraitProfile.slice(0, 10);
+
+          // CHART 1: Horizontal Bar - Top 10 Traits (Dynamic Scale)
+          const minScore = Math.min(...traitsToShow.map(t => t.percentage));
+          const maxScore = Math.max(...traitsToShow.map(t => t.percentage));
+          const scoreRange = maxScore - minScore;
+
+          // Use dynamic scale if there's variation, otherwise show full scale
+          const usesDynamicScale = scoreRange > 5 && scoreRange < 80;
+          const scaleMin = usesDynamicScale ? Math.max(0, minScore - 10) : 0;
+          const scaleMax = usesDynamicScale ? Math.min(100, maxScore + 10) : 100;
+
+          this.charts.chart1.instance = new Chart(this.charts.chart1.canvas, {
+            type: 'bar',
+            data: {
+              labels: traitsToShow.map(t => formatTraitName(t.name)),
+              datasets: [{
+                data: traitsToShow.map(t => t.percentage),
+                backgroundColor: traitsToShow.map(t => {
+                  const relativeScore = (t.percentage - avgTraitScore) / avgTraitScore;
+                  if (relativeScore > 0.15) return 'rgba(75, 192, 192, 0.8)';
+                  if (relativeScore > -0.15) return 'rgba(54, 162, 235, 0.8)';
+                  return 'rgba(201, 203, 207, 0.8)';
+                })
+              }]
+            },
+            options: {
+              indexAxis: 'y',
+              responsive: true,
+              maintainAspectRatio: false,
+              scales: {
+                x: {
+                  min: scaleMin,
+                  max: scaleMax,
+                  ticks: { color: textColor },
+                  grid: { color: gridColor }
+                },
+                y: { ticks: { color: textColor, font: { size: 10 } }, grid: { display: false } }
+              },
+              plugins: { legend: { display: false } }
+            }
+          });
+
+          // CHART 2: Horizontal Bar - Bottom 10 Traits (Weakest - Dynamic Scale)
+          // Get the bottom 10 traits (weakest)
+          const allTraitsReversed = [...userTraitProfile].reverse();
+          const bottomVariableTraits = allTraitsReversed.filter(t => t.percentage < 95);
+          const bottomTraitsToShow = bottomVariableTraits.length >= 10 ?
+            bottomVariableTraits.slice(0, 10) :
+            allTraitsReversed.slice(0, 10);
+
+          // Calculate scale for bottom traits
+          const minBottomScore = Math.min(...bottomTraitsToShow.map(t => t.percentage));
+          const maxBottomScore = Math.max(...bottomTraitsToShow.map(t => t.percentage));
+          const bottomScoreRange = maxBottomScore - minBottomScore;
+
+          const usesBottomDynamicScale = bottomScoreRange > 5 && bottomScoreRange < 80;
+          const bottomScaleMin = usesBottomDynamicScale ? Math.max(0, minBottomScore - 10) : 0;
+          const bottomScaleMax = usesBottomDynamicScale ? Math.min(100, maxBottomScore + 10) : 100;
+
+          this.charts.chart2.instance = new Chart(this.charts.chart2.canvas, {
+            type: 'bar',
+            data: {
+              labels: bottomTraitsToShow.map(t => formatTraitName(t.name)),
+              datasets: [{
+                data: bottomTraitsToShow.map(t => t.percentage),
+                backgroundColor: bottomTraitsToShow.map(t => {
+                  const relativeScore = (t.percentage - avgTraitScore) / avgTraitScore;
+                  if (relativeScore > 0.15) return 'rgba(75, 192, 192, 0.8)';
+                  if (relativeScore > -0.15) return 'rgba(54, 162, 235, 0.8)';
+                  if (relativeScore > -0.35) return 'rgba(255, 159, 64, 0.8)';
+                  return 'rgba(255, 99, 132, 0.8)';
+                })
+              }]
+            },
+            options: {
+              indexAxis: 'y',
+              responsive: true,
+              maintainAspectRatio: false,
+              scales: {
+                x: {
+                  min: bottomScaleMin,
+                  max: bottomScaleMax,
+                  ticks: { color: textColor },
+                  grid: { color: gridColor }
+                },
+                y: { ticks: { color: textColor, font: { size: 10 } }, grid: { display: false } }
+              },
+              plugins: { legend: { display: false } }
+            }
+          });
+        }
+        */
 
         saveState() {
           const state = {

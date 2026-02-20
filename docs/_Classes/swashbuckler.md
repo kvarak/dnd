@@ -4,25 +4,25 @@ layout: default
 profile:
   generic:
     magicType: "none"
-    originBackground: ["urban", "military", "criminal", "noble", "rural", "tribal", "artisan"]
-  specific: ["agile-fighter", "finesse-expert", "dexterity-master", "mobile-combatant"]
+    originBackground: ["urban", "noble"]
+  specific: ["agile-fighter", "mobile-combatant", "duelist", "refined", "evasive"]
   archetypes:
     blacksnake:
-      specific: ["martial", "tactical", "precise", "controlling", "utility-focused", "disciplined", "unconventional", "exotic-weapons", "disarming", "skilled"]
+      specific: ["martial", "tactical-value", "precise", "controlling", "disciplined-value", "exotic-weapons", "disarming"]
     brawler:
-      specific: ["martial", "aggressive", "improvised", "adaptable", "resilient", "street-smart", "physical", "brawling", "durable", "unarmed-combat"]
+      specific: ["martial", "aggressive-value", "improvised", "adaptive", "physical", "unarmed-combat"]
     corsair:
-      specific: ["maritime", "intimidating", "fearsome", "charismatic", "adaptive", "outlaw", "ruthless", "pirate", "seafaring", "commanding"]
+      specific: ["fearsome", "charismatic", "adaptive", "outlaw", "seafaring", "commanding"]
     daredevil:
-      specific: ["acrobatic", "mobile", "agile", "reckless", "daring", "charismatic", "multitasking", "parkour", "crowd-fighter", "witty"]
+      specific: ["acrobatic", "mobile", "reckless", "daring", "charismatic", "multitasking", "parkour", "crowd-fighter"]
     duelist:
-      specific: ["refined", "precise", "honorable", "elegant", "disciplined", "traditional", "perfectionist", "fencing", "reputation", "critical-striker"]
+      specific: ["refined", "precise", "honorable", "disciplined-value", "traditional-values", "perfectionist", "duelist", "critical-striker"]
     fatebender:
-      specific: ["lucky", "chaotic", "improvised", "oblivious", "destined", "unpredictable", "fortunate", "probability-manipulation", "fate-touched", "casual"]
+      specific: ["lucky", "chaotic-value", "improvised", "unpredictable-power", "probability-manipulation", "fate-touched", "reckless"]
     highwayman:
-      specific: ["mounted", "outlaw", "nomadic", "cunning", "theatrical", "rebellious", "dual-identity", "traveler", "bandit", "masked"]
+      specific: ["criminal-background", "mounted", "outlaw", "wanderer-spirit", "cunning-value", "theatrical", "rebellious", "dual-identity", "masked"]
     musketeer:
-      specific: ["military", "disciplined", "teamwork-focused", "courtly", "honorable", "tactical", "supportive", "organized", "loyal", "commanding"]
+      specific: ["military-background", "disciplined-value", "teamwork-focused", "noble-background", "honorable", "tactical-value", "supportive-role", "loyal-guardian", "commanding"]
 ---
 
 <div class="toc" markdown="1">

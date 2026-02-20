@@ -19,12 +19,12 @@ profile:
   generic:
     magicType: "versatile"
     originBackground: ["scholarly", "urban", "rural", "criminal"]
-  specific: ["knowledge-seeker", "otherworldly-knowledge", "magic-student", "cunning-value"]
+  specific: ["knowledge-seeker", "otherworldly-knowledge", "magic-student", "cunning-value", "arcane-magic"]
   archetypes:
     abraxas:
       generic:
         magicType: "damage"
-      specific: ["arcane-scholar", "knowledge-seeker", "ancient-lore", "damage-magic"]
+      specific: ["scholar", "knowledge-seeker", "ancient-lore", "damage-magic"]
     ancient-dragon:
       generic:
         magicType: "damage"
@@ -38,7 +38,7 @@ profile:
     ashen-wolf:
       generic:
         magicType: "damage"
-      specific: ["primal-hunter", "fire-affinity", "wild-spirit", "aggressive-value"]
+      specific: ["hunting-expert", "fire-affinity", "wild-spirit", "aggressive-value"]
     blackthorn-grove:
       specific: ["nature-guardian", "plant-mastery", "wild-spirit", "protective-value"]
     cosmic-machine:
@@ -50,7 +50,7 @@ profile:
     dagon:
       generic:
         magicType: "control"
-      specific: ["aquatic-heritage", "water-mastery", "aberrant-influence", "primal-hunter"]
+      specific: ["aquatic-heritage", "water-mastery", "aberrant-influence", "hunting-expert"]
     death:
       specific: ["death-magic", "necromancy-dabbler", "patient-value", "fate-touched"]
     dispater:
@@ -98,11 +98,11 @@ profile:
     monstrosity:
       generic:
         magicType: "damage"
-      specific: ["physical-prowess", "unstoppable-force", "primal-hunter", "aggressive-value"]
+      specific: ["physical", "unstoppable-force", "hunting-expert", "aggressive-value"]
     wild-huntsman:
       generic:
         magicType: "utility"
-      specific: ["primal-hunter", "beast-friend", "fey-warrior", "athletic-prowess"]
+      specific: ["hunting-expert", "beast-friend", "fey-warrior", "athletic-prowess"]
     pharaoh:
       specific: ["divine-student", "ancient-lore", "desert-survival", "noble-heritage"]
     seducer:
@@ -133,7 +133,7 @@ profile:
     bastion:
       specific: ["defensive-expert", "shield-specialist", "protective-value", "heavy-armor"]
     blade:
-      specific: ["weapon-specialist", "physical-prowess", "aggressive-value", "instinctive-combatant"]
+      specific: ["weapon-specialist", "physical", "aggressive-value", "instinctive-combatant"]
     chain:
       specific: ["summon-familiar", "beast-friend", "supportive-role", "tactical-value"]
     cowl:

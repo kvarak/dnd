@@ -5,14 +5,14 @@ profile:
   generic:
     magicType: "healing"
     originBackground: ["military", "religious", "noble"]
-  specific: ["divine-warrior", "holy-power", "lawful-value"]
+  specific: ["divine-warrior", "holy-power", "lawful-value", "divine-magic"]
   archetypes:
     oath-of-anarchy:
       specific: ["nature-guardian", "chaotic-value", "wild-spirit", "freedom-fighter"]
     oath-of-the-ancients:
       specific: ["nature-guardian", "fey-touched", "ancient-lore", "protective-value"]
     oath-of-balance:
-      specific: ["diplomatic-soul", "wisdom-seeker", "balanced-approach", "patient-value"]
+      specific: ["diplomatic-soul", "wisdom-seeker", "patient-value", "adaptive", "nature-guardian", "improvised"]
     oath-of-the-bastion:
       specific: ["protective-value", "disciplined-value", "loyal-guardian", "defensive-expert"]
     oath-of-benevolence:
@@ -26,55 +26,55 @@ profile:
     oath-of-devotion:
       specific: ["holy-power", "lawful-value", "disciplined-value", "religious-value"]
     oath-of-the-elder-sign:
-      specific: ["aberration-hunter", "protective-value", "eldritch-knowledge", "fearless-heart"]
+      specific: ["monster-hunter", "protective-value", "otherworldly-knowledge", "fearless-heart"]
     oath-of-freshness:
-      specific: ["artistic-soul", "joyful-spirit", "social-manipulator", "charismatic-presence"]
+      specific: ["artistic-excellence", "joyful-spirit", "social-manipulator", "charismatic"]
     oath-of-the-grave:
-      specific: ["undead-hunter", "death-magic", "protective-value", "grim-reaper"]
+      specific: ["undead-hunter", "death-magic", "protective-value", "death-speaker", "ritual-caster", "wisdom-seeker"]
     oath-of-the-guardian:
       specific: ["protective-value", "defensive-expert", "loyal-guardian", "nurturing-soul"]
     oath-of-leadership:
-      specific: ["inspirational-leader", "tactical-value", "charismatic-presence", "disciplined-value"]
+      specific: ["inspirational-leader", "tactical-value", "charismatic", "disciplined-value"]
     oath-of-the-lyan:
-      specific: ["lawful-value", "disciplined-value", "honorable-warrior", "traditional-values"]
+      specific: ["lawful-value", "disciplined-value", "honorable", "traditional-values"]
     oath-of-martyrdom:
-      specific: ["self-sacrifice", "protective-value", "nurturing-soul", "fearless-heart"]
+      specific: ["protective-value", "nurturing-soul", "fearless-heart", "endurance-specialist", "divine-healer", "honorable"]
     oath-of-the-purge:
-      specific: ["zealot-faith", "destructive-power", "lawful-value", "purifying-flame"]
+      specific: ["zealot-faith", "damage-magic", "lawful-value", "monster-hunter", "relentless-hunter", "fearsome"]
     oath-of-radiance:
       specific: ["truth-seeker", "holy-power", "illuminating-light", "wisdom-seeker"]
     oath-of-redemption:
-      specific: ["compassionate-heart", "healing-magic", "forgiveness-virtue", "patient-value"]
+      specific: ["compassionate-heart", "healing-magic", "patient-value", "divine-healer", "wisdom-seeker", "mind-reader"]
     oath-of-supremacy:
-      specific: ["proud-value", "inspirational-leader", "zealot-faith", "superior-being"]
+      specific: ["proud-value", "inspirational-leader", "zealot-faith", "noble-heritage", "commanding", "fearsome"]
     oath-of-tomorrow:
-      specific: ["progressive-ideals", "modern-value", "visionary-leader", "change-agent"]
+      specific: ["progressive-ideals", "modern-value", "inspirational-leader", "engineering-mind", "multitasking", "creative-artisan"]
     oath-of-tradition:
-      specific: ["ancient-lore", "traditional-values", "scholarly-background", "cultural-guardian"]
+      specific: ["ancient-lore", "traditional-values", "scholarly-background", "nature-guardian"]
     oath-of-vengeance:
       specific: ["relentless-hunter", "divine-warrior", "justice-seeker", "vengeful-soul"]
     oath-of-the-waves:
-      specific: ["sea-born", "nature-guardian", "elemental-affinity", "fluid-movement"]
+      specific: ["seafaring", "nature-guardian", "elemental-affinity", "mobile-combatant"]
     oath-of-blood:
       restriction:
         folk: ["dhampir"]
-      specific: ["vampiric-nature", "blood-magic", "dark-heritage", "cursed-blessing"]
+      specific: ["dual-nature", "shadow-affinity", "death-magic", "shadow-binding"]
     oath-of-festivity:
       restriction:
         folk: ["eladrin", "halfling"]
-      specific: ["joyful-spirit", "artistic-soul", "social-manipulator", "festive-celebration"]
+      specific: ["joyful-spirit", "artistic-excellence", "social-manipulator", "theatrical", "charm-magic", "perfectionist"]
     oath-of-the-revenant:
       restriction:
         folk: ["awakened"]
-      specific: ["undead-hunter", "duty-bound", "vengeful-soul", "death-magic"]
+      specific: ["undead-hunter", "lawful-value", "vengeful-soul", "death-magic"]
     oath-of-the-wing-seeker:
       restriction:
         folk: ["kenku"]
-      specific: ["flight-seeker", "ancient-curse", "freedom-fighter", "sky-longing"]
+      specific: ["wanderer-spirit", "freedom-fighter", "rebellious", "relentless-hunter", "fearsome"]
     oath-of-the-stonelord:
       restriction:
         folk: ["dwarf"]
-      specific: ["earth-affinity", "protective-value", "ancient-lore", "stone-guardian"]
+      specific: ["elemental-affinity", "protective-value", "ancient-lore", "nature-guardian"]
 ---
 
 <div class="toc">

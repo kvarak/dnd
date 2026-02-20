@@ -21,7 +21,7 @@ Convert from categorical preference matching to multi-dimensional trait scoring 
   - 7× urban, 7× rural, 5× noble, 3× criminal, 2× military, 1× scholarly
 
 ### Specific Traits (45 unique traits with high/medium/low weights)
-acrobatic, athletic-excellence, chaotic-nature, classic-rogue, craftsman-warrior, crossbow-specialist, cunning-mind, death-dealer, disciplined-warrior, disguise-master, draconic-heritage, dual-nature, elemental-affinity, engineering-mind, fast-hands, fate-touched, illusion-specialist, innate-power, intellectual-combatant, intuitive-caster, lock-picker, mage-hand-master, magic-student, magical-bloodline, modern-thinker, natural-armor, opportunistic, patient-hunter, physical-prowess, professional-killer, proud-lineage, pure-warrior, ranged-expert, raw-talent, scholar-warrior, scholarly-rogue, skill-expert, social-manipulator, stealth-master, tactical-mind, treasure-hunter, unpredictable-power, weapon-master, weapon-specialist, wild-surges
+acrobatic, athletic-excellence, chaotic-nature, classic-rogue, craftsman-warrior, crossbow-specialist, cunning-mind, death-dealer, disciplined-warrior, disguise-master, draconic-heritage, dual-nature, elemental-affinity, engineering-mind, fast-hands, fate-touched, illusion-specialist, innate-power, intellectual-combatant, intuitive-caster, lock-picker, mage-hand-master, magic-student, modern-thinker, natural-armor, opportunistic, patient-hunter, physical-prowess, professional-killer, proud-lineage, pure-warrior, ranged-expert, raw-talent, scholar-warrior, scholarly-rogue, social-manipulator, stealth-master, tactical-mind, treasure-hunter, unpredictable-power, weapon-master, weapon-specialist, wild-surges
 
 ### Questions (34 total)
 Organized by category:

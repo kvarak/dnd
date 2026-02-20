@@ -5,7 +5,7 @@ profile:
   generic:
     magicType: "versatile"
     originBackground: ["natural-prodigy", "haunted-past", "destiny-burdened"]
-  specific: ["fey-touched", "versatile-magic", "chaotic-value"]
+  specific: ["fey-touched", "versatile-magic", "chaotic-value", "unpredictable-power", "wild-spirit", "fey-beauty", "nature-magic"]
   archetypes:
     boggart-affinity:
       specific: ["trickster-magic", "social-manipulator", "cunning-value", "opportunistic-value"]

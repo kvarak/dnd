@@ -145,7 +145,19 @@ function mergeArchetypeProfile(baseProfile, archetypeData) {
 }
 
 /**
+ * Format boon name for display (e.g., "talisman" -> "Pact of the Talisman")
+ */
+function formatBoonName(boonName) {
+  const formatted = boonName
+    .split(/[-_\s]+/)
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ');
+  return `Pact of the ${formatted}`;
+}
+
+/**
  * Get all Class/Archetype combinations from loaded profiles
+ * For classes with boons (like Warlock), scores them separately
  */
 function getClassArchetypeCombinations() {
   const classProfiles = loadClassProfiles();
@@ -159,15 +171,34 @@ function getClassArchetypeCombinations() {
         combinations.push({
           className: className,
           archetypeName: archetypeName,
-          displayName: `${className}/${archetypeName}`,
+          boonName: null,
+          displayName: `${archetypeName} (${className})`,
           profile: mergedProfile
         });
       }
-    } else {
-      // Class has no archetypes, use base profile
+    }
+
+    // Handle boons separately (for Warlock patron/pact structure)
+    // Boons are scored independently so users can combine with their preferred patron
+    if (classProfile.boons) {
+      for (const [boonName, boonData] of Object.entries(classProfile.boons)) {
+        const mergedProfile = mergeArchetypeProfile(classProfile, boonData);
+        combinations.push({
+          className: className,
+          archetypeName: null,
+          boonName: boonName,
+          displayName: `${formatBoonName(boonName)} (${className})`,
+          profile: mergedProfile
+        });
+      }
+    }
+
+    // If no archetypes or boons, use base profile
+    if (!classProfile.archetypes && !classProfile.boons) {
       combinations.push({
         className: className,
         archetypeName: null,
+        boonName: null,
         displayName: className,
         profile: classProfile
       });
@@ -273,7 +304,83 @@ function scoreArchetypeCombination(combination, userAnswers, questionBank) {
 }
 
 /**
+ * Group classes with boons (like Warlock patron+pact) into combined recommendations
+ * For each class, if we have both archetypes and boons in top results:
+ * - Find the best-scoring archetype (patron)
+ * - Find the best-scoring boon (pact)
+ * - Combine them into a single recommendation
+ * - Remove the individual entries
+ */
+function groupBoonCombinations(results) {
+  const classesWithBoons = {}; // Track classes that have boon combinations
+  const keptResults = [];
+  const combinedResults = [];
+
+  // First pass: identify classes with both archetypes and boons
+  for (const result of results) {
+    const className = result.className;
+
+    if (!classesWithBoons[className]) {
+      classesWithBoons[className] = { archetypes: [], boons: [] };
+    }
+
+    if (result.archetypeName) {
+      classesWithBoons[className].archetypes.push(result);
+    } else if (result.boonName) {
+      classesWithBoons[className].boons.push(result);
+    } else {
+      // Base class with no archetype or boon
+      keptResults.push(result);
+    }
+  }
+
+  // Second pass: for classes with both archetypes and boons, combine them
+  for (const [className, data] of Object.entries(classesWithBoons)) {
+    if (data.archetypes.length > 0 && data.boons.length > 0) {
+      // This class has both archetypes and boons (e.g., Warlock)
+      // Take the top-scoring archetype and top-scoring boon
+      const topArchetype = data.archetypes[0]; // Already sorted by score
+      const topBoon = data.boons[0];
+
+      // Create combined recommendation
+      // Average the scores weighted by their individual max scores
+      const combinedScore = (topArchetype.score + topBoon.score) / 2;
+      const combinedMaxScore = (topArchetype.maxScore + topBoon.maxScore) / 2;
+      const combinedPercentage = combinedMaxScore > 0 ? (combinedScore / combinedMaxScore) * 100 : 0;
+
+      // Merge match details
+      const combinedMatchDetails = [...topArchetype.matchDetails, ...topBoon.matchDetails];
+
+      combinedResults.push({
+        className: className,
+        archetypeName: topArchetype.archetypeName,
+        boonName: topBoon.boonName,
+        displayName: `${topArchetype.archetypeName} + ${formatBoonName(topBoon.boonName)} (${className})`,
+        score: combinedScore,
+        maxScore: combinedMaxScore,
+        percentage: combinedPercentage,
+        matchDetails: combinedMatchDetails,
+        isCombined: true // Flag to indicate this is a combined recommendation
+      });
+    } else if (data.archetypes.length > 0) {
+      // Only archetypes, no boons
+      keptResults.push(...data.archetypes);
+    } else if (data.boons.length > 0) {
+      // Only boons, no archetypes
+      keptResults.push(...data.boons);
+    }
+  }
+
+  // Merge combined and kept results, then re-sort
+  const finalResults = [...combinedResults, ...keptResults];
+  finalResults.sort((a, b) => b.score - a.score);
+
+  return finalResults;
+}
+
+/**
  * Score all class/archetype combinations and return ranked recommendations
+ * For classes with boons (Warlock), combines top patron + top boon into unified recommendations
  */
 function calculateClassRecommendations(userAnswers, options = {}) {
   const questionBank = loadQuestionBank();
@@ -288,6 +395,7 @@ function calculateClassRecommendations(userAnswers, options = {}) {
     results.push({
       className: combination.className,
       archetypeName: combination.archetypeName,
+      boonName: combination.boonName,
       displayName: combination.displayName,
       ...combinationScore
     });
@@ -296,12 +404,15 @@ function calculateClassRecommendations(userAnswers, options = {}) {
   // Sort by score (descending)
   results.sort((a, b) => b.score - a.score);
 
+  // Group Warlock (or any class with boons) patron + boon combinations
+  const groupedResults = groupBoonCombinations(results);
+
   // Optionally limit results
   if (options.limit) {
-    return results.slice(0, options.limit);
+    return groupedResults.slice(0, options.limit);
   }
 
-  return results;
+  return groupedResults;
 }
 
 /**

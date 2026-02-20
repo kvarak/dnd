@@ -75,6 +75,8 @@
       divine-healer: +3 # Divine healing mission
       potion-brewer: +4 # Potions are healing-focused
       protective-value: +4 # Protecting allies
+      divine-magic: +2 # Divine healing power
+      diplomatic-soul: +2 # Compassionate healer
       defensive-expert: +2 # Defensive focus
       utility-magic: +1 # Support often includes utility spells
       damage-magic: -2 # Moderate opposition to offensive magic
@@ -86,6 +88,7 @@
       versatile-magic: +1 # Flexibility in approach
     "no":
       healing-magic: -2 # Rejection of healing role
+      death-speaker: -2 # Focused on death not life
       potion-brewer: -2 # Not interested in healing potions
       protective-value: -1 # Not focused on protection
       damage-magic: +2 # Likely prefers offensive spells
@@ -97,17 +100,18 @@
   answers:
     "yes":
       versatile-magic: +4 # Broad magical interest
+      arcane-magic: +3 # Arcane spellcasting
       utility-magic: +1 # General magic includes utility
       damage-magic: +1 # And damage
       healing-magic: +1 # And healing
       control-magic: +1 # And control
-      arcane-averse-magic: -4 # Strong opposition to non-magical
+      physical: -4 # Strong opposition to pure martial
     "maybe":
       utility-magic: +2 # Some magical interest, practical
       versatile-magic: +1 # Moderate breadth
-      arcane-averse-magic: -1 # Slight away from pure martial
+      physical: -1 # Slight away from pure martial
     "no":
-      arcane-averse-magic: +4 # Strong preference for non-magical
+      physical: +4 # Strong preference for non-magical
       magic-hunter: +3 # Hunt dangerous magic users
       spell-disruptor: +3 # Disrupt magical threats
       versatile-magic: -3 # Strong opposition to magic
@@ -121,6 +125,7 @@
   answers:
     "yes":
       damage-magic: +4 # Direct preference for offensive spells
+      arcane-magic: +2 # Arcane damage spells
       versatile-magic: +1 # Damage is part of versatility
       healing-magic: -2 # Moderate opposition to support
     "maybe":
@@ -139,7 +144,9 @@
   category: roleplay-style
   answers:
     "yes":
+      diplomatic-soul: +3 # Natural diplomat
       noble-background: +3 # Social skill suggests high-class upbringing
+      musical-magic: +2 # Performance and charm
       urban-background: +2 # Cities require social navigation
       criminal-background: -1 # Less formal social interaction
       rural-background: -2 # Rural life less social
@@ -211,6 +218,10 @@
       rural-background: +4 # Direct preference
       survival-expert: +3 # Wilderness skills
       nature-guardian: +3 # Natural protector
+      nature-magic: +3 # Nature spellcasting
+      freedom-fighter: +2 # Wild and untamed
+      wanderer-spirit: +2 # Roaming lifestyle
+      fey-touched: +2 # Fey wildlands
       tribal-background: +1 # Wilderness often tribal
       urban-background: -2 # Opposition to cities
       noble-background: -1 # Less likely noble
@@ -227,7 +238,9 @@
   answers:
     "yes":
       scholarly-background: +4 # Direct preference
+      information-broker: +2 # Knowledge gathering
       versatile-magic: +2 # Study often leads to magic
+      artistic-excellence: +2 # Study of craft
       utility-magic: +1 # Research = utility
       urban-background: +1 # Schools in cities
       rural-background: -1 # Less common in countryside
@@ -238,7 +251,7 @@
     "no":
       scholarly-background: -2 # Not interested in books
       rural-background: +2 # Practical/hands-on learning
-      arcane-averse-magic: +1 # Less likely to study magic
+      physical: +1 # Less likely to study magic
     dont-know: {}
 - id: criminal-past
   text: "Does a criminal/underground background interest you?"
@@ -268,6 +281,10 @@
       inspirational-leader: +4 # Direct leadership preference
       charismatic: +4 # Leadership requires charisma
       military-background: +3 # Military leadership
+      commanding: +3 # Direct command preference
+      musical-magic: +2 # Inspiring through performance
+      diplomatic-soul: +2 # Peaceful leadership
+      seafaring: +2 # Ship captain
       noble-background: +2 # Noble born to lead
       social-manipulator: +1 # Leadership requires social skills
       protective-value: +1 # Protect team
@@ -309,13 +326,16 @@
       damage-magic: +3 # Elements often destructive
       elemental-affinity: +4 # Direct elemental connection
       fire-affinity: +3 # Fire element focus
+      nature-magic: +2 # Natural elements
       draconic-heritage: +2 # Dragons = elemental
       versatile-magic: +1 # Elements cover multiple schools
     "maybe":
       versatile-magic: +2 # Some magical interest
+      nature-magic: +1 # Some elemental affinity
       elemental-affinity: +1 # Mild affinity
     "no":
-      arcane-averse-magic: +2 # Against flashy magic
+      physical: +2 # Against flashy magic
+      divine-magic: +2 # Faith over elements
       elemental-affinity: -2 # Not drawn to elements
     dont-know: {}
 # Specific Trait Questions
@@ -327,13 +347,13 @@
       weapon-specialist: +4 # Direct preference
       weapon-master: +3 # Master weapons
       disciplined-value: +2 # Mastery requires discipline
-      arcane-averse-magic: +1 # Focus on weapons, not spells
+      physical: +1 # Focus on weapons, not spells
     "maybe":
-      physical-prowess: +2 # Some martial interest
+      physical: +2 # Some martial interest
       weapon-specialist: +1 # Moderate specialization
     "no":
       versatile-magic: +2 # Prefer magic instead
-      arcane-averse-magic: -1 # Less weapon focus
+      physical: -1 # Less weapon focus
     dont-know: {}
 - id: tactical-thinking
   text: "Do you prefer planning and strategy over instinctive action?"
@@ -343,7 +363,7 @@
       tactical-value: +4 # Direct preference for strategy
       intellectual-combatant: +3 # Smart fighting
       adaptable-fighter: +2 # Adaptable tactics
-      scholar-warrior: +2 # Study to fight better
+      scholar: +2 # Study to fight better
       disciplined-value: +1 # Discipline aids planning
     "maybe":
       tactical-value: +1 # Some planning
@@ -361,14 +381,14 @@
       innate-power: +4 # Direct preference for natural talent
       raw-talent: +3 # Raw ability
       intuitive-value: +3 # Instinctive magic use
-      magical-bloodline: +2 # Inborn magical heritage
       versatile-magic: +1 # Natural magic often broad
     "maybe":
       dual-nature: +2 # Mix of natural and learned
       utility-magic: +1 # Practical magic
     "no":
-      scholar-warrior: +3 # Study over talent
+      scholar: +3 # Study over talent
       magic-student: +3 # Learned magic
+      adaptive: +2 # Learns to adapt
       scholarly-background: +2 # Academic approach
     dont-know: {}
 - id: physical-excellence
@@ -376,15 +396,14 @@
   category: physical-focus
   answers:
     "yes":
-      athletic-excellence: +4 # Direct preference
-      physical-prowess: +3 # General physicality
+      athletic-prowess: +4 # Direct preference
+      physical: +3 # General physicality
       mobile-combatant: +2 # Athletic mobility
-      pure-warrior: +2 # Physical over magical
-      arcane-averse-magic: +1 # Less focus on spells
     "maybe":
-      physical-prowess: +1 # Some athleticism
+      physical: +1 # Some athleticism
       dual-nature: +1 # Balance of physical and other
     "no":
+      physical: -2 # Against physical focus
       versatile-magic: +2 # Prefer magic
       scholarly-background: +1 # Mental over physical
     dont-know: {}
@@ -393,7 +412,7 @@
   category: character-heritage
   answers:
     "yes":
-      magical-bloodline: +4 # Magical ancestry
+      innate-power: +4 # Magical ancestry/innate power
       draconic-heritage: +3 # Dragon blood common
       proud-value: +3 # Pride in heritage
       elemental-affinity: +2 # Elemental connection
@@ -401,7 +420,6 @@
       tribal-background: +1 # Or tribal heritage
     "maybe":
       innate-power: +2 # Some natural ability
-      magical-bloodline: +1 # Possible heritage
     "no":
       rural-background: +2 # Common folk
       scholarly-background: +1 # Learned not inherited
@@ -414,9 +432,11 @@
       chaotic-value: +4 # Direct preference for chaos
       unpredictable-power: +4 # Unpredictable magic
       wild-surges: +4 # Wild magic surges
+      fey-touched: +3 # Fey wild magic
       entropy-conduit: +3 # Channeling chaotic forces
       risk-taker: +3 # Risk-taking from chaos
       fate-touched: +2 # Luck/destiny
+      freedom-fighter: +2 # Rebels against order
       raw-talent: +1 # Unrefined ability
     "maybe":
       chaotic-value: +1 # Some chaos tolerance
@@ -424,6 +444,8 @@
     "no":
       disciplined-value: +3 # Order and structure
       tactical-value: +2 # Planning over chaos
+      relentless-hunter: +2 # Methodical pursuit
+      vengeful-soul: -2 # Focused pursuit
       scholarly-background: +1 # Controlled approach
     dont-know: {}
 - id: defensive-protection
@@ -433,7 +455,7 @@
     "yes":
       healing-magic: +3 # Protection includes healing
       natural-armor: +3 # Self-protection
-      pure-warrior: +2 # Tank warrior
+      physical: +2 # Tank warrior
       disciplined-value: +2 # Defensive discipline
       control-magic: +1 # Battlefield protection
     "maybe":
@@ -451,14 +473,15 @@
       dual-nature: +4 # Direct preference for hybrid
       intellectual-combatant: +3 # Smart hybrid fighting
       adaptable-fighter: +3 # Adaptability
-      scholar-warrior: +2 # Study + combat
+      adaptive: +2 # Flexible approach
+      scholar: +2 # Study + combat
       magic-student: +2 # Learn diverse skills
       versatile-magic: +1 # Broad magical knowledge
     "maybe":
       versatile-magic: +1 # Some versatility
       dual-nature: +1 # Moderate hybrid
     "no":
-      pure-warrior: +3 # Focus on one thing
+      physical: +3 # Focus on one thing
       weapon-specialist: +1 # Specialize not generalize
     dont-know: {}
 - id: ranged-combat
@@ -475,8 +498,8 @@
       ranged-expert: +1 # Some ranged combat
       versatile-magic: +1 # Mix of approaches
     "no":
-      pure-warrior: +2 # Melee combat
-      athletic-excellence: +1 # Close combat athleticism
+      physical: +2 # Melee combat
+      athletic-prowess: +1 # Close combat athleticism
     dont-know: {}
 - id: crafting-engineering
   text: "Are you interested in crafting and engineering?"
@@ -485,14 +508,14 @@
     "yes":
       engineering-mind: +4 # Direct technical interest
       craftsman-warrior: +4 # Crafting warrior
+      artistic-excellence: +3 # Artisan mastery
       modern-value: +2 # Non-traditional approach
       utility-magic: +1 # Practical magic use
     "maybe":
       engineering-mind: +1 # Some technical interest
       craftsman-warrior: +1 # Some craft skills
     "no":
-      pure-warrior: +2 # Traditional combat focus
-      arcane-averse-magic: +1 # Less technical/magical
+      physical: +2 # Traditional combat focus
     dont-know: {}
 - id: sophisticated-approach
   text: "Do you prefer sophisticated, technical solutions over brute force?"
@@ -508,8 +531,7 @@
       tactical-value: +2 # Some planning
       modern-value: +1 # Some sophistication
     "no":
-      pure-warrior: +4 # Brute force approach
-      physical-prowess: +1 # Physical solutions
+      physical: +4 # Brute force approach
     dont-know: {}
 # Rogue-specific Questions
 - id: stealth-approach
@@ -520,6 +542,7 @@
       stealth-master: +4 # Direct stealth preference
       cunning-value: +3 # Cleverness required
       opportunistic-value: +2 # Strike when advantageous
+      information-broker: +2 # Gather intelligence
       classic-rogue: +4 # Classic rogue approach
       criminal-background: +1 # Stealth fits criminal
     "maybe":
@@ -527,15 +550,14 @@
       cunning-value: +2 # Moderate cleverness
       tactical-value: +1 # Thoughtful approach
     "no":
-      pure-warrior: +2 # Direct combat
-      athletic-excellence: +1 # Physical confrontation
+      physical: +2 # Direct combat
+      athletic-prowess: +1 # Physical confrontation
     dont-know: {}
 - id: skill-versatility
   text: "Do you want to be good at many different skills (lockpicking, persuasion, acrobatics)?"
   category: character-versatility
   answers:
     "yes":
-      skill-expert: +4 # Direct skill focus
       cunning-value: +3 # Smart skill use
       lock-picker: +3 # Lockpicking mentioned
       social-manipulator: +2 # Persuasion included
@@ -544,11 +566,10 @@
       fast-hands: +2 # Dexterity skills
       urban-background: +1 # City skills
     "maybe":
-      skill-expert: +2 # Some versatility
       cunning-value: +1 # Some skill
     "no":
       weapon-specialist: +2 # Focus on combat
-      pure-warrior: +1 # Martial over skills
+      physical: +1 # Martial over skills
     dont-know: {}
 - id: treasure-motivation
   text: "Does the promise of treasure and riches motivate your character?"
@@ -611,6 +632,8 @@
       illusion-specialist: +4 # Illusion focus
       mind-alteration: +3 # Altering perception
       mage-hand-master: +3 # Specific trick spell
+      charm-magic: +2 # Enchantment and trickery
+      musical-magic: +2 # Performance magic
       cunning-value: +2 # Clever magic use
       versatile-magic: +1 # Varied magic
     "maybe":
@@ -618,16 +641,15 @@
       mind-alteration: +1 # Some perception effects
       versatile-magic: +1 # Moderate interest
     "no":
-      arcane-averse-magic: +3 # Against magic
+      physical: +3 # Against magic/martial focus
       mind-alteration: -2 # Against perception manipulation
-      pure-warrior: +1 # Martial focus
     dont-know: {}
 - id: study-vs-talent
   text: "Do you prefer learning through study and books over natural talent?"
   category: learning-style
   answers:
     "yes":
-      scholarly-rogue: +4 # Studied rogue
+      scholar: +4 # Studied rogue
       magic-student: +4 # Learned magic
       intellectual-combatant: +3 # Smart fighter
       scholarly-background: +2 # Academic
@@ -638,6 +660,7 @@
       intuitive-value: +4 # Instinctive magic
       innate-power: +3 # Natural ability
       raw-talent: +3 # Untrained skill
+      fey-touched: +2 # Innate fey power
       chaotic-value: +1 # Spontaneous
     dont-know: {}
 - id: lethal-force
@@ -648,12 +671,14 @@
       death-dealer: +4 # Direct lethal focus
       necromancy-dabbler: +2 # Comfortable with death
       professional-killer: +3 # Assassin trait
+      vengeful-soul: +2 # Focused on eliminating foes
       disciplined-value: +1 # Pragmatic combat
     "maybe":
       tactical-value: +1 # Situation dependent
     "no":
       healing-magic: +3 # Prefer to save lives
       necromancy-dabbler: -2 # Uncomfortable with death
+      justice-seeker: +2 # Prefers to spare lives
       control-magic: +1 # Subdue not kill
       noble-background: +1 # Moral code
     dont-know: {}
@@ -670,8 +695,10 @@
     "maybe":
       ranged-expert: +1 # Some ranged interest
       dual-nature: +1 # Mix ranged/melee
+      mounted: +1 # Some mounted archery
     "no":
-      physical-prowess: +2 # Melee preference
+      physical: +2 # Melee preference
+      mounted: -2 # Lances not bows
       weapon-master: +1 # Close combat
     dont-know: {}
 - id: precision-vs-power
@@ -679,15 +706,14 @@
   category: combat-approach
   answers:
     "yes":
-      archery-specialist: +3 # Precision archery
-      tactical-value: +2 # Calculated approach
-      patient-value: +2 # Careful aim
-      ranged-expert: +1 # Ranged precision
+      tactical-value: +3 # Precision requires tactics
+      disciplined-value: +2 # Disciplined striking
+      patient-value: +2 # Wait for right moment
     "maybe":
-      tactical-value: +1 # Some calculation
+      dual-nature: +1 # Mix of both
     "no":
-      physical-prowess: +3 # Raw strength
-      pure-warrior: +2 # Power over finesse
+      physical: +3 # Raw strength focus
+      mounted: +2 # Charging power
     dont-know: {}
 # Combat Style - Shield Defense
 - id: shield-defense
@@ -717,13 +743,12 @@
       healing-magic: +2 # Support role
       tactical-value: +1 # Team tactics
       disciplined-value: +1 # Reliable defender
-      necromancy-dabbler: -2 # Against using death
     "maybe":
-      tactical-value: +1 # Some team focus
+      defensive-expert: +1 # Some protection
+      dual-nature: +1 # Balanced approach
     "no":
-      death-dealer: +2 # Personal damage focus
-      necromancy-dabbler: +1 # Pragmatic about death
-      professional-killer: +1 # Solo effectiveness
+      relentless-hunter: +2 # Solo pursuit focus
+      damage-magic: +2 # Offense focused
     dont-know: {}
 - id: defensive-stance
   text: "Do you prefer a defensive, methodical fighting style over aggressive offense?"
@@ -741,7 +766,7 @@
     "no":
       defensive-expert: -2 # Against defensive fighting
       aggressive-value: +3 # Direct aggressive approach
-      physical-prowess: +2 # Aggressive offense
+      physical: +2 # Aggressive offense
       chaotic-value: +1 # Wild fighting
     dont-know: {}
 # Combat Style - Risk-taking and Mobility
@@ -752,6 +777,8 @@
     "yes":
       risk-taker: +4 # Direct risk-taking preference
       opportunistic-value: +3 # Seizing risky opportunities
+      joyful-spirit: +2 # Thrilling excitement
+      lucky: +2 # Trust in fortune
       chaotic-value: +2 # Unpredictable actions
       acrobatic: +1 # Daring maneuvers
     "maybe":
@@ -760,6 +787,7 @@
     "no":
       patient-value: +3 # Cautious approach
       tactical-value: +2 # Calculated combat
+      joyful-spirit: -2 # Prefers safety
       disciplined-value: +1 # Methodical fighting
     dont-know: {}
 - id: mobile-fighting
@@ -769,14 +797,14 @@
     "yes":
       mobile-combatant: +4 # Direct mobility preference
       acrobatic: +3 # Agile movement
-      athletic-excellence: +2 # Physical agility
+      athletic-prowess: +2 # Physical agility
       ranged-expert: +1 # Mobile often ranged
     "maybe":
       dual-nature: +1 # Mix of styles
     "no":
       shield-specialist: +3 # Standing ground with shield
       defensive-expert: +2 # Defensive positioning
-      pure-warrior: +1 # Traditional stance
+      physical: +1 # Traditional stance
     dont-know: {}
 - id: flashy-combat
   text: "Do you prefer flashy, showy combat techniques over practical efficiency?"
@@ -802,15 +830,17 @@
   answers:
     "yes":
       adaptable-fighter: +4 # Direct adaptability preference
+      adaptive: +3 # Flexible and resourceful
       tactical-value: +3 # Tactical adaptation
+      improvised: +2 # Creative adaptation
       dual-nature: +2 # Versatile approach
-      skill-expert: +1 # Multi-skilled
     "maybe":
       adaptable-fighter: +1 # Some flexibility
+      adaptive: +1 # Some resourcefulness
       tactical-value: +1 # Some adaptation
     "no":
       weapon-specialist: +3 # Stick to one style
-      pure-warrior: +2 # Focused approach
+      physical: +2 # Focused approach
       disciplined-value: +1 # Rigid discipline
     dont-know: {}
 - id: harsh-environments
@@ -820,7 +850,7 @@
     "yes":
       survival-expert: +4 # Direct survival preference
       adaptable-fighter: +2 # Environmental adaptation
-      physical-prowess: +2 # Physical endurance
+      physical: +2 # Physical endurance
       rural-background: +1 # Wilderness connection
     "maybe":
       survival-expert: +1 # Some capability
@@ -835,8 +865,9 @@
   answers:
     "yes":
       survival-expert: +4 # Direct wilderness preference
-      wilderness-tracker: +3 # Tracking in wilderness
+      hunting-expert: +3 # Tracking in wilderness
       nature-guardian: +3 # Protecting wilderness
+      nature-magic: +2 # Nature-based powers
       wild-spirit: +2 # Wild independence
       stealth-master: +2 # Solo wilderness stealth
       rural-background: +2 # Wilderness background
@@ -880,7 +911,7 @@
       infiltrator: +1 # Some interest
       stealth-master: +1 # Moderate stealth
     "no":
-      pure-warrior: +3 # Direct confrontation
+      physical: +3 # Direct confrontation
       lawful-value: +2 # Follow rules
       disciplined-value: +1 # By-the-book
     dont-know: {}
@@ -892,12 +923,12 @@
     "yes":
       strength-specialist: +4 # Direct strength preference
       unstoppable-force: +4 # Overwhelming approach
-      physical-prowess: +3 # Physical dominance
+      physical: +3 # Physical dominance
       heavy-armor: +2 # Tank approach
       reckless-value: +1 # Charging in
     "maybe":
       strength-specialist: +1 # Some strength use
-      physical-prowess: +1 # Moderate physicality
+      physical: +1 # Moderate physicality
     "no":
       tactical-value: +3 # Tactical over strength
       ranged-expert: +2 # Distance over melee
@@ -912,7 +943,7 @@
       defensive-expert: +3 # Defensive focus
       shield-specialist: +2 # Protection focus
       unstoppable-force: +2 # Armored juggernaut
-      physical-prowess: +1 # Strength to wear it
+      physical: +1 # Strength to wear it
     "maybe":
       heavy-armor: +1 # Some interest
       defensive-expert: +1 # Some defense
@@ -968,6 +999,7 @@
       inspirational-leader: +4 # Direct inspiration preference
       charismatic: +4 # Charisma requirement
       protective-value: +3 # Protect team
+      commanding: +3 # Battlefield command
       lawful-value: +1 # Leadership structure
       disciplined-value: +1 # Lead by example
     "maybe":
@@ -1011,9 +1043,7 @@
       rune-magic: +1 # Some interest
       utility-magic: +1 # Moderate magic
     "no":
-      pure-warrior: +3 # No magic
-      arcane-averse-magic: +2 # Anti-magic
-      physical-prowess: +2 # Physical focus
+      physical: +3 # No magic
     dont-know: {}
 # Divine and Religious Magic
 - id: divine-ritual
@@ -1022,6 +1052,7 @@
   answers:
     "yes":
       divine-student: +4 # Divine study preference
+      divine-magic: +4 # Divine spellcasting
       ritual-caster: +4 # Ritual magic
       religious-value: +4 # Religious focus
       healing-magic: +2 # Divine healing
@@ -1031,7 +1062,8 @@
       ritual-caster: +1 # Some ritual
       religious-value: +1 # Moderate faith
     "no":
-      arcane-averse-magic: +2 # No magic
+      physical: +2 # No magic
+      arcane-magic: +2 # Arcane over divine
       chaotic-value: +2 # Against structure
     dont-know: {}
 - id: religious-devotion
@@ -1040,8 +1072,11 @@
   answers:
     "yes":
       religious-value: +4 # Direct faith preference
+      divine-magic: +3 # Faith-based power
       zealot-faith: +3 # Fervent religious dedication
       divine-student: +2 # Study divine
+      death-speaker: +2 # Spiritual connection
+      justice-seeker: +2 # Divine justice
       lawful-value: +3 # Religious order
       disciplined-value: +2 # Faith discipline
       protective-value: +1 # Protect faith
@@ -1050,6 +1085,9 @@
       lawful-value: +1 # Moderate order
     "no":
       chaotic-value: +3 # Freedom over dogma
+      arcane-magic: +2 # Secular magic
+      freedom-fighter: +2 # Rebels against authority
+      wanderer-spirit: +2 # Free spirit
       criminal-background: +2 # Against authority
     dont-know: {}
 # Pragmatic and Dirty Fighting
@@ -1061,6 +1099,7 @@
       pragmatic-fighter: +4 # Direct pragmatism
       dirty-tactics: +4 # Underhanded methods
       opportunistic-value: +3 # Seize advantage
+      vengeful-soul: +2 # Driven by vengeance
       streetwise: +2 # Street experience
       criminal-background: +1 # Illegal methods
     "maybe":
@@ -1088,7 +1127,8 @@
     "no":
       lawful-value: +3 # Honor code
       disciplined-value: +3 # Fair combat
-      pure-warrior: +2 # Warrior honor
+      justice-seeker: +3 # Fights with honor
+      physical: +2 # Warrior honor
     dont-know: {}
 - id: street-smarts
   text: "Do you value street smarts and urban survival skills?"
@@ -1161,7 +1201,7 @@
       dual-nature: +1 # Mix of styles
     "no":
       strength-specialist: +4 # Strength focus
-      physical-prowess: +3 # Power over finesse
+      physical: +3 # Power over finesse
       heavy-armor: +2 # Tank style
     dont-know: {}
 # Improvised Weapons and Throwing
@@ -1171,6 +1211,7 @@
   answers:
     "yes":
       improvised-specialist: +4 # Direct improvised preference
+      improvised: +3 # Adaptable weapon use
       pragmatic-fighter: +3 # Use what's available
       streetwise: +2 # Street fighting
       adaptable-fighter: +2 # Adapt to situation
@@ -1197,7 +1238,7 @@
       throwing-expert: +1 # Some interest
       ranged-expert: +1 # Moderate ranged
     "no":
-      pure-warrior: +3 # Melee focus
+      physical: +3 # Melee focus
       shield-specialist: +2 # Close combat
     dont-know: {}
 - id: sling-expertise
@@ -1216,7 +1257,7 @@
     "no":
       archery-specialist: +2 # Prefer bows
       crossbow-specialist: +2 # Prefer crossbows
-      pure-warrior: +2 # Melee preference
+      physical: +2 # Melee preference
     dont-know: {}
 - id: precision-sniping
   text: "Do you prefer taking precise, long-range shots at critical targets?"
@@ -1234,7 +1275,7 @@
       sniper: +1 # Some interest
       ranged-expert: +1 # Moderate ranged
     "no":
-      pure-warrior: +4 # Melee preference
+      physical: +4 # Melee preference
       mobile-combatant: +2 # Close quarters
       reckless-value: +2 # Aggressive melee
     dont-know: {}
@@ -1265,7 +1306,7 @@
       underdog-fighter: +3 # Underdog mentality
       survival-expert: +3 # Survival focus
       pragmatic-fighter: +2 # Do what works
-      physical-prowess: +1 # Endurance
+      physical: +1 # Endurance
     "maybe":
       gritty-value: +1 # Some toughness
       survival-expert: +1 # Moderate survival
@@ -1282,12 +1323,12 @@
       celestial-heritage: +4 # Direct celestial preference
       divine-warrior: +4 # Divine fighting
       holy-power: +4 # Holy abilities
-      magical-bloodline: +2 # Supernatural blood
+      innate-power: +2 # Supernatural blood
       lawful-value: +2 # Celestial order
       healing-magic: +1 # Divine healing
     "maybe":
       celestial-heritage: +1 # Some interest
-      magical-bloodline: +1 # Supernatural interest
+      innate-power: +1 # Supernatural interest
     "no":
       criminal-background: +2 # Unholy background
       chaotic-value: +2 # Against order
@@ -1307,8 +1348,7 @@
       divine-warrior: +1 # Some interest
       religious-value: +1 # Moderate faith
     "no":
-      pure-warrior: +3 # Mundane fighter
-      arcane-averse-magic: +2 # No divine power
+      physical: +3 # Mundane fighter
     dont-know: {}
 - id: holy-power
   text: "Are you interested in wielding holy power against evil?"
@@ -1356,6 +1396,7 @@
     "yes":
       innovation-specialist: +4 # Direct innovation
       engineering-mind: +4 # Engineering focus
+      improvised: +2 # Creative problem-solving
       craftsman-warrior: +2 # Build solutions
       scholarly-background: +2 # Study-based
       intellectual-combatant: +2 # Smart fighting
@@ -1363,7 +1404,7 @@
       innovation-specialist: +1 # Some interest
       engineering-mind: +1 # Moderate engineering
     "no":
-      pure-warrior: +3 # Traditional methods
+      physical: +3 # Traditional methods
       raw-talent: +2 # Natural over learned
     dont-know: {}
 # Alchemical Specializations
@@ -1417,7 +1458,7 @@
       craftsman-warrior: +1 # Some crafting
       scholarly-background: +1 # Studied approach
     "no":
-      pure-warrior: +2 # Prefer martial methods
+      physical: +2 # Prefer martial methods
       explosives-expert: -2 # Against explosives
       poison-expert: -2 # Against poisons
     dont-know: {}
@@ -1437,7 +1478,7 @@
     "no":
       poison-expert: -3 # Against poison
       lawful-value: +2 # Dishonorable method
-      pure-warrior: +1 # Direct combat
+      physical: +1 # Direct combat
     dont-know: {}
 - id: subtle-methods
   text: "Do you prefer subtle, patient methods over direct confrontation?"
@@ -1473,7 +1514,7 @@
       utility-magic: +1 # Practical magic
     "no":
       transmutation-magic: -2 # Against transmutation
-      pure-warrior: +2 # Avoid magic
+      physical: +2 # Avoid magic
       innate-power: +1 # Fixed abilities
     dont-know: {}
 - id: physical-alteration
@@ -1492,7 +1533,7 @@
       versatile-magic: +1 # Flexibility
     "no":
       transmutation-magic: -2 # Against self-alteration
-      pure-warrior: +2 # Natural abilities
+      physical: +2 # Natural abilities
       lawful-value: +1 # Against unnatural change
     dont-know: {}
 - id: versatile-effects
@@ -1510,7 +1551,7 @@
       utility-magic: +1 # Practical variety
     "no":
       weapon-specialist: +3 # Focus over breadth
-      pure-warrior: +2 # Master one thing
+      physical: +2 # Master one thing
       disciplined-value: +1 # Consistent approach
     dont-know: {}
 
@@ -1530,7 +1571,7 @@
     "no":
       aberrant-influence: -2 # Against abnormal entities
       lawful-value: +2 # Order over chaos
-      pure-warrior: +1 # Mundane power
+      physical: +1 # Mundane power
     dont-know: {}
 
 - id: fiendish-power
@@ -1574,17 +1615,19 @@
   category: power-source
   answers:
     "yes":
-      lycanthropic-beast: +4 # Direct lycanthropic appeal
+      shapeshifter: +4 # Direct lycanthropic appeal
       shape-mastery: +4 # Beast transformation mastery
+      nature-magic: +3 # Primal shapeshifting
       natural-armor: +3 # Beast form protection
       survival-expert: +3 # Wild instincts
       wild-spirit: +3 # Primal nature
       intuitive-value: +2 # Following instincts
     "maybe":
-      lycanthropic-beast: +2 # Some beast interest
+      shapeshifter: +2 # Some beast interest
       survival-expert: +2 # Wild nature
     "no":
-      lycanthropic-beast: -3 # Against beast forms
+      shapeshifter: -3 # Against beast forms
+      arcane-magic: +2 # Scholarly over primal
       scholarly-background: +2 # Intellectual approach
       disciplined-value: +2 # Control over instinct
     dont-know: {}
@@ -1603,7 +1646,7 @@
       pragmatic-fighter: +2 # Practical power
     "no":
       ooze-symbiosis: -3 # Against parasitic power
-      pure-warrior: +2 # Self-reliant strength
+      physical: +2 # Self-reliant strength
       proud-value: +2 # Independence
     dont-know: {}
 
@@ -1651,11 +1694,11 @@
     "yes":
       ancient-knowledge: +4 # Direct ancient wisdom
       ritual-caster: +3 # Ritual magic
-      scholar-warrior: +2 # Study and combat
+      scholar: +2 # Study and combat
       patient-value: +2 # Long-term learning
     "maybe":
       ancient-knowledge: +2 # Some interest in old ways
-      scholar-warrior: +1 # Moderate study
+      scholar: +1 # Moderate study
     "no":
       ancient-knowledge: -2 # Against old ways
       modern-value: +2 # Current methods
@@ -1722,6 +1765,7 @@
   answers:
     "yes":
       decay-mastery: +4 # Understanding decay
+      death-speaker: +3 # Speaks with/for the dead
       necromancy-dabbler: +3 # Death magic
       patient-value: +3 # Long-term cycles
       pragmatic-fighter: +2 # Practical view of death
@@ -1730,6 +1774,7 @@
       patient-value: +2 # Understanding cycles
     "no":
       decay-mastery: -2 # Against decay focus
+      death-speaker: -2 # Uncomfortable with death
       healing-magic: +3 # Life over death
       holy-power: +2 # Sacred life
     dont-know: {}
@@ -1832,14 +1877,17 @@
   answers:
     "yes":
       aquatic-heritage: +4 # Direct water connection
+      seafaring: +3 # Maritime lifestyle
       water-mastery: +3 # Water magic affinity
       survival-expert: +2 # Aquatic survival
       nature-guardian: +1 # Water protection
     "maybe":
       aquatic-heritage: +2 # Some water affinity
+      seafaring: +1 # Coastal experience
       water-mastery: +2 # Moderate water connection
     "no":
       aquatic-heritage: -2 # Against water environments
+      seafaring: -2 # Landlubber
       urban-background: +2 # Land-based lifestyle
       desert-survival: +1 # Opposite environment
     dont-know: {}
@@ -1851,14 +1899,14 @@
     "yes":
       fey-warrior: +4 # Supernatural weapon mastery
       weapon-master: +3 # Advanced weapon techniques
-      magical-bloodline: +2 # Inherited abilities
+      innate-power: +2 # Inherited abilities
       versatile-magic: +2 # Magic-enhanced combat
     "maybe":
       fey-warrior: +2 # Some supernatural technique
       weapon-master: +2 # Moderate weapon skills
     "no":
       fey-warrior: -2 # Against supernatural combat
-      pure-warrior: +3 # Traditional martial arts
+      physical: +3 # Traditional martial arts
       disciplined-value: +2 # Training over magic
     dont-know: {}
 
@@ -1887,15 +1935,18 @@
     "yes":
       fey-beauty: +4 # Supernatural attractiveness
       social-manipulator: +3 # Using charm
+      charm-magic: +3 # Enchanting presence
       noble-heritage: +2 # High social status
       proud-value: +2 # Pride in appearance
+      artistic-excellence: +2 # Aesthetic appreciation
     "maybe":
       fey-beauty: +2 # Some natural charm
       social-manipulator: +2 # Moderate social skills
     "no":
       fey-beauty: -2 # Against beauty focus
+      commanding: -2 # Authority over charm
       intellectual-combatant: +2 # Mind over looks
-      pure-warrior: +2 # Strength over charm
+      physical: +2 # Strength over charm
     dont-know: {}
 
 - id: pleasure-seeking
@@ -1904,11 +1955,13 @@
   answers:
     "yes":
       hedonistic-soul: +4 # Direct hedonistic nature
+      joyful-spirit: +3 # Positive, fun-loving
       chaotic-value: +3 # Freedom-seeking
       opportunistic-value: +2 # Self-serving
       reckless-value: +2 # Risk for pleasure
     "maybe":
       hedonistic-soul: +2 # Moderate pleasure-seeking
+      joyful-spirit: +1 # Some positivity
       modern-value: +2 # Balanced lifestyle
     "no":
       hedonistic-soul: -2 # Against hedonism
@@ -1923,6 +1976,7 @@
     "yes":
       demon-hunter: +4 # Direct demon hunting
       monster-hunter: +3 # General monster hunting
+      relentless-hunter: +3 # Never gives up pursuit
       magic-hunter: +2 # Magic creature focus
       survival-expert: +2 # Tracking skills needed
       tactical-value: +2 # Strategic hunting
@@ -1950,7 +2004,7 @@
       stealth-master: +1 # Some infiltration
     "no":
       noble-background: +2 # Direct/honorable approach
-      pure-warrior: +2 # Straightforward combat
+      physical: +2 # Straightforward combat
     dont-know: {}
 - id: divine-investigation
   text: "Do you want to investigate threats to your faith or divine order?"
@@ -2030,7 +2084,7 @@
     "yes":
       knowledge-seeker: +4 # Direct knowledge pursuit
       scholarly-background: +3 # Academic approach
-      arcane-scholar: +3 # Magical research
+      scholar: +3 # Magical research
       wisdom-seeker: +2 # Understanding the world
       magic-student: +2 # Study magic
     "maybe":
@@ -2047,6 +2101,7 @@
     "yes":
       explorer: +4 # Direct exploration drive
       ancient-lore: +3 # Study ancient history
+      wanderer-spirit: +2 # Love of discovery
       survival-expert: +2 # Navigate dangerous places
       athletic-prowess: +2 # Physical exploration
       knowledge-seeker: +2 # Seek lost knowledge
@@ -2088,8 +2143,8 @@
       mind-reader: +1 # Some insight
       tactical-value: +1 # Some planning
     "no":
-      pure-warrior: +3 # Direct combat
-      berserker-rage: +2 # Instinct over thought
+      physical: +3 # Direct combat
+      reckless-value: +2 # Instinct over thought
     dont-know: {}
 - id: divination-future
   text: "Are you interested in divination and seeing the future?"
@@ -2097,7 +2152,7 @@
   answers:
     "yes":
       divination-magic: +4 # Direct divination focus
-      celestial-scholar: +3 # Study stars/omens
+      scholar: +3 # Study stars/omens
       wisdom-seeker: +3 # Seek foresight
       tactical-value: +2 # Plan based on knowledge
       ritual-caster: +1 # Ritual divinations
@@ -2133,6 +2188,7 @@
     "yes":
       animal-companion: +4 # Direct animal companion
       nature-guardian: +3 # Nature focus
+      mounted: +3 # Mount is a companion
       loyal-guardian: +2 # Protective bond
       wild-spirit: +2 # Animal connection
       rural-background: +1 # Wilderness upbringing
@@ -2185,7 +2241,7 @@
       agile-fighter: +4 # Direct agility
       mobile-combatant: +3 # Movement specialist
       athletic-prowess: +3 # Physical skill
-      physical-prowess: +2 # Overall fitness
+      physical: +2 # Overall fitness
       stealth-master: +1 # Quiet movement
     "maybe":
       agile-fighter: +1 # Some agility
@@ -2234,7 +2290,7 @@
   answers:
     "yes":
       shapeshifter: +4 # Direct shapeshifting
-      primal-hunter: +3 # Primal transformation
+      hunting-expert: +3 # Primal transformation
       wild-spirit: +3 # Wild nature
       lunar-affinity: +2 # Moon connection
       adaptable-fighter: +2 # Versatile forms
@@ -2260,7 +2316,7 @@
       tactical-value: +1 # Some analysis
     "no":
       wild-spirit: +3 # Wilderness focus
-      berserker-rage: +2 # Action over thought
+      reckless-value: +2 # Action over thought
     dont-know: {}
 - id: magical-companion
   text: "Do you want to summon magical companions or familiars?"
@@ -2276,8 +2332,7 @@
       summon-familiar: +1 # Some interest
       utility-magic: +1 # Some utility
     "no":
-      pure-warrior: +3 # Self-reliant fighter
-      arcane-averse-magic: +2 # No magic
+      physical: +3 # Self-reliant fighter
     dont-know: {}
 - id: small-stature-advantage
   text: "Do you want to use your small size as a tactical advantage?"
@@ -2293,7 +2348,7 @@
       small-advantage: +1 # Some tactics
       stealth-master: +1 # Some hiding
     "no":
-      physical-prowess: +3 # Strength focus
+      physical: +3 # Strength focus
       inspirational-leader: +2 # Command presence
     dont-know: {}
 # Swashbuckler-specific questions
@@ -2303,17 +2358,17 @@
   answers:
     "yes":
       exotic-weapons: +4 # Direct exotic weapon focus
-      unconventional: +3 # Unusual tactics
-      controlling: +3 # Control weapons
-      disarming: +3 # Many exotic weapons disarm
-      skilled: +2 # Requires training
-      tactical-value: +2 # Strategic use
+      tactical-value: +3 # Unusual tactics
+      control-magic: +3 # Control weapons
+      dirty-tactics: +3 # Many exotic weapons disarm
+      weapon-specialist: +2 # Requires training
+      cunning-value: +2 # Strategic use
     "maybe":
       exotic-weapons: +1 # Some interest
-      unconventional: +1 # Moderate uniqueness
+      weapon-specialist: +1 # Moderate uniqueness
     "no":
       weapon-specialist: +2 # Traditional weapons
-      pure-warrior: +2 # Standard arms
+      physical: +2 # Standard arms
     dont-know: {}
 - id: unarmed-brawling
   text: "Do you prefer fighting with your fists and improvised weapons?"
@@ -2321,15 +2376,15 @@
   answers:
     "yes":
       unarmed-combat: +4 # Direct unarmed preference
-      brawling: +4 # Street fighting
-      improvised: +3 # Use anything
-      street-smart: +3 # Street background
-      aggressive: +2 # Direct approach
+      aggressive-value: +4 # Street fighting
+      improvised-specialist: +3 # Use anything
+      reckless-value: +2 # Direct approach
       physical: +3 # Physical focus
-      resilient: +2 # Take hits
+      endurance-specialist: +2 # Take hits
+      criminal-background: +1 # Street background
     "maybe":
       unarmed-combat: +1 # Some interest
-      brawling: +1 # Some street skill
+      aggressive-value: +1 # Some street skill
     "no":
       weapon-specialist: +3 # Armed combat
       refined: +2 # Elegant approach
@@ -2339,17 +2394,16 @@
   category: character-role
   answers:
     "yes":
-      pirate: +4 # Direct pirate theme
-      seafaring: +4 # Maritime life
-      maritime: +4 # Sea-based
-      outlaw: +3 # Piracy is outlawed
-      fearsome: +3 # Pirate reputation
-      intimidating: +3 # Fear tactics
-      ruthless: +2 # Harsh approach
-      adaptive: +2 # Varied situations
+      criminal-background: +4 # Direct pirate theme
+      aquatic-heritage: +4 # Maritime life
+      water-mastery: +4 # Sea-based
+      opportunistic-value: +3 # Piracy is outlawed
+      aggressive-value: +3 # Pirate reputation
+      fearsome: +3 # Fear tactics
+      adaptable-fighter: +2 # Varied situations
     "maybe":
-      maritime: +1 # Some sea interest
-      outlaw: +1 # Some rebelliousness
+      aquatic-heritage: +1 # Some sea interest
+      criminal-background: +1 # Some rebelliousness
     "no":
       lawful-value: +3 # Law-abiding
       noble-background: +2 # Honorable
@@ -2395,20 +2449,19 @@
   category: combat-style
   answers:
     "yes":
-      fencing: +4 # Direct fencing focus
-      refined: +4 # Elegant style
-      duelist: +4 # One-on-one combat
-      elegant: +4 # Grace in combat
-      precise: +3 # Precision strikes
-      disciplined: +3 # Trained technique
-      honorable: +3 # Dueling honor
-      traditional: +2 # Classical style
+      agile-fighter: +4 # Dueling/fencing focus
+      noble-background: +4 # Elegant style
+      weapon-specialist: +4 # Grace in combat
+      athletic-prowess: +3 # Precision strikes
+      disciplined-value: +3 # Trained technique
+      proud-value: +3 # Dueling honor
+      traditional-values: +2 # Classical style
     "maybe":
-      fencing: +1 # Some interest
-      refined: +1 # Some elegance
+      agile-fighter: +1 # Some interest
+      noble-background: +1 # Some elegance
     "no":
-      brawling: +3 # Street fighting
-      aggressive: +2 # Brutal approach
+      unarmed-combat: +3 # Street fighting
+      aggressive-value: +2 # Brutal approach
     dont-know: {}
 - id: critical-precision
   text: "Do you want to focus on landing precise, critical strikes?"
@@ -2425,7 +2478,7 @@
       precise: +1 # Some accuracy
     "no":
       area-attacker: +3 # Broad damage
-      berserker-rage: +2 # Wild attacks
+      reckless-value: +2 # Wild attacks
     dont-know: {}
 - id: luck-manipulation
   text: "Do you want to manipulate luck and probability in your favor?"
@@ -2433,16 +2486,18 @@
   answers:
     "yes":
       probability-manipulation: +4 # Direct probability focus
-      lucky: +4 # Inherent luck
+      risk-taker: +4 # Inherent luck
       fate-touched: +4 # Destiny connection
-      chaotic: +3 # Unpredictable
-      fortunate: +3 # Good fortune
-      destined: +3 # Fated path
-      unpredictable: +2 # Hard to predict
-      casual: +2 # Relaxed attitude
+      lucky: +3 # Natural fortune
+      chaotic-value: +3 # Unpredictable
+      raw-talent: +3 # Good fortune
+      opportunistic-value: +3 # Fated path
+      unpredictable-power: +2 # Hard to predict
+      intuitive-value: +2 # Relaxed attitude
     "maybe":
-      lucky: +1 # Some luck
-      fortunate: +1 # Some fortune
+      risk-taker: +1 # Some luck
+      lucky: +1 # Some fortune
+      fate-touched: +1 # Some fortune
     "no":
       disciplined-value: +3 # Control over chance
       tactical-value: +2 # Planning over luck
@@ -2454,8 +2509,9 @@
     "yes":
       dual-identity: +4 # Direct dual identity
       masked: +4 # Hidden face
+      information-broker: +2 # Need contacts and secrets
       theatrical: +3 # Performance aspect
-      cunning: +3 # Deceptive skill
+      cunning-value: +3 # Deceptive skill
       outlaw: +3 # Hidden from law
       rebellious: +2 # Against authority
       disguise-master: +2 # Disguise skills
@@ -2472,18 +2528,16 @@
   answers:
     "yes":
       teamwork-focused: +4 # Direct teamwork
-      military: +3 # Military training
-      disciplined: +3 # Group discipline
-      supportive: +3 # Support allies
+      military-background: +3 # Military training
+      disciplined-value: +3 # Group discipline
+      supportive-role: +3 # Support allies
       tactical-value: +3 # Coordinated tactics
-      loyal: +3 # Ally loyalty
-      organized: +2 # Structured approach
-      commanding: +2 # Lead groups
+      loyal-guardian: +3 # Ally loyalty
+      inspirational-leader: +2 # Lead groups
     "maybe":
       teamwork-focused: +1 # Some teamwork
-      supportive: +1 # Some support
+      supportive-role: +1 # Some support
     "no":
-      solo-operative: +3 # Lone wolf
       opportunistic-value: +2 # Individual advantage
     dont-know: {}
 - id: weapon-disarm
@@ -2501,6 +2555,6 @@
       disarming: +1 # Some interest
       controlling: +1 # Some control
     "no":
-      aggressive: +3 # Direct damage
-      berserker-rage: +2 # Overwhelming force
+      aggressive-value: +3 # Direct damage
+      reckless-value: +2 # Overwhelming force
     dont-know: {}

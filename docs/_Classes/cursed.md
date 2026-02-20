@@ -5,7 +5,7 @@ profile:
   generic:
     magicType: "versatile"
     originBackground: ["scholarly", "tribal", "criminal"]
-  specific: ["dual-nature", "transmutation-magic", "unpredictable-power"]
+  specific: ["dual-nature", "transmutation-magic", "unpredictable-power", "arcane-magic"]
   archetypes:
     alchemical-curse:
       specific: ["potion-brewer", "alchemical-transformation", "raw-talent", "gritty-value"]
@@ -24,7 +24,7 @@ profile:
     lycanthropic-curse:
       generic:
         magicType: "none"
-      specific: ["lycanthropic-beast", "natural-armor", "survival-expert", "intuitive-value"]
+      specific: ["shapeshifter", "natural-armor", "survival-expert", "intuitive-value"]
     molded:
       specific: ["ooze-symbiosis", "adaptable-fighter", "dual-nature", "patient-value"]
     sealed-dragon:

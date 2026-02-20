@@ -5,12 +5,12 @@ profile:
   generic:
     magicType: "versatile"
     originBackground: ["scholarly", "urban"]
-  specific: ["innovation-specialist", "craftsman-warrior", "scholarly-background", "versatile-magic"]
+  specific: ["innovation-specialist", "craftsman-warrior", "scholar", "versatile-magic"]
   archetypes:
     apothecary:
       generic:
         magicType: "healing"
-      specific: ["potion-brewer", "healing-magic", "protective-value", "scholarly-background"]
+      specific: ["potion-brewer", "healing-magic", "protective-value"]
     corpsecrafter:
       generic:
         magicType: "control"
@@ -30,7 +30,7 @@ profile:
     transmuter:
       generic:
         magicType: "utility"
-      specific: ["transmutation-magic", "versatile-magic", "magic-student", "scholar-warrior"]
+      specific: ["transmutation-magic", "versatile-magic", "magic-student"]
 ---
 
 <div class="toc" markdown="1">

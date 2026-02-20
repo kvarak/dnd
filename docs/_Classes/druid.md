@@ -5,7 +5,7 @@ profile:
   generic:
     magicType: "versatile"
     originBackground: ["rural", "tribal", "natural-prodigy"]
-  specific: ["nature-guardian", "healing-magic", "survival-expert"]
+  specific: ["nature-guardian", "healing-magic", "survival-expert", "nature-magic"]
   archetypes:
     circle-of-blood:
       specific: ["shape-mastery", "dual-nature", "adaptable-fighter", "pragmatic-fighter"]
@@ -14,7 +14,7 @@ profile:
     circle-of-dust:
       specific: ["post-apocalypse", "survival-expert", "gritty-value", "protective-value"]
     circle-of-the-forest:
-      specific: ["ancient-knowledge", "ritual-caster", "scholar-warrior", "patient-value"]
+      specific: ["ancient-knowledge", "ritual-caster", "scholar", "patient-value"]
     circle-of-the-garden:
       specific: ["plant-mastery", "healing-magic", "protective-value", "nurturing-soul"]
     circle-of-the-land:

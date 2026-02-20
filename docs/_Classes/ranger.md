@@ -5,7 +5,7 @@ profile:
   generic:
     magicType: "utility"
     originBackground: ["rural", "military", "tribal"]
-  specific: ["survival-expert", "nature-guardian", "stealth-master"]
+  specific: ["survival-expert", "nature-guardian", "stealth-master", "nature-magic"]
   archetypes:
     beast-conclave:
       specific: ["animal-companion", "nature-guardian", "loyal-guardian", "wild-spirit"]
@@ -16,7 +16,7 @@ profile:
     fey-hunter:
       specific: ["fey-hunter", "enchantment-resistance", "nature-guardian", "tactical-value"]
     freerunner:
-      specific: ["mobile-combatant", "athletic-prowess", "agile-fighter", "physical-prowess"]
+      specific: ["mobile-combatant", "athletic-prowess", "agile-fighter", "physical"]
     gloom-stalker:
       specific: ["darkvision-master", "stealth-master", "ambush-predator", "shadow-affinity"]
     herbalist-conclave:
@@ -42,7 +42,7 @@ profile:
     moonstalker-conclave:
       restriction:
         folk: ["shifter"]
-      specific: ["shapeshifter", "wild-spirit", "lunar-affinity", "primal-hunter"]
+      specific: ["shapeshifter", "wild-spirit", "lunar-affinity", "hunting-expert"]
 ---
 
 <div class="toc" markdown="1">

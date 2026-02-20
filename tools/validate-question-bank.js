@@ -160,11 +160,19 @@ function validateQuestionBank() {
     console.log('🔍 Loading question bank and template...');
 
     const questionBank = loadQuestionBank();
-    const requiredTraits = loadTraitCategoriesFromTemplate();
+    const allTraitCategories = loadTraitCategoriesFromTemplate();
+
+    // Filter out generic category labels that shouldn't appear in questions
+    // These are category headers, not individual traits
+    const genericCategoryLabels = ['magicType', 'originBackground'];
+    const requiredTraits = allTraitCategories.filter(trait => !genericCategoryLabels.includes(trait));
+
     const specificTraits = loadSpecificTraitsFromClassProfiles();
 
     console.log(`📊 Found ${questionBank.length} questions`);
-    console.log(`🎯 Required trait categories: ${requiredTraits.join(', ')}`);
+    if (requiredTraits.length > 0) {
+      console.log(`🎯 Required trait categories: ${requiredTraits.join(', ')}`);
+    }
     console.log(`🎨 Found specific traits: ${specificTraits.length} traits (${specificTraits.slice(0, 5).join(', ')}${specificTraits.length > 5 ? '...' : ''})`);
     console.log();
 
@@ -302,7 +310,8 @@ function validateQuestionBank() {
     }
 
     const missingTraits = requiredTraits.filter(trait => !coveredTraits.has(trait));
-    const isValid = missingTraits.length === 0 && questionBank.length >= 15 && questionBank.length <= 50;
+    // Require at least 15 questions; no upper limit (more comprehensive is better)
+    const isValid = missingTraits.length === 0 && questionBank.length >= 15;
 
     console.log(`  📊 Questions: ${questionBank.length}`);
     console.log(`  🎯 Covered traits: ${Array.from(coveredTraits).join(', ')}`);
