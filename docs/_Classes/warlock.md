@@ -18,8 +18,8 @@ layout: default
 profile:
   generic:
     magicType: "versatile"
-    originBackground: ["scholarly", "urban", "rural", "criminal"]
-  specific: ["knowledge-seeker", "otherworldly-knowledge", "magic-student", "cunning-value", "arcane-magic"]
+    originBackground: ["academic", "urban", "nature", "criminal"]
+  specific: ["knowledge-seeker", "otherworldly-knowledge", "arcane-magic", "cunning-value", "arcane-magic"]
   archetypes:
     abraxas:
       generic:
@@ -30,7 +30,7 @@ profile:
         magicType: "damage"
       specific: ["draconic-heritage", "elemental-affinity", "ancient-knowledge", "proud-value"]
     ancient-toad:
-      specific: ["nature-guardian", "knowledge-seeker", "water-mastery", "wisdom-seeker"]
+      specific: ["nature-guardian", "knowledge-seeker", "elemental-affinity", "wisdom-seeker"]
     archfey:
       generic:
         magicType: "control"
@@ -38,7 +38,7 @@ profile:
     ashen-wolf:
       generic:
         magicType: "damage"
-      specific: ["hunting-expert", "fire-affinity", "wild-spirit", "aggressive-value"]
+      specific: ["hunting-expert", "fire-affinity", "wild-spirit", "reckless-value"]
     blackthorn-grove:
       specific: ["nature-guardian", "plant-mastery", "wild-spirit", "protective-value"]
     cosmic-machine:
@@ -50,9 +50,9 @@ profile:
     dagon:
       generic:
         magicType: "control"
-      specific: ["aquatic-heritage", "water-mastery", "aberrant-influence", "hunting-expert"]
+      specific: ["aquatic-heritage", "elemental-affinity", "aberrant-influence", "hunting-expert"]
     death:
-      specific: ["death-magic", "necromancy-dabbler", "patient-value", "fate-touched"]
+      specific: ["death-magic", "necromancy-dabbler", "disciplined-value", "fate-touched"]
     dispater:
       generic:
         magicType: "control"
@@ -60,7 +60,7 @@ profile:
     emergent-mind:
       generic:
         magicType: "control"
-      specific: ["mind-reader", "mind-alteration", "ancient-knowledge", "patient-value"]
+      specific: ["mind-reader", "mind-alteration", "ancient-knowledge", "disciplined-value"]
     eternal-citadel:
       generic:
         magicType: "utility"
@@ -68,11 +68,11 @@ profile:
     fallen-exile:
       generic:
         magicType: "damage"
-      specific: ["otherworldly-knowledge", "proud-value", "knowledge-seeker", "aggressive-value"]
+      specific: ["otherworldly-knowledge", "proud-value", "knowledge-seeker", "reckless-value"]
     fiend:
       generic:
         magicType: "damage"
-      specific: ["demonic-corruption", "damage-magic", "aggressive-value", "opportunistic-value"]
+      specific: ["demonic-corruption", "damage-magic", "reckless-value", "cunning-value"]
     great-old-one:
       generic:
         magicType: "control"
@@ -90,21 +90,21 @@ profile:
         magicType: "control"
       specific: ["ooze-symbiosis", "aberrant-influence", "chaos-magic", "unpredictable-power"]
     keeper-depths:
-      specific: ["aquatic-heritage", "ancient-knowledge", "treasure-hunter", "water-mastery"]
+      specific: ["aquatic-heritage", "ancient-knowledge", "treasure-hunter", "elemental-affinity"]
     levistus:
       generic:
         magicType: "control"
-      specific: ["tactical-value", "patient-value", "lawful-value", "disciplined-value"]
+      specific: ["tactical-value", "disciplined-value", "lawful-value", "disciplined-value"]
     monstrosity:
       generic:
         magicType: "damage"
-      specific: ["physical", "unstoppable-force", "hunting-expert", "aggressive-value"]
+      specific: ["physical", "unstoppable-force", "hunting-expert", "reckless-value"]
     wild-huntsman:
       generic:
         magicType: "utility"
       specific: ["hunting-expert", "beast-friend", "fey-warrior", "athletic-prowess"]
     pharaoh:
-      specific: ["divine-student", "ancient-lore", "desert-survival", "noble-heritage"]
+      specific: ["divine-magic", "ancient-lore", "survival-expert", "noble-heritage"]
     seducer:
       generic:
         magicType: "control"
@@ -112,13 +112,13 @@ profile:
     shadow-cat:
       generic:
         magicType: "utility"
-      specific: ["fate-touched", "shadow-affinity", "stealth-master", "patient-value"]
+      specific: ["fate-touched", "shadow-affinity", "stealth-master", "disciplined-value"]
     storm-lord:
       generic:
         magicType: "damage"
-      specific: ["storm-caller", "elemental-affinity", "chaotic-value", "aggressive-value"]
+      specific: ["storm-caller", "elemental-affinity", "chaotic-value", "reckless-value"]
     undying:
-      specific: ["necromancy-dabbler", "ancient-knowledge", "patient-value", "knowledge-seeker"]
+      specific: ["necromancy-dabbler", "ancient-knowledge", "disciplined-value", "knowledge-seeker"]
     vampire:
       generic:
         magicType: "control"
@@ -133,13 +133,13 @@ profile:
     bastion:
       specific: ["defensive-expert", "shield-specialist", "protective-value", "heavy-armor"]
     blade:
-      specific: ["weapon-specialist", "physical", "aggressive-value", "instinctive-combatant"]
+      specific: ["weapon-specialist", "physical", "reckless-value", "instinctive-combatant"]
     chain:
       specific: ["summon-familiar", "beast-friend", "supportive-role", "tactical-value"]
     cowl:
       specific: ["stealth-master", "infiltrator", "agile-warrior", "shadow-affinity"]
     evil-eye:
-      specific: ["mind-alteration", "control-magic", "tactical-value", "patient-value"]
+      specific: ["mind-alteration", "control-magic", "tactical-value", "disciplined-value"]
     talisman:
       specific: ["utility-magic", "tactical-value", "damage-magic", "versatile-magic"]
     tome:

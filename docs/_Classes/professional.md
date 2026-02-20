@@ -4,27 +4,27 @@ layout: default
 profile:
   generic:
     magicType: "utility"
-    originBackground: ["scholarly", "artisan", "urban"]
-  specific: ["knowledge-seeker", "versatile-magic", "adaptable-fighter", "engineering-mind", "craftsman-warrior", "multitasking"]
+    originBackground: ["academic", "artisan", "urban"]
+  specific: ["knowledge-seeker", "versatile-magic", "adaptable-fighter", "engineering-mind", "craftsman-background", "multitasking"]
   archetypes:
     arcanist:
-      specific: ["magic-student", "scholar", "utility-magic"]
+      specific: ["arcane-magic", "scholar", "utility-magic"]
     archaeologist:
       specific: ["ancient-lore", "explorer", "survival-expert", "athletic-prowess"]
     astronomer:
-      specific: ["scholar", "divination-magic", "wisdom-seeker", "patient-value"]
+      specific: ["scholar", "divination-magic", "wisdom-seeker", "disciplined-value"]
     candlemaker:
-      specific: ["fire-affinity", "craftsman-warrior", "illuminating-light", "artisan-background"]
+      specific: ["fire-affinity", "craftsman-background", "illuminating-light"]
     cook:
-      specific: ["supportive-role", "healing-magic", "nurturing-soul", "creative-artisan"]
+      specific: ["supportive-role", "healing-magic", "nurturing-soul", "artistic-excellence"]
     diplomat:
       specific: ["social-manipulator", "charismatic", "diplomatic-soul", "urban-background"]
     forester:
-      specific: ["nature-guardian", "survival-expert", "wild-spirit", "rural-background"]
+      specific: ["nature-guardian", "survival-expert", "wild-spirit", "nature-background"]
     psychologist:
       specific: ["mind-reader", "tactical-value", "wisdom-seeker", "scholar"]
     smith:
-      specific: ["craftsman-warrior", "weapon-master", "artisan-background", "physical"]
+      specific: ["craftsman-background", "weapon-master", "physical"]
 ---
 
 <div class="toc">

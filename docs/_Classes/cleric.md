@@ -4,24 +4,24 @@ layout: default
 profile:
   generic:
     magicType: "healing"
-    originBackground: ["noble", "scholarly", "rural"]
-  specific: ["religious-value", "divine-student", "healing-magic", "protective-value", "divine-magic"]
+    originBackground: ["noble", "academic", "nature"]
+  specific: ["religious-value", "divine-magic", "healing-magic", "protective-value", "divine-magic"]
   archetypes:
     agriculture-domain:
       generic:
         magicType: "healing"
-        originBackground: ["rural", "tribal"]
-      specific: ["rural-background", "patient-value", "survival-expert", "religious-value"]
+        originBackground: ["nature", "tribal"]
+      specific: ["nature-background", "disciplined-value", "survival-expert", "religious-value"]
     arcana-domain:
       generic:
         magicType: "utility"
-        originBackground: ["scholarly", "urban"]
-      specific: ["magic-student", "scholarly-background", "divine-student", "intellectual-combatant"]
+        originBackground: ["academic", "urban"]
+      specific: ["arcane-magic", "academic-background", "divine-magic", "tactical-value"]
     balance-domain:
       generic:
         magicType: "utility"
-        originBackground: ["scholarly", "noble"]
-      specific: ["lawful-value", "disciplined-value", "patient-value", "religious-value"]
+        originBackground: ["academic", "noble"]
+      specific: ["lawful-value", "disciplined-value", "disciplined-value", "religious-value"]
     celebration-domain:
       generic:
         magicType: "utility"
@@ -36,62 +36,62 @@ profile:
       generic:
         magicType: "control"
         originBackground: ["urban", "noble"]
-      specific: ["social-manipulator", "mind-alteration", "divine-student", "religious-value"]
+      specific: ["social-manipulator", "mind-alteration", "divine-magic", "religious-value"]
     death-domain:
       generic:
         magicType: "damage"
-        originBackground: ["rural", "scholarly"]
+        originBackground: ["nature", "academic"]
       specific: ["necromancy-dabbler", "death-dealer", "death-magic", "religious-value"]
     desert-domain:
       generic:
         magicType: "utility"
-        originBackground: ["rural", "tribal"]
+        originBackground: ["nature", "tribal"]
       specific: ["survival-expert", "elemental-affinity", "endurance-specialist", "religious-value"]
     fate-domain:
       generic:
         magicType: "utility"
-        originBackground: ["scholarly", "rural"]
+        originBackground: ["academic", "nature"]
       specific: ["fate-touched", "unpredictable-power", "divination-magic", "religious-value"]
     forge-domain:
       generic:
         magicType: "utility"
         originBackground: ["urban", "military"]
-      specific: ["craftsman-warrior", "engineering-mind", "fire-wielder", "religious-value"]
+      specific: ["craftsman-background", "engineering-mind", "fire-wielder", "religious-value"]
     fortune-domain:
       generic:
         magicType: "utility"
         originBackground: ["urban", "criminal"]
-      specific: ["fate-touched", "opportunistic-value", "lucky", "religious-value"]
+      specific: ["fate-touched", "cunning-value", "lucky", "religious-value"]
     hunting-domain:
       generic:
         magicType: "damage"
-        originBackground: ["rural", "tribal"]
+        originBackground: ["nature", "tribal"]
       specific: ["ranged-expert", "survival-expert", "hunting-expert", "religious-value"]
     knowledge-domain:
       generic:
         magicType: "utility"
-        originBackground: ["scholarly", "urban"]
-      specific: ["scholarly-background", "intellectual-combatant", "knowledge-seeker", "religious-value"]
+        originBackground: ["academic", "urban"]
+      specific: ["academic-background", "tactical-value", "knowledge-seeker", "religious-value"]
     life-domain:
       generic:
         magicType: "healing"
-        originBackground: ["noble", "rural"]
+        originBackground: ["noble", "nature"]
       specific: ["healing-magic", "protective-value", "divine-warrior", "religious-value"]
     light-domain:
       generic:
         magicType: "damage"
-        originBackground: ["noble", "scholarly"]
+        originBackground: ["noble", "academic"]
       specific: ["divine-warrior", "holy-power", "religious-value", "divine-healer", "illuminating-light", "truth-seeker"]
     nature-domain:
       generic:
         magicType: "utility"
-        originBackground: ["rural", "tribal"]
+        originBackground: ["nature", "tribal"]
       specific: ["survival-expert", "elemental-affinity", "religious-value", "nature-guardian", "beast-friend", "plant-mastery"]
     ocean-domain:
       generic:
         magicType: "utility"
-        originBackground: ["rural", "tribal"]
-      specific: ["elemental-affinity", "survival-expert", "water-mastery", "religious-value"]
+        originBackground: ["nature", "tribal"]
+      specific: ["elemental-affinity", "survival-expert", "religious-value"]
     order-domain:
       generic:
         magicType: "utility"
@@ -105,8 +105,8 @@ profile:
     repose-domain:
       generic:
         magicType: "healing"
-        originBackground: ["rural", "scholarly"]
-      specific: ["death-speaker", "patient-value", "religious-value", "death-magic", "wisdom-seeker", "undead-hunter"]
+        originBackground: ["nature", "academic"]
+      specific: ["death-speaker", "disciplined-value", "religious-value", "death-magic", "wisdom-seeker", "undead-hunter"]
     strength-domain:
       generic:
         magicType: "damage"
@@ -115,18 +115,18 @@ profile:
     survival-domain:
       generic:
         magicType: "utility"
-        originBackground: ["rural", "tribal"]
+        originBackground: ["nature", "tribal"]
       specific: ["survival-expert", "adaptable-fighter", "explorer", "religious-value"]
     tempest-domain:
       generic:
         magicType: "damage"
-        originBackground: ["rural", "tribal"]
+        originBackground: ["nature", "tribal"]
       specific: ["elemental-affinity", "divine-warrior", "storm-caller", "religious-value"]
     time-domain:
       generic:
         magicType: "utility"
-        originBackground: ["scholarly", "noble"]
-      specific: ["patient-value", "fate-touched", "planar-guardian", "religious-value"]
+        originBackground: ["academic", "noble"]
+      specific: ["disciplined-value", "fate-touched", "planar-guardian", "religious-value"]
     trickery-domain:
       generic:
         magicType: "control"
@@ -136,7 +136,7 @@ profile:
       generic:
         magicType: "damage"
         originBackground: ["military", "urban"]
-      specific: ["divine-warrior", "opportunistic-value", "justice-seeker", "religious-value"]
+      specific: ["divine-warrior", "cunning-value", "justice-seeker", "religious-value"]
     war-domain:
       generic:
         magicType: "damage"
@@ -145,12 +145,12 @@ profile:
     winter-domain:
       generic:
         magicType: "damage"
-        originBackground: ["rural", "tribal"]
-      specific: ["elemental-affinity", "patient-value", "religious-value", "endurance-specialist", "lunar-affinity", "nature-guardian"]
+        originBackground: ["nature", "tribal"]
+      specific: ["elemental-affinity", "disciplined-value", "religious-value", "endurance-specialist", "lunar-affinity", "nature-guardian"]
     balanced-scale-of-abadar:
       generic:
         magicType: "utility"
-        originBackground: ["noble", "scholarly"]
+        originBackground: ["noble", "academic"]
       specific: ["lawful-value", "noble-background", "justice-seeker", "religious-value"]
 ---
 

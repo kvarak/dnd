@@ -4,15 +4,15 @@ layout: default
 profile:
   generic:
     magicType: "damage"
-    originBackground: ["rural", "tribal"]
-  specific: ["physical", "raw-talent", "reckless-value", "instinctive-combatant", "underdog-fighter"]
+    originBackground: ["nature", "tribal"]
+  specific: ["physical", "innate-magic", "reckless-value", "instinctive-combatant", "underdog-fighter"]
   archetypes:
     path-of-the-aquatic-hunter:
       restriction:
         folk: ["merfolk", "triton", "sea-elf"]
       generic:
         magicType: "utility"
-        originBackground: ["rural", "tribal"]
+        originBackground: ["nature", "tribal"]
       specific: ["survival-expert", "adaptable-fighter", "elemental-affinity", "tribal-background"]
     path-of-the-berserker:
       generic:
@@ -38,7 +38,7 @@ profile:
       generic:
         magicType: "damage"
         originBackground: ["military", "tribal"]
-      specific: ["tactical-value", "opportunistic-value", "military-background", "inspirational-leader"]
+      specific: ["tactical-value", "cunning-value", "military-background", "inspirational-leader"]
     path-of-the-natures-warden:
       generic:
         magicType: "utility"
@@ -54,11 +54,11 @@ profile:
     path-of-the-storm-herald:
       generic:
         magicType: "damage"
-      specific: ["elemental-affinity", "damage-magic", "chaotic-value", "raw-talent"]
+      specific: ["elemental-affinity", "damage-magic", "chaotic-value", "innate-magic"]
     path-of-the-totem-warrior:
       generic:
         magicType: "utility"
-      specific: ["tribal-background", "religious-value", "versatile-magic", "innate-power"]
+      specific: ["tribal-background", "religious-value", "versatile-magic", "innate-magic"]
     path-of-the-war-chief:
       generic:
         magicType: "utility"
@@ -79,7 +79,7 @@ profile:
         folk: ["shifter", "changeling", "lycanthrope"]
       generic:
         magicType: "utility"
-      specific: ["dual-nature", "adaptable-fighter", "versatile-magic", "innate-power"]
+      specific: ["dual-nature", "adaptable-fighter", "versatile-magic", "innate-magic"]
     path-of-the-battlerager:
       restriction:
         folk: ["dwarf"]
@@ -110,7 +110,7 @@ profile:
         folk: ["lizardfolk"]
       generic:
         magicType: "utility"
-      specific: ["survival-expert", "tribal-background", "patient-value", "death-dealer"]
+      specific: ["survival-expert", "tribal-background", "disciplined-value", "death-dealer"]
 ---
 
 

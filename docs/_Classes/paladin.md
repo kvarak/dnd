@@ -12,7 +12,7 @@ profile:
     oath-of-the-ancients:
       specific: ["nature-guardian", "fey-touched", "ancient-lore", "protective-value"]
     oath-of-balance:
-      specific: ["diplomatic-soul", "wisdom-seeker", "patient-value", "adaptive", "nature-guardian", "improvised"]
+      specific: ["diplomatic-soul", "wisdom-seeker", "disciplined-value", "adaptive", "nature-guardian", "improvised"]
     oath-of-the-bastion:
       specific: ["protective-value", "disciplined-value", "loyal-guardian", "defensive-expert"]
     oath-of-benevolence:
@@ -36,21 +36,21 @@ profile:
     oath-of-leadership:
       specific: ["inspirational-leader", "tactical-value", "charismatic", "disciplined-value"]
     oath-of-the-lyan:
-      specific: ["lawful-value", "disciplined-value", "honorable", "traditional-values"]
+      specific: ["lawful-value", "disciplined-value", "honorable"]
     oath-of-martyrdom:
       specific: ["protective-value", "nurturing-soul", "fearless-heart", "endurance-specialist", "divine-healer", "honorable"]
     oath-of-the-purge:
-      specific: ["zealot-faith", "damage-magic", "lawful-value", "monster-hunter", "relentless-hunter", "fearsome"]
+      specific: ["zealot-faith", "damage-magic", "lawful-value", "monster-hunter", "relentless-hunter", "commanding"]
     oath-of-radiance:
       specific: ["truth-seeker", "holy-power", "illuminating-light", "wisdom-seeker"]
     oath-of-redemption:
-      specific: ["compassionate-heart", "healing-magic", "patient-value", "divine-healer", "wisdom-seeker", "mind-reader"]
+      specific: ["compassionate-heart", "healing-magic", "disciplined-value", "divine-healer", "wisdom-seeker", "mind-reader"]
     oath-of-supremacy:
-      specific: ["proud-value", "inspirational-leader", "zealot-faith", "noble-heritage", "commanding", "fearsome"]
+      specific: ["proud-value", "inspirational-leader", "zealot-faith", "noble-heritage", "commanding"]
     oath-of-tomorrow:
-      specific: ["progressive-ideals", "modern-value", "inspirational-leader", "engineering-mind", "multitasking", "creative-artisan"]
+      specific: ["modern-value", "inspirational-leader", "engineering-mind", "multitasking", "artistic-excellence"]
     oath-of-tradition:
-      specific: ["ancient-lore", "traditional-values", "scholarly-background", "nature-guardian"]
+      specific: ["ancient-lore", "honorable", "academic-background", "nature-guardian"]
     oath-of-vengeance:
       specific: ["relentless-hunter", "divine-warrior", "justice-seeker", "vengeful-soul"]
     oath-of-the-waves:
@@ -70,7 +70,7 @@ profile:
     oath-of-the-wing-seeker:
       restriction:
         folk: ["kenku"]
-      specific: ["wanderer-spirit", "freedom-fighter", "rebellious", "relentless-hunter", "fearsome"]
+      specific: ["wanderer-spirit", "freedom-fighter", "rebellious", "relentless-hunter", "commanding"]
     oath-of-the-stonelord:
       restriction:
         folk: ["dwarf"]

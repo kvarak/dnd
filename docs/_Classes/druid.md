@@ -4,7 +4,7 @@ layout: default
 profile:
   generic:
     magicType: "versatile"
-    originBackground: ["rural", "tribal", "natural-prodigy"]
+    originBackground: ["nature", "tribal", "natural-prodigy"]
   specific: ["nature-guardian", "healing-magic", "survival-expert", "nature-magic"]
   archetypes:
     circle-of-blood:
@@ -12,9 +12,9 @@ profile:
     circle-of-dreams:
       specific: ["fey-touched", "healing-magic", "utility-magic", "intuitive-value"]
     circle-of-dust:
-      specific: ["post-apocalypse", "survival-expert", "gritty-value", "protective-value"]
+      specific: ["survival-expert", "gritty-value", "protective-value"]
     circle-of-the-forest:
-      specific: ["ancient-knowledge", "ritual-caster", "scholar", "patient-value"]
+      specific: ["ancient-knowledge", "ritual-caster", "scholar", "disciplined-value"]
     circle-of-the-garden:
       specific: ["plant-mastery", "healing-magic", "protective-value", "nurturing-soul"]
     circle-of-the-land:
@@ -22,15 +22,15 @@ profile:
     circle-of-the-moon:
       specific: ["shape-mastery", "natural-armor", "instinctive-combatant", "wild-spirit"]
     circle-of-the-sands:
-      specific: ["desert-survival", "endurance-specialist", "gritty-value", "patient-value"]
+      specific: ["survival-expert", "endurance-specialist", "gritty-value", "disciplined-value"]
     circle-of-the-shepherd:
       specific: ["beast-friend", "protective-value", "inspirational-leader", "nurturing-soul"]
     circle-of-spores:
-      specific: ["decay-mastery", "necromancy-dabbler", "patient-value", "pragmatic-fighter"]
+      specific: ["decay-mastery", "necromancy-dabbler", "disciplined-value", "pragmatic-fighter"]
     circle-of-storms:
       specific: ["storm-caller", "damage-magic", "ranged-expert", "chaotic-value"]
     circle-of-the-swarm:
-      specific: ["swarm-tactics", "tactical-value", "mobile-combatant", "opportunistic-value"]
+      specific: ["swarm-tactics", "tactical-value", "mobile-combatant", "cunning-value"]
     circle-of-the-ancients:
       restriction:
         folk: "lizardfolk"

@@ -14,7 +14,7 @@ profile:
     mission-of-the-hierophant:
       specific: ["divine-healer", "protective-value", "healing-magic", "nurturing-soul"]
     mission-of-the-hunter:
-      specific: ["stealth-master", "survival-expert", "patient-value", "hunting-expert", "monster-hunter", "relentless-hunter"]
+      specific: ["stealth-master", "survival-expert", "disciplined-value", "hunting-expert", "monster-hunter", "relentless-hunter"]
     mission-of-infiltration:
       specific: ["faith-infiltrator", "social-manipulator", "stealth-master", "cunning-value"]
     mission-of-witchhunter:

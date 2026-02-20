@@ -10,13 +10,13 @@ profile:
     blacksnake:
       specific: ["martial", "tactical-value", "precise", "controlling", "disciplined-value", "exotic-weapons", "disarming"]
     brawler:
-      specific: ["martial", "aggressive-value", "improvised", "adaptive", "physical", "unarmed-combat"]
+      specific: ["martial", "reckless-value", "improvised", "adaptive", "physical", "unarmed-combat"]
     corsair:
-      specific: ["fearsome", "charismatic", "adaptive", "outlaw", "seafaring", "commanding"]
+      specific: ["commanding", "charismatic", "adaptive", "outlaw", "seafaring"]
     daredevil:
-      specific: ["acrobatic", "mobile", "reckless", "daring", "charismatic", "multitasking", "parkour", "crowd-fighter"]
+      specific: ["acrobatic", "mobile", "reckless", "daring", "charismatic", "multitasking", "crowd-fighter"]
     duelist:
-      specific: ["refined", "precise", "honorable", "disciplined-value", "traditional-values", "perfectionist", "duelist", "critical-striker"]
+      specific: ["refined", "precise", "honorable", "disciplined-value", "perfectionist", "duelist", "critical-striker"]
     fatebender:
       specific: ["lucky", "chaotic-value", "improvised", "unpredictable-power", "probability-manipulation", "fate-touched", "reckless"]
     highwayman:

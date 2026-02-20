@@ -9,7 +9,7 @@ profile:
   # Generic trait categories (standardized across all classes)
   generic:
     magicType: "none" | "utility" | "damage" | "healing" | "control" | "versatile"
-    originBackground: ["military", "rural", "urban", "noble", "criminal", "tribal", "scholarly", "artisan"]
+    originBackground: ["military", "nature", "urban", "noble", "criminal", "tribal", "academic", "religious", "artisan"]
 
   # Specific/unique traits (narrative flavor, array of strings)
   specific: ["war-deserter", "former-slave", "noble-outcast", "haunted-past", ...]
@@ -36,12 +36,12 @@ profile:
 ### originBackground
 Array of likely character backgrounds that fit the class theme:
 - **military**: Soldiers, guards, mercenaries
-- **rural**: Farmers, hunters, wilderness dwellers
+- **nature**: Farmers, hunters, wilderness dwellers, rural/tribal backgrounds
 - **urban**: City folk, merchants, craftspeople
 - **noble**: Aristocrats, courtiers, wealthy families
 - **criminal**: Thieves, smugglers, underground contacts
 - **tribal**: Clan members, shamanic traditions, nomads
-- **scholarly**: Academics, researchers, scribes
+- **academic**: Academics, researchers, scribes, scholarly pursuits
 - **religious**: Clergy, temple-raised, faithful devotees
 - **artisan**: Crafters, builders, makers
 
@@ -68,8 +68,8 @@ layout: default
 profile:
   generic:
     magicType: "none"
-    originBackground: ["military", "rural", "urban"]
-  specific: ["disciplined-warrior", "tactical-mind", "physical-prowess"]
+    originBackground: ["military", "nature", "urban"]
+  specific: ["disciplined-value", "tactical-value", "physical"]
   archetypes:
     champion:
       generic:
@@ -79,6 +79,6 @@ profile:
       generic:
         magicType: "utility"
         complexityLevel: "advanced"
-      specific: ["scholar-warrior", "magic-student", "dual-nature"]
+      specific: ["scholar", "arcane-magic", "dual-nature"]
 ---
 ```

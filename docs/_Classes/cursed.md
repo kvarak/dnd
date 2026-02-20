@@ -4,17 +4,17 @@ layout: default
 profile:
   generic:
     magicType: "versatile"
-    originBackground: ["scholarly", "tribal", "criminal"]
+    originBackground: ["academic", "tribal", "criminal"]
   specific: ["dual-nature", "transmutation-magic", "unpredictable-power", "arcane-magic"]
   archetypes:
     alchemical-curse:
-      specific: ["potion-brewer", "alchemical-transformation", "raw-talent", "gritty-value"]
+      specific: ["potion-brewer", "alchemical-transformation", "innate-magic", "gritty-value"]
     chosen:
       generic:
         magicType: "healing"
       specific: ["celestial-heritage", "holy-power", "divine-warrior", "lawful-value"]
     curse-from-beyond:
-      specific: ["aberrant-influence", "mind-alteration", "chaotic-value", "intellectual-combatant"]
+      specific: ["aberrant-influence", "mind-alteration", "chaotic-value", "tactical-value"]
     demonic-possession:
       generic:
         magicType: "damage"
@@ -26,11 +26,11 @@ profile:
         magicType: "none"
       specific: ["shapeshifter", "natural-armor", "survival-expert", "intuitive-value"]
     molded:
-      specific: ["ooze-symbiosis", "adaptable-fighter", "dual-nature", "patient-value"]
+      specific: ["ooze-symbiosis", "adaptable-fighter", "dual-nature", "disciplined-value"]
     sealed-dragon:
       generic:
         magicType: "damage"
-      specific: ["draconic-heritage", "proud-value", "elemental-affinity", "raw-talent"]
+      specific: ["draconic-heritage", "proud-value", "elemental-affinity", "innate-magic"]
     shadowcursed:
       generic:
         magicType: "utility"

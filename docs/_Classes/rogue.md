@@ -4,15 +4,15 @@ layout: default
 profile:
   generic:
     magicType: "none"
-    originBackground: ["urban", "criminal", "rural"]
-  specific: ["stealth-master", "cunning-value", "opportunistic-value", "social-manipulator"]
+    originBackground: ["urban", "criminal", "nature"]
+  specific: ["stealth-master", "cunning-value", "cunning-value", "social-manipulator"]
   archetypes:
     arcane-trickster:
       generic:
         magicType: "utility"
-      specific: ["magic-student", "illusion-specialist", "scholar", "mage-hand-master"]
+      specific: ["arcane-magic", "illusion-specialist", "scholar", "mage-hand-master"]
     assassin:
-      specific: ["death-dealer", "disguise-master", "patient-value", "professional-killer"]
+      specific: ["death-dealer", "disguise-master", "disciplined-value", "professional-killer"]
     blade-juggler:
       specific: ["throwing-expert", "ranged-expert", "precise", "fast-hands", "initiative-specialist"]
     daggerspell-mage:
@@ -26,7 +26,7 @@ profile:
     gambler:
       specific: ["lucky", "risk-taker", "fate-touched", "chaotic-value"]
     investigator:
-      specific: ["knowledge-seeker", "investigator", "otherworldly-knowledge", "streetwise", "mind-reader"]
+      specific: ["knowledge-seeker", "truth-seeker", "otherworldly-knowledge", "urban-background", "mind-reader"]
     jester:
       generic:
         magicType: "utility"
@@ -34,7 +34,7 @@ profile:
     keen-blade:
       specific: ["tactical-value", "scholar", "precise", "duelist", "initiative-specialist"]
     ruffian:
-      specific: ["strength-specialist", "adaptive", "aggressive-value", "unarmed-combat", "physical"]
+      specific: ["strength-specialist", "adaptive", "reckless-value", "unarmed-combat", "physical"]
     serpentine-infiltrator:
       specific: ["shapeshifter", "poison-expert", "infiltrator", "shadow-binding", "stealth-master"]
     spellwarp-sniper:

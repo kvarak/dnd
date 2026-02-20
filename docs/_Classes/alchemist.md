@@ -4,8 +4,8 @@ layout: default
 profile:
   generic:
     magicType: "versatile"
-    originBackground: ["scholarly", "urban"]
-  specific: ["innovation-specialist", "craftsman-warrior", "scholar", "versatile-magic"]
+    originBackground: ["academic", "urban"]
+  specific: ["innovation-specialist", "craftsman-background", "scholar", "versatile-magic"]
   archetypes:
     apothecary:
       generic:
@@ -22,7 +22,7 @@ profile:
     poisoner:
       generic:
         magicType: "damage"
-      specific: ["poison-expert", "death-dealer", "stealth-master", "patient-value"]
+      specific: ["poison-expert", "death-dealer", "stealth-master", "disciplined-value"]
     psychedelic:
       generic:
         magicType: "control"
@@ -30,7 +30,7 @@ profile:
     transmuter:
       generic:
         magicType: "utility"
-      specific: ["transmutation-magic", "versatile-magic", "magic-student"]
+      specific: ["transmutation-magic", "versatile-magic", "arcane-magic"]
 ---
 
 <div class="toc" markdown="1">

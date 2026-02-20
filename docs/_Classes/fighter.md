@@ -4,25 +4,25 @@ layout: default
 profile:
   generic:
     magicType: "none"
-    originBackground: ["military", "rural", "urban"]
+    originBackground: ["military", "nature", "urban"]
   specific: ["disciplined-value", "tactical-value", "physical", "weapon-specialist"]
   archetypes:
     arbalestion:
-      specific: ["crossbow-specialist", "ranged-expert", "engineering-mind", "craftsman-warrior", "modern-value"]
+      specific: ["crossbow-specialist", "ranged-expert", "engineering-mind", "craftsman-background", "modern-value"]
     arcane-archer:
       generic:
         magicType: "utility"
-      specific: ["archery-specialist", "magic-student", "ranged-expert", "dual-nature"]
+      specific: ["archery-specialist", "arcane-magic", "ranged-expert", "dual-nature"]
     bulwark:
       specific: ["shield-specialist", "defensive-expert", "tactical-value", "disciplined-value"]
     champion:
       specific: ["weapon-master", "critical-striker", "athletic-prowess", "endurance-specialist"]
     daredevil:
-      specific: ["risk-taker", "mobile-combatant", "acrobatic", "opportunistic-value"]
+      specific: ["risk-taker", "mobile-combatant", "acrobatic", "cunning-value"]
     eldritch-knight:
       generic:
         magicType: "utility"
-      specific: ["scholar", "magic-student", "dual-nature", "intellectual-combatant"]
+      specific: ["scholar", "arcane-magic", "dual-nature", "tactical-value"]
     ghost-operative:
       specific: ["stealth-master", "infiltrator", "tactical-value", "initiative-specialist"]
     guerilla:
@@ -34,15 +34,15 @@ profile:
     runeguard:
       generic:
         magicType: "utility"
-      specific: ["rune-magic", "scholar", "magic-student", "tactical-value"]
+      specific: ["rune-magic", "scholar", "arcane-magic", "tactical-value"]
     sellsword:
-      specific: ["pragmatic-fighter", "opportunistic-value", "dirty-tactics", "streetwise"]
+      specific: ["pragmatic-fighter", "cunning-value", "dirty-tactics", "urban-background"]
     skirmisher:
       specific: ["mobile-combatant", "agile-warrior", "speed-specialist", "evasive"]
     templar:
       generic:
         magicType: "utility"
-      specific: ["divine-student", "ritual-caster", "religious-value", "magic-student"]
+      specific: ["divine-magic", "ritual-caster", "religious-value", "arcane-magic"]
     thing-slinger:
       specific: ["improvised-specialist", "throwing-expert", "strength-specialist", "chaotic-value"]
     underdog:
@@ -54,7 +54,7 @@ profile:
     tinker-knight:
       restriction:
         folk: ["gnome"]
-      specific: ["engineering-mind", "innovation-specialist", "craftsman-warrior", "intellectual-combatant"]
+      specific: ["engineering-mind", "innovation-specialist", "craftsman-background", "tactical-value"]
     warsling-sniper:
       restriction:
         folk: ["halfling"]

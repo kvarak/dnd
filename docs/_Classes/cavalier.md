@@ -9,11 +9,11 @@ profile:
   archetypes:
     knightErrant:
       generic:
-        originBackground: ["military", "rural"]
-      specific: ["survival-expert", "opportunistic-value", "wanderer-spirit", "pragmatic-fighter"]
+        originBackground: ["military", "nature"]
+      specific: ["survival-expert", "cunning-value", "wanderer-spirit", "pragmatic-fighter"]
     order-of-the-blueRose:
       generic:
-        originBackground: ["noble", "scholarly"]
+        originBackground: ["noble", "academic"]
       specific: ["social-manipulator", "protective-value", "lawful-value", "diplomatic-soul"]
     order-of-the-dragon:
       generic:
@@ -29,15 +29,15 @@ profile:
       specific: ["noble-background", "loyal-guardian", "disciplined-value", "protective-value"]
     order-of-the-scales:
       generic:
-        originBackground: ["noble", "scholarly"]
+        originBackground: ["noble", "academic"]
       specific: ["lawful-value", "truth-seeker", "disciplined-value", "justice-seeker", "scholar", "honorable"]
     order-of-the-shield:
       generic:
-        originBackground: ["military", "rural"]
+        originBackground: ["military", "nature"]
       specific: ["protective-value", "shield-specialist", "defensive-expert", "loyal-guardian", "endurance-specialist", "mounted"]
     order-of-the-star:
       generic:
-        originBackground: ["noble", "scholarly"]
+        originBackground: ["noble", "academic"]
       specific: ["religious-value", "divine-warrior", "holy-power", "scholar", "divine-healer", "illuminating-light"]
 ---
 

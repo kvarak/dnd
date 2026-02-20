@@ -8,15 +8,15 @@ profile:
   specific: ["fey-touched", "versatile-magic", "chaotic-value", "unpredictable-power", "wild-spirit", "fey-beauty", "nature-magic"]
   archetypes:
     boggart-affinity:
-      specific: ["trickster-magic", "social-manipulator", "cunning-value", "opportunistic-value"]
+      specific: ["trickster-magic", "social-manipulator", "cunning-value", "cunning-value"]
     nereid-affinity:
       generic:
         magicType: "utility"
-      specific: ["water-mastery", "aquatic-heritage", "healing-magic", "intuitive-value"]
+      specific: ["elemental-affinity", "aquatic-heritage", "healing-magic", "intuitive-value"]
     oread-affinity:
       generic:
         magicType: "none"
-      specific: ["fey-warrior", "weapon-master", "natural-armor", "aggressive-value"]
+      specific: ["fey-warrior", "weapon-master", "natural-armor", "reckless-value"]
     pooka-affinity:
       specific: ["wild-surges", "chaos-magic", "fate-touched", "chaotic-value"]
     sidhe-affinity:
@@ -26,7 +26,7 @@ profile:
     sprig-affinity:
       generic:
         magicType: "utility"
-      specific: ["plant-mastery", "nature-guardian", "healing-magic", "patient-value"]
+      specific: ["plant-mastery", "nature-guardian", "healing-magic", "disciplined-value"]
     sylph-affinity:
       generic:
         magicType: "control"

@@ -4,7 +4,7 @@ layout: default
 profile:
   generic:
     magicType: "utility"
-    originBackground: ["rural", "military", "tribal"]
+    originBackground: ["nature", "military", "tribal"]
   specific: ["survival-expert", "nature-guardian", "stealth-master", "nature-magic"]
   archetypes:
     beast-conclave:
@@ -30,7 +30,7 @@ profile:
     nightstalker:
       specific: ["shadow-magic", "stealth-master", "shadow-affinity", "summon-familiar"]
     stalker:
-      specific: ["urban-background", "stealth-master", "social-manipulator", "investigator"]
+      specific: ["urban-background", "stealth-master", "social-manipulator", "truth-seeker"]
     banshee-conclave:
       restriction:
         folk: ["bound spirit"]

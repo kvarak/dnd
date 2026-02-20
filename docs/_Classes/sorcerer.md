@@ -4,8 +4,8 @@ layout: default
 profile:
   generic:
     magicType: "versatile"
-    originBackground: ["noble", "tribal", "rural", "scholarly"]
-  specific: ["innate-power", "raw-talent", "intuitive-value", "arcane-magic"]
+    originBackground: ["noble", "tribal", "nature", "academic"]
+  specific: ["innate-magic", "innate-magic", "intuitive-value", "arcane-magic"]
   archetypes:
     draconic-bloodline:
       generic:
@@ -22,11 +22,11 @@ profile:
     arachnid:
       generic:
         magicType: "control"
-      specific: ["patient-value", "stealth-master", "control-magic", "ambush-predator"]
+      specific: ["disciplined-value", "stealth-master", "control-magic", "ambush-predator"]
     ashen:
       generic:
         magicType: "damage"
-      specific: ["fire-affinity", "damage-magic", "wild-spirit", "aggressive-value"]
+      specific: ["fire-affinity", "damage-magic", "wild-spirit", "reckless-value"]
     autumnal:
       generic:
         magicType: "utility"
@@ -38,7 +38,7 @@ profile:
     divine-soul:
       generic:
         magicType: "healing"
-      specific: ["celestial-heritage", "divine-student", "healing-magic", "holy-power"]
+      specific: ["celestial-heritage", "divine-magic", "healing-magic", "holy-power"]
     dread:
       generic:
         magicType: "control"
@@ -46,7 +46,7 @@ profile:
     dune-child:
       generic:
         magicType: "utility"
-      specific: ["desert-survival", "elemental-affinity", "endurance-specialist", "tribal-background"]
+      specific: ["survival-expert", "elemental-affinity", "endurance-specialist", "tribal-background"]
     ethereal:
       generic:
         magicType: "utility"
@@ -58,15 +58,15 @@ profile:
     frozen-heart:
       generic:
         magicType: "control"
-      specific: ["elemental-affinity", "control-magic", "disciplined-value", "patient-value"]
+      specific: ["elemental-affinity", "control-magic", "disciplined-value", "disciplined-value"]
     incantatrix:
       generic:
         magicType: "utility"
-      specific: ["scholar", "versatile-magic", "scholarly-background", "magic-student"]
+      specific: ["scholar", "versatile-magic", "academic-background", "arcane-magic"]
     oceanic:
       generic:
         magicType: "utility"
-      specific: ["aquatic-heritage", "water-mastery", "storm-caller", "elemental-affinity"]
+      specific: ["aquatic-heritage", "elemental-affinity", "storm-caller"]
     oozemaster:
       generic:
         magicType: "control"
@@ -78,7 +78,7 @@ profile:
     phoenix:
       generic:
         magicType: "damage"
-      specific: ["fire-wielder", "elemental-affinity", "damage-magic", "raw-talent"]
+      specific: ["fire-wielder", "elemental-affinity", "damage-magic", "innate-magic"]
     plaguebringer:
       generic:
         magicType: "damage"
@@ -98,7 +98,7 @@ profile:
     storm:
       generic:
         magicType: "damage"
-      specific: ["storm-caller", "elemental-affinity", "damage-magic", "raw-talent"]
+      specific: ["storm-caller", "elemental-affinity", "damage-magic", "innate-magic"]
     time-thief:
       generic:
         magicType: "utility"

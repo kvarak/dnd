@@ -592,12 +592,37 @@
 
         renderAnswerOptions(questionId) {
           const currentAnswer = this.userAnswers[questionId];
-          const options = [
-            { value: 'yes', text: 'Yes', class: 'success', icon: 'check' },
-            { value: 'maybe', text: 'Maybe', class: 'warning', icon: 'question' },
-            { value: 'no', text: 'No', class: 'danger', icon: 'times' },
-            { value: 'dont-know', text: "Don't Know", class: 'secondary', icon: 'question-circle' }
-          ];
+
+          // Find the question and use its answer fields
+          const question = this.allQuestions.find(q => q.id === questionId);
+          if (!question || !question.answers) {
+            return ''; // Fallback for missing question data
+          }
+
+          // Always use the answer keys from question-bank.yml
+          const answerKeys = Object.keys(question.answers);
+          const options = answerKeys.map(key => {
+            // Format display text
+            const displayText = key === 'dont-know' ? "Don't Know" :
+                               key.charAt(0).toUpperCase() + key.slice(1).replace(/[-_]/g, ' ');
+
+            // Determine styling
+            const getButtonStyle = (key) => {
+              if (key === 'dont-know') return { class: 'secondary', icon: 'question-circle' };
+              if (key === 'yes') return { class: 'success', icon: 'check' };
+              if (key === 'maybe') return { class: 'warning', icon: 'question' };
+              if (key === 'no') return { class: 'danger', icon: 'times' };
+              return { class: 'primary', icon: 'check-circle' }; // Custom answers
+            };
+
+            const style = getButtonStyle(key);
+            return {
+              value: key,
+              text: displayText,
+              class: style.class,
+              icon: style.icon
+            };
+          });
 
           return options.map(option => `
             <button class="btn btn-outline-${option.class} answer-btn ${currentAnswer === option.value ? 'active' : ''}"
@@ -1863,8 +1888,13 @@
         selectNextAdaptiveQuestion() {
           // Adaptive question selection algorithm
 
-          // First question: random
+          // First question: always "life-environment"
           if (this.askedQuestionIds.size === 0) {
+            const lifeEnvironmentQuestion = this.allQuestions.find(q => q.id === 'life-environment');
+            if (lifeEnvironmentQuestion) {
+              return lifeEnvironmentQuestion;
+            }
+            // Fallback to random if life-environment question not found
             return this.getRandomUnusedQuestion();
           }
 

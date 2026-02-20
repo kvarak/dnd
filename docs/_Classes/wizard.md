@@ -4,8 +4,8 @@ layout: default
 profile:
   generic:
     magicType: "versatile"
-    originBackground: ["scholarly", "noble", "urban"]
-  specific: ["scholar", "knowledge-seeker", "magic-student", "intellectual-combatant", "arcane-magic"]
+    originBackground: ["academic", "noble", "urban"]
+  specific: ["scholar", "knowledge-seeker", "arcane-magic", "tactical-value", "arcane-magic"]
   archetypes:
     master-of-the-unseen-hand:
       specific: ["mage-hand-master", "tactical-value", "innovation-specialist", "control-magic"]
@@ -16,7 +16,7 @@ profile:
     school-of-chronomancy:
       generic:
         magicType: "utility"
-      specific: ["tactical-value", "knowledge-seeker", "probability-manipulation", "patient-value"]
+      specific: ["tactical-value", "knowledge-seeker", "probability-manipulation", "disciplined-value"]
     school-of-abjuration:
       generic:
         magicType: "utility"
@@ -24,7 +24,7 @@ profile:
     school-of-conjuration:
       generic:
         magicType: "utility"
-      specific: ["dimensional-magic", "summon-familiar", "versatile-magic", "creative-artisan"]
+      specific: ["dimensional-magic", "summon-familiar", "versatile-magic", "artistic-excellence"]
     school-of-divination:
       generic:
         magicType: "utility"
@@ -36,7 +36,7 @@ profile:
     school-of-evocation:
       generic:
         magicType: "damage"
-      specific: ["damage-magic", "elemental-affinity", "area-attacker", "aggressive-value"]
+      specific: ["damage-magic", "elemental-affinity", "area-attacker", "reckless-value"]
     school-of-the-familiar:
       generic:
         magicType: "utility"
@@ -44,11 +44,11 @@ profile:
     school-of-illusion:
       generic:
         magicType: "utility"
-      specific: ["illusion-specialist", "trickster-magic", "creative-artisan", "cunning-value"]
+      specific: ["illusion-specialist", "trickster-magic", "artistic-excellence", "cunning-value"]
     school-of-necromancy:
       generic:
         magicType: "control"
-      specific: ["necromancy-dabbler", "death-magic", "tactical-value", "aggressive-value"]
+      specific: ["necromancy-dabbler", "death-magic", "tactical-value", "reckless-value"]
     gravebinder:
       generic:
         magicType: "utility"
@@ -60,7 +60,7 @@ profile:
     school-of-transmutation:
       generic:
         magicType: "utility"
-      specific: ["transmutation-magic", "shape-mastery", "versatile-magic", "creative-artisan"]
+      specific: ["transmutation-magic", "shape-mastery", "versatile-magic", "artistic-excellence"]
     master-transmogrifist:
       generic:
         magicType: "utility"
@@ -68,7 +68,7 @@ profile:
     scientific-tradition:
       generic:
         magicType: "utility"
-      specific: ["engineering-mind", "knowledge-seeker", "innovation-specialist", "progressive-ideals"]
+      specific: ["engineering-mind", "knowledge-seeker", "innovation-specialist", "modern-value"]
     windbringer:
       generic:
         magicType: "damage"
