@@ -1,4 +1,39 @@
 ---
+- id: personal-transformation-philosophy
+  text: How do you view personal change, growth, and transformation across body, mind, and spirit?
+  category: character-philosophy
+  answers:
+    Embrace radical change:
+      transmutation-magic: 5
+      innovation-specialist: 4
+      chaotic-value: 3
+      unpredictable-power: 3
+      scholar: 2
+    Gradual refinement:
+      scholar: 4
+      disciplined-value: 3
+      academic-background: 3
+      tactical-value: 2
+      patient-value: 1
+    Cyclical renewal:
+      fey-touched: 5
+      wild-spirit: 4
+      chaotic-value: 3
+      nature-magic: 3
+      lunar-affinity: 2
+    Selective adaptation:
+      adaptable: 4
+      agile-fighter: 3
+      evasive: 2
+      tactical-value: 2
+      dual-nature: 2
+    Preserve my core:
+      disciplined-value: 4
+      lawful-value: 3
+      traditionalist: 2
+      proud-value: 2
+    dont-know: {}
+
 - id: chaos-acceptance
   text: How do you feel about chaos, unpredictability, and wild magic?
   category: magic-preference
@@ -16,7 +51,7 @@
       versatile-magic: 2
       innate-magic: 2
       adaptive: 1
-    Tolerate when necessary:
+    Tolerate if needed:
       adaptive: 2
       adaptable-fighter: 2
       versatile-magic: 1
@@ -27,11 +62,40 @@
       chaos-magic: -2
       chaotic-value: -2
     dont-know: {}
+- id: wild-chaotic-force-mastery
+  text: How do you approach mastering wild, unpredictable, or chaotic forces?
+  category: character-approach
+  answers:
+    Embrace and channel:
+      wild-surges: 5
+      chaos-magic: 5
+      fey-touched: 4
+      unpredictable-power: 4
+      wild-spirit: 3
+    Bond with nature:
+      nature-guardian: 5
+      wild-spirit: 4
+      survival-expert: 3
+      nature-magic: 3
+      animal-companion: 2
+    Disciplined control:
+      spell-disruptor: 5
+      zealot-faith: 4
+      disciplined-value: 3
+      lawful-value: 2
+      tactical-value: 2
+    Bold innovation:
+      innovation-specialist: 5
+      explosives-expert: 3
+      transmutation-magic: 3
+      reckless-value: 3
+      knowledge-seeker: 2
+    dont-know: {}
 - id: healing-magic
   text: Do you want to heal and protect your allies?
   category: combat-style
   answers:
-    'yes':
+    'Yes':
       healing-magic: 6
       divine-magic: 5
       protective-value: 4
@@ -46,14 +110,14 @@
       utility-magic: 1
       damage-magic: -2
       reckless-value: -2
-    maybe:
+    'Maybe':
       healing-magic: 1
       potion-brewer: 1
       protective-value: 1
       utility-magic: 2
       versatile-magic: 1
       diplomatic-soul: 1
-    'no':
+    'No':
       healing-magic: -2
       death-speaker: -2
       potion-brewer: -2
@@ -67,7 +131,7 @@
   text: Are you interested in using magic?
   category: magic-preference
   answers:
-    'yes':
+    'Yes':
       versatile-magic: 4
       arcane-magic: 5
       knowledge-seeker: 2
@@ -80,12 +144,12 @@
       innate-magic: -2
       instinctive-combatant: -2
       athletic-prowess: -1
-    maybe:
+    'Maybe':
       utility-magic: 2
       versatile-magic: 1
       adaptable-fighter: 1
       cunning-value: 1
-    'no':
+    'No':
       magic-hunter: 3
       spell-disruptor: 3
       innate-magic: 3
@@ -98,27 +162,54 @@
       healing-magic: -2
       utility-magic: -2
     dont-know: {}
-- id: wilderness-life
-  text: Do you prefer a rural/wilderness background?
+- id: nature-relationship-philosophy
+  text: What is your deepest relationship with the natural world?
   category: character-origin
   answers:
-    'yes':
+    Sacred protector:
       nature-background: 4
+      nature-guardian: 5
+      protective-value: 3
       survival-expert: 3
-      nature-guardian: 3
-      nature-magic: 3
+      nurturing-soul: 2
+      tribal-background: 1
       freedom-fighter: 2
       wanderer-spirit: 2
+    Nature beast master:
+      nature-background: 3
+      beast-friend: 4
+      animal-companion: 3
+      wild-spirit: 3
+      survival-expert: 2
+      nature-guardian: 2
       fey-touched: 2
-      tribal-background: 1
-      urban-background: -2
-      noble-background: -1
-    maybe:
-      nature-background: 2
-      urban-background: 1
-    'no':
+    Elemental force:
+      nature-magic: 4
+      storm-caller: 4
+      decay-mastery: 4
+      nature-guardian: 2
+      damage-magic: 2
+      death-speaker: 2
+      necromancy-dabbler: 1
+    Land steward:
+      nature-guardian: 4
+      plant-mastery: 4
+      terrain-bond: 4
+      healing-magic: 2
+      protective-value: 2
+      survival-expert: 2
+      nurturing-soul: 1
+    Free spirit:
+      nature-background: 4
+      freedom-fighter: 2
+      wanderer-spirit: 2
+      survival-expert: 3
+      pragmatic-fighter: 2
+      cunning-value: 1
+    Urban disconnect:
       urban-background: 3
-      nature-background: -2
+      arcane-magic: 2
+      academic-background: 1
     dont-know: {}
 - id: life-environment
   text: What environment did you grow up in?
@@ -150,7 +241,7 @@
   text: Are you drawn to elemental forces (fire, ice, lightning)?
   category: power-source
   answers:
-    'yes':
+    'Yes':
       elemental-affinity: 4
       fire-affinity: 3
       nature-magic: 3
@@ -163,12 +254,12 @@
       versatile-magic: 1
       reckless-value: 1
       divine-magic: -1
-    maybe:
+    'Maybe':
       versatile-magic: 2
       nature-magic: 1
       elemental-affinity: 1
       arcane-magic: 1
-    'no':
+    'No':
       divine-magic: 2
       elemental-affinity: -2
       martial: 1
@@ -178,15 +269,15 @@
   text: Do you want to specialize in mastering specific weapons?
   category: combat-specialization
   answers:
-    'yes':
+    'Yes':
       weapon-specialist: 4
       weapon-master: 3
       disciplined-value: 2
       physical: 1
-    maybe:
+    'Maybe':
       physical: 2
       weapon-specialist: 1
-    'no':
+    'No':
       versatile-magic: 2
       physical: -1
     dont-know: {}
@@ -194,7 +285,7 @@
   text: Do you prefer planning and strategy over instinctive action?
   category: combat-approach
   answers:
-    'yes':
+    'Yes':
       tactical-value: 7
       adaptable-fighter: 2
       scholar: 2
@@ -207,12 +298,12 @@
       instinctive-combatant: -2
       reckless-value: -2
       chaotic-value: -1
-    maybe:
+    'Maybe':
       tactical-value: 1
       disciplined-value: 2
       adaptable-fighter: 1
       cunning-value: 1
-    'no':
+    'No':
       chaotic-value: 3
       intuitive-value: 2
       innate-magic: 1
@@ -223,7 +314,7 @@
   text: Do you like fighting smart when outmatched, turning weaknesses into strengths?
   category: combat-style
   answers:
-    'yes':
+    'Yes':
       underdog-fighter: 4
       instinctive-combatant: 4
       unpredictable-power: 3
@@ -235,12 +326,12 @@
       disciplined-value: -2
       lawful-value: -1
       honorable: -2
-    maybe:
+    'Maybe':
       adaptable-fighter: 2
       tactical-value: 1
       cunning-value: 1
       versatile-magic: 1
-    'no':
+    'No':
       underdog-fighter: -2
       disciplined-value: 3
       tactical-value: 3
@@ -248,47 +339,71 @@
       honorable: 2
       military-background: 2
     dont-know: {}
-- id: innate-abilities
-  text: Do you prefer natural, inborn talents over studied skills?
+- id: instinct-talent-philosophy
+  text: Do you rely most on natural instinct and inborn talent, or studied skill and careful planning?
   category: power-origin
   answers:
-    'yes':
+    Pure instinctive:
       innate-magic: 7
       intuitive-value: 3
-      instinctive-combatant: 2
+      instinctive-combatant: 4
+      wild-spirit: 3
       chaotic-value: 2
       draconic-heritage: 2
       fey-touched: 2
       wild-surges: 1
-      versatile-magic: 1
       disciplined-value: -3
-      academic-background: -1
-    maybe:
-      dual-nature: 2
-      utility-magic: 1
+    Wild untamed spirit:
+      innate-magic: 5
+      instinctive-combatant: 3
+      wild-spirit: 3
+      intuitive-value: 2
+      chaotic-value: 2
       versatile-magic: 1
-    'no':
-      scholar: 3
-      arcane-magic: 4
+    Intuitive mage:
+      innate-magic: 6
+      intuitive-value: 3
+      instinctive-combatant: 2
+      utility-magic: 2
+      knowledge-seeker: 1
+      dual-nature: 2
+    Adaptive hybrid:
+      dual-nature: 3
       adaptive: 2
-      academic-background: 2
+      versatile-magic: 2
+      intuitive-value: 2
+      instinctive-combatant: 1
+      tactical-value: 1
+    Measured tactician:
+      tactical-value: 4
+      scholar: 2
+      instinctive-combatant: 1
+      knowledge-seeker: 2
+      disciplined-value: 2
+      academic-background: 1
+    Disciplined scholar:
+      scholar: 4
+      arcane-magic: 4
       disciplined-value: 4
       knowledge-seeker: 2
+      academic-background: 2
+      tactical-value: 3
+      instinctive-combatant: -2
     dont-know: {}
 - id: ranged-combat
   text: Do you prefer fighting from a distance over close combat?
   category: combat-range
   answers:
-    'yes':
+    'Yes':
       ranged-expert: 4
       archery-specialist: 3
       crossbow-specialist: 2
       tactical-value: 1
       damage-magic: 1
-    maybe:
+    'Maybe':
       ranged-expert: 1
       versatile-magic: 1
-    'no':
+    'No':
       physical: 2
       athletic-prowess: 1
     dont-know: {}
@@ -296,7 +411,7 @@
   text: Do you like the idea of using magic for tricks and illusions?
   category: magic-style
   answers:
-    'yes':
+    'Yes':
       utility-magic: 4
       trickster-magic: 4
       illusion-specialist: 4
@@ -308,19 +423,19 @@
       musical-magic: 2
       cunning-value: 2
       versatile-magic: 1
-    maybe:
+    'Maybe':
       utility-magic: 2
       arcane-magic: 1
       mind-alteration: 1
       versatile-magic: 1
-    'no':
+    'No':
       mind-alteration: -2
     dont-know: {}
 - id: study-vs-talent
   text: Do you prefer learning through study and books over natural talent?
   category: learning-style
   answers:
-    'yes':
+    'Yes':
       scholar: 4
       arcane-magic: 13
       academic-background: 2
@@ -329,11 +444,11 @@
       instinctive-combatant: -2
       innate-magic: -2
       chaotic-value: -1
-    maybe:
+    'Maybe':
       dual-nature: 1
       versatile-magic: 1
       adaptable-fighter: 1
-    'no':
+    'No':
       intuitive-value: 4
       innate-magic: 6
       fey-touched: 2
@@ -346,14 +461,14 @@
   text: Are you comfortable with using lethal force when necessary?
   category: moral-approach
   answers:
-    'yes':
+    'Yes':
       death-dealer: 4
       necromancy-dabbler: 2
       professional-killer: 3
       vengeful-soul: 2
       disciplined-value: 1
-    maybe: {}
-    'no':
+    'Maybe': {}
+    'No':
       healing-magic: 3
       necromancy-dabbler: -2
       justice-seeker: 2
@@ -364,15 +479,15 @@
   text: Are you comfortable operating in harsh or hostile environments?
   category: character-capability
   answers:
-    'yes':
+    'Yes':
       survival-expert: 4
       nature-background: 2
       adaptable-fighter: 2
       physical: 2
-    maybe:
+    'Maybe':
       survival-expert: 1
       nature-background: 1
-    'no':
+    'No':
       urban-background: 3
       noble-background: 2
       academic-background: 1
@@ -381,44 +496,28 @@
   text: Do you like the idea of using poison or toxins to defeat enemies?
   category: combat-specialization
   answers:
-    'yes':
+    'Yes':
       poison-expert: 4
       death-dealer: 3
       criminal-background: 2
       stealth-master: 2
       disciplined-value: 2
       cunning-value: 2
-    maybe:
+    'Maybe':
       poison-expert: 1
       tactical-value: 1
       criminal-background: 1
-    'no':
+    'No':
       poison-expert: -3
       lawful-value: 2
       physical: 1
     dont-know: {}
-- id: wilderness-guardian
-  text: Do you feel a calling to protect and preserve the natural world?
-  category: character-motivation
-  answers:
-    'yes':
-      nature-guardian: 4
-      protective-value: 3
-      survival-expert: 2
-      nurturing-soul: 2
-    maybe:
-      nature-guardian: 2
-      protective-value: 2
-    'no':
-      nature-guardian: -2
-      pragmatic-fighter: 2
-      cunning-value: 1
-    dont-know: {}
+
 - id: forbidden-knowledge
   text: Are you drawn to mysterious, otherworldly, or forbidden knowledge?
   category: knowledge-type
   answers:
-    'yes':
+    'Yes':
       otherworldly-knowledge: 4
       knowledge-seeker: 3
       scholar: 2
@@ -432,12 +531,12 @@
       intuitive-value: -2
       instinctive-combatant: -2
       innate-magic: -1
-    maybe:
+    'Maybe':
       knowledge-seeker: 2
       scholar: 1
       arcane-magic: 1
       versatile-magic: 1
-    'no':
+    'No':
       otherworldly-knowledge: -2
       intuitive-value: 3
       instinctive-combatant: 2
@@ -448,7 +547,7 @@
   text: Do you feel connected to the memories and wisdom of your ancestors?
   category: character-heritage
   answers:
-    'yes':
+    'Yes':
       ancestral-memory: 4
       ancient-knowledge: 3
       proud-value: 2
@@ -460,11 +559,11 @@
       nature-guardian: 1
       honorable: 1
       innovation-specialist: -1
-    maybe:
+    'Maybe':
       ancestral-memory: 2
       ancient-knowledge: 2
       cunning-value: 1
-    'no':
+    'No':
       ancestral-memory: -2
       modern-value: 3
       innovation-specialist: 1
@@ -472,95 +571,122 @@
       freedom-fighter: 1
       cunning-value: 1
     dont-know: {}
-- id: primal-instincts
-  text: Do you trust your instincts over careful planning in dangerous situations?
-  category: decision-making
-  answers:
-    'yes':
-      instinctive-combatant: 4
-      wild-spirit: 3
-      intuitive-value: 3
-      chaotic-value: 2
-    maybe:
-      instinctive-combatant: 2
-      intuitive-value: 2
-    'no':
-      instinctive-combatant: -2
-      tactical-value: 5
-    dont-know: {}
+
 - id: natural-beauty
   text: Do you believe your appearance and charm are your greatest assets?
   category: character-identity
   answers:
-    'yes':
+    'Yes':
       fey-beauty: 4
       social-manipulator: 3
       charm-magic: 3
       artistic-excellence: 2
       noble-heritage: 2
       proud-value: 2
-    maybe:
+    'Maybe':
       fey-beauty: 2
       social-manipulator: 2
       artistic-excellence: 1
-    'no':
+    'No':
       fey-beauty: -2
       commanding: -2
       tactical-value: 2
     dont-know: {}
-- id: undercover-faith-work
-  text: Would you work undercover for a religious organization?
+- id: faith-infiltration-approach
+  text: If tasked with undercover work for a religious organization, what would appeal to you most?
   category: character-role
   answers:
-    'yes':
-      faith-infiltrator: 4
-      divine-magic: 4
-      stealth-master: 3
-      cunning-value: 3
+    Expose doctrine:
+      faith-infiltrator: 5
+      zealot-faith: 6
+      truth-seeker: 5
       religious-value: 3
+      investigator: 3
       disciplined-value: 2
-      social-manipulator: 1
-    maybe:
-      faith-infiltrator: 1
-      stealth-master: 1
-    'no':
+      divine-magic: 2
+    Gather evidence:
+      faith-infiltrator: 4
+      investigator: 5
+      truth-seeker: 4
+      stealth-master: 2
+      patient-value: 3
+      cunning-value: 2
+      urban-background: 2
+    Disrupt rituals:
+      faith-infiltrator: 5
+      spell-disruptor: 5
+      zealot-faith: 4
+      tactical-value: 3
+      disciplined-value: 2
+      divine-magic: 3
+      stealth-master: 2
+    Not interested:
+      peaceful-soul: 3
+      diplomatic-soul: 2
       noble-background: 2
       physical: 2
     dont-know: {}
-- id: divine-investigation
-  text: Do you want to investigate threats to your faith or divine order?
+- id: supernatural-threat-response
+  text: When encountering a supernatural or magical threat, what approach appeals to you most?
   category: character-motivation
   answers:
-    'yes':
-      zealot-faith: 4
-      divine-magic: 4
-      spell-disruptor: 3
-      religious-value: 6
-      tactical-value: 3
+    Zealous purify:
+      zealot-faith: 6
+      spell-disruptor: 5
+      religious-value: 4
+      divine-magic: 3
       lawful-value: 2
-      arcane-magic: 1
-    maybe:
-      religious-value: 1
-      zealot-faith: 1
-    'no':
+      tactical-value: 2
+      disciplined-value: 2
+    Methodical study:
+      spell-disruptor: 5
+      investigator: 4
+      truth-seeker: 3
+      scholar: 3
+      knowledge-seeker: 2
+      patient-value: 2
+      academic-background: 2
+      tactical-value: 1
+    Protect & contain:
+      protective-value: 3
+      tactical-value: 3
+      survival-expert: 2
+      disciplined-value: 2
+      defensive-expert: 1
+      lawful-value: 1
+    Embrace chaos:
+      chaos-magic: 5
+      wild-surges: 4
+      unpredictable-power: 4
+      fey-touched: 3
       chaotic-value: 3
-      criminal-background: 1
+      intuitive-value: 2
+    Seek allies:
+      diplomatic-soul: 3
+      teamwork-focused: 2
+      survival-expert: 2
+      peaceful-soul: 2
+      protective-value: 1
+    Cautious evade:
+      evasive: 3
+      stealth-master: 2
+      survival-expert: 2
     dont-know: {}
 - id: compassion-for-suffering
   text: Do you feel compelled to help those who suffer?
   category: character-motivation
   answers:
-    'yes':
+    'Yes':
       compassionate-heart: 4
       divine-magic: 3
       healing-magic: 3
       nurturing-soul: 3
       protective-value: 3
       religious-value: 2
-    maybe:
+    'Maybe':
       compassionate-heart: 1
       healing-magic: 1
-    'no':
+    'No':
       pragmatic-fighter: 3
       death-dealer: 2
     dont-know: {}
@@ -568,53 +694,68 @@
   text: Do you want to explore ancient ruins and uncover lost secrets?
   category: character-motivation
   answers:
-    'yes':
+    'Yes':
       explorer: 4
       ancient-lore: 3
       wanderer-spirit: 2
       survival-expert: 2
       athletic-prowess: 2
       knowledge-seeker: 2
-    maybe:
+    'Maybe':
       explorer: 1
       ancient-lore: 1
-    'no':
+    'No':
       urban-background: 3
       social-manipulator: 2
     dont-know: {}
-- id: animal-bond
-  text: Do you want to form a deep bond with an animal companion?
+- id: companion-bond-preference
+  text: What type of companion relationship appeals to you most?
   category: character-capability
   answers:
-    'yes':
+    Emotional bond:
       animal-companion: 4
-      nature-guardian: 3
-      mounted: 3
-      nature-background: 2
       loyal-guardian: 2
+      nature-guardian: 3
       wild-spirit: 2
-    maybe:
-      animal-companion: 1
-      nature-guardian: 1
-      nature-background: 1
-    'no':
+      nature-background: 2
+      mounted: 3
+    Fierce beast:
+      animal-companion: 5
+      loyal-guardian: 4
+      wild-spirit: 4
+      nature-guardian: 3
+      protective-value: 2
+      supportive-role: 2
+      nature-magic: 1
+    Magical familiar:
+      summon-familiar: 5
+      animal-companion: 3
+      spirit-medium: 3
+      beast-friend: 2
+      arcane-magic: 2
+      nature-magic: 2
+      utility-magic: 2
+      otherworldly-knowledge: 1
+    No bond needed:
       urban-background: 3
       academic-background: 2
+      weapon-specialist: 2
+      physical: 2
     dont-know: {}
 - id: extreme-mobility
   text: Do you want to be extremely mobile and acrobatic in combat?
   category: combat-approach
   answers:
-    'yes':
+    'Yes':
       agile-fighter: 4
       mobile-combatant: 3
       athletic-prowess: 3
       physical: 2
       stealth-master: 1
-    maybe:
+    'Maybe':
       agile-fighter: 1
       athletic-prowess: 1
-    'no':
+    'No':
       defensive-expert: 3
       tactical-value: 2
     dont-know: {}
@@ -622,42 +763,25 @@
   text: Do you want to excel in darkness and shadows?
   category: combat-specialization
   answers:
-    'yes':
+    'Yes':
       darkvision-master: 4
       shadow-affinity: 3
       ambush-predator: 3
       stealth-master: 4
       shadow-magic: 2
       arcane-magic: 1
-    maybe:
+    'Maybe':
       darkvision-master: 1
       stealth-master: 1
-    'no':
+    'No':
       holy-power: 2
       illuminating-light: 2
-    dont-know: {}
-- id: shapeshift-transform
-  text: Do you want to shapeshift and transform your body?
-  category: character-capability
-  answers:
-    'yes':
-      shapeshifter: 4
-      hunting-expert: 3
-      wild-spirit: 3
-      lunar-affinity: 2
-      adaptable-fighter: 2
-    maybe:
-      shapeshifter: 1
-      adaptable-fighter: 1
-    'no':
-      disciplined-value: 3
-      lawful-value: 2
     dont-know: {}
 - id: crowd-combat
   text: Do you thrive when fighting multiple opponents at once?
   category: combat-preference
   answers:
-    'yes':
+    'Yes':
       crowd-fighter: 4
       multitasking: 3
       acrobatic: 3
@@ -670,10 +794,10 @@
       defensive-expert: 1
       instinctive-combatant: 1
       disciplined-value: -1
-    maybe:
+    'Maybe':
       crowd-fighter: 1
       mobile: 1
-    'no':
+    'No':
       tactical-value: 2
       duelist: 3
       disciplined-value: 3
@@ -683,7 +807,7 @@
   text: Do you prefer fighting alongside allies with coordinated teamwork?
   category: combat-preference
   answers:
-    'yes':
+    'Yes':
       teamwork-focused: 4
       charismatic: 3
       military-background: 3
@@ -692,18 +816,18 @@
       tactical-value: 3
       loyal-guardian: 3
       inspirational-leader: 2
-    maybe:
+    'Maybe':
       teamwork-focused: 1
       charismatic: 1
       supportive-role: 1
-    'no':
+    'No':
       cunning-value: 2
     dont-know: {}
 - id: supernatural-ancestry
   text: What type of supernatural ancestry interests you?
   category: character-origin
   answers:
-    Draconic bloodline:
+    Draconic:
       draconic-heritage: 4
       innate-magic: 3
       elemental-affinity: 2
@@ -729,7 +853,7 @@
       chaotic-value: 2
       theatrical: 1
       refined: 1
-    No supernatural ancestry:
+    None:
       nature-background: 2
       military-background: 2
       urban-background: 2
@@ -738,15 +862,15 @@
   text: What unconventional combat style appeals to you?
   category: combat-style
   answers:
-    Improvised weapons:
+    Improvised:
       improvised-specialist: 4
       adaptable-fighter: 3
       pragmatic-fighter: 2
-    Unarmed fighting:
+    Unarmed:
       unarmed-combat: 4
       physical: 3
       reckless-value: 2
-    Exotic weapons (whips, nets, chains):
+    Exotic weapons:
       exotic-weapons: 4
       tactical-value: 3
       control-magic: 2
@@ -754,56 +878,47 @@
       weapon-specialist: 3
       disciplined-value: 2
     dont-know: {}
-- id: nature-specialization
-  text: If drawn to nature magic, what aspect appeals most?
-  category: magic-preference
+
+- id: hunting-calling-specialty
+  text: What is your hunting philosophy and calling?
+  category: character-calling
   answers:
-    Plants & growth:
-      plant-mastery: 4
-      nature-guardian: 3
-      healing-magic: 2
-    Land & terrain:
-      terrain-bond: 4
-      nature-guardian: 3
-      survival-expert: 2
-    Animals & beasts:
-      beast-friend: 4
-      nature-guardian: 3
-      wild-spirit: 2
-    Storms & weather:
-      storm-caller: 4
-      nature-magic: 3
-      damage-magic: 2
-    Decay & renewal:
-      decay-mastery: 4
-      nature-magic: 3
-      death-speaker: 2
-      necromancy-dabbler: 2
-    Not nature-focused:
-      arcane-magic: 2
-      urban-background: 2
-    dont-know: {}
-- id: hunter-specialization
-  text: If you hunt dangerous creatures, what type interests you most?
-  category: character-motivation
-  answers:
-    Demons & devils:
+    Relentless hunter:
+      relentless-hunter: 5
+      monster-hunter: 5
+      survival-expert: 3
+      tactical-value: 2
+      weapon-specialist: 2
+      demon-hunter: 2
+      undead-hunter: 2
+    Holy demon hunter:
       demon-hunter: 4
       holy-power: 3
+      relentless-hunter: 3
       divine-warrior: 3
-    Undead & spirits:
+      monster-hunter: 3
+      tactical-value: 2
+    Undead tracker:
       undead-hunter: 4
       ghost-tracker: 4
+      relentless-hunter: 3
       spirit-medium: 3
       death-magic: 2
-    Fey creatures:
+      survival-expert: 2
+      monster-hunter: 2
+    Fey specialist:
       fey-hunter: 4
       enchantment-resistance: 3
-    All monsters:
-      monster-hunter: 4
-      relentless-hunter: 3
+      relentless-hunter: 2
       survival-expert: 2
-    Not a hunter:
+      monster-hunter: 2
+    Selective hunter:
+      monster-hunter: 2
+      survival-expert: 1
+      tactical-value: 1
+    Not hunting:
+      peaceful-soul: 2
+      diplomatic-soul: 1
       academic-background: 2
       social-manipulator: 2
     dont-know: {}
@@ -811,43 +926,69 @@
   text: How do you prefer to gain insight and foresight?
   category: magic-preference
   answers:
-    Read opponents intentions:
+    Read intent:
       mind-reader: 4
       tactical-value: 3
       wisdom-seeker: 2
-    Divine the future:
+    Divine future:
       divination-magic: 4
       scholar: 3
       ritual-caster: 2
-    Reveal hidden truths:
+    Reveal truths:
       truth-seeker: 4
       illuminating-light: 3
       knowledge-seeker: 2
-    Instinct over analysis:
+    Gut instinct:
       intuitive-value: 3
       instinctive-combatant: 2
     dont-know: {}
-- id: refined-duelist
-  text: Do you see yourself as a refined, stylish combatant who values elegance and
-    panache?
+- id: elegant-combat-philosophy
+  text: How do you express yourself in combat - your approach to style, precision, and refinement?
   category: character-identity
   answers:
-    'yes':
+    Perfectly theatrical:
       refined: 6
-      perfectionist: 4
+      perfectionist: 5
       precise: 4
       duelist: 3
       theatrical: 3
-      agile-warrior: 2
-      charismatic: 2
       noble-background: 2
       diplomatic-soul: 1
-      reckless-value: -2
-    maybe:
+      charismatic: 2
+      agile-warrior: 2
+    Chaotic beauty:
+      fey-beauty: 5
+      refined: 4
+      chaotic-value: 3
+      wild-spirit: 2
+      mobile-combatant: 2
+      agile-fighter: 2
+    Lucky improvise:
+      probability-manipulation: 4
+      fate-touched: 3
+      lucky: 3
+      chaotic-value: 2
+      precise: 2
       refined: 2
-      charismatic: 1
-      precise: 1
-    'no':
+    Graceful speed:
+      agile-fighter: 4
+      mobile-combatant: 3
+      evasive: 3
+      reckless-value: 2
+      precise: 2
+      disciplined-value: 1
+    Magic finesse:
+      arcane-magic: 4
+      utility-magic: 3
+      precise: 3
+      scholarly: 2
+      versatile-magic: 2
+      tactical-value: 2
+      refined: 1
+      knowledge-seeker: 1
+    Results over style:
+      physical: 3
+      weapon-master: 2
       reckless-value: 3
       instinctive-combatant: 2
       pragmatic-fighter: 2
@@ -856,7 +997,7 @@
   text: Does living outside the law or rebelling against authority appeal to you?
   category: character-motivation
   answers:
-    'yes':
+    'Yes':
       outlaw: 4
       rebellious: 4
       criminal-background: 4
@@ -867,10 +1008,10 @@
       masked: 2
       lawful-value: -3
       noble-background: -2
-    maybe:
+    'Maybe':
       freedom-fighter: 2
       chaotic-value: 1
-    'no':
+    'No':
       lawful-value: 4
       military-background: 3
       noble-background: 2
@@ -880,18 +1021,18 @@
   text: Do you rely on finding and exploiting weak points for devastating strikes?
   category: combat-approach
   answers:
-    'yes':
+    'Yes':
       critical-striker: 4
       precise: 4
       tactical-value: 2
       cunning-value: 2
       disciplined-value: 2
       weapon-specialist: 2
-    maybe:
+    'Maybe':
       critical-striker: 1
       precise: 1
       tactical-value: 1
-    'no':
+    'No':
       reckless-value: 3
       damage-magic: 2
       crowd-fighter: 2
@@ -900,7 +1041,7 @@
   text: Do you enjoy crafting, building, or creating things with your hands?
   category: character-capability
   answers:
-    'yes':
+    'Yes':
       craftsman-background: 6
       innovation-specialist: 4
       modern-value: 3
@@ -911,63 +1052,67 @@
       explosives-expert: 2
       disciplined-value: 2
       tactical-value: 1
-    maybe:
+    'Maybe':
       craftsman-background: 2
       innovation-specialist: 1
-    'no':
+    'No':
       instinctive-combatant: 2
       athletic-prowess: 2
       innate-magic: 2
     dont-know: {}
-- id: experimental-innovation
-  text: Are you drawn to experimentation and pushing boundaries of what's possible?
+- id: experimentation-philosophy
+  text: Are you drawn to experimentation and innovation? If so, what style appeals most?
   category: character-motivation
   answers:
-    'yes':
+    Alchemical healing:
+      potion-brewer: 5
+      innovation-specialist: 4
+      healing-magic: 3
+      knowledge-seeker: 2
+      academic-background: 2
+    Things that go boom:
+      explosives-expert: 5
+      innovation-specialist: 3
+      throwing-expert: 3
+      reckless-value: 2
+      modern-value: 1
+      chaos-magic: 1
+    Magical transmute:
+      transmutation-magic: 4
+      innovation-specialist: 3
+      versatile-magic: 2
+      scholar: 2
+      knowledge-seeker: 2
+      modern-value: 2
+      chaotic-value: 1
+    Poison mastery:
+      poison-expert: 5
+      death-dealer: 3
+      stealth-master: 2
+      disciplined-value: 2
+      innovation-specialist: 3
+    Theoretic strategy:
       innovation-specialist: 5
       modern-value: 4
-      transmutation-magic: 3
-      alchemical-transformation: 3
-      chaos-magic: 2
-      versatile-magic: 2
       knowledge-seeker: 2
       scholar: 2
+      transmutation-magic: 2
+      versatile-magic: 2
       chaotic-value: 2
       reckless-value: 1
-      lawful-value: -2
-    maybe:
-      innovation-specialist: 2
-      versatile-magic: 1
-    'no':
+    Not experiment:
       lawful-value: 3
       disciplined-value: 3
       traditional-value: 2
-    dont-know: {}
-- id: familiar-companion-bond
-  text: Would you like a magical familiar or spirit companion that aids you?
-  category: character-capability
-  answers:
-    'yes':
-      summon-familiar: 5
-      animal-companion: 3
-      spirit-medium: 3
-      beast-friend: 2
-      arcane-magic: 2
-      nature-magic: 2
-      utility-magic: 2
-      otherworldly-knowledge: 1
-    maybe:
-      summon-familiar: 2
-      animal-companion: 1
-    'no':
-      weapon-specialist: 2
+      instinctive-combatant: 2
       physical: 2
     dont-know: {}
+
 - id: fate-destiny
   text: Are you interested in fate, destiny, prophecy, or manipulating probability?
   category: power-preference
   answers:
-    'yes':
+    'Yes':
       fate-touched: 5
       divination-magic: 4
       probability-manipulation: 4
@@ -976,11 +1121,11 @@
       scholar: 2
       divine-magic: 2
       arcane-magic: 1
-    maybe:
+    'Maybe':
       fate-touched: 2
       divination-magic: 1
       lucky: 1
-    'no':
+    'No':
       tactical-value: 2
       disciplined-value: 2
     dont-know: {}
@@ -988,7 +1133,7 @@
   text: Do you value endurance, perseverance, and the ability to outlast your opponents?
   category: character-values
   answers:
-    'yes':
+    'Yes':
       endurance-specialist: 5
       disciplined-value: 3
       survival-expert: 2
@@ -996,10 +1141,10 @@
       defensive-expert: 2
       unstoppable-force: 2
       loyal-guardian: 1
-    maybe:
+    'Maybe':
       endurance-specialist: 2
       survival-expert: 1
-    'no':
+    'No':
       speed-specialist: 3
       reckless-value: 2
       cunning-value: 2
@@ -1008,46 +1153,61 @@
   text: Are you interested in planar travel, teleportation, or manipulating space?
   category: magic-preference
   answers:
-    'yes':
+    'Yes':
       dimensional-magic: 5
       planar-guardian: 4
       arcane-magic: 3
       utility-magic: 2
       otherworldly-knowledge: 2
       versatile-magic: 1
-    maybe:
+    'Maybe':
       dimensional-magic: 2
       utility-magic: 1
-    'no':
+    'No':
       nature-magic: 2
       physical: 2
     dont-know: {}
-- id: truth-seeking-investigator
-  text: Are you drawn to uncovering hidden truths, lies, and corruption?
+- id: truth-investigation-method
+  text: Are you drawn to uncovering hidden truths and solving mysteries? If so, what's your preferred approach?
   category: character-motivation
   answers:
-    'yes':
+    Methodical:
       truth-seeker: 5
       investigator: 5
+      knowledge-seeker: 3
+      scholar: 2
+      patient-value: 2
       urban-background: 2
-      tactical-value: 3
-      lawful-value: 3
-      knowledge-seeker: 2
-      divine-magic: 2
+      tactical-value: 2
+      lawful-value: 2
+      divine-magic: 1
       arcane-magic: 1
-    maybe:
+    Spiritual insight:
+      spell-disruptor: 4
+      truth-seeker: 3
+      zealot-faith: 3
+      lawful-value: 2
+      divine-magic: 2
+      tactical-value: 2
+      arcane-magic: 1
+    Cunning question:
+      truth-seeker: 3
       investigator: 2
-      truth-seeker: 2
+      cunning-value: 3
+      social-manipulator: 2
+      urban-background: 1
+      tactical-value: 1
       knowledge-seeker: 1
-    'no':
+    Not inquire:
       reckless-value: 2
       chaotic-value: 2
+      instinctive-combatant: 1
     dont-know: {}
-- id: heresy-hunter-enforcer
-  text: Do you feel called to root out heresy, dark magic, or supernatural threats?
-  category: character-calling
+- id: divine-authority-philosophy
+  text: What role does divine authority appeal to you most?
+  category: character-identity
   answers:
-    'yes':
+    Hunt heresy:
       zealot-faith: 5
       spell-disruptor: 4
       monster-hunter: 4
@@ -1056,18 +1216,7 @@
       divine-magic: 3
       tactical-value: 2
       disciplined-value: 2
-    maybe:
-      zealot-faith: 2
-      religious-value: 1
-    'no':
-      chaotic-value: 2
-      arcane-magic: 2
-    dont-know: {}
-- id: divine-law-enforcer
-  text: Do you see yourself as an enforcer of divine law and cosmic order?
-  category: character-identity
-  answers:
-    'yes':
+    Enforce law:
       lawful-value: 5
       religious-value: 4
       divine-magic: 4
@@ -1075,56 +1224,28 @@
       tactical-value: 2
       protective-value: 2
       military-background: 2
-    maybe:
+    Defend innocent:
+      protective-value: 4
+      divine-magic: 3
+      religious-value: 3
+      compassionate-heart: 3
+      healing-magic: 2
       lawful-value: 2
-      religious-value: 1
-    'no':
+      nurturing-soul: 1
+    Not divine:
       chaotic-value: 4
       freedom-fighter: 2
+      arcane-magic: 2
+      chaotic-value: 2
     dont-know: {}
-- id: beast-bonding-companion
-  text: Do you want to bond with and fight alongside a loyal animal companion?
-  category: combat-style
-  answers:
-    'yes':
-      animal-companion: 5
-      loyal-guardian: 4
-      wild-spirit: 4
-      nature-guardian: 3
-      protective-value: 2
-      nature-magic: 2
-      supportive-role: 2
-    maybe:
-      animal-companion: 2
-      nature-guardian: 1
-    'no':
-      urban-background: 2
-      arcane-magic: 1
-    dont-know: {}
-- id: relentless-monster-hunter
-  text: Are you driven to track down and destroy dangerous monsters?
-  category: character-calling
-  answers:
-    'yes':
-      relentless-hunter: 5
-      monster-hunter: 5
-      demon-hunter: 4
-      undead-hunter: 4
-      survival-expert: 3
-      tactical-value: 2
-      weapon-specialist: 2
-    maybe:
-      monster-hunter: 2
-      survival-expert: 1
-    'no':
-      peaceful-soul: 2
-      diplomatic-soul: 1
-    dont-know: {}
+
+
+
 - id: wilderness-ambush-tactics
   text: Do you prefer to stalk prey from the shadows and strike from ambush?
   category: combat-style
   answers:
-    'yes':
+    'Yes':
       ambush-predator: 5
       stealth-master: 4
       survival-expert: 4
@@ -1132,320 +1253,120 @@
       patient-value: 3
       tactical-value: 2
       cunning-value: 2
-    maybe:
+    'Maybe':
       stealth-master: 2
       tactical-value: 1
-    'no':
+    'No':
       inspirational-leader: 2
       social-manipulator: 1
     dont-know: {}
-- id: truth-investigation-approach
-  text: How do you prefer to uncover hidden truths and solve mysteries?
-  category: character-approach
-  answers:
-    Methodical investigation:
-      investigator: 5
-      truth-seeker: 4
-      knowledge-seeker: 3
-      scholar: 2
-      patient-value: 2
-    Spiritual insight:
-      spell-disruptor: 4
-      truth-seeker: 3
-      zealot-faith: 3
-      lawful-value: 2
-    Cunning interrogation:
-      truth-seeker: 3
-      investigator: 2
-      cunning-value: 3
-      social-manipulator: 2
-    Not interested in investigations:
-      reckless-value: 2
-      instinctive-combatant: 1
-    dont-know: {}
-- id: experimental-crafting-style
-  text: What kind of experimental crafting appeals to you most?
-  category: character-specialty
-  answers:
-    Potion brewing & alchemy:
-      potion-brewer: 5
-      innovation-specialist: 4
-      healing-magic: 3
-      academic-background: 2
-    Explosive devices & bombs:
-      explosives-expert: 5
-      innovation-specialist: 3
-      throwing-expert: 3
-      reckless-value: 2
-    Transmutation & transformation:
-      transmutation-magic: 4
-      innovation-specialist: 3
-      versatile-magic: 2
-      scholar: 2
-    Poison & toxin creation:
-      poison-expert: 5
-      death-dealer: 3
-      stealth-master: 2
-      disciplined-value: 2
-    Not interested in crafting:
-      instinctive-combatant: 2
-      physical: 2
-    dont-know: {}
-- id: grace-precision-style
-  text: How do you approach tasks requiring grace, beauty, and precision?
-  category: character-approach
-  answers:
-    Natural fey-like grace:
-      fey-beauty: 5
-      refined: 4
-      chaotic-value: 3
-      wild-spirit: 2
-    Disciplined perfection:
-      perfectionist: 5
-      precise: 4
-      duelist: 3
-      disciplined-value: 2
-    Instinctive agility:
-      agile-fighter: 4
-      mobile-combatant: 3
-      evasive: 3
-      reckless-value: 2
-    Probability manipulation:
-      probability-manipulation: 4
-      fate-touched: 3
-      lucky: 3
-      chaotic-value: 2
-    Brute force approach:
-      physical: 3
-      weapon-master: 2
-    dont-know: {}
-- id: supernatural-phenomena-response
-  text: How do you handle mysterious supernatural or otherworldly phenomena?
-  category: character-approach
-  answers:
-    Divine investigation & dispelling:
-      spell-disruptor: 5
-      investigator: 4
-      zealot-faith: 4
-      truth-seeker: 3
-      lawful-value: 2
-    Wild magic embrace & chaos:
-      chaos-magic: 5
-      wild-surges: 4
-      unpredictable-power: 4
-      fey-touched: 3
-      chaotic-value: 3
-    Scientific analysis & experimentation:
-      innovation-specialist: 5
-      scholar: 3
-      academic-background: 3
-      knowledge-seeker: 2
-    Cautious avoidance:
-      evasive: 3
-      stealth-master: 2
-      survival-expert: 2
-    dont-know: {}
+
+
+
+
 - id: high-stakes-risk-approach
   text: What's your preferred approach when facing high-stakes, dangerous situations?
   category: character-approach
   answers:
-    Stylish daring with precision:
+    Stylish daring:
       daring: 5
       refined: 4
       perfectionist: 4
       agile-fighter: 3
       duelist: 3
-    Explosive innovation & boldness:
+    Explosive bold:
       explosives-expert: 5
       innovation-specialist: 4
       reckless-value: 4
       throwing-expert: 3
-    Lucky improvisation & fate:
+    Lucky fate:
       lucky: 5
       probability-manipulation: 5
       fate-touched: 4
       improvised: 3
       chaotic-value: 2
-    Safe methodical planning:
+    Safe plan:
       disciplined-value: 3
       tactical-value: 2
       patient-value: 2
-    dont-know: {}
-- id: personal-transformation-philosophy
-  text: How do you view personal change, growth, and transformation?
-  category: character-philosophy
-  answers:
-    Alchemical self-transformation:
-      transmutation-magic: 5
-      innovation-specialist: 4
-      versatile-magic: 3
-      academic-background: 3
-      scholar: 2
-    Fey-touched metamorphosis:
-      fey-touched: 5
-      wild-spirit: 4
-      chaotic-value: 4
-      unpredictable-power: 3
-      nature-magic: 2
-    Combat adaptation & evolution:
-      adaptable: 4
-      agile-fighter: 4
-      evasive: 4
-      mobile-combatant: 3
-      cunning-value: 2
-    Maintain core consistency:
-      disciplined-value: 3
-      lawful-value: 3
-      traditionalist: 2
     dont-know: {}
 - id: tracking-pursuit-expertise
   text: What's your preferred method for tracking and pursuing difficult targets?
   category: character-specialty
   answers:
-    Relentless monster tracking:
+    Monster track:
       relentless-hunter: 5
       monster-hunter: 4
       survival-expert: 4
       ambush-predator: 3
       stealth-master: 2
-    Poison trail analysis:
+    Poison trail:
       poison-expert: 5
       death-dealer: 4
       innovation-specialist: 3
       stealth-master: 3
       cunning-value: 2
-    Truth investigation methods:
+    Truth methods:
       investigator: 5
       truth-seeker: 4
       spell-disruptor: 4
       knowledge-seeker: 3
       urban-background: 2
-    Avoid tracking entirely:
+    Avoid track:
       diplomatic-soul: 2
       peaceful-soul: 2
-    dont-know: {}
-- id: wild-chaotic-force-mastery
-  text: How do you approach mastering wild, unpredictable, or chaotic forces?
-  category: character-approach
-  answers:
-    Fey chaos channeling:
-      wild-surges: 5
-      chaos-magic: 5
-      fey-touched: 4
-      unpredictable-power: 4
-      wild-spirit: 3
-    Volatile experimentation:
-      innovation-specialist: 5
-      explosives-expert: 4
-      transmutation-magic: 4
-      reckless-value: 3
-      throwing-expert: 2
-    Primal nature communion:
-      nature-guardian: 5
-      wild-spirit: 4
-      survival-expert: 3
-      nature-magic: 3
-      animal-companion: 2
-    Systematic suppression:
-      spell-disruptor: 5
-      zealot-faith: 4
-      disciplined-value: 3
-      lawful-value: 2
     dont-know: {}
 - id: specialized-mastery-domain
   text: In which specialized domain would you most want to achieve true mastery?
   category: character-expertise
   answers:
-    Beast partnership & bonding:
+    Beast partner:
       animal-companion: 5
       loyal-guardian: 5
       wild-spirit: 4
       nature-guardian: 3
       survival-expert: 2
-    Alchemical transmutation:
+    Alchemist:
       transmutation-magic: 5
       innovation-specialist: 5
       potion-brewer: 4
       scholar: 3
       versatile-magic: 2
-    Fey realm mysteries:
+    Fey master:
       fey-touched: 5
       fey-beauty: 5
       otherworldly-knowledge: 4
       chaos-magic: 3
       wild-surges: 2
-    Heresy detection & nullification:
+    Heresy detect:
       zealot-faith: 5
       spell-disruptor: 5
       investigator: 4
       truth-seeker: 3
       lawful-value: 2
     dont-know: {}
-- id: magical-corruption-investigation
-  text: How would you handle discovering a magical anomaly that corrupts everything it touches?
-  category: character-response
-  answers:
-    Zealous purification ritual:
-      zealot-faith: 6
-      spell-disruptor: 5
-      religious-value: 4
-      disciplined-value: 3
-    Methodical magical analysis:
-      spell-disruptor: 5
-      investigator: 4
-      patient-value: 3
-      tactical-value: 2
-    Immediate containment:
-      protective-value: 3
-      tactical-value: 3
-      survival-expert: 2
-    Avoid the area entirely:
-      survival-expert: 3
-      evasive: 2
-    dont-know: {}
-- id: cult-infiltration-scenario
-  text: If tasked with infiltrating a dangerous heretical cult, what would be your primary focus?
-  category: character-mission
-  answers:
-    Exposing their false doctrine:
-      zealot-faith: 6
-      truth-seeker: 5
-      investigator: 4
-      religious-value: 3
-    Gathering evidence of crimes:
-      investigator: 5
-      truth-seeker: 4
-      patient-value: 3
-      urban-background: 2
-    Disrupting their rituals:
-      spell-disruptor: 5
-      zealot-faith: 4
-      tactical-value: 3
-      disciplined-value: 2
-    Refuse such dangerous missions:
-      peaceful-soul: 3
-      diplomatic-soul: 2
-    dont-know: {}
+
+
 - id: reality-distortion-experience
   text: If you witnessed reality itself warping and shifting around you, how would you respond?
   category: character-response
   answers:
-    Embrace the beautiful chaos:
+    Beautiful chaos:
       fey-touched: 6
       chaos-magic: 5
       wild-surges: 5
       otherworldly-knowledge: 4
       unpredictable-power: 3
-    Dance with the shifting patterns:
+    Shifting dance:
       fey-beauty: 6
       wild-spirit: 5
       fate-touched: 4
       chaotic-value: 3
-    Study the phenomenon carefully:
+    Study carefully:
       otherworldly-knowledge: 4
       patient-value: 3
       scholar: 2
-    Flee to stable ground:
+    Flee safe:
       survival-expert: 3
       evasive: 2
     dont-know: {}
@@ -1453,22 +1374,22 @@
   text: When your emotions run high, what kind of magical manifestation would you most want to occur?
   category: character-magic
   answers:
-    Unpredictable reality shifts:
+    Reality shifts:
       wild-surges: 6
       chaos-magic: 6
       unpredictable-power: 5
       fate-touched: 3
-    Overwhelming otherworldly beauty:
+    Beauty magic:
       fey-beauty: 6
       fey-touched: 5
       otherworldly-knowledge: 4
       wild-spirit: 3
-    Chaotic nature transformations:
+    Nature transform:
       wild-spirit: 5
       chaos-magic: 4
       nature-magic: 4
       wild-surges: 3
-    No magical manifestations:
+    No manifest:
       disciplined-value: 3
       patient-value: 2
     dont-know: {}
