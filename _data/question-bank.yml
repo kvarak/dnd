@@ -390,22 +390,40 @@
       tactical-value: 3
       instinctive-combatant: -2
     dont-know: {}
-- id: ranged-combat
-  text: Do you prefer fighting from a distance over close combat?
-  category: combat-range
+- id: combat-positioning-strategy
+  text: How do you position yourself in combat?
+  category: combat-positioning
   answers:
-    'Yes':
+    Strike from distance:
       ranged-expert: 4
       archery-specialist: 3
       crossbow-specialist: 2
       tactical-value: 1
       damage-magic: 1
-    'Maybe':
-      ranged-expert: 1
-      versatile-magic: 1
-    'No':
+    Acrobatic & mobile:
+      agile-fighter: 4
+      mobile-combatant: 3
+      athletic-prowess: 3
       physical: 2
-      athletic-prowess: 1
+      stealth-master: 1
+    Hidden in shadows:
+      ambush-predator: 5
+      stealth-master: 4
+      shadow-affinity: 3
+      darkvision-master: 4
+      shadow-magic: 2
+      survival-expert: 2
+      cunning-value: 1
+    Thick of melee:
+      physical: 3
+      reckless-value: 2
+      crowd-fighter: 1
+      instinctive-combatant: 1
+    Adapt to situation:
+      adaptable-fighter: 2
+      versatile-magic: 1
+      tactical-value: 1
+      dual-nature: 1
     dont-know: {}
 - id: magic-tricks
   text: Do you like the idea of using magic for tricks and illusions?
@@ -741,41 +759,6 @@
       academic-background: 2
       weapon-specialist: 2
       physical: 2
-    dont-know: {}
-- id: extreme-mobility
-  text: Do you want to be extremely mobile and acrobatic in combat?
-  category: combat-approach
-  answers:
-    'Yes':
-      agile-fighter: 4
-      mobile-combatant: 3
-      athletic-prowess: 3
-      physical: 2
-      stealth-master: 1
-    'Maybe':
-      agile-fighter: 1
-      athletic-prowess: 1
-    'No':
-      defensive-expert: 3
-      tactical-value: 2
-    dont-know: {}
-- id: darkness-master
-  text: Do you want to excel in darkness and shadows?
-  category: combat-specialization
-  answers:
-    'Yes':
-      darkvision-master: 4
-      shadow-affinity: 3
-      ambush-predator: 3
-      stealth-master: 4
-      shadow-magic: 2
-      arcane-magic: 1
-    'Maybe':
-      darkvision-master: 1
-      stealth-master: 1
-    'No':
-      holy-power: 2
-      illuminating-light: 2
     dont-know: {}
 - id: crowd-combat
   text: Do you thrive when fighting multiple opponents at once?
@@ -1240,27 +1223,6 @@
       instinctive-combatant: 2
     dont-know: {}
 
-
-
-- id: wilderness-ambush-tactics
-  text: Do you prefer to stalk prey from the shadows and strike from ambush?
-  category: combat-style
-  answers:
-    'Yes':
-      ambush-predator: 5
-      stealth-master: 4
-      survival-expert: 4
-      shadow-affinity: 3
-      patient-value: 3
-      tactical-value: 2
-      cunning-value: 2
-    'Maybe':
-      stealth-master: 2
-      tactical-value: 1
-    'No':
-      inspirational-leader: 2
-      social-manipulator: 1
-    dont-know: {}
 
 
 
