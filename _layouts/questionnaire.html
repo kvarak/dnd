@@ -298,7 +298,7 @@
 
               <div class="text-center mt-3">
                 <button id="folk-skip-btn" class="btn btn-outline-secondary">
-                  Skip / I haven't decided yet
+                  I haven't decided yet / None of the above
                 </button>
               </div>
             </div>
@@ -1219,9 +1219,11 @@
           for (const question of this.questions) {
             if (!question.answers) continue;
 
+            // Dynamically extract answer option keys (skip 'dont-know')
+            const answerOptions = Object.keys(question.answers).filter(key => key !== 'dont-know');
+
             // Collect all traits mentioned in any answer for this question
             const questionTraits = new Set();
-            const answerOptions = ['yes', 'maybe', 'no'];
 
             for (const answerKey of answerOptions) {
               const answerTraits = question.answers[answerKey];
