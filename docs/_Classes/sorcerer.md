@@ -2,111 +2,58 @@
 title: Sorcerer
 layout: default
 profile:
-  generic:
-    magicType: "versatile"
-    originBackground: ["tribal", "nature"]
-  specific: ["innate-magic", "intuitive-value"]
+  traits: ["innate-magic", "intuitive-value"]
   archetypes:
     draconic-bloodline:
-      generic:
-        magicType: "damage"
-      specific: ["draconic-heritage", "proud-value", "elemental-affinity", "natural-armor"]
+      traits: ["draconic-heritage", "proud-value", "elemental-affinity", "natural-armor"]
     wild-magic-bloodline:
-      generic:
-        magicType: "versatile"
-      specific: ["chaotic-value", "unpredictable-power", "fate-touched", "wild-surges"]
+      traits: ["chaotic-value", "unpredictable-power", "fate-touched", "wild-surges"]
     aberrant:
-      generic:
-        magicType: "control"
-      specific: ["aberrant-influence", "mind-alteration", "otherworldly-knowledge", "mind-reader"]
+      traits: ["aberrant-influence", "mind-alteration", "otherworldly-knowledge", "mind-reader"]
     arachnid:
-      generic:
-        magicType: "control"
-      specific: ["stealth-master", "control-magic", "ambush-predator"]
+      traits: ["stealth-master", "control-magic", "ambush-predator"]
     ashen:
-      generic:
-        magicType: "damage"
-      specific: ["fire-affinity", "damage-magic", "wild-spirit", "reckless-value"]
+      traits: ["fire-affinity", "damage-magic", "wild-spirit", "reckless-value"]
     autumnal:
-      generic:
-        magicType: "utility"
-      specific: ["transmutation-magic", "nature-guardian", "decay-mastery", "wisdom-seeker"]
+      traits: ["transmutation-magic", "nature-guardian", "decay-mastery", "wisdom-seeker"]
     blighted:
-      generic:
-        magicType: "damage"
-      specific: ["poison-expert", "decay-mastery", "necromancy-dabbler", "damage-magic"]
+      traits: ["poison-expert", "decay-mastery", "necromancy-dabbler", "damage-magic"]
     divine-soul:
-      generic:
-        magicType: "healing"
-      specific: ["celestial-heritage", "divine-magic", "healing-magic", "holy-power"]
+      traits: ["celestial-heritage", "divine-magic", "healing-magic", "holy-power"]
     dread:
-      generic:
-        magicType: "control"
-      specific: ["enchantment-resistance", "shadow-magic", "mind-alteration", "control-magic"]
+      traits: ["enchantment-resistance", "shadow-magic", "mind-alteration", "control-magic"]
     dune-child:
-      generic:
-        magicType: "utility"
-      specific: ["survival-expert", "elemental-affinity", "endurance-specialist", "tribal-background"]
+      traits: ["survival-expert", "elemental-affinity", "endurance-specialist", "tribal-background"]
     ethereal:
-      generic:
-        magicType: "utility"
-      specific: ["dimensional-magic", "transmutation-magic", "spirit-medium", "planar-guardian"]
+      traits: ["dimensional-magic", "transmutation-magic", "spirit-medium", "planar-guardian"]
     fiendish:
-      generic:
-        magicType: "damage"
-      specific: ["demonic-corruption", "fire-affinity", "damage-magic", "proud-value"]
+      traits: ["demonic-corruption", "fire-affinity", "damage-magic", "proud-value"]
     frozen-heart:
-      generic:
-        magicType: "control"
-      specific: ["elemental-affinity", "control-magic", "disciplined-value", "cold-resistance"]
+      traits: ["elemental-affinity", "control-magic", "disciplined-value", "cold-resistance"]
     incantatrix:
-      generic:
-        magicType: "utility"
-      specific: ["scholar", "versatile-magic", "academic-background", "arcane-magic"]
+      traits: ["scholar", "versatile-magic", "academic-background", "arcane-magic"]
     oceanic:
-      generic:
-        magicType: "utility"
-      specific: ["aquatic-heritage", "elemental-affinity", "storm-caller"]
+      traits: ["aquatic-heritage", "elemental-affinity", "storm-caller"]
     oozemaster:
-      generic:
-        magicType: "control"
-      specific: ["ooze-symbiosis", "transmutation-magic", "shapeshifter", "adaptable-fighter"]
+      traits: ["ooze-symbiosis", "transmutation-magic", "shapeshifter", "adaptable-fighter"]
     pandemonic:
-      generic:
-        magicType: "damage"
-      specific: ["chaos-magic", "dimensional-magic", "damage-magic", "chaotic-value"]
+      traits: ["chaos-magic", "dimensional-magic", "damage-magic", "chaotic-value"]
     phoenix:
-      generic:
-        magicType: "damage"
-      specific: ["fire-wielder", "elemental-affinity", "damage-magic", "innate-magic"]
+      traits: ["fire-wielder", "elemental-affinity", "damage-magic", "innate-magic"]
     plaguebringer:
-      generic:
-        magicType: "damage"
-      specific: ["poison-expert", "necromancy-dabbler", "damage-magic", "death-dealer"]
+      traits: ["poison-expert", "necromancy-dabbler", "damage-magic", "death-dealer"]
     relicker:
-      generic:
-        magicType: "utility"
-      specific: ["treasure-hunter", "ancient-knowledge", "magic-hunter", "scholar"]
+      traits: ["treasure-hunter", "ancient-knowledge", "magic-hunter", "scholar"]
     star-touched:
-      generic:
-        magicType: "utility"
-      specific: ["celestial-heritage", "divination-magic", "fate-touched", "otherworldly-knowledge"]
+      traits: ["celestial-heritage", "divination-magic", "fate-touched", "otherworldly-knowledge"]
     stone:
-      generic:
-        magicType: "utility"
-      specific: ["endurance-specialist", "defensive-expert", "natural-armor", "tribal-background"]
+      traits: ["endurance-specialist", "defensive-expert", "natural-armor", "tribal-background"]
     storm:
-      generic:
-        magicType: "damage"
-      specific: ["storm-caller", "elemental-affinity", "damage-magic", "innate-magic"]
+      traits: ["storm-caller", "elemental-affinity", "damage-magic", "innate-magic"]
     time-thief:
-      generic:
-        magicType: "utility"
-      specific: ["transmutation-magic", "divination-magic", "fate-touched", "cunning-value"]
+      traits: ["transmutation-magic", "divination-magic", "fate-touched", "cunning-value"]
     wishcrafter:
-      generic:
-        magicType: "versatile"
-      specific: ["enchantment-resistance", "versatile-magic", "probability-manipulation", "illusion-specialist"]
+      traits: ["enchantment-resistance", "versatile-magic", "probability-manipulation", "illusion-specialist"]
 ---
 
 <div class="toc" markdown="1">

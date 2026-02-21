@@ -2,35 +2,22 @@
 title: Feyblood
 layout: default
 profile:
-  generic:
-    magicType: "versatile"
-    originBackground: ["natural-prodigy", "haunted-past", "destiny-burdened"]
-  specific: ["fey-touched", "versatile-magic", "chaotic-value", "unpredictable-power", "wild-spirit", "fey-beauty", "nature-magic"]
+  traits: ["fey-touched", "versatile-magic", "chaotic-value", "unpredictable-power", "wild-spirit", "fey-beauty", "nature-magic"]
   archetypes:
     boggart-affinity:
-      specific: ["trickster-magic", "social-manipulator", "cunning-value", "cunning-value"]
+      traits: ["trickster-magic", "social-manipulator", "cunning-value", "cunning-value"]
     nereid-affinity:
-      generic:
-        magicType: "utility"
-      specific: ["elemental-affinity", "aquatic-heritage", "healing-magic", "intuitive-value"]
+      traits: ["elemental-affinity", "aquatic-heritage", "healing-magic", "intuitive-value"]
     oread-affinity:
-      generic:
-        magicType: "none"
-      specific: ["fey-warrior", "weapon-master", "natural-armor", "reckless-value"]
+      traits: ["fey-warrior", "weapon-master", "natural-armor", "reckless-value"]
     pooka-affinity:
-      specific: ["wild-surges", "chaos-magic", "fate-touched", "chaotic-value"]
+      traits: ["wild-surges", "chaos-magic", "fate-touched", "chaotic-value"]
     sidhe-affinity:
-      generic:
-        magicType: "utility"
-      specific: ["noble-heritage", "inspirational-leader", "protective-value", "proud-value"]
+      traits: ["noble-heritage", "inspirational-leader", "protective-value", "proud-value"]
     sprig-affinity:
-      generic:
-        magicType: "utility"
-      specific: ["plant-mastery", "nature-guardian", "healing-magic", "disciplined-value"]
+      traits: ["plant-mastery", "nature-guardian", "healing-magic", "disciplined-value"]
     sylph-affinity:
-      generic:
-        magicType: "control"
-      specific: ["fey-beauty", "social-manipulator", "hedonistic-soul", "chaotic-value"]
+      traits: ["fey-beauty", "social-manipulator", "hedonistic-soul", "chaotic-value"]
 ---
 
 <div class="toc" markdown="1">

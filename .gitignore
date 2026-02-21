@@ -12,6 +12,9 @@ vendor/bundle/
 .bundle/
 Gemfile.lock
 
+# Node.js
+node_modules/
+
 # Docker
 .dockerignore
 

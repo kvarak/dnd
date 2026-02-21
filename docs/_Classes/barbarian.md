@@ -2,115 +2,66 @@
 title: Barbarian
 layout: default
 profile:
-  generic:
-    magicType: "damage"
-    originBackground: ["nature", "tribal"]
-  specific: ["physical", "innate-magic", "reckless-value", "instinctive-combatant", "underdog-fighter"]
+  traits: ["physical", "innate-magic", "reckless-value", "instinctive-combatant", "underdog-fighter"]
   archetypes:
     path-of-the-aquatic-hunter:
       restriction:
         folk: ["merfolk", "triton", "sea-elf"]
-      generic:
-        magicType: "utility"
-        originBackground: ["nature", "tribal"]
-      specific: ["survival-expert", "adaptable-fighter", "elemental-affinity", "tribal-background"]
+      traits: ["survival-expert", "adaptable-fighter", "elemental-affinity", "tribal-background"]
     path-of-the-berserker:
-      generic:
-        magicType: "damage"
-      specific: ["death-dealer", "reckless-value", "unstoppable-force", "chaotic-value"]
+      traits: ["death-dealer", "reckless-value", "unstoppable-force", "chaotic-value"]
     path-of-the-courageous-heart:
-      generic:
-        magicType: "utility"
-      specific: ["protective-value", "lawful-value", "disciplined-value", "inspirational-leader"]
+      traits: ["protective-value", "lawful-value", "disciplined-value", "inspirational-leader"]
     path-of-the-defender:
-      generic:
-        magicType: "utility"
-      specific: ["shield-specialist", "defensive-expert", "protective-value", "tactical-value"]
+      traits: ["shield-specialist", "defensive-expert", "protective-value", "tactical-value"]
     path-of-the-hurler:
-      generic:
-        magicType: "damage"
-      specific: ["throwing-expert", "ranged-expert", "tactical-value", "adaptable-fighter"]
+      traits: ["throwing-expert", "ranged-expert", "tactical-value", "adaptable-fighter"]
     path-of-the-juggernaut:
-      generic:
-        magicType: "damage"
-      specific: ["unstoppable-force", "strength-specialist", "heavy-armor", "physical"]
+      traits: ["unstoppable-force", "strength-specialist", "heavy-armor", "physical"]
     path-of-the-marauder:
-      generic:
-        magicType: "damage"
-        originBackground: ["military", "tribal"]
-      specific: ["tactical-value", "cunning-value", "military-background", "inspirational-leader"]
+      traits: ["tactical-value", "cunning-value", "military-background", "inspirational-leader"]
     path-of-the-natures-warden:
-      generic:
-        magicType: "utility"
-      specific: ["versatile-magic", "utility-magic", "survival-expert", "elemental-affinity"]
+      traits: ["versatile-magic", "utility-magic", "survival-expert", "elemental-affinity"]
     path-of-the-painted-warrior:
-      generic:
-        magicType: "utility"
-      specific: ["tribal-background", "proud-value", "charismatic", "inspirational-leader"]
+      traits: ["tribal-background", "proud-value", "charismatic", "inspirational-leader"]
     path-of-the-sacrifice:
-      generic:
-        magicType: "utility"
-      specific: ["religious-value", "protective-value", "death-dealer", "disciplined-value"]
+      traits: ["religious-value", "protective-value", "death-dealer", "disciplined-value"]
     path-of-the-storm-herald:
-      generic:
-        magicType: "damage"
-      specific: ["elemental-affinity", "damage-magic", "chaotic-value", "innate-magic"]
+      traits: ["elemental-affinity", "damage-magic", "chaotic-value", "innate-magic"]
     path-of-the-totem-warrior:
-      generic:
-        magicType: "utility"
-      specific: ["tribal-background", "religious-value", "versatile-magic", "innate-magic"]
+      traits: ["tribal-background", "religious-value", "versatile-magic", "innate-magic"]
     path-of-the-war-chief:
-      generic:
-        magicType: "utility"
-        originBackground: ["military", "tribal"]
-      specific: ["inspirational-leader", "charismatic", "military-background", "tactical-value"]
+      traits: ["inspirational-leader", "charismatic", "military-background", "tactical-value"]
     path-of-the-zealot:
-      generic:
-        magicType: "utility"
-      specific: ["religious-value", "divine-warrior", "holy-power", "lawful-value"]
+      traits: ["religious-value", "divine-warrior", "holy-power", "lawful-value"]
     path-of-the-tailfighter:
       restriction:
         folk: ["lizardfolk", "ratfolk", "kobold", "dragonborn"]
-      generic:
-        magicType: "damage"
-      specific: ["agile-warrior", "mobile-combatant", "acrobatic", "adaptable-fighter"]
+      traits: ["agile-warrior", "mobile-combatant", "acrobatic", "adaptable-fighter"]
     path-of-the-skinchanger:
       restriction:
         folk: ["shifter", "changeling", "lycanthrope"]
-      generic:
-        magicType: "utility"
-      specific: ["dual-nature", "adaptable-fighter", "versatile-magic", "innate-magic"]
+      traits: ["dual-nature", "adaptable-fighter", "versatile-magic", "innate-magic"]
     path-of-the-battlerager:
       restriction:
         folk: ["dwarf"]
-      generic:
-        magicType: "damage"
-        originBackground: ["military", "urban"]
-      specific: ["reckless-value", "heavy-armor", "unstoppable-force", "proud-value"]
+      traits: ["reckless-value", "heavy-armor", "unstoppable-force", "proud-value"]
     path-of-the-quake-bringer:
       restriction:
         folk: ["dwarf", "earth-genasi"]
-      generic:
-        magicType: "damage"
-      specific: ["elemental-affinity", "strength-specialist", "unstoppable-force", "damage-magic"]
+      traits: ["elemental-affinity", "strength-specialist", "unstoppable-force", "damage-magic"]
     path-of-the-blighted:
       restriction:
         folk: ["floran"]
-      generic:
-        magicType: "control"
-      specific: ["necromancy-dabbler", "death-dealer", "survival-expert", "chaotic-value"]
+      traits: ["necromancy-dabbler", "death-dealer", "survival-expert", "chaotic-value"]
     eye-of-gruumsh:
       restriction:
         folk: ["orc", "half-orc"]
-      generic:
-        magicType: "utility"
-      specific: ["religious-value", "divine-warrior", "tribal-background", "death-dealer"]
+      traits: ["religious-value", "divine-warrior", "tribal-background", "death-dealer"]
     path-of-the-trophy-hunter:
       restriction:
         folk: ["lizardfolk"]
-      generic:
-        magicType: "utility"
-      specific: ["survival-expert", "tribal-background", "disciplined-value", "death-dealer"]
+      traits: ["survival-expert", "tribal-background", "disciplined-value", "death-dealer"]
 ---
 
 

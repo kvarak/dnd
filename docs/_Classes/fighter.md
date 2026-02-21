@@ -2,63 +2,52 @@
 title: Fighter
 layout: default
 profile:
-  generic:
-    magicType: "none"
-    originBackground: ["military", "nature", "urban"]
-  specific: ["disciplined-value", "tactical-value", "physical", "weapon-specialist"]
+  traits: ["disciplined-value", "tactical-value", "physical", "weapon-specialist"]
   archetypes:
     arbalestion:
-      specific: ["crossbow-specialist", "ranged-expert", "engineering-mind", "craftsman-background", "modern-value"]
+      traits: ["crossbow-specialist", "ranged-expert", "engineering-mind", "craftsman-background", "modern-value"]
     arcane-archer:
-      generic:
-        magicType: "utility"
-      specific: ["archery-specialist", "arcane-magic", "ranged-expert", "dual-nature"]
+      traits: ["archery-specialist", "arcane-magic", "ranged-expert", "dual-nature"]
     bulwark:
-      specific: ["shield-specialist", "defensive-expert"]
+      traits: ["shield-specialist", "defensive-expert"]
     champion:
-      specific: ["weapon-master", "critical-striker", "athletic-prowess", "endurance-specialist"]
+      traits: ["weapon-master", "critical-striker", "athletic-prowess", "endurance-specialist"]
     daredevil:
-      specific: ["risk-taker", "mobile-combatant", "acrobatic", "cunning-value"]
+      traits: ["risk-taker", "mobile-combatant", "acrobatic", "cunning-value"]
     eldritch-knight:
-      generic:
-        magicType: "utility"
-      specific: ["scholar", "arcane-magic", "dual-nature"]
+      traits: ["scholar", "arcane-magic", "dual-nature"]
     ghost-operative:
-      specific: ["stealth-master", "infiltrator", "initiative-specialist"]
+      traits: ["stealth-master", "infiltrator", "initiative-specialist"]
     guerilla:
-      specific: ["adaptable-fighter", "survival-expert", "stealth-master"]
+      traits: ["adaptable-fighter", "survival-expert", "stealth-master"]
     juggernaut:
-      specific: ["unstoppable-force", "strength-specialist", "reckless-value", "heavy-armor"]
+      traits: ["unstoppable-force", "strength-specialist", "reckless-value", "heavy-armor"]
     kindler:
-      specific: ["fire-wielder", "protective-value", "inspirational-leader", "charismatic"]
+      traits: ["fire-wielder", "protective-value", "inspirational-leader", "charismatic"]
     runeguard:
-      generic:
-        magicType: "utility"
-      specific: ["rune-magic", "scholar", "arcane-magic"]
+      traits: ["rune-magic", "scholar", "arcane-magic"]
     sellsword:
-      specific: ["pragmatic-fighter", "cunning-value", "dirty-tactics", "urban-background"]
+      traits: ["pragmatic-fighter", "cunning-value", "dirty-tactics", "urban-background"]
     skirmisher:
-      specific: ["mobile-combatant", "agile-warrior", "speed-specialist", "evasive"]
+      traits: ["mobile-combatant", "agile-warrior", "speed-specialist", "evasive"]
     templar:
-      generic:
-        magicType: "utility"
-      specific: ["divine-magic", "ritual-caster", "religious-value", "arcane-magic"]
+      traits: ["divine-magic", "ritual-caster", "religious-value", "arcane-magic"]
     thing-slinger:
-      specific: ["improvised-specialist", "throwing-expert", "strength-specialist", "chaotic-value"]
+      traits: ["improvised-specialist", "throwing-expert", "strength-specialist", "chaotic-value"]
     underdog:
-      specific: ["underdog-fighter", "survival-expert", "gritty-value", "improvised-specialist"]
+      traits: ["underdog-fighter", "survival-expert", "gritty-value", "improvised-specialist"]
     celestial-knight:
       restriction:
         folk: ["aasimar"]
-      specific: ["celestial-heritage", "divine-warrior", "holy-power", "lawful-value"]
+      traits: ["celestial-heritage", "divine-warrior", "holy-power", "lawful-value"]
     tinker-knight:
       restriction:
         folk: ["gnome"]
-      specific: ["engineering-mind", "innovation-specialist", "craftsman-background"]
+      traits: ["engineering-mind", "innovation-specialist", "craftsman-background"]
     warsling-sniper:
       restriction:
         folk: ["halfling"]
-      specific: ["sling-specialist", "sniper", "ranged-expert"]
+      traits: ["sling-specialist", "sniper", "ranged-expert"]
 ---
 
 <div class="toc" markdown="1">

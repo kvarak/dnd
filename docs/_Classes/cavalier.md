@@ -2,43 +2,24 @@
 title: Cavalier
 layout: default
 profile:
-  generic:
-    magicType: "none"
-    originBackground: ["military", "noble"]
-  specific: ["weapon-master", "tactical-value", "inspirational-leader", "lawful-value", "mounted"]
+  traits: ["weapon-master", "tactical-value", "inspirational-leader", "lawful-value", "mounted"]
   archetypes:
     knightErrant:
-      generic:
-        originBackground: ["military", "nature"]
-      specific: ["survival-expert", "cunning-value", "wanderer-spirit", "pragmatic-fighter"]
+      traits: ["survival-expert", "cunning-value", "wanderer-spirit", "pragmatic-fighter"]
     order-of-the-blueRose:
-      generic:
-        originBackground: ["noble", "academic"]
-      specific: ["social-manipulator", "protective-value", "lawful-value", "diplomatic-soul"]
+      traits: ["social-manipulator", "protective-value", "lawful-value", "diplomatic-soul"]
     order-of-the-dragon:
-      generic:
-        originBackground: ["military", "noble"]
-      specific: ["inspirational-leader", "military-background", "tactical-value", "teamwork-focused"]
+      traits: ["inspirational-leader", "military-background", "tactical-value", "teamwork-focused"]
     order-of-the-flame:
-      generic:
-        originBackground: ["noble", "military"]
-      specific: ["proud-value", "reckless-value", "charismatic", "fearless-heart", "fire-affinity", "daring"]
+      traits: ["proud-value", "reckless-value", "charismatic", "fearless-heart", "fire-affinity", "daring"]
     order-of-the-lion:
-      generic:
-        originBackground: ["noble", "military"]
-      specific: ["noble-background", "loyal-guardian", "disciplined-value", "protective-value"]
+      traits: ["noble-background", "loyal-guardian", "disciplined-value", "protective-value"]
     order-of-the-scales:
-      generic:
-        originBackground: ["noble", "academic"]
-      specific: ["lawful-value", "truth-seeker", "disciplined-value", "justice-seeker", "scholar", "honorable"]
+      traits: ["lawful-value", "truth-seeker", "disciplined-value", "justice-seeker", "scholar", "honorable"]
     order-of-the-shield:
-      generic:
-        originBackground: ["military", "nature"]
-      specific: ["protective-value", "shield-specialist", "defensive-expert", "loyal-guardian", "endurance-specialist", "mounted"]
+      traits: ["protective-value", "shield-specialist", "defensive-expert", "loyal-guardian", "endurance-specialist", "mounted"]
     order-of-the-star:
-      generic:
-        originBackground: ["noble", "academic"]
-      specific: ["religious-value", "divine-warrior", "holy-power", "scholar", "divine-healer", "illuminating-light"]
+      traits: ["religious-value", "divine-warrior", "holy-power", "scholar", "divine-healer", "illuminating-light"]
 ---
 
 <div class="toc" markdown="1">

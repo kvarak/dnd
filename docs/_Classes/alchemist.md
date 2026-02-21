@@ -2,35 +2,20 @@
 title: Alchemist
 layout: default
 profile:
-  generic:
-    magicType: "versatile"
-    originBackground: ["academic", "urban"]
-  specific: ["innovation-specialist", "craftsman-background", "scholar", "versatile-magic", "academic-background"]
+  traits: ["innovation-specialist", "craftsman-background", "scholar", "versatile-magic", "academic-background"]
   archetypes:
     apothecary:
-      generic:
-        magicType: "healing"
-      specific: ["potion-brewer", "healing-magic", "protective-value", "urban-background"]
+      traits: ["potion-brewer", "healing-magic", "protective-value", "urban-background"]
     corpsecrafter:
-      generic:
-        magicType: "control"
-      specific: ["necromancy-dabbler", "death-dealer", "chaotic-value", "innovation-specialist"]
+      traits: ["necromancy-dabbler", "death-dealer", "chaotic-value", "innovation-specialist"]
     mad-bomber:
-      generic:
-        magicType: "damage"
-      specific: ["explosives-expert", "damage-magic", "reckless-value", "throwing-expert"]
+      traits: ["explosives-expert", "damage-magic", "reckless-value", "throwing-expert"]
     poisoner:
-      generic:
-        magicType: "damage"
-      specific: ["poison-expert", "death-dealer", "stealth-master", "disciplined-value", "urban-background"]
+      traits: ["poison-expert", "death-dealer", "stealth-master", "disciplined-value", "urban-background"]
     psychedelic:
-      generic:
-        magicType: "control"
-      specific: ["mind-alteration", "control-magic", "illusion-specialist", "chaotic-value"]
+      traits: ["mind-alteration", "control-magic", "illusion-specialist", "chaotic-value"]
     transmuter:
-      generic:
-        magicType: "utility"
-      specific: ["transmutation-magic", "versatile-magic", "arcane-magic"]
+      traits: ["transmutation-magic", "versatile-magic", "arcane-magic"]
 ---
 
 <div class="toc" markdown="1">

@@ -2,162 +2,69 @@
 title: Bard
 layout: default
 profile:
-  generic:
-    magicType: "versatile"
-    originBackground: ["urban", "academic", "noble"]
-  specific: ["social-manipulator", "versatile-magic", "inspirational-leader", "arcane-magic"]
+  traits: ["social-manipulator", "versatile-magic", "inspirational-leader", "arcane-magic"]
   variants:
     loreseeker:
-      generic:
-        magicType: "utility"
-        originBackground: ["academic", "urban"]
-      specific: ["explorer", "academic-background", "arcane-magic"]
+      traits: ["explorer", "academic-background", "arcane-magic"]
   archetypes:
     beguiler:
-      generic:
-        magicType: "control"
-        originBackground: ["urban", "criminal"]
-      specific: ["illusion-specialist", "cunning-value", "disguise-master"]
+      traits: ["illusion-specialist", "cunning-value", "disguise-master"]
     college-of-awakened-art:
-      generic:
-        magicType: "utility"
-        originBackground: ["urban", "noble"]
-      specific: ["inspirational-leader", "artistic-excellence"]
+      traits: ["inspirational-leader", "artistic-excellence"]
     college-of-beasts:
-      generic:
-        magicType: "utility"
-        originBackground: ["nature", "tribal"]
-      specific: ["survival-expert", "animal-companion", "nature-background", "intuitive-value"]
+      traits: ["survival-expert", "animal-companion", "nature-background", "intuitive-value"]
     college-of-colors:
-      generic:
-        magicType: "utility"
-        originBackground: ["urban", "noble"]
-      specific: ["illusion-specialist", "fey-beauty", "charismatic"]
+      traits: ["illusion-specialist", "fey-beauty", "charismatic"]
     college-of-crossroads:
-      generic:
-        magicType: "utility"
-        originBackground: ["urban", "nature"]
-      specific: ["survival-expert", "adaptable-fighter", "wanderer-spirit", "intuitive-value"]
+      traits: ["survival-expert", "adaptable-fighter", "wanderer-spirit", "intuitive-value"]
     college-of-dance:
-      generic:
-        magicType: "utility"
-        originBackground: ["urban", "noble"]
-      specific: ["agile-warrior", "mobile-combatant"]
+      traits: ["agile-warrior", "mobile-combatant"]
     college-of-desire:
-      generic:
-        magicType: "control"
-        originBackground: ["urban", "noble"]
-      specific: ["charm-magic", "cunning-value", "fey-beauty", "refined"]
+      traits: ["charm-magic", "cunning-value", "fey-beauty", "refined"]
     college-of-doors:
-      generic:
-        magicType: "utility"
-        originBackground: ["academic", "urban"]
-      specific: ["utility-magic", "dimensional-magic", "scholar", "academic-background"]
+      traits: ["utility-magic", "dimensional-magic", "scholar", "academic-background"]
     college-of-entropy:
-      generic:
-        magicType: "control"
-        originBackground: ["urban", "criminal"]
-      specific: ["fate-touched", "unpredictable-power", "chaotic-value", "risk-taker"]
+      traits: ["fate-touched", "unpredictable-power", "chaotic-value", "risk-taker"]
     college-of-eulogies:
-      generic:
-        magicType: "utility"
-        originBackground: ["nature", "academic"]
-      specific: ["death-speaker", "protective-value", "nature-background", "compassionate-heart", "honorable"]
+      traits: ["death-speaker", "protective-value", "nature-background", "compassionate-heart", "honorable"]
     college-of-faith:
-      generic:
-        magicType: "healing"
-        originBackground: ["nature", "academic"]
-      specific: ["divine-magic", "religious-value", "healing-magic", "holy-power"]
+      traits: ["divine-magic", "religious-value", "healing-magic", "holy-power"]
     college-of-fools:
-      generic:
-        magicType: "control"
-        originBackground: ["urban", "criminal"]
-      specific: ["chaotic-value", "criminal-background", "theatrical", "trickster-magic", "outlaw"]
+      traits: ["chaotic-value", "criminal-background", "theatrical", "trickster-magic", "outlaw"]
     college-of-glamour:
-      generic:
-        magicType: "control"
-        originBackground: ["noble", "urban"]
-      specific: ["charm-magic", "control-magic"]
+      traits: ["charm-magic", "control-magic"]
     college-of-grandeur:
-      generic:
-        magicType: "control"
-        originBackground: ["noble", "urban"]
-      specific: ["proud-value", "commanding"]
+      traits: ["proud-value", "commanding"]
     college-of-lore:
-      generic:
-        magicType: "versatile"
-        originBackground: ["academic", "urban"]
-      specific: ["scholar", "arcane-magic", "academic-background"]
+      traits: ["scholar", "arcane-magic", "academic-background"]
     college-of-the-mad-god:
-      generic:
-        magicType: "control"
-        originBackground: ["nature", "tribal"]
-      specific: ["unpredictable-power", "religious-value", "chaotic-value", "tribal-background"]
+      traits: ["unpredictable-power", "religious-value", "chaotic-value", "tribal-background"]
     college-of-masks:
-      generic:
-        magicType: "control"
-        originBackground: ["urban", "criminal"]
-      specific: ["disguise-master", "cunning-value", "classic-rogue", "theatrical", "mind-alteration"]
+      traits: ["disguise-master", "cunning-value", "classic-rogue", "theatrical", "mind-alteration"]
     college-of-mirrors:
-      generic:
-        magicType: "utility"
-        originBackground: ["urban", "academic"]
-      specific: ["illusion-specialist", "scholar", "academic-background", "mind-reader"]
+      traits: ["illusion-specialist", "scholar", "academic-background", "mind-reader"]
     college-of-portraiture:
-      generic:
-        magicType: "utility"
-        originBackground: ["urban", "noble"]
-      specific: ["disciplined-value", "endurance-specialist"]
+      traits: ["disciplined-value", "endurance-specialist"]
     college-of-purity:
-      generic:
-        magicType: "healing"
-        originBackground: ["nature", "noble"]
-      specific: ["religious-value", "healing-magic", "lawful-value", "divine-healer", "wisdom-seeker"]
+      traits: ["religious-value", "healing-magic", "lawful-value", "divine-healer", "wisdom-seeker"]
     college-of-revelry:
-      generic:
-        magicType: "utility"
-        originBackground: ["urban", "noble"]
-      specific: ["joyful-spirit", "theatrical", "charm-magic"]
+      traits: ["joyful-spirit", "theatrical", "charm-magic"]
     college-of-secrets:
-      generic:
-        magicType: "control"
-        originBackground: ["urban", "criminal"]
-      specific: ["information-broker", "cunning-value", "criminal-background"]
+      traits: ["information-broker", "cunning-value", "criminal-background"]
     college-of-shanties:
-      generic:
-        magicType: "utility"
-        originBackground: ["urban", "criminal"]
-      specific: ["musical-magic", "teamwork-focused", "criminal-background", "seafaring"]
+      traits: ["musical-magic", "teamwork-focused", "criminal-background", "seafaring"]
     college-of-tales:
-      generic:
-        magicType: "utility"
-        originBackground: ["nature", "academic"]
-      specific: ["knowledge-seeker", "nature-background", "ancient-lore", "wisdom-seeker"]
+      traits: ["knowledge-seeker", "nature-background", "ancient-lore", "wisdom-seeker"]
     college-of-valor:
-      generic:
-        magicType: "damage"
-        originBackground: ["military", "noble"]
-      specific: ["weapon-master", "military-background"]
+      traits: ["weapon-master", "military-background"]
     college-of-whispers:
-      generic:
-        magicType: "control"
-        originBackground: ["urban", "criminal"]
-      specific: ["information-broker", "cunning-value", "criminal-background"]
+      traits: ["information-broker", "cunning-value", "criminal-background"]
     marionettist:
-      generic:
-        magicType: "control"
-        originBackground: ["urban", "criminal"]
-      specific: ["mind-alteration", "control-magic", "criminal-background", "multitasking"]
+      traits: ["mind-alteration", "control-magic", "criminal-background", "multitasking"]
     pathfinder-chronicler:
-      generic:
-        magicType: "utility"
-        originBackground: ["academic", "nature"]
-      specific: ["scholar", "survival-expert", "explorer", "academic-background"]
+      traits: ["scholar", "survival-expert", "explorer", "academic-background"]
     pied-piper:
-      generic:
-        magicType: "control"
-        originBackground: ["urban", "nature"]
-      specific: ["musical-magic", "trickster-magic", "control-magic", "charm-magic", "mind-reader", "multitasking"]
+      traits: ["musical-magic", "trickster-magic", "control-magic", "charm-magic", "mind-reader", "multitasking"]
 ---
 
 <div class="toc" markdown="1">

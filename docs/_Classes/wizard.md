@@ -2,77 +2,42 @@
 title: Wizard
 layout: default
 profile:
-  generic:
-    magicType: "versatile"
-    originBackground: ["academic", "noble", "urban"]
-  specific: ["scholar", "knowledge-seeker", "arcane-magic", "tactical-value", "arcane-magic"]
+  traits: ["scholar", "knowledge-seeker", "arcane-magic", "tactical-value", "arcane-magic"]
   archetypes:
     master-of-the-unseen-hand:
-      specific: ["mage-hand-master", "tactical-value", "innovation-specialist", "control-magic"]
+      traits: ["mage-hand-master", "tactical-value", "innovation-specialist", "control-magic"]
     school-of-astromancy:
-      generic:
-        magicType: "utility"
-      specific: ["divination-magic", "fate-touched", "ancient-knowledge"]
+      traits: ["divination-magic", "fate-touched", "ancient-knowledge"]
     school-of-chronomancy:
-      generic:
-        magicType: "utility"
-      specific: ["tactical-value", "knowledge-seeker", "probability-manipulation", "disciplined-value"]
+      traits: ["tactical-value", "knowledge-seeker", "probability-manipulation", "disciplined-value"]
     school-of-abjuration:
-      generic:
-        magicType: "utility"
-      specific: ["defensive-expert", "protective-value", "spell-disruptor", "disciplined-value"]
+      traits: ["defensive-expert", "protective-value", "spell-disruptor", "disciplined-value"]
     school-of-conjuration:
-      generic:
-        magicType: "utility"
-      specific: ["dimensional-magic", "summon-familiar", "versatile-magic", "artistic-excellence"]
+      traits: ["dimensional-magic", "summon-familiar", "versatile-magic", "artistic-excellence"]
     school-of-divination:
-      generic:
-        magicType: "utility"
-      specific: ["divination-magic", "knowledge-seeker", "fate-touched", "wisdom-seeker"]
+      traits: ["divination-magic", "knowledge-seeker", "fate-touched", "wisdom-seeker"]
     school-of-enchantment:
-      generic:
-        magicType: "control"
-      specific: ["mind-alteration", "social-manipulator", "control-magic", "charismatic"]
+      traits: ["mind-alteration", "social-manipulator", "control-magic", "charismatic"]
     school-of-evocation:
-      generic:
-        magicType: "damage"
-      specific: ["damage-magic", "elemental-affinity", "area-attacker", "reckless-value"]
+      traits: ["damage-magic", "elemental-affinity", "area-attacker", "reckless-value"]
     school-of-the-familiar:
-      generic:
-        magicType: "utility"
-      specific: ["summon-familiar", "beast-friend", "supportive-role", "tactical-value"]
+      traits: ["summon-familiar", "beast-friend", "supportive-role", "tactical-value"]
     school-of-illusion:
-      generic:
-        magicType: "utility"
-      specific: ["illusion-specialist", "trickster-magic", "artistic-excellence", "cunning-value"]
+      traits: ["illusion-specialist", "trickster-magic", "artistic-excellence", "cunning-value"]
     school-of-necromancy:
-      generic:
-        magicType: "control"
-      specific: ["necromancy-dabbler", "death-magic", "tactical-value", "reckless-value"]
+      traits: ["necromancy-dabbler", "death-magic", "tactical-value", "reckless-value"]
     gravebinder:
-      generic:
-        magicType: "utility"
-      specific: ["undead-hunter", "divine-healer", "protective-value", "religious-value"]
+      traits: ["undead-hunter", "divine-healer", "protective-value", "religious-value"]
     school-of-reawakening:
-      generic:
-        magicType: "utility"
-      specific: ["necromancy-dabbler", "dimensional-magic", "knowledge-seeker", "dual-nature"]
+      traits: ["necromancy-dabbler", "dimensional-magic", "knowledge-seeker", "dual-nature"]
     school-of-transmutation:
-      generic:
-        magicType: "utility"
-      specific: ["transmutation-magic", "shape-mastery", "versatile-magic", "artistic-excellence"]
+      traits: ["transmutation-magic", "shape-mastery", "versatile-magic", "artistic-excellence"]
     master-transmogrifist:
-      generic:
-        magicType: "utility"
-      specific: ["transmutation-magic", "shape-mastery", "wild-spirit", "innovation-specialist"]
+      traits: ["transmutation-magic", "shape-mastery", "wild-spirit", "innovation-specialist"]
     scientific-tradition:
-      generic:
-        magicType: "utility"
-      specific: ["engineering-mind", "knowledge-seeker", "innovation-specialist", "modern-value"]
+      traits: ["engineering-mind", "knowledge-seeker", "innovation-specialist", "modern-value"]
     windbringer:
-      generic:
-        magicType: "damage"
-      specific: ["elemental-affinity", "storm-caller", "mobile-combatant", "wild-spirit"]
+      traits: ["elemental-affinity", "storm-caller", "mobile-combatant", "wild-spirit"]
 ---
 
 <div class="toc" markdown="1">

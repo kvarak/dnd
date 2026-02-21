@@ -2,27 +2,24 @@
 title: Swashbuckler
 layout: default
 profile:
-  generic:
-    magicType: "none"
-    originBackground: ["urban", "noble"]
-  specific: ["agile-fighter", "mobile-combatant", "duelist", "refined", "evasive"]
+  traits: ["agile-fighter", "mobile-combatant", "duelist", "refined", "evasive"]
   archetypes:
     blacksnake:
-      specific: ["martial", "tactical-value", "precise", "controlling", "disciplined-value", "exotic-weapons", "disarming"]
+      traits: ["martial", "tactical-value", "precise", "controlling", "disciplined-value", "exotic-weapons", "disarming"]
     brawler:
-      specific: ["martial", "reckless-value", "improvised", "adaptive", "physical", "unarmed-combat"]
+      traits: ["martial", "reckless-value", "improvised", "adaptive", "physical", "unarmed-combat"]
     corsair:
-      specific: ["commanding", "charismatic", "adaptive", "outlaw", "seafaring"]
+      traits: ["commanding", "charismatic", "adaptive", "outlaw", "seafaring"]
     daredevil:
-      specific: ["acrobatic", "mobile", "reckless", "daring", "charismatic", "multitasking", "crowd-fighter"]
+      traits: ["acrobatic", "mobile", "reckless", "daring", "charismatic", "multitasking", "crowd-fighter"]
     duelist:
-      specific: ["refined", "precise", "honorable", "disciplined-value", "perfectionist", "duelist", "critical-striker"]
+      traits: ["refined", "precise", "honorable", "disciplined-value", "perfectionist", "duelist", "critical-striker"]
     fatebender:
-      specific: ["lucky", "chaotic-value", "improvised", "unpredictable-power", "probability-manipulation", "fate-touched", "reckless"]
+      traits: ["lucky", "chaotic-value", "improvised", "unpredictable-power", "probability-manipulation", "fate-touched", "reckless"]
     highwayman:
-      specific: ["criminal-background", "mounted", "outlaw", "wanderer-spirit", "cunning-value", "theatrical", "rebellious", "dual-identity", "masked"]
+      traits: ["criminal-background", "mounted", "outlaw", "wanderer-spirit", "cunning-value", "theatrical", "rebellious", "dual-identity", "masked"]
     musketeer:
-      specific: ["military-background", "disciplined-value", "teamwork-focused", "noble-background", "honorable", "tactical-value", "supportive-role", "loyal-guardian", "commanding"]
+      traits: ["military-background", "disciplined-value", "teamwork-focused", "noble-background", "honorable", "tactical-value", "supportive-role", "loyal-guardian", "commanding"]
 ---
 
 <div class="toc" markdown="1">

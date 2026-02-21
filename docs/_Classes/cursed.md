@@ -2,39 +2,26 @@
 title: Cursed
 layout: default
 profile:
-  generic:
-    magicType: "versatile"
-    originBackground: ["academic", "tribal", "criminal"]
-  specific: ["dual-nature", "transmutation-magic", "unpredictable-power", "arcane-magic"]
+  traits: ["dual-nature", "transmutation-magic", "unpredictable-power", "arcane-magic"]
   archetypes:
     alchemical-curse:
-      specific: ["potion-brewer", "alchemical-transformation", "innate-magic", "gritty-value"]
+      traits: ["potion-brewer", "alchemical-transformation", "innate-magic", "gritty-value"]
     chosen:
-      generic:
-        magicType: "healing"
-      specific: ["celestial-heritage", "holy-power", "divine-warrior", "lawful-value"]
+      traits: ["celestial-heritage", "holy-power", "divine-warrior", "lawful-value"]
     curse-from-beyond:
-      specific: ["aberrant-influence", "mind-alteration", "chaotic-value", "tactical-value"]
+      traits: ["aberrant-influence", "mind-alteration", "chaotic-value", "tactical-value"]
     demonic-possession:
-      generic:
-        magicType: "damage"
-      specific: ["demonic-corruption", "damage-magic", "chaotic-value", "reckless-value"]
+      traits: ["demonic-corruption", "damage-magic", "chaotic-value", "reckless-value"]
     entropic-rift:
-      specific: ["wild-surges", "entropy-conduit", "chaotic-value", "unpredictable-power"]
+      traits: ["wild-surges", "entropy-conduit", "chaotic-value", "unpredictable-power"]
     lycanthropic-curse:
-      generic:
-        magicType: "none"
-      specific: ["shapeshifter", "natural-armor", "survival-expert", "intuitive-value"]
+      traits: ["shapeshifter", "natural-armor", "survival-expert", "intuitive-value"]
     molded:
-      specific: ["ooze-symbiosis", "adaptable-fighter", "dual-nature", "disciplined-value"]
+      traits: ["ooze-symbiosis", "adaptable-fighter", "dual-nature", "disciplined-value"]
     sealed-dragon:
-      generic:
-        magicType: "damage"
-      specific: ["draconic-heritage", "proud-value", "elemental-affinity", "innate-magic"]
+      traits: ["draconic-heritage", "proud-value", "elemental-affinity", "innate-magic"]
     shadowcursed:
-      generic:
-        magicType: "utility"
-      specific: ["shadow-binding", "stealth-master", "death-dealer", "intuitive-value"]
+      traits: ["shadow-binding", "stealth-master", "death-dealer", "intuitive-value"]
 ---
 
 <div class="toc" markdown="1">

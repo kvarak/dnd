@@ -16,134 +16,85 @@ layout: default
 #   - "Pact Boon: Tome (92%)"
 # User then combines their preferred patron + boon combination.
 profile:
-  generic:
-    magicType: "versatile"
-    originBackground: ["academic", "urban", "nature", "criminal"]
-  specific: ["knowledge-seeker", "otherworldly-knowledge", "arcane-magic", "cunning-value"]
+  traits: ["knowledge-seeker", "otherworldly-knowledge", "arcane-magic", "cunning-value"]
   archetypes:
     abraxas:
-      generic:
-        magicType: "damage"
-      specific: ["scholar", "knowledge-seeker", "ancient-lore", "damage-magic"]
+      traits: ["scholar", "knowledge-seeker", "ancient-lore", "damage-magic"]
     ancient-dragon:
-      generic:
-        magicType: "damage"
-      specific: ["draconic-heritage", "elemental-affinity", "ancient-knowledge", "proud-value"]
+      traits: ["draconic-heritage", "elemental-affinity", "ancient-knowledge", "proud-value"]
     ancient-toad:
-      specific: ["nature-guardian", "knowledge-seeker", "elemental-affinity", "wisdom-seeker"]
+      traits: ["nature-guardian", "knowledge-seeker", "elemental-affinity", "wisdom-seeker"]
     archfey:
-      generic:
-        magicType: "control"
-      specific: ["fey-warrior", "trickster-magic", "illusion-specialist", "chaotic-value"]
+      traits: ["fey-warrior", "trickster-magic", "illusion-specialist", "chaotic-value"]
     ashen-wolf:
-      generic:
-        magicType: "damage"
-      specific: ["hunting-expert", "fire-affinity", "wild-spirit", "reckless-value"]
+      traits: ["hunting-expert", "fire-affinity", "wild-spirit", "reckless-value"]
     blackthorn-grove:
-      specific: ["nature-guardian", "plant-mastery", "wild-spirit", "protective-value"]
+      traits: ["nature-guardian", "plant-mastery", "wild-spirit", "protective-value"]
     cosmic-machine:
-      generic:
-        magicType: "utility"
-      specific: ["lawful-value", "tactical-value", "knowledge-seeker", "disciplined-value"]
+      traits: ["lawful-value", "tactical-value", "knowledge-seeker", "disciplined-value"]
     crone:
-      specific: ["shadow-magic", "ancient-lore", "fate-touched", "wild-spirit"]
+      traits: ["shadow-magic", "ancient-lore", "fate-touched", "wild-spirit"]
     dagon:
-      generic:
-        magicType: "control"
-      specific: ["aquatic-heritage", "elemental-affinity", "aberrant-influence", "hunting-expert"]
+      traits: ["aquatic-heritage", "elemental-affinity", "aberrant-influence", "hunting-expert"]
     death:
-      specific: ["death-magic", "necromancy-dabbler", "disciplined-value", "fate-touched"]
+      traits: ["death-magic", "necromancy-dabbler", "disciplined-value", "fate-touched"]
     dispater:
-      generic:
-        magicType: "control"
-      specific: ["lawful-value", "tactical-value", "social-manipulator", "disciplined-value"]
+      traits: ["lawful-value", "tactical-value", "social-manipulator", "disciplined-value"]
     emergent-mind:
-      generic:
-        magicType: "control"
-      specific: ["mind-reader", "mind-alteration", "ancient-knowledge", "disciplined-value"]
+      traits: ["mind-reader", "mind-alteration", "ancient-knowledge", "disciplined-value"]
     eternal-citadel:
-      generic:
-        magicType: "utility"
-      specific: ["defensive-expert", "protective-value", "lawful-value", "loyal-guardian"]
+      traits: ["defensive-expert", "protective-value", "lawful-value", "loyal-guardian"]
     fallen-exile:
-      generic:
-        magicType: "damage"
-      specific: ["otherworldly-knowledge", "proud-value", "knowledge-seeker", "reckless-value"]
+      traits: ["otherworldly-knowledge", "proud-value", "knowledge-seeker", "reckless-value"]
     fiend:
-      generic:
-        magicType: "damage"
-      specific: ["demonic-corruption", "damage-magic", "reckless-value", "cunning-value"]
+      traits: ["demonic-corruption", "damage-magic", "reckless-value", "cunning-value"]
     great-old-one:
-      generic:
-        magicType: "control"
-      specific: ["aberrant-influence", "mind-alteration", "otherworldly-knowledge", "ancient-lore"]
+      traits: ["aberrant-influence", "mind-alteration", "otherworldly-knowledge", "ancient-lore"]
     serpent-empress:
-      generic:
-        magicType: "control"
-      specific: ["social-manipulator", "noble-heritage", "hedonistic-soul", "proud-value"]
+      traits: ["social-manipulator", "noble-heritage", "hedonistic-soul", "proud-value"]
     hive:
-      generic:
-        magicType: "control"
-      specific: ["swarm-tactics", "teamwork-focused", "aberrant-influence", "tactical-value"]
+      traits: ["swarm-tactics", "teamwork-focused", "aberrant-influence", "tactical-value"]
     jubilex:
-      generic:
-        magicType: "control"
-      specific: ["ooze-symbiosis", "aberrant-influence", "chaos-magic", "unpredictable-power"]
+      traits: ["ooze-symbiosis", "aberrant-influence", "chaos-magic", "unpredictable-power"]
     keeper-depths:
-      specific: ["aquatic-heritage", "ancient-knowledge", "treasure-hunter", "elemental-affinity"]
+      traits: ["aquatic-heritage", "ancient-knowledge", "treasure-hunter", "elemental-affinity"]
     levistus:
-      generic:
-        magicType: "control"
-      specific: ["tactical-value", "disciplined-value", "lawful-value", "disciplined-value"]
+      traits: ["tactical-value", "disciplined-value", "lawful-value", "disciplined-value"]
     monstrosity:
-      generic:
-        magicType: "damage"
-      specific: ["physical", "unstoppable-force", "hunting-expert", "reckless-value"]
+      traits: ["physical", "unstoppable-force", "hunting-expert", "reckless-value"]
     wild-huntsman:
-      generic:
-        magicType: "utility"
-      specific: ["hunting-expert", "beast-friend", "fey-warrior", "athletic-prowess"]
+      traits: ["hunting-expert", "beast-friend", "fey-warrior", "athletic-prowess"]
     pharaoh:
-      specific: ["divine-magic", "ancient-lore", "survival-expert", "noble-heritage"]
+      traits: ["divine-magic", "ancient-lore", "survival-expert", "noble-heritage"]
     seducer:
-      generic:
-        magicType: "control"
-      specific: ["social-manipulator", "hedonistic-soul", "chaotic-value", "mind-alteration"]
+      traits: ["social-manipulator", "hedonistic-soul", "chaotic-value", "mind-alteration"]
     shadow-cat:
-      generic:
-        magicType: "utility"
-      specific: ["fate-touched", "shadow-affinity", "stealth-master", "disciplined-value"]
+      traits: ["fate-touched", "shadow-affinity", "stealth-master", "disciplined-value"]
     storm-lord:
-      generic:
-        magicType: "damage"
-      specific: ["storm-caller", "elemental-affinity", "chaotic-value", "reckless-value"]
+      traits: ["storm-caller", "elemental-affinity", "chaotic-value", "reckless-value"]
     undying:
-      specific: ["necromancy-dabbler", "ancient-knowledge", "disciplined-value", "knowledge-seeker"]
+      traits: ["necromancy-dabbler", "ancient-knowledge", "disciplined-value", "knowledge-seeker"]
     vampire:
-      generic:
-        magicType: "control"
-      specific: ["death-magic", "social-manipulator", "hedonistic-soul", "ambush-predator"]
+      traits: ["death-magic", "social-manipulator", "hedonistic-soul", "ambush-predator"]
     weaver-lies:
-      generic:
-        magicType: "control"
-      specific: ["trickster-magic", "social-manipulator", "illusion-specialist", "chaotic-value"]
+      traits: ["trickster-magic", "social-manipulator", "illusion-specialist", "chaotic-value"]
   boons:
     arc:
-      specific: ["ranged-expert", "archery-specialist", "tactical-value", "agile-warrior"]
+      traits: ["ranged-expert", "archery-specialist", "tactical-value", "agile-warrior"]
     bastion:
-      specific: ["defensive-expert", "shield-specialist", "protective-value", "heavy-armor"]
+      traits: ["defensive-expert", "shield-specialist", "protective-value", "heavy-armor"]
     blade:
-      specific: ["weapon-specialist", "physical", "reckless-value", "instinctive-combatant"]
+      traits: ["weapon-specialist", "physical", "reckless-value", "instinctive-combatant"]
     chain:
-      specific: ["summon-familiar", "beast-friend", "supportive-role", "tactical-value"]
+      traits: ["summon-familiar", "beast-friend", "supportive-role", "tactical-value"]
     cowl:
-      specific: ["stealth-master", "infiltrator", "agile-warrior", "shadow-affinity"]
+      traits: ["stealth-master", "infiltrator", "agile-warrior", "shadow-affinity"]
     evil-eye:
-      specific: ["mind-alteration", "control-magic", "tactical-value", "disciplined-value"]
+      traits: ["mind-alteration", "control-magic", "tactical-value", "disciplined-value"]
     talisman:
-      specific: ["utility-magic", "tactical-value", "damage-magic", "versatile-magic"]
+      traits: ["utility-magic", "tactical-value", "damage-magic", "versatile-magic"]
     tome:
-      specific: ["ritual-caster", "knowledge-seeker", "arcane-scholar", "versatile-magic"]
+      traits: ["ritual-caster", "knowledge-seeker", "arcane-scholar", "versatile-magic"]
 ---
 
 <div class="toc" markdown="1">

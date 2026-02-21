@@ -2,29 +2,26 @@
 title: Professional
 layout: default
 profile:
-  generic:
-    magicType: "utility"
-    originBackground: ["academic", "artisan", "urban"]
-  specific: ["knowledge-seeker", "versatile-magic", "adaptable-fighter", "engineering-mind", "craftsman-background", "multitasking"]
+  traits: ["knowledge-seeker", "versatile-magic", "adaptable-fighter", "engineering-mind", "craftsman-background", "multitasking"]
   archetypes:
     arcanist:
-      specific: ["arcane-magic", "scholar", "utility-magic"]
+      traits: ["arcane-magic", "scholar", "utility-magic"]
     archaeologist:
-      specific: ["ancient-lore", "explorer", "survival-expert", "athletic-prowess"]
+      traits: ["ancient-lore", "explorer", "survival-expert", "athletic-prowess"]
     astronomer:
-      specific: ["scholar", "divination-magic", "wisdom-seeker", "disciplined-value"]
+      traits: ["scholar", "divination-magic", "wisdom-seeker", "disciplined-value"]
     candlemaker:
-      specific: ["fire-affinity", "craftsman-background", "illuminating-light"]
+      traits: ["fire-affinity", "craftsman-background", "illuminating-light"]
     cook:
-      specific: ["supportive-role", "healing-magic", "nurturing-soul", "artistic-excellence"]
+      traits: ["supportive-role", "healing-magic", "nurturing-soul", "artistic-excellence"]
     diplomat:
-      specific: ["social-manipulator", "charismatic", "diplomatic-soul", "urban-background"]
+      traits: ["social-manipulator", "charismatic", "diplomatic-soul", "urban-background"]
     forester:
-      specific: ["nature-guardian", "survival-expert", "wild-spirit", "nature-background"]
+      traits: ["nature-guardian", "survival-expert", "wild-spirit", "nature-background"]
     psychologist:
-      specific: ["mind-reader", "tactical-value", "wisdom-seeker", "scholar"]
+      traits: ["mind-reader", "tactical-value", "wisdom-seeker", "scholar"]
     smith:
-      specific: ["craftsman-background", "weapon-master", "physical"]
+      traits: ["craftsman-background", "weapon-master", "physical"]
 ---
 
 <div class="toc">

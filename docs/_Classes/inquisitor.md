@@ -2,23 +2,20 @@
 title: Inquisitor
 layout: default
 profile:
-  generic:
-    magicType: "utility"
-    originBackground: ["religious", "military", "haunted-past"]
-  specific: ["divine-warrior", "holy-power", "lawful-value", "divine-magic"]
+  traits: ["divine-warrior", "holy-power", "lawful-value", "divine-magic"]
   archetypes:
     mission-of-the-cold-iron-warder:
-      specific: ["demon-hunter", "divine-warrior", "protective-value", "disciplined-value"]
+      traits: ["demon-hunter", "divine-warrior", "protective-value", "disciplined-value"]
     mission-of-the-crusader:
-      specific: ["inspirational-leader", "zealot-faith", "holy-power", "lawful-value"]
+      traits: ["inspirational-leader", "zealot-faith", "holy-power", "lawful-value"]
     mission-of-the-hierophant:
-      specific: ["divine-healer", "protective-value", "healing-magic", "nurturing-soul"]
+      traits: ["divine-healer", "protective-value", "healing-magic", "nurturing-soul"]
     mission-of-the-hunter:
-      specific: ["stealth-master", "survival-expert", "disciplined-value", "hunting-expert", "monster-hunter", "relentless-hunter"]
+      traits: ["stealth-master", "survival-expert", "disciplined-value", "hunting-expert", "monster-hunter", "relentless-hunter"]
     mission-of-infiltration:
-      specific: ["faith-infiltrator", "social-manipulator", "stealth-master", "cunning-value", "urban-background", "knowledge-seeker", "truth-seeker"]
+      traits: ["faith-infiltrator", "social-manipulator", "stealth-master", "cunning-value", "urban-background", "knowledge-seeker", "truth-seeker"]
     mission-of-witchhunter:
-      specific: ["magic-hunter", "spell-disruptor", "disciplined-value", "protective-value", "knowledge-seeker", "scholar", "truth-seeker"]
+      traits: ["magic-hunter", "spell-disruptor", "disciplined-value", "protective-value", "knowledge-seeker", "scholar", "truth-seeker"]
 ---
 
 <div class="toc">

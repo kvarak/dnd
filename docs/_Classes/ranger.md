@@ -2,47 +2,44 @@
 title: Ranger
 layout: default
 profile:
-  generic:
-    magicType: "utility"
-    originBackground: ["nature", "military", "tribal"]
-  specific: ["survival-expert", "nature-guardian", "stealth-master", "nature-magic"]
+  traits: ["survival-expert", "nature-guardian", "stealth-master", "nature-magic"]
   archetypes:
     beast-conclave:
-      specific: ["animal-companion", "nature-guardian", "loyal-guardian", "wild-spirit"]
+      traits: ["animal-companion", "nature-guardian", "loyal-guardian", "wild-spirit"]
     burghal-explorer:
-      specific: ["urban-background", "explorer", "athletic-prowess", "stealth-master"]
+      traits: ["urban-background", "explorer", "athletic-prowess", "stealth-master"]
     diabolist:
-      specific: ["undead-hunter", "ghost-tracker", "death-magic", "spirit-medium"]
+      traits: ["undead-hunter", "ghost-tracker", "death-magic", "spirit-medium"]
     fey-hunter:
-      specific: ["fey-hunter", "enchantment-resistance", "nature-guardian", "tactical-value"]
+      traits: ["fey-hunter", "enchantment-resistance", "nature-guardian", "tactical-value"]
     freerunner:
-      specific: ["mobile-combatant", "athletic-prowess", "agile-fighter", "physical"]
+      traits: ["mobile-combatant", "athletic-prowess", "agile-fighter", "physical"]
     gloom-stalker:
-      specific: ["darkvision-master", "stealth-master", "ambush-predator", "shadow-affinity"]
+      traits: ["darkvision-master", "stealth-master", "ambush-predator", "shadow-affinity"]
     herbalist-conclave:
-      specific: ["potion-brewer", "healing-magic", "nature-guardian", "supportive-role"]
+      traits: ["potion-brewer", "healing-magic", "nature-guardian", "supportive-role"]
     horizon-walker:
-      specific: ["planar-guardian", "dimensional-magic", "tactical-value", "otherworldly-knowledge"]
+      traits: ["planar-guardian", "dimensional-magic", "tactical-value", "otherworldly-knowledge"]
     hunter-conclave:
-      specific: ["monster-hunter", "tactical-value", "survival-expert", "weapon-specialist"]
+      traits: ["monster-hunter", "tactical-value", "survival-expert", "weapon-specialist"]
     monster-slayer:
-      specific: ["monster-hunter", "relentless-hunter", "tactical-value", "demon-hunter"]
+      traits: ["monster-hunter", "relentless-hunter", "tactical-value", "demon-hunter"]
     nightstalker:
-      specific: ["shadow-magic", "stealth-master", "shadow-affinity", "summon-familiar"]
+      traits: ["shadow-magic", "stealth-master", "shadow-affinity", "summon-familiar"]
     stalker:
-      specific: ["urban-background", "stealth-master", "social-manipulator", "truth-seeker"]
+      traits: ["urban-background", "stealth-master", "social-manipulator", "truth-seeker"]
     banshee-conclave:
       restriction:
         folk: ["bound spirit"]
-      specific: ["undead-hunter", "death-magic", "vengeful-soul", "spirit-medium"]
+      traits: ["undead-hunter", "death-magic", "vengeful-soul", "spirit-medium"]
     trickster-conclave:
       restriction:
         folk: ["gnome", "halfling", "kobold"]
-      specific: ["trickster-magic", "illusion-specialist", "cunning-value", "small-advantage"]
+      traits: ["trickster-magic", "illusion-specialist", "cunning-value", "small-advantage"]
     moonstalker-conclave:
       restriction:
         folk: ["shifter"]
-      specific: ["shapeshifter", "wild-spirit", "lunar-affinity", "hunting-expert"]
+      traits: ["shapeshifter", "wild-spirit", "lunar-affinity", "hunting-expert"]
 ---
 
 <div class="toc" markdown="1">

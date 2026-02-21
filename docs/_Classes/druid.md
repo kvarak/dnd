@@ -2,39 +2,36 @@
 title: Druid
 layout: default
 profile:
-  generic:
-    magicType: "versatile"
-    originBackground: ["nature", "tribal", "natural-prodigy"]
-  specific: ["nature-guardian", "healing-magic", "survival-expert", "nature-magic"]
+  traits: ["nature-guardian", "healing-magic", "survival-expert", "nature-magic"]
   archetypes:
     circle-of-blood:
-      specific: ["shape-mastery", "dual-nature", "adaptable-fighter", "pragmatic-fighter"]
+      traits: ["shape-mastery", "dual-nature", "adaptable-fighter", "pragmatic-fighter"]
     circle-of-dreams:
-      specific: ["fey-touched", "healing-magic", "utility-magic", "intuitive-value"]
+      traits: ["fey-touched", "healing-magic", "utility-magic", "intuitive-value"]
     circle-of-dust:
-      specific: ["survival-expert", "gritty-value", "protective-value"]
+      traits: ["survival-expert", "gritty-value", "protective-value"]
     circle-of-the-forest:
-      specific: ["ancient-knowledge", "ritual-caster", "scholar", "disciplined-value"]
+      traits: ["ancient-knowledge", "ritual-caster", "scholar", "disciplined-value"]
     circle-of-the-garden:
-      specific: ["plant-mastery", "healing-magic", "protective-value", "nurturing-soul"]
+      traits: ["plant-mastery", "healing-magic", "protective-value", "nurturing-soul"]
     circle-of-the-land:
-      specific: ["terrain-bond", "utility-magic", "survival-expert", "tactical-value"]
+      traits: ["terrain-bond", "utility-magic", "survival-expert", "tactical-value"]
     circle-of-the-moon:
-      specific: ["shape-mastery", "natural-armor", "instinctive-combatant", "wild-spirit"]
+      traits: ["shape-mastery", "natural-armor", "instinctive-combatant", "wild-spirit"]
     circle-of-the-sands:
-      specific: ["survival-expert", "endurance-specialist", "gritty-value", "disciplined-value"]
+      traits: ["survival-expert", "endurance-specialist", "gritty-value", "disciplined-value"]
     circle-of-the-shepherd:
-      specific: ["beast-friend", "protective-value", "inspirational-leader", "nurturing-soul"]
+      traits: ["beast-friend", "protective-value", "inspirational-leader", "nurturing-soul"]
     circle-of-spores:
-      specific: ["decay-mastery", "necromancy-dabbler", "disciplined-value", "pragmatic-fighter"]
+      traits: ["decay-mastery", "necromancy-dabbler", "disciplined-value", "pragmatic-fighter"]
     circle-of-storms:
-      specific: ["storm-caller", "damage-magic", "ranged-expert", "chaotic-value"]
+      traits: ["storm-caller", "damage-magic", "ranged-expert", "chaotic-value"]
     circle-of-the-swarm:
-      specific: ["swarm-tactics", "tactical-value", "mobile-combatant", "cunning-value"]
+      traits: ["swarm-tactics", "tactical-value", "mobile-combatant", "cunning-value"]
     circle-of-the-ancients:
       restriction:
         folk: "lizardfolk"
-      specific: ["ancestral-memory", "draconic-heritage", "natural-armor", "proud-value"]
+      traits: ["ancestral-memory", "draconic-heritage", "natural-armor", "proud-value"]
 ---
 
 <div class="toc" markdown="1">
