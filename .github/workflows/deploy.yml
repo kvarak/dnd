@@ -87,7 +87,7 @@ jobs:
 
       - name: Build Jekyll site with basic quality gate
         run: |
-          ruby extract-searchable.rb
+          ruby tools/extract-searchable.rb
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
           bundle exec htmlproofer ./_site \
             --ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
