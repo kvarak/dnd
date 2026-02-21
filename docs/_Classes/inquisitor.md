@@ -16,9 +16,9 @@ profile:
     mission-of-the-hunter:
       specific: ["stealth-master", "survival-expert", "disciplined-value", "hunting-expert", "monster-hunter", "relentless-hunter"]
     mission-of-infiltration:
-      specific: ["faith-infiltrator", "social-manipulator", "stealth-master", "cunning-value"]
+      specific: ["faith-infiltrator", "social-manipulator", "stealth-master", "cunning-value", "urban-background", "knowledge-seeker", "truth-seeker"]
     mission-of-witchhunter:
-      specific: ["magic-hunter", "spell-disruptor", "disciplined-value", "protective-value"]
+      specific: ["magic-hunter", "spell-disruptor", "disciplined-value", "protective-value", "knowledge-seeker", "scholar", "truth-seeker"]
 ---
 
 <div class="toc">

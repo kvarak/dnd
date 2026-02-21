@@ -1,2344 +1,1474 @@
-# Class Selector Question Bank
-# Questions designed to map player preferences to class/archetype traits.
-# Each question can influence multiple trait categories with different weights.
-
-# ========================================
-# MULTI-DIMENSIONAL TRAIT SCORING SYSTEM
-# ========================================
-#
-# CORE PRINCIPLE:
-# Every answer contributes positive or negative scores across MULTIPLE trait dimensions
-# simultaneously. This creates a nuanced profile showing both strengths (high scores)
-# and aversions (negative scores).
-#
-# HOW IT WORKS:
-#
-# 1. Each question can score multiple traits in different directions:
-#    Example:
-#      - id: healing-magic
-#        text : "Do you want to heal and protect your allies?"
-#        answers:
-#          "yes":
-#            healing-magic: +4      # Strong preference FOR healing
-#            damage-magic: -2       # Moderate aversion AGAINST damage
-#            utility-magic: +1      # Slight lean toward utility
-#          "no":
-#            healing-magic: -2      # Aversion to healing
-#            damage-magic: +4       # Strong preference for damage
-#
-# 2. Score Accumulation:
-#    - As player answers questions, each trait accumulates scores
-#    - current_score = sum(all_answers_affecting_this_trait)
-#    - Track min/max possible: What's the lowest/highest score achievable?
-#
-# 3. Percentage Calculation:
-#    - If possible range is -10 to +20:
-#      * Score of +15 = 83% alignment ((15 - (-10)) / (20 - (-10)) = 25/30)
-#      * Score of 0 = 33% alignment ((0 - (-10)) / 30 = 10/30)
-#      * Score of -8 = 7% alignment ((-8 - (-10)) / 30 = 2/30)
-#
-# 4. Matching to Classes:
-#    - Classes define which traits they need (e.g., Cleric needs healing-magic)
-#    - Player's score percentage in those traits determines class fit
-#    - Higher percentage in matched traits = better recommendation
-#
-# EXAMPLE FLOW:
-#   Questions asked:
-#     Q1: "Want to heal allies?" → YES → healing-magic: +4, damage-magic: -2
-#     Q2: "Want damage spells?" → NO  → healing-magic: +2, damage-magic: -4
-#     Q3: "Interested in magic?" → YES → utility-magic: +2
-#
-#   Player's accumulated scores:
-#     healing-magic: +6 (range -4 to +10) = 71% alignment
-#     damage-magic: -6 (range -10 to +8) = 22% alignment
-#     utility-magic: +5 (range -2 to +12) = 50% alignment
-#
-#   Class matching:
-#     Cleric (wants healing-magic): 71% match ✅
-#     Wizard (wants damage-magic): 22% match ❌
-#
-# KEY ADVANTAGES:
-#   - Natural questions ("Do you want X?") instead of rating scales
-#   - Shows both preferences AND aversions
-#   - Transparent scoring visible to players
-#   - One question influences multiple trait dimensions
-#   - Creates nuanced profiles, not binary categories
-
-
-# Magic Type Questions
-- id: healing-magic
-  text: "Do you want to heal and protect your allies?"
-  category: combat-style
-  answers:
-    "yes":
-      healing-magic: +4 # Direct preference for healing/support
-      protective-value: +4 # Protecting allies
-      potion-brewer: +4 # Potions are healing-focused
-      divine-healer: +3 # Divine healing mission
-      divine-magic: +2 # Divine healing power
-      diplomatic-soul: +2 # Compassionate healer
-      defensive-expert: +2 # Defensive focus
-      religious-value: +2 # Faith healing
-      lawful-value: +2 # Order and protection
-      disciplined-value: +2 # Healing requires patience
-      inspirational-leader: +1 # Support the team
-      holy-power: +1 # Divine might for protection
-      utility-magic: +1 # Support often includes utility spells
-      damage-magic: -2 # Moderate opposition to offensive magic
-      reckless-value: -2 # Against aggression and recklessness
-    "maybe":
-      healing-magic: +1 # Weak preference
-      potion-brewer: +1 # Some potion interest
-      protective-value: +1 # Some protection interest
-      utility-magic: +2 # Leans more toward utility
-      versatile-magic: +1 # Flexibility in approach
-      diplomatic-soul: +1 # Some compassion
-    "no":
-      healing-magic: -2 # Rejection of healing role
-      death-speaker: -2 # Focused on death not life
-      potion-brewer: -2 # Not interested in healing potions
-      protective-value: -1 # Not focused on protection
-      damage-magic: +2 # Likely prefers offensive spells
-      reckless-value: +2 # Offensive focus
-      control-magic: +1 # Alternative support style
-      cunning-value: +1 # Self-focused
-    dont-know: {}
-- id: magic-interest
-  text: "Are you interested in using magic?"
+---
+- id: chaos-acceptance
+  text: How do you feel about chaos, unpredictability, and wild magic?
   category: magic-preference
   answers:
-    "yes":
-      versatile-magic: +4 # Broad magical interest
-      arcane-magic: +3 # Arcane spellcasting
-      knowledge-seeker: +2 # Magic requires study
-      scholar: +2 # Academic pursuit
-      tactical-value: +2 # Thinking fighter
-      utility-magic: +1 # General magic includes utility
-      damage-magic: +1 # And damage
-      healing-magic: +1 # And healing
-      control-magic: +1 # And control
-      otherworldly-knowledge: +1 # Arcane mysteries
-      disciplined-value: +2 # Magic requires patience and discipline
-      physical: -4 # Strong opposition to pure martial
-      innate-magic: -2 # Magic vs natural ability
-      instinctive-combatant: -2 # Magic vs instinct
-      athletic-prowess: -1 # Magic vs athletics
-    "maybe":
-      utility-magic: +2 # Some magical interest, practical
-      versatile-magic: +1 # Moderate breadth
-      adaptable-fighter: +1 # Flexible approach
-      cunning-value: +1 # Strategic magic use
-      physical: -1 # Slight away from pure martial
-    "no":
-      physical: +4 # Strong preference for non-magical
-      magic-hunter: +3 # Hunt dangerous magic users
-      spell-disruptor: +3 # Disrupt magical threats
-      innate-magic: +3 # Natural talent instead
-      athletic-prowess: +3 # Physical prowess
-      versatile-magic: -3 # Strong opposition to magic
-      instinctive-combatant: +2 # Instinctive fighting
-      weapon-specialist: +2 # Weapon focus
-      martial: +2 # Martial arts
-      damage-magic: -2 # Against magical damage
-      healing-magic: -2 # Against magical healing
-      utility-magic: -2 # Against magical utility
-    dont-know: {}
-- id: divine-power-source
-  text: "Do you want power from gods, faith, or divine forces?"
-  category: magic-source
-  answers:
-    "yes":
-      divine-magic: +4 # Strong preference for divine power
-      divine-healer: +3
-      holy-power: +3
-      divine-warrior: +3
-      religious-value: +2
-      otherworldly-knowledge: +2
-      lawful-value: +1
-      protective-value: +2
-      healing-magic: +2
-      arcane-magic: -3
-      innate-magic: -2
+    Embrace it fully:
+      chaos-magic: 4
+      wild-surges: 4
+      chaotic-value: 4
+      unpredictable-power: 4
+      entropy-conduit: 3
+      innate-magic: 3
+      reckless-value: 2
+    Controlled chaos:
+      chaos-magic: 2
+      versatile-magic: 2
+      innate-magic: 2
+      adaptive: 1
+    Tolerate when necessary:
+      adaptive: 2
+      adaptable-fighter: 2
+      versatile-magic: 1
+    Avoid chaos:
+      disciplined-value: 4
+      tactical-value: 3
+      scholar: 2
       chaos-magic: -2
-    "maybe":
-      divine-magic: +1
-      otherworldly-knowledge: +1
-      versatile-magic: +2
-      religious-value: +1
-    "no":
-      divine-magic: -3
-      arcane-magic: +3
-      innate-magic: +2 # Natural talent instead
-      chaotic-value: +1
-      academic-background: +2
+      chaotic-value: -2
     dont-know: {}
-- id: destructive-magic
-  text: "Do you want to deal damage with spells?"
-  category: magic-style
-  answers:
-    "yes":
-      damage-magic: +4 # Direct preference for offensive spells
-      arcane-magic: +2 # Arcane damage spells
-      fire-affinity: +2 # Fire damage
-      elemental-affinity: +2 # Elemental damage
-      reckless-value: +3 # Offensive and bold spellcasting
-      versatile-magic: +1 # Damage is part of versatility
-      chaotic-value: +1 # Destructive chaos
-      cunning-value: +1 # Strike when advantageous
-      healing-magic: -2 # Moderate opposition to support
-      protective-value: -2 # Not defensive
-      diplomatic-soul: -1 # Less compassionate
-    "maybe":
-      damage-magic: +1 # Some interest
-      versatile-magic: +2 # Flexibility preferred
-      utility-magic: +1 # Mixed magical interests
-      tactical-value: +1 # Strategic damage
-    "no":
-      damage-magic: -2 # Not interested in offensive magic
-      utility-magic: +2 # Prefer other magic types
-      healing-magic: +1 # Maybe support instead
-      control-magic: +1 # Or battlefield control
-      protective-value: +2 # Defensive focus
-      diplomatic-soul: +1 # Peaceful approach
-      reckless-value: -1 # Against aggression
-    dont-know: {}
-# Origin Background Questions
-- id: military-background
-  text: "Does a military/guard background appeal to you?"
-  category: character-origin
-  answers:
-    "yes":
-      military-background: +4 # Direct preference
-      disciplined-value: +2 # Military training = discipline
-      urban-background: +1 # Guards often in cities
-      noble-background: +1 # Officers often noble
-    "maybe":
-      military-background: +1 # Some interest
-      urban-background: +2 # City guard compromise
-      disciplined-value: +1 # Some structure
-    "no":
-      military-background: -2 # Not interested
-      nature-background: +2 # Alternative: country life
-      criminal-background: +1 # Or outside law
-    dont-know: {}
-- id: wilderness-life
-  text: "Do you prefer a rural/wilderness background?"
-  category: character-origin
-  answers:
-    "yes":
-      nature-background: +4 # Direct preference
-      survival-expert: +3 # Wilderness skills
-      nature-guardian: +3 # Natural protector
-      nature-magic: +3 # Nature spellcasting
-      freedom-fighter: +2 # Wild and untamed
-      wanderer-spirit: +2 # Roaming lifestyle
-      fey-touched: +2 # Fey wildlands
-      tribal-background: +1 # Wilderness often tribal
-      urban-background: -2 # Opposition to cities
-      noble-background: -1 # Less likely noble
-    "maybe":
-      nature-background: +2 # Some affinity
-      urban-background: +1 # But not opposed to civilization
-    "no":
-      urban-background: +3 # Prefers civilization
-      nature-background: -2 # Against wilderness
-    dont-know: {}
-- id: life-environment
-  text: "What environment did you grow up in?"
-  category: character-origin
-  answers:
-    "city":
-      urban-background: +3 # City life
-      social-manipulator: +1 # Social navigation
-      diplomatic-soul: +1 # City politics
-    "academy":
-      academic-background: +3 # Academic training
-      scholar: +2 # Knowledge focus
-      knowledge-seeker: +2 # Research driven
-      disciplined-value: +1 # Structured learning
-    "wilderness":
-      nature-background: +3 # Nature life
-      survival-expert: +2 # Wilderness skills
-      nature-guardian: +1 # Natural protector
-      wild-spirit: +1 # Untamed nature
-    "underworld":
-      criminal-background: +3 # Underground society
-      cunning-value: +3 # Survival and opportunistic cunning
-    dont-know: {}
-# Group Dynamics Questions
-- id: elemental-power
-  text: "Are you drawn to elemental forces (fire, ice, lightning)?"
-  category: power-source
-  answers:
-    "yes":
-      elemental-affinity: +4 # Direct elemental connection
-      fire-affinity: +3 # Fire element focus
-      damage-magic: +3 # Elements often destructive
-      nature-magic: +2 # Natural elements
-      draconic-heritage: +2 # Dragons = elemental
-      arcane-magic: +2 # Arcane elemental magic
-      innate-magic: +3 # Natural elemental affinity and Inborn connection
-      wild-surges: +1 # Elemental unpredictability
-      chaos-magic: +1 # Primal chaos
-      versatile-magic: +1 # Elements cover multiple schools
-      reckless-value: +1 # Elemental fury
-      physical: -2 # Against non-magical
-      divine-magic: -1 # Not faith-based
-    "maybe":
-      versatile-magic: +2 # Some magical interest
-      nature-magic: +1 # Some elemental affinity
-      elemental-affinity: +1 # Mild affinity
-      arcane-magic: +1 # Some arcane interest
-    "no":
-      physical: +2 # Against flashy magic
-      divine-magic: +2 # Faith over elements
-      elemental-affinity: -2 # Not drawn to elements
-      martial: +1 # Martial focus
-      weapon-specialist: +1 # Weapon over magic
-    dont-know: {}
-# Specific Trait Questions
-- id: weapon-mastery
-  text: "Do you want to specialize in mastering specific weapons?"
-  category: combat-specialization
-  answers:
-    "yes":
-      weapon-specialist: +4 # Direct preference
-      weapon-master: +3 # Master weapons
-      disciplined-value: +2 # Mastery requires discipline
-      physical: +1 # Focus on weapons, not spells
-    "maybe":
-      physical: +2 # Some martial interest
-      weapon-specialist: +1 # Moderate specialization
-    "no":
-      versatile-magic: +2 # Prefer magic instead
-      physical: -1 # Less weapon focus
-    dont-know: {}
-- id: tactical-thinking
-  text: "Do you prefer planning and strategy over instinctive action?"
-  category: combat-approach
-  answers:
-    "yes":
-      tactical-value: +7 # Direct preference for strategy and Smart fighting
-      adaptable-fighter: +2 # Adaptable tactics
-      scholar: +2 # Study to fight better
-      knowledge-seeker: +2 # Research tactics
-      disciplined-value: +3 # Patience in planning and Discipline aids planning
-      lawful-value: +1 # Structured approach
-      academic-background: +1 # Academic training
-      military-background: +1 # Military tactics
-      cunning-value: +2 # Clever strategy and Strategic opportunism
-      instinctive-combatant: -2 # Against instinct
-      reckless-value: -2 # Against recklessness
-      chaotic-value: -1 # Against chaos
-    "maybe":
-      tactical-value: +1 # Some planning
-      disciplined-value: +2 # Moderate structure
-      adaptable-fighter: +1 # Flexible tactics
-      cunning-value: +1 # Some cleverness
-    "no":
-      chaotic-value: +3 # Instinct over planning
-      intuitive-value: +2 # Gut feeling approach
-      innate-magic: +1 # Natural ability
-      instinctive-combatant: +2 # Instinctive fighting
-      reckless-value: +3 # Bold action and Aggressive over cautious
-    dont-know: {}
-- id: underdog-style
-  text: "Do you like fighting smart when outmatched, turning weaknesses into strengths?"
+- id: healing-magic
+  text: Do you want to heal and protect your allies?
   category: combat-style
   answers:
-    "yes":
-      underdog-fighter: +4
-      instinctive-combatant: +4
-      unpredictable-power: +3
-      cunning-value: +5
-      adaptive: +3
-      improvised-specialist: +2
-      dirty-tactics: +2
-      risk-taker: +2
+    'yes':
+      healing-magic: 6
+      divine-magic: 5
+      protective-value: 4
+      potion-brewer: 4
+      divine-healer: 3
+      diplomatic-soul: 2
+      defensive-expert: 2
+      religious-value: 2
+      lawful-value: 2
+      inspirational-leader: 1
+      holy-power: 1
+      utility-magic: 1
+      damage-magic: -2
+      reckless-value: -2
+    maybe:
+      healing-magic: 1
+      potion-brewer: 1
+      protective-value: 1
+      utility-magic: 2
+      versatile-magic: 1
+      diplomatic-soul: 1
+    'no':
+      healing-magic: -2
+      death-speaker: -2
+      potion-brewer: -2
+      protective-value: -1
+      damage-magic: 2
+      reckless-value: 2
+      control-magic: 1
+      cunning-value: 1
+    dont-know: {}
+- id: magic-interest
+  text: Are you interested in using magic?
+  category: magic-preference
+  answers:
+    'yes':
+      versatile-magic: 4
+      arcane-magic: 5
+      knowledge-seeker: 2
+      scholar: 2
+      utility-magic: 1
+      damage-magic: 1
+      healing-magic: 1
+      control-magic: 1
+      otherworldly-knowledge: 1
+      innate-magic: -2
+      instinctive-combatant: -2
+      athletic-prowess: -1
+    maybe:
+      utility-magic: 2
+      versatile-magic: 1
+      adaptable-fighter: 1
+      cunning-value: 1
+    'no':
+      magic-hunter: 3
+      spell-disruptor: 3
+      innate-magic: 3
+      athletic-prowess: 3
+      versatile-magic: -3
+      instinctive-combatant: 2
+      weapon-specialist: 2
+      martial: 2
+      damage-magic: -2
+      healing-magic: -2
+      utility-magic: -2
+    dont-know: {}
+- id: wilderness-life
+  text: Do you prefer a rural/wilderness background?
+  category: character-origin
+  answers:
+    'yes':
+      nature-background: 4
+      survival-expert: 3
+      nature-guardian: 3
+      nature-magic: 3
+      freedom-fighter: 2
+      wanderer-spirit: 2
+      fey-touched: 2
+      tribal-background: 1
+      urban-background: -2
+      noble-background: -1
+    maybe:
+      nature-background: 2
+      urban-background: 1
+    'no':
+      urban-background: 3
+      nature-background: -2
+    dont-know: {}
+- id: life-environment
+  text: What environment did you grow up in?
+  category: character-origin
+  answers:
+    city:
+      urban-background: 3
+      social-manipulator: 1
+      diplomatic-soul: 1
+    academy:
+      academic-background: 3
+      scholar: 2
+      knowledge-seeker: 2
+      disciplined-value: 1
+    wilderness:
+      nature-background: 3
+      survival-expert: 2
+      nature-guardian: 1
+      wild-spirit: 1
+    underworld:
+      criminal-background: 3
+      cunning-value: 3
+    workshop/forge:
+      craftsman-background: 4
+      innovation-specialist: 2
+      disciplined-value: 1
+    dont-know: {}
+- id: elemental-power
+  text: Are you drawn to elemental forces (fire, ice, lightning)?
+  category: power-source
+  answers:
+    'yes':
+      elemental-affinity: 4
+      fire-affinity: 3
+      nature-magic: 3
+      damage-magic: 3
+      draconic-heritage: 2
+      arcane-magic: 4
+      innate-magic: 3
+      wild-surges: 1
+      chaos-magic: 1
+      versatile-magic: 1
+      reckless-value: 1
+      divine-magic: -1
+    maybe:
+      versatile-magic: 2
+      nature-magic: 1
+      elemental-affinity: 1
+      arcane-magic: 1
+    'no':
+      divine-magic: 2
+      elemental-affinity: -2
+      martial: 1
+      weapon-specialist: 1
+    dont-know: {}
+- id: weapon-mastery
+  text: Do you want to specialize in mastering specific weapons?
+  category: combat-specialization
+  answers:
+    'yes':
+      weapon-specialist: 4
+      weapon-master: 3
+      disciplined-value: 2
+      physical: 1
+    maybe:
+      physical: 2
+      weapon-specialist: 1
+    'no':
+      versatile-magic: 2
+      physical: -1
+    dont-know: {}
+- id: tactical-thinking
+  text: Do you prefer planning and strategy over instinctive action?
+  category: combat-approach
+  answers:
+    'yes':
+      tactical-value: 7
+      adaptable-fighter: 2
+      scholar: 2
+      knowledge-seeker: 2
+      disciplined-value: 3
+      lawful-value: 1
+      academic-background: 1
+      military-background: 1
+      cunning-value: 2
+      instinctive-combatant: -2
+      reckless-value: -2
+      chaotic-value: -1
+    maybe:
+      tactical-value: 1
+      disciplined-value: 2
+      adaptable-fighter: 1
+      cunning-value: 1
+    'no':
+      chaotic-value: 3
+      intuitive-value: 2
+      innate-magic: 1
+      instinctive-combatant: 2
+      reckless-value: 3
+    dont-know: {}
+- id: underdog-style
+  text: Do you like fighting smart when outmatched, turning weaknesses into strengths?
+  category: combat-style
+  answers:
+    'yes':
+      underdog-fighter: 4
+      instinctive-combatant: 4
+      unpredictable-power: 3
+      cunning-value: 5
+      adaptive: 3
+      improvised-specialist: 2
+      dirty-tactics: 2
+      risk-taker: 2
       disciplined-value: -2
       lawful-value: -1
       honorable: -2
-    "maybe":
-      adaptable-fighter: +2
-      tactical-value: +1
-      cunning-value: +1
-      versatile-magic: +1
-    "no":
+    maybe:
+      adaptable-fighter: 2
+      tactical-value: 1
+      cunning-value: 1
+      versatile-magic: 1
+    'no':
       underdog-fighter: -2
-      disciplined-value: +3
-      tactical-value: +3
-      lawful-value: +2
-      honorable: +2
-      military-background: +2
+      disciplined-value: 3
+      tactical-value: 3
+      lawful-value: 2
+      honorable: 2
+      military-background: 2
     dont-know: {}
 - id: innate-abilities
-  text: "Do you prefer natural, inborn talents over studied skills?"
+  text: Do you prefer natural, inborn talents over studied skills?
   category: power-origin
   answers:
-    "yes":
-      innate-magic: +7 # Direct preference for natural talent and Raw ability
-      intuitive-value: +3 # Instinctive magic use
-      instinctive-combatant: +2 # Natural fighting
-      chaotic-value: +2 # Spontaneous power
-      draconic-heritage: +2 # Inborn draconic
-      fey-touched: +2 # Innate fey magic
-      wild-surges: +1 # Uncontrolled natural power
-      versatile-magic: +1 # Natural magic often broad
-      disciplined-value: -3 # Against structured learning and Against slow study
-      academic-background: -1 # Not academic
-    "maybe":
-      dual-nature: +2 # Mix of natural and learned
-      utility-magic: +1 # Practical magic
-      versatile-magic: +1 # Balanced approach
-    "no":
-      scholar: +3 # Study over talent
-      arcane-magic: +4 # Learned magic and Studied arcane
-      adaptive: +2 # Learns to adapt
-      academic-background: +2 # Academic approach
-      disciplined-value: +4 # Structured learning and Patient study
-      knowledge-seeker: +2 # Research focus
-    dont-know: {}
-- id: unpredictable-power
-  text: "Do wild, unpredictable, or uncontrolled magical power appeal to you?"
-  category: magic-preference
-  answers:
-    "yes":
-      unpredictable-power: +4
-      wild-surges: +4
-      chaos-magic: +3
-      entropy-conduit: +3
-      innate-magic: +5
-      chaotic-value: +3
-      reckless-value: +2
-      disciplined-value: -6
-      scholar: -2
-      tactical-value: -2
-    "maybe":
-      versatile-magic: +2
-      innate-magic: +1
-      adaptive: +1
-    "no":
-      unpredictable-power: -2
-      disciplined-value: +6
-      scholar: +3
-      tactical-value: +2
-      arcane-magic: +2
-    dont-know: {}
-- id: physical-excellence
-  text: "Do you want to excel at physical feats and athletics?"
-  category: physical-focus
-  answers:
-    "yes":
-      athletic-prowess: +4 # Direct preference
-      physical: +3 # General physicality
-      mobile-combatant: +2 # Athletic mobility
-    "maybe":
-      physical: +1 # Some athleticism
-      dual-nature: +1 # Balance of physical and other
-    "no":
-      physical: -2 # Against physical focus
-      versatile-magic: +2 # Prefer magic
-      academic-background: +1 # Mental over physical
-    dont-know: {}
-- id: bloodline-heritage
-  text: "Are you interested in having a powerful ancestral bloodline?"
-  category: character-heritage
-  answers:
-    "yes":
-      innate-magic: +4 # Magical ancestry/innate power
-      draconic-heritage: +3 # Dragon blood common
-      proud-value: +3 # Pride in heritage
-      elemental-affinity: +2 # Elemental connection
-      noble-background: +1 # Often noble lines
-      tribal-background: +1 # Or tribal heritage
-    "maybe":
-      innate-magic: +2 # Some natural ability
-    "no":
-      nature-background: +2 # Common folk
-      academic-background: +1 # Learned not inherited
-    dont-know: {}
-- id: chaos-unpredictability
-  text: "Do you enjoy unpredictable and chaotic elements in gameplay?"
-  category: chaos-preference
-  answers:
-    "yes":
-      chaotic-value: +4 # Direct preference for chaos
-      unpredictable-power: +4 # Unpredictable magic
-      wild-surges: +4 # Wild magic surges
-      fey-touched: +3 # Fey wild magic
-      entropy-conduit: +3 # Channeling chaotic forces
-      risk-taker: +3 # Risk-taking from chaos
-      fate-touched: +2 # Luck/destiny
-      freedom-fighter: +2 # Rebels against order
-      innate-magic: +1 # Unrefined ability
-    "maybe":
-      chaotic-value: +1 # Some chaos tolerance
-      innate-magic: +2 # Natural talent
-    "no":
-      disciplined-value: +3 # Order and structure
-      tactical-value: +2 # Planning over chaos
-      relentless-hunter: +2 # Methodical pursuit
-      vengeful-soul: -2 # Focused pursuit
-      academic-background: +1 # Controlled approach
-    dont-know: {}
-- id: defensive-protection
-  text: "Do you want to focus on protecting yourself and others?"
-  category: defensive-focus
-  answers:
-    "yes":
-      healing-magic: +3 # Protection includes healing
-      natural-armor: +3 # Self-protection
-      physical: +2 # Tank warrior
-      disciplined-value: +2 # Defensive discipline
-      control-magic: +1 # Battlefield protection
-    "maybe":
-      utility-magic: +2 # Some protective utility
-      healing-magic: +1 # Moderate support
-    "no":
-      damage-magic: +2 # Offense over defense
-      chaotic-value: +1 # Aggressive play
-    dont-know: {}
-- id: dual-nature-balance
-  text: "Are you interested in combining multiple different abilities?"
-  category: versatility-preference
-  answers:
-    "yes":
-      dual-nature: +4 # Direct preference for hybrid
-      tactical-value: +3 # Smart hybrid fighting
-      adaptable-fighter: +3 # Adaptability
-      adaptive: +2 # Flexible approach
-      scholar: +2 # Study + combat
-      arcane-magic: +2 # Learn diverse skills
-      versatile-magic: +1 # Broad magical knowledge
-    "maybe":
-      versatile-magic: +1 # Some versatility
-      dual-nature: +1 # Moderate hybrid
-    "no":
-      physical: +3 # Focus on one thing
-      weapon-specialist: +1 # Specialize not generalize
+    'yes':
+      innate-magic: 7
+      intuitive-value: 3
+      instinctive-combatant: 2
+      chaotic-value: 2
+      draconic-heritage: 2
+      fey-touched: 2
+      wild-surges: 1
+      versatile-magic: 1
+      disciplined-value: -3
+      academic-background: -1
+    maybe:
+      dual-nature: 2
+      utility-magic: 1
+      versatile-magic: 1
+    'no':
+      scholar: 3
+      arcane-magic: 4
+      adaptive: 2
+      academic-background: 2
+      disciplined-value: 4
+      knowledge-seeker: 2
     dont-know: {}
 - id: ranged-combat
-  text: "Do you prefer fighting from a distance over close combat?"
+  text: Do you prefer fighting from a distance over close combat?
   category: combat-range
   answers:
-    "yes":
-      ranged-expert: +4 # Direct ranged preference
-      archery-specialist: +3 # Archery specific
-      crossbow-specialist: +2 # Crossbow specific
-      tactical-value: +1 # Range = tactical
-      damage-magic: +1 # Spells from distance
-    "maybe":
-      ranged-expert: +1 # Some ranged combat
-      versatile-magic: +1 # Mix of approaches
-    "no":
-      physical: +2 # Melee combat
-      athletic-prowess: +1 # Close combat athleticism
-    dont-know: {}
-- id: crafting-engineering
-  text: "Are you interested in crafting and engineering?"
-  category: technical-interest
-  answers:
-    "yes":
-      engineering-mind: +4 # Direct technical interest
-      craftsman-background: +4 # Crafting background
-      artistic-excellence: +3 # Artisan mastery
-      modern-value: +2 # Non-traditional approach
-      utility-magic: +1 # Practical magic use
-    "maybe":
-      engineering-mind: +1 # Some technical interest
-      craftsman-background: +1 # Some craft skills
-    "no":
-      physical: +2 # Traditional combat focus
-    dont-know: {}
-- id: sophisticated-approach
-  text: "Do you prefer sophisticated, technical solutions over brute force?"
-  category: problem-solving
-  answers:
-    "yes":
-      modern-value: +4 # Technical over brute
-      engineering-mind: +3 # Engineering solutions
-      tactical-value: +4 # Strategy over strength and Smart fighting
-      utility-magic: +1 # Problem-solving magic
-    "maybe":
-      tactical-value: +2 # Some planning
-      modern-value: +1 # Some sophistication
-    "no":
-      physical: +4 # Brute force approach
-    dont-know: {}
-# Rogue-specific Questions
-- id: stealth-approach
-  text: "Do you prefer avoiding fights through stealth and cleverness?"
-  category: combat-avoidance
-  answers:
-    "yes":
-      stealth-master: +4 # Direct stealth preference
-      cunning-value: +5 # Cleverness required and Strike when advantageous
-      information-broker: +2 # Gather intelligence
-      classic-rogue: +4 # Classic rogue approach
-      criminal-background: +1 # Stealth fits criminal
-    "maybe":
-      stealth-master: +1 # Some stealth use
-      cunning-value: +2 # Moderate cleverness
-      tactical-value: +1 # Thoughtful approach
-    "no":
-      physical: +2 # Direct combat
-      athletic-prowess: +1 # Physical confrontation
-    dont-know: {}
-- id: skill-versatility
-  text: "Do you want to be good at many different skills (lockpicking, persuasion, acrobatics)?"
-  category: character-versatility
-  answers:
-    "yes":
-      cunning-value: +3 # Smart skill use
-      lock-picker: +3 # Lockpicking mentioned
-      social-manipulator: +2 # Persuasion included
-      acrobatic: +2 # Acrobatics mentioned
-      mobile-combatant: +2 # Acrobatic mobility
-      fast-hands: +2 # Dexterity skills
-      urban-background: +1 # City skills
-    "maybe":
-      cunning-value: +1 # Some skill
-    "no":
-      weapon-specialist: +2 # Focus on combat
-      physical: +1 # Martial over skills
-    dont-know: {}
-- id: treasure-motivation
-  text: "Does the promise of treasure and riches motivate your character?"
-  category: character-motivation
-  answers:
-    "yes":
-      cunning-value: +5 # Motivated by gain and Smart about profit
-      treasure-hunter: +4 # Direct treasure focus
-      criminal-background: +2 # Often criminal motivation
-    "maybe":
-      cunning-value: +2 # Somewhat motivated
-      urban-background: +1 # City commerce
-    "no":
-      noble-background: +2 # Already wealthy
-      military-background: +1 # Duty over wealth
-      academic-background: +1 # Knowledge over gold
-    dont-know: {}
-# Archetype-specific Questions
-- id: patience-planning
-  text: "Do you prefer careful planning and patience over quick action?"
-  category: tactical-approach
-  answers:
-    "yes":
-      disciplined-value: +5 # Direct patience trait and Discipline aids patience
-      tactical-value: +3 # Planning focus
-      risk-taker: -2 # Against impulsive risks
-    "maybe":
-      tactical-value: +2 # Some planning
-      disciplined-value: +1 # Moderate patience
-    "no":
-      cunning-value: +2 # Quick action
-      risk-taker: +3 # Prefers taking risks
-      chaotic-value: +1 # Spontaneous
-    dont-know: {}
-- id: deception-disguise
-  text: "Are you interested in deception, disguises, and false identities?"
-  category: social-manipulation
-  answers:
-    "yes":
-      disguise-master: +4 # Direct disguise focus
-      social-manipulator: +4 # Deception skill
-      cunning-value: +3 # Need to be clever
-      criminal-background: +1 # Often criminal trait
-    "maybe":
-      social-manipulator: +2 # Some deception
-      cunning-value: +1 # Some cleverness
-    "no":
-      disciplined-value: +2 # Honest/direct approach
-      noble-background: +1 # Honorable
+    'yes':
+      ranged-expert: 4
+      archery-specialist: 3
+      crossbow-specialist: 2
+      tactical-value: 1
+      damage-magic: 1
+    maybe:
+      ranged-expert: 1
+      versatile-magic: 1
+    'no':
+      physical: 2
+      athletic-prowess: 1
     dont-know: {}
 - id: magic-tricks
-  text: "Do you like the idea of using magic for tricks and illusions?"
+  text: Do you like the idea of using magic for tricks and illusions?
   category: magic-style
   answers:
-    "yes":
-      utility-magic: +4 # Trick magic
-      trickster-magic: +4 # Magic for mischief and tricks
-      illusion-specialist: +4 # Illusion focus
-      mind-alteration: +3 # Altering perception
-      mage-hand-master: +3 # Specific trick spell
-      charm-magic: +2 # Enchantment and trickery
-      musical-magic: +2 # Performance magic
-      cunning-value: +2 # Clever magic use
-      versatile-magic: +1 # Varied magic
-    "maybe":
-      utility-magic: +2 # Some magic utility
-      mind-alteration: +1 # Some perception effects
-      versatile-magic: +1 # Moderate interest
-    "no":
-      physical: +3 # Against magic/martial focus
-      mind-alteration: -2 # Against perception manipulation
+    'yes':
+      utility-magic: 4
+      trickster-magic: 4
+      illusion-specialist: 4
+      mind-alteration: 3
+      mage-hand-master: 3
+      arcane-magic: 2
+      artistic-excellence: 2
+      charm-magic: 2
+      musical-magic: 2
+      cunning-value: 2
+      versatile-magic: 1
+    maybe:
+      utility-magic: 2
+      arcane-magic: 1
+      mind-alteration: 1
+      versatile-magic: 1
+    'no':
+      mind-alteration: -2
     dont-know: {}
 - id: study-vs-talent
-  text: "Do you prefer learning through study and books over natural talent?"
+  text: Do you prefer learning through study and books over natural talent?
   category: learning-style
   answers:
-    "yes":
-      scholar: +4 # Studied rogue
-      arcane-magic: +6 # Learned magic and Studied arcane
-      tactical-value: +4 # Smart fighter and Study helps strategy
-      academic-background: +2 # Academic
-      knowledge-seeker: +2 # Research driven
-      disciplined-value: +4 # Structured learning and Patient study
-      lawful-value: +1 # Ordered approach
-      instinctive-combatant: -2 # Against instinct
-      innate-magic: -2 # Against natural ability
-      chaotic-value: -1 # Against spontaneity
-    "maybe":
-      dual-nature: +1 # Mix of both
-      versatile-magic: +1 # Balanced magic
-      adaptable-fighter: +1 # Flexible approach
-    "no":
-      intuitive-value: +4 # Instinctive magic
-      innate-magic: +6 # Natural ability and Untrained skill
-      fey-touched: +2 # Innate fey power
-      instinctive-combatant: +2 # Natural fighting
-      wild-surges: +1 # Uncontrolled power
-      draconic-heritage: +1 # Inborn draconic
-      chaotic-value: +1 # Spontaneous
+    'yes':
+      scholar: 4
+      arcane-magic: 13
+      academic-background: 2
+      knowledge-seeker: 2
+      lawful-value: 1
+      instinctive-combatant: -2
+      innate-magic: -2
+      chaotic-value: -1
+    maybe:
+      dual-nature: 1
+      versatile-magic: 1
+      adaptable-fighter: 1
+    'no':
+      intuitive-value: 4
+      innate-magic: 6
+      fey-touched: 2
+      instinctive-combatant: 2
+      wild-surges: 1
+      draconic-heritage: 1
+      chaotic-value: 1
     dont-know: {}
 - id: lethal-force
-  text: "Are you comfortable with using lethal force when necessary?"
+  text: Are you comfortable with using lethal force when necessary?
   category: moral-approach
   answers:
-    "yes":
-      death-dealer: +4 # Direct lethal focus
-      necromancy-dabbler: +2 # Comfortable with death
-      professional-killer: +3 # Assassin trait
-      vengeful-soul: +2 # Focused on eliminating foes
-      disciplined-value: +1 # Pragmatic combat
-    "maybe":
-      tactical-value: +1 # Situation dependent
-    "no":
-      healing-magic: +3 # Prefer to save lives
-      necromancy-dabbler: -2 # Uncomfortable with death
-      justice-seeker: +2 # Prefers to spare lives
-      control-magic: +1 # Subdue not kill
-      noble-background: +1 # Moral code
-    dont-know: {}
-# Combat Style - Archery
-- id: archery-preference
-  text: "Do you prefer fighting with a bow and arrow from range?"
-  category: combat-style
-  answers:
-    "yes":
-      archery-specialist: +4 # Direct archery preference
-      ranged-expert: +3 # General ranged combat
-      tactical-value: +1 # Range gives tactical advantage
-      disciplined-value: +1 # Waiting for perfect shot
-    "maybe":
-      ranged-expert: +1 # Some ranged interest
-      dual-nature: +1 # Mix ranged/melee
-      mounted: +1 # Some mounted archery
-    "no":
-      physical: +2 # Melee preference
-      mounted: -2 # Lances not bows
-      weapon-master: +1 # Close combat
-    dont-know: {}
-- id: precision-vs-power
-  text: "Do you value precision and accuracy over raw power?"
-  category: combat-approach
-  answers:
-    "yes":
-      tactical-value: +3 # Precision requires tactics
-      disciplined-value: +4 # Disciplined striking and Wait for right moment
-    "maybe":
-      dual-nature: +1 # Mix of both
-    "no":
-      physical: +3 # Raw strength focus
-      mounted: +2 # Charging power
-    dont-know: {}
-# Combat Style - Shield Defense
-- id: shield-defense
-  text: "Do you want to protect your allies with a shield and defensive tactics?"
-  category: combat-style
-  answers:
-    "yes":
-      shield-specialist: +4 # Direct shield preference
-      defensive-expert: +3 # Defensive focus
-      tactical-value: +2 # Tactical positioning
-      disciplined-value: +1 # Disciplined defense
-    "maybe":
-      tactical-value: +1 # Some tactical thinking
-      dual-nature: +1 # Mix offense/defense
-    "no":
-      ranged-expert: +2 # Stay at range
-      damage-magic: +1 # Offense over defense
-    dont-know: {}
-- id: protect-others
-  text: "Is protecting your teammates your primary concern in combat?"
-  category: playstyle
-  answers:
-    "yes":
-      shield-specialist: +3 # Shield protection
-      defensive-expert: +3 # Defensive role
-      loyal-guardian: +3 # Guardian of allies
-      healing-magic: +2 # Support role
-      tactical-value: +1 # Team tactics
-      disciplined-value: +1 # Reliable defender
-    "maybe":
-      defensive-expert: +1 # Some protection
-      dual-nature: +1 # Balanced approach
-    "no":
-      relentless-hunter: +2 # Solo pursuit focus
-      damage-magic: +2 # Offense focused
-    dont-know: {}
-- id: defensive-stance
-  text: "Do you prefer a defensive, methodical fighting style over aggressive offense?"
-  category: combat-approach
-  answers:
-    "yes":
-      defensive-expert: +4 # Defensive approach
-      shield-specialist: +3 # Shield use
-      disciplined-value: +3 # Patient defense and Methodical
-      tactical-value: +1 # Calculated tactics
-    "maybe":
-      tactical-value: +1 # Balanced approach
-      dual-nature: +1 # Mix styles
-    "no":
-      defensive-expert: -2 # Against defensive fighting
-      reckless-value: +3 # Direct aggressive approach
-      physical: +2 # Aggressive offense
-      chaotic-value: +1 # Wild fighting
-    dont-know: {}
-# Combat Style - Risk-taking and Mobility
-- id: combat-risks
-  text: "Do you enjoy taking risks and performing daring maneuvers in combat?"
-  category: combat-approach
-  answers:
-    "yes":
-      risk-taker: +4 # Direct risk-taking preference
-      cunning-value: +3 # Seizing risky opportunities
-      joyful-spirit: +2 # Thrilling excitement
-      lucky: +2 # Trust in fortune
-      chaotic-value: +2 # Unpredictable actions
-      acrobatic: +1 # Daring maneuvers
-    "maybe":
-      cunning-value: +2 # Moderate risk-taking
-      risk-taker: +1 # Some daring
-    "no":
-      disciplined-value: +4 # Cautious approach and Methodical fighting
-      tactical-value: +2 # Calculated combat
-      joyful-spirit: -2 # Prefers safety
-    dont-know: {}
-- id: mobile-fighting
-  text: "Do you prefer a mobile, agile fighting style over standing your ground?"
-  category: combat-style
-  answers:
-    "yes":
-      mobile-combatant: +4 # Direct mobility preference
-      acrobatic: +3 # Agile movement
-      athletic-prowess: +2 # Physical agility
-      ranged-expert: +1 # Mobile often ranged
-    "maybe":
-      dual-nature: +1 # Mix of styles
-    "no":
-      shield-specialist: +3 # Standing ground with shield
-      defensive-expert: +2 # Defensive positioning
-      physical: +1 # Traditional stance
-    dont-know: {}
-- id: flashy-combat
-  text: "Do you prefer flashy, showy combat techniques over practical efficiency?"
-  category: combat-style
-  answers:
-    "yes":
-      risk-taker: +3 # Flashy = risky
-      acrobatic: +3 # Showy maneuvers
-      mobile-combatant: +2 # Movement for show
-      proud-value: +2 # Pride in style
-      chaotic-value: +1 # Unpredictable flair
-    "maybe":
-      acrobatic: +1 # Some style
-    "no":
-      tactical-value: +3 # Practical tactics
-      disciplined-value: +3 # Efficiency focus and No showboating
-    dont-know: {}
-# Adaptability and Survival
-- id: tactical-flexibility
-  text: "Do you enjoy adapting your fighting style to different situations?"
-  category: combat-approach
-  answers:
-    "yes":
-      adaptable-fighter: +4 # Direct adaptability preference
-      adaptive: +3 # Flexible and resourceful
-      tactical-value: +3 # Tactical adaptation
-      improvised: +2 # Creative adaptation
-      dual-nature: +2 # Versatile approach
-    "maybe":
-      adaptable-fighter: +1 # Some flexibility
-      adaptive: +1 # Some resourcefulness
-      tactical-value: +1 # Some adaptation
-    "no":
-      weapon-specialist: +3 # Stick to one style
-      physical: +2 # Focused approach
-      disciplined-value: +1 # Rigid discipline
+    'yes':
+      death-dealer: 4
+      necromancy-dabbler: 2
+      professional-killer: 3
+      vengeful-soul: 2
+      disciplined-value: 1
+    maybe: {}
+    'no':
+      healing-magic: 3
+      necromancy-dabbler: -2
+      justice-seeker: 2
+      control-magic: 1
+      noble-background: 1
     dont-know: {}
 - id: harsh-environments
-  text: "Are you comfortable operating in harsh or hostile environments?"
+  text: Are you comfortable operating in harsh or hostile environments?
   category: character-capability
   answers:
-    "yes":
-      survival-expert: +4 # Direct survival preference
-      adaptable-fighter: +2 # Environmental adaptation
-      physical: +2 # Physical endurance
-      nature-background: +1 # Wilderness connection
-    "maybe":
-      survival-expert: +1 # Some capability
-    "no":
-      urban-background: +3 # Prefers civilization
-      noble-background: +2 # Prefers comfort
-      academic-background: +1 # Indoor preference
-    dont-know: {}
-# Initiative and Awareness
-- id: first-strike
-  text: "Is being the first to act in combat important to you?"
-  category: combat-approach
-  answers:
-    "yes":
-      initiative-specialist: +4 # Direct initiative preference
-      infiltrator: +2 # Ambush tactics
-      tactical-value: +2 # Strategic timing
-      cunning-value: +1 # Seize the moment
-    "maybe":
-      initiative-specialist: +1 # Some speed value
-      tactical-value: +1 # Moderate planning
-    "no":
-      disciplined-value: +4 # Wait and respond and Measured approach
-      defensive-expert: +2 # React to threats
-    dont-know: {}
-# Strength and Power
-- id: overwhelming-force
-  text: "Do you prefer overwhelming your enemies with raw strength and power?"
-  category: combat-style
-  answers:
-    "yes":
-      strength-specialist: +4 # Direct strength preference
-      unstoppable-force: +4 # Overwhelming approach
-      physical: +3 # Physical dominance
-      heavy-armor: +2 # Tank approach
-      reckless-value: +1 # Charging in
-    "maybe":
-      strength-specialist: +1 # Some strength use
-      physical: +1 # Moderate physicality
-    "no":
-      tactical-value: +3 # Tactical over strength
-      ranged-expert: +2 # Distance over melee
-      stealth-master: +2 # Subtlety over force
-    dont-know: {}
-- id: heavy-armor-preference
-  text: "Do you like the idea of wearing heavy armor and being hard to hurt?"
-  category: combat-style
-  answers:
-    "yes":
-      heavy-armor: +4 # Direct armor preference
-      defensive-expert: +3 # Defensive focus
-      shield-specialist: +2 # Protection focus
-      unstoppable-force: +2 # Armored juggernaut
-      physical: +1 # Strength to wear it
-    "maybe":
-      heavy-armor: +1 # Some interest
-      defensive-expert: +1 # Some defense
-    "no":
-      mobile-combatant: +4 # Mobility over armor
-      acrobatic: +3 # Agility over armor
-      speed-specialist: +2 # Speed preference
-      stealth-master: +1 # Quiet movement
-    dont-know: {}
-# Reckless Combat
-- id: fearless-charge
-  text: "Do you prefer charging headlong into danger without hesitation?"
-  category: combat-approach
-  answers:
-    "yes":
-      reckless-value: +4 # Direct reckless preference
-      unstoppable-force: +3 # Charging power
-      risk-taker: +3 # High risk tolerance
-      chaotic-value: +2 # Unpredictable
-      cunning-value: +1 # Seize openings
-    "maybe":
-      risk-taker: +1 # Some boldness
-      cunning-value: +1 # Moderate aggression
-    "no":
-      tactical-value: +4 # Careful planning
-      disciplined-value: +4 # Wait for opening and Controlled fighting
-      defensive-expert: +2 # Defensive approach
-    dont-know: {}
-# Fire and Inspiration
-- id: fire-wielding
-  text: "Are you drawn to wielding fire as both a weapon and a symbol?"
-  category: combat-style
-  answers:
-    "yes":
-      fire-wielder: +4 # Direct fire preference
-      inspirational-leader: +2 # Fire as beacon
-      protective-value: +2 # Guarding flame
-      elemental-affinity: +2 # Elemental connection
-      charismatic: +1 # Inspiring presence
-    "maybe":
-      fire-wielder: +1 # Some interest
-      elemental-affinity: +1 # Moderate affinity
-    "no":
-      tactical-value: +2 # Practical over symbolic
-      stealth-master: +2 # Fire reveals position
-    dont-know: {}
-- id: inspiring-others
-  text: "Do you want to inspire and motivate your allies in battle?"
-  category: playstyle
-  answers:
-    "yes":
-      inspirational-leader: +4 # Direct inspiration preference
-      charismatic: +4 # Charisma requirement
-      protective-value: +3 # Protect team
-      commanding: +3 # Battlefield command
-      lawful-value: +1 # Leadership structure
-      disciplined-value: +1 # Lead by example
-    "maybe":
-      inspirational-leader: +1 # Some interest
-      charismatic: +1 # Moderate charisma
-    "no":
-      stealth-master: +3 # Work alone
-      disciplined-value: +2 # Quiet approach
-    dont-know: {}
-# Rune Magic
-- id: rune-inscription
-  text: "Are you interested in inscribing magical runes onto your equipment?"
-  category: magic-preference
-  answers:
-    "yes":
-      rune-magic: +4 # Direct rune preference
-      arcane-magic: +3 # Study required
-      ritual-caster: +2 # Ritual preparation
-      utility-magic: +2 # Practical magic
-      academic-background: +1 # Study-based
-    "maybe":
-      rune-magic: +1 # Some interest
-      utility-magic: +1 # Moderate magic
-    "no":
-      physical: +3 # No magic
-    dont-know: {}
-# Divine and Religious Magic
-- id: divine-ritual
-  text: "Are you interested in divine rituals and religious magic?"
-  category: magic-preference
-  answers:
-    "yes":
-      divine-magic: +8 # Divine study preference and Divine spellcasting
-      ritual-caster: +4 # Ritual magic
-      religious-value: +4 # Religious focus
-      healing-magic: +2 # Divine healing
-      holy-power: +2 # Divine strength
-      divine-warrior: +2 # Faith in combat
-      divine-healer: +2 # Divine restoration
-      knowledge-seeker: +2 # Ritual study
-      scholar: +1 # Academic ritual knowledge
-      disciplined-value: +3 # Rituals take time and Ritual discipline
-      otherworldly-knowledge: +1 # Divine mysteries
-      protective-value: +1 # Divine protection
-      lawful-value: +1 # Religious structure
-      instinctive-combatant: -2 # Against spontaneity
-      innate-magic: -1 # Against natural ability
-    "maybe":
-      divine-magic: +1 # Some interest
-      ritual-caster: +1 # Some ritual
-      religious-value: +1 # Moderate faith
-      versatile-magic: +1 # Open to options
-    "no":
-      physical: +2 # No magic
-      arcane-magic: +2 # Arcane over divine
-      chaotic-value: +2 # Against structure
-      instinctive-combatant: +2 # Spontaneous fighting
-      innate-magic: +3 # Natural ability and Inborn vs learned
-    dont-know: {}
-- id: religious-devotion
-  text: "Is religious faith and devotion important to your character?"
-  category: character-motivation
-  answers:
-    "yes":
-      religious-value: +4 # Direct faith preference
-      divine-magic: +5 # Faith-based power and Study divine
-      zealot-faith: +3 # Fervent religious dedication
-      lawful-value: +3 # Religious order
-      death-speaker: +2 # Spiritual connection
-      justice-seeker: +2 # Divine justice
-      disciplined-value: +3 # Faith discipline and Faith requires patience
-      holy-power: +2 # Divine might
-      divine-warrior: +2 # Faith warrior
-      divine-healer: +2 # Faith healer
-      inspirational-leader: +2 # Religious leadership
-      protective-value: +2 # Protect the faithful
-      academic-background: +1 # Religious education
-      honorable: +1 # Moral code
-      chaotic-value: -2 # Against disorder
-      cunning-value: -1 # Against selfishness
-    "maybe":
-      religious-value: +1 # Some faith
-      lawful-value: +1 # Moderate order
-      protective-value: +1 # Some dedication
-    "no":
-      chaotic-value: +3 # Freedom over dogma
-      freedom-fighter: +2 # Rebels against authority
-      arcane-magic: +2 # Secular magic
-      wanderer-spirit: +2 # Free spirit
-      criminal-background: +2 # Against authority
-      cunning-value: +3 # Self-interest and Pragmatic vs faithful
-      innate-magic: +1 # Natural vs faithful
-    dont-know: {}
-# Pragmatic and Dirty Fighting
-- id: pragmatic-combat
-  text: "Do you believe in winning fights by any means necessary?"
-  category: combat-approach
-  answers:
-    "yes":
-      pragmatic-fighter: +4 # Direct pragmatism
-      dirty-tactics: +4 # Underhanded methods
-      cunning-value: +3 # Seize advantage
-      vengeful-soul: +2 # Driven by vengeance
-      criminal-background: +1 # Illegal methods
-    "maybe":
-      pragmatic-fighter: +1 # Some flexibility
-      cunning-value: +1 # Moderate tactics
-    "no":
-      lawful-value: +4 # Honor in combat
-      disciplined-value: +3 # Fair fighting
-      noble-background: +2 # Honorable tradition
-    dont-know: {}
-- id: dirty-tricks
-  text: "Are you comfortable using dirty tricks like throwing sand in eyes?"
-  category: combat-style
-  answers:
-    "yes":
-      dirty-tactics: +4 # Direct dirty fighting
-      trickster-magic: +3 # Underhanded magical tricks
-      pragmatic-fighter: +3 # Practical approach
-      criminal-background: +2 # Underhanded methods
-      cunning-value: +2 # Take advantage
-    "maybe":
-      dirty-tactics: +1 # Some tricks
-      cunning-value: +1 # Moderate tactics
-    "no":
-      lawful-value: +3 # Honor code
-      disciplined-value: +3 # Fair combat
-      justice-seeker: +3 # Fights with honor
-      physical: +2 # Warrior honor
-    dont-know: {}
-# Speed and Evasion
-- id: agility-fighting
-  text: "Do you prefer agility and finesse over raw strength in combat?"
-  category: combat-style
-  answers:
-    "yes":
-      agile-warrior: +4 # Direct agility preference
-      speed-specialist: +3 # Speed-based
-      evasive: +3 # Dodge-based
-      mobile-combatant: +2 # Movement combat
-      acrobatic: +2 # Acrobatic style
-    "maybe":
-      agile-warrior: +1 # Some agility
-      dual-nature: +1 # Mix of styles
-    "no":
-      strength-specialist: +4 # Strength focus
-      physical: +3 # Power over finesse
-      heavy-armor: +2 # Tank style
-    dont-know: {}
-# Improvised Weapons and Throwing
-- id: improvised-weapons
-  text: "Do you enjoy using improvised weapons like chairs and bottles?"
-  category: combat-style
-  answers:
-    "yes":
-      improvised-specialist: +4 # Direct improvised preference
-      improvised: +3 # Adaptable weapon use
-      pragmatic-fighter: +3 # Use what's available
-      adaptable-fighter: +2 # Adapt to situation
-      throwing-expert: +1 # Some throwing
-    "maybe":
-      improvised-specialist: +1 # Some interest
-      adaptable-fighter: +1 # Some flexibility
-    "no":
-      weapon-specialist: +4 # Master specific weapons
-      disciplined-value: +2 # Traditional weapons
-      noble-background: +1 # Proper weapons
-    dont-know: {}
-- id: throwing-weapons
-  text: "Do you like throwing weapons or objects at your enemies?"
-  category: combat-style
-  answers:
-    "yes":
-      throwing-expert: +4 # Direct throwing preference
-      ranged-expert: +3 # Ranged combat
-      improvised-specialist: +2 # Throw anything
-      sling-specialist: +2 # Including slings
-      pragmatic-fighter: +1 # Practical ranged
-      tactical-value: +2 # Strategic positioning
-      cunning-value: +3 # Clever throwing and Take advantage
-      physical: +1 # Martial focus
-      magic-hunter: +1 # Disrupt casters at range
-    "maybe":
-      throwing-expert: +1 # Some interest
-      ranged-expert: +1 # Moderate ranged
-    "no":
-      physical: +3 # Melee focus
-      shield-specialist: +2 # Close combat
-      reckless-value: +1 # In their face
-    dont-know: {}
-- id: sling-expertise
-  text: "Are you interested in mastering the sling as a precision weapon?"
-  category: combat-style
-  answers:
-    "yes":
-      sling-specialist: +4 # Direct sling preference
-      sniper: +3 # Precision shooting
-      throwing-expert: +3 # Throwing mastery
-      ranged-expert: +2 # Ranged focus
-      tactical-value: +1 # Calculated shots
-    "maybe":
-      sling-specialist: +1 # Some interest
-      ranged-expert: +1 # Moderate ranged
-    "no":
-      archery-specialist: +2 # Prefer bows
-      crossbow-specialist: +2 # Prefer crossbows
-      physical: +2 # Melee preference
-    dont-know: {}
-- id: precision-sniping
-  text: "Do you prefer taking precise, long-range shots at critical targets?"
-  category: combat-style
-  answers:
-    "yes":
-      sniper: +4 # Direct sniper preference
-      ranged-expert: +4 # Ranged mastery
-      sling-specialist: +2 # Sling sniping
-      archery-specialist: +2 # Bow sniping
-      crossbow-specialist: +2 # Crossbow sniping
-      tactical-value: +2 # Target selection
-      disciplined-value: +2 # Wait for shot
-    "maybe":
-      sniper: +1 # Some interest
-      ranged-expert: +1 # Moderate ranged
-    "no":
-      physical: +4 # Melee preference
-      mobile-combatant: +2 # Close quarters
-      reckless-value: +2 # Aggressive melee
-    dont-know: {}
-# Underdog Fighter
-- id: fighting-outnumbered
-  text: "Do you thrive when fighting against overwhelming odds?"
-  category: combat-approach
-  answers:
-    "yes":
-      underdog-fighter: +4 # Direct underdog preference
-      gritty-value: +4 # Tough mindset
-      survival-expert: +2 # Survive adversity
-      improvised-specialist: +2 # Use anything
-      risk-taker: +1 # Take the challenge
-    "maybe":
-      underdog-fighter: +1 # Some interest
-      gritty-value: +1 # Moderate toughness
-    "no":
-      tactical-value: +3 # Avoid bad odds
-      disciplined-value: +2 # Wait for advantage
-    dont-know: {}
-# Celestial and Holy Power
-- id: celestial-heritage
-  text: "Are you interested in having celestial or angelic ancestry?"
-  category: character-origin
-  answers:
-    "yes":
-      celestial-heritage: +4 # Direct celestial preference
-      divine-warrior: +4 # Divine fighting
-      holy-power: +4 # Holy abilities
-      innate-magic: +2 # Supernatural blood
-      lawful-value: +2 # Celestial order
-      healing-magic: +1 # Divine healing
-    "maybe":
-      celestial-heritage: +1 # Some interest
-      innate-magic: +1 # Supernatural interest
-    "no":
-      criminal-background: +2 # Unholy background
-      chaotic-value: +2 # Against order
-    dont-know: {}
-- id: aquatic-heritage
-  text: "Are you interested in having oceanic or aquatic ancestry?"
-  category: character-origin
-  answers:
-    "yes":
-      aquatic-heritage: +4 # Direct aquatic preference
-      seafaring: +3 # Maritime connection
-      elemental-affinity: +3 # Water elemental
-      storm-caller: +2 # Ocean storms
-      survival-expert: +2 # Aquatic survival
-      innate-magic: +1 # Supernatural blood
-    "maybe":
-      aquatic-heritage: +1 # Some interest
-      seafaring: +1 # Some connection
-      elemental-affinity: +1 # Mild water affinity
-    "no":
-      nature-background: -1 # Against water nature
-    dont-know: {}
-- id: divine-warrior
-  text: "Do you want to be a divinely empowered warrior?"
-  category: character-concept
-  answers:
-    "yes":
-      divine-warrior: +4 # Direct divine warrior
-      holy-power: +4 # Holy abilities
-      celestial-heritage: +2 # Divine connection
-      religious-value: +3 # Faith-based
-      lawful-value: +2 # Divine order
-      protective-value: +2 # Protect the faithful
-    "maybe":
-      divine-warrior: +1 # Some interest
-      religious-value: +1 # Moderate faith
-    "no":
-      physical: +3 # Mundane fighter
-    dont-know: {}
-- id: holy-power
-  text: "Are you interested in wielding holy power against evil?"
-  category: magic-preference
-  answers:
-    "yes":
-      holy-power: +4 # Direct holy power
-      divine-warrior: +3 # Divine combat
-      demon-hunter: +3 # Hunting evil creatures
-      celestial-heritage: +2 # Holy heritage
-      religious-value: +3 # Faith requirement
-      lawful-value: +3 # Against evil
-      healing-magic: +1 # Holy healing
-    "maybe":
-      holy-power: +1 # Some interest
-      religious-value: +1 # Moderate faith
-    "no":
-      chaotic-value: +3 # No absolutes
-      pragmatic-fighter: +2 # Practical over holy
-    dont-know: {}
-# Alchemical Specializations
-- id: explosives-preference
-  text: "Would you enjoy using bombs and explosives in combat?"
-  category: combat-specialization
-  answers:
-    "yes":
-      explosives-expert: +4 # Direct explosives focus
-      damage-magic: +3 # Offensive approach
-      reckless-value: +2 # Willing to take risks
-      throwing-expert: +2 # Throwing bombs
-      innovation-specialist: +1 # Creative destruction
-    "maybe":
-      explosives-expert: +1 # Some interest
-      damage-magic: +1 # Some offense
-      versatile-magic: +1 # Multiple approaches
-    "no":
-      explosives-expert: -2 # Against explosives
-      disciplined-value: +2 # Prefer careful methods
-      stealth-master: +1 # Quiet over loud
-    dont-know: {}
-- id: area-effect-preference
-  text: "Do you prefer attacking multiple enemies at once over focusing on single targets?"
-  category: tactical-approach
-  answers:
-    "yes":
-      explosives-expert: +3 # Bombs hit areas
-      damage-magic: +2 # Area spells
-      tactical-value: +2 # Strategic positioning
-      control-magic: +1 # Area control
-    "maybe":
-      versatile-magic: +2 # Situational choice
-      adaptable-fighter: +1 # Flexible tactics
-    "no":
-      death-dealer: +2 # Single target elimination
-      archery-specialist: +1 # Precision shots
-      sniper: +1 # Focus fire
-    dont-know: {}
-- id: dangerous-substances
-  text: "Are you comfortable working with dangerous alchemical substances?"
-  category: technical-interest
-  answers:
-    "yes":
-      explosives-expert: +4 # Explosives are dangerous
-      poison-expert: +4 # Poisons are dangerous
-      potion-brewer: +2 # All alchemy involves risk
-      innovation-specialist: +2 # Experimental approach
-      reckless-value: +1 # Risk tolerance
-    "maybe":
-      craftsman-background: +1 # Some crafting
-      academic-background: +1 # Studied approach
-    "no":
-      physical: +2 # Prefer martial methods
-      explosives-expert: -2 # Against explosives
-      poison-expert: -2 # Against poisons
+    'yes':
+      survival-expert: 4
+      nature-background: 2
+      adaptable-fighter: 2
+      physical: 2
+    maybe:
+      survival-expert: 1
+      nature-background: 1
+    'no':
+      urban-background: 3
+      noble-background: 2
+      academic-background: 1
     dont-know: {}
 - id: poison-tactics
-  text: "Do you like the idea of using poison or toxins to defeat enemies?"
+  text: Do you like the idea of using poison or toxins to defeat enemies?
   category: combat-specialization
   answers:
-    "yes":
-      poison-expert: +4 # Direct poison focus
-      death-dealer: +3 # Lethal methods
-      stealth-master: +2 # Subtle application
-      disciplined-value: +2 # Poisons take time
-      cunning-value: +2 # Clever tactics
-    "maybe":
-      poison-expert: +1 # Some interest
-      tactical-value: +1 # Situational use
-    "no":
-      poison-expert: -3 # Against poison
-      lawful-value: +2 # Dishonorable method
-      physical: +1 # Direct combat
+    'yes':
+      poison-expert: 4
+      death-dealer: 3
+      criminal-background: 2
+      stealth-master: 2
+      disciplined-value: 2
+      cunning-value: 2
+    maybe:
+      poison-expert: 1
+      tactical-value: 1
+      criminal-background: 1
+    'no':
+      poison-expert: -3
+      lawful-value: 2
+      physical: 1
     dont-know: {}
-- id: subtle-methods
-  text: "Do you prefer subtle, patient methods over direct confrontation?"
-  category: tactical-approach
-  answers:
-    "yes":
-      poison-expert: +3 # Poison is subtle
-      stealth-master: +3 # Subtle approach
-      disciplined-value: +3 # Patient tactics
-      cunning-value: +2 # Clever over strong
-      tactical-value: +1 # Strategic thinking
-    "maybe":
-      adaptable-fighter: +2 # Situational
-      tactical-value: +1 # Some planning
-    "no":
-      reckless-value: +3 # Direct action
-      explosives-expert: +2 # Loud methods
-      strength-specialist: +1 # Brute force
-    dont-know: {}
-- id: transformation-magic
-  text: "Are you interested in magic that changes or transforms things?"
-  category: magic-style
-  answers:
-    "yes":
-      transmutation-magic: +4 # Direct transmutation
-      shape-mastery: +4 # Physical transformation mastery
-      versatile-magic: +3 # Transformation is versatile
-      innovation-specialist: +2 # Creative magic
-      adaptable-fighter: +1 # Changing approach
-    "maybe":
-      transmutation-magic: +1 # Some interest
-      versatile-magic: +2 # Moderate breadth
-      utility-magic: +1 # Practical magic
-    "no":
-      transmutation-magic: -2 # Against transmutation
-      physical: +2 # Avoid magic
-      innate-magic: +1 # Fixed abilities
-    dont-know: {}
-- id: versatile-effects
-  text: "Do you value having many different magical effects at your disposal?"
-  category: versatility-preference
-  answers:
-    "yes":
-      transmutation-magic: +3 # Transmutation is versatile
-      versatile-magic: +4 # Direct versatility
-      utility-magic: +3 # Many utilities
-      adaptable-fighter: +2 # Flexible tactics
-      innovation-specialist: +1 # Creative solutions
-    "maybe":
-      versatile-magic: +2 # Some breadth
-      utility-magic: +1 # Practical variety
-    "no":
-      weapon-specialist: +3 # Focus over breadth
-      physical: +2 # Master one thing
-      disciplined-value: +1 # Consistent approach
-    dont-know: {}
-
-# Cursed-specific trait questions
-- id: abnormal-entities
-  text: "Are you drawn to mysterious entities from beyond normal reality?"
-  category: power-source
-  answers:
-    "yes":
-      aberrant-influence: +4 # Direct aberrant connection
-      mind-alteration: +3 # Mental influence
-      chaotic-value: +2 # Unknowable chaos
-      tactical-value: +1 # Studying the unknown
-    "maybe":
-      aberrant-influence: +2 # Some interest in the strange
-      tactical-value: +2 # Curious about mysteries
-    "no":
-      aberrant-influence: -2 # Against abnormal entities
-      lawful-value: +2 # Order over chaos
-      physical: +1 # Mundane power
-    dont-know: {}
-
-- id: fiendish-power
-  text: "Would you make a deal with a demon or devil for power?"
-  category: power-source
-  answers:
-    "yes":
-      demonic-corruption: +4 # Direct fiendish connection
-      reckless-value: +3 # Dangerous choice
-      cunning-value: +2 # Any advantage
-      damage-magic: +1 # Destructive power
-    "maybe":
-      demonic-corruption: +2 # Considering fiendish power
-      cunning-value: +3 # Pragmatic approach
-    "no":
-      demonic-corruption: -3 # Against fiendish power
-      holy-power: +2 # Opposing force
-      lawful-value: +2 # Moral standards
-    dont-know: {}
-
-- id: chaos-conduit
-  text: "Do you feel comfortable being a conduit for unpredictable forces?"
-  category: power-source
-  answers:
-    "yes":
-      entropy-conduit: +4 # Direct entropy channel
-      wild-surges: +3 # Chaos magic
-      unpredictable-power: +3 # Random effects
-      chaotic-value: +2 # Chaos alignment
-    "maybe":
-      entropy-conduit: +2 # Some chaos tolerance
-      adaptable-fighter: +2 # Adapting to chaos
-    "no":
-      entropy-conduit: -2 # Against chaos forces
-      disciplined-value: +3 # Order and control
-      tactical-value: +2 # Predictable strategy
-    dont-know: {}
-
-- id: transformation-power
-  text: "Do you want to change your physical form or shape?"
-  category: special-ability
-  answers:
-    "yes":
-      shapeshifter: +4
-      shape-mastery: +4
-      dual-nature: +3
-      instinctive-combatant: +2
-      beast-friend: +2
-      adaptable-fighter: +3
-      versatile-magic: +2
-      nature-magic: +2
-      weapon-specialist: -2
-      heavy-armor: -2
-    "maybe":
-      adaptable-fighter: +2
-      versatile-magic: +2
-      dual-nature: +1
-    "no":
-      shapeshifter: -3
-      weapon-specialist: +2
-      heavy-armor: +2
-      disciplined-value: +2
-      tactical-value: +1
-    dont-know: {}
-- id: symbiotic-relationship
-  text: "Would you accept a parasitic relationship that grants you power?"
-  category: power-source
-  answers:
-    "yes":
-      ooze-symbiosis: +4 # Direct ooze symbiosis
-      adaptable-fighter: +3 # Flexible forms
-      dual-nature: +3 # Two beings as one
-      disciplined-value: +2 # Long-term partnership
-    "maybe":
-      ooze-symbiosis: +2 # Considering symbiosis
-      pragmatic-fighter: +2 # Practical power
-    "no":
-      ooze-symbiosis: -3 # Against parasitic power
-      physical: +2 # Self-reliant strength
-      proud-value: +2 # Independence
-    dont-know: {}
-
-- id: shadow-possession
-  text: "Are you willing to share your body with a ghostly entity?"
-  category: power-source
-  answers:
-    "yes":
-      shadow-binding: +4 # Direct shadow connection
-      stealth-master: +3 # Shadow abilities
-      death-dealer: +3 # Ghostly powers
-      intuitive-value: +2 # Following whispers
-    "maybe":
-      shadow-binding: +2 # Some shadow interest
-      stealth-master: +2 # Shadow skills
-    "no":
-      shadow-binding: -3 # Against shadow entities
-      holy-power: +2 # Opposing light
-      disciplined-value: +2 # Self-control
-    dont-know: {}
-
-# Druid-specific trait questions
 - id: wilderness-guardian
-  text: "Do you feel a calling to protect and preserve the natural world?"
+  text: Do you feel a calling to protect and preserve the natural world?
   category: character-motivation
   answers:
-    "yes":
-      nature-guardian: +4 # Direct nature protection
-      protective-value: +3 # Protecting others
-      survival-expert: +2 # Understanding nature
-      nurturing-soul: +2 # Caring nature
-    "maybe":
-      nature-guardian: +2 # Some protective instinct
-      protective-value: +2 # Moderate care
-    "no":
-      nature-guardian: -2 # Against nature protection
-      pragmatic-fighter: +2 # Focus on self
-      cunning-value: +1 # Personal gain
-    dont-know: {}
-
-- id: ancient-lore
-  text: "Are you drawn to ancient wisdom and forgotten rituals?"
-  category: character-interests
-  answers:
-    "yes":
-      ancient-knowledge: +4 # Direct ancient wisdom
-      ritual-caster: +3 # Ritual magic
-      scholar: +2 # Study and combat
-      disciplined-value: +3 # Long-term learning and Patient study
-      knowledge-seeker: +2 # Research focus
-      otherworldly-knowledge: +2 # Mysterious knowledge
-      arcane-magic: +2 # Ancient arcane
-      divine-magic: +1 # Ancient divine
-      religious-value: +1 # Ancient faiths
-      academic-background: +1 # Academic study
-      lawful-value: +1 # Preserving tradition
-      chaotic-value: -1 # Against structured past
-    "maybe":
-      ancient-knowledge: +2 # Some interest in old ways
-      scholar: +1 # Moderate study
-      versatile-magic: +1 # Open to all knowledge
-    "no":
-      ancient-knowledge: -2 # Against old ways
-      modern-value: +2 # Current methods
-      innovation-specialist: +1 # New solutions
-      chaotic-value: +2 # Break from tradition
-      cunning-value: +1 # Pragmatic over academic
+    'yes':
+      nature-guardian: 4
+      protective-value: 3
+      survival-expert: 2
+      nurturing-soul: 2
+    maybe:
+      nature-guardian: 2
+      protective-value: 2
+    'no':
+      nature-guardian: -2
+      pragmatic-fighter: 2
+      cunning-value: 1
     dont-know: {}
 - id: forbidden-knowledge
-  text: "Are you drawn to mysterious, otherworldly, or forbidden knowledge?"
+  text: Are you drawn to mysterious, otherworldly, or forbidden knowledge?
   category: knowledge-type
   answers:
-    "yes":
-      otherworldly-knowledge: +4
-      knowledge-seeker: +3
-      scholar: +2
-      ancient-knowledge: +3
-      ancient-lore: +2
-      aberrant-influence: +2
-      demonic-corruption: +1
-      shadow-magic: +2
-      arcane-magic: +2
-      tactical-value: +2
+    'yes':
+      otherworldly-knowledge: 4
+      knowledge-seeker: 3
+      scholar: 2
+      ancient-knowledge: 3
+      ancient-lore: 2
+      aberrant-influence: 2
+      demonic-corruption: 1
+      shadow-magic: 2
+      arcane-magic: 5
+      tactical-value: 2
       intuitive-value: -2
       instinctive-combatant: -2
       innate-magic: -1
-    "maybe":
-      knowledge-seeker: +2
-      scholar: +1
-      arcane-magic: +1
-      versatile-magic: +1
-    "no":
+    maybe:
+      knowledge-seeker: 2
+      scholar: 1
+      arcane-magic: 1
+      versatile-magic: 1
+    'no':
       otherworldly-knowledge: -2
-      intuitive-value: +3
-      instinctive-combatant: +2
-      innate-magic: +2
-      physical: +2
+      intuitive-value: 3
+      instinctive-combatant: 2
+      innate-magic: 2
+      physical: 2
     dont-know: {}
-- id: plant-communion
-  text: "Do you have a special affinity for plants and their natural cycles?"
-  category: character-connection
-  answers:
-    "yes":
-      plant-mastery: +4 # Direct plant connection
-      healing-magic: +3 # Plant healing
-      nature-guardian: +2 # Nature protection
-      nurturing-soul: +2 # Growth and care
-    "maybe":
-      plant-mastery: +2 # Some plant affinity
-      healing-magic: +2 # Natural healing
-    "no":
-      plant-mastery: -2 # Against plant focus
-      damage-magic: +2 # Destructive magic
-      pragmatic-fighter: +1 # Practical approach
-    dont-know: {}
-
-- id: terrain-attunement
-  text: "Do you feel most powerful when connected to a specific type of landscape?"
-  category: power-source
-  answers:
-    "yes":
-      terrain-bond: +4 # Land connection
-      survival-expert: +3 # Environmental mastery
-      tactical-value: +2 # Using terrain
-      disciplined-value: +2 # Long connection
-    "maybe":
-      terrain-bond: +2 # Some land bond
-      survival-expert: +2 # Environmental skills
-    "no":
-      terrain-bond: -2 # Against land bonds
-      versatile-magic: +2 # Adaptable power
-      mobile-combatant: +1 # Movement over position
-    dont-know: {}
-
-- id: animal-kinship
-  text: "Do you feel a deep connection and responsibility toward wild animals?"
-  category: character-connection
-  answers:
-    "yes":
-      beast-friend: +4 # Direct animal bond
-      protective-value: +3 # Protecting creatures
-      survival-expert: +2 # Understanding animals
-      nurturing-soul: +2 # Caring for life
-    "maybe":
-      beast-friend: +2 # Some animal affinity
-      protective-value: +2 # Moderate care
-    "no":
-      beast-friend: -2 # Against animal bonds
-      professional-killer: +2 # Hunting animals
-      pragmatic-fighter: +1 # Using animals as tools
-    dont-know: {}
-
-- id: decay-renewal
-  text: "Do you see beauty and purpose in decay, death, and renewal cycles?"
-  category: philosophy
-  answers:
-    "yes":
-      decay-mastery: +4 # Understanding decay
-      death-speaker: +3 # Speaks with/for the dead
-      necromancy-dabbler: +3 # Death magic
-      disciplined-value: +3 # Long-term cycles
-      pragmatic-fighter: +2 # Practical view of death
-    "maybe":
-      decay-mastery: +2 # Some acceptance of decay
-      disciplined-value: +2 # Understanding cycles
-    "no":
-      decay-mastery: -2 # Against decay focus
-      death-speaker: -2 # Uncomfortable with death
-      healing-magic: +3 # Life over death
-      holy-power: +2 # Sacred life
-    dont-know: {}
-
-- id: storm-calling
-  text: "Are you drawn to the raw power of storms and natural disasters?"
-  category: power-preference
-  answers:
-    "yes":
-      storm-caller: +4 # Weather magic mastery
-      damage-magic: +3 # Destructive power
-      chaotic-value: +2 # Storm unpredictability
-      innate-magic: +2 # Primal forces
-    "maybe":
-      storm-caller: +2 # Some weather interest
-      damage-magic: +2 # Moderate destruction
-    "no":
-      storm-caller: -2 # Against storm magic
-      healing-magic: +2 # Constructive magic
-      disciplined-value: +2 # Control over chaos
-    dont-know: {}
-
-- id: group-tactics
-  text: "Do you prefer fighting alongside allies using coordinated tactics?"
-  category: combat-preference
-  answers:
-    "yes":
-      swarm-tactics: +4 # Group coordination
-      tactical-value: +3 # Strategic thinking
-      inspirational-leader: +2 # Leading groups
-      protective-value: +2 # Protecting allies
-    "maybe":
-      swarm-tactics: +2 # Some group work
-      tactical-value: +2 # Moderate planning
-    "no":
-      swarm-tactics: -2 # Against group tactics
-      stealth-master: +2 # Solo approach
-      cunning-value: +1 # Individual advantage
-    dont-know: {}
-
 - id: ancestral-wisdom
-  text: "Do you feel connected to the memories and wisdom of your ancestors?"
+  text: Do you feel connected to the memories and wisdom of your ancestors?
   category: character-heritage
   answers:
-    "yes":
-      ancestral-memory: +4 # Direct ancestral connection
-      ancient-knowledge: +3 # Old wisdom
-      proud-value: +2 # Heritage pride
-      disciplined-value: +3 # Long-term perspective and Traditional discipline
-      tribal-background: +2 # Ancestral culture
-      lawful-value: +2 # Respecting tradition
-      religious-value: +2 # Spiritual connection
-      scholar: +1 # Preserving wisdom
-      nature-guardian: +1 # Ancestral lands
-      honorable: +1 # Ancestral code
-      innovation-specialist: -1 # Against new ways
-    "maybe":
-      ancestral-memory: +2 # Some ancestral interest
-      ancient-knowledge: +2 # Moderate old knowledge
-      cunning-value: +1 # Practical wisdom
-    "no":
-      ancestral-memory: -2 # Against ancestral focus
-      modern-value: +3 # Current over past
-      innovation-specialist: +1 # New approaches
-      chaotic-value: +2 # Against tradition
-      freedom-fighter: +1 # Break from past
-      cunning-value: +1 # Self-focused
+    'yes':
+      ancestral-memory: 4
+      ancient-knowledge: 3
+      proud-value: 2
+      disciplined-value: 3
+      tribal-background: 2
+      lawful-value: 2
+      religious-value: 2
+      scholar: 1
+      nature-guardian: 1
+      honorable: 1
+      innovation-specialist: -1
+    maybe:
+      ancestral-memory: 2
+      ancient-knowledge: 2
+      cunning-value: 1
+    'no':
+      ancestral-memory: -2
+      modern-value: 3
+      innovation-specialist: 1
+      chaotic-value: 2
+      freedom-fighter: 1
+      cunning-value: 1
     dont-know: {}
-
 - id: primal-instincts
-  text: "Do you trust your instincts over careful planning in dangerous situations?"
+  text: Do you trust your instincts over careful planning in dangerous situations?
   category: decision-making
   answers:
-    "yes":
-      instinctive-combatant: +4 # Instinct-based fighting
-      wild-spirit: +3 # Primal nature
-      intuitive-value: +3 # Gut decisions
-      chaotic-value: +2 # Anti-planning
-    "maybe":
-      instinctive-combatant: +2 # Some instinct use
-      intuitive-value: +2 # Moderate gut feeling
-    "no":
-      instinctive-combatant: -2 # Against instinct
-      tactical-value: +5 # Planning over instinct and Thought over feeling
+    'yes':
+      instinctive-combatant: 4
+      wild-spirit: 3
+      intuitive-value: 3
+      chaotic-value: 2
+    maybe:
+      instinctive-combatant: 2
+      intuitive-value: 2
+    'no':
+      instinctive-combatant: -2
+      tactical-value: 5
     dont-know: {}
-
-# Feyblood-specific trait questions
-- id: fey-combatant
-  text: "Do you prefer fighting with supernatural weapon techniques over pure martial skill?"
-  category: combat-preference
-  answers:
-    "yes":
-      fey-warrior: +4 # Supernatural weapon mastery
-      weapon-master: +3 # Advanced weapon techniques
-      innate-magic: +2 # Inherited abilities
-      versatile-magic: +2 # Magic-enhanced combat
-    "maybe":
-      fey-warrior: +2 # Some supernatural technique
-      weapon-master: +2 # Moderate weapon skills
-    "no":
-      fey-warrior: -2 # Against supernatural combat
-      physical: +3 # Traditional martial arts
-      disciplined-value: +2 # Training over magic
-    dont-know: {}
-
-- id: chaotic-magic
-  text: "Are you drawn to unpredictable, chaotic forms of magic?"
-  category: magic-preference
-  answers:
-    "yes":
-      chaos-magic: +4 # Direct chaotic magic
-      wild-surges: +4 # Unpredictable effects
-      chaotic-value: +3 # Chaos philosophy
-      unpredictable-power: +3 # Random abilities
-    "maybe":
-      chaos-magic: +2 # Some chaos interest
-      versatile-magic: +2 # Varied magic
-    "no":
-      chaos-magic: -2 # Against chaotic magic
-      disciplined-value: +3 # Ordered approach
-      tactical-value: +2 # Predictable strategy
-    dont-know: {}
-
 - id: natural-beauty
-  text: "Do you believe your appearance and charm are your greatest assets?"
+  text: Do you believe your appearance and charm are your greatest assets?
   category: character-identity
   answers:
-    "yes":
-      fey-beauty: +4 # Supernatural attractiveness
-      social-manipulator: +3 # Using charm
-      charm-magic: +3 # Enchanting presence
-      noble-heritage: +2 # High social status
-      proud-value: +2 # Pride in appearance
-      artistic-excellence: +2 # Aesthetic appreciation
-    "maybe":
-      fey-beauty: +2 # Some natural charm
-      social-manipulator: +2 # Moderate social skills
-    "no":
-      fey-beauty: -2 # Against beauty focus
-      commanding: -2 # Authority over charm
-      tactical-value: +2 # Mind over looks
-      physical: +2 # Strength over charm
-    dont-know: {}
-
-- id: pleasure-seeking
-  text: "Do you prioritize personal pleasure and enjoyment over duty or discipline?"
-  category: character-values
-  answers:
-    "yes":
-      hedonistic-soul: +4 # Direct hedonistic nature
-      joyful-spirit: +3 # Positive, fun-loving
-      chaotic-value: +3 # Freedom-seeking
-      cunning-value: +2 # Self-serving
-      reckless-value: +2 # Risk for pleasure
-    "maybe":
-      hedonistic-soul: +2 # Moderate pleasure-seeking
-      joyful-spirit: +1 # Some positivity
-      modern-value: +2 # Balanced lifestyle
-    "no":
-      hedonistic-soul: -2 # Against hedonism
-      disciplined-value: +3 # Duty over pleasure
-      lawful-value: +3 # Order and responsibility
-    dont-know: {}
-# Inquisitor-Specific Questions
-- id: hunt-dangerous-creatures
-  text: "Are you interested in hunting down dangerous magical creatures?"
-  category: combat-specialization
-  answers:
-    "yes":
-      demon-hunter: +4 # Direct demon hunting
-      monster-hunter: +3 # General monster hunting
-      relentless-hunter: +3 # Never gives up pursuit
-      magic-hunter: +2 # Magic creature focus
-      survival-expert: +2 # Tracking skills needed
-      tactical-value: +2 # Strategic hunting
-      divine-warrior: +1 # Divine purpose
-    "maybe":
-      demon-hunter: +1 # Some interest
-      monster-hunter: +1 # Moderate hunting
-    "no":
-      academic-background: +2 # Prefer study
-      social-manipulator: +1 # Prefer talking
+    'yes':
+      fey-beauty: 4
+      social-manipulator: 3
+      charm-magic: 3
+      artistic-excellence: 2
+      noble-heritage: 2
+      proud-value: 2
+    maybe:
+      fey-beauty: 2
+      social-manipulator: 2
+      artistic-excellence: 1
+    'no':
+      fey-beauty: -2
+      commanding: -2
+      tactical-value: 2
     dont-know: {}
 - id: undercover-faith-work
-  text: "Would you work undercover for a religious organization?"
+  text: Would you work undercover for a religious organization?
   category: character-role
   answers:
-    "yes":
-      faith-infiltrator: +4 # Direct undercover faith work
-      stealth-master: +3 # Infiltration skills
-      cunning-value: +3 # Clever deception
-      religious-value: +3 # Faith-based mission
-      disciplined-value: +2 # Mission discipline
-      social-manipulator: +1 # Deception skills
-    "maybe":
-      faith-infiltrator: +1 # Some interest
-      stealth-master: +1 # Some infiltration
-    "no":
-      noble-background: +2 # Direct/honorable approach
-      physical: +2 # Straightforward combat
+    'yes':
+      faith-infiltrator: 4
+      divine-magic: 4
+      stealth-master: 3
+      cunning-value: 3
+      religious-value: 3
+      disciplined-value: 2
+      social-manipulator: 1
+    maybe:
+      faith-infiltrator: 1
+      stealth-master: 1
+    'no':
+      noble-background: 2
+      physical: 2
     dont-know: {}
 - id: divine-investigation
-  text: "Do you want to investigate threats to your faith or divine order?"
+  text: Do you want to investigate threats to your faith or divine order?
   category: character-motivation
   answers:
-    "yes":
-      zealot-faith: +4 # Fervent faith protection
-      spell-disruptor: +3 # Counter magical threats
-      religious-value: +4 # Strong faith motivation
-      tactical-value: +3 # Investigation requires strategy
-      disciplined-value: +2 # Mission discipline
-      lawful-value: +2 # Divine order
-    "maybe":
-      religious-value: +1 # Some faith interest
-      zealot-faith: +1 # Moderate devotion
-    "no":
-      chaotic-value: +3 # Against rigid structure
-      criminal-background: +1 # Against authority
-    dont-know: {}
-# Paladin-Specific Questions
-- id: fearless-in-combat
-  text: "Do you want to be fearless in the face of danger?"
-  category: character-motivation
-  answers:
-    "yes":
-      fearless-heart: +4 # Direct fearless preference
-      divine-warrior: +3 # Divine courage
-      inspirational-leader: +2 # Inspire others through courage
-      lawful-value: +2 # Righteous bravery
-      protective-value: +1 # Fearless protection
-    "maybe":
-      fearless-heart: +1 # Some courage
-      divine-warrior: +1 # Some divine strength
-    "no":
-      tactical-value: +3 # Prefer caution and planning
-      academic-background: +2 # Thoughtful over rash
+    'yes':
+      zealot-faith: 4
+      divine-magic: 4
+      spell-disruptor: 3
+      religious-value: 6
+      tactical-value: 3
+      lawful-value: 2
+      arcane-magic: 1
+    maybe:
+      religious-value: 1
+      zealot-faith: 1
+    'no':
+      chaotic-value: 3
+      criminal-background: 1
     dont-know: {}
 - id: compassion-for-suffering
-  text: "Do you feel compelled to help those who suffer?"
+  text: Do you feel compelled to help those who suffer?
   category: character-motivation
   answers:
-    "yes":
-      compassionate-heart: +4 # Direct compassion
-      healing-magic: +3 # Healing the suffering
-      nurturing-soul: +3 # Care for others
-      protective-value: +3 # Protect the vulnerable
-      religious-value: +2 # Divine mercy
-    "maybe":
-      compassionate-heart: +1 # Some empathy
-      healing-magic: +1 # Some healing interest
-    "no":
-      pragmatic-fighter: +3 # Practical over emotional
-      death-dealer: +2 # Focused on ending threats
+    'yes':
+      compassionate-heart: 4
+      divine-magic: 3
+      healing-magic: 3
+      nurturing-soul: 3
+      protective-value: 3
+      religious-value: 2
+    maybe:
+      compassionate-heart: 1
+      healing-magic: 1
+    'no':
+      pragmatic-fighter: 3
+      death-dealer: 2
     dont-know: {}
-# Professional-Specific Questions
 - id: explore-ruins
-  text: "Do you want to explore ancient ruins and uncover lost secrets?"
+  text: Do you want to explore ancient ruins and uncover lost secrets?
   category: character-motivation
   answers:
-    "yes":
-      explorer: +4 # Direct exploration drive
-      ancient-lore: +3 # Study ancient history
-      wanderer-spirit: +2 # Love of discovery
-      survival-expert: +2 # Navigate dangerous places
-      athletic-prowess: +2 # Physical exploration
-      knowledge-seeker: +2 # Seek lost knowledge
-    "maybe":
-      explorer: +1 # Some interest
-      ancient-lore: +1 # Some curiosity
-    "no":
-      urban-background: +3 # City preference
-      social-manipulator: +2 # People over places
+    'yes':
+      explorer: 4
+      ancient-lore: 3
+      wanderer-spirit: 2
+      survival-expert: 2
+      athletic-prowess: 2
+      knowledge-seeker: 2
+    maybe:
+      explorer: 1
+      ancient-lore: 1
+    'no':
+      urban-background: 3
+      social-manipulator: 2
     dont-know: {}
-- id: read-opponents
-  text: "Do you want to read your opponent's intentions and predict their actions?"
-  category: combat-approach
-  answers:
-    "yes":
-      mind-reader: +4 # Direct mind reading
-      tactical-value: +3 # Strategic prediction
-      wisdom-seeker: +2 # Understanding behavior
-      academic-background: +2 # Study psychology
-      cunning-value: +2 # Clever insights
-    "maybe":
-      mind-reader: +1 # Some insight
-      tactical-value: +1 # Some planning
-    "no":
-      physical: +3 # Direct combat
-      reckless-value: +2 # Instinct over thought
-    dont-know: {}
-- id: divination-future
-  text: "Are you interested in divination and seeing the future?"
-  category: magic-preference
-  answers:
-    "yes":
-      divination-magic: +4 # Direct divination focus
-      scholar: +3 # Study stars/omens
-      wisdom-seeker: +3 # Seek foresight
-      tactical-value: +2 # Plan based on knowledge
-      ritual-caster: +1 # Ritual divinations
-    "maybe":
-      divination-magic: +1 # Some interest
-      wisdom-seeker: +1 # Some foresight
-    "no":
-      pragmatic-fighter: +3 # Live in the moment
-      chaotic-value: +2 # Embrace uncertainty
-    dont-know: {}
-- id: illuminate-truth
-  text: "Do you want to illuminate the truth and dispel darkness?"
-  category: character-motivation
-  answers:
-    "yes":
-      truth-seeker: +4 # Direct truth pursuit
-      illuminating-light: +3 # Light against darkness
-      holy-power: +2 # Divine truth
-      lawful-value: +2 # Justice and truth
-      knowledge-seeker: +2 # Seek hidden truths
-    "maybe":
-      truth-seeker: +1 # Some honesty
-      knowledge-seeker: +1 # Some curiosity
-    "no":
-      cunning-value: +3 # Comfortable with deception
-      chaotic-value: +2 # Relative truth
-    dont-know: {}
-# Ranger-Specific Questions
 - id: animal-bond
-  text: "Do you want to form a deep bond with an animal companion?"
+  text: Do you want to form a deep bond with an animal companion?
   category: character-capability
   answers:
-    "yes":
-      animal-companion: +4 # Direct animal companion
-      nature-guardian: +3 # Nature focus
-      mounted: +3 # Mount is a companion
-      loyal-guardian: +2 # Protective bond
-      wild-spirit: +2 # Animal connection
-      nature-background: +1 # Wilderness upbringing
-    "maybe":
-      animal-companion: +1 # Some interest
-      nature-guardian: +1 # Some nature focus
-    "no":
-      urban-background: +3 # City preference
-      academic-background: +2 # Study over bonds
-    dont-know: {}
-- id: hunt-undead-spirits
-  text: "Do you want to hunt ghosts and undead spirits?"
-  category: combat-specialization
-  answers:
-    "yes":
-      ghost-tracker: +4 # Direct ghost hunting
-      undead-hunter: +3 # Hunt undead
-      spirit-medium: +3 # Communicate with spirits
-      death-magic: +2 # Death domain
-      fearless-heart: +1 # Face the dead
-    "maybe":
-      ghost-tracker: +1 # Some interest
-      undead-hunter: +1 # Some focus
-    "no":
-      nature-guardian: +3 # Living creatures focus
-      healing-magic: +2 # Life over death
-    dont-know: {}
-- id: resist-enchantments
-  text: "Is resisting mental manipulation and enchantments important to you?"
-  category: character-capability
-  answers:
-    "yes":
-      enchantment-resistance: +4 # Direct resistance
-      disciplined-value: +3 # Mental discipline
-      tactical-value: +2 # Stay clear-headed
-      fey-hunter: +2 # Resist fey charms
-      wisdom-seeker: +2 # Mental fortitude
-    "maybe":
-      enchantment-resistance: +1 # Some protection
-      disciplined-value: +1 # Some discipline
-    "no":
-      chaotic-value: +2 # Embrace chaos
-      wild-spirit: +2 # Instinctive approach
+    'yes':
+      animal-companion: 4
+      nature-guardian: 3
+      mounted: 3
+      nature-background: 2
+      loyal-guardian: 2
+      wild-spirit: 2
+    maybe:
+      animal-companion: 1
+      nature-guardian: 1
+      nature-background: 1
+    'no':
+      urban-background: 3
+      academic-background: 2
     dont-know: {}
 - id: extreme-mobility
-  text: "Do you want to be extremely mobile and acrobatic in combat?"
+  text: Do you want to be extremely mobile and acrobatic in combat?
   category: combat-approach
   answers:
-    "yes":
-      agile-fighter: +4 # Direct agility
-      mobile-combatant: +3 # Movement specialist
-      athletic-prowess: +3 # Physical skill
-      physical: +2 # Overall fitness
-      stealth-master: +1 # Quiet movement
-    "maybe":
-      agile-fighter: +1 # Some agility
-      athletic-prowess: +1 # Some athleticism
-    "no":
-      defensive-expert: +3 # Hold ground
-      tactical-value: +2 # Plan over move
+    'yes':
+      agile-fighter: 4
+      mobile-combatant: 3
+      athletic-prowess: 3
+      physical: 2
+      stealth-master: 1
+    maybe:
+      agile-fighter: 1
+      athletic-prowess: 1
+    'no':
+      defensive-expert: 3
+      tactical-value: 2
     dont-know: {}
 - id: darkness-master
-  text: "Do you want to excel in darkness and shadows?"
+  text: Do you want to excel in darkness and shadows?
   category: combat-specialization
   answers:
-    "yes":
-      darkvision-master: +4 # Direct darkness mastery
-      shadow-affinity: +3 # Shadow connection
-      ambush-predator: +3 # Ambush from darkness
-      stealth-master: +3 # Hide in shadows
-      shadow-magic: +2 # Shadow spells
-    "maybe":
-      darkvision-master: +1 # Some dark vision
-      stealth-master: +1 # Some stealth
-    "no":
-      holy-power: +2 # Light focus
-      illuminating-light: +2 # Prefer light
-    dont-know: {}
-- id: planar-travel
-  text: "Are you interested in traveling between planes and dimensions?"
-  category: magic-preference
-  answers:
-    "yes":
-      planar-guardian: +4 # Direct planar focus
-      dimensional-magic: +3 # Dimension magic
-      otherworldly-knowledge: +3 # Planar knowledge
-      explorer: +2 # Explore other realms
-      tactical-value: +2 # Strategic positioning
-    "maybe":
-      planar-guardian: +1 # Some interest
-      dimensional-magic: +1 # Some magic
-    "no":
-      nature-guardian: +3 # Material plane focus
-      nature-background: +2 # Earthly roots
+    'yes':
+      darkvision-master: 4
+      shadow-affinity: 3
+      ambush-predator: 3
+      stealth-master: 4
+      shadow-magic: 2
+      arcane-magic: 1
+    maybe:
+      darkvision-master: 1
+      stealth-master: 1
+    'no':
+      holy-power: 2
+      illuminating-light: 2
     dont-know: {}
 - id: shapeshift-transform
-  text: "Do you want to shapeshift and transform your body?"
+  text: Do you want to shapeshift and transform your body?
   category: character-capability
   answers:
-    "yes":
-      shapeshifter: +4 # Direct shapeshifting
-      hunting-expert: +3 # Primal transformation
-      wild-spirit: +3 # Wild nature
-      lunar-affinity: +2 # Moon connection
-      adaptable-fighter: +2 # Versatile forms
-    "maybe":
-      shapeshifter: +1 # Some interest
-      adaptable-fighter: +1 # Some versatility
-    "no":
-      disciplined-value: +3 # Keep one form
-      lawful-value: +2 # Consistent identity
-    dont-know: {}
-- id: magical-companion
-  text: "Do you want to summon magical companions or familiars?"
-  category: magic-preference
-  answers:
-    "yes":
-      summon-familiar: +4 # Direct familiar summoning
-      shadow-magic: +2 # Shadow familiars
-      utility-magic: +2 # Companion utility
-      supportive-role: +2 # Team support
-      versatile-magic: +1 # Varied magic
-    "maybe":
-      summon-familiar: +1 # Some interest
-      utility-magic: +1 # Some utility
-    "no":
-      physical: +3 # Self-reliant fighter
-    dont-know: {}
-- id: small-stature-advantage
-  text: "Do you want to use your small size as a tactical advantage?"
-  category: combat-approach
-  answers:
-    "yes":
-      small-advantage: +4 # Direct small size tactics
-      cunning-value: +3 # Clever use of size
-      stealth-master: +3 # Hide easily
-      tactical-value: +2 # Strategic positioning
-      agile-fighter: +2 # Nimble movement
-    "maybe":
-      small-advantage: +1 # Some tactics
-      stealth-master: +1 # Some hiding
-    "no":
-      physical: +3 # Strength focus
-      inspirational-leader: +2 # Command presence
-    dont-know: {}
-# Swashbuckler-specific questions
-- id: exotic-weapons-interest
-  text: "Are you interested in mastering exotic weapons like whips, chains, or nets?"
-  category: combat-style
-  answers:
-    "yes":
-      exotic-weapons: +4 # Direct exotic weapon focus
-      tactical-value: +3 # Unusual tactics
-      control-magic: +3 # Control weapons
-      dirty-tactics: +3 # Many exotic weapons disarm
-      weapon-specialist: +2 # Requires training
-      cunning-value: +2 # Strategic use
-    "maybe":
-      exotic-weapons: +1 # Some interest
-      weapon-specialist: +1 # Moderate uniqueness
-    "no":
-      weapon-specialist: +2 # Traditional weapons
-      physical: +2 # Standard arms
-    dont-know: {}
-- id: unarmed-brawling
-  text: "Do you prefer fighting with your fists and improvised weapons?"
-  category: combat-style
-  answers:
-    "yes":
-      unarmed-combat: +4 # Direct unarmed preference
-      reckless-value: +6 # Street fighting and Direct approach
-      improvised-specialist: +3 # Use anything
-      physical: +3 # Physical focus
-      endurance-specialist: +2 # Take hits
-      criminal-background: +1 # Street background
-    "maybe":
-      unarmed-combat: +1 # Some interest
-      reckless-value: +1 # Some street skill
-    "no":
-      weapon-specialist: +3 # Armed combat
-      refined: +2 # Elegant approach
+    'yes':
+      shapeshifter: 4
+      hunting-expert: 3
+      wild-spirit: 3
+      lunar-affinity: 2
+      adaptable-fighter: 2
+    maybe:
+      shapeshifter: 1
+      adaptable-fighter: 1
+    'no':
+      disciplined-value: 3
+      lawful-value: 2
     dont-know: {}
 - id: crowd-combat
-  text: "Do you thrive when fighting multiple opponents at once?"
+  text: Do you thrive when fighting multiple opponents at once?
   category: combat-preference
   answers:
-    "yes":
-      crowd-fighter: +4 # Multiple foes
-      multitasking: +3 # Many targets
-      acrobatic: +3 # Dodge many attacks
-      mobile: +3 # Move between enemies
-      daring: +3 # Brave approach
-      reckless: +2 # Risky tactics
-      tactical-value: +1 # Position management
-      cunning-value: +1 # Strike when open
-      reckless-value: +1 # Take them all on
-      defensive-expert: +1 # Survive many attacks
-      instinctive-combatant: +1 # Quick reactions
-      disciplined-value: -1 # Against slow approach
-    "maybe":
-      crowd-fighter: +1 # Some interest
-      mobile: +1 # Some movement
-    "no":
-      tactical-value: +2 # Controlled fights
-      duelist: +3 # One-on-one
-      disciplined-value: +3 # Careful approach and Controlled combat
-      sniper: +1 # Pick off single targets
-    dont-know: {}
-- id: critical-precision
-  text: "Do you want to focus on landing precise, critical strikes?"
-  category: combat-preference
-  answers:
-    "yes":
-      critical-striker: +4 # Critical hit focus
-      precise: +4 # Precision attacks
-      tactical-value: +3 # Strategic targeting
-      perfectionist: +3 # Perfect strikes
-      sniper: +2 # Precision parallels
-    "maybe":
-      critical-striker: +1 # Some interest
-      precise: +1 # Some accuracy
-    "no":
-      area-attacker: +3 # Broad damage
-      reckless-value: +2 # Wild attacks
-    dont-know: {}
-- id: luck-manipulation
-  text: "Do you want to manipulate luck and probability in your favor?"
-  category: special-ability
-  answers:
-    "yes":
-      probability-manipulation: +4 # Direct probability focus
-      risk-taker: +4 # Inherent luck
-      fate-touched: +4 # Destiny connection
-      lucky: +3 # Natural fortune
-      chaotic-value: +3 # Unpredictable
-      innate-magic: +3 # Good fortune
-      cunning-value: +3 # Fated path
-      unpredictable-power: +2 # Hard to predict
-      intuitive-value: +2 # Relaxed attitude
-    "maybe":
-      risk-taker: +1 # Some luck
-      lucky: +1 # Some fortune
-      fate-touched: +1 # Some fortune
-    "no":
-      disciplined-value: +3 # Control over chance
-      tactical-value: +2 # Planning over luck
-    dont-know: {}
-- id: secret-identity
-  text: "Do you want to maintain a secret identity or dual life?"
-  category: character-role
-  answers:
-    "yes":
-      dual-identity: +4 # Direct dual identity
-      masked: +4 # Hidden face
-      information-broker: +2 # Need contacts and secrets
-      theatrical: +3 # Performance aspect
-      cunning-value: +3 # Deceptive skill
-      outlaw: +3 # Hidden from law
-      rebellious: +2 # Against authority
-      disguise-master: +2 # Disguise skills
-    "maybe":
-      dual-identity: +1 # Some interest
-      masked: +1 # Some concealment
-    "no":
-      honorable: +3 # Open honesty
-      proud-value: +2 # Open identity
+    'yes':
+      crowd-fighter: 4
+      multitasking: 3
+      acrobatic: 3
+      mobile: 3
+      daring: 3
+      reckless: 2
+      tactical-value: 1
+      cunning-value: 1
+      reckless-value: 1
+      defensive-expert: 1
+      instinctive-combatant: 1
+      disciplined-value: -1
+    maybe:
+      crowd-fighter: 1
+      mobile: 1
+    'no':
+      tactical-value: 2
+      duelist: 3
+      disciplined-value: 3
+      sniper: 1
     dont-know: {}
 - id: teamwork-tactics
-  text: "Do you prefer fighting alongside allies with coordinated teamwork?"
+  text: Do you prefer fighting alongside allies with coordinated teamwork?
   category: combat-preference
   answers:
-    "yes":
-      teamwork-focused: +4 # Direct teamwork
-      military-background: +3 # Military training
-      disciplined-value: +3 # Group discipline
-      supportive-role: +3 # Support allies
-      tactical-value: +3 # Coordinated tactics
-      loyal-guardian: +3 # Ally loyalty
-      inspirational-leader: +2 # Lead groups
-    "maybe":
-      teamwork-focused: +1 # Some teamwork
-      supportive-role: +1 # Some support
-    "no":
-      cunning-value: +2 # Individual advantage
+    'yes':
+      teamwork-focused: 4
+      charismatic: 3
+      military-background: 3
+      disciplined-value: 3
+      supportive-role: 3
+      tactical-value: 3
+      loyal-guardian: 3
+      inspirational-leader: 2
+    maybe:
+      teamwork-focused: 1
+      charismatic: 1
+      supportive-role: 1
+    'no':
+      cunning-value: 2
     dont-know: {}
-- id: weapon-disarm
-  text: "Do you want to specialize in disarming and controlling opponents?"
+- id: supernatural-ancestry
+  text: What type of supernatural ancestry interests you?
+  category: character-origin
+  answers:
+    Draconic bloodline:
+      draconic-heritage: 4
+      innate-magic: 3
+      elemental-affinity: 2
+      proud-value: 2
+    Celestial/Angelic:
+      celestial-heritage: 4
+      divine-warrior: 3
+      holy-power: 3
+      lawful-value: 2
+    Aquatic/Sea-born:
+      aquatic-heritage: 4
+      seafaring: 3
+      elemental-affinity: 3
+      storm-caller: 2
+    Fiendish/Demonic:
+      demonic-corruption: 4
+      cunning-value: 3
+      chaotic-value: 2
+    Fey heritage:
+      fey-touched: 4
+      fey-beauty: 3
+      charm-magic: 2
+      chaotic-value: 2
+      theatrical: 1
+      refined: 1
+    No supernatural ancestry:
+      nature-background: 2
+      military-background: 2
+      urban-background: 2
+    dont-know: {}
+- id: unconventional-combat
+  text: What unconventional combat style appeals to you?
   category: combat-style
   answers:
-    "yes":
-      disarming: +4 # Direct disarm focus
-      controlling: +4 # Control battlefield
-      tactical-value: +3 # Strategic combat
-      precise: +3 # Targeted strikes
-      defensive-expert: +2 # Defense through control
-      martial: +2 # Skilled technique
-    "maybe":
-      disarming: +1 # Some interest
-      controlling: +1 # Some control
-    "no":
-      reckless-value: +5 # Direct damage and Overwhelming force
+    Improvised weapons:
+      improvised-specialist: 4
+      adaptable-fighter: 3
+      pragmatic-fighter: 2
+    Unarmed fighting:
+      unarmed-combat: 4
+      physical: 3
+      reckless-value: 2
+    Exotic weapons (whips, nets, chains):
+      exotic-weapons: 4
+      tactical-value: 3
+      control-magic: 2
+    Traditional weapons:
+      weapon-specialist: 3
+      disciplined-value: 2
+    dont-know: {}
+- id: nature-specialization
+  text: If drawn to nature magic, what aspect appeals most?
+  category: magic-preference
+  answers:
+    Plants & growth:
+      plant-mastery: 4
+      nature-guardian: 3
+      healing-magic: 2
+    Land & terrain:
+      terrain-bond: 4
+      nature-guardian: 3
+      survival-expert: 2
+    Animals & beasts:
+      beast-friend: 4
+      nature-guardian: 3
+      wild-spirit: 2
+    Storms & weather:
+      storm-caller: 4
+      nature-magic: 3
+      damage-magic: 2
+    Decay & renewal:
+      decay-mastery: 4
+      nature-magic: 3
+      death-speaker: 2
+      necromancy-dabbler: 2
+    Not nature-focused:
+      arcane-magic: 2
+      urban-background: 2
+    dont-know: {}
+- id: hunter-specialization
+  text: If you hunt dangerous creatures, what type interests you most?
+  category: character-motivation
+  answers:
+    Demons & devils:
+      demon-hunter: 4
+      holy-power: 3
+      divine-warrior: 3
+    Undead & spirits:
+      undead-hunter: 4
+      ghost-tracker: 4
+      spirit-medium: 3
+      death-magic: 2
+    Fey creatures:
+      fey-hunter: 4
+      enchantment-resistance: 3
+    All monsters:
+      monster-hunter: 4
+      relentless-hunter: 3
+      survival-expert: 2
+    Not a hunter:
+      academic-background: 2
+      social-manipulator: 2
+    dont-know: {}
+- id: insight-foresight
+  text: How do you prefer to gain insight and foresight?
+  category: magic-preference
+  answers:
+    Read opponents intentions:
+      mind-reader: 4
+      tactical-value: 3
+      wisdom-seeker: 2
+    Divine the future:
+      divination-magic: 4
+      scholar: 3
+      ritual-caster: 2
+    Reveal hidden truths:
+      truth-seeker: 4
+      illuminating-light: 3
+      knowledge-seeker: 2
+    Instinct over analysis:
+      intuitive-value: 3
+      instinctive-combatant: 2
+    dont-know: {}
+- id: refined-duelist
+  text: Do you see yourself as a refined, stylish combatant who values elegance and
+    panache?
+  category: character-identity
+  answers:
+    'yes':
+      refined: 6
+      perfectionist: 4
+      precise: 4
+      duelist: 3
+      theatrical: 3
+      agile-warrior: 2
+      charismatic: 2
+      noble-background: 2
+      diplomatic-soul: 1
+      reckless-value: -2
+    maybe:
+      refined: 2
+      charismatic: 1
+      precise: 1
+    'no':
+      reckless-value: 3
+      instinctive-combatant: 2
+      pragmatic-fighter: 2
+    dont-know: {}
+- id: outlaw-rebel
+  text: Does living outside the law or rebelling against authority appeal to you?
+  category: character-motivation
+  answers:
+    'yes':
+      outlaw: 4
+      rebellious: 4
+      criminal-background: 4
+      freedom-fighter: 3
+      chaotic-value: 3
+      cunning-value: 2
+      dual-identity: 2
+      masked: 2
+      lawful-value: -3
+      noble-background: -2
+    maybe:
+      freedom-fighter: 2
+      chaotic-value: 1
+    'no':
+      lawful-value: 4
+      military-background: 3
+      noble-background: 2
+      disciplined-value: 2
+    dont-know: {}
+- id: critical-precision
+  text: Do you rely on finding and exploiting weak points for devastating strikes?
+  category: combat-approach
+  answers:
+    'yes':
+      critical-striker: 4
+      precise: 4
+      tactical-value: 2
+      cunning-value: 2
+      disciplined-value: 2
+      weapon-specialist: 2
+    maybe:
+      critical-striker: 1
+      precise: 1
+      tactical-value: 1
+    'no':
+      reckless-value: 3
+      damage-magic: 2
+      crowd-fighter: 2
+    dont-know: {}
+- id: craftsman-tinkerer
+  text: Do you enjoy crafting, building, or creating things with your hands?
+  category: character-capability
+  answers:
+    'yes':
+      craftsman-background: 6
+      innovation-specialist: 4
+      modern-value: 3
+      engineering-mind: 3
+      potion-brewer: 3
+      alchemical-transformation: 2
+      poison-expert: 2
+      explosives-expert: 2
+      disciplined-value: 2
+      tactical-value: 1
+    maybe:
+      craftsman-background: 2
+      innovation-specialist: 1
+    'no':
+      instinctive-combatant: 2
+      athletic-prowess: 2
+      innate-magic: 2
+    dont-know: {}
+- id: experimental-innovation
+  text: Are you drawn to experimentation and pushing boundaries of what's possible?
+  category: character-motivation
+  answers:
+    'yes':
+      innovation-specialist: 5
+      modern-value: 4
+      transmutation-magic: 3
+      alchemical-transformation: 3
+      chaos-magic: 2
+      versatile-magic: 2
+      knowledge-seeker: 2
+      scholar: 2
+      chaotic-value: 2
+      reckless-value: 1
+      lawful-value: -2
+    maybe:
+      innovation-specialist: 2
+      versatile-magic: 1
+    'no':
+      lawful-value: 3
+      disciplined-value: 3
+      traditional-value: 2
+    dont-know: {}
+- id: familiar-companion-bond
+  text: Would you like a magical familiar or spirit companion that aids you?
+  category: character-capability
+  answers:
+    'yes':
+      summon-familiar: 5
+      animal-companion: 3
+      spirit-medium: 3
+      beast-friend: 2
+      arcane-magic: 2
+      nature-magic: 2
+      utility-magic: 2
+      otherworldly-knowledge: 1
+    maybe:
+      summon-familiar: 2
+      animal-companion: 1
+    'no':
+      weapon-specialist: 2
+      physical: 2
+    dont-know: {}
+- id: fate-destiny
+  text: Are you interested in fate, destiny, prophecy, or manipulating probability?
+  category: power-preference
+  answers:
+    'yes':
+      fate-touched: 5
+      divination-magic: 4
+      probability-manipulation: 4
+      lucky: 3
+      otherworldly-knowledge: 2
+      scholar: 2
+      divine-magic: 2
+      arcane-magic: 1
+    maybe:
+      fate-touched: 2
+      divination-magic: 1
+      lucky: 1
+    'no':
+      tactical-value: 2
+      disciplined-value: 2
+    dont-know: {}
+- id: endurance-perseverance
+  text: Do you value endurance, perseverance, and the ability to outlast your opponents?
+  category: character-values
+  answers:
+    'yes':
+      endurance-specialist: 5
+      disciplined-value: 3
+      survival-expert: 2
+      physical: 2
+      defensive-expert: 2
+      unstoppable-force: 2
+      loyal-guardian: 1
+    maybe:
+      endurance-specialist: 2
+      survival-expert: 1
+    'no':
+      speed-specialist: 3
+      reckless-value: 2
+      cunning-value: 2
+    dont-know: {}
+- id: dimensional-planar
+  text: Are you interested in planar travel, teleportation, or manipulating space?
+  category: magic-preference
+  answers:
+    'yes':
+      dimensional-magic: 5
+      planar-guardian: 4
+      arcane-magic: 3
+      utility-magic: 2
+      otherworldly-knowledge: 2
+      versatile-magic: 1
+    maybe:
+      dimensional-magic: 2
+      utility-magic: 1
+    'no':
+      nature-magic: 2
+      physical: 2
+    dont-know: {}
+- id: truth-seeking-investigator
+  text: Are you drawn to uncovering hidden truths, lies, and corruption?
+  category: character-motivation
+  answers:
+    'yes':
+      truth-seeker: 5
+      investigator: 5
+      urban-background: 2
+      tactical-value: 3
+      lawful-value: 3
+      knowledge-seeker: 2
+      divine-magic: 2
+      arcane-magic: 1
+    maybe:
+      investigator: 2
+      truth-seeker: 2
+      knowledge-seeker: 1
+    'no':
+      reckless-value: 2
+      chaotic-value: 2
+    dont-know: {}
+- id: heresy-hunter-enforcer
+  text: Do you feel called to root out heresy, dark magic, or supernatural threats?
+  category: character-calling
+  answers:
+    'yes':
+      zealot-faith: 5
+      spell-disruptor: 4
+      monster-hunter: 4
+      religious-value: 4
+      lawful-value: 3
+      divine-magic: 3
+      tactical-value: 2
+      disciplined-value: 2
+    maybe:
+      zealot-faith: 2
+      religious-value: 1
+    'no':
+      chaotic-value: 2
+      arcane-magic: 2
+    dont-know: {}
+- id: divine-law-enforcer
+  text: Do you see yourself as an enforcer of divine law and cosmic order?
+  category: character-identity
+  answers:
+    'yes':
+      lawful-value: 5
+      religious-value: 4
+      divine-magic: 4
+      disciplined-value: 3
+      tactical-value: 2
+      protective-value: 2
+      military-background: 2
+    maybe:
+      lawful-value: 2
+      religious-value: 1
+    'no':
+      chaotic-value: 4
+      freedom-fighter: 2
+    dont-know: {}
+- id: beast-bonding-companion
+  text: Do you want to bond with and fight alongside a loyal animal companion?
+  category: combat-style
+  answers:
+    'yes':
+      animal-companion: 5
+      loyal-guardian: 4
+      wild-spirit: 4
+      nature-guardian: 3
+      protective-value: 2
+      nature-magic: 2
+      supportive-role: 2
+    maybe:
+      animal-companion: 2
+      nature-guardian: 1
+    'no':
+      urban-background: 2
+      arcane-magic: 1
+    dont-know: {}
+- id: relentless-monster-hunter
+  text: Are you driven to track down and destroy dangerous monsters?
+  category: character-calling
+  answers:
+    'yes':
+      relentless-hunter: 5
+      monster-hunter: 5
+      demon-hunter: 4
+      undead-hunter: 4
+      survival-expert: 3
+      tactical-value: 2
+      weapon-specialist: 2
+    maybe:
+      monster-hunter: 2
+      survival-expert: 1
+    'no':
+      peaceful-soul: 2
+      diplomatic-soul: 1
+    dont-know: {}
+- id: wilderness-ambush-tactics
+  text: Do you prefer to stalk prey from the shadows and strike from ambush?
+  category: combat-style
+  answers:
+    'yes':
+      ambush-predator: 5
+      stealth-master: 4
+      survival-expert: 4
+      shadow-affinity: 3
+      patient-value: 3
+      tactical-value: 2
+      cunning-value: 2
+    maybe:
+      stealth-master: 2
+      tactical-value: 1
+    'no':
+      inspirational-leader: 2
+      social-manipulator: 1
+    dont-know: {}
+- id: truth-investigation-approach
+  text: How do you prefer to uncover hidden truths and solve mysteries?
+  category: character-approach
+  answers:
+    Methodical investigation:
+      investigator: 5
+      truth-seeker: 4
+      knowledge-seeker: 3
+      scholar: 2
+      patient-value: 2
+    Spiritual insight:
+      spell-disruptor: 4
+      truth-seeker: 3
+      zealot-faith: 3
+      lawful-value: 2
+    Cunning interrogation:
+      truth-seeker: 3
+      investigator: 2
+      cunning-value: 3
+      social-manipulator: 2
+    Not interested in investigations:
+      reckless-value: 2
+      instinctive-combatant: 1
+    dont-know: {}
+- id: experimental-crafting-style
+  text: What kind of experimental crafting appeals to you most?
+  category: character-specialty
+  answers:
+    Potion brewing & alchemy:
+      potion-brewer: 5
+      innovation-specialist: 4
+      healing-magic: 3
+      academic-background: 2
+    Explosive devices & bombs:
+      explosives-expert: 5
+      innovation-specialist: 3
+      throwing-expert: 3
+      reckless-value: 2
+    Transmutation & transformation:
+      transmutation-magic: 4
+      innovation-specialist: 3
+      versatile-magic: 2
+      scholar: 2
+    Poison & toxin creation:
+      poison-expert: 5
+      death-dealer: 3
+      stealth-master: 2
+      disciplined-value: 2
+    Not interested in crafting:
+      instinctive-combatant: 2
+      physical: 2
+    dont-know: {}
+- id: grace-precision-style
+  text: How do you approach tasks requiring grace, beauty, and precision?
+  category: character-approach
+  answers:
+    Natural fey-like grace:
+      fey-beauty: 5
+      refined: 4
+      chaotic-value: 3
+      wild-spirit: 2
+    Disciplined perfection:
+      perfectionist: 5
+      precise: 4
+      duelist: 3
+      disciplined-value: 2
+    Instinctive agility:
+      agile-fighter: 4
+      mobile-combatant: 3
+      evasive: 3
+      reckless-value: 2
+    Probability manipulation:
+      probability-manipulation: 4
+      fate-touched: 3
+      lucky: 3
+      chaotic-value: 2
+    Brute force approach:
+      physical: 3
+      weapon-master: 2
+    dont-know: {}
+- id: supernatural-phenomena-response
+  text: How do you handle mysterious supernatural or otherworldly phenomena?
+  category: character-approach
+  answers:
+    Divine investigation & dispelling:
+      spell-disruptor: 5
+      investigator: 4
+      zealot-faith: 4
+      truth-seeker: 3
+      lawful-value: 2
+    Wild magic embrace & chaos:
+      chaos-magic: 5
+      wild-surges: 4
+      unpredictable-power: 4
+      fey-touched: 3
+      chaotic-value: 3
+    Scientific analysis & experimentation:
+      innovation-specialist: 5
+      scholar: 3
+      academic-background: 3
+      knowledge-seeker: 2
+    Cautious avoidance:
+      evasive: 3
+      stealth-master: 2
+      survival-expert: 2
+    dont-know: {}
+- id: high-stakes-risk-approach
+  text: What's your preferred approach when facing high-stakes, dangerous situations?
+  category: character-approach
+  answers:
+    Stylish daring with precision:
+      daring: 5
+      refined: 4
+      perfectionist: 4
+      agile-fighter: 3
+      duelist: 3
+    Explosive innovation & boldness:
+      explosives-expert: 5
+      innovation-specialist: 4
+      reckless-value: 4
+      throwing-expert: 3
+    Lucky improvisation & fate:
+      lucky: 5
+      probability-manipulation: 5
+      fate-touched: 4
+      improvised: 3
+      chaotic-value: 2
+    Safe methodical planning:
+      disciplined-value: 3
+      tactical-value: 2
+      patient-value: 2
+    dont-know: {}
+- id: personal-transformation-philosophy
+  text: How do you view personal change, growth, and transformation?
+  category: character-philosophy
+  answers:
+    Alchemical self-transformation:
+      transmutation-magic: 5
+      innovation-specialist: 4
+      versatile-magic: 3
+      academic-background: 3
+      scholar: 2
+    Fey-touched metamorphosis:
+      fey-touched: 5
+      wild-spirit: 4
+      chaotic-value: 4
+      unpredictable-power: 3
+      nature-magic: 2
+    Combat adaptation & evolution:
+      adaptable: 4
+      agile-fighter: 4
+      evasive: 4
+      mobile-combatant: 3
+      cunning-value: 2
+    Maintain core consistency:
+      disciplined-value: 3
+      lawful-value: 3
+      traditionalist: 2
+    dont-know: {}
+- id: tracking-pursuit-expertise
+  text: What's your preferred method for tracking and pursuing difficult targets?
+  category: character-specialty
+  answers:
+    Relentless monster tracking:
+      relentless-hunter: 5
+      monster-hunter: 4
+      survival-expert: 4
+      ambush-predator: 3
+      stealth-master: 2
+    Poison trail analysis:
+      poison-expert: 5
+      death-dealer: 4
+      innovation-specialist: 3
+      stealth-master: 3
+      cunning-value: 2
+    Truth investigation methods:
+      investigator: 5
+      truth-seeker: 4
+      spell-disruptor: 4
+      knowledge-seeker: 3
+      urban-background: 2
+    Avoid tracking entirely:
+      diplomatic-soul: 2
+      peaceful-soul: 2
+    dont-know: {}
+- id: wild-chaotic-force-mastery
+  text: How do you approach mastering wild, unpredictable, or chaotic forces?
+  category: character-approach
+  answers:
+    Fey chaos channeling:
+      wild-surges: 5
+      chaos-magic: 5
+      fey-touched: 4
+      unpredictable-power: 4
+      wild-spirit: 3
+    Volatile experimentation:
+      innovation-specialist: 5
+      explosives-expert: 4
+      transmutation-magic: 4
+      reckless-value: 3
+      throwing-expert: 2
+    Primal nature communion:
+      nature-guardian: 5
+      wild-spirit: 4
+      survival-expert: 3
+      nature-magic: 3
+      animal-companion: 2
+    Systematic suppression:
+      spell-disruptor: 5
+      zealot-faith: 4
+      disciplined-value: 3
+      lawful-value: 2
+    dont-know: {}
+- id: specialized-mastery-domain
+  text: In which specialized domain would you most want to achieve true mastery?
+  category: character-expertise
+  answers:
+    Beast partnership & bonding:
+      animal-companion: 5
+      loyal-guardian: 5
+      wild-spirit: 4
+      nature-guardian: 3
+      survival-expert: 2
+    Alchemical transmutation:
+      transmutation-magic: 5
+      innovation-specialist: 5
+      potion-brewer: 4
+      scholar: 3
+      versatile-magic: 2
+    Fey realm mysteries:
+      fey-touched: 5
+      fey-beauty: 5
+      otherworldly-knowledge: 4
+      chaos-magic: 3
+      wild-surges: 2
+    Heresy detection & nullification:
+      zealot-faith: 5
+      spell-disruptor: 5
+      investigator: 4
+      truth-seeker: 3
+      lawful-value: 2
+    dont-know: {}
+- id: magical-corruption-investigation
+  text: How would you handle discovering a magical anomaly that corrupts everything it touches?
+  category: character-response
+  answers:
+    Zealous purification ritual:
+      zealot-faith: 6
+      spell-disruptor: 5
+      religious-value: 4
+      disciplined-value: 3
+    Methodical magical analysis:
+      spell-disruptor: 5
+      investigator: 4
+      patient-value: 3
+      tactical-value: 2
+    Immediate containment:
+      protective-value: 3
+      tactical-value: 3
+      survival-expert: 2
+    Avoid the area entirely:
+      survival-expert: 3
+      evasive: 2
+    dont-know: {}
+- id: cult-infiltration-scenario
+  text: If tasked with infiltrating a dangerous heretical cult, what would be your primary focus?
+  category: character-mission
+  answers:
+    Exposing their false doctrine:
+      zealot-faith: 6
+      truth-seeker: 5
+      investigator: 4
+      religious-value: 3
+    Gathering evidence of crimes:
+      investigator: 5
+      truth-seeker: 4
+      patient-value: 3
+      urban-background: 2
+    Disrupting their rituals:
+      spell-disruptor: 5
+      zealot-faith: 4
+      tactical-value: 3
+      disciplined-value: 2
+    Refuse such dangerous missions:
+      peaceful-soul: 3
+      diplomatic-soul: 2
+    dont-know: {}
+- id: reality-distortion-experience
+  text: If you witnessed reality itself warping and shifting around you, how would you respond?
+  category: character-response
+  answers:
+    Embrace the beautiful chaos:
+      fey-touched: 6
+      chaos-magic: 5
+      wild-surges: 5
+      otherworldly-knowledge: 4
+      unpredictable-power: 3
+    Dance with the shifting patterns:
+      fey-beauty: 6
+      wild-spirit: 5
+      fate-touched: 4
+      chaotic-value: 3
+    Study the phenomenon carefully:
+      otherworldly-knowledge: 4
+      patient-value: 3
+      scholar: 2
+    Flee to stable ground:
+      survival-expert: 3
+      evasive: 2
+    dont-know: {}
+- id: wild-magic-manifestation
+  text: When your emotions run high, what kind of magical manifestation would you most want to occur?
+  category: character-magic
+  answers:
+    Unpredictable reality shifts:
+      wild-surges: 6
+      chaos-magic: 6
+      unpredictable-power: 5
+      fate-touched: 3
+    Overwhelming otherworldly beauty:
+      fey-beauty: 6
+      fey-touched: 5
+      otherworldly-knowledge: 4
+      wild-spirit: 3
+    Chaotic nature transformations:
+      wild-spirit: 5
+      chaos-magic: 4
+      nature-magic: 4
+      wild-surges: 3
+    No magical manifestations:
+      disciplined-value: 3
+      patient-value: 2
     dont-know: {}

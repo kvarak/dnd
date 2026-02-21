@@ -19,7 +19,7 @@ profile:
   generic:
     magicType: "versatile"
     originBackground: ["academic", "urban", "nature", "criminal"]
-  specific: ["knowledge-seeker", "otherworldly-knowledge", "arcane-magic", "cunning-value", "arcane-magic"]
+  specific: ["knowledge-seeker", "otherworldly-knowledge", "arcane-magic", "cunning-value"]
   archetypes:
     abraxas:
       generic:

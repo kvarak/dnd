@@ -5,12 +5,12 @@ profile:
   generic:
     magicType: "versatile"
     originBackground: ["academic", "urban"]
-  specific: ["innovation-specialist", "craftsman-background", "scholar", "versatile-magic"]
+  specific: ["innovation-specialist", "craftsman-background", "scholar", "versatile-magic", "academic-background"]
   archetypes:
     apothecary:
       generic:
         magicType: "healing"
-      specific: ["potion-brewer", "healing-magic", "protective-value"]
+      specific: ["potion-brewer", "healing-magic", "protective-value", "urban-background"]
     corpsecrafter:
       generic:
         magicType: "control"
@@ -22,7 +22,7 @@ profile:
     poisoner:
       generic:
         magicType: "damage"
-      specific: ["poison-expert", "death-dealer", "stealth-master", "disciplined-value"]
+      specific: ["poison-expert", "death-dealer", "stealth-master", "disciplined-value", "urban-background"]
     psychedelic:
       generic:
         magicType: "control"

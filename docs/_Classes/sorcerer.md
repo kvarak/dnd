@@ -4,8 +4,8 @@ layout: default
 profile:
   generic:
     magicType: "versatile"
-    originBackground: ["noble", "tribal", "nature", "academic"]
-  specific: ["innate-magic", "innate-magic", "intuitive-value", "arcane-magic"]
+    originBackground: ["tribal", "nature"]
+  specific: ["innate-magic", "intuitive-value"]
   archetypes:
     draconic-bloodline:
       generic:
@@ -22,7 +22,7 @@ profile:
     arachnid:
       generic:
         magicType: "control"
-      specific: ["disciplined-value", "stealth-master", "control-magic", "ambush-predator"]
+      specific: ["stealth-master", "control-magic", "ambush-predator"]
     ashen:
       generic:
         magicType: "damage"
@@ -58,7 +58,7 @@ profile:
     frozen-heart:
       generic:
         magicType: "control"
-      specific: ["elemental-affinity", "control-magic", "disciplined-value", "disciplined-value"]
+      specific: ["elemental-affinity", "control-magic", "disciplined-value", "cold-resistance"]
     incantatrix:
       generic:
         magicType: "utility"

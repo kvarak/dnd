@@ -1918,19 +1918,83 @@
             }
           }
 
-          // PRIMARY STRATEGY: Iterate through recommendations in reverse (starting from LAST/lowest-ranked)
-          // This explores why the lowest-scoring archetypes score poorly and gives them a chance to rise
+          // PRIMARY STRATEGY: Information gain - select question that maximizes expected score separation
+          // Focus on top/bottom archetypes (the "competitive" set where discrimination matters most)
+          const topBottomCount = Math.min(20, Math.floor(recommendations.length * 0.1));
+          const competitiveArchetypes = [
+            ...recommendations.slice(0, topBottomCount),
+            ...recommendations.slice(-topBottomCount)
+          ];
+
+          // Build candidate questions from unexplored traits in low-scoring archetypes
+          const candidateQuestions = [];
+          const seenQuestions = new Set();
+
           for (let i = recommendations.length - 1; i >= 0; i--) {
             const rec = recommendations[i];
             const requiredTraits = this.getArchetypeRequiredTraits(rec);
             const unexploredTraits = requiredTraits.filter(trait => !exploredTraits.has(trait));
 
-            if (unexploredTraits.length > 0) {
-              // Try to find a question for the first unexplored trait
-              const question = this.findQuestionForTrait(unexploredTraits[0]);
-              if (question) {
-                return question;
+            for (const trait of unexploredTraits) {
+              const question = this.findQuestionForTrait(trait);
+              if (question && !seenQuestions.has(question.id)) {
+                candidateQuestions.push(question);
+                seenQuestions.add(question.id);
+                if (candidateQuestions.length >= 15) break; // Limit candidates for performance
               }
+            }
+            if (candidateQuestions.length >= 15) break;
+          }
+
+          // If we have candidate questions, score them by expected separation
+          if (candidateQuestions.length > 0) {
+            let bestQuestion = null;
+            let bestScore = -Infinity;
+
+            // Probability weights for each answer type (based on typical user behavior)
+            const answerProbs = { 'yes': 0.35, 'maybe': 0.30, 'no': 0.35 };
+
+            for (const question of candidateQuestions) {
+              let expectedSeparation = 0;
+
+              // Simulate each possible answer
+              for (const [answerKey, probability] of Object.entries(answerProbs)) {
+                // Temporarily add this answer to simulate its effect
+                const originalAnswer = this.userAnswers[question.id];
+                this.userAnswers[question.id] = answerKey;
+
+                // Recalculate scores for competitive archetypes with this simulated answer
+                const simulatedScores = [];
+                for (const archetype of competitiveArchetypes) {
+                  const score = this.scoreProfile(archetype.profile, archetype.displayName);
+                  const percentage = score.percentage;
+                  simulatedScores.push(percentage);
+                }
+
+                // Remove the temporary answer
+                if (originalAnswer !== undefined) {
+                  this.userAnswers[question.id] = originalAnswer;
+                } else {
+                  delete this.userAnswers[question.id];
+                }
+
+                // Calculate variance (measure of separation) for this simulated answer
+                const mean = simulatedScores.reduce((sum, val) => sum + val, 0) / simulatedScores.length;
+                const variance = simulatedScores.reduce((sum, val) => sum + Math.pow(val - mean, 2), 0) / simulatedScores.length;
+
+                // Weight by probability of this answer occurring
+                expectedSeparation += variance * probability;
+              }
+
+              // Select question with highest expected separation
+              if (expectedSeparation > bestScore) {
+                bestScore = expectedSeparation;
+                bestQuestion = question;
+              }
+            }
+
+            if (bestQuestion) {
+              return bestQuestion;
             }
           }
 

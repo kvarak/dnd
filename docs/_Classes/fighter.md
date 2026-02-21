@@ -14,7 +14,7 @@ profile:
         magicType: "utility"
       specific: ["archery-specialist", "arcane-magic", "ranged-expert", "dual-nature"]
     bulwark:
-      specific: ["shield-specialist", "defensive-expert", "tactical-value", "disciplined-value"]
+      specific: ["shield-specialist", "defensive-expert"]
     champion:
       specific: ["weapon-master", "critical-striker", "athletic-prowess", "endurance-specialist"]
     daredevil:
@@ -22,11 +22,11 @@ profile:
     eldritch-knight:
       generic:
         magicType: "utility"
-      specific: ["scholar", "arcane-magic", "dual-nature", "tactical-value"]
+      specific: ["scholar", "arcane-magic", "dual-nature"]
     ghost-operative:
-      specific: ["stealth-master", "infiltrator", "tactical-value", "initiative-specialist"]
+      specific: ["stealth-master", "infiltrator", "initiative-specialist"]
     guerilla:
-      specific: ["adaptable-fighter", "survival-expert", "stealth-master", "tactical-value"]
+      specific: ["adaptable-fighter", "survival-expert", "stealth-master"]
     juggernaut:
       specific: ["unstoppable-force", "strength-specialist", "reckless-value", "heavy-armor"]
     kindler:
@@ -34,7 +34,7 @@ profile:
     runeguard:
       generic:
         magicType: "utility"
-      specific: ["rune-magic", "scholar", "arcane-magic", "tactical-value"]
+      specific: ["rune-magic", "scholar", "arcane-magic"]
     sellsword:
       specific: ["pragmatic-fighter", "cunning-value", "dirty-tactics", "urban-background"]
     skirmisher:
@@ -54,11 +54,11 @@ profile:
     tinker-knight:
       restriction:
         folk: ["gnome"]
-      specific: ["engineering-mind", "innovation-specialist", "craftsman-background", "tactical-value"]
+      specific: ["engineering-mind", "innovation-specialist", "craftsman-background"]
     warsling-sniper:
       restriction:
         folk: ["halfling"]
-      specific: ["sling-specialist", "sniper", "ranged-expert", "tactical-value"]
+      specific: ["sling-specialist", "sniper", "ranged-expert"]
 ---
 
 <div class="toc" markdown="1">
