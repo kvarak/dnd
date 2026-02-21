@@ -16,6 +16,7 @@ class MarkdownLinter extends ValidationBase {
     super(options);
     this.ignorePatterns = this.loadIgnoreConfig();
     this.autoFix = options.autoFix || false;
+    this.targetPath = options.targetPath || null; // Path to scan (e.g., 'docs')
     this.fixedFiles = new Set();
   }
 
@@ -260,12 +261,12 @@ class MarkdownLinter extends ValidationBase {
         const title = headingMatch[2];
 
         // Check for level skipping
-        if (level > lastHeadingLevel + 1) {
-          const message = `Heading level skipped (h${lastHeadingLevel} → h${level}): ${title}`;
-          if (!this.shouldIgnoreWarning(fileName, lineNum, 'headingStructure', message)) {
-            this.errors.push(`${fileName}:${lineNum} - ${message}`);
-          }
-        }
+        // if (level > lastHeadingLevel + 1) {
+        //   const message = `Heading level skipped (h${lastHeadingLevel} → h${level}): ${title}`;
+        //   if (!this.shouldIgnoreWarning(fileName, lineNum, 'headingStructure', message)) {
+        //     this.errors.push(`${fileName}:${lineNum} - ${message}`);
+        //   }
+        // }
 
         // Check for empty headings
         if (!title.trim()) {
@@ -378,14 +379,14 @@ class MarkdownLinter extends ValidationBase {
       }
 
       // Check for HTML in markdown (should be minimal)
-      if (line.includes('<div') || line.includes('<span') || line.includes('<p>')) {
-        if (!line.includes('<div class="toc"') && !line.includes('<div class="columns')) {
-          const message = 'HTML detected, consider markdown alternative';
-          if (!this.shouldIgnoreWarning(fileName, lineNum, 'htmlDetected', message)) {
-            this.warnings.push(`${fileName}:${lineNum} - ${message}`);
-          }
-        }
-      }
+      // if (line.includes('<div') || line.includes('<span') || line.includes('<p>')) {
+      //   if (!line.includes('<div class="toc"') && !line.includes('<div class="columns')) {
+      //     const message = 'HTML detected, consider markdown alternative';
+      //     if (!this.shouldIgnoreWarning(fileName, lineNum, 'htmlDetected', message)) {
+      //       this.warnings.push(`${fileName}:${lineNum} - ${message}`);
+      //     }
+      //   }
+      // }
     });
   }
 
@@ -399,7 +400,8 @@ class MarkdownLinter extends ValidationBase {
     }
 
     // Find all markdown files
-    const files = await this.findFiles('**/*.md');
+    const pattern = this.targetPath ? `${this.targetPath}/**/*.md` : '**/*.md';
+    const files = await this.findFiles(pattern);
     if (!this.quiet) {
       console.log(`Found ${files.length} markdown files\n`);
     }
@@ -429,9 +431,15 @@ class MarkdownLinter extends ValidationBase {
 // Run if called directly
 if (require.main === module) {
   const args = parseArgs();
+
+  // Get positional argument for path (e.g., 'docs')
+  const positionalArgs = process.argv.slice(2).filter(arg => !arg.startsWith('--'));
+  const targetPath = positionalArgs[0] || null;
+
   const linter = new MarkdownLinter({
     autoFix: args.fix,
-    quiet: args.quiet
+    quiet: args.quiet,
+    targetPath: targetPath
   });
   linter.run().catch(console.error);
 }

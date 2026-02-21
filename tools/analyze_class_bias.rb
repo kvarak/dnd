@@ -78,8 +78,8 @@ Dir[CLASS_FILES_PATTERN].each do |file|
       all_traits = []
 
       # Base class traits
-      if data['profile']['specific']
-        all_traits += data['profile']['specific']
+      if data['profile']['traits']
+        all_traits += data['profile']['traits']
       end
 
       # Count archetypes
@@ -88,8 +88,8 @@ Dir[CLASS_FILES_PATTERN].each do |file|
 
         # Archetype-specific traits
         data['profile']['archetypes'].each do |arch_name, arch_data|
-          if arch_data['specific']
-            all_traits += arch_data['specific']
+          if arch_data['traits']
+            all_traits += arch_data['traits']
           end
         end
       end

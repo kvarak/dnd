@@ -19,33 +19,11 @@ Site will be available at: **http://localhost:4000/dnd/**
 
 ## Development Commands
 
-- `make serve` - Start local server with auto-reload (builds Docker image first)
-- `make build` - Build for production
-- `make test` - Run basic tests
-- `make clean` - Clean build artifacts and Docker cache
-- `make shell` - Open shell in Jekyll container for debugging
-- `make logs` - Show container logs
-- `make stop` - Stop running container
-- `make status` - Show repo and site status
-- `make deploy` - Deploy to GitHub Pages
-- `make help` - Show all commands
+Run `make help` to see all available commands.
 
-## How Docker Setup Works
+## Setup
 
-The `make serve` command:
-1. **Builds Docker image** with Jekyll and all dependencies
-2. **Creates volume mount** to sync your files with container
-3. **Starts Jekyll server** with auto-reload and live reload
-4. **Exposes port 4000** for local access
-5. **Watches for changes** and rebuilds automatically
-
-## Docker Image Details
-
-- **Base:** `jekyll/jekyll:4.2.2` (official Jekyll image)
-- **Gems:** GitHub Pages compatible versions
-- **Port:** 4000 (mapped to host)
-- **Volume:** Current directory mounted to `/srv/jekyll`
-- **Auto-reload:** Enabled with live refresh
+`make serve` builds Docker image, mounts current directory, and starts Jekyll server on port 4000 with auto-reload.
 
 ## Site Structure
 
@@ -63,49 +41,38 @@ The `make serve` command:
 
 ## Adding Content
 
-**New Campaign:**
-```bash
-make new-campaign NAME=YourCampaignName
-```
-
-**Manual Content:**
-1. Create markdown file in appropriate `docs/_Collection/`
-2. Add proper YAML frontmatter
-3. Update `_data/` files for characters/scenery if needed
-4. Changes auto-reload in browser
+1. Create markdown file in `docs/_Collection/`
+2. Add YAML frontmatter (see existing files)
+3. Update `_data/` if adding characters/scenery
+4. Run `make validate-profiles` (classes) or `make lint-md` (formatting)
 
 ## Troubleshooting
 
 **Container won't start:**
 ```bash
 make clean        # Clean everything
-make build-image  # Rebuild image
+make build        # Rebuild Docker image
 make serve        # Try again
 ```
 
-**Need to debug:**
-```bash
-make shell  # Get shell inside container
-make logs   # Check container logs
-```
-
-**Port already in use:**
-```bash
-make stop   # Stop any running containers
-```
+**Common Issues:**
+- Port in use: `make clean`
+- Build failures: `docker ps` and `docker logs`
+- Changes not reflected: `Ctrl+C` and `make serve`
 
 ## Deployment
 
 Site deploys automatically to **https://dnd.rigo.nu** when pushing to `main` branch via GitHub Pages.
 
+## Developer Tools
+
+See `tools/README.md` for complete tool documentation and usage.
+
 ## Questionnaire Scoring System
 
 ### Multi-Dimensional Trait Scoring
 
-The class recommendation questionnaire uses a sophisticated **multi-dimensional trait scoring** system that builds nuanced player profiles.
-
-**Core Concept:**
-Each answer contributes positive or negative scores across multiple trait dimensions simultaneously. This reveals both preferences (high scores) and aversions (negative scores).
+Each answer affects multiple traits with positive/negative values. Player scores are calculated as percentages and matched against class profile requirements.
 
 **Data Structure:**
 ```yaml
@@ -167,144 +134,27 @@ Each answer contributes positive or negative scores across multiple trait dimens
 - `_layouts/questionnaire.html` - Scoring engine (JavaScript)
 - `docs/_Classes/*.md` - Class profiles with required traits
 
-**Benefits:**
-- ✅ Natural questions vs. rating scales
-- ✅ Shows preferences AND aversions
-- ✅ Transparent scoring for players
-- ✅ Single question influences multiple dimensions
-- ✅ Nuanced profiles, not binary buckets
-
-**Example Player Profile:**
-```
-Trait Scores:
-  healing-magic: 71% (strong preference)
-  utility-magic: 50% (moderate preference)
-  damage-magic: 22% (aversion)
-  stealth-master: 85% (very strong preference)
-
-Recommendations:
-  1. Trickery Cleric - 78% match (healing + stealth)
-  2. Bard - 65% match (utility + social)
-  3. Wizard - 34% match (damage misalignment)
-```
+**Files:**
+- `_data/question-bank.yml` - Questions with trait scoring
+- `_layouts/questionnaire.html` - Scoring engine
+- `docs/_Classes/*.md` - Class profiles with trait requirements
 
 ---
 
-## Adaptive Question Selection Algorithm
+## Adaptive Question Selection
 
-The questionnaire uses **intelligent question ordering** to maximize recommendation accuracy with minimal questions. Instead of random/fixed ordering, questions adapt based on current Live Match Progress.
+Questions adapt to explore unexplored traits for top recommended classes. Starts random, then targets traits needed by lowest-ranked recommendations, ensuring all archetypes get fair evaluation.
 
-### Algorithm Flow
 
-**Question 1:** Random selection from all questions
-
-**Question 2+:** Adaptive selection based on Live Match Progress:
-
-1. **Get current recommendations** (sorted by match percentage)
-2. **Iterate through recommendations in reverse** (starting from last/lowest-ranked)
-3. **For each recommendation:**
-   - Get the archetype's required traits (merged profile: base class + archetype)
-   - Find traits the user **hasn't been asked about yet**
-   - If unanswered traits exist → select a question affecting one of those traits
-   - If ALL traits for this archetype explored → move to next archetype
-4. **If all top archetypes fully explored** → randomize from unused questions
-5. **If all questions exhausted** → allow viewing results or restart
-
-### Example Progression
-
-**After 5 questions:**
-```
-Live Match Progress:
-  #1 Rogue - Assassin: 65% (4 of 9 traits explored)
-  #2 Fighter - Champion: 58% (3 of 10 traits explored)
-  ...
-  #10 Wizard - Enchanter: 42% (1 of 8 traits explored)
-
-Next question: Targets unanswered Enchanter trait (explores lowest-ranked first)
-```
-
-**After 15 questions:**
-```
-Live Match Progress:
-  #1 Rogue - Assassin: 75% (6 of 9 traits explored)
-  #2 Fighter - Champion: 68% (8 of 10 traits explored)
-  ...
-  #10 Wizard - Enchanter: 58% (8 of 8 traits ✓ fully explored)
-
-Next question: Targets #9's unexplored traits (skip Enchanter, move up)
-```
-
-**After 40 questions:**
-```
-Live Match Progress:
-  Top 10 archetypes: All traits fully explored ✓
-
-Next question: Random from remaining unused questions
-```
-
-### Implementation Details
-
-**Data Structures:**
-```javascript
-// Track which questions have been shown
-this.askedQuestionIds = new Set();
-
-// Map questions to the traits they affect
-this.questionToTraitsMap = {
-  'healing-magic': ['healing-magic', 'damage-magic', 'utility-magic'],
-  'destructive-magic': ['damage-magic', 'control-magic'],
-  // ... etc
-};
-
-// Track which traits have been explored
-getExploredTraits() {
-  const exploredTraits = new Set();
-  for (const questionId of this.askedQuestionIds) {
-    const traits = this.questionToTraitsMap[questionId] || [];
-    traits.forEach(t => exploredTraits.add(t));
-  }
-  return exploredTraits;
-}
-```
-
-**Selection Logic:**
-```javascript
-selectNextAdaptiveQuestion() {
-  // 1. Calculate current recommendations
-  const recommendations = this.calculateRecommendations();
-  const exploredTraits = this.getExploredTraits();
-
-  // 2. Find archetype with unexplored traits
-  for (const rec of recommendations) {
-    const requiredTraits = this.getArchetypeTraits(rec);
-    const unexploredTraits = requiredTraits.filter(t => !exploredTraits.has(t));
-
-    if (unexploredTraits.length > 0) {
-      // 3. Find question targeting this trait
-      return this.findQuestionForTrait(unexploredTraits[0]);
-    }
-  }
-
-  // 4. Fallback: random from unused questions
-  return this.getRandomUnusedQuestion();
-}
-```
-
-### Benefits
-
-✅ **Efficient** - Focuses on traits that matter for top matches
-✅ **Adaptive** - Responds to user's evolving profile
-✅ **Thorough** - Fully explores top candidates before moving on
-✅ **Smart fallback** - Never gets stuck, always has a next question
-✅ **Natural flow** - Questions feel conversational and relevant
-✅ **Fast convergence** - Reaches accurate recommendations quickly
-
----
 
 ## Adding New Archetypes
 
-**Quick Start:** [ARCHETYPE_CHECKLIST.md](ARCHETYPE_CHECKLIST.md) - Concise 5-phase workflow (~300 lines)
+The questionnaire system automatically includes new archetypes when they're properly structured in class files:
 
-**Full Reference:** [ARCHETYPE_GUIDE.md](ARCHETYPE_GUIDE.md) - Comprehensive guide with examples (~1100 lines)
+1. **Add archetype to class file** - Follow existing YAML structure with traits array
+2. **Define trait mappings** - Use consistent trait names across archetypes
+3. **Validate schema** - Run `make validate-profiles` to check structure
+4. **Test scoring** - Run `make test-class-scoring` to verify recommendation logic
+5. **Update search** - Run `make extract` to include in searchable content
 
-Use the checklist for standard archetypes, consult the full guide for complex cases or troubleshooting.
+For trait naming and archetype patterns, reference existing class files in `docs/_Classes/`.

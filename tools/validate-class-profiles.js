@@ -12,58 +12,9 @@ const path = require('path');
 const yaml = require('js-yaml');
 
 function loadValidValuesFromTemplate() {
-  const templatePath = path.join(__dirname, 'class-profile-template.md');
-
-  if (!fs.existsSync(templatePath)) {
-    throw new Error(`Template file not found: ${templatePath}`);
-  }
-
-  const templateContent = fs.readFileSync(templatePath, 'utf8');
-  const validValues = {};
-
-  // Parse each trait category section
-  const sections = templateContent.split(/^###\s+(.+)$/m);
-
-  for (let i = 1; i < sections.length; i += 2) {
-    const categoryName = sections[i].trim();
-    const categoryContent = sections[i + 1];
-
-    if (categoryContent) {
-      // Extract valid values from bullet points: - **value**: description
-      const values = [];
-      const bulletPoints = categoryContent.match(/^-\s+\*\*(.+?)\*\*/gm);
-
-      if (bulletPoints) {
-        for (const bullet of bulletPoints) {
-          const match = bullet.match(/^-\s+\*\*(.+?)\*\*/);
-          if (match) {
-            values.push(match[1]);
-          }
-        }
-      }
-
-      // Handle special case for originBackground (array values)
-      if (categoryName === 'originBackground') {
-        // Extract array values from description
-        const arrayMatch = categoryContent.match(/Array of likely character backgrounds.*?:\s*\n((?:\s*-\s+\*\*.+?\*\*.*\n)*)/s);
-        if (arrayMatch) {
-          const arrayValues = [];
-          const arrayBullets = arrayMatch[1].match(/\*\*(.+?)\*\*/g);
-          if (arrayBullets) {
-            for (const bullet of arrayBullets) {
-              const value = bullet.replace(/\*\*/g, '');
-              arrayValues.push(value);
-            }
-          }
-          validValues[categoryName] = arrayValues;
-        }
-      } else if (values.length > 0) {
-        validValues[categoryName] = values;
-      }
-    }
-  }
-
-  return validValues;
+  // With the new traits structure, we no longer need to parse the template
+  // Validation is now just checking that traits arrays exist and are non-empty
+  return {};
 }
 
 function extractFrontmatter(content) {
@@ -86,46 +37,13 @@ function validateProfile(profile, filename, validValues) {
     return ['No profile field found in frontmatter'];
   }
 
-  // Validate generic traits
-  if (!profile.generic) {
-    errors.push('Missing generic traits object');
-  } else {
-    const generic = profile.generic;
-
-    // Check required generic fields
-    for (const [field, validFieldValues] of Object.entries(validValues)) {
-      if (field === 'originBackground') {
-        // originBackground is an array
-        if (!generic[field]) {
-          errors.push(`Missing required generic field: ${field}`);
-        } else if (!Array.isArray(generic[field])) {
-          errors.push(`Field ${field} must be an array`);
-        } else {
-          // Check each value in the array
-          for (const value of generic[field]) {
-            if (!validFieldValues.includes(value)) {
-              errors.push(`Invalid value "${value}" for ${field}. Valid values: ${validFieldValues.join(', ')}`);
-            }
-          }
-        }
-      } else {
-        // Other fields are single values
-        if (!generic[field]) {
-          errors.push(`Missing required generic field: ${field}`);
-        } else if (!validFieldValues.includes(generic[field])) {
-          errors.push(`Invalid value "${generic[field]}" for ${field}. Valid values: ${validFieldValues.join(', ')}`);
-        }
-      }
-    }
-  }
-
-  // Validate specific traits
-  if (!profile.specific) {
-    errors.push('Missing specific traits array');
-  } else if (!Array.isArray(profile.specific)) {
-    errors.push('specific field must be an array');
-  } else if (profile.specific.length === 0) {
-    errors.push('specific array cannot be empty');
+  // Validate traits array (new structure)
+  if (!profile.traits) {
+    errors.push('Missing traits array in profile');
+  } else if (!Array.isArray(profile.traits)) {
+    errors.push('traits field must be an array');
+  } else if (profile.traits.length === 0) {
+    errors.push('traits array cannot be empty');
   }
 
   // Validate archetypes (optional)
@@ -134,29 +52,15 @@ function validateProfile(profile, filename, validValues) {
       errors.push('archetypes must be an object');
     } else {
       for (const [archetypeName, archetype] of Object.entries(profile.archetypes)) {
-        if (archetype.generic) {
-          // Validate archetype generic overrides
-          for (const [field, value] of Object.entries(archetype.generic)) {
-            if (!validValues[field]) {
-              errors.push(`Unknown generic field "${field}" in archetype ${archetypeName}`);
-            } else if (field === 'originBackground') {
-              if (!Array.isArray(value)) {
-                errors.push(`Field ${field} in archetype ${archetypeName} must be an array`);
-              } else {
-                for (const v of value) {
-                  if (!validValues[field].includes(v)) {
-                    errors.push(`Invalid value "${v}" for ${field} in archetype ${archetypeName}`);
-                  }
-                }
-              }
-            } else if (!validValues[field].includes(value)) {
-              errors.push(`Invalid value "${value}" for ${field} in archetype ${archetypeName}`);
-            }
+        // Validate archetype traits
+        if (archetype.traits) {
+          if (!Array.isArray(archetype.traits)) {
+            errors.push(`traits field in archetype ${archetypeName} must be an array`);
+          } else if (archetype.traits.length === 0) {
+            errors.push(`traits array in archetype ${archetypeName} cannot be empty`);
           }
-        }
-
-        if (archetype.specific && !Array.isArray(archetype.specific)) {
-          errors.push(`specific field in archetype ${archetypeName} must be an array`);
+        } else {
+          errors.push(`Archetype ${archetypeName} missing traits array`);
         }
       }
     }

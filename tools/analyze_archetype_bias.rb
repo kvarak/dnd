@@ -70,13 +70,13 @@ Dir[CLASS_FILES_PATTERN].each do |file|
         all_traits = []
 
         # Class-level traits
-        if data['profile']['specific']
-          all_traits += data['profile']['specific']
+        if data['profile']['traits']
+          all_traits += data['profile']['traits']
         end
 
         # Archetype-specific traits
-        if arch_data['specific']
-          all_traits += arch_data['specific']
+        if arch_data['traits']
+          all_traits += arch_data['traits']
         end
 
         archetypes[archetype_key] = all_traits.uniq

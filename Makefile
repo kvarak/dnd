@@ -61,7 +61,7 @@ build:
 # Extract searchable content (skills, familiars, etc.)
 extract: build
 	@echo "🔍 Extracting searchable content..."
-	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) ruby extract-searchable.rb
+	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) ruby tools/extract-searchable.rb
 
 # Minify CSS and JS inside Docker container
 minify: build
@@ -128,13 +128,13 @@ lint-md: build
 	@echo "📝 Validating markdown formatting and structure..."
 	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent && \
-		node tools/lint-markdown.js"
+		node tools/lint-markdown.js docs"
 
 lint-md-fix: build
 	@echo "🔧 Auto-fixing markdown formatting issues..."
 	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent && \
-		node tools/lint-markdown.js --fix"
+		node tools/lint-markdown.js --fix docs"
 
 test-structure: build
 	@echo "🔬 Testing Varlyn structure patterns (MVP: 3 Folk + 3 Classes)..."
@@ -154,7 +154,7 @@ test-verbose: build
 	@echo "📝 Step 1: Markdown linting..."
 	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent && \
-		node tools/lint-markdown.js" && \
+		node tools/lint-markdown.js docs" && \
 	echo "" && \
 	echo "🎯 Step 2: Question bank validation..." && \
 	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
@@ -166,7 +166,7 @@ test: build
 	@echo "🚀 Running validation (quiet mode)..."
 	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent && \
-		node tools/lint-markdown.js --quiet" && \
+		node tools/lint-markdown.js --quiet docs" && \
 	echo "" && \
 	echo "📋 Validating class profiles..." && \
 	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
@@ -176,13 +176,18 @@ test: build
 	echo "🎯 Validating question bank..." && \
 	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent js-yaml && \
-		node tools/validate-question-bank.js"
+		node tools/validate-question-bank.js" && \
+	echo "" && \
+	echo "🔤 Checking for problematic answer characters..." && \
+	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
+		npm install --silent js-yaml && \
+		node tools/validate-answer-characters.js"
 
 lint-md-quiet: build
 	@echo "📝 Markdown linting (quiet)..."
 	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent && \
-		node tools/lint-markdown.js --quiet"
+		node tools/lint-markdown.js --quiet docs"
 
 test-structure-quiet: build
 	@echo "🔬 Structure testing (quiet, MVP)..."

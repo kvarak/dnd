@@ -51,7 +51,7 @@ class TraitAnalyzer
         @classes[class_name] = {
           title: data['title'] || class_name,
           archetypes: {},
-          generic_traits: data.dig('profile', 'specific') || []
+          generic_traits: data.dig('profile', 'traits') || []
         }
 
         # Track generic traits at class level
@@ -66,7 +66,7 @@ class TraitAnalyzer
             archetype_name = "#{class_name}:#{arch_key}"
 
             # Combine class-level generic traits with archetype-specific traits (inheritance)
-            archetype_specific_traits = arch_data['specific'] || []
+            archetype_specific_traits = arch_data['traits'] || []
             all_traits = @classes[class_name][:generic_traits] + archetype_specific_traits
 
             @classes[class_name][:archetypes][arch_key] = {

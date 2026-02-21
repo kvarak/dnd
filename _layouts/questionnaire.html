@@ -323,9 +323,14 @@
 
               <!-- Navigation Buttons -->
               <div class="d-flex justify-content-between align-items-center mt-4 nav-buttons">
-                <button id="prev-btn" class="btn btn-outline-secondary" disabled>
-                  <i class="fas fa-arrow-left"></i> Previous
-                </button>
+                <div class="d-flex gap-2">
+                  <button id="prev-btn" class="btn btn-outline-secondary" disabled>
+                    <i class="fas fa-arrow-left"></i> Previous
+                  </button>
+                  <button id="start-over-btn" class="btn btn-outline-warning btn-sm">
+                    <i class="fas fa-refresh"></i> Start Over
+                  </button>
+                </div>
 
                 <div>
                   <span id="question-counter" class="text-muted">Question 1 of 34</span>
@@ -488,6 +493,7 @@
           this.prevBtn = document.getElementById('prev-btn');
           this.nextBtn = document.getElementById('next-btn');
           this.getResultsBtn = document.getElementById('get-results-btn');
+          this.startOverBtn = document.getElementById('start-over-btn');
           this.questionContainer = document.getElementById('question-container');
           this.resultsContainer = document.getElementById('results-container');
           this.resultsContent = document.getElementById('results-content');
@@ -510,6 +516,7 @@
           this.prevBtn.addEventListener('click', () => this.goToPreviousQuestion());
           this.nextBtn.addEventListener('click', () => this.goToNextQuestion());
           this.getResultsBtn.addEventListener('click', () => this.showResults());
+          this.startOverBtn.addEventListener('click', () => this.restart());
           this.restartBtn.addEventListener('click', () => this.restart());
           this.continueBtn.addEventListener('click', () => this.continueQuestionnaire());
 
@@ -874,17 +881,17 @@
             userTraitMap.set(trait.name, trait.percentage);
           });
 
-          // Filter out archetypes where any specific trait has very low score (< 20%)
+          // Filter out archetypes where any trait has very low score (< 20%)
           // Red badges indicate the user answered negatively for important traits
           const filtered = grouped.filter(rec => {
-            if (rec.profile && rec.profile.specific && rec.profile.specific.length > 0) {
-              const hasRedBadge = rec.profile.specific.some(traitName => {
+            if (rec.profile && rec.profile.traits && rec.profile.traits.length > 0) {
+              const hasRedBadge = rec.profile.traits.some(traitName => {
                 const percentage = userTraitMap.get(traitName);
                 return percentage !== undefined && percentage < 20;
               });
               return !hasRedBadge; // Exclude if any trait is red
             }
-            return true; // Keep if no specific traits
+            return true; // Keep if no traits
           });
 
           // Sort by score descending
@@ -1090,18 +1097,12 @@
 
         mergeArchetypeProfile(baseProfile, archetypeData) {
           const merged = {
-            generic: { ...(baseProfile.generic || {}) },
-            specific: [...(baseProfile.specific || [])]
+            traits: [...(baseProfile.traits || [])]
           };
 
-          // Archetype generic traits override base
-          if (archetypeData.generic) {
-            Object.assign(merged.generic, archetypeData.generic);
-          }
-
-          // Archetype specific traits add to base
-          if (archetypeData.specific) {
-            merged.specific.push(...archetypeData.specific);
+          // Archetype traits add to base class traits
+          if (archetypeData.traits) {
+            merged.traits.push(...archetypeData.traits);
           }
 
           return merged;
@@ -1134,55 +1135,12 @@
               // Skip roleplaying trait
               if (traitName === 'roleplaying') continue;
 
-              // Check generic traits
-              if (profile.generic && profile.generic[traitName]) {
-                const profileValue = profile.generic[traitName];
-                const compatibility = this.calculateCompatibility(userTraitValue, profileValue);
-                const traitScore = compatibility * answerStrength;
+              // Check if this trait exists in the profile's traits array
+              if (Array.isArray(profile.traits) && profile.traits.includes(traitName)) {
+                const traitScore = answerStrength * 2; // All traits weighted equally
                 questionScore += traitScore;
 
                 // Track this trait match
-                // For array values (like originBackground), track each matching value separately
-                if (Array.isArray(profileValue)) {
-                  if (profileValue.includes(userTraitValue)) {
-                    // Only track the specific value that matched
-                    const traitKey = `${traitName}: ${userTraitValue}`;
-                    if (!traitMatches.has(traitKey)) {
-                      traitMatches.set(traitKey, {
-                        name: traitName,
-                        value: userTraitValue,
-                        compatibility: 1.0,
-                        score: 0,
-                        type: 'generic'
-                      });
-                    }
-                    traitMatches.get(traitKey).score += traitScore;
-                  }
-                } else {
-                  // For single values, track as before
-                  const traitKey = `${traitName}: ${profileValue}`;
-                  if (!traitMatches.has(traitKey)) {
-                    traitMatches.set(traitKey, {
-                      name: traitName,
-                      value: profileValue,
-                      compatibility: compatibility,
-                      score: 0,
-                      type: 'generic'
-                    });
-                  }
-                  const existing = traitMatches.get(traitKey);
-                  existing.score += traitScore;
-                  existing.compatibility = Math.max(existing.compatibility, compatibility);
-                }
-              }
-
-              // Check specific traits (array contains check)
-              // Specific traits are weighted double since they occur more rarely
-              if (Array.isArray(profile.specific) && profile.specific.includes(traitName)) {
-                const traitScore = answerStrength * 2;
-                questionScore += traitScore;
-
-                // Track this specific trait match
                 const traitKey = traitName;
                 if (!traitMatches.has(traitKey)) {
                   traitMatches.set(traitKey, {
@@ -1190,7 +1148,7 @@
                     value: userTraitValue,
                     compatibility: 1.0,
                     score: 0,
-                    type: 'specific'
+                    type: 'trait'
                   });
                 }
                 traitMatches.get(traitKey).score += traitScore;
@@ -1207,18 +1165,12 @@
             .slice(0, 5);
 
           const matchDetails = sortedTraits.map(trait => {
-            if (trait.type === 'specific') {
-              // Format specific trait names nicely (convert kebab-case to Title Case)
-              const formattedName = trait.name
-                .split('-')
-                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                .join(' ');
-              return `${formattedName} (key trait)`;
-            } else {
-              // Format generic trait names
-              const formattedName = trait.name.charAt(0).toUpperCase() + trait.name.slice(1);
-              return `${formattedName}: ${trait.value} (${Math.round(trait.compatibility * 100)}%)`;
-            }
+            // Format trait names nicely (convert kebab-case to Title Case)
+            const formattedName = trait.name
+              .split('-')
+              .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+              .join(' ');
+            return formattedName;
           });
 
           const percentage = maxPossibleScore > 0 ? (totalScore / maxPossibleScore) * 100 : 0;
@@ -1540,8 +1492,8 @@
               folkBadgeForTraits = `<span class="badge bg-success me-1 mb-1" title="Available to ${folkDisplayText}"><i class="fas fa-check-circle"></i> ${folkDisplayText}</span>`;
             }
 
-            if (rec.profile && rec.profile.specific && rec.profile.specific.length > 0) {
-              const traitData = rec.profile.specific
+            if (rec.profile && rec.profile.traits && rec.profile.traits.length > 0) {
+              const traitData = rec.profile.traits
                 .map(traitName => {
                   const hasScore = userTraitMap.has(traitName);
                   const percentage = hasScore ? userTraitMap.get(traitName) : null;
@@ -1669,6 +1621,9 @@
 
           // Clear localStorage
           this.clearState();
+
+          // Reset Live Match Progress
+          this.updateLiveScores();
 
           // Show folk selection again if there are restricted archetypes
           if (this.folkRestrictions.size > 0) {
@@ -1825,30 +1780,8 @@
           // Get all traits required by this archetype (merged profile)
           const traits = new Set();
 
-          if (recommendation.profile && recommendation.profile.specific) {
-            recommendation.profile.specific.forEach(trait => traits.add(trait));
-          }
-
-          // Also consider generic traits like magicType and originBackground
-          if (recommendation.profile && recommendation.profile.generic) {
-            if (recommendation.profile.generic.magicType) {
-              // Map magicType to corresponding trait
-              const magicType = recommendation.profile.generic.magicType;
-              if (magicType === 'healing') traits.add('healing-magic');
-              else if (magicType === 'damage') traits.add('damage-magic');
-              else if (magicType === 'utility') traits.add('utility-magic');
-              else if (magicType === 'control') traits.add('control-magic');
-              else if (magicType === 'versatile') traits.add('versatile-magic');
-              else if (magicType === 'none') traits.add('arcane-averse-magic');
-            }
-
-            if (recommendation.profile.generic.originBackground) {
-              // Map backgrounds to corresponding traits
-              const backgrounds = recommendation.profile.generic.originBackground;
-              backgrounds.forEach(bg => {
-                traits.add(`${bg}-background`);
-              });
-            }
+          if (recommendation.profile && recommendation.profile.traits) {
+            recommendation.profile.traits.forEach(trait => traits.add(trait));
           }
 
           return Array.from(traits);
@@ -2018,9 +1951,9 @@
                   : folkRestriction === folk;
 
                 if (isFolkMatch) {
-                  // Add specific traits from this restricted archetype
-                  if (Array.isArray(archetypeData.specific)) {
-                    archetypeData.specific.forEach(trait => traits.add(trait));
+                  // Add traits from this restricted archetype
+                  if (Array.isArray(archetypeData.traits)) {
+                    archetypeData.traits.forEach(trait => traits.add(trait));
                   }
                 }
               }
