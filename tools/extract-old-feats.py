@@ -83,7 +83,7 @@ if __name__ == '__main__':
             name = feat['name'].replace('"', '\\"')
             anchor = feat['anchor']
             desc = feat['description'].replace('\\', '\\\\').replace('"', '\\"')
-            
+
             f.write(f'- name: "{name}"\n')
             f.write(f'  anchor: "{anchor}"\n')
             f.write(f'  description: "{desc}"\n')
