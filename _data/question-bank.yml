@@ -127,40 +127,52 @@
       control-magic: 1
       cunning-value: 1
     dont-know: {}
-- id: magic-interest
-  text: Are you interested in using magic?
+- id: magic-philosophy-approach
+  text: What's your relationship with magical power?
   category: magic-preference
   answers:
-    'Yes':
-      versatile-magic: 4
-      arcane-magic: 5
+    Natural inborn magic:
+      innate-magic: 6
+      intuitive-value: 3
+      fey-touched: 2
+      wild-surges: 2
+      draconic-heritage: 1
+      chaotic-value: 1
+    Studied mastery:
+      scholar: 4
+      arcane-magic: 13
       knowledge-seeker: 2
-      scholar: 2
-      utility-magic: 1
-      damage-magic: 1
-      healing-magic: 1
-      control-magic: 1
-      otherworldly-knowledge: 1
-      innate-magic: -2
-      instinctive-combatant: -2
-      athletic-prowess: -1
-    'Maybe':
-      utility-magic: 2
+      academic-background: 2
+      lawful-value: 1
       versatile-magic: 1
-      adaptable-fighter: 1
-      cunning-value: 1
-    'No':
+    Forbidden & dangerous knowledge:
+      otherworldly-knowledge: 4
+      ancient-knowledge: 3
+      aberrant-influence: 2
+      shadow-magic: 2
+      demonic-corruption: 1
+      knowledge-seeker: 2
+    Elemental forces call me:
+      elemental-affinity: 4
+      fire-affinity: 3
+      nature-magic: 3
+      damage-magic: 3
+      arcane-magic: 3
+      innate-magic: 2
+      versatile-magic: 1
+    Weave tricks & illusions:
+      utility-magic: 3
+      control-magic: 2
+      versatile-magic: 2
+      knowledge-seeker: 1
+      arcane-magic: 2
+    Magic holds no sway:
       magic-hunter: 3
       spell-disruptor: 3
-      innate-magic: 3
       athletic-prowess: 3
-      versatile-magic: -3
       instinctive-combatant: 2
       weapon-specialist: 2
       martial: 2
-      damage-magic: -2
-      healing-magic: -2
-      utility-magic: -2
     dont-know: {}
 - id: nature-relationship-philosophy
   text: What is your deepest relationship with the natural world?
@@ -236,34 +248,6 @@
       craftsman-background: 4
       innovation-specialist: 2
       disciplined-value: 1
-    dont-know: {}
-- id: elemental-power
-  text: Are you drawn to elemental forces (fire, ice, lightning)?
-  category: power-source
-  answers:
-    'Yes':
-      elemental-affinity: 4
-      fire-affinity: 3
-      nature-magic: 3
-      damage-magic: 3
-      draconic-heritage: 2
-      arcane-magic: 4
-      innate-magic: 3
-      wild-surges: 1
-      chaos-magic: 1
-      versatile-magic: 1
-      reckless-value: 1
-      divine-magic: -1
-    'Maybe':
-      versatile-magic: 2
-      nature-magic: 1
-      elemental-affinity: 1
-      arcane-magic: 1
-    'No':
-      divine-magic: 2
-      elemental-affinity: -2
-      martial: 1
-      weapon-specialist: 1
     dont-know: {}
 - id: weapon-mastery
   text: Do you want to specialize in mastering specific weapons?
@@ -449,32 +433,6 @@
     'No':
       mind-alteration: -2
     dont-know: {}
-- id: study-vs-talent
-  text: Do you prefer learning through study and books over natural talent?
-  category: learning-style
-  answers:
-    'Yes':
-      scholar: 4
-      arcane-magic: 13
-      academic-background: 2
-      knowledge-seeker: 2
-      lawful-value: 1
-      instinctive-combatant: -2
-      innate-magic: -2
-      chaotic-value: -1
-    'Maybe':
-      dual-nature: 1
-      versatile-magic: 1
-      adaptable-fighter: 1
-    'No':
-      intuitive-value: 4
-      innate-magic: 6
-      fey-touched: 2
-      instinctive-combatant: 2
-      wild-surges: 1
-      draconic-heritage: 1
-      chaotic-value: 1
-    dont-know: {}
 - id: lethal-force
   text: Are you comfortable with using lethal force when necessary?
   category: moral-approach
@@ -531,36 +489,6 @@
       physical: 1
     dont-know: {}
 
-- id: forbidden-knowledge
-  text: Are you drawn to mysterious, otherworldly, or forbidden knowledge?
-  category: knowledge-type
-  answers:
-    'Yes':
-      otherworldly-knowledge: 4
-      knowledge-seeker: 3
-      scholar: 2
-      ancient-knowledge: 3
-      ancient-lore: 2
-      aberrant-influence: 2
-      demonic-corruption: 1
-      shadow-magic: 2
-      arcane-magic: 5
-      tactical-value: 2
-      intuitive-value: -2
-      instinctive-combatant: -2
-      innate-magic: -1
-    'Maybe':
-      knowledge-seeker: 2
-      scholar: 1
-      arcane-magic: 1
-      versatile-magic: 1
-    'No':
-      otherworldly-knowledge: -2
-      intuitive-value: 3
-      instinctive-combatant: 2
-      innate-magic: 2
-      physical: 2
-    dont-know: {}
 - id: ancestral-wisdom
   text: Do you feel connected to the memories and wisdom of your ancestors?
   category: character-heritage
