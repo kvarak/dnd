@@ -5,9 +5,9 @@ on:
   pull_request:
     branches: [ main ]
 
-  # Weekly monitoring on Sundays at 2 AM UTC
-  schedule:
-    - cron: '0 2 * * 0'
+  # # Weekly monitoring on Sundays at 2 AM UTC
+  # schedule:
+  #   - cron: '0 2 * * 0'
 
   # Allow manual trigger
   workflow_dispatch:
