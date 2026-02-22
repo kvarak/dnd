@@ -91,7 +91,7 @@
       knowledge-seeker: 2
     dont-know: {}
 - id: magic-philosophy-approach
-  text: What's your relationship with magical power?
+  text: What is your relationship with magical power?
   category: magic-preference
   answers:
     Natural inborn magic:
@@ -483,7 +483,7 @@
       illusion-specialist: -2
     dont-know: {}
 - id: morality-conflict-approach
-  text: What's your approach to conflict?
+  text: What is your approach to conflict?
   category: moral-approach
   answers:
     Lethal pragmatism:
@@ -849,7 +849,7 @@
   text: What unconventional combat style appeals to you?
   category: combat-style
   answers:
-    Whatever's at hand:
+    Whatever is at hand:
       improvised-specialist: 4
       adaptable-fighter: 3
       pragmatic-fighter: 2
@@ -911,7 +911,7 @@
       monster-hunter: 2
       survival-expert: 1
       tactical-value: 1
-    Hunting isn't my path:
+    Hunting is not my path:
       peaceful-soul: 2
       diplomatic-soul: 1
       academic-background: 2
@@ -1036,7 +1036,7 @@
       physical: 2
     dont-know: {}
 - id: truth-investigation-method
-  text: Are you drawn to uncovering hidden truths and solving mysteries? If so, what's your preferred approach?
+  text: Are you drawn to uncovering hidden truths and solving mysteries? If so, what is your preferred approach?
   category: character-motivation
   answers:
     Leave no stone unturned:
@@ -1108,7 +1108,7 @@
       instinctive-combatant: 2
     dont-know: {}
 - id: high-stakes-risk-approach
-  text: What's your preferred approach when facing high-stakes, dangerous situations?
+  text: What is your preferred approach when facing high-stakes, dangerous situations?
   category: character-approach
   answers:
     Stylish & daring:
@@ -1134,7 +1134,7 @@
       patient-value: 2
     dont-know: {}
 - id: tracking-pursuit-expertise
-  text: What's your preferred method for tracking and pursuing difficult targets?
+  text: What is your preferred method for tracking and pursuing difficult targets?
   category: character-specialty
   answers:
     Relentless pursuit:
@@ -1274,7 +1274,7 @@
       resourceful: 2
     dont-know: {}
 - id: shadow-specialty
-  text: What's your specialty in the shadows?
+  text: What is your specialty in the shadows?
   category: character-craft
   answers:
     Silent ghost through walls:
