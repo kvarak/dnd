@@ -1132,7 +1132,6 @@ html.dark-mode .search-result-item:hover {
   transform: scale(0.95);
 }
 
-@media (max-width: 768px) {
   #dark-mode-toggle {
     margin-left: 10px;
     padding: 4px 8px;

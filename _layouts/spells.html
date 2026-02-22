@@ -2,9 +2,16 @@
 <html>
   <head>
     {% include head.html %}
+    {% assign firstclass = 3 %}
+    {% assign levelposition = 2 %}
+    {% assign i = firstclass %}
 
     <!-- Datatables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.css"/>
+    <!-- Spells Enhanced CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/spells-enhanced.css"/>
+    <!-- Class Colors CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/class-colors.css"/>
 
     <!-- Dark mode overrides for DataTables (must come after DataTables CSS) -->
     <style>
@@ -31,6 +38,24 @@
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.12.0/datatables.min.js"></script>
     <!-- Papa Parse -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+
+    <script type="text/javascript">
+      // Jekyll-generated data
+      var pageClasses = [{% for class in page.classes %}'{{ class }}'{% unless forloop.last %},{% endunless %}{% endfor %}];
+      var firstClassIndex = {{ firstclass }};
+      var levelPosition = {{ levelposition }};
+
+      // Build class column data with proper indexes
+      var classColumnData = [];
+      var classIndex = firstClassIndex;
+      {% for class in page.classes %}
+        classColumnData.push({
+          name: '{{ class }}',
+          column: classIndex
+        });
+        classIndex++;
+      {% endfor %}
+    </script>
 
     <script type="text/javascript">
       // spells
@@ -97,16 +122,20 @@
       var contentTable = $('#contentTable').DataTable({data: []});
 
       function fillTable(results) {
-        {% assign firstclass = 3 %}
         var tableContent = []
         var data = results.data
+
+        // Store raw data globally for spell card access
+        window.rawSpellData = data;
+        console.log('Stored raw spell data:', data.length, 'spells');
+        console.log('Sample spell data:', data[0]);
 
         $('#alert').text('Imported ' + data.length + ' spells.')
 
         var archetypeDict = {};
-        {% for class in page.classes %}
-          archetypeDict['{{ class }}'] = new Set();
-        {% endfor %}
+        pageClasses.forEach(function(className) {
+          archetypeDict[className] = new Set();
+        });
 
 
         data.forEach((row) => {
@@ -134,42 +163,58 @@
           }
 
           var archetypes = ""
-          {% for class in page.classes %}
-            if (row['{{ class }}'] != "Yes" && row['{{ class }}'] != "No") {
-              archetypes = row['{{ class }}'].split(',')
+          pageClasses.forEach(function(className) {
+            if (row[className] != "Yes" && row[className] != "No") {
+              archetypes = row[className].split(',');
 
               for (const element of archetypes) {
-                archetypeDict['{{ class }}'].add(element)
-              };
-            };
-          {% endfor %}
+                const trimmedElement = element.trim();
+                // Only add non-empty elements that aren't "Yes", "No", or empty
+                if (trimmedElement && trimmedElement !== "Yes" && trimmedElement !== "No" && trimmedElement !== "") {
+                  archetypeDict[className].add(trimmedElement);
+                }
+              }
+            }
+          });
 
-          tableContent.push([
+          var rowData = [
             txt,
             row['Web_Description'],
-            row['Level'],
-            {% for class in page.classes %}
-              row['{{ class }}'],
-            {% endfor %}
-            row['Ritual']]);
+            row['Level']
+          ];
+
+          // Add class columns
+          pageClasses.forEach(function(className) {
+            rowData.push(row[className]);
+          });
+
+          rowData.push(row['Ritual']);
+
+          tableContent.push(rowData);
         });
+
+        var columns = [
+          { title: 'Spell'},
+          { title: 'Description'},
+          { title: 'Level'}
+        ];
+
+        // Add class columns
+        pageClasses.forEach(function(className) {
+          columns.push({ title: className });
+        });
+
+        columns.push({ title: 'Ritual'});
 
         contentTable = $('#contentTable').DataTable({
           data: tableContent,
-          order: [[0, 'desc']],
-          ordering: false,
+          order: [[2, 'asc']],
+          ordering: true,
           iDisplayLength: -1,
           columnDefs: [
             { targets: [0,1], visible: true},
             { targets: '_all', visible: false }],
-          columns: [
-            { title: 'Spell'},
-            { title: 'Description'},
-            { title: 'Level'},
-            {% for class in page.classes %}
-            { title: '{{ class }}'},
-            {% endfor %}
-            { title: 'Ritual'}],
+          columns: columns,
           dom: "<'row'<'col-sm-12'f>>" + "<'row'<'col-sm-12'tr>>"
         });
 
@@ -184,54 +229,49 @@
         }
 
 
-        {% assign i = firstclass %}
+        var archetypeIndex = firstClassIndex;
 
-        {% for class in page.classes %}
+        pageClasses.forEach(function(className) {
+          archetypeDict[className] = Array.from(archetypeDict[className]).sort();
 
-          archetypeDict['{{ class }}'] = Array.from(archetypeDict['{{ class }}']).sort();
-
-          archetypeDict['{{ class }}'].forEach (function(archetype) {
-            $('#archetypeSelection').append('<option class="{{ i }}archetype d-none" value="' + archetype + '">' + archetype + '</option>');
-            {% assign i = i | plus:1 %}
+          archetypeDict[className].forEach(function(archetype) {
+            $('#archetypePillsContainer').append('<span class="badge bg-secondary archetype-pill ' + archetypeIndex + 'archetype d-none me-1 mb-1" data-value="' + archetype + '" role="button">' + archetype + '</span>');
           });
-        {% endfor %}
+
+          archetypeIndex++;
+        });
 
       };
 
 
       $(document).ready(function() {
-        {% assign levelposition = 2 %}
-
         ////////////////////////////
-        //// Initialize selections
-        $('#classSelection').data('pre', $(this).val());
-
-        $('.levelSelect').each(function() {
-          $(this).prop('checked', true);
+        //// Initialize level pills
+        $('.level-pill').each(function() {
+          $(this).addClass('active');
         });
 
-
         ////////////////////////////
-        //// Count spells
-        function countSpells() {
-          spellCount = $('#contentTable').DataTable().rows( {search:'applied'} ).count();
-          $('#alert').text(spellCount + ' spells in selection')
-        };
+        //// Level pill selection
+        $('.level-pill').on('click', function() {
+          $(this).toggleClass('active');
 
-
-
-        ////////////////////////////
-        //// Level selection
-        $('.levelSelect').on('change', function() {
           var levels = [];
-          $('.levelSelect:checked').each(function() {
-            levels.push($(this).val());
+          $('.level-pill.active').each(function() {
+            levels.push($(this).data('level'));
           });
 
-          $('#contentTable').DataTable()
-            .columns( '{{ levelposition }}' )
-            .search( levels.join('|'), true, false )
-            .draw();
+          if (levels.length === 0) {
+            $('#contentTable').DataTable()
+              .columns( levelPosition )
+              .search( 'Hide all rows' )
+              .draw();
+          } else {
+            $('#contentTable').DataTable()
+              .columns( levelPosition )
+              .search( levels.join('|'), true, false )
+              .draw();
+          }
 
           countSpells();
         });
@@ -241,23 +281,23 @@
         //// Reset level selection
         $('#resetLevel').on('click', function() {
 
-          if ($('.levelSelect').is(":checked")) {
-            $('.levelSelect').each(function() {
-              $(this).prop('checked', false);
+          if ($('.level-pill.active').length > 0) {
+            $('.level-pill').each(function() {
+              $(this).removeClass('active');
             });
 
             $('#contentTable').DataTable()
-            .columns( '{{ levelposition }}' )
+            .columns( levelPosition )
             .search( 'Hide all rows' )
             .draw();
 
           } else {
-            $('.levelSelect').each(function() {
-              $(this).prop('checked', true);
+            $('.level-pill').each(function() {
+              $(this).addClass('active');
             });
 
             $('#contentTable').DataTable()
-            .columns( '{{ levelposition }}' )
+            .columns( levelPosition )
             .search( '' )
             .draw();
           }
@@ -267,10 +307,58 @@
 
 
         ////////////////////////////
-        //// Class selection
-        $('#classSelection').on('change', function() {
-          var value_before_change = $(this).data('pre');
-          var selectedClassCol = $(this).val();
+        //// Sort toggle functionality
+        let currentSortMode = 'level'; // 'level' or 'alphabetical'
+        const sortToggle = document.getElementById('sort-toggle');
+        const sortIcon = document.getElementById('sort-icon');
+        const sortText = document.querySelector('.sort-text');
+
+        if (sortToggle) {
+          sortToggle.addEventListener('click', function() {
+            if (currentSortMode === 'level') {
+              // Switch to alphabetical
+              contentTable.order([[0, 'asc']]).draw();
+              currentSortMode = 'alphabetical';
+              sortIcon.textContent = '🔤';
+              sortText.textContent = 'Sort by Name';
+              sortToggle.title = 'Currently sorting alphabetically - click to sort by level';
+              sortToggle.classList.remove('btn-outline-info');
+              sortToggle.classList.add('btn-outline-success');
+            } else {
+              // Switch to level
+              contentTable.order([[2, 'asc']]).draw();
+              currentSortMode = 'level';
+              sortIcon.textContent = '📊';
+              sortText.textContent = 'Sort by Level';
+              sortToggle.title = 'Currently sorting by level - click to sort alphabetically';
+              sortToggle.classList.remove('btn-outline-success');
+              sortToggle.classList.add('btn-outline-info');
+            }
+          });
+        }
+
+        ////////////////////////////
+        //// Initialize class selection
+        $('.class-pill').data('pre', levelPosition);
+        $('.class-pill[data-column="' + levelPosition + '"]').addClass('active');
+
+        ////////////////////////////
+        //// Class pill selection
+        $('.class-pill').on('click', function() {
+          var $clickedPill = $(this);
+
+          // Don't toggle off the active pill, just switch to new one
+          if ($clickedPill.hasClass('active')) {
+            return;
+          }
+
+          var value_before_change = $('.class-pill.active').data('column');
+          var selectedClassCol = $clickedPill.data('column');
+          var className = $clickedPill.data('class-name') || 'All';
+
+          // Update pill states
+          $('.class-pill').removeClass('active');
+          $clickedPill.addClass('active');
 
           var table = $('#contentTable').DataTable()
 
@@ -286,24 +374,44 @@
 
           $('.' + value_before_change + 'archetype').addClass('d-none');
 
-          if (selectedClassCol == '{{ levelposition }}' ) {
-            $('#archetypeSelection').addClass('d-none');
+          if (selectedClassCol == levelPosition ) {
+            $('#archetypeRow').addClass('d-none');
           } else {
-            $('#archetypeSelection').removeClass('d-none');
-            $('#archetypeSelection').val('None').change();
+            $('#archetypeRow').removeClass('d-none');
+            // Reset to base class spells
+            $('.archetype-pill').removeClass('active');
+            $('.archetype-pill[data-value="None"]').addClass('active');
             $('.' + selectedClassCol + 'archetype').removeClass('d-none');
+            // Trigger archetype filtering
+            triggerArchetypeFilter();
           }
 
-          // save currently selected
-          $(this).data('pre', $(this).val());
           countSpells();
         });
 
         ////////////////////////////
+        //// Count spells
+        function countSpells() {
+          spellCount = $('#contentTable').DataTable().rows( {search:'applied'} ).count();
+          $('#alert').text(spellCount + ' spells in selection')
+        };
+
+        ////////////////////////////
         //// Archetype selection
-        $('#archetypeSelection').on('change', function() {
-          classColumn = $('#classSelection').val()
-          archetypeRegEx = 'Yes|' + $('#archetypeSelection').val()
+        $(document).on('click', '.archetype-pill', function() {
+          if ($(this).hasClass('d-none')) return; // Skip hidden pills
+
+          // Update active state
+          $('.archetype-pill').removeClass('active');
+          $(this).addClass('active');
+
+          triggerArchetypeFilter();
+        });
+
+        function triggerArchetypeFilter() {
+          classColumn = $('.class-pill.active').data('column');
+          selectedArchetype = $('.archetype-pill.active').data('value');
+          archetypeRegEx = 'Yes|' + selectedArchetype;
 
           $('#contentTable').DataTable()
             .columns( classColumn )
@@ -311,7 +419,7 @@
             .draw();
 
           countSpells();
-        });
+        }
 
       });
     </script>
@@ -326,42 +434,59 @@
 
 
       <div class="form-group row">
-        <label class="col-sm-2 col-form-label font-weight-bold text-right" for="levelSelection">Spell levels:</label>
-
-        <div class="col-sm-8 pt-2">
-          <label><input type="checkbox" class="levelSelect" value="0"> Cantrips</label>
-
-          {% for n in (1..9) %}
-            <label><input type="checkbox" class="levelSelect" value="{{ n }}"> {{ n }}</label>
-          {% endfor %}
-        </div>
-
-        <div class="col-sm-2">
-          <button class="btn btn-sm btn-outline-primary" id="resetLevel">Check/uncheck all</button>
+        <div class="col-sm-8 pt-1">
+          <div class="spell-level-pills d-flex flex-wrap">
+            <button type="button" class="btn btn-sm btn-outline-secondary level-pill active mr-1 mb-1" data-level="0">
+              Cantrips
+            </button>
+            {% for n in (1..9) %}
+              <button type="button" class="btn btn-sm btn-outline-secondary level-pill active mr-1 mb-1" data-level="{{ n }}">
+                {{ n }}
+              </button>
+            {% endfor %}
+            &nbsp;&nbsp;<button class="btn btn-sm btn-outline-primary" id="resetLevel">Check/uncheck all</button>
+          </div>
         </div>
       </div>
 
 
       <div class="form-group row">
-        <label class="col-sm-2 col-form-label font-weight-bold text-right" for="classSelection">Class:</label>
-        <div class="col-sm-4">
-          <select class="form-control" id="classSelection">
-            <option value="{{ levelposition }}">All</option>
-
+        <div class="col-sm-6 pt-1">
+          <div class="spell-class-pills d-flex flex-wrap">
+            <span class="badge bg-primary class-pill active me-1 mb-1" data-column="{{ levelposition }}" role="button">
+              All Classes
+            </span>
             {% assign i = firstclass %}
             {% for class in page.classes %}
-              <option value="{{ i }}">{{ class }}</option>
+              <span class="badge bg-secondary class-pill me-1 mb-1" data-column="{{ i }}" data-class-name="{{ class }}" role="button">
+                {{ class }}
+              </span>
               {% assign i = i | plus:1 %}
             {% endfor %}
-          </select>
+          </div>
         </div>
 
         <div class="col-sm-4">
-          <select class="form-control d-none" id="archetypeSelection">
-            <option id="baseChoice" value="None">Base class spells</option>
-          </select>
+          <div class="d-flex justify-content-end align-items-center h-100">
+            <div class="btn-group" role="group" aria-label="Sort options">
+              <button type="button" class="btn btn-sm btn-outline-info" id="sort-toggle" aria-label="Toggle sort order" title="Currently sorting by level - click to sort alphabetically">
+                <span id="sort-icon">📊</span> <span class="sort-text">Sort by Level</span>
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
 
+      <!-- Archetype Pills Row -->
+      <div class="form-group row d-none" id="archetypeRow">
+        <div class="col-sm-10 pt-1">
+          <div class="spell-archetype-pills d-flex flex-wrap" id="archetypePillsContainer">
+            <span class="badge bg-secondary archetype-pill active me-1 mb-1" data-value="None" role="button">
+              Base class spells
+            </span>
+            <!-- Archetype pills will be dynamically added here -->
+          </div>
+        </div>
       </div>
 
       <p id="alert" style="font-style:italic;font-size-adjust:-1;">Please wait, importing spells...</p>
@@ -372,6 +497,9 @@
 
     <!-- Search functionality -->
     <script src="{{ site.baseurl }}/assets/js/search.min.js?v={{ site.time | date: '%s' }}"></script>
+
+    <!-- Spells Enhanced functionality -->
+    <script src="{{ site.baseurl }}/assets/js/spells-enhanced.js?v={{ site.time | date: '%s' }}"></script>
 
 </body>
 </html>

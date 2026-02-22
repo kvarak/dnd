@@ -2,6 +2,8 @@
 <html>
   <head>
     {% include head.html %}
+    <!-- Class Colors CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/class-colors.css"/>
     <style>
       /* Questionnaire-specific styles */
       .gap-2 {
@@ -235,27 +237,7 @@
         color: #000;
       }
 
-      /* Class-based colors */
-      .class-fighter { background: linear-gradient(90deg, #8b4513, #a0522d); }
-      .class-sorcerer { background: linear-gradient(90deg, #9370db, #ba55d3); }
-      .class-wizard { background: linear-gradient(90deg, #4169e1, #6495ed); }
-      .class-cleric { background: linear-gradient(90deg, #ffd700, #ffed4e); }
-      .class-rogue { background: linear-gradient(90deg, #2f4f4f, #556b6b); }
-      .class-ranger { background: linear-gradient(90deg, #228b22, #32cd32); }
-      .class-paladin { background: linear-gradient(90deg, #b8860b, #daa520); }
-      .class-barbarian { background: linear-gradient(90deg, #dc143c, #ff6347); }
-      .class-bard { background: linear-gradient(90deg, #ff1493, #ff69b4); }
-      .class-druid { background: linear-gradient(90deg, #8fbc8f, #90ee90); }
-      .class-monk { background: linear-gradient(90deg, #4682b4, #5f9ea0); }
-      .class-warlock { background: linear-gradient(90deg, #8b008b, #9932cc); }
-      .class-cursed { background: linear-gradient(90deg, #191970, #483d8b); }
-      .class-cavalier { background: linear-gradient(90deg, #cd853f, #daa520); }
-      .class-alchemist { background: linear-gradient(90deg, #20b2aa, #48d1cc); }
-      .class-feyblood { background: linear-gradient(90deg, #ff69b4, #ffc0cb); }
-      .class-inquisitor { background: linear-gradient(90deg, #800000, #a52a2a); }
-      .class-professional { background: linear-gradient(90deg, #708090, #778899); }
-      .class-swashbuckler { background: linear-gradient(90deg, #006400, #228b22); }
-      .class-default { background: linear-gradient(90deg, #696969, #808080); }
+
 
       @media (max-width: 768px) {
         .answer-btn {
