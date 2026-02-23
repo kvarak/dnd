@@ -73,6 +73,7 @@ layout: none
     "content": {{ poison.description | jsonify }}
   }{% unless forloop.last %},{% endunless %}{% if site.data.searchable_old_feats.size > 0 %},{% endif %}
 {% endfor %}
+{% endif %}
 {% if site.data.searchable_old_feats.size > 0 %}
 {% for feat in site.data.searchable_old_feats %}
   {
