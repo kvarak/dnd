@@ -12,7 +12,7 @@ layout: none
     "url": "{{ site.baseurl }}{{ doc.url }}",
     "collection": "{{ doc.collection }}",
     "content": {{ doc.content | strip_html | strip_newlines | truncate: 500 | jsonify }}
-  }{% unless forloop.last %},{% endunless %}{% if site.data.searchable_skills.size > 0 %},{% endif %}
+  }{% if forloop.last %}{% if site.data.searchable_skills.size > 0 %},{% endif %}{% else %},{% endif %}
 {% endfor %}
 {% if site.data.searchable_skills.size > 0 %}
 {% for skill in site.data.searchable_skills %}
@@ -21,7 +21,7 @@ layout: none
     "url": "{{ site.baseurl }}/RulesCharacter/skills.html#skill-{{ skill.id }}",
     "collection": "skills",
     "content": {{ skill.description | jsonify }}
-  }{% unless forloop.last %},{% endunless %}{% if site.data.searchable_combat_skills.size > 0 %},{% endif %}
+  }{% if forloop.last %}{% if site.data.searchable_combat_skills.size > 0 %},{% endif %}{% else %},{% endif %}
 {% endfor %}
 {% endif %}
 {% if site.data.searchable_combat_skills.size > 0 %}
@@ -31,7 +31,7 @@ layout: none
     "url": "{{ site.baseurl }}/RulesCharacter/skills_combat.html#skill-{{ skill.id }}",
     "collection": "combat skills",
     "content": {{ skill.description | jsonify }}
-  }{% unless forloop.last %},{% endunless %}{% if site.data.searchable_familiars.size > 0 %},{% endif %}
+  }{% if forloop.last %}{% if site.data.searchable_familiars.size > 0 %},{% endif %}{% else %},{% endif %}
 {% endfor %}
 {% endif %}
 {% if site.data.searchable_familiars.size > 0 %}
@@ -41,7 +41,7 @@ layout: none
     "url": "{{ site.baseurl }}/RulesMagic/familiars.html#{{ familiar.anchor }}",
     "collection": "familiars",
     "content": {{ familiar.description | jsonify }}
-  }{% unless forloop.last %},{% endunless %}{% if site.data.searchable_alchemical.size > 0 %},{% endif %}
+  }{% if forloop.last %}{% if site.data.searchable_alchemical.size > 0 %},{% endif %}{% else %},{% endif %}
 {% endfor %}
 {% endif %}
 {% if site.data.searchable_alchemical.size > 0 %}
@@ -51,7 +51,7 @@ layout: none
     "url": "{{ site.baseurl }}/RulesEquipment/alchemical.html#{{ item.anchor }}",
     "collection": "alchemical",
     "content": {{ item.description | jsonify }}
-  }{% unless forloop.last %},{% endunless %}{% if site.data.searchable_herbal.size > 0 %},{% endif %}
+  }{% if forloop.last %}{% if site.data.searchable_herbal.size > 0 %},{% endif %}{% else %},{% endif %}
 {% endfor %}
 {% endif %}
 {% if site.data.searchable_herbal.size > 0 %}
@@ -61,7 +61,7 @@ layout: none
     "url": "{{ site.baseurl }}/RulesEquipment/herbal.html#{{ item.anchor }}",
     "collection": "herbal",
     "content": {{ item.description | jsonify }}
-  }{% unless forloop.last %},{% endunless %}{% if site.data.searchable_poisons.size > 0 %},{% endif %}
+  }{% if forloop.last %}{% if site.data.searchable_poisons.size > 0 %},{% endif %}{% else %},{% endif %}
 {% endfor %}
 {% endif %}
 {% if site.data.searchable_poisons.size > 0 %}
@@ -71,7 +71,7 @@ layout: none
     "url": "{{ site.baseurl }}/RulesEquipment/poison.html#{{ poison.anchor }}",
     "collection": "poisons",
     "content": {{ poison.description | jsonify }}
-  }{% unless forloop.last %},{% endunless %}{% if site.data.searchable_old_feats.size > 0 %},{% endif %}
+  }{% if forloop.last %}{% if site.data.searchable_old_feats.size > 0 %},{% endif %}{% else %},{% endif %}
 {% endfor %}
 {% endif %}
 {% if site.data.searchable_old_feats.size > 0 %}
