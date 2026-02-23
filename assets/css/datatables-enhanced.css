@@ -1,0 +1,87 @@
+/* DataTables Enhanced Styling */
+/* Light mode defaults - dark mode in datatables-dark.css */
+
+/* ========================================
+   DataTables Search Field
+   ======================================== */
+
+.dataTables_filter {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.dataTables_filter label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.dataTables_filter input[type="search"] {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  color: #212529;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  width: auto;
+  margin-left: 0;
+}
+
+.dataTables_filter input[type="search"]::placeholder {
+  color: #6c757d;
+  opacity: 0.6;
+}
+
+.dataTables_filter input[type="search"]:focus {
+  background-color: #fff;
+  border-color: #86b7fe;
+  color: #212529;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* ========================================
+   Custom Search Fields
+   ======================================== */
+
+/* Generic search field styling */
+.custom-search-field {
+  background-color: #fff;
+  border-color: #ced4da;
+  color: #212529;
+}
+
+.custom-search-field::placeholder {
+  color: #6c757d;
+  opacity: 0.6;
+}
+
+.custom-search-field:focus {
+  background-color: #fff;
+  border-color: #86b7fe;
+  color: #212529;
+}
+
+/* Specific search field IDs */
+#spells-search,
+#card-footer-text {
+  background-color: #fff;
+  border-color: #ced4da;
+  color: #212529;
+}
+
+#spells-search::placeholder,
+#card-footer-text::placeholder {
+  color: #6c757d;
+  opacity: 0.6;
+}
+
+#spells-search:focus,
+#card-footer-text:focus {
+  background-color: #fff;
+  border-color: #86b7fe;
+  color: #212529;
+}

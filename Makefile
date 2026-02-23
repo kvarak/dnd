@@ -11,7 +11,7 @@
 # - Focus on daily development workflow
 # - Everything works out of the box
 
-.PHONY: help serve build extract minify clean find-broken-links ci-build update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose validate-profiles validate-questions analyze-question-traits test-class-scoring test-ranking-system
+.PHONY: help serve build extract clean find-broken-links ci-build update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose validate-profiles validate-questions analyze-question-traits test-class-scoring test-ranking-system
 
 # Docker configuration
 DOCKER_IMAGE = dnd-jekyll
@@ -53,9 +53,9 @@ help:
 	@echo ""
 	@echo "🐳 Everything runs in Docker - no local setup needed!"
 
-# Build Docker image with Jekyll + Node.js + minification tools
+# Build Docker image with Jekyll
 build:
-	@echo "🐳 Building Docker image with Jekyll + Node.js..."
+	@echo "🐳 Building Docker image with Jekyll..."
 	docker build -t $(DOCKER_IMAGE) .
 
 # Extract searchable content (skills, familiars, feats, etc.)
@@ -63,23 +63,10 @@ extract: build
 	@echo "🔍 Extracting searchable content..."
 	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) ruby tools/extract-searchable.rb
 
-# Minify CSS and JS inside Docker container
-minify: build
-	@echo "⚡ Minifying assets inside Docker..."
-	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		cleancss -o assets/css/style.min.css assets/css/style.css && \
-		cleancss -o assets/css/newstyle.min.css assets/css/newstyle.css && \
-		terser assets/js/search.js -o assets/js/search.min.js -c -m && \
-		terser assets/js/skills-anchors.js -o assets/js/skills-anchors.min.js -c -m && \
-		terser assets/js/function.js -o assets/js/function.min.js -c -m && \
-		terser assets/js/dark-mode.js -o assets/js/dark-mode.min.js -c -m"
-	@echo "✅ Minified: $$(du -h assets/css/style.min.css | cut -f1) CSS, $$(du -h assets/js/search.min.js | cut -f1) JS"
-
-# Start development server (does extract & minify automatically)
-serve: clean build extract minify
+# Start development server (does extract automatically)
+serve: clean build extract
 	@echo "🚀 Starting Jekyll development server..."
 	@echo "📍 http://localhost:4000/dnd/"
-	@echo "✅ Using minified assets (dev/prod parity)"
 	@docker run --rm --name $(CONTAINER_NAME) -v $(PWD):/srv/jekyll -p 4000:4000 $(DOCKER_IMAGE)
 
 # Clean up containers and images

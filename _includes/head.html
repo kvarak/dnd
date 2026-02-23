@@ -59,11 +59,11 @@
 <!-- Google Fonts: Buenard (Self-hosted) -->
 <link href="{{ site.baseurl }}/assets/vendor/fonts/buenard.css" rel="stylesheet">
 
-<!-- My style (minified for dev/prod parity) - cache busted by build time -->
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.min.css?v={{ site.time | date: '%s' }}">
+<!-- My style - cache busted by build time -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?v={{ site.time | date: '%s' }}">
 
-<!-- Dark Mode (must load early to prevent flash, minified for dev/prod parity) -->
-<script src="{{ site.baseurl }}/assets/js/dark-mode.min.js?v={{ site.time | date: '%s' }}"></script>
+<!-- Dark Mode (must load early to prevent flash) -->
+<script src="{{ site.baseurl }}/assets/js/dark-mode.js?v={{ site.time | date: '%s' }}"></script>
 
 <!-- GoatCounter Analytics -->
 <script data-goatcounter="https://stats.dnd.kvarak.net/count"

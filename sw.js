@@ -11,7 +11,7 @@ const OFFLINE_PAGE = '/dnd/offline.html';
 const CORE_CACHE = [
   '/dnd/',
   '/dnd/offline.html',
-  '/dnd/assets/css/style.min.css',
+  '/dnd/assets/css/style.css',
   '/dnd/assets/vendor/bootstrap/bootstrap.min.css',
   '/dnd/assets/vendor/bootstrap/bootstrap.bundle.min.js',
   '/dnd/assets/vendor/jquery/jquery-3.7.1.min.js',
@@ -19,8 +19,8 @@ const CORE_CACHE = [
   '/dnd/assets/vendor/fonts/buenard.css',
   '/dnd/assets/vendor/fonts/buenard-regular.ttf',
   '/dnd/assets/images/og-image.jpg',
-  '/dnd/assets/js/search.min.js',
-  '/dnd/assets/js/dark-mode.min.js'
+  '/dnd/assets/js/search.js',
+  '/dnd/assets/js/dark-mode.js'
 ];
 
 // Essential D&D reference pages to cache for offline gaming

@@ -1,0 +1,68 @@
+/* Advanced Filter Panel */
+/* Spells page specific - collapsible advanced filtering UI */
+/* Light mode defaults - dark mode in filters-advanced-dark.css */
+
+/* ========================================
+   Advanced Filter Panel
+   ======================================== */
+
+#advancedFilterPanel .card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#advancedFilterPanel .form-label {
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+/* ========================================
+   Filter Tags & Badges
+   ======================================== */
+
+#active-filter-tags {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#active-filter-tags .badge {
+  font-size: 0.85rem;
+  padding: 0.4rem 0.6rem;
+}
+
+.filter-tag-close {
+  margin-left: 0.3rem;
+  opacity: 0.7;
+}
+
+.filter-tag-close:hover {
+  opacity: 1;
+}
+
+#active-filter-count {
+  animation: pulse 0.3s ease;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* ========================================
+   Preset Buttons
+   ======================================== */
+
+.preset-btn {
+  transition: all 0.2s ease;
+}
+
+.preset-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

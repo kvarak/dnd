@@ -1,0 +1,50 @@
+/* Advanced Filter Panel - Dark Mode */
+
+/* ========================================
+   Advanced Filter Panel
+   ======================================== */
+
+html.dark-mode #advancedFilterPanel .card {
+  background-color: #2d2d2d !important;
+  border-color: #4a4a4a !important;
+  color: #e0e0e0 !important;
+}
+
+html.dark-mode #advancedFilterPanel .form-label,
+html.dark-mode #advancedFilterPanel .form-check-label {
+  color: #e0e0e0 !important;
+}
+
+html.dark-mode #advancedFilterPanel .form-check-input {
+  background-color: #3a3a3a;
+  border-color: #6c757d;
+}
+
+html.dark-mode #advancedFilterPanel .form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+html.dark-mode #advancedFilterPanel hr {
+  border-color: #4a4a4a !important;
+}
+
+html.dark-mode .advanced-filters .card {
+  background-color: #2d2d2d;
+  border-color: #4a4a4a;
+  color: #e0e0e0;
+}
+
+html.dark-mode .form-check-label {
+  color: #e0e0e0;
+}
+
+html.dark-mode .form-check-input {
+  background-color: #3a3a3a;
+  border-color: #4a4a4a;
+}
+
+html.dark-mode .form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}

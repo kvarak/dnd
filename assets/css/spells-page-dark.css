@@ -1,0 +1,110 @@
+/* Spells Page - Dark Mode */
+
+/* ========================================
+   Favorite Button
+   ======================================== */
+
+html.dark-mode .spell-favorite-btn {
+  background: rgba(58, 58, 58, 0.9);
+  border-color: #6c757d;
+  color: #e0e0e0;
+}
+
+html.dark-mode .spell-favorite-btn:hover {
+  background-color: #4a4a4a;
+  border-color: #adb5bd;
+  color: #f8f9fa;
+}
+
+html.dark-mode .spell-favorite-btn.favorited {
+  background: rgba(255, 193, 7, 0.2);
+  border-color: #ffc107;
+  color: #ffc107;
+}
+
+html.dark-mode .spell-favorite-btn.favorited:hover {
+  background: rgba(255, 193, 7, 0.3);
+  border-color: #ffcd39;
+  color: #ffcd39;
+}
+
+/* ========================================
+   Buttons
+   ======================================== */
+
+html.dark-mode .btn-outline-primary {
+  color: #86b7fe;
+  border-color: #86b7fe;
+}
+
+html.dark-mode .btn-outline-primary:hover {
+  background-color: #86b7fe;
+  color: #000;
+}
+
+html.dark-mode .btn-outline-success {
+  color: #75b798;
+  border-color: #75b798;
+}
+
+html.dark-mode .btn-outline-success:hover {
+  background-color: #75b798;
+  color: #000;
+}
+
+html.dark-mode .btn-outline-info {
+  color: #6ec8e7;
+  border-color: #6ec8e7;
+}
+
+html.dark-mode .btn-outline-info:hover {
+  background-color: #6ec8e7;
+  color: #000;
+}
+
+html.dark-mode .btn-outline-secondary {
+  color: #adb5bd;
+  border-color: #6c757d;
+}
+
+html.dark-mode .btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+/* ========================================
+   Modals & Forms
+   ======================================== */
+
+html.dark-mode .modal-content {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+html.dark-mode .modal-header {
+  border-bottom-color: #4a4a4a;
+}
+
+html.dark-mode .modal-footer {
+  border-top-color: #4a4a4a;
+}
+
+html.dark-mode .form-control {
+  background-color: #3a3a3a;
+  border-color: #4a4a4a;
+  color: #e0e0e0;
+}
+
+html.dark-mode .form-control:focus {
+  background-color: #3a3a3a;
+  border-color: #666;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* ========================================
+   Text & Misc
+   ======================================== */
+
+html.dark-mode .text-muted {
+  color: #adb5bd !important;
+}

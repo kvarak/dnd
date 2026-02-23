@@ -1,0 +1,109 @@
+/* Spells Page Specific Styles */
+/* Light mode defaults - dark mode in spells-page-dark.css */
+
+/* ========================================
+   Favorite Button
+   ======================================== */
+
+.spell-favorite-btn {
+  margin-left: 8px;
+  border: 1px solid #dee2e6;
+  background: rgba(255, 255, 255, 0.8);
+  color: #6c757d;
+  font-size: 16px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+
+.spell-favorite-btn:hover {
+  background-color: #f8f9fa;
+  border-color: #adb5bd;
+  color: #495057;
+  transform: scale(1.1);
+}
+
+.spell-favorite-btn.favorited {
+  color: #ffc107;
+  border-color: #ffc107;
+  background: rgba(255, 193, 7, 0.1);
+}
+
+.spell-favorite-btn span {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.spell-favorite-btn:hover span {
+  transform: scale(1.2);
+}
+
+.btn .star {
+  margin-right: 4px;
+}
+
+/* ========================================
+   Buttons & Forms
+   ======================================== */
+
+.form-group .btn-sm {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+}
+
+/* ========================================
+   Spellbook Modal
+   ======================================== */
+
+#spellbook-modal .modal-body {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+#spellbook-modal label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#spellbook-modal input[type="radio"] {
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+
+#spellbook-modal .form-group > div {
+  margin-bottom: 8px;
+}
+
+/* ========================================
+   Print Optimization
+   ======================================== */
+
+@media print {
+  .spell-card {
+    break-inside: avoid;
+    margin: 0.1in;
+  }
+}
+
+/* ========================================
+   Responsive Mobile Adjustments
+   ======================================== */
+
+@media (max-width: 768px) {
+  .spell-favorite-btn {
+    font-size: 14px;
+    padding: 1px 4px;
+    margin-left: 4px;
+  }
+
+  .form-group .btn-sm {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.4rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .form-group .col-sm-3,
+  .form-group .col-sm-2 {
+    margin-top: 0.5rem;
+  }
+}

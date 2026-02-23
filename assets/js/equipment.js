@@ -1,0 +1,136 @@
+///////////////////////////////////////
+// Equipment Page - Google Sheets Data Loading with DataTables
+// Fetches equipment data from Google Sheets, caches in localStorage,
+// and displays in searchable DataTable with column filters and anchor linking
+///////////////////////////////////////
+
+$(document).ready(function() {
+  var tableContent = []
+
+  // Cache settings (1 hour = 1 * 60 * 60 * 1000 milliseconds)
+  var CACHE_DURATION = 1 * 60 * 60 * 1000;
+  var CACHE_KEY = 'equipment_data';
+  var CACHE_TIMESTAMP_KEY = 'equipment_timestamp';
+
+  function loadEquipment() {
+    // Check if we have cached data and it's still valid
+    var cachedData = localStorage.getItem(CACHE_KEY);
+    var cacheTimestamp = localStorage.getItem(CACHE_TIMESTAMP_KEY);
+    var now = new Date().getTime();
+
+    if (cachedData && cacheTimestamp && (now - parseInt(cacheTimestamp)) < CACHE_DURATION) {
+      // Use cached data
+      document.getElementById("alert").innerHTML = 'Using cached equipment data. <button id="refresh-btn" class="btn btn-sm btn-outline-secondary ml-2">Refresh from Google Sheets</button>';
+      var parsedData = JSON.parse(cachedData);
+      processEquipmentData(parsedData);
+
+      // Add refresh button functionality
+      $('#refresh-btn').on('click', function() {
+        localStorage.removeItem(CACHE_KEY);
+        localStorage.removeItem(CACHE_TIMESTAMP_KEY);
+        document.getElementById("alert").innerHTML = "Downloading fresh equipment data...";
+        downloadEquipmentData();
+      });
+    } else {
+      // Download fresh data
+      document.getElementById("alert").innerHTML = "Downloading equipment data...";
+      downloadEquipmentData();
+    }
+  }
+
+  function downloadEquipmentData() {
+    fetch("https://opensheet.elk.sh/1xUNZ5xcqvfepphKklfj4HQ3CbSyk342a3eIMTnSAKUY/1")
+      .then((res) => res.json())
+      .then((data) => {
+        // Cache the downloaded data
+        localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+        localStorage.setItem(CACHE_TIMESTAMP_KEY, new Date().getTime().toString());
+
+        processEquipmentData(data);
+      })
+      .catch((error) => {
+        document.getElementById("alert").innerHTML = "Error loading equipment: " + error.message;
+
+        // Try to use cached data as fallback
+        var cachedData = localStorage.getItem(CACHE_KEY);
+        if (cachedData) {
+          document.getElementById("alert").innerHTML += " Using cached data as fallback.";
+          var parsedData = JSON.parse(cachedData);
+          processEquipmentData(parsedData);
+        }
+      });
+  }
+
+  function processEquipmentData(data) {
+    tableContent = []; // Clear existing content
+
+    data.forEach((row) => {
+      var weight = (row['Weight']) ? row['Weight'] : '-'
+      var description = (row['Description']) ? row['Description'] : '-'
+      // Generate anchor ID for deep linking
+      var itemAnchor = row['Item'].replace(/[^a-zA-Z0-9\s-]/g, '')
+                                  .trim()
+                                  .toLowerCase()
+                                  .replace(/\s+/g, '-');
+      var itemWithAnchor = '<a class="internal-link" name="' + itemAnchor + '">' + row['Item'] + '</a>';
+      tableContent.push([itemWithAnchor,row['Category'],row['Price'],weight,description]);
+    });
+
+    document.getElementById("alert").innerHTML = "Imported " + data.length + " items.";
+
+    var contentTable = $('#contentTable').DataTable({
+      data: tableContent,
+      order: [[0, 'desc']],
+      ordering: false,
+      lengthMenu: [[ 25, 50, 100, -1], [25, 50, 100, "All"]],
+      iDisplayLength: -1,
+      aoColumnDefs: [{ sClass: "td-nobreak",
+                        aTargets: [ 0,2 ] },
+                      { sClass: "td-center",
+                        aTargets: [ 2,3 ] }],
+      columns: [{ title: 'Item'},
+                { title: 'Category'},
+                { title: 'Price'},
+                { title: 'Weight'},
+                { title: 'Description'}],
+      dom:  "<'row'<'col-sm-12'f>>" +
+            "<'row'<'col-sm-12'tr>>" +
+            "<'row'<'col-sm-12'i>>"
+    });
+
+    // Create search box on each column
+    $('#contentTable thead tr').clone(true).appendTo( '#contentTable thead' );
+    $('#contentTable thead tr:eq(1) th').each( function (i) {
+      var title = $(this).text();
+      $(this).html( '<div class="input-group"><input type="text" class="form-control input-sm" placeholder="Search" /></div>' );
+
+      $( 'input', this ).on( 'keyup change', function () {
+        if ( contentTable.column(i).search() !== this.value ) {
+          contentTable
+            .column(i)
+            .search( this.value )
+            .draw();
+        }
+      });
+
+      $( 'input', this ).on( 'click', function (e) {
+        e.stopPropagation();
+      });
+    });
+
+    // Scroll to anchor after data loads and table is drawn
+    if (window.location.hash) {
+      setTimeout(function() {
+        var target = document.querySelector('a[name="' + window.location.hash.substring(1) + '"]');
+        if (target) {
+          // Show all items in table to ensure target is visible
+          contentTable.page.len(-1).draw();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 200);
+    }
+  }
+
+  // Initialize equipment loading
+  loadEquipment();
+});

@@ -1,0 +1,99 @@
+/* Pills Dark Mode Overrides */
+
+/* ========================================
+   Level Pills
+   ======================================== */
+
+html.dark-mode .level-pill {
+  background: #495057;
+  border-color: #6c757d;
+  color: #adb5bd;
+}
+
+html.dark-mode .level-pill:hover {
+  background: #6c757d;
+  border-color: #adb5bd;
+  color: #e0e0e0;
+}
+
+html.dark-mode .level-pill.active {
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  border-color: #0d6efd;
+  color: white;
+  box-shadow: 0 2px 4px rgba(13, 110, 253, 0.4);
+}
+
+html.dark-mode .level-pill.active:hover {
+  background: linear-gradient(135deg, #0a58ca 0%, #084298 100%);
+  border-color: #0a58ca;
+}
+
+/* ========================================
+   Class Pills
+   ======================================== */
+
+html.dark-mode .class-pill {
+  opacity: 0.9;
+}
+
+html.dark-mode .class-pill:hover {
+  opacity: 1;
+}
+
+html.dark-mode .class-pill.active {
+  opacity: 1;
+}
+
+html.dark-mode .class-pill:not(.active) {
+  background-color: transparent !important;
+  color: #adb5bd !important;
+  border: 1px solid #6c757d !important;
+}
+
+html.dark-mode .class-pill:not(.active):hover {
+  background-color: #495057 !important;
+  color: #e0e0e0 !important;
+  border-color: #adb5bd !important;
+}
+
+/* ========================================
+   Archetype Pills
+   ======================================== */
+
+html.dark-mode .archetype-pill {
+  opacity: 0.9;
+}
+
+html.dark-mode .archetype-pill:hover {
+  opacity: 1;
+}
+
+html.dark-mode .archetype-pill.active {
+  opacity: 1;
+}
+
+html.dark-mode .archetype-pill:not(.active) {
+  background-color: transparent !important;
+  color: #adb5bd !important;
+  border: 1px solid #6c757d !important;
+}
+
+html.dark-mode .archetype-pill:not(.active):hover {
+  background-color: #495057 !important;
+  color: #e0e0e0 !important;
+  border-color: #adb5bd !important;
+}
+
+/* ========================================
+   Filter Pills (Generic)
+   ======================================== */
+
+html.dark-mode .school-filter-pill.active,
+html.dark-mode .casting-time-pill.active,
+html.dark-mode .range-filter-pill.active,
+html.dark-mode .target-filter-pill.active,
+html.dark-mode .duration-filter-pill.active,
+html.dark-mode .filter-pill.active {
+  background-color: #0d6efd !important;
+  color: white;
+}
