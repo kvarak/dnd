@@ -1,0 +1,1655 @@
+// Questionnaire Application Logic
+// Requires: QUESTIONS and CLASS_PROFILES to be defined globally
+
+class QuestionnaireApp {
+  constructor() {
+    this.currentQuestionIndex = 0;
+    this.questions = QUESTIONS; // Keep original questions array
+    this.allQuestions = [...QUESTIONS]; // Full copy for adaptive selection
+    this.classProfiles = CLASS_PROFILES;
+    this.userAnswers = {};
+    this.askedQuestionIds = new Set(); // Track which questions shown
+    this.isComplete = false;
+    this.selectedFolk = null; // Track selected folk for restricted archetypes
+    this.folkRestrictions = this.extractFolkRestrictions(); // Extract folk from profiles
+    this.storageKey = 'dnd-questionnaire-state';
+    this.storageVersion = 5; // Increment this when scoring logic changes
+    this.isProcessingAnswer = false;
+    this.autoAdvanceTimeout = null;
+
+    // Build question-to-traits map
+    this.buildQuestionToTraitsMap();
+
+    this.initializeElements();
+    this.setupEventListeners();
+
+    // Try to load saved state
+    if (this.loadState()) {
+      // State restored - questionnaire or results are already shown
+      // Only show folk selection if not yet completed
+      if (!this.isComplete) {
+        if (this.selectedFolk) {
+          this.hideFolkSelection();
+        } else if (this.folkRestrictions.size > 0) {
+          this.showFolkSelection();
+        }
+      }
+    } else {
+      // Show folk selection if there are restricted archetypes
+      if (this.folkRestrictions.size > 0) {
+        this.showFolkSelection();
+      } else {
+        // No folk restrictions, start questionnaire immediately
+        this.hideFolkSelection();
+        const firstQuestion = this.selectNextAdaptiveQuestion();
+        if (firstQuestion) {
+          this.questions = [firstQuestion];
+          this.askedQuestionIds.add(firstQuestion.id);
+          this.showQuestion(0);
+        } else {
+          this.showError('No questions loaded. Please refresh the page.');
+        }
+      }
+    }
+  }
+
+  initializeElements() {
+    this.progressBar = document.getElementById('progress-bar');
+    this.questionContent = document.getElementById('question-content');
+    this.questionCounter = document.getElementById('question-counter');
+    this.prevBtn = document.getElementById('prev-btn');
+    this.nextBtn = document.getElementById('next-btn');
+    this.getResultsBtn = document.getElementById('get-results-btn');
+    this.startOverBtn = document.getElementById('start-over-btn');
+    this.questionContainer = document.getElementById('question-container');
+    this.resultsContainer = document.getElementById('results-container');
+    this.resultsContent = document.getElementById('results-content');
+    this.answerCount = document.getElementById('answer-count');
+    this.restartBtn = document.getElementById('restart-btn');
+    this.continueBtn = document.getElementById('continue-btn');
+    this.skipNotice = document.querySelector('.skip-notice');
+    this.minQuestionsForResults = 20;
+
+    // Initialize 2 charts - COMMENTED OUT FOR NOW
+    /*
+    this.charts = {
+      chart1: { instance: null, canvas: document.getElementById('chart-1') },
+      chart2: { instance: null, canvas: document.getElementById('chart-2') }
+    };
+    */
+  }
+
+  setupEventListeners() {
+    this.prevBtn.addEventListener('click', () => this.goToPreviousQuestion());
+    this.nextBtn.addEventListener('click', () => this.goToNextQuestion());
+    this.getResultsBtn.addEventListener('click', () => this.showResults());
+    this.startOverBtn.addEventListener('click', () => this.restart());
+    this.restartBtn.addEventListener('click', () => this.restart());
+    this.continueBtn.addEventListener('click', () => this.continueQuestionnaire());
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (this.isComplete) return;
+
+      if (e.key === 'ArrowLeft' && !this.prevBtn.disabled) {
+        this.goToPreviousQuestion();
+      } else if (e.key === 'ArrowRight') {
+        this.goToNextQuestion();
+      } else if (e.key >= '1' && e.key <= '4') {
+        // Quick answer selection with number keys
+        const answerIndex = parseInt(e.key) - 1;
+        const answerOptions = ['yes', 'maybe', 'no', 'dont-know'];
+        if (answerIndex < answerOptions.length) {
+          this.selectAnswer(answerOptions[answerIndex]);
+        }
+      }
+    });
+  }
+
+  showQuestion(index) {
+    if (index >= this.questions.length) {
+      // Don't auto-show results, just disable next button
+      this.nextBtn.disabled = true;
+      return;
+    }
+
+    const question = this.questions[index];
+    this.currentQuestionIndex = index;
+
+    // Update progress - base it on % of total available questions asked
+    const totalAvailableQuestions = this.allQuestions.length;
+    const questionsAsked = this.askedQuestionIds.size;
+    const progress = (questionsAsked / totalAvailableQuestions) * 100;
+    this.progressBar.style.width = `${progress}%`;
+
+    // Update question counter
+    const answeredCount = questionsAsked;
+    if (answeredCount < this.minQuestionsForResults) {
+      this.questionCounter.textContent = `Question ${answeredCount} (minimum ${this.minQuestionsForResults} for results)`;
+    } else {
+      this.questionCounter.textContent = `Question ${answeredCount}`;
+    }
+
+    // Render question
+    this.questionContent.innerHTML = `
+      <div class="question-text mb-4">
+        <h5>${question.text}</h5>
+        ${question.description ? `<p class="text-muted small">${question.description}</p>` : ''}
+      </div>
+
+      <div class="answer-options">
+        ${this.renderAnswerOptions(question.id)}
+      </div>
+    `;
+
+    // Update navigation buttons
+    this.prevBtn.disabled = index === 0;
+
+    // With adaptive selection, we can always try to get more questions
+    // Next button will be disabled in goToNextQuestion if no more available
+    this.nextBtn.disabled = false;
+
+    // Show "Get Results" button only after minimum questions answered
+    if (answeredCount >= this.minQuestionsForResults) {
+      this.getResultsBtn.style.display = 'inline-block';
+    } else {
+      this.getResultsBtn.style.display = 'none';
+    }
+
+    // Update next button
+    this.nextBtn.innerHTML = 'Next <i class="fas fa-arrow-right"></i>';
+
+    // Update live scores if we have answers
+    this.updateLiveScores();
+    // this.updateClassChart(); // COMMENTED OUT FOR NOW
+  }
+
+  renderAnswerOptions(questionId) {
+    const currentAnswer = this.userAnswers[questionId];
+
+    // Find the question and use its answer fields
+    const question = this.allQuestions.find(q => q.id === questionId);
+    if (!question || !question.answers) {
+      return ''; // Fallback for missing question data
+    }
+
+    // Always use the answer keys from question-bank.yml
+    const answerKeys = Object.keys(question.answers);
+    const options = answerKeys.map(key => {
+      // Format display text
+      const displayText = key === 'dont-know' ? "Don't Know" :
+                         key.charAt(0).toUpperCase() + key.slice(1).replace(/[-_]/g, ' ');
+
+      // Determine styling
+      const getButtonStyle = (key) => {
+        if (key === 'dont-know') return { class: 'secondary', icon: 'question-circle' };
+        if (key === 'yes') return { class: 'success', icon: 'check' };
+        if (key === 'maybe') return { class: 'warning', icon: 'question' };
+        if (key === 'no') return { class: 'danger', icon: 'times' };
+        return { class: 'primary', icon: 'check-circle' }; // Custom answers
+      };
+
+      const style = getButtonStyle(key);
+      return {
+        value: key,
+        text: displayText,
+        class: style.class,
+        icon: style.icon
+      };
+    });
+
+    return options.map(option => `
+      <button class="btn btn-outline-${option.class} answer-btn ${currentAnswer === option.value ? 'active' : ''}"
+              data-answer="${option.value}"
+              onclick="app.selectAnswer('${option.value}')">
+        <i class="fas fa-${option.icon}"></i> ${option.text}
+      </button>
+    `).join('');
+  }
+
+  selectAnswer(answer) {
+    // Prevent processing multiple clicks at once
+    if (this.isProcessingAnswer) return;
+    this.isProcessingAnswer = true;
+
+    // Clear any pending auto-advance
+    if (this.autoAdvanceTimeout) {
+      clearTimeout(this.autoAdvanceTimeout);
+      this.autoAdvanceTimeout = null;
+    }
+
+    const question = this.questions[this.currentQuestionIndex];
+    this.userAnswers[question.id] = answer;
+
+    // Update UI to show selected answer
+    document.querySelectorAll('.answer-btn').forEach(btn => {
+      btn.classList.remove('active');
+      if (btn.dataset.answer === answer) {
+        btn.classList.add('active');
+      }
+    });
+
+    // Update live scoring visualization
+    this.updateLiveScores();
+    // this.updateClassChart(); // COMMENTED OUT FOR NOW
+
+    // Save state to localStorage immediately and synchronously
+    this.saveState();
+
+    // Auto-advance to next question after brief delay
+   // Check if there's a next question already loaded OR if we can get a new adaptive question
+    const hasNextQuestion = this.currentQuestionIndex < this.questions.length - 1;
+    const canGetNewQuestion = this.currentQuestionIndex >= this.questions.length - 1 &&
+                              this.hasUnusedQuestions();
+
+    if (hasNextQuestion || canGetNewQuestion) {
+      this.autoAdvanceTimeout = setTimeout(() => {
+        this.isProcessingAnswer = false;
+        this.goToNextQuestion();
+      }, 600);
+    } else {
+      // We're at the end and no more questions available
+      this.isProcessingAnswer = false;
+    }
+  }
+
+  goToPreviousQuestion() {
+    if (this.currentQuestionIndex > 0) {
+      this.showQuestion(this.currentQuestionIndex - 1);
+      this.saveState();
+    }
+  }
+
+  goToNextQuestion() {
+    // Check if we need to add a new question
+    if (this.currentQuestionIndex >= this.questions.length - 1) {
+      // Select next question using adaptive algorithm
+      const nextQuestion = this.selectNextAdaptiveQuestion();
+
+      if (nextQuestion) {
+        // Add to questions array and mark as asked
+        this.questions.push(nextQuestion);
+        this.askedQuestionIds.add(nextQuestion.id);
+        this.showQuestion(this.currentQuestionIndex + 1);
+        this.saveState();
+      } else {
+        // No more questions available
+        this.nextBtn.disabled = true;
+      }
+    } else {
+      // Navigate to existing next question
+      this.showQuestion(this.currentQuestionIndex + 1);
+      this.saveState();
+    }
+  }
+
+  showResults() {
+    // Check minimum questions requirement
+    const answeredCount = this.currentQuestionIndex + 1;
+    if (answeredCount < this.minQuestionsForResults) {
+      alert(`Please answer at least ${this.minQuestionsForResults} questions before viewing results.`);
+      return;
+    }
+
+    this.isComplete = true;
+
+    try {
+      // Calculate recommendations using our loaded data
+      const recommendations = this.calculateRecommendations();
+
+      if (!recommendations || recommendations.length === 0) {
+        throw new Error('No recommendations generated');
+      }
+
+      // Calculate user's trait profile with percentages
+      const userTraitProfile = this.getUserTraitProfile();
+
+      // Update answer count (count all answered questions including "Don't Know")
+      this.answerCount.textContent = Object.keys(this.userAnswers).length;
+
+      // Show results
+      this.resultsContent.innerHTML = this.renderResults(recommendations, userTraitProfile);
+
+      // Hide question container and folk selection, show results
+      this.questionContainer.style.display = 'none';
+      document.getElementById('folk-selection-container').style.display = 'none';
+      this.resultsContainer.style.display = 'block';
+
+      // Hide skip notice on results page
+      if (this.skipNotice) this.skipNotice.style.display = 'none';
+
+      // Show continue button if there are more questions available
+      if (this.hasUnusedQuestions()) {
+        this.continueBtn.style.display = 'inline-block';
+      } else {
+        this.continueBtn.style.display = 'none';
+      }
+
+      // Hide live scores visualization and class chart
+      document.getElementById('live-scores').style.display = 'none';
+      // document.getElementById('class-standings').style.display = 'none'; // COMMENTED OUT FOR NOW
+
+      // Update progress to 100%
+      this.progressBar.style.width = '100%';
+
+      // Save state so results persist
+      this.saveState();
+
+    } catch (error) {
+      console.error('❌ Error calculating results:', error);
+      this.showError(`Failed to calculate results: ${error.message}`);
+    }
+  }
+
+  calculateRecommendations() {
+    const results = [];
+    // Track variant scores per class for later use
+    const variantScores = new Map();
+
+    // Score each class/archetype combination
+    for (const [className, profile] of Object.entries(this.classProfiles)) {
+      if (!profile) continue;
+
+      // Check if this class has variants (e.g., Bard's Loreseeker)
+      if (profile.variants && Object.keys(profile.variants).length > 0) {
+        const classVariants = [];
+        for (const [variantName, variantData] of Object.entries(profile.variants)) {
+          const mergedProfile = this.mergeArchetypeProfile(profile, variantData);
+          const score = this.scoreProfile(mergedProfile, `${variantName} (${className})`);
+          classVariants.push({
+            name: variantName,
+            score: score.score,
+            percentage: score.percentage
+          });
+        }
+        // Sort variants by score and store the top scoring ones
+        classVariants.sort((a, b) => b.score - a.score);
+        variantScores.set(className, classVariants);
+      }
+
+      // Check if this class has archetypes
+      if (profile.archetypes && Object.keys(profile.archetypes).length > 0) {
+        // Score each archetype separately
+        for (const [archetypeName, archetypeData] of Object.entries(profile.archetypes)) {
+          const mergedProfile = this.mergeArchetypeProfile(profile, archetypeData);
+          const formattedArchetype = this.formatArchetypeName(archetypeName);
+          const score = this.scoreProfile(mergedProfile, `${formattedArchetype} (${className})`);
+
+          // Apply folk restriction bonus
+          let folkBonus = 0;
+          if (this.selectedFolk && archetypeData.restriction && archetypeData.restriction.folk) {
+            const folkRestriction = archetypeData.restriction.folk;
+            // Handle both single folk (string) and multiple folk (array)
+            const isFolkMatch = Array.isArray(folkRestriction)
+              ? folkRestriction.includes(this.selectedFolk)
+              : folkRestriction === this.selectedFolk;
+
+            if (isFolkMatch) {
+              folkBonus = 20; // Significant bonus for matching folk
+            }
+          }
+
+          // Calculate display percentage (capped at 100%) vs raw percentage for sorting
+          const rawPercentage = folkBonus > 0 ? ((score.score + folkBonus) / score.maxScore) * 100 : score.percentage;
+          const displayPercentage = Math.min(100, rawPercentage);
+
+          results.push({
+            className: className,
+            archetypeName: archetypeName,
+            displayName: `${formattedArchetype} (${className})`,
+            profile: mergedProfile,  // Include profile for trait display
+            restriction: archetypeData.restriction, // Include restriction info
+            folkBonus: folkBonus,
+            ...score,
+            score: score.score + folkBonus, // Add bonus to total score
+            percentage: displayPercentage, // Display percentage capped at 100%
+            rawPercentage: rawPercentage // Keep raw for sorting if needed
+          });
+        }
+      } else {
+        // Score the base class
+        const score = this.scoreProfile(profile, className);
+        results.push({
+          className: className,
+          displayName: className,
+          profile: profile,  // Include profile for trait display
+          ...score
+        });
+      }
+
+      // Check if this class has boons (e.g., Warlock pact boons)
+      if (profile.boons && Object.keys(profile.boons).length > 0) {
+        // Score each boon separately
+        for (const [boonName, boonData] of Object.entries(profile.boons)) {
+          const mergedProfile = this.mergeArchetypeProfile(profile, boonData);
+          const formattedBoon = this.formatArchetypeName(boonName);
+          const displayName = `Pact of the ${formattedBoon} (${className})`;
+          const score = this.scoreProfile(mergedProfile, displayName);
+
+          results.push({
+            className: className,
+            boonName: boonName,
+            displayName: displayName,
+            profile: mergedProfile,
+            isBoon: true,  // Flag to distinguish boons from archetypes
+            ...score
+          });
+        }
+      }
+    }
+
+    // Group boon combinations (e.g., Warlock patron + pact)
+    const grouped = this.groupBoonCombinations(results);
+
+    // Get user trait profile to filter out archetypes with red badges
+    const userTraitProfile = this.getUserTraitProfile();
+    const userTraitMap = new Map();
+    userTraitProfile.forEach(trait => {
+      userTraitMap.set(trait.name, trait.percentage);
+    });
+
+    // Filter out archetypes where any trait has very low score (< 20%)
+    // Red badges indicate the user answered negatively for important traits
+    const filtered = grouped.filter(rec => {
+      if (rec.profile && rec.profile.traits && rec.profile.traits.length > 0) {
+        const hasRedBadge = rec.profile.traits.some(traitName => {
+          const percentage = userTraitMap.get(traitName);
+          return percentage !== undefined && percentage < 20;
+        });
+        return !hasRedBadge; // Exclude if any trait is red
+      }
+      return true; // Keep if no traits
+    });
+
+    // Sort by score descending
+    filtered.sort((a, b) => b.score - a.score);
+
+    return filtered.slice(0, 10);
+  }
+
+  groupBoonCombinations(results) {
+    // Separate results by class and type
+    const byClass = new Map();
+
+    for (const result of results) {
+      if (!byClass.has(result.className)) {
+        byClass.set(result.className, {
+          archetypes: [],
+          boons: [],
+          other: []
+        });
+      }
+
+      const classResults = byClass.get(result.className);
+      if (result.isBoon) {
+        classResults.boons.push(result);
+      } else if (result.archetypeName) {
+        classResults.archetypes.push(result);
+      } else {
+        classResults.other.push(result);
+      }
+    }
+
+    // Build final results list
+    const grouped = [];
+
+    for (const [className, classResults] of byClass.entries()) {
+      // If class has both archetypes and boons, combine them
+      if (classResults.archetypes.length > 0 && classResults.boons.length > 0) {
+        // Sort each category by score
+        classResults.archetypes.sort((a, b) => b.score - a.score);
+        classResults.boons.sort((a, b) => b.score - a.score);
+
+        // Take top archetype and top boon
+        const topArchetype = classResults.archetypes[0];
+        const topBoon = classResults.boons[0];
+
+        // Create combined entry
+        const formattedArchetype = this.formatArchetypeName(topArchetype.archetypeName);
+        const formattedBoon = this.formatArchetypeName(topBoon.boonName);
+
+        grouped.push({
+          className: className,
+          archetypeName: topArchetype.archetypeName,
+          boonName: topBoon.boonName,
+          displayName: `${formattedArchetype} + Pact of the ${formattedBoon} (${className})`,
+          profile: topArchetype.profile, // Use archetype profile for trait display
+          restriction: topArchetype.restriction,
+          folkBonus: topArchetype.folkBonus || 0,
+          score: (topArchetype.score + topBoon.score) / 2, // Average the scores
+          percentage: (topArchetype.percentage + topBoon.percentage) / 2, // Average the percentages
+          maxScore: topArchetype.maxScore // Carry over maxScore for display
+        });
+      } else {
+        // Add archetypes, boons, and other results as-is
+        grouped.push(...classResults.archetypes);
+        grouped.push(...classResults.boons);
+        grouped.push(...classResults.other);
+      }
+    }
+
+    return grouped;
+  }
+
+  calculateAllRecommendations() {
+    // Same logic as calculateRecommendations but returns ALL results for localhost debugging
+    const results = [];
+    // Track variant scores per class for later use
+    const variantScores = new Map();
+
+    // Score each class/archetype combination
+    for (const [className, profile] of Object.entries(this.classProfiles)) {
+      if (!profile) continue;
+
+      // Check if this class has variants (e.g., Bard's Loreseeker)
+      if (profile.variants && Object.keys(profile.variants).length > 0) {
+        const classVariants = [];
+        for (const [variantName, variantData] of Object.entries(profile.variants)) {
+          const mergedProfile = this.mergeArchetypeProfile(profile, variantData);
+          const score = this.scoreProfile(mergedProfile, `${variantName} (${className})`);
+          classVariants.push({
+            name: variantName,
+            score: score.score,
+            percentage: score.percentage
+          });
+        }
+        // Sort variants by score and store the top scoring ones
+        classVariants.sort((a, b) => b.score - a.score);
+        variantScores.set(className, classVariants);
+      }
+
+      // Check if this class has archetypes
+      if (profile.archetypes && Object.keys(profile.archetypes).length > 0) {
+        // Score each archetype separately
+        for (const [archetypeName, archetypeData] of Object.entries(profile.archetypes)) {
+          const mergedProfile = this.mergeArchetypeProfile(profile, archetypeData);
+          const formattedArchetype = this.formatArchetypeName(archetypeName);
+          const score = this.scoreProfile(mergedProfile, `${formattedArchetype} (${className})`);
+
+          // Apply folk restriction bonus
+          let folkBonus = 0;
+          if (this.selectedFolk && archetypeData.restriction && archetypeData.restriction.folk) {
+            const folkRestriction = archetypeData.restriction.folk;
+            // Handle both single folk (string) and multiple folk (array)
+            const isFolkMatch = Array.isArray(folkRestriction)
+              ? folkRestriction.includes(this.selectedFolk)
+              : folkRestriction === this.selectedFolk;
+
+            if (isFolkMatch) {
+              folkBonus = 20; // Significant bonus for matching folk
+            }
+          }
+
+          // Check if this class has high-scoring variants to apply
+          let variantPrefix = '';
+          if (variantScores.has(className)) {
+            const variants = variantScores.get(className);
+            // Apply variant if it scored >= 50%
+            const highScoringVariants = variants.filter(v => v.percentage >= 50);
+            if (highScoringVariants.length > 0) {
+              variantPrefix = this.formatArchetypeName(highScoringVariants[0].name) + ' - ';
+            }
+          }
+
+          // Calculate display percentage (capped at 100%) vs raw percentage for sorting
+          const rawPercentage = folkBonus > 0 ? ((score.score + folkBonus) / score.maxScore) * 100 : score.percentage;
+          const displayPercentage = Math.min(100, rawPercentage);
+
+          results.push({
+            className: className,
+            archetypeName: archetypeName,
+            displayName: `${variantPrefix}${formattedArchetype} (${className})`,
+            profile: mergedProfile,  // Include profile for trait display
+            restriction: archetypeData.restriction, // Include restriction info
+            folkBonus: folkBonus,
+            ...score,
+            score: score.score + folkBonus, // Add bonus to total score
+            percentage: displayPercentage, // Display percentage capped at 100%
+            rawPercentage: rawPercentage // Keep raw for sorting if needed
+          });
+        }
+      } else {
+        // Score the base class
+        const score = this.scoreProfile(profile, className);
+        results.push({
+          className: className,
+          displayName: className,
+          profile: profile,  // Include profile for trait display
+          ...score
+        });
+      }
+
+      // Check if this class has boons (e.g., Warlock pact boons)
+      if (profile.boons && Object.keys(profile.boons).length > 0) {
+        // Score each boon separately
+        for (const [boonName, boonData] of Object.entries(profile.boons)) {
+          const mergedProfile = this.mergeArchetypeProfile(profile, boonData);
+          const formattedBoon = this.formatArchetypeName(boonName);
+          const displayName = `Pact of the ${formattedBoon} (${className})`;
+          const score = this.scoreProfile(mergedProfile, displayName);
+
+          results.push({
+            className: className,
+            boonName: boonName,
+            displayName: displayName,
+            profile: mergedProfile,
+            isBoon: true,  // Flag to distinguish boons from archetypes
+            ...score
+          });
+        }
+      }
+    }
+
+    // Group boon combinations (e.g., Warlock patron + pact)
+    const grouped = this.groupBoonCombinations(results);
+
+    // Sort by score descending - return ALL results for localhost debugging
+    grouped.sort((a, b) => b.score - a.score);
+    return grouped; // Return everything for dev mode
+  }
+
+  formatArchetypeName(archetypeName) {
+    // Convert kebab-case to Title Case (e.g., "draconic-bloodline" -> "Draconic Bloodline")
+    return archetypeName
+      .split('-')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }
+
+  archetypeToAnchor(archetypeName) {
+    // Convert kebab-case to camelCase for anchor links (e.g., "eldritch-knight" -> "eldritchKnight")
+    const parts = archetypeName.split('-');
+    return parts[0] + parts.slice(1).map(word => word.charAt(0).toUpperCase() + word.slice(1)).join('');
+  }
+
+  mergeArchetypeProfile(baseProfile, archetypeData) {
+    const merged = {
+      traits: [...(baseProfile.traits || [])]
+    };
+
+    // Archetype traits add to base class traits
+    if (archetypeData.traits) {
+      merged.traits.push(...archetypeData.traits);
+    }
+
+    return merged;
+  }
+
+  scoreProfile(profile, profileName = 'Unknown') {
+    let totalScore = 0;
+    let maxPossibleScore = 0;
+    const traitMatches = new Map(); // Track trait matches with their scores
+
+    // Process each user answer
+    for (const [questionId, userAnswer] of Object.entries(this.userAnswers)) {
+      if (userAnswer === 'dont-know') continue;
+
+      const question = this.questions.find(q => q.id === questionId);
+      if (!question || !question.answers) continue;
+
+      const answerTraits = question.answers[userAnswer] || {};
+      // All definite answers (yes/no) have weight 2, maybe has weight 1
+      // "no" answers map to opposite traits (e.g., combatFocus: low) so they should still score
+      const answerStrength = userAnswer === 'yes' ? 2 : (userAnswer === 'maybe' ? 1 : 2);
+      const maxQuestionScore = answerStrength * 2;
+      maxPossibleScore += maxQuestionScore;
+
+      let questionScore = 0;
+
+      // Check each trait in the answer
+      for (const [traitName, userTraitValue] of Object.entries(answerTraits)) {
+        // Skip roleplaying trait
+        if (traitName === 'roleplaying') continue;
+
+        // Check if this trait exists in the profile's traits array
+        if (Array.isArray(profile.traits) && profile.traits.includes(traitName)) {
+          const traitScore = answerStrength * 2; // All traits weighted equally
+          questionScore += traitScore;
+
+          // Track this trait match
+          const traitKey = traitName;
+          if (!traitMatches.has(traitKey)) {
+            traitMatches.set(traitKey, {
+              name: traitName,
+              value: userTraitValue,
+              compatibility: 1.0,
+              score: 0,
+              type: 'trait'
+            });
+          }
+          traitMatches.get(traitKey).score += traitScore;
+        }
+      }
+
+      // Cap question score to maximum possible for this question
+      totalScore += Math.min(questionScore, maxQuestionScore);
+    }
+
+    // Sort traits by their contribution score and get top matches
+    const sortedTraits = Array.from(traitMatches.values())
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 5);
+
+    const matchDetails = sortedTraits.map(trait => {
+      // Format trait names nicely (convert kebab-case to Title Case)
+      const formattedName = trait.name
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+      return formattedName;
+    });
+
+    const percentage = maxPossibleScore > 0 ? (totalScore / maxPossibleScore) * 100 : 0;
+
+    return {
+      score: totalScore,
+      maxScore: maxPossibleScore,
+      percentage: percentage,
+      matchDetails: matchDetails
+    };
+  }
+
+  calculateCompatibility(userValue, classValue) {
+    // Exact match
+    if (userValue === classValue) return 1.0;
+
+    // Array handling for multi-value traits
+    if (Array.isArray(classValue)) {
+      return classValue.includes(userValue) ? 1.0 : 0.2;
+    }
+
+    // Define compatibility matrix for value pairs
+    const compatibility = {
+      'low': { 'medium': 0.7, 'none': 0.3 },
+      'medium': { 'low': 0.7, 'high': 0.7, 'none': 0.2 },
+      'high': { 'very-high': 0.8, 'medium': 0.6, 'low': 0.3 },
+      'very-high': { 'high': 0.8, 'medium': 0.4 },
+      'versatile': { 'damage': 0.8, 'utility': 0.8, 'healing': 0.7, 'control': 0.7 },
+      'damage': { 'versatile': 0.8, 'utility': 0.5, 'control': 0.4 },
+      'utility': { 'versatile': 0.8, 'healing': 0.7, 'damage': 0.5 },
+      'healing': { 'utility': 0.8, 'versatile': 0.7, 'control': 0.6 },
+      'control': { 'versatile': 0.7, 'healing': 0.6, 'utility': 0.5 }
+    };
+
+    return (compatibility[userValue] && compatibility[userValue][classValue]) || 0.2;
+  }
+
+  /**
+   * Build trait ranges by analyzing all possible answer combinations
+   * Returns a Map of trait names to {min, max} score ranges
+   */
+  buildTraitRanges() {
+    const ranges = new Map();
+
+    // Analyze each question to find min/max possible scores for each trait
+    for (const question of this.questions) {
+      if (!question.answers) continue;
+
+      // Dynamically extract answer option keys (skip 'dont-know')
+      const answerOptions = Object.keys(question.answers).filter(key => key !== 'dont-know');
+
+      // Collect all traits mentioned in any answer for this question
+      const questionTraits = new Set();
+
+      for (const answerKey of answerOptions) {
+        const answerTraits = question.answers[answerKey];
+        if (!answerTraits) continue;
+
+        for (const traitName of Object.keys(answerTraits)) {
+          const score = answerTraits[traitName];
+          if (typeof score === 'number') {
+            questionTraits.add(traitName);
+          }
+        }
+      }
+
+      // For each trait in this question, find min/max across all answer options
+      for (const traitName of questionTraits) {
+        let minScore = 0;  // Default is 0 if trait not in an answer
+        let maxScore = 0;
+
+        for (const answerKey of answerOptions) {
+          const answerTraits = question.answers[answerKey];
+          if (!answerTraits) continue;
+
+          const score = answerTraits[traitName];
+          if (typeof score === 'number') {
+            minScore = Math.min(minScore, score);
+            maxScore = Math.max(maxScore, score);
+          }
+          // If trait not in this answer option, it contributes 0 (already our default)
+        }
+
+        // Accumulate min/max across all questions
+        if (!ranges.has(traitName)) {
+          ranges.set(traitName, { min: minScore, max: maxScore });
+        } else {
+          const current = ranges.get(traitName);
+          current.min += minScore;
+          current.max += maxScore;
+        }
+      }
+    }
+
+    return ranges;
+  }
+
+  /**
+   * Score the user's profile by accumulating trait scores from their answers
+   * Returns a Map of trait names to current scores
+   */
+  scoreUserProfile() {
+    const scores = new Map();
+
+    for (const [questionId, userAnswer] of Object.entries(this.userAnswers)) {
+      if (userAnswer === 'dont-know') continue;
+
+      const question = this.questions.find(q => q.id === questionId);
+      if (!question || !question.answers) continue;
+
+      const answerTraits = question.answers[userAnswer];
+      if (!answerTraits) continue;
+
+      // Accumulate scores for each trait
+      for (const [traitName, score] of Object.entries(answerTraits)) {
+        if (typeof score !== 'number') continue;
+
+        if (!scores.has(traitName)) {
+          scores.set(traitName, score);
+        } else {
+          scores.set(traitName, scores.get(traitName) + score);
+        }
+      }
+    }
+
+    return scores;
+  }
+
+  /**
+   * Convert trait scores to percentages based on their min/max ranges
+   * Returns a Map of trait names to percentage values (0-100)
+   */
+  calculateTraitPercentages(scores, ranges) {
+    const percentages = new Map();
+
+    for (const [traitName, currentScore] of scores) {
+      const range = ranges.get(traitName);
+      if (!range) continue;
+
+      const span = range.max - range.min;
+      if (span === 0) {
+        // If there's no variation possible, treat any score as 100%
+        percentages.set(traitName, 100);
+      } else {
+        const percentage = ((currentScore - range.min) / span) * 100;
+        percentages.set(traitName, Math.max(0, Math.min(100, percentage)));
+      }
+    }
+
+    return percentages;
+  }
+
+  /**
+   * Get complete user trait profile with percentages
+   * Returns an object with ranges, scores, and percentages
+   */
+  getUserTraitProfile() {
+    const ranges = this.buildTraitRanges();
+    const scores = this.scoreUserProfile();
+    const percentages = this.calculateTraitPercentages(scores, ranges);
+
+    // Combine into a full profile
+    const profile = [];
+    for (const [traitName, percentage] of percentages) {
+      const score = scores.get(traitName);
+      const range = ranges.get(traitName);
+      profile.push({
+        name: traitName,
+        percentage: percentage,
+        score: score,
+        min: range.min,
+        max: range.max
+      });
+    }
+
+    // Sort by percentage descending
+    profile.sort((a, b) => b.percentage - a.percentage);
+
+    return profile;
+  }
+
+  renderResults(recommendations, userTraitProfile = null) {
+    if (!recommendations || recommendations.length === 0) {
+      return '<div class="alert alert-warning">No recommendations could be calculated. Please try answering more questions.</div>';
+    }
+
+    let output = '';
+
+    // Add user trait profile section if available
+    if (userTraitProfile && userTraitProfile.length > 0) {
+      output += `
+      <div class="card mb-4 border-info">
+        <div class="card-header bg-info text-white">
+          <h5 class="mb-0"><i class="fas fa-user-circle"></i> Your Character Profile</h5>
+        </div>
+        <div class="card-body">
+          <p class="text-muted mb-3">
+            Based on your answers, here's how you scored across different character traits:
+          </p>
+          <div class="row">
+      `;
+
+      // Group traits by category for better organization
+      const magicTraits = userTraitProfile.filter(t => t.name.includes('-magic'));
+      const backgroundTraits = userTraitProfile.filter(t => t.name.includes('-background'));
+      const philosophyProfile = userTraitProfile.filter(t => t.name.includes('-value'));
+      const otherTraits = userTraitProfile.filter(t =>
+        !t.name.includes('-magic') &&
+        !t.name.includes('-background') &&
+        !t.name.includes('-value')
+      );
+
+      const renderTraitGroup = (title, traits, iconClass, stripSuffix = null) => {
+        if (traits.length === 0) return '';
+        return `
+          <div class="col-md-6 mb-3">
+            <h6 class="text-muted"><i class="${iconClass}"></i> ${title}</h6>
+            <div class="d-flex flex-wrap gap-2">
+              ${traits.slice(0, 10).map(trait => {
+                let displayName = trait.name;
+                if (stripSuffix) {
+                  displayName = displayName.replace(new RegExp(`-${stripSuffix}$`), '');
+                }
+                const formattedName = displayName
+                  .split('-')
+                  .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                  .join(' ');
+
+                let badgeColor;
+                if (trait.percentage >= 70) {
+                  badgeColor = 'bg-success';
+                } else if (trait.percentage >= 40) {
+                  badgeColor = 'bg-info text-dark';
+                } else if (trait.percentage >= 20) {
+                  badgeColor = 'bg-secondary';
+                } else {
+                  badgeColor = 'bg-danger';
+                }
+
+                return `<span class="badge ${badgeColor} rounded-pill me-1 mb-1">${formattedName} ${Math.round(trait.percentage)}%</span>`;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      };
+
+      output += renderTraitGroup('Magic Affinity', magicTraits, 'fas fa-magic', 'magic');
+      output += renderTraitGroup('Background', backgroundTraits, 'fas fa-book', 'background');
+      if (philosophyProfile.length > 0) {
+        output += renderTraitGroup('Philosophy & Values', philosophyProfile, 'fas fa-compass', 'value');
+      }
+      if (otherTraits.length > 0) {
+        output += renderTraitGroup('Key Traits', otherTraits, 'fas fa-star');
+      }
+
+      output += `
+          </div>
+        </div>
+      </div>
+      `;
+    }
+
+    // Add recommendations
+    output += '<h5 class="mb-3">Recommended Archetypes</h5>';
+
+    // Convert user trait profile to a Map for easy lookup
+    const userTraitMap = new Map();
+    if (userTraitProfile) {
+      userTraitProfile.forEach(trait => {
+        userTraitMap.set(trait.name, trait.percentage);
+      });
+    }
+
+    output += recommendations
+      .filter(rec => {
+        // Only show archetypes that have no folk restriction OR match the selected folk
+        if (rec.restriction && rec.restriction.folk) {
+          const requiredFolk = rec.restriction.folk;
+          const isFolkMatch = Array.isArray(requiredFolk)
+            ? requiredFolk.includes(this.selectedFolk)
+            : requiredFolk === this.selectedFolk;
+
+          return isFolkMatch; // Only show if folk matches
+        }
+
+        return true; // Show all others
+      })
+      .map((rec, index) => {
+      // Generate anchor for archetypes or boons
+      let anchor = '';
+      let boonAnchor = '';
+      if (rec.archetypeName && rec.boonName) {
+        // Combined entry - generate both anchors
+        anchor = '#internal-' + this.archetypeToAnchor(rec.archetypeName);
+        const boonAnchorName = 'Pactofthe' + this.formatArchetypeName(rec.boonName).replace(/\s+/g, '');
+        boonAnchor = '#internal-' + boonAnchorName;
+      } else if (rec.archetypeName) {
+        anchor = '#internal-' + this.archetypeToAnchor(rec.archetypeName);
+      } else if (rec.boonName) {
+        // Boons use PascalCase anchors like "PactoftheBlade"
+        const boonAnchorName = 'Pactofthe' + this.formatArchetypeName(rec.boonName).replace(/\s+/g, '');
+        anchor = '#internal-' + boonAnchorName;
+      }
+
+      // Get the specific traits for this class/archetype and show user's percentages
+      let traitsDisplay = '';
+
+      // Prepare folk restriction badge for traits area
+      let folkBadgeForTraits = '';
+      if (rec.restriction && rec.restriction.folk) {
+        const requiredFolk = rec.restriction.folk;
+        let folkDisplayText = '';
+
+        if (Array.isArray(requiredFolk)) {
+          folkDisplayText = requiredFolk.map(f => f.charAt(0).toUpperCase() + f.slice(1)).join(', ');
+        } else {
+          folkDisplayText = requiredFolk.charAt(0).toUpperCase() + requiredFolk.slice(1);
+        }
+
+        // Since we only show matching archetypes, this will always be the success version
+        folkBadgeForTraits = `<span class="badge bg-success me-1 mb-1" title="Available to ${folkDisplayText}"><i class="fas fa-check-circle"></i> ${folkDisplayText}</span>`;
+      }
+
+      if (rec.profile && rec.profile.traits && rec.profile.traits.length > 0) {
+        const traitData = rec.profile.traits
+          .map(traitName => {
+            const hasScore = userTraitMap.has(traitName);
+            const percentage = hasScore ? userTraitMap.get(traitName) : null;
+
+            // Strip category suffixes for cleaner display
+            let displayName = traitName;
+            displayName = displayName.replace(/-magic$/, '');
+            displayName = displayName.replace(/-background$/, '');
+            displayName = displayName.replace(/-value$/, '');
+
+            const formattedName = displayName
+              .split('-')
+              .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+              .join(' ');
+            return { name: formattedName, percentage: percentage, hasScore: hasScore };
+          })
+          .sort((a, b) => {
+            // Sort scored traits first by percentage descending, then unscored alphabetically
+            if (a.hasScore && !b.hasScore) return -1;
+            if (!a.hasScore && b.hasScore) return 1;
+            if (a.hasScore && b.hasScore) return b.percentage - a.percentage;
+            return a.name.localeCompare(b.name);
+          });
+
+        if (traitData.length > 0) {
+          const badges = traitData.map(trait => {
+            if (!trait.hasScore) {
+              // Unscored trait: use outline style
+              return `<span class="badge bg-light text-muted border me-1 mb-1" style="opacity: 0.6;">${trait.name}</span>`;
+            }
+
+            // Scored trait: use normal color coding
+            let badgeClass;
+            if (trait.percentage >= 70) {
+              badgeClass = 'bg-success';
+            } else if (trait.percentage >= 40) {
+              badgeClass = 'bg-info text-dark';
+            } else if (trait.percentage >= 20) {
+              badgeClass = 'bg-secondary';
+            } else {
+              badgeClass = 'bg-danger';
+            }
+            return `<span class="badge ${badgeClass} me-1 mb-1">${trait.name} ${Math.round(trait.percentage)}%</span>`;
+          }).join('');
+
+          traitsDisplay = `
+            <div class="mt-2">
+              ${folkBadgeForTraits}${badges}
+            </div>
+          `;
+        } else if (folkBadgeForTraits) {
+          // Show folk badge even if no other traits
+          traitsDisplay = `
+            <div class="mt-2">
+              ${folkBadgeForTraits}
+            </div>
+          `;
+        }
+      }
+
+      return `
+      <div class="card mb-3 ${index === 0 ? 'border-primary' : ''}">
+        <div class="card-body">
+          <div class="d-flex align-items-center mb-2">
+            <span class="badge bg-primary me-2" style="border-radius: 50%; width: 2.5em; height: 2.5em; display: flex; align-items: center; justify-content: center;">
+              ${index + 1}
+            </span>
+            <h5 class="card-title mb-0">
+              ${rec.archetypeName && rec.boonName ? `
+                <a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html${anchor}" class="text-decoration-none">${this.formatArchetypeName(rec.archetypeName)}</a> + <a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html${boonAnchor}" class="text-decoration-none">Pact of the ${this.formatArchetypeName(rec.boonName)}</a> (<a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html" class="text-decoration-none">${rec.className}</a>)
+              ` : rec.archetypeName ? `
+                <a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html${anchor}" class="text-decoration-none">${this.formatArchetypeName(rec.archetypeName)}</a> (<a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html" class="text-decoration-none">${rec.className}</a>)
+              ` : `
+                <a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html" class="text-decoration-none">${rec.className}</a>
+              `}
+            </h5>
+            <div class="ms-auto">
+              <span class="badge bg-success">
+                ${rec.percentage.toFixed(1)}% match
+              </span>
+            </div>
+          </div>
+
+          ${traitsDisplay}
+        </div>
+      </div>
+    `;
+    }).join('');
+
+    return output;
+  }
+
+  showError(message) {
+    this.questionContent.innerHTML = `
+      <div class="alert alert-danger text-center">
+        <i class="fas fa-exclamation-triangle"></i> ${message}
+      </div>
+    `;
+  }
+
+  continueQuestionnaire() {
+    // Return to questionnaire from results page
+    this.isComplete = false;
+    this.questionContainer.style.display = 'block';
+    this.resultsContainer.style.display = 'none';
+
+    // Show skip notice again
+    if (this.skipNotice) this.skipNotice.style.display = '';
+
+    // Show live scores and class chart again
+    document.getElementById('live-scores').style.display = 'block';
+    // document.getElementById('class-standings').style.display = 'block'; // COMMENTED OUT FOR NOW
+
+    // Go to next unanswered question
+    this.showQuestion(this.currentQuestionIndex + 1);
+    this.saveState();
+  }
+
+  restart() {
+    this.currentQuestionIndex = 0;
+    this.userAnswers = {};
+    this.isComplete = false;
+    this.askedQuestionIds = new Set(); // Reset asked questions
+    this.selectedFolk = null; // Reset folk selection
+
+    // Clear localStorage
+    this.clearState();
+
+    // Reset Live Match Progress
+    this.updateLiveScores();
+
+    // Show folk selection again if there are restricted archetypes
+    if (this.folkRestrictions.size > 0) {
+      this.resultsContainer.style.display = 'none';
+      this.showFolkSelection();
+    } else {
+      // No folk restrictions, start questionnaire directly
+      const firstQuestion = this.selectNextAdaptiveQuestion();
+      if (firstQuestion) {
+        this.questions = [firstQuestion];
+        this.askedQuestionIds.add(firstQuestion.id);
+      } else {
+        this.questions = [];
+      }
+
+      this.questionContainer.style.display = 'block';
+      this.resultsContainer.style.display = 'none';
+
+      // Show skip notice again
+      if (this.skipNotice) this.skipNotice.style.display = '';
+
+      // Show live scores (always visible now)
+      document.getElementById('live-scores').style.display = 'block';
+      // document.getElementById('class-standings').style.display = 'none'; // COMMENTED OUT FOR NOW
+
+      this.showQuestion(0);
+    }
+  }
+
+  shuffleQuestions(questions) {
+    // Fisher-Yates shuffle algorithm
+    const shuffled = [...questions];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }
+
+  // Folk Selection Methods
+
+  extractFolkRestrictions() {
+    // Dynamically extract all folk that have restricted archetypes
+    const folkSet = new Set();
+
+    for (const [className, profile] of Object.entries(this.classProfiles)) {
+      if (!profile || !profile.archetypes) continue;
+
+      for (const [archetypeName, archetypeData] of Object.entries(profile.archetypes)) {
+        if (archetypeData.restriction && archetypeData.restriction.folk) {
+          const folkRestriction = archetypeData.restriction.folk;
+          // Handle both single folk (string) and multiple folk (array)
+          if (Array.isArray(folkRestriction)) {
+            folkRestriction.forEach(folk => folkSet.add(folk));
+          } else {
+            folkSet.add(folkRestriction);
+          }
+        }
+      }
+    }
+
+    return folkSet;
+  }
+
+  showFolkSelection() {
+    const container = document.getElementById('folk-selection-container');
+    const buttonsContainer = document.getElementById('folk-buttons');
+    const skipBtn = document.getElementById('folk-skip-btn');
+
+    // Show folk selection, hide questionnaire
+    container.style.display = 'block';
+    document.getElementById('question-container').style.display = 'none';
+    document.getElementById('progress-bar').parentElement.style.display = 'none';
+
+    // Generate folk buttons dynamically
+    const folkArray = Array.from(this.folkRestrictions).sort();
+    buttonsContainer.innerHTML = folkArray.map(folk => {
+      const folkFormatted = folk.charAt(0).toUpperCase() + folk.slice(1);
+      return `<button class=\"btn btn-outline-primary folk-btn\" data-folk=\"${folk}\">${folkFormatted}</button>`;
+    }).join('');
+
+    // Add event listeners to folk buttons
+    buttonsContainer.querySelectorAll('.folk-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        this.selectFolk(btn.dataset.folk);
+      });
+    });
+
+    // Add skip button listener
+    skipBtn.addEventListener('click', () => {
+      this.selectFolk(null);
+    });
+  }
+
+  hideFolkSelection() {
+    document.getElementById('folk-selection-container').style.display = 'none';
+    document.getElementById('question-container').style.display = 'block';
+    document.getElementById('progress-bar').parentElement.style.display = 'block';
+  }
+
+  selectFolk(folk) {
+    this.selectedFolk = folk;
+    this.hideFolkSelection();
+
+    // Start questionnaire
+    const firstQuestion = this.selectNextAdaptiveQuestion();
+    if (firstQuestion) {
+      this.questions = [firstQuestion];
+      this.askedQuestionIds.add(firstQuestion.id);
+      this.showQuestion(0);
+    } else {
+      this.showError('No questions loaded. Please refresh the page.');
+    }
+
+    this.saveState();
+  }
+
+  // End Folk Selection Methods
+
+  buildQuestionToTraitsMap() {
+    // Build a map of question ID -> traits it affects
+    this.questionToTraitsMap = {};
+
+    this.allQuestions.forEach(question => {
+      const traits = new Set();
+
+      // Check all possible answers for traits
+      for (const answerKey in question.answers) {
+        if (answerKey !== 'dont-know') {
+          const traitScores = question.answers[answerKey];
+          for (const trait in traitScores) {
+            traits.add(trait);
+          }
+        }
+      }
+
+      this.questionToTraitsMap[question.id] = Array.from(traits);
+    });
+  }
+
+  getExploredTraits() {
+    // Get all traits that have been explored through asked questions
+    const exploredTraits = new Set();
+
+    for (const questionId of this.askedQuestionIds) {
+      const traits = this.questionToTraitsMap[questionId] || [];
+      traits.forEach(trait => exploredTraits.add(trait));
+    }
+
+    return exploredTraits;
+  }
+
+  getArchetypeRequiredTraits(recommendation) {
+    // Get all traits required by this archetype (merged profile)
+    const traits = new Set();
+
+    if (recommendation.profile && recommendation.profile.traits) {
+      recommendation.profile.traits.forEach(trait => traits.add(trait));
+    }
+
+    return Array.from(traits);
+  }
+
+  findQuestionForTrait(targetTrait) {
+    // Find an unasked question that affects the target trait
+    const unusedQuestions = this.allQuestions.filter(q => !this.askedQuestionIds.has(q.id));
+
+    for (const question of unusedQuestions) {
+      const traits = this.questionToTraitsMap[question.id] || [];
+      if (traits.includes(targetTrait)) {
+        return question;
+      }
+    }
+
+    return null;
+  }
+
+  hasUnusedQuestions() {
+    // Check if there are any questions that haven't been asked yet
+    return this.allQuestions.some(q => !this.askedQuestionIds.has(q.id));
+  }
+
+  getRandomUnusedQuestion() {
+    // Get a random question that hasn't been asked yet
+    const unusedQuestions = this.allQuestions.filter(q => !this.askedQuestionIds.has(q.id));
+
+    if (unusedQuestions.length === 0) {
+      return null; // All questions exhausted
+    }
+
+    const randomIndex = Math.floor(Math.random() * unusedQuestions.length);
+    return unusedQuestions[randomIndex];
+  }
+
+  selectNextAdaptiveQuestion() {
+    // Adaptive question selection algorithm
+
+    // First question: always "life-environment"
+    if (this.askedQuestionIds.size === 0) {
+      const lifeEnvironmentQuestion = this.allQuestions.find(q => q.id === 'life-environment');
+      if (lifeEnvironmentQuestion) {
+        return lifeEnvironmentQuestion;
+      }
+      // Fallback to random if life-environment question not found
+      return this.getRandomUnusedQuestion();
+    }
+
+    // Always get ALL recommendations (matching what's displayed in Live Match Progress)
+    // This ensures we're asking about the true lowest-scoring archetypes
+    const recommendations = this.calculateAllRecommendations();
+    const exploredTraits = this.getExploredTraits();
+
+    // Folk-based prioritization: If folk is selected, check if lowest archetype has folk restrictions
+    // Only prioritize folk traits if they belong to low-scoring archetypes
+    if (this.selectedFolk) {
+      const folkTraits = this.getFolkRestrictedTraits(this.selectedFolk);
+      const unexploredFolkTraits = folkTraits.filter(trait => !exploredTraits.has(trait));
+
+      // 30% chance to ask about folk-specific traits (reduced priority)
+      if (unexploredFolkTraits.length > 0 && Math.random() < 0.3) {
+        const question = this.findQuestionForTrait(unexploredFolkTraits[0]);
+        if (question) {
+          return question;
+        }
+      }
+    }
+
+    // PRIMARY STRATEGY: Information gain - select question that maximizes expected score separation
+    // Focus on top/bottom archetypes (the "competitive" set where discrimination matters most)
+    const topBottomCount = Math.min(20, Math.floor(recommendations.length * 0.1));
+    const competitiveArchetypes = [
+      ...recommendations.slice(0, topBottomCount),
+      ...recommendations.slice(-topBottomCount)
+    ];
+
+    // Build candidate questions from unexplored traits in low-scoring archetypes
+    const candidateQuestions = [];
+    const seenQuestions = new Set();
+
+    for (let i = recommendations.length - 1; i >= 0; i--) {
+      const rec = recommendations[i];
+      const requiredTraits = this.getArchetypeRequiredTraits(rec);
+      const unexploredTraits = requiredTraits.filter(trait => !exploredTraits.has(trait));
+
+      for (const trait of unexploredTraits) {
+        const question = this.findQuestionForTrait(trait);
+        if (question && !seenQuestions.has(question.id)) {
+          candidateQuestions.push(question);
+          seenQuestions.add(question.id);
+          if (candidateQuestions.length >= 15) break; // Limit candidates for performance
+        }
+      }
+      if (candidateQuestions.length >= 15) break;
+    }
+
+    // If we have candidate questions, score them by expected separation
+    if (candidateQuestions.length > 0) {
+      let bestQuestion = null;
+      let bestScore = -Infinity;
+
+      // Probability weights for each answer type (based on typical user behavior)
+      const answerProbs = { 'yes': 0.35, 'maybe': 0.30, 'no': 0.35 };
+
+      for (const question of candidateQuestions) {
+        let expectedSeparation = 0;
+
+        // Simulate each possible answer
+        for (const [answerKey, probability] of Object.entries(answerProbs)) {
+          // Temporarily add this answer to simulate its effect
+          const originalAnswer = this.userAnswers[question.id];
+          this.userAnswers[question.id] = answerKey;
+
+          // Recalculate scores for competitive archetypes with this simulated answer
+          const simulatedScores = [];
+          for (const archetype of competitiveArchetypes) {
+            const score = this.scoreProfile(archetype.profile, archetype.displayName);
+            const percentage = score.percentage;
+            simulatedScores.push(percentage);
+          }
+
+          // Remove the temporary answer
+          if (originalAnswer !== undefined) {
+            this.userAnswers[question.id] = originalAnswer;
+          } else {
+            delete this.userAnswers[question.id];
+          }
+
+          // Calculate variance (measure of separation) for this simulated answer
+          const mean = simulatedScores.reduce((sum, val) => sum + val, 0) / simulatedScores.length;
+          const variance = simulatedScores.reduce((sum, val) => sum + Math.pow(val - mean, 2), 0) / simulatedScores.length;
+
+          // Weight by probability of this answer occurring
+          expectedSeparation += variance * probability;
+        }
+
+        // Select question with highest expected separation
+        if (expectedSeparation > bestScore) {
+          bestScore = expectedSeparation;
+          bestQuestion = question;
+        }
+      }
+
+      if (bestQuestion) {
+        return bestQuestion;
+      }
+    }
+
+    // Fallback: All archetypes fully explored, pick random unused question
+    return this.getRandomUnusedQuestion();
+  }
+
+  getFolkRestrictedTraits(folk) {
+    // Get all traits from archetypes restricted to this folk
+    const traits = new Set();
+
+    for (const [className, profile] of Object.entries(this.classProfiles)) {
+      if (!profile || !profile.archetypes) continue;
+
+      for (const [archetypeName, archetypeData] of Object.entries(profile.archetypes)) {
+        if (archetypeData.restriction && archetypeData.restriction.folk) {
+          const folkRestriction = archetypeData.restriction.folk;
+          // Handle both single folk (string) and multiple folk (array)
+          const isFolkMatch = Array.isArray(folkRestriction)
+            ? folkRestriction.includes(folk)
+            : folkRestriction === folk;
+
+          if (isFolkMatch) {
+            // Add traits from this restricted archetype
+            if (Array.isArray(archetypeData.traits)) {
+              archetypeData.traits.forEach(trait => traits.add(trait));
+            }
+          }
+        }
+      }
+    }
+
+    return Array.from(traits);
+  }
+
+  updateLiveScores() {
+    // Always show live scores, even with 0 answers (will show empty state)
+    const answeredCount = Object.keys(this.userAnswers).filter(k => this.userAnswers[k] !== 'dont-know').length;
+
+    // Always show the live scores container
+    document.getElementById('live-scores').style.display = 'block';
+
+    // Always calculate scores for all archetypes
+    const scores = this.calculateAllRecommendations();
+
+    if (!scores || scores.length === 0) {
+      document.getElementById('score-bars').innerHTML = '<div class="text-muted text-center py-3">Answer questions to see archetype matches</div>';
+      return;
+    }
+
+    // Update title
+    const titleElement = document.querySelector('.live-scores-title');
+    titleElement.textContent = 'Live Match Progress';
+
+    // Scroll container is always limited in height (set in CSS)
+    const scoreBarsContainer = document.getElementById('score-bars');
+
+    // Render score bars
+    scoreBarsContainer.innerHTML = scores.map((result, index) => {
+      const width = result.percentage; // Use actual percentage, not scaled
+      const className = result.className.toLowerCase().replace(/\s+/g, '-');
+      const classColor = `class-${className}`;
+
+      return `<div class="score-bar-wrapper">
+                <div class="score-bar-container">
+                  <div class="score-bar ${classColor}"
+                       style="width: ${width}%;"
+                       data-tooltip="${result.displayName} - ${result.percentage.toFixed(1)}%"
+                       title="${result.displayName}"></div>
+                  <span class="score-class-name">${result.displayName}</span>
+                </div>
+              </div>`;
+    }).join('');
+  }
+
+  // updateClassChart() - COMMENTED OUT FOR NOW
+  /*
+  updateClassChart() {
+    ... chart code ...
+  }
+  */
+
+  saveState() {
+    const state = {
+      version: this.storageVersion,
+      currentQuestionIndex: this.currentQuestionIndex,
+      userAnswers: this.userAnswers,
+      questions: this.questions, // Save the adaptive question sequence
+      askedQuestionIds: Array.from(this.askedQuestionIds), // Convert Set to Array
+      isComplete: this.isComplete,
+      selectedFolk: this.selectedFolk, // Save folk selection
+      timestamp: Date.now()
+    };
+    try {
+      localStorage.setItem(this.storageKey, JSON.stringify(state));
+    } catch (e) {
+      console.error('Failed to save state to localStorage:', e);
+    }
+  }
+
+  loadState() {
+    try {
+      const savedState = localStorage.getItem(this.storageKey);
+      if (!savedState) return false;
+
+      const state = JSON.parse(savedState);
+
+      // Check version - clear if outdated
+      if (!state.version || state.version !== this.storageVersion) {
+        this.clearState();
+        return false;
+      }
+
+      // Check if state is too old (more than 7 days)
+      const maxAge = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
+      if (Date.now() - state.timestamp > maxAge) {
+        this.clearState();
+        return false;
+      }
+
+      // Restore state
+      this.currentQuestionIndex = state.currentQuestionIndex || 0;
+      this.userAnswers = state.userAnswers || {};
+      this.questions = state.questions || [];
+      this.askedQuestionIds = new Set(state.askedQuestionIds || []);
+      this.isComplete = state.isComplete || false;
+      this.selectedFolk = state.selectedFolk || null; // Restore folk selection
+
+      // Show appropriate view
+      if (this.isComplete) {
+        this.showResults();
+      } else {
+        this.showQuestion(this.currentQuestionIndex);
+      }
+
+      return true;
+    } catch (e) {
+      console.warn('Failed to load state from localStorage:', e);
+      this.clearState();
+      return false;
+    }
+  }
+
+  clearState() {
+    try {
+      localStorage.removeItem(this.storageKey);
+    } catch (e) {
+      console.warn('Failed to clear state from localStorage:', e);
+    }
+  }
+}
+
+// Initialize the app when page loads
+let app;
+document.addEventListener('DOMContentLoaded', function() {
+  app = new QuestionnaireApp();
+});
