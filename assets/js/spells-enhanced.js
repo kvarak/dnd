@@ -126,13 +126,17 @@ class SpellsEnhanced {
     // Add favorites buttons to the spell levels row
     const $levelRow = $('.form-group:has(#resetLevel)');
     const $favoritesSection = $(`
-      <div class="col-sm-3">
-        <button class="btn btn-sm btn-outline-primary mr-1" id="show-favorites">
-          ⭐ Favorites (<span id="favorites-count">0</span>)
-        </button>
-        <button class="btn btn-sm btn-outline-secondary d-none" id="show-all-spells">
-          Show All
-        </button>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <small class="text-muted mb-1" style="font-size: 0.75rem;"><b>Advanced Controls</b></small>
+        <small class="text-muted mb-1" style="font-size: 0.75rem;"><b>Advanced Controls</b></small>
+        <div class="d-flex">
+          <button class="btn btn-sm btn-outline-primary mr-1" id="show-favorites">
+            ⭐ Favorites (<span id="favorites-count">0</span>)
+          </button>
+          <button class="btn btn-sm btn-outline-secondary d-none" id="show-all-spells">
+            Show All
+          </button>
+        </div>
       </div>
     `);
     $levelRow.append($favoritesSection);
@@ -140,13 +144,18 @@ class SpellsEnhanced {
     // Add generator buttons to the class row
     const $classRow = $('.form-group:has(.spell-class-pills)');
     const $generatorSection = $(`
-      <div class="col-sm-2">
-        <button class="btn btn-sm btn-outline-success mr-1 mb-1" id="generate-spell-cards" title="Generate printable spell cards">
-          🃏 Cards
-        </button>
-        <button class="btn btn-sm btn-outline-info mb-1" id="random-spell-list" title="Generate random spell list">
-          🎲 Random List
-        </button>
+      <div class="col-sm-2 d-flex flex-column align-items-end">
+        <div class="d-flex mb-1">
+          <button class="btn btn-sm btn-outline-success mr-1" id="generate-spell-cards" title="Generate printable spell cards">
+            🃏 Cards
+          </button>
+          <button class="btn btn-sm btn-outline-info" id="random-spell-list" title="Generate random spell list">
+            🎲 Random
+          </button>
+        </div>
+        <input type="text" class="form-control form-control-sm" id="card-footer-text"
+               placeholder="Custom card footer" maxlength="30" style="width: 100%;"
+               title="Text to appear on bottom of spell cards">
       </div>
     `);
     $classRow.append($generatorSection);
@@ -229,7 +238,10 @@ class SpellsEnhanced {
       }
     }
 
-    this.createSpellCardsHTML(visibleSpells);
+    // Get custom footer text
+    const customFooter = $('#card-footer-text').val() || '';
+
+    this.createSpellCardsHTML(visibleSpells, customFooter);
   }
 
   getVisibleSpells() {
@@ -302,20 +314,50 @@ class SpellsEnhanced {
     return $temp.text().replace(/\n\s*\n\s*\n/g, '\n\n').trim();
   }
 
-  createSpellCardsHTML(spells) {
+  createSpellCardsHTML(spells, customFooter = '') {
     const cardsHTML = `
       <!DOCTYPE html>
       <html>
       <head>
         <title>D&D Spell Cards</title>
         <style>
-          body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
-          .spell-card {
-            width: 2.5in; height: 3.5in; border: 2px solid #000; border-radius: 8px;
-            margin: 10px; padding: 8px; display: inline-block; vertical-align: top;
-            box-sizing: border-box; page-break-inside: avoid;
-            position: relative;
+          /* A4 Page Setup - 210mm × 297mm */
+          @page {
+            size: A4;
+            margin: 10mm;
           }
+
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+          }
+
+          /* Card Container - 3 cards per row on A4 */
+          .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 2mm;
+            padding: 10mm;
+          }
+
+          /* MTG Standard Size: 63mm × 88mm (2.48in × 3.46in) */
+          .spell-card {
+            width: 63mm;
+            height: 88mm;
+            border: 2px solid #000;
+            border-radius: 3mm;
+            padding: 3mm;
+            box-sizing: border-box;
+            page-break-inside: avoid;
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+          }
+
+          /* School-based backgrounds */
           .spell-card.abjuration { background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); }
           .spell-card.conjuration { background: linear-gradient(135deg, #fff9c4 0%, #fff59d 100%); }
           .spell-card.divination { background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%); }
@@ -324,36 +366,131 @@ class SpellsEnhanced {
           .spell-card.illusion { background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 100%); }
           .spell-card.necromancy { background: linear-gradient(135deg, #efebe9 0%, #d7ccc8 100%); }
           .spell-card.transmutation { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); }
-          .spell-name { font-weight: bold; font-size: 14px; margin-bottom: 4px;
-                       border-bottom: 1px solid #333; padding-bottom: 2px; padding-right: 30px; }
+
+          .spell-name {
+            font-weight: bold;
+            font-size: 11pt;
+            margin-bottom: 2mm;
+            border-bottom: 1px solid #333;
+            padding-bottom: 1mm;
+            padding-right: 8mm;
+          }
+
           .spell-level-badge {
-            position: absolute; top: 4px; right: 8px;
-            width: 24px; height: 24px; border-radius: 50%;
-            background: #333; color: #fff;
-            display: flex; align-items: center; justify-content: center;
-            font-weight: bold; font-size: 12px;
+            position: absolute;
+            top: 2mm;
+            right: 2mm;
+            width: 6mm;
+            height: 6mm;
+            border-radius: 50%;
+            background: #333;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 9pt;
           }
-          .spell-info { font-size: 10px; margin-bottom: 8px; }
-          .spell-description { font-size: 9px; line-height: 1.2; padding-bottom: 35px; }
-          .level-school { font-style: italic; color: #666; font-size: 10px; }
+
+          .spell-info {
+            font-size: 8pt;
+            margin-bottom: 2mm;
+            line-height: 1.3;
+          }
+
+          .spell-description {
+            font-size: 7pt;
+            line-height: 1.25;
+            padding-bottom: 9mm;
+          }
+
+          .level-school {
+            font-style: italic;
+            color: #666;
+            font-size: 8pt;
+            margin-bottom: 1mm;
+          }
+
           .spell-icons {
-            position: absolute; bottom: 6px; left: 6px;
-            font-size: 12px;
-            letter-spacing: 2px;
-            max-width: 160px;
+            position: absolute;
+            bottom: 2mm;
+            left: 2mm;
+            font-size: 10pt;
+            letter-spacing: 1mm;
+            max-width: 40mm;
           }
+
+          .spell-footer {
+            position: absolute;
+            bottom: 10mm;
+            left: 2mm;
+            font-size: 6pt;
+            color: #666;
+            max-width: 50mm;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+
           .spell-qr {
-            position: absolute; bottom: 4px; right: 4px;
-            width: 30px; height: 30px;
+            position: absolute;
+            bottom: 2mm;
+            right: 2mm;
+            width: 7mm;
+            height: 7mm;
           }
+
+          /* Print-specific optimizations */
           @media print {
-            body { margin: 0; }
-            .spell-card { margin: 5px; }
+            body {
+              margin: 0;
+              padding: 0;
+            }
+
+            .card-container {
+              padding: 10mm;
+              gap: 2mm;
+            }
+
+            .spell-card {
+              margin: 0;
+              break-inside: avoid;
+              page-break-inside: avoid;
+            }
+
+            /* Force page break after 9 cards (3x3 grid) */
+            .spell-card:nth-child(9n) {
+              page-break-after: always;
+            }
+
+            /* Remove print artifacts */
+            * {
+              -webkit-print-color-adjust: exact !important;
+              print-color-adjust: exact !important;
+              color-adjust: exact !important;
+            }
+          }
+
+          /* Screen preview optimization */
+          @media screen {
+            body {
+              background: #e0e0e0;
+              padding: 20px;
+            }
+
+            .card-container {
+              background: white;
+              box-shadow: 0 0 10px rgba(0,0,0,0.1);
+              max-width: 210mm;
+              margin: 0 auto;
+            }
           }
         </style>
       </head>
       <body>
-        ${spells.map(spell => this.createSingleCard(spell)).join('')}
+        <div class="card-container">
+          ${spells.map(spell => this.createSingleCard(spell, customFooter)).join('')}
+        </div>
       </body>
       </html>
     `;
@@ -365,7 +502,7 @@ class SpellsEnhanced {
     printWindow.focus();
   }
 
-  createSingleCard(spell) {
+  createSingleCard(spell, customFooter = '') {
     console.log('Creating card for:', spell.name, 'Has rawData:', !!spell.rawData);
     // Use raw data if available, otherwise fall back to HTML parsing
     if (spell.rawData) {
@@ -434,8 +571,9 @@ class SpellsEnhanced {
             <strong>Duration:</strong> ${duration || ''}
           </div>
           <div class="spell-description">
-            ${this.formatDescription(this.truncateAtWord(spell.description, 700))}
+            ${this.formatDescription(this.truncateAtWord(spell.description, 550))}
           </div>
+          ${customFooter ? `<div class="spell-footer">${customFooter}</div>` : ''}
           <div class="spell-icons">${iconString}</div>
           <img src="${qrCodeURL}" class="spell-qr" alt="QR code">
         </div>

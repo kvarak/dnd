@@ -39,6 +39,139 @@
   margin-right: 4px;
 }
 
+/* DataTables search field - match custom card footer styling */
+.dataTables_filter {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.dataTables_filter label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.dataTables_filter input[type="search"] {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  color: #212529;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  width: auto;
+  margin-left: 0;
+}
+
+.dataTables_filter input[type="search"]::placeholder {
+  color: #6c757d;
+  opacity: 0.6;
+}
+
+.dataTables_filter input[type="search"]:focus {
+  background-color: #fff;
+  border-color: #86b7fe;
+  color: #212529;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Dark mode for DataTables search */
+html.dark-mode .dataTables_filter input[type="search"] {
+  background-color: #2b3035 !important;
+  border-color: #495057 !important;
+  color: #dee2e6 !important;
+}
+
+html.dark-mode .dataTables_filter input[type="search"]::placeholder {
+  color: #adb5bd !important;
+  opacity: 0.75;
+}
+
+html.dark-mode .dataTables_filter input[type="search"]:focus {
+  background-color: #343a40 !important;
+  border-color: #6c757d !important;
+  color: #f8f9fa !important;
+  box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.25);
+}
+
+html.dark-mode .dataTables_filter label {
+  color: #dee2e6;
+}
+
+/* Custom spells search field - match card footer styling */
+#spells-search {
+  background-color: #fff;
+  border-color: #ced4da;
+  color: #212529;
+}
+
+#spells-search::placeholder {
+  color: #6c757d;
+  opacity: 0.6;
+}
+
+#spells-search:focus {
+  background-color: #fff;
+  border-color: #86b7fe;
+  color: #212529;
+}
+
+html.dark-mode #spells-search {
+  background-color: #2b3035 !important;
+  border-color: #495057 !important;
+  color: #dee2e6 !important;
+}
+
+html.dark-mode #spells-search::placeholder {
+  color: #adb5bd !important;
+  opacity: 0.75;
+}
+
+html.dark-mode #spells-search:focus {
+  background-color: #343a40 !important;
+  border-color: #6c757d !important;
+  color: #f8f9fa !important;
+}
+
+/* Card footer text input - light mode defaults */
+#card-footer-text {
+  background-color: #fff;
+  border-color: #ced4da;
+  color: #212529;
+}
+
+#card-footer-text::placeholder {
+  color: #6c757d;
+  opacity: 0.6;
+}
+
+#card-footer-text:focus {
+  background-color: #fff;
+  border-color: #86b7fe;
+  color: #212529;
+}
+
+/* Dark mode using class-based detection */
+html.dark-mode #card-footer-text {
+  background-color: #2b3035 !important;
+  border-color: #495057 !important;
+  color: #dee2e6 !important;
+}
+
+html.dark-mode #card-footer-text::placeholder {
+  color: #adb5bd !important;
+  opacity: 0.75;
+}
+
+html.dark-mode #card-footer-text:focus {
+  background-color: #343a40 !important;
+  border-color: #6c757d !important;
+  color: #f8f9fa !important;
+}
+
 /* Level Pills Styling */
 .spell-level-pills {
   gap: 0.25rem;
@@ -439,4 +572,124 @@ html.dark-mode .form-control:focus {
   background-color: #3a3a3a;
   border-color: #666;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Advanced Filter Panel */
+html.dark-mode .advanced-filters .card {
+  background-color: #2d2d2d;
+  border-color: #4a4a4a;
+  color: #e0e0e0;
+}
+
+html.dark-mode .form-check-label {
+  color: #e0e0e0;
+}
+
+html.dark-mode .form-check-input {
+  background-color: #3a3a3a;
+  border-color: #4a4a4a;
+}
+
+html.dark-mode .form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* Advanced Filter Pills */
+.school-filter-pill,
+.casting-time-pill,
+.range-filter-pill,
+.target-filter-pill,
+.duration-filter-pill {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.school-filter-pill:hover,
+.casting-time-pill:hover,
+.range-filter-pill:hover,
+.target-filter-pill:hover,
+.duration-filter-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.school-filter-pill.active,
+.casting-time-pill.active,
+.range-filter-pill.active,
+.target-filter-pill.active,
+.duration-filter-pill.active {
+  background-color: #0d6efd !important;
+  color: white;
+}
+
+html.dark-mode .school-filter-pill.active,
+html.dark-mode .casting-time-pill.active,
+html.dark-mode .range-filter-pill.active,
+html.dark-mode .target-filter-pill.active,
+html.dark-mode .duration-filter-pill.active {
+  background-color: #0d6efd !important;
+  color: white;
+}
+
+/* Filter Tags */
+#active-filter-tags {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#active-filter-tags .badge {
+  font-size: 0.85rem;
+  padding: 0.4rem 0.6rem;
+}
+
+.filter-tag-close {
+  margin-left: 0.3rem;
+  opacity: 0.7;
+}
+
+.filter-tag-close:hover {
+  opacity: 1;
+}
+
+/* Active Filter Count Badge */
+#active-filter-count {
+  animation: pulse 0.3s ease;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* Preset Buttons */
+.preset-btn {
+  transition: all 0.2s ease;
+}
+
+.preset-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Advanced Filter Panel */
+#advancedFilterPanel .card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#advancedFilterPanel .form-label {
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+html.dark-mode #advancedFilterPanel .form-label {
+  color: #adb5bd;
 }

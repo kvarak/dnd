@@ -13,3 +13,8 @@
 
 - date: 2026-02-15
   info: Added the first tool resource - the [Class Recommendation Questionnaire](Resources/questionnaire.html), a questionnaire to help players choose a class based on their preferences and background. More tools will be added in the future. Check out the tool already now!
+
+
+- date: 2026-02-23
+  info: Major spells page upgrade with advanced filtering, sorting, favorites, printing, and search capabilities.
+
