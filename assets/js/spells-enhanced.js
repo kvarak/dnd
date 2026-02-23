@@ -128,7 +128,6 @@ class SpellsEnhanced {
     const $favoritesSection = $(`
       <div class="col-sm-4 d-flex flex-column align-items-end">
         <small class="text-muted mb-1" style="font-size: 0.75rem;"><b>Advanced Controls</b></small>
-        <small class="text-muted mb-1" style="font-size: 0.75rem;"><b>Advanced Controls</b></small>
         <div class="d-flex">
           <button class="btn btn-sm btn-outline-primary mr-1" id="show-favorites">
             ⭐ Favorites (<span id="favorites-count">0</span>)
