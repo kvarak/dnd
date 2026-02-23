@@ -1384,3 +1384,63 @@
       mysterious: 3
       cunning-value: 2
     dont-know: {}
+- id: power-sacrifice-cost
+  text: What price would you pay for greater power?
+  category: character-philosophy
+  answers:
+    Anything; power is worth any cost:
+      demonic-corruption: 5
+      otherworldly-knowledge: 4
+      reckless-value: 4
+      cunning-value: 3
+      ambitious: 2
+      chaotic-value: 2
+      compassionate-heart: -3
+      lawful-value: -2
+    My soul; but only for righteous purpose:
+      zealot-faith: 6
+      holy-power: 4
+      religious-value: 4
+      divine-warrior: 3
+      lawful-value: 3
+      disciplined-value: 2
+      demonic-corruption: -3
+      chaotic-value: -2
+    Years of dedicated study & discipline:
+      scholar: 5
+      knowledge-seeker: 4
+      academic-background: 4
+      disciplined-value: 3
+      arcane-magic: 3
+      tactical-value: 2
+      reckless-value: -3
+      instinctive-combatant: -2
+    Others lives; sacrifice is necessary:
+      death-dealer: 5
+      pragmatic-fighter: 4
+      ruthless-value: 4
+      cunning-value: 3
+      tactical-value: 2
+      professional-killer: 2
+      compassionate-heart: -4
+      nurturing-soul: -2
+    I reject power that demands sacrifice:
+      compassionate-heart: 5
+      peaceful-soul: 4
+      wisdom-seeker: 4
+      nature-guardian: 3
+      nurturing-soul: 3
+      diplomatic-soul: 2
+      death-dealer: -4
+      ruthless-value: -3
+      reckless-value: -2
+    Nothing; my freedom is sacred:
+      wild-spirit: 5
+      freedom-fighter: 4
+      chaotic-value: 4
+      reckless-value: 3
+      instinctive-combatant: 3
+      nature-guardian: 2
+      lawful-value: -4
+      disciplined-value: -3
+    dont-know: {}
