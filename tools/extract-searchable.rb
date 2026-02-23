@@ -201,12 +201,76 @@ puts "  Found #{poisons.length} poisons"
 # Write to YAML files in _data/
 Dir.mkdir('_data') unless Dir.exist?('_data')
 
+# Extract old feats from legacy content
+def extract_old_feats
+  feats_file = 'docs/__OldRules/feats.md'
+  return [] unless File.exist?(feats_file)
+
+  content = File.read(feats_file)
+  feats = []
+
+  # Pattern matches: -   ### Feat Name
+  # Followed by content until next feat or section
+  content.scan(/-   ### ([^\n]+)\n((?:[^\n]*\n)*?)(?=(?:-   ###|<div class="columnsthree">|##\s|$))/) do |match|
+    feat_name = match[0].strip
+    feat_content = match[1]
+
+    # Skip malformed entries
+    next if feat_name.empty? || feat_name.length < 2
+
+    # Generate anchor from name
+    feat_anchor = feat_name.downcase
+                            .gsub(/[^a-z0-9\s-]/, '')
+                            .gsub(/\s+/, '-')
+                            .strip
+
+    # Extract description (first meaningful non-prerequisite text)
+    description_lines = []
+    feat_content.split("\n").each do |line|
+      line = line.strip
+
+      # Stop at first empty line after we have content
+      if line.empty?
+        break unless description_lines.empty?
+        next
+      end
+
+      # Skip structural elements
+      next if line.include?('<br/>&dash;') || line.include?('*Prerequisite:') || line.include?('<div')
+
+      # Keep descriptive text
+      description_lines << line
+    end
+
+    # Clean and truncate description
+    description = description_lines.join(' ')
+                                   .gsub(/<[^>]+>/, '')  # Remove HTML tags
+                                   .gsub(/\s+/, ' ')     # Normalize whitespace
+                                   .strip[0..299]        # Truncate to 300 chars
+
+    # Only add if we have meaningful content
+    if description && description.length > 10
+      feats << {
+        'name' => feat_name,
+        'anchor' => feat_anchor,
+        'description' => description
+      }
+    end
+  end
+
+  feats
+end
+
+old_feats = extract_old_feats
+puts "  Found #{old_feats.size} old feats"
+
 File.write('_data/searchable_skills.yml', skills.to_yaml)
 File.write('_data/searchable_combat_skills.yml', combat_skills.to_yaml)
 File.write('_data/searchable_familiars.yml', familiars.to_yaml)
 File.write('_data/searchable_alchemical.yml', alchemical_items.to_yaml)
 File.write('_data/searchable_herbal.yml', herbal_items.to_yaml)
 File.write('_data/searchable_poisons.yml', poisons.to_yaml)
+File.write('_data/searchable_old_feats.yml', old_feats.to_yaml)
 
 puts "✅ Wrote search data to _data/"
 puts "   - searchable_skills.yml"
@@ -215,3 +279,4 @@ puts "   - searchable_familiars.yml"
 puts "   - searchable_alchemical.yml"
 puts "   - searchable_herbal.yml"
 puts "   - searchable_poisons.yml"
+puts "   - searchable_old_feats.yml"

@@ -62,7 +62,6 @@ build:
 extract: build
 	@echo "🔍 Extracting searchable content..."
 	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) ruby tools/extract-searchable.rb
-	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) python3 tools/extract-old-feats.py
 
 # Minify CSS and JS inside Docker container
 minify: build

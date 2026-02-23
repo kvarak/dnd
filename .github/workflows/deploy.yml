@@ -85,9 +85,13 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
+      - name: Extract searchable content (skills, familiars, feats, etc.)
+        run: |
+          echo "🔍 Extracting searchable content..."
+          ruby tools/extract-searchable.rb
+
       - name: Build Jekyll site with basic quality gate
         run: |
-          ruby tools/extract-searchable.rb
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
           bundle exec htmlproofer ./_site \
             --ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
