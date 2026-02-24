@@ -12,6 +12,7 @@ class QuestionnaireApp {
     this.isComplete = false;
     this.selectedFolk = null; // Track selected folk for restricted archetypes
     this.folkRestrictions = this.extractFolkRestrictions(); // Extract folk from profiles
+    this.showPartialMatches = false; // Track toggle state for trait filtering
     this.storageKey = 'dnd-questionnaire-state';
     this.storageVersion = 5; // Increment this when scoring logic changes
     this.isProcessingAnswer = false;
@@ -297,9 +298,12 @@ class QuestionnaireApp {
       // Calculate recommendations using our loaded data
       const recommendations = this.calculateRecommendations();
 
-      if (!recommendations || recommendations.length === 0) {
+      if (!recommendations || (!recommendations.strictMatches || recommendations.strictMatches.length === 0)) {
         throw new Error('No recommendations generated');
       }
+
+      // Store recommendations for toggle switching
+      this.currentRecommendations = recommendations;
 
       // Calculate user's trait profile with percentages
       const userTraitProfile = this.getUserTraitProfile();
@@ -307,8 +311,38 @@ class QuestionnaireApp {
       // Update answer count (count all answered questions including "Don't Know")
       this.answerCount.textContent = Object.keys(this.userAnswers).length;
 
-      // Show results
-      this.resultsContent.innerHTML = this.renderResults(recommendations, userTraitProfile);
+      // Show strict matches by default
+      const toDisplay = this.showPartialMatches ? recommendations.allMatches : recommendations.strictMatches;
+      this.resultsContent.innerHTML = this.renderResults(toDisplay, userTraitProfile, recommendations.hasPartialMatches, this.showPartialMatches);
+
+      // Attach toggle listener if partial matches exist
+      if (recommendations.hasPartialMatches) {
+        const attachListener = () => {
+          setTimeout(() => {
+            const toggleCheckbox = document.getElementById('show-partial-matches');
+            if (toggleCheckbox) {
+              // Remove all existing listeners by cloning
+              const newCheckbox = toggleCheckbox.cloneNode(true);
+              toggleCheckbox.parentNode.replaceChild(newCheckbox, toggleCheckbox);
+
+              // Attach fresh listener with named function for recursion
+              newCheckbox.addEventListener('change', () => {
+                this.showPartialMatches = newCheckbox.checked;
+                const toShow = this.showPartialMatches ? recommendations.allMatches : recommendations.strictMatches;
+                this.resultsContent.innerHTML = this.renderResults(toShow, userTraitProfile, recommendations.hasPartialMatches, this.showPartialMatches);
+
+                // Re-attach listener after re-render
+                attachListener();
+
+                this.saveState();
+              });
+            }
+          }, 0);
+        };
+
+        // Attach initial listener
+        attachListener();
+      }
 
       // Hide question container and folk selection, show results
       this.questionContainer.style.display = 'none';
@@ -375,35 +409,13 @@ class QuestionnaireApp {
           const formattedArchetype = this.formatArchetypeName(archetypeName);
           const score = this.scoreProfile(mergedProfile, `${formattedArchetype} (${className})`);
 
-          // Apply folk restriction bonus
-          let folkBonus = 0;
-          if (this.selectedFolk && archetypeData.restriction && archetypeData.restriction.folk) {
-            const folkRestriction = archetypeData.restriction.folk;
-            // Handle both single folk (string) and multiple folk (array)
-            const isFolkMatch = Array.isArray(folkRestriction)
-              ? folkRestriction.includes(this.selectedFolk)
-              : folkRestriction === this.selectedFolk;
-
-            if (isFolkMatch) {
-              folkBonus = 20; // Significant bonus for matching folk
-            }
-          }
-
-          // Calculate display percentage (capped at 100%) vs raw percentage for sorting
-          const rawPercentage = folkBonus > 0 ? ((score.score + folkBonus) / score.maxScore) * 100 : score.percentage;
-          const displayPercentage = Math.min(100, rawPercentage);
-
           results.push({
             className: className,
             archetypeName: archetypeName,
             displayName: `${formattedArchetype} (${className})`,
             profile: mergedProfile,  // Include profile for trait display
             restriction: archetypeData.restriction, // Include restriction info
-            folkBonus: folkBonus,
-            ...score,
-            score: score.score + folkBonus, // Add bonus to total score
-            percentage: displayPercentage, // Display percentage capped at 100%
-            rawPercentage: rawPercentage // Keep raw for sorting if needed
+            ...score
           });
         }
       } else {
@@ -448,23 +460,33 @@ class QuestionnaireApp {
       userTraitMap.set(trait.name, trait.percentage);
     });
 
-    // Filter out archetypes where any trait has very low score (< 20%)
-    // Red badges indicate the user answered negatively for important traits
-    const filtered = grouped.filter(rec => {
+    // Mark archetypes with trait mismatches (red badges indicate user answered "no" to important traits)
+    const marked = grouped.map(rec => {
+      let hasTraitMismatch = false;
       if (rec.profile && rec.profile.traits && rec.profile.traits.length > 0) {
-        const hasRedBadge = rec.profile.traits.some(traitName => {
+        hasTraitMismatch = rec.profile.traits.some(traitName => {
           const percentage = userTraitMap.get(traitName);
           return percentage !== undefined && percentage < 20;
         });
-        return !hasRedBadge; // Exclude if any trait is red
       }
-      return true; // Keep if no traits
+      return {
+        ...rec,
+        hasTraitMismatch: hasTraitMismatch
+      };
     });
 
     // Sort by score descending
-    filtered.sort((a, b) => b.score - a.score);
+    marked.sort((a, b) => b.score - a.score);
 
-    return filtered.slice(0, 10);
+    // Create two filtered lists: strict matches (no mismatches) and all matches
+    const strictMatches = marked.filter(rec => !rec.hasTraitMismatch).slice(0, 10);
+    const allMatches = marked.slice(0, 10);
+
+    return {
+      strictMatches: strictMatches,
+      allMatches: allMatches,
+      hasPartialMatches: allMatches.some(rec => rec.hasTraitMismatch)
+    };
   }
 
   groupBoonCombinations(results) {
@@ -515,7 +537,6 @@ class QuestionnaireApp {
           displayName: `${formattedArchetype} + Pact of the ${formattedBoon} (${className})`,
           profile: topArchetype.profile, // Use archetype profile for trait display
           restriction: topArchetype.restriction,
-          folkBonus: topArchetype.folkBonus || 0,
           score: (topArchetype.score + topBoon.score) / 2, // Average the scores
           percentage: (topArchetype.percentage + topBoon.percentage) / 2, // Average the percentages
           maxScore: topArchetype.maxScore // Carry over maxScore for display
@@ -566,20 +587,6 @@ class QuestionnaireApp {
           const formattedArchetype = this.formatArchetypeName(archetypeName);
           const score = this.scoreProfile(mergedProfile, `${formattedArchetype} (${className})`);
 
-          // Apply folk restriction bonus
-          let folkBonus = 0;
-          if (this.selectedFolk && archetypeData.restriction && archetypeData.restriction.folk) {
-            const folkRestriction = archetypeData.restriction.folk;
-            // Handle both single folk (string) and multiple folk (array)
-            const isFolkMatch = Array.isArray(folkRestriction)
-              ? folkRestriction.includes(this.selectedFolk)
-              : folkRestriction === this.selectedFolk;
-
-            if (isFolkMatch) {
-              folkBonus = 20; // Significant bonus for matching folk
-            }
-          }
-
           // Check if this class has high-scoring variants to apply
           let variantPrefix = '';
           if (variantScores.has(className)) {
@@ -591,21 +598,13 @@ class QuestionnaireApp {
             }
           }
 
-          // Calculate display percentage (capped at 100%) vs raw percentage for sorting
-          const rawPercentage = folkBonus > 0 ? ((score.score + folkBonus) / score.maxScore) * 100 : score.percentage;
-          const displayPercentage = Math.min(100, rawPercentage);
-
           results.push({
             className: className,
             archetypeName: archetypeName,
             displayName: `${variantPrefix}${formattedArchetype} (${className})`,
             profile: mergedProfile,  // Include profile for trait display
             restriction: archetypeData.restriction, // Include restriction info
-            folkBonus: folkBonus,
-            ...score,
-            score: score.score + folkBonus, // Add bonus to total score
-            percentage: displayPercentage, // Display percentage capped at 100%
-            rawPercentage: rawPercentage // Keep raw for sorting if needed
+            ...score
           });
         }
       } else {
@@ -643,9 +642,24 @@ class QuestionnaireApp {
     // Group boon combinations (e.g., Warlock patron + pact)
     const grouped = this.groupBoonCombinations(results);
 
-    // Sort by score descending - return ALL results for localhost debugging
-    grouped.sort((a, b) => b.score - a.score);
-    return grouped; // Return everything for dev mode
+    // Filter out archetypes with non-matching Folk restrictions
+    const filtered = grouped.filter(rec => {
+      // Only show archetypes that have no folk restriction OR match the selected folk
+      if (rec.restriction && rec.restriction.folk) {
+        const requiredFolk = rec.restriction.folk;
+        const isFolkMatch = Array.isArray(requiredFolk)
+          ? requiredFolk.includes(this.selectedFolk)
+          : requiredFolk === this.selectedFolk;
+
+        return isFolkMatch; // Only show if folk matches
+      }
+
+      return true; // Show all others (no folk restriction)
+    });
+
+    // Sort by score descending
+    filtered.sort((a, b) => b.score - a.score);
+    return filtered;
   }
 
   formatArchetypeName(archetypeName) {
@@ -670,6 +684,11 @@ class QuestionnaireApp {
     // Archetype traits add to base class traits
     if (archetypeData.traits) {
       merged.traits.push(...archetypeData.traits);
+    }
+
+    // Include restriction info (e.g., Folk requirements)
+    if (archetypeData.restriction) {
+      merged.restriction = archetypeData.restriction;
     }
 
     return merged;
@@ -723,6 +742,31 @@ class QuestionnaireApp {
 
       // Cap question score to maximum possible for this question
       totalScore += Math.min(questionScore, maxQuestionScore);
+    }
+
+    // Add Folk as a virtual trait for restricted archetypes
+    if (profile.restriction && profile.restriction.folk) {
+      const folkRestriction = profile.restriction.folk;
+      const folkWeight = 4; // Equivalent to one strong trait match (yes/no question)
+
+      console.log(`🎭 Scoring ${profileName}: requires Folk`, folkRestriction, 'user selected:', this.selectedFolk);
+
+      // Always add to max possible score
+      maxPossibleScore += folkWeight;
+
+      // Only add to actual score if Folk matches
+      if (this.selectedFolk) {
+        const isFolkMatch = Array.isArray(folkRestriction)
+          ? folkRestriction.includes(this.selectedFolk)
+          : folkRestriction === this.selectedFolk;
+
+        console.log(`  → Folk match: ${isFolkMatch}`);
+        if (isFolkMatch) {
+          console.log(`  → Adding ${folkWeight} points to ${profileName}`);
+          totalScore += folkWeight; // 100% match for this "trait"
+        }
+        // If not matching, add 0 (penalizes the percentage)
+      }
     }
 
     // Sort traits by their contribution score and get top matches
@@ -918,7 +962,7 @@ class QuestionnaireApp {
     return profile;
   }
 
-  renderResults(recommendations, userTraitProfile = null) {
+  renderResults(recommendations, userTraitProfile = null, hasPartialMatches = false, isToggled = false) {
     if (!recommendations || recommendations.length === 0) {
       return '<div class="alert alert-warning">No recommendations could be calculated. Please try answering more questions.</div>';
     }
@@ -1001,6 +1045,19 @@ class QuestionnaireApp {
 
     // Add recommendations
     output += '<h5 class="mb-3">Recommended Archetypes</h5>';
+
+    // Add toggle filter for trait matching - only if partial matches exist
+    if (hasPartialMatches) {
+      output += `
+        <div class="form-check form-switch d-flex align-items-center mb-3">
+          <input class="form-check-input" type="checkbox" id="show-partial-matches"
+                 style="width: 3em; height: 1.5em; cursor: pointer;" ${isToggled ? 'checked' : ''}>
+          <label class="form-check-label text-muted ms-2" for="show-partial-matches" style="cursor: pointer; margin-bottom: 0;">
+            <small>Include archetypes with trait mismatches</small>
+          </label>
+        </div>
+      `;
+    }
 
     // Convert user trait profile to a Map for easy lookup
     const userTraitMap = new Map();
@@ -1123,7 +1180,7 @@ class QuestionnaireApp {
       }
 
       return `
-      <div class="card mb-3 ${index === 0 ? 'border-primary' : ''}">
+      <div class="card mb-3 ${index === 0 ? 'border-primary' : rec.hasTraitMismatch ? 'border-warning' : ''}">
         <div class="card-body">
           <div class="d-flex align-items-center mb-2">
             <span class="badge bg-primary me-2" style="border-radius: 50%; width: 2.5em; height: 2.5em; display: flex; align-items: center; justify-content: center;">
@@ -1138,6 +1195,11 @@ class QuestionnaireApp {
                 <a href="{{ site.baseurl }}/Classes/${rec.className.toLowerCase()}.html" class="text-decoration-none">${rec.className}</a>
               `}
             </h5>
+            ${rec.hasTraitMismatch ? `
+              <span class="badge bg-warning text-dark ms-2" title="Has trait mismatches - you answered negatively to some important traits">
+                <i class="fas fa-exclamation-circle"></i> Trait Mismatch
+              </span>
+            ` : ''}
             <div class="ms-auto">
               <span class="badge bg-success">
                 ${rec.percentage.toFixed(1)}% match
@@ -1186,6 +1248,7 @@ class QuestionnaireApp {
     this.isComplete = false;
     this.askedQuestionIds = new Set(); // Reset asked questions
     this.selectedFolk = null; // Reset folk selection
+    this.showPartialMatches = false; // Reset toggle state
 
     // Clear localStorage
     this.clearState();
@@ -1293,6 +1356,7 @@ class QuestionnaireApp {
   }
 
   selectFolk(folk) {
+    console.log('🎭 Folk selected:', folk);
     this.selectedFolk = folk;
     this.hideFolkSelection();
 
@@ -1307,6 +1371,7 @@ class QuestionnaireApp {
     }
 
     this.saveState();
+    console.log('🎭 After Folk selection, this.selectedFolk =', this.selectedFolk);
   }
 
   // End Folk Selection Methods
@@ -1535,11 +1600,14 @@ class QuestionnaireApp {
     // Always show live scores, even with 0 answers (will show empty state)
     const answeredCount = Object.keys(this.userAnswers).filter(k => this.userAnswers[k] !== 'dont-know').length;
 
+    console.log('📊 updateLiveScores called, selectedFolk:', this.selectedFolk, 'answered:', answeredCount);
+
     // Always show the live scores container
     document.getElementById('live-scores').style.display = 'block';
 
     // Always calculate scores for all archetypes
     const scores = this.calculateAllRecommendations();
+    console.log('📊 Top 5 live scores:', scores.slice(0, 5).map(s => `${s.displayName}: ${s.percentage.toFixed(1)}%`));
 
     if (!scores || scores.length === 0) {
       document.getElementById('score-bars').innerHTML = '<div class="text-muted text-center py-3">Answer questions to see archetype matches</div>';
