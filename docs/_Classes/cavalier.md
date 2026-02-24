@@ -5,7 +5,7 @@ profile:
   traits: ["weapon-master", "tactical-value", "inspirational-leader", "lawful-value", "mounted"]
   archetypes:
     knightErrant:
-      traits: ["survival-expert", "cunning-value", "wanderer-spirit", "pragmatic-fighter"]
+      traits: ["survival-expert", "charismatic", "wanderer-spirit", "pragmatic-fighter"]
     order-of-the-blueRose:
       traits: ["social-manipulator", "protective-value", "lawful-value", "diplomatic-soul"]
     order-of-the-dragon:
