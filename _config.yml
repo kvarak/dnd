@@ -41,6 +41,8 @@ collections:
     output: true
   Resources:
     output: true
+  ResourcesTools:
+    output: true
   Rules:
     output: true
   RulesCharacter:

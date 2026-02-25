@@ -24,8 +24,12 @@
     folder: "Folk"
 
 - header: "Resources"
-  subheads: false
-  folder: "Resources"
+  subheads: true
+  subheaders:
+  - header: "Docs"
+    folder: "Resources"
+  - header: "Tools"
+    folder: "ResourcesTools"
 
 - header: "Rules"
   subheads: true
