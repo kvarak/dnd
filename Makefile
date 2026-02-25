@@ -11,7 +11,7 @@
 # - Focus on daily development workflow
 # - Everything works out of the box
 
-.PHONY: help serve build extract clean find-broken-links ci-build update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose validate-profiles validate-questions analyze-question-traits test-class-scoring test-ranking-system
+.PHONY: help serve build extract extract-archetypes clean find-broken-links ci-build update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose validate-profiles validate-questions analyze-question-traits test-class-scoring test-ranking-system
 
 # Docker configuration
 DOCKER_IMAGE = dnd-jekyll
@@ -25,10 +25,11 @@ help:
 	@echo "  make serve    - Start development server (does everything)"
 	@echo ""
 	@echo "Manual operations:"
-	@echo "  make build    - Rebuild Docker image"
-	@echo "  make clean    - Stop containers and clean up"
-	@echo "  make minify   - Regenerate minified CSS/JS"
-	@echo "  make extract  - Re-extract searchable content"
+	@echo "  make build              - Rebuild Docker image"
+	@echo "  make clean              - Stop containers and clean up"
+	@echo "  make minify             - Regenerate minified CSS/JS"
+	@echo "  make extract            - Re-extract searchable content and archetypes"
+	@echo "  make extract-archetypes - Extract archetypes from class files to _data/archetypes.yml"
 	@echo ""
 	@echo "Character Creator:"
 	@echo "  make update-creator-data - Extract data from markdown for character creator"
@@ -59,9 +60,14 @@ build:
 	docker build -t $(DOCKER_IMAGE) .
 
 # Extract searchable content (skills, familiars, feats, etc.)
-extract: build
+extract: build extract-archetypes
 	@echo "🔍 Extracting searchable content..."
 	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) ruby tools/extract-searchable.rb
+
+# Extract archetypes from class files
+extract-archetypes: build
+	@echo "🎭 Extracting archetypes from class files..."
+	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) ruby tools/extract-archetypes.rb
 
 # Start development server (does extract automatically)
 serve: clean build extract

@@ -27,6 +27,8 @@ collections_dir: docs
 collections:
   Campaigns:
     output: true
+  CampaignStats:
+    output: true
   Classes:
     output: true
   Classes2:

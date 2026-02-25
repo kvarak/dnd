@@ -1,6 +1,31 @@
 /* Class-based color definitions for D&D classes */
 /* These can be applied to any element with matching class names like .class-fighter, .class-wizard, etc. */
 
+/* CSS Variables for single colors (used in charts and other contexts) */
+:root {
+  --class-fighter-color: #8b4513;
+  --class-sorcerer-color: #9370db;
+  --class-wizard-color: #4169e1;
+  --class-cleric-color: #ffd700;
+  --class-rogue-color: #2f4f4f;
+  --class-ranger-color: #228b22;
+  --class-paladin-color: #b8860b;
+  --class-barbarian-color: #dc143c;
+  --class-bard-color: #ff1493;
+  --class-druid-color: #8fbc8f;
+  --class-monk-color: #4682b4;
+  --class-warlock-color: #8b008b;
+  --class-cursed-color: #191970;
+  --class-cavalier-color: #cd853f;
+  --class-alchemist-color: #20b2aa;
+  --class-feyblood-color: #ff69b4;
+  --class-inquisitor-color: #800000;
+  --class-professional-color: #708090;
+  --class-swashbuckler-color: #006400;
+  --class-default-color: #696969;
+}
+
+/* Gradient backgrounds for pill/badge elements */
 .class-fighter { background: linear-gradient(90deg, #8b4513, #a0522d); }
 .class-sorcerer { background: linear-gradient(90deg, #9370db, #ba55d3); }
 .class-wizard { background: linear-gradient(90deg, #4169e1, #6495ed); }

@@ -18,3 +18,7 @@
 - date: 2026-02-23
   info: Major spells page upgrade with advanced filtering, sorting, favorites, printing, and search capabilities.
 
+
+- date: 2026-02-26
+  info: Added a [campaign stats page](CampaignStats/overview.html) with detailed statistics and visualizations about the campaigns in the database.
+

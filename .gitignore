@@ -27,3 +27,4 @@ todo.md
 
 # Generated searchable data
 _data/searchable_*.yml
+_data/archetypes.yml

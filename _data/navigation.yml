@@ -1,7 +1,11 @@
 
 - header: "Campaigns"
-  subheads: false
-  folder: "Campaigns"
+  subheads: true
+  subheaders:
+  - header: "Campaign Stats"
+    folder: "CampaignStats"
+  - header: "Campaigns"
+    folder: "Campaigns"
 
 - header: "Classes"
   subheads: true

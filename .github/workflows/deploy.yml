@@ -42,8 +42,10 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Extract searchable content (skills, familiars, feats, etc.)
+      - name: Extract searchable content and archetypes
         run: |
+          echo "🎭 Extracting archetypes from class files..."
+          ruby tools/extract-archetypes.rb
           echo "🔍 Extracting searchable content..."
           ruby tools/extract-searchable.rb
 

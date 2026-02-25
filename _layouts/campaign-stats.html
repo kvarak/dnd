@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+    <!-- Campaign Stats CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/campaign-stats.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/class-colors.css"/>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  </head>
+
+  <body>
+
+    {% include navigation.html %}
+    <div class="container container-main">
+      {{ content }}
+    </div>
+
+    <!-- Campaign Stats JavaScript -->
+    <script src="{{ site.baseurl }}/assets/js/campaign-stats.js?v={{ site.time | date: '%s' }}"></script>
+
+    <!-- Search functionality -->
+    <script src="{{ site.baseurl }}/assets/js/search.js?v={{ site.time | date: '%s' }}"></script>
+
+    {% include footer.html %}
+  </body>
+</html>
