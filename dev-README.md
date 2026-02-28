@@ -145,6 +145,8 @@ Each answer affects multiple traits with positive/negative values. Player scores
 
    Match score = Player's percentage in required traits
 
+   ![Suggestion Example](assets/images/suggestion-example.png)
+
 5. **Filter by folk restrictions:**
    - During recommendation generation, archetypes are filtered by folk selection
    - Archetypes with `restriction.folk` only appear if user's folk matches
@@ -160,6 +162,8 @@ Each answer affects multiple traits with positive/negative values. Player scores
 **Character Profile Display:**
 
 After completing the questionnaire, users see their personalized character profile organized into trait categories:
+
+![Profile Example](assets/images/profile-example.png)
 
 - **Magic Affinity** (`*-magic` traits) - Shows magical preferences and inclinations
   - Examples: `healing-magic`, `damage-magic`, `divine-magic`, `arcane-magic`
