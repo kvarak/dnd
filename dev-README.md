@@ -41,7 +41,7 @@ Run `make help` to see all available commands.
 
 ## Adding Content
 
-1. Create markdown file in `docs/_Collection/`
+1. Create markdown file in appropriate collection (e.g., `docs/_Classes/`, `docs/_Folk/`, `docs/_Campaigns/`)
 2. Add YAML frontmatter (see existing files)
 3. Update `_data/` if adding characters/scenery
 4. Run `make validate-profiles` (classes) or `make lint-md` (formatting)
@@ -91,7 +91,20 @@ Each answer affects multiple traits with positive/negative values. Player scores
 
 **Scoring Algorithm:**
 
-1. **Accumulate scores** as player answers:
+1. **Folk Selection (Optional):**
+   - System scans all archetypes for `restriction.folk` fields
+   - If folk-restricted archetypes exist, user selects their folk/race (or skips)
+   - Only matching archetypes (plus unrestricted ones) will appear in results
+
+   ```yaml
+   # Example: Folk-restricted archetype
+   path-of-the-battlerager:
+     restriction:
+       folk: ["dwarf"]  # Can be single string or array
+     traits: ["reckless-value", "heavy-armor", "unstoppable-force"]
+   ```
+
+2. **Accumulate scores** as player answers:
    ```javascript
    traitScores = {
      'healing-magic': { current: 0, min: 0, max: 0 },
@@ -109,7 +122,7 @@ Each answer affects multiple traits with positive/negative values. Player scores
    }
    ```
 
-2. **Calculate alignment percentage:**
+3. **Calculate alignment percentage:**
    ```javascript
    percentage = (current - min) / (max - min) * 100
 
@@ -118,25 +131,55 @@ Each answer affects multiple traits with positive/negative values. Player scores
    // percentage = (6 - (-4)) / (10 - (-4)) = 10/14 = 71%
    ```
 
-3. **Match to class profiles:**
+4. **Match to class profiles:**
    ```yaml
    # docs/_Classes/cleric.md
    profile:
-     generic:
-       magicType: healing    # Wants healing-magic trait
-     specific: ["divine-power", "channel-divinity"]
+     traits: ["religious-value", "divine-magic", "healing-magic", "protective-value"]
+     archetypes:
+       life-domain:
+         traits: ["divine-healer"]
+       light-domain:
+         traits: ["holy-power", "divine-healer", "illuminating-light"]
    ```
 
    Match score = Player's percentage in required traits
 
+5. **Filter by folk restrictions:**
+   - During recommendation generation, archetypes are filtered by folk selection
+   - Archetypes with `restriction.folk` only appear if user's folk matches
+   - Unrestricted archetypes always appear regardless of folk selection
+   - If user skipped folk selection, only unrestricted archetypes are shown
+
+6. **Filter by trait mismatch (default):**
+   - Archetypes are evaluated for "trait mismatches" - cases where user scored <20% on required traits
+   - By default, only "strict matches" are shown (archetypes with no trait mismatches)
+   - If partial matches exist, users can toggle to show all recommendations including those with low-scoring traits
+   - This prevents suggesting archetypes that conflict with strongly negative user responses
+
+**Character Profile Display:**
+
+After completing the questionnaire, users see their personalized character profile organized into trait categories:
+
+- **Magic Affinity** (`*-magic` traits) - Shows magical preferences and inclinations
+  - Examples: `healing-magic`, `damage-magic`, `divine-magic`, `arcane-magic`
+  - Displayed as: "Healing 71%", "Damage 45%", "Divine 82%"
+
+- **Background** (`*-background` traits) - Represents character origins and experience
+  - Examples: `military-background`, `academic-background`, `tribal-background`
+  - Displayed as: "Military 68%", "Academic 54%"
+
+- **Philosophy & Values** (`*-value` traits) - Core beliefs and worldview
+  - Examples: `lawful-value`, `chaotic-value`, `protective-value`, `cunning-value`
+  - Displayed as: "Lawful 75%", "Protective 62%"
+
+- **Key Traits** (all other traits) - Combat styles, skills, and characteristics
+  - Examples: `weapon-master`, `shield-specialist`, `stealth-master`
+
 **Implementation Files:**
 - `_data/question-bank.yml` - Question definitions with trait scoring
-- `_layouts/questionnaire.html` - Scoring engine (JavaScript)
-- `docs/_Classes/*.md` - Class profiles with required traits
-
-**Files:**
-- `_data/question-bank.yml` - Questions with trait scoring
-- `_layouts/questionnaire.html` - Scoring engine
+- `assets/js/questionnaire.js` - Scoring engine and recommendation algorithm
+- `_layouts/questionnaire.html` - Template that loads data and questionnaire.js
 - `docs/_Classes/*.md` - Class profiles with trait requirements
 
 ---
@@ -145,16 +188,15 @@ Each answer affects multiple traits with positive/negative values. Player scores
 
 Questions adapt to explore unexplored traits for top recommended classes. Starts random, then targets traits needed by lowest-ranked recommendations, ensuring all archetypes get fair evaluation.
 
-
-
 ## Adding New Archetypes
 
 The questionnaire system automatically includes new archetypes when they're properly structured in class files:
 
 1. **Add archetype to class file** - Follow existing YAML structure with traits array
 2. **Define trait mappings** - Use consistent trait names across archetypes
-3. **Validate schema** - Run `make validate-profiles` to check structure
-4. **Test scoring** - Run `make test-class-scoring` to verify recommendation logic
-5. **Update search** - Run `make extract` to include in searchable content
+3. **Add folk restrictions (optional)** - Use `restriction.folk` field if archetype is folk-specific
+4. **Validate schema** - Run `make validate-profiles` to check structure
+5. **Test scoring** - Run `make test-class-scoring` to verify recommendation logic
+6. **Update search** - Run `make extract` to include in searchable content
 
 For trait naming and archetype patterns, reference existing class files in `docs/_Classes/`.
