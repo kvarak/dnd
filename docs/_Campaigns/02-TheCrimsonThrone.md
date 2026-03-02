@@ -5,7 +5,7 @@ path: 2
 ---
 
 <nav class="quick-nav">
-  <strong>Quick Navigation:</strong>
+  <strong>The Crimson Throne:</strong>
   <a href="#the-stats">The Stats</a> •
   <a href="#the-cast">The Cast</a> •
   <a href="#the-scenery">The Scenery</a>

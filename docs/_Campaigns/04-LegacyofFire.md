@@ -5,7 +5,7 @@ path: 4
 ---
 
 <nav class="quick-nav">
-  <strong>Quick Navigation:</strong>
+  <strong>Legacy of Fire:</strong>
   <a href="#the-stats">The Stats</a> •
   <a href="#the-cast">The Cast</a> •
   <a href="#the-scenery">The Scenery</a>

@@ -5,7 +5,7 @@ path: 10
 ---
 
 <nav class="quick-nav">
-  <strong>Quick Navigation:</strong>
+  <strong>Pathfinders:</strong>
   <a href="#the-story">The Story</a> •
   <a href="#the-stats">The Stats</a> •
   <a href="#the-cast">The Cast</a> •

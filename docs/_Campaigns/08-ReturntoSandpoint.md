@@ -5,7 +5,7 @@ path: 8
 ---
 
 <nav class="quick-nav">
-  <strong>Quick Navigation:</strong>
+  <strong>Return to Sandpoint:</strong>
   <a href="#the-cast">The Cast</a> •
   <a href="#the-scenery">The Scenery</a> •
   <a href="#the-stats">The Stats</a>

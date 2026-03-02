@@ -5,7 +5,7 @@ path: 7
 ---
 
 <nav class="quick-nav">
-  <strong>Quick Navigation:</strong>
+  <strong>Haunted Lands:</strong>
   <a href="#the-story">The Story</a> •
   <a href="#the-stats">The Stats</a> •
   <a href="#the-cast">The Cast</a> •

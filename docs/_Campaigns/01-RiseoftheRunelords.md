@@ -5,7 +5,7 @@ path: 1
 ---
 
 <nav class="quick-nav">
-  <strong>Quick Navigation:</strong>
+  <strong>Rise of the Runelords:</strong>
   <a href="#the-stats">The Stats</a> •
   <a href="#the-cast">The Cast</a> •
   <a href="#the-scenery">The Scenery</a>

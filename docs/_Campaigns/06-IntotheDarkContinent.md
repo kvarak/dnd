@@ -5,7 +5,7 @@ path: 6
 ---
 
 <nav class="quick-nav">
-  <strong>Quick Navigation:</strong>
+  <strong>Into the Dark Continent:</strong>
   <a href="#the-story">The Story</a> •
   <a href="#the-stats">The Stats</a> •
   <a href="#the-cast">The Cast</a> •
