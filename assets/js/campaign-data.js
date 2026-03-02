@@ -23,6 +23,21 @@
   let isLoading = false;
   let loadPromise = null;
 
+  // Global player color palette - optimized for both light and dark modes
+  const PLAYER_COLOR_PALETTE = [
+    'rgba(59, 130, 246, 0.7)',   // Blue
+    'rgba(168, 85, 247, 0.7)',   // Purple
+    'rgba(34, 197, 94, 0.7)',    // Green
+    'rgba(236, 72, 153, 0.7)',   // Pink
+    'rgba(249, 115, 22, 0.7)',   // Orange
+    'rgba(20, 184, 166, 0.7)',   // Teal
+    'rgba(234, 179, 8, 0.7)',    // Yellow
+    'rgba(239, 68, 68, 0.7)'     // Red
+  ];
+
+  // Global player color cache - consistent across all campaigns
+  let playerColorCache = null;
+
   // Helper functions for parsing Google Sheets
   function getColumnIndex(cols, label) {
     return cols.findIndex(col => col.label === label);
@@ -103,6 +118,9 @@
 
       console.log(`✅ Data fetched: ${campaignData.length} adventures, ${characterData.length} characters`);
 
+      // Initialize global player color cache
+      initializePlayerColors();
+
       return { campaigns: campaignData, characters: characterData };
 
     } catch (error) {
@@ -145,6 +163,9 @@
       start: ch.start ? new Date(ch.start) : null,
       end: ch.end ? new Date(ch.end) : null
     }));
+
+    // Initialize global player color cache
+    initializePlayerColors();
 
     return { campaigns: campaignData, characters: characterData };
   }
@@ -211,12 +232,40 @@
     return age !== null && age < CACHE_DURATION;
   }
 
+  // Initialize global player color cache from all character data
+  function initializePlayerColors() {
+    if (!characterData) return;
+
+    // Extract all unique player categories across all campaigns
+    const allCategories = [...new Set(
+      characterData
+        .map(c => c.category)
+        .filter(cat => cat && cat.trim() !== '')
+    )].sort();
+
+    // Assign colors sequentially
+    playerColorCache = {};
+    allCategories.forEach((cat, idx) => {
+      playerColorCache[cat] = PLAYER_COLOR_PALETTE[idx % PLAYER_COLOR_PALETTE.length];
+    });
+
+    console.log(`🎨 Initialized ${allCategories.length} player colors globally`);
+  }
+
+  // Get color for a specific player/category
+  function getPlayerColor(category) {
+    if (!category) return 'rgba(105, 105, 105, 0.7)'; // Gray for unknown
+    if (!playerColorCache) initializePlayerColors();
+    return playerColorCache[category] || PLAYER_COLOR_PALETTE[0];
+  }
+
   // Export public API
   window.CampaignData = {
     getData,
     clearCache,
     getCacheAge,
     isCacheValid,
+    getPlayerColor,
     CACHE_DURATION
   };
 

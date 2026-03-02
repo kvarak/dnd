@@ -41,37 +41,9 @@ function getClassColorHex(className) {
   return getComputedStyle(document.documentElement).getPropertyValue(cssVar).trim() || '#696969';
 }
 
-// Cache for player color assignments
-let playerColorCache = null;
-
-// Generate consistent color for player/category
-function getPlayerColor(category, allCategories = null) {
-  // Predefined color palette for players (as rgba) - optimized for both light and dark modes
-  const colorPalette = [
-    'rgba(59, 130, 246, 0.7)',   // Blue
-    'rgba(168, 85, 247, 0.7)',   // Purple
-    'rgba(34, 197, 94, 0.7)',    // Green
-    'rgba(236, 72, 153, 0.7)',   // Pink
-    'rgba(249, 115, 22, 0.7)',   // Orange
-    'rgba(20, 184, 166, 0.7)',   // Teal
-    'rgba(234, 179, 8, 0.7)',    // Yellow
-    'rgba(239, 68, 68, 0.7)'     // Red
-  ];
-
-  // If allCategories provided, rebuild cache with sequential assignment
-  if (allCategories) {
-    playerColorCache = {};
-    const sortedCategories = [...allCategories].sort();
-    sortedCategories.forEach((cat, idx) => {
-      playerColorCache[cat] = colorPalette[idx % colorPalette.length];
-    });
-  }
-
-  // If no category provided, return gray
-  if (!category) return 'rgba(105, 105, 105, 0.7)';
-
-  // Return color from cache, or fallback to first color
-  return playerColorCache && playerColorCache[category] ? playerColorCache[category] : colorPalette[0];
+// Use global player color function from data layer
+function getPlayerColor(category) {
+  return window.CampaignData.getPlayerColor(category);
 }
 
 // Calculate days between dates
@@ -426,12 +398,10 @@ function renderPartyTimeline(pathNumber, thisCampaignData, thisCharacterData) {
 
   console.log(`Party Timeline: ${validChars.length} valid characters`);
 
-  // Initialize player color cache with all unique categories
+  // Debug: Show unique categories in this campaign
   const uniqueCategories = [...new Set(validChars.map(c => c.category))];
-  getPlayerColor(null, uniqueCategories);
-
-  console.log('Unique player categories:', uniqueCategories);
-  console.log('Color assignments:');
+  console.log('Unique player categories in this campaign:', uniqueCategories);
+  console.log('Color assignments (from global cache):');
   uniqueCategories.forEach(cat => {
     const color = getPlayerColor(cat);
     console.log(`  "${cat}" -> ${color}`);
