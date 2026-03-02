@@ -331,3 +331,29 @@
 - path: 9
   name: Garrett Blackwood
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/garrett.png
+
+- path: 10
+  name: Albillus
+  img: ../assets/campaigns/10-Pathfinders/Albillus.png
+- path: 10
+  name: Lorian Stormsong
+  img: ../assets/campaigns/10-Pathfinders/Lorian_Stormsong.png
+- path: 10
+  name: Malagar
+  img: ../assets/campaigns/10-Pathfinders/Malagar.png
+- path: 10
+  name: Volgob Gruntsson
+  img: ../assets/campaigns/10-Pathfinders/Volgob_Gruntsson.jpg
+
+- path: 11
+  name: Alexandros
+  img: ../assets/campaigns/11-Thylea/Alexandros.png
+- path: 11
+  name: Dimos Gerakis
+  img: ../assets/campaigns/11-Thylea/Dimos.png
+- path: 11
+  name: Nikolaos
+  img: ../assets/campaigns/11-Thylea/Nikolaos.png
+- path: 11
+  name: Pyntappon
+  img: ../assets/campaigns/11-Thylea/Pyntappon01.png

@@ -242,3 +242,88 @@
 - path: 9
   name: Island of Rigelor
   img: ../assets/campaigns/09-Adventures-in-the-Shackles/desert2.jpg
+
+- path: 10
+  name: Magnimar
+  img: ../assets/campaigns/10-Pathfinders/magnimar.png
+- path: 10
+  name: What's in the box?
+  img: ../assets/campaigns/10-Pathfinders/whats-in-the-box.png
+- path: 10
+  name: Gold Stealer
+  img: ../assets/campaigns/10-Pathfinders/gold-stealer.png
+- path: 10
+  name: Gold Monster
+  img: ../assets/campaigns/10-Pathfinders/gold-monster.png
+
+- path: 10
+  name: Donkey rat
+  img: ../assets/campaigns/10-Pathfinders/donkeyrat.png
+- path: 10
+  name: King Zuuga
+  img: ../assets/campaigns/10-Pathfinders/kingzuuga.png
+- path: 10
+  name: Mite
+  img: ../assets/campaigns/10-Pathfinders/mite.png
+- path: 10
+  name: Shard of Pride - Metallen kallas oracalcum (faller från himlen)
+  img: ../assets/campaigns/10-Pathfinders/ShardofPride.png
+- path: 10
+  name: Ckickity Clack
+  img: ../assets/campaigns/10-Pathfinders/ckickity-clack.png
+- path: 10
+  name: Clockwork
+  img: ../assets/campaigns/10-Pathfinders/clockwork.png
+- path: 10
+  name: Shard of Greed - Adamantine
+  img: ../assets/campaigns/10-Pathfinders/ShardofGreed.png
+- path: 10
+  name: Sheila
+  img: ../assets/campaigns/10-Pathfinders/sheila.png
+- path: 10
+  name: Blue Dwarf
+  img: ../assets/campaigns/10-Pathfinders/bluedwarf.png
+
+
+- path: 10
+  name: Lady's Light
+  img: ../assets/campaigns/10-Pathfinders/LadyLight.png
+- path: 10
+  name: Map to Lady's Light
+  img: ../assets/campaigns/10-Pathfinders/map2.png
+
+
+- path: 11
+  name: Axe of Xander
+  img: ../assets/campaigns/11-Thylea/Axe-of-Xander.png
+- path: 11
+  name: Companion
+  img: ../assets/campaigns/11-Thylea/Companion.png
+- path: 11
+  name: Alexia
+  img: ../assets/campaigns/11-Thylea/alexia.png
+- path: 11
+  name: Antikythera
+  img: ../assets/campaigns/11-Thylea/Antikythera.png
+- path: 11
+  name: Constellations
+  img: ../assets/campaigns/11-Thylea/constellations.png
+- path: 11
+  name: Nekropolis
+  img: ../assets/campaigns/11-Thylea/nekropolis.png
+- path: 11
+  name: Praxys
+  img: ../assets/campaigns/11-Thylea/praxys.png
+- path: 11
+  name: Prophecy of the Oracle
+  img: ../assets/campaigns/11-Thylea/prophecy-of-the-oracle.png
+- path: 11
+  name: Ultros
+  img: ../assets/campaigns/11-Thylea/Ultros.png
+- path: 11
+  name: Versi
+  img: ../assets/campaigns/11-Thylea/versi.png
+- path: 11
+  name: The three norns - Morta, Nona and Decima
+  img: ../assets/campaigns/11-Thylea/De-tre-nornorna-Morta-Nona-och-Decima.png
+
