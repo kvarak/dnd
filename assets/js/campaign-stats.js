@@ -1441,10 +1441,12 @@ function renderLevelDurationMatrix(campaignList) {
 
         console.log(`    totalDays: ${totalDays}, startLvl: ${startLvl}, endLvl: ${endLvl}, levelsGained: ${levelsGained}`);
 
-        if (levelsGained > 0 && totalDays > 0) {
-          const daysPerLevel = totalDays / levelsGained;
+        if (levelsGained >= 0 && totalDays > 0) {
+          // Include both start and end level since character played at both
+          const levelsExperienced = levelsGained + 1;
+          const daysPerLevel = totalDays / levelsExperienced;
 
-          for (let lvl = startLvl; lvl < endLvl; lvl++) {
+          for (let lvl = startLvl; lvl <= endLvl; lvl++) {
             if (!levelDurations[lvl]) {
               levelDurations[lvl] = 0;
               levelCounts[lvl] = 0;

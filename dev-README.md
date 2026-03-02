@@ -233,11 +233,13 @@ startLvl = startlevel
 endLvl = maxlvl - maxlvl2  // Account for multiclassing
 levelsGained = endLvl - startLvl
 
-if (levelsGained > 0 && totalDays > 0) {
-  daysPerLevel = totalDays / levelsGained
+if (levelsGained >= 0 && totalDays > 0) {
+  // Include both start and end level (character played at both)
+  levelsExperienced = levelsGained + 1
+  daysPerLevel = totalDays / levelsExperienced
 
-  // Distribute days-per-level to all levels played
-  for (lvl = startLvl; lvl < endLvl; lvl++) {
+  // Distribute days-per-level to all levels played (inclusive)
+  for (lvl = startLvl; lvl <= endLvl; lvl++) {
     levelDurations[lvl] += daysPerLevel
     levelCounts[lvl] += 1
   }
@@ -247,18 +249,9 @@ if (levelsGained > 0 && totalDays > 0) {
 **Example:**
 - Character played 100 days, started at level 3, reached level 8
 - Levels gained: 8 - 3 = 5
-- Days per level: 100 / 5 = 20 days
-- Contributes 20 days to levels 3, 4, 5, 6, 7
-
-**3. Average Across Characters**
-
-```javascript
-avgByLevel = {}
-for (lvl in levelDurations) {
-  avgByLevel[lvl] = round(levelDurations[lvl] / levelCounts[lvl])
-}
-```
-
+- Levels experienced: 5 + 1 = 6 (played at levels 3, 4, 5, 6, 7, 8)
+- Days per level: 100 / 6 = 16.7 days
+- Contributes 16.7 days to levels 3, 4, 5, 6, 7, 8
 **4. Gap Interpolation**
 
 Characters often join campaigns at current level (e.g., new player joins level 11 campaign). This creates gaps where no characters played certain levels.
