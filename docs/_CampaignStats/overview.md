@@ -15,7 +15,8 @@ layout: campaign-stats
   <a href="#class-survival-rate">Survival Rate</a> •
   <a href="#multiclass-combinations">Multiclass</a> •
   <a href="#class-popularity-evolution">Class Evolution</a> •
-  <a href="#level-achievement-by-class">Level Achievement</a>
+  <a href="#level-achievement-by-class">Level Achievement</a> •
+  <a href="#level-duration-analysis">Level Duration</a>
 </nav>
 
 # Campaign Statistics
@@ -112,4 +113,11 @@ Distribution of levels lived (played) by each class. Shows actual progression ex
 
 <div class="chart-container">
   <canvas id="chartLevelAchievement"></canvas>
+</div>
+
+## Level Duration Analysis
+Average real-world days spent at each character level across all campaigns. Each row represents a campaign, columns show levels 1-20. Darker colors indicate more time spent at that level.
+
+<div class="level-duration-matrix-container">
+  <div id="level-duration-matrix"></div>
 </div>

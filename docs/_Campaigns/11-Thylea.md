@@ -4,6 +4,14 @@ layout: default
 path: 11
 ---
 
+<nav class="quick-nav">
+  <strong>Quick Navigation:</strong>
+  <a href="#the-story">The Story</a> •
+  <a href="#the-stats">The Stats</a> •
+  <a href="#the-cast">The Cast</a> •
+  <a href="#the-scenery">The Scenery</a>
+</nav>
+
 # Thylea
 
 ## The Story
@@ -48,6 +56,8 @@ path: 11
 
 
 </div>
+
+{% include statistics.html path=11 %}
 
 ## The Cast
 

@@ -4,7 +4,16 @@ layout: default
 path: 2
 ---
 
+<nav class="quick-nav">
+  <strong>Quick Navigation:</strong>
+  <a href="#the-stats">The Stats</a> •
+  <a href="#the-cast">The Cast</a> •
+  <a href="#the-scenery">The Scenery</a>
+</nav>
+
 # The Crimson Throne
+
+{% include statistics.html path=2 %}
 
 ## The Cast
 

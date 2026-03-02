@@ -4,6 +4,14 @@ layout: default
 path: 10
 ---
 
+<nav class="quick-nav">
+  <strong>Quick Navigation:</strong>
+  <a href="#the-story">The Story</a> •
+  <a href="#the-stats">The Stats</a> •
+  <a href="#the-cast">The Cast</a> •
+  <a href="#the-scenery">The Scenery</a>
+</nav>
+
 # Pathfinders
 
 ## The Story
@@ -46,6 +54,8 @@ path: 10
 
 
 </div>
+
+{% include statistics.html path=10 %}
 
 ## The Cast
 

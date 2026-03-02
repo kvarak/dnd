@@ -1,221 +1,72 @@
-// Campaign Statistics - Google Sheets Integration
-// Data source: Same spreadsheet used in path-stats
-
-// Google Sheets URL (from path-stats/stats.r)
-const SHEET_URL = 'https://docs.google.com/spreadsheets/d/1prVAoIfRSMnyqJ3dTe-0jRRja8c3Gy-Be8hiP3VYn28/gviz/tq?tqx=out:json';
-
-// Cache settings (1 hour = 1 * 60 * 60 * 1000 milliseconds)
-const CACHE_DURATION = 1 * 60 * 60 * 1000;
-const CACHE_KEY = 'campaign_data_v13';
-const CACHE_TIMESTAMP_KEY = 'campaign_timestamp_v13';
+// Campaign Statistics - Overview Page
+// Uses CampaignData module for data fetching and caching
 
 let campaignData = [];
 let characterData = [];
 let chartInstances = {};
-let archetypeData = null;
 
-// Load archetype data from Jekyll data file
-async function loadArchetypeData() {
-  try {
-    const response = await fetch('/dnd/archetypes.json');
-    archetypeData = await response.json();
-    console.log('Archetype data loaded:', archetypeData.total, 'archetypes');
-  } catch (error) {
-    console.error('Error loading archetype data:', error);
-    // Fallback if file doesn't exist yet
-    archetypeData = { total: 0 };
+// Helper function to calculate days between two dates
+function daysBetween(date1, date2) {
+  if (!date1 || !date2 || !(date1 instanceof Date) || !(date2 instanceof Date)) {
+    return 0;
   }
+  return Math.abs((date2 - date1) / (1000 * 60 * 60 * 24));
 }
 
-// Fetch data from Google Sheets (with caching)
+// Main initialization function
 async function fetchSheetData() {
-  // Load archetype data first
-  await loadArchetypeData();
-
-  // Check if we have cached data and it's still valid
-  const cachedData = localStorage.getItem(CACHE_KEY);
-  const cacheTimestamp = localStorage.getItem(CACHE_TIMESTAMP_KEY);
-  const now = new Date().getTime();
-
-  if (cachedData && cacheTimestamp && (now - parseInt(cacheTimestamp)) < CACHE_DURATION) {
-    // Use cached data
+  try {
+    // Show loading indicator
     const alertEl = document.getElementById('cache-alert');
     if (alertEl) {
-      alertEl.innerHTML = '📦 Cached <button id="refresh-btn" class="btn btn-sm btn-outline-secondary">↻</button>';
+      alertEl.innerHTML = '⏳ Loading...';
       alertEl.style.display = 'block';
+    }
 
-      // Auto-hide after 5 seconds
-      const hideTimeout = setTimeout(() => {
+    // Get data from shared CampaignData module
+    const data = await window.CampaignData.getData();
+    campaignData = data.campaigns;
+    characterData = data.characters;
+
+    // Show cache status
+    if (alertEl) {
+      const cacheAge = window.CampaignData.getCacheAge();
+      if (cacheAge !== null) {
+        const minutes = Math.floor(cacheAge / 60000);
+        alertEl.innerHTML = `📦 Cached (${minutes}m ago) <button id="refresh-btn" class="btn btn-sm btn-outline-secondary">↻</button>`;
+        alertEl.style.display = 'block';
+
+        // Auto-hide after 5 seconds
+        const hideTimeout = setTimeout(() => {
+          alertEl.style.display = 'none';
+        }, 5000);
+
+        // Add refresh button handler
+        const refreshBtn = document.getElementById('refresh-btn');
+        if (refreshBtn) {
+          refreshBtn.addEventListener('click', function() {
+            clearTimeout(hideTimeout);
+            window.CampaignData.clearCache();
+            alertEl.innerHTML = '⏳ Loading...';
+            fetchSheetData(); // Reload data
+          });
+        }
+      } else {
         alertEl.style.display = 'none';
-      }, 5000);
-
-      // Cancel auto-hide if user interacts with refresh button
-      const refreshBtn = document.getElementById('refresh-btn');
-      if (refreshBtn) {
-        refreshBtn.addEventListener('click', function() {
-          clearTimeout(hideTimeout);
-          localStorage.removeItem(CACHE_KEY);
-          localStorage.removeItem(CACHE_TIMESTAMP_KEY);
-          alertEl.innerHTML = '⏳ Loading...';
-          downloadSheetData();
-        });
       }
     }
 
-    const parsed = JSON.parse(cachedData);
-
-    // Convert date strings back to Date objects
-    campaignData = parsed.campaigns.map(c => ({
-      ...c,
-      start: c.start ? new Date(c.start) : null,
-      end: c.end ? new Date(c.end) : null,
-      startIngame: c.startIngame ? new Date(c.startIngame) : null,
-      endIngame: c.endIngame ? new Date(c.endIngame) : null
-    }));
-    characterData = parsed.characters;
-
-    renderStats();
-    renderCharts();
-
-    return;
-  }
-
-  // Download fresh data
-  const alertEl = document.getElementById('cache-alert');
-  if (alertEl) {
-    alertEl.innerHTML = '⏳ Loading...';
-    alertEl.style.display = 'block';
-  }
-  downloadSheetData();
-}
-
-// Helper function to get column index by label
-function getColumnIndex(cols, label) {
-  return cols.findIndex(col => col.label === label);
-}
-
-// Helper function to extract value by column name
-function getValueByColumn(row, cols, label) {
-  const idx = getColumnIndex(cols, label);
-  return idx !== -1 ? row.c[idx]?.v : null;
-}
-
-// Helper function to extract formatted date by column name
-function getDateByColumn(row, cols, label) {
-  const idx = getColumnIndex(cols, label);
-  const formattedDate = idx !== -1 ? row.c[idx]?.f : null;
-  return formattedDate ? new Date(formattedDate) : null;
-}
-
-// Download data from Google Sheets
-async function downloadSheetData() {
-  try {
-    // Fetch campaign/adventure data (gid=70555682)
-    const response = await fetch(SHEET_URL + '&gid=70555682');
-    const text = await response.text();
-    const json = JSON.parse(text.substring(47).slice(0, -2));
-    const campaignCols = json.table.cols;
-
-    campaignData = json.table.rows.map(row => ({
-      nr: getValueByColumn(row, campaignCols, 'nr') || 0,
-      path: getValueByColumn(row, campaignCols, 'path') || '',
-      adventure: getValueByColumn(row, campaignCols, 'adventure') || '',
-      start: getDateByColumn(row, campaignCols, 'start'),
-      end: getDateByColumn(row, campaignCols, 'end'),
-      startIngame: getDateByColumn(row, campaignCols, 'start (in-game)'),
-      endIngame: getDateByColumn(row, campaignCols, 'end (in-game)'),
-      startLevel: getValueByColumn(row, campaignCols, 'startlevel') || 0,
-      endLevel: getValueByColumn(row, campaignCols, 'endlevel') || 0
-    }));
-
-    // Debug logging for campaigns
-    console.log('Campaign column labels:', campaignCols.map(c => c.label));
-    console.log('Sample campaign data:', campaignData.slice(0, 3));
-    console.log('Sample raw start date:', json.table.rows[0]?.c);
-    console.log('Total campaigns:', [...new Set(campaignData.map(c => c.nr))].length);
-
-    // Fetch character data (gid=459519818)
-    const charResponse = await fetch(SHEET_URL + '&gid=459519818');
-    const charText = await charResponse.text();
-    const charJson = JSON.parse(charText.substring(47).slice(0, -2));
-    const charCols = charJson.table.cols;
-
-    characterData = charJson.table.rows.map(row => {
-      const status = getValueByColumn(row, charCols, 'dog?') || '';
-      return {
-        path: Number(getValueByColumn(row, charCols, 'path')) || 0,
-        status: status,  // 'y' = dead, 'n' = survived, 'lost' = lost, '?' = left
-        died: status === 'y',
-        extraliv: Number(getValueByColumn(row, charCols, 'extraliv')) || 0,
-        maxlvl: Number(getValueByColumn(row, charCols, 'Max lvl')) || 0,
-        maxlvl2: Number(getValueByColumn(row, charCols, 'maxlvl2')) || 0,
-        startlevel: Number(getValueByColumn(row, charCols, 'startlevel')) || 0,
-        class: getValueByColumn(row, charCols, 'class') || '',
-        class2: getValueByColumn(row, charCols, 'class2') || '',
-        specialization: getValueByColumn(row, charCols, 'specialization') || '',
-        specialization2: getValueByColumn(row, charCols, 'specialization2') || '',
-        killer: getValueByColumn(row, charCols, 'killer') || '',
-        killercr: Number(getValueByColumn(row, charCols, 'killercr')) || 0,
-        killer_old: getValueByColumn(row, charCols, 'killer_old') || ''
-      };
-    });
-
-    // Debug logging
-    console.log('Column labels:', charCols.map(c => c.label));
-    console.log('Sample character data:', characterData.slice(0, 3));
-    console.log('Total characters:', characterData.length);
-    console.log('Characters with maxlvl > 0:', characterData.filter(c => c.maxlvl > 0).length);
-    console.log('Sample levels:', characterData.slice(0, 10).map(c => ({
-      path: c.path,
-      class: c.class,
-      maxlvl: c.maxlvl,
-      maxlvl2: c.maxlvl2,
-      startlevel: c.startlevel,
-      levelsLived: c.maxlvl - c.maxlvl2 - c.startlevel + 1
-    })));
-    const permanentDeaths = characterData.filter(c => c.died).length;
-    const extraLives = characterData.reduce((sum, c) => sum + (Number(c.extraliv) || 0), 0);
-    const survived = characterData.filter(c => c.status === 'n').length;
-    console.log('Permanent deaths (dog?=y):', permanentDeaths);
-    console.log('Extra lives (temporary deaths):', extraLives);
-    console.log('Total deaths:', permanentDeaths + extraLives);
-    console.log('Survived (dog?=n):', survived);
-
-    // Cache the downloaded data
-    localStorage.setItem(CACHE_KEY, JSON.stringify({
-      campaigns: campaignData,
-      characters: characterData
-    }));
-    localStorage.setItem(CACHE_TIMESTAMP_KEY, new Date().getTime().toString());
-
-    // Hide loading message
-    const alertEl = document.getElementById('cache-alert');
-    if (alertEl) {
-      alertEl.style.display = 'none';
-    }
+    console.log('Overview page data loaded:', campaignData.length, 'campaigns,', characterData.length, 'characters');
 
     renderStats();
     renderCharts();
   } catch (error) {
-    console.error('Error fetching campaign data:', error);
-
-    // Try to use cached data as fallback
-    const cachedData = localStorage.getItem(CACHE_KEY);
-    if (cachedData) {
-      const parsed = JSON.parse(cachedData);
-
-      // Convert date strings back to Date objects
-      campaignData = parsed.campaigns.map(c => ({
-        ...c,
-        start: c.start ? new Date(c.start) : null,
-        end: c.end ? new Date(c.end) : null,
-        startIngame: c.startIngame ? new Date(c.startIngame) : null,
-        endIngame: c.endIngame ? new Date(c.endIngame) : null
-      }));
-      characterData = parsed.characters;
-
-      renderStats();
-      renderCharts();
+    console.error('Error loading campaign data:', error);
+    const alertEl = document.getElementById('cache-alert');
+    if (alertEl) {
+      alertEl.innerHTML = '❌ Error loading data';
+      alertEl.classList.add('alert-danger');
+      alertEl.style.display = 'block';
     }
   }
 }
@@ -439,6 +290,7 @@ function renderCharts() {
   renderMulticlass();
   renderClassEvolution(campaignList);
   renderLevelAchievement();
+  renderLevelDurationMatrix(campaignList);
 
   // Add event listener for killer detail toggle
   const killerToggle = document.getElementById('killer-detail-toggle');
@@ -1554,6 +1406,109 @@ function renderPrimarySecondary() {
       }
     }
   });
+}
+
+// Render level duration matrix
+function renderLevelDurationMatrix(campaignList) {
+  const container = document.getElementById('level-duration-matrix');
+  if (!container) return;
+
+  console.log('=== Level Duration Matrix Debug ===');
+  console.log('campaignList:', campaignList.length, 'campaigns');
+  console.log('characterData:', characterData.length, 'characters');
+  console.log('Sample character paths:', characterData.slice(0, 10).map(c => ({ path: c.path, name: c.shortname })));
+  console.log('Campaign numbers:', campaignList.map(c => ({ nr: c.nr, name: c.name })));
+
+  // Calculate level duration for each campaign
+  const campaignLevelData = {};
+  const maxLevel = 20;
+
+  campaignList.forEach(campaign => {
+    const campaignChars = characterData.filter(c => c.path == campaign.nr);
+    console.log(`Campaign ${campaign.nr} (${campaign.name}): ${campaignChars.length} characters`);
+
+    const levelDurations = {};
+    const levelCounts = {};
+
+    campaignChars.forEach(char => {
+      console.log(`  Char: ${char.shortname}, start: ${char.start}, end: ${char.end}, startlvl: ${char.startlevel}, maxlvl: ${char.maxlvl}`);
+
+      if (char.start && char.end && char.startlevel > 0 && char.maxlvl > 0) {
+        const totalDays = daysBetween(char.start, char.end);
+        const startLvl = char.startlevel;
+        const endLvl = char.maxlvl - char.maxlvl2;
+        const levelsGained = endLvl - startLvl;
+
+        console.log(`    totalDays: ${totalDays}, startLvl: ${startLvl}, endLvl: ${endLvl}, levelsGained: ${levelsGained}`);
+
+        if (levelsGained > 0 && totalDays > 0) {
+          const daysPerLevel = totalDays / levelsGained;
+
+          for (let lvl = startLvl; lvl < endLvl; lvl++) {
+            if (!levelDurations[lvl]) {
+              levelDurations[lvl] = 0;
+              levelCounts[lvl] = 0;
+            }
+            levelDurations[lvl] += daysPerLevel;
+            levelCounts[lvl] += 1;
+          }
+        }
+      }
+    });
+
+    console.log(`  Level durations for campaign ${campaign.nr}:`, levelDurations);
+
+    // Calculate averages for this campaign
+    const avgByLevel = {};
+    Object.keys(levelDurations).forEach(lvl => {
+      avgByLevel[parseInt(lvl)] = Math.round(levelDurations[lvl] / levelCounts[lvl]);
+    });
+
+    campaignLevelData[campaign.nr] = {
+      name: campaign.name,
+      levels: avgByLevel
+    };
+  });
+
+  // Build HTML table
+  let html = '<table class="level-duration-table"><thead><tr><th>Campaign</th>';
+  for (let lvl = 1; lvl <= maxLevel; lvl++) {
+    html += `<th>L${lvl}</th>`;
+  }
+  html += '</tr></thead><tbody>';
+
+  // Sort campaigns by number
+  const sortedCampaigns = Object.keys(campaignLevelData)
+    .map(nr => ({ nr: parseInt(nr), ...campaignLevelData[nr] }))
+    .sort((a, b) => a.nr - b.nr);
+
+  sortedCampaigns.forEach(campaign => {
+    // Find min/max for this campaign row only
+    const campaignDays = Object.values(campaign.levels).filter(d => d > 0);
+    const minDays = campaignDays.length > 0 ? Math.min(...campaignDays) : 0;
+    const maxDays = campaignDays.length > 0 ? Math.max(...campaignDays) : 0;
+
+    // Helper to get color intensity for this row
+    const getColorIntensity = (days) => {
+      if (!days) return '#f8f9fa';
+      const normalized = (days - minDays) / (maxDays - minDays || 1);
+      const hue = 210; // Blue
+      const lightness = 85 - (normalized * 30); // 85% to 55%
+      return `hsl(${hue}, 80%, ${lightness}%)`;
+    };
+
+    html += `<tr><td class="campaign-name">${campaign.name}</td>`;
+    for (let lvl = 1; lvl <= maxLevel; lvl++) {
+      const days = campaign.levels[lvl];
+      const color = getColorIntensity(days);
+      const title = days ? `Level ${lvl}: ${days} days average` : `Level ${lvl}: No data`;
+      html += `<td style="background-color: ${color};" title="${title}">${days || '-'}</td>`;
+    }
+    html += '</tr>';
+  });
+
+  html += '</tbody></table>';
+  container.innerHTML = html;
 }
 
 // Load data on page load

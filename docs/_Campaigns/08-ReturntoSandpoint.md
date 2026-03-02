@@ -4,7 +4,16 @@ layout: default
 path: 8
 ---
 
+<nav class="quick-nav">
+  <strong>Quick Navigation:</strong>
+  <a href="#the-cast">The Cast</a> •
+  <a href="#the-scenery">The Scenery</a> •
+  <a href="#the-stats">The Stats</a>
+</nav>
+
 # Return to Sandpoint
+
+{% include statistics.html path=8 %}
 
 ## The Cast
 

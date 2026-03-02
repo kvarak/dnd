@@ -22,3 +22,7 @@
 - date: 2026-02-26
   info: Added a [campaign stats page](CampaignStats/overview.html) with detailed statistics and visualizations about the campaigns in the database.
 
+
+- date: 2026-03-02
+  info: Each campaign page now has a statistics section with detailed information about the campaign.
+

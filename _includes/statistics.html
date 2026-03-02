@@ -1,0 +1,71 @@
+<!-- Campaign-Specific Statistics -->
+<!-- Load campaign-specific CSS -->
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/campaign-stats.css"/>
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/class-colors.css"/>
+
+<h2 id="the-stats">The Stats</h2>
+
+<section class="campaign-stats-section" id="campaign-stats-{{ include.path }}" data-campaign-path="{{ include.path }}">
+
+  <!-- Auto-generated Insights -->
+  <p class="campaign-overview" id="campaign-insights-{{ include.path }}">
+    <!-- Insights will be inserted here by JavaScript -->
+  </p>
+
+  <!-- Summary Cards Grid -->
+  <div class="stats-grid" id="campaign-summary-{{ include.path }}">
+    <div class="stat-card">
+      <h5>Characters</h5>
+      <div class="stat-value" id="stat-chars-{{ include.path }}">-</div>
+    </div>
+    <div class="stat-card">
+      <h5>Party Deaths</h5>
+      <div class="stat-value" id="stat-deaths-{{ include.path }}">-</div>
+    </div>
+    <div class="stat-card">
+      <h5>Real-time</h5>
+      <div class="stat-value" id="stat-duration-{{ include.path }}">-</div>
+    </div>
+    <div class="stat-card">
+      <h5>In-Game Time</h5>
+      <div class="stat-value" id="stat-ingame-{{ include.path }}">-</div>
+    </div>
+    <div class="stat-card">
+      <h5>Level Range</h5>
+      <div class="stat-value" id="stat-levels-{{ include.path }}">-</div>
+    </div>
+    <div class="stat-card">
+      <h5>Survival Rate</h5>
+      <div class="stat-value" id="stat-survival-{{ include.path }}">-</div>
+    </div>
+  </div>
+
+  <!-- Killer Breakdown -->
+  <h3>Deadliest Threats</h3>
+  <div class="deadliest-threats-compact" id="killer-breakdown-{{ include.path }}">
+    <!-- Populated by JavaScript -->
+  </div>
+
+  <!-- Class Distribution and Other Charts -->
+  <div class="chart-row">
+    <div class="chart-column">
+      <h3>Class Distribution</h3>
+      <div class="chart-container">
+        <canvas id="class-distribution-{{ include.path }}"></canvas>
+      </div>
+    </div>
+    <div class="chart-column">
+      <h3>Character Longevity</h3>
+      <div class="chart-container">
+        <canvas id="character-longevity-{{ include.path }}"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Party Timeline -->
+  <h3>Party Timeline</h3>
+  <div class="chart-container" style="height: 500px;">
+    <canvas id="party-timeline-{{ include.path }}"></canvas>
+  </div>
+
+</section>

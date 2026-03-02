@@ -6,7 +6,10 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/campaign-stats.css"/>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/class-colors.css"/>
     <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/vendor/chartjs/chart.umd.min.js"></script>
+
+    <!-- Campaign Data Module - shared data layer -->
+    <script src="{{ site.baseurl }}/assets/js/campaign-data.js?v={{ site.time | date: '%s' }}"></script>
   </head>
 
   <body>

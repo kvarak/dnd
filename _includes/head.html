@@ -53,6 +53,15 @@
 <!-- Bootstrap 5.3.3 JavaScript Bundle with Popper (Self-hosted) -->
 <script src="{{ site.baseurl }}/assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
 
+<!-- Chart.js 4.4.0 for campaign statistics -->
+<script src="{{ site.baseurl }}/assets/vendor/chartjs/chart.umd.min.js"></script>
+
+<!-- Campaign Data Module - shared data layer -->
+<script src="{{ site.baseurl }}/assets/js/campaign-data.js?v={{ site.time | date: '%s' }}"></script>
+
+<!-- Campaign-specific statistics JavaScript -->
+<script src="{{ site.baseurl }}/assets/js/campaign-specific-stats.js?v={{ site.time | date: '%s' }}"></script>
+
 <!-- Font Awesome 7.2.0 (Self-hosted) -->
 <link href="{{ site.baseurl }}/assets/vendor/fontawesome/fontawesome-all.min.css" rel="stylesheet">
 
