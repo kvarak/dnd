@@ -1979,8 +1979,10 @@ function renderPlayerClassHeatmap() {
   // Get all unique classes
   const allClasses = [...new Set(characterData.map(c => c.class).filter(c => c))].sort();
 
-  // Count characters per player per class
+  // Count characters per player per class AND collect character details
   const playerClassData = {};
+  const playerClassCharacters = {}; // Store character details
+
   characterData.forEach(char => {
     const player = char.category || 'Unknown';
     const cls = char.class;
@@ -1988,11 +1990,22 @@ function renderPlayerClassHeatmap() {
 
     if (!playerClassData[player]) {
       playerClassData[player] = {};
+      playerClassCharacters[player] = {};
     }
     if (!playerClassData[player][cls]) {
       playerClassData[player][cls] = 0;
+      playerClassCharacters[player][cls] = [];
     }
     playerClassData[player][cls]++;
+
+    // Store full character details: name, path, and multiclass info
+    const charName = char.shortname || char.name || 'Unknown';
+    const classDisplay = char.class2 ? `${char.class}/${char.class2}` : char.class;
+    playerClassCharacters[player][cls].push({
+      name: charName,
+      path: char.path,
+      classes: classDisplay
+    });
   });
 
   // Get top 15 players by total characters
@@ -2044,7 +2057,14 @@ function renderPlayerClassHeatmap() {
     allClasses.forEach(cls => {
       const count = classes[cls] || 0;
       const color = getColorIntensity(count);
-      const title = count ? `${player}: ${count} ${cls} character${count > 1 ? 's' : ''}` : '';
+      let title = '';
+      if (count) {
+        const chars = playerClassCharacters[player][cls] || [];
+        const charList = chars
+          .map(c => `Path ${c.path}: ${c.name} (${c.classes})`)
+          .join('\n');
+        title = charList;
+      }
       html += `<td style="background-color: ${color}; color: ${textColor};" title="${title}">${count || ''}</td>`;
     });
     html += '</tr>';
