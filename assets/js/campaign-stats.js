@@ -1976,6 +1976,13 @@ function renderPlayerClassHeatmap() {
   const container = document.getElementById('player-class-heatmap');
   if (!container) return;
 
+  // Valid classes from archetypes.yml (current classes)
+  const validClasses = [
+    'alchemist', 'barbarian', 'bard', 'cavalier', 'cleric', 'cursed',
+    'druid', 'feyblood', 'fighter', 'inquisitor', 'paladin', 'professional',
+    'ranger', 'rogue', 'sorcerer', 'swashbuckler', 'warlock', 'wizard'
+  ];
+
   // Get all unique classes
   const allClasses = [...new Set(characterData.map(c => c.class).filter(c => c))].sort();
 
@@ -2046,7 +2053,10 @@ function renderPlayerClassHeatmap() {
   // Build HTML table
   let html = '<table class="player-class-heatmap-table"><thead><tr><th>Player</th>';
   allClasses.forEach(cls => {
-    html += `<th><span>${cls}</span></th>`;
+    const isObsolete = !validClasses.includes(cls.toLowerCase());
+    const obsoleteClass = isObsolete ? ' class="obsolete-class"' : '';
+    const obsoleteMarker = isObsolete ? '*' : '';
+    html += `<th${obsoleteClass}><span>${cls}${obsoleteMarker}</span></th>`;
   });
   html += '</tr></thead><tbody>';
 

@@ -543,6 +543,21 @@ body.dark-mode .player-class-heatmap-table tbody tr:hover td.player-name,
   background-color: rgba(102, 126, 234, 0.25);
 }
 
+/* Obsolete classes (no longer available in archetypes.yml) */
+.player-class-heatmap-table thead th.obsolete-class {
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.player-class-heatmap-table thead th.obsolete-class > span {
+  color: #ef4444;
+}
+
+body.dark-mode .player-class-heatmap-table thead th.obsolete-class > span,
+.dark-mode .player-class-heatmap-table thead th.obsolete-class > span {
+  color: #f87171;
+}
+
 .player-class-heatmap-table tbody td {
   font-weight: 500;
   transition: all 0.15s;
