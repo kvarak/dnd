@@ -292,6 +292,15 @@ function renderCharts() {
   renderLevelAchievement();
   renderLevelDurationMatrix(campaignList);
 
+  // Render player statistics
+  renderPlayerCharacterCount();
+  renderPlayerSurvivalRate();
+  renderPlayerTenure();
+  renderPlayerAvgLifespan();
+  renderPlayerDeathRate();
+  renderPlayerCampaignDiversity();
+  renderPlayerClassHeatmap();
+
   // Add event listener for killer detail toggle
   const killerToggle = document.getElementById('killer-detail-toggle');
   if (killerToggle) {
@@ -1540,6 +1549,719 @@ function renderLevelDurationMatrix(campaignList) {
 
   html += '</tbody></table>';
   container.innerHTML = html;
+}
+
+// Render player character count (Character Carousel)
+function renderPlayerCharacterCount() {
+  const ctx = document.getElementById('player-character-count');
+  if (!ctx) return;
+
+  // Group characters by player across ALL campaigns
+  const playerData = {};
+  characterData.forEach(char => {
+    const player = char.category || 'Unknown';
+    if (!playerData[player]) {
+      playerData[player] = 0;
+    }
+    playerData[player]++;
+  });
+
+  // Sort by count descending
+  const sortedPlayers = Object.entries(playerData)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 15); // Top 15 players
+
+  const labels = sortedPlayers.map(([player]) => player);
+  const counts = sortedPlayers.map(([, count]) => count);
+  const colors = labels.map(player => window.CampaignData.getPlayerColor(player));
+
+  const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Characters Played',
+        data: counts,
+        backgroundColor: colors.map(c => c.replace('0.7', '0.8')),
+        borderColor: colors.map(c => c.replace('0.7', '1')),
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (context) => `${context.parsed.y} character${context.parsed.y > 1 ? 's' : ''}`
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: { stepSize: 1 }
+        }
+      }
+    }
+  });
+
+  chartInstances['player-character-count'] = chart;
+}
+
+// Render player survival rate (The Survivor's Club)
+function renderPlayerSurvivalRate() {
+  const ctx = document.getElementById('player-survival-rate');
+  if (!ctx) return;
+
+  // Calculate survival rate per player across ALL campaigns
+  const playerStats = {};
+  characterData.forEach(char => {
+    const player = char.category || 'Unknown';
+    if (!playerStats[player]) {
+      playerStats[player] = { total: 0, survived: 0 };
+    }
+    playerStats[player].total++;
+    if (char.status === 'n') { // 'n' = survived
+      playerStats[player].survived++;
+    }
+  });
+
+  // Calculate percentages and sort
+  const playerRates = Object.entries(playerStats)
+    .map(([player, stats]) => ({
+      player,
+      rate: (stats.survived / stats.total) * 100,
+      survived: stats.survived,
+      total: stats.total
+    }))
+    .sort((a, b) => b.rate - a.rate)
+    .slice(0, 15); // Top 15 players
+
+  const labels = playerRates.map(p => p.player);
+  const rates = playerRates.map(p => p.rate);
+  const colors = labels.map(player => window.CampaignData.getPlayerColor(player));
+
+  const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Survival Rate',
+        data: rates,
+        backgroundColor: colors.map(c => c.replace('0.7', '0.8')),
+        borderColor: colors.map(c => c.replace('0.7', '1')),
+        borderWidth: 2
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (context) => {
+              const player = playerRates[context.dataIndex];
+              return `${player.rate.toFixed(1)}% (${player.survived}/${player.total} survived)`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          max: 100,
+          ticks: {
+            callback: (value) => value + '%'
+          }
+        }
+      }
+    }
+  });
+
+  chartInstances['player-survival-rate'] = chart;
+}
+
+// Render player tenure (Campaign Veterans)
+function renderPlayerTenure() {
+  const ctx = document.getElementById('player-tenure');
+  if (!ctx) return;
+
+  // Calculate total days per player across ALL campaigns
+  const playerDays = {};
+  characterData.forEach(char => {
+    if (!char.start || !char.end) return;
+    const player = char.category || 'Unknown';
+    const days = daysBetween(char.start, char.end);
+    if (!playerDays[player]) {
+      playerDays[player] = 0;
+    }
+    playerDays[player] += days;
+  });
+
+  // Sort by days descending
+  const sortedPlayers = Object.entries(playerDays)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 15); // Top 15 players
+
+  const labels = sortedPlayers.map(([player]) => player);
+  const days = sortedPlayers.map(([, d]) => Math.round(d));
+  const colors = labels.map(player => window.CampaignData.getPlayerColor(player));
+
+  const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Days Played',
+        data: days,
+        backgroundColor: colors.map(c => c.replace('0.7', '0.8')),
+        borderColor: colors.map(c => c.replace('0.7', '1')),
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (context) => `${context.parsed.y} days`
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+  chartInstances['player-tenure'] = chart;
+}
+
+// Render player average lifespan (The Iron Curtain)
+function renderPlayerAvgLifespan() {
+  const ctx = document.getElementById('player-avg-lifespan');
+  if (!ctx) return;
+
+  // Calculate average character lifespan per player across ALL campaigns
+  const playerLifespans = {};
+  characterData.forEach(char => {
+    if (!char.start || !char.end) return;
+    const player = char.category || 'Unknown';
+    const days = daysBetween(char.start, char.end);
+    if (!playerLifespans[player]) {
+      playerLifespans[player] = { total: 0, count: 0 };
+    }
+    playerLifespans[player].total += days;
+    playerLifespans[player].count++;
+  });
+
+  // Calculate averages and sort
+  const playerAvgs = Object.entries(playerLifespans)
+    .map(([player, stats]) => ({
+      player,
+      avgDays: stats.total / stats.count,
+      charCount: stats.count
+    }))
+    .sort((a, b) => b.avgDays - a.avgDays)
+    .slice(0, 15); // Top 15 players
+
+  const labels = playerAvgs.map(p => p.player);
+  const avgDays = playerAvgs.map(p => Math.round(p.avgDays));
+  const colors = labels.map(player => window.CampaignData.getPlayerColor(player));
+
+  const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Avg Character Lifespan',
+        data: avgDays,
+        backgroundColor: colors.map(c => c.replace('0.7', '0.8')),
+        borderColor: colors.map(c => c.replace('0.7', '1')),
+        borderWidth: 2
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (context) => {
+              const player = playerAvgs[context.dataIndex];
+              return `${context.parsed.x} days avg (${player.charCount} character${player.charCount > 1 ? 's' : ''})`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+  chartInstances['player-avg-lifespan'] = chart;
+}
+
+// Render player death rate (Death Magnet Meter)
+function renderPlayerDeathRate() {
+  const ctx = document.getElementById('player-death-rate');
+  if (!ctx) return;
+
+  // Calculate deaths per 100 days played per player
+  const playerStats = {};
+  characterData.forEach(char => {
+    if (!char.start || !char.end) return;
+    const player = char.category || 'Unknown';
+    const days = daysBetween(char.start, char.end);
+    if (!playerStats[player]) {
+      playerStats[player] = { deaths: 0, days: 0 };
+    }
+    playerStats[player].days += days;
+    // Count permanent deaths (died = true) and temporary deaths (extraliv)
+    if (char.died) playerStats[player].deaths++;
+    playerStats[player].deaths += (char.extraliv || 0);
+  });
+
+  // Calculate death rate (deaths per 100 days) and sort
+  const playerRates = Object.entries(playerStats)
+    .filter(([, stats]) => stats.days > 0)
+    .map(([player, stats]) => ({
+      player,
+      rate: (stats.deaths / stats.days) * 100,
+      deaths: stats.deaths,
+      days: Math.round(stats.days)
+    }))
+    .sort((a, b) => b.rate - a.rate)
+    .slice(0, 15);
+
+  const labels = playerRates.map(p => p.player);
+  const rates = playerRates.map(p => p.rate);
+  const colors = labels.map(player => window.CampaignData.getPlayerColor(player));
+
+  const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Death Rate',
+        data: rates,
+        backgroundColor: colors.map(c => c.replace('0.7', '0.8')),
+        borderColor: colors.map(c => c.replace('0.7', '1')),
+        borderWidth: 2
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (context) => {
+              const player = playerRates[context.dataIndex];
+              return `${player.rate.toFixed(2)} deaths/100 days (${player.deaths} deaths in ${player.days} days)`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Deaths per 100 Days'
+          }
+        }
+      }
+    }
+  });
+
+  chartInstances['player-death-rate'] = chart;
+}
+
+// Render player campaign diversity (Campaign Passport)
+function renderPlayerCampaignDiversity() {
+  const ctx = document.getElementById('player-campaign-diversity');
+  if (!ctx) return;
+
+  // Count unique campaigns per player
+  const playerCampaigns = {};
+  characterData.forEach(char => {
+    const player = char.category || 'Unknown';
+    if (!playerCampaigns[player]) {
+      playerCampaigns[player] = new Set();
+    }
+    playerCampaigns[player].add(char.path);
+  });
+
+  // Convert to array and sort
+  const sortedPlayers = Object.entries(playerCampaigns)
+    .map(([player, campaigns]) => ({
+      player,
+      count: campaigns.size
+    }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 15);
+
+  const labels = sortedPlayers.map(p => p.player);
+  const counts = sortedPlayers.map(p => p.count);
+  const colors = labels.map(player => window.CampaignData.getPlayerColor(player));
+
+  const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Campaigns Joined',
+        data: counts,
+        backgroundColor: colors.map(c => c.replace('0.7', '0.8')),
+        borderColor: colors.map(c => c.replace('0.7', '1')),
+        borderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (context) => `${context.parsed.y} campaign${context.parsed.y > 1 ? 's' : ''} joined`
+          }
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: { stepSize: 1 }
+        }
+      }
+    }
+  });
+
+  chartInstances['player-campaign-diversity'] = chart;
+}
+
+// Render player class heatmap (Player's Class Repertoire)
+function renderPlayerClassHeatmap() {
+  const container = document.getElementById('player-class-heatmap');
+  if (!container) return;
+
+  // Get all unique classes
+  const allClasses = [...new Set(characterData.map(c => c.class).filter(c => c))].sort();
+
+  // Count characters per player per class
+  const playerClassData = {};
+  characterData.forEach(char => {
+    const player = char.category || 'Unknown';
+    const cls = char.class;
+    if (!cls) return;
+
+    if (!playerClassData[player]) {
+      playerClassData[player] = {};
+    }
+    if (!playerClassData[player][cls]) {
+      playerClassData[player][cls] = 0;
+    }
+    playerClassData[player][cls]++;
+  });
+
+  // Get top 15 players by total characters
+  const topPlayers = Object.entries(playerClassData)
+    .map(([player, classes]) => ({
+      player,
+      total: Object.values(classes).reduce((sum, count) => sum + count, 0),
+      classes
+    }))
+    .sort((a, b) => b.total - a.total)
+    .slice(0, 15);
+
+  // Find max count for color scaling
+  const maxCount = Math.max(...topPlayers.flatMap(p => Object.values(p.classes)));
+
+  // Helper to get color intensity
+  const getColorIntensity = (count, player) => {
+    if (!count) return '#f8f9fa';
+    const baseColor = window.CampaignData.getPlayerColor(player);
+    const opacity = 0.2 + (count / maxCount) * 0.8; // 0.2 to 1.0
+    return baseColor.replace('0.7', opacity.toString());
+  };
+
+  // Build HTML table
+  let html = '<table class="player-class-heatmap-table"><thead><tr><th>Player</th>';
+  allClasses.forEach(cls => {
+    html += `<th class="rotate"><div><span>${cls}</span></div></th>`;
+  });
+  html += '</tr></thead><tbody>';
+
+  topPlayers.forEach(({ player, classes }) => {
+    html += `<tr><td class="player-name" style="border-left: 4px solid ${window.CampaignData.getPlayerColor(player).replace('0.7', '1')}">${player}</td>`;
+    allClasses.forEach(cls => {
+      const count = classes[cls] || 0;
+      const color = getColorIntensity(count, player);
+      const title = count ? `${player}: ${count} ${cls} character${count > 1 ? 's' : ''}` : '';
+      html += `<td style="background-color: ${color};" title="${title}">${count || ''}</td>`;
+    });
+    html += '</tr>';
+  });
+
+  html += '</tbody></table>';
+  container.innerHTML = html;
+}
+
+// Render player signature profile (multi-dimensional radar chart)
+function renderPlayerSignatureProfile() {
+  const container = document.getElementById('player-signature-profiles');
+  if (!container) return;
+
+  // Calculate 6 dimensions for each player
+  const playerMetrics = {};
+
+  characterData.forEach(char => {
+    const player = char.category || 'Unknown';
+    if (!playerMetrics[player]) {
+      playerMetrics[player] = {
+        totalChars: 0,
+        deaths: 0,
+        resurrections: 0,
+        totalDays: 0,
+        totalLevels: 0,
+        survived: 0,
+        classes: new Set(),
+        campaigns: new Set(),
+        characterDurations: []
+      };
+    }
+
+    const metrics = playerMetrics[player];
+    metrics.totalChars++;
+
+    // Death tracking
+    if (char.died) metrics.deaths++;
+    if (char.status === 'n') metrics.survived++;
+    if (char.extraliv) metrics.resurrections += char.extraliv;
+
+    // Days and levels
+    if (char.start && char.end) {
+      const days = daysBetween(char.start, char.end);
+      metrics.totalDays += days;
+      metrics.characterDurations.push(days);
+    }
+    if (char.maxlvl) {
+      metrics.totalLevels += (char.maxlvl - (char.maxlvl2 || 0));
+    }
+
+    // Class diversity
+    if (char.class) metrics.classes.add(char.class.toLowerCase());
+    if (char.class2) metrics.classes.add(char.class2.toLowerCase());
+
+    // Campaign diversity
+    if (char.path) metrics.campaigns.add(char.path);
+  });
+
+  // Calculate normalized scores (0-100) for each dimension
+  const playerProfiles = [];
+  const allMetrics = Object.values(playerMetrics);
+
+  // Find max values for normalization
+  const maxTotalDays = Math.max(...allMetrics.map(m => m.totalDays));
+  const maxClasses = Math.max(...allMetrics.map(m => m.classes.size));
+  const maxCampaigns = Math.max(...allMetrics.map(m => m.campaigns.size));
+  const maxAvgLifespan = Math.max(...allMetrics.map(m =>
+    m.characterDurations.length > 0
+      ? m.characterDurations.reduce((a,b) => a+b, 0) / m.characterDurations.length
+      : 0
+  ));
+
+  for (const [player, metrics] of Object.entries(playerMetrics)) {
+    // Skip players with too few characters
+    if (metrics.totalChars < 3) continue;
+
+    const avgLevel = metrics.totalChars > 0 ? metrics.totalLevels / metrics.totalChars : 0;
+    const avgLifespan = metrics.characterDurations.length > 0
+      ? metrics.characterDurations.reduce((a,b) => a+b, 0) / metrics.characterDurations.length
+      : 0;
+    const survivalRate = metrics.totalChars > 0 ? (metrics.survived / metrics.totalChars) * 100 : 0;
+
+    // 6 dimensions (all normalized to 0-100):
+    const profile = {
+      player: player,
+      survivability: survivalRate, // Percentage of characters that survived
+      power: Math.min(100, (avgLevel / 20) * 100), // Level 20 = 100%
+      longevity: maxAvgLifespan > 0 ? (avgLifespan / maxAvgLifespan) * 100 : 0,
+      diversity: maxClasses > 0 ? (metrics.classes.size / maxClasses) * 100 : 0,
+      breadth: maxCampaigns > 0 ? (metrics.campaigns.size / maxCampaigns) * 100 : 0, // Campaign participation
+      resilience: metrics.totalChars > 0 ? Math.min(100, (metrics.resurrections / metrics.totalChars) * 50) : 0, // Resurrection rate
+      totalChars: metrics.totalChars
+    };
+
+    playerProfiles.push(profile);
+  }
+
+  // Sort by total score and take top 8 players
+  const topPlayers = playerProfiles
+    .sort((a, b) => {
+      const scoreA = a.survivability + a.power + a.longevity + a.diversity + a.breadth + a.resilience;
+      const scoreB = b.survivability + b.power + b.longevity + b.diversity + b.breadth + b.resilience;
+      return scoreB - scoreA;
+    })
+    .slice(0, 8);
+
+  if (topPlayers.length === 0) {
+    container.innerHTML = '<p class="text-muted">Not enough player data available</p>';
+    return;
+  }
+
+  // Create individual radar chart for each player
+  container.innerHTML = ''; // Clear existing content
+
+  topPlayers.forEach((profile, idx) => {
+    // Create card for this player
+    const card = document.createElement('div');
+    card.className = 'signature-profile-card';
+
+    const playerColor = getPlayerColor(profile.player);
+    const baseColor = playerColor.match(/\d+,\s*\d+,\s*\d+/)[0]; // Extract RGB
+    card.style.borderColor = `rgba(${baseColor}, 0.4)`;
+
+    // Calculate total score
+    const totalScore = Math.round(
+      profile.survivability +
+      profile.power +
+      profile.longevity +
+      profile.diversity +
+      profile.breadth +
+      profile.resilience
+    );
+
+    // Add player name header with score
+    const header = document.createElement('h5');
+    header.innerHTML = `${profile.player} <span style="font-weight: 400; font-size: 0.9em; opacity: 0.7;">(${totalScore}/600)</span>`;
+    header.style.color = `rgba(${baseColor}, 1)`;
+    card.appendChild(header);
+
+    // Create canvas container
+    const canvasContainer = document.createElement('div');
+    canvasContainer.className = 'signature-profile-canvas';
+
+    // Create canvas
+    const canvas = document.createElement('canvas');
+    canvas.id = `player-signature-${idx}`;
+    canvasContainer.appendChild(canvas);
+    card.appendChild(canvasContainer);
+
+    container.appendChild(card);
+
+    // Create radar chart for this player
+    const chart = new Chart(canvas, {
+      type: 'radar',
+      data: {
+        labels: [
+          '🛡️ Survivability',
+          '⚔️ Power',
+          '⏳ Longevity',
+          '🎭 Diversity',
+          '🌍 Breadth',
+          '💫 Resilience'
+        ],
+        datasets: [{
+          label: profile.player,
+          data: [
+            Math.round(profile.survivability),
+            Math.round(profile.power),
+            Math.round(profile.longevity),
+            Math.round(profile.diversity),
+            Math.round(profile.breadth),
+            Math.round(profile.resilience)
+          ],
+          backgroundColor: `rgba(${baseColor}, 0.2)`,
+          borderColor: `rgba(${baseColor}, 0.9)`,
+          borderWidth: 2.5,
+          pointBackgroundColor: `rgba(${baseColor}, 1)`,
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: `rgba(${baseColor}, 1)`,
+          pointRadius: 5,
+          pointHoverRadius: 7,
+          pointBorderWidth: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+          legend: {
+            display: false
+          },
+          tooltip: {
+            backgroundColor: 'rgba(0, 0, 0, 0.9)',
+            padding: 10,
+            cornerRadius: 6,
+            displayColors: false,
+            callbacks: {
+              title: function(context) {
+                const labels = [
+                  'Survivability',
+                  'Power',
+                  'Longevity',
+                  'Diversity',
+                  'Breadth',
+                  'Resilience'
+                ];
+                return labels[context[0].dataIndex];
+              },
+              label: function(context) {
+                return `Score: ${context.parsed.r}/100`;
+              }
+            }
+          }
+        },
+        scales: {
+          r: {
+            beginAtZero: true,
+            max: 100,
+            ticks: {
+              stepSize: 25,
+              font: { size: 9 },
+              backdropColor: 'rgba(255, 255, 255, 0.8)',
+              color: '#6b7280'
+            },
+            grid: {
+              color: 'rgba(156, 163, 175, 0.25)'
+            },
+            angleLines: {
+              color: 'rgba(156, 163, 175, 0.25)'
+            },
+            pointLabels: {
+              font: { size: 10, weight: '600' },
+              color: '#374151',
+              callback: function(label) {
+                // Shorten labels for individual charts
+                return label.replace('🛡️ ', '').replace('⚔️ ', '').replace('⏳ ', '')
+                           .replace('🎭 ', '').replace('📅 ', '').replace('💫 ', '');
+              }
+            }
+          }
+        }
+      }
+    });
+
+    chartInstances[`player-signature-${idx}`] = chart;
+  });
 }
 
 // Load data on page load

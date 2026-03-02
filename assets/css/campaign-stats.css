@@ -165,6 +165,17 @@ body.dark-mode .stat-value {
   height: 350px;
 }
 
+.chart-subtitle {
+  font-size: 0.875rem;
+  color: #718096;
+  margin: -0.5rem 0 1rem 0;
+  font-style: italic;
+}
+
+body.dark-mode .chart-subtitle {
+  color: #a0aec0;
+}
+
 @media (max-width: 768px) {
   .chart-row {
     flex-direction: column;
@@ -432,3 +443,201 @@ body.dark-mode .threat-count {
   }
 }
 
+/* Player Class Heatmap */
+.heatmap-container {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.player-class-heatmap-table {
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  width: 100%;
+  min-width: 800px;
+}
+
+.player-class-heatmap-table th,
+.player-class-heatmap-table td {
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+}
+
+body.dark-mode .player-class-heatmap-table th,
+body.dark-mode .player-class-heatmap-table td {
+  border-color: #4a5568;
+}
+
+.player-class-heatmap-table thead th {
+  background-color: #f7fafc;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+body.dark-mode .player-class-heatmap-table thead th {
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+
+.player-class-heatmap-table .player-name {
+  text-align: left;
+  font-weight: 500;
+  white-space: nowrap;
+  background-color: #f7fafc;
+  position: sticky;
+  left: 0;
+  z-index: 5;
+}
+
+body.dark-mode .player-class-heatmap-table .player-name {
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+
+.player-class-heatmap-table th.rotate {
+  height: 120px;
+  white-space: nowrap;
+  vertical-align: bottom;
+  padding: 0;
+}
+
+.player-class-heatmap-table th.rotate > div {
+  transform: translate(0, 0) rotate(-90deg);
+  width: 30px;
+  height: 170%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: -50px;
+}
+
+.player-class-heatmap-table th.rotate > div > span {
+  padding: 2px -25px;
+}
+
+.player-class-heatmap-table tbody td {
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.player-class-heatmap-table tbody td:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .player-class-heatmap-table {
+    font-size: 0.75rem;
+    min-width: 600px;
+  }
+
+  .player-class-heatmap-table th,
+  .player-class-heatmap-table td {
+    padding: 0.3rem;
+  }
+}
+
+/* Player Signature Profile */
+.dimension-legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 2rem 0;
+  padding: 1.25rem;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+  border-radius: 8px;
+  border: 1px solid rgba(102, 126, 234, 0.15);
+}
+
+.dimension-legend > div {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #374151;
+}
+
+.dimension-legend strong {
+  color: #667eea;
+}
+
+body.dark-mode .dimension-legend {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-color: rgba(102, 126, 234, 0.25);
+}
+
+body.dark-mode .dimension-legend > div {
+  color: #e2e8f0;
+}
+
+body.dark-mode .dimension-legend strong {
+  color: #8b9dff;
+}
+
+.signature-profiles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.signature-profile-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.signature-profile-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.signature-profile-card h5 {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.signature-profile-canvas {
+  position: relative;
+  height: 280px;
+}
+
+body.dark-mode .signature-profile-card {
+  background: #2d3748;
+  border-color: #4a5568;
+}
+
+body.dark-mode .signature-profile-card h5 {
+  color: #e2e8f0;
+  border-bottom-color: #4a5568;
+}
+
+@media (max-width: 768px) {
+  .dimension-legend {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .signature-profiles-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .signature-profile-card {
+    padding: 1rem;
+  }
+
+  .signature-profile-canvas {
+    height: 240px;
+  }
+}

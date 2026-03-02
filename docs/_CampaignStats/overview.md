@@ -16,7 +16,8 @@ layout: campaign-stats
   <a href="#multiclass-combinations">Multiclass</a> •
   <a href="#class-popularity-evolution">Class Evolution</a> •
   <a href="#level-achievement-by-class">Level Achievement</a> •
-  <a href="#level-duration-analysis">Level Duration</a>
+  <a href="#level-duration-analysis">Level Duration</a> •
+  <a href="#player-statistics">Player Stats</a>
 </nav>
 
 # Campaign Statistics
@@ -121,3 +122,46 @@ Average real-world days spent at each character level across all campaigns. Each
 <div class="level-duration-matrix-container">
   <div id="level-duration-matrix"></div>
 </div>
+
+## Player Statistics
+
+<div class="chart-row">
+  <div class="chart-column">
+    <h4>Character Carousel</h4>
+    <p class="chart-subtitle">Total characters played per player across all campaigns</p>
+    <div class="chart-container">
+      <canvas id="player-character-count"></canvas>
+    </div>
+  </div>
+  <div class="chart-column">
+    <h4>The Iron Curtain</h4>
+    <p class="chart-subtitle">Average character lifespan by player</p>
+    <div class="chart-container">
+      <canvas id="player-avg-lifespan"></canvas>
+    </div>
+  </div>
+</div>
+
+<div class="chart-row">
+  <div class="chart-column">
+    <h4>Death Magnet Meter</h4>
+    <p class="chart-subtitle">Deaths per 100 days played - who attracts danger?</p>
+    <div class="chart-container">
+      <canvas id="player-death-rate"></canvas>
+    </div>
+  </div>
+  <div class="chart-column">
+    <h4>The Survivor's Club</h4>
+    <p class="chart-subtitle">Character survival rate by player</p>
+    <div class="chart-container">
+      <canvas id="player-survival-rate"></canvas>
+    </div>
+  </div>
+</div>
+
+#### Player's Class Repertoire
+
+Which classes has each player explored? Darker = more characters of that class.
+
+<div id="player-class-heatmap" class="heatmap-container"></div>
+
