@@ -204,3 +204,115 @@ The questionnaire system automatically includes new archetypes when they're prop
 6. **Update search** - Run `make extract` to include in searchable content
 
 For trait naming and archetype patterns, reference existing class files in `docs/_Classes/`.
+
+---
+
+## Campaign Statistics: Level Duration Analysis
+
+### Overview
+
+The Level Duration Matrix visualizes how many real-world days each campaign spent at each character level (1-20). Accounts for characters joining at different levels and fills gaps via interpolation.
+
+### Algorithm
+
+**1. Data Collection**
+
+For each campaign, filter characters by `path` (campaign number):
+
+```javascript
+campaignChars = characterData.filter(c => c.path == campaign.nr)
+```
+
+**2. Per-Character Duration Calculation**
+
+For each character with valid `start`, `end`, `startlevel`, and `maxlvl`:
+
+```javascript
+totalDays = daysBetween(start, end)
+startLvl = startlevel
+endLvl = maxlvl - maxlvl2  // Account for multiclassing
+levelsGained = endLvl - startLvl
+
+if (levelsGained > 0 && totalDays > 0) {
+  daysPerLevel = totalDays / levelsGained
+
+  // Distribute days-per-level to all levels played
+  for (lvl = startLvl; lvl < endLvl; lvl++) {
+    levelDurations[lvl] += daysPerLevel
+    levelCounts[lvl] += 1
+  }
+}
+```
+
+**Example:**
+- Character played 100 days, started at level 3, reached level 8
+- Levels gained: 8 - 3 = 5
+- Days per level: 100 / 5 = 20 days
+- Contributes 20 days to levels 3, 4, 5, 6, 7
+
+**3. Average Across Characters**
+
+```javascript
+avgByLevel = {}
+for (lvl in levelDurations) {
+  avgByLevel[lvl] = round(levelDurations[lvl] / levelCounts[lvl])
+}
+```
+
+**4. Gap Interpolation**
+
+Characters often join campaigns at current level (e.g., new player joins level 11 campaign). This creates gaps where no characters played certain levels.
+
+```javascript
+allLevels = sortedKeys(avgByLevel)
+minLvl = allLevels[0]
+maxLvl = allLevels[last]
+
+for (lvl = minLvl; lvl <= maxLvl; lvl++) {
+  if (!avgByLevel[lvl]) {
+    // Find nearest levels with data
+    leftLvl = findNearestLeft(lvl, avgByLevel)
+    rightLvl = findNearestRight(lvl, avgByLevel)
+
+    if (leftLvl exists && rightLvl exists) {
+      // Interpolate between adjacent levels
+      avgByLevel[lvl] = round((avgByLevel[leftLvl] + avgByLevel[rightLvl]) / 2)
+    } else if (leftLvl exists) {
+      avgByLevel[lvl] = avgByLevel[leftLvl]
+    } else if (rightLvl exists) {
+      avgByLevel[lvl] = avgByLevel[rightLvl]
+    }
+  }
+}
+```
+
+**Example Gap Fill:**
+- Level 9: 43 days (actual data)
+- Level 10: missing (no characters)
+- Level 11: 21 days (actual data)
+- **Interpolated:** Level 10 = (43 + 21) / 2 = 32 days
+
+**5. Per-Row Color Scaling**
+
+Each campaign row uses its own min/max for color intensity:
+
+```javascript
+campaignDays = values(campaign.levels).filter(d => d > 0)
+minDays = min(campaignDays)
+maxDays = max(campaignDays)
+
+getColorIntensity(days) {
+  if (!days) return lightGray
+  normalized = (days - minDays) / (maxDays - minDays)
+  lightness = 85% - (normalized * 30%)  // Range: 85% to 55%
+  return hsl(210, 80%, lightness)
+}
+```
+
+This ensures each campaign's internal variation is visible, even if absolute day counts differ significantly between campaigns.
+
+**Implementation Files:**
+- `assets/js/campaign-stats.js` - `renderLevelDurationMatrix()` function
+- `assets/js/campaign-data.js` - Data fetching and caching from Google Sheets
+- `tools/statistics.html` - Matrix container and styling
+
