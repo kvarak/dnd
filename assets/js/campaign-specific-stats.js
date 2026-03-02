@@ -41,40 +41,37 @@ function getClassColorHex(className) {
   return getComputedStyle(document.documentElement).getPropertyValue(cssVar).trim() || '#696969';
 }
 
-// Generate consistent color for player/category
-function getPlayerColor(category) {
-  if (!category) return 'rgba(105, 105, 105, 0.7)';
+// Cache for player color assignments
+let playerColorCache = null;
 
-  // Predefined color palette for players (as rgba)
+// Generate consistent color for player/category
+function getPlayerColor(category, allCategories = null) {
+  // Predefined color palette for players (as rgba) - optimized for both light and dark modes
   const colorPalette = [
-    'rgba(102, 126, 234, 0.7)',  // Purple-blue
-    'rgba(118, 75, 162, 0.7)',   // Deep purple
-    'rgba(240, 147, 251, 0.7)',  // Pink-purple
-    'rgba(79, 172, 254, 0.7)',   // Sky blue
-    'rgba(67, 233, 123, 0.7)',   // Mint green
-    'rgba(250, 112, 154, 0.7)',  // Rose
-    'rgba(254, 225, 64, 0.7)',   // Yellow
-    'rgba(48, 207, 208, 0.7)',   // Cyan
-    'rgba(168, 237, 234, 0.7)',  // Light teal
-    'rgba(254, 214, 227, 0.7)',  // Light pink
-    'rgba(196, 113, 245, 0.7)',  // Violet
-    'rgba(18, 194, 233, 0.7)',   // Ocean blue
-    'rgba(247, 112, 98, 0.7)',   // Coral
-    'rgba(254, 81, 150, 0.7)',   // Hot pink
-    'rgba(142, 197, 252, 0.7)',  // Light blue
-    'rgba(224, 195, 252, 0.7)'   // Lavender
+    'rgba(59, 130, 246, 0.7)',   // Blue
+    'rgba(168, 85, 247, 0.7)',   // Purple
+    'rgba(34, 197, 94, 0.7)',    // Green
+    'rgba(236, 72, 153, 0.7)',   // Pink
+    'rgba(249, 115, 22, 0.7)',   // Orange
+    'rgba(20, 184, 166, 0.7)',   // Teal
+    'rgba(234, 179, 8, 0.7)',    // Yellow
+    'rgba(239, 68, 68, 0.7)'     // Red
   ];
 
-  // Generate consistent hash from category string
-  let hash = 0;
-  for (let i = 0; i < category.length; i++) {
-    hash = ((hash << 5) - hash) + category.charCodeAt(i);
-    hash = hash & hash;
+  // If allCategories provided, rebuild cache with sequential assignment
+  if (allCategories) {
+    playerColorCache = {};
+    const sortedCategories = [...allCategories].sort();
+    sortedCategories.forEach((cat, idx) => {
+      playerColorCache[cat] = colorPalette[idx % colorPalette.length];
+    });
   }
 
-  // Use hash to pick color from palette
-  const index = Math.abs(hash) % colorPalette.length;
-  return colorPalette[index];
+  // If no category provided, return gray
+  if (!category) return 'rgba(105, 105, 105, 0.7)';
+
+  // Return color from cache, or fallback to first color
+  return playerColorCache && playerColorCache[category] ? playerColorCache[category] : colorPalette[0];
 }
 
 // Calculate days between dates
@@ -429,9 +426,16 @@ function renderPartyTimeline(pathNumber, thisCampaignData, thisCharacterData) {
 
   console.log(`Party Timeline: ${validChars.length} valid characters`);
 
-  // Debug: Check unique categories
+  // Initialize player color cache with all unique categories
   const uniqueCategories = [...new Set(validChars.map(c => c.category))];
+  getPlayerColor(null, uniqueCategories);
+
   console.log('Unique player categories:', uniqueCategories);
+  console.log('Color assignments:');
+  uniqueCategories.forEach(cat => {
+    const color = getPlayerColor(cat);
+    console.log(`  "${cat}" -> ${color}`);
+  });
 
   // Build single dataset with all characters as stacked bars
   const barData = [];
