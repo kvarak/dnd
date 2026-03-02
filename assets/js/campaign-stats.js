@@ -1983,8 +1983,13 @@ function renderPlayerClassHeatmap() {
     'ranger', 'rogue', 'sorcerer', 'swashbuckler', 'warlock', 'wizard'
   ];
 
-  // Get all unique classes
-  const allClasses = [...new Set(characterData.map(c => c.class).filter(c => c))].sort();
+  // Get all unique classes (including both class and class2 for multiclass)
+  const classSet = new Set();
+  characterData.forEach(c => {
+    if (c.class) classSet.add(c.class);
+    if (c.class2) classSet.add(c.class2);
+  });
+  const allClasses = [...classSet].sort();
 
   // Count characters per player per class AND collect character details
   const playerClassData = {};
@@ -1992,26 +1997,31 @@ function renderPlayerClassHeatmap() {
 
   characterData.forEach(char => {
     const player = char.category || 'Unknown';
-    const cls = char.class;
-    if (!cls) return;
+    const classes = [char.class, char.class2].filter(c => c);
+    if (classes.length === 0) return;
 
     if (!playerClassData[player]) {
       playerClassData[player] = {};
       playerClassCharacters[player] = {};
     }
-    if (!playerClassData[player][cls]) {
-      playerClassData[player][cls] = 0;
-      playerClassCharacters[player][cls] = [];
-    }
-    playerClassData[player][cls]++;
 
-    // Store full character details: name, path, and multiclass info
+    // Store full character details once
     const charName = char.shortname || char.name || 'Unknown';
     const classDisplay = char.class2 ? `${char.class}/${char.class2}` : char.class;
-    playerClassCharacters[player][cls].push({
+    const charInfo = {
       name: charName,
       path: char.path,
       classes: classDisplay
+    };
+
+    // Count this character for each of their classes
+    classes.forEach(cls => {
+      if (!playerClassData[player][cls]) {
+        playerClassData[player][cls] = 0;
+        playerClassCharacters[player][cls] = [];
+      }
+      playerClassData[player][cls]++;
+      playerClassCharacters[player][cls].push(charInfo);
     });
   });
 
