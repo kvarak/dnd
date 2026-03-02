@@ -60,6 +60,10 @@
     // Store preference
     localStorage.setItem(STORAGE_KEY, isDark.toString());
     console.log('[DARK-MODE.JS applyDarkMode] Stored to localStorage:', isDark.toString());
+
+    // Dispatch custom event for other components to listen to
+    console.log('[DARK-MODE.JS] Dispatching darkModeChanged event with isDark:', isDark);
+    window.dispatchEvent(new CustomEvent('darkModeChanged', { detail: { isDark } }));
   }
 
   /**

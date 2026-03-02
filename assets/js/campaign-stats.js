@@ -3,6 +3,7 @@
 
 let campaignData = [];
 let characterData = [];
+let campaignList = []; // Processed campaign list for re-rendering
 let chartInstances = {};
 
 // Helper function to calculate days between two dates
@@ -275,7 +276,7 @@ function renderCharts() {
     }
   });
 
-  const campaignList = Object.values(campaigns).filter(c => c.name);
+  campaignList = Object.values(campaigns).filter(c => c.name);
 
   // Campaign Timeline Chart
   renderTimelineChart(campaignList);
@@ -1522,6 +1523,9 @@ function renderLevelDurationMatrix(campaignList) {
     .map(nr => ({ nr: parseInt(nr), ...campaignLevelData[nr] }))
     .sort((a, b) => a.nr - b.nr);
 
+  // Detect dark mode
+  const isDarkMode = document.documentElement.classList.contains('dark-mode');
+
   sortedCampaigns.forEach(campaign => {
     // Find min/max for this campaign row only
     const campaignDays = Object.values(campaign.levels).filter(d => d > 0);
@@ -1530,19 +1534,30 @@ function renderLevelDurationMatrix(campaignList) {
 
     // Helper to get color intensity for this row
     const getColorIntensity = (days) => {
-      if (!days) return '#f8f9fa';
+      if (!days) return isDarkMode ? '#334155' : '#f8f9fa'; // No data color (matches campaign-name column)
       const normalized = (days - minDays) / (maxDays - minDays || 1);
-      const hue = 210; // Blue
-      const lightness = 85 - (normalized * 30); // 85% to 55%
-      return `hsl(${hue}, 80%, ${lightness}%)`;
+
+      if (isDarkMode) {
+        // Dark mode: cyan to orange gradient
+        const hue = 200 - (normalized * 85); // 200 (cyan) to 115 (yellow-green) to 30 (orange)
+        const saturation = 65 + (normalized * 15); // 65% to 80%
+        const lightness = 35 + (normalized * 15); // 35% to 50%
+        return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+      } else {
+        // Light mode: blue gradient
+        const hue = 210; // Blue
+        const lightness = 85 - (normalized * 30); // 85% to 55%
+        return `hsl(${hue}, 80%, ${lightness}%)`;
+      }
     };
 
     html += `<tr><td class="campaign-name">${campaign.name}</td>`;
     for (let lvl = 1; lvl <= maxLevel; lvl++) {
       const days = campaign.levels[lvl];
       const color = getColorIntensity(days);
+      const textColor = isDarkMode ? 'rgba(255, 255, 255, 0.95)' : 'rgba(0, 0, 0, 0.87)';
       const title = days ? `Level ${lvl}: ${days} days average` : `Level ${lvl}: No data`;
-      html += `<td style="background-color: ${color};" title="${title}">${days || '-'}</td>`;
+      html += `<td style="background-color: ${color}; color: ${textColor};" title="${title}">${days || '-'}</td>`;
     }
     html += '</tr>';
   });
@@ -1990,31 +2005,47 @@ function renderPlayerClassHeatmap() {
     .sort((a, b) => b.total - a.total)
     .slice(0, 15);
 
+  // Detect dark mode
+  const isDarkMode = document.documentElement.classList.contains('dark-mode');
+
   // Find max count for color scaling
   const maxCount = Math.max(...topPlayers.flatMap(p => Object.values(p.classes)));
 
-  // Helper to get color intensity
-  const getColorIntensity = (count, player) => {
-    if (!count) return '#f8f9fa';
-    const baseColor = window.CampaignData.getPlayerColor(player);
-    const opacity = 0.2 + (count / maxCount) * 0.8; // 0.2 to 1.0
-    return baseColor.replace('0.7', opacity.toString());
+  // Helper to get color intensity (matching Level Duration Analysis style)
+  const getColorIntensity = (count) => {
+    if (!count) return isDarkMode ? '#334155' : '#f8f9fa'; // Empty cells match first column
+    const normalized = count / maxCount;
+
+    if (isDarkMode) {
+      // Dark mode: cyan to orange heat map
+      const hue = 200 - (normalized * 85); // 200 (cyan) to 30 (orange)
+      const saturation = 65 + (normalized * 15); // 65% to 80%
+      const lightness = 35 + (normalized * 15); // 35% to 50%
+      return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+    } else {
+      // Light mode: blue gradient
+      const hue = 210; // Blue
+      const lightness = 85 - (normalized * 30); // 85% to 55%
+      return `hsl(${hue}, 80%, ${lightness}%)`;
+    }
   };
 
   // Build HTML table
   let html = '<table class="player-class-heatmap-table"><thead><tr><th>Player</th>';
   allClasses.forEach(cls => {
-    html += `<th class="rotate"><div><span>${cls}</span></div></th>`;
+    html += `<th><span>${cls}</span></th>`;
   });
   html += '</tr></thead><tbody>';
+
+  const textColor = isDarkMode ? 'rgba(255, 255, 255, 0.95)' : 'rgba(0, 0, 0, 0.87)';
 
   topPlayers.forEach(({ player, classes }) => {
     html += `<tr><td class="player-name" style="border-left: 4px solid ${window.CampaignData.getPlayerColor(player).replace('0.7', '1')}">${player}</td>`;
     allClasses.forEach(cls => {
       const count = classes[cls] || 0;
-      const color = getColorIntensity(count, player);
+      const color = getColorIntensity(count);
       const title = count ? `${player}: ${count} ${cls} character${count > 1 ? 's' : ''}` : '';
-      html += `<td style="background-color: ${color};" title="${title}">${count || ''}</td>`;
+      html += `<td style="background-color: ${color}; color: ${textColor};" title="${title}">${count || ''}</td>`;
     });
     html += '</tr>';
   });
@@ -2023,246 +2054,22 @@ function renderPlayerClassHeatmap() {
   container.innerHTML = html;
 }
 
-// Render player signature profile (multi-dimensional radar chart)
-function renderPlayerSignatureProfile() {
-  const container = document.getElementById('player-signature-profiles');
-  if (!container) return;
-
-  // Calculate 6 dimensions for each player
-  const playerMetrics = {};
-
-  characterData.forEach(char => {
-    const player = char.category || 'Unknown';
-    if (!playerMetrics[player]) {
-      playerMetrics[player] = {
-        totalChars: 0,
-        deaths: 0,
-        resurrections: 0,
-        totalDays: 0,
-        totalLevels: 0,
-        survived: 0,
-        classes: new Set(),
-        campaigns: new Set(),
-        characterDurations: []
-      };
-    }
-
-    const metrics = playerMetrics[player];
-    metrics.totalChars++;
-
-    // Death tracking
-    if (char.died) metrics.deaths++;
-    if (char.status === 'n') metrics.survived++;
-    if (char.extraliv) metrics.resurrections += char.extraliv;
-
-    // Days and levels
-    if (char.start && char.end) {
-      const days = daysBetween(char.start, char.end);
-      metrics.totalDays += days;
-      metrics.characterDurations.push(days);
-    }
-    if (char.maxlvl) {
-      metrics.totalLevels += (char.maxlvl - (char.maxlvl2 || 0));
-    }
-
-    // Class diversity
-    if (char.class) metrics.classes.add(char.class.toLowerCase());
-    if (char.class2) metrics.classes.add(char.class2.toLowerCase());
-
-    // Campaign diversity
-    if (char.path) metrics.campaigns.add(char.path);
-  });
-
-  // Calculate normalized scores (0-100) for each dimension
-  const playerProfiles = [];
-  const allMetrics = Object.values(playerMetrics);
-
-  // Find max values for normalization
-  const maxTotalDays = Math.max(...allMetrics.map(m => m.totalDays));
-  const maxClasses = Math.max(...allMetrics.map(m => m.classes.size));
-  const maxCampaigns = Math.max(...allMetrics.map(m => m.campaigns.size));
-  const maxAvgLifespan = Math.max(...allMetrics.map(m =>
-    m.characterDurations.length > 0
-      ? m.characterDurations.reduce((a,b) => a+b, 0) / m.characterDurations.length
-      : 0
-  ));
-
-  for (const [player, metrics] of Object.entries(playerMetrics)) {
-    // Skip players with too few characters
-    if (metrics.totalChars < 3) continue;
-
-    const avgLevel = metrics.totalChars > 0 ? metrics.totalLevels / metrics.totalChars : 0;
-    const avgLifespan = metrics.characterDurations.length > 0
-      ? metrics.characterDurations.reduce((a,b) => a+b, 0) / metrics.characterDurations.length
-      : 0;
-    const survivalRate = metrics.totalChars > 0 ? (metrics.survived / metrics.totalChars) * 100 : 0;
-
-    // 6 dimensions (all normalized to 0-100):
-    const profile = {
-      player: player,
-      survivability: survivalRate, // Percentage of characters that survived
-      power: Math.min(100, (avgLevel / 20) * 100), // Level 20 = 100%
-      longevity: maxAvgLifespan > 0 ? (avgLifespan / maxAvgLifespan) * 100 : 0,
-      diversity: maxClasses > 0 ? (metrics.classes.size / maxClasses) * 100 : 0,
-      breadth: maxCampaigns > 0 ? (metrics.campaigns.size / maxCampaigns) * 100 : 0, // Campaign participation
-      resilience: metrics.totalChars > 0 ? Math.min(100, (metrics.resurrections / metrics.totalChars) * 50) : 0, // Resurrection rate
-      totalChars: metrics.totalChars
-    };
-
-    playerProfiles.push(profile);
-  }
-
-  // Sort by total score and take top 8 players
-  const topPlayers = playerProfiles
-    .sort((a, b) => {
-      const scoreA = a.survivability + a.power + a.longevity + a.diversity + a.breadth + a.resilience;
-      const scoreB = b.survivability + b.power + b.longevity + b.diversity + b.breadth + b.resilience;
-      return scoreB - scoreA;
-    })
-    .slice(0, 8);
-
-  if (topPlayers.length === 0) {
-    container.innerHTML = '<p class="text-muted">Not enough player data available</p>';
-    return;
-  }
-
-  // Create individual radar chart for each player
-  container.innerHTML = ''; // Clear existing content
-
-  topPlayers.forEach((profile, idx) => {
-    // Create card for this player
-    const card = document.createElement('div');
-    card.className = 'signature-profile-card';
-
-    const playerColor = getPlayerColor(profile.player);
-    const baseColor = playerColor.match(/\d+,\s*\d+,\s*\d+/)[0]; // Extract RGB
-    card.style.borderColor = `rgba(${baseColor}, 0.4)`;
-
-    // Calculate total score
-    const totalScore = Math.round(
-      profile.survivability +
-      profile.power +
-      profile.longevity +
-      profile.diversity +
-      profile.breadth +
-      profile.resilience
-    );
-
-    // Add player name header with score
-    const header = document.createElement('h5');
-    header.innerHTML = `${profile.player} <span style="font-weight: 400; font-size: 0.9em; opacity: 0.7;">(${totalScore}/600)</span>`;
-    header.style.color = `rgba(${baseColor}, 1)`;
-    card.appendChild(header);
-
-    // Create canvas container
-    const canvasContainer = document.createElement('div');
-    canvasContainer.className = 'signature-profile-canvas';
-
-    // Create canvas
-    const canvas = document.createElement('canvas');
-    canvas.id = `player-signature-${idx}`;
-    canvasContainer.appendChild(canvas);
-    card.appendChild(canvasContainer);
-
-    container.appendChild(card);
-
-    // Create radar chart for this player
-    const chart = new Chart(canvas, {
-      type: 'radar',
-      data: {
-        labels: [
-          '🛡️ Survivability',
-          '⚔️ Power',
-          '⏳ Longevity',
-          '🎭 Diversity',
-          '🌍 Breadth',
-          '💫 Resilience'
-        ],
-        datasets: [{
-          label: profile.player,
-          data: [
-            Math.round(profile.survivability),
-            Math.round(profile.power),
-            Math.round(profile.longevity),
-            Math.round(profile.diversity),
-            Math.round(profile.breadth),
-            Math.round(profile.resilience)
-          ],
-          backgroundColor: `rgba(${baseColor}, 0.2)`,
-          borderColor: `rgba(${baseColor}, 0.9)`,
-          borderWidth: 2.5,
-          pointBackgroundColor: `rgba(${baseColor}, 1)`,
-          pointBorderColor: '#fff',
-          pointHoverBackgroundColor: '#fff',
-          pointHoverBorderColor: `rgba(${baseColor}, 1)`,
-          pointRadius: 5,
-          pointHoverRadius: 7,
-          pointBorderWidth: 2
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: true,
-        plugins: {
-          legend: {
-            display: false
-          },
-          tooltip: {
-            backgroundColor: 'rgba(0, 0, 0, 0.9)',
-            padding: 10,
-            cornerRadius: 6,
-            displayColors: false,
-            callbacks: {
-              title: function(context) {
-                const labels = [
-                  'Survivability',
-                  'Power',
-                  'Longevity',
-                  'Diversity',
-                  'Breadth',
-                  'Resilience'
-                ];
-                return labels[context[0].dataIndex];
-              },
-              label: function(context) {
-                return `Score: ${context.parsed.r}/100`;
-              }
-            }
-          }
-        },
-        scales: {
-          r: {
-            beginAtZero: true,
-            max: 100,
-            ticks: {
-              stepSize: 25,
-              font: { size: 9 },
-              backdropColor: 'rgba(255, 255, 255, 0.8)',
-              color: '#6b7280'
-            },
-            grid: {
-              color: 'rgba(156, 163, 175, 0.25)'
-            },
-            angleLines: {
-              color: 'rgba(156, 163, 175, 0.25)'
-            },
-            pointLabels: {
-              font: { size: 10, weight: '600' },
-              color: '#374151',
-              callback: function(label) {
-                // Shorten labels for individual charts
-                return label.replace('🛡️ ', '').replace('⚔️ ', '').replace('⏳ ', '')
-                           .replace('🎭 ', '').replace('📅 ', '').replace('💫 ', '');
-              }
-            }
-          }
-        }
-      }
-    });
-
-    chartInstances[`player-signature-${idx}`] = chart;
-  });
-}
-
 // Load data on page load
 document.addEventListener('DOMContentLoaded', fetchSheetData);
+
+// Re-render tables when dark mode changes
+window.addEventListener('darkModeChanged', function(event) {
+  console.log('[CAMPAIGN-STATS] darkModeChanged event received, isDark:', event.detail.isDark);
+
+  // Re-render Level Duration Analysis
+  if (typeof campaignList !== 'undefined' && campaignList.length > 0) {
+    console.log('[CAMPAIGN-STATS] Re-rendering Level Duration Matrix');
+    renderLevelDurationMatrix(campaignList);
+  }
+
+  // Re-render Player Class Heatmap
+  if (typeof characterData !== 'undefined' && characterData.length > 0) {
+    console.log('[CAMPAIGN-STATS] Re-rendering Player Class Heatmap');
+    renderPlayerClassHeatmap();
+  }
+});

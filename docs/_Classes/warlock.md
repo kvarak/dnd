@@ -332,7 +332,7 @@ Once you have used this feature, you can not use it until you have completed a s
 
 <div class="descriptive" markdown="1">
 
-Edgar cut his palm with the black knife, feeding his blood to the ever-hungry pact blade. His patron was pleased with the sacrifice—there would be a reward...
+Edgar cut his palm with the black knife, feeding his blood to the ever-hungry pact blade. His patron was pleased with the sacrifice - there would be a reward...
 
 </div>
 

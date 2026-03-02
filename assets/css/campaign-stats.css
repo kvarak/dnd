@@ -325,24 +325,29 @@ body.dark-mode .level-cell {
   background-color: rgba(102, 126, 234, 0.15);
 }
 
-body.dark-mode .level-duration-table {
+body.dark-mode .level-duration-table,
+.dark-mode .level-duration-table {
   background: #1e293b;
 }
 
-body.dark-mode .level-duration-table td {
+body.dark-mode .level-duration-table td,
+.dark-mode .level-duration-table td {
   border-color: #4a5568;
 }
 
-body.dark-mode .level-duration-table td.campaign-name {
+body.dark-mode .level-duration-table td.campaign-name,
+.dark-mode .level-duration-table td.campaign-name {
   background: #334155;
   border-right-color: #64748b;
 }
 
-body.dark-mode .level-duration-table tbody tr:hover td {
+body.dark-mode .level-duration-table tbody tr:hover td,
+.dark-mode .level-duration-table tbody tr:hover td {
   background-color: rgba(102, 126, 234, 0.2);
 }
 
-body.dark-mode .level-duration-table tbody tr:hover td.campaign-name {
+body.dark-mode .level-duration-table tbody tr:hover td.campaign-name,
+.dark-mode .level-duration-table tbody tr:hover td.campaign-name {
   background-color: rgba(102, 126, 234, 0.25);
 }
 
@@ -451,93 +456,118 @@ body.dark-mode .threat-count {
 
 .player-class-heatmap-table {
   border-collapse: collapse;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   width: 100%;
-  min-width: 800px;
+  background: #ffffff;
 }
 
 .player-class-heatmap-table th,
 .player-class-heatmap-table td {
-  padding: 0.5rem;
+  padding: 0.4rem 0.5rem;
   text-align: center;
   border: 1px solid #e2e8f0;
 }
 
+body.dark-mode .player-class-heatmap-table,
+.dark-mode .player-class-heatmap-table {
+  background: #1e293b;
+}
+
 body.dark-mode .player-class-heatmap-table th,
-body.dark-mode .player-class-heatmap-table td {
+body.dark-mode .player-class-heatmap-table td,
+.dark-mode .player-class-heatmap-table th,
+.dark-mode .player-class-heatmap-table td {
   border-color: #4a5568;
 }
 
 .player-class-heatmap-table thead th {
   background-color: #f7fafc;
   font-weight: 600;
-  position: sticky;
-  top: 0;
-  z-index: 10;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  height: 120px;
+  vertical-align: bottom;
+  padding: 0;
+  position: relative;
 }
 
-body.dark-mode .player-class-heatmap-table thead th {
+.player-class-heatmap-table thead th:first-child {
+  height: auto;
+  padding: 0.4rem 0.5rem;
+  vertical-align: middle;
+}
+
+.player-class-heatmap-table thead th > span {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  display: inline-block;
+  padding: 8px 0;
+}
+
+body.dark-mode .player-class-heatmap-table thead th,
+.dark-mode .player-class-heatmap-table thead th {
   background-color: #2d3748;
   color: #e2e8f0;
 }
 
 .player-class-heatmap-table .player-name {
   text-align: left;
-  font-weight: 500;
+  font-weight: 600;
   white-space: nowrap;
-  background-color: #f7fafc;
-  position: sticky;
-  left: 0;
-  z-index: 5;
+  background-color: #f8f9fa;
+  border-right: 2px solid #cbd5e0;
 }
 
-body.dark-mode .player-class-heatmap-table .player-name {
-  background-color: #2d3748;
+.player-class-heatmap-table tbody tr:hover td {
+  background-color: rgba(102, 126, 234, 0.1);
+}
+
+.player-class-heatmap-table tbody tr:hover td.player-name {
+  background-color: rgba(102, 126, 234, 0.15);
+}
+
+body.dark-mode .player-class-heatmap-table .player-name,
+.dark-mode .player-class-heatmap-table .player-name {
+  background-color: #334155;
   color: #e2e8f0;
+  border-right-color: #64748b;
 }
 
-.player-class-heatmap-table th.rotate {
-  height: 120px;
-  white-space: nowrap;
-  vertical-align: bottom;
-  padding: 0;
+body.dark-mode .player-class-heatmap-table tbody tr:hover td,
+.dark-mode .player-class-heatmap-table tbody tr:hover td {
+  background-color: rgba(102, 126, 234, 0.2);
 }
 
-.player-class-heatmap-table th.rotate > div {
-  transform: translate(0, 0) rotate(-90deg);
-  width: 30px;
-  height: 170%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: -50px;
-}
-
-.player-class-heatmap-table th.rotate > div > span {
-  padding: 2px -25px;
+body.dark-mode .player-class-heatmap-table tbody tr:hover td.player-name,
+.dark-mode .player-class-heatmap-table tbody tr:hover td.player-name {
+  background-color: rgba(102, 126, 234, 0.25);
 }
 
 .player-class-heatmap-table tbody td {
   font-weight: 500;
-  transition: all 0.2s;
+  transition: all 0.15s;
 }
 
 .player-class-heatmap-table tbody td:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   z-index: 10;
   position: relative;
 }
 
+body.dark-mode .player-class-heatmap-table tbody td:hover,
+.dark-mode .player-class-heatmap-table tbody td:hover {
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+}
+
 @media (max-width: 768px) {
   .player-class-heatmap-table {
-    font-size: 0.75rem;
-    min-width: 600px;
+    font-size: 0.7rem;
   }
 
   .player-class-heatmap-table th,
   .player-class-heatmap-table td {
-    padding: 0.3rem;
+    padding: 0.3rem 0.4rem;
   }
 }
 

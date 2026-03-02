@@ -8,6 +8,9 @@
 // Store chart instances to allow cleanup
 const campaignChartInstances = {};
 
+// Cache character data per campaign for re-rendering
+window.campaignDataCache = window.campaignDataCache || {};
+
 // Main initialization function called from statistics.html
 async function initCampaignStats(pathNumber) {
   console.log(`📊 Initializing campaign stats for path ${pathNumber}`);
@@ -19,6 +22,9 @@ async function initCampaignStats(pathNumber) {
     // Filter data for this specific campaign
     const thisCampaignData = campaigns.filter(c => c.nr == pathNumber);
     const thisCharacterData = characters.filter(c => c.path == pathNumber);
+
+    // Cache character data for this campaign
+    window.campaignDataCache[pathNumber] = thisCharacterData;
 
     console.log(`Campaign ${pathNumber}: ${thisCampaignData.length} adventures, ${thisCharacterData.length} characters`);
 
@@ -686,17 +692,33 @@ function renderLevelDuration(pathNumber, thisCharacterData) {
   const maxDays = Math.max(...levelData.map(d => d.avgDays));
   const minDays = Math.min(...levelData.map(d => d.avgDays));
 
+  // Detect dark mode (class is on html element)
+  const isDarkMode = document.documentElement.classList.contains('dark-mode');
+
   // Helper to get color intensity
   const getColorIntensity = (days) => {
     const normalized = (days - minDays) / (maxDays - minDays || 1);
-    const hue = 210; // Blue
-    const lightness = 85 - (normalized * 30); // 85% to 55%
-    return `hsl(${hue}, 80%, ${lightness}%)`;
+
+    if (isDarkMode) {
+      // Dark mode: use cyan to orange gradient that shows well on dark backgrounds
+      const hue = 200 - (normalized * 85); // 200 (cyan) to 115 (yellow-green) to 30 (orange)
+      const saturation = 65 + (normalized * 15); // 65% to 80%
+      const lightness = 35 + (normalized * 15); // 35% to 50%
+      return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+    } else {
+      // Light mode: use lighter backgrounds
+      const hue = 210; // Blue
+      const lightness = 85 - (normalized * 30); // 85% to 55%
+      return `hsl(${hue}, 80%, ${lightness}%)`;
+    }
   };
+
+  // Helper to get text color based on mode
+  const getTextColor = () => isDarkMode ? 'rgba(255, 255, 255, 0.95)' : 'rgba(0, 0, 0, 0.87)';
 
   // Render level cells
   container.innerHTML = levelData.map(d => `
-    <div class="level-cell" style="background-color: ${getColorIntensity(d.avgDays)};" title="Level ${d.level}: ${d.avgDays} avg days (${d.count} character${d.count > 1 ? 's' : ''})">
+    <div class="level-cell" style="background-color: ${getColorIntensity(d.avgDays)}; color: ${getTextColor()};" title="Level ${d.level}: ${d.avgDays} avg days (${d.count} character${d.count > 1 ? 's' : ''})">
       <div class="level-number">L${d.level}</div>
       <div class="level-days">${d.avgDays}d</div>
     </div>
@@ -713,6 +735,20 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!isNaN(pathNumber)) {
       console.log(`Auto-initializing campaign stats for path ${pathNumber}`);
       initCampaignStats(pathNumber);
+    }
+  });
+});
+
+// Re-render level duration when dark mode changes
+window.addEventListener('darkModeChanged', function(event) {
+  console.log('[CAMPAIGN-SPECIFIC] darkModeChanged event received, isDark:', event.detail.isDark);
+  const statsSections = document.querySelectorAll('.campaign-stats-section[data-campaign-path]');
+  console.log('[CAMPAIGN-SPECIFIC] Found sections:', statsSections.length);
+  statsSections.forEach(section => {
+    const pathNumber = parseInt(section.dataset.campaignPath);
+    if (!isNaN(pathNumber) && window.campaignDataCache && window.campaignDataCache[pathNumber]) {
+      console.log('[CAMPAIGN-SPECIFIC] Re-rendering level duration for campaign', pathNumber);
+      renderLevelDuration(pathNumber, window.campaignDataCache[pathNumber]);
     }
   });
 });

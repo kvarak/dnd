@@ -117,13 +117,30 @@ Distribution of levels lived (played) by each class. Shows actual progression ex
 </div>
 
 ## Level Duration Analysis
-Average real-world days spent at each character level across all campaigns. Each row represents a campaign, columns show levels 1-20. Darker colors indicate more time spent at that level.
+Average real-world days spent at each character level across all campaigns. Each row represents a campaign, columns show levels 1-20.
 
 <div class="level-duration-matrix-container">
   <div id="level-duration-matrix"></div>
 </div>
 
 ## Player Statistics
+
+<div class="chart-row">
+  <div class="chart-column">
+    <h4>Campaign Passport</h4>
+    <p class="chart-subtitle">Number of unique campaigns joined per player</p>
+    <div class="chart-container">
+      <canvas id="player-campaign-diversity"></canvas>
+    </div>
+  </div>
+  <div class="chart-column">
+    <h4>Campaign Veterans</h4>
+    <p class="chart-subtitle">Total real-world days played across all campaigns</p>
+    <div class="chart-container">
+      <canvas id="player-tenure"></canvas>
+    </div>
+  </div>
+</div>
 
 <div class="chart-row">
   <div class="chart-column">
@@ -161,7 +178,7 @@ Average real-world days spent at each character level across all campaigns. Each
 
 #### Player's Class Repertoire
 
-Which classes has each player explored? Darker = more characters of that class.
+Which classes has each player explored?
 
 <div id="player-class-heatmap" class="heatmap-container"></div>
 
