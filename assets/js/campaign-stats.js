@@ -1464,6 +1464,35 @@ function renderLevelDurationMatrix(campaignList) {
       avgByLevel[parseInt(lvl)] = Math.round(levelDurations[lvl] / levelCounts[lvl]);
     });
 
+    // Interpolate missing levels (gaps between levels with data)
+    const allLevels = Object.keys(avgByLevel).map(l => parseInt(l)).sort((a, b) => a - b);
+    if (allLevels.length > 0) {
+      const minLvl = allLevels[0];
+      const maxLvl = allLevels[allLevels.length - 1];
+
+      for (let lvl = minLvl; lvl <= maxLvl; lvl++) {
+        if (!avgByLevel[lvl]) {
+          // Find nearest levels with data on both sides
+          let leftLvl = lvl - 1;
+          let rightLvl = lvl + 1;
+
+          while (leftLvl >= minLvl && !avgByLevel[leftLvl]) leftLvl--;
+          while (rightLvl <= maxLvl && !avgByLevel[rightLvl]) rightLvl++;
+
+          if (avgByLevel[leftLvl] && avgByLevel[rightLvl]) {
+            // Interpolate between left and right
+            avgByLevel[lvl] = Math.round((avgByLevel[leftLvl] + avgByLevel[rightLvl]) / 2);
+          } else if (avgByLevel[leftLvl]) {
+            // Only left side available, use it
+            avgByLevel[lvl] = avgByLevel[leftLvl];
+          } else if (avgByLevel[rightLvl]) {
+            // Only right side available, use it
+            avgByLevel[lvl] = avgByLevel[rightLvl];
+          }
+        }
+      }
+    }
+
     campaignLevelData[campaign.nr] = {
       name: campaign.name,
       levels: avgByLevel
