@@ -1630,68 +1630,104 @@ function renderPlayerSurvivalRate() {
   const ctx = document.getElementById('player-survival-rate');
   if (!ctx) return;
 
-  // Calculate survival rate per player across ALL campaigns
+  // Calculate survival stats per player across ALL campaigns
+  // Status codes: 'n' = survived, 'y' = died, 'lost' = lost, '?' = unknown
+  // Show survived + lost as fraction of TOTAL (including dead and unknown)
+  // Dead and unknown characters make bars not reach 100%
   const playerStats = {};
   characterData.forEach(char => {
     const player = char.category || 'Unknown';
     if (!playerStats[player]) {
-      playerStats[player] = { total: 0, survived: 0 };
+      playerStats[player] = { total: 0, survived: 0, lost: 0 };
     }
     playerStats[player].total++;
-    if (char.status === 'n') { // 'n' = survived
+
+    if (char.status === 'n') {
       playerStats[player].survived++;
+    } else if (char.status === 'lost') {
+      playerStats[player].lost++;
     }
+    // 'y' (died) and '?' contribute to total but not to survived or lost counts
   });
 
-  // Calculate percentages and sort
+  // Sort by survival percentage descending (highest % on top)
   const playerRates = Object.entries(playerStats)
     .map(([player, stats]) => ({
       player,
-      rate: (stats.survived / stats.total) * 100,
       survived: stats.survived,
-      total: stats.total
+      lost: stats.lost,
+      total: stats.total,
+      survivedPct: (stats.survived / stats.total) * 100,
+      lostPct: (stats.lost / stats.total) * 100
     }))
-    .sort((a, b) => b.rate - a.rate)
+    .sort((a, b) => b.survivedPct - a.survivedPct)
     .slice(0, 15); // Top 15 players
 
   const labels = playerRates.map(p => p.player);
-  const rates = playerRates.map(p => p.rate);
+  const survivedPct = playerRates.map(p => p.survivedPct);
+  const lostPct = playerRates.map(p => p.lostPct);
   const colors = labels.map(player => window.CampaignData.getPlayerColor(player));
 
   const chart = new Chart(ctx, {
     type: 'bar',
     data: {
       labels: labels,
-      datasets: [{
-        label: 'Survival Rate',
-        data: rates,
-        backgroundColor: colors.map(c => c.replace('0.7', '0.8')),
-        borderColor: colors.map(c => c.replace('0.7', '1')),
-        borderWidth: 2
-      }]
+      datasets: [
+        {
+          label: 'Survived',
+          data: survivedPct,
+          backgroundColor: colors.map(c => c.replace('0.7', '0.8')),
+          borderColor: colors.map(c => c.replace('0.7', '1')),
+          borderWidth: 2
+        },
+        {
+          label: 'Lost',
+          data: lostPct,
+          backgroundColor: colors.map(c => c.replace('0.7', '0.4')),
+          borderColor: colors.map(c => c.replace('0.7', '0.6')),
+          borderWidth: 1
+        }
+      ]
     },
     options: {
       indexAxis: 'y',
       responsive: true,
       maintainAspectRatio: true,
       plugins: {
-        legend: { display: false },
+        legend: {
+          display: true,
+          position: 'top'
+        },
         tooltip: {
           callbacks: {
             label: (context) => {
               const player = playerRates[context.dataIndex];
-              return `${player.rate.toFixed(1)}% (${player.survived}/${player.total} survived)`;
+              const datasetLabel = context.dataset.label;
+              const pct = context.parsed.x.toFixed(1);
+              if (datasetLabel === 'Survived') {
+                return `${datasetLabel}: ${pct}% (${player.survived}/${player.total})`;
+              } else {
+                return `${datasetLabel}: ${pct}% (${player.lost}/${player.total})`;
+              }
             }
           }
         }
       },
       scales: {
         x: {
+          stacked: true,
           beginAtZero: true,
           max: 100,
+          title: {
+            display: true,
+            text: 'Percentage of Total Characters'
+          },
           ticks: {
             callback: (value) => value + '%'
           }
+        },
+        y: {
+          stacked: true
         }
       }
     }
