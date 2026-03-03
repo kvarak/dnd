@@ -1,6 +1,14 @@
 ---
 title: Lizardfolk
 layout: default
+profile:
+  subtypes:
+    blackscale: {}
+    frillneck: {}
+    glider: {}
+    greenscale: {}
+    sandscale: {}
+    treewalker: {}
 ---
 
 <div class="toc" markdown="1">

@@ -1,6 +1,17 @@
 ---
 title: Beastfolk
 layout: default
+profile:
+  subtypes:
+    apefolk: {}
+    ursine: {}
+    catfolk: {}
+    vulpine: {}
+    bullywug: {}
+    grung: {}
+    varkind: {}
+    kunek: {}
+    ratfolk: {}
 ---
 
 <div class="toc" markdown="1">

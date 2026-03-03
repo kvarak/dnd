@@ -29,3 +29,4 @@ trait-analysis.html
 # Generated searchable data
 _data/searchable_*.yml
 _data/archetypes.yml
+_data/folk.yml

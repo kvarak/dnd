@@ -1,6 +1,10 @@
 ---
 title: Dragonfolk
 layout: default
+profile:
+  subtypes:
+    dragonborn: {}
+    kobold: {}
 ---
 
 <div class="toc" markdown="1">

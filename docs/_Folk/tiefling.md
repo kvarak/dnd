@@ -1,6 +1,11 @@
 ---
 title: Tiefling
 layout: default
+profile:
+  subtypes:
+    abyssal: {}
+    infernal: {}
+
 ---
 
 <div class="toc" markdown="1">

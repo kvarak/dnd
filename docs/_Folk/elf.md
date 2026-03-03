@@ -1,6 +1,14 @@
 ---
 title: Elf
 layout: default
+profile:
+  subtypes:
+    eladrin-autumn: {}
+    eladrin-winter: {}
+    eladrin-spring: {}
+    eladrin-summer: {}
+    shadar-kai: {}
+    wood: {}
 ---
 
 <div class="toc" markdown="1">

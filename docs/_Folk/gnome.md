@@ -1,6 +1,11 @@
 ---
 title: Gnome
 layout: default
+profile:
+  subtypes:
+    forest: {}
+    rock: {}
+    deep: {}
 ---
 
 <div class="toc" markdown="1">
