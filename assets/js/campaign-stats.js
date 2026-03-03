@@ -301,6 +301,7 @@ function renderCharts() {
   renderPlayerDeathRate();
   renderPlayerCampaignDiversity();
   renderPlayerClassHeatmap();
+  renderPlayerFolkHeatmap();
 
   // Add event listener for killer detail toggle
   const killerToggle = document.getElementById('killer-detail-toggle');
@@ -2047,7 +2048,8 @@ function renderPlayerClassHeatmap() {
     const charInfo = {
       name: charName,
       path: char.path,
-      classes: classDisplay
+      classes: classDisplay,
+      race: char.race || ''
     };
 
     // Count this character for each of their classes
@@ -2117,7 +2119,127 @@ function renderPlayerClassHeatmap() {
       if (count) {
         const chars = playerClassCharacters[player][cls] || [];
         const charList = chars
-          .map(c => `Path ${c.path}: ${c.name} (${c.classes})`)
+          .map(c => `Path ${c.path}: ${c.name} (${c.classes})${c.race ? ' - ' + c.race : ''}`)
+          .join('\n');
+        title = charList;
+      }
+      html += `<td style="background-color: ${color}; color: ${textColor};" title="${title}">${count || ''}</td>`;
+    });
+    html += '</tr>';
+  });
+
+  html += '</tbody></table>';
+  container.innerHTML = html;
+}
+
+// Render player folk heatmap (Player's Folk Repertoire)
+function renderPlayerFolkHeatmap() {
+  const container = document.getElementById('player-folk-heatmap');
+  if (!container) return;
+
+  // Helper to extract base folk from "FOLK (SUBFOLK)" format
+  const getBaseFolk = (race) => {
+    if (!race) return '';
+    const match = race.match(/^([^(]+)/);
+    return match ? match[1].trim() : race;
+  };
+
+  // Get all unique base folk (without subfolk)
+  const baseFolkSet = new Set();
+  characterData.forEach(c => {
+    if (c.race) baseFolkSet.add(getBaseFolk(c.race));
+  });
+  const allBaseFolk = [...baseFolkSet].sort();
+
+  // Count characters per player per base folk AND collect character details
+  const playerFolkData = {};
+  const playerFolkCharacters = {}; // Store character details
+
+  characterData.forEach(char => {
+    const player = char.category || 'Unknown';
+    const fullRace = char.race;
+    if (!fullRace) return;
+
+    const baseFolk = getBaseFolk(fullRace);
+
+    if (!playerFolkData[player]) {
+      playerFolkData[player] = {};
+      playerFolkCharacters[player] = {};
+    }
+
+    if (!playerFolkData[player][baseFolk]) {
+      playerFolkData[player][baseFolk] = 0;
+      playerFolkCharacters[player][baseFolk] = [];
+    }
+
+    // Store full character details including full race with subfolk
+    const charName = char.shortname || char.name || 'Unknown';
+    const classDisplay = char.class2 ? `${char.class}/${char.class2}` : char.class;
+    const charInfo = {
+      name: charName,
+      path: char.path,
+      classes: classDisplay,
+      race: fullRace
+    };
+
+    playerFolkData[player][baseFolk]++;
+    playerFolkCharacters[player][baseFolk].push(charInfo);
+  });
+
+  // Get top 15 players by total characters
+  const topPlayers = Object.entries(playerFolkData)
+    .map(([player, folk]) => ({
+      player,
+      total: Object.values(folk).reduce((sum, count) => sum + count, 0),
+      folk
+    }))
+    .sort((a, b) => b.total - a.total)
+    .slice(0, 15);
+
+  // Detect dark mode
+  const isDarkMode = document.documentElement.classList.contains('dark-mode');
+
+  // Find max count for color scaling
+  const maxCount = Math.max(...topPlayers.flatMap(p => Object.values(p.folk)));
+
+  // Helper to get color intensity (matching Level Duration Analysis style)
+  const getColorIntensity = (count) => {
+    if (!count) return isDarkMode ? '#334155' : '#f8f9fa'; // Empty cells match first column
+    const normalized = count / maxCount;
+
+    if (isDarkMode) {
+      // Dark mode: cyan to orange heat map
+      const hue = 200 - (normalized * 85); // 200 (cyan) to 30 (orange)
+      const saturation = 65 + (normalized * 15); // 65% to 80%
+      const lightness = 35 + (normalized * 15); // 35% to 50%
+      return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+    } else {
+      // Light mode: blue gradient
+      const hue = 210; // Blue
+      const lightness = 85 - (normalized * 30); // 85% to 55%
+      return `hsl(${hue}, 80%, ${lightness}%)`;
+    }
+  };
+
+  // Build HTML table
+  let html = '<table class="player-folk-heatmap-table"><thead><tr><th>Player</th>';
+  allBaseFolk.forEach(folk => {
+    html += `<th><span>${folk}</span></th>`;
+  });
+  html += '</tr></thead><tbody>';
+
+  const textColor = isDarkMode ? 'rgba(255, 255, 255, 0.95)' : 'rgba(0, 0, 0, 0.87)';
+
+  topPlayers.forEach(({ player, folk }) => {
+    html += `<tr><td class="player-name" style="border-left: 4px solid ${window.CampaignData.getPlayerColor(player).replace('0.7', '1')}">${player}</td>`;
+    allBaseFolk.forEach(f => {
+      const count = folk[f] || 0;
+      const color = getColorIntensity(count);
+      let title = '';
+      if (count) {
+        const chars = playerFolkCharacters[player][f] || [];
+        const charList = chars
+          .map(c => `Path ${c.path}: ${c.name} (${c.classes}) - ${c.race}`)
           .join('\n');
         title = charList;
       }
@@ -2147,5 +2269,11 @@ window.addEventListener('darkModeChanged', function(event) {
   if (typeof characterData !== 'undefined' && characterData.length > 0) {
     console.log('[CAMPAIGN-STATS] Re-rendering Player Class Heatmap');
     renderPlayerClassHeatmap();
+  }
+
+  // Re-render Player Folk Heatmap
+  if (typeof characterData !== 'undefined' && characterData.length > 0) {
+    console.log('[CAMPAIGN-STATS] Re-rendering Player Folk Heatmap');
+    renderPlayerFolkHeatmap();
   }
 });

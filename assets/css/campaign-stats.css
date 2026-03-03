@@ -563,6 +563,101 @@ body.dark-mode .player-class-heatmap-table thead th.obsolete-class > span,
   transition: all 0.15s;
 }
 
+/* Player Folk Heatmap (Player's Folk Repertoire) */
+.player-folk-heatmap-table {
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  width: 100%;
+  background: #ffffff;
+}
+
+.player-folk-heatmap-table th,
+.player-folk-heatmap-table td {
+  padding: 0.4rem 0.5rem;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+}
+
+body.dark-mode .player-folk-heatmap-table,
+.dark-mode .player-folk-heatmap-table {
+  background: #1e293b;
+}
+
+body.dark-mode .player-folk-heatmap-table th,
+body.dark-mode .player-folk-heatmap-table td,
+.dark-mode .player-folk-heatmap-table th,
+.dark-mode .player-folk-heatmap-table td {
+  border-color: #4a5568;
+}
+
+.player-folk-heatmap-table thead th {
+  background-color: #f7fafc;
+  font-weight: 600;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  height: 120px;
+  vertical-align: bottom;
+  padding: 0;
+  position: relative;
+}
+
+.player-folk-heatmap-table thead th:first-child {
+  height: auto;
+  padding: 0.4rem 0.5rem;
+  vertical-align: middle;
+}
+
+.player-folk-heatmap-table thead th > span {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  display: inline-block;
+  padding: 8px 0;
+}
+
+body.dark-mode .player-folk-heatmap-table thead th,
+.dark-mode .player-folk-heatmap-table thead th {
+  background-color: #2d3748;
+  color: #e2e8f0;
+}
+
+.player-folk-heatmap-table .player-name {
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+  background-color: #f8f9fa;
+  border-right: 2px solid #cbd5e0;
+}
+
+.player-folk-heatmap-table tbody tr:hover td {
+  background-color: rgba(102, 126, 234, 0.1);
+}
+
+.player-folk-heatmap-table tbody tr:hover td.player-name {
+  background-color: rgba(102, 126, 234, 0.15);
+}
+
+body.dark-mode .player-folk-heatmap-table .player-name,
+.dark-mode .player-folk-heatmap-table .player-name {
+  background-color: #334155;
+  color: #e2e8f0;
+  border-right-color: #64748b;
+}
+
+body.dark-mode .player-folk-heatmap-table tbody tr:hover td,
+.dark-mode .player-folk-heatmap-table tbody tr:hover td {
+  background-color: rgba(102, 126, 234, 0.2);
+}
+
+body.dark-mode .player-folk-heatmap-table tbody tr:hover td.player-name,
+.dark-mode .player-folk-heatmap-table tbody tr:hover td.player-name {
+  background-color: rgba(102, 126, 234, 0.25);
+}
+
+.player-folk-heatmap-table tbody td {
+  font-weight: 500;
+  transition: all 0.15s;
+}
+
 .player-class-heatmap-table tbody td:hover {
   transform: scale(1.05);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);

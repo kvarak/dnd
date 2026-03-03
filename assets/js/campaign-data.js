@@ -10,8 +10,8 @@
   'use strict';
 
   // Cache configuration
-  const CACHE_KEY = 'campaign_data_v14';
-  const CACHE_TIMESTAMP_KEY = 'campaign_timestamp_v14';
+  const CACHE_KEY = 'campaign_data_v15';
+  const CACHE_TIMESTAMP_KEY = 'campaign_timestamp_v15';
   const CACHE_DURATION = 1 * 60 * 60 * 1000; // 1 hour
 
   // Google Sheets URL
@@ -101,6 +101,7 @@
           end: getDateByColumn(row, charCols, 'end'),
           class: getValueByColumn(row, charCols, 'class') || '',
           class2: getValueByColumn(row, charCols, 'class2') || '',
+          race: getValueByColumn(row, charCols, 'race') || '',
           specialization: getValueByColumn(row, charCols, 'specialization') || '',
           specialization2: getValueByColumn(row, charCols, 'specialization2') || '',
           killer: getValueByColumn(row, charCols, 'killer') || '',

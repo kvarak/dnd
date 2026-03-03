@@ -179,7 +179,12 @@ Average real-world days spent at each character level across all campaigns. Each
 #### Player's Class Repertoire
 
 Which classes has each player explored?
+*Note: Classes marked with * are retired/obsolete and aren't currently available for new characters.*
 
 <div id="player-class-heatmap" class="heatmap-container"></div>
 
-*Note: Classes marked with * are retired/obsolete and aren't currently available for new characters.*
+#### Player's Folk Repertoire
+
+Which folk/races has each player explored?
+
+<div id="player-folk-heatmap" class="heatmap-container"></div>
