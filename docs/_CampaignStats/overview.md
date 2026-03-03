@@ -182,4 +182,4 @@ Which classes has each player explored?
 
 <div id="player-class-heatmap" class="heatmap-container"></div>
 
-*Note: Classes marked with * are retired and may not be available for new characters.*
+*Note: Classes marked with * are retired/obsolete and aren't currently available for new characters.*
