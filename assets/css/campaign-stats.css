@@ -65,13 +65,20 @@ body.dark-mode .quick-nav {
   background: rgba(26, 32, 44, 0.98);
   border-bottom-color: #4a5568;
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  color: #e2e8f0;
 }
 
-body.dark-mode .quick-nav a {
+body.dark-mode .quick-nav strong {
+  color: #e2e8f0;
+}
+
+body.dark-mode .quick-nav a,
+.dark-mode .quick-nav a {
   color: #8b9dff;
 }
 
-body.dark-mode .quick-nav a:hover {
+body.dark-mode .quick-nav a:hover,
+.dark-mode .quick-nav a:hover {
   color: #a5b4fc;
 }
 
@@ -419,21 +426,25 @@ body.dark-mode .level-duration-table tbody tr:hover td.campaign-name,
   margin-top: 0.15rem;
 }
 
-body.dark-mode .threat-card {
+body.dark-mode .threat-card,
+.dark-mode .threat-card {
   background: linear-gradient(135deg, rgba(220, 38, 38, 0.2) 0%, rgba(239, 68, 68, 0.1) 100%);
   border-color: rgba(220, 38, 38, 0.4);
 }
 
-body.dark-mode .threat-card:hover {
+body.dark-mode .threat-card:hover,
+.dark-mode .threat-card:hover {
   border-color: rgba(220, 38, 38, 0.6);
   box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
 }
 
-body.dark-mode .threat-name {
+body.dark-mode .threat-name,
+.dark-mode .threat-name {
   color: #f1f5f9;
 }
 
-body.dark-mode .threat-count {
+body.dark-mode .threat-count,
+.dark-mode .threat-count {
   color: #fca5a5;
 }
 
