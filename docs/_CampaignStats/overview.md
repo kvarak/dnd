@@ -169,7 +169,7 @@ Average real-world days spent at each character level across all campaigns. Each
   </div>
   <div class="chart-column">
     <h4>The Survivor's Club</h4>
-    <p class="chart-subtitle">Character survival rate by player</p>
+    <p class="chart-subtitle">Character survival rate by player.<small>(Lost means that the character could've continued to be played but the player chose to retire them for story reasons, or simply stopped playing.)</small></p>
     <div class="chart-container">
       <canvas id="player-survival-rate"></canvas>
     </div>
