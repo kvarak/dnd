@@ -185,7 +185,7 @@ Starting at 5th level, when an attacker that you can see hits you with an attack
 Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
 
 ### Reliable Talent
-By 11th level, choose two of your known skills. You have refined these skills until they approach perfection. Whenever you make an check with one of them, you may reroll.
+By 11th level, choose two of your known skills. You have refined these skills until they approach perfection. Whenever you fail a check with one of them, you can reroll the die and must use the new roll..
 
 ### Blindsense
 Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 ft of you.
