@@ -1088,6 +1088,8 @@ Some effects require the target to make a saving throw. A target that has failed
 
 You learn the following Low Blows.
 
+ **Bashing Strike**. The target makes a Strength saving throw. If they fail,it is pushed 10 ft in any direction of your choice.
+
  **Blind/Deafen**. The target makes a Wisdom saving throw. If they fail, they are blinded until the end of your next turn, or deafened for up to 1 minute (your choice). If deafened, the target makes a new saving throw at the end of each of its turns to end the effect.
 
  **Hamstring**. The target makes a Strength saving throw. If they fail, their movement speed is reduced by half for 1 minute. The effect ends early if the target regains any missing hit points.
