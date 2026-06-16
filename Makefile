@@ -14,8 +14,11 @@
 .PHONY: help serve build extract extract-archetypes extract-folk clean find-broken-links ci-build update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose validate-profiles validate-questions analyze-question-traits test-class-scoring test-ranking-system
 
 # Docker configuration
+# Works on Mac (Intel & Apple Silicon), Linux, and Windows
+# Uses named volume for gem caching across runs
 DOCKER_IMAGE = dnd-jekyll
 CONTAINER_NAME = dnd-site
+BUNDLE_CACHE = dnd-bundle-cache
 
 # Default: show help
 help:
@@ -63,23 +66,23 @@ build:
 # Extract searchable content (skills, familiars, feats, etc.)
 extract: build extract-archetypes extract-folk
 	@echo "🔍 Extracting searchable content..."
-	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) ruby tools/extract-searchable.rb
+	@docker run --rm -v $(PWD):/srv/jekyll -v $(BUNDLE_CACHE):/usr/local/bundle $(DOCKER_IMAGE) ruby tools/extract-searchable.rb
 
 # Extract archetypes from class files
 extract-archetypes: build
 	@echo "🎭 Extracting archetypes from class files..."
-	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) ruby tools/extract-archetypes.rb
+	@docker run --rm -v $(PWD):/srv/jekyll -v $(BUNDLE_CACHE):/usr/local/bundle $(DOCKER_IMAGE) ruby tools/extract-archetypes.rb
 
 # Extract folk and subtypes from folk files
 extract-folk: build
 	@echo "🌍 Extracting folk and subtypes from folk files..."
-	@docker run --rm -v $(PWD):/srv/jekyll $(DOCKER_IMAGE) ruby tools/extract-folk.rb
+	@docker run --rm -v $(PWD):/srv/jekyll -v $(BUNDLE_CACHE):/usr/local/bundle $(DOCKER_IMAGE) ruby tools/extract-folk.rb
 
 # Start development server (does extract automatically)
 serve: clean build extract
 	@echo "🚀 Starting Jekyll development server..."
 	@echo "📍 http://localhost:4000/dnd/"
-	@docker run --rm --name $(CONTAINER_NAME) -v $(PWD):/srv/jekyll -p 4000:4000 $(DOCKER_IMAGE)
+	@docker run --rm --name $(CONTAINER_NAME) -v $(PWD):/srv/jekyll -v $(BUNDLE_CACHE):/usr/local/bundle -p 4000:4000 $(DOCKER_IMAGE) sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --port 4000 --baseurl /dnd --watch"
 
 # Clean up containers and images
 clean:
