@@ -23,7 +23,7 @@ type: index
 
 The first step when playing is to create a character. All classes and folk can be found in the navigation bar.
 
-<img src='../assets/images/folklineup.png' style='width:70%;padding:20px' />
+<img src='../assets/images/folklineup.png' style='width:70%;padding:20px' alt='https://www.deviantart.com/autumnarchfey/art/Dungeons-and-Dragons-Races-Lineup-954300538' />
 
 <div class="columnsthree">
 
