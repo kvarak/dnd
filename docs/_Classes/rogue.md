@@ -244,7 +244,7 @@ Rogues have many features in common, including their emphasis on perfecting thei
 |:--:|:---|
 | 1st | Bonus Skills |
 | 3rd | Spellcasting, Mage Hand Legerdemain |
-| 9th | Magical Ambush |
+| 9th | Trickster's Ambush |
 | 13th | Versatile Trickster |
 | 17th | Spell Thief |
 
@@ -324,12 +324,12 @@ When you cast *mage hand*, you can make the spectral hand invisible, and you can
 
 * You can stow one object the hand is holding in a container worn or carried by another creature.
 * You can retrieve an object in a container worn or carried by another creature.
-* You can use thieves' tools to pick locks and disarm traps at range.
+* You can use any set of tools that you are proficient with with the hand, including lockpicks.
 
 You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check. In addition, you can use the ***bonus action*** granted by your Cunning Action to control the hand.
 
-### Magical Ambush
-If you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell.
+### Trickster's Ambush
+If you are hidden from a creature when you target it with an Arcane Trickster spell, it has disadvantage on its initial saving throw to resist the effects of that spell
 
 ### Versatile Trickster
 Gain the ability to distract targets with your *mage hand*. As a ***bonus action*** on your turn, you can designate a creature adjacent to the spectral hand. Doing so gives advantage on attack rolls against that creature until the end of the turn.
@@ -362,7 +362,7 @@ Once you use this feature, you can't use it again until you finish a long rest.
 You focus your training on the grim art of death. Those who adhere to this archetype are diverse: hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.
 
 ### Bonus Skills
-When you take this archetype at 1st level, add *Craft - Alchemy* to your class skills and gain 1 skill point to spend on this skill.
+When you take this archetype at 1st level, add *Craft - Alchemy* and *Art - Make-up* to your class skills and gain 1 skill point each for those skills or their prerequisite.
 
 ### Assassinate
 You are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit.
@@ -370,10 +370,10 @@ You are at your deadliest when you get the drop on your enemies. You have advant
 ### Infiltration Expertise
 You can unfailingly create false identities for yourself. You must spend seven days and 25 gp to establish the history, profession, and affiliations for an identity. You can't establish an identity that belongs to someone else. For example, you might acquire appropriate clothing, letters of introduction, and official looking certification to establish yourself as a member of a trading house from a remote city so you can insinuate yourself into the company of other wealthy merchants. Thereafter, if you adopt the new identity as a disguise, other creatures believe you to be that person until given an obvious reason not to.
 
-### Impostor
-Gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms.
+Additionally you get 1 skill point to spend on *Deception* and its prerequisite.
 
-Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any checks you make to avoid detection.
+### Impostor
+Gain 2 skill point to spend on *Deception*.
 
 ### Death Strike
 You become a master of instant death. When you attack and hit a creature that is surprised, it must make a Constitution saving throw (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, double the damage of your attack against the creature.
@@ -1307,7 +1307,7 @@ When you take this archetype at 1st level, gain additional skill point to spend 
 You can use your ***Cunning Action*** to make a *Sleight of hand* check, disarm a trap, open a lock or take the ***item action***.
 
 ### Second-Story Work
-Gain the ability to climb faster than normal; climbing no longer costs you extra movement.
+Gain 2 skill points to spend on *Physique - Climb Wall* and its prerequisites.
 
 In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.
 
