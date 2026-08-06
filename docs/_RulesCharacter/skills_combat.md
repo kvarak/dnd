@@ -637,14 +637,6 @@ Skills and traits only selectable by certain folk.
   </details>
   </details>
 
-  <details><summary>Nimble Kobold</summary>
-  You are exceptionally nimble, even for a kobold.
-
-  You can move through the space of any creature that is of a size larger than you.
-
-  During combat you can take the Disengage or Dash action as a ***bonus action***.
-  </details>
-
   <details><summary>Pickaxe Mastery
 
   &nbsp;&nbsp; *Prerequisite: Club weapon group rank 2*
