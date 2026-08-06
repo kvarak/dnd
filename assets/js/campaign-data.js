@@ -32,7 +32,15 @@
     'rgba(249, 115, 22, 0.7)',   // Orange
     'rgba(20, 184, 166, 0.7)',   // Teal
     'rgba(234, 179, 8, 0.7)',    // Yellow
-    'rgba(239, 68, 68, 0.7)'     // Red
+    'rgba(239, 68, 68, 0.7)',    // Red
+    'rgba(99, 220, 190, 0.7)',   // Mint
+    'rgba(251, 191, 36, 0.7)',   // Amber
+    'rgba(129, 140, 248, 0.7)',  // Indigo
+    'rgba(244, 114, 182, 0.7)',  // Rose
+    'rgba(52, 211, 153, 0.7)',   // Emerald
+    'rgba(251, 146, 60, 0.7)',   // Coral
+    'rgba(167, 243, 208, 0.7)',  // Sage
+    'rgba(196, 181, 253, 0.7)'   // Lavender
   ];
 
   // Global player color cache - consistent across all campaigns
