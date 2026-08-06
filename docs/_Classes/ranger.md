@@ -199,7 +199,7 @@ At 1st level, you swear an oath to protect the world against a particular type o
 <div class="columnstwo">
 
 - #### Favored Archetype
-    Choose one of the following enemy archetypes: warrior, mage, mindless, minion, brute, primordial, trickster, flyer, stalker, fiend, or legend. You have advantage on Wisdom (Perception or Survival) checks to track enemies of that archetype, and you deal an additional 1 damage when you hit them with a weapon attack.
+    Choose one of the enemy archetypes below. You have advantage on Wisdom (Perception or Survival) checks to track enemies of that archetype, and you deal an additional 1 damage when you hit them with a weapon attack.
 
     **Brute**. The enemy has a Strength score of 17 or higher or is of size Large or larger.
 

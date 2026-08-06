@@ -913,7 +913,14 @@ The skill to sow seeds of doubt in a targeted individual's own memory, perceptio
 
 <details><summary>Guile</summary>
 
-The skill to deceive others about your intent, integrity, appearance and reason for being for a long period of time. It enables a character to adopt a disguise or level of confidence, enabling them to spy where they do not belong and even rise within the hierarchy of organizations to which they do not legitimately belong. You have ***Expertise*** when using this skill.
+The skill to deceive others about your intent, integrity, appearance and reason for being for a long period of time. It enables a character to adopt a level of confidence, enabling them to spy where they do not belong and even rise within the hierarchy of organizations to which they do not legitimately belong. You have ***Expertise*** when using this skill.
+</details>
+
+<details><summary>Impostor</summary>
+
+Gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms.
+
+Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have ***Expertise*** on any checks you make to avoid detection.
 </details>
 
 <details><summary>Insert Memory</summary>
@@ -955,6 +962,11 @@ This skill is used when you attempt to influence someone with tact, social grace
 
 Similar to Tact, but you also have ***Expertise*** when attempting to influence a group of people. Examples include negotiating peace between warring tribes or inspiring a crowd of townsfolk.
 </details>
+</details>
+
+<details><summary>Wit</summary>
+
+You are skilled at using humor, clever remarks, and timing to influence others. You have ***Expertise*** when attempting to defuse tension, ingratiate yourself with others, or sway individuals or small groups through jokes, banter, or lighthearted charm. Typical situations include easing a hostile encounter with levity, making yourself likable in social settings, distracting someone with humor, or subtly guiding a conversation through clever quips. This check is often opposed by the target’s Wisdom (Insight), especially if your humor is masking ulterior motives.
 </details>
 </div>
 </details>
@@ -1981,7 +1993,7 @@ Your skill with disguises has reached where you can impersonate others. This wil
 <details><summary>Look Your Best (trait)</summary>
 
 *“Whoever trimmed your beard like that should be hung. Here. Allow me.”*<br>
-After 20 minutes of work, you may grant a 1d6 bonus to a character's next Charisma check, if appripriate, i.e looks can improve it.
+After 20 minutes of work, you may grant a 1d6 bonus to a character's next Charisma check, if appropriate, i.e looks can improve it.
 </details>
 </details>
 
@@ -2454,6 +2466,25 @@ The underground movement, illegal sale and fencing of stolen items, acting as a 
 <details><summary>Streetwise</summary>
 
 You are aware of the subtle signs used in the criminal underworld, and can understand them enough to recognize who you can talk to, who you shouldn’t approach and how to ask for information with a minimal amount of trouble. You have ***Expertise*** on such checks if within a Culture you are familiar with. In addition you know Thieves’ cant.
+
+<details><summary>Clandestine Source (trait)</summary>
+
+You are adept at navigating hidden criminal channels to reach powerful and dangerous figures. Once per settlement, you may spend 1 hour leveraging ciphers, signals and encoded speech (such as Thieves’ Cant) to locate a knowledgeable figure within the underworld (subject to DM approval and settlement size).
+
+To secure an audience, you must approach them alone and make a DC 15 Intelligence or Charisma check (your choice). On a failure, the meeting turns against you; you are reduced to 0 hit point and later regain consciousness in a compromised location somewhere in the settlement. The precise consequences are determined by the DM, but typically leave you injured, disoriented, or otherwise at a disadvantage.
+
+On a success, you are granted a brief audience lasting up to 1 minute, during which you may ask up to five questions. The DM answers each question concisely, typically with a one-word response such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear.” If necessary to avoid misinterpretation, the DM may instead give a short phrase.
+
+Once you use this skill in a settlement, you cannot use it there again for 7 days.
+</details>
+
+<details><summary>Recruit Informant (trait)</summary>
+
+You are skilled at cultivating and maintaining underworld or street-level connections. Once per settlement, you may spend 1 hour seeking out and recruiting a willing humanoid contact such as an urchin, criminal, thief, spy, or other opportunist (subject to DM approval and settlement size).
+This Informant will not fight for you or knowingly endanger themselves, but will loyally gather rumors, news, and secrets within the settlement. During each long rest, your Informant will seek you out and relay any information they have uncovered.
+
+Your Informant remains in your service until dismissed, leaves, or dies. You may not recruit another Informant in the same settlement while one is active there.
+</details>
 </details>
 </div>
 </details>
