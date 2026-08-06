@@ -211,7 +211,7 @@ Many maneuvers enhance an attack in some way. You can use only one maneuver per 
 To use a maneuver, you have to spend ***Superiority***. Most maneuvers require you to spend 2 superiority, some cost only 1, and the action surge maneuver costs 4. The amount of superiority you have per level as shown in the Cavalier table.
 
 #### Superiority Dice
-Some maneuvers have effects based on your superiority die. You start with a d6, and it increases as you level, as shown in the Cavalier table.
+Some maneuvers have effects based on your superiority die. You start with a d4, and it increases as you level, as shown in the Cavalier table.
 
 
 <img src='https://robertrigo.github.io/assets/images/cavalier.png' style='float:right;width:37%;padding:20px' />
