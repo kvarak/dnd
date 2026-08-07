@@ -224,13 +224,13 @@ At 1st level, you swear an oath to protect the world against a particular type o
 - #### Favored Enemy
     You have significant experience studying, tracking, hunting, and even talking to a certain type of enemy commonly encountered in the wilds.
 
-    Choose a type of favored enemy: beasts, fey, humanoids, monstrosities or undead. You gain a +2 bonus to damage with weapon attacks against creatures of the chosen type.
+    Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.
 
-    Additionally, you have advantage on checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
+    You have advantage on checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
 
     When you gain this feature, you also learn one language of your choice, typically one spoken by your favored enemy or creatures associated with it. However, you are free to pick any language you wish to learn.
 
-    This option improves at 3rd and 6th level.
+    This option improves at 6th level.
 
 - #### Favored Foe
     You can mark one creature as your favored enemy for a time: you can cast the *hunter’s mark* spell without expending a spell slot and without requiring concentration a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest.
@@ -309,7 +309,7 @@ At 6th level, you are ready to hunt even deadlier game. Depending on which Sworn
 <div class="columnstwo">
 
 - #### Favored Archetype
-    You can choose either to specialise in an additional enemy archetype or to upgrade an archetype you already specialise in.
+    You can choose either to specialise in an additional enemy archetype (as described in the 1st level feature) or to upgrade an archetype you already specialise in.
 
     **Brute**. Brutes suffer a -2 penalty to attack rolls against you.
 
@@ -330,9 +330,11 @@ At 6th level, you are ready to hunt even deadlier game. Depending on which Sworn
     **Warrior**. You have resistance to damage from nonmagical weapons.
 
 - #### Favored Enemy
-    You may choose a greater favored enemy: aberrations, celestials, constructs, dragons, elementals, fiends, or giants. You gain all the benefits against this chosen enemy that you normally gain against your favored enemy, including an additional language. Your bonus to damage rolls against all your favored enemies increases to +4.
+    You may choose a additional favored enemy. You gain all the benefits against this chosen enemy that you normally gain against your favored enemy, including an additional language.
 
-    Additionally, you have advantage on saving throws against the spells and abilities used by a greater favored enemy.
+    You gain a +2 bonus to damage with weapon attacks against all your favored enemies.
+
+    Additionally, you have advantage on saving throws against the spells and abilities used by a favored enemy.
 
 - #### Favored Foe or Honed Instinct
     You may select a Favored Enemy from any creature type in the 1st level Favored enemy feature. However, you will only gain the benefits described in the 1st level feature.

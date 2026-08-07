@@ -11,7 +11,7 @@
 # - Focus on daily development workflow
 # - Everything works out of the box
 
-.PHONY: help serve build extract extract-archetypes extract-folk clean find-broken-links ci-build update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose validate-profiles validate-questions analyze-question-traits test-class-scoring test-ranking-system
+.PHONY: help serve build extract extract-archetypes extract-folk clean find-broken-links ci-build ci-link-check update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose validate-profiles validate-questions analyze-question-traits test-class-scoring test-ranking-system
 
 # Docker configuration
 # Works on Mac (Intel & Apple Silicon), Linux, and Windows
@@ -100,6 +100,14 @@ find-broken-links:
 ci-build: extract
 	@echo "🏗️  Building for CI/CD..."
 	bundle exec jekyll build --baseurl="/dnd"
+
+# CI internal link check (used by GitHub Actions after ci-build)
+ci-link-check:
+	@echo "🔗 Checking internal links..."
+	bundle exec htmlproofer ./_site \
+		--ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
+		--ignore-files "spells.html,equipment.html" \
+		--disable-external
 
 # Character Creator Data Management
 # Update character creator data from markdown files
