@@ -66,17 +66,6 @@ profile:
 
 <div class="toc" markdown="1">
 
-##### <a href="#internal-pantheons">Pantheons</a>
-<a href="#internal-golarion">Golarion Deities</a><br/>
-<a href="../Folk/dwarf.html#internal-religion">Dwarven Deities <i>(see Dwarf folk)</i></a><br/>
-<a href="../Folk/elf.html#internal-seldarine">Elf Deities <i>(see Elf folk)</i></a><br/>
-<a href="../Folk/gnome.html#internal-gnomeGods">Gnome Deities <i>(see Gnome folk)</i></a><br/>
-<a href="../Folk/halfling.html#internal-halflingGodsMyths">Halfling Deities <i>(see Halfling folk)</i></a><br/>
-<a href="#internal-nonhuman">Other Nonhuman Deities</a><br/>
-<a href="#internal-celtic">Celtic Deities</a><br/>
-<a href="#internal-egyptian">Egyptian Deities</a><br/>
-<a href="#internal-norse">Norse Deities</a><br/>
-
 ##### <a href="#internal-domains">Divine Domains</a>
 <a href="#internal-agricultureDomain">Agriculture Domain</a><br/>
 <a href="#internal-arcanaDomain">Arcana Domain</a><br/>
@@ -127,8 +116,7 @@ The question has long been debated: Does a mortal become a cleric as a consequen
 #### Deity
 One of the most important things to decide is the deity you serve. The Golarion setting hosts a large pantheon of deities, ranging from the all-powerful greater deities to the minor gods and demigods, who are mostly powerful extraplanar creatures. While most deities' followers span cultures and races, some races and intelligent creatures have their own pantheons worshiped primarily within their own ranks.
 
-A description of the most common deities in Golarion, as well in a more generic setting, can be found *<a href="#internal-Pantheons">here</a>.* This also includes the allowed domains for each deity.
-
+A description of the most common deities in Golarion, as well in a more generic setting, can be found *<a href="../WorldFaith/a_pantheons.html">here</a>.* This also includes the allowed domains for each deity.
 
 ## Cleric Class Features
 
@@ -342,155 +330,6 @@ Finally at 20th level, you can call on your deity to intervene on your behalf wh
 4. Your deity merges your being with its own, granting you significant power. You immediately recover all your HP and expended spell slots, and you immediately end any effects on you of your choice. Additionally, your AC increases by an amount equal to your wisdom modifier, and your HP maximum increases by your wisdom modifier times 20. These benefits last for an hour or until your deity decides to end it early.
 
 Once you gain aid from your deity, you can not do so again until 7 days have passed.
-
-
-<h2><a class="internal-link" name="internal-pantheons">Pantheons</a></h2>
-
-<div class="columnsthree">
-
-* <a href="../Folk/dwarf.html#internal-religion">Dwarven Deities <i>(see Dwarf folk)</i></a>
-* <a href="../Folk/elf.html#internal-seldarine">Elf Deities <i>(see Elf folk)</i></a>
-* <a href="../Folk/gnome.html#internal-gnomeGods">Gnome Deities <i>(see Gnome folk)</i></a><br/>
-* <a href="../Folk/halfling.html#internal-halflingGodsMyths">Halfling Deities <i>(see Halfling folk)</i></a><br/>
-* <a href="#internal-Nonhuman">Other Nonhuman Deities</a>
-* <a href="#internal-Celtic">Celtic Deities</a>. Worshiped by nature folk and druids.
-* <a href="#internal-Egyptian">Egyptian Deities</a>. Worshiped by desert folk and in the Osirian region.
-* <a href="#internal-Norse">Norse Deities</a>. Worshiped by northern barbarians.
-
-</div>
-
-<div class="classTable frame" markdown="1">
-
-<h5><a class="internal-link" name="internal-golarion">Golarion Deities</a></h5>
-
-| Deity | Alignment | Portfolio | Domains |
-|:----|:--:|:-----|:----|
-| Erastil | LG | God of farming, hunting, trade, family | Agriculture, Forge, Hunting, Life, Nature, Protection |
-| Iomedae | LG | Goddess of valor, rulership, justice, honor  | Life, Order, War |
-| Torag | LG | God of the forge, protection, strategy | Forge, Order, Protection, Strength, War |
-| Sarenrae | NG | Goddess of the sun, redemption | Life, Light, Repose |
-| Shelyn | NG | Goddess of beauty, art, love, music | Celebration, Charm, Forge, Life |
-| Desna | CG | Goddess of dreams, stars, travelers, luck | Fate, Life, Luck, Ocean |
-| Cayden Cailean |  CG | God of freedom, wine, bravery  | Celebration, Chaos, Charm, Trickery |
-| Abadar |  LN | God of cities, wealth, merchants, law | Balance, Life, Order<br>Balanced Scale of Abadar |
-| Irori | LN | God of history, knowledge, self-perfection | Knowledge, Life, Order, Strength |
-| Gozreh | N | God of nature, weather, the sea  | Nature, Ocean, Survival, Tempest, Winter |
-| Pharasma | N | Goddess of fate, death, prophecy, birth |  Balance, Death, Fate, Life, Repose |
-| Nethys | N | God of magic | Arcana, Knowledge |
-| Gorum | CN | God of strength, battle, weapons | Forge, Life, Strength, War |
-| Calistria | CN | Goddess of trickery, lust, revenge  | Celebration, Charm, Trickery, Vengeance |
-| Asmodeus | LE | God of tyranny, slavery, pride, contracts  | Balance, Fate, Order, Strength, War |
-| Zon-Kuthon | LE | God of envy, pain, darkness, loss  | Death, Order |
-| Urgathoa  | NE | Goddess of gluttony, disease, undeath |  Death, War  |
-| Norgorber  | NE | God of greed, secrets, poison, murder  | Death, Hunting, Knowledge, Trickery |
-| Lamashtu  | CE | Goddess of madness, monsters, nightmares | Chaos, Death, Hunting, Survival, Trickery |
-| Rovagug  | CE | God of wrath, disaster, destruction | Death, Desert, Strength, Tempest, War |
-
-</div>
-
-<div class="classTable frame" markdown="1">
-<h5><a class="internal-link" name="internal-nonhuman">Other Nonhuman Deities</a></h5>
-
-| Deity | Alignment | Portfolio | Domains |
-|:----|:--:|:-----|:----|
-| Bahamut | LG | Dragon god of good | Arcana, Life, Order, War
-| Eadro | N | Merfolk god of the sea | Nature, Ocean, Tempest
-| Semuanya | N | Lizardfolk deity of survival | Hunting, Life, Protection, Strength, Survival
-| Skoraeus Stonebones | N | Stone giant god of knowledge and  art | Fate, Forge, Knowledge
-
-
-</div>
-
-<h3><a class="internal-link" name="internal-celtic">Celtic Deities</a></h3>
-
-It's said that something wild lurks in the heart of every soul, a space that thrills to the sound of geese calling at night, to the whispering wind through the pines, to the unexpected red of mistletoe on an oak - and it is in this space that the Celtic gods dwell.
-
-They sprang from the brook and stream, their might heightened by the strength of the oak and the beauty of the woodlands and open moor. When the first forester dared put a name to the face seen in the bole of a tree or the voice babbling in a brook, these gods forced themselves into  being.
-
-The Celtic gods are as often served by druids as by clerics, for they are closely aligned with the forces of nature that druids revere.
-
-<div class="classTable frame" markdown="1">
-
-| Deity | Alignment | Portfolio | Domains |
-|:----|:--:|:-----|:----|
-| The Daghdha | CG | God of weather and crops | Agriculture, Nature, Tempest, Trickery, Winter
-| Arawn | NE | God of life and death | Death, Fate, Life, Repose
-| Belenus | NG | God of sun, light and warmth | Desert, Light
-| Brigantia | NG | Goddess of rivers and livestock | Agriculture, Life, Ocean
-| Diancecht | LG | God of medicine and healing | Life, Nature
-| Dunatis | N | God of mountains and peaks | Nature, Survival
-| Goibhniu | NG | God of smiths and healing | Forge, Knowledge, Life
-| Lugh | CN | God of arts, travel and commerce | Celebration, Forge, Knowledge, Life
-| Manannan mac Lir | LN | God of oceans and sea creatures | Nature, Ocean, Tempest
-| Math Mathonwy | NE | God of magic | Arcana, Fate, Knowledge
-| Morrigan | CE | Goddess of battle | Strength, War
-| Nuada | N | God of war and warriors | Forge, Strength, War
-| Oghma | NG | God of speech and writing | Arcana, Knowledge
-| Silvanus | N | God of nature and forests | Nature, Survival
-
-</div>
-
-<h3><a class="internal-link" name="internal-egyptian">Egyptian Deities</a></h3>
-
-These gods are a young dynasty of an ancient divine family, heirs to the rulership of the cosmos and the maintenance of the divine principle of Ma'at - the fundamental order of truth, justice, law, and order that puts gods, mortal pharaohs, and ordinary men and women in their logical and rightful place in the universe.
-
-The Egyptian pantheon is unusual in having three gods with the Death domain of different alignments. Anubis is the lawful neutral god of the afterlife, who judges the souls of the dead. Set is a chaotic evil god of murder, perhaps best known for killing his brother Osiris. And Nephthys is a chaotic good goddess of mourning. Thus, although most clerics of the Death domain are villainous characters, clerics who serve Anubis or Nephthys need not be.
-
-<div class="classTable frame" markdown="1">
-
-| Deity | Alignment | Portfolio | Domains |
-|:----|:--:|:-----|:----|
-| Re-Horakhty | LG | God of the sun, ruler of the gods | Balance, Desert, Life, Light, Order
-| Anubis | LN | God of judgment and death | Balance, Death, Order, Repose, Time
-| Apep | NE | God of evil, fire and serpents | Desert, Trickery
-| Bast | CG | Goddess of cats and vengeance | Hunting, Vengeance, War
-| Bes | CN | God of luck and music | Celebration, Luck, Trickery
-| Hathor | NG | Goddess of love, music and motherhood | Celebration, Charm, Life, Light, Protection
-| Imhotep | NG | God of crafts and medicine | Forge, Knowledge
-| Isis | NG | Goddess of fertility and magic | Arcana, Knowledge, Life
-| Nephthys | CG | Goddess of death and grief | Death, Repose
-| Osiris | LG | God of nature and the underworld | Hunting, Life, Nature, Repose, Survival
-| Ptah | LN | God of crafts, knowledge and secrets | Arcana, Fate, Forge, Knowledge
-| Set | CE | God of darkness and desert storms | Death, Desert, Tempest, Trickery
-| Sobek | LE | God of water and crocodiles | Nature, Ocean, Survival,Tempest
-| Thoth | N | God of knowledge and wisdom | Arcana, Knowledge
-
-</div>
-
-<h3><a class="internal-link" name="internal-norse">Norse Deities</a></h3>
-
-Where the land plummets from the snowy hills into the icy fjords below, where the longboats draw up on to the beach, where the glaciers flow forward and retreat with every fall and spring - this is the land of the Vikings, the home of the Norse pantheon. It's a brutal clime, and one that calls for brutal living. The warriors of the land have had to adapt to the harsh conditions in order to survive, but they haven't been too twisted by the needs of their environment. Given the necessity of raiding for food and wealth, it's surprising the mortals turned out as well as they did.
-
-Their powers reflect the need these warriors had for strong leadership and decisive action. Thus, they see their deities in every bend of a river, hear them in the crash of the thunder and the booming of the glaciers, and smell them in the smoke of a burning longhouse.
-
-The Norse pantheon includes two main families, the Aesir (deities of war and destiny) and the Vanir (gods of fertility and prosperity). Once enemies, these two families are now closely allied against their common enemies, the giants (including the gods Surtur and Thrym). Like the gods of Greyhawk, gods in different families sometimes have overlap in their spheres of influence: Frey (of the Vanir) and Odur (of the Aesir) are both associated with the sun, for example.
-
-<div class="classTable frame" markdown="1">
-
-| Deity | Alignment | Portfolio | Domains |
-|:----|:--:|:-----|:----|
-| Odin | NG | God of knowledge and war | Fate, Knowledge, Order, Strength, War
-| Aegir | NE | God of the sea and storms | Ocean, Tempest, Winter
-| Balder | NG | God of beauty and poetry | Charm, Life, Light
-| Forseti | N | God of justice and law | Balance, Light
-| Frey | NG | God of fertility and the sun | Agriculture, Life, Light
-| Freya | NG | Goddess of fertility and love | Charm, Life
-| Frigga | N | Goddess of birth and fertility | Agriculture, Celebration, Life, Light, Protection
-| Heimdall | LG | God of watchfulness and loyalty | Light, Order, War
-| Hel | NE | Goddess of the underworld | Death, Repose
-| Hermod | CN | God of luck | Chaos, Fate, Luck, Trickery
-| Loki | CE | God of thieves and trickery | Chaos, Trickery
-| Njord | NG | God of sea and wind | Nature, Ocean, Tempest
-| Odur | CG | God of light and the sun | Desert, Light
-| Sif | CG | Goddess of war | Forge, Strength, War
-| Skadi | N | God of earth and mountains | Forge, Nature, Survival
-| Surtur | LE | God of fire giants and war | Forge, Order, Strength, War
-| Thor | CG | God of storms and thunder | Strength, Survival, Tempest, War
-| Thrym | CE | God of frost giants and cold | Survival, War, Winter
-| Tyr | LN | God of courage and strategy | Knowledge, War
-| Uller | CN | God of hunting and winter | Hunting, Nature, Survival, Winter
-
-</div>
 
 <h2><a class="internal-link" name="internal-domains">Divine Domains</a></h2>
 
@@ -2252,4 +2091,3 @@ Those who drive hard bargains and search for lost treasures sometimes bite off m
 You can create a one-way portal through the First Vault, which has one of two effects. First, you may use the portal as if it were a *teleport* spell. Second, you may use the portal as if you were casting *word of recall*, but instead of returning to a sanctuary, you always returns to the closest active temple of Abadar.
 
 You can do this once, and this use recovers when you finish a long rest.
-

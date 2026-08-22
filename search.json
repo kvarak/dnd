@@ -88,7 +88,7 @@ layout: none
 {% for patron in site.data.searchable_warlock_patrons %}
   {
     "title": {{ patron.name | jsonify }},
-    "url": "{{ site.baseurl }}/Resources/warlockpatrons.html#{{ patron.anchor }}",
+    "url": "{{ site.baseurl }}/WorldFaith/warlockpatrons.html#{{ patron.anchor }}",
     "collection": "warlock-patrons",
     "content": {{ patron.description | jsonify }}
   }{% if forloop.last %}{% if site.data.searchable_splinter_religions.size > 0 %},{% endif %}{% else %},{% endif %}
@@ -98,7 +98,7 @@ layout: none
 {% for religion in site.data.searchable_splinter_religions %}
   {
     "title": {{ religion.name | jsonify }},
-    "url": "{{ site.baseurl }}/Resources/splinter-religions.html#{{ religion.anchor }}",
+    "url": "{{ site.baseurl }}/WorldFaith/splinter-religions.html#{{ religion.anchor }}",
     "collection": "splinter-religions",
     "content": {{ religion.description | jsonify }}
   }{% if forloop.last %}{% if site.data.searchable_pantheons.size > 0 %},{% endif %}{% else %},{% endif %}
@@ -108,7 +108,7 @@ layout: none
 {% for deity in site.data.searchable_pantheons %}
   {
     "title": {{ deity.name | jsonify }},
-    "url": "{{ site.baseurl }}/Classes/cleric.html#{{ deity.anchor }}",
+    "url": "{{ site.baseurl }}/WorldFaith/a_pantheons.html#{{ deity.anchor }}",
     "collection": "pantheons",
     "content": {{ deity.description | jsonify }}
   }{% unless forloop.last %},{% endunless %}

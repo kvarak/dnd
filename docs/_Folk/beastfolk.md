@@ -945,9 +945,9 @@ Kunek society is highly rigid and structured, with a hierarchical collective lea
 Although kunek are not aggressive by nature, they will fiercely defend their warrens against attack and have occasionally even been known to go to war with neighboring warrens.
 
 #### Religion
-The kunek religion characterizes the sun as Frith, a benign creator-god. The moon is Inlé, a land of darkness and the realm of the Black Rabbit of Inlé, the god of death.
+Kunek religion prizes wisdom, cunning and caution as virtues, believing if one uses their gifts to the utmost, they will leave a lasting legacy upon the world in the form of friendships and children that will echo throughout the ages.
 
-But by far the most important figure in the kunek pantheon is El-ahrairah, the Prince with a Thousand Enemies, a trickster god who favors the form of a rabbit, and who is considered the ancestor of the kunek race. Their religion prizes wisdom, cunning and caution as virtues, believing if one uses their gifts to the utmost, they will leave a lasting legacy upon the world in the form of friendships and children that will echo throughout the ages.
+They worship a trinity of deities, of which a description can be found *<a href="../WorldFaith/a_pantheons.html#nonhuman">here</a>*.
 
 #### Kunek Names
 Kunek have two names. Their first name is usually taken from human or halfling cultures in their geographical areas, whilst their family names take inspiration from the environment and the deeds of their ancestors—their family names are fluid and prone to change every few generations, whether from changing reputations, a new deed, or settling in a new area.
@@ -1290,4 +1290,3 @@ There are a lot of similarities in how the different beastfolk approach characte
     <hr class="dividerinfolk">
 
 </div>
-

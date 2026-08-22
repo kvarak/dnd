@@ -23,6 +23,12 @@
   - header: "Different folk"
     folder: "Folk"
 
+- header: "World"
+  subheads: true
+  subheaders:
+    - header: "Faith & Greater beings"
+      folder: WorldFaith
+
 - header: "Resources"
   subheads: true
   subheaders:
@@ -46,4 +52,3 @@
     folder: "RulesEquipment"
   - header: "Specific Rules"
     folder: "RulesExtra"
-
