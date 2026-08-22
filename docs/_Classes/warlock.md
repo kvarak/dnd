@@ -353,7 +353,7 @@ The beings that serve as patrons for warlocks are mighty inhabitants of other pl
 
 Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.
 
-Some of the patrons are described very generally, but that only means that the powers granted are very similar between the being of that type. You have still set up your contract with one  specific being. If you need inspiration for a patron, or roll one randomly, there is a list <a href="../Resources/warlockpatrons.html">HERE</a>.
+Some of the patrons are described very generally, but that only means that the powers granted are very similar between the being of that type. You have still set up your contract with one  specific being. If you need inspiration for a patron, or roll one randomly, there is a list <a href="../WorldFaith/warlockpatrons.html">HERE</a>.
 
 <div class="columnstwo">
 

@@ -57,5 +57,7 @@ collections:
     output: true
   Specific:
     output: true
+  WorldFaith:
+    output: true
   _OldRules:
     output: true

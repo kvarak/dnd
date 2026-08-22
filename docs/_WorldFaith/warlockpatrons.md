@@ -3,23 +3,23 @@ title: Warlock Patrons
 layout: default
 ---
 
-
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### Otherworldly Patrons
 
-|       |   |
-|:-----:|:- |
-| **1** | <a href="#demon">Demons</a> |
-| **2** | <a href="#devil">Devils</a> |
+|       |                                          |
+| :---: | :--------------------------------------- |
+| **1** | <a href="#demon">Demons</a>              |
+| **2** | <a href="#devil">Devils</a>              |
 | **3** | <a href="#natural">The Natural World</a> |
-| **4** | <a href="#outerRealms">Outer Realms</a> |
-| **5** | <a href="#undead">Undead</a> |
-| **6** | <a href="#other">Other</a> |
+| **4** | <a href="#outerRealms">Outer Realms</a>  |
+| **5** | <a href="#undead">Undead</a>             |
+| **6** | <a href="#other">Other</a>               |
 
 </div>
 
 # Warlock Patrons
+
 The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence - not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return.
 
 Some patrons collect warlocks, doling out mystic knowledge relatively freely or boasting of their ability to bind mortals to their will. Other patrons bestow their power only grudgingly, and might make a pact with only one warlock. Warlocks who serve the same patron might view each other as allies, siblings, or rivals.
@@ -27,35 +27,36 @@ Some patrons collect warlocks, doling out mystic knowledge relatively freely or 
 Use the list of patrons to choose from, randomly select, or just to take inspiration from.
 
 ## <a name="demon">Demons</a>
+
 You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet, as well as demons far below the lords in the demonic hierarchy.
 
 <div class="columnstwo">
 
 -   <div class="block classTable frame" markdown="1">
 
-    | Roll | Name | Pact |
-    |:-:|:-|:-|
-    | 1 | <a href="#abraxas">Abraxas, Master of the Final Incantation</a> | Abraxas |
-    | 2 | <a href="#aldinach">Aldinach, She of the Six Venoms</a> | Fiend / Pharaoh |
-    | 3 | <a href="#andirifkhu">Andirifkhu, The Razor Princess</a> | Fiend / Pharaoh |
-    | 4 | <a href="#areshkagal">Areshkagal, The Faceless Sphinx</a> | Fiend / Pharaoh |
-    | 5 | <a href="#baphomet">Baphomet, Lord of the Minotaurs</a> | Fiend |
-    | 6 | <a href="#codricuhn">Codricuhn, the Blood Storm</a> | Fiend |
-    | 7 | <a href="#cyth-vsug">Cyth-V'sug, Prince of the Blasted Heath</a> | Fiend / Great old one |
-    | 8 | <a href="#dagon">Dagon, Lord of Shadowsea</a> | Dagon |
-    | 9 | <a href="#doresain">Doresain, the King of Ghouls</a> | Fiend / Undead |
-    | 10 | <a href="#haagenti">Haagenti, The Whispers Within</a> | Fiend |
-    | 11 | <a href="#jezelda">Jezelda, Mistress of the Hungry Moon</a> | Fiend |
-    | 12 | <a href="#jubilex">Jubilex, The Faceless Lord</a> | Jubilex |
-    | 13 | <a href="#kabriri">Kabriri, He Who Gnaws</a> | Dead king / Fiend |
-    | 14 | <a href="#mestama">Mestama, The Mother of Witches</a> | Fiend / Crone |
-    | 15 | <a href="#nocticula">Nocticula, Our Lady in Shadow</a> | Fiend / Seducer |
-    | 16 | <a href="#orcus">Orcus, Prince of Undeath</a> | Fiend / Undead |
-    | 17 | <a href="#pazuzu">Pazuzu, King of the Wind Demons</a> | Fiend |
-    | 18 | <a href="#shax">Shax, The Blood Marquis</a> | Fiend |
-    | 19 | <a href="#sifkesh">Sifkesh, The Sacred Whore</a> | Fiend / Seducer |
-    | 20 | <a href="#urxehl">Urxehl, Trollfather</a> | Fiend |
-    | 21 | <a href="#zura">Zura, The Vampire Queen</a> | Fiend / Vampire |
+    | Roll  | Name                                                             | Pact                  |
+    | :---: | :--------------------------------------------------------------- | :-------------------- |
+    |   1   | <a href="#abraxas">Abraxas, Master of the Final Incantation</a>  | Abraxas               |
+    |   2   | <a href="#aldinach">Aldinach, She of the Six Venoms</a>          | Fiend / Pharaoh       |
+    |   3   | <a href="#andirifkhu">Andirifkhu, The Razor Princess</a>         | Fiend / Pharaoh       |
+    |   4   | <a href="#areshkagal">Areshkagal, The Faceless Sphinx</a>        | Fiend / Pharaoh       |
+    |   5   | <a href="#baphomet">Baphomet, Lord of the Minotaurs</a>          | Fiend                 |
+    |   6   | <a href="#codricuhn">Codricuhn, the Blood Storm</a>              | Fiend                 |
+    |   7   | <a href="#cyth-vsug">Cyth-V'sug, Prince of the Blasted Heath</a> | Fiend / Great old one |
+    |   8   | <a href="#dagon">Dagon, Lord of Shadowsea</a>                    | Dagon                 |
+    |   9   | <a href="#doresain">Doresain, the King of Ghouls</a>             | Fiend / Undead        |
+    |  10   | <a href="#haagenti">Haagenti, The Whispers Within</a>            | Fiend                 |
+    |  11   | <a href="#jezelda">Jezelda, Mistress of the Hungry Moon</a>      | Fiend                 |
+    |  12   | <a href="#jubilex">Jubilex, The Faceless Lord</a>                | Jubilex               |
+    |  13   | <a href="#kabriri">Kabriri, He Who Gnaws</a>                     | Dead king / Fiend     |
+    |  14   | <a href="#mestama">Mestama, The Mother of Witches</a>            | Fiend / Crone         |
+    |  15   | <a href="#nocticula">Nocticula, Our Lady in Shadow</a>           | Fiend / Seducer       |
+    |  16   | <a href="#orcus">Orcus, Prince of Undeath</a>                    | Fiend / Undead        |
+    |  17   | <a href="#pazuzu">Pazuzu, King of the Wind Demons</a>            | Fiend                 |
+    |  18   | <a href="#shax">Shax, The Blood Marquis</a>                      | Fiend                 |
+    |  19   | <a href="#sifkesh">Sifkesh, The Sacred Whore</a>                 | Fiend / Seducer       |
+    |  20   | <a href="#urxehl">Urxehl, Trollfather</a>                        | Fiend                 |
+    |  21   | <a href="#zura">Zura, The Vampire Queen</a>                      | Fiend / Vampire       |
 
     </div>
 
@@ -125,18 +126,18 @@ You have made a pact with a fiend from the lower planes of existence, a being wh
 
 -   <div class="block classTable frame" markdown="1">
 
-    | Roll | Name | Pact |
-    |:----:|:-----|:-----|
-    | 1 | <a href="#asmodeus">Asmodeus</a> | Fiend |
-    | 2 | <a href="#dispater">Dispater</a> | Dispater |
-    | 3 | <a href="#ebe">Ebe', the Ancestors' Keeper</a> | Fiend |
-    | 4 | <a href="#general-garruk">General Garruk, 9th Baatorian Division</a> | Fiend |
-    | 5 | <a href="#hesperia">Hesperia, The Serpent Empress</a> | Serpent Empress |
-    | 6 | <a href="#the-ironclad">The Ironclad</a> | Fiend |
-    | 7 | <a href="#levistus">Levistus, Lord of the Fifth</a> | Levistus |
-    | 8 | <a href="#luxerovax">Luxerovax, the Draconic Duke</a> | Fiend / Ancient Dragon |
-    | 9 | <a href="#quainn-the-imp">Quainn the Imp</a> | Fiend |
-    | 10 | <a href="#zierden">Zier'den</a> | Fiend |
+    | Roll  | Name                                                                 | Pact                   |
+    | :---: | :------------------------------------------------------------------- | :--------------------- |
+    |   1   | <a href="#asmodeus">Asmodeus</a>                                     | Fiend                  |
+    |   2   | <a href="#dispater">Dispater</a>                                     | Dispater               |
+    |   3   | <a href="#ebe">Ebe', the Ancestors' Keeper</a>                       | Fiend                  |
+    |   4   | <a href="#general-garruk">General Garruk, 9th Baatorian Division</a> | Fiend                  |
+    |   5   | <a href="#hesperia">Hesperia, The Serpent Empress</a>                | Serpent Empress        |
+    |   6   | <a href="#the-ironclad">The Ironclad</a>                             | Fiend                  |
+    |   7   | <a href="#levistus">Levistus, Lord of the Fifth</a>                  | Levistus               |
+    |   8   | <a href="#luxerovax">Luxerovax, the Draconic Duke</a>                | Fiend / Ancient Dragon |
+    |   9   | <a href="#quainn-the-imp">Quainn the Imp</a>                         | Fiend                  |
+    |  10   | <a href="#zierden">Zier'den</a>                                      | Fiend                  |
 
     </div>
 
@@ -175,31 +176,31 @@ Your patron is a creature from this world. It might be found deep into the wild,
 
 -   <div class="block classTable frame" markdown="1">
 
-    | Roll | Name | Pact |
-    |:-:|:-|:-|
-    | 1 | <a href="#the-ancient-dragon">The Ancient Dragon</a> | Ancient dragon |
-    | 2 | <a href="#angrboda">Angrboda</a> | Crone |
-    | 3 | <a href="#baba-yaga">Baba Yaga</a> | Crone |
-    | 4 | <a href="#coyote">Coyote</a> | Archfey |
-    | 5 | <a href="#the-feasting-lord">The Feasting Lord</a> | Archfey |
-    | 6 | <a href="#gambrinus-and-ninkasi">Gambrinus and Ninkasi</a> | Archfey |
-    | 7 | <a href="#hyrsam">Hyrsam</a> | Archfey |
-    | 8 | <a href="#kris-kringle">Kris Kringle, the Winter King</a> | Archfey |
-    | 9 | <a href="#the-lady-of-the-lake">The Lady of the Lake</a> | Archfey |
-    | 10 | <a href="#lurue">Lurue, the Unicorn Queen</a> | Archfey |
-    | 11 | <a href="#lusus-the-gatekeeper">Lusus the Gatekeeper</a> | Archfey |
-    | 12 | <a href="#the-norns">The Norns, Weavers of Fate</a> | Archfey |
-    | 13 | <a href="#oberon">Oberon</a> | Oberon |
-    | 14 | <a href="#old-redbark">Old Redbark</a> | Archfey |
-    | 15 | <a href="#the-prince-of-frost">The Prince of Frost</a> | Archfey |
-    | 16 | <a href="#puck">Puck</a> | Archfey |
-    | 17 | <a href="#the-queen-of-air-and-darkness">The Queen of Air and Darkness</a> | Archfey |
-    | 18 | <a href="#rougarou">Rougarou</a> | Archfey |
-    | 19 | <a href="#the-sandman">The Sandman</a> | Archfey / Great old one |
-    | 20 | <a href="#sanguinor">Sanguinor</a> | Archfey |
-    | 21 | <a href="#the-sea-lord">The Sea Lord</a> | Sea lord |
-    | 22 | <a href="#tinkerbell">Tinkerbell</a> | Archfey |
-    | 23 | <a href="#titania">Titania</a> | Archfey |
+    | Roll  | Name                                                                       | Pact                    |
+    | :---: | :------------------------------------------------------------------------- | :---------------------- |
+    |   1   | <a href="#the-ancient-dragon">The Ancient Dragon</a>                       | Ancient dragon          |
+    |   2   | <a href="#angrboda">Angrboda</a>                                           | Crone                   |
+    |   3   | <a href="#baba-yaga">Baba Yaga</a>                                         | Crone                   |
+    |   4   | <a href="#coyote">Coyote</a>                                               | Archfey                 |
+    |   5   | <a href="#the-feasting-lord">The Feasting Lord</a>                         | Archfey                 |
+    |   6   | <a href="#gambrinus-and-ninkasi">Gambrinus and Ninkasi</a>                 | Archfey                 |
+    |   7   | <a href="#hyrsam">Hyrsam</a>                                               | Archfey                 |
+    |   8   | <a href="#kris-kringle">Kris Kringle, the Winter King</a>                  | Archfey                 |
+    |   9   | <a href="#the-lady-of-the-lake">The Lady of the Lake</a>                   | Archfey                 |
+    |  10   | <a href="#lurue">Lurue, the Unicorn Queen</a>                              | Archfey                 |
+    |  11   | <a href="#lusus-the-gatekeeper">Lusus the Gatekeeper</a>                   | Archfey                 |
+    |  12   | <a href="#the-norns">The Norns, Weavers of Fate</a>                        | Archfey                 |
+    |  13   | <a href="#oberon">Oberon</a>                                               | Oberon                  |
+    |  14   | <a href="#old-redbark">Old Redbark</a>                                     | Archfey                 |
+    |  15   | <a href="#the-prince-of-frost">The Prince of Frost</a>                     | Archfey                 |
+    |  16   | <a href="#puck">Puck</a>                                                   | Archfey                 |
+    |  17   | <a href="#the-queen-of-air-and-darkness">The Queen of Air and Darkness</a> | Archfey                 |
+    |  18   | <a href="#rougarou">Rougarou</a>                                           | Archfey                 |
+    |  19   | <a href="#the-sandman">The Sandman</a>                                     | Archfey / Great old one |
+    |  20   | <a href="#sanguinor">Sanguinor</a>                                         | Archfey                 |
+    |  21   | <a href="#the-sea-lord">The Sea Lord</a>                                   | Sea lord                |
+    |  22   | <a href="#tinkerbell">Tinkerbell</a>                                       | Archfey                 |
+    |  23   | <a href="#titania">Titania</a>                                             | Archfey                 |
 
     </div>
 
@@ -270,26 +271,26 @@ Your patron is a mysterious entity whose nature is utterly foreign to the fabric
 
 -   <div class="block classTable frame" markdown="1">
 
-    | Roll | Name | Pact |
-    |:-:|:-|:-|
-    | 1 | <a href="#aloth-zanoth-the-eternal-sleeper">Aloth-Zanoth the Eternal Sleeper</a> | Great old one |
-    | 2 | <a href="#the-blue">The Blue</a> | Great old one |
-    | 3 | <a href="#caracal">Caracal</a> | Great old one |
-    | 4 | <a href="#dendar">Dendar, the Night Serpent</a> | Great old one / Monstrosity |
-    | 5 | <a href="#drokan-the-unknown">Drokan the Unknown</a> | Fiend / Great old one |
-    | 6 | <a href="#ghaunadar">Ghaunadar</a> | Great old one |
-    | 7 | <a href="#lavos">Lavos</a> | Great old one |
-    | 8 | <a href="#the-man-in-the-moon">The Man in the Moon</a> | Great old one |
-    | 9 | <a href="#moander">Moander</a> | Great old one |
-    | 10 | <a href="#the-necronomicon">The Necronomicon</a> | Great old one |
-    | 11 | <a href="#polaris">Polaris, the North Star</a> | Great old one |
-    | 12 | <a href="#primus">Primus, the Engine of Extinction</a> | Cosmic machine |
-    | 13 | <a href="#the-eternal-citadel">The Eternal Citadel</a> | Eternal Citadel |
-    | 14 | <a href="#the-tarrasque">The Tarrasque</a> | Monstrosity |
-    | 15 | <a href="#the-voice-in-the-deep">The Voice in the Deep</a> | Great old one / Sea lord |
-    | 16 | <a href="#zargon">Zargon</a> | Great old one |
-    | 17 | <a href="#ziltoid-the-omniscient">Ziltoid the Omniscient</a> | Great old one |
-    | 18 | <a href="#the-shadowcat">The Shadowcat</a> | Shadowcat |
+    | Roll  | Name                                                                             | Pact                        |
+    | :---: | :------------------------------------------------------------------------------- | :-------------------------- |
+    |   1   | <a href="#aloth-zanoth-the-eternal-sleeper">Aloth-Zanoth the Eternal Sleeper</a> | Great old one               |
+    |   2   | <a href="#the-blue">The Blue</a>                                                 | Great old one               |
+    |   3   | <a href="#caracal">Caracal</a>                                                   | Great old one               |
+    |   4   | <a href="#dendar">Dendar, the Night Serpent</a>                                  | Great old one / Monstrosity |
+    |   5   | <a href="#drokan-the-unknown">Drokan the Unknown</a>                             | Fiend / Great old one       |
+    |   6   | <a href="#ghaunadar">Ghaunadar</a>                                               | Great old one               |
+    |   7   | <a href="#lavos">Lavos</a>                                                       | Great old one               |
+    |   8   | <a href="#the-man-in-the-moon">The Man in the Moon</a>                           | Great old one               |
+    |   9   | <a href="#moander">Moander</a>                                                   | Great old one               |
+    |  10   | <a href="#the-necronomicon">The Necronomicon</a>                                 | Great old one               |
+    |  11   | <a href="#polaris">Polaris, the North Star</a>                                   | Great old one               |
+    |  12   | <a href="#primus">Primus, the Engine of Extinction</a>                           | Cosmic machine              |
+    |  13   | <a href="#the-eternal-citadel">The Eternal Citadel</a>                           | Eternal Citadel             |
+    |  14   | <a href="#the-tarrasque">The Tarrasque</a>                                       | Monstrosity                 |
+    |  15   | <a href="#the-voice-in-the-deep">The Voice in the Deep</a>                       | Great old one / Sea lord    |
+    |  16   | <a href="#zargon">Zargon</a>                                                     | Great old one               |
+    |  17   | <a href="#ziltoid-the-omniscient">Ziltoid the Omniscient</a>                     | Great old one               |
+    |  18   | <a href="#the-shadowcat">The Shadowcat</a>                                       | Shadowcat                   |
 
     </div>
 
@@ -340,12 +341,12 @@ Some undead are powerful enough to grant powers to mere mortals.
 
 -   <div class="block classTable frame" markdown="1">
 
-    | Roll | Name | Pact |
-    |:-:|:-|:-|
-    | 1 | <a href="#the-emergent-mind">The Emergent Mind</a> | The Emergent Mind |
-    | 2 | <a href="#the-ghost">The Ghost</a> | Ghost |
-    | 3 | <a href="#the-undead">The Undead</a> | Undead |
-    | 4 | <a href="#the-vampire">The Vampire</a> | Vampire |
+    | Roll  | Name                                               | Pact              |
+    | :---: | :------------------------------------------------- | :---------------- |
+    |   1   | <a href="#the-emergent-mind">The Emergent Mind</a> | The Emergent Mind |
+    |   2   | <a href="#the-ghost">The Ghost</a>                 | Ghost             |
+    |   3   | <a href="#the-undead">The Undead</a>               | Undead            |
+    |   4   | <a href="#the-vampire">The Vampire</a>             | Vampire           |
 
     </div>
 
@@ -373,14 +374,14 @@ A collection of other patrons that do not fit into any or the other categories. 
 
 -   <div class="block classTable frame" markdown="1">
 
-    | Roll | Name | Pact |
-    |:-:|:-|:-|
-    | 1 | <a href="#the-black-pharaoh">The Black Pharaoh</a> | Great old one / Pharaoh |
-    | 2 | <a href="#death">Death</a> | Death |
-    | 3 | <a href="#the-haunting-melody">The Haunting Melody</a> | Great old one / Seducer |
-    | 4 | <a href="#jaffar">Jaffar, the Steel Sultan</a> | Fiend / Pharaoh |
-    | 5 | Khafre | Pharaoh
-    | 6 | <a href="#razael-the-usurper">Razael the Usurper</a> | Fiend |
+    | Roll  | Name                                                   | Pact                    |
+    | :---: | :----------------------------------------------------- | :---------------------- |
+    |   1   | <a href="#the-black-pharaoh">The Black Pharaoh</a>     | Great old one / Pharaoh |
+    |   2   | <a href="#death">Death</a>                             | Death                   |
+    |   3   | <a href="#the-haunting-melody">The Haunting Melody</a> | Great old one / Seducer |
+    |   4   | <a href="#jaffar">Jaffar, the Steel Sultan</a>         | Fiend / Pharaoh         |
+    |   5   | <a href="#khafre">Khafre</a>                           | Pharaoh                 |
+    |   6   | <a href="#razael-the-usurper">Razael the Usurper</a>   | Fiend                   |
 
     </div>
 
