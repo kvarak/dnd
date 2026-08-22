@@ -384,11 +384,152 @@ A city or a large town is likely to have a halfling neighborhood already, meanin
 
 ## <a class="internal-link" name="internal-halflingGodsMyths">Halfling gods and myths</a>
 
-Halflings see their gods more as extended family members than as divine beings. They don't worship them in the same way as elves and dwarves revere their gods, because the halfling gods are viewed as folk heroes -mortal beings who ascended to divinity, rather than divine entities who descend from their realms to influence the world. Because of this outlook, halflings rarely worship a single deity exclusively; they revere all the gods equally and pay their respects in modest ways.
+Halflings see their gods more as extended family members than as divine beings.
+They don’t worship them in the same way as elves and dwarves revere their gods, because the halfling gods are viewed as folk heroes - mortal beings who ascended to divinity, rather than divine entities who descend from their realms to influence the world.
+Because of this outlook, halflings rarely worship a single deity exclusively; they revere all the gods equally and pay their respects in modest ways.
 
-Halflings speak of Yondalla the way humans would describe a strong and protective parent. They talk about Brandobaris as others might refer to a mischievous and dashing uncle. They don't beseech the gods for daily favors, and they have no sense of metaphysical distance or separation between them and their gods. To halflings, their gods are part of the family. And as family members do, the gods set an example that is reaffirmed through the stories of their heroic deeds, with each tale helping to teach important lessons to the next generation.
+Halflings speak of Yondalla the way humans would describe a strong and protective parent.
+They talk about Brandobaris as others might refer to a mischievous and dashing uncle.
+They don’t beseech the gods for daily favors, and they have no sense of metaphysical distance or separation between them and their gods.
+To halflings, their gods are part of the family.
+And as family members do, the gods set an example that is reaffirmed through the stories of their heroic deeds, with each tale helping to teach important lessons to the next generation.
 
-A description of Halfling deities can be found *<a href="../WorldFaith/a_pantheons.html#halfling">here</a>*.
+The Halfling Deities table lists the members of the halfling pantheon. For each god, the table notes alignment, province (the god’s main areas of interest and responsibility), suggested domains for clerics who serve the god, and a common symbol of the god. Each of the gods in the table is described below.
+
+<div class="columnstwo">
+
+- <div class="classTable frame" markdown="1">
+
+  ### Halfling Deities
+
+  | Deity                                         | Alignment | Province                     | Domains                            | Common Symbol              |
+  | :-------------------------------------------- | :-------: | :--------------------------- | :--------------------------------- | :------------------------- |
+  | <a href="#arvoreen">Arvoreen</a>              |    LG     | Vigilance, war               | Heroism, Protection, War           | Crossed short swords       |
+  | <a href="#cyrrollalee">Cyrrollalee</a>        |    LG     | Hearth, home                 | Celebration, Charm, Life           | An open door               |
+  | <a href="#yondalla">Yondalla</a>              |    LG     | Primary goddess of halflings | Fortune, Life, Protection          | Cornucopia                 |
+  | <a href="#sheelaPeryroyl">Sheela Peryroyl</a> |    NG     | Agriculture, nature, weather | Air, Nature, Tempest               | A flower                   |
+  | <a href="#brandobaris">Brandobaris</a>        |     N     | Adventure, thievery          | Fortune, Trickery                  | Halfling footprint         |
+  | <a href="#charmalaine">Charmalaine</a>        |     N     | Keen senses, luck            | Fortune, Trickery, Whimsy          | Burning boot print         |
+  | <a href="#urogalan">Urogalan</a>              |    LN     | Earth, death                 | Death, Earth, Life, Repose, Winter | Silhouette of a dog's head |
+
+    </div>
+
+- <a name="Yondalla"><h5>Yondalla, </h5></a>
+  <img src='../assets/images/deity/yondalla.webp' style='float:right;width:30%;padding:20px' />
+  The story of Yondalla begins at the dawn of the world, when halflings were timid wanderers, scraping out a meager existence.
+  The goddess Yondalla took note of them and decided to adopt the halflings as her people.
+  She was a strong leader with a vision for her people, and she dedicated her life to gathering them together and protecting them.
+  Over time, she elevated to godhood those halflings who were the most adept at the skills halflings needed to survive.
+  Those legendary halflings comprise the rest of the pantheon.
+
+  Yondalla created the first halfling villages and showed the people how to build, plant, and harvest.
+  She knew that the bounty of a halfling village would be tempting plunder for any brigand or monster, so she used her powers to conceal their homes from easy discovery, blending them into the landscape so that most travelers would pass by without a second glance.
+  To the halflings, Yondalla is responsible for the spring in their step and the bubbly excitement they feel from knowing that luck is on their side.
+  When a pumpkin grows to enormous size or a garden yields twice as many carrots as usual, credit goes to Yondalla.
+  When a halfling trips, slides down a hillside, and lands on a nugget of gold, that's Yondalla turning bad luck into good.
+
+- <a name="Arvoreen"><h5>Arvoreen, </h5></a>
+  From time to time, halflings must fight to defend their friends or their village.
+  In those moments, the tales of Arvoreen come to the fore in every halfling's memory.
+
+  Every youth hears over and over again the stories of the hero's bravery and cunning, his clever tactics in battle, and his ability to use speed and smallness to defeat a much larger foe.
+  The elders know that the world outside is dangerous and that their kin must understand how to deal with those dangers.
+  Stories about Arvoreen are told in such a way that youngsters are inspired to act out his epic battles.
+  In this way, the halflings get practical experience in executing measures that are designed to help the halflings defeat kobolds and goblin raiders, or even take down an ogre.
+  When the time comes to put those tactics to use in earnest, everyone will be ready.
+
+  Cooperation is a fundamental principle in how halflings fend off their enemies.
+  Every community practices its own version of Arvoreen's favored tactics:
+
+  **Scatterstrike**.
+  The halflings run in every direction as if in a panic, but then they regroup and circle back to attack with a concentrated effort.
+
+  **Turtle Shell**.
+  Halflings cluster together and cover each other with shields, washtubs, wheelbarrows, coffer lids, or anything else that can deflect a blow.
+
+  **Troll Knocker**.
+  A few halflings act as bait to lure a troll or other large creature into a clearing where the rest of the group can hurl stones at it from concealment to confuse the monster, persuading it to seek other prey.
+
+  **Swarming Stickwhackers**.
+  Halflings rush an intruder in waves, swatting the enemy with sticks on all sides.
+
+  **Fiddle and Crack.**
+  A halfling fiddler lures the monster into a trap, usually a net or a pit, followed by several burly halflings wielding large sticks and hitting the monster from a safe vantage.
+
+- <a name="SheelaPeroryl"><h5>Sheela Peroryl, </h5></a>
+  Every halfling village sets aside a place for paying respects to Sheela Peryroyl.
+  In a grove of trees, a raspberry patch, or a swath of wildflowers, villagers leave a small offering whenever they walk by, or tip their caps, or whisper a blessing in her honor.
+  A village counts itself lucky if this place is cared for by a druid. Creatures that attack a village under the protection of the god's druids soon learn the error of their ways when all manner of plants lash out to grapple and sting the intruders, as though nature herself were aiding the halflings' cause.
+
+  On nights when the moon is full, especially during the planting and harvesting seasons, the elders tell stories about Sheela Peryroyl.
+  After becoming a hero through her glorious adventures, Sheela joined with the earth, fusing her spirit with the flowers, plants, and trees so she could better provide for her kin.
+  A halfling who accidentally steps on a flower often says, "Begging your pardon, Sheela."
+  Before halflings cut down a tree to use its wood for a new house, it is customary for them to stand before the tree with their caps doffed, humbly asking permission from Sheela to continue.
+
+- <a name="Charmalaine"><h5>Charmalaine, </h5></a>
+  Charmalaine is an energetic and spontaneous deity, unafraid of danger, for she expects to be able to detect it as it approaches and evade it before it brings her harm.
+
+  The stories of her accomplishments read like an adventurer's wildest dreams: she escaped from an army of sahuagin, solved the Chamber of a Thousand Traps, and took treasure from the lair of Tiamat.
+  Halflings envision her as a young adult who moves so fast that her boots smoke and sometimes even catch fire.
+  She carries a mace that has a head that shouts out warnings, and she is accompanied by her ferret friend, Xaphan.
+
+  Halflings sometimes call Charmalaine the Lucky Ghost because she can send her spirit out of her body to scout ahead, and thus she is able to warn halfling adventurers of danger while in her incorporeal form.
+  Halflings who favor Charmalaine are usually adventurers or those who pursue other risky professions such as hunting, beast training, scouting, and guarding public officials.
+
+- <a name="Cyrrollalee"><h5>Cyrrollalee, </h5></a>
+  Cyrrollalee embodies the spirit of friendship and hospitality that is part of every halfling's makeup and is represented by one's home and hearth.
+  The home is a welcoming place, but it is also sacrosanct.
+  Halflings honor Cyrrollalee by opening their homes to visitors, and by respecting the home of one's host as if it were one's own.
+
+  Every halfling village tells its version of the legendary tale of Cyrrollalee and the troll pies.
+  Long ago, a large human town near Cyrrollalee's village was regularly attacked by a vicious troll.
+  Warriors from the town hacked at the troll, but even its most dire wounds would heal, and the troll would come back again.
+  One day Cyrrollalee presented herself at the town gate in apron and peasant clothes, and she offered to rid the town of the troll.
+  The proud human warriors all scoffed at her, but the desperate mayor asked Cyrrollalee for her help.
+
+  So Cyrrollalee set all the people in the town to baking pies, but not just any pies.
+  They were special troll pies. Into each one she put a pinch of magic to make them irresistible to trolls.
+  While the warriors of the town grumbled and sharpened their steel, Cyrrollalee created an atmosphere of fun, bringing cheer to the frightened people as they worked.
+
+  When the day was done, she set off with a cart full of pies and laid them in a tasty trail far up into the mountains.
+  When the troll came near the town and found the trail, it began to gobble up pie after pie, following the delightful smells up the mountain path until it walked right into the lair of a young red dragon.
+  The greedy troll was swiftly incinerated.
+  Cyrrollalee returned a hero, and from that day forward all the townsfolk remembered her with a word of thanks when baking pies.
+
+- <a name="Brandobaris"><h5>Brandobaris, </h5></a>
+  Dashing trickster, patron of thieves, and star of fantastical fables and wild stories of adventure - that's the legacy of Brandobaris, the Master of Stealth.
+  Stories of Brandobaris, full of artful trickery and narrow escapes, inspire many young halflings to play at roguish pursuits.
+
+  In their imagination, a grain silo becomes a lofty wizard's tower to scale in search of treasures, or a rowboat becomes the setting for a swashbuckling adventure.
+  And for some -the youngsters who are said to "have a bit of Brandobaris in them" - that play-acting is the prelude to a life of living as Brandobaris does: always on the lookout for the next challenge.
+
+  Brandobaris continues to wander in search of excitement, and now, as an ascended being, his travels span the planes of existence.
+  His curiosity takes him to all corners of the multiverse in search of magical curios, rare treasures, and mystical puzzles.
+  When Brandobaris moves stealthily, no mortal or god can hear his footfalls - an ability he uses not only for defense, but also to bestow unlooked-for treats upon those he favors.
+
+  Although he never seems to rest in his travels, Brandobaris always has time to reward halflings who dare to take risks and explore the world to make their own mark on it.
+  He has been known to give a bit of aid to halflings in dire straits, turning them invisible for a time or intervening so that they can't be heard or tracked.
+
+- <a name="Urolagan"><h5>Urolagan, </h5></a>
+
+  In ancient times the halfling hero Urogalan left his village with his faithful hound to venture into the afterlife, and then, much to the villagers' amazement, he returned.
+  They could see that Urogalan had been deeply affected by his experiences, since he didn't speak for a long time.
+  He merely sat in a white robe with his hound by his side, watching the world go by.
+  When he did speak at last, he told of a place he called the Green Fields, where the halflings' god-heroes live alongside mortals who have passed on, enjoying lush farmland, bright sunshine, and all the comforts of home.
+
+  Urogalan declared that all who have gone before still watch over their loved ones from this place of eternal peace, sending messages to the material world.
+  In acknowledgment of this assertion, halflings look for signs from their departed loved ones.
+  One might be thinking about catching butterflies with his grandmother long ago, when suddenly a butterfly lands on his hand - clear evidence that, as Urogalan promised, she is still looking out for her grandson from beyond the veil of death.
+
+  As a divine being, Urogalan can move freely through the earth and across the planes of existence.
+  He holds aloft a magic lantern that protects him on his journeys.
+  With his black hound leading the way, Urogalan scours the multiverse and shepherds deceased halflings to their eternal home in the Green Fields.
+
+  Unlike other halfling deities, Urogalan is surrounded by a cloud of melancholy.
+  He is gaunt, with his dusky skin covered by white robes.
+  Priests who venerate Urogalan emulate this practice of dress and demeanor.
+
+</div>
 
 ## <a class="internal-link" name="internal-halflingAdventurer">The Halfling Adventurer</a>
 Everything about halflings, from their small stature to their easy demeanor, makes them unlikely candidates for taking up a life of adventure away from home. Yet every generation produces a handful of exceptional individuals who defy conventional wisdom and seek their fortunes in the wider world.
