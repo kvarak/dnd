@@ -82,7 +82,7 @@ extract-folk: build
 serve: clean build extract
 	@echo "🚀 Starting Jekyll development server..."
 	@echo "📍 http://localhost:4000/dnd/"
-	@docker run --rm --name $(CONTAINER_NAME) -v $(PWD):/srv/jekyll -v $(BUNDLE_CACHE):/usr/local/bundle -p 4000:4000 $(DOCKER_IMAGE) sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --port 4000 --baseurl /dnd --watch"
+	@docker run --rm --name $(CONTAINER_NAME) -v $(PWD):/srv/jekyll -v $(BUNDLE_CACHE):/usr/local/bundle --env JEKYLL_ROOTLESS=1 -p 4000:4000 $(DOCKER_IMAGE) sh -c "bundle install && bundle exec jekyll serve --host 0.0.0.0 --port 4000 --baseurl /dnd --watch"
 
 # Clean up containers and images
 clean:
