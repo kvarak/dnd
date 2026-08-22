@@ -1,0 +1,894 @@
+<!doctype html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  <style>
+    /* ── Screen: paste UI ───────────────────────────────────────────── */
+    #upload-ui {
+      max-width: 680px;
+      margin: 60px auto;
+      background: #2a2a3e;
+      border-radius: 4px;
+      padding: 40px;
+      box-shadow: 0 1px 6px rgba(0,0,0,.4);
+      color: #e0e0e0;
+    }
+    #upload-ui h2 { margin-bottom: 8px; font-family: sans-serif; color: #fff; }
+    #upload-ui p  { color: #aaa; margin-bottom: 16px; font-family: sans-serif; font-size: .9rem; }
+    #json-input {
+      width: 100%; height: 200px;
+      font-family: monospace; font-size: .8rem;
+      padding: 10px;
+      border: 1px solid #555;
+      border-radius: 3px;
+      resize: vertical;
+      box-sizing: border-box;
+      background: #1a1a2e;
+      color: #e0e0e0;
+    }
+    #json-input:focus { outline: none; border-color: #888; }
+    .btn-generate {
+      display: inline-block; margin-top: 12px;
+      padding: 9px 26px;
+      background: #4d4d7a; color: #fff;
+      border-radius: 3px; cursor: pointer;
+      font-size: .9rem; border: none;
+    }
+    .btn-generate:hover { background: #666699; }
+    #upload-error { color: #f06060; margin-top: 10px; font-size: .85rem; font-family: sans-serif; }
+
+    /* ── Print button ────────────────────────────────────────────────── */
+    .print-btn {
+      display: block; margin: 0 auto 8px;
+      width: 210mm; text-align: right;
+    }
+    .print-btn button {
+      padding: 6px 18px;
+      background: #4d4d7a; color: #fff;
+      border: none; border-radius: 3px;
+      cursor: pointer; font-size: .85rem;
+    }
+    .print-btn button:hover { background: #666699; }
+
+    /* ── Sheet pages ─────────────────────────────────────────────────── */
+    #sheet { display: none; }
+
+    .sheet-page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 16px auto;
+      background: #fff;
+      box-shadow: 0 2px 16px rgba(0,0,0,.6);
+      padding: 8mm 9mm;
+      box-sizing: border-box;
+      font-family: 'Scala Sans Offc', 'Source Sans Pro', 'Open Sans', Arial, sans-serif;
+      font-size: 7.5pt;
+      color: #1a1a1a;
+      color-scheme: light; /* prevent browser dark mode from recolouring the sheet */
+    }
+
+    /* ── Section labels (SVG style: ALL CAPS + thin underline) ──────── */
+    .sl {
+      font-size: 5.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .11em;
+      color: #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+      padding-bottom: 2px;
+      margin: 5px 0 3px;
+    }
+    .sl-sm { font-size: 5pt; letter-spacing: .08em; color: #666; border-bottom-color: #c8c7c7; }
+
+    /* ── Top header ──────────────────────────────────────────────────── */
+    .char-header {
+      display: grid;
+      grid-template-columns: 1fr auto auto auto auto auto;
+      gap: 0 3mm;
+      border-bottom: .75px solid #4d4d4d;
+      padding-bottom: 3mm;
+      margin-bottom: 4mm;
+      align-items: end;
+    }
+    .char-name-block { grid-column: 1; }
+    .char-name {
+      font-size: 14pt;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: .01em;
+    }
+    .char-sub {
+      font-size: 6.5pt;
+      color: #4d4d4d;
+      margin-top: 2px;
+    }
+    .char-sub span { margin-right: 8px; }
+    .char-sub strong { color: #1a1a1a; }
+
+    /* ── Header stat cells (AC, HP, HD, DS) ─────────────────────────── */
+    .hstat {
+      text-align: center;
+      min-width: 18mm;
+      border: .75px solid #c8c7c7;
+      border-radius: 3px;
+      padding: 2px 3px;
+    }
+    .hstat-wide { min-width: 28mm; }
+    .hstat .hv {
+      font-size: 11pt;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+    .hstat .hl {
+      font-size: 5pt;
+      text-transform: uppercase;
+      letter-spacing: .09em;
+      color: #666;
+    }
+    .hstat .hl-row { display: flex; justify-content: space-around; }
+    .hstat .hv-row { display: flex; justify-content: space-around; gap: 2px; }
+    .hstat .hv-row span { font-size: 9pt; font-weight: 700; }
+    .ds-row { display: flex; gap: 2px; justify-content: center; flex-wrap: wrap; }
+    .ds-box {
+      width: 9px; height: 9px;
+      border-radius: 1px;
+      border: .75px solid #c8c7c7;
+    }
+    .ds-box.fail { border-color: #d40000; }
+    .ds-box.filled-s { background: #4d4d4d; }
+    .ds-box.filled-f { background: #d40000; }
+    .ds-label { font-size: 5pt; text-transform: uppercase; letter-spacing: .06em; color: #666; }
+
+    /* ── 3-zone body layout ──────────────────────────────────────────── */
+    .body-zones {
+      display: flex;
+      gap: 4mm;
+      align-items: flex-start;
+    }
+    .zone-stats  { width: 28mm; flex-shrink: 0; }   /* ability score circles */
+    .zone-mid    { width: 55mm; flex-shrink: 0; }   /* saves + skills */
+    .zone-right  { flex: 1; }                       /* attacks + features */
+
+    /* ── Ability score bubbles ───────────────────────────────────────── */
+    .ab-list { display: flex; flex-direction: column; gap: 3px; }
+    .ab-block { text-align: center; }
+    .ab-label {
+      font-size: 5pt;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: #4d4d4d;
+      margin-bottom: 1px;
+    }
+    .ab-ring {
+      width: 22px; height: 22px;
+      border: .75px solid #4d4d4d;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 9pt; font-weight: 700;
+      margin: 0 auto 1px;
+    }
+    .ab-bubble {
+      width: 16px; height: 16px;
+      border-radius: 50%;
+      border: .75px solid #1a1a1a;
+      background: #1a1a1a; color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 6.5pt; font-weight: 700;
+      margin: 0 auto;
+    }
+    .pb-block {
+      text-align: center;
+      border: .75px solid #c8c7c7;
+      border-radius: 3px;
+      padding: 3px;
+      margin-bottom: 5px;
+    }
+    .pb-block .pb-val { font-size: 10pt; font-weight: 700; }
+    .pb-block .pb-lbl { font-size: 5pt; text-transform: uppercase; letter-spacing: .09em; color: #666; }
+
+    /* ── Saves list ──────────────────────────────────────────────────── */
+    .save-list { list-style: none; padding: 0; margin: 0; }
+    .save-list li {
+      display: flex; align-items: center; gap: 3px;
+      padding: 1.5px 0;
+      border-bottom: .5px solid #e8e8e8;
+      font-size: 6.5pt;
+    }
+    .save-list li:last-child { border-bottom: none; }
+    .pdot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      border: .75px solid #4d4d4d;
+      flex-shrink: 0;
+    }
+    .pdot.on  { background: #4d4d4d; }
+    .sv-bonus { font-weight: 700; width: 18px; text-align: right; color: #1a1a1a; }
+    .sv-abbr  { width: 20px; color: #4d4d4d; font-size: 6pt; letter-spacing: .06em; text-transform: uppercase; }
+    .sv-name  { flex: 1; color: #333; }
+
+    /* ── Exhaustion + condition strip ────────────────────────────────── */
+    .exh-row { display: flex; align-items: center; gap: 3px; margin: 4px 0 2px; }
+    .exh-box {
+      width: 10px; height: 10px;
+      border: .75px solid #c8c7c7;
+      border-radius: 1px;
+    }
+    .exh-box.on { background: #4d4d4d; border-color: #4d4d4d; }
+    .exh-lbl { font-size: 5.5pt; text-transform: uppercase; letter-spacing: .09em; color: #4d4d4d; }
+
+    /* ── Init / Speed / Fate / Inspiration top row ────────────────────  */
+    .csbar {
+      display: flex; gap: 3mm; margin-bottom: 4mm;
+    }
+    .csbox {
+      flex: 1;
+      border: .75px solid #c8c7c7;
+      border-radius: 3px;
+      text-align: center;
+      padding: 3px 2px;
+    }
+    .csbox .cv { font-size: 10pt; font-weight: 700; line-height: 1.1; }
+    .csbox .cl { font-size: 5pt; text-transform: uppercase; letter-spacing: .09em; color: #666; }
+    .csbox-dots { display: flex; justify-content: center; gap: 2px; margin-top: 2px; }
+    .cdot {
+      width: 9px; height: 9px;
+      border-radius: 50%;
+      border: .75px solid #4d4d4d;
+    }
+    .cdot.on { background: #4d4d4d; }
+
+    /* ── Skill list ──────────────────────────────────────────────────── */
+    .skill-list { list-style: none; padding: 0; margin: 0; }
+    .skill-list li {
+      display: flex; align-items: center; gap: 3px;
+      padding: 1px 0;
+      border-bottom: .5px solid #f0f0f0;
+      font-size: 6.5pt;
+    }
+    .skill-list li:last-child { border-bottom: none; }
+    .sk-bonus { font-weight: 700; width: 18px; text-align: right; color: #1a1a1a; }
+    .sk-name  { flex: 1; }
+    .sk-name.dim { color: #888; }
+    .sk-attr  { font-size: 5.5pt; color: #999; width: 20px; text-align: right; }
+    .sk-exp   { color: #4d4d4d; font-size: 6pt; font-weight: 700; }
+
+    /* ── Attacks ─────────────────────────────────────────────────────── */
+    .atk-table { width: 100%; border-collapse: collapse; font-size: 6.5pt; }
+    .atk-table th {
+      text-align: left;
+      font-size: 5.5pt; text-transform: uppercase; letter-spacing: .09em;
+      color: #1a1a1a;
+      background: #e8e8e8;
+      border-bottom: 1px solid #4d4d4d;
+      padding: 2px 4px 3px;
+      font-weight: 700;
+    }
+    .atk-table td {
+      padding: 2px 4px;
+      border-bottom: .5px solid #ccc;
+      vertical-align: top;
+      color: #1a1a1a;
+    }
+    .atk-table tbody tr:nth-child(even) td { background: none; }
+    .atk-table tr:last-child td { border-bottom: none; }
+    /* blank rows for handwriting */
+    .atk-blank td { border-bottom: .5px solid #c8c7c7; height: 13px; background: #fff !important; }
+
+    /* ── Generic lined table (inventory, spells) ─────────────────────── */
+    .lined-table { width: 100%; border-collapse: collapse; font-size: 6.5pt; }
+    .lined-table th {
+      text-align: left;
+      font-size: 5.5pt; text-transform: uppercase; letter-spacing: .09em;
+      color: #1a1a1a;
+      background: #e8e8e8;
+      border-bottom: 1px solid #4d4d4d;
+      padding: 2px 4px 3px;
+      font-weight: 700;
+    }
+    .lined-table td {
+      padding: 2px 4px;
+      border-bottom: .5px solid #ccc;
+      color: #1a1a1a;
+    }
+    .lined-table tbody tr:nth-child(even) td { background: none; }
+    .lined-table tr:last-child td { border-bottom: none; }
+    .lined-table .blank-row td { border-bottom: .5px solid #c8c7c7; height: 11px; }
+
+    /* ── Feature / trait blocks ──────────────────────────────────────── */
+    .feat { margin-bottom: 4px; padding-bottom: 3px; border-bottom: .5px dotted #c8c7c7; }
+    .feat:last-child { border-bottom: none; }
+    .feat-name { font-weight: 700; font-size: 7pt; }
+    .feat-src   { font-size: 6pt; color: #888; }
+    .feat-desc  { font-size: 7pt; color: #333; margin-top: 1px; }
+
+    /* ── Note lines ──────────────────────────────────────────────────── */
+    .note-area {
+      background: repeating-linear-gradient(
+        to bottom, transparent 0, transparent 17px, #c8c7c7 17px, #c8c7c7 17.5px
+      );
+    }
+    .note-area-tall { min-height: 180px; }
+    .note-area-full { min-height: 240mm; }
+    .note-lbl { font-size: 5.5pt; text-transform: uppercase; letter-spacing: .09em; color: #aaa; margin-bottom: 3px; }
+
+    /* ── Proficiency / personality blocks ───────────────────────────── */
+    .prof-entry { font-size: 7pt; margin-bottom: 2px; }
+    .prof-type  { font-size: 5.5pt; text-transform: uppercase; letter-spacing: .08em; color: #4d4d4d; font-weight: 600; }
+    .pers-block { border: .75px solid #c8c7c7; padding: 3px 5px; margin-bottom: 3px; border-radius: 2px; font-size: 7pt; }
+    .pers-lbl   { font-size: 5pt; text-transform: uppercase; letter-spacing: .08em; color: #888; display: block; margin-bottom: 1px; }
+
+    /* ── Spell slot grid ─────────────────────────────────────────────── */
+    .slot-grid { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 2px; }
+    .slot-lvl { text-align: center; border: .75px solid #c8c7c7; border-radius: 2px; padding: 2px 3px; min-width: 14mm; }
+    .slot-lvl .slv { font-size: 8pt; font-weight: 700; }
+    .slot-lvl .sll { font-size: 5pt; text-transform: uppercase; letter-spacing: .07em; color: #666; }
+    .slot-boxes { display: flex; gap: 2px; justify-content: center; flex-wrap: wrap; margin-top: 2px; }
+    .sbox { width: 9px; height: 9px; border: .75px solid #4d4d4d; border-radius: 1px; }
+    .sbox.used { background: #4d4d4d; }
+
+    /* ── Resource strip ──────────────────────────────────────────────── */
+    .res-strip { display: flex; gap: 3mm; margin-bottom: 3mm; }
+    .res-box { flex: 1; border: .75px solid #c8c7c7; border-radius: 2px; padding: 2px 4px; text-align: center; }
+    .res-box .rv { font-size: 9pt; font-weight: 700; }
+    .res-box .rl { font-size: 5pt; text-transform: uppercase; letter-spacing: .08em; color: #666; }
+
+    /* ── Print styles ────────────────────────────────────────────────── */
+    @media print {
+      body, html { background: #fff !important; margin: 0; padding: 0; }
+      .no-print  { display: none !important; }
+      nav, footer, .container-main > *:not(#sheet) { display: none !important; }
+      #sheet     { display: block !important; }
+      .sheet-page {
+        box-shadow: none; margin: 0;
+        width: 100%; padding: 8mm 9mm;
+        page-break-after: always;
+      }
+      .sheet-page:last-child { page-break-after: avoid; }
+      .print-btn { display: none !important; }
+      @page { size: A4; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  {% include navigation.html %}
+
+  <div class="container-main">
+
+    <!-- Paste UI (screen only) -->
+    <div id="upload-ui" class="no-print">
+      <h2>🗒 Character Sheet Print</h2>
+      <p>Paste the JSON from the <strong>Export Output</strong> textarea on your Roll20 character sheet's Options tab.</p>
+      <textarea id="json-input" placeholder='Paste JSON here&hellip;'></textarea>
+      <br>
+      <button class="btn-generate" id="btn-generate">Generate sheet</button>
+      <div id="upload-error"></div>
+    </div>
+
+    <!-- Print button (screen only) -->
+    <div class="print-btn no-print" id="print-btn" style="display:none!important;">
+      <button onclick="window.print()">🖨 Print / Save PDF</button>
+    </div>
+
+    <div id="sheet"></div>
+  </div>
+
+  <script>
+  (function () {
+
+    /* ── Helpers ──────────────────────────────────────────────────── */
+    function fmt(n) {
+      if (n === null || n === undefined || isNaN(n)) return '—';
+      return (n >= 0 ? '+' : '') + n;
+    }
+    function fmtNum(n) { return (n === null || n === undefined) ? '—' : String(n); }
+    function cap(s) {
+      if (!s) return '';
+      return s.charAt(0).toUpperCase() + s.slice(1).replace(/_/g,' ');
+    }
+    function h(s) {
+      return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+    function sl(title, sm) {
+      return `<div class="sl${sm?' sl-sm':''}">${h(title)}</div>`;
+    }
+    function noteArea(minH) {
+      return `<div class="note-area" style="min-height:${minH}px"></div>`;
+    }
+    function blankRows(n, cols) {
+      return Array(n).fill(`<tr class="blank-row">${'<td></td>'.repeat(cols)}</tr>`).join('');
+    }
+
+    /* ── Constants ────────────────────────────────────────────────── */
+    const STAT_LABELS = {
+      strength:'STR', dexterity:'DEX', constitution:'CON',
+      intelligence:'INT', wisdom:'WIS', charisma:'CHA', luck:'LCK'
+    };
+    const STATS = Object.keys(STAT_LABELS);
+
+    const ATTR_KEY = {
+      '@{strength_mod}':'strength', '@{dexterity_mod}':'dexterity',
+      '@{constitution_mod}':'constitution', '@{intelligence_mod}':'intelligence',
+      '@{wisdom_mod}':'wisdom', '@{charisma_mod}':'charisma',
+      '@{luck_mod}':'luck', 'spell':'spell', '0':null
+    };
+
+    const SKILLS = [
+      ['acrobatics','Acrobatics'], ['agriculture','Agriculture'],
+      ['arcana','Arcana'], ['architecture','Architecture'],
+      ['astronomy','Astronomy'], ['burglary','Burglary'],
+      ['cooking','Cooking'], ['cosmology','Cosmology'],
+      ['courtier','Courtier'], ['engineering','Engineering'],
+      ['geology','Geology'], ['herbalism','Herbalism'],
+      ['history','History'], ['investigation','Investigation'],
+      ['law','Law'], ['leadership','Leadership'],
+      ['linguistics','Linguistics'], ['mathematics','Mathematics'],
+      ['medicine','Medicine'], ['nature','Nature'],
+      ['perception','Perception'], ['physique','Physique'],
+      ['religion','Religion'], ['sailor','Sailor'],
+      ['sleight_of_hand','Sleight of Hand'], ['speechcraft','Speechcraft'],
+      ['stealth','Stealth'], ['survival','Survival'],
+      ['swimming','Swimming'], ['underworld','Underworld'],
+    ];
+
+    /* ── Calculations ──────────────────────────────────────────────── */
+    function pb(level) { return Math.floor((Math.max(1,level)-1)/4)+2; }
+    function amod(c, stat) {
+      const s = c.abilityScores[stat]; if (!s) return 0;
+      return Math.floor(((s.base||10)+(s.bonus||0)-10)/2);
+    }
+    function smod(c, stat, profBonus) {
+      const sv = c.savingThrows[stat]||{};
+      return amod(c,stat)+(sv.proficient?profBonus:0)+(sv.flatMod||0);
+    }
+    function skmod(c, key, profBonus) {
+      const sk = c.skills[key]||{};
+      const base = amod(c,(sk.attribute||'Dexterity').toLowerCase());
+      if (sk.proficient) return base+(sk.expertise?profBonus*2:profBonus)+(sk.flatMod||0);
+      return base+(sk.flatMod||0);
+    }
+    function spellMod(c) {
+      const raw = c.resources.spellcastingAbility||'';
+      const m = raw.match(/@\{(\w+)_mod\}/);
+      return m ? amod(c,m[1]) : 0;
+    }
+    function atkBonus(c, atk, profBonus) {
+      const k = ATTR_KEY[atk.attackAttr];
+      let base = k==='spell' ? spellMod(c) : (k ? amod(c,k) : 0);
+      return base+(atk.proficient?profBonus:0)+(atk.attackMod||0)+(atk.magicBonus||0);
+    }
+    function dmgStr(atk, dmg, c) {
+      if (!dmg.enabled||!dmg.dice) return '';
+      const k = ATTR_KEY[dmg.attr];
+      let m = k==='spell' ? spellMod(c) : (k ? amod(c,k) : 0);
+      const parts=[dmg.dice];
+      if (m!==0) parts.push(fmt(m));
+      if (dmg.mod) parts.push(fmt(dmg.mod));
+      return parts.join(' ')+(dmg.type?' '+dmg.type:'');
+    }
+    function initBonus(c) {
+      const d=amod(c,'dexterity'), i=amod(c,'intelligence');
+      return (c.options.gdd.useIntelligentInit&&i>d?i:d)+(c.options.attributes.initmod||0);
+    }
+
+    /* ── Render: ability column ────────────────────────────────────── */
+    function renderStats(c, profBonus) {
+      const boxes = STATS.map(s => {
+        const score = (c.abilityScores[s].base||10)+(c.abilityScores[s].bonus||0);
+        const mod   = Math.floor((score-10)/2);
+        return `<div class="ab-block">
+          <div class="ab-label">${STAT_LABELS[s]}</div>
+          <div class="ab-ring">${score}</div>
+          <div class="ab-bubble">${fmt(mod)}</div>
+        </div>`;
+      }).join('');
+      return `<div class="pb-block">
+          <div class="pb-val">${fmt(profBonus)}</div>
+          <div class="pb-lbl">Proficiency</div>
+        </div>
+        <div class="ab-list">${boxes}</div>`;
+    }
+
+    /* ── Render: saves ─────────────────────────────────────────────── */
+    function renderSaves(c, profBonus) {
+      const rows = STATS.map(s => {
+        const sv = c.savingThrows[s]||{};
+        return `<li>
+          <span class="pdot${sv.proficient?' on':''}"></span>
+          <span class="sv-bonus">${fmt(smod(c,s,profBonus))}</span>
+          <span class="sv-abbr">${STAT_LABELS[s]}</span>
+          <span class="sv-name">${cap(s)}</span>
+        </li>`;
+      }).join('');
+      return `<ul class="save-list">${rows}</ul>`;
+    }
+
+    /* ── Render: skills ────────────────────────────────────────────── */
+    function renderSkills(c, profBonus) {
+      const rows = SKILLS.map(([key, label]) => {
+        const sk   = c.skills[key]||{};
+        const prof = sk.proficient;
+        const exp  = sk.expertise;
+        const val  = skmod(c, key, profBonus);
+        const attr = STAT_LABELS[(sk.attribute||'Dexterity').toLowerCase()]||'?';
+        return `<li>
+          <span class="pdot${prof?' on':''}"></span>
+          <span class="sk-bonus">${fmt(val)}</span>
+          <span class="sk-name${prof?'':' dim'}">${h(label)}${exp?' <span class="sk-exp">✦</span>':''}</span>
+          <span class="sk-attr">${attr}</span>
+        </li>`;
+      }).join('');
+      return `<ul class="skill-list">${rows}</ul>
+        <div style="font-size:5pt;color:#aaa;margin-top:3px">
+          ● proficient &nbsp; ✦ expertise
+        </div>`;
+    }
+
+    /* ── Render: attacks ───────────────────────────────────────────── */
+    function renderAttacks(c, profBonus) {
+      const dataRows = c.attacks.map(atk => {
+        const hit  = atk.hasAttack ? fmt(atkBonus(c, atk, profBonus)) : '—';
+        const dmg1 = dmgStr(atk, atk.damage1, c);
+        const dmg2 = dmgStr(atk, atk.damage2, c);
+        const dmg  = [dmg1,dmg2].filter(Boolean).join(' / ');
+        return `<tr>
+          <td><strong>${h(atk.name)}</strong></td>
+          <td>${hit}</td>
+          <td>${h(dmg)||'—'}</td>
+        </tr>`;
+      }).join('');
+      const blank = blankRows(Math.max(3, 6-c.attacks.length), 3);
+      return `<table class="atk-table">
+        <thead><tr>
+          <th>Name</th><th>Bonus / DC</th><th>Damage &amp; Type</th>
+        </tr></thead>
+        <tbody>${dataRows}${blank}</tbody>
+      </table>`;
+    }
+
+    /* ── Render: features ──────────────────────────────────────────── */
+    function renderFeatures(c) {
+      const items = c.featuresAndTraits.filter(f=>f.name);
+      const populated = items.map(f => `
+        <div class="feat">
+          <span class="feat-name">${h(f.name)}</span>
+          ${f.source?`<span class="feat-src"> — ${h(f.source)}${f.sourceType?': '+h(f.sourceType):''}</span>`:''}
+          ${f.description&&!f.hideDetails?`<div class="feat-desc">${h(f.description)}</div>`:''}
+        </div>`).join('');
+      return populated + noteArea(Math.max(80, 200 - items.length * 24));
+    }
+
+    /* ── Render: proficiencies ─────────────────────────────────────── */
+    function renderProficiencies(c) {
+      const profs = c.proficiencies.filter(p=>p.name);
+      if (!profs.length) {
+        const raw = c.details.otherProficienciesAndLanguages;
+        return raw ? `<div class="prof-entry">${h(raw)}</div>` + noteArea(40) : noteArea(60);
+      }
+      const groups = {};
+      profs.forEach(p => (groups[p.type]=groups[p.type]||[]).push(p.name));
+      return Object.entries(groups).map(([type, names]) =>
+        `<div class="prof-entry"><span class="prof-type">${h(type)}: </span>${names.map(h).join(', ')}</div>`
+      ).join('') + noteArea(30);
+    }
+
+    /* ── Render: personality ───────────────────────────────────────── */
+    function renderPersonality(c) {
+      const d = c.details;
+      return [
+        ['Personality Traits', d.personalityTraits],
+        ['Ideals', d.ideals], ['Bonds', d.bonds], ['Flaws', d.flaws],
+        ['Quest', d.quest],
+      ].filter(([,v])=>v).map(([lbl,val]) =>
+        `<div class="pers-block"><span class="pers-lbl">${h(lbl)}</span>${h(val)}</div>`
+      ).join('');
+    }
+
+    /* ── Render: inventory ─────────────────────────────────────────── */
+    function renderInventory(c) {
+      const items = c.inventory.filter(i=>i.name);
+      const rows = items.map(item =>
+        `<tr>
+          <td>${item.equipped?'●':''}</td>
+          <td><strong>${h(item.name)}</strong></td>
+          <td>${fmtNum(item.quantity)}</td>
+          <td>${item.weight!=null?item.weight+'lb':'—'}</td>
+          <td style="font-size:5.5pt">${h(item.properties)}</td>
+        </tr>`).join('');
+      const blank = blankRows(Math.max(4, 12-items.length), 5);
+      return `<table class="lined-table">
+        <thead><tr>
+          <th>E</th><th>Item</th><th>Qty</th><th>Wt</th><th>Properties</th>
+        </tr></thead>
+        <tbody>${rows}${blank}</tbody>
+      </table>`;
+    }
+
+    /* ── Render: spells ────────────────────────────────────────────── */
+    function renderSpells(c, profBonus) {
+      const levels = Object.entries(c.spells);
+      const hasAny = levels.some(([,a])=>a.length>0);
+      if (!hasAny) return null;
+      const names = ['Cantrip','1st','2nd','3rd','4th','5th','6th','7th','8th','9th'];
+      let html = '';
+      levels.forEach(([key,spells],idx) => {
+        if (!spells.length) return;
+        const slot = c.spellSlots[`level${idx}`];
+        const slotInfo = (idx>0&&slot) ? ` (${slot.expended||0} used)` : '';
+        const rows = spells.map(sp => {
+          const comp = [sp.components.verbal?'V':'',sp.components.somatic?'S':'',sp.components.material?'M':''].filter(Boolean).join('');
+          return `<tr>
+            <td>${h(sp.name)}${sp.concentration?' <b>C</b>':''}${sp.ritual?' <i>R</i>':''}</td>
+            <td>${h(sp.school)}</td>
+            <td>${h(sp.castingTime)}</td>
+            <td>${h(sp.range)}</td>
+            <td>${h(comp)}</td>
+            <td>${h(sp.duration)}</td>
+          </tr>`;
+        }).join('');
+        html += sl(names[idx]+' Spells'+slotInfo)+`
+        <table class="lined-table">
+          <thead><tr><th>Name</th><th>School</th><th>Time</th><th>Range</th><th>Comp</th><th>Dur</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>`;
+      });
+      return html;
+    }
+
+    /* ── Build: full sheet HTML ────────────────────────────────────── */
+    function buildSheet(c) {
+      const profBonus = pb(c.identity.baseLevel||1);
+      const hp   = c.combat.hp;
+      const hd   = c.combat.hitDice;
+      const ds   = c.combat.deathSaves;
+      const opt  = c.options;
+      const res  = c.resources;
+      const init = initBonus(c);
+
+      // Class display
+      const classStr = opt.customClass.enabled
+        ? `${opt.customClass.name} ${c.identity.baseLevel}`
+        : (c.identity.classDisplay||`${c.identity.class} ${c.identity.baseLevel}`);
+      const multiParts = ['class1','class2','class3']
+        .map(k=>opt.multiclass[k]).filter(mc=>mc.enabled)
+        .map(mc=>`${cap(mc.class)} ${mc.level}${mc.subclass?' ('+mc.subclass+')':''}`);
+
+      const spellsHtml  = renderSpells(c, profBonus);
+      const hasSpells   = spellsHtml !== null;
+      const sm          = spellMod(c);
+      const spellDC     = 8 + profBonus + sm + (opt.class.spellDcMod||0);
+      const spellAtk    = profBonus + sm;
+
+      /* ── Page 1 ─────────────────────────────────────────────────── */
+      const page1 = `<div class="sheet-page">
+
+  <!-- HEADER -->
+  <div class="char-header">
+    <div class="char-name-block">
+      <div class="char-name">${h(c.identity.characterName||'—')}</div>
+      <div class="char-sub">
+        <span><strong>${h(classStr)}</strong>${multiParts.length?' / '+multiParts.map(h).join(' / '):''}</span>
+        ${c.identity.race?`<span><strong>Folk</strong> ${h(c.identity.race)}${c.identity.subrace?' ('+h(c.identity.subrace)+')':''}</span>`:''}
+        ${c.identity.background?`<span><strong>Background</strong> ${h(c.identity.background)}</span>`:''}
+        ${c.identity.alignment?`<span><strong>Alignment</strong> ${h(c.identity.alignment)}</span>`:''}
+      </div>
+    </div>
+
+    <div class="hstat">
+      <div class="hv">___</div>
+      <div class="hl">AC</div>
+    </div>
+    <div class="hstat hstat-wide">
+      <div class="hl-row"><span>Temp</span><span>Max</span><span>Current</span></div>
+      <div class="hv-row">
+        <span>${fmtNum(hp.temp)||'—'}</span>
+        <span>${fmtNum(hp.max)}</span>
+        <span>${fmtNum(hp.current)}</span>
+      </div>
+      <div class="hl">Hit Points</div>
+    </div>
+    <div class="hstat">
+      <div class="hv">${fmtNum(hd.remaining)}/${fmtNum(hd.max)}</div>
+      <div class="hl">Hit Dice d${opt.class.hitDieType||'?'}</div>
+    </div>
+    <div class="hstat hstat-wide">
+      <div class="hl-row"><span style="color:#555">Successes</span><span style="color:#d40000">Failures</span></div>
+      <div class="ds-row">
+        ${[ds.success1,ds.success2,ds.success3].map(v=>`<span class="ds-box${v?' filled-s':''}"></span>`).join('')}
+        ${[ds.fail1,ds.fail2,ds.fail3].map(v=>`<span class="ds-box fail${v?' filled-f':''}"></span>`).join('')}
+      </div>
+      <div class="hl">Death Saves</div>
+    </div>
+  </div><!-- /.char-header -->
+
+  <!-- 3-ZONE BODY -->
+  <div class="body-zones">
+
+    <!-- ZONE 1: Ability scores -->
+    <div class="zone-stats">
+      ${renderStats(c, profBonus)}
+    </div>
+
+    <!-- ZONE 2: Saves + Skills + Exhaustion -->
+    <div class="zone-mid">
+      ${sl('Saving Throws')}
+      ${renderSaves(c, profBonus)}
+
+      <!-- Exhaustion -->
+      <div class="exh-row" style="margin-top:5px">
+        <span class="exh-lbl">Exhaustion</span>
+        ${[1,2,3,4,5,6].map(i=>`<span class="exh-box${c.trackers.exhaustion>=i?' on':''}"></span>`).join('')}
+      </div>
+
+      <!-- Fate / Inspiration / Stress trackers -->
+      <div style="display:flex;gap:4px;margin:4px 0;flex-wrap:wrap">
+        <div style="display:flex;align-items:center;gap:2px">
+          <span style="font-size:5pt;text-transform:uppercase;letter-spacing:.08em;color:#4d4d4d">Fate</span>
+          ${c.trackers.fate.map(v=>`<span class="cdot${v?' on':''}"></span>`).join('')}
+        </div>
+        <div style="display:flex;align-items:center;gap:2px;margin-left:4px">
+          <span style="font-size:5pt;text-transform:uppercase;letter-spacing:.08em;color:#4d4d4d">Insp.</span>
+          ${c.trackers.inspiration.map(v=>`<span class="cdot${v?' on':''}"></span>`).join('')}
+        </div>
+      </div>
+
+      ${sl('Skills')}
+      ${renderSkills(c, profBonus)}
+    </div>
+
+    <!-- ZONE 3: Combat stats + Attacks + Features + Proficiencies -->
+    <div class="zone-right">
+      <!-- Init / Speed / Passive Perception -->
+      <div class="csbar">
+        <div class="csbox">
+          <div class="cv">${fmt(init)}</div>
+          <div class="cl">Initiative</div>
+        </div>
+        <div class="csbox">
+          <div class="cv">___</div>
+          <div class="cl">Speed</div>
+        </div>
+        ${res.classResource.name?`
+        <div class="csbox" style="flex:2">
+          <div class="cv">${fmtNum(res.classResource.current)} / ${fmtNum(res.classResource.max)}</div>
+          <div class="cl">${h(res.classResource.name)}</div>
+        </div>`:''}
+        ${res.otherResource.name?`
+        <div class="csbox" style="flex:2">
+          <div class="cv">${fmtNum(res.otherResource.current)} / ${fmtNum(res.otherResource.max)}</div>
+          <div class="cl">${h(res.otherResource.name)}</div>
+        </div>`:''}
+      </div>
+
+      ${sl('Attacks')}
+      ${renderAttacks(c, profBonus)}
+
+      ${sl('Features & Traits')}
+      ${renderFeatures(c)}
+
+      ${sl('Proficiencies & Languages')}
+      ${renderProficiencies(c)}
+    </div>
+
+  </div><!-- /.body-zones -->
+</div>`;
+
+      /* ── Page 2: Details, Inventory, Personality, Spells ───────── */
+      const page2 = `<div class="sheet-page">
+  <div style="display:flex;gap:5mm;align-items:flex-start">
+    <div style="flex:2">
+
+      ${sl('Equipment & Inventory')}
+      ${renderInventory(c)}
+
+      ${c.otherItems.filter(i=>i.name).length?
+        sl('Other Items')+`<div style="font-size:7pt">${c.otherItems.filter(i=>i.name).map(i=>h(i.name)+(i.description?' — '+h(i.description):'')).join(', ')}</div>`:''}
+
+      ${hasSpells?`
+        ${sl('Spellcasting')}
+        <div class="res-strip">
+          <div class="res-box"><div class="rv">${spellDC}</div><div class="rl">Spell Save DC</div></div>
+          <div class="res-box"><div class="rv">${fmt(spellAtk)}</div><div class="rl">Spell Atk Bonus</div></div>
+          ${res.spellBurnout?`<div class="res-box"><div class="rv">${h(res.spellBurnout)}</div><div class="rl">Burnout</div></div>`:''}
+        </div>
+        ${sl('Spell Slots')}
+        <div class="slot-grid">
+          ${Object.entries(c.spellSlots).map(([key,slot],idx) => {
+            if (idx===0) return '';
+            if (!c.spells[`level${idx}`]?.length && !slot.expended && !slot.mod) return '';
+            return `<div class="slot-lvl">
+              <div class="sll">${idx}th</div>
+              <div class="slv">${slot.expended||0} <span style="font-size:5.5pt;color:#aaa">used</span></div>
+            </div>`;
+          }).join('')}
+        </div>
+        ${spellsHtml}
+      `:''}
+
+    </div>
+    <div style="flex:1.4">
+
+      ${sl('Personality')}
+      ${renderPersonality(c) || noteArea(80)}
+
+      ${c.details.backstory ? `
+        ${sl('Character Backstory')}
+        <div class="pers-block">${h(c.details.backstory)}</div>` : ''}
+
+      ${c.details.alliesAndOrganizations ? `
+        ${sl('Allies & Organisations')}
+        <div class="pers-block">${h(c.details.alliesAndOrganizations)}</div>` : ''}
+
+      ${c.details.treasure ? `
+        ${sl('Treasure')}
+        <div class="pers-block">${h(c.details.treasure)}</div>` : ''}
+
+      ${c.details.age||c.details.height||c.details.weight||c.details.motivation?`
+        ${sl('Character Details')}
+        <div style="font-size:7pt">
+          ${c.details.age?`<div><span class="prof-type">Age </span>${cap(c.details.age)} ${h(c.details.ageDetail)}</div>`:''}
+          ${c.details.height?`<div><span class="prof-type">Height </span>${cap(c.details.height)} ${h(c.details.heightDetail)}</div>`:''}
+          ${c.details.weight?`<div><span class="prof-type">Weight </span>${cap(c.details.weight)} ${h(c.details.weightDetail)}</div>`:''}
+          ${c.details.motivation?`<div><span class="prof-type">Motivation </span>${cap(c.details.motivation)}</div>`:''}
+          ${c.details.family?`<div><span class="prof-type">Family </span>${cap(c.details.family)}</div>`:''}
+        </div>`:''}
+
+      ${c.memories.filter(m=>m.name).length?`
+        ${sl('Memories')}
+        ${c.memories.filter(m=>m.name).map(m=>`
+          <div class="feat">
+            <span class="feat-name">${h(m.name)}</span>
+            ${m.description?`<div class="feat-desc">${h(m.description)}</div>`:''}
+          </div>`).join('')}`:''}
+
+      ${sl('Notes')}
+      ${noteArea(180)}
+    </div>
+  </div>
+</div>`;
+
+      /* ── Notes pages ────────────────────────────────────────────── */
+      const notesPage = (n) => `<div class="sheet-page">
+  <div style="border-bottom:.75px solid #4d4d4d;padding-bottom:3mm;margin-bottom:5mm;font-size:9pt;font-weight:700">
+    ${h(c.identity.characterName||'Character')} — Notes${n>1?' '+n:''}
+  </div>
+  <div class="note-area note-area-full"></div>
+</div>`;
+
+      return page1 + page2 + notesPage(1) + notesPage(2);
+    }
+
+    /* ── Wire up ───────────────────────────────────────────────────── */
+    function processJson(raw) {
+      const errEl = document.getElementById('upload-error');
+      errEl.textContent = '';
+      let data;
+      try { data = JSON.parse(raw); }
+      catch (err) { errEl.textContent = 'Could not parse JSON: ' + err.message; return; }
+      if (data.format !== 'my-character-sheet') {
+        errEl.textContent = 'This doesn\'t look like a character sheet export (missing "format" field).';
+        return;
+      }
+      const sheet = document.getElementById('sheet');
+      sheet.innerHTML = buildSheet(data.character);
+      sheet.style.display = 'block';
+      document.getElementById('upload-ui').style.display = 'none';
+      document.getElementById('print-btn').style.removeProperty('display');
+    }
+
+    document.getElementById('btn-generate').addEventListener('click', function () {
+      const raw = document.getElementById('json-input').value.trim();
+      if (!raw) { document.getElementById('upload-error').textContent = 'Paste your JSON first.'; return; }
+      processJson(raw);
+    });
+
+    document.getElementById('json-input').addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) processJson(this.value.trim());
+    });
+
+  })();
+
+</script>
+
+</body>
+</html>
