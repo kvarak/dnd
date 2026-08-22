@@ -681,6 +681,7 @@ This aspect of elven life isn't as well known among other races as it might be, 
 A tiny percentage of elves develop an irrational fear of the serene, contemplative life that awaits them in their later years when they grow into a tree. Even if such a future life seems tepid and unbearably dull during an elf's prime, the psychological changes that come with age make this peaceful period of existence the most satisfying experience possible for an elf's later years. Nevertheless, this fear is immune to logic when it arises in adult elves. To avoid the fate they dread, consciously or subconsciously, they throw themselves into dangerous situations, not caring whether they survive or perhaps even hoping they don't.
 
 ## <a name="internal-elvesMagic">Elves and Magic</a>
+
 Magic infuses the elves' world. Even so, they aren't born with an innate understanding of magic. To master spellcasting, an elf must devote years of study and practice to it, the same as most folk. But from the moment they're born, elves are surrounded by memories of a time as magical fey that subtly reveals the mysteries of magic to someone who is receptive to the message- which elves certainly are.
 
 ### Wizardry
@@ -690,17 +691,215 @@ Even after these concepts are mastered, new knowledge of magic remains elusive, 
 
 Of all peoples, elves are perhaps best suited to wizardry. They have access to centuries worth of memories, and their trance effectively gives them extra time to practice, as lessons learned during study can be reinforced by recalling them during resting periods. The patience and restraint for which elves are well known serves them well in this pursuit.
 
+<img src='https://i.pinimg.com/originals/71/1e/00/711e0015ff6ac6e4a729eed9c1845aab.png' style='float:right;width:30%;padding:20px'/>
 
-<hr class="classdivider">
+<hr class="classdivider" style="clear:both">
 <h1><a class="internal-link" name="internal-seldarine">The Seldarine</a></h1>
 
-The pantheon of elven deities are called the Seldarine. These gods were the ones who brought word to Corellon of Lolth's radical ideas, and their creator rewarded them by bringing them with him when he withdraw to Arvandor. When Lolth lured some of the primal elves away from Corellon with her promises, this high-ranking core of divine entities remained loyal. Because they rejected Lolth's treacherous ways, they retained their primal power and their immortality.
+The pantheon of elven deities, called the Seldarine, includes Corellon and the group of primal elves whom he graced with divinity. These gods were the ones who brought word to Corellon of Lolth’s radical ideas, and their creator rewarded them by bringing them with him when he withdraw to Arvandor. When Lolth lured some of the primal elves away from Corellon with her promises, this high-ranking core of divine entities remained loyal. Because they rejected Lolth’s treacherous ways, they retained their primal power and their immortality.
 
 Surface elves, and other elves who dwell in the light,revere these entities for remaining true to Corellon. In practice, this reverence is expressed more as the honoring of an ancestor or relative than the worshiping of a god, for all the elves still remain some memories of the Seldarine.
 
-Contrary to the Seldarine are the divine elves led by Lolth, the Dark Seldarine.
+The Elf Deities table enumerates the members of the Seldarine. For each god, the table notes alignment, province (the god’s main areas of interest and responsibility), suggested domains for clerics who serve the god, and a common symbol of the god. Several of the gods in the table are described in this section.
 
-A description of the both can be found *<a href="../WorldFaith/a_pantheons.html#elven">here</a>*.
+<div class="columnstwo">
+
+- <div class="block classTable frame" markdown="1">
+
+  ### The Seldarine
+
+  | Deity                                                 | Alignment | Province                        | Domains                              | Common Symbol                     |
+  | :---------------------------------------------------- | :-------: | :------------------------------ | :----------------------------------- | :-------------------------------- |
+  | Kirith Sotheril                                       |    NG     | Divination, illusion            | Arcana, Illusion, Trickery           | Rainbow sphere                    |
+  | Naralis Analor                                        |    NG     | Healing, suffering, death       | Death, Life, Repose                  | White dove                        |
+  | Rellavar Danuvien                                     |    NG     | Winter, harsh weather           | Tempest, Winter                      | Spear between two circles         |
+  | Tethrin Veralde                                       |    NG     | Battle, sword fighting          | Heroism, War                         | Crossed swords above a full moon  |
+  | Aerdrie Faenya                                        |    CG     | Air, rain, fertility, birth     | Air, Life, Tempest                   | Bird silhouetted against a cloud  |
+  | Angharradh                                            |    CG     | Wisdom, growth, protection      | Knowledge, Life, Protection          | Three interlocking circles        |
+  | Alobal Lorfiril                                       |    CG     | Revelry, mirth                  | Celebration, Chaos, Trickery, Whimsy | Wine glass                        |
+  | Araleth Letheranil                                    |    CG     | Light, stars, revelations       | Fate, Knowledge, Light, Time         | Shaft of light                    |
+  | <a href="#corellonlarethian">Corellon Larethian</a>   |    CG     | Primary god of elves            | Arcana, Life, Leadership, Light      | Quarter moon or starburst         |
+  | <a href="#deepsashelas">Deep Sashelas</a>             |    CG     | Creativity, knowledge, sea      | Knowledge, Ocean, Tempest            | Dolphin                           |
+  | Elebrin Liothiel                                      |    CG     | Abundance, gardens, the harvest | Celebration, Life, Nature            | Acorn                             |
+  | <a href="#hanalicelanil">Hanali Celanil</a>           |    CG     | Love, beauty, the arts          | Celebration, Charm, Life             | Golden heart                      |
+  | <a href="#labelasenoreth">Labelas Enoreth</a>         |    CG     | Time, history, memory           | Fate, Knowledge, Time                | Setting sun                       |
+  | Melira Taralen                                        |    CG     | Poetry, songs                   | Celebration, Charm, Trickery         | Lute                              |
+  | Mythrien Sarath                                       |    CG     | Abjuration, protective magic    | Arcana, Protection                   | Row of three intertwined rings    |
+  | Solonor Thelandira                                    |    CG     | Archery, hunting, survival      | Hunting, Nature, Survival            | Silver arrow with green fletching |
+  | <a href="#rillifanerallathil">Rillifane Rallathil</a> |    CG     | Nature, beasts, the seasons     | Hunting, Nature                      | Oak                               |
+  | Sarula lliene                                         |    CG     | Lakes, streams                  | Nature, Ocean                        | Three lines symbolizing waves     |
+  | <a href="#sehaninemoonbow">Sehanine Moonbow</a>       |    CG     | Dreams, death, travel           | Fate, Repose                         | Full moon under a moonbow         |
+  | Ye'Cind                                               |    CG     | Music, enchantment              | Celebration, Charm, Trickery         | Recorder                          |
+  | Darahl Tilvenar                                       |    LN     | Fire, earth, metalwork          | Earth, Fire, Forge                   | Flame between hands               |
+  | Vandria Gilmadrith                                    |    LN     | War, grief, justice, vigilance  | Balance, Punishment, War             | Weeping eye                       |
+  | Alathrien Druanna                                     |     N     | Runes, writing, spellcasting    | Arcana, Balance, Knowledge           | A quill or glyph                  |
+  | Erevan Ilesere                                        |    CN     | Mischief, change                | Chaos, Trickery, Whimsy              | Asymmetrical starburst            |
+  | Fenmarel Mestarine                                    |    CN     | Solitude, outcasts              | Fate, Hunting, Nature, Survival      | Two peering elven eyes            |
+  | Gadhelyn                                              |    CN     | Independence, outlawry          | Hunting, Strength, Survival          | Leaf-shaped arrowhead             |
+  | Shevarash                                             |    CN     | Vengeance, loss, hatred         | Death, Punishment, Vengeance         | Broken arrow over a tear          |
+  | Tarsellis Meunniduin                                  |    CN     | Mountains, rivers, wild places  | Balance, Nature, Survival            | Mountain with a river             |
+  | Zandilar                                              |    CN     | Romance, lust, dance            | Celebration, Charm, Trickery, Whimsy | Lips                              |
+
+  </div>
+
+- <a name="corellonlarethian"><h5>Corellon Larethian, The Protector</h5></a>
+
+  The grandfather of all elves is both chaos and beauty personified.
+  Corellon is as fluid and changeable as a breeze or a brook - quick to anger, but equally quick to forgive and forget.
+  The god loves magic, artistry, nature, and freedom.
+  Anyone who has felt the mystical presence of Corellon describes it as a joy like no other, followed by a deep melancholy when his presence is no longer felt.
+  Corellon doesn't expect much from followers - no complex rituals or frequent ceremonies or even regular prayer.
+  Corellon wants them to enjoy life, to try new things, to imagine what they desire and then pursue it, and to be kind to others.
+  In return for this freedom from the usual requirements of religion, Corellon expects them to address their own problems and not pray for aid in every crisis.
+
+  These precepts are instilled within every elf, since all elves are ultimately descended from fragments of Corellon.
+  When elves ask their priests how one might become able to sense Corellon's presence, the priests often say, "First, truly know yourself. Only then can you feel our creator near."
+
+  Services in Corellon's honor are typically conducted in natural stone amphitheaters or bowl-shaped forest clearings.
+  In keeping with Corellon's chief commandment for everyone to be free, all who attend are allowed to show their obeisance however they choose, as long as their way of contributing combines with the others to form a grand display of reverence.
+  Such a gathering has the atmosphere of a festival rather than of an organized worship service.
+
+  Many elven wizards honor Corellon and adorn their spellbooks and towers with the god's symbols.
+  Some of them speculate that Corellon is the personification of raw magic itself, the primal force that underlies the multiverse.
+  Corellon is not magic tamed or shaped, but magic in its original form: a well of endless, splendid possibilities.
+
+- <a name="deepsashelas"><h5>Deep Sashelas, Lord of the Undersea</h5></a>
+  Deep Sashelas, sometimes known just as Sashelas, is the elven deity of the sea, seafaring, and knowledge.
+  His awareness of all lore, not only that about the sea, is seemingly limitless.
+  He is especially beloved by sea elves, dolphins, and elf sages.
+
+  Many elven seafarers toss offerings of gold and jewels overboard, beseeching Sashelas to calm storms or provide favorable winds, and he is inclined to aid them even if they aren't fully dedicated to his worship.
+  Ceremonies honoring Sashelas are held underwater at times of uncommonly high tides or during electrical storms, when flashes of lightning above the waves provide illumination to the calmer realm below the surface.
+
+  **Sea of Knowledge**.
+  Over time, much of the world sinks to the depths of the oceans and is thought to be lost forever, but it isn't lost to everyone.
+  Sashelas gleans much about the world above the waves from that which sinks beneath them: every shipwreck, every offering, and the wealth and knowledge of every seaside city swallowed by a giant wave are added to Sashelas's ever-expanding library of lore.
+  Knowledge that has disappeared from the surface world might still be known to the priests of Sashelas, gained through communion with their god.
+  Messengers who never reached their destination, ships filled with scrolls from an ancient library, scholars whose works were lost at sea - all of these add to Sashelas's storehouse.
+
+  Away from the open sea, many lagoons, reefs, and grottoes have shrines devoted to Sashelas.
+  Many come in reverence to bathe in the waters in the hope of receiving visions from the god, since it is known that Sashelas is fond of sharing knowledge with those who are true seekers.
+  Scholars, monks, and clerics visit these elaborately decorated seaside temples, immersing themselves in the blessed waters and looking for enlightenment.
+  Because the god also dispenses lore through dreams and reveries of memory, many artists and poets worship Sashelas.
+  They seek his creative insight by spending time floating on the waves, then return to shore to write down or sketch out the gifts bequeathed to them.
+
+- <a name="hanalicelanil"><h5>Hanali Celanil, The Heart of Gold</h5></a>
+  Hanali is the elven god of beauty and love.
+  Usually depicted as a beautiful androgynous elf, Hanali's gender in a story seldom matters, for no matter how much heartache and confusion the stories contain, they end with affairs of the heart properly sorted out and everyone in love with the person, or persons, they were fated to be with.
+  Stories of Hanali's romantic adventures among elves and other mortals are perennial favorites when sung by elven bards and poets.
+
+  In Arvandor, Hanali maintains a hidden pool called Evergold.
+  She bathes in it at least once a day.
+  It's said that the water of Evergold keeps her young and breathtakingly beautiful, but this is certainly a poetic myth, since all the Seldarine appear young and beautiful, with or without having bathed in this fountain.
+  Mortal elves who are invited to join Hanali in the pool are said to retain their youthfulness and to delay the onset of Transcendence by at least a century.
+  More than a few elves claim to have experienced this benefit, and the truth of it is attested by many bards - sometimes in all earnestness, sometimes with a knowing wink.
+
+  Priests of Hanali preside over most family-related ceremonies.
+  Other than name-giving ceremonies and a spate of spring celebrations, the priests conduct few observances.
+
+  **Pools of Beauty**.
+  Those who worship Hanali Celanil build shrines in her honor around natural pools of clear spring water - a representation of the purity and power of Evergold.
+  Her priests often surround such an area with flowers or arrange stones in a way that accentuates the natural beauty of the place.
+  In a shrine dedicated to the worship of several elven deities, an alabaster bowl of water, usually with yellow flowers or petals floating in it, is left in reverence to Hanali.
+
+  Devotees of Hanali Celanil are known for taking the initiative in beautifying their surroundings without asking or expecting others to follow suit.
+  If a shrine to the gods is beginning to look somewhat untidy, her followers will straighten things up, bring fresh flowers, and refresh offerings of food, water, and wine.
+  Especially vigilant individuals might even decide to clean up after others who carelessly spill a drink in a tavern or leave their dinner table in a slovenly condition, all in humble service to their god.
+
+- <a name="labelasenoreth"><h5>Labelas Enoreth, Lord of the Continuum</h5></a>
+  Even though elves live far longer than most other humanoids, they show few physical signs of aging until they become very old.
+  By the time an elf show any signs of age, the elf has already lived for centuries For this longevity and long-lasting vitality, they thank and revere Labelas Enoreth.
+  Labelas is portrayed as an elderly elf with silver hair, still-active eyes that once were bright blue but now are clouded and gray, fine wrinkles around the eyes and mouth, and a right hand slightly impaired by the effects of age.
+  If anything, these symptoms of mortality make the god even more handsome and stately in the eyes of his followers than he was in his youth.
+
+  Elves tend to give Labelas little regard until they experience Remembrance.
+  Like Corellon and Hanali, Labelas makes few demands on his followers.
+  A few minutes each day spent thanking him for his gift of long life and good health, and occasionally placing a fresh flower in one of his shrines, is generally all that's expected.
+  When an elf develops unusual ailments in old age and appears headed for decrepitude, other elves might wonder if these are the repercussions for not paying Labelas his due.
+
+  Most settlements have only one or two priests of Labelas.
+  These individuals are elves well past their prime but who have not yet begun to withdraw into themselves.
+  Their duties involve guiding elves who have recently experienced Remembrance, and are thus beginning the journey into introversion in the waning days of one's mortal life.
+  The priests also preside over funeral celebrations, since Labelas is also honored for his role in seeing that elves experience beneficial reincarnations.
+
+- <a name="rillifanerallathil">Rillifane Rallathil, The Leaflord</h4></a>
+  Like the other elven deities, Rillifane Rallathil was once a primal elf sprung from of Corellon's divinity.
+  The original primal elves - and indeed, Corellon himself - have no "true form."
+  Their common, elf-like portrayals are a convenience adopted after the elves took on permanent humanoid form.
+
+  When the other elven deities decided on humanoid forms, Rillifane took a different approach.
+  He took as his principal form that of an enormous oak tree, taller and wider than any other.
+  Its roots are so deep and far-reaching that they touch the roots of every other plant in the world, or so it's said.
+  Through this network of tendrils, Rillifane remains aware of everything that happens in the forest.
+
+  When he chooses to travel to other planes and worlds, Rillifane takes the appearance of an uncommonly tall and strong wood elf with dark skin, handsome features, and twigs and leaves protruding from his hair.
+  In either guise, his main concerns are the welfare of forests and prairies, the passing of the seasons, and the lives of beasts.
+  Most of his followers and priests are elven druids.
+  They're just as insular and secretive as any other druids, which means their motives are often not clear to those around them.
+
+  Energetic debates have been held over whether Rillifane's oak tree exists only on Arvandor; has roots that extend to all worlds; is duplicated fully on every world that has plant life; or is only a metaphor for Rillifane's deep connection to nature.
+  A growing sentiment among Rillifane's druids holds that the correct answer is "All of the above or none of the above, depending on Rillifane's mood."
+
+  Rillifane is also the patron of the trees which are the final from of an elf.
+  In an elf community, the druids of Rillifane take care of these trees, and communicate with them.
+  In this communication they gently ask the elder tree elves to grow in forms where their descendants can live.
+  As elves live in the branches of their ancestors, one can understand why they are so protective of their homes.
+
+- <a name="sehaninemoonbow"><h5>Sehanine Moonbow, Daughter of the Night Skies</h5></a>
+  Sehanine is Corellon's beloved; Corellon is Sehanine's creator.
+  Sehanine is Corellon's shadow; Corellon is Sehanine's reflection.
+  Sehanine is the moon; Corellon is the moon's crescent.
+  Sehanine is the night sky; Corellon is the sun and all the stars.
+
+  No god of the Seldarine is as intertwined with Corellon or presents so many paradoxes for worshipers to unravel, but this role befits Sehanine, for she is a god of mysteries as much as anything else.
+  Many non-elves find it easiest to think of Sehanine as the companion of Corellon and the god of the moon, but to elves she is much more than that.
+  The moon passes from one phase to the next, and Sehanine watches over all such cycles, be it from season to season or cradle to grave.
+  She is midwife to elven mothers, ushering souls into the world.
+  She is also thought to stand beside dying elves, to greet their departing spirits and set them on the path to Arvandor.
+
+  Sehanine serves as patron of the lost and any who travel, as well as those who seek meaning.
+  Elves beseech her to provide relief from madness, and they mark her symbol on graves and tombs to invoke her protection of the dead.
+  In these comforting aspects, Sehanine is often imagined as a willowy, gentle male elf with shining eyes that reveal both melancholy and tenderness in their gaze when depicted alongside his beloved Corellon.
+
+  In stories of the Seldarine, Sehanine is Corellon's steadfast companion, the one being who can persuade Corellon to pause and reflect rather than allow his emotions to rule him.
+  Corellon can be resplendent with joy or shaking with anger, but a word or a look from Sehanine is enough to check or subtly alter Corellon's mood and behavior, redirecting the god to a less extreme course of action.
+  Some elven legends treat Sehanine as Corellon's spouse or as a favored child, but other stories hint at a deeper truth.
+  They say Sehanine was formed from the first drop of blood spilled from Corellon's body, and so she reminds Corellon that even as a divine being, he can be harmed.
+
+  **Lunar Worship**.
+  Temples to Sehanine Moonbow are almost always aligned with the heavens to enable the priests to track the motion and phases of the moon.
+  The sleeping quarters of the priests are positioned such that a shaft of light from the full moon falls on them while they are sleeping, and this silver light of Sehanine can influence their dreams and impart messages to them. Instead of going into trance, Sehanine's priests often seek her guidance by entering into a state of true sleep and sifting through their dreams for signs.
+
+  Offerings to Sehanine are mostly made from silver, often shaped in a way that is reminiscent of the full moon.
+  Cups, bowls, cloak pins, and plates of silver are found at her shrines, as well as those dedicated to the Seldarine collectively.
+  The weapons and gear used by her followers, such as silver arrowheads, knife blades, and wooden shields, are often decorated with a stylized image of Sehanine's eye with rays coming out of it - a warning to the elves' enemies that Sehanine's gaze has fallen upon them.
+
+</div>
+
+### The Dark Seldarine
+
+The pantheon of elven deities commonly worshiped by drow are called the Dark Seldarine.
+They are loyal followers of Lolth, with the exception of Lolth's daughter, Eilistraee, who serves as patron to drow exiles and rebels.
+As Lolth's power grows, the influence of the other Dark Seldarine steadily wanes.
+
+<div class="columnstwo">
+
+- <div class="block classTable frame" markdown="1">
+
+  ### The Dark Seldarine
+
+  | Deity       | Alignment | Province                                     | Domains             | Common Symbol                      |
+  | :---------- | :-------: | :------------------------------------------- | :------------------ | :--------------------------------- |
+  | Eilistraee  |    CG     | Goddess of beauty, freedom, and swordwork    | Light, Nature, Life | Female drow with a silver blade    |
+  | Ghaunadaur  |    CE     | God of oozes, slimes and outcasts            | War                 | Purple eye with black sclera       |
+  | Kiaransalee |    CE     | Goddess of undead, necromancy, and vengeance | Arcana, Death       | Drow hand with silver rings        |
+  | Lolth       |    CE     | Goddess of darkness, drow, and spiders       | War, Trickery       | Spider                             |
+  | Selvetarm   |    CE     | God of warriors and slaughter                | War                 | Spider over crossed sword and mace |
+  | Vhaeraun    |    CE     | God of arrogance, surface raids and thievery | Trickery, War       | Black mask with blue eyes          |
+
+  </div>
+
+</div>
 
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-eladrinFeywild">Eladrin and the Feywild</a></h1>
@@ -716,8 +915,6 @@ The natives are boisterous, tempestuous, and ready to draw blood over the slight
 Those are the obvious dangers. The subtle danger of the Feywild is that it can act like an addictive drug on visitors: the longer they remain, the more likely they will never want to leave. Anyone who stays more than a month might need to be dragged back to their home plane by well-meaning friends, then guarded or confined until the realm's pull on the person wanes.
 
 Time in the Feywild is a tricky subject as well. Days spent in the Feywild might turn out to be seconds on the material plane, or they might turn out to be centuries. Two creatures that both exit the Feywild at the same time might end up being split up vastly by the passage of time, never to see each other again. Although this is an extremely rare occurrence, it is vital to take precautions against this time-warping effect when entering or exiting this echo plane. Wearing or holding iron or steel materials appears to stop time from distorting itself, although it is rather difficult to bring these metals into the Feywild in the first place. The archfey seem to have some sort of control over this effect, and simply traveling with a fey creature seems to stop this effect from happening altogether, which suggests that it is some sort of defense mechanism meant to stop mortals from interfering with the dealings of the fey.
-
-</div>
 
 ### The Courts
 <img src='https://robertrigo.github.io/pics/feywild.png' style='float:right;width:45%;padding:20px' />

@@ -944,10 +944,52 @@ Kunek society is highly rigid and structured, with a hierarchical collective lea
 
 Although kunek are not aggressive by nature, they will fiercely defend their warrens against attack and have occasionally even been known to go to war with neighboring warrens.
 
-#### Religion
+<a name="kunek-religion"><h4>Religion</h4></a>
+
+The unassuming rabbitfolk worship a trinity of deities, with their patron god El-ahrairah at its head.
+
 Kunek religion prizes wisdom, cunning and caution as virtues, believing if one uses their gifts to the utmost, they will leave a lasting legacy upon the world in the form of friendships and children that will echo throughout the ages.
 
-They worship a trinity of deities, of which a description can be found *<a href="../WorldFaith/a_pantheons.html#nonhuman">here</a>*.
+The Kunek Deities table lists the members of their pantheon.
+For each god, the table notes alignment, province (the god’s main areas of interest and responsibility) and suggested domains for clerics who serve the god.
+
+<div class="columnstwo">
+
+- <div class="block classTable frame" markdown="1">
+
+  ##### Kunek Deities
+
+  | Deity                                | Alignment | Portfolio                               | Domains                                     |
+  | :----------------------------------- | :-------: | :-------------------------------------- | :------------------------------------------ |
+  | <a href="frith">Frith</a>            |    NG     | God of creation, the sun and predators  | Hunting, Life, Light, Nature, Repose        |
+  | <a href="elahrairah">El-ahrairah</a> |    CG     | God of trickery, mischief and survival  | Chaos, Protection, Survival, Trickery, Luck |
+  | <a href="inlerah">Inlé-rah</a>       |     N     | God of death, vengeance and mourning    | Balance, Death, Fate, Repose, Knowledge     |
+  | <a href="raihrah">Raihrah</a>        |    CE     | God of pride, betrayal and imprisonment | Chaos, Death, Evil, Trickery, Vengeance     |
+
+  </div>
+
+- <a name="frith"><h6>Frith, The First Light</h6></a>
+  In kunek mythos, Frith is the benign creator-god, providing rabbitfolk with a bountiful world to thrive in.
+  Knowing that an unchallenged kunek folk would destroy itself through overpopulation, Frith also created "elil" (predators) and many other dangers.
+  The sun is the face of Frith, and worshipers commonly whisper a reverent prayer at dawn to thank The First Light for the world they live in.
+
+- <a name="elahrairah"><h6>El-ahrairah, The Prince with a Thousand Foes</h6></a>
+  El-ahrairah, patron god to rabbitfolk, embodies the ideal kunek; clever, tricky and devoted to the well-being of their warren.
+  His name is a contraction of the phrase "Elil-hrair-rah", meaning "The Prince with a Thousand Foes".
+  The many tales of El-ahrairah's scrapes often differ from warren to warren, but his cleverness and excessive hubris are present in all.
+
+- <a name="inlerah"><h6>Inlé-rah, The Black Rabbit</h6></a>
+  The moon, known as Inlé or the Land of Darkness, is the realm of Inlé-rah, kunek god of death and sombre servant to Frith.
+  His grim duty is to ensure all rabbitfolk die at their destined time, and to avenges any killed before their time.
+  Kunek in mourning often pray to Inlé-rah at dusk to watch over their loved ones.
+
+- <a name="raihrah"><h6>Raihrah, The Rainbow Prince</h6></a>
+  Legend states Raihrah was once Frith's loyal assistant, helping them in organizing the world.
+  Raihrah, seeing the following El-ahrairah had effortlessly amassed, choked on his pride.
+  Having turned his back on his duties, Raihrah now focuses on thwarting and harming El-ahrairah whenever he can, yet always ends up outsmarted.
+  He is no longer directly worshiped by most kunek, yet many sayings and curses still name him.
+
+</div>
 
 #### Kunek Names
 Kunek have two names. Their first name is usually taken from human or halfling cultures in their geographical areas, whilst their family names take inspiration from the environment and the deeds of their ancestors—their family names are fluid and prone to change every few generations, whether from changing reputations, a new deed, or settling in a new area.

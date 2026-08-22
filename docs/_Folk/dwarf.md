@@ -662,9 +662,76 @@ Unlike some other races that guard their territory by creating features that act
 >
 > --Vistra Frostbeard
 
-The religion of the dwarves is at the root of the societal roles that dwarves follow. Where most other creatures view their deities as ultrapowerful beings who stand forever apart from their worshipers, the dwarves see their gods as exemplars who blaze a path for their lives to follow. Dwarven deities exist in a wide variety, with a few common across many worlds. They are collectively known as the Mordinsamman.
+The religion of the dwarves is at the root of the societal roles that dwarves follow.
+Where most other creatures view their deities as ultrapowerful beings who stand forever apart from their worshipers, the dwarves see their gods as exemplars who blaze a path for their lives to follow.
+Dwarven deities exist in a wide variety, with a few common across many worlds. They are collectively known as the Mordinsamman.
 
-A description of the Mordinsamman can be found *<a href="../WorldFaith/a_pantheons.html#dwarven">here</a>*.
+Moradin is foremost among the dwarven pantheon, the epitome of everything dwarves strive to be.
+The rest of the group consists of those first dwarves who performed their labors so well that they could almost duplicate Moradin’s level of skill.
+
+The Dwarf Deities table lists the members of the Mordinsamman.
+For each god, the table notes alignment, province (the god’s main areas of interest and responsibility), suggested domains for clerics who serve the god, and a common symbol of the god.
+Several of the gods in the table are described below.
+
+<div class="columnstwo">
+
+- <div class="block classTable frame" markdown="1">
+
+  #### Dwarven Deities (The Mordinsamman)
+
+  | Deity                                                       | Alignment | Province                                      | Domains                              | Common Symbol                              |
+  | :---------------------------------------------------------- | :-------: | :-------------------------------------------- | :----------------------------------- | :----------------------------------------- |
+  | <a href="#berronartruesilver">Berronar Truesilver</a>       |    LG     | Safety, home, honor, truth                    | Life, Light, Order, Protection       | Intertwined silver rings                   |
+  | <a href="#clangeddinsilverbeard">Clangeddin Silverbeard</a> |    LG     | War, strategy                                 | Leadership, Order, Strength, War     | Crossed silver battleaxes                  |
+  | Gorm Gulthyn                                                |    LG     | Vigilance                                     | Order, Protection, War               | Bronze half-mask                           |
+  | <a href="#moradin">Moradin</a>                              |    LG     | Primary deity of dwarves                      | Fate, Forge, Leadership, Life, Order | Hammer and anvil                           |
+  | Ulaa                                                        |    LG     | Mining, quarrying                             | Earth, Forge                         | A miner's pick                             |
+  | Marthammor Duin                                             |    NG     | Explorers, wanderers, the lost                | Nature, Protection, Survival         | Upright mace in front of a tall boot       |
+  | Muamman Duathal                                             |    NG     | Storms, travel                                | Life, Tempest                        | Mace held in gauntlets                     |
+  | Dugmaren Brightmantle                                       |    CG     | Discovery, invention                          | Forge, Knowledge                     | Open book                                  |
+  | Haela Brightaxe                                             |    CG     | Combat prowess, luck in battle                | Fortune, War                         | Upright sword with blade sheathed in flame |
+  | Sharindlar                                                  |    CG     | Healing, love                                 | Charm, Life                          | Burning needle                             |
+  | Thard Harr                                                  |    CG     | Wilderness, hunting                           | Hunting, Nature, Survival, Winter    | Two clawed gauntlets                       |
+  | Valkauna                                                    |    LN     | Oaths, birth, aging, death                    | Death, Life, Repose                  | A silver ewer                              |
+  | Dumathoin                                                   |     N     | Buried secrets, protector of the dwarven dead | Death, Earth, Knowledge, Repose      | Gemstone in a mountain                     |
+  | Tharmekhul                                                  |     N     | Fire, forges, molten rock                     | Earth, Forge, Light                  | Fiery axe                                  |
+  | Thautam                                                     |     N     | Mysteries, darkness, lost treasures           | Knowledge, Trickery                  | Blindfold                                  |
+  | Vergadain                                                   |     N     | Luck, wealth                                  | Fortune, Trickery                    | Gold coin bearing a dwarf's face           |
+  | Hanseath                                                    |    CN     | Festivity, brewing, song                      | Agriculture, Celebration, Trickery   | Beer stein                                 |
+  | <a href="#abbathor">Abbathor</a>                            |    NE     | Greed                                         | Illusion, Trickery                   | Jeweled dagger, point down                 |
+  | Roknar                                                      |    NE     | Lies, intrigue                                | Charm, Trickery                      | Hands filled with coins                    |
+
+  </div>
+
+- <a name="berronartruesilver"><h5>Berronar Truesilver, The Matron of Home and Hearth</h5></a>
+  Berronar is the patron of honor, and law. She lays out the rules for managing a dwarven clan.
+  Berronar's code establishes the laws of the dwarves, including contracts, trade agreements, and every other kind of bond forged through words and deeds. As Moradin provides the example that dwarves strive to match, Berronar provides the bonds that create dwarven society and culture.
+
+- <a name="clangeddinsilverbeard"><h5>Clangeddin Silverbeard, The Father of Battle</h5></a>
+  Clangeddin Silverbeard is the patron of dwarven warriors. Impetuous and brave yet a cunning strategist, Clangeddin embodies the warrior's spirit that makes dwarven armies such formidable foes.
+  Clangeddin encourages dwarven warriors to venture out of the stronghold in search of foes to defeat. He particularly hates goblinoids, giants, and dragons. He compels his followers to seek out and dispatch such enemies before they can become a threat to the stronghold.
+  His faithful are mainly full-time warriors assigned to weapon training from an early age and expected to take the fight to the enemy. The two axes he wields embody his attitude, since he forsakes the added protection of a shield for the chance to deal more damage to his enemies.
+  Clangeddin's priests are warriors who lead from the front. When defending a stronghold, they guard the walls and lead sorties against enemy positions. When an external threat is near, the priests plan guerrilla raids to disrupt invaders before they can besiege the stronghold.
+
+- <a name="moradin"><h5>Moradin, The Father of the Dwarves</h5></a>
+  <img src='../assets/images/deity/moradin.webp' style='float:right;width:30%;padding:20px' />
+  Moradin crafted his children from metal, stone and gems, and imbued them with souls as he cooled them with his breath.
+  Moradin is the master of every craft practiced by the dwarves and the patron of artisans. He expects his children to follow in his footsteps, studying his techniques and aspiring to one day match his expertise.
+  Priests of Moradin are responsible for judging and assessing the work of a stronghold's artisans. They keep great volumes that describe various crafting techniques in detail, and use the guidelines in them to judge the quality of individual works.
+  The priests also evaluate young dwarves to determine the youths' vocations. The decisions of the priests are accepted without question.
+
+- <a name="abbathor"><h5>Abbathor, The Great Master of Greed</h5></a>
+  Abbathor exerts an influence, no matter how subtle, over every dwarven heart. Abbathor teaches that greed isn't only desirable, but necessary to keep the dwarves in a strong and safe position.
+  Abbathor has no skill in crafting. Instead, he relies on his ability as a thief to take ownership of what he wants. Why work so hard to manufacture something when a much easier path to riches lies open?
+  Abbathor is the only advocate for change within the dwarven pantheon. He can inspire dwarves to seek shortcuts, normally frowned upon, but sometimes those methods turn out to be efficient techniques that improve a clan's capabilities.
+
+</div>
+
+#### Other Deities
+
+The dwarven pantheon is quite large.
+The four deities discussed above are acknowledged by occupants of almost every stronghold, while the following gods are worshiped by some clans and ignored by others.
+These deities include Dugmaren Brightmantle, the Gleam in the Eye; Dumathoin, the Keeper of Secrets under the Mountain; Gorm Gulthyn, the Golden Guardian; Haela Brightaxe, the Lady of the Fray; Marthammor Duin, Watcher over Wanderers; Sharindlar, Lady of Mercy; and Vergadain, the Merchant King.
 
 #### The dual role of Abbathor
 

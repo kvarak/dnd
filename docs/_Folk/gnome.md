@@ -706,45 +706,147 @@ A few svirfneblin become merchants who deal with other races both above and belo
 >
 > -- Griballix, gnome of Sigil
 
-It shouldn't be surprising that gnomes, inveterate inventors
-that they are, have an incredible number of legends
-they tell about their deities. Every warren has its unique
-repertoire of tales -some of them no doubt grounded
-in fact, while others could be the products of imagination.
-The distinction isn't important to the folk who take
-inspiration and pride from the stories of their gods, because
-each legend is true in its own way.
+It shouldn't be surprising that gnomes, inveterate inventors that they are, have an incredible number of legends they tell about their deities.
+Every warren has its unique repertoire of tales - some of them no doubt grounded in fact, while others could be the products of imagination.
+The distinction isn't important to the folk who take inspiration and pride from the stories of their gods, because each legend is true in its own way.
 
-Each deity in the gnome pantheon is an expert in
-multiple fields of activity who is capable of incredible
-feats. Yet these heroes also display shortcomings, such
-as hesitance or selfishness. Only the chief gnome deity,
-Garl Glittergold, can convince the others to set aside
-personal concerns to embark on a grand excursion or to
-work together toward a common goal. And according to
-the gnomes, it is proven that their gods can accomplish
-the impossible when they band together.
+Each deity in the gnome pantheon is an expert in multiple fields of activity who is capable of incredible feats.
+Yet these heroes also display shortcomings, such as hesitance or selfishness.
+Only the chief gnome deity, Garl Glittergold, can convince the others to set aside personal concerns to embark on a grand excursion or to work together toward a common goal.
+And according to the gnomes, it is proven that their gods can accomplish the impossible when they band together.
 
-Perhaps because of each community's particular outlook
-or because the gods frequently use illusory guises,
-several diverse ideas exist about the membership of the
-pantheon. In some communities, the gods are thought
-to be all male or all female; in some they are animals, or
-constructs made by Garl Glittergold. Some gnomes say
-Garl has five allies, while others tally eleven.
+Perhaps because of each community's particular outlook or because the gods frequently use illusory guises, several diverse ideas exist about the membership of the pantheon.
+In some communities, the gods are thought to be all male or all female; in some they are animals, or constructs made by Garl Glittergold.
+Some gnomes say Garl has five allies, while others tally eleven.
 
-A consensus of sorts emerges from the totality of
-these beliefs. Most gnomes believe that Garl Glittergold
-and his seven able assistants dwell on, in, or under
-seven summits known as the Golden Hills. This is the
-place from where new gnomish souls are sent out to
-experience the wider world, and to which they return to
-join the hallowed community of those who have come
-before them. Urdlen is the only gnome deity that doesn't
-dwell there, having been exiled by Garl for its refusal to
-cooperate with the rest of the group.
+A consensus of sorts emerges from the totality of these beliefs.
+Most gnomes believe that Garl Glittergold and his seven able assistants dwell on, in, or under seven summits known as the Golden Hills.
+This is the place from where new gnomish souls are sent out to experience the wider world, and to which they return to join the hallowed community of those who have come before them.
+Urdlen is the only gnome deity that doesn't dwell there, having been exiled by Garl for its refusal to cooperate with the rest of the group.
 
-A description of gnomish deities can be found *<a href="../WorldFaith/a_pantheons.html#gnomish">here</a>*.
+The Gnome Deities table lists the members of the gnome pantheon.
+For each god, the table notes alignment, province (the god’s main areas of interest and responsibility), suggested domains for clerics who serve the god, and a common symbol of the god.
+Several of the gods in the table are described below.
+
+<div class="columnstwo">
+
+- <div class="classTable frame" markdown="1">
+
+  #### Gnomish Deities
+
+  | Deity                                                         | Alignment | Province                 | Domains                              | Common Symbol                           |
+  | :------------------------------------------------------------ | :-------: | :----------------------- | :----------------------------------- | :-------------------------------------- |
+  | <a href="#gaerdalironhand">Gaerdal Ironhand</a>               |    LG     | Protection               | Heroism, Protection, War             | Iron band                               |
+  | <a href="#garlglittergold">Garl Glittergold</a>               |    LG     | Primary god of gnomes    | Fortune, Illusion, Trickery, Whimsy  | Gold nugget                             |
+  | <a href="#baervanwildwanderer">Baervan Wildwanderer</a>       |    NG     | Woodlands                | Nature                               | Face of a raccoon                       |
+  | <a href="baravarcloakshadow">Baravar Cloakshadow</a>          |    NG     | Illusion, deception      | Arcana, Illusion, Trickery           | Dagger against a hooded cloak           |
+  | <a href="#flandalsteelskin">Flandal Steelskin</a>             |    NG     | Metalwork                | Fire, Forge, Knowledge               | Flaming hammer                          |
+  | <a href="#segojanearthcaller">Segojan Earthcaller</a>         |    NG     | Earth, the dead          | Life, Light, Repose                  | Glowing gemstone                        |
+  | <a href="#nebelun">Nebelun</a>                                |    CG     | Invention, luck          | Fortune, Knowledge, Trickery, Whimsy | Bellows and lizard tail                 |
+  | Sheyanna Flaxenstrand                                         |    CG     | Love, beauty, passion    | Celebration, Charm, Life, Light      | Two silver goblets                      |
+  | Rill Cleverthrush                                             |    LN     | Law, thought             | Fate, Knowledge                      | Interlocking gears                      |
+  | Bleredd                                                       |     N     | Labor, craft             | Fire, Forge                          | Iron mule                               |
+  | <a href="#callarduransmoothhands">Callarduran Smoothhands</a> |     N     | Mining, stone carving    | Earth, Forge, Knowledge              | Golden signet ring with sixpointed star |
+  | Gelf Darkhearth                                               |    CN     | Frustration, destruction | Chaos, Trickery, Vengeance, Whimsy   | Broken anvil                            |
+  | <a href="#urdlen">Urdlen</a>                                  |    CE     | Greed, murder            | Death, War                           | White-clawed mole emerging from ground  |
+
+  </div>
+
+- <a name="gaerdalironhand"><h5>Gaerdal Ironhand, The Shield of the Golden Hills</h5></a>
+  Gaerdal Ironhand has no use for amusements, and she doesn't deign to smile at any prank except those of Garl Glittergold.
+  Gaerdal obsesses about defense and vigilance, and she is an expert in fortification, siege tactics, combat, and traps.
+
+  Instead of bustling about as gnome deities normally do, Gaerdal has a tendency to dig in and hide out, and in many tales Garl finds it difficult to convince her to leave her home to join the others on adventures.
+  Some legends say this reluctance is due in part to an escapade that cost her the loss of her hand.
+  Flandal and Nebelun worked together to replace it with a stronger one made of iron, but her resentment over the mishap lingers.
+
+  Gnomes build their homes in hidden and defensible places because Gaerdal teaches them these techniques.
+  Every secret door, spy hole, and intruder alarm in a gnome warren is a tribute to Gaerdal's principles.
+
+- <a name="garlglittergold"><h5>Garl Glittergold, The Watchful Protector</h5></a>
+  <img src='../assets/images/deity/garlglittergold.webp' style='float:right;width:30%;padding:20px' />
+  When gnome children hear their first stories about the gods, they are introduced to a gold-skinned gnome with a wide grin and glittering gemstone eyes that shift colors like a kaleidoscope.
+  The youngsters quickly learn to recognize that their favorite character, the god of the gnomes, is about to steal the show.
+
+  A joker and a prankster, Garl Glittergold reminds gnomes that life is to be taken lightly, and that a good laugh will serve them better than a grim attitude.
+  When Garl cavorts with mischief on his mind, Moradin's beard might end up woven with giggling flowers, and Gruumsh's axe could sprout braying donkey heads at the most inopportune time.
+
+  **Cooperation Is Key**.
+  The legends about Garl Glittergold inspire gnomes to work together.
+  Garl knows that many heads and many hands make light work.
+  Although he also plays many pranks on his own, Garl is the one who gathers the heroes together for an enterprise that requires all their talents.
+  To provide specific guidance, Garl might send an omen to nudge a group of gnomes in a certain direction, or even manifest an avatar in the middle of a gnome burrow.
+  When Garl makes one of these rare appearances, it is to resolve a dispute that threatens a community.
+
+  **Brains over Brawn**.
+  Garl favors trickery and illusion over direct combat, preferring to use his mind to overcome a problem rather than his steel.
+  For gnomes to thrive, they must use their intellect and ingenuity.
+  But when push comes to shove, Garl uses Arumdina, his intelligent two-headed battle axe - capable of cleaving through any substance - to escape a perilous situation.
+
+- <a name="baervanwildwanderer"><h5>Baervan Wildwanderer, The Masked Leaf</h5></a>
+  Baervan Wildwanderer is the god of the forests and of those who travel, a peaceful soul whose explorations often turn into exciting adventures.
+  Baervan's constant companion is Chiktikka Fastpaws, a mischievous giant raccoon who often gets the duo into trouble.
+  Although Baervan isn't as much of a prankster as some of the other gods, she is often held responsible when Chiktikka does something outrageous, such as stealing Gruumsh's breakfast or peeing on Rillifane Rallathil's shoes.
+
+  Baervan can sing every bird's song, knows every type of plant that has ever grown, never gets lost, and can befriend anyone under the sun (as long as Chiktikka chooses to act pleasant rather than annoying).
+  Forest gnomes believe that they can speak to the animals of the woods and in the air because Baervan teaches their souls how to do so before they are born.
+
+- <a name="baravarcloakshadow"><h5>Baravar Cloakshadow, The Sly One</h5></a>
+  When gnomes arrived in the world, Baravar protected them by teaching them how to hide, use magic, and deceive their foes.
+  She was once entrapped by the goblin god Khurgorbaeyag, and after escaping and gaining her revenge, she began the practice of never wearing the same face twice, and she follows a different routine everyday so no one can predict what she might do.
+  Whengnomes tell stories of their gods' adventures, Baravar is always the last to be found when the group forms, but she nevertheless swiftly agrees to support Garl's plans.
+
+  Forest gnomes and deep gnomes owe their innate magical abilities to Baravar, and all gnomes get their natural defense against magic from her shrewdness.
+
+- <a name="flandalsteelskin"><h5>Flandal Steelskin, Master of Metal</h5></a>
+  The stories that gnomes tell of Flandal Steelskin typically feature some perfect item that he crafted or a misadventure that results from following his enormous nose, which can smell ore more easily than a wolf can smell a skunk.
+  The most often told legend of Flandal includes both elements.
+  Before creating Garl's marvelous axe, Arumdina, Flandal sniffed out the purest source of mithral: the heart of Imix.
+  With the aid of the other gnome gods, he stole the heart and turned it into a mithral forge that now burns with an eternal furious flame.
+
+  The legends of Flandal portray him not only as the god of metalcraft, but also of fire, glasswork and alchemy.
+  Rock gnomes attribute their knack for crafting devices and alchemical objects to Flandal's superlative skills in those areas.
+
+- <a name="segojanearthcaller"><h5>Segojan Earthcaller, Earthfriend</h5></a>
+  The gnomes know Segojan Earthcaller as a kind, modest hero.
+  He is said to be the best cook among the gnome gods and to have the power to heal any sickness, because he knows the medicinal and culinary uses of every creature and plant that lives underground.
+  During the misadventures of the gnome pantheon, Segojan contributes to the group through his healing abilities and the restorative power of his meals, and on many occasions the other gnome gods call upon him to use his ability to burrow through any substance.
+
+  Forest gnomes believe that their ability to speak with burrowing animals comes from Segojan.
+  All gnomes see Segojan as a healer of the sick and a protector of the hearth.
+  He is also revered in his role as a guide for gnomish souls after death, as long as the body is buried before worms claim it.
+  If a gnome's body isn't entrusted to Segojan by interring it, the soul is forced to find its own way to the afterlife.
+
+- <a name="nebelun"><h5>Nebelun, The Meddler</h5></a>
+  Nebelun is fearless, perhaps foolishly so.
+  Every invention of Nebelun's startswith a wild idea, nothing goes entirely according to plan, and her greatest exploits often spring from mistakes.
+  Who else would stroll in and steal Semuanya's tail as the lizard folk god splashed in his favorite pool?
+  Who else would use Thor's hammer to pound a nail and thus be inspired to invent the lightning rod?
+  Gari never needs to persuade Nebelun to join an excursion, but he and the rest of the pantheon do have to focus her attention on the task at hand, so that her madcap inventiveness doesn't derail the effort.
+
+  All gnomes see Nebelun as the delightful spirit of invention and discovery, even those whose livelihoods have nothing to do with the construction of odd devices.
+  Any accident that fortuitously results in a new discovery might be credited to Nebelun's benevolent meddling in the affairs of mortal gnomes.
+
+- <a name="callarduransmoothhands"><h5>Callarduran Smoothhands, The Deep Brother</h5></a>
+  Callarduran became the patron of the deep gnomes when he led them into the Underdark and taught them how to survive, but all gnomes see him as the embodiment of the drive to know more, to examine everything more minutely - and thereby make great discoveries.
+
+  Callarduran earned his moniker when, after stealing the heart of Ogremoch, he rubbed his hands smooth as he polished the heart and turned it into a magical stone.
+  The theft caused Ogremoch to turn to evil, but it gave Callarduran the power to control earth elementals - which, it is said, he can confer to deep gnomes by rubbing the stone and saying their names.
+
+- <a name="urdlen"><h5>Urdlen, The Crawler Below</h5></a>
+  Many pantheons include in their number a miscreant or an outlier - someone not to be emulated in the customary way, and often an entity whose existence serves as an object lesson and an example of what befalls mortals who conduct themselves the same way.
+  For the gnomes, this niche is filled by Urdlen, also known as the Glutton for its selfish and cruel behavior.
+
+  Though the details differ from telling to telling, all gnomes know the story of how Garl banished Urdlen from the Golden Hills because Urdlen refused to go on an important quest.
+  Despite Garl's efforts and the pleas of the rest of the pantheon, Urdlen selfishly refused to set his own interests aside and contribute to the group.
+
+  Every version of this story ends in some sort of tragedy - perhaps the loss of Gaerdal's hand, the affliction that caused Flandal to need new skin, or the disappearance of Baravar's shadow - and each one concludes with "And that is why Garl sent Urdlen into exile."
+  In tales of his later life, Urdlen is no longer a gnome but has become a greedy and destructive monster, a great blind and hairless mole with iron claws and teeth.
+
+  Gnomes believe that Urdlen exerts influence on their lives when they experience jealousy, greed, petulance, or envy.
+  Individuals are more likely to fall prey to these feelings when they don't spend enough time in activities with others, and so tales of Urdlen serve as a somber reminder of the importance of participating in society.
+
+</div>
 
 ## <a class="internal-link" name="internal-gnomeAdventurers">Gnome Adventurers</a>
 > *"I don't know how many times I've seen a gnome turn a dead end into a wonderful opportunity."*
