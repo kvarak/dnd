@@ -1,5 +1,8 @@
-# Use Jekyll base image (auto-detects platform for Mac/Linux/Windows compatibility)
-FROM jekyll/jekyll:4.2.2
+# jekyll/jekyll:4.2.2 only ships linux/amd64. ARG lets the builder pass a
+# different value without triggering the DL3029 constant-platform lint rule.
+# On Apple Silicon and Windows, Docker uses Rosetta/emulation automatically.
+ARG JEKYLL_PLATFORM=linux/amd64
+FROM --platform=${JEKYLL_PLATFORM} jekyll/jekyll:4.2.2
 
 # Set working directory
 WORKDIR /srv/jekyll

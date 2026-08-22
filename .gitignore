@@ -1,5 +1,6 @@
 # macOS
 .DS_Store
+.varlynrules
 
 # Jekyll build artifacts
 _site/
