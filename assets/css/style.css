@@ -176,14 +176,20 @@ h1+p::first-letter {
   font-size:3.5cm;
   padding-left:40px;
   margin-left:-40px;
-  margin-top:-0.3cm;
   padding-bottom:2px;
-  margin-bottom:-20px;
   background-image:linear-gradient(-45deg, #322814, #998250, #322814);
   background-clip:text;
   -webkit-background-clip:text;
   color:rgba(0,0,0,0)
 }
+
+/*
+Prevents subsequent headers from hovering to the right of
+decorative first letters if the paragraph is particularly short.
+*/
+h1+p+h2 { clear: left; }
+h1+p+h3 { clear: left; }
+h1+p+h4 { clear: left; }
 
 .featuresTable+p::first-letter {
   float:left;
