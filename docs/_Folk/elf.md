@@ -876,31 +876,6 @@ The Elf Deities table enumerates the members of the Seldarine. For each god, the
 
 </div>
 
-### The Dark Seldarine
-
-The pantheon of elven deities commonly worshiped by drow are called the Dark Seldarine.
-They are loyal followers of Lolth, with the exception of Lolth's daughter, Eilistraee, who serves as patron to drow exiles and rebels.
-As Lolth's power grows, the influence of the other Dark Seldarine steadily wanes.
-
-<div class="columnstwo">
-
-- <div class="block classTable frame" markdown="1">
-
-  ### The Dark Seldarine
-
-  | Deity       | Alignment | Province                                     | Domains             | Common Symbol                      |
-  | :---------- | :-------: | :------------------------------------------- | :------------------ | :--------------------------------- |
-  | Eilistraee  |    CG     | Goddess of beauty, freedom, and swordwork    | Light, Nature, Life | Female drow with a silver blade    |
-  | Ghaunadaur  |    CE     | God of oozes, slimes and outcasts            | War                 | Purple eye with black sclera       |
-  | Kiaransalee |    CE     | Goddess of undead, necromancy, and vengeance | Arcana, Death       | Drow hand with silver rings        |
-  | Lolth       |    CE     | Goddess of darkness, drow, and spiders       | War, Trickery       | Spider                             |
-  | Selvetarm   |    CE     | God of warriors and slaughter                | War                 | Spider over crossed sword and mace |
-  | Vhaeraun    |    CE     | God of arrogance, surface raids and thievery | Trickery, War       | Black mask with blue eyes          |
-
-  </div>
-
-</div>
-
 <hr class="classdivider">
 <h1><a class="internal-link" name="internal-eladrinFeywild">Eladrin and the Feywild</a></h1>
 
