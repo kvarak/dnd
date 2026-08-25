@@ -257,9 +257,10 @@ When you select one of these classes, it is modified as follows:
 
 - ### Barbarian
 
-  A dhampir barbarian can enter a blood rage.
-  When entering a rage, fighting a bleeding (wounded) enemy or the first time an enemy takes damage during a rage, you can choose to enter a blood rage.
+  A dhampir barbarian can enter a reckless hunger.
+  When attacking a bleeding (wounded) enemy, entering a rage or the first time an enemy takes damage while you are raging, you can choose to enter a reckless hunger.
   If you do, your AC is reduced by the rage damage from the barbarian class table, and your attack bonus is increased by the same amount.
+  This effect lasts until the end of combat, and ends early if you are knocked unconscious.
 
     <hr class="dividerinfolk">
 
