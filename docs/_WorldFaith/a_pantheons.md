@@ -182,7 +182,7 @@ Deities are often grouped by their followers' region or ancestry, though their p
 - <a name="zonkuthon"><h5>Zon-Kuthon, The Midnight Lord</h5></a>
   <img loading="lazy" src="../assets/images/deity/zonkuthon.webp" style='float:right;max-height:100px;min-width:100px;object-fit:contain;padding:15px' />
   The Midnight Lord embodies and glorifies pain, shadows, and mutilation, and he is one of the most twisted and malevolent gods on the face of Golarion.
-  Once known as Dou-Bral, a deity of art, beauty and love, a divine argument between him and his sister Shelyn resulted in the god departing for parts unknown.
+  Once known as Dou-Bral, a deity of art, beauty and love, a divine argument between him and his sister <a href="#shelyn">Shelyn</a> resulted in the god departing for parts unknown.
   Zon-Kuthon traveled beyond the edges of the multiverse and stared into the face of the incomprehensible things that dwell there.
   No one knows what he found in that place, but he returned — changed, but claiming to be strengthened by what he had endured.
 
@@ -225,22 +225,23 @@ Myriad other deities have followings on Golarion, of which a small section inclu
 
 - <div class="block classTable frame" markdown="1">
 
-  | Deity                              | Alignment | Portfolio                                       | Domains                                      |
-  | :--------------------------------- | :-------: | :---------------------------------------------- | :------------------------------------------- |
-  | <a href="#kurgess">Kurgess</a>     |    NG     | God of competition, sport, physical development | Community, Good, Luck, Strength, Travel      |
-  | <a href="#milani">Milani</a>       |    CG     | God of devotion, hope, uprisings                | Chaos, Good, Healing, Liberation, Protection |
-  | <a href="#alseta">Alseta</a>       |    LN     | God of doors, portal, thresholds                | Community, Law, Magic, Protection            |
-  | <a href="#aroden">Aroden</a>       |    LN     | God of culture, destiny, humanity               | Community, Glory, Knowledge, Law, Protection |
-  | <a href="#brigh">Brigh</a>         |     N     | God of clockwork, invention, time               | Artifice, Earth, Fire, Knowledge             |
-  | <a href="#sivanah">Sivanah</a>     |     N     | God of illusions, mysteries, reflections        | Knowledge, Madness, Magic, Rune, Trickery    |
-  | <a href="#besmara">Besmara</a>     |    CN     | God of piracy, sea monsters, strife             | Chaos, Trickery, War, Water, Weather         |
-  | <a href="#groetus">Groetus</a>     |    CN     | God of apocalypse, oblivion, ruins              | Chaos, Darkness, Destruction, Madness, Void  |
-  | <a href="#hanspur">Hanspur</a>     |    CN     | God of river travel, rivers, smuggling          | Chaos, Death, Travel, Water                  |
-  | <a href="#nocticula">Nocticula</a> |    CN     | God of artists, exiles, midnight                | Artifice, Chaos, Darkness, Travel, Void      |
-  | <a href="#achaekek">Achaekek</a>   |    LE     | God of assassins, divine punishment             | Death, Evil, Law, Trickery, War              |
-  | <a href="#zyphus">Zyphus</a>       |    NE     | God of accidental death, graveyards, tragedy    | Death, Destruction, Evil, Plant, War         |
-  | <a href="#ghlaunder">Ghlaunder</a> |    CE     | God of infection, parasites, stagnation         | Air, Animal, Chaos, Destruction, Evil        |
+  | Deity                              | Alignment | Portfolio                                       | Domains                                     |
+  | :--------------------------------- | :-------: | :---------------------------------------------- | :------------------------------------------ |
+  | <a href="#kurgess">Kurgess</a>     |    NG     | God of competition, sport, physical development | Agriculture, Protection, Strength           |
+  | <a href="#milani">Milani</a>       |    CG     | God of devotion, hope, uprisings                | Life, Protection, Vengeance                 |
+  | <a href="#alseta">Alseta</a>       |    LN     | God of doors, portal, thresholds                | Arcana, Knowledge, Order                    |
+  | <a href="#aroden">Aroden</a>       |    LN     | God of culture, destiny, humanity               | _None_ <sup>1</sup>                         |
+  | <a href="#brigh">Brigh</a>         |     N     | God of clockwork, invention, time               | Forge, Knowledge                            |
+  | <a href="#sivanah">Sivanah</a>     |     N     | God of illusions, mysteries, reflections        | Arcana, Chaos, Trickery                     |
+  | <a href="#besmara">Besmara</a>     |    CN     | God of piracy, sea monsters, strife             | Fortune, Ocean, Survival, Tempest, Trickery |
+  | <a href="#groetus">Groetus</a>     |    CN     | God of apocalypse, oblivion, ruins              | Balance, Death, Fate                        |
+  | <a href="#hanspur">Hanspur</a>     |    CN     | God of river travel, rivers, smuggling          | Fortune, Nature, Survival, Trickery         |
+  | <a href="#nocticula">Nocticula</a> |    CN     | God of artists, exiles, midnight                | Chaos, Charm, Trickery                      |
+  | <a href="#achaekek">Achaekek</a>   |    LE     | God of assassins, divine punishment             | Death, Hunting, Order, Vengeance            |
+  | <a href="#zyphus">Zyphus</a>       |    NE     | God of accidental death, graveyards, tragedy    | Death, Fate, War                            |
+  | <a href="#ghlaunder">Ghlaunder</a> |    CE     | God of infection, parasites, stagnation         | Chaos, Death, Nature                        |
 
+    <p style="text-align:right;"><i><sup>1</sup> Aroden is considered a dead god, and does not grant divine magic.</i></p>
   </div>
 
 - <a name="kurgess"><h5>Kurgess, The Strong Man</h5></a>
@@ -280,7 +281,7 @@ Myriad other deities have followings on Golarion, of which a small section inclu
 - <a name="sivanah"><h5>Sivanah, The Seventh Veil</h5></a>
   <img loading="lazy" src="../assets/images/deity/sivanah.webp" style='float:right;max-height:100px;min-width:100px;object-fit:contain;padding:15px' />
   The Seventh Veil is widely regarded as the goddess of illusion magic, often portrayed as a figure disguised by seven veils.
-  Legends state that each face underneath the first six of her seven veils is of a different ancestry—human, elf, halfling, gnome, anadi, and naga — but the seventh face is never shown, believed to mask the goddess’s true form.
+  Legends state that each face underneath the first six of her seven veils is of a different ancestry — human, elf, halfling, gnome, anadi, and naga — but the seventh face is never shown, believed to mask the goddess’s true form.
   The goddess’s true nature and form continue to be topics of debate.
   Even her female visage, while agreed upon by her followers, could likewise be an illusion.
   Her goals are hidden from even her most faithful, which some believe has hampered the faith’s growth and influence beyond the level of a cult.
@@ -373,12 +374,12 @@ Only the followers of Bahamut and Tiamat didn't lose their faith toward their go
 - <div class="classTable frame" markdown="1">
 
   #### Dragon Deities
-  
+
   | Deity   | Alignment | Portfolio                                         | Domains                  |
   | :------ | :-------: | :------------------------------------------------ | :----------------------- |
   | Bahamut |    LG     | God of good, justice and metallic dragons         | Arcana, Life, Order, War |
   | Tiamat  |    CE     | Godess of evil, destruction and chromatic dragons | Death, Trickery          |
-  
+
   </div>
 
 </div>
@@ -392,13 +393,13 @@ What remains are deities that are notable, but difficult to catalogue due to the
 - <div class="classTable frame" markdown="1">
 
   #### Miscellaneous Deities
-  
+
   | Deity               | Alignment | Portfolio                            | Domains                                       |
   | :------------------ | :-------: | :----------------------------------- | :-------------------------------------------- |
   | Eadro               |     N     | Merfolk god of the sea               | Nature, Ocean, Tempest                        |
   | Semuanya            |     N     | Lizardfolk deity of survival         | Hunting, Life, Protection, Strength, Survival |
   | Skoraeus Stonebones |     N     | Stone giant god of knowledge and art | Fate, Forge, Knowledge                        |
-  
+
   </div>
 
 </div>
@@ -414,7 +415,7 @@ The Celtic gods are as often served by druids as by clerics, for they are closel
 <div class="columnstwo">
 
 - <div class="classTable frame" markdown="1">
-  
+
   | Deity            | Alignment | Portfolio                        | Domains                                        |
   | :--------------- | :-------: | :------------------------------- | :--------------------------------------------- |
   | The Daghdha      |    CG     | God of weather and crops         | Agriculture, Nature, Tempest, Trickery, Winter |
@@ -431,7 +432,7 @@ The Celtic gods are as often served by druids as by clerics, for they are closel
   | Nuada            |     N     | God of war and warriors          | Forge, Strength, War                           |
   | Oghma            |    NG     | God of speech and writing        | Arcana, Knowledge                              |
   | Silvanus         |     N     | God of nature and forests        | Nature, Survival                               |
-  
+
   </div>
 
 </div>
@@ -449,24 +450,24 @@ Thus, although most clerics of the Death domain are villainous characters, cleri
 <div class="columnstwo">
 
 - <div class="classTable frame" markdown="1">
-    
-    | Deity       | Alignment | Portfolio                             | Domains                                     |
-    | :---------- | :-------: | :------------------------------------ | :------------------------------------------ |
-    | Re-Horakhty |    LG     | God of the sun, ruler of the gods     | Balance, Desert, Life, Light, Order         |
-    | Anubis      |    LN     | God of judgment and death             | Balance, Death, Order, Repose, Time         |
-    | Apep        |    NE     | God of evil, fire and serpents        | Desert, Trickery                            |
-    | Bast        |    CG     | Goddess of cats and vengeance         | Hunting, Vengeance, War                     |
-    | Bes         |    CN     | God of luck and music                 | Celebration, Luck, Trickery                 |
-    | Hathor      |    NG     | Goddess of love, music and motherhood | Celebration, Charm, Life, Light, Protection |
-    | Imhotep     |    NG     | God of crafts and medicine            | Forge, Knowledge                            |
-    | Isis        |    NG     | Goddess of fertility and magic        | Arcana, Knowledge, Life                     |
-    | Nephthys    |    CG     | Goddess of death and grief            | Death, Repose                               |
-    | Osiris      |    LG     | God of nature and the underworld      | Hunting, Life, Nature, Repose, Survival     |
-    | Ptah        |    LN     | God of crafts, knowledge and secrets  | Arcana, Fate, Forge, Knowledge              |
-    | Set         |    CE     | God of darkness and desert storms     | Death, Desert, Tempest, Trickery            |
-    | Sobek       |    LE     | God of water and crocodiles           | Nature, Ocean, Survival, Tempest            |
-    | Thoth       |     N     | God of knowledge and wisdom           | Arcana, Knowledge                           |
-    
+
+  | Deity       | Alignment | Portfolio                             | Domains                                     |
+  | :---------- | :-------: | :------------------------------------ | :------------------------------------------ |
+  | Re-Horakhty |    LG     | God of the sun, ruler of the gods     | Balance, Desert, Life, Light, Order         |
+  | Anubis      |    LN     | God of judgment and death             | Balance, Death, Order, Repose, Time         |
+  | Apep        |    NE     | God of evil, fire and serpents        | Desert, Trickery                            |
+  | Bast        |    CG     | Goddess of cats and vengeance         | Hunting, Vengeance, War                     |
+  | Bes         |    CN     | God of luck and music                 | Celebration, Luck, Trickery                 |
+  | Hathor      |    NG     | Goddess of love, music and motherhood | Celebration, Charm, Life, Light, Protection |
+  | Imhotep     |    NG     | God of crafts and medicine            | Forge, Knowledge                            |
+  | Isis        |    NG     | Goddess of fertility and magic        | Arcana, Knowledge, Life                     |
+  | Nephthys    |    CG     | Goddess of death and grief            | Death, Repose                               |
+  | Osiris      |    LG     | God of nature and the underworld      | Hunting, Life, Nature, Repose, Survival     |
+  | Ptah        |    LN     | God of crafts, knowledge and secrets  | Arcana, Fate, Forge, Knowledge              |
+  | Set         |    CE     | God of darkness and desert storms     | Death, Desert, Tempest, Trickery            |
+  | Sobek       |    LE     | God of water and crocodiles           | Nature, Ocean, Survival, Tempest            |
+  | Thoth       |     N     | God of knowledge and wisdom           | Arcana, Knowledge                           |
+
     </div>
 
 </div>
@@ -488,7 +489,7 @@ Like the gods of Greyhawk, gods in different families sometimes have overlap in 
 <div class="columnstwo">
 
 - <div class="classTable frame" markdown="1">
-  
+
   | Deity    | Alignment | Portfolio                       | Domains                                           |
   | :------- | :-------: | :------------------------------ | :------------------------------------------------ |
   | Odin     |    NG     | God of knowledge and war        | Fate, Knowledge, Order, Strength, War             |
@@ -511,7 +512,7 @@ Like the gods of Greyhawk, gods in different families sometimes have overlap in 
   | Thrym    |    CE     | God of frost giants and cold    | Survival, War, Winter                             |
   | Tyr      |    LN     | God of courage and strategy     | Knowledge, War                                    |
   | Uller    |    CN     | God of hunting and winter       | Hunting, Nature, Survival, Winter                 |
-  
+
   </div>
 
 </div>
