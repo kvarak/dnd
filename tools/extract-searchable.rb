@@ -247,7 +247,7 @@ def extract_splinter_religions(file_path)
   religions
 end
 
-def extract_pantheons(file_path)
+def extract_pantheons(file_path, page: nil)
   return [] unless File.exist?(file_path)
 
   content = File.read(file_path)
@@ -276,11 +276,10 @@ def extract_pantheons(file_path)
                     .gsub(/\s+/, ' ')
                     .strip[0..299]
 
-    deities << {
-      'name' => deity_name,
-      'anchor' => deity_anchor,
-      'description' => description
-    }
+    entry = { 'name' => deity_name, 'anchor' => deity_anchor, 'description' => description }
+    entry['page'] = page if page
+    deities << entry
+
   end
 
   deities
@@ -324,6 +323,13 @@ puts "  Found #{splinter_religions.length} splinter religions"
 # Extract pantheons (deities)
 pantheons = extract_pantheons('docs/_WorldFaith/a_pantheons.md')
 puts "  Found #{pantheons.length} pantheon deities"
+
+# Extract folk-specific deity tables from individual folk files
+folk_pantheons = Dir.glob('docs/_Folk/*.md').flat_map do |folk_file|
+  page = File.basename(folk_file, '.md')
+  extract_pantheons(folk_file, page: page)
+end
+puts "  Found #{folk_pantheons.length} folk-specific deities"
 
 # Write to YAML files in _data/
 Dir.mkdir('_data') unless Dir.exist?('_data')
@@ -401,6 +407,7 @@ File.write('_data/searchable_old_feats.yml', old_feats.to_yaml)
 File.write('_data/searchable_warlock_patrons.yml', warlock_patrons.to_yaml)
 File.write('_data/searchable_splinter_religions.yml', splinter_religions.to_yaml)
 File.write('_data/searchable_pantheons.yml', pantheons.to_yaml)
+File.write('_data/searchable_folk_pantheons.yml', folk_pantheons.to_yaml)
 
 puts "✅ Wrote search data to _data/"
 puts "   - searchable_skills.yml"
@@ -413,3 +420,4 @@ puts "   - searchable_old_feats.yml"
 puts "   - searchable_warlock_patrons.yml"
 puts "   - searchable_splinter_religions.yml"
 puts "   - searchable_pantheons.yml"
+puts "   - searchable_folk_pantheons.yml"
