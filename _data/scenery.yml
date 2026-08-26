@@ -327,3 +327,12 @@
   name: The three norns - Morta, Nona and Decima
   img: ../assets/campaigns/11-Thylea/De-tre-nornorna-Morta-Nona-och-Decima.png
 
+- path: 12
+  name: Brevoy
+  img: ../assets/campaigns/12-kingmaker/Brevoy.png
+- path: 12
+  name: River Kingdoms
+  img: ../assets/campaigns/12-kingmaker/River-Kingdoms.png
+- path: 12
+  name: Stolen Lands
+  img: ../assets/campaigns/12-kingmaker/Stolen-Lands.jpg

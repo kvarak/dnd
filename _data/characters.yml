@@ -357,3 +357,19 @@
 - path: 11
   name: Pyntappon
   img: ../assets/campaigns/11-Thylea/Pyntappon01.png
+
+- path: 12
+  name: Emanuel Orlovsky-Metch
+  img: ../assets/campaigns/12-kingmaker/Emanuel01.jpg
+- path: 12
+  name: Lyyla Leadhead
+  img: ../assets/campaigns/12-kingmaker/LyylaLeadhead.png
+- path: 12
+  name: Xarmon Arkhnis
+  img: ../assets/campaigns/12-kingmaker/Xarmon.jpg
+- path: 12
+  name: Zaromak
+  img: ../assets/campaigns/12-kingmaker/Zaromak.png
+- path: 12
+  name: Lado Kovalsky
+  img: ../assets/campaigns/question-mark-face.png
