@@ -253,17 +253,11 @@ def extract_pantheons(file_path, page: nil)
   content = File.read(file_path)
   deities = []
 
-  # Match table rows after the Pantheons section: | Deity | Alignment | Portfolio | Domains |
-  # First, find the pantheons section
-  pantheon_section_match = content.match(/<h2><a class="internal-link" name="internal-pantheons">Pantheons<\/a><\/h2>(.*)/m)
-  return [] unless pantheon_section_match
-
-  pantheon_content = pantheon_section_match[1]
-
   # Extract all table rows with deity information
   # Pattern: | Deity Name | Alignment | Portfolio | Domains |
-  pantheon_content.scan(/^\|\s*([^|]+?)\s*\|\s*([A-Z]{1,2})\s*\|([^|]+)\|([^|]+)\|/m) do |match|
-    deity_name = match[0].strip
+  # Handles indented rows and deity names wrapped in <a href> tags
+  content.scan(/^\s*\|\s*([^|]+?)\s*\|\s*([A-Z]{1,2})\s*\|([^|]+)\|([^|]+)\|/m) do |match|
+    deity_name = match[0].strip.gsub(/<[^>]+>/, '').strip
     alignment = match[1].strip
     portfolio_text = match[2].strip
     domains = match[3].strip
@@ -319,15 +313,15 @@ poisons = extract_alchemical_items('docs/_RulesEquipment/poison.md')
 puts "  Found #{poisons.length} poisons"
 
 # Extract warlock patrons
-warlock_patrons = extract_warlock_patrons('docs/_Resources/warlockpatrons.md')
+warlock_patrons = extract_warlock_patrons('docs/_WorldFaith/warlockpatrons.md')
 puts "  Found #{warlock_patrons.length} warlock patrons"
 
 # Extract splinter religions
-splinter_religions = extract_splinter_religions('docs/_Resources/splinter-religions.md')
+splinter_religions = extract_splinter_religions('docs/_WorldFaith/splinter-religions.md')
 puts "  Found #{splinter_religions.length} splinter religions"
 
 # Extract pantheons (deities)
-pantheons = extract_pantheons('docs/_Classes/cleric.md')
+pantheons = extract_pantheons('docs/_WorldFaith/a_pantheons.md')
 puts "  Found #{pantheons.length} pantheon deities"
 
 # Extract folk-specific deity tables from individual folk files
