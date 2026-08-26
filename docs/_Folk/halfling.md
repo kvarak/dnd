@@ -407,14 +407,14 @@ The Halfling Deities table lists the members of the halfling pantheon. For each 
   | <a href="#arvoreen">Arvoreen</a>              |    LG     | Vigilance, war               | Heroism, Protection, War           | Crossed short swords       |
   | <a href="#cyrrollalee">Cyrrollalee</a>        |    LG     | Hearth, home                 | Celebration, Charm, Life           | An open door               |
   | <a href="#yondalla">Yondalla</a>              |    LG     | Primary goddess of halflings | Fortune, Life, Protection          | Cornucopia                 |
-  | <a href="#sheelaPeryroyl">Sheela Peryroyl</a> |    NG     | Agriculture, nature, weather | Air, Nature, Tempest               | A flower                   |
+  | <a href="#sheelaperyroyl">Sheela Peryroyl</a> |    NG     | Agriculture, nature, weather | Air, Nature, Tempest               | A flower                   |
   | <a href="#brandobaris">Brandobaris</a>        |     N     | Adventure, thievery          | Fortune, Trickery                  | Halfling footprint         |
   | <a href="#charmalaine">Charmalaine</a>        |     N     | Keen senses, luck            | Fortune, Trickery, Whimsy          | Burning boot print         |
   | <a href="#urogalan">Urogalan</a>              |    LN     | Earth, death                 | Death, Earth, Life, Repose, Winter | Silhouette of a dog's head |
 
     </div>
 
-- <a name="Yondalla"><h5>Yondalla, </h5></a>
+- <a name="Yondalla"><h5>Yondalla, Protector and Provider</h5></a>
   <img src='../assets/images/deity/yondalla.webp' style='float:right;width:30%;padding:20px' />
   The story of Yondalla begins at the dawn of the world, when halflings were timid wanderers, scraping out a meager existence.
   The goddess Yondalla took note of them and decided to adopt the halflings as her people.
@@ -428,7 +428,7 @@ The Halfling Deities table lists the members of the halfling pantheon. For each 
   When a pumpkin grows to enormous size or a garden yields twice as many carrots as usual, credit goes to Yondalla.
   When a halfling trips, slides down a hillside, and lands on a nugget of gold, that's Yondalla turning bad luck into good.
 
-- <a name="Arvoreen"><h5>Arvoreen, </h5></a>
+- <a name="Arvoreen"><h5>Arvoreen, The Wary Sword</h5></a>
   From time to time, halflings must fight to defend their friends or their village.
   In those moments, the tales of Arvoreen come to the fore in every halfling's memory.
 
@@ -456,7 +456,7 @@ The Halfling Deities table lists the members of the halfling pantheon. For each 
   **Fiddle and Crack.**
   A halfling fiddler lures the monster into a trap, usually a net or a pit, followed by several burly halflings wielding large sticks and hitting the monster from a safe vantage.
 
-- <a name="SheelaPeroryl"><h5>Sheela Peroryl, </h5></a>
+- <a name="sheelaperyroyl"><h5>Sheela Peryroyl, Green Sister</h5></a>
   Every halfling village sets aside a place for paying respects to Sheela Peryroyl.
   In a grove of trees, a raspberry patch, or a swath of wildflowers, villagers leave a small offering whenever they walk by, or tip their caps, or whisper a blessing in her honor.
   A village counts itself lucky if this place is cared for by a druid. Creatures that attack a village under the protection of the god's druids soon learn the error of their ways when all manner of plants lash out to grapple and sting the intruders, as though nature herself were aiding the halflings' cause.
@@ -466,7 +466,7 @@ The Halfling Deities table lists the members of the halfling pantheon. For each 
   A halfling who accidentally steps on a flower often says, "Begging your pardon, Sheela."
   Before halflings cut down a tree to use its wood for a new house, it is customary for them to stand before the tree with their caps doffed, humbly asking permission from Sheela to continue.
 
-- <a name="Charmalaine"><h5>Charmalaine, </h5></a>
+- <a name="charmalaine"><h5>Charmalaine, The Lucky Ghost</h5></a>
   Charmalaine is an energetic and spontaneous deity, unafraid of danger, for she expects to be able to detect it as it approaches and evade it before it brings her harm.
 
   The stories of her accomplishments read like an adventurer's wildest dreams: she escaped from an army of sahuagin, solved the Chamber of a Thousand Traps, and took treasure from the lair of Tiamat.
@@ -476,7 +476,7 @@ The Halfling Deities table lists the members of the halfling pantheon. For each 
   Halflings sometimes call Charmalaine the Lucky Ghost because she can send her spirit out of her body to scout ahead, and thus she is able to warn halfling adventurers of danger while in her incorporeal form.
   Halflings who favor Charmalaine are usually adventurers or those who pursue other risky professions such as hunting, beast training, scouting, and guarding public officials.
 
-- <a name="Cyrrollalee"><h5>Cyrrollalee, </h5></a>
+- <a name="Cyrrollalee"><h5>Cyrrollalee, The Hearthkeeper</h5></a>
   Cyrrollalee embodies the spirit of friendship and hospitality that is part of every halfling's makeup and is represented by one's home and hearth.
   The home is a welcoming place, but it is also sacrosanct.
   Halflings honor Cyrrollalee by opening their homes to visitors, and by respecting the home of one's host as if it were one's own.
@@ -496,7 +496,7 @@ The Halfling Deities table lists the members of the halfling pantheon. For each 
   The greedy troll was swiftly incinerated.
   Cyrrollalee returned a hero, and from that day forward all the townsfolk remembered her with a word of thanks when baking pies.
 
-- <a name="Brandobaris"><h5>Brandobaris, </h5></a>
+- <a name="Brandobaris"><h5>Brandobaris, The Master of Stealth</h5></a>
   Dashing trickster, patron of thieves, and star of fantastical fables and wild stories of adventure - that's the legacy of Brandobaris, the Master of Stealth.
   Stories of Brandobaris, full of artful trickery and narrow escapes, inspire many young halflings to play at roguish pursuits.
 
@@ -510,7 +510,7 @@ The Halfling Deities table lists the members of the halfling pantheon. For each 
   Although he never seems to rest in his travels, Brandobaris always has time to reward halflings who dare to take risks and explore the world to make their own mark on it.
   He has been known to give a bit of aid to halflings in dire straits, turning them invisible for a time or intervening so that they can't be heard or tracked.
 
-- <a name="Urolagan"><h5>Urolagan, </h5></a>
+- <a name="urogalan"><h5>Urogalan, He Who Must Be</h5></a>
 
   In ancient times the halfling hero Urogalan left his village with his faithful hound to venture into the afterlife, and then, much to the villagers' amazement, he returned.
   They could see that Urogalan had been deeply affected by his experiences, since he didn't speak for a long time.
