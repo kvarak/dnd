@@ -29,6 +29,8 @@ collections:
     output: true
   CampaignStats:
     output: true
+  CampaignRules:
+    output: true
   Classes:
     output: true
   Classes2:

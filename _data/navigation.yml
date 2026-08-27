@@ -6,6 +6,8 @@
     folder: "CampaignStats"
   - header: "Campaigns"
     folder: "Campaigns"
+  - header: "Campaign Rules"
+    folder: "CampaignRules"
 
 - header: "Classes"
   subheads: true
