@@ -274,7 +274,7 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
 
 <div class="columnsthree">
 
-#### Precipitation
+- #### Precipitation
 
   Light rain or snow may occur during any season. Heavier precipitation and severe weather - downpours, blizzards, hailstorms, sandstorms, etc. - are determined by the DM and may also reduce the number of hexploration activities available for the day (see Activities per Day).
 
@@ -292,8 +292,7 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
 
   </div>
 
-
-#### Temperature
+- #### Temperature
 
   Temperatures are typically mild in spring and autumn. During winter, cold snaps can occur.
 
@@ -301,7 +300,7 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
 
   Light precipitation falls as snow rather than rain. Characters without cold-weather gear may be subject to additional exposure rules at the DM’s discretion (for example, additional saves per hour of exposure when not actively traveling).
 
-#### Predict Weather
+- #### Predict Weather
 
   Any character with **Wisdom (Survival)** can spend 10 minutes observing the sky, wind and wildlife at Breaking Camp to attempt to predict the day's weather. The DM sets the DC based on conditions - typically 15 in clear conditions, higher in poor visibility or unfamiliar terrain. Characters with a relevant terrain-specific Survival skill (such as **Forest Survival** or **Arctic Survival**) have ***Expertise***.
 
@@ -313,3 +312,4 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
 
   ***Critical Failure*** You reach a wrong conclusion. The DM gives you false information as though you had a critical success.
 
+</div>
