@@ -152,6 +152,7 @@ h2 {
   border-top: solid;
   border-bottom: solid;
   border-width: 1px;
+  clear: both;
 }
 
 h3 {
@@ -329,8 +330,13 @@ summary p {
     -webkit-column-gap: 20px;
     column-count: 2;
     column-gap: 20px;
+  }
 }
-}
+
+/* Helps tables line up properly when used inside columns */
+.columnstwo table { width: 100%; }
+.columnsthree table { width: 100%; }
+.columnssix table { width: 100%; }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .columns ul, .columnssix ul, .columnsthree ul {
