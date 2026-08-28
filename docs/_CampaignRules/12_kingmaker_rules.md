@@ -7,10 +7,10 @@ type: index
 
 <div class="toc">
 
-<h5><a href="../RulesExtra/z_kingmaker-varlyn.html#internal-hexploration">Hexploration</a></h5>
-<a href="../RulesExtra/z_kingmaker-varlyn.html#internal-hexploration-activities">Hexploration Activities</a><br/>
-<a href="../RulesExtra/z_kingmaker-varlyn.html#internal-campsites">Campsites</a><br/>
-<a href="../RulesExtra/z_kingmaker-varlyn.html#internal-weather">Weather</a><br/>
+<h5><a href="#hexploration">Hexploration</a></h5>
+<a href="#hexploration-activities">Hexploration Activities</a><br/>
+<a href="#campsites">Campsites</a><br/>
+<a href="#weather">Weather</a><br/>
 
 </div>
 
@@ -18,7 +18,7 @@ type: index
 
 > The rules on this page are temporary rules for the Kingmaker campaign. Anything here is not officially part of the Varlyn ruleset, but is intended to be compatible with it. Perhaps we like the rules well enough to incorporate them into the Varlyn ruleset in the future.
 
-# <a class="internal-link" name="internal-hexploration">Hexploration</a>
+# Hexploration
 
 During the Kingmaker campaign, the party explores the Stolen Lands by traveling from hex to hex on the regional map. Each hex represents a 12‑mile hexagon and the party can normally move only to adjacent hexes. The rules on this page combine the official Kingmaker hexploration rules with the site’s travel and adventuring rules, streamlined for play.
 
@@ -34,23 +34,39 @@ The number of hexploration activities (HA's) available is determined by the part
 
 <div class="columnsthree">
 
-- #### Travel Pace
-  The party may choose to travel at a slow, medium or fast pace. The pace affects the number of hexploration activities received, the ability to hide tracks, and the ability to use stealth. See the table below for details.
+- #### Pace
+  The party may choose to perform activities at a careful, normal or reckless pace. The pace affects the number of hexploration activities received, the ability to hide tracks and the ability to use stealth. See the table below for details.
 
-- <div class="block classTable fillClassTable frame" markdown="1">
+- <div class="block classTable frame" markdown="1">
 
-  #### Travelling Pace
+  #### Travelling
   | Pace | HA | Guide | Forage | Lookout |
   |:-----|:--:|:-----:|:------:|:-------:|
-  | Slow | 1 | Adv. | Normal | Adv. |
-  | Medium | 2 | Normal | Disadv. | Normal |
-  | Fast | 3 | Disadv. | None | Disadv. |
+  | Careful | 1 | Adv. | Normal | Adv. |
+  | Normal | 2 | Normal | Disadv. | Normal |
+  | Reckless | 3 | Disadv. | None | Disadv. |
 
+  </div>
+
+- <div class="block classTable frame" markdown="1">
+
+  #### Stealth
   | Pace | Hide Tracks | Effect |
   |:-----|:-----------:|:-------|
-  | Slow | Adv. | Able to use stealth |
-  | Medium | Normal | - |
-  | Fast | Disadv. | -5 penalty to Perception |
+  | Careful | Adv. | Able to use stealth |
+  | Normal | Normal | - |
+  | Reckless | Disadv. | -5 penalty to Perception |
+
+  </div>
+
+- <div class="block classTable frame" markdown="1">
+
+  #### Activities
+  | Pace | Reconnoiter | Fortify Camp | Map Area |
+  |:-----|:-----------:|:------------:|:--------:|
+  | Careful | Adv. | Adv. | Adv. |
+  | Normal | Normal | Normal | Normal |
+  | Reckless | Disadv. | Disadv. | Disadv. |
 
   </div>
 
@@ -58,7 +74,7 @@ The number of hexploration activities (HA's) available is determined by the part
   The most exhausted character in the party determines the penalty: every 2 levels of exhaustion they have reduces the group's HA by 1. A character with exhaustion level 5 or higher cannot Travel at all. Some penalties can reduce the party’s available HAs below 1, but the party always has at least 1 HA unless special rules (such as being unable to travel due to exhaustion) say otherwise.
 
 - #### Forced March, +1 HA
-  While traveling, the party may choose to take a forced march. This grants one extra hexploration activity for the day, but is the only activity possible that day (no more Travel, Reconnoiter or individual activities). Each character must make a Constitution saving throw at the end of the day. The DC is 10 + 5 for each day past the first in a row (i.e. DC 15 the second day, DC 20 the third day, etc.). On a failed saving throw, a character suffers one level of exhaustion and cannot benefit from a forced march the following day.
+  While traveling, the party may choose to take a forced march. This grants one extra hexploration activity for the day, but is **the only activity possible that day** (no more Travel, Reconnoiter or individual activities). Each character must make a Constitution saving throw at the end of the day. The DC is 10 + 5 for each day past the first in a row (i.e. DC 15 the second day, DC 20 the third day, etc.). On a failed saving throw, a character suffers one level of exhaustion and cannot benefit from a forced march the following day.
 
   A character with the **Endurance** skill, does not need to make a saving throw for the first day of a forced march, but must make a saving throw on subsequent days (then the DC would be 10 for the second day, 15 for the third day, etc.).
 
@@ -79,7 +95,7 @@ The number of hexploration activities (HA's) available is determined by the part
 
 </div>
 
-### <a class="internal-link" name="internal-GroupActivities">Group Activities</a>
+### Group Activities
 
 Group activities require the whole party; each counts as one of the day's hexploration activities for everyone.
 
@@ -119,7 +135,7 @@ Group activities require the whole party; each counts as one of the day's hexplo
 
 </div>
 
-### <a class="internal-link" name="internal-IndividualActivities">Individual Activities</a>
+### Individual Activities
 
 Instead of joining a Travel or Reconnoiter activity, an individual character can perform one of the following.
 
@@ -135,7 +151,7 @@ Instead of joining a Travel or Reconnoiter activity, an individual character can
 
 </div>
 
-## <a class="internal-link" name="internal-campsites">Campsites</a>
+## Campsites
 
 Camping means locating a safe site, performing useful activities, eating, resting, and completing daily preparations. Each character needs **one pound of food per day** and access to water - see [Travel - Planning a Journey](../RulesExtra/travel.html#internal-PlanningaJourney) for supply rules.
 
@@ -252,13 +268,13 @@ In order to locate a safe place to set up a campsite while hexploring the Stolen
 
 </div>
 
-## <a class="internal-link" name="internal-weather">Weather</a>
+## Weather
 
 The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel.html#internal-BreakingCamp). Weather affects travel, visibility, foraging, and fatigue.
 
 <div class="columnsthree">
 
-- #### <a class="internal-link" name="internal-Precipitation">Precipitation</a>
+#### Precipitation
 
   Light rain or snow may occur during any season. Heavier precipitation and severe weather - downpours, blizzards, hailstorms, sandstorms, etc. - are determined by the DM and may also reduce the number of hexploration activities available for the day (see Activities per Day).
 
@@ -277,7 +293,7 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
   </div>
 
 
-- #### <a class="internal-link" name="internal-Temperature">Temperature</a>
+#### Temperature
 
   Temperatures are typically mild in spring and autumn. During winter, cold snaps can occur.
 
@@ -285,7 +301,7 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
 
   Light precipitation falls as snow rather than rain. Characters without cold-weather gear may be subject to additional exposure rules at the DM’s discretion (for example, additional saves per hour of exposure when not actively traveling).
 
-- #### <a class="internal-link" name="internal-PredictWeather">Predict Weather</a>
+#### Predict Weather
 
   Any character with **Wisdom (Survival)** can spend 10 minutes observing the sky, wind and wildlife at Breaking Camp to attempt to predict the day's weather. The DM sets the DC based on conditions - typically 15 in clear conditions, higher in poor visibility or unfamiliar terrain. Characters with a relevant terrain-specific Survival skill (such as **Forest Survival** or **Arctic Survival**) have ***Expertise***.
 
