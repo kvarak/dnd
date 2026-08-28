@@ -70,6 +70,9 @@
 
 <!-- My style - cache busted by build time -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?v={{ site.time | date: '%s' }}">
+{% if page.extra_css %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ page.extra_css }}?v={{ site.time | date: '%s' }}">
+{% endif %}
 
 <!-- Dark Mode (must load early to prevent flash) -->
 <script src="{{ site.baseurl }}/assets/js/dark-mode.js?v={{ site.time | date: '%s' }}"></script>

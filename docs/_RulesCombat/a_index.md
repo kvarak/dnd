@@ -18,6 +18,8 @@ type: index
 <a href="../RulesCombat/a_index.html#internal-SneakingandStabbing">Sneaking and Stabbing</a><br/>
 <a href="../RulesCombat/a_index.html#internal-Surprise">Surprise</a><br/>
 <a href="../RulesCombat/a_index.html#internal-UnderwaterCombat">Underwater Combat</a><br/>
+<br/>
+<a href="../RulesCombat/combat_cheatsheet.html">Printable Cheat Sheet</a><br/>
 
 
 </div>
