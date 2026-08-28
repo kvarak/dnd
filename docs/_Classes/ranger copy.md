@@ -6,8 +6,6 @@ profile:
   archetypes:
     beast-conclave:
       traits: ["animal-companion", "nature-guardian", "loyal-guardian", "wild-spirit"]
-    burghal-explorer:
-      traits: ["urban-background", "explorer", "athletic-prowess", "stealth-master"]
     diabolist:
       traits: ["undead-hunter", "ghost-tracker", "death-magic", "spirit-medium"]
     fey-hunter:
@@ -46,7 +44,6 @@ profile:
 
 ##### [Ranger Conclaves](#internal-conclaves)
 <a href="#internal-beastConclave">Beast Conclave</a><br/>
-<a href="#internal-burghalExplorer">Burghal Explorer</a><br/>
 <a href="#internal-diabolist">Diabolist</a><br/>
 <a href="#internal-feyHunter">Fey Hunter</a><br/>
 <a href="#internal-freerunner">Freerunner</a><br/>
@@ -80,18 +77,12 @@ Rangers are free-minded wanderers and seekers who patrol the edges of civilized 
 
 A relationship with civilization informs every ranger’s personality and history. Some rangers see themselves as enforcers of the law and bringers of justice on civilization’s frontier, answering to no sovereign power. Others are survivalists who eschew civilization altogether. They vanquish monsters to keep themselves safe while they live in and travel through the perilous wild areas of the world. If their efforts also benefit the kingdoms and other civilized realms that they avoid, so be it.
 
-Why did you choose the path of a ranger. In the following table are some suggestions, but keep in mind your background and all the other details you have established so far.
 
-#### Ranger Background
-| d6 | I became a ranger because … |
-|:--:|:-------|
-| 1 | I found purpose while I honed my hunting skills by bringing down dangerous animals at the edge of civilization. |
-| 2 | I always had a way with animals, able to calm them with a soothing word and a touch. |
-| 3 | I suffer from terrible wanderlust, so being a ranger gave me a reason not to remain in one place for too long. |
-| 4 | I have seen what happens when the monsters come out from the dark. I took it upon myself to become the first line of defense against the evils that lie beyond civilization’s borders. |
-| 5 | I met a grizzled ranger who taught me woodcraft and the secrets of the wild lands. |
-| 6 | I served in an army, learning the precepts of my profession while blazing trails and scouting enemy encampments.  |
-
+<!--
+When creating (or adapting existing) Ranger conclave
+1. Add minor feature at level 1.
+2. At level 3 there should be some feature that deals ~1d6 extra damage per round, preferably using a bonus action, or some kind of restriction.
+-->
 
 ## Ranger Class Features
 
@@ -155,7 +146,10 @@ The wild teaches harsh lessons to those who endure it. These lessons become a Hu
 
 At 1st level, you gain two Hunter's Edges of your choice. You gain an additional Hunter's Edge at every odd ranger level thereafter. When you gain a Hunter's Edge, you may select any Edge for which you meet the prerequisites.
 
-Some Ranger Conclaves grant additional Hunter's Edges; these do not count against the number of Edges you gain from this feature. A complete list of Hunter's Edges and their prerequisites can be found at the end of the Ranger class description.
+#### Saving Throws
+Some Edges require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:
+
+**Edge Save DC** = 8 + your proficiency bonus + your Wisdom modifier
 
 ### Natural Explorer
 You are particularly familiar with the natural world, adept at traveling and surviving out in the wilds. At 1st level, choose three of the following traits. You may choose two additional traits at 6th and 10th level.
@@ -223,9 +217,11 @@ The following additions are made to the general rest rules.
 | Long rest |
 |:-|
 | After a long rest: |
+| * Regain uses of your Hunter's Edges.
 | * Regain one use of ***Primeval Awareness***.
+| * Regain one use of ***Fade Away***.
+
 | Add the following class specific benefits to choose from: |
-| * Regain all uses of ***Favored Foe***.
 | * Regain all uses of ***Primeval Awareness***.
 | * Regain all uses of ***Fade Away***.
 
@@ -239,14 +235,7 @@ At 2nd level, you adopt a style of fighting as your specialty. Choose one of the
 Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
 
 ### Primeval Awareness
-From 4th level, your mastery of ranger lore allows you to establish a link to beasts and to the land around you.
-
-You have an ability to communicate with beasts, and they recognize you as a kindred spirit. Through sounds and gestures, you can communicate simple ideas to a beast, and can read its basic mood and intent. You learn its emotional state, whether it is affected by magic of any sort, its short-term needs, and actions you can take (if any) to persuade it to not attack.
-
-You cannot use this ability against a creature that you have attacked.
-
-#### Favored Enemy
-If you have the Favored Enemy feature, you can attune your senses to determine if any of your favored enemies lurk nearby. By spending 1 minute in concentration, you sense whether any such enemies are present within 5 miles of you. This feature reveals which type of enemies are present, their numbers, and the creatures’ general direction and distance (in miles) from you. If there are multiple groups of your favored enemies within range, you learn this information for each group.
+From 4th level, you can attune your senses to determine if any of your favored enemies lurk nearby. By spending 1 minute in concentration, you sense whether any such enemies are present within 5 miles of you. This feature reveals which type of enemies are present, their numbers, and the creatures’ general direction and distance (in miles) from you. If there are multiple groups of your favored enemies within range, you learn this information for each group.
 
 You may use this feature a number of times equal to your proficiency bonus and can regain all expended uses when you finish a long rest.
 
@@ -274,7 +263,7 @@ Starting at 14th level, you are no more remarkable in your element than a small 
 - #### Fade Away
     You can use a ***bonus action*** to magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.
 
-    You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest
+    You can use this feature a number of times equal to your proficiency bonus, and can regain all expended uses when you finish a long rest
 
 - #### Vanish
     You can use the Hide action as a ***bonus action*** on each of your turns in combat. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail.
@@ -289,15 +278,11 @@ At 18th level, you gain a special ability to detect your prey. Choose one of the
 - #### Eagle's Eyes
     You can see objects and creatures up to 1 mile away as though they were directly in front of you. When you are at least 120 feet above the ground, this range increases to 10 miles.
 
-    You become proficient with Perception if you weren't already, and you add double your proficiency bonus, instead of your normal bonus, when you make Perception checks.
-
 - #### Feral Senses
     You gain supernatural senses that help you fight creatures you can't see. You have blindsight with a range of 10 ft. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness.
 
 - #### Hound's Snout
     You can detect the scent of all creatures that passed through an area unless the area has been subject to light winds for 1 hour, moderate winds for 1 minute, or strong winds for 1 round. By following the scent trail, you can detect the exact path your quarry took.
-
-    In addition, you can expend a spell slot to improve your sense of smell even further and work out events that transpired in a specific location within 60 feet of you. You can identify specific people (as long as you are familiar with their scent), their movements, and how they interacted with the environment, up to the DM's discretion.
 
 </div>
 
@@ -308,9 +293,6 @@ At 20th level, you become an unparalleled hunter. Choose an option.
 
 - #### Foe Slayer
     Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make. You can choose to use this feature after the roll, but before any effects of the roll are applied.
-
-- #### Roots of the Arcane
-    Once per turn, when you spend a 1st level spell slot on your turn, you regain a 1st level spell slot.
 
 - #### Swift Hunter
     On your first turn during combat, any of your attacks that hits a creature who has not yet acted is a critical hit.
@@ -328,8 +310,6 @@ Across the wilds, rangers come together to form conclaves - loose associations w
 <div class="columnstwo">
 
 - **<a href="#internal-beastMaster">Beast Conclave</a>** - The Beast Master  has committed himself to working in partnership with an animal as his companion and friend.
-
-- **<a href="#internal-burghalExplorer">Burghal Explorer</a>** - Burghal Explorers are at home in tight places, like dangerous ruins, dark slums and ruined cities.
 
 - **<a href="#internal-diabolist">Diabolist</a>** - Diabolist rangers roam the land, searching for tales of shades that hunt for the living, banshees that haunt the woods, or even helping ghosts that are not aware that they have passed in the first place.
 
@@ -376,7 +356,7 @@ Many rangers are more at home in the wilds than in civilization, to the point wh
 Beasts instinctively recognize your respect for the natural world. You gain 1 skill point to spend on the Handle Animal skill. In addition, Beasts begin interactions with you one attitude step friendlier than normal, at the GM's discretion.
 
 ### Animal Companion
-At 3rd level, you learn to use your magic to create a powerful bond with a creature of the natural world.
+At 3rd level, you learn to use primal magic to create a powerful bond with a creature of the natural world.
 
 With 8 hours of preparation, you call forth an animal from the surrounding wilderness to serve as your faithful companion. You normally select you companion from among the following animals: an ape, a black bear, a boar, a giant badger, a giant weasel, a mule, a panther, or a wolf. However, your DM might pick one of these animals for you, based on the surrounding terrain and on what types of creatures would logically be present in the area.
 
@@ -437,73 +417,17 @@ Whenever an attacker that your companion can see hits it with an attack, it can 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-burghalExplorer">Burghal Explorer</a></h1>
-<div class="featuresTable">
-
-#### Conclave Features
-| Ranger Level | Feature |
-| :----------: | :------ |
-| 3rd | Burghal Explorer Magic,<br>Grazing Strike |
-| 5th | Extra Attack |
-| 7th | Above and Below |
-| 11th | Streetwise |
-| 15th | Close Quarters |
-
-</div>
-
-Burghal Explorers are at home in tight places, making their living as urban bounty hunters or guiding magical search crews through dangerous ruins. Dark slums and ruined cities, choked with thirsty weeds and decorated with crumbling remnants of once-thriving communities, become gathering points for desperate innocents—and for sneak-thieves and bandits who prey on the helpless.
-
-Burghal Explorers toe the line between the natural forest and cityscapes, moonlighting as vigilantes, or fending off unnatural horrors that reach covetously toward the darkest, deepest, plots of land.
-
-> *"Ranging doesn’t just happen in the wilderness. It happens in ancient ruins, dank caves, and crowded cities. The towers are my mountains, the allies are my forest, and the criminal scum is my quarry."*
->
-> -- Landon Fleetcloak, Burghal explorer
-
-### Burghal Explorer Magic
-You learn an additional spell when you reach certain levels in this class, as shown in the Burghal Explorer Spells table. The spell counts as a ranger spell for you, but it does not count against the number of ranger spells you know.
-
-#### Burghal Explorer Spells
-| Ranger Level | Spells |
-|:----:|:-------------|
-| 3rd | *find familiar* |
-| 5th | *misty step* |
-| 9th | *tongues* |
-| 13th | *Mordenkainen’s faithful hound* |
-| 17th | *animate objects* |
-
-### Grazing Strike
-You gain the ability to hinder your foes with your strikes. Once per turn when you damage a creature with a weapon attack, you can graze your target’s arm, leg, chest, or head. When you do, the creature takes an additional 1d4 damage and you impose one of the follow effects on that target:
-* **Head**. It has disadvantage the next saving throw it makes before the end of its next turn.
-* **Arm**. It has disadvantage on the next Strength or Dexterity check it makes before the end of its next turn.
-* **Leg**. Its movement speed is reduced by 10 feet until the end of its next turn.
-* **Chest**. It must succeed a Strength saving throw. If it fails, you can push it up to 5 feet away from you.
-
-### Extra Attack
-You can attack twice instead of once whenever you take the Attack action on your turn.
-
-### Above and Below
-You can identify the fastest routes across cityscapes or crumbling ruins, whether the path leads through the sewers below or the roofs above. Climbing and swimming no longer costs you extra movement and you can hold your breath for twice as long as normal.
-
-In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.
-
-### Streetwise
-You disappear into crowds without hesitation. While you are hidden, moving through a crowd that isn’t hostile to you, you can don a disguise if you have prepared it in advance and you have at least one hand free.
-
-### Close Quarters
-You always gain the benefits of half cover whenever two or more creatures are within 5 ft of you. As a ***bonus action*** while holding a shield, you can grant this to benefit to one of the creatures adjacent to you until the start of your next turn or it moves 10 ft away from you.
-
-
-<hr class="classdivider">
 <h1><a class="internal-link" name="internal-diabolist">Diabolist</a></h1>
 <div class="featuresTable">
 
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Diabolist Magic,<br/>Phantom Sense,<br>Mind Impression (1d6) |
-| 5th | Extra Attack |
-| 7th | Spiritual Sheath |
-| 11th | Planar Blockade, Mind Impression (2d6) |
+| 1st | Phantom Sense |
+| 3rd | Mind Impression (1d6), Rite of Peace |
+| 5th | Extra Attack, Protection from Undead |
+| 7th | Death Ward, Spiritual Sheath |
+| 11th | Mind Impression (2d6), Planar Blockade |
 | 15th | Material Slip |
 
 <div class="card rest">
@@ -514,7 +438,8 @@ The following additions are made to the general rest rules.
 
 | Long rest |
 |:-|
-| Add the following class specific benefits to choose from: |
+| After a long rest: |
+| * Regain use of ***Death Ward***.
 | * Regain use of ***Material Slip***.
 
 </div>
@@ -525,42 +450,40 @@ The following additions are made to the general rest rules.
 
 Diabolist rangers roam the land, searching for tales of shades that hunt for the living, banshees that haunt the woods, or even helping ghosts that are not aware that they have passed in the first place. They believe that the ethereal creatures that we may become should be helped to pass on to a proper plane of existence, or at the very least stopped from harming others.
 
-### Diabolist Magic
-You learn an additional spell when you reach certain levels in this class, as shown in the Diabolist Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
-
-
-#### Diabolist Spells
-| Ranger Level | Spells |
-|:----:|:-------------|
-| 3rd | *detect evil and good* |
-| 5th | *gentle repose* |
-| 9th | *magic circle* |
-| 13th | *death ward* |
-| 17th | *dispel evil and good* |
-
 ### Phantom Sense
 You gain the ability to magically sense the presence of ethereal undead creatures. As an ***action***, you detect the location of the closest ethereal undead creature within 100 ft of you. You learn the CR of the creature, but not the exact type of the creature.
+
+With longer concentration you can sense other disturbances in the natural cycle as well. If you focus for a minute, you know if a Celestial, Fiend, Undead, or creature possessed by a supernatural entity is within 30 feet of you. You learn the creature's location, but not its identity.
 
 ### Mind Impression
 You can enhance your knowledge of the afterlife to whittle away the psyche of others. As a ***bonus action***, you designate one creature you can see within 30 ft of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes psychic damage, and the creature takes an extra 1d6 psychic damage from the attack.
 
 When you reach 11th level in this class, the extra damage increases to 2d6.
 
+### Rite of Peace
+Through funerary rites and an understanding of the soul's final journey, you can help ensure that the dead remain at peace. By spending 1 minute performing funeral rites over a corpse, you preserve it from decay and prevent it from becoming undead for 10 days.
+
 ### Extra Attack
 You can attack twice, instead of once whenever you take the Attack action on your turn.
+
+### Protection from Undead
+You can inscribe a protective circle during a short or long rest. The circle occupies a 20-foot-radius area and lasts until your next long rest. Celestials, Fiends and Undead have disadvantage on attack rolls against creatures within the circle and can't willingly enter it unless they succeed on a Wisdom saving throw against your Edge save DC.
+
+### Death Ward
+The spirits of those you have aided watch over you, refusing to let your journey end before its proper time. As a reaction when you would be reduced to 0 hit points, you may instead drop to 1 hit point. Once you use this feature, you can't use it again until you complete a long rest.
 
 ### Spiritual Sheath
 You are well versed in the effects that the supernatural creatures can cause. You have advantage on any saving throw from undead creatures' special abilities, for example a ghost’s Possession or a specter’s Life Drain feature.
 
 ### Planar Blockade
-You can sense when a creature attempts to move out of this plane or travel and attempt to block it. Whenever a creature within 60 feet of you attempts to teleport or use a feature to travel to another plane, similar to the *plane shift* spell, you can use your ***reaction*** to cause the target creature to make a Wisdom saving throw. On a failure, the creature’s attempt fails.
+You can sense when a creature attempts to move out of this plane or travel and attempt to block it. Whenever a creature within 60 feet of you attempts to teleport or use a feature to travel to another plane, similar to the *plane shift* spell, you can use your ***reaction*** to cause the target creature to make a Wisdom saving throw against your Edge save DC. On a failure, the creature’s attempt fails.
 
 ### Material Slip
 You can alter your form to match the creatures you fight. As a ***bonus action***, you can magically transform yourself into a semi-ethereal form, one between the material plane and a spirit. While you are like this, you have resistance to all damage from creatures that are not ethereal, except for force damage. You do not have resistance from any creature that is ethereal.
 
 While in this form, you can move in any direction, including up and down, or through objects as difficult terrain. If you end your turn in an object, you take 10 force damage. You remain in this form for 1 minute. This feature ends early if you use a ***bonus action*** to do so, you fall unconscious, you die, or if you enter an area of antimagic.
 
-Once you use this feature, you cannot do so again until you finish a long rest.
+Once you use this feature, you cannot do so again until you complete a long rest.
 
 
 <hr class="classdivider">
@@ -570,30 +493,34 @@ Once you use this feature, you cannot do so again until you finish a long rest.
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Fey Hunter Magic,<br/>Sealed Mind |
-| 5th | Extra Attack |
-| 7th | Rally Against Fey |
+| 1st | Iron Warden, Sealed Mind  |
+| 3rd | Fey Ward, Feybane |
+| 5th | Extra Attack, Rally Against Fey |
+| 7th | Warding of Iron |
 | 11th | Lift the Veil |
 | 15th | Master Fey Hunter |
 
 </div>
 
-A fey hunter specializes in eliminating menaces from the Fey Realms and resisting the many charms and deceptions of the fey. Though fey hunters need not slay every fey they meet, alliances between the fair folk and their hunters are fleeting and uneasy.
+The folk tales are true. Iron burns where steel merely cuts, spoken names carry power, and the Fair Folk are never quite what they seem. A fey hunter specializes in eliminating menaces from the Fey Realms and resisting the many charms and deceptions of the fey. Though fey hunters need not slay every fey they meet, alliances between the fair folk and their hunters are fleeting and uneasy.
 
-### Fey Hunter Magic
-You learn an additional spell when you reach certain levels in this class, as shown in the Fey Hunter Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
-
-#### Fey Hunter Spells
-| Ranger Level | Spells |
-|:----:|:-------------|
-| 3rd | *secure home* |
-| 5th | *earthbind* |
-| 9th | *steel butterflies* |
-| 13th | *by the light of the watchful moon* |
-| 17th | *hallow* |
+### Iron Warden
+When you finish a long rest, you may perform a brief rite over a weapon made primarily of iron or steel. Until your next long rest, that weapon is considered cold iron for the purpose of overcoming the resistances, immunities, and special defenses of Fey creatures.
 
 ### Sealed Mind
-You become vigilant against the wiles of the fey. You become proficient with Wisdom saving throws and you have advantage on saves against being charmed.
+You have become vigilant against the wiles of the fey. You become proficient with Wisdom saving throws and you have advantage on saving throws against being charmed by Fey and on ability checks made to detect illusions or disguises created by Fey.
+
+### Fey Ward
+You have learned you learn to establish an Fey Ward. By spending 1 minute placing iron nails, horseshoes, or other iron tokens around a campsite, dwelling, or similar area, you ward a 30-foot-radius area for 24 hours.
+
+A Fey creature must succeed on a Wisdom saving throw against your Edge save DC to willingly enter the warded area. On a failure, it cannot cross the boundary and instinctively seeks another path. Once a creature succeeds on this saving throw, it is immune to that ward for 24 hours.
+
+Only one Fey Ward may be active at a time.
+
+### Feybane
+Your cold iron strikes bite deeply into the unnatural essence of the Fair Folk. As a ***bonus action***, you designate one creature you can see within 30 ft. The next time you hit that creature on this turn with an attack using a cold iron weapon, the creature takes an extra 1d6 damage from the attack. If the target is Fey, the additional damage is 1d10 instead.
+
+When you reach 11th level in this class, the extra damage increases to 2d6.
 
 ### Extra Attack
 You can attack twice, instead of once whenever you take the Attack action on your turn.
@@ -601,13 +528,18 @@ You can attack twice, instead of once whenever you take the Attack action on you
 ### Rally Against Fey
 When an ally within 30 ft of you fails a saving throw against an enchantment spell, you can use your ***reaction*** to allow that ally to reroll the saving throw and take the higher result. You cannot use this feature on yourself.
 
+### Warding of Iron
+You can invoke a Warding of Iron as an action. For 1 minute, requiring concentration as though concentrating on a spell, Fey creatures have disadvantage on attack rolls against you and cannot charm you. Once you use this feature, you can't do so again until you complete a long rest.
+
 ### Lift the Veil
 Your strikes cut away at the magic surrounding your prey. When you take the Attack action and damage your target, you can use your ***bonus action*** to immediately end any one spell of 3rd level or lower affecting the target. You must know what effect you want to end, e.g. you could choose to end whatever is making your foe invisible, not necessarily knowing the exact spell causing the effect.
 
-Additionally, as an ***action***, you may expend a spell slot of 2nd level or higher to gain truesight to a range of 60 ft. The duration requires concentration and lasts until the end of your next round (2nd level slot), 1 minute (3rd level slot), 10 minutes (4th level slot), or 1 hour (5th level slot).
+Additionally, whenever a Fey creature you can see attempts to teleport, become invisible, or magically alter its appearance, you immediately become aware of its true location until the end of your next turn.
 
 ### Master Fey Hunter
-Your attacks and spells against fey creatures ignore any resistances they possess. Additionally, you can now end spells of 5th level or lower when using your Lift the Veil feature.
+Fey creatures within 30 feet of you must succeed on a Wisdom saving throw against your Edge save DC to teleport, become invisible, charm a creature, or enter a creature's dreams. On a failure, the attempt is wasted.
+
+Additionally, you can now end spells of 5th level or lower when using your Lift the Veil feature.
 
 
 <hr class="classdivider">
@@ -617,30 +549,18 @@ Your attacks and spells against fey creatures ignore any resistances they posses
 #### Conclave Features
 | Ranger Level | Feature |
 | :----------: | :------ |
-| 3rd | Freerunner Magic,<br/>Freerunning,<br/>Momentum |
-| 5th | Extra Attack |
+| 1st | Freerunning |
+| 3rd | Momentum, Skyfall Strike |
+| 5th | Extra Attack, Pathfinder's Route |
 | 7th | Evasive Fighter |
 | 11th | Hit Hard, Hit Fast |
-| 15th | Nimble Dodge |
+| 15th | Impossible Route |
 
 </div>
 
 Agile, evasive, and unmoored from the constraints that slow down other rangers, the archetypal freerunner is supremely nimble and capable of crossing terrain as quickly as possible. They accomplish this through a skilled combination of dashing, leaping, and nimbly climbing, that guides them down clever paths through their environments. Moreover, an adept freerunner can convert the momentum from their gymnastics into deadly force, crushing their enemies with exceptional impact from unexpected directions.
 
-A freerunner is most at home in a city or in the treetops of a great forest, for their unique movement requires a place that is steeped with complex geometry which reaches high into the sky. Of course, even on flat terrain, a freerunner's agility is not to be underestimated, for they can dive through a giants legs or scurry up its back with ease.
-
-### Freerunner Magic
-You learn an additional spell when you reach certain levels in this class, as shown in the Fey Hunter Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.
-
-#### Freerunner Spells
-| Ranger Level | Spells |
-|:----:|:-------------|
-| 3rd | *haste* |
-| 5th | *spider climb* |
-| 9th | *fast step* |
-| 13th | *dimension door* |
-| 17th | *passwall* |
-
+A freerunner is most at home in a city or in the treetops of a great forest, for their unique movement requires a place that is steeped with complex geometry which reaches high into the sky. Of course, even on flat terrain, a freerunner's agility is not to be underestimated, for they can dive through a giant's legs or scurry up its back with ease.
 
 ### Freerunning
 You have trained extensively to move freely over and through any terrain using only the abilities of the body. Gain the *Acrobatics - Parkour* skill and its prerequisite. If you have that skill already you may spend the skill point on any class skill.
@@ -651,19 +571,35 @@ Additionally, you have mastered a number of techniques:
 - **Wall Run**. As a ***bonus action***, you can choose to run along a vertical surface as part of your movement. Until the end of your turn, you gain a climb speed equal to your walking speed. If you jump while running along a wall, you can complete the distance of your jump, even if doing so would exceed your movement speed.
 
 ### Momentum
-If you move through a hostile creature’s space, leave a creature’s reach or move at least 15 ft vertically, you deal an additional 1d6 damage on the next weapon attack you make on your turn.
+Speed is more than movement; it is a weapon. By leveraging agility, daring footwork, and superior positioning, you can strike with exceptional force. You gain Momentum whenever, on your turn, you move through a hostile creature's space or leave a creature's reach. The next weapon attack you make before the end of your turn gains the benefits of Momentum. On a hit, the attack deals an additional 1d6 damage.
+
+### Skyfall Strike
+You have learned to turn every leap, drop, and swing into a devastating attack. Whenever you descend at least 10 feet before hitting a creature with a melee weapon attack, the target must succeed on a Strength saving throw against your Edge save DC or be knocked prone. In addition, If the attack benefited from Momentum, the additional damage from Momentum increases from 1d6 to 2d6.
 
 ### Extra Attack
 You can attack twice, instead of once whenever you take the Attack action on your turn.
 
+### Pathfinder's Route
+A freerunner instinctively sees paths that others overlook. A fallen tree becomes a bridge, a wall becomes a staircase, and a crowded street becomes an open road. Few obstacles can prevent you from finding a way forward.
+
+You reduce any falling damage you take by an amount equal to five times your ranger level.
+
+In addition, your travel pace is treated as one category higher when determining overland movement, and you suffer no penalty to Wisdom (Perception) checks while travelling at a fast pace.
+
+Finally, whenever you spend at least 1 minute observing an urban environment, ruins, forest canopy, cave system, or similar complex terrain, you can identify the fastest route to any visible destination within that area, as well as likely routes used by creatures moving through it.
+
 ### Evasive Fighter
-When you use a freerunning technique, you gain a +2 bonus to your AC until the beginning of your next turn.
+A freerunner survives by never being where the enemy expects. Whenever you use Slide, Tumble, or Wall Run, you gain a +2 bonus to AC until the start of your next turn.
+
+In addition, when a spell or other effect would require you to make a saving throw because you are within an area of effect, you can use your ***reaction*** to move up to half your movement speed before making the saving throw. If this movement carries you outside the area of effect, you automatically succeed on the saving throw. This movement doesn't provoke opportunity attacks.
 
 ### Hit Hard, Hit Fast
-The additional damage from your Momentum feature increases to 2d6.
+Your speed and agility allow you to strike with overwhelming force. The additional damage granted by your Momentum feature increases to 2d6. In addition, whenever you benefit from your Skyfall Strike feature, the attack scores a critical hit on a roll of 19 or 20.
 
-### Nimble Dodge
-When a spell or other effect would have you make a saving throw due to being in an area of effect, you can use your ***reaction*** to move up to half your movement speed, potentially moving you outside the effect’s area.
+### Impossible Route
+Years of freerunning have taught you that every obstacle contains a path. As an ***action***, choose a point you can see within 60 feet. You immediately move to that location by vaulting, climbing, squeezing, and tumbling along a route too fast for others to comprehend. This movement ignores nonmagical barriers up to 5 feet thick, provided there is empty space beyond them.
+
+Once you use this feature, you can't use it again until you complete a long rest.
 
 
 <hr class="classdivider">
@@ -1078,7 +1014,7 @@ Additionally, whenever you command your familiar to make an attack using your re
 | Ranger Level | Feature |
 | :----------: | :------ |
 | 3rd | Investigator’s Intellect,<br>Penetrating Insight |
-| 5th | Extra Attack |
+| 5th | Extra Attack, Streetwise |
 | 7th | Iron Mind |
 | 11th | Informant Network,<br>Twenty Moves Ahead |
 | 15th | Reliable Insight |
@@ -1106,6 +1042,9 @@ These benefits last until you target a different creature with this feature or u
 
 ### Extra Attack
 You can attack twice, instead of once, whenever you take the Attack action on your turn.
+
+### Streetwise
+You disappear into crowds without hesitation. While you are hidden, moving through a crowd that isn’t hostile to you, you can don a disguise if you have prepared it in advance and you have at least one hand free.
 
 ### Iron Mind
 You have trained your mind to an extraordinary level of insight, memory, and attention to detail and gain the following benefits:
@@ -1382,13 +1321,14 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
   - * Regain hit points equal to 2d8 + your Ranger level.
   - * For 1 minute, you gain 1d4 temporary hit points at the start of each of your turns.
 
-	You can use this Edge once, and regain its use when you complete a short or long rest.
+	You can use a benefit granted by this Edge, you can't use that benefit again until you finish a long rest.
 
-	At ***5th level***, when you use this Edge, you may choose two of the available benefits instead of one.
+	At ***5th level***, when you use this Edge, you may activate two different benefits simultaneously. In addition, activating this Edge requires only a bonus action.
 
-	At ***9th level***, you gain all three benefits whenever you use this Edge.
+	At ***9th level***, you can use each benefit twice before requiring a long rest.
 
 	At ***13th level*** double the amount of hp healed and the temporary hit points received.
+
 
 -   ### Circle of Privacy
 
@@ -1410,7 +1350,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***13th level***, long rests completed within the circle are exceptionally restorative. Creatures that finish a long rest within the circle gain temporary hit points equal to your Wisdom modifier + your proficiency bonus and have advantage on saving throws against fear until their next long rest.
 
-	At ***17th level***, the circle becomes a true sanctuary of the wild. Hostile creatures must succeed on a Wisdom saving throw against save DC equal to 8 + your Wisdom modifier + your proficiency bonus to willingly enter the circle. On a failure, the creature feels an overwhelming sense that something is wrong and won't willingly cross the boundary for 1 hour.
+	At ***17th level***, the circle becomes a true sanctuary of the wild. Hostile creatures must succeed on a Wisdom saving throw against your Edge save DC to willingly enter the circle. On a failure, the creature feels an overwhelming sense that something is wrong and won't willingly cross the boundary for 1 hour.
 
 -   ### Deepdelver
 
@@ -1442,17 +1382,17 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***5th level***, you learn to commune with the lingering echoes of the dead. By touching a corpse that has been dead for no more than 24 hours and entering a trance, you relive up to the last 10 minutes of the creature's life from its own perspective. While experiencing these memories, you are incapacitated. The vision ends at the moment of the creature's death, at which point you awaken. Once this vision has been viewed, it can't be viewed again from the same corpse.
 
-	At ***9th level***, you can determine the identities or descriptions of creatures that harmed the deceased, even if they weren't directly seen, by interpreting impressions left upon the body and surrounding area.
+	At ***9th level***, you can determine the identities or descriptions of creatures that harmed the corpse you are communing with, even if they weren't directly seen, by interpreting impressions left upon the body and surrounding area.
 
 	At ***13th level***, you can use this Edge on a corpse that has been dead for up to 7 days.
 
--   ### Embershot
+-   ### Emberheart
 
 	*Prerequisite: Nature - Primal Magic skill*
 
 	Some rangers forge pacts with the untamed powers of nature. By calling upon the spirit of elemental fire, they kindle an inner flame that races along their arrows, turning each shot into a burning brand of destruction.
 
-	As a ***bonus action***, you invoke this Edge for up to 1 hour, requiring concentration as though concentrating on a spell. While this Edge is active, your ranged weapon attacks made with bows deal an additional 1d4 fire damage on a hit.
+	As a ***bonus action***, you invoke this Edge for up to 1 hour, requiring concentration as though concentrating on a spell. While this Edge is active, your weapon attacks deal an additional 1d4 fire damage on a hit.
 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
@@ -1462,7 +1402,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***13th level***, the additional fire damage increases to 1d8, and creatures that take fire damage from your attacks can't benefit from being invisible until the start of your next turn.
 
-	At ***17th level***, the additional fire damage increases to 1d10. Whenever you score a critical hit with a bow attack, flames erupt from the impact, dealing fire damage equal to your proficiency modifier to each creature of your choice within 10 feet of the target.
+	At ***17th level***, the additional fire damage increases to 1d10. Whenever you score a critical hit with this edge, flames erupt from the impact, dealing fire damage equal to your proficiency modifier to each creature of your choice within 10 feet of the target.
 
 -   ### Field Remedy
 
@@ -1494,7 +1434,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	Natural barriers do not impede this sense, though fires completely enclosed by stone, metal, or other substantial structures may be impossible to detect at the GM's discretion.
 
-	At ***5th level***, when you perceive a fire, you can determine whether it is natural, accidental, deliberately created, or magical in origin.
+	At ***5th level***, when you perceive a fire with this Edge, you can determine whether it is natural, accidental, deliberately created, or magical in origin.
 
 	At ***9th level***, you instinctively know the direction of the nearest safe route away from a fire, lava flow or similar spreading hazard.
 
@@ -1514,7 +1454,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
-	At ***5th level***, a veil of primal concealment surrounds you and your companions. Each creature of your choice within 30 feet of you gains a +10 bonus to Stealth checks, can't be tracked except by magical means, and leaves behind no tracks or other traces of its passage.
+	At ***5th level***, a veil of primal concealment surrounds you and your companions. While the Edge is active, each creature of your choice within 30 feet of you gains a +10 bonus to Stealth checks, can't be tracked except by magical means, and leaves behind no tracks or other traces of its passage.
 
 	At ***9th level***, the veil obscures those it protects from supernatural pursuit. Creatures affected by this Edge can't be targeted by divination magic or perceived through magical scrying sensors.
 
@@ -1536,7 +1476,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	Your bond with your quarry grows ever stronger. At ***5th level***, the duration increases to 8 hours.
 
-	At ***9th level***, the extra damage increases to 1d8.
+	At ***9th level***, the extra damage increases to 1d8, and you can use this edge an additional time between each long rest.
 
 	At ***13th level***, the duration increases to 24 hours and you always know the direction of your marked quarry while it remains within 1 mile of you.
 
@@ -1560,7 +1500,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***9th level***, you gain a climbing speed and swimming speed equal to your walking speed while this Edge is active, and you no longer have to concentrate.
 
-	At ***13th level***, your movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce your speed nor cause you to be paralyzed or restrained. In addition, you can spend 5 feet of movement to automatically escape from nonmagical restraints, grapples or similar impediments.
+	At ***13th level***, while the Edge is active, your movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce your speed nor cause you to be paralyzed or restrained. In addition, you can spend 5 feet of movement to automatically escape from nonmagical restraints, grapples or similar impediments.
 
 -   ### Hunter's Vigil
 
@@ -1598,7 +1538,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***13th level***, undead have disadvantage on ability checks made to track you by scent, sound, or supernatural means.
 
-	At ***17th level***, when you perform the Rite of Returning, all corpses of your choice within 30 feet are affected. In addition, undead must succeed on a Wisdom saving throw against save DC equal to 8 + your Wisdom modifier + your proficiency bonus to willingly approach within 10 feet of a corpse you have warded or returned.
+	At ***17th level***, when you perform the Rite of Returning, all corpses of your choice within 30 feet are affected. In addition, undead must succeed on a Wisdom saving throw against your Edge save DC to willingly approach within 10 feet of a corpse you have warded or returned.
 
 -   ### Kindred Spirit
 
@@ -1632,7 +1572,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	The vines instinctively seek living or undead creatures. A creature doesn't benefit from being invisible when making the initial saving throw against this Edge, nor does invisibility allow a creature restrained by the vines to escape their grasp.
 
-	A restrained creature, or another creature within reach of it, can use an ***action*** to make a Strength check against save DC equal to 8 + your Wisdom modifier + your proficiency bonus. On a success, the vines are torn apart and the effect ends.
+	A restrained creature, or another creature within reach of it, can use an ***action*** to make a Strength check against your Edge save DC. On a success, the vines are torn apart and the effect ends.
 
 	Once you use this Edge, you can't use it again until you complete a short or long rest.
 
@@ -1668,7 +1608,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***5th level***, you gain a swimming speed equal to your walking speed while this Edge is active.
 
-	At ***9th level***, you can breathe underwater for the duration.
+	At ***9th level***, you can breathe underwater while the Edge is active.
 
 	At ***13th level***, attacks made against you while you are underwater are made with disadvantage unless the attacker also has a swimming speed.
 
@@ -1704,9 +1644,9 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***5th level***, your speed increases by 10 feet while this Edge is active. Additionally you can use this edge twice between long rests.
 
-	At ***9th level***, the additional damage increases to 2d6. In addition, whenever you hit a creature after moving at least 10 feet, you may push that creature up to 10 feet away from you.
+	At ***9th level***, the additional damage increases to 2d6. In addition, while the Edge is active, whenever you hit a creature after moving at least 10 feet, you may push that creature up to 10 feet away from you.
 
-	At ***13th level***, whenever you move at least 20 feet before hitting a creature with a melee weapon attack, the target must succeed on a Strength saving throw against a DC equal to 8 + your Wisdom modifier + your proficiency bonus or be knocked prone. Additionally you can use this edge three times between long rests.
+	At ***13th level***, while the Edge is active, whenever you move at least 20 feet before hitting a creature with a melee weapon attack, the target must succeed on a Strength saving throw against your Edge save DC or be knocked prone. Additionally you can use this edge three times between long rests.
 
 	At ***17th level***, you can become the eye of the storm. As an ***action*** while this Edge is active, choose up to five creatures you can see within 30 feet. You move like a gust of wind between them, making one melee weapon attack against each target. On a hit, the attack deals an additional 4d8 thunder damage. After making the final attack, you may move to an unoccupied space within 5 feet of any target you attacked and the spell ends.
 
@@ -1738,7 +1678,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	While this Edge is active, arrows fired from your bow transform into bolts of lightning. These attacks deal lightning damage instead of their normal damage type.
 
-	At any point while this Edge is active, you can choose to end it when you hit a creature with a bow attack. When you do so, the stored power of the storm is unleashed through the arrow. The attack deals an additional 2d6 lightning damage, and each creature within 5 feet of the target must succeed on a Dexterity saving throw against a DC equal to 8 + your Wisdom modifier + your proficiency bonus or take the same amount of lightning damage.
+	At any point while this Edge is active, you can choose to end it when you hit a creature with a bow attack. When you do so, the stored power of the storm is unleashed through the arrow. The attack deals an additional 2d6 lightning damage, and each creature within 5 feet of the target must succeed on a Dexterity saving throw against your Edge save DC or take the same amount of lightning damage.
 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
@@ -1760,11 +1700,11 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
-	At ***5th level***, you can listen to the voice of nature itself. As an ***action***, you may name or describe a specific kind of Beast or plant. You learn the direction and approximate distance to the nearest such creature or plant within 5 miles, if one exists within range.
+	At ***5th level***, you can listen to the voice of nature itself. When using this Edge, you may name or describe a specific kind of Beast or plant. You learn the direction and approximate distance to the nearest such creature or plant within 5 miles, if one exists within range.
 
 	At ***9th level***, you also learn the number of such creatures or plants within 1 mile of the nearest one.
 
-	At ***13th level***, you can focus on a specific creature familiar to you. For up to 1 hour, requiring concentration as though concentrating on a spell, you sense the direction of that creature while it remains within 1,000 feet of you. If the creature is moving, you also know the direction of its movement.
+	At ***13th level***, you can focus on a specific creature familiar to you. For up to 1 hour, requiring concentration as though concentrating on a spell, you sense the direction of that creature while it remains within 1,000 feet of you. If the creature is moving, you also know the direction of its movement. Once you use this feature, you can’t use it again until you complete a long rest.
 
 	At ***17th level***, your ***5th-level*** feature can locate all separate groups or specimens instead of only the nearest.
 
@@ -1782,7 +1722,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	As your mastery of the bow grows, your arrows fly with astounding speed and precision. At ***5th level***, when you use this Edge, the attacks deal an additional 1d6 damage on a hit.
 
-	At ***9th level***, your arrows can briefly carry the fury of the hunt itself. Instead of making the normal attacks granted by this Edge, you may fire a single arrow into the air. The arrow fractures into a storm of spectral missiles that rain down in a 30-foot-radius. 20-foot-high cylinder centered no further than half your weapon range. Each creature in the area must succeed on a Dexterity saving throw against a DC equal to 8 + your Wisdom modifier + your proficiency bonus or take 3d8 damage of the same type as your ammunition, or half as much damage on a successful save.
+	At ***9th level***, your arrows can briefly carry the fury of the hunt itself. Instead of making the normal attacks granted by this Edge, you may fire a single arrow into the air. The arrow fractures into a storm of spectral missiles that rain down in a 30-foot-radius. 20-foot-high cylinder centered no further than half your weapon range. Each creature in the area must succeed on a Dexterity saving throw against your Edge save DC or take 3d8 damage of the same type as your ammunition, or half as much damage on a successful save.
 
 	At ***13th level***, when using the normal version of this Edge, you can loose three arrows instead of two. Choose up to three creatures within your weapon's range, each of which must be within 10 feet of at least one other chosen target. Make a separate attack roll with advantage against each target.
 
@@ -1796,11 +1736,11 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	As an ***action***, you open your senses to the subtle signs of the unnatural for up to 10 minutes, requiring concentration as though concentrating on a spell. Until the effect ends, you can sense disturbances in the natural order within 30 feet of you. When you detect such a disturbance, you can use your ***action*** to focus on it. You learn whether any visible creature, object, or area within range bears the mark of magic, or another supernatural influence. This Edge reveals only the presence of the effect, not its nature or origin.
 
-	Beginning at ***5th level***, when you focus on an unnatural influence, you can track its lingering traces. If the creature, object, or effect was present within the last hour, you perceive faint signs visible only to your heightened senses, allowing you to follow its trail at your normal travel speed. If you move at a faster pace, the trail is lost. Teleportation and similar effects leave no trail to follow.
+	Beginning at ***5th level***, while Unnatural Awareness is active and you focus on an unnatural influence, you can track its lingering traces. If the creature, object, or effect was present within the last hour, you perceive faint signs visible only to your heightened senses, allowing you to follow its trail at your normal travel speed. If you move at a faster pace, the trail is lost. Teleportation and similar effects leave no trail to follow.
 
-	Beginning at ***9th level***, when you focus on an unnatural influence, you can determine whether a creature or object is affected by a curse. With a successful Intelligence (Arcana) check, you can discern the curse's nature and effects. This ability doesn't function on artifacts.
+	Beginning at ***9th level***, while Unnatural Awareness is active, you can determine whether a creature or object is affected by a curse. With a successful Intelligence (Arcana) check, you can discern the curse's nature and effects. This ability doesn't function on artifacts.
 
-	At ***13th level***, your instincts grow sensitive enough to distinguish one disturbance from another. When you focus on a supernatural influence, you learn whether it is primarily magical, divine, fey, fiendish, undead, or cursed in nature.
+	At ***13th level***, your instincts grow sensitive enough to distinguish one disturbance from another. While Unnatural Awareness is active and you focus on a supernatural influence, you learn whether it is primarily magical, divine, fey, fiendish, undead, or cursed in nature.
 
 	At ***17th level***, the world can no longer easily hide its secrets from you. While Unnatural Awareness is active, invisible creatures, magically disguised creatures, and creatures transformed by magic register as unnatural influences, even if their true nature remains concealed.
 
@@ -1815,7 +1755,6 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 	While under this veil, non-magical animals are unable to sense the warded creatures through sight, sound, scent, or other natural means. Such creatures behave as though the warded creatures are not present unless presented with obvious evidence of their existence.
 
 	The effect ends immediately for all affected creatures if any warded creature attacks a creature, casts a spell, touches an animal, or otherwise takes a hostile action.
-
 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
@@ -1845,7 +1784,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***9th level***, you have advantage on Charisma checks made to influence Beasts while this Edge is active.
 
-	At ***13th level***, you can communicate simple concepts with Monstrosities that have an Intelligence score of 3 or lower.
+	At ***13th level***, you can additionally communicate simple concepts with Monstrosities that have an Intelligence score of 3 or lower.
 
 	At ***17th level***, Beasts begin interactions with you as though their attitude were one step friendlier than normal.
 
@@ -1923,7 +1862,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	Some rangers walk beneath winter skies and emerge forever changed. By calling upon the silent power of frost, you can shroud yourself in the chill of the frozen wilds, causing your arrows to strike with biting cold.
 
-	As a ***bonus action***, you invoke this Edge for up to 1 hour, requiring concentration as though concentrating on a spell. While this Edge is active, your ranged weapon attacks made with bows deal an additional 1d4 cold damage on a hit.
+	As a ***bonus action***, you invoke this Edge for up to 1 hour, requiring concentration as though concentrating on a spell. While this Edge is active, your weapon attacks deal an additional 1d4 cold damage on a hit.
 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
@@ -1931,7 +1870,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***9th level***, you gain resistance to cold damage while this Edge is active. In addition, any willing creature touching you gains the same resistance until the contact ends.
 
-	At ***13th level***, the additional cold damage increases to 1d8. In addition, a creature hit by one of your arrows must succeed on a Constitution saving throw against your Edge save DC or be unable to take reactions until the start of its next turn
+	At ***13th level***, the additional cold damage increases to 1d8. In addition, a creature damaged by the cold must succeed on a Constitution saving throw against your Edge save DC or be unable to take reactions until the start of its next turn
 
 	At ***17th level***, the additional cold damage increases to 1d10, and creatures that fail their saving throw against Winter's Bite have their speed reduced to 0 until the start of their next turn.
 </div>
