@@ -39,7 +39,7 @@ The number of hexploration activities (HA's) available is determined by the part
 
 - <div class="block classTable frame" markdown="1">
 
-  #### Travelling
+  #### Traveling
   | Pace | HA | Guide | Forage | Lookout |
   |:-----|:--:|:-----:|:------:|:-------:|
   | Careful | 1 | Adv. | Normal | Adv. |
@@ -73,13 +73,14 @@ The number of hexploration activities (HA's) available is determined by the part
 - #### Exhaustion, -1 HA per 2 levels
   The most exhausted character in the party determines the penalty: every 2 levels of exhaustion they have reduces the group's HA by 1. A character with exhaustion level 5 or higher cannot Travel at all. Some penalties can reduce the party’s available HAs below 1, but the party always has at least 1 HA unless special rules (such as being unable to travel due to exhaustion) say otherwise.
 
+  If the party is traveling with mounts or vehicles, this penalty might be reduced or eliminated, depending on whether the mounts or vehicles are able to carry the exhausted party members and provide rest for them.
+
 - #### Forced March, +1 HA
   While traveling, the party may choose to take a forced march. This grants one extra hexploration activity for the day, but is **the only activity possible that day** (no more Travel, Reconnoiter or individual activities). Each character must make a Constitution saving throw at the end of the day. The DC is 10 + 5 for each day past the first in a row (i.e. DC 15 the second day, DC 20 the third day, etc.). On a failed saving throw, a character suffers one level of exhaustion and cannot benefit from a forced march the following day.
 
   A character with the **Endurance** skill, does not need to make a saving throw for the first day of a forced march, but must make a saving throw on subsequent days (then the DC would be 10 for the second day, 15 for the third day, etc.).
 
-- #### Mounts or Vehicles, +1 HA
-  If the party is traveling with mounts or vehicles, they gain one extra hexploration activity for the day. This does not stack with a forced march. Even though the mounts travel at the same pace as a character, the party will be more rested and able to push further or explore more effectively.
+  If the party is traveling with mounts or vehicles, the check may be made with advantage, depending on whether the mounts or vehicles are able to carry the party's gear and provide rest for the party members.
 
 - #### Severe Weather, -1 HA
   Heavy rain, snow, a blizzard or strong winds count as difficult conditions. Post-blizzard terrain also counts as difficult terrain until the snow clears, which may additionally increase the Travel activities required per hex.
