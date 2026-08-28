@@ -360,7 +360,7 @@ For the Halfling pantheon, refer to <a href="../Folk/halfling.html#internal-half
 
 ### Kunek deities
 
-For the Kunek pantheon, refer to <a href="../Folk/beastfolk.html#kunek-religion">their folk page</a>.
+For the Kunek pantheon, refer to <a href="../Folk/beastfolk.html#internal-rabbitfolkReligion">their folk page</a>.
 
 ### Dragon Deities
 
