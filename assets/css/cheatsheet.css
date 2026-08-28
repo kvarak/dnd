@@ -48,6 +48,11 @@ html.dark-mode {
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 }
+.cheatsheet .grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
 .cheatsheet .box {
   border: 1px solid var(--cs-border);
   border-radius: 4px;
