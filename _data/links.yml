@@ -1,9 +1,4 @@
 
-- name: Legacy dnd page
-  img: assets/images/legacy.png
-  url: https://robertrigo.github.io/
-  info: The previous version of the dnd page, with the old rules
-
 - name: Roll20 character sheet
   img: https://raw.githubusercontent.com/kvarak/roll20-sheet/main/sheet.png
   url: https://github.com/kvarak/roll20-sheet
@@ -14,11 +9,6 @@
   url: https://github.com/kvarak/dnd
   info: Source code for this site
 
-- name: Spells
-  img: https://lucidgoddess.com/wp-content/uploads/2016/12/book-of-spells-01.png
-  url: https://spells.rigo.nu/
-  info: Rules for all spells in the game
-
 - name: Calendar
   img: assets/images/calender.png
   url: https://app.fantasy-calendar.com/calendars/0afe93d1ee9b9a90b6ee4cfa73290428
@@ -28,16 +18,6 @@
   img: https://www.pngkey.com/png/detail/151-1515103_writing-quill-books-transparent-background-creative-writing-transparent.png
   url: https://onenote.vilijam.nu
   info: For notes
-
-- name: Statistics
-  img: assets/images/stats.png
-  url: https://dndstats.kvarak.net/
-  info: All kinds of plots and statistics from all paths
-
-- name: Chronicles
-  img: https://www.cambridgeblog.org/wp-content/uploads/2018/06/antique-books-1024x512.png
-  url: https://uppsalarollspel.gitlab.io/chronicles/story.html
-  info: Generated chronicles of what has happened
 
 - name: Official Rules
   img: https://images.ctfassets.net/swt2dsco9mfe/1qU2YMq2MSczf9KGme5gu7/a580e2f158f2c08faad3a9d4463af0bc/dnd-hub-logo.png
