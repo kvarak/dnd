@@ -47,8 +47,8 @@ If surprised: cannot move or act on your first turn; cannot take reactions until
 - <span class="tag">Attack</span> one attack (extra attacks may apply)
 - <span class="tag">Dash</span> gain extra movement equal to your speed
 - <span class="tag">Disengage</span> movement doesn't provoke OAs this turn
-- <span class="tag">Dodge</span> attacks vs you have disadvantage; Dex saves with advantage. Lose if incapacitated or speed 0
-- <span class="tag">Help</span> give advantage on next ability check or attack roll against a creature within 5 ft
+- <span class="tag">Dodge</span> attacks vs you have disadv.; Dex saves with adv.. Lose if incapacitated or speed 0
+- <span class="tag">Help</span> give adv. on next ability check or attack roll against a creature within 5 ft
 - <span class="tag">Ready</span> declare trigger + action; release as a reaction
 - <span class="tag">Ready a Spell</span> cast with 1-action time; hold with concentration; release on trigger
 - <span class="tag">Use an Object</span> interact with a second object
@@ -101,14 +101,14 @@ Roll d20 + **Intelligence** modifier (not Dexterity). Ties broken randomly.
 - <span class="tag">Fumble</span> natural 1 - roll 1d100 on fumble table
 - <span class="tag">Advantage</span> roll 2d20, take higher
 - <span class="tag">Disadvantage</span> roll 2d20, take lower
-- *Advantage and disadvantage cancel out.*
+- *adv. and disadv. cancel out.*
 <br/>
 
 - <span class="tag">Melee</span> STR mod (or DEX with finesse)
 - <span class="tag">Thrown</span> STR mod (or DEX with finesse)
-- <span class="tag">Ranged</span> DEX mod. Disadvantage in melee
+- <span class="tag">Ranged</span> DEX mod. Disadv. in melee
 - <span class="tag">Spell</span> d20 + spellcasting mod + proficiency vs AC
-- <span class="tag">Range X/Y</span> normal (X ft) = no penalty; beyond X = disadvantage; beyond Y = can't attack
+- <span class="tag">Range X/Y</span> normal (X ft) = no penalty; beyond X = disadv.; beyond Y = can't attack
 
 </div>
 <div class="box" markdown="1">
@@ -145,8 +145,8 @@ Roll d20 + **Intelligence** modifier (not Dexterity). Ties broken randomly.
 ## Dropping to 0 HP
 - <span class="tag">Instant death</span> if remaining damage ≥ your HP maximum.
 - <span class="tag">Death saves</span> d20 at start of your turn. 3 successes = stable. 3 failures = dead. Natural 20 = regain 1 HP.
-  - Remaining dmg > CON score → first save at **disadvantage**
-  - Remaining dmg ≤ CON bonus (or 0) → first save at **advantage**
+  - Remaining dmg > CON score → first save at **disadv.**
+  - Remaining dmg ≤ CON bonus (or 0) → first save at **adv.**
 
 - <span class="tag">Stabilize</span> DC 10 Wis (Medicine) check as action; or Healer's kit (auto-stabilize, no check).
 - <span class="tag">Combat Exhaustion</span> (on return from 0 HP): gain 6 levels. Lose 1 at the start of each round. Reaching 6+ = <span class="tag">Stunned</span> (not dead).
@@ -166,8 +166,8 @@ Only one concentration spell at a time. When you **take damage**, make a **Const
 <div class="box" markdown="1">
 
 ## Sneaking & Stabbing
-Attack an **undetected** target: attack with **advantage**. On hit vs Humanoid: Constitution save or knocked **unconscious**. Save DC modified by head protection.
-*Rogues force the save with disadvantage.*
+Attack an **undetected** target: attack with **adv.**. On hit vs Humanoid: Constitution save or knocked **unconscious**. Save DC modified by head protection.
+*Rogues force the save with disadv..*
 
 </div>
 <div class="box" markdown="1">
@@ -182,8 +182,8 @@ Attack an **undetected** target: attack with **advantage**. On hit vs Humanoid: 
 <div class="box" markdown="1">
 
 ## Underwater Combat
-- <span class="tag">Melee</span> disadvantage unless weapon deals **piercing**
-- <span class="tag">Ranged</span> auto-miss beyond normal range; disadvantage within normal range (except crossbows & thrown weapons)
+- <span class="tag">Melee</span> disadv. unless weapon deals **piercing**
+- <span class="tag">Ranged</span> auto-miss beyond normal range; disadv. within normal range (except crossbows & thrown weapons)
 - <span class="tag">Fully immersed</span> resistance to **fire** damage
 
 </div> <!-- END column -->
@@ -199,39 +199,42 @@ Attack an **undetected** target: attack with **advantage**. On hit vs Humanoid: 
 <div class="conditions-grid" markdown="1">
 
 <div markdown="1">
-<span class="tag">Blinded</span> - auto-fail sight checks; attacks against = advantage; your attacks = disadvantage
+<span class="tag">Blinded</span> - auto-fail sight checks; attacks against = adv.; your attacks = disadv.
 
-<span class="tag">Charmed</span> - can't attack charmer; charmer has advantage on social checks vs you
+<span class="tag">Charmed</span> - can't attack charmer; charmer has adv. on social checks vs you
 
 <span class="tag">Deafened</span> - auto-fail hearing checks
 
-<span class="tag">Frightened</span> - disadvantage on checks & attacks while source is visible; can't willingly move closer
+<span class="tag">Frightened</span> - disadv. on checks & attacks while source is visible; can't willingly move closer
 
 <span class="tag">Grappled</span> - speed 0; ends if grappler is incapacitated or you are moved out of reach
+
+<span class="tag">Incapacitated</span> - no actions or reactions
+
 </div>
 
 <div markdown="1">
-<span class="tag">Incapacitated</span> - no actions or reactions
 
-<span class="tag">Invisible</span> - impossible to see without special sense; attacks against = disadvantage; your attacks = advantage
+<span class="tag">Invisible</span> - impossible to see without special sense; attacks against = disadv.; your attacks = adv.
 
-<span class="tag">Paralyzed</span> - incapacitated, can't move or speak; auto-fail STR/DEX saves; attacks against = advantage; hits within 5 ft = critical
+<span class="tag">Paralyzed</span> - incapacitated, can't move or speak; auto-fail STR/DEX saves; attacks against = adv.; hits within 5 ft = critical
 
 <span class="tag">Petrified</span> - transformed to solid, incapacitated; resistance to all damage; immune to poison & disease; auto-fail STR/DEX saves
 
-<span class="tag">Poisoned</span> - disadvantage on attack rolls and ability checks
+<span class="tag">Poisoned</span> - disadv. on attack rolls and ability checks
+
+<span class="tag">Prone</span> - melee = adv.; ranged = disadv.; your attacks = disadv.; stand up costs ½ speed
 </div>
 
 <div markdown="1">
-<span class="tag">Prone</span> - melee attacks = advantage; ranged attacks = disadvantage; your attacks = disadvantage; stand up costs ½ speed
 
-<span class="tag">Restrained</span> - Speed 0; attacks against = advantage; your attacks = disadvantage; disadvantage on Dex saves
+<span class="tag">Restrained</span> - Speed 0; attacks against = adv.; your attacks = disadv.; disadv. on Dex saves
 
-<span class="tag">Stunned</span> - incapacitated; auto-fail STR/DEX saves; attacks against = advantage
+<span class="tag">Stunned</span> - incapacitated; auto-fail STR/DEX saves; attacks against = adv.
 
-<span class="tag">Unconscious</span> - incapacitated, prone, drop held items; auto-fail STR/DEX saves; attacks against = advantage; hits within 5 ft = critical
+<span class="tag">Unconscious</span> - incapacitated, prone, drop held items; auto-fail STR/DEX saves; attacks against = adv.; hits within 5 ft = critical
 
-<span class="tag">Exhaustion</span> - 1: disadvantage on checks; 2: ½ speed; 3: disadv. attacks & saves; 4: HP max halved; 5: speed 0; 6: death
+<span class="tag">Exhaustion</span> - 1: disadv. on checks; 2: ½ speed; 3: disadv. attacks & saves; 4: HP max halved; 5: speed 0; 6: death
 </div>
 
 </div> <!-- END conditions grid -->
@@ -250,38 +253,22 @@ Attack an **undetected** target: attack with **advantage**. On hit vs Humanoid: 
 <div>
 <div class="box" markdown="1">
 
-## Proficiency Bonus
+## Usage Die
 
-| Levels | Bonus |
-|:-------|:-----:|
-| 1–4 | +2 |
-| 5–8 | +3 |
-| 9–12 | +4 |
-| 13–16 | +5 |
-| 17–20 | +6 |
+After using a consumable, roll its usage die. On a **1 or 2** the die shrinks one step.
 
-</div>
-<div class="box" markdown="1">
+<span class="tag">d20 → d12 → d10 → d8 → d6 → d4 → 0 </span>(1 last shot for ammo)
 
-## Ability Check DCs
-
-| Difficulty | DC |
-|:-----------|:--:|
-| Trivial | 5 |
-| Easy | 10 |
-| Medium | 15 |
-| Hard | 20 |
-| Very Hard | 25 |
-| Near Impossible | 30 |
+| Die | Avg uses |
+|:---:|:--------:|
+| d20 | 30 |
+| d12 | 20 |
+| d10 | 14 |
+| d8 | 9 |
+| d6 | 5 |
+| d4 | 2 |</div>
 
 </div>
-
-</div>
-
-<!-- ----------------------- Column 2 ----------------------- -->
-
-<div>
-
 <div class="box" markdown="1">
 
 ## Short Rest
@@ -313,7 +300,7 @@ Attack an **undetected** target: attack with **advantage**. On hit vs Humanoid: 
 
 </div>
 
-<!-- ----------------------- Column 3 ----------------------- -->
+<!-- ----------------------- Column 2 ----------------------- -->
 
 <div>
 
@@ -325,26 +312,85 @@ Hold up to **3** points.
 
 **Skill checks:** spend *after* seeing the result to reroll.
 
-**Other rolls:** spend *before* the roll to gain advantage.
+**Other rolls:** spend *before* the roll to gain adv..
 
 </div>
 <div class="box" markdown="1">
 
-## Usage Die
+## Travel Roles (Kingmaker)
 
-After using a consumable (ammo, Healer's kit, etc.), roll its usage die. On a **1 or 2**, the die shrinks one step. On a **1 or 2** on a d4, the item is gone, except for ammunition, which has a last shot. The larger the starting usage die, the more uses you'll get out of an item before it expires.
+*Predict weather: Survival (DC 15) at Breaking Camp. Expertise with terrain skill.*
 
-<span class="tag">d20 → d12 → d10 → d8 → d6 → d4 → 0 </span>(1 last shot for ammo)
+One leader per role; first helper grants adv., each further helper +1.
 
-| Die | Avg uses |
-|:---:|:--------:|
-| d20 | 30 |
-| d12 | 20 |
-| d10 | 14 |
-| d8 | 9 |
-| d6 | 5 |
-| d4 | 2 |</div>
+**Guide** - Int check at camp; sets navigation DC. Fail = half progress; fail by 5+ = no progress.
 
+| DC | Terrain |
+|:--:|:--------|
+| 5 | Open plains, clear landmarks |
+| 10 | Small hills |
+| 15 | Light rain, woods |
+| 20 | Heavy rain, forest |
+| 25 | Fog, mountains |
+| 30 | Night fog, magical terrain |
+
+**Forager** - Wis check at end of day; success = 2d4 rations.
+
+| DC | Terrain |
+|:--:|:--------|
+| 5 | Lush forest |
+| 10 | Forest, coast |
+| 15 | Thin woodland |
+| 20 | Dry plains |
+| 25 | Desert |
+| 30 | Corrupted deadlands |
+
+**Lookout** - Perception checks during travel. Fail = party is surprised.
+
+</div>
+
+</div>
+
+<!-- ----------------------- Column 3 ----------------------- -->
+
+<div>
+<div class="box" markdown="1">
+
+## Hexploration (Kingmaker)
+
+Each day has a number of **Hexploration Activities (HAs)** based on pace.
+
+| Pace | HA | Guide | Forage | Lookout |
+|:-----|:--:|:-----:|:------:|:-------:|
+| Careful | 1 | Adv. | Normal | Adv. |
+| Normal | 2 | Normal | Disadv. | Normal |
+| Reckless | 3 | Disadv. | None | Disadv. |
+
+- As group: **Terrain cost to Travel (or Reconnoiter) a hex:** Open (plains, grasslands) 1, Difficult (forest, desert) 2, Greater Difficult (mountain, swamp) 3, Road -1.
+- Indiviually: **Fortify Camp** (Craft vs terrain DC) or **Map the Area** (Investigation or Survival; requires Reconnoiter).
+
+**HA modifiers:**
+- <span class="tag">Exhaustion</span> -1 HA per 2 exhaustion levels
+- <span class="tag">Forced March</span> +1 HA, but travel only; Con save end of day (DC 10+5/day) or gain exhaustion
+- <span class="tag">Severe Weather</span> -1 HA
+- <span class="tag">Pathfinding / Mountain Routefinding</span> +1 HA (one skill only)
+
+</div>
+
+<div class="box" markdown="1">
+
+## Camp Activities (Kingmaker)
+
+| Activity | Check |
+|:---------|:------|
+| Prepare Camp | Survival vs Zone DC |
+| Hunting | Survival; success = 1 ration (+1 per 5 above DC) |
+| Cooking | Cooking; no roll for basic meal |
+| Camouflage | Survival or Stealth |
+| Stand Guard | Perception; skip camp activity to stay alert |
+| Subsist | Survival or social check; -5 after exploring |
+| Aid | First helper = adv.; each further helper = +1 |
+| Other | Cook Food, Craft Item, Maintain Gear,  Repair an Item, etc... |
 
 </div>
 
@@ -357,5 +403,5 @@ After using a consumable (ammo, Healer's kit, etc.), roll its usage die. On a **
 
 <br/>
 
-*Full rules: [Combat](../RulesCombat/a_index.html) · [Combat Skills](../RulesCharacter/skills_combat.html) · [Adventuring & Resting](../RulesExtra/adventuring.html) · [Equipment](../RulesEquipment/a_index.html) · [The Character](../RulesCharacter/a_index.html) · [D&D 5e Basic Rules](https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat)*
+*Full rules: [Combat](../RulesCombat/a_index.html) · [Combat Skills](../RulesCharacter/skills_combat.html) · [Adventuring & Resting](../RulesExtra/adventuring.html) · [Equipment](../RulesEquipment/a_index.html) · [The Character](../RulesCharacter/a_index.html) · [Kingmaker Rules](../CampaignRules/12_kingmaker_rules.html) · [D&D 5e Basic Rules](https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat)*
 
