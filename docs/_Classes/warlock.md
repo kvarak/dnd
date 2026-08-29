@@ -11,10 +11,10 @@ layout: default
 # 2. Scoring boons separately (playstyle choice - mechanical)
 # 3. Presenting both results independently for user to combine
 #
-# Implementation: The questionnaire will score:
-#   - "Warlock Patron: Abraxas (85%)"
-#   - "Pact Boon: Tome (92%)"
-# User then combines their preferred patron + boon combination.
+# Implementation:
+# 1. Scoring archetypes separately (patron choice - narrative/thematic)
+# 2. Scoring boons separately (playstyle choice - mechanical)
+# 3. Presenting both results independently for user to combine
 profile:
   traits: ["knowledge-seeker", "otherworldly-knowledge", "arcane-magic", "cunning-value"]
   archetypes:

@@ -69,14 +69,6 @@ CSS is now organized by **functionality** rather than by page. Each page loads o
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/spells-page-dark.css"/>
 ```
 
-### Questionnaire Page (if it used pills)
-```html
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pills.css"/>
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/class-colors.css"/>
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/pills-dark.css"/>
-<!-- Plus questionnaire-specific CSS if needed -->
-```
-
 ## Architecture Benefits
 
 ### 1. Separation of Concerns ✅

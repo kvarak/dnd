@@ -11,7 +11,7 @@
 # - Focus on daily development workflow
 # - Everything works out of the box
 
-.PHONY: help serve build extract extract-archetypes extract-folk clean find-broken-links ci-build ci-link-check update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose validate-profiles validate-questions analyze-question-traits test-class-scoring test-ranking-system
+.PHONY: help serve build extract extract-archetypes extract-folk clean find-broken-links ci-build ci-link-check update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose validate-profiles
 
 # Docker configuration
 # Works on Mac (Intel & Apple Silicon), Linux, and Windows
@@ -42,7 +42,7 @@ help:
 	@echo ""
 	@echo "Utilities:"
 	@echo "  make find-broken-links   - Find placeholder images to replace"
-	@echo "  make test                - Run all validation (lint-md + validate-questions)"
+	@echo "  make test                - Run all validation (lint-md + validate-profiles)"
 	@echo "  make test-verbose        - Run validation with detailed output"
 	@echo "  make lint-md             - Validate markdown formatting and structure"
 	@echo "  make lint-md-quiet       - Validate markdown with minimal output"
@@ -51,10 +51,6 @@ help:
 	@echo "  make test-structure-quiet - Validate Varlyn patterns with minimal output"
 	@echo "  make test-structure-full - Validate Varlyn patterns for all Folk/Class files"
 	@echo "  make validate-profiles   - Validate class profile frontmatter schema (checks archetype anchor naming)"
-	@echo "  make validate-questions  - Validate class selector question bank coverage"
-	@echo "  make analyze-question-traits - Analyze multi-trait vs single-trait questions"
-	@echo "  make test-class-scoring  - Test class recommendation scoring algorithm"
-	@echo "  make test-ranking-system - Test class recommendation ranking and explanations"
 	@echo ""
 	@echo "🐳 Everything runs in Docker - no local setup needed!"
 
@@ -166,10 +162,10 @@ test-verbose: build
 		npm install --silent && \
 		node tools/lint-markdown.js docs" && \
 	echo "" && \
-	echo "🎯 Step 2: Question bank validation..." && \
+	echo "� Step 2: Class profile validation..." && \
 	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent js-yaml && \
-		node tools/validate-question-bank.js"
+		node tools/validate-class-profiles.js"
 
 # Quiet mode versions (minimal output with dots)
 test: build
@@ -181,17 +177,7 @@ test: build
 	echo "📋 Validating class profiles..." && \
 	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent js-yaml && \
-		node tools/validate-class-profiles.js" && \
-	echo "" && \
-	echo "🎯 Validating question bank..." && \
-	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent js-yaml && \
-		node tools/validate-question-bank.js" && \
-	echo "" && \
-	echo "🔤 Checking for problematic answer characters..." && \
-	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent js-yaml && \
-		node tools/validate-answer-characters.js"
+		node tools/validate-class-profiles.js"
 
 lint-md-quiet: build
 	@echo "📝 Markdown linting (quiet)..."
@@ -212,30 +198,3 @@ validate-profiles: build
 		npm install --silent js-yaml && \
 		node tools/validate-class-profiles.js"
 
-# Validate question bank coverage and structure
-validate-questions: build
-	@echo "🎯 Validating question bank..."
-	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent js-yaml && \
-		node tools/validate-question-bank.js"
-
-# Analyze question bank trait distribution
-analyze-question-traits: build
-	@echo "🔍 Analyzing question trait coverage..."
-	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent js-yaml && \
-		node tools/analyze-question-traits.js"
-
-# Test class recommendation scoring algorithm
-test-class-scoring: build
-	@echo "🧪 Testing class scoring algorithm..."
-	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent js-yaml && \
-		node tools/test-class-scoring.js"
-
-# Test class recommendation ranking and explanations
-test-ranking-system: build
-	@echo "🏆 Testing recommendation ranking system..."
-	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent js-yaml && \
-		node tools/test-ranking-system.js"
