@@ -1,12 +1,12 @@
 ---
-title: "Combat Cheat Sheet"
+title: "Cheat Sheet"
 layout: default
-permalink: /RulesCombat/combat_cheatsheet
+permalink: /ResourcesTools/cheatsheet
 extra_css: cheatsheet.css
 ---
 
 
-# Combat Cheat Sheet
+# Cheat Sheet
 
 First page is a quick reference for combat rules. Second page is for conditions and other rules.
 
