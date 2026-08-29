@@ -12,7 +12,7 @@
 
 
 - date: 2026-02-15
-  info: Added resource tools — generators and other utilities to help players.
+  info: Added resource tools - generators and other utilities to help players.
 
 
 - date: 2026-02-23
@@ -25,4 +25,24 @@
 
 - date: 2026-03-02
   info: Each campaign page now has a statistics section with detailed information about the campaign.
+
+
+- date: 2026-03-03
+  info: Player statistics expanded - Player's Class Repertoire and Player's Folk Repertoire now tracked across campaigns. Party Timeline and Level Duration Analysis improvements.
+
+
+- date: 2026-08-06
+  info: Class updates - Rogue rework, Ranger favoured enemy update, Cavalier and combat skills fixes.
+
+
+- date: 2026-08-22
+  info: Folk deities reorganised - folk pages now have a dedicated deities section with proper domains assigned.
+
+
+- date: 2026-08-26
+  info: Campaign 12 - [Kingmaker](Campaigns/12-Kingmaker.html) added.
+
+
+- date: 2026-08-27
+  info: Kingmaker special rules added - hexploration, kingdom building, weather and travel pacing rules.
 
