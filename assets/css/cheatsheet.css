@@ -53,6 +53,11 @@ html.dark-mode {
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
 }
+.cheatsheet .grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
 .cheatsheet .box {
   border: 1px solid var(--cs-border);
   border-radius: 4px;
@@ -102,4 +107,5 @@ html.dark-mode {
   .cheatsheet td { border-color: #bbb; }
   .cheatsheet .box { border-color: #bbb; background: #f7f7f7 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .cheatsheet .grid { page-break-inside: avoid; }
+  .cheatsheet + .cheatsheet { break-before: page; }
 }

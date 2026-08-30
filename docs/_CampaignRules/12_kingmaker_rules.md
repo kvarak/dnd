@@ -236,7 +236,7 @@ In order to locate a safe place to set up a campsite while hexploring the Stolen
 
 - #### Other Rest Activities
 
-  As described in the [Adventuring rules](../RulesExtra/adventuring.html##internal-RestActivities): *Cook Food*, *Craft Item*, *Maintain Gear* or *Repair an Item*.
+  As described in the [Adventuring rules](../RulesExtra/adventuring.html##internal-RestActivities): *Craft Item*, *Maintain Gear* or *Repair an Item*.
 
 - #### Other Activities
 
