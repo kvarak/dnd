@@ -50,6 +50,10 @@ This skill mixes various physical performances with feats of extraordinary balan
 <details><summary>Aerial Acrobatics</summary>
 
 Acrobatics performed in the air on a suspended apparatus such as a trapeze, a vertically hanging rope (corde lisse), a long length of fabric or similar. When making a performance you have ***Expertise (Dex, Cha)***. During adventuring you could use this skill with Expertise to jump from a balcony to catch a rope, move between chandeliers, climb ropes (using Strength) or other similar aerial feats.
+
+<details><summary>Vine Jump (trait)</summary>
+When you are within 15 feet of a huge or larger plant, your maximum jump distance is tripled if you have a free hand, as you know how to grab the branches or vines of the plant to help you in your jump.
+</details>
 </details>
 
 <details><summary>Contortion (trait)</summary>

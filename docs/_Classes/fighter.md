@@ -1658,6 +1658,11 @@ Whenever you gain a level in a class that has the Fighting Style feature, you ca
 - #### Archery
     You gain a +2 bonus to attack rolls you make with ranged weapons.
 
+- #### Arctic Hunter
+    When you attack a creature that is in a difficult terrain, you can add 1d4 either to your attack or damage roll. 
+
+    You have the advantage on saving throws imposed by terrains made out of snow or ice.
+
 - #### Battle Vigor
     At the start of combat when initiative is rolled you gain temporary hit points equal to your fighter level.
 
@@ -1678,6 +1683,11 @@ Whenever you gain a level in a class that has the Fighting Style feature, you ca
 
 - #### Charge Leader
     When you roll initiative, all allies who can see or hear you gain advantage on their initiative roll so long as you are not surprised.
+
+- #### Coastal Hunter
+    When you make an attack against a creature with a net, or when you make an attack against a creature suffering from the Restrained condition, you can add 1d4 either to your attack or damage roll.
+    
+    As a ***bonus action***, you can make an attack with a trident or spear against a Restrained creature.
 
 - #### Defense
     While you are wearing armor, you gain a +1 bonus to AC.
