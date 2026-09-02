@@ -89,28 +89,28 @@ When creating (or adapting existing) Ranger conclave
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Ranger
-| -Level- | -PB- | -Features- | -Hunter's Edge- |
-|:-------:|:----:|:-----------|:---------------:|
-| 1st | +2 | Hunter's Edge, Natural Explorer,<br/>Ranger Conclave | 2 |
-| 2nd | +2 | Favored Enemy, Fighting Style | 2 |
-| 3rd | +2 | Ranger Conclave feature | 3 |
-| 4th | +2 | Primeval Awareness | 3 |
-| 5th | +3 | Ranger Conclave feature | 4 |
-| 6th | +3 | Favored Enemy Improvement | 4 |
-| 7th | +3 | Ranger Conclave feature | 5 |
-| 8th | +3 | Relentless | 5 |
-| 9th | +4 | ─ | 6 |
-| 10th | +4 | Hide in Plain Sight | 6 |
-| 11th | +4 | Ranger Conclave feature | 7 |
-| 12th | +4 | Favored Enemy Improvement | 7 |
-| 13th | +5 | ─ | 8 |
-| 14th | +5 | Low Profile | 8 |
-| 15th | +5 | Ranger Conclave feature | 9 |
-| 16th | +5 | ─ | 9 |
-| 17th | +6 | ─ | 10 |
-| 18th | +6 | Evolutionary Balance | 10 |
-| 19th | +6 | ─ | 11 |
-| 20th | +6 | Apex Predator | 11 |
+| -Level- | -PB- | -Features- | -Hunter's Edges- | -Edge Die- |
+|:-------:|:----:|:-----------|:---------------:|:----------:|
+| 1st | +2 | Hunter's Edge, Natural Explorer,<br/>Ranger Conclave | 2 | 1d4 |
+| 2nd | +2 | Favored Enemy, Fighting Style | 2 | 1d4 |
+| 3rd | +2 | Ranger Conclave feature | 3 | 1d4 |
+| 4th | +2 | Primeval Awareness | 3 | 1d4 |
+| 5th | +3 | Ranger Conclave feature | 4 | 1d4 |
+| 6th | +3 | Favored Enemy Improvement | 4 | 1d6 |
+| 7th | +3 | Ranger Conclave feature | 5 | 1d6 |
+| 8th | +3 | Relentless | 5 | 1d6 |
+| 9th | +4 | ─ | 6 | 1d6 |
+| 10th | +4 | Hide in Plain Sight | 6 | 1d6 |
+| 11th | +4 | Ranger Conclave feature | 7 | 1d6 |
+| 12th | +4 | Favored Enemy Improvement | 7 | 1d6 |
+| 13th | +5 | ─ | 8 | 1d8 |
+| 14th | +5 | Low Profile | 8 | 1d8 |
+| 15th | +5 | Ranger Conclave feature | 9 | 1d8 |
+| 16th | +5 | ─ | 9 | 1d8 |
+| 17th | +6 | ─ | 10 | 1d8 |
+| 18th | +6 | Evolutionary Balance | 10 | 1d10 |
+| 19th | +6 | ─ | 11 | 1d10 |
+| 20th | +6 | Apex Predator | 11 | 1d10 |
 
 </div>
 
@@ -146,6 +146,15 @@ The wild teaches harsh lessons to those who endure it. These lessons become a Hu
 
 At 1st level, you gain two Hunter's Edges of your choice. You gain an additional Hunter's Edge at every odd ranger level thereafter. When you gain a Hunter's Edge, you may select any Edge for which you meet the prerequisites.
 
+#### Edge Die
+Your reserve of expertise and instinct is represented by Edge Dice. You have a number of Edge Dice equal to twice your proficiency bonus, and your ranger level determines the size of your Edge Die, as shown in the ranger class table.
+
+Some of your Hunter's Edges use these dice. An Edge might allow you to roll an Edge Die and add the result to a roll or effect, or it may require you to expend an Edge Die to activate a special ability. If an Edge refers to your Edge Die, use the die size shown for your ranger level in the ranger class table.
+
+After you finish a short rest, you can expend one Edge Die to regain the use of one Hunter's Edge that you have used and that normally regains its use only when you finish a long rest.
+
+You can regain all expended Edge Dice when you finish a long rest.
+
 #### Saving Throws
 Some Edges require your target to make a saving throw to resist their effects. The saving throw DC is calculated as follows:
 
@@ -172,7 +181,7 @@ You are particularly familiar with the natural world, adept at traveling and sur
     Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.
 
 - #### Light in the Dark
-    You know how to make your lighting supplies last a little longer in the dark. You have skill wwith crafting simple candles or torches, and these crafted lights burn for twice as long as normal.
+    You know how to make your lighting supplies last a little longer in the dark. You have skill with crafting simple candles or torches, and these crafted lights burn for twice as long as normal.
 
 - #### Light Sleeper
     While asleep, you are still half-aware of what's happening around you. You may still roll Perception checks while sleeping, but with disadvantage.
@@ -180,11 +189,17 @@ You are particularly familiar with the natural world, adept at traveling and sur
 - #### Make a Meal out of Everything
     You may roll with advantage when attempting to cook a simple meal with basic or improvised ingredients.
 
+- #### Master of Your Environment
+	When you benefit from at least half cover, you also gain an additional +1 bonus to your AC and Dexterity saving throws. When you create cover, you extend this bonus to any creature who benefits from the cover. 
+
 - #### Natural Sense of Direction
     When travelling outside, you may make navigation checks as if you had a map and compass.
 
 - #### Shortcut to Mushrooms
     When you forage, you find twice as much food or water as you normally would.
+
+- #### Side Slide
+	When you willingly move through a slippery terrain such as snow or ice for instance, your walking speed increases by 10 feet and you have advantage on any Dexterity checks imposed by that terrain.
 
 - #### There is Always Another Path
     Difficult terrain doesn’t slow your group's travel during long journeys.
@@ -218,9 +233,9 @@ The following additions are made to the general rest rules.
 |:-|
 | After a long rest: |
 | * Regain uses of your Hunter's Edges.
+| * Regain all Edge Dice.
 | * Regain one use of ***Primeval Awareness***.
 | * Regain one use of ***Fade Away***.
-
 | Add the following class specific benefits to choose from: |
 | * Regain all uses of ***Primeval Awareness***.
 | * Regain all uses of ***Fade Away***.
@@ -250,6 +265,14 @@ At 8th level you can choose one of the following options:
 - #### Relentless Wanderer
     You have advantage on any saving throw made to avoid non magical traps or natural hazards, as well as resistance to any damage from non magical traps or natural hazards. You don’t gain this benefit if you are incapacitated, grappled, or restrained.
 
+- #### Swift Tracker
+	You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.
+
+- #### Tireless
+	As an ***action***, you can give yourself a number of temporary hit points equal to your Edge Die + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest.
+	
+	In addition, whenever you finish a long rest, you can always reduce your exhaustion level by 1.
+	
 </div>
 
 ### Hide in Plain Sight
@@ -424,10 +447,10 @@ Whenever an attacker that your companion can see hits it with an attack, it can 
 | Ranger Level | Feature |
 | :----------: | :------ |
 | 1st | Phantom Sense |
-| 3rd | Mind Impression (1d6), Rite of Peace |
+| 3rd | Mind Impression, Rite of Peace |
 | 5th | Extra Attack, Protection from Undead |
 | 7th | Death Ward, Spiritual Sheath |
-| 11th | Mind Impression (2d6), Planar Blockade |
+| 11th | Planar Blockade |
 | 15th | Material Slip |
 
 <div class="card rest">
@@ -456,9 +479,7 @@ You gain the ability to magically sense the presence of ethereal undead creature
 With longer concentration you can sense other disturbances in the natural cycle as well. If you focus for a minute, you know if a Celestial, Fiend, Undead, or creature possessed by a supernatural entity is within 30 feet of you. You learn the creature's location, but not its identity.
 
 ### Mind Impression
-You can enhance your knowledge of the afterlife to whittle away the psyche of others. As a ***bonus action***, you designate one creature you can see within 30 ft of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes psychic damage, and the creature takes an extra 1d6 psychic damage from the attack.
-
-When you reach 11th level in this class, the extra damage increases to 2d6.
+You can enhance your knowledge of the afterlife to whittle away the psyche of others. As a ***bonus action***, you designate one creature you can see within 30 ft of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes psychic damage, and the creature takes an extra psychic damage equal to your Edge Die from the attack.
 
 ### Rite of Peace
 Through funerary rites and an understanding of the soul's final journey, you can help ensure that the dead remain at peace. By spending 1 minute performing funeral rites over a corpse, you preserve it from decay and prevent it from becoming undead for 10 days.
@@ -518,9 +539,7 @@ A Fey creature must succeed on a Wisdom saving throw against your Edge save DC t
 Only one Fey Ward may be active at a time.
 
 ### Feybane
-Your cold iron strikes bite deeply into the unnatural essence of the Fair Folk. As a ***bonus action***, you designate one creature you can see within 30 ft. The next time you hit that creature on this turn with an attack using a cold iron weapon, the creature takes an extra 1d6 damage from the attack. If the target is Fey, the additional damage is 1d10 instead.
-
-When you reach 11th level in this class, the extra damage increases to 2d6.
+Your cold iron strikes bite deeply into the unnatural essence of the Fair Folk. As a ***bonus action***, you designate one creature you can see within 30 ft. The next time you hit that creature on this turn with an attack using a cold iron weapon, the creature takes extra damage equal to your Edge Die.
 
 ### Extra Attack
 You can attack twice, instead of once whenever you take the Attack action on your turn.
@@ -553,7 +572,7 @@ Additionally, you can now end spells of 5th level or lower when using your Lift 
 | 3rd | Momentum, Skyfall Strike |
 | 5th | Extra Attack, Pathfinder's Route |
 | 7th | Evasive Fighter |
-| 11th | Hit Hard, Hit Fast |
+| 11th | Improved Skyfall |
 | 15th | Impossible Route |
 
 </div>
@@ -571,10 +590,10 @@ Additionally, you have mastered a number of techniques:
 - **Wall Run**. As a ***bonus action***, you can choose to run along a vertical surface as part of your movement. Until the end of your turn, you gain a climb speed equal to your walking speed. If you jump while running along a wall, you can complete the distance of your jump, even if doing so would exceed your movement speed.
 
 ### Momentum
-Speed is more than movement; it is a weapon. By leveraging agility, daring footwork, and superior positioning, you can strike with exceptional force. You gain Momentum whenever, on your turn, you move through a hostile creature's space or leave a creature's reach. The next weapon attack you make before the end of your turn gains the benefits of Momentum. On a hit, the attack deals an additional 1d6 damage.
+Speed is more than movement; it is a weapon. By leveraging agility, daring footwork, and superior positioning, you can strike with exceptional force. You gain Momentum whenever, on your turn, you move through a hostile creature's space or leave a creature's reach. The next weapon attack you make before the end of your turn gains the benefits of Momentum. On a hit, the attack deals additional damage equal to your Edge Die.
 
 ### Skyfall Strike
-You have learned to turn every leap, drop, and swing into a devastating attack. Whenever you descend at least 10 feet before hitting a creature with a melee weapon attack, the target must succeed on a Strength saving throw against your Edge save DC or be knocked prone. In addition, If the attack benefited from Momentum, the additional damage from Momentum increases from 1d6 to 2d6.
+You have learned to turn every leap, drop, and swing into a devastating attack. Whenever you descend at least 10 feet before hitting a creature with a melee weapon attack, the target must succeed on a Strength saving throw against your Edge save DC or be knocked prone. In addition, If the attack benefited from Momentum, the additional damage from Momentum is doubled.
 
 ### Extra Attack
 You can attack twice, instead of once whenever you take the Attack action on your turn.
@@ -593,8 +612,8 @@ A freerunner survives by never being where the enemy expects. Whenever you use S
 
 In addition, when a spell or other effect would require you to make a saving throw because you are within an area of effect, you can use your ***reaction*** to move up to half your movement speed before making the saving throw. If this movement carries you outside the area of effect, you automatically succeed on the saving throw. This movement doesn't provoke opportunity attacks.
 
-### Hit Hard, Hit Fast
-Your speed and agility allow you to strike with overwhelming force. The additional damage granted by your Momentum feature increases to 2d6. In addition, whenever you benefit from your Skyfall Strike feature, the attack scores a critical hit on a roll of 19 or 20.
+### Improved Skyfall
+Whenever you benefit from your Skyfall Strike feature, the attack scores a critical hit on a roll of 19 or 20.
 
 ### Impossible Route
 Years of freerunning have taught you that every obstacle contains a path. As an ***action***, choose a point you can see within 60 feet. You immediately move to that location by vaulting, climbing, squeezing, and tumbling along a route too fast for others to comprehend. This movement ignores nonmagical barriers up to 5 feet thick, provided there is empty space beyond them.
@@ -1317,18 +1336,19 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	As an ***action***, you can bolster yourself with a surge of endurance. Choose one of the following benefits:
 
-  - * Gain advantage on Constitution checks and Constitution saving throws for 1 hour.
-  - * Regain hit points equal to 2d8 + your Ranger level.
-  - * For 1 minute, you gain 1d4 temporary hit points at the start of each of your turns.
+  - * ***Enduring Constitution.*** Gain advantage on Constitution checks and Constitution saving throws for 1 hour.
+  - * ***Second Wind***. Regain hit points equal to twice your Edge Die + your Ranger level.
+  - * ***Relentless Vitality.*** For 1 minute, you gain temporary hit points equal to your Edge Die at the start of each of your turns.
 
-	You can use a benefit granted by this Edge, you can't use that benefit again until you finish a long rest.
+	You can use a benefit granted by this Edge, you can't use that benefit again until you finish a long rest. Using an Edge Die to reset this Edge, resets all benefits.
 
 	At ***5th level***, when you use this Edge, you may activate two different benefits simultaneously. In addition, activating this Edge requires only a bonus action.
 
-	At ***9th level***, you can use each benefit twice before requiring a long rest.
+	At ***9th level***, whenever you regain hit points using Second Wind, you also end one of the following conditions affecting you: blinded, deafened, poisoned, or stunned.
 
-	At ***13th level*** double the amount of hp healed and the temporary hit points received.
+	At ***13th level***, whenever you make a Constitution saving throw, you may roll your Edge Die and add the result to the save.
 
+	At ***17th level***, your endurance borders on the supernatural. The first time each day that you would be reduced to 0 hit points, you may expend an Edge Die to drop to 1 hit point instead.
 
 -   ### Circle of Privacy
 
@@ -1392,17 +1412,17 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	Some rangers forge pacts with the untamed powers of nature. By calling upon the spirit of elemental fire, they kindle an inner flame that races along their arrows, turning each shot into a burning brand of destruction.
 
-	As a ***bonus action***, you invoke this Edge for up to 1 hour, requiring concentration as though concentrating on a spell. While this Edge is active, your weapon attacks deal an additional 1d4 fire damage on a hit.
+	As a ***bonus action***, you invoke this Edge for up to 1 hour, requiring concentration as though concentrating on a spell. While this Edge is active, your weapon attacks deal additional fire damage equal to your Edge Die on a hit.
 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
-	As your bond with elemental fire deepens, its power surrounds and protects you. At ***5th level***, the additional fire damage increases to 1d6, and you can use this edge an additional time between each long rest.
+	As your bond with elemental fire deepens, its power surrounds and protects you. At ***5th level***, while this Edge is active, you gain resistance to fire damage.
+	
+	At ***9th level***, while this Edge is active, receiving fire damage does not break your concentration. In addition, any willing creature touching you gains the same resistance until the contact ends.
 
-	At ***9th level***, you gain resistance to fire damage while this Edge is active. In addition, any willing creature touching you gains the same resistance until the contact ends.
+	At ***13th level***, creatures that take fire damage from your attacks can't benefit from being invisible until the start of your next turn.
 
-	At ***13th level***, the additional fire damage increases to 1d8, and creatures that take fire damage from your attacks can't benefit from being invisible until the start of your next turn.
-
-	At ***17th level***, the additional fire damage increases to 1d10. Whenever you score a critical hit with this edge, flames erupt from the impact, dealing fire damage equal to your proficiency modifier to each creature of your choice within 10 feet of the target.
+	At ***17th level***, Whenever you score a critical hit with this edge, flames erupt from the impact, dealing fire damage equal to your Edge Die to each creature of your choice within 10 feet of the target.
 
 -   ### Field Remedy
 
@@ -1412,7 +1432,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	As an ***item action***, you can administer a restorative remedy to yourself or a creature within 5 feet. The target may immediately spend one of its Hit Dice and can end one of the following conditions affecting it: dazed, stunned, unconscious, or incapacitated due to alcohol or other nonmagical intoxicants.
 
-	Once you use this Edge, you must complete a short or long rest before using it again.
+	Once you use this Edge, you must complete a short rest before using it again.
 
 	At ***5th level***, your remedies can cure deeper afflictions. When you use this Edge, you can also end one of the following conditions: blinded, deafened, paralyzed, or poisoned, or cure one disease affecting the target.
 
@@ -1456,7 +1476,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***5th level***, a veil of primal concealment surrounds you and your companions. While the Edge is active, each creature of your choice within 30 feet of you gains a +10 bonus to Stealth checks, can't be tracked except by magical means, and leaves behind no tracks or other traces of its passage.
 
-	At ***9th level***, the veil obscures those it protects from supernatural pursuit. Creatures affected by this Edge can't be targeted by divination magic or perceived through magical scrying sensors.
+	At ***9th level***, the veil obscures those it protects from supernatural pursuit. Creatures affected by this Edge can't be targeted by divination magic or perceived through magical scrying sensors. 
 
 	At ***13th level***, creatures affected by this Edge also have advantage on Stealth checks.
 
@@ -1468,7 +1488,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	Every hunter learns to pick a quarry from the herd, but master rangers can bind themselves to their prey through an ancient primal rite. Whether through instinct, determination, or the subtle guidance of nature's spirits, you become unerringly aware of your chosen quarry and strike it with deadly precision.
 
-	As a ***bonus action***, you mark one creature you can see as your quarry for up to 1 hour, requiring concentration as though concentrating on a spell. Until the effect ends, your weapon attacks deal an additional 1d6 damage to the marked creature. In addition, you have advantage on checks made to locate, track or identify signs left by your quarry.
+	As a ***bonus action***, you mark one creature you can see as your quarry for up to 1 hour, requiring concentration as though concentrating on a spell.  While this Edge is active, your weapon attacks deal additional damage equal to your Edge Die to the marked creature. In addition, you have advantage on checks made to locate, track or identify signs left by your quarry.
 
 	If the marked creature drops to 0 hit points before the effect ends, you can use a ***bonus action*** on a later turn to transfer the mark to another creature you can see.
 
@@ -1476,11 +1496,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	Your bond with your quarry grows ever stronger. At ***5th level***, the duration increases to 8 hours.
 
-	At ***9th level***, the extra damage increases to 1d8, and you can use this edge an additional time between each long rest.
-
 	At ***13th level***, the duration increases to 24 hours and you always know the direction of your marked quarry while it remains within 1 mile of you.
-
-	At ***17th level***, the extra damage increases to 1d10.
 
 -   ### Hunter's Pace
 
@@ -1590,7 +1606,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	The wild is filled with hidden cures for those who know where to look. Rangers learn to recognize healing herbs beneath tangled roots, soothing moss upon ancient stones, and restorative plants overlooked by less experienced travelers. Through knowledge passed down by seasoned hunters and countless seasons spent among the untamed lands, you can craft remedies that ease pain, knit flesh, and restore vigor.
 
-	As an ***action***, you can apply a remedy to yourself or a creature you can touch. The target regains hit points by rolling d8s equal to your proficiency bonus
+	As an ***action***, you can apply a remedy to yourself or a creature you can touch. The target regains hit points by rolling a number of Edge Dice equal to your proficiency bonus
 
 	You can use this Edge a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.
 
@@ -1638,13 +1654,13 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	The storm never stands still. It circles, strikes, and fades before its prey can react. Rangers who master this Edge learn to move with the fury of the wind, turning speed and momentum into deadly force.
 
-	As a ***bonus action***, you invoke this Edge for up to 1 minute, requiring concentration as though concentrating on a spell. While this Edge is active, your movement doesn't provoke opportunity attacks. In addition, once on each of your turns, when you move at least 10 feet before making a melee weapon attack, that attack deals an additional 1d6 damage.
+	As a ***bonus action***, you invoke this Edge for up to 1 minute, requiring concentration as though concentrating on a spell. While this Edge is active, your movement doesn't provoke opportunity attacks. In addition, once on each of your turns, when you move at least 10 feet before making a melee weapon attack, that attack deals an additional damage equal to your Edge Die.
 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
-	At ***5th level***, your speed increases by 10 feet while this Edge is active. Additionally you can use this edge twice between long rests.
+	At ***5th level***, your speed increases by 10 feet while this Edge is active.
 
-	At ***9th level***, the additional damage increases to 2d6. In addition, while the Edge is active, whenever you hit a creature after moving at least 10 feet, you may push that creature up to 10 feet away from you.
+	At ***9th level***, while the Edge is active, whenever you hit a creature after moving at least 10 feet, you may push that creature up to 10 feet away from you.
 
 	At ***13th level***, while the Edge is active, whenever you move at least 20 feet before hitting a creature with a melee weapon attack, the target must succeed on a Strength saving throw against your Edge save DC or be knocked prone. Additionally you can use this edge three times between long rests.
 
@@ -1682,7 +1698,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
-	At ***5th level***, the additional lightning damage increases to 3d6, and you can use this edge an additional time between each long rest.
+	At ***5th level***, the additional lightning damage increases to 3d6, and you can use this edge an additional time between each long rest. Using an Edge Die to recharge this Edge, recharges both uses.
 
 	At ***9th level***, you gain resistance to lightning damage while this Edge is active. In addition, any willing creature touching you gains the same resistance until the contact ends.
 
@@ -1862,15 +1878,15 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	Some rangers walk beneath winter skies and emerge forever changed. By calling upon the silent power of frost, you can shroud yourself in the chill of the frozen wilds, causing your arrows to strike with biting cold.
 
-	As a ***bonus action***, you invoke this Edge for up to 1 hour, requiring concentration as though concentrating on a spell. While this Edge is active, your weapon attacks deal an additional 1d4 cold damage on a hit.
+	As a ***bonus action***, you invoke this Edge for up to 1 hour, requiring concentration as though concentrating on a spell. While this Edge is active, your weapon attacks deal additional cold damage equal to your Edge Die on a hit.
 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
-	As your bond with the spirits of winter deepens, their power strengthens your attacks and hardens your body against the cold. At ***5th level***, the additional cold damage increases to 1d6, and you can use this edge an additional time between each long rest.
+	As your bond with the spirits of winter deepens, their power strengthens your attacks and hardens your body against the cold. At ***5th level***, you gain resistance to cold damage while this Edge is active.
 
-	At ***9th level***, you gain resistance to cold damage while this Edge is active. In addition, any willing creature touching you gains the same resistance until the contact ends.
+	At ***9th level***, while this Edge is active, receiving cold damage does not break your concentration. In addition, any willing creature touching you gains the same resistance until the contact ends.
 
-	At ***13th level***, the additional cold damage increases to 1d8. In addition, a creature damaged by the cold must succeed on a Constitution saving throw against your Edge save DC or be unable to take reactions until the start of its next turn
+	At ***13th level***, a creature damaged by the cold must succeed on a Constitution saving throw against your Edge save DC or be unable to take reactions until the start of its next turn
 
-	At ***17th level***, the additional cold damage increases to 1d10, and creatures that fail their saving throw against Winter's Bite have their speed reduced to 0 until the start of their next turn.
+	At ***17th level***, creatures that fail their saving throw against Winter's Bite have their speed reduced to 0 until the start of their next turn.
 </div>

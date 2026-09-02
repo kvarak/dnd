@@ -266,6 +266,7 @@ This group includes all types of thrown weapons.
 ##### Rank 3
 - ***Boomerang Master***. You can use the full potential of this unorthodox weapon. If you miss an attack with a boomerang, you may make one additional attack. If you miss all attacks, the boomerang returns to your hand. In addition, as a ***bonus action***, choose up to three creatures within 30 ft and 10 ft from each other. If you hit the first target with, you may make an additional attack against the second, and if the second hit, you may attack the third target.
 - ***Fast Hands***. You can draw a throwing weapon as part of an attack, without using your item action.
+- ***Fisher's Wall***. As an ***action***, you can throw a net into a free underwater space within 10 feet of you. When you do so, the net creates a 15-foot long, 15-foot high and 1/4 inch thick wall centered on the point you chose. Creatures that move through the wall become hit by the net as if you had made a weapon attack with the net against them.
 - ***Improvised Throwing***. You have proficiency with throwing improvised weapons.
 - ***Precise Thrower***. Attacking at long range doesn’t impose disadvantage on your thrown weapon attack rolls. In addition they ignore half cover and three-quarters cover.
 
