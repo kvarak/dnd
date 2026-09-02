@@ -174,6 +174,9 @@ The following additions are made to the general rest rules.
 
 | Long rest |
 |:-|
+| After a long rest: |
+| * Regain one use of ***Wild Shape***.
+| |
 | Add the following class specific benefits to choose from: |
 | * Regain all uses of ***Wild Shape***.
 
