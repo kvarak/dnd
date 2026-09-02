@@ -74,7 +74,7 @@ Your druid character might be a true worshiper of nature, one who has always sco
 |1st| +2| Communicate with Nature,<br/>Druid Circle,<br/>Spellcasting |2|2|—|—|—|—|—|—|—|—|
 |2nd| +2| Borrowing, Wild Shape,<br/>Wild Companion |2|3|—|—|—|—|—|—|—|—|
 |3rd| +2| - |2|4|2|—|—|—|—|—|—|—|
-|4th| +2| Wild Shape improvement |3|4|3|—|—|—|—|—|—|—|
+|4th| +2| Wild Shape improvement,<br/>Fluid Wild Shape |3|4|3|—|—|—|—|—|—|—|
 |5th| +3| - |3|4|3|2|—|—|—|—|—|—|
 |6th| +3| Druid Circle feature |3|4|3|3|—|—|—|—|—|—|
 |7th| +3| - |3|4|3|3|1|—|—|—|—|—|
@@ -227,6 +227,19 @@ While you are transformed, the following rules apply:
 * You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you cannot use multiattack in your new form until you are a 5th-level druid (or higher).
 
 * You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature’s shape and size. Your equipment doesn’t change size or shape to match the new form. Equipment that merges with the form has no effect until you leave the form.
+
+### Fluid Wild Shape
+Beginning at 4th level, your command of Wild Shape becomes fluid and instinctive. When you use Wild Shape, you can shift between your normal form and beast forms without ending the effect.
+
+- When in a beast form, you can use an **action** to revert to your normal form without ending Wild Shape. While in your normal form, you can use an **action** to transform back to you beast form.
+
+- During a single use of Wild Shape, you can transform and revert back a number of times depending on your druid level: once at 4th level, twice at 8th, three times at 12th, four times at 16th, and five times at 20th.
+
+- Time spent in your normal form counts against the duration of Wild Shape.
+
+- When you revert to your normal form, you are completely in your normal form, but you still count as being under the effects of Wild Shape for features that require an active Wild Shape.
+
+- If you become unconscious, incapacitated or your Wild Shape otherwise ends, this feature ends as well. You can still use a **bonus action** on your turn to end your wild shape entirely, as normal.
 
 </div>
 
@@ -855,7 +868,7 @@ Starting at 6th level, you can transform into a beast with a challenge rating as
 ### Combat Wild Shape
 You gain the ability to use Wild Shape on your turn as a ***bonus action***, rather than as an action.
 
-Additionally, while you are transformed by Wild Shape, you can use a ***bonus action*** to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.
+Additionally, while you are transformed to a beast by Wild Shape, you can use a ***bonus action*** to expend one spell slot to regain 1d8 hit points per level of the spell slot expended.
 
 ### Primal Strike
 Your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
