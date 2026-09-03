@@ -231,7 +231,7 @@ While you are transformed, the following rules apply:
 ### Fluid Wild Shape
 Beginning at 4th level, your command of Wild Shape becomes fluid and instinctive. When you use Wild Shape, you can shift between your normal form and beast forms without ending the effect.
 
-- When in a beast form, you can use an **action** to revert to your normal form without ending Wild Shape. While in your normal form, you can use an **action** to transform back to you beast form.
+- When in a beast form, you can use an **action** to revert to your normal form without ending Wild Shape. While in your normal form, you can use an **action** to transform back to you beast form. When you return to your beast form, you assume the same beast form, retaining any damage, conditions and other effects.
 
 - During a single use of Wild Shape, you can transform and revert back a number of times depending on your druid level: once at 4th level, twice at 8th, three times at 12th, four times at 16th, and five times at 20th.
 
