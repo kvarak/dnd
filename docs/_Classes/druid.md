@@ -141,6 +141,24 @@ Select one of the following:
 
 ***Raised by Beasts***: Choose one beast that you have seen before. You can comprehend and verbally communicate with others of its kind. Your DM may decide that your ability to speak with the species of beast allows you to speak with a similar species of beast. For example, if you can speak with brown bears, your DM may decide that you can also speak with polar bears.
 
+<div class="card rest">
+<div class="card-title restHeading">Rest Additions</div>
+<div class="card-subtitle restPad">
+The following additions are made to the general rest rules.
+<div class="card-text restTable" markdown="1">
+
+| Long rest |
+|:-|
+| After a long rest: |
+| * Regain one use of ***Wild Shape***.
+| |
+| Add the following class specific benefits to choose from: |
+| * Regain all uses of ***Wild Shape***.
+
+</div>
+</div>
+</div>
+
 ### Druid Circle
 When becoming a druid, you choose to identify with a circle, detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
 
@@ -165,24 +183,6 @@ Wisdom is your spellcasting ability for your druid spells, since your magic draw
 
 * **Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
 * **Spell attack modifier** = your proficiency bonus + your Wisdom modifier
-
-<div class="card rest">
-<div class="card-title restHeading">Rest Additions</div>
-<div class="card-subtitle restPad">
-The following additions are made to the general rest rules.
-<div class="card-text restTable" markdown="1">
-
-| Long rest |
-|:-|
-| After a long rest: |
-| * Regain one use of ***Wild Shape***.
-| |
-| Add the following class specific benefits to choose from: |
-| * Regain all uses of ***Wild Shape***.
-
-</div>
-</div>
-</div>
 
 #### Ritual Casting
 You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
