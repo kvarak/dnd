@@ -11,7 +11,7 @@
 # - Focus on daily development workflow
 # - Everything works out of the box
 
-.PHONY: help serve build extract extract-folk clean find-broken-links ci-build ci-link-check lint-md lint-md-fix test-structure test-structure-full test test-verbose
+.PHONY: help serve build extract clean find-broken-links ci-build ci-link-check lint-md lint-md-fix test-structure test-structure-full test test-verbose
 
 # Docker configuration
 # Works on Mac (Intel & Apple Silicon), Linux, and Windows
@@ -31,8 +31,7 @@ help:
 	@echo "  make build              - Rebuild Docker image"
 	@echo "  make clean              - Stop containers and clean up"
 	@echo "  make minify             - Regenerate minified CSS/JS"
-	@echo "  make extract            - Re-extract searchable content and folk"
-	@echo "  make extract-folk       - Extract folk and subtypes from folk files to _data/folk.yml"
+	@echo "  make extract            - Re-extract searchable content"
 	@echo ""
 	@echo "Utilities:"
 	@echo "  make find-broken-links   - Find placeholder images to replace"
@@ -53,14 +52,9 @@ build:
 	docker build -t $(DOCKER_IMAGE) .
 
 # Extract searchable content (skills, familiars, feats, etc.)
-extract: build extract-folk
+extract: build
 	@echo "🔍 Extracting searchable content..."
 	@docker run --rm -v $(PWD):/srv/jekyll -v $(BUNDLE_CACHE):/usr/local/bundle $(DOCKER_IMAGE) ruby tools/extract-searchable.rb
-
-# Extract folk and subtypes from folk files
-extract-folk: build
-	@echo "🌍 Extracting folk and subtypes from folk files..."
-	@docker run --rm -v $(PWD):/srv/jekyll -v $(BUNDLE_CACHE):/usr/local/bundle $(DOCKER_IMAGE) ruby tools/extract-folk.rb
 
 # Start development server (does extract automatically)
 serve: clean build extract

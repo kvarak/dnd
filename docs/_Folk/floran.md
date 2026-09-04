@@ -1,10 +1,6 @@
 ---
 title: Floran
 layout: default
-profile:
-  subtypes:
-    wood-nymph: {}
-    roothulk: {}
 ---
 
 <div class="toc" markdown="1">

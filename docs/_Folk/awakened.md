@@ -1,13 +1,6 @@
 ---
 title: Awakened
 layout: default
-profile:
-  subtypes:
-    bound-spirit: {}
-    ghoul: {}
-    mummy: {}
-    revenant: {}
-    skeleton: {}
 ---
 
 <div class="toc" markdown="1">

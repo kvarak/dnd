@@ -10,7 +10,6 @@ This directory contains development utilities for the Varlyn D&D site.
 
 ### Content Management
 - `extract-searchable.rb` - Extracts searchable content for site search functionality
-- `extract-folk.rb` - Extracts folk and subtypes to `_data/folk.yml`
 
 ### Supporting Files
 - `validation-utils.js` - Shared validation utilities used by multiple tools
@@ -24,7 +23,7 @@ make lint-md             # Run markdown linter
 make test-structure      # Run structure validation
 make test                # Run all validation tools
 make test-verbose        # Run validation with detailed output
-make extract             # Extract searchable content and folk
+make extract             # Extract searchable content
 ```
 
 ### Direct Tool Usage
@@ -36,7 +35,6 @@ node tools/test-structure.js            # Test Varlyn structure patterns
 
 # Content Management (Ruby)
 ruby tools/extract-searchable.rb        # Extract searchable content for site search
-ruby tools/extract-folk.rb             # Extract folk and subtypes
 ```
 
 ## Development
@@ -48,7 +46,7 @@ Tools are written in Node.js and Ruby and should follow these conventions:
 - Consistent output formatting
 
 ### Tool Categories
-- **Ruby tools**: Content extraction (extract-searchable, extract-folk)
+- **Ruby tools**: Content extraction (extract-searchable)
 - **Node.js tools**: Validation and structure testing (lint, test-structure)
 
 All tools are designed to work within the Docker-based development environment defined in the Makefile.

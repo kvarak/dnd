@@ -1,16 +1,6 @@
 ---
 title: Shifter
 layout: default
-profile:
-  subtypes:
-    bloodmarked: {}
-    coldborn: {}
-    ragebred: {}
-    scaleheart: {}
-    nightskulk: {}
-    seascarred: {}
-    fanglord: {}
-    longtooth: {}
 ---
 
 <div class="toc" markdown="1">

@@ -1,12 +1,6 @@
 ---
 title: Genasi
 layout: default
-profile:
-  subtypes:
-    air: {}
-    earth: {}
-    fire: {}
-    water: {}
 ---
 
 <div class="toc" markdown="1">

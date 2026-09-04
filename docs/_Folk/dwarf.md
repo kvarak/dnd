@@ -1,20 +1,6 @@
 ---
 title: Dwarf
 layout: default
-profile:
-  required:
-    background: 1
-    material_traits: 0
-  background:
-    dwarf-raised: {}
-    lost: {}
-    stolen: {}
-  material_traits:
-    coppered: {}
-    iron: {}
-    leaden: {}
-    pumice: {}
-    silvered: {}
 ---
 
 <div class="toc" markdown="1">

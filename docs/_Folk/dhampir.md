@@ -1,11 +1,6 @@
 ---
 title: Dhampir
 layout: default
-profile:
-  subtypes:
-    stryg: {}
-    nosferatu: {}
-    obiri: {}
 ---
 
 <div class="toc" markdown="1">

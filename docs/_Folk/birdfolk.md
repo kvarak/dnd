@@ -1,10 +1,6 @@
 ---
 title: Birdfolk
 layout: default
-profile:
-  subtypes:
-    aarakocra: {}
-    kenku: {}
 ---
 
 <div class="toc" markdown="1">
