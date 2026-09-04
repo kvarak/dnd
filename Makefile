@@ -11,7 +11,7 @@
 # - Focus on daily development workflow
 # - Everything works out of the box
 
-.PHONY: help serve build extract extract-folk clean find-broken-links ci-build ci-link-check update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose
+.PHONY: help serve build extract extract-folk clean find-broken-links ci-build ci-link-check lint-md lint-md-fix test-structure test-structure-full test test-verbose
 
 # Docker configuration
 # Works on Mac (Intel & Apple Silicon), Linux, and Windows
@@ -33,11 +33,6 @@ help:
 	@echo "  make minify             - Regenerate minified CSS/JS"
 	@echo "  make extract            - Re-extract searchable content and folk"
 	@echo "  make extract-folk       - Extract folk and subtypes from folk files to _data/folk.yml"
-	@echo ""
-	@echo "Character Creator:"
-	@echo "  make update-creator-data - Extract data from markdown for character creator"
-	@echo "  make check-creator-sync  - Check if creator data needs update"
-	@echo "  make test-creator-data   - Validate creator data structure"
 	@echo ""
 	@echo "Utilities:"
 	@echo "  make find-broken-links   - Find placeholder images to replace"
@@ -97,30 +92,6 @@ ci-link-check:
 		--ignore-urls "/assets/campaigns/,/assets/images/,https://,http://" \
 		--ignore-files "spells.html,equipment.html" \
 		--disable-external
-
-# Character Creator Data Management
-# Update character creator data from markdown files
-update-creator-data: build
-	@echo "🎲 Extracting character creation data from Jekyll collections..."
-	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent && \
-		npm run build-creator-data"
-	@echo "✅ Creator data updated: assets/data/creator-data.json"
-	@echo "   Last sync: $$(date)"
-
-# Check if creator data is in sync with source files
-check-creator-sync: build
-	@echo "🔍 Checking if creator data is in sync..."
-	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent && \
-		npm run check-creator-sync"
-
-# Validate creator data structure
-test-creator-data: build
-	@echo "🧪 Validating creator data structure..."
-	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent && \
-		npm test"
 
 # Validate markdown formatting and structure
 lint-md: build
