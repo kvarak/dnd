@@ -50,6 +50,19 @@ When creating (or adapting existing) Ranger conclave
 
 ## Ranger Class Features
 
+As a ranger, you gain the following class features.
+
+#### Hit Points
+**Hit Dice:** 1d10
+
+#### Saving Throws
+You are proficient with ***Dexterity*** and ***Strength*** saving throws.
+
+#### Skills
+**Class Skills:** Animal handling, Herbalism, Nature, Perception, Physique, Stealth, Survival and Swimming
+
+**Skill Points:** You gain 3 skill points at 1st level.
+
 <div class="block classTable halfClassTable frame" markdown="1">
 
 ##### The Ranger
@@ -77,19 +90,6 @@ When creating (or adapting existing) Ranger conclave
 | 20th | +6 | Apex Predator | 11 | 1d10 |
 
 </div>
-
-As a ranger, you gain the following class features.
-
-#### Hit Points
-**Hit Dice:** 1d10
-
-#### Saving Throws
-You are proficient with ***Dexterity*** and ***Strength*** saving throws.
-
-#### Skills
-**Class Skills:** Animal handling, Herbalism, Nature, Perception, Physique, Stealth, Survival and Swimming
-
-**Skill Points:** You gain 3 skill points at 1st level.
 
 #### Skills - Combat
 **Weapon Groups:** You have rank 2 with all weapon groups.
