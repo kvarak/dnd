@@ -253,7 +253,7 @@ At 20th level, you can draw on your inner reserve of mystical power while entrea
 Once you regain spell slots with this feature, you must finish a long rest before you can do so again.
 
 
-<h2><a class="internal-link" name="internal-OtherworldlyPatrons">Otherworldly Patrons</a></h2>
+## <a name="internal-OtherworldlyPatrons">Otherworldly Patrons</a>
 
 The beings that serve as patrons for warlocks are mighty inhabitants of other planes of existence - not gods, but almost godlike in their power. Various patrons give their warlocks access to different powers and invocations, and expect significant favors in return.
 
@@ -337,7 +337,8 @@ Some of the patrons are described very generally, but that only means that the p
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-abraxas">Abraxas, Master of the Final Incantation</a></h1>
+
+# <a name="internal-abraxas">Abraxas, Master of the Final Incantation</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -474,7 +475,8 @@ The party can depart from the Archive by returning to the central hall and strik
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ancientDragon">The Ancient Dragon</a></h1>
+
+# <a name="internal-ancientDragon">The Ancient Dragon</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -613,7 +615,8 @@ The following invocations are granted by the Ancient Dragon to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ancientToad">The Ancient Toad</a></h1>
+
+# <a name="internal-ancientToad">The Ancient Toad</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -954,7 +957,8 @@ Warlocks who have been given the Pact of the Chain can choose to have either of 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-archfey">The Archfey</a></h1>
+
+# <a name="internal-archfey">The Archfey</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -1045,7 +1049,8 @@ The following invocations are granted by the Archfey to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ashenWolf">The Ashen Wolf</a></h1>
+
+# <a name="internal-ashenWolf">The Ashen Wolf</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -1259,7 +1264,8 @@ The following familiar is available to the Ashen who have selected the Pact of t
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-blackthornGrove">The Blackthorn Grove</a></h1>
+
+# <a name="internal-blackthornGrove">The Blackthorn Grove</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -1422,7 +1428,8 @@ The following familiar is available to Thornhearted warlocks who have selected t
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-cosmicMachine">The Cosmic Machine</a></h1>
+
+# <a name="internal-cosmicMachine">The Cosmic Machine</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -1599,7 +1606,8 @@ The following invocations are granted by the Cosmic Machine to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-crone">The Crone</a></h1>
+
+# <a name="internal-crone">The Crone</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -1697,7 +1705,8 @@ The following invocations are granted by the Crone to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-dagon">Dagon, Prince of Depths</a></h1>
+
+# <a name="internal-dagon">Dagon, Prince of Depths</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -1753,7 +1762,8 @@ The following invocations are granted by Dagon to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-death">Death</a></h1>
+
+# <a name="internal-death">Death</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -1924,7 +1934,8 @@ The following familiar is available to Gravebound warlocks who have selected the
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-dispater">Dispater, Lord of Dis</a></h1>
+
+# <a name="internal-dispater">Dispater, Lord of Dis</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -1955,7 +1966,8 @@ You gain resistance one of the following damage types: piercing, slashing, or bl
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-emergentMind">The Emergent Mind</a></h1>
+
+# <a name="internal-emergentMind">The Emergent Mind</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -2143,7 +2155,8 @@ The following familiar is available to Emergent Mind patron warlocks who have se
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-eternalCitadel">The Eternal Citadel</a></h1>
+
+# <a name="internal-eternalCitadel">The Eternal Citadel</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -2319,7 +2332,8 @@ The following familiar is available to Eternal Citadel patron warlocks who have 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-fallenExile">The Fallen Exile</a></h1>
+
+# <a name="internal-fallenExile">The Fallen Exile</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -2534,7 +2548,8 @@ The following familiar is available to warlocks of the Fallen, who have selected
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-fiend">The Fiend</a></h1>
+
+# <a name="internal-fiend">The Fiend</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -2602,7 +2617,8 @@ The following invocations are granted by the Fiend to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-greatOldOne">The Great Old One</a></h1>
+
+# <a name="internal-greatOldOne">The Great Old One</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -2700,7 +2716,8 @@ The following invocations are granted by the Great Old One to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-serpentEmpress">Hesperia, The Serpent Empress </a></h1>
+
+# <a name="internal-serpentEmpress">Hesperia, The Serpent Empress </a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -2857,7 +2874,8 @@ The following familiar is available to Serpent Empress patron warlocks who have 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-hive">The Hive</a></h1>
+
+# <a name="internal-hive">The Hive</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -2935,7 +2953,8 @@ The following invocations have been added as additions for the Hive patron.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-jubilex">Jubilex, the Formless One </a></h1>
+
+# <a name="internal-jubilex">Jubilex, the Formless One </a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -3096,7 +3115,8 @@ The following familiar is available to warlocks of the Formless One, who have se
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-keeperDepths">The Keeper of the Depths</a></h1>
+
+# <a name="internal-keeperDepths">The Keeper of the Depths</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -3258,7 +3278,8 @@ Young Sea Drake
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-levistus">Levistus, Lord of Stygia</a></h1>
+
+# <a name="internal-levistus">Levistus, Lord of Stygia</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -3322,7 +3343,8 @@ The following invocations are granted by Levistus to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-monstrosity">The Monstrosity</a></h1>
+
+# <a name="internal-monstrosity">The Monstrosity</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -3495,7 +3517,8 @@ The following invocations can be chosen by warlocks with the Monstrosity patron.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-wildHuntsman">Oberon, the Wild Huntsman</a></h1>
+
+# <a name="internal-wildHuntsman">Oberon, the Wild Huntsman</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -3714,7 +3737,8 @@ The following familiar is available to Wild Huntsman warlocks who have selected 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pharaoh">The Pharaoh</a></h1>
+
+# <a name="internal-pharaoh">The Pharaoh</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -3814,7 +3838,8 @@ The following invocations are granted by the Pharaoh to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-seducer">The Seducer</a></h1>
+
+# <a name="internal-seducer">The Seducer</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -3873,7 +3898,8 @@ The following invocations are granted by the Seducer to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-shadowCat">The Shadowcat</a></h1>
+
+# <a name="internal-shadowCat">The Shadowcat</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -4046,7 +4072,8 @@ The following familiar is available to Shadowcat warlocks who have selected the 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-stormLord">The Storm Lord</a></h1>
+
+# <a name="internal-stormLord">The Storm Lord</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -4216,7 +4243,8 @@ The following familiar is available to servants of the Storm Lord, who have sele
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-undying">The Undying</a></h1>
+
+# <a name="internal-undying">The Undying</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -4296,7 +4324,8 @@ The following invocations are granted by the Undying to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-vampire">Vampire</a></h1>
+
+# <a name="internal-vampire">Vampire</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -4363,7 +4392,8 @@ The following invocations are granted by the Vampire to its warlocks.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-weaverLies">The Weaver of Lies</a></h1>
+
+# <a name="internal-weaverLies">The Weaver of Lies</a>
 <div class="featuresTable">
 
 #### Patron Features
@@ -4534,7 +4564,7 @@ The following familiar is available to Spidersworn who have selected the Pact of
 </div>
 
 
-<h2><a class="internal-link" name="internal-invocations">Eldritch Invocations</a></h2>
+## <a name="internal-invocations">Eldritch Invocations</a>
 
 In your study of occult lore, you unearth eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability. At 2nd level, you gain two eldritch invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Warlock table.
 
@@ -5020,7 +5050,7 @@ The following invocations grant extra spells, that can usually be used at will, 
 </div>
 
 
-<h2><a class="internal-link" name="internal-boon">Pact Boons</a></h2>
+## <a name="internal-boon">Pact Boons</a>
 
 In the long, storied history of outsiders meddling with and granting power to mortals, no two pacts struck have ever been exactly the same. Mortals are creatures of many needs, some being far more important than others. Most patrons by their nature are providing sorts, and tend to give the mortals at least a semblance of what they desire if only to more fully ensure that the mortals are willing and alive long enough to fulfill their patron's dread will.
 
@@ -5043,7 +5073,8 @@ Choose your pact from one of the following options:
 Your pact boon artifact bears the unmistakable mark of your patron—fiendish red veins, fey vines and flowers, aberrant runes and etchings, etc. You may decide how your artifact is branded by your patron.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-PactoftheArc">Pact of the Arc</a></h1>
+
+# <a name="internal-PactoftheArc">Pact of the Arc</a>
 <div class="featuresTable">
 
 #### Pact Features
@@ -5113,7 +5144,8 @@ The following invocations are unique to warlocks with the Pact of the Arc.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-PactoftheBastion">Pact of the Bastion</a></h1>
+
+# <a name="internal-PactoftheBastion">Pact of the Bastion</a>
 <div class="featuresTable">
 
 #### Pact Features
@@ -5172,7 +5204,8 @@ The following invocations are unique to warlocks with the Pact of the Bastion.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-PactoftheBlade">Pact of the Blade</a></h1>
+
+# <a name="internal-PactoftheBlade">Pact of the Blade</a>
 <div class="featuresTable">
 
 #### Pact Features
@@ -5249,7 +5282,8 @@ The following invocations are unique to warlocks with the Pact of the Blade.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-PactoftheChain">Pact of the Chain</a></h1>
+
+# <a name="internal-PactoftheChain">Pact of the Chain</a>
 <div class="featuresTable">
 
 #### Pact Features
@@ -5351,7 +5385,8 @@ The following invocations are unique to warlocks with the Pact of the Chain.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-PactoftheCowl">Pact of the Cowl</a></h1>
+
+# <a name="internal-PactoftheCowl">Pact of the Cowl</a>
 <div class="featuresTable">
 
 #### Pact Features
@@ -5410,7 +5445,8 @@ The following invocations are unique to warlocks with the Pact of the Cowl.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-PactoftheEvilEye">Pact of the Evil Eye</a></h1>
+
+# <a name="internal-PactoftheEvilEye">Pact of the Evil Eye</a>
 <div class="featuresTable">
 
 #### Pact Features
@@ -5470,7 +5506,8 @@ The following invocations are unique to warlocks with the Pact of the Evil Eye.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-PactoftheTalisman">Pact of the Talisman</a></h1>
+
+# <a name="internal-PactoftheTalisman">Pact of the Talisman</a>
 <div class="featuresTable">
 
 #### Pact Features
@@ -5538,7 +5575,8 @@ The following invocations are unique to warlocks with the Pact of the Talisman.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-PactoftheTome">Pact of the Tome</a></h1>
+
+# <a name="internal-PactoftheTome">Pact of the Tome</a>
 <div class="featuresTable">
 
 #### Pact Features

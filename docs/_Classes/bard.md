@@ -6,40 +6,41 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### Variant Bard
-<a href="#internal-loreseeker">Loreseeker</a>
+<a href="#variant-bard-loreseeker">Loreseeker</a>
 
-##### <a href="#internal-bardicSongs">Bardic Songs</a>
-##### <a href="#internal-BardColleges">Bard Colleges</a>
+##### <a href="#bardic-songs">Bardic Songs</a>
 
-<a href="#internal-beguiler">Beguiler</a><br/>
-<a href="#internal-collegeOfAwakenedArt">College of Awakened Art</a><br/>
-<a href="#internal-collegeOfCrossroads">College of Crossroads</a><br/>
-<a href="#internal-collegeOfBeasts">College of Beasts</a><br/>
-<a href="#internal-collegeOfColors">College of Colors</a><br/>
-<a href="#internal-collegeOfDance">College of Dance</a><br/>
-<a href="#internal-collegeOfDesire">College of Desire</a><br/>
-<a href="#internal-collegeOfDoors">College of Doors</a><br/>
-<a href="#internal-collegeOfEntropy">College of Entropy</a><br/>
-<a href="#internal-collegeOfEulogies">College of Eulogies</a><br/>
-<a href="#internal-collegeOfFaith">College of Faith</a><br/>
-<a href="#internal-collegeOfFools">College of Fools</a><br/>
-<a href="#internal-collegeOfGlamour">College of Glamour</a><br/>
-<a href="#internal-collegeOfGrandeur">College of Grandeur</a><br/>
-<a href="#internal-collegeOfLore">College of Lore</a><br/>
-<a href="#internal-collegeOfTheMadGod">College of the Mad God</a><br/>
-<a href="#internal-collegeOfMasks">College of Masks</a><br/>
-<a href="#internal-collegeOfMirrors">College of Mirrors</a><br/>
-<a href="#internal-collegeOfPortraiture">College of Portraiture</a><br/>
-<a href="#internal-collegeOfPurity">College of Purity</a><br/>
-<a href="#internal-collegeOfRevelry">College of Revelry</a><br/>
-<a href="#internal-collegeOfSecrets">College of Secrets</a><br/>
-<a href="#internal-collegeOfShanties">College of Shanties</a><br/>
-<a href="#internal-collegeOfTales">College of Tales</a><br/>
-<a href="#internal-collegeOfValor">College of Valor</a><br/>
-<a href="#internal-collegeOfWhispers">College of Whispers</a><br/>
-<a href="#internal-marionettist">Marionettist</a><br/>
-<a href="#internal-pathfinderChronicler">Pathfinder Chronicler</a><br/>
-<a href="#internal-piedPiper">Pied Piper</a><br/>
+##### <a href="#bard-colleges">Bard Colleges</a>
+
+<a href="#beguiler">Beguiler</a><br/>
+<a href="#college-of-awakened-arts">College of Awakened Art</a><br/>
+<a href="#college-of-crossroads">College of Crossroads</a><br/>
+<a href="#college-of-beasts">College of Beasts</a><br/>
+<a href="#college-of-colors">College of Colors</a><br/>
+<a href="#college-of-dance">College of Dance</a><br/>
+<a href="#college-of-desire">College of Desire</a><br/>
+<a href="#college-of-doors">College of Doors</a><br/>
+<a href="#college-of-entropy">College of Entropy</a><br/>
+<a href="#college-of-eulogies">College of Eulogies</a><br/>
+<a href="#college-of-faith">College of Faith</a><br/>
+<a href="#college-of-fools">College of Fools</a><br/>
+<a href="#college-of-glamour">College of Glamour</a><br/>
+<a href="#college-of-grandeur">College of Grandeur</a><br/>
+<a href="#college-of-lore">College of Lore</a><br/>
+<a href="#college-of-the-mad-god">College of the Mad God</a><br/>
+<a href="#college-of-masks">College of Masks</a><br/>
+<a href="#college-of-mirrors">College of Mirrors</a><br/>
+<a href="#college-of-portraiture">College of Portraiture</a><br/>
+<a href="#college-of-purity">College of Purity</a><br/>
+<a href="#college-of-revelry">College of Revelry</a><br/>
+<a href="#college-of-secrets">College of Secrets</a><br/>
+<a href="#college-of-shanties">College of Shanties</a><br/>
+<a href="#college-of-tales">College of Tales</a><br/>
+<a href="#college-of-valor">College of Valor</a><br/>
+<a href="#college-of-whispers">College of Whispers</a><br/>
+<a href="#marionettist">Marionettist</a><br/>
+<a href="#pathfinder-chronicler">Pathfinder Chronicler</a><br/>
+<a href="#pied-piper">Pied Piper</a><br/>
 
 </div>
 
@@ -111,7 +112,7 @@ When others pick on you about being a bard, you need only remind them that you a
 | 20 | I've seen better-looking faces on a gibbering mouther
 
 
-<h2><a class="internal-link" name="internal-loreseeker">Variant Bard: Loreseeker</a></h2>
+## Variant Bard: Loreseeker
 
 A loreseeker is an archaeologist, a scholar of ancient and forgotten knowledge, an adventurer more interested in the story behind a treasure than in its value in gold pieces. Loreseekers know a bit about everything, but they display peerless skills in their own fields. They learned to harness magic from ancient texts and forgotten rhymes. Scholars at core, they can offer the right advice for nearly every situation.
 
@@ -278,7 +279,7 @@ The college you belong to will specify if you can use a spellcasting focus, and 
 <!--- Base: You can use a musical instrument as a spellcasting focus for your bard spells. --->
 
 ### Bardic Song
-When you reach 2nd level, and again at 6th, 9th, 13th, and 17th level, you learn a bardic song. Choose from <a href="#internal-bardicSongs">Bardic songs</a> below.
+When you reach 2nd level, and again at 6th, 9th, 13th, and 17th level, you learn a bardic song. Choose from <a href="#bardic-songs">Bardic songs</a> below.
 
 ### Jack of All Trades
 Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.
@@ -287,6 +288,7 @@ Starting at 2nd level, you can add half your proficiency bonus, rounded down, to
 At 4th, 8th and 12th level, you gain 3 additional skill points.
 
 <!--
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 -->
@@ -305,7 +307,7 @@ You learn two additional spells from any class at 15th level and again at 18th l
 At 20th level, when you roll initiative, you regain all uses of Bardic Inspiration.
 
 
-<h2><a class="internal-link" name="internal-bardicSongs">Bardic songs</a></h2>
+## Bardic songs
 
 
 When you reach 2nd level, and again at 6th, 9th, 13th, and 17th level, you learn a bardic song.
@@ -379,7 +381,7 @@ Playing a bardic song requires an instrument, both hands and your mouth, and any
 
 </div>
 
-<h2><a class="internal-link" name="internal-BardColleges">Bard Colleges</a></h2>
+## Bard Colleges
 The way of a bard is gregarious. Bards seek each other out to swap songs and stories, boast of their accomplishments, and share their knowledge. Bards form loose associations, which they call colleges, to facilitate their gatherings and preserve their traditions.
 
 <div class="columnsthree">
@@ -399,13 +401,13 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 
     **<a href="#internal-valor">College of Valor</a>** - Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes.
 
-    **<a href="#internal-pathfinderChronicler">Pathfinder Chronicler</a>** - The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers, story-spinners, and recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance.
+    **<a href="#pathfinder-chronicler">Pathfinder Chronicler</a>** - The Pathfinder chroniclers are wide-ranging raconteurs and heralds, tale-tellers, story-spinners, and recorders of great deeds, but ones who do not fear getting their hands dirty in the midst of the action. While they rarely write themselves as the stars of their tales, they are always found near adventure and romance.
 
 
 -   ### Art of Manipulation
     Bards who master lying and manipulation.
 
-    **<a href="#internal-beguiler">Beguiler</a>** - Bards that see lying and manipulation as their tools of choice.
+    **<a href="#beguiler">Beguiler</a>** - Bards that see lying and manipulation as their tools of choice.
 
     **<a href="#internal-secrets">College of Secrets</a>** - Your college is no loose association, but a close-knit society of sworn comrades. It could be one or more of many things — a thieves’ guild, an outlawed cult, a spy ring, a hidden faction of nobles devoted to restoring the true heir to the throne — but the key to your survival is clear: an expert understanding of the psychology and culture of those around you.
 
@@ -426,7 +428,7 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 -   ### Bards Working with Animals
     **<a href="#internal-beasts">College of Beasts</a>** - These bards can often be seen in circuses, training the animals, or wandering the world, with their animals as their only traveling and performing companions.
 
-    **<a href="#internal-piedPiper">Pied Piper</a>** - Specialist in entrancing people, animals and vermin.
+    **<a href="#pied-piper">Pied Piper</a>** - Specialist in entrancing people, animals and vermin.
 
 
 -   ### Comedy and Simple Entertainment
@@ -434,7 +436,7 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 
     **<a href="#internal-mirrors">College of Mirrors</a>** - Bards who specialize in the art of misdirection.
 
-    **<a href="#internal-marionettist">Marionettist</a>** - Puppeteers that turn the movement of wooden dolls into a masterpiece of animation. Using their nimble fingers and magic string, they can even control the bodies of the living and animate the dead to follow their precise instructions.
+    **<a href="#marionettist">Marionettist</a>** - Puppeteers that turn the movement of wooden dolls into a masterpiece of animation. Using their nimble fingers and magic string, they can even control the bodies of the living and animate the dead to follow their precise instructions.
 
 -   ### Love and Friendship
     **<a href="#internal-desire">College of Desire</a>** - Bards peerless in a particular art, and that art is infatuation.
@@ -465,7 +467,8 @@ The way of a bard is gregarious. Bards seek each other out to swap songs and sto
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-beguiler">Beguiler</a></h1>
+
+# Beguiler
 <div class="featuresTable">
 
 #### College Features
@@ -508,7 +511,8 @@ Additionally, when the spell expires, you can try to make the creature forget so
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfAwakenedArt">College of Awakened Arts</a></h1>
+
+# College of Awakened Arts
 
 <div class="featuresTable">
 
@@ -588,7 +592,8 @@ You now use your sketchbook twice per day. Additionally, they now last a number 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfBeasts">College of Beasts</a></h1>
+
+# College of Beasts
 
 <div class="featuresTable">
 
@@ -637,7 +642,8 @@ When you cast a spell targeting yourself, you can also affect your animal compan
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfColors">College of Colors</a></h1>
+
+# College of Colors
 
 <div class="featuresTable">
 
@@ -714,7 +720,8 @@ These illusions look perfect, but act very crudely as it is difficult to maintai
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfCrossroads">College of Crossroads</a></h1>
+
+# College of Crossroads
 
 <div class="featuresTable">
 
@@ -780,7 +787,8 @@ In addition, you learn the *infernal calling* spell, which counts as a bard spel
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfDance">College of Dance</a></h1>
+
+# College of Dance
 
 <div class="featuresTable">
 
@@ -859,7 +867,8 @@ From 14th level, after you have used a Dance Flourish, you can grant up to three
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfDesire">College of Desire</a></h1>
+
+# College of Desire
 
 <div class="featuresTable">
 
@@ -920,7 +929,8 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfDoors">College of Doors</a></h1>
+
+# College of Doors
 
 <div class="featuresTable">
 
@@ -962,7 +972,8 @@ You can travel between any two Magic Doors regardless of their distance, and eve
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfEntropy">College of Entropy</a></h1>
+
+# College of Entropy
 
 <div class="featuresTable">
 
@@ -1039,7 +1050,8 @@ You regain the use of this feature after a short rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfEulogies">College of Eulogies</a></h1>
+
+# College of Eulogies
 
 <div class="featuresTable">
 
@@ -1147,7 +1159,8 @@ The sadness and despair that you inflict upon your enemies cloys to them until i
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfFaith">College of Faith</a></h1>
+
+# College of Faith
 
 <div class="featuresTable">
 
@@ -1195,7 +1208,8 @@ If your chosen divine domain grants a Channel Divinity option at 6th level, you 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfFools">College of Fools</a></h1>
+
+# College of Fools
 
 <div class="featuresTable">
 
@@ -1266,7 +1280,8 @@ Even if a joke falls flat at first, you know how to get your audience laughing; 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfGlamour">College of Glamour</a></h1>
+
+# College of Glamour
 
 <div class="featuresTable">
 
@@ -1337,7 +1352,8 @@ In addition, as a ***bonus action***, you can assume a magically majestic presen
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfGrandeur">College of Grandeur</a></h1>
+
+# College of Grandeur
 
 <div class="featuresTable">
 
@@ -1394,7 +1410,8 @@ You can use this feature a number of times equal to your Charisma modifier and c
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfLore">College of Lore</a></h1>
+
+# College of Lore
 
 <div class="featuresTable">
 
@@ -1434,7 +1451,8 @@ When you make an ability check, you can expend one use of Bardic Inspiration. Ro
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfTheMadGod">College of the Mad God</a></h1>
+
+# College of the Mad God
 
 <div class="featuresTable">
 
@@ -1492,7 +1510,8 @@ After you use this ability, you must complete a short rest before using it again
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfMasks">College of Masks</a></h1>
+
+# College of Masks
 
 <div class="featuresTable">
 
@@ -1600,7 +1619,8 @@ You can have a fourth mask. You have become a master of assuming the archetypes 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfMirrors">College of Mirrors</a></h1>
+
+# College of Mirrors
 
 <div class="featuresTable">
 
@@ -1659,7 +1679,8 @@ You can use this feature a number of times equal to your Charisma modifier and c
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfPortraiture">College of Portraiture</a></h1>
+
+# College of Portraiture
 
 <div class="featuresTable">
 
@@ -1709,7 +1730,8 @@ Whenever you would take damage, you can use your ***reaction*** to sacrifice the
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfPurity">College of Purity</a></h1>
+
+# College of Purity
 
 <div class="featuresTable">
 
@@ -1840,7 +1862,8 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfRevelry">College of Revelry</a></h1>
+
+# College of Revelry
 
 <div class="featuresTable">
 
@@ -1881,7 +1904,8 @@ When you use this feature, you can choose to expend an additional use of bardic 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfSecrets">College of Secrets</a></h1>
+
+# College of Secrets
 
 <div class="featuresTable">
 
@@ -1953,7 +1977,8 @@ You have carefully built up a network of informants who you can contact from alm
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfShanties">College of Shanties</a></h1>
+
+# College of Shanties
 
 <div class="featuresTable">
 
@@ -2010,7 +2035,8 @@ The very act of striking you down is enough to invoke a supernatural curse on wh
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfTales">College of Tales</a></h1>
+
+# College of Tales
 
 <div class="featuresTable">
 
@@ -2069,7 +2095,8 @@ Any creature that you summon or create with a spell is automatically granted a B
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfValor">College of Valor</a></h1>
+
+# College of Valor
 
 <div class="featuresTable">
 
@@ -2109,7 +2136,8 @@ In addition, you have mastered the art of weaving spellcasting and weapon use in
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-collegeOfWhispers">College of Whispers</a></h1>
+
+# College of Whispers
 
 <div class="featuresTable">
 
@@ -2183,7 +2211,8 @@ Once you use this feature, you can’t use it again until you finish a long rest
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-marionettist">Marionettist</a></h1>
+
+# Marionettist
 
 <div class="featuresTable">
 
@@ -2235,7 +2264,8 @@ The duration of this spell is a number of rounds equal to the number rolled on t
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathfinderChronicler">Pathfinder Chronicler</a></h1>
+
+# Pathfinder Chronicler
 
 <div class="featuresTable">
 
@@ -2287,7 +2317,8 @@ You may have two Echoes active at once – either two Warriors, or one Warrior a
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-piedPiper">Pied Piper</a></h1>
+
+# Pied Piper
 
 <div class="featuresTable">
 

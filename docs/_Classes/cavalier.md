@@ -5,17 +5,17 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### <a href="#internal-orders">Cavalier Orders</a>
-<a href="#internal-knightErrant">Knight Errant</a><br/>
-<a href="#internal-orderOfTheBlueRose">Order of the Blue Rose</a><br/>
-<a href="#internal-orderOfTheDragon">Order of the Dragon</a><br/>
-<a href="#internal-orderOfTheFlame">Order of the Flame</a><br/>
-<a href="#internal-orderOfTheLion">Order of the Lion</a><br/>
-<a href="#internal-orderOfTheScales">Order of the Scales</a><br/>
-<a href="#internal-orderOfTheShield">Order of the Shield</a><br/>
-<a href="#internal-orderOfTheStar">Order of the Star</a><br/>
+##### <a href="#cavalier-order">Cavalier Orders</a>
+<a href="#knight-errant">Knight Errant</a><br/>
+<a href="#order-of-the-blue-rose">Order of the Blue Rose</a><br/>
+<a href="#order-of-the-dragon">Order of the Dragon</a><br/>
+<a href="#order-of-the-flame">Order of the Flame</a><br/>
+<a href="#order-of-the-lion">Order of the Lion</a><br/>
+<a href="#order-of-the-scales">Order of the Scales</a><br/>
+<a href="#order-of-the-shield">Order of the Shield</a><br/>
+<a href="#order-of-the-star">Order of the Star</a><br/>
 
-#### <a href="#internal-maneuvers">Maneuvers</a>
+#### <a href="#maneuvers">Maneuvers</a>
 
 </div>
 
@@ -182,7 +182,7 @@ Starting at 2nd level, your tactical expertise makes you a deadly force on the b
 #### Maneuvers
 You learn three maneuvers of your choice. At least half (rounded down) of you maneuvers must be from the mounted category.
 
-You learn additional maneuvers at certain levels as shown in the Maneuvers Known section of the Cavalier table. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one. All maneuvers are listed *<a href="#internal-maneuvers">here</a>*.
+You learn additional maneuvers at certain levels as shown in the Maneuvers Known section of the Cavalier table. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one. All maneuvers are listed *<a href="#maneuvers">here</a>*.
 
 In addition you always have access to the ***Action Surge*** maneuver (see below)
 
@@ -215,6 +215,7 @@ Once you use this feature, you must finish a short rest before you can use it ag
 When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you gain an additional skill point to spend on your class skills.
 
 <!--
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 -->
@@ -241,7 +242,7 @@ When you use the feature you can’t use it again until you finish a long rest. 
 
 <div class="descriptive" markdown="1">
 
-<h4><a class="internal-link" name="#internal-multiclassing">Multiclassing</a></h4>
+#### Multiclassing
 
 **Prerequisites**. To qualify for multiclassing into the cavalier class, you must meet these prerequisites: Strength 13
 
@@ -250,7 +251,7 @@ When you use the feature you can’t use it again until you finish a long rest. 
 </div>
 
 
-<h2><a class="internal-link" name="internal-orders">Cavalier Order</a></h2>
+## Cavalier Order
 
 
 When you select this class, you must pledge yourself to a specific order. The order grants a number of bonuses, class skills and traits. In addition, each order includes a number of edicts that you must follow. If you violate any of these edicts, you loses the benefits from the order's challenge ability for 24 hours. The violation of an edict is subject to GM interpretation.
@@ -259,26 +260,27 @@ Members of these orders are not necessarily bound together, but some organizatio
 
 <div class="columnsthree">
 
-- **<a href="#internal-knightErrant">Knight Errant</a>**. Brave mercenary warriors who wander the land to show off their combat prowess and help those in need.
+- **<a href="#knight-errant">Knight Errant</a>**. Brave mercenary warriors who wander the land to show off their combat prowess and help those in need.
 
-- **<a href="#internal-orderOfTheBlueRose">Order of the Blue Rose</a>**. Diplomatic knights that dedicate themselves to promoting peace.
+- **<a href="#order-of-the-blue-rose">Order of the Blue Rose</a>**. Diplomatic knights that dedicate themselves to promoting peace.
 
-- **<a href="#internal-orderOfTheDragon">Order of the Dragon</a>**. These cavaliers value loyalty and friendship, often in a group of like-minded individuals.
+- **<a href="#order-of-the-dragon">Order of the Dragon</a>**. These cavaliers value loyalty and friendship, often in a group of like-minded individuals.
 
-- **<a href="#internal-orderOfTheFlame">Order of the Flame</a>**. Knights that devote their lives to the pursuit of personal glory.
+- **<a href="#order-of-the-flame">Order of the Flame</a>**. Knights that devote their lives to the pursuit of personal glory.
 
-- **<a href="#internal-orderOfTheLion">Order of the Lion</a>**. An order that pledges themselves to a sovereign; be it a king, queen, or even the local warlord.
+- **<a href="#order-of-the-lion">Order of the Lion</a>**. An order that pledges themselves to a sovereign; be it a king, queen, or even the local warlord.
 
-- **<a href="#internal-orderOfTheScales">Order of the Scales</a>**. The order of the scales safeguards the truth in all its forms, punishing liars, cheaters, and traitors.
+- **<a href="#order-of-the-scales">Order of the Scales</a>**. The order of the scales safeguards the truth in all its forms, punishing liars, cheaters, and traitors.
 
-- **<a href="#internal-orderOfTheShield">Order of the Shield</a>**. Cavaliers that devote their lives to protecting the common folk.
+- **<a href="#order-of-the-shield">Order of the Shield</a>**. Cavaliers that devote their lives to protecting the common folk.
 
-- **<a href="#internal-orderOfTheStar">Order of the Star</a>**. The order of the star dedicate themselves to the protection and service of a faith and its members.
+- **<a href="#order-of-the-star">Order of the Star</a>**. The order of the star dedicate themselves to the protection and service of a faith and its members.
 
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-knightErrant">Knight Errant</a></h1>
+
+# Knight Errant
 <div class="featuresTable">
 
 #### Order Features
@@ -326,7 +328,8 @@ At 18th level, whenever you use Challenge, Battlefield Inspiration or Bolstering
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-orderOfTheBlueRose">Order of the Blue Rose</a></h1>
+
+# Order of the Blue Rose
 
 <div class="featuresTable">
 
@@ -383,7 +386,8 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-orderOfTheDragon">Order of the Dragon</a></h1>
+
+# Order of the Dragon
 
 <div class="featuresTable">
 
@@ -432,7 +436,8 @@ In addition, while dodging, when an attacker that you can see hits you or an adj
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-orderOfTheFlame">Order of the Flame</a></h1>
+
+# Order of the Flame
 
 <div class="featuresTable">
 
@@ -483,7 +488,8 @@ At 18th level, you can, as a ***bonus action***, declare a moment of triumph. Un
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-orderOfTheLion">Order of the Lion</a></h1>
+
+# Order of the Lion
 
 <div class="featuresTable">
 
@@ -532,7 +538,8 @@ In addition, as a ***reaction***, you can redirect an attack made at a creature 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-orderOfTheScales">Order of the Scales</a></h1>
+
+# Order of the Scales
 
 <div class="featuresTable">
 
@@ -586,7 +593,8 @@ At 18th level, you can tell if people are lying around you. As an ***action*** y
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-orderOfTheShield">Order of the Shield</a></h1>
+
+# Order of the Shield
 
 <div class="featuresTable">
 
@@ -639,7 +647,8 @@ At 18th level, you can move to intercept foes. When a foe makes an action, as a 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-orderOfTheStar">Order of the Star</a></h1>
+
+# Order of the Star
 
 <div class="featuresTable">
 
@@ -687,7 +696,8 @@ At 18th level, you can take retribution on those who dare to strike an agent of 
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-maneuvers">Maneuvers</a></h2>
+
+## Maneuvers
 
 If a maneuver has prerequisites, you must meet them to learn it. You can learn the maneuver at the same time you meet its prerequisites. A level prerequisite refers to your class level.
 

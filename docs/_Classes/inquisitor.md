@@ -7,16 +7,16 @@ layout: default
 
 ##### <a href="#internal-feats">Class exclusive feat</a>
 
-##### <a href="#internal-missions">Divine Missions</a>
+##### <a href="#divine-missions">Divine Missions</a>
 
-<a href="#internal-missionOfTheColdIronWarder">Mission of the Cold Iron Warder</a><br/>
-<a href="#internal-missionOfTheCrusader">Mission of the Crusader</a><br/>
-<a href="#internal-missionOfTheHierophant">Mission of the Hierophant</a><br/>
-<a href="#internal-missionOfTheHunter">Mission of the Hunter</a><br/>
-<a href="#internal-missionOfInfiltration">Mission of Infiltration</a><br/>
-<a href="#internal-missionOfWitchhunter">Mission of Witchhunter</a><br/>
+<a href="#mission-of-the-cold-iron-warder">Mission of the Cold Iron Warder</a><br/>
+<a href="#mission-of-the-crusader">Mission of the Crusader</a><br/>
+<a href="#mission-of-the-hierophant">Mission of the Hierophant</a><br/>
+<a href="#mission-of-the-hunter">Mission of the Hunter</a><br/>
+<a href="#mission-of-infiltration">Mission of Infiltration</a><br/>
+<a href="#mission-of-witchhunter">Mission of Witchhunter</a><br/>
 
-##### <a href="#internal-judgements">Judgements</a>
+##### <a href="#judgements">Judgements</a>
 
 </div>
 
@@ -102,7 +102,7 @@ You start with the following equipment, in addition to the equipment granted by 
 - a leather armor and a holy symbol
 
 ### Fighting Style
-At 1st level, you adopt a style of fighting as your specialty. Choose one of the fighting style options from the <a href="fighter.html#internal-FightingStyles">Fighter class description</a>. In addition, the *Blessed Warrior* style is also added to your options.
+At 1st level, you adopt a style of fighting as your specialty. Choose one of the fighting style options from the <a href="fighter.html#fighting-styles">Fighter class description</a>. In addition, the *Blessed Warrior* style is also added to your options.
 
 <div class="feat">
 
@@ -186,6 +186,7 @@ You can use a holy symbol as a spellcasting focus for your inquisitor spells.
 Your choice grants you features at 3rd level, and again at 7th, 11th, and 18th level.
 
 <!--
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
@@ -209,6 +210,7 @@ Starting at 10th level, as an ***action***, you can emanate an aura of truth. Fo
 You can use this feature once and can recover the use when you finish a long rest.
 
 <!--
+
 ### Greater Judgement
 You can use your judgements one additional time between each rest. In addition, your known judgement become more potent.
  -->
@@ -225,7 +227,7 @@ At 20th level, you can act as a conduit for the full power of your faith. As an 
 A creature so judged cannot be affected by this ability again for 1 year after the time of casting. You can use this feature once and can recover the use when you finish a long rest.
 
 
-<h2><a class="internal-link" name="internal-missions">Divine Missions</a></h2>
+## Divine Missions
 
 At 3rd level, you commit yourself to a Divine Mission. Your misson shapes the path your inquisition takes, and reflects your study and obsession with your faith.
 
@@ -247,7 +249,8 @@ At 3rd level, you commit yourself to a Divine Mission. Your misson shapes the pa
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-missionOfTheColdIronWarder">Mission of the Cold Iron Warder</a></h1>
+
+# Mission of the Cold Iron Warder
 <div class="featuresTable">
 
 #### Mission Features
@@ -290,7 +293,8 @@ You have resistance to all damage from fiends.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-missionOfTheCrusader">Mission of the Crusader</a></h1>
+
+# Mission of the Crusader
 <div class="featuresTable">
 
 #### Mission Features
@@ -343,7 +347,8 @@ You can spend 4 **Piety** to simultaneously grant all allies within 30 ft the ef
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-missionOfTheHierophant">Mission of the Hierophant</a></h1>
+
+# Mission of the Hierophant
 <div class="featuresTable">
 
 #### Mission Features
@@ -394,7 +399,8 @@ You can use your blessing's restorative power to stave off death. Whenever a cre
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-missionOfTheHunter">Mission of the Hunter</a></h1>
+
+# Mission of the Hunter
 <div class="featuresTable">
 
 #### Mission Features
@@ -445,7 +451,8 @@ When you attack a creature you can't see, your inability to see it doesn't impos
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-missionOfInfiltration">Mission of Infiltration</a></h1>
+
+# Mission of Infiltration
 <div class="featuresTable">
 
 #### Mission Features
@@ -485,7 +492,8 @@ When you successfully down an enemy you can choose to not kill him. When you do 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-missionOfWitchhunter">Mission of Witchhunter</a></h1>
+
+# Mission of Witchhunter
 <div class="featuresTable">
 
 
@@ -534,7 +542,7 @@ If you do not have spell slots of that level at the moment, you cannot use this 
 Also, you learn that spell as if it was an Inquisitor spell of the same level. This learned spell will vanish after a period of 24 hours.
 
 
-<h2><a class="internal-link" name="internal-judgements">Judgements</a></h2>
+## Judgements
 
 As an instrument of your deity’s will, you are empowered to pass judgment on those around you. You learn two judgement of your choice as a 1st level Inquisitor.
 

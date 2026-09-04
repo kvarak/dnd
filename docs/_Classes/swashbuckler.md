@@ -6,18 +6,20 @@ layout: default
 <div class="toc" markdown="1">
 
 <!-- #### [Archetypes](#internal-Archetypes) -->
-##### Archetypes
-<a href="#internal-blacksnake">Blacksnake</a><br/>
-<a href="#internal-brawler">Brawler</a><br/>
-<a href="#internal-corsair">Corsair</a><br/>
-<a href="#internal-daredevil">Daredevil</a><br/>
-<a href="#internal-duelist">Duelist</a><br/>
-<a href="#internal-fatebender">Fatebender</a><br/>
-<a href="#internal-highwayman">Highwayman</a><br/>
-<a href="#internal-musketeer">Musketeer</a>
 
-##### <a href="#internal-tricks">Tricks</a><br/>
-##### <a href="#internal-deeds">Deeds</a>
+##### Archetypes
+<a href="#blacksnake">Blacksnake</a><br/>
+<a href="#brawler">Brawler</a><br/>
+<a href="#corsair">Corsair</a><br/>
+<a href="#daredevil">Daredevil</a><br/>
+<a href="#duelist">Duelist</a><br/>
+<a href="#fatebender">Fatebender</a><br/>
+<a href="#highwayman">Highwayman</a><br/>
+<a href="#musketeer">Musketeer</a>
+
+##### <a href="#tricks">Tricks</a><br/>
+
+##### <a href="#deeds">Deeds</a>
 
 </div>
 
@@ -134,7 +136,7 @@ A swashbuckler spends panache to use many of his maneuvers and regains one panac
 * **Daring Act**. As a general guideline, a daring act should be risky and dramatic. It should take a good deal of guts, and its outcome should have a low probability of success. Each time you perform a daring act, you regain 1 panache.
 
 #### Tricks and deeds
-Panache can be used in combat, to power your <a href="#internal-tricks">Tricks</a>, and for <a href="#internal-deeds">Deeds</a>. You learn additional tricks and deeds at certain levels as shown in the Swashbuckler table. Each time you learn new trick or deed, you can also replace one you know with a different one.
+Panache can be used in combat, to power your <a href="#tricks">Tricks</a>, and for <a href="#deeds">Deeds</a>. You learn additional tricks and deeds at certain levels as shown in the Swashbuckler table. Each time you learn new trick or deed, you can also replace one you know with a different one.
 
 ### Reactive
 Beginning at 2nd level, you can make one additional reaction. You can still only react once on a single event. *See Rest Additions for more details.*
@@ -186,7 +188,8 @@ At 20th level, you are so elusive that attackers rarely get the upper hand again
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-blacksnake">Blacksnake</a></h1>
+
+# Blacksnake
 <div class="featuresTable">
 
 #### Blacksnake features
@@ -246,7 +249,8 @@ You cow your enemies with the lash of a whip. When you hit a target, you can spe
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-brawler">Brawler</a></h1>
+
+# Brawler
 <div class="featuresTable">
 
 #### Brawler features
@@ -301,7 +305,8 @@ You can take an impressive amount of beating. You gain resistance to nonmagical 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-corsair">Corsair</a></h1>
+
+# Corsair
 <div class="featuresTable">
 
 #### Corsair features
@@ -382,7 +387,8 @@ You have become adept at detecting ambushes and quickly escaping danger. By spen
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-daredevil">Daredevil</a></h1>
+
+# Daredevil
 <div class="featuresTable">
 
 #### Daredevil features
@@ -440,7 +446,8 @@ A daredevil really enjoys being in the center of a battle and this really shows.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-duelist">Duelist</a></h1>
+
+# Duelist
 <div class="featuresTable">
 
 #### Duelist features
@@ -487,7 +494,8 @@ When you are in single combat with an enemy, as a ***reaction*** you can get adv
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-fatebender">Fatebender</a></h1>
+
+# Fatebender
 <div class="featuresTable">
 
 #### Fatebender features
@@ -565,7 +573,8 @@ Through a nearly impossible comedy of errors, you can stride through a battlefie
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-highwayman">Highwayman</a></h1>
+
+# Highwayman
 <div class="featuresTable">
 
 #### Highwayman features
@@ -616,7 +625,8 @@ You are adept at escaping the cold grasp of death. When you are reduced to 0 hit
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-musketeer">Musketeer</a></h1>
+
+# Musketeer
 <div class="featuresTable">
 
 #### Musketeer features
@@ -673,7 +683,7 @@ You have learned how best to benefit from those who fight by your side. When adj
 You attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.
 
 
-<h2><a class="internal-link" name="internal-deeds">Deeds</a></h2>
+## Deeds
 
 The deeds are presented in alphabetical order.
 
@@ -732,7 +742,7 @@ The deeds are presented in alphabetical order.
 
 </div>
 
-<h2><a class="internal-link" name="internal-tricks">Tricks</a></h2>
+## Tricks
 
 The tricks are presented in alphabetical order.
 

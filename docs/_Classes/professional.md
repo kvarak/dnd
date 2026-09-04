@@ -5,16 +5,16 @@ layout: default
 
 <div class="toc">
 
-##### [Fields of Expertise](#internal-fields)
-<a href="#internal-arcanist">Arcanist</a><br/>
-<a href="#internal-archaeologist">Archaeologist</a><br/>
-<a href="#internal-astronomer">Astronomer</a><br/>
-<a href="#internal-candlemaker">Candlemaker</a><br/>
-<a href="#internal-cook">Cook</a><br/>
-<a href="#internal-diplomat">Diplomat</a><br/>
-<a href="#internal-forester">Forester</a><br/>
-<a href="#internal-psychologist">Psychologist</a><br/>
-<a href="#internal-smith">Smith</a><br/>
+##### [Fields of Expertise](#fields-of-expertise)
+<a href="#arcanist">Arcanist</a><br/>
+<a href="#archaeologist">Archaeologist</a><br/>
+<a href="#astronomer">Astronomer</a><br/>
+<a href="#candlemaker">Candlemaker</a><br/>
+<a href="#cook">Cook</a><br/>
+<a href="#diplomat">Diplomat</a><br/>
+<a href="#forester">Forester</a><br/>
+<a href="#psychologist">Psychologist</a><br/>
+<a href="#smith">Smith</a><br/>
 </div>
 
 # Professional
@@ -183,7 +183,7 @@ At 18th level, when you roll initiative and have no Talent dice left, you regain
 ### Pinnacle of Achievement
 At 20th level, your Wisdom increases by 2 and your maximum becomes 22.
 
-<h2><a class="internal-link" name="internal-fields">Fields of Expertise</a></h2>
+## Fields of Expertise
 
 Each professional has a field of expertise. It might be the craft he has practised his entire life, or the theoretical subject he has learnt as much as possible about.
 
@@ -191,30 +191,31 @@ At 1st level, you choose your expertise. Your expertise grants you features at 1
 
 <div class="columnsthree">
 
-- **<a href="#internal-arcanist">Arcanist</a>** - A scholar dedicated to the study of magic.
+- **<a href="#arcanist">Arcanist</a>** - A scholar dedicated to the study of magic.
 
-- **<a href="#internal-archaeologist">Archaeologist</a>** - The archaeologist is an explorer of the past.
+- **<a href="#archaeologist">Archaeologist</a>** - The archaeologist is an explorer of the past.
 
-- **<a href="#internal-astronomer">Astronomer</a>** - The astronomer is interested in mysteries of the universe and the forces that rule it.
+- **<a href="#astronomer">Astronomer</a>** - The astronomer is interested in mysteries of the universe and the forces that rule it.
 
-- **<a href="#internal-candlemaker">Candlemaker</a>** - The making of candles is a simple craft. However, the real masters of candlemaking fashion candles with stores of arcane energy in the wax.
+- **<a href="#candlemaker">Candlemaker</a>** - The making of candles is a simple craft. However, the real masters of candlemaking fashion candles with stores of arcane energy in the wax.
 
-- **<a href="#internal-cook">Cook</a>** - Chefs are the much forgotten caretakers of every band of heroes, for a dragon-slaying barbarian, no matter how invincible in battle, can always die of hunger.
+- **<a href="#cook">Cook</a>** - Chefs are the much forgotten caretakers of every band of heroes, for a dragon-slaying barbarian, no matter how invincible in battle, can always die of hunger.
 
-- **<a href="#internal-diplomat">Diplomat</a>** - Diplomats are usually professional negotiators, emissaries and ambassadors.
+- **<a href="#diplomat">Diplomat</a>** - Diplomats are usually professional negotiators, emissaries and ambassadors.
 
-- **<a href="#internal-forester">Forester</a>** - The forester knows the wilderness like the back of hands. While the archetypical outdoorsman who lends the class her name is a forester, the abilities of the class are adaptable to all terrain types and climates. The class can equally represent a character at home in the mountains, plains, jungle, swamp, or desert, in equatorial heat or frigid arctic climes.
+- **<a href="#forester">Forester</a>** - The forester knows the wilderness like the back of hands. While the archetypical outdoorsman who lends the class her name is a forester, the abilities of the class are adaptable to all terrain types and climates. The class can equally represent a character at home in the mountains, plains, jungle, swamp, or desert, in equatorial heat or frigid arctic climes.
 
-- **<a href="#internal-psychologist">Psychologist</a>** - A student of the mind.
+- **<a href="#psychologist">Psychologist</a>** - A student of the mind.
 
-- **<a href="#internal-smith">Smith</a>** - A metal crafter, usually specialized in crafting a certain type of items or metals.
+- **<a href="#smith">Smith</a>** - A metal crafter, usually specialized in crafting a certain type of items or metals.
 
 
 </div>
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-arcanist">Arcanist</a></h1>
+
+# Arcanist
 <div class="featuresTable">
 
 #### Arcanist Features
@@ -261,7 +262,8 @@ If you have the *Master attuner* skill, you can instead attune to five magic ite
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-archaeologist">Archaeologist</a></h1>
+
+# Archaeologist
 <div class="featuresTable">
 
 #### Archaeologist Features
@@ -325,7 +327,8 @@ Your reputation and glory as an explorer are unrivaled. You regain all expended 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-astronomer">Astronomer</a></h1>
+
+# Astronomer
 <div class="featuresTable">
 
 #### Astronomer Features
@@ -374,7 +377,8 @@ Once you use this ability, you cannot use it again in the same turn.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-candlemaker">Candlemaker</a></h1>
+
+# Candlemaker
 <div class="featuresTable">
 
 #### Candlemaker Features
@@ -484,7 +488,8 @@ The light of your candles reveals even treacherous magic for what it really is. 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-cook">Cook</a></h1>
+
+# Cook
 <div class="featuresTable">
 
 #### Cook Features
@@ -619,7 +624,8 @@ Also, if you cook a meal during a long rest, you and anyone who eats your food c
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-diplomat">Diplomat</a></h1>
+
+# Diplomat
 <div class="featuresTable">
 
 #### Diplomat Features
@@ -660,7 +666,8 @@ Your heart cannot be swayed to extremes. You are immune to being charmed and fri
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-forester">Forester</a></h1>
+
+# Forester
 <div class="featuresTable">
 
 #### Forester Features
@@ -745,7 +752,8 @@ Instead of rolling a saving throw, you can choose to count your result as a 20. 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-psychologist">Psychologist</a></h1>
+
+# Psychologist
 <div class="featuresTable">
 
 #### Psychologist Features
@@ -793,7 +801,8 @@ You have resistance to psychic damage and advantage on all saves and check made 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-smith">Smith</a></h1>
+
+# Smith
 <div class="featuresTable">
 
 #### Smith Features

@@ -10,6 +10,24 @@ This directory contains development utilities for the Varlyn D&D site.
 
 ### Content Management
 - `extract-searchable.rb` - Extracts searchable content for site search functionality
+  - Core mechanism: `extract_doc_headings` walks every plain markdown heading
+    (any level, any file under `docs/_*/`) and indexes it as its own search
+    entry - no per-content-type markup or file-specific parsing required.
+    Only plain `#` ATX headings are matched (not raw `<h1>-<h6>` HTML tags);
+    content still using raw HTML headings must be reformatted to markdown to
+    be indexed (see e.g. the Paladin Oaths conversion).
+  - Content-specific parsers remain only for genuinely non-heading shapes that
+    also serve a real UX/layout purpose: skills (`<details>` accordion - a
+    real collapsible UI feature) and familiars (name sits inside a
+    `<table><th>` used for monster-stat-block card styling, not a heading).
+  - Table row data (e.g. the deity pantheon tables) is intentionally NOT
+    indexed - a table row isn't an unconverted heading, it's a different data
+    shape, and indexing it isn't worth a bespoke parser for that content.
+  - Known limitation: a heading with no explicit `<a name="x">` anchor and
+    containing *other* incidental HTML (e.g. a bare `<a href="#...">` TOC
+    link) gets a clean slugified anchor guess, which can differ from the
+    site's auto-generated id for that edge case. Affects only the entry's
+    in-page scroll target, not which page it links to.
 
 ### Supporting Files
 - `validation-utils.js` - Shared validation utilities used by multiple tools

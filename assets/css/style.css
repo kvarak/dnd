@@ -1006,6 +1006,12 @@ html.dark-mode .search-result-item:hover {
   color: var(--color-search-text);
 }
 
+.search-result-breadcrumb {
+  display: inline;
+  font-size: 0.75em;
+  color: #6c757d;
+}
+
 .search-result-match {
   font-size: 0.75em;
   color: #6c757d;

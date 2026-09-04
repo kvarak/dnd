@@ -6,6 +6,7 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### <a href="#internal-traits">Traits</a>
+
 ##### <a href="#internal-ElvenSubtypes">Subtypes</a>
 <a href="#internal-eladrin">Eladrin</a><br/>
 <a href="#internal-shadarKai">Shadar-kai</a><br/>
@@ -14,10 +15,10 @@ layout: default
 ##### <a href="#internal-class">Class Options</a>
 
 ##### The Elven Races
-<a href="#internal-race">The Wood Elves</a><br/>
-<a href="#internal-seldarine">The Seldarine - Gods of the Elves</a><br/>
-<a href="#internal-eladrinFeywild">Eladrin and the Feywild</a><br/>
-<a href="#internal-ravenQueen">The Raven queen and the Shadar-kai</a>
+<a href="#the-wood-elves">The Wood Elves</a><br/>
+<a href="#the-seldarine">The Seldarine - Gods of the Elves</a><br/>
+<a href="#eladrin-and-the-feywild">Eladrin and the Feywild</a><br/>
+<a href="#the-raven-queen-and-the-shadar-kai">The Raven queen and the Shadar-kai</a>
 
 </div>
 
@@ -51,7 +52,7 @@ The Fey native to the Feywild, including Eladrin, are eternal. They do not age a
 #### The Material Plane
 Soon after the Material plane was created, the denizens of the Feywild became curious of this new thing and many visited to explore. After their initial curiosity was sated, this plane was found mundane and colorless by most fey and ignored.
 
-However, one Archfey named Corellon Larethian, was forced to move there together with his whole retinue (see <a href="#internal-race">the wood elves</a>). This was not without problems, least of all when they faced their first real deaths. Contrary to the Feywild, the dead stayed dead.
+However, one Archfey named Corellon Larethian, was forced to move there together with his whole retinue (see <a href="#the-wood-elves">the wood elves</a>). This was not without problems, least of all when they faced their first real deaths. Contrary to the Feywild, the dead stayed dead.
 
 This could have been the end of the fey in the material plane, had they not come to a solution. The Archfey managed to come to an agreement with nature itself. They would bond with the forest, guarding it, and in return the forest would help the fey to continue their legacy, not as the eternal creatures they previously were, but as an amalgation of fey and nature. Thus the wood elves were born.
 
@@ -542,7 +543,8 @@ An elf approaches some classes a bit different compared than other races. When y
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-race">The Wood Elves</a></h1>
+
+# The Wood Elves
 
 Long before elves existed, Corellon was one of the most powerful archfey the Feywild has ever seen, with power rivaling the gods. When his own realm bored him, he travelled to find more interesting things, and he danced from world to world and plane to plane. A being of consummate mutability and infinite grace, Corellon was a power like no other - able to take the form of a chuckling stream, a teasing breeze, an incandescent beam, a cavorting flame, or a crackling bolt of lightning. On nothing more than a whim, Corellon's body could become a school of fish, a swarm of bees, or a flock of birds. He could confidently consort with other gods, often adopting their appearances - male, female, or something else -but just as often kept their company in the form of a rose blossom or a delicate doe.
 
@@ -686,7 +688,8 @@ Of all peoples, elves are perhaps best suited to wizardry. They have access to c
 <img src='https://i.pinimg.com/originals/71/1e/00/711e0015ff6ac6e4a729eed9c1845aab.png' style='float:right;width:30%;padding:20px'/>
 
 <hr class="classdivider" style="clear:both">
-<h1><a class="internal-link" name="internal-seldarine">The Seldarine</a></h1>
+
+# The Seldarine
 
 The pantheon of elven deities, called the Seldarine, includes Corellon and the group of primal elves whom he graced with divinity. These gods were the ones who brought word to Corellon of Lolth’s radical ideas, and their creator rewarded them by bringing them with him when he withdraw to Arvandor. When Lolth lured some of the primal elves away from Corellon with her promises, this high-ranking core of divine entities remained loyal. Because they rejected Lolth’s treacherous ways, they retained their primal power and their immortality.
 
@@ -869,7 +872,8 @@ The Elf Deities table enumerates the members of the Seldarine. For each god, the
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-eladrinFeywild">Eladrin and the Feywild</a></h1>
+
+# Eladrin and the Feywild
 
 Nearly everyone has heard of the Fey in one form or another. Fairies such as pixies and sprites take on a major role in children’s tales as magical woodland tricksters and guardians. Fey monsters, like hags and trolls, haunt our nightmares. And the graceful sidhe, the fey lords and ladies, are famous throughout the planes for their immeasurable beauty.  Despite the stories, these creatures are rare. They are often seen only in fleeting glimpses, or in the wild, untamed lands of the world. Few, if any, doubt their existence, since just about everyone has met an elf or perhaps even a gnome, but next to no one has met a fey creature, and even fewer have lived to tell about it. Why is that?
 
@@ -973,7 +977,8 @@ Similarly, fey hate being given gifts, because this puts them in debt with the g
 Despite what many think, the fey are neither good nor evil, at least not in the mortal sense. While many actions of the Winter Court seem evil, and many of the Summer seem good, the fey care little about morality. On the alignment scale, they are neutral at best. They do what they do because they have to, not quite because they want to. Their nature strives them to be power-hungry, predatory, or deceitful, and they are incapable of resisting or changing their nature. A fairy that appears to be going against its nature is almost certainly under the influence of some other creature.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ravenQueen">The Raven queen and the Shadar-kai</a></h1>
+
+# The Raven queen and the Shadar-kai
 
 > *"The Raven queen is trapped by her fascination with the past. She sits in her fortress, amidst all the memories of the world, looking at the ones that please her most as though they were glittering jewels. Many great wizards have attempted to understand her motives, but like a raven she has always remained cryptic, keeping her cache of secrets just out of their reach."*
 >

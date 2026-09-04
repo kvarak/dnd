@@ -6,22 +6,22 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### [Druid Circles](#internal-druid-circles)
-<a href="#internal-circleOfBlood">Circle of Blood</a><br/>
-<a href="#internal-circleOfDreams">Circle of Dreams</a><br/>
-<a href="#internal-circleOfDust">Circle of Dust</a><br/>
-<a href="#internal-circleOfTheForest">Circle of the Forest</a><br/>
-<a href="#internal-circleOfTheGarden">Circle of the Garden</a><br/>
-<a href="#internal-circleOfTheLand">Circle of the Land</a><br/>
-<a href="#internal-circleOfTheMoon">Circle of the Moon</a><br/>
-<a href="#internal-circleOfTheSands">Circle of the Sands</a><br/>
-<a href="#internal-circleOfTheShepherd">Circle of the Shepherd</a><br/>
-<a href="#internal-circleOfSpores">Circle of Spores</a><br/>
-<a href="#internal-circleOfStorms">Circle of Storms</a><br/>
-<a href="#internal-circleOfTheSwarm">Circle of the Swarm</a><br/>
+<a href="#circle-of-blood">Circle of Blood</a><br/>
+<a href="#the-circle-of-dreams">Circle of Dreams</a><br/>
+<a href="#the-circle-of-dust">Circle of Dust</a><br/>
+<a href="#circle-of-the-forest">Circle of the Forest</a><br/>
+<a href="#circle-of-the-garden">Circle of the Garden</a><br/>
+<a href="#circle-of-the-land">Circle of the Land</a><br/>
+<a href="#circle-of-the-moon">Circle of the Moon</a><br/>
+<a href="#circle-of-the-sands">Circle of the Sands</a><br/>
+<a href="#circle-of-the-shepherd">Circle of the Shepherd</a><br/>
+<a href="#circle-of-spores">Circle of Spores</a><br/>
+<a href="#circle-of-storms">Circle of Storms</a><br/>
+<a href="#circle-of-the-swarm">Circle of the Swarm</a><br/>
 
 ##### Restricted Paths
 **Lizardfolk**<br/>
-<a href="#internal-circleOfTheAncients">Circle of the Ancients</a>
+<a href="#restricted-to-lizardfolk-characters">Circle of the Ancients</a>
 
 </div>
 
@@ -218,6 +218,7 @@ You gain the ability to summon a spirit that assumes an animal form: as an ***ac
 When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.
 
 <!--
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 -->
@@ -237,34 +238,35 @@ Though their organization is invisible to most outsiders, druids are part of a s
 
 <div class="columnsthree">
 
-- **<a href="#internal-circleOfBlood">Circle of Blood</a>** Druids that can wildshape parts of their body, even to several animals at once.
+- **<a href="#circle-of-blood">Circle of Blood</a>** Druids that can wildshape parts of their body, even to several animals at once.
 
-- **<a href="#internal-circleOfDreams">Circle of Dreams</a>** Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms.
+- **<a href="#the-circle-of-dreams">Circle of Dreams</a>** Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms.
 
-- **<a href="#internal-circleOfDust">Circle of Dust</a>** A druid safeguarding nature in an area where widespread, catastrophic or near-catastrophic ruin is pervasive.
+- **<a href="#the-circle-of-dust">Circle of Dust</a>** A druid safeguarding nature in an area where widespread, catastrophic or near-catastrophic ruin is pervasive.
 
-- **<a href="#internal-circleOfTheForest">Circle of the Forest</a>** Druids that delve deeper into the ancient rituals and hidden knowledge of plant magic.
+- **<a href="#circle-of-the-forest">Circle of the Forest</a>** Druids that delve deeper into the ancient rituals and hidden knowledge of plant magic.
 
-- **<a href="#internal-circleOfTheGarden">Circle of the Garden</a>** These druids have a deep respect for plants and the gifts they provide.
+- **<a href="#circle-of-the-garden">Circle of the Garden</a>** These druids have a deep respect for plants and the gifts they provide.
 
-- **<a href="#internal-circleOfTheLand">Circle of the Land</a>** A druid whose magic has been affected by the land he protects.
+- **<a href="#circle-of-the-land">Circle of the Land</a>** A druid whose magic has been affected by the land he protects.
 
-- **<a href="#internal-circleOfTheMoon">Circle of the Moon</a>** Druids who masters wild shape.
+- **<a href="#circle-of-the-moon">Circle of the Moon</a>** Druids who masters wild shape.
 
 - **<a href="#internal-circleOfSands">Circle of Sands</a>** Druids of the Circle of the Sands finds the toughest life in one of the harshest place of the world — the deserts.
 
-- **<a href="#internal-circleOfTheShepherd">Circle of the Shepherd</a>** Druids of the Circle of the Shepherd recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves.
+- **<a href="#circle-of-the-shepherd">Circle of the Shepherd</a>** Druids of the Circle of the Shepherd recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves.
 
-- **<a href="#internal-circleOfSpores">Circle of Spores</a>** Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the  ability to transform lifeless material into abundant life.
+- **<a href="#circle-of-spores">Circle of Spores</a>** Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the  ability to transform lifeless material into abundant life.
 
-- **<a href="#internal-circleOfStorms">Circle of Storms</a>** Guardians and warriors who wield the power of lightning and thunder to destroy their enemies from above.
+- **<a href="#circle-of-storms">Circle of Storms</a>** Guardians and warriors who wield the power of lightning and thunder to destroy their enemies from above.
 
-- **<a href="#internal-circleOfTheSwarm">Circle of the Swarm</a>** Druids of the Circle of the Swarm have found strength in numbers above all else.
+- **<a href="#circle-of-the-swarm">Circle of the Swarm</a>** Druids of the Circle of the Swarm have found strength in numbers above all else.
 
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfBlood">Circle of Blood</a></h1>
+
+# Circle of Blood
 <div class="featuresTable">
 
 #### Circle of Blood Features
@@ -394,7 +396,8 @@ When you use your action to cast a druid spell, you can make one unarmed or weap
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfDreams">The Circle of Dreams</a></h1>
+
+# The Circle of Dreams
 <div class="featuresTable">
 
 #### Circle of Dreams Features
@@ -458,7 +461,8 @@ When you cast *teleportation circle* from this feature or from casting it with a
 Once you use this feature, you may regain its use after you finish a long rest.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfDust">The Circle of Dust</a></h1>
+
+# The Circle of Dust
 <div class="featuresTable">
 
 #### Circle of Dust Features
@@ -523,7 +527,8 @@ You may use wrack or repeal once upon reaching 14th level, gaining an additional
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfTheForest">Circle of the Forest</a></h1>
+
+# Circle of the Forest
 <div class="featuresTable">
 
 #### Circle Features
@@ -674,7 +679,8 @@ Any creature grappled or restrained by you or an awakened plant (by a grapple or
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfTheGarden">Circle of the Garden</a></h1>
+
+# Circle of the Garden
 <div class="featuresTable">
 
 #### Circle Features
@@ -750,7 +756,8 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfTheLand">Circle of the Land</a></h1>
+
+# Circle of the Land
 <div class="featuresTable">
 
 #### Circle of Land Features
@@ -808,7 +815,8 @@ The creature is aware of this effect before it makes its attack against you.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfTheMoon">Circle of the Moon</a></h1>
+
+# Circle of the Moon
 <div class="featuresTable">
 
 #### Circle of the Moon Features
@@ -850,7 +858,8 @@ You have learned to use magic to alter your physical form in more subtle ways. Y
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfTheSands">Circle of the Sands</a></h1>
+
+# Circle of the Sands
 <div class="featuresTable">
 
 #### Circle of the Sands Features
@@ -898,7 +907,8 @@ Additionally, while you are surrounded by the wind from your Shifting Sands, you
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfTheShepherd">Circle of the Shepherd</a></h1>
+
+# Circle of the Shepherd
 <div class="featuresTable">
 
 #### Circle of the Shepherd Features
@@ -972,7 +982,8 @@ The spell lasts for 1 hour, requiring no concentration, or until you dismiss it.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfSpores">Circle of Spores</a></h1>
+
+# Circle of Spores
 <div class="featuresTable">
 
 #### Circle of Spores Features
@@ -1081,7 +1092,7 @@ Storm Elemental
 </td></tr></tbody></table>
 </div>
 
-<h1><a class="internal-link" name="internal-circleOfStorms">Circle of Storms</a></h1>
+# Circle of Storms
 <div class="featuresTable">
 
 #### Circle of the Storms Features
@@ -1116,7 +1127,8 @@ You can expend two uses of Wild Shape to become a storm elemental.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-circleOfTheSwarm">Circle of the Swarm</a></h1>
+
+# Circle of the Swarm
 <div class="featuresTable">
 
 #### Circle of the Swarm Features
@@ -1201,8 +1213,10 @@ You have learned how to call upon the power of a plague to consume your foes. Th
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-circleOfTheAncients">Restricted to Lizardfolk characters</a></h2>
-<h1>Circle of the Ancients</h1>
+
+## Restricted to Lizardfolk characters
+
+# Circle of the Ancients
 <div class="featuresTable">
 
 #### Circle Features

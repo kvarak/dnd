@@ -6,17 +6,17 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### Beastfolk
-<a href="#internal-apefolk">**Apefolk**</a><br/>
-<a href="#internal-bearfolk">Bearfolk -- **Ursine**</a><br/>
-<a href="#internal-catfolk">**Catfolk**</a><br/>
-<a href="#internal-foxfolk">Foxfolk -- **Vulpine**</a><br/>
-<a href="#internal-frogfolkBullywug">Frogfolk -- **Bullywug**</a><br/>
-<a href="#internal-frogfolkGrung">Frogfolk -- **Grung**</a><br/>
-<a href="#internal-pigfolk">Porcine folk -- **Varkind**</a><br/>
-<a href="#internal-rabbitfolk">Rabbitfolk -- **Kunek**</a><br/>
-<a href="#internal-ratfolk">**Ratfolk**</a><br/>
+<a href="#apefolk">**Apefolk**</a><br/>
+<a href="#ursine">Bearfolk -- **Ursine**</a><br/>
+<a href="#catfolk">**Catfolk**</a><br/>
+<a href="#vulpine">Foxfolk -- **Vulpine**</a><br/>
+<a href="#frogfolk---bullywug">Frogfolk -- **Bullywug**</a><br/>
+<a href="#grung">Frogfolk -- **Grung**</a><br/>
+<a href="#varkind">Porcine folk -- **Varkind**</a><br/>
+<a href="#kunek">Rabbitfolk -- **Kunek**</a><br/>
+<a href="#ratfolk">**Ratfolk**</a><br/>
 
-##### <a href="#internal-class">**Generic Class options**</a>
+##### <a href="#beastfolk-class-options">**Generic Class options**</a>
 
 </div>
 
@@ -42,7 +42,8 @@ Different types of Bestfolk are extremely diverse, with only the following trais
 You have ***Expertise*** with *Animal handling* and *Intimidation* checks when interacting with normal animals related to your kind.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-apefolk">Apefolk</a></h1>
+
+# Apefolk
 
 Like <img src='../assets/images/Charau-ka.png' style='float:right;width:25%;padding:20px' />
 humans, apefolk are varied, clever, and highly adaptable. Those that leave their homes and native jungles behind are rare enough to turn heads when encountered by the unfamiliar, and at first glance, a naked greater ape is almost indistinguishable from their beastly counterparts. This has led to more than a few unfortunate misunderstandings and members of this proud people have been kept imprisoned by charlatans and circuses who show off their talking ape as a curiosity for passing travelers.
@@ -139,7 +140,8 @@ Apefolk approaches some classes is a bit different than other races. When you se
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-bearfolk">Ursine</a></h1>
+
+# Ursine
 
 Reclusive but powerful, ursine are humanoid bearfolk that tend to keep to mountain villages, tranquil forests, or the cold tundras & wilderness far from civilization. Although their appearance may scare some off, some races and personalities find their calm and easy-going ways refreshing—an opinion sometimes shaken when an ursine is provoked.
 
@@ -258,7 +260,8 @@ Ursine approaches some classes is a bit different than other races. When you sel
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-catfolk">Catfolk</a></h1>
+
+# Catfolk
 
 The small hunter-gatherer tribes of the catfolk roam the plains and forests late into the night, making camp after midnight with easily-portable tents and carpets and sleeping until the afternoon. Rarely settling down for long, they tend to take a passing, but enthusiastic, interest in anything around them and are content to let most things be. Except when they're not.
 
@@ -393,7 +396,7 @@ Catfolk approaches some classes is a bit different than other races. When you se
     <hr class="dividerinfolk">
 
 - ### Rogue
-    A catfolk rogue has access to the <a href="../Classes/rogue.html#internal-felineStalker">feline stalker</a> archetype
+    A catfolk rogue has access to the <a href="../Classes/rogue.html#restricted-to-catfolk-characters">feline stalker</a> archetype
 
     <hr class="dividerinfolk">
 
@@ -401,7 +404,8 @@ Catfolk approaches some classes is a bit different than other races. When you se
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-foxfolk">Vulpine</a></h1>
+
+# Vulpine
 
 Small and nimble, charming and clever, vulpine are humanoid foxfolk that can be found in any number of environments. Vulpine are a fiercely independent race, and their short lifespans inspire them to pursue their own objectives with steely determination.
 
@@ -533,7 +537,8 @@ A Vulpine approaches some classes is a bit different than other races. When you 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-frogfolkBullywug">Frogfolk - Bullywug</a></h1>
+
+# Frogfolk - Bullywug
 
 Frogfolk come in two distinct species, the swamp-dwelling Bullywug, more akin to toads, and Grung, who are smaller, froglike and adapted to a life in tropical forests.
 
@@ -597,7 +602,8 @@ Bullywug approaches some classes is a bit different than other races. When you s
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-frogfolkGrung">Grung</a></h1>
+
+# Grung
 
 While <img src='../assets/images/Grungs.png' style='float:right;width:50%;padding:20px' />
 related to the swamp-dwelling bullywugs, grung are more adapted to life in rainforests and jungles. Grung tribes are often slavers, and they use their skill with poisons to keep their captives sedate by poisoning their food. Grung typically prefer their own kind, but a few ambitious grung manage to find steady work as assassins, alchemists or poisonmakers.
@@ -801,7 +807,8 @@ Grung approaches some classes is a bit different than other races. When you sele
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pigfolk">Varkind</a></h1>
+
+# Varkind
 
 Varkind appear to be large humanoid pigs. Most have big bellies with swarthy, stout bodies and possess long stout arms, ending in hands with 3 cloven fingers and a thumb, while standing on short but powerful legs. They have large, squat faces, small beady eyes, floppy ears and pronounced snouts. The females tend to have smaller, more petite snouts, and rounder bodies. Favoring both utility and style, the varkind tend to wear heavy enduring clothing such as jackets, suits, and boots, favoring ornate and finely made pins and medals as a form of decoration. Females tend to wear some form of bonnet or hat, elaborately decorated with feathers or pins, and favor dresses and coats with careful and neat embroidery.
 
@@ -910,7 +917,8 @@ Varkind approaches some classes is a bit different than other races. When you se
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-rabbitfolk">Kunek</a></h1>
+
+# Kunek
 
 Kunek are small humanoids with short fur, and the heads, tails and feet of rabbits. Their powerful limbs make them capable of remarkable leaps. They have long, sensitive ears and their eyesight detects motion almost reflexively. Their eyes are placed on the sides of their heads, akin to true hares and rabbits, giving them almost complete 360-degree vision. Kunek from northern climes have white fur, while those from southern areas will have fur of a darker color.
 
@@ -1074,7 +1082,8 @@ Kunek approaches some classes is a bit different than other races. When you sele
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ratfolk">Ratfolk</a></h1>
+
+# Ratfolk
 
 Ratfolk are small, rodent-like humanoids; originally native to subterranean areas in dry deserts and plains, they are now more often found in nomadic trading caravans. Much like the pack rats they resemble, ratfolk are tinkerers and hoarders by nature, and as a whole are masters of commerce, especially when it comes to acquiring and repairing mechanical or magical devices. Though some are shrewd merchants who carefully navigate the shifting alliances of black markets and bazaars, many ratfolk love their stockpiles of interesting items far more than money, and would rather trade for more such prizes to add to their hoards over mere coins. It's common to see a successful crew of ratfolk traders rolling out of town with an even larger bundle than they entered with, the whole mess piled precariously high on a cart drawn by giant rats.
 
@@ -1203,7 +1212,8 @@ Ratfolk approaches some classes is a bit different than other races. When you se
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-class">Beastfolk Class Options</a></h1>
+
+# Beastfolk Class Options
 
 There are a lot of similarities in how the different beastfolk approach character classes, and they are all summarized in this chapter. Each class will also mention if the options apply to all beastfolk of just some.
 

@@ -5,7 +5,8 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### <a href="#internal-traits">Traits</a>
+##### <a href="#racial-traits">Traits</a>
+
 ##### <a href="#internal-Subtypes">Subtypes</a>
 <a href="#internal-stryg">Stryg</a><br/>
 <a href="#internal-nosferatu">Nosferatu</a><br/>
@@ -70,7 +71,7 @@ Dhampirs often arise from encounters with vampires, but all manner of macabre ba
 | 7 | One of your parents was a vampire.
 | 8 | A radical experiment changed your body, making you reliant on others for vital fluids.
 
-<h3><a class="internal-link" name="internal-traits">Racial Traits</a></h3>
+### Racial Traits
 
 Your dhampir character has certain traits deriving from your vampiric ancestry.
 

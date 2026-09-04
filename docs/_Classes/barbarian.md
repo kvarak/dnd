@@ -6,45 +6,45 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### [Primal Paths](#internal-primal-paths)
-<a href="#internal-pathOfTheAquaticHunter">Path of the Aquatic Hunter</a><br>
-<a href="#internal-pathOfTheBerserker">Path of the Berserker</a><br>
-<a href="#internal-pathOfTheCourageousHeart">Path of the Courageous Heart</a><br>
-<a href="#internal-pathOfTheDefender">Path of the Defender</a><br>
-<a href="#internal-pathOfTheHurler">Path of the Hurler</a><br>
-<a href="#internal-pathOfTheJuggernaut">Path of the Juggernaut</a><br>
-<a href="#internal-pathOfTheMarauder">Path of the Marauder</a><br>
-<a href="#internal-pathOfTheNaturesWarden">Path of Nature's Warden</a><br>
-<a href="#internal-pathOfThePaintedWarrior">Path of the Painted Warrior</a><br>
-<a href="#internal-pathOfTheSacrifice">Path of Sacrifice</a><br>
-<a href="#internal-pathOfTheStormHerald">Path of the Storm Herald</a><br>
-<a href="#internal-pathOfTheTotemWarrior">Path of the Totem Warrior</a><br>
-<a href="#internal-pathOfTheWarChief">Path of the War Chief</a><br>
-<a href="#internal-pathOfTheZealot">Path of the Zealot</a><br>
+##### [Primal Paths](#primal-paths)
+<a href="#path-of-the-aquatic-hunter">Path of the Aquatic Hunter</a><br>
+<a href="#path-of-the-berserker">Path of the Berserker</a><br>
+<a href="#path-of-the-courageous-heart">Path of the Courageous Heart</a><br>
+<a href="#path-of-the-defender">Path of the Defender</a><br>
+<a href="#path-of-the-hurler">Path of the Hurler</a><br>
+<a href="#path-of-the-juggernaut">Path of the Juggernaut</a><br>
+<a href="#path-of-the-marauder">Path of the Marauder</a><br>
+<a href="#path-of-the-natures-warden">Path of Nature's Warden</a><br>
+<a href="#path-of-the-painted-warrior">Path of the Painted Warrior</a><br>
+<a href="#path-of-the-sacrifice">Path of Sacrifice</a><br>
+<a href="#path-of-the-storm-herald">Path of the Storm Herald</a><br>
+<a href="#path-of-the-totem-warrior">Path of the Totem Warrior</a><br>
+<a href="#path-of-the-war-chief">Path of the War Chief</a><br>
+<a href="#path-of-the-zealot">Path of the Zealot</a><br>
 
 ##### Restricted Paths
 **Beastfolk & Tiefling (needs a tail)**<br/>
-<a href="#internal-pathOfTheTailfighter">Path of the Tailfighter</a>
+<a href="#restricted-to-characters-with-a-tail">Path of the Tailfighter</a>
 
 **Can change shape naturally**<br/>
-<a href="#internal-pathOfTheSkinchanger">Path of the Skinchanger</a><br/>
+<a href="#restricted-to-characters-who-can-change-shape-naturally">Path of the Skinchanger</a><br/>
 
 **Dwarf**<br/>
-<a href="#internal-pathOfTheBattlerager">Path of the Battlerager</a><br/>
-<a href="#internal-pathOfTheQuakeBringer">Path of the Quake Bringer</a>
+<a href="#restricted-to-dwarf-characters">Path of the Battlerager</a><br/>
+<a href="#restricted-to-dwarf-earth-genasi-characters">Path of the Quake Bringer</a>
 
 **Floran**<br/>
-<a href="#internal-pathOfTheBlighted">Path of the Blighted</a>
+<a href="#restricted-to-floran-characters">Path of the Blighted</a>
 
 **Earth Genasi**<br/>
-<a href="#internal-pathOfTheQuakeBringer">Path of the Quake Bringer</a>
+<a href="#restricted-to-dwarf-earth-genasi-characters">Path of the Quake Bringer</a>
 
 **Half-Orc**<br/>
-<a href="#internal-eyeOfGruumsh">Eye of Gruumsh</a>
+<a href="#restricted-to-orc-half-orc-characters">Eye of Gruumsh</a>
 
 **Lizardfolk**<br/>
-<a href="#internal-pathOfTheTailfighter">Path of the Tailfighter</a><br/>
-<a href="#internal-pathOfTheTrophyHunter">Path of the Trophy Hunter</a>
+<a href="#restricted-to-characters-with-a-tail">Path of the Tailfighter</a><br/>
+<a href="#restricted-to-lizardfolk-characters">Path of the Trophy Hunter</a>
 
 </div>
 
@@ -280,7 +280,7 @@ While in your rage, you have advantage on all Strength, Dexterity, and Constitut
 At 20th level, you embody the power of the wilds. Your Strength and Constitution scores, and maximums increase by 4.
 
 
-<h2><a class="internal-link" name="internal-primal-paths">Primal Paths</a></h2>
+## Primal Paths
 
 Rage burns in every barbarian's heart, a furnace that drives him or her toward greatness. Different barbarians attribute their rage to different sources, however. For some, it is an internal reservoir where pain, grief, and anger are forged into a fury hard as steel. Others see it as a spiritual blessing, or a gift of a totem animal.
 
@@ -302,7 +302,7 @@ At 1st level, you choose a path that shapes the nature of your rage. Your choice
 
 - **<a href="#internal-marauder">Path of the Marauder</a>** -  A leader who leads from the front, who knows the strengths of his allies and deploys them where they will be the most effective.
 
-- **<a href="#internal-pathOfTheNaturesWarden">Path of Nature's Warden</a>** - Barbarians who follow an ancient tradition rooted in powerful druidic magic.
+- **<a href="#path-of-the-natures-warden">Path of Nature's Warden</a>** - Barbarians who follow an ancient tradition rooted in powerful druidic magic.
 
 - **<a href="#internal-paintedWarrior">Path of the Painted Warrior</a>** - Barbarians of this primal path use their own bodies as a canvas, displaying their artistic talent and connection with their tattoos to the world.
 
@@ -317,7 +317,8 @@ At 1st level, you choose a path that shapes the nature of your rage. Your choice
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheAquaticHunter">Path of the Aquatic Hunter</a></h1>
+
+# Path of the Aquatic Hunter
 
 <div class="featuresTable">
 
@@ -411,7 +412,8 @@ You gain a magical benefit based on the totem animal of your choice. You can cho
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheBerserker">Path of the Berserker</a></h1>
+
+# Path of the Berserker
 
 <div class="featuresTable">
 
@@ -454,7 +456,8 @@ When you take damage from a creature, you can use your **reaction** to make a me
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheCourageousHeart">Path of the Courageous Heart</a></h1>
+
+# Path of the Courageous Heart
 
 <div class="featuresTable">
 
@@ -504,7 +507,8 @@ Whenever you succeed at a Constitution saving throw to remain conscious with you
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheDefender">Path of the Defender</a></h1>
+
+# Path of the Defender
 
 <div class="featuresTable">
 
@@ -550,7 +554,8 @@ You and your bondmate function even more like a team when faced with foes. While
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheHurler">Path of the Hurler</a></h1>
+
+# Path of the Hurler
 
 <div class="featuresTable">
 
@@ -605,7 +610,8 @@ Creatures that are Tiny or smaller cannot be used for this feature. Small creatu
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheJuggernaut">Path of the Juggernaut</a></h1>
+
+# Path of the Juggernaut
 
 <div class="featuresTable">
 
@@ -667,7 +673,8 @@ You may do this a number of times equal to your Constitution modifier. See *Rest
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheMarauder">Path of the Marauder</a></h1>
+
+# Path of the Marauder
 
 <div class="featuresTable">
 
@@ -743,7 +750,8 @@ As the foremost expert in the field of surprise surgery, your allies look to you
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheNaturesWarden">Path of the Nature’s Warden</a></h1>
+
+# Path of the Nature’s Warden
 
 <div class="featuresTable">
 
@@ -858,7 +866,8 @@ Your guardian form emanates a magical aura that fortifies your allies. When you 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfThePaintedWarrior">Path of the Painted Warrior</a></h1>
+
+# Path of the Painted Warrior
 
 <div class="featuresTable">
 
@@ -917,7 +926,8 @@ You only gain the benefits of a tattoo for the duration of your rage. If a tatto
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheSacrifice">Path of the Sacrifice</a></h1>
+
+# Path of the Sacrifice
 
 <div class="featuresTable">
 
@@ -958,7 +968,8 @@ Your destined death awaits your arrival, and you refuse to surrender before the 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheStormHerald">Path of the Storm Herald</a></h1>
+
+# Path of the Storm Herald
 
 <div class="featuresTable">
 
@@ -1020,7 +1031,8 @@ The power of the storm you channel grows mightier, lashing out at your foes. The
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheTotemWarrior">Path of the Totem Warrior</a></h1>
+
+# Path of the Totem Warrior
 
 <div class="featuresTable">
 
@@ -1195,7 +1207,8 @@ You gain a magical benefit based on the totem animal of your choice. You can cho
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheWarChief">Path of the War Chief</a></h1>
+
+# Path of the War Chief
 
 <div class="featuresTable">
 
@@ -1282,7 +1295,8 @@ Additionally, the range of your War Song increases to 30 ft, and when you issue 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pathOfTheZealot">Path of the Zealot</a></h1>
+
+# Path of the Zealot
 
 <div class="featuresTable">
 
@@ -1336,8 +1350,10 @@ While raging, having 0 hit points doesn’t knock you unconscious. You still mus
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-pathOfTheTailfighter">Restricted to characters with a tail</a></h2>
-<h1>Path of the Tailfighter</h1>
+
+## Restricted to characters with a tail
+
+# Path of the Tailfighter
 <div class="featuresTable">
 
 #### Path Features
@@ -1389,8 +1405,10 @@ You can use your tail to make opportunity attacks. If you hit and the target is 
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-pathOfTheSkinchanger">Restricted to characters who can change shape naturally</a></h2>
-<h1>Path of the Skinchanger</h1>
+
+## Restricted to characters who can change shape naturally
+
+# Path of the Skinchanger
 <div class="featuresTable">
 
 #### Path features
@@ -1456,8 +1474,10 @@ You can cast the *enhance ability* spell (targeting yourself only) at will. In a
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-pathOfTheBattlerager">Restricted to Dwarf characters</a></h2>
-<h1>Path of the Battle Rager</h1>
+
+## Restricted to Dwarf characters
+
+# Path of the Battle Rager
 <div class="featuresTable">
 
 #### Path Features
@@ -1512,8 +1532,10 @@ When an adjacent creature hits you with a melee attack, the attacker takes 3 pie
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-pathOfTheQuakeBringer">Restricted to Dwarf & Earth Genasi characters</a></h2>
-<h1>Path of the Quake Bringer</h1>
+
+## Restricted to Dwarf & Earth Genasi characters
+
+# Path of the Quake Bringer
 <div class="featuresTable">
 
 #### Path Features
@@ -1565,8 +1587,10 @@ Once you use this feature, you can't use it again until you finish a short rest.
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-pathOfTheBlighted">Restricted to Floran characters</a></h2>
-<h1>Path of the Blighted</h1>
+
+## Restricted to Floran characters
+
+# Path of the Blighted
 <div class="featuresTable">
 
 #### Path Features
@@ -1604,8 +1628,10 @@ Whenever you take damage from an adjacent creature, you can use your ***reaction
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-eyeOfGruumsh">Restricted to Orc & Half-Orc characters</a></h2>
-<h1>Eye of Gruumsh</h1>
+
+## Restricted to Orc & Half-Orc characters
+
+# Eye of Gruumsh
 <div class="featuresTable">
 
 #### Path Features
@@ -1651,8 +1677,10 @@ You can instead spend 5 Fury to use this feature, if the target is an elf.
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-pathOfTheTrophyHunter">Restricted to Lizardfolk characters</a></h2>
-<h1>Path of the Trophy Hunter</h1>
+
+## Restricted to Lizardfolk characters
+
+# Path of the Trophy Hunter
 <div class="featuresTable">
 
 #### Path  Features

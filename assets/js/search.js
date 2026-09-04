@@ -216,67 +216,6 @@ function parseCSVLine(line) {
   }
 
 
-// Load and parse skills from skills page
-function loadSkills() {
-  fetch(basePath + '/RulesCharacter/skills.html')
-    .then(response => response.text())
-    .then(html => {
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(html, 'text/html');
-      const summaries = doc.querySelectorAll('details > summary');
-
-      summaries.forEach(summary => {
-        const skillName = summary.textContent.trim().replace(/\s*\(.*?\)\s*/g, ''); // Remove traits/untrained markers
-        const skillId = skillName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-        const fullText = summary.textContent.trim();
-
-        // Get description from the details content
-        const details = summary.parentElement;
-        const description = details.textContent.substring(0, 300).trim();
-
-        searchData.push({
-          title: fullText,
-          url: basePath + '/RulesCharacter/skills.html#skill-' + skillId,
-          collection: 'skills',
-          content: description
-        });
-      });
-
-      console.log('Loaded ' + searchData.filter(item => item.collection === 'skills').length + ' skills for search');
-    })
-    .catch(error => console.info('Skills not loaded for search'));
-}
-
-// Load and parse combat skills
-function loadCombatSkills() {
-  fetch(basePath + '/RulesCharacter/skills_combat.html')
-    .then(response => response.text())
-    .then(html => {
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(html, 'text/html');
-      const summaries = doc.querySelectorAll('details > summary');
-
-      summaries.forEach(summary => {
-        const skillName = summary.textContent.trim();
-        const skillId = skillName.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-
-        // Get description from the details content
-        const details = summary.parentElement;
-        const description = details.textContent.substring(0, 300).trim();
-
-        searchData.push({
-          title: skillName,
-          url: basePath + '/RulesCharacter/skills_combat.html#skill-' + skillId,
-          collection: 'combat skills',
-          content: description
-        });
-      });
-
-      console.log('Loaded ' + searchData.filter(item => item.collection === 'combat skills').length + ' combat skills for search');
-    })
-    .catch(error => console.info('Combat skills not loaded for search'));
-}
-
 // Load and parse familiars
 function loadFamiliars() {
   fetch(basePath + '/RulesMagic/familiars.html')
@@ -330,7 +269,13 @@ function performSearch(query) {
   const seenUrls = new Set();
 
   searchData.forEach(item => {
-    const titleLower = item.title.toLowerCase();
+    // Titles built from nested headings look like "Parent \u2192 Child \u2192 Hit" -
+    // only the hit's own text should count as a title match. Matching against
+    // the ancestor breadcrumb alone would return unrelated entries just
+    // because a distant parent heading happens to contain the search term.
+    const titleParts = item.title.split(' \u2192 ');
+    const hitTitle = titleParts[titleParts.length - 1];
+    const titleLower = hitTitle.toLowerCase();
     const contentLower = item.content.toLowerCase();
 
     let score = 0;
@@ -347,7 +292,7 @@ function performSearch(query) {
 
         // Extract the actual matched word
         const matchedWord = extractMatchedWord(
-          titleMatch ? item.title : item.content,
+          titleMatch ? hitTitle : item.content,
           term
         );
         if (matchedWord && !matchedWords.includes(matchedWord)) {
@@ -419,10 +364,20 @@ function displayResults(results) {
       }
     }
 
+    // Titles built from nested headings look like "Parent \u2192 Child \u2192 Hit" -
+    // show the actual hit as the normal-weight text, with its ancestry as a
+    // smaller breadcrumb after it, instead of one long undifferentiated string.
+    const parts = result.title.split(' \u2192 ');
+    const hit = parts[parts.length - 1];
+    const breadcrumb = parts.length > 1
+      ? ` <span class="search-result-breadcrumb">${parts.slice(0, -1).join(' \u2192 ')}</span>`
+      : '';
+
     return `
     <a href="${result.url}" class="search-result-item">
-      <span class="search-result-collection">[${result.collection}]</span>
-      <span class="search-result-title">${result.title}${matchInfo}</span>
+    <span class="search-result-title">${hit}</span><br/>
+    <span class="search-result-collection">[${result.collection}]</span>
+    <span class="search-result-title">${breadcrumb}</span> <!-- ${matchInfo} -->
     </a>
   `;
   }).join('');

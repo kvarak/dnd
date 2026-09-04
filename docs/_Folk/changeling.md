@@ -5,8 +5,9 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### <a href="#internal-Traits">Traits</a><br/>
-##### <a href="#internal-ClassOptions">Class Options</a>
+##### <a href="#traits">Traits</a><br/>
+
+##### <a href="#class-options">Class Options</a>
 </div>
 
 
@@ -24,7 +25,7 @@ Due to their chaotic nature, they change their moods as often as they change the
 Changelings feel a need to search something their whole life. This longing drives them, whether they seek their true self, a place they can belong, or their ancestor. When a changeling takes up adventuring, it might be to fulfill its need. Some get distracted on the way by the fame and fortune, but sooner or later their desire will resurface.
 
 
-<h3><a class="internal-link" name="internal-Traits">Traits</a></h3>
+### Traits
 
 As a changeling you get a some traits that you share with the others of your kind.
 
@@ -44,7 +45,7 @@ As a changeling you get a some traits that you share with the others of your kin
 
 </div>
 
-<h3><a class="internal-link" name="internal-ClassOptions">Class Options</a></h3>
+### Class Options
 
 Psychologically a changeling is very similar to a human, and have the same class options as humans with the following addition:
 

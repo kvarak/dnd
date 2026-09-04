@@ -330,7 +330,7 @@ Aasimar approach some classes is a bit different than other races. When you sele
 
     You make this choice at level 1 and it cannot be changed later.
 
-    In addition you have access to the <a href="../Classes/fighter.html#internal-celestialKnight">Celestial Knight</a> archetype.
+    In addition you have access to the <a href="../Classes/fighter.html#restricted-to-aasimar-characters">Celestial Knight</a> archetype.
 
     <hr class="dividerinfolk">
 

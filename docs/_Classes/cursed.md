@@ -6,15 +6,15 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### [Cursed Forms](#internal-cursed-forms)
-<a href="#internal-alchemicalCurse">Alchemical Curse</a><br/>
-<a href="#internal-chosen">Chosen</a><br/>
-<a href="#internal-curseFromBeyond">Curse from Beyond</a><br/>
-<a href="#internal-demonicPossession">Demonic Possession</a><br/>
-<a href="#internal-entropicRift">Entropic Rift</a><br/>
-<a href="#internal-lycanthropicCurse">Lycanthropic Curse</a><br/>
-<a href="#internal-molded">Molded</a><br/>
-<a href="#internal-sealedDragon">Sealed Dragon</a><br/>
-<a href="#internal-shadowcursed">Shadowcursed</a><br/>
+<a href="#alchemical-curse">Alchemical Curse</a><br/>
+<a href="#chosen">Chosen</a><br/>
+<a href="#curse-from-beyond">Curse from Beyond</a><br/>
+<a href="#demonic-possession">Demonic Possession</a><br/>
+<a href="#entropic-rift">Entropic Rift</a><br/>
+<a href="#lycanthropic-curse">Lycanthropic Curse</a><br/>
+<a href="#molded">Molded</a><br/>
+<a href="#sealed-dragon">Sealed Dragon</a><br/>
+<a href="#shadowcursed">Shadowcursed</a><br/>
 
 </div>
 
@@ -180,6 +180,7 @@ If you fail such a saving throw, make a Wisdom save with a DC equal to 10 + half
 If the duration of the triggering effect still remains when the transformation ends, you are still affected by it.
 
 <!--
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores by 1. You can’t increase an ability score above 20 using this feature.
 -->
@@ -225,26 +226,27 @@ At 1st level, chooses the curse that shapes your other form. Your choice grants 
 
 - **<a href="#internal-alchemical">Alchemical Curse</a>** - Your repressed rage, your primal urges, or the darkness that you try to hide has taken on a personality of its own through dark alchemical experiments.
 
-- **<a href="#internal-chosen">Chosen</a>** - Your mortal body has been inhabited by a celestial creature, like an angel. Most people say that it’s a blessing, that you are chosen and that you should feel honored. But no one asked you. Your body was just taken into possession without your consent. To you this is a curse.
+- **<a href="#chosen">Chosen</a>** - Your mortal body has been inhabited by a celestial creature, like an angel. Most people say that it’s a blessing, that you are chosen and that you should feel honored. But no one asked you. Your body was just taken into possession without your consent. To you this is a curse.
 
 - **<a href="#internal-beyond">Curse from Beyond</a>** - They say that when gazing into the abyss, the abyss gazes into you. Your interest into the Far Realm, the space beyond reality, was what caused this. Your experimentation with the arcane, with summoning circles, astronomy and mind expanding drugs made your mind an easy target. Something came through; something mysterious whose nature is utterly foreign to the fabric of reality, maybe even a sliver of an Elder god. Whatever it was, its motives are incomprehensible to mortals.
 
 - **<a href="#internal-demonic">Demonic Possession</a>** - Maybe a summoning went wrong, maybe a cursed item was inhabited by the demonic creature, or maybe you even did this voluntarily to try wrest the powers from a fiend. Now you share your body with a demon, a creature bent on mayhem and destruction
 
-- **<a href="#internal-entropicRift">Entropic Rift</a>** - Your cursed form is not a creature at all. By some cosmic happenstance, an improbable space-time collision or maybe because of a simple wild surge, a piece on entropy now resides in you.
+- **<a href="#entropic-rift">Entropic Rift</a>** - Your cursed form is not a creature at all. By some cosmic happenstance, an improbable space-time collision or maybe because of a simple wild surge, a piece on entropy now resides in you.
 
 - **<a href="#internal-lycanthropic">Lycanthropic Curse</a>** - You are filled with animalistic fury and cursed with lycanthropy that changes you into a beast when the full moon hangs high in the sky.
 
-- **<a href="#internal-molded">Molded</a>** - You have been infected with an intelligent ooze, which has slowly made you loose your cohesion.
+- **<a href="#molded">Molded</a>** - You have been infected with an intelligent ooze, which has slowly made you loose your cohesion.
 
-- **<a href="#internal-sealedDragon">Sealed Dragon</a>** - The sealed dragon curse is not like the others. The cursed form is your original form, and you have been sealed away inside an inferior human body. At times you can release a fraction of your previous might, but mostly you are trapped.
+- **<a href="#sealed-dragon">Sealed Dragon</a>** - The sealed dragon curse is not like the others. The cursed form is your original form, and you have been sealed away inside an inferior human body. At times you can release a fraction of your previous might, but mostly you are trapped.
 
-- **<a href="#internal-shadowcursed">Shadowcursed</a>** - You have a constant shadowy presence following you; a spirit, a ghost or a shadow. It could be a vengeful relative’s spirit, the remaining vestige of forgotten deity, a tainted totem spirit, or the remnant of a ghostly sentience that once dwelt in a cursed house but has instead moved onto you.
+- **<a href="#shadowcursed">Shadowcursed</a>** - You have a constant shadowy presence following you; a spirit, a ghost or a shadow. It could be a vengeful relative’s spirit, the remaining vestige of forgotten deity, a tainted totem spirit, or the remnant of a ghostly sentience that once dwelt in a cursed house but has instead moved onto you.
 
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-alchemicalCurse">Alchemical Curse</a></h1>
+
+# Alchemical Curse
 <div class="featuresTable">
 
 #### Features
@@ -329,7 +331,8 @@ You can shove a creature up to one size larger than you, but only directly forwa
 Your raging Cursed form can shrug off effects that would stop normal mortals in their tracks. You have advantage on Constitution and Strength saving throws in that form.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-chosen">Chosen</a></h1>
+
+# Chosen
 <div class="featuresTable">
 
 #### Features
@@ -379,7 +382,8 @@ You can unleash judgement on all creatures with 60 ft radius once per transforma
 You have advantage on saving throws against spells and other magical effects in both your forms.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-curseFromBeyond">Curse from Beyond</a></h1>
+
+# Curse from Beyond
 <div class="featuresTable">
 
 #### Features
@@ -492,7 +496,8 @@ When a creature deals piercing, or slashing damage to you, each adjacent creatur
 Your Cursed form has a stinger, bite attack, a hooked tentacle or some other way to inject venom. Whenever you take the Attack action, you can make an attack with this weapon as a bonus action, dealing 1d8 + Constitution modifier poison damage. This counts as a magical venom.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-demonicPossession">Demonic Possession</a></h1>
+
+# Demonic Possession
 <div class="featuresTable">
 
 #### Features
@@ -601,7 +606,8 @@ A target affected by one of the conditions cannot be affected by that particular
  If one or more beasts or humanoids that are Small or Medium dies from the spores, you can use your reaction to animate them, causing them to stand up immediately with 1 hit point. The creatures use the zombie statistics and remains animate for as long you have your Demonic form, after which time they collapse and die. The maximum number of creatures you can animate is equal to your Cursed level.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-entropicRift">Entropic Rift</a></h1>
+
+# Entropic Rift
 <div class="featuresTable">
 
 #### Features
@@ -701,7 +707,8 @@ All creatures within a 30 ft radius must make a Charisma saving throw. If they f
 You can use this feature once and you can recover the use when you finish a long rest.
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-lycanthropicCurse">Lycanthropic Curse</a></h1>
+
+# Lycanthropic Curse
 <div class="featuresTable">
 
 #### Features
@@ -846,7 +853,8 @@ In addition, whenever you attack a creature frightened by you (in any form), you
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-molded">Molded</a></h1>
+
+# Molded
 <div class="featuresTable">
 
 #### Features
@@ -1093,7 +1101,8 @@ Gray Ooze, Lesser
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-sealedDragon">Sealed Dragon</a></h1>
+
+# Sealed Dragon
 <div class="featuresTable">
 
 #### Features
@@ -1172,7 +1181,8 @@ Even closer to your release final release, your abilities strengthen.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-shadowcursed">Shadowcursed</a></h1>
+
+# Shadowcursed
 <div class="featuresTable">
 
 #### Features

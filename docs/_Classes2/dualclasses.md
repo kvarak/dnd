@@ -16,15 +16,16 @@ When a feature refers to your dual class level, this is the sum of the the two c
 ##### Class combinations
 |            | Barbarian  | Bard | Druid | Fighter |
 |:-----------|:----------:|:----:|:-----:|:-----:|
-| **Barbarian** | - | <a href="#internal-bardbarian">Bardbarian</a> | <a href="#internal-cataclysm">Cataclysm</a> | - |
-| **Bard**      | <a href="#internal-bardbarian">Bardbarian</a> | - | - | <a href="#internal-bannerlord">Bannerlord</a><br><a href="#internal-gladiator">Gladiator</a> |
-| **Druid**      | <a href="#internal-cataclysm">Cataclysm</a> | - | - | - |
-| **Fighter**      | - | <a href="#internal-bannerlord">Bannerlord</a><br><a href="#internal-gladiator">Gladiator</a> | - | - |
+| **Barbarian** | - | <a href="#bardbarian">Bardbarian</a> | <a href="#cataclysm">Cataclysm</a> | - |
+| **Bard**      | <a href="#bardbarian">Bardbarian</a> | - | - | <a href="#bannerlord">Bannerlord</a><br><a href="#gladiator">Gladiator</a> |
+| **Druid**      | <a href="#cataclysm">Cataclysm</a> | - | - | - |
+| **Fighter**      | - | <a href="#bannerlord">Bannerlord</a><br><a href="#gladiator">Gladiator</a> | - | - |
 
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-bardbarian">Bardbarian </a></h1>
+
+# Bardbarian
 <div class="featuresTable">
 
 #### Dual Class Features
@@ -90,7 +91,8 @@ The sound of your mighty blows sends a shockwave bursting through other targets.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-bannerlord">Bannerlord </a></h1>
+
+# Bannerlord
 <div class="featuresTable">
 
 #### Dual Class Features
@@ -151,7 +153,8 @@ Starting at 18th level, when you persevere and access the well of strength hidde
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-cataclysm">Cataclysm </a></h1>
+
+# Cataclysm
 <div class="featuresTable">
 
 #### Dual Class Features
@@ -216,7 +219,8 @@ You can channel your druidic magic to mend the wounds of yourself and your allie
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-gladiator">Gladiator</a></h1>
+
+# Gladiator
 <div class="featuresTable">
 
 #### Dual Class Features

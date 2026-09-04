@@ -5,19 +5,19 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### <a href="#internal-Aarakocra">Aarakocra</a>
-<a href="#internal-aarakocraTrait">Traits</a><br/>
+##### <a href="#aarakocra">Aarakocra</a>
+<a href="#aarakocra-traits">Traits</a><br/>
 
-##### <a href="#internal-Kenku">Kenku</a>
-<a href="#internal-kenkuTrait">Traits</a><br/>
+##### <a href="#kenku-tengu">Kenku</a>
+<a href="#kenku-traits">Traits</a><br/>
 
-##### <a href="#internal-class">Birdfolk Class Options</a>
+##### <a href="#birdfolk-class-options">Birdfolk Class Options</a>
 </div>
 
 *There are several types of birdfolk in the world. Even though they are technically different races, they are grouped together here. Many traits are common to all birdfolk, but for ease, all are listed under each race.*
 
 
-<h1><a class="internal-link" name="internal-Aarakocra">Aarakocra</a></h1>
+# Aarakocra
 
 Sequestered in high mountains atop tall trees, the aarakocra evoke fear and wonder. Many aarakocra aren't even native to the Material Plane. They hail from a world beyond—from the boundless vistas of the Elemental Plane of Air. They are immigrants, refugees, scouts, and explorers, their outposts functioning as footholds in a world both strange and alien.
 
@@ -61,7 +61,7 @@ As with much of their speech, aarakocra names include clicks, trills, and whistl
 
 An aarakocra of either gender may have one of these short names: Aera, Aial, Aur, Deekek, Errk, Heehk, Ikki, Kleeck, Oorr, Ouss, Quaf, Quierk, Salleek, Urreek, or Zeed.
 
-<h3><a class="internal-link" name="internal-aarakocraTrait">Aarakocra traits</a></h3>
+### Aarakocra traits
 
 As an aarakocra, you have certain traits in common with your people. Being able to fly at high speed starting at 1st level is exceptionally effective in certain circumstances and exceedingly dangerous in others. As a result, playing an aarakocra requires special consideration by your DM.
 
@@ -87,7 +87,8 @@ As an aarakocra, you have certain traits in common with your people. Being able 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-Kenku">Kenku (Tengu)</a></h1>
+
+# Kenku (Tengu)
 
 Haunted by an ancient crime that robbed them of their wings, the kenku wander the world as vagabonds and burglars who live at the edge of human society. Kenku suffer from a sinister reputation that is not wholly unearned, but they can prove to be valuable allies. They are called Tengu in Oriental settings.
 
@@ -139,7 +140,7 @@ Non-kenku use names that refer to the sound made or the animal a kenku mimics, s
 Some kenku turn their back on crime to pursue legitimate trades. These kenku adopt noises made as part of their craft. A sailor duplicates the sound of a fluttering sail, while a smith mimics the clanging of a hammer on metal. Non-kenku describe these folk by their trade sounds, such as Sail Snap, Hammerer, and Cutter.
 
 
-<h3><a class="internal-link" name="internal-kenkuTrait">Kenku traits</a></h3>
+### Kenku traits
 
 As a kenku you get a some traits that you share with the others of your kind.
 
@@ -176,7 +177,8 @@ You might say, "Snapper makes the noise of a hammer slowly and rhythmically tapp
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-class">Birdfolk Class Options</a></h1>
+
+# Birdfolk Class Options
 
 Birdfolk approach some classes a bit differently than that of other races. When you select one of these classes, it is modified as follows:
 

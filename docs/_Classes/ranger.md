@@ -105,7 +105,7 @@ You start with the following equipment, in addition to the equipment granted by 
 * *(a)* a dungeoneer’s pack or *(b)* an explorer’s pack
 * A longbow and a quiver of 20 arrows
 
-### Hunter's Edge 
+### Hunter's Edge
 The wild teaches harsh lessons to those who endure it. These lessons become a Hunter's Edge: a perfected instinct, a predatory trick, or a hard-won skill that sets you apart from lesser rangers. Each Edge embodies a different path to mastery, shaped by experience, cunning, and the call of the wild.
 
 At 1st level, you gain two Hunter's Edges of your choice. You gain an additional Hunter's Edge at every odd ranger level thereafter. When you gain a Hunter's Edge, you may select any Edge for which you meet the prerequisites.
@@ -154,7 +154,7 @@ You are particularly familiar with the natural world, adept at traveling and sur
     You may roll with advantage when attempting to cook a simple meal with basic or improvised ingredients.
 
 - #### Master of Your Environment
-	When you benefit from at least half cover, you also gain an additional +1 bonus to your AC and Dexterity saving throws. When you create cover, you extend this bonus to any creature who benefits from the cover. 
+	When you benefit from at least half cover, you also gain an additional +1 bonus to your AC and Dexterity saving throws. When you create cover, you extend this bonus to any creature who benefits from the cover.
 
 - #### Natural Sense of Direction
     When travelling outside, you may make navigation checks as if you had a map and compass.
@@ -234,9 +234,9 @@ At 8th level you can choose one of the following options:
 
 - #### Tireless
 	As an ***action***, you can give yourself a number of temporary hit points equal to your Edge Die + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest.
-	
+
 	In addition, whenever you finish a long rest, you can always reduce your exhaustion level by 1.
-	
+
 </div>
 
 ### Hide in Plain Sight
@@ -760,9 +760,9 @@ At the start of your first turn of each combat, your speed increases by 10 ft un
 
 ### Umbral Quarry
  You learn to hunt creatures through the darkness itself. As a ***bonus action**, choose one creature you can see within 90 ft. The creature becomes your Umbral Quarry for 1 hour.
- 
- Once on each of your turns when you hit your quarry with a weapon attack, you deal additional necrotic damage equal to your Edge Die. In addition, the quarry's speed is reduced by 10 ft until the start of your next turn, as tendrils of shadow manifest to hinder their movement. 
- 
+
+ Once on each of your turns when you hit your quarry with a weapon attack, you deal additional necrotic damage equal to your Edge Die. In addition, the quarry's speed is reduced by 10 ft until the start of your next turn, as tendrils of shadow manifest to hinder their movement.
+
  You can designate a quarry a number of times equal to your proficiency bonus, regaining all uses when you finish a long rest.
 
 ### Extra Attack
@@ -818,7 +818,7 @@ It is assumed that your mixtures are created from ingredients foraged or gathere
 
 - **Restorative Draught**. This draught takes an ***action*** to drink or administer to another creature. Creatures that drink this draught is cured of either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned. This draught has no effect on undead or constructs.
 
-- **Quick Coating**. As a ***bonus action*** on your turn, you can coat one melee weapon or up to five pieces of ammunition with a virulent toxin. The coating loses its potency at the end of your next turn. The next creature hit by a coated weapon must succeed on a Constitution saving throw against your Edge save DC or become poisoned by the toxin. At the start of each of the poisoned creature's turns, it takes poison damage equal to your Edge Die. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on a success. 
+- **Quick Coating**. As a ***bonus action*** on your turn, you can coat one melee weapon or up to five pieces of ammunition with a virulent toxin. The coating loses its potency at the end of your next turn. The next creature hit by a coated weapon must succeed on a Constitution saving throw against your Edge save DC or become poisoned by the toxin. At the start of each of the poisoned creature's turns, it takes poison damage equal to your Edge Die. At the end of each of its turns, the creature can repeat the saving throw, ending the effect on a success.
 
 - **Poison Bomb**. As an ***action***, you can throw this flask to a point up to 20 ft from you, shattering it on impact, releasing a small cloud of poison that disperses quickly. Each creature in a 5-foot-radius sphere centered on the point of impact must make a Constitution saving throw or take poison damage equal to your Edge Die, and become poisoned for one minute. The creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success. Holding one's breath is ineffective against the poison, as it affects the nasal membranes, tear ducts, and other parts of the body.
 
@@ -841,13 +841,13 @@ If you hit a poisoned target, you deal extra damage equal to your Edge Die.
 You can rapidly improvise mixtures from ingredients on hand. As a bonus action, you may expend one Edge Die to create a mixture you know and immediately use it as part of the same action. The mixture lasts until the end of your current turn. In addition, during a long rest you prepare additional mixtures equal to your Wisdom modifier.
 
 ### Master Alchemist
-You have learned to push your concoctions beyond their intended limits. Whenever you use one of your mixtures, you may expend an Edge Die to enhance it. Choose one: 
+You have learned to push your concoctions beyond their intended limits. Whenever you use one of your mixtures, you may expend an Edge Die to enhance it. Choose one:
 
 - Roll the mixture's healing or damage dice twice.
 
-- Increase the affected area's radius by 5 ft. 
+- Increase the affected area's radius by 5 ft.
 
-- Impose disadvantage on the first saving throw caused by the mixture. 
+- Impose disadvantage on the first saving throw caused by the mixture.
 
 - Affect one additional creature within 10 ft of the original target.
 
@@ -1240,7 +1240,7 @@ The Banshee conclave can only be taken by an awakened **bound spirit**.
 ### Dreadful Visage
 You specialize in hunting the cowardly. You can use a ***bonus action*** to transform your face into a terrible countenance for a split second. Choose one creature within 30 ft that can see you. The sight of you forces that creature to make a Wisdom saving throw against your Edge save DC. If it fails, it is frightened of you for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature has disadvantage on saving throws against this feature if one or more creatures within 30 of it are also frightened of you.
 
-If a creature's saving throw is successful or the effect ends for it, the creature is immune to the your Dreadful Visage for the next 24 hours. 
+If a creature's saving throw is successful or the effect ends for it, the creature is immune to the your Dreadful Visage for the next 24 hours.
 
 ### Phaseblade
 Your ghostly nature transforms your weapons. Once per turn when you make a weapon attack a frightened target, you can phase your weapon or ammunition through it. This attack deals your choice of cold, necrotic, or psychic damage, and deals extra damage equal to your Edge Die.
@@ -1329,7 +1329,7 @@ Some of the items here are also in the Player's Handbook, but these versions are
 
 - **Oil Fountain**. As an ***action***, you can place this small metal cube attached to a pressure plate on the ground. The first creature that steps on the plate must succeed on a Dexterity saving throw or be sprayed with a highly volatile substance. If the creature takes fire or lightning damage before the substance evaporates at the start of its next turn, it takes 1 Edge Die fire damage and must succeed on a Wisdom save to withstand the shock of being lit on fire. If it fails, it must use its reaction to move its movement speed in a random direction.
 
-- **Portable Ice**. As an ***action***, you can spread a single bag of these compressed ice pellets to cover a 5 ft square area. The first creature that enters the area triggers the pellets, making them expand rapidly, forming a 20 ft tall ice pillar that immediately shatters. Any Large or smaller creatures in the area must succeed on a Dexterity saving throw or be lifted by the pillar. Tiny creatures don't trigger the pellets. 
+- **Portable Ice**. As an ***action***, you can spread a single bag of these compressed ice pellets to cover a 5 ft square area. The first creature that enters the area triggers the pellets, making them expand rapidly, forming a 20 ft tall ice pillar that immediately shatters. Any Large or smaller creatures in the area must succeed on a Dexterity saving throw or be lifted by the pillar. Tiny creatures don't trigger the pellets.
 
     &nbsp;&nbsp;&nbsp;&nbsp;-- **Special**. If you are prepared for the effect, you can ready an action to jump of the pillar when reaching a sufficient height, effectively acting lika an elevator.
 
@@ -1549,7 +1549,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 	Once you use this Edge, you can't use it again until you complete a long rest.
 
 	As your bond with elemental fire deepens, its power surrounds and protects you. At ***5th level***, while this Edge is active, you gain resistance to fire damage.
-	
+
 	At ***9th level***, while this Edge is active, receiving fire damage does not break your concentration. In addition, any willing creature touching you gains the same resistance until the contact ends.
 
 	At ***13th level***, creatures that take fire damage from your attacks can't benefit from being invisible until the start of your next turn.
@@ -1608,7 +1608,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	At ***5th level***, a veil of primal concealment surrounds you and your companions. While the Edge is active, each creature of your choice within 30 ft of you gains a +10 bonus to Stealth checks, can't be tracked except by magical means, and leaves behind no tracks or other traces of its passage.
 
-	At ***9th level***, the veil obscures those it protects from supernatural pursuit. Creatures affected by this Edge can't be targeted by divination magic or perceived through magical scrying sensors. 
+	At ***9th level***, the veil obscures those it protects from supernatural pursuit. Creatures affected by this Edge can't be targeted by divination magic or perceived through magical scrying sensors.
 
 	At ***13th level***, creatures affected by this Edge also have advantage on Stealth checks.
 
@@ -1674,7 +1674,7 @@ If an Edge has prerequisites, you must meet them to learn it. You can learn the 
 
 	*Prerequisite: Nature skill*
 
-	The dead should rest, and the wise ranger knows that when they do not, something has gone terribly wrong. 
+	The dead should rest, and the wise ranger knows that when they do not, something has gone terribly wrong.
 
 	As an ***action***, you can perform a brief rite over a corpse or burial site. For the next 24 hours, you know if an undead creature comes within 30 ft of the warded remains. In addition, you have advantage on checks made to identify, track, or detect undead creatures and signs of their presence.
 

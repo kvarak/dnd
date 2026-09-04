@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
-# Extract skills, combat skills, and familiars for search index
+# Extracts searchable content for the site's search index: every markdown
+# heading (generic), plus skills/familiars which aren't heading-shaped
+# (accordion, stat-block table - see tools/README.md). Table row data
+# (e.g. deity tables) is intentionally not indexed.
 # Follows core principle: Reduce complexity (simple regex parsing)
 
 require 'yaml'
@@ -35,8 +38,16 @@ def extract_skills_recursive(content, collection_name, skills, parent_name)
     summary_end = content.index('</summary>', detail_start)
     break unless summary_end
 
-    # Extract skill name from summary
-    skill_name = content[detail_start + 18...summary_end].strip
+    # Extract skill name from summary. Some summaries span multiple lines
+    # (e.g. a trait note like "&nbsp;&nbsp; *Background trait*" on its own
+    # line) - collapse to a single line and drop HTML entities so the id we
+    # compute matches what the browser computes from the rendered DOM
+    # (entities like "&nbsp;" decode to a stripped whitespace char there,
+    # not literal "nbsp" text as raw source would otherwise leave behind).
+    skill_name = content[detail_start + 18...summary_end]
+                   .gsub(/&\w+;/, ' ')
+                   .gsub(/\s+/, ' ')
+                   .strip
 
     # Clean skill name (remove trait markers, etc)
     clean_name = skill_name.gsub(/\s*\([^)]*\)\s*/, '').strip
@@ -136,153 +147,149 @@ def extract_familiars(file_path)
   familiars
 end
 
-def extract_alchemical_items(file_path)
-  return [] unless File.exist?(file_path)
-
-  content = File.read(file_path)
-  items = []
-
-  # Match markdown headers: -   #### Item Name
-  # Extract item name and following description
-  content.scan(/^-   #### (.+?)$(.+?)(?=^-   ####|\z)/m) do |match|
-    item_name = match[0].strip
-    description_text = match[1]
-
-    # Clean item name and generate anchor ID matching Jekyll's auto-generation
-    # Jekyll removes apostrophes, lowercases, and replaces spaces with hyphens
-    item_anchor = item_name.gsub("'", '')
-                           .gsub(/[^a-zA-Z0-9\s-]/, '')
-                           .strip
-                           .downcase
-                           .gsub(/\s+/, '-')
-
-    # Extract description (first paragraph or up to 300 chars)
-    description = description_text.gsub(/<[^>]+>/, ' ')
-                                  .gsub(/\s+/, ' ')
-                                  .strip[0..299]
-
-    items << {
-      'name' => item_name,
-      'anchor' => item_anchor,
-      'description' => description
-    }
-  end
-
-  items
+# Jekyll's CommonMark renderer auto-generates a clean anchor id for any plain
+# heading (matches: strip apostrophes/punctuation, lowercase, spaces -> hyphens).
+def slugify(text)
+  text.gsub("'", '').gsub(/[^a-zA-Z0-9\s-]/, '').strip.downcase.gsub(/\s+/, '-')
 end
 
-def extract_warlock_patrons(file_path)
-  return [] unless File.exist?(file_path)
+# Matches plain markdown ATX headings only ("#### Name"), optionally nested
+# inside a list item ("-   #### Name"). No special-casing for embedded HTML
+# or links - a heading's visible text is always taken as-is and slugified.
+# Captures the level (group 1, e.g. "###") and the text (group 2).
+HEADING_RE = /^-?\s{0,3}(\#{1,6})(?!\#)[ \t]+(.+?)[ \t]*\#*[ \t]*$/.freeze
 
-  content = File.read(file_path)
-  patrons = []
+# Strips <div class="toc" ...>...</div> blocks, accounting for nested divs.
+# These are navigation aids that just duplicate real headings elsewhere on
+# the page, and must not be indexed as if they were content of their own.
+def strip_toc_divs(content)
+  result = content.dup
 
-  # Match patron anchors: <a name="patron-id">**Patron Name**</a>. Description
-  content.scan(/<a\s+name="([^"]+)"\s*>\*\*([^*]+)\*\*<\/a>\.\s*([^\n]+(?:\n(?!-\s*<a)[^\n]+)*)/m) do |match|
-    anchor_id = match[0].strip
-    patron_name = match[1].strip
-    description_text = match[2].strip
+  loop do
+    open_match = result.match(/<div\s+class="toc"[^>]*>/)
+    break unless open_match
 
-    # Clean and truncate description
-    description = description_text.gsub(/<[^>]+>/, ' ')
-                                  .gsub(/\s+/, ' ')
-                                  .strip[0..299]
+    scan_pos = open_match.end(0)
+    depth = 1
+    while depth > 0
+      next_open = result.index(/<div\b/, scan_pos)
+      next_close = result.index('</div>', scan_pos)
+      break unless next_close # malformed markup - bail out rather than loop forever
 
-    patrons << {
-      'name' => patron_name,
-      'anchor' => anchor_id,
-      'description' => description
-    }
-  end
-
-  patrons
-end
-
-def extract_splinter_religions(file_path)
-  return [] unless File.exist?(file_path)
-
-  content = File.read(file_path)
-  religions = []
-
-  # Match headings: ### <a name="internal-Name">Display Name</a>
-  content.scan(/###\s*<a\s+name="([^"]+)">([^<]+)<\/a>/i) do |match|
-    anchor_name = match[0]
-    religion_name = match[1].strip
-
-    # Find description (first paragraph after heading)
-    section_start = content.index(match[0])
-    next_section = content.index(/###\s*<a\s+name=/, section_start + 1)
-    section_content = if next_section
-                       content[section_start...next_section]
-                     else
-                       content[section_start..-1]
-                     end
-
-    # Extract first meaningful paragraph (skip the heading line)
-    paragraphs = section_content.split("\n\n")
-    description = ''
-    paragraphs.each do |para|
-      # Skip headings, bold section markers, etc
-      next if para.start_with?('###') || para.start_with?('**As a member') || para.start_with?('**As a former')
-
-      cleaned = para.gsub(/<[^>]+>/, ' ')
-                   .gsub(/\s+/, ' ')
-                   .strip
-
-      if cleaned.length > 20
-        description = cleaned[0..299]
-        break
+      if next_open && next_open < next_close
+        depth += 1
+        scan_pos = next_open + 4
+      else
+        depth -= 1
+        scan_pos = next_close + 6
       end
     end
 
-    description = "Splinter religion: #{religion_name}" if description.empty?
-
-    religions << {
-      'name' => religion_name,
-      'anchor' => anchor_name,
-      'description' => description
-    }
+    result = result[0...open_match.begin(0)] + result[scan_pos..-1]
   end
 
-  religions
+  result
 end
 
-def extract_pantheons(file_path, page: nil)
+# Core rule: index every heading as its own searchable entry. This replaces
+# the previous per-content-type regex parsers (one heading shape per file)
+# with a single generic walker that works for any file, at any heading level.
+def extract_doc_headings(file_path, collection)
   return [] unless File.exist?(file_path)
 
-  content = File.read(file_path)
-  deities = []
+  raw = File.read(file_path)
+  front_matter = {}
+  content = raw
+  if (fm_match = raw.match(/\A---\s*\n(.*?)\n---\s*\n/m))
+    front_matter = YAML.safe_load(fm_match[1]) || {}
+    content = raw[fm_match.end(0)..-1]
+  end
 
-  # Extract all table rows with deity information
-  # Pattern: | Deity Name | Alignment | Portfolio | Domains |
-  # Handles indented rows and deity names wrapped in <a href> tags
-  content.scan(/^\s*\|\s*([^|]+?)\s*\|\s*([A-Z]{1,2})\s*\|([^|]+)\|([^|]+)\|/m) do |match|
-    deity_name = match[0].strip.gsub(/<[^>]+>/, '').strip
-    alignment = match[1].strip
-    portfolio_text = match[2].strip
-    domains = match[3].strip
+  page_url = front_matter['permalink'] || "/#{collection}/#{File.basename(file_path, '.md')}.html"
 
-    # Skip header rows and separators
-    next if deity_name =~ /^Deity$/i || deity_name =~ /^[:\-\s]+$/ || deity_name.empty?
+  # Strip HTML comments and TOC navigation blocks - neither should be
+  # indexed: comments never render, and TOC entries just duplicate real
+  # headings that appear later in the same document.
+  content = content.gsub(/<!--.*?-->/m, '')
+  content = strip_toc_divs(content)
+  headings = content.to_enum(:scan, HEADING_RE).map { Regexp.last_match }
 
-    # Generate anchor (deity name, lowercase, no special chars)
-    deity_anchor = deity_name.downcase
-                             .gsub(/[^a-z0-9\s-]/, '')
-                             .gsub(/\s+/, '-')
-                             .strip
+  entries = []
+  # Tracks how many times each auto-slug has been seen so far in this doc -
+  # the renderer disambiguates repeated heading text with "-1", "-2", ...
+  # suffixes (e.g. "Channel Divinity" repeated once per Oath), and our
+  # anchors must match that or duplicate headings all collide on one id.
+  slug_counts = Hash.new(0)
+  # Tracks ancestor headings (level, name) so entries can carry a breadcrumb
+  # ("Abraxas → Patron Invocations") - repeated heading text (e.g. every
+  # patron has its own "Patron Invocations") is otherwise indistinguishable
+  # in search results even once anchors are individually correct.
+  breadcrumb_stack = []
 
-    # Create description from alignment and portfolio
-    description = "#{alignment} deity. #{portfolio_text}. Domains: #{domains[0..100]}"
+  # Initialize breadcrumb stack with the page title from frontmatter as root context
+  # Use level 0 so it's never popped by H1+ headings in the content
+  page_title = front_matter['title'] || File.basename(file_path, '.md')
+  breadcrumb_stack.push([0, page_title])
+
+  headings.each_with_index do |m, idx|
+    level = m[1].length
+    raw_text = m[2]
+
+    # The one necessary exception: a heading wrapping an explicit
+    # <a name="x">Name</a> must use that hand-authored anchor, since other
+    # pages already link to it directly - the renderer does not also give
+    # such a heading its own auto-generated id to fall back on.
+    explicit = raw_text.match(/<a\s+(?:\w+="[^"]*"\s+)*name="([^"]+)"(?:\s+\w+="[^"]*")*\s*>/i)
+    anchor_override = explicit && explicit[1]
+
+    name = raw_text.gsub(/<[^>]+>/, '').strip
+    next if name.empty?
+
+    breadcrumb_stack.pop while breadcrumb_stack.any? && breadcrumb_stack.last[0] >= level
+
+    # Build breadcrumb parts and remove consecutive duplicates
+    # (e.g., "Fighter → Fighter" becomes just "Fighter")
+    breadcrumb_parts = breadcrumb_stack.map { |_, n| n } + [name]
+    deduplicated_breadcrumb = []
+    breadcrumb_parts.each do |part|
+      deduplicated_breadcrumb << part if deduplicated_breadcrumb.empty? || part != deduplicated_breadcrumb.last
+    end
+    display_name = deduplicated_breadcrumb.join(' → ')
+
+    breadcrumb_stack.push([level, name])
+
+    anchor = anchor_override
+    unless anchor
+      base_slug = slugify(name)
+      seen = slug_counts[base_slug]
+      slug_counts[base_slug] = seen + 1
+      anchor = seen.zero? ? base_slug : "#{base_slug}-#{seen}"
+    end
+
+    section_start = m.end(0)
+    section_end = idx + 1 < headings.length ? headings[idx + 1].begin(0) : content.length
+    description = content[section_start...section_end]
+                    .gsub(/<[^>]+>/, ' ')
                     .gsub(/\s+/, ' ')
                     .strip[0..299]
 
-    entry = { 'name' => deity_name, 'anchor' => deity_anchor, 'description' => description }
-    entry['page'] = page if page
-    deities << entry
-
+    entries << { 'name' => display_name, 'anchor' => anchor, 'url' => page_url, 'collection' => collection, 'description' => description }
   end
 
-  deities
+  # Fallback: a page with no headings at all (rare) still gets one whole-page
+  # entry, so nothing becomes silently unsearchable.
+  return entries unless entries.empty?
+
+  whole_page_description = content.gsub(/<[^>]+>/, ' ').gsub(/\s+/, ' ').strip[0..299]
+  return [] if whole_page_description.empty?
+
+  [{
+    'name' => front_matter['title'] || File.basename(file_path, '.md'),
+    'anchor' => '',
+    'url' => page_url,
+    'collection' => collection,
+    'description' => whole_page_description
+  }]
 end
 
 # Extract from markdown files (before Jekyll processing)
@@ -300,124 +307,31 @@ puts "  Found #{combat_skills.length} combat skills"
 familiars = extract_familiars('docs/_RulesMagic/familiars.md')
 puts "  Found #{familiars.length} familiars"
 
-# Extract alchemical items
-alchemical_items = extract_alchemical_items('docs/_RulesEquipment/alchemical.md')
-puts "  Found #{alchemical_items.length} alchemical items"
-
-# Extract herbal items
-herbal_items = extract_alchemical_items('docs/_RulesEquipment/herbal.md')
-puts "  Found #{herbal_items.length} herbal items"
-
-# Extract poisons
-poisons = extract_alchemical_items('docs/_RulesEquipment/poison.md')
-puts "  Found #{poisons.length} poisons"
-
-# Extract warlock patrons
-warlock_patrons = extract_warlock_patrons('docs/_WorldFaith/warlockpatrons.md')
-puts "  Found #{warlock_patrons.length} warlock patrons"
-
-# Extract splinter religions
-splinter_religions = extract_splinter_religions('docs/_WorldFaith/splinter-religions.md')
-puts "  Found #{splinter_religions.length} splinter religions"
-
-# Extract pantheons (deities)
-pantheons = extract_pantheons('docs/_WorldFaith/a_pantheons.md')
-puts "  Found #{pantheons.length} pantheon deities"
-
-# Extract folk-specific deity tables from individual folk files
-folk_pantheons = Dir.glob('docs/_Folk/*.md').flat_map do |folk_file|
-  page = File.basename(folk_file, '.md')
-  extract_pantheons(folk_file, page: page)
+# Index every heading in every doc, across every collection - this single
+# generic pass replaces the old per-content-type heading parsers (alchemical,
+# herbal, poison, splinter religions, old feats) and the whole-page collection
+# loop that used to live in search.json. Skills/combat skills are excluded -
+# they're already indexed above via extract_skills, and their headings live
+# inside collapsed <details> accordion panels, not real page structure, so
+# the generic walker would only add noisy, misleading duplicate entries.
+skills_files = ['docs/_RulesCharacter/skills.md', 'docs/_RulesCharacter/skills_combat.md']
+doc_files = Dir.glob('docs/_*/*.md') - skills_files
+doc_headings = doc_files.flat_map do |file_path|
+  collection = File.basename(File.dirname(file_path)).sub(/\A_/, '')
+  extract_doc_headings(file_path, collection)
 end
-puts "  Found #{folk_pantheons.length} folk-specific deities"
+puts "  Found #{doc_headings.length} heading entries across #{doc_files.length} docs"
 
 # Write to YAML files in _data/
 Dir.mkdir('_data') unless Dir.exist?('_data')
 
-# Extract old feats from legacy content
-def extract_old_feats
-  feats_file = 'docs/__OldRules/feats.md'
-  return [] unless File.exist?(feats_file)
-
-  content = File.read(feats_file)
-  feats = []
-
-  # Pattern matches: -   ### Feat Name
-  # Followed by content until next feat or section
-  content.scan(/-   ### ([^\n]+)\n((?:[^\n]*\n)*?)(?=(?:-   ###|<div class="columnsthree">|##\s|$))/) do |match|
-    feat_name = match[0].strip
-    feat_content = match[1]
-
-    # Skip malformed entries
-    next if feat_name.empty? || feat_name.length < 2
-
-    # Generate anchor from name
-    feat_anchor = feat_name.downcase
-                            .gsub(/[^a-z0-9\s-]/, '')
-                            .gsub(/\s+/, '-')
-                            .strip
-
-    # Extract description (first meaningful non-prerequisite text)
-    description_lines = []
-    feat_content.split("\n").each do |line|
-      line = line.strip
-
-      # Stop at first empty line after we have content
-      if line.empty?
-        break unless description_lines.empty?
-        next
-      end
-
-      # Skip structural elements
-      next if line.include?('<br/>&dash;') || line.include?('*Prerequisite:') || line.include?('<div')
-
-      # Keep descriptive text
-      description_lines << line
-    end
-
-    # Clean and truncate description
-    description = description_lines.join(' ')
-                                   .gsub(/<[^>]+>/, '')  # Remove HTML tags
-                                   .gsub(/\s+/, ' ')     # Normalize whitespace
-                                   .strip[0..299]        # Truncate to 300 chars
-
-    # Only add if we have meaningful content
-    if description && description.length > 10
-      feats << {
-        'name' => feat_name,
-        'anchor' => feat_anchor,
-        'description' => description
-      }
-    end
-  end
-
-  feats
-end
-
-old_feats = extract_old_feats
-puts "  Found #{old_feats.size} old feats"
-
 File.write('_data/searchable_skills.yml', skills.to_yaml)
 File.write('_data/searchable_combat_skills.yml', combat_skills.to_yaml)
 File.write('_data/searchable_familiars.yml', familiars.to_yaml)
-File.write('_data/searchable_alchemical.yml', alchemical_items.to_yaml)
-File.write('_data/searchable_herbal.yml', herbal_items.to_yaml)
-File.write('_data/searchable_poisons.yml', poisons.to_yaml)
-File.write('_data/searchable_old_feats.yml', old_feats.to_yaml)
-File.write('_data/searchable_warlock_patrons.yml', warlock_patrons.to_yaml)
-File.write('_data/searchable_splinter_religions.yml', splinter_religions.to_yaml)
-File.write('_data/searchable_pantheons.yml', pantheons.to_yaml)
-File.write('_data/searchable_folk_pantheons.yml', folk_pantheons.to_yaml)
+File.write('_data/searchable_headings.yml', doc_headings.to_yaml)
 
 puts "✅ Wrote search data to _data/"
 puts "   - searchable_skills.yml"
 puts "   - searchable_combat_skills.yml"
 puts "   - searchable_familiars.yml"
-puts "   - searchable_alchemical.yml"
-puts "   - searchable_herbal.yml"
-puts "   - searchable_poisons.yml"
-puts "   - searchable_old_feats.yml"
-puts "   - searchable_warlock_patrons.yml"
-puts "   - searchable_splinter_religions.yml"
-puts "   - searchable_pantheons.yml"
-puts "   - searchable_folk_pantheons.yml"
+puts "   - searchable_headings.yml"

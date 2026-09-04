@@ -2,17 +2,13 @@
 layout: none
 ---
 [
-{% assign allDocs = "" | split: "" %}
-{% for collection in site.collections %}
-  {% assign allDocs = allDocs | concat: collection.docs %}
-{% endfor %}
-{% for doc in allDocs %}
+{% for entry in site.data.searchable_headings %}
   {
-    "title": {{ doc.title | jsonify }},
-    "url": "{{ site.baseurl }}{{ doc.url }}",
-    "collection": "{{ doc.collection }}",
-    "content": {{ doc.content | strip_html | strip_newlines | truncate: 500 | jsonify }}
-  }{% if forloop.last %}{% if site.data.searchable_skills.size > 0 %},{% endif %}{% else %},{% endif %}
+    "title": {{ entry.name | jsonify }},
+    "url": "{{ site.baseurl }}{{ entry.url }}{% if entry.anchor != '' %}#{{ entry.anchor }}{% endif %}",
+    "collection": {{ entry.collection | jsonify }},
+    "content": {{ entry.description | jsonify }}
+  }{% if forloop.last %}{% if site.data.searchable_skills.size > 0 or site.data.searchable_combat_skills.size > 0 or site.data.searchable_familiars.size > 0 %},{% endif %}{% else %},{% endif %}
 {% endfor %}
 {% if site.data.searchable_skills.size > 0 %}
 {% for skill in site.data.searchable_skills %}
@@ -41,86 +37,6 @@ layout: none
     "url": "{{ site.baseurl }}/RulesMagic/familiars.html#{{ familiar.anchor }}",
     "collection": "familiars",
     "content": {{ familiar.description | jsonify }}
-  }{% if forloop.last %}{% if site.data.searchable_alchemical.size > 0 %},{% endif %}{% else %},{% endif %}
-{% endfor %}
-{% endif %}
-{% if site.data.searchable_alchemical.size > 0 %}
-{% for item in site.data.searchable_alchemical %}
-  {
-    "title": {{ item.name | jsonify }},
-    "url": "{{ site.baseurl }}/RulesEquipment/alchemical.html#{{ item.anchor }}",
-    "collection": "alchemical",
-    "content": {{ item.description | jsonify }}
-  }{% if forloop.last %}{% if site.data.searchable_herbal.size > 0 %},{% endif %}{% else %},{% endif %}
-{% endfor %}
-{% endif %}
-{% if site.data.searchable_herbal.size > 0 %}
-{% for item in site.data.searchable_herbal %}
-  {
-    "title": {{ item.name | jsonify }},
-    "url": "{{ site.baseurl }}/RulesEquipment/herbal.html#{{ item.anchor }}",
-    "collection": "herbal",
-    "content": {{ item.description | jsonify }}
-  }{% if forloop.last %}{% if site.data.searchable_poisons.size > 0 %},{% endif %}{% else %},{% endif %}
-{% endfor %}
-{% endif %}
-{% if site.data.searchable_poisons.size > 0 %}
-{% for poison in site.data.searchable_poisons %}
-  {
-    "title": {{ poison.name | jsonify }},
-    "url": "{{ site.baseurl }}/RulesEquipment/poison.html#{{ poison.anchor }}",
-    "collection": "poisons",
-    "content": {{ poison.description | jsonify }}
-  }{% if forloop.last %}{% if site.data.searchable_old_feats.size > 0 %},{% endif %}{% else %},{% endif %}
-{% endfor %}
-{% endif %}
-{% if site.data.searchable_old_feats.size > 0 %}
-{% for feat in site.data.searchable_old_feats %}
-  {
-    "title": {{ feat.name | jsonify }},
-    "url": "{{ site.baseurl }}/_OldRules/feats.html#{{ feat.anchor }}",
-    "collection": "old-feats",
-    "content": {{ feat.description | jsonify }}
-  }{% if forloop.last %}{% if site.data.searchable_warlock_patrons.size > 0 %},{% endif %}{% else %},{% endif %}
-{% endfor %}
-{% endif %}
-{% if site.data.searchable_warlock_patrons.size > 0 %}
-{% for patron in site.data.searchable_warlock_patrons %}
-  {
-    "title": {{ patron.name | jsonify }},
-    "url": "{{ site.baseurl }}/WorldFaith/warlockpatrons.html#{{ patron.anchor }}",
-    "collection": "warlock-patrons",
-    "content": {{ patron.description | jsonify }}
-  }{% if forloop.last %}{% if site.data.searchable_splinter_religions.size > 0 %},{% endif %}{% else %},{% endif %}
-{% endfor %}
-{% endif %}
-{% if site.data.searchable_splinter_religions.size > 0 %}
-{% for religion in site.data.searchable_splinter_religions %}
-  {
-    "title": {{ religion.name | jsonify }},
-    "url": "{{ site.baseurl }}/WorldFaith/splinter-religions.html#{{ religion.anchor }}",
-    "collection": "splinter-religions",
-    "content": {{ religion.description | jsonify }}
-  }{% if forloop.last %}{% if site.data.searchable_pantheons.size > 0 %},{% endif %}{% else %},{% endif %}
-{% endfor %}
-{% endif %}
-{% if site.data.searchable_pantheons.size > 0 %}
-{% for deity in site.data.searchable_pantheons %}
-  {
-    "title": {{ deity.name | jsonify }},
-    "url": "{{ site.baseurl }}/WorldFaith/a_pantheons.html#{{ deity.anchor }}",
-    "collection": "pantheons",
-    "content": {{ deity.description | jsonify }}
-  }{% if forloop.last %}{% if site.data.searchable_folk_pantheons.size > 0 %},{% endif %}{% else %},{% endif %}
-{% endfor %}
-{% endif %}
-{% if site.data.searchable_folk_pantheons.size > 0 %}
-{% for deity in site.data.searchable_folk_pantheons %}
-  {
-    "title": {{ deity.name | jsonify }},
-    "url": "{{ site.baseurl }}/Folk/{{ deity.page }}.html#{{ deity.anchor }}",
-    "collection": "pantheons",
-    "content": {{ deity.description | jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 {% endif %}

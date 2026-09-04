@@ -9,7 +9,7 @@ layout: default
 <a href="#internal-DragonbornTraits">Traits</a><br>
 <a href="#internal-DragonbornClassOptions">Class Options</a><br>
 
-##### <a href="#internal-kobold">Kobolds</a>
+##### <a href="#kobold">Kobolds</a>
 <a href="#internal-KoboldTraits">Traits</a><br>
 <a href="#internal-KoboldClassOptions">Class Options</a><br>
 
@@ -308,7 +308,8 @@ Dragonfolk approach some classes is a bit differently than other folk. When you 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-kobold">Kobold</a></h1>
+
+# Kobold
 
 Kobolds are often dismissed as cowardly, foolish, and weak, but these little reptilian creatures are clever with their hands, and viciously work together in order to overcome their physical limitations. Kobold are short in stature, despite the draconic blood running in their veins, with the tallest of them barely reaching 3 feet and weighing no more than 35 pounds. Because of their small size, kobold often have to adopt unorthodox means of achieving victory. This usually leads to traps, which kobold are well known for crafting.
 

@@ -5,25 +5,26 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### <a href="#internal-spellbook">Spellbooks</a>
-##### <a href="#internal-traditions">Arcane traditions</a>
-<a href="#internal-masterOfTheUnseenHand">Master of the Unseen Hand</a><br/>
-<a href="#internal-schoolOfAstromancy">School of Astromancy</a><br/>
-<a href="#internal-schoolOfChronomancy">School of Chronomancy</a><br/>
-<a href="#internal-schoolOfAbjuration">School of Abjuration</a><br/>
-<a href="#internal-schoolOfConjuration">School of Conjuration</a><br/>
-<a href="#internal-schoolOfDivination">School of Divination</a><br/>
-<a href="#internal-schoolOfEnchantment">School of Enchantment</a><br/>
-<a href="#internal-schoolOfEvocation">School of Evocation</a><br/>
-<a href="#internal-schoolOfTheFamiliar">School of the Familiar</a><br/>
-<a href="#internal-schoolOfIllusion">School of Illusion</a><br/>
-<a href="#internal-schoolOfNecromancy">School of Necromancy</a><br/>
-<a href="#internal-gravebinder">Gravebinder (School of Necromancy)</a><br/>
-<a href="#internal-schoolOfReawakening">School of Reawakening</a><br/>
-<a href="#internal-schoolOfTransmutation">School of Transmutation</a><br/>
-<a href="#internal-masterTransmogrifist">Master Transmogrifist</a><br/>
-<a href="#internal-scientificTradition">Scientific Tradition</a><br/>
-<a href="#internal-windbringer">Windbringer</a><br/>
+##### <a href="#spellbooks">Spellbooks</a>
+
+##### <a href="#arcane-traditions">Arcane traditions</a>
+<a href="#master-of-the-unseen-hand">Master of the Unseen Hand</a><br/>
+<a href="#school-of-astromancy">School of Astromancy</a><br/>
+<a href="#school-of-chronomancy">School of Chronomancy</a><br/>
+<a href="#school-of-abjuration">School of Abjuration</a><br/>
+<a href="#school-of-conjuration">School of Conjuration</a><br/>
+<a href="#school-of-divination">School of Divination</a><br/>
+<a href="#school-of-enchantment">School of Enchantment</a><br/>
+<a href="#school-of-evocation">School of Evocation</a><br/>
+<a href="#school-of-the-familiar">School of the Familiar</a><br/>
+<a href="#school-of-illusion">School of Illusion</a><br/>
+<a href="#school-of-necromancy">School of Necromancy</a><br/>
+<a href="#gravebinder-school-of-necromancy">Gravebinder (School of Necromancy)</a><br/>
+<a href="#school-of-reawakening">School of Reawakening</a><br/>
+<a href="#school-of-transmutation">School of Transmutation</a><br/>
+<a href="#master-transmogrifist">Master Transmogrifist</a><br/>
+<a href="#scientific-tradition">Scientific Tradition</a><br/>
+<a href="#windbringer">Windbringer</a><br/>
 
 </div>
 
@@ -187,7 +188,7 @@ When you reach 20th level, you gain mastery over two powerful spells and can cas
 When you do so, you can’t do so again until you finish a short rest. If you want to cast either spell at a higher level, you must expend a spell slot as normal.
 
 
-<h2><a class="internal-link" name="internal-spellbook">Spellbooks</a></h2>
+## Spellbooks
 
 No self-respecting wizard is a wizard for long without a spellbook of their very own -  a  priceless tome in which to record spells and arcane knowledge. The spells that you add to your spellbook as you gain levels reflect the arcane research you conduct on your own, as well as intellectual breakthroughs you have had about the nature of the multiverse. You might also find other spells during your adventures.
 
@@ -238,7 +239,7 @@ While every wizard has a spellbook, the spellbooks themselves can range in desig
 | 10 | A collection of crystals, each embedded with spells in the form of mystical etchings, that you keep in a special box or bag.
 
 
-<h2><a class="internal-link" name="internal-traditions">Arcane traditions</a></h2>
+## Arcane traditions
 
 The study of wizardry is ancient, stretching back to the earliest mortal discoveries of magic. It is firmly established in the worlds of D&D, with various traditions dedicated to its complex study.
 
@@ -262,7 +263,7 @@ The most common arcane traditions in the multiverse revolve around the schools o
 
 - **<a href="#internal-necromancy">School of Necromancy</a>** - This school explores the cosmic forces of life, death, and undeath.
 
-- **<a href="#internal-gravebinder">Gravebinder (School of Necromancy)</a>** - A necromancer who uses his knowledge for a different purpose. Sometimes called a white necromancer, they stand as guardians between the living and the dead.
+- **<a href="#gravebinder-school-of-necromancy">Gravebinder (School of Necromancy)</a>** - A necromancer who uses his knowledge for a different purpose. Sometimes called a white necromancer, they stand as guardians between the living and the dead.
 
 - **<a href="#internal-transmutation">School of Transmutation</a>** - You are a student of spells that modify energy and matter.
 
@@ -277,9 +278,9 @@ The most common arcane traditions in the multiverse revolve around the schools o
 
 - **<a href="#internal-reawakening">School of Reawakening</a>** - Member of the school of reawakening combine the forces of necromancy with the power of conjuration.
 
-- **<a href="#internal-scientificTradition">Scientific Tradition</a>** - These academics see magic as a tool to understand the world around them.
+- **<a href="#scientific-tradition">Scientific Tradition</a>** - These academics see magic as a tool to understand the world around them.
 
-- **<a href="#internal-windbringer">Windbringer</a>** - Your studies focus on the primordial might of the winds, harnessing the strength of the sky to aid you.
+- **<a href="#windbringer">Windbringer</a>** - Your studies focus on the primordial might of the winds, harnessing the strength of the sky to aid you.
 
 </div>
 
@@ -287,19 +288,20 @@ The most common arcane traditions in the multiverse revolve around the schools o
 
 <div class="columns">
 
-- **<a href="#internal-masterOfTheUnseenHand">Master of the Unseen Hand</a>** - While some wizards simply use the *mage hand* cantrip, these wizards pride themselves in being experts with it.
+- **<a href="#master-of-the-unseen-hand">Master of the Unseen Hand</a>** - While some wizards simply use the *mage hand* cantrip, these wizards pride themselves in being experts with it.
 
 - **<a href="#internal-astromancy">School of Astromancy</a>** - Astromancy is the magical science of deriving meaning and power from the relationships and movements of celestial bodies such as planets, comets, stars and the sun.
 
 - **<a href="#internal-familiar">School of the Familiar</a>** - Wizards specializing in in this school have learned to channel the mystical nature of their familiars.
 
-- **<a href="#internal-masterTransmogrifist">Master Transmogrifist</a>** - The Master Transmogrifist specializes in altering one's own body as needed with polymorph, and other shapechanging transmutations.
+- **<a href="#master-transmogrifist">Master Transmogrifist</a>** - The Master Transmogrifist specializes in altering one's own body as needed with polymorph, and other shapechanging transmutations.
 
 </div>
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-masterOfTheUnseenHand">Master of the Unseen Hand</a></h1>
+
+# Master of the Unseen Hand
 <div class="featuresTable">
 
 #### Features
@@ -347,7 +349,8 @@ After you use this feature, you cannot use it again until you finish a short res
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfAstromancy">School of Astromancy</a></h1>
+
+# School of Astromancy
 <div class="featuresTable">
 
 #### Features
@@ -523,7 +526,8 @@ You can channel the powers of the constellations through your spell stars. The s
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfAbjuration">School of Abjuration</a></h1>
+
+# School of Abjuration
 <div class="featuresTable">
 
 #### Features
@@ -562,7 +566,8 @@ You have advantage on saving throws against spells. Furthermore, you have resist
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfChronomancy">School of Chronomancy</a></h1>
+
+# School of Chronomancy
 <div class="featuresTable">
 
 #### Features
@@ -614,7 +619,8 @@ There is always some sort of exchange to compensate. When making this change, th
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfConjuration">School of Conjuration</a></h1>
+
+# School of Conjuration
 <div class="featuresTable">
 
 #### Features
@@ -651,7 +657,8 @@ Any creature that you summon or create with a conjuration spell has 30 temporary
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfDivination">School of Divination</a></h1>
+
+# School of Divination
 <div class="featuresTable">
 
 ### Features
@@ -694,7 +701,8 @@ Starting at 14th level, the visions in your dreams intensify and paint a more ac
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfEnchantment">School of Enchantment</a></h1>
+
+# School of Enchantment
 <div class="featuresTable">
 
 #### Features
@@ -735,7 +743,8 @@ Additionally, once before the spell expires, you can use your ***action*** to tr
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfEvocation">School of Evocation</a></h1>
+
+# School of Evocation
 <div class="featuresTable">
 
 ### Features
@@ -790,7 +799,8 @@ The first time you do so, you suffer no adverse effect. If you use this feature 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfTheFamiliar">School of the Familiar</a></h1>
+
+# School of the Familiar
 <div class="featuresTable">
 
 #### Features
@@ -862,7 +872,8 @@ You can have two familiars at any given time changing the normal rules of the *f
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfIllusion">School of Illusion</a></h1>
+
+# School of Illusion
 <div class="featuresTable">
 
 ### Features
@@ -901,7 +912,8 @@ The object can’t deal damage or otherwise directly harm anyone.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfNecromancy">School of Necromancy</a></h1>
+
+# School of Necromancy
 <div class="featuresTable">
 
 #### Features
@@ -977,7 +989,8 @@ Choose one of the options *command undead* or *siphon spirit*.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-gravebinder">Gravebinder (School of Necromancy)</a></h1>
+
+# Gravebinder (School of Necromancy)
 <div class="featuresTable">
 
 #### Features
@@ -1017,7 +1030,8 @@ As an ***action***, you can choose one undead within the area. That creature mus
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfReawakening">School of Reawakening</a></h1>
+
+# School of Reawakening
 <div class="featuresTable">
 
 #### Features
@@ -1054,7 +1068,8 @@ Creatures created through your Soul Reawaken feature lasts for up to 8 hours and
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-schoolOfTransmutation">School of Transmutation</a></h1>
+
+# School of Transmutation
 <div class="featuresTable">
 
 ### Features
@@ -1109,7 +1124,8 @@ You can use your ***action*** to consume the reserve of transmutation magic stor
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-masterTransmogrifist">Master Transmogrifist</a></h1>
+
+# Master Transmogrifist
 <div class="featuresTable">
 
 ### Features
@@ -1158,7 +1174,8 @@ For example, if the base form was a Tyrannosaurus Rex, and the second form was a
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-scientificTradition">Scientific Tradition</a></h1>
+
+# Scientific Tradition
 <div class="featuresTable">
 
 ### Features
@@ -1198,7 +1215,8 @@ After using this feature, you must finish a long rest before using it again.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-windbringer">Windbringer</a></h1>
+
+# Windbringer
 <div class="featuresTable">
 
 ### Features

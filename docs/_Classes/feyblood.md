@@ -5,18 +5,20 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### <a href="#internal-class">Class Features</a>
-##### <a href="#internal-feat">Fey Feats</a>
-##### <a href="#internal-affinity">Fey Affinities</a>
-<a href="#internal-boggartAffinity">Boggart affinity</a><br/>
-<a href="#internal-nereidAffinity">Nereid affinity</a><br/>
-<a href="#internal-oreadAffinity">Oread affinity</a><br/>
-<a href="#internal-pookaAffinity">Pooka affinity</a><br/>
-<a href="#internal-sidheAffinity">Sidhe affinity</a><br/>
-<a href="#internal-sprigAffinity">Sprig affinity</a><br/>
-<a href="#internal-sylphAffinity">Sylph affinity</a><br/>
+##### <a href="#class-features">Class Features</a>
 
-##### <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a><br/>
+##### <a href="#internal-feat">Fey Feats</a>
+
+##### <a href="#internal-affinity">Fey Affinities</a>
+<a href="#the-boggart">Boggart affinity</a><br/>
+<a href="#the-nereid">Nereid affinity</a><br/>
+<a href="#the-oread">Oread affinity</a><br/>
+<a href="#the-pooka">Pooka affinity</a><br/>
+<a href="#the-sidhe">Sidhe affinity</a><br/>
+<a href="#the-sprig">Sprig affinity</a><br/>
+<a href="#the-sylph">Sylph affinity</a><br/>
+
+##### <a href="#feywild-wild-magic"><b>Feywild Wild Magic</b></a><br/>
 
 </div>
 
@@ -64,7 +66,7 @@ Perhaps the most important thing when creating a feyblood is to consider whether
 
 **The Feywild**. Few races native to the material plane manage to collectively eke out a living among the harsh wildernesses of the Feywild. They become populations living out of time, surviving in a plane where the only rule is change or die. Tribes embrace this edict of mutability might evolve affectations of variation in pigmentation, hirsuteness, exaggerated ears, or unusually long fingers. You might even sprout wings as you mature. The Material Plane might be a world of alien wonders to you: perhaps you’ve drunk sweet nectar from a tulip, but never tasted refined sugar. Consider the events that brought you to the Material Plane.
 
-<h2><a class="internal-link" name="internal-class">Class Features</a></h2>
+## Class Features
 
 <div class="block classTable halfClassTable frame" markdown="1">
 
@@ -348,6 +350,7 @@ From 4th level, you can vanish in a puff of mist in response to harm. As a ***re
 You can use this feature once, and regain its use when you finish a long rest.
 
 <!--
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can’t increase an ability score above your racial maximum.
 -->
@@ -383,32 +386,33 @@ Every feyblood is unique: their very natures are shaped by the magic that flows 
 
 <div class="columnsthree">
 
-- #### <a href="#internal-boggartAffinity">Boggart Affinity</a>
+- #### <a href="#the-boggart">Boggart Affinity</a>
     Feyblood shaped by mischevieous fey, like the Boggle, Dau or Leprechaun.
 
-- #### <a href="#internal-nereidAffinity">Nereid Affinity</a>
+- #### <a href="#the-nereid">Nereid Affinity</a>
     Shaped by fey of the waters, like the Nixie or Siren.
 
-- #### <a href="#internal-oreadAffinity">Oread Affinity</a>
+- #### <a href="#the-oread">Oread Affinity</a>
     Feyblood with a strong connection to earth, stone and metals, like the Korred or Stone trolls.
 
-- #### <a href="#internal-pookaAffinity">Pooka Affinity</a>
+- #### <a href="#the-pooka">Pooka Affinity</a>
     Chaotic feyblood affected by wild magic.
 
-- #### <a href="#internal-sidheAffinity">Sidhe Affinity</a>
+- #### <a href="#the-sidhe">Sidhe Affinity</a>
     Pixie touched feyblood.
 
-- #### <a href="#internal-sprigAffinity">Sprig Affinity</a>
+- #### <a href="#the-sprig">Sprig Affinity</a>
     Feyblood whose connection to the Feywild manifests as a closeness to nature, like a Dryad or an awakened plant.
 
-- #### <a href="#internal-sylphAffinity">Sylph Affinity</a>
+- #### <a href="#the-sylph">Sylph Affinity</a>
     Shaped by the influence of the more hedonistic fey, like satyrs, or nymphs.
 
 </div>
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-boggartAffinity">The Boggart</a></h1>
+
+# The Boggart
 <div class="featuresTable">
 
 #### Affinity Features
@@ -575,7 +579,8 @@ Once you use this feature, you can’t use it again until you finish a long rest
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-nereidAffinity">The Nereid</a></h1>
+
+# The Nereid
 <div class="featuresTable">
 
 #### Affinity Features
@@ -685,7 +690,8 @@ You can use this feature a number of times equal to your Spark, and regain expen
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-oreadAffinity">The Oread</a></h1>
+
+# The Oread
 <div class="featuresTable">
 
 #### Affinity Features
@@ -782,7 +788,8 @@ While in a Whimsy, the first creature you hit on each of your turns with your fa
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pookaAffinity">The Pooka</a></h1>
+
+# The Pooka
 <div class="featuresTable">
 
 #### Affinity Features
@@ -829,7 +836,7 @@ They have a reputation as liars and mischief-makers, but this lying is in fact a
 Pookas thrive when in the company of others, and they frequently find companionship in a particular individual whether the camaraderie is wanted or not. They pull pranks to get to know a person and stay invisibly near them to observe the results. As they usually communicate with their unlucky target (whom they call “friend”) using telepathy, the person’s erratic reactions to the unseen pooka’s pranks and mental “voice” can make the target appear insane. The pooka doesn’t mind a little rough retaliation, but flees any attempts to kill it.
 
 ### Chaos Magic
-When you choose this affinity at 1st level, your spellcasting is a bit unstable and can unleash surges of untamed magic, or as a pooka might say, be more fun. When you attempt to cast a spell of 1st level or higher, roll a d20. If your result is lower than your Luck score, roll on the <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a> table to create a random magical effect.
+When you choose this affinity at 1st level, your spellcasting is a bit unstable and can unleash surges of untamed magic, or as a pooka might say, be more fun. When you attempt to cast a spell of 1st level or higher, roll a d20. If your result is lower than your Luck score, roll on the <a href="#feywild-wild-magic"><b>Feywild Wild Magic</b></a> table to create a random magical effect.
 
 In addition, you gain the *zap* cantrip.
 
@@ -853,7 +860,7 @@ You learn additional spells when you reach certain levels, shown in the Feyblood
 ### Luck of the Pooka
 A pooka feyblood would be long dead unless they had this incredible Luck, allowing them to survive their own chaos. Gain +2 to your Luck score.
 
-In addition, you have a knack of avoiding the havoc you cause. When you roll a wild surge on the regular wild surge table (i.e. not the <a href="#internal-wildmagic"><b>Feywild Wild Magic</b></a> table), you can choose it not to affect you and/or nature around you. When you do, reduce your your Luck by 2. You cannot use this feature if it would reduce your Luck below 0.
+In addition, you have a knack of avoiding the havoc you cause. When you roll a wild surge on the regular wild surge table (i.e. not the <a href="#feywild-wild-magic"><b>Feywild Wild Magic</b></a> table), you can choose it not to affect you and/or nature around you. When you do, reduce your your Luck by 2. You cannot use this feature if it would reduce your Luck below 0.
 
 If this would cause the surge to have no effect at all, you additionally gain a level of exhaustion.
 
@@ -874,7 +881,8 @@ Wild magic comes effortlessly to you, not even using any of your magical recourc
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-sidheAffinity">The Sidhe</a></h1>
+
+# The Sidhe
 <div class="featuresTable">
 
 #### Affinity Features
@@ -976,7 +984,8 @@ You further empower the recipients of your Heroic Glamour. They add half your fe
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-sprigAffinity">The Sprig</a></h1>
+
+# The Sprig
 <div class="featuresTable">
 
 #### Affinity Features
@@ -1057,7 +1066,8 @@ Your will extends to plants under your control. You gain the following benefits:
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-sylphAffinity">The Sylph</a></h1>
+
+# The Sylph
 <div class="featuresTable">
 
 #### Affinity Features
@@ -1172,7 +1182,8 @@ You can use this feature a number of times equal to your Spark, and can regain u
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-wildmagic">Feywild Wild Magic</a></h1>
+
+# Feywild Wild Magic
 
 <div class="block classTable frame" markdown="1">
 

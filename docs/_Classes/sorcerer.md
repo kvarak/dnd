@@ -5,34 +5,34 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### [Sorcerous Origins](#internal-SorcerousOrigins)
-<a href="#internal-aberrant">Aberrant Bloodline</a><br/>
-<a href="#internal-arachnid">Arachnid Magic</a><br/>
-<a href="#internal-ashen">Ashen Lineage</a><br/>
-<a href="#internal-autumnal">Autumnal Spirit</a> <br/>
-<a href="#internal-blighted">Blighted</a><br/>
-<a href="#internal-duneChild">Dune Child</a><br/>
-<a href="#internal-divineSoul">Divine Soul</a><br/>
-<a href="#internal-draconicBloodline">Draconic Bloodline</a><br/>
-<a href="#internal-dread">Dread Sorcery</a><br/>
-<a href="#internal-ethereal">Ethereal Spirit</a><br/>
-<a href="#internal-fiendish">Fiendish Bloodline</a><br/>
-<a href="#internal-frozenHeart">Frozen Heart</a><br/>
-<a href="#internal-incantatrix">Incantatrix</a><br/>
-<a href="#internal-oceanic">Oceanic Bloodline</a><br/>
-<a href="#internal-oozemaster">Oozemaster</a><br/>
-<a href="#internal-pandemonic">Pandemonic Sorcery</a><br/>
-<a href="#internal-phoenix">Phoenix Sorcerer</a><br/>
-<a href="#internal-plaguebringer">Plaguebringer</a><br/>
-<a href="#internal-relicker">Relicker</a><br/>
-<a href="#internal-starTouched">Star Touched</a><br/>
-<a href="#internal-stone">Stone Sorcerer</a><br/>
-<a href="#internal-storm">Storm Sorcerer</a><br/>
-<a href="#internal-timeThief">Time Thief</a><br/>
-<a href="#internal-wildMagicBloodline">Wild Magic Bloodline</a><br/>
-<a href="#internal-wishcrafter">Wishcrafter</a>
+##### [Sorcerous Origins](#sorcerous-origins)
+<a href="#aberrant-bloodline">Aberrant Bloodline</a><br/>
+<a href="#arachnid-magic">Arachnid Magic</a><br/>
+<a href="#ashen-lineage">Ashen Lineage</a><br/>
+<a href="#autumnal-spirit">Autumnal Spirit</a> <br/>
+<a href="#blighted">Blighted</a><br/>
+<a href="#dune-child">Dune Child</a><br/>
+<a href="#divine-soul">Divine Soul</a><br/>
+<a href="#draconic-bloodline">Draconic Bloodline</a><br/>
+<a href="#dread-sorcery">Dread Sorcery</a><br/>
+<a href="#ethereal-spirit">Ethereal Spirit</a><br/>
+<a href="#fiendish-bloodline">Fiendish Bloodline</a><br/>
+<a href="#frozen-heart">Frozen Heart</a><br/>
+<a href="#the-incantatrix">Incantatrix</a><br/>
+<a href="#oceanic-bloodline">Oceanic Bloodline</a><br/>
+<a href="#oozemaster">Oozemaster</a><br/>
+<a href="#pandemonic-sorcery">Pandemonic Sorcery</a><br/>
+<a href="#phoenix-sorcerer">Phoenix Sorcerer</a><br/>
+<a href="#plaguebringer">Plaguebringer</a><br/>
+<a href="#relicker">Relicker</a><br/>
+<a href="#star-touched">Star Touched</a><br/>
+<a href="#stone-sorcerer">Stone Sorcerer</a><br/>
+<a href="#storm-sorcerer">Storm Sorcerer</a><br/>
+<a href="#time-thief">Time Thief</a><br/>
+<a href="#wild-magic-bloodline">Wild Magic Bloodline</a><br/>
+<a href="#wishcrafter">Wishcrafter</a>
 
-##### <a href="#internal-metaMagic">Metamagic</a>
+##### <a href="#metamagic">Metamagic</a>
 
 </div>
 
@@ -219,9 +219,10 @@ The hobgoblin ran. He did not get far.
  **Sorcerous Fortitude**. As an ***action***, you can spend any number of sorcery points to roll a d4 for each point expended. You gain a number of temporary hit points equal to the total rolled.
 
 ### Metamagic
-At 3rd level, you gain the ability to twist your spells to suit your needs. You gain three of the <a href="#internal-metaMagic">Metamagic options</a> of your choice and gain three additional options at both 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
+At 3rd level, you gain the ability to twist your spells to suit your needs. You gain three of the <a href="#metamagic">Metamagic options</a> of your choice and gain three additional options at both 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
 
 <!--
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 -->
@@ -229,66 +230,67 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 ### Sorcerous Restoration
 At 20th level, you regain an expended sorcery points whenever you finish a short rest.
 
-<h2><a class="internal-link" name="internal-SorcerousOrigins">Sorcerous Origins</a></h2>
+## Sorcerous Origins
 
 Different sorcerers claim different origins for their innate magic. Choose a sorcerous origin, which describes your source of magical power.
 
 <div class="columnstwo">
 
-- **<a href="#internal-aberrant">Aberrant Bloodline</a>**. Somewhere in your bloodline, your ancestors were tainted by an aberration.
+- **<a href="#aberrant-bloodline">Aberrant Bloodline</a>**. Somewhere in your bloodline, your ancestors were tainted by an aberration.
 
-- **<a href="#internal-arachnid">Arachnid Magic</a>**. You are a sorcerer who has mastered the might and abilities of spiders, manipulating other creatures and web alike. Perhaps you were bitten by a magical spider, or your birth was affected by magical abilites from Lolth.
+- **<a href="#arachnid-magic">Arachnid Magic</a>**. You are a sorcerer who has mastered the might and abilities of spiders, manipulating other creatures and web alike. Perhaps you were bitten by a magical spider, or your birth was affected by magical abilites from Lolth.
 
-- **<a href="#internal-ashen">Ashen Lineage</a>**. Somewhere in your bloodline, one of your ancestors made a pact with a powerful spirit of flame and predation known as the Ashen Wolf. With smoke and cinders pouring from your hands with each spell you cast and a layer of ash gradually creeping over your body, you are the incarnation of a smoldering ember thrown upon a dry forest. Let your power burn forth like wildfire
+- **<a href="#ashen-lineage">Ashen Lineage</a>**. Somewhere in your bloodline, one of your ancestors made a pact with a powerful spirit of flame and predation known as the Ashen Wolf. With smoke and cinders pouring from your hands with each spell you cast and a layer of ash gradually creeping over your body, you are the incarnation of a smoldering ember thrown upon a dry forest. Let your power burn forth like wildfire
 
-- **<a href="#internal-autumnal">Autumnal Spirit</a>**. You are a sorcerer who wields the power of cold, decay, and bountiful harvests. Your powers could have originated from an entity of death and decay, or from a powerful god of harvest. Or, perhaps your bloodline stems from a culture that relishes in the season of autumn, and are keepers of crops. Whatever the case may be, you are a wielder of the magics that surround the season of autumn.
+- **<a href="#autumnal-spirit">Autumnal Spirit</a>**. You are a sorcerer who wields the power of cold, decay, and bountiful harvests. Your powers could have originated from an entity of death and decay, or from a powerful god of harvest. Or, perhaps your bloodline stems from a culture that relishes in the season of autumn, and are keepers of crops. Whatever the case may be, you are a wielder of the magics that surround the season of autumn.
 
-- **<a href="#internal-blighted">Blighted Bloodline</a>**. Your innate magic stems from the corrupting power of a Gulthias tree, a powerful, but evil living tree.
+- **<a href="#blighted">Blighted Bloodline</a>**. Your innate magic stems from the corrupting power of a Gulthias tree, a powerful, but evil living tree.
 
-- **<a href="#internal-duneChild">Dune Child</a>**. You have a unique and immense power over sand, and are a perfect being for surviving the trials and mirages of the desert. Perhaps you were born amongst the dunes of an ancient desert, the magic of the sands having spoken to you.
+- **<a href="#dune-child">Dune Child</a>**. You have a unique and immense power over sand, and are a perfect being for surviving the trials and mirages of the desert. Perhaps you were born amongst the dunes of an ancient desert, the magic of the sands having spoken to you.
 
-- **<a href="#internal-divineSoul">Divine Soul</a>**. Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention.
+- **<a href="#divine-soul">Divine Soul</a>**. Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine intervention.
 
-- **<a href="#internal-draconicBloodline">Draconic Bloodline</a>**. Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors.
+- **<a href="#draconic-bloodline">Draconic Bloodline</a>**. Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors.
 
-- **<a href="#internal-dread">Dread Sorcery</a>**. The essence of undeath, the antithesis of life, permeates your soul.
+- **<a href="#dread-sorcery">Dread Sorcery</a>**. The essence of undeath, the antithesis of life, permeates your soul.
 
-- **<a href="#internal-ethereal">Ethereal Spirit</a>**. In some places in the world, the spectral forms of spirits, ghosts, and banshees reside, subject to the torment of an afterlife undeserved, or having been cursed to never truly rest. Your innate magic is tied to one of these ethereal creatures, and it is through some circumstance that it awakened within you.
+- **<a href="#ethereal-spirit">Ethereal Spirit</a>**. In some places in the world, the spectral forms of spirits, ghosts, and banshees reside, subject to the torment of an afterlife undeserved, or having been cursed to never truly rest. Your innate magic is tied to one of these ethereal creatures, and it is through some circumstance that it awakened within you.
 
-- **<a href="#internal-fiendish">Fiendish Bloodline</a>**. Your innate magic comes from infernal power that can be traced back to the Abyss or the Nine Hells of Baator.
+- **<a href="#fiendish-bloodline">Fiendish Bloodline</a>**. Your innate magic comes from infernal power that can be traced back to the Abyss or the Nine Hells of Baator.
 
-- **<a href="#internal-frozenHeart">Frozen Heart</a>**. A sorcerer whose powers resides in the manipulation and control over the winter breeze and frozen ice.
+- **<a href="#frozen-heart">Frozen Heart</a>**. A sorcerer whose powers resides in the manipulation and control over the winter breeze and frozen ice.
 
-- **<a href="#internal-incantatrix">Incantatrix</a>**. You study and shape spells in their raw effects and can modify the spells of allies, magic items and even active spells cast by another.
+- **<a href="#the-incantatrix">Incantatrix</a>**. You study and shape spells in their raw effects and can modify the spells of allies, magic items and even active spells cast by another.
 
-- **<a href="#internal-oceanic">Oceanic Bloodline</a>**. Sorcerers who manifest powers from an oceanic origin may have had their bloodline affected by a powerful creature such as an aboleth, bronze dragon, elemental, hag or kraken, or may have learned to tap into the primal energy inherent to the most fundamental element of life.
+- **<a href="#oceanic-bloodline">Oceanic Bloodline</a>**. Sorcerers who manifest powers from an oceanic origin may have had their bloodline affected by a powerful creature such as an aboleth, bronze dragon, elemental, hag or kraken, or may have learned to tap into the primal energy inherent to the most fundamental element of life.
 
-- **<a href="#internal-oozemaster">Oozemaster</a>**. Your innate magic stems from a long family line of Ooze blood. For generations, the taint of Ooze blood has run in your family, infecting some at birth and sparing others, stemming from a well-documented but shadowy ancestor. It's unclear what horrific experiment infused a monstrous ooze or slime into his body so long ago, but some of his scattered descendants are born to this day with a personal, innate magic and bizarre physical characteristics.
+- **<a href="#oozemaster">Oozemaster</a>**. Your innate magic stems from a long family line of Ooze blood. For generations, the taint of Ooze blood has run in your family, infecting some at birth and sparing others, stemming from a well-documented but shadowy ancestor. It's unclear what horrific experiment infused a monstrous ooze or slime into his body so long ago, but some of his scattered descendants are born to this day with a personal, innate magic and bizarre physical characteristics.
 
-- **<a href="#internal-pandemonic">Pandemonic Sorcery</a>**. Your innate powers come from the insane, chaotic energies of Pandemonium, its magic giving you dominion over mind and madness.
+- **<a href="#pandemonic-sorcery">Pandemonic Sorcery</a>**. Your innate powers come from the insane, chaotic energies of Pandemonium, its magic giving you dominion over mind and madness.
 
-- **<a href="#internal-phoenix">Phoenix Sorcerer</a>**. Your power draws from the immortal flame that fuels the legendary phoenix.
+- **<a href="#phoenix-sorcerer">Phoenix Sorcerer</a>**. Your power draws from the immortal flame that fuels the legendary phoenix.
 
-- **<a href="#internal-plaguebringer">Plaguebringer</a>**. Sometimes the magic that empowers a sorcerer comes from a source that would normally harm both nature and civilizations, though not necessarily be evil in and of itself. Plagues are one such thing as this, and you are a sorcerer who draws their power from the diseases and illnesses that fly on the winds of plagues.
+- **<a href="#plaguebringer">Plaguebringer</a>**. Sometimes the magic that empowers a sorcerer comes from a source that would normally harm both nature and civilizations, though not necessarily be evil in and of itself. Plagues are one such thing as this, and you are a sorcerer who draws their power from the diseases and illnesses that fly on the winds of plagues.
 
-- **<a href="#internal-relicker">Relicker</a>**. The wellspring of your arcane might lies not with an eldritch bloodline or the interference of wild magic, but with a deep cache of arcane power, stored within an ancient magic item.
+- **<a href="#relicker">Relicker</a>**. The wellspring of your arcane might lies not with an eldritch bloodline or the interference of wild magic, but with a deep cache of arcane power, stored within an ancient magic item.
 
-- **<a href="#internal-starTouched">Star Touched</a>**. By either an ancient ritual, or a birthright passed down through generations, you are able to use magic that reflects the power of stars.
+- **<a href="#star-touched">Star Touched</a>**. By either an ancient ritual, or a birthright passed down through generations, you are able to use magic that reflects the power of stars.
 
-- **<a href="#internal-stone">Stone Sorcerer</a>**. Your magic springs from a mystical link between your soul and the magic of elemental earth.
+- **<a href="#stone-sorcerer">Stone Sorcerer</a>**. Your magic springs from a mystical link between your soul and the magic of elemental earth.
 
-- **<a href="#internal-storm">Storm Sorcerer</a>**. Sorcerer whose magic comes from elemental air.
+- **<a href="#storm-sorcerer">Storm Sorcerer</a>**. Sorcerer whose magic comes from elemental air.
 
-- **<a href="#internal-timeThief">Time Thief</a>**. Sorcerer that manipulates time.
+- **<a href="#time-thief">Time Thief</a>**. Sorcerer that manipulates time.
 
-- **<a href="#internal-wildMagicBloodline">Wild Magic Bloodline</a>**. Your innate magic comes from the wild forces of chaos.
+- **<a href="#wild-magic-bloodline">Wild Magic Bloodline</a>**. Your innate magic comes from the wild forces of chaos.
 
-- **<a href="#internal-wishcrafter">Wishcrafter</a>**. Imbued with magic from a powerful, reality-altering wish, your destiny is to bring hope to others and grant their desires, while simultaneously realizing your own.
+- **<a href="#wishcrafter">Wishcrafter</a>**. Imbued with magic from a powerful, reality-altering wish, your destiny is to bring hope to others and grant their desires, while simultaneously realizing your own.
 
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-aberrant">Aberrant bloodline</a></h1>
+
+# Aberrant bloodline
 <div class="featuresTable">
 
 #### Aberrant bloodline features
@@ -330,7 +332,8 @@ Additionally, whenever you cast a spell at 1st-level or higher that deals psychi
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-arachnid">Arachnid Magic</a></h1>
+
+# Arachnid Magic
 <div class="featuresTable">
 
 #### Arachnid magic Features
@@ -385,7 +388,8 @@ Your spider-like constitution has granted you immunity to the poisoned condition
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ashen">Ashen lineage</a></h1>
+
+# Ashen lineage
 <div class="featuresTable">
 
 #### Ashen lineage features
@@ -444,7 +448,8 @@ Once you use this feature, you can’t do so again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-autumnal">Autumnal Spirit</a></h1>
+
+# Autumnal Spirit
 <div class="featuresTable">
 
 #### Autumnal Spirit features
@@ -520,7 +525,8 @@ While active, this storm has the following effects on creatures other than you:
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-blighted">Blighted</a></h1>
+
+# Blighted
 <div class="featuresTable">
 
 #### Blighted features
@@ -577,7 +583,8 @@ You can imbue life into back into your blights after they have fallen. As an ***
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-duneChild">Dune Child</a></h1>
+
+# Dune Child
 <div class="featuresTable">
 
 #### Dune Child Features
@@ -649,7 +656,8 @@ Once you have used this feature, you cannot do so again until you finish a long 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-divineSoul">Divine Soul</a></h1>
+
+# Divine Soul
 <div class="featuresTable">
 
 #### Divine Soul Features
@@ -724,7 +732,8 @@ Once you use this feature, you can’t use it again until you finish a long rest
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-draconicBloodline">Draconic Bloodline</a></h1>
+
+# Draconic Bloodline
 <div class="featuresTable">
 
 #### Draconic Bloodline features
@@ -779,7 +788,8 @@ A creature that succeeds on this saving throw is immune to your aura for 24 hour
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-dread">Dread Sorcery</a></h1>
+
+# Dread Sorcery
 <div class="featuresTable">
 
 #### Dread features
@@ -858,7 +868,8 @@ Additionally, you have learned how to command the magic of death. Choose two nec
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ethereal">Ethereal Spirit</a></h1>
+
+# Ethereal Spirit
 <div class="featuresTable">
 
 #### Ethereal Spirit Features
@@ -942,7 +953,8 @@ This possession lasts until the target’s body drops to 0 hit points, you end t
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-fiendish">Fiendish Bloodline</a></h1>
+
+# Fiendish Bloodline
 <div class="featuresTable">
 
 #### Fiendish Bloodline Features
@@ -1029,7 +1041,8 @@ On a failed save, the creature is charmed by you until the end of your next turn
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-frozenHeart">Frozen Heart</a></h1>
+
+# Frozen Heart
 <div class="featuresTable">
 
 #### Frozen Heart Features
@@ -1130,7 +1143,8 @@ You are able to call upon winter itself to aid you in battle. As an ***action***
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-incantatrix">The Incantatrix</a></h1>
+
+# The Incantatrix
 <div class="featuresTable">
 
 #### Incantatrix features
@@ -1209,7 +1223,8 @@ Once you use this feature, you can't use it again until you complete a long rest
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-oceanic">Oceanic Bloodline</a></h1>
+
+# Oceanic Bloodline
 <div class="featuresTable">
 
 #### Oceanic Bloodline Features
@@ -1296,7 +1311,8 @@ You may spend 10 sorcery points to transform into an air elemental or water elem
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-oozemaster">Oozemaster</a></h1>
+
+# Oozemaster
 <div class="featuresTable">
 
 #### Oozemaster Features
@@ -1348,7 +1364,8 @@ After you use this ability, you cannot use it again until you complete a long re
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-pandemonic">Pandemonic Sorcery</a></h1>
+
+# Pandemonic Sorcery
 <div class="featuresTable">
 
 #### Pandemonic Sorcery Features
@@ -1408,7 +1425,8 @@ A creature that gains 6 levels of exhaustion while under this effect, or is redu
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-phoenix">Phoenix sorcerer</a></h1>
+
+# Phoenix sorcerer
 <div class="featuresTable">
 
 #### Phoenix sorcerer Features
@@ -1483,7 +1501,8 @@ You finally master the spark of fire that dances within you. While under the eff
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-plaguebringer">Plaguebringer</a></h1>
+
+# Plaguebringer
 <div class="featuresTable">
 
 #### Plaguebringer Features
@@ -1549,7 +1568,8 @@ In addition, you can spend 5 sorcery points to change the range of the spell *co
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-relicker">Relicker</a></h1>
+
+# Relicker
 <div class="featuresTable">
 
 #### Relicker Features
@@ -1652,7 +1672,8 @@ Your relic becomes an artifact. It gains two minor and one major beneficial prop
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-starTouched">Star Touched</a></h1>
+
+# Star Touched
 <div class="featuresTable">
 
 #### Star Touched Features
@@ -1704,7 +1725,8 @@ The creature must make a Dexterity saving throw  against your spell save DC, tak
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-stone">Stone Sorcerer</a></h1>
+
+# Stone Sorcerer
 <div class="featuresTable">
 
 #### Stone Sorcerer Features
@@ -1783,7 +1805,8 @@ You also have learned how to turn the power of the earth against your enemies. A
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-storm">Storm sorcerer</a></h1>
+
+# Storm sorcerer
 <div class="featuresTable">
 
 #### Storm sorcerer Features
@@ -1840,7 +1863,8 @@ Gain a flying speed of 60 ft. As an ***action***, you can reduce your flying spe
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-timeThief">Time Thief</a></h1>
+
+# Time Thief
 <div class="featuresTable">
 
 #### Time Thief Features
@@ -1978,7 +2002,8 @@ You are so evasive that attackers rarely gain the upper hand against you. No att
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-wildMagicBloodline">Wild Magic Bloodline</a></h1>
+
+# Wild Magic Bloodline
 <div class="featuresTable">
 
 #### Wild Sorcerer Features
@@ -2024,7 +2049,8 @@ The harmful energy of your spells intensifies. When you roll damage for a spell 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-wishcrafter">Wishcrafter</a></h1>
+
+# Wishcrafter
 <div class="featuresTable">
 
 #### Wishcrafter Features
@@ -2085,7 +2111,7 @@ Once you have used this feature, you may not do so again until after a long rest
 Your dedication to aiding others has allowed you to more easily imbue yourself with power. When you cast a beneficial spell on a friendly target, you may also cast the same effect on yourself. If the spell normally targets more than one creature, you do not count towards the spell's normal targets.
 
 
-<h2><a class="internal-link" name="internal-metaMagic">Metamagic</a></h2>
+## Metamagic
 
 At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the Metamagic options of your choice. You gain another one at 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
 

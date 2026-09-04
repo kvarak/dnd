@@ -6,8 +6,10 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### <a href="#internal-traits">Traits</a>
+
 ##### <a href="#internal-class">Class options</a>
-##### <a href="#internal-race">The Halfling people</a>
+
+##### <a href="#the-halfling-folk">The Halfling people</a>
 <a href="#internal-lifeHalfling">Life as a halfling</a><br/>
 <a href="#internal-halflingGodsMyths">Halfling gods and myths</a><br/>
 <a href="#internal-halflingAdventurer">The Halfling adventurer</a>
@@ -156,7 +158,7 @@ A halfling approaches some classes is a bit different than other races. When you
     <hr class="dividerinfolk">
 
 -   ### Fighter
-    Halflings have a long tradition of utilizing the sling, having access to the <a href="../Classes/fighter.html#internal-warslingSniper">Warsling sniper fighter archetype</a>.
+    Halflings have a long tradition of utilizing the sling, having access to the <a href="../Classes/fighter.html#restricted-to-halfling-characters">Warsling sniper fighter archetype</a>.
 
     In addition halfling fighters may can add the following two fighting styles to their selection of fighting styles.
 
@@ -258,7 +260,8 @@ A halfling approaches some classes is a bit different than other races. When you
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-race">The Halfling Folk</a></h1>
+
+# The Halfling Folk
 
 Anyone who has spent time around halflings, and particularly halfling adventurers, has likely witnessed the storied "luck of the halflings" in action. When a halfling is in mortal danger, it seems as though an unseen force intervenes. If a halfling falls off a cliff. her britches will snag on a root or a sharp outcrop of rock. If a halfling is forced by pirates to walk the plank, he will catch a piece of flotsam and use it to stay afloat until he is rescued.
 

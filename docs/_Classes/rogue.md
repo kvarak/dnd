@@ -5,24 +5,24 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### [Roguish Archetypes](#internal-RoguishArchetypes)
-<a href="#internal-arcaneTrickster">Arcane Trickster</a><br/>
-<a href="#internal-assassin">Assassin</a><br/>
-<a href="#internal-bladeJuggler">Blade Juggler</a><br/>
-<a href="#internal-daggerspellMage">Daggerspell Mage</a><br/>
-<a href="#internal-divineHerald">Divine Herald</a><br/>
-<a href="#internal-gambler">Gambler</a><br/>
-<a href="#internal-investigator">Investigator</a><br/>
-<a href="#internal-jester">Jester</a><br/>
-<a href="#internal-keenBlade">Keen Blade</a><br/>
-<a href="#internal-ruffian">Ruffian</a><br/>
-<a href="#internal-serpentineInfiltrator">Serpentine Infiltrator</a><br/>
-<a href="#internal-spellwarpSniper">Spellwarp Sniper</a><br/>
-<a href="#internal-thief">Thief</a>
+##### [Roguish Archetypes](#roguish-archetypes)
+<a href="#arcane-trickster">Arcane Trickster</a><br/>
+<a href="#assassin">Assassin</a><br/>
+<a href="#blade-juggler">Blade Juggler</a><br/>
+<a href="#daggerspell-mage">Daggerspell Mage</a><br/>
+<a href="#divine-herald">Divine Herald</a><br/>
+<a href="#gambler">Gambler</a><br/>
+<a href="#investigator">Investigator</a><br/>
+<a href="#jester">Jester</a><br/>
+<a href="#keen-blade">Keen Blade</a><br/>
+<a href="#ruffian">Ruffian</a><br/>
+<a href="#serpentine-infiltrator">Serpentine Infiltrator</a><br/>
+<a href="#spellwarp-sniper">Spellwarp Sniper</a><br/>
+<a href="#thief">Thief</a>
 
 ##### Restricted Archetypes
 **Catfolk**<br/>
-<a href="#internal-felineStalker">Feline Stalker</a>
+<a href="#restricted-to-catfolk-characters">Feline Stalker</a>
 
 </div>
 
@@ -141,6 +141,7 @@ Starting at 2nd level, your quick thinking and agility allow you to act quickly.
 At 3rd and 6th level you gain 2 additional skill points.
 
 <!--
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
 -->
@@ -167,43 +168,44 @@ Beginning at 18th level, you are so evasive that attackers rarely gain the upper
 At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20. Once you use this feature, you can’t use it again until you finish a short or long rest.
 
 
-<h2><a class="internal-link" name="internal-RoguishArchetypes">Roguish Archetypes</a></h2>
+## Roguish Archetypes
 
 Rogues have many features in common, including their emphasis on perfecting their skills, their precise and deadly approach to combat, and their increasingly quick reflexes. But different rogues steer those talents in varying directions, embodied by the rogue archetypes. Your choice of archetype is a reflection of your focus - not necessarily an indication of your chosen profession, but a description of your preferred techniques.
 
 <div class="columnstwo">
 
-- **<a href="#internal-arcaneTrickster">Arcane Trickster</a>**. Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion.
+- **<a href="#arcane-trickster">Arcane Trickster</a>**. Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion.
 
-- **<a href="#internal-assassin">Assassin</a>**. This archetype focuses its training on the grim art of death.
+- **<a href="#assassin">Assassin</a>**. This archetype focuses its training on the grim art of death.
 
-- **<a href="#internal-bladeJuggler">Blade Juggler</a>**. Those who choose to fling handaxes, daggers, and the like from afar rather than partake in melee.
+- **<a href="#blade-juggler">Blade Juggler</a>**. Those who choose to fling handaxes, daggers, and the like from afar rather than partake in melee.
 
-- **<a href="#internal-daggerspellMage">Daggerspell Mage</a>**. A master of blending the carnage of twin daggers with arcane spellcasting, daggerspell mages make devastating foes. To learn and perfect the art of balancing a spell on the edge of a blade takes years and must be practiced meticulously, but rewards it's students with exceptional power.
+- **<a href="#daggerspell-mage">Daggerspell Mage</a>**. A master of blending the carnage of twin daggers with arcane spellcasting, daggerspell mages make devastating foes. To learn and perfect the art of balancing a spell on the edge of a blade takes years and must be practiced meticulously, but rewards it's students with exceptional power.
 
-- **<a href="#internal-divineHerald">Divine Herald</a>**. A rogue with a calling as an unwavering and swift agent of divine retribution.
+- **<a href="#divine-herald">Divine Herald</a>**. A rogue with a calling as an unwavering and swift agent of divine retribution.
 
-- **<a href="#internal-gambler">Gambler</a>**. While any fool can place a bet, Gamblers draw on luck and chance in all aspects of their adventures.
+- **<a href="#gambler">Gambler</a>**. While any fool can place a bet, Gamblers draw on luck and chance in all aspects of their adventures.
 
-- **<a href="#internal-investigator">Investigator</a>**. Whether on the trail of a fugitive, a long-lost treasure trove, or a criminal mastermind, investigators are motivated by an intense curiosity about the world and use knowledge of it as a weapon.
+- **<a href="#investigator">Investigator</a>**. Whether on the trail of a fugitive, a long-lost treasure trove, or a criminal mastermind, investigators are motivated by an intense curiosity about the world and use knowledge of it as a weapon.
 
-- **<a href="#internal-jester">Jester</a>**. Anything between a simple entertainer with an adventurous bent to a devotee to a trickster god, the jester has taken comedy to an art form.
+- **<a href="#jester">Jester</a>**. Anything between a simple entertainer with an adventurous bent to a devotee to a trickster god, the jester has taken comedy to an art form.
 
-- **<a href="#internal-keenBlade">Keen Blade</a>**. A specialist in knife fighting.
+- **<a href="#keen-blade">Keen Blade</a>**. A specialist in knife fighting.
 
-- **<a href="#internal-ruffian">Ruffian</a>**. Some rogues, especially those that are larger and  bulkier, favor a more direct approach than their lithe, graceful counterparts in the trade.
+- **<a href="#ruffian">Ruffian</a>**. Some rogues, especially those that are larger and  bulkier, favor a more direct approach than their lithe, graceful counterparts in the trade.
 
-- **<a href="#internal-serpentineInfiltrator">Serpentine Infiltrator</a>**. A rogue that attunes to the serpentine shape-shifting powers of the Yuan-Ti.
+- **<a href="#serpentine-infiltrator">Serpentine Infiltrator</a>**. A rogue that attunes to the serpentine shape-shifting powers of the Yuan-Ti.
 
-- **<a href="#internal-spellwarpSniper">Spellwarp Sniper</a>**. Not content to splash around messy evocation magic to slay your foes, you have learned to alter the form of your spells into exact rays of lethal potential. Deadly and precise, you favor the methods of a surgeon, meticulously eradicating your foes, rather than the disorganized violence of a butcher.
+- **<a href="#spellwarp-sniper">Spellwarp Sniper</a>**. Not content to splash around messy evocation magic to slay your foes, you have learned to alter the form of your spells into exact rays of lethal potential. Deadly and precise, you favor the methods of a surgeon, meticulously eradicating your foes, rather than the disorganized violence of a butcher.
 
-- **<a href="#internal-thief">Thief</a>**. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators.
+- **<a href="#thief">Thief</a>**. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators.
 
 </div>
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-arcaneTrickster">Arcane Trickster</a></h1>
+
+# Arcane Trickster
 <div class="featuresTable">
 
 #### Archetype Features
@@ -312,7 +314,8 @@ Once you use this feature, you can't use it again until you finish a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-assassin">Assassin</a></h1>
+
+# Assassin
 <div class="featuresTable">
 
 #### Archetype Features
@@ -347,7 +350,8 @@ You become a master of instant death. When you attack and hit a creature that is
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-bladeJuggler">Blade Juggler</a></h1>
+
+# Blade Juggler
 <div class="featuresTable">
 
 #### Archetype Features
@@ -397,7 +401,8 @@ You have become so precise that you are able to target the weakest and most sens
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-daggerspellMage">Daggerspell Mage</a></h1>
+
+# Daggerspell Mage
 <div class="featuresTable">
 
 #### Archetype Features
@@ -483,7 +488,8 @@ You may now imbue two held daggers instead of one as a ***bonus action***, expen
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-divineHerald">Divine Herald</a></h1>
+
+# Divine Herald
 <div class="featuresTable">
 
 #### Archetype Features
@@ -598,7 +604,8 @@ When you hit a creature that has less than half its hit point, you can use your 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-gambler">Gambler</a></h1>
+
+# Gambler
 <div class="featuresTable">
 
 #### Archetype Features
@@ -738,7 +745,8 @@ You regain the use of this feature after finishing a long rest.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-investigator">Investigator</a></h1>
+
+# Investigator
 <div class="featuresTable">
 
 #### Archetype Features
@@ -860,7 +868,8 @@ You have become adept at laying and avoiding ambushes. You can take two turns du
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-jester">Jester</a></h1>
+
+# Jester
 <div class="featuresTable">
 
 #### Archetype Features
@@ -945,7 +954,8 @@ Once you use this ability, you can’t use it again until you finish a long rest
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-keenBlade">Keen Blade</a></h1>
+
+# Keen Blade
 <div class="featuresTable">
 
 #### Archetype Features
@@ -1022,7 +1032,8 @@ Your ferocity and cunning have reached their peak on the battlefield. Each victo
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ruffian">Ruffian</a></h1>
+
+# Ruffian
 <div class="featuresTable">
 
 ##### Ruffian Features
@@ -1078,7 +1089,8 @@ At 17th level, you can make the most of a nearby opponent’s failures. When a c
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-serpentineInfiltrator">Serpentine Infiltrator</a></h1>
+
+# Serpentine Infiltrator
 <div class="featuresTable">
 
 #### Archetype Features
@@ -1147,7 +1159,8 @@ Once you have used this ability you cannot do so again until you have completed 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-spellwarpSniper">Spellwarp Sniper</a></h1>
+
+# Spellwarp Sniper
 <div class="featuresTable">
 
 #### Archetype Features
@@ -1251,7 +1264,8 @@ After using this ability, you must complete a long rest before using it again.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-thief">Thief</a></h1>
+
+# Thief
 <div class="featuresTable">
 
 #### Archetype Features
@@ -1289,8 +1303,10 @@ You have become adept at laying ambushes and quickly escaping danger. You can ta
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-felineStalker">Restricted to Catfolk characters</a></h2>
-<h1>Feline Stalker</h1>
+
+## Restricted to Catfolk characters
+
+# Feline Stalker
 <div class="featuresTable">
 
 #### Archetype Features

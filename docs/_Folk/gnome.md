@@ -6,14 +6,15 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### <a href="#internal-traits">Traits</a>
+
 ##### The different types of gnomes
-<a href="#internal-forest">Forest Gnome</a><br/>
-<a href="#internal-rock">Rock Gnome</a><br/>
-<a href="#internal-deep">Deep Gnome</a>
+<a href="#forest-gnome">Forest Gnome</a><br/>
+<a href="#rock-gnome">Rock Gnome</a><br/>
+<a href="#deep-gnome">Deep Gnome</a>
 
 ##### <a href="#internal-class">Class options</a>
 
-##### **<a href="#internal-race">The Gnome Race</a>**
+##### **<a href="#the-gnome-race">The Gnome Race</a>**
 <a href="#internal-drinkingDeeplyLife">Drinking deeply of life</a><br/>
 <a href="#internal-rockGnomes">Rock Gnomes</a><br/>
 <a href="#internal-forestGnomes">Forest Gnomes</a><br/>
@@ -85,7 +86,8 @@ Your gnome character has certain characteristics in common with all other gnomes
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-forest">Forest Gnome</a></h1>
+
+# Forest Gnome
 
 The rare and secretive forest gnomes, have a natural knack for illusion and inherent quickness and stealth. They gather in hidden communities in sylvan forests, using illusions and trickery to conceal themselves from threats or to mask their escape should they be detected. Forest gnomes tend to be friendly with other good-spirited woodland folk, and they regard elves and good fey as their most important allies. These gnomes also befriend small forest animals and rely on them for information about threats that might prowl their lands.
 
@@ -105,7 +107,8 @@ The rare and secretive forest gnomes, have a natural knack for illusion and inhe
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-rock">Rock Gnome</a></h1>
+
+# Rock Gnome
 
 As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes. These are the types of gnomes most common, and the ones that people usually associate to when hearing about gnomes.
 
@@ -140,7 +143,8 @@ A constant hum of busy activity pervades the warrens and neighborhoods where the
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-deep">Deep Gnome</a></h1>
+
+# Deep Gnome
 
 Forest gnomes and rock gnomes are the gnomes most commonly encountered in the lands of the surface world. There is another subrace of gnomes rarely seen by any surface-dweller: deep gnomes, also known as svirfneblin. Guarded, and suspicious of outsiders, svirfneblin are cunning and taciturn, but can be just as kind-hearted, loyal, and compassionate as their surface cousins.
 
@@ -260,7 +264,7 @@ An gnome approaches some classes is a bit different than other races. When you s
 
     </div>
 
-    **Rock gnomes** have access to the <a href="../Classes/fighter.html#internal-tinkerKnight">Tinker knight</a> archetype.
+    **Rock gnomes** have access to the <a href="../Classes/fighter.html#restricted-to-gnome-characters">Tinker knight</a> archetype.
 
     <hr class="dividerinfolk">
 
@@ -339,7 +343,8 @@ An gnome approaches some classes is a bit different than other races. When you s
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-race">The Gnome Race</a></h1>
+
+# The Gnome Race
 
 Love of discovery is the force that drives the life of a
 gnome, whether one is investigating the nature of magic

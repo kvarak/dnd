@@ -7,11 +7,11 @@ layout: default
 
 ##### <a href="#pantheons">Pantheons</a>
 
-<a href="#golarion">Golarion Deities</a><br/>
-<a href="#folkspecific">Folk-specific deities</a><br/>
-<a href="#celtic">Celtic Deities</a><br/>
-<a href="#egyptian">Egyptian Deities</a><br/>
-<a href="#norse">Norse Deities</a><br/>
+<a href="#golarion-deities">Golarion Deities</a><br/>
+<a href="#folk-specific-deities">Folk-specific deities</a><br/>
+<a href="#celtic-deities">Celtic Deities</a><br/>
+<a href="#egyptian-deities">Egyptian Deities</a><br/>
+<a href="#norse-deities">Norse Deities</a><br/>
 
 </div>
 
@@ -21,7 +21,7 @@ Pantheons are groups of related gods worshiped either individually or collective
 
 Followers commonly direct prayers to whichever god presides over their current activity or circumstance, though some may dedicate their life in servitude to a single god or subset thereof. Devout followers may find themselves rewarded with various boons, notably Divine magic.
 
-<h2><a name="golarion">Golarion Deities</a></h2>
+## Golarion Deities
 
 Golarion draws the interest and intervention of many deities, including some ascended from its ranks of mortal beings through supernatural forces.
 Deities are often grouped by their followers' region or ancestry, though their power is rarely limited to such demographics.
@@ -337,7 +337,7 @@ Myriad other deities have followings on Golarion, of which a small section inclu
 
 </div>
 
-<h2><a name="folkspecific">Folk-specific deities</a></h2>
+## Folk-specific deities
 
 It's common for folk to have their own pantheon of deities.
 These deities can be distinct gods, alternate guises of other deities, demigods or simply powerful beings.
@@ -348,7 +348,7 @@ For the Dwarven pantheon, refer to <a href="../Folk/dwarf.html#internal-religion
 
 ### Elven deities
 
-For the Elven pantheon, refer to <a href="../Folk/elf.html#internal-seldarine">their folk page</a>.
+For the Elven pantheon, refer to <a href="../Folk/elf.html#the-seldarine">their folk page</a>.
 
 ### Gnomish deities
 
@@ -404,7 +404,7 @@ What remains are deities that are notable, but difficult to catalogue due to the
 
 </div>
 
-<h2><a name="celtic">Celtic Deities</a></h2>
+## Celtic Deities
 It's said that something wild lurks in the heart of every soul, a space that thrills to the sound of geese calling at night, to the whispering wind through the pines, to the unexpected red of mistletoe on an oak - and it is in this space that the Celtic gods dwell.
 
 They sprang from the brook and stream, their might heightened by the strength of the oak and the beauty of the woodlands and open moor.
@@ -437,7 +437,7 @@ The Celtic gods are as often served by druids as by clerics, for they are closel
 
 </div>
 
-<h2><a name="egyptian">Egyptian Deities</a></h2>
+## Egyptian Deities
 
 These gods are a young dynasty of an ancient divine family, heirs to the rulership of the cosmos and the maintenance of the divine principle of Ma'at - the fundamental order of truth, justice, law, and order that puts gods, mortal pharaohs, and ordinary men and women in their logical and rightful place in the universe.
 
@@ -472,7 +472,7 @@ Thus, although most clerics of the Death domain are villainous characters, cleri
 
 </div>
 
-<h2><a name="norse">Norse Deities</a></h2>
+## Norse Deities
 
 Where the land plummets from the snowy hills into the icy fjords below, where the longboats draw up on to the beach, where the glaciers flow forward and retreat with every fall and spring - this is the land of the Vikings, the home of the Norse pantheon.
 It's a brutal clime, and one that calls for brutal living.

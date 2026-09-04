@@ -119,7 +119,7 @@ A half-orc approaches some classes is a bit different than other races. When you
 
     </div>
 
-    In addition, you have access to the <a href="../Classes/barbarian.html#internal-eyeOfGruumsh">Eye of Gruumsh</a> path.
+    In addition, you have access to the <a href="../Classes/barbarian.html#restricted-to-orc-half-orc-characters">Eye of Gruumsh</a> path.
 
     <hr class="dividerinfolk">
 

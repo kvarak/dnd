@@ -6,14 +6,14 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### <a>Fields of Study</a>
-<a href="#internal-apothecary">Apothecary</a><br>
-<a href="#internal-corpsecrafter">Corpsecrafter</a><br>
-<a href="#internal-madBomber">Mad bomber</a><br>
-<a href="#internal-poisoner">Poisoner</a><br>
-<a href="#internal-psychedelic">Psychedelic</a><br>
-<a href="#internal-transmuter">Transmuter</a><br>
+<a href="#apothecary">Apothecary</a><br>
+<a href="#corpsecrafter">Corpsecrafter</a><br>
+<a href="#mad-bomber">Mad bomber</a><br>
+<a href="#poisoner">Poisoner</a><br>
+<a href="#psychedelic">Psychedelic</a><br>
+<a href="#transmuter">Transmuter</a><br>
 
-##### <a href="#internal-discovery">Discoveries</a>
+##### <a href="#discoveries">Discoveries</a>
 
 </div>
 
@@ -191,6 +191,7 @@ You can mix together herbs to create potions that cure ailments and injuries. If
 <img src='https://i.imgur.com/4AHDDpZ.png' style='float:right;width:20%;padding:20px' />
 
 <!--
+
 ### Studious Expertise
 From 1st level you have advantage on any ability check you make with your alchemist’s supplies, as well as any ability check to identify herbs, poisons or other alchemical substances.
 -->
@@ -199,7 +200,7 @@ From 1st level you have advantage on any ability check you make with your alchem
 While all alchemists share a common knowledge base, most alchemists specialize into a particular field of study. When you reach 2nd level, you select your field of study from apothecary, mad bomber, poisoner and transmuter. Your field choice grants you features at 2nd level and then again at 7th, 10th, and 16th level.
 
 ### Discoveries
-In the course of your research, you have made a number of <a href="#internal-discovery">discoveries</a> regarding the nature of alchemy. At 3rd level, you gain two discoveries of your choice. When you gain certain alchemist levels, you gain additional discoveries of your choice, as shown in the Discoveries Known column of the Alchemist table.
+In the course of your research, you have made a number of <a href="#discoveries">discoveries</a> regarding the nature of alchemy. At 3rd level, you gain two discoveries of your choice. When you gain certain alchemist levels, you gain additional discoveries of your choice, as shown in the Discoveries Known column of the Alchemist table.
 
 Additionally, when you learn a new discovery, you can choose one of the discoveries you know and replace it with another discovery that you could learn at that level.
 
@@ -261,7 +262,7 @@ The philosopher’s stone also has devastating destructive potential. As a ***bo
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="internal-apothecary">Apothecary</a></h1>
+# Apothecary
 
 <div class="featuresTable">
 
@@ -323,7 +324,7 @@ The panacea must be consumed within 24 hours, after which it becomes inert. You 
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="internal-corpsecrafter">Corpsecrafter</a></h1>
+# Corpsecrafter
 
 <div class="featuresTable">
 
@@ -471,7 +472,7 @@ You have developed some extraordinary infusions for your cadaver. Choose one of 
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="internal-madBomber">Mad Bomber</a></h1>
+# Mad Bomber
 
 <div class="featuresTable">
 
@@ -505,7 +506,7 @@ You can combine two non makeshift bombs into one. Combine damage and effect from
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="internal-poisoner">Poisoner</a></h1>
+# Poisoner
 
 <div class="featuresTable">
 
@@ -548,7 +549,7 @@ You learn how to create more versatile versions of your poison concoctions. When
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="internal-psychedelic">Psychedelic</a></h1>
+# Psychedelic
 
 <div class="featuresTable">
 
@@ -603,7 +604,7 @@ Your abilities to injure minds and manipulate brains allows you to punish those 
 
 <hr class="classdivider">
 
-<h1><a class="internal-link" name="internal-transmuter">Transmuter</a></h1>
+# Transmuter
 
 <div class="featuresTable">
 
@@ -708,7 +709,7 @@ You can use your ***action*** to consume the reserve of transmutation magic stor
 
 <hr class="classdivider">
 
-<h2><a class="internal-link" name="internal-discovery">Discoveries</a></h2>
+## Discoveries
 
 If a discovery has prerequisites, you must meet them to learn it. You can learn the discovery at the same time that you reach its prerequisites. You can only learn a discovery once, unless otherwise specified.
 

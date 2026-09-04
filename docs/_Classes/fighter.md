@@ -5,38 +5,40 @@ layout: default
 
 <div class="toc" markdown="1">
 
-##### <a href="#internal-origins">Fighter Origins</a>
-##### <a href="#internal-archetypes">Martial Archetypes</a>
-<a href="#internal-arbalestion">Arbalestion</a><br/>
-<a href="#internal-arcaneArcher">Arcane Archer</a><br/>
-<a href="#internal-bulwark">Bulwark</a><br/>
-<a href="#internal-champion">Champion</a><br/>
-<a href="#internal-daredevil">Daredevil</a><br/>
-<a href="#internal-eldritchKnight">Eldritch Knight</a><br/>
-<a href="#internal-guerilla">Guerilla</a><br/>
-<a href="#internal-ghostOperative">Ghost Operative</a><br/>
-<a href="#internal-juggernaut">Juggernaut</a><br/>
-<a href="#internal-kindler">Kindler</a><br/>
-<a href="#internal-runeguard">Runeguard</a><br/>
-<a href="#internal-sellsword">Sellsword</a><br/>
-<a href="#internal-skirmisher">Skirmisher / Mariner</a><br/>
-<a href="#internal-templar">Templar</a><br/>
-<a href="#internal-thingSlinger">Thing Slinger</a><br/>
-<a href="#internal-underdog">Underdog</a>
+##### <a href="#fighter-origins">Fighter Origins</a>
+
+##### <a href="#martial-archetypes">Martial Archetypes</a>
+<a href="#arbalestion">Arbalestion</a><br/>
+<a href="#arcane-archer">Arcane Archer</a><br/>
+<a href="#bulwark">Bulwark</a><br/>
+<a href="#champion">Champion</a><br/>
+<a href="#daredevil">Daredevil</a><br/>
+<a href="#eldritch-knight">Eldritch Knight</a><br/>
+<a href="#guerilla">Guerilla</a><br/>
+<a href="#ghost-operative">Ghost Operative</a><br/>
+<a href="#juggernaut">Juggernaut</a><br/>
+<a href="#kindler">Kindler</a><br/>
+<a href="#runeguard">Runeguard</a><br/>
+<a href="#sellsword">Sellsword</a><br/>
+<a href="#skirmisher">Skirmisher / Mariner</a><br/>
+<a href="#templar">Templar</a><br/>
+<a href="#thing-slinger">Thing Slinger</a><br/>
+<a href="#underdog">Underdog</a>
 
 ##### Restricted Archetypes
 **Aasimar**<br/>
-<a href="#internal-celestialKnight">Celestial Knight</a>
+<a href="#restricted-to-aasimar-characters">Celestial Knight</a>
 
 **Gnome**<br/>
-<a href="#internal-tinkerKnight">Tinker Knight</a>
+<a href="#restricted-to-gnome-characters">Tinker Knight</a>
 
 **Halfling**<br/>
-<a href="#internal-warslingSniper">Warsling Sniper</a>
+<a href="#restricted-to-halfling-characters">Warsling Sniper</a>
 
 
-##### <a href="#internal-FightingStyles">Fighting Styles</a>
-##### <a href="#internal-combatManeuvers">Maneuvers</a>
+##### <a href="#fighting-styles">Fighting Styles</a>
+
+##### <a href="#maneuvers">Maneuvers</a>
 
 </div>
 
@@ -150,7 +152,7 @@ The type of martial training you received sets the groundwork for your career as
 All origins are describes at the end of the class description. Select the origin most suitable for your character.
 
 ### Fighting Styles
-At 1st level, a fighter adopts a particular style of fighting as his specialty. All styles are listed *<a href="#internal-FightingStyles">here</a>*.
+At 1st level, a fighter adopts a particular style of fighting as his specialty. All styles are listed *<a href="#fighting-styles">here</a>*.
 
 Whenever you gain a level in a class that has the Fighting Style feature, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.
 
@@ -190,7 +192,7 @@ Starting at 2nd level, your tactical expertise makes you a deadly force on the b
 #### Maneuvers
 You learn two maneuvers of your choice, and one decided by your fighter background. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack. You learn additional maneuvers at certain levels as shown in the Maneuvers Known section of the Fighter table.
 
-Each time you learn new maneuvers, you can also replace one maneuver you know with a different one. All maneuvers are listed *<a href="#internal-combatManeuvers">here</a>*.
+Each time you learn new maneuvers, you can also replace one maneuver you know with a different one. All maneuvers are listed *<a href="#maneuvers">here</a>*.
 
 In addition you always have access to the ***Action Surge*** maneuver (see below)
 
@@ -215,6 +217,7 @@ At 3rd level, you choose an archetype that you strive to emulate in your combat 
 When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you gain an additional skill point to spend on your class skills.
 
 <!--
+
 ### Ability Score Improvement
 When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 -->
@@ -234,7 +237,7 @@ As a ***reaction***, you can reroll a saving throw that you fail.
 Your courageous words inspire valor and ferocity in your allies, allowing you to use your ***reaction*** to allow an ally within 30 feet who can see or hear you to reroll a failed saving throw.
 
 
-<h2><a class="internal-link" name="internal-origins">Fighter Origins</a></h2>
+## Fighter Origins
 
 The type of martial training you received sets the groundwork for your career as a fighter. Select the origin most suitable for your character.
 
@@ -302,37 +305,38 @@ The type of martial training you received sets the groundwork for your career as
 
 </div>
 
-<h2><a class="internal-link" name="internal-archetypes">Martial Archetypes</a></h2>
+## Martial Archetypes
 
 Different fighters choose different approaches to perfecting their fighting prowess. The martial archetype you choose to emulate reflects your approach.
 
 
 <div class="columnsthree">
 
-- **<a href="#internal-arbalestion">Arbalestion</a>** - Crossbows expert.
-- **<a href="#internal-arcaneArcher">Arcane Archer</a>** - A fighter combining archery with magic.
+- **<a href="#arbalestion">Arbalestion</a>** - Crossbows expert.
+- **<a href="#arcane-archer">Arcane Archer</a>** - A fighter combining archery with magic.
 - **<a href="#internal-Brute">Brute</a>** - The Brute's way of fighting is simple: Pick up the biggest, heaviest thing you can find, and squash your enemies with it.
-- **<a href="#internal-bulwark">Bulwark</a>** - Bulwarks shine as defensive warriors.
-- **<a href="#internal-champion">Champion</a>** - The Champion focuses on the development of raw physical power honed to deadly perfection.
-- **<a href="#internal-daredevil">Daredevil</a>** - Your fighting style is memorable and displays the full range of your training.
-- **<a href="#internal-eldritchKnight">Eldritch Knight</a>** - The Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic.
-- **<a href="#internal-ghostOperative">Ghost&nbsp;Operative</a>** - Ghost Operatives are the elite scouts and strike force of a well-trained military unit.
-- **<a href="#internal-guerilla">Guerilla</a>** - Experts in adapting to any environment and situation.
-- **<a href="#internal-kindler">Kindler</a>** - Kindlers are fighters who choose to bear a torch for others, both a symbolic flame which signifies guidance, protection, and life, as well as a literal one.
-- **<a href="#internal-juggernaut">Juggernaut</a>** - An unstoppable, overwhelming force whose charging advance cannot be stopped.
-- **<a href="#internal-runeguard">Runeguard</a>** - The runeguard seeks the magical power within ancient languages to hasten the speed of their blade and strengthen their armor.
-- **<a href="#internal-sellsword">Sellsword</a>** - A Sellsword will employ whatever underhanded tactics they have to in order to claw their way to victory.
+- **<a href="#bulwark">Bulwark</a>** - Bulwarks shine as defensive warriors.
+- **<a href="#champion">Champion</a>** - The Champion focuses on the development of raw physical power honed to deadly perfection.
+- **<a href="#daredevil">Daredevil</a>** - Your fighting style is memorable and displays the full range of your training.
+- **<a href="#eldritch-knight">Eldritch Knight</a>** - The Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic.
+- **<a href="#ghost-operative">Ghost&nbsp;Operative</a>** - Ghost Operatives are the elite scouts and strike force of a well-trained military unit.
+- **<a href="#guerilla">Guerilla</a>** - Experts in adapting to any environment and situation.
+- **<a href="#kindler">Kindler</a>** - Kindlers are fighters who choose to bear a torch for others, both a symbolic flame which signifies guidance, protection, and life, as well as a literal one.
+- **<a href="#juggernaut">Juggernaut</a>** - An unstoppable, overwhelming force whose charging advance cannot be stopped.
+- **<a href="#runeguard">Runeguard</a>** - The runeguard seeks the magical power within ancient languages to hasten the speed of their blade and strengthen their armor.
+- **<a href="#sellsword">Sellsword</a>** - A Sellsword will employ whatever underhanded tactics they have to in order to claw their way to victory.
 - **<a href="#internal-Skirmisher">Skirmisher or Mariner</a>** - The skirmisher is a warrior trained for speed and the mariner its aquatic variant.
 - **<a href="#internal-Templar">Templar</a>** - A religious fighter.
-- **<a href="#internal-thingSlinger">Thing Slinger</a>** - To these fighters, just about any piece of solid mass they can find will be used to full advantage better than even the most extravagant sword.
-- **<a href="#internal-underdog">Underdog</a>** - A fighter who prefers fighting against impossible odds.
+- **<a href="#thing-slinger">Thing Slinger</a>** - To these fighters, just about any piece of solid mass they can find will be used to full advantage better than even the most extravagant sword.
+- **<a href="#underdog">Underdog</a>** - A fighter who prefers fighting against impossible odds.
 
 
 </div>
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-arbalestion">Arbalestion</a></h1>
+
+# Arbalestion
 <div class="featuresTable">
 
 #### Archetype Features
@@ -380,7 +384,8 @@ As an ***action***, you can choose one creature or object with range and within 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-arcaneArcher">Arcane Archer</a></h1>
+
+# Arcane Archer
 <div class="featuresTable">
 
 #### Arcane Archer Features
@@ -489,7 +494,8 @@ If an option requires a saving throw, your Arcane Shot save DC equals 8 + your p
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-bulwark">Bulwark</a></h1>
+
+# Bulwark
 <div class="featuresTable">
 
 #### Bulwark Features
@@ -529,7 +535,8 @@ You are a master amongst Stalwarts. Your Guardian Stance feature can affect crea
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-champion">Champion</a></h1>
+
+# Champion
 <div class="featuresTable">
 
 #### Champion Features
@@ -562,7 +569,8 @@ You attain the pinnacle of resilience in battle. At the start of each of your tu
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-daredevil">Daredevil</a></h1>
+
+# Daredevil
 <div class="featuresTable">
 
 #### Archetype Features
@@ -606,7 +614,8 @@ Each time you reduce a creature to 0 hit points, you may move up to your speed a
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-eldritchKnight">Eldritch Knight</a></h1>
+
+# Eldritch Knight
 <div class="featuresTable">
 
 #### Eldritch Knight Features
@@ -712,7 +721,8 @@ When you use your action to cast a spell, you can make one weapon attack as a **
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-ghostOperative">Ghost Operative</a></h1>
+
+# Ghost Operative
 <div class="featuresTable">
 
 #### Ghost Operative Features
@@ -760,7 +770,8 @@ You can quickly neutralize a target if you can get the drop on them. You have ad
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-guerilla">Guerilla</a></h1>
+
+# Guerilla
 <div class="featuresTable">
 
 #### Archetype Features
@@ -834,7 +845,8 @@ The following maneuvers are available only to the Guerrilla archetype. Guerrilla
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-juggernaut">Juggernaut</a></h1>
+
+# Juggernaut
 <div class="featuresTable">
 
 #### Archetype Features
@@ -880,7 +892,8 @@ Additionally, any creature within 15 ft of the opposite opening takes 4d8 bludge
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-kindler">Kindler</a></h1>
+
+# Kindler
 <div class="featuresTable">
 
 #### Kindler Features
@@ -928,7 +941,8 @@ There are no longer any limits on how often you can use your Living Flame.
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-runeguard">Runeguard</a></h1>
+
+# Runeguard
 <div class="featuresTable">
 
 #### Runeguard Features
@@ -1059,7 +1073,8 @@ Below are the runic augmentations for each of the five master runes. In the anci
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-sellsword">Sellsword</a></h1>
+
+# Sellsword
 <div class="featuresTable">
 
 #### Archetype Features
@@ -1105,7 +1120,8 @@ If this attack reduces the creature to 0 hit points, you can gloat about it as p
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-skirmisher">Skirmisher</a></h1>
+
+# Skirmisher
 <div class="featuresTable">
 
 #### Skirmisher Features
@@ -1138,7 +1154,8 @@ As an **action**, you may make an attack against every enemy within your reach. 
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-templar">Templar</a></h1>
+
+# Templar
 <div class="featuresTable">
 
 #### Templar Features
@@ -1241,7 +1258,8 @@ Once you use this feature, you must finish a long rest before you can use it aga
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-thingSlinger">Thing Slinger</a></h1>
+
+# Thing Slinger
 <div class="featuresTable">
 
 #### Prerequisite
@@ -1312,7 +1330,8 @@ This deals type deal an additional 2d4 damage on a hit per size tier of the crea
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-underdog">Underdog</a></h1>
+
+# Underdog
 <div class="featuresTable">
 
 #### Archetype Features
@@ -1360,8 +1379,10 @@ At the end of your turn after using this feature, you gain 2 levels of exhaustio
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-celestialKnight">Restricted to Aasimar characters</a></h2>
-<h1>Celestial Knight</h1>
+
+## Restricted to Aasimar characters
+
+# Celestial Knight
 <div class="featuresTable">
 
 #### Archetype Features
@@ -1418,8 +1439,10 @@ You have realised the full potential of your celestial heritage. You can now act
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-tinkerKnight">Restricted to Gnome characters</a></h2>
-<h1>Tinker Knight</h1>
+
+## Restricted to Gnome characters
+
+# Tinker Knight
 <div class="featuresTable">
 
 #### Archetype Features
@@ -1553,8 +1576,10 @@ The following maneuvers are available only to a Tinker knight. Tinker knights fo
 
 
 <hr class="classdivider">
-<h2><a class="internal-link" name="internal-warslingSniper">Restricted to Halfling characters</a></h2>
-<h1>Warsling Sniper</h1>
+
+## Restricted to Halfling characters
+
+# Warsling Sniper
 <div class="featuresTable">
 
 #### Archetype Features
@@ -1600,7 +1625,7 @@ Your sling attacks score a critical hit on a roll of 19-20.
 When you score a critical hit with a sling against a target, you can choose to give that target disadvantage on attack rolls and ability checks, the blinded condition, or the deafened condition until the start of your next turn, or you can choose to make the target fall prone.
 
 
-<h2><a class="internal-link" name="internal-FightingStyles">Fighting Styles</a></h2>
+## Fighting Styles
 
 You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.
 
@@ -1693,7 +1718,7 @@ Whenever you gain a level in a class that has the Fighting Style feature, you ca
 </div>
 
 
-<h2><a class="internal-link" name="internal-combatManeuvers">Maneuvers</a></h2>
+## Maneuvers
 
 If a maneuver has prerequisites, you must meet them to learn it. You can learn the maneuver at the same time you meet its prerequisites. A level prerequisite refers to your class level.
 

@@ -6,18 +6,18 @@ type: index
 
 <div class="toc">
 
-<h5>Sections</h5>
-<a href="../_OldRules/feats.html#internal-ArmorandShields">Armor and Shields</a><br/>
-<a href="../_OldRules/feats.html#internal-Featsfortheathleticandtough">Feats for the athletic and tough</a><br/>
-<a href="../_OldRules/feats.html#charisma">Charismatic feats</a><br/>
-<a href="../_OldRules/feats.html#combat">Combat Feats</a><br/>
-<a href="../_OldRules/feats.html#faith">Faith feats</a><br/>
-<a href="../_OldRules/feats.html#magic">Magic feats</a><br/>
-<a href="../_OldRules/feats.html#observe">Observe and sneak</a><br/>
-<a href="../_OldRules/feats.html#skill">Skills and knowledge </a><br/>
-<a href="../_OldRules/feats.html#unarmed">Unarmed and improvised combat</a><br/>
-<a href="../_OldRules/feats.html#weapon">Weapon specific feats</a><br/>
-<a href="../_OldRules/feats.html#other">Other feats</a>
+##### Sections
+<a href="#internal-ArmorandShields">Armor and Shields</a><br/>
+<a href="#internal-Featsfortheathleticandtough">Feats for the athletic and tough</a><br/>
+<a href="#charisma">Charismatic feats</a><br/>
+<a href="#combat">Combat Feats</a><br/>
+<a href="#faith">Faith feats</a><br/>
+<a href="#magic">Magic feats</a><br/>
+<a href="#observe">Observe and sneak</a><br/>
+<a href="#skill">Skills and knowledge </a><br/>
+<a href="#unarmed">Unarmed and improvised combat</a><br/>
+<a href="#weapon">Weapon specific feats</a><br/>
+<a href="#other">Other feats</a>
 </div>
 
 

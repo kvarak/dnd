@@ -6,11 +6,12 @@ layout: default
 <div class="toc" markdown="1">
 
 ##### <a href="#internal-traits">Traits</a>
+
 ##### <a href="#internal-classoptions">Class Options</a>
-<a href="#internal-air">Air genasi</a><br/>
-<a href="#internal-earth">Earth genasi</a><br/>
-<a href="#internal-fire">Fire genasi</a><br/>
-<a href="#internal-water">Water genasi</a>
+<a href="#air-genasi">Air genasi</a><br/>
+<a href="#earth-genasi">Earth genasi</a><br/>
+<a href="#fire-genasi">Fire genasi</a><br/>
+<a href="#water-genasi">Water genasi</a>
 
 </div>
 
@@ -111,7 +112,8 @@ When you select one of the following classes as a genasi, the following changes 
 </div>
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-air">Air Genasi</a></h1>
+
+# Air Genasi
 
 As changeable as the weather, an air genasi's moods shift from calm to wild and violent with little warning, but these storms rarely last long. Air genasi typically have light blue skin, hair, and eyes. A faint but constant breeze accompanies them, tousling the hair and stirring the clothing. Some air genasi speak with breathy voices, marked by a faint echo. A few display odd patterns in their flesh. They are also known as Sylphs.
 
@@ -174,7 +176,8 @@ The ever-changing patterns of weather seem simple to you, due to your deep conne
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-earth">Earth Genasi</a></h1>
+
+# Earth Genasi
 
 As an earth genasi, you have inherited some measure of control over earth, reveling in superior strength and solid power. You tend to avoid rash decisions, pausing long enough to consider your options before taking action. An earth genasi is also known as an Oread.
 
@@ -251,7 +254,8 @@ Earth genasi approach some classes a bit differently than other folk. In additio
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-fire">Fire genasi</a></h1>
+
+# Fire genasi
 
 As a fire genasi, you have inherited the volatile mood and keen mind of the fiery efreet. You tend toward impatience and making snap judgments. Rather than hide your distinctive appearance, you exult in it. Nearly all fire genasi are feverishly hot as if burning inside, an impression reinforced by flaming red, coal-black, or ash-gray skin tones. The more human-looking have fiery red hair that writhes under extreme emotion, while more exotic specimens sport actual flames dancing on their heads. Fire genasi voices might sound like crackling flames, and their eyes flare when angered. Some are accompanied by the faint scent of brimstone. They are also known as Ifrit.
 
@@ -298,7 +302,8 @@ Fire genasi approach some classes a bit differently than other folk. In addition
 
 
 <hr class="classdivider">
-<h1><a class="internal-link" name="internal-water">Water genasi</a></h1>
+
+# Water genasi
 
 The lapping of waves, the spray of sea foam on the wind, the ocean depths; all of these things call to your heart. You wander freely and take pride in your independence, though others might consider you selfish.
 
