@@ -11,7 +11,7 @@
 # - Focus on daily development workflow
 # - Everything works out of the box
 
-.PHONY: help serve build extract extract-archetypes extract-folk clean find-broken-links ci-build ci-link-check update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose validate-profiles
+.PHONY: help serve build extract extract-folk clean find-broken-links ci-build ci-link-check update-creator-data check-creator-sync test-creator-data lint-md lint-md-fix test-structure test-structure-full test test-verbose
 
 # Docker configuration
 # Works on Mac (Intel & Apple Silicon), Linux, and Windows
@@ -31,8 +31,7 @@ help:
 	@echo "  make build              - Rebuild Docker image"
 	@echo "  make clean              - Stop containers and clean up"
 	@echo "  make minify             - Regenerate minified CSS/JS"
-	@echo "  make extract            - Re-extract searchable content, archetypes, and folk"
-	@echo "  make extract-archetypes - Extract archetypes from class files to _data/archetypes.yml"
+	@echo "  make extract            - Re-extract searchable content and folk"
 	@echo "  make extract-folk       - Extract folk and subtypes from folk files to _data/folk.yml"
 	@echo ""
 	@echo "Character Creator:"
@@ -42,7 +41,7 @@ help:
 	@echo ""
 	@echo "Utilities:"
 	@echo "  make find-broken-links   - Find placeholder images to replace"
-	@echo "  make test                - Run all validation (lint-md + validate-profiles)"
+	@echo "  make test                - Run all validation (lint-md)"
 	@echo "  make test-verbose        - Run validation with detailed output"
 	@echo "  make lint-md             - Validate markdown formatting and structure"
 	@echo "  make lint-md-quiet       - Validate markdown with minimal output"
@@ -50,7 +49,6 @@ help:
 	@echo "  make test-structure      - Validate Varlyn patterns for MVP files (Human+Elf+Tiefling, Fighter+Wizard+Cursed)"
 	@echo "  make test-structure-quiet - Validate Varlyn patterns with minimal output"
 	@echo "  make test-structure-full - Validate Varlyn patterns for all Folk/Class files"
-	@echo "  make validate-profiles   - Validate class profile frontmatter schema (checks archetype anchor naming)"
 	@echo ""
 	@echo "🐳 Everything runs in Docker - no local setup needed!"
 
@@ -60,14 +58,9 @@ build:
 	docker build -t $(DOCKER_IMAGE) .
 
 # Extract searchable content (skills, familiars, feats, etc.)
-extract: build extract-archetypes extract-folk
+extract: build extract-folk
 	@echo "🔍 Extracting searchable content..."
 	@docker run --rm -v $(PWD):/srv/jekyll -v $(BUNDLE_CACHE):/usr/local/bundle $(DOCKER_IMAGE) ruby tools/extract-searchable.rb
-
-# Extract archetypes from class files
-extract-archetypes: build
-	@echo "🎭 Extracting archetypes from class files..."
-	@docker run --rm -v $(PWD):/srv/jekyll -v $(BUNDLE_CACHE):/usr/local/bundle $(DOCKER_IMAGE) ruby tools/extract-archetypes.rb
 
 # Extract folk and subtypes from folk files
 extract-folk: build
@@ -157,27 +150,17 @@ test-structure-full: build
 test-verbose: build
 	@echo "🚀 Running validation tools..."
 	@echo ""
-	@echo "📝 Step 1: Markdown linting..."
+	@echo "📝 Markdown linting..."
 	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent && \
-		node tools/lint-markdown.js docs" && \
-	echo "" && \
-	echo "� Step 2: Class profile validation..." && \
-	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent js-yaml && \
-		node tools/validate-class-profiles.js"
+		node tools/lint-markdown.js docs"
 
 # Quiet mode versions (minimal output with dots)
 test: build
 	@echo "🚀 Running validation (quiet mode)..."
 	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent && \
-		node tools/lint-markdown.js --quiet docs" && \
-	echo "" && \
-	echo "📋 Validating class profiles..." && \
-	docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent js-yaml && \
-		node tools/validate-class-profiles.js"
+		node tools/lint-markdown.js --quiet docs"
 
 lint-md-quiet: build
 	@echo "📝 Markdown linting (quiet)..."
@@ -190,11 +173,4 @@ test-structure-quiet: build
 	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
 		npm install --silent js-yaml && \
 		node tools/test-structure.js --mvp --quiet"
-
-# Validate class profile frontmatter schema
-validate-profiles: build
-	@echo "🎭 Validating class profile schemas..."
-	@docker run --rm -v $(PWD):/srv/jekyll -w /srv/jekyll $(DOCKER_IMAGE) sh -c " \
-		npm install --silent js-yaml && \
-		node tools/validate-class-profiles.js"
 

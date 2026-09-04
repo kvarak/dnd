@@ -1,37 +1,6 @@
 ---
 title: Druid
 layout: default
-profile:
-  traits: ["nature-guardian", "healing-magic", "survival-expert", "nature-magic"]
-  archetypes:
-    circle-of-blood:
-      traits: ["shape-mastery", "dual-nature", "adaptable-fighter", "pragmatic-fighter"]
-    circle-of-dreams:
-      traits: ["fey-touched", "healing-magic", "utility-magic", "intuitive-value"]
-    circle-of-dust:
-      traits: ["survival-expert", "gritty-value", "protective-value"]
-    circle-of-the-forest:
-      traits: ["ancient-knowledge", "ritual-caster", "scholar", "disciplined-value"]
-    circle-of-the-garden:
-      traits: ["plant-mastery", "healing-magic", "protective-value", "nurturing-soul"]
-    circle-of-the-land:
-      traits: ["terrain-bond", "utility-magic", "survival-expert", "tactical-value"]
-    circle-of-the-moon:
-      traits: ["shape-mastery", "natural-armor", "instinctive-combatant", "wild-spirit"]
-    circle-of-the-sands:
-      traits: ["survival-expert", "endurance-specialist", "gritty-value", "disciplined-value"]
-    circle-of-the-shepherd:
-      traits: ["beast-friend", "protective-value", "inspirational-leader", "nurturing-soul"]
-    circle-of-spores:
-      traits: ["decay-mastery", "necromancy-dabbler", "disciplined-value", "pragmatic-fighter"]
-    circle-of-storms:
-      traits: ["storm-caller", "damage-magic", "ranged-expert", "chaotic-value"]
-    circle-of-the-swarm:
-      traits: ["swarm-tactics", "tactical-value", "mobile-combatant", "cunning-value"]
-    circle-of-the-ancients:
-      restriction:
-        folk: "lizardfolk"
-      traits: ["ancestral-memory", "draconic-heritage", "natural-armor", "proud-value"]
 ---
 
 <div class="toc" markdown="1">

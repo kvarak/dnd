@@ -2013,7 +2013,7 @@ function renderPlayerClassHeatmap() {
   const container = document.getElementById('player-class-heatmap');
   if (!container) return;
 
-  // Valid classes from archetypes.yml (current classes)
+  // Valid classes (current classes)
   const validClasses = [
     'alchemist', 'barbarian', 'bard', 'cavalier', 'cleric', 'cursed',
     'druid', 'feyblood', 'fighter', 'inquisitor', 'paladin', 'professional',

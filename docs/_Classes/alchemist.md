@@ -1,21 +1,6 @@
 ---
 title: Alchemist
 layout: default
-profile:
-  traits: ["innovation-specialist", "craftsman-background", "scholar", "versatile-magic", "academic-background"]
-  archetypes:
-    apothecary:
-      traits: ["potion-brewer", "healing-magic", "protective-value", "urban-background"]
-    corpsecrafter:
-      traits: ["necromancy-dabbler", "death-dealer", "chaotic-value", "innovation-specialist"]
-    mad-bomber:
-      traits: ["explosives-expert", "damage-magic", "reckless-value", "throwing-expert"]
-    poisoner:
-      traits: ["poison-expert", "death-dealer", "stealth-master", "disciplined-value", "urban-background"]
-    psychedelic:
-      traits: ["mind-alteration", "control-magic", "illusion-specialist", "chaotic-value"]
-    transmuter:
-      traits: ["transmutation-magic", "versatile-magic", "arcane-magic"]
 ---
 
 <div class="toc" markdown="1">

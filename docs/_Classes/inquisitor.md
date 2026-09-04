@@ -1,21 +1,6 @@
 ---
 title: Inquisitor
 layout: default
-profile:
-  traits: ["divine-warrior", "holy-power", "lawful-value", "divine-magic"]
-  archetypes:
-    mission-of-the-cold-iron-warder:
-      traits: ["demon-hunter", "divine-warrior", "protective-value", "disciplined-value"]
-    mission-of-the-crusader:
-      traits: ["inspirational-leader", "zealot-faith", "holy-power", "lawful-value"]
-    mission-of-the-hierophant:
-      traits: ["divine-healer", "protective-value", "healing-magic", "nurturing-soul"]
-    mission-of-the-hunter:
-      traits: ["stealth-master", "survival-expert", "disciplined-value", "hunting-expert", "monster-hunter", "relentless-hunter"]
-    mission-of-infiltration:
-      traits: ["faith-infiltrator", "social-manipulator", "stealth-master", "cunning-value", "urban-background", "knowledge-seeker", "truth-seeker"]
-    mission-of-witchhunter:
-      traits: ["magic-hunter", "spell-disruptor", "disciplined-value", "protective-value", "knowledge-seeker", "scholar", "truth-seeker"]
 ---
 
 <div class="toc">

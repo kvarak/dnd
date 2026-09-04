@@ -44,7 +44,7 @@ Run `make help` to see all available commands.
 1. Create markdown file in appropriate collection (e.g., `docs/_Classes/`, `docs/_Folk/`, `docs/_Campaigns/`)
 2. Add YAML frontmatter (see existing files)
 3. Update `_data/` if adding characters/scenery
-4. Run `make validate-profiles` (classes) or `make lint-md` (formatting)
+4. Run `make lint-md` (formatting)
 
 ## Troubleshooting
 
@@ -70,13 +70,12 @@ See `tools/README.md` for complete tool documentation and usage.
 
 ## Adding New Archetypes
 
-1. **Add archetype to class file** — Follow existing YAML structure with a `traits` array
-2. **Define trait names** — Use consistent trait names across archetypes
-3. **Add folk restrictions (optional)** — Use `restriction.folk` field if archetype is folk-specific
-4. **Validate schema** — Run `make validate-profiles` to check structure
-5. **Update search** — Run `make extract` to include in searchable content
+1. **Add archetype to class file** — Add a new heading/section following the existing archetype structure
+2. **Add internal anchor** — Use `{: #internal-archetypeName}` and matching TOC entry
+3. **Add folk restrictions (optional)** — Note folk-specific restrictions in the archetype's description
+4. **Update search** — Run `make extract` to include in searchable content
 
-For trait naming and archetype patterns, reference existing class files in `docs/_Classes/`.
+For archetype patterns, reference existing class files in `docs/_Classes/`.
 
 ---
 

@@ -1,25 +1,6 @@
 ---
 title: Swashbuckler
 layout: default
-profile:
-  traits: ["agile-fighter", "mobile-combatant", "duelist", "refined", "evasive"]
-  archetypes:
-    blacksnake:
-      traits: ["martial", "tactical-value", "precise", "controlling", "disciplined-value", "exotic-weapons", "disarming"]
-    brawler:
-      traits: ["martial", "reckless-value", "improvised", "adaptive", "physical", "unarmed-combat"]
-    corsair:
-      traits: ["commanding", "charismatic", "adaptive", "outlaw", "seafaring"]
-    daredevil:
-      traits: ["acrobatic", "mobile", "reckless", "daring", "charismatic", "multitasking", "crowd-fighter"]
-    duelist:
-      traits: ["refined", "precise", "honorable", "disciplined-value", "perfectionist", "duelist", "critical-striker"]
-    fatebender:
-      traits: ["lucky", "chaotic-value", "improvised", "unpredictable-power", "probability-manipulation", "fate-touched", "reckless"]
-    highwayman:
-      traits: ["criminal-background", "mounted", "outlaw", "wanderer-spirit", "cunning-value", "theatrical", "rebellious", "dual-identity", "masked"]
-    musketeer:
-      traits: ["military-background", "disciplined-value", "teamwork-focused", "noble-background", "honorable", "tactical-value", "supportive-role", "loyal-guardian", "commanding"]
 ---
 
 <div class="toc" markdown="1">

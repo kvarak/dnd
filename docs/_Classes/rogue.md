@@ -1,39 +1,6 @@
 ---
 title: Rogue
 layout: default
-profile:
-  traits: ["stealth-master", "cunning-value", "cunning-value", "social-manipulator"]
-  archetypes:
-    arcane-trickster:
-      traits: ["arcane-magic", "illusion-specialist", "scholar", "mage-hand-master"]
-    assassin:
-      traits: ["death-dealer", "disguise-master", "disciplined-value", "professional-killer"]
-    blade-juggler:
-      traits: ["throwing-expert", "ranged-expert", "precise", "fast-hands", "initiative-specialist"]
-    daggerspell-mage:
-      traits: ["damage-magic", "scholar", "weapon-specialist", "transmutation-magic"]
-    divine-herald:
-      traits: ["divine-magic", "zealot-faith", "faith-infiltrator", "truth-seeker"]
-    gambler:
-      traits: ["lucky", "risk-taker", "fate-touched", "chaotic-value"]
-    investigator:
-      traits: ["knowledge-seeker", "truth-seeker", "otherworldly-knowledge", "urban-background", "mind-reader"]
-    jester:
-      traits: ["charismatic", "trickster-magic", "artistic-excellence", "disguise-master"]
-    keen-blade:
-      traits: ["tactical-value", "scholar", "precise", "duelist", "initiative-specialist"]
-    ruffian:
-      traits: ["strength-specialist", "adaptive", "reckless-value", "unarmed-combat", "physical"]
-    serpentine-infiltrator:
-      traits: ["shapeshifter", "poison-expert", "infiltrator", "shadow-binding", "stealth-master"]
-    spellwarp-sniper:
-      traits: ["ranged-expert", "damage-magic", "sniper", "spell-disruptor", "precise"]
-    thief:
-      traits: ["classic-rogue", "treasure-hunter", "acrobatic", "lock-picker", "fast-hands"]
-    feline-stalker:
-      restriction:
-        folk: ["catfolk"]
-      traits: ["athletic-prowess", "stealth-master", "hunting-expert", "darkvision-master", "natural-armor"]
 ---
 
 <div class="toc" markdown="1">

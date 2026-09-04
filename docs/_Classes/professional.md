@@ -1,27 +1,6 @@
 ---
 title: Professional
 layout: default
-profile:
-  traits: ["knowledge-seeker", "versatile-magic", "adaptable-fighter", "engineering-mind", "craftsman-background", "multitasking"]
-  archetypes:
-    arcanist:
-      traits: ["arcane-magic", "scholar", "utility-magic"]
-    archaeologist:
-      traits: ["ancient-lore", "explorer", "survival-expert", "athletic-prowess"]
-    astronomer:
-      traits: ["scholar", "divination-magic", "wisdom-seeker", "disciplined-value"]
-    candlemaker:
-      traits: ["fire-affinity", "craftsman-background", "illuminating-light"]
-    cook:
-      traits: ["supportive-role", "healing-magic", "nurturing-soul", "artistic-excellence"]
-    diplomat:
-      traits: ["social-manipulator", "charismatic", "diplomatic-soul", "urban-background"]
-    forester:
-      traits: ["nature-guardian", "survival-expert", "wild-spirit", "nature-background"]
-    psychologist:
-      traits: ["mind-reader", "tactical-value", "wisdom-seeker", "scholar"]
-    smith:
-      traits: ["craftsman-background", "weapon-master", "physical"]
 ---
 
 <div class="toc">

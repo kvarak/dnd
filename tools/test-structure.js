@@ -67,11 +67,6 @@ class StructureTester extends ValidationBase {
 
     // Validate class-specific patterns
     this.validateClassStructure(content, fileName);
-
-    // Validate archetype anchors if archetypes are defined
-    if (frontmatter.profile && frontmatter.profile.archetypes) {
-      this.validateArchetypeAnchors(content, frontmatter.profile.archetypes, fileName);
-    }
   }
 
   /**
@@ -208,43 +203,6 @@ class StructureTester extends ValidationBase {
     if (!hasArchetypes) {
       this.addWarning(`${fileName} - No archetype sections detected`);
     }
-  }
-
-  /**
-   * Convert kebab-case to camelCase
-   * Examples: "champion" -> "champion", "eldritch-knight" -> "eldritchKnight"
-   */
-  kebabToCamelCase(str) {
-    const parts = str.split('-');
-    return parts[0] + parts.slice(1).map(word => word.charAt(0).toUpperCase() + word.slice(1)).join('');
-  }
-
-  /**
-   * Validate that archetype anchors match the expected camelCase format
-   * based on frontmatter archetype keys
-   */
-  validateArchetypeAnchors(content, archetypes, fileName) {
-    Object.keys(archetypes).forEach(archetypeKey => {
-      const expectedAnchor = this.kebabToCamelCase(archetypeKey);
-
-      // Check for the anchor definition in the content
-      const anchorPattern = new RegExp(`name="internal-${escapeRegex(expectedAnchor)}"`, 'i');
-      if (!anchorPattern.test(content)) {
-        this.addError(
-          `${fileName} - Missing or incorrect anchor for archetype '${archetypeKey}'. ` +
-          `Expected: name="internal-${expectedAnchor}"`
-        );
-      }
-
-      // Check for TOC links to this archetype
-      const tocLinkPattern = new RegExp(`href="#internal-${escapeRegex(expectedAnchor)}"`, 'i');
-      if (!tocLinkPattern.test(content)) {
-        this.addWarning(
-          `${fileName} - No TOC link found for archetype '${archetypeKey}'. ` +
-          `Expected: href="#internal-${expectedAnchor}"`
-        );
-      }
-    });
   }
 
   /**

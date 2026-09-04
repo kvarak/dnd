@@ -1,23 +1,6 @@
 ---
 title: Feyblood
 layout: default
-profile:
-  traits: ["fey-touched", "versatile-magic", "chaotic-value", "unpredictable-power", "wild-spirit", "fey-beauty", "nature-magic"]
-  archetypes:
-    boggart-affinity:
-      traits: ["trickster-magic", "social-manipulator", "cunning-value", "cunning-value"]
-    nereid-affinity:
-      traits: ["elemental-affinity", "aquatic-heritage", "healing-magic", "intuitive-value"]
-    oread-affinity:
-      traits: ["fey-warrior", "weapon-master", "natural-armor", "reckless-value"]
-    pooka-affinity:
-      traits: ["wild-surges", "chaos-magic", "fate-touched", "chaotic-value"]
-    sidhe-affinity:
-      traits: ["noble-heritage", "inspirational-leader", "protective-value", "proud-value"]
-    sprig-affinity:
-      traits: ["plant-mastery", "nature-guardian", "healing-magic", "disciplined-value"]
-    sylph-affinity:
-      traits: ["fey-beauty", "social-manipulator", "hedonistic-soul", "chaotic-value"]
 ---
 
 <div class="toc" markdown="1">

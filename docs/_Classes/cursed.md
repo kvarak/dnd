@@ -1,27 +1,6 @@
 ---
 title: Cursed
 layout: default
-profile:
-  traits: ["dual-nature", "transmutation-magic", "unpredictable-power", "arcane-magic"]
-  archetypes:
-    alchemical-curse:
-      traits: ["potion-brewer", "alchemical-transformation", "innate-magic", "gritty-value"]
-    chosen:
-      traits: ["celestial-heritage", "holy-power", "divine-warrior", "lawful-value"]
-    curse-from-beyond:
-      traits: ["aberrant-influence", "mind-alteration", "chaotic-value", "tactical-value"]
-    demonic-possession:
-      traits: ["demonic-corruption", "damage-magic", "chaotic-value", "reckless-value"]
-    entropic-rift:
-      traits: ["wild-surges", "entropy-conduit", "chaotic-value", "unpredictable-power"]
-    lycanthropic-curse:
-      traits: ["shapeshifter", "natural-armor", "survival-expert", "intuitive-value"]
-    molded:
-      traits: ["ooze-symbiosis", "adaptable-fighter", "dual-nature", "disciplined-value"]
-    sealed-dragon:
-      traits: ["draconic-heritage", "proud-value", "elemental-affinity", "innate-magic"]
-    shadowcursed:
-      traits: ["shadow-binding", "stealth-master", "death-dealer", "intuitive-value"]
 ---
 
 <div class="toc" markdown="1">

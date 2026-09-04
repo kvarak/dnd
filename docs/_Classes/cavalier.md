@@ -1,25 +1,6 @@
 ---
 title: Cavalier
 layout: default
-profile:
-  traits: ["weapon-master", "tactical-value", "inspirational-leader", "lawful-value", "mounted"]
-  archetypes:
-    knightErrant:
-      traits: ["survival-expert", "charismatic", "wanderer-spirit", "pragmatic-fighter"]
-    order-of-the-blueRose:
-      traits: ["social-manipulator", "protective-value", "lawful-value", "diplomatic-soul"]
-    order-of-the-dragon:
-      traits: ["inspirational-leader", "military-background", "tactical-value", "teamwork-focused"]
-    order-of-the-flame:
-      traits: ["proud-value", "reckless-value", "charismatic", "fearless-heart", "fire-affinity", "daring"]
-    order-of-the-lion:
-      traits: ["noble-background", "loyal-guardian", "disciplined-value", "protective-value"]
-    order-of-the-scales:
-      traits: ["lawful-value", "truth-seeker", "disciplined-value", "justice-seeker", "scholar", "honorable"]
-    order-of-the-shield:
-      traits: ["protective-value", "shield-specialist", "defensive-expert", "loyal-guardian", "endurance-specialist", "mounted"]
-    order-of-the-star:
-      traits: ["religious-value", "divine-warrior", "holy-power", "scholar", "divine-healer", "illuminating-light"]
 ---
 
 <div class="toc" markdown="1">
