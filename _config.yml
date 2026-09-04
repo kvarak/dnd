@@ -35,8 +35,6 @@ collections:
     output: true
   Classes2:
     output: true
-  Equipment:
-    output: true
   Folk:
     output: true
   FolkGeneric:
