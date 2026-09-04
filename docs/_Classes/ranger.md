@@ -1,5 +1,5 @@
 ---
-title: Ranger - New
+title: Ranger
 layout: default
 ---
 

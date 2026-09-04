@@ -1,5 +1,5 @@
 ---
-title: Ranger
+title: Ranger - old
 layout: default
 profile:
   traits: ["survival-expert", "nature-guardian", "stealth-master", "nature-magic"]
