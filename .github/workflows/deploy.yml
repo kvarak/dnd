@@ -44,8 +44,6 @@ jobs:
 
       - name: Extract searchable content and archetypes
         run: |
-          echo "🎭 Extracting archetypes from class files..."
-          ruby tools/extract-archetypes.rb
           echo "🔍 Extracting searchable content..."
           ruby tools/extract-searchable.rb
 
