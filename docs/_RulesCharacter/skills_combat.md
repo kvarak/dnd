@@ -65,6 +65,7 @@ Includes maces, hammers and picks. Weighted toward the top and attached to a sha
 
 ##### Rank 4
 - ***Intimidating Smash***. On your turn, when you score a critical hit or reduce a creature to 0 hit points, you can use a ***reaction*** to make a Strength (Intimidation) check, contested by the Wisdom of creatures that can see and hear you within 30 ft. If you succeed, the creatures are frightened of you until the end of your next turn.
+- ***Sap***. If you hit a creature with this weapon, that creature has disadvantage on its next attack roll before the start of your next turn.
 </details>
 
 

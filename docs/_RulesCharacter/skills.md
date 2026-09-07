@@ -2885,6 +2885,14 @@ The making of bags and containers made from cloth. You have ***Expertise*** on c
 <div markdown="1">
 The skill of creating, setting and concealing traps for the purpose of detaining, damaging, wounding, injuring or killing unwanted trespassers and unsuspecting victims. Characters with this skill  are also able to remove the traps set by other persons.
 
+<details><summary>Alarm Traps</summary>
+
+You know how to secure a campsite with little more than cord, bells, stones, and natural materials. By spending 10 minutes preparing an area, you can establish a simple alarm system covering a campsite or enclosed space. The alarm can protect an area up to 20 ft from a central point, such as a campfire, room, or similar location. If a Small or larger creature enters the area, the snare emits a loud rattling alarm audible out to 300 ft.
+
+A creature familiar with your traps, or one moving carefully, can avoid triggering it by succeeding on an opposed Stealth check against your Wisdom (Trapmaking) check. The trap remains active until triggered, dismantled, or you create another Alarm trap.
+
+</details>
+
 <details><summary>Animal Trapping</summary>
 
 You are skilled at using snares and traps to catch animals for their furs and meat, or as a means of pest control. You have ***Expertise*** on checks to create or remove such traps, as well as on all foraging checks.
