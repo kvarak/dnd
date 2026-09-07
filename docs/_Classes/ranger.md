@@ -115,7 +115,7 @@ Your reserve of expertise and instinct is represented by Edge Dice. You have a n
 
 Some of your Hunter's Edges use these dice. An Edge might allow you to roll an Edge Die and add the result to a roll or effect, or it may require you to expend an Edge Die to activate a special ability. If an Edge refers to your Edge Die, use the die size shown for your ranger level in the ranger class table.
 
-After you finish a short rest, you can expend one Edge Die to regain the use of one Hunter's Edge that you have used and that normally regains its use only when you finish a long rest.
+As a bonus action, you can expend one Edge Die to regain the use of one Hunter's Edge that you have used and that normally regains its use only when you finish a long rest. You can only do this once per edge.
 
 You can regain all expended Edge Dice when you finish a long rest.
 
