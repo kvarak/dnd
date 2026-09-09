@@ -345,7 +345,7 @@ An awakened approach to some classes is a bit different than that of other races
 - ### Warlock
     The patron might be the main reason that an awakened Warlock is alive. If so, the patron probably has a good reason and grants power even if the Warlock is not perfectly suited for it.
 
-    If you are awakened, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus. In addition, you learn an additional cantrip.
+    If you are awakened, whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus. In addition, you learn an additional cantrip.
 
     <hr class="dividerinfolk">
 

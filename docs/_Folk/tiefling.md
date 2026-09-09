@@ -342,7 +342,7 @@ An tiefling approaches some classes is a bit different than other races. When yo
 -   ### Warlock
     Some tieflings consider themselves already beholden to a patron, the fiendish being which is their heritage, so making a pact with another is out of the question.
 
-    If you have some kind of fiendish patron, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus. In addition, you learn an additional cantrip.
+    If you have some kind of fiendish patron, whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus. In addition, you learn an additional cantrip.
 
     <hr class="dividerinfolk">
 

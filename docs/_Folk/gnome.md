@@ -330,7 +330,7 @@ An gnome approaches some classes is a bit different than other races. When you s
 - ### Warlock
     Just as any other folk, gnomes sometimes want to take shortcuts to power, safety, knowledge or, as is the case for rock gnomes, just for curiousity and fun.
 
-    Whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    Whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
     <hr class="dividerinfolk">
 

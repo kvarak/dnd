@@ -440,7 +440,7 @@ A dwarfs approach to some classes is a bit different than that of other races. W
     ##### Lost or Stolen Dwarf
     An otherwordly being might very well be the reason why the dwarf became lost or stolen, in order to lure it into its grasp.
 
-    If this is the case, then, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    If this is the case, then, whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
 
     <hr class="dividerinfolk">

@@ -386,7 +386,7 @@ Aasimar approach some classes is a bit different than other races. When you sele
 
     Protector Aasimar cannot be Warlocks.
 
-    If you are a fallen Aasimar, whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus. In addition, you learn an additional cantrip.
+    If you are a fallen Aasimar, whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus. In addition, you learn an additional cantrip.
 
     <hr class="dividerinfolk">
 

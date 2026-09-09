@@ -213,7 +213,7 @@ Humans approach some classes a bit different compared to other races. When you s
 -   ### Warlock
     Members of other races often see humans as reckless, which is very much apparent with some human warlocks who enter pacts without considering the consequences, or even if they would be able to handle it. However, most of them do.
 
-    Whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    Whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
     <hr class="dividerinfolk">
 
