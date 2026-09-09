@@ -81,18 +81,50 @@ While traveling in bad weather, each character makes a **Con save** per HA spent
 
 <div class="box" markdown="1">
 
-## Camp Activities
+## Daily Activity Structure
 
-| Activity | Check |
-|:---------|:------|
-| Prepare Camp | Survival vs Zone DC |
-| Hunting | Survival; 1 ration (+1 per 5 above DC) |
-| Cooking | Cooking; no roll for basic meal |
-| Camouflage | Survival or Stealth |
-| Stand Guard | Perception; skip your camp activity |
-| Subsist | Survival or social; −5 after exploring |
-| Aid | First helper = adv.; each further = +1 |
-| Other | Craft Item, Maintain Gear, Repair, etc. |
+Each day: spend **HA** on Travel/Reconnoiter, then at camp each character performs:
+- **1 Pre-camp Activity** (arrival tasks)
+- **1 Large Rest Activity** (evening work)
+- **1 Small Rest Activity** (quick tasks)
+
+</div>
+<div class="box" markdown="1">
+
+## Camp Activities Reference
+
+| Activity | P | L | S | Skill | Notes |
+|:---------|:-:|:-:|:-:|-------|:------|
+| **Prepare Campsite** | ✓ | | | Survival | Required; vs Zone DC |
+| **Pre-camp:** Map Area, Scout, Fortify, Plan Route | ✓ | ✓ | | Varies | Setup &amp; planning tasks |
+| **Large Rest:** Organize Supplies, Repair, Craft, Learn Language | | ✓ | | Varies | Evening focus tasks |
+| **Trapping** | ✓ | ✓ | | Survival | 1 ration (+1 per 5 above DC); eaten next day |
+| **Cooking** | | ✓ | | Survival | See results table below |
+| **Camp Camouflage, Stand Guard** | ✓ | ✓ | | Varies | Defense &amp; security |
+| **Identify Magic/Alchemy, Decipher Writing** | | ✓ | ✓ | Arcana/Investigation | Quick identification tasks |
+| **Treat Wounds** | ✓ | ✓ | | Medicine | Healing |
+| **Influence NPC** | | ✓ | ✓ | Charisma | Improve attitude |
+| **Rest** |  | ✓ | ✓ | — | Focus on recovery |
+| **Aid** | ✓ | ✓ | ✓ | — | First = adv.; each further = +1 |
+
+</div>
+</div> <!-- END column -->
+
+<!-- ----------------------- Kingmaker Col 3 ----------------------- -->
+
+<div>
+
+<div class="box" markdown="1">
+
+## Cooking Results
+
+| Check Result | Benefit |
+|:---:|-----------|
+| ≤ 5 | Spoilage: lose 1d4 extra rations |
+| 6-15 | No effect |
+| 16-20 | Save 1d4−1 rations (min 0) |
+| 21-25 | As 16-20, +2 temp HP each |
+| ≥ 26 | As 16-20, +5 temp HP each, advantage on disease/poison save |
 
 </div>
 <div class="box" markdown="1">
@@ -110,15 +142,7 @@ While traveling in bad weather, each character makes a **Con save** per HA spent
 | 8 | 9 h 9 m | 1 h 9 m |
 | 9+ | 9 h | 1 h |
 
-</div>
-
-</div> <!-- END column -->
-
-</div>
-
-<!-- ----------------------- Kingmaker Col 2 ----------------------- -->
-
-<div> <!-- END column -->
+</div>  <!-- END column -->
 
 </div> <!-- END grid -->
 
