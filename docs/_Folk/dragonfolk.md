@@ -291,7 +291,7 @@ Dragonfolk approach some classes is a bit differently than other folk. When you 
 - ### Warlock
     Taking shortcuts to power is not the way of dragonfolk. However, some tribes do swear fealty to their dragon kin.
 
-    If you are a Warlock with an ancient dragon patron, then whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    If you are a Warlock with an ancient dragon patron, then whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
     <hr class="dividerinfolk">
 

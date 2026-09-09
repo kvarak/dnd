@@ -512,12 +512,12 @@ An elf approaches some classes a bit different compared than other races. When y
 
     In addition, an eladrin might agree on a deal from another patron, only because they are bored, or they because  being immortal, they do not concern themselves of any consequences.
 
-    In both cases the eladrin is an excellent vessel of arcane magic. Whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    In both cases the eladrin is an excellent vessel of arcane magic. Whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
     ##### Shadar-kai
     Shadar-kai worship only the Raven Queen, and she is the only patron they need. As a shadar-kai warlock you can select the following aspects of your patron; <a href="../Classes/warlock.html#internal-archfey">***The Archfey***</a>, <a href="../Classes/warlock.html#internal-death">***Death***</a>, <a href="../Classes/warlock.html#internal-seducer">***the Seducer***</a> and <a href="../Classes/warlock.html#internal-undying">***the Undying***</a>.
 
-    If you have one of these pacts, then whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    If you have one of these pacts, then whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
     ##### Wood elf
     Wood elf warlocks would most probably select a patron close to the natural world.

@@ -285,7 +285,7 @@ Birdfolk approach some classes a bit differently than that of other races. When 
 - ### Warlock
     Taking shortcuts to power is just as common among birdfolk as any other thinking creature.
 
-    Whenever the Warlock class description mentions your Charisma modifier, you may instead use your proficiency bonus.
+    Whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
     <hr class="dividerinfolk">
 
