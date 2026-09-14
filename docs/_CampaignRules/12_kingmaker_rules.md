@@ -11,6 +11,7 @@ type: index
 <a href="#hexploration-activities">Hexploration Activities</a><br/>
 <a href="#campsites">Campsites</a><br/>
 <a href="#weather">Weather</a><br/>
+<a href="#tables">Tables</a><br/>
 
 </div>
 
