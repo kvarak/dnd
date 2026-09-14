@@ -119,15 +119,6 @@ Group activities require the whole party; each counts as one of the day's hexplo
 
 - If there are HAs remaining after moving to the next hex, the party can continue traveling into another adjacent hex or perform other activities. If more HAs are required to move into the next hex than the party has available, the party can spend the remaining HAs to "travel closer" to the next hex, so that if they continue traveling the next day **to the same hex**, they will have already covered part of the distance.
 
-- <div class="block classTable fillClassTable frame" markdown="1">
-
-  | Terrain | HAs Required |
-  |---|:---:|
-  | Open terrain; plains, grasslands, downstream | 1 |
-  | Difficult terrain; typical forest, desert, upstream | 2 |
-  | Greater difficult terrain; steep mountain, typical swamp | 3 |
-  | Road | -1 |
-
 - #### Reconnoiter
 
   You spend time surveying and exploring a specific area, getting the lay of the land and looking for unusual features and specific sites. Reconnoitering a single hex takes a number of hexploration activities equal to the Travel cost for that hex: 1 HA for open terrain, 2 HAs for difficult terrain and 3 HAs for greater difficult terrain. Traveling on roads doesn’t lessen the time required to Reconnoiter.
@@ -136,6 +127,15 @@ Group activities require the whole party; each counts as one of the day's hexplo
   For instance, if you were looking for an obvious rock formation among some hills, you would spend 2 hexploration activities to Reconnoiter the hex, and you’d find the rock formation. But if you were looking for a hidden tengu monastery somewhere in some deep forests, after spending 2 activities to Reconnoiter the forest hex, you would have to succeed at a Perception check as part of your Reconnoiter activity to find the monastery.
 
   Skills that can be helpful when ***Reconnoitering*** a hex include **Investigation**, **Nature**, **Perception**, **Terrain Knowledge**, **Tracking**, **Scouting**, **Survival** and more. Depending on what there is to be found, the DM may call for other skills as well.
+
+- <div class="block classTable fillClassTable frame" markdown="1">
+
+  | Terrain | Travel | Reconnoiter |
+  |---|:---:|:---:|
+  | Open terrain; plains, grasslands, downstream | 1 | 1 |
+  | Difficult terrain; typical forest, desert, upstream | 2 | 2 |
+  | Greater difficult terrain; steep mountain, typical swamp | 3 | 3 |
+  | Road | -1 | +/-0 |
 
 </div>
 
@@ -184,24 +184,25 @@ Some small rest activities have fractions or other limitations, indicating that 
 | Activity | Pre-camp | Large Rest | Small Rest | Skills | Description |
 |----------|:--------:|:----------:|:----------:|---------------|-------------|
 | Aid                   | ✓ | ✓ | ✓ | — | Help another character |
-| Camp Camouflage       | ✓ | ✓ |   | Wisdom (Survival)/Scouting, Dexterity (Stealth) | Hide camp from detection |
-| Cooking               |   | ✓ |   | Wisdom (Survival), Intelligence (Cooking utensils) | Could provide temporary benefits |
-| Craft Item            |   | ✓ |   | Various tools | Downtime crafting work |
-| Decipher Writing      |   | ✓ | ✓ | Intelligence (Investigation) | Read magical or coded text |
+| Camp Camouflage       |   | ✓ |   | Wisdom (Survival)/Scouting, Dexterity (Stealth) | Hide camp from detection |
+| Cooking               |   | ✓ |   | Wisdom (Survival), Intelligence (Cooking) | Could provide temporary benefits |
+| Craft Item            |   | ✓ |   | Various | Downtime crafting work |
+| Decipher Writing      |   | ✓ | ✓ | Intelligence (Investigation), Intelligence (Research) | Read magical or coded text |
 | Fortify Camp          | ✓ | ✓ |   | Intelligence (Craft) | +2 to initiative and Perception |
 | Identify Alchemy      |   | ✓ | ✓ | Intelligence (Arcana), Wisdom (Nature) | Determine alchemical properties |
 | Identify Magic        |   | ✓ | ✓ | Intelligence (Arcana) | Determine magical properties |
 | Influence NPC         |   | ✓ | ✓ | Charisma (Persuasion/Deception) | Improve NPC attitude |
-| Learn Language        |   | ✓ |   | Intelligence | Study a new language |
+| Learn Language        |   | ✓ | ✓ | Intelligence | Study a new language |
 | Map the Area          | ✓ | ✓ |   | Intelligence (Investigation), Wisdom (Survival) | Reduce navigation checks in hex |
-| Organize Supplies     |   | ✓ | ✓ | Intelligence (Survival), Wisdom (Survival) | Reduce ration spoilage |
+| Organize Supplies     |   | ✓ |   | Intelligence (Survival), Wisdom (Survival) | Reduce ration spoilage |
 | Plan Next Day's Route | ✓ | ✓ |   | Intelligence (Nature), Wisdom (Survival) | +1 to Travel/Reconnoiter checks |
 | Repair Item           |   | ✓ |   | Intelligence (Craft)  | Restore item durability |
-| Rest                  |   | ✓ | ✓ | — | Focus on recovery |
+| Relax                 |   | ✓ | ✓ | — | Focus on recovery |
 | Scout Perimeter       | ✓ | ✓ |   | Wisdom (Survival), Wisdom (Perception) | Advantage on detecting ambushes |
 | Stand Guard           | ✓ | ✓ |   | Wisdom (Perception) | Watch for threats |
-| Trapping              | ✓ | ✓ |   | Wisdom (Survival), Foraging/Hunting/Trapping skills | Catch game for next day |
-| Treat Wounds          | ✓ | ✓ |   | Wisdom (Medicine) | Provide medical care |
+| Tell Campfire Story   |   | ✓ |   | Charisma (Performance) | Inspire allies with a rousing tale |
+| Trapping              |   | ✓ |   | Wisdom (Survival), Foraging/Hunting/Trapping skills | Catch game for next day |
+| Treat Wounds          | ✓ | ✓ | ✓ | Wisdom (Medicine) | Provide medical care |
 
 </div>
 
@@ -230,17 +231,19 @@ Some small rest activities have fractions or other limitations, indicating that 
   ##### Cooking Results
   | Check Result | Benefit |
   |:---:|-----------|
-  | ≤ 5 | Some food got spoiled, 1d4 extra rations lost |
-  | 6-15 | No effect |
-  | 16-20 | You make something out of little; the party saves 1d4−1 rations (minimum 0). |
-  | 21-25 | As 16-20, and each character who eats gains 2 temporary hit points until the next long rest starts. |
-  | ≥ 26 | As 16-20, and each character who eats gains 5 temporary hit points and advantage on one saving throw against disease or poison before the next long rest starts. |
+  | ≤ 4 | Some food got spoiled, 1d4 extra rations lost |
+  | 5-14 | No effect |
+  | 15-19 | You make something out of little; the party saves 1d4−1 rations (minimum 0). |
+  | 20-24 | As 15-19, and each character who eats it gains a +1 status bonus to all saving throws until the end of Breaking Camp. |
+  | ≥ 25 | As 20-24, and each character who eats gains 5 temporary hit points and advantage on all saving throws against disease or poison before the end of Breaking Camp. |
 
   </div>
 
 - ##### Decipher Writing
 
-  You attempt to read a magical or coded text. This is done following normal rules for deciphering.
+  You attempt to read a magical, scholarly or coded text. **Coded or ciphered writing:** Make an **Intelligence (Investigation)** check. If you have the **Ciphers** sub-skill, you have **Expertise** on this check. **Magical or scholarly writing:** Make an **Intelligence (Research)** check. If you are in a library or similar place of study, you have **Expertise** on this check.
+
+  The GM sets the DC based on the complexity of the text (simple notes might be DC 10–12, complex magical treatises or advanced ciphers DC 15–20 or higher). On a success, you understand the general meaning or can read the text fluently. On a critical success, you grasp subtle details, hidden meanings or additional insights. On a failure, the text remains gibberish; on a critical failure, you misinterpret it badly, possibly drawing false conclusions.
 
 - ##### Identify Alchemy
 
@@ -270,7 +273,20 @@ Some small rest activities have fractions or other limitations, indicating that 
 
 - ##### Organize Supplies
 
-  You carefully organize the party's supplies, checking for spoilage and managing rations. Make an **Intelligence (Survival)** or **Wisdom (Survival)** check. On a success, reduce the risk of losing rations to spoilage or vermin for the next 24 hours (if a random event causes food loss, only lose half the rations you would normally lose).
+  You carefully organize the party's supplies, checking for spoilage and managing rations. Make an **Intelligence (Survival)** or **Wisdom (Survival)** check.
+
+  <div class="block classTable fillClassTable frame" markdown="1">
+
+  ##### Organize Results
+  | Check Result | Benefit |
+  |:---:|-----------|
+  | ≤ 4 | You misplace a random piece of group equipment, roll on the Group Equipment table. |
+  | 5-14 | No effect |
+  | 15-19 | Your supplies are well-protected from spoilage, rats, and vermin for the next 24 hours. |
+  | 20-24 | As 15-19, and your organization and small surprises lift spirits. The party gains +2 to the next skill check during the evening. |
+  | ≥ 25 | As 20-24, and you can roll on the Lucky Finds table. |
+
+  </div>
 
 - ##### Plan Next Day's Route
 
@@ -294,7 +310,7 @@ Some small rest activities have fractions or other limitations, indicating that 
 
   You repair a damaged item or restore its durability. Make an appropriate **Intelligence (Craft)** check to repair a damaged item or restore durability.
 
-- ##### Rest
+- ##### Relax
 
   You focus purely on recovery during your rest. This allows extra focus on healing and meditation. If done as a Large Rest, you gain advantage on all healing and recovery rolls made during this rest. If done as a Small Rest, you gain advantage on one healing or recovery roll of your choice during this rest.
 
@@ -305,6 +321,16 @@ Some small rest activities have fractions or other limitations, indicating that 
 - ##### Stand Guard
 
   While the others are busy cooking, camouflaging or tending wounds, someone needs to keep their eyes up and their hand near their weapon. You forgo other activities to stay alert, watching the treeline and listening for anything that shouldn't be there. Your **Perception** check is used if a threat approaches during the evening's activities - success means the party has time to react; failure means they're caught mid-task.
+
+- ##### Tell Campfire Story
+
+  You spend the evening regaling your companions with a rousing tale—perhaps one of your previous adventures, a legend from your homeland, or a story passed down through generations. Make a **Charisma (Performance)** check against DC 15, or DC 10 if your story is particularly relevant to the party's recent events, upcoming challenges or the personal stories of those listening.
+
+  Your story affects all allies in camp, but those who spend the evening Relaxing gain the greatest benefit. Allies who are elsewhere performing other activities (such as Trapping or Scout Perimeter) or outside camp are not affected.
+
+  On a success your allies are moved and uplifted. Until the end of Breaking Camp, each ally who was Relaxing gains a **+2 bonus** to attack rolls, ability checks, and saving throws during any combat at this campsite. Other allies in camp who were not Relaxing gain a **+1 bonus** to the same rolls.
+
+  On a failure your allies appreciate the effort, but your story fails to inspire them. No mechanical benefits are gained.
 
 - ##### Trapping
 
@@ -388,3 +414,47 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
   ***Critical Failure*** You reach a wrong conclusion. The DM gives you false information as though you had a critical success.
 
 </div>
+
+
+## Tables
+
+<div class="columnsthree">
+
+- <div class="block classTable fillClassTable frame" markdown="1">
+
+  | d10 | Group Equipment                                        |
+  | --- | ------------------------------------------------------ |
+  | 1   | A length of rope or cord                               |
+  | 2   | A light source (lantern, torch, or candles)            |
+  | 3   | Shelter gear (tent, tarp, or groundsheet)              |
+  | 4   | Cooking equipment (pot, pan, or utensils)              |
+  | 5   | A water container (waterskin, flask, or canteen)       |
+  | 6   | Bedding (bedroll, blanket, or sleeping mat)            |
+  | 7   | Fire-starting supplies (flint, tinder, or matches)     |
+  | 8   | Climbing or utility gear (hook, pegs, or extra cord)   |
+  | 9   | Food supplies (rations, dried meat, or hardtack)       |
+  | 10  | Medical or repair supplies (bandages, salve, or twine) |
+
+  </div>
+
+- <div class="block classTable fillClassTable frame" markdown="1">
+
+  | d10 | Lucky Find |
+  |:---:|-----------|
+  | 1 | Forgotten pouch of spices or tea. Party morale improves. |
+  | 2 | Mislabeled rations from weeks ago—salvage 1d4 rations. |
+  | 3 | Hidden pocket in a pack yields 1d3 useful small items. |
+  | 4 | Cache of coins or trade goods worth 1d6 × 10 sp. |
+  | 5 | An old letter or map you didn't know you had. |
+  | 6 | Perfectly preserved delicacy. Each party member gains advantage on the next check made in the next hour. |
+  | 7 | Dry components for a healing salve. Automatically heal 1d6+2 hp to one character. |
+  | 8 | Extra seasoning and preserved fruit. Next meal is so good each character heals additional 1d4 hp. |
+  | 9 | A forgotten luxury item (wine, cheese, or fine tobacco). +2 morale bonus to party. |
+  | 10 | Uncover a surprising stockpile - gain 1d8 days worth of rations from supplies no one remembered having. |
+
+  </div>
+
+
+</div>
+
+

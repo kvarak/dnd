@@ -93,19 +93,28 @@ Each day: spend **HA** on Travel/Reconnoiter, then at camp each character perfor
 
 ## Camp Activities Reference
 
-| Activity | P | L | S | Skill | Notes |
-|:---------|:-:|:-:|:-:|-------|:------|
-| **Prepare Campsite** | ✓ | | | Survival | Required; vs Zone DC |
-| **Pre-camp:** Map Area, Scout, Fortify, Plan Route | ✓ | ✓ | | Varies | Setup &amp; planning tasks |
-| **Large Rest:** Organize Supplies, Repair, Craft, Learn Language | | ✓ | | Varies | Evening focus tasks |
-| **Trapping** | ✓ | ✓ | | Survival | 1 ration (+1 per 5 above DC); eaten next day |
-| **Cooking** | | ✓ | | Survival | See results table below |
-| **Camp Camouflage, Stand Guard** | ✓ | ✓ | | Varies | Defense &amp; security |
-| **Identify Magic/Alchemy, Decipher Writing** | | ✓ | ✓ | Arcana/Investigation | Quick identification tasks |
-| **Treat Wounds** | ✓ | ✓ | | Medicine | Healing |
-| **Influence NPC** | | ✓ | ✓ | Charisma | Improve attitude |
-| **Rest** |  | ✓ | ✓ | — | Focus on recovery |
-| **Aid** | ✓ | ✓ | ✓ | — | First = adv.; each further = +1 |
+| Activity | P | L | S | Skills | Description |
+|----------|:--------:|:----------:|:----------:|---------------|-------------|
+| Aid                   | ✓ | ✓ | ✓ | — | Help |
+| Camp Camouflage       |   | ✓ |   | Survival/Scouting, Stealth | Hide camp |
+| Cooking               |   | ✓ |   | Survival, Cooking | Temp benefits (see table) |
+| Craft Item            |   | ✓ |   | Various | Create items |
+| Decipher Writing      |   | ✓ | ✓ | Investigation, Research | Read coded text |
+| Fortify Camp          | ✓ | ✓ |   | Craft | +2 to init & Perception |
+| Identify Alchemy      |   | ✓ | ✓ | Arcana, Nature | ID alchemical items |
+| Identify Magic        |   | ✓ | ✓ | Arcana | ID magical items |
+| Influence NPC         |   | ✓ | ✓ | Persuasion/Deception | Improve attitude |
+| Learn Language        |   | ✓ | ✓ | — | Practice language |
+| Map the Area          | ✓ | ✓ |   | Investigation, Survival | -2 to nav checks |
+| Organize Supplies     |   | ✓ |   | Survival | Reduce spoilage |
+| Plan Next Day's Route | ✓ | ✓ |   | Nature, Survival | +1 to Travel checks |
+| Repair Item           |   | ✓ |   | Craft  | Restore durability |
+| Relax                 |   | ✓ | ✓ | — | Recover & rest |
+| Scout Perimeter       | ✓ | ✓ |   | Survival, Perception | Detect ambushes |
+| Stand Guard           | ✓ | ✓ |   | Perception | Watch threats |
+| Tell Campfire Story   |   | ✓ |   | Performance | Inspire allies |
+| Trapping              |   | ✓ |   | Survival, Foraging/Hunting/Trapping skills | Catch game |
+| Treat Wounds          | ✓ | ✓ | ✓ | Medicine | Heal wounds |
 
 </div>
 </div> <!-- END column -->
