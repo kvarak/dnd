@@ -7,9 +7,9 @@ layout: default
 
 #### Awakened
 
-##### <a href="#internal-traits">Traits</a>
-##### <a href="#internal-Variant">Variants</a>
-##### <a href="#internal-class">Class options</a>
+##### <a href="#traits">Traits</a>
+##### <a href="#variants">Variants</a>
+##### <a href="#class">Class options</a>
 
 </div>
 
@@ -57,7 +57,7 @@ Examples of names given in this fashion may be seen, below:
 
 **Names**: Rattlebones, Spore, Rotface, Raven, Bane, Carver, Drudge, Rook, Mort, Pale, Minion, Crumble, Shade
 
-## <a class="internal-link" name="internal-traits">Awakened traits</a>
+## Traits
 
 Your awakened character has an assortment of innate abilities.
 
@@ -105,7 +105,7 @@ Your awakened character has an assortment of innate abilities.
 
 </div>
 
-## <a class="internal-link" name="internal-Variant">Awakened Variants</a>
+## Variants
 
 Different types of awakened undead are available to you.
 Choose Bound spirit, Ghoul, Mummy, Revenant, or Skeleton.
@@ -356,7 +356,7 @@ Skeletons make tireless laborers, and despite their lack of a brain, some skelet
 
 </div>
 
-## <a class="internal-link" name="internal-class">Class Options</a>
+## Class Options
 
 Awakened approach some classes a bit differently than other folk.
 When you select one of these classes, it is modified as follows:

@@ -74,7 +74,7 @@ The name might recall an event or center on a habit.
 
 </div>
 
-## <a class="internal-link" name="internal-DragonbornTraits">Dragonborn Traits</a>
+## Dragonborn Traits
 
 Your draconic heritage manifests in a variety of traits you share with other dragonborn.
 
@@ -196,7 +196,7 @@ Roll an additional feature to personalize your dragonborn.
 
 </div>
 
-## <a class="internal-link" name="internal-DragonbornClassOptions">Dragonborn Class Options</a>
+## Dragonborn Class Options
 
 Dragonfolk approach some classes is a bit differently than other folk.
 When you select a class, it is modified as follows:
@@ -460,7 +460,7 @@ Because kobolds can change sex to suit a tribe's needs, they don't differentiate
 
 **Kobold Names**: Arix, Eks, Galax, Garu, Hagnar, Hox, Irtos, Kashak, Meepo, Molo, Ohsoss, Rotom, Sagin, Sik, Sniv, Taklak, Tes, Urak, Varn.
 
-## <a class="internal-link" name="internal-KoboldTraits">Kobold Traits</a>
+## Kobold Traits
 
 As a kobold, you gain the following traits:
 
@@ -528,7 +528,7 @@ As a kobold, you gain the following traits:
 
 </div>
 
-## <a class="internal-link" name="internal-KoboldClassOptions">Kobold Class Options</a>
+## Kobold Class Options
 
 Kobolds approach some classes is a bit differently than other folk.
 When you select a class, it is modified as follows:
