@@ -9,13 +9,13 @@ layout: default
 
 ##### <a href="#traits">Traits</a>
 
-##### <a href="#internal-Subtypes">Subtypes</a>
+##### <a href="#subtypes">Subtypes</a>
 
-<a href="#internal-stryg">Stryg</a><br/>
-<a href="#internal-nosferatu">Nosferatu</a><br/>
-<a href="#internal-obiri">Obiri</a>
+<a href="#stryg">Stryg</a><br/>
+<a href="#nosferatu">Nosferatu</a><br/>
+<a href="#obiri">Obiri</a>
 
-##### <a href="#internal-ClassOptions">Class options</a>
+##### <a href="#class-options">Class options</a>
 
 </div>
 
@@ -152,14 +152,14 @@ Your dhampir character has certain traits deriving from your vampiric ancestry.
 
 </div>
 
-## <a class="internal-link" name="internal-Subtypes">Dhampir Subtypes</a>
+## Subtypes
 
 The varieties of different vampire bloodlines have resulted in three types of dhampir.
 The stryg is most common, with most stryg simply referred to as dhampir.
 The nosferatu and obiri are related to the vampires of the same name.
 The former prefer to hide their existence, while the latter are harder to identify as a dhampir and often go unnoticed.
 
-### <a name="internal-stryg">Stryg</a>
+### Stryg
 
 Descended from common vampires, the Stryg are often considered synonymous with perceptions of dhampir.
 You have the unearthly beauty and charm of your progenitor.
@@ -180,7 +180,7 @@ You have pale skin, sharp features, and your eyes have a slightly crimson iris t
 
 </div>
 
-### <a name="internal-nosferatu">Nosferatu</a>
+### Nosferatu
 
 Kin to nosferatu vampires, you have the long life of other dhampir but seemingly age normally, if not faster.
 While you retain your vigor until late in life, you eventually appear ancient and decrepit.
@@ -211,7 +211,7 @@ You may have sharp canines, but some nosferatu have elongated incisors.
 
 </div>
 
-### <a name="internal-obiri">Obiri</a>
+### Obiri
 
 You look more human than other dhampir, lacking red eyes, pallor, fangs, and aversion to light of other vampire-kin.
 You have coarse hair and are stockier than other dhampir, but retain the agility and piercing eyes.
@@ -235,7 +235,7 @@ Thankfully, the obiri bloodline is rare.
 
 </div>
 
-## <a class="internal-link" name="internal-ClassOptions">Dhampir Class Options</a>
+## Class Options
 
 Dhampirs approach some classes a bit differently than other folk.
 When you select one of these classes, it is modified as follows:

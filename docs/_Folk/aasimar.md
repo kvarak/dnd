@@ -7,10 +7,8 @@ layout: default
 
 #### Aasimar
 
-##### <a href="#internal-trait">Traits</a>
-##### <a href="#internal-features">Special Features</a>
-##### <a href="#internal-appearance">Appearance</a>
-##### <a href="#internal-classOptions">Class options</a>
+##### <a href="#trait">Traits</a>
+##### <a href="#class-options">Class options</a>
 
 </div>
 
@@ -100,7 +98,7 @@ An aasimar's guide is wise but not infallible.
 
 Aasimar are born from human parents, and they use the same naming conventions as their native culture.
 
-## <a class="internal-link" name="internal-trait">Aasimar traits</a>
+## Traits
 
 Aasimar share certain traits as a result of their celestial descent.
 
@@ -122,7 +120,7 @@ Aasimar share certain traits as a result of their celestial descent.
   You have resistance to necrotic and radiant damage.
 
 - **Aasimar features**.
-  Roll twice on the <a href="#internal-features">special feature</a> table and once on the <a href="#internal-appearance">special appearance</a> table.
+  Roll twice on the <a href="#special-features">special feature</a> table and once on the <a href="#special-appearance">special appearance</a> table.
 
 - **Language**.
   You know Common and Celestial.
@@ -170,7 +168,7 @@ Choose one of them for your character.
 
 </div>
 
-## <a class="internal-link" name="internal-appearance">Aasimar special appearance</a>
+## <a name="special-appearance">Aasimar special appearance</a>
 
 <div class="columnsthree">
 
@@ -269,7 +267,7 @@ Choose one of them for your character.
 
 </div>
 
-## <a class="internal-link" name="internal-features">Aasimar Special Features</a>
+## <a name="special-features">Aasimar Special Features</a>
 
 <div class="columnstwo">
 
@@ -311,7 +309,7 @@ Choose one of them for your character.
 
 </div>
 
-## <a class="internal-link" name="internal-classOptions">Class Options</a>
+## Class Options
 
 Aasimar approach some classes a bit differently than other folk.
 When you select one of these classes, it is modified as follows:
