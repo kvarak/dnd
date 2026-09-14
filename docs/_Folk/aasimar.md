@@ -7,7 +7,7 @@ layout: default
 
 #### Aasimar
 
-##### <a href="#trait">Traits</a>
+##### <a href="#traits">Traits</a>
 ##### <a href="#class-options">Class options</a>
 
 </div>
