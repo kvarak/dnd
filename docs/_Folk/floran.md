@@ -178,7 +178,7 @@ An floran approaches some classes is a bit different than other races. When you 
     <hr class="dividerinfolk">
 
 - ### Druid
-    Floran are very connected to nature. Whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    Floran are very connected to nature. Whenever the Druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
     In addition you are your own druidic focus, as well as a druidic focus to any adjacent druids. When using Wild Shape, you may also take the shape of plants and plant creatures.
 
