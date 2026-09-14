@@ -696,7 +696,7 @@ When you select a class, it is modified as follows:
 
   A kobold gaining the favor of an ancient dragon would be the highest honor of all, and such a person often ends up as chieftain or religious leader of their tribe.
 
-  If you are a Warlock with an ancient dragon patron, then whenever the Warlock class description calls for your Charisma modifier, you may use your proficiency bonus instead.
+  If you are a Warlock with an ancient dragon patron, then whenever the Warlock class description calls for your Intelligence modifier, you may use your proficiency bonus instead.
 
     <hr class="dividerinfolk">
 
