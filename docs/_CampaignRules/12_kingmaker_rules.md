@@ -442,16 +442,16 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
 
   | d10 | Lucky Find |
   |:---:|-----------|
-  | 1 | Forgotten pouch of spices or tea. Party morale improves. |
-  | 2 | Mislabeled rations from weeks ago—salvage 1d4 rations. |
-  | 3 | Hidden pocket in a pack yields 1d3 useful small items. |
-  | 4 | Cache of coins or trade goods worth 1d6 × 10 sp. |
-  | 5 | An old letter or map you didn't know you had. |
-  | 6 | Perfectly preserved delicacy. Each party member gains advantage on the next check made in the next hour. |
-  | 7 | Dry components for a healing salve. Automatically heal 1d6+2 hp to one character. |
-  | 8 | Extra seasoning and preserved fruit. Next meal is so good each character heals additional 1d4 hp. |
-  | 9 | A forgotten luxury item (wine, cheese, or fine tobacco). +2 morale bonus to party. |
-  | 10 | Uncover a surprising stockpile - gain 1d8 days worth of rations from supplies no one remembered having. |
+  | 1   | Forgotten pouch of spices or tea. +2 morale bonus to party. |
+  | 2   | Mislabeled rations from weeks ago - salvage 1d4 rations. |
+  | 3   | Hidden pocket in a pack yields 1d3 useful small items. |
+  | 4   | Cache of coins or trade goods worth 1d6 × 10 sp. |
+  | 5   | An old letter or map you didn't know you had. |
+  | 6   | Perfectly preserved delicacy. Each party member gains advantage on the next check made in the next hour. |
+  | 7   | Dry components for a healing salve. Automatically heal 1d6+2 hp to one character. |
+  | 8   | Extra seasoning and preserved fruit. Next meal is so good each character heals additional 1d4 hp. |
+  | 9   | A forgotten luxury item (wine, cheese, or fine tobacco). +2 morale bonus to party. |
+  | 10  | Uncover a surprising stockpile - gain 1d8 days worth of rations from supplies no one remembered having. |
 
   </div>
 
