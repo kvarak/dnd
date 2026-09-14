@@ -222,7 +222,7 @@ Lizardfolk approach some classes a bit different compared to other races. When y
 -   ### Druid
     Lizardfolk are very much in tune with nature.
 
-    Whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    Whenever the Druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
     In addition, lizardfolk druids have access to the <a href="../Classes/druid.html#internal-ancients">circle of the ancients</a> archetype.
 
@@ -298,4 +298,3 @@ Lizardfolk approach some classes a bit different compared to other races. When y
     <hr class="dividerinfolk">
 
 </div>
-

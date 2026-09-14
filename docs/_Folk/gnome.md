@@ -229,7 +229,7 @@ An gnome approaches some classes is a bit different than other races. When you s
 - ### Cleric
     Gnomes are like most other humanoids in regards of religion.
 
-    If you are a cleric following a gnome deity and one of its domains, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    If you are a cleric following a gnome deity and one of its domains, then whenever the Cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
     <hr class="dividerinfolk">
 
@@ -241,7 +241,7 @@ An gnome approaches some classes is a bit different than other races. When you s
     <hr class="dividerinfolk">
 
 - ### Druid
-    **Forest gnomes** are very much in tune with nature and gain the **critter friend** feat at level 1. In addition, whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    **Forest gnomes** are very much in tune with nature and gain the **critter friend** feat at level 1. In addition, whenever the Druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
     <hr class="dividerinfolk">
 
@@ -328,7 +328,7 @@ An gnome approaches some classes is a bit different than other races. When you s
     <hr class="dividerinfolk">
 
 - ### Warlock
-    Just as any other folk, gnomes sometimes want to take shortcuts to power, safety, knowledge or, as is the case for rock gnomes, just for curiousity and fun.
+    Just as any other folk, gnomes sometimes want to take shortcuts to power, safety, knowledge or, as is the case for rock gnomes, just for curiosity and fun.
 
     Whenever the Warlock class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 

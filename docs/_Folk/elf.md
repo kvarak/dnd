@@ -352,7 +352,7 @@ An elf approaches some classes a bit different compared than other races. When y
     ##### Wood elf
     A wood elf can become a cleric, but to an outsider they would probably be thought of as druids. As clerics they have the advantage of having access to memories of events experienced by the ancestors, and in some cases even from their first ancestors, the ones who came to this plane together with the elves who later became the elven gods. This personal experience makes it almost unthinkable to follow a non-elven deity.
 
-    If you are a cleric following <a href="../Classes/cleric.html#internal-Elf">an elven god</a>, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    If you are a cleric following <a href="../Classes/cleric.html#internal-Elf">an elven god</a>, then whenever the Cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
     <hr class="dividerinfolk">
 
@@ -388,7 +388,7 @@ An elf approaches some classes a bit different compared than other races. When y
     ##### Wood elf
     Wood elves are very much connected to nature, being part plants themselves, and make very good druids.
 
-    Whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    Whenever the Druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
     In addition, when using wild shape can also choose the forms of plants.
 
@@ -527,7 +527,7 @@ An elf approaches some classes a bit different compared than other races. When y
 - ### Wizard
     Eladrin and shadar-kai are creatures of magic and when choosing the path of the wizard, they can even sustain themselves on the arcane forces.
 
-    While in a trance (i.e. sleep), you may spent a spell slot to regain one hit die. That slot is not available to until after your next trance. In addition, whenever the wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
+    While in a trance (i.e. sleep), you may spent a spell slot to regain one hit die. That slot is not available to until after your next trance. In addition, whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus. You may only do this if you are literate.
 
     ##### Shadar-kai
     You can cast an Illusion spell without expending a spell slot. The spell cannot be of a higher spell level than your Intelligence modifier. Once you have used this ability, you must finish a long rest before you can use it again.
@@ -535,7 +535,7 @@ An elf approaches some classes a bit different compared than other races. When y
     ##### Wood elf
     Even though wood elves have access to memories from their ancestors, they have no control of it. Fragments come and go when something familiar is encountered. Some wood elf wizards have learnt to access essential memories at will.
 
-    You do not need to use a physical spell book to prepare spells. Instead you access memories or your wizard ancestors. In addition, whenever the wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
+    You do not need to use a physical spell book to prepare spells. Instead you access memories or your wizard ancestors. In addition, whenever the Wizard class description mentions your Intelligence modifier, you may instead use your proficiency bonus.
 
     <hr class="dividerinfolk">
 

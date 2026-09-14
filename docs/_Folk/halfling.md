@@ -136,7 +136,7 @@ A halfling approaches some classes is a bit different than other races. When you
 -   ### Cleric
     The halfling deities are seen as family more than gods.
 
-    If you are a cleric following a halfling god and one of its domains, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    If you are a cleric following a halfling god and one of its domains, then whenever the Cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
     <hr class="dividerinfolk">
 
@@ -148,7 +148,7 @@ A halfling approaches some classes is a bit different than other races. When you
 -   ### Druid
     A cleric of Sheela Peryroyl	would most likely belong to the druid class.
 
-    If you are such a druid, then whenever the druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    If you are such a druid, then whenever the Druid class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
     <hr class="dividerinfolk">
 

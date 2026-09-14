@@ -198,7 +198,7 @@ A dwarfs approach to some classes is a bit different than that of other races. W
 - ### Alchemist
     A dwarven alchemists is usually adept at brewing or drinking brews, often both. You gain proficiency brewer's supplies, and always have advantage on checks with them. All the sampling of your brews have learnt you to withstand even the worst possible hooch. Whenever you succeed at a saving throw against ingested poison, you may heal yourself by using a Hit Dice (if available).
 
-    In addition, whenever the alchemist class description mentions your Intelligence modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
+    In addition, whenever the Alchemist class description mentions your Intelligence modifier, you may instead use this modifier +3 or your proficiency bonus, whichever is lower.
 
     ##### Lost Dwarf
     You have not had the possibility to learn alchemy.
@@ -290,12 +290,12 @@ A dwarfs approach to some classes is a bit different than that of other races. W
 - ### Cleric
     Dwarves have a very strong connection to their gods and religion infuses every aspect of their lives. As such, clerics are much more common than in any other race. A dwarf-raised cleric will be follow the gods of the Mordinsamman (see <a href="#internal-religion">*Dwarven Religion*</a>), and no other gods.
 
-    Whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    Whenever the Cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
     ##### Lost Dwarf
     The deity Marthammor Duin is the god of lost dwarfs. He tries to guide them and make sure they have the tools to survive. When a lost dwarf listens and heeds the words in his head, he may (sometimes unknowingly) become a cleric).
 
-    If you are a cleric of Marthammor Duin, then whenever the cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
+    If you are a cleric of Marthammor Duin, then whenever the Cleric class description mentions your Wisdom modifier, you may instead use your proficiency bonus.
 
     ##### Stolen Dwarf
     A stolen dwarf cleric follows the gods taught to him by his master/caretaker.
