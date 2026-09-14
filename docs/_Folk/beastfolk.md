@@ -276,7 +276,7 @@ Family tends to be important to ursine, although they are not usually clingy—a
 Free spirits, ursine put more value on independence and a wandering soul than tradition, and prize relationships above places or nations.
 Given the small size of most ursine groups, leaders are usually either de facto or non-existent, with adults or family heads discussing a situation and reaching solution together—or not, in rarer cases, which might result in one family splitting with the group and finding others with which to travel.
 
-### Ursine Names
+### Bearfolk Names
 
 Although there are no strict naming traditions among ursine (particularly as the different subtypes often live in quite different environments), there are nonetheless broad trends that have remained consistent throughout the years.
 Sylvan names associated with nature have always been popular, mostly due to Sylvan being one of the primary languages spoken by ursine.
@@ -664,7 +664,7 @@ Collectivist cultures or folk seem odd to vulpine, who often don’t understand 
 Nonetheless, vulpine are extremely adaptable and easily adopt the customs and dress of a given region.
 Even if they find themselves disagreeing with certain ways, they have an uncanny ability to fit in wherever they go.
 
-### Vulpine Names
+### Foxfolk Names
 
 Names among vulpine are a fluid thing, at least until one is able to gain a reputation for something.
 Parents give names to their kits, of course, but those names are often changed as they grow and begin to establish their own identities.
@@ -1205,7 +1205,7 @@ The life of an adventurer appeals to many young varkind and is something activel
 Many would eventually return home for good, but others still would manage to settle down and establish businesses, or even Sounders in different parts of the world.
 Many famous inns are varkind owned and managed, and often catered almost exclusively to adventurers.
 
-### Varkind Names
+### Pigfolk Names
 
 Varkind names are all hereditary, passing down the family line for centuries.
 Sons and daughters take on the names of their parents, and pass them to their children, and so on.
@@ -1395,7 +1395,7 @@ For each god, the table notes alignment, portfolio and suggested domains for cle
 
 - <div class="block classTable frame" markdown="1">
 
-  #### Kunek Deities
+  #### Rabbitfolk Deities
 
   | Deity                                | Alignment | Portfolio                               | Domains                                     |
   | :----------------------------------- | :-------: | :-------------------------------------- | :------------------------------------------ |
@@ -1429,7 +1429,7 @@ For each god, the table notes alignment, portfolio and suggested domains for cle
 
 </div>
 
-### Kunek Names
+### Rabbitfolk Names
 
 Kunek have two names.
 Their first name is usually taken from human or halfling cultures in their geographical areas, whilst their family names take inspiration from the environment and the deeds of their ancestors — their family names are fluid and prone to change every few generations, whether from changing reputations, a new deed, or settling in a new area.
