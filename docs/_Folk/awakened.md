@@ -9,7 +9,7 @@ layout: default
 
 ##### <a href="#traits">Traits</a>
 ##### <a href="#variants">Variants</a>
-##### <a href="#class">Class options</a>
+##### <a href="#class-options">Class options</a>
 
 </div>
 

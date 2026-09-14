@@ -11,7 +11,7 @@ layout: default
 
 <br />
 
-##### <a href="apefolk">Apefolk</a>
+##### <a href="#apefolk">Apefolk</a>
 
 <a href="#apefolk-traits">Traits</a><br />
 <a href="#apefolk-class-options">Class options</a><br />
@@ -26,27 +26,27 @@ layout: default
 <a href="#catfolk-traits">Traits</a><br />
 <a href="#catfolk-class-options">Class options</a><br />
 
-##### <a href="#foxfolk">Foxfolk (Vulpine)</a>
+##### <a href="#foxfolk-vulpine">Foxfolk (Vulpine)</a>
 
 <a href="#foxfolk-traits">Traits</a><br />
 <a href="#foxfolk-class-options">Class options</a><br />
 
 ##### <a href="#frogfolk-bullywug">Frogfolk (Bullywug)</a>
 
-<a href="#byllywug-traits">Traits</a><br />
-<a href="#byllywug-class-options">Class options</a><br />
+<a href="#bullywug-traits">Traits</a><br />
+<a href="#bullywug-class-options">Class options</a><br />
 
 ##### <a href="#frogfolk-grung">Frogfolk (Grung)</a>
 
 <a href="#grung-traits">Traits</a><br />
 <a href="#grung-class-options">Class options</a><br />
 
-##### <a href="#pigfolk">Porcine folk (Varkind)</a>
+##### <a href="#pigfolk-varkind">Porcine folk (Varkind)</a>
 
 <a href="#pigfolk-traits">Traits</a><br />
 <a href="#pigfolk-class-options">Class options</a><br />
 
-##### <a href="#rabbitfolk">Rabbitfolk (Kunek)</a>
+##### <a href="#rabbitfolk-kunek">Rabbitfolk (Kunek)</a>
 
 <a href="#rabbitfolk-traits">Traits</a><br />
 <a href="#rabbitfolk-class-options">Class options</a><br />
@@ -1743,7 +1743,7 @@ When you select one of these classes, it is modified as follows, plus as describ
 
 <hr class="classdivider">
 
-# Beastfolk Class Options
+# Class Options
 
 Beastfolk approach some classes a bit differently than other folk.
 When you select one of these classes, it is modified as follows (Unless specified, modifications are valid for all subtypes):

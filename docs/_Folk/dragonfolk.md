@@ -13,7 +13,7 @@ layout: default
 <br />
 
 #### <a href="#kobold">Kobolds</a>
-##### <a href="kobold-traits">Traits</a>
+##### <a href="#kobold-traits">Traits</a>
 ##### <a href="#kobold-class-options">Class Options</a>
 
 </div>
