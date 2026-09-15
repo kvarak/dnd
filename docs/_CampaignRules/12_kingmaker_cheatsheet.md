@@ -31,11 +31,11 @@ Other cheatsheets: [Varlyn Master Cheatsheet](../ResourcesTools/cheatsheet.html)
 
 Each day has a number of **Hexploration Activities (HAs)** based on pace.
 
-| Pace | HA | Guide | Forage | Lookout |
-|:-----|:--:|:-----:|:------:|:-------:|
-| Careful | 1 | Adv. | Normal | Adv. |
-| Normal | 2 | Normal | Disadv. | Normal |
-| Reckless | 3 | Disadv. | None | Disadv. |
+| Pace | HA | Guide | Track | Forage | Lookout |
+|:-----|:---|:------|:-------|:--------|:--------|
+| Careful | 1 | Adv. | Normal | Normal | Adv. |
+| Normal | 2 | Normal | Disadv. | Disadv. | Normal |
+| Reckless | 3 | Disadv. | None | None | Disadv. |
 
 **Terrain cost to Travel or Reconnoiter a hex:**
 

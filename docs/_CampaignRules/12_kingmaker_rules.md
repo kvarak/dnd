@@ -51,11 +51,11 @@ The number of hexploration activities (HAs) available is determined by the party
 - <div class="block classTable frame" markdown="1">
 
   #### Traveling
-  | Pace | HA | Guide | Forage | Lookout |
-  |:-----|:--:|:-----:|:------:|:-------:|
-  | Careful | 1 | Adv. | Normal | Adv. |
-  | Normal | 2 | Normal | Disadv. | Normal |
-  | Reckless | 3 | Disadv. | None | Disadv. |
+  | Pace | HA | Guide | Track | Forage | Lookout |
+  |:-----|:--:|:-----:|:------:|:-------:|:-------:|
+  | Careful  | 1 | Adv.    | Normal  | Normal  | Adv.    |
+  | Normal   | 2 | Normal  | Disadv. | Disadv. | Normal  |
+  | Reckless | 3 | Disadv. | None    | None    | Disadv. |
 
   </div>
 
@@ -329,6 +329,8 @@ Some small rest activities have fractions or other limitations, indicating that 
 
   Your story affects all allies in camp, but those who spend the evening Relaxing gain the greatest benefit. Allies who are elsewhere performing other activities (such as Trapping or Scout Perimeter) or outside camp are not affected.
 
+  For inspiration, if you don't know what to tell, you can roll on the **[Campfire Stories](#campfire-stories)** table below to determine the story you tell.
+
   On a success your allies are moved and uplifted. Until the end of Breaking Camp, each ally who was Relaxing gains a **+2 bonus** to attack rolls, ability checks, and saving throws during any combat at this campsite. Other allies in camp who were not Relaxing gain a **+1 bonus** to the same rolls.
 
   On a failure your allies appreciate the effort, but your story fails to inspire them. No mechanical benefits are gained.
@@ -423,7 +425,8 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
 
 - <div class="block classTable fillClassTable frame" markdown="1">
 
-  | d10 | Group Equipment                                        |
+  ##### Group Equipment
+  | d10 | Equipment                                        |
   | --- | ------------------------------------------------------ |
   | 1   | A length of rope or cord                               |
   | 2   | A light source (lantern, torch, or candles)            |
@@ -440,7 +443,8 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
 
 - <div class="block classTable fillClassTable frame" markdown="1">
 
-  | d10 | Lucky Find |
+  ##### Lucky Find
+  | d10 | Find |
   |:---:|-----------|
   | 1   | Forgotten pouch of spices or tea. +2 morale bonus to party. |
   | 2   | Mislabeled rations from weeks ago - salvage 1d4 rations. |
@@ -455,7 +459,42 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
 
   </div>
 
+- <div class="block classTable fillClassTable frame" markdown="1">
+
+  ##### Random Camping Activities & Events
+  | d10 | Activity/Event |
+  |:---:|-----------|
+  | 1   | **Skill Practice:** One character teaches another a practical skill. The student gains advantage on their next relevant check made within 3 days. |
+  | 2   | **Stargazing & Navigation:** Characters study the stars and sky. Gain +1 to the next Travel or Reconnoiter check in this region. |
+  | 3   | **Local Wildlife Observation:** A curious but harmless animal (deer, fox, birds) visits camp. Characters can make checks to learn about the local ecosystem. |
+  | 4   | **Reminiscing & Bonding:** The party shares stories and laughs. Each character gains 5 temporary hit points from improved morale. |
+  | 5   | **Maintenance & Sharpening:** A character spends time caring for weapons and gear. Gain advantage on the first attack roll made the next day. |
+  | 6   | **Foraging Discovery:** While gathering firewood or water, a character finds 1d6 useful plants, herbs, or mushrooms worth 1d4 × 5 sp. |
+  | 7   | **Natural Spring or Stream:** The campsite is near fresh water perfect for bathing and washing. All characters feel refreshed; gain +1 to initiative the next day. |
+  | 8   | **Quiet Meditation:** A character meditates or prays. They gain one additional Hit Die that can be spent during this rest. |
+  | 9   | **Games & Entertainment:** Cards, dice, or improvised games ease tensions. All characters gain advantage on their next saving throw against fear or despair effects. |
+  | 10  | **Perfect Evening:** Everything comes together beautifully—the fire burns bright, the food tastes amazing, the company is warm. All characters gain 1d4 temporary hit points and advantage on one ability check within the next 24 hours. |
+
+  </div>
+
+- <div class="block classTable fillClassTable frame" markdown="1">
+
+  ##### Campfire Stories
+  | d10 | Story |
+  |:---:|-----------|
+  | 1   | **The Monster Hunt:** A harrowing tale of pursuing a dangerous creature through treacherous terrain. The hero's cunning and bravery overcome brute strength. |
+  | 2   | **A Lover's Sacrifice:** A bittersweet romance—two souls from different worlds, impossible odds, an ending both tragic and beautiful. |
+  | 3   | **The Fool's Fortune:** A comedic misadventure where the protagonist stumbles into success through luck, mistakes, and sheer audacity. |
+  | 4   | **The Curse Broken:** A mysterious curse plagued a land for generations until one brave soul discovered the secret and lifted it, restoring hope. |
+  | 5   | **The Ancestor's Wisdom:** An elder's tale passed down through generations—a lesson from the old days that proves relevant even now. |
+  | 6   | **The Unlikely Alliance:** Sworn enemies forced to work together discover their common humanity and become unexpected allies against a greater foe. |
+  | 7   | **The City's Fall & Rise:** The dramatic story of how a once-great place fell into ruin and the heroes who brought it back from the brink. |
+  | 8   | **The Phantom Thief:** A clever rogue outwits guards, nobles, and traps with wit and cunning. Their motives are more noble than anyone expected. |
+  | 9   | **The Last Stand:** A desperate battle against overwhelming odds where courage and determination matter more than numbers or strength. |
+  | 10  | **The Hidden Truth:** A mystery unravels to reveal a shocking revelation—nothing was as it seemed, and the real enemy was hidden in plain sight. |
+
+  </div>
+
 
 </div>
-
 
