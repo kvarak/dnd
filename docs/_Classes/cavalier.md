@@ -207,7 +207,7 @@ Some of your maneuvers require your target to make a saving throw to resist thei
 You can push yourself beyond your normal limits for a moment. On your turn, you can spend ***4 superiority*** to take one additional action on top of your regular action and a possible bonus action.
 
 ### Second Wind
-From 1st level, you have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, if you have less than half your hp left, you can use a ***bonus action*** to regain a number of hit points equal to 1d10 + your Constitution bonus.
+From 2nd level, you have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, if you have less than half your hp left, you can use a ***bonus action*** to regain a number of hit points equal to 1d10 + your Constitution bonus.
 
 Once you use this feature, you must finish a short rest before you can use it again.
 
