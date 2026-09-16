@@ -1218,7 +1218,7 @@ The higher the number indicated a family that was very well off, and had been ar
 
 ## Pigfolk traits
 
-Your varkind character has the following racial traits.
+Your varkind character has the following traits.
 
 <div class="columnsthree">
 
@@ -1442,7 +1442,7 @@ Their first name is usually taken from human or halfling cultures in their geogr
 
 ## Rabbitfolk traits
 
-Your kunek character has the following racial traits.
+Your kunek character has the following traits.
 
 <div class="columnsthree">
 
@@ -1834,7 +1834,7 @@ When you select one of these classes, it is modified as follows (Unless specifie
 
 - ### Professional
 
-  Beastfolk professionals fill the same niche in their communities that professionals do in other racial communities.
+  Beastfolk professionals fill the same niche in their communities as professionals do in other folk communities.
   However, generally beastfolk tend to prefer and value the more practical fields, like the candlemaker, cook, smith or forester.
 
   If belonging to a more practical field, whenever the Professional class description calls for your Wisdom modifier, you can increase that modifier by 3, up to a maximum equal to your proficiency bonus.

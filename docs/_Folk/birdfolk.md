@@ -404,7 +404,7 @@ When you select one of these classes, it is modified as follows:
 
 - ### Professional
 
-  Birdfolk professionals fill the same niche in their communities that professionals do in other racial communities.
+  Birdfolk professionals fill the same niche in their communities as professionals do in other folk communities.
   However, generally birdfolk tend to prefer and value the more practical fields.
 
     <hr class="dividerinfolk">
