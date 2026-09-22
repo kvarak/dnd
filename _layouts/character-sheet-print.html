@@ -604,7 +604,7 @@
       </table>`;
     }
 
-    /* ── Render: spells ────────────────────────────────────────────── */
+    /* ── Render: spells quick reference ────────────────────────────── */
     function renderSpells(c, profBonus) {
       const levels = Object.entries(c.spells);
       const hasAny = levels.some(([,a])=>a.length>0);
@@ -626,6 +626,7 @@
             <td>${h(sp.duration)}</td>
           </tr>`;
         }).join('');
+
         html += sl(names[idx]+' Spells'+slotInfo)+`
         <table class="lined-table">
           <thead><tr><th>Name</th><th>School</th><th>Time</th><th>Range</th><th>Comp</th><th>Dur</th></tr></thead>
@@ -633,6 +634,48 @@
         </table>`;
       });
       return html;
+    }
+
+    /* ── Render: spell details page (3 columns) ─────────────────────── */
+    function renderSpellDetailsPage(c) {
+      const levels = Object.entries(c.spells);
+      const allSpells = [];
+      levels.forEach(([key,spells]) => {
+        allSpells.push(...spells);
+      });
+      if (!allSpells.length) return '';
+
+      const spellCards = allSpells.map(sp => {
+        const comp = [sp.components.verbal?'V':'',sp.components.somatic?'S':'',sp.components.material?'M':''].filter(Boolean).join('');
+        let card = `<div style="margin-bottom: 3mm; padding-bottom: 3mm; border-bottom: .5px solid #e0e0e0; break-inside: avoid;">
+          <div style="font-weight: 700; font-size: 8pt; margin-bottom: 0.5px;">${h(sp.name)}${sp.concentration?' [C]':''}${sp.ritual?' [R]':''}</div>
+          <div style="color: #888; font-size: 6pt; margin-bottom: 0.25px; line-height: 1.1;">
+            <strong>School:</strong> ${h(sp.school)} | <strong>Time:</strong> ${h(sp.castingTime)}
+          </div>
+          <div style="color: #888; font-size: 6pt; margin-bottom: 0.25px; line-height: 1.1;">
+            <strong>Range:</strong> ${h(sp.range)} | <strong>Dur:</strong> ${h(sp.duration)}
+          </div>
+          <div style="color: #888; font-size: 6pt; margin-bottom: 0.75px; line-height: 1.1;">
+            <strong>Comp:</strong> ${comp}${sp.components.materials?` (${h(sp.components.materials)})`:''}
+          </div>`;
+        if (sp.description) {
+          card += `<div style="font-size: 6pt; line-height: 1.1; margin-bottom: 0.25px;">${h(sp.description).replace(/\n/g, ' ')}</div>`;
+        }
+        if (sp.atHigherLevels) {
+          card += `<div style="font-size: 6pt; font-style: italic; line-height: 1.1;"><strong>Higher:</strong> ${h(sp.atHigherLevels).replace(/\n/g, ' ')}</div>`;
+        }
+        card += '</div>';
+        return card;
+      });
+
+      return `<div class="sheet-page" style="padding: 8mm 9mm;">
+        <div style="font-weight: 700; font-size: 9pt; margin-bottom: 3mm; padding-bottom: 2mm; border-bottom: .75px solid #4d4d4d;">
+          ${h(c.identity.characterName||'Character')} — Spell Details
+        </div>
+        <div style="column-count: 3; column-gap: 4mm; column-rule: none;">
+          ${spellCards.join('')}
+        </div>
+      </div>`;
     }
 
     /* ── Build: full sheet HTML ────────────────────────────────────── */
@@ -855,7 +898,8 @@
   <div class="note-area note-area-full"></div>
 </div>`;
 
-      return page1 + page2 + notesPage(1) + notesPage(2);
+      const spellDetailsPage = hasSpells ? renderSpellDetailsPage(c) : '';
+      return page1 + page2 + (spellDetailsPage || '') + notesPage(1) + notesPage(2);
     }
 
     /* ── Wire up ───────────────────────────────────────────────────── */
