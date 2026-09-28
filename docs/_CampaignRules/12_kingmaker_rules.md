@@ -203,7 +203,7 @@ Some small rest activities have fractions or other limitations, indicating that 
 | Stand Guard           | ✓ | ✓ |   | Wisdom (Perception) | Watch for threats |
 | Tell Campfire Story   |   | ✓ |   | Charisma (Performance) | Inspire allies with a rousing tale |
 | Trapping              |   | ✓ |   | Wisdom (Survival), Foraging/Hunting/Trapping skills | Catch game for next day |
-| Treat Wounds          | ✓ | ✓ | ✓ | Wisdom (Medicine) | Provide medical care |
+| Treat Wounds          |   | ✓ |   | Wisdom (Medicine) | Provide medical care |
 
 </div>
 
@@ -213,7 +213,7 @@ Some small rest activities have fractions or other limitations, indicating that 
 
 - ##### Aid
 
-  You pitch in to help another character with any Pre‑camp, Large Rest or Small Rest activity - holding the torch while they work, steadying the cooking pot, hauling brush for camouflage, assisting with site reconnaissance, carrying supplies, helping set up key defenses or other tasks. The first helper grants **advantage** to the lead character's check; each additional helper grants a further **+1 bonus**.
+  You pitch in to help another character with any Pre-camp, Large Rest or Small Rest activity - holding the torch while they work, steadying the cooking pot, hauling brush for camouflage, assisting with site reconnaissance, carrying supplies, helping set up key defenses or other tasks. The first helper grants **advantage** to the lead character's check; each additional helper grants a further **+1 bonus**.
 
 - ##### Camp Camouflage
 
@@ -264,11 +264,11 @@ Some small rest activities have fractions or other limitations, indicating that 
 
 - ##### Fortify Camp
 
-  Sharpened stakes along the perimeter, trip-lines between the trees, gear stowed where it can be grabbed in the dark - a well-fortified camp turns a patch of wilderness into something that at least resembles a defensible position. Make an appropriate **Intelligence (Craft)** check; the DC reflects the terrain and available materials. On a success, anyone keeping watch or defending the camp gains a +2 bonus to initiative rolls and **Perception** checks to detect approaching threats.
+  Sharpened stakes along the perimeter, trip-lines between the trees and gear stowed where it can be grabbed in the dark - a well-fortified camp turns a patch of wilderness into something that at least resembles a defensible position. Make an appropriate **Intelligence (Craft)** check; the DC reflects the terrain and available materials. On a success, anyone keeping watch or defending the camp gains a +2 bonus to initiative rolls and **Perception** checks to detect approaching threats.
 
 - ##### Map the Area
 
-  You sit down with parchment and charcoal and commit what the party has learned to a proper map - trails, landmarks, hazards, the way the ridgeline bends. A good map means you'll never waste time second-guessing the route again. Make an **Intelligence (Investigation)** or **Wisdom (Survival)** check; on a success, the DC of any navigation check in that hex is permanently reduced by 2.
+  You sit down with parchment and charcoal and commit what the party has learned to a proper map - trails, landmarks, hazards and the way the ridgeline bends. A good map means you'll never waste time second-guessing the route again. Make an **Intelligence (Investigation)** or **Wisdom (Survival)** check; on a success, the DC of any navigation check in that hex is permanently reduced by 2.
 
   The hex must have been successfully Reconnoitered at some point (not necessarily today). Once Reconnoitered, any character can later attempt to Map the Area as a Pre‑camp or Large Rest activity without needing to Reconnoiter again.
 
@@ -325,7 +325,7 @@ Some small rest activities have fractions or other limitations, indicating that 
 
 - ##### Tell Campfire Story
 
-  You spend the evening regaling your companions with a rousing tale—perhaps one of your previous adventures, a legend from your homeland, or a story passed down through generations. Make a **Charisma (Performance)** check against DC 15, or DC 10 if your story is particularly relevant to the party's recent events, upcoming challenges or the personal stories of those listening.
+  You spend the evening regaling your companions with a rousing tale - perhaps one of your previous adventures, a legend from your homeland or a story passed down through generations. Make a **Charisma (Performance)** check against DC 15, or DC 10 if your story is particularly relevant to the party's recent events, upcoming challenges or the personal stories of those listening.
 
   Your story affects all allies in camp, but those who spend the evening Relaxing gain the greatest benefit. Allies who are elsewhere performing other activities (such as Trapping or Scout Perimeter) or outside camp are not affected.
 
@@ -343,7 +343,13 @@ Some small rest activities have fractions or other limitations, indicating that 
 
 - ##### Treat Wounds
 
-  You provide medical care to an injured character. Make a **Wisdom (Medicine)** check to treat wounds, following normal healing rules for this activity.
+  You tend to cuts, bruises, infections, lingering pain, disease, poison and exhaustion from the day's travel and combat. Wash bandages in fresh water, apply salves and poultices, set splints, administer antitoxins and encourage proper rest. Make a **Wisdom (Medicine)** check; if you have a healer's kit or access to medical supplies, you have advantage. The DC is 10 for routine wounds or higher (DC 15+) for severe wounds, infections, active poison effects or diseases.
+
+  ***Success*** The patient recovers hit points normally or is stabilized if dying. If done as a Large Rest activity, the patient gains one additional benefit: recover an additional 1d4 hit points, reduce exhaustion by 1 level, remove the poisoned condition or gain advantage on the next saving throw against a disease (choose one).
+
+  ***Failure*** Recovery proceeds normally, but the patient gains no additional benefit. The patient makes no progress against disease, poison, or exhaustion. On a critical failure, a wound reopens or an infection worsens; the patient has disadvantage on Constitution saving throws against disease until successfully treated again.
+
+  Multiple characters can treat the same injured character; each makes their own check and any success grants an additional benefit. Benefits stack—a character treated by multiple healers may recover more hit points, remove multiple exhaustion levels, or receive multiple disease/poison treatments in a single rest period.
 
 </div>
 
@@ -483,7 +489,7 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
   | d10 | Story |
   |:---:|-----------|
   | 1   | **The Monster Hunt:** A harrowing tale of pursuing a dangerous creature through treacherous terrain. The hero's cunning and bravery overcome brute strength. |
-  | 2   | **A Lover's Sacrifice:** A bittersweet romance—two souls from different worlds, impossible odds, an ending both tragic and beautiful. |
+  | 2   | **A Lover's Sacrifice:** A bittersweet romance - two souls from different worlds, impossible odds and an ending both tragic and beautiful. |
   | 3   | **The Fool's Fortune:** A comedic misadventure where the protagonist stumbles into success through luck, mistakes, and sheer audacity. |
   | 4   | **The Curse Broken:** A mysterious curse plagued a land for generations until one brave soul discovered the secret and lifted it, restoring hope. |
   | 5   | **The Ancestor's Wisdom:** An elder's tale passed down through generations—a lesson from the old days that proves relevant even now. |
