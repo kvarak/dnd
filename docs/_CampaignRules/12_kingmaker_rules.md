@@ -184,21 +184,21 @@ Some small rest activities have fractions or other limitations, indicating that 
 ##### Optional Activities
 | Activity | Pre-camp | Large Rest | Small Rest | Skills | Description |
 |----------|:--------:|:----------:|:----------:|---------------|-------------|
-| Aid                   | ✓ | ✓ | ✓ | — | Help another character |
+| Aid                   | ✓ | ✓ | ✓ | - | Help another character |
 | Camp Camouflage       |   | ✓ |   | Wisdom (Survival)/Scouting, Dexterity (Stealth) | Hide camp from detection |
 | Cooking               |   | ✓ |   | Wisdom (Survival), Intelligence (Cooking) | Could provide temporary benefits |
 | Craft Item            |   | ✓ |   | Various | Downtime crafting work |
 | Decipher Writing      |   | ✓ | ✓ | Intelligence (Investigation), Intelligence (Research) | Read magical or coded text |
 | Fortify Camp          | ✓ | ✓ |   | Intelligence (Craft) | +2 to initiative and Perception |
-| Identify Alchemy      |   | ✓ | ✓ | Intelligence (Arcana), Wisdom (Nature) | Determine alchemical properties |
 | Identify Magic        |   | ✓ | ✓ | Intelligence (Arcana) | Determine magical properties |
 | Influence NPC         |   | ✓ | ✓ | Charisma (Persuasion/Deception) | Improve NPC attitude |
 | Learn Language        |   | ✓ | ✓ | Intelligence | Study a new language |
 | Map the Area          | ✓ | ✓ |   | Intelligence (Investigation), Wisdom (Survival) | Reduce navigation checks in hex |
+| Maintain Gear         |   | ✓ |   | Intelligence (Craft) | Keep equipment in good condition |
 | Organize Supplies     |   | ✓ |   | Intelligence (Survival), Wisdom (Survival) | Reduce ration spoilage |
 | Plan Next Day's Route | ✓ | ✓ |   | Intelligence (Nature), Wisdom (Survival) | +1 to Travel/Reconnoiter checks |
 | Repair Item           |   | ✓ |   | Intelligence (Craft)  | Restore item durability |
-| Relax                 |   | ✓ | ✓ | — | Focus on recovery |
+| Relax                 |   | ✓ | ✓ | - | Focus on recovery |
 | Scout Perimeter       | ✓ | ✓ |   | Wisdom (Survival), Wisdom (Perception) | Advantage on detecting ambushes |
 | Stand Guard           | ✓ | ✓ |   | Wisdom (Perception) | Watch for threats |
 | Tell Campfire Story   |   | ✓ |   | Charisma (Performance) | Inspire allies with a rousing tale |
@@ -221,7 +221,7 @@ Some small rest activities have fractions or other limitations, indicating that 
 
 - ##### Craft Item
 
-  You focus on crafting, following the normal downtime crafting rules. This represents an evening of focused work while at camp.
+  You focus on crafting, following the [downtime crafting rules](../RulesExtra/adventuring.html#craft-an-item) (or [generic craft skill rules](../RulesCharacter/skills.html#generic-rules-for-crafting) for more detail). This represents an evening of focused work while at camp.
 
 - ##### Cooking
 
@@ -229,8 +229,8 @@ Some small rest activities have fractions or other limitations, indicating that 
 
   <div class="block classTable fillClassTable frame" markdown="1">
 
-  ##### Cooking Results
-  | Check Result | Benefit |
+  ###### Cooking Results
+  | Result | Benefit |
   |:---:|-----------|
   | ≤ 4 | Some food got spoiled, 1d4 extra rations lost |
   | 5-14 | No effect |
@@ -246,13 +246,30 @@ Some small rest activities have fractions or other limitations, indicating that 
 
   The GM sets the DC based on the complexity of the text (simple notes might be DC 10–12, complex magical treatises or advanced ciphers DC 15–20 or higher). On a success, you understand the general meaning or can read the text fluently. On a critical success, you grasp subtle details, hidden meanings or additional insights. On a failure, the text remains gibberish; on a critical failure, you misinterpret it badly, possibly drawing false conclusions.
 
-- ##### Identify Alchemy
-
-  You identify an alchemical item, determining its properties and potential uses.
-
 - ##### Identify Magic
 
-  You identify a magical item or effect, determining its properties and potential uses.
+  You examine a magical item or effect to discern its properties. Make an **Intelligence** check and consult the table based on your applicable skills. If done as a Small Rest activity, you get disadvantage on the check.
+
+  <div class="block classTable fillClassTable frame" markdown="1">
+
+  ###### Identify Magic Results
+  | Result | Normal | Knowledge (Arcane) | Artifice/Antiquities |
+  |:------:|:------:|:------:|:--------------------:|
+  | ≤ 4 | - | - | - |
+  | 5-9 | - | - | Basic |
+  | 10-14 | - | Basic | Enhanced |
+  | 15-19 | Basic | Enhanced | Complete |
+  | ≥ 20 | Enhanced | Complete | Detect Curses |
+
+  </div>
+
+  ***Basic (Testing & Experimentation)*** By carefully handling and testing the item, you discover its obvious function and effects: Does it require attunement? What happens when you activate it? What are the visual and sensory effects (glowing, humming, warmth, vibration)? How do you activate it (command word, mental focus, gesture)? What is its general purpose?
+
+  ***Enhanced (Skilled Examination)*** Through expertise and deeper investigation, you additionally discover: What are the specific magical effects and their mechanical details? What restrictions or limitations does it have? What school of magic created it, and approximately when? Does it have any hidden properties or drawbacks?
+
+  ***Complete (Full Identification)*** You identify all properties of the item exactly as if you had cast the *Identify* spell, including attuned requirements, command words and all mechanical details.
+
+  ***Detect Curses*** You can additionally determine if the item is cursed and understand the nature and severity of the curse.
 
 - ##### Influence NPC
 
@@ -266,6 +283,10 @@ Some small rest activities have fractions or other limitations, indicating that 
 
   Sharpened stakes along the perimeter, trip-lines between the trees and gear stowed where it can be grabbed in the dark - a well-fortified camp turns a patch of wilderness into something that at least resembles a defensible position. Make an appropriate **Intelligence (Craft)** check; the DC reflects the terrain and available materials. On a success, anyone keeping watch or defending the camp gains a +2 bonus to initiative rolls and **Perception** checks to detect approaching threats.
 
+- ##### Maintain Gear
+
+  You spend time cleaning, repairing, and otherwise maintaining your equipment. See [Crafting and Maintenance](../RulesExtra/adventuring.html#maintain-gear) for details and make an appropriate **Intelligence (Craft)** check.
+
 - ##### Map the Area
 
   You sit down with parchment and charcoal and commit what the party has learned to a proper map - trails, landmarks, hazards and the way the ridgeline bends. A good map means you'll never waste time second-guessing the route again. Make an **Intelligence (Investigation)** or **Wisdom (Survival)** check; on a success, the DC of any navigation check in that hex is permanently reduced by 2.
@@ -278,8 +299,8 @@ Some small rest activities have fractions or other limitations, indicating that 
 
   <div class="block classTable fillClassTable frame" markdown="1">
 
-  ##### Organize Results
-  | Check Result | Benefit |
+  ###### Organize Results
+  | Result | Benefit |
   |:---:|-----------|
   | ≤ 4 | You misplace a random piece of group equipment, roll on the Group Equipment table. |
   | 5-14 | No effect |
@@ -349,7 +370,7 @@ Some small rest activities have fractions or other limitations, indicating that 
 
   ***Failure*** Recovery proceeds normally, but the patient gains no additional benefit. The patient makes no progress against disease, poison, or exhaustion. On a critical failure, a wound reopens or an infection worsens; the patient has disadvantage on Constitution saving throws against disease until successfully treated again.
 
-  Multiple characters can treat the same injured character; each makes their own check and any success grants an additional benefit. Benefits stack—a character treated by multiple healers may recover more hit points, remove multiple exhaustion levels, or receive multiple disease/poison treatments in a single rest period.
+  Multiple characters can treat the same injured character; each makes their own check and any success grants an additional benefit. Benefits stack-a character treated by multiple healers may recover more hit points, remove multiple exhaustion levels, or receive multiple disease/poison treatments in a single rest period.
 
 </div>
 
@@ -479,7 +500,7 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
   | 7   | **Natural Spring or Stream:** The campsite is near fresh water perfect for bathing and washing. All characters feel refreshed; gain +1 to initiative the next day. |
   | 8   | **Quiet Meditation:** A character meditates or prays. They gain one additional Hit Die that can be spent during this rest. |
   | 9   | **Games & Entertainment:** Cards, dice, or improvised games ease tensions. All characters gain advantage on their next saving throw against fear or despair effects. |
-  | 10  | **Perfect Evening:** Everything comes together beautifully—the fire burns bright, the food tastes amazing, the company is warm. All characters gain 1d4 temporary hit points and advantage on one ability check within the next 24 hours. |
+  | 10  | **Perfect Evening:** Everything comes together beautifully-the fire burns bright, the food tastes amazing, the company is warm. All characters gain 1d4 temporary hit points and advantage on one ability check within the next 24 hours. |
 
   </div>
 
@@ -492,12 +513,12 @@ The DM determines each day's weather during [Breaking Camp](../RulesExtra/travel
   | 2   | **A Lover's Sacrifice:** A bittersweet romance - two souls from different worlds, impossible odds and an ending both tragic and beautiful. |
   | 3   | **The Fool's Fortune:** A comedic misadventure where the protagonist stumbles into success through luck, mistakes, and sheer audacity. |
   | 4   | **The Curse Broken:** A mysterious curse plagued a land for generations until one brave soul discovered the secret and lifted it, restoring hope. |
-  | 5   | **The Ancestor's Wisdom:** An elder's tale passed down through generations—a lesson from the old days that proves relevant even now. |
+  | 5   | **The Ancestor's Wisdom:** An elder's tale passed down through generations-a lesson from the old days that proves relevant even now. |
   | 6   | **The Unlikely Alliance:** Sworn enemies forced to work together discover their common humanity and become unexpected allies against a greater foe. |
   | 7   | **The City's Fall & Rise:** The dramatic story of how a once-great place fell into ruin and the heroes who brought it back from the brink. |
   | 8   | **The Phantom Thief:** A clever rogue outwits guards, nobles, and traps with wit and cunning. Their motives are more noble than anyone expected. |
   | 9   | **The Last Stand:** A desperate battle against overwhelming odds where courage and determination matter more than numbers or strength. |
-  | 10  | **The Hidden Truth:** A mystery unravels to reveal a shocking revelation—nothing was as it seemed, and the real enemy was hidden in plain sight. |
+  | 10  | **The Hidden Truth:** A mystery unravels to reveal a shocking revelation-nothing was as it seemed, and the real enemy was hidden in plain sight. |
 
   </div>
 
