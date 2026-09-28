@@ -31,11 +31,17 @@ Other cheatsheets: [Varlyn Master Cheatsheet](../ResourcesTools/cheatsheet.html)
 
 Each day has a number of **Hexploration Activities (HAs)** based on pace.
 
-| Pace | HA | Guide | Track | Forage | Lookout |
-|:-----|:---|:------|:-------|:--------|:--------|
-| Careful | 1 | Adv. | Normal | Normal | Adv. |
-| Normal | 2 | Normal | Disadv. | Disadv. | Normal |
-| Reckless | 3 | Disadv. | None | None | Disadv. |
+  | Pace | HA | Guide | Track | Forage | Lookout |
+  |:-----|:--:|:-----:|:------:|:-------:|:-------:|
+  | Careful  | 1 | Adv.    | Normal  | Normal  | Adv.    |
+  | Normal   | 2 | Normal  | Disadv. | Disadv. | Normal  |
+  | Reckless | 3 | Disadv. | None    | None    | Disadv. |
+
+  | Pace | Hide Tracks | Reconnoiter | Stealth |
+  |:-----|:------------:|:--------:|:------------:|
+  | Careful | Adv. | Adv. | Normal |
+  | Normal | Normal | Normal | Disadv. |
+  | Reckless | Disadv. | Disadv. | None |
 
 **Terrain cost to Travel or Reconnoiter a hex:**
 
@@ -101,10 +107,10 @@ Each day: spend **HA** on Travel/Reconnoiter, then at camp each character perfor
 | Craft Item            |   | ✓ |   | Various | Create items |
 | Decipher Writing      |   | ✓ | ✓ | Investigation, Research | Read coded text |
 | Fortify Camp          | ✓ | ✓ |   | Craft | +2 to init & Perception |
-| Identify Alchemy      |   | ✓ | ✓ | Arcana, Nature | ID alchemical items |
 | Identify Magic        |   | ✓ | ✓ | Arcana | ID magical items |
 | Influence NPC         |   | ✓ | ✓ | Persuasion/Deception | Improve attitude |
 | Learn Language        |   | ✓ | ✓ | — | Practice language |
+| Maintain Gear         |   | ✓ |   | Intelligence | Take care of equipment |
 | Map the Area          | ✓ | ✓ |   | Investigation, Survival | -2 to nav checks |
 | Organize Supplies     |   | ✓ |   | Survival | Reduce spoilage |
 | Plan Next Day's Route | ✓ | ✓ |   | Nature, Survival | +1 to Travel checks |
@@ -114,7 +120,7 @@ Each day: spend **HA** on Travel/Reconnoiter, then at camp each character perfor
 | Stand Guard           | ✓ | ✓ |   | Perception | Watch threats |
 | Tell Campfire Story   |   | ✓ |   | Performance | Inspire allies |
 | Trapping              |   | ✓ |   | Survival, Foraging/Hunting/Trapping skills | Catch game |
-| Treat Wounds          | ✓ | ✓ | ✓ | Medicine | Heal wounds |
+| Treat Wounds          |   | ✓ |   | Medicine | Heal wounds |
 
 </div>
 </div> <!-- END column -->
@@ -134,6 +140,32 @@ Each day: spend **HA** on Travel/Reconnoiter, then at camp each character perfor
 | 16-20 | Save 1d4−1 rations (min 0) |
 | 21-25 | As 16-20, +2 temp HP each |
 | ≥ 26 | As 16-20, +5 temp HP each, advantage on disease/poison save |
+
+</div>
+<div class="box" markdown="1">
+
+## Identify Magic Results
+
+  | Result | Normal | Knowledge (Arcane) | Artifice/Antiquities |
+  |:------:|:------:|:------:|:--------------------:|
+  | ≤ 4 | - | - | - |
+  | 5-9 | - | - | Basic |
+  | 10-14 | - | Basic | Enhanced |
+  | 15-19 | Basic | Enhanced | Complete |
+  | ≥ 20 | Enhanced | Complete | Detect Curses |
+
+</div>
+<div class="box" markdown="1">
+
+## Organize Results
+
+  | Result | Benefit |
+  |:---:|-----------|
+  | ≤ 4 | Misplace equipment. |
+  | 5-14 | No effect |
+  | 15-19 | Supplies get well-protected. |
+  | 20-24 | As 15-19, +2 to the next skill. |
+  | ≥ 25 | As 20-24, and a Lucky Find. |
 
 </div>
 <div class="box" markdown="1">
