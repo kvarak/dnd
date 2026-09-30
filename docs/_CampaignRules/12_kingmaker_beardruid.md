@@ -17,7 +17,7 @@ collection: CampaignRules
 | 2nd | Circle Forms,<br>Combat Wild Shape |
 | 6th | Primal Strike |
 | 10th | Grizzly Rage |
-| 14th | Den Guardian |
+| 14th | Heart of the Den |
 
 </div>
 
@@ -39,11 +39,11 @@ The rites of your circle grant you the ability to transform into bear forms of i
 
 | Druid Level | Max CR | Available Bear Forms |
 |:-----------:|:------:|:---------------------|
-| 2nd-5th | 1 | [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear) |
-| 6th-8th | 2 | [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear) |
-| 9th-11th | 3 | [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear) |
-| 12th-15th | 5 | [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear), [Dire Cave Bear](#internal-direcavebear) |
-| 16th+ | 8 | [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear), [Dire Cave Bear](#internal-direcavebear), [Giant Bear](#internal-giantbear) |
+| 2nd-5th | 1 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear) |
+| 6th-8th | 2 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear) |
+| 9th-11th | 3 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear) |
+| 12th-15th | 5 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear), [Dire Cave Bear](#internal-direcavebear) |
+| 16th+ | 8 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear), [Dire Cave Bear](#internal-direcavebear), [Giant Bear](#internal-giantbear) |
 
 ### Combat Wild Shape
 
@@ -63,12 +63,12 @@ While raging, you have resistance to bludgeoning, piercing, and slashing damage;
 
 The rage ends early if you are incapacitated, leave bear form, or end it as a ***bonus action***.
 
-### Den Guardian
+### Heart of the Den
+At 14th level, the ancient bear spirits recognize you as the warden of a den that extends beyond any cave. Where you stand, your companions are no longer strangers in the wild; they are pack.
 
-At 14th level, the spirits of the ancient bears recognize you as a guardian of the den. While you are in bear form, your presence shields those under your protection. You emanate an aura in a 10-foot radius. While you are conscious, allies in the aura have advantage on saving throws against being frightened, and they cannot be charmed or frightened by beasts or plants.
+While you are in bear form, you emanate a protective aura in a 15-foot radius. While you are conscious, allies in the aura have advantage on saving throws against being charmed or frightened, and they cannot be charmed or frightened by beasts or plants.
 
-In addition, when an ally within the aura is hit by an attack, you can use your ***reaction*** to become the target of that attack instead, provided you are within 5 feet of the ally and the attack can target you.
-
+Additionally, when an ally in the aura would be reduced to 0 hit points but not killed outright, you can use your ***reaction*** to call upon the den’s resilience. The ally still drops to 0 hit points but is stable, while you take psychic damage equal to twice your druid level. Once you use this feature, you can’t use it again until you finish a long rest.
 
 ## Bear Forms
 
@@ -89,6 +89,56 @@ All bear forms share the following traits:
 ### The Forms
 
 <div class="columnsthree">
+
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+
+  ### <a class="internal-link" name="internal-cubform">Cub Form (CR 1/4)</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Small beast, unaligned</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
+
+  A young bear cub, curious and quick but fragile. This form excels at infiltration, scouting, and social manipulation—enemies rarely consider a helpless-looking cub a threat and many hesitate to harm one. Useless in direct combat but invaluable for stealth and exploration.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   12 (Natural Armor)<br/>
+  **Hit Points** 	  10 (3d6 + 0)<br/>
+  **Speed** 			  40 ft., climb 40 ft.
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |8 (-1)|14 (+2)|10 (+0)|2 (-4)|13 (+1)|8 (-1)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Skills** Physique +1, Perception +3, Stealth +4<br/>
+  ***Disarming Cuteness.*** Attack rolls against the cub have disadvantage. Many creatures refuse to attack a helpless-looking cub at all unless provoked or given explicit orders. In social situations, NPCs treat you with unwarranted sympathy and underestimation.<br/>
+  ***Squeeze.*** The cub can squeeze through passages as narrow as 2 inches wide without needing to make an ability check. Its small size also grants advantage on Dexterity (Stealth) checks made to hide in natural terrain.<br/>
+  ***Tiny Climber.*** The cub can climb at full speed without making ability checks, and its low weight means it can climb surfaces and along branches that would never support a larger creature.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  ##### Actions
+
+  **Bite.** *Melee Weapon Attack*: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.
+
+  **Claws.** *Melee Weapon Attack*: +1 to hit, reach 5 ft., one target. Hit: 1 (1d3) slashing damage.
+
+  </td></tr></tbody></table>
+  </div>
 
 - <div class="monster multimonster frame">
   <table class="monster">
@@ -390,84 +440,138 @@ All bear forms share the following traits:
 
 These specialized combat skills represent tactics unique to bear forms. You can purchase them with your druid combat skill points during character creation or when you gain combat skill points. Each skill costs 1 combat skill point and has level or form prerequisites.
 
-<details><summary>Bloodhunter</summary>
+<div class="columnstwo">
 
-You can track a creature by smell alone. If a creature has taken damage from your bite or claws within the past number of hours equal to your proficiency bonus, you have advantage on Wisdom (Perception) checks to locate it, and you can track it even if it attempts to hide its trail through natural means.
+- <details><summary>Bloodhunter</summary>
 
-<details><summary>Bloodlust</summary>
+  You can track a creature by smell alone. If a creature has taken damage from your bite or claws within the past number of hours equal to your proficiency bonus, you have advantage on Wisdom (Perception) checks to locate it, and you can track it even if it attempts to hide its trail through natural means.
 
-Once per short rest, when both of your claw attacks hit the same creature on your turn, you can use a ***bonus action*** to make an additional bite attack against that creature.
+  <details><summary>Bloodlust</summary>
 
-Additionally, any creature you can track using Bloodhunter cannot hide or benefit from being invisible while they are within 30 feet of you as you can smell their presence.
+  Once per short rest, when both of your claw attacks hit the same creature on your turn, you can use a ***bonus action*** to make an additional bite attack against that creature.
 
-</details>
+  Additionally, any creature you can track using Bloodhunter cannot hide or benefit from being invisible while they are within 30 feet of you as you can smell their presence.
 
-</details>
+  </details>
 
-<details><summary>Bluff Charge</summary>
+  </details>
 
-**Prerequisite:** Requires Brown Bear form or higher.
+  <details><summary>Bluff Charge</summary>
 
-Once per short or long rest, as an ***action***, move up to your speed in a straight line. Each creature of your choice within 10 feet of the space where you end this movement must make a Wisdom saving throw against your bear form save DC. On a failure, it is frightened of you until the end of your next turn. A creature that succeeds is immune to this feature for 24 hours.
+  Once per short or long rest, as an ***action***, move up to your speed in a straight line. Each creature of your choice within 10 feet of the space where you end this movement must make a Wisdom saving throw against your bear form save DC. On a failure, it is frightened of you until the end of your next turn. A creature that succeeds is immune to this feature for 24 hours.
 
-<details><summary>Relentless Assault</summary>
+  <details><summary>Relentless Assault</summary>
 
-Once per short rest, when you reduce a creature to 0 hit points with a bite or claw attack, you can use a ***bonus action*** to move up to half your speed and make another bite or claw attack.
+  Once per short rest, when you reduce a creature to 0 hit points with a bite or claw attack, you can use a ***bonus action*** to move up to half your speed and make another bite or claw attack.
 
-</details>
+  </details>
 
-<details><summary>Run Down</summary>
+  <details><summary>Run Down</summary>
 
-**Prerequisite:** Requires Polar Bear form or higher
+  **Prerequisite:** Requires Polar Bear form or higher
 
-When a creature you can see within 30 feet moves at least 20 feet away from you, you can use your ***reaction*** to move up to half your speed directly toward it. If you end within 5 feet of it, you can make one claw attack.
+  When a creature you can see within 30 feet moves at least 20 feet away from you, you can use your ***reaction*** to move up to half your speed directly toward it. If you end within 5 feet of it, you can make one claw attack.
 
-</details>
+  </details>
 
-</details>
+  </details>
 
-<details><summary>Concussive Strength</summary>
+  <details><summary>Concussive Strength</summary>
 
-When you knock a creature prone with your claws as part of your Multiattack, that creature must succeed on a Constitution saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or have its speed reduced to 0 until the end of its next turn.
+  When you knock a creature prone with your claws as part of your Multiattack, that creature must succeed on a Constitution saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or have its speed reduced to 0 until the end of its next turn.
 
-<details><summary>Ground Slap</summary>
+  <details><summary>Ground Slap</summary>
 
-**Prerequisite:** Requires Dire Bear form or higher
+  **Prerequisite:** Requires Dire Bear form or higher
 
-You can slam the ground with your claws. Once per short or long rest, as an ***action***, creatures of your choice on the ground within 15 feet must make a Strength saving throw against your bear form save DC. On a failure, a creature takes 2d6 bludgeoning damage and falls prone; on a success, it takes half damage and does not fall prone.
+  You can slam the ground with your claws. Once per short or long rest, as an ***action***, creatures of your choice on the ground within 15 feet must make a Strength saving throw against your bear form save DC. On a failure, a creature takes 2d6 bludgeoning damage and falls prone; on a success, it takes half damage and does not fall prone.
 
-</details>
+  </details>
 
-</details>
+  </details>
 
-<details><summary>Hail of Splinters</summary>
+  <details><summary>Maul</summary>
 
-**Prerequisite:** Requires Giant Bear form or higher
+  As an ***action***, you can make one bite attack against a prone creature. On a hit, the attack deals an extra 2d6 piercing damage.
 
-Once per long rest, when you hit a tree or wooden object at least Large in size with a claw attack, you can send splinters outward in a 30-foot cone. Each creature in the area makes a Dexterity saving throw against your bear form save DC, taking 6d6 piercing damage on a failure, or half as much on a success. Nonmagical vegetation and unsecured wooden objects in the area take maximum damage.
+  </details>
 
-</details>
+  <details><summary>Rear Up</summary>
 
-<details><summary>Maul</summary>
+  As a ***bonus action***, you stand upright until the start of your next turn. During that time, you have advantage on your claw attacks but attacks against you have advantage. While standing upright, you cannot make Bite attacks against targets that are smaller size than you.
 
-As an ***action***, you can make one bite attack against a prone creature. On a hit, the attack deals an extra 2d6 piercing damage.
+  </details>
 
-</details>
+  <details><summary>Savage Critical</summary>
 
-<details><summary>Rear Up</summary>
+  When you score a critical hit with your bite or claws, you may roll one extra damage die.
 
-As a ***bonus action***, you stand upright until the start of your next turn. During that time, you have advantage on your first claw attack each turn and cannot make Bite attacks.
+  </details>
 
-</details>
+  <details><summary>Splintered Path</summary>
 
-<details><summary>Savage Critical</summary>
+  When you hit an object, tree, wall, or similar structure with a claw attack, you can destroy a 5-foot cube of nonmagical wood, ice, earth, or loose stone.
 
-When you score a critical hit with your bite or claws, you may roll one extra damage die.
+  In addition, once per short or long rest, you can create a 10-foot-square area of difficult terrain within 30 feet for 1 minute. This requires that it makes sense in the environment (e.g., you cannot create difficult terrain on solid stone or metal surfaces).
 
-</details>
+  <details><summary>Hail of Splinters</summary>
 
-<details><summary>Stomp</summary>
+  **Prerequisite:** Requires Giant Bear form or higher
 
-As a ***bonus action***, you can stomp on a prone creature within 5 feet. That creature must succeed on a Strength saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or take 1d4 + your Strength modifier bludgeoning damage.
+  Once per long rest, when you hit a tree or wooden object at least Large in size with a claw attack, you can send splinters outward in a 30-foot cone. Each creature in the area makes a Dexterity saving throw against your bear form save DC, taking 6d6 piercing damage on a failure, or half as much on a success. Nonmagical vegetation and unsecured wooden objects in the area take maximum damage.
 
-</details>
+  </details>
+
+  </details>
+
+  <details><summary>Stomp</summary>
+
+  As a ***bonus action***, you can stomp on a prone creature within 5 feet. That creature must succeed on a Strength saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or take 1d4 + your Strength modifier bludgeoning damage.
+
+  </details>
+
+
+  <details><summary>Thickhide Ward</summary>
+
+  While you are in bear form, you can use your bonus action to gain temporary hit points equal to your druid level. These temporary hit points last for 1 minute or until depleted. You can use this feature a number of times equal to your Wisdom modifier (minimum 1), regaining all expended uses when you finish a long rest.
+
+  <details><summary>Bristle Guard</summary>
+
+  While you are in bear form, creatures within 5 feet of you have disadvantage on opportunity attacks made against allies other than you. In addition, when an ally within 5 feet of you is hit by a melee attack, you can use your reaction to impose disadvantage on that attack roll.
+
+  <details><summary>Sheltering Bulk</summary>
+
+  While you are in bear form, you can use your reaction when an ally within 10 feet of you is hit by an attack to move up to 10 feet toward that ally and become the target of the attack instead. You must be able to make the attack target you legally.
+
+  <details><summary>Immovable Den</summary>
+
+  While you are in bear form, you and allies within 10 feet have resistance to thunder damage, and allied creatures within 10 feet cannot be pushed or knocked prone by effects from creatures other than you. In addition, when you use Sheltering Bulk, the triggering attack deals half damage to you.
+
+  </details>
+  </details>
+  </details>
+  </details>
+
+- <code>
+  Bear Combat Skills<br/>
+  ├── Bloodhunter<br/>
+  │&nbsp;&nbsp;&nbsp;└── Bloodlust<br/>
+  ├── Bluff Charge<br/>
+  │&nbsp;&nbsp;&nbsp;├── Relentless Assault<br/>
+  │&nbsp;&nbsp;&nbsp;└── Run Down<br/>
+  ├── Concussive Strength<br/>
+  │&nbsp;&nbsp;&nbsp;└── Ground Slap<br/>
+  ├── Maul<br/>
+  ├── Rear Up<br/>
+  ├── Savage Critical<br/>
+  ├── Splintered Path<br/>
+  │&nbsp;&nbsp;&nbsp;└── Hail of Splinters<br/>
+  ├── Stomp<br/>
+  └── Thickhide Ward<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;└── Bristle Guard<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Sheltering Bulk<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Immovable Den
+  </code>
+
+
+</div>
