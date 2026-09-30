@@ -3,7 +3,7 @@ title: "Circle of the Bear"
 layout: default
 path: 12
 type: index
-permalink: /CampaignRules/circle-of-the-bear/
+permalink: /CampaignRules/circle-of-the-bear
 collection: CampaignRules
 ---
 
