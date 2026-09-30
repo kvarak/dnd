@@ -15,15 +15,17 @@ collection: CampaignRules
 |:-----------:|:--------|
 | 1st | Bonus Skills |
 | 2nd | Circle Forms,<br>Combat Wild Shape |
-| 6th | Circle Forms (improved),<br>Primal Strike |
+| 6th | Primal Strike |
 | 10th | Grizzly Rage |
-| 14th | Thousand Forms |
+| 14th | Den Guardian |
 
 </div>
 
 Some druids are bound to the form of the bear - not through mere choice, but through a deeper connection to their primal nature. Those marked by lycanthropy or chosen by the spirits of ancient ursine guardians embrace a single beast form exclusively, transforming the traditional druid limitation into a source of immense power. Rather than spreading their shapeshifting gift across many forms, these druids perfect the art of bearhood.
 
 This path is built upon the foundation of Circle of the Moon, but refined for those whose fate is sealed in fur and claw. A Circle of the Bear druid cannot transform into other beasts, but the bears they can become grow increasingly formidable. At level 16, they may take the form of creatures of CR 8 or lower - rivaling the greatest natural bears known to mortals.
+
+When you gain combat skills, you can spend them on [Bear Combat Skills](#bear-combat-skills), which are special abilities and maneuvers available to you while in bear form.
 
 ### Bonus Skills
 
@@ -37,11 +39,11 @@ The rites of your circle grant you the ability to transform into bear forms of i
 
 | Druid Level | Max CR | Available Bear Forms |
 |:-----------:|:------:|:---------------------|
-| 2nd-5th | 1 | Black Bear, Brown Bear |
-| 6th-8th | 2 | Black Bear, Brown Bear, Cave Bear |
-| 9th-11th | 3 | Black Bear, Brown Bear, Cave Bear, Polar Bear |
-| 12th-15th | 5 | Black Bear, Brown Bear, Cave Bear, Polar Bear, Dire Cave Bear |
-| 16th+ | 8 | Black Bear, Brown Bear, Cave Bear, Polar Bear, Dire Cave Bear, Giant Bear |
+| 2nd-5th | 1 | [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear) |
+| 6th-8th | 2 | [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear) |
+| 9th-11th | 3 | [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear) |
+| 12th-15th | 5 | [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear), [Dire Cave Bear](#internal-direcavebear) |
+| 16th+ | 8 | [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear), [Dire Cave Bear](#internal-direcavebear), [Giant Bear](#internal-giantbear) |
 
 ### Combat Wild Shape
 
@@ -55,15 +57,18 @@ Your attacks in bear form count as magical for the purpose of overcoming resista
 
 ### Grizzly Rage
 
-Grizzly Rage. Starting at 10th level, when you assume a bear form, or as a bonus action while in bear form, you can enter a Grizzly Rage for 1 minute. You can use this feature a number of times equal to your Wisdom modifier (minimum once), regaining all expended uses when you finish a long rest.
+Grizzly Rage. Starting at 10th level, when you assume a bear form, or as a ***bonus action*** while in bear form, you can enter a Grizzly Rage for 1 minute. You can use this feature a number of times equal to your Wisdom modifier (minimum once), regaining all expended uses when you finish a long rest.
 
 While raging, you have resistance to bludgeoning, piercing, and slashing damage; advantage on Strength checks and Strength saving throws; and once on each of your turns when you hit with a bear-form melee attack, you deal extra damage equal to your proficiency bonus.
 
-The rage ends early if you are incapacitated, leave bear form, or end it as a bonus action.
+The rage ends early if you are incapacitated, leave bear form, or end it as a ***bonus action***.
 
-### Thousand Forms
+### Den Guardian
 
-At 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the *alter self* spell at will.
+At 14th level, the spirits of the ancient bears recognize you as a guardian of the den. While you are in bear form, your presence shields those under your protection. You emanate an aura in a 10-foot radius. While you are conscious, allies in the aura have advantage on saving throws against being frightened, and they cannot be charmed or frightened by beasts or plants.
+
+In addition, when an ally within the aura is hit by an attack, you can use your ***reaction*** to become the target of that attack instead, provided you are within 5 feet of the ally and the attack can target you.
+
 
 ## Bear Forms
 
@@ -88,7 +93,8 @@ All bear forms share the following traits:
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
-  <a class="internal-link" name="internal-blackbear">Black Bear (CR 1/2)</a>
+
+  ### <a class="internal-link" name="internal-blackbear">Black Bear (CR 1/2)</a>
   </th></tr></thead>
   <tbody>
   <tr><td><i>Medium beast, unaligned</i></td></tr>
@@ -101,7 +107,7 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Armor Class**   11 (Natural Armor)<br/>
+  **Armor Class**   12 (Natural Armor)<br/>
   **Hit Points** 	  19 (3d8 + 6)<br/>
   **Speed** 			  50 ft., climb 30 ft.
   </td></tr>
@@ -110,7 +116,7 @@ All bear forms share the following traits:
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-  |15 (+2)|10 (+0)|14 (+2)|2 (-4)|12 (+1)|7 (-2)|
+  |15 (+2)|12 (+1)|14 (+2)|2 (-4)|12 (+1)|7 (-2)|
 
   </td></tr>
   <tr><td><hr></td></tr>
@@ -124,7 +130,7 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  ### Actions
+  ##### Actions
 
   **Bite.** *Melee Weapon Attack*: +4 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 2) piercing damage.
 
@@ -136,7 +142,8 @@ All bear forms share the following traits:
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
-  <a class="internal-link" name="internal-brownbear">Brown Bear (CR 1)</a>
+
+  ### <a class="internal-link" name="internal-brownbear">Brown Bear (CR 1)</a>
   </th></tr></thead>
   <tbody>
   <tr><td><i>Large beast, unaligned</i></td></tr>
@@ -170,7 +177,7 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  ### Actions
+  ##### Actions
 
   **Bite.** *Melee Weapon Attack*: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.
 
@@ -182,7 +189,8 @@ All bear forms share the following traits:
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
-  <a class="internal-link" name="internal-cavebear">Cave Bear (CR 2)</a>
+
+  ### <a class="internal-link" name="internal-cavebear">Cave Bear (CR 2)</a>
   </th></tr></thead>
   <tbody>
   <tr><td><i>Large beast, unaligned</i></td></tr>
@@ -211,14 +219,14 @@ All bear forms share the following traits:
   <tr><td markdown="1" class="monster">
 
   **Skills** Physique +6, Perception +4<br/>
-  **Senses** Low-light vision 60 ft.
+  **Senses** Low-light vision 60 ft.<br/>
   **Siege Paws.** The cave bear deals double damage to objects and structures.
 
   </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  ### Actions
+  ##### Actions
 
   **Bite.** *Melee Weapon Attack*: +7 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 5) piercing damage.
 
@@ -230,7 +238,8 @@ All bear forms share the following traits:
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
-  <a class="internal-link" name="internal-polarbear">Polar Bear (CR 3)</a>
+
+  ### <a class="internal-link" name="internal-polarbear">Polar Bear (CR 3)</a>
   </th></tr></thead>
   <tbody>
   <tr><td><i>Large beast, unaligned</i></td></tr>
@@ -266,7 +275,7 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  ### Actions
+  ##### Actions
 
   **Bite.** *Melee Weapon Attack*: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 6) piercing damage.
 
@@ -278,7 +287,8 @@ All bear forms share the following traits:
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
-  <a class="internal-link" name="internal-direcavebear">Dire Cave Bear (CR 5)</a>
+
+  ### <a class="internal-link" name="internal-direcavebear">Dire Cave Bear (CR 5)</a>
   </th></tr></thead>
   <tbody>
   <tr><td><i>Huge beast, unaligned</i></td></tr>
@@ -309,14 +319,14 @@ All bear forms share the following traits:
 
   **Skills** Physique +9, Perception +4<br/>
   **Damage Resistances** Cold<br/>
-  **Senses** Low-light vision 60 ft.
+  **Senses** Low-light vision 60 ft.<br/>
   **Siege Paws.** The dire cave bear deals double damage to objects and structures.
 
   </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  ### Actions
+  ##### Actions
 
   **Bite.** *Melee Weapon Attack*: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 6) piercing damage.
 
@@ -328,7 +338,8 @@ All bear forms share the following traits:
 - <div class="monster multimonster frame">
   <table class="monster">
   <thead><tr><th>
-  <a class="internal-link" name="internal-giantbear">Giant Bear (CR 8)</a>
+
+  ### <a class="internal-link" name="internal-giantbear">Giant Bear (CR 8)</a>
   </th></tr></thead>
   <tbody>
   <tr><td><i>Huge beast, unaligned</i></td></tr>
@@ -362,7 +373,7 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  ### Actions
+  ##### Actions
 
   **Multiattack.** The giant bear can make three attacks; two with its claws and one bite. If two claw attacks hit the same creature, it is knocked prone.
 
