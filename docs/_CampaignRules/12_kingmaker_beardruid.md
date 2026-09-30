@@ -77,9 +77,7 @@ All bear forms share the following traits:
 
 - ***Sturdy Build.*** The bear has advantage on Strength and Dexterity saving throws against being knocked prone.
 
-- ***Multiattack.*** Beginning at 5th level, when you take the Attack action in bear form, you can make two attacks: one bite and one claw, or two claws. If both claw attacks hit the same creature, that creature must succeed on a Strength saving throw or fall prone. Save DC = 8 + the bear form’s Strength modifier + your proficiency bonus.
-
-- ***Maul.*** As an action, the bear can make one bite attack against a prone creature. On a hit, the attack deals an extra 2d6 piercing damage.
+- ***Multiattack.*** From 5th level onwards, when you take the Attack action in bear form, you can make two attacks: one bite and one claw, or two claws. If both claw attacks hit the same creature, that creature must succeed on a Strength saving throw or fall prone. Save DC = 8 + the bear form’s Strength modifier + your proficiency bonus.
 
 </div>
 
@@ -381,17 +379,37 @@ All bear forms share the following traits:
 
 These specialized combat skills represent tactics unique to bear forms. You can purchase them with your druid combat skill points during character creation or when you gain combat skill points. Each skill costs 1 combat skill point and has level or form prerequisites.
 
+<details><summary>Bloodhunter</summary>
+
+You can track a creature by smell alone. If a creature has taken damage from your bite or claws within the past number of hours equal to your proficiency bonus, you have advantage on Wisdom (Perception) checks to locate it, and you can track it even if it attempts to hide its trail through natural means.
+
+<details><summary>Bloodlust</summary>
+
+Once per short rest, when both of your claw attacks hit the same creature on your turn, you can use a ***bonus action*** to make an additional bite attack against that creature.
+
+Additionally, any creature you can track using Bloodhunter cannot hide or benefit from being invisible while they are within 30 feet of you as you can smell their presence.
+
+</details>
+
+</details>
+
 <details><summary>Bluff Charge</summary>
 
 **Prerequisite:** Requires Brown Bear form or higher.
 
-Once per short or long rest, as an action, move up to your speed in a straight line. Each creature of your choice within 10 feet of the space where you end this movement must make a Wisdom saving throw against your bear form save DC. On a failure, it is frightened of you until the end of your next turn. A creature that succeeds is immune to this feature for 24 hours.
+Once per short or long rest, as an ***action***, move up to your speed in a straight line. Each creature of your choice within 10 feet of the space where you end this movement must make a Wisdom saving throw against your bear form save DC. On a failure, it is frightened of you until the end of your next turn. A creature that succeeds is immune to this feature for 24 hours.
+
+<details><summary>Relentless Assault</summary>
+
+Once per short rest, when you reduce a creature to 0 hit points with a bite or claw attack, you can use a ***bonus action*** to move up to half your speed and make another bite or claw attack.
+
+</details>
 
 <details><summary>Run Down</summary>
 
 **Prerequisite:** Requires Polar Bear form or higher
 
-When a creature you can see within 30 feet moves at least 20 feet away from you, you can use your reaction to move up to half your speed directly toward it. If you end within 5 feet of it, you can make one claw attack.
+When a creature you can see within 30 feet moves at least 20 feet away from you, you can use your ***reaction*** to move up to half your speed directly toward it. If you end within 5 feet of it, you can make one claw attack.
 
 </details>
 
@@ -401,13 +419,13 @@ When a creature you can see within 30 feet moves at least 20 feet away from you,
 
 When you knock a creature prone with your claws as part of your Multiattack, that creature must succeed on a Constitution saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or have its speed reduced to 0 until the end of its next turn.
 
-</details>
-
 <details><summary>Ground Slap</summary>
 
 **Prerequisite:** Requires Dire Bear form or higher
 
-You can slam the ground with your claws. Once per short or long rest, as an action, creatures of your choice on the ground within 15 feet must make a Strength saving throw against your bear form save DC. On a failure, a creature takes 2d6 bludgeoning damage and falls prone; on a success, it takes half damage and does not fall prone.
+You can slam the ground with your claws. Once per short or long rest, as an ***action***, creatures of your choice on the ground within 15 feet must make a Strength saving throw against your bear form save DC. On a failure, a creature takes 2d6 bludgeoning damage and falls prone; on a success, it takes half damage and does not fall prone.
+
+</details>
 
 </details>
 
@@ -419,8 +437,26 @@ Once per long rest, when you hit a tree or wooden object at least Large in size 
 
 </details>
 
+<details><summary>Maul</summary>
+
+As an ***action***, you can make one bite attack against a prone creature. On a hit, the attack deals an extra 2d6 piercing damage.
+
+</details>
+
 <details><summary>Rear Up</summary>
 
-As a bonus action, you stand upright until the start of your next turn. During that time, you have advantage on Wisdom (Perception) checks and on your first claw attack each turn, cannot make Bite attacks, and attack rolls against you have advantage.
+As a ***bonus action***, you stand upright until the start of your next turn. During that time, you have advantage on your first claw attack each turn and cannot make Bite attacks.
+
+</details>
+
+<details><summary>Savage Critical</summary>
+
+When you score a critical hit with your bite or claws, you may roll one extra damage die.
+
+</details>
+
+<details><summary>Stomp</summary>
+
+As a ***bonus action***, you can stomp on a prone creature within 5 feet. That creature must succeed on a Strength saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or take 1d4 + your Strength modifier bludgeoning damage.
 
 </details>
