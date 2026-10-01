@@ -13,7 +13,7 @@ collection: CampaignRules
 #### Circle of the Bear Features
 | Druid Level | Feature |
 |:-----------:|:--------|
-| 1st | Bonus Skills |
+| 1st | Bonus Skills,<br>Bear Focus |
 | 2nd | Circle Forms,<br>Combat Wild Shape |
 | 6th | Primal Strike |
 | 10th | Grizzly Rage |
@@ -31,6 +31,10 @@ When you gain combat skills, you can spend them on [Bear Combat Skills](#bear-co
 
 You gain 1 skill point to spend on combat skills.
 
+### Bear Focus
+
+Upon choosing this path, you focus on the bear. The druid abilities [Borrowing](../../Classes/druid.html#borrowing) and [Wild Companion](../../Classes/druid.html#wild-companion) can only be used with or on bears.
+
 ### Circle Forms
 
 The rites of your circle grant you the ability to transform into bear forms of increasing power. You can use your Wild Shape to transform into a bear with a challenge rating as high as 1 (you ignore the Max. CR column of the Bear Shapes table, but must abide by the other limitations there). This increases as you gain levels, allowing you to become ever more powerful bears.
@@ -40,10 +44,10 @@ The rites of your circle grant you the ability to transform into bear forms of i
 | Druid Level | Max CR | Available Bear Forms |
 |:-----------:|:------:|:---------------------|
 | 2nd-5th | 1 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear) |
-| 6th-8th | 2 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear) |
-| 9th-11th | 3 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear) |
-| 12th-15th | 5 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear), [Dire Cave Bear](#internal-direcavebear) |
-| 16th+ | 8 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Cave Bear](#internal-cavebear), [Polar Bear](#internal-polarbear), [Dire Cave Bear](#internal-direcavebear), [Giant Bear](#internal-giantbear) |
+| 6th-8th | 2 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Polar Bear](#internal-polarbear) |
+| 9th-11th | 3 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Polar Bear](#internal-polarbear), [Cave Bear](#internal-cavebear) |
+| 12th-15th | 5 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Polar Bear](#internal-polarbear), [Cave Bear](#internal-cavebear), [Dire Cave Bear](#internal-direcavebear) |
+| 16th+ | 8 | [Cub Form](#internal-cubform), [Black Bear](#internal-blackbear), [Brown Bear](#internal-brownbear), [Polar Bear](#internal-polarbear), [Cave Bear](#internal-cavebear), [Dire Cave Bear](#internal-direcavebear), [Giant Bear](#internal-giantbear) |
 
 ### Combat Wild Shape
 
@@ -64,7 +68,7 @@ While raging, you have resistance to bludgeoning, piercing, and slashing damage;
 The rage ends early if you are incapacitated, leave bear form, or end it as a ***bonus action***.
 
 ### Heart of the Den
-At 14th level, the ancient bear spirits recognize you as the warden of a den that extends beyond any cave. Where you stand, your companions are no longer strangers in the wild; they are pack.
+At 14th level, the ancient bear spirits recognize you as the warden of a den that extends beyond any cave. Where you stand, your companions are no longer strangers in the wild; the family is important.
 
 While you are in bear form, you emanate a protective aura in a 15-foot radius. While you are conscious, allies in the aura have advantage on saving throws against being charmed or frightened, and they cannot be charmed or frightened by beasts or plants.
 
@@ -78,11 +82,9 @@ All bear forms share the following traits:
 
 <div class="columnsthree">
 
-- ***Keen Smell.*** The bear has advantage on Wisdom (Perception) checks that rely on smell.
+- ***Keen Smell*** The bear has advantage on Wisdom (Perception) checks that rely on smell.
 
-- ***Sturdy Build.*** The bear has advantage on Strength and Dexterity saving throws against being knocked prone.
-
-- ***Multiattack.*** From 5th level onwards, when you take the Attack action in bear form, you can make two attacks: one bite and one claw, or two claws. If both claw attacks hit the same creature, that creature must succeed on a Strength saving throw or fall prone. Save DC = 8 + the bear form’s Strength modifier + your proficiency bonus.
+- ***Sturdy Build*** The bear has advantage on Strength and Dexterity saving throws against being knocked prone.
 
 </div>
 
@@ -133,9 +135,9 @@ All bear forms share the following traits:
 
   ##### Actions
 
-  **Bite.** *Melee Weapon Attack*: +1 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage.
+  **Bite.** *Melee Weapon Attack*: +1 to hit, reach 5 ft., one target. Hit: (1d4) piercing damage.
 
-  **Claws.** *Melee Weapon Attack*: +1 to hit, reach 5 ft., one target. Hit: 1 (1d3) slashing damage.
+  **Claws.** *Melee Weapon Attack*: +1 to hit, reach 5 ft., one target. Hit: (1d3) slashing damage.
 
   </td></tr></tbody></table>
   </div>
@@ -157,24 +159,16 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Armor Class**   12 (Natural Armor)<br/>
+  **Armor Class**   11 (Natural Armor)<br/>
   **Hit Points** 	  19 (3d8 + 6)<br/>
-  **Speed** 			  50 ft., climb 30 ft.
+  **Speed** 			  40 ft., climb 30 ft.
   </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
   |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
   |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-  |15 (+2)|12 (+1)|14 (+2)|2 (-4)|12 (+1)|7 (-2)|
-
-  </td></tr>
-  <tr><td><hr></td></tr>
-  <tr><td markdown="1" class="monster">
-
-  **Skills** Physique +4, Perception +3<br/>
-  ***Swift Evasion.*** The bear has advantage on Dexterity saving throws.<br/>
-  ***Small Frame.*** Being Medium-sized, the bear can squeeze through narrow passages and tight spaces that would block larger creatures, and gains advantage on Dexterity (Stealth) checks made to hide in natural terrain.
+  |15 (+2)|10 (+0)|14 (+2)|2 (-4)|12 (+1)|7 (-2)|
 
   </td></tr>
   <tr><td><hr></td></tr>
@@ -182,9 +176,11 @@ All bear forms share the following traits:
 
   ##### Actions
 
-  **Bite.** *Melee Weapon Attack*: +4 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 2) piercing damage.
+  **Multiattack.** The bear makes two attacks: one with its bite and one with its claws.
 
-  **Claws.** *Melee Weapon Attack*: +4 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 2) slashing damage.
+  **Bite.** *Melee Weapon Attack*: +3 to hit, reach 5 ft., one target. Hit: (1d6 + 2) piercing damage.
+
+  **Claws.** *Melee Weapon Attack*: +3 to hit, reach 5 ft., one target. Hit: (2d4 + 2) slashing damage.
 
   </td></tr></tbody></table>
   </div>
@@ -221,17 +217,13 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Skills** Physique +6, Perception +3
-
-  </td></tr>
-  <tr><td><hr></td></tr>
-  <tr><td markdown="1" class="monster">
-
   ##### Actions
 
-  **Bite.** *Melee Weapon Attack*: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.
+  **Multiattack.** The bear makes two attacks: one with its bite and one with its claws.
 
-  **Claws.** *Melee Weapon Attack*: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.
+  **Bite.** *Melee Weapon Attack*: +5 to hit, reach 5 ft., one target. Hit: (1d8 + 4) piercing damage.
+
+  **Claws.** *Melee Weapon Attack*: +5 to hit, reach 5 ft., one target. Hit: (2d6 + 4) slashing damage.
 
   </td></tr></tbody></table>
   </div>
@@ -240,7 +232,57 @@ All bear forms share the following traits:
   <table class="monster">
   <thead><tr><th>
 
-  ### <a class="internal-link" name="internal-cavebear">Cave Bear (CR 2)</a>
+  ### <a class="internal-link" name="internal-polarbear">Polar Bear (CR 2)</a>
+  </th></tr></thead>
+  <tbody>
+  <tr><td><i>Large beast, unaligned</i></td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1">
+
+  Apex predators of the frozen north, polar bears are larger and more powerful than their brown cousins. They can swim great distances and are immune to the bone-chilling cold of arctic regions.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Armor Class**   12 (Natural Armor)<br/>
+  **Hit Points** 	  42 (5d10+15)<br/>
+  **Speed** 			  40 ft., swim 30 ft.
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
+  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+  |20 (+5)|10 (+0)|16 (+3)|2 (-4)|13 (+1)|7 (-2)|
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  **Damage Resistances** Cold<br/>
+  ***Ice Walk.*** The bear can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement.
+
+  </td></tr>
+  <tr><td><hr></td></tr>
+  <tr><td markdown="1" class="monster">
+
+  ##### Actions
+
+  **Multiattack.** The bear makes two attacks: one with its bite and one with its claws.
+
+  **Bite.** *Melee Weapon Attack*: +7 to hit, reach 5 ft., one target. Hit: (1d8 + 5) piercing damage.
+
+  **Claws.** *Melee Weapon Attack*: +7 to hit, reach 5 ft., one target. Hit: (2d6 + 5) slashing damage.
+
+  </td></tr></tbody></table>
+  </div>
+
+- <div class="monster multimonster frame">
+  <table class="monster">
+  <thead><tr><th>
+
+  ### <a class="internal-link" name="internal-cavebear">Cave Bear (CR 3)</a>
   </th></tr></thead>
   <tbody>
   <tr><td><i>Large beast, unaligned</i></td></tr>
@@ -254,8 +296,8 @@ All bear forms share the following traits:
   <tr><td markdown="1" class="monster">
 
   **Armor Class**   14 (Natural Armor)<br/>
-  **Hit Points** 	  59 (7d10 + 21)<br/>
-  **Speed** 			  40 ft., climb 30 ft.
+  **Hit Points** 	  66 (7d10 + 28)<br/>
+  **Speed** 			  40 ft.
   </td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
@@ -268,7 +310,6 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Skills** Physique +6, Perception +4<br/>
   **Senses** Low-light vision 60 ft.<br/>
   **Siege Paws.** The cave bear deals double damage to objects and structures.
 
@@ -278,58 +319,11 @@ All bear forms share the following traits:
 
   ##### Actions
 
-  **Bite.** *Melee Weapon Attack*: +7 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 5) piercing damage.
+  **Multiattack.** The bear can make two claw attacks. If both hits the same target, the bear can try to grapple it as a ***free action***. If the grapple is successful, the bear can make one bite attack as a ***bonus action*** now and every turn it maintains the grapple.
 
-  **Claws.** *Melee Weapon Attack*: +7 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 5) slashing damage.
+  **Bite.** *Melee Weapon Attack*: +8 to hit, reach 5 ft., one target. Hit: (1d8 + 5) piercing damage.
 
-  </td></tr></tbody></table>
-  </div>
-
-- <div class="monster multimonster frame">
-  <table class="monster">
-  <thead><tr><th>
-
-  ### <a class="internal-link" name="internal-polarbear">Polar Bear (CR 3)</a>
-  </th></tr></thead>
-  <tbody>
-  <tr><td><i>Large beast, unaligned</i></td></tr>
-  <tr><td><hr></td></tr>
-  <tr><td markdown="1">
-
-  Apex predators of the frozen north, polar bears are larger and more powerful than their brown cousins. They can swim great distances and are immune to the bone-chilling cold of arctic regions.
-
-  </td></tr>
-  <tr><td><hr></td></tr>
-  <tr><td markdown="1" class="monster">
-
-  **Armor Class**   13 (Natural Armor)<br/>
-  **Hit Points** 	  68 (8d10 + 24)<br/>
-  **Speed** 			  40 ft., swim 40 ft.
-  </td></tr>
-  <tr><td><hr></td></tr>
-  <tr><td markdown="1" class="monster">
-
-  |  STR  |  DEX  |  CON  |  INT  |  WIS  |  CHA  |
-  |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-  |20 (+5)|10 (+0)|16 (+3)|2 (-4)|13 (+1)|7 (-2)|
-
-  </td></tr>
-  <tr><td><hr></td></tr>
-  <tr><td markdown="1" class="monster">
-
-  **Skills** Physique +7, Perception +4<br/>
-  **Damage Resistances** Cold<br/>
-  ***Ice Walk.*** The bear can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement.
-
-  </td></tr>
-  <tr><td><hr></td></tr>
-  <tr><td markdown="1" class="monster">
-
-  ##### Actions
-
-  **Bite.** *Melee Weapon Attack*: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 6) piercing damage.
-
-  **Claws.** *Melee Weapon Attack*: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 6) slashing damage.
+  **Claws.** *Melee Weapon Attack*: +8 to hit, reach 5 ft., one target. Hit: (2d6 + 5) slashing damage.
 
   </td></tr></tbody></table>
   </div>
@@ -341,7 +335,7 @@ All bear forms share the following traits:
   ### <a class="internal-link" name="internal-direcavebear">Dire Cave Bear (CR 5)</a>
   </th></tr></thead>
   <tbody>
-  <tr><td><i>Huge beast, unaligned</i></td></tr>
+  <tr><td><i>Large beast, unaligned</i></td></tr>
   <tr><td><hr></td></tr>
   <tr><td markdown="1">
 
@@ -352,7 +346,7 @@ All bear forms share the following traits:
   <tr><td markdown="1" class="monster">
 
   **Armor Class**   14 (Natural Armor)<br/>
-  **Hit Points** 	  102 (12d12 + 24)<br/>
+  **Hit Points** 	  95 (10d10 + 40)<br/>
   **Speed** 			  40 ft., climb 30 ft.
 
   </td></tr>
@@ -367,7 +361,6 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Skills** Physique +9, Perception +4<br/>
   **Damage Resistances** Cold<br/>
   **Senses** Low-light vision 60 ft.<br/>
   **Siege Paws.** The dire cave bear deals double damage to objects and structures.
@@ -377,6 +370,8 @@ All bear forms share the following traits:
   <tr><td markdown="1" class="monster">
 
   ##### Actions
+
+  **Multiattack.** The bear can make two claw attacks. If both hits the same target, the bear can try to grapple it as a ***free action***. If the grapple is successful, the bear can make one bite attack as a ***bonus action*** now and every turn it maintains the grapple.
 
   **Bite.** *Melee Weapon Attack*: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 6) piercing damage.
 
@@ -425,11 +420,11 @@ All bear forms share the following traits:
 
   ##### Actions
 
-  **Multiattack.** The giant bear can make three attacks; two with its claws and one bite. If two claw attacks hit the same creature, it is knocked prone.
+  **Multiattack.** The giant bear can make three attacks; two with its claws and one bite. If a claw attack hits, the bear can swipe at an adjacent creature, making an additional claw attack as a ***free action***.
 
-  **Bite.** *Melee Weapon Attack*: +9 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) piercing damage.
+  **Bite.** *Melee Weapon Attack*: +10 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) piercing damage.
 
-  **Claws.** *Melee Weapon Attack*: +9 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) slashing damage.
+  **Claws.** *Melee Weapon Attack*: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) slashing damage.
 
   </td></tr></tbody></table>
   </div>
