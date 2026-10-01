@@ -59,7 +59,7 @@ Your attacks in bear form count as magical for the purpose of overcoming resista
 
 Grizzly Rage. Starting at 10th level, when you assume a bear form, or as a ***bonus action*** while in bear form, you can enter a Grizzly Rage for 1 minute. You can use this feature a number of times equal to your Wisdom modifier (minimum once), regaining all expended uses when you finish a long rest.
 
-While raging, you have resistance to bludgeoning, piercing, and slashing damage; advantage on Strength checks and Strength saving throws; and once on each of your turns when you hit with a bear-form melee attack, you deal extra damage equal to your proficiency bonus.
+While raging, you have resistance to bludgeoning, piercing, and slashing damage; advantage on Strength checks and Strength saving throws; and when you hit with a bear-form melee attack, you deal extra damage equal to your proficiency bonus.
 
 The rage ends early if you are incapacitated, leave bear form, or end it as a ***bonus action***.
 
@@ -438,7 +438,9 @@ All bear forms share the following traits:
 
 ## Bear Combat Skills
 
-These specialized combat skills represent tactics unique to bear forms. You can purchase them with your druid combat skill points during character creation or when you gain combat skill points. Each skill costs 1 combat skill point and has level or form prerequisites.
+These specialized combat skills represent tactics unique to bear forms. You can purchase them with your druid combat skill points during character creation or when you gain combat skill points. Each skill costs 1 combat skill point and can have form prerequisites. Common for all of them is that you cannot use these skills in Cub form.
+
+Your bear form DC is calculated as 8 + your proficiency bonus + your Strength modifier.
 
 <div class="columnstwo">
 
@@ -448,7 +450,7 @@ These specialized combat skills represent tactics unique to bear forms. You can 
 
   <details><summary>Bloodlust</summary>
 
-  Once per short rest, when both of your claw attacks hit the same creature on your turn, you can use a ***bonus action*** to make an additional bite attack against that creature.
+  When both of your claw attacks hit the same creature on your turn, you can use a ***bonus action*** to make an additional bite attack against that creature.
 
   Additionally, any creature you can track using Bloodhunter cannot hide or benefit from being invisible while they are within 30 feet of you as you can smell their presence.
 
@@ -458,11 +460,11 @@ These specialized combat skills represent tactics unique to bear forms. You can 
 
   <details><summary>Bluff Charge</summary>
 
-  Once per short or long rest, as an ***action***, move up to your speed in a straight line. Each creature of your choice within 10 feet of the space where you end this movement must make a Wisdom saving throw against your bear form save DC. On a failure, it is frightened of you until the end of your next turn. A creature that succeeds is immune to this feature for 24 hours.
+  As an ***action***, move up to your speed in a straight line. Each creature of your choice within 10 feet of the space where you end this movement must make a Wisdom saving throw against your bear form save DC. On a failure, it is frightened of you until the end of your next turn. A creature that succeeds is immune to this feature for 24 hours.
 
   <details><summary>Relentless Assault</summary>
 
-  Once per short rest, when you reduce a creature to 0 hit points with a bite or claw attack, you can use a ***bonus action*** to move up to half your speed and make another bite or claw attack.
+  When you reduce a creature to 0 hit points with a bite or claw attack, you can use a ***bonus action*** to move up to half your speed and make another claw attack.
 
   </details>
 
@@ -478,13 +480,13 @@ These specialized combat skills represent tactics unique to bear forms. You can 
 
   <details><summary>Concussive Strength</summary>
 
-  When you knock a creature prone with your claws as part of your Multiattack, that creature must succeed on a Constitution saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or have its speed reduced to 0 until the end of its next turn.
+  When you knock a creature prone with your claws as part of your Multiattack, that creature must succeed on a Constitution saving throw against your bear form save DC or have its speed reduced to 0 until the end of its next turn.
 
   <details><summary>Ground Slap</summary>
 
   **Prerequisite:** Requires Dire Bear form or higher
 
-  You can slam the ground with your claws. Once per short or long rest, as an ***action***, creatures of your choice on the ground within 15 feet must make a Strength saving throw against your bear form save DC. On a failure, a creature takes 2d6 bludgeoning damage and falls prone; on a success, it takes half damage and does not fall prone.
+  You can slam the ground with your claws. As an ***action***, all creatures on the ground within 15 feet must make a Strength saving throw against your bear form save DC. On a failure, a creature takes 2d6 bludgeoning damage and falls prone; on a success, it takes half damage and does not fall prone.
 
   </details>
 
@@ -506,19 +508,37 @@ These specialized combat skills represent tactics unique to bear forms. You can 
 
   When you score a critical hit with your bite or claws, you may roll one extra damage die.
 
+  <details><summary>Bite of the Beast</summary>
+
+  You may reroll an attack roll made with your bite. Use resets after a long rest.
+
+  <details><summary>Vicious Cycle</summary>
+
+  The use of Bite of the Beast resets every time you crit with a bite or claw attack.
+
+  </details>
+
+  </details>
+
+  <details><summary>Sharpened Claws</summary>
+
+  You score critical hit on a roll of 19 or 20 with your claws.
+
+  </details>
+
   </details>
 
   <details><summary>Splintered Path</summary>
 
   When you hit an object, tree, wall, or similar structure with a claw attack, you can destroy a 5-foot cube of nonmagical wood, ice, earth, or loose stone.
 
-  In addition, once per short or long rest, you can create a 10-foot-square area of difficult terrain within 30 feet for 1 minute. This requires that it makes sense in the environment (e.g., you cannot create difficult terrain on solid stone or metal surfaces).
+  In addition, you can create a 10-foot-square area of difficult terrain within 30 feet for 1 minute. This requires that it makes sense in the environment (e.g., you cannot create difficult terrain on solid stone or metal surfaces).
 
   <details><summary>Hail of Splinters</summary>
 
   **Prerequisite:** Requires Giant Bear form or higher
 
-  Once per long rest, when you hit a tree or wooden object at least Large in size with a claw attack, you can send splinters outward in a 30-foot cone. Each creature in the area makes a Dexterity saving throw against your bear form save DC, taking 6d6 piercing damage on a failure, or half as much on a success. Nonmagical vegetation and unsecured wooden objects in the area take maximum damage.
+  Once per short rest, when you hit a tree or wooden object at least Large in size with a claw attack, you can send splinters outward in a 30-foot cone. Each creature in the area makes a Dexterity saving throw against your bear form save DC, taking 6d6 piercing damage on a failure, or half as much on a success. Nonmagical vegetation and unsecured wooden objects in the area take maximum damage.
 
   </details>
 
@@ -526,22 +546,22 @@ These specialized combat skills represent tactics unique to bear forms. You can 
 
   <details><summary>Stomp</summary>
 
-  As a ***bonus action***, you can stomp on a prone creature within 5 feet. That creature must succeed on a Strength saving throw (DC = 8 + your Strength modifier + your proficiency bonus) or take 1d4 + your Strength modifier bludgeoning damage.
+  As part of a ***move action***, you can stomp on a prone creature within 5 feet. That creature must succeed on a Strength saving throw against your bear form save DC or take 1d4 + your Strength modifier bludgeoning damage.
 
   </details>
 
 
   <details><summary>Thickhide Ward</summary>
 
-  While you are in bear form, you can use your bonus action to gain temporary hit points equal to your druid level. These temporary hit points last for 1 minute or until depleted. You can use this feature a number of times equal to your Wisdom modifier (minimum 1), regaining all expended uses when you finish a long rest.
+  While you are in bear form, you can use your ***bonus action*** to gain temporary hit points equal to your druid level. These temporary hit points last for 1 minute or until depleted. You can use this feature a number of times equal to your Wisdom modifier (minimum 1), regaining all expended uses when you finish a long rest.
 
   <details><summary>Bristle Guard</summary>
 
-  While you are in bear form, creatures within 5 feet of you have disadvantage on opportunity attacks made against allies other than you. In addition, when an ally within 5 feet of you is hit by a melee attack, you can use your reaction to impose disadvantage on that attack roll.
+  While you are in bear form, creatures within 5 feet of you have disadvantage on opportunity attacks made against allies other than you. In addition, when an ally within 5 feet of you is hit by a melee attack, you can use your ***reaction*** to impose disadvantage on that attack roll.
 
   <details><summary>Sheltering Bulk</summary>
 
-  While you are in bear form, you can use your reaction when an ally within 10 feet of you is hit by an attack to move up to 10 feet toward that ally and become the target of the attack instead. You must be able to make the attack target you legally.
+  While you are in bear form, you can use your ***reaction*** when an ally within 10 feet of you is hit by an attack to move up to 10 feet toward that ally and become the target of the attack instead. You must be able to make the attack target you legally.
 
   <details><summary>Immovable Den</summary>
 
@@ -564,6 +584,9 @@ These specialized combat skills represent tactics unique to bear forms. You can 
   ├── Maul<br/>
   ├── Rear Up<br/>
   ├── Savage Critical<br/>
+  │&nbsp;&nbsp;&nbsp;├── Bite of the Beast<br/>
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── Vicious Cycle<br/>
+  │&nbsp;&nbsp;&nbsp;└── Sharpened Claws<br/>
   ├── Splintered Path<br/>
   │&nbsp;&nbsp;&nbsp;└── Hail of Splinters<br/>
   ├── Stomp<br/>
