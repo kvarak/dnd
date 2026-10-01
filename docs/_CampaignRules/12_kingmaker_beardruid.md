@@ -345,7 +345,7 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Armor Class**   14 (Natural Armor)<br/>
+  **Armor Class**   15 (Natural Armor)<br/>
   **Hit Points** 	  95 (10d10 + 40)<br/>
   **Speed** 			  40 ft., climb 30 ft.
 
@@ -397,7 +397,7 @@ All bear forms share the following traits:
   <tr><td><hr></td></tr>
   <tr><td markdown="1" class="monster">
 
-  **Armor Class**   13 (Natural Armor)<br/>
+  **Armor Class**   16 (Natural Armor)<br/>
   **Hit Points** 	  115 (10d12 + 50)<br/>
   **Speed** 			  40 ft.
   </td></tr>
