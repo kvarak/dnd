@@ -473,17 +473,11 @@ Your bear form DC is calculated as 8 + your proficiency bonus + your Strength mo
 
   </details>
 
-  <details><summary>Concussive Strength</summary>
-
-  When you knock a creature prone with your claws as part of your Multiattack, that creature must succeed on a Constitution saving throw against your bear form save DC or have its speed reduced to 0 until the end of its next turn.
-
   <details><summary>Ground Slap</summary>
 
   **Prerequisite:** Requires Dire Bear form or higher
 
   You can slam the ground with your claws. As an ***action***, all creatures on the ground within 15 feet must make a Strength saving throw against your bear form save DC. On a failure, a creature takes 2d6 bludgeoning damage and falls prone; on a success, it takes half damage and does not fall prone.
-
-  </details>
 
   </details>
 
@@ -574,8 +568,7 @@ Your bear form DC is calculated as 8 + your proficiency bonus + your Strength mo
   ├── Bluff Charge<br/>
   │&nbsp;&nbsp;&nbsp;├── Relentless Assault<br/>
   │&nbsp;&nbsp;&nbsp;└── Run Down<br/>
-  ├── Concussive Strength<br/>
-  │&nbsp;&nbsp;&nbsp;└── Ground Slap<br/>
+  ├── Ground Slap<br/>
   ├── Maul<br/>
   ├── Rear Up<br/>
   ├── Savage Critical<br/>
