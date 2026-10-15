@@ -559,6 +559,17 @@ Your bear form DC is calculated as 8 + your proficiency bonus + your Strength mo
   </details>
   </details>
   </details>
+
+  <details><summary>Thick Fur</summary>
+
+  While you are in bear form, your Armor Class increases by 1. This skill cannot be used in Cub Form.
+
+  <details><summary>Bristling Fur</summary>
+
+  While you are in bear form, when you are attacked, after the attack roll is made but before the outcome is determined, you can use your ***reaction*** to bristle your fur and tighten your stance. Add 2 to your AC against that attack, potentially causing it to miss.
+  </details>
+  </details>
+
   </details>
 
 - <code>
@@ -579,9 +590,12 @@ Your bear form DC is calculated as 8 + your proficiency bonus + your Strength mo
   │&nbsp;&nbsp;&nbsp;└── Hail of Splinters<br/>
   ├── Stomp<br/>
   └── Thickhide Ward<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;└── Bristle Guard<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Sheltering Bulk<br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Immovable Den
+  &nbsp;&nbsp;&nbsp;&nbsp;├── Bristle Guard<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── Sheltering Bulk<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Immovable Den<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;└── Thick Fur<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Bristling Fur<br/>
+
   </code>
 
 
