@@ -10,6 +10,7 @@ type: index
 <h5><a href="#warfare">Warfare</a></h5>
 <a href="#unit-statistics">Unit Statistics</a><br/>
 <a href="#basic-units">Basic Units</a><br/>
+<a href="#commanders-and-heroes">Commanders and Heroes</a><br/>
 <a href="#preparing-a-battle">Preparing a Battle</a><br/>
 <a href="#battle-rounds">Battle Rounds</a><br/>
 <a href="#attacking">Attacking</a><br/>
@@ -27,7 +28,7 @@ type: index
 
 > The rules on this page are temporary rules for the Kingmaker campaign. Anything here is not officially part of the Varlyn ruleset, but is intended to be compatible with it. Perhaps we like the rules well enough to incorporate them into the Varlyn ruleset in the future.
 >
-> This is a deliberately simplified house-rule adaptation **inspired by** *Strongholds & Followers*. It is not a reproduction of the official Strongholds & Followers rules. Turn order, targeting, withdrawal and recovery are house rules.
+> This is a deliberately simplified house-rule adaptation **inspired by** *Strongholds & Followers*. It is not a reproduction of the official Strongholds & Followers rules. Turn order, targeting, withdrawal, recovery, commanders and heroes are house rules.
 
 # Warfare
 
@@ -167,6 +168,72 @@ Combat is abstract: there is no movement grid, facing, distance or formation tra
 
 </div>
 
+## Commanders and Heroes
+
+<div class="columnstwo">
+
+- ### Assigning Roles
+
+  An army may have one commander. Each unit may also have one attached hero. These can be player characters or named NPCs.
+
+  A character can fill only one role in a battle: army commander or hero of one unit. Additional characters may be present, but do not grant additional bonuses.
+
+  Assign these roles before battle. They cannot be transferred during battle.
+
+  These are house rules for this simplified system, not published Strongholds & Followers mechanics.
+
+- ### Army Commander
+
+  The commander directs the army rather than belonging to a particular unit.
+
+  Once per round, before a friendly unit rolls its Attack, the commander may grant that roll **advantage**. Declare this before rolling. This does not use the unit's activation or give it an additional attack.
+
+  &dash; This benefit is shared by the entire army, not available once per unit.<br/>
+  &dash; It does not stack with other sources of advantage.<br/>
+  &dash; An army without a commander can still fight normally.
+
+  Use one marker or checkbox to track whether command has been used this round. Refresh it at the start of each round.
+
+- ### Unit Heroes
+
+  A hero fights alongside and inspires one unit.
+
+  While its hero remains with it, the unit gains **+2 Morale**. This is the hero's only automatic mechanical benefit.
+
+  &dash; A unit can receive this bonus only once, regardless of how many named characters accompany it.<br/>
+  &dash; The hero does not grant additional attacks, Strength or damage.<br/>
+  &dash; The hero remains attached until the unit withdraws, is defeated or the battle ends.
+
+  Record the hero's name and the adjusted Morale on the unit card before battle.
+
+- ### Character Actions and Safety
+
+  Commander and hero benefits replace ordinary character turns during abstract warfare. Do not also resolve their normal attacks, spells, healing or class abilities against units.
+
+  If a character leaves to take part in a separately played encounter, their commander or hero benefit stops until that encounter is resolved and they return. Do not move them between the battle and an encounter activation by activation.
+
+  A hero withdraws with their unit. If the unit is defeated, the hero cannot grant further benefits during that battle.
+
+  Unit defeat does not automatically kill or capture a hero. After battle, the player chooses:
+
+  &dash; Escape, but take no further part in this battle.<br/>
+  &dash; Remain with the defeated soldiers and share their fate, as established by the GM.
+
+  The commander likewise does not automatically die when the army loses.
+
+- ### Commander and Hero Example
+
+  An army contains two trained infantry units and one archer unit.
+
+  &dash; Kesten is the army commander. Once each round, he can grant advantage to one unit's Attack roll.<br/>
+  &dash; A player character is the hero of one infantry unit. Its Morale rises from +2 to +4.<br/>
+  &dash; Another player character is the archers' hero. Their Morale also rises from +2 to +4.<br/>
+  &dash; The remaining infantry has no hero and keeps Morale +2.
+
+  The commander can support a unit that already has a hero: the two benefits affect different rolls.
+
+</div>
+
 ## Battle
 
 <div class="columnstwo">
@@ -178,6 +245,7 @@ Combat is abstract: there is no movement grid, facing, distance or formation tra
   &dash; Establish each side's objective and what would make it withdraw.<br/>
   &dash; List the participating units and their current Strength.<br/>
   &dash; Assign friendly units to players to control.<br/>
+  &dash; Assign the army commander and any unit heroes.<br/>
   &dash; Agree on any important battlefield circumstances.<br/>
 
   For a straightforward battle, the objective is to force every opposing unit to withdraw or be defeated.
@@ -253,7 +321,7 @@ Combat is abstract: there is no movement grid, facing, distance or formation tra
 
   Do not translate ordinary character attacks, healing, temporary hit points or spells directly into unit Strength or damage.
 
-  A decisive character contribution can grant advantage on one friendly unit's next Attack roll. Agree on the affected unit when the contribution succeeds. Alternatively, it may change the situation, such as opening a gate or securing a withdrawal route.
+  Characters participating directly in the battle use the [commander and hero rules](#commanders-and-heroes). Separate achievements - such as opening a gate, destroying a bridge or negotiating a surrender - change the situation rather than granting additional automatic combat bonuses.
 
 - ### After the Battle
 
@@ -273,7 +341,10 @@ Combat is abstract: there is no movement grid, facing, distance or formation tra
   &dash; Use one bar for current and maximum Strength.<br/>
   &dash; Use one status marker for "acted this round".<br/>
   &dash; Use another marker for "diminished".<br/>
+  &dash; Note the unit's hero, if any, on the token or its handout.<br/>
   &dash; Keep its statistics in an associated handout or character entry.
+
+  Track the commander's once-per-round advantage with one marker or checkbox for the whole army.
 
   Place opposing units in two groups. Token positions have no mechanical effect.
 
