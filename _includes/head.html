@@ -78,8 +78,15 @@
 <script src="{{ site.baseurl }}/assets/js/dark-mode.js?v={{ site.time | date: '%s' }}"></script>
 
 <!-- GoatCounter Analytics -->
-<script data-goatcounter="https://stats.dnd.kvarak.net/count"
-        async src="//stats.dnd.kvarak.net/count.js"></script>
+<script>
+    window.goatcounter = {
+        path: function (path) {
+            return location.hostname + path;
+        }
+    };
+</script>
+<script data-goatcounter="https://stats.kvarak.net/count"
+        async src="//stats.kvarak.net/count.js"></script>
 
 <!-- Service Worker Registration - DISABLED -->
 <!-- Unregister existing service workers and clear caches -->
