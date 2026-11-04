@@ -191,6 +191,9 @@ decorative first letters if the paragraph is particularly short.
 h1+p+h2 { clear: left; }
 h1+p+h3 { clear: left; }
 h1+p+h4 { clear: left; }
+/* Same as above, but for finicky subclass pages */
+h1+p+.featuresTable+h3 { clear: left; }
+h1+.featuresTable+p+h3 { clear: left; }
 
 .featuresTable+p::first-letter {
   float:left;
@@ -227,6 +230,8 @@ table {
 }
 
 details {
+  display: flow-root;
+  width: auto;
   margin-top: 1px;
   margin-left: 20px;
   margin-right: 20px;
@@ -573,6 +578,9 @@ hr.classdivider {
   background-size: 100% 100%;
   border: none;
 }
+
+hr.classdivider:has(+h1) { clear:both; }
+hr.classdivider:has(+h2) { clear:both; }
 
 hr.dividerinfolk {
   visibility: visible;
