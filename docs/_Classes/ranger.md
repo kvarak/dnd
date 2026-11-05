@@ -800,15 +800,15 @@ You can dodge in unforeseen ways, with wisps of supernatural shadow around you. 
 
 Herbalist rangers are students of nature's hidden chemistry. To them, every flower is a potential remedy, every fungus conceals a secret, and every venom carries the seed of a weapon.
 
-While other rangers learn to master beasts or stalk prey through darkness, an Herbalist studies the countless reactions that occur within the natural world. They know which roots numb pain, which mosses preserve life, which pollens cloud the mind, and which rare blossoms can kill with a single drop.
+While other rangers learn to master beasts or stalk prey through darkness, a Herbalist studies the countless reactions that occur within the natural world. They know which roots numb pain, which mosses preserve life, which pollens cloud the mind, and which rare blossoms can kill with a single drop.
 
-Most Herbalists travel with bulging satchels filled with dried herbs, toxins, spores, salves, and unfinished concoctions. Around a campfire they grind roots and distill essences. In battle they hurl volatile mixtures, coat weapons with virulent toxins, and administer life-saving remedies in the space between heartbeats. To an untrained observer, the work of an Herbalist seems like magic. Yet they know the truth: nature itself is the greatest alchemist.
+Most Herbalists travel with bulging satchels filled with dried herbs, toxins, spores, salves, and unfinished concoctions. Around a campfire they grind roots and distill essences. In battle they hurl volatile mixtures, coat weapons with virulent toxins, and administer life-saving remedies in the space between heartbeats. To an untrained observer, the work of a Herbalist seems like magic. Yet they know the truth: nature itself is the greatest alchemist.
 
 ### Natural Alchemist
 Gain 1 skill point each to spend on the *Alchemy* and *Herbalism* skills.
 
 ### Volatile Mixtures
-As long as you have an herbalism kit, during a long rest you can prepare five mixtures, chosen from the list below, in any combination. For example, you can prepare three healing draughts and two quick coatings at the end of a long rest.
+As long as you have a herbalism kit, during a long rest you can prepare five mixtures, chosen from the list below, in any combination. For example, you can prepare three healing draughts and two quick coatings at the end of a long rest.
 
 It is assumed that your mixtures are created from ingredients foraged or gathered while traveling. Your mixtures lose their potency after 24 hours. Some mixtures require a target to make a saving throw to resist the mixture's effects. The saving throw DC is your Edge save DC.
 

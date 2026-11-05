@@ -5,7 +5,7 @@ layout: default
 
 # <a class="internal-link" name="internal-herbalremedies">Herbal Remedies</a>
 
-Herbal remedies are special herbal poultices, potions, and other curatives that can be used to heal wounds and increase one’s strength and senses. Creating herbal remedies requires an Herbalism Kit. These remedies can usually be bought in any town or village.
+Herbal remedies are special herbal poultices, potions, and other curatives that can be used to heal wounds and increase one’s strength and senses. Creating herbal remedies requires a Herbalism Kit. These remedies can usually be bought in any town or village.
 
 <img src='https://i.pinimg.com/600x315/90/dd/c9/90ddc977068e4f05f7799f89802396e0.jpg' style='width:65%;padding:20px' />
 
@@ -131,7 +131,7 @@ Herbal remedies are special herbal poultices, potions, and other curatives that 
 
     Price: 6 sp
 
-    Dragon’s bane is an herb that is used in purple dyes, but is most popularly known for its ability to ease fear and anxiety in those who inhale its smoke. Widely used by soldiers, dragon’s bane tobacco has a dark, spicy aroma and deep purple smoke. Some temples use dragon’s bane incense to settle the mind to enhance concentration.
+    Dragon’s bane is a herb that is used in purple dyes, but is most popularly known for its ability to ease fear and anxiety in those who inhale its smoke. Widely used by soldiers, dragon’s bane tobacco has a dark, spicy aroma and deep purple smoke. Some temples use dragon’s bane incense to settle the mind to enhance concentration.
 
     Benefit: Any character inhaling the smoke (whether from tobacco or incense) gains an advantage against any fear related saves while it is burning (no more than 1 hour) and for 1 hour afterwards. If outdoors, the smoke can affect a 5 ft radius if there is no wind. Incense will have no effect outdoors if there is any wind, while the tobacco would only affect the smoker. Indoors, the smoke of a single pipe or block of incense can affect a 10 ft radius. The character must inhale the smoke for at least 10 minutes to acquire its benefits.
 

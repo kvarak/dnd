@@ -61,7 +61,7 @@ The first step when playing is to create a character. All classes and folk can b
 
 -   ### <a class="internal-link" name="internal-Herbalism">Herbalism</a>
 
-    <a href="herbalism.md">In-depth Herbalism rules can be found here.</a>
+    <a href="herbalism.html">In-depth Herbalism rules can be found here.</a>
 
 -   ### <a class="internal-link" name="internal-Hitpoints">Hit points</a>
 
