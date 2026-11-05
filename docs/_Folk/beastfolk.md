@@ -1422,7 +1422,7 @@ For each god, the table notes alignment, portfolio and suggested domains for cle
   Kunek in mourning often pray to Inlé-rah at dusk to watch over their loved ones.
 
 - ##### <a name="raihrah">Raihrah, The Rainbow Prince</a>
-  Legend states Raihrah was once Frith's loyal assist ant, helping them in organizing the world.
+  Legend states Raihrah was once Frith's loyal assistant, helping them in organizing the world.
   Raihrah, seeing the following El-ahrairah had effortlessly amassed, choked on his pride.
   Having turned his back on his duties, Raihrah now focuses on thwarting and harming El-ahrairah whenever he can, yet always ends up outsmarted.
   He is no longer directly worshiped by most kunek, yet many sayings and curses still name him.
