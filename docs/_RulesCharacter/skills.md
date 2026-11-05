@@ -793,7 +793,7 @@ The Religion skill covers your ability to recall lore about deities, rites and p
 
 <details><summary>Acolyte (group)</summary>
 
-You have formal in-depth training on one particular deity and the patheon it belongs to. Select a deity. You are always assumed to have rolled a 20 on any checks regarding the chosen deity, unless it is regarding the finer points of theology, obscure myths or secret knowledge. If a check is required you have ***Expertise***, both for questions regarding the deity, as well as its pantheon.
+You have formal in-depth training on one particular deity and the pantheon it belongs to. Select a deity. You are always assumed to have rolled a 20 on any checks regarding the chosen deity, unless it is regarding the finer points of theology, obscure myths or secret knowledge. If a check is required you have ***Expertise***, both for questions regarding the deity, as well as its pantheon.
 </details>
 
 <details><summary>Divine Magic</summary>

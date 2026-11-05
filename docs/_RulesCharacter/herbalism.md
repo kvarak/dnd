@@ -7,7 +7,7 @@ layout: default
 If you have have the *Herbalism* skill, you know where to find useful plants, identify them, safely collect them and how to use them properly.
 
 ### The herbalism kit
-An herbalism kit includes pouches to store herbs, clippers and leather gloves for collecting plants, a mortar and pestle, and several glass jars.
+A herbalism kit includes pouches to store herbs, clippers and leather gloves for collecting plants, a mortar and pestle, and several glass jars.
 
 ### Gathering herbs
 You can gather herbs during travel or during downtime.
@@ -358,7 +358,7 @@ This tables are used to randomly determine which ingredient are found in differe
 
 - **Troll Poppy &sup1;**. A bright blue poppy flower commonly used to bribe trolls for safe passage through a monster-filled area. Trolls go wild for these flowers and will eat them as soon as they lay eyes on them. Usually found in large patches in open fields, 2d8 flowers can be harvested per 5 ft by 5 ft area. In addition to their use with trolls, the petals of troll poppies can be dried, crumbled, and smoked.
 
-- **Waxworm**. The waxworm is not an herb, but a moth larvae. It can be squashed and use as a basis for a brew with healing properties. This brew, called hag’s brew, is a vile concoction that requires a DC 12 Constitution check to not instantly throw up. If the check is passed, it restores 6d4 hp.
+- **Waxworm**. The waxworm is not a herb, but a moth larvae. It can be squashed and use as a basis for a brew with healing properties. This brew, called hag’s brew, is a vile concoction that requires a DC 12 Constitution check to not instantly throw up. If the check is passed, it restores 6d4 hp.
 
 - **White baneberry &sup1;**. These berries are highly poisonous. A creature eating one must succeed with a DC 11 Constitution saving throw, taking 3d6 poison damage on a failed save, or half as much damage on a successful one. Eating several increases the DC by one per extra berry (max DC 19).
 
@@ -373,4 +373,3 @@ This tables are used to randomly determine which ingredient are found in differe
 - **Yewclaw**. The yellow bark of the yewclaw is a wonderful way to ease the strain of madness on an afflicted person. When dried, it can be burnt as an incense, and when deeply inhaled the resultant smoke calms the mind, suppressing a short-term madness completely, and easing a long-term madness for one hour.
 
 </div>
-
