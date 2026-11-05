@@ -156,11 +156,22 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6em;
+  font-size: 1.8em;
 }
+
+h3::before {
+  content: "✧";
+  display: inline-block;
+  margin-right: 0.3em;
+  font-size: 1em;
+  color: var(--color-heading);
+}
+
+
 h4 {
   font-size: 1.4em;
 }
+
 h5 {
   font-size: 1.2em;
 }
