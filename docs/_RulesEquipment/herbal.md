@@ -41,7 +41,7 @@ Herbal remedies are special herbal poultices, potions, and other curatives that 
     | Laumspur tea | 20 gp
     | Lavender tea | 20 gp
     | Insectbane candle | 2 gp
-    | Mellowrot | 2 sp
+    | Mellowroot | 2 sp
     | Oilosse | 2,000 gp
     | Pesh | 5 sp
     | Pomander of Warding | 15 gp
@@ -257,7 +257,7 @@ Herbal remedies are special herbal poultices, potions, and other curatives that 
     Grants immunity to being magically put to sleep and advantage on any saving throws involved with magical effects that would affect their sleep for 24 hours.
 
 
--   #### Mellowrot
+-   #### Mellowroot
 
     Price: 2 sp
 
